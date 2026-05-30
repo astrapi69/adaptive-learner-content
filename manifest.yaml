@@ -1,0 +1,23 @@
+# Adaptive Learner Content Repository
+# https://github.com/astrapi69/adaptive-learner-content
+
+schema_version: "1.1"
+repository:
+  name: "Adaptive Learner Official Content"
+  maintainer: "astrapi69"
+  url: "https://github.com/astrapi69/adaptive-learner-content"
+
+sets:
+  - id: "fr-a1"
+    path: "sets/fr-a1"
+    language: "fr"
+    level: "A1"
+    title: "Français A1 — Débutant"
+    lesson_count: 10
+
+  - id: "es-a1"
+    path: "sets/es-a1"
+    language: "es"
+    level: "A1"
+    title: "Español A1 — Principiante"
+    lesson_count: 5
