@@ -1,0 +1,552 @@
+{
+  "id": "10-stadt-wegbeschreibung",
+  "title": "In der Stadt - Orte und Wegbeschreibung",
+  "description": "Orte in der Stadt und Wegbeschreibungen auf Spanisch - mit der wichtigen Regel der Verschmelzungen al und del, auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "la-calle",
+      "front": "la calle",
+      "back": "die Straße",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "el-banco",
+      "front": "el banco",
+      "back": "die Bank (Geldinstitut)",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "la-plaza",
+      "front": "la plaza",
+      "back": "der Platz",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "el-museo",
+      "front": "el museo",
+      "back": "das Museum",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "la-tienda",
+      "front": "la tienda",
+      "back": "das Geschäft / der Laden",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "la-estacion",
+      "front": "la estación",
+      "back": "der Bahnhof / die Station",
+      "notes": "Akzent auf dem ó. Plural: las estaciones (ohne Akzent).",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "el-hotel",
+      "front": "el hotel",
+      "back": "das Hotel",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "el-restaurante",
+      "front": "el restaurante",
+      "back": "das Restaurant",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "en",
+      "front": "en",
+      "back": "in / an / auf",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "al-lado-de",
+      "front": "al lado de",
+      "back": "neben",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "entre",
+      "front": "entre",
+      "back": "zwischen",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "enfrente-de",
+      "front": "enfrente de",
+      "back": "gegenüber",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "a-la-derecha",
+      "front": "a la derecha",
+      "back": "nach rechts / rechts",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "a-la-izquierda",
+      "front": "a la izquierda",
+      "back": "nach links / links",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "todo-recto",
+      "front": "todo recto",
+      "back": "geradeaus",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "voy-al-banco",
+      "front": "Voy al banco.",
+      "back": "Ich gehe zur Bank. (a + el = al)",
+      "notes": "a + el verschmilzt zu al. Niemals 'a el'.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "museo-derecha",
+      "front": "El museo está a la derecha.",
+      "back": "Das Museum ist rechts.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "al-lado-del-restaurante",
+      "front": "al lado del restaurante",
+      "back": "neben dem Restaurant (de + el = del)",
+      "notes": "de + el verschmilzt zu del. Niemals 'de el'.",
+      "tags": [
+        "preposition"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-orte",
+      "type": "theory",
+      "title": "Orte in der Stadt",
+      "body": "# In der Stadt\n\nDiese Lektion bringt dir die wichtigsten Orte in einer Stadt und die Wörter für Wegbeschreibungen bei.\n\nMerke dir bei jedem Substantiv den **Artikel** mit (el oder la) - er entscheidet später über die Verschmelzung.\n\n| Spanisch | Bedeutung |\n|---|---|\n| la calle | die Straße |\n| el banco | die Bank |\n| la plaza | der Platz |\n| el museo | das Museum |\n| la tienda | das Geschäft |\n| la estación | der Bahnhof |\n| el hotel | das Hotel |\n| el restaurante | das Restaurant |\n\nDie **Station / der Bahnhof** heißt *la estación* - mit Akzent auf dem ó."
+    },
+    {
+      "id": "intro-praepositionen",
+      "type": "theory",
+      "title": "Präpositionen des Ortes",
+      "body": "## Wo ist etwas?\n\nMit diesen Präpositionen beschreibst du, wo sich ein Ort befindet:\n\n- **en** - in / an / auf: *Estoy en el hotel.* (Ich bin im Hotel.)\n- **al lado de** - neben: *al lado del banco* (neben der Bank)\n- **entre** - zwischen: *entre la plaza y el museo* (zwischen dem Platz und dem Museum)\n- **enfrente de** - gegenüber: *enfrente de la estación* (gegenüber dem Bahnhof)\n\n## Richtungen\n\nFür Wegbeschreibungen brauchst du:\n\n- **a la izquierda** - nach links / links\n- **a la derecha** - nach rechts / rechts\n- **todo recto** - geradeaus\n\nBeispiel: *El museo está a la derecha.* (Das Museum ist rechts.)"
+    },
+    {
+      "id": "intro-verschmelzungen",
+      "type": "theory",
+      "title": "Die Verschmelzungen: al und del",
+      "body": "## Die wichtigste Regel: al und del\n\nIm Spanischen verschmelzen zwei kurze Wörter mit dem Artikel **el** zu einem Wort. Das ist Pflicht - die getrennte Form ist falsch.\n\n**a + el = al**\n\n- FALSCH: ~~Voy a el banco.~~\n- RICHTIG: **Voy al banco.** (Ich gehe zur Bank.)\n\n**de + el = del**\n\n- FALSCH: ~~al lado de el museo~~\n- RICHTIG: **al lado del museo** (neben dem Museum)\n\n### Nur mit el!\n\nDie Verschmelzung passiert **nur** mit dem männlichen Artikel **el** im Singular. Mit *la*, *los* und *las* verschmilzt nichts:\n\n| Original | Verschmelzung |\n|---|---|\n| a + el banco | **al** banco |\n| a + la tienda | a **la** tienda (keine Verschmelzung) |\n| de + el museo | **del** museo |\n| de + la plaza | de **la** plaza (keine Verschmelzung) |\n\nMerke: *Voy a la plaza* bleibt getrennt, aber *Voy al banco* verschmilzt."
+    },
+    {
+      "id": "ex-match-orte",
+      "type": "exercise",
+      "title": "Orte zuordnen",
+      "exercise": {
+        "id": "ex-match-orte",
+        "type": "matching",
+        "prompt": "Ordne die spanischen Orte ihrer deutschen Bedeutung zu.",
+        "card_ids": [
+          "la-calle",
+          "el-banco",
+          "la-plaza",
+          "el-museo",
+          "la-estacion"
+        ],
+        "pairs": [
+          {
+            "left": "la calle",
+            "right": "die Straße"
+          },
+          {
+            "left": "el banco",
+            "right": "die Bank"
+          },
+          {
+            "left": "la plaza",
+            "right": "der Platz"
+          },
+          {
+            "left": "el museo",
+            "right": "das Museum"
+          },
+          {
+            "left": "la estación",
+            "right": "der Bahnhof"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-richtungen",
+      "type": "exercise",
+      "title": "Richtungen zuordnen",
+      "exercise": {
+        "id": "ex-match-richtungen",
+        "type": "matching",
+        "prompt": "Ordne die spanischen Richtungsangaben ihrer deutschen Bedeutung zu.",
+        "card_ids": [
+          "a-la-derecha",
+          "a-la-izquierda",
+          "todo-recto",
+          "enfrente-de",
+          "al-lado-de"
+        ],
+        "pairs": [
+          {
+            "left": "a la derecha",
+            "right": "nach rechts"
+          },
+          {
+            "left": "a la izquierda",
+            "right": "nach links"
+          },
+          {
+            "left": "todo recto",
+            "right": "geradeaus"
+          },
+          {
+            "left": "enfrente de",
+            "right": "gegenüber"
+          },
+          {
+            "left": "al lado de",
+            "right": "neben"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-al",
+      "type": "exercise",
+      "title": "Lücke füllen: a + el",
+      "exercise": {
+        "id": "ex-cloze-al",
+        "type": "cloze",
+        "prompt": "Verschmilz a + el zur richtigen Form. 'Ich gehe zur Bank.'",
+        "card_ids": [
+          "voy-al-banco",
+          "el-banco"
+        ],
+        "sentence": "Voy ___ banco.",
+        "blanks": [
+          {
+            "accept": [
+              "al",
+              "Al"
+            ],
+            "hint": "a + el = al"
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "el banco ist männlich → a + el = al."
+      }
+    },
+    {
+      "id": "ex-cloze-del",
+      "type": "exercise",
+      "title": "Lücke füllen: de + el",
+      "exercise": {
+        "id": "ex-cloze-del",
+        "type": "cloze",
+        "prompt": "Verschmilz de + el zur richtigen Form. 'Das Hotel ist neben dem Museum.'",
+        "card_ids": [
+          "al-lado-de",
+          "el-museo",
+          "el-hotel"
+        ],
+        "sentence": "El hotel está al lado ___ museo.",
+        "blanks": [
+          {
+            "accept": [
+              "del",
+              "Del"
+            ],
+            "hint": "de + el = del"
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "el museo ist männlich → de + el = del."
+      }
+    },
+    {
+      "id": "ex-cloze-a-la",
+      "type": "exercise",
+      "title": "Lücke füllen: keine Verschmelzung",
+      "exercise": {
+        "id": "ex-cloze-a-la",
+        "type": "cloze",
+        "prompt": "Hier folgt 'la' - es verschmilzt nichts. 'Das Geschäft ist rechts.'",
+        "card_ids": [
+          "la-tienda",
+          "a-la-derecha"
+        ],
+        "sentence": "La tienda está ___ la derecha.",
+        "blanks": [
+          {
+            "accept": [
+              "a",
+              "A"
+            ],
+            "hint": "Vor la verschmilzt a nicht."
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "a + la verschmilzt nicht - es bleibt 'a la'."
+      }
+    },
+    {
+      "id": "ex-free-voy-al-banco",
+      "type": "exercise",
+      "title": "Übersetzen: zur Bank gehen",
+      "exercise": {
+        "id": "ex-free-voy-al-banco",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Ich gehe zur Bank.' (Denk an a + el = al.)",
+        "card_ids": [
+          "voy-al-banco",
+          "el-banco"
+        ],
+        "accept": [
+          "Voy al banco.",
+          "voy al banco",
+          "Yo voy al banco."
+        ],
+        "hint": "a + el banco → al banco. Niemals 'a el'.",
+        "distractors": [
+          "Voy a el banco.",
+          "Voy al banca.",
+          "Voy a banco."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-museo-derecha",
+      "type": "exercise",
+      "title": "Übersetzen: rechts",
+      "exercise": {
+        "id": "ex-free-museo-derecha",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Das Museum ist rechts.' (Ort → estar.)",
+        "card_ids": [
+          "museo-derecha",
+          "el-museo",
+          "a-la-derecha"
+        ],
+        "accept": [
+          "El museo está a la derecha.",
+          "el museo esta a la derecha",
+          "El museo esta a la derecha."
+        ],
+        "hint": "Ort → estar → está. 'rechts' = a la derecha.",
+        "distractors": [
+          "El museo es a la derecha.",
+          "El museo está a la izquierda.",
+          "El museo está a la derecho."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-al-lado-del",
+      "type": "exercise",
+      "title": "neben dem Museum",
+      "exercise": {
+        "id": "ex-pick-al-lado-del",
+        "type": "picture_choice",
+        "prompt": "Wähle die richtige Form: 'neben dem Museum' (de + el = del).",
+        "card_ids": [
+          "al-lado-de",
+          "el-museo"
+        ],
+        "images": [
+          {
+            "src": "assets/img/al-lado-del-museo-1.png",
+            "label": "al lado del museo",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/al-lado-del-museo-2.png",
+            "label": "al lado de el museo"
+          },
+          {
+            "src": "assets/img/al-lado-del-museo-3.png",
+            "label": "al lado de museo"
+          },
+          {
+            "src": "assets/img/al-lado-del-museo-4.png",
+            "label": "a lado del museo"
+          }
+        ],
+        "hint": "de + el museo → del museo.",
+        "distractors": [
+          "al lado de el museo",
+          "al lado de museo",
+          "a lado del museo"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-al-banco",
+      "type": "exercise",
+      "title": "zur Bank",
+      "exercise": {
+        "id": "ex-pick-al-banco",
+        "type": "picture_choice",
+        "prompt": "Wähle die richtige Form: 'zur Bank' (a + el = al).",
+        "card_ids": [
+          "voy-al-banco",
+          "el-banco"
+        ],
+        "images": [
+          {
+            "src": "assets/img/al-banco-1.png",
+            "label": "al banco",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/al-banco-2.png",
+            "label": "a el banco"
+          },
+          {
+            "src": "assets/img/al-banco-3.png",
+            "label": "a la banco"
+          },
+          {
+            "src": "assets/img/al-banco-4.png",
+            "label": "al banca"
+          }
+        ],
+        "hint": "a + el banco → al banco.",
+        "distractors": [
+          "a el banco",
+          "a la banco",
+          "al banca"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-enfrente",
+      "type": "exercise",
+      "title": "Satz bauen: gegenüber dem Platz",
+      "exercise": {
+        "id": "ex-tile-enfrente",
+        "type": "word_tiles",
+        "prompt": "Setze den Satz zusammen: 'Die Bank ist gegenüber dem Platz.'",
+        "card_ids": [
+          "el-banco",
+          "enfrente-de",
+          "la-plaza"
+        ],
+        "tiles": [
+          "El",
+          "banco",
+          "está",
+          "enfrente",
+          "de",
+          "la",
+          "plaza"
+        ],
+        "hint": "enfrente de = gegenüber. Vor la verschmilzt nichts.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-izquierda",
+      "type": "exercise",
+      "title": "Satz bauen: links",
+      "exercise": {
+        "id": "ex-tile-izquierda",
+        "type": "word_tiles",
+        "prompt": "Setze den Satz zusammen: 'Das Geschäft ist links.'",
+        "card_ids": [
+          "la-tienda",
+          "a-la-izquierda"
+        ],
+        "tiles": [
+          "La",
+          "tienda",
+          "está",
+          "a",
+          "la",
+          "izquierda"
+        ],
+        "hint": "a la izquierda = links.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-al-lado-restaurante",
+      "type": "exercise",
+      "title": "Übersetzen: neben dem Restaurant",
+      "exercise": {
+        "id": "ex-free-al-lado-restaurante",
+        "type": "free_text",
+        "prompt": "Übersetze: 'neben dem Restaurant' (de + el = del).",
+        "card_ids": [
+          "al-lado-del-restaurante",
+          "el-restaurante"
+        ],
+        "accept": [
+          "al lado del restaurante",
+          "Al lado del restaurante"
+        ],
+        "hint": "de + el restaurante → del restaurante.",
+        "distractors": [
+          "al lado de el restaurante",
+          "al lado restaurante",
+          "al lado de la restaurante"
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "id": "06-ar-verben",
+  "title": "Regelmäßige Verben auf -AR",
+  "description": "Die regelmäßigen spanischen Verben auf -AR im Präsens — auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "hablar",
+      "front": "hablar",
+      "back": "sprechen",
+      "notes": "Regelmäßiges Verb auf -AR. Endung -ar wegnehmen, dann die Personalendung anhängen.",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "estudiar",
+      "front": "estudiar",
+      "back": "lernen, studieren",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "trabajar",
+      "front": "trabajar",
+      "back": "arbeiten",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "comprar",
+      "front": "comprar",
+      "back": "kaufen",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "cocinar",
+      "front": "cocinar",
+      "back": "kochen",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "hablo",
+      "front": "yo hablo",
+      "back": "ich spreche",
+      "notes": "1. Person Singular: Endung -o.",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "hablas",
+      "front": "tú hablas",
+      "back": "du sprichst",
+      "notes": "2. Person Singular: Endung -as.",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "habla",
+      "front": "él/ella habla",
+      "back": "er/sie spricht",
+      "notes": "3. Person Singular: Endung -a.",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "hablamos",
+      "front": "nosotros hablamos",
+      "back": "wir sprechen",
+      "notes": "1. Person Plural: Endung -amos.",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "hablais",
+      "front": "vosotros habláis",
+      "back": "ihr sprecht",
+      "notes": "2. Person Plural: Endung -áis (mit Akzent). Wird hauptsächlich in Spanien benutzt.",
+      "tags": [
+        "verb",
+        "ar",
+        "present",
+        "spain-only"
+      ]
+    },
+    {
+      "id": "hablan",
+      "front": "ellos/ellas hablan",
+      "back": "sie sprechen",
+      "notes": "3. Person Plural: Endung -an.",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "estudio",
+      "front": "yo estudio",
+      "back": "ich lerne/studiere",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "trabajamos",
+      "front": "nosotros trabajamos",
+      "back": "wir arbeiten",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "compran",
+      "front": "ellos/ellas compran",
+      "back": "sie kaufen",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "cocinan",
+      "front": "ellos/ellas cocinan",
+      "back": "sie kochen",
+      "tags": [
+        "verb",
+        "ar",
+        "present"
+      ]
+    },
+    {
+      "id": "hablo-espanol",
+      "front": "Hablo español.",
+      "back": "Ich spreche Spanisch.",
+      "notes": "Das Pronomen *yo* fällt weg — die Endung -o zeigt schon, dass *ich* gemeint ist.",
+      "tags": [
+        "beispiel",
+        "ar",
+        "present"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Regelmäßige Verben auf -AR",
+      "body": "# Regelmäßige Verben auf -AR\n\nDie meisten spanischen Verben sind regelmäßig und enden auf **-ar**. Du konjugierst sie nach einem festen Muster: Nimm die Endung **-ar** weg und hänge die Personalendung an.\n\nDie Endungen sind immer gleich:\n\n| Person | Endung |\n|---|---|\n| yo | **-o** |\n| tú | **-as** |\n| él/ella | **-a** |\n| nosotros | **-amos** |\n| vosotros | **-áis** |\n| ellos/ellas | **-an** |\n\nBeispiel *hablar* (sprechen):\n\n| Person | Form |\n|---|---|\n| yo | **hablo** |\n| tú | **hablas** |\n| él/ella | **habla** |\n| nosotros | **hablamos** |\n| vosotros | **habláis** |\n| ellos/ellas | **hablan** |\n\nWenn du dieses Muster kannst, kannst du Tausende von Verben konjugieren — *estudiar*, *trabajar*, *comprar*, *cocinar* und viele mehr."
+    },
+    {
+      "id": "step-vosotros",
+      "type": "theory",
+      "title": "Die Form vosotros",
+      "body": "## Die Form vosotros: habláis\n\nDie Endung **-áis** (mit Akzent) ist das informelle Plural-*ihr*. Sie wird **hauptsächlich in Spanien** benutzt.\n\n- *Vosotros habláis español.* — Ihr sprecht Spanisch.\n\nIn Lateinamerika gibt es diese Form nicht. Dort benutzt man **ustedes** zusammen mit der *ellos*-Form:\n\n- *Ustedes hablan español.* — Ihr sprecht / Sie sprechen Spanisch.\n\nAchte auf den **Akzent** auf -áis: er markiert die betonte Silbe und ist in der Schrift Pflicht."
+    },
+    {
+      "id": "step-pronomen",
+      "type": "theory",
+      "title": "Das Pronomen weglassen",
+      "body": "## Das Subjektpronomen fällt meistens weg\n\nIm Spanischen lässt man *yo*, *tú* usw. normalerweise **weg**, weil die Endung schon zeigt, welche Person gemeint ist.\n\n- *Hablo español.* — Ich spreche Spanisch. (nicht *Yo hablo español.*)\n- *¿Estudias mucho?* — Lernst du viel?\n\nDie Endung **-o** kann nur *ich* bedeuten, die Endung **-as** nur *du* — das Pronomen wäre überflüssig.\n\nDu **kannst** das Pronomen aber benutzen, wenn du betonen willst:\n\n- *Yo hablo español, pero él habla francés.* — *Ich* spreche Spanisch, aber *er* spricht Französisch."
+    },
+    {
+      "id": "ex-match-hablar",
+      "type": "exercise",
+      "title": "hablar-Formen zuordnen",
+      "exercise": {
+        "id": "ex-match-hablar",
+        "type": "matching",
+        "prompt": "Ordne jedes Pronomen der richtigen Form von *hablar* zu.",
+        "card_ids": [
+          "hablo",
+          "hablas",
+          "habla",
+          "hablamos",
+          "hablan"
+        ],
+        "pairs": [
+          {
+            "left": "yo",
+            "right": "hablo"
+          },
+          {
+            "left": "tú",
+            "right": "hablas"
+          },
+          {
+            "left": "él/ella",
+            "right": "habla"
+          },
+          {
+            "left": "nosotros",
+            "right": "hablamos"
+          },
+          {
+            "left": "ellos",
+            "right": "hablan"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-infinitive",
+      "type": "exercise",
+      "title": "Infinitive zuordnen",
+      "exercise": {
+        "id": "ex-match-infinitive",
+        "type": "matching",
+        "prompt": "Ordne jedes -AR-Verb seiner deutschen Bedeutung zu.",
+        "card_ids": [
+          "hablar",
+          "estudiar",
+          "trabajar",
+          "comprar",
+          "cocinar"
+        ],
+        "pairs": [
+          {
+            "left": "hablar",
+            "right": "sprechen"
+          },
+          {
+            "left": "estudiar",
+            "right": "lernen"
+          },
+          {
+            "left": "trabajar",
+            "right": "arbeiten"
+          },
+          {
+            "left": "comprar",
+            "right": "kaufen"
+          },
+          {
+            "left": "cocinar",
+            "right": "kochen"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-hablo",
+      "type": "exercise",
+      "title": "'Ich spreche Spanisch.'",
+      "exercise": {
+        "id": "ex-free-hablo",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Ich spreche Spanisch.'",
+        "card_ids": [
+          "hablo",
+          "hablo-espanol"
+        ],
+        "accept": [
+          "Hablo español.",
+          "hablo español",
+          "Yo hablo español."
+        ],
+        "hint": "hablar → yo: Endung -o. Das Pronomen kann wegfallen.",
+        "distractors": [
+          "Hablas español.",
+          "Habla español.",
+          "Hablo espanol."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-trabajamos",
+      "type": "exercise",
+      "title": "'wir arbeiten'",
+      "exercise": {
+        "id": "ex-free-trabajamos",
+        "type": "free_text",
+        "prompt": "Übersetze: 'wir arbeiten' (trabajar, nosotros).",
+        "card_ids": [
+          "trabajamos"
+        ],
+        "accept": [
+          "Trabajamos.",
+          "trabajamos",
+          "Nosotros trabajamos."
+        ],
+        "hint": "trabajar → nosotros: Endung -amos.",
+        "distractors": [
+          "Trabajan.",
+          "Trabajas.",
+          "Trabaja."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-hablo",
+      "type": "exercise",
+      "title": "Lücke füllen: yo + hablar",
+      "exercise": {
+        "id": "ex-cloze-hablo",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Form von *hablar*.",
+        "card_ids": [
+          "hablo"
+        ],
+        "sentence": "Yo ___ español.",
+        "blanks": [
+          {
+            "accept": [
+              "hablo",
+              "Hablo"
+            ],
+            "hint": "hablar → yo: Endung -o."
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "yo → -o."
+      }
+    },
+    {
+      "id": "ex-cloze-trabajamos",
+      "type": "exercise",
+      "title": "Lücke füllen: nosotros + trabajar",
+      "exercise": {
+        "id": "ex-cloze-trabajamos",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Form von *trabajar*.",
+        "card_ids": [
+          "trabajamos"
+        ],
+        "sentence": "Nosotros ___ en un restaurante.",
+        "blanks": [
+          {
+            "accept": [
+              "trabajamos",
+              "Trabajamos"
+            ],
+            "hint": "trabajar → nosotros: Endung -amos."
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "nosotros → -amos."
+      }
+    },
+    {
+      "id": "ex-cloze-estudias",
+      "type": "exercise",
+      "title": "Lücke füllen: tú + estudiar",
+      "exercise": {
+        "id": "ex-cloze-estudias",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Form von *estudiar*.",
+        "card_ids": [
+          "estudio"
+        ],
+        "sentence": "Tú ___ mucho.",
+        "blanks": [
+          {
+            "accept": [
+              "estudias",
+              "Estudias"
+            ],
+            "hint": "estudiar → tú: Endung -as."
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "tú → -as."
+      }
+    },
+    {
+      "id": "ex-tile-hablo",
+      "type": "exercise",
+      "title": "'Ich spreche Spanisch.' zusammensetzen",
+      "exercise": {
+        "id": "ex-tile-hablo",
+        "type": "word_tiles",
+        "prompt": "Setze den Satz 'Ich spreche Spanisch.' zusammen.",
+        "card_ids": [
+          "hablo",
+          "hablo-espanol"
+        ],
+        "tiles": [
+          "Yo",
+          "hablo",
+          "español"
+        ],
+        "hint": "hablar → yo: hablo.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-compran",
+      "type": "exercise",
+      "title": "'Sie kaufen Brot.' zusammensetzen",
+      "exercise": {
+        "id": "ex-tile-compran",
+        "type": "word_tiles",
+        "prompt": "Setze den Satz 'Sie kaufen Brot.' zusammen.",
+        "card_ids": [
+          "compran"
+        ],
+        "tiles": [
+          "Ellos",
+          "compran",
+          "pan"
+        ],
+        "hint": "comprar → ellos: compran.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-estudiamos",
+      "type": "exercise",
+      "title": "'Wir lernen Spanisch.'",
+      "exercise": {
+        "id": "ex-pick-estudiamos",
+        "type": "picture_choice",
+        "prompt": "Wähle die richtige Form: 'Wir lernen Spanisch.'",
+        "card_ids": [
+          "estudio",
+          "trabajamos"
+        ],
+        "images": [
+          {
+            "src": "assets/img/estudiamos-1.png",
+            "label": "Estudiamos español.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/estudiamos-2.png",
+            "label": "Estudian español."
+          },
+          {
+            "src": "assets/img/estudiamos-3.png",
+            "label": "Estudias español."
+          },
+          {
+            "src": "assets/img/estudiamos-4.png",
+            "label": "Estudio español."
+          }
+        ],
+        "hint": "estudiar → nosotros: Endung -amos.",
+        "distractors": [
+          "Estudian español.",
+          "Estudias español.",
+          "Estudio español."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-cocinan",
+      "type": "exercise",
+      "title": "'Sie kochen.'",
+      "exercise": {
+        "id": "ex-pick-cocinan",
+        "type": "picture_choice",
+        "prompt": "Wähle die richtige Form: 'Sie kochen.'",
+        "card_ids": [
+          "cocinan"
+        ],
+        "images": [
+          {
+            "src": "assets/img/cocinan-1.png",
+            "label": "Cocinan.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/cocinan-2.png",
+            "label": "Cocináis."
+          },
+          {
+            "src": "assets/img/cocinan-3.png",
+            "label": "Cocinas."
+          },
+          {
+            "src": "assets/img/cocinan-4.png",
+            "label": "Cocino."
+          }
+        ],
+        "hint": "cocinar → ellos: Endung -an.",
+        "distractors": [
+          "Cocináis.",
+          "Cocinas.",
+          "Cocino."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-compras",
+      "type": "exercise",
+      "title": "'du kaufst ein Buch'",
+      "exercise": {
+        "id": "ex-free-compras",
+        "type": "free_text",
+        "prompt": "Übersetze: 'du kaufst ein Buch' (comprar, tú).",
+        "card_ids": [
+          "compran"
+        ],
+        "accept": [
+          "Compras un libro.",
+          "compras un libro",
+          "Tú compras un libro."
+        ],
+        "hint": "comprar → tú: Endung -as.",
+        "distractors": [
+          "Compráis un libro.",
+          "Compra un libro.",
+          "Compro un libro."
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "id": "04-artikel-genus",
+  "title": "Los artículos y el género",
+  "description": "Spanische Artikel (el/la/los/las, un/una/unos/unas) und die -o/-a-Genusregel.",
+  "target_language": "es",
+  "source_language": "de",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "art-el",
+      "front": "el",
+      "back": "der (maskulin Singular)",
+      "notes": "Steht vor maskulinen Substantiven im Singular: *el libro*, *el chico*, *el perro*.",
+      "tags": [
+        "article",
+        "definite"
+      ]
+    },
+    {
+      "id": "art-la",
+      "front": "la",
+      "back": "die (feminin Singular)",
+      "notes": "Steht vor femininen Substantiven im Singular: *la casa*, *la chica*, *la mesa*. Im Spanischen wird vor Vokalen nicht elidiert wie im Französischen — *la amiga*, nicht *l'amiga*.",
+      "tags": [
+        "article",
+        "definite"
+      ]
+    },
+    {
+      "id": "art-los",
+      "front": "los",
+      "back": "die (maskulin Plural oder gemischt)",
+      "notes": "Für maskuline oder gemischtgeschlechtliche Pluralformen: *los libros*, *los chicos* (Jungen oder Jungen+Mädchen). Ein Mann in einer Gruppe von Frauen macht die Gruppe zu *los*.",
+      "tags": [
+        "article",
+        "definite",
+        "plural"
+      ]
+    },
+    {
+      "id": "art-las",
+      "front": "las",
+      "back": "die (feminin Plural)",
+      "notes": "Nur für rein feminine Pluralformen: *las casas*, *las chicas*.",
+      "tags": [
+        "article",
+        "definite",
+        "plural"
+      ]
+    },
+    {
+      "id": "art-un",
+      "front": "un",
+      "back": "ein (maskulin Singular)",
+      "notes": "Unbestimmter Artikel m. Sg.: *un libro* (ein Buch). Nicht mit der Zahl *uno* (eins) verwechseln — *un* ist die verkürzte Artikelform vor einem Substantiv.",
+      "tags": [
+        "article",
+        "indefinite"
+      ]
+    },
+    {
+      "id": "art-una",
+      "front": "una",
+      "back": "eine (feminin Singular)",
+      "notes": "Unbestimmter Artikel f. Sg.: *una casa* (ein Haus).",
+      "tags": [
+        "article",
+        "indefinite"
+      ]
+    },
+    {
+      "id": "art-unos",
+      "front": "unos",
+      "back": "einige (maskulin Plural oder gemischt)",
+      "notes": "Ungefährer Plural — *unos libros* (einige Bücher, ungefähr mehrere). In den meisten Pluralformen optional; *libros* allein genügt oft.",
+      "tags": [
+        "article",
+        "indefinite",
+        "plural"
+      ]
+    },
+    {
+      "id": "art-unas",
+      "front": "unas",
+      "back": "einige (feminin Plural)",
+      "tags": [
+        "article",
+        "indefinite",
+        "plural"
+      ]
+    },
+    {
+      "id": "noun-libro",
+      "front": "libro",
+      "back": "Buch (m.)",
+      "notes": "Endet auf **-o** → maskulin. Verlässliches Muster.",
+      "tags": [
+        "noun",
+        "masculine"
+      ]
+    },
+    {
+      "id": "noun-casa",
+      "front": "casa",
+      "back": "Haus (f.)",
+      "notes": "Endet auf **-a** → feminin. Verlässliches Muster.",
+      "tags": [
+        "noun",
+        "feminine"
+      ]
+    },
+    {
+      "id": "noun-mesa",
+      "front": "mesa",
+      "back": "Tisch (f.)",
+      "tags": [
+        "noun",
+        "feminine"
+      ]
+    },
+    {
+      "id": "noun-coche",
+      "front": "coche",
+      "back": "Auto (m.)",
+      "notes": "Endet auf **-e** — das Genus ist an der Endung nicht erkennbar. Als maskulin merken. (Im lateinamerikanischen Spanisch oft *carro* — ebenfalls maskulin.)",
+      "tags": [
+        "noun",
+        "masculine",
+        "exception"
+      ]
+    },
+    {
+      "id": "noun-mano",
+      "front": "mano",
+      "back": "Hand (f.)",
+      "notes": "**Häufige Ausnahme**: endet auf -o, ist aber feminin. *la mano*, *las manos*. Es gibt eine kleine Gruppe davon (auch *la foto*, *la radio*) — als Ausnahmen merken.",
+      "tags": [
+        "noun",
+        "feminine",
+        "exception"
+      ]
+    },
+    {
+      "id": "noun-dia",
+      "front": "día",
+      "back": "Tag (m.)",
+      "notes": "**Häufige Ausnahme**: endet auf -a, ist aber maskulin. *el día*, *los días*. Dazu passen *el mapa* (m.), *el problema* (m.) — Wörter griechischen Ursprungs auf -a sind typischerweise maskulin.",
+      "tags": [
+        "noun",
+        "masculine",
+        "exception"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Genus im Spanischen",
+      "body": "# El género\n\nWie im Französischen haben spanische Substantive ein **Genus**: jedes Substantiv ist entweder maskulin oder feminin, und die dazugehörigen Artikel und Adjektive müssen damit übereinstimmen. Anders als im Französischen gibt dir das Spanische für die meisten Substantive eine verlässliche Regel:\n\n- Substantive auf **-o** sind meist **maskulin**: *libro*, *chico*, *coche*\n- Substantive auf **-a** sind meist **feminin**: *casa*, *chica*, *mesa*\n\nDas ist der größte grammatische Vorteil des Spanischen gegenüber dem Französischen — bei rund 85 % der Substantive kannst du das Genus allein am letzten Buchstaben erraten.\n\nDie Ausnahmen gibt es (wir behandeln sie), aber sie sind eine kleine, erlernbare Liste. Trainiere jetzt erst einmal deinen Reflex: siehst du -o → sag *el*. Siehst du -a → sag *la*."
+    },
+    {
+      "id": "step-definite",
+      "type": "theory",
+      "title": "Bestimmte Artikel — el, la, los, las",
+      "body": "## Die vier Formen von \"der/die/das\"\n\n| | maskulin | feminin |\n|---|---|---|\n| Singular | **el** | **la** |\n| Plural | **los** | **las** |\n\n- *el libro* — das Buch (m. Sg.)\n- *la casa* — das Haus (f. Sg.)\n- *los libros* — die Bücher (m. Pl.)\n- *las casas* — die Häuser (f. Pl.)\n\n**Wichtiger Unterschied zum Französischen**: Das Spanische elidiert NICHT vor Vokalen. *la amiga* (die Freundin, f.), NICHT *l'amiga*. Das Spanische lässt den Artikel sichtbar — leichter laut zu lesen.\n\nGemischtgeschlechtliche Pluralformen verwenden **los**: *los chicos* umfasst eine Gruppe aus Jungen + Mädchen. Ein Mann in einer Gruppe aus 20 Frauen ist grammatisch immer noch *los amigos*. (Das moderne Spanisch hat informelle Alternativen wie *les amigues*, aber die gehören nicht zum A1-Niveau.)"
+    },
+    {
+      "id": "ex-match-definite",
+      "type": "exercise",
+      "title": "Den Artikel zuordnen",
+      "exercise": {
+        "id": "ex-match-definite",
+        "type": "matching",
+        "prompt": "Ordne jedem Substantiv seinen bestimmten Artikel zu.",
+        "card_ids": [
+          "noun-libro",
+          "noun-casa",
+          "noun-mesa",
+          "noun-coche"
+        ],
+        "pairs": [
+          {
+            "left": "libro",
+            "right": "el"
+          },
+          {
+            "left": "casa",
+            "right": "la"
+          },
+          {
+            "left": "mesa",
+            "right": "la"
+          },
+          {
+            "left": "coche",
+            "right": "el"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-el-libro",
+      "type": "exercise",
+      "title": "Bestimmter Artikel — libro",
+      "exercise": {
+        "id": "ex-free-el-libro",
+        "type": "free_text",
+        "prompt": "Tippe den richtigen bestimmten Artikel für **libro** (Buch).",
+        "card_ids": [
+          "art-el",
+          "noun-libro"
+        ],
+        "accept": [
+          "el",
+          "El",
+          "EL"
+        ],
+        "hint": "Endet auf -o → maskulin.",
+        "distractors": [
+          "la",
+          "los",
+          "un"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-indefinite",
+      "type": "theory",
+      "title": "Unbestimmte Artikel — un, una, unos, unas",
+      "body": "## Die vier Formen von \"ein / einige\"\n\n| | maskulin | feminin |\n|---|---|---|\n| Singular | **un** | **una** |\n| Plural | **unos** | **unas** |\n\n- *un libro* — ein Buch\n- *una casa* — ein Haus\n- *unos libros* — einige Bücher (ein paar)\n- *unas casas* — einige Häuser (ein paar)\n\n**Tipp zu den Pluralformen**: Im Spanischen sind *unos / unas* in vielen Sätzen OPTIONAL. *Tengo libros* (Ich habe Bücher) ist idiomatischer als *Tengo unos libros* (Ich habe einige Bücher). Verwende *unos / unas*, wenn du ausdrücklich *einige* sagen willst (ungefähr mehrere, nicht viele).\n\nUnterschied zum Französischen: Das Spanische hat keinen obligatorischen Plural-Indefinitartikel wie das Französische mit *des*. Französisch *J'ai des amigos* (obligatorisch); Spanisch *Tengo amigos* (kein Artikel nötig)."
+    },
+    {
+      "id": "ex-pick-una",
+      "type": "exercise",
+      "title": "Unbestimmt — una casa",
+      "exercise": {
+        "id": "ex-pick-una",
+        "type": "picture_choice",
+        "prompt": "Wähle den richtigen unbestimmten Artikel für **casa** (Haus).",
+        "card_ids": [
+          "art-una",
+          "noun-casa"
+        ],
+        "images": [
+          {
+            "src": "assets/img/house-1.png",
+            "label": "un casa"
+          },
+          {
+            "src": "assets/img/house-2.png",
+            "label": "una casa",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/house-3.png",
+            "label": "unos casa"
+          },
+          {
+            "src": "assets/img/house-4.png",
+            "label": "el casa"
+          }
+        ],
+        "hint": "Der unbestimmte Artikel feminin Singular ist *una*.",
+        "distractors": [
+          "un casa",
+          "unos casa",
+          "el casa"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-exceptions",
+      "type": "theory",
+      "title": "Ausnahmen zum Merken",
+      "body": "## Die -o/-a-Regel ist nicht allgemeingültig\n\nEine kleine Gruppe von Substantiven durchbricht das Muster. Die zwei wichtigsten auf A1:\n\n**Substantive auf -a, die maskulin sind** (oft griechischen Ursprungs):\n- ***el día*** — der Tag\n- ***el mapa*** — die Landkarte\n- ***el problema*** — das Problem\n- ***el tema*** — das Thema\n\n**Substantive auf -o, die feminin sind**:\n- ***la mano*** — die Hand\n- ***la foto*** — das Foto (kurz für *fotografía*)\n- ***la moto*** — das Motorrad (kurz für *motocicleta*)\n- ***la radio*** — das Radio\n\n**Substantive auf -e** (Genus nicht vorhersehbar):\n- *el coche* — das Auto (m.)\n- *el café* — der Kaffee (m.)\n- *la noche* — die Nacht (f.)\n- *la clase* — die Klasse (f.)\n\nBei -e-Substantiven musst du das Genus zusammen mit dem Substantiv lernen. Es gibt keine Abkürzung."
+    },
+    {
+      "id": "ex-free-la-mano",
+      "type": "exercise",
+      "title": "Ausnahme — la mano",
+      "exercise": {
+        "id": "ex-free-la-mano",
+        "type": "free_text",
+        "prompt": "Tippe den bestimmten Artikel für **mano** (Hand). Achtung — das ist eine Ausnahme.",
+        "card_ids": [
+          "art-la",
+          "noun-mano"
+        ],
+        "accept": [
+          "la",
+          "La",
+          "LA"
+        ],
+        "hint": "Endet auf -o, ist aber feminin. *La mano*.",
+        "distractors": [
+          "el",
+          "los",
+          "un"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-el-dia",
+      "type": "exercise",
+      "title": "Ausnahme — el día",
+      "exercise": {
+        "id": "ex-free-el-dia",
+        "type": "free_text",
+        "prompt": "Tippe den bestimmten Artikel für **día** (Tag). Noch eine Ausnahme.",
+        "card_ids": [
+          "art-el",
+          "noun-dia"
+        ],
+        "accept": [
+          "el",
+          "El",
+          "EL"
+        ],
+        "hint": "Endet auf -a, ist aber maskulin. *El día*.",
+        "distractors": [
+          "la",
+          "los",
+          "una"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-plurals",
+      "type": "exercise",
+      "title": "Plural-Artikel",
+      "exercise": {
+        "id": "ex-match-plurals",
+        "type": "matching",
+        "prompt": "Ordne jedem Substantiv seinen bestimmten Plural-Artikel zu (los oder las).",
+        "card_ids": [
+          "noun-libro",
+          "noun-casa",
+          "noun-mesa",
+          "noun-coche",
+          "noun-mano"
+        ],
+        "pairs": [
+          {
+            "left": "libros",
+            "right": "los"
+          },
+          {
+            "left": "casas",
+            "right": "las"
+          },
+          {
+            "left": "mesas",
+            "right": "las"
+          },
+          {
+            "left": "coches",
+            "right": "los"
+          },
+          {
+            "left": "manos",
+            "right": "las"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-mixed",
+      "type": "exercise",
+      "title": "Bauen: Das Buch und das Haus",
+      "exercise": {
+        "id": "ex-tile-mixed",
+        "type": "word_tiles",
+        "prompt": "Lege so, dass es *Das Buch und das Haus* bedeutet.",
+        "card_ids": [
+          "art-el",
+          "art-la",
+          "noun-libro",
+          "noun-casa"
+        ],
+        "tiles": [
+          "El",
+          "libro",
+          "y",
+          "la",
+          "casa"
+        ],
+        "hint": "*El + libro* (m.), *la + casa* (f.), verbunden durch *y*.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-plural",
+      "type": "exercise",
+      "title": "Plural-Ausnahme",
+      "exercise": {
+        "id": "ex-pick-plural",
+        "type": "picture_choice",
+        "prompt": "*Las manos limpias* bedeutet…",
+        "card_ids": [
+          "noun-mano",
+          "art-las"
+        ],
+        "images": [
+          {
+            "src": "assets/img/hands-1.png",
+            "label": "Die sauberen Hände.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/hands-2.png",
+            "label": "Der saubere Mann."
+          },
+          {
+            "src": "assets/img/hands-3.png",
+            "label": "Die sauberen Häuser."
+          },
+          {
+            "src": "assets/img/hands-4.png",
+            "label": "Die sauberen Tische."
+          }
+        ],
+        "hint": "*Las* ist feminin Plural. *Manos* sind *Hände* (feminine Ausnahme, endet auf -o).",
+        "distractors": [
+          "Der saubere Mann.",
+          "Die sauberen Häuser.",
+          "Die sauberen Tische."
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

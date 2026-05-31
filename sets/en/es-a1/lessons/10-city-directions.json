@@ -1,0 +1,552 @@
+{
+  "id": "10-city-directions",
+  "title": "In the city - places and directions",
+  "description": "Places in the city and directions in Spanish - with the key rule of the contractions al and del.",
+  "target_language": "es",
+  "source_language": "en",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "la-calle",
+      "front": "la calle",
+      "back": "the street",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "el-banco",
+      "front": "el banco",
+      "back": "the bank",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "la-plaza",
+      "front": "la plaza",
+      "back": "the square",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "el-museo",
+      "front": "el museo",
+      "back": "the museum",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "la-tienda",
+      "front": "la tienda",
+      "back": "the shop",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "la-estacion",
+      "front": "la estación",
+      "back": "the station",
+      "notes": "Accent on the ó. Plural: las estaciones (no accent).",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "el-hotel",
+      "front": "el hotel",
+      "back": "the hotel",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "el-restaurante",
+      "front": "el restaurante",
+      "back": "the restaurant",
+      "tags": [
+        "place",
+        "noun"
+      ]
+    },
+    {
+      "id": "en",
+      "front": "en",
+      "back": "in / on",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "al-lado-de",
+      "front": "al lado de",
+      "back": "next to",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "entre",
+      "front": "entre",
+      "back": "between",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "enfrente-de",
+      "front": "enfrente de",
+      "back": "opposite",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "a-la-derecha",
+      "front": "a la derecha",
+      "back": "to the right",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "a-la-izquierda",
+      "front": "a la izquierda",
+      "back": "to the left",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "todo-recto",
+      "front": "todo recto",
+      "back": "straight ahead",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "voy-al-banco",
+      "front": "Voy al banco.",
+      "back": "I go to the bank. (a + el = al)",
+      "notes": "a + el contracts to al. Never 'a el'.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "museo-derecha",
+      "front": "El museo está a la derecha.",
+      "back": "The museum is on the right.",
+      "tags": [
+        "preposition"
+      ]
+    },
+    {
+      "id": "al-lado-del-restaurante",
+      "front": "al lado del restaurante",
+      "back": "next to the restaurant (de + el = del)",
+      "notes": "de + el contracts to del. Never 'de el'.",
+      "tags": [
+        "preposition"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-orte",
+      "type": "theory",
+      "title": "Places in the city",
+      "body": "# In the city\n\nThis lesson teaches you the most important places in a city and the words for giving directions.\n\nFor each noun, learn the **article** along with it (el or la) - it decides later whether a contraction happens.\n\n| Spanish | meaning |\n|---|---|\n| la calle | the street |\n| el banco | the bank |\n| la plaza | the square |\n| el museo | the museum |\n| la tienda | the shop |\n| la estación | the station |\n| el hotel | the hotel |\n| el restaurante | the restaurant |\n\n**The station** is *la estación* - with an accent on the ó."
+    },
+    {
+      "id": "intro-praepositionen",
+      "type": "theory",
+      "title": "Prepositions of place",
+      "body": "## Where is something?\n\nUse these prepositions to describe where a place is:\n\n- **en** - in / on: *Estoy en el hotel.* (I am in the hotel.)\n- **al lado de** - next to: *al lado del banco* (next to the bank)\n- **entre** - between: *entre la plaza y el museo* (between the square and the museum)\n- **enfrente de** - opposite: *enfrente de la estación* (opposite the station)\n\n## Directions\n\nFor directions you need:\n\n- **a la izquierda** - to the left\n- **a la derecha** - to the right\n- **todo recto** - straight ahead\n\nExample: *El museo está a la derecha.* (The museum is on the right.)"
+    },
+    {
+      "id": "intro-verschmelzungen",
+      "type": "theory",
+      "title": "The contractions: al and del",
+      "body": "## The key rule: al and del\n\nIn Spanish, two short words contract with the article **el** into a single word. This is mandatory - the separated form is wrong.\n\n**a + el = al**\n\n- WRONG: ~~Voy a el banco.~~\n- RIGHT: **Voy al banco.** (I go to the bank.)\n\n**de + el = del**\n\n- WRONG: ~~al lado de el museo~~\n- RIGHT: **al lado del museo** (next to the museum)\n\n### Only with el!\n\nThe contraction happens **only** with the masculine singular article **el**. Nothing contracts with *la*, *los* or *las*:\n\n| Original | Contraction |\n|---|---|\n| a + el banco | **al** banco |\n| a + la tienda | a **la** tienda (no contraction) |\n| de + el museo | **del** museo |\n| de + la plaza | de **la** plaza (no contraction) |\n\nRemember: *Voy a la plaza* stays separate, but *Voy al banco* contracts."
+    },
+    {
+      "id": "ex-match-orte",
+      "type": "exercise",
+      "title": "Match the places",
+      "exercise": {
+        "id": "ex-match-orte",
+        "type": "matching",
+        "prompt": "Match each Spanish place with its English meaning.",
+        "card_ids": [
+          "la-calle",
+          "el-banco",
+          "la-plaza",
+          "el-museo",
+          "la-estacion"
+        ],
+        "pairs": [
+          {
+            "left": "la calle",
+            "right": "street"
+          },
+          {
+            "left": "el banco",
+            "right": "bank"
+          },
+          {
+            "left": "la plaza",
+            "right": "square"
+          },
+          {
+            "left": "el museo",
+            "right": "museum"
+          },
+          {
+            "left": "la estación",
+            "right": "station"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-richtungen",
+      "type": "exercise",
+      "title": "Match the directions",
+      "exercise": {
+        "id": "ex-match-richtungen",
+        "type": "matching",
+        "prompt": "Match each Spanish direction with its English meaning.",
+        "card_ids": [
+          "a-la-derecha",
+          "a-la-izquierda",
+          "todo-recto",
+          "enfrente-de",
+          "al-lado-de"
+        ],
+        "pairs": [
+          {
+            "left": "a la derecha",
+            "right": "to the right"
+          },
+          {
+            "left": "a la izquierda",
+            "right": "to the left"
+          },
+          {
+            "left": "todo recto",
+            "right": "straight ahead"
+          },
+          {
+            "left": "enfrente de",
+            "right": "opposite"
+          },
+          {
+            "left": "al lado de",
+            "right": "next to"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-al",
+      "type": "exercise",
+      "title": "Fill in: a + el",
+      "exercise": {
+        "id": "ex-cloze-al",
+        "type": "cloze",
+        "prompt": "Contract a + el into the right form. 'I go to the bank.'",
+        "card_ids": [
+          "voy-al-banco",
+          "el-banco"
+        ],
+        "sentence": "Voy ___ banco.",
+        "blanks": [
+          {
+            "accept": [
+              "al",
+              "Al"
+            ],
+            "hint": "a + el = al"
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "el banco is masculine → a + el = al."
+      }
+    },
+    {
+      "id": "ex-cloze-del",
+      "type": "exercise",
+      "title": "Fill in: de + el",
+      "exercise": {
+        "id": "ex-cloze-del",
+        "type": "cloze",
+        "prompt": "Contract de + el into the right form. 'The hotel is next to the museum.'",
+        "card_ids": [
+          "al-lado-de",
+          "el-museo",
+          "el-hotel"
+        ],
+        "sentence": "El hotel está al lado ___ museo.",
+        "blanks": [
+          {
+            "accept": [
+              "del",
+              "Del"
+            ],
+            "hint": "de + el = del"
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "el museo is masculine → de + el = del."
+      }
+    },
+    {
+      "id": "ex-cloze-a-la",
+      "type": "exercise",
+      "title": "Fill in: no contraction",
+      "exercise": {
+        "id": "ex-cloze-a-la",
+        "type": "cloze",
+        "prompt": "Here 'la' follows - nothing contracts. 'The shop is on the right.'",
+        "card_ids": [
+          "la-tienda",
+          "a-la-derecha"
+        ],
+        "sentence": "La tienda está ___ la derecha.",
+        "blanks": [
+          {
+            "accept": [
+              "a",
+              "A"
+            ],
+            "hint": "Before la, a does not contract."
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "a + la does not contract - it stays 'a la'."
+      }
+    },
+    {
+      "id": "ex-free-voy-al-banco",
+      "type": "exercise",
+      "title": "Translate: go to the bank",
+      "exercise": {
+        "id": "ex-free-voy-al-banco",
+        "type": "free_text",
+        "prompt": "Translate: 'I go to the bank.' (Remember a + el = al.)",
+        "card_ids": [
+          "voy-al-banco",
+          "el-banco"
+        ],
+        "accept": [
+          "Voy al banco.",
+          "voy al banco",
+          "Yo voy al banco."
+        ],
+        "hint": "a + el banco → al banco. Never 'a el'.",
+        "distractors": [
+          "Voy a el banco.",
+          "Voy al banca.",
+          "Voy a banco."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-museo-derecha",
+      "type": "exercise",
+      "title": "Translate: on the right",
+      "exercise": {
+        "id": "ex-free-museo-derecha",
+        "type": "free_text",
+        "prompt": "Translate: 'The museum is on the right.' (Location → estar.)",
+        "card_ids": [
+          "museo-derecha",
+          "el-museo",
+          "a-la-derecha"
+        ],
+        "accept": [
+          "El museo está a la derecha.",
+          "el museo esta a la derecha",
+          "El museo esta a la derecha."
+        ],
+        "hint": "Location → estar → está. 'on the right' = a la derecha.",
+        "distractors": [
+          "El museo es a la derecha.",
+          "El museo está a la izquierda.",
+          "El museo está a la derecho."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-al-lado-del",
+      "type": "exercise",
+      "title": "next to the museum",
+      "exercise": {
+        "id": "ex-pick-al-lado-del",
+        "type": "picture_choice",
+        "prompt": "Pick the correct form: 'next to the museum' (de + el = del).",
+        "card_ids": [
+          "al-lado-de",
+          "el-museo"
+        ],
+        "images": [
+          {
+            "src": "assets/img/al-lado-del-museo-1.png",
+            "label": "al lado del museo",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/al-lado-del-museo-2.png",
+            "label": "al lado de el museo"
+          },
+          {
+            "src": "assets/img/al-lado-del-museo-3.png",
+            "label": "al lado de museo"
+          },
+          {
+            "src": "assets/img/al-lado-del-museo-4.png",
+            "label": "a lado del museo"
+          }
+        ],
+        "hint": "de + el museo → del museo.",
+        "distractors": [
+          "al lado de el museo",
+          "al lado de museo",
+          "a lado del museo"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-al-banco",
+      "type": "exercise",
+      "title": "to the bank",
+      "exercise": {
+        "id": "ex-pick-al-banco",
+        "type": "picture_choice",
+        "prompt": "Pick the correct form: 'to the bank' (a + el = al).",
+        "card_ids": [
+          "voy-al-banco",
+          "el-banco"
+        ],
+        "images": [
+          {
+            "src": "assets/img/al-banco-1.png",
+            "label": "al banco",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/al-banco-2.png",
+            "label": "a el banco"
+          },
+          {
+            "src": "assets/img/al-banco-3.png",
+            "label": "a la banco"
+          },
+          {
+            "src": "assets/img/al-banco-4.png",
+            "label": "al banca"
+          }
+        ],
+        "hint": "a + el banco → al banco.",
+        "distractors": [
+          "a el banco",
+          "a la banco",
+          "al banca"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-enfrente",
+      "type": "exercise",
+      "title": "Build: opposite the square",
+      "exercise": {
+        "id": "ex-tile-enfrente",
+        "type": "word_tiles",
+        "prompt": "Build the sentence: 'The bank is opposite the square.'",
+        "card_ids": [
+          "el-banco",
+          "enfrente-de",
+          "la-plaza"
+        ],
+        "tiles": [
+          "El",
+          "banco",
+          "está",
+          "enfrente",
+          "de",
+          "la",
+          "plaza"
+        ],
+        "hint": "enfrente de = opposite. Nothing contracts before la.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-izquierda",
+      "type": "exercise",
+      "title": "Build: on the left",
+      "exercise": {
+        "id": "ex-tile-izquierda",
+        "type": "word_tiles",
+        "prompt": "Build the sentence: 'The shop is on the left.'",
+        "card_ids": [
+          "la-tienda",
+          "a-la-izquierda"
+        ],
+        "tiles": [
+          "La",
+          "tienda",
+          "está",
+          "a",
+          "la",
+          "izquierda"
+        ],
+        "hint": "a la izquierda = on the left.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-al-lado-restaurante",
+      "type": "exercise",
+      "title": "Translate: next to the restaurant",
+      "exercise": {
+        "id": "ex-free-al-lado-restaurante",
+        "type": "free_text",
+        "prompt": "Translate: 'next to the restaurant' (de + el = del).",
+        "card_ids": [
+          "al-lado-del-restaurante",
+          "el-restaurante"
+        ],
+        "accept": [
+          "al lado del restaurante",
+          "Al lado del restaurante"
+        ],
+        "hint": "de + el restaurante → del restaurante.",
+        "distractors": [
+          "al lado de el restaurante",
+          "al lado restaurante",
+          "al lado de la restaurante"
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

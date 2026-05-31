@@ -1,0 +1,436 @@
+{
+  "id": "05-restaurant",
+  "title": "En el restaurante",
+  "description": "Essen bestellen, höfliche Ausdrücke und ser/estar mit Essensvokabular.",
+  "target_language": "es",
+  "source_language": "de",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "phr-quisiera",
+      "front": "Quisiera…",
+      "back": "Ich hätte gern… (höflich)",
+      "notes": "Konditional von *querer*. Die höfliche Variante von *Quiero* (ich will), das im Service-Kontext schroff klingt. Auf A1-Niveau als feste Wendung behandeln.",
+      "tags": [
+        "politeness",
+        "ordering"
+      ]
+    },
+    {
+      "id": "phr-por-favor",
+      "front": "por favor",
+      "back": "bitte",
+      "notes": "Steht am Ende der Bitte, wie im Englischen: *Un café, por favor*. Nicht übertreiben — Spanisch ist direkt; ein *por favor* pro Bitte genügt.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "phr-gracias",
+      "front": "gracias",
+      "back": "danke",
+      "notes": "Verstärkung: *muchas gracias* (vielen Dank). Antwort: *de nada* (gern geschehen — wörtlich *für nichts*).",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "phr-la-cuenta",
+      "front": "La cuenta, por favor.",
+      "back": "Die Rechnung, bitte.",
+      "notes": "Die übliche Art, nach der Rechnung zu fragen. *La cuenta* nimmt *la* — feminines Substantiv. Nicht mit *el cuento* (die Geschichte) verwechseln — anderes Wort.",
+      "tags": [
+        "restaurant",
+        "phrase"
+      ]
+    },
+    {
+      "id": "phr-buen-provecho",
+      "front": "¡Buen provecho!",
+      "back": "Guten Appetit!",
+      "notes": "Gleiche Rolle wie das französische *Bon appétit*. Wird vom Personal beim Servieren gesagt UND von Tischgenossen vor dem Essen. Immer mit Ausrufezeichen.",
+      "tags": [
+        "politeness",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "food-pan",
+      "front": "el pan",
+      "back": "das Brot",
+      "tags": [
+        "food",
+        "masculine"
+      ]
+    },
+    {
+      "id": "food-agua",
+      "front": "el agua",
+      "back": "das Wasser",
+      "notes": "Knifflige Ausnahme: *agua* ist **feminin** (endet auf -a), nimmt aber im Singular ***el***, um den harten Klang *la a-* zu vermeiden. Im Plural wird es *las aguas* (regelmäßig) und *agua fría* (regelmäßige feminine Anpassung) bei Adjektiven. Gleicher Trick: *el águila* (der Adler), *el hambre* (der Hunger).",
+      "tags": [
+        "drink",
+        "feminine",
+        "exception"
+      ]
+    },
+    {
+      "id": "food-vino",
+      "front": "el vino",
+      "back": "der Wein",
+      "notes": "Abgrenzen von *el vinto* (existiert nicht — häufiger Tippfehler). *Un vaso de vino* (ein Glas Wein) oder *una copa de vino* (ein Weinglas — für Stielgläser).",
+      "tags": [
+        "drink",
+        "masculine"
+      ]
+    },
+    {
+      "id": "food-cafe",
+      "front": "el café",
+      "back": "der Kaffee",
+      "notes": "Standardbestellung in Spanien ist ein *café solo* (Espresso). Andere gängige Sorten: *café con leche* (mit Milch), *café cortado* (Espresso mit einem Schuss Milch).",
+      "tags": [
+        "drink",
+        "masculine"
+      ]
+    },
+    {
+      "id": "food-pollo",
+      "front": "el pollo",
+      "back": "das Hähnchen",
+      "tags": [
+        "food",
+        "masculine"
+      ]
+    },
+    {
+      "id": "food-pescado",
+      "front": "el pescado",
+      "back": "der Fisch (als Speise)",
+      "notes": "Konkret Fisch-als-Speise (nach dem Fang). Lebendiger Fisch ist *el pez* (Plural *los peces*). Die Speisekarte nutzt immer *pescado*.",
+      "tags": [
+        "food",
+        "masculine"
+      ]
+    },
+    {
+      "id": "food-ensalada",
+      "front": "la ensalada",
+      "back": "der Salat",
+      "tags": [
+        "food",
+        "feminine"
+      ]
+    },
+    {
+      "id": "food-queso",
+      "front": "el queso",
+      "back": "der Käse",
+      "tags": [
+        "food",
+        "masculine"
+      ]
+    },
+    {
+      "id": "phr-esta-bueno",
+      "front": "Está bueno.",
+      "back": "Es ist gut / lecker. (gerade jetzt)",
+      "notes": "Nutzt ***estar*** — beschreibt den AKTUELLEN Zustand des Essens (es schmeckt gut, während du isst). *Es bueno* (mit ser) würde bedeuten *das Essen ist gut für dich / nahrhaft* — völlig andere Bedeutung. Klassische ser/estar-Falle, perfekte Gelegenheit, Lektion 04 zu wiederholen.",
+      "tags": [
+        "food",
+        "estar"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Auswärts essen in Spanien (oder überall, wo Spanisch gesprochen wird)",
+      "body": "# En el restaurante\n\nDie spanischsprachige Restaurantkultur hat ihren eigenen Rhythmus — und die Höflichkeitsmuster unterscheiden sich leicht von dem, was deutschsprachige Gäste erwarten.\n\nDiese Lektion behandelt:\n- **Höfliche Bestellphrasen**: *quisiera*, *por favor*, *gracias*\n- **Die Rechnung** und **jemandem einen guten Appetit wünschen**\n- **Gängiges Speisekarten-Vokabular**\n- **Als Bonus** eine ser/estar-Wiederholung mit Essen (*Está bueno* vs *Es bueno*)\n\nKulturelle Hinweise:\n- Der Service ist inbegriffen; Trinkgeld ist optional (5-10%, wenn der Service großartig war).\n- **¡Buen provecho!** wird vor dem Essen gesagt, von Kellnern UND von Menschen am selben Tisch.\n- *Café* bedeutet standardmäßig Espresso. Gib an, wenn du etwas anderes möchtest.\n- *Agua del grifo* (Leitungswasser) ist meist gratis; *agua mineral* (in Flaschen) wird berechnet."
+    },
+    {
+      "id": "step-polite",
+      "type": "theory",
+      "title": "Höflich bestellen",
+      "body": "## Das höfliche Bitt-Muster\n\n| Spanisch | Deutsch |\n|---|---|\n| Quisiera ___ | Ich hätte gern ___ |\n| ___, por favor | ___, bitte |\n| Gracias / Muchas gracias | Danke / Vielen Dank |\n| De nada | Gern geschehen |\n\n**Quisiera** ist der Konditional von *querer*. Auf A1-Niveau kannst du es als feste höfliche Formel behandeln. Kombiniere es mit Artikel + Substantiv:\n\n- *Quisiera **un café**, por favor.*\n- *Quisiera **una ensalada**, por favor.*\n- *Quisiera **el menú**, por favor.* (die Speisekarte — eine bestimmte)\n\nHinweis: *Quiero* (ich will) ist grammatisch korrekt, klingt aber gegenüber dem Service-Personal schroff. Im Restaurant bei *Quisiera* bleiben."
+    },
+    {
+      "id": "ex-free-quisiera",
+      "type": "exercise",
+      "title": "Höflich einen Kaffee bestellen",
+      "exercise": {
+        "id": "ex-free-quisiera",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich hätte gern einen Kaffee, bitte.*",
+        "card_ids": [
+          "phr-quisiera",
+          "food-cafe",
+          "phr-por-favor"
+        ],
+        "accept": [
+          "Quisiera un café, por favor.",
+          "Quisiera un café por favor",
+          "quisiera un café, por favor"
+        ],
+        "hint": "*Quisiera* + unbestimmter Artikel + Substantiv + *por favor*.",
+        "distractors": [
+          "Quiero café.",
+          "Yo quisiera el café.",
+          "Tengo un café."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-menu",
+      "type": "theory",
+      "title": "Grundlagen der Speisekarte",
+      "body": "## Vokabular für Speisen und Getränke\n\n| Spanisch | Deutsch | Hinweis |\n|---|---|---|\n| el pan | Brot | m. |\n| **el** agua | Wasser | *el* obwohl f. — siehe unten |\n| el vino | Wein | m. |\n| el café | Kaffee | m. |\n| el pollo | Hähnchen | m. |\n| el pescado | Fisch (Speise) | m. — lebendiger Fisch ist *el pez* |\n| la ensalada | Salat | f. |\n| el queso | Käse | m. |\n\n**Der *agua*-Trick**: *agua* ist feminin (*agua fría* — kaltes Wasser, feminine Anpassung beim Adjektiv), nimmt aber im Singular ***el***, um den harten Klang *la a-a-* zu vermeiden. Derselbe Trick gilt für andere feminine Substantive, die mit einem betonten -a-Laut BEGINNEN: *el águila* (der Adler), *el hambre* (der Hunger).\n\nIm Plural kehrt es zum Femininum zurück: *las aguas frías* (die kalten Wasser)."
+    },
+    {
+      "id": "ex-match-food",
+      "type": "exercise",
+      "title": "Essensvokabular zuordnen",
+      "exercise": {
+        "id": "ex-match-food",
+        "type": "matching",
+        "prompt": "Ordne jedem spanischen Speisekarten-Wort seine deutsche Bedeutung zu.",
+        "card_ids": [
+          "food-pan",
+          "food-vino",
+          "food-pollo",
+          "food-pescado",
+          "food-queso",
+          "food-ensalada"
+        ],
+        "pairs": [
+          {
+            "left": "el pan",
+            "right": "Brot"
+          },
+          {
+            "left": "el vino",
+            "right": "Wein"
+          },
+          {
+            "left": "el pollo",
+            "right": "Hähnchen"
+          },
+          {
+            "left": "el pescado",
+            "right": "Fisch"
+          },
+          {
+            "left": "el queso",
+            "right": "Käse"
+          },
+          {
+            "left": "la ensalada",
+            "right": "Salat"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-agua",
+      "type": "exercise",
+      "title": "El agua — die Ausnahme",
+      "exercise": {
+        "id": "ex-pick-agua",
+        "type": "picture_choice",
+        "prompt": "Wie schreibt man *das Wasser* auf Spanisch?",
+        "card_ids": [
+          "food-agua"
+        ],
+        "images": [
+          {
+            "src": "assets/img/water-1.png",
+            "label": "la agua"
+          },
+          {
+            "src": "assets/img/water-2.png",
+            "label": "el agua",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/water-3.png",
+            "label": "lo agua"
+          },
+          {
+            "src": "assets/img/water-4.png",
+            "label": "el água"
+          }
+        ],
+        "hint": "Feminines Substantiv, nimmt aber im Singular *el*, weil es mit einem betonten -a beginnt.",
+        "distractors": [
+          "la agua",
+          "lo agua",
+          "el água"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-ser-estar-food",
+      "type": "theory",
+      "title": "Bonus — ser vs estar mit Essen",
+      "body": "## ¡Está bueno! vs Es bueno\n\nEssen ist das klassische Schlachtfeld für *ser* vs *estar*. Der Kontrast ist scharf:\n\n- ***El pescado es bueno.*** — Fisch ist gut (für dich, ernährungstechnisch — *allgemeine* Aussage). Das ist die Ernährungs-Bedeutung. Identität / allgemeine Wahrheit → **ser**.\n- ***El pescado está bueno.*** — Der Fisch ist gut / lecker (GERADE JETZT, auf diesem Teller, du isst ihn). Zustand / Meinung im Moment → **estar**.\n\nWenn du *El vino es bueno* sagst, klingst du, als schreibst du eine Sommelier-Rezension (*Wein ist ein gutes Getränk*). Wenn du *El vino está bueno* sagst, lobst du den Wein, den du GERADE JETZT trinkst.\n\nDie Abkürzung: Wenn du das Essen am Tisch loben willst, nutze ***está***, nicht *es*. Selbst Muttersprachler anderer Sprachen lernen diesen Kontrast langsam; ihn zu erkennen ist die halbe Arbeit."
+    },
+    {
+      "id": "ex-pick-esta-bueno",
+      "type": "exercise",
+      "title": "Das Essen loben",
+      "exercise": {
+        "id": "ex-pick-esta-bueno",
+        "type": "picture_choice",
+        "prompt": "Du sitzt am Tisch, probierst die Suppe, und sie ist großartig. Du sagst…",
+        "card_ids": [
+          "phr-esta-bueno"
+        ],
+        "images": [
+          {
+            "src": "assets/img/soup-1.png",
+            "label": "Es buena.",
+            "is_correct": "false"
+          },
+          {
+            "src": "assets/img/soup-2.png",
+            "label": "Está buena.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/soup-3.png",
+            "label": "Es bueno."
+          },
+          {
+            "src": "assets/img/soup-4.png",
+            "label": "Estoy buena."
+          }
+        ],
+        "hint": "Aktueller Zustand, diese bestimmte Suppe → estar. Suppe (*sopa*) ist feminin → buena (feminin).",
+        "distractors": [
+          "Es buena.",
+          "Es bueno.",
+          "Estoy buena."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-la-cuenta",
+      "type": "exercise",
+      "title": "Nach der Rechnung fragen",
+      "exercise": {
+        "id": "ex-free-la-cuenta",
+        "type": "free_text",
+        "prompt": "Frage höflich nach der Rechnung.",
+        "card_ids": [
+          "phr-la-cuenta"
+        ],
+        "accept": [
+          "La cuenta, por favor.",
+          "La cuenta, por favor",
+          "la cuenta, por favor"
+        ],
+        "hint": "Bestimmter Artikel + Substantiv + *por favor*. *La cuenta* — feminin.",
+        "distractors": [
+          "El cuenta, por favor.",
+          "La cuento, por favor.",
+          "La factura, por favor."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-glass-water",
+      "type": "exercise",
+      "title": "Ein Glas Wasser bestellen",
+      "exercise": {
+        "id": "ex-tile-glass-water",
+        "type": "word_tiles",
+        "prompt": "Ordne an, um zu fragen: *Ich hätte gern ein Glas Wasser, bitte.*",
+        "card_ids": [
+          "phr-quisiera",
+          "food-agua"
+        ],
+        "tiles": [
+          "Quisiera",
+          "un",
+          "vaso",
+          "de",
+          "agua",
+          ",",
+          "por",
+          "favor"
+        ],
+        "hint": "*Quisiera* + *un vaso de agua* + *por favor*. Hinweis: *agua* lässt den Artikel weg (kein *el*) nach *de*.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-phrases",
+      "type": "exercise",
+      "title": "Phrase dem Moment zuordnen",
+      "exercise": {
+        "id": "ex-match-phrases",
+        "type": "matching",
+        "prompt": "Ordne jede spanische Phrase dem Moment zu, in dem du sie benutzen würdest.",
+        "card_ids": [
+          "phr-quisiera",
+          "phr-la-cuenta",
+          "phr-buen-provecho",
+          "phr-gracias"
+        ],
+        "pairs": [
+          {
+            "left": "Quisiera…",
+            "right": "bestellen"
+          },
+          {
+            "left": "La cuenta, por favor",
+            "right": "gehen/zahlen"
+          },
+          {
+            "left": "¡Buen provecho!",
+            "right": "vor dem Essen"
+          },
+          {
+            "left": "Muchas gracias",
+            "right": "dem Kellner danken"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-order-fish",
+      "type": "exercise",
+      "title": "Einen Salat und Fisch bestellen",
+      "exercise": {
+        "id": "ex-tile-order-fish",
+        "type": "word_tiles",
+        "prompt": "Ordne an, um zu sagen: *Ich hätte gern einen Salat und den Fisch, bitte.*",
+        "card_ids": [
+          "phr-quisiera",
+          "food-ensalada",
+          "food-pescado"
+        ],
+        "tiles": [
+          "Quisiera",
+          "una",
+          "ensalada",
+          "y",
+          "el",
+          "pescado",
+          ",",
+          "por",
+          "favor"
+        ],
+        "hint": "Unbestimmtes *una* für Salat (irgendein Salat), bestimmtes *el* für den Fisch (bestimmtes Speisekarten-Gericht).",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
