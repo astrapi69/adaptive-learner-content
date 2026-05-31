@@ -1,0 +1,559 @@
+{
+  "id": "12-shopping-market",
+  "title": "Shopping at the market",
+  "description": "Shopping at the market: asking the price, ordering politely, and the numbers from 100 to 1000.",
+  "target_language": "es",
+  "source_language": "en",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "el-mercado",
+      "front": "el mercado",
+      "back": "the market",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "cuanto-cuesta",
+      "front": "¿Cuánto cuesta?",
+      "back": "How much does it cost? (one item)",
+      "notes": "cuesta for a single item (singular).",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "cuanto-cuestan",
+      "front": "¿Cuánto cuestan?",
+      "back": "How much do they cost? (several items)",
+      "notes": "cuestan for several items (plural).",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "quiero",
+      "front": "quiero",
+      "back": "I want",
+      "notes": "Direct — the least polite option.",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "me-da",
+      "front": "me da",
+      "back": "can you give me (lit. you give me)",
+      "notes": "Neutral-polite, the everyday market option.",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "me-gustaria",
+      "front": "me gustaría",
+      "back": "I would like (polite)",
+      "notes": "The most polite option.",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "el-precio",
+      "front": "el precio",
+      "back": "the price",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "el-euro",
+      "front": "el euro",
+      "back": "the euro",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "la-fruta",
+      "front": "la fruta",
+      "back": "the fruit",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "las-manzanas",
+      "front": "las manzanas",
+      "back": "the apples",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "el-kilo",
+      "front": "el kilo",
+      "back": "the kilo",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "barato",
+      "front": "barato",
+      "back": "cheap",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "caro",
+      "front": "caro",
+      "back": "expensive",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "cien",
+      "front": "cien",
+      "back": "100 (one hundred)",
+      "notes": "cien directly before a noun; ciento uno = 101.",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "doscientos",
+      "front": "doscientos",
+      "back": "200 (two hundred)",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "trescientos",
+      "front": "trescientos",
+      "back": "300 (three hundred)",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "quinientos",
+      "front": "quinientos",
+      "back": "500 (five hundred)",
+      "notes": "Irregular: NOT cincocientos.",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "mil",
+      "front": "mil",
+      "back": "1000 (one thousand)",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "phr-cuesta-kilo",
+      "front": "¿Cuánto cuesta el kilo?",
+      "back": "How much is the kilo?",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "phr-quiero-manzanas",
+      "front": "Quiero dos kilos de manzanas.",
+      "back": "I want two kilos of apples.",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "phr-gustaria-fruta",
+      "front": "Me gustaría un kilo de fruta.",
+      "back": "I'd like a kilo of fruit.",
+      "tags": [
+        "shopping"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "At the market: asking the price",
+      "body": "# Shopping at the market\n\nAt the **mercado** (market) you need a few words and, above all, one key question: **¿Cuánto cuesta?** — How much does it cost?\n\nKey words:\n\n- *el precio* — the price\n- *el euro* — the euro\n- *la fruta* — the fruit\n- *las manzanas* — the apples\n- *el kilo* — the kilo\n- *barato* — cheap, *caro* — expensive\n\n**Singular or plural?** The verb agrees:\n\n- *¿Cuánto **cuesta**?* — How much does **it** cost? (one thing)\n- *¿Cuánto **cuestan**?* — How much do **they** cost? (several things)\n\nExample: *¿Cuánto **cuesta** el kilo?* (one kilo) versus *¿Cuánto **cuestan** las manzanas?* (the apples, several)."
+    },
+    {
+      "id": "step-cortesia",
+      "type": "theory",
+      "title": "Ordering politely: quiero / me da / me gustaría",
+      "body": "## The politeness ladder\n\nThree ways to order something — from direct to very polite:\n\n1. **quiero** — I want. Direct, the least polite.\n   - *Quiero dos kilos de manzanas.* — I want two kilos of apples.\n2. **me da** — can you give me (literally: you give me). Neutral-polite, very common.\n   - *Me da un kilo de fruta.* — Can you give me a kilo of fruit.\n3. **me gustaría** — I would like. The most polite.\n   - *Me gustaría un kilo de fruta.* — I'd like a kilo of fruit.\n\nAt the market you'll usually hear **me da**. **me gustaría** is especially courteous."
+    },
+    {
+      "id": "step-numeros",
+      "type": "theory",
+      "title": "Numbers from 100 to 1000",
+      "body": "## Big numbers\n\n| Number | Spanish |\n|---|---|\n| 100 | **cien** |\n| 200 | **doscientos** |\n| 300 | **trescientos** |\n| 500 | **quinientos** |\n| 700 | **setecientos** |\n| 900 | **novecientos** |\n| 1000 | **mil** |\n\n**Important:**\n\n- **cien** = exactly 100 (also directly before a noun: *cien euros*). From 101 it becomes **ciento**: *ciento uno* = 101.\n- Three numbers are **irregular** and do NOT follow the pattern:\n  - 500 = **quinientos** (NOT *cincocientos*)\n  - 700 = **setecientos** (NOT *sietecientos*)\n  - 900 = **novecientos** (NOT *nuevecientos*)\n- 1000 = **mil** (no *un* in front)."
+    },
+    {
+      "id": "ex-match-numeros",
+      "type": "exercise",
+      "title": "Match the numbers",
+      "exercise": {
+        "id": "ex-match-numeros",
+        "type": "matching",
+        "prompt": "Match each Spanish number with its value.",
+        "card_ids": [
+          "cien",
+          "doscientos",
+          "trescientos",
+          "quinientos",
+          "mil"
+        ],
+        "pairs": [
+          {
+            "left": "cien",
+            "right": "100"
+          },
+          {
+            "left": "doscientos",
+            "right": "200"
+          },
+          {
+            "left": "quinientos",
+            "right": "500"
+          },
+          {
+            "left": "mil",
+            "right": "1000"
+          },
+          {
+            "left": "trescientos",
+            "right": "300"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-frases",
+      "type": "exercise",
+      "title": "Match the market words",
+      "exercise": {
+        "id": "ex-match-frases",
+        "type": "matching",
+        "prompt": "Match each Spanish expression with its meaning.",
+        "card_ids": [
+          "cuanto-cuesta",
+          "quiero",
+          "me-gustaria",
+          "el-precio"
+        ],
+        "pairs": [
+          {
+            "left": "¿Cuánto cuesta?",
+            "right": "how much (one item)"
+          },
+          {
+            "left": "quiero",
+            "right": "I want"
+          },
+          {
+            "left": "me gustaría",
+            "right": "I would like"
+          },
+          {
+            "left": "el precio",
+            "right": "the price"
+          }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-cuestan",
+      "type": "exercise",
+      "title": "Cloze: plural",
+      "exercise": {
+        "id": "ex-cloze-cuestan",
+        "type": "cloze",
+        "prompt": "The apples are several things (plural) — fill in the right verb form.",
+        "card_ids": [
+          "cuanto-cuestan",
+          "las-manzanas"
+        ],
+        "sentence": "¿Cuánto ___ las manzanas?",
+        "blanks": [
+          {
+            "accept": [
+              "cuestan",
+              "Cuestan"
+            ],
+            "hint": "plural → cuestan"
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Several things (las manzanas) → cuestan."
+      }
+    },
+    {
+      "id": "ex-cloze-cuesta",
+      "type": "exercise",
+      "title": "Cloze: singular",
+      "exercise": {
+        "id": "ex-cloze-cuesta",
+        "type": "cloze",
+        "prompt": "The kilo is a single item (singular) — fill in the right verb form.",
+        "card_ids": [
+          "cuanto-cuesta",
+          "el-kilo"
+        ],
+        "sentence": "¿Cuánto ___ el kilo?",
+        "blanks": [
+          {
+            "accept": [
+              "cuesta",
+              "Cuesta"
+            ],
+            "hint": "singular → cuesta"
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "A single item (el kilo) → cuesta."
+      }
+    },
+    {
+      "id": "ex-free-quiero-manzanas",
+      "type": "exercise",
+      "title": "Translate: buying apples",
+      "exercise": {
+        "id": "ex-free-quiero-manzanas",
+        "type": "free_text",
+        "prompt": "Translate: 'I want two kilos of apples.'",
+        "card_ids": [
+          "quiero",
+          "phr-quiero-manzanas"
+        ],
+        "accept": [
+          "Quiero dos kilos de manzanas.",
+          "quiero dos kilos de manzanas",
+          "Quiero dos kilos de manzanas"
+        ],
+        "hint": "quiero = I want; dos kilos (plural) de manzanas.",
+        "distractors": [
+          "Quiero dos kilo de manzanas.",
+          "Quiero dos kilos de manzana.",
+          "Quieres dos kilos de manzanas."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-cuesta-fruta",
+      "type": "exercise",
+      "title": "Translate: asking the price",
+      "exercise": {
+        "id": "ex-free-cuesta-fruta",
+        "type": "free_text",
+        "prompt": "Translate: 'How much does the fruit cost?'",
+        "card_ids": [
+          "cuanto-cuesta",
+          "la-fruta"
+        ],
+        "accept": [
+          "¿Cuánto cuesta la fruta?",
+          "cuanto cuesta la fruta",
+          "¿Cuanto cuesta la fruta?"
+        ],
+        "hint": "la fruta is singular → cuesta. Don't forget the inverted ¿.",
+        "distractors": [
+          "¿Cuánto cuestan la fruta?",
+          "¿Cuánto cuesta el fruta?",
+          "¿Cuánta cuesta la fruta?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-gustaria",
+      "type": "exercise",
+      "title": "Order politely",
+      "exercise": {
+        "id": "ex-pick-gustaria",
+        "type": "picture_choice",
+        "prompt": "Pick the most polite form: 'I would like a kilo of fruit.'",
+        "card_ids": [
+          "me-gustaria",
+          "phr-gustaria-fruta"
+        ],
+        "images": [
+          {
+            "src": "assets/img/fruit-polite-1.png",
+            "label": "Me gustaría un kilo de fruta.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/fruit-polite-2.png",
+            "label": "Quiero un kilo de fruta."
+          },
+          {
+            "src": "assets/img/fruit-polite-3.png",
+            "label": "Me gusta un kilo de fruta."
+          },
+          {
+            "src": "assets/img/fruit-polite-4.png",
+            "label": "Me gustaría una kilo de fruta."
+          }
+        ],
+        "hint": "Most polite = me gustaría. kilo is masculine → un kilo.",
+        "distractors": [
+          "Quiero un kilo de fruta.",
+          "Me gusta un kilo de fruta.",
+          "Me gustaría una kilo de fruta."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-quinientos",
+      "type": "exercise",
+      "title": "Irregular number: 500",
+      "exercise": {
+        "id": "ex-pick-quinientos",
+        "type": "picture_choice",
+        "prompt": "Pick the correct spelling: '500' in Spanish.",
+        "card_ids": [
+          "quinientos"
+        ],
+        "images": [
+          {
+            "src": "assets/img/number-500-1.png",
+            "label": "quinientos",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/number-500-2.png",
+            "label": "cincocientos"
+          },
+          {
+            "src": "assets/img/number-500-3.png",
+            "label": "cinquientos"
+          },
+          {
+            "src": "assets/img/number-500-4.png",
+            "label": "quinentos"
+          }
+        ],
+        "hint": "500 is irregular: quinientos, NOT cincocientos.",
+        "distractors": [
+          "cincocientos",
+          "cinquientos",
+          "quinentos"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-cuesta-kilo",
+      "type": "exercise",
+      "title": "Build: ask the price of the kilo",
+      "exercise": {
+        "id": "ex-tile-cuesta-kilo",
+        "type": "word_tiles",
+        "prompt": "Arrange the sentence: 'How much is the kilo?'",
+        "card_ids": [
+          "cuanto-cuesta",
+          "phr-cuesta-kilo"
+        ],
+        "tiles": [
+          "¿Cuánto",
+          "cuesta",
+          "el",
+          "kilo?"
+        ],
+        "hint": "One thing (el kilo) → cuesta.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-quiero-kilo",
+      "type": "exercise",
+      "title": "Build: a kilo of apples",
+      "exercise": {
+        "id": "ex-tile-quiero-kilo",
+        "type": "word_tiles",
+        "prompt": "Arrange the sentence: 'I want a kilo of apples.'",
+        "card_ids": [
+          "quiero",
+          "las-manzanas"
+        ],
+        "tiles": [
+          "Quiero",
+          "un",
+          "kilo",
+          "de",
+          "manzanas"
+        ],
+        "hint": "quiero = I want; un kilo de manzanas.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-euros",
+      "type": "exercise",
+      "title": "Cloze: the price",
+      "exercise": {
+        "id": "ex-cloze-euros",
+        "type": "cloze",
+        "prompt": "A kilo costs two … what? Fill in the currency.",
+        "card_ids": [
+          "el-euro",
+          "el-kilo"
+        ],
+        "sentence": "Un kilo cuesta dos ___.",
+        "blanks": [
+          {
+            "accept": [
+              "euros",
+              "Euros"
+            ],
+            "hint": "currency (plural)"
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "dos (two) → euros in the plural."
+      }
+    },
+    {
+      "id": "ex-free-cuestan",
+      "type": "exercise",
+      "title": "Translate: plural price",
+      "exercise": {
+        "id": "ex-free-cuestan",
+        "type": "free_text",
+        "prompt": "Translate: 'How much do they cost?' (several items)",
+        "card_ids": [
+          "cuanto-cuestan"
+        ],
+        "accept": [
+          "¿Cuánto cuestan?",
+          "cuanto cuestan",
+          "¿Cuanto cuestan?"
+        ],
+        "hint": "Several items → cuestan (plural).",
+        "distractors": [
+          "¿Cuánto cuesta?",
+          "¿Cuántos cuestan?",
+          "¿Cuánto costan?"
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

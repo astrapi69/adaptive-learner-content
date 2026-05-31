@@ -1,0 +1,533 @@
+{
+  "id": "11-time-routine",
+  "title": "Time and daily routine",
+  "description": "Asking and telling the time in Spanish, plus the daily routine with reflexive verbs.",
+  "target_language": "es",
+  "source_language": "en",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "que-hora-es",
+      "front": "¿Qué hora es?",
+      "back": "What time is it?",
+      "notes": "The standard question for asking the time. Note the inverted ¿ at the start.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "es-la-una",
+      "front": "Es la una.",
+      "back": "It's one o'clock.",
+      "notes": "Singular 'Es la una' only for one o'clock.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "son-las-dos",
+      "front": "Son las dos.",
+      "back": "It's two o'clock.",
+      "notes": "Plural 'Son las...' for every hour except one o'clock.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "y-media",
+      "front": "y media",
+      "back": "half past",
+      "notes": "Literally 'and half', e.g. Son las dos y media = half past two.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "y-cuarto",
+      "front": "y cuarto",
+      "back": "quarter past",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "menos-cuarto",
+      "front": "menos cuarto",
+      "back": "quarter to",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "de-la-manana",
+      "front": "de la mañana",
+      "back": "in the morning",
+      "notes": "mañana with ñ. Marks the part of the day.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "de-la-tarde",
+      "front": "de la tarde",
+      "back": "in the afternoon",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "de-la-noche",
+      "front": "de la noche",
+      "back": "at night",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "me-levanto",
+      "front": "me levanto",
+      "back": "I get up (levantarse)",
+      "notes": "Reflexive verb: the pronoun 'me' goes before the verb.",
+      "tags": [
+        "routine",
+        "reflexive",
+        "verb"
+      ]
+    },
+    {
+      "id": "me-ducho",
+      "front": "me ducho",
+      "back": "I shower (ducharse)",
+      "tags": [
+        "routine",
+        "reflexive",
+        "verb"
+      ]
+    },
+    {
+      "id": "me-acuesto",
+      "front": "me acuesto",
+      "back": "I go to bed (acostarse)",
+      "tags": [
+        "routine",
+        "reflexive",
+        "verb"
+      ]
+    },
+    {
+      "id": "me-despierto",
+      "front": "me despierto",
+      "back": "I wake up (despertarse)",
+      "tags": [
+        "routine",
+        "reflexive",
+        "verb"
+      ]
+    },
+    {
+      "id": "desayuno",
+      "front": "desayuno",
+      "back": "I have breakfast (desayunar)",
+      "notes": "Not reflexive: no pronoun.",
+      "tags": [
+        "routine",
+        "verb"
+      ]
+    },
+    {
+      "id": "me-levanto-a-las-siete",
+      "front": "Me levanto a las siete.",
+      "back": "I get up at seven.",
+      "tags": [
+        "routine"
+      ]
+    },
+    {
+      "id": "son-las-ocho-y-media",
+      "front": "Son las ocho y media.",
+      "back": "It's half past eight.",
+      "tags": [
+        "time"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Asking and telling the time",
+      "body": "# Telling the time\n\nThe question for the time is always: **¿Qué hora es?** (What time is it?). Note the inverted **¿** at the start of the sentence.\n\nThe answer has one key rule:\n\n- **Es la una** (singular) — only for **one o'clock**.\n- **Son las...** (plural) — for **every other hour**.\n\nExamples:\n\n- *Es la una.* — It's one o'clock.\n- *Son las dos.* — It's two o'clock.\n- *Son las cinco.* — It's five o'clock.\n\nAdd minutes with these building blocks:\n\n- **y media** — half past: *Son las tres y media.* (half past three)\n- **y cuarto** — quarter past: *Son las cuatro y cuarto.* (quarter past four)\n- **menos cuarto** — quarter to: *Son las cinco menos cuarto.* (quarter to five)"
+    },
+    {
+      "id": "step-tageszeit",
+      "type": "theory",
+      "title": "Parts of the day",
+      "body": "## Morning, afternoon, night\n\nTo say whether it's morning, afternoon or evening, add the part of the day:\n\n- **de la mañana** — in the morning: *Son las ocho de la mañana.* (eight in the morning)\n- **de la tarde** — in the afternoon: *Son las cuatro de la tarde.* (four in the afternoon)\n- **de la noche** — at night: *Son las diez de la noche.* (ten at night)\n\nNote: **mañana** is written with **ñ**."
+    },
+    {
+      "id": "step-reflexive",
+      "type": "theory",
+      "title": "Reflexive verbs for routine",
+      "body": "## Reflexive verbs\n\nMany daily-routine verbs are **reflexive**. You spot them by the **-se** on the infinitive: *levantarse* (to get up), *ducharse* (to shower), *acostarse* (to go to bed), *despertarse* (to wake up).\n\nReflexive verbs need a pronoun **before** the verb:\n\n| Person | levantarse |\n|---|---|\n| yo | **me** levanto |\n| tú | **te** levantas |\n| él/ella | **se** levanta |\n| nosotros | **nos** levantamos |\n| vosotros | **os** levantáis |\n| ellos/ellas | **se** levantan |\n\nExamples:\n\n- *Me levanto temprano.* — I get up early.\n- *Nos acostamos tarde.* — We go to bed late.\n\nNot every verb is reflexive: **desayunar** (to have breakfast) needs **no** pronoun — *desayuno* (I have breakfast)."
+    },
+    {
+      "id": "step-zusammen",
+      "type": "theory",
+      "title": "Putting it together",
+      "body": "## Combining time and routine\n\nUse the preposition **a las** (at ... o'clock) to link an activity to a time:\n\n- *Me levanto **a las** siete y desayuno **a las** ocho.* — I get up at seven and have breakfast at eight.\n- *Me acuesto **a las** once de la noche.* — I go to bed at eleven at night.\n\nRemember: for one o'clock it's **a la una** (singular), otherwise **a las** + hour."
+    },
+    {
+      "id": "ex-match-uhrzeit",
+      "type": "exercise",
+      "title": "Match time expressions",
+      "exercise": {
+        "id": "ex-match-uhrzeit",
+        "type": "matching",
+        "prompt": "Match each Spanish time expression with its meaning.",
+        "card_ids": [
+          "es-la-una",
+          "son-las-dos",
+          "y-media",
+          "y-cuarto",
+          "menos-cuarto"
+        ],
+        "pairs": [
+          {
+            "left": "Es la una",
+            "right": "it's one o'clock"
+          },
+          {
+            "left": "Son las dos",
+            "right": "it's two o'clock"
+          },
+          {
+            "left": "y media",
+            "right": "half past"
+          },
+          {
+            "left": "y cuarto",
+            "right": "quarter past"
+          },
+          {
+            "left": "menos cuarto",
+            "right": "quarter to"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-routine",
+      "type": "exercise",
+      "title": "Match routine verbs",
+      "exercise": {
+        "id": "ex-match-routine",
+        "type": "matching",
+        "prompt": "Match each Spanish routine verb with its meaning.",
+        "card_ids": [
+          "me-levanto",
+          "me-ducho",
+          "me-acuesto",
+          "desayuno"
+        ],
+        "pairs": [
+          {
+            "left": "me levanto",
+            "right": "I get up"
+          },
+          {
+            "left": "me ducho",
+            "right": "I shower"
+          },
+          {
+            "left": "me acuesto",
+            "right": "I go to bed"
+          },
+          {
+            "left": "desayuno",
+            "right": "I have breakfast"
+          }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-una",
+      "type": "exercise",
+      "title": "Pick one o'clock",
+      "exercise": {
+        "id": "ex-pick-una",
+        "type": "picture_choice",
+        "prompt": "Pick the correct form: 'It's one o'clock.'",
+        "card_ids": [
+          "es-la-una"
+        ],
+        "images": [
+          {
+            "src": "assets/img/clock-one-1.png",
+            "label": "Es la una.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/clock-one-2.png",
+            "label": "Son la una."
+          },
+          {
+            "src": "assets/img/clock-one-3.png",
+            "label": "Es las una."
+          },
+          {
+            "src": "assets/img/clock-one-4.png",
+            "label": "Son las una."
+          }
+        ],
+        "hint": "One o'clock is singular → Es la una.",
+        "distractors": [
+          "Son la una.",
+          "Es las una.",
+          "Son las una."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-tres-media",
+      "type": "exercise",
+      "title": "Pick half past three",
+      "exercise": {
+        "id": "ex-pick-tres-media",
+        "type": "picture_choice",
+        "prompt": "Pick the correct form: 'It's half past three.'",
+        "card_ids": [
+          "son-las-dos",
+          "y-media"
+        ],
+        "images": [
+          {
+            "src": "assets/img/clock-half-1.png",
+            "label": "Son las tres y media.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/clock-half-2.png",
+            "label": "Es las tres y media."
+          },
+          {
+            "src": "assets/img/clock-half-3.png",
+            "label": "Son la tres y media."
+          },
+          {
+            "src": "assets/img/clock-half-4.png",
+            "label": "Son las tres y medio."
+          }
+        ],
+        "hint": "Plural (Son las...) + y media.",
+        "distractors": [
+          "Es las tres y media.",
+          "Son la tres y media.",
+          "Son las tres y medio."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-son",
+      "type": "exercise",
+      "title": "Cloze: Son or Es?",
+      "exercise": {
+        "id": "ex-cloze-son",
+        "type": "cloze",
+        "prompt": "Fill in the correct form (plural — it's not one o'clock).",
+        "card_ids": [
+          "son-las-dos"
+        ],
+        "sentence": "___ las cuatro y cuarto.",
+        "blanks": [
+          {
+            "accept": [
+              "Son",
+              "son"
+            ],
+            "hint": "Plural for every hour except one o'clock."
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Four o'clock is not one o'clock → Son las..."
+      }
+    },
+    {
+      "id": "ex-cloze-me-levanto",
+      "type": "exercise",
+      "title": "Cloze: get up",
+      "exercise": {
+        "id": "ex-cloze-me-levanto",
+        "type": "cloze",
+        "prompt": "Fill in the reflexive yo form of levantarse.",
+        "card_ids": [
+          "me-levanto",
+          "me-levanto-a-las-siete"
+        ],
+        "sentence": "Yo ___ a las siete.",
+        "blanks": [
+          {
+            "accept": [
+              "me levanto",
+              "Me levanto"
+            ],
+            "hint": "levantarse, yo"
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Reflexive: pronoun me + levanto."
+      }
+    },
+    {
+      "id": "ex-cloze-acostamos",
+      "type": "exercise",
+      "title": "Cloze: go to bed (we)",
+      "exercise": {
+        "id": "ex-cloze-acostamos",
+        "type": "cloze",
+        "prompt": "Fill in the nosotros form of acostarse (the pronoun nos is already there).",
+        "card_ids": [
+          "me-acuesto"
+        ],
+        "sentence": "Nosotros nos ___ tarde.",
+        "blanks": [
+          {
+            "accept": [
+              "acostamos",
+              "Acostamos"
+            ],
+            "hint": "acostarse, nosotros"
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "nosotros nos acostamos."
+      }
+    },
+    {
+      "id": "ex-free-levanto-siete",
+      "type": "exercise",
+      "title": "Translate: get up at seven",
+      "exercise": {
+        "id": "ex-free-levanto-siete",
+        "type": "free_text",
+        "prompt": "Translate: 'I get up at seven.'",
+        "card_ids": [
+          "me-levanto",
+          "me-levanto-a-las-siete"
+        ],
+        "accept": [
+          "Me levanto a las siete.",
+          "me levanto a las siete",
+          "Yo me levanto a las siete."
+        ],
+        "hint": "Reflexive (me levanto) + a las siete.",
+        "distractors": [
+          "Me levanto a la siete.",
+          "Levanto a las siete.",
+          "Me acuesto a las siete."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-son-las-dos",
+      "type": "exercise",
+      "title": "Translate: It's two o'clock",
+      "exercise": {
+        "id": "ex-free-son-las-dos",
+        "type": "free_text",
+        "prompt": "Translate: 'It's two o'clock.'",
+        "card_ids": [
+          "son-las-dos"
+        ],
+        "accept": [
+          "Son las dos.",
+          "son las dos",
+          "Son las dos"
+        ],
+        "hint": "Plural (Son las...) for two o'clock.",
+        "distractors": [
+          "Es las dos.",
+          "Son la dos.",
+          "Es la dos."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-levanto",
+      "type": "exercise",
+      "title": "Build: get up at seven",
+      "exercise": {
+        "id": "ex-tile-levanto",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: 'I get up at seven.'",
+        "card_ids": [
+          "me-levanto",
+          "me-levanto-a-las-siete"
+        ],
+        "tiles": [
+          "Me",
+          "levanto",
+          "a",
+          "las",
+          "siete"
+        ],
+        "hint": "Reflexive pronoun Me first.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-ocho-media",
+      "type": "exercise",
+      "title": "Build: half past eight",
+      "exercise": {
+        "id": "ex-tile-ocho-media",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: 'It's half past eight.'",
+        "card_ids": [
+          "son-las-ocho-y-media",
+          "y-media"
+        ],
+        "tiles": [
+          "Son",
+          "las",
+          "ocho",
+          "y",
+          "media"
+        ],
+        "hint": "Plural Son las... + y media.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-ducho-manana",
+      "type": "exercise",
+      "title": "Translate: shower in the morning",
+      "exercise": {
+        "id": "ex-free-ducho-manana",
+        "type": "free_text",
+        "prompt": "Translate: 'I shower in the morning.'",
+        "card_ids": [
+          "me-ducho",
+          "de-la-manana"
+        ],
+        "accept": [
+          "Me ducho por la mañana.",
+          "me ducho por la mañana",
+          "Me ducho por la manana."
+        ],
+        "hint": "Reflexive me ducho + por la mañana (with ñ).",
+        "distractors": [
+          "Me ducho por la noche.",
+          "Ducho por la mañana.",
+          "Me ducha por la mañana."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

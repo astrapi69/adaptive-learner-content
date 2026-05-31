@@ -1,0 +1,540 @@
+{
+  "id": "15-review",
+  "title": "Review and consolidation A1",
+  "description": "The big A1 review: articles and gender, ser and estar, the present tense (-AR/-ER/-IR) and the simple past (preterite) — all together.",
+  "target_language": "es",
+  "source_language": "en",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "el-libro",
+      "front": "el libro",
+      "back": "the book (masculine → el)",
+      "notes": "Ending -o → usually masculine → el.",
+      "tags": [
+        "article"
+      ]
+    },
+    {
+      "id": "la-casa",
+      "front": "la casa",
+      "back": "the house (feminine → la)",
+      "notes": "Ending -a → usually feminine → la.",
+      "tags": [
+        "article"
+      ]
+    },
+    {
+      "id": "la-familia",
+      "front": "la familia",
+      "back": "the family (feminine → la)",
+      "tags": [
+        "article"
+      ]
+    },
+    {
+      "id": "el-mercado",
+      "front": "el mercado",
+      "back": "the market (masculine → el)",
+      "tags": [
+        "article"
+      ]
+    },
+    {
+      "id": "rojo",
+      "front": "rojo / roja",
+      "back": "red (agrees with the gender)",
+      "notes": "rojo with masculine, roja with feminine.",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "soy",
+      "front": "yo soy",
+      "back": "I am (ser — identity)",
+      "tags": [
+        "ser"
+      ]
+    },
+    {
+      "id": "estoy",
+      "front": "yo estoy",
+      "back": "I am (estar — state/location)",
+      "tags": [
+        "estar"
+      ]
+    },
+    {
+      "id": "hablo",
+      "front": "yo hablo",
+      "back": "I speak (hablar, present)",
+      "notes": "-AR verb, 1st person singular.",
+      "tags": [
+        "present"
+      ]
+    },
+    {
+      "id": "como",
+      "front": "yo como",
+      "back": "I eat (comer, present)",
+      "notes": "-ER verb, 1st person singular.",
+      "tags": [
+        "present"
+      ]
+    },
+    {
+      "id": "vivo",
+      "front": "yo vivo",
+      "back": "I live (vivir, present)",
+      "notes": "-IR verb, 1st person singular.",
+      "tags": [
+        "present"
+      ]
+    },
+    {
+      "id": "hable",
+      "front": "yo hablé",
+      "back": "I spoke (hablar, preterite)",
+      "notes": "Accent on the é: hablé. Without the accent (hablo) it would be present tense.",
+      "tags": [
+        "preterite"
+      ]
+    },
+    {
+      "id": "comi",
+      "front": "yo comí",
+      "back": "I ate (comer, preterite)",
+      "notes": "Accent on the í: comí.",
+      "tags": [
+        "preterite"
+      ]
+    },
+    {
+      "id": "fui",
+      "front": "yo fui",
+      "back": "I went / I was (ir/ser, irregular)",
+      "notes": "Irregular preterite — NO accent: fui.",
+      "tags": [
+        "preterite"
+      ]
+    },
+    {
+      "id": "compre",
+      "front": "yo compré",
+      "back": "I bought (comprar, preterite)",
+      "notes": "Accent on the é: compré.",
+      "tags": [
+        "preterite"
+      ]
+    },
+    {
+      "id": "soy-de-espana",
+      "front": "Soy de España.",
+      "back": "I am from Spain. (origin → ser)",
+      "tags": [
+        "example"
+      ]
+    },
+    {
+      "id": "camisa-roja",
+      "front": "la camisa roja",
+      "back": "the red shirt (feminine → la camisa roja)",
+      "notes": "camisa is feminine → la + roja (not rojo).",
+      "tags": [
+        "example"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Your four big A1 wins",
+      "body": "# Review A1\n\nYou have learned the four most important A1 building blocks. Here they come together one more time, compactly — and this time combined inside a single sentence.\n\n| Topic | Core rule | Example |\n|---|---|---|\n| **Gender** | -o → masculine (el), -a → feminine (la) | el libro, la casa |\n| **ser / estar** | Could it change? No → ser, Yes → estar | Soy alta / Estoy feliz |\n| **Present** | -AR/-ER/-IR: hablo, como, vivo | Hablo español. |\n| **Preterite** | regular takes the accent (hablé, habló), irregular drops it (fui, hice) | Ayer hablé. |\n\nNo new vocabulary — just consolidation and combination."
+    },
+    {
+      "id": "step-watchouts",
+      "type": "theory",
+      "title": "The classic traps",
+      "body": "## What to watch out for\n\n- **ser vs. estar**: *Soy estudiante* (identity → ser), but *Estoy cansado* (state → estar). The question is always: \"Could this change?\"\n- **The accent decides the tense**: *hablo* = I speak (present), *hablé* = I spoke (preterite). A single accent flips the meaning completely.\n- **Regular vs. irregular in the preterite**: regular forms carry the accent (hablé, habló, comí); the common irregular forms carry NONE (fui, hice, tuve).\n- **The contractions al and del**: *a + el = al*, *de + el = del*. So *Voy al mercado*, *Vengo del mercado* — never *a el* or *de el*."
+    },
+    {
+      "id": "ex-match-mixed",
+      "type": "exercise",
+      "title": "Mixed matching",
+      "exercise": {
+        "id": "ex-match-mixed",
+        "type": "matching",
+        "prompt": "Match each Spanish form with its English meaning (articles, ser, estar, preterite mixed).",
+        "card_ids": [
+          "el-libro",
+          "la-casa",
+          "soy",
+          "estoy",
+          "hable"
+        ],
+        "pairs": [
+          {
+            "left": "el libro",
+            "right": "the book"
+          },
+          {
+            "left": "la casa",
+            "right": "the house"
+          },
+          {
+            "left": "soy",
+            "right": "I am (ser)"
+          },
+          {
+            "left": "estoy",
+            "right": "I am (estar)"
+          },
+          {
+            "left": "hablé",
+            "right": "I spoke"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-present-past",
+      "type": "exercise",
+      "title": "Present or past?",
+      "exercise": {
+        "id": "ex-match-present-past",
+        "type": "matching",
+        "prompt": "Match each form with its English meaning — watch the accent (present vs. preterite).",
+        "card_ids": [
+          "hablo",
+          "hable",
+          "como",
+          "comi",
+          "fui"
+        ],
+        "pairs": [
+          {
+            "left": "hablo",
+            "right": "I speak"
+          },
+          {
+            "left": "hablé",
+            "right": "I spoke"
+          },
+          {
+            "left": "como",
+            "right": "I eat"
+          },
+          {
+            "left": "comí",
+            "right": "I ate"
+          },
+          {
+            "left": "fui",
+            "right": "I went"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-ser-identitaet",
+      "type": "exercise",
+      "title": "Identity → ser",
+      "exercise": {
+        "id": "ex-pick-ser-identitaet",
+        "type": "picture_choice",
+        "prompt": "Pick the correct form: 'I am a student.' (identity)",
+        "card_ids": [
+          "soy",
+          "soy-de-espana"
+        ],
+        "images": [
+          {
+            "src": "assets/img/student-1.png",
+            "label": "Soy estudiante.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/student-2.png",
+            "label": "Estoy estudiante."
+          },
+          {
+            "src": "assets/img/student-3.png",
+            "label": "Es estudiante."
+          },
+          {
+            "src": "assets/img/student-4.png",
+            "label": "Soy un estudiante."
+          }
+        ],
+        "hint": "Identity → ser. No article before a profession.",
+        "distractors": [
+          "Estoy estudiante.",
+          "Es estudiante.",
+          "Soy un estudiante."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-article-gender",
+      "type": "exercise",
+      "title": "Article and gender",
+      "exercise": {
+        "id": "ex-pick-article-gender",
+        "type": "picture_choice",
+        "prompt": "Pick the correct form: 'the house' (with the correct article).",
+        "card_ids": [
+          "la-casa"
+        ],
+        "images": [
+          {
+            "src": "assets/img/casa-1.png",
+            "label": "la casa",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/casa-2.png",
+            "label": "el casa"
+          },
+          {
+            "src": "assets/img/casa-3.png",
+            "label": "los casa"
+          },
+          {
+            "src": "assets/img/casa-4.png",
+            "label": "la caso"
+          }
+        ],
+        "hint": "casa ends in -a → feminine → la casa.",
+        "distractors": [
+          "el casa",
+          "los casa",
+          "la caso"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-estar",
+      "type": "exercise",
+      "title": "Cloze: ser or estar?",
+      "exercise": {
+        "id": "ex-cloze-estar",
+        "type": "cloze",
+        "prompt": "Being tired is a temporary state — fill in the right form.",
+        "card_ids": [
+          "estoy"
+        ],
+        "sentence": "Yo ___ cansado hoy.",
+        "blanks": [
+          {
+            "accept": [
+              "estoy",
+              "Estoy"
+            ],
+            "hint": "State → estar."
+          }
+        ],
+        "cloze_mode": "type"
+      }
+    },
+    {
+      "id": "ex-cloze-present-er",
+      "type": "exercise",
+      "title": "Cloze: present -ER (comer)",
+      "exercise": {
+        "id": "ex-cloze-present-er",
+        "type": "cloze",
+        "prompt": "Fill in the we-form of comer (to eat) in the present.",
+        "card_ids": [
+          "como"
+        ],
+        "sentence": "Nosotros ___ pan.",
+        "blanks": [
+          {
+            "accept": [
+              "comemos",
+              "Comemos"
+            ],
+            "hint": "-ER verb, nosotros → -emos."
+          }
+        ],
+        "cloze_mode": "type"
+      }
+    },
+    {
+      "id": "ex-cloze-preterite-hablar",
+      "type": "exercise",
+      "title": "Cloze: preterite (hablar)",
+      "exercise": {
+        "id": "ex-cloze-preterite-hablar",
+        "type": "cloze",
+        "prompt": "Yesterday (ayer) → past tense. Fill in the yo-form of hablar in the preterite.",
+        "card_ids": [
+          "hable"
+        ],
+        "sentence": "Ayer yo ___ con mi madre.",
+        "blanks": [
+          {
+            "accept": [
+              "hablé",
+              "Hablé"
+            ],
+            "hint": "Regular preterite yo → -é with accent: hablé."
+          }
+        ],
+        "cloze_mode": "type"
+      }
+    },
+    {
+      "id": "ex-cloze-preterite-ir",
+      "type": "exercise",
+      "title": "Cloze: irregular preterite (ir)",
+      "exercise": {
+        "id": "ex-cloze-preterite-ir",
+        "type": "cloze",
+        "prompt": "Fill in the yo-form of ir (to go) in the preterite — irregular, no accent.",
+        "card_ids": [
+          "fui"
+        ],
+        "sentence": "Ayer ___ a Madrid.",
+        "blanks": [
+          {
+            "accept": [
+              "fui",
+              "Fui"
+            ],
+            "hint": "Irregular → fui (no accent)."
+          }
+        ],
+        "cloze_mode": "type"
+      }
+    },
+    {
+      "id": "ex-free-combine",
+      "type": "exercise",
+      "title": "Combine: origin + place of living",
+      "exercise": {
+        "id": "ex-free-combine",
+        "type": "free_text",
+        "prompt": "Translate: 'I am from Spain and I live in Madrid.' (ser for origin, vivir in the present)",
+        "card_ids": [
+          "soy",
+          "vivo",
+          "soy-de-espana"
+        ],
+        "accept": [
+          "Soy de España y vivo en Madrid.",
+          "soy de espana y vivo en madrid",
+          "Soy de España y vivo en Madrid"
+        ],
+        "hint": "Origin → ser (soy de). vivo = I live. España with ñ.",
+        "distractors": [
+          "Estoy de España y vivo en Madrid.",
+          "Soy de España y vive en Madrid.",
+          "Soy de España y vivo en Madril."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-preterite",
+      "type": "exercise",
+      "title": "Combine: preterite",
+      "exercise": {
+        "id": "ex-free-preterite",
+        "type": "free_text",
+        "prompt": "Translate: 'Yesterday I spoke with María.' (hablar in the preterite)",
+        "card_ids": [
+          "hable"
+        ],
+        "accept": [
+          "Ayer hablé con María.",
+          "ayer hable con maria",
+          "Ayer hablé con Maria."
+        ],
+        "hint": "Yesterday → preterite. hablé with accent. María with accent on the í.",
+        "distractors": [
+          "Ayer hablo con María.",
+          "Ayer hablé con Marío.",
+          "Hoy hablé con María."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-ser-estar",
+      "type": "exercise",
+      "title": "Build: ser + estar",
+      "exercise": {
+        "id": "ex-tile-ser-estar",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: 'I am tall and I am happy.' (characteristic → ser, feeling → estar)",
+        "card_ids": [
+          "soy",
+          "estoy"
+        ],
+        "tiles": [
+          "Soy",
+          "alta",
+          "y",
+          "estoy",
+          "feliz"
+        ],
+        "hint": "Two parts: alta = characteristic (ser → soy), feliz = feeling (estar → estoy).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-preterite",
+      "type": "exercise",
+      "title": "Build: preterite",
+      "exercise": {
+        "id": "ex-tile-preterite",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: 'Yesterday I bought a book.' (comprar in the preterite)",
+        "card_ids": [
+          "compre",
+          "el-libro"
+        ],
+        "tiles": [
+          "Ayer",
+          "compré",
+          "un",
+          "libro"
+        ],
+        "hint": "Yesterday → preterite. compré with accent. un libro = a book (masculine).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-gender-article",
+      "type": "exercise",
+      "title": "Gender + article + adjective",
+      "exercise": {
+        "id": "ex-free-gender-article",
+        "type": "free_text",
+        "prompt": "Translate: 'the red shirt'. (camisa is feminine — article and adjective must agree)",
+        "card_ids": [
+          "camisa-roja",
+          "rojo"
+        ],
+        "accept": [
+          "la camisa roja",
+          "La camisa roja"
+        ],
+        "hint": "camisa → feminine → la + roja (not rojo).",
+        "distractors": [
+          "la camisa rojo",
+          "el camisa roja",
+          "la camisa rojas"
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

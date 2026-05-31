@@ -1,0 +1,541 @@
+{
+  "id": "13-indefinido-ar",
+  "title": "Das Indefinido - regelmäßige Verben auf -AR",
+  "description": "Die einfache Vergangenheit (pretérito indefinido) für abgeschlossene Handlungen - regelmäßige Verben auf -AR, auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "hable",
+      "front": "hablé",
+      "back": "ich sprach",
+      "notes": "1. Person Singular von hablar im Indefinido. Der Akzent auf dem é ist Pflicht.",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "hablaste",
+      "front": "hablaste",
+      "back": "du sprachst",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "hablo-pasado",
+      "front": "habló",
+      "back": "er/sie sprach",
+      "notes": "3. Person Singular im Indefinido. Der Akzent auf dem ó ist Pflicht - ohne Akzent bedeutet habla 'er/sie spricht' (Gegenwart).",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "hablamos-pasado",
+      "front": "hablamos",
+      "back": "wir sprachen",
+      "notes": "Achtung: identisch mit der Gegenwartsform 'wir sprechen'. Nur der Kontext zeigt die Zeit an.",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "hablaron",
+      "front": "hablaron",
+      "back": "sie sprachen",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "compre",
+      "front": "compré",
+      "back": "ich kaufte",
+      "notes": "Akzent auf dem é ist Pflicht. Ohne Akzent: compro = 'ich kaufe' (Gegenwart).",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "compro-pasado",
+      "front": "compró",
+      "back": "er/sie kaufte",
+      "notes": "Akzent auf dem ó ist Pflicht. Ohne Akzent: compra = 'er/sie kauft' (Gegenwart).",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "trabaje",
+      "front": "trabajé",
+      "back": "ich arbeitete",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "trabajo-pasado",
+      "front": "trabajó",
+      "back": "er/sie arbeitete",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "estudie",
+      "front": "estudié",
+      "back": "ich lernte/studierte",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "estudio-pasado",
+      "front": "estudió",
+      "back": "er/sie lernte/studierte",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "cocine",
+      "front": "cociné",
+      "back": "ich kochte",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "cocino-pasado",
+      "front": "cocinó",
+      "back": "er/sie kochte",
+      "tags": [
+        "verb",
+        "ar",
+        "preterite"
+      ]
+    },
+    {
+      "id": "ayer",
+      "front": "ayer",
+      "back": "gestern",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "anoche",
+      "front": "anoche",
+      "back": "gestern Abend / letzte Nacht",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "ayer-hable-maria",
+      "front": "Ayer hablé con María.",
+      "back": "Gestern sprach ich mit María.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "compro-pan-mercado",
+      "front": "Compró pan en el mercado.",
+      "back": "Er/sie kaufte Brot auf dem Markt.",
+      "tags": [
+        "time"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die einfache Vergangenheit",
+      "body": "# Das Indefinido (pretérito indefinido)\n\nDas **Indefinido** ist die einfache Vergangenheit für **abgeschlossene Handlungen**: etwas, das gestern, letzte Nacht oder zu einem klaren Zeitpunkt in der Vergangenheit passiert ist und vorbei ist.\n\nTypische Zeitangaben (Signalwörter):\n\n- **ayer** - gestern\n- **anoche** - gestern Abend / letzte Nacht\n\nVergleich Gegenwart gegen Vergangenheit:\n\n- *Hoy **hablo** con María.* - Heute spreche ich mit María. (Gegenwart)\n- *Ayer **hablé** con María.* - Gestern sprach ich mit María. (Vergangenheit)\n\nAchte schon hier auf den **Akzent**: *hablo* (ich spreche) gegen *hablé* (ich sprach)."
+    },
+    {
+      "id": "step-endings",
+      "type": "theory",
+      "title": "Die -AR-Endungen",
+      "body": "## Die Endungen im Indefinido (-AR)\n\nBei regelmäßigen Verben auf **-AR** nimmst du den Stamm und hängst diese Endungen an:\n\n| Person | Endung | Beispiel (hablar) |\n|---|---|---|\n| yo | **-é** | habl**é** |\n| tú | **-aste** | habl**aste** |\n| él / ella | **-ó** | habl**ó** |\n| nosotros | **-amos** | habl**amos** |\n| vosotros | **-asteis** | habl**asteis** |\n| ellos / ellas | **-aron** | habl**aron** |\n\nDie Formen für **yo** (habl**é**) und **él/ella** (habl**ó**) tragen einen **Pflicht-Akzent**. Dieser Akzent ist nicht optional - er entscheidet über die Bedeutung. Mehr dazu auf der nächsten Seite.\n\nGenauso funktionieren *comprar* (compré, compraste, compró, ...), *trabajar*, *estudiar*, *cocinar*."
+    },
+    {
+      "id": "step-accent-rule",
+      "type": "theory",
+      "title": "Der Akzent verändert die Bedeutung",
+      "body": "## Der Akzent ist Pflicht - er ändert die Zeit\n\nOhne den Akzent ist die Form **Gegenwart**, mit dem Akzent ist sie **Vergangenheit**. Das ist die wichtigste Regel dieser Lektion:\n\n| Ohne Akzent (Gegenwart) | Mit Akzent (Vergangenheit) |\n|---|---|\n| *hablo* = ich spreche | *habl**é*** = ich sprach |\n| *habla* = er/sie spricht | *habl**ó*** = er/sie sprach |\n| *compro* = ich kaufe | *compr**é*** = ich kaufte |\n| *compra* = er/sie kauft | *compr**ó*** = er/sie kaufte |\n\nEin vergessener Akzent schreibt also die Zeit komplett um.\n\n**Wichtige Ausnahme - die nosotros-Form:** *hablamos* und *compramos* sind in Gegenwart UND Vergangenheit **identisch**. Hier gibt es keinen Akzent-Unterschied - nur der Kontext (z. B. *ayer*) zeigt, ob Gegenwart oder Vergangenheit gemeint ist."
+    },
+    {
+      "id": "ex-match-hablar",
+      "type": "exercise",
+      "title": "hablar-Formen zuordnen",
+      "exercise": {
+        "id": "ex-match-hablar",
+        "type": "matching",
+        "prompt": "Ordne die Indefinido-Formen von hablar ihrer deutschen Bedeutung zu.",
+        "card_ids": [
+          "hable",
+          "hablaste",
+          "hablo-pasado",
+          "hablamos-pasado",
+          "hablaron"
+        ],
+        "pairs": [
+          {
+            "left": "hablé",
+            "right": "ich sprach"
+          },
+          {
+            "left": "hablaste",
+            "right": "du sprachst"
+          },
+          {
+            "left": "habló",
+            "right": "er/sie sprach"
+          },
+          {
+            "left": "hablamos",
+            "right": "wir sprachen"
+          },
+          {
+            "left": "hablaron",
+            "right": "sie sprachen"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-contrast",
+      "type": "exercise",
+      "title": "Gegenwart oder Vergangenheit?",
+      "exercise": {
+        "id": "ex-match-contrast",
+        "type": "matching",
+        "prompt": "Ordne jede Form ihrer Bedeutung zu - achte auf den Akzent.",
+        "card_ids": [
+          "hable",
+          "compro-pasado"
+        ],
+        "pairs": [
+          {
+            "left": "hablo",
+            "right": "ich spreche"
+          },
+          {
+            "left": "hablé",
+            "right": "ich sprach"
+          },
+          {
+            "left": "compra",
+            "right": "er/sie kauft"
+          },
+          {
+            "left": "compró",
+            "right": "er/sie kaufte"
+          }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-hable",
+      "type": "exercise",
+      "title": "Lücke füllen: ich sprach",
+      "exercise": {
+        "id": "ex-cloze-hable",
+        "type": "cloze",
+        "prompt": "Ergänze die Indefinido-Form von hablar (yo).",
+        "card_ids": [
+          "hable",
+          "ayer-hable-maria"
+        ],
+        "sentence": "Ayer yo ___ con María.",
+        "blanks": [
+          {
+            "accept": [
+              "hablé",
+              "Hablé"
+            ],
+            "hint": "hablar, yo, Vergangenheit - mit Akzent"
+          }
+        ],
+        "cloze_mode": "type"
+      }
+    },
+    {
+      "id": "ex-cloze-compro",
+      "type": "exercise",
+      "title": "Lücke füllen: er kaufte",
+      "exercise": {
+        "id": "ex-cloze-compro",
+        "type": "cloze",
+        "prompt": "Ergänze die Indefinido-Form von comprar (él).",
+        "card_ids": [
+          "compro-pasado"
+        ],
+        "sentence": "Él ___ pan ayer.",
+        "blanks": [
+          {
+            "accept": [
+              "compró",
+              "Compró"
+            ],
+            "hint": "comprar, él, Vergangenheit - Akzent auf dem ó"
+          }
+        ],
+        "cloze_mode": "type"
+      }
+    },
+    {
+      "id": "ex-cloze-trabajamos",
+      "type": "exercise",
+      "title": "Lücke füllen: wir arbeiteten",
+      "exercise": {
+        "id": "ex-cloze-trabajamos",
+        "type": "cloze",
+        "prompt": "Ergänze die Indefinido-Form von trabajar (nosotros). Achtung: kein Akzent, identisch mit der Gegenwart.",
+        "card_ids": [
+          "trabaje"
+        ],
+        "sentence": "Nosotros ___ mucho ayer.",
+        "blanks": [
+          {
+            "accept": [
+              "trabajamos",
+              "Trabajamos"
+            ],
+            "hint": "trabajar, nosotros - die nosotros-Form ist kontextabhängig"
+          }
+        ],
+        "cloze_mode": "type"
+      }
+    },
+    {
+      "id": "ex-free-hable-maria",
+      "type": "exercise",
+      "title": "Übersetzen: Gestern sprach ich mit María",
+      "exercise": {
+        "id": "ex-free-hable-maria",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Gestern sprach ich mit María.' (Vergangenheit - Akzent nicht vergessen!)",
+        "card_ids": [
+          "hable",
+          "ayer-hable-maria"
+        ],
+        "accept": [
+          "Ayer hablé con María.",
+          "ayer hable con maria",
+          "Ayer hablé con Maria."
+        ],
+        "hint": "yo-Form von hablar im Indefinido = hablé. Die Gegenwart 'hablo' wäre falsch.",
+        "distractors": [
+          "Ayer hablo con María.",
+          "Ayer hablé con Marío.",
+          "Ayer hablaste con María."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-compro-pan",
+      "type": "exercise",
+      "title": "Übersetzen: Er kaufte Brot",
+      "exercise": {
+        "id": "ex-free-compro-pan",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Er kaufte Brot.' (Vergangenheit - Akzent nicht vergessen!)",
+        "card_ids": [
+          "compro-pasado"
+        ],
+        "accept": [
+          "Compró pan.",
+          "compro pan",
+          "Él compró pan."
+        ],
+        "hint": "él-Form von comprar im Indefinido = compró. Die Gegenwart 'compro' wäre falsch.",
+        "distractors": [
+          "Compro pan.",
+          "Compró pen.",
+          "Compraron pan."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-estudie",
+      "type": "exercise",
+      "title": "Bild wählen: ich lernte",
+      "exercise": {
+        "id": "ex-pick-estudie",
+        "type": "picture_choice",
+        "prompt": "Wähle die richtige Form: 'Ich lernte (Vergangenheit).'",
+        "card_ids": [
+          "estudie",
+          "estudio-pasado"
+        ],
+        "images": [
+          {
+            "src": "assets/img/study-1.png",
+            "label": "Estudio."
+          },
+          {
+            "src": "assets/img/study-2.png",
+            "label": "Estudié.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/study-3.png",
+            "label": "Estudie."
+          },
+          {
+            "src": "assets/img/study-4.png",
+            "label": "Estúdie."
+          }
+        ],
+        "hint": "yo-Form im Indefinido = estudié, mit Akzent auf dem é.",
+        "distractors": [
+          "Estudio.",
+          "Estudie.",
+          "Estúdie."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-cocino",
+      "type": "exercise",
+      "title": "Bild wählen: sie kochte",
+      "exercise": {
+        "id": "ex-pick-cocino",
+        "type": "picture_choice",
+        "prompt": "Wähle die richtige Form: 'Sie kochte (Vergangenheit).'",
+        "card_ids": [
+          "cocino-pasado",
+          "cocine"
+        ],
+        "images": [
+          {
+            "src": "assets/img/cook-1.png",
+            "label": "Cocino."
+          },
+          {
+            "src": "assets/img/cook-2.png",
+            "label": "Cocinó.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/cook-3.png",
+            "label": "Cocíno."
+          },
+          {
+            "src": "assets/img/cook-4.png",
+            "label": "Cociné."
+          }
+        ],
+        "hint": "él/ella-Form im Indefinido = cocinó, mit Akzent auf dem ó.",
+        "distractors": [
+          "Cocino.",
+          "Cocíno.",
+          "Cociné."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-compre-pan",
+      "type": "exercise",
+      "title": "Satz bauen: Gestern kaufte ich Brot",
+      "exercise": {
+        "id": "ex-tile-compre-pan",
+        "type": "word_tiles",
+        "prompt": "Setze den Satz zusammen: 'Gestern kaufte ich Brot.'",
+        "card_ids": [
+          "compre",
+          "ayer"
+        ],
+        "tiles": [
+          "Ayer",
+          "compré",
+          "pan"
+        ],
+        "hint": "yo-Form von comprar im Indefinido = compré.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-trabajo-mucho",
+      "type": "exercise",
+      "title": "Satz bauen: Sie arbeitete viel",
+      "exercise": {
+        "id": "ex-tile-trabajo-mucho",
+        "type": "word_tiles",
+        "prompt": "Setze den Satz zusammen: 'Sie arbeitete viel.'",
+        "card_ids": [
+          "trabajo-pasado"
+        ],
+        "tiles": [
+          "Ella",
+          "trabajó",
+          "mucho"
+        ],
+        "hint": "ella-Form von trabajar im Indefinido = trabajó.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-estudiamos",
+      "type": "exercise",
+      "title": "Übersetzen: Wir lernten gestern",
+      "exercise": {
+        "id": "ex-free-estudiamos",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Wir lernten gestern.' (nosotros-Form - kein Akzent.)",
+        "card_ids": [
+          "estudie",
+          "ayer"
+        ],
+        "accept": [
+          "Ayer estudiamos.",
+          "ayer estudiamos",
+          "Estudiamos ayer."
+        ],
+        "hint": "nosotros-Form von estudiar = estudiamos. Gegenwart und Vergangenheit sind identisch; 'ayer' zeigt die Vergangenheit an.",
+        "distractors": [
+          "Ayer estudié.",
+          "Ayer estudiaron.",
+          "Ayer estudio."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

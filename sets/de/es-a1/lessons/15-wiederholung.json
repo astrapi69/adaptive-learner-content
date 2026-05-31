@@ -1,0 +1,540 @@
+{
+  "id": "15-wiederholung",
+  "title": "Wiederholung und Festigung A1",
+  "description": "Die große A1-Wiederholung: Artikel und Geschlecht, ser und estar, Präsens (-AR/-ER/-IR) und das einfache Vergangenheitstempus (Präteritum) — alles in einem.",
+  "target_language": "es",
+  "source_language": "de",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "el-libro",
+      "front": "el libro",
+      "back": "das Buch (maskulin → el)",
+      "notes": "Endung -o → meistens maskulin → el.",
+      "tags": [
+        "artikel"
+      ]
+    },
+    {
+      "id": "la-casa",
+      "front": "la casa",
+      "back": "das Haus (feminin → la)",
+      "notes": "Endung -a → meistens feminin → la.",
+      "tags": [
+        "artikel"
+      ]
+    },
+    {
+      "id": "la-familia",
+      "front": "la familia",
+      "back": "die Familie (feminin → la)",
+      "tags": [
+        "artikel"
+      ]
+    },
+    {
+      "id": "el-mercado",
+      "front": "el mercado",
+      "back": "der Markt (maskulin → el)",
+      "tags": [
+        "artikel"
+      ]
+    },
+    {
+      "id": "rojo",
+      "front": "rojo / roja",
+      "back": "rot (passt sich dem Geschlecht an)",
+      "notes": "rojo bei maskulin, roja bei feminin.",
+      "tags": [
+        "adjektiv"
+      ]
+    },
+    {
+      "id": "soy",
+      "front": "yo soy",
+      "back": "ich bin (ser — Identität)",
+      "tags": [
+        "ser"
+      ]
+    },
+    {
+      "id": "estoy",
+      "front": "yo estoy",
+      "back": "ich bin (estar — Zustand/Ort)",
+      "tags": [
+        "estar"
+      ]
+    },
+    {
+      "id": "hablo",
+      "front": "yo hablo",
+      "back": "ich spreche (hablar, Präsens)",
+      "notes": "-AR-Verb, 1. Person Singular.",
+      "tags": [
+        "praesens"
+      ]
+    },
+    {
+      "id": "como",
+      "front": "yo como",
+      "back": "ich esse (comer, Präsens)",
+      "notes": "-ER-Verb, 1. Person Singular.",
+      "tags": [
+        "praesens"
+      ]
+    },
+    {
+      "id": "vivo",
+      "front": "yo vivo",
+      "back": "ich wohne/lebe (vivir, Präsens)",
+      "notes": "-IR-Verb, 1. Person Singular.",
+      "tags": [
+        "praesens"
+      ]
+    },
+    {
+      "id": "hable",
+      "front": "yo hablé",
+      "back": "ich sprach (hablar, Präteritum)",
+      "notes": "Akzent auf dem é: hablé. Ohne Akzent (hablo) wäre es Präsens.",
+      "tags": [
+        "praeteritum"
+      ]
+    },
+    {
+      "id": "comi",
+      "front": "yo comí",
+      "back": "ich aß (comer, Präteritum)",
+      "notes": "Akzent auf dem í: comí.",
+      "tags": [
+        "praeteritum"
+      ]
+    },
+    {
+      "id": "fui",
+      "front": "yo fui",
+      "back": "ich ging / ich war (ir/ser, unregelmäßig)",
+      "notes": "Unregelmäßiges Präteritum — KEIN Akzent: fui.",
+      "tags": [
+        "praeteritum"
+      ]
+    },
+    {
+      "id": "compre",
+      "front": "yo compré",
+      "back": "ich kaufte (comprar, Präteritum)",
+      "notes": "Akzent auf dem é: compré.",
+      "tags": [
+        "praeteritum"
+      ]
+    },
+    {
+      "id": "soy-de-espana",
+      "front": "Soy de España.",
+      "back": "Ich komme aus Spanien. (Herkunft → ser)",
+      "tags": [
+        "beispiel"
+      ]
+    },
+    {
+      "id": "camisa-roja",
+      "front": "la camisa roja",
+      "back": "das rote Hemd (feminin → la camisa roja)",
+      "notes": "camisa ist feminin → la + roja (nicht rojo).",
+      "tags": [
+        "beispiel"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Deine vier großen A1-Erfolge",
+      "body": "# Wiederholung A1\n\nDu hast die vier wichtigsten A1-Bausteine gelernt. Hier kommt alles noch einmal kompakt zusammen — und diesmal kombiniert in einem Satz.\n\n| Thema | Kernregel | Beispiel |\n|---|---|---|\n| **Geschlecht** | -o → maskulin (el), -a → feminin (la) | el libro, la casa |\n| **ser / estar** | Kann es sich ändern? Nein → ser, Ja → estar | Soy alta / Estoy feliz |\n| **Präsens** | -AR/-ER/-IR: hablo, como, vivo | Hablo español. |\n| **Präteritum** | regelmäßig mit Akzent (hablé, habló), unregelmäßig ohne (fui, hice) | Ayer hablé. |\n\nKeine neuen Wörter — nur Festigung und Kombination."
+    },
+    {
+      "id": "step-watchouts",
+      "type": "theory",
+      "title": "Die typischen Stolperfallen",
+      "body": "## Worauf du besonders achten musst\n\n- **ser vs. estar**: *Soy estudiante* (Identität → ser), aber *Estoy cansado* (Zustand → estar). Die Frage lautet immer: \"Kann sich das ändern?\"\n- **Der Akzent entscheidet die Zeit**: *hablo* = ich spreche (Präsens), *hablé* = ich sprach (Präteritum). Ein einziger Akzent verändert die Bedeutung komplett.\n- **Regelmäßig vs. unregelmäßig im Präteritum**: regelmäßig trägt den Akzent (hablé, habló, comí), die häufigen unregelmäßigen Formen tragen KEINEN (fui, hice, tuve).\n- **Die Verschmelzungen al und del**: *a + el = al*, *de + el = del*. Also *Voy al mercado*, *Vengo del mercado* — nie *a el* oder *de el*."
+    },
+    {
+      "id": "ex-match-mixed",
+      "type": "exercise",
+      "title": "Querbeet zuordnen",
+      "exercise": {
+        "id": "ex-match-mixed",
+        "type": "matching",
+        "prompt": "Ordne jede spanische Form ihrer deutschen Bedeutung zu (Artikel, ser, estar, Präteritum gemischt).",
+        "card_ids": [
+          "el-libro",
+          "la-casa",
+          "soy",
+          "estoy",
+          "hable"
+        ],
+        "pairs": [
+          {
+            "left": "el libro",
+            "right": "das Buch"
+          },
+          {
+            "left": "la casa",
+            "right": "das Haus"
+          },
+          {
+            "left": "soy",
+            "right": "ich bin (ser)"
+          },
+          {
+            "left": "estoy",
+            "right": "ich bin (estar)"
+          },
+          {
+            "left": "hablé",
+            "right": "ich sprach"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-present-past",
+      "type": "exercise",
+      "title": "Präsens oder Vergangenheit?",
+      "exercise": {
+        "id": "ex-match-present-past",
+        "type": "matching",
+        "prompt": "Ordne jede Form ihrer deutschen Bedeutung zu — achte auf den Akzent (Präsens vs. Präteritum).",
+        "card_ids": [
+          "hablo",
+          "hable",
+          "como",
+          "comi",
+          "fui"
+        ],
+        "pairs": [
+          {
+            "left": "hablo",
+            "right": "ich spreche"
+          },
+          {
+            "left": "hablé",
+            "right": "ich sprach"
+          },
+          {
+            "left": "como",
+            "right": "ich esse"
+          },
+          {
+            "left": "comí",
+            "right": "ich aß"
+          },
+          {
+            "left": "fui",
+            "right": "ich ging"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-ser-identitaet",
+      "type": "exercise",
+      "title": "Identität → ser",
+      "exercise": {
+        "id": "ex-pick-ser-identitaet",
+        "type": "picture_choice",
+        "prompt": "Wähle die richtige Form: 'Ich bin Studentin/Student.' (Identität)",
+        "card_ids": [
+          "soy",
+          "soy-de-espana"
+        ],
+        "images": [
+          {
+            "src": "assets/img/student-1.png",
+            "label": "Soy estudiante.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/student-2.png",
+            "label": "Estoy estudiante."
+          },
+          {
+            "src": "assets/img/student-3.png",
+            "label": "Es estudiante."
+          },
+          {
+            "src": "assets/img/student-4.png",
+            "label": "Soy un estudiante."
+          }
+        ],
+        "hint": "Identität → ser. Vor dem Beruf steht kein Artikel.",
+        "distractors": [
+          "Estoy estudiante.",
+          "Es estudiante.",
+          "Soy un estudiante."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-article-gender",
+      "type": "exercise",
+      "title": "Artikel und Geschlecht",
+      "exercise": {
+        "id": "ex-pick-article-gender",
+        "type": "picture_choice",
+        "prompt": "Wähle die richtige Form: 'das Haus' (mit korrektem Artikel).",
+        "card_ids": [
+          "la-casa"
+        ],
+        "images": [
+          {
+            "src": "assets/img/casa-1.png",
+            "label": "la casa",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/casa-2.png",
+            "label": "el casa"
+          },
+          {
+            "src": "assets/img/casa-3.png",
+            "label": "los casa"
+          },
+          {
+            "src": "assets/img/casa-4.png",
+            "label": "la caso"
+          }
+        ],
+        "hint": "casa endet auf -a → feminin → la casa.",
+        "distractors": [
+          "el casa",
+          "los casa",
+          "la caso"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-estar",
+      "type": "exercise",
+      "title": "Lücke: ser oder estar?",
+      "exercise": {
+        "id": "ex-cloze-estar",
+        "type": "cloze",
+        "prompt": "Müde sein ist ein vorübergehender Zustand — ergänze die richtige Form.",
+        "card_ids": [
+          "estoy"
+        ],
+        "sentence": "Yo ___ cansado hoy.",
+        "blanks": [
+          {
+            "accept": [
+              "estoy",
+              "Estoy"
+            ],
+            "hint": "Zustand → estar."
+          }
+        ],
+        "cloze_mode": "type"
+      }
+    },
+    {
+      "id": "ex-cloze-present-er",
+      "type": "exercise",
+      "title": "Lücke: Präsens -ER (comer)",
+      "exercise": {
+        "id": "ex-cloze-present-er",
+        "type": "cloze",
+        "prompt": "Ergänze die wir-Form von comer (essen) im Präsens.",
+        "card_ids": [
+          "como"
+        ],
+        "sentence": "Nosotros ___ pan.",
+        "blanks": [
+          {
+            "accept": [
+              "comemos",
+              "Comemos"
+            ],
+            "hint": "-ER-Verb, nosotros → -emos."
+          }
+        ],
+        "cloze_mode": "type"
+      }
+    },
+    {
+      "id": "ex-cloze-preterite-hablar",
+      "type": "exercise",
+      "title": "Lücke: Präteritum (hablar)",
+      "exercise": {
+        "id": "ex-cloze-preterite-hablar",
+        "type": "cloze",
+        "prompt": "Gestern (ayer) → Vergangenheit. Ergänze die yo-Form von hablar im Präteritum.",
+        "card_ids": [
+          "hable"
+        ],
+        "sentence": "Ayer yo ___ con mi madre.",
+        "blanks": [
+          {
+            "accept": [
+              "hablé",
+              "Hablé"
+            ],
+            "hint": "Regelmäßiges Präteritum yo → -é mit Akzent: hablé."
+          }
+        ],
+        "cloze_mode": "type"
+      }
+    },
+    {
+      "id": "ex-cloze-preterite-ir",
+      "type": "exercise",
+      "title": "Lücke: unregelmäßiges Präteritum (ir)",
+      "exercise": {
+        "id": "ex-cloze-preterite-ir",
+        "type": "cloze",
+        "prompt": "Ergänze die yo-Form von ir (gehen) im Präteritum — unregelmäßig, kein Akzent.",
+        "card_ids": [
+          "fui"
+        ],
+        "sentence": "Ayer ___ a Madrid.",
+        "blanks": [
+          {
+            "accept": [
+              "fui",
+              "Fui"
+            ],
+            "hint": "Unregelmäßig → fui (ohne Akzent)."
+          }
+        ],
+        "cloze_mode": "type"
+      }
+    },
+    {
+      "id": "ex-free-combine",
+      "type": "exercise",
+      "title": "Kombinieren: Herkunft + Wohnort",
+      "exercise": {
+        "id": "ex-free-combine",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Ich komme aus Spanien und ich wohne in Madrid.' (ser für Herkunft, vivir im Präsens)",
+        "card_ids": [
+          "soy",
+          "vivo",
+          "soy-de-espana"
+        ],
+        "accept": [
+          "Soy de España y vivo en Madrid.",
+          "soy de espana y vivo en madrid",
+          "Soy de España y vivo en Madrid"
+        ],
+        "hint": "Herkunft → ser (soy de). vivo = ich wohne. España mit ñ.",
+        "distractors": [
+          "Estoy de España y vivo en Madrid.",
+          "Soy de España y vive en Madrid.",
+          "Soy de España y vivo en Madril."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-preterite",
+      "type": "exercise",
+      "title": "Kombinieren: Präteritum",
+      "exercise": {
+        "id": "ex-free-preterite",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Gestern sprach ich mit María.' (hablar im Präteritum)",
+        "card_ids": [
+          "hable"
+        ],
+        "accept": [
+          "Ayer hablé con María.",
+          "ayer hable con maria",
+          "Ayer hablé con Maria."
+        ],
+        "hint": "Gestern → Präteritum. hablé mit Akzent. María mit Akzent auf dem í.",
+        "distractors": [
+          "Ayer hablo con María.",
+          "Ayer hablé con Marío.",
+          "Hoy hablé con María."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-ser-estar",
+      "type": "exercise",
+      "title": "Zusammensetzen: ser + estar",
+      "exercise": {
+        "id": "ex-tile-ser-estar",
+        "type": "word_tiles",
+        "prompt": "Setze zusammen: 'Ich bin groß und ich bin glücklich.' (Eigenschaft → ser, Gefühl → estar)",
+        "card_ids": [
+          "soy",
+          "estoy"
+        ],
+        "tiles": [
+          "Soy",
+          "alta",
+          "y",
+          "estoy",
+          "feliz"
+        ],
+        "hint": "Zwei Teile: alta = Eigenschaft (ser → soy), feliz = Gefühl (estar → estoy).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-preterite",
+      "type": "exercise",
+      "title": "Zusammensetzen: Präteritum",
+      "exercise": {
+        "id": "ex-tile-preterite",
+        "type": "word_tiles",
+        "prompt": "Setze zusammen: 'Gestern kaufte ich ein Buch.' (comprar im Präteritum)",
+        "card_ids": [
+          "compre",
+          "el-libro"
+        ],
+        "tiles": [
+          "Ayer",
+          "compré",
+          "un",
+          "libro"
+        ],
+        "hint": "Gestern → Präteritum. compré mit Akzent. un libro = ein Buch (maskulin).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-gender-article",
+      "type": "exercise",
+      "title": "Geschlecht + Artikel + Adjektiv",
+      "exercise": {
+        "id": "ex-free-gender-article",
+        "type": "free_text",
+        "prompt": "Übersetze: 'das rote Hemd'. (camisa ist feminin — Artikel und Adjektiv müssen passen)",
+        "card_ids": [
+          "camisa-roja",
+          "rojo"
+        ],
+        "accept": [
+          "la camisa roja",
+          "La camisa roja"
+        ],
+        "hint": "camisa → feminin → la + roja (nicht rojo).",
+        "distractors": [
+          "la camisa rojo",
+          "el camisa roja",
+          "la camisa rojas"
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
