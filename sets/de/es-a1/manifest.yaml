@@ -6,9 +6,14 @@
 schema_version: '1.2'
 name: Spanisch A1 (für Deutschsprachige)
 description: >-
-  Spanisch A1 für Deutschsprachige: Begrüßung, Zahlen und die
-  ser/estar-Unterscheidung. Karten-Rückseiten, Notizen und
-  Theorie auf Deutsch.
+  Vollständiger A1-Kurs Spanisch für Deutschsprachige (15
+  Lektionen): Begrüßung, Zahlen, ser/estar, Artikel und Genus,
+  Restaurant, regelmäßige -AR/-ER/-IR-Verben, Familie und
+  Possessivbegleiter, Farben und Kleidung, Stadt und
+  Wegbeschreibung, Uhrzeit und Tagesablauf, Einkaufen, das
+  Indefinido (regelmäßig und unregelmäßig) sowie eine
+  Wiederholung. Karten-Rückseiten, Notizen und Theorie auf
+  Deutsch.
 sets:
   - id: es-a1-from-de
     title: Spanisch A1 (für Deutschsprachige)
@@ -17,11 +22,12 @@ sets:
     source_language: de
     level: A1
     path: sets/de/es-a1
-    version: '1.0.0'
-    lesson_count: 3
+    version: '1.1.0'
+    lesson_count: 15
     domain: language
     description: >-
-      Drei A1-Lektionen Spanisch, auf Deutsch erklärt.
+      Fünfzehn A1-Lektionen Spanisch, auf Deutsch erklärt — vom
+      ersten Gruß bis zum Indefinido.
     tags:
       - beginner
       - everyday
@@ -32,3 +38,15 @@ metadata:
     - 01-begruessung.json
     - 02-zahlen.json
     - 03-ser-estar.json
+    - 04-artikel-genus.json
+    - 05-restaurant.json
+    - 06-ar-verben.json
+    - 07-er-ir-verben.json
+    - 08-familie-possessiv.json
+    - 09-farben-kleidung.json
+    - 10-stadt-wegbeschreibung.json
+    - 11-uhrzeit-routine.json
+    - 12-einkaufen-markt.json
+    - 13-indefinido-ar.json
+    - 14-indefinido-irregular.json
+    - 15-wiederholung.json

@@ -6,10 +6,11 @@
 schema_version: '1.2'
 name: Spanish A1 (for English speakers)
 description: >-
-  Five-lesson A1-level Spanish course explained in English:
-  greetings + inverted punctuation, numbers + telling the time,
-  articles + the -o/-a gender rule, the ser/estar distinction
-  (the A1 challenge), and ordering at a restaurant.
+  Full 15-lesson A1-level Spanish course explained in English:
+  greetings, numbers + time, articles + gender, ser/estar,
+  restaurant, regular -AR/-ER/-IR verbs, family + possessives,
+  colors + clothing, city + directions, time + daily routine,
+  shopping, the preterite (regular + irregular), and a review.
 sets:
   - id: es-a1-from-en
     title: Spanish A1 (for English speakers)
@@ -18,13 +19,13 @@ sets:
     source_language: en
     level: A1
     path: sets/en/es-a1
-    version: '1.1.0'
-    lesson_count: 5
+    version: '1.2.0'
+    lesson_count: 15
     domain: language
     description: >-
-      Pilot Spanish set covering the A1 essentials, explained
-      in English, with ser/estar treated as the central A1
-      challenge.
+      Complete A1 Spanish set (15 lessons) explained in English,
+      from first greetings through the preterite, with ser/estar
+      as the central A1 grammar challenge.
     tags:
       - beginner
       - travel
@@ -38,3 +39,13 @@ metadata:
     - 03-articulos-genero.json
     - 04-ser-estar.json
     - 05-restaurante.json
+    - 06-ar-verbs.json
+    - 07-er-ir-verbs.json
+    - 08-family-possessives.json
+    - 09-colors-clothing.json
+    - 10-city-directions.json
+    - 11-time-routine.json
+    - 12-shopping-market.json
+    - 13-preterite-ar.json
+    - 14-preterite-irregular.json
+    - 15-review.json
