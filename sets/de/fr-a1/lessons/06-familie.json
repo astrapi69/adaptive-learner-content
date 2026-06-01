@@ -1,0 +1,398 @@
+{
+  "id": "06-familie",
+  "title": "Die Familie",
+  "description": "Familienwortschatz + Possessivbegleiter (mon, ma, mes).",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "fam-pere",
+      "front": "le père",
+      "back": "der Vater",
+      "tags": [
+        "family",
+        "masculine"
+      ]
+    },
+    {
+      "id": "fam-mere",
+      "front": "la mère",
+      "back": "die Mutter",
+      "tags": [
+        "family",
+        "feminine"
+      ]
+    },
+    {
+      "id": "fam-frere",
+      "front": "le frère",
+      "back": "der Bruder",
+      "tags": [
+        "family",
+        "masculine"
+      ]
+    },
+    {
+      "id": "fam-soeur",
+      "front": "la sœur",
+      "back": "die Schwester",
+      "notes": "Beachte die **œ**-Ligatur — es ist ein einziger Buchstabe, ausgesprochen /œ/ (kein deutsches Äquivalent; ähnlich wie das eu in *peur*).",
+      "tags": [
+        "family",
+        "feminine"
+      ]
+    },
+    {
+      "id": "fam-fils",
+      "front": "le fils",
+      "back": "der Sohn",
+      "notes": "Ausgesprochen **\"fiss\"** — das l ist stumm, das s wird gesprochen. Achte auf die Schreibweise, die den Klang nicht wiedergibt.",
+      "tags": [
+        "family",
+        "masculine"
+      ]
+    },
+    {
+      "id": "fam-fille",
+      "front": "la fille",
+      "back": "die Tochter / das Mädchen",
+      "notes": "Dasselbe Wort für *Tochter* und *Mädchen* — der Kontext entscheidet.",
+      "tags": [
+        "family",
+        "feminine"
+      ]
+    },
+    {
+      "id": "fam-oncle",
+      "front": "l'oncle",
+      "back": "der Onkel",
+      "notes": "Beginnt mit einem Vokal — elidiert. *l'oncle*, nicht *le oncle*.",
+      "tags": [
+        "family",
+        "masculine",
+        "vowel-start"
+      ]
+    },
+    {
+      "id": "fam-tante",
+      "front": "la tante",
+      "back": "die Tante",
+      "tags": [
+        "family",
+        "feminine"
+      ]
+    },
+    {
+      "id": "fam-parents",
+      "front": "les parents",
+      "back": "die Eltern",
+      "notes": "In dieser Bedeutung immer im Plural. Bedeutet in manchen Kontexten auch *Verwandte* (*mes parents éloignés* — meine entfernten Verwandten).",
+      "tags": [
+        "family",
+        "plural"
+      ]
+    },
+    {
+      "id": "poss-mon",
+      "front": "mon",
+      "back": "mein (m. Sg.)",
+      "notes": "Wird vor maskulinen Substantiven im Singular verwendet: *mon père*, *mon frère*. AUSSERDEM vor jedem femininen Substantiv, das mit einem Vokal beginnt: *mon amie* (nicht *ma amie*). Die Elisionsregel aus Lektion 03 schlägt wieder zu.",
+      "tags": [
+        "possessive"
+      ]
+    },
+    {
+      "id": "poss-ma",
+      "front": "ma",
+      "back": "meine (f. Sg.)",
+      "notes": "Wird vor femininen Substantiven im Singular verwendet, die mit einem KONSONANTEN beginnen: *ma mère*, *ma sœur*, *ma tante*. Vor einem Vokal wechselt es zu *mon*.",
+      "tags": [
+        "possessive"
+      ]
+    },
+    {
+      "id": "poss-mes",
+      "front": "mes",
+      "back": "meine (Pl.)",
+      "notes": "Dieselbe Form für maskuline und feminine Pluralformen: *mes parents*, *mes sœurs*.",
+      "tags": [
+        "possessive",
+        "plural"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Der Familienstammbaum",
+      "body": "# La famille — Familienwortschatz\n\nFamilienwörter treten in zusammengehörigen Geschlechterpaaren auf, genau wie im Deutschen (Vater / Mutter, Sohn / Tochter). Das Französische ergänzt dasselbe Artikelsystem, das du in Lektion 03 gelernt hast:\n\n- *le père* — der Vater\n- *la mère* — die Mutter\n- *les parents* — die Eltern (immer im Plural)\n- *le frère* / *la sœur* — Bruder / Schwester\n- *le fils* / *la fille* — Sohn / Tochter\n- *l'oncle* / *la tante* — Onkel / Tante (beachte die Elision bei *oncle*)\n\nDiese Lektion ergänzt **Possessivbegleiter** (*mon*, *ma*, *mes* — mein) hinzu, damit du über DEINE Familie sprechen kannst, nicht nur über Familie im Allgemeinen."
+    },
+    {
+      "id": "ex-match-family",
+      "type": "exercise",
+      "title": "Familienmitglieder zuordnen",
+      "exercise": {
+        "id": "ex-match-family",
+        "type": "matching",
+        "prompt": "Ordne jedes französische Familienwort seiner deutschen Bedeutung zu.",
+        "card_ids": [
+          "fam-pere",
+          "fam-mere",
+          "fam-frere",
+          "fam-soeur",
+          "fam-oncle",
+          "fam-tante"
+        ],
+        "pairs": [
+          {
+            "left": "le père",
+            "right": "Vater"
+          },
+          {
+            "left": "la mère",
+            "right": "Mutter"
+          },
+          {
+            "left": "le frère",
+            "right": "Bruder"
+          },
+          {
+            "left": "la sœur",
+            "right": "Schwester"
+          },
+          {
+            "left": "l'oncle",
+            "right": "Onkel"
+          },
+          {
+            "left": "la tante",
+            "right": "Tante"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-possessives",
+      "type": "theory",
+      "title": "Mon, ma, mes — mein",
+      "body": "## Possessivbegleiter\n\nFranzösische Possessivbegleiter richten sich nach der **besessenen Sache**, nicht nach dem Besitzer. \"Mein Vater\" verwendet *mon*, weil *père* maskulin ist — selbst wenn eine Frau es sagt.\n\n| Form | Wann |\n|---|---|\n| **mon** | m. Singular: *mon père*, *mon frère*, *mon livre* |\n| **ma** | f. Singular, Konsonant am Anfang: *ma mère*, *ma sœur*, *ma maison* |\n| **mes** | jeder Plural: *mes parents*, *mes sœurs* |\n\nWichtige Falle: vor einem femininen Substantiv, das mit einem **Vokal** beginnt, verwendet das Französische **mon** statt *ma* — weil *ma amie* schwer auszusprechen wäre. Also:\n\n- *mon amie* (meine Freundin, f.) — NICHT *ma amie*\n- *mon école* (meine Schule, f.) — NICHT *ma école*\n\nDieselbe Regel wie die Artikelelision in Lektion 03, nur auf den Possessivbegleiter angewendet."
+    },
+    {
+      "id": "ex-free-mon-pere",
+      "type": "exercise",
+      "title": "Mein Vater",
+      "exercise": {
+        "id": "ex-free-mon-pere",
+        "type": "free_text",
+        "prompt": "Übersetze: *mein Vater*.",
+        "card_ids": [
+          "poss-mon",
+          "fam-pere"
+        ],
+        "accept": [
+          "mon père",
+          "Mon père",
+          "mon pere"
+        ],
+        "hint": "Der Possessivbegleiter richtet sich nach dem Geschlecht des Substantivs.",
+        "distractors": [
+          "ma père",
+          "mes père",
+          "le père"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-ma-soeur",
+      "type": "exercise",
+      "title": "Meine Schwester",
+      "exercise": {
+        "id": "ex-free-ma-soeur",
+        "type": "free_text",
+        "prompt": "Übersetze: *meine Schwester*.",
+        "card_ids": [
+          "poss-ma",
+          "fam-soeur"
+        ],
+        "accept": [
+          "ma sœur",
+          "ma soeur",
+          "Ma sœur"
+        ],
+        "hint": "Feminin, Konsonant am Anfang. Verwende ma.",
+        "distractors": [
+          "mon sœur",
+          "mes sœur",
+          "la sœur"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-mon-amie",
+      "type": "exercise",
+      "title": "Die Vokalfalle",
+      "exercise": {
+        "id": "ex-pick-mon-amie",
+        "type": "picture_choice",
+        "prompt": "*amie* (Freundin, f.) beginnt mit einem Vokal. Welcher Possessivbegleiter ist korrekt?",
+        "card_ids": [
+          "poss-mon"
+        ],
+        "images": [
+          {
+            "src": "assets/img/friend-girl.png",
+            "label": "ma amie"
+          },
+          {
+            "src": "assets/img/friend-bench.png",
+            "label": "mon amie",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/friend-cafe.png",
+            "label": "mes amie"
+          },
+          {
+            "src": "assets/img/friend-park.png",
+            "label": "m'amie"
+          },
+          {
+            "src": "assets/img/friend-window.png",
+            "label": "l'amie"
+          }
+        ],
+        "hint": "Feminin + Vokal am Anfang → verwende die maskuline Form *mon*, um das unschöne *ma amie* zu vermeiden.",
+        "distractors": [
+          "ma amie",
+          "mes amie",
+          "m'amie"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-relationships",
+      "type": "theory",
+      "title": "Beziehungen beschreiben",
+      "body": "## Alles zusammensetzen\n\nMit Familienwörtern + Possessivbegleitern + den Verben aus Lektion 04 kannst du deine Familie in echten Sätzen beschreiben:\n\n- *J'ai **un frère et deux sœurs**.* — Ich habe einen Bruder und zwei Schwestern.\n- ***Mon père est** médecin.* — Mein Vater ist Arzt.\n- ***Ma sœur a** dix ans.* — Meine Schwester ist 10 Jahre alt.\n- ***Mes parents habitent** à Lyon.* — Meine Eltern wohnen in Lyon.\n- ***Mon oncle est** français.* — Mein Onkel ist Franzose.\n\nBeachte die Verben, die du schon kennst: *avoir* für Besitz (einen Bruder), *être* für Identität (ein Arzt), *habiter* für den Wohnort.\n\nSätze aus Bausteinen zusammenzusetzen, die du bereits gelernt hast, ist der Moment, in dem sich A1 allmählich fließend anfühlt."
+    },
+    {
+      "id": "ex-tile-family-sentence",
+      "type": "exercise",
+      "title": "Bauen: Ich habe zwei Brüder",
+      "exercise": {
+        "id": "ex-tile-family-sentence",
+        "type": "word_tiles",
+        "prompt": "Ordne die Bausteine zur Bedeutung *Ich habe zwei Brüder und eine Schwester*.",
+        "card_ids": [
+          "fam-frere",
+          "fam-soeur"
+        ],
+        "tiles": [
+          "J'",
+          "ai",
+          "deux",
+          "frères",
+          "et",
+          "une",
+          "sœur"
+        ],
+        "hint": "Brüder im Plural, Schwester im Singular. Unbestimmter Artikel für *eine Schwester*.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-mes-parents",
+      "type": "exercise",
+      "title": "Meine Eltern",
+      "exercise": {
+        "id": "ex-free-mes-parents",
+        "type": "free_text",
+        "prompt": "Übersetze: *meine Eltern*.",
+        "card_ids": [
+          "poss-mes",
+          "fam-parents"
+        ],
+        "accept": [
+          "mes parents",
+          "Mes parents",
+          "mes Parents"
+        ],
+        "hint": "Plural — verwende den Possessivbegleiter im Plural.",
+        "distractors": [
+          "mon parents",
+          "ma parents",
+          "les parents"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-possessives",
+      "type": "exercise",
+      "title": "Possessivbegleiter dem Substantiv zuordnen",
+      "exercise": {
+        "id": "ex-match-possessives",
+        "type": "matching",
+        "prompt": "Ordne jedem Substantiv die korrekte Possessivform von *mein* zu.",
+        "card_ids": [
+          "poss-mon",
+          "poss-ma",
+          "poss-mes"
+        ],
+        "pairs": [
+          {
+            "left": "père",
+            "right": "mon"
+          },
+          {
+            "left": "mère",
+            "right": "ma"
+          },
+          {
+            "left": "parents",
+            "right": "mes"
+          },
+          {
+            "left": "oncle",
+            "right": "mon"
+          },
+          {
+            "left": "tante",
+            "right": "ma"
+          },
+          {
+            "left": "sœurs",
+            "right": "mes"
+          }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-mon-frere",
+      "type": "exercise",
+      "title": "Bauen: Mein Bruder ist Lehrer",
+      "exercise": {
+        "id": "ex-tile-mon-frere",
+        "type": "word_tiles",
+        "prompt": "Ordne die Bausteine zur Bedeutung *Mein Bruder ist Lehrer*. (Denk daran: kein Artikel vor einem Beruf.)",
+        "card_ids": [
+          "fam-frere",
+          "poss-mon"
+        ],
+        "tiles": [
+          "Mon",
+          "frère",
+          "est",
+          "professeur"
+        ],
+        "hint": "Possessivbegleiter + Substantiv + être + Beruf (kein Artikel).",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

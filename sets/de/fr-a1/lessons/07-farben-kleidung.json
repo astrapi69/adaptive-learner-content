@@ -1,0 +1,404 @@
+{
+  "id": "07-farben-kleidung",
+  "title": "Les couleurs et les vêtements",
+  "description": "Farbwortschatz + Kleidung + die Regel zur Farbangleichung.",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "col-rouge",
+      "front": "rouge",
+      "back": "rot",
+      "notes": "**Unveränderlich** — gleiche Form für Maskulinum und Femininum: *un livre rouge*, *une chaise rouge*. Der Plural fügt nur ein **-s** hinzu: *des livres rouges*.",
+      "tags": [
+        "color",
+        "invariable"
+      ]
+    },
+    {
+      "id": "col-bleu",
+      "front": "bleu / bleue",
+      "back": "blau",
+      "notes": "Gleicht sich normal an: *bleu* (m.), *bleue* (f.), *bleus* / *bleues* (Pl.).",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "col-vert",
+      "front": "vert / verte",
+      "back": "grün",
+      "notes": "Im Femininum ein **-e** hinzufügen UND das **t** aussprechen: *vert* klingt wie \"wehr\", *verte* wie \"wehrt\".",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "col-noir",
+      "front": "noir / noire",
+      "back": "schwarz",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "col-blanc",
+      "front": "blanc / blanche",
+      "back": "weiß",
+      "notes": "Unregelmäßiges Femininum — **blanche** (nicht *blance*). Gleiches Muster: *franc / franche*, *sec / sèche*.",
+      "tags": [
+        "color",
+        "irregular"
+      ]
+    },
+    {
+      "id": "col-jaune",
+      "front": "jaune",
+      "back": "gelb",
+      "notes": "Endet bereits auf **-e** — unveränderlich beim Geschlecht. Nur der Plural fügt ein **-s** hinzu.",
+      "tags": [
+        "color",
+        "invariable"
+      ]
+    },
+    {
+      "id": "col-orange",
+      "front": "orange",
+      "back": "orange",
+      "notes": "Stammt von der Frucht, wird als **unveränderlich in Zahl UND Geschlecht** behandelt: *des chaises orange*, niemals *oranges*. Genauso bei *marron* (braun).",
+      "tags": [
+        "color",
+        "invariable"
+      ]
+    },
+    {
+      "id": "vet-chemise",
+      "front": "la chemise",
+      "back": "das Hemd",
+      "tags": [
+        "clothing",
+        "feminine"
+      ]
+    },
+    {
+      "id": "vet-pantalon",
+      "front": "le pantalon",
+      "back": "die Hose",
+      "notes": "Im Französischen **Singular**, obwohl es im Deutschen ebenfalls Singular ist (im Englischen \"pants\", Plural). Eine Hose = ein *pantalon*.",
+      "tags": [
+        "clothing",
+        "masculine"
+      ]
+    },
+    {
+      "id": "vet-robe",
+      "front": "la robe",
+      "back": "das Kleid",
+      "tags": [
+        "clothing",
+        "feminine"
+      ]
+    },
+    {
+      "id": "vet-veste",
+      "front": "la veste",
+      "back": "die Jacke",
+      "tags": [
+        "clothing",
+        "feminine"
+      ]
+    },
+    {
+      "id": "vet-chaussures",
+      "front": "les chaussures",
+      "back": "die Schuhe",
+      "notes": "Meistens **Plural** — wie *les lunettes* (Brille). Ein Schuh = *une chaussure* (in der Praxis selten).",
+      "tags": [
+        "clothing",
+        "plural",
+        "feminine"
+      ]
+    },
+    {
+      "id": "vet-chapeau",
+      "front": "le chapeau",
+      "back": "der Hut",
+      "notes": "Plural: *les chapeaux*. Wörter, die auf **-eau** enden, fügen im Plural ein **-x** hinzu (nicht -s).",
+      "tags": [
+        "clothing",
+        "masculine"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Farbangleichung — die Regel, in die alle tappen",
+      "body": "# Farben im Französischen\n\nIm Französischen sind **Farben Adjektive**, und Adjektive **gleichen sich** an das Substantiv an, das sie beschreiben — in Geschlecht UND Zahl. Das ist die Regel, die Lernende am häufigsten vergessen.\n\n- *un chat noir* — eine schwarze Katze (m. Sg.)\n- *une chaise noire* — ein schwarzer Stuhl (f. Sg., fügt -e hinzu)\n- *des chats noirs* — schwarze Katzen (m. Pl., fügt -s hinzu)\n- *des chaises noires* — schwarze Stühle (f. Pl., fügt -es hinzu)\n\nAdjektive stehen normalerweise nach dem Substantiv (anders als im Deutschen): *un chat **noir***, nicht *un noir chat*.\n\nDiese Lektion behandelt auch ein paar **unveränderliche** Farben (*rouge*, *jaune*, *orange*), die diese Regel brechen — aber die Regel gilt weiterhin für die meisten Farben."
+    },
+    {
+      "id": "step-agreement",
+      "type": "theory",
+      "title": "Das Standardmuster",
+      "body": "## Standard-Adjektivangleichung\n\n| Farbe | m. Sg. | f. Sg. | m. Pl. | f. Pl. |\n|---|---|---|---|---|\n| schwarz | noir | noire | noirs | noires |\n| grün | vert | verte | verts | vertes |\n| blau | bleu | bleue | bleus | bleues |\n\nDie Regeln:\n- **f. Sg.** — **-e** hinzufügen\n- **m. Pl.** — **-s** hinzufügen\n- **f. Pl.** — **-es** hinzufügen (also -e + -s)\n- **m. Sg.** — Grundform (keine Endung)\n\nWenn die maskuline Form bereits auf **-e** endet, fügt das Femininum kein weiteres hinzu: *rouge* bleibt *rouge* für beide Geschlechter. Das sehen wir im nächsten Schritt."
+    },
+    {
+      "id": "ex-match-agreement",
+      "type": "exercise",
+      "title": "Ordne die Angleichung zu",
+      "exercise": {
+        "id": "ex-match-agreement",
+        "type": "matching",
+        "prompt": "Ordne jeden französischen Ausdruck der richtigen Form zu.",
+        "card_ids": [
+          "col-noir",
+          "col-vert"
+        ],
+        "pairs": [
+          {
+            "left": "un chat ___ (black)",
+            "right": "noir"
+          },
+          {
+            "left": "une chaise ___ (black)",
+            "right": "noire"
+          },
+          {
+            "left": "des chats ___ (black)",
+            "right": "noirs"
+          },
+          {
+            "left": "des chaises ___ (black)",
+            "right": "noires"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-invariable",
+      "type": "theory",
+      "title": "Unveränderliche Farben",
+      "body": "## Farben, die sich beim Geschlecht nicht ändern\n\nDrei Gruppen brechen die Standardangleichung:\n\n**Farben, die auf -e enden** (wie *rouge*, *jaune*) — nur der **Plural** ändert sich:\n- *un livre rouge*, *une chaise rouge*, *des livres rouges*, *des chaises rouges*\n\n**Farben, die nach Gegenständen benannt sind** (*orange*, *marron*, *citron*, *kaki*) — **völlig unveränderlich**, fügen niemals -e oder -s hinzu:\n- *un livre orange*, *une chaise orange*, *des livres orange*, *des chaises orange*\n\n**Unregelmäßiges Femininum: *blanc* → *blanche*** — nicht alle Farben mit konsonantischem m. Sg. folgen dem Standardmuster. *Blanc* lässt das -c weg und fügt -che hinzu. Diese Ausnahme einfach auswendig lernen.\n\nIm Zweifel bei einer selteneren Farbe nachschlagen — aber die obigen Muster decken den A1-Wortschatz ab."
+    },
+    {
+      "id": "ex-free-blanche",
+      "type": "exercise",
+      "title": "Unregelmäßig: weiß",
+      "exercise": {
+        "id": "ex-free-blanche",
+        "type": "free_text",
+        "prompt": "Übersetze *ein weißes Hemd*. (*chemise* ist feminin.)",
+        "card_ids": [
+          "col-blanc",
+          "vet-chemise"
+        ],
+        "accept": [
+          "une chemise blanche",
+          "Une chemise blanche",
+          "une chemise Blanche"
+        ],
+        "hint": "Unregelmäßiges Femininum: *blanc* → *blanche*.",
+        "distractors": [
+          "une chemise blanc",
+          "une chemise blance",
+          "un chemise blanche"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-orange",
+      "type": "exercise",
+      "title": "Unveränderliche Farbe",
+      "exercise": {
+        "id": "ex-pick-orange",
+        "type": "picture_choice",
+        "prompt": "Wie würdest du *orange Schuhe* schreiben? (*chaussures* ist feminin Plural.)",
+        "card_ids": [
+          "col-orange",
+          "vet-chaussures"
+        ],
+        "images": [
+          {
+            "src": "assets/img/shoes-1.png",
+            "label": "des chaussures oranges"
+          },
+          {
+            "src": "assets/img/shoes-2.png",
+            "label": "des chaussures orange",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/shoes-3.png",
+            "label": "des chaussure orange"
+          },
+          {
+            "src": "assets/img/shoes-4.png",
+            "label": "des chaussures orangs"
+          }
+        ],
+        "hint": "*Orange* ist unveränderlich — fügt niemals -s oder -e hinzu.",
+        "distractors": [
+          "des chaussures oranges",
+          "des chaussure orange",
+          "des chaussures orangs"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-clothing",
+      "type": "theory",
+      "title": "Kleidungswortschatz",
+      "body": "## Gängige Kleidung\n\n| Französisch | Deutsch | Geschlecht / Zahl |\n|---|---|---|\n| la chemise | Hemd | f. |\n| le pantalon | Hose | m., **Singular** |\n| la robe | Kleid | f. |\n| la veste | Jacke | f. |\n| les chaussures | Schuhe | f., **Plural** |\n| le chapeau | Hut | m. (Pl. **chapeaux**) |\n\nZahl-Fallen:\n- ***le pantalon*** — im Französischen Singular (eine Hose = ein Teil)\n- ***les chaussures*** — immer Plural\n- ***le chapeau*** — Plural ist *les chapeaux* (-eau → -eaux)\n\nKombiniere nun Kleidung mit Farben: *une chemise verte*, *un pantalon noir*, *des chaussures rouges*. Die Angleichung gilt jedes Mal."
+    },
+    {
+      "id": "ex-free-robe-rouge",
+      "type": "exercise",
+      "title": "Ein rotes Kleid",
+      "exercise": {
+        "id": "ex-free-robe-rouge",
+        "type": "free_text",
+        "prompt": "Übersetze *ein rotes Kleid*.",
+        "card_ids": [
+          "col-rouge",
+          "vet-robe"
+        ],
+        "accept": [
+          "une robe rouge",
+          "Une robe rouge",
+          "une Robe rouge"
+        ],
+        "hint": "*Rouge* ist beim Geschlecht unveränderlich — gleiche Form m/f.",
+        "distractors": [
+          "une robe rouges",
+          "un robe rouge",
+          "une robe rougee"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-pantalon",
+      "type": "exercise",
+      "title": "Bauen: eine schwarze Hose",
+      "exercise": {
+        "id": "ex-tile-pantalon",
+        "type": "word_tiles",
+        "prompt": "Ordne so, dass es *Ich habe eine schwarze Hose* bedeutet. (Denk daran: *pantalon* ist Singular!)",
+        "card_ids": [
+          "col-noir",
+          "vet-pantalon"
+        ],
+        "tiles": [
+          "J'",
+          "ai",
+          "un",
+          "pantalon",
+          "noir"
+        ],
+        "hint": "Singular *pantalon*. Die Farbe folgt dem Substantiv und gleicht sich an (m. Sg. → keine Endung).",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-plurals",
+      "type": "exercise",
+      "title": "Pluralangleichung",
+      "exercise": {
+        "id": "ex-match-plurals",
+        "type": "matching",
+        "prompt": "Ordne jeden Ausdruck seiner richtigen Pluralform zu.",
+        "card_ids": [
+          "col-vert",
+          "col-bleu",
+          "col-noir",
+          "col-blanc"
+        ],
+        "pairs": [
+          {
+            "left": "des chaises (vert)",
+            "right": "vertes"
+          },
+          {
+            "left": "des livres (bleu)",
+            "right": "bleus"
+          },
+          {
+            "left": "des robes (noir)",
+            "right": "noires"
+          },
+          {
+            "left": "des chemises (blanc)",
+            "right": "blanches"
+          }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-chapeaux",
+      "type": "exercise",
+      "title": "Plural von chapeau",
+      "exercise": {
+        "id": "ex-pick-chapeaux",
+        "type": "picture_choice",
+        "prompt": "Wie schreibst du den Plural von *un chapeau bleu* (ein blauer Hut)?",
+        "card_ids": [
+          "vet-chapeau",
+          "col-bleu"
+        ],
+        "images": [
+          {
+            "src": "assets/img/hats-1.png",
+            "label": "des chapeaus bleus"
+          },
+          {
+            "src": "assets/img/hats-2.png",
+            "label": "des chapeaux bleus",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/hats-3.png",
+            "label": "des chapeaux bleues"
+          },
+          {
+            "src": "assets/img/hats-4.png",
+            "label": "des chapeau bleus"
+          }
+        ],
+        "hint": "Wörter, die auf -eau enden, nehmen im Plural -x, nicht -s.",
+        "distractors": [
+          "des chapeaus bleus",
+          "des chapeaux bleues",
+          "des chapeau bleus"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-veste-blanche",
+      "type": "exercise",
+      "title": "Bauen: eine weiße Jacke",
+      "exercise": {
+        "id": "ex-tile-veste-blanche",
+        "type": "word_tiles",
+        "prompt": "Ordne so, dass es *Ich habe eine weiße Jacke* bedeutet.",
+        "card_ids": [
+          "col-blanc",
+          "vet-veste"
+        ],
+        "tiles": [
+          "J'",
+          "ai",
+          "une",
+          "veste",
+          "blanche"
+        ],
+        "hint": "Feminines Substantiv → unregelmäßige feminine Farbe *blanche*.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

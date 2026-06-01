@@ -1,0 +1,366 @@
+{
+  "id": "05-sich-vorstellen",
+  "title": "Se présenter",
+  "description": "Sich vorstellen: Name, Alter, Nationalität, Beruf. Verwendet être + avoir aus Lektion 04.",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "phrase-je-mappelle",
+      "front": "Je m'appelle…",
+      "back": "Ich heiße… (wörtl. *ich nenne mich*)",
+      "notes": "Reflexives Verb. Das *m'* ist die elidierte Form von *me* (mich). *Je m'appelle Marie* — ich nenne mich Marie.",
+      "tags": [
+        "greeting",
+        "introduction"
+      ]
+    },
+    {
+      "id": "phrase-jai-ans",
+      "front": "J'ai … ans.",
+      "back": "Ich bin … Jahre alt. (wörtl. *ich habe … Jahre*)",
+      "notes": "Das Französische verwendet *avoir* für das Alter. Niemals *Je suis 25 ans* — das ist der englische Calque, den die meisten Lernenden zuerst produzieren.",
+      "tags": [
+        "age",
+        "introduction"
+      ]
+    },
+    {
+      "id": "phrase-je-suis",
+      "front": "Je suis…",
+      "back": "Ich bin… (Nationalität / Beruf / Identität)",
+      "tags": [
+        "introduction",
+        "identity"
+      ]
+    },
+    {
+      "id": "phrase-jhabite-a",
+      "front": "J'habite à…",
+      "back": "Ich wohne in… (Stadt)",
+      "notes": "*à* + Stadt: *J'habite à Paris*. Bei Ländern heißt es *en* (feminin) oder *au* (maskulin): *en France*, *au Canada*.",
+      "tags": [
+        "introduction",
+        "location"
+      ]
+    },
+    {
+      "id": "nat-francais-m",
+      "front": "français",
+      "back": "französisch (m.)",
+      "notes": "Kleingeschrieben als Adjektiv: *Je suis français*. Großgeschrieben nur als Substantiv: *un Français* (ein Franzose).",
+      "tags": [
+        "nationality",
+        "masculine"
+      ]
+    },
+    {
+      "id": "nat-francaise-f",
+      "front": "française",
+      "back": "französisch (f.)",
+      "notes": "Füge **-e** für das Femininum hinzu: *Je suis française*. Die meisten Nationalitäten folgen diesem Muster.",
+      "tags": [
+        "nationality",
+        "feminine"
+      ]
+    },
+    {
+      "id": "nat-allemand",
+      "front": "allemand / allemande",
+      "back": "deutsch",
+      "tags": [
+        "nationality"
+      ]
+    },
+    {
+      "id": "nat-espagnol",
+      "front": "espagnol / espagnole",
+      "back": "spanisch",
+      "tags": [
+        "nationality"
+      ]
+    },
+    {
+      "id": "nat-anglais",
+      "front": "anglais / anglaise",
+      "back": "englisch",
+      "notes": "Hinweis: *anglais* bezieht sich speziell auf England. Für \"britisch\" verwende *britannique* (unveränderlich — gleiche Form m/f).",
+      "tags": [
+        "nationality"
+      ]
+    },
+    {
+      "id": "prof-etudiant",
+      "front": "étudiant / étudiante",
+      "back": "Student / Studentin",
+      "notes": "Wenn man einen Beruf mit *être* angibt, LÄSST das Französische den Artikel WEG: *Je suis étudiant* — nicht *un étudiant*.",
+      "tags": [
+        "profession"
+      ]
+    },
+    {
+      "id": "prof-professeur",
+      "front": "professeur",
+      "back": "Lehrer / Professor",
+      "notes": "Traditionell unveränderlich: *un professeur* für jedes Geschlecht. *Une professeure* (mit zusätzlichem **-e**) wird zunehmend akzeptiert, wirkt aber noch neu.",
+      "tags": [
+        "profession"
+      ]
+    },
+    {
+      "id": "prof-medecin",
+      "front": "médecin",
+      "back": "Arzt / Ärztin",
+      "tags": [
+        "profession"
+      ]
+    },
+    {
+      "id": "phrase-enchante",
+      "front": "Enchanté(e).",
+      "back": "Freut mich. (wörtl. *entzückt*)",
+      "notes": "Füge in der Schrift das stumme **-e** hinzu, wenn du weiblich bist: *Enchantée*. Klingt in beiden Fällen gleich.",
+      "tags": [
+        "greeting",
+        "politeness"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die vier Bausteine einer Vorstellung",
+      "body": "# Sich auf Französisch vorstellen\n\nEine vollständige A1-Vorstellung hat vier Bausteine, und du kannst alle vier mit Verben machen, die du bereits aus Lektion 04 kennst (*être* und *avoir*).\n\n1. **Name** — *Je m'appelle ___* (ich nenne mich ___)\n2. **Alter** — *J'ai ___ ans* (ich habe ___ Jahre)\n3. **Nationalität** — *Je suis ___* (ich bin ___)\n4. **Beruf** — *Je suis ___* (ich bin ___)\n\nSchließe mit *Enchanté(e)* — \"freut mich\".\n\nDie meisten alltäglichen Vorstellungen sind kürzer — nur Name + vielleicht Beruf. Aber wenn du das vollständige Muster kennst, kannst du es auch VERSTEHEN, wenn sich jemand bei dir vorstellt."
+    },
+    {
+      "id": "step-name",
+      "type": "theory",
+      "title": "Seinen Namen sagen",
+      "body": "## Je m'appelle\n\nDies ist ein **reflexives** Verb: *s'appeler* — sich nennen.\n\n- *Je **m'**appelle Marie.* — Ich heiße Marie.\n- *Tu **t'**appelles comment ?* — Wie heißt du? (informell)\n- *Vous **vous** appelez comment ?* — Wie heißen Sie? (formell/Plural)\n- *Il / Elle **s'**appelle…* — Er / sie heißt…\n\nDie Formen *me / te / se* richten sich nach dem Subjekt und werden vor einem Vokal elidiert (*m'appelle*, *t'appelles*, *s'appelle*).\n\nAuf A1-Niveau brauchst du eigentlich nur die Form der ersten Person: **Je m'appelle ___**. Lerne sie als einen Block; die Grammatik wird später Klick machen."
+    },
+    {
+      "id": "ex-free-name",
+      "type": "exercise",
+      "title": "Seinen Namen sagen",
+      "exercise": {
+        "id": "ex-free-name",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich heiße Marie.*",
+        "card_ids": [
+          "phrase-je-mappelle"
+        ],
+        "accept": [
+          "Je m'appelle Marie.",
+          "Je m'appelle Marie",
+          "je m'appelle marie"
+        ],
+        "hint": "Reflexive Form, mit Elision: *m'* nicht *me*.",
+        "distractors": [
+          "Je suis Marie.",
+          "J'appelle Marie.",
+          "Je me appelle Marie."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-age",
+      "type": "theory",
+      "title": "Sein Alter sagen — mit *avoir*",
+      "body": "## J'ai … ans\n\nDas Französische verwendet **avoir** (haben) für das Alter, niemals *être*. Wörtlich sagst du *ich habe fünfundzwanzig Jahre*.\n\n- *J'**ai** vingt-cinq ans.* — Ich bin 25 Jahre alt.\n- *Tu **as** quel âge ?* — Wie alt bist du? (informell)\n- *Vous **avez** quel âge ?* — Wie alt sind Sie? (formell)\n- *Elle **a** trente ans.* — Sie ist 30.\n\nDie Zahlen 1-10 kamen in Lektion 02. Die Zahlen 20-100 folgen Mustern, werden hier aber nicht geübt; merke dir vorerst nur die Konstruktion: *J'ai [Zahl] ans*."
+    },
+    {
+      "id": "ex-match-age",
+      "type": "exercise",
+      "title": "Ordne die Altersangaben zu",
+      "exercise": {
+        "id": "ex-match-age",
+        "type": "matching",
+        "prompt": "Ordne jeder französischen Wendung ihre deutsche Übersetzung zu.",
+        "card_ids": [
+          "phrase-jai-ans"
+        ],
+        "pairs": [
+          {
+            "left": "J'ai dix ans.",
+            "right": "Ich bin 10."
+          },
+          {
+            "left": "Tu as quel âge ?",
+            "right": "Wie alt bist du?"
+          },
+          {
+            "left": "Elle a cinq ans.",
+            "right": "Sie ist 5."
+          },
+          {
+            "left": "Nous avons trente ans.",
+            "right": "Wir sind 30."
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-nationality",
+      "type": "theory",
+      "title": "Nationalität",
+      "body": "## Seine Nationalität sagen\n\nVerwende **être** + Adjektiv. Das Adjektiv richtet sich nach dir (m. oder f.).\n\n| Deutsch | m. | f. |\n|---|---|---|\n| französisch | français | française |\n| deutsch | allemand | allemande |\n| spanisch | espagnol | espagnole |\n| englisch | anglais | anglaise |\n| italienisch | italien | italienne |\n\nDie meisten Nationalitäten fügen **-e** für das Femininum hinzu. Einige verdoppeln den letzten Konsonanten (italien → italienne, canadien → canadienne).\n\n**Kleingeschrieben** als Adjektiv: *Je suis française*. **Großgeschrieben** nur als Substantiv: *un Français habite ici* (ein Franzose wohnt hier)."
+    },
+    {
+      "id": "ex-pick-nationality",
+      "type": "exercise",
+      "title": "Feminine Nationalität",
+      "exercise": {
+        "id": "ex-pick-nationality",
+        "type": "picture_choice",
+        "prompt": "Eine Frau, die sagt, dass sie Deutsche ist, sagt…",
+        "card_ids": [
+          "nat-allemand"
+        ],
+        "images": [
+          {
+            "src": "assets/img/germany-flag.png",
+            "label": "Je suis allemand."
+          },
+          {
+            "src": "assets/img/germany-map.png",
+            "label": "Je suis allemande.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/berlin.png",
+            "label": "Je suis Allemagne."
+          },
+          {
+            "src": "assets/img/europe.png",
+            "label": "J'ai allemand."
+          }
+        ],
+        "hint": "Das Adjektiv richtet sich: das Femininum fügt -e hinzu.",
+        "distractors": [
+          "Je suis allemand.",
+          "Je suis Allemagne.",
+          "J'ai allemand."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-profession",
+      "type": "theory",
+      "title": "Beruf — kein Artikel!",
+      "body": "## Sagen, was man macht\n\nMit **être** + einem Beruf **lässt** das Französische **den Artikel weg**:\n\n- *Je suis **étudiant**.* — Ich bin Student. (NICHT *un étudiant*)\n- *Elle est **médecin**.* — Sie ist Ärztin.\n- *Tu es **professeur** ?* — Bist du Lehrer?\n\nDies ist einer der wenigen Fälle, in denen das Französische kompakter ist als das Englische. Füge kein *un* / *une* / *des* hinzu, es sei denn, du beschreibst die Person näher:\n\n- *Je suis un bon étudiant.* — Ich bin ein guter Student. (Beschreibung → der Artikel taucht wieder auf)\n- *C'est un médecin célèbre.* — Er ist ein berühmter Arzt."
+    },
+    {
+      "id": "ex-free-profession",
+      "type": "exercise",
+      "title": "Seinen Beruf sagen",
+      "exercise": {
+        "id": "ex-free-profession",
+        "type": "free_text",
+        "prompt": "Eine Frau, die sagt *Ich bin Studentin*, schreibt:",
+        "card_ids": [
+          "prof-etudiant"
+        ],
+        "accept": [
+          "Je suis étudiante.",
+          "Je suis étudiante",
+          "je suis étudiante"
+        ],
+        "hint": "Beruf nach *être* — den Artikel weglassen. Die feminine Form fügt -e hinzu.",
+        "distractors": [
+          "Je suis une étudiante.",
+          "Je suis étudiant.",
+          "J'ai étudiante."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-introduction",
+      "type": "exercise",
+      "title": "Baue eine vollständige Vorstellung",
+      "exercise": {
+        "id": "ex-tile-introduction",
+        "type": "word_tiles",
+        "prompt": "Ordne so an, dass es bedeutet: *Ich heiße Paul und ich bin Franzose.*",
+        "card_ids": [
+          "phrase-je-mappelle",
+          "nat-francais-m"
+        ],
+        "tiles": [
+          "Je",
+          "m'appelle",
+          "Paul",
+          "et",
+          "je",
+          "suis",
+          "français"
+        ],
+        "hint": "Zwei Teilsätze, verbunden durch *et* (und).",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-questions",
+      "type": "exercise",
+      "title": "Ordne die Frage dem Thema zu",
+      "exercise": {
+        "id": "ex-match-questions",
+        "type": "matching",
+        "prompt": "Ordne jede Frage dem zu, wonach sie fragt.",
+        "card_ids": [
+          "phrase-je-mappelle",
+          "phrase-jai-ans",
+          "phrase-je-suis",
+          "phrase-jhabite-a"
+        ],
+        "pairs": [
+          {
+            "left": "Tu t'appelles comment ?",
+            "right": "Name"
+          },
+          {
+            "left": "Tu as quel âge ?",
+            "right": "Alter"
+          },
+          {
+            "left": "Tu es de quelle nationalité ?",
+            "right": "Nationalität"
+          },
+          {
+            "left": "Tu habites où ?",
+            "right": "Stadt"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-enchante",
+      "type": "exercise",
+      "title": "Höfliche Antwort",
+      "exercise": {
+        "id": "ex-free-enchante",
+        "type": "free_text",
+        "prompt": "Jemand hat sich gerade vorgestellt. Als Mann antwortest du:",
+        "card_ids": [
+          "phrase-enchante"
+        ],
+        "accept": [
+          "Enchanté.",
+          "Enchanté",
+          "enchanté"
+        ],
+        "hint": "Ein Wort. Die maskuline Form (kein zusätzliches -e in der Schrift).",
+        "distractors": [
+          "Enchantée.",
+          "Bonjour.",
+          "Merci."
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

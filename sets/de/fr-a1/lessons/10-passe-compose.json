@@ -1,0 +1,416 @@
+{
+  "id": "10-passe-compose",
+  "title": "Le passé composé — Einführung",
+  "description": "Die grundlegende französische Vergangenheitsform: avoir + Partizip Perfekt, für regelmäßige -er-Verben.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "verb-parler",
+      "front": "parler",
+      "back": "sprechen",
+      "notes": "Regelmäßiges **-er**-Verb. Partizip Perfekt: **parlé** (einfach -er durch -é ersetzen). Klingt genauso wie der Infinitiv — der Kontext macht den Unterschied klar.",
+      "tags": [
+        "verb",
+        "regular-er"
+      ]
+    },
+    {
+      "id": "verb-manger",
+      "front": "manger",
+      "back": "essen",
+      "notes": "Partizip Perfekt: **mangé**. (Gleiches Muster: -er → -é.)",
+      "tags": [
+        "verb",
+        "regular-er"
+      ]
+    },
+    {
+      "id": "verb-regarder",
+      "front": "regarder",
+      "back": "ansehen / anschauen",
+      "notes": "Partizip Perfekt: **regardé**. *J'ai regardé un film* — Ich habe einen Film angesehen.",
+      "tags": [
+        "verb",
+        "regular-er"
+      ]
+    },
+    {
+      "id": "verb-ecouter",
+      "front": "écouter",
+      "back": "(zu)hören",
+      "notes": "Partizip Perfekt: **écouté**. Beginnt mit einem Vokal — Elision: *j'ai écouté*.",
+      "tags": [
+        "verb",
+        "regular-er"
+      ]
+    },
+    {
+      "id": "verb-habiter",
+      "front": "habiter",
+      "back": "wohnen (in)",
+      "notes": "Partizip Perfekt: **habité**. Das **h** ist stumm — die Elision gilt: *j'ai habité*.",
+      "tags": [
+        "verb",
+        "regular-er"
+      ]
+    },
+    {
+      "id": "verb-acheter",
+      "front": "acheter",
+      "back": "kaufen",
+      "notes": "Partizip Perfekt: **acheté**. *J'ai acheté du pain* — Ich habe Brot gekauft.",
+      "tags": [
+        "verb",
+        "regular-er"
+      ]
+    },
+    {
+      "id": "verb-travailler",
+      "front": "travailler",
+      "back": "arbeiten",
+      "notes": "Partizip Perfekt: **travaillé**. *Hier j'ai travaillé* — Gestern habe ich gearbeitet.",
+      "tags": [
+        "verb",
+        "regular-er"
+      ]
+    },
+    {
+      "id": "verb-aimer",
+      "front": "aimer",
+      "back": "mögen / lieben",
+      "notes": "Partizip Perfekt: **aimé**. *J'ai aimé ce film* — Ich habe diesen Film gemocht.",
+      "tags": [
+        "verb",
+        "regular-er"
+      ]
+    },
+    {
+      "id": "pp-parle",
+      "front": "parlé",
+      "back": "gesprochen (Partizip Perfekt von parler)",
+      "tags": [
+        "participle"
+      ]
+    },
+    {
+      "id": "pp-mange",
+      "front": "mangé",
+      "back": "gegessen (Partizip Perfekt von manger)",
+      "tags": [
+        "participle"
+      ]
+    },
+    {
+      "id": "phr-hier",
+      "front": "hier",
+      "back": "gestern",
+      "notes": "Häufiger Zeitmarker, der zum passé composé passt: *Hier j'ai mangé une pizza* — Gestern habe ich eine Pizza gegessen.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "phr-ce-matin",
+      "front": "ce matin",
+      "back": "heute Morgen",
+      "notes": "Ein weiterer Zeitmarker für die Vergangenheit. Auch: *ce soir* (heute Abend), *la semaine dernière* (letzte Woche).",
+      "tags": [
+        "time"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Über die Vergangenheit sprechen",
+      "body": "# Le passé composé\n\nDas Französische hat mehrere Vergangenheitsformen. Die häufigste — die, die du in der Alltagssprache verwendest — ist das **passé composé**. Es deckt im Deutschen sowohl *ich sprach* ALS AUCH *ich habe gesprochen* ab; das Französische unterscheidet das nicht.\n\nDie Formel besteht aus zwei Teilen:\n\n> **avoir** (an das Subjekt angepasst) + **Partizip Perfekt**\n\n- *J'**ai parlé** français.* — Ich habe Französisch gesprochen.\n- *Tu **as mangé** ?* — Hast du gegessen?\n- *Elle **a regardé** un film.* — Sie hat einen Film angesehen.\n- *Nous **avons travaillé** hier.* — Wir haben gestern gearbeitet.\n\nLektion 04 hat das Präsens von *avoir* behandelt. Du kennst es bereits — die halbe Arbeit ist also schon getan.\n\nDiese Lektion beschränkt sich auf **regelmäßige -er-Verben**. Sie sind die größte Gruppe im Französischen (≈90 % aller Verben) und bilden ihr Partizip Perfekt jedes Mal auf dieselbe einfache Weise."
+    },
+    {
+      "id": "step-formation",
+      "type": "theory",
+      "title": "Das Partizip Perfekt bilden",
+      "body": "## Regelmäßige -er-Verben: -er weglassen, -é anhängen\n\n| Infinitiv | Partizip Perfekt |\n|---|---|\n| parl**er** (sprechen) | parl**é** |\n| mang**er** (essen) | mang**é** |\n| regard**er** (ansehen) | regard**é** |\n| écout**er** (hören) | écout**é** |\n| habit**er** (wohnen) | habit**é** |\n| achet**er** (kaufen) | achet**é** |\n\nDas ist alles. Jedes regelmäßige -er-Verb funktioniert so.\n\nAussprachefalle: **parler** und **parlé** klingen identisch (beide \"par-LEH\"). Du erkennst am Kontext, welches gemeint ist — steht ein *ai*/*as*/*a* davor? Dann ist es das Partizip.\n\n- *Je parle français.* — Ich spreche Französisch. (Präsens, kein avoir)\n- *J'ai parlé français.* — Ich habe Französisch gesprochen. (passé composé)"
+    },
+    {
+      "id": "ex-match-participles",
+      "type": "exercise",
+      "title": "Infinitiv und Partizip zuordnen",
+      "exercise": {
+        "id": "ex-match-participles",
+        "type": "matching",
+        "prompt": "Ordne jedem Infinitiv sein Partizip Perfekt zu.",
+        "card_ids": [
+          "verb-parler",
+          "verb-manger",
+          "verb-regarder",
+          "verb-ecouter",
+          "verb-habiter",
+          "verb-acheter"
+        ],
+        "pairs": [
+          {
+            "left": "parler",
+            "right": "parlé"
+          },
+          {
+            "left": "manger",
+            "right": "mangé"
+          },
+          {
+            "left": "regarder",
+            "right": "regardé"
+          },
+          {
+            "left": "écouter",
+            "right": "écouté"
+          },
+          {
+            "left": "habiter",
+            "right": "habité"
+          },
+          {
+            "left": "acheter",
+            "right": "acheté"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-pp-travaille",
+      "type": "exercise",
+      "title": "Das Partizip bilden",
+      "exercise": {
+        "id": "ex-free-pp-travaille",
+        "type": "free_text",
+        "prompt": "Wie lautet das Partizip Perfekt von **travailler** (arbeiten)?",
+        "card_ids": [
+          "verb-travailler"
+        ],
+        "accept": [
+          "travaillé",
+          "Travaillé",
+          "travaille"
+        ],
+        "hint": "-er weglassen, -é anhängen. Das Ergebnis hat dasselbe Akzentmuster wie *parlé*, *mangé*.",
+        "distractors": [
+          "travailler",
+          "travaillai",
+          "travaillait"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-full-form",
+      "type": "theory",
+      "title": "Alles zusammensetzen",
+      "body": "## Die vollständige Konjugation\n\nMit **parler** (parlé) als Beispiel:\n\n| Subjekt | avoir | + parlé |\n|---|---|---|\n| je | **ai** | j'ai parlé |\n| tu | **as** | tu as parlé |\n| il / elle | **a** | il a parlé |\n| nous | **avons** | nous avons parlé |\n| vous | **avez** | vous avez parlé |\n| ils / elles | **ont** | ils ont parlé |\n\nErsetze *parlé* durch ein beliebiges anderes -er-Partizip: *mangé*, *regardé*, *écouté*, *acheté*, *habité*, *travaillé*, *aimé*, ...\n\n**Wortstellung** in einem Aussagesatz: Subjekt + avoir + Partizip Perfekt + Rest. Das Partizip Perfekt steht direkt nach *avoir* — nichts schiebt sich dazwischen.\n\n- *J'**ai bien** mangé.* — Ich habe gut gegessen. (*bien* vor dem Partizip)\n- *Elle **n'a pas** travaillé.* — Sie hat nicht gearbeitet. (Verneinung um *a* herum)"
+    },
+    {
+      "id": "ex-free-jai-mange",
+      "type": "exercise",
+      "title": "Ich habe gestern gegessen",
+      "exercise": {
+        "id": "ex-free-jai-mange",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich habe gestern gegessen.* (Verwende das passé composé. Wortstellung: Subjekt + avoir + Partizip + Zeit.)",
+        "card_ids": [
+          "verb-manger",
+          "pp-mange",
+          "phr-hier"
+        ],
+        "accept": [
+          "J'ai mangé hier.",
+          "J'ai mangé hier",
+          "j'ai mangé hier"
+        ],
+        "hint": "*J'ai* + Partizip Perfekt von *manger* + *hier*.",
+        "distractors": [
+          "Je mange hier.",
+          "J'ai mange hier.",
+          "Je suis mangé hier."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-she-watched",
+      "type": "exercise",
+      "title": "Bilden: Sie hat einen Film angesehen",
+      "exercise": {
+        "id": "ex-tile-she-watched",
+        "type": "word_tiles",
+        "prompt": "Ordne so an, dass es bedeutet: *Sie hat gestern einen Film angesehen.*",
+        "card_ids": [
+          "verb-regarder",
+          "phr-hier"
+        ],
+        "tiles": [
+          "Elle",
+          "a",
+          "regardé",
+          "un",
+          "film",
+          "hier"
+        ],
+        "hint": "Subjekt + Form von *avoir* + Partizip + Objekt + Zeitmarker.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "step-elision-recap",
+      "type": "theory",
+      "title": "Elision mit avoir",
+      "body": "## Vergiss die Elisionen nicht\n\nDrei Elisionen, auf die du im passé composé achten musst:\n\n1. **Je → J'** vor *ai*: immer *j'ai*, niemals *je ai*.\n2. **Partizipien, die mit einem Vokal beginnen**, lösen eine Liaison von *a* / *ont* / usw. aus — nur in der Aussprache, die Schreibweise bleibt unverändert. *Il a écouté* → gesprochen als \"il a-z-écouté\" (grob).\n3. **Die Verneinung** umschließt *avoir*, nicht das ganze Verb: *Je **n'ai pas** parlé*, nicht *Je n'ai pas parlé*. Das *n'* elidiert vor *ai*.\n\nFür A1: sag einfach *J'ai parlé*, *Je n'ai pas parlé* (positiv vs. negativ). Die anderen Muster kommen später, aber es lohnt sich, sie in freier Wildbahn zu erkennen."
+    },
+    {
+      "id": "ex-pick-negation",
+      "type": "exercise",
+      "title": "Verneintes passé composé",
+      "exercise": {
+        "id": "ex-pick-negation",
+        "type": "picture_choice",
+        "prompt": "Wie sagt man *Ich habe nicht gegessen*?",
+        "card_ids": [
+          "verb-manger"
+        ],
+        "images": [
+          {
+            "src": "assets/img/empty-plate-1.png",
+            "label": "Je ne mange pas."
+          },
+          {
+            "src": "assets/img/empty-plate-2.png",
+            "label": "Je n'ai pas mangé.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/empty-plate-3.png",
+            "label": "J'ai pas mangé."
+          },
+          {
+            "src": "assets/img/empty-plate-4.png",
+            "label": "Je n'ai mangé pas."
+          }
+        ],
+        "hint": "Die Verneinung umschließt *avoir* (das konjugierte Verb): *ne ... pas* um *ai* herum.",
+        "distractors": [
+          "Je ne mange pas.",
+          "J'ai pas mangé.",
+          "Je n'ai mangé pas."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-we-listened",
+      "type": "exercise",
+      "title": "Wir haben Musik gehört",
+      "exercise": {
+        "id": "ex-free-we-listened",
+        "type": "free_text",
+        "prompt": "Übersetze: *Wir haben heute Morgen Musik gehört.*",
+        "card_ids": [
+          "verb-ecouter",
+          "phr-ce-matin"
+        ],
+        "accept": [
+          "Nous avons écouté de la musique ce matin.",
+          "Nous avons écouté de la musique ce matin",
+          "nous avons écouté de la musique ce matin"
+        ],
+        "hint": "*Nous avons* + écouté + *de la musique* + *ce matin*.",
+        "distractors": [
+          "Nous écoutons de la musique ce matin.",
+          "Nous avons écouter de la musique ce matin.",
+          "Nous sommes écouté de la musique ce matin."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-time-markers",
+      "type": "exercise",
+      "title": "Zeitmarker zuordnen",
+      "exercise": {
+        "id": "ex-match-time-markers",
+        "type": "matching",
+        "prompt": "Ordne jedem französischen Zeitausdruck seine deutsche Bedeutung zu.",
+        "card_ids": [
+          "phr-hier",
+          "phr-ce-matin"
+        ],
+        "pairs": [
+          {
+            "left": "hier",
+            "right": "gestern"
+          },
+          {
+            "left": "ce matin",
+            "right": "heute Morgen"
+          },
+          {
+            "left": "ce soir",
+            "right": "heute Abend"
+          },
+          {
+            "left": "la semaine dernière",
+            "right": "letzte Woche"
+          }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-i-bought",
+      "type": "exercise",
+      "title": "Bilden: Ich habe ein Buch gekauft",
+      "exercise": {
+        "id": "ex-tile-i-bought",
+        "type": "word_tiles",
+        "prompt": "Ordne so an, dass es bedeutet: *Ich habe gestern ein Buch gekauft.*",
+        "card_ids": [
+          "verb-acheter",
+          "phr-hier"
+        ],
+        "tiles": [
+          "J'",
+          "ai",
+          "acheté",
+          "un",
+          "livre",
+          "hier"
+        ],
+        "hint": "Subjekt (elidiert) + avoir + Partizip + Objekt + Zeit.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-they-liked",
+      "type": "exercise",
+      "title": "Sie haben gemocht",
+      "exercise": {
+        "id": "ex-free-they-liked",
+        "type": "free_text",
+        "prompt": "Übersetze: *Sie haben den Film gemocht.* (Verwende die maskuline Form *ils*. Vergangenheit, passé composé.)",
+        "card_ids": [
+          "verb-aimer"
+        ],
+        "accept": [
+          "Ils ont aimé le film.",
+          "Ils ont aimé le film",
+          "ils ont aimé le film"
+        ],
+        "hint": "Maskulin Plural *ils* + *ont* (haben) + Partizip Perfekt.",
+        "distractors": [
+          "Ils aiment le film.",
+          "Ils ont aimer le film.",
+          "Ils sont aimé le film."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

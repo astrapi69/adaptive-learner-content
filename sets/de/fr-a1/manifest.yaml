@@ -1,29 +1,33 @@
 # Französisch A1 (für Deutschsprachige) — Set-Manifest
-# (Phase 60 / v1.44.0).
+# (Phase 60 / v1.44.0; auf 15 Lektionen erweitert).
 #
-# Die ersten muttersprachlich deutschen Lektionen: Französisch
-# lernen, mit Erklärungen und Übersetzungen auf Deutsch. Der
+# Vollständiger A1-Kurs Französisch, auf Deutsch erklärt. Der
 # Content-Loader liest ``metadata.lessons`` für die Dateiliste.
 schema_version: '1.2'
 name: Französisch A1 (für Deutschsprachige)
 description: >-
-  Französisch A1 für Deutschsprachige: Begrüßung, Zahlen und
-  Artikel. Karten-Rückseiten, Notizen und Theorie auf Deutsch.
+  Französisch A1 für Deutschsprachige (15 Lektionen): von
+  Begrüßung, Zahlen und Artikeln über être/avoir, Familie,
+  Farben, Restaurant und Wegbeschreibung bis zum passé composé,
+  zur Uhrzeit, zum Einkaufen und zum futur proche.
+  Karten-Rückseiten, Notizen und Theorie auf Deutsch.
 sets:
   - id: fr-a1-from-de
     title: Französisch A1 (für Deutschsprachige)
-    title_native: Französisch A1 (für Deutschsprachige)
+    title_native: Français A1
     target_language: fr
     source_language: de
     level: A1
     path: sets/de/fr-a1
-    version: '1.0.0'
-    lesson_count: 3
+    version: '1.1.0'
+    lesson_count: 15
     domain: language
     description: >-
-      Drei A1-Lektionen Französisch, auf Deutsch erklärt.
+      Vollständiger A1-Kurs Französisch (15 Lektionen), auf
+      Deutsch erklärt.
     tags:
       - beginner
+      - travel
       - everyday
 metadata:
   author: Asterios Raptis
@@ -32,3 +36,15 @@ metadata:
     - 01-begruessung.json
     - 02-zahlen.json
     - 03-artikel.json
+    - 04-etre-avoir.json
+    - 05-sich-vorstellen.json
+    - 06-familie.json
+    - 07-farben-kleidung.json
+    - 08-im-restaurant.json
+    - 09-wegbeschreibung.json
+    - 10-passe-compose.json
+    - 11-uhrzeit-routine.json
+    - 12-einkaufen-essen.json
+    - 13-passe-compose-etre.json
+    - 14-futur-proche.json
+    - 15-wiederholung.json

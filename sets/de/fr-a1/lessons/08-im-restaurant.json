@@ -1,0 +1,419 @@
+{
+  "id": "08-im-restaurant",
+  "title": "Au restaurant",
+  "description": "Bestellen, höfliche Ausdrücke, grundlegender Wortschatz für die Speisekarte.",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "phr-je-voudrais",
+      "front": "Je voudrais…",
+      "back": "Ich hätte gern… (höflich)",
+      "notes": "**Standardform der höflichen Bestellung**. Es ist der Conditional von *vouloir*, aber auf A1-Niveau behandelt man es als feste Wendung. Immer höflicher als *Je veux* (ich will), das für französische Ohren schroff klingt.",
+      "tags": [
+        "politeness",
+        "ordering"
+      ]
+    },
+    {
+      "id": "phr-sil-vous-plait",
+      "front": "s'il vous plaît",
+      "back": "bitte (förmlich / Plural)",
+      "notes": "Wörtlich *wenn es Ihnen gefällt*. Wird immer mit dem Apostroph geschrieben. In Textnachrichten oder auf Schildern oft mit **SVP** abgekürzt.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "phr-merci",
+      "front": "merci",
+      "back": "danke",
+      "notes": "Mit **beaucoup** wird es verstärkt: *merci beaucoup* (vielen Dank). Die Antwort lautet *de rien* (gern geschehen - wörtlich *für nichts*) oder *je vous en prie* (sehr förmlich).",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "phr-addition",
+      "front": "L'addition, s'il vous plaît.",
+      "back": "Die Rechnung, bitte.",
+      "notes": "Die übliche Art, nach der Rechnung zu fragen. **L'addition** bedeutet im Restaurant *die Rechnung* - niemals *la facture* (das ist für Rechnungen / Versorgungsleistungen).",
+      "tags": [
+        "restaurant",
+        "phrase"
+      ]
+    },
+    {
+      "id": "phr-bon-appetit",
+      "front": "Bon appétit !",
+      "back": "Guten Appetit!",
+      "notes": "Wird vom Servicepersonal beim Auftragen gesagt, UND von den Tischnachbarn vor dem Essen. Es gibt keine echte deutsche Entsprechung jenseits von \"Guten Appetit\". Immer mit dem Ausrufezeichen.",
+      "tags": [
+        "politeness",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "food-pain",
+      "front": "le pain",
+      "back": "das Brot",
+      "notes": "In den meisten französischen Restaurants steht es standardmäßig auf dem Tisch - Nachschub ist kostenlos. *Du pain* (etwas Brot), wenn man mehr möchte.",
+      "tags": [
+        "food",
+        "masculine"
+      ]
+    },
+    {
+      "id": "food-eau",
+      "front": "l'eau",
+      "back": "das Wasser",
+      "notes": "Schon in Lektion 03 begegnet. *Une carafe d'eau* (ein Krug Leitungswasser) ist eine kostenlose, höfliche Bitte.",
+      "tags": [
+        "drink",
+        "feminine",
+        "vowel-start"
+      ]
+    },
+    {
+      "id": "food-vin",
+      "front": "le vin",
+      "back": "der Wein",
+      "notes": "*Un verre de vin* (ein Glas Wein). Achte auf das Paar **vin** / **vingt** (zwanzig) - gleiche Aussprache, völlig unterschiedliche Bedeutungen; der Kontext entscheidet.",
+      "tags": [
+        "drink",
+        "masculine"
+      ]
+    },
+    {
+      "id": "food-cafe",
+      "front": "le café",
+      "back": "der Kaffee",
+      "notes": "In Frankreich standardmäßig ein kleiner Espresso. Bitte um *un café allongé* (Americano-Art) oder *un café au lait* (mit Milch), wenn du etwas anderes möchtest.",
+      "tags": [
+        "drink",
+        "masculine"
+      ]
+    },
+    {
+      "id": "food-poulet",
+      "front": "le poulet",
+      "back": "das Hähnchen",
+      "tags": [
+        "food",
+        "masculine"
+      ]
+    },
+    {
+      "id": "food-poisson",
+      "front": "le poisson",
+      "back": "der Fisch",
+      "notes": "Nicht mit **le poison** (ein s) verwechseln - das ist Gift. Ein Buchstabe, großer Unterschied.",
+      "tags": [
+        "food",
+        "masculine"
+      ]
+    },
+    {
+      "id": "food-salade",
+      "front": "la salade",
+      "back": "der Salat",
+      "tags": [
+        "food",
+        "feminine"
+      ]
+    },
+    {
+      "id": "food-fromage",
+      "front": "le fromage",
+      "back": "der Käse",
+      "notes": "Frankreich produziert rund 1.000 Sorten. *Un plateau de fromages* (eine Käseplatte) kommt oft zwischen Hauptgang und Dessert.",
+      "tags": [
+        "food",
+        "masculine"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Essen gehen in Frankreich",
+      "body": "# Au restaurant\n\nDie französische Restaurantkultur hat ihren eigenen Rhythmus - das Personal begrüßt dich, du setzt dich, die *carte* (Speisekarte) kommt, und es gibt keine Eile. Diese Lektion behandelt die sprachlichen Bausteine, die du brauchst:\n\n- **Höfliche Wendungen**: *je voudrais*, *s'il vous plaît*, *merci*\n- **Bestellen und nach der Rechnung fragen**\n- **Häufiger Lebensmittelwortschatz** zum Lesen der Speisekarte\n\nEin paar kulturelle Hinweise:\n- Der Service ist im Preis **inbegriffen** (achte auf *service compris* auf der Speisekarte). Trinkgeld ist optional; Aufrunden wird geschätzt, ist aber nicht erforderlich.\n- **L'addition** erscheint nicht von selbst am Tisch - du musst danach fragen.\n- **Brot + Leitungswasser** sind meist kostenlos. Frag: *Une carafe d'eau, s'il vous plaît.*"
+    },
+    {
+      "id": "step-polite",
+      "type": "theory",
+      "title": "Höflich bestellen",
+      "body": "## Das Muster der höflichen Bitte\n\n| French | Deutsch |\n|---|---|\n| Je voudrais ___ | Ich hätte gern ___ |\n| ___, s'il vous plaît | ___, bitte |\n| Merci (beaucoup) | Danke (vielmals) |\n| De rien / Je vous en prie | Gern geschehen |\n\n**Je voudrais** ist der Conditional von *vouloir* - auf A1-Niveau ist es eine feste höfliche Formel. Kombiniere es mit dem Artikel, den du in Lektion 03 gelernt hast:\n\n- *Je voudrais **un café**, s'il vous plaît.*\n- *Je voudrais **une salade**, s'il vous plaît.*\n- *Je voudrais **du pain**, s'il vous plaît.* (etwas Brot - Teilungsartikel)\n\nAuf A1-Niveau musst du den Teilungsartikel (*du / de la / des*) nicht beherrschen - zu wissen, dass es ihn gibt, genügt."
+    },
+    {
+      "id": "ex-free-je-voudrais",
+      "type": "exercise",
+      "title": "Einen Kaffee bestellen",
+      "exercise": {
+        "id": "ex-free-je-voudrais",
+        "type": "free_text",
+        "prompt": "Bestelle höflich einen Kaffee. Übersetze: *Ich hätte gern einen Kaffee, bitte.*",
+        "card_ids": [
+          "phr-je-voudrais",
+          "food-cafe",
+          "phr-sil-vous-plait"
+        ],
+        "accept": [
+          "Je voudrais un café, s'il vous plaît.",
+          "Je voudrais un café s'il vous plaît",
+          "je voudrais un café, s'il vous plaît"
+        ],
+        "hint": "*Je voudrais* + unbestimmter Artikel + Nomen + *s'il vous plaît*.",
+        "distractors": [
+          "Je veux café.",
+          "J'ai un café.",
+          "Je voudrais le café."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-menu",
+      "type": "theory",
+      "title": "Wortschatz der Speisekarte",
+      "body": "## Grundlagen zu Essen und Trinken\n\n| French | Deutsch |\n|---|---|\n| le pain | Brot |\n| l'eau | Wasser |\n| le vin | Wein |\n| le café | Kaffee |\n| le poulet | Hähnchen |\n| le poisson | Fisch |\n| la salade | Salat |\n| le fromage | Käse |\n\nÄhnlich aussehende Wörter, auf die man achten sollte:\n- **vin** (Wein) vs. **vingt** (zwanzig) - gleicher Klang, andere Bedeutung\n- **poisson** (Fisch) vs. **poison** (Gift) - ein s macht den Unterschied\n- **dessert** (Dessert) vs. **désert** (Wüste, das trockene Land) - ein s vs. zwei\n\nAuf A1-Niveau kannst du die meisten Speisekartenpunkte schon dadurch lesen, dass du diese Kernwörter plus die Adjektive aus Lektion 07 erkennst (Farbe, aber auch *grillé* - gegrillt, *frais* - frisch)."
+    },
+    {
+      "id": "ex-match-food",
+      "type": "exercise",
+      "title": "Lebensmittelwortschatz zuordnen",
+      "exercise": {
+        "id": "ex-match-food",
+        "type": "matching",
+        "prompt": "Ordne jedes französische Speisekartenwort seiner deutschen Bedeutung zu.",
+        "card_ids": [
+          "food-pain",
+          "food-vin",
+          "food-poulet",
+          "food-poisson",
+          "food-fromage",
+          "food-salade"
+        ],
+        "pairs": [
+          {
+            "left": "le pain",
+            "right": "Brot"
+          },
+          {
+            "left": "le vin",
+            "right": "Wein"
+          },
+          {
+            "left": "le poulet",
+            "right": "Hähnchen"
+          },
+          {
+            "left": "le poisson",
+            "right": "Fisch"
+          },
+          {
+            "left": "le fromage",
+            "right": "Käse"
+          },
+          {
+            "left": "la salade",
+            "right": "Salat"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-poisson",
+      "type": "exercise",
+      "title": "Bestelle kein Gift",
+      "exercise": {
+        "id": "ex-pick-poisson",
+        "type": "picture_choice",
+        "prompt": "Welche Schreibweise bedeutet *Fisch* (das Lebensmittel)?",
+        "card_ids": [
+          "food-poisson"
+        ],
+        "images": [
+          {
+            "src": "assets/img/fish-plate.png",
+            "label": "le poison"
+          },
+          {
+            "src": "assets/img/fish-grilled.png",
+            "label": "le poisson",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/fish-soup.png",
+            "label": "le posion"
+          },
+          {
+            "src": "assets/img/fish-meal.png",
+            "label": "le poissons"
+          }
+        ],
+        "hint": "Doppeltes s. Ein s bedeutet *Gift*.",
+        "distractors": [
+          "le poison",
+          "le posion",
+          "le poissons"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-water",
+      "type": "exercise",
+      "title": "Nach Wasser fragen",
+      "exercise": {
+        "id": "ex-tile-water",
+        "type": "word_tiles",
+        "prompt": "Ordne die Kacheln so an, dass du höflich nach einem Krug Leitungswasser fragst.",
+        "card_ids": [
+          "food-eau",
+          "phr-sil-vous-plait"
+        ],
+        "tiles": [
+          "Une",
+          "carafe",
+          "d'",
+          "eau",
+          ",",
+          "s'il",
+          "vous",
+          "plaît"
+        ],
+        "hint": "*Une carafe d'eau* (ein Krug Wasser), dann die höfliche Formel.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-addition",
+      "type": "exercise",
+      "title": "Nach der Rechnung fragen",
+      "exercise": {
+        "id": "ex-free-addition",
+        "type": "free_text",
+        "prompt": "Bitte höflich um die Rechnung.",
+        "card_ids": [
+          "phr-addition"
+        ],
+        "accept": [
+          "L'addition, s'il vous plaît.",
+          "L'addition s'il vous plaît",
+          "l'addition, s'il vous plaît"
+        ],
+        "hint": "Bestimmter Artikel (die konkrete Rechnung für deinen Tisch), Komma, höfliche Formel.",
+        "distractors": [
+          "La facture, s'il vous plaît.",
+          "L'addition merci.",
+          "Le pain, s'il vous plaît."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-bon-appetit",
+      "type": "exercise",
+      "title": "Wenn das Essen kommt",
+      "exercise": {
+        "id": "ex-pick-bon-appetit",
+        "type": "picture_choice",
+        "prompt": "Der Kellner stellt deinen Teller ab und sagt…",
+        "card_ids": [
+          "phr-bon-appetit"
+        ],
+        "images": [
+          {
+            "src": "assets/img/waiter-plate.png",
+            "label": "Bon appétit !",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/empty-table.png",
+            "label": "L'addition !"
+          },
+          {
+            "src": "assets/img/cheese-plate.png",
+            "label": "Bonjour !"
+          },
+          {
+            "src": "assets/img/wine-glass.png",
+            "label": "Merci !"
+          }
+        ],
+        "hint": "Wird speziell gesagt, bevor jemand zu essen beginnt.",
+        "distractors": [
+          "L'addition !",
+          "Bonjour !",
+          "Merci !"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-phrases",
+      "type": "exercise",
+      "title": "Wendung der Situation zuordnen",
+      "exercise": {
+        "id": "ex-match-phrases",
+        "type": "matching",
+        "prompt": "Ordne jede französische Wendung dem passenden Anlass zu.",
+        "card_ids": [
+          "phr-je-voudrais",
+          "phr-addition",
+          "phr-bon-appetit",
+          "phr-merci"
+        ],
+        "pairs": [
+          {
+            "left": "Je voudrais…",
+            "right": "Bestellen"
+          },
+          {
+            "left": "L'addition, s'il vous plaît",
+            "right": "Aufbrechen"
+          },
+          {
+            "left": "Bon appétit !",
+            "right": "vor dem Essen"
+          },
+          {
+            "left": "Merci beaucoup",
+            "right": "dem Servicepersonal danken"
+          }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-glass-wine",
+      "type": "exercise",
+      "title": "Ein Glas Wein bestellen",
+      "exercise": {
+        "id": "ex-tile-glass-wine",
+        "type": "word_tiles",
+        "prompt": "Ordne so an, dass es bedeutet: *Ich hätte gern ein Glas Wein, bitte.*",
+        "card_ids": [
+          "phr-je-voudrais",
+          "food-vin"
+        ],
+        "tiles": [
+          "Je",
+          "voudrais",
+          "un",
+          "verre",
+          "de",
+          "vin",
+          ",",
+          "s'il",
+          "vous",
+          "plaît"
+        ],
+        "hint": "*Un verre de vin* - ein Glas Wein. *De* (nicht *du*), wenn nach *un verre* eine unbestimmte Menge folgt.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

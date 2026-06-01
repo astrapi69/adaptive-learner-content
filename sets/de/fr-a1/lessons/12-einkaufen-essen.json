@@ -1,0 +1,434 @@
+{
+  "id": "12-einkaufen-essen",
+  "title": "Les courses et la nourriture",
+  "description": "Lebensmitteleinkauf: Teilungsartikel (etwas), Mengenangaben und höfliche Einkaufsfloskeln.",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "food-pain",
+      "front": "le pain",
+      "back": "das Brot",
+      "notes": "Maskulin. Mit *etwas*: **du pain**. *Je voudrais du pain* — Ich hätte gern etwas Brot.",
+      "tags": [
+        "food",
+        "noun-masc"
+      ]
+    },
+    {
+      "id": "food-lait",
+      "front": "le lait",
+      "back": "die Milch",
+      "notes": "Maskulin. Mit *etwas*: **du lait**. Oft kauft man *une bouteille de lait* (eine Flasche Milch).",
+      "tags": [
+        "food",
+        "noun-masc"
+      ]
+    },
+    {
+      "id": "food-fruits",
+      "front": "les fruits",
+      "back": "das Obst",
+      "notes": "Plural. Mit *etwas*: **des fruits**. Im Französischen ist Obst zählbar: *des fruits*.",
+      "tags": [
+        "food",
+        "noun-plural"
+      ]
+    },
+    {
+      "id": "food-legumes",
+      "front": "les légumes",
+      "back": "das Gemüse",
+      "notes": "Plural. Mit *etwas*: **des légumes**. *J'achète des légumes au marché.*",
+      "tags": [
+        "food",
+        "noun-plural"
+      ]
+    },
+    {
+      "id": "food-viande",
+      "front": "la viande",
+      "back": "das Fleisch",
+      "notes": "Feminin. Mit *etwas*: **de la viande**. *Je mange de la viande* — Ich esse (etwas) Fleisch.",
+      "tags": [
+        "food",
+        "noun-fem"
+      ]
+    },
+    {
+      "id": "food-fromage",
+      "front": "le fromage",
+      "back": "der Käse",
+      "notes": "Maskulin. Mit *etwas*: **du fromage**. *beaucoup de fromage* — viel Käse.",
+      "tags": [
+        "food",
+        "noun-masc"
+      ]
+    },
+    {
+      "id": "food-eau",
+      "front": "l'eau",
+      "back": "das Wasser",
+      "notes": "Feminin, beginnt aber mit einem Vokal. Mit *etwas*: **de l'eau** (nicht *de la eau*). *Je voudrais de l'eau.*",
+      "tags": [
+        "food",
+        "noun-fem"
+      ]
+    },
+    {
+      "id": "food-cafe",
+      "front": "le café",
+      "back": "der Kaffee",
+      "notes": "Maskulin. Mit *etwas*: **du café**. *un café* kann auch eine Tasse Kaffee im Café bedeuten.",
+      "tags": [
+        "food",
+        "noun-masc"
+      ]
+    },
+    {
+      "id": "place-marche",
+      "front": "le marché",
+      "back": "der Markt",
+      "notes": "*au marché* — auf dem Markt. Markt im Freien für frische Erzeugnisse. *J'achète des fruits au marché.*",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "place-supermarche",
+      "front": "le supermarché",
+      "back": "der Supermarkt",
+      "notes": "*au supermarché* — im Supermarkt. *Faire les courses* — (Lebensmittel-)Einkäufe erledigen.",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "phr-je-voudrais",
+      "front": "Je voudrais",
+      "back": "Ich hätte gern",
+      "notes": "Höfliche Art, um etwas zu bitten — weicher als *Je veux* (Ich will). *Je voudrais du pain, s'il vous plaît.*",
+      "tags": [
+        "phrase",
+        "polite"
+      ]
+    },
+    {
+      "id": "phr-cest-combien",
+      "front": "C'est combien ?",
+      "back": "Wie viel kostet das?",
+      "notes": "Unverzichtbare Einkaufsfrage. Beachte das Leerzeichen vor **?** — im Französischen Standard. Auch: *Ça coûte combien ?*",
+      "tags": [
+        "phrase",
+        "question"
+      ]
+    },
+    {
+      "id": "qty-kilo",
+      "front": "un kilo de",
+      "back": "ein Kilo von",
+      "notes": "Mengenangaben verlangen nur **de** (nie *du/de la/des*): *un kilo de pommes* — ein Kilo Äpfel.",
+      "tags": [
+        "quantity"
+      ]
+    },
+    {
+      "id": "qty-bouteille",
+      "front": "une bouteille de",
+      "back": "eine Flasche von",
+      "notes": "Eine weitere Menge: *une bouteille de lait* — eine Flasche Milch. Immer **de**, kein Artikel danach.",
+      "tags": [
+        "quantity"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "\"Etwas\" sagen — der Teilungsartikel",
+      "body": "# Du, de la, de l', des\n\nIm Deutschen kannst du sagen *Ich hätte gern Brot* oder *Ich hätte gern etwas Brot* — das *etwas* ist optional. Im Französischen ist es das **nicht**. Wenn du eine unbestimmte Menge von etwas meinst, musst du einen **Teilungsartikel** verwenden, der jeweils *etwas* / *welche(s)* bedeutet.\n\nWelchen du nimmst, hängt vom Substantiv ab:\n\n| Substantivtyp | Teilungsartikel | Beispiel |\n|---|---|---|\n| maskulin | **du** | *du pain* — etwas Brot |\n| feminin | **de la** | *de la viande* — etwas Fleisch |\n| beginnt mit Vokal | **de l'** | *de l'eau* — etwas Wasser |\n| Plural | **des** | *des légumes* — etwas Gemüse |\n\n- *Je voudrais **du** café.* — Ich hätte gern etwas Kaffee. (mask.)\n- *Tu manges **de la** viande ?* — Isst du (etwas) Fleisch? (fem.)\n- *Il y a **de l'**eau.* — Es gibt etwas Wasser. (Vokal)\n- *J'achète **des** fruits.* — Ich kaufe etwas Obst. (Plural)\n\nDenk daran: **du = de + le**, **des = de + les**. Die Form richtet sich nach Geschlecht und Zahl des Substantivs."
+    },
+    {
+      "id": "ex-match-food",
+      "type": "exercise",
+      "title": "Ordne die Lebensmittelwörter zu",
+      "exercise": {
+        "id": "ex-match-food",
+        "type": "matching",
+        "prompt": "Ordne jedem französischen Lebensmittelwort seine deutsche Bedeutung zu.",
+        "card_ids": [
+          "food-pain",
+          "food-lait",
+          "food-viande",
+          "food-fromage",
+          "food-eau",
+          "food-legumes"
+        ],
+        "pairs": [
+          {
+            "left": "le pain",
+            "right": "das Brot"
+          },
+          {
+            "left": "le lait",
+            "right": "die Milch"
+          },
+          {
+            "left": "la viande",
+            "right": "das Fleisch"
+          },
+          {
+            "left": "le fromage",
+            "right": "der Käse"
+          },
+          {
+            "left": "l'eau",
+            "right": "das Wasser"
+          },
+          {
+            "left": "les légumes",
+            "right": "das Gemüse"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-partitive",
+      "type": "exercise",
+      "title": "Ordne Teilungsartikel und Substantivtyp zu",
+      "exercise": {
+        "id": "ex-match-partitive",
+        "type": "matching",
+        "prompt": "Ordne jede Teilungsform zu, wann du sie verwendest.",
+        "card_ids": [
+          "food-pain",
+          "food-viande",
+          "food-eau",
+          "food-legumes"
+        ],
+        "pairs": [
+          {
+            "left": "du",
+            "right": "maskulin (du pain)"
+          },
+          {
+            "left": "de la",
+            "right": "feminin (de la viande)"
+          },
+          {
+            "left": "de l'",
+            "right": "beginnt mit Vokal (de l'eau)"
+          },
+          {
+            "left": "des",
+            "right": "Plural (des légumes)"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-some-water",
+      "type": "exercise",
+      "title": "Etwas Wasser",
+      "exercise": {
+        "id": "ex-pick-some-water",
+        "type": "picture_choice",
+        "prompt": "Welches sagt korrekt *etwas Wasser*?",
+        "card_ids": [
+          "food-eau"
+        ],
+        "images": [
+          {
+            "src": "assets/img/water-glass-1.png",
+            "label": "du eau"
+          },
+          {
+            "src": "assets/img/water-glass-2.png",
+            "label": "de l'eau",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/water-glass-3.png",
+            "label": "de la eau"
+          },
+          {
+            "src": "assets/img/water-glass-4.png",
+            "label": "des eau"
+          }
+        ],
+        "hint": "*Eau* ist feminin, beginnt aber mit einem Vokal, daher wird *de la* zu *de l'* verkürzt.",
+        "distractors": [
+          "du eau",
+          "de la eau",
+          "des eau"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-some-bread",
+      "type": "exercise",
+      "title": "Ich hätte gern etwas Brot",
+      "exercise": {
+        "id": "ex-free-some-bread",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich hätte gern etwas Brot.* (Verwende die höfliche Form.)",
+        "card_ids": [
+          "phr-je-voudrais",
+          "food-pain"
+        ],
+        "accept": [
+          "Je voudrais du pain.",
+          "je voudrais du pain.",
+          "Je voudrais du pain"
+        ],
+        "hint": "*Je voudrais* + der Teilungsartikel für das maskuline *pain*.",
+        "distractors": [
+          "Je voudrais le pain.",
+          "Je voudrais de la pain.",
+          "Je veux pain."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "step-quantities",
+      "type": "theory",
+      "title": "Mengenangaben verlangen nur \"de\"",
+      "body": "## Ein Kilo von, eine Flasche von, viel von\n\nWenn du eine **genaue Menge** angibst, verschwindet der Teilungsartikel (*du / de la / des*). Du verwendest schlichtes **de** (oder **d'** vor einem Vokal) ohne Artikel:\n\n| Ausdruck | Beispiel |\n|---|---|\n| un kilo **de** | *un kilo **de** pommes* — ein Kilo Äpfel |\n| une bouteille **de** | *une bouteille **de** lait* — eine Flasche Milch |\n| beaucoup **de** | *beaucoup **de** fromage* — viel Käse |\n| un peu **de** | *un peu **d'**eau* — ein wenig Wasser |\n\nVergleiche:\n\n- *Je voudrais **du** lait.* — Ich hätte gern etwas Milch. (unbestimmt)\n- *Je voudrais **une bouteille de** lait.* — Ich hätte gern eine Flasche Milch. (mengenangegeben)\n\n> Faustregel: Immer wenn es ein Mengenwort gibt (Kilo, Flasche, viel, wenig, Glas...), folgt darauf **de** allein — nie *du*, *de la* oder *des*."
+    },
+    {
+      "id": "ex-tile-bottle-milk",
+      "type": "exercise",
+      "title": "Bilde: eine Flasche Milch",
+      "exercise": {
+        "id": "ex-tile-bottle-milk",
+        "type": "word_tiles",
+        "prompt": "Ordne so an, dass es bedeutet: *Ich hätte gern eine Flasche Milch.*",
+        "card_ids": [
+          "phr-je-voudrais",
+          "qty-bouteille",
+          "food-lait"
+        ],
+        "tiles": [
+          "Je",
+          "voudrais",
+          "une",
+          "bouteille",
+          "de",
+          "lait"
+        ],
+        "hint": "Höfliche Floskel + Menge (*une bouteille de*) + das Substantiv. Kein Artikel nach *de*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-kilo-apples",
+      "type": "exercise",
+      "title": "Bilde: ein Kilo Äpfel",
+      "exercise": {
+        "id": "ex-tile-kilo-apples",
+        "type": "word_tiles",
+        "prompt": "Ordne so an, dass es bedeutet: *ein Kilo Äpfel auf dem Markt.*",
+        "card_ids": [
+          "qty-kilo",
+          "place-marche"
+        ],
+        "tiles": [
+          "un",
+          "kilo",
+          "de",
+          "pommes",
+          "au",
+          "marché"
+        ],
+        "hint": "Menge (*un kilo de*) + *pommes*, dann *au marché* (auf dem Markt).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "step-shopping-phrases",
+      "type": "theory",
+      "title": "Höfliche Einkaufsfloskeln",
+      "body": "## Im Geschäft\n\nEin paar Floskeln machen das Einkaufen auf Französisch reibungslos:\n\n- **Je voudrais...** — *Ich hätte gern...* Die höfliche Bitte. Viel weicher als *Je veux* (Ich will), das schroff klingen kann.\n- **C'est combien ?** — *Wie viel kostet das?* Beachte das Leerzeichen vor dem Fragezeichen — das Französische setzt dort immer eines.\n- **s'il vous plaît** — *bitte.* Häng es an jede Bitte an: *Je voudrais du fromage, s'il vous plaît.*\n\nWo du einkaufst:\n\n- **au marché** — auf dem (Freiluft-)Markt, für frische Erzeugnisse.\n- **au supermarché** — im Supermarkt.\n- **faire les courses** — die Lebensmitteleinkäufe erledigen.\n\nEin kleiner Dialog:\n\n> — *Bonjour ! Je voudrais un kilo de pommes, s'il vous plaît.*\n> — *Voilà. Autre chose ?*\n> — *C'est combien ?*"
+    },
+    {
+      "id": "ex-free-how-much",
+      "type": "exercise",
+      "title": "Wie viel kostet das?",
+      "exercise": {
+        "id": "ex-free-how-much",
+        "type": "free_text",
+        "prompt": "Wie fragst du *Wie viel kostet das?* auf Französisch?",
+        "card_ids": [
+          "phr-cest-combien"
+        ],
+        "accept": [
+          "C'est combien ?",
+          "c'est combien ?",
+          "C'est combien?"
+        ],
+        "hint": "*C'est* (es ist) + *combien* (wie viel). Denk an das Leerzeichen vor dem Fragezeichen.",
+        "distractors": [
+          "Combien c'est ?",
+          "C'est comment ?",
+          "Quel est le prix ?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-some-vegetables",
+      "type": "exercise",
+      "title": "Etwas Gemüse",
+      "exercise": {
+        "id": "ex-free-some-vegetables",
+        "type": "free_text",
+        "prompt": "Übersetze: *etwas Gemüse* (nur die zwei Wörter).",
+        "card_ids": [
+          "food-legumes"
+        ],
+        "accept": [
+          "des légumes",
+          "Des légumes",
+          "des legumes"
+        ],
+        "hint": "*Légumes* steht im Plural, daher ist der Teilungsartikel *des*.",
+        "distractors": [
+          "du légumes",
+          "de la légumes",
+          "de légumes"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-buy-meat",
+      "type": "exercise",
+      "title": "Ich kaufe etwas Fleisch",
+      "exercise": {
+        "id": "ex-free-buy-meat",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich kaufe etwas Fleisch im Supermarkt.*",
+        "card_ids": [
+          "food-viande",
+          "place-supermarche"
+        ],
+        "accept": [
+          "J'achète de la viande au supermarché.",
+          "j'achète de la viande au supermarché.",
+          "J'achete de la viande au supermarche."
+        ],
+        "hint": "*J'achète* + Teilungsartikel für das feminine *viande* + *au supermarché*.",
+        "distractors": [
+          "J'achète du viande au supermarché.",
+          "J'achète la viande au supermarché.",
+          "Je achète de la viande au supermarché."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

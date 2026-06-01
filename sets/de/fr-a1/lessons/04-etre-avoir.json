@@ -1,0 +1,550 @@
+{
+  "id": "04-etre-avoir",
+  "title": "Die Verben être und avoir",
+  "description": "Die zwei wichtigsten französischen Verben. Konjugation im Präsens + wann man welches benutzt.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "pron-je",
+      "front": "je",
+      "back": "ich",
+      "notes": "Wird vor einem Vokal zu **j'** elidiert: *j'ai*, *j'aime*, *j'écoute*.",
+      "tags": [
+        "pronoun",
+        "subject"
+      ]
+    },
+    {
+      "id": "pron-tu",
+      "front": "tu",
+      "back": "du (informell Singular)",
+      "notes": "Wird bei Freunden, Familie, Kindern, Gleichaltrigen verwendet. NIEMALS für eine fremde Person oder einen Kunden — dafür gilt *vous*.",
+      "tags": [
+        "pronoun",
+        "subject",
+        "informal"
+      ]
+    },
+    {
+      "id": "pron-il",
+      "front": "il",
+      "back": "er / es (m.)",
+      "notes": "Wird auch für maskuline Gegenstände verwendet: *le livre — il est rouge* (das Buch — es ist rot).",
+      "tags": [
+        "pronoun",
+        "subject"
+      ]
+    },
+    {
+      "id": "pron-elle",
+      "front": "elle",
+      "back": "sie / es (f.)",
+      "notes": "Wird auch für feminine Gegenstände verwendet: *la chaise — elle est verte*.",
+      "tags": [
+        "pronoun",
+        "subject"
+      ]
+    },
+    {
+      "id": "pron-nous",
+      "front": "nous",
+      "back": "wir",
+      "notes": "In der Umgangssprache oft durch *on* ersetzt (*on est* = wir sind). Auf A1-Niveau bleib bei *nous*.",
+      "tags": [
+        "pronoun",
+        "subject"
+      ]
+    },
+    {
+      "id": "pron-vous",
+      "front": "vous",
+      "back": "Sie / ihr (formell oder Plural)",
+      "notes": "Zwei Verwendungen: (1) formeller Singular (eine fremde Person, ein Professor), (2) Plural (mehrere Personen, jede Förmlichkeit). Die Verbform ist dieselbe.",
+      "tags": [
+        "pronoun",
+        "subject",
+        "formal"
+      ]
+    },
+    {
+      "id": "pron-ils",
+      "front": "ils",
+      "back": "sie (m. oder gemischt)",
+      "notes": "Wird für Gruppen aus lauter Männern oder aus Männern und Frauen verwendet. Schon ein einziger Mann in einer Gruppe von Frauen macht die Gruppe zu *ils*.",
+      "tags": [
+        "pronoun",
+        "subject",
+        "plural"
+      ]
+    },
+    {
+      "id": "pron-elles",
+      "front": "elles",
+      "back": "sie (f. — nur Frauen / alles feminin)",
+      "notes": "Nur, wenn jedes Mitglied der Gruppe feminin ist.",
+      "tags": [
+        "pronoun",
+        "subject",
+        "plural"
+      ]
+    },
+    {
+      "id": "etre-suis",
+      "front": "je suis",
+      "back": "ich bin",
+      "tags": [
+        "verb",
+        "etre",
+        "present"
+      ]
+    },
+    {
+      "id": "etre-es",
+      "front": "tu es",
+      "back": "du bist (informell Sg.)",
+      "tags": [
+        "verb",
+        "etre",
+        "present"
+      ]
+    },
+    {
+      "id": "etre-est",
+      "front": "il/elle est",
+      "back": "er/sie/es ist",
+      "tags": [
+        "verb",
+        "etre",
+        "present"
+      ]
+    },
+    {
+      "id": "etre-sommes",
+      "front": "nous sommes",
+      "back": "wir sind",
+      "tags": [
+        "verb",
+        "etre",
+        "present"
+      ]
+    },
+    {
+      "id": "etre-etes",
+      "front": "vous êtes",
+      "back": "Sie sind / ihr seid (formell / Pl.)",
+      "notes": "Beachte den Zirkumflex auf dem ê — er ist ein Hinweis darauf, dass dort früher ein s stand (vergleiche das englische *est*).",
+      "tags": [
+        "verb",
+        "etre",
+        "present"
+      ]
+    },
+    {
+      "id": "etre-sont",
+      "front": "ils/elles sont",
+      "back": "sie sind",
+      "tags": [
+        "verb",
+        "etre",
+        "present"
+      ]
+    },
+    {
+      "id": "avoir-ai",
+      "front": "j'ai",
+      "back": "ich habe",
+      "notes": "Elidiert: *je ai* gibt es nie; immer **j'ai**.",
+      "tags": [
+        "verb",
+        "avoir",
+        "present"
+      ]
+    },
+    {
+      "id": "avoir-as",
+      "front": "tu as",
+      "back": "du hast (informell Sg.)",
+      "tags": [
+        "verb",
+        "avoir",
+        "present"
+      ]
+    },
+    {
+      "id": "avoir-a",
+      "front": "il/elle a",
+      "back": "er/sie/es hat",
+      "notes": "Kein Akzent. *il a* (er hat) vs *il à* (was als Satz nicht existiert — *à* ist eine Präposition).",
+      "tags": [
+        "verb",
+        "avoir",
+        "present"
+      ]
+    },
+    {
+      "id": "avoir-avons",
+      "front": "nous avons",
+      "back": "wir haben",
+      "tags": [
+        "verb",
+        "avoir",
+        "present"
+      ]
+    },
+    {
+      "id": "avoir-avez",
+      "front": "vous avez",
+      "back": "Sie haben / ihr habt (formell / Pl.)",
+      "tags": [
+        "verb",
+        "avoir",
+        "present"
+      ]
+    },
+    {
+      "id": "avoir-ont",
+      "front": "ils/elles ont",
+      "back": "sie haben",
+      "notes": "Nicht mit *sont* (sie sind) verwechseln. Ein Buchstabe, völlig andere Bedeutung.",
+      "tags": [
+        "verb",
+        "avoir",
+        "present"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die zwei wichtigsten Verben",
+      "body": "# *Être* und *avoir*\n\nWenn du auf A1-Niveau nur zwei französische Verben lernst, dann lerne **être** (sein) und **avoir** (haben). Zusammen decken sie ab:\n\n- Identität: *Je **suis** étudiant.* — Ich bin Student.\n- Beschreibung: *Elle **est** grande.* — Sie ist groß.\n- Besitz: *J'**ai** un chat.* — Ich habe eine Katze.\n- Alter: *Tu **as** vingt ans.* — Du bist zwanzig (wörtlich: du hast zwanzig Jahre).\n- Außerdem wird das **passé composé** — die wichtigste Vergangenheitsform des Französischen — aus *avoir* + Partizip Perfekt gebildet (Lektion 10).\n\nBeide Verben sind **unregelmäßig** — die Formen folgen keinem Muster, du musst sie auswendig lernen. Genauso im Englischen (am / are / is / was / were), genauso im Spanischen (soy / eres / es), genauso im Deutschen (bin / bist / ist). Der anfängliche Aufwand lohnt sich."
+    },
+    {
+      "id": "step-etre",
+      "type": "theory",
+      "title": "Être — sein",
+      "body": "## Präsens von *être*\n\n| Subjekt | Form |\n|---|---|\n| je | **suis** |\n| tu | **es** |\n| il / elle | **est** |\n| nous | **sommes** |\n| vous | **êtes** |\n| ils / elles | **sont** |\n\nAussprachefallen:\n- *suis* — stummes **s** am Ende, klingt wie \"swie\"\n- *est* — **s** und **t** sind stumm: einfach \"ä\"\n- *êtes* — der Zirkumflex steht für ein altes **s**: ausgesprochen \"ätt\"\n- *sont* — Nasalvokal + stummes **t**: \"soh\"\n\nBenutze *être* für: Identität, Beruf, Nationalität, Beschreibung, Ort.\n\n*Je **suis** français. Tu **es** ici. Nous **sommes** prêts.*"
+    },
+    {
+      "id": "ex-match-etre",
+      "type": "exercise",
+      "title": "Être-Formen zuordnen",
+      "exercise": {
+        "id": "ex-match-etre",
+        "type": "matching",
+        "prompt": "Ordne jedem Subjektpronomen die richtige Form von *être* zu.",
+        "card_ids": [
+          "etre-suis",
+          "etre-es",
+          "etre-est",
+          "etre-sommes",
+          "etre-etes",
+          "etre-sont"
+        ],
+        "pairs": [
+          {
+            "left": "je",
+            "right": "suis"
+          },
+          {
+            "left": "tu",
+            "right": "es"
+          },
+          {
+            "left": "il",
+            "right": "est"
+          },
+          {
+            "left": "nous",
+            "right": "sommes"
+          },
+          {
+            "left": "vous",
+            "right": "êtes"
+          },
+          {
+            "left": "ils",
+            "right": "sont"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-etre-vous",
+      "type": "exercise",
+      "title": "Être konjugieren — vous",
+      "exercise": {
+        "id": "ex-free-etre-vous",
+        "type": "free_text",
+        "prompt": "Tippe die Form von *être*, die zu **vous** gehört.",
+        "card_ids": [
+          "etre-etes"
+        ],
+        "accept": [
+          "êtes",
+          "Êtes",
+          "etes"
+        ],
+        "hint": "Hat einen Zirkumflex. Klingt wie \"ätt\".",
+        "distractors": [
+          "est",
+          "sommes",
+          "sont"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-avoir",
+      "type": "theory",
+      "title": "Avoir — haben",
+      "body": "## Präsens von *avoir*\n\n| Subjekt | Form |\n|---|---|\n| je (j') | **ai** |\n| tu | **as** |\n| il / elle | **a** |\n| nous | **avons** |\n| vous | **avez** |\n| ils / elles | **ont** |\n\nPflicht-Elision: *je* + *ai* wird immer zu **j'ai**. Du wirst nie *je ai* sehen.\n\nBenutze *avoir* für: Besitz, Alter, bestimmte Redewendungen.\n\n- *J'**ai** trois enfants.* — Ich habe drei Kinder.\n- *Vous **avez** vingt ans.* — Sie sind zwanzig Jahre alt. (Wörtlich: Sie HABEN zwanzig Jahre.)\n- *Ils **ont** faim.* — Sie haben Hunger. (Wörtlich: sie HABEN Hunger.)\n\nFranzösisch verwendet *avoir* dort, wo das Deutsche *sein* benutzt — etwa beim Alter, oder dort, wo das Deutsche *haben* nimmt, beim Hunger, Durst, Angst. Übersetze nach Bedeutung, nicht Wort für Wort."
+    },
+    {
+      "id": "ex-match-avoir",
+      "type": "exercise",
+      "title": "Avoir-Formen zuordnen",
+      "exercise": {
+        "id": "ex-match-avoir",
+        "type": "matching",
+        "prompt": "Ordne jedem Subjektpronomen die richtige Form von *avoir* zu.",
+        "card_ids": [
+          "avoir-ai",
+          "avoir-as",
+          "avoir-a",
+          "avoir-avons",
+          "avoir-avez",
+          "avoir-ont"
+        ],
+        "pairs": [
+          {
+            "left": "j'",
+            "right": "ai"
+          },
+          {
+            "left": "tu",
+            "right": "as"
+          },
+          {
+            "left": "elle",
+            "right": "a"
+          },
+          {
+            "left": "nous",
+            "right": "avons"
+          },
+          {
+            "left": "vous",
+            "right": "avez"
+          },
+          {
+            "left": "ils",
+            "right": "ont"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-avoir-nous",
+      "type": "exercise",
+      "title": "Avoir konjugieren — nous",
+      "exercise": {
+        "id": "ex-free-avoir-nous",
+        "type": "free_text",
+        "prompt": "Tippe die Form von *avoir*, die zu **nous** gehört.",
+        "card_ids": [
+          "avoir-avons"
+        ],
+        "accept": [
+          "avons",
+          "Avons",
+          "AVONS"
+        ],
+        "hint": "Drei Silben: a-vons.",
+        "distractors": [
+          "avez",
+          "ont",
+          "ai"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-vous-formal",
+      "type": "theory",
+      "title": "Tu oder vous?",
+      "body": "## Die Wahl zwischen *tu* / *vous*\n\nIm Französischen musst du dich für eine von zwei Formen für \"du/Sie\" entscheiden:\n\n| Situation | Verwende |\n|---|---|\n| Mit einem Freund, Familienmitglied, Kind sprechen | **tu** |\n| Mit einer fremden Person, einem Kunden, einem Professor sprechen (eine Person) | **vous** |\n| Mit mehr als einer Person sprechen, jede Förmlichkeit | **vous** |\n\nBeachte, dass **vous** doppelte Arbeit leistet (formeller Singular UND jeder Plural). Die Verbkonjugation ist dieselbe — der Kontext sagt dir, welche gemeint ist.\n\nWenn du bei jemandem Neuen unsicher bist, verwende **vous**. Man wird dir sagen, wenn es in Ordnung ist, zu **tu** zu wechseln (\"*on se tutoie*\" — sagen wir doch du).\n\nAuf A1-Niveau ist **vous** die sicherere Wahl, wenn du nicht weißt, welche du nehmen sollst."
+    },
+    {
+      "id": "ex-pick-vous",
+      "type": "exercise",
+      "title": "Tu oder vous wählen",
+      "exercise": {
+        "id": "ex-pick-vous",
+        "type": "picture_choice",
+        "prompt": "Du sprichst im Unterricht mit deinem Professor. Welches Pronomen verwendest du?",
+        "card_ids": [
+          "pron-tu",
+          "pron-vous"
+        ],
+        "images": [
+          {
+            "src": "assets/img/teacher.png",
+            "label": "tu"
+          },
+          {
+            "src": "assets/img/classroom.png",
+            "label": "vous",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/student.png",
+            "label": "il"
+          },
+          {
+            "src": "assets/img/desk.png",
+            "label": "nous"
+          }
+        ],
+        "hint": "Professoren bekommen die formelle Form, auch wenn sie jung sind.",
+        "distractors": [
+          "tu",
+          "il",
+          "nous"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-je-suis",
+      "type": "exercise",
+      "title": "Bauen: Ich bin Franzose",
+      "exercise": {
+        "id": "ex-tile-je-suis",
+        "type": "word_tiles",
+        "prompt": "Ordne die Kacheln so an, dass sie *Ich bin Franzose* bedeuten (maskuline Form).",
+        "card_ids": [
+          "etre-suis"
+        ],
+        "tiles": [
+          "Je",
+          "suis",
+          "français"
+        ],
+        "hint": "Subjekt + être + Adjektiv. Gleiche Reihenfolge wie im Deutschen.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-jai-faim",
+      "type": "exercise",
+      "title": "Bauen: Ich habe Hunger",
+      "exercise": {
+        "id": "ex-tile-jai-faim",
+        "type": "word_tiles",
+        "prompt": "Ordne die Kacheln so an, dass sie *Ich habe Hunger* bedeuten. (Hinweis: Französisch verwendet *avoir*, nicht *être*, für Hunger.)",
+        "card_ids": [
+          "avoir-ai"
+        ],
+        "tiles": [
+          "J'",
+          "ai",
+          "faim"
+        ],
+        "hint": "Wörtlich *Ich habe Hunger* — Französisch verwendet avoir für Hunger / Durst / Alter.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-age",
+      "type": "exercise",
+      "title": "Sein Alter sagen",
+      "exercise": {
+        "id": "ex-free-age",
+        "type": "free_text",
+        "prompt": "Übersetze *Ich bin 25 Jahre alt.* ins Französische. (Hinweis: Französisch verwendet *avoir* für das Alter. Schreibe die Zahl als ein einzelnes Wort aus: *vingt-cinq*.)",
+        "card_ids": [
+          "avoir-ai"
+        ],
+        "accept": [
+          "J'ai vingt-cinq ans.",
+          "J'ai vingt-cinq ans",
+          "j'ai vingt-cinq ans"
+        ],
+        "hint": "Beginne mit *J'ai* (ich habe), dann die Zahl, dann *ans* (Jahre).",
+        "distractors": [
+          "Je suis vingt-cinq.",
+          "Je suis vingt-cinq ans.",
+          "J'ai vingt-cinq."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-be-vs-have",
+      "type": "exercise",
+      "title": "Être oder avoir?",
+      "exercise": {
+        "id": "ex-match-be-vs-have",
+        "type": "matching",
+        "prompt": "Ordne jeder deutschen Wendung das französische Verb zu, das sie verwendet.",
+        "card_ids": [
+          "etre-suis",
+          "avoir-ai"
+        ],
+        "pairs": [
+          {
+            "left": "Ich bin groß",
+            "right": "être"
+          },
+          {
+            "left": "Ich habe Hunger",
+            "right": "avoir"
+          },
+          {
+            "left": "Ich bin 30 Jahre alt",
+            "right": "avoir"
+          },
+          {
+            "left": "Ich bin Studentin",
+            "right": "être"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-avoir-amie",
+      "type": "exercise",
+      "title": "Cloze: avoir vs être (Phase 52H / v1.35.0)",
+      "exercise": {
+        "id": "ex-cloze-avoir-amie",
+        "type": "cloze",
+        "prompt": "Setze die richtige Form von *avoir* oder *être* ein.",
+        "card_ids": [
+          "avoir-a"
+        ],
+        "sentence": "Elle ___ une amie.",
+        "blanks": [
+          {
+            "accept": [
+              "a"
+            ],
+            "hint": "*avoir* Präsens, 3. Person Singular",
+            "placeholder": "?"
+          }
+        ],
+        "cloze_mode": "type",
+        "distractors": [
+          "est",
+          "as",
+          "ont"
+        ],
+        "hint": "*Elle a une amie* = *Sie hat eine Freundin* — Besitz verwendet *avoir*. *Elle est une amie* würde *Sie IST eine Freundin* bedeuten (Identität, mit *être*), was grammatikalisch korrekt ist, aber ein anderer Satz."
+      }
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "id": "11-uhrzeit-routine",
+  "title": "Die Uhrzeit und der Tagesablauf",
+  "description": "Die Uhrzeit angeben und mit reflexiven Verben über den eigenen Tagesablauf sprechen.",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "phr-quelle-heure",
+      "front": "Quelle heure est-il ?",
+      "back": "Wie spät ist es?",
+      "notes": "Die übliche Art, nach der Uhrzeit zu fragen. Wörtlich *welche Stunde ist es?* Das **h** in *heure* ist stumm.",
+      "tags": [
+        "time",
+        "question"
+      ]
+    },
+    {
+      "id": "phr-il-est-une-heure",
+      "front": "Il est une heure",
+      "back": "Es ist ein Uhr",
+      "notes": "Verwende **il est** + Zahl + *heure(s)*, um die Uhrzeit anzugeben. *Une heure* (Singular), aber *deux heures*, *trois heures*, ... (Plural).",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "phr-et-demie",
+      "front": "et demie",
+      "back": "halb (nach)",
+      "notes": "*Il est trois heures **et demie*** — es ist halb vier (wörtlich: drei Uhr und halb). *Demie* richtet sich nach dem femininen *heure*.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "phr-et-quart",
+      "front": "et quart",
+      "back": "Viertel nach",
+      "notes": "*Il est trois heures **et quart*** — es ist Viertel nach drei.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "phr-moins-le-quart",
+      "front": "moins le quart",
+      "back": "Viertel vor",
+      "notes": "*Il est trois heures **moins le quart*** — es ist Viertel vor drei. *Moins* bedeutet *minus*.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "phr-midi",
+      "front": "midi",
+      "back": "Mittag",
+      "notes": "*Il est midi* — es ist Mittag (12:00 Uhr). Kein *heures* nötig: einfach *midi*.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "phr-minuit",
+      "front": "minuit",
+      "back": "Mitternacht",
+      "notes": "*Il est minuit* — es ist Mitternacht (00:00 Uhr). Wie *midi* steht es allein.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "phr-le-matin",
+      "front": "le matin",
+      "back": "(am) Morgen",
+      "notes": "*Le matin, je me lève tôt* — am Morgen stehe ich früh auf.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "phr-le-soir",
+      "front": "le soir",
+      "back": "(am) Abend",
+      "notes": "*Le soir, je me couche tard* — am Abend gehe ich spät ins Bett.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "verb-se-reveiller",
+      "front": "se réveiller",
+      "back": "aufwachen",
+      "notes": "Ein **reflexives** Verb. *Je **me** réveille* — ich wache auf. Das *se* ist das Reflexivpronomen im Infinitiv.",
+      "tags": [
+        "verb",
+        "reflexive"
+      ]
+    },
+    {
+      "id": "verb-se-lever",
+      "front": "se lever",
+      "back": "aufstehen",
+      "notes": "Reflexiv. Beachte die Akzentverschiebung: *je me **lève*** (Accent grave), aber *nous nous **levons*** (ohne Akzent).",
+      "tags": [
+        "verb",
+        "reflexive"
+      ]
+    },
+    {
+      "id": "verb-s-habiller",
+      "front": "s'habiller",
+      "back": "sich anziehen",
+      "notes": "Reflexiv. Das **h** ist stumm, daher wird *se* zu *s'*: *je **m'**habille*.",
+      "tags": [
+        "verb",
+        "reflexive"
+      ]
+    },
+    {
+      "id": "verb-se-coucher",
+      "front": "se coucher",
+      "back": "ins Bett gehen",
+      "notes": "Reflexiv. *Elle **se** couche à dix heures* — sie geht um zehn Uhr ins Bett.",
+      "tags": [
+        "verb",
+        "reflexive"
+      ]
+    },
+    {
+      "id": "verb-prendre-petit-dejeuner",
+      "front": "prendre le petit-déjeuner",
+      "back": "frühstücken",
+      "notes": "Wörtlich *das kleine Mittagessen nehmen*. *Je prends le petit-déjeuner le matin.*",
+      "tags": [
+        "verb",
+        "routine"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die Uhrzeit angeben",
+      "body": "# Quelle heure est-il ?\n\nSo fragst du auf Französisch nach der Uhrzeit:\n\n> **Quelle heure est-il ?** — Wie spät ist es?\n\nUm zu antworten, verwende **il est** + die Stunde + *heure(s)*:\n\n| Französisch | Deutsch |\n|---|---|\n| Il est **une** heure | Es ist ein Uhr |\n| Il est **deux** heures | Es ist zwei Uhr |\n| Il est **dix** heures | Es ist zehn Uhr |\n\nBeachte: *une heure* steht im **Singular** (eine Stunde), aber ab *deux* heißt es *heures* (Plural).\n\nFür die halben und viertel Stunden füge nach der Stunde einen kurzen Ausdruck hinzu:\n\n- *Il est trois heures **et demie**.* — Es ist halb vier.\n- *Il est trois heures **et quart**.* — Es ist Viertel nach drei.\n- *Il est trois heures **moins le quart**.* — Es ist Viertel vor drei.\n\nUnd zwei besondere Wörter ohne *heures*:\n\n- *Il est **midi**.* — Es ist Mittag (12:00 Uhr).\n- *Il est **minuit**.* — Es ist Mitternacht (00:00 Uhr)."
+    },
+    {
+      "id": "ex-match-time-expr",
+      "type": "exercise",
+      "title": "Zeitausdrücke zuordnen",
+      "exercise": {
+        "id": "ex-match-time-expr",
+        "type": "matching",
+        "prompt": "Ordne jeden französischen Zeitausdruck seiner deutschen Bedeutung zu.",
+        "card_ids": [
+          "phr-et-demie",
+          "phr-et-quart",
+          "phr-moins-le-quart",
+          "phr-midi",
+          "phr-minuit"
+        ],
+        "pairs": [
+          {
+            "left": "et demie",
+            "right": "halb (nach)"
+          },
+          {
+            "left": "et quart",
+            "right": "Viertel nach"
+          },
+          {
+            "left": "moins le quart",
+            "right": "Viertel vor"
+          },
+          {
+            "left": "midi",
+            "right": "Mittag"
+          },
+          {
+            "left": "minuit",
+            "right": "Mitternacht"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-reflexive",
+      "type": "exercise",
+      "title": "Die reflexiven Verben zuordnen",
+      "exercise": {
+        "id": "ex-match-reflexive",
+        "type": "matching",
+        "prompt": "Ordne jedes reflexive Verb seiner Bedeutung zu.",
+        "card_ids": [
+          "verb-se-reveiller",
+          "verb-se-lever",
+          "verb-s-habiller",
+          "verb-se-coucher"
+        ],
+        "pairs": [
+          {
+            "left": "se réveiller",
+            "right": "aufwachen"
+          },
+          {
+            "left": "se lever",
+            "right": "aufstehen"
+          },
+          {
+            "left": "s'habiller",
+            "right": "sich anziehen"
+          },
+          {
+            "left": "se coucher",
+            "right": "ins Bett gehen"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-reflexive",
+      "type": "theory",
+      "title": "Reflexive (pronominale) Verben",
+      "body": "## Verben, die man *an sich selbst* ausführt\n\nReflexive Verben beschreiben Handlungen, die man an sich selbst ausführt — aufwachen, sich anziehen, ins Bett gehen. Im Wörterbuch tragen sie ein **se** vor dem Infinitiv: *se lever*, *se coucher*, *s'habiller*.\n\nBeim Konjugieren passt sich das *se* an das Subjekt an. Hier ist **se lever** (aufstehen):\n\n| Subjekt | Pronomen | Verb |\n|---|---|---|\n| je | **me** | je **me lève** |\n| tu | **te** | tu **te lèves** |\n| il / elle | **se** | il **se lève** |\n| nous | **nous** | nous **nous levons** |\n| vous | **vous** | vous **vous levez** |\n| ils / elles | **se** | ils **se lèvent** |\n\n**Akzent-Falle:** *se lever* hat in den meisten Formen einen Accent grave (è) — *je me **lève**, tu te **lèves**, il se **lève**, ils se **lèvent*** — aber **nicht** bei *nous **levons*** und *vous **levez***.\n\n**Elision:** vor einem Vokal oder stummen *h* werden *me/te/se* zu *m'/t'/s'*: *je **m'**habille*, *tu **t'**habilles*."
+    },
+    {
+      "id": "ex-free-i-get-up",
+      "type": "exercise",
+      "title": "Ich stehe um sieben auf",
+      "exercise": {
+        "id": "ex-free-i-get-up",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich stehe um sieben Uhr auf.*",
+        "card_ids": [
+          "verb-se-lever",
+          "phr-il-est-une-heure"
+        ],
+        "accept": [
+          "Je me lève à sept heures.",
+          "je me lève à sept heures",
+          "Je me leve a sept heures."
+        ],
+        "hint": "*Je me* + die Form *lève* + *à sept heures*. Denk an den Accent grave auf *lève*.",
+        "distractors": [
+          "Je lève à sept heures.",
+          "Je me lever à sept heures.",
+          "Je me lève sept heures."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-morning-routine",
+      "type": "exercise",
+      "title": "Bilden: Am Morgen stehe ich um sechs auf",
+      "exercise": {
+        "id": "ex-tile-morning-routine",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter so, dass es bedeutet: *Am Morgen stehe ich um sechs Uhr auf.*",
+        "card_ids": [
+          "phr-le-matin",
+          "verb-se-lever"
+        ],
+        "tiles": [
+          "Le",
+          "matin",
+          "je",
+          "me",
+          "lève",
+          "à",
+          "six",
+          "heures"
+        ],
+        "hint": "Zuerst der Zeitausdruck (*Le matin*), dann Subjekt + Reflexivpronomen + Verb + *à* + die Stunde.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-clock",
+      "type": "exercise",
+      "title": "Welche Uhr?",
+      "exercise": {
+        "id": "ex-pick-clock",
+        "type": "picture_choice",
+        "prompt": "Welche Uhr zeigt *il est trois heures et demie* (halb vier)?",
+        "card_ids": [
+          "phr-et-demie"
+        ],
+        "images": [
+          {
+            "src": "assets/img/clock-three-oclock.png",
+            "label": "trois heures"
+          },
+          {
+            "src": "assets/img/clock-half-past-three.png",
+            "label": "trois heures et demie",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/clock-quarter-past-three.png",
+            "label": "trois heures et quart"
+          },
+          {
+            "src": "assets/img/clock-quarter-to-three.png",
+            "label": "trois heures moins le quart"
+          }
+        ],
+        "hint": "*Et demie* bedeutet halb — der Minutenzeiger zeigt gerade nach unten auf die 6.",
+        "distractors": [
+          "trois heures",
+          "trois heures et quart",
+          "trois heures moins le quart"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "step-combining",
+      "type": "theory",
+      "title": "Uhrzeit und Tagesablauf zusammenfügen",
+      "body": "## Deinen Tag beschreiben\n\nKombiniere jetzt die beiden Hälften: ein **Zeitausdruck** plus ein **reflexives Verb** ergibt einen vollständigen Satz über den Tagesablauf.\n\nVerwende *à* + die Stunde, um *um* eine bestimmte Uhrzeit zu sagen:\n\n- *Le matin, je me lève **à sept heures**.* — Am Morgen stehe ich um sieben Uhr auf.\n- *Je prends le petit-déjeuner **à huit heures**.* — Ich frühstücke um acht Uhr.\n- *Le soir, je me couche **à dix heures et demie**.* — Am Abend gehe ich um halb elf ins Bett.\n\nEine typische Reihenfolge ist: *(Zeitausdruck) + Subjekt + Reflexivpronomen + Verb + à + Stunde*.\n\nVersuche, deinen eigenen Tag laut zu beschreiben:\n\n> *Le matin, je me réveille, je me lève, et je m'habille. Le soir, je me couche.*\n\nDu hast jetzt die Bausteine, um auf Französisch über einen ganzen Tag zu sprechen. Mach weiter — du bist fast durch mit A1!"
+    },
+    {
+      "id": "ex-free-it-is-noon",
+      "type": "exercise",
+      "title": "Es ist Mittag",
+      "exercise": {
+        "id": "ex-free-it-is-noon",
+        "type": "free_text",
+        "prompt": "Wie sagt man *Es ist Mittag*?",
+        "card_ids": [
+          "phr-midi"
+        ],
+        "accept": [
+          "Il est midi.",
+          "il est midi",
+          "Il est midi"
+        ],
+        "hint": "Verwende *Il est* + das besondere Wort für Mittag. Kein *heures* nötig.",
+        "distractors": [
+          "Il est minuit.",
+          "Il est douze heures.",
+          "Il est midi heures."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-she-goes-to-bed",
+      "type": "exercise",
+      "title": "Bilden: Sie geht um zehn ins Bett",
+      "exercise": {
+        "id": "ex-tile-she-goes-to-bed",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter so, dass es bedeutet: *Sie geht um zehn Uhr ins Bett.*",
+        "card_ids": [
+          "verb-se-coucher",
+          "phr-le-soir"
+        ],
+        "tiles": [
+          "Elle",
+          "se",
+          "couche",
+          "à",
+          "dix",
+          "heures"
+        ],
+        "hint": "Subjekt + Reflexivpronomen *se* + die Form *couche* + *à* + die Stunde.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-i-wake-up-early",
+      "type": "exercise",
+      "title": "Ich wache früh auf",
+      "exercise": {
+        "id": "ex-free-i-wake-up-early",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich wache früh auf.* (*früh* = tôt)",
+        "card_ids": [
+          "verb-se-reveiller"
+        ],
+        "accept": [
+          "Je me réveille tôt.",
+          "je me réveille tôt",
+          "Je me reveille tot."
+        ],
+        "hint": "*Je me* + die Form *réveille* + *tôt*.",
+        "distractors": [
+          "Je réveille tôt.",
+          "Je me réveiller tôt.",
+          "Je me lève tôt."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-i-have-breakfast",
+      "type": "exercise",
+      "title": "Ich frühstücke am Morgen",
+      "exercise": {
+        "id": "ex-free-i-have-breakfast",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich frühstücke am Morgen.*",
+        "card_ids": [
+          "verb-prendre-petit-dejeuner",
+          "phr-le-matin"
+        ],
+        "accept": [
+          "Je prends le petit-déjeuner le matin.",
+          "je prends le petit-déjeuner le matin",
+          "Je prends le petit-dejeuner le matin."
+        ],
+        "hint": "*Je prends* + *le petit-déjeuner* + *le matin*.",
+        "distractors": [
+          "Je prend le petit-déjeuner le matin.",
+          "Je prends le petit-déjeuner le soir.",
+          "Je me prends le petit-déjeuner le matin."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
