@@ -470,7 +470,7 @@
           "a la banco",
           "al banca"
         ],
-        "direction": "target_to_source"
+        "direction": "source_to_target"
       }
     },
     {
@@ -496,7 +496,7 @@
           "plaza"
         ],
         "hint": "enfrente de = opposite. Nothing contracts before la.",
-        "direction": "target_to_source"
+        "direction": "source_to_target"
       }
     },
     {
@@ -520,7 +520,7 @@
           "izquierda"
         ],
         "hint": "a la izquierda = on the left.",
-        "direction": "target_to_source"
+        "direction": "source_to_target"
       }
     },
     {
@@ -545,7 +545,7 @@
           "al lado restaurante",
           "al lado de la restaurante"
         ],
-        "direction": "target_to_source"
+        "direction": "source_to_target"
       }
     }
   ]

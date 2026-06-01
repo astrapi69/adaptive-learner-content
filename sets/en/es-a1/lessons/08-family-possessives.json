@@ -401,7 +401,7 @@
           "nuestra hijos",
           "nuestros hijo"
         ],
-        "direction": "target_to_source"
+        "direction": "source_to_target"
       }
     },
     {
@@ -498,7 +498,7 @@
           "alta"
         ],
         "hint": "Mi hermana es alta.",
-        "direction": "target_to_source"
+        "direction": "source_to_target"
       }
     },
     {
@@ -519,7 +519,7 @@
           "grande"
         ],
         "hint": "casa is feminine -> Nuestra (not Nuestro).",
-        "direction": "target_to_source"
+        "direction": "source_to_target"
       }
     },
     {
@@ -554,7 +554,7 @@
             "right": "our children"
           }
         ],
-        "direction": "target_to_source"
+        "direction": "source_to_target"
       }
     }
   ]
