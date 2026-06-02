@@ -1,0 +1,258 @@
+{
+  "id": "43-klinische-psychologie-vertieft",
+  "title": "Klinische Psychologie vertieft: Klassifikation und Störungsbilder",
+  "description": "Vertiefung der klinischen Psychologie aus Lektion 9: Klassifikationssysteme ICD-11 und DSM-5, Komorbidität, wichtige Störungsbilder (Angststörungen, Depression, bipolare Störung, Zwangsstörung, PTBS, Schizophrenie, Persönlichkeitsstörungen) und das Vulnerabilitäts-Stress-Modell — sachlich und bildungsorientiert auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "icd-11",
+      "front": "ICD-11 (International Classification of Diseases, 11. Revision)",
+      "back": "Das Klassifikationssystem der Weltgesundheitsorganisation (WHO) zur einheitlichen Diagnose von Krankheiten und psychischen Störungen weltweit.",
+      "notes": "ICD steht für International Classification of Diseases. Die 11. Revision gilt seit 2022 offiziell. Komplementär zum DSM-5 der APA.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["klassifikation", "diagnostik", "icd"]
+    },
+    {
+      "id": "dsm-5",
+      "front": "DSM-5 (Diagnostic and Statistical Manual of Mental Disorders, 5. Auflage)",
+      "back": "Das Klassifikationssystem der American Psychiatric Association (APA), das psychische Störungen anhand einheitlicher Diagnosekriterien beschreibt.",
+      "notes": "DSM steht für Diagnostic and Statistical Manual. Das DSM-5 erschien 2013 und ist besonders in der Forschung international einflussreich.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["klassifikation", "diagnostik", "dsm"]
+    },
+    {
+      "id": "komorbiditaet",
+      "front": "Komorbidität (Comorbidity)",
+      "back": "Das gleichzeitige Vorliegen von zwei oder mehr eigenständigen psychischen (oder körperlichen) Störungen bei einer Person.",
+      "notes": "Beispiel: Eine Person hat gleichzeitig eine Depression und eine Angststörung. Komorbidität ist in der klinischen Praxis eher die Regel als die Ausnahme.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Was bedeutet es, wenn jemand mehrere Diagnosen gleichzeitig hat?",
+      "tags": ["diagnostik", "komorbidität"]
+    },
+    {
+      "id": "panikstörung",
+      "front": "Panikstörung (Panic Disorder)",
+      "back": "Angststörung mit wiederkehrenden, unerwarteten Panikattacken und anhaltender Sorge vor weiteren Attacken sowie deren Folgen.",
+      "notes": "Kernmerkmale: plötzliche intensive Angst, Herzrasen, Schwindel, Atemnot, Gefühl des Kontrollverlusts. Häufig entwickelt sich Vermeidungsverhalten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["angststörung", "panik"]
+    },
+    {
+      "id": "generalisierte-angststörung",
+      "front": "Generalisierte Angststörung (Generalized Anxiety Disorder, GAD)",
+      "back": "Anhaltende, schwer kontrollierbare Sorgen über viele Lebensbereiche, die seit mindestens sechs Monaten bestehen.",
+      "notes": "Im Unterschied zur Panikstörung gibt es keine plötzlichen Attacken, sondern chronische Anspannung und Grübeln.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["angststörung", "sorge"]
+    },
+    {
+      "id": "major-depression",
+      "front": "Major Depression (Schwere Depressive Episode)",
+      "back": "Affektive Störung mit mindestens zwei Wochen anhaltend gedrückter Stimmung, Interessenverlust und Antriebslosigkeit als Kernsymptomen.",
+      "notes": "Weitere Symptome: Schlafstörungen, Konzentrationsprobleme, Schuldgefühle, suizidale Gedanken. Eine der häufigsten psychischen Erkrankungen weltweit.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["depression", "affektiv", "störung"]
+    },
+    {
+      "id": "bipolare-störung",
+      "front": "Bipolare Störung (Bipolar Disorder)",
+      "back": "Affektive Störung mit abwechselnden Phasen von Depression und Manie (oder Hypomanie).",
+      "notes": "Manische Phasen: gehobene Stimmung, vermindertes Schlafbedürfnis, Risikobereitschaft, Gedankenrasen. Früher 'manisch-depressive Erkrankung' genannt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Zwei Pole: tiefe Stimmung und hochgestimmte Phase.",
+      "tags": ["depression", "affektiv", "manie"]
+    },
+    {
+      "id": "zwangsstörung",
+      "front": "Zwangsstörung (Obsessive-Compulsive Disorder, OCD)",
+      "back": "Psychische Störung mit sich aufdrängenden, ungewollten Gedanken (Obsessionen) und/oder Zwangshandlungen (Kompulsionen), die die Person nicht unterdrücken kann.",
+      "notes": "Beispiele: Waschzwang, Kontrollzwang. Die Zwangshandlungen reduzieren kurzfristig Angst, verstärken das Problem aber langfristig.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["zwang", "ocd", "angst"]
+    },
+    {
+      "id": "ptbs",
+      "front": "Posttraumatische Belastungsstörung (PTBS / Post-Traumatic Stress Disorder, PTSD)",
+      "back": "Störung, die nach einem extrem belastenden Erlebnis auftreten kann und durch Intrusionen (Wiedererleben), Vermeidung, negative Stimmung und erhöhte Erregung gekennzeichnet ist.",
+      "notes": "Intrusionen umfassen Flashbacks und Albträume. Nicht jede Person, die ein Trauma erlebt, entwickelt eine PTBS.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["trauma", "ptbs", "angst"]
+    },
+    {
+      "id": "schizophrenie",
+      "front": "Schizophrenie (Schizophrenia)",
+      "back": "Schwere psychische Störung mit Positiv- und Negativsymptomatik, die das Denken, die Wahrnehmung und das Verhalten tiefgreifend beeinträchtigt.",
+      "notes": "Positivsymptome (Hinzufügungen): Halluzinationen, Wahnvorstellungen, desorganisiertes Denken. Negativsymptome (Verluste): Affektverflachung, Antriebsarmut, sozialer Rückzug.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Positiv = etwas kommt hinzu (Wahn, Halluzination); Negativ = etwas fällt weg (Antrieb, Affekt).",
+      "tags": ["schizophrenie", "psychose", "störung"]
+    },
+    {
+      "id": "persönlichkeitsstörung",
+      "front": "Persönlichkeitsstörung (Personality Disorder)",
+      "back": "Tief verwurzelte, anhaltende Muster des Erlebens und Verhaltens, die deutlich von den Erwartungen der Umgebung abweichen und zu Leidensdruck oder Beeinträchtigungen führen.",
+      "notes": "Beispiel Borderline-Persönlichkeitsstörung: instabile Affekte, Impulsivität, instabile Beziehungen, Selbstbildprobleme. ICD-11 unterscheidet verschiedene Schweregrade.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["persönlichkeit", "borderline", "störung"]
+    },
+    {
+      "id": "vulnerabilitäts-stress-modell",
+      "front": "Vulnerabilitäts-Stress-Modell (Diathese-Stress-Modell)",
+      "back": "Entstehungsmodell psychischer Störungen: Eine biologische oder psychologische Disposition (Vulnerabilität) führt nur bei ausreichend großem Stress zur Störung.",
+      "notes": "Vulnerabilität allein reicht nicht aus — erst Stress löst die Störung aus. Umgekehrt kann großer Stress auch bei geringer Vulnerabilität problematisch werden. Integriert Anlage und Umwelt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Diathese = Anfälligkeit; Stress = auslösender Belastungsfaktor.",
+      "tags": ["ätiologie", "diathese", "stress", "modell"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-klassifikation",
+      "type": "theory",
+      "title": "Klassifikationssysteme: ICD-11 und DSM-5",
+      "body": "# Klinische Psychologie vertieft\n\n**Lektion 9** hat gezeigt, was eine psychische Störung ist und welche grundlegenden Kategorien es gibt. Lektionen 16–20 haben bereits die wichtigsten **Therapieverfahren** behandelt. Diese Lektion vertieft die **Klassifikation** und die wichtigsten **Störungsbilder**.\n\n## Warum klassifizieren?\n\nKlassifikationssysteme ermöglichen **einheitliche Diagnosen** — unabhängig davon, in welchem Land oder an welcher Klinik eine Person behandelt wird. Nur mit gemeinsamer Sprache können Forschung, Behandlung und Versicherung funktionieren.\n\n## ICD-11 versus DSM-5\n\n| Merkmal | **ICD-11** | **DSM-5** |\n|---|---|---|\n| Herausgeber | Weltgesundheitsorganisation (WHO) | American Psychiatric Association (APA) |\n| Geltungsbereich | International (alle Krankheiten) | Primär USA; international in der Forschung |\n| Psychische Störungen | Kapitel 6 (Mental, behavioural and neurodevelopmental disorders) | Gesamtes Werk |\n| Gültig seit | 2022 (offiziell) | 2013 |\n| Verwendung | Abrechnung, Statistik, Klinik | Klinische Forschung, Diagnostik |\n\nBeide Systeme orientieren sich an **deskriptiven Kriterien** (Symptome, Dauer, Beeinträchtigung) — nicht an Ursachen."
+    },
+    {
+      "id": "step-störungsbilder",
+      "type": "theory",
+      "title": "Wichtige Störungsbilder im Überblick",
+      "body": "## Kernmerkmale ausgewählter Störungsgruppen\n\n| Störungsgruppe | Wichtige Beispiele | Kernmerkmale |\n|---|---|---|\n| **Angststörungen** | Panikstörung, spezifische Phobie, GAD | Übermäßige, anhaltende Angst; Vermeidungsverhalten |\n| **Affektive Störungen** | Major Depression, bipolare Störung | Gedrückte Stimmung / Stimmungsschwankungen; Antriebsstörung |\n| **Zwangsstörung (OCD)** | — | Obsessionen (Zwangsgedanken) + Kompulsionen (Zwangshandlungen) |\n| **PTBS** | — | Intrusionen (Flashbacks), Vermeidung, Hyperarousal nach Trauma |\n| **Schizophrenie** | — | Positivsymptome (Wahn, Halluzination) + Negativsymptome (Affektverflachung, Antriebsarmut) |\n| **Persönlichkeitsstörungen** | Borderline | Stabile Muster, die deutlich von sozialen Erwartungen abweichen |\n\n## Komorbidität\n\n**Komorbidität** bedeutet, dass zwei oder mehr Störungen gleichzeitig vorliegen (z. B. Depression **und** Angststörung). Das ist klinisch eher die Regel als die Ausnahme und erschwert sowohl Diagnostik als auch Behandlung."
+    },
+    {
+      "id": "step-vulnerabilität",
+      "type": "theory",
+      "title": "Das Vulnerabilitäts-Stress-Modell",
+      "body": "## Wie entstehen psychische Störungen?\n\nDas **Vulnerabilitäts-Stress-Modell** (auch **Diathese-Stress-Modell**) ist heute das wichtigste allgemeine Entstehungsmodell:\n\n1. **Vulnerabilität (Diathese)** — eine vorhandene biologische oder psychologische Anfälligkeit (z. B. genetische Faktoren, frühe ungünstige Erfahrungen, neuronale Besonderheiten).\n2. **Stress** — ein belastender Auslöser (z. B. Verlust, Trauma, chronische Belastung).\n3. **Interaktion** — Störung entsteht, wenn **Stress + Vulnerabilität** zusammen eine kritische Schwelle überschreiten.\n\n| Vulnerabilität | Stress | Ergebnis |\n|---|---|---|\n| hoch | gering | Störung möglich |\n| gering | sehr hoch | Störung möglich |\n| gering | gering | keine Störung |\n| hoch | hoch | Störung wahrscheinlich |\n\n> Das Modell integriert **biologische Anlage** und **Umweltfaktoren** — und erklärt, warum nicht alle Menschen auf gleiche Belastungen gleich reagieren. Es ist Grundlage für viele moderne Behandlungsansätze.\n\n**Wichtig:** Dieses Wissen dient dem Verständnis — nicht der Selbstdiagnose. Diagnosen werden von Fachleuten gestellt."
+    },
+    {
+      "id": "ex-match-klassifikation",
+      "type": "exercise",
+      "title": "ICD-11 und DSM-5 zuordnen",
+      "exercise": {
+        "id": "ex-match-klassifikation",
+        "type": "matching",
+        "prompt": "Ordne jedem Merkmal das richtige Klassifikationssystem zu.",
+        "card_ids": ["icd-11", "dsm-5"],
+        "pairs": [
+          { "left": "Herausgeber: Weltgesundheitsorganisation (WHO)", "right": "ICD-11" },
+          { "left": "Herausgeber: American Psychiatric Association (APA)", "right": "DSM-5" },
+          { "left": "Gilt für alle Krankheiten, international", "right": "ICD-11" },
+          { "left": "Erschienen 2013, primär für die USA", "right": "DSM-5" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-störungsbilder",
+      "type": "exercise",
+      "title": "Störungsbilder und ihre Kernmerkmale",
+      "exercise": {
+        "id": "ex-match-störungsbilder",
+        "type": "matching",
+        "prompt": "Ordne jedem Störungsbild sein wichtigstes Kernmerkmal zu.",
+        "card_ids": ["panikstörung", "major-depression", "zwangsstörung", "schizophrenie", "ptbs"],
+        "pairs": [
+          { "left": "Panikstörung", "right": "Wiederkehrende unerwartete Panikattacken" },
+          { "left": "Major Depression", "right": "Anhaltend gedrückte Stimmung und Interessenverlust" },
+          { "left": "Zwangsstörung (OCD)", "right": "Zwangsgedanken und Zwangshandlungen" },
+          { "left": "Schizophrenie", "right": "Wahn und Halluzinationen (Positivsymptome)" },
+          { "left": "PTBS", "right": "Intrusionen und Vermeidung nach Trauma" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-vulnerabilität",
+      "type": "exercise",
+      "title": "Das Entstehungsmodell benennen",
+      "exercise": {
+        "id": "ex-cloze-vulnerabilität",
+        "type": "cloze",
+        "prompt": "Ergänze den Fachbegriff für das Modell, das biologische Anfälligkeit und Stress als gemeinsame Ursache beschreibt.",
+        "card_ids": ["vulnerabilitäts-stress-modell"],
+        "sentence": "Das ___ erklärt, wie Vulnerabilität und Stress gemeinsam eine psychische Störung auslösen können.",
+        "blanks": [
+          { "accept": ["Vulnerabilitäts-Stress-Modell", "Diathese-Stress-Modell"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Auch als Diathese-Stress-Modell bekannt."
+      }
+    },
+    {
+      "id": "ex-free-komorbiditaet",
+      "type": "exercise",
+      "title": "Komorbidität erkennen",
+      "exercise": {
+        "id": "ex-free-komorbiditaet",
+        "type": "free_text",
+        "prompt": "Wie nennt man das gleichzeitige Vorliegen von zwei oder mehr eigenständigen psychischen Störungen bei einer Person?",
+        "card_ids": ["komorbiditaet"],
+        "accept": ["Komorbidität", "Komorbiditaet", "komorbidität", "Comorbidity"],
+        "hint": "Lateinisch: co- (zusammen) + morbidus (krank).",
+        "distractors": ["Diagnose", "Multimorbidität", "Synergieeffekt", "Ätiologie"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-schizophrenie",
+      "type": "exercise",
+      "title": "Positiv- und Negativsymptome",
+      "exercise": {
+        "id": "ex-free-schizophrenie",
+        "type": "free_text",
+        "prompt": "Wie heißen bei der Schizophrenie die Symptome, die etwas Hinzufügen (z. B. Wahn und Halluzinationen)?",
+        "card_ids": ["schizophrenie"],
+        "accept": ["Positivsymptome", "Positivsymptomatik", "positive Symptome", "Positiv-Symptome"],
+        "hint": "Im Gegensatz dazu stehen die Negativsymptome (Verluste wie Antriebsarmut).",
+        "distractors": ["Negativsymptome", "Prodromalsymptome", "Kernsymptome"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-diathese",
+      "type": "exercise",
+      "title": "Das Modell zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-diathese",
+        "type": "word_tiles",
+        "prompt": "Setze den alternativen Namen des Vulnerabilitäts-Stress-Modells zusammen.",
+        "card_ids": ["vulnerabilitäts-stress-modell"],
+        "tiles": ["Diathese", "-", "Stress", "-", "Modell"],
+        "hint": "Diathese bedeutet Anfälligkeit oder Disposition.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-bipolar",
+      "type": "exercise",
+      "title": "Bipolare Störung — die zwei Pole",
+      "exercise": {
+        "id": "ex-cloze-bipolar",
+        "type": "cloze",
+        "prompt": "Ergänze die beiden Phasen der bipolaren Störung.",
+        "card_ids": ["bipolare-störung"],
+        "sentence": "Die bipolare Störung ist durch abwechselnde Phasen von ___ und Manie (oder Hypomanie) gekennzeichnet.",
+        "blanks": [
+          { "accept": ["Depression", "depressiver Phase", "depressiven Phasen"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Die eine Phase ist tief (gedrückt), die andere hoch (gehoben)."
+      }
+    }
+  ]
+}

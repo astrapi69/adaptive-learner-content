@@ -1,0 +1,259 @@
+{
+  "id": "44-multivariate-statistik-und-designs",
+  "title": "Weiterführende Statistik und Forschungsdesigns",
+  "description": "Aufbauend auf den Lektionen 21–25 (Forschungsmethoden und Statistik): Korrelation vs. Regression, multiple Regression, t-Test, Varianzanalyse (ANOVA), Faktorenanalyse, Effektstärke (Cohens d) sowie Querschnitt- und Längsschnittdesigns — alles auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "regression",
+      "front": "Regression (Regression Analysis)",
+      "back": "Ein statistisches Verfahren, das den Wert einer abhängigen Variable aus einer oder mehreren unabhängigen Variablen (Prädiktoren) vorhersagt; beschrieben durch die Geradengleichung ŷ = a + b·x, wobei b die Steigung ist.",
+      "notes": "Im Gegensatz zur Korrelation gibt Regression eine Richtung vor: x sagt y vorher. R² gibt an, wie viel Varianz erklärt wird.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["statistik", "regression", "inferenz"]
+    },
+    {
+      "id": "r-quadrat",
+      "front": "Bestimmtheitsmaß R² (Coefficient of Determination)",
+      "back": "Gibt an, welchen Anteil der Gesamtstreuung der abhängigen Variable das Regressionsmodell erklärt — Werte zwischen 0 (kein Zusammenhang) und 1 (perfekte Vorhersage).",
+      "notes": "R² = 0,64 bedeutet: 64 % der Varianz in y werden durch die Prädiktoren erklärt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["statistik", "regression"]
+    },
+    {
+      "id": "multiple-regression",
+      "front": "Multiple Regression (Multiple Regression)",
+      "back": "Erweiterung der einfachen Regression auf mehrere Prädiktoren: ŷ = a + b₁·x₁ + b₂·x₂ + … + bₖ·xₖ. Jedes b gibt den einzigartigen Beitrag eines Prädiktors zur Vorhersage an.",
+      "notes": "Beispiel: IQ, Lernzeit und Motivation als Prädiktoren für Prüfungsnote.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["statistik", "regression", "multivariat"]
+    },
+    {
+      "id": "t-test",
+      "front": "t-Test (t-Test)",
+      "back": "Prüft, ob sich die Mittelwerte zweier Gruppen (oder einer Gruppe gegen einen Referenzwert) statistisch bedeutsam unterscheiden. Voraussetzung: Normalverteilung und metrische Daten.",
+      "notes": "Beispiel: Unterscheiden sich Kontrollgruppe und Experimentalgruppe im Testergebnis?",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["statistik", "inferenz", "gruppenvergleich"]
+    },
+    {
+      "id": "anova",
+      "front": "Varianzanalyse ANOVA (Analysis of Variance)",
+      "back": "Vergleicht die Mittelwerte von drei oder mehr Gruppen (oder Bedingungen) gleichzeitig, indem die Gesamtvarianz in Varianz zwischen den Gruppen und Varianz innerhalb der Gruppen aufgeteilt wird.",
+      "notes": "Bei zwei Gruppen entspricht die einfache ANOVA einem t-Test. Signifikanter F-Wert bedeutet: mindestens ein Gruppenunterschied liegt vor.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["statistik", "inferenz", "gruppenvergleich"]
+    },
+    {
+      "id": "faktorenanalyse",
+      "front": "Faktorenanalyse (Factor Analysis)",
+      "back": "Ein Verfahren, das viele korrelierte Variablen auf wenige zugrundeliegende Faktoren (latente Dimensionen) reduziert. Bekanntes Ergebnis: die Fünf-Faktoren-Theorie der Persönlichkeit (Big Five).",
+      "notes": "Lektion 36: Die Big Five (Offenheit, Gewissenhaftigkeit, Extraversion, Verträglichkeit, Neurotizismus) entstammen der Faktorenanalyse tausender Persönlichkeitsbeschreibungen.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["statistik", "multivariat", "persoenlichkeit"]
+    },
+    {
+      "id": "cohens-d",
+      "front": "Effektstärke Cohens d (Cohen's d)",
+      "back": "Maß für die praktische Bedeutsamkeit eines Mittelwertunterschieds: d = (M₁ – M₂) / s_pooled. Faustregeln: d ≈ 0,2 klein, d ≈ 0,5 mittel, d ≈ 0,8 groß.",
+      "notes": "Ergänzt den p-Wert (Signifikanz): Ein Ergebnis kann hoch signifikant sein, aber trotzdem eine kleine Effektstärke haben — und umgekehrt. Vgl. Lektion 25.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["statistik", "effektstaerke", "inferenz"]
+    },
+    {
+      "id": "signifikanz-vs-effektstaerke",
+      "front": "Signifikanz vs. Effektstärke",
+      "back": "Signifikanz (p-Wert) sagt, wie wahrscheinlich ein Ergebnis bei echter Nullhypothese wäre; Effektstärke sagt, wie groß der Unterschied praktisch ist. Beide Informationen werden benötigt.",
+      "notes": "Große Stichproben können triviale Unterschiede signifikant machen. Deshalb sollte neben p immer Cohens d (oder r, η²) berichtet werden.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Statistisch bedeutsam ≠ praktisch wichtig.",
+      "tags": ["statistik", "inferenz", "effektstaerke"]
+    },
+    {
+      "id": "querschnittdesign",
+      "front": "Querschnittdesign (Cross-Sectional Design)",
+      "back": "Alle Messungen erfolgen zu einem einzigen Zeitpunkt an verschiedenen Personen (oder Gruppen). Geeignet für Momentaufnahmen, aber kausale Schlüsse und Entwicklungsverläufe sind begrenzt.",
+      "notes": "Beispiel: Befragung verschiedener Altersgruppen an einem Tag, um Altersunterschiede im Gedächtnis zu schätzen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["forschungsdesign", "methoden"]
+    },
+    {
+      "id": "laengsschnittdesign",
+      "front": "Längsschnittdesign (Longitudinal Design)",
+      "back": "Dieselbe Gruppe von Personen wird über einen längeren Zeitraum wiederholt untersucht, um Veränderungen und Entwicklungsverläufe zu erfassen.",
+      "notes": "Vorteil: echte Entwicklungsverläufe sichtbar. Nachteile: Zeitaufwand, Ausfälle (Dropout), Übungseffekte.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["forschungsdesign", "methoden"]
+    },
+    {
+      "id": "between-within-subjects",
+      "front": "Between-subjects- vs. Within-subjects-Design",
+      "back": "Between-subjects: verschiedene Personen in verschiedenen Bedingungen — keine Übungseffekte, aber mehr Varianz durch individuelle Unterschiede. Within-subjects: jede Person in allen Bedingungen — mehr statistische Macht, aber Reihenfolge- und Übungseffekte möglich.",
+      "notes": "Within-subjects entspricht dem deutschen Begriff 'Messwiederholungsdesign'.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Between = zwischen den Gruppen; Within = innerhalb derselben Gruppe.",
+      "tags": ["forschungsdesign", "experiment", "methoden"]
+    },
+    {
+      "id": "praediktor-kriterium",
+      "front": "Prädiktor und Kriterium (Predictor and Criterion)",
+      "back": "In der Regression ist der Prädiktor die unabhängige Variable (x), die zur Vorhersage genutzt wird; das Kriterium ist die abhängige Variable (y), die vorhergesagt werden soll.",
+      "notes": "Beispiel: Schulnoten (Prädiktor) sagen Studienleistung (Kriterium) vorher.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["statistik", "regression", "grundlagen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-regression-korrelation",
+      "type": "theory",
+      "title": "Korrelation, Regression und R²",
+      "body": "# Weiterführende Statistik: Regression und Verfahrensüberblick\n\nIn **Lektion 22** (Experiment und Korrelation) hast du gelernt, dass eine Korrelation den *Zusammenhang* zwischen zwei Variablen beschreibt — aber keine Vorhersage macht. **Regression** geht einen Schritt weiter: Sie sagt den Wert einer Variable aus einer anderen **vorher**.\n\n## Einfache Regression\n\nDie Geradengleichung lautet:\n\n> **ŷ = a + b · x**\n\n- **a** = Achsenabschnitt (Intercept) — Wert von y, wenn x = 0\n- **b** = Steigung (Slope) — um wie viel ändert sich y, wenn x um 1 steigt?\n\n## Bestimmtheitsmaß R²\n\nR² gibt an, wie viel Prozent der Varianz in y durch das Modell erklärt werden:\n\n| R²-Wert | Interpretation |\n|---|---|\n| 0,00 | kein Zusammenhang |\n| 0,25 | 25 % der Varianz erklärt — schwacher Effekt |\n| 0,50 | 50 % der Varianz erklärt — mittlerer Effekt |\n| 1,00 | perfekte Vorhersage |\n\n## Multiple Regression\n\nBei mehreren **Prädiktoren** erweitert sich die Formel: ŷ = a + b₁·x₁ + b₂·x₂ + … + bₖ·xₖ. Jeder Koeffizient bᵢ beschreibt den einzigartigen Beitrag eines Prädiktors, während alle anderen konstant gehalten werden.\n\n*Beispiel:* IQ, Lernzeit und Schlafdauer als Prädiktoren für die Klausurnote."
+    },
+    {
+      "id": "step-gruppenvergleiche",
+      "type": "theory",
+      "title": "Gruppenvergleiche: t-Test und ANOVA",
+      "body": "## Wann welches Verfahren?\n\nAufbauend auf **Lektion 25** (Inferenzstatistik) zeigt die folgende Tabelle, welches Verfahren bei welcher Fragestellung passt:\n\n| Verfahren | Fragestellung | Anzahl Gruppen |\n|---|---|---|\n| **t-Test** | Unterscheiden sich zwei Gruppen im Mittelwert? | 2 |\n| **ANOVA** | Unterscheiden sich drei oder mehr Gruppen? | ≥ 3 |\n| **Regression** | Wie gut sagt x den Wert von y vorher? | — (kontinuierlich) |\n| **Faktorenanalyse** | Welche latenten Faktoren erklären viele Variablen? | — (Dimensionsreduktion) |\n\n## t-Test\n\nDer t-Test prüft, ob der Mittelwertunterschied zwischen zwei Gruppen größer ist, als durch Zufall zu erwarten wäre. Voraussetzungen: **Normalverteilung** und **metrische Messung**.\n\n## Varianzanalyse (ANOVA)\n\nDie ANOVA zerlegt die **Gesamtvarianz** in:\n- **Varianz zwischen den Gruppen** (erklärt durch die Bedingung)\n- **Varianz innerhalb der Gruppen** (Fehlervarianz)\n\nDas Verhältnis ergibt den **F-Wert**. Ein signifikantes F zeigt: *Mindestens* ein Gruppenunterschied liegt vor — Post-hoc-Tests klären, welcher.\n\n## Faktorenanalyse und Big Five\n\nAus **Lektion 36** (Persönlichkeit vertieft) erinnerst du dich an die **Big Five**: Offenheit, Gewissenhaftigkeit, Extraversion, Verträglichkeit und Neurotizismus. Dieses Modell entstammt der Faktorenanalyse: Tausende Persönlichkeitsbeschreibungen wurden auf wenige zugrundeliegende Faktoren reduziert."
+    },
+    {
+      "id": "step-effektstaerke-designs",
+      "type": "theory",
+      "title": "Effektstärke und Forschungsdesigns",
+      "body": "## Signifikanz ≠ Bedeutsamkeit\n\nIn **Lektion 25** hast du gelernt: Der p-Wert sagt, wie unwahrscheinlich das Ergebnis wäre, wenn die Nullhypothese stimmt — aber **nicht**, wie groß der Unterschied ist. Dafür braucht man die **Effektstärke**.\n\n### Cohens d\n\n**d = (M₁ – M₂) / s_pooled**\n\n| d-Wert | Stärke |\n|---|---|\n| ≈ 0,2 | kleiner Effekt |\n| ≈ 0,5 | mittlerer Effekt |\n| ≈ 0,8 | großer Effekt |\n\n> Große Stichproben können winzige, praktisch bedeutungslose Unterschiede **statistisch signifikant** machen. Deshalb sollte neben dem p-Wert immer eine Effektstärke berichtet werden.\n\n## Forschungsdesigns im Überblick\n\n| Design | Beschreibung | Stärken | Schwächen |\n|---|---|---|---|\n| **Querschnitt** (Cross-Sectional) | eine Messung, viele Personen | schnell, kostengünstig | kein Verlauf sichtbar, Kohorteneffekte |\n| **Längsschnitt** (Longitudinal) | wiederholte Messungen, dieselben Personen | Entwicklungsverläufe messbar | teuer, Dropout, Übungseffekte |\n| **Between-subjects** | unterschiedliche Gruppen in jeder Bedingung | keine Übungseffekte | mehr Varianz durch individuelle Unterschiede |\n| **Within-subjects** (Messwiederholung) | dieselbe Person in allen Bedingungen | hohe statistische Macht | Reihenfolge- und Übungseffekte |\n\nDie Wahl des Designs hängt von der Fragestellung, dem Zeitrahmen und den Ressourcen ab."
+    },
+    {
+      "id": "ex-match-verfahren-zweck",
+      "type": "exercise",
+      "title": "Statistisches Verfahren und sein Zweck",
+      "exercise": {
+        "id": "ex-match-verfahren-zweck",
+        "type": "matching",
+        "prompt": "Ordne jedem statistischen Verfahren seinen Hauptzweck zu.",
+        "card_ids": ["t-test", "anova", "regression", "faktorenanalyse"],
+        "pairs": [
+          { "left": "t-Test", "right": "Mittelwertvergleich zweier Gruppen" },
+          { "left": "ANOVA", "right": "Vergleich von drei oder mehr Gruppen" },
+          { "left": "Regression", "right": "Vorhersage eines Kriteriumswerts" },
+          { "left": "Faktorenanalyse", "right": "Viele Variablen auf wenige Faktoren reduzieren" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-r2",
+      "type": "exercise",
+      "title": "Was sagt R² aus?",
+      "exercise": {
+        "id": "ex-cloze-r2",
+        "type": "cloze",
+        "prompt": "Ergänze den Fachbegriff für den Anteil erklärter Varianz in der Regression.",
+        "card_ids": ["r-quadrat"],
+        "sentence": "Das ___ gibt an, wie viel Prozent der Varianz der abhängigen Variable das Regressionsmodell erklärt.",
+        "blanks": [
+          { "accept": ["Bestimmtheitsmaß", "Bestimmtheitsmaß R²", "R²"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Abgekürzt als R² — Werte zwischen 0 und 1."
+      }
+    },
+    {
+      "id": "ex-free-cohens-d",
+      "type": "exercise",
+      "title": "Effektstärke benennen",
+      "exercise": {
+        "id": "ex-free-cohens-d",
+        "type": "free_text",
+        "prompt": "Wie heißt das häufigste Maß für die Effektstärke beim Vergleich zweier Mittelwerte?",
+        "card_ids": ["cohens-d"],
+        "accept": ["Cohens d", "Cohen's d", "d nach Cohen", "Cohens d (Cohen's d)"],
+        "hint": "Benannt nach dem Statistiker Jacob Cohen; Faustregel: 0,2 / 0,5 / 0,8.",
+        "distractors": ["p-Wert", "R²", "F-Wert", "Korrelationskoeffizient"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-designs",
+      "type": "exercise",
+      "title": "Forschungsdesigns zuordnen",
+      "exercise": {
+        "id": "ex-match-designs",
+        "type": "matching",
+        "prompt": "Ordne jedem Designmerkmal das passende Forschungsdesign zu.",
+        "card_ids": ["querschnittdesign", "laengsschnittdesign", "between-within-subjects"],
+        "pairs": [
+          { "left": "Querschnitt", "right": "Eine Messung, verschiedene Personen gleichzeitig" },
+          { "left": "Längsschnitt", "right": "Dieselben Personen über Zeit verfolgt" },
+          { "left": "Within-subjects", "right": "Jede Person durchläuft alle Bedingungen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-signifikanz-effekt",
+      "type": "exercise",
+      "title": "Signifikanz und Effektstärke unterscheiden",
+      "exercise": {
+        "id": "ex-free-signifikanz-effekt",
+        "type": "free_text",
+        "prompt": "Was misst der p-Wert — und was misst Cohens d? Nenne den Unterschied in einem Satz.",
+        "card_ids": ["signifikanz-vs-effektstaerke", "cohens-d"],
+        "accept": [
+          "p-Wert misst statistische Signifikanz, Cohens d die Effektstärke",
+          "Signifikanz zeigt Wahrscheinlichkeit, Effektstärke zeigt Größe des Unterschieds",
+          "p gibt an wie wahrscheinlich das Ergebnis zufällig ist, d wie groß der Unterschied ist",
+          "p-Wert: Signifikanz; Cohens d: praktische Bedeutsamkeit"
+        ],
+        "hint": "Statistisch bedeutsam ≠ praktisch wichtig.",
+        "distractors": ["Beide messen dasselbe", "p-Wert gibt die Effektstärke an", "Cohens d ersetzt den p-Wert vollständig"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-regression",
+      "type": "exercise",
+      "title": "Die Regressionsformel zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-regression",
+        "type": "word_tiles",
+        "prompt": "Setze die Geradengleichung der einfachen Regression in der richtigen Reihenfolge zusammen.",
+        "card_ids": ["regression", "praediktor-kriterium"],
+        "tiles": ["ŷ", "=", "a", "+", "b", "·", "x"],
+        "hint": "Beginnt mit dem vorhergesagten Wert ŷ; a ist der Achsenabschnitt, b die Steigung.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-faktorenanalyse",
+      "type": "exercise",
+      "title": "Wozu dient die Faktorenanalyse?",
+      "exercise": {
+        "id": "ex-cloze-faktorenanalyse",
+        "type": "cloze",
+        "prompt": "Ergänze, was die Faktorenanalyse mit vielen korrelierten Variablen macht.",
+        "card_ids": ["faktorenanalyse"],
+        "sentence": "Die Faktorenanalyse reduziert viele korrelierte Variablen auf wenige zugrundeliegende ___.",
+        "blanks": [
+          { "accept": ["Faktoren", "latente Faktoren", "Dimensionen"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Die Big Five sind ein bekanntes Ergebnis dieses Verfahrens."
+      }
+    }
+  ]
+}
