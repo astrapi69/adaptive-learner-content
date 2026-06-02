@@ -1,0 +1,318 @@
+{
+  "id": "11-conjonctions",
+  "title": "Les conjonctions — Sätze verbinden",
+  "description": "Konjunktionen, um kurze A1-Sätze zu längeren A2-Sätzen zu verbinden: parce que, donc, mais, et, ou, quand, pendant que, puis/ensuite, comme und alors. Mit besonderem Augenmerk auf die französische Wortstellung nach der Konjunktion.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "conj-parce-que",
+      "front": "parce que",
+      "back": "weil",
+      "notes": "**parce que** leitet einen Kausalsatz ein. Wichtig: Im Französischen folgt **Subjekt + Verb** — keine Inversion wie im Deutschen!\n\n*Je reste à la maison parce que je suis fatigué.* — Ich bleibe zu Hause, weil ich müde bin.\n\nDeutscher Fehler: ~~*parce que ich fatigué suis*~~ ✗",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["konjunktion", "kausal", "wortstellung"]
+    },
+    {
+      "id": "conj-donc",
+      "front": "donc",
+      "back": "also / deshalb",
+      "notes": "**donc** drückt eine Schlussfolgerung aus und steht meistens in der Satzmitte oder am Satzanfang (dann mit Komma).\n\n*Il pleut, donc je prends un parapluie.* — Es regnet, also nehme ich einen Regenschirm.\n\nAuch hier: Subjekt + Verb bleiben in der normalen Reihenfolge.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["konjunktion", "konsekutiv"]
+    },
+    {
+      "id": "conj-mais",
+      "front": "mais",
+      "back": "aber",
+      "notes": "**mais** verbindet zwei gegensätzliche Aussagen.\n\n*Je veux sortir, mais il fait froid.* — Ich möchte ausgehen, aber es ist kalt.\n\nKurzform zum Merken: **m**ais = **m**ais (klingt fast wie Deutsch *mais* = Mais-Pflanze, aber Bedeutung ist „aber“).",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["konjunktion", "adversativ"]
+    },
+    {
+      "id": "conj-et",
+      "front": "et",
+      "back": "und",
+      "notes": "**et** verbindet gleichrangige Satzteile oder ganze Sätze.\n\n*Je parle français et j'apprends l'espagnol.* — Ich spreche Französisch und ich lerne Spanisch.\n\nDas -t am Ende wird in **et** nie liaison-gebunden! (Anders als bei *est*: *il est ici* → /t/ hörbar.)",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["konjunktion", "kopulativ"]
+    },
+    {
+      "id": "conj-ou",
+      "front": "ou",
+      "back": "oder",
+      "notes": "**ou** (ohne accent) = *oder*. Nicht verwechseln mit **où** (mit accent grave) = *wo/wohin*!\n\n*Tu veux du café ou du thé ?* — Möchtest du Kaffee oder Tee?\n\nEselsbrücke: **ou** ohne Hut = **o**der (kein accent nötig).",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["konjunktion", "disjunktiv"]
+    },
+    {
+      "id": "conj-quand",
+      "front": "quand",
+      "back": "wenn / als",
+      "notes": "**quand** leitet einen Temporalsatz ein. Im Französischen steht danach **Subjekt + Verb** — im Deutschen käme das Verb ans Ende!\n\n*Quand j'étais petit, j'habitais à Lyon.* — Als ich klein war, wohnte ich in Lyon.\n\n*Quand il arrive, nous mangeons.* — Wenn er ankommt, essen wir.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Im Deutschen: 'Als ich klein war…' — Verb am Ende. Im Französischen bleibt die Wortstellung normal.",
+      "tags": ["konjunktion", "temporal", "wortstellung"]
+    },
+    {
+      "id": "conj-pendant-que",
+      "front": "pendant que",
+      "back": "während",
+      "notes": "**pendant que** drückt Gleichzeitigkeit aus.\n\n*Je lis pendant que tu regardes la télé.* — Ich lese, während du fernsiehst.\n\nAchtung: **pendant** allein = *während (zeitlich)* als Präposition (*pendant une heure* = eine Stunde lang), **pendant que** mit Verb im Nebensatz.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konjunktion", "temporal", "gleichzeitigkeit"]
+    },
+    {
+      "id": "conj-puis",
+      "front": "puis / ensuite",
+      "back": "dann / danach",
+      "notes": "**puis** und **ensuite** sind Adverbien, die eine zeitliche Abfolge ausdrücken.\n\n*D'abord je fais mes devoirs, puis je regarde la télé.* — Zuerst mache ich meine Hausaufgaben, dann schaue ich fern.\n\n*ensuite* ist etwas formeller als *puis*; beide bedeuten dasselbe.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["konjunktion", "temporal", "abfolge"]
+    },
+    {
+      "id": "conj-comme",
+      "front": "comme",
+      "back": "da / weil (am Satzanfang)",
+      "notes": "**comme** steht als Kausalkonjunktion **immer am Satzanfang** und drückt einen bekannten Grund aus.\n\n*Comme il pleut, je reste à la maison.* — Da es regnet, bleibe ich zu Hause.\n\nUnterschied zu *parce que*: *comme* kann **nur** am Satzanfang stehen; *parce que* kann in der Satzmitte stehen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "comme = immer am Satzanfang; parce que = flexibel in der Satzmitte.",
+      "tags": ["konjunktion", "kausal", "satzanfang"]
+    },
+    {
+      "id": "conj-alors",
+      "front": "alors",
+      "back": "dann / also (Schlussfolgerung)",
+      "notes": "**alors** kann sowohl *dann* (zeitlich) als auch *also* (folgend) bedeuten.\n\n*Il n'avait pas de voiture, alors il a pris le bus.* — Er hatte kein Auto, also nahm er den Bus.\n\n*alors* und *donc* sind oft austauschbar; *alors* klingt etwas umgangssprachlicher.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["konjunktion", "konsekutiv", "temporal"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-intro",
+      "type": "theory",
+      "title": "Von A1-Sätzen zu A2-Sätzen",
+      "body": "# Les conjonctions — Sätze verbinden\n\nIn **A1** hast du kurze Sätze gebildet:\n\n> *Je suis fatigué.* Je reste à la maison.\n\nMit Konjunktionen verbindest du sie zu **A2-Sätzen**:\n\n> *Je reste à la maison **parce que** je suis fatigué.*\n\n## Der wichtigste Unterschied zum Deutschen\n\nIm Deutschen verlässt das Verb nach Konjunktionen wie *weil* oder *deshalb* die zweite Position und wandert ans Satzende (**Verbendstellung**):\n\n> Ich bleibe zu Hause, **weil** ich müde **bin**. ← Verb am Ende!\n\nIm Französischen bleibt die Wortstellung nach der Konjunktion **immer gleich** — Subjekt + Verb in normaler Reihenfolge:\n\n> Je reste à la maison, **parce que** je **suis** fatigué. ← Verb bleibt nach dem Subjekt!\n\nDas ist der häufigste Fehler für Deutschsprachige. Präge dir ein: **Im Französischen gibt es keine Verbendstellung nach Konjunktionen.**"
+    },
+    {
+      "id": "theory-table",
+      "type": "theory",
+      "title": "Übersicht: Die zehn Konjunktionen",
+      "body": "## Die zehn wichtigsten Konjunktionen im Überblick\n\n| Französisch | Deutsch | Typ | Beispiel |\n|---|---|---|---|\n| **parce que** | weil | kausal (flexibel) | *Je reste parce que je suis fatigué.* |\n| **comme** | da / weil | kausal (nur Satzanfang) | *Comme il pleut, je reste.* |\n| **donc** | also / deshalb | konsekutiv | *Il pleut, donc je prends un parapluie.* |\n| **alors** | dann / also | konsekutiv / temporal | *Il n'avait pas de voiture, alors il a pris le bus.* |\n| **mais** | aber | adversativ | *Je veux sortir, mais il fait froid.* |\n| **et** | und | kopulativ | *Je lis et j'apprends.* |\n| **ou** | oder | disjunktiv | *Café ou thé ?* |\n| **quand** | wenn / als | temporal | *Quand j'étais petit, j'habitais à Lyon.* |\n| **pendant que** | während | temporal (gleichzeitig) | *Je lis pendant que tu regardes la télé.* |\n| **puis / ensuite** | dann / danach | temporal (Abfolge) | *D'abord je mange, puis je sors.* |\n\n> **Merksatz:** Alle diese Konjunktionen verlangen im Französischen die **normale Wortstellung** (Subjekt + Verb) — keine Verbendstellung wie im Deutschen!"
+    },
+    {
+      "id": "theory-wortstellung",
+      "type": "theory",
+      "title": "Wortstellung nach Konjunktionen — Vertiefung",
+      "body": "## Wortstellung: Französisch vs. Deutsch\n\nVergleiche diese häufigen Fehler und die korrekten Formen:\n\n| Deutscher Kalke (FALSCH) | Korrekt auf Französisch |\n|---|---|\n| ~~*parce que je fatigué suis*~~ | *parce que je **suis** fatigué* |\n| ~~*parce que il pas kommen kann*~~ | *parce qu'il ne peut pas venir* |\n| ~~*donc je à Hause reste*~~ | *donc je reste à la maison* |\n| ~~*quand il ankommen wird*~~ | *quand il arrivera* |\n\n### Sonderfall: **comme** nur am Satzanfang\n\n*comme* (= da/weil) steht **immer am Satzanfang**. Im Satzinneren nimmst du stattdessen *parce que*:\n\n- ✓ ***Comme** il fait froid, je mets un manteau.*\n- ✓ *Je mets un manteau **parce qu'**il fait froid.*\n- ✗ ~~*Je mets un manteau comme il fait froid.*~~ (falsche Position)\n\n### **puis** vs. **ensuite**\n\nBeide bedeuten *dann/danach* und sind oft austauschbar. *puis* klingt etwas umgangssprachlicher, *ensuite* ist neutraler."
+    },
+    {
+      "id": "ex-matching-bedeutung",
+      "type": "exercise",
+      "title": "Konjunktionen zuordnen",
+      "exercise": {
+        "id": "ex-matching-bedeutung",
+        "type": "matching",
+        "prompt": "Ordne jeder französischen Konjunktion ihre deutsche Bedeutung zu.",
+        "card_ids": ["conj-parce-que", "conj-mais", "conj-quand", "conj-donc", "conj-pendant-que"],
+        "pairs": [
+          { "left": "parce que", "right": "weil" },
+          { "left": "mais", "right": "aber" },
+          { "left": "quand", "right": "wenn / als" },
+          { "left": "donc", "right": "also / deshalb" },
+          { "left": "pendant que", "right": "während" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-matching-typ",
+      "type": "exercise",
+      "title": "Konjunktionen nach Typ",
+      "exercise": {
+        "id": "ex-matching-typ",
+        "type": "matching",
+        "prompt": "Welche Konjunktion passt zu welchem deutschen Signalwort?",
+        "card_ids": ["conj-et", "conj-ou", "conj-comme", "conj-alors", "conj-puis"],
+        "pairs": [
+          { "left": "et", "right": "und" },
+          { "left": "ou", "right": "oder" },
+          { "left": "comme", "right": "da / weil (Satzanfang)" },
+          { "left": "alors", "right": "dann / also" },
+          { "left": "puis", "right": "dann / danach" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-parce-que",
+      "type": "exercise",
+      "title": "Weil ich müde bin",
+      "exercise": {
+        "id": "ex-cloze-parce-que",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Konjunktion für *weil*.",
+        "card_ids": ["conj-parce-que"],
+        "sentence": "Je reste à la maison ___ je suis fatigué.",
+        "blanks": [
+          { "accept": ["parce que", "parce qu'"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Zwei Wörter, die 'weil' bedeuten und flexibel in der Satzmitte stehen können."
+      }
+    },
+    {
+      "id": "ex-cloze-donc",
+      "type": "exercise",
+      "title": "Es regnet, also...",
+      "exercise": {
+        "id": "ex-cloze-donc",
+        "type": "cloze",
+        "prompt": "Ergänze *also/deshalb* auf Französisch.",
+        "card_ids": ["conj-donc"],
+        "sentence": "Il pleut, ___ je prends un parapluie.",
+        "blanks": [
+          { "accept": ["donc"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Vier Buchstaben, bedeutet 'also / deshalb'."
+      }
+    },
+    {
+      "id": "ex-free-weil-kalt",
+      "type": "exercise",
+      "title": "Übersetze: Ich trage einen Mantel, weil es kalt ist.",
+      "exercise": {
+        "id": "ex-free-weil-kalt",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich trage einen Mantel, weil es kalt ist.*",
+        "card_ids": ["conj-parce-que"],
+        "accept": [
+          "Je porte un manteau parce qu'il fait froid.",
+          "je porte un manteau parce qu'il fait froid",
+          "Je porte un manteau parce que il fait froid.",
+          "je porte un manteau parce que il fait froid",
+          "Je mets un manteau parce qu'il fait froid.",
+          "je mets un manteau parce qu'il fait froid"
+        ],
+        "hint": "*Je porte un manteau* + **parce que/qu'** + *il fait froid*. Denk daran: Verb bleibt nach dem Subjekt — keine Verbendstellung!",
+        "distractors": [
+          "Je porte un manteau parce que il froid fait.",
+          "Je porte un manteau pour il fait froid.",
+          "Je porte un manteau because que il fait froid."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-comme-regen",
+      "type": "exercise",
+      "title": "Da es regnet — mit comme",
+      "exercise": {
+        "id": "ex-free-comme-regen",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Da es regnet, nehme ich einen Regenschirm.* (Verwende **comme** am Satzanfang!)",
+        "card_ids": ["conj-comme"],
+        "accept": [
+          "Comme il pleut, je prends un parapluie.",
+          "comme il pleut, je prends un parapluie",
+          "Comme il pleut je prends un parapluie.",
+          "comme il pleut je prends un parapluie"
+        ],
+        "hint": "**Comme** steht am Satzanfang, dann normale Wortstellung: *il pleut*. Danach Komma und Hauptsatz.",
+        "distractors": [
+          "Je prends un parapluie comme il pleut.",
+          "Comme il pleut, je un parapluie prends.",
+          "Comme il pleut, donc je prends un parapluie."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-quand-petit",
+      "type": "exercise",
+      "title": "Bilde: Als ich klein war, wohnte ich in Lyon.",
+      "exercise": {
+        "id": "ex-tiles-quand-petit",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Als ich klein war, wohnte ich in Lyon.* (Verwende **quand** und **imparfait**.)",
+        "card_ids": ["conj-quand"],
+        "tiles": ["Quand", "j'étais", "petit,", "j'habitais", "à", "Lyon."],
+        "hint": "**Quand** + Subjekt + Verb (imparfait) — keine Verbendstellung! Dann Komma + Hauptsatz.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-abfolge",
+      "type": "exercise",
+      "title": "Bilde: Zuerst esse ich, dann gehe ich raus.",
+      "exercise": {
+        "id": "ex-tiles-abfolge",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Zuerst esse ich, dann gehe ich raus.*",
+        "card_ids": ["conj-puis"],
+        "tiles": ["D'abord", "je", "mange,", "puis", "je", "sors."],
+        "hint": "**D'abord** = zuerst, **puis** = dann. Beide Verben bleiben direkt nach dem Subjekt.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-wortstellung",
+      "type": "exercise",
+      "title": "Welcher Satz ist grammatisch korrekt?",
+      "exercise": {
+        "id": "ex-picture-wortstellung",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist auf Französisch **grammatisch korrekt**? (Bedeutung: Ich bleibe zu Hause, weil ich krank bin.)",
+        "card_ids": ["conj-parce-que"],
+        "images": [
+          { "src": "assets/img/check-correct.png", "label": "Je reste à la maison parce que je suis malade.", "is_correct": "true" },
+          { "src": "assets/img/check-wrong1.png", "label": "Je reste à la maison parce que je malade suis." },
+          { "src": "assets/img/check-wrong2.png", "label": "Je reste à la maison pour je suis malade." },
+          { "src": "assets/img/check-wrong3.png", "label": "Je reste à la maison because que je suis malade." }
+        ],
+        "hint": "Im Französischen bleibt nach *parce que* die normale Wortstellung: Subjekt + Verb.",
+        "distractors": [
+          "Je reste à la maison parce que je malade suis.",
+          "Je reste à la maison pour je suis malade.",
+          "Je reste à la maison because que je suis malade."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-aber-kalt",
+      "type": "exercise",
+      "title": "Übersetze: Ich möchte ausgehen, aber es ist kalt.",
+      "exercise": {
+        "id": "ex-free-aber-kalt",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich möchte ausgehen, aber es ist kalt.*",
+        "card_ids": ["conj-mais"],
+        "accept": [
+          "Je veux sortir, mais il fait froid.",
+          "je veux sortir, mais il fait froid",
+          "Je veux sortir mais il fait froid.",
+          "je veux sortir mais il fait froid"
+        ],
+        "hint": "*Je veux sortir* + **mais** + *il fait froid*.",
+        "distractors": [
+          "Je veux sortir, aber il fait froid.",
+          "Je veux sortir, mais il froid fait.",
+          "Je veux sortir, donc il fait froid."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

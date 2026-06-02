@@ -1,0 +1,342 @@
+{
+  "id": "04-futur-simple",
+  "title": "Le futur simple",
+  "description": "Das futur simple: Bildung mit Infinitiv + Personalendungen, unregelmäßige Stämme (être, avoir, aller, faire …) und Gebrauch für allgemeine und fernere Zukunft — Vorhersagen und Versprechen.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "verb-parler-futur",
+      "front": "parler → je parlerai",
+      "back": "sprechen → ich werde sprechen",
+      "notes": "Regelmäßige -er-Verben: Infinitiv + Endung **-ai**. *Demain je parlerai avec le professeur.* — Morgen werde ich mit dem Lehrer sprechen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["futur-simple", "regelmaessig", "er-verb"]
+    },
+    {
+      "id": "verb-finir-futur",
+      "front": "finir → je finirai",
+      "back": "beenden → ich werde beenden",
+      "notes": "Regelmäßige -ir-Verben: Infinitiv + Endung **-ai**. *Je finirai mes devoirs ce soir.* — Ich werde heute Abend meine Hausaufgaben beenden.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["futur-simple", "regelmaessig", "ir-verb"]
+    },
+    {
+      "id": "verb-prendre-futur",
+      "front": "prendre → je prendrai",
+      "back": "nehmen → ich werde nehmen",
+      "notes": "-re-Verben verlieren das End-**e** vor den Futur-Endungen: *prendr-* + **-ai** → **prendrai**. *Je prendrai le train demain.* — Ich werde morgen den Zug nehmen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "-re-Verben: das End-e fällt weg. Nicht *prendreai*!",
+      "tags": ["futur-simple", "regelmaessig", "re-verb"]
+    },
+    {
+      "id": "verb-etre-futur",
+      "front": "être → je serai",
+      "back": "sein → ich werde sein",
+      "notes": "Unregelmäßiger Stamm: **ser-**. *L'année prochaine, je serai à Paris.* — Nächstes Jahr werde ich in Paris sein.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stamm: **ser-** (nicht *êtr-*).",
+      "tags": ["futur-simple", "unregelmaessig", "etre"]
+    },
+    {
+      "id": "verb-avoir-futur",
+      "front": "avoir → j'aurai",
+      "back": "haben → ich werde haben",
+      "notes": "Unregelmäßiger Stamm: **aur-**. *J'aurai bientôt mon diplôme.* — Ich werde bald mein Diplom haben.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stamm: **aur-** (nicht *avoir-*).",
+      "tags": ["futur-simple", "unregelmaessig", "avoir"]
+    },
+    {
+      "id": "verb-aller-futur",
+      "front": "aller → j'irai",
+      "back": "gehen / fahren → ich werde gehen",
+      "notes": "Unregelmäßiger Stamm: **ir-**. *L'été prochain, j'irai en Espagne.* — Nächsten Sommer werde ich nach Spanien fahren.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stamm: **ir-** — komplett anderer Stamm als aller!",
+      "tags": ["futur-simple", "unregelmaessig", "aller"]
+    },
+    {
+      "id": "verb-faire-futur",
+      "front": "faire → je ferai",
+      "back": "machen / tun → ich werde machen",
+      "notes": "Unregelmäßiger Stamm: **fer-**. *Demain, je ferai du sport.* — Morgen werde ich Sport treiben.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stamm: **fer-** (nicht *faire-*).",
+      "tags": ["futur-simple", "unregelmaessig", "faire"]
+    },
+    {
+      "id": "verb-venir-futur",
+      "front": "venir → je viendrai",
+      "back": "kommen → ich werde kommen",
+      "notes": "Unregelmäßiger Stamm: **viendr-**. *Je viendrai à ta fête samedi.* — Ich werde am Samstag zu deiner Party kommen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Stamm: **viendr-** — mit ie und dr.",
+      "tags": ["futur-simple", "unregelmaessig", "venir"]
+    },
+    {
+      "id": "verb-pouvoir-futur",
+      "front": "pouvoir → je pourrai",
+      "back": "können → ich werde können",
+      "notes": "Unregelmäßiger Stamm: **pourr-** (doppeltes r!). *Demain je pourrai t'aider.* — Morgen werde ich dir helfen können.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Stamm: **pourr-** — Achtung: doppeltes r!",
+      "tags": ["futur-simple", "unregelmaessig", "pouvoir"]
+    },
+    {
+      "id": "verb-voir-futur",
+      "front": "voir → je verrai",
+      "back": "sehen → ich werde sehen",
+      "notes": "Unregelmäßiger Stamm: **verr-** (doppeltes r!). *Je te verrai vendredi.* — Ich werde dich Freitag sehen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Stamm: **verr-** — doppeltes r wie bei *pourr-*.",
+      "tags": ["futur-simple", "unregelmaessig", "voir"]
+    },
+    {
+      "id": "verb-devoir-futur",
+      "front": "devoir → je devrai",
+      "back": "müssen → ich werde müssen",
+      "notes": "Unregelmäßiger Stamm: **devr-**. *Tu devras travailler dur.* — Du wirst hart arbeiten müssen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Stamm: **devr-** (kein Vokal zwischen v und r).",
+      "tags": ["futur-simple", "unregelmaessig", "devoir"]
+    },
+    {
+      "id": "verb-vouloir-futur",
+      "front": "vouloir → je voudrai",
+      "back": "wollen → ich werde wollen",
+      "notes": "Unregelmäßiger Stamm: **voudr-**. *Elle voudra sûrement venir.* — Sie wird sicher kommen wollen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Stamm: **voudr-** — ähnlich wie *devr-*, aber mit ou.",
+      "tags": ["futur-simple", "unregelmaessig", "vouloir"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-formation",
+      "type": "theory",
+      "title": "Bildung des futur simple",
+      "body": "# Le futur simple — Bildung\n\nIn **A1** hast du das **futur proche** gelernt (*aller* + Infinitiv) für die **nahe** Zukunft: *Je vais partir.* Jetzt lernst du das **futur simple** — für die **allgemeine und fernere** Zukunft sowie für Vorhersagen und Versprechen:\n\n> *Demain je partirai, l'année prochaine nous voyagerons.*\n\n## Formel\n\n**Infinitiv** + Personalendung (die Endungen sind dieselben für alle Verben):\n\n| Person | Endung | Beispiel (*parler*) |\n|---|---|---|\n| je | **-ai** | je parler**ai** |\n| tu | **-as** | tu parler**as** |\n| il / elle / on | **-a** | il parler**a** |\n| nous | **-ons** | nous parler**ons** |\n| vous | **-ez** | vous parler**ez** |\n| ils / elles | **-ont** | ils parler**ont** |\n\n### Sonderfall: -re-Verben\n\n-re-Verben verlieren das **End-e** vor den Endungen:\n\n| Infinitiv | Stamm | Futur (je) |\n|---|---|---|\n| prendr**e** | **prendr-** | je prendr**ai** |\n| vendr**e** | **vendr-** | je vendr**ai** |\n\n> Merke: *Je prendreai* ist **falsch** — das -e fällt weg!"
+    },
+    {
+      "id": "theory-irregular-stems",
+      "type": "theory",
+      "title": "Unregelmäßige Futurstämme",
+      "body": "## Unregelmäßige Stämme — auswendig lernen!\n\nDiese häufigen Verben bilden den Futur **nicht** vom Infinitiv, sondern von einem eigenen Stamm. Die **Endungen** bleiben dieselben (-ai, -as, -a …).\n\n| Infinitiv | Futurstamm | Beispiel (je) | Bedeutung |\n|---|---|---|---|\n| être | **ser-** | je ser**ai** | ich werde sein |\n| avoir | **aur-** | j'aur**ai** | ich werde haben |\n| aller | **ir-** | j'ir**ai** | ich werde gehen |\n| faire | **fer-** | je fer**ai** | ich werde machen |\n| venir | **viendr-** | je viendr**ai** | ich werde kommen |\n| pouvoir | **pourr-** | je pourr**ai** | ich werde können |\n| voir | **verr-** | je verr**ai** | ich werde sehen |\n| devoir | **devr-** | je devr**ai** | ich werde müssen |\n| vouloir | **voudr-** | je voudr**ai** | ich werde wollen |\n\n### Eselsbrücken\n- **ser-**, **aur-**, **ir-**: die drei Kurzstämme — nur 2–3 Buchstaben.\n- **pourr-** und **verr-**: doppeltes **r** — wie ein Rollgeräusch für die Zukunft.\n- **viendr-**: beginnt wie der Stamm im Präsens (il *vient*) — das **-dr-** ist neu."
+    },
+    {
+      "id": "theory-usage",
+      "type": "theory",
+      "title": "Gebrauch des futur simple",
+      "body": "## Wann benutze ich das futur simple?\n\n### 1. Allgemeine und fernere Zukunft\nFür Ereignisse, die nicht unmittelbar bevorstehen — oft mit Zeitangaben wie *demain, l'année prochaine, dans dix ans*:\n\n> *L'année prochaine, nous **voyagerons** en Asie.* — Nächstes Jahr werden wir durch Asien reisen.\n\n### 2. Vorhersagen\n> *Il **fera** beau demain.* — Morgen wird es schön sein. (Wettervorhersage)\n\n### 3. Versprechen\n> *Je t'**appellerai** ce soir, promis !* — Ich werde dich heute Abend anrufen, versprochen!\n\n### futur proche vs. futur simple — Vergleich\n\n| futur proche (*aller* + Inf.) | futur simple |\n|---|---|\n| nahe, geplante Zukunft | allgemeine, fernere Zukunft |\n| *Je vais partir dans cinq minutes.* | *Demain je **partirai** de bonne heure.* |\n| betont die Absicht / Planung | betont die Tatsache / Vorhersage |\n\n> Im Alltag überlappen sich beide Formen — das futur simple klingt oft etwas förmlicher oder bezieht sich auf weiter entfernte Ereignisse."
+    },
+    {
+      "id": "ex-match-stems",
+      "type": "exercise",
+      "title": "Futurstamm zuordnen",
+      "exercise": {
+        "id": "ex-match-stems",
+        "type": "matching",
+        "prompt": "Ordne jedem Infinitiv seinen unregelmäßigen Futurstamm zu.",
+        "card_ids": ["verb-etre-futur", "verb-avoir-futur", "verb-aller-futur", "verb-faire-futur", "verb-venir-futur"],
+        "pairs": [
+          { "left": "être", "right": "ser-" },
+          { "left": "avoir", "right": "aur-" },
+          { "left": "aller", "right": "ir-" },
+          { "left": "faire", "right": "fer-" },
+          { "left": "venir", "right": "viendr-" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-meanings",
+      "type": "exercise",
+      "title": "Futurformen verstehen",
+      "exercise": {
+        "id": "ex-match-meanings",
+        "type": "matching",
+        "prompt": "Ordne die Futurform der deutschen Bedeutung zu.",
+        "card_ids": ["verb-etre-futur", "verb-aller-futur", "verb-pouvoir-futur", "verb-voir-futur", "verb-vouloir-futur"],
+        "pairs": [
+          { "left": "je serai", "right": "ich werde sein" },
+          { "left": "j'irai", "right": "ich werde gehen" },
+          { "left": "je pourrai", "right": "ich werde können" },
+          { "left": "je verrai", "right": "ich werde sehen" },
+          { "left": "je voudrai", "right": "ich werde wollen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-serai",
+      "type": "exercise",
+      "title": "être im futur simple",
+      "exercise": {
+        "id": "ex-cloze-serai",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Futurform von *être* (je).",
+        "card_ids": ["verb-etre-futur"],
+        "sentence": "L'année prochaine, je ___ à Paris.",
+        "blanks": [
+          { "accept": ["serai"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Stamm von *être* im Futur: **ser-** + Endung -ai."
+      }
+    },
+    {
+      "id": "ex-cloze-prendrai",
+      "type": "exercise",
+      "title": "-re-Verb im futur simple",
+      "exercise": {
+        "id": "ex-cloze-prendrai",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Futurform von *prendre* (je). Achtung: -re-Verben verlieren das End-e!",
+        "card_ids": ["verb-prendre-futur"],
+        "sentence": "Demain matin, je ___ le train de 8 heures.",
+        "blanks": [
+          { "accept": ["prendrai"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "prendr- + -ai → **prendrai** (nicht *prendreai*!)"
+      }
+    },
+    {
+      "id": "ex-free-irai",
+      "type": "exercise",
+      "title": "Übersetzen: Ich werde nach Spanien fahren",
+      "exercise": {
+        "id": "ex-free-irai",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Nächsten Sommer werde ich nach Spanien fahren.*",
+        "card_ids": ["verb-aller-futur"],
+        "accept": [
+          "L'été prochain, j'irai en Espagne.",
+          "l'été prochain j'irai en espagne",
+          "L'été prochain j'irai en Espagne.",
+          "j'irai en Espagne l'été prochain"
+        ],
+        "hint": "*aller* im Futur: Stamm **ir-** + Endung -ai → **j'irai**.",
+        "distractors": [
+          "L'été prochain, j'allerai en Espagne.",
+          "L'été prochain, je vais aller en Espagne.",
+          "L'été prochain, j'irons en Espagne."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ferai",
+      "type": "exercise",
+      "title": "Verstehen: Demain je ferai du sport",
+      "exercise": {
+        "id": "ex-free-ferai",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *Demain je ferai du sport.*",
+        "card_ids": ["verb-faire-futur"],
+        "accept": [
+          "Morgen werde ich Sport treiben.",
+          "morgen werde ich sport treiben",
+          "Morgen werde ich Sport machen.",
+          "morgen werde ich sport machen"
+        ],
+        "hint": "*ferai* = Futur von *faire* (machen/treiben); *du sport* = Sport.",
+        "distractors": [
+          "Morgen habe ich Sport gemacht.",
+          "Morgen mache ich gerade Sport.",
+          "Morgen möchte ich Sport treiben."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-viendrai",
+      "type": "exercise",
+      "title": "Übersetzen: Ich werde zur Party kommen",
+      "exercise": {
+        "id": "ex-free-viendrai",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich werde am Samstag zu deiner Party kommen.*",
+        "card_ids": ["verb-venir-futur"],
+        "accept": [
+          "Je viendrai à ta fête samedi.",
+          "je viendrai à ta fête samedi",
+          "je viendrai a ta fete samedi",
+          "Samedi, je viendrai à ta fête."
+        ],
+        "hint": "*venir* im Futur: Stamm **viendr-** + -ai → **viendrai**.",
+        "distractors": [
+          "Je venirai à ta fête samedi.",
+          "Je vais venir à ta fête samedi.",
+          "Je vendrais à ta fête samedi."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-parlerai",
+      "type": "exercise",
+      "title": "Bilde: Morgen werde ich mit dem Lehrer sprechen",
+      "exercise": {
+        "id": "ex-tiles-parlerai",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Morgen werde ich mit dem Lehrer sprechen.*",
+        "card_ids": ["verb-parler-futur"],
+        "tiles": ["Demain", "je", "parlerai", "avec", "le", "professeur"],
+        "hint": "Futur von *parler* (je): Infinitiv + **-ai** → *parlerai*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-pourra",
+      "type": "exercise",
+      "title": "Bilde: Sie wird ihm helfen können",
+      "exercise": {
+        "id": "ex-tiles-pourra",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Sie wird ihm helfen können.* (elle, Futur von pouvoir)",
+        "card_ids": ["verb-pouvoir-futur"],
+        "tiles": ["Elle", "pourra", "l'", "aider"],
+        "hint": "Futur von *pouvoir* (elle): Stamm **pourr-** + **-a** → *pourra*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-weather",
+      "type": "exercise",
+      "title": "Wettervorhersage: Il fera beau",
+      "exercise": {
+        "id": "ex-pic-weather",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist die korrekte Futurform für *Morgen wird es schön sein*?",
+        "card_ids": ["verb-faire-futur"],
+        "images": [
+          { "src": "assets/img/weather-sunny.png", "label": "Il fera beau demain.", "is_correct": "true" },
+          { "src": "assets/img/weather-cloudy.png", "label": "Il faira beau demain." },
+          { "src": "assets/img/weather-rain.png", "label": "Il va faire beau demain." },
+          { "src": "assets/img/weather-snow.png", "label": "Il ferait beau demain." }
+        ],
+        "hint": "Futur von *faire* (il): Stamm **fer-** + **-a** → *fera* — nicht *faira*!",
+        "distractors": [
+          "Il faira beau demain.",
+          "Il va faire beau demain.",
+          "Il ferait beau demain."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

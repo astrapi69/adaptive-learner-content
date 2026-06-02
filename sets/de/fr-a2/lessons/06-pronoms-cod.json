@@ -1,0 +1,338 @@
+{
+  "id": "06-pronoms-cod",
+  "title": "Les pronoms COD (le, la, les)",
+  "description": "Direkte Objektpronomen (pronoms COD) ersetzen das direkte Objekt im Satz. Du lernst die Formen me, te, le, la, nous, vous, les, ihre Stellung vor dem Verb und die Partizipangleichung im passé composé.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "cod-me",
+      "front": "me / m'",
+      "back": "mich (direkte Objekt-Ergänzung, 1. Person Singular)",
+      "notes": "**me** wird vor Vokal und stummem *h* zu **m'** verkürzt: *Tu m'appelles.* — Du rufst mich an. Stellung: **vor** dem konjugierten Verb.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["cod", "pronom", "1sg"]
+    },
+    {
+      "id": "cod-te",
+      "front": "te / t'",
+      "back": "dich (direkte Objekt-Ergänzung, 2. Person Singular)",
+      "notes": "**te** wird vor Vokal und stummem *h* zu **t'** verkürzt: *Je t'aime.* — Ich liebe dich. Stellung: **vor** dem konjugierten Verb.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["cod", "pronom", "2sg"]
+    },
+    {
+      "id": "cod-le",
+      "front": "le / l'",
+      "back": "ihn / es (direkte Objekt-Ergänzung, mask. Singular)",
+      "notes": "**le** ersetzt ein maskulines Nomen: *Je vois le film → Je **le** vois.* Vor Vokal: **l'**: *Je l'aime.* Stellung: **vor** dem konjugierten Verb.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["cod", "pronom", "3sg", "masculin"]
+    },
+    {
+      "id": "cod-la",
+      "front": "la / l'",
+      "back": "sie / es (direkte Objekt-Ergänzung, fem. Singular)",
+      "notes": "**la** ersetzt ein feminines Nomen: *Je vois Marie → Je **la** vois.* Vor Vokal: **l'**: *Je l'adore.* Stellung: **vor** dem konjugierten Verb.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["cod", "pronom", "3sg", "feminin"]
+    },
+    {
+      "id": "cod-nous",
+      "front": "nous",
+      "back": "uns (direkte Objekt-Ergänzung, 1. Person Plural)",
+      "notes": "**nous** als COD: *Il nous invite.* — Er lädt uns ein. Keine Elisionsform nötig, da *nous* auf einen Konsonanten endet.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["cod", "pronom", "1pl"]
+    },
+    {
+      "id": "cod-vous",
+      "front": "vous",
+      "back": "euch / Sie (direkte Objekt-Ergänzung, 2. Person Plural oder Höflichkeit)",
+      "notes": "**vous** als COD: *Je vous comprends.* — Ich verstehe euch/Sie. Gilt für Plural und Höflichkeitsform.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["cod", "pronom", "2pl"]
+    },
+    {
+      "id": "cod-les",
+      "front": "les",
+      "back": "sie (direkte Objekt-Ergänzung, Plural, mask. und fem.)",
+      "notes": "**les** ersetzt ein Nomen im Plural: *Je vois les enfants → Je **les** vois.* Für alle Geschlechter. Stellung: **vor** dem konjugierten Verb.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["cod", "pronom", "3pl"]
+    },
+    {
+      "id": "cod-position-infinitif",
+      "front": "Stellung vor dem Infinitiv",
+      "back": "Bei Infinitivkonstruktion steht das COD vor dem Infinitiv, nicht vor dem konjugierten Verb: *Je vais le manger.*",
+      "notes": "Wenn ein Hilfsverb + Infinitiv vorliegt (z. B. *vouloir, pouvoir, aller*), steht das COD **vor dem Infinitiv**: *Je veux **le** manger.* — Ich möchte es essen. **Nicht**: ~~Je le veux manger.~~",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Das COD gehört zum Infinitiv — deshalb steht es unmittelbar davor.",
+      "tags": ["cod", "position", "infinitif"]
+    },
+    {
+      "id": "cod-negation",
+      "front": "COD bei Verneinung",
+      "back": "Das Pronomen bleibt zwischen ne und dem Verb: Je ne le mange pas.",
+      "notes": "Bei Verneinung umschließt *ne … pas* das Pronomen **und** das Verb zusammen: ***Ne** + COD + Verb + **pas***: *Je **ne le** mange **pas**.* — Ich esse es nicht.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["cod", "negation", "position"]
+    },
+    {
+      "id": "cod-accord-pc",
+      "front": "Partizipangleichung im passé composé",
+      "back": "Steht ein COD VOR dem avoir-Verb, muss das Partizip an Geschlecht und Zahl des COD angeglichen werden: Les pommes? Je les ai mangées.",
+      "notes": "Wenn das COD **vor** dem Hilfsverb *avoir* steht, wird das Partizip angeglichen:\n- *Les pommes → Je les ai mange**es**.* (fem. pl.)\n- *Le gâteau → Je l'ai mange*.* (mask. sg.)\n\nOhne vorangestelltes COD gibt es **keine** Angleichung: *J'ai mangé une pomme.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Die Angleichung passiert nur, wenn das COD VOR avoir steht.",
+      "tags": ["cod", "accord", "passe-compose"]
+    },
+    {
+      "id": "ex-je-la-vois",
+      "front": "Je vois Marie. → ?",
+      "back": "Je la vois.",
+      "notes": "*Marie* ist feminin → COD **la**. Stellung: direkt **vor** dem Verb *vois*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["cod", "exemple", "feminin"]
+    },
+    {
+      "id": "ex-je-le-mange",
+      "front": "Je mange le gâteau. → ?",
+      "back": "Je le mange.",
+      "notes": "*le gâteau* ist maskulin → COD **le**. Stellung: direkt **vor** dem Verb *mange*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["cod", "exemple", "masculin"]
+    },
+    {
+      "id": "ex-les-ai-mangees",
+      "front": "Les pommes? → Je … ai mangé…",
+      "back": "Je les ai mangées.",
+      "notes": "*les pommes* ist feminin plural → COD **les**, Partizip angeglichen: **mangées** (avec -e -s).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["cod", "accord", "passe-compose", "exemple"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-intro",
+      "type": "theory",
+      "title": "Was sind pronoms COD?",
+      "body": "# Les pronoms COD — Direkte Objektpronomen\n\nIn **A1** hast du Sätze wie *Je mange la pomme* gebildet. Statt das Objekt zu wiederholen, ersetzen Franzosen es durch ein Pronomen: **Je la mange.**\n\nEin **COD** (*complément d'objet direct*) ist das direkte Objekt — eine Person oder Sache, die **ohne Präposition** direkt am Verb hängt:\n\n- *Je vois **Marie**.* → *Je **la** vois.*\n- *Il prend **le bus**.* → *Il **le** prend.*\n\n## Die sieben COD-Pronomen\n\n| Personalpronomen | COD-Pronomen | Bedeutung |\n|---|---|---|\n| je | **me / m'** | mich |\n| tu | **te / t'** | dich |\n| il / ce | **le / l'** | ihn / es (mask.) |\n| elle / ce | **la / l'** | sie / es (fem.) |\n| nous | **nous** | uns |\n| vous | **vous** | euch / Sie |\n| ils / elles | **les** | sie (Pl.) |\n\n> **Merke:** *me, te, le, la* werden vor Vokal oder stummem *h* zu *m', t', l'* verkürzt (Elision)."
+    },
+    {
+      "id": "theory-position",
+      "type": "theory",
+      "title": "Stellung des COD-Pronomens",
+      "body": "## Stellung: Das Pronomen kommt VOR das Verb\n\nDas ist der häufigste Fehler für Deutsche: Im Deutschen steht das Objekt **nach** dem Verb (*Ich esse es*), im Französischen steht das COD-Pronomen **davor**.\n\n### 1. Einfaches konjugiertes Verb\n*Je **le** mange.* — Ich esse **es**.\n\n### 2. Konjugiertes Verb + Infinitiv\nDas COD steht **vor dem Infinitiv** (er gehört ja zum Infinitiv):\n*Je vais **le** manger.* — Ich werde **es** essen.\n\n### 3. Verneinung\n*ne* und *pas* umschließen Pronomen + Verb:\n*Je **ne le** mange **pas**.* — Ich esse **es** nicht.\n\n| Situation | Beispiel | Fehler (Deutsch/Englisch) |\n|---|---|---|\n| Einfach | *Je **le** vois.* | ~~Je vois le~~ |\n| Infinitiv | *Je veux **le** faire.* | ~~Je le veux faire~~ |\n| Verneinung | *Je **ne la** connais **pas**.* | ~~Je ne connais pas la~~ |"
+    },
+    {
+      "id": "theory-accord",
+      "type": "theory",
+      "title": "Partizipangleichung im passé composé",
+      "body": "## Partizipangleichung beim vorangestellten COD\n\nEine wichtige Regel im *passé composé* mit *avoir*: Steht das COD **vor** dem Verb, wird das Partizip an **Geschlecht und Zahl** des COD angeglichen.\n\n| Satz | Erklärung |\n|---|---|\n| *J'ai mangé une pomme.* | COD **nach** dem Verb → **keine** Angleichung |\n| *Les pommes? Je **les** ai mangé**es**.* | COD **les** (fem. pl.) **vor** dem Verb → Angleichung: *mangé + es* |\n| *Le gâteau? Je **l'**ai mangé.* | COD **l'** (mask. sg.) **vor** dem Verb → keine Extra-Endung |\n| *Les lettres? Je **les** ai écrit**es**.* | COD **les** (fem. pl.) → *écrit + es* |\n\n### Angleichungsendungen\n- mask. sg. → Partizip unveränderlich\n- fem. sg. → **-e**\n- mask. pl. → **-s**\n- fem. pl. → **-es**\n\n> Dieser Schritt gilt **nur** bei *avoir* + vorangestelltem COD. Verben mit *être* folgen einer anderen Regel (A1-Stoff)."
+    },
+    {
+      "id": "ex-match-pronouns",
+      "type": "exercise",
+      "title": "Pronomen zuordnen",
+      "exercise": {
+        "id": "ex-match-pronouns",
+        "type": "matching",
+        "prompt": "Ordne jedem COD-Pronomen seine deutsche Bedeutung zu.",
+        "card_ids": ["cod-le", "cod-la", "cod-les", "cod-nous", "cod-me"],
+        "pairs": [
+          { "left": "le / l'", "right": "ihn / es (mask.)" },
+          { "left": "la / l'", "right": "sie / es (fem.)" },
+          { "left": "les", "right": "sie (Plural)" },
+          { "left": "nous", "right": "uns" },
+          { "left": "me / m'", "right": "mich" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-sentences",
+      "type": "exercise",
+      "title": "Satz und Pronomen-Version",
+      "exercise": {
+        "id": "ex-match-sentences",
+        "type": "matching",
+        "prompt": "Ordne den Ausgangssätzen die korrekte COD-Pronomen-Version zu.",
+        "card_ids": ["ex-je-la-vois", "ex-je-le-mange", "cod-te"],
+        "pairs": [
+          { "left": "Je vois Marie.", "right": "Je la vois." },
+          { "left": "Je mange le gâteau.", "right": "Je le mange." },
+          { "left": "Il t'appelle.", "right": "dich (COD 2. Person Sg.)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-le-vois",
+      "type": "exercise",
+      "title": "Ergänze das COD-Pronomen",
+      "exercise": {
+        "id": "ex-cloze-le-vois",
+        "type": "cloze",
+        "prompt": "Der Film ist toll — ersetze *le film* durch das passende Pronomen.",
+        "card_ids": ["cod-le"],
+        "sentence": "Tu aimes le film? Oui, je ___ aime beaucoup.",
+        "blanks": [
+          { "accept": ["le", "l'"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*le film* ist maskulin singular → COD **le** (vor Vokal: l')."
+      }
+    },
+    {
+      "id": "ex-cloze-les-ai-mangees",
+      "type": "exercise",
+      "title": "Partizipangleichung: Les pommes",
+      "exercise": {
+        "id": "ex-cloze-les-ai-mangees",
+        "type": "cloze",
+        "prompt": "Schreibe das angeglichene Partizip von *manger* (les pommes = fem. pl.).",
+        "card_ids": ["cod-accord-pc", "ex-les-ai-mangees"],
+        "sentence": "Les pommes? Je les ai ___.",
+        "blanks": [
+          { "accept": ["mangées", "mangees"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "COD *les* ist fem. pl. → Partizip erhält die Endung **-ées**."
+      }
+    },
+    {
+      "id": "ex-free-je-la-vois",
+      "type": "exercise",
+      "title": "Übersetze: Ich sehe sie (Marie)",
+      "exercise": {
+        "id": "ex-free-je-la-vois",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich sehe Marie.* (Ersetze Marie durch das COD-Pronomen!)",
+        "card_ids": ["cod-la", "ex-je-la-vois"],
+        "accept": [
+          "Je la vois.",
+          "je la vois",
+          "Je la vois"
+        ],
+        "hint": "*Marie* ist feminin → COD **la**; Stellung **vor** dem Verb.",
+        "distractors": [
+          "Je vois la.",
+          "Je la voir.",
+          "Je vois elle."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-infinitiv",
+      "type": "exercise",
+      "title": "COD vor dem Infinitiv",
+      "exercise": {
+        "id": "ex-free-infinitiv",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich werde es essen.* (es = le gâteau, mask.)",
+        "card_ids": ["cod-le", "cod-position-infinitif"],
+        "accept": [
+          "Je vais le manger.",
+          "je vais le manger",
+          "Je vais le manger"
+        ],
+        "hint": "COD steht **vor dem Infinitiv**: *Je vais **le** manger.*",
+        "distractors": [
+          "Je le vais manger.",
+          "Je vais manger le.",
+          "Je vais manger lui."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-negation",
+      "type": "exercise",
+      "title": "Verneinung mit COD",
+      "exercise": {
+        "id": "ex-free-negation",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich kenne sie nicht.* (elle — sie, feminin)",
+        "card_ids": ["cod-la", "cod-negation"],
+        "accept": [
+          "Je ne la connais pas.",
+          "je ne la connais pas",
+          "Je ne la connais pas"
+        ],
+        "hint": "Reihenfolge: *ne* + COD + Verb + *pas* → *Je **ne la** connais **pas**.*",
+        "distractors": [
+          "Je ne connais pas la.",
+          "Je ne la connaît pas.",
+          "Je ne connais pas elle."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-je-les-vois",
+      "type": "exercise",
+      "title": "Bilde: Ich sehe sie (Pl.)",
+      "exercise": {
+        "id": "ex-tiles-je-les-vois",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich sehe die Kinder.* (Ersetze *les enfants* durch das COD-Pronomen.)",
+        "card_ids": ["cod-les"],
+        "tiles": ["Je", "les", "vois", ".", "enfants", "voir"],
+        "hint": "*les enfants* → COD **les**; Stellung vor dem Verb: *Je **les** vois.*",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-negation",
+      "type": "exercise",
+      "title": "Bilde: Ich esse es nicht",
+      "exercise": {
+        "id": "ex-tiles-negation",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich esse es nicht.* (es = le gâteau, mask.)",
+        "card_ids": ["cod-le", "cod-negation"],
+        "tiles": ["Je", "ne", "le", "mange", "pas", "la", "."],
+        "hint": "Reihenfolge: *Je ne **le** mange pas.*",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-cod-position",
+      "type": "exercise",
+      "title": "Welcher Satz ist richtig?",
+      "exercise": {
+        "id": "ex-picture-cod-position",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz übersetzt *Ich rufe dich an* korrekt ins Französische?",
+        "card_ids": ["cod-te"],
+        "images": [
+          { "src": "assets/img/phone-1.png", "label": "Je t'appelle.", "is_correct": "true" },
+          { "src": "assets/img/phone-2.png", "label": "Je appelle te." },
+          { "src": "assets/img/phone-3.png", "label": "Je appelle toi." },
+          { "src": "assets/img/phone-4.png", "label": "Je te appelle." }
+        ],
+        "hint": "Das COD steht **vor** dem Verb; *te* → *t'* vor Vokal: *Je **t'**appelle.*",
+        "distractors": [
+          "Je appelle te.",
+          "Je appelle toi.",
+          "Je te appelle."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

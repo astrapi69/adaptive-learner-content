@@ -1,0 +1,369 @@
+{
+  "id": "15-wiederholung",
+  "title": "Wiederholung A2",
+  "description": "Abschließende Wiederholung des gesamten A2-Kurses: vier Zeiten (passé composé, imparfait, futur simple, conditionnel), vier Pronomen (COD, COI, en, y), erweiterte Verneinung, Konjunktionen, Komparativ/Superlativ und si-Sätze — alles gemischt in einer Lektion.",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "rev-j-etais",
+      "front": "j'étais",
+      "back": "ich war (imparfait von être)",
+      "notes": "**Imparfait** von *être*. Stamm: **ét-** + Endung *-ais*. Beschreibt einen dauerhaften Zustand in der Vergangenheit: *Quand j'étais enfant, j'habitais à Lyon.* — Als ich ein Kind war, lebte ich in Lyon.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["imparfait", "être", "wiederholung"]
+    },
+    {
+      "id": "rev-j-ai-mange",
+      "front": "j'ai mangé",
+      "back": "ich habe gegessen (passé composé von manger)",
+      "notes": "**Passé composé** von *manger* (avoir + mangé). Beschreibt eine abgeschlossene Handlung: *Hier soir, j'ai mangé une pizza.* — Gestern Abend habe ich eine Pizza gegessen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["passé-composé", "wiederholung"]
+    },
+    {
+      "id": "rev-je-viendrai",
+      "front": "je viendrai",
+      "back": "ich werde kommen (futur simple von venir)",
+      "notes": "**Futur simple** von *venir*. Unregelmäßiger Stamm: **viendr-** + Endung *-ai*. *Je viendrai demain à 9 heures.* — Ich werde morgen um 9 Uhr kommen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["futur-simple", "venir", "unregelmäßig", "wiederholung"]
+    },
+    {
+      "id": "rev-je-voudrais",
+      "front": "je voudrais",
+      "back": "ich hätte gern / ich möchte (conditionnel von vouloir)",
+      "notes": "**Conditionnel** von *vouloir*. Stamm: **voudr-** + Endung *-ais*. Höflicher als *je veux*. *Je voudrais un café, s'il vous plaît.* — Ich hätte gern einen Kaffee, bitte.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["conditionnel", "vouloir", "wiederholung"]
+    },
+    {
+      "id": "rev-je-le-vois",
+      "front": "je le vois",
+      "back": "ich sehe ihn / ich sehe es (COD le)",
+      "notes": "**Pronomen COD le** (maskulin Singular) ersetzt ein direktes Objekt: *Je vois le film → Je **le** vois.* Das Pronomen steht **vor** dem konjugierten Verb.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["pronom-cod", "le", "wiederholung"]
+    },
+    {
+      "id": "rev-je-lui-parle",
+      "front": "je lui parle",
+      "back": "ich spreche mit ihm / ich spreche mit ihr (COI lui)",
+      "notes": "**Pronomen COI lui** (3. Person Singular, kein Genus!) ersetzt *à + Person*: *Je parle à Marc / à Marie → Je **lui** parle.* Steht **vor** dem Verb.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "lui = ihm UND ihr — kein Unterschied im Genus.",
+      "tags": ["pronom-coi", "lui", "wiederholung"]
+    },
+    {
+      "id": "rev-j-en-ai",
+      "front": "j'en ai",
+      "back": "ich habe davon / ich habe welche (Pronomen en)",
+      "notes": "**Pronomen en** ersetzt *de + Nomen*: *J'ai de la chance → J'**en** ai.* Auch für Mengenangaben: *Tu veux du pain ? — Oui, j'**en** veux.* Steht **vor** dem Verb.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronom-en", "wiederholung"]
+    },
+    {
+      "id": "rev-j-y-vais",
+      "front": "j'y vais",
+      "back": "ich gehe dorthin (Pronomen y)",
+      "notes": "**Pronomen y** ersetzt *à / dans / en + Ort*: *Je vais à Paris → J'**y** vais.* Steht **vor** dem Verb. Auch: *J'y pense* — ich denke daran.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronom-y", "wiederholung"]
+    },
+    {
+      "id": "rev-ne-jamais",
+      "front": "ne … jamais",
+      "back": "nie / niemals (Verneinung)",
+      "notes": "**Erweiterte Verneinung**: *ne … jamais* = nie. *Je ne mange jamais de viande.* — Ich esse nie Fleisch. Das Verb steht zwischen **ne** und **jamais**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verneinung", "ne-jamais", "wiederholung"]
+    },
+    {
+      "id": "rev-ne-plus",
+      "front": "ne … plus",
+      "back": "nicht mehr (Verneinung)",
+      "notes": "**Erweiterte Verneinung**: *ne … plus* = nicht mehr. *Je ne fume plus.* — Ich rauche nicht mehr. Das Verb steht zwischen **ne** und **plus**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verneinung", "ne-plus", "wiederholung"]
+    },
+    {
+      "id": "rev-meilleur",
+      "front": "meilleur(e)",
+      "back": "besser / der/die/das Beste (Komparativ/Superlativ von bon)",
+      "notes": "**Komparativ/Superlativ** von *bon*: **meilleur** (nicht *plus bon*!). *Ce restaurant est meilleur que l'autre.* — Dieses Restaurant ist besser als das andere. Superlativ: *le meilleur restaurant de la ville.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "NICHT *plus bon* — der Komparativ von bon ist immer meilleur.",
+      "tags": ["comparatif", "superlatif", "meilleur", "wiederholung"]
+    },
+    {
+      "id": "rev-si-imparfait-conditionnel",
+      "front": "Si j'avais le temps, je voyagerais.",
+      "back": "Wenn ich Zeit hätte, würde ich reisen. (si + imparfait → conditionnel)",
+      "notes": "**Si-Sätze Typ 2** (irreal/hypothetisch): **si + imparfait → conditionnel présent**. Niemals *si + conditionnel* oder *si + futur*! *Si j'avais de l'argent, j'achèterais une maison.* — Wenn ich Geld hätte, würde ich ein Haus kaufen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Nach si steht immer imparfait — niemals conditionnel oder futur!",
+      "tags": ["si-sätze", "conditionnel", "imparfait", "wiederholung"]
+    },
+    {
+      "id": "rev-donc",
+      "front": "donc",
+      "back": "also / deshalb (Konjunktion der Schlussfolgerung)",
+      "notes": "**Konjunktion** *donc* drückt eine Schlussfolgerung aus: *Il pleut, **donc** je prends un parapluie.* — Es regnet, also nehme ich einen Regenschirm. Ähnlich: *alors* (dann/also).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["konjunktionen", "donc", "wiederholung"]
+    },
+    {
+      "id": "rev-mais",
+      "front": "mais",
+      "back": "aber (Konjunktion des Gegensatzes)",
+      "notes": "**Konjunktion** *mais* verbindet Gegensätze: *J'aime le café, **mais** je préfère le thé.* — Ich mag Kaffee, aber ich bevorzuge Tee. Entspricht dem deutschen *aber*.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["konjunktionen", "mais", "wiederholung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-ueberblick",
+      "type": "theory",
+      "title": "Zeit für die große Wiederholung",
+      "body": "# Wiederholung A2 — Überblick\n\nZeit für die große Wiederholung: In diesem A2-Kurs hast du vier neue Zeiten, vier Pronomen, die erweiterte Verneinung, Konjunktionen, Vergleiche und Bedingungssätze gelernt. Diese Lektion mischt alles.\n\n## Was du in diesem Kurs gelernt hast\n\n| Lektion | Thema | Kernpunkt |\n|---|---|---|\n| 01 | Passé composé | avoir/être + unregelmäßige Partizipien (vu, fait, pris …) |\n| 02 | Imparfait | Zustände & Gewohnheiten in der Vergangenheit |\n| 03 | PC vs. Imparfait | PC = abgeschlossen; Imparfait = Hintergrund/Dauer |\n| 04 | Futur simple | Zukunft mit echtem Futurstamm (je parlerai) |\n| 05 | Conditionnel | Futurstamm + imparfait-Endungen; Höflichkeit & Hypothesen |\n| 06 | Pronomen COD | le/la/les — direktes Objekt vor dem Verb |\n| 07 | Pronomen COI | lui/leur — indirektes Objekt (à + Person) vor dem Verb |\n| 08 | Pronomen en | ersetzt *de + Nomen* oder Mengenangabe |\n| 09 | Pronomen y | ersetzt *à/dans/en + Ort* |\n| 10 | Verneinung | ne…plus, ne…jamais, ne…rien, ne…personne |\n| 11 | Konjunktionen | mais, donc, car, pourtant, cependant … |\n| 12 | Komparativ/Superlativ | plus … que; meilleur (≠ plus bon!) |\n| 13 | Textverständnis | Strategien zum Lesen und Verstehen |\n| 14 | Si-Sätze | si + présent → futur; si + imparfait → conditionnel |\n\n> **Tipp:** Schau dir die Karten dieser Lektion an — sie decken jede dieser Kategorien ab."
+    },
+    {
+      "id": "theory-zeiten",
+      "type": "theory",
+      "title": "Die vier Zeiten im Vergleich",
+      "body": "## Die vier Vergangenheits- und Zukunftsformen — Schnellübersicht\n\n### Vergangenheit\n\n| Zeit | Bildung | Gebrauch | Beispiel |\n|---|---|---|---|\n| **Passé composé** | avoir/être + Partizip | abgeschlossene Handlung | *J'ai mangé une pizza.* |\n| **Imparfait** | Stamm (nous-Form) + -ais/-ais/-ait/-ions/-iez/-aient | Zustand, Dauer, Gewohnheit | *Je mangeais souvent des pizzas.* |\n\n**Entscheidungshilfe PC vs. Imparfait:**\n- Abgeschlossen, einmalig, mit Zeitangabe → **PC**: *Hier, j'ai vu Marie.*\n- Hintergrund, Zustand, Wiederholung → **Imparfait**: *Quand j'étais jeune, je jouais au foot.*\n\n### Zukunft und Hypothese\n\n| Zeit | Bildung | Gebrauch | Beispiel |\n|---|---|---|---|\n| **Futur simple** | Futurstamm + -ai/-as/-a/-ons/-ez/-ont | echte Zukunft, Pläne | *Je viendrai demain.* |\n| **Conditionnel** | Futurstamm + -ais/-ais/-ait/-ions/-iez/-aient | Hypothese, Höflichkeit | *Je voudrais un café.* |\n\n> **Merke:** Futur simple und conditionnel teilen denselben Stamm — nur die Endungen unterscheiden sich (Futur: *-ai*, Conditionnel: *-ais*)."
+    },
+    {
+      "id": "theory-pronomen-verneinung",
+      "type": "theory",
+      "title": "Pronomen, Verneinung & si-Sätze",
+      "body": "## Pronomen, Verneinung und si-Sätze auf einen Blick\n\n### Objektpronomen — Stellung VOR dem Verb\n\n| Pronomen | Kategorie | Ersetzt | Beispiel |\n|---|---|---|---|\n| **le / la / les** | COD | direktes Objekt | *Je vois le film → Je **le** vois.* |\n| **lui / leur** | COI | à + Person (3. Person) | *Je parle à Marc → Je **lui** parle.* |\n| **en** | — | de + Nomen / Menge | *J'ai du pain → J'**en** ai.* |\n| **y** | — | à/dans/en + Ort | *Je vais à Paris → J'**y** vais.* |\n\n### Erweiterte Verneinung\n\n| Form | Bedeutung | Beispiel |\n|---|---|---|\n| ne … **plus** | nicht mehr | *Je ne fume plus.* |\n| ne … **jamais** | nie | *Il ne ment jamais.* |\n| ne … **rien** | nichts | *Je ne vois rien.* |\n| ne … **personne** | niemand | *Elle ne connaît personne.* |\n\n### Si-Sätze\n\n| Typ | si-Satz | Hauptsatz | Bedeutung |\n|---|---|---|---|\n| Reale Bedingung | si + **présent** | **futur simple** | *Si tu viens, nous mangerons ensemble.* |\n| Irreale Bedingung | si + **imparfait** | **conditionnel** | *Si j'avais le temps, je voyagerais.* |\n\n> **Achtung:** Nach **si** niemals conditionnel oder futur simple! Das ist der häufigste Fehler."
+    },
+    {
+      "id": "ex-match-zeiten",
+      "type": "exercise",
+      "title": "Zeiten zuordnen",
+      "exercise": {
+        "id": "ex-match-zeiten",
+        "type": "matching",
+        "prompt": "Ordne jede französische Verbform der richtigen deutschen Beschreibung zu.",
+        "card_ids": ["rev-j-etais", "rev-j-ai-mange", "rev-je-viendrai", "rev-je-voudrais"],
+        "pairs": [
+          { "left": "j'étais", "right": "ich war (imparfait)" },
+          { "left": "j'ai mangé", "right": "ich habe gegessen (passé composé)" },
+          { "left": "je viendrai", "right": "ich werde kommen (futur simple)" },
+          { "left": "je voudrais", "right": "ich möchte (conditionnel)" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-pronomen",
+      "type": "exercise",
+      "title": "Pronomen zuordnen",
+      "exercise": {
+        "id": "ex-match-pronomen",
+        "type": "matching",
+        "prompt": "Ordne jedem Satz mit Pronomen die passende deutsche Erklärung zu.",
+        "card_ids": ["rev-je-le-vois", "rev-je-lui-parle", "rev-j-en-ai", "rev-j-y-vais"],
+        "pairs": [
+          { "left": "je le vois", "right": "ich sehe ihn/es (COD)" },
+          { "left": "je lui parle", "right": "ich spreche mit ihm/ihr (COI)" },
+          { "left": "j'en ai", "right": "ich habe davon/welche (en)" },
+          { "left": "j'y vais", "right": "ich gehe dorthin (y)" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-verneinung",
+      "type": "exercise",
+      "title": "Verneinungsformen zuordnen",
+      "exercise": {
+        "id": "ex-match-verneinung",
+        "type": "matching",
+        "prompt": "Ordne jede Verneinungsform ihrer deutschen Bedeutung zu.",
+        "card_ids": ["rev-ne-jamais", "rev-ne-plus"],
+        "pairs": [
+          { "left": "ne … jamais", "right": "nie / niemals" },
+          { "left": "ne … plus", "right": "nicht mehr" },
+          { "left": "ne … rien", "right": "nichts" },
+          { "left": "ne … personne", "right": "niemand" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-imparfait-etais",
+      "type": "exercise",
+      "title": "Imparfait im Kontext",
+      "exercise": {
+        "id": "ex-cloze-imparfait-etais",
+        "type": "cloze",
+        "prompt": "Ergänze das imparfait von *être* (je): *Als ich jung war, lebte ich in Lyon.*",
+        "card_ids": ["rev-j-etais"],
+        "sentence": "Quand j'___ jeune, j'habitais à Lyon.",
+        "blanks": [
+          { "accept": ["étais", "etais"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Imparfait von *être* (je): Stamm **ét-** + Endung *-ais*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-si-conditionnel",
+      "type": "exercise",
+      "title": "Si-Satz vervollständigen",
+      "exercise": {
+        "id": "ex-cloze-si-conditionnel",
+        "type": "cloze",
+        "prompt": "Ergänze den si-Satz: *Wenn ich Zeit hätte, würde ich reisen.* — Welche Form kommt nach **si**?",
+        "card_ids": ["rev-si-imparfait-conditionnel"],
+        "sentence": "Si j'___ le temps, je voyagerais.",
+        "blanks": [
+          { "accept": ["avais"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Nach si + irrealer Bedingung: **imparfait** — hier *avoir* im imparfait (je): **avais**.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-pronomen-y",
+      "type": "exercise",
+      "title": "Übersetze: Ich gehe dorthin",
+      "exercise": {
+        "id": "ex-free-pronomen-y",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich gehe dorthin.* (mit dem Pronomen y, ersetze: Je vais à Paris.)",
+        "card_ids": ["rev-j-y-vais"],
+        "accept": [
+          "J'y vais.",
+          "j'y vais",
+          "J'y vais"
+        ],
+        "hint": "*y* ersetzt *à Paris*; das Pronomen steht vor dem Verb: **j'y** + vais.",
+        "distractors": [
+          "Je vais y.",
+          "Je y vais.",
+          "J'y va."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-meilleur",
+      "type": "exercise",
+      "title": "Komparativ von bon",
+      "exercise": {
+        "id": "ex-free-meilleur",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Dieses Restaurant ist besser als das andere.* (Komparativ von bon)",
+        "card_ids": ["rev-meilleur"],
+        "accept": [
+          "Ce restaurant est meilleur que l'autre.",
+          "ce restaurant est meilleur que l'autre",
+          "Ce restaurant est meilleur que l'autre",
+          "Ce restaurant est meilleur que l´autre."
+        ],
+        "hint": "Der Komparativ von *bon* ist **meilleur** — niemals *plus bon*!",
+        "distractors": [
+          "Ce restaurant est plus bon que l'autre.",
+          "Ce restaurant est mieux que l'autre.",
+          "Ce restaurant est le meilleur que l'autre."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-futur-viendrai",
+      "type": "exercise",
+      "title": "Futur simple bilden",
+      "exercise": {
+        "id": "ex-free-futur-viendrai",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich werde morgen kommen.* (futur simple von venir)",
+        "card_ids": ["rev-je-viendrai"],
+        "accept": [
+          "Je viendrai demain.",
+          "je viendrai demain",
+          "Je viendrai demain"
+        ],
+        "hint": "Futur simple von *venir* (je): unregelmäßiger Stamm **viendr-** + Endung *-ai*.",
+        "distractors": [
+          "Je viendrais demain.",
+          "Je viens demain.",
+          "Je venais demain."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-ne-plus",
+      "type": "exercise",
+      "title": "Bilde: Ich rauche nicht mehr",
+      "exercise": {
+        "id": "ex-tiles-ne-plus",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum Satz: *Ich rauche nicht mehr.*",
+        "card_ids": ["rev-ne-plus"],
+        "tiles": ["Je", "ne", "fume", "plus"],
+        "hint": "Verneinung: **ne** vor dem Verb, **plus** nach dem Verb.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-coi-lui",
+      "type": "exercise",
+      "title": "Bilde: Ich spreche mit ihm",
+      "exercise": {
+        "id": "ex-tiles-coi-lui",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum Satz: *Ich spreche mit ihm.* (COI lui vor dem Verb)",
+        "card_ids": ["rev-je-lui-parle"],
+        "tiles": ["Je", "lui", "parle"],
+        "hint": "COI **lui** steht **vor** dem Verb: Je + lui + parle.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-pc-vs-imparfait",
+      "type": "exercise",
+      "title": "PC oder Imparfait?",
+      "exercise": {
+        "id": "ex-picture-pc-vs-imparfait",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz drückt eine abgeschlossene Handlung aus? (= passé composé)",
+        "card_ids": ["rev-j-ai-mange", "rev-j-etais"],
+        "images": [
+          { "src": "assets/img/dinner-done.png", "label": "Hier soir, j'ai mangé une pizza.", "is_correct": "true" },
+          { "src": "assets/img/childhood.png", "label": "Quand j'étais enfant, je mangeais des pizzas." },
+          { "src": "assets/img/future-meal.png", "label": "Demain, je mangerai une pizza." },
+          { "src": "assets/img/conditional-meal.png", "label": "Je mangerais une pizza si j'avais faim." }
+        ],
+        "hint": "Abgeschlossen, einmalig, gestern Abend → **passé composé** (*j'ai mangé*).",
+        "distractors": [
+          "Quand j'étais enfant, je mangeais des pizzas.",
+          "Demain, je mangerai une pizza.",
+          "Je mangerais une pizza si j'avais faim."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

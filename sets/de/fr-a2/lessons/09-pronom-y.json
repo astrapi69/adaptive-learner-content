@@ -1,0 +1,329 @@
+{
+  "id": "09-pronom-y",
+  "title": "Le pronom y",
+  "description": "Das Pronomen y ersetzt Ortsangaben (à/dans/sur/chez + Ort) und 'à + Sache'. Stellung vor dem Verb. Kontrast mit en (de-Gruppe) und lui/leur (à + Person).",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "y-paris",
+      "front": "Tu vas à Paris ? — Oui, j'y vais.",
+      "back": "Fährst du nach Paris? — Ja, ich fahre dorthin.",
+      "notes": "**y** ersetzt *à Paris* (Ortsangabe). Regel: **à/dans/sur/chez + Ort → y**. Stellung: **vor** dem konjugierten Verb: *j'**y** vais*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["pronom-y", "lieu", "a-lieu"]
+    },
+    {
+      "id": "y-cuisine",
+      "front": "Je suis dans la cuisine → J'y suis.",
+      "back": "Ich bin in der Küche → Ich bin dort.",
+      "notes": "**y** ersetzt *dans la cuisine*. Nicht nur *à*, auch **dans + Ort** wird durch y ersetzt. *J'y suis* = ich bin dort.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["pronom-y", "lieu", "dans-lieu"]
+    },
+    {
+      "id": "y-penser",
+      "front": "Je pense à ce problème → J'y pense.",
+      "back": "Ich denke an dieses Problem → Ich denke daran.",
+      "notes": "**y** ersetzt auch **à + Sache** (nicht à + Person!). *penser à qch* → *y penser*: *J'**y** pense* = ich denke daran. Für Personen gilt: *penser à lui/à elle*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronom-y", "a-chose", "penser"]
+    },
+    {
+      "id": "y-repondre",
+      "front": "Elle répond à la question → Elle y répond.",
+      "back": "Sie antwortet auf die Frage → Sie antwortet darauf.",
+      "notes": "**répondre à qch** → **y répondre**: *Elle **y** répond* = sie antwortet darauf. Merke: *à + Sache* (Frage, Problem, E-Mail) → **y**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronom-y", "a-chose", "repondre"]
+    },
+    {
+      "id": "y-aller-ecole",
+      "front": "Nous allons à l'école → Nous y allons.",
+      "back": "Wir gehen zur Schule → Wir gehen dorthin.",
+      "notes": "**aller à + Ort** → **y aller**: *Nous **y** allons* = wir gehen dorthin. Häufigste Verwendung: Bewegung zu einem Ort.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["pronom-y", "lieu", "aller"]
+    },
+    {
+      "id": "y-habiter",
+      "front": "Il habite à Lyon → Il y habite.",
+      "back": "Er wohnt in Lyon → Er wohnt dort.",
+      "notes": "**habiter à + Ort** → **y habiter**: *Il **y** habite* = er wohnt dort. *y* steht auch bei Städten mit **à**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["pronom-y", "lieu", "habiter"]
+    },
+    {
+      "id": "y-vs-en",
+      "front": "J'y pense. (à ce projet) / J'en parle. (de ce projet)",
+      "back": "Ich denke daran. / Ich spreche davon.",
+      "notes": "**y** ersetzt **à + Sache** | **en** ersetzt **de + Sache**. Tabelle:\n\n| Präposition | Pronomen | Beispiel |\n|---|---|---|\n| à + Ort/Sache | **y** | *J'y vais / J'y pense* |\n| de + Sache | **en** | *J'en parle / J'en ai besoin* |",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pronom-y", "y-vs-en", "contraste"]
+    },
+    {
+      "id": "y-vs-lui",
+      "front": "Je pense à Marie → Je pense à elle. (NICHT: j'y pense)",
+      "back": "Ich denke an Marie → Ich denke an sie. (NICHT y!)",
+      "notes": "**Wichtig:** Bei **à + Person** bleibt das Pronomen **lui/leur** (COI) oder **à lui/à elle** — **y** wird für Personen NICHT verwendet!\n\n| à + … | Pronomen |\n|---|---|\n| Ort / Sache | **y** |\n| Person (COI) | **lui / leur** |\n| Person (Betonung) | **à lui / à elle** |",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "y niemals für Personen!",
+      "tags": ["pronom-y", "y-vs-lui", "a-personne"]
+    },
+    {
+      "id": "y-il-y-a",
+      "front": "il y a",
+      "back": "es gibt",
+      "notes": "Du kennst **y** schon aus A1: **il y a** = es gibt. Das *y* in *il y a* ist dasselbe Pronomen — es verweist auf einen Ort/Kontext (*là*, *dans ce lieu*). *Il y a un café ici* — es gibt ein Café hier.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["pronom-y", "il-y-a", "a1-revision"]
+    },
+    {
+      "id": "y-chez-amis",
+      "front": "Tu vas chez tes amis ? — Oui, j'y vais ce soir.",
+      "back": "Gehst du zu deinen Freunden? — Ja, ich gehe heute Abend dorthin.",
+      "notes": "**chez + Person als Ort** → **y**: *chez tes amis* bezeichnet den Ort (das Zuhause der Freunde), daher **y**. *J'**y** vais ce soir* = ich gehe heute Abend dorthin.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronom-y", "chez", "lieu"]
+    },
+    {
+      "id": "y-participer",
+      "front": "Ils participent à la réunion → Ils y participent.",
+      "back": "Sie nehmen an der Sitzung teil → Sie nehmen daran teil.",
+      "notes": "**participer à qch** → **y participer**: *Ils **y** participent* = sie nehmen daran teil. Wieder: **à + Sache** → **y**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronom-y", "a-chose", "participer"]
+    },
+    {
+      "id": "y-position-neg",
+      "front": "Je n'y vais pas.",
+      "back": "Ich gehe nicht dorthin.",
+      "notes": "Stellung von **y** bei Verneinung: **ne + y + Verb + pas**. *Je **n'y** vais **pas*** = ich gehe nicht dorthin. *y* bleibt direkt vor dem Verb, *ne … pas* umschließt beides.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronom-y", "negation", "position"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-y",
+      "type": "theory",
+      "title": "Einführung: das Pronomen y",
+      "body": "# Le pronom y — das Pronomen y\n\n## Vom A1-Stoff zum neuen Pronomen\n\nDu kennst **y** schon aus A1: **il y a** (= es gibt). Das *y* dort ist kein Zufallsbuchstabe — es ist dasselbe Pronomen, das wir jetzt als eigenständiges Satzglied kennenlernen.\n\n> **Grundregel:** y ersetzt einen **Ort** oder **à + Sache**.\n\n## Die zwei Hauptfunktionen\n\n| Funktion | Ersetzt | Beispiel |\n|---|---|---|\n| Ortsangabe | à / dans / sur / chez + **Ort** | *Je vais à Paris → J'**y** vais.* |\n| à + Sache | à + **Sache** (nicht Person!) | *Je pense à ce problème → J'**y** pense.* |\n\n## Stellung im Satz\n\ny steht **immer vor dem konjugierten Verb**:\n\n- Aussagesatz: *J'**y** vais.* (nicht: ~~Je vais y~~)\n- Verneinung: *Je **n'y** vais **pas**.*\n\nMerksatz: Genauso wie *le/la/les* und *me/te/se* — alle direkten und indirekten Objektpronomen stehen **vor** dem Verb."
+    },
+    {
+      "id": "theorie-verwendung",
+      "type": "theory",
+      "title": "Gebrauch im Detail: Ortsangaben und à + Sache",
+      "body": "## Ortsangaben mit verschiedenen Präpositionen\n\nWelche Präpositionen werden durch **y** ersetzt?\n\n| Präposition | Beispiel (lang) | Ersetzt durch y |\n|---|---|---|\n| **à** + Ort | *Je suis à Lyon* | *J'**y** suis.* |\n| **dans** + Ort | *Elle est dans la cuisine* | *Elle **y** est.* |\n| **sur** + Ort | *Le chat est sur la table* | *Il **y** est.* |\n| **chez** + Ort | *Tu vas chez ta sœur ?* | *Oui, j'**y** vais.* |\n\n## à + Sache (Verben mit à)\n\nViele Verben verlangen **à + Sache**. Auch hier ersetzt **y**:\n\n| Verb | Beispiel (lang) | Mit y |\n|---|---|---|\n| **penser à** qch | *Je pense à ce projet* | *J'**y** pense.* |\n| **répondre à** qch | *Elle répond à l'e-mail* | *Elle **y** répond.* |\n| **participer à** qch | *Ils participent à la réunion* | *Ils **y** participent.* |\n| **aller à** + Ort | *Nous allons à l'école* | *Nous **y** allons.* |\n\n> **Achtung:** Bei **à + Person** (COI) gilt **y NICHT**!\n> *Je téléphone à ma mère → Je **lui** téléphone.* (nicht: ~~j'y téléphone~~)"
+    },
+    {
+      "id": "theorie-kontrast",
+      "type": "theory",
+      "title": "Kontrast: y vs. en vs. lui/leur",
+      "body": "## y, en und lui/leur — drei Pronomen im Vergleich\n\nDas ist der häufigste Fehlerbereich. Diese Tabelle hilft dir beim Sortieren:\n\n| Was wird ersetzt? | Pronomen | Beispiel |\n|---|---|---|\n| **à + Ort** | **y** | *J'y vais.* (= nach Paris) |\n| **à + Sache** | **y** | *J'y pense.* (= an das Problem) |\n| **à + Person** (COI) | **lui / leur** | *Je lui parle.* (= mit ihr/ihm) |\n| **de + Sache** | **en** | *J'en parle.* (= davon) |\n| **de + Ort** (Herkunft) | **en** | *J'en viens.* (= von dort) |\n\n## Typische Deutschfehler\n\n- ❌ *J'y téléphone.* (à + Person) → ✅ *Je lui téléphone.*\n- ❌ *J'en vais à Paris.* (Ort mit à) → ✅ *J'y vais.*\n- ❌ *Je vais y.* (y nach dem Verb) → ✅ *J'y vais.*\n- ❌ (y weglassen wie im Deutschen) → Im Deutschen sagt man „ich gehe“ ohne Ortspronom, auf Französisch aber: *J'**y** vais.* (nicht: ~~Je vais~~)\n\n**Faustregel:** à + Ort/Sache → **y** | de + Sache → **en** | à + Person → **lui/leur**"
+    },
+    {
+      "id": "ex-match-satze",
+      "type": "exercise",
+      "title": "Sätze mit y zuordnen",
+      "exercise": {
+        "id": "ex-match-satze",
+        "type": "matching",
+        "prompt": "Ordne jeden französischen Satz mit y seiner deutschen Bedeutung zu.",
+        "card_ids": ["y-paris", "y-cuisine", "y-aller-ecole", "y-habiter", "y-position-neg"],
+        "pairs": [
+          { "left": "J'y vais.", "right": "Ich fahre/gehe dorthin." },
+          { "left": "J'y suis.", "right": "Ich bin dort." },
+          { "left": "Nous y allons.", "right": "Wir gehen dorthin." },
+          { "left": "Il y habite.", "right": "Er wohnt dort." },
+          { "left": "Je n'y vais pas.", "right": "Ich gehe nicht dorthin." }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-kontrast",
+      "type": "exercise",
+      "title": "y oder lui/leur?",
+      "exercise": {
+        "id": "ex-match-kontrast",
+        "type": "matching",
+        "prompt": "Ordne die Präpositionalgruppe dem richtigen Pronomen zu.",
+        "card_ids": ["y-vs-lui", "y-penser", "y-repondre"],
+        "pairs": [
+          { "left": "à Paris (Ort)", "right": "y" },
+          { "left": "à ce problème (Sache)", "right": "y" },
+          { "left": "à Marie (Person, COI)", "right": "lui" },
+          { "left": "à mes parents (Personen, COI)", "right": "leur" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-paris",
+      "type": "exercise",
+      "title": "y einsetzen: nach Paris fahren",
+      "exercise": {
+        "id": "ex-cloze-paris",
+        "type": "cloze",
+        "prompt": "Setze das Pronomen *y* an die richtige Stelle ein.",
+        "card_ids": ["y-paris"],
+        "sentence": "Tu vas à Paris ? — Oui, j'___ vais.",
+        "blanks": [
+          { "accept": ["y"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "y steht immer vor dem konjugierten Verb."
+      }
+    },
+    {
+      "id": "ex-cloze-penser",
+      "type": "exercise",
+      "title": "y oder en? — penser à",
+      "exercise": {
+        "id": "ex-cloze-penser",
+        "type": "cloze",
+        "prompt": "Ergänze: *Je pense à ce projet → Je ___ pense.*",
+        "card_ids": ["y-penser"],
+        "sentence": "Je pense à ce projet → Je ___ pense.",
+        "blanks": [
+          { "accept": ["y"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "à + Sache → y (nicht en, das wäre de + Sache)."
+      }
+    },
+    {
+      "id": "ex-free-ecole",
+      "type": "exercise",
+      "title": "Übersetzen: Wir gehen dorthin (zur Schule)",
+      "exercise": {
+        "id": "ex-free-ecole",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Wir gehen zur Schule → Wir gehen dorthin.* (y verwenden!)",
+        "card_ids": ["y-aller-ecole"],
+        "accept": [
+          "Nous y allons.",
+          "nous y allons",
+          "Nous y allons"
+        ],
+        "hint": "*Nous allons à l'école* → y ersetzt *à l'école*, Stellung vor *allons*.",
+        "distractors": [
+          "Nous allons y.",
+          "Nous en allons.",
+          "Nous lui allons."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-penser-projet",
+      "type": "exercise",
+      "title": "Übersetzen: Ich denke daran (an das Projekt)",
+      "exercise": {
+        "id": "ex-free-penser-projet",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich denke daran.* (Bezug: *à ce projet*)",
+        "card_ids": ["y-penser"],
+        "accept": [
+          "J'y pense.",
+          "j'y pense",
+          "J'y pense"
+        ],
+        "hint": "*penser à qch* → **y** vor dem Verb: *J'y pense.*",
+        "distractors": [
+          "J'en pense.",
+          "Je pense y.",
+          "Je lui pense."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-receptive-chez",
+      "type": "exercise",
+      "title": "Verstehen: J'y vais ce soir.",
+      "exercise": {
+        "id": "ex-free-receptive-chez",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *Tu vas chez tes amis ? — Oui, j'y vais ce soir.*",
+        "card_ids": ["y-chez-amis"],
+        "accept": [
+          "Gehst du zu deinen Freunden? — Ja, ich gehe heute Abend dorthin.",
+          "Gehst du zu deinen Freunden? Ja, ich gehe heute Abend dorthin.",
+          "gehst du zu deinen freunden? ja, ich gehe heute abend dorthin."
+        ],
+        "hint": "*chez tes amis* = zu deinen Freunden; *ce soir* = heute Abend; *j'y vais* = ich gehe dorthin.",
+        "distractors": [
+          "Gehst du zu deinen Freunden? — Ja, ich gehe heute Abend zu ihnen. (y ≠ leur Abend!)",
+          "Bist du bei deinen Freunden? — Ja, ich bin heute Abend dort.",
+          "Gehst du zu deinen Freunden? — Nein, ich gehe heute Abend nicht dorthin."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-participer",
+      "type": "exercise",
+      "title": "Bilde: Sie nehmen daran teil.",
+      "exercise": {
+        "id": "ex-tiles-participer",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Sie nehmen an der Sitzung teil → Sie nehmen daran teil.* (ils)",
+        "card_ids": ["y-participer"],
+        "tiles": ["Ils", "y", "participent", ".", "à", "la"],
+        "hint": "y kommt direkt vor *participent*: *Ils y participent.*",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-neg",
+      "type": "exercise",
+      "title": "Bilde: Ich gehe nicht dorthin.",
+      "exercise": {
+        "id": "ex-tiles-neg",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zur Verneinung: *Ich gehe nicht dorthin.*",
+        "card_ids": ["y-position-neg"],
+        "tiles": ["Je", "n'y", "vais", "pas", "."],
+        "hint": "Reihenfolge: *ne/n'* + **y** + Verb + *pas*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-y-vs-en",
+      "type": "exercise",
+      "title": "Richtige Ersetzung wählen",
+      "exercise": {
+        "id": "ex-pic-y-vs-en",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ersetzt *à ce projet* korrekt durch ein Pronomen?",
+        "card_ids": ["y-vs-en", "y-penser"],
+        "images": [
+          { "src": "assets/img/pronom-y-correct.png", "label": "J'y pense. (à ce projet → y)", "is_correct": "true" },
+          { "src": "assets/img/pronom-en-wrong.png", "label": "J'en pense. (de ce projet → en, aber hier à!)" },
+          { "src": "assets/img/pronom-lui-wrong.png", "label": "Je lui pense. (à + Person → lui, aber Projekt ≠ Person!)" },
+          { "src": "assets/img/pronom-pos-wrong.png", "label": "Je pense y. (y nach dem Verb — falsche Stellung!)" }
+        ],
+        "hint": "à + Sache (Projekt, Problem) → **y**; en wäre für *de + Sache*.",
+        "distractors": [
+          "J'en pense. (de ce projet → en, aber hier à!)",
+          "Je lui pense. (à + Person → lui, aber Projekt ≠ Person!)",
+          "Je pense y. (y nach dem Verb — falsche Stellung!)"
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

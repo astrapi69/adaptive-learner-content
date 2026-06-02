@@ -1,0 +1,350 @@
+{
+  "id": "02-imparfait",
+  "title": "L'imparfait — die Vergangenheit der Beschreibung",
+  "description": "Das imparfait: Bildung (nous-Stamm + Endungen), Sonderfall être → ét-, und Gebrauch für Beschreibungen, Zustände und Gewohnheiten in der Vergangenheit.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "imp-etre-je",
+      "front": "j'étais",
+      "back": "ich war",
+      "notes": "**être** im imparfait hat den Sonderstamm **ét-** (nicht *nous sommes* → *somm-*). *J'étais fatigué* — ich war müde.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["imparfait", "etre", "irregulier"]
+    },
+    {
+      "id": "imp-avoir-il",
+      "front": "il avait",
+      "back": "er hatte",
+      "notes": "**avoir** im imparfait: *nous avons* → Stamm **av-** + Endungen. *Il avait faim* — er hatte Hunger.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["imparfait", "avoir", "regulier"]
+    },
+    {
+      "id": "imp-faire-il",
+      "front": "il faisait beau",
+      "back": "es war schönes Wetter",
+      "notes": "**faire** im imparfait: *nous faisons* → Stamm **fais-**. *Il faisait beau* ist die klassische Wetterformel im imparfait.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["imparfait", "faire", "description"]
+    },
+    {
+      "id": "imp-aller-nous",
+      "front": "nous allions",
+      "back": "wir gingen / wir pflegten zu gehen",
+      "notes": "**aller** im imparfait: *nous allons* → Stamm **all-** + Endung **-ions**. *Nous allions à l'école chaque jour* — wir gingen jeden Tag zur Schule.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["imparfait", "aller", "habitude"]
+    },
+    {
+      "id": "imp-parler-je",
+      "front": "je parlais",
+      "back": "ich sprach / ich sprach früher",
+      "notes": "**parler** im imparfait: *nous parlons* → Stamm **parl-** + Endung **-ais**. *Quand j'étais petit, je parlais français* — als ich klein war, sprach ich Französisch.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["imparfait", "parler", "regulier"]
+    },
+    {
+      "id": "imp-finir-ils",
+      "front": "ils finissaient",
+      "back": "sie beendeten / sie pflegten zu beenden",
+      "notes": "**finir** im imparfait: *nous finissons* → Stamm **finiss-** + Endung **-aient**. Wichtig: Der Stamm der *nous*-Form behält das **-iss-**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["imparfait", "finir", "regulier"]
+    },
+    {
+      "id": "imp-manger-tu",
+      "front": "tu mangeais",
+      "back": "du aßest / du aßest früher",
+      "notes": "**manger** im imparfait: *nous mangeons* → Stamm **mange-** + Endung **-ais**. Das **-e-** im Stamm bleibt erhalten, damit **g** weich bleibt.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["imparfait", "manger", "orthographe"]
+    },
+    {
+      "id": "imp-habiter-vous",
+      "front": "vous habitiez",
+      "back": "ihr wohntet / Sie wohnten",
+      "notes": "**habiter** im imparfait: *nous habitons* → Stamm **habit-** + Endung **-iez**. *Vous habitiez à Paris* — Sie wohnten in Paris.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["imparfait", "habiter", "regulier"]
+    },
+    {
+      "id": "imp-jouer-on",
+      "front": "on jouait",
+      "back": "man spielte / wir spielten früher",
+      "notes": "**jouer** im imparfait: *nous jouons* → Stamm **jou-** + Endung **-ait**. *On jouait dehors tous les jours* — wir spielten früher jeden Tag draußen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["imparfait", "jouer", "habitude"]
+    },
+    {
+      "id": "imp-etre-quand",
+      "front": "quand j'étais petit(e)",
+      "back": "als ich klein war",
+      "notes": "Typische Einleitungsformel für Beschreibungen in der Kindheit. **quand** (als/wenn) + imparfait beschreibt den Hintergrund oder einen Zustand.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["imparfait", "etre", "kontext"]
+    },
+    {
+      "id": "imp-endung-ais",
+      "front": "je … / tu … (Endung imparfait)",
+      "back": "-ais (ich / du)",
+      "notes": "Die Endungen **-ais** (je, tu) sind identisch. Aussprache: stummes -s. *Je parlais, tu parlais* — ich sprach, du sprachst.",
+      "media_type": "text",
+      "difficulty": 1,
+      "hint": "Beide Formen sehen gleich aus — nur der Kontext unterscheidet sie.",
+      "tags": ["imparfait", "endung", "grammatik"]
+    },
+    {
+      "id": "imp-endung-aient",
+      "front": "ils/elles … (Endung imparfait)",
+      "back": "-aient (sie)",
+      "notes": "Die 3. Person Plural endet auf **-aient**. Das **-ent** am Ende ist wie immer stumm. *Ils jouaient, elles finissaient.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["imparfait", "endung", "grammatik"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-imparfait",
+      "type": "theory",
+      "title": "Was ist das imparfait — und wann brauche ich es?",
+      "body": "# L'imparfait — die Vergangenheit der Beschreibung\n\nIn **A1** war das **passé composé** deine einzige Vergangenheitsform — für abgeschlossene Ereignisse: *J'ai mangé une pomme* (ich habe einen Apfel gegessen). Jetzt lernst du das **imparfait** für Beschreibungen und Gewohnheiten.\n\nDas imparfait beschreibt:\n\n- **Zustände und Beschreibungen** in der Vergangenheit (wie es *war*): *Il faisait beau* — das Wetter war schön.\n- **Gewohnheiten** und wiederholte Handlungen (was man *früher immer* tat): *Nous allions à l'école* — wir gingen (jeden Tag) zur Schule.\n- **Gefühle und Gedanken** in der Vergangenheit: *J'étais fatigué* — ich war müde.\n\n> **Faustformel:** Passé composé = *einmalig, abgeschlossen* → **„ich habe … gemacht“**. Imparfait = *andauernd, wiederholt, Hintergrund* → **„ich war / ich machte früher“**.\n\nTypische Signalwörter fürs imparfait: *souvent* (oft), *toujours* (immer), *chaque jour* (jeden Tag), *autrefois / früher* (früher), *quand j'étais petit(e)* (als ich klein war)."
+    },
+    {
+      "id": "ex-match-bedeutung",
+      "type": "exercise",
+      "title": "Imparfait-Formen verstehen",
+      "exercise": {
+        "id": "ex-match-bedeutung",
+        "type": "matching",
+        "prompt": "Ordne jede imparfait-Form ihrer deutschen Bedeutung zu.",
+        "card_ids": ["imp-etre-je", "imp-avoir-il", "imp-faire-il", "imp-aller-nous", "imp-parler-je"],
+        "pairs": [
+          { "left": "j'étais", "right": "ich war" },
+          { "left": "il avait", "right": "er hatte" },
+          { "left": "il faisait beau", "right": "es war schönes Wetter" },
+          { "left": "nous allions", "right": "wir gingen" },
+          { "left": "je parlais", "right": "ich sprach" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-etais-petit",
+      "type": "exercise",
+      "title": "Als ich klein war …",
+      "exercise": {
+        "id": "ex-cloze-etais-petit",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Form von *être* im imparfait.",
+        "card_ids": ["imp-etre-quand"],
+        "sentence": "Quand j'___ petit, j'habitais à Lyon.",
+        "blanks": [
+          { "accept": ["étais"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "être → Sonderstamm **ét-** + Endung **-ais** für *je*."
+      }
+    },
+    {
+      "id": "ex-free-wetter",
+      "type": "exercise",
+      "title": "Das Wetter war schön",
+      "exercise": {
+        "id": "ex-free-wetter",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Das Wetter war schön.*",
+        "card_ids": ["imp-faire-il"],
+        "accept": [
+          "Il faisait beau.",
+          "il faisait beau",
+          "Il faisait beau",
+          "Il faisait beau temps."
+        ],
+        "hint": "Auf Französisch sagt man: *il fait beau* → im imparfait **il faisait beau**.",
+        "distractors": [
+          "Il a fait beau.",
+          "Il était beau.",
+          "Il faisait bien."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "step-formation",
+      "type": "theory",
+      "title": "Bildung des imparfait — Stamm + Endungen",
+      "body": "## Formation du imparfait\n\n### Schritt 1 — Den Stamm finden\n\nNimm die **nous-Form des Présent**, streich die Endung **-ons** ab — fertig ist der Stamm:\n\n| Infinitiv | nous-Form | Stamm |\n|---|---|---|\n| parler | nous parlons | **parl-** |\n| finir | nous finissons | **finiss-** |\n| faire | nous faisons | **fais-** |\n| aller | nous allons | **all-** |\n| avoir | nous avons | **av-** |\n| manger | nous mangeons | **mange-** |\n\n> **Sonderfall:** *être* folgt dieser Regel **nicht** — sein Stamm ist **ét-** (j'étais, tu étais …).\n\n### Schritt 2 — Endungen anhängen\n\n| Person | Endung | Beispiel (*parl-*) |\n|---|---|---|\n| je | **-ais** | je parlais |\n| tu | **-ais** | tu parlais |\n| il/elle/on | **-ait** | il parlait |\n| nous | **-ions** | nous parlions |\n| vous | **-iez** | vous parliez |\n| ils/elles | **-aient** | ils parlaient |\n\nDie Endungen sind für **alle** Verben gleich — nur der Stamm ändert sich."
+    },
+    {
+      "id": "ex-match-endungen",
+      "type": "exercise",
+      "title": "Endungen zuordnen",
+      "exercise": {
+        "id": "ex-match-endungen",
+        "type": "matching",
+        "prompt": "Welche Endung gehört zu welcher Person? Ordne zu.",
+        "card_ids": ["imp-endung-ais", "imp-endung-aient", "imp-parler-je", "imp-finir-ils"],
+        "pairs": [
+          { "left": "je / tu", "right": "-ais" },
+          { "left": "il / elle / on", "right": "-ait" },
+          { "left": "nous", "right": "-ions" },
+          { "left": "ils / elles", "right": "-aient" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-allions-ecole",
+      "type": "exercise",
+      "title": "Bilde: Wir gingen zur Schule",
+      "exercise": {
+        "id": "ex-tiles-allions-ecole",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Wir gingen jeden Tag zur Schule.*",
+        "card_ids": ["imp-aller-nous"],
+        "tiles": ["Nous", "allions", "à", "l'école", "chaque", "jour"],
+        "hint": "Stamm von *aller*: **all-** + Endung **-ions** für *nous*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-jouait",
+      "type": "exercise",
+      "title": "Man spielte draußen",
+      "exercise": {
+        "id": "ex-cloze-jouait",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige imparfait-Form von *jouer* (on).",
+        "card_ids": ["imp-jouer-on"],
+        "sentence": "Quand j'étais enfant, on ___ dehors tous les jours.",
+        "blanks": [
+          { "accept": ["jouait"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*jouer* → Stamm **jou-** + Endung **-ait** für *on* (= 3. Person Singular)."
+      }
+    },
+    {
+      "id": "ex-free-ich-war-muede",
+      "type": "exercise",
+      "title": "Ich war müde",
+      "exercise": {
+        "id": "ex-free-ich-war-muede",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich war sehr müde.*",
+        "card_ids": ["imp-etre-je"],
+        "accept": [
+          "J'étais très fatigué.",
+          "j'étais très fatigué",
+          "J'etais très fatigué.",
+          "J'étais très fatiguée.",
+          "j'etais tres fatigue"
+        ],
+        "hint": "être → Sonderstamm **ét-** + Endung **-ais** → **j'étais**; très = sehr; fatigué(e) = müde.",
+        "distractors": [
+          "J'ai été très fatigué.",
+          "Je suis très fatigué.",
+          "J'êtais très fatigué."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-beschreibung",
+      "type": "exercise",
+      "title": "Imparfait oder passé composé?",
+      "exercise": {
+        "id": "ex-pic-beschreibung",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz beschreibt den *Hintergrund/Zustand* (→ imparfait) und nicht ein einmaliges Ereignis?",
+        "card_ids": ["imp-faire-il", "imp-etre-je"],
+        "images": [
+          { "src": "assets/img/sunny-day.png", "label": "Il faisait beau et nous étions contents.", "is_correct": "true" },
+          { "src": "assets/img/rain-event.png", "label": "Il a plu toute la journée." },
+          { "src": "assets/img/arrive.png", "label": "Elle est arrivée à midi." },
+          { "src": "assets/img/phone-call.png", "label": "J'ai appelé ma mère." }
+        ],
+        "hint": "Der Hintergrund und Zustände stehen im imparfait; abgeschlossene Ereignisse im passé composé.",
+        "distractors": [
+          "Il a plu toute la journée.",
+          "Elle est arrivée à midi.",
+          "J'ai appelé ma mère."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "step-gebrauch",
+      "type": "theory",
+      "title": "Gebrauch des imparfait — Beschreibung, Gewohnheit, Gefühl",
+      "body": "## Wann benutze ich das imparfait?\n\n### 1. Beschreibung und Hintergrund\nDas imparfait malt die *Kulisse* — was im Hintergrund war, während etwas anderes geschah:\n\n> *Il faisait beau et les enfants jouaient dans le jardin.* — Das Wetter war schön und die Kinder spielten im Garten.\n\n### 2. Gewohnheiten und wiederholte Handlungen\nWas man *früher regelmäßig* getan hat, steht im imparfait:\n\n> *Chaque été, nous allions à la mer.* — Jeden Sommer fuhren wir ans Meer.\n\n### 3. Zustände und Gefühle\nGefühle, Meinungen und Zustände in der Vergangenheit:\n\n> *J'étais content(e). Il voulait partir. Elle avait peur.* — Ich war froh. Er wollte gehen. Sie hatte Angst.\n\n### Passé composé vs. imparfait — Kurzübersicht\n\n| Passé composé | Imparfait |\n|---|---|\n| einmaliges, abgeschlossenes Ereignis | andauernder Zustand / Hintergrund |\n| Handlung mit klarem Ende | Gewohnheit / Wiederholung |\n| *J'ai mangé une pomme.* | *Je mangeais une pomme chaque matin.* |\n\n> **Tipp für Deutsche:** Im Deutschen unterscheiden wir oft nicht so scharf zwischen Präteritum und Perfekt wie das Französische zwischen imparfait und passé composé. Lass dich vom deutschen „ich aß / ich habe gegessen“ nicht irritieren — entscheide nach **Beschreibung vs. abgeschlossenes Ereignis**."
+    },
+    {
+      "id": "ex-free-comprehension-allions",
+      "type": "exercise",
+      "title": "Verstehen: Nous allions à l'école",
+      "exercise": {
+        "id": "ex-free-comprehension-allions",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *Quand nous étions enfants, nous allions à l'école à pied.*",
+        "card_ids": ["imp-aller-nous", "imp-etre-je"],
+        "accept": [
+          "Als wir Kinder waren, gingen wir zu Fuß zur Schule.",
+          "als wir kinder waren, gingen wir zu fuß zur schule",
+          "Als wir Kinder waren, sind wir zu Fuß zur Schule gegangen.",
+          "Wenn wir Kinder waren, gingen wir zu Fuß zur Schule."
+        ],
+        "hint": "*quand* = als; *enfants* = Kinder; *à pied* = zu Fuß.",
+        "distractors": [
+          "Als wir Kinder waren, fuhren wir mit dem Bus zur Schule.",
+          "Wir sind gestern zu Fuß zur Schule gegangen.",
+          "Wir gehen als Kinder zur Schule."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-habitiez-paris",
+      "type": "exercise",
+      "title": "Bilde: Sie wohnten in Paris",
+      "exercise": {
+        "id": "ex-tiles-habitiez-paris",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Sie wohnten in Paris.* (förmlich: vous)",
+        "card_ids": ["imp-habiter-vous"],
+        "tiles": ["Vous", "habitiez", "à", "Paris"],
+        "hint": "*habiter* → Stamm **habit-** + Endung **-iez** für *vous*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-finissaient",
+      "type": "exercise",
+      "title": "Sie pflegten zu beenden",
+      "exercise": {
+        "id": "ex-cloze-finissaient",
+        "type": "cloze",
+        "prompt": "Ergänze die imparfait-Form von *finir* (ils).",
+        "card_ids": ["imp-finir-ils"],
+        "sentence": "Chaque soir, ils ___ leurs devoirs avant le dîner.",
+        "blanks": [
+          { "accept": ["finissaient"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*finir* → nous-Form *finissons* → Stamm **finiss-** + Endung **-aient** für *ils*."
+      }
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "id": "08-pronom-en",
+  "title": "Le pronom en",
+  "description": "Das Pronomen «en» ersetzt Nominalgruppen mit «de»: Teilungsartikel, Mengenangaben und Ausdrücke wie avoir besoin de. Mit Stellungsregeln und typischen Fehlern für Deutschsprachige.",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "en-partitif-cafe",
+      "front": "Tu veux du café ? — Oui, j'en veux.",
+      "back": "Möchtest du Kaffee? — Ja, ich möchte welchen.",
+      "notes": "**en** ersetzt *du café* (Teilungsartikel + Substantiv). Im Deutschen sagt man oft «Ja, ich möchte» ohne Pronomen — im Französischen ist «en» obligatorisch: *j'**en** veux*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["pronom-en", "partitif"]
+    },
+    {
+      "id": "en-partitif-the",
+      "front": "Je bois du thé → J'en bois.",
+      "back": "Ich trinke Tee. → Ich trinke welchen.",
+      "notes": "**en** ersetzt *du thé*. Stellung: **vor** dem Verb — *j'**en** bois*, nicht *je bois en*. Im Deutschen fällt das Pronomen oft ganz weg: «Ich trinke.»",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["pronom-en", "partitif"]
+    },
+    {
+      "id": "en-partitif-salade",
+      "front": "Elle mange de la salade → Elle en mange.",
+      "back": "Sie isst Salat. → Sie isst welchen.",
+      "notes": "**en** ersetzt auch *de la + Substantiv* (weiblicher Teilungsartikel). Die Form «en» bleibt immer gleich — kein Geschlecht, keine Zahl.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["pronom-en", "partitif"]
+    },
+    {
+      "id": "en-partitif-pommes",
+      "front": "Il achète des pommes → Il en achète.",
+      "back": "Er kauft Äpfel. → Er kauft welche.",
+      "notes": "**en** ersetzt *des + Substantiv* (Plural-Teilungsartikel). Merke: Ob *du*, *de la* oder *des* — «en» ersetzt alle drei.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["pronom-en", "partitif", "pluriel"]
+    },
+    {
+      "id": "en-menge-freres",
+      "front": "Tu as des frères ? — J'en ai deux.",
+      "back": "Hast du Brüder? — Ich habe zwei (davon).",
+      "notes": "Bei **Mengenangaben und Zahlen** bleibt die Zahl am **Satzende**: *j'**en** ai **deux***. Typischer Fehler: *j'ai deux* — das «en» fehlt! Im Deutschen braucht man kein Pronomen, im Französischen schon.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Die Zahl steht immer nach dem Verb: j'en ai deux.",
+      "tags": ["pronom-en", "menge", "zahl"]
+    },
+    {
+      "id": "en-menge-bouteilles",
+      "front": "Combien de bouteilles ? — J'en ai trois.",
+      "back": "Wie viele Flaschen? — Ich habe drei (davon).",
+      "notes": "**Menge am Ende!** Immer: Subjekt + **en** + Verb + Zahl. *J'**en** ai **trois**.* Nie: *j'ai trois bouteilles* → *j'ai trois* (das «en» fehlt).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronom-en", "menge", "zahl"]
+    },
+    {
+      "id": "en-besoin-de",
+      "front": "J'ai besoin de ce livre → J'en ai besoin.",
+      "back": "Ich brauche dieses Buch. → Ich brauche es.",
+      "notes": "**avoir besoin de** + Sache → *de* + Sache wird durch **en** ersetzt: *j'**en** ai besoin*. Achtung: Bei Personen wird «en» **nicht** verwendet (*j'ai besoin de lui*, nicht *j'en ai besoin*).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronom-en", "avoir-besoin-de", "de-expression"]
+    },
+    {
+      "id": "en-envie-de",
+      "front": "Elle a envie de vacances → Elle en a envie.",
+      "back": "Sie hat Lust auf Urlaub. → Sie hat Lust darauf.",
+      "notes": "**avoir envie de** + Sache → **en** ersetzt *de + Sache*: *elle **en** a envie*. Stellung vor dem Verb «a».",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronom-en", "avoir-envie-de", "de-expression"]
+    },
+    {
+      "id": "en-parler-de",
+      "front": "Vous parlez de ce problème → Vous en parlez.",
+      "back": "Ihr sprecht über dieses Problem. → Ihr sprecht darüber.",
+      "notes": "**parler de** + Sache → **en**: *vous **en** parlez*. Im Deutschen benutzt man «darüber», im Französischen steht «en» direkt vor dem Verb.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronom-en", "parler-de", "de-expression"]
+    },
+    {
+      "id": "en-stellung",
+      "front": "J'en prends. / Je n'en prends pas.",
+      "back": "Ich nehme davon. / Ich nehme davon nicht.",
+      "notes": "**Stellung von «en»**: immer **vor dem Verb** (vor *prends*). Bei Verneinung: *ne* + **en** + Verb + *pas*: *je n'**en** prends pas*. Niemals nach dem Verb!",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["pronom-en", "stellung", "negation"]
+    },
+    {
+      "id": "en-negation-more",
+      "front": "Il n'en veut plus.",
+      "back": "Er will keinen/keine mehr davon.",
+      "notes": "Mit **plus**: *il n'**en** veut **plus*** = er will nichts mehr davon. «en» steht zwischen «ne» und dem Verb, «plus» kommt nach dem Verb.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronom-en", "negation", "plus"]
+    },
+    {
+      "id": "en-infinitif",
+      "front": "Tu veux en manger ? — Oui, j'en veux manger.",
+      "back": "Willst du davon essen? — Ja, ich möchte davon essen.",
+      "notes": "Bei **Verb + Infinitiv** steht «en» vor dem **Infinitiv**: *tu veux **en** manger?* — weil «en» zum Infinitiv gehört. Häufige Konstruktion mit *vouloir, pouvoir, devoir*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "en steht vor dem Infinitiv, nicht vor dem Modalverb.",
+      "tags": ["pronom-en", "infinitif", "modal"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-intro",
+      "type": "theory",
+      "title": "Was ist «en» — und woher kennst du es schon?",
+      "body": "# Le pronom «en» — Einführung\n\nIn **A1** hast du den Teilungsartikel gelernt: *du café*, *de la salade*, *des pommes*. Statt diese «de»-Gruppe zu wiederholen, ersetzt **«en»** sie komplett:\n\n> *Tu prends du café ?* → *Oui, j'**en** prends.*\n\nDas Pronomen «en» bedeutet sinngemäß **«davon»** oder **«welche(n/s)»** — genau wie im Deutschen, nur dass es im Französischen **nie weggelassen** werden darf.\n\n## Die vier Hauptfunktionen von «en»\n\n| Funktion | Beispiel vorher | Mit «en» |\n|---|---|---|\n| Teilungsartikel *du/de la/des* | *Je bois du thé.* | *J'**en** bois.* |\n| Mengenangabe + Zahl | *J'ai deux frères.* | *J'**en** ai deux.* |\n| *avoir besoin de* + Sache | *J'ai besoin du livre.* | *J'**en** ai besoin.* |\n| *parler de* / *avoir envie de* | *Elle parle du voyage.* | *Elle **en** parle.* |\n\n**Goldene Regel:** «en» steht immer **vor dem Verb** (*j'**en** prends*, nie *je prends en*).\n\n> **Typischer Fehler** für Deutschsprachige: Im Deutschen fällt das Pronomen oft weg — *«Ich trinke»* statt *«Ich trinke welchen»*. Im Französischen ist «en» **obligatorisch**."
+    },
+    {
+      "id": "theory-mengen",
+      "type": "theory",
+      "title": "«en» bei Mengen und Zahlen",
+      "body": "## «en» bei Mengen und Zahlen\n\nWenn du **zählst oder eine Menge nennst**, bleibt die Zahl am **Satzende** — «en» ersetzt nur das Substantiv:\n\n| Frage | Antwort mit «en» |\n|---|---|\n| *Tu as des frères ?* | *J'**en** ai **deux**.* |\n| *Combien de pommes ?* | *J'**en** achète **cinq**.* |\n| *Des bouteilles ?* | *Il **en** a **beaucoup**.* |\n\n**Reihenfolge:** Subjekt → «en» → Verb → Zahl/Menge\n\n### Häufige Fehler\n\n- **Fehler 1 — «en» weglassen:** *j'ai deux* ✗ → *j'**en** ai deux* ✓\n- **Fehler 2 — Zahl vor dem Verb:** *j'en deux ai* ✗ → Zahl kommt immer **nach** dem Verb\n- **Fehler 3 — le/la statt en:** *je le prends* ersetzt einen bestimmten Artikel (*le café*), nicht einen Teilungsartikel. *J'**en** prends* ersetzt *du café*.\n\n> **Merksatz:** *«en»* geht **vor**, die Zahl bleibt **hinten*."
+    },
+    {
+      "id": "theory-de-expressions",
+      "type": "theory",
+      "title": "«en» mit Ausdrücken mit «de»",
+      "body": "## Ausdrücke mit «de» und das Pronomen «en»\n\nViele häufige Verben und Ausdrücke im Französischen werden mit **de** + Sache konstruiert. «en» ersetzt dieses *de + Sache*:\n\n| Ausdruck | Vollsatz | Mit «en» |\n|---|---|---|\n| *avoir besoin de* | *J'ai besoin de ce livre.* | *J'**en** ai besoin.* |\n| *avoir envie de* | *Tu as envie de chocolat ?* | *Tu **en** as envie ?* |\n| *parler de* | *Nous parlons de ce problème.* | *Nous **en** parlons.* |\n| *se souvenir de* | *Elle se souvient du voyage.* | *Elle **en** souvient.* |\n\n### Wichtige Einschränkung\n\n«en» ersetzt nur **Sachen**, nicht **Personen**!\n\n- *J'ai besoin de ce stylo.* → *J'**en** ai besoin.* ✓ (Sache)\n- *J'ai besoin de Marie.* → *J'ai besoin d'**elle**.* ✓ (Person → Betontes Pronomen)\n\n**Stellung bei Verneinung:** *ne* ... *en* ... Verb ... *pas*\n> *Je n'**en** ai pas besoin.* — Ich brauche es nicht."
+    },
+    {
+      "id": "ex-match-en-ersatz",
+      "type": "exercise",
+      "title": "Was ersetzt «en»?",
+      "exercise": {
+        "id": "ex-match-en-ersatz",
+        "type": "matching",
+        "prompt": "Ordne jedem Satz mit «en» den Originalsatz zu, den er ersetzt.",
+        "card_ids": ["en-partitif-cafe", "en-partitif-the", "en-partitif-pommes", "en-besoin-de", "en-parler-de"],
+        "pairs": [
+          { "left": "J'en veux.", "right": "Je veux du café." },
+          { "left": "J'en bois.", "right": "Je bois du thé." },
+          { "left": "Il en achète.", "right": "Il achète des pommes." },
+          { "left": "J'en ai besoin.", "right": "J'ai besoin de ce livre." },
+          { "left": "Vous en parlez.", "right": "Vous parlez de ce problème." }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-de-expressions",
+      "type": "exercise",
+      "title": "Ausdrücke mit «de» erkennen",
+      "exercise": {
+        "id": "ex-match-de-expressions",
+        "type": "matching",
+        "prompt": "Ordne den französischen Ausdruck seiner deutschen Bedeutung zu.",
+        "card_ids": ["en-besoin-de", "en-envie-de", "en-parler-de"],
+        "pairs": [
+          { "left": "avoir besoin de", "right": "brauchen / Bedarf haben an" },
+          { "left": "avoir envie de", "right": "Lust haben auf" },
+          { "left": "parler de", "right": "sprechen über / von" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-cafe",
+      "type": "exercise",
+      "title": "«en» einsetzen — Kaffee",
+      "exercise": {
+        "id": "ex-cloze-cafe",
+        "type": "cloze",
+        "prompt": "Ergänze das Pronomen «en» an der richtigen Stelle.",
+        "card_ids": ["en-partitif-cafe"],
+        "sentence": "— Tu veux du café ? — Oui, j'___ veux.",
+        "blanks": [
+          { "accept": ["en"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "«en» steht vor dem Verb — j'___ veux."
+      }
+    },
+    {
+      "id": "ex-cloze-menge",
+      "type": "exercise",
+      "title": "Menge: «en» + Zahl",
+      "exercise": {
+        "id": "ex-cloze-menge",
+        "type": "cloze",
+        "prompt": "Ergänze «en» und die Zahl korrekt (Brüder → 2).",
+        "card_ids": ["en-menge-freres"],
+        "sentence": "— Tu as des frères ? — Oui, j'___ ai deux.",
+        "blanks": [
+          { "accept": ["en"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Muster: j'en ai + Zahl. Die Zahl bleibt am Ende!"
+      }
+    },
+    {
+      "id": "ex-free-the-trinken",
+      "type": "exercise",
+      "title": "Übersetze: Ich trinke welchen (Tee).",
+      "exercise": {
+        "id": "ex-free-the-trinken",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich trinke welchen.* (Gemeint ist: Ich trinke Tee — mit «en».)",
+        "card_ids": ["en-partitif-the"],
+        "accept": [
+          "J'en bois.",
+          "j'en bois",
+          "j'en bois.",
+          "J'en bois"
+        ],
+        "hint": "Subjekt + *en* + Verb: *j'**en** bois*.",
+        "distractors": [
+          "Je bois en.",
+          "J'en le bois.",
+          "Je bois du thé."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-besoin",
+      "type": "exercise",
+      "title": "Übersetze: Ich brauche es.",
+      "exercise": {
+        "id": "ex-free-besoin",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich brauche es.* (Ausdruck: avoir besoin de → «en» für «de ce livre».)",
+        "card_ids": ["en-besoin-de"],
+        "accept": [
+          "J'en ai besoin.",
+          "j'en ai besoin",
+          "j'en ai besoin.",
+          "J'en ai besoin"
+        ],
+        "hint": "Ausdruck: *avoir besoin de* → *j'**en** ai besoin*.",
+        "distractors": [
+          "J'ai en besoin.",
+          "J'ai besoin.",
+          "Je l'ai besoin."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-parler",
+      "type": "exercise",
+      "title": "Übersetze: Wir sprechen darüber.",
+      "exercise": {
+        "id": "ex-free-parler",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Wir sprechen darüber.* (Ausdruck: parler de.)",
+        "card_ids": ["en-parler-de"],
+        "accept": [
+          "Nous en parlons.",
+          "nous en parlons",
+          "nous en parlons.",
+          "Nous en parlons"
+        ],
+        "hint": "*parler de* + Sache → «en» vor dem Verb: *nous **en** parlons*.",
+        "distractors": [
+          "Nous parlons en.",
+          "Nous en parlons de.",
+          "Nous parlons de ça."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-menge-flaschen",
+      "type": "exercise",
+      "title": "Bilde: Ich habe drei davon.",
+      "exercise": {
+        "id": "ex-tiles-menge-flaschen",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich habe drei Flaschen davon.* → Benutze «en» und lass «bouteilles» weg.",
+        "card_ids": ["en-menge-bouteilles"],
+        "tiles": ["J'", "en", "ai", "trois"],
+        "hint": "Reihenfolge: j'en ai + Zahl (trois am Ende).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-negation",
+      "type": "exercise",
+      "title": "Bilde: Er will keinen mehr.",
+      "exercise": {
+        "id": "ex-tiles-negation",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Er will keinen/keine mehr davon.* (Verneinung mit «plus»)",
+        "card_ids": ["en-negation-more"],
+        "tiles": ["Il", "n'", "en", "veut", "plus"],
+        "hint": "Reihenfolge: Il n'en veut plus. «en» vor dem Verb, «plus» danach.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-stellung",
+      "type": "exercise",
+      "title": "Wo steht «en»?",
+      "exercise": {
+        "id": "ex-pic-stellung",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist **grammatisch korrekt** für *«Ich nehme davon»*?",
+        "card_ids": ["en-stellung"],
+        "images": [
+          { "src": "assets/img/en-correct.png", "label": "J'en prends.", "is_correct": "true" },
+          { "src": "assets/img/en-after-verb.png", "label": "Je prends en." },
+          { "src": "assets/img/en-le-instead.png", "label": "Je le prends." },
+          { "src": "assets/img/en-missing.png", "label": "Je prends." }
+        ],
+        "hint": "«en» steht immer **vor** dem Verb.",
+        "distractors": [
+          "Je prends en.",
+          "Je le prends.",
+          "Je prends."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

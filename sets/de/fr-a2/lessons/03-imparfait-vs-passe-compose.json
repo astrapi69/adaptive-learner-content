@@ -1,0 +1,330 @@
+{
+  "id": "03-imparfait-vs-passe-compose",
+  "title": "Imparfait oder passé composé?",
+  "description": "Der große A2-Kontrast: passé composé für abgeschlossene Ereignisse, imparfait für Hintergrund und Gewohnheiten — mit Signalwörtern und dem Klassiker ›Ich schlief, als das Telefon klingelte‹.",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "signal-soudain",
+      "front": "soudain / tout à coup",
+      "back": "plötzlich / auf einmal",
+      "notes": "**Signalwort → passé composé.** Diese Wörter kündigen ein plötzliches, einzelnes Ereignis an: *Soudain, il **a crié**.* (Plötzlich schrie er.)",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["signal-word", "passe-compose"]
+    },
+    {
+      "id": "signal-un-jour",
+      "front": "un jour / hier",
+      "back": "eines Tages / gestern",
+      "notes": "**Signalwort → passé composé.** Bezeichnet einen bestimmten, abgeschlossenen Zeitpunkt: *Hier, j'**ai rencontré** Marie.* (Gestern habe ich Marie getroffen.)",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["signal-word", "passe-compose"]
+    },
+    {
+      "id": "signal-tous-les-jours",
+      "front": "tous les jours / souvent",
+      "back": "jeden Tag / oft",
+      "notes": "**Signalwort → imparfait.** Drückt eine Gewohnheit oder Wiederholung in der Vergangenheit aus: *Quand j'étais enfant, je **jouais** tous les jours dehors.* (Als ich Kind war, spielte ich jeden Tag draußen.)",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["signal-word", "imparfait"]
+    },
+    {
+      "id": "signal-toujours",
+      "front": "toujours / d'habitude",
+      "back": "immer / normalerweise / gewöhnlich",
+      "notes": "**Signalwort → imparfait.** Beschreibt, wie etwas regelmäßig war: *D'habitude, elle **prenait** le bus.* (Gewöhnlich nahm sie den Bus.)",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["signal-word", "imparfait"]
+    },
+    {
+      "id": "signal-pendant-que",
+      "front": "pendant que / quand j'étais",
+      "back": "während / als ich … war",
+      "notes": "**Signalwort → imparfait** (für den andauernden Hintergrund). In Kombination mit dem passé composé: *Pendant que je **dormais**, le téléphone **a sonné**.* (Während ich schlief, klingelte das Telefon.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["signal-word", "imparfait", "kontrast"]
+    },
+    {
+      "id": "concept-pc-ereignis",
+      "front": "passé composé — Wann?",
+      "back": "Einzelne, abgeschlossene Handlung oder Ereignis",
+      "notes": "Das **passé composé** kennst du aus A1. Es steht für:\n- eine **abgeschlossene** Handlung: *J'**ai mangé** une pomme.*\n- ein **einzelnes** Ereignis: *Il **est arrivé** à midi.*\n- eine Reihe aufeinanderfolgender Ereignisse: *D'abord il **a ouvert** la porte, puis il **est entré**.*\n\nDenkbild: »und dann passierte …«",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["passe-compose", "grammatik"]
+    },
+    {
+      "id": "concept-imp-hintergrund",
+      "front": "imparfait — Wann?",
+      "back": "Hintergrund, andauernder Zustand, Beschreibung, Gewohnheit",
+      "notes": "Das **imparfait** aus der letzten Lektion steht für:\n- **Hintergrund/Beschreibung**: *Il **faisait** beau.* (Es war schön.)\n- **andauernder Zustand**: *J'**avais** faim.* (Ich hatte Hunger.)\n- **Gewohnheit**: *Nous **allions** à la plage chaque été.* (Wir gingen jeden Sommer an den Strand.)\n\nDenkbild: die »Bühne«, auf der ein Ereignis passiert.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["imparfait", "grammatik"]
+    },
+    {
+      "id": "kontrast-klassiker",
+      "front": "Je dormais quand le téléphone a sonné.",
+      "back": "Ich schlief (Hintergrund), als das Telefon klingelte (Ereignis).",
+      "notes": "**Der Klassiker!** Imparfait + passé composé zusammen:\n- *dormais* → imparfait → andauernde Handlung im Hintergrund\n- *a sonné* → passé composé → einzelnes, plötzliches Ereignis\n\nMerke: Das imparfait ist die »Bühne«; das passé composé ist das »Ereignis auf der Bühne«.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["kontrast", "imparfait", "passe-compose"]
+    },
+    {
+      "id": "verb-dormir-imp",
+      "front": "dormir — imparfait (je)",
+      "back": "je dormais — ich schlief",
+      "notes": "**Imparfait-Bildung:** Stamm aus der *nous*-Form Präsens (*nous dorm**ons***) + Endungen: *-ais, -ais, -ait, -ions, -iez, -aient*. *je dormais* = ich schlief / ich schlief gerade.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "imparfait"]
+    },
+    {
+      "id": "verb-sonner-pc",
+      "front": "sonner — passé composé (il/elle)",
+      "back": "il a sonné — es klingelte",
+      "notes": "**Passé composé:** *avoir* + Partizip. *sonner* ist regelmäßig: Partizip = **sonné**. *Le téléphone **a sonné***.* (Das Telefon klingelte.)",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "passe-compose"]
+    },
+    {
+      "id": "verb-habiter-imp",
+      "front": "habiter — imparfait (nous)",
+      "back": "nous habitions — wir wohnten",
+      "notes": "**Imparfait:** Stamm *habit-* + *-ions*. *Quand nous étions jeunes, nous **habitions** à Lyon.* (Als wir jung waren, wohnten wir in Lyon.) Typische Beschreibung der Vergangenheit → imparfait.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "imparfait"]
+    },
+    {
+      "id": "verb-appeler-pc",
+      "front": "appeler — passé composé (elle)",
+      "back": "elle a appelé — sie hat angerufen",
+      "notes": "**Passé composé:** *avoir* + Partizip *appelé*. *Soudain, elle **a appelé**.* (Plötzlich rief sie an.) Das Signalwort *soudain* zeigt: einzelnes Ereignis → passé composé.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "passe-compose"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theorie-1-kontrast",
+      "type": "theory",
+      "title": "Passé composé vs. imparfait — der große A2-Kontrast",
+      "body": "# Imparfait oder passé composé?\n\nDas **passé composé** kennst du aus A1, das **imparfait** aus der letzten Lektion. Jetzt die entscheidende Frage: **Wann welche Form?**\n\n## Die Grundregel\n\n| Zeitform | Verwendung | Denkbild |\n|---|---|---|\n| **Passé composé** | Einzelne, **abgeschlossene** Handlung oder Ereignis | *»und dann passierte …«* |\n| **Imparfait** | **Hintergrund**, Beschreibung, andauernder Zustand, **Gewohnheit** | *»die Bühne«* |\n\n## Beispiele\n\n- **PC:** *Hier, j'**ai mangé** une pizza.* → abgeschlossene Handlung (gegessen — fertig)\n- **Imp:** *Quand j'étais enfant, je **mangeais** des pizzas chaque week-end.* → Gewohnheit in der Vergangenheit\n- **PC:** *Il **est arrivé** à 18 h.* → einzelnes Ereignis\n- **Imp:** *Il **faisait** froid.* → Beschreibung (Hintergrund)\n\n> **Wichtig:** Beide Zeitformen können im selben Text vorkommen — das passé composé für das Ereignis, das imparfait für den Hintergrund."
+    },
+    {
+      "id": "theorie-2-signalwoerter",
+      "type": "theory",
+      "title": "Signalwörter — der schnellste Hinweis",
+      "body": "## Signalwörter — der schnellste Hinweis\n\nManche Wörter verraten dir fast immer, welche Zeitform folgt:\n\n### Signalwörter → passé composé\n\n| Signalwort | Bedeutung | Beispiel |\n|---|---|---|\n| **soudain** | plötzlich | *Soudain, il **a crié**.* |\n| **tout à coup** | auf einmal | *Tout à coup, elle **est tombée**.* |\n| **un jour** | eines Tages | *Un jour, j'**ai décidé** de partir.* |\n| **hier** | gestern | *Hier, nous **avons vu** un film.* |\n\n### Signalwörter → imparfait\n\n| Signalwort | Bedeutung | Beispiel |\n|---|---|---|\n| **tous les jours** | jeden Tag | *Il **travaillait** tous les jours.* |\n| **souvent** | oft | *Elle **lisait** souvent le soir.* |\n| **toujours** | immer | *Ils **jouaient** toujours ensemble.* |\n| **d'habitude** | gewöhnlich | *D'habitude, je **prenais** le métro.* |\n| **pendant que** | während | *Pendant que tu **dormais** …* |\n| **quand j'étais** | als ich … war | *Quand j'**étais** enfant …* |\n\n> **Faustregel:** Einmalig/plötzlich → passé composé. Wiederholt/andauernd → imparfait."
+    },
+    {
+      "id": "theorie-3-zusammen",
+      "type": "theory",
+      "title": "Beide zusammen — der Klassiker",
+      "body": "## Imparfait + passé composé zusammen\n\nDer häufigste Fall im Erzählen: **eine andauernde Handlung wird durch ein Ereignis unterbrochen.**\n\n> ***Je dormais*** *(imparfait — Hintergrund)* ***quand le téléphone a sonné*** *(passé composé — Ereignis).*\n> → Ich schlief, als das Telefon klingelte.\n\n### Weitere Beispiele\n\n| Imparfait (Hintergrund/Zustand) | Passé composé (Ereignis) |\n|---|---|\n| *Il **pleuvait*** (es regnete) | *quand nous **sommes sortis*** (als wir rausgingen) |\n| *Elle **lisait*** (sie las) | *quand Marc **est entré*** (als Marc hereinkam) |\n| *Nous **mangions*** (wir aßen) | *quand le téléphone **a sonné*** (als das Telefon klingelte) |\n\n### Häufigste Fehler von Deutschsprachigen\n\n- Das **imparfait** durch das passé composé **ersetzen** — der häufigste Fehler! (*J'ai dormi quand …* ✗)\n- Das **falsche Hilfsverb** im passé composé wählen (*il est sonné* ✗ → *il **a** sonné* ✓)\n- Die **imparfait-Endungen** verwechseln: *je dormait* ✗ → *je dorm**ais*** ✓\n\n> **Merksatz:** Das imparfait malt die **Bühne** — das passé composé bringt die **Handlung**."
+    },
+    {
+      "id": "ex-match-signalwoerter",
+      "type": "exercise",
+      "title": "Signalwort → Zeitform",
+      "exercise": {
+        "id": "ex-match-signalwoerter",
+        "type": "matching",
+        "prompt": "Ordne jedes Signalwort der richtigen Zeitform zu.",
+        "card_ids": ["signal-soudain", "signal-tous-les-jours", "signal-toujours", "signal-un-jour", "signal-pendant-que"],
+        "pairs": [
+          { "left": "soudain", "right": "passé composé" },
+          { "left": "tous les jours", "right": "imparfait" },
+          { "left": "toujours", "right": "imparfait" },
+          { "left": "un jour", "right": "passé composé" },
+          { "left": "pendant que", "right": "imparfait" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-bedeutung",
+      "type": "exercise",
+      "title": "Signalwort auf Deutsch",
+      "exercise": {
+        "id": "ex-match-bedeutung",
+        "type": "matching",
+        "prompt": "Ordne den französischen Signalwörtern ihre deutschen Bedeutungen zu.",
+        "card_ids": ["signal-soudain", "signal-un-jour", "signal-tous-les-jours", "signal-toujours"],
+        "pairs": [
+          { "left": "soudain / tout à coup", "right": "plötzlich / auf einmal" },
+          { "left": "un jour / hier", "right": "eines Tages / gestern" },
+          { "left": "tous les jours / souvent", "right": "jeden Tag / oft" },
+          { "left": "toujours / d'habitude", "right": "immer / gewöhnlich" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-konzepte",
+      "type": "exercise",
+      "title": "Verwendung zuordnen",
+      "exercise": {
+        "id": "ex-match-konzepte",
+        "type": "matching",
+        "prompt": "Welche Beschreibung passt zu welcher Zeitform?",
+        "card_ids": ["concept-pc-ereignis", "concept-imp-hintergrund", "kontrast-klassiker"],
+        "pairs": [
+          { "left": "einzelnes, abgeschlossenes Ereignis", "right": "passé composé" },
+          { "left": "Gewohnheit / Hintergrund / Beschreibung", "right": "imparfait" },
+          { "left": "Hintergrund + Ereignis zusammen", "right": "imparfait + passé composé" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-soudain",
+      "type": "exercise",
+      "title": "Plötzlich rief sie an",
+      "exercise": {
+        "id": "ex-cloze-soudain",
+        "type": "cloze",
+        "prompt": "Das Signalwort *soudain* fordert das passé composé. Ergänze die richtige Form von *appeler* (elle).",
+        "card_ids": ["verb-appeler-pc", "signal-soudain"],
+        "sentence": "Soudain, elle ___ Marie.",
+        "blanks": [
+          { "accept": ["a appelé"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Passé composé von *appeler*: avoir + Partizip *appelé*."
+      }
+    },
+    {
+      "id": "ex-cloze-klassiker",
+      "type": "exercise",
+      "title": "Der Klassiker: Ich schlief, als …",
+      "exercise": {
+        "id": "ex-cloze-klassiker",
+        "type": "cloze",
+        "prompt": "Ergänze beide Verbformen: Imparfait für den Hintergrund, passé composé für das Ereignis.",
+        "card_ids": ["kontrast-klassiker", "verb-dormir-imp", "verb-sonner-pc"],
+        "sentence": "Je ___ quand le téléphone ___.",
+        "blanks": [
+          { "accept": ["dormais"] },
+          { "accept": ["a sonné"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "1. Lücke: imparfait von *dormir* (je). 2. Lücke: passé composé von *sonner* (il/elle)."
+      }
+    },
+    {
+      "id": "ex-cloze-habiter",
+      "type": "exercise",
+      "title": "Wir wohnten in Lyon — Gewohnheit",
+      "exercise": {
+        "id": "ex-cloze-habiter",
+        "type": "cloze",
+        "prompt": "Gewohnheit/Hintergrund → imparfait. Ergänze *habiter* im imparfait (nous).",
+        "card_ids": ["verb-habiter-imp", "signal-pendant-que"],
+        "sentence": "Quand nous étions jeunes, nous ___ à Lyon.",
+        "blanks": [
+          { "accept": ["habitions"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Imparfait von *habiter* (nous): Stamm *habit-* + *-ions*."
+      }
+    },
+    {
+      "id": "ex-free-translate-background",
+      "type": "exercise",
+      "title": "Übersetzen: Hintergrund + Ereignis",
+      "exercise": {
+        "id": "ex-free-translate-background",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Sie las (imparfait), als Marc hereinkam (passé composé).*",
+        "card_ids": ["kontrast-klassiker", "concept-imp-hintergrund"],
+        "accept": [
+          "Elle lisait quand Marc est entré.",
+          "elle lisait quand marc est entré",
+          "Elle lisait quand Marc est entre.",
+          "elle lisait quand marc est entre"
+        ],
+        "hint": "*lire* im imparfait (elle): *lisait*. *entrer* im passé composé (Marc → il): être + *entré*.",
+        "distractors": [
+          "Elle a lu quand Marc est entré.",
+          "Elle lisait quand Marc entrait.",
+          "Elle a lu quand Marc entrait."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-habitude",
+      "type": "exercise",
+      "title": "Übersetzen: Gewohnheit auf Deutsch",
+      "exercise": {
+        "id": "ex-free-habitude",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *D'habitude, elle prenait le bus.*",
+        "card_ids": ["signal-toujours", "concept-imp-hintergrund"],
+        "accept": [
+          "Gewöhnlich nahm sie den Bus.",
+          "gewöhnlich nahm sie den Bus",
+          "Normalerweise nahm sie den Bus.",
+          "normalerweise nahm sie den Bus",
+          "Sie nahm gewöhnlich den Bus.",
+          "sie nahm gewöhnlich den bus"
+        ],
+        "hint": "*D'habitude* = gewöhnlich/normalerweise. *prenait* = Imparfait von *prendre* (sie nahm).",
+        "distractors": [
+          "Gewöhnlich hat sie den Bus genommen.",
+          "Sie nimmt normalerweise den Bus.",
+          "Plötzlich nahm sie den Bus."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-soudain",
+      "type": "exercise",
+      "title": "Bilde: Plötzlich fiel sie hin",
+      "exercise": {
+        "id": "ex-tiles-soudain",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zu einem korrekten Satz: *Plötzlich fiel sie hin.* (tomber → être-Verb!)",
+        "card_ids": ["signal-soudain", "concept-pc-ereignis"],
+        "tiles": ["Tout", "à", "coup,", "elle", "est", "tombée."],
+        "hint": "*tomber* bildet das passé composé mit *être*; weibliches Subjekt → Partizip *tombée* mit -e.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-tense-choice",
+      "type": "exercise",
+      "title": "Welcher Satz ist korrekt?",
+      "exercise": {
+        "id": "ex-picture-tense-choice",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz beschreibt eine **Gewohnheit** korrekt auf Französisch: *Er aß jeden Tag Pizza.*",
+        "card_ids": ["signal-tous-les-jours", "concept-imp-hintergrund"],
+        "images": [
+          { "src": "assets/img/pizza-habit-1.png", "label": "Il mangeait de la pizza tous les jours.", "is_correct": "true" },
+          { "src": "assets/img/pizza-habit-2.png", "label": "Il a mangé de la pizza tous les jours." },
+          { "src": "assets/img/pizza-habit-3.png", "label": "Il mange de la pizza tous les jours." },
+          { "src": "assets/img/pizza-habit-4.png", "label": "Il mangait de la pizza tous les jours." }
+        ],
+        "hint": "Gewohnheit → imparfait. Die korrekte *-ait*-Form lautet *mangeait* (mit -e- vor -ait).",
+        "distractors": [
+          "Il a mangé de la pizza tous les jours.",
+          "Il mange de la pizza tous les jours.",
+          "Il mangait de la pizza tous les jours."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
