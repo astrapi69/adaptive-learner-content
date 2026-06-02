@@ -1,0 +1,329 @@
+{
+  "id": "15-review-and-consolidation",
+  "title": "Review and Consolidation (A2)",
+  "description": "Die große Abschlusswiederholung des A2-Kurses: Verlaufsformen, Present Perfect, zwei Zukunftsformen, Modalverben, Steigerung, Konditionalsätze, Passiv und falsche Freunde — alles gemischt in einer Lektion.",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "rev-progressive",
+      "front": "I am working / She was reading",
+      "back": "Verlaufsform Gegenwart: am/is/are + -ing | Verlaufsform Vergangenheit: was/were + -ing",
+      "notes": "**Present Progressive** (gerade jetzt): *I **am working** right now.*\n**Past Progressive** (war gerade dabei): *She **was reading** when I called.*\n\nBeide Formen zeigen eine laufende Handlung — im Deutschen sagt man einfach 'ich arbeite (gerade)' bzw. 'sie las gerade'.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["grammar", "review", "progressive"]
+    },
+    {
+      "id": "rev-present-perfect",
+      "front": "she has gone / they have finished",
+      "back": "Present Perfect: have/has + Partizip II — Ergebnis/Erfahrung, kein konkreter Zeitpunkt",
+      "notes": "**Present Perfect** = have/has + Partizip II (z. B. *gone, finished, seen*).\n\n> *She **has gone** home.* — Sie ist jetzt weg (Ergebnis relevant).\n> *I **have never seen** that film.* — Lebenserfahrung.\n\nKein konkreter Zeitpunkt → Present Perfect. Konkreter Zeitpunkt (yesterday, in 2010) → Simple Past.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "review", "present-perfect"]
+    },
+    {
+      "id": "rev-pp-vs-past",
+      "front": "Present Perfect vs. Simple Past",
+      "back": "Present Perfect = Ergebnis/Erfahrung (kein Zeitpunkt) | Simple Past = abgeschlossene Handlung + konkreter Zeitpunkt",
+      "notes": "| | Present Perfect | Simple Past |\n|---|---|---|\n| **Signalwörter** | ever, never, already, just, yet | yesterday, last year, in 2010, ago |\n| **Beispiel** | *I **have lost** my keys.* | *I **lost** my keys yesterday.* |\n\nHäufiger Fehler: *I have seen him yesterday.* → **falsch!** *yesterday* = konkreter Zeitpunkt → **Simple Past**: *I **saw** him yesterday.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "review", "present-perfect", "simple-past"],
+      "hint": "Zeitangabe wie 'yesterday'? → Simple Past!"
+    },
+    {
+      "id": "rev-will-going-to",
+      "front": "I will / I'm going to",
+      "back": "will = spontane Entscheidung / Versprechen / Vermutung | going to = fester Plan / sichtbarer Beweis",
+      "notes": "| | **will** | **going to** |\n|---|---|---|\n| Spontan entschieden | *I **will** answer it.* | — |\n| Fester Plan | — | *I **am going to** visit her.* |\n| Versprechen | *I **will** call you.* | — |\n| Beweis sichtbar | — | *It **is going to** rain.* |\n\nMerkregel: Schon geplant oder Beweis? → **going to**. Gerade erst entschieden, Versprechen, Meinung? → **will**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "review", "future", "will", "going-to"]
+    },
+    {
+      "id": "rev-can-could",
+      "front": "she can swim / she could swim",
+      "back": "can = kann (Fähigkeit/Erlaubnis jetzt) | could = konnte (Vergangenheit) / könnte (Höflichkeit/Konditional)",
+      "notes": "**can** → Fähigkeit oder Erlaubnis im Präsens: *She **can** swim very fast.*\n**could** → Fähigkeit in der Vergangenheit: *As a child she **could** swim fast.* Oder höfliche Bitte: ***Could** you help me?*\n\nAchtung: *she **cans*** ist **falsch** — Modalverben bekommen kein -s in der 3. Person!",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "review", "modals", "can", "could"]
+    },
+    {
+      "id": "rev-must-dont-have-to",
+      "front": "you mustn't / you don't have to",
+      "back": "mustn't = darfst nicht (Verbot!) | don't have to = musst nicht (keine Pflicht, aber erlaubt)",
+      "notes": "Dies ist einer der häufigsten Fehler bei Deutschsprachigen:\n\n| Ausdruck | Bedeutung | Beispiel |\n|---|---|---|\n| **mustn't** | **Verbot** — ist verboten! | *You **mustn't** smoke here.* |\n| **don't have to** | **keine Pflicht** — du kannst, musst aber nicht | *You **don't have to** come.* |\n\nAuf Deutsch entsprechen beide 'musst nicht' — aber im Englischen ist der Unterschied riesig!",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "review", "modals", "must", "obligation"],
+      "hint": "mustn't = VERBOTEN. don't have to = nicht nötig, aber erlaubt."
+    },
+    {
+      "id": "rev-comparatives",
+      "front": "bigger / the biggest",
+      "back": "Komparativ: -er (kürzere Adj.) / more + Adj. (längere) | Superlativ: the -est / the most + Adj.",
+      "notes": "| | Komparativ | Superlativ |\n|---|---|---|\n| **Kurze Adjektive** (1–2 Silben) | big → **bigger** | **the biggest** |\n| **Lange Adjektive** (3+ Silben) | important → **more important** | **the most important** |\n| **Unregelmäßig** | good → **better** | **the best** |\n\nHäufiger Fehler: ***more bigger*** → **falsch!** Niemals -er und *more* zusammen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "review", "comparatives", "superlatives"]
+    },
+    {
+      "id": "rev-cond-zero-first",
+      "front": "If it rains, I will… (1st conditional)",
+      "back": "Erster Konditionalsatz: If + Simple Present, … will + Infinitiv (reale Zukunftsbedingung)",
+      "notes": "**Zero Conditional** (immer wahr): *If you heat water, it **boils**.* → Beide Teile im Simple Present.\n\n**First Conditional** (reale Zukunftsbedingung): *If it **rains**, I **will** stay home.* → *if*-Teil: Simple Present; Hauptsatz: *will* + Infinitiv.\n\nHäufiger Fehler: ***If it will rain*** → **falsch!** Im *if*-Teil steht **kein** *will*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "review", "conditionals", "first-conditional"],
+      "hint": "Kein 'will' im if-Teil!"
+    },
+    {
+      "id": "rev-cond-second",
+      "front": "If I had…, I would… (2nd conditional)",
+      "back": "Zweiter Konditionalsatz: If + Simple Past, … would + Infinitiv (unreal/hypothetisch)",
+      "notes": "**Second Conditional** — hypothetische oder unwahrscheinliche Situation:\n\n> *If I **had** more money, I **would** travel the world.*\n\n*if*-Teil: Simple Past (auch wenn die Bedeutung Gegenwart ist!); Hauptsatz: *would* + Infinitiv.\n\nHäufiger Fehler: ***If I would have*** → **falsch!** *would* steht **nie** im *if*-Teil.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "review", "conditionals", "second-conditional"],
+      "hint": "would steht NIE im if-Teil!"
+    },
+    {
+      "id": "rev-passive",
+      "front": "is spoken / was built",
+      "back": "Passiv: am/is/are + Partizip II (Präsens) | was/were + Partizip II (Vergangenheit)",
+      "notes": "**Passiv** = eine Form von *be* + Partizip II. Das Objekt der aktiven Handlung wird zum Subjekt.\n\n| Zeitform | Form | Beispiel |\n|---|---|---|\n| Präsens | is/are + Part. II | *English **is spoken** here.* |\n| Vergangenheit | was/were + Part. II | *The bridge **was built** in 1900.* |\n\nDeutsch: 'Englisch wird hier gesprochen' / 'Die Brücke wurde 1900 gebaut'.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "review", "passive"]
+    },
+    {
+      "id": "rev-false-become",
+      "front": "become = werden (NICHT bekommen!)",
+      "back": "become = werden | bekommen (Deutsch) = to get / to receive (Englisch)",
+      "notes": "**Falscher Freund — Achtung!**\n\n| Deutsches Wort | Falsche Übersetzung | Richtige Übersetzung |\n|---|---|---|\n| bekommen | ~~become~~ | **get / receive** |\n| werden | ~~bekommen~~ | **become** |\n\n> *I **got** a letter.* (**nicht** ~~I became a letter~~)\n> *She **became** a doctor.* = Sie wurde Ärztin.\n\n*become* und *bekommen* klingen ähnlich, bedeuten aber das Gegenteil!",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "review", "false-friends"]
+    },
+    {
+      "id": "rev-false-sympathetic",
+      "front": "sympathetic ≠ sympathisch",
+      "back": "sympathetic = mitfühlend, verständnisvoll | sympathisch (Deutsch) = nice / likeable (Englisch)",
+      "notes": "**Weiterer falscher Freund:**\n\n- *He is very **sympathetic**.* = Er zeigt viel Mitgefühl / er versteht mich. (**nicht**: Er ist nett.)\n- *He is very **nice / likeable**.* = Er ist sympathisch.\n\nAuf Englisch bedeutet *sympathetic* nicht, dass jemand nett ist, sondern dass er Mitgefühl zeigt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "review", "false-friends"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-review",
+      "type": "theory",
+      "title": "Große A2-Wiederholung — Überblick",
+      "body": "# Große A2-Wiederholung\n\nZeit für die große Wiederholung: In diesem A2-Kurs hast du die Verlaufsformen, das Present Perfect, zwei Zukunftsformen, die Modalverben, Steigerung, Bedingungssätze, das Passiv und die falschen Freunde gelernt. Diese Lektion mischt alles.\n\n## Was du im A2-Kurs gelernt hast\n\n| Lektion | Thema | Kernstruktur |\n|---|---|---|\n| 1–2 | Verlaufsformen (Gegenwart & Vergangenheit) | am/is/are + -ing | was/were + -ing |\n| 3–5 | Present Perfect & unregelm. Partizipien | have/has + Partizip II |\n| 4 | Present Perfect vs. Simple Past | ever/never vs. yesterday/ago |\n| 6–7 | Zukunft: will & going to | will + Inf. | be going to + Inf. |\n| 8–9 | Modalverben | can, could, may, must, have to, should |\n| 10 | Komparativ & Superlativ | -er / more | -est / most |\n| 11–12 | Konditionalsätze 0, 1 & 2 | if + Present | if + Past, would |\n| 13 | Passiv | is/are/was/were + Partizip II |\n| 14 | Falsche Freunde | become ≠ bekommen |\n\nIn den Übungen dieser Lektion werden alle Themen gemischt. Lies die Signalwörter sorgfältig!"
+    },
+    {
+      "id": "theory-key-contrasts",
+      "type": "theory",
+      "title": "Die wichtigsten Kontraste — Fehlerquellen für Deutsche",
+      "body": "## Die häufigsten Fehler auf einen Blick\n\nDeutschsprachige machen bei diesen Punkten besonders oft Fehler — hier sind sie gesammelt:\n\n| Fehler | Warum falsch | Richtig |\n|---|---|---|\n| *I have seen him yesterday.* | *yesterday* = konkreter Zeitpunkt → kein Perfect | *I **saw** him yesterday.* |\n| *If it will rain, I will stay.* | Kein *will* im *if*-Teil | *If it **rains**, I will stay.* |\n| *If I would have money…* | Kein *would* im *if*-Teil | *If I **had** money…* |\n| *She cans swim.* | Modalverben: kein -s in 3. Sg. | *She **can** swim.* |\n| *You mustn't come* (= du musst nicht) | mustn't = VERBOTEN | *You **don't have to** come.* |\n| *more bigger* | Nie -er + more zusammen | ***bigger*** |\n| *I became a letter.* | become = werden | *I **got** a letter.* |\n| *be going to* ohne Hilfsverb | *am/is/are* fehlt | *I **am** going to go.* |\n\n> Tipp: Signalwörter helfen! *yesterday/ago* → Simple Past; *ever/never* → Present Perfect; *if + Präsens* → First Conditional; dunkle Wolken → *going to*."
+    },
+    {
+      "id": "theory-passive-and-false",
+      "type": "theory",
+      "title": "Passiv und falsche Freunde — Schnellübersicht",
+      "body": "## Passiv — Kurzübersicht\n\nDas Passiv verschiebt den Fokus vom Täter zur Handlung:\n\n| Aktiv | Passiv |\n|---|---|\n| *People speak English here.* | *English **is spoken** here.* |\n| *They built this bridge in 1900.* | *This bridge **was built** in 1900.* |\n| *Someone has stolen my bike.* | *My bike **has been stolen**.* |\n\nFormel: *be* (konjugiert in der richtigen Zeitform) + **Partizip II**.\n\n## Falsche Freunde — die wichtigsten A2-Paare\n\n| Englisches Wort | Bedeutet **nicht** | Bedeutet wirklich |\n|---|---|---|\n| **become** | bekommen | werden |\n| **bekommen** (DE) | become | get / receive |\n| **sympathetic** | sympathisch | mitfühlend |\n| **sensible** | sensibel | vernünftig |\n| **eventually** | eventuell | schließlich/letztendlich |\n| **actual** | aktuell | tatsächlich/eigentlich |\n\nMerksatz: **become** klingt wie **bekommen** — aber es ist das Gegenteil!"
+    },
+    {
+      "id": "ex-match-structures",
+      "type": "exercise",
+      "title": "Strukturen aus dem ganzen Kurs zuordnen",
+      "exercise": {
+        "id": "ex-match-structures",
+        "type": "matching",
+        "prompt": "Ordne jeder englischen Struktur die richtige deutsche Beschreibung zu.",
+        "card_ids": ["rev-progressive", "rev-present-perfect", "rev-passive", "rev-cond-second", "rev-will-going-to"],
+        "pairs": [
+          { "left": "am/is/are + -ing", "right": "Verlaufsform Gegenwart (gerade jetzt)" },
+          { "left": "have/has + Partizip II", "right": "Present Perfect (Ergebnis/Erfahrung)" },
+          { "left": "is/are + Partizip II", "right": "Passiv Präsens" },
+          { "left": "If I had…, I would…", "right": "Zweiter Konditionalsatz (hypothetisch)" },
+          { "left": "be going to + Infinitiv", "right": "Zukunft: fester Plan oder sichtbarer Beweis" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-false-friends",
+      "type": "exercise",
+      "title": "Falsche Freunde richtig übersetzen",
+      "exercise": {
+        "id": "ex-match-false-friends",
+        "type": "matching",
+        "prompt": "Ordne jedes englische Wort seiner RICHTIGEN deutschen Bedeutung zu — Vorsicht vor den falschen Freunden!",
+        "card_ids": ["rev-false-become", "rev-false-sympathetic"],
+        "pairs": [
+          { "left": "become", "right": "werden" },
+          { "left": "get / receive", "right": "bekommen (Deutsch)" },
+          { "left": "sympathetic", "right": "mitfühlend / verständnisvoll" },
+          { "left": "nice / likeable", "right": "sympathisch (Deutsch)" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-pp-vs-past",
+      "type": "exercise",
+      "title": "Present Perfect oder Simple Past?",
+      "exercise": {
+        "id": "ex-cloze-pp-vs-past",
+        "type": "cloze",
+        "prompt": "Signalwort *yesterday* → welche Zeitform? Ergänze die richtige Form von *see* (ich, Vergangenheit).",
+        "card_ids": ["rev-pp-vs-past"],
+        "sentence": "I ___ Tom yesterday at the market.",
+        "blanks": [
+          { "accept": ["saw"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*yesterday* = konkreter Zeitpunkt → Simple Past von *see*."
+      }
+    },
+    {
+      "id": "ex-cloze-first-conditional",
+      "type": "exercise",
+      "title": "Erster Konditionalsatz: kein will im if-Teil!",
+      "exercise": {
+        "id": "ex-cloze-first-conditional",
+        "type": "cloze",
+        "prompt": "Ergänze den *if*-Teil korrekt. Denk daran: kein *will* im *if*-Teil! (Verb: *rain*)",
+        "card_ids": ["rev-cond-zero-first"],
+        "sentence": "If it ___, we will stay inside.",
+        "blanks": [
+          { "accept": ["rains"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Im if-Teil steht das Verb im Simple Present (mit -s für 'it')."
+      }
+    },
+    {
+      "id": "ex-cloze-passive",
+      "type": "exercise",
+      "title": "Passiv bilden",
+      "exercise": {
+        "id": "ex-cloze-passive",
+        "type": "cloze",
+        "prompt": "Bilde das Passiv Präsens: *English ___ here.* (Verb: *speak* → Partizip II: *spoken*)",
+        "card_ids": ["rev-passive"],
+        "sentence": "English ___ spoken here.",
+        "blanks": [
+          { "accept": ["is"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Passiv Präsens: *is/are* + Partizip II. Subjekt *English* → Singular."
+      }
+    },
+    {
+      "id": "ex-free-second-conditional",
+      "type": "exercise",
+      "title": "Zweiter Konditionalsatz — ins Englische",
+      "exercise": {
+        "id": "ex-free-second-conditional",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Wenn ich mehr Zeit hätte, würde ich mehr lesen.* (Zweiter Konditionalsatz)",
+        "card_ids": ["rev-cond-second"],
+        "accept": [
+          "If I had more time, I would read more.",
+          "if I had more time, I would read more.",
+          "if i had more time, i would read more.",
+          "If I had more time, I'd read more.",
+          "If i had more time, i'd read more."
+        ],
+        "hint": "If + Simple Past (had), Hauptsatz: would + Infinitiv. Kein 'would' im if-Teil!",
+        "distractors": [
+          "If I would have more time, I would read more.",
+          "If I had more time, I will read more.",
+          "If I have more time, I would read more."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-mustn-vs-donthavetoo",
+      "type": "exercise",
+      "title": "mustn't oder don't have to?",
+      "exercise": {
+        "id": "ex-free-mustn-vs-donthavetoo",
+        "type": "free_text",
+        "prompt": "Übersetze: *Du darfst hier nicht rauchen.* (= Es ist verboten! → welches Modalverb?)",
+        "card_ids": ["rev-must-dont-have-to"],
+        "accept": [
+          "You mustn't smoke here.",
+          "you mustn't smoke here.",
+          "You must not smoke here.",
+          "you must not smoke here."
+        ],
+        "hint": "Verbot = **mustn't** (nicht 'don't have to', das heißt nur: nicht nötig).",
+        "distractors": [
+          "You don't have to smoke here.",
+          "You shouldn't to smoke here.",
+          "You can't to smoke here."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-present-perfect",
+      "type": "exercise",
+      "title": "Present Perfect — Satz bauen",
+      "exercise": {
+        "id": "ex-tiles-present-perfect",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Sie ist nach Hause gegangen.* (Present Perfect, sie = she)",
+        "card_ids": ["rev-present-perfect"],
+        "tiles": ["She", "has", "gone", "home"],
+        "hint": "she + has + Partizip II von go (= gone) + home.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-comparative",
+      "type": "exercise",
+      "title": "Komparativ: Satz bauen",
+      "exercise": {
+        "id": "ex-tiles-comparative",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Dieses Hotel ist größer als jenes.* (Komparativ von big)",
+        "card_ids": ["rev-comparatives"],
+        "tiles": ["This", "hotel", "is", "bigger", "than", "that", "one"],
+        "hint": "big → bigger (kurzes Adjektiv: -er, Endkonsonant verdoppeln). Kein 'more'!",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-will-vs-going-to-review",
+      "type": "exercise",
+      "title": "Zukunft: will oder going to?",
+      "exercise": {
+        "id": "ex-pic-will-vs-going-to-review",
+        "type": "picture_choice",
+        "prompt": "Das Bild zeigt jemanden, der einen Reisekoffer packt und auf einen Kalender mit 'nächste Woche Paris' zeigt. Welcher Satz passt am besten?",
+        "card_ids": ["rev-will-going-to"],
+        "images": [
+          { "src": "assets/img/future-plan-calendar.png", "label": "I'm going to travel to Paris next week.", "is_correct": "true" },
+          { "src": "assets/img/future-spontaneous-phone.png", "label": "I'll travel to Paris next week." },
+          { "src": "assets/img/future-plan-calendar-2.png", "label": "I going to travel to Paris next week." },
+          { "src": "assets/img/future-plan-calendar-3.png", "label": "I will to travel to Paris next week." }
+        ],
+        "hint": "Koffer gepackt, Kalender notiert = fester Plan → **going to** (mit korrektem am/is/are).",
+        "distractors": [
+          "I'll travel to Paris next week.",
+          "I going to travel to Paris next week.",
+          "I will to travel to Paris next week."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

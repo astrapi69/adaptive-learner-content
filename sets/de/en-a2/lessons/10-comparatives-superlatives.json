@@ -1,0 +1,337 @@
+{
+  "id": "10-comparatives-superlatives",
+  "title": "Comparatives and Superlatives",
+  "description": "Steigerung von Adjektiven auf Englisch: kurze Adjektive mit -er/-est, lange Adjektive mit more/most, Unregelmäßige (good → better → best) und Vergleichsstrukturen mit than sowie as … as.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "rule-short-er-est",
+      "front": "cheap → cheaper → cheapest",
+      "back": "Kurze Adjektive (1 Silbe): Komparativ -er, Superlativ -est",
+      "notes": "**Regel:** Einsilbige Adjektive bekommen im Komparativ **-er** und im Superlativ **-est**.\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| cheap | cheaper | the cheapest |\n| tall | taller | the tallest |\n| old | older | the oldest |\n\nVor dem Superlativ steht immer **the**.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["grammar", "comparatives", "short-adjectives"]
+    },
+    {
+      "id": "rule-doubling",
+      "front": "big → bigger → biggest",
+      "back": "Konsonant verdoppeln: kurzer Vokal + Endkonsonant",
+      "notes": "Endet ein einsilbiges Adjektiv auf kurzen Vokal + einzelnen Konsonanten, wird der Konsonant **verdoppelt** vor -er/-est:\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| big | bigger | the biggest |\n| hot | hotter | the hottest |\n| thin | thinner | the thinnest |\n\nVergleiche die Schreibregel für -ing-Formen aus dem Present Progressive.",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "Kurzer Vokal + einzelner Konsonant → Konsonant verdoppeln.",
+      "tags": ["grammar", "spelling", "comparatives"]
+    },
+    {
+      "id": "rule-silent-e",
+      "front": "nice → nicer → nicest",
+      "back": "Stummes -e fällt weg, dann -r / -st",
+      "notes": "Adjektive, die auf ein stummes **-e** enden, verlieren das -e nicht extra — man hängt einfach **-r** (Komparativ) und **-st** (Superlativ) an:\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| nice | nicer | the nicest |\n| large | larger | the largest |\n| safe | safer | the safest |",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "spelling", "comparatives"]
+    },
+    {
+      "id": "rule-y-to-i",
+      "front": "happy → happier → happiest",
+      "back": "Adjektive auf -y: y wird zu i vor -er/-est",
+      "notes": "Zweisilbige Adjektive auf **-y** folgen der y→i-Regel:\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| happy | happier | the happiest |\n| easy | easier | the easiest |\n| heavy | heavier | the heaviest |\n\nDas **-y** wird zu **-i**, dann folgt -er oder -est.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "comparatives", "y-adjectives"]
+    },
+    {
+      "id": "rule-more-most",
+      "front": "expensive → more expensive → most expensive",
+      "back": "Lange Adjektive (2+ Silben): more / most davor",
+      "notes": "Adjektive mit **zwei oder mehr Silben** (außer -y-Adjektive) bilden Komparativ und Superlativ mit **more** und **most**:\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| expensive | more expensive | the most expensive |\n| interesting | more interesting | the most interesting |\n| beautiful | more beautiful | the most beautiful |\n\n**Typischer Fehler:** ~~expensiver~~ oder ~~more cheaper~~ — beides falsch!",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "comparatives", "long-adjectives"]
+    },
+    {
+      "id": "irreg-good",
+      "front": "good → better → best",
+      "back": "unregelmäßig: gut → besser → am besten",
+      "notes": "**good** ist vollständig unregelmäßig — weder *gooder* noch *more good*:\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| good | **better** | **the best** |\n\nBeispiel: *This phone is **better** than my old one. It is **the best** phone I have ever had.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["irregular", "comparatives", "vocabulary"]
+    },
+    {
+      "id": "irreg-bad",
+      "front": "bad → worse → worst",
+      "back": "unregelmäßig: schlecht → schlechter → am schlechtesten",
+      "notes": "**bad** ist ebenfalls vollständig unregelmäßig:\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| bad | **worse** | **the worst** |\n\nBeispiel: *Monday is **worse** than Tuesday. Friday is **the worst** day for traffic.*\n\n**Typischer Fehler:** ~~baddest~~ oder ~~more bad~~.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Denk an das Deutsche: schlecht → schlechter (kein Muster aus dem Englischen ableitbar).",
+      "tags": ["irregular", "comparatives", "vocabulary"]
+    },
+    {
+      "id": "irreg-far",
+      "front": "far → further / farther → furthest / farthest",
+      "back": "unregelmäßig: weit → weiter → am weitesten",
+      "notes": "**far** hat zwei akzeptierte Formen:\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| far | further / farther | the furthest / farthest |\n\n**further** wird auch im übertragenen Sinne verwendet (*further information* = weitere Informationen). Im A2-Kontext sind beide Formen korrekt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["irregular", "comparatives", "vocabulary"]
+    },
+    {
+      "id": "structure-than",
+      "front": "taller THAN",
+      "back": "als — beim Vergleich (Komparativ + than)",
+      "notes": "Im Englischen folgt dem Komparativ **than** (nicht *as* oder *then*):\n\n- *She is **taller than** her brother.*\n- *This car is **more expensive than** mine.*\n- *Today is **worse than** yesterday.*\n\n**Typischer Fehler Deutschsprachiger:** ~~taller as~~ (das Deutsche sagt *größer als*, im Englischen heißt es **than**).",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "Englisch: Komparativ + **than** (nicht as!).",
+      "tags": ["grammar", "structure", "comparatives"]
+    },
+    {
+      "id": "structure-as-as",
+      "front": "as … as",
+      "back": "so … wie — Gleichheit ausdrücken",
+      "notes": "Um Gleichheit auszudrücken, verwendet man **as + Adjektiv + as**:\n\n- *She is **as tall as** her sister.* (Sie ist genauso groß wie ihre Schwester.)\n- *This test is **as difficult as** the last one.*\n\nVerneinung: *not as … as* (nicht so … wie):\n- *He is **not as fast as** his brother.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "structure", "equality"]
+    },
+    {
+      "id": "example-than-sentence",
+      "front": "London is bigger than Paris.",
+      "back": "London ist größer als Paris.",
+      "notes": "Vollständiger Vergleichssatz: Komparativ von **big** (Konsonantverdopplung: bigger) + **than**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["example", "comparatives"]
+    },
+    {
+      "id": "example-superlative-sentence",
+      "front": "Mount Everest is the highest mountain in the world.",
+      "back": "Der Mount Everest ist der höchste Berg der Welt.",
+      "notes": "Superlativ: **the** + **highest** (high → higher → the highest). Vor dem Superlativ steht immer **the**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["example", "superlatives"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Komparativ und Superlativ — Überblick",
+      "body": "# Comparatives and Superlatives\n\nIn **A1** hast du Adjektive gelernt (*big*, *good*, *expensive*). Jetzt vergleichst du: **kurze Adjektive** bekommen **-er/-est**, **lange** Adjektive bekommen **more/most** — und *good* wird unregelmäßig zu *better/best*.\n\n## Die drei Formen im Überblick\n\n| Typ | Beispiel | Komparativ | Superlativ |\n|---|---|---|---|\n| Kurz (1 Silbe) | cheap | cheap**er** | the cheap**est** |\n| Kurz, -e am Ende | nice | nice**r** | the nice**st** |\n| Kurz, Vokal + Konsonant | big | big**ger** | the big**gest** |\n| Auf **-y** endend | happy | happi**er** | the happi**est** |\n| Lang (2+ Silben) | expensive | **more** expensive | **the most** expensive |\n\n## Unregelmäßige Formen (auswendig lernen!)\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| good | **better** | **the best** |\n| bad | **worse** | **the worst** |\n| far | **further** / farther | **the furthest** / farthest |\n\n> **Merksatz:** Kurz → -er/-est; Lang → more/most; Good/Bad/Far → auswendig."
+    },
+    {
+      "id": "step-structures",
+      "type": "theory",
+      "title": "Vergleichsstrukturen: than und as … as",
+      "body": "## Komparativ + than\n\nNach dem Komparativ folgt im Englischen immer **than** — **nicht** *as*!\n\n- *This hotel is **more expensive than** that one.*\n- *She speaks **better than** I do.*\n- *My bag is **heavier than** yours.*\n\n> **Vorsicht:** Im Deutschen sagt man *größer **als***. Im Englischen: **taller than** — ~~taller as~~ ist falsch!\n\n## Gleichheit: as … as\n\nUm zu sagen, dass zwei Dinge gleich sind, verwendet man **as + Adjektiv + as**:\n\n| Struktur | Beispiel | Bedeutung |\n|---|---|---|\n| as + Adj + as | He is **as tall as** his father. | Er ist genauso groß wie sein Vater. |\n| not as + Adj + as | It is **not as cold as** yesterday. | Es ist nicht so kalt wie gestern. |\n\n## The vor dem Superlativ\n\nVor dem Superlativ steht **immer the**:\n\n- *She is **the best** student in the class.*\n- *This is **the most beautiful** city I have ever visited.*"
+    },
+    {
+      "id": "step-common-errors",
+      "type": "theory",
+      "title": "Typische Fehler von Deutschsprachigen",
+      "body": "## Die häufigsten Fehler — und wie du sie vermeidest\n\n| Fehler | Richtig | Erklärung |\n|---|---|---|\n| ~~more cheaper~~ | cheaper | Nur **eine** Methode: entweder -er **oder** more |\n| ~~more better~~ | better | *better* ist bereits der Komparativ von *good* |\n| ~~expensiver~~ | more expensive | Lange Adjektive brauchen *more*, kein -er |\n| ~~most biggest~~ | the biggest | Nur **eine** Methode: entweder -est **oder** most |\n| ~~taller as~~ | taller **than** | Nach dem Komparativ kommt **than**, nicht *as* |\n| ~~gooder / baddest~~ | better / the worst | *good* und *bad* sind vollständig unregelmäßig |\n\n> **Trick:** Zähle die Silben! Ein bis zwei Silben → meist -er/-est; drei oder mehr Silben → immer more/most. Bei -y-Adjektiven gilt y→i+er/est."
+    },
+    {
+      "id": "ex-match-forms",
+      "type": "exercise",
+      "title": "Drei Formen zuordnen",
+      "exercise": {
+        "id": "ex-match-forms",
+        "type": "matching",
+        "prompt": "Ordne jedem Adjektiv seinen Komparativ zu.",
+        "card_ids": ["rule-short-er-est", "rule-doubling", "rule-y-to-i", "rule-more-most", "irreg-good"],
+        "pairs": [
+          { "left": "cheap", "right": "cheaper" },
+          { "left": "big", "right": "bigger" },
+          { "left": "happy", "right": "happier" },
+          { "left": "expensive", "right": "more expensive" },
+          { "left": "good", "right": "better" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-superlatives",
+      "type": "exercise",
+      "title": "Superlativformen zuordnen",
+      "exercise": {
+        "id": "ex-match-superlatives",
+        "type": "matching",
+        "prompt": "Ordne jedem Adjektiv seinen Superlativ zu.",
+        "card_ids": ["rule-short-er-est", "irreg-good", "irreg-bad", "rule-more-most", "rule-y-to-i"],
+        "pairs": [
+          { "left": "tall", "right": "the tallest" },
+          { "left": "good", "right": "the best" },
+          { "left": "bad", "right": "the worst" },
+          { "left": "beautiful", "right": "the most beautiful" },
+          { "left": "easy", "right": "the easiest" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-bigger",
+      "type": "exercise",
+      "title": "Komparativ: big",
+      "exercise": {
+        "id": "ex-cloze-bigger",
+        "type": "cloze",
+        "prompt": "Ergänze den Komparativ von *big* (Achtung: Konsonantverdopplung!).",
+        "card_ids": ["rule-doubling", "example-than-sentence"],
+        "sentence": "London is ___ than Paris.",
+        "blanks": [
+          { "accept": ["bigger"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*big* → kurzer Vokal + g → Konsonant verdoppeln: big**ger**."
+      }
+    },
+    {
+      "id": "ex-cloze-more-expensive",
+      "type": "exercise",
+      "title": "Komparativ: expensive",
+      "exercise": {
+        "id": "ex-cloze-more-expensive",
+        "type": "cloze",
+        "prompt": "Ergänze den Komparativ von *expensive* (langes Adjektiv mit 3 Silben).",
+        "card_ids": ["rule-more-most"],
+        "sentence": "This restaurant is ___ ___ the other one.",
+        "blanks": [
+          { "accept": ["more"] },
+          { "accept": ["expensive", "expensive than"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Drei Silben → **more** + Adjektiv + **than**."
+      }
+    },
+    {
+      "id": "ex-free-better",
+      "type": "exercise",
+      "title": "Übersetzung: besser als",
+      "exercise": {
+        "id": "ex-free-better",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Mein neues Handy ist besser als mein altes.*",
+        "card_ids": ["irreg-good", "structure-than"],
+        "accept": [
+          "My new phone is better than my old one.",
+          "my new phone is better than my old one",
+          "My new phone is better than my old one",
+          "My new mobile is better than my old one."
+        ],
+        "hint": "*gut → better* (unregelmäßig) + **than** (nicht *as*).",
+        "distractors": [
+          "My new phone is more good than my old one.",
+          "My new phone is gooder than my old one.",
+          "My new phone is better as my old one.",
+          "My new phone is more better than my old one."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-superlative",
+      "type": "exercise",
+      "title": "Den richtigen Superlativ erkennen",
+      "exercise": {
+        "id": "ex-pic-superlative",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet *Das ist das teuerste Hotel in der Stadt*?",
+        "card_ids": ["rule-more-most"],
+        "images": [
+          { "src": "assets/img/hotel-luxury.png", "label": "This is the most expensive hotel in the city.", "is_correct": "true" },
+          { "src": "assets/img/hotel-basic.png", "label": "This is the more expensive hotel in the city." },
+          { "src": "assets/img/hotel-mid.png", "label": "This is the expensivest hotel in the city." },
+          { "src": "assets/img/hotel-budget.png", "label": "This is most expensive hotel in the city." }
+        ],
+        "hint": "Superlativ langer Adjektive: **the most** + Adjektiv.",
+        "distractors": [
+          "This is the more expensive hotel in the city.",
+          "This is the expensivest hotel in the city.",
+          "This is most expensive hotel in the city."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-as-as",
+      "type": "exercise",
+      "title": "Bilde: genauso groß wie",
+      "exercise": {
+        "id": "ex-tiles-as-as",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Sie ist genauso groß wie ihre Schwester.*",
+        "card_ids": ["structure-as-as"],
+        "tiles": ["She", "is", "as", "tall", "as", "her", "sister"],
+        "hint": "Struktur: **as** + Adjektiv + **as** (nicht *than*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-worst",
+      "type": "exercise",
+      "title": "Übersetzung: am schlechtesten",
+      "exercise": {
+        "id": "ex-free-worst",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Das war der schlimmste Film, den ich je gesehen habe.*",
+        "card_ids": ["irreg-bad"],
+        "accept": [
+          "That was the worst film I have ever seen.",
+          "that was the worst film i have ever seen",
+          "That was the worst film I have ever seen",
+          "That was the worst movie I have ever seen."
+        ],
+        "hint": "*schlecht → the worst* (unregelmäßig, Superlativ). Vergiss **the** nicht!",
+        "distractors": [
+          "That was the baddest film I have ever seen.",
+          "That was the most bad film I have ever seen.",
+          "That was the worst film I have ever watch."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-taller-than",
+      "type": "exercise",
+      "title": "Bilde: größer als",
+      "exercise": {
+        "id": "ex-tiles-taller-than",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Mein Bruder ist größer als ich.*",
+        "card_ids": ["rule-short-er-est", "structure-than"],
+        "tiles": ["My", "brother", "is", "taller", "than", "me"],
+        "hint": "Komparativ von *tall*: **taller** + **than** (nicht *as*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-receptive-happier",
+      "type": "exercise",
+      "title": "Verstehen: happier",
+      "exercise": {
+        "id": "ex-free-receptive-happier",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *She looks happier than yesterday.*",
+        "card_ids": ["rule-y-to-i", "structure-than"],
+        "accept": [
+          "Sie sieht glücklicher aus als gestern.",
+          "sie sieht glücklicher aus als gestern",
+          "Sie sieht glücklicher aus als gestern",
+          "Sie wirkt glücklicher als gestern."
+        ],
+        "hint": "*happier* = Komparativ von *happy* (y→i + er); *than* = als.",
+        "distractors": [
+          "Sie sieht glücklicher aus wie gestern.",
+          "Sie sieht am glücklichsten aus als gestern.",
+          "Sie sieht glücklich aus als gestern."
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
