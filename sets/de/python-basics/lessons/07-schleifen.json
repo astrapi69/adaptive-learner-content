@@ -1,0 +1,254 @@
+{
+  "id": "07-schleifen",
+  "title": "Schleifen (for & while)",
+  "description": "for-Schleife über Listen und range(), while-Schleife, break, continue und typische Zähl- und Summenschleifen — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "programming",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "py-for-liste",
+      "front": "for-Schleife über eine Liste",
+      "back": "Die for-Schleife wiederholt einen Codeblock für jedes Element einer Liste.",
+      "code_snippet": "farben = ['rot', 'gruen', 'blau']\nfor farbe in farben:\n    print(farbe)",
+      "code_language": "python",
+      "expected_output": "rot\ngruen\nblau",
+      "hint": "for variable in liste: — die Variable bekommt nacheinander jeden Wert.",
+      "difficulty": 2,
+      "tags": ["schleifen", "for", "liste"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-for-range",
+      "front": "for-Schleife mit range()",
+      "back": "range(n) erzeugt eine Folge von ganzen Zahlen von 0 bis n-1. Ideal zum Wiederholen einer festen Anzahl von Schritten.",
+      "code_snippet": "for i in range(3):\n    print(i)",
+      "code_language": "python",
+      "expected_output": "0\n1\n2",
+      "hint": "range(3) erzeugt 0, 1, 2 — also drei Zahlen, beginnend bei 0.",
+      "difficulty": 2,
+      "tags": ["schleifen", "for", "range"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-range-start-stop",
+      "front": "range(start, stop)",
+      "back": "range(start, stop) erzeugt Zahlen von start bis stop-1. Der stop-Wert selbst ist nicht enthalten.",
+      "code_snippet": "for i in range(2, 5):\n    print(i)",
+      "code_language": "python",
+      "expected_output": "2\n3\n4",
+      "hint": "Wie beim Slicing: stop ist ausgeschlossen.",
+      "difficulty": 3,
+      "tags": ["schleifen", "range"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-while",
+      "front": "while-Schleife",
+      "back": "Die while-Schleife wiederholt einen Block, solange die Bedingung True ist.",
+      "code_snippet": "zaehler = 0\nwhile zaehler < 3:\n    print(zaehler)\n    zaehler = zaehler + 1",
+      "code_language": "python",
+      "expected_output": "0\n1\n2",
+      "hint": "Die Bedingung wird vor jedem Durchlauf geprüft.",
+      "difficulty": 3,
+      "tags": ["schleifen", "while"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-break",
+      "front": "break — Schleife abbrechen",
+      "back": "break beendet die Schleife sofort, egal ob die Bedingung noch True wäre.",
+      "code_snippet": "for i in range(5):\n    if i == 3:\n        break\n    print(i)",
+      "code_language": "python",
+      "expected_output": "0\n1\n2",
+      "hint": "break springt aus der Schleife heraus.",
+      "difficulty": 3,
+      "tags": ["schleifen", "break"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-continue",
+      "front": "continue — Iteration überspringen",
+      "back": "continue überspringt den Rest des aktuellen Schleifendurchlaufs und springt zum nächsten.",
+      "code_snippet": "for i in range(5):\n    if i == 2:\n        continue\n    print(i)",
+      "code_language": "python",
+      "expected_output": "0\n1\n3\n4",
+      "hint": "continue überspringt nur den aktuellen Durchlauf, nicht die ganze Schleife.",
+      "difficulty": 3,
+      "tags": ["schleifen", "continue"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-zaehlen-schleife",
+      "front": "Zählschleife — Summe berechnen",
+      "back": "Ein typisches Muster: Variable vor der Schleife auf 0 setzen, in der Schleife aufaddieren.",
+      "code_snippet": "summe = 0\nfor zahl in [1, 2, 3, 4, 5]:\n    summe = summe + zahl\nprint(summe)",
+      "code_language": "python",
+      "expected_output": "15",
+      "hint": "summe startet bei 0 und wächst in jedem Durchlauf.",
+      "difficulty": 3,
+      "tags": ["schleifen", "muster"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-schleife-einrueckung",
+      "front": "Einrückung in Schleifen",
+      "back": "Der Körper einer Schleife (alles, was wiederholt werden soll) muss eingerückt sein — genau wie bei if-Blöcken.",
+      "notes": "Ohne korrekte Einrückung gehört der Code nicht zum Schleifenkörper und wird nur einmal ausgeführt.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["schleifen", "syntax", "einrueckung"]
+    },
+    {
+      "id": "py-for-vs-while",
+      "front": "for vs. while — Wann was?",
+      "back": "for: wenn man die Anzahl der Wiederholungen kennt oder über eine Sammlung iteriert. while: wenn man wiederholen will, bis eine Bedingung eintritt.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["schleifen", "grundlagen"]
+    },
+    {
+      "id": "py-range-step",
+      "front": "range(start, stop, step)",
+      "back": "Mit einem dritten Argument legt man die Schrittweite fest. range(0, 10, 2) erzeugt 0, 2, 4, 6, 8.",
+      "code_snippet": "for i in range(0, 6, 2):\n    print(i)",
+      "code_language": "python",
+      "expected_output": "0\n2\n4",
+      "hint": "step gibt an, um wie viel i jeweils erhöht wird.",
+      "difficulty": 3,
+      "tags": ["schleifen", "range"],
+      "media_type": "code"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-for-schleife",
+      "type": "theory",
+      "title": "Die for-Schleife",
+      "body": "# Schleifen (for & while)\n\nEine **Schleife** wiederholt einen Codeblock mehrfach. Die häufigste Variante ist die **`for`-Schleife**.\n\n## for über eine Liste\n\n```python\nfarben = ['rot', 'gruen', 'blau']\nfor farbe in farben:\n    print(farbe)\n```\n\nAusgabe:\n\n```\nrot\ngruen\nblau\n```\n\nDie Variable `farbe` erhält in jedem Durchlauf das nächste Element der Liste.\n\n## for mit range()\n\n`range(n)` erzeugt eine Zahlenfolge von **0 bis n−1**:\n\n```python\nfor i in range(3):\n    print(i)\n```\n\nAusgabe:\n\n```\n0\n1\n2\n```\n\nMit `range(start, stop)` und `range(start, stop, step)` kann man Beginn, Ende und Schrittweite festlegen:\n\n```python\nfor i in range(2, 5):\n    print(i)   # 2, 3, 4\n```"
+    },
+    {
+      "id": "step-while-schleife",
+      "type": "theory",
+      "title": "Die while-Schleife",
+      "body": "## while-Schleife\n\nDie **`while`-Schleife** läuft, solange eine Bedingung `True` ist:\n\n```python\nzaehler = 0\nwhile zaehler < 3:\n    print(zaehler)\n    zaehler = zaehler + 1\n```\n\nAusgabe:\n\n```\n0\n1\n2\n```\n\n**Wichtig:** Man muss dafür sorgen, dass die Bedingung irgendwann `False` wird — sonst entsteht eine **Endlosschleife**.\n\n## Summe berechnen — ein typisches Muster\n\n```python\nsumme = 0\nfor zahl in [1, 2, 3, 4, 5]:\n    summe = summe + zahl\nprint(summe)   # 15\n```"
+    },
+    {
+      "id": "step-break-continue",
+      "type": "theory",
+      "title": "break und continue",
+      "body": "## break — Schleife sofort beenden\n\n`break` verlässt die Schleife, egal wie viele Durchläufe noch geplant wären:\n\n```python\nfor i in range(5):\n    if i == 3:\n        break\n    print(i)\n```\n\nAusgabe:\n\n```\n0\n1\n2\n```\n\n## continue — Durchlauf überspringen\n\n`continue` springt zum nächsten Durchlauf und überspringt den Rest des aktuellen:\n\n```python\nfor i in range(5):\n    if i == 2:\n        continue\n    print(i)\n```\n\nAusgabe:\n\n```\n0\n1\n3\n4\n```\n\n## Wann for, wann while?\n\n- **`for`**: wenn man die Anzahl der Wiederholungen kennt oder über eine Sammlung iteriert.\n- **`while`**: wenn man bis zu einem Ereignis wiederholen will."
+    },
+    {
+      "id": "ex-cloze-range",
+      "type": "exercise",
+      "title": "range() verstehen",
+      "exercise": {
+        "id": "ex-cloze-range",
+        "type": "cloze",
+        "prompt": "Ergänze den Startpunkt von range().",
+        "card_ids": ["py-for-range"],
+        "sentence": "range(5) erzeugt Zahlen von ___ bis 4.",
+        "blanks": [
+          { "accept": ["0", "null"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Python beginnt immer bei dieser Zahl."
+      }
+    },
+    {
+      "id": "ex-cloze-for-syntax",
+      "type": "exercise",
+      "title": "for-Syntax",
+      "exercise": {
+        "id": "ex-cloze-for-syntax",
+        "type": "cloze",
+        "prompt": "Ergänze das Schlüsselwort, das in einer for-Schleife die Sammlung einleitet.",
+        "card_ids": ["py-for-liste"],
+        "sentence": "for element ___ meine_liste:",
+        "blanks": [
+          { "accept": ["in"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Dasselbe Wort wie beim in-Operator für Listen."
+      }
+    },
+    {
+      "id": "ex-free-break",
+      "type": "exercise",
+      "title": "Was macht break?",
+      "exercise": {
+        "id": "ex-free-break",
+        "type": "free_text",
+        "prompt": "Was bewirkt das Schlüsselwort break innerhalb einer Schleife?",
+        "card_ids": ["py-break"],
+        "accept": ["beendet die Schleife", "bricht die Schleife ab", "verlässt die Schleife sofort", "stoppt die Schleife"],
+        "hint": "break beendet etwas sofort.",
+        "distractors": ["überspringt einen Durchlauf", "startet die Schleife neu", "ignoriert die Bedingung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-while",
+      "type": "exercise",
+      "title": "while-Schleife",
+      "exercise": {
+        "id": "ex-free-while",
+        "type": "free_text",
+        "prompt": "Wann hört eine while-Schleife auf zu laufen?",
+        "card_ids": ["py-while"],
+        "accept": ["wenn die Bedingung False ist", "wenn die Bedingung False wird", "sobald die Bedingung False ist", "wenn die Bedingung nicht mehr True ist"],
+        "hint": "Sie prüft die Bedingung vor jedem Durchlauf.",
+        "distractors": ["nach 10 Durchläufen", "wenn break fehlt", "nie"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-for-range",
+      "type": "exercise",
+      "title": "for-range-Schleife zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-for-range",
+        "type": "word_tiles",
+        "prompt": "Setze eine for-Schleife zusammen, die 5 Mal von 0 bis 4 durchläuft.",
+        "card_ids": ["py-for-range"],
+        "tiles": ["for", "i", "in", "range", "(", "5", ")", ":"],
+        "hint": "Schlüsselwort, Laufvariable, in, range mit Argument, Doppelpunkt.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-summe",
+      "type": "exercise",
+      "title": "Summenvariable initialisieren",
+      "exercise": {
+        "id": "ex-tiles-summe",
+        "type": "word_tiles",
+        "prompt": "Setze die Zeile zusammen, die eine Summenvariable auf 0 setzt — bevor die Schleife startet.",
+        "card_ids": ["py-zaehlen-schleife"],
+        "tiles": ["summe", "=", "0"],
+        "hint": "Variablenname, Zuweisungsoperator, Startwert.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-schleifen",
+      "type": "exercise",
+      "title": "Schleifenbegriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-schleifen",
+        "type": "matching",
+        "prompt": "Ordne jeden Begriff seiner Beschreibung zu.",
+        "card_ids": ["py-for-range", "py-while", "py-break", "py-continue"],
+        "pairs": [
+          { "left": "range(n)", "right": "erzeugt Zahlen von 0 bis n-1" },
+          { "left": "while", "right": "läuft, solange eine Bedingung True ist" },
+          { "left": "break", "right": "beendet die Schleife sofort" },
+          { "left": "continue", "right": "überspringt den Rest des aktuellen Durchlaufs" }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

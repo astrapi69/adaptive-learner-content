@@ -1,0 +1,273 @@
+{
+  "id": "13-dateien",
+  "title": "Dateien lesen und schreiben",
+  "description": "open(), Dateimodi, read/write-Methoden, das with-Statement als Context Manager, über Zeilen iterieren — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "programming",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "dat-open",
+      "front": "open(dateiname, modus)",
+      "back": "Öffnet eine Datei und gibt ein Datei-Objekt zurück. Der Modus bestimmt, ob man liest ('r'), schreibt ('w') oder anhängt ('a').",
+      "notes": "Standardmodus ist 'r' (lesen). Wichtig: Die Datei sollte immer geschlossen werden.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["dateien", "syntax"]
+    },
+    {
+      "id": "dat-modus-r",
+      "front": "Modus 'r' (read)",
+      "back": "Öffnet eine Datei zum Lesen. Die Datei muss bereits existieren, sonst gibt es einen FileNotFoundError.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["dateien", "modi"]
+    },
+    {
+      "id": "dat-modus-w",
+      "front": "Modus 'w' (write)",
+      "back": "Öffnet eine Datei zum Schreiben. Existiert die Datei bereits, wird ihr Inhalt überschrieben. Existiert sie nicht, wird sie neu erstellt.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["dateien", "modi"]
+    },
+    {
+      "id": "dat-modus-a",
+      "front": "Modus 'a' (append)",
+      "back": "Öffnet eine Datei zum Anhängen. Neuer Text wird am Ende eingefügt; vorhandener Inhalt bleibt erhalten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["dateien", "modi"]
+    },
+    {
+      "id": "dat-read",
+      "front": ".read()",
+      "back": "Liest den gesamten Inhalt einer Datei als einen einzigen String.",
+      "notes": "Bei großen Dateien kann .read() viel Arbeitsspeicher belegen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["dateien", "lesen"]
+    },
+    {
+      "id": "dat-readline",
+      "front": ".readline()",
+      "back": "Liest eine einzelne Zeile aus der Datei (inklusive dem Zeilenumbruch am Ende).",
+      "notes": "Jeder Aufruf von readline() liest die nächste Zeile.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["dateien", "lesen"]
+    },
+    {
+      "id": "dat-readlines",
+      "front": ".readlines()",
+      "back": "Liest alle Zeilen und gibt sie als Liste von Strings zurück. Jede Zeile enthält am Ende einen Zeilenumbruch (\\n).",
+      "notes": "Praktisch, wenn man alle Zeilen auf einmal in einer Liste haben möchte.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["dateien", "lesen"]
+    },
+    {
+      "id": "dat-write",
+      "front": ".write(text)",
+      "back": "Schreibt einen String in die Datei. Zeilenumbrüche müssen manuell mit \\n eingefügt werden.",
+      "notes": ".write() gibt die Anzahl der geschriebenen Zeichen zurück.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["dateien", "schreiben"]
+    },
+    {
+      "id": "dat-with",
+      "front": "with open(...) as f:",
+      "back": "Das with-Statement öffnet eine Datei als Context Manager. Die Datei wird automatisch geschlossen, sobald der with-Block endet — auch bei einem Fehler.",
+      "code_snippet": "with open('notiz.txt', 'w') as f:\n    f.write('Hallo Datei')\nprint('Datei geschlossen')",
+      "code_language": "python",
+      "expected_output": "Datei geschlossen",
+      "hint": "Nach dem Doppelpunkt kommt der eingerückte Block. Das 'as f' benennt das Datei-Objekt.",
+      "difficulty": 3,
+      "tags": ["dateien", "with", "syntax"],
+      "media_type": "code"
+    },
+    {
+      "id": "dat-context-manager",
+      "front": "Context Manager",
+      "back": "Ein Objekt, das mit dem with-Statement zusammenarbeitet und automatisch Auf- und Abbau-Aktionen ausführt — z. B. eine Datei sicher schließen.",
+      "notes": "open() gibt einen Context Manager zurück. Eigene Context Manager kann man mit __enter__ und __exit__ erstellen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["dateien", "with", "grundlagen"]
+    },
+    {
+      "id": "dat-iteration",
+      "front": "Über Zeilen einer Datei iterieren",
+      "back": "Mit einer for-Schleife kann man direkt über ein geöffnetes Datei-Objekt iterieren — Python liefert dabei Zeile für Zeile.",
+      "code_snippet": "with open('liste.txt', 'w') as f:\n    f.write('Apfel\\nBanane\\nKirsche')\n\nwith open('liste.txt', 'r') as f:\n    for zeile in f:\n        print(zeile.strip())",
+      "code_language": "python",
+      "expected_output": "Apfel\nBanane\nKirsche",
+      "hint": "zeile.strip() entfernt den Zeilenumbruch am Ende.",
+      "difficulty": 3,
+      "tags": ["dateien", "schleifen"],
+      "media_type": "code"
+    },
+    {
+      "id": "dat-close",
+      "front": ".close()",
+      "back": "Schließt eine geöffnete Datei manuell. Mit dem with-Statement ist .close() nicht mehr nötig, da es automatisch aufgerufen wird.",
+      "notes": "Nicht geschlossene Dateien können zu Datenverlust oder Speicherfehlern führen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["dateien", "grundlagen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-open-modi",
+      "type": "theory",
+      "title": "Dateien öffnen mit open() und Dateimodi",
+      "body": "# Dateien lesen und schreiben\n\nMit **open()** öffnet man eine Datei. Die Funktion gibt ein **Datei-Objekt** zurück, über das man liest oder schreibt.\n\n```python\ndatei = open('meine_datei.txt', 'r')  # zum Lesen öffnen\n```\n\n## Die drei wichtigsten Modi\n\n| Modus | Bedeutung | Datei existiert nicht? |\n|-------|-----------|------------------------|\n| `'r'` | lesen (read) | → FileNotFoundError |\n| `'w'` | schreiben (write) | → neue Datei anlegen |\n| `'a'` | anhängen (append) | → neue Datei anlegen |\n\nBeim Modus `'w'` wird eine vorhandene Datei **vollständig überschrieben**. Mit `'a'` bleibt der alte Inhalt erhalten.\n\n## Lesen und Schreiben\n\n```python\n# Schreiben\ndatei = open('gruss.txt', 'w')\ndatei.write('Hallo Welt\\n')\ndatei.close()   # nicht vergessen!\n\n# Lesen\ndatei = open('gruss.txt', 'r')\ninhalt = datei.read()   # gesamter Inhalt als String\ndatei.close()\n```\n\nNeben `.read()` gibt es:\n- **`.readline()`** — eine Zeile lesen\n- **`.readlines()`** — alle Zeilen als Liste"
+    },
+    {
+      "id": "theory-with-statement",
+      "type": "theory",
+      "title": "Das with-Statement — Dateien sicher schließen",
+      "body": "## Das with-Statement (Context Manager)\n\nOhne `with` muss man `.close()` manuell aufrufen — und vergisst es leicht. Das **with-Statement** sorgt dafür, dass die Datei **automatisch geschlossen** wird, sobald der Block endet — selbst bei einem Fehler:\n\n```python\nwith open('notiz.txt', 'w') as f:\n    f.write('Hallo Datei')\n# hier ist die Datei schon zu — kein .close() nötig\n```\n\n`open()` ist ein **Context Manager**: Es implementiert `__enter__` (öffnen) und `__exit__` (schließen), die das `with`-Statement automatisch aufruft.\n\n## Über Zeilen iterieren\n\nMit einer **for-Schleife** kann man direkt über das Datei-Objekt iterieren:\n\n```python\nwith open('liste.txt', 'r') as f:\n    for zeile in f:\n        print(zeile.strip())   # .strip() entfernt den \\n am Ende\n```\n\nDas ist effizienter als `.readlines()`, weil Python immer nur eine Zeile im Speicher hält."
+    },
+    {
+      "id": "theory-lese-methoden",
+      "type": "theory",
+      "title": "Lese-Methoden im Überblick",
+      "body": "## Drei Wege, eine Datei zu lesen\n\n```python\nwith open('text.txt', 'r') as f:\n    # Methode 1: gesamten Inhalt auf einmal\n    inhalt = f.read()          # ein einziger String\n\nwith open('text.txt', 'r') as f:\n    # Methode 2: Zeile für Zeile manuell\n    erste = f.readline()       # eine Zeile\n    zweite = f.readline()      # nächste Zeile\n\nwith open('text.txt', 'r') as f:\n    # Methode 3: alle Zeilen als Liste\n    zeilen = f.readlines()     # ['Zeile1\\n', 'Zeile2\\n', ...]\n```\n\n| Methode | Gibt zurück |\n|---------|-------------|\n| `.read()` | gesamter Inhalt als String |\n| `.readline()` | eine Zeile als String |\n| `.readlines()` | alle Zeilen als Liste |\n\nFür große Dateien empfiehlt sich die **for-Schleife** über das Datei-Objekt — sie hält immer nur eine Zeile im Speicher."
+    },
+    {
+      "id": "ex-match-modi",
+      "type": "exercise",
+      "title": "Dateimodi zuordnen",
+      "exercise": {
+        "id": "ex-match-modi",
+        "type": "matching",
+        "prompt": "Ordne jeden Modus seiner Bedeutung zu.",
+        "card_ids": ["dat-modus-r", "dat-modus-w", "dat-modus-a"],
+        "pairs": [
+          { "left": "'r'", "right": "Datei lesen — muss existieren" },
+          { "left": "'w'", "right": "Datei schreiben — überschreibt vorhandenes" },
+          { "left": "'a'", "right": "Datei anhängen — alter Inhalt bleibt erhalten" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-with",
+      "type": "exercise",
+      "title": "with-Statement ergänzen",
+      "exercise": {
+        "id": "ex-cloze-with",
+        "type": "cloze",
+        "prompt": "Ergänze das Schlüsselwort für das sichere Öffnen von Dateien.",
+        "card_ids": ["dat-with"],
+        "sentence": "Mit ___ open('datei.txt', 'r') as f: wird die Datei automatisch geschlossen.",
+        "blanks": [
+          { "accept": ["with"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englisch für 'mit' — leitet einen Context-Manager-Block ein."
+      }
+    },
+    {
+      "id": "ex-free-with-vorteil",
+      "type": "exercise",
+      "title": "Vorteil des with-Statements",
+      "exercise": {
+        "id": "ex-free-with-vorteil",
+        "type": "free_text",
+        "prompt": "Was ist der wichtigste Vorteil des with-Statements beim Öffnen von Dateien?",
+        "card_ids": ["dat-with", "dat-context-manager"],
+        "accept": [
+          "automatisches Schließen",
+          "Datei wird automatisch geschlossen",
+          "schließt die Datei automatisch",
+          "close wird automatisch aufgerufen",
+          "kein manuelles close nötig"
+        ],
+        "hint": "Was passiert mit der Datei, wenn der with-Block endet?",
+        "distractors": [
+          "schnelleres Lesen",
+          "größere Dateien möglich",
+          "keine Fehler möglich"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-write",
+      "type": "exercise",
+      "title": "Datei schreiben zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-write",
+        "type": "word_tiles",
+        "prompt": "Setze die Zeile zusammen, die eine Datei zum Schreiben öffnet.",
+        "card_ids": ["dat-with", "dat-modus-w"],
+        "tiles": ["with", "open", "(", "'log.txt'", ",", "'w'", ")", "as", "f", ":"],
+        "hint": "with open(dateiname, modus) as variablenname:",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-lese-methoden",
+      "type": "exercise",
+      "title": "Lese-Methoden zuordnen",
+      "exercise": {
+        "id": "ex-match-lese-methoden",
+        "type": "matching",
+        "prompt": "Ordne jede Methode ihrem Rückgabewert zu.",
+        "card_ids": ["dat-read", "dat-readline", "dat-readlines"],
+        "pairs": [
+          { "left": ".read()", "right": "gesamter Inhalt als ein String" },
+          { "left": ".readline()", "right": "eine einzelne Zeile als String" },
+          { "left": ".readlines()", "right": "alle Zeilen als Liste" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-modus-w",
+      "type": "exercise",
+      "title": "Den Schreibmodus kennen",
+      "exercise": {
+        "id": "ex-cloze-modus-w",
+        "type": "cloze",
+        "prompt": "Ergänze den Modus, der eine Datei zum Schreiben öffnet (und vorhandenen Inhalt überschreibt).",
+        "card_ids": ["dat-modus-w"],
+        "sentence": "open('datei.txt', '___') öffnet die Datei zum Schreiben.",
+        "blanks": [
+          { "accept": ["w"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Erster Buchstabe von 'write'."
+      }
+    },
+    {
+      "id": "ex-free-readlines",
+      "type": "exercise",
+      "title": "Was gibt readlines() zurück?",
+      "exercise": {
+        "id": "ex-free-readlines",
+        "type": "free_text",
+        "prompt": "Was gibt die Methode .readlines() zurück?",
+        "card_ids": ["dat-readlines"],
+        "accept": [
+          "eine Liste",
+          "Liste von Zeilen",
+          "Liste von Strings",
+          "alle Zeilen als Liste"
+        ],
+        "hint": "Es ist ein Sammeltyp mit allen Zeilen.",
+        "distractors": [
+          "einen String",
+          "eine Zahl",
+          "einen Iterator"
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

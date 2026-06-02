@@ -1,0 +1,268 @@
+{
+  "id": "04-strings",
+  "title": "Strings — mit Text arbeiten",
+  "description": "String-Verkettung, f-Strings, len(), die Methoden upper/lower/replace, Indexing, Slicing und der in-Operator — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "programming",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "py-str-verkettung",
+      "front": "String-Verkettung (+)",
+      "back": "Zwei Strings lassen sich mit + zu einem neuen String zusammenfügen.",
+      "code_snippet": "vorname = 'Anna'\nnachname = 'Müller'\nprint(vorname + ' ' + nachname)",
+      "code_language": "python",
+      "expected_output": "Anna Müller",
+      "hint": "Leerzeichen müssen beim Verketten explizit als ' ' angegeben werden.",
+      "difficulty": 1,
+      "tags": ["strings", "operatoren"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-fstring",
+      "front": "f-String (f\"...{variable}...\")",
+      "back": "Ein formatierter String, bei dem Variablen direkt in geschweifte Klammern eingesetzt werden. Eingeleitet durch f vor dem Anführungszeichen.",
+      "code_snippet": "name = 'Lena'\nalter = 22\nprint(f'Ich heiße {name} und bin {alter} Jahre alt.')",
+      "code_language": "python",
+      "expected_output": "Ich heiße Lena und bin 22 Jahre alt.",
+      "hint": "Das f vor dem Anführungszeichen nicht vergessen!",
+      "difficulty": 2,
+      "tags": ["strings", "formatierung"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-len",
+      "front": "len()",
+      "back": "Gibt die Länge (Anzahl der Zeichen) eines Strings zurück.",
+      "code_snippet": "wort = 'Python'\nprint(len(wort))",
+      "code_language": "python",
+      "expected_output": "6",
+      "hint": "Leerzeichen und Sonderzeichen zählen ebenfalls mit.",
+      "difficulty": 1,
+      "tags": ["strings", "funktionen"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-upper-lower",
+      "front": ".upper() / .lower()",
+      "back": ".upper() wandelt alle Buchstaben in Großbuchstaben um, .lower() in Kleinbuchstaben.",
+      "code_snippet": "s = 'Hallo Welt'\nprint(s.upper())\nprint(s.lower())",
+      "code_language": "python",
+      "expected_output": "HALLO WELT\nhallo welt",
+      "hint": "Diese Methoden verändern den ursprünglichen String nicht — sie geben einen neuen zurück.",
+      "difficulty": 2,
+      "tags": ["strings", "methoden"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-replace",
+      "front": ".replace(alt, neu)",
+      "back": "Ersetzt alle Vorkommen eines Teilstrings durch einen anderen und gibt den neuen String zurück.",
+      "code_snippet": "satz = 'Ich mag Katzen'\nprint(satz.replace('Katzen', 'Hunde'))",
+      "code_language": "python",
+      "expected_output": "Ich mag Hunde",
+      "hint": "replace() verändert den ursprünglichen String nicht, sondern gibt einen neuen zurück.",
+      "difficulty": 2,
+      "tags": ["strings", "methoden"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-indexing",
+      "front": "String-Indexing (s[i])",
+      "back": "Mit eckigen Klammern und einem Index greift man auf ein einzelnes Zeichen zu. Der Index beginnt bei 0.",
+      "code_snippet": "s = 'Python'\nprint(s[0])\nprint(s[3])",
+      "code_language": "python",
+      "expected_output": "P\nh",
+      "hint": "Das erste Zeichen hat den Index 0, nicht 1.",
+      "difficulty": 2,
+      "tags": ["strings", "indexing"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-slicing",
+      "front": "String-Slicing (s[start:stop])",
+      "back": "Gibt einen Teilstring zurück. s[1:4] liefert die Zeichen an den Positionen 1, 2 und 3 (stop ist nicht enthalten).",
+      "code_snippet": "s = 'Python'\nprint(s[0:3])\nprint(s[2:5])",
+      "code_language": "python",
+      "expected_output": "Pyt\ntho",
+      "hint": "Der stop-Index ist ausschließend — s[0:3] liefert 3 Zeichen, nicht 4.",
+      "difficulty": 3,
+      "tags": ["strings", "slicing"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-in-operator",
+      "front": "in-Operator bei Strings",
+      "back": "Mit in prüft man, ob ein Teilstring in einem anderen String enthalten ist. Das Ergebnis ist True oder False.",
+      "code_snippet": "print('Py' in 'Python')\nprint('Java' in 'Python')",
+      "code_language": "python",
+      "expected_output": "True\nFalse",
+      "hint": "in gibt einen bool zurück — gut für Bedingungen.",
+      "difficulty": 2,
+      "tags": ["strings", "operatoren"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-str-unveraenderlich",
+      "front": "Strings sind unveränderlich (immutable)",
+      "back": "Strings können nach ihrer Erstellung nicht geändert werden. Methoden wie .upper() geben immer einen neuen String zurück.",
+      "notes": "Das ist ein wichtiger Unterschied zu Listen, die veränderbar (mutable) sind.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["strings", "konzepte"]
+    },
+    {
+      "id": "py-str-index-null",
+      "front": "Index 0 beim ersten Zeichen",
+      "back": "Python zählt Zeichen in einem String ab 0. Das erste Zeichen ist s[0], das zweite s[1] usw.",
+      "notes": "Diese Zählweise gilt auch für Listen und andere Sequenzen in Python.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["strings", "indexing"]
+    },
+    {
+      "id": "py-str-methoden-uebersicht",
+      "front": "Wichtige String-Methoden",
+      "back": ".upper() → Großbuchstaben, .lower() → Kleinbuchstaben, .replace(alt, neu) → ersetzen, len(s) → Länge.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["strings", "methoden", "übersicht"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-strings",
+      "type": "theory",
+      "title": "Strings verbinden und formatieren",
+      "body": "# Strings — mit Text arbeiten\n\nStrings sind Zeichenketten in Python. Mit `+` lassen sich zwei Strings **verketten**:\n\n```python\nvorname = 'Anna'\nnachname = 'Müller'\nprint(vorname + ' ' + nachname)\n```\n\nAusgabe:\n\n```\nAnna Müller\n```\n\n## f-Strings\n\nEine elegantere Alternative sind **f-Strings**. Man stellt dem Anführungszeichen ein `f` voran und setzt Variablen in `{}`:\n\n```python\nname = 'Lena'\nalter = 22\nprint(f'Ich heiße {name} und bin {alter} Jahre alt.')\n```\n\nAusgabe:\n\n```\nIch heiße Lena und bin 22 Jahre alt.\n```\n\n## Länge eines Strings\n\nMit `len()` erfährt man, wie viele Zeichen ein String hat:\n\n```python\nprint(len('Python'))   # 6\n```"
+    },
+    {
+      "id": "step-methoden",
+      "type": "theory",
+      "title": "String-Methoden: upper, lower, replace",
+      "body": "## Methoden verändern Strings\n\nStrings besitzen eingebaute **Methoden**, die man mit einem Punkt aufruft. Wichtig: Strings sind **unveränderlich** — Methoden geben immer einen *neuen* String zurück.\n\n### `.upper()` und `.lower()`\n\n```python\ns = 'Hallo Welt'\nprint(s.upper())   # HALLO WELT\nprint(s.lower())   # hallo welt\n```\n\n### `.replace(alt, neu)`\n\nErsetzt jeden Treffer des ersten Arguments durch das zweite:\n\n```python\nsatz = 'Ich mag Katzen'\nprint(satz.replace('Katzen', 'Hunde'))   # Ich mag Hunde\n```"
+    },
+    {
+      "id": "step-indexing-slicing",
+      "type": "theory",
+      "title": "Indexing, Slicing und der in-Operator",
+      "body": "## Einzelne Zeichen: Indexing\n\nMit eckigen Klammern greift man auf ein bestimmtes Zeichen zu. **Achtung: die Zählung beginnt bei 0.**\n\n```python\ns = 'Python'\nprint(s[0])   # P\nprint(s[3])   # h\n```\n\n## Teilstrings: Slicing\n\n`s[start:stop]` liefert die Zeichen von `start` bis `stop-1` (stop ist **nicht** enthalten):\n\n```python\nprint(s[0:3])   # Pyt\nprint(s[2:5])   # tho\n```\n\n## Teilstring-Test: `in`\n\nMit dem `in`-Operator prüft man, ob ein Teilstring vorkommt:\n\n```python\nprint('Py' in 'Python')   # True\nprint('Java' in 'Python') # False\n```"
+    },
+    {
+      "id": "ex-cloze-fstring",
+      "type": "exercise",
+      "title": "f-String-Präfix",
+      "exercise": {
+        "id": "ex-cloze-fstring",
+        "type": "cloze",
+        "prompt": "Ergänze den Buchstaben, der vor dem Anführungszeichen eines f-Strings steht.",
+        "card_ids": ["py-fstring"],
+        "sentence": "Ein formatierter String wird mit dem Buchstaben ___ vor dem Anführungszeichen eingeleitet: ___'Hallo {name}'.",
+        "blanks": [
+          { "accept": ["f"] },
+          { "accept": ["f"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Der erste Buchstabe des Wortes 'format'."
+      }
+    },
+    {
+      "id": "ex-cloze-len",
+      "type": "exercise",
+      "title": "Länge eines Strings ermitteln",
+      "exercise": {
+        "id": "ex-cloze-len",
+        "type": "cloze",
+        "prompt": "Ergänze die Funktion, die die Anzahl der Zeichen in einem String zurückgibt.",
+        "card_ids": ["py-len"],
+        "sentence": "Die Funktion ___('Python') gibt 6 zurück.",
+        "blanks": [
+          { "accept": ["len"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Drei Buchstaben — Abkürzung für 'length' (Länge)."
+      }
+    },
+    {
+      "id": "ex-free-indexing",
+      "type": "exercise",
+      "title": "Indexing: erstes Zeichen",
+      "exercise": {
+        "id": "ex-free-indexing",
+        "type": "free_text",
+        "prompt": "Welchen Index hat das erste Zeichen eines Strings in Python?",
+        "card_ids": ["py-indexing", "py-str-index-null"],
+        "accept": ["0", "Index 0", "den Index 0", "null"],
+        "hint": "Python zählt ab null, nicht ab eins.",
+        "distractors": ["1", "Index 1", "-1", "der Index 1"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-in-operator",
+      "type": "exercise",
+      "title": "Der in-Operator",
+      "exercise": {
+        "id": "ex-free-in-operator",
+        "type": "free_text",
+        "prompt": "Was gibt 'Py' in 'Python' zurück?",
+        "card_ids": ["py-in-operator"],
+        "accept": ["True", "true", "Wahr", "wahr"],
+        "hint": "'Py' ist tatsächlich ein Teilstring von 'Python'.",
+        "distractors": ["False", "false", "1", "0", "None"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-upper",
+      "type": "exercise",
+      "title": "upper()-Aufruf zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-upper",
+        "type": "word_tiles",
+        "prompt": "Setze die Zeile zusammen, die den String 'hallo' in Großbuchstaben ausgibt.",
+        "card_ids": ["py-upper-lower"],
+        "tiles": ["print", "(", "'hallo'", ".", "upper", "(", ")", ")"],
+        "hint": "Methode mit Punkt aufrufen: string.upper()",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-methoden",
+      "type": "exercise",
+      "title": "String-Methoden zuordnen",
+      "exercise": {
+        "id": "ex-match-methoden",
+        "type": "matching",
+        "prompt": "Ordne jede Methode oder Funktion ihrer Wirkung zu.",
+        "card_ids": ["py-upper-lower", "py-replace", "py-len"],
+        "pairs": [
+          { "left": ".upper()", "right": "wandelt in Großbuchstaben um" },
+          { "left": ".lower()", "right": "wandelt in Kleinbuchstaben um" },
+          { "left": ".replace(alt, neu)", "right": "ersetzt einen Teilstring" },
+          { "left": "len(s)", "right": "gibt die Anzahl der Zeichen zurück" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-konzepte",
+      "type": "exercise",
+      "title": "String-Konzepte zuordnen",
+      "exercise": {
+        "id": "ex-match-konzepte",
+        "type": "matching",
+        "prompt": "Ordne jeden Begriff seinem Beispiel zu.",
+        "card_ids": ["py-str-verkettung", "py-fstring", "py-slicing", "py-in-operator"],
+        "pairs": [
+          { "left": "Verkettung", "right": "'Hallo' + ' ' + 'Welt'" },
+          { "left": "f-String", "right": "f'Hallo {name}'" },
+          { "left": "Slicing", "right": "s[1:4]" },
+          { "left": "in-Operator", "right": "'Py' in 'Python'" }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

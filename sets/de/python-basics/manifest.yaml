@@ -1,0 +1,63 @@
+# Python — Grundlagen (für Deutschsprachige) — Set-Manifest
+# (Phase 61 / schema v1.3).
+#
+# Erstes Programmier-Set von Adaptive Learner. ``domain:
+# programming`` markiert den Inhalt als Sachthema: Material und
+# Erklärung sind beide auf Deutsch (source_language ==
+# target_language), und der Set-Ordner trägt einen Themennamen
+# (``python-basics``) statt eines ``{target}-{level}``-Namens.
+#
+# Schema v1.3: Karten tragen optionale Code-Felder
+# (code_snippet, code_language, expected_output, hint, difficulty,
+# media_type, tags). Bei media_type "code" rendert der Viewer die
+# Karte und die zugehörigen Übungen in Code-Modus (Monospace,
+# keine Rechtschreibprüfung). Der Content-Loader liest
+# ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.3'
+name: Python — Grundlagen
+description: >-
+  Einführung in die Programmierung mit Python für
+  Deutschsprachige (15 Lektionen): von print() und Variablen
+  über Strings, Listen, Bedingungen und Schleifen bis zu
+  Funktionen, Dictionaries, Fehlerbehandlung, Modulen, Dateien
+  und Comprehensions. Karten, Code-Beispiele und Theorie auf
+  Deutsch, mit den englischen Originalbegriffen in Klammern.
+sets:
+  - id: python-basics-from-de
+    title: Python — Grundlagen
+    title_native: Python — Basics
+    target_language: de
+    source_language: de
+    domain: programming
+    level: A1
+    path: sets/de/python-basics
+    version: '1.0.0'
+    lesson_count: 15
+    domain_label: Programmierung
+    description: >-
+      Fünfzehn Einführungslektionen Python, auf Deutsch erklärt —
+      vom ersten print() bis zu List Comprehensions, mit
+      lauffähigen Code-Beispielen und erwarteter Ausgabe.
+    tags:
+      - beginner
+      - programming
+      - python
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-erste-schritte.json
+    - 02-variablen-und-datentypen.json
+    - 03-zahlen-und-operatoren.json
+    - 04-strings.json
+    - 05-listen.json
+    - 06-bedingungen.json
+    - 07-schleifen.json
+    - 08-funktionen.json
+    - 09-dictionaries.json
+    - 10-tupel-und-mengen.json
+    - 11-fehler-und-ausnahmen.json
+    - 12-module-und-imports.json
+    - 13-dateien.json
+    - 14-comprehensions.json
+    - 15-wiederholung.json

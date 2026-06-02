@@ -1,0 +1,269 @@
+{
+  "id": "03-zahlen-und-operatoren",
+  "title": "Zahlen und Operatoren",
+  "description": "Arithmetische Operatoren, Ganzzahldivision, Modulo, Potenz, Operatorrangfolge und der Unterschied zwischen int und float bei Division — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "programming",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "py-addition",
+      "front": "Addition (+)",
+      "back": "Addiert zwei Zahlen. Funktioniert mit int und float.",
+      "code_snippet": "print(3 + 5)\nprint(1.5 + 2.5)",
+      "code_language": "python",
+      "expected_output": "8\n4.0",
+      "hint": "Das Pluszeichen funktioniert genau wie in der Mathematik.",
+      "difficulty": 1,
+      "tags": ["operatoren", "arithmetik"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-subtraktion",
+      "front": "Subtraktion (-)",
+      "back": "Zieht den rechten Wert vom linken ab.",
+      "code_snippet": "print(10 - 3)",
+      "code_language": "python",
+      "expected_output": "7",
+      "hint": "Das Minuszeichen funktioniert wie in der Mathematik.",
+      "difficulty": 1,
+      "tags": ["operatoren", "arithmetik"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-multiplikation",
+      "front": "Multiplikation (*)",
+      "back": "Multipliziert zwei Zahlen. In Python schreibt man * statt ×.",
+      "code_snippet": "print(4 * 7)",
+      "code_language": "python",
+      "expected_output": "28",
+      "hint": "Das Sternchen * ersetzt das Malzeichen.",
+      "difficulty": 1,
+      "tags": ["operatoren", "arithmetik"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-division",
+      "front": "Division (/)",
+      "back": "Dividiert zwei Zahlen. Das Ergebnis ist immer ein float, auch wenn beide Zahlen int sind.",
+      "code_snippet": "print(10 / 4)\nprint(8 / 2)",
+      "code_language": "python",
+      "expected_output": "2.5\n4.0",
+      "hint": "8 / 2 ergibt 4.0, nicht 4 — Python gibt immer einen float zurück.",
+      "difficulty": 2,
+      "tags": ["operatoren", "arithmetik", "float"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-ganzzahldivision",
+      "front": "Ganzzahldivision (//)",
+      "back": "Dividiert und schneidet die Nachkommastellen ab. Das Ergebnis ist ein int (wenn beide Operanden int sind).",
+      "code_snippet": "print(10 // 3)\nprint(7 // 2)",
+      "code_language": "python",
+      "expected_output": "3\n3",
+      "hint": "// rundet immer nach unten (floor division).",
+      "difficulty": 2,
+      "tags": ["operatoren", "arithmetik", "int"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-modulo",
+      "front": "Modulo (%)",
+      "back": "Gibt den Rest einer ganzzahligen Division zurück. Nützlich z. B. um zu prüfen, ob eine Zahl gerade ist.",
+      "code_snippet": "print(10 % 3)\nprint(8 % 2)",
+      "code_language": "python",
+      "expected_output": "1\n0",
+      "hint": "10 geteilt durch 3 ergibt 3 Rest 1.",
+      "difficulty": 2,
+      "tags": ["operatoren", "arithmetik"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-potenz",
+      "front": "Potenz (**)",
+      "back": "Berechnet eine Potenz: a ** b bedeutet a hoch b.",
+      "code_snippet": "print(2 ** 8)\nprint(3 ** 2)",
+      "code_language": "python",
+      "expected_output": "256\n9",
+      "hint": "Zwei Sternchen ** — nicht verwechseln mit einem einfachen *.",
+      "difficulty": 2,
+      "tags": ["operatoren", "arithmetik"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-rangfolge",
+      "front": "Operatorrangfolge (Precedence)",
+      "back": "Python rechnet nach der Regel Punkt vor Strich: erst **, dann * / // %, dann + -. Klammern ändern die Reihenfolge.",
+      "code_snippet": "print(2 + 3 * 4)\nprint((2 + 3) * 4)",
+      "code_language": "python",
+      "expected_output": "14\n20",
+      "hint": "Ohne Klammern gilt Punkt vor Strich — genau wie in der Mathematik.",
+      "difficulty": 2,
+      "tags": ["operatoren", "syntax"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-int-float-division",
+      "front": "int vs. float bei Division",
+      "back": "Mit / erhält man immer einen float. Mit // erhält man einen int (bei int-Operanden), ohne Nachkommastellen.",
+      "code_snippet": "print(type(8 / 2))\nprint(type(8 // 2))",
+      "code_language": "python",
+      "expected_output": "<class 'float'>\n<class 'int'>",
+      "hint": "/ erzeugt immer float, // bei ganzzahligen Operanden int.",
+      "difficulty": 3,
+      "tags": ["operatoren", "datentypen"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-klammern",
+      "front": "Klammern in Rechenausdrücken",
+      "back": "Runde Klammern () erzwingen eine andere Berechnungsreihenfolge und machen den Code lesbarer.",
+      "notes": "Klammern sind in Python auch für Funktionsaufrufe zuständig — der Kontext macht den Unterschied.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["operatoren", "syntax"]
+    },
+    {
+      "id": "py-operatoren-uebersicht",
+      "front": "Arithmetische Operatoren im Überblick",
+      "back": "+ Addition, - Subtraktion, * Multiplikation, / Division (float), // Ganzzahldivision, % Modulo, ** Potenz.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["operatoren", "übersicht"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-operatoren",
+      "type": "theory",
+      "title": "Grundrechenarten in Python",
+      "body": "# Zahlen und Operatoren\n\nPython kann wie ein Taschenrechner verwendet werden. Die wichtigsten arithmetischen Operatoren sind:\n\n| Operator | Bedeutung | Beispiel | Ergebnis |\n|----------|-----------|---------|----------|\n| `+` | Addition | `3 + 5` | `8` |\n| `-` | Subtraktion | `10 - 3` | `7` |\n| `*` | Multiplikation | `4 * 7` | `28` |\n| `/` | Division | `10 / 4` | `2.5` |\n\nWichtig: Der Divisionsoperator `/` gibt **immer** ein `float` zurück, auch wenn das Ergebnis eine ganze Zahl ist:\n\n```python\nprint(8 / 2)\n```\n\nAusgabe:\n\n```\n4.0\n```"
+    },
+    {
+      "id": "step-erweiterte-operatoren",
+      "type": "theory",
+      "title": "Ganzzahldivision, Modulo und Potenz",
+      "body": "## Drei besondere Operatoren\n\n### Ganzzahldivision `//`\nSchneidet die Nachkommastellen ab — das Ergebnis ist ein `int`:\n\n```python\nprint(10 // 3)   # 3 (nicht 3.33...)\nprint(7 // 2)    # 3\n```\n\n### Modulo `%`\nGibt den **Rest** der Division zurück:\n\n```python\nprint(10 % 3)    # 1  (10 = 3 × 3 + 1)\nprint(8 % 2)     # 0  (8 ist gerade, kein Rest)\n```\n\n### Potenz `**`\n`a ** b` bedeutet 'a hoch b':\n\n```python\nprint(2 ** 8)    # 256\nprint(3 ** 2)    # 9\n```"
+    },
+    {
+      "id": "step-rangfolge",
+      "type": "theory",
+      "title": "Operatorrangfolge und Klammern",
+      "body": "## Punkt vor Strich — auch in Python\n\nPython folgt den mathematischen Vorrangregeln: `**` bindet am stärksten, dann `* / // %`, dann `+ -`.\n\n```python\nprint(2 + 3 * 4)    # 14  (erst 3*4=12, dann 2+12)\nprint((2 + 3) * 4)  # 20  (Klammern zuerst: 5*4)\n```\n\n**Tipp:** Wenn du dir bei der Reihenfolge nicht sicher bist, setze einfach **Klammern** — das macht den Code auch lesbarer.\n\n## int vs. float bei Division\n\n```python\nprint(type(8 / 2))   # <class 'float'>\nprint(type(8 // 2))  # <class 'int'>\n```\n\nFaustregel: `/` → immer `float`; `//` mit ganzzahligen Operanden → `int`."
+    },
+    {
+      "id": "ex-cloze-division",
+      "type": "exercise",
+      "title": "Divisionsoperator ergänzen",
+      "exercise": {
+        "id": "ex-cloze-division",
+        "type": "cloze",
+        "prompt": "Ergänze den Operator für die normale Division, die immer einen float zurückgibt.",
+        "card_ids": ["py-division"],
+        "sentence": "Das Ergebnis von 10 ___ 4 ist 2.5 (ein float).",
+        "blanks": [
+          { "accept": ["/"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Ein einzelnes Schrägstrich-Zeichen."
+      }
+    },
+    {
+      "id": "ex-cloze-modulo",
+      "type": "exercise",
+      "title": "Modulo-Operator",
+      "exercise": {
+        "id": "ex-cloze-modulo",
+        "type": "cloze",
+        "prompt": "Ergänze den Operator, der den Rest einer Division zurückgibt.",
+        "card_ids": ["py-modulo"],
+        "sentence": "10 ___ 3 ergibt 1, weil 10 = 3 × 3 + 1.",
+        "blanks": [
+          { "accept": ["%"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Prozentzeichen — aber es ist kein Prozent, sondern Modulo."
+      }
+    },
+    {
+      "id": "ex-free-potenz",
+      "type": "exercise",
+      "title": "Potenz-Operator",
+      "exercise": {
+        "id": "ex-free-potenz",
+        "type": "free_text",
+        "prompt": "Welches Ergebnis liefert 2 ** 8 in Python?",
+        "card_ids": ["py-potenz"],
+        "accept": ["256", "256.0"],
+        "hint": "2 hoch 8 — multipliziere 2 achtmal miteinander.",
+        "distractors": ["16", "64", "512", "28"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-rangfolge",
+      "type": "exercise",
+      "title": "Operatorrangfolge",
+      "exercise": {
+        "id": "ex-free-rangfolge",
+        "type": "free_text",
+        "prompt": "Was gibt print(2 + 3 * 4) aus?",
+        "card_ids": ["py-rangfolge"],
+        "accept": ["14", "14.0"],
+        "hint": "Multiplikation hat Vorrang vor Addition — erst 3 * 4, dann + 2.",
+        "distractors": ["20", "24", "11"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-ganzzahldivision",
+      "type": "exercise",
+      "title": "Ganzzahldivision zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-ganzzahldivision",
+        "type": "word_tiles",
+        "prompt": "Setze die Zeile zusammen, die die Ganzzahldivision von 10 durch 3 ausgibt.",
+        "card_ids": ["py-ganzzahldivision"],
+        "tiles": ["print", "(", "10", "//", "3", ")"],
+        "hint": "Zwei Schrägstriche für die Ganzzahldivision.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-operatoren",
+      "type": "exercise",
+      "title": "Operatoren zuordnen",
+      "exercise": {
+        "id": "ex-match-operatoren",
+        "type": "matching",
+        "prompt": "Ordne jeden Operator seiner Bedeutung zu.",
+        "card_ids": ["py-ganzzahldivision", "py-modulo", "py-potenz"],
+        "pairs": [
+          { "left": "//", "right": "Ganzzahldivision (Rest abschneiden)" },
+          { "left": "%", "right": "Modulo (Rest der Division)" },
+          { "left": "**", "right": "Potenz (a hoch b)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-ergebnisse",
+      "type": "exercise",
+      "title": "Rechenergebnisse zuordnen",
+      "exercise": {
+        "id": "ex-match-ergebnisse",
+        "type": "matching",
+        "prompt": "Ordne jeden Ausdruck dem richtigen Ergebnis zu.",
+        "card_ids": ["py-addition", "py-multiplikation", "py-ganzzahldivision", "py-modulo"],
+        "pairs": [
+          { "left": "3 + 5", "right": "8" },
+          { "left": "4 * 7", "right": "28" },
+          { "left": "10 // 3", "right": "3" },
+          { "left": "10 % 3", "right": "1" }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

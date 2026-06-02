@@ -1,0 +1,264 @@
+{
+  "id": "09-dictionaries",
+  "title": "Dictionaries (dict)",
+  "description": "Dictionaries mit {} und key: value erstellen, Werte abrufen, neue Schlüssel hinzufügen, .keys() / .values() / .items() und den in-Test — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "programming",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "dict-erstellen",
+      "front": "Dictionary erstellen (dict)",
+      "back": "Ein Dictionary speichert Schlüssel-Wert-Paare in geschweiften Klammern.",
+      "code_snippet": "alter = {'Anna': 28, 'Ben': 34}\nprint(alter)",
+      "code_language": "python",
+      "expected_output": "{'Anna': 28, 'Ben': 34}",
+      "hint": "Geschweifte Klammern { } und Doppelpunkt zwischen Schlüssel und Wert.",
+      "difficulty": 2,
+      "tags": ["dictionary", "grundlagen"],
+      "media_type": "code"
+    },
+    {
+      "id": "dict-zugriff",
+      "front": "Wert abrufen — d['schluessel']",
+      "back": "Mit eckigen Klammern und dem Schlüssel greift man auf den zugehörigen Wert zu.",
+      "code_snippet": "alter = {'Anna': 28, 'Ben': 34}\nprint(alter['Anna'])",
+      "code_language": "python",
+      "expected_output": "28",
+      "hint": "Wie bei Listen, aber statt eines Index nutzt man den Schlüssel.",
+      "difficulty": 2,
+      "tags": ["dictionary", "zugriff"],
+      "media_type": "code"
+    },
+    {
+      "id": "dict-get",
+      "front": ".get() — sicherer Zugriff",
+      "back": ".get(schluessel) gibt den Wert zurück oder None, wenn der Schlüssel nicht existiert — kein Fehler.",
+      "code_snippet": "alter = {'Anna': 28}\nprint(alter.get('Ben'))",
+      "code_language": "python",
+      "expected_output": "None",
+      "hint": "Bei unbekanntem Schlüssel gibt .get() None zurück statt einen KeyError auszulösen.",
+      "difficulty": 3,
+      "tags": ["dictionary", "methode"],
+      "media_type": "code"
+    },
+    {
+      "id": "dict-hinzufuegen",
+      "front": "Neuen Schlüssel hinzufügen",
+      "back": "Mit d['neuer_schluessel'] = wert fügt man ein neues Schlüssel-Wert-Paar hinzu oder überschreibt einen bestehenden Wert.",
+      "code_snippet": "alter = {'Anna': 28}\nalter['Ben'] = 34\nprint(alter['Ben'])",
+      "code_language": "python",
+      "expected_output": "34",
+      "hint": "Zuweisung über den Schlüssel wie bei Variablen.",
+      "difficulty": 2,
+      "tags": ["dictionary", "mutation"],
+      "media_type": "code"
+    },
+    {
+      "id": "dict-keys",
+      "front": ".keys() — alle Schlüssel",
+      "back": ".keys() gibt eine Ansicht aller Schlüssel im Dictionary zurück.",
+      "code_snippet": "alter = {'Anna': 28, 'Ben': 34}\nprint(list(alter.keys()))",
+      "code_language": "python",
+      "expected_output": "['Anna', 'Ben']",
+      "hint": "keys() gibt die linke Seite aller Paare zurück.",
+      "difficulty": 2,
+      "tags": ["dictionary", "methode"],
+      "media_type": "code"
+    },
+    {
+      "id": "dict-values",
+      "front": ".values() — alle Werte",
+      "back": ".values() gibt eine Ansicht aller Werte im Dictionary zurück.",
+      "code_snippet": "alter = {'Anna': 28, 'Ben': 34}\nprint(list(alter.values()))",
+      "code_language": "python",
+      "expected_output": "[28, 34]",
+      "hint": "values() gibt die rechte Seite aller Paare zurück.",
+      "difficulty": 2,
+      "tags": ["dictionary", "methode"],
+      "media_type": "code"
+    },
+    {
+      "id": "dict-items",
+      "front": ".items() — Schlüssel-Wert-Paare",
+      "back": ".items() gibt alle Schlüssel-Wert-Paare als Tupel-Liste zurück — nützlich für Schleifen.",
+      "code_snippet": "alter = {'Anna': 28}\nfor name, a in alter.items():\n    print(name, a)",
+      "code_language": "python",
+      "expected_output": "Anna 28",
+      "hint": "items() liefert (schluessel, wert)-Tupel.",
+      "difficulty": 3,
+      "tags": ["dictionary", "methode"],
+      "media_type": "code"
+    },
+    {
+      "id": "dict-in-test",
+      "front": "in-Test auf Schlüssel",
+      "back": "Mit dem in-Operator prüft man, ob ein Schlüssel im Dictionary vorhanden ist.",
+      "code_snippet": "alter = {'Anna': 28, 'Ben': 34}\nprint('Anna' in alter)",
+      "code_language": "python",
+      "expected_output": "True",
+      "hint": "in prüft nur Schlüssel, keine Werte.",
+      "difficulty": 2,
+      "tags": ["dictionary", "operator"],
+      "media_type": "code"
+    },
+    {
+      "id": "dict-keyerror",
+      "front": "KeyError",
+      "back": "Fehlermeldung, die auftritt, wenn man mit d['schluessel'] auf einen nicht vorhandenen Schlüssel zugreift.",
+      "notes": "Vermeidbar mit .get() oder einem vorherigen in-Test.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["dictionary", "fehler"]
+    },
+    {
+      "id": "dict-leer",
+      "front": "Leeres Dictionary",
+      "back": "Ein leeres Dictionary wird mit {} oder dict() erstellt.",
+      "code_snippet": "d = {}\nd['x'] = 10\nprint(d['x'])",
+      "code_language": "python",
+      "expected_output": "10",
+      "hint": "Geschweifte Klammern ohne Inhalt.",
+      "difficulty": 1,
+      "tags": ["dictionary", "grundlagen"],
+      "media_type": "code"
+    },
+    {
+      "id": "dict-len",
+      "front": "len() bei Dictionaries",
+      "back": "len(d) gibt die Anzahl der Schlüssel-Wert-Paare im Dictionary zurück.",
+      "code_snippet": "alter = {'Anna': 28, 'Ben': 34, 'Clara': 22}\nprint(len(alter))",
+      "code_language": "python",
+      "expected_output": "3",
+      "hint": "len() funktioniert genauso wie bei Listen.",
+      "difficulty": 1,
+      "tags": ["dictionary", "funktion"],
+      "media_type": "code"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-dict-grundlagen",
+      "type": "theory",
+      "title": "Dictionaries erstellen und Werte abrufen",
+      "body": "# Dictionaries (dict)\n\nEin **Dictionary** speichert Daten als **Schlüssel-Wert-Paare** (key: value). Es steht in geschweiften Klammern `{}`:\n\n```python\nalter = {'Anna': 28, 'Ben': 34}\nprint(alter)\n```\n\nAusgabe:\n\n```\n{'Anna': 28, 'Ben': 34}\n```\n\n## Werte abrufen\n\nMan greift auf einen Wert zu, indem man den **Schlüssel** in eckigen Klammern angibt:\n\n```python\nprint(alter['Anna'])   # 28\n```\n\nWenn der Schlüssel nicht existiert, kommt ein **KeyError**. Sicherer ist **.get()**:\n\n```python\nprint(alter.get('Clara'))   # None (kein Fehler)\n```\n\n## Neues Paar hinzufügen\n\nEinfache Zuweisung über einen neuen Schlüssel:\n\n```python\nalter['Clara'] = 22\nprint(alter['Clara'])   # 22\n```\n\n## Anzahl der Einträge\n\n```python\nprint(len(alter))   # 3\n```"
+    },
+    {
+      "id": "step-dict-methoden",
+      "type": "theory",
+      "title": "Dictionary-Methoden und der in-Test",
+      "body": "## .keys(), .values(), .items()\n\nDrei nützliche Methoden geben Übersichten zurück:\n\n```python\nalter = {'Anna': 28, 'Ben': 34}\nprint(list(alter.keys()))    # ['Anna', 'Ben']\nprint(list(alter.values()))  # [28, 34]\n```\n\n**.items()** liefert alle Paare — ideal für eine Schleife:\n\n```python\nfor name, a in alter.items():\n    print(name, a)\n# Anna 28\n# Ben 34\n```\n\n## in-Test auf Schlüssel\n\nMit **in** prüft man, ob ein Schlüssel vorhanden ist:\n\n```python\nprint('Anna' in alter)   # True\nprint('xyz' in alter)    # False\n```\n\nWichtig: `in` prüft nur **Schlüssel**, nicht Werte.\n\n## Zusammenfassung\n\n| Operation | Syntax |\n|---|---|\n| Erstellen | `d = {'k': v}` |\n| Abrufen | `d['k']` |\n| Sicherer Abruf | `d.get('k')` |\n| Hinzufügen | `d['k'] = v` |\n| Schlüssel prüfen | `'k' in d` |"
+    },
+    {
+      "id": "ex-cloze-dict-erstellen",
+      "type": "exercise",
+      "title": "Dictionary-Klammern",
+      "exercise": {
+        "id": "ex-cloze-dict-erstellen",
+        "type": "cloze",
+        "prompt": "Ergänze die Klammern, in denen ein Dictionary steht.",
+        "card_ids": ["dict-erstellen"],
+        "sentence": "Ein Dictionary wird in ___ Klammern geschrieben: {'key': wert}.",
+        "blanks": [
+          { "accept": ["geschweiften", "geschweifte", "{}"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Nicht eckig [ ] und nicht rund ( )."
+      }
+    },
+    {
+      "id": "ex-cloze-get",
+      "type": "exercise",
+      "title": "Sicherer Schlüsselzugriff",
+      "exercise": {
+        "id": "ex-cloze-get",
+        "type": "cloze",
+        "prompt": "Ergänze die Methode, die einen Wert zurückgibt ohne einen Fehler zu werfen, wenn der Schlüssel fehlt.",
+        "card_ids": ["dict-get"],
+        "sentence": "d.___(schluessel) gibt None zurück, wenn der Schlüssel nicht vorhanden ist.",
+        "blanks": [
+          { "accept": ["get"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englisch für 'holen' oder 'bekommen'."
+      }
+    },
+    {
+      "id": "ex-free-keyerror",
+      "type": "exercise",
+      "title": "Fehler bei fehlendem Schlüssel",
+      "exercise": {
+        "id": "ex-free-keyerror",
+        "type": "free_text",
+        "prompt": "Welchen Fehler wirft Python, wenn man mit d['x'] auf einen nicht vorhandenen Schlüssel zugreift?",
+        "card_ids": ["dict-keyerror"],
+        "accept": ["KeyError", "keyerror", "Key Error", "KeyError-Ausnahme"],
+        "hint": "Der Fehlertyp enthält das Wort 'Key'.",
+        "distractors": ["IndexError", "ValueError", "TypeError"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-in-test",
+      "type": "exercise",
+      "title": "Schlüssel prüfen",
+      "exercise": {
+        "id": "ex-free-in-test",
+        "type": "free_text",
+        "prompt": "Mit welchem Operator prüft man, ob ein Schlüssel in einem Dictionary vorhanden ist?",
+        "card_ids": ["dict-in-test"],
+        "accept": ["in", "in-Operator", "der in-Operator"],
+        "hint": "Denselben Operator kennt man auch von Listen.",
+        "distractors": ["has", "contains", "exists"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-zugriff",
+      "type": "exercise",
+      "title": "Wert aus Dictionary abrufen",
+      "exercise": {
+        "id": "ex-tiles-zugriff",
+        "type": "word_tiles",
+        "prompt": "Setze die Zeile zusammen, die den Wert zum Schlüssel 'Anna' aus dem Dictionary 'alter' ausgibt.",
+        "card_ids": ["dict-zugriff"],
+        "tiles": ["print", "(", "alter", "[", "'Anna'", "]", ")"],
+        "hint": "print() umschließt den Zugriff mit eckigen Klammern.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-methoden",
+      "type": "exercise",
+      "title": "Dictionary-Methoden zuordnen",
+      "exercise": {
+        "id": "ex-match-methoden",
+        "type": "matching",
+        "prompt": "Ordne jede Methode ihrer Beschreibung zu.",
+        "card_ids": ["dict-keys", "dict-values", "dict-items", "dict-get"],
+        "pairs": [
+          { "left": ".keys()", "right": "gibt alle Schlüssel zurück" },
+          { "left": ".values()", "right": "gibt alle Werte zurück" },
+          { "left": ".items()", "right": "gibt alle Schlüssel-Wert-Paare zurück" },
+          { "left": ".get(k)", "right": "gibt den Wert zurück oder None — kein Fehler" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-hinzufuegen",
+      "type": "exercise",
+      "title": "Neuen Eintrag hinzufügen",
+      "exercise": {
+        "id": "ex-tiles-hinzufuegen",
+        "type": "word_tiles",
+        "prompt": "Setze die Zeile zusammen, die dem Dictionary 'alter' den Schlüssel 'Clara' mit Wert 22 hinzufügt.",
+        "card_ids": ["dict-hinzufuegen"],
+        "tiles": ["alter", "[", "'Clara'", "]", "=", "22"],
+        "hint": "Zuweisung über eckige Klammern mit dem neuen Schlüssel.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
