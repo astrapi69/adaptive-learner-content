@@ -47,6 +47,11 @@
 # Gedächtnis und Lernen vertieft, Sprachpsychologie, das visuelle
 # und auditive System, evolutionäre und Kulturpsychologie sowie
 # eine abschließende Wiederholung.
+#
+# v1.7.0 (schema v1.3): Block 51–55 zur Entscheidungspsychologie:
+# Heuristiken und Urteilsfehler, Dual-Process-Theorien (System 1
+# und 2), Prospect Theory, Verhaltensökonomie und Nudging sowie
+# eine abschließende Wiederholung.
 schema_version: '1.3'
 name: Psychologie — Grundlagen
 description: >-
@@ -73,19 +78,20 @@ sets:
     domain: psychology
     level: A1
     path: sets/de/psych-intro
-    version: '1.6.0'
-    lesson_count: 50
+    version: '1.7.0'
+    lesson_count: 55
     domain_label: Psychologie
     description: >-
       Vollständiger Einführungskurs Psychologie auf
-      Universitätsniveau (50 Lektionen), auf Deutsch erklärt — von
+      Universitätsniveau (55 Lektionen), auf Deutsch erklärt — von
       den Grundlagen- und Anwendungsfächern über Psychotherapie,
       Forschungsmethoden und Statistik bis zu vertieften
       Grundlagenfächern, Geschichte, Wissenschaftstheorie, einem
       Spezialgebiete-Block (Psychophysik, Neuropsychologie,
-      klinische Vertiefung, weiterführende Statistik) sowie einem
-      Block zu Gedächtnis, Sprache, Sinnessystemen, Evolution und
-      Kultur.
+      klinische Vertiefung, weiterführende Statistik), einem Block
+      zu Gedächtnis, Sprache, Sinnessystemen, Evolution und Kultur
+      sowie der Entscheidungspsychologie (Heuristiken, Dual-Process,
+      Prospect Theory, Verhaltensökonomie).
     tags:
       - beginner
       - psychology
@@ -144,3 +150,8 @@ metadata:
     - 48-wahrnehmung-visuell-auditiv.json
     - 49-evolutionaere-und-kulturpsychologie.json
     - 50-wiederholung-kognition-kultur.json
+    - 51-heuristiken-und-urteilsfehler.json
+    - 52-dual-process-system-1-und-2.json
+    - 53-prospect-theory-und-risiko.json
+    - 54-verhaltensoekonomie-und-nudging.json
+    - 55-wiederholung-urteilen-entscheiden.json
