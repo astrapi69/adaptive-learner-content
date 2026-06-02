@@ -1,0 +1,290 @@
+{
+  "id": "02-numbers-and-time",
+  "title": "Zahlen und Uhrzeit",
+  "description": "Zahlen von 1 bis 100, die Uhrzeit, Wochentage und Monate — auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "one",
+      "front": "one",
+      "back": "eins",
+      "notes": "Ausgesprochen 'wann'. Als Zahl 1.",
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "ten",
+      "front": "ten",
+      "back": "zehn",
+      "notes": "Die Zehnerzahl 10. Bildet später die '-teen'- und '-ty'-Reihen.",
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "thirteen",
+      "front": "thirteen",
+      "back": "dreizehn",
+      "notes": "Endung '-teen' für 13–19. Betonung hinten: thir-TEEN.",
+      "tags": ["zahlen", "teens"]
+    },
+    {
+      "id": "thirty",
+      "front": "thirty",
+      "back": "dreißig",
+      "notes": "Endung '-ty' für die Zehner 20–90. Betonung vorne: THIR-ty. Nicht mit 'thirteen' verwechseln!",
+      "tags": ["zahlen", "tens"]
+    },
+    {
+      "id": "fifteen",
+      "front": "fifteen",
+      "back": "fünfzehn",
+      "notes": "'-teen' = die Teens (13–19). fif-TEEN.",
+      "tags": ["zahlen", "teens"]
+    },
+    {
+      "id": "fifty",
+      "front": "fifty",
+      "back": "fünfzig",
+      "notes": "'-ty' = die Zehner. FIF-ty. Hörbarer Unterschied zu 'fifteen' liegt in der Betonung.",
+      "tags": ["zahlen", "tens"]
+    },
+    {
+      "id": "one-hundred",
+      "front": "a hundred",
+      "back": "(ein)hundert",
+      "notes": "'a hundred' oder 'one hundred'. Anders als im Deutschen dreht man Zahlen NICHT um: 'twenty-one' = einundzwanzig.",
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "what-time-is-it",
+      "front": "What time is it?",
+      "back": "Wie spät ist es?",
+      "notes": "Wörtlich 'Welche Zeit ist es?'. Antwort beginnt mit 'It's ...'.",
+      "tags": ["uhrzeit", "frage"]
+    },
+    {
+      "id": "oclock",
+      "front": "o'clock",
+      "back": "Uhr (zur vollen Stunde)",
+      "notes": "Nur bei vollen Stunden: 'It's three o'clock' = Es ist drei Uhr.",
+      "tags": ["uhrzeit"]
+    },
+    {
+      "id": "half-past",
+      "front": "half past",
+      "back": "halb nach (Achtung: 'half past three' = halb vier!)",
+      "notes": "Falscher Freund! 'half past three' bedeutet 3:30. Auf Deutsch sagt man dazu 'halb VIER'. Englisch zählt von der vergangenen Stunde.",
+      "tags": ["uhrzeit", "falscher-freund"]
+    },
+    {
+      "id": "quarter-past",
+      "front": "quarter past",
+      "back": "Viertel nach",
+      "notes": "'quarter past three' = Viertel nach drei (3:15). Gegenstück: 'quarter to' = Viertel vor.",
+      "tags": ["uhrzeit"]
+    },
+    {
+      "id": "am-pm",
+      "front": "a.m. / p.m.",
+      "back": "vormittags / nachmittags (12-Stunden-Uhr)",
+      "notes": "a.m. = 0–12 Uhr, p.m. = 12–24 Uhr. Englischsprachige nutzen meist die 12-Stunden-Uhr, nicht 0–24 wie im Deutschen.",
+      "tags": ["uhrzeit"]
+    },
+    {
+      "id": "monday",
+      "front": "Monday",
+      "back": "Montag",
+      "notes": "Wichtig: Wochentage werden im Englischen IMMER großgeschrieben — auch mitten im Satz.",
+      "tags": ["wochentage"]
+    },
+    {
+      "id": "january",
+      "front": "January",
+      "back": "Januar",
+      "notes": "Auch Monatsnamen schreibt man im Englischen groß. 'in January' = im Januar.",
+      "tags": ["monate"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Zahlen von 1 bis 100",
+      "body": "# Zahlen auf Englisch\n\nDie Grundzahlen ähneln dem Deutschen, sind aber leichter zu bauen.\n\n- **1–12**: eigene Wörter — one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve.\n- **13–19**: Endung **-teen** — thir**teen**, four**teen**, fif**teen** ...\n- **20–90**: Endung **-ty** — twen**ty**, thir**ty**, for**ty** ...\n- **Zusammengesetzt**: einfach hintereinander, mit Bindestrich: **twenty-one**, **forty-five**.\n\n**Großer Unterschied zum Deutschen:** Die Zahlen werden NICHT umgedreht. 21 = *twenty-one* (zwanzig-eins), nicht 'einundzwanzig'. 100 = *a hundred* / *one hundred*."
+    },
+    {
+      "id": "step-teens-tens",
+      "type": "theory",
+      "title": "Die Falle: thirteen oder thirty?",
+      "body": "## thir-TEEN vs. THIR-ty\n\nDer häufigste Fehler von Deutschsprachigen (und der größte Hörfehler überhaupt):\n\n| -teen (13–19) | -ty (Zehner) |\n|---|---|\n| **thirteen** = 13 | **thirty** = 30 |\n| **fifteen** = 15 | **fifty** = 50 |\n| **eighteen** = 18 | **eighty** = 80 |\n\nDer Unterschied liegt in der **Betonung**:\n\n- **-teen** → Betonung hinten: *thir-**TEEN***.\n- **-ty** → Betonung vorne: ***THIR**-ty*.\n\nÜbe das laut. 'I'm thirteen' (13 Jahre) klingt deutlich anders als 'I'm thirty' (30 Jahre)."
+    },
+    {
+      "id": "step-time",
+      "type": "theory",
+      "title": "Die Uhrzeit und die 12-Stunden-Uhr",
+      "body": "## Wie spät ist es?\n\nFrage: **What time is it?** — Antwort: **It's ...**\n\n- Volle Stunde: **It's three o'clock.** (3:00)\n- Viertel nach: **It's quarter past three.** (3:15)\n- Halb: **It's half past three.** (3:30)\n- Viertel vor: **It's quarter to four.** (3:45)\n\n**Achtung, falscher Freund:** *half past three* heißt **3:30** — also das deutsche 'halb VIER'! Englisch zählt von der vergangenen Stunde aus ('halb NACH drei'), Deutsch von der kommenden.\n\nEnglischsprachige nutzen meist die **12-Stunden-Uhr** mit **a.m.** (vormittags) und **p.m.** (nachmittags/abends) statt der 24-Stunden-Zählung. '15:00' wird zu '3 p.m.'.\n\nWochentage (**Monday, Tuesday ...**) und Monate (**January, February ...**) schreibt man IMMER groß."
+    },
+    {
+      "id": "ex-match-numbers",
+      "type": "exercise",
+      "title": "Zahlen zuordnen",
+      "exercise": {
+        "id": "ex-match-numbers",
+        "type": "matching",
+        "prompt": "Ordne jede englische Zahl ihrer deutschen Bedeutung zu.",
+        "card_ids": ["thirteen", "thirty", "fifteen", "fifty"],
+        "pairs": [
+          { "left": "thirteen", "right": "dreizehn" },
+          { "left": "thirty", "right": "dreißig" },
+          { "left": "fifteen", "right": "fünfzehn" },
+          { "left": "fifty", "right": "fünfzig" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-thirty",
+      "type": "exercise",
+      "title": "Die richtige Zahl",
+      "exercise": {
+        "id": "ex-free-thirty",
+        "type": "free_text",
+        "prompt": "Schreibe die Zahl 30 als englisches Wort.",
+        "card_ids": ["thirty"],
+        "accept": ["thirty", "Thirty", "thirty."],
+        "hint": "Zehnerzahl mit Endung '-ty', Betonung vorne.",
+        "distractors": ["thirteen", "thirtteen", "thrity"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-clock-half",
+      "type": "exercise",
+      "title": "Welche Uhr zeigt 'half past three'?",
+      "exercise": {
+        "id": "ex-pick-clock-half",
+        "type": "picture_choice",
+        "prompt": "Welche Uhr zeigt 'half past three'? (Vorsicht — das ist nicht halb drei!)",
+        "card_ids": ["half-past"],
+        "images": [
+          { "src": "assets/img/clock-330.png", "label": "3:30", "is_correct": "true" },
+          { "src": "assets/img/clock-230.png", "label": "2:30" },
+          { "src": "assets/img/clock-300.png", "label": "3:00" },
+          { "src": "assets/img/clock-345.png", "label": "3:45" }
+        ],
+        "hint": "'half past three' = halb nach drei = 3:30 (auf Deutsch 'halb vier').",
+        "distractors": ["2:30", "3:00", "3:45"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-what-time",
+      "type": "exercise",
+      "title": "Die Frage nach der Uhrzeit",
+      "exercise": {
+        "id": "ex-tile-what-time",
+        "type": "word_tiles",
+        "prompt": "Setze die Kacheln zu 'Wie spät ist es?' zusammen.",
+        "card_ids": ["what-time-is-it"],
+        "tiles": ["What", "time", "is", "it", "?"],
+        "hint": "Wörtlich 'Welche Zeit ist es?'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-oclock",
+      "type": "exercise",
+      "title": "Volle Stunde",
+      "exercise": {
+        "id": "ex-cloze-oclock",
+        "type": "cloze",
+        "prompt": "Ergänze: 'Es ist drei Uhr.'",
+        "card_ids": ["oclock"],
+        "sentence": "It's three ___ .",
+        "blanks": [
+          { "accept": ["o'clock", "oclock", "o’clock"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Nur bei vollen Stunden, mit Apostroph: o'____."
+      }
+    },
+    {
+      "id": "ex-match-days",
+      "type": "exercise",
+      "title": "Wochentage und Monate",
+      "exercise": {
+        "id": "ex-match-days",
+        "type": "matching",
+        "prompt": "Ordne zu. Achte darauf, dass im Englischen groß geschrieben wird.",
+        "card_ids": ["monday", "january", "what-time-is-it"],
+        "pairs": [
+          { "left": "Monday", "right": "Montag" },
+          { "left": "January", "right": "Januar" },
+          { "left": "What time is it?", "right": "Wie spät ist es?" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-thirteen",
+      "type": "exercise",
+      "title": "Teens schreiben",
+      "exercise": {
+        "id": "ex-free-thirteen",
+        "type": "free_text",
+        "prompt": "Schreibe die Zahl 13 als englisches Wort.",
+        "card_ids": ["thirteen"],
+        "accept": ["thirteen", "Thirteen", "thirteen."],
+        "hint": "Endung '-teen', Betonung hinten.",
+        "distractors": ["thirty", "threeteen", "thirtteen"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-monday",
+      "type": "exercise",
+      "title": "Groß oder klein?",
+      "exercise": {
+        "id": "ex-cloze-monday",
+        "type": "cloze",
+        "prompt": "Ergänze den Wochentag. Denk an die Großschreibung!",
+        "card_ids": ["monday"],
+        "sentence": "I have English on ___ .",
+        "blanks": [
+          { "accept": ["Monday"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Montag — im Englischen IMMER mit großem Anfangsbuchstaben."
+      }
+    },
+    {
+      "id": "ex-free-quarter-past",
+      "type": "exercise",
+      "title": "Viertel nach",
+      "exercise": {
+        "id": "ex-free-quarter-past",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Viertel nach' (z. B. 3:15) auf Englisch?",
+        "card_ids": ["quarter-past"],
+        "accept": ["quarter past", "Quarter past", "a quarter past"],
+        "hint": "'Viertel' = quarter, 'nach' = past.",
+        "distractors": ["quarter after", "quarter to", "quarter over"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-twenty-one",
+      "type": "exercise",
+      "title": "Zusammengesetzte Zahl",
+      "exercise": {
+        "id": "ex-tile-twenty-one",
+        "type": "word_tiles",
+        "prompt": "Bilde die Zahl 21. (Erinnerung: Englisch dreht NICHT um.)",
+        "card_ids": ["one"],
+        "tiles": ["twenty", "-", "one"],
+        "hint": "Erst der Zehner, dann der Einer: zwanzig-eins.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
