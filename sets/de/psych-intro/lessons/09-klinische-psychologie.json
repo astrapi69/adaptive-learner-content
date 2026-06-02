@@ -1,0 +1,302 @@
+{
+  "id": "09-klinische-psychologie",
+  "title": "Klinische Psychologie",
+  "description": "Einführung in die klinische Psychologie: Angststörungen, Depression, Therapieformen und Psychopharmaka — neutral und bildungsorientiert auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "klinische-psychologie",
+      "front": "Klinische Psychologie (Clinical Psychology)",
+      "back": "Teilgebiet der Psychologie, das sich mit der Beschreibung, Erklärung, Diagnostik und Behandlung psychischer Störungen befasst.",
+      "notes": "Größtes Anwendungsgebiet der Psychologie; eng verwandt mit, aber verschieden von der Psychiatrie (einem medizinischen Fachgebiet).",
+      "tags": ["grundlagen", "klinisch"]
+    },
+    {
+      "id": "angststoerung",
+      "front": "Angststörung (Anxiety Disorder)",
+      "back": "Oberbegriff für psychische Störungen, bei denen anhaltende, übermäßige oder situationsunangemessene Angst im Vordergrund steht.",
+      "notes": "Zu den häufigsten psychischen Störungen weltweit. Umfasst u. a. spezifische Phobie, Panikstörung, generalisierte Angststörung und soziale Angststörung.",
+      "tags": ["angst", "störung"]
+    },
+    {
+      "id": "spezifische-phobie",
+      "front": "Spezifische Phobie (Specific Phobia)",
+      "back": "Ausgeprägte, anhaltende Furcht vor einem bestimmten Objekt oder einer bestimmten Situation (z. B. Spinnen, Höhen, Spritzen).",
+      "notes": "Die Furchtreaktion ist auf einen klar abgegrenzten Auslöser beschränkt — im Unterschied zur generalisierten Angststörung.",
+      "tags": ["angst", "phobie"]
+    },
+    {
+      "id": "panikstörung",
+      "front": "Panikstörung (Panic Disorder)",
+      "back": "Wiederholte, unerwartete Panikattacken mit intensiver körperlicher Reaktion, verbunden mit anhaltender Sorge vor weiteren Attacken.",
+      "notes": "Panikattacken erreichen ihr Maximum in wenigen Minuten; Betroffene entwickeln häufig Vermeidungsverhalten.",
+      "tags": ["angst", "panik"]
+    },
+    {
+      "id": "generalisierte-angststörung",
+      "front": "Generalisierte Angststörung (Generalized Anxiety Disorder, GAD)",
+      "back": "Anhaltende, unkontrollierbare Sorgen über viele verschiedene Lebensbereiche — nicht auf eine einzelne Situation begrenzt.",
+      "notes": "Typisch: chronische Anspannung und Grübeln; Dauer von mindestens sechs Monaten als diagnostisches Merkmal beschrieben.",
+      "tags": ["angst", "sorge"]
+    },
+    {
+      "id": "soziale-angststörung",
+      "front": "Soziale Angststörung (Social Anxiety Disorder)",
+      "back": "Ausgeprägte Furcht vor sozialen Situationen, in denen man negativ beurteilt werden könnte — geht oft mit Vermeidungsverhalten einher.",
+      "notes": "Früher auch 'soziale Phobie' genannt; nicht gleichzusetzen mit allgemeiner Schüchternheit.",
+      "tags": ["angst", "sozial"]
+    },
+    {
+      "id": "depression",
+      "front": "Depression (Major Depressive Disorder)",
+      "back": "Psychische Störung, die durch anhaltend gedrückte Stimmung, Antriebslosigkeit und Interessenverlust charakterisiert wird.",
+      "notes": "Zu unterscheiden von vorübergehend trauriger Stimmung; eine der weltweit häufigsten psychischen Erkrankungen.",
+      "tags": ["depression", "störung"]
+    },
+    {
+      "id": "kognitive-triade",
+      "front": "Kognitive Triade (Beck)",
+      "back": "Negative Sicht auf sich selbst, die Welt und die Zukunft — ein Kernmuster, das bei Depression beschrieben wird.",
+      "notes": "Formuliert von Aaron Beck; zentrales Konzept der kognitiven Verhaltenstherapie. Keine Diagnose, sondern ein beschreibendes Modell.",
+      "tags": ["depression", "beck", "kognition"]
+    },
+    {
+      "id": "verhaltenstherapie",
+      "front": "Verhaltenstherapie (Behavior Therapy)",
+      "back": "Therapieform, die auf lerntheoretischen Prinzipien basiert und auf die Veränderung dysfunktionaler Verhaltensweisen abzielt.",
+      "notes": "Orientiert sich an Konditionierungsprinzipien; gehört zu den am besten empirisch untersuchten Therapieformen.",
+      "tags": ["therapie", "verhaltenstherapie"]
+    },
+    {
+      "id": "kvt",
+      "front": "Kognitive Verhaltenstherapie (KVT / CBT)",
+      "back": "Weiterentwicklung der Verhaltenstherapie: bezieht zusätzlich kognitive Muster (Gedanken, Überzeugungen) in die Behandlung ein.",
+      "notes": "KVT ist eine der meistuntersuchten Psychotherapieformen; verbindet Verhaltensübungen mit der Arbeit an Denkmustern.",
+      "tags": ["therapie", "kvt", "kognition"]
+    },
+    {
+      "id": "psychoanalyse",
+      "front": "Psychoanalyse (Psychoanalysis)",
+      "back": "Therapieform, die von Freud begründet wurde und unbewusste Konflikte sowie frühe Lebenserfahrungen als Ursprung psychischen Leidens betrachtet.",
+      "notes": "Nutzt Techniken wie freie Assoziation und Traumdeutung; empirische Evidenz ist verglichen mit KVT geringer.",
+      "tags": ["therapie", "psychoanalyse", "freud"]
+    },
+    {
+      "id": "systemische-therapie",
+      "front": "Systemische Therapie (Systemic Therapy)",
+      "back": "Therapieform, die das soziale System einer Person (Familie, Beziehungen) als zentralen Kontext psychischer Probleme betrachtet.",
+      "notes": "Häufig als Familien- oder Paartherapie eingesetzt; fokussiert auf Kommunikations- und Beziehungsmuster.",
+      "tags": ["therapie", "systemisch"]
+    },
+    {
+      "id": "antidepressiva",
+      "front": "Antidepressiva (Antidepressants)",
+      "back": "Kategorie von Psychopharmaka, die zur Behandlung depressiver Störungen eingesetzt werden; ein bekanntes Beispiel ist die Gruppe der SSRI (Selektive Serotonin-Wiederaufnahmehemmer).",
+      "notes": "Rein beschreibende Übersicht — keine Empfehlung oder Dosierungsangabe. Jede medikamentöse Behandlung erfordert ärztliche Begleitung.",
+      "tags": ["pharmakologie", "antidepressivum"]
+    },
+    {
+      "id": "anxiolytika",
+      "front": "Anxiolytika (Anxiolytics)",
+      "back": "Kategorie von Psychopharmaka, die angstlösend wirken; umfasst u. a. Benzodiazepine.",
+      "notes": "Neutral beschreibende Übersicht. Benzodiazepine haben ein bekanntes Abhängigkeitspotenzial — nähere Informationen gehören in ärztliche Hände.",
+      "tags": ["pharmakologie", "angst"]
+    },
+    {
+      "id": "neuroleptika",
+      "front": "Neuroleptika / Antipsychotika (Antipsychotics)",
+      "back": "Kategorie von Psychopharmaka, die vor allem bei psychotischen Störungen (z. B. Schizophrenie) beschrieben werden.",
+      "notes": "Neutral beschreibende Übersicht. Die Bezeichnung 'Neuroleptika' ist älter; 'Antipsychotika' ist der modernere Begriff.",
+      "tags": ["pharmakologie", "antipsychotisch"]
+    },
+    {
+      "id": "psychische-störung",
+      "front": "Psychische Störung (Mental Disorder)",
+      "back": "Klinisch bedeutsames Muster aus Erleben oder Verhalten, das mit Leidensdruck oder Funktionsbeeinträchtigungen verbunden ist.",
+      "notes": "Keine Wertung der Person; beschreibt ein Funktionsmuster. Diagnostische Einordnung obliegt qualifizierten Fachkräften.",
+      "tags": ["grundlagen", "diagnose"]
+    },
+    {
+      "id": "ätiologie",
+      "front": "Ätiologie (Etiology)",
+      "back": "Lehre von den Ursachen und Entstehungsbedingungen einer Erkrankung.",
+      "notes": "In der klinischen Psychologie werden biologische, psychologische und soziale Faktoren zusammen betrachtet (biopsychosoziales Modell).",
+      "tags": ["grundlagen", "ursache"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theorie-einleitung",
+      "type": "theory",
+      "title": "Einleitung und wichtiger Hinweis",
+      "body": "# Klinische Psychologie — Einführung\n\n**Wichtiger Hinweis:** Diese Lektion dient dem Grundverständnis und ersetzt keine professionelle Diagnose oder Behandlung. Wenn du selbst betroffen bist oder jemanden kennst, der Hilfe braucht, wende dich bitte an eine qualifizierte Fachkraft (z. B. Psychotherapeutin, Psychiater oder hausärztliche Praxis).\n\nDie **Klinische Psychologie** befasst sich mit der Beschreibung, Erklärung und Behandlung psychischer Störungen. Sie ist das größte Anwendungsfeld der Psychologie und eng, aber nicht identisch mit der **Psychiatrie** — die Psychiatrie ist ein medizinisches Fachgebiet.\n\nZentral ist das **biopsychosoziale Modell**: Psychische Störungen entstehen durch das Zusammenspiel biologischer, psychologischer und sozialer Faktoren."
+    },
+    {
+      "id": "theorie-angst-depression",
+      "type": "theory",
+      "title": "Angststörungen und Depression",
+      "body": "## Angststörungen\n\nAngst ist eine normale menschliche Reaktion. Als Störung wird sie beschrieben, wenn sie anhaltend und unangemessen stark ist. Vier Kategorien:\n\n| Begriff | Merkmal |\n|---|---|\n| **Spezifische Phobie** | Furcht vor einem klar abgegrenzten Objekt/Situation |\n| **Panikstörung** | Wiederkehrende, unerwartete Panikattacken |\n| **Generalisierte Angststörung** | Unkontrollierbare Sorgen über viele Bereiche |\n| **Soziale Angststörung** | Furcht vor negativer Beurteilung in sozialen Situationen |\n\n## Depression\n\nDepression wird durch gedrückte Stimmung, **Antriebslosigkeit** und **Hoffnungslosigkeit** charakterisiert. Aaron Becks **Kognitive Triade** beschreibt ein Denkmuster mit negativer Sicht auf sich selbst, die Welt und die Zukunft."
+    },
+    {
+      "id": "theorie-therapie-pharma",
+      "type": "theory",
+      "title": "Therapieformen und Psychopharmaka",
+      "body": "## Therapieformen (Überblick)\n\n- **Verhaltenstherapie** — basiert auf Lernprinzipien; zielt auf Verhaltensänderung.\n- **Kognitive Verhaltenstherapie (KVT)** — erweitert um die Arbeit an Denkmustern; gut empirisch belegt.\n- **Psychoanalyse** — nach Freud; Fokus auf Unbewusstes und frühe Erfahrungen.\n- **Systemische Therapie** — betrachtet das soziale System (Familie, Beziehungen).\n\n## Psychopharmaka — Kategorien (rein beschreibend)\n\n| Kategorie | Beschreibung |\n|---|---|\n| **Antidepressiva** (z. B. SSRI) | bei depressiven Störungen eingesetzt |\n| **Anxiolytika** | angstlösend (z. B. Benzodiazepine) |\n| **Neuroleptika/Antipsychotika** | bei psychotischen Störungen |\n\n*Keine Empfehlung oder Dosierungsangabe — medikamentöse Fragen gehören zur Ärztin oder zum Arzt.*"
+    },
+    {
+      "id": "ex-match-angststörungen",
+      "type": "exercise",
+      "title": "Angststörungen zuordnen",
+      "exercise": {
+        "id": "ex-match-angststörungen",
+        "type": "matching",
+        "prompt": "Ordne jeder Angststörung ihre treffende Beschreibung zu.",
+        "card_ids": ["spezifische-phobie", "panikstörung", "generalisierte-angststörung", "soziale-angststörung"],
+        "pairs": [
+          { "left": "Spezifische Phobie", "right": "Furcht vor klar abgegrenztem Objekt/Situation" },
+          { "left": "Panikstörung", "right": "Wiederkehrende, unerwartete Panikattacken" },
+          { "left": "Generalisierte Angststörung", "right": "Unkontrollierbare Sorgen über viele Bereiche" },
+          { "left": "Soziale Angststörung", "right": "Furcht vor negativer Beurteilung in sozialen Situationen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-therapieformen",
+      "type": "exercise",
+      "title": "Therapieformen zuordnen",
+      "exercise": {
+        "id": "ex-match-therapieformen",
+        "type": "matching",
+        "prompt": "Ordne jeder Therapieform ihren Schwerpunkt zu.",
+        "card_ids": ["verhaltenstherapie", "kvt", "psychoanalyse", "systemische-therapie"],
+        "pairs": [
+          { "left": "Verhaltenstherapie", "right": "Lernprinzipien, Verhaltensänderung" },
+          { "left": "KVT", "right": "Verhalten und Denkmuster kombiniert" },
+          { "left": "Psychoanalyse", "right": "Unbewusstes und frühe Erfahrungen" },
+          { "left": "Systemische Therapie", "right": "Soziales System, Familie, Beziehungen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-pharma",
+      "type": "exercise",
+      "title": "Pharmakologische Kategorien",
+      "exercise": {
+        "id": "ex-match-pharma",
+        "type": "matching",
+        "prompt": "Ordne jeder Pharmakakategorie ihre neutrale Beschreibung zu.",
+        "card_ids": ["antidepressiva", "anxiolytika", "neuroleptika"],
+        "pairs": [
+          { "left": "Antidepressiva (z. B. SSRI)", "right": "bei depressiven Störungen eingesetzt" },
+          { "left": "Anxiolytika", "right": "angstlösend, z. B. Benzodiazepine" },
+          { "left": "Neuroleptika/Antipsychotika", "right": "bei psychotischen Störungen beschrieben" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-kognitive-triade",
+      "type": "exercise",
+      "title": "Konzept benennen",
+      "exercise": {
+        "id": "ex-free-kognitive-triade",
+        "type": "free_text",
+        "prompt": "Welches Konzept von Aaron Beck beschreibt die negative Sicht auf sich selbst, die Welt und die Zukunft bei Depression?",
+        "card_ids": ["kognitive-triade"],
+        "accept": ["Kognitive Triade", "kognitive Triade", "die kognitive Triade", "Cognitive Triad"],
+        "hint": "Es sind drei Perspektiven — auf sich selbst, die Welt und die Zukunft.",
+        "distractors": ["Kognitive Dissonanz", "Erlernte Hilflosigkeit", "Tripartites Angstmodell"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-kvt",
+      "type": "exercise",
+      "title": "Abkürzung entschlüsseln",
+      "exercise": {
+        "id": "ex-free-kvt",
+        "type": "free_text",
+        "prompt": "Für welche Therapieform steht die Abkürzung KVT?",
+        "card_ids": ["kvt"],
+        "accept": ["Kognitive Verhaltenstherapie", "kognitive Verhaltenstherapie", "Kognitiver Verhaltenstherapie", "CBT"],
+        "hint": "K = Kognitive, V = Verhaltens-, T = Therapie.",
+        "distractors": ["Klassische Verhaltenstherapie", "Klinische Verhaltenstherapie", "Systemische Therapie"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-beck",
+      "type": "exercise",
+      "title": "Kognitive Triade ergänzen",
+      "exercise": {
+        "id": "ex-cloze-beck",
+        "type": "cloze",
+        "prompt": "Ergänze die fehlenden Elemente der kognitiven Triade nach Beck.",
+        "card_ids": ["kognitive-triade"],
+        "sentence": "Die kognitive Triade beschreibt negative Sichtweisen auf ___, die Welt und die ___.",
+        "blanks": [
+          { "accept": ["sich selbst", "sich", "das Selbst"] },
+          { "accept": ["Zukunft", "die Zukunft"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Drei Perspektiven: selbst, Welt, Z___."
+      }
+    },
+    {
+      "id": "ex-cloze-psychoanalyse",
+      "type": "exercise",
+      "title": "Begründer der Psychoanalyse",
+      "exercise": {
+        "id": "ex-cloze-psychoanalyse",
+        "type": "cloze",
+        "prompt": "Ergänze den Namen des Begründers der Psychoanalyse.",
+        "card_ids": ["psychoanalyse"],
+        "sentence": "Die Psychoanalyse wurde von ___ begründet, der das Unbewusste in den Mittelpunkt stellte.",
+        "blanks": [
+          { "accept": ["Freud", "Sigmund Freud"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Sein Vorname ist Sigmund."
+      }
+    },
+    {
+      "id": "ex-pick-angststörung",
+      "type": "exercise",
+      "title": "Welche Angststörung ist das?",
+      "exercise": {
+        "id": "ex-pick-angststörung",
+        "type": "picture_choice",
+        "prompt": "Eine Person grübelt ständig über Gesundheit, Arbeit und Familie — ohne konkreten Auslöser. Welche Kategorie beschreibt dieses Muster?",
+        "card_ids": ["generalisierte-angststörung", "spezifische-phobie", "panikstörung", "soziale-angststörung"],
+        "images": [
+          { "src": "assets/img/anxiety-generalized.png", "label": "Generalisierte Angststörung", "is_correct": "true" },
+          { "src": "assets/img/anxiety-specific.png", "label": "Spezifische Phobie" },
+          { "src": "assets/img/anxiety-panic.png", "label": "Panikstörung" },
+          { "src": "assets/img/anxiety-social.png", "label": "Soziale Angststörung" }
+        ],
+        "hint": "Kein klar abgegrenzter Auslöser — Sorgen über viele verschiedene Bereiche.",
+        "distractors": ["Spezifische Phobie", "Panikstörung", "Soziale Angststörung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-depression",
+      "type": "exercise",
+      "title": "Merkmal der Depression benennen",
+      "exercise": {
+        "id": "ex-tiles-depression",
+        "type": "word_tiles",
+        "prompt": "Setze ein zentrales Merkmal der Depression zusammen.",
+        "card_ids": ["depression"],
+        "tiles": ["Antriebslosigkeit", "Interessenverlust", "und", "gedrückte", "Stimmung"],
+        "hint": "Drei Hauptmerkmale: gedrückte Stimmung, ___ und Interessenverlust.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
