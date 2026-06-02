@@ -19,19 +19,24 @@
 # kognitive Verhaltenstherapie, psychodynamische und humanistische
 # Verfahren sowie eine abschließende Wiederholung dieser Reihe.
 # Lektion 15 bleibt als Zwischen-Wiederholung erhalten.
+#
+# v1.3.0 (schema v1.3): erweitert um eine fünfteilige Reihe zu
+# Forschungsmethoden und Statistik (21–25): wissenschaftliche
+# Vorgehensweise, Experiment und Korrelation, Datenerhebung und
+# Gütekriterien, deskriptive Statistik sowie Inferenzstatistik
+# mit abschließender Wiederholung dieser Reihe.
 schema_version: '1.3'
 name: Psychologie — Grundlagen
 description: >-
-  Einführung in die Psychologie für Deutschsprachige (20
+  Einführung in die Psychologie für Deutschsprachige (25
   Lektionen): Grundbegriffe und Geschichte, Wahrnehmung,
   Gedächtnis, Lernen und Konditionierung, Motivation und Emotion,
   Entwicklungs-, Sozial- und Persönlichkeitspsychologie, ein
   behutsamer Überblick über die klinische und die positive
   Psychologie, Intelligenz und Denken, Stress und Gesundheit,
-  biologische Grundlagen, Bewusstsein und Schlaf sowie eine
-  fünfteilige Reihe zu den Psychotherapieverfahren
-  (Verhaltenstherapie, kognitive Verhaltenstherapie,
-  psychodynamische und humanistische Verfahren). Karten,
+  biologische Grundlagen, Bewusstsein und Schlaf, eine
+  fünfteilige Reihe zu den Psychotherapieverfahren sowie eine
+  fünfteilige Reihe zu Forschungsmethoden und Statistik. Karten,
   Definitionen und Theorie auf Deutsch, mit den englischen
   Originalbegriffen in Klammern.
 sets:
@@ -43,14 +48,14 @@ sets:
     domain: psychology
     level: A1
     path: sets/de/psych-intro
-    version: '1.2.0'
-    lesson_count: 20
+    version: '1.3.0'
+    lesson_count: 25
     domain_label: Psychologie
     description: >-
-      Zwanzig Einführungslektionen Psychologie, auf Deutsch
+      Fünfundzwanzig Einführungslektionen Psychologie, auf Deutsch
       erklärt — von Wundts erstem Labor über Intelligenz, Stress
-      und das Gehirn bis zu Bewusstsein, Schlaf und einer
-      fünfteiligen Reihe zu den Psychotherapieverfahren.
+      und das Gehirn bis zu den Psychotherapieverfahren und einer
+      Reihe zu Forschungsmethoden und Statistik.
     tags:
       - beginner
       - psychology
@@ -79,3 +84,8 @@ metadata:
     - 18-kognitive-verhaltenstherapie.json
     - 19-psychodynamische-humanistische-verfahren.json
     - 20-wiederholung-psychotherapie.json
+    - 21-forschungsmethoden-grundlagen.json
+    - 22-experiment-und-korrelation.json
+    - 23-datenerhebung-und-guetekriterien.json
+    - 24-deskriptive-statistik.json
+    - 25-inferenzstatistik-und-wiederholung.json
