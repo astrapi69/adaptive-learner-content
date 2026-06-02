@@ -240,6 +240,23 @@
       }
     },
     {
+      "id": "ex-cloze-go-to-bed",
+      "type": "exercise",
+      "title": "Ins Bett gehen",
+      "exercise": {
+        "id": "ex-cloze-go-to-bed",
+        "type": "cloze",
+        "prompt": "Ergänze die feste Wendung 'ins Bett gehen' (ohne Artikel!).",
+        "card_ids": ["go-to-bed"],
+        "sentence": "I go to ___ at eleven.",
+        "blanks": [
+          { "accept": ["bed"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Feste Wendung 'go to ___' ohne Artikel — das Wort für 'Bett'."
+      }
+    },
+    {
       "id": "ex-free-have-breakfast",
       "type": "exercise",
       "title": "Frühstücken",

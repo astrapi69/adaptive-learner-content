@@ -240,6 +240,20 @@
       }
     },
     {
+      "id": "ex-tile-we-are-friends",
+      "type": "exercise",
+      "title": "Satz bauen mit 'are'",
+      "exercise": {
+        "id": "ex-tile-we-are-friends",
+        "type": "word_tiles",
+        "prompt": "Setze 'Wir sind Freunde' zusammen.",
+        "card_ids": ["be-are-we"],
+        "tiles": ["We", "are", "friends"],
+        "hint": "Bei 'we' steht 'are'; 'Freunde' im Plural.",
+        "direction": "target_to_source"
+      }
+    },
+    {
       "id": "ex-free-they-are",
       "type": "exercise",
       "title": "Die Pluralform",

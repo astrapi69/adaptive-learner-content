@@ -1,0 +1,280 @@
+{
+  "id": "09-directions-and-places",
+  "title": "Wegbeschreibung und Orte",
+  "description": "Nach dem Weg fragen, Richtungen angeben und die Ortspräpositionen at/on/in. Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "turn-left",
+      "front": "turn left",
+      "back": "links abbiegen",
+      "notes": "'Turn left at the corner.' = Biegen Sie an der Ecke links ab.",
+      "tags": ["wegbeschreibung"]
+    },
+    {
+      "id": "turn-right",
+      "front": "turn right",
+      "back": "rechts abbiegen",
+      "notes": "'right' heißt sowohl 'rechts' als auch 'richtig' — der Kontext entscheidet.",
+      "tags": ["wegbeschreibung"]
+    },
+    {
+      "id": "go-straight",
+      "front": "go straight",
+      "back": "geradeaus gehen",
+      "notes": "Oft erweitert: 'go straight on' / 'go straight ahead'.",
+      "tags": ["wegbeschreibung"]
+    },
+    {
+      "id": "next-to",
+      "front": "next to",
+      "back": "neben",
+      "notes": "'The bank is next to the church.' = Die Bank ist neben der Kirche.",
+      "tags": ["ort", "praeposition"]
+    },
+    {
+      "id": "between",
+      "front": "between",
+      "back": "zwischen",
+      "notes": "'between the bank and the shop' = zwischen der Bank und dem Geschäft.",
+      "tags": ["ort", "praeposition"]
+    },
+    {
+      "id": "opposite",
+      "front": "opposite",
+      "back": "gegenüber",
+      "notes": "Auch 'across from'. Falscher Freund: 'opposite' ≠ 'Opposition' — es heißt 'gegenüber'.",
+      "tags": ["ort", "praeposition"]
+    },
+    {
+      "id": "excuse-me",
+      "front": "Excuse me",
+      "back": "Entschuldigung (um Aufmerksamkeit)",
+      "notes": "Um jemanden anzusprechen. NICHT 'Sorry' — das ist eine Entschuldigung für einen Fehler.",
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "where-is",
+      "front": "Where is ...?",
+      "back": "Wo ist ...?",
+      "notes": "'Where is the station?' = Wo ist der Bahnhof?",
+      "tags": ["frage", "wegbeschreibung"]
+    },
+    {
+      "id": "how-do-i-get",
+      "front": "How do I get to ...?",
+      "back": "Wie komme ich zu/nach ...?",
+      "notes": "Feste Wendung. Beachte 'get to' für 'kommen nach/zu'.",
+      "tags": ["frage", "wegbeschreibung"]
+    },
+    {
+      "id": "at-the-station",
+      "front": "at the station",
+      "back": "am Bahnhof",
+      "notes": "'at' für einen Punkt/Treffpunkt: at the station, at the bus stop, at the door.",
+      "tags": ["ort", "praeposition"]
+    },
+    {
+      "id": "on-the-street",
+      "front": "on the street",
+      "back": "auf der Straße",
+      "notes": "'on' für Straßen und Flächen: on the street, on the corner. NICHT 'in the street' im US-Englisch.",
+      "tags": ["ort", "praeposition"]
+    },
+    {
+      "id": "in-the-city",
+      "front": "in the city",
+      "back": "in der Stadt",
+      "notes": "'in' für umschlossene Räume und größere Gebiete: in the city, in the shop, in London.",
+      "tags": ["ort", "praeposition"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Den Weg beschreiben",
+      "body": "# Wegbeschreibung\n\nDie wichtigsten Richtungsangaben:\n\n- **turn left** — links abbiegen\n- **turn right** — rechts abbiegen\n- **go straight (on / ahead)** — geradeaus gehen\n- **next to** — neben\n- **between** — zwischen\n- **opposite / across from** — gegenüber\n\nMit diesen paar Ausdrücken kannst du schon einen ganzen Weg beschreiben: *Go straight, then turn left. The bank is next to the church.*\n\nKleine Falle: **right** bedeutet 'rechts' UND 'richtig'. Und **opposite** heißt 'gegenüber' — nicht 'Opposition'."
+    },
+    {
+      "id": "step-asking",
+      "type": "theory",
+      "title": "Höflich nach dem Weg fragen",
+      "body": "## Nach dem Weg fragen\n\nSprich Fremde immer mit **Excuse me** an (nicht mit *Sorry* — das benutzt man, um sich für einen Fehler zu entschuldigen):\n\n- **Excuse me, where is the station?** — Entschuldigung, wo ist der Bahnhof?\n- **Excuse me, how do I get to the museum?** — Wie komme ich zum Museum?\n- **Is it far?** — Ist es weit?\n\nAchte auf **get to** für 'kommen nach/zu'. *How do I get to ...?* ist die natürlichste Frage nach dem Weg — wörtlicher als das deutsche 'Wie komme ich ...', aber genau richtig im Englischen."
+    },
+    {
+      "id": "step-prepositions",
+      "type": "theory",
+      "title": "Ortspräpositionen: at, on, in",
+      "body": "## at / on / in für Orte\n\nDie Ortspräpositionen folgen einer eigenen Logik, nicht der deutschen. Lerne typische Kombinationen:\n\n| Präposition | Idee | Beispiel |\n|---|---|---|\n| **at** | Punkt, Treffpunkt | *at the station, at the bus stop* |\n| **on** | Fläche, Straße, Linie | *on the street, on the corner* |\n| **in** | umschlossener Raum, Gebiet | *in the city, in the shop, in London* |\n\nTypische Fehler durch wörtliche Übersetzung aus dem Deutschen:\n\n- 'am Bahnhof' → **at the station** (nicht *on the station*).\n- 'auf der Straße' → **on the street** (nicht *by the street*).\n- 'in der Stadt' → **in the city** — hier passt 'in' zufällig wie im Deutschen."
+    },
+    {
+      "id": "ex-match-directions",
+      "type": "exercise",
+      "title": "Richtungen zuordnen",
+      "exercise": {
+        "id": "ex-match-directions",
+        "type": "matching",
+        "prompt": "Ordne jede Richtungsangabe ihrer deutschen Bedeutung zu.",
+        "card_ids": ["turn-left", "turn-right", "go-straight", "opposite"],
+        "pairs": [
+          { "left": "turn left", "right": "links abbiegen" },
+          { "left": "turn right", "right": "rechts abbiegen" },
+          { "left": "go straight", "right": "geradeaus gehen" },
+          { "left": "opposite", "right": "gegenüber" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-place-preps",
+      "type": "exercise",
+      "title": "Ortsangaben zuordnen",
+      "exercise": {
+        "id": "ex-match-place-preps",
+        "type": "matching",
+        "prompt": "Ordne jede Ortsangabe ihrer deutschen Bedeutung zu.",
+        "card_ids": ["next-to", "between", "at-the-station", "in-the-city"],
+        "pairs": [
+          { "left": "next to", "right": "neben" },
+          { "left": "between", "right": "zwischen" },
+          { "left": "at the station", "right": "am Bahnhof" },
+          { "left": "in the city", "right": "in der Stadt" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-excuse-me",
+      "type": "exercise",
+      "title": "Wie sprichst du eine fremde Person an?",
+      "exercise": {
+        "id": "ex-pick-excuse-me",
+        "type": "picture_choice",
+        "prompt": "Du willst eine fremde Person nach dem Weg fragen. Womit beginnst du?",
+        "card_ids": ["excuse-me"],
+        "images": [
+          { "src": "assets/img/excuse-me.png", "label": "Excuse me, ...", "is_correct": "true" },
+          { "src": "assets/img/sorry.png", "label": "Sorry, ..." },
+          { "src": "assets/img/hey.png", "label": "Hey you!" },
+          { "src": "assets/img/please-me.png", "label": "Please me, ..." }
+        ],
+        "hint": "Um Aufmerksamkeit bittet man mit 'Excuse me', nicht mit 'Sorry'.",
+        "distractors": ["Sorry, ...", "Hey you!", "Please me, ..."],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-at-station",
+      "type": "exercise",
+      "title": "Welche Präposition? (Bahnhof)",
+      "exercise": {
+        "id": "ex-cloze-at-station",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Ortspräposition.",
+        "card_ids": ["at-the-station"],
+        "sentence": "I'm waiting ___ the station.",
+        "blanks": [
+          { "accept": ["at"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Treffpunkt/Punkt → ..."
+      }
+    },
+    {
+      "id": "ex-cloze-on-street",
+      "type": "exercise",
+      "title": "Welche Präposition? (Straße)",
+      "exercise": {
+        "id": "ex-cloze-on-street",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Ortspräposition.",
+        "card_ids": ["on-the-street"],
+        "sentence": "The children play ___ the street.",
+        "blanks": [
+          { "accept": ["on", "in"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Straße/Fläche → 'on' (britisch auch 'in')."
+      }
+    },
+    {
+      "id": "ex-free-opposite",
+      "type": "exercise",
+      "title": "Gegenüber",
+      "exercise": {
+        "id": "ex-free-opposite",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'gegenüber' auf Englisch?",
+        "card_ids": ["opposite"],
+        "accept": ["opposite", "Opposite", "across from", "opposite."],
+        "hint": "Beginnt mit 'opp...' — oder 'across from'.",
+        "distractors": ["opposition", "in front", "against"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-where-is-station",
+      "type": "exercise",
+      "title": "Nach dem Bahnhof fragen",
+      "exercise": {
+        "id": "ex-free-where-is-station",
+        "type": "free_text",
+        "prompt": "Frage höflich: 'Entschuldigung, wo ist der Bahnhof?'",
+        "card_ids": ["excuse-me", "where-is"],
+        "accept": ["Excuse me, where is the station?", "Excuse me, where is the station", "excuse me, where is the station?", "Excuse me where is the station?"],
+        "hint": "Excuse me + Where is + the station?",
+        "distractors": ["Sorry, where is the station?", "Excuse me, where the station is?", "Excuse me, where is station?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-how-do-i-get",
+      "type": "exercise",
+      "title": "Wie komme ich ...?",
+      "exercise": {
+        "id": "ex-tile-how-do-i-get",
+        "type": "word_tiles",
+        "prompt": "Bilde 'Wie komme ich zum Museum?'",
+        "card_ids": ["how-do-i-get"],
+        "tiles": ["How", "do", "I", "get", "to", "the", "museum", "?"],
+        "hint": "Feste Wendung 'How do I get to ...?'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-turn-left",
+      "type": "exercise",
+      "title": "Links abbiegen",
+      "exercise": {
+        "id": "ex-free-turn-left",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Biegen Sie links ab.'",
+        "card_ids": ["turn-left"],
+        "accept": ["Turn left", "Turn left.", "turn left", "Turn left!"],
+        "hint": "Verb 'turn' + Richtung 'left'.",
+        "distractors": ["Turn right", "Go left", "Drive left"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-next-to",
+      "type": "exercise",
+      "title": "Lage beschreiben",
+      "exercise": {
+        "id": "ex-cloze-next-to",
+        "type": "cloze",
+        "prompt": "Ergänze 'neben': 'Die Bank ist neben der Kirche.'",
+        "card_ids": ["next-to"],
+        "sentence": "The bank is ___ to the church.",
+        "blanks": [
+          { "accept": ["next"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "'neben' = ___ to."
+      }
+    }
+  ]
+}
