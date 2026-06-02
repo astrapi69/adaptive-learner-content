@@ -12,8 +12,9 @@ Official content repository for [Adaptive Learner](https://github.com/astrapi69/
 | Spanisch A1 | English (EN) | Spanish (ES) | 15 | A1 | Language |
 | Englisch A1 | Deutsch (DE) | English (EN) | 15 | A1 | Sprache |
 | Psychologie | Deutsch (DE) | Deutsch (DE) | 10 | Intro | Psychologie |
+| Python — Grundlagen | Deutsch (DE) | Deutsch (DE) | 15 | A1 | Programmierung |
 
-**85 Lektionen · ~19 Stunden Lernmaterial**
+**100 Lektionen · ~22 Stunden Lernmaterial**
 
 ## Directory Structure
 
@@ -23,7 +24,8 @@ sets/
 │   ├── fr-a1/          # Target: French A1
 │   ├── es-a1/          # Target: Spanish A1
 │   ├── en-a1/          # Target: English A1
-│   └── psych-intro/    # Domain: Psychology
+│   ├── psych-intro/    # Domain: Psychology
+│   └── python-basics/  # Domain: Programming
 ├── en/                 # Source language: English
 │   ├── fr-a1/          # Target: French A1
 │   └── es-a1/          # Target: Spanish A1
@@ -32,13 +34,21 @@ sets/
 
 ## Schema
 
-Content uses schema v1.2 with:
+Content uses schema v1.2 / v1.3 with:
 - `source_language` + `target_language` (language pairs)
 - `domain` field for non-language content (default: `language`). For
-  non-language domains (e.g. `psychology`) the explanations and the
-  material share one language, so `source_language == target_language`
-  is allowed and the set folder carries a topic name (e.g.
-  `sets/de/psych-intro`) instead of a `{target}-{level}` name.
+  non-language domains (e.g. `psychology`, `programming`) the
+  explanations and the material share one language, so
+  `source_language == target_language` is allowed and the set folder
+  carries a topic name (e.g. `sets/de/psych-intro`,
+  `sets/de/python-basics`) instead of a `{target}-{level}` name.
+- Schema v1.3 adds optional card fields for code content:
+  `code_snippet`, `code_language`, `expected_output`, `hint`,
+  `difficulty` (1–5), `media_type` (`text` | `code` | `formula` |
+  `diagram`) and `tags`. When a card has `media_type: "code"`, the
+  viewer renders the card and its exercises in code-aware mode
+  (monospace, no spellcheck). All v1.3 fields are optional and
+  backward compatible.
 - 5 exercise types: Matching, Picture Choice, Free Text, Word Tiles, Cloze
 - Progressive direction: receptive → mixed → productive
 
