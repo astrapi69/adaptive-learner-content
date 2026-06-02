@@ -1,0 +1,233 @@
+{
+  "id": "62-veraenderte-bewusstseinszustaende",
+  "title": "Veränderte Bewusstseinszustände",
+  "description": "Was sind veränderte Bewusstseinszustände? Meditation, Hypnose, Tagträumen, Flow und psychoaktive Substanzen — sachlich erklärt, auf Deutsch.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "vbz-definition",
+      "front": "Veränderter Bewusstseinszustand (Altered State of Consciousness)",
+      "back": "Jede deutliche Abweichung vom normalen Wachbewusstsein — z. B. durch Schlaf, Meditation, Hypnose oder psychoaktive Substanzen.",
+      "notes": "Baut auf Lektion 14 (Bewusstsein) und Lektion 61 (Schlaf) auf.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["bewusstsein", "grundlagen"]
+    },
+    {
+      "id": "meditation",
+      "front": "Meditation und Achtsamkeit (Mindfulness)",
+      "back": "Übungspraxis, die Aufmerksamkeit absichtlich auf den gegenwärtigen Moment richtet; senkt nachweislich Stress und verbessert die Aufmerksamkeitssteuerung.",
+      "notes": "Bezug zu Stressmodellen (Lektion 12) und Gesundheitspsychologie (Lektion 28).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["bewusstsein", "achtsamkeit", "stress"]
+    },
+    {
+      "id": "hypnose",
+      "front": "Hypnose",
+      "back": "Ein Zustand erhöhter Suggestibilität und fokussierter Aufmerksamkeit, der durch Einleitungsrituale herbeigeführt wird; kein Schlaf und keine Fremdsteuerung.",
+      "notes": "Weit verbreiteter Irrglaube: Hypnose bedeutet weder Bewusstlosigkeit noch dass man gegen den eigenen Willen handeln muss.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Hypnotisierte Personen behalten die Kontrolle über sich — sie können jederzeit aus der Hypnose heraustreten.",
+      "tags": ["bewusstsein", "hypnose", "suggestibilitaet"]
+    },
+    {
+      "id": "suggestibilitaet",
+      "front": "Suggestibilität (Suggestibility)",
+      "back": "Die Bereitschaft einer Person, Vorschläge oder Anweisungen zu übernehmen — ein zentrales Merkmal der Hypnose.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["hypnose", "suggestibilitaet"]
+    },
+    {
+      "id": "tagtraeumen",
+      "front": "Tagträumen (Daydreaming)",
+      "back": "Alltäglicher veränderter Bewusstseinszustand, bei dem die Aufmerksamkeit von der Außenwelt zur inneren Vorstellungswelt wandert.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["bewusstsein", "alltag"]
+    },
+    {
+      "id": "flow",
+      "front": "Flow-Zustand (Flow State)",
+      "back": "Zustand vollständiger, müheloser Vertiefung in eine Tätigkeit; beschrieben von Csikszentmihályi als optimales Erlebnis.",
+      "notes": "Flow tritt auf, wenn Herausforderung und Kompetenz im Gleichgewicht sind.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["bewusstsein", "flow", "motivation"]
+    },
+    {
+      "id": "depressiva",
+      "front": "Dämpfungsmittel / Depressiva (Depressants)",
+      "back": "Psychoaktive Substanzen, die die Aktivität des Zentralnervensystems (ZNS) verlangsamen; z. B. Alkohol, Benzodiazepine.",
+      "notes": "Wirkung u. a. über Verstärkung des hemmenden Neurotransmitters GABA (vgl. Lektion 37).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["substanzen", "depressiva", "zns"]
+    },
+    {
+      "id": "stimulanzien",
+      "front": "Stimulanzien (Stimulants)",
+      "back": "Substanzen, die das ZNS aktivieren und Wachheit sowie Energie steigern; z. B. Koffein, Nikotin, Amphetamine.",
+      "notes": "Wirken oft über erhöhte Dopamin- und Noradrenalinausschüttung (vgl. Lektion 37).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["substanzen", "stimulanzien", "zns"]
+    },
+    {
+      "id": "halluzinogene",
+      "front": "Halluzinogene (Hallucinogens)",
+      "back": "Substanzen, die Wahrnehmung und Bewusstsein stark verzerren und Halluzinationen erzeugen können; z. B. LSD.",
+      "notes": "Wirken u. a. auf Serotonin-Rezeptoren.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["substanzen", "halluzinogene", "zns"]
+    },
+    {
+      "id": "opioide",
+      "front": "Opioide (Opioids)",
+      "back": "Substanzen, die an körpereigene Opioidrezeptoren binden und starke Schmerzlinderung sowie Euphorie erzeugen; z. B. Morphin, Heroin.",
+      "notes": "Hohe Abhängigkeitsgefahr; der Körper produziert eigene Opioide (Endorphine).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["substanzen", "opioide", "zns"]
+    },
+    {
+      "id": "neurotransmitter-substanzen",
+      "front": "Psychoaktive Substanzen und Neurotransmitter",
+      "back": "Psychoaktive Substanzen verändern Bewusstseinszustände, indem sie die Ausschüttung, Wiederaufnahme oder Bindung von Neurotransmittern im Gehirn beeinflussen.",
+      "notes": "Bezug Lektion 37 (Biopsychologie): Dopamin, Serotonin, GABA, Noradrenalin.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["substanzen", "neurobiologie", "neurotransmitter"]
+    },
+    {
+      "id": "hypnose-mythos",
+      "front": "Hypnose — Mythos vs. Realität",
+      "back": "Mythos: Hypnose ist Schlaf oder Fremdsteuerung. Realität: Hypnose ist ein Zustand fokussierter Aufmerksamkeit und erhöhter Suggestibilität — Betroffene bleiben bewusst und kontrollieren ihr Handeln.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["hypnose", "mythen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-vbz",
+      "type": "theory",
+      "title": "Was ist ein veränderter Bewusstseinszustand?",
+      "body": "# Veränderte Bewusstseinszustände\n\nIn **Lektion 14** (Bewusstsein) und **Lektion 61** (Schlaf vertieft) haben wir gelernt, dass Bewusstsein das Gewahrsein der eigenen Person und der Umwelt ist. Doch Bewusstsein ist kein fester Zustand — es verändert sich ständig.\n\n## Definition\n\nEin **veränderter Bewusstseinszustand** (Altered State of Consciousness) ist jede deutliche **Abweichung vom normalen Wachbewusstsein**: veränderte Wahrnehmung, Gedanken, Gefühle oder Zeiterleben.\n\n## Alltägliche und außeralltägliche Zustände\n\n| Zustand | Auslöser | Merkmale |\n|---|---|---|\n| **Schlaf** | Zirkadianer Rhythmus | NREM- und REM-Phasen |\n| **Tagträumen** | Aufmerksamkeitswandel | Innenwelt, geringe Außenwahrnehmung |\n| **Flow** | Passende Herausforderung | Vollständige Vertiefung, Zeitverlust |\n| **Meditation** | Bewusste Übung | Fokus auf Gegenwart, reduziertes Abschweifen |\n| **Hypnose** | Einleitungsritual | Erhöhte Suggestibilität |\n| **Psychoaktive Substanzen** | Chemische Einwirkung | Substanzspezifische Wirkung auf ZNS |\n\n> Manche Zustände entstehen **von selbst** (Tagtraum), andere werden **bewusst herbeigeführt** (Meditation, Hypnose) oder durch **externe Stoffe** verursacht."
+    },
+    {
+      "id": "step-meditation-hypnose",
+      "type": "theory",
+      "title": "Meditation, Achtsamkeit und Hypnose",
+      "body": "## Meditation und Achtsamkeit (Mindfulness)\n\n**Meditation** ist eine Übungspraxis, die die Aufmerksamkeit absichtlich auf den gegenwärtigen Moment richtet — auf Atem, Körperempfindungen oder Gedanken ohne Bewertung.\n\n**Wirkungen** (wissenschaftlich belegt, vgl. Lektion 12 Stress / Lektion 28 Gesundheitspsychologie):\n- Reduktion von **Stress** und Angst\n- Verbesserte **Aufmerksamkeitssteuerung**\n- Messbare Veränderungen der Gehirnaktivität (z. B. präfrontaler Kortex)\n\n---\n\n## Hypnose\n\nHypnose erzeugt einen Zustand **fokussierter Aufmerksamkeit** und erhöhter **Suggestibilität**.\n\n| Merkmal | Was stimmt? |\n|---|---|\n| Ist Hypnose Schlaf? | **Nein** — EEG zeigt Wachbewusstsein |\n| Verliert man die Kontrolle? | **Nein** — man handelt nicht gegen eigene Werte |\n| Ist Suggestibilität messbar? | **Ja** — hypnotische Suszeptibilitätsskalen |\n| Therapeutischer Nutzen? | Ja — z. B. bei Schmerzbehandlung und Angststörungen |\n\n> Hypnose ist keine Zauberei: Sie nutzt die natürliche menschliche Fähigkeit, sich tief zu konzentrieren und Vorschläge aufzunehmen."
+    },
+    {
+      "id": "step-substanzen",
+      "type": "theory",
+      "title": "Psychoaktive Substanzen — Kategorien und Wirkung",
+      "body": "## Psychoaktive Substanzen\n\n**Psychoaktive Substanzen** verändern Bewusstsein, Wahrnehmung oder Stimmung, indem sie in das **Neurotransmittersystem** eingreifen (vgl. Lektion 37 — Biopsychologie).\n\n## Die vier Hauptkategorien\n\n| Kategorie | Wirkung auf ZNS | Beispiele | Neurotransmitter-Bezug |\n|---|---|---|---|\n| **Dämpfungsmittel / Depressiva** | Verlangsamen, hemmen | Alkohol, Benzodiazepine | GABA ↑, Glutamat ↓ |\n| **Stimulanzien** | Aktivieren, beschleunigen | Koffein, Nikotin, Amphetamine | Dopamin ↑, Noradrenalin ↑ |\n| **Halluzinogene** | Verzerren Wahrnehmung | LSD, Psilocybin | Serotonin-Rezeptoren |\n| **Opioide** | Schmerzlindernd, euphorisierend | Morphin, Heroin | Opioidrezeptoren |\n\n## Wichtiger Hinweis\n\nDiese Lektion erklärt die **Wirkprinzipien** — sachlich und aufklärend. Psychoaktive Substanzen können zu körperlicher und psychischer **Abhängigkeit** führen. Die Lernenden werden auf keine Einnahmepraktiken hingewiesen.\n\n> Bereits **Koffein** ist ein alltägliches Stimulans — das zeigt, wie breit der Begriff 'psychoaktiv' ist."
+    },
+    {
+      "id": "ex-match-substanzen",
+      "type": "exercise",
+      "title": "Substanzen einordnen",
+      "exercise": {
+        "id": "ex-match-substanzen",
+        "type": "matching",
+        "prompt": "Ordne jede Substanz ihrer Kategorie zu.",
+        "card_ids": ["depressiva", "stimulanzien", "halluzinogene", "opioide"],
+        "pairs": [
+          { "left": "Alkohol", "right": "Dämpfungsmittel / Depressiva" },
+          { "left": "Koffein", "right": "Stimulanzien" },
+          { "left": "LSD", "right": "Halluzinogene" },
+          { "left": "Morphin", "right": "Opioide" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-hypnose",
+      "type": "exercise",
+      "title": "Hypnose — Mythos oder Realität?",
+      "exercise": {
+        "id": "ex-match-hypnose",
+        "type": "matching",
+        "prompt": "Ordne jede Aussage über Hypnose der richtigen Einschätzung zu.",
+        "card_ids": ["hypnose", "hypnose-mythos", "suggestibilitaet"],
+        "pairs": [
+          { "left": "Hypnose ist eine Form des Schlafs", "right": "Mythos — EEG zeigt Wachbewusstsein" },
+          { "left": "Hypnotisierte handeln gegen ihren Willen", "right": "Mythos — eigene Werte bleiben erhalten" },
+          { "left": "Hypnose erhöht die Suggestibilität", "right": "Realität — messbar und wissenschaftlich belegt" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-flow",
+      "type": "exercise",
+      "title": "Der Flow-Zustand",
+      "exercise": {
+        "id": "ex-cloze-flow",
+        "type": "cloze",
+        "prompt": "Ergänze den Psychologen, der den Flow-Zustand beschrieben hat.",
+        "card_ids": ["flow"],
+        "sentence": "Den Flow-Zustand als 'optimales Erlebnis' beschrieb der Psychologe ___.",
+        "blanks": [
+          { "accept": ["Csikszentmihályi", "Csikszentmihalyi"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Sein Name beginnt mit einem C und ist schwer auszusprechen."
+      }
+    },
+    {
+      "id": "ex-free-kategorien",
+      "type": "exercise",
+      "title": "Wirkung der Depressiva",
+      "exercise": {
+        "id": "ex-free-kategorien",
+        "type": "free_text",
+        "prompt": "Wie beeinflussen Depressiva (Dämpfungsmittel) das Zentralnervensystem?",
+        "card_ids": ["depressiva"],
+        "accept": ["Sie verlangsamen das ZNS", "Sie hemmen das ZNS", "verlangsamen", "hemmen", "ZNS-Aktivität verringern"],
+        "hint": "Denk an den Namen: 'deprimieren' = herunterdrücken.",
+        "distractors": ["Sie beschleunigen das ZNS", "Sie verzerren die Wahrnehmung", "Sie lindern Schmerzen"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-meditation",
+      "type": "exercise",
+      "title": "Wirkung von Meditation",
+      "exercise": {
+        "id": "ex-free-meditation",
+        "type": "free_text",
+        "prompt": "Nenne zwei belegte Wirkungen von Meditation auf die Psyche.",
+        "card_ids": ["meditation"],
+        "accept": ["Stressreduktion", "Stressabbau", "verbesserte Aufmerksamkeit", "Aufmerksamkeitssteuerung", "Angstreduktion", "Reduktion von Stress"],
+        "hint": "Beide Wirkungen haben mit Aktivierung und Regulierung zu tun.",
+        "distractors": ["Erhöhter Blutdruck", "Verstärkte Impulsivität", "Schlechteres Gedächtnis"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-vbz",
+      "type": "exercise",
+      "title": "Definition zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-vbz",
+        "type": "word_tiles",
+        "prompt": "Setze die Definition eines veränderten Bewusstseinszustands zusammen.",
+        "card_ids": ["vbz-definition"],
+        "tiles": ["Jede", "deutliche", "Abweichung", "vom", "normalen", "Wachbewusstsein"],
+        "hint": "Beginnt mit 'Jede deutliche Abweichung …'.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
