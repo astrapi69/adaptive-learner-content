@@ -1,0 +1,292 @@
+{
+  "id": "01-greetings",
+  "title": "Begrüßung und Vorstellung",
+  "description": "Englische Begrüßungen, Verabschiedungen und die ersten Sätze, um sich vorzustellen — auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "hello",
+      "front": "Hello",
+      "back": "Hallo",
+      "notes": "Neutrale Begrüßung, passt in fast jeder Situation — formell wie informell.",
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "hi",
+      "front": "Hi",
+      "back": "Hi (informell)",
+      "notes": "Lockerer als 'Hello'. Unter Freunden, Kollegen und Gleichaltrigen üblich.",
+      "tags": ["begruessung", "informell"]
+    },
+    {
+      "id": "good-morning",
+      "front": "Good morning",
+      "back": "Guten Morgen",
+      "notes": "Bis etwa 12 Uhr mittags. Das 'oo' in 'good' ist kurz, etwa wie in deutsch 'Butter'.",
+      "tags": ["begruessung", "tageszeit"]
+    },
+    {
+      "id": "good-afternoon",
+      "front": "Good afternoon",
+      "back": "Guten Tag (am Nachmittag)",
+      "notes": "Von Mittag bis etwa 18 Uhr. Es gibt kein allgemeines 'Guten Tag' wie im Deutschen — die Tageszeit entscheidet.",
+      "tags": ["begruessung", "tageszeit"]
+    },
+    {
+      "id": "good-evening",
+      "front": "Good evening",
+      "back": "Guten Abend",
+      "notes": "Ab etwa 18 Uhr. Nur zur Begrüßung — zum Abschied sagt man 'Good night'.",
+      "tags": ["begruessung", "tageszeit"]
+    },
+    {
+      "id": "goodbye",
+      "front": "Goodbye",
+      "back": "Auf Wiedersehen",
+      "notes": "Standard-Verabschiedung. Kürzer und lockerer: 'Bye' oder 'Bye-bye'.",
+      "tags": ["verabschiedung"]
+    },
+    {
+      "id": "see-you",
+      "front": "See you",
+      "back": "Bis später / Bis dann",
+      "notes": "Wörtlich 'sehe dich'. Oft erweitert: 'See you later', 'See you tomorrow'.",
+      "tags": ["verabschiedung", "informell"]
+    },
+    {
+      "id": "whats-your-name",
+      "front": "What's your name?",
+      "back": "Wie heißt du? / Wie ist Ihr Name?",
+      "notes": "Wörtlich 'Was ist dein Name?'. Englisch hat KEIN eigenes Verb wie 'heißen' — man fragt immer mit 'name'.",
+      "tags": ["vorstellung", "frage"]
+    },
+    {
+      "id": "my-name-is",
+      "front": "My name is ...",
+      "back": "Ich heiße ... / Mein Name ist ...",
+      "notes": "Alternativ und sehr verbreitet: 'I'm ...' (Ich bin ...).",
+      "tags": ["vorstellung"]
+    },
+    {
+      "id": "nice-to-meet-you",
+      "front": "Nice to meet you",
+      "back": "Freut mich / Schön, dich kennenzulernen",
+      "notes": "Standardfloskel beim ersten Kennenlernen. Nicht wörtlich übersetzen.",
+      "tags": ["vorstellung", "hoeflichkeit"]
+    },
+    {
+      "id": "how-are-you",
+      "front": "How are you?",
+      "back": "Wie geht es dir?",
+      "notes": "Vorsicht, falscher Freund: NICHT 'How goes it?' (wörtlich aus 'Wie geht's'). Englisch verwendet 'be': 'How ARE you?'.",
+      "tags": ["frage", "hoeflichkeit"]
+    },
+    {
+      "id": "thank-you",
+      "front": "Thank you",
+      "back": "Danke",
+      "notes": "Kürzer: 'Thanks'. Stärker: 'Thank you very much' (Vielen Dank).",
+      "tags": ["hoeflichkeit"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Englische Begrüßungen — und das berüchtigte 'th'",
+      "body": "# Begrüßung auf Englisch\n\nEnglisch ist die mit Abstand nützlichste Fremdsprache für Deutschsprachige — und der Einstieg ist leichter, als du denkst, denn viele Wörter ähneln dem Deutschen.\n\nDiese Lektion behandelt die wichtigsten Begrüßungen, Verabschiedungen und die ersten Sätze, um sich vorzustellen.\n\n**Die größte Hürde für Deutschsprachige: das 'th'.** Diesen Laut gibt es im Deutschen nicht. Bei Wörtern wie **this**, **that**, **the** oder **thank** legst du die Zungenspitze locker zwischen die Zähne und lässt Luft durchströmen. Sage NICHT 'ze' oder 'se' für *the* — das verrät sofort den deutschen Akzent. Übe: *the, this, that, thank*."
+    },
+    {
+      "id": "step-formell",
+      "type": "theory",
+      "title": "Formell oder informell",
+      "body": "## Wann sage ich was?\n\nAnders als im Deutschen gibt es im Englischen **kein 'Sie' und kein 'du'** — man sagt immer **you**. Die Höflichkeit steckt in der Wortwahl, nicht im Pronomen.\n\n| Situation | Begrüßung |\n|---|---|\n| Locker, unter Freunden | **Hi** / **Hello** |\n| Neutral, fast überall | **Hello** |\n| Nach Tageszeit, etwas formeller | **Good morning / afternoon / evening** |\n\nZum Abschied:\n\n- **Goodbye** / **Bye** — Standard.\n- **See you (later / tomorrow)** — locker, unter Bekannten.\n- **Good night** — nur abends zum Abschied (nicht zur Begrüßung!)."
+    },
+    {
+      "id": "step-how-are-you",
+      "type": "theory",
+      "title": "'How are you?' und die Antworten",
+      "body": "## 'How are you?'\n\nDie Frage **How are you?** ist im Englischen oft eine reine Höflichkeitsfloskel — eine kurze, positive Antwort genügt:\n\n- **I'm fine, thank you. And you?** — Mir geht es gut, danke. Und dir?\n- **I'm good, thanks.** — Gut, danke.\n- **Not bad.** — Nicht schlecht.\n\n**Achtung, falscher Freund:** Sage niemals *How goes it?* als wörtliche Übersetzung von 'Wie geht's'. Korrekt ist **How are you?** mit dem Verb *be*. Ebenso heißt es **My name is ...**, denn ein Verb wie 'heißen' existiert im Englischen nicht."
+    },
+    {
+      "id": "ex-match-greetings",
+      "type": "exercise",
+      "title": "Begrüßungen zuordnen",
+      "exercise": {
+        "id": "ex-match-greetings",
+        "type": "matching",
+        "prompt": "Ordne jeder englischen Begrüßung die deutsche Bedeutung zu.",
+        "card_ids": ["good-morning", "good-evening", "goodbye", "thank-you"],
+        "pairs": [
+          { "left": "Good morning", "right": "Guten Morgen" },
+          { "left": "Good evening", "right": "Guten Abend" },
+          { "left": "Goodbye", "right": "Auf Wiedersehen" },
+          { "left": "Thank you", "right": "Danke" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-hello",
+      "type": "exercise",
+      "title": "Auf Englisch tippen",
+      "exercise": {
+        "id": "ex-free-hello",
+        "type": "free_text",
+        "prompt": "Wie begrüßt man jemanden neutral auf Englisch (eine Möglichkeit)?",
+        "card_ids": ["hello", "hi"],
+        "accept": ["Hello", "hello", "Hi", "hi", "Hello.", "Hi."],
+        "hint": "Beginnt mit H. 'Hello' oder die kurze Form 'Hi'.",
+        "distractors": ["Hallo", "Hellou", "Helo"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-morning",
+      "type": "exercise",
+      "title": "Welche Begrüßung am Morgen?",
+      "exercise": {
+        "id": "ex-pick-morning",
+        "type": "picture_choice",
+        "prompt": "Es ist 8 Uhr früh. Mit welcher Begrüßung liegst du richtig?",
+        "card_ids": ["good-morning", "good-evening", "good-afternoon"],
+        "images": [
+          { "src": "assets/img/sunrise.png", "label": "Good morning", "is_correct": "true" },
+          { "src": "assets/img/sunset.png", "label": "Good evening" },
+          { "src": "assets/img/noon.png", "label": "Good afternoon" },
+          { "src": "assets/img/night.png", "label": "Good night" }
+        ],
+        "hint": "Vormittags, bis etwa 12 Uhr.",
+        "distractors": ["Good evening", "Good afternoon", "Good night"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-whats-your-name",
+      "type": "exercise",
+      "title": "Die Frage zusammensetzen",
+      "exercise": {
+        "id": "ex-tile-whats-your-name",
+        "type": "word_tiles",
+        "prompt": "Setze die Kacheln zur Frage 'Wie heißt du?' zusammen.",
+        "card_ids": ["whats-your-name"],
+        "tiles": ["What's", "your", "name", "?"],
+        "hint": "Wörtlich 'Was ist dein Name?'. Beginnt mit der Kurzform 'What's'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-thank-you",
+      "type": "exercise",
+      "title": "Sich bedanken",
+      "exercise": {
+        "id": "ex-free-thank-you",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Danke' auf Englisch?",
+        "card_ids": ["thank-you"],
+        "accept": ["Thank you", "thank you", "Thanks", "thanks", "Thank you."],
+        "hint": "Zwei Wörter mit 'th' am Anfang — oder die kurze Form 'Thanks'.",
+        "distractors": ["Thank", "Tank you", "Thanks you"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-phrases",
+      "type": "exercise",
+      "title": "Vorstellungs-Sätze zuordnen",
+      "exercise": {
+        "id": "ex-match-phrases",
+        "type": "matching",
+        "prompt": "Ordne jeden englischen Satz seiner deutschen Bedeutung zu.",
+        "card_ids": ["whats-your-name", "my-name-is", "nice-to-meet-you", "how-are-you"],
+        "pairs": [
+          { "left": "What's your name?", "right": "Wie heißt du?" },
+          { "left": "My name is ...", "right": "Ich heiße ..." },
+          { "left": "Nice to meet you", "right": "Freut mich" },
+          { "left": "How are you?", "right": "Wie geht es dir?" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-good-evening",
+      "type": "exercise",
+      "title": "Lücke füllen — Tageszeit",
+      "exercise": {
+        "id": "ex-cloze-good-evening",
+        "type": "cloze",
+        "prompt": "Ergänze die Begrüßung am Abend (ab 18 Uhr).",
+        "card_ids": ["good-evening"],
+        "sentence": "Good ___ , Mr. Brown!",
+        "blanks": [
+          { "accept": ["evening", "Evening"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Abend = e_____g."
+      }
+    },
+    {
+      "id": "ex-free-nice-to-meet",
+      "type": "exercise",
+      "title": "Beim Kennenlernen",
+      "exercise": {
+        "id": "ex-free-nice-to-meet",
+        "type": "free_text",
+        "prompt": "Du lernst jemanden zum ersten Mal kennen. Was sagst du? ('Freut mich')",
+        "card_ids": ["nice-to-meet-you"],
+        "accept": ["Nice to meet you", "nice to meet you", "Nice to meet you.", "Nice to meet you!"],
+        "hint": "Vier Wörter: Nice to ... you.",
+        "distractors": ["Nice to meet you too late", "Nice you to meet", "Glad to know you happy"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-my-name",
+      "type": "exercise",
+      "title": "Sich vorstellen",
+      "exercise": {
+        "id": "ex-cloze-my-name",
+        "type": "cloze",
+        "prompt": "Ergänze: 'Ich heiße Anna.'",
+        "card_ids": ["my-name-is"],
+        "sentence": "My ___ is Anna.",
+        "blanks": [
+          { "accept": ["name", "Name"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das englische Wort für 'Name' — fast wie im Deutschen, nur klein geschrieben."
+      }
+    },
+    {
+      "id": "ex-tile-nice-to-meet",
+      "type": "exercise",
+      "title": "Floskel zusammensetzen",
+      "exercise": {
+        "id": "ex-tile-nice-to-meet",
+        "type": "word_tiles",
+        "prompt": "Ordne die Kacheln zu 'Freut mich'.",
+        "card_ids": ["nice-to-meet-you"],
+        "tiles": ["Nice", "to", "meet", "you"],
+        "hint": "Beginnt mit 'Nice'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-how-are-you",
+      "type": "exercise",
+      "title": "Nach dem Befinden fragen",
+      "exercise": {
+        "id": "ex-free-how-are-you",
+        "type": "free_text",
+        "prompt": "Wie fragt man 'Wie geht es dir?' auf Englisch?",
+        "card_ids": ["how-are-you"],
+        "accept": ["How are you?", "how are you", "How are you", "how are you?"],
+        "hint": "Mit dem Verb 'are' (be) — NICHT mit 'go'.",
+        "distractors": ["How goes it?", "How goes you?", "How it goes?"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

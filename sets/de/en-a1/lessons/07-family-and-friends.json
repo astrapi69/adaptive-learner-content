@@ -1,0 +1,263 @@
+{
+  "id": "07-family-and-friends",
+  "title": "Familie und Freunde",
+  "description": "Familienwortschatz, das besitzanzeigende 's und die Possessivbegleiter — einfacher als die deutschen Fälle. Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "fam-mother",
+      "front": "mother",
+      "back": "die Mutter",
+      "notes": "Liebevoll/informell: 'mum' (britisch) oder 'mom' (amerikanisch).",
+      "tags": ["familie"]
+    },
+    {
+      "id": "fam-father",
+      "front": "father",
+      "back": "der Vater",
+      "notes": "Informell: 'dad'. Das 'th' wie in 'the' — Zunge zwischen die Zähne.",
+      "tags": ["familie"]
+    },
+    {
+      "id": "fam-brother",
+      "front": "brother",
+      "back": "der Bruder",
+      "notes": "Plural: 'brothers'. Achtung: 'brothers' (Brüder) ≠ 'brother's' (des Bruders).",
+      "tags": ["familie"]
+    },
+    {
+      "id": "fam-sister",
+      "front": "sister",
+      "back": "die Schwester",
+      "notes": "Plural: 'sisters'.",
+      "tags": ["familie"]
+    },
+    {
+      "id": "fam-daughter",
+      "front": "daughter",
+      "back": "die Tochter",
+      "notes": "Das 'gh' ist stumm — gesprochen etwa 'doo-ter'.",
+      "tags": ["familie"]
+    },
+    {
+      "id": "fam-friend",
+      "front": "friend",
+      "back": "der Freund / die Freundin",
+      "notes": "Neutral für Freund und Freundin. Für Partner/in sagt man 'boyfriend' / 'girlfriend'.",
+      "tags": ["familie", "freunde"]
+    },
+    {
+      "id": "poss-s",
+      "front": "Maria's brother",
+      "back": "Marias Bruder",
+      "notes": "Das besitzanzeigende 's: Besitzer + 's + Sache. Viel einfacher als der deutsche Genitiv.",
+      "tags": ["grammatik", "possessiv"]
+    },
+    {
+      "id": "poss-my",
+      "front": "my",
+      "back": "mein / meine",
+      "notes": "Possessivbegleiter — unveränderlich, egal welches Genus oder Zahl: 'my brother', 'my sisters'.",
+      "tags": ["possessiv"]
+    },
+    {
+      "id": "poss-his",
+      "front": "his",
+      "back": "sein / seine",
+      "notes": "Bezieht sich auf einen MÄNNLICHEN Besitzer: 'Tom and his sister' (Tom und seine Schwester).",
+      "tags": ["possessiv"]
+    },
+    {
+      "id": "poss-her",
+      "front": "her",
+      "back": "ihr / ihre",
+      "notes": "Bezieht sich auf eine WEIBLICHE Besitzerin: 'Anna and her brother' (Anna und ihr Bruder).",
+      "tags": ["possessiv"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die Familie",
+      "body": "# Familie und Freunde\n\nDer Grundwortschatz für die Familie:\n\n| Englisch | Deutsch |\n|---|---|\n| **mother** (mum/mom) | Mutter |\n| **father** (dad) | Vater |\n| **brother** | Bruder |\n| **sister** | Schwester |\n| **son** | Sohn |\n| **daughter** | Tochter |\n| **friend** | Freund/in |\n\nAchte auf die Aussprache: das **th** in *mother, father, brother* ist der Zwischen-den-Zähnen-Laut. *daughter* wird etwa 'DOO-ter' gesprochen — das 'gh' bleibt stumm."
+    },
+    {
+      "id": "step-possessive-s",
+      "type": "theory",
+      "title": "Das besitzanzeigende 's",
+      "body": "## Besitz ausdrücken mit 's\n\nGute Nachricht: Der Besitz ist im Englischen viel einfacher als der deutsche Genitiv mit seinen Fällen. Die Formel:\n\n> **Besitzer + 's + Sache**\n\n- *Maria's brother* — Marias Bruder\n- *my friend's house* — das Haus meines Freundes\n- *the teacher's car* — das Auto des Lehrers\n\nKein Fall, keine Endung am Nomen — nur **'s** an den Besitzer. Im Deutschen würdest du 'der Bruder **von** Maria' oder 'Marias Bruder' sagen; vermeide im Englischen die Umschreibung *the brother of Maria* (klingt unnatürlich für Personen)."
+    },
+    {
+      "id": "step-s-vs-s",
+      "type": "theory",
+      "title": "'s (Besitz) oder s (Plural)?",
+      "body": "## Der Apostroph macht den Unterschied\n\nEin häufiger Fehler: das besitzanzeigende **'s** mit dem Plural-**s** verwechseln.\n\n| Form | Bedeutung |\n|---|---|\n| **the dog's bone** | der Knochen des Hundes (Besitz, ein Hund) |\n| **the dogs** | die Hunde (Plural, mehrere) |\n| **the dogs' bones** | die Knochen der Hunde (Besitz, mehrere Hunde) |\n\nMerke:\n- **Plural** = nur **-s** (keine Apostroph): *two brothers, three apples*.\n- **Besitz** = **'s** mit Apostroph: *my brother's car*.\n\nUnd zu den Possessivbegleitern: **my** (mein), **his** (sein — männlicher Besitzer), **her** (ihr — weibliche Besitzerin). Sie richten sich nach dem **Besitzer**, nicht nach der Sache: *Anna and **her** brother*, *Tom and **his** sister*."
+    },
+    {
+      "id": "ex-match-family",
+      "type": "exercise",
+      "title": "Familie zuordnen",
+      "exercise": {
+        "id": "ex-match-family",
+        "type": "matching",
+        "prompt": "Ordne jedes englische Familienwort seiner deutschen Bedeutung zu.",
+        "card_ids": ["fam-mother", "fam-father", "fam-sister", "fam-daughter"],
+        "pairs": [
+          { "left": "mother", "right": "die Mutter" },
+          { "left": "father", "right": "der Vater" },
+          { "left": "sister", "right": "die Schwester" },
+          { "left": "daughter", "right": "die Tochter" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-possessive",
+      "type": "exercise",
+      "title": "Possessivbegleiter zuordnen",
+      "exercise": {
+        "id": "ex-match-possessive",
+        "type": "matching",
+        "prompt": "Ordne jeden Possessivbegleiter seiner deutschen Bedeutung zu.",
+        "card_ids": ["poss-my", "poss-his", "poss-her"],
+        "pairs": [
+          { "left": "my", "right": "mein / meine" },
+          { "left": "his", "right": "sein / seine" },
+          { "left": "her", "right": "ihr / ihre" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-s-vs-plural",
+      "type": "exercise",
+      "title": "Besitz oder Plural?",
+      "exercise": {
+        "id": "ex-pick-s-vs-plural",
+        "type": "picture_choice",
+        "prompt": "Du meinst 'der Knochen des Hundes' (ein Hund). Welche Form ist richtig?",
+        "card_ids": ["poss-s"],
+        "images": [
+          { "src": "assets/img/dogs-bone.png", "label": "the dog's bone", "is_correct": "true" },
+          { "src": "assets/img/dogs-plural.png", "label": "the dogs bone" },
+          { "src": "assets/img/dogs-bones.png", "label": "the dogs' bone" },
+          { "src": "assets/img/dog-bone-of.png", "label": "the bone of the dog" }
+        ],
+        "hint": "Ein Besitzer (ein Hund) → Besitzer + 's.",
+        "distractors": ["the dogs bone", "the dogs' bone", "the bone of the dog"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-possessive",
+      "type": "exercise",
+      "title": "Besitz ausdrücken",
+      "exercise": {
+        "id": "ex-cloze-possessive",
+        "type": "cloze",
+        "prompt": "Ergänze die besitzanzeigende Form: 'Marias Bruder'.",
+        "card_ids": ["poss-s"],
+        "sentence": "This is Maria___ brother.",
+        "blanks": [
+          { "accept": ["'s", "’s", "s"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Besitzer + Apostroph + s."
+      }
+    },
+    {
+      "id": "ex-free-my-friend",
+      "type": "exercise",
+      "title": "Mein Freund",
+      "exercise": {
+        "id": "ex-free-my-friend",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'mein Freund' auf Englisch?",
+        "card_ids": ["poss-my", "fam-friend"],
+        "accept": ["my friend", "My friend", "my friend."],
+        "hint": "Possessivbegleiter 'my' + 'friend'.",
+        "distractors": ["mine friend", "my friends", "me friend"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-his-her",
+      "type": "exercise",
+      "title": "his oder her?",
+      "exercise": {
+        "id": "ex-cloze-his-her",
+        "type": "cloze",
+        "prompt": "Ergänze his oder her. Es richtet sich nach dem Besitzer (Anna).",
+        "card_ids": ["poss-her"],
+        "sentence": "Anna loves ___ brother.",
+        "blanks": [
+          { "accept": ["her"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Die Besitzerin ist weiblich (Anna) → ..."
+      }
+    },
+    {
+      "id": "ex-free-brother",
+      "type": "exercise",
+      "title": "Bruder benennen",
+      "exercise": {
+        "id": "ex-free-brother",
+        "type": "free_text",
+        "prompt": "Wie heißt 'der Bruder' auf Englisch?",
+        "card_ids": ["fam-brother"],
+        "accept": ["brother", "Brother", "a brother", "brother."],
+        "hint": "Beginnt mit 'br' und enthält das 'th'.",
+        "distractors": ["brothers", "broder", "brouther"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-marias-house",
+      "type": "exercise",
+      "title": "Satz bauen mit 's",
+      "exercise": {
+        "id": "ex-tile-marias-house",
+        "type": "word_tiles",
+        "prompt": "Bilde 'Das ist meines Freundes Haus' (das Haus meines Freundes).",
+        "card_ids": ["poss-s", "poss-my", "fam-friend"],
+        "tiles": ["This", "is", "my", "friend's", "house"],
+        "hint": "Besitzer ('my friend') + 's + Sache (house).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-toms-sister",
+      "type": "exercise",
+      "title": "Toms Schwester",
+      "exercise": {
+        "id": "ex-free-toms-sister",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Toms Schwester'.",
+        "card_ids": ["poss-s", "fam-sister"],
+        "accept": ["Tom's sister", "tom's sister", "Tom’s sister", "Tom's sister."],
+        "hint": "Besitzer (Tom) + 's + Sache (sister).",
+        "distractors": ["Tom sister", "Toms sister", "sister of Tom"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-her-mother",
+      "type": "exercise",
+      "title": "Ihre Mutter",
+      "exercise": {
+        "id": "ex-free-her-mother",
+        "type": "free_text",
+        "prompt": "Übersetze: 'ihre Mutter' (die Mutter einer Frau).",
+        "card_ids": ["poss-her", "fam-mother"],
+        "accept": ["her mother", "Her mother", "her mother.", "her mum", "her mom"],
+        "hint": "Weibliche Besitzerin → 'her' + 'mother'.",
+        "distractors": ["his mother", "their mother", "she mother"],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

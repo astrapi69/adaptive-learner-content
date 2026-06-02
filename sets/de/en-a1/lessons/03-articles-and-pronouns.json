@@ -1,0 +1,264 @@
+{
+  "id": "03-articles-and-pronouns",
+  "title": "Artikel und Pronomen",
+  "description": "Die Artikel a/an/the und die Personalpronomen — viel einfacher als im Deutschen, weil es kein Genus gibt. Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "the",
+      "front": "the",
+      "back": "der / die / das",
+      "notes": "Der bestimmte Artikel — EIN Wort für alle Geschlechter und für Singular wie Plural. Kein Genus im Englischen!",
+      "tags": ["artikel"]
+    },
+    {
+      "id": "a",
+      "front": "a",
+      "back": "ein / eine (vor Konsonanten-Laut)",
+      "notes": "Unbestimmter Artikel vor einem Konsonanten-LAUT: a book, a car, a university (gesprochen 'juniversity').",
+      "tags": ["artikel"]
+    },
+    {
+      "id": "an",
+      "front": "an",
+      "back": "ein / eine (vor Vokal-Laut)",
+      "notes": "Unbestimmter Artikel vor einem Vokal-LAUT: an apple, an hour (das 'h' ist stumm).",
+      "tags": ["artikel"]
+    },
+    {
+      "id": "pron-i",
+      "front": "I",
+      "back": "ich",
+      "notes": "Wird IMMER großgeschrieben — auch mitten im Satz: 'Tomorrow I go ...'.",
+      "tags": ["pronomen"]
+    },
+    {
+      "id": "pron-you",
+      "front": "you",
+      "back": "du / Sie / ihr",
+      "notes": "Ein Wort für alles: 'du', 'Sie' und 'ihr'. Englisch unterscheidet nicht zwischen formell und informell.",
+      "tags": ["pronomen"]
+    },
+    {
+      "id": "pron-he",
+      "front": "he",
+      "back": "er",
+      "notes": "Für männliche Personen.",
+      "tags": ["pronomen"]
+    },
+    {
+      "id": "pron-she",
+      "front": "she",
+      "back": "sie (Einzahl)",
+      "notes": "Für weibliche Personen.",
+      "tags": ["pronomen"]
+    },
+    {
+      "id": "pron-it",
+      "front": "it",
+      "back": "es (Dinge und Tiere)",
+      "notes": "Für Sachen und Tiere — egal welches deutsche Genus: 'the table → it', auch wenn 'der Tisch' männlich ist.",
+      "tags": ["pronomen"]
+    },
+    {
+      "id": "pron-we",
+      "front": "we",
+      "back": "wir",
+      "notes": "1. Person Plural.",
+      "tags": ["pronomen"]
+    },
+    {
+      "id": "pron-they",
+      "front": "they",
+      "back": "sie (Mehrzahl)",
+      "notes": "Für mehrere Personen ODER Dinge — egal welches Geschlecht.",
+      "tags": ["pronomen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Gute Nachricht: kein Genus!",
+      "body": "# Artikel auf Englisch\n\nHier kommt die wohl größte Erleichterung für Deutschsprachige: **Englisch hat KEIN grammatisches Geschlecht.**\n\nIm Deutschen musst du dir zu jedem Nomen merken, ob es *der*, *die* oder *das* heißt. Im Englischen gibt es nur **ein** bestimmtes Wort:\n\n> **the** — für alles.\n\n- the man, the woman, the child\n- the table, the lamp, the book\n- the cars, the houses (auch im Plural)\n\nDu musst dir also **nie** ein Genus merken. Das spart enorm viel Mühe."
+    },
+    {
+      "id": "step-a-an",
+      "type": "theory",
+      "title": "a oder an? Es kommt auf den Laut an",
+      "body": "## Der unbestimmte Artikel: a / an\n\n'ein/eine' heißt **a** oder **an** — die Wahl hängt vom **Laut** des folgenden Wortes ab, nicht vom Buchstaben:\n\n- **a** vor einem Konsonanten-Laut: *a book, a car, a dog*.\n- **an** vor einem Vokal-Laut: *an apple, an egg, an orange*.\n\n**Achtung auf den LAUT, nicht die Schrift:**\n\n- *an hour* — das 'h' ist stumm, das Wort beginnt mit einem Vokal-Laut.\n- *a university* — wird 'juu-niversity' gesprochen, also Konsonanten-Laut → *a*.\n\nTypischer Fehler: *a apple*. Richtig: **an apple**."
+    },
+    {
+      "id": "step-pronouns",
+      "type": "theory",
+      "title": "Die Personalpronomen",
+      "body": "## Personalpronomen\n\n| Englisch | Deutsch |\n|---|---|\n| **I** | ich |\n| **you** | du / Sie / ihr |\n| **he** | er |\n| **she** | sie (Einzahl) |\n| **it** | es (Dinge, Tiere) |\n| **we** | wir |\n| **they** | sie (Mehrzahl) |\n\nDrei Dinge, die Deutschsprachigen oft entgehen:\n\n1. **I** schreibt man IMMER groß — auch mitten im Satz.\n2. **you** deckt 'du', 'Sie' UND 'ihr' ab. Kein Höflichkeits-Stress.\n3. **it** nimmt man für ALLE Sachen und Tiere, ganz egal welches Genus das deutsche Wort hat. 'Der Tisch' wird zu **it**, nicht zu 'he'."
+    },
+    {
+      "id": "ex-match-pronouns",
+      "type": "exercise",
+      "title": "Pronomen zuordnen",
+      "exercise": {
+        "id": "ex-match-pronouns",
+        "type": "matching",
+        "prompt": "Ordne jedes englische Pronomen seiner deutschen Bedeutung zu.",
+        "card_ids": ["pron-i", "pron-he", "pron-she", "pron-we"],
+        "pairs": [
+          { "left": "I", "right": "ich" },
+          { "left": "he", "right": "er" },
+          { "left": "she", "right": "sie (Einzahl)" },
+          { "left": "we", "right": "wir" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-an-apple",
+      "type": "exercise",
+      "title": "a oder an?",
+      "exercise": {
+        "id": "ex-cloze-an-apple",
+        "type": "cloze",
+        "prompt": "Ergänze den richtigen unbestimmten Artikel vor 'apple'.",
+        "card_ids": ["an", "a"],
+        "sentence": "I eat ___ apple every day.",
+        "blanks": [
+          { "accept": ["an"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "'apple' beginnt mit einem Vokal-Laut."
+      }
+    },
+    {
+      "id": "ex-cloze-a-book",
+      "type": "exercise",
+      "title": "a oder an? (Teil 2)",
+      "exercise": {
+        "id": "ex-cloze-a-book",
+        "type": "cloze",
+        "prompt": "Ergänze den richtigen unbestimmten Artikel vor 'book'.",
+        "card_ids": ["a", "an"],
+        "sentence": "This is ___ book.",
+        "blanks": [
+          { "accept": ["a"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "'book' beginnt mit einem Konsonanten-Laut."
+      }
+    },
+    {
+      "id": "ex-pick-it",
+      "type": "exercise",
+      "title": "Welches Pronomen für einen Tisch?",
+      "exercise": {
+        "id": "ex-pick-it",
+        "type": "picture_choice",
+        "prompt": "Du sprichst über 'the table' (der Tisch). Welches Pronomen verwendest du?",
+        "card_ids": ["pron-it", "pron-he", "pron-she"],
+        "images": [
+          { "src": "assets/img/pronoun-it.png", "label": "it", "is_correct": "true" },
+          { "src": "assets/img/pronoun-he.png", "label": "he" },
+          { "src": "assets/img/pronoun-she.png", "label": "she" },
+          { "src": "assets/img/pronoun-they.png", "label": "they" }
+        ],
+        "hint": "Sachen sind im Englischen immer 'it' — egal welches deutsche Genus.",
+        "distractors": ["he", "she", "they"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-the",
+      "type": "exercise",
+      "title": "Der bestimmte Artikel",
+      "exercise": {
+        "id": "ex-free-the",
+        "type": "free_text",
+        "prompt": "Wie heißt der bestimmte Artikel (der/die/das) auf Englisch?",
+        "card_ids": ["the"],
+        "accept": ["the", "The", "the."],
+        "hint": "Ein einziges kleines Wort für alle Geschlechter, beginnt mit 'th'.",
+        "distractors": ["der", "das", "de"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-pronouns-2",
+      "type": "exercise",
+      "title": "Mehr Pronomen",
+      "exercise": {
+        "id": "ex-match-pronouns-2",
+        "type": "matching",
+        "prompt": "Ordne die übrigen Pronomen zu.",
+        "card_ids": ["pron-you", "pron-it", "pron-they"],
+        "pairs": [
+          { "left": "you", "right": "du / Sie / ihr" },
+          { "left": "it", "right": "es (Dinge, Tiere)" },
+          { "left": "they", "right": "sie (Mehrzahl)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-i-capital",
+      "type": "exercise",
+      "title": "'ich' auf Englisch",
+      "exercise": {
+        "id": "ex-free-i-capital",
+        "type": "free_text",
+        "prompt": "Übersetze 'Ich bin Anna.' (Achte auf das große 'I'!)",
+        "card_ids": ["pron-i"],
+        "accept": ["I am Anna", "I am Anna.", "I'm Anna", "I'm Anna.", "I’m Anna"],
+        "hint": "'ich' = I (immer groß), 'bin' = am — oder die Kurzform.",
+        "distractors": ["i am Anna", "Ich bin Anna", "Me am Anna"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-the-car",
+      "type": "exercise",
+      "title": "Bestimmter Artikel im Satz",
+      "exercise": {
+        "id": "ex-tile-the-car",
+        "type": "word_tiles",
+        "prompt": "Setze 'das Auto ist neu' zusammen.",
+        "card_ids": ["the"],
+        "tiles": ["The", "car", "is", "new"],
+        "hint": "'das' = the, 'Auto' = car, 'ist' = is, 'neu' = new.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-an-hour",
+      "type": "exercise",
+      "title": "Die Laut-Regel auf die Probe",
+      "exercise": {
+        "id": "ex-cloze-an-hour",
+        "type": "cloze",
+        "prompt": "Ergänze a/an vor 'hour'. Achtung: Es zählt der Laut, nicht der Buchstabe!",
+        "card_ids": ["an"],
+        "sentence": "I wait for ___ hour.",
+        "blanks": [
+          { "accept": ["an"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das 'h' in 'hour' ist stumm — es klingt wie ein Vokal."
+      }
+    },
+    {
+      "id": "ex-tile-pronoun-order",
+      "type": "exercise",
+      "title": "Pronomen in Reihe",
+      "exercise": {
+        "id": "ex-tile-pronoun-order",
+        "type": "word_tiles",
+        "prompt": "Ordne die Pronomen so, dass sie 'er, sie, es' bedeuten (in dieser Reihenfolge).",
+        "card_ids": ["pron-he", "pron-she", "pron-it"],
+        "tiles": ["he", "she", "it"],
+        "hint": "er = he, sie (Einzahl) = she, es = it.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+# Englisch A1 (für Deutschsprachige) — Set-Manifest
+# (Phase 60 / v1.44.0).
+#
+# Englisch lernen, mit Erklärungen und Übersetzungen auf Deutsch.
+# Der Content-Loader liest ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.2'
+name: Englisch A1 (für Deutschsprachige)
+description: >-
+  Englisch lernen für Deutschsprachige. Grundwortschatz,
+  Grammatik und Alltagssituationen (15 Lektionen): von Begrüßung,
+  Zahlen und Artikeln über das Verb to be, Tagesablauf, Essen,
+  Familie, Farben und Kleidung, Wegbeschreibung und Einkaufen bis
+  zum Simple Present, Simple Past (regelmäßig und unregelmäßig)
+  und Wetter, abgeschlossen mit einer Wiederholung. Falsche
+  Freunde werden gezielt geübt. Karten-Rückseiten, Notizen und
+  Theorie auf Deutsch.
+sets:
+  - id: en-a1-from-de
+    title: Englisch A1 — Anfänger
+    title_native: English A1 — Beginner
+    target_language: en
+    source_language: de
+    level: A1
+    path: sets/de/en-a1
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Englisch lernen für Deutschsprachige. Grundwortschatz,
+      Grammatik und Alltagssituationen — von der Begrüßung bis
+      zum Simple Past, mit Fokus auf typische Fehler und falsche
+      Freunde. Erklärungen auf Deutsch.
+    tags:
+      - beginner
+      - travel
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-greetings.json
+    - 02-numbers-and-time.json
+    - 03-articles-and-pronouns.json
+    - 04-verb-to-be.json
+    - 05-daily-routine.json
+    - 06-food-and-drinks.json
+    - 07-family-and-friends.json
+    - 08-colors-and-clothes.json
+    - 09-directions-and-places.json
+    - 10-shopping.json
+    - 11-simple-present.json
+    - 12-simple-past-regular.json
+    - 13-simple-past-irregular.json
+    - 14-weather-and-seasons.json
+    - 15-review-and-consolidation.json

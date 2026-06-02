@@ -1,0 +1,266 @@
+{
+  "id": "10-shopping",
+  "title": "Einkaufen",
+  "description": "Einkaufen, nach Preisen fragen und der Unterschied zwischen How much und How many. Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "how-much",
+      "front": "How much is it?",
+      "back": "Wie viel kostet das?",
+      "notes": "'How much' fragt nach Preis oder nach UNZÄHLBAREN Mengen: How much water? How much money?",
+      "tags": ["einkaufen", "frage"]
+    },
+    {
+      "id": "how-many",
+      "front": "How many ...?",
+      "back": "Wie viele ...?",
+      "notes": "'How many' fragt nach ZÄHLBAREN Dingen: How many apples? How many people?",
+      "tags": ["einkaufen", "frage", "grammatik"]
+    },
+    {
+      "id": "it-costs",
+      "front": "It costs ...",
+      "back": "Es kostet ...",
+      "notes": "3. Person Singular → 'costs' mit -s. 'It costs five pounds.'",
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "ill-take-it",
+      "front": "I'll take it",
+      "back": "Ich nehme es",
+      "notes": "Kurzform von 'I will take it'. Standardsatz beim Kaufen. NICHT 'I take it' für die spontane Entscheidung.",
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "do-you-have",
+      "front": "Do you have ...?",
+      "back": "Haben Sie ...?",
+      "notes": "Mit Hilfsverb 'do'. Auch britisch: 'Have you got ...?'.",
+      "tags": ["einkaufen", "frage"]
+    },
+    {
+      "id": "too-expensive",
+      "front": "too expensive",
+      "back": "zu teuer",
+      "notes": "'too' = zu (im Übermaß). Nicht mit 'very' (sehr) verwechseln.",
+      "tags": ["einkaufen", "adjektiv"]
+    },
+    {
+      "id": "on-sale",
+      "front": "on sale",
+      "back": "im Angebot / reduziert",
+      "notes": "'on sale' = reduziert. 'for sale' dagegen = zu verkaufen.",
+      "tags": ["einkaufen", "falscher-freund"]
+    },
+    {
+      "id": "cheap",
+      "front": "cheap",
+      "back": "billig / günstig",
+      "notes": "Gegenteil von 'expensive'. 'cheap' kann auch abwertend 'minderwertig' bedeuten.",
+      "tags": ["einkaufen", "adjektiv"]
+    },
+    {
+      "id": "just-browsing",
+      "front": "I'm just browsing",
+      "back": "Ich schaue mich nur um",
+      "notes": "Höfliche Antwort an Verkäufer, wenn man noch nichts kaufen will. Auch: 'I'm just looking.'",
+      "tags": ["einkaufen", "hoeflichkeit"]
+    },
+    {
+      "id": "information",
+      "front": "information",
+      "back": "die Information(en)",
+      "notes": "Falscher Freund / Grammatik-Falle: IMMER unzählbar! Nie 'an information' oder 'informations'. Sage 'some information' oder 'a piece of information'.",
+      "tags": ["einkaufen", "unzaehlbar", "falscher-freund"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Im Geschäft",
+      "body": "# Einkaufen\n\nDie wichtigsten Sätze beim Einkaufen:\n\n- **How much is it?** — Wie viel kostet das?\n- **It costs ten euros.** — Es kostet zehn Euro.\n- **Do you have this in size 40?** — Haben Sie das in Größe 40?\n- **I'll take it.** — Ich nehme es.\n- **It's too expensive.** — Es ist zu teuer.\n- **It's on sale.** — Es ist reduziert.\n\nKleine Fallen: **too** heißt 'zu' (zu teuer = *too expensive*), nicht 'auch'. Und **on sale** bedeutet 'reduziert' — *for sale* dagegen heißt 'zu verkaufen'."
+    },
+    {
+      "id": "step-much-many",
+      "type": "theory",
+      "title": "How much oder How many?",
+      "body": "## How much vs. How many\n\nBeide heißen 'wie viel(e)', aber die Wahl hängt davon ab, ob das Nomen **zählbar** ist:\n\n| | Frage nach | Beispiel |\n|---|---|---|\n| **How many** | zählbaren Dingen (Plural) | *How many apples?* / *How many people?* |\n| **How much** | unzählbaren Dingen + Preis | *How much water?* / *How much is it?* |\n\nMerke:\n- zählbar → **How many** + Pluralnomen.\n- unzählbar / Geld / Preis → **How much**.\n\nTypischer Fehler: *How much apples?* (apples ist zählbar → **How many apples**). Und beim Preis immer: *How much is it?*"
+    },
+    {
+      "id": "step-information",
+      "type": "theory",
+      "title": "Falscher Freund: 'informations' ✗",
+      "body": "## Die Falle 'information'\n\nEin Klassiker unter den Fehlern von Deutschsprachigen: Im Deutschen sagt man 'eine Information' und 'die Informationen'. Im Englischen ist **information** aber **immer unzählbar**:\n\n- ✗ *an information*, *informations*\n- ✓ **some information**, **a piece of information**, **a lot of information**\n\nEbenso unzählbar (kein Plural-s!): *advice* (Rat), *news* (Nachrichten), *furniture* (Möbel), *luggage* (Gepäck).\n\nWeil sie unzählbar sind, fragt man nach ihnen mit **How much**, nicht *How many*: *How much information do you need?*\n\nMerksatz: Bei diesen Wörtern niemals ein Plural-s anhängen — auch wenn das Deutsche es nahelegt."
+    },
+    {
+      "id": "ex-match-shopping",
+      "type": "exercise",
+      "title": "Einkaufs-Sätze zuordnen",
+      "exercise": {
+        "id": "ex-match-shopping",
+        "type": "matching",
+        "prompt": "Ordne jeden Satz seiner deutschen Bedeutung zu.",
+        "card_ids": ["how-much", "ill-take-it", "do-you-have", "too-expensive"],
+        "pairs": [
+          { "left": "How much is it?", "right": "Wie viel kostet das?" },
+          { "left": "I'll take it", "right": "Ich nehme es" },
+          { "left": "Do you have ...?", "right": "Haben Sie ...?" },
+          { "left": "too expensive", "right": "zu teuer" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-how-many",
+      "type": "exercise",
+      "title": "much oder many? (1)",
+      "exercise": {
+        "id": "ex-cloze-how-many",
+        "type": "cloze",
+        "prompt": "Ergänze much oder many vor einem zählbaren Nomen.",
+        "card_ids": ["how-many"],
+        "sentence": "How ___ apples do you want?",
+        "blanks": [
+          { "accept": ["many"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "'apples' ist zählbar (Plural) → ..."
+      }
+    },
+    {
+      "id": "ex-cloze-how-much",
+      "type": "exercise",
+      "title": "much oder many? (2)",
+      "exercise": {
+        "id": "ex-cloze-how-much",
+        "type": "cloze",
+        "prompt": "Ergänze much oder many vor einem unzählbaren Nomen.",
+        "card_ids": ["how-much"],
+        "sentence": "How ___ money do you have?",
+        "blanks": [
+          { "accept": ["much"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "'money' ist unzählbar → ..."
+      }
+    },
+    {
+      "id": "ex-pick-information",
+      "type": "exercise",
+      "title": "Welche Form ist richtig?",
+      "exercise": {
+        "id": "ex-pick-information",
+        "type": "picture_choice",
+        "prompt": "Du brauchst Auskunft. Welche Form ist korrekt?",
+        "card_ids": ["information"],
+        "images": [
+          { "src": "assets/img/some-information.png", "label": "some information", "is_correct": "true" },
+          { "src": "assets/img/an-information.png", "label": "an information" },
+          { "src": "assets/img/informations.png", "label": "some informations" },
+          { "src": "assets/img/many-information.png", "label": "many informations" }
+        ],
+        "hint": "'information' ist immer unzählbar — kein 'a/an', kein Plural-s.",
+        "distractors": ["an information", "some informations", "many informations"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-much-many",
+      "type": "exercise",
+      "title": "much oder many zuordnen",
+      "exercise": {
+        "id": "ex-match-much-many",
+        "type": "matching",
+        "prompt": "Ordne jedes Nomen der richtigen Frageform zu (zählbar → many, unzählbar → much).",
+        "card_ids": ["how-much", "how-many"],
+        "pairs": [
+          { "left": "apples", "right": "How many" },
+          { "left": "money", "right": "How much" },
+          { "left": "people", "right": "How many" },
+          { "left": "water", "right": "How much" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-how-much",
+      "type": "exercise",
+      "title": "Nach dem Preis fragen",
+      "exercise": {
+        "id": "ex-free-how-much",
+        "type": "free_text",
+        "prompt": "Frage nach dem Preis: 'Wie viel kostet das?'",
+        "card_ids": ["how-much"],
+        "accept": ["How much is it?", "How much is it", "how much is it?", "How much is this?"],
+        "hint": "How much + is + it/this?",
+        "distractors": ["How many is it?", "How much it is?", "What costs it?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ill-take-it",
+      "type": "exercise",
+      "title": "Sich entscheiden",
+      "exercise": {
+        "id": "ex-free-ill-take-it",
+        "type": "free_text",
+        "prompt": "Du entscheidest dich zu kaufen. Sage 'Ich nehme es.'",
+        "card_ids": ["ill-take-it"],
+        "accept": ["I'll take it", "I'll take it.", "I will take it", "I will take it.", "I’ll take it"],
+        "hint": "Kurzform von 'I will take it'.",
+        "distractors": ["I take it.", "I'll buy it now please yes", "I become it."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-do-you-have",
+      "type": "exercise",
+      "title": "Nach der Größe fragen",
+      "exercise": {
+        "id": "ex-tile-do-you-have",
+        "type": "word_tiles",
+        "prompt": "Bilde 'Haben Sie das in Größe 40?'",
+        "card_ids": ["do-you-have"],
+        "tiles": ["Do", "you", "have", "this", "in", "size", "40", "?"],
+        "hint": "Beginnt mit dem Hilfsverb 'Do'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-too-expensive",
+      "type": "exercise",
+      "title": "Zu teuer",
+      "exercise": {
+        "id": "ex-free-too-expensive",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Es ist zu teuer.'",
+        "card_ids": ["too-expensive"],
+        "accept": ["It's too expensive", "It's too expensive.", "It is too expensive", "It is too expensive.", "It’s too expensive"],
+        "hint": "'zu' = too (nicht 'very').",
+        "distractors": ["It's very expensive too", "It's to expensive", "It's so expensive much"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-just-browsing",
+      "type": "exercise",
+      "title": "Nur umschauen",
+      "exercise": {
+        "id": "ex-cloze-just-browsing",
+        "type": "cloze",
+        "prompt": "Der Verkäufer fragt, ob er helfen kann. Ergänze: 'Ich schaue mich nur um.'",
+        "card_ids": ["just-browsing"],
+        "sentence": "Thanks, I'm just ___ .",
+        "blanks": [
+          { "accept": ["browsing", "looking"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "'sich umschauen' = to browse / to look."
+      }
+    }
+  ]
+}

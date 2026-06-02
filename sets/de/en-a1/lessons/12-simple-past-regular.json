@@ -1,0 +1,239 @@
+{
+  "id": "12-simple-past-regular",
+  "title": "Simple Past — regelmäßige Verben",
+  "description": "Die Vergangenheit der regelmäßigen Verben mit -ed, ihre drei Aussprachen und Fragen mit did. Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "past-worked",
+      "front": "worked",
+      "back": "arbeitete (work + ed)",
+      "notes": "Aussprache der Endung: /t/ — 'workt'. Nach stimmlosen Lauten wie k, p, s.",
+      "tags": ["simple-past", "regelmaessig"]
+    },
+    {
+      "id": "past-played",
+      "front": "played",
+      "back": "spielte (play + ed)",
+      "notes": "Aussprache der Endung: /d/ — 'playd'. Nach stimmhaften Lauten und Vokalen.",
+      "tags": ["simple-past", "regelmaessig"]
+    },
+    {
+      "id": "past-wanted",
+      "front": "wanted",
+      "back": "wollte (want + ed)",
+      "notes": "Aussprache der Endung: /ɪd/ — 'want-id'. Nach t und d wird die Endung als eigene Silbe gesprochen.",
+      "tags": ["simple-past", "regelmaessig"]
+    },
+    {
+      "id": "past-needed",
+      "front": "needed",
+      "back": "brauchte (need + ed)",
+      "notes": "Aussprache: /ɪd/ — 'need-id'. Auch hier eigene Silbe (Stamm endet auf d).",
+      "tags": ["simple-past", "regelmaessig"]
+    },
+    {
+      "id": "past-lived",
+      "front": "lived",
+      "back": "wohnte / lebte (live + ed)",
+      "notes": "Schreibweise: Stamm endet auf -e → nur -d anhängen. Aussprache: /d/.",
+      "tags": ["simple-past", "regelmaessig"]
+    },
+    {
+      "id": "past-did-you",
+      "front": "Did you ...?",
+      "back": "...du ...? (Vergangenheit)",
+      "notes": "Fragen in der Vergangenheit mit 'did' + Grundform: 'Did you see it?'. Das Hauptverb steht in der GRUNDFORM, nicht in der Vergangenheit!",
+      "tags": ["simple-past", "frage"]
+    },
+    {
+      "id": "past-didnt",
+      "front": "I didn't ...",
+      "back": "ich ... nicht (Vergangenheit)",
+      "notes": "Verneinung mit 'did not / didn't' + Grundform: 'I didn't work.' (nicht 'didn't worked').",
+      "tags": ["simple-past", "verneinung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die Vergangenheit mit -ed",
+      "body": "# Simple Past — regelmäßige Verben\n\nFür die einfache Vergangenheit hängst du bei regelmäßigen Verben **-ed** an die Grundform:\n\n| Grundform | Simple Past | Deutsch |\n|---|---|---|\n| work | work**ed** | arbeitete |\n| play | play**ed** | spielte |\n| want | want**ed** | wollte |\n| need | need**ed** | brauchte |\n\nKleine Schreibregeln:\n- Stamm endet auf **-e** → nur **-d**: live → live**d**.\n- Stamm endet auf Konsonant + **-y** → **-ied**: study → stud**ied**.\n\nGute Nachricht: Die Form ist für ALLE Personen gleich — *I worked, he worked, they worked*. Kein -s, keine Sonderform in der 3. Person."
+    },
+    {
+      "id": "step-pronunciation",
+      "type": "theory",
+      "title": "Drei Aussprachen für -ed",
+      "body": "## -ed wird auf DREI Arten gesprochen\n\nDie Schreibung ist immer **-ed**, aber die Aussprache hängt vom letzten Laut des Stamms ab:\n\n| Aussprache | Wann? | Beispiel |\n|---|---|---|\n| **/t/** | nach stimmlosen Lauten (k, p, s, f, sh, ch) | work → work**ed** ('workt') |\n| **/d/** | nach stimmhaften Lauten und Vokalen | play → play**ed** ('playd') |\n| **/ɪd/** | nach **t** und **d** (eigene Silbe!) | want → want**ed** ('want-id') |\n\nNur bei der dritten Gruppe (Stamm endet auf t/d) entsteht eine zusätzliche Silbe. *wanted* hat zwei Silben, *worked* nur eine. Sprich nicht überall 'wor-ked' — das ist ein typischer Fehler."
+    },
+    {
+      "id": "step-questions",
+      "type": "theory",
+      "title": "Fragen und Verneinung mit did",
+      "body": "## did für Fragen und Verneinungen\n\nIn der Vergangenheit übernimmt **did** (die Vergangenheit von 'do') die Arbeit — und das Hauptverb kehrt zur **Grundform** zurück:\n\n- **Did you see it?** — Hast du es gesehen? (NICHT *Saw you it?* — keine deutsche Wortstellung!)\n- **I didn't work yesterday.** — Ich habe gestern nicht gearbeitet.\n\nWichtig: Nach **did / didn't** steht KEINE Vergangenheitsform mehr — das -ed ist schon in 'did' enthalten:\n\n- ✓ *Did you **work**?* (nicht *Did you worked?*)\n- ✓ *I didn't **want** it.* (nicht *I didn't wanted it.*)\n\nDas -ed steht also entweder am Vollverb (Aussage) ODER im 'did' (Frage/Verneinung) — nie an beiden."
+    },
+    {
+      "id": "ex-match-past",
+      "type": "exercise",
+      "title": "Vergangenheitsformen zuordnen",
+      "exercise": {
+        "id": "ex-match-past",
+        "type": "matching",
+        "prompt": "Ordne jede Vergangenheitsform ihrer deutschen Bedeutung zu.",
+        "card_ids": ["past-worked", "past-played", "past-wanted", "past-needed"],
+        "pairs": [
+          { "left": "worked", "right": "arbeitete" },
+          { "left": "played", "right": "spielte" },
+          { "left": "wanted", "right": "wollte" },
+          { "left": "needed", "right": "brauchte" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-pronunciation",
+      "type": "exercise",
+      "title": "Welches Wort hat eine Extra-Silbe?",
+      "exercise": {
+        "id": "ex-pick-pronunciation",
+        "type": "picture_choice",
+        "prompt": "Bei welchem Wort wird die -ed-Endung als eigene Silbe /ɪd/ gesprochen?",
+        "card_ids": ["past-wanted"],
+        "images": [
+          { "src": "assets/img/wanted.png", "label": "wanted (want-id)", "is_correct": "true" },
+          { "src": "assets/img/worked.png", "label": "worked (workt)" },
+          { "src": "assets/img/played.png", "label": "played (playd)" },
+          { "src": "assets/img/lived.png", "label": "lived (livd)" }
+        ],
+        "hint": "Eigene Silbe nur, wenn der Stamm auf t oder d endet.",
+        "distractors": ["worked (workt)", "played (playd)", "lived (livd)"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-played",
+      "type": "exercise",
+      "title": "Regelmäßige Vergangenheit",
+      "exercise": {
+        "id": "ex-cloze-played",
+        "type": "cloze",
+        "prompt": "Setze 'play' ins Simple Past.",
+        "card_ids": ["past-played"],
+        "sentence": "Yesterday I ___ football.",
+        "blanks": [
+          { "accept": ["played"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Grundform + -ed."
+      }
+    },
+    {
+      "id": "ex-free-worked",
+      "type": "exercise",
+      "title": "Aussage in der Vergangenheit",
+      "exercise": {
+        "id": "ex-free-worked",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Ich arbeitete gestern.'",
+        "card_ids": ["past-worked"],
+        "accept": ["I worked yesterday.", "I worked yesterday", "i worked yesterday", "I worked yesterday!"],
+        "hint": "'work' + -ed + 'yesterday'.",
+        "distractors": ["I worked yesterday work.", "I work yesterday.", "I did worked yesterday."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-did-you-see",
+      "type": "exercise",
+      "title": "Frage in der Vergangenheit",
+      "exercise": {
+        "id": "ex-free-did-you-see",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Hast du es gesehen?' (Frage in der Vergangenheit)",
+        "card_ids": ["past-did-you"],
+        "accept": ["Did you see it?", "did you see it?", "Did you see it", "Did you see it ?"],
+        "hint": "'Did' + Subjekt + Grundform 'see' + Rest. NICHT 'saw' nach 'did'!",
+        "distractors": ["Did you saw it?", "Saw you it?", "Do you saw it?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-didnt-want",
+      "type": "exercise",
+      "title": "Verneinung in der Vergangenheit",
+      "exercise": {
+        "id": "ex-free-didnt-want",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Ich wollte es nicht.'",
+        "card_ids": ["past-didnt", "past-wanted"],
+        "accept": ["I didn't want it.", "I didn't want it", "I did not want it.", "I did not want it", "I didn’t want it"],
+        "hint": "'didn't' + Grundform 'want' (nicht 'wanted').",
+        "distractors": ["I didn't wanted it.", "I don't want it.", "I not wanted it."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-she-lived",
+      "type": "exercise",
+      "title": "Satz bauen",
+      "exercise": {
+        "id": "ex-tile-she-lived",
+        "type": "word_tiles",
+        "prompt": "Bilde 'Sie wohnte in Paris.'",
+        "card_ids": ["past-lived"],
+        "tiles": ["She", "lived", "in", "Paris"],
+        "hint": "'live' endet auf -e → nur -d anhängen. Form für alle Personen gleich.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-did-you-play",
+      "type": "exercise",
+      "title": "Frage bauen",
+      "exercise": {
+        "id": "ex-tile-did-you-play",
+        "type": "word_tiles",
+        "prompt": "Bilde 'Hast du gestern Fußball gespielt?'",
+        "card_ids": ["past-did-you", "past-played"],
+        "tiles": ["Did", "you", "play", "football", "yesterday", "?"],
+        "hint": "'Did' + you + Grundform 'play' (ohne -ed!) + Rest.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-wanted",
+      "type": "exercise",
+      "title": "Aussage mit -ed",
+      "exercise": {
+        "id": "ex-free-wanted",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Sie wollte ein Eis.'",
+        "card_ids": ["past-wanted"],
+        "accept": ["She wanted an ice cream.", "She wanted an ice cream", "She wanted ice cream.", "She wanted ice cream", "she wanted an ice cream"],
+        "hint": "'want' + -ed; Form für alle Personen gleich.",
+        "distractors": ["She wants an ice cream.", "She did wanted an ice cream.", "She wanted a ice cream."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-needed",
+      "type": "exercise",
+      "title": "Noch eine Extra-Silbe",
+      "exercise": {
+        "id": "ex-cloze-needed",
+        "type": "cloze",
+        "prompt": "Setze 'need' ins Simple Past.",
+        "card_ids": ["past-needed"],
+        "sentence": "We ___ more time.",
+        "blanks": [
+          { "accept": ["needed"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Stamm endet auf d → -ed wird als eigene Silbe gesprochen."
+      }
+    }
+  ]
+}
