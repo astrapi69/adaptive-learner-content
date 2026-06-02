@@ -1,0 +1,309 @@
+{
+  "id": "02-wahrnehmung",
+  "title": "Wahrnehmung",
+  "description": "Die fünf Sinne, Gestaltgesetze, optische Täuschungen und selektive Aufmerksamkeit — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "wahrnehmung",
+      "front": "Wahrnehmung (Perception)",
+      "back": "Aktiver Prozess, bei dem sensorische Reize aufgenommen, gefiltert und zu einem bedeutungsvollen Erlebnis verarbeitet werden.",
+      "notes": "Wahrnehmung ist nicht passives Empfangen — das Gehirn konstruiert aktiv ein Bild der Realität.",
+      "tags": ["grundlagen", "wahrnehmung"]
+    },
+    {
+      "id": "visuell",
+      "front": "Visueller Sinn (Visual Sense)",
+      "back": "Sehsinn; verarbeitet Licht über die Netzhaut des Auges zu visuellen Informationen.",
+      "notes": "Der dominante Sinn beim Menschen — ca. 30 % der Gehirnrinde ist an visueller Verarbeitung beteiligt.",
+      "tags": ["sinne", "visuell"]
+    },
+    {
+      "id": "auditiv",
+      "front": "Auditiver Sinn (Auditory Sense)",
+      "back": "Hörsinn; verarbeitet Schallwellen über das Innenohr zu Klang- und Sprachwahrnehmung.",
+      "notes": "Wichtig für Sprache und Musik; eng mit dem Gleichgewichtssinn verbunden.",
+      "tags": ["sinne", "auditiv"]
+    },
+    {
+      "id": "taktil",
+      "front": "Taktiler Sinn (Tactile Sense)",
+      "back": "Tastsinn; nimmt Druck, Berührung, Temperatur und Schmerz über Hautrezeptoren wahr.",
+      "notes": "Die Hände und Lippen haben besonders viele Tastrezeptoren — erkennbar im Homunculus.",
+      "tags": ["sinne", "taktil"]
+    },
+    {
+      "id": "olfaktorisch",
+      "front": "Olfaktorischer Sinn (Olfactory Sense)",
+      "back": "Geruchssinn; erkennt flüchtige Moleküle über Rezeptoren in der Nasenschleimhaut.",
+      "notes": "Gerüche sind besonders stark mit Erinnerungen und Emotionen verknüpft (Proustsches Phänomen).",
+      "tags": ["sinne", "olfaktorisch"]
+    },
+    {
+      "id": "gustatorisch",
+      "front": "Gustatorischer Sinn (Gustatory Sense)",
+      "back": "Geschmackssinn; unterscheidet süß, sauer, salzig, bitter und umami über Geschmacksknospen.",
+      "notes": "Geschmack und Geruch arbeiten eng zusammen — ein Schnupfen beeinträchtigt den Geschmack erheblich.",
+      "tags": ["sinne", "gustatorisch"]
+    },
+    {
+      "id": "gestaltgesetze",
+      "front": "Gestaltgesetze (Gestalt Laws)",
+      "back": "Prinzipien, nach denen das Gehirn einzelne Reize zu sinnvollen Ganzheiten (Gestalten) organisiert.",
+      "notes": "Entwickelt von der Gestaltpsychologie (Wertheimer, Köhler, Koffka) zu Beginn des 20. Jahrhunderts.",
+      "tags": ["gestalt", "wahrnehmung"]
+    },
+    {
+      "id": "gesetz-naehe",
+      "front": "Gesetz der Nähe (Law of Proximity)",
+      "back": "Nahe beieinanderliegende Elemente werden als zusammengehörend wahrgenommen.",
+      "notes": "Beispiel: Punkte, die eng nebeneinander stehen, erscheinen als Gruppe — auch wenn sie identisch sind.",
+      "tags": ["gestalt", "naehe"]
+    },
+    {
+      "id": "gesetz-aehnlichkeit",
+      "front": "Gesetz der Ähnlichkeit (Law of Similarity)",
+      "back": "Ähnliche Elemente (gleiche Form, Farbe, Größe) werden als zusammengehörend gruppiert.",
+      "notes": "Schachbrettmuster: weiße und schwarze Felder bilden jeweils eigene Gruppen.",
+      "tags": ["gestalt", "aehnlichkeit"]
+    },
+    {
+      "id": "gesetz-geschlossenheit",
+      "front": "Gesetz der Geschlossenheit (Law of Closure)",
+      "back": "Unvollständige Figuren werden mental ergänzt, sodass eine geschlossene, vollständige Form entsteht.",
+      "notes": "Beispiel: ein unterbrochener Kreis wird dennoch als Kreis erkannt.",
+      "tags": ["gestalt", "geschlossenheit"]
+    },
+    {
+      "id": "gesetz-gute-fortsetzung",
+      "front": "Gesetz der guten Fortsetzung (Law of Continuity)",
+      "back": "Linien und Kurven werden so wahrgenommen, als folgten sie dem gleichmäßigsten oder geradlinigsten Verlauf.",
+      "notes": "Zwei sich kreuzende Kurven sehen wir als zwei durchgehende Kurven, nicht als zwei Knicklinien.",
+      "tags": ["gestalt", "fortsetzung"]
+    },
+    {
+      "id": "mueller-lyer",
+      "front": "Müller-Lyer-Täuschung (Müller-Lyer Illusion)",
+      "back": "Optische Täuschung: zwei gleich lange Linien wirken unterschiedlich lang, weil ihre Pfeilspitzen nach innen bzw. außen zeigen.",
+      "notes": "Benannt nach Franz Carl Müller-Lyer (1889); eine der bekanntesten optischen Täuschungen überhaupt.",
+      "tags": ["illusion", "visuell"]
+    },
+    {
+      "id": "ponzo",
+      "front": "Ponzo-Täuschung (Ponzo Illusion)",
+      "back": "Optische Täuschung: zwei gleich lange horizontale Linien wirken unterschiedlich lang, weil Konvergenzlinien Tiefe suggerieren.",
+      "notes": "Ähnlich wie Eisenbahnschienen, die sich in der Ferne treffen — die obere Linie erscheint weiter entfernt und damit länger.",
+      "tags": ["illusion", "visuell"]
+    },
+    {
+      "id": "rubin-vase",
+      "front": "Rubin-Vase (Rubin Vase / Kippbild)",
+      "back": "Kippbild: je nach Figur-Grund-Zuweisung sieht man entweder eine Vase oder zwei einander zugewandte Gesichter.",
+      "notes": "Zeigt, dass Wahrnehmung von der Interpretation des Gehirns abhängt, nicht allein vom Reiz.",
+      "tags": ["illusion", "figur-grund", "kippbild"]
+    },
+    {
+      "id": "cocktailparty-effekt",
+      "front": "Cocktailparty-Effekt (Cocktail Party Effect)",
+      "back": "Fähigkeit, in einer lauten Umgebung auf ein einzelnes Gespräch zu fokussieren und irrelevante Geräusche auszublenden.",
+      "notes": "Erstmals beschrieben von Colin Cherry (1953); veranschaulicht selektive Aufmerksamkeit im Alltag.",
+      "tags": ["aufmerksamkeit", "auditiv"]
+    },
+    {
+      "id": "change-blindness",
+      "front": "Veränderungsblindheit (Change Blindness)",
+      "back": "Unvermögen, Veränderungen in einer visuellen Szene zu bemerken, wenn sie während einer Ablenkung oder Unterbrechung auftreten.",
+      "notes": "Klassische Studie: Versuchspersonen bemerkten nicht, dass die befragte Person ausgetauscht wurde (Levin & Simons, 1998).",
+      "tags": ["aufmerksamkeit", "visuell"]
+    },
+    {
+      "id": "selektive-aufmerksamkeit",
+      "front": "Selektive Aufmerksamkeit (Selective Attention)",
+      "back": "Kognitive Fähigkeit, bestimmte Reize gezielt zu verarbeiten und andere zu ignorieren.",
+      "notes": "Begrenzte Verarbeitungskapazität des Gehirns macht Selektion notwendig — wir können nicht alles gleichzeitig verarbeiten.",
+      "tags": ["aufmerksamkeit", "grundlagen"]
+    },
+    {
+      "id": "figur-grund",
+      "front": "Figur-Grund-Wahrnehmung (Figure-Ground Perception)",
+      "back": "Tendenz des Wahrnehmungssystems, eine Szene in eine hervorgehobene Figur und einen zurückweichenden Hintergrund (Grund) zu gliedern.",
+      "notes": "Grundlage des Rubin-Vase-Kippbilds; tritt automatisch und meist unbewusst auf.",
+      "tags": ["gestalt", "figur-grund"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-sinne",
+      "type": "theory",
+      "title": "Die fünf Sinne",
+      "body": "# Wahrnehmung beginnt mit den Sinnen\n\n**Wahrnehmung** ist kein passives Empfangen — das Gehirn verarbeitet Sinnesreize aktiv zu einem bedeutungsvollen Erlebnis. Fünf Hauptsinne liefern die Rohdaten:\n\n| Sinn | Modalität | Organ |\n|---|---|---|\n| **Visuell** | Sehen | Augen |\n| **Auditiv** | Hören | Ohren |\n| **Taktil** | Tasten | Haut |\n| **Olfaktorisch** | Riechen | Nase |\n| **Gustatorisch** | Schmecken | Zunge |\n\nJeder Sinn hat spezialisierte Rezeptoren, die physikalische Energie (Licht, Schall, Druck) in neuronale Signale umwandeln — ein Prozess namens **Transduktion**. Beim Menschen dominiert das visuelle System; etwa 30 % der Großhirnrinde ist an visueller Verarbeitung beteiligt."
+    },
+    {
+      "id": "theory-gestalt",
+      "type": "theory",
+      "title": "Gestaltgesetze",
+      "body": "## Wie das Gehirn Ordnung schafft\n\nDie **Gestaltpsychologie** (Wertheimer, Köhler, Koffka) entdeckte, dass wir Einzelreize zu sinnvollen *Ganzheiten* organisieren. Vier zentrale Gesetze:\n\n- **Nähe** — nahe Elemente gehören zusammen.\n- **Ähnlichkeit** — gleiche Formen/Farben bilden Gruppen.\n- **Geschlossenheit** — unvollständige Figuren werden mental ergänzt.\n- **Gute Fortsetzung** — Linien folgen dem gleichmäßigsten Verlauf.\n\nDer Leitsatz lautet: Das Ganze ist mehr als die Summe seiner Teile. Diese Prinzipien wirken automatisch und unbewusst — sie erleichtern uns, Objekte schnell zu erkennen und zu gliedern.\n\nEine verwandte Idee ist die **Figur-Grund-Wahrnehmung**: Wir trennen automatisch eine hervorgehobene Figur von ihrem Hintergrund — sichtbar bei Kippbildern wie der Rubin-Vase."
+    },
+    {
+      "id": "theory-aufmerksamkeit",
+      "type": "theory",
+      "title": "Selektive Aufmerksamkeit und optische Täuschungen",
+      "body": "## Wahrnehmung ist aktiv und selektiv\n\nWeil unser Gehirn nicht alle Reize gleichzeitig verarbeiten kann, wählt **selektive Aufmerksamkeit** aus, was bewusst wird:\n\n- **Cocktailparty-Effekt** — in Lärm auf ein Gespräch fokussieren.\n- **Veränderungsblindheit** — Veränderungen werden übersehen, wenn die Aufmerksamkeit woanders ist.\n\n**Optische Täuschungen** zeigen, dass Wahrnehmung konstruiert ist:\n\n- **Müller-Lyer** — gleich lange Linien wirken unterschiedlich lang (Pfeilspitzen).\n- **Ponzo** — Perspektivlinien täuschen über Längenunterschiede hinweg.\n- **Rubin-Vase** — Kippbild zwischen Vase und Gesichtern.\n\nDiese Täuschungen entstehen, weil das Gehirn auf Heuristiken (Erfahrungsregeln) zurückgreift — normalerweise hilfreich, aber bei Täuschungsbildern irreführend."
+    },
+    {
+      "id": "ex-match-sinne",
+      "type": "exercise",
+      "title": "Sinne zuordnen",
+      "exercise": {
+        "id": "ex-match-sinne",
+        "type": "matching",
+        "prompt": "Ordne jedem Sinn sein Wahrnehmungsorgan zu.",
+        "card_ids": ["visuell", "auditiv", "taktil", "olfaktorisch", "gustatorisch"],
+        "pairs": [
+          { "left": "Visueller Sinn", "right": "Augen — verarbeitet Licht" },
+          { "left": "Auditiver Sinn", "right": "Ohren — verarbeitet Schallwellen" },
+          { "left": "Taktiler Sinn", "right": "Haut — Druck und Temperatur" },
+          { "left": "Olfaktorischer Sinn", "right": "Nase — erkennt Moleküle" },
+          { "left": "Gustatorischer Sinn", "right": "Zunge — süß, sauer, salzig, bitter, umami" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-gestalt",
+      "type": "exercise",
+      "title": "Gestaltgesetze zuordnen",
+      "exercise": {
+        "id": "ex-match-gestalt",
+        "type": "matching",
+        "prompt": "Ordne jedem Gestaltgesetz sein Prinzip zu.",
+        "card_ids": ["gesetz-naehe", "gesetz-aehnlichkeit", "gesetz-geschlossenheit", "gesetz-gute-fortsetzung"],
+        "pairs": [
+          { "left": "Gesetz der Nähe", "right": "nahe Elemente wirken zusammengehörend" },
+          { "left": "Gesetz der Ähnlichkeit", "right": "gleiche Formen/Farben bilden Gruppen" },
+          { "left": "Gesetz der Geschlossenheit", "right": "unvollständige Figuren werden ergänzt" },
+          { "left": "Gesetz der guten Fortsetzung", "right": "Linien folgen gleichmäßigstem Verlauf" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-cocktailparty",
+      "type": "exercise",
+      "title": "Begriff zur Definition",
+      "exercise": {
+        "id": "ex-free-cocktailparty",
+        "type": "free_text",
+        "prompt": "Wie heißt das Phänomen, in lauter Umgebung auf ein einzelnes Gespräch zu fokussieren?",
+        "card_ids": ["cocktailparty-effekt"],
+        "accept": ["Cocktailparty-Effekt", "Cocktailparty Effekt", "der Cocktailparty-Effekt", "Cocktail-Party-Effekt"],
+        "hint": "Stell dir eine laute Party vor — du hörst trotzdem deinen Namen.",
+        "distractors": ["Veränderungsblindheit", "Figur-Grund-Effekt", "Gestaltprinzip"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-mueller-lyer",
+      "type": "exercise",
+      "title": "Täuschung benennen",
+      "exercise": {
+        "id": "ex-free-mueller-lyer",
+        "type": "free_text",
+        "prompt": "Wie heißt die Täuschung, bei der Pfeilspitzen zwei gleich lange Linien unterschiedlich lang erscheinen lassen?",
+        "card_ids": ["mueller-lyer"],
+        "accept": ["Müller-Lyer-Täuschung", "Müller-Lyer Täuschung", "Müller-Lyer", "Mueller-Lyer-Täuschung"],
+        "hint": "Benannt nach Franz Carl Müller-Lyer (1889).",
+        "distractors": ["Ponzo-Täuschung", "Rubin-Vase", "Veränderungsblindheit"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-gestalt-naehe",
+      "type": "exercise",
+      "title": "Gestaltgesetz ergänzen",
+      "exercise": {
+        "id": "ex-cloze-gestalt-naehe",
+        "type": "cloze",
+        "prompt": "Ergänze das passende Gestaltgesetz.",
+        "card_ids": ["gesetz-naehe", "gesetz-aehnlichkeit"],
+        "sentence": "Elemente, die räumlich eng beieinander liegen, werden nach dem Gesetz der ___ als zusammengehörend gruppiert.",
+        "blanks": [
+          { "accept": ["Nähe", "Naehe", "naehe", "nähe"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Denke an den räumlichen Abstand zwischen Elementen."
+      }
+    },
+    {
+      "id": "ex-cloze-fuenf-sinne",
+      "type": "exercise",
+      "title": "Den fünften Sinn benennen",
+      "exercise": {
+        "id": "ex-cloze-fuenf-sinne",
+        "type": "cloze",
+        "prompt": "Ergänze die fehlenden Sinne.",
+        "card_ids": ["visuell", "auditiv", "taktil", "olfaktorisch", "gustatorisch"],
+        "sentence": "Die fünf Sinne sind: visuell, ___, taktil, olfaktorisch und gustatorisch.",
+        "blanks": [
+          { "accept": ["auditiv", "Auditiv", "der auditive Sinn"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Dieser Sinn ist fürs Hören zuständig."
+      }
+    },
+    {
+      "id": "ex-picture-illusion",
+      "type": "exercise",
+      "title": "Welche Täuschung zeigt gleich lange Linien?",
+      "exercise": {
+        "id": "ex-picture-illusion",
+        "type": "picture_choice",
+        "prompt": "Welche Täuschung zeigt zwei gleich lange Linien, die durch Pfeilspitzen unterschiedlich lang wirken?",
+        "card_ids": ["mueller-lyer", "ponzo", "rubin-vase", "figur-grund"],
+        "images": [
+          { "src": "assets/img/illusion-mueller-lyer.png", "label": "Müller-Lyer-Täuschung", "is_correct": "true" },
+          { "src": "assets/img/illusion-ponzo.png", "label": "Ponzo-Täuschung" },
+          { "src": "assets/img/illusion-rubin.png", "label": "Rubin-Vase" },
+          { "src": "assets/img/illusion-figur-grund.png", "label": "Figur-Grund-Wahrnehmung" }
+        ],
+        "hint": "Achte auf die Pfeilspitzen an den Enden der Linien.",
+        "distractors": ["Ponzo-Täuschung", "Rubin-Vase", "Figur-Grund-Wahrnehmung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-wahrnehmung",
+      "type": "exercise",
+      "title": "Definition zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-wahrnehmung",
+        "type": "word_tiles",
+        "prompt": "Setze die Definition der selektiven Aufmerksamkeit zusammen.",
+        "card_ids": ["selektive-aufmerksamkeit"],
+        "tiles": ["Selektive", "Aufmerksamkeit", "filtert", "bestimmte", "Reize", "heraus", "und", "ignoriert", "andere"],
+        "hint": "Beginnt mit 'Selektive Aufmerksamkeit filtert ...'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-illusionen",
+      "type": "exercise",
+      "title": "Täuschungen zuordnen",
+      "exercise": {
+        "id": "ex-match-illusionen",
+        "type": "matching",
+        "prompt": "Ordne jeder optischen Täuschung ihre Beschreibung zu.",
+        "card_ids": ["mueller-lyer", "ponzo", "rubin-vase"],
+        "pairs": [
+          { "left": "Müller-Lyer-Täuschung", "right": "Pfeilspitzen lassen gleich lange Linien verschieden lang erscheinen" },
+          { "left": "Ponzo-Täuschung", "right": "Perspektivlinien suggerieren Tiefe, verzerren Längenwahrnehmung" },
+          { "left": "Rubin-Vase", "right": "Kippbild: Vase oder zwei Gesichter je nach Figur-Grund-Zuweisung" }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

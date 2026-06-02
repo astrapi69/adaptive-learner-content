@@ -8,13 +8,25 @@ share). It re-implements the schema + language-pair + quality
 rules with stdlib + PyYAML only, so the content repo's CI can run
 it without installing the application.
 
+A set's ``domain`` (optional, default ``language``) selects which
+rules apply. Language sets (the default) must form a real
+learner/target language pair. Non-language sets (e.g.
+``domain: psychology``) are content where the explanations and the
+material share one language, so the language-pair and
+``{target}-{level}`` directory rules are relaxed for them — their
+``path`` only has to live under ``sets/{source_language}/``.
+
 Checks, per the content-authoring contract:
   * Schema: required fields on every manifest set + lesson.
-  * Language pair: target_language + source_language present,
-    valid 2-letter ISO 639-1, and target != source.
+  * Language pair (language domain only): target_language +
+    source_language present, valid 2-letter ISO 639-1, and
+    target != source. For non-language domains, source == target
+    is allowed.
   * Directory structure: a set's ``path`` is
     ``sets/{source_language}/{target}-{level}`` and matches the
-    source_language it declares.
+    source_language it declares. For non-language domains the
+    ``{target}-{level}`` folder-name rule is skipped (the folder
+    may carry a topic name, e.g. ``sets/de/psych-intro``).
   * Quality minimums (below any of these fails the PR):
       - >= 5 exercises per lesson
       - >= 2 distinct exercise types
@@ -63,6 +75,13 @@ def base_lang(code: str) -> str:
     return (code or "").split("-")[0].lower()
 
 
+def set_domain(content_set: dict) -> str:
+    # ``domain`` defaults to "language". Anything else (e.g.
+    # "psychology") marks a non-language content set, which relaxes
+    # the language-pair and directory-name rules below.
+    return (content_set.get("domain") or "language").strip().lower()
+
+
 def back_looks_like_source(text: str, source: str) -> bool:
     rng = SCRIPT_RANGES.get(base_lang(source))
     if rng is None:
@@ -80,7 +99,9 @@ def validate_set_meta(content_set: dict, errors: list[str]) -> None:
         errors.append(f"set {sid}: target_language '{target}' is not ISO 639-1")
     if not ISO_639_1.match(source):
         errors.append(f"set {sid}: source_language '{source}' is not ISO 639-1")
-    if target and source and target == source:
+    # Non-language sets are material explained in (and written in) the
+    # same language, so source == target is expected and allowed.
+    if target and source and target == source and set_domain(content_set) == "language":
         errors.append(f"set {sid}: source and target language are identical ('{target}')")
     if not content_set.get("title"):
         errors.append(f"set {sid}: missing title")
@@ -105,11 +126,13 @@ def validate_structure(content_set: dict, errors: list[str]) -> None:
         )
     # The target+level directory name must match the metadata, so a
     # set's file location is derivable from (and consistent with) its
-    # declared target_language + level.
+    # declared target_language + level. Non-language sets carry a topic
+    # folder name (e.g. ``psych-intro``) instead, so this rule is
+    # skipped for them.
     target = base_lang(content_set.get("target_language", ""))
     level = (content_set.get("level", "") or "").strip().lower()
     expected_dir = f"{target}-{level}"
-    if target and level and parts[2] != expected_dir:
+    if set_domain(content_set) == "language" and target and level and parts[2] != expected_dir:
         errors.append(
             f"set {sid}: path target dir '{parts[2]}' != expected "
             f"'{expected_dir}' (from target_language '{target}' + level '{level}')"

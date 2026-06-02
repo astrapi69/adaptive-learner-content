@@ -1,0 +1,293 @@
+{
+  "id": "03-gedaechtnis",
+  "title": "Gedächtnis",
+  "description": "Mehrspeichermodell, Arbeitsgedächtnis, Vergessenskurve und Gedächtnisstrategien — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "mehrspeichermodell",
+      "front": "Mehrspeichermodell (Multi-Store Model)",
+      "back": "Modell von Atkinson & Shiffrin (1968): Informationen durchlaufen drei Speicher — sensorisches Register, Kurzzeitgedächtnis und Langzeitgedächtnis.",
+      "notes": "Das Modell ist ein Meilenstein der Kognitionspsychologie, obwohl spätere Forschung es erweitert hat.",
+      "tags": ["modell", "atkinson-shiffrin"]
+    },
+    {
+      "id": "sensorisches-register",
+      "front": "Sensorisches Register (Sensory Register)",
+      "back": "Erster Speicher im Mehrspeichermodell: hält Sinneseindrücke für Millisekunden bis wenige Sekunden, bevor sie gefiltert werden.",
+      "notes": "Beispiel: Das ikonische Gedächtnis (visuell) hält ein Bild etwa 0,5 Sekunden.",
+      "tags": ["modell", "atkinson-shiffrin", "speicher"]
+    },
+    {
+      "id": "kurzzeitgedaechtnis",
+      "front": "Kurzzeitgedächtnis (Short-Term Memory, STM)",
+      "back": "Zweiter Speicher: begrenzte Kapazität (ca. 7 ± 2 Einheiten nach Miller) und kurze Dauer (ca. 15–30 Sekunden ohne Wiederholung).",
+      "notes": "Durch aktive Wiederholung (rehearsal) können Informationen länger gehalten oder ins Langzeitgedächtnis überführt werden.",
+      "tags": ["modell", "atkinson-shiffrin", "speicher"]
+    },
+    {
+      "id": "langzeitgedaechtnis",
+      "front": "Langzeitgedächtnis (Long-Term Memory, LTM)",
+      "back": "Dritter Speicher: quasi unbegrenzte Kapazität und Dauer; enthält deklaratives und prozedurales Wissen.",
+      "notes": "Unterteilung in explizites (episodisch, semantisch) und implizites Gedächtnis.",
+      "tags": ["modell", "atkinson-shiffrin", "speicher"]
+    },
+    {
+      "id": "arbeitsgedaechtnis",
+      "front": "Arbeitsgedächtnis (Working Memory)",
+      "back": "Modell von Baddeley & Hitch (1974): aktives System, das Informationen kurzzeitig speichert und gleichzeitig verarbeitet.",
+      "notes": "Ersetzt das einfache Konzept des Kurzzeitgedächtnisses durch ein flexibleres, mehrkomponentiges Modell.",
+      "tags": ["modell", "baddeley", "arbeitsgedaechtnis"]
+    },
+    {
+      "id": "phonologische-schleife",
+      "front": "Phonologische Schleife (Phonological Loop)",
+      "back": "Komponente des Arbeitsgedächtnisses: speichert sprachliche und akustische Information durch inneres Sprechen.",
+      "notes": "Verantwortlich für das Behalten von Telefonnummern beim kurzen Merken.",
+      "tags": ["baddeley", "arbeitsgedaechtnis"]
+    },
+    {
+      "id": "visuell-raeumlicher-notizblock",
+      "front": "Visuell-räumlicher Notizblock (Visuospatial Sketchpad)",
+      "back": "Komponente des Arbeitsgedächtnisses: verarbeitet und speichert visuelle und räumliche Informationen.",
+      "notes": "Aktiv beim mentalen Rotieren von Objekten oder beim Navigieren.",
+      "tags": ["baddeley", "arbeitsgedaechtnis"]
+    },
+    {
+      "id": "zentrale-exekutive",
+      "front": "Zentrale Exekutive (Central Executive)",
+      "back": "Übergeordnete Kontrollinstanz des Arbeitsgedächtnisses: steuert Aufmerksamkeit und koordiniert die Subsysteme.",
+      "notes": "Keine eigene Speicherkapazität — nur Steuerung und Koordination.",
+      "tags": ["baddeley", "arbeitsgedaechtnis"]
+    },
+    {
+      "id": "vergessenskurve",
+      "front": "Vergessenskurve (Forgetting Curve)",
+      "back": "Von Ebbinghaus entdeckt: Vergessen verläuft exponentiell — der größte Verlust tritt kurz nach dem Lernen auf.",
+      "notes": "Ebbinghaus lernte sinnlose Silben und maß Behaltensleistung über die Zeit. Nach einem Tag sind oft über 50 % vergessen.",
+      "tags": ["ebbinghaus", "vergessen"]
+    },
+    {
+      "id": "ebbinghaus",
+      "front": "Hermann Ebbinghaus",
+      "back": "Pionier der Gedächtnisforschung; entdeckte die Vergessenskurve und den Spacing-Effekt durch systematische Selbstversuche.",
+      "notes": "Verwendete bedeutungslose Silben (z. B. 'DAX', 'BUP') um Vorwissen auszuschließen.",
+      "tags": ["ebbinghaus", "person"]
+    },
+    {
+      "id": "spacing-effekt",
+      "front": "Spacing-Effekt (Spacing Effect)",
+      "back": "Verteiltes Lernen über die Zeit führt zu besserem Behalten als massiertes Lernen (Bulimie-Lernen).",
+      "notes": "Das Gegenmittel gegen die Vergessenskurve: lieber täglich 20 Minuten als einmal 4 Stunden.",
+      "tags": ["ebbinghaus", "strategie", "srs"]
+    },
+    {
+      "id": "chunking",
+      "front": "Chunking",
+      "back": "Gedächtnisstrategie: Einzelinformationen zu bedeutungsvollen Einheiten (Chunks) zusammenfassen, um die KZG-Kapazität zu erhöhen.",
+      "notes": "Beispiel: '0 17 0 – 1 2 3 4 5 6' statt '0170123456' Ziffer für Ziffer merken.",
+      "tags": ["strategie"]
+    },
+    {
+      "id": "elaboration",
+      "front": "Elaboration (Elaborative Rehearsal)",
+      "back": "Gedächtnisstrategie: neues Wissen mit vorhandenem verknüpfen, um tiefere und dauerhaftere Gedächtnisrepräsentationen zu erzeugen.",
+      "notes": "Im Gegensatz zum reinen Wiederholen (maintenance rehearsal) viel effektiver für das Langzeitgedächtnis.",
+      "tags": ["strategie"]
+    },
+    {
+      "id": "loci-methode",
+      "front": "Loci-Methode (Method of Loci)",
+      "back": "Mnemonische Strategie: zu merkende Informationen gedanklich an bekannte Orte eines vertrauten Weges platzieren.",
+      "notes": "Auch 'Gedächtnispalast' genannt. Schon von antiken Rednern genutzt.",
+      "tags": ["strategie", "mnemotechnik"]
+    },
+    {
+      "id": "eselbruecken",
+      "front": "Eselsbrücken (Mnemonik / Mnemonic Devices)",
+      "back": "Gedächtnishilfen, die durch Reime, Abkürzungen oder bildhafte Assoziationen das Behalten erleichtern.",
+      "notes": "Beispiel: 'Mein Vater erklärt mir jeden Sonntag unsere Nachbarplaneten' für die Planetenreihenfolge.",
+      "tags": ["strategie", "mnemotechnik"]
+    },
+    {
+      "id": "srs",
+      "front": "Spaced Repetition System (SRS / Verteiltes Wiederholen)",
+      "back": "Lernalgorithmus, der Wiederholungszeitpunkte so plant, dass Karteikarten kurz vor dem Vergessen erneut gezeigt werden.",
+      "notes": "Adaptive Learner nutzt genau dieses Prinzip: je öfter du eine Karte richtig beantwortest, desto länger das Intervall bis zur nächsten Wiederholung.",
+      "tags": ["strategie", "srs", "meta"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-mehrspeicher",
+      "type": "theory",
+      "title": "Das Mehrspeichermodell (Atkinson & Shiffrin)",
+      "body": "# Mehrspeichermodell\n\nAtkinson & Shiffrin (1968) beschrieben Gedächtnis als **drei aufeinanderfolgende Speicher**:\n\n1. **Sensorisches Register** — hält Sinneseindrücke für Millisekunden bis Sekunden.\n2. **Kurzzeitgedächtnis (KZG)** — begrenzte Kapazität (~7 ± 2 Chunks) und kurze Dauer (~15–30 s).\n3. **Langzeitgedächtnis (LZG)** — quasi unbegrenzt in Kapazität und Dauer.\n\nInformationen fließen von links nach rechts — aber nur, wenn Aufmerksamkeit und Wiederholung aktiv eingesetzt werden. Was das KZG nicht durch **Rehearsal** überführt, geht verloren."
+    },
+    {
+      "id": "theory-arbeitsgedaechtnis",
+      "type": "theory",
+      "title": "Das Arbeitsgedächtnismodell (Baddeley)",
+      "body": "# Arbeitsgedächtnis\n\nBaddeley & Hitch (1974) erweiterten das KZG zu einem aktiven **Arbeitsgedächtnismodell** mit drei Komponenten:\n\n- **Phonologische Schleife** — speichert Sprache und Klänge durch inneres Sprechen.\n- **Visuell-räumlicher Notizblock** — verarbeitet Bilder und Rauminformationen.\n- **Zentrale Exekutive** — übergeordnete Steuerinstanz; koordiniert beide Subsysteme und lenkt Aufmerksamkeit.\n\nDas Arbeitsgedächtnis ist unser mentaler 'Schreibtisch': begrenzt, aber aktiv. Wenn wir rechnen, lesen oder eine Entscheidung treffen, ist es im Einsatz."
+    },
+    {
+      "id": "theory-vergessen-und-strategien",
+      "type": "theory",
+      "title": "Vergessenskurve, Spacing-Effekt & SRS",
+      "body": "# Vergessen und wie man es bekämpft\n\n**Ebbinghaus** zeigte: Vergessen verläuft **exponentiell** — kurz nach dem Lernen geht am meisten verloren. Die **Vergessenskurve** flacht dann ab.\n\nDas wirksamste Gegenmittel ist der **Spacing-Effekt**: Lernstoff *verteilt* über die Zeit wiederholen statt kurz vor der Prüfung zu pauken.\n\nDaneben helfen:\n- **Chunking** — Einheiten bündeln\n- **Elaboration** — neues Wissen verknüpfen\n- **Loci-Methode** — Gedächtnispalast\n- **Eselsbrücken** — Reime, Akronyme\n\n> **Meta-Hinweis:** Adaptive Learner nutzt ein **SRS** (Spaced Repetition System) — genau das Prinzip aus dieser Lektion. Je öfter du eine Karte richtig beantwortest, desto länger wartet das System mit der nächsten Wiederholung."
+    },
+    {
+      "id": "ex-match-speicher",
+      "type": "exercise",
+      "title": "Speicher zuordnen",
+      "exercise": {
+        "id": "ex-match-speicher",
+        "type": "matching",
+        "prompt": "Ordne jedem Speicher des Mehrspeichermodells seine Eigenschaft zu.",
+        "card_ids": ["sensorisches-register", "kurzzeitgedaechtnis", "langzeitgedaechtnis"],
+        "pairs": [
+          { "left": "Sensorisches Register", "right": "Millisekunden bis Sekunden, alle Sinne" },
+          { "left": "Kurzzeitgedächtnis", "right": "ca. 7 ± 2 Einheiten, 15–30 Sekunden" },
+          { "left": "Langzeitgedächtnis", "right": "quasi unbegrenzte Kapazität und Dauer" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-baddeley",
+      "type": "exercise",
+      "title": "Baddeley-Komponenten zuordnen",
+      "exercise": {
+        "id": "ex-match-baddeley",
+        "type": "matching",
+        "prompt": "Ordne jede Komponente des Arbeitsgedächtnisses ihrer Funktion zu.",
+        "card_ids": ["phonologische-schleife", "visuell-raeumlicher-notizblock", "zentrale-exekutive"],
+        "pairs": [
+          { "left": "Phonologische Schleife", "right": "sprachliche und akustische Informationen" },
+          { "left": "Visuell-räumlicher Notizblock", "right": "visuelle und räumliche Informationen" },
+          { "left": "Zentrale Exekutive", "right": "Steuerung der Aufmerksamkeit und Koordination" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-strategien",
+      "type": "exercise",
+      "title": "Gedächtnisstrategien zuordnen",
+      "exercise": {
+        "id": "ex-match-strategien",
+        "type": "matching",
+        "prompt": "Ordne jede Strategie ihrer Beschreibung zu.",
+        "card_ids": ["chunking", "elaboration", "loci-methode", "eselbruecken"],
+        "pairs": [
+          { "left": "Chunking", "right": "Einheiten zu sinnvollen Blöcken bündeln" },
+          { "left": "Elaboration", "right": "neues Wissen mit vorhandenem verknüpfen" },
+          { "left": "Loci-Methode", "right": "Informationen an Orte eines bekannten Weges heften" },
+          { "left": "Eselsbrücken", "right": "Reime, Abkürzungen oder Bilder als Merkhilfe" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-spacing",
+      "type": "exercise",
+      "title": "Begriff zur Definition",
+      "exercise": {
+        "id": "ex-free-spacing",
+        "type": "free_text",
+        "prompt": "Wie heißt das Phänomen, dass verteiltes Lernen besser wirkt als massiertes Lernen?",
+        "card_ids": ["spacing-effekt"],
+        "accept": ["Spacing-Effekt", "spacing-effekt", "Spacing Effekt", "Spacing Effect"],
+        "hint": "Englischer Begriff, der auch auf Deutsch verwendet wird.",
+        "distractors": ["Chunking", "Elaboration", "Vergessenskurve"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-ebbinghaus",
+      "type": "exercise",
+      "title": "Wer entdeckte die Vergessenskurve?",
+      "exercise": {
+        "id": "ex-free-ebbinghaus",
+        "type": "free_text",
+        "prompt": "Wer entdeckte durch Selbstversuche mit sinnlosen Silben die Vergessenskurve?",
+        "card_ids": ["ebbinghaus", "vergessenskurve"],
+        "accept": ["Ebbinghaus", "Hermann Ebbinghaus", "hermann ebbinghaus", "H. Ebbinghaus"],
+        "hint": "Ein deutscher Psychologe des 19. Jahrhunderts.",
+        "distractors": ["Baddeley", "Atkinson", "Miller"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-kapazitaet",
+      "type": "exercise",
+      "title": "Kapazität des Kurzzeitgedächtnisses",
+      "exercise": {
+        "id": "ex-cloze-kapazitaet",
+        "type": "cloze",
+        "prompt": "Ergänze die typische Kapazität des Kurzzeitgedächtnisses nach Miller.",
+        "card_ids": ["kurzzeitgedaechtnis"],
+        "sentence": "Das Kurzzeitgedächtnis kann laut Miller ungefähr ___ Einheiten gleichzeitig halten.",
+        "blanks": [
+          { "accept": ["7 ± 2", "sieben", "7", "sieben plus/minus zwei"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Millers berühmter Aufsatz heißt 'The Magical Number Seven, Plus or Minus Two'."
+      }
+    },
+    {
+      "id": "ex-cloze-spacing",
+      "type": "exercise",
+      "title": "Spacing-Effekt beschreiben",
+      "exercise": {
+        "id": "ex-cloze-spacing",
+        "type": "cloze",
+        "prompt": "Ergänze den Gegenbegriff zum massierten Lernen.",
+        "card_ids": ["spacing-effekt"],
+        "sentence": "Der Spacing-Effekt zeigt, dass ___ Lernen über die Zeit zu besserem Behalten führt als massiertes Lernen.",
+        "blanks": [
+          { "accept": ["verteiltes", "verteilt"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Gegenteil von 'auf einmal' — also über mehrere Tage aufgeteilt."
+      }
+    },
+    {
+      "id": "ex-picture-arbeitsgedaechtnis",
+      "type": "exercise",
+      "title": "Welches Modell zeigt das Arbeitsgedächtnis?",
+      "exercise": {
+        "id": "ex-picture-arbeitsgedaechtnis",
+        "type": "picture_choice",
+        "prompt": "Welches Bild repräsentiert das Arbeitsgedächtnismodell von Baddeley?",
+        "card_ids": ["arbeitsgedaechtnis", "phonologische-schleife", "visuell-raeumlicher-notizblock", "zentrale-exekutive"],
+        "images": [
+          { "src": "assets/img/working-memory-baddeley.png", "label": "Arbeitsgedächtnis (Baddeley)", "is_correct": "true" },
+          { "src": "assets/img/multi-store-model.png", "label": "Mehrspeichermodell (Atkinson-Shiffrin)" },
+          { "src": "assets/img/forgetting-curve.png", "label": "Vergessenskurve (Ebbinghaus)" },
+          { "src": "assets/img/loci-method.png", "label": "Loci-Methode" }
+        ],
+        "hint": "Dieses Modell hat drei Komponenten: phonologische Schleife, visuell-räumlicher Notizblock und zentrale Exekutive.",
+        "distractors": ["Mehrspeichermodell (Atkinson-Shiffrin)", "Vergessenskurve (Ebbinghaus)", "Loci-Methode"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-vergessenskurve",
+      "type": "exercise",
+      "title": "Satz zur Vergessenskurve zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-vergessenskurve",
+        "type": "word_tiles",
+        "prompt": "Setze die Aussage zur Vergessenskurve zusammen.",
+        "card_ids": ["vergessenskurve"],
+        "tiles": ["Vergessen", "verläuft", "exponentiell", "und", "beginnt", "kurz", "nach", "dem", "Lernen"],
+        "hint": "Beginnt mit 'Vergessen verläuft ...'.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
