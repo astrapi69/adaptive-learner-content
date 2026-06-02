@@ -82,6 +82,29 @@ sets:
     tags:
       - beginner
       - everyday
+  - id: fr-a2-from-de
+    title: Französisch A2 — Grundlagen
+    title_native: Français A2 — Élémentaire
+    target_language: fr
+    source_language: de
+    level: A2
+    path: sets/de/fr-a2
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Aufbaukurs Französisch A2 für Deutschsprachige (15
+      Lektionen): baut auf A1 auf mit den Vergangenheitsformen
+      (passé composé vertieft, imparfait, beide im Kontrast),
+      futur simple und conditionnel, den Objektpronomen (COD,
+      COI, en, y), der erweiterten Verneinung, Konjunktionen,
+      Komparativ/Superlativ, längeren Lesetexten und si-Sätzen.
+      Setzt das A1-Wissen voraus. Erklärungen auf Deutsch
+      (schema v1.3).
+    tags:
+      - elementary
+      - grammar
+      - everyday
   - id: es-a1-from-de
     title: Spanisch A1 (für Deutschsprachige)
     title_native: Español A1

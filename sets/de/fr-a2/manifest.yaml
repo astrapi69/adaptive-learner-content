@@ -1,0 +1,62 @@
+# Französisch A2 (für Deutschsprachige) — Set-Manifest
+# (schema v1.3).
+#
+# Aufbaukurs Französisch A2, auf Deutsch erklärt. Baut direkt auf
+# dem A1-Set (fr-a1-from-de) auf: die Lektionen setzen den
+# A1-Stoff voraus und verweisen ausdrücklich darauf ("In A1 hast
+# du … gelernt, jetzt …"). Schema v1.3 nutzt die optionalen
+# Kartenfelder difficulty, tags und media_type ("text"). Die
+# Übungsrichtung steigert sich progressiv: Lektionen 01–05
+# gemischt, 06–10 zunehmend produktiv, 11–15 überwiegend
+# produktiv. Der Content-Loader liest ``metadata.lessons`` für die
+# Dateiliste.
+schema_version: '1.3'
+name: Französisch A2 (für Deutschsprachige)
+description: >-
+  Französisch A2 für Deutschsprachige (15 Lektionen): Aufbau auf
+  A1 mit den Vergangenheitsformen (passé composé vertieft,
+  imparfait, beide im Kontrast), futur simple und conditionnel,
+  den Objektpronomen (COD, COI, en, y), der erweiterten
+  Verneinung, Konjunktionen, Komparativ/Superlativ, längeren
+  Lesetexten und den si-Sätzen. Karten-Rückseiten, Notizen und
+  Theorie auf Deutsch.
+sets:
+  - id: fr-a2-from-de
+    title: Französisch A2 — Grundlagen
+    title_native: Français A2 — Élémentaire
+    target_language: fr
+    source_language: de
+    level: A2
+    path: sets/de/fr-a2
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Aufbaukurs Französisch A2 (15 Lektionen), auf Deutsch
+      erklärt — von den Vergangenheitsformen und Zukunftszeiten
+      über die Objektpronomen und die erweiterte Verneinung bis zu
+      Vergleichen, längeren Texten und Bedingungssätzen. Setzt das
+      A1-Wissen voraus und baut darauf auf.
+    tags:
+      - elementary
+      - grammar
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-passe-compose-revision.json
+    - 02-imparfait.json
+    - 03-imparfait-vs-passe-compose.json
+    - 04-futur-simple.json
+    - 05-conditionnel-present.json
+    - 06-pronoms-cod.json
+    - 07-pronoms-coi.json
+    - 08-pronom-en.json
+    - 09-pronom-y.json
+    - 10-negation.json
+    - 11-conjonctions.json
+    - 12-comparatif-superlatif.json
+    - 13-comprehension-texte.json
+    - 14-phrases-avec-si.json
+    - 15-wiederholung.json
