@@ -1,0 +1,299 @@
+{
+  "id": "07-sozialpsychologie",
+  "title": "Sozialpsychologie",
+  "description": "Konformität, Gehorsam, kognitive Dissonanz, Attributionstheorie und Gruppendenken — zentrale Phänomene der Sozialpsychologie auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "sozialpsychologie-def",
+      "front": "Sozialpsychologie (Social Psychology)",
+      "back": "Teilgebiet der Psychologie, das untersucht, wie das Denken, Fühlen und Verhalten von Menschen durch andere beeinflusst wird.",
+      "notes": "Klassische Experimente: Asch (Konformität), Milgram (Gehorsam), Zimbardo (Stanford-Gefängnisexperiment).",
+      "tags": ["grundlagen", "sozialpsychologie"]
+    },
+    {
+      "id": "konformitaet",
+      "front": "Konformität (Conformity)",
+      "back": "Anpassung des eigenen Verhaltens oder der eigenen Urteile an die Normen und Erwartungen einer Gruppe.",
+      "notes": "Asch-Experiment (1951): Versuchspersonen schätzten Linienlängen falsch ein, wenn die Mehrheit eine falsche Antwort gab.",
+      "tags": ["konformitaet", "gruppe"]
+    },
+    {
+      "id": "asch-experiment",
+      "front": "Asch-Experiment",
+      "back": "Klassisches Experiment von Solomon Asch (1951), das zeigt, wie Gruppendruck die Urteile von Einzelpersonen verändert.",
+      "notes": "Probanden passten ihre offensichtlich falschen Linienurteile an die Mehrheitsmeinung an — selbst wenn die Mehrheit eindeutig falsch lag.",
+      "tags": ["konformitaet", "experiment", "person"]
+    },
+    {
+      "id": "gruppendruck",
+      "front": "Gruppendruck (Group Pressure)",
+      "back": "Sozialer Einfluss, der Individuen dazu bringt, sich den Normen oder Meinungen einer Gruppe anzupassen.",
+      "notes": "Kann informational (man glaubt, die Gruppe weiß mehr) oder normativ (man will dazugehören) sein.",
+      "tags": ["konformitaet", "gruppe"]
+    },
+    {
+      "id": "gehorsam",
+      "front": "Gehorsam (Obedience)",
+      "back": "Befolgung von Anweisungen einer Autoritätsperson, auch wenn dies dem eigenen moralischen Urteil widerspricht.",
+      "notes": "Milgram-Experiment (1961): Zwei Drittel der Teilnehmer verabreichten auf Befehl scheinbar gefährliche Elektroschocks.",
+      "tags": ["gehorsam", "autoritaet"]
+    },
+    {
+      "id": "milgram-experiment",
+      "front": "Milgram-Experiment",
+      "back": "Klassisches Experiment von Stanley Milgram (1961), das zeigt, dass Menschen unter Autoritätsdruck ethisch fragwürdige Handlungen ausführen.",
+      "notes": "Versuchspersonen glaubten, einem 'Lernenden' Stromschläge bis 450 Volt zu geben — auf Anweisung eines Versuchsleiters.",
+      "tags": ["gehorsam", "experiment", "person"]
+    },
+    {
+      "id": "kognitive-dissonanz",
+      "front": "Kognitive Dissonanz (Cognitive Dissonance)",
+      "back": "Unangenehmer psychologischer Spannungszustand, der entsteht, wenn Überzeugungen, Einstellungen oder Verhaltensweisen einander widersprechen.",
+      "notes": "Leon Festinger (1957): Menschen reduzieren Dissonanz durch Einstellungsänderung, Rationalisierung oder Verhaltensänderung.",
+      "tags": ["dissonanz", "einstellung"]
+    },
+    {
+      "id": "festinger",
+      "front": "Leon Festinger",
+      "back": "US-amerikanischer Sozialpsychologe; Begründer der Theorie der kognitiven Dissonanz (1957).",
+      "notes": "Studie: Probanden, die eine langweilige Aufgabe für wenig Geld lobten, fanden sie später tatsächlich interessanter — um die Dissonanz zu reduzieren.",
+      "tags": ["dissonanz", "person"]
+    },
+    {
+      "id": "dissonanzreduktion",
+      "front": "Dissonanzreduktion (Dissonance Reduction)",
+      "back": "Prozess, mit dem Menschen den unangenehmen Spannungszustand der kognitiven Dissonanz verringern — z. B. durch Einstellungsänderung oder Rationalisierung.",
+      "notes": "Beispiel: Ein Raucher, der die Gesundheitsrisiken kennt, redet sich ein, sein Stress sei schlimmer als Rauchen.",
+      "tags": ["dissonanz", "einstellung"]
+    },
+    {
+      "id": "attributionstheorie",
+      "front": "Attributionstheorie (Attribution Theory)",
+      "back": "Theorie, die erklärt, wie Menschen das Verhalten anderer (und ihr eigenes) auf Ursachen zurückführen.",
+      "notes": "Heider (1958): Menschen sind 'naive Wissenschaftler', die ständig nach Ursachen für Verhalten suchen.",
+      "tags": ["attribution"]
+    },
+    {
+      "id": "internale-attribution",
+      "front": "Internale Attribution (Internal Attribution)",
+      "back": "Zurückführen von Verhalten auf persönliche Merkmale wie Charakter, Fähigkeiten oder Absichten.",
+      "notes": "Beispiel: 'Er hat das Examen nicht bestanden, weil er zu faul war.'",
+      "tags": ["attribution"]
+    },
+    {
+      "id": "externale-attribution",
+      "front": "Externale Attribution (External Attribution)",
+      "back": "Zurückführen von Verhalten auf äußere Umstände wie Situationen, Zufall oder das Verhalten anderer.",
+      "notes": "Beispiel: 'Sie hat das Examen nicht bestanden, weil die Fragen unfair waren.'",
+      "tags": ["attribution"]
+    },
+    {
+      "id": "fundamentaler-attributionsfehler",
+      "front": "Fundamentaler Attributionsfehler (Fundamental Attribution Error)",
+      "back": "Tendenz, das Verhalten anderer auf deren Charakter zurückzuführen statt auf die Situation.",
+      "notes": "Ross (1977): In Westlichen Kulturen besonders ausgeprägt. Eigenes Verhalten wird eher situational erklärt.",
+      "tags": ["attribution", "fehler"]
+    },
+    {
+      "id": "gruppendenken",
+      "front": "Gruppendenken (Groupthink)",
+      "back": "Phänomen, bei dem der Wunsch nach Einigkeit in einer Gruppe zu irrationalen oder schlechten Entscheidungen führt.",
+      "notes": "Irving Janis (1972): Analysierte Fehlentscheidungen wie die Invasion in der Schweinebucht. Kritische Meinungen werden unterdrückt.",
+      "tags": ["gruppendenken", "gruppe"]
+    },
+    {
+      "id": "janis",
+      "front": "Irving Janis",
+      "back": "US-amerikanischer Sozialpsychologe; prägte den Begriff 'Groupthink' (Gruppendenken) zur Beschreibung von Fehlentscheidungen in Gruppen.",
+      "notes": "Janis identifizierte typische Symptome: Illusion der Unverwundbarkeit, kollektive Rationalisierung, Selbstzensur.",
+      "tags": ["gruppendenken", "person"]
+    },
+    {
+      "id": "soziale-normen",
+      "front": "Soziale Normen (Social Norms)",
+      "back": "Ungeschriebene Regeln und Erwartungen einer Gruppe, die das Verhalten ihrer Mitglieder steuern.",
+      "notes": "Wichtige Grundlage für Konformitätsdruck — wer gegen Normen verstößt, riskiert sozialen Ausschluss.",
+      "tags": ["gruppe", "normen"]
+    },
+    {
+      "id": "autoritaet",
+      "front": "Autoritätsprinzip (Authority Principle)",
+      "back": "Tendenz von Menschen, Anweisungen von Personen mit wahrgenommener Autorität (z. B. Experten, Uniformträger) zu befolgen.",
+      "notes": "Milgrams Ergebnisse zeigen, wie mächtig dieser Effekt ist — Autorität kann den moralischen Widerstand überwältigen.",
+      "tags": ["gehorsam", "autoritaet"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-konformitaet-gehorsam",
+      "type": "theory",
+      "title": "Konformität und Gehorsam",
+      "body": "## Wie Gruppen und Autoritäten unser Verhalten formen\n\n**Konformität** bezeichnet die Anpassung an Gruppenerwartungen. Im berühmten **Asch-Experiment (1951)** schätzten Versuchspersonen Linienlängen falsch ein — nur weil die Mehrheit eine falsche Antwort gab. Der Grund: **normativer Druck** (dazugehören wollen) oder **informativer Druck** (der Gruppe trauen).\n\n**Gehorsam** gegenüber Autoritäten wurde durch das **Milgram-Experiment (1961)** erschreckend deutlich: Rund zwei Drittel der Teilnehmer verabreichten scheinbar lebensgefährliche Stromschläge — auf bloße Anweisung eines Versuchsleiters. Der Schlüsselunterschied zu Konformität: Gehorsam folgt einer Direktive von oben, Konformität folgt dem Druck von Gleichgestellten."
+    },
+    {
+      "id": "theory-dissonanz-attribution",
+      "type": "theory",
+      "title": "Kognitive Dissonanz und Attribution",
+      "body": "## Innere Widersprüche und Ursachensuche\n\n**Kognitive Dissonanz** (Festinger, 1957) entsteht, wenn Überzeugungen oder Verhalten sich widersprechen. Dieser Spannungszustand ist unangenehm — Menschen reduzieren ihn durch Einstellungsänderung, Rationalisierung oder Verhalten. Klassisches Beispiel: Rauchen trotz Kenntnis der Risiken.\n\nDie **Attributionstheorie** erklärt, wie wir Ursachen für Verhalten erklären:\n- **Internale Attribution** — auf Charakter oder Fähigkeiten zurückführen.\n- **Externale Attribution** — auf die Situation zurückführen.\n\nDer **Fundamentale Attributionsfehler** beschreibt die Tendenz, das Verhalten *anderer* internal (Charakter) zu erklären, das eigene Verhalten aber eher external (Situation)."
+    },
+    {
+      "id": "theory-gruppendenken",
+      "type": "theory",
+      "title": "Gruppendenken",
+      "body": "## Wenn Gruppen schlechte Entscheidungen treffen\n\n**Gruppendenken (Groupthink)** ist ein Phänomen, das Irving Janis 1972 beschrieb: In eng zusammengeschlossenen Gruppen kann der Drang nach Einigkeit dazu führen, dass kritisches Denken unterdrückt wird. Typische Symptome:\n\n- **Illusion der Unverwundbarkeit** — übertriebener Optimismus.\n- **Kollektive Rationalisierung** — Warnzeichen werden ignoriert.\n- **Selbstzensur** — Zweifel werden nicht geäußert.\n- **Illusion der Einstimmigkeit** — Schweigen gilt als Zustimmung.\n\nJanis analysierte historische Fehlentscheidungen wie die Invasion in der Schweinebucht (1961). Gegenmaßnahmen: bewusst eine abweichende Meinung fördern (Advocatus Diaboli)."
+    },
+    {
+      "id": "ex-match-experimente",
+      "type": "exercise",
+      "title": "Experimente zuordnen",
+      "exercise": {
+        "id": "ex-match-experimente",
+        "type": "matching",
+        "prompt": "Ordne jedem Forscher sein klassisches Experiment zu.",
+        "card_ids": ["asch-experiment", "milgram-experiment", "festinger", "janis"],
+        "pairs": [
+          { "left": "Solomon Asch", "right": "Linienlängen-Experiment zur Konformität" },
+          { "left": "Stanley Milgram", "right": "Stromschlag-Experiment zum Gehorsam" },
+          { "left": "Leon Festinger", "right": "Theorie der kognitiven Dissonanz" },
+          { "left": "Irving Janis", "right": "Gruppendenken und Fehlentscheidungen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-attribution",
+      "type": "exercise",
+      "title": "Attribution unterscheiden",
+      "exercise": {
+        "id": "ex-match-attribution",
+        "type": "matching",
+        "prompt": "Ordne jede Erklärung der richtigen Attributionsform zu.",
+        "card_ids": ["internale-attribution", "externale-attribution", "fundamentaler-attributionsfehler"],
+        "pairs": [
+          { "left": "Er hat versagt, weil er faul ist.", "right": "Internale Attribution" },
+          { "left": "Sie hat versagt, weil die Prüfung unfair war.", "right": "Externale Attribution" },
+          { "left": "Fehler anderer auf Charakter zurückführen, eigene auf Situation", "right": "Fundamentaler Attributionsfehler" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-konformitaet",
+      "type": "exercise",
+      "title": "Begriff erkennen",
+      "exercise": {
+        "id": "ex-free-konformitaet",
+        "type": "free_text",
+        "prompt": "Wie nennt man die Anpassung des eigenen Verhaltens an Gruppenerwartungen?",
+        "card_ids": ["konformitaet"],
+        "accept": ["Konformität", "konformität", "Conformity", "die Konformität"],
+        "hint": "Auf Englisch: Conformity. Demonstriert im Asch-Experiment.",
+        "distractors": ["Gehorsam", "kognitive Dissonanz", "Gruppendenken"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-milgram",
+      "type": "exercise",
+      "title": "Welches Experiment?",
+      "exercise": {
+        "id": "ex-free-milgram",
+        "type": "free_text",
+        "prompt": "Welches Experiment zeigte, dass Menschen unter Autoritätsdruck scheinbar gefährliche Stromschläge verabreichten?",
+        "card_ids": ["milgram-experiment", "gehorsam"],
+        "accept": ["Milgram-Experiment", "Milgram Experiment", "milgram-experiment", "Milgram"],
+        "hint": "Benannt nach dem Forscher Stanley _____.",
+        "distractors": ["Asch-Experiment", "Stanford-Gefängnisexperiment", "Festinger-Experiment"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-picture-asch-milgram",
+      "type": "exercise",
+      "title": "Wer untersuchte Konformität?",
+      "exercise": {
+        "id": "ex-picture-asch-milgram",
+        "type": "picture_choice",
+        "prompt": "Wessen Experiment untersuchte Konformität durch Linienlängen-Urteile in der Gruppe?",
+        "card_ids": ["asch-experiment", "konformitaet"],
+        "images": [
+          { "src": "assets/img/solomon-asch.png", "label": "Solomon Asch", "is_correct": "true" },
+          { "src": "assets/img/stanley-milgram.png", "label": "Stanley Milgram" },
+          { "src": "assets/img/leon-festinger.png", "label": "Leon Festinger" },
+          { "src": "assets/img/irving-janis.png", "label": "Irving Janis" }
+        ],
+        "hint": "Sein Experiment nutzte Linien als Vergleichsstimuli, um Gruppendruck zu messen.",
+        "distractors": ["Stanley Milgram", "Leon Festinger", "Irving Janis"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-dissonanz",
+      "type": "exercise",
+      "title": "Definition zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-dissonanz",
+        "type": "word_tiles",
+        "prompt": "Setze die Kerndefinition der kognitiven Dissonanz zusammen.",
+        "card_ids": ["kognitive-dissonanz"],
+        "tiles": ["Kognitive", "Dissonanz", "ist", "ein", "unangenehmer", "Spannungszustand", "bei", "widersprüchlichen", "Überzeugungen"],
+        "hint": "Beginnt mit 'Kognitive Dissonanz ist ...'",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-asch",
+      "type": "exercise",
+      "title": "Asch-Experiment ergänzen",
+      "exercise": {
+        "id": "ex-cloze-asch",
+        "type": "cloze",
+        "prompt": "Ergänze den fehlenden Begriff im Satz zum Asch-Experiment.",
+        "card_ids": ["asch-experiment", "konformitaet"],
+        "sentence": "Im Asch-Experiment passten Versuchspersonen ihre Urteile an die ___ an, obwohl die Antwort der Gruppe falsch war.",
+        "blanks": [
+          { "accept": ["Gruppe", "Mehrheit", "Gruppenmeinung", "Gruppenmehrheit"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Der soziale Druck kam von den anderen Teilnehmern im Raum."
+      }
+    },
+    {
+      "id": "ex-cloze-fundamentalfehler",
+      "type": "exercise",
+      "title": "Fundamentaler Attributionsfehler",
+      "exercise": {
+        "id": "ex-cloze-fundamentalfehler",
+        "type": "cloze",
+        "prompt": "Ergänze die fehlenden Begriffe.",
+        "card_ids": ["fundamentaler-attributionsfehler"],
+        "sentence": "Der fundamentale Attributionsfehler beschreibt die Tendenz, das Verhalten anderer auf deren ___ statt auf die ___ zurückzuführen.",
+        "blanks": [
+          { "accept": ["Charakter", "Persönlichkeit", "Person", "Charakter/Fähigkeiten"] },
+          { "accept": ["Situation", "Umstände", "äußere Umstände", "äußeren Umstände"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Internal vs. external — wir sehen den Charakter, übersehen aber die Lage."
+      }
+    },
+    {
+      "id": "ex-free-gruppendenken",
+      "type": "exercise",
+      "title": "Gruppendenken benennen",
+      "exercise": {
+        "id": "ex-free-gruppendenken",
+        "type": "free_text",
+        "prompt": "Welcher Begriff beschreibt das Phänomen, dass Gruppen schlechte Entscheidungen treffen, weil der Drang nach Einigkeit kritisches Denken unterdrückt?",
+        "card_ids": ["gruppendenken", "janis"],
+        "accept": ["Gruppendenken", "gruppendenken", "Groupthink", "Group Think"],
+        "hint": "Englisch: Groupthink. Beschrieben von Irving _____.",
+        "distractors": ["Konformität", "kognitive Dissonanz", "Gehorsam"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

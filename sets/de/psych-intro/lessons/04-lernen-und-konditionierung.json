@@ -1,0 +1,299 @@
+{
+  "id": "04-lernen-und-konditionierung",
+  "title": "Lernen und Konditionierung",
+  "description": "Klassische und operante Konditionierung, Verstärkungspläne und Beobachtungslernen — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "klassische-konditionierung",
+      "front": "Klassische Konditionierung (Classical Conditioning)",
+      "back": "Lernform, bei der ein neutraler Reiz durch wiederholte Kopplung mit einem bedeutsamen Reiz eine Reaktion auslöst.",
+      "notes": "Entdeckt von Iwan Pawlow anhand des Speichelfluss-Experiments mit Hunden und Glockenton.",
+      "tags": ["klassische-konditionierung", "pawlow"]
+    },
+    {
+      "id": "unkonditionierter-reiz",
+      "front": "Unkonditionierter Reiz (UCS – Unconditioned Stimulus)",
+      "back": "Reiz, der ohne vorheriges Lernen automatisch eine Reaktion auslöst (z. B. Futter → Speichelfluss).",
+      "notes": "UCS steht für 'Unconditioned Stimulus'. Keine Lerngeschichte nötig.",
+      "tags": ["klassische-konditionierung", "pawlow"]
+    },
+    {
+      "id": "unkonditionierte-reaktion",
+      "front": "Unkonditionierte Reaktion (UCR – Unconditioned Response)",
+      "back": "Natürliche, angeborene Reaktion auf den unkonditionierten Reiz (z. B. Speichelfluss auf Futter).",
+      "notes": "UCR ist reflexartig und braucht kein Training.",
+      "tags": ["klassische-konditionierung", "pawlow"]
+    },
+    {
+      "id": "konditionierter-reiz",
+      "front": "Konditionierter Reiz (CS – Conditioned Stimulus)",
+      "back": "Ursprünglich neutraler Reiz, der nach wiederholter Kopplung mit dem UCS die gelernte Reaktion auslöst (z. B. Glockenreiz).",
+      "notes": "Wird durch Lernen bedeutsam. Bei Pawlow: der Glockenton.",
+      "tags": ["klassische-konditionierung", "pawlow"]
+    },
+    {
+      "id": "konditionierte-reaktion",
+      "front": "Konditionierte Reaktion (CR – Conditioned Response)",
+      "back": "Gelernte Reaktion auf den konditionierten Reiz (z. B. Speichelfluss auf den Glockenton allein).",
+      "notes": "CR ähnelt der UCR, ist aber meist schwächer.",
+      "tags": ["klassische-konditionierung", "pawlow"]
+    },
+    {
+      "id": "extinktion",
+      "front": "Extinktion / Löschung (Extinction)",
+      "back": "Abschwächung und Verschwinden der konditionierten Reaktion, wenn der CS wiederholt ohne UCS präsentiert wird.",
+      "notes": "Beispiel: Glocke klingelt immer ohne Futter → Hund hört auf zu speicheln.",
+      "tags": ["klassische-konditionierung", "pawlow"]
+    },
+    {
+      "id": "generalisierung",
+      "front": "Generalisierung (Stimulus Generalization)",
+      "back": "Übertragung der konditionierten Reaktion auf ähnliche Reize (z. B. Reaktion auf ähnliche Töne wie den CS).",
+      "notes": "Je ähnlicher der neue Reiz dem CS, desto stärker die Reaktion.",
+      "tags": ["klassische-konditionierung"]
+    },
+    {
+      "id": "operante-konditionierung",
+      "front": "Operante Konditionierung (Operant Conditioning)",
+      "back": "Lernform, bei der Verhalten durch seine Konsequenzen (Verstärkung oder Bestrafung) verstärkt oder geschwächt wird.",
+      "notes": "Entwickelt von B. F. Skinner. Grundprinzip: Verhalten, das belohnt wird, tritt häufiger auf.",
+      "tags": ["operante-konditionierung", "skinner"]
+    },
+    {
+      "id": "positive-verstaerkung",
+      "front": "Positive Verstärkung",
+      "back": "Verhalten wird häufiger, weil ein angenehmer Reiz HINZUGEFÜGT wird (z. B. Lob, Belohnung).",
+      "notes": "Beispiel: Kind räumt Zimmer auf und bekommt Lob → räumt öfter auf.",
+      "tags": ["operante-konditionierung", "verstaerkung"]
+    },
+    {
+      "id": "negative-verstaerkung",
+      "front": "Negative Verstärkung",
+      "back": "Verhalten wird häufiger, weil ein unangenehmer Reiz ENTFERNT wird (z. B. Kopfschmerz verschwindet nach Tablette).",
+      "notes": "Achtung: Negative Verstärkung ist KEINE Bestrafung — das Verhalten nimmt zu!",
+      "tags": ["operante-konditionierung", "verstaerkung"]
+    },
+    {
+      "id": "positive-bestrafung",
+      "front": "Positive Bestrafung",
+      "back": "Verhalten wird seltener, weil ein unangenehmer Reiz HINZUGEFÜGT wird (z. B. Schmerz, Tadel).",
+      "notes": "Das Wort 'positiv' bezieht sich auf das Hinzufügen, nicht auf eine angenehme Wirkung.",
+      "tags": ["operante-konditionierung", "bestrafung"]
+    },
+    {
+      "id": "negative-bestrafung",
+      "front": "Negative Bestrafung",
+      "back": "Verhalten wird seltener, weil ein angenehmer Reiz ENTFERNT wird (z. B. Entzug von Taschengeld).",
+      "notes": "Auch 'Response Cost' genannt. Beispiel: Fahrprivileg wird entzogen.",
+      "tags": ["operante-konditionierung", "bestrafung"]
+    },
+    {
+      "id": "verstaerkungsplan",
+      "front": "Verstärkungsplan (Reinforcement Schedule)",
+      "back": "Regel, nach der Verstärkungen gegeben werden — kontinuierlich (jedes Mal) oder intermittierend (gelegentlich).",
+      "notes": "Intermittierende Pläne erzeugen robusteres Verhalten (löschungsresistenter).",
+      "tags": ["operante-konditionierung", "verstaerkungsplan"]
+    },
+    {
+      "id": "quotenplan",
+      "front": "Quotenplan (Ratio Schedule)",
+      "back": "Verstärkung erfolgt nach einer bestimmten Anzahl von Reaktionen (fest oder variabel).",
+      "notes": "Beispiel variabler Quotenplan: Spielautomaten — auszahlen nach unvorhergesehener Zahl von Versuchen.",
+      "tags": ["operante-konditionierung", "verstaerkungsplan"]
+    },
+    {
+      "id": "beobachtungslernen",
+      "front": "Beobachtungslernen / Modelllernen (Observational Learning)",
+      "back": "Lernen durch Beobachten und Nachahmen des Verhaltens anderer Personen (Modelle).",
+      "notes": "Belegt durch Albert Banduras Bobo-Doll-Experiment (1961): Kinder imitierten aggressives Verhalten eines Modells.",
+      "tags": ["beobachtungslernen", "bandura"]
+    },
+    {
+      "id": "bandura",
+      "front": "Albert Bandura",
+      "back": "Psychologe, der das Beobachtungslernen systematisch erforschte; bekannt für das Bobo-Doll-Experiment.",
+      "notes": "Banduras Theorie zeigt: Lernen braucht keine direkte Verstärkung — Beobachten genügt.",
+      "tags": ["beobachtungslernen", "bandura", "person"]
+    },
+    {
+      "id": "pawlow",
+      "front": "Iwan Pawlow (Ivan Pavlov)",
+      "back": "Russischer Physiologe, der die klassische Konditionierung entdeckte — bekannt für das Hundeexperiment mit Glockenton und Futter.",
+      "notes": "Erhielt 1904 den Nobelpreis für Medizin (ursprünglich für Verdauungsforschung).",
+      "tags": ["klassische-konditionierung", "pawlow", "person"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-klassisch",
+      "type": "theory",
+      "title": "Klassische Konditionierung (Pawlow)",
+      "body": "# Klassische Konditionierung\n\nIwan **Pawlow** entdeckte diese Lernform beim Studium von Hunden: Ein neutraler Reiz (Glocke) wurde mit Futter gekoppelt, bis die Glocke allein Speichelfluss auslöste.\n\n**Vier Kernbegriffe:**\n\n| Abk. | Begriff | Beispiel |\n|---|---|---|\n| **UCS** | Unkonditionierter Reiz | Futter |\n| **UCR** | Unkonditionierte Reaktion | Speichelfluss auf Futter |\n| **CS** | Konditionierter Reiz | Glockenreiz |\n| **CR** | Konditionierte Reaktion | Speichelfluss auf Glocke |\n\n**Extinktion (Löschung):** Wird der CS wiederholt ohne UCS gezeigt, verschwindet die CR.\n\n**Generalisierung:** Die CR überträgt sich auf ähnliche Reize."
+    },
+    {
+      "id": "theory-operant",
+      "type": "theory",
+      "title": "Operante Konditionierung (Skinner)",
+      "body": "# Operante Konditionierung\n\nB. F. **Skinner** zeigte: Verhalten wird durch seine *Konsequenzen* geformt.\n\n**Das 2×2-Schema:**\n\n| | Reiz *hinzugefügt* | Reiz *entfernt* |\n|---|---|---|\n| **Verhalten ↑** | Positive Verstärkung (z. B. Lob) | Negative Verstärkung (z. B. Schmerztablette) |\n| **Verhalten ↓** | Positive Bestrafung (z. B. Tadel) | Negative Bestrafung (z. B. Handyentzug) |\n\n**Merkhilfe:** 'Positiv' und 'negativ' bedeuten nur *hinzufügen* vs. *wegnehmen*.\n\n**Verstärkungspläne:** Kontinuierliche Verstärkung lernt sich schnell, löscht aber auch schnell. Intermittierende Pläne (Quoten- oder Intervallplan) sind löschungsresistenter."
+    },
+    {
+      "id": "theory-beobachtung",
+      "type": "theory",
+      "title": "Beobachtungslernen (Bandura)",
+      "body": "# Beobachtungslernen\n\nAlbert **Bandura** zeigte: Menschen lernen auch *ohne* direkte Verstärkung — allein durch Beobachten.\n\n**Bobo-Doll-Experiment (1961):** Kinder sahen einen Erwachsenen, der eine Bobo-Puppe aggressiv behandelte. Danach zeigten die Kinder ähnliches aggressives Verhalten — selbst ohne Belohnung.\n\n**Vier Schritte des Modelllernens:**\n1. **Aufmerksamkeit** — das Modell beachten\n2. **Behalten** — die Handlung im Gedächtnis speichern\n3. **Reproduktion** — die Handlung ausführen können\n4. **Motivation** — bereit sein, das Verhalten zu zeigen\n\nBanduras Arbeit verband Behaviorismus und Kognitionspsychologie."
+    },
+    {
+      "id": "ex-match-pawlow",
+      "type": "exercise",
+      "title": "Pawlows Begriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-pawlow",
+        "type": "matching",
+        "prompt": "Ordne jede Abkürzung ihrem deutschen Begriff zu.",
+        "card_ids": ["unkonditionierter-reiz", "unkonditionierte-reaktion", "konditionierter-reiz", "konditionierte-reaktion"],
+        "pairs": [
+          { "left": "UCS", "right": "Unkonditionierter Reiz (z. B. Futter)" },
+          { "left": "UCR", "right": "Unkonditionierte Reaktion (z. B. Speichelfluss auf Futter)" },
+          { "left": "CS", "right": "Konditionierter Reiz (z. B. Glockenreiz)" },
+          { "left": "CR", "right": "Konditionierte Reaktion (z. B. Speichelfluss auf Glocke)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-operant",
+      "type": "exercise",
+      "title": "Operante Konzepte zuordnen",
+      "exercise": {
+        "id": "ex-match-operant",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff sein Beispiel zu.",
+        "card_ids": ["positive-verstaerkung", "negative-verstaerkung", "positive-bestrafung", "negative-bestrafung"],
+        "pairs": [
+          { "left": "Positive Verstärkung", "right": "Lob nach gutem Verhalten → Verhalten ↑" },
+          { "left": "Negative Verstärkung", "right": "Kopfschmerz weg nach Tablette → Tablette nehmen ↑" },
+          { "left": "Positive Bestrafung", "right": "Tadel nach Fehlverhalten → Verhalten ↓" },
+          { "left": "Negative Bestrafung", "right": "Handyentzug nach Fehlverhalten → Verhalten ↓" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-pawlow-name",
+      "type": "exercise",
+      "title": "Wer entdeckte die klassische Konditionierung?",
+      "exercise": {
+        "id": "ex-free-pawlow-name",
+        "type": "free_text",
+        "prompt": "Wie heißt der Forscher, der die klassische Konditionierung anhand von Hunden und Glockenton entdeckte?",
+        "card_ids": ["pawlow"],
+        "accept": ["Pawlow", "Pavlov", "Iwan Pawlow", "Ivan Pavlov", "I. P. Pawlow"],
+        "hint": "Russischer Physiologe, Nobelpreisträger 1904.",
+        "distractors": ["Skinner", "Bandura", "Watson"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-verstaerkung-typ",
+      "type": "exercise",
+      "title": "Welche Verstärkung ist das?",
+      "exercise": {
+        "id": "ex-free-verstaerkung-typ",
+        "type": "free_text",
+        "prompt": "Ein Schüler erhält nach guten Noten Taschengeld. Welche Art von operanter Konditionierung liegt vor?",
+        "card_ids": ["positive-verstaerkung"],
+        "accept": ["Positive Verstärkung", "positive Verstärkung", "Positive Reinforcement", "positive reinforcement"],
+        "hint": "Das Verhalten nimmt zu, weil etwas Angenehmes hinzukommt.",
+        "distractors": ["Negative Verstärkung", "Positive Bestrafung", "Negative Bestrafung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-pawlow-entdeckung",
+      "type": "exercise",
+      "title": "Pawlow und die klassische Konditionierung",
+      "exercise": {
+        "id": "ex-cloze-pawlow-entdeckung",
+        "type": "cloze",
+        "prompt": "Ergänze den fehlenden Begriff.",
+        "card_ids": ["klassische-konditionierung", "pawlow"],
+        "sentence": "Die ___ Konditionierung wurde von Iwan Pawlow entdeckt.",
+        "blanks": [
+          { "accept": ["klassische", "Klassische"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Gegensatz zur 'operanten' Konditionierung."
+      }
+    },
+    {
+      "id": "ex-picture-konditionierung-typ",
+      "type": "exercise",
+      "title": "Welche Konditionierungsart wird gezeigt?",
+      "exercise": {
+        "id": "ex-picture-konditionierung-typ",
+        "type": "picture_choice",
+        "prompt": "Ein Hund speichelt beim Hören einer Glocke — noch bevor Futter erscheint. Welche Lernform zeigt das Bild?",
+        "card_ids": ["klassische-konditionierung", "operante-konditionierung", "beobachtungslernen", "konditionierte-reaktion"],
+        "images": [
+          { "src": "assets/img/classical-conditioning.png", "label": "Klassische Konditionierung", "is_correct": "true" },
+          { "src": "assets/img/operant-conditioning.png", "label": "Operante Konditionierung" },
+          { "src": "assets/img/observational-learning.png", "label": "Beobachtungslernen" },
+          { "src": "assets/img/habituation.png", "label": "Habituation" }
+        ],
+        "hint": "Pawlow, Hund, Glocke — neutraler Reiz wird konditioniert.",
+        "distractors": ["Operante Konditionierung", "Beobachtungslernen", "Habituation"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-pawlow-satz",
+      "type": "exercise",
+      "title": "Pawlows Satz zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-pawlow-satz",
+        "type": "word_tiles",
+        "prompt": "Setze den Satz über Pawlows Hund zusammen.",
+        "card_ids": ["pawlow", "konditionierter-reiz", "konditionierte-reaktion"],
+        "tiles": ["Pawlows", "Hund", "lernte", "auf", "den", "Glockenreiz", "zu", "reagieren"],
+        "hint": "Der Satz beschreibt das Ergebnis der klassischen Konditionierung.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-verstaerkungsplaene",
+      "type": "exercise",
+      "title": "Verstärkungspläne zuordnen",
+      "exercise": {
+        "id": "ex-match-verstaerkungsplaene",
+        "type": "matching",
+        "prompt": "Ordne den Verstärkungsplan seinem Merkmal zu.",
+        "card_ids": ["verstaerkungsplan", "quotenplan"],
+        "pairs": [
+          { "left": "Kontinuierlicher Plan", "right": "Verstärkung nach JEDER Reaktion — schnelles Lernen, schnelle Löschung" },
+          { "left": "Variabler Quotenplan", "right": "Verstärkung nach unvorhersehbarer Anzahl — sehr löschungsresistent (z. B. Spielautomat)" },
+          { "left": "Fester Quotenplan", "right": "Verstärkung nach fester Anzahl von Reaktionen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-bobo",
+      "type": "exercise",
+      "title": "Beobachtungslernen — Banduras Experiment",
+      "exercise": {
+        "id": "ex-free-bobo",
+        "type": "free_text",
+        "prompt": "Wie heißt das berühmte Experiment von Bandura, bei dem Kinder aggressives Verhalten eines Modells nachahmten?",
+        "card_ids": ["beobachtungslernen", "bandura"],
+        "accept": ["Bobo-Doll-Experiment", "Bobo Doll Experiment", "Bobo-Experiment", "Bobo-Puppen-Experiment"],
+        "hint": "Benannt nach einer aufblasbaren Puppe.",
+        "distractors": ["Skinner-Box-Experiment", "Pawlow-Experiment", "Little-Albert-Experiment"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

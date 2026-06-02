@@ -1,2 +1,63 @@
-# adaptive-learner-content
-Content sets for Adaptive Learner — structured lessons for language learning and more
+# Adaptive Learner Content
+
+Official content repository for [Adaptive Learner](https://github.com/astrapi69/adaptive-learner).
+
+## Content Sets
+
+| Set | Source | Target | Lessons | Level | Domain |
+|-----|--------|--------|---------|-------|--------|
+| Französisch A1 | Deutsch (DE) | Französisch (FR) | 15 | A1 | Sprache |
+| Französisch A1 | English (EN) | French (FR) | 15 | A1 | Language |
+| Spanisch A1 | Deutsch (DE) | Spanisch (ES) | 15 | A1 | Sprache |
+| Spanisch A1 | English (EN) | Spanish (ES) | 15 | A1 | Language |
+| Englisch A1 | Deutsch (DE) | English (EN) | 15 | A1 | Sprache |
+| Psychologie | Deutsch (DE) | Deutsch (DE) | 10 | Intro | Psychologie |
+
+**85 Lektionen · ~19 Stunden Lernmaterial**
+
+## Directory Structure
+
+```
+sets/
+├── de/                 # Source language: German
+│   ├── fr-a1/          # Target: French A1
+│   ├── es-a1/          # Target: Spanish A1
+│   ├── en-a1/          # Target: English A1
+│   └── psych-intro/    # Domain: Psychology
+├── en/                 # Source language: English
+│   ├── fr-a1/          # Target: French A1
+│   └── es-a1/          # Target: Spanish A1
+└── manifest.yaml       # Root manifest
+```
+
+## Schema
+
+Content uses schema v1.2 with:
+- `source_language` + `target_language` (language pairs)
+- `domain` field for non-language content (default: `language`). For
+  non-language domains (e.g. `psychology`) the explanations and the
+  material share one language, so `source_language == target_language`
+  is allowed and the set folder carries a topic name (e.g.
+  `sets/de/psych-intro`) instead of a `{target}-{level}` name.
+- 5 exercise types: Matching, Picture Choice, Free Text, Word Tiles, Cloze
+- Progressive direction: receptive → mixed → productive
+
+## Contributing
+
+1. Create lessons using the [Lesson Creator](https://astrapi69.github.io/adaptive-learner/) in the app
+2. Share via "Für die Community bereitstellen" — creates a PR automatically
+3. Or: fork this repo, add your set under `sets/{source}/{target}-{level}/`, open a PR
+
+See the [Content Authoring Guide](https://github.com/astrapi69/adaptive-learner/blob/main/docs/help/en/content-authoring-guide.md) for the full schema reference.
+
+## Validation
+
+```bash
+python3 scripts/validate_content.py
+```
+
+All PRs are validated automatically via CI.
+
+## License
+
+Content is licensed under [CC-BY-SA-4.0](./LICENSE).

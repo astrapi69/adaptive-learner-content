@@ -1,0 +1,52 @@
+# Psychologie — Grundlagen (für Deutschsprachige) — Set-Manifest
+# (Phase 60 / v1.44.0).
+#
+# Erstes Nicht-Sprachen-Set von Adaptive Learner. ``domain:
+# psychology`` markiert den Inhalt als Sachthema: Material und
+# Erklärung sind beide auf Deutsch (source_language ==
+# target_language), und der Set-Ordner trägt einen Themennamen
+# (``psych-intro``) statt eines ``{target}-{level}``-Namens. Der
+# Content-Loader liest ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.2'
+name: Psychologie — Grundlagen
+description: >-
+  Einführung in die Psychologie für Deutschsprachige (10
+  Lektionen): Grundbegriffe und Geschichte, Wahrnehmung,
+  Gedächtnis, Lernen und Konditionierung, Motivation und Emotion,
+  Entwicklungs-, Sozial- und Persönlichkeitspsychologie sowie ein
+  behutsamer Überblick über die klinische und die positive
+  Psychologie. Karten, Definitionen und Theorie auf Deutsch, mit
+  den englischen Originalbegriffen in Klammern.
+sets:
+  - id: psych-intro-from-de
+    title: Psychologie — Grundlagen
+    title_native: Psychologia — Fundamenta
+    target_language: de
+    source_language: de
+    domain: psychology
+    level: A1
+    path: sets/de/psych-intro
+    version: '1.0.0'
+    lesson_count: 10
+    domain_label: Psychologie
+    description: >-
+      Zehn Einführungslektionen Psychologie, auf Deutsch erklärt —
+      von Wundts erstem Labor bis zur positiven Psychologie.
+    tags:
+      - beginner
+      - psychology
+      - science
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-was-ist-psychologie.json
+    - 02-wahrnehmung.json
+    - 03-gedaechtnis.json
+    - 04-lernen-und-konditionierung.json
+    - 05-motivation-und-emotion.json
+    - 06-entwicklungspsychologie.json
+    - 07-sozialpsychologie.json
+    - 08-persoenlichkeit.json
+    - 09-klinische-psychologie.json
+    - 10-positive-psychologie.json
