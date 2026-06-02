@@ -1,0 +1,252 @@
+{
+  "id": "12-stress-und-gesundheit",
+  "title": "Stress und Gesundheit",
+  "description": "Was Stress ist, wie er im Körper wirkt, das Allgemeine Anpassungssyndrom nach Selye, Bewältigungsstrategien (Coping) und die Folgen von chronischem Stress — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "stressor",
+      "front": "Stressor",
+      "back": "Ein Reiz oder eine Situation, die eine Stressreaktion auslöst — z. B. Zeitdruck, Lärm, Konflikte oder Verluste.",
+      "notes": "Stressoren können physischer, sozialer oder psychologischer Natur sein.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["stress", "grundlagen"]
+    },
+    {
+      "id": "eustress-distress",
+      "front": "Eustress vs. Distress",
+      "back": "Eustress ist positiver, motivierender Stress (z. B. vor einer Prüfung). Distress ist negativer, belastender Stress, der die Gesundheit schädigen kann.",
+      "notes": "Der Begriff geht auf den Stressforscher Hans Selye zurück.",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "'Eu-' kommt aus dem Griechischen und bedeutet 'gut'.",
+      "tags": ["stress", "grundlagen"]
+    },
+    {
+      "id": "kampf-oder-flucht",
+      "front": "Kampf-oder-Flucht-Reaktion (Fight-or-Flight Response)",
+      "back": "Die angeborene körperliche Stressreaktion: Herzschlag und Atemfrequenz steigen, Adrenalin wird ausgeschüttet — der Körper bereitet sich auf Kämpfen oder Fliehen vor.",
+      "notes": "Beschrieben von Walter Cannon. Bei modernen Alltagsstressoren oft nicht mehr hilfreich.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["stress", "physiologie"]
+    },
+    {
+      "id": "cortisol",
+      "front": "Cortisol",
+      "back": "Das wichtigste Stresshormon: wird bei Stress in der Nebennierenrinde ausgeschüttet, mobilisiert Energiereserven und dämpft das Immunsystem bei Dauerbelastung.",
+      "notes": "Kurzfristig nützlich; chronisch erhöhter Cortisolspiegel schadet der Gesundheit.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["stress", "physiologie", "hormone"]
+    },
+    {
+      "id": "allgemeines-anpassungssyndrom",
+      "front": "Allgemeines Anpassungssyndrom (General Adaptation Syndrome, GAS)",
+      "back": "Hans Selyes Modell der körperlichen Stressreaktion in drei Phasen: 1. Alarmreaktion, 2. Widerstandsphase, 3. Erschöpfungsphase.",
+      "notes": "Selye beschrieb dieses Muster 1936 auf der Grundlage von Tierversuchen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Denke an drei aufeinanderfolgende Körperreaktionen auf anhaltenden Stress.",
+      "tags": ["stress", "modell", "selye"]
+    },
+    {
+      "id": "gas-phasen",
+      "front": "Die drei Phasen des Allgemeinen Anpassungssyndroms",
+      "back": "1. Alarmreaktion: sofortige Mobilisierung (Adrenalinausstoß). 2. Widerstandsphase: Körper passt sich an und hält Stress stand. 3. Erschöpfungsphase: Ressourcen sind erschöpft, Erkrankungsrisiko steigt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["stress", "modell", "selye"]
+    },
+    {
+      "id": "coping",
+      "front": "Coping (Stressbewältigung)",
+      "back": "Alle kognitiven und verhaltensbezogenen Bemühungen, mit Stressoren umzugehen. Zwei Hauptformen: problemorientiertes und emotionsorientiertes Coping.",
+      "notes": "Nach Lazarus und Folkman (1984).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["stress", "coping", "bewaeltigung"]
+    },
+    {
+      "id": "problemorientiertes-coping",
+      "front": "Problemorientiertes Coping",
+      "back": "Der Stressor selbst wird direkt angegangen: z. B. Zeitplan erstellen, Hilfe suchen, die Situation verändern.",
+      "notes": "Besonders hilfreich, wenn die Situation kontrollierbar ist.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["stress", "coping"]
+    },
+    {
+      "id": "emotionsorientiertes-coping",
+      "front": "Emotionsorientiertes Coping",
+      "back": "Die emotionale Reaktion auf den Stressor wird reguliert: z. B. Neubewertung, Ablenkung, soziale Unterstützung suchen.",
+      "notes": "Hilfreich, wenn die Situation nicht veränderbar ist.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["stress", "coping"]
+    },
+    {
+      "id": "soziale-unterstuetzung",
+      "front": "Soziale Unterstützung als Schutzfaktor",
+      "back": "Ein starkes soziales Netzwerk (Familie, Freunde, Gemeinschaft) puffert Stressreaktionen ab und schützt die körperliche und psychische Gesundheit.",
+      "notes": "Gilt als einer der stärksten Schutzfaktoren gegen stressbedingte Erkrankungen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["stress", "schutzfaktor", "sozial"]
+    },
+    {
+      "id": "burnout",
+      "front": "Burnout",
+      "back": "Ein Zustand tiefer emotionaler, mentaler und körperlicher Erschöpfung infolge anhaltenden Stresses — oft durch berufliche Überlastung. Merkmale: Erschöpfung, Zynismus, verringerte Leistungsfähigkeit.",
+      "notes": "Beschrieben von Herbert Freudenberger (1974). Kein offizieller ICD-Diagnosecode, aber klinisch anerkannt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["stress", "burnout", "chronischer-stress"]
+    },
+    {
+      "id": "gesundheitspsychologie",
+      "front": "Gesundheitspsychologie (Health Psychology)",
+      "back": "Teilgebiet der Psychologie, das untersucht, wie psychologische, soziale und biologische Faktoren die Gesundheit und Krankheit beeinflussen. Zielt auf Prävention und Förderung von Gesundheitsverhalten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["gesundheitspsychologie", "grundlagen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-stress-grundlagen",
+      "type": "theory",
+      "title": "Was ist Stress?",
+      "body": "# Stress und Stressoren\n\n**Stress** entsteht, wenn wir eine Situation als belastend oder bedrohlich bewerten und glauben, sie kaum bewältigen zu können. Auslöser heißen **Stressoren** — sie können physischer, sozialer oder psychologischer Natur sein.\n\n## Eustress und Distress\n\nNicht jeder Stress ist gleich:\n\n- **Eustress** (positiver Stress) motiviert und steigert die Leistung — z. B. das Kribbeln vor einer Prüfung oder einem sportlichen Wettkampf.\n- **Distress** (negativer Stress) überlastet den Körper dauerhaft und kann krank machen.\n\n## Die Kampf-oder-Flucht-Reaktion\n\nBei wahrgenommener Gefahr schaltet das Nervensystem in den **Kampf-oder-Flucht-Modus** (Walter Cannon):\n\n1. **Adrenalin** wird ausgeschüttet.\n2. Herzschlag und Atemfrequenz steigen.\n3. Blut wird in die Muskeln umgeleitet.\n\nDiese Reaktion war in der Evolution lebensrettend — bei modernen Alltagsstressoren (Stau, E-Mails) ist sie jedoch oft kontraproduktiv.\n\n## Cortisol — das Stresshormon\n\n**Cortisol** wird in der Nebennierenrinde produziert und kurzfristig zur Energiemobilisierung benötigt. Bleibt der Spiegel chronisch erhöht, schädigt Cortisol Immunsystem, Gedächtnis und Herz-Kreislauf-System."
+    },
+    {
+      "id": "step-gas",
+      "type": "theory",
+      "title": "Das Allgemeine Anpassungssyndrom nach Selye",
+      "body": "## Hans Selyes Modell (1936)\n\nDer österreichisch-kanadische Forscher **Hans Selye** beobachtete, dass der Körper auf andauernden Stress stets in drei Phasen reagiert — er nannte dies das **Allgemeine Anpassungssyndrom (GAS)**:\n\n| Phase | Name | Kennzeichen |\n|---|---|---|\n| 1 | **Alarmreaktion** | Sofortige Mobilisierung; Adrenalin- und Cortisolausstoß |\n| 2 | **Widerstandsphase** | Körper passt sich an; Ressourcen werden verbraucht |\n| 3 | **Erschöpfungsphase** | Ressourcen aufgebraucht; Erkrankungsrisiko stark erhöht |\n\nBleibt der Stressor dauerhaft bestehen, drohen in Phase 3 Infektionskrankheiten, Herzprobleme oder psychische Störungen.\n\n> **Merksatz:** Alarm → Widerstand → Erschöpfung."
+    },
+    {
+      "id": "step-coping-gesundheit",
+      "type": "theory",
+      "title": "Coping, Schutzfaktoren und Gesundheitspsychologie",
+      "body": "## Coping — mit Stress umgehen\n\nNach **Lazarus & Folkman (1984)** beschreibt **Coping** alle Bemühungen, mit Stressoren umzugehen:\n\n| Coping-Form | Strategie | Beispiel |\n|---|---|---|\n| **Problemorientiert** | Stressor direkt verändern | Zeitplan erstellen, Hilfe holen |\n| **Emotionsorientiert** | Emotionale Reaktion regulieren | Neubewertung, Entspannung, Gespräch suchen |\n\nProblemorientation ist hilfreich, wenn die Situation **kontrollierbar** ist; Emotionsorientierung, wenn sie es **nicht** ist.\n\n## Soziale Unterstützung\n\nEin starkes **soziales Netzwerk** ist einer der wichtigsten Schutzfaktoren: Es dämpft Stressreaktionen, fördert Genesung und senkt das Erkrankungsrisiko.\n\n## Chronischer Stress und Burnout\n\nAnhaltender Distress kann zu **Burnout** führen — tiefe Erschöpfung, Zynismus und verringerte Leistungsfähigkeit, meist durch berufliche Überlastung (Freudenberger, 1974).\n\n## Gesundheitspsychologie\n\nDas Teilgebiet **Gesundheitspsychologie** untersucht, wie psychologische, soziale und biologische Faktoren zusammenwirken und die Gesundheit beeinflussen — mit dem Ziel der **Prävention** und Gesundheitsförderung."
+    },
+    {
+      "id": "ex-cloze-cortisol",
+      "type": "exercise",
+      "title": "Das Stresshormon benennen",
+      "exercise": {
+        "id": "ex-cloze-cortisol",
+        "type": "cloze",
+        "prompt": "Ergänze das wichtigste Stresshormon.",
+        "card_ids": ["cortisol"],
+        "sentence": "Das wichtigste Stresshormon, das bei Stress in der Nebennierenrinde ausgeschüttet wird, heißt ___.",
+        "blanks": [
+          { "accept": ["Cortisol", "cortisol"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Es beginnt mit 'C' und endet auf '-ol'."
+      }
+    },
+    {
+      "id": "ex-cloze-gas-phasen",
+      "type": "exercise",
+      "title": "Phasen des Anpassungssyndroms",
+      "exercise": {
+        "id": "ex-cloze-gas-phasen",
+        "type": "cloze",
+        "prompt": "Ergänze die dritte Phase des Allgemeinen Anpassungssyndroms.",
+        "card_ids": ["allgemeines-anpassungssyndrom", "gas-phasen"],
+        "sentence": "Im Allgemeinen Anpassungssyndrom nach Selye folgen auf Alarmreaktion und Widerstandsphase die ___.",
+        "blanks": [
+          { "accept": ["Erschöpfungsphase", "Erschoepfungsphase"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Die letzte Phase — wenn die Ressourcen aufgebraucht sind."
+      }
+    },
+    {
+      "id": "ex-free-stressor",
+      "type": "exercise",
+      "title": "Stressor definieren",
+      "exercise": {
+        "id": "ex-free-stressor",
+        "type": "free_text",
+        "prompt": "Wie nennt man einen Reiz oder eine Situation, die eine Stressreaktion auslöst?",
+        "card_ids": ["stressor"],
+        "accept": ["Stressor", "stressor", "ein Stressor", "Stressauslöser"],
+        "hint": "Das Wort kommt direkt aus dem Englischen.",
+        "distractors": ["Coping", "Burnout", "Cortisol"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-eustress",
+      "type": "exercise",
+      "title": "Positiver Stress",
+      "exercise": {
+        "id": "ex-free-eustress",
+        "type": "free_text",
+        "prompt": "Wie bezeichnet man positiven, motivierenden Stress, der die Leistung steigert?",
+        "card_ids": ["eustress-distress"],
+        "accept": ["Eustress", "eustress", "positiver Stress", "positiver stress"],
+        "hint": "Das Präfix 'eu-' bedeutet auf Griechisch 'gut'.",
+        "distractors": ["Distress", "Burnout", "Erschöpfung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-coping",
+      "type": "exercise",
+      "title": "Coping-Strategien zuordnen",
+      "exercise": {
+        "id": "ex-match-coping",
+        "type": "matching",
+        "prompt": "Ordne jede Coping-Strategie der richtigen Form zu.",
+        "card_ids": ["problemorientiertes-coping", "emotionsorientiertes-coping", "coping"],
+        "pairs": [
+          { "left": "Zeitplan erstellen und Hilfe holen", "right": "problemorientiertes Coping" },
+          { "left": "Situation neu bewerten und entspannen", "right": "emotionsorientiertes Coping" },
+          { "left": "Stressor direkt verändern", "right": "problemorientiertes Coping" },
+          { "left": "Emotionale Reaktion regulieren", "right": "emotionsorientiertes Coping" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-gas",
+      "type": "exercise",
+      "title": "Phasen des GAS zuordnen",
+      "exercise": {
+        "id": "ex-match-gas",
+        "type": "matching",
+        "prompt": "Ordne jede Phase des Allgemeinen Anpassungssyndroms ihrer Beschreibung zu.",
+        "card_ids": ["allgemeines-anpassungssyndrom", "gas-phasen"],
+        "pairs": [
+          { "left": "Alarmreaktion", "right": "sofortige Mobilisierung, Adrenalinausstoß" },
+          { "left": "Widerstandsphase", "right": "Körper passt sich an, Ressourcen werden verbraucht" },
+          { "left": "Erschöpfungsphase", "right": "Ressourcen aufgebraucht, Erkrankungsrisiko steigt" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-kampf-flucht",
+      "type": "exercise",
+      "title": "Kampf-oder-Flucht beschreiben",
+      "exercise": {
+        "id": "ex-tiles-kampf-flucht",
+        "type": "word_tiles",
+        "prompt": "Setze die Beschreibung der Kampf-oder-Flucht-Reaktion zusammen.",
+        "card_ids": ["kampf-oder-flucht"],
+        "tiles": ["Herzschlag", "und", "Atemfrequenz", "steigen", "Adrenalin", "wird", "ausgeschüttet"],
+        "hint": "Beginnt mit 'Herzschlag und ...'.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
