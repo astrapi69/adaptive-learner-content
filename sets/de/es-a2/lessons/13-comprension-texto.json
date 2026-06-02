@@ -1,0 +1,380 @@
+{
+  "id": "13-comprension-texto",
+  "title": "Einen längeren Text verstehen",
+  "description": "Leseverstehen auf A2-Niveau: ein zusammenhängender spanischer Reisebericht (Mis vacaciones en Andalucía) in drei Teilen, der Indefinido, Imperfecto, Futuro, Pronomen und por/para vereint. Erklärungen und Glossar auf Deutsch, Übungen zum Textverstehen und zur aktiven Wiederverwendung des Wortschatzes.",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "voc-llegue",
+      "front": "llegué",
+      "back": "ich kam an (indefinido von llegar)",
+      "notes": "**llegar** (ankommen) → yo-Form im indefinido: *llegué*. Regelmäßiges -ar-Verb: *lleg**ué*** (mit Akzent, weil -ar yo-Form). Im Text: *Llegué a Sevilla por la mañana.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verbo", "indefinido", "texto"]
+    },
+    {
+      "id": "voc-hacia-calor",
+      "front": "hacía calor",
+      "back": "es war heiß (imperfecto, Hintergrundbeschreibung)",
+      "notes": "**hacer** im imperfecto (él/ella/impersonell): *hacía*. Für Wetterbeschreibungen steht fast immer das **imperfecto**, weil es ein andauernder Zustand ist: *Hacía mucho calor.* = Es war sehr heiß.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verbo", "imperfecto", "wetter", "texto"]
+    },
+    {
+      "id": "voc-me-desperte",
+      "front": "me desperté",
+      "back": "ich wachte auf (indefinido von despertarse)",
+      "notes": "**despertarse** (aufwachen) ist ein reflexives Verb. yo-Form im indefinido: *me desperté*. Reflexivpronomen **me** steht vor dem Verb. *Me desperté a las siete.* = Ich wachte um sieben Uhr auf.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verbo", "reflexivo", "indefinido", "texto"]
+    },
+    {
+      "id": "voc-mercado",
+      "front": "el mercado",
+      "back": "der Markt",
+      "notes": "**mercado** = Markt. Im Text besucht die Erzählerin den *Mercado de Triana* in Sevilla — ein berühmter Markt in einem historischen Stadtteil. *Fui al mercado por la mañana.* (indefinido)",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["nomen", "texto", "ort"]
+    },
+    {
+      "id": "voc-vendedor",
+      "front": "el vendedor / la vendedora",
+      "back": "der Verkäufer / die Verkäuferin",
+      "notes": "**vendedor/a** leitet sich von *vender* (verkaufen) ab. Im Text: *Los vendedores ofrecían frutas y especias.* (imperfecto — Hintergrundbeschreibung der Marktatmosphäre).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["nomen", "texto"]
+    },
+    {
+      "id": "voc-por-la-manana",
+      "front": "por la mañana",
+      "back": "am Morgen / morgens (por für Tageszeiten)",
+      "notes": "**por** wird für Tageszeiten verwendet: *por la mañana* (morgens), *por la tarde* (nachmittags), *por la noche* (abends/nachts). Nicht *para* — *por* drückt hier den Zeitrahmen aus.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["praposition", "por", "tiempo", "texto"]
+    },
+    {
+      "id": "voc-para-mi",
+      "front": "para mí",
+      "back": "für mich (para für Empfänger/Nutznießer)",
+      "notes": "**para** steht für den Empfänger oder Nutznießer: *Esto es para mí.* = Das ist für mich. Contrast mit **por**: *por* = wegen / durch / für (Zeitraum); *para* = für (Zweck/Empfänger).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["praposition", "para", "texto"]
+    },
+    {
+      "id": "voc-habia",
+      "front": "había",
+      "back": "es gab (imperfecto von haber, unipersonal)",
+      "notes": "**había** ist die imperfecto-Form von *haber* in unpersönlicher Verwendung (= es gab). *Había muchas personas en el mercado.* = Es gab viele Menschen auf dem Markt. Im indefinido: *hubo* (für einen einzelnen Moment).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verbo", "imperfecto", "haber", "texto"]
+    },
+    {
+      "id": "voc-volveré",
+      "front": "volveré",
+      "back": "ich werde zurückkehren (futuro simple von volver)",
+      "notes": "**volver** (zurückkehren/wiederkommen) → yo-Form im futuro: *volveré*. Regelmäßiges futuro: Infinitiv + Endung: *volv-er-**é***. Im Text: *Sé que volveré a Andalucía.* = Ich weiß, dass ich nach Andalusien zurückkehren werde.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verbo", "futuro", "texto"]
+    },
+    {
+      "id": "voc-me-lo-recomendo",
+      "front": "me lo recomendó",
+      "back": "er/sie empfahl es mir (indirektes + direktes Objekt-Pronomen)",
+      "notes": "Zwei Pronomen kombiniert: **me** (indirektes Objekt = mir) + **lo** (direktes Objekt = es). Reihenfolge: indirektes vor direktem Pronomen. *Mi amiga me lo recomendó.* = Meine Freundin empfahl es mir. Beide Pronomen stehen vor dem konjugierten Verb.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pronombre", "objeto-indirecto", "objeto-directo", "texto"]
+    },
+    {
+      "id": "voc-por-eso",
+      "front": "por eso",
+      "back": "deshalb / darum (kausaler Konnektor)",
+      "notes": "**por eso** (= deshalb, darum) verknüpft Ursache und Folge. *Hacía mucho calor, **por eso** busqué un café.* = Es war sehr heiß, deshalb suchte ich ein Café. Wichtiger Konnektor für Erzähltexte.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["konnektor", "por", "texto"]
+    },
+    {
+      "id": "voc-sin-embargo",
+      "front": "sin embargo",
+      "back": "jedoch / trotzdem (adversativer Konnektor)",
+      "notes": "**sin embargo** (= jedoch, trotzdem, dennoch) drückt einen Gegensatz aus. *El viaje fue largo. **Sin embargo**, valió la pena.* = Die Reise war lang. Trotzdem lohnte sie sich. Entspricht dem deutschen *jedoch* oder *trotzdem* am Satzanfang.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektor", "texto"]
+    },
+    {
+      "id": "voc-valio-la-pena",
+      "front": "valió la pena",
+      "back": "es lohnte sich (indefinido von valer la pena)",
+      "notes": "**valer la pena** (sich lohnen) ist eine feste Redewendung. Im indefinido (3. Person Singular): *valió la pena*. *El viaje valió la pena.* = Die Reise lohnte sich. Häufig in persönlichen Reiseberichten.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["redewendung", "indefinido", "texto"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "teoria-1-texto-parte1",
+      "type": "theory",
+      "title": "Leseverstehen — Text Teil 1: Ankunft und erster Morgen",
+      "body": "# Einen längeren Text verstehen\n\nJetzt bringst du alles zusammen: In diesem längeren Text erkennst du **indefinido**, **imperfecto**, **Pronomen** und **por/para** wieder. Lies zuerst, dann die Übungen.\n\n---\n\n## Mis vacaciones en Andalucía — Teil 1\n\n> Me llamo Laura y el año pasado viajé sola a Andalucía por primera vez. Llegué a Sevilla por la mañana después de un viaje largo en tren. Hacía mucho calor cuando salí de la estación — el sol brillaba y no había ni una nube en el cielo. Mi amiga Carmen me lo había recomendado: *«Sevilla en mayo es perfecta para visitar.»* Por eso decidí ir en primavera.\n>\n> Me desperté el primer día muy temprano. Tenía muchas ganas de explorar la ciudad, así que me duché rápidamente, tomé un café en el bar de la esquina y salí a la calle.\n\n---\n\n## Kurzglossar — Teil 1\n\n| Spanisch | Deutsch | Grammatik |\n|---|---|---|\n| *viajé* | ich reiste | indefinido von **viajar** (regelmäßig) |\n| *llegué* | ich kam an | indefinido von **llegar** |\n| *hacía calor* | es war heiß | imperfecto — andauernder Zustand |\n| *había* | es gab | imperfecto von **haber** (unipersonal) |\n| *me lo había recomendado* | sie hatte es mir empfohlen | me (OI) + lo (OD) + Plusquamperfekt |\n| *me desperté* | ich wachte auf | indefinido, reflexiv |\n| *por eso* | deshalb | kausaler Konnektor |\n| *por primera vez* | zum ersten Mal | *por* für Tageszeiten und Umstände |\n\n> **Beachte:** Hintergrundzustände (*hacía calor*, *había nubes*, *brillaba*) stehen im **imperfecto**. Die einzelnen Handlungen (*llegué*, *decidí*, *me desperté*, *salí*) stehen im **indefinido**."
+    },
+    {
+      "id": "teoria-2-texto-parte2",
+      "type": "theory",
+      "title": "Text Teil 2: Auf dem Markt",
+      "body": "## Mis vacaciones en Andalucía — Teil 2: En el mercado\n\n> Fui al Mercado de Triana porque quería comprar fruta fresca. Había muchísima gente — los vendedores ofrecían frutas, especias y flores de todos los colores. Un señor mayor me ofreció una naranja para probar. Yo la probé y estaba deliciosa. Lo compré todo: naranjas, aceitunas y un poco de jamón serrano para mis padres.\n>\n> De repente, empezó a llover. Por eso busqué un café cerca del mercado y pedí un café con leche. Mientras esperaba, miré las fotos que había hecho por la mañana. Sin embargo, la lluvia paró rápido y pude volver al mercado.\n\n---\n\n## Kurzglossar — Teil 2\n\n| Spanisch | Deutsch | Grammatik |\n|---|---|---|\n| *quería* | ich wollte | imperfecto — Hintergrundabsicht |\n| *había gente* | es gab Leute | imperfecto von *haber* |\n| *ofrecían* | sie boten an | imperfecto — andauernde Beschreibung |\n| *la probé* | ich kostete sie (die Orange) | indefinido + OD-Pronomen **la** (fem.) |\n| *estaba deliciosa* | sie war köstlich | imperfecto — Zustand/Beschreibung |\n| *lo compré* | ich kaufte es (alles) | indefinido + OD-Pronomen **lo** (neutral) |\n| *empezó a llover* | es begann zu regnen | indefinido von *empezar* — einzelnes Ereignis |\n| *por eso* | deshalb | kausaler Konnektor |\n| *sin embargo* | trotzdem / jedoch | adversativer Konnektor |\n| *pude volver* | ich konnte zurückkehren | indefinido von *poder* + Infinitiv |\n\n> **Klassiker:** *De repente, empezó a llover.* — Das **de repente** (plötzlich) signalisiert das **indefinido**. Davor: *había gente*, *ofrecían* — alles Hintergrundmalerein im **imperfecto**."
+    },
+    {
+      "id": "teoria-3-texto-parte3",
+      "type": "theory",
+      "title": "Text Teil 3: Abend und Rückblick",
+      "body": "## Mis vacaciones en Andalucía — Teil 3: La tarde y el regreso\n\n> Por la tarde visité la Catedral de Sevilla y la Giralda. Para mí, fue la parte más impresionante del viaje. El guía nos explicó la historia del edificio mientras caminábamos por las salas. Yo lo escuché con mucha atención porque quería entenderlo todo.\n>\n> El viaje duró cinco días en total. Cuando llegué a casa, estaba cansada pero muy feliz. Sin embargo, ya pensaba en el próximo viaje. Sé que volveré a Andalucía — la comida, la música y la gente me encantaron. El viaje valió la pena.\n\n---\n\n## Kurzglossar — Teil 3\n\n| Spanisch | Deutsch | Grammatik |\n|---|---|---|\n| *para mí* | für mich | **para** für Empfänger/persönliche Einschätzung |\n| *fue* | es war / sie war | indefinido von **ser** |\n| *nos explicó* | er erklärte uns | indefinido + OI-Pronomen *nos* |\n| *lo escuché* | ich hörte es zu / ihm | indefinido + OD **lo** |\n| *mientras caminábamos* | während wir gingen | *mientras* + imperfecto (Hintergrund) |\n| *quería entenderlo* | ich wollte es verstehen | imperfecto + Infinitiv mit angehängtem Pronomen |\n| *estaba cansada* | ich war müde | imperfecto — Zustand |\n| *me encantaron* | sie gefielen mir sehr | indefinido von *encantar* (wie *gustar*) |\n| *volveré* | ich werde zurückkehren | futuro simple von **volver** |\n| *valió la pena* | es lohnte sich | indefinido, feste Redewendung |\n\n> **por vs. para:** *por la tarde* = am Nachmittag (Zeitrahmen → **por**); *para mí* = für mich (Nutznießer → **para**). Beide erscheinen im Text — erkennst du alle weiteren Beispiele?"
+    },
+    {
+      "id": "ex-match-vokabular",
+      "type": "exercise",
+      "title": "Vokabular aus dem Text zuordnen",
+      "exercise": {
+        "id": "ex-match-vokabular",
+        "type": "matching",
+        "prompt": "Ordne die spanischen Wörter und Ausdrücke aus dem Text ihrer deutschen Bedeutung zu.",
+        "card_ids": ["voc-llegue", "voc-mercado", "voc-vendedor", "voc-por-eso", "voc-sin-embargo"],
+        "pairs": [
+          { "left": "llegué", "right": "ich kam an" },
+          { "left": "el mercado", "right": "der Markt" },
+          { "left": "el vendedor", "right": "der Verkäufer" },
+          { "left": "por eso", "right": "deshalb" },
+          { "left": "sin embargo", "right": "jedoch / trotzdem" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-zeitform",
+      "type": "exercise",
+      "title": "Textform erkennen — indefinido oder imperfecto?",
+      "exercise": {
+        "id": "ex-match-zeitform",
+        "type": "matching",
+        "prompt": "Ordne jede Verbform aus dem Text der richtigen Zeitform zu.",
+        "card_ids": ["voc-llegue", "voc-hacia-calor", "voc-me-desperte", "voc-habia"],
+        "pairs": [
+          { "left": "llegué", "right": "indefinido" },
+          { "left": "hacía calor", "right": "imperfecto" },
+          { "left": "me desperté", "right": "indefinido" },
+          { "left": "había gente", "right": "imperfecto" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-por-para",
+      "type": "exercise",
+      "title": "por oder para — aus dem Text",
+      "exercise": {
+        "id": "ex-match-por-para",
+        "type": "matching",
+        "prompt": "Welche Präposition passt zum jeweiligen Ausdruck aus dem Text? Ordne por oder para zu.",
+        "card_ids": ["voc-por-la-manana", "voc-para-mi", "voc-por-eso"],
+        "pairs": [
+          { "left": "… la mañana (morgens)", "right": "por" },
+          { "left": "… mí (für mich)", "right": "para" },
+          { "left": "… eso (deshalb)", "right": "por" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-llego",
+      "type": "exercise",
+      "title": "Lücke füllen: Ankunft in Sevilla",
+      "exercise": {
+        "id": "ex-cloze-llego",
+        "type": "cloze",
+        "prompt": "Fülle die Lücke mit der richtigen Form aus dem Text (yo-Form, indefinido von *llegar*).",
+        "card_ids": ["voc-llegue"],
+        "sentence": "___ a Sevilla por la mañana después de un viaje largo en tren.",
+        "blanks": [
+          { "accept": ["Llegué"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Regelmäßiges -ar-Verb im indefinido (yo): Stamm *lleg-* + **-ué** (mit Akzent!)."
+      }
+    },
+    {
+      "id": "ex-cloze-desperte",
+      "type": "exercise",
+      "title": "Lücke füllen: Aufwachen am ersten Tag",
+      "exercise": {
+        "id": "ex-cloze-desperte",
+        "type": "cloze",
+        "prompt": "Ergänze das reflexive Verb (indefinido, yo-Form von *despertarse*).",
+        "card_ids": ["voc-me-desperte"],
+        "sentence": "___ el primer día muy temprano.",
+        "blanks": [
+          { "accept": ["Me desperté"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Reflexives Verb: **me** + *desperté* (indefinido von *despertar*). Beide Teile gehören zusammen!"
+      }
+    },
+    {
+      "id": "ex-cloze-volvere",
+      "type": "exercise",
+      "title": "Lücke füllen: Zukunftspläne",
+      "exercise": {
+        "id": "ex-cloze-volvere",
+        "type": "cloze",
+        "prompt": "Ergänze die futuro-Form (yo) von *volver* — wie im letzten Satz des Textes.",
+        "card_ids": ["voc-volveré"],
+        "sentence": "Sé que ___ a Andalucía.",
+        "blanks": [
+          { "accept": ["volveré"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Futuro simple: Infinitiv *volver* + yo-Endung **-é** → *volveré*."
+      }
+    },
+    {
+      "id": "ex-free-comprension-mercado",
+      "type": "exercise",
+      "title": "Textverstehen: Was passierte auf dem Markt?",
+      "exercise": {
+        "id": "ex-free-comprension-mercado",
+        "type": "free_text",
+        "prompt": "Was bot ein älterer Herr Laura auf dem Markt an? Antworte auf Deutsch.",
+        "card_ids": ["voc-vendedor", "voc-mercado"],
+        "accept": [
+          "Eine Orange zum Probieren.",
+          "eine orange zum probieren",
+          "Er bot ihr eine Orange an.",
+          "er bot ihr eine orange an",
+          "Eine Orange.",
+          "eine orange"
+        ],
+        "hint": "*Un señor mayor me ofreció una naranja para probar.* — *naranja* = Orange, *para probar* = zum Probieren.",
+        "distractors": [
+          "Eine Zitrone zum Kaufen.",
+          "Blumen als Geschenk.",
+          "Einen Kaffee mit Milch."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-comprension-regen",
+      "type": "exercise",
+      "title": "Textverstehen: Was machte Laura, als es regnete?",
+      "exercise": {
+        "id": "ex-free-comprension-regen",
+        "type": "free_text",
+        "prompt": "Was tat Laura, als es plötzlich zu regnen begann? Antworte auf Deutsch.",
+        "card_ids": ["voc-por-eso", "voc-sin-embargo"],
+        "accept": [
+          "Sie suchte ein Café in der Nähe des Marktes.",
+          "sie suchte ein café in der nähe des marktes",
+          "Sie ging in ein Café.",
+          "sie ging in ein café",
+          "Sie suchte ein Café und bestellte einen Café con leche.",
+          "sie suchte ein café und bestellte einen café con leche"
+        ],
+        "hint": "*Por eso busqué un café cerca del mercado* — *busqué* = ich suchte; *cerca del mercado* = in der Nähe des Marktes.",
+        "distractors": [
+          "Sie lief schnell in das Hotel.",
+          "Sie wartete unter einem Baum.",
+          "Sie fuhr mit dem Bus zurück."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-traduzca-valiopena",
+      "type": "exercise",
+      "title": "Übersetzen: Es lohnte sich",
+      "exercise": {
+        "id": "ex-free-traduzca-valiopena",
+        "type": "free_text",
+        "prompt": "Übersetze den letzten Satz des Textes ins Deutsche: *El viaje valió la pena.*",
+        "card_ids": ["voc-valio-la-pena"],
+        "accept": [
+          "Die Reise lohnte sich.",
+          "die reise lohnte sich",
+          "Die Reise hat sich gelohnt.",
+          "die reise hat sich gelohnt",
+          "Es lohnte sich.",
+          "es lohnte sich"
+        ],
+        "hint": "*el viaje* = die Reise; *valió la pena* = es lohnte sich (feste Redewendung im indefinido).",
+        "distractors": [
+          "Die Reise war schmerzhaft.",
+          "Die Reise lohnte die Mühe nicht.",
+          "Die Reise war teuer."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-habia-calor",
+      "type": "exercise",
+      "title": "Bilde: Es war sehr heiß und es gab keine Wolke",
+      "exercise": {
+        "id": "ex-tiles-habia-calor",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zu einem korrekten Satz aus dem Text: *Es war sehr heiß und es gab keine Wolke.*",
+        "card_ids": ["voc-hacia-calor", "voc-habia"],
+        "tiles": ["Hacía", "mucho", "calor", "y", "no", "había", "nubes."],
+        "hint": "*Hacía calor* (imperfecto) + *y no había nubes* (imperfecto von *haber*) — beide beschreiben den Hintergrundstatus.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-me-lo-recomendo",
+      "type": "exercise",
+      "title": "Bilde: Meine Freundin empfahl es mir",
+      "exercise": {
+        "id": "ex-tiles-me-lo-recomendo",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Meine Freundin empfahl es mir.* — nutze die Doppelpronomen wie im Text.",
+        "card_ids": ["voc-me-lo-recomendo"],
+        "tiles": ["Mi", "amiga", "me", "lo", "recomendó."],
+        "hint": "Reihenfolge der Pronomen: **me** (indirekt) + **lo** (direkt) — beide vor dem Verb *recomendó* (indefinido).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-por-para",
+      "type": "exercise",
+      "title": "por o para — wähle den richtigen Satz",
+      "exercise": {
+        "id": "ex-picture-por-para",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz verwendet **para** korrekt für einen persönlichen Empfänger — wie im Text?",
+        "card_ids": ["voc-para-mi", "voc-por-la-manana"],
+        "images": [
+          { "src": "assets/img/para-mi-correcto.png", "label": "Compré jamón para mis padres.", "is_correct": "true" },
+          { "src": "assets/img/por-mis-padres.png", "label": "Compré jamón por mis padres." },
+          { "src": "assets/img/para-la-manana.png", "label": "Salí para la mañana." },
+          { "src": "assets/img/por-mi-incorrecto.png", "label": "Es por mí un regalo." }
+        ],
+        "hint": "**para** + Empfänger: *Lo compré **para** mis padres* = Ich kaufte es für meine Eltern. **por** steht für Tageszeiten, Ursachen oder Tausch — nicht für Empfänger.",
+        "distractors": [
+          "Compré jamón por mis padres.",
+          "Salí para la mañana.",
+          "Es por mí un regalo."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

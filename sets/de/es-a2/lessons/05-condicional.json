@@ -1,0 +1,357 @@
+{
+  "id": "05-condicional",
+  "title": "El condicional simple",
+  "description": "Bildung und Gebrauch des condicional simple: Höflichkeit, Wünsche, Ratschläge und Vermutungen — mit unregelmäßigen Stämmen (dieselben wie im futuro) und Vergleich zum deutschen Konjunktiv II.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "cond-gustaria",
+      "front": "gustar (me gustaría)",
+      "back": "gefallen / ich hätte gern",
+      "notes": "Condicional von **gustar**. Stamm = Infinitiv **gustar-** + Endung *-ía*. *Me gustaría un café* — ich hätte gern einen Kaffee. Diese Wendung hast du vielleicht schon als feste Formel aus A1 — jetzt kennst du ihre Grammatik.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["condicional", "gustar", "höflichkeit"]
+    },
+    {
+      "id": "cond-podrias",
+      "front": "poder (¿podrías…?)",
+      "back": "können (könntest du…?)",
+      "notes": "Condicional von **poder**. Unregelmäßiger Stamm: **podr-** + Endung *-ías*. *¿Podrías ayudarme?* — Könntest du mir helfen? Höflicher als *¿Puedes …?* (Präsens).",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "Unregelmäßiger Stamm: **podr-** (wie im futuro).",
+      "tags": ["condicional", "poder", "höflichkeit"]
+    },
+    {
+      "id": "cond-querria",
+      "front": "querer (querría)",
+      "back": "wollen / mögen (ich möchte)",
+      "notes": "Condicional von **querer**. Unregelmäßiger Stamm: **querr-** + Endung *-ía*. *Querría hablar contigo* — ich würde gern mit dir sprechen. Höflicher als *quiero*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["condicional", "querer", "höflichkeit"]
+    },
+    {
+      "id": "cond-deberia",
+      "front": "deber (deberías)",
+      "back": "sollen / du solltest",
+      "notes": "Condicional von **deber**. Stamm = Infinitiv **deber-** + Endung *-ías*. Typischer Ratschlag: *Deberías descansar* — du solltest dich ausruhen. Entspricht dem deutschen *du solltest / du müsstest*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["condicional", "deber", "ratschlag"]
+    },
+    {
+      "id": "cond-tendria",
+      "front": "tener (tendría)",
+      "back": "haben (ich hätte)",
+      "notes": "Condicional von **tener**. Unregelmäßiger Stamm: **tendr-** + Endung *-ía*. *Tendría tiempo mañana* — ich hätte morgen Zeit. Derselbe Stamm wie im futuro: *tendré*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Unregelmäßiger Stamm: **tendr-** (wie im futuro *tendré*).",
+      "tags": ["condicional", "tener", "unregelmäßig"]
+    },
+    {
+      "id": "cond-pondria",
+      "front": "poner (pondría)",
+      "back": "stellen / legen / setzen (ich würde stellen)",
+      "notes": "Condicional von **poner**. Unregelmäßiger Stamm: **pondr-** + Endung *-ía*. *¿Dónde pondrías las maletas?* — Wo würdest du die Koffer hinstellen? Futuro: *pondré*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["condicional", "poner", "unregelmäßig"]
+    },
+    {
+      "id": "cond-saldria",
+      "front": "salir (saldría)",
+      "back": "ausgehen / hinausgehen (ich würde ausgehen)",
+      "notes": "Condicional von **salir**. Unregelmäßiger Stamm: **saldr-** + Endung *-ía*. *Saldría más, pero tengo poco tiempo* — ich würde öfter ausgehen, aber ich habe wenig Zeit. Futuro: *saldré*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["condicional", "salir", "unregelmäßig"]
+    },
+    {
+      "id": "cond-vendria",
+      "front": "venir (vendría)",
+      "back": "kommen (ich würde kommen)",
+      "notes": "Condicional von **venir**. Unregelmäßiger Stamm: **vendr-** + Endung *-ía*. *Vendría a la fiesta, pero estoy cansado* — ich würde zur Party kommen, aber ich bin müde. Futuro: *vendré*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["condicional", "venir", "unregelmäßig"]
+    },
+    {
+      "id": "cond-haria",
+      "front": "hacer (haría)",
+      "back": "machen / tun (ich würde machen)",
+      "notes": "Condicional von **hacer**. Unregelmäßiger Stamm: **har-** + Endung *-ía*. *¿Qué harías tú?* — Was würdest du tun? Futuro: *haré*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["condicional", "hacer", "unregelmäßig"]
+    },
+    {
+      "id": "cond-sabria",
+      "front": "saber (sabría)",
+      "back": "wissen (ich würde wissen)",
+      "notes": "Condicional von **saber**. Unregelmäßiger Stamm: **sabr-** + Endung *-ía*. *No sabría qué decirte* — ich würde nicht wissen, was ich dir sagen soll. Auch für Vermutungen: *Tendría unos 40 años* — er dürfte um die 40 sein. Futuro: *sabré*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Unregelmäßiger Stamm: **sabr-** (Futuro: *sabré*).",
+      "tags": ["condicional", "saber", "unregelmäßig"]
+    },
+    {
+      "id": "cond-diria",
+      "front": "decir (diría)",
+      "back": "sagen (ich würde sagen)",
+      "notes": "Condicional von **decir**. Unregelmäßiger Stamm: **dir-** + Endung *-ía*. *¿Qué dirías tú en esa situación?* — Was würdest du in dieser Situation sagen? Futuro: *diré*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["condicional", "decir", "unregelmäßig"]
+    },
+    {
+      "id": "cond-habria",
+      "front": "haber (habría)",
+      "back": "es gäbe / es würde geben",
+      "notes": "Condicional von **haber** (Hilfsverb). Stamm: **habr-** + Endung *-ía*. Wird vor allem als Hilfsverb im condicional compuesto verwendet, aber auch als *habría* (es gäbe). *Habría mucha gente allí* — es wären viele Leute da. Futuro: *habrá*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["condicional", "haber", "unregelmäßig"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-bildung",
+      "type": "theory",
+      "title": "Bildung des condicional simple",
+      "body": "# El condicional simple — Bildung\n\n**Me gustaría** (ich hätte gern) hast du vielleicht schon als feste Wendung gehört. Es ist das condicional — und es nutzt dieselben unregelmäßigen Stämme wie das futuro (Lektion 4), nur mit anderen Endungen.\n\n## Die Formel\n\n> **Infinitiv** (oder unregelmäßiger Stamm) + **Endungen -ía, -ías, -ía, -íamos, -íais, -ían**\n\nBei regelmäßigen Verben wird der **Infinitiv** direkt als Stamm verwendet — die Endungen kommen einfach dahinter:\n\n| Pronomen | Endung | Beispiel: *hablar* | Beispiel: *comer* |\n|---|---|---|---|\n| yo | **-ía** | hablar**ía** | comer**ía** |\n| tú | **-ías** | hablar**ías** | comer**ías** |\n| él/ella/usted | **-ía** | hablar**ía** | comer**ía** |\n| nosotros | **-íamos** | hablar**íamos** | comer**íamos** |\n| vosotros | **-íais** | hablar**íais** | comer**íais** |\n| ellos/ustedes | **-ían** | hablar**ían** | comer**ían** |\n\n> **Wichtig:** Alle Endungen tragen einen Akzent auf dem **í** — das unterscheidet das condicional klar vom futuro (*hablaré, hablarás …*) und vom Imperfekt."
+    },
+    {
+      "id": "theory-unregelmaessig",
+      "type": "theory",
+      "title": "Unregelmäßige Stämme — dieselben wie im futuro",
+      "body": "## Unregelmäßige Stämme — dieselben wie im futuro simple!\n\nDie unregelmäßigen Verben haben im condicional **exakt dieselben Stämme** wie im futuro simple (Lektion 4). Wenn du das futuro bereits kannst, kennst du die Stämme schon!\n\n| Infinitiv | Stamm (futuro/condicional) | condicional (yo) | Bedeutung |\n|---|---|---|---|\n| tener | **tendr-** | yo tendr**ía** | ich hätte |\n| poner | **pondr-** | yo pondr**ía** | ich würde stellen |\n| salir | **saldr-** | yo saldr**ía** | ich würde ausgehen |\n| venir | **vendr-** | yo vendr**ía** | ich würde kommen |\n| poder | **podr-** | yo podr**ía** | ich könnte |\n| saber | **sabr-** | yo sabr**ía** | ich würde wissen |\n| hacer | **har-** | yo har**ía** | ich würde machen |\n| decir | **dir-** | yo dir**ía** | ich würde sagen |\n| querer | **querr-** | yo querr**ía** | ich würde wollen |\n| haber | **habr-** | yo habr**ía** | es gäbe |\n\n> **Merkhilfe:** Die deutschen Formen klingen oft wie der Konjunktiv II: *ich hätte, ich könnte, ich würde…* — das ist kein Zufall, die Funktion ist sehr ähnlich."
+    },
+    {
+      "id": "theory-gebrauch",
+      "type": "theory",
+      "title": "Wann benutzt man den condicional?",
+      "body": "## Gebrauch des condicional simple\n\nDas condicional hat im Spanischen vier Hauptfunktionen:\n\n### 1. Höflichkeit\nDas condicional macht Bitten und Wünsche höflicher als das Präsens:\n\n| Direkt (Präsens) | Höflich (condicional) | Bedeutung |\n|---|---|---|\n| Quiero un café. | **Me gustaría** un café. | Ich hätte gern einen Kaffee. |\n| ¿Puedes ayudarme? | **¿Podrías** ayudarme? | Könntest du mir helfen? |\n| Quiero hablar contigo. | **Querría** hablar contigo. | Ich würde gern mit dir sprechen. |\n\n### 2. Wünsche\n- *Me gustaría viajar a México.* — Ich würde gern nach Mexiko reisen.\n- *Querría aprender a tocar la guitarra.* — Ich würde gern Gitarre lernen.\n\n### 3. Ratschläge\n- ***Deberías** descansar más.* — Du solltest mehr ausruhen.\n- ***Deberías** llamar al médico.* — Du solltest den Arzt anrufen.\n\n### 4. Vermutungen über die Vergangenheit\n- *Cuando la vi, **tendría** unos 30 años.* — Als ich sie sah, dürfte sie etwa 30 gewesen sein.\n\n> **Deutsch-Parallele:** Das condicional entspricht sehr oft dem deutschen **\"würde + Infinitiv\"** oder dem **Konjunktiv II** (hätte, könnte, sollte)."
+    },
+    {
+      "id": "ex-match-formen",
+      "type": "exercise",
+      "title": "Condicional-Formen zuordnen",
+      "exercise": {
+        "id": "ex-match-formen",
+        "type": "matching",
+        "prompt": "Ordne jede condicional-Form ihrer deutschen Bedeutung zu.",
+        "card_ids": ["cond-gustaria", "cond-podrias", "cond-deberia", "cond-tendria", "cond-haria"],
+        "pairs": [
+          { "left": "me gustaría", "right": "ich hätte gern" },
+          { "left": "¿podrías?", "right": "könntest du?" },
+          { "left": "deberías", "right": "du solltest" },
+          { "left": "tendría", "right": "ich hätte" },
+          { "left": "haría", "right": "ich würde machen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-staemme",
+      "type": "exercise",
+      "title": "Unregelmäßige Stämme",
+      "exercise": {
+        "id": "ex-match-staemme",
+        "type": "matching",
+        "prompt": "Ordne jedem Infinitiv seinen unregelmäßigen condicional/futuro-Stamm zu.",
+        "card_ids": ["cond-tendria", "cond-saldria", "cond-haria", "cond-diria", "cond-vendria"],
+        "pairs": [
+          { "left": "tener", "right": "tendr-" },
+          { "left": "salir", "right": "saldr-" },
+          { "left": "hacer", "right": "har-" },
+          { "left": "decir", "right": "dir-" },
+          { "left": "venir", "right": "vendr-" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-gustaria",
+      "type": "exercise",
+      "title": "Höflich bestellen",
+      "exercise": {
+        "id": "ex-cloze-gustaria",
+        "type": "cloze",
+        "prompt": "Ergänze die höfliche Wendung: *ich hätte gern* ein Glas Wasser.",
+        "card_ids": ["cond-gustaria"],
+        "sentence": "___ un vaso de agua, por favor.",
+        "blanks": [
+          { "accept": ["Me gustaría"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "gustar + Endung *-ía* → **gustaría**; mit Reflexivpronomen: **me gustaría**.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-deberia",
+      "type": "exercise",
+      "title": "Ratschlag geben",
+      "exercise": {
+        "id": "ex-cloze-deberia",
+        "type": "cloze",
+        "prompt": "Ergänze den Ratschlag: *Du solltest* mehr schlafen.",
+        "card_ids": ["cond-deberia"],
+        "sentence": "___ dormir más.",
+        "blanks": [
+          { "accept": ["Deberías"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "deber + tú-Endung *-ías* → **deberías** (kein unregelmäßiger Stamm).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-tendria",
+      "type": "exercise",
+      "title": "Ich hätte morgen Zeit",
+      "exercise": {
+        "id": "ex-cloze-tendria",
+        "type": "cloze",
+        "prompt": "Ergänze die yo-Form von *tener* im condicional.",
+        "card_ids": ["cond-tendria"],
+        "sentence": "___ tiempo mañana para ayudarte.",
+        "blanks": [
+          { "accept": ["Tendría"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Unregelmäßiger Stamm **tendr-** + Endung *-ía* → **tendría**.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ich-moechte",
+      "type": "exercise",
+      "title": "Übersetze: Ich würde gern nach Mexiko reisen",
+      "exercise": {
+        "id": "ex-free-ich-moechte",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Ich würde gern nach Mexiko reisen.*",
+        "card_ids": ["cond-gustaria"],
+        "accept": [
+          "Me gustaría viajar a México.",
+          "me gustaría viajar a México",
+          "me gustaria viajar a Mexico",
+          "Me gustaria viajar a Mexico.",
+          "Me gustaría ir a México.",
+          "me gustaría ir a México"
+        ],
+        "hint": "**Me gustaría** + Infinitiv *viajar* + *a México*.",
+        "distractors": [
+          "Me gustaré viajar a México.",
+          "Quiero viajar a México.",
+          "Me gusta viajar a México."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-koenntest-du",
+      "type": "exercise",
+      "title": "Verstehen: ¿Podrías ayudarme?",
+      "exercise": {
+        "id": "ex-free-koenntest-du",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *¿Podrías abrirme la puerta, por favor?*",
+        "card_ids": ["cond-podrias"],
+        "accept": [
+          "Könntest du mir bitte die Tür öffnen?",
+          "könntest du mir bitte die Tür öffnen",
+          "Könntest du die Tür für mich öffnen?",
+          "Könntest du mir die Tür aufmachen, bitte?"
+        ],
+        "hint": "*¿Podrías…?* = könntest du…? (condicional von *poder*, tú); *abrir* = öffnen; *la puerta* = die Tür.",
+        "distractors": [
+          "Kannst du mir bitte die Tür öffnen?",
+          "Könntest du mir helfen?",
+          "Würdest du bitte warten?"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-querria",
+      "type": "exercise",
+      "title": "Bilde: Ich würde gern mit dir sprechen",
+      "exercise": {
+        "id": "ex-tiles-querria",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich würde gern mit dir sprechen.*",
+        "card_ids": ["cond-querria"],
+        "tiles": ["Querría", "hablar", "contigo"],
+        "hint": "**Querría** (condicional von *querer*, yo) + Infinitiv *hablar* + *contigo*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-haria",
+      "type": "exercise",
+      "title": "Bilde: Was würdest du tun?",
+      "exercise": {
+        "id": "ex-tiles-haria",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Was würdest du in dieser Situation tun?*",
+        "card_ids": ["cond-haria"],
+        "tiles": ["¿Qué", "harías", "tú", "en", "esa", "situación?"],
+        "hint": "**harías** = tú-Form von *hacer* im condicional (Stamm **har-** + *-ías*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-hoeflichkeit",
+      "type": "exercise",
+      "title": "Die höflichste Form wählen",
+      "exercise": {
+        "id": "ex-picture-hoeflichkeit",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz drückt am höflichsten aus: *Ich hätte gern einen Kaffee.*?",
+        "card_ids": ["cond-gustaria"],
+        "images": [
+          { "src": "assets/img/cafe-polite.png", "label": "Me gustaría un café, por favor.", "is_correct": "true" },
+          { "src": "assets/img/cafe-direct.png", "label": "Quiero un café." },
+          { "src": "assets/img/cafe-future.png", "label": "Me gustará un café." },
+          { "src": "assets/img/cafe-wrong.png", "label": "Me gustan un café." }
+        ],
+        "hint": "Condicional (yo): **gustaría** — nicht futuro (*gustará*) und nicht Präsens (*quiero*).",
+        "distractors": [
+          "Quiero un café.",
+          "Me gustará un café.",
+          "Me gustan un café."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-deberia-arzt",
+      "type": "exercise",
+      "title": "Ratschlag verstehen",
+      "exercise": {
+        "id": "ex-free-deberia-arzt",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *Deberías llamar al médico.*",
+        "card_ids": ["cond-deberia"],
+        "accept": [
+          "Du solltest den Arzt anrufen.",
+          "du solltest den Arzt anrufen",
+          "Du solltest beim Arzt anrufen.",
+          "Du müsstest den Arzt anrufen."
+        ],
+        "hint": "*deberías* = du solltest (condicional von *deber*, tú); *llamar* = anrufen; *el médico* = der Arzt.",
+        "distractors": [
+          "Du kannst den Arzt anrufen.",
+          "Du rufst den Arzt an.",
+          "Du wirst den Arzt anrufen."
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

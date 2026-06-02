@@ -1,0 +1,345 @@
+{
+  "id": "11-subjuntivo-introduccion",
+  "title": "El presente de subjuntivo — Einführung",
+  "description": "Sanfte Einführung in das presente de subjuntivo: Bildung (e-Endungen für -ar, a-Endungen für -er/-ir), wichtige Unregelmäßige (ser, estar, ir, haber, saber, dar) und die ersten Auslöser (querer que, es importante que, ojalá, para que).",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "subj-hablar",
+      "front": "hablar → (que) hable",
+      "back": "sprechen → (dass er/sie) spreche",
+      "notes": "**-ar-Verben** bekommen im subjuntivo **e-Endungen** (statt der a-Endungen des Indikativs). Stamm = yo-Präsens ohne -o: *habl-*. Formen: *hable, hables, hable, hablemos, habléis, hablen*. Beispiel: *Quiero que María **hable** más despacio* — ich möchte, dass María langsamer spricht.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["subjuntivo", "ar-verb", "bildung"]
+    },
+    {
+      "id": "subj-comer",
+      "front": "comer → (que) coma",
+      "back": "essen → (dass er/sie) esse",
+      "notes": "**-er-Verben** bekommen im subjuntivo **a-Endungen** (statt der e-Endungen des Indikativs). Stamm = yo-Präsens ohne -o: *com-*. Formen: *coma, comas, coma, comamos, comáis, coman*. Beispiel: *Es importante que **comas** verduras* — es ist wichtig, dass du Gemüse isst.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["subjuntivo", "er-verb", "bildung"]
+    },
+    {
+      "id": "subj-vivir",
+      "front": "vivir → (que) viva",
+      "back": "leben / wohnen → (dass er/sie) lebe",
+      "notes": "**-ir-Verben** bekommen ebenfalls **a-Endungen** im subjuntivo. Stamm = yo-Präsens ohne -o: *viv-*. Formen: *viva, vivas, viva, vivamos, viváis, vivan*. Beispiel: *Ojalá **vivas** cerca* — hoffentlich wohnst du in der Nähe.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["subjuntivo", "ir-verb", "bildung"]
+    },
+    {
+      "id": "subj-ser",
+      "front": "ser → sea",
+      "back": "sein → (dass er/sie) sei",
+      "notes": "**ser** ist im subjuntivo völlig unregelmäßig: *sea, seas, sea, seamos, seáis, sean*. Kann nicht vom yo-Präsens abgeleitet werden. Beispiel: *Es mejor que **seas** puntual* — es ist besser, dass du pünktlich bist.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Nicht *sa* oder *sé* — die korrekte Form lautet **sea**.",
+      "tags": ["subjuntivo", "unregelmäßig", "ser"]
+    },
+    {
+      "id": "subj-estar",
+      "front": "estar → esté",
+      "back": "sein (Zustand/Ort) → (dass er/sie) sei",
+      "notes": "**estar** hat im subjuntivo den Akzent: *esté, estés, esté, estemos, estéis, estén*. Beispiel: *Quiero que **estés** tranquilo* — ich möchte, dass du ruhig bist. Der Akzent unterscheidet *esté* (subjuntivo) von *este* (Demonstrativpronomen).",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Immer mit Akzent: **esté** — nicht *este*.",
+      "tags": ["subjuntivo", "unregelmäßig", "estar"]
+    },
+    {
+      "id": "subj-ir",
+      "front": "ir → vaya",
+      "back": "gehen → (dass er/sie) gehe",
+      "notes": "**ir** ist im subjuntivo völlig unregelmäßig: *vaya, vayas, vaya, vayamos, vayáis, vayan*. Beispiel: *Ojalá **vayas** al médico* — hoffentlich gehst du zum Arzt. Vorsicht: *vaya* kann auch Ausruf sein (so ein Ding!).",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Nicht *ia* oder *va* — die korrekte Form lautet **vaya**.",
+      "tags": ["subjuntivo", "unregelmäßig", "ir"]
+    },
+    {
+      "id": "subj-haber",
+      "front": "haber → haya",
+      "back": "haben (Hilfsverb) → es gebe / es sei",
+      "notes": "**haber** (unpersönlich: *hay* = es gibt) hat im subjuntivo die Form **haya**: *Quiero que **haya** más tiempo* — ich möchte, dass es mehr Zeit gibt. Wird auch für den subjuntivo compuesto verwendet: *que **haya** hablado* (dass er gesprochen habe).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["subjuntivo", "unregelmäßig", "haber"]
+    },
+    {
+      "id": "subj-saber",
+      "front": "saber → sepa",
+      "back": "wissen → (dass er/sie) wisse",
+      "notes": "**saber** hat im subjuntivo den Stamm **sep-**: *sepa, sepas, sepa, sepamos, sepáis, sepan*. Beispiel: *Es importante que **sepas** la respuesta* — es ist wichtig, dass du die Antwort weißt. Der Stamm kommt vom historischen Lateinischen, nicht vom yo-Präsens.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Nicht *saba* oder *sabe* — der Stamm lautet **sep-**, Form: **sepa**.",
+      "tags": ["subjuntivo", "unregelmäßig", "saber"]
+    },
+    {
+      "id": "subj-dar",
+      "front": "dar → dé",
+      "back": "geben → (dass er/sie) gebe",
+      "notes": "**dar** hat im subjuntivo: *dé, des, dé, demos, deis, den*. Die yo/él-Form **dé** trägt einen Akzent, um sie von der Präposition *de* zu unterscheiden. Beispiel: *Para que él **dé** el regalo* — damit er das Geschenk gibt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "**dé** (mit Akzent!) — nicht *de* (Präposition) und nicht *da* (Indikativ).",
+      "tags": ["subjuntivo", "unregelmäßig", "dar"]
+    },
+    {
+      "id": "trigger-querer-que",
+      "front": "querer que + subjuntivo",
+      "back": "wollen, dass jemand anderes etw. tut",
+      "notes": "**querer que** ist der häufigste subjuntivo-Auslöser: *Quiero que **vengas** a la fiesta* — ich möchte, dass du zur Party kommst. Schlüsselidee: **anderes Subjekt** nach *que* → subjuntivo. Gleiche Person → Infinitiv: *Quiero **venir*** (ich möchte kommen).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["subjuntivo", "auslöser", "querer-que"]
+    },
+    {
+      "id": "trigger-ojalá",
+      "front": "ojalá (+ subjuntivo)",
+      "back": "hoffentlich / wenn doch nur",
+      "notes": "**ojalá** ist ein Wunschausdruck (aus dem Arabischen: *inshallah*) und steht immer mit dem subjuntivo — **ohne** *que*: *Ojalá **llueva** pronto* — hoffentlich regnet es bald. *Ojalá **tengas** suerte* — hoffentlich hast du Glück. Kein *que* nach *ojalá*!",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "ojalá steht **direkt** vor dem subjuntivo — kein *que* dazwischen.",
+      "tags": ["subjuntivo", "auslöser", "ojalá"]
+    },
+    {
+      "id": "trigger-es-importante",
+      "front": "es importante que / es mejor que + subjuntivo",
+      "back": "es ist wichtig, dass … / es ist besser, dass …",
+      "notes": "Bewertungsausdrücke mit **es + Adjektiv + que** lösen den subjuntivo aus: *Es importante que **estudies** todos los días* — es ist wichtig, dass du jeden Tag lernst. Weitere Beispiele: *es necesario que, es bueno que, es malo que*. Subjekt nach *que* ist anders als das Subjekt von *es*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["subjuntivo", "auslöser", "bewertung"]
+    },
+    {
+      "id": "trigger-para-que",
+      "front": "para que + subjuntivo",
+      "back": "damit (Absicht/Zweck mit anderem Subjekt)",
+      "notes": "**para que** drückt eine Absicht mit einem **anderen Subjekt** aus: *Te lo explico para que **entiendas*** — ich erkläre es dir, damit du verstehst. Wichtig: Wenn das Subjekt gleich ist, steht nur *para + Infinitiv*: *Estudio para **aprender*** (ich lerne, um zu lernen).",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "para que + subjuntivo = Absicht mit anderem Subjekt. Gleiches Subjekt → para + Infinitiv.",
+      "tags": ["subjuntivo", "auslöser", "para-que"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-was-ist-subjuntivo",
+      "type": "theory",
+      "title": "Was ist der subjuntivo?",
+      "body": "# El presente de subjuntivo — Einführung\n\nBis jetzt hast du den **Indikativ** benutzt — die Standardform für Tatsachen und Fakten: *Hablas español* (du sprichst Spanisch). Der **subjuntivo** ist eine neue *Stimmung* (modo) für **Wünsche, Bitten und Bewertungen** — zum Beispiel nach *quiero que…*.\n\nIm Deutschen gibt es das so nicht in dieser Form, daher wirkt es anfangs ungewohnt. Ein Beispiel:\n\n| Deutsch | Spanisch (Indikativ) | Spanisch (Subjuntivo) |\n|---|---|---|\n| Du kommst. (Tatsache) | Vienes. | — |\n| Ich möchte, dass du kommst. | ~~Quiero que vienes.~~ | **Quiero que vengas.** |\n\n> **Schlüsselidee:** Nach bestimmten Auslöserwörtern + **que** + **anderes Subjekt** steht der subjuntivo — nicht der Indikativ. Wir beginnen mit den häufigsten Auslösern."
+    },
+    {
+      "id": "theory-bildung",
+      "type": "theory",
+      "title": "Bildung des presente de subjuntivo",
+      "body": "## Bildung — die \"gegenteiligen\" Endungen\n\nDie Formel ist einfach: **yo-Präsens** → Stamm (das -o weglassen) → **gegenteilige Endungen** anhängen.\n\n| | -ar (hablar) | -er (comer) | -ir (vivir) |\n|---|---|---|---|\n| yo | habl**e** | com**a** | viv**a** |\n| tú | habl**es** | com**as** | viv**as** |\n| él/ella | habl**e** | com**a** | viv**a** |\n| nosotros | habl**emos** | com**amos** | viv**amos** |\n| vosotros | habl**éis** | com**áis** | viv**áis** |\n| ellos | habl**en** | com**an** | viv**an** |\n\n**Gegenteilig** bedeutet: **-ar-Verben** bekommen **e-Endungen** (statt der üblichen a-Endungen im Indikativ), **-er/-ir-Verben** bekommen **a-Endungen** (statt der üblichen e-Endungen).\n\n> **Wichtig:** Der Stamm kommt vom yo-Präsens (ohne -o). Daher erbt der subjuntivo alle **Stammveränderungen**: *tener → tengo → **tenga***, *venir → vengo → **venga***, *hacer → hago → **haga***."
+    },
+    {
+      "id": "theory-unregelmaessige-und-ausloeser",
+      "type": "theory",
+      "title": "Wichtige Unregelmäßige und Auslöser",
+      "body": "## Wichtige unregelmäßige Formen\n\nEinige sehr häufige Verben müssen auswendig gelernt werden, da sie vom Muster abweichen:\n\n| Infinitiv | Subjuntivo (yo) | Merkhilfe |\n|---|---|---|\n| ser | **sea** | völlig irregulär |\n| estar | **esté** | Akzent auf allen Formen |\n| ir | **vaya** | völlig irregulär |\n| haber | **haya** | entspricht *hay* |\n| saber | **sepa** | Stamm sep- |\n| dar | **dé** | Akzent zur Unterscheidung von *de* |\n\n## Die häufigsten Auslöser (Trigger)\n\nNach diesen Ausdrücken + **que** + anderes Subjekt steht der subjuntivo:\n\n| Ausdruck | Bedeutung | Beispiel |\n|---|---|---|\n| **querer que** | wollen, dass | *Quiero que **vengas**.* |\n| **es importante que** | es ist wichtig, dass | *Es importante que **estudies**.* |\n| **es mejor que** | es ist besser, dass | *Es mejor que **descanses**.* |\n| **ojalá** (kein *que*!) | hoffentlich | *Ojalá **tengas** suerte.* |\n| **para que** | damit (anderes Subjekt) | *Para que **entiendas*.* |\n\n> **Faustregel:** Wunsch + Bitte + Bewertung + Zweck mit anderem Subjekt → subjuntivo."
+    },
+    {
+      "id": "ex-match-endungen",
+      "type": "exercise",
+      "title": "Endungen zuordnen",
+      "exercise": {
+        "id": "ex-match-endungen",
+        "type": "matching",
+        "prompt": "Ordne jede subjuntivo-Form dem richtigen Infinitiv zu.",
+        "card_ids": ["subj-hablar", "subj-comer", "subj-vivir", "subj-ser", "subj-ir"],
+        "pairs": [
+          { "left": "hable", "right": "hablar" },
+          { "left": "coma", "right": "comer" },
+          { "left": "viva", "right": "vivir" },
+          { "left": "sea", "right": "ser" },
+          { "left": "vaya", "right": "ir" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-ausloeser",
+      "type": "exercise",
+      "title": "Auslöser und Bedeutung",
+      "exercise": {
+        "id": "ex-match-ausloeser",
+        "type": "matching",
+        "prompt": "Ordne jedem Ausdruck seine deutsche Bedeutung zu.",
+        "card_ids": ["trigger-querer-que", "trigger-ojalá", "trigger-es-importante", "trigger-para-que"],
+        "pairs": [
+          { "left": "querer que", "right": "wollen, dass" },
+          { "left": "ojalá", "right": "hoffentlich" },
+          { "left": "es importante que", "right": "es ist wichtig, dass" },
+          { "left": "para que", "right": "damit" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-vengas",
+      "type": "exercise",
+      "title": "Ich möchte, dass du kommst",
+      "exercise": {
+        "id": "ex-cloze-vengas",
+        "type": "cloze",
+        "prompt": "Ergänze den subjuntivo: *Ich möchte, dass du zur Party kommst.*",
+        "card_ids": ["trigger-querer-que"],
+        "sentence": "Quiero que ___ a la fiesta.",
+        "blanks": [
+          { "accept": ["vengas"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "venir → yo-Präsens *vengo* → Stamm *veng-* + tú-Endung **-as** → **vengas**.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-hables",
+      "type": "exercise",
+      "title": "Es ist wichtig, dass du sprichst",
+      "exercise": {
+        "id": "ex-cloze-hables",
+        "type": "cloze",
+        "prompt": "Ergänze den subjuntivo von *hablar* (tú): *Es ist wichtig, dass du langsam sprichst.*",
+        "card_ids": ["subj-hablar", "trigger-es-importante"],
+        "sentence": "Es importante que ___ más despacio.",
+        "blanks": [
+          { "accept": ["hables"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "hablar (-ar) → Stamm *habl-* + tú-Endung **-es** → **hables**.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-ojala-sea",
+      "type": "exercise",
+      "title": "Hoffentlich ist das Wetter schön",
+      "exercise": {
+        "id": "ex-cloze-ojala-sea",
+        "type": "cloze",
+        "prompt": "Ergänze den subjuntivo von *ser* nach *ojalá*: *Hoffentlich ist das Wetter schön.*",
+        "card_ids": ["subj-ser", "trigger-ojalá"],
+        "sentence": "Ojalá ___ buen tiempo.",
+        "blanks": [
+          { "accept": ["haya"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Nach *ojalá* direkt subjuntivo — *haber* (haya) = es gibt/gebe. *Haya buen tiempo* = möge es schönes Wetter geben.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-quiero-que-coma",
+      "type": "exercise",
+      "title": "Übersetze: Ich möchte, dass er mehr isst",
+      "exercise": {
+        "id": "ex-free-quiero-que-coma",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Ich möchte, dass er mehr isst.* (comer, él)",
+        "card_ids": ["subj-comer", "trigger-querer-que"],
+        "accept": [
+          "Quiero que coma más.",
+          "quiero que coma más",
+          "quiero que coma mas",
+          "Quiero que coma mas.",
+          "Yo quiero que coma más."
+        ],
+        "hint": "**Quiero que** + él-Form von *comer* im subjuntivo (**coma**) + *más*.",
+        "distractors": [
+          "Quiero que come más.",
+          "Quiero que coma mucho.",
+          "Quiero que comer más."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-para-que-entiendas",
+      "type": "exercise",
+      "title": "Bilde: damit du verstehst",
+      "exercise": {
+        "id": "ex-tiles-para-que-entiendas",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich erkläre es dir, damit du es verstehst.*",
+        "card_ids": ["trigger-para-que"],
+        "tiles": ["Te", "lo", "explico", "para", "que", "entiendas."],
+        "hint": "**para que** + subjuntivo (*entender* → yo *entiendo* → Stamm *entiend-* + tú *-as* → **entiendas**).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-es-mejor-descanses",
+      "type": "exercise",
+      "title": "Bilde: Es ist besser, dass du dich ausruhst",
+      "exercise": {
+        "id": "ex-tiles-es-mejor-descanses",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Es ist besser, dass du dich ausruhst.*",
+        "card_ids": ["trigger-es-importante"],
+        "tiles": ["Es", "mejor", "que", "descanses."],
+        "hint": "**Es mejor que** + tú-Form von *descansar* im subjuntivo (**descanses** — Stamm *descans-* + *-es*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-sea-puntual",
+      "type": "exercise",
+      "title": "Übersetze: Es ist besser, dass du pünktlich bist",
+      "exercise": {
+        "id": "ex-free-sea-puntual",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Es ist besser, dass du pünktlich bist.* (ser, tú)",
+        "card_ids": ["subj-ser", "trigger-es-importante"],
+        "accept": [
+          "Es mejor que seas puntual.",
+          "es mejor que seas puntual",
+          "Es mejor que seas puntual",
+          "Es importante que seas puntual.",
+          "es importante que seas puntual"
+        ],
+        "hint": "**Es mejor que** + tú-Form von *ser* im subjuntivo (**seas**) + *puntual*.",
+        "distractors": [
+          "Es mejor que eres puntual.",
+          "Es mejor que sea puntual.",
+          "Es mejor que ser puntual."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-indikativ-vs-subjuntivo",
+      "type": "exercise",
+      "title": "Indikativ oder Subjuntivo?",
+      "exercise": {
+        "id": "ex-picture-indikativ-vs-subjuntivo",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist grammatisch korrekt auf Spanisch für *Ich möchte, dass du früh kommst.*?",
+        "card_ids": ["trigger-querer-que"],
+        "images": [
+          { "src": "assets/img/subj-correct.png", "label": "Quiero que llegues temprano.", "is_correct": "true" },
+          { "src": "assets/img/subj-wrong-ind.png", "label": "Quiero que llegas temprano." },
+          { "src": "assets/img/subj-wrong-inf.png", "label": "Quiero que llegar temprano." },
+          { "src": "assets/img/subj-wrong-form.png", "label": "Quiero que llega temprano." }
+        ],
+        "hint": "Nach *querer que* + anderes Subjekt → subjuntivo: **llegues** (llegar → Stamm *lleg-* + tú *-es*).",
+        "distractors": [
+          "Quiero que llegas temprano.",
+          "Quiero que llegar temprano.",
+          "Quiero que llega temprano."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
