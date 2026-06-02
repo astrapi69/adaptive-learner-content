@@ -1,0 +1,251 @@
+{
+  "id": "11-simple-present",
+  "title": "Simple Present",
+  "description": "Das Simple Present mit der -s-Regel in der 3. Person sowie Fragen und Verneinungen mit do/does. Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "sp-work",
+      "front": "I work / you work",
+      "back": "ich arbeite / du arbeitest",
+      "notes": "Grundform ohne Endung bei I, you, we, they.",
+      "tags": ["simple-present", "verb"]
+    },
+    {
+      "id": "sp-works",
+      "front": "he works / she works",
+      "back": "er arbeitet / sie arbeitet",
+      "notes": "Die -s-Regel: in der 3. Person Singular (he/she/it) bekommt das Verb ein -s! Das vergessen Deutschsprachige am häufigsten.",
+      "tags": ["simple-present", "verb", "regel"]
+    },
+    {
+      "id": "sp-do-you",
+      "front": "Do you ...?",
+      "back": "...du / Sie ...?",
+      "notes": "Fragen brauchen das Hilfsverb 'do' am Anfang: 'Do you speak English?'. Im Deutschen gibt es dieses Hilfsverb nicht.",
+      "tags": ["simple-present", "frage"]
+    },
+    {
+      "id": "sp-does-she",
+      "front": "Does he/she/it ...?",
+      "back": "...er/sie/es ...?",
+      "notes": "In der 3. Person heißt das Hilfsverb 'does' — und das Hauptverb bleibt OHNE -s: 'Does she live here?' (nicht 'lives').",
+      "tags": ["simple-present", "frage", "regel"]
+    },
+    {
+      "id": "sp-dont",
+      "front": "I don't ...",
+      "back": "ich ... nicht",
+      "notes": "Verneinung mit 'do not / don't' + Grundform: 'I don't like it.'",
+      "tags": ["simple-present", "verneinung"]
+    },
+    {
+      "id": "sp-doesnt",
+      "front": "he doesn't ...",
+      "back": "er ... nicht",
+      "notes": "3. Person: 'does not / doesn't' + Grundform OHNE -s: 'He doesn't know.' (nicht 'doesn't knows').",
+      "tags": ["simple-present", "verneinung", "regel"]
+    },
+    {
+      "id": "sp-live",
+      "front": "live",
+      "back": "wohnen / leben",
+      "notes": "3. Person: 'he lives'.",
+      "tags": ["verb"]
+    },
+    {
+      "id": "sp-speak",
+      "front": "speak",
+      "back": "sprechen",
+      "notes": "3. Person: 'she speaks'.",
+      "tags": ["verb"]
+    },
+    {
+      "id": "sp-like",
+      "front": "like",
+      "back": "mögen / gern haben",
+      "notes": "3. Person: 'he likes'. 'I like coffee' = Ich mag Kaffee.",
+      "tags": ["verb"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Das Simple Present und die -s-Regel",
+      "body": "# Simple Present\n\nDas Simple Present beschreibt Gewohnheiten und allgemeine Tatsachen: *I work, you work, we work*. Das Verb bleibt in der Grundform — **mit einer entscheidenden Ausnahme**:\n\n> In der **3. Person Singular** (he / she / it) bekommt das Verb ein **-s**.\n\n| Person | Form |\n|---|---|\n| I / you / we / they | work, live, speak |\n| **he / she / it** | work**s**, live**s**, speak**s** |\n\n**Der häufigste Fehler von Deutschsprachigen überhaupt:** das -s vergessen. *He work* ✗ → **He works** ✓. *She live here* ✗ → **She lives here** ✓. Präge dir ein: he/she/it = **-s**."
+    },
+    {
+      "id": "step-questions",
+      "type": "theory",
+      "title": "Fragen mit do / does",
+      "body": "## Fragen brauchen 'do' oder 'does'\n\nIm Englischen kann man Fragen NICHT durch bloßes Umstellen bilden (wie im Deutschen 'Sprichst du ...?'). Man braucht das Hilfsverb **do / does** am Satzanfang:\n\n- **Do you speak English?** — Sprichst du Englisch?\n- **Does she live here?** — Wohnt sie hier?\n\nWichtig: Bei **does** wandert das -s ins Hilfsverb — das Hauptverb bleibt in der Grundform:\n\n- ✓ *Does she **live** here?* (nicht *Does she lives here?*)\n\n**Typischer Fehler:** *Speak you English?* ✗ (deutsche Wortstellung). Richtig: **Do you speak English?**"
+    },
+    {
+      "id": "step-negatives",
+      "type": "theory",
+      "title": "Verneinen mit don't / doesn't",
+      "body": "## Verneinung mit don't / doesn't\n\nAuch die Verneinung läuft über **do**:\n\n- I / you / we / they → **don't** (do not): *I **don't** like it.*\n- he / she / it → **doesn't** (does not): *He **doesn't** know.*\n\nAuch hier gilt: Nach **doesn't** steht die Grundform OHNE -s:\n\n- ✓ *He **doesn't know**.* (nicht *He doesn't knows*)\n\nDas Hilfsverb **do** gibt es im Deutschen nicht — deshalb fühlt es sich anfangs ungewohnt an. Merke: **do/does/don't/doesn't** + Grundverb. Das -s steht entweder am Vollverb (Aussage) ODER am Hilfsverb (Frage/Verneinung) — nie an beiden."
+    },
+    {
+      "id": "ex-match-forms",
+      "type": "exercise",
+      "title": "Formen zuordnen",
+      "exercise": {
+        "id": "ex-match-forms",
+        "type": "matching",
+        "prompt": "Ordne jede englische Form ihrer deutschen Bedeutung zu.",
+        "card_ids": ["sp-work", "sp-works", "sp-dont", "sp-doesnt"],
+        "pairs": [
+          { "left": "I work", "right": "ich arbeite" },
+          { "left": "he works", "right": "er arbeitet" },
+          { "left": "I don't ...", "right": "ich ... nicht" },
+          { "left": "he doesn't ...", "right": "er ... nicht" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-works",
+      "type": "exercise",
+      "title": "Das -s nicht vergessen",
+      "exercise": {
+        "id": "ex-cloze-works",
+        "type": "cloze",
+        "prompt": "Ergänze das Verb 'work' in der richtigen Form.",
+        "card_ids": ["sp-works"],
+        "sentence": "She ___ in a bank.",
+        "blanks": [
+          { "accept": ["works"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "3. Person Singular (she) → Verb + ..."
+      }
+    },
+    {
+      "id": "ex-pick-he-works",
+      "type": "exercise",
+      "title": "Welcher Satz ist richtig?",
+      "exercise": {
+        "id": "ex-pick-he-works",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet korrekt 'Er arbeitet in London'?",
+        "card_ids": ["sp-works"],
+        "images": [
+          { "src": "assets/img/he-works.png", "label": "He works in London.", "is_correct": "true" },
+          { "src": "assets/img/he-work.png", "label": "He work in London." },
+          { "src": "assets/img/he-working.png", "label": "He work in London now." },
+          { "src": "assets/img/he-is-work.png", "label": "He is work in London." }
+        ],
+        "hint": "3. Person Singular braucht das -s.",
+        "distractors": ["He work in London.", "He work in London now.", "He is work in London."],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-do-you-speak",
+      "type": "exercise",
+      "title": "Eine Frage bilden",
+      "exercise": {
+        "id": "ex-free-do-you-speak",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Sprichst du Englisch?'",
+        "card_ids": ["sp-do-you", "sp-speak"],
+        "accept": ["Do you speak English?", "do you speak English?", "Do you speak English", "Do you speak english?"],
+        "hint": "Frage mit Hilfsverb 'Do' am Anfang.",
+        "distractors": ["Speak you English?", "Do you speaks English?", "You speak English?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-does-she-live",
+      "type": "exercise",
+      "title": "Frage in der 3. Person",
+      "exercise": {
+        "id": "ex-free-does-she-live",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Wohnt sie hier?'",
+        "card_ids": ["sp-does-she", "sp-live"],
+        "accept": ["Does she live here?", "does she live here?", "Does she live here", "Does she live here ?"],
+        "hint": "'Does' + Subjekt + Grundform (OHNE -s) + Rest.",
+        "distractors": ["Does she lives here?", "Lives she here?", "Do she live here?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-doesnt-know",
+      "type": "exercise",
+      "title": "Verneinen",
+      "exercise": {
+        "id": "ex-free-doesnt-know",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Er weiß es nicht.'",
+        "card_ids": ["sp-doesnt"],
+        "accept": ["He doesn't know.", "He doesn't know", "He does not know.", "He does not know", "He doesn't know it.", "He doesn’t know"],
+        "hint": "'doesn't' + Grundform 'know' (ohne -s).",
+        "distractors": ["He doesn't knows.", "He don't know.", "He not know."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-i-dont-like",
+      "type": "exercise",
+      "title": "Verneinung bauen",
+      "exercise": {
+        "id": "ex-tile-i-dont-like",
+        "type": "word_tiles",
+        "prompt": "Bilde 'Ich mag keinen Tee.' (wörtlich: Ich mag Tee nicht.)",
+        "card_ids": ["sp-dont", "sp-like"],
+        "tiles": ["I", "don't", "like", "tea"],
+        "hint": "'don't' + Grundform 'like'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-she-speaks",
+      "type": "exercise",
+      "title": "Aussage in der 3. Person",
+      "exercise": {
+        "id": "ex-tile-she-speaks",
+        "type": "word_tiles",
+        "prompt": "Bilde 'Sie spricht drei Sprachen.'",
+        "card_ids": ["sp-speak"],
+        "tiles": ["She", "speaks", "three", "languages"],
+        "hint": "3. Person Singular → 'speaks' mit -s.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-do-you-like",
+      "type": "exercise",
+      "title": "Frage mit do",
+      "exercise": {
+        "id": "ex-free-do-you-like",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Magst du Kaffee?'",
+        "card_ids": ["sp-do-you", "sp-like"],
+        "accept": ["Do you like coffee?", "do you like coffee?", "Do you like coffee", "Do you like coffee ?"],
+        "hint": "Frage mit 'Do' am Anfang + Grundform 'like'.",
+        "distractors": ["Like you coffee?", "Do you likes coffee?", "You like coffee?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-he-lives",
+      "type": "exercise",
+      "title": "Aussage mit -s",
+      "exercise": {
+        "id": "ex-free-he-lives",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Er wohnt in Berlin.'",
+        "card_ids": ["sp-live", "sp-works"],
+        "accept": ["He lives in Berlin.", "He lives in Berlin", "he lives in berlin", "He lives in Berlin!"],
+        "hint": "3. Person Singular → 'live' + -s.",
+        "distractors": ["He live in Berlin.", "He living in Berlin.", "He is live in Berlin."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "id": "14-weather-and-seasons",
+  "title": "Wetter und Jahreszeiten",
+  "description": "Über das Wetter sprechen, die Jahreszeiten und eine erste Einführung ins Present Progressive (was gerade jetzt passiert). Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "w-sunny",
+      "front": "It's sunny",
+      "back": "Es ist sonnig",
+      "notes": "Wetter beschreibt man mit 'It's' + Adjektiv. 'It's' = it is.",
+      "tags": ["wetter"]
+    },
+    {
+      "id": "w-cloudy",
+      "front": "It's cloudy",
+      "back": "Es ist bewölkt",
+      "notes": "Von 'cloud' (Wolke).",
+      "tags": ["wetter"]
+    },
+    {
+      "id": "w-windy",
+      "front": "It's windy",
+      "back": "Es ist windig",
+      "notes": "Von 'wind'. Das 'i' ist kurz.",
+      "tags": ["wetter"]
+    },
+    {
+      "id": "w-cold",
+      "front": "It's cold",
+      "back": "Es ist kalt",
+      "notes": "Sage 'I'm cold' für 'mir ist kalt' — NICHT 'It is cold to me'.",
+      "tags": ["wetter", "adjektiv"]
+    },
+    {
+      "id": "w-hot",
+      "front": "It's hot",
+      "back": "Es ist heiß",
+      "notes": "'hot' = heiß. 'warm' ist weniger stark.",
+      "tags": ["wetter", "adjektiv"]
+    },
+    {
+      "id": "w-warm",
+      "front": "It's warm",
+      "back": "Es ist warm",
+      "notes": "Das 'w' wie deutsches 'w'; das 'a' wird zu 'o' ('worm').",
+      "tags": ["wetter", "adjektiv"]
+    },
+    {
+      "id": "season-spring",
+      "front": "spring",
+      "back": "der Frühling",
+      "notes": "'in spring' = im Frühling. 'spring' heißt auch 'springen' und 'Feder'.",
+      "tags": ["jahreszeit"]
+    },
+    {
+      "id": "season-summer",
+      "front": "summer",
+      "back": "der Sommer",
+      "notes": "'in summer' = im Sommer.",
+      "tags": ["jahreszeit"]
+    },
+    {
+      "id": "season-autumn",
+      "front": "autumn / fall",
+      "back": "der Herbst",
+      "notes": "Britisch 'autumn', amerikanisch 'fall'.",
+      "tags": ["jahreszeit"]
+    },
+    {
+      "id": "season-winter",
+      "front": "winter",
+      "back": "der Winter",
+      "notes": "'in winter' = im Winter. Fast wie im Deutschen.",
+      "tags": ["jahreszeit"]
+    },
+    {
+      "id": "prog-raining",
+      "front": "It's raining",
+      "back": "Es regnet (gerade jetzt)",
+      "notes": "Present Progressive: be + Verb-ing. Beschreibt, was GERADE jetzt passiert.",
+      "tags": ["wetter", "present-progressive"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Über das Wetter sprechen",
+      "body": "# Wetter und Jahreszeiten\n\nÜber das Wetter spricht man im Englischen mit **It's** (= it is) + Adjektiv:\n\n- **It's sunny.** — Es ist sonnig.\n- **It's cloudy.** — Es ist bewölkt.\n- **It's windy.** — Es ist windig.\n- **It's cold / hot / warm.** — Es ist kalt / heiß / warm.\n\nWichtiger Unterschied zum Deutschen: Für 'mir ist kalt' sagt man **I'm cold** (ich bin kalt), nicht *It is cold to me*. Und 'Es gibt Regen' ist KEIN Englisch — sage **It's raining** oder **It's rainy**.\n\nDie vier Jahreszeiten: **spring** (Frühling), **summer** (Sommer), **autumn/fall** (Herbst), **winter** (Winter) — alle mit 'in': *in summer*."
+    },
+    {
+      "id": "step-progressive",
+      "type": "theory",
+      "title": "Present Progressive: gerade jetzt",
+      "body": "## 'It's raining' — das Present Progressive\n\nNeben dem Simple Present (Lektion 11) gibt es eine zweite Gegenwartsform für das, was **gerade in diesem Moment** passiert: das **Present Progressive**.\n\n> **be** (am/is/are) + Verb + **-ing**\n\n- **It's raining.** — Es regnet (jetzt gerade).\n- **I'm working.** — Ich arbeite (gerade).\n- **They're playing.** — Sie spielen (gerade).\n\nDiese Form gibt es im Deutschen nicht als eigene Zeitform — Deutsch sagt einfach 'es regnet'. Genau deshalb vergessen Deutschsprachige oft das **-ing**. Merke: **be + -ing** für das Hier und Jetzt."
+    },
+    {
+      "id": "step-simple-vs-progressive",
+      "type": "theory",
+      "title": "It rains oder It's raining?",
+      "body": "## Allgemein oder gerade jetzt?\n\nDer Unterschied entscheidet über die Form:\n\n| Form | Bedeutung | Beispiel |\n|---|---|---|\n| **Simple Present** | allgemein, gewohnheitsmäßig | *It often **rains** in autumn.* (Im Herbst regnet es oft.) |\n| **Present Progressive** | gerade in diesem Moment | *Look — it's **raining**!* (Schau, es regnet!) |\n\nFaustregel:\n- 'normalerweise / oft / jeden Tag' → **Simple Present** (*it rains*).\n- 'jetzt / im Moment / schau mal' → **Present Progressive** (*it's raining*).\n\nTypischer Fehler: *It rains now.* für 'Es regnet gerade'. Besser: **It's raining now.**"
+    },
+    {
+      "id": "ex-match-weather",
+      "type": "exercise",
+      "title": "Wetter zuordnen",
+      "exercise": {
+        "id": "ex-match-weather",
+        "type": "matching",
+        "prompt": "Ordne jede Wetterangabe ihrer deutschen Bedeutung zu.",
+        "card_ids": ["w-sunny", "w-cloudy", "w-windy", "w-cold"],
+        "pairs": [
+          { "left": "It's sunny", "right": "Es ist sonnig" },
+          { "left": "It's cloudy", "right": "Es ist bewölkt" },
+          { "left": "It's windy", "right": "Es ist windig" },
+          { "left": "It's cold", "right": "Es ist kalt" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-seasons",
+      "type": "exercise",
+      "title": "Jahreszeiten zuordnen",
+      "exercise": {
+        "id": "ex-match-seasons",
+        "type": "matching",
+        "prompt": "Ordne jede Jahreszeit ihrer deutschen Bedeutung zu.",
+        "card_ids": ["season-spring", "season-summer", "season-autumn", "season-winter"],
+        "pairs": [
+          { "left": "spring", "right": "der Frühling" },
+          { "left": "summer", "right": "der Sommer" },
+          { "left": "autumn / fall", "right": "der Herbst" },
+          { "left": "winter", "right": "der Winter" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-raining",
+      "type": "exercise",
+      "title": "Es regnet — gerade jetzt",
+      "exercise": {
+        "id": "ex-pick-raining",
+        "type": "picture_choice",
+        "prompt": "Du schaust aus dem Fenster: 'Schau, es regnet (gerade)!' Welcher Satz ist richtig?",
+        "card_ids": ["prog-raining"],
+        "images": [
+          { "src": "assets/img/its-raining.png", "label": "It's raining!", "is_correct": "true" },
+          { "src": "assets/img/it-rains.png", "label": "It rains now!" },
+          { "src": "assets/img/it-gives-rain.png", "label": "It gives rain!" },
+          { "src": "assets/img/it-is-rain.png", "label": "It is rain!" }
+        ],
+        "hint": "Gerade jetzt → Present Progressive (be + -ing).",
+        "distractors": ["It rains now!", "It gives rain!", "It is rain!"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-its-sunny",
+      "type": "exercise",
+      "title": "Sonniges Wetter",
+      "exercise": {
+        "id": "ex-free-its-sunny",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Es ist sonnig.'",
+        "card_ids": ["w-sunny"],
+        "accept": ["It's sunny.", "It's sunny", "It is sunny.", "It is sunny", "It’s sunny"],
+        "hint": "'It's' + Adjektiv 'sunny'.",
+        "distractors": ["It gives sun.", "There is sunny.", "It's sun."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-its-cold",
+      "type": "exercise",
+      "title": "Kaltes Wetter",
+      "exercise": {
+        "id": "ex-free-its-cold",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Es ist kalt im Winter.'",
+        "card_ids": ["w-cold", "season-winter"],
+        "accept": ["It's cold in winter.", "It's cold in winter", "It is cold in winter.", "It is cold in winter", "It’s cold in winter"],
+        "hint": "'It's cold' + 'in winter'.",
+        "distractors": ["It's cold in the winter time cold.", "It gives cold in winter.", "There is cold in winter."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-raining",
+      "type": "exercise",
+      "title": "Present Progressive bilden",
+      "exercise": {
+        "id": "ex-cloze-raining",
+        "type": "cloze",
+        "prompt": "Ergänze die -ing-Form von 'rain' (es passiert gerade jetzt).",
+        "card_ids": ["prog-raining"],
+        "sentence": "Take an umbrella — it's ___ .",
+        "blanks": [
+          { "accept": ["raining"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "be + Verb + -ing."
+      }
+    },
+    {
+      "id": "ex-tile-im-working",
+      "type": "exercise",
+      "title": "Gerade jetzt",
+      "exercise": {
+        "id": "ex-tile-im-working",
+        "type": "word_tiles",
+        "prompt": "Bilde 'Ich arbeite gerade.' (Present Progressive)",
+        "card_ids": ["prog-raining"],
+        "tiles": ["I'm", "working", "now"],
+        "hint": "be (I'm) + Verb + -ing.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-its-hot",
+      "type": "exercise",
+      "title": "Heißes Wetter",
+      "exercise": {
+        "id": "ex-free-its-hot",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Es ist heiß im Sommer.'",
+        "card_ids": ["w-hot", "season-summer"],
+        "accept": ["It's hot in summer.", "It's hot in summer", "It is hot in summer.", "It is hot in summer", "It’s hot in summer"],
+        "hint": "'It's hot' + 'in summer'.",
+        "distractors": ["It's hot in the summer hot.", "It gives hot in summer.", "It's warm hot in summer."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-its-windy",
+      "type": "exercise",
+      "title": "Windiges Wetter",
+      "exercise": {
+        "id": "ex-free-its-windy",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Es ist heute windig.'",
+        "card_ids": ["w-windy"],
+        "accept": ["It's windy today.", "It's windy today", "It is windy today.", "It is windy today", "It’s windy today"],
+        "hint": "'It's' + 'windy' + 'today'.",
+        "distractors": ["It gives wind today.", "It's wind today.", "There is windy today."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-in-spring",
+      "type": "exercise",
+      "title": "Jahreszeit mit Präposition",
+      "exercise": {
+        "id": "ex-cloze-in-spring",
+        "type": "cloze",
+        "prompt": "Ergänze die Präposition vor der Jahreszeit.",
+        "card_ids": ["season-spring"],
+        "sentence": "The flowers grow ___ spring.",
+        "blanks": [
+          { "accept": ["in"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Jahreszeiten nehmen 'in': ___ spring."
+      }
+    }
+  ]
+}
