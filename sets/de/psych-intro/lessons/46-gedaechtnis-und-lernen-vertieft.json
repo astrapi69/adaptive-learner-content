@@ -1,0 +1,252 @@
+{
+  "id": "46-gedaechtnis-und-lernen-vertieft",
+  "title": "Gedächtnis und Lernen vertieft",
+  "description": "Modelle des Gedächtnisses und des Lernens: Mehrspeichermodell, Arbeitsgedächtnis, Verarbeitungstiefe, die Vergessenskurve, Interferenz und Gedächtnisverzerrungen — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "mehrspeichermodell",
+      "front": "Mehrspeichermodell (Atkinson & Shiffrin)",
+      "back": "Modell, das Gedächtnis in drei Stufen gliedert: sensorisches Register, Kurzzeitgedächtnis und Langzeitgedächtnis.",
+      "notes": "Vertieft das Gedächtnis aus Lektion 3. Auch 'Modalmodell' genannt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["gedaechtnis", "modell", "person"]
+    },
+    {
+      "id": "sensorisches-register",
+      "front": "Sensorisches Register (Ultrakurzzeitgedächtnis)",
+      "back": "Hält Sinneseindrücke für Sekundenbruchteile sehr originalgetreu, bevor sie verblassen oder weiterverarbeitet werden.",
+      "notes": "Visuell: ikonisches Gedächtnis; akustisch: echoisches Gedächtnis.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["gedaechtnis", "speicher"]
+    },
+    {
+      "id": "arbeitsgedaechtnis",
+      "front": "Arbeitsgedächtnis (Baddeley)",
+      "back": "Erweiterung des Kurzzeitgedächtnisses: ein aktives System, das Informationen kurzfristig hält UND verarbeitet.",
+      "notes": "Komponenten u. a.: phonologische Schleife, visuell-räumlicher Notizblock, zentrale Exekutive.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Von Alan Baddeley — mehr als ein bloßer Speicher.",
+      "tags": ["gedaechtnis", "modell", "person"]
+    },
+    {
+      "id": "chunking",
+      "front": "Chunking (Bündelung)",
+      "back": "Das Zusammenfassen einzelner Einheiten zu größeren, sinnvollen Blöcken, um die Kapazität des Kurzzeitgedächtnisses besser zu nutzen.",
+      "notes": "Faustregel: das Kurzzeitgedächtnis fasst etwa 7 ± 2 Einheiten (Miller).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["gedaechtnis", "strategie"]
+    },
+    {
+      "id": "verarbeitungstiefe",
+      "front": "Verarbeitungstiefe (Levels of Processing)",
+      "back": "Je tiefer (bedeutungsbezogen) Information verarbeitet wird, desto besser wird sie behalten — semantisch schlägt oberflächlich.",
+      "notes": "Craik & Lockhart. Bedeutung verarbeiten > Klang > Aussehen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gedaechtnis", "theorie"]
+    },
+    {
+      "id": "vergessenskurve",
+      "front": "Vergessenskurve (Ebbinghaus)",
+      "back": "Befund, dass frisch Gelerntes anfangs rasch und dann immer langsamer vergessen wird.",
+      "notes": "Hermann Ebbinghaus, Pionier der experimentellen Gedächtnisforschung.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["gedaechtnis", "vergessen", "person"]
+    },
+    {
+      "id": "verteiltes-lernen",
+      "front": "Verteiltes Lernen (Spacing-Effekt)",
+      "back": "Über mehrere Sitzungen verteiltes Lernen führt zu besserem Behalten als massiertes Lernen (Bulimielernen) am Stück.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Gegenteil von 'alles auf einmal kurz vor der Prüfung'.",
+      "tags": ["lernen", "strategie"]
+    },
+    {
+      "id": "interferenz",
+      "front": "Interferenz",
+      "back": "Vergessen durch Störung: Gedächtnisinhalte behindern einander. Proaktiv = Altes stört Neues; retroaktiv = Neues stört Altes.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gedaechtnis", "vergessen"]
+    },
+    {
+      "id": "abrufhinweis",
+      "front": "Abrufhinweis (Retrieval Cue)",
+      "back": "Ein Reiz, der den Zugang zu einer gespeicherten Erinnerung erleichtert. Passende Hinweise verbessern den Abruf.",
+      "notes": "Grundlage des kontextabhängigen Gedächtnisses.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["gedaechtnis", "abruf"]
+    },
+    {
+      "id": "false-memory",
+      "front": "Falsche Erinnerung (False Memory)",
+      "back": "Eine Erinnerung an ein Ereignis, das so nie stattgefunden hat. Erinnern ist rekonstruktiv, nicht wie eine Videoaufnahme.",
+      "notes": "Forschung von Elizabeth Loftus zu suggestiven Fragen und Augenzeugenaussagen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gedaechtnis", "verzerrung", "person"]
+    },
+    {
+      "id": "misinformationseffekt",
+      "front": "Misinformationseffekt",
+      "back": "Nachträgliche, irreführende Informationen verändern die Erinnerung an ein Ereignis.",
+      "notes": "Loftus: Die Wortwahl einer Frage kann Augenzeugenaussagen verzerren.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["gedaechtnis", "verzerrung"]
+    },
+    {
+      "id": "prozedural-deklarativ",
+      "front": "Deklaratives vs. prozedurales Gedächtnis",
+      "back": "Deklarativ = bewusst abrufbares Wissen (Fakten, Ereignisse); prozedural = Fertigkeiten und Abläufe (z. B. Fahrradfahren).",
+      "notes": "Deklarativ gliedert sich in semantisch (Fakten) und episodisch (Erlebnisse).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gedaechtnis", "arten"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Vom Drei-Speicher-Modell zum Arbeitsgedächtnis",
+      "body": "# Gedächtnis und Lernen vertieft\n\nIn **Lektion 3** ging es um die Grundlagen des Gedächtnisses. Jetzt schauen wir genauer auf die **Modelle** dahinter.\n\n## Das Mehrspeichermodell (Atkinson & Shiffrin)\n\nDrei Stufen, durch die Information fließt:\n\n| Speicher | Dauer | Kapazität |\n|---|---|---|\n| **sensorisches Register** | Sekundenbruchteile | sehr groß, originalgetreu |\n| **Kurzzeitgedächtnis** | ~15–30 Sekunden | begrenzt (~7 ± 2 Einheiten) |\n| **Langzeitgedächtnis** | bis lebenslang | praktisch unbegrenzt |\n\n## Vom Kurzzeit- zum Arbeitsgedächtnis\n\nAlan **Baddeley** zeigte: Der mittlere Speicher ist kein passives Lager, sondern ein **Arbeitsgedächtnis**, das Information zugleich *hält und verarbeitet* (phonologische Schleife, visuell-räumlicher Notizblock, zentrale Exekutive).\n\nMit **Chunking** (Bündelung) lässt sich die enge Kapazität besser nutzen: *0-1-7-0-3-1-9-9-0* als *01 70 3 1990*."
+    },
+    {
+      "id": "step-lernen",
+      "type": "theory",
+      "title": "Was gutes Behalten fördert",
+      "body": "## Verarbeitungstiefe\n\nNach **Craik & Lockhart** hängt das Behalten davon ab, **wie tief** man verarbeitet:\n\n| Ebene | Beispiel | Behalten |\n|---|---|---|\n| oberflächlich | Aussehen des Wortes | schwach |\n| mittel | Klang des Wortes | mittel |\n| **tief (semantisch)** | **Bedeutung** des Wortes | **stark** |\n\n## Verteiltes Lernen\n\nDer **Spacing-Effekt**: Über mehrere Sitzungen **verteiltes** Lernen schlägt **massiertes** Lernen am Stück ('Bulimielernen'). Wiederholung mit Abstand verankert dauerhaft.\n\n## Abrufhinweise\n\nGut gespeichert heißt nicht automatisch gut abrufbar. **Abrufhinweise** (passender Kontext, Stimmung, Stichwörter) öffnen den Zugang zur Erinnerung."
+    },
+    {
+      "id": "step-vergessen",
+      "type": "theory",
+      "title": "Vergessen und die Fehlbarkeit der Erinnerung",
+      "body": "## Warum wir vergessen\n\n- **Vergessenskurve** (Ebbinghaus): Frisch Gelerntes geht **anfangs schnell**, dann immer langsamer verloren.\n- **Interferenz**: Inhalte **stören einander**. *Proaktiv* = Altes stört Neues; *retroaktiv* = Neues stört Altes.\n\n## Erinnern ist Rekonstruktion\n\nDas Gedächtnis ist **keine Videoaufnahme**, sondern wird bei jedem Abruf neu zusammengesetzt. Dabei entstehen Fehler:\n\n- **Falsche Erinnerungen** an Ereignisse, die nie geschahen.\n- Der **Misinformationseffekt** (Elizabeth **Loftus**): nachträgliche, irreführende Hinweise verändern die Erinnerung — die Wortwahl einer Frage kann eine Augenzeugenaussage verzerren.\n\nSchließlich unterscheidet man **deklaratives** (Fakten/Ereignisse, bewusst) und **prozedurales** Gedächtnis (Fertigkeiten wie Fahrradfahren)."
+    },
+    {
+      "id": "ex-match-speicher",
+      "type": "exercise",
+      "title": "Die drei Speicher",
+      "exercise": {
+        "id": "ex-match-speicher",
+        "type": "matching",
+        "prompt": "Ordne jedem Speicher seine Kennzeichnung zu.",
+        "card_ids": ["sensorisches-register", "mehrspeichermodell", "arbeitsgedaechtnis"],
+        "pairs": [
+          { "left": "sensorisches Register", "right": "Sekundenbruchteile, originalgetreu" },
+          { "left": "Kurzzeitgedächtnis", "right": "~7 ± 2 Einheiten, kurze Dauer" },
+          { "left": "Arbeitsgedächtnis", "right": "hält UND verarbeitet aktiv" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-chunking",
+      "type": "exercise",
+      "title": "Kapazität besser nutzen",
+      "exercise": {
+        "id": "ex-cloze-chunking",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für das Bündeln zu größeren Blöcken.",
+        "card_ids": ["chunking"],
+        "sentence": "Durch ___ fasst man Einzelinformationen zu sinnvollen Blöcken zusammen.",
+        "blanks": [
+          { "accept": ["Chunking", "chunking"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englischer Begriff von 'chunk' = Brocken/Block."
+      }
+    },
+    {
+      "id": "ex-free-verarbeitungstiefe",
+      "type": "exercise",
+      "title": "Tief schlägt oberflächlich",
+      "exercise": {
+        "id": "ex-free-verarbeitungstiefe",
+        "type": "free_text",
+        "prompt": "Wie nennt man das Prinzip, dass bedeutungsbezogenes (tiefes) Verarbeiten besser behalten wird als oberflächliches?",
+        "card_ids": ["verarbeitungstiefe"],
+        "accept": ["Verarbeitungstiefe", "die Verarbeitungstiefe", "Levels of Processing", "Ebenen der Verarbeitung"],
+        "hint": "Von Craik & Lockhart; englisch 'levels of processing'.",
+        "distractors": ["Chunking", "Interferenz", "Mehrspeichermodell"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-vergessen",
+      "type": "exercise",
+      "title": "Vergessen und Verzerrung",
+      "exercise": {
+        "id": "ex-match-vergessen",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine Beschreibung zu.",
+        "card_ids": ["vergessenskurve", "interferenz", "misinformationseffekt", "verteiltes-lernen"],
+        "pairs": [
+          { "left": "Vergessenskurve", "right": "anfangs schnelles, dann langsames Vergessen" },
+          { "left": "Interferenz", "right": "Gedächtnisinhalte stören einander" },
+          { "left": "Misinformationseffekt", "right": "irreführende Hinweise verändern Erinnerung" },
+          { "left": "verteiltes Lernen", "right": "über Sitzungen verteilt schlägt massiert" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-loftus",
+      "type": "exercise",
+      "title": "Erinnerung ist rekonstruktiv",
+      "exercise": {
+        "id": "ex-free-loftus",
+        "type": "free_text",
+        "prompt": "Wie heißt eine Erinnerung an ein Ereignis, das so nie stattgefunden hat (erforscht von Loftus)?",
+        "card_ids": ["false-memory"],
+        "accept": ["falsche Erinnerung", "eine falsche Erinnerung", "False Memory", "falsche Erinnerungen"],
+        "hint": "Englisch: false memory.",
+        "distractors": ["Abrufhinweis", "prozedurales Gedächtnis", "Vergessenskurve"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-interferenz",
+      "type": "exercise",
+      "title": "Wenn Neues Altes überschreibt",
+      "exercise": {
+        "id": "ex-cloze-interferenz",
+        "type": "cloze",
+        "prompt": "Ergänze die Art der Interferenz, bei der Neues das Alte stört.",
+        "card_ids": ["interferenz"],
+        "sentence": "Wenn neu Gelerntes das Erinnern von Älterem behindert, spricht man von ___ Interferenz.",
+        "blanks": [
+          { "accept": ["retroaktiver", "retroaktive"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "'Rückwirkend' — das Neue wirkt zurück auf das Alte."
+      }
+    },
+    {
+      "id": "ex-tiles-deklarativ",
+      "type": "exercise",
+      "title": "Zwei Gedächtnisarten",
+      "exercise": {
+        "id": "ex-tiles-deklarativ",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zum prozeduralen Gedächtnis zusammen.",
+        "card_ids": ["prozedural-deklarativ"],
+        "tiles": ["Das", "prozedurale", "Gedächtnis", "speichert", "Fertigkeiten", "und", "Abläufe"],
+        "hint": "Beginnt mit 'Das prozedurale Gedächtnis …'.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
