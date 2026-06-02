@@ -1,0 +1,330 @@
+{
+  "id": "14-conectores",
+  "title": "Conectores — Sätze verbinden",
+  "description": "Konnektoren, um kurze A1-Sätze zu längeren A2-Sätzen zu verbinden: porque, por eso, como, aunque, cuando, mientras, pero, sin embargo, además, entonces und así que. Mit besonderem Augenmerk auf die spanische Wortstellung nach dem Konnektor (kein Verb-ans-Ende wie im Deutschen).",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "con-porque",
+      "front": "porque",
+      "back": "weil",
+      "notes": "**porque** leitet einen Kausalsatz ein. Wichtig: Im Spanischen folgt nach dem Konnektor **Subjekt + Verb** — keine Verbendstellung wie im Deutschen!\n\n*Me quedo en casa **porque** estoy cansado.* — Ich bleibe zu Hause, weil ich müde bin.\n\nDeutscher Fehler: ~~*porque cansado estoy*~~ ✗\n\nNicht verwechseln: **porque** (weil) ≠ **por qué** (warum) ≠ **porqué** (der Grund, Substantiv).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["konnektor", "kausal", "wortstellung"]
+    },
+    {
+      "id": "con-por-eso",
+      "front": "por eso",
+      "back": "deshalb / daher",
+      "notes": "**por eso** drückt eine Schlussfolgerung aus und steht meistens am Satzanfang des zweiten Satzes.\n\n*Estoy cansado, **por eso** me quedo en casa.* — Ich bin müde, deshalb bleibe ich zu Hause.\n\nIm Gegensatz zum Deutschen kommt nach *por eso* **kein** umgekehrte Wortstellung — Subjekt + Verb bleiben in normaler Reihenfolge.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["konnektor", "konsekutiv"]
+    },
+    {
+      "id": "con-como",
+      "front": "como (am Satzanfang)",
+      "back": "da / weil (am Satzanfang)",
+      "notes": "**como** als Kausalkonnektor steht **immer am Satzanfang** und drückt einen bekannten, offensichtlichen Grund aus.\n\n***Como** llueve, me quedo en casa.* — Da es regnet, bleibe ich zu Hause.\n\nUnterschied zu *porque*: **como** nur am Satzanfang; **porque** flexibel in der Satzmitte.\n\nAchtung: **como** hat viele Bedeutungen (wie, als, ungefähr) — hier nur die kausale Funktion am Satzanfang.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "como (kausal) = immer am Satzanfang; porque = flexibel in der Satzmitte.",
+      "tags": ["konnektor", "kausal", "satzanfang"]
+    },
+    {
+      "id": "con-aunque",
+      "front": "aunque",
+      "back": "obwohl / auch wenn",
+      "notes": "**aunque** leitet einen Konzessivsatz ein.\n\n***Aunque** estoy cansado, salgo.* — Obwohl ich müde bin, gehe ich raus.\n\nNicht verwechseln mit **aún** (noch / sogar) oder **aun** (selbst / sogar, ohne Akzent).\n\nMit Subjuntivo: ***Aunque** sea difícil, lo intento.* — Auch wenn es schwer sein sollte, versuche ich es. (A2-Vorschau)",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "aunque ≠ aún (noch/sogar); aunque = obwohl/auch wenn.",
+      "tags": ["konnektor", "konzessiv", "wortstellung"]
+    },
+    {
+      "id": "con-cuando",
+      "front": "cuando",
+      "back": "wenn / als",
+      "notes": "**cuando** leitet einen Temporalsatz ein. Im Spanischen bleibt nach *cuando* die **normale Wortstellung** — im Deutschen käme das Verb ans Ende!\n\n***Cuando** llegué a casa, llamé a mi madre.* — Als ich nach Hause kam, rief ich meine Mutter an.\n\n***Cuando** tengo tiempo, leo.* — Wenn ich Zeit habe, lese ich.\n\nDeutscher Fehler: ~~*cuando Zeit habe ich*~~ ✗",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Im Deutschen: 'Als ich ankam…' — Verb am Ende. Im Spanischen bleibt die Wortstellung normal.",
+      "tags": ["konnektor", "temporal", "wortstellung"]
+    },
+    {
+      "id": "con-mientras",
+      "front": "mientras",
+      "back": "während",
+      "notes": "**mientras** drückt Gleichzeitigkeit aus.\n\n*Leo **mientras** tú ves la televisión.* — Ich lese, während du fernsiest.\n\n**mientras** kann auch *solange* bedeuten:\n\n***Mientras** haya luz, podemos trabajar.* — Solange es Licht gibt, können wir arbeiten.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektor", "temporal", "gleichzeitigkeit"]
+    },
+    {
+      "id": "con-pero",
+      "front": "pero",
+      "back": "aber",
+      "notes": "**pero** verbindet zwei gegensätzliche Aussagen.\n\n*Quiero salir, **pero** hace frío.* — Ich möchte ausgehen, aber es ist kalt.\n\n*Quiero ir, **pero** no puedo.* — Ich möchte hingehen, aber ich kann nicht.\n\nEinfacher Konnektor — häufigster Fehler: den deutschen Kognaten *aber* direkt einsetzen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["konnektor", "adversativ"]
+    },
+    {
+      "id": "con-sin-embargo",
+      "front": "sin embargo",
+      "back": "jedoch / trotzdem / dennoch",
+      "notes": "**sin embargo** ist das förmlichere Gegenstück zu *pero* und steht oft am Satzanfang.\n\n*Es tarde. **Sin embargo**, sigo trabajando.* — Es ist spät. Jedoch arbeite ich weiter.\n\nWörtlich: *ohne Hindernis* — merke: das klingt paradox, da es Gegensätze verbindet.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektor", "adversativ", "formal"]
+    },
+    {
+      "id": "con-ademas",
+      "front": "además",
+      "back": "außerdem / darüber hinaus",
+      "notes": "**además** fügt einen weiteren Punkt hinzu und steht oft am Satzanfang oder in der Satzmitte.\n\n*Es inteligente y, **además**, muy simpático.* — Er ist intelligent und außerdem sehr nett.\n\n***Además**, habla tres idiomas.* — Außerdem spricht er drei Sprachen.\n\nAchtung auf den Akzent: **además** (mit Akzent auf dem zweiten a).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["konnektor", "additiv"]
+    },
+    {
+      "id": "con-entonces",
+      "front": "entonces",
+      "back": "dann / also (Schlussfolgerung)",
+      "notes": "**entonces** kann sowohl *dann* (zeitlich) als auch *also* (folgend) bedeuten.\n\n*No tiene coche, **entonces** va en autobús.* — Er hat kein Auto, also fährt er mit dem Bus.\n\n*Primero como, **entonces** salgo.* — Erst esse ich, dann gehe ich raus.\n\n**entonces** und **por eso** sind oft austauschbar bei Schlussfolgerungen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["konnektor", "konsekutiv", "temporal"]
+    },
+    {
+      "id": "con-asi-que",
+      "front": "así que",
+      "back": "also / daher / sodass",
+      "notes": "**así que** drückt eine direkte Folge aus und ist umgangssprachlicher als *por tanto*.\n\n*Llueve, **así que** me quedo en casa.* — Es regnet, also bleibe ich zu Hause.\n\n*Estaba cansado, **así que** me fui a dormir.* — Ich war müde, also ging ich schlafen.\n\nHäufiger Fehler: **así** ohne *que* schreiben (dann bedeutet es *so*).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektor", "konsekutiv"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-intro",
+      "type": "theory",
+      "title": "Von A1-Sätzen zu A2-Sätzen",
+      "body": "# Conectores — Sätze verbinden\n\nIn **A1** hast du kurze Sätze gebildet:\n\n> *Estoy cansado. Me quedo en casa.*\n\nMit Konnektoren verbindest du sie zu **A2-Sätzen**:\n\n> *Me quedo en casa **porque** estoy cansado.*\n\n## Der wichtigste Unterschied zum Deutschen\n\nIm Deutschen verlässt das Verb nach Konnektoren wie *weil* oder *deshalb* die zweite Position und wandert ans Satzende (**Verbendstellung**):\n\n> Ich bleibe zu Hause, **weil** ich müde **bin**. ← Verb am Ende!\n\n> Ich bin müde, **deshalb** bleibe ich zu Hause. ← Inversion nach deshalb!\n\nIm Spanischen bleibt die Wortstellung nach dem Konnektor **immer gleich** — Subjekt + Verb in normaler Reihenfolge:\n\n> Me quedo en casa, **porque** **estoy** cansado. ← Verb direkt nach Subjekt!\n\n> Estoy cansado, **por eso** **me quedo** en casa. ← Keine Inversion!\n\nDas ist der häufigste Fehler für Deutschsprachige. Präge dir ein: **Im Spanischen gibt es keine Verbendstellung und keine Inversion nach Konnektoren.**"
+    },
+    {
+      "id": "theory-tabelle",
+      "type": "theory",
+      "title": "Übersicht: Die elf Konnektoren",
+      "body": "## Die elf wichtigsten Konnektoren im Überblick\n\n| Spanisch | Deutsch | Typ | Beispiel |\n|---|---|---|---|\n| **porque** | weil | kausal (flexibel) | *Me quedo porque estoy cansado.* |\n| **como** | da / weil | kausal (nur Satzanfang) | *Como llueve, me quedo en casa.* |\n| **por eso** | deshalb / daher | konsekutiv | *Estoy cansado, por eso me quedo.* |\n| **así que** | also / daher | konsekutiv | *Llueve, así que me quedo en casa.* |\n| **entonces** | dann / also | konsekutiv / temporal | *No tiene coche, entonces va en autobús.* |\n| **pero** | aber | adversativ | *Quiero salir, pero hace frío.* |\n| **sin embargo** | jedoch / dennoch | adversativ (formell) | *Es tarde. Sin embargo, sigo trabajando.* |\n| **aunque** | obwohl / auch wenn | konzessiv | *Aunque estoy cansado, salgo.* |\n| **cuando** | wenn / als | temporal | *Cuando llegué, llamé a mi madre.* |\n| **mientras** | während | temporal (gleichzeitig) | *Leo mientras tú ves la televisión.* |\n| **además** | außerdem | additiv | *Además, habla tres idiomas.* |\n\n> **Merksatz:** Alle diese Konnektoren verlangen im Spanischen die **normale Wortstellung** (Subjekt + Verb) — keine Verbendstellung wie im Deutschen!"
+    },
+    {
+      "id": "theory-stolpersteine",
+      "type": "theory",
+      "title": "Stolpersteine und typische Fehler",
+      "body": "## Typische Fehler von Deutschsprachigen\n\nVergleiche diese häufigen Fehler und die korrekten Formen:\n\n| Deutscher Kalke (FALSCH) | Korrekt auf Spanisch |\n|---|---|\n| ~~*porque cansado estoy*~~ | *porque **estoy** cansado* |\n| ~~*por eso en casa bleibe ich*~~ | *por eso **me quedo** en casa* |\n| ~~*cuando Zeit habe ich*~~ | *cuando **tengo** tiempo* |\n| ~~*aunque müde bin ich*~~ | *aunque **estoy** cansado* |\n\n### Verwechslungsgefahr: porque / por qué / porqué\n\n| Form | Bedeutung | Beispiel |\n|---|---|---|\n| **porque** | weil (Konnektor) | *Me quedo porque estoy cansado.* |\n| **¿por qué?** | warum? (Frage) | *¿Por qué te quedas en casa?* |\n| **el porqué** | der Grund (Substantiv) | *No entiendo el porqué.* |\n\n### Sonderfall: **como** nur am Satzanfang\n\n- ✓ ***Como** hace frío, me pongo el abrigo.*\n- ✓ *Me pongo el abrigo **porque** hace frío.*\n- ✗ ~~*Me pongo el abrigo como hace frío.*~~ (falsche Position für kausal)\n\n### **aunque** ≠ **aún**\n\n- **aunque** = obwohl / auch wenn\n- **aún** (mit Akzent) = noch / immer noch\n- **aun** (ohne Akzent) = selbst / sogar"
+    },
+    {
+      "id": "ex-matching-bedeutung",
+      "type": "exercise",
+      "title": "Konnektoren zuordnen",
+      "exercise": {
+        "id": "ex-matching-bedeutung",
+        "type": "matching",
+        "prompt": "Ordne jedem spanischen Konnektor seine deutsche Bedeutung zu.",
+        "card_ids": ["con-porque", "con-pero", "con-cuando", "con-ademas", "con-mientras"],
+        "pairs": [
+          { "left": "porque", "right": "weil" },
+          { "left": "pero", "right": "aber" },
+          { "left": "cuando", "right": "wenn / als" },
+          { "left": "además", "right": "außerdem" },
+          { "left": "mientras", "right": "während" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-matching-typ",
+      "type": "exercise",
+      "title": "Konnektoren nach Funktion",
+      "exercise": {
+        "id": "ex-matching-typ",
+        "type": "matching",
+        "prompt": "Welcher spanische Konnektor entspricht dem deutschen Ausdruck?",
+        "card_ids": ["con-aunque", "con-sin-embargo", "con-por-eso", "con-como", "con-asi-que"],
+        "pairs": [
+          { "left": "aunque", "right": "obwohl" },
+          { "left": "sin embargo", "right": "jedoch / dennoch" },
+          { "left": "por eso", "right": "deshalb" },
+          { "left": "como", "right": "da / weil (Satzanfang)" },
+          { "left": "así que", "right": "also / daher" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-porque",
+      "type": "exercise",
+      "title": "Weil ich müde bin",
+      "exercise": {
+        "id": "ex-cloze-porque",
+        "type": "cloze",
+        "prompt": "Ergänze den richtigen Konnektor für *weil* (in der Satzmitte).",
+        "card_ids": ["con-porque"],
+        "sentence": "Me quedo en casa ___ estoy cansado.",
+        "blanks": [
+          { "accept": ["porque"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Ein Wort, das 'weil' bedeutet — nicht zu verwechseln mit ¿por qué? (warum)."
+      }
+    },
+    {
+      "id": "ex-cloze-aunque",
+      "type": "exercise",
+      "title": "Obwohl es schwer ist",
+      "exercise": {
+        "id": "ex-cloze-aunque",
+        "type": "cloze",
+        "prompt": "Ergänze den Konnektor für *obwohl*.",
+        "card_ids": ["con-aunque"],
+        "sentence": "___ es difícil, lo intento.",
+        "blanks": [
+          { "accept": ["Aunque", "aunque"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Fünf Buchstaben — nicht verwechseln mit aún (noch/sogar)."
+      }
+    },
+    {
+      "id": "ex-free-porque-kalt",
+      "type": "exercise",
+      "title": "Übersetze: Ich trage einen Mantel, weil es kalt ist.",
+      "exercise": {
+        "id": "ex-free-porque-kalt",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Ich trage einen Mantel, weil es kalt ist.*",
+        "card_ids": ["con-porque"],
+        "accept": [
+          "Me pongo el abrigo porque hace frío.",
+          "me pongo el abrigo porque hace frío",
+          "Me pongo el abrigo porque hace frio.",
+          "me pongo el abrigo porque hace frio",
+          "Llevo un abrigo porque hace frío.",
+          "llevo un abrigo porque hace frio"
+        ],
+        "hint": "*Me pongo el abrigo* + **porque** + *hace frío*. Denk daran: Verb bleibt nach dem Subjekt — keine Verbendstellung!",
+        "distractors": [
+          "Me pongo el abrigo porque frío hace.",
+          "Me pongo el abrigo weil hace frío.",
+          "Me pongo el abrigo por qué hace frío."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-como-llueve",
+      "type": "exercise",
+      "title": "Da es regnet — mit como",
+      "exercise": {
+        "id": "ex-free-como-llueve",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Da es regnet, bleibe ich zu Hause.* (Verwende **como** am Satzanfang!)",
+        "card_ids": ["con-como"],
+        "accept": [
+          "Como llueve, me quedo en casa.",
+          "como llueve, me quedo en casa",
+          "Como llueve me quedo en casa.",
+          "como llueve me quedo en casa"
+        ],
+        "hint": "**Como** steht am Satzanfang, dann normale Wortstellung: *llueve*. Danach Komma und Hauptsatz.",
+        "distractors": [
+          "Me quedo en casa como llueve.",
+          "Como llueve, en casa me quedo.",
+          "Como llueve, por eso me quedo en casa."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-cuando",
+      "type": "exercise",
+      "title": "Bilde: Als ich ankam, rief ich meine Mutter an.",
+      "exercise": {
+        "id": "ex-tiles-cuando",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Als ich nach Hause kam, rief ich meine Mutter an.*",
+        "card_ids": ["con-cuando"],
+        "tiles": ["Cuando", "llegué", "a", "casa,", "llamé", "a", "mi", "madre."],
+        "hint": "**Cuando** + Subjekt + Verb — keine Verbendstellung! Dann Komma + Hauptsatz.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-pero-aunque",
+      "type": "exercise",
+      "title": "Bilde: Obwohl ich müde bin, gehe ich raus.",
+      "exercise": {
+        "id": "ex-tiles-pero-aunque",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Obwohl ich müde bin, gehe ich raus.*",
+        "card_ids": ["con-aunque"],
+        "tiles": ["Aunque", "estoy", "cansado,", "salgo."],
+        "hint": "**Aunque** + normale Wortstellung (estoy = ich bin) — kein Verb ans Ende!",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-wortstellung",
+      "type": "exercise",
+      "title": "Welcher Satz ist grammatisch korrekt?",
+      "exercise": {
+        "id": "ex-picture-wortstellung",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist auf Spanisch **grammatisch korrekt**? (Bedeutung: Ich bleibe zu Hause, weil ich krank bin.)",
+        "card_ids": ["con-porque"],
+        "images": [
+          { "src": "assets/img/check-correct.png", "label": "Me quedo en casa porque estoy enfermo.", "is_correct": "true" },
+          { "src": "assets/img/check-wrong1.png", "label": "Me quedo en casa porque enfermo estoy." },
+          { "src": "assets/img/check-wrong2.png", "label": "Me quedo en casa por qué estoy enfermo." },
+          { "src": "assets/img/check-wrong3.png", "label": "Me quedo en casa porque estoy enfermo weil." }
+        ],
+        "hint": "Im Spanischen bleibt nach *porque* die normale Wortstellung: Subjekt + Verb.",
+        "distractors": [
+          "Me quedo en casa porque enfermo estoy.",
+          "Me quedo en casa por qué estoy enfermo.",
+          "Me quedo en casa porque estoy enfermo weil."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-por-eso",
+      "type": "exercise",
+      "title": "Übersetze: Er ist müde, deshalb bleibt er zu Hause.",
+      "exercise": {
+        "id": "ex-free-por-eso",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Er ist müde, deshalb bleibt er zu Hause.*",
+        "card_ids": ["con-por-eso"],
+        "accept": [
+          "Está cansado, por eso se queda en casa.",
+          "está cansado, por eso se queda en casa",
+          "Está cansado, por eso se queda en casa",
+          "Está cansado por eso se queda en casa.",
+          "Está cansado, entonces se queda en casa.",
+          "está cansado, entonces se queda en casa"
+        ],
+        "hint": "*Está cansado* + **por eso** + *se queda en casa*. Kein Inversion nach por eso!",
+        "distractors": [
+          "Está cansado, por eso en casa se queda.",
+          "Está cansado, deshalb se queda en casa.",
+          "Está cansado, por eso queda se en casa."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

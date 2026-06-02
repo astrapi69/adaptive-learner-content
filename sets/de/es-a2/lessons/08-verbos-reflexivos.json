@@ -1,0 +1,345 @@
+{
+  "id": "08-verbos-reflexivos",
+  "title": "Los verbos reflexivos",
+  "description": "Die reflexiven Verben im Spanischen: Reflexivpronomen, Konjugation im Tagesablauf (levantarse, ducharse, vestirse …) und ihre Stellung im Satz — vor dem konjugierten Verb oder angehängt an Infinitiv/Gerundium.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "card-reflexivpronomen",
+      "front": "me / te / se / nos / os / se",
+      "back": "die Reflexivpronomen (mich/mir, dich/dir, sich, uns, euch, sich)",
+      "notes": "**Reflexivpronomen** stimmen mit dem Subjekt überein:\n\n| Person | Pronomen |\n|---|---|\n| yo | **me** |\n| tú | **te** |\n| él / ella / usted | **se** |\n| nosotros | **nos** |\n| vosotros | **os** |\n| ellos / ustedes | **se** |\n\nSie stehen **vor** dem konjugierten Verb: *Me levanto*, *Te duchas*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["reflexivo", "pronomen", "grammatik"]
+    },
+    {
+      "id": "card-levantarse",
+      "front": "levantarse",
+      "back": "aufstehen",
+      "notes": "**Tagesablauf-Verb.** Vollständige Konjugation Präsens:\n\n| Person | Form |\n|---|---|\n| yo | me levant**o** |\n| tú | te levant**as** |\n| él/ella | se levant**a** |\n| nosotros | nos levant**amos** |\n| vosotros | os levant**áis** |\n| ellos | se levant**an** |\n\nBeispiel: *Normalmente **me levanto** a las siete.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["reflexivo", "tagesablauf", "konjugation"]
+    },
+    {
+      "id": "card-ducharse",
+      "front": "ducharse",
+      "back": "duschen",
+      "notes": "Regelmäßiges -ar-Verb + Reflexivpronomen. *Por la mañana **me ducho** en cinco minutos.* — Morgens dusche ich in fünf Minuten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["reflexivo", "tagesablauf"]
+    },
+    {
+      "id": "card-vestirse",
+      "front": "vestirse",
+      "back": "sich anziehen",
+      "notes": "**e→i-Stammwechsel** (wie *pedir*): *me visto, te vistes, se viste, nos vestimos, os vestís, se visten.* Achtung: nosotros/vosotros behalten **e**.\n*Siempre **me visto** después de desayunar.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stammwechsel e→i: me visto, te vistes, se viste …",
+      "tags": ["reflexivo", "tagesablauf", "stammwechsel"]
+    },
+    {
+      "id": "card-despertarse",
+      "front": "despertarse",
+      "back": "aufwachen",
+      "notes": "**e→ie-Stammwechsel** (wie *querer*): *me despierto, te despiertas, se despierta, nos despertamos, os despertáis, se despiertan.* *¿A qué hora **te despiertas**?* — Um wie viel Uhr wachst du auf?",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stammwechsel e→ie: me despierto, te despiertas …",
+      "tags": ["reflexivo", "tagesablauf", "stammwechsel"]
+    },
+    {
+      "id": "card-acostarse",
+      "front": "acostarse",
+      "back": "sich hinlegen / schlafen gehen",
+      "notes": "**o→ue-Stammwechsel**: *me acuesto, te acuestas, se acuesta, nos acostamos, os acostáis, se acuestan.* *Me **acuesto** a las once de la noche.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stammwechsel o→ue: me acuesto, te acuestas …",
+      "tags": ["reflexivo", "tagesablauf", "stammwechsel"]
+    },
+    {
+      "id": "card-llamarse",
+      "front": "llamarse",
+      "back": "heißen (wörtlich: sich nennen)",
+      "notes": "Das klassische A1-Verb! *¿Cómo **te llamas**?* — Wie heißt du? *Me llamo Ana.* — Das war schon in A1 ein reflexives Verb! Jetzt kennst du das ganze System dahinter.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["reflexivo", "a1-bruecke"]
+    },
+    {
+      "id": "card-lavarse",
+      "front": "lavarse",
+      "back": "sich waschen",
+      "notes": "Regelmäßig. *Me lavo las manos antes de comer.* — Ich wasche mir die Hände vor dem Essen. Beachte: **los dientes lavarse** → *me lavo los dientes* (ich putze mir die Zähne).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["reflexivo", "tagesablauf"]
+    },
+    {
+      "id": "card-peinarse",
+      "front": "peinarse",
+      "back": "sich kämmen",
+      "notes": "Regelmäßig. *Me peino después de ducharme.* — Ich kämme mich nach dem Duschen. Zeigt gut, wie zwei reflexive Verben im Satz kombiniert werden.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["reflexivo", "tagesablauf"]
+    },
+    {
+      "id": "card-sentarse",
+      "front": "sentarse",
+      "back": "sich setzen / sich hinsetzen",
+      "notes": "**e→ie-Stammwechsel**: *me siento, te sientas, se sienta, nos sentamos, os sentáis, se sientan.* *¿Puedes **sentarte** aquí?* — Kannst du dich hier hinsetzen?",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stammwechsel e→ie: me siento, te sientas …",
+      "tags": ["reflexivo", "stammwechsel"]
+    },
+    {
+      "id": "card-stellung-infinitiv",
+      "front": "Voy a ducharme. / Me voy a duchar.",
+      "back": "Ich werde duschen. (Stellung des Reflexivpronomens beim Infinitiv)",
+      "notes": "Beim **Infinitiv** gibt es zwei Möglichkeiten:\n1. **Anhängen** an den Infinitiv: *Voy a duchar**me***\n2. **Vorziehen** vor das Hilfsverb: ***Me** voy a duchar*\n\nBeide sind korrekt und gleichwertig. Ebenso beim **Gerundium**: *Estoy duchándo**me*** oder ***Me** estoy duchando.*\n\nAchtung Fehler: ~~*Voy a me duchar*~~ — das Pronomen darf **nicht** zwischen Hilfsverb und Infinitiv stehen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["reflexivo", "stellung", "grammatik"]
+    },
+    {
+      "id": "card-bedeutungswechsel",
+      "front": "ir → irse / dormir → dormirse",
+      "back": "gehen → weggehen / schlafen → einschlafen",
+      "notes": "Manche Verben ändern ihre **Bedeutung** mit Reflexivpronomen:\n\n| Ohne Reflexivpronomen | Mit Reflexivpronomen |\n|---|---|\n| **ir** — gehen | **irse** — weggehen, aufbrechen |\n| **dormir** — schlafen | **dormirse** — einschlafen |\n\nBeispiele: *Juan **se va** a las ocho.* — Juan geht (weg) um acht. *El niño **se duerme** rápido.* — Das Kind schläft schnell ein.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["reflexivo", "bedeutungswechsel"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-einfuehrung",
+      "type": "theory",
+      "title": "Was sind reflexive Verben?",
+      "body": "# Los verbos reflexivos — Die reflexiven Verben\n\nIn **A1** hast du *Me llamo…* (ich heiße) gelernt — das ist bereits ein reflexives Verb! Jetzt das ganze System für den Tagesablauf.\n\nEin reflexives Verb beschreibt eine Handlung, die das Subjekt **an sich selbst** ausführt: *Ich wasche **mich***.  Im Spanischen zeigt das **Reflexivpronomen**, wer die Handlung erhält:\n\n| Person | Reflexivpronomen | Beispiel |\n|---|---|---|\n| yo | **me** | **Me** levanto |\n| tú | **te** | **Te** duchas |\n| él / ella / usted | **se** | **Se** viste |\n| nosotros | **nos** | **Nos** despertamos |\n| vosotros | **os** | **Os** acostáis |\n| ellos / ustedes | **se** | **Se** peinan |\n\nDas Reflexivpronomen steht **vor dem konjugierten Verb** — das ist die Grundregel. Ausnahmen (Infinitiv, Gerundium) lernst du in Schritt 3."
+    },
+    {
+      "id": "theory-konjugation",
+      "type": "theory",
+      "title": "Konjugation: levantarse und typische Tagesablauf-Verben",
+      "body": "## Konjugation — levantarse als Modell\n\nDas Reflexivpronomen **ändert sich** mit jeder Person, das Verb selbst wird normal konjugiert:\n\n| Person | levantarse | ducharse | vestirse (e→i) | acostarse (o→ue) |\n|---|---|---|---|---|\n| yo | me levant**o** | me duch**o** | me vist**o** | me acuest**o** |\n| tú | te levant**as** | te duch**as** | te vist**es** | te acuest**as** |\n| él/ella | se levant**a** | se duch**a** | se vist**e** | se acuest**a** |\n| nosotros | nos levant**amos** | nos duch**amos** | nos vest**imos** | nos acost**amos** |\n| vosotros | os levant**áis** | os duch**áis** | os vest**ís** | os acost**áis** |\n| ellos | se levant**an** | se duch**an** | se vist**en** | se acuest**an** |\n\n> **Stammwechsel** nur in den Formen yo/tú/él/ellos — nosotros und vosotros behalten den Originalstamm. Das gilt für *vestirse* (e→i), *despertarse* (e→ie), *acostarse* (o→ue) und *sentarse* (e→ie).\n\n**Typische Tagesablauf-Verben auf einen Blick:**\n- *despertarse* — aufwachen\n- *levantarse* — aufstehen\n- *ducharse* — duschen\n- *lavarse* — sich waschen\n- *peinarse* — sich kämmen\n- *vestirse* — sich anziehen\n- *sentarse* — sich setzen\n- *acostarse* — sich hinlegen / schlafen gehen"
+    },
+    {
+      "id": "theory-stellung",
+      "type": "theory",
+      "title": "Stellung des Reflexivpronomens + Bedeutungswechsel",
+      "body": "## Stellung des Reflexivpronomens\n\n**Regel 1 — vor dem konjugierten Verb:** *Me levanto. / ¿A qué hora te acuestas?*\n\n**Regel 2 — beim Infinitiv:** zwei gleichwertige Positionen:\n\n| Anhängen an Infinitiv | Vorziehen |\n|---|---|\n| Voy a duchar**me** | **Me** voy a duchar |\n| Tengo que levant**arme** | **Me** tengo que levantar |\n\n> Häufiger Fehler: ~~*Voy a me duchar*~~ — das Pronomen darf **nicht** zwischen Hilfsverb und Infinitiv.\n\n**Regel 3 — beim Gerundium** (estoy + -ando/-iendo): anhängen mit Akzentzeichen auf der Stammsilbe: *Estoy duchándo**me*** — oder vorziehen: ***Me** estoy duchando.*\n\n---\n\n## Bedeutungswechsel mit Reflexivpronomen\n\nManche Verben ändern ihre Bedeutung, wenn sie reflexiv verwendet werden:\n\n| Verb | Bedeutung | Reflexiv | Bedeutung |\n|---|---|---|---|\n| **ir** | gehen | **irse** | weggehen, aufbrechen |\n| **dormir** | schlafen | **dormirse** | einschlafen |\n\nBeispiele: *Juan **se va** a las ocho.* / *El bebé **se duerme** enseguida.*"
+    },
+    {
+      "id": "ex-matching-verben",
+      "type": "exercise",
+      "title": "Verben zuordnen",
+      "exercise": {
+        "id": "ex-matching-verben",
+        "type": "matching",
+        "prompt": "Ordne jedem spanischen reflexiven Verb seine deutsche Bedeutung zu.",
+        "card_ids": ["card-levantarse", "card-ducharse", "card-vestirse", "card-acostarse", "card-peinarse"],
+        "pairs": [
+          { "left": "levantarse", "right": "aufstehen" },
+          { "left": "ducharse", "right": "duschen" },
+          { "left": "vestirse", "right": "sich anziehen" },
+          { "left": "acostarse", "right": "sich hinlegen" },
+          { "left": "peinarse", "right": "sich kämmen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-matching-pronomen",
+      "type": "exercise",
+      "title": "Reflexivpronomen zuordnen",
+      "exercise": {
+        "id": "ex-matching-pronomen",
+        "type": "matching",
+        "prompt": "Ordne jeder Person das richtige Reflexivpronomen zu.",
+        "card_ids": ["card-reflexivpronomen"],
+        "pairs": [
+          { "left": "yo", "right": "me" },
+          { "left": "tú", "right": "te" },
+          { "left": "él / ella", "right": "se" },
+          { "left": "nosotros", "right": "nos" },
+          { "left": "vosotros", "right": "os" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-matching-bedeutungswechsel",
+      "type": "exercise",
+      "title": "Bedeutungswechsel erkennen",
+      "exercise": {
+        "id": "ex-matching-bedeutungswechsel",
+        "type": "matching",
+        "prompt": "Ordne die Verben ihrer deutschen Bedeutung zu — achte auf den Unterschied mit und ohne Reflexivpronomen.",
+        "card_ids": ["card-bedeutungswechsel"],
+        "pairs": [
+          { "left": "ir", "right": "gehen" },
+          { "left": "irse", "right": "weggehen" },
+          { "left": "dormir", "right": "schlafen" },
+          { "left": "dormirse", "right": "einschlafen" },
+          { "left": "llamarse", "right": "heißen" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-me-levanto",
+      "type": "exercise",
+      "title": "Cloze: Ich stehe auf",
+      "exercise": {
+        "id": "ex-cloze-me-levanto",
+        "type": "cloze",
+        "prompt": "Ergänze das Reflexivpronomen der ersten Person Singular.",
+        "card_ids": ["card-levantarse"],
+        "sentence": "___ levanto a las siete de la mañana.",
+        "blanks": [
+          { "accept": ["Me"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Reflexivpronomen für yo = **me**."
+      }
+    },
+    {
+      "id": "ex-cloze-te-duchas",
+      "type": "exercise",
+      "title": "Cloze: Wann duschst du?",
+      "exercise": {
+        "id": "ex-cloze-te-duchas",
+        "type": "cloze",
+        "prompt": "Ergänze die korrekte Form von *ducharse* für *tú*.",
+        "card_ids": ["card-ducharse"],
+        "sentence": "¿A qué hora te ___ por la mañana?",
+        "blanks": [
+          { "accept": ["duchas"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Tú-Form von *duchar* = **duchas** (das Pronomen *te* steht bereits da)."
+      }
+    },
+    {
+      "id": "ex-free-me-levanto-satz",
+      "type": "exercise",
+      "title": "Übersetzen: Ich stehe um sieben Uhr auf",
+      "exercise": {
+        "id": "ex-free-me-levanto-satz",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Ich stehe um sieben Uhr auf.*",
+        "card_ids": ["card-levantarse"],
+        "accept": [
+          "Me levanto a las siete.",
+          "me levanto a las siete",
+          "Me levanto a las siete.",
+          "Yo me levanto a las siete.",
+          "Me levanto a las 7."
+        ],
+        "hint": "Reflexivpronomen **me** + *levanto* + *a las siete*.",
+        "distractors": [
+          "Levanto a las siete.",
+          "Me levantas a las siete.",
+          "Levanto me a las siete."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-voy-a-ducharme",
+      "type": "exercise",
+      "title": "Übersetzen: Ich werde gleich duschen",
+      "exercise": {
+        "id": "ex-free-voy-a-ducharme",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Ich werde gleich duschen.* (mit futur próximo — zwei Varianten möglich)",
+        "card_ids": ["card-stellung-infinitiv", "card-ducharse"],
+        "accept": [
+          "Voy a ducharme ahora.",
+          "Me voy a duchar ahora.",
+          "voy a ducharme ahora",
+          "me voy a duchar ahora",
+          "Voy a ducharme.",
+          "Me voy a duchar."
+        ],
+        "hint": "*Voy a duchar**me*** (anhängen) oder ***Me** voy a duchar* (vorziehen) — beide korrekt.",
+        "distractors": [
+          "Voy a me duchar ahora.",
+          "Voy a duchar ahora.",
+          "Me ducharé ahora va."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-se-acuesta",
+      "type": "exercise",
+      "title": "Verstehen: ¿Cuándo se acuesta?",
+      "exercise": {
+        "id": "ex-free-se-acuesta",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *Mi hermano se acuesta muy tarde.*",
+        "card_ids": ["card-acostarse"],
+        "accept": [
+          "Mein Bruder legt sich sehr spät hin.",
+          "mein bruder legt sich sehr spät hin",
+          "Mein Bruder geht sehr spät schlafen.",
+          "Mein Bruder schläft sehr spät.",
+          "Mein Bruder geht sehr spät ins Bett."
+        ],
+        "hint": "*se acuesta* = er/sie legt sich hin (3. Person von *acostarse*); *muy tarde* = sehr spät.",
+        "distractors": [
+          "Mein Bruder steht sehr spät auf.",
+          "Mein Bruder schläft sehr früh.",
+          "Mein Bruder wacht sehr spät auf."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-se-viste",
+      "type": "exercise",
+      "title": "Satz bauen: Er zieht sich an",
+      "exercise": {
+        "id": "ex-tiles-se-viste",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum richtigen Satz: *Er zieht sich nach dem Duschen an.*",
+        "card_ids": ["card-vestirse", "card-ducharse"],
+        "tiles": ["Se", "viste", "después", "de", "ducharse"],
+        "hint": "Reflexivpronomen **se** + *viste* (er-Form, e→i) + *después de* + Infinitiv *ducharse*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-tagesablauf",
+      "type": "exercise",
+      "title": "Bild wählen: Sie steht auf",
+      "exercise": {
+        "id": "ex-picture-tagesablauf",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz beschreibt das Bild *Sie steht um acht Uhr auf* korrekt?",
+        "card_ids": ["card-levantarse"],
+        "images": [
+          { "src": "assets/img/levantarse-correcto.png", "label": "Ella se levanta a las ocho.", "is_correct": "true" },
+          { "src": "assets/img/levantarse-sinpronombre.png", "label": "Ella levanta a las ocho." },
+          { "src": "assets/img/levantarse-wrongpronoun.png", "label": "Ella me levanta a las ocho." },
+          { "src": "assets/img/levantarse-wrongorder.png", "label": "Ella levanta se a las ocho." }
+        ],
+        "hint": "Reflexivpronomen **se** (für ella) muss **vor** dem konjugierten Verb stehen.",
+        "distractors": [
+          "Ella levanta a las ocho.",
+          "Ella me levanta a las ocho.",
+          "Ella levanta se a las ocho."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

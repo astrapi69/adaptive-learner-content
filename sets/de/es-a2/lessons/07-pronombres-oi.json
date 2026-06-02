@@ -1,0 +1,362 @@
+{
+  "id": "07-pronombres-oi",
+  "title": "Los pronombres de objeto indirecto y el verbo gustar",
+  "description": "Indirekte Objektpronomen im Spanischen: me, te, le, nos, os, les — für 'a + Person'. Das gustar-Prinzip: gustar funktioniert wie deutsches 'gefallen' (Me gusta/Me gustan). Auch encantar, interesar, doler. Abgrenzung OD vs. OI.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "oi-me",
+      "front": "me",
+      "back": "mir (indirektes Objektpronomen, 1. Person Singular)",
+      "notes": "**me** steht **vor dem Verb**: *Me da el libro* — er/sie gibt mir das Buch. Bekannt aus *Me gusta* — das war von Anfang an ein OI-Pronomen!",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["pronombres-oi", "persona-1-sg"]
+    },
+    {
+      "id": "oi-te",
+      "front": "te",
+      "back": "dir (indirektes Objektpronomen, 2. Person Singular)",
+      "notes": "**te** steht **vor dem Verb**: *Te escribo mañana* — ich schreibe dir morgen. Nur für *tú* (du), nicht für *usted*.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["pronombres-oi", "persona-2-sg"]
+    },
+    {
+      "id": "oi-le",
+      "front": "le",
+      "back": "ihm / ihr / Ihnen (indirektes Objektpronomen, 3. Person Singular)",
+      "notes": "**le** gilt für **alle Geschlechter** und für *usted*: *Le doy el libro (a Ana / a Juan / a usted)* — ich gebe ihm/ihr/Ihnen das Buch. Ersetze immer *a + Person* im Singular.",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "Kein Genus: le = ihm UND ihr — anders als im Deutschen.",
+      "tags": ["pronombres-oi", "persona-3-sg", "le"]
+    },
+    {
+      "id": "oi-nos",
+      "front": "nos",
+      "back": "uns (indirektes Objektpronomen, 1. Person Plural)",
+      "notes": "**nos** steht vor dem Verb: *Nos manda un mensaje* — er/sie schickt uns eine Nachricht. Auch gleichzeitig Reflexivpronomen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["pronombres-oi", "persona-1-pl"]
+    },
+    {
+      "id": "oi-os",
+      "front": "os",
+      "back": "euch (indirektes Objektpronomen, 2. Person Plural, Spanien)",
+      "notes": "**os** ist die *vosotros*-Form — nur in Spanien. In Lateinamerika sagt man stattdessen *les* (für *ustedes*): *Os explico el ejercicio* — ich erkläre euch die Aufgabe.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["pronombres-oi", "persona-2-pl", "vosotros"]
+    },
+    {
+      "id": "oi-les",
+      "front": "les",
+      "back": "ihnen / Ihnen (indirektes Objektpronomen, 3. Person Plural)",
+      "notes": "**les** steht für alle Geschlechter im Plural: *Les escribo una carta (a mis padres)* — ich schreibe ihnen einen Brief. **Achtung:** Kein Akzent auf *les* (im Gegensatz zu *más, él* etc.).",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "Plural von le — immer ohne Akzent: les (nicht lés).",
+      "tags": ["pronombres-oi", "persona-3-pl", "les"]
+    },
+    {
+      "id": "oi-redundant",
+      "front": "A Ana le gusta el café.",
+      "back": "Ana mag Kaffee. (wörtlich: Ana, ihr gefällt der Kaffee.)",
+      "notes": "**Redundantes OI-Pronomen:** Wenn *a + Person* im Satz steht, erscheint *le/les* **trotzdem zusätzlich** — das nennt man Verdoppelung (duplicación). *A Ana le escribo* — ich schreibe Ana (= ihr). Das Pronomen ist **obligatorisch**, nicht optional!",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "a + Person → trotzdem le/les davor: 'A Ana le doy...' — beide Formen zusammen!",
+      "tags": ["pronombres-oi", "duplicacion", "gustar"]
+    },
+    {
+      "id": "gustar-prinzip",
+      "front": "gustar",
+      "back": "gefallen (nicht: mögen!)",
+      "notes": "**gustar** funktioniert wie deutsches *gefallen* — das Subjekt ist die Sache, die gefällt, nicht die Person:\n- *Me **gusta** el café.* → Mir gefällt der Kaffee (Singular → **gusta**).\n- *Me **gustan** los libros.* → Mir gefallen die Bücher (Plural → **gustan**).\n\nHäufiger Fehler: *Yo gusto el café* ❌ — so wie im Deutschen 'Ich mag' gibt es im Spanischen nicht mit gustar!",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Subjekt = die Sache: gusta (Singular) vs. gustan (Plural) — nicht die Person!",
+      "tags": ["gustar", "pronombres-oi", "concordancia"]
+    },
+    {
+      "id": "gustar-personen",
+      "front": "¿A quién le gusta …?",
+      "back": "Wem gefällt …? (Subjekt = die Sache, OI = die Person)",
+      "notes": "Die OI-Pronomen mit **gustar** im Überblick:\n- *Me gusta/gustan* — mir gefällt/gefallen\n- *Te gusta/gustan* — dir gefällt/gefallen\n- *Le gusta/gustan* — ihm/ihr gefällt/gefallen (auch: A Juan **le** gusta)\n- *Nos gusta/gustan* — uns gefällt/gefallen\n- *Os gusta/gustan* — euch gefällt/gefallen\n- *Les gusta/gustan* — ihnen gefällt/gefallen",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["gustar", "pronombres-oi"]
+    },
+    {
+      "id": "encantar",
+      "front": "encantar",
+      "back": "begeistern / total gefallen (wie gustar, aber stärker)",
+      "notes": "**encantar** funktioniert genau wie *gustar*:\n- *Me **encanta** el chocolate.* — Schokolade begeistert mich total. (Singular)\n- *Me **encantan** las películas.* — Ich liebe Filme. (Plural)\n\nKein Subjekt *yo*, keine persönliche Konstruktion!",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["gustar-typ", "encantar", "pronombres-oi"]
+    },
+    {
+      "id": "interesar-doler",
+      "front": "interesar / doler",
+      "back": "interessieren / schmerzen (beide wie gustar)",
+      "notes": "**interesar** (interessieren) und **doler** (schmerzen, wehtun) folgen dem gleichen Muster:\n- *Me **interesa** la historia.* — Geschichte interessiert mich. (Singular)\n- *Me **duele** la cabeza.* — Mir tut der Kopf weh. (Singular)\n- *Me **duelen** los pies.* — Mir tun die Füße weh. (Plural: Kongruenz mit Subjekt *los pies*)!",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "doler: duele (Singular) / duelen (Plural) — Kongruenz mit dem Körperteil!",
+      "tags": ["gustar-typ", "interesar", "doler", "pronombres-oi"]
+    },
+    {
+      "id": "oi-vs-od",
+      "front": "le doy el libro ↔ lo doy",
+      "back": "ich gebe ihm das Buch ↔ ich gebe es (das Buch)",
+      "notes": "**OD vs. OI im Kontrast:**\n- *le* = indirektes Objekt (a + Person): *Le doy el libro (a Ana)* — ich gebe **ihr** das Buch.\n- *lo/la* = direktes Objekt (kein *a*): *Lo doy* — ich gebe **es** (das Buch).\n\nBeide zusammen: *Se lo doy* (se statt le vor lo/la!) — ich gebe es ihr. Das *se* ist eine Sonderform.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "a + Person → le/les (OI); kein a → lo/la/los/las (OD).",
+      "tags": ["pronombres-oi", "pronombres-od", "kontrast"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-intro-oi",
+      "type": "theory",
+      "title": "Von direkten zu indirekten Objektpronomen",
+      "body": "# Los pronombres de objeto indirecto (OI)\n\nIn **A1** hast du *Me gusta* gelernt — das war schon ein **indirektes Objektpronomen**! Und in der **letzten Lektion** kamen die direkten (lo, la). Jetzt das **ganze System** der indirekten (me, te, le, les).\n\n## Was ist ein indirektes Objekt?\n\nEin indirektes Objekt antwortet auf die Frage *¿a quién?* (wem?). Im Spanischen steht es mit **a + Person**:\n\n> *Doy el libro **a Ana**.* → **Le** doy el libro. (Ich gebe **ihr** das Buch.)\n\nDas OI-Pronomen ersetzt *a + Person* und steht **vor dem Verb**.\n\n## Die OI-Pronomen im Überblick\n\n| Person | OI | Bedeutung |\n|---|---|---|\n| 1. Sg. | **me** | mir |\n| 2. Sg. | **te** | dir |\n| 3. Sg. | **le** | ihm / ihr / Ihnen |\n| 1. Pl. | **nos** | uns |\n| 2. Pl. | **os** | euch (Spanien) |\n| 3. Pl. | **les** | ihnen / Ihnen |\n\n> **Merke:** *le* hat **kein Genus** — es steht für *ihm* und *ihr* gleichermaßen. *les* hat keinen Akzent."
+    },
+    {
+      "id": "theory-redundanz-gustar",
+      "type": "theory",
+      "title": "Verdoppelung und das gustar-Prinzip",
+      "body": "## Redundantes OI-Pronomen — Verdoppelung\n\nWenn *a + Person* im Satz erscheint, **muss** das OI-Pronomen **trotzdem** stehen — das ist eine Besonderheit des Spanischen:\n\n| Ohne a-Phrase | Mit a-Phrase (Verdoppelung) |\n|---|---|\n| *Le escribo.* | ***A Ana** le escribo.* |\n| *Les doy el libro.* | ***A mis padres** les doy el libro.* |\n\n## Das gustar-Prinzip\n\n**gustar** bedeutet nicht 'mögen', sondern **gefallen** — das grammatische Subjekt ist die Sache, die gefällt, nie die Person:\n\n| Spanisch | Deutsch | Subjekt |\n|---|---|---|\n| Me **gusta** el café. | Mir **gefällt** der Kaffee. | *el café* (Singular) |\n| Me **gustan** los libros. | Mir **gefallen** die Bücher. | *los libros* (Plural) |\n| **A Ana** le gusta la música. | Ana mag Musik. | *la música* (Singular) |\n\n> **Häufiger Fehler:** *Yo gusto el café* ❌ — auf Spanisch gibt es diese Konstruktion nicht. Das Pronomen *me/te/le …* ist immer dabei, die Person ist **nie** Subjekt bei gustar."
+    },
+    {
+      "id": "theory-gustar-typ-oi-vs-od",
+      "type": "theory",
+      "title": "gustar-Typ-Verben und OI vs. OD",
+      "body": "## Weitere gustar-Typ-Verben\n\nDiese Verben folgen dem gleichen Muster wie *gustar* — Kongruenz mit dem **Subjekt** (der Sache), nicht mit der Person:\n\n| Verb | Bedeutung | Beispiel |\n|---|---|---|\n| **gustar** | gefallen | *Me **gustan** las películas.* |\n| **encantar** | begeistern / total gefallen | *Nos **encanta** el fútbol.* |\n| **interesar** | interessieren | *Te **interesa** la historia.* |\n| **doler** | wehtun / schmerzen | *Le **duelen** los pies.* |\n\n## OI vs. OD — der entscheidende Unterschied\n\n| | OD (direkt) | OI (indirekt) |\n|---|---|---|\n| **Pronomen** | lo / la / los / las | me, te, **le**, nos, os, **les** |\n| **Frage** | ¿qué? / ¿a quién? (wen?) | ¿a quién? (wem?) |\n| **a im Satz?** | nein | ja (*a + Person*) |\n| **Beispiel** | *Lo veo.* (ich sehe es) | *Le doy el libro.* (ich gebe ihm das Buch) |\n\n> **Merke:** Bei *gustar* und Co. ist die Person im **Dativ** (me, te, le …) — wie im Deutschen: 'Mir **gefällt** es' (Dativ). Das OI-Pronomen ist also nicht austauschbar mit lo/la!"
+    },
+    {
+      "id": "ex-match-oi-tabelle",
+      "type": "exercise",
+      "title": "OI-Pronomen zuordnen",
+      "exercise": {
+        "id": "ex-match-oi-tabelle",
+        "type": "matching",
+        "prompt": "Ordne jedes spanische OI-Pronomen seiner deutschen Bedeutung zu.",
+        "card_ids": ["oi-me", "oi-te", "oi-le", "oi-nos", "oi-les"],
+        "pairs": [
+          { "left": "me", "right": "mir" },
+          { "left": "te", "right": "dir" },
+          { "left": "le", "right": "ihm / ihr" },
+          { "left": "nos", "right": "uns" },
+          { "left": "les", "right": "ihnen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-gustar-typ",
+      "type": "exercise",
+      "title": "gustar-Typ-Verben zuordnen",
+      "exercise": {
+        "id": "ex-match-gustar-typ",
+        "type": "matching",
+        "prompt": "Verbinde das spanische Verb mit seiner deutschen Bedeutung.",
+        "card_ids": ["gustar-prinzip", "encantar", "interesar-doler"],
+        "pairs": [
+          { "left": "gustar", "right": "gefallen" },
+          { "left": "encantar", "right": "total gefallen / begeistern" },
+          { "left": "interesar", "right": "interessieren" },
+          { "left": "doler", "right": "wehtun / schmerzen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-le-doy",
+      "type": "exercise",
+      "title": "Ich gebe ihr das Buch",
+      "exercise": {
+        "id": "ex-cloze-le-doy",
+        "type": "cloze",
+        "prompt": "Ersetze *a Ana* durch das richtige OI-Pronomen.",
+        "card_ids": ["oi-le"],
+        "sentence": "Doy el libro a Ana. → ___ doy el libro.",
+        "blanks": [
+          { "accept": ["Le", "le"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "3. Person Singular, OI — kein Genus: le für ihm und ihr."
+      }
+    },
+    {
+      "id": "ex-cloze-me-gustan",
+      "type": "exercise",
+      "title": "Mir gefallen die Bücher",
+      "exercise": {
+        "id": "ex-cloze-me-gustan",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Form von *gustar* (gusta oder gustan?).",
+        "card_ids": ["gustar-prinzip"],
+        "sentence": "Me ___ los libros.",
+        "blanks": [
+          { "accept": ["gustan"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Subjekt ist 'los libros' (Plural) → gustan!"
+      }
+    },
+    {
+      "id": "ex-free-te-escribo",
+      "type": "exercise",
+      "title": "Ich schreibe dir morgen",
+      "exercise": {
+        "id": "ex-free-te-escribo",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Ich schreibe dir morgen.* (OI-Pronomen für 'dir'!)",
+        "card_ids": ["oi-te"],
+        "accept": [
+          "Te escribo mañana.",
+          "te escribo mañana",
+          "Te escribo mañana",
+          "Yo te escribo mañana."
+        ],
+        "hint": "OI **te** (dir) steht direkt vor *escribo*. *mañana* = morgen.",
+        "distractors": [
+          "Le escribo mañana.",
+          "Te escribo después del verbo.",
+          "Escribo te mañana."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-me-encanta",
+      "type": "exercise",
+      "title": "Ich liebe Schokolade",
+      "exercise": {
+        "id": "ex-free-me-encanta",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Ich liebe Schokolade.* (encantar — wie gustar!)",
+        "card_ids": ["encantar"],
+        "accept": [
+          "Me encanta el chocolate.",
+          "me encanta el chocolate",
+          "Me encanta el chocolate",
+          "Me encanta chocolate."
+        ],
+        "hint": "*encantar* wie *gustar*: **me encanta** (Singular!) + die Sache als Subjekt.",
+        "distractors": [
+          "Yo encanto el chocolate.",
+          "Me encantan el chocolate.",
+          "Me gusta mucho el chocolate aunque me encanta es mejor."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-a-juan-le-gusta",
+      "type": "exercise",
+      "title": "Juan mag Fußball",
+      "exercise": {
+        "id": "ex-free-a-juan-le-gusta",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Juan mag Fußball.* (a + Person + le + gustar!)",
+        "card_ids": ["oi-redundant", "gustar-prinzip"],
+        "accept": [
+          "A Juan le gusta el fútbol.",
+          "a juan le gusta el fútbol",
+          "A Juan le gusta el futbol.",
+          "Le gusta el fútbol a Juan."
+        ],
+        "hint": "a Juan **le** gusta el fútbol — Verdoppelung: a-Phrase UND le!",
+        "distractors": [
+          "Juan gusta el fútbol.",
+          "A Juan gusta el fútbol.",
+          "A Juan lo gusta el fútbol."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-nos-envia",
+      "type": "exercise",
+      "title": "Er schickt uns eine Nachricht",
+      "exercise": {
+        "id": "ex-tiles-nos-envia",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum Satz: *Er schickt uns eine Nachricht.*",
+        "card_ids": ["oi-nos"],
+        "tiles": ["Nos", "envía", "un", "mensaje"],
+        "hint": "OI **nos** (uns) steht direkt vor *envía*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-me-duele",
+      "type": "exercise",
+      "title": "Mir tut der Kopf weh",
+      "exercise": {
+        "id": "ex-tiles-me-duele",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Mir tut der Kopf weh.* (doler — wie gustar!)",
+        "card_ids": ["interesar-doler"],
+        "tiles": ["Me", "duele", "la", "cabeza"],
+        "hint": "*doler* wie *gustar*: **me duele** + Singular-Subjekt *la cabeza*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-gusta-vs-gustan",
+      "type": "exercise",
+      "title": "gusta oder gustan?",
+      "exercise": {
+        "id": "ex-picture-gusta-vs-gustan",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist **grammatisch korrekt** für 'Mir gefallen die Bücher'?",
+        "card_ids": ["gustar-prinzip", "gustar-personen"],
+        "images": [
+          { "src": "assets/img/gustan-libros.png", "label": "Me gustan los libros.", "is_correct": "true" },
+          { "src": "assets/img/gusta-libros.png", "label": "Me gusta los libros." },
+          { "src": "assets/img/yo-gusto.png", "label": "Yo gusto los libros." },
+          { "src": "assets/img/lo-gusta.png", "label": "Lo gusta los libros." }
+        ],
+        "hint": "Das Subjekt ist 'los libros' (Plural) → gustan. Die Person steht im OI (me).",
+        "distractors": [
+          "Me gusta los libros.",
+          "Yo gusto los libros.",
+          "Lo gusta los libros."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-oi-vs-od",
+      "type": "exercise",
+      "title": "Verstehen: OI vs. OD",
+      "exercise": {
+        "id": "ex-free-oi-vs-od",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *Le doy el libro.* (Wer bekommt das Buch?)",
+        "card_ids": ["oi-le", "oi-vs-od"],
+        "accept": [
+          "Ich gebe ihm das Buch.",
+          "ich gebe ihm das buch",
+          "Ich gebe ihr das Buch.",
+          "ich gebe ihr das buch",
+          "Ich gebe ihm/ihr das Buch."
+        ],
+        "hint": "*le* = OI (indirekt, a + Person): 'ihm' oder 'ihr' — kein Genus im Spanischen!",
+        "distractors": [
+          "Ich gebe das Buch.",
+          "Ich sehe das Buch.",
+          "Ich lese es."
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
