@@ -13,10 +13,11 @@ Official content repository for [Adaptive Learner](https://github.com/astrapi69/
 | Spanisch A2 | Deutsch (DE) | Spanisch (ES) | 15 | A2 | Sprache |
 | Spanisch A1 | English (EN) | Spanish (ES) | 15 | A1 | Language |
 | Englisch A1 | Deutsch (DE) | English (EN) | 15 | A1 | Sprache |
+| Englisch A2 | Deutsch (DE) | English (EN) | 15 | A2 | Sprache |
 | Psychologie | Deutsch (DE) | Deutsch (DE) | 15 | Intro | Psychologie |
 | Python — Grundlagen | Deutsch (DE) | Deutsch (DE) | 15 | A1 | Programmierung |
 
-**135 Lektionen · ~30 Stunden Lernmaterial**
+**150 Lektionen · ~33 Stunden Lernmaterial**
 
 ## Directory Structure
 
@@ -28,6 +29,7 @@ sets/
 │   ├── es-a1/          # Target: Spanish A1
 │   ├── es-a2/          # Target: Spanish A2
 │   ├── en-a1/          # Target: English A1
+│   ├── en-a2/          # Target: English A2
 │   ├── psych-intro/    # Domain: Psychology
 │   └── python-basics/  # Domain: Programming
 ├── en/                 # Source language: English

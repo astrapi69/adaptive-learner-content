@@ -1,0 +1,332 @@
+{
+  "id": "03-present-perfect",
+  "title": "The Present Perfect",
+  "description": "Das Present Perfect (have/has + 3. Form) — die große Herausforderung für Deutsche. Bildung, wichtige Partizipien und der entscheidende Punkt: Es verbindet Vergangenheit mit Jetzt, funktioniert aber anders als das deutsche Perfekt.",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "form-present-perfect",
+      "front": "have / has + past participle",
+      "back": "Bildung des Present Perfect (Hilfsverb + 3. Form)",
+      "notes": "Das Present Perfect wird gebildet mit **have** (ich/du/wir/sie) oder **has** (er/sie/es) + **Partizip Perfekt** (3. Form):\n\n- *I **have worked**.* — Ich habe gearbeitet.\n- *She **has gone**.* — Sie ist gegangen.\n\nWichtig: Das Partizip ist immer die **3. Form** (nicht die Simple-Past-Form!)",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["grammar", "present-perfect", "form"]
+    },
+    {
+      "id": "have-vs-has",
+      "front": "I/you/we/they → have | he/she/it → has",
+      "back": "have oder has — Übersicht nach Person",
+      "notes": "| Person | Hilfsverb | Beispiel |\n|---|---|---|\n| I | **have** | I **have** seen |\n| you | **have** | You **have** done |\n| he/she/it | **has** | She **has** made |\n| we/they | **have** | They **have** written |\n\nHäufiger Fehler: *She have finished* — falsch! Mit he/she/it immer **has**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "present-perfect", "have-has"]
+    },
+    {
+      "id": "contractions-pp",
+      "front": "I've / she's / we've / he's",
+      "back": "Kurzformen im Present Perfect",
+      "notes": "Im gesprochenen und informellen Englisch werden Subjekt und Hilfsverb oft zusammengezogen:\n\n- **I've** = I have → *I've been to London.*\n- **she's** = she has → *She's finished.*\n- **we've** = we have → *We've eaten.*\n- **he's** = he has → *He's gone.*\n\nAchtung: *she's* kann auch *she is* sein — der Kontext entscheidet.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "present-perfect", "contractions"]
+    },
+    {
+      "id": "participle-been",
+      "front": "be → been",
+      "back": "sein/gewesen → Partizip: been",
+      "notes": "**been** ist das Partizip Perfekt von *be*. Im Present Perfect:\n- *I **have been** to Berlin.* — Ich war (schon einmal) in Berlin. (Erfahrung)\n- *She **has been** sick.* — Sie war krank.\n\nNicht zu verwechseln: *have been* ≠ *have gone*. *He has gone* = er ist weggegangen (und noch nicht zurück).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["participle", "present-perfect", "vocabulary"]
+    },
+    {
+      "id": "participle-gone",
+      "front": "go → gone",
+      "back": "gehen/gegangen → Partizip: gone",
+      "notes": "**gone** ist das Partizip von *go*.\n- *She **has gone** to the supermarket.* — Sie ist in den Supermarkt gegangen (und noch dort).\n- Vgl. *She **has been** to Paris.* — Sie war schon mal in Paris. (Erfahrung, zurückgekehrt)",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "go → went → gone (3. Form für Present Perfect)",
+      "tags": ["participle", "present-perfect", "vocabulary"]
+    },
+    {
+      "id": "participle-done",
+      "front": "do → done",
+      "back": "machen/getan → Partizip: done",
+      "notes": "**done** ist das Partizip von *do*.\n- *I **have done** my homework.* — Ich habe meine Hausaufgaben gemacht.\n- *She **has done** it.* — Sie hat es gemacht.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["participle", "present-perfect", "vocabulary"]
+    },
+    {
+      "id": "participle-seen",
+      "front": "see → seen",
+      "back": "sehen/gesehen → Partizip: seen",
+      "notes": "**seen** ist das Partizip von *see*.\n- *Have you **seen** this film?* — Hast du diesen Film gesehen?\n- *I **have never seen** snow.* — Ich habe noch nie Schnee gesehen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["participle", "present-perfect", "vocabulary"]
+    },
+    {
+      "id": "participle-made",
+      "front": "make → made",
+      "back": "machen/gemacht → Partizip: made",
+      "notes": "**made** ist das Partizip von *make* (und gleichzeitig die Simple-Past-Form — Vorsicht!).\n- *She **has made** a cake.* — Sie hat einen Kuchen gebacken.\n- *I **have made** a mistake.* — Ich habe einen Fehler gemacht.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["participle", "present-perfect", "vocabulary"]
+    },
+    {
+      "id": "participle-written",
+      "front": "write → written",
+      "back": "schreiben/geschrieben → Partizip: written",
+      "notes": "**written** ist das Partizip von *write*.\n- *I **have written** three emails.* — Ich habe drei E-Mails geschrieben.\n- *She **has** never **written** a letter.* — Sie hat noch nie einen Brief geschrieben.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["participle", "present-perfect", "vocabulary"]
+    },
+    {
+      "id": "usage-present-relevance",
+      "front": "I have finished my homework.",
+      "back": "Ich habe meine Hausaufgaben fertig gemacht. (Ergebnis jetzt relevant)",
+      "notes": "Der Kerngebrauch des Present Perfect: Eine **vergangene Handlung hat Bezug zur Gegenwart**. Das Ergebnis ist **jetzt** wichtig.\n- *I **have finished** my homework.* → Ich bin jetzt fertig — das ist relevant!\n- *She **has lost** her keys.* → Sie hat ihre Schlüssel verloren — sie sucht sie jetzt noch.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["usage", "present-perfect", "present-relevance"]
+    },
+    {
+      "id": "usage-experience",
+      "front": "I have been to London.",
+      "back": "Ich war schon mal in London. (Lebenserfahrung)",
+      "notes": "Das Present Perfect drückt **Lebenserfahrungen** aus — Dinge, die man irgendwann im Leben getan hat:\n- *I **have been** to London.* — Ich war schon mal in London.\n- *Have you ever **eaten** sushi?* — Hast du schon mal Sushi gegessen?\n\nSignalwörter: **ever**, **never**, **already**, **yet**, **before**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["usage", "present-perfect", "experience"]
+    },
+    {
+      "id": "signal-ever-never",
+      "front": "ever / never / already / yet",
+      "back": "jemals / nie / schon / noch (nicht) — Signalwörter Present Perfect",
+      "notes": "Diese Wörter signalisieren fast immer das Present Perfect:\n- **ever** (jemals): *Have you **ever** been to Japan?*\n- **never** (nie): *I **have never** seen the sea.*\n- **already** (schon): *She **has already** eaten.*\n- **yet** (noch/schon, in Fragen/Verneinung): *Have you finished **yet**?*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["signal", "present-perfect"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-theory",
+      "type": "theory",
+      "title": "Present Perfect — Das Thema für Deutsche",
+      "body": "# The Present Perfect\n\n**Present Perfect ist DAS Thema für Deutsche** — es sieht aus wie das deutsche Perfekt (haben + Partizip), funktioniert aber anders. Es verbindet Vergangenheit mit **JETZT**.\n\n## Form: have / has + Partizip Perfekt (3. Form)\n\n| Person | Hilfsverb | Beispiel |\n|---|---|---|\n| I / you / we / they | **have** | I **have worked**. |\n| he / she / it | **has** | She **has gone**. |\n\n> **Goldene Regel:** Das Present Perfect zeigt, dass eine vergangene Handlung **heute noch relevant** ist — oder dass man etwas in seinem Leben (irgendwann) erlebt hat.\n\n## Der entscheidende Punkt für Deutsche\n\nDas **deutsche Perfekt** (*„Ich habe gearbeitet”*) und das **englische Present Perfect** (*„I have worked”*) sehen gleich aus, werden aber anders benutzt. Im Deutschen verwendest du das Perfekt oft für **abgeschlossene Vergangenheit** — auf Englisch braucht man dafür das **Simple Past**.\n\n- Deutsch: *Gestern habe ich gearbeitet.* → Englisch: *Yesterday I **worked**.* (Simple Past!)\n- Englisch Present Perfect: *I **have worked** here for five years.* (Verbindung zur Gegenwart)"
+    },
+    {
+      "id": "participles-theory",
+      "type": "theory",
+      "title": "Wichtige Partizipien (3. Form)",
+      "body": "## Die wichtigsten unregelmäßigen Partizipien\n\nViele häufige Verben haben **unregelmäßige 3. Formen** — diese musst du auswendig lernen:\n\n| Infinitiv | Simple Past (2. Form) | Partizip Perfekt (3. Form) |\n|---|---|---|\n| **be** | was/were | **been** |\n| **go** | went | **gone** |\n| **do** | did | **done** |\n| **see** | saw | **seen** |\n| **make** | made | **made** |\n| **write** | wrote | **written** |\n| **have** | had | **had** |\n| **eat** | ate | **eaten** |\n\n> **Typischer Fehler:** *I have **went*** oder *I have **saw*** — falsch! Immer die **3. Form** nehmen, nicht die 2. Form.\n\n**Regelmäßige Verben** bilden das Partizip einfach mit **-ed**: *work → worked*, *finish → finished*, *play → played*."
+    },
+    {
+      "id": "usage-theory",
+      "type": "theory",
+      "title": "Wann benutzt man das Present Perfect?",
+      "body": "## Die drei Hauptanwendungen\n\n### 1. Ergebnis ist jetzt relevant\nEine vergangene Handlung hat **Auswirkungen auf jetzt**:\n- *She **has finished** her homework.* → Sie ist jetzt fertig.\n- *I **have lost** my wallet.* → Ich suche es noch.\n\n### 2. Lebenserfahrung (ever / never)\nDinge, die man **irgendwann im Leben** getan hat:\n- *I **have been** to London.* — Ich war schon mal in London.\n- *Have you **ever** eaten sushi?* — Hast du jemals Sushi gegessen?\n\n### 3. Zeitraum bis jetzt\nMit **for** (seit ... lang) und **since** (seit einem Zeitpunkt):\n- *She **has lived** here for ten years.* — seit zehn Jahren\n- *I **have known** him since 2015.* — seit 2015\n\n## Signalwörter — dein Kompass\n\n| Signalwort | Bedeutung |\n|---|---|\n| **ever** | jemals |\n| **never** | nie |\n| **already** | schon (bereits) |\n| **yet** | noch / schon (Frage/Verneinung) |\n| **just** | gerade eben |\n| **for** | seit (Dauer) |\n| **since** | seit (Zeitpunkt) |\n\n> **Vorsicht:** Wörter wie *yesterday*, *last week*, *in 2010* = **abgeschlossene Vergangenheit** → **Simple Past**, nicht Present Perfect! Das ist der häufigste Fehler deutscher Lernender."
+    },
+    {
+      "id": "ex-match-participles",
+      "type": "exercise",
+      "title": "Partizipien zuordnen",
+      "exercise": {
+        "id": "ex-match-participles",
+        "type": "matching",
+        "prompt": "Ordne jedem Verb sein korrektes Partizip Perfekt (3. Form) zu.",
+        "card_ids": ["participle-been", "participle-gone", "participle-done", "participle-seen", "participle-written"],
+        "pairs": [
+          { "left": "be", "right": "been" },
+          { "left": "go", "right": "gone" },
+          { "left": "do", "right": "done" },
+          { "left": "see", "right": "seen" },
+          { "left": "write", "right": "written" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-signals",
+      "type": "exercise",
+      "title": "Signalwörter auf Deutsch",
+      "exercise": {
+        "id": "ex-match-signals",
+        "type": "matching",
+        "prompt": "Ordne jedem englischen Signalwort seine deutsche Bedeutung zu.",
+        "card_ids": ["signal-ever-never"],
+        "pairs": [
+          { "left": "ever", "right": "jemals" },
+          { "left": "never", "right": "nie" },
+          { "left": "already", "right": "schon / bereits" },
+          { "left": "yet", "right": "noch / schon (Frage)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-have-has",
+      "type": "exercise",
+      "title": "have oder has?",
+      "exercise": {
+        "id": "ex-cloze-have-has",
+        "type": "cloze",
+        "prompt": "Ergänze das richtige Hilfsverb: *she* + Present Perfect.",
+        "card_ids": ["have-vs-has", "form-present-perfect"],
+        "sentence": "She ___ finished her homework.",
+        "blanks": [
+          { "accept": ["has"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "he/she/it → **has** (nicht *have*)"
+      }
+    },
+    {
+      "id": "ex-cloze-participle",
+      "type": "exercise",
+      "title": "Die richtige 3. Form einsetzen",
+      "exercise": {
+        "id": "ex-cloze-participle",
+        "type": "cloze",
+        "prompt": "Ergänze das Partizip Perfekt von *see* im Present Perfect.",
+        "card_ids": ["participle-seen"],
+        "sentence": "I have never ___ this film before.",
+        "blanks": [
+          { "accept": ["seen"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "see → saw → **seen** (3. Form)"
+      }
+    },
+    {
+      "id": "ex-free-experience",
+      "type": "exercise",
+      "title": "Erfahrung ausdrücken",
+      "exercise": {
+        "id": "ex-free-experience",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Ich war schon mal in London.* (Lebenserfahrung → Present Perfect)",
+        "card_ids": ["usage-experience", "participle-been"],
+        "accept": [
+          "I have been to London.",
+          "i have been to london",
+          "I've been to London.",
+          "I have been to London before."
+        ],
+        "hint": "Lebenserfahrung → **have been to** (nicht *have gone to*!)",
+        "distractors": [
+          "I was in London.",
+          "I have gone to London.",
+          "I have been in London yesterday."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-result-now",
+      "type": "exercise",
+      "title": "Ergebnis ist jetzt relevant",
+      "exercise": {
+        "id": "ex-free-result-now",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *She has lost her keys.*",
+        "card_ids": ["usage-present-relevance"],
+        "accept": [
+          "Sie hat ihre Schlüssel verloren.",
+          "sie hat ihre schlüssel verloren",
+          "Sie hat ihren Schlüssel verloren.",
+          "Sie hat die Schlüssel verloren."
+        ],
+        "hint": "hat … verloren — das Ergebnis ist jetzt noch relevant (sie sucht noch).",
+        "distractors": [
+          "Sie verlor ihre Schlüssel.",
+          "Sie hat ihre Schlüssel verlieren.",
+          "Sie hat ihre Schlüssel verliert."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-written",
+      "type": "exercise",
+      "title": "Satz bauen: Ich habe geschrieben",
+      "exercise": {
+        "id": "ex-tiles-written",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich habe drei E-Mails geschrieben.*",
+        "card_ids": ["participle-written", "form-present-perfect"],
+        "tiles": ["I", "have", "written", "three", "emails"],
+        "hint": "Struktur: Subjekt + **have** + Partizip (3. Form) + Rest",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-contraction",
+      "type": "exercise",
+      "title": "Kurzform: She's done it",
+      "exercise": {
+        "id": "ex-tiles-contraction",
+        "type": "word_tiles",
+        "prompt": "Bilde den Satz mit Kurzform: *Sie hat es gemacht.*",
+        "card_ids": ["contractions-pp", "participle-done"],
+        "tiles": ["She's", "done", "it"],
+        "hint": "She's = She has — Kurzform im Present Perfect",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-present-perfect",
+      "type": "exercise",
+      "title": "Welcher Satz ist Present Perfect?",
+      "exercise": {
+        "id": "ex-pic-present-perfect",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist ein korrektes Present Perfect?",
+        "card_ids": ["form-present-perfect", "have-vs-has"],
+        "images": [
+          { "src": "assets/img/present-perfect-correct.png", "label": "She has made a cake.", "is_correct": "true" },
+          { "src": "assets/img/present-perfect-wrong1.png", "label": "She have made a cake." },
+          { "src": "assets/img/present-perfect-wrong2.png", "label": "She has make a cake." },
+          { "src": "assets/img/present-perfect-wrong3.png", "label": "She has maked a cake." }
+        ],
+        "hint": "he/she/it → **has** + Partizip Perfekt (**made**, nicht *make* oder *maked*)",
+        "distractors": [
+          "She have made a cake.",
+          "She has make a cake.",
+          "She has maked a cake."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-contraction",
+      "type": "exercise",
+      "title": "Kurzform verwenden",
+      "exercise": {
+        "id": "ex-free-contraction",
+        "type": "free_text",
+        "prompt": "Schreibe den Satz mit Kurzform: *I have seen this film.*",
+        "card_ids": ["contractions-pp", "participle-seen"],
+        "accept": [
+          "I've seen this film.",
+          "i've seen this film",
+          "I've seen this film",
+          "I've seen that film."
+        ],
+        "hint": "I have → **I've** (Apostroph nicht vergessen!)",
+        "distractors": [
+          "I seen this film.",
+          "Ive seen this film.",
+          "I've saw this film."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
