@@ -1,0 +1,280 @@
+{
+  "id": "08-funktionen",
+  "title": "Funktionen (def)",
+  "description": "Eigene Funktionen mit def definieren, Parameter und Argumente, return-Werte, Default-Argumente, Docstrings und den Unterschied zwischen print und return — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "programming",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "fn-def",
+      "front": "def",
+      "back": "Schlüsselwort, das eine Funktionsdefinition einleitet.",
+      "code_snippet": "def begruesse():\n    print('Hallo!')\n\nbegruesse()",
+      "code_language": "python",
+      "expected_output": "Hallo!",
+      "notes": "Der Funktionskörper muss eingerückt sein.",
+      "hint": "Kommt von 'define' (englisch: definieren).",
+      "difficulty": 2,
+      "tags": ["funktionen", "syntax"],
+      "media_type": "code"
+    },
+    {
+      "id": "fn-parameter",
+      "front": "Parameter",
+      "back": "Platzhaltervariable im Funktionskopf, die beim Aufruf einen Wert erhält.",
+      "code_snippet": "def begruesse(name):\n    print('Hallo', name)\n\nbegruesse('Anna')",
+      "code_language": "python",
+      "expected_output": "Hallo Anna",
+      "notes": "name ist der Parameter; 'Anna' ist das Argument beim Aufruf.",
+      "hint": "Parameter stehen in den runden Klammern nach dem Funktionsnamen.",
+      "difficulty": 2,
+      "tags": ["funktionen"],
+      "media_type": "code"
+    },
+    {
+      "id": "fn-argument",
+      "front": "Argument",
+      "back": "Der konkrete Wert, der beim Funktionsaufruf übergeben wird.",
+      "notes": "Unterschied: Parameter ist der Name in der Definition; Argument ist der Wert beim Aufruf.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["funktionen"]
+    },
+    {
+      "id": "fn-return",
+      "front": "return",
+      "back": "Beendet eine Funktion und gibt einen Wert an den Aufrufer zurück.",
+      "code_snippet": "def addiere(a, b):\n    return a + b\n\nergebnis = addiere(3, 4)\nprint(ergebnis)",
+      "code_language": "python",
+      "expected_output": "7",
+      "notes": "Ohne return gibt die Funktion None zurück.",
+      "hint": "return gibt einen Wert zurück — print() zeigt ihn nur an.",
+      "difficulty": 2,
+      "tags": ["funktionen", "return"],
+      "media_type": "code"
+    },
+    {
+      "id": "fn-default-arg",
+      "front": "Default-Argument (Standardwert)",
+      "back": "Ein Parameter mit einem vordefinierten Wert, der verwendet wird, wenn beim Aufruf kein Argument übergeben wird.",
+      "code_snippet": "def begruesse(name='Welt'):\n    print('Hallo', name)\n\nbegruesse()\nbegruesse('Max')",
+      "code_language": "python",
+      "expected_output": "Hallo Welt\nHallo Max",
+      "hint": "Der Standardwert steht hinter dem = im Funktionskopf.",
+      "difficulty": 3,
+      "tags": ["funktionen"],
+      "media_type": "code"
+    },
+    {
+      "id": "fn-aufruf",
+      "front": "Funktionsaufruf",
+      "back": "Das Ausführen einer Funktion durch ihren Namen gefolgt von runden Klammern (ggf. mit Argumenten).",
+      "code_snippet": "def quadrat(x):\n    return x * x\n\nprint(quadrat(5))",
+      "code_language": "python",
+      "expected_output": "25",
+      "hint": "Ohne die runden Klammern wird die Funktion nicht ausgeführt.",
+      "difficulty": 2,
+      "tags": ["funktionen"],
+      "media_type": "code"
+    },
+    {
+      "id": "fn-docstring",
+      "front": "Docstring",
+      "back": "Ein Dokumentations-String direkt nach dem def-Kopf, der in dreifachen Anführungszeichen steht und die Funktion beschreibt.",
+      "code_snippet": "def berechne(x):\n    \"\"\"Gibt das Doppelte von x zurueck.\"\"\"\n    return x * 2\n\nprint(berechne(6))",
+      "code_language": "python",
+      "expected_output": "12",
+      "notes": "Docstrings sind optional, aber guter Stil.",
+      "hint": "Dreifache Anführungszeichen: \"\"\" ... \"\"\"",
+      "difficulty": 3,
+      "tags": ["funktionen", "dokumentation"],
+      "media_type": "code"
+    },
+    {
+      "id": "fn-print-vs-return",
+      "front": "print() vs. return",
+      "back": "print() gibt einen Wert auf der Konsole aus, ohne ihn zurückzugeben. return gibt den Wert an den Aufrufer zurück, ohne ihn anzuzeigen.",
+      "notes": "Eine Funktion mit nur print() liefert None als Rückgabewert.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["funktionen", "return"]
+    },
+    {
+      "id": "fn-none",
+      "front": "None (Rückgabewert)",
+      "back": "Der Wert, den Python zurückgibt, wenn eine Funktion kein return enthält.",
+      "code_snippet": "def nichts():\n    pass\n\nprint(nichts())",
+      "code_language": "python",
+      "expected_output": "None",
+      "hint": "None bedeutet 'kein Wert'.",
+      "difficulty": 3,
+      "tags": ["funktionen"],
+      "media_type": "code"
+    },
+    {
+      "id": "fn-mehrere-parameter",
+      "front": "Mehrere Parameter",
+      "back": "Eine Funktion kann beliebig viele Parameter durch Kommas getrennt im Funktionskopf haben.",
+      "code_snippet": "def summe(a, b, c):\n    return a + b + c\n\nprint(summe(1, 2, 3))",
+      "code_language": "python",
+      "expected_output": "6",
+      "hint": "Kommas trennen die Parameter wie bei Listenelementen.",
+      "difficulty": 2,
+      "tags": ["funktionen"],
+      "media_type": "code"
+    },
+    {
+      "id": "fn-scope",
+      "front": "Lokaler Geltungsbereich (Scope)",
+      "back": "Variablen, die innerhalb einer Funktion definiert werden, existieren nur dort — außerhalb sind sie nicht sichtbar.",
+      "notes": "Das verhindert, dass Hilfsvariablen in der Funktion globale Namen überschreiben.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["funktionen", "scope"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-def-grundlagen",
+      "type": "theory",
+      "title": "Funktionen definieren mit def",
+      "body": "# Funktionen (def)\n\nEine **Funktion** ist ein wiederverwendbarer Code-Block, dem man einen Namen gibt. Mit dem Schlüsselwort **def** wird sie definiert:\n\n```python\ndef begruesse():\n    print('Hallo!')\n```\n\nDer Funktionskörper muss **eingerückt** sein (4 Leerzeichen). Aufgerufen wird die Funktion mit ihrem Namen und runden Klammern:\n\n```python\nbegruesse()   # Ausgabe: Hallo!\n```\n\n## Parameter und Argumente\n\n**Parameter** sind Platzhaltervariablen im Funktionskopf. Beim Aufruf übergibt man den konkreten Wert — das **Argument**:\n\n```python\ndef begruesse(name):\n    print('Hallo', name)\n\nbegruesse('Anna')   # Ausgabe: Hallo Anna\n```\n\nEine Funktion kann auch mehrere Parameter haben, getrennt durch Kommas:\n\n```python\ndef addiere(a, b):\n    return a + b\n```"
+    },
+    {
+      "id": "step-return-default",
+      "type": "theory",
+      "title": "return, Default-Argumente und Docstrings",
+      "body": "## return\n\nMit **return** gibt eine Funktion einen Wert zurück:\n\n```python\ndef quadrat(x):\n    return x * x\n\nergebnis = quadrat(5)\nprint(ergebnis)   # 25\n```\n\nOhne `return` gibt die Funktion **None** zurück.\n\n## Default-Argumente\n\nParameter können einen **Standardwert** haben — er gilt, wenn kein Argument übergeben wird:\n\n```python\ndef begruesse(name='Welt'):\n    print('Hallo', name)\n\nbegruesse()        # Hallo Welt\nbegruesse('Max')   # Hallo Max\n```\n\n## Docstring\n\nEin **Docstring** ist ein kurzer Text direkt nach dem Funktionskopf, der die Funktion beschreibt:\n\n```python\ndef berechne(x):\n    \"\"\"Gibt das Doppelte von x zurueck.\"\"\"\n    return x * 2\n```\n\n## print() vs. return\n\n| | print() | return |\n|---|---|---|\n| Zeigt Wert an | ja | nein |\n| Gibt Wert zurück | nein | ja |\n\n`print()` ist nur für die Ausgabe; `return` gibt den Wert an den Aufrufer zurück, damit er weiterverwendet werden kann."
+    },
+    {
+      "id": "ex-cloze-def",
+      "type": "exercise",
+      "title": "Funktion definieren",
+      "exercise": {
+        "id": "ex-cloze-def",
+        "type": "cloze",
+        "prompt": "Ergänze das Schlüsselwort, das eine Funktionsdefinition einleitet.",
+        "card_ids": ["fn-def"],
+        "sentence": "Mit dem Schlüsselwort ___ wird eine neue Funktion definiert.",
+        "blanks": [
+          { "accept": ["def"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kurz für 'define'."
+      }
+    },
+    {
+      "id": "ex-cloze-return",
+      "type": "exercise",
+      "title": "Rückgabewert angeben",
+      "exercise": {
+        "id": "ex-cloze-return",
+        "type": "cloze",
+        "prompt": "Ergänze das Schlüsselwort, das einen Wert aus einer Funktion zurückgibt.",
+        "card_ids": ["fn-return"],
+        "sentence": "Das Schlüsselwort ___ beendet eine Funktion und gibt einen Wert zurück.",
+        "blanks": [
+          { "accept": ["return"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englisch für 'zurückgeben'."
+      }
+    },
+    {
+      "id": "ex-free-parameter",
+      "type": "exercise",
+      "title": "Parameter vs. Argument",
+      "exercise": {
+        "id": "ex-free-parameter",
+        "type": "free_text",
+        "prompt": "Wie nennt man die Platzhaltervariable im Funktionskopf (nicht den Wert beim Aufruf)?",
+        "card_ids": ["fn-parameter"],
+        "accept": ["Parameter", "parameter", "Platzhalter", "Platzhaltervariable"],
+        "hint": "Er steht in den Klammern der def-Zeile.",
+        "distractors": ["Argument", "Variable", "Return"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-print-vs-return",
+      "type": "exercise",
+      "title": "print() vs. return",
+      "exercise": {
+        "id": "ex-free-print-vs-return",
+        "type": "free_text",
+        "prompt": "Was gibt eine Funktion zurück, wenn sie kein return enthält?",
+        "card_ids": ["fn-none", "fn-print-vs-return"],
+        "accept": ["None", "none", "Nothing", "nichts", "den Wert None"],
+        "hint": "Ein spezieller Python-Wert, der 'kein Wert' bedeutet.",
+        "distractors": ["0", "False", "leerer String"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-def-funktion",
+      "type": "exercise",
+      "title": "Funktionsdefinition zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-def-funktion",
+        "type": "word_tiles",
+        "prompt": "Setze eine Funktionsdefinition zusammen, die einen Parameter 'x' hat und x*2 zurückgibt.",
+        "card_ids": ["fn-def", "fn-return"],
+        "tiles": ["def", "verdopple", "(", "x", ")", ":", "return", "x", "*", "2"],
+        "hint": "Erst def, dann Funktionsname, Klammern mit Parameter, Doppelpunkt, dann der Körper mit return.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-funktionen",
+      "type": "exercise",
+      "title": "Begriffe rund um Funktionen zuordnen",
+      "exercise": {
+        "id": "ex-match-funktionen",
+        "type": "matching",
+        "prompt": "Ordne jeden Begriff seiner Erklärung zu.",
+        "card_ids": ["fn-def", "fn-parameter", "fn-return", "fn-docstring", "fn-default-arg"],
+        "pairs": [
+          { "left": "def", "right": "leitet eine Funktionsdefinition ein" },
+          { "left": "Parameter", "right": "Platzhaltervariable im Funktionskopf" },
+          { "left": "return", "right": "gibt einen Wert an den Aufrufer zurück" },
+          { "left": "Docstring", "right": "Dokumentationstext in dreifachen Anführungszeichen" },
+          { "left": "Default-Argument", "right": "Standardwert, der gilt wenn kein Argument übergeben wird" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-default",
+      "type": "exercise",
+      "title": "Standardwert definieren",
+      "exercise": {
+        "id": "ex-cloze-default",
+        "type": "cloze",
+        "prompt": "Ergänze den Standardwert so, dass die Funktion ohne Argument 'Welt' als Namen verwendet.",
+        "card_ids": ["fn-default-arg"],
+        "sentence": "def begruesse(name=___): ...",
+        "blanks": [
+          { "accept": ["'Welt'", "\"Welt\""] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Ein String mit dem Wort Welt."
+      }
+    },
+    {
+      "id": "ex-tiles-aufruf",
+      "type": "exercise",
+      "title": "Funktionsaufruf zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-aufruf",
+        "type": "word_tiles",
+        "prompt": "Setze den Funktionsaufruf zusammen, der quadrat mit dem Argument 5 aufruft und das Ergebnis ausgibt.",
+        "card_ids": ["fn-aufruf"],
+        "tiles": ["print", "(", "quadrat", "(", "5", ")", ")"],
+        "hint": "print() umschließt den Funktionsaufruf.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
