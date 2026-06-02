@@ -35,6 +35,13 @@
 # Biopsychologie, Geschichte/Paradigmen, Wissenschaftstheorie
 # und Forschungsethik), abgeschlossen durch zwei Wiederholungen
 # (35) und ein Gesamt-Capstone (40).
+#
+# v1.5.0 (schema v1.3): erweitert um einen vertiefenden
+# Spezialgebiete-Block (41–45): Wahrnehmung/Psychophysik,
+# Neuropsychologie und bildgebende Verfahren, vertiefte klinische
+# Psychologie (ICD-11/DSM-5), weiterführende Statistik und
+# Forschungsdesigns sowie eine abschließende Wiederholung dieser
+# Reihe.
 schema_version: '1.3'
 name: Psychologie — Grundlagen
 description: >-
@@ -61,16 +68,17 @@ sets:
     domain: psychology
     level: A1
     path: sets/de/psych-intro
-    version: '1.4.0'
-    lesson_count: 40
+    version: '1.5.0'
+    lesson_count: 45
     domain_label: Psychologie
     description: >-
       Vollständiger Einführungskurs Psychologie auf
-      Universitätsniveau (40 Lektionen), auf Deutsch erklärt — von
+      Universitätsniveau (45 Lektionen), auf Deutsch erklärt — von
       den Grundlagen- und Anwendungsfächern über Psychotherapie,
       Forschungsmethoden und Statistik bis zu vertieften
-      Grundlagenfächern, Geschichte, Wissenschaftstheorie und
-      Forschungsethik.
+      Grundlagenfächern, Geschichte, Wissenschaftstheorie sowie
+      einem Spezialgebiete-Block (Psychophysik, Neuropsychologie,
+      klinische Vertiefung, weiterführende Statistik).
     tags:
       - beginner
       - psychology
@@ -119,3 +127,8 @@ metadata:
     - 38-geschichte-und-paradigmen.json
     - 39-wissenschaftstheorie-und-ethik.json
     - 40-abschluss-capstone.json
+    - 41-wahrnehmung-vertieft-psychophysik.json
+    - 42-neuropsychologie-und-bildgebung.json
+    - 43-klinische-psychologie-vertieft.json
+    - 44-multivariate-statistik-und-designs.json
+    - 45-wiederholung-vertiefung-spezialgebiete.json
