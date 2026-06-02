@@ -25,20 +25,33 @@
 # Vorgehensweise, Experiment und Korrelation, Datenerhebung und
 # Gütekriterien, deskriptive Statistik sowie Inferenzstatistik
 # mit abschließender Wiederholung dieser Reihe.
+#
+# v1.4.0 (schema v1.3): zum vollständigen Einführungskurs auf
+# Universitätsniveau ausgebaut (40 Lektionen). Neu: angewandte
+# Felder (26–30: Pädagogische, Arbeits-/Organisations-,
+# Gesundheitspsychologie, Diagnostik) sowie vertiefte
+# Grundlagenfächer (31–39: Emotionstheorien, Kognition,
+# Sozial-, Entwicklungs- und Persönlichkeitspsychologie,
+# Biopsychologie, Geschichte/Paradigmen, Wissenschaftstheorie
+# und Forschungsethik), abgeschlossen durch zwei Wiederholungen
+# (35) und ein Gesamt-Capstone (40).
 schema_version: '1.3'
 name: Psychologie — Grundlagen
 description: >-
-  Einführung in die Psychologie für Deutschsprachige (25
-  Lektionen): Grundbegriffe und Geschichte, Wahrnehmung,
-  Gedächtnis, Lernen und Konditionierung, Motivation und Emotion,
-  Entwicklungs-, Sozial- und Persönlichkeitspsychologie, ein
-  behutsamer Überblick über die klinische und die positive
-  Psychologie, Intelligenz und Denken, Stress und Gesundheit,
-  biologische Grundlagen, Bewusstsein und Schlaf, eine
-  fünfteilige Reihe zu den Psychotherapieverfahren sowie eine
-  fünfteilige Reihe zu Forschungsmethoden und Statistik. Karten,
-  Definitionen und Theorie auf Deutsch, mit den englischen
-  Originalbegriffen in Klammern.
+  Einführungskurs Psychologie auf Universitätsniveau für
+  Deutschsprachige (40 Lektionen): von Grundbegriffen,
+  Geschichte und den Grundlagenfächern (Wahrnehmung, Gedächtnis,
+  Lernen, Motivation/Emotion, Entwicklung, Sozial-,
+  Persönlichkeits- und biologischer Psychologie) über die
+  klinische und positive Psychologie, Intelligenz, Stress,
+  Bewusstsein und Schlaf bis zu den Psychotherapieverfahren,
+  den Forschungsmethoden und der Statistik, den angewandten
+  Feldern (pädagogische, Arbeits-/Organisations-,
+  Gesundheitspsychologie, Diagnostik), vertieften
+  Grundlagenfächern, der Geschichte und den Paradigmen sowie der
+  Wissenschaftstheorie und Forschungsethik. Karten, Definitionen
+  und Theorie auf Deutsch, mit den englischen Originalbegriffen
+  in Klammern.
 sets:
   - id: psych-intro-from-de
     title: Psychologie — Grundlagen
@@ -48,14 +61,16 @@ sets:
     domain: psychology
     level: A1
     path: sets/de/psych-intro
-    version: '1.3.0'
-    lesson_count: 25
+    version: '1.4.0'
+    lesson_count: 40
     domain_label: Psychologie
     description: >-
-      Fünfundzwanzig Einführungslektionen Psychologie, auf Deutsch
-      erklärt — von Wundts erstem Labor über Intelligenz, Stress
-      und das Gehirn bis zu den Psychotherapieverfahren und einer
-      Reihe zu Forschungsmethoden und Statistik.
+      Vollständiger Einführungskurs Psychologie auf
+      Universitätsniveau (40 Lektionen), auf Deutsch erklärt — von
+      den Grundlagen- und Anwendungsfächern über Psychotherapie,
+      Forschungsmethoden und Statistik bis zu vertieften
+      Grundlagenfächern, Geschichte, Wissenschaftstheorie und
+      Forschungsethik.
     tags:
       - beginner
       - psychology
@@ -89,3 +104,18 @@ metadata:
     - 23-datenerhebung-und-guetekriterien.json
     - 24-deskriptive-statistik.json
     - 25-inferenzstatistik-und-wiederholung.json
+    - 26-paedagogische-psychologie.json
+    - 27-arbeits-und-organisationspsychologie.json
+    - 28-gesundheitspsychologie.json
+    - 29-psychologische-diagnostik.json
+    - 30-wiederholung-angewandte-psychologie.json
+    - 31-emotionstheorien.json
+    - 32-kognition-vertieft.json
+    - 33-sozialpsychologie-vertieft.json
+    - 34-entwicklungspsychologie-vertieft.json
+    - 35-wiederholung-vertiefte-grundlagen-1.json
+    - 36-persoenlichkeit-vertieft.json
+    - 37-biopsychologie-vertieft.json
+    - 38-geschichte-und-paradigmen.json
+    - 39-wissenschaftstheorie-und-ethik.json
+    - 40-abschluss-capstone.json

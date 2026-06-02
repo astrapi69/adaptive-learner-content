@@ -1,0 +1,254 @@
+{
+  "id": "32-kognition-vertieft",
+  "title": "Kognition vertieft: Aufmerksamkeit, Sprache und Problemlösen",
+  "description": "Selektive und geteilte Aufmerksamkeit, der Cocktailparty-Effekt, Sprachebenen, Chomskys angeborene Sprachfähigkeit, Sapir-Whorf-Hypothese sowie funktionale Gebundenheit, mentale Einstellung und Einsicht beim Problemlösen — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "selektive-aufmerksamkeit",
+      "front": "Selektive Aufmerksamkeit (Selective Attention)",
+      "back": "Die Fähigkeit, sich auf einen Reiz oder eine Aufgabe zu konzentrieren und ablenkende Informationen auszublenden.",
+      "notes": "Klassisches Beispiel: das Beschatteten-Ohr-Experiment von Cherry (1953) — Versuchspersonen hören nur dem Kanal zu, auf den sie gelenkt werden.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["aufmerksamkeit", "kognition"]
+    },
+    {
+      "id": "geteilte-aufmerksamkeit",
+      "front": "Geteilte Aufmerksamkeit (Divided Attention)",
+      "back": "Die gleichzeitige Ausführung zweier oder mehrerer Aufgaben, bei der Aufmerksamkeitsressourcen aufgeteilt werden. Bei anspruchsvollen Aufgaben führt dies meist zu Leistungseinbußen.",
+      "notes": "Eng verwandt mit dem Konzept der begrenzten Kapazität — vgl. Lektion 3 (Arbeitsgedächtnis).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["aufmerksamkeit", "kognition"]
+    },
+    {
+      "id": "cocktailparty-effekt",
+      "front": "Cocktailparty-Effekt (Cocktail-Party Effect)",
+      "back": "Das Phänomen, dass man den eigenen Namen oder andere bedeutsame Wörter aus einem Hintergrundgewirr von Gesprächen herausfiltern kann, obwohl man diesen Kanal nicht bewusst verfolgt.",
+      "notes": "Erstmals von Colin Cherry (1953) beschrieben. Zeigt, dass selektive Aufmerksamkeit auch unbewusste Überwachung enthält.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Passiert auf jeder Party: Man hört plötzlich seinen Namen.",
+      "tags": ["aufmerksamkeit", "kognition", "person"]
+    },
+    {
+      "id": "aufmerksamkeit-flaschenhals",
+      "front": "Aufmerksamkeit als Flaschenhals (Bottleneck)",
+      "back": "Die Auffassung, dass Aufmerksamkeit eine begrenzte Ressource darstellt: Nicht alle Reize können gleichzeitig tief verarbeitet werden — der Informationsfluss wird an einem Engpass gefiltert.",
+      "notes": "Broadbents Filtertheorie (1958) ist das klassische Modell. Das Arbeitsgedächtnis (Lektion 3) ist eng damit verknüpft.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["aufmerksamkeit", "kognition", "modell"]
+    },
+    {
+      "id": "sprachebenen",
+      "front": "Sprachebenen: Phonem, Morphem, Syntax, Semantik",
+      "back": "Vier Analyseebenen der Sprache: **Phonem** (kleinste Lauteinheit), **Morphem** (kleinste bedeutungstragende Einheit), **Syntax** (Regeln zur Satzkonstruktion), **Semantik** (Bedeutung von Wörtern und Sätzen).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["sprache", "kognition"]
+    },
+    {
+      "id": "chomsky-lad",
+      "front": "Chomskys angeborene Sprachfähigkeit (LAD — Language Acquisition Device)",
+      "back": "Noam Chomsky postulierte, dass Menschen mit einem biologisch verankerten Spracherwerbsmechanismus (LAD) geboren werden, der den Erwerb jeder natürlichen Sprache ermöglicht und die Universalgrammatik erklärt.",
+      "notes": "Argument: Kinder erwerben Sprache schnell und fehlerfrei trotz lückenhafter Eingabe — bekannt als das 'Poverty of the Stimulus'-Argument.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "LAD = Language Acquisition Device — angeboren, nicht erlernt.",
+      "tags": ["sprache", "kognition", "person", "theorie"]
+    },
+    {
+      "id": "sapir-whorf-hypothese",
+      "front": "Sapir-Whorf-Hypothese (Sprachliche Relativität)",
+      "back": "Die Annahme, dass die Sprache, die jemand spricht, sein Denken und seine Wahrnehmung der Welt beeinflusst (schwache Version: Relativitätshypothese) oder sogar bestimmt (starke Version: Determinismushypothese).",
+      "notes": "Klassisches Beispiel: viele Wörter für Schnee in arktischen Sprachen. Die starke Version gilt heute als widerlegt; die schwache findet empirische Unterstützung.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["sprache", "kognition", "theorie"]
+    },
+    {
+      "id": "funktionale-gebundenheit",
+      "front": "Funktionale Gebundenheit (Functional Fixedness)",
+      "back": "Die Tendenz, Objekte nur für ihre übliche Funktion zu verwenden und dabei alternative Verwendungsmöglichkeiten zu übersehen — ein Hemmnis beim kreativen Problemlösen.",
+      "notes": "Klassischer Versuch: Dunckers Kerzenaufgabe (1945) — Versuchspersonen übersehen, dass die Schachtel als Halterung dienen kann.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Man sieht einen Hammer nur als Hammer, nicht als Türstopper.",
+      "tags": ["problemloesen", "kognition"]
+    },
+    {
+      "id": "mentale-einstellung",
+      "front": "Mentale Einstellung / Set (Mental Set)",
+      "back": "Die Neigung, Probleme auf die gleiche Weise zu lösen, die in der Vergangenheit funktioniert hat — auch wenn ein neuartiger Ansatz effizienter wäre.",
+      "notes": "Zusammen mit funktionaler Gebundenheit ein Haupthindernis beim Problemlösen. Verwandt mit dem Begriff Einstellungseffekt (Luchins).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["problemloesen", "kognition"]
+    },
+    {
+      "id": "einsicht",
+      "front": "Einsicht / Aha-Erlebnis (Insight)",
+      "back": "Die plötzliche Erkenntnis einer Lösung, die nicht durch schrittweises Suchen erreicht wird, sondern durch eine abrupte Neuorganisation des Problemverständnisses.",
+      "notes": "Klassisch erforscht von Wolfgang Köhler an Schimpansen (1917). Das Gegenstück zu algorithmischem Schritt-für-Schritt-Vorgehen (Lektion 11).",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Das plötzliche 'Heureka!' beim Problemlösen.",
+      "tags": ["problemloesen", "kognition", "person"]
+    },
+    {
+      "id": "algorithmus-heuristik-kurz",
+      "front": "Algorithmus vs. Heuristik beim Problemlösen",
+      "back": "**Algorithmus**: garantiertes, schrittweises Verfahren — sicher, aber zeitaufwendig. **Heuristik**: schnelle Faustregel — effizient, aber fehleranfällig (Wiederaufgriff aus Lektion 11).",
+      "notes": "In Lektion 11 ausführlich eingeführt. Hier im Kontext von Einsicht und mentalem Set relevant.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["problemloesen", "kognition"]
+    },
+    {
+      "id": "phonem",
+      "front": "Phonem (Phoneme)",
+      "back": "Die kleinste bedeutungsunterscheidende Lauteinheit einer Sprache. Beispiel: /p/ und /b/ sind im Deutschen zwei verschiedene Phoneme ('packen' vs. 'backen').",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["sprache", "kognition"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-aufmerksamkeit",
+      "type": "theory",
+      "title": "Aufmerksamkeit: Selektion und begrenzte Ressourcen",
+      "body": "# Aufmerksamkeit\n\nAufmerksamkeit ist eine **kognitive Ressource**, die begrenzt ist — ähnlich wie die Kapazität des Arbeitsgedächtnisses (Lektion 3). Man unterscheidet zwei Grundformen:\n\n| Art | Beschreibung | Beispiel |\n|---|---|---|\n| **Selektive Aufmerksamkeit** | Fokus auf einen Reiz, Rest wird ausgeblendet | nur dem Vortrag zuhören, trotz Lärm |\n| **Geteilte Aufmerksamkeit** | Ressourcen auf mehrere Aufgaben gleichzeitig verteilt | gleichzeitig fahren und navigieren |\n\n## Der Cocktailparty-Effekt\n\nObwohl wir auf einer Party nur *einem* Gespräch folgen, filtern wir unbewusst den Hintergrundlärm auf bedeutsame Signale — etwa unseren eigenen Namen. Dieses Phänomen nennt man den **Cocktailparty-Effekt** (Cherry, 1953). Es zeigt, dass selektive Aufmerksamkeit kein vollständiges Ausblenden ist, sondern eine Art **unterbewusste Überwachung** stattfindet.\n\n## Aufmerksamkeit als Flaschenhals\n\nBroadbents **Filtertheorie** beschreibt Aufmerksamkeit als einen **Flaschenhals (Bottleneck)**: Nur ein begrenzter Strom an Informationen kann tief verarbeitet werden. Das macht geteilte Aufmerksamkeit bei komplexen Aufgaben fehleranfällig."
+    },
+    {
+      "id": "step-sprache",
+      "type": "theory",
+      "title": "Sprache: Ebenen, Erwerb und Relativität",
+      "body": "# Sprache\n\n## Ebenen der Sprachanalyse\n\nSprache lässt sich auf verschiedenen Ebenen beschreiben:\n\n| Ebene | Einheit | Beispiel |\n|---|---|---|\n| **Phonologie** | Phonem (kleinster Laut) | /p/ vs. /b/ in 'Paar'/'Bar' |\n| **Morphologie** | Morphem (kleinste Bedeutungseinheit) | 'un-' + 'glück' + '-lich' |\n| **Syntax** | Satzstruktur und Grammatikregeln | Subjekt-Verb-Objekt-Stellung |\n| **Semantik** | Bedeutung von Wörtern und Sätzen | 'Bank' = Geldinstitut oder Sitzgelegenheit |\n\n## Chomsky: Angeborene Sprachfähigkeit\n\n**Noam Chomsky** argumentierte, dass Kinder Sprache zu schnell und zu korrekt erwerben, um dies allein durch Nachahmung und Verstärkung zu erklären. Er postulierte ein angeborenes **Language Acquisition Device (LAD)** — ein biologisch verankerter Mechanismus, der es ermöglicht, aus unvollständigem Sprachinput die Regeln jeder natürlichen Sprache abzuleiten (**Universalgrammatik**).\n\n## Sapir-Whorf-Hypothese\n\nDie **Sapir-Whorf-Hypothese** (auch: Sprachliche Relativitätshypothese) behauptet, dass die Sprache, die wir sprechen, unser Denken und unsere Wahrnehmung **beeinflusst** (schwache Version) oder sogar **bestimmt** (starke Version). Die starke Version gilt als widerlegt; die schwache Version — Sprache *formt* das Denken teilweise — findet empirische Unterstützung."
+    },
+    {
+      "id": "step-problemloesen",
+      "type": "theory",
+      "title": "Problemlösen: Hindernisse und Einsicht",
+      "body": "# Problemlösen\n\nIn **Lektion 11** haben wir Algorithmus und Heuristik kennengelernt. Hier vertiefen wir drei wichtige Phänomene, die Problemlösen hemmen oder begünstigen:\n\n## Hindernisse beim Problemlösen\n\n| Phänomen | Beschreibung |\n|---|---|\n| **Funktionale Gebundenheit** | Ein Objekt wird nur für seine übliche Funktion wahrgenommen — alternative Verwendungen werden übersehen |\n| **Mentale Einstellung (Set)** | Man greift auf die vertraute Lösungsstrategie zurück, auch wenn ein neuer Ansatz besser wäre |\n\nBeide Phänomene zeigen, wie vergangene Erfahrungen neues Denken **blockieren** können.\n\n## Einsicht — das Aha-Erlebnis\n\n**Einsicht (Insight)** ist das plötzliche, diskontinuierliche Verstehen einer Lösung — das berühmte *Aha-Erlebnis*. Wolfgang Köhler beobachtete es bei Schimpansen, die Werkzeuge einsetzten, um Bananen zu erreichen. Im Gegensatz zum algorithmischen Vorgehen springt die Lösung gleichsam in den Geist, wenn das Problem **neu gerahmt (reframed)** wird.\n\n> **Verbindung zum Arbeitsgedächtnis (Lektion 3):** Alle drei Prozesse — Selektive Aufmerksamkeit, Sprachverarbeitung und Problemlösen — beanspruchen das Arbeitsgedächtnis als zentrale Schaltstelle der bewussten Verarbeitung."
+    },
+    {
+      "id": "ex-match-aufmerksamkeit",
+      "type": "exercise",
+      "title": "Aufmerksamkeitsformen zuordnen",
+      "exercise": {
+        "id": "ex-match-aufmerksamkeit",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine treffende Beschreibung zu.",
+        "card_ids": ["selektive-aufmerksamkeit", "geteilte-aufmerksamkeit", "cocktailparty-effekt"],
+        "pairs": [
+          { "left": "Selektive Aufmerksamkeit", "right": "Fokus auf einen Reiz, Rest ausblenden" },
+          { "left": "Geteilte Aufmerksamkeit", "right": "Ressourcen auf mehrere Aufgaben verteilen" },
+          { "left": "Cocktailparty-Effekt", "right": "eigenen Namen im Lärm unbewusst wahrnehmen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-cocktailparty",
+      "type": "exercise",
+      "title": "Den Cocktailparty-Effekt benennen",
+      "exercise": {
+        "id": "ex-cloze-cocktailparty",
+        "type": "cloze",
+        "prompt": "Ergänze den Fachbegriff für das Phänomen, seinen Namen im Stimmengewirr herauszuhören.",
+        "card_ids": ["cocktailparty-effekt"],
+        "sentence": "Das Herausfiltern des eigenen Namens aus Hintergrundgesprächen heißt ___-Effekt.",
+        "blanks": [
+          { "accept": ["Cocktailparty", "cocktailparty"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englischer Begriff — passiert auf Feiern mit viel Hintergrundlärm."
+      }
+    },
+    {
+      "id": "ex-match-sprachebenen",
+      "type": "exercise",
+      "title": "Sprachebenen zuordnen",
+      "exercise": {
+        "id": "ex-match-sprachebenen",
+        "type": "matching",
+        "prompt": "Ordne jede Sprachebene ihrer Einheit bzw. ihrem Gegenstand zu.",
+        "card_ids": ["sprachebenen", "phonem"],
+        "pairs": [
+          { "left": "Phonologie", "right": "kleinste bedeutungsunterscheidende Lauteinheit" },
+          { "left": "Morphologie", "right": "kleinste bedeutungstragende Einheit" },
+          { "left": "Syntax", "right": "Regeln zur Satzkonstruktion" },
+          { "left": "Semantik", "right": "Bedeutung von Wörtern und Sätzen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-chomsky",
+      "type": "exercise",
+      "title": "Chomskys Spracherwerbsmechanismus",
+      "exercise": {
+        "id": "ex-free-chomsky",
+        "type": "free_text",
+        "prompt": "Wie heißt der von Chomsky postulierte angeborene Spracherwerbsmechanismus (Abkürzung oder Vollform)?",
+        "card_ids": ["chomsky-lad"],
+        "accept": ["LAD", "Language Acquisition Device", "Spracherwerbsmechanismus", "angeborene Sprachfähigkeit"],
+        "hint": "Drei Buchstaben — englische Abkürzung für einen 'Gerät' zum Spracherwerb.",
+        "distractors": ["UG", "TGG", "Universalgrammatik", "Sprachmodul"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-problemloesen-hindernisse",
+      "type": "exercise",
+      "title": "Hindernisse beim Problemlösen",
+      "exercise": {
+        "id": "ex-free-problemloesen-hindernisse",
+        "type": "free_text",
+        "prompt": "Wie heißt die Tendenz, ein Objekt nur für seine übliche Funktion zu sehen (englisch: functional fixedness)?",
+        "card_ids": ["funktionale-gebundenheit"],
+        "accept": ["Funktionale Gebundenheit", "funktionale Gebundenheit", "Functional Fixedness", "functional fixedness"],
+        "hint": "Man sieht eine Schachtel nur als Schachtel, nicht als Halterung.",
+        "distractors": ["Mentale Einstellung", "Bestätigungsfehler", "kognitive Dissonanz"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-einsicht",
+      "type": "exercise",
+      "title": "Das Aha-Erlebnis",
+      "exercise": {
+        "id": "ex-cloze-einsicht",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für die plötzliche Erkenntnis einer Lösung.",
+        "card_ids": ["einsicht"],
+        "sentence": "Die plötzliche, diskontinuierliche Erkenntnis einer Lösung nennt man ___ oder Aha-Erlebnis.",
+        "blanks": [
+          { "accept": ["Einsicht", "einsicht", "Insight", "insight"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Gegenteil eines schrittweisen Algorithmus — kommt plötzlich."
+      }
+    },
+    {
+      "id": "ex-tiles-sapir-whorf",
+      "type": "exercise",
+      "title": "Die Sapir-Whorf-Hypothese formulieren",
+      "exercise": {
+        "id": "ex-tiles-sapir-whorf",
+        "type": "word_tiles",
+        "prompt": "Setze den Kernsatz zur Sapir-Whorf-Hypothese zusammen.",
+        "card_ids": ["sapir-whorf-hypothese"],
+        "tiles": ["Die", "Sprache", "beeinflusst", "unser", "Denken", "und", "unsere", "Wahrnehmung"],
+        "hint": "Beginnt mit 'Die Sprache beeinflusst …'.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

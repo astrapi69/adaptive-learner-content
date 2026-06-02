@@ -1,0 +1,249 @@
+{
+  "id": "26-paedagogische-psychologie",
+  "title": "Pädagogische Psychologie",
+  "description": "Lernen und Lehren in Bildungskontexten: Lernmotivation, Selbstwirksamkeit und Selbstbestimmungstheorie, Feedback, Scaffolding und Lernstrategien — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "paedagogische-psychologie",
+      "front": "Pädagogische Psychologie (Educational Psychology)",
+      "back": "Das Anwendungsfach, das Lernen, Lehren und Entwicklung in Bildungskontexten (Schule, Ausbildung, Hochschule) wissenschaftlich untersucht.",
+      "notes": "Ein Anwendungsfach der Psychologie — wie die klinische (Lektion 9) oder die Arbeitspsychologie.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["grundlagen", "anwendungsfach"]
+    },
+    {
+      "id": "intrinsische-motivation",
+      "front": "Intrinsische Motivation",
+      "back": "Antrieb, der aus der Tätigkeit selbst kommt — man lernt aus Interesse und Freude an der Sache.",
+      "notes": "In Lektion 5 (Motivation und Emotion) eingeführt. Im Lernen besonders stabil und tiefenwirksam.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["motivation"]
+    },
+    {
+      "id": "extrinsische-motivation",
+      "front": "Extrinsische Motivation",
+      "back": "Antrieb durch äußere Folgen — Noten, Lob, Belohnung oder das Vermeiden von Strafe.",
+      "notes": "Wirkt oft kurzfristig; kann intrinsische Motivation sogar untergraben (Korrumpierungseffekt).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["motivation"]
+    },
+    {
+      "id": "selbstwirksamkeit",
+      "front": "Selbstwirksamkeit (Self-Efficacy)",
+      "back": "Die Überzeugung, eine Aufgabe aus eigener Kraft bewältigen zu können. Sie sagt Anstrengung und Ausdauer beim Lernen stark voraus.",
+      "notes": "Konzept von Albert Bandura. 'Ich schaffe das.'",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Von Bandura — Glaube an die eigene Fähigkeit.",
+      "tags": ["motivation", "person"]
+    },
+    {
+      "id": "selbstbestimmungstheorie",
+      "front": "Selbstbestimmungstheorie (Self-Determination Theory)",
+      "back": "Theorie von Deci und Ryan: Motivation gedeiht, wenn drei Grundbedürfnisse erfüllt sind — Autonomie, Kompetenz und soziale Eingebundenheit.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["motivation", "theorie"]
+    },
+    {
+      "id": "autonomie-kompetenz-eingebundenheit",
+      "front": "Autonomie, Kompetenz, Eingebundenheit",
+      "back": "Die drei psychologischen Grundbedürfnisse der Selbstbestimmungstheorie: selbst entscheiden dürfen, sich fähig fühlen und dazugehören.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["motivation", "theorie"]
+    },
+    {
+      "id": "feedback",
+      "front": "Feedback (Rückmeldung)",
+      "back": "Information über den aktuellen Lernstand im Vergleich zum Ziel. Wirksames Feedback beantwortet: Wo stehe ich? Wohin will ich? Wie komme ich dahin?",
+      "notes": "Gilt als einer der stärksten Einflussfaktoren auf den Lernerfolg (Hattie).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["lehren"]
+    },
+    {
+      "id": "scaffolding",
+      "front": "Scaffolding (Lerngerüst)",
+      "back": "Vorübergehende Unterstützung, die der Lehrende anbietet und schrittweise abbaut, sobald der Lernende selbstständiger wird.",
+      "notes": "Bild: ein Baugerüst, das man nach Fertigstellung wieder entfernt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["lehren"]
+    },
+    {
+      "id": "zone-naechster-entwicklung",
+      "front": "Zone der nächsten Entwicklung (ZPD)",
+      "back": "Der Bereich zwischen dem, was ein Lernender allein kann, und dem, was er mit Unterstützung schafft. Hier ist Lernen am wirksamsten.",
+      "notes": "Konzept von Lew Wygotski (Vygotskij). Eng mit Scaffolding verbunden.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["lehren", "person"]
+    },
+    {
+      "id": "lernstrategien",
+      "front": "Lernstrategien",
+      "back": "Bewusste Vorgehensweisen beim Lernen — z. B. Wiederholen, Elaborieren (Verknüpfen mit Vorwissen), Organisieren und metakognitives Planen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["lernen"]
+    },
+    {
+      "id": "metakognition",
+      "front": "Metakognition",
+      "back": "Das Wissen über das eigene Denken und Lernen sowie dessen Steuerung — Planen, Überwachen und Bewerten des eigenen Lernens.",
+      "notes": "'Über das eigene Denken nachdenken.'",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["lernen"]
+    },
+    {
+      "id": "pygmalion-effekt",
+      "front": "Pygmalion-Effekt (Erwartungseffekt)",
+      "back": "Hohe Erwartungen von Lehrkräften an Lernende können deren Leistung tatsächlich verbessern — eine sich selbst erfüllende Prophezeiung.",
+      "notes": "Klassische Studie von Rosenthal und Jacobson. Knüpft an die selbsterfüllende Prophezeiung aus der Sozialpsychologie (Lektion 7) an.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["lehren", "sozial"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Was ist Pädagogische Psychologie?",
+      "body": "# Pädagogische Psychologie\n\nDie **Pädagogische Psychologie** ist ein **Anwendungsfach**: Sie untersucht *Lernen, Lehren und Entwicklung in Bildungskontexten* — in Schule, Ausbildung und Hochschule. Damit steht sie neben den anderen Anwendungsfächern wie der klinischen Psychologie (Lektion 9).\n\n## Lernmotivation\n\nEin zentrales Thema ist die **Motivation** (vgl. Lektion 5). Man unterscheidet:\n\n| Art | Quelle des Antriebs | Beispiel |\n|---|---|---|\n| **intrinsisch** | die Tätigkeit selbst | aus Interesse lesen |\n| **extrinsisch** | äußere Folgen | für eine gute Note lernen |\n\n> **Achtung:** Zu starke äußere Belohnungen können die intrinsische Motivation sogar **untergraben** (Korrumpierungseffekt). Wer gern malt, malt nach Bezahlung manchmal weniger gern."
+    },
+    {
+      "id": "step-motivationstheorien",
+      "type": "theory",
+      "title": "Zwei einflussreiche Motivationstheorien",
+      "body": "## Selbstwirksamkeit\n\nNach **Albert Bandura** ist die **Selbstwirksamkeit** entscheidend — die Überzeugung *'Ich kann diese Aufgabe aus eigener Kraft schaffen.'* Sie sagt voraus, **wie viel** Anstrengung und Ausdauer jemand investiert, besonders bei Schwierigkeiten.\n\n## Selbstbestimmungstheorie\n\n**Deci und Ryan** beschreiben drei **psychologische Grundbedürfnisse**, die Motivation aufblühen lassen:\n\n| Bedürfnis | Bedeutung |\n|---|---|\n| **Autonomie** | selbst entscheiden dürfen |\n| **Kompetenz** | sich fähig und wirksam fühlen |\n| **soziale Eingebundenheit** | dazugehören, sich verbunden fühlen |\n\nWerden alle drei erfüllt, entsteht eher **intrinsische** Motivation — guter Unterricht versucht deshalb, alle drei anzusprechen."
+    },
+    {
+      "id": "step-lehren-lernen",
+      "type": "theory",
+      "title": "Wirksames Lehren und Lernen",
+      "body": "## Was Lernen besonders fördert\n\n- **Feedback** — Rückmeldung über den Lernstand. Gutes Feedback beantwortet drei Fragen: *Wo stehe ich? Wohin will ich? Wie komme ich dahin?* Es zählt zu den stärksten Einflussfaktoren auf den Lernerfolg.\n- **Scaffolding** — ein **Lerngerüst**: Unterstützung, die schrittweise abgebaut wird. Sie wirkt am besten in der **Zone der nächsten Entwicklung** (Wygotski) — dem Bereich zwischen dem, was man allein kann, und dem, was man mit Hilfe schafft.\n- **Lernstrategien & Metakognition** — Wiederholen, Elaborieren, Organisieren *und* das eigene Lernen planen und überwachen (Metakognition).\n\n> **Pygmalion-Effekt:** Auch die **Erwartungen** der Lehrkraft wirken. Hohe (realistische) Erwartungen können die Leistung tatsächlich steigern — eine sich selbst erfüllende Prophezeiung (vgl. Lektion 7)."
+    },
+    {
+      "id": "ex-cloze-fach",
+      "type": "exercise",
+      "title": "Das Anwendungsfach benennen",
+      "exercise": {
+        "id": "ex-cloze-fach",
+        "type": "cloze",
+        "prompt": "Ergänze den Namen des Fachs, das Lernen und Lehren untersucht.",
+        "card_ids": ["paedagogische-psychologie"],
+        "sentence": "Die ___ Psychologie untersucht Lernen und Lehren in Bildungskontexten.",
+        "blanks": [
+          { "accept": ["Pädagogische", "pädagogische"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Von 'Pädagogik' = Erziehungs-/Bildungslehre."
+      }
+    },
+    {
+      "id": "ex-match-motivation",
+      "type": "exercise",
+      "title": "Motivationsbegriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-motivation",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine Bedeutung zu.",
+        "card_ids": ["intrinsische-motivation", "extrinsische-motivation", "selbstwirksamkeit"],
+        "pairs": [
+          { "left": "intrinsische Motivation", "right": "Antrieb aus der Tätigkeit selbst" },
+          { "left": "extrinsische Motivation", "right": "Antrieb durch äußere Folgen" },
+          { "left": "Selbstwirksamkeit", "right": "Überzeugung, es schaffen zu können" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-selbstwirksamkeit",
+      "type": "exercise",
+      "title": "Banduras Konzept",
+      "exercise": {
+        "id": "ex-free-selbstwirksamkeit",
+        "type": "free_text",
+        "prompt": "Wie heißt die Überzeugung, eine Aufgabe aus eigener Kraft bewältigen zu können (nach Bandura)?",
+        "card_ids": ["selbstwirksamkeit"],
+        "accept": ["Selbstwirksamkeit", "die Selbstwirksamkeit", "Selbstwirksamkeitserwartung", "self-efficacy"],
+        "hint": "Zusammengesetzt aus 'selbst' und 'wirksam'.",
+        "distractors": ["Selbstbestimmung", "Selbstwertgefühl", "extrinsische Motivation"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-grundbeduerfnisse",
+      "type": "exercise",
+      "title": "Die drei Grundbedürfnisse",
+      "exercise": {
+        "id": "ex-match-grundbeduerfnisse",
+        "type": "matching",
+        "prompt": "Ordne jedes Grundbedürfnis der Selbstbestimmungstheorie seiner Bedeutung zu.",
+        "card_ids": ["selbstbestimmungstheorie", "autonomie-kompetenz-eingebundenheit"],
+        "pairs": [
+          { "left": "Autonomie", "right": "selbst entscheiden dürfen" },
+          { "left": "Kompetenz", "right": "sich fähig fühlen" },
+          { "left": "soziale Eingebundenheit", "right": "dazugehören" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-scaffolding",
+      "type": "exercise",
+      "title": "Das Lerngerüst",
+      "exercise": {
+        "id": "ex-cloze-scaffolding",
+        "type": "cloze",
+        "prompt": "Ergänze den Fachbegriff für die schrittweise abgebaute Lernunterstützung.",
+        "card_ids": ["scaffolding", "zone-naechster-entwicklung"],
+        "sentence": "Beim ___ gibt die Lehrkraft Unterstützung, die sie nach und nach wieder abbaut.",
+        "blanks": [
+          { "accept": ["Scaffolding"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englisch für 'Baugerüst'."
+      }
+    },
+    {
+      "id": "ex-free-pygmalion",
+      "type": "exercise",
+      "title": "Erwartungen wirken",
+      "exercise": {
+        "id": "ex-free-pygmalion",
+        "type": "free_text",
+        "prompt": "Wie heißt der Effekt, bei dem hohe Erwartungen der Lehrkraft die Leistung der Lernenden tatsächlich verbessern?",
+        "card_ids": ["pygmalion-effekt"],
+        "accept": ["Pygmalion-Effekt", "der Pygmalion-Effekt", "Pygmalioneffekt", "Erwartungseffekt"],
+        "hint": "Eine sich selbst erfüllende Prophezeiung; Studie von Rosenthal.",
+        "distractors": ["Placebo-Effekt", "Halo-Effekt", "Bestätigungsfehler"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-feedback",
+      "type": "exercise",
+      "title": "Wozu Feedback dient",
+      "exercise": {
+        "id": "ex-tiles-feedback",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zum Feedback zusammen.",
+        "card_ids": ["feedback"],
+        "tiles": ["Gutes", "Feedback", "zeigt", "den", "Weg", "zum", "Ziel"],
+        "hint": "Beginnt mit 'Gutes Feedback zeigt …'.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
