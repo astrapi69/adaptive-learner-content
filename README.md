@@ -60,4 +60,4 @@ All PRs are validated automatically via CI.
 
 ## License
 
-Content is licensed under [CC-BY-SA-4.0](./LICENSE).
+Content is licensed under [Creative Commons Legal Code CC0 1.0 Universal](./LICENSE).
