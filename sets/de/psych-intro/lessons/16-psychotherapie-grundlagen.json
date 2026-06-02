@@ -1,0 +1,254 @@
+{
+  "id": "16-psychotherapie-grundlagen",
+  "title": "Grundlagen der Psychotherapie",
+  "description": "Was Psychotherapie ist, das Setting, die wichtigsten Wirkfaktoren und die therapeutische Beziehung — als Einstieg in die Psychotherapieverfahren, auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "psychotherapie",
+      "front": "Psychotherapie (Psychotherapy)",
+      "back": "Die geplante, wissenschaftlich fundierte Behandlung psychischer Störungen und Leiden mit psychologischen Mitteln — also durch Gespräch, Übung und Beziehung statt durch Medikamente.",
+      "notes": "Abzugrenzen von der **Pharmakotherapie** (Behandlung mit Medikamenten). Beide können kombiniert werden.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["grundlagen", "psychotherapie"]
+    },
+    {
+      "id": "psychische-stoerung",
+      "front": "Psychische Störung",
+      "back": "Ein klinisch bedeutsames Muster von Gedanken, Gefühlen oder Verhalten, das mit Leiden oder Beeinträchtigung im Alltag einhergeht.",
+      "notes": "In Lektion 9 (Klinische Psychologie) eingeführt. Psychotherapie ist eine zentrale Behandlungsform.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["klinisch", "psychotherapie"]
+    },
+    {
+      "id": "setting",
+      "front": "Setting",
+      "back": "Der äußere Rahmen einer Therapie: z. B. Einzel-, Paar- oder Gruppentherapie, Sitzungsdauer, Häufigkeit und Gesamtzahl der Sitzungen.",
+      "notes": "Ein typisches Setting: 50-minütige Einzelsitzungen, wöchentlich.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grundlagen", "setting"]
+    },
+    {
+      "id": "therapeutische-beziehung",
+      "front": "Therapeutische Beziehung (Therapeutic Alliance)",
+      "back": "Die vertrauensvolle Arbeitsbeziehung zwischen Therapeut:in und Klient:in. Sie gilt als einer der stärksten Vorhersagefaktoren für den Therapieerfolg.",
+      "notes": "Auch 'therapeutische Allianz' genannt. Wichtiger als die Frage, welches einzelne Verfahren genau angewendet wird.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Englisch: alliance — eine Art Bündnis.",
+      "tags": ["wirkfaktor", "beziehung"]
+    },
+    {
+      "id": "wirkfaktoren",
+      "front": "Allgemeine Wirkfaktoren (Common Factors)",
+      "back": "Heilsame Elemente, die fast allen Therapieformen gemeinsam sind — z. B. die therapeutische Beziehung, Hoffnung, ein nachvollziehbares Erklärungsmodell und das Üben neuer Erfahrungen.",
+      "notes": "Nach Klaus Grawe u. a. Sie erklären, warum verschiedene Verfahren oft ähnlich gut wirken.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["wirkfaktor", "theorie"]
+    },
+    {
+      "id": "ressourcenaktivierung",
+      "front": "Ressourcenaktivierung",
+      "back": "Ein Wirkfaktor: die Stärken, Fähigkeiten und positiven Möglichkeiten der Klient:innen werden bewusst genutzt und gefördert.",
+      "notes": "Einer von Grawes vier allgemeinen Wirkfaktoren.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["wirkfaktor"]
+    },
+    {
+      "id": "indikation",
+      "front": "Indikation",
+      "back": "Die begründete Entscheidung, welches Verfahren für welche Person und welche Störung geeignet ist ('Was hilft wem?').",
+      "notes": "Gegenteil: Kontraindikation — Gründe, die gegen eine bestimmte Behandlung sprechen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grundlagen", "indikation"]
+    },
+    {
+      "id": "anamnese",
+      "front": "Anamnese",
+      "back": "Die systematische Erhebung der Vorgeschichte zu Beginn einer Behandlung: Beschwerden, Lebensgeschichte, frühere Erkrankungen.",
+      "notes": "Bildet die Grundlage für Diagnose und Therapieplanung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["diagnostik", "ablauf"]
+    },
+    {
+      "id": "therapieziel",
+      "front": "Therapieziel",
+      "back": "Ein gemeinsam vereinbartes, möglichst konkretes Ziel der Behandlung (z. B. 'wieder mit dem Bus fahren können').",
+      "notes": "Klare, überprüfbare Ziele erhöhen die Wirksamkeit und Motivation.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["ablauf"]
+    },
+    {
+      "id": "vier-hauptverfahren",
+      "front": "Die anerkannten Hauptverfahren",
+      "back": "Vier große Therapierichtungen: Verhaltenstherapie, kognitive (Verhaltens-)Therapie, psychodynamische/tiefenpsychologische Verfahren und humanistische Verfahren.",
+      "notes": "Die nächsten Lektionen behandeln diese der Reihe nach.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verfahren", "ueberblick"]
+    },
+    {
+      "id": "evidenzbasierung",
+      "front": "Evidenzbasierung",
+      "back": "Der Anspruch, dass die Wirksamkeit eines Verfahrens durch wissenschaftliche Studien belegt sein soll.",
+      "notes": "Knüpft an die empirische Methode der Psychologie aus Lektion 1 an.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Von 'Evidenz' = wissenschaftlicher Beleg.",
+      "tags": ["wissenschaft", "wirksamkeit"]
+    },
+    {
+      "id": "schweigepflicht",
+      "front": "Schweigepflicht",
+      "back": "Die gesetzliche Pflicht der Therapeut:innen, alles Anvertraute vertraulich zu behandeln. Sie schafft die Sicherheit, offen sprechen zu können.",
+      "notes": "Eine wichtige Voraussetzung für eine tragfähige therapeutische Beziehung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["ethik", "beziehung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Was ist Psychotherapie?",
+      "body": "# Grundlagen der Psychotherapie\n\n**Psychotherapie** ist die *geplante und wissenschaftlich fundierte Behandlung psychischer Störungen mit psychologischen Mitteln* — also durch **Gespräch, Übung und Beziehung**, nicht durch Medikamente.\n\nIn **Lektion 9** hast du psychische Störungen kennengelernt. Psychotherapie ist eine der zentralen Wege, sie zu behandeln.\n\n## Abgrenzung\n\n| Behandlungsform | Mittel |\n|---|---|\n| **Psychotherapie** | Gespräch, Übungen, Beziehung |\n| **Pharmakotherapie** | Medikamente (z. B. Antidepressiva) |\n\nBeide schließen sich nicht aus — bei manchen Störungen wirkt die **Kombination** am besten.\n\n## Der äußere Rahmen: das Setting\n\nDas **Setting** beschreibt den organisatorischen Rahmen: Einzel-, Paar- oder Gruppentherapie, die Dauer einer Sitzung (oft 50 Minuten) und wie häufig man sich trifft. Am Anfang stehen meist die **Anamnese** (Erhebung der Vorgeschichte) und das Vereinbaren von **Therapiezielen**."
+    },
+    {
+      "id": "step-wirkfaktoren",
+      "type": "theory",
+      "title": "Warum Therapie wirkt: die Wirkfaktoren",
+      "body": "## Allgemeine Wirkfaktoren\n\nVerschiedene Verfahren wirken oft **ähnlich gut**. Das liegt an den **allgemeinen Wirkfaktoren** — heilsamen Elementen, die fast allen Therapien gemeinsam sind. Der Psychotherapieforscher **Klaus Grawe** beschrieb vier davon:\n\n| Wirkfaktor | Worum es geht |\n|---|---|\n| **Therapeutische Beziehung** | tragfähiges, vertrauensvolles Bündnis |\n| **Ressourcenaktivierung** | Stärken und Fähigkeiten nutzen |\n| **Problemaktualisierung** | das Problem im Hier und Jetzt erlebbar machen |\n| **Klärung & Bewältigung** | verstehen *und* konkret bewältigen |\n\n> Die **therapeutische Beziehung** (auch *therapeutische Allianz*) gilt als einer der **stärksten** Vorhersagefaktoren für den Erfolg — oft wichtiger als die Wahl des konkreten Verfahrens.\n\nGetragen wird diese Beziehung u. a. von der **Schweigepflicht**: Nur wer sicher sein kann, dass alles vertraulich bleibt, spricht wirklich offen."
+    },
+    {
+      "id": "step-verfahren-ueberblick",
+      "type": "theory",
+      "title": "Die vier Hauptverfahren im Überblick",
+      "body": "## Was kommt in den nächsten Lektionen?\n\nEs gibt vier große, anerkannte Therapierichtungen. Welche zum Einsatz kommt, ist eine Frage der **Indikation** ('Was hilft wem?') und sollte **evidenzbasiert** sein — also durch Studien belegt.\n\n| Verfahren | Kerngedanke | Lektion |\n|---|---|---|\n| **Verhaltenstherapie** | Verhalten ist erlernt und kann umgelernt werden | 17 |\n| **Kognitive Verhaltenstherapie** | Gedanken beeinflussen Gefühle und Verhalten | 18 |\n| **Psychodynamische Verfahren** | unbewusste Konflikte aus der Vergangenheit wirken nach | 19 |\n| **Humanistische Verfahren** | der Mensch wächst in einer akzeptierenden Beziehung | 19 |\n\nDiese Lektion liefert das **Fundament**; die folgenden gehen jeweils in die Tiefe."
+    },
+    {
+      "id": "ex-cloze-mittel",
+      "type": "exercise",
+      "title": "Womit Psychotherapie arbeitet",
+      "exercise": {
+        "id": "ex-cloze-mittel",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für die Behandlung mit psychologischen Mitteln.",
+        "card_ids": ["psychotherapie"],
+        "sentence": "Die ___ behandelt psychische Störungen mit psychologischen Mitteln statt mit Medikamenten.",
+        "blanks": [
+          { "accept": ["Psychotherapie"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Gegenstück zur Pharmakotherapie."
+      }
+    },
+    {
+      "id": "ex-match-grundbegriffe",
+      "type": "exercise",
+      "title": "Grundbegriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-grundbegriffe",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine Bedeutung zu.",
+        "card_ids": ["setting", "anamnese", "indikation", "schweigepflicht"],
+        "pairs": [
+          { "left": "Setting", "right": "äußerer Rahmen der Therapie" },
+          { "left": "Anamnese", "right": "Erhebung der Vorgeschichte" },
+          { "left": "Indikation", "right": "Was hilft wem?" },
+          { "left": "Schweigepflicht", "right": "Pflicht zur Vertraulichkeit" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-beziehung",
+      "type": "exercise",
+      "title": "Der stärkste Wirkfaktor",
+      "exercise": {
+        "id": "ex-free-beziehung",
+        "type": "free_text",
+        "prompt": "Wie heißt das vertrauensvolle Arbeitsbündnis zwischen Therapeut:in und Klient:in, das den Erfolg stark vorhersagt?",
+        "card_ids": ["therapeutische-beziehung"],
+        "accept": ["therapeutische Beziehung", "die therapeutische Beziehung", "therapeutische Allianz", "therapeutische Beziehung (Allianz)"],
+        "hint": "Auch 'Allianz' genannt — ein Bündnis.",
+        "distractors": ["Schweigepflicht", "Setting", "Indikation"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-wirkfaktoren",
+      "type": "exercise",
+      "title": "Grawes Wirkfaktoren",
+      "exercise": {
+        "id": "ex-match-wirkfaktoren",
+        "type": "matching",
+        "prompt": "Ordne jeden Wirkfaktor seiner Beschreibung zu.",
+        "card_ids": ["therapeutische-beziehung", "ressourcenaktivierung", "wirkfaktoren"],
+        "pairs": [
+          { "left": "therapeutische Beziehung", "right": "vertrauensvolles Bündnis" },
+          { "left": "Ressourcenaktivierung", "right": "Stärken und Fähigkeiten nutzen" },
+          { "left": "Problemaktualisierung", "right": "das Problem erlebbar machen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-evidenz",
+      "type": "exercise",
+      "title": "Wissenschaftlich belegt",
+      "exercise": {
+        "id": "ex-cloze-evidenz",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff dafür, dass die Wirksamkeit durch Studien belegt sein soll.",
+        "card_ids": ["evidenzbasierung"],
+        "sentence": "Ein gutes Verfahren ist ___ , das heißt durch wissenschaftliche Studien abgesichert.",
+        "blanks": [
+          { "accept": ["evidenzbasiert", "evidenzbasiert (belegt)"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Von 'Evidenz' = Beleg."
+      }
+    },
+    {
+      "id": "ex-free-pharmako",
+      "type": "exercise",
+      "title": "Abgrenzung zur Medikamentenbehandlung",
+      "exercise": {
+        "id": "ex-free-pharmako",
+        "type": "free_text",
+        "prompt": "Wie nennt man die Behandlung psychischer Störungen mit Medikamenten (im Gegensatz zur Psychotherapie)?",
+        "card_ids": ["psychotherapie"],
+        "accept": ["Pharmakotherapie", "die Pharmakotherapie", "Pharmakotherapie (Medikamente)", "medikamentöse Therapie"],
+        "hint": "Von 'Pharmakon' = Arzneimittel.",
+        "distractors": ["Psychotherapie", "Anamnese", "Verhaltenstherapie"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-ziel",
+      "type": "exercise",
+      "title": "Ein gutes Therapieziel",
+      "exercise": {
+        "id": "ex-tiles-ziel",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zu Therapiezielen zusammen.",
+        "card_ids": ["therapieziel"],
+        "tiles": ["Therapieziele", "sollten", "konkret", "und", "überprüfbar", "sein"],
+        "hint": "Beginnt mit 'Therapieziele sollten ...'.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
