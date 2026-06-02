@@ -1,0 +1,284 @@
+{
+  "id": "05-listen",
+  "title": "Listen (Lists)",
+  "description": "Listen erstellen, Elemente abrufen und ändern, Slicing, len() und typische Listenmethoden — alles auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "programming",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "py-list-erstellen",
+      "front": "Liste erstellen (List)",
+      "back": "Eine Liste speichert mehrere Werte in eckigen Klammern, getrennt durch Kommas.",
+      "code_snippet": "farben = ['rot', 'gruen', 'blau']\nprint(farben)",
+      "code_language": "python",
+      "expected_output": "['rot', 'gruen', 'blau']",
+      "hint": "Eckige Klammern [ ] verwenden.",
+      "difficulty": 1,
+      "tags": ["liste", "grundlagen"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-list-index",
+      "front": "Indexing — liste[0]",
+      "back": "Mit einem Index in eckigen Klammern greift man auf ein einzelnes Element zu. Der erste Index ist 0.",
+      "code_snippet": "farben = ['rot', 'gruen', 'blau']\nprint(farben[0])",
+      "code_language": "python",
+      "expected_output": "rot",
+      "hint": "Listen beginnen bei Index 0.",
+      "difficulty": 2,
+      "tags": ["liste", "indexing"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-list-neg-index",
+      "front": "Negativer Index — liste[-1]",
+      "back": "Negative Indizes zählen vom Ende der Liste. -1 ist das letzte Element.",
+      "code_snippet": "farben = ['rot', 'gruen', 'blau']\nprint(farben[-1])",
+      "code_language": "python",
+      "expected_output": "blau",
+      "hint": "-1 ist immer das letzte Element.",
+      "difficulty": 2,
+      "tags": ["liste", "indexing"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-list-slicing",
+      "front": "Slicing — liste[1:3]",
+      "back": "Mit Slicing schneidet man einen Teil einer Liste heraus. liste[start:stop] gibt Elemente von Index start bis stop-1 zurück.",
+      "code_snippet": "zahlen = [10, 20, 30, 40, 50]\nprint(zahlen[1:3])",
+      "code_language": "python",
+      "expected_output": "[20, 30]",
+      "hint": "Stop-Index ist nicht enthalten.",
+      "difficulty": 3,
+      "tags": ["liste", "slicing"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-list-len",
+      "front": "len() — Länge einer Liste",
+      "back": "len(liste) gibt die Anzahl der Elemente in der Liste zurück.",
+      "code_snippet": "farben = ['rot', 'gruen', 'blau']\nprint(len(farben))",
+      "code_language": "python",
+      "expected_output": "3",
+      "hint": "len steht für 'length' (Länge).",
+      "difficulty": 1,
+      "tags": ["liste", "funktion"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-list-aendern",
+      "front": "Element ändern",
+      "back": "Mit liste[index] = neuer_wert ersetzt man ein Element an einem bestimmten Index.",
+      "code_snippet": "farben = ['rot', 'gruen', 'blau']\nfarben[1] = 'gelb'\nprint(farben)",
+      "code_language": "python",
+      "expected_output": "['rot', 'gelb', 'blau']",
+      "hint": "Zuweisung wie bei einer Variablen, nur mit Index.",
+      "difficulty": 2,
+      "tags": ["liste", "mutation"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-list-append",
+      "front": ".append() — Element hinzufügen",
+      "back": ".append(element) fügt ein Element ans Ende der Liste an.",
+      "code_snippet": "farben = ['rot', 'gruen']\nfarben.append('blau')\nprint(farben)",
+      "code_language": "python",
+      "expected_output": "['rot', 'gruen', 'blau']",
+      "hint": "Das neue Element landet immer am Ende.",
+      "difficulty": 2,
+      "tags": ["liste", "methode"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-list-remove",
+      "front": ".remove() — Element entfernen",
+      "back": ".remove(wert) entfernt das erste Vorkommen des angegebenen Werts aus der Liste.",
+      "code_snippet": "farben = ['rot', 'gruen', 'blau']\nfarben.remove('gruen')\nprint(farben)",
+      "code_language": "python",
+      "expected_output": "['rot', 'blau']",
+      "hint": "Man übergibt den Wert, nicht den Index.",
+      "difficulty": 2,
+      "tags": ["liste", "methode"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-list-insert",
+      "front": ".insert() — Element einfügen",
+      "back": ".insert(index, wert) fügt ein Element an einer bestimmten Position ein.",
+      "code_snippet": "farben = ['rot', 'blau']\nfarben.insert(1, 'gruen')\nprint(farben)",
+      "code_language": "python",
+      "expected_output": "['rot', 'gruen', 'blau']",
+      "hint": "Erst kommt der Index, dann der Wert.",
+      "difficulty": 3,
+      "tags": ["liste", "methode"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-list-in",
+      "front": "in-Test — Element prüfen",
+      "back": "Mit dem Operator in prüft man, ob ein Wert in einer Liste enthalten ist. Das Ergebnis ist True oder False.",
+      "code_snippet": "farben = ['rot', 'gruen', 'blau']\nprint('gruen' in farben)",
+      "code_language": "python",
+      "expected_output": "True",
+      "hint": "in gibt einen booleschen Wert zurück.",
+      "difficulty": 2,
+      "tags": ["liste", "operator"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-list-leer",
+      "front": "Leere Liste",
+      "back": "Eine leere Liste wird mit [] erzeugt. Man kann später Elemente mit .append() hinzufügen.",
+      "code_snippet": "meine_liste = []\nmeine_liste.append(42)\nprint(meine_liste)",
+      "code_language": "python",
+      "expected_output": "[42]",
+      "hint": "Eckige Klammern ohne Inhalt.",
+      "difficulty": 1,
+      "tags": ["liste", "grundlagen"],
+      "media_type": "code"
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-list-grundlagen",
+      "type": "theory",
+      "title": "Listen erstellen und auf Elemente zugreifen",
+      "body": "# Listen (Lists)\n\nEine **Liste** speichert mehrere Werte in einer einzigen Variablen. Listen stehen in **eckigen Klammern** `[]`, die Elemente werden durch Kommas getrennt:\n\n```python\nfarben = ['rot', 'gruen', 'blau']\nprint(farben)\n```\n\nAusgabe:\n\n```\n['rot', 'gruen', 'blau']\n```\n\n## Indexing — Elemente abrufen\n\nJedes Element hat eine **Position (Index)**. Der erste Index ist **0**:\n\n```python\nprint(farben[0])   # rot\nprint(farben[1])   # gruen\n```\n\n**Negativer Index:** `-1` ist das letzte Element, `-2` das vorletzte usw.:\n\n```python\nprint(farben[-1])  # blau\n```\n\n## Slicing — Ausschnitt abrufen\n\nMit `liste[start:stop]` bekommt man einen Teil der Liste. Der `stop`-Index selbst ist **nicht** enthalten:\n\n```python\nzahlen = [10, 20, 30, 40, 50]\nprint(zahlen[1:3])  # [20, 30]\n```\n\n## Länge mit len()\n\n```python\nprint(len(farben))  # 3\n```"
+    },
+    {
+      "id": "step-list-aendern",
+      "type": "theory",
+      "title": "Listen verändern — append, remove, insert",
+      "body": "## Elemente ändern\n\nDu kannst ein Element direkt per Index überschreiben:\n\n```python\nfarben = ['rot', 'gruen', 'blau']\nfarben[1] = 'gelb'\nprint(farben)  # ['rot', 'gelb', 'blau']\n```\n\n## Elemente hinzufügen — .append()\n\n`.append(wert)` hängt ein Element **ans Ende** an:\n\n```python\nfarben.append('lila')\n# ['rot', 'gelb', 'blau', 'lila']\n```\n\n## Elemente einfügen — .insert()\n\n`.insert(index, wert)` fügt ein Element **an einer bestimmten Position** ein:\n\n```python\nfarben.insert(1, 'orange')\n# ['rot', 'orange', 'gelb', 'blau', 'lila']\n```\n\n## Elemente entfernen — .remove()\n\n`.remove(wert)` entfernt das **erste Vorkommen** dieses Werts:\n\n```python\nfarben.remove('gelb')\n```\n\n## Prüfen, ob ein Element vorhanden ist — in\n\nDer **in**-Operator gibt `True` oder `False` zurück:\n\n```python\nprint('rot' in farben)   # True\nprint('pink' in farben)  # False\n```"
+    },
+    {
+      "id": "ex-cloze-index",
+      "type": "exercise",
+      "title": "Den ersten Index kennen",
+      "exercise": {
+        "id": "ex-cloze-index",
+        "type": "cloze",
+        "prompt": "Ergänze den Index, um das erste Element einer Liste abzurufen.",
+        "card_ids": ["py-list-index"],
+        "sentence": "Das erste Element einer Liste hat den Index ___.",
+        "blanks": [
+          { "accept": ["0"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Listen starten bei null."
+      }
+    },
+    {
+      "id": "ex-cloze-len",
+      "type": "exercise",
+      "title": "Länge einer Liste bestimmen",
+      "exercise": {
+        "id": "ex-cloze-len",
+        "type": "cloze",
+        "prompt": "Ergänze die Funktion, die die Anzahl der Listenelemente zurückgibt.",
+        "card_ids": ["py-list-len"],
+        "sentence": "Die Funktion ___(meine_liste) gibt die Anzahl der Elemente zurück.",
+        "blanks": [
+          { "accept": ["len"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Abkürzung für 'length'."
+      }
+    },
+    {
+      "id": "ex-free-append",
+      "type": "exercise",
+      "title": "Element anhängen",
+      "exercise": {
+        "id": "ex-free-append",
+        "type": "free_text",
+        "prompt": "Welche Methode fügt ein Element ans Ende einer Liste an?",
+        "card_ids": ["py-list-append"],
+        "accept": ["append", ".append", ".append()", "append()"],
+        "hint": "Sie beginnt mit einem Punkt und einem 'a'.",
+        "distractors": ["push", "add", "insert"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-neg-index",
+      "type": "exercise",
+      "title": "Negativer Index",
+      "exercise": {
+        "id": "ex-free-neg-index",
+        "type": "free_text",
+        "prompt": "Welchen Index verwendet man, um das letzte Element einer Liste abzurufen?",
+        "card_ids": ["py-list-neg-index"],
+        "accept": ["-1", "liste[-1]", "Index -1"],
+        "hint": "Negative Indizes zählen vom Ende.",
+        "distractors": ["0", "last", "len-1"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-append",
+      "type": "exercise",
+      "title": "append-Aufruf zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-append",
+        "type": "word_tiles",
+        "prompt": "Setze den Code zusammen, der 'blau' an die Liste 'farben' anhängt.",
+        "card_ids": ["py-list-append"],
+        "tiles": ["farben", ".", "append", "(", "'blau'", ")"],
+        "hint": "Listenname, Punkt, Methodenname, Klammern.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-methoden",
+      "type": "exercise",
+      "title": "Listenmethoden zuordnen",
+      "exercise": {
+        "id": "ex-match-methoden",
+        "type": "matching",
+        "prompt": "Ordne jede Listenmethode ihrer Funktion zu.",
+        "card_ids": ["py-list-append", "py-list-remove", "py-list-insert", "py-list-len"],
+        "pairs": [
+          { "left": ".append(wert)", "right": "hängt ein Element ans Ende an" },
+          { "left": ".remove(wert)", "right": "entfernt das erste Vorkommen eines Werts" },
+          { "left": ".insert(index, wert)", "right": "fügt ein Element an einer Position ein" },
+          { "left": "len(liste)", "right": "gibt die Anzahl der Elemente zurück" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-index",
+      "type": "exercise",
+      "title": "Letztes Element abrufen",
+      "exercise": {
+        "id": "ex-tiles-index",
+        "type": "word_tiles",
+        "prompt": "Setze den Ausdruck zusammen, der das letzte Element der Liste 'farben' ausgibt.",
+        "card_ids": ["py-list-neg-index"],
+        "tiles": ["print", "(", "farben", "[", "-1", "]", ")"],
+        "hint": "Negativer Index -1 für das letzte Element.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-in",
+      "type": "exercise",
+      "title": "in-Operator",
+      "exercise": {
+        "id": "ex-cloze-in",
+        "type": "cloze",
+        "prompt": "Ergänze den Operator, um zu prüfen, ob ein Element in einer Liste vorhanden ist.",
+        "card_ids": ["py-list-in"],
+        "sentence": "Mit dem Operator ___ prüft man, ob ein Wert in einer Liste enthalten ist.",
+        "blanks": [
+          { "accept": ["in"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englisch für 'in' oder 'drin'."
+      }
+    }
+  ]
+}

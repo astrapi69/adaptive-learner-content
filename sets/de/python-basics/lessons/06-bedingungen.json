@@ -1,0 +1,295 @@
+{
+  "id": "06-bedingungen",
+  "title": "Bedingungen (if / elif / else)",
+  "description": "if, elif und else, Vergleichsoperatoren, boolesche Operatoren und die Bedeutung der Einrückung für Codeblöcke — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "programming",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "py-if",
+      "front": "if-Anweisung",
+      "back": "Führt einen Codeblock nur aus, wenn eine Bedingung wahr (True) ist.",
+      "code_snippet": "alter = 18\nif alter >= 18:\n    print('Volljährig')",
+      "code_language": "python",
+      "expected_output": "Volljährig",
+      "hint": "Nach dem if folgt die Bedingung und dann ein Doppelpunkt.",
+      "difficulty": 1,
+      "tags": ["bedingungen", "kontrollfluss"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-elif",
+      "front": "elif-Zweig",
+      "back": "Steht nach einem if und prüft eine weitere Bedingung, wenn das vorherige if falsch war.",
+      "code_snippet": "note = 2\nif note == 1:\n    print('Sehr gut')\nelif note == 2:\n    print('Gut')",
+      "code_language": "python",
+      "expected_output": "Gut",
+      "hint": "elif ist eine Abkürzung für 'else if'.",
+      "difficulty": 2,
+      "tags": ["bedingungen", "kontrollfluss"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-else",
+      "front": "else-Zweig",
+      "back": "Wird ausgeführt, wenn keine der vorherigen if- oder elif-Bedingungen wahr war.",
+      "code_snippet": "x = 5\nif x > 10:\n    print('groß')\nelse:\n    print('klein')",
+      "code_language": "python",
+      "expected_output": "klein",
+      "hint": "else braucht keine eigene Bedingung.",
+      "difficulty": 2,
+      "tags": ["bedingungen", "kontrollfluss"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-vergleich-gleich",
+      "front": "== (Gleichheit)",
+      "back": "Vergleichsoperator: prüft, ob zwei Werte gleich sind. Ergibt True oder False.",
+      "code_snippet": "print(3 == 3)\nprint(3 == 4)",
+      "code_language": "python",
+      "expected_output": "True\nFalse",
+      "hint": "Zwei Gleichheitszeichen — nicht zu verwechseln mit = (Zuweisung).",
+      "difficulty": 1,
+      "tags": ["operatoren", "vergleich"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-vergleich-ungleich",
+      "front": "!= (Ungleichheit)",
+      "back": "Vergleichsoperator: prüft, ob zwei Werte ungleich sind.",
+      "code_snippet": "print(3 != 4)",
+      "code_language": "python",
+      "expected_output": "True",
+      "hint": "! bedeutet 'nicht'.",
+      "difficulty": 2,
+      "tags": ["operatoren", "vergleich"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-vergleich-kleiner-groesser",
+      "front": "< > <= >= (Größenvergleich)",
+      "back": "Vergleichsoperatoren: < (kleiner), > (größer), <= (kleiner oder gleich), >= (größer oder gleich).",
+      "code_snippet": "print(5 < 10)\nprint(10 >= 10)",
+      "code_language": "python",
+      "expected_output": "True\nTrue",
+      "hint": "Das Gleichheitszeichen steht immer nach dem < oder >.",
+      "difficulty": 2,
+      "tags": ["operatoren", "vergleich"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-and",
+      "front": "and (logisches Und)",
+      "back": "Boolescher Operator: beide Bedingungen müssen True sein, damit das Ergebnis True ist.",
+      "code_snippet": "alter = 20\nnuechtern = True\nif alter >= 18 and nuechtern:\n    print('Fahren erlaubt')",
+      "code_language": "python",
+      "expected_output": "Fahren erlaubt",
+      "hint": "and ist wie das deutsche Wort 'und'.",
+      "difficulty": 2,
+      "tags": ["operatoren", "boolean"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-or",
+      "front": "or (logisches Oder)",
+      "back": "Boolescher Operator: mindestens eine der Bedingungen muss True sein.",
+      "code_snippet": "tag = 'Samstag'\nif tag == 'Samstag' or tag == 'Sonntag':\n    print('Wochenende')",
+      "code_language": "python",
+      "expected_output": "Wochenende",
+      "hint": "or ist wie das deutsche Wort 'oder'.",
+      "difficulty": 2,
+      "tags": ["operatoren", "boolean"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-not",
+      "front": "not (logisches Nicht)",
+      "back": "Boolescher Operator: kehrt einen Wahrheitswert um. not True ergibt False.",
+      "code_snippet": "regen = False\nif not regen:\n    print('Spaziergang möglich')",
+      "code_language": "python",
+      "expected_output": "Spaziergang möglich",
+      "hint": "not dreht True in False und umgekehrt.",
+      "difficulty": 2,
+      "tags": ["operatoren", "boolean"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-einrueckung-block",
+      "front": "Einrückung (Indentation) im if-Block",
+      "back": "Der Code innerhalb eines if/elif/else-Blocks muss eingerückt sein (4 Leerzeichen). Die Einrückung zeigt Python, was zum Block gehört.",
+      "notes": "Falsche oder fehlende Einrückung führt zu einem IndentationError.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["syntax", "einrueckung"]
+    },
+    {
+      "id": "py-if-elif-else-kette",
+      "front": "if / elif / else — komplette Kette",
+      "back": "Mit if, beliebig vielen elif und einem abschließenden else deckt man alle Fälle ab.",
+      "code_snippet": "punkte = 75\nif punkte >= 90:\n    print('Sehr gut')\nelif punkte >= 60:\n    print('Bestanden')\nelse:\n    print('Nicht bestanden')",
+      "code_language": "python",
+      "expected_output": "Bestanden",
+      "hint": "Nur der erste passende Zweig wird ausgeführt.",
+      "difficulty": 3,
+      "tags": ["bedingungen", "kontrollfluss"],
+      "media_type": "code"
+    },
+    {
+      "id": "py-bool-ausdruck",
+      "front": "Boolescher Ausdruck (Boolean Expression)",
+      "back": "Ein Ausdruck, der True oder False ergibt — z. B. 5 > 3 oder alter >= 18.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["boolean", "grundlagen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-if-else",
+      "type": "theory",
+      "title": "if, elif und else — Entscheidungen treffen",
+      "body": "# Bedingungen (if / elif / else)\n\nMit **`if`** kann man Code nur dann ausführen lassen, wenn eine Bedingung erfüllt ist:\n\n```python\nalter = 18\nif alter >= 18:\n    print('Volljährig')\n```\n\nAusgabe:\n\n```\nVolljährig\n```\n\nMit **`elif`** (kurz für *else if*) prüft man weitere Fälle, und **`else`** fängt alles auf, was nicht gepasst hat:\n\n```python\npunkte = 75\nif punkte >= 90:\n    print('Sehr gut')\nelif punkte >= 60:\n    print('Bestanden')\nelse:\n    print('Nicht bestanden')\n```\n\nAusgabe:\n\n```\nBestanden\n```\n\n**Wichtig:** Nach `if`, `elif` und `else` steht immer ein **Doppelpunkt**, und der Codeblock darunter muss **eingerückt** sein (4 Leerzeichen)."
+    },
+    {
+      "id": "step-vergleichsoperatoren",
+      "type": "theory",
+      "title": "Vergleichsoperatoren",
+      "body": "## Vergleichsoperatoren\n\nBedingungen verwenden **Vergleichsoperatoren**, die `True` oder `False` zurückgeben:\n\n| Operator | Bedeutung | Beispiel |\n|----------|-----------|----------|\n| `==` | gleich | `3 == 3` → `True` |\n| `!=` | ungleich | `3 != 4` → `True` |\n| `<` | kleiner | `2 < 5` → `True` |\n| `>` | größer | `5 > 2` → `True` |\n| `<=` | kleiner oder gleich | `5 <= 5` → `True` |\n| `>=` | größer oder gleich | `6 >= 5` → `True` |\n\n**Achtung:** `==` (Vergleich) und `=` (Zuweisung) sind zwei verschiedene Dinge!"
+    },
+    {
+      "id": "step-bool-operatoren",
+      "type": "theory",
+      "title": "Boolesche Operatoren: and, or, not",
+      "body": "## Boolesche Operatoren\n\nMit **`and`**, **`or`** und **`not`** kann man Bedingungen verknüpfen:\n\n- **`and`**: beide Seiten müssen `True` sein.\n- **`or`**: mindestens eine Seite muss `True` sein.\n- **`not`**: kehrt den Wahrheitswert um.\n\n```python\nalter = 20\nnuechtern = True\nif alter >= 18 and nuechtern:\n    print('Fahren erlaubt')\n```\n\nAusgabe:\n\n```\nFahren erlaubt\n```\n\n```python\nregen = False\nif not regen:\n    print('Spaziergang möglich')\n```\n\nAusgabe:\n\n```\nSpaziergang möglich\n```\n\n## Einrückung\n\nDer Python-Block eines `if` wird durch **Einrückung** (4 Leerzeichen) definiert. Falsche Einrückung führt zu einem `IndentationError`."
+    },
+    {
+      "id": "ex-cloze-if-syntax",
+      "type": "exercise",
+      "title": "if-Syntax ergänzen",
+      "exercise": {
+        "id": "ex-cloze-if-syntax",
+        "type": "cloze",
+        "prompt": "Ergänze das Zeichen, das nach der Bedingung eines if-Ausdrucks stehen muss.",
+        "card_ids": ["py-if"],
+        "sentence": "Eine if-Anweisung endet mit einem ___ bevor der eingerückte Block beginnt.",
+        "blanks": [
+          { "accept": [":", "Doppelpunkt"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Dieses Zeichen trennt die Bedingung vom Block."
+      }
+    },
+    {
+      "id": "ex-cloze-vergleich",
+      "type": "exercise",
+      "title": "Gleichheitsoperator",
+      "exercise": {
+        "id": "ex-cloze-vergleich",
+        "type": "cloze",
+        "prompt": "Ergänze den Operator, der prüft, ob zwei Werte gleich sind.",
+        "card_ids": ["py-vergleich-gleich"],
+        "sentence": "Um zu prüfen, ob x gleich 5 ist, schreibt man: x ___ 5.",
+        "blanks": [
+          { "accept": ["=="] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Zwei Zeichen — nicht das einfache Gleichheitszeichen der Zuweisung."
+      }
+    },
+    {
+      "id": "ex-free-elif",
+      "type": "exercise",
+      "title": "Was macht elif?",
+      "exercise": {
+        "id": "ex-free-elif",
+        "type": "free_text",
+        "prompt": "Was bedeutet elif in Python?",
+        "card_ids": ["py-elif"],
+        "accept": ["else if", "sonst wenn", "weitere Bedingung", "elif steht für else if"],
+        "hint": "Es ist eine Abkürzung aus zwei englischen Wörtern.",
+        "distractors": ["Schleife", "Funktion", "Ausnahme", "Variable"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-and",
+      "type": "exercise",
+      "title": "and-Operator",
+      "exercise": {
+        "id": "ex-free-and",
+        "type": "free_text",
+        "prompt": "Wann ergibt eine Bedingung mit and den Wert True?",
+        "card_ids": ["py-and"],
+        "accept": ["wenn beide Bedingungen True sind", "wenn beide True sind", "beide müssen True sein", "beide wahr"],
+        "hint": "Beide Seiten müssen erfüllt sein.",
+        "distractors": ["wenn eine Seite True ist", "wenn beide False sind", "immer"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-if-block",
+      "type": "exercise",
+      "title": "if-Block zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-if-block",
+        "type": "word_tiles",
+        "prompt": "Setze eine if-Anweisung zusammen, die prüft ob x größer als 0 ist.",
+        "card_ids": ["py-if"],
+        "tiles": ["if", "x", ">", "0", ":"],
+        "hint": "Schlüsselwort, Variable, Operator, Wert, Doppelpunkt.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-and",
+      "type": "exercise",
+      "title": "and-Bedingung zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-and",
+        "type": "word_tiles",
+        "prompt": "Setze eine Bedingung zusammen, die prüft ob x größer als 0 UND kleiner als 10 ist.",
+        "card_ids": ["py-and"],
+        "tiles": ["x", ">", "0", "and", "x", "<", "10"],
+        "hint": "Zwei Vergleiche mit and verknüpft.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-operatoren",
+      "type": "exercise",
+      "title": "Vergleichsoperatoren zuordnen",
+      "exercise": {
+        "id": "ex-match-operatoren",
+        "type": "matching",
+        "prompt": "Ordne jeden Operator seiner Bedeutung zu.",
+        "card_ids": ["py-vergleich-gleich", "py-vergleich-ungleich", "py-vergleich-kleiner-groesser"],
+        "pairs": [
+          { "left": "==", "right": "gleich" },
+          { "left": "!=", "right": "ungleich" },
+          { "left": ">=", "right": "größer oder gleich" },
+          { "left": "<", "right": "kleiner als" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-bool-op",
+      "type": "exercise",
+      "title": "Boolesche Operatoren zuordnen",
+      "exercise": {
+        "id": "ex-match-bool-op",
+        "type": "matching",
+        "prompt": "Ordne jeden booleschen Operator seiner Beschreibung zu.",
+        "card_ids": ["py-and", "py-or", "py-not"],
+        "pairs": [
+          { "left": "and", "right": "beide Bedingungen müssen True sein" },
+          { "left": "or", "right": "mindestens eine Bedingung muss True sein" },
+          { "left": "not", "right": "kehrt den Wahrheitswert um" }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
