@@ -1,0 +1,357 @@
+{
+  "id": "04-present-perfect-vs-past",
+  "title": "Present Perfect oder Simple Past?",
+  "description": "Der entscheidende Kontrast: Wann benutzt man das Present Perfect, wann das Simple Past? Signalwörter, die Faustregel und die häufigsten Fehler von Deutschsprachigen.",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "rule-simple-past",
+      "front": "Simple Past — concrete past time",
+      "back": "Simple Past = abgeschlossene Handlung mit konkretem Zeitpunkt in der Vergangenheit",
+      "notes": "Wenn du **wann genau** angibst (yesterday, last week, in 2010, two days ago), nimmst du das **Simple Past**: *I **saw** him **yesterday**.* Der Zeitpunkt ist abgeschlossen und bestimmt.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "simple-past", "rule"]
+    },
+    {
+      "id": "rule-present-perfect",
+      "front": "Present Perfect — connection to now",
+      "back": "Present Perfect = Bezug zur Gegenwart, unbestimmte Zeit, Erfahrung oder gerade passiert",
+      "notes": "Das **Present Perfect** verbindet Vergangenheit und Gegenwart. Es fehlt ein konkreter Zeitpunkt — oder die Handlung ist gerade erst passiert, oder du sprichst über Erfahrungen: *I **have seen** that film.* (Erfahrung — wann genau? egal.)",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "present-perfect", "rule"]
+    },
+    {
+      "id": "signal-already",
+      "front": "already",
+      "back": "schon / bereits → Present Perfect",
+      "notes": "**already** zeigt an, dass etwas früher als erwartet geschehen ist — Bezug zur Gegenwart → **Present Perfect**: *I have **already** eaten.* Fehler: ~~I already ate.~~ (ohne Zeitangabe).",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "Schon passiert — aber kein konkreter Zeitpunkt genannt.",
+      "tags": ["signal", "present-perfect"]
+    },
+    {
+      "id": "signal-yet",
+      "front": "yet",
+      "back": "noch (nicht) / schon? → Present Perfect",
+      "notes": "**yet** steht in Verneinungen und Fragen des **Present Perfect**: *Have you finished **yet**?* — *I haven't done it **yet**.* Fehler: ~~Did you finish yet?~~",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "In Fragen und Verneinungen: noch nicht / schon?",
+      "tags": ["signal", "present-perfect"]
+    },
+    {
+      "id": "signal-just",
+      "front": "just",
+      "back": "gerade eben / soeben → Present Perfect",
+      "notes": "**just** bedeutet, dass etwas soeben passiert ist — typisches Present-Perfect-Signal: *She has **just** arrived.* Fehler: ~~She just arrived.~~ (ohne konkreten Zeitpunkt).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["signal", "present-perfect"]
+    },
+    {
+      "id": "signal-ever",
+      "front": "ever",
+      "back": "je / jemals → Present Perfect (Erfahrungen)",
+      "notes": "**ever** fragt nach Erfahrungen im Leben → **Present Perfect**: *Have you **ever** been to London?* Antwort mit Simple Past: *Yes, I went there in 2019.* (jetzt gibt es einen Zeitpunkt!)",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["signal", "present-perfect"]
+    },
+    {
+      "id": "signal-never",
+      "front": "never",
+      "back": "nie / niemals → Present Perfect (Erfahrungen)",
+      "notes": "**never** verneint eine Lebenserfahrung → **Present Perfect**: *I have **never** tried sushi.* Es gibt keinen spezifischen Zeitpunkt — die Erfahrung fehlt komplett.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["signal", "present-perfect"]
+    },
+    {
+      "id": "signal-for-since",
+      "front": "for / since",
+      "back": "for = Zeitspanne; since = Startpunkt → beide: Present Perfect",
+      "notes": "Beide verbinden Vergangenheit und Gegenwart → **Present Perfect**: *I have lived here **for** three years.* (Zeitspanne) / *I have lived here **since** 2021.* (Startpunkt). Typischer Fehler: ~~since three years~~.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "for + Dauer (three years); since + Zeitpunkt (2021, Monday).",
+      "tags": ["signal", "present-perfect", "for-since"]
+    },
+    {
+      "id": "signal-ago",
+      "front": "ago",
+      "back": "vor (… Tagen/Jahren) → Simple Past",
+      "notes": "**ago** gibt einen konkreten Abstand zur Gegenwart an → **Simple Past**: *I called her two days **ago**.* Fehler: ~~I have called her two days ago.~~",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["signal", "simple-past"]
+    },
+    {
+      "id": "signal-yesterday",
+      "front": "yesterday",
+      "back": "gestern → Simple Past",
+      "notes": "**yesterday** nennt einen konkreten Tag in der Vergangenheit → **Simple Past**: *We **went** to the cinema **yesterday**.* Fehler: ~~We have gone to the cinema yesterday.~~",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["signal", "simple-past"]
+    },
+    {
+      "id": "signal-last",
+      "front": "last week / last year / last night",
+      "back": "letzte Woche / letztes Jahr / gestern Abend → Simple Past",
+      "notes": "Alle **last …**-Ausdrücke nennen einen abgeschlossenen Zeitraum → **Simple Past**: *She **worked** here **last year**.* Fehler: ~~She has worked here last year.~~",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["signal", "simple-past"]
+    },
+    {
+      "id": "signal-in-year",
+      "front": "in 2010 / in + Jahr",
+      "back": "im Jahr 2010 → Simple Past",
+      "notes": "Eine **Jahreszahl** ist ein konkreter Zeitpunkt → **Simple Past**: *They **got** married **in 2018**.* Fehler: ~~They have got married in 2018.~~",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["signal", "simple-past"]
+    },
+    {
+      "id": "signal-so-far-recently",
+      "front": "so far / recently",
+      "back": "bisher / kürzlich → Present Perfect",
+      "notes": "**so far** (= bis jetzt) und **recently** (= in letzter Zeit, kürzlich) haben einen offenen Bezug zur Gegenwart → **Present Perfect**: *I haven't heard from him **so far**.* / *She has **recently** started a new job.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["signal", "present-perfect"]
+    },
+    {
+      "id": "example-yesterday-error",
+      "front": "I have seen him yesterday. (WRONG)",
+      "back": "FALSCH — yesterday braucht Simple Past: I saw him yesterday.",
+      "notes": "Dies ist **Fehler Nr. 1** bei Deutschsprachigen: Das Present Perfect mit einem konkreten Zeitpunkt kombinieren. **yesterday** zwingt zum Simple Past. Merke: Present Perfect + konkreter Zeitpunkt = **unmöglich** im Englischen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Zeitpunkt genannt → Simple Past pflicht.",
+      "tags": ["error", "simple-past", "present-perfect"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-contrast",
+      "type": "theory",
+      "title": "Present Perfect oder Simple Past? — Die Kernfrage",
+      "body": "# Present Perfect oder Simple Past?\n\nIn **A1** hast du das **Simple Past** gelernt, in der letzten Lektion (03) das **Present Perfect**. Jetzt die Schlüsselfrage, an der Deutsche am häufigsten scheitern: **Wann welche Zeit?**\n\n> **Faustregel:** konkrete Vergangenheitszeit → **Simple Past**; Bezug zu jetzt / unbestimmt → **Present Perfect**.\n\n| | Simple Past | Present Perfect |\n|---|---|---|\n| **Bedeutung** | abgeschlossene Handlung, konkreter Zeitpunkt | Bezug zur Gegenwart, unbestimmte Zeit, Erfahrung |\n| **Zeitpunkt** | **bekannt und genannt** | **unbekannt oder irrelevant** |\n| **Beispiel** | I **saw** him **yesterday**. | I **have seen** that film. |\n| **Beispiel** | She **lived** in Paris **in 2010**. | She **has lived** in Paris. (= Erfahrung) |\n| **Beispiel** | He **called** me **two days ago**. | He **has just called** me. |\n\n**Typischer Deutschfehler:** Im Deutschen sagt man oft die Vergangenheit mit dem Perfekt — *Ich habe ihn gestern gesehen* — auch mit Zeitangabe. Im Englischen ist das **verboten**: *I have seen him yesterday* ist **falsch**."
+    },
+    {
+      "id": "step-signal-words",
+      "type": "theory",
+      "title": "Signalwörter — der schnellste Weg zur richtigen Zeit",
+      "body": "## Signalwörter erkennen = richtige Zeit wählen\n\nSignalwörter verraten dir sofort, welche Zeit gebraucht wird:\n\n| Signalwort | Deutsch | Zeit |\n|---|---|---|\n| **already** | schon / bereits | Present Perfect |\n| **yet** | noch (nicht) / schon? | Present Perfect |\n| **just** | gerade eben / soeben | Present Perfect |\n| **ever** | je / jemals | Present Perfect |\n| **never** | nie / niemals | Present Perfect |\n| **so far** | bisher | Present Perfect |\n| **recently** | kürzlich / in letzter Zeit | Present Perfect |\n| **for** | seit (Zeitspanne) | Present Perfect |\n| **since** | seit (Startpunkt) | Present Perfect |\n| **ago** | vor (… Zeit) | **Simple Past** |\n| **yesterday** | gestern | **Simple Past** |\n| **last …** | letzte(n/m) … | **Simple Past** |\n| **in + Jahr** | im Jahr … | **Simple Past** |\n\n> **Trick:** Wenn du ein Signalwort siehst, schau in die Tabelle — die Zeit ist fast schon gewählt!"
+    },
+    {
+      "id": "step-for-since",
+      "type": "theory",
+      "title": "for vs. since — ein häufiger Fehler",
+      "body": "## for vs. since — Zeitspanne oder Startpunkt?\n\nBeide Wörter heißen auf Deutsch **seit**, aber sie funktionieren ganz anders:\n\n| | **for** | **since** |\n|---|---|---|\n| **Frage** | Wie lange? | Ab wann? |\n| **Ergänzt durch** | Zeitspanne | Zeitpunkt |\n| **Beispiele** | for **two years**, for **a week**, for **ages** | since **2019**, since **Monday**, since **I was a child** |\n| **Satz** | I have worked here **for three years**. | I have worked here **since 2021**. |\n\n> **Häufiger Fehler:** ~~since three years~~ → **falsch!** Richtig: **for** three years.\n> ~~for Monday~~ → **falsch!** Richtig: **since** Monday.\n\nBeide Konstruktionen stehen immer mit dem **Present Perfect**, weil die Handlung bis zur Gegenwart andauert."
+    },
+    {
+      "id": "ex-match-signals",
+      "type": "exercise",
+      "title": "Signalwörter: welche Zeit?",
+      "exercise": {
+        "id": "ex-match-signals",
+        "type": "matching",
+        "prompt": "Ordne jedes Signalwort der richtigen Zeit zu.",
+        "card_ids": ["signal-already", "signal-yet", "signal-ago", "signal-yesterday", "signal-last", "signal-never"],
+        "pairs": [
+          { "left": "already", "right": "Present Perfect" },
+          { "left": "yet", "right": "Present Perfect" },
+          { "left": "never", "right": "Present Perfect" },
+          { "left": "ago", "right": "Simple Past" },
+          { "left": "yesterday", "right": "Simple Past" },
+          { "left": "last week", "right": "Simple Past" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-for-since",
+      "type": "exercise",
+      "title": "for oder since?",
+      "exercise": {
+        "id": "ex-match-for-since",
+        "type": "matching",
+        "prompt": "Ordne zu: Welches Wort passt — for (Zeitspanne) oder since (Startpunkt)?",
+        "card_ids": ["signal-for-since"],
+        "pairs": [
+          { "left": "three years", "right": "for" },
+          { "left": "Monday", "right": "since" },
+          { "left": "a long time", "right": "for" },
+          { "left": "2019", "right": "since" },
+          { "left": "six months", "right": "for" },
+          { "left": "I was a child", "right": "since" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-yesterday",
+      "type": "exercise",
+      "title": "yesterday → Simple Past",
+      "exercise": {
+        "id": "ex-cloze-yesterday",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Verbform von *see*. Signalwort beachten!",
+        "card_ids": ["signal-yesterday", "rule-simple-past"],
+        "sentence": "I ___ him yesterday at the supermarket.",
+        "blanks": [
+          { "accept": ["saw"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "yesterday → Simple Past von *see* (unregelmäßig: see → saw)"
+      }
+    },
+    {
+      "id": "ex-cloze-just",
+      "type": "exercise",
+      "title": "just → Present Perfect",
+      "exercise": {
+        "id": "ex-cloze-just",
+        "type": "cloze",
+        "prompt": "Ergänze *arrive* im Present Perfect. Achtung: zwei Lücken!",
+        "card_ids": ["signal-just", "rule-present-perfect"],
+        "sentence": "She ___ just ___ at the airport.",
+        "blanks": [
+          { "accept": ["has"] },
+          { "accept": ["arrived"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "has + just + Partizip II (arrived)"
+      }
+    },
+    {
+      "id": "ex-free-never",
+      "type": "exercise",
+      "title": "Erfahrung: never",
+      "exercise": {
+        "id": "ex-free-never",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Ich habe noch nie Sushi gegessen.*",
+        "card_ids": ["signal-never", "rule-present-perfect"],
+        "accept": [
+          "I have never eaten sushi.",
+          "i have never eaten sushi",
+          "I've never eaten sushi.",
+          "I have never eaten sushi"
+        ],
+        "hint": "never → Present Perfect; Partizip II von *eat* = *eaten*.",
+        "distractors": [
+          "I never ate sushi.",
+          "I have never ate sushi.",
+          "I never have eaten sushi."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ago",
+      "type": "exercise",
+      "title": "ago → Simple Past",
+      "exercise": {
+        "id": "ex-free-ago",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Sie hat ihn vor zwei Tagen angerufen.*",
+        "card_ids": ["signal-ago", "rule-simple-past"],
+        "accept": [
+          "She called him two days ago.",
+          "she called him two days ago",
+          "She called him two days ago",
+          "Two days ago she called him."
+        ],
+        "hint": "ago + Zeitspanne → Simple Past; *call → called*.",
+        "distractors": [
+          "She has called him two days ago.",
+          "She have called him two days ago.",
+          "She called him since two days."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-for-since",
+      "type": "exercise",
+      "title": "for / since richtig einsetzen",
+      "exercise": {
+        "id": "ex-free-for-since",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich wohne seit drei Jahren in Berlin.* (Present Perfect, Zeitspanne!)",
+        "card_ids": ["signal-for-since"],
+        "accept": [
+          "I have lived in Berlin for three years.",
+          "i have lived in berlin for three years",
+          "I've lived in Berlin for three years.",
+          "I have lived in Berlin for three years"
+        ],
+        "hint": "Zeitspanne (drei Jahre) → **for**; Present Perfect: have + lived.",
+        "distractors": [
+          "I have lived in Berlin since three years.",
+          "I lived in Berlin for three years.",
+          "I have lived in Berlin for three year."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-have-already",
+      "type": "exercise",
+      "title": "Bilde: Ich habe schon gegessen",
+      "exercise": {
+        "id": "ex-tiles-have-already",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum richtigen Satz: *Ich habe schon gegessen.*",
+        "card_ids": ["signal-already", "rule-present-perfect"],
+        "tiles": ["I", "have", "already", "eaten"],
+        "hint": "Present Perfect: I have + already + Partizip II (eaten).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-simple-past",
+      "type": "exercise",
+      "title": "Bilde: Sie arbeitete letztes Jahr hier",
+      "exercise": {
+        "id": "ex-tiles-simple-past",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Sie arbeitete letztes Jahr hier.*",
+        "card_ids": ["signal-last", "rule-simple-past"],
+        "tiles": ["She", "worked", "here", "last", "year"],
+        "hint": "last year → Simple Past: worked.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-error-yesterday",
+      "type": "exercise",
+      "title": "Welcher Satz ist korrekt?",
+      "exercise": {
+        "id": "ex-pic-error-yesterday",
+        "type": "picture_choice",
+        "prompt": "Welcher englische Satz ist grammatisch **richtig**? (*Er hat gestern angerufen.*)",
+        "card_ids": ["signal-yesterday", "rule-simple-past", "example-yesterday-error"],
+        "images": [
+          { "src": "assets/img/phone-call-1.png", "label": "He called yesterday.", "is_correct": "true" },
+          { "src": "assets/img/phone-call-2.png", "label": "He has called yesterday." },
+          { "src": "assets/img/phone-call-3.png", "label": "He have called yesterday." },
+          { "src": "assets/img/phone-call-4.png", "label": "He has call yesterday." }
+        ],
+        "hint": "yesterday = konkreter Zeitpunkt → Simple Past (kein Present Perfect!)",
+        "distractors": [
+          "He has called yesterday.",
+          "He have called yesterday.",
+          "He has call yesterday."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

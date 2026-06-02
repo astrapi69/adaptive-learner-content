@@ -1,0 +1,66 @@
+# Englisch A2 (für Deutschsprachige) — Set-Manifest
+# (schema v1.3).
+#
+# Aufbaukurs Englisch A2, auf Deutsch erklärt. Baut direkt auf
+# dem A1-Set (en-a1-from-de) auf: die Lektionen setzen den
+# A1-Stoff voraus und verweisen ausdrücklich darauf ("In A1 hast
+# du … gelernt, jetzt …"). Schwerpunkt auf den typischen
+# Stolpersteinen für Deutschsprachige (Present Perfect vs. Simple
+# Past, will vs. going to, mustn't vs. don't have to, falsche
+# Freunde). Schema v1.3 nutzt die optionalen Kartenfelder
+# difficulty, tags und media_type ("text"). Die Übungsrichtung
+# steigert sich progressiv: Lektionen 01–05 gemischt, 06–10
+# zunehmend produktiv, 11–15 überwiegend produktiv. Der
+# Content-Loader liest ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.3'
+name: Englisch A2 (für Deutschsprachige)
+description: >-
+  Englisch A2 für Deutschsprachige (15 Lektionen): Aufbau auf A1
+  mit den Verlaufsformen (Present/Past Progressive), dem Present
+  Perfect und seiner Abgrenzung zum Simple Past, den
+  Zukunftsformen (will, going to), den Modalverben
+  (can/could/may, must/have to/should), Steigerung,
+  Bedingungssätzen (zero, first, second conditional), einer
+  Einführung ins Passiv und einer Lektion zu falschen Freunden.
+  Karten-Rückseiten, Notizen und Theorie auf Deutsch.
+sets:
+  - id: en-a2-from-de
+    title: Englisch A2 — Grundlagen
+    title_native: English A2 — Elementary
+    target_language: en
+    source_language: de
+    level: A2
+    path: sets/de/en-a2
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Aufbaukurs Englisch A2 (15 Lektionen), auf Deutsch erklärt —
+      von den Verlaufsformen und dem Present Perfect über die
+      Zukunfts- und Modalverben bis zu Steigerung,
+      Bedingungssätzen, Passiv und falschen Freunden. Mit Fokus
+      auf die typischen Fehler von Deutschsprachigen. Setzt das
+      A1-Wissen voraus und baut darauf auf.
+    tags:
+      - elementary
+      - grammar
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-present-progressive.json
+    - 02-past-progressive.json
+    - 03-present-perfect.json
+    - 04-present-perfect-vs-past.json
+    - 05-irregular-past-participles.json
+    - 06-will-future.json
+    - 07-will-vs-going-to.json
+    - 08-modals-can-could-may.json
+    - 09-modals-must-have-to-should.json
+    - 10-comparatives-superlatives.json
+    - 11-conditionals-zero-first.json
+    - 12-second-conditional.json
+    - 13-passive-voice.json
+    - 14-false-friends.json
+    - 15-review-and-consolidation.json

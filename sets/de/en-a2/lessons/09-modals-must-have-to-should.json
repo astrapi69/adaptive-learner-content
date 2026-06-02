@@ -1,0 +1,360 @@
+{
+  "id": "09-modals-must-have-to-should",
+  "title": "Modal Verbs: must, have to, should",
+  "description": "Modalverben für Pflicht, Notwendigkeit und Rat — mit dem wichtigen Unterschied zwischen mustn't (Verbot) und don't have to (nicht nötig). Aufbaut auf Lektion 08 (can/could/may).",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "modal-must",
+      "front": "must",
+      "back": "müssen (starke Pflicht — vom Sprecher selbst)",
+      "notes": "**must** drückt eine starke Pflicht oder innere Notwendigkeit aus, die **der Sprecher selbst** empfindet:\n\n- *I **must** finish this report.* — Ich muss diesen Bericht fertigstellen.\n- *You **must** see this film!* — Du musst diesen Film sehen!\n\n**must** ist ein echtes Modalverb: kein **-s** in der 3. Person, kein *to* danach.\n\n| Person | Form |\n|---|---|\n| I / you / he / she / it / we / they | **must** + Infinitiv |\n\nFehler: ~~He musts go~~ oder ~~He must to go~~ — beide falsch!",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["modal", "obligation", "must"]
+    },
+    {
+      "id": "modal-have-to",
+      "front": "have to / has to",
+      "back": "müssen (äußere Notwendigkeit — Regeln, Umstände)",
+      "notes": "**have to** drückt eine Notwendigkeit aus, die **von außen** kommt (Regeln, Gesetze, Umstände):\n\n- *I **have to** work tomorrow.* — Ich muss morgen arbeiten. (Chef hat es gesagt)\n- *She **has to** wear a uniform.* — Sie muss eine Uniform tragen. (Schulregel)\n\n**Wichtig:** *have to* konjugiert wie ein **normales Verb** — in der 3. Person Singular wird **has to** verwendet:\n\n| Person | Form |\n|---|---|\n| I / you / we / they | **have to** + Infinitiv |\n| he / she / it | **has to** + Infinitiv |\n\nFehler: ~~He have to go~~ — falsch! Richtig: *He **has to** go.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "3. Person: he/she/it HAS to — nicht 'have to'!",
+      "tags": ["modal", "obligation", "have-to"]
+    },
+    {
+      "id": "modal-mustnt",
+      "front": "mustn't (must not)",
+      "back": "darf nicht / ist verboten!",
+      "notes": "**mustn't** = Verbot! Du darfst etwas **nicht tun**:\n\n- *You **mustn't** smoke here.* — Du darfst hier nicht rauchen.\n- *We **mustn't** be late.* — Wir dürfen nicht zu spät kommen.\n\n> **Achtung — der größte Fehler für Deutschsprachige:**\n>\n> | Englisch | Bedeutung |\n> |---|---|\n> | **mustn't** | Verbot — du darfst es NICHT tun |\n> | **don't have to** | keine Pflicht — du musst es NICHT tun, aber du kannst |\n>\n> *You **mustn't** eat that.* → verboten!\n> *You **don't have to** eat that.* → kein Zwang, aber erlaubt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["modal", "prohibition", "mustn't", "negation"]
+    },
+    {
+      "id": "modal-dont-have-to",
+      "front": "don't have to / doesn't have to",
+      "back": "nicht müssen (keine Pflicht — aber erlaubt!)",
+      "notes": "**don't have to** bedeutet, dass etwas **nicht nötig** ist — es ist aber **nicht verboten**:\n\n- *You **don't have to** come.* — Du musst nicht kommen. (aber du kannst, wenn du möchtest)\n- *She **doesn't have to** work on Sundays.* — Sie muss sonntags nicht arbeiten.\n\n**Vergleich mit mustn't:**\n\n| | Bedeutung | Beispiel |\n|---|---|---|\n| **mustn't** | Verbot (darf nicht) | You mustn't touch that! |\n| **don't have to** | keine Pflicht (muss nicht) | You don't have to help. |\n\nDas **deutsche 'nicht müssen'** entspricht also **don't have to** — nicht *mustn't*!",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Nicht verboten — nur nicht nötig! Verwechsle nicht mit mustn't.",
+      "tags": ["modal", "no-obligation", "don't-have-to", "negation"]
+    },
+    {
+      "id": "modal-should",
+      "front": "should",
+      "back": "sollte / solltest (Ratschlag, Empfehlung)",
+      "notes": "**should** gibt einen **Ratschlag** oder eine **Empfehlung**:\n\n- *You **should** see a doctor.* — Du solltest zum Arzt gehen.\n- *He **should** study more.* — Er sollte mehr lernen.\n\n**should** ist ein echtes Modalverb — kein *-s*, kein *to*:\n\n| Person | Form |\n|---|---|\n| I / you / he / she / it / we / they | **should** + Infinitiv |\n\nFehler: ~~You should to go~~ — das *to* gehört nicht dazu!",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["modal", "advice", "should"]
+    },
+    {
+      "id": "modal-shouldnt",
+      "front": "shouldn't (should not)",
+      "back": "sollte nicht (negativer Ratschlag)",
+      "notes": "**shouldn't** ist die Verneinung von *should* — ein Rat, etwas **nicht** zu tun:\n\n- *You **shouldn't** eat so much sugar.* — Du solltest nicht so viel Zucker essen.\n- *We **shouldn't** be late.* — Wir sollten nicht zu spät kommen.\n\nStärker als *should* aber schwächer als *mustn't*:\n\n| Stärke | Form | Bedeutung |\n|---|---|---|\n| stark | mustn't | Verbot — darf nicht |\n| mittel | shouldn't | Rat — sollte nicht |\n| schwach | don't have to | nicht nötig — muss nicht |",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["modal", "advice", "shouldn't", "negation"]
+    },
+    {
+      "id": "example-must-finish",
+      "front": "I must finish this.",
+      "back": "Ich muss das fertigstellen. (eigene Entscheidung / innere Pflicht)",
+      "notes": "Typisches Beispiel für **must** bei innerer Überzeugung: *I **must** finish this* — ich habe mir das selbst vorgenommen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["example", "must"]
+    },
+    {
+      "id": "example-has-to-work",
+      "front": "He has to work on Saturday.",
+      "back": "Er muss am Samstag arbeiten. (äußere Notwendigkeit — Chef/Regeln)",
+      "notes": "**has to** (3. Person) zeigt äußere Notwendigkeit: Der Chef hat es so bestimmt, nicht er selbst. Beachte: *has to*, nicht ~~have to~~ bei *he*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["example", "have-to", "has-to"]
+    },
+    {
+      "id": "example-mustnt-smoke",
+      "front": "You mustn't smoke here.",
+      "back": "Du darfst hier nicht rauchen. (Verbot!)",
+      "notes": "**mustn't** = klares Verbot. Das Rauchen ist hier **verboten** — nicht nur unnötig.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["example", "mustn't", "prohibition"]
+    },
+    {
+      "id": "example-dont-have-to-come",
+      "front": "You don't have to come.",
+      "back": "Du musst nicht kommen. (kein Zwang — aber erlaubt!)",
+      "notes": "**don't have to** = keine Pflicht, aber **kein Verbot**. Du kannst kommen, wenn du möchtest — es ist nur nicht nötig.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["example", "don't-have-to", "no-obligation"]
+    },
+    {
+      "id": "example-should-doctor",
+      "front": "You should see a doctor.",
+      "back": "Du solltest zum Arzt gehen. (Ratschlag)",
+      "notes": "**should** gibt einen freundlichen Ratschlag: Der Sprecher empfiehlt es, aber es ist keine Pflicht und kein Befehl.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["example", "should", "advice"]
+    },
+    {
+      "id": "example-shouldnt-eat",
+      "front": "She shouldn't eat so much salt.",
+      "back": "Sie sollte nicht so viel Salz essen. (negativer Ratschlag)",
+      "notes": "**shouldn't** = Empfehlung, etwas zu lassen. Weniger stark als *mustn't* (Verbot) — es ist ein Rat, keine Regel.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["example", "shouldn't", "advice"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-modals-obligation",
+      "type": "theory",
+      "title": "must, have to, should — Pflicht und Rat",
+      "body": "# Modal Verbs: Pflicht und Rat\n\n**Letzte Lektion:** *can/could/may* (Fähigkeit und Erlaubnis). Jetzt kommen die Modalverben für **Pflicht** und **Rat**: *must*, *have to*, *should*.\n\n> **Aufgepasst beim Verneinen — das ist der häufigste Fehler!**\n> **mustn't** (Verbot) ist **NICHT** dasselbe wie **don't have to** (nicht nötig)!\n\n## Übersicht\n\n| Modalverb | Bedeutung | Beispiel |\n|---|---|---|\n| **must** | starke Pflicht (eigene Entscheidung) | *I must finish this.* |\n| **have to** | äußere Notwendigkeit (Regeln, Umstände) | *I have to work tomorrow.* |\n| **should** | Ratschlag, Empfehlung | *You should see a doctor.* |\n\n## Die Verneinungen — der entscheidende Unterschied\n\n| Verneinung | Bedeutung | Beispiel |\n|---|---|---|\n| **mustn't** | Verbot — du **darfst** es nicht tun! | *You mustn't smoke here.* |\n| **don't have to** | keine Pflicht — du **musst** es nicht tun (aber du kannst) | *You don't have to help.* |\n| **shouldn't** | negativer Rat — du **solltest** es nicht tun | *You shouldn't eat so much sugar.* |\n\nDas deutsche **„nicht müssen“** = **don't have to** — **nicht** *mustn't*!"
+    },
+    {
+      "id": "step-have-to-conjugation",
+      "type": "theory",
+      "title": "have to — das besondere Modalverb",
+      "body": "## have to: Konjugation wie ein normales Verb\n\n*have to* unterscheidet sich von *must*, *should* und den anderen echten Modalverben: Es **konjugiert** wie ein normales Verb!\n\n| Person | Form | Beispiel |\n|---|---|---|\n| I | **have to** | I **have to** leave now. |\n| you | **have to** | You **have to** sign here. |\n| he / she / it | **has to** | She **has to** wear a uniform. |\n| we / they | **have to** | They **have to** work late. |\n\n**Verneinung** mit *do/does*:\n\n| Person | Verneinung | Beispiel |\n|---|---|---|\n| I / you / we / they | **don't have to** | I **don't have to** go. |\n| he / she / it | **doesn't have to** | He **doesn't have to** come. |\n\n> Die echten Modalverben (*must*, *should*, *can* …) ändern sich **nie** in der 3. Person — kein *-s*, kein *to*.\n> *have to* verhält sich anders: **he has to**, **she doesn't have to**."
+    },
+    {
+      "id": "step-mustnt-vs-dont-have-to",
+      "type": "theory",
+      "title": "mustn't vs. don't have to — der wichtigste Unterschied",
+      "body": "## Der häufigste Fehler: mustn't ≠ don't have to\n\nDieser Unterschied ist für Deutschsprachige besonders schwierig, weil im Deutschen **„nicht müssen”** und **„nicht dürfen”** klar getrennt sind — im Englischen wird oft verwechselt, was was bedeutet.\n\n> ### Verbot vs. keine Pflicht\n>\n> | | mustn't | don't have to |\n> |---|---|---|\n> | **Bedeutung** | **Verbot** — darf nicht! | **keine Pflicht** — muss nicht (aber darf) |\n> | **Deutsch** | darf nicht | muss nicht |\n> | **Beispiel** | *You **mustn't** open that.* | *You **don't have to** open that.* |\n> | **Konsequenz** | Es ist **verboten**. | Es ist **erlaubt**, aber nicht nötig. |\n\n## Typische deutsche Fehler\n\n| Fehler | Richtig | Warum? |\n|---|---|---|\n| *You mustn't come if you don't want to.* | *You **don't have to** come …* | Kein Verbot — nur kein Zwang |\n| *He must to go.* | *He **must** go.* | Kein *to* nach echten Modalverben |\n| *She have to work.* | *She **has to** work.* | 3. Person → has to |\n| *You should to see a doctor.* | *You **should** see a doctor.* | Kein *to* nach should |\n\n**Merksatz:** *mustn't* = **darf nicht** (Verbot), *don't have to* = **muss nicht** (kein Zwang)."
+    },
+    {
+      "id": "ex-match-meanings",
+      "type": "exercise",
+      "title": "Bedeutungen zuordnen",
+      "exercise": {
+        "id": "ex-match-meanings",
+        "type": "matching",
+        "prompt": "Ordne jedem englischen Modalverb seine deutsche Bedeutung zu.",
+        "card_ids": ["modal-must", "modal-have-to", "modal-mustnt", "modal-dont-have-to", "modal-should"],
+        "pairs": [
+          { "left": "must", "right": "müssen (eigene Pflicht)" },
+          { "left": "have to", "right": "müssen (äußere Notwendigkeit)" },
+          { "left": "mustn't", "right": "darf nicht (Verbot)" },
+          { "left": "don't have to", "right": "muss nicht (kein Zwang)" },
+          { "left": "should", "right": "sollte (Ratschlag)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-examples",
+      "type": "exercise",
+      "title": "Beispielsätze zuordnen",
+      "exercise": {
+        "id": "ex-match-examples",
+        "type": "matching",
+        "prompt": "Ordne jeden Satz der passenden deutschen Übersetzung zu.",
+        "card_ids": ["example-mustnt-smoke", "example-dont-have-to-come", "example-should-doctor", "example-must-finish"],
+        "pairs": [
+          { "left": "You mustn't smoke here.", "right": "Du darfst hier nicht rauchen." },
+          { "left": "You don't have to come.", "right": "Du musst nicht kommen." },
+          { "left": "You should see a doctor.", "right": "Du solltest zum Arzt gehen." },
+          { "left": "I must finish this.", "right": "Ich muss das fertigstellen." }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-has-to",
+      "type": "exercise",
+      "title": "have to oder has to?",
+      "exercise": {
+        "id": "ex-cloze-has-to",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Form: *have to* oder *has to*? (Er muss am Samstag arbeiten.)",
+        "card_ids": ["modal-have-to", "example-has-to-work"],
+        "sentence": "He ___ work on Saturday.",
+        "blanks": [
+          { "accept": ["has to"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "3. Person Singular (he/she/it) → **has to**, nicht 'have to'."
+      }
+    },
+    {
+      "id": "ex-cloze-mustnt-vs-dont",
+      "type": "exercise",
+      "title": "Verbot oder kein Zwang?",
+      "exercise": {
+        "id": "ex-cloze-mustnt-vs-dont",
+        "type": "cloze",
+        "prompt": "Ergänze: Du musst nicht warten — es ist nicht nötig, aber du darfst. (Kein Verbot!)",
+        "card_ids": ["modal-dont-have-to", "modal-mustnt"],
+        "sentence": "You ___ ___ wait. I can call you later.",
+        "blanks": [
+          { "accept": ["don't"] },
+          { "accept": ["have to"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kein Verbot, nur kein Zwang → **don't have to** (nicht mustn't!)."
+      }
+    },
+    {
+      "id": "ex-free-translate-must",
+      "type": "exercise",
+      "title": "Übersetzen: Ich muss das fertigstellen",
+      "exercise": {
+        "id": "ex-free-translate-must",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Ich muss diesen Bericht fertigstellen.* (innere Pflicht — must)",
+        "card_ids": ["modal-must", "example-must-finish"],
+        "accept": [
+          "I must finish this report.",
+          "i must finish this report",
+          "I must finish this report",
+          "I must complete this report.",
+          "i must complete this report"
+        ],
+        "hint": "**must** + Infinitiv ohne *to*. Kein *-s* in der 1. Person.",
+        "distractors": [
+          "I must to finish this report.",
+          "I musts finish this report.",
+          "I have must finish this report."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-translate-should",
+      "type": "exercise",
+      "title": "Übersetzen: Ratschlag geben",
+      "exercise": {
+        "id": "ex-free-translate-should",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Du solltest mehr Wasser trinken.* (Ratschlag)",
+        "card_ids": ["modal-should"],
+        "accept": [
+          "You should drink more water.",
+          "you should drink more water",
+          "You should drink more water",
+          "You should have more water."
+        ],
+        "hint": "**should** + Infinitiv — kein *to*, kein *-s*.",
+        "distractors": [
+          "You should to drink more water.",
+          "You shoulds drink more water.",
+          "You must drink more water."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-translate-mustnt",
+      "type": "exercise",
+      "title": "Übersetzen: Verbot",
+      "exercise": {
+        "id": "ex-free-translate-mustnt",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Du darfst hier nicht parken.* (Verbot — mustn't)",
+        "card_ids": ["modal-mustnt", "example-mustnt-smoke"],
+        "accept": [
+          "You mustn't park here.",
+          "you mustn't park here",
+          "You mustn't park here",
+          "You must not park here.",
+          "you must not park here"
+        ],
+        "hint": "**mustn't** = Verbot (darf nicht) — nicht 'don't have to'!",
+        "distractors": [
+          "You don't have to park here.",
+          "You shouldn't to park here.",
+          "You mustn't to park here."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-doesnt-have-to",
+      "type": "exercise",
+      "title": "Bilde: Sie muss sonntags nicht arbeiten",
+      "exercise": {
+        "id": "ex-tiles-doesnt-have-to",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum richtigen Satz: *Sie muss sonntags nicht arbeiten.*",
+        "card_ids": ["modal-dont-have-to", "example-dont-have-to-come"],
+        "tiles": ["She", "doesn't", "have", "to", "work", "on", "Sundays"],
+        "hint": "3. Person Singular → **doesn't have to** (nicht 'don't have to' und nicht 'mustn't').",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-should-doctor",
+      "type": "exercise",
+      "title": "Bilde: Du solltest zum Arzt gehen",
+      "exercise": {
+        "id": "ex-tiles-should-doctor",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Du solltest zum Arzt gehen.*",
+        "card_ids": ["modal-should", "example-should-doctor"],
+        "tiles": ["You", "should", "see", "a", "doctor"],
+        "hint": "**should** + Infinitiv ohne *to*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-mustnt-vs-dont-have-to",
+      "type": "exercise",
+      "title": "Verbot oder kein Zwang?",
+      "exercise": {
+        "id": "ex-pic-mustnt-vs-dont-have-to",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet *Du darfst das nicht tun* (Verbot — nicht nur kein Zwang)?",
+        "card_ids": ["modal-mustnt", "modal-dont-have-to"],
+        "images": [
+          { "src": "assets/img/prohibition-sign.png", "label": "You mustn't do that.", "is_correct": "true" },
+          { "src": "assets/img/optional-sign.png", "label": "You don't have to do that." },
+          { "src": "assets/img/advice-sign.png", "label": "You shouldn't do that." },
+          { "src": "assets/img/obligation-sign.png", "label": "You must to do that." }
+        ],
+        "hint": "Verbot = **mustn't** (darf nicht). *don't have to* = kein Zwang, aber erlaubt!",
+        "distractors": [
+          "You don't have to do that.",
+          "You shouldn't do that.",
+          "You must to do that."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-receptive-shouldnt",
+      "type": "exercise",
+      "title": "Verstehen: shouldn't",
+      "exercise": {
+        "id": "ex-free-receptive-shouldnt",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *She shouldn't eat so much salt.*",
+        "card_ids": ["modal-shouldnt", "example-shouldnt-eat"],
+        "accept": [
+          "Sie sollte nicht so viel Salz essen.",
+          "sie sollte nicht so viel salz essen",
+          "Sie sollte nicht so viel Salz essen",
+          "Sie sollte nicht so viel Salz zu sich nehmen."
+        ],
+        "hint": "**shouldn't** = sollte nicht (negativer Ratschlag, kein Verbot).",
+        "distractors": [
+          "Sie darf kein Salz essen.",
+          "Sie muss kein Salz essen.",
+          "Sie isst nicht so viel Salz."
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

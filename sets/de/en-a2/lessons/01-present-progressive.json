@@ -1,0 +1,344 @@
+{
+  "id": "01-present-progressive",
+  "title": "The Present Progressive",
+  "description": "Die Verlaufsform der Gegenwart (am/is/are + -ing) für Handlungen, die gerade passieren — und der Kontrast zum Simple Present aus A1. Mit Schreibregeln der -ing-Form und den stative verbs.",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "form-progressive",
+      "front": "am / is / are + verb-ing",
+      "back": "Verlaufsform der Gegenwart (etwas passiert gerade jetzt)",
+      "notes": "Gebildet mit einer Form von **to be** + **-ing**. *I **am working***, *She **is reading***, *They **are playing***. Im Deutschen gibt es diese Form nicht — wir sagen einfach 'ich arbeite (gerade)'.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["grammar", "present-progressive"]
+    },
+    {
+      "id": "signal-now",
+      "front": "now / right now",
+      "back": "jetzt / gerade jetzt",
+      "notes": "Klassisches Signalwort für das Present Progressive: *I am studying **right now***.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["signal", "present-progressive"]
+    },
+    {
+      "id": "signal-at-the-moment",
+      "front": "at the moment",
+      "back": "im Moment / gerade",
+      "notes": "Signalwort fürs Progressive: *She is busy **at the moment***.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["signal", "present-progressive"]
+    },
+    {
+      "id": "signal-look-listen",
+      "front": "Look! / Listen!",
+      "back": "Schau! / Hör mal!",
+      "notes": "Diese Ausrufe lösen fast immer das Progressive aus, weil etwas **gerade jetzt** geschieht: ***Listen!** The baby is crying.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "Etwas passiert genau in diesem Augenblick.",
+      "tags": ["signal", "present-progressive"]
+    },
+    {
+      "id": "spell-make",
+      "front": "make → making",
+      "back": "schreiben: stummes -e fällt weg",
+      "notes": "Endet das Verb auf ein stummes **-e**, fällt es vor **-ing** weg: *make → making*, *write → writing*, *take → taking*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["spelling", "present-progressive"]
+    },
+    {
+      "id": "spell-run",
+      "front": "run → running",
+      "back": "schreiben: Endkonsonant wird verdoppelt",
+      "notes": "Kurzer betonter Vokal + einzelner Endkonsonant → Konsonant verdoppeln: *run → running*, *sit → sitting*, *swim → swimming*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Ein kurzer Vokal vor einem einzelnen Konsonanten.",
+      "tags": ["spelling", "present-progressive"]
+    },
+    {
+      "id": "spell-lie",
+      "front": "lie → lying",
+      "back": "schreiben: -ie wird zu -y",
+      "notes": "Endet das Verb auf **-ie**, wird daraus **-y** + -ing: *lie → lying*, *die → dying*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["spelling", "present-progressive"]
+    },
+    {
+      "id": "signal-simple-present",
+      "front": "every day / usually / always",
+      "back": "jeden Tag / normalerweise / immer (Signal fürs Simple Present)",
+      "notes": "Diese Wörter zeigen eine **Gewohnheit** an → **Simple Present**, nicht Progressive: *I **go** to work every day*. Vgl. A1.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["signal", "simple-present"]
+    },
+    {
+      "id": "stative-know",
+      "front": "know (stative verb)",
+      "back": "wissen / kennen — kein Progressive!",
+      "notes": "**Stative verbs** (Zustandsverben) stehen normalerweise **nicht** im Progressive. Richtig: *I **know** the answer* — **nicht** ~~I am knowing~~.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Zustand, keine Handlung — bleibt im Simple Present.",
+      "tags": ["stative", "vocabulary"]
+    },
+    {
+      "id": "stative-want",
+      "front": "want (stative verb)",
+      "back": "wollen — kein Progressive!",
+      "notes": "Auch *want* ist ein stative verb: *I **want** a coffee* — **nicht** ~~I am wanting~~.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["stative", "vocabulary"]
+    },
+    {
+      "id": "stative-like",
+      "front": "like (stative verb)",
+      "back": "mögen — kein Progressive!",
+      "notes": "Gefühle/Meinungen sind stative: *I **like** this song* — **nicht** ~~I am liking~~. Weitere: love, hate, need, understand, believe.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["stative", "vocabulary"]
+    },
+    {
+      "id": "example-working",
+      "front": "I am working right now.",
+      "back": "Ich arbeite gerade (jetzt).",
+      "notes": "Typischer Progressive-Satz: Subjekt + *am/is/are* + Verb-**ing** + Signalwort.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["example", "present-progressive"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Present Progressive — Form und Gebrauch",
+      "body": "# The Present Progressive\n\nIn **A1** hast du das **Simple Present** gelernt — für Gewohnheiten und Tatsachen: *I **work** in Berlin*, *She **plays** tennis on Sundays*.\n\nJetzt kommt eine Form, die es im **Deutschen gar nicht gibt**: das **Present Progressive** (Verlaufsform). Es beschreibt, was **gerade jetzt** passiert:\n\n> **am / is / are** + Verb mit **-ing**\n\n| Person | Form | Beispiel |\n|---|---|---|\n| I | **am** + -ing | I **am working** |\n| he / she / it | **is** + -ing | She **is reading** |\n| you / we / they | **are** + -ing | They **are playing** |\n\nDeutsch unterscheidet das nicht: *Ich arbeite* kann **beides** heißen. Im Englischen ist der Unterschied wichtig:\n\n- *I **work** in a bank.* → mein Beruf (Simple Present)\n- *I **am working** right now.* → genau in diesem Moment (Progressive)"
+    },
+    {
+      "id": "step-spelling",
+      "type": "theory",
+      "title": "Die -ing-Form richtig schreiben",
+      "body": "## Schreibregeln der -ing-Form\n\nMeistens hängst du einfach **-ing** an (*play → playing*, *go → going*). Aber es gibt drei Sonderfälle:\n\n| Regel | Beispiel |\n|---|---|\n| stummes **-e** fällt weg | make → **making**, write → **writing** |\n| kurzer Vokal + Endkonsonant → **verdoppeln** | run → **running**, sit → **sitting** |\n| **-ie** wird zu **-y** | lie → **lying**, die → **dying** |\n\n> Achtung: Nur **kurze, betonte** Silben verdoppeln den Konsonanten (*sit → sitting*), aber nicht *open → opening* (Betonung auf der ersten Silbe)."
+    },
+    {
+      "id": "ex-match-signals",
+      "type": "exercise",
+      "title": "Signalwörter zuordnen",
+      "exercise": {
+        "id": "ex-match-signals",
+        "type": "matching",
+        "prompt": "Ordne jedem englischen Ausdruck seine deutsche Bedeutung zu.",
+        "card_ids": ["signal-now", "signal-at-the-moment", "signal-look-listen", "signal-simple-present"],
+        "pairs": [
+          { "left": "right now", "right": "gerade jetzt" },
+          { "left": "at the moment", "right": "im Moment" },
+          { "left": "Listen!", "right": "Hör mal!" },
+          { "left": "every day", "right": "jeden Tag" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-spelling",
+      "type": "exercise",
+      "title": "Die richtige -ing-Form",
+      "exercise": {
+        "id": "ex-match-spelling",
+        "type": "matching",
+        "prompt": "Ordne jedem Verb seine korrekte -ing-Form zu.",
+        "card_ids": ["spell-make", "spell-run", "spell-lie"],
+        "pairs": [
+          { "left": "make", "right": "making" },
+          { "left": "run", "right": "running" },
+          { "left": "lie", "right": "lying" },
+          { "left": "write", "right": "writing" },
+          { "left": "sit", "right": "sitting" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-working",
+      "type": "exercise",
+      "title": "Gerade jetzt",
+      "exercise": {
+        "id": "ex-cloze-working",
+        "type": "cloze",
+        "prompt": "Ergänze die Verlaufsform: Das Verb *work* im Present Progressive (ich).",
+        "card_ids": ["form-progressive", "example-working"],
+        "sentence": "Be quiet, please. I ___ ___ right now.",
+        "blanks": [
+          { "accept": ["am"] },
+          { "accept": ["working"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*am* + *work* + **-ing**."
+      }
+    },
+    {
+      "id": "ex-free-she-reading",
+      "type": "exercise",
+      "title": "Sie liest gerade",
+      "exercise": {
+        "id": "ex-free-she-reading",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Sie liest gerade ein Buch.* (Present Progressive)",
+        "card_ids": ["form-progressive"],
+        "accept": [
+          "She is reading a book.",
+          "she is reading a book",
+          "She is reading a book",
+          "She's reading a book."
+        ],
+        "hint": "*She* + *is* + *read* + **-ing** + *a book*.",
+        "distractors": [
+          "She reads a book.",
+          "She is read a book.",
+          "She is reading a book now actually."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-playing",
+      "type": "exercise",
+      "title": "Was passiert gerade?",
+      "exercise": {
+        "id": "ex-pic-playing",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet *Die Kinder spielen gerade im Garten*?",
+        "card_ids": ["form-progressive"],
+        "images": [
+          { "src": "assets/img/children-playing-1.png", "label": "The children are playing in the garden.", "is_correct": "true" },
+          { "src": "assets/img/children-playing-2.png", "label": "The children play in the garden." },
+          { "src": "assets/img/children-playing-3.png", "label": "The children is playing in the garden." },
+          { "src": "assets/img/children-playing-4.png", "label": "The children are play in the garden." }
+        ],
+        "hint": "*children* ist Plural → *are* + *playing*.",
+        "distractors": [
+          "The children play in the garden.",
+          "The children is playing in the garden.",
+          "The children are play in the garden."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-eating",
+      "type": "exercise",
+      "title": "Bilde: Wir essen gerade zu Abend",
+      "exercise": {
+        "id": "ex-tiles-eating",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Wir essen gerade zu Abend.*",
+        "card_ids": ["form-progressive"],
+        "tiles": ["We", "are", "having", "dinner", "right", "now"],
+        "hint": "*We are* + *have → having* + *dinner right now*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "step-stative",
+      "type": "theory",
+      "title": "Simple Present vs. Progressive — und die stative verbs",
+      "body": "## Wann Simple Present, wann Progressive?\n\n| | Simple Present | Present Progressive |\n|---|---|---|\n| **Gebrauch** | Gewohnheit, Tatsache | gerade jetzt im Gange |\n| **Signalwörter** | every day, usually, always, often | now, right now, at the moment, Look! |\n| **Beispiel** | I **drink** coffee every morning. | I **am drinking** coffee now. |\n\n## Stative verbs — eine wichtige Ausnahme\n\nEinige Verben beschreiben einen **Zustand**, keine Handlung. Sie stehen **nicht** im Progressive, auch wenn es um 'jetzt' geht:\n\n- **Denken/Wissen:** know, understand, believe, remember\n- **Gefühle:** like, love, hate, want, need\n- **Sinne/Besitz:** see, hear, have (= besitzen)\n\nRichtig: *I **want** a coffee now.* — **Falsch:** ~~I am wanting~~.\n\nGenau hier machen Deutschsprachige oft Fehler, weil im Deutschen alles gleich klingt."
+    },
+    {
+      "id": "ex-free-i-know",
+      "type": "exercise",
+      "title": "Stative verb richtig verwenden",
+      "exercise": {
+        "id": "ex-free-i-know",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Ich kenne die Antwort.* (Vorsicht: stative verb!)",
+        "card_ids": ["stative-know"],
+        "accept": [
+          "I know the answer.",
+          "i know the answer",
+          "I know the answer"
+        ],
+        "hint": "*know* ist ein stative verb → **Simple Present**, kein -ing.",
+        "distractors": [
+          "I am knowing the answer.",
+          "I knowing the answer.",
+          "I am know the answer."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-stative-want",
+      "type": "exercise",
+      "title": "Kein Progressive bei want",
+      "exercise": {
+        "id": "ex-cloze-stative-want",
+        "type": "cloze",
+        "prompt": "Ergänze die korrekte Form von *want* (stative verb!).",
+        "card_ids": ["stative-want"],
+        "sentence": "I'm tired. I ___ to go home now.",
+        "blanks": [
+          { "accept": ["want"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*want* steht nie im Progressive — einfache Form."
+      }
+    },
+    {
+      "id": "ex-free-simple-present-contrast",
+      "type": "exercise",
+      "title": "Gewohnheit: Simple Present",
+      "exercise": {
+        "id": "ex-free-simple-present-contrast",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Ich trinke jeden Morgen Kaffee.* (Gewohnheit → Simple Present!)",
+        "card_ids": ["signal-simple-present"],
+        "accept": [
+          "I drink coffee every morning.",
+          "i drink coffee every morning",
+          "I drink coffee every morning",
+          "Every morning I drink coffee."
+        ],
+        "hint": "*every morning* = Gewohnheit → **Simple Present**, kein -ing.",
+        "distractors": [
+          "I am drinking coffee every morning.",
+          "I drinking coffee every morning.",
+          "I am drink coffee every morning."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-receptive-raining",
+      "type": "exercise",
+      "title": "Verstehen: It is raining",
+      "exercise": {
+        "id": "ex-free-receptive-raining",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *Look! It is raining.*",
+        "card_ids": ["signal-look-listen", "form-progressive"],
+        "accept": [
+          "Schau! Es regnet.",
+          "schau! es regnet",
+          "Schau! Es regnet",
+          "Sieh mal! Es regnet."
+        ],
+        "hint": "*Look!* löst das Progressive aus; *it is raining* = es regnet (gerade).",
+        "distractors": [
+          "Schau! Es hat geregnet.",
+          "Schau! Es wird regnen.",
+          "Schau! Es regnet oft."
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

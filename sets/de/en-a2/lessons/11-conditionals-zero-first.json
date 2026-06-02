@@ -1,0 +1,337 @@
+{
+  "id": "11-conditionals-zero-first",
+  "title": "Conditionals: Zero and First",
+  "description": "Reale Bedingungssätze: Zero Conditional für allgemeine Wahrheiten (If + Simple Present → Simple Present) und First Conditional für mögliche Zukunft (If + Simple Present → will + Infinitiv). Goldene Regel: nach *if* steht NIE *will*.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "zero-cond-form",
+      "front": "Zero Conditional: If + Simple Present, … Simple Present",
+      "back": "Allgemeine Wahrheit / Naturgesetz — die Folge tritt immer ein",
+      "notes": "Das **Zero Conditional** drückt aus, was **immer wahr** ist: wissenschaftliche Fakten, Naturgesetze, feste Regeln.\n\n**Struktur:** *If* + Simple Present **, …** Simple Present\n\nBeispiel: *If you **heat** ice, it **melts**.* → Wenn man Eis erhitzt, schmilzt es.\n\nBeide Satzteile stehen im **Simple Present** — kein *will*, kein Futur.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conditionals", "zero-conditional"]
+    },
+    {
+      "id": "first-cond-form",
+      "front": "First Conditional: If + Simple Present, … will + Infinitiv",
+      "back": "Reale / mögliche Zukunft — die Bedingung ist durchaus erreichbar",
+      "notes": "Das **First Conditional** drückt eine **reale zukünftige Möglichkeit** aus: die Bedingung ist realistisch, die Folge wahrscheinlich.\n\n**Struktur:** *If* + Simple Present **, …** *will* + Infinitiv\n\nBeispiel: *If it **rains**, I **will stay** home.* → Wenn es regnet, bleibe ich zu Hause.\n\nWichtig: Im *if*-Satz steht **kein** *will* — das ist der häufigste Fehler für Deutschsprachige!",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conditionals", "first-conditional"]
+    },
+    {
+      "id": "no-will-after-if",
+      "front": "NICHT: If it will rain … → RICHTIG: If it rains …",
+      "back": "Goldene Regel: nach *if* NIE *will* — der if-Satz bleibt im Simple Present!",
+      "notes": "Dies ist **der** klassische Fehler für Deutschsprachige. Im Deutschen sagt man *wenn es regnen wird* — im Englischen ist das **falsch**.\n\n**Falsch:** ~~If it *will rain*, I will stay home.~~\n\n**Richtig:** *If it **rains**, I will stay home.*\n\nDer *if*-Satz steht immer im **Simple Present**, auch wenn die Aussage die Zukunft meint.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Nach *if* niemals *will* — das Present reicht aus!",
+      "tags": ["grammar", "conditionals", "error-prevention"]
+    },
+    {
+      "id": "word-order-comma",
+      "front": "If it rains, I will stay home. ↔ I will stay home if it rains.",
+      "back": "Reihenfolge vertauschbar — Komma nur, wenn der if-Satz vorn steht",
+      "notes": "Beide Reihenfolgen sind korrekt:\n\n1. ***If*-Satz vorn:** *If it rains**,** I will stay home.* → Komma nach dem *if*-Satz\n2. **Hauptsatz vorn:** *I will stay home **if** it rains.* → kein Komma\n\nDiese Regel gilt für Zero **und** First Conditional gleichermaßen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conditionals", "word-order"]
+    },
+    {
+      "id": "unless",
+      "front": "unless",
+      "back": "wenn nicht / außer wenn (= if not)",
+      "notes": "**Unless** bedeutet *if … not*. Man kann es direkt ersetzen:\n\n- *I will stay home **unless** it stops raining.* = *I will stay home **if** it doesn't stop raining.*\n\nNach *unless* steht ebenfalls **Simple Present** (kein *will*):\n\n- **Richtig:** *Unless it **rains**, we will go out.*\n- **Falsch:** ~~Unless it will rain~~",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "unless = if not — danach auch kein will!",
+      "tags": ["grammar", "conditionals", "unless"]
+    },
+    {
+      "id": "example-heat-ice",
+      "front": "If you heat ice, it melts.",
+      "back": "Wenn man Eis erhitzt, schmilzt es. (Zero Conditional — Naturgesetz)",
+      "notes": "Klassisches Beispiel für das **Zero Conditional**: eine wissenschaftliche Tatsache. Beide Verben (*heat*, *melts*) im Simple Present.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["example", "zero-conditional"]
+    },
+    {
+      "id": "example-rain-stay",
+      "front": "If it rains, I will stay home.",
+      "back": "Wenn es regnet, werde ich zu Hause bleiben. (First Conditional — mögliche Zukunft)",
+      "notes": "Klassisches Beispiel für das **First Conditional**: eine reale Möglichkeit in der Zukunft. *rains* = Simple Present im *if*-Satz; *will stay* = Futur im Hauptsatz.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["example", "first-conditional"]
+    },
+    {
+      "id": "example-study-pass",
+      "front": "If you study hard, you will pass the exam.",
+      "back": "Wenn du fleißig lernst, wirst du die Prüfung bestehen.",
+      "notes": "First Conditional mit Ratschlag-Charakter. *study* = Simple Present; *will pass* = will + Infinitiv. Vgl.: *If you study hard, you pass the exam.* (Zero) — dann wäre es ein allgemeines Prinzip.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["example", "first-conditional"]
+    },
+    {
+      "id": "example-unless-hurry",
+      "front": "Unless you hurry, you will miss the train.",
+      "back": "Wenn du dich nicht beerilst, wirst du den Zug verpassen.",
+      "notes": "**Unless** = if not: *If you **don't hurry**, you will miss the train.*\n\nNach *unless* steht Simple Present (*hurry*) — kein *will*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["example", "unless", "first-conditional"]
+    },
+    {
+      "id": "verb-melt",
+      "front": "melt",
+      "back": "schmelzen",
+      "notes": "Regelmäßiges Verb. *Ice **melts** when it is warm.* (Zero Conditional)",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["vocabulary", "zero-conditional"]
+    },
+    {
+      "id": "verb-miss",
+      "front": "miss (the train / bus)",
+      "back": "verpassen (den Zug / Bus)",
+      "notes": "Häufiges Verb in Conditional-Sätzen: *If you don't hurry, you will **miss** the train.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "first-conditional"]
+    },
+    {
+      "id": "verb-pass",
+      "front": "pass (the exam)",
+      "back": "bestehen (die Prüfung)",
+      "notes": "Häufiges Verb in Conditional-Sätzen: *If you study, you will **pass** the exam.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "first-conditional"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-conditionals",
+      "type": "theory",
+      "title": "Conditionals: Zero und First — Warum du sie brauchst",
+      "body": "# Bedingungssätze: Zero und First Conditional\n\nDu kennst jetzt das **Present** (A1) und das **will-Futur** (Lektion 6). Bedingungssätze verbinden beides: *If* + Present → *will*. **Goldene Regel: nach *if* NIE *will*!**\n\nEs gibt zwei reale Bedingungssätze:\n\n| Typ | if-Satz | Hauptsatz | Bedeutung |\n|---|---|---|---|\n| **Zero Conditional** | Simple Present | Simple Present | allgemeine Wahrheit / Naturgesetz |\n| **First Conditional** | Simple Present | *will* + Infinitiv | reale / mögliche Zukunft |\n\n## Zero Conditional — immer wahr\n\nWenn die Bedingung **immer** zur gleichen Folge führt, benutzen wir das Zero Conditional:\n\n> *If you **heat** ice, it **melts**.*\n> *If you **press** this button, the light **goes** on.*\n\nBeide Satzteile stehen im **Simple Present** — kein *will*, kein Futur.\n\n## First Conditional — realistische Zukunft\n\nWenn die Bedingung möglich und die Zukunft realistisch ist:\n\n> *If it **rains**, I **will stay** home.*\n> *If you **study** hard, you **will pass** the exam.*\n\nDer *if*-Satz bleibt im **Simple Present** — nur der Hauptsatz bekommt *will*."
+    },
+    {
+      "id": "step-no-will-after-if",
+      "type": "theory",
+      "title": "Goldene Regel: KEIN will nach if",
+      "body": "## Der häufigste Fehler für Deutschsprachige\n\nIm Deutschen sagt man:\n\n> *Wenn es **regnen wird**, bleibe ich zu Hause.*\n\nDiese Konstruktion mit Futur im Nebensatz ist auf Englisch **grammatisch falsch**:\n\n| | Englisch |\n|---|---|\n| **Falsch** | ~~If it **will rain**, I will stay home.~~ |\n| **Richtig** | *If it **rains**, I will stay home.* |\n\nDer englische *if*-Satz steht immer im **Simple Present**, auch wenn der Satz die Zukunft meint. Das *will* gehört ausschließlich in den **Hauptsatz** (Ergebnissatz).\n\n### Merksatz\n\n> **If → Present. Main clause → will.**\n> Niemals: ~~If → will~~.\n\nDas gilt für das **First Conditional** genauso wie für alle anderen Conditional-Typen."
+    },
+    {
+      "id": "step-word-order-unless",
+      "type": "theory",
+      "title": "Reihenfolge und unless",
+      "body": "## Satzteile vertauschen — mit und ohne Komma\n\nDer *if*-Satz und der Hauptsatz können in beliebiger Reihenfolge stehen:\n\n| Reihenfolge | Beispiel | Komma? |\n|---|---|---|\n| *if*-Satz **vorn** | ***If** it rains**,** I will stay home.* | **Ja** — Komma nach dem *if*-Satz |\n| Hauptsatz **vorn** | *I will stay home **if** it rains.* | **Nein** — kein Komma |\n\nDie Bedeutung ist identisch — nur die Betonung verschiebt sich leicht.\n\n## Unless = if not\n\n**Unless** bedeutet *wenn … nicht* / *außer wenn*. Es ersetzt *if … not*:\n\n> *Unless you **hurry**, you will miss the train.*\n> = *If you **don't hurry**, you will miss the train.*\n\nNach *unless* steht — genau wie nach *if* — das **Simple Present**:\n\n- **Richtig:** *Unless it **rains** …*\n- **Falsch:** ~~Unless it will rain …~~"
+    },
+    {
+      "id": "ex-match-zero-vs-first",
+      "type": "exercise",
+      "title": "Zero oder First? Satzteile zuordnen",
+      "exercise": {
+        "id": "ex-match-zero-vs-first",
+        "type": "matching",
+        "prompt": "Ordne jeden if-Satz seiner richtigen Hauptsatz-Fortsetzung zu.",
+        "card_ids": ["zero-cond-form", "first-cond-form", "example-heat-ice", "example-rain-stay", "example-study-pass"],
+        "pairs": [
+          { "left": "If you heat ice, …", "right": "… it melts." },
+          { "left": "If it rains, …", "right": "… I will stay home." },
+          { "left": "If you study hard, …", "right": "… you will pass the exam." },
+          { "left": "If water reaches 100 °C, …", "right": "… it boils." },
+          { "left": "If she calls, …", "right": "… I will answer." }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-first-rains",
+      "type": "exercise",
+      "title": "First Conditional: Lücke füllen",
+      "exercise": {
+        "id": "ex-cloze-first-rains",
+        "type": "cloze",
+        "prompt": "Ergänze den First Conditional. Denk an die Goldene Regel: nach *if* kein *will*!",
+        "card_ids": ["first-cond-form", "no-will-after-if", "example-rain-stay"],
+        "sentence": "If it ___, we will go to the beach.",
+        "blanks": [
+          { "accept": ["rains", "is sunny", "stops raining"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "if → Simple Present (kein will!) — z.B. *rain → rains* (3. Person Singular)"
+      }
+    },
+    {
+      "id": "ex-cloze-zero-heat",
+      "type": "exercise",
+      "title": "Zero Conditional: beide Lücken füllen",
+      "exercise": {
+        "id": "ex-cloze-zero-heat",
+        "type": "cloze",
+        "prompt": "Ergänze das Zero Conditional (Naturgesetz): beide Satzteile im Simple Present.",
+        "card_ids": ["zero-cond-form", "example-heat-ice", "verb-melt"],
+        "sentence": "If you ___ ice, it ___.",
+        "blanks": [
+          { "accept": ["heat"] },
+          { "accept": ["melts"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Zero Conditional: if + Simple Present, … Simple Present — kein will!"
+      }
+    },
+    {
+      "id": "ex-free-no-will-after-if",
+      "type": "exercise",
+      "title": "Goldene Regel: KEIN will nach if",
+      "exercise": {
+        "id": "ex-free-no-will-after-if",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Wenn es morgen regnet, werde ich zu Hause bleiben.* (First Conditional — Vorsicht: kein will nach if!)",
+        "card_ids": ["first-cond-form", "no-will-after-if", "example-rain-stay"],
+        "accept": [
+          "If it rains tomorrow, I will stay home.",
+          "if it rains tomorrow, i will stay home",
+          "If it rains tomorrow, I will stay home",
+          "I will stay home if it rains tomorrow.",
+          "If it rains tomorrow, I'll stay home."
+        ],
+        "hint": "if + *rains* (Present!) … *will stay* — NICHT: if it will rain!",
+        "distractors": [
+          "If it will rain tomorrow, I will stay home.",
+          "If it rained tomorrow, I will stay home.",
+          "If it rains tomorrow, I stay home."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-study-pass",
+      "type": "exercise",
+      "title": "First Conditional: Ratschlag formulieren",
+      "exercise": {
+        "id": "ex-free-study-pass",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Wenn du fleißig lernst, wirst du die Prüfung bestehen.*",
+        "card_ids": ["first-cond-form", "example-study-pass", "verb-pass"],
+        "accept": [
+          "If you study hard, you will pass the exam.",
+          "if you study hard, you will pass the exam",
+          "If you study hard, you will pass the exam",
+          "You will pass the exam if you study hard.",
+          "If you study hard, you'll pass the exam."
+        ],
+        "hint": "*study* (Simple Present im if-Satz) + *will pass* (Hauptsatz)",
+        "distractors": [
+          "If you will study hard, you will pass the exam.",
+          "If you study hard, you pass the exam.",
+          "If you studied hard, you will pass the exam."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-unless",
+      "type": "exercise",
+      "title": "unless verwenden",
+      "exercise": {
+        "id": "ex-free-unless",
+        "type": "free_text",
+        "prompt": "Übersetze mit *unless*: *Wenn du dich nicht beeilst, wirst du den Zug verpassen.*",
+        "card_ids": ["unless", "example-unless-hurry", "verb-miss"],
+        "accept": [
+          "Unless you hurry, you will miss the train.",
+          "unless you hurry, you will miss the train",
+          "Unless you hurry, you will miss the train",
+          "You will miss the train unless you hurry.",
+          "Unless you hurry, you'll miss the train."
+        ],
+        "hint": "*Unless* + Simple Present (*hurry*) … *will miss* — kein will nach unless!",
+        "distractors": [
+          "Unless you will hurry, you will miss the train.",
+          "If you don't hurry, you miss the train.",
+          "Unless you hurried, you will miss the train."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-first-conditional",
+      "type": "exercise",
+      "title": "First Conditional: Satz bauen",
+      "exercise": {
+        "id": "ex-tiles-first-conditional",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum richtigen First Conditional: *Wenn sie anruft, werde ich antworten.*",
+        "card_ids": ["first-cond-form", "no-will-after-if", "word-order-comma"],
+        "tiles": ["If", "she", "calls", ",", "I", "will", "answer", "."],
+        "hint": "if + Simple Present (calls) — dann Komma — dann will + Infinitiv",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-zero-conditional",
+      "type": "exercise",
+      "title": "Zero Conditional: Satz bauen",
+      "exercise": {
+        "id": "ex-tiles-zero-conditional",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Wenn Wasser 100 °C erreicht, kocht es.* (Zero Conditional)",
+        "card_ids": ["zero-cond-form", "example-heat-ice"],
+        "tiles": ["If", "water", "reaches", "100", "°C", ",", "it", "boils", "."],
+        "hint": "Beide Verben (reaches, boils) im Simple Present — kein will!",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-which-is-correct",
+      "type": "exercise",
+      "title": "Welcher Satz ist grammatisch richtig?",
+      "exercise": {
+        "id": "ex-pic-which-is-correct",
+        "type": "picture_choice",
+        "prompt": "Welcher First-Conditional-Satz ist **grammatisch korrekt**? (Goldene Regel beachten!)",
+        "card_ids": ["first-cond-form", "no-will-after-if"],
+        "images": [
+          { "src": "assets/img/conditionals-correct-1.png", "label": "If it rains, I will stay home.", "is_correct": "true" },
+          { "src": "assets/img/conditionals-error-1.png", "label": "If it will rain, I will stay home." },
+          { "src": "assets/img/conditionals-error-2.png", "label": "If it rained, I will stay home." },
+          { "src": "assets/img/conditionals-error-3.png", "label": "If it rains, I stay home." }
+        ],
+        "hint": "Nach *if* steht Simple Present — kein *will*, kein Past!",
+        "distractors": [
+          "If it will rain, I will stay home.",
+          "If it rained, I will stay home.",
+          "If it rains, I stay home."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-unless-rewrite",
+      "type": "exercise",
+      "title": "unless ↔ if not umschreiben",
+      "exercise": {
+        "id": "ex-match-unless-rewrite",
+        "type": "matching",
+        "prompt": "Ordne jedem *unless*-Satz den bedeutungsgleichen *if not*-Satz zu.",
+        "card_ids": ["unless", "example-unless-hurry"],
+        "pairs": [
+          { "left": "Unless you hurry, …", "right": "If you don't hurry, …" },
+          { "left": "Unless it rains, …", "right": "If it doesn't rain, …" },
+          { "left": "Unless she studies, …", "right": "If she doesn't study, …" },
+          { "left": "Unless we leave now, …", "right": "If we don't leave now, …" }
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
