@@ -1,0 +1,351 @@
+{
+  "id": "15-wiederholung",
+  "title": "Wiederholung A2",
+  "description": "Abschlussstunde des Spanisch-A2-Kurses: Alle großen Themen auf einen Blick — Vergangenheitszeiten, Zukunft und Konditional, Objekt- und Reflexivpronomen, por/para, ser/estar, Subjunktiv und Komparativ.",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "card-tuve",
+      "front": "tuve",
+      "back": "ich hatte (indefinido von tener)",
+      "notes": "**Indefinido** — abgeschlossene Vergangenheit, u-Stamm *tuv-*. *Ayer **tuve** mucho trabajo.* — Gestern hatte ich viel Arbeit.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["indefinido", "tener", "vergangenheit"]
+    },
+    {
+      "id": "card-hacia",
+      "front": "hacía",
+      "back": "er/sie machte (gewöhnlich) / es war (Imperfekt von hacer)",
+      "notes": "**Imperfecto** — Hintergrund, Gewohnheit, laufende Handlung. *Cuando era niño, **hacía** deporte todos los días.* — Als ich Kind war, trieb ich täglich Sport.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["imperfecto", "hacer", "vergangenheit"]
+    },
+    {
+      "id": "card-hablare",
+      "front": "hablaré",
+      "back": "ich werde sprechen (futuro simple von hablar)",
+      "notes": "**Futuro simple** — Zukunft oder starke Vermutung. *Mañana **hablaré** con el jefe.* — Morgen werde ich mit dem Chef sprechen. Regelmäßig: Infinitiv + Endung *-é*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["futuro", "hablar", "zukunft"]
+    },
+    {
+      "id": "card-me-gustaria",
+      "front": "me gustaría",
+      "back": "ich würde gerne (condicional von gustar)",
+      "notes": "**Condicional** von *gustar* — höflicher Wunsch. ***Me gustaría** vivir en España.* — Ich würde gerne in Spanien leben. Vergleich: *me gusta* (mir gefällt es jetzt) vs. *me gustaría* (ich würde gerne …).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["condicional", "gustar", "wunsch"]
+    },
+    {
+      "id": "card-lo-veo",
+      "front": "Lo veo.",
+      "back": "Ich sehe ihn/es. (direktes Objektpronomen lo)",
+      "notes": "**Direktes Objektpronomen** *lo* ersetzt ein maskulines Substantiv. *¿Ves el coche? — Sí, **lo** veo.* — Siehst du das Auto? — Ja, ich sehe es. Vor dem konjugierten Verb.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronomen", "direkt", "lo", "od"]
+    },
+    {
+      "id": "card-le-doy",
+      "front": "Le doy el libro.",
+      "back": "Ich gebe ihm/ihr das Buch. (indirektes Objektpronomen le)",
+      "notes": "**Indirektes Objektpronomen** *le* steht für die Person, der etwas gegeben wird. *¿A quién das el libro? — **Le** doy el libro a María.* — Ich gebe María das Buch.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronomen", "indirekt", "le", "oi"]
+    },
+    {
+      "id": "card-me-levanto",
+      "front": "me levanto",
+      "back": "ich stehe auf (reflexives Verb levantarse)",
+      "notes": "**Reflexive Verben** — das Reflexivpronomen stimmt mit dem Subjekt überein. *Normalmente **me levanto** a las siete.* — Normalerweise stehe ich um sieben auf.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["reflexiv", "levantarse", "tagesablauf"]
+    },
+    {
+      "id": "card-para-por",
+      "front": "para vs. por",
+      "back": "para = Zweck/Ziel/Empfänger/Frist — por = Grund/Dauer/Mittel/Durchquerung",
+      "notes": "**para** blickt nach vorn (wozu? für wen? bis wann?): *Estudio **para** aprender.* — **por** blickt auf Ursprung und Weg (warum? wie lange? womit?): *Gracias **por** tu ayuda.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["por", "para", "praepositionen"]
+    },
+    {
+      "id": "card-esta-listo",
+      "front": "está listo vs. es listo",
+      "back": "está listo = er ist fertig (Zustand) — es listo = er ist klug (Eigenschaft)",
+      "notes": "**ser vs. estar** — klassische Bedeutungsverschiebung. *El trabajo **está** listo.* — Die Arbeit ist fertig. *Juan **es** listo.* — Juan ist klug. Hier verändert die Wahl des Verbs die Bedeutung komplett.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["ser", "estar", "vertiefung"]
+    },
+    {
+      "id": "card-subjuntivo",
+      "front": "quiero que vengas",
+      "back": "ich möchte, dass du kommst (Subjunktiv Präsens von venir)",
+      "notes": "**Subjunktiv** nach *querer que, esperar que, necesitar que* usw. — das Subjekt des Nebensatzes ist verschieden. *Quiero **que** tú **vengas**.* Nie: ~~quiero que vienes~~ (Indikativ nach quiero que ist falsch!).",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Zwei verschiedene Subjekte + Wunschverb → Subjunktiv im Nebensatz.",
+      "tags": ["subjuntivo", "querer", "nebensatz"]
+    },
+    {
+      "id": "card-mejor",
+      "front": "mejor / el mejor",
+      "back": "besser / der/die/das beste (unregelmäßiger Komparativ von bueno)",
+      "notes": "**Komparativ und Superlativ** von *bueno*: *bueno → mejor → el/la mejor*. Nie: ~~más bueno~~ (außer im übertragenen Sinn über Charakter). *Este café es **mejor** que el otro.* — Dieser Kaffee ist besser als der andere.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["komparativ", "superlativ", "bueno", "mejor"]
+    },
+    {
+      "id": "card-indefinido-vs-imperfecto",
+      "front": "indefinido vs. imperfecto",
+      "back": "indefinido = abgeschlossene Handlung — imperfecto = Hintergrund/Gewohnheit/laufende Handlung",
+      "notes": "**Der wichtigste Kontrast der A2-Grammatik.** *El domingo **comí** paella.* (einmalig, abgeschlossen) vs. *De niño siempre **comía** paella los domingos.* (Gewohnheit). Zeitmarker helfen: *ayer/una vez* → indefinido; *siempre/todos los días/cuando era* → imperfecto.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["indefinido", "imperfecto", "kontrast", "vergangenheit"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-intro",
+      "type": "theory",
+      "title": "Die große Wiederholung — alles auf einen Blick",
+      "body": "# Wiederholung A2 — Alle großen Themen\n\nZeit für die große Wiederholung: In diesem A2-Kurs hast du neue Vergangenheits- und Zukunftszeiten, die Objekt- und Reflexivpronomen, por/para, ser/estar vertieft, den subjuntivo und Vergleiche gelernt. Diese Lektion mischt alles.\n\nHier ist ein Überblick über alle zwölf Lektionen:\n\n| Nr. | Thema | Beispiel |\n|---|---|---|\n| 01 | Indefinido (starke Verben) | *tuve, hice, dije* |\n| 02 | Imperfecto | *hacía, vivía, era* |\n| 03 | Indefinido vs. Imperfecto | *comí* vs. *comía* |\n| 04 | Futuro simple | *hablaré, tendré* |\n| 05 | Condicional | *me gustaría, podría* |\n| 06 | Objektpronomen direkt (OD) | *lo veo, la llamo* |\n| 07 | Objektpronomen indirekt (OI) + gustar | *le doy, me gusta* |\n| 08 | Reflexive Verben | *me levanto, se llama* |\n| 09 | Por vs. para | *por eso / para ti* |\n| 10 | Ser vs. estar (Vertiefung) | *es listo / está listo* |\n| 11 | Subjunktiv (Einführung) | *quiero que vengas* |\n| 12 | Komparativ/Superlativ | *mejor, más rápido* |\n\nIn dieser Abschlusslektion üben wir gezielt einen Punkt aus jeder Kategorie."
+    },
+    {
+      "id": "theory-vergangenheit-zukunft",
+      "type": "theory",
+      "title": "Zeitformen im Überblick",
+      "body": "## Die A2-Zeitformen im Überblick\n\n### Vergangenheit — der zentrale Kontrast\n\n| Zeitform | Funktion | Signalwörter | Beispiel |\n|---|---|---|---|\n| **Indefinido** | abgeschlossene Handlung, Ereignis | *ayer, el lunes, una vez, de repente* | *Ayer **tuve** tiempo.* |\n| **Imperfecto** | Hintergrund, Gewohnheit, laufende Handlung | *siempre, todos los días, cuando era niño* | *Siempre **tenía** tiempo.* |\n\n> Merkhilfe: Indefinido = **Vordergrund** (was passierte?), Imperfecto = **Hintergrund** (wie war es?)\n\n### Zukunft und Konditional\n\n| Zeitform | Bildung | Funktion | Beispiel |\n|---|---|---|---|\n| **Futuro simple** | Infinitiv + *-é/-ás/-á/-emos/-éis/-án* | Zukunft, Vermutung | *Mañana **hablaré** con él.* |\n| **Condicional** | Infinitiv + *-ía/-ías/-ía/-íamos/-íais/-ían* | Wunsch, Hypothese, Höflichkeit | ***Me gustaría** un café.* |\n\n### Die häufigsten Verwechslungen\n\n- **indefinido vs. imperfecto:** *El sábado **fui** al cine* (einmalig) vs. *Los sábados siempre **iba** al cine* (Gewohnheit).\n- **futuro vs. presente:** *Mañana **llamo** a tu madre* (ugs., nahe Zukunft) vs. *La semana que viene **llamaré**.* (formeller, weiter entfernt)"
+    },
+    {
+      "id": "theory-pronomen-grammatik",
+      "type": "theory",
+      "title": "Pronomen, por/para, ser/estar und Subjunktiv",
+      "body": "## Die übrigen A2-Bausteine\n\n### Objektpronomen und Reflexivpronomen\n\n| Typ | Pronomen (yo/tú/él/ella/nosotros/ellos) | Beispiel |\n|---|---|---|\n| **Direkt (OD)** | me / te / lo, la / nos / os / los, las | *Lo veo.* — Ich sehe ihn/es. |\n| **Indirekt (OI)** | me / te / le / nos / os / les | *Le doy el libro.* — Ich gebe ihm/ihr das Buch. |\n| **Reflexiv** | me / te / se / nos / os / se | *Me levanto a las 7.* — Ich stehe um 7 auf. |\n\n### Por vs. para — Kurzformel\n\n| **para** → Ziel/Zweck/Empfänger/Frist | **por** → Grund/Dauer/Mittel/Weg |\n|---|---|\n| *para aprender* (um zu lernen) | *por eso* (deshalb) |\n| *para ti* (für dich) | *por dos horas* (zwei Stunden lang) |\n| *para el lunes* (bis Montag) | *por teléfono* (per Telefon) |\n\n### Ser vs. estar — Bedeutungsveränderung\n\n- *Juan **es** aburrido.* — Juan ist langweilig (immer so).\n- *Juan **está** aburrido.* — Juan ist (gerade) gelangweilt.\n\n### Subjunktiv — wann?\n\nNach Wunsch-/Meinungsverben mit **zwei verschiedenen Subjekten**: *quiero que vengas, espero que estés bien, necesito que lo hagas*. **Kein** Subjunktiv nach gleichem Subjekt: *quiero venir* (nur ich!).\n\n### Komparativ und Superlativ\n\n- Regelmäßig: *más rápido que …* / *el más rápido de …*\n- Unregelmäßig: *bueno → mejor → el mejor* (nie: ~~más bueno~~)\n- Gleichheit: *tan … como* — *tan rápido como él*"
+    },
+    {
+      "id": "ex-matching-zeitformen",
+      "type": "exercise",
+      "title": "Zeitform zuordnen",
+      "exercise": {
+        "id": "ex-matching-zeitformen",
+        "type": "matching",
+        "prompt": "Ordne jede Verbform ihrer Zeitform zu.",
+        "card_ids": ["card-tuve", "card-hacia", "card-hablare", "card-me-gustaria", "card-indefinido-vs-imperfecto"],
+        "pairs": [
+          { "left": "tuve", "right": "indefinido" },
+          { "left": "hacía", "right": "imperfecto" },
+          { "left": "hablaré", "right": "futuro simple" },
+          { "left": "me gustaría", "right": "condicional" },
+          { "left": "vengas", "right": "subjunktiv" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-matching-pronomen",
+      "type": "exercise",
+      "title": "Pronomentyp erkennen",
+      "exercise": {
+        "id": "ex-matching-pronomen",
+        "type": "matching",
+        "prompt": "Ordne jedem Satz den hervorgehobenen Pronomentyp zu.",
+        "card_ids": ["card-lo-veo", "card-le-doy", "card-me-levanto"],
+        "pairs": [
+          { "left": "Lo veo.", "right": "direktes Objektpronomen" },
+          { "left": "Le doy el libro.", "right": "indirektes Objektpronomen" },
+          { "left": "Me levanto.", "right": "reflexives Pronomen" },
+          { "left": "Me gusta el café.", "right": "indirektes Objektpronomen" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-indefinido",
+      "type": "exercise",
+      "title": "Gestern hatte ich keine Zeit",
+      "exercise": {
+        "id": "ex-cloze-indefinido",
+        "type": "cloze",
+        "prompt": "Ergänze die yo-Form von *tener* im **indefinido** (abgeschlossene Vergangenheit).",
+        "card_ids": ["card-tuve"],
+        "sentence": "Ayer no ___ tiempo para llamarte.",
+        "blanks": [
+          { "accept": ["tuve"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "u-Stamm tuv- + Endung -e, ohne Akzent. Nicht tenía (das wäre Imperfecto)."
+      }
+    },
+    {
+      "id": "ex-cloze-imperfecto",
+      "type": "exercise",
+      "title": "Früher machte er Sport",
+      "exercise": {
+        "id": "ex-cloze-imperfecto",
+        "type": "cloze",
+        "prompt": "Gewohnheit in der Vergangenheit — ergänze das **imperfecto** von *hacer* (él-Form).",
+        "card_ids": ["card-hacia"],
+        "sentence": "De niño, siempre ___ deporte los sábados.",
+        "blanks": [
+          { "accept": ["hacía"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Signalwort *siempre* + Gewohnheit → imperfecto. él-Form: hac- + -ía (mit Akzent!)."
+      }
+    },
+    {
+      "id": "ex-cloze-por-para",
+      "type": "exercise",
+      "title": "Por oder para?",
+      "exercise": {
+        "id": "ex-cloze-por-para",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Präposition: Ich lerne Spanisch, um zu reisen.",
+        "card_ids": ["card-para-por"],
+        "sentence": "Estudio español ___ viajar.",
+        "blanks": [
+          { "accept": ["para"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Zweck (um zu …) → para + Infinitiv. Nie por vor Infinitiv für Zweck!"
+      }
+    },
+    {
+      "id": "ex-free-futuro",
+      "type": "exercise",
+      "title": "Übersetze: Morgen werde ich mit ihm sprechen.",
+      "exercise": {
+        "id": "ex-free-futuro",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Morgen werde ich mit ihm sprechen.* (futuro simple von hablar)",
+        "card_ids": ["card-hablare"],
+        "accept": [
+          "Mañana hablaré con él.",
+          "mañana hablaré con él",
+          "Mañana hablaré con el.",
+          "mañana hablare con el",
+          "Yo hablaré con él mañana."
+        ],
+        "hint": "Futuro von *hablar* (yo): *hablaré*. Mañana + yo-Futuro + con él.",
+        "distractors": [
+          "Mañana hablo con él.",
+          "Mañana hablaría con él.",
+          "Mañana hablar con él."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-subjuntivo",
+      "type": "exercise",
+      "title": "Übersetze: Ich möchte, dass du kommst.",
+      "exercise": {
+        "id": "ex-free-subjuntivo",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Ich möchte, dass du kommst.* (Subjunktiv von venir)",
+        "card_ids": ["card-subjuntivo"],
+        "accept": [
+          "Quiero que vengas.",
+          "quiero que vengas",
+          "Quiero que tú vengas.",
+          "quiero que tu vengas"
+        ],
+        "hint": "Wunsch + anderes Subjekt → quiero **que** + Subjunktiv. vengas = tú-Subjunktiv von venir.",
+        "distractors": [
+          "Quiero que vienes.",
+          "Quiero que venir.",
+          "Quiero venir tú."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ser-estar",
+      "type": "exercise",
+      "title": "Ser oder estar? Ich bin gerade müde.",
+      "exercise": {
+        "id": "ex-free-ser-estar",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Ich bin gerade müde.* (vorübergehender Zustand → estar)",
+        "card_ids": ["card-esta-listo"],
+        "accept": [
+          "Estoy cansado.",
+          "estoy cansado",
+          "Estoy cansada.",
+          "estoy cansada",
+          "Yo estoy cansado."
+        ],
+        "hint": "Vorübergehender Zustand (gerade, im Moment) → estar. Nicht soy (das wäre eine dauerhafte Eigenschaft).",
+        "distractors": [
+          "Soy cansado.",
+          "Soy cansada.",
+          "Estoy cansado ser."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-reflexiv",
+      "type": "exercise",
+      "title": "Bilde: Ich stehe normalerweise um 7 Uhr auf.",
+      "exercise": {
+        "id": "ex-tiles-reflexiv",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich stehe normalerweise um 7 Uhr auf.*",
+        "card_ids": ["card-me-levanto"],
+        "tiles": ["Normalmente", "me", "levanto", "a", "las", "siete"],
+        "hint": "Reflexivpronomen *me* vor dem konjugierten Verb: me levanto.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-komparativ",
+      "type": "exercise",
+      "title": "Bilde: Dieser Kaffee ist besser als der andere.",
+      "exercise": {
+        "id": "ex-tiles-komparativ",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Dieser Kaffee ist besser als der andere.*",
+        "card_ids": ["card-mejor"],
+        "tiles": ["Este", "café", "es", "mejor", "que", "el", "otro"],
+        "hint": "Unregelmäßiger Komparativ: mejor (nie más bueno). mejor que = besser als.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-indefinido-imperfecto",
+      "type": "exercise",
+      "title": "Welcher Satz passt zur Gewohnheit?",
+      "exercise": {
+        "id": "ex-picture-indefinido-imperfecto",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz beschreibt eine *regelmäßige Gewohnheit* in der Vergangenheit?",
+        "card_ids": ["card-indefinido-vs-imperfecto", "card-hacia"],
+        "images": [
+          { "src": "assets/img/habit-past.png", "label": "De niño, siempre hacía deporte.", "is_correct": "true" },
+          { "src": "assets/img/single-event.png", "label": "El sábado pasado hice deporte." },
+          { "src": "assets/img/future-plan.png", "label": "Mañana haré deporte." },
+          { "src": "assets/img/present-routine.png", "label": "Hago deporte todos los días." }
+        ],
+        "hint": "Gewohnheit in der Vergangenheit = imperfecto. Signalwörter: siempre, todos los días, de niño.",
+        "distractors": [
+          "El sábado pasado hice deporte.",
+          "Mañana haré deporte.",
+          "Hago deporte todos los días."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

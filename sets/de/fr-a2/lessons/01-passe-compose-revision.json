@@ -1,0 +1,355 @@
+{
+  "id": "01-passe-compose-revision",
+  "title": "Le passé composé — Auffrischung und Vertiefung",
+  "description": "Wiederholung des passé composé aus A1 (avoir und être) und Vertiefung mit unregelmäßigen Partizipien wie vu, fait, pris und écrit.",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "verb-voir",
+      "front": "voir",
+      "back": "sehen",
+      "notes": "Unregelmäßiges Partizip: **vu**. Bildet mit **avoir**. *J'ai vu un film* — ich habe einen Film gesehen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "participe-irregulier"]
+    },
+    {
+      "id": "verb-faire",
+      "front": "faire",
+      "back": "machen / tun",
+      "notes": "Unregelmäßiges Partizip: **fait**. Bildet mit **avoir**. *J'ai fait mes devoirs* — ich habe meine Hausaufgaben gemacht.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "participe-irregulier"]
+    },
+    {
+      "id": "verb-prendre",
+      "front": "prendre",
+      "back": "nehmen",
+      "notes": "Unregelmäßiges Partizip: **pris**. Bildet mit **avoir**. *Nous avons pris le train* — wir haben den Zug genommen. Genauso: *apprendre → appris*, *comprendre → compris*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "participe-irregulier"]
+    },
+    {
+      "id": "verb-mettre",
+      "front": "mettre",
+      "back": "setzen / legen / anziehen",
+      "notes": "Unregelmäßiges Partizip: **mis**. Bildet mit **avoir**. *J'ai mis la table* — ich habe den Tisch gedeckt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "participe-irregulier"]
+    },
+    {
+      "id": "verb-dire",
+      "front": "dire",
+      "back": "sagen",
+      "notes": "Unregelmäßiges Partizip: **dit**. Bildet mit **avoir**. *Il a dit la vérité* — er hat die Wahrheit gesagt.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "participe-irregulier"]
+    },
+    {
+      "id": "verb-ecrire",
+      "front": "écrire",
+      "back": "schreiben",
+      "notes": "Unregelmäßiges Partizip: **écrit**. Bildet mit **avoir**. *J'ai écrit une lettre* — ich habe einen Brief geschrieben.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "participe-irregulier"]
+    },
+    {
+      "id": "verb-lire",
+      "front": "lire",
+      "back": "lesen",
+      "notes": "Unregelmäßiges Partizip: **lu**. Bildet mit **avoir**. *Elle a lu le livre* — sie hat das Buch gelesen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "participe-irregulier"]
+    },
+    {
+      "id": "verb-boire",
+      "front": "boire",
+      "back": "trinken",
+      "notes": "Unregelmäßiges Partizip: **bu**. Bildet mit **avoir**. *Ils ont bu du café* — sie haben Kaffee getrunken.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "participe-irregulier"]
+    },
+    {
+      "id": "verb-vouloir",
+      "front": "vouloir",
+      "back": "wollen",
+      "notes": "Unregelmäßiges Partizip: **voulu**. Bildet mit **avoir**. *J'ai voulu partir* — ich wollte gehen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "participe-irregulier"]
+    },
+    {
+      "id": "verb-pouvoir",
+      "front": "pouvoir",
+      "back": "können",
+      "notes": "Unregelmäßiges Partizip: **pu**. Bildet mit **avoir**. *Je n'ai pas pu venir* — ich konnte nicht kommen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Sehr kurzes Partizip — nur zwei Buchstaben.",
+      "tags": ["verb", "participe-irregulier"]
+    },
+    {
+      "id": "verb-devoir",
+      "front": "devoir",
+      "back": "müssen",
+      "notes": "Unregelmäßiges Partizip: **dû** (mit accent circonflexe). Bildet mit **avoir**. *J'ai dû travailler* — ich musste arbeiten.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["verb", "participe-irregulier"]
+    },
+    {
+      "id": "verb-mourir",
+      "front": "mourir",
+      "back": "sterben",
+      "notes": "Unregelmäßiges Partizip: **mort**. Bildet als Bewegungs-/Zustandsverb mit **être** (wie in A1) — mit Angleichung: *Elle est morte* — sie ist gestorben.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Gehört zur être-Gruppe aus A1.",
+      "tags": ["verb", "participe-irregulier", "etre-verb"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Auffrischung: das passé composé",
+      "body": "# Le passé composé — Auffrischung und Vertiefung\n\nIn **A1** hast du das passé composé kennengelernt — die wichtigste Vergangenheitsform im Französischen. Zur Erinnerung, es besteht aus zwei Teilen:\n\n> **Hilfsverb** (*avoir* oder *être*) + **Partizip Perfekt** (participe passé)\n\n- Die **meisten** Verben bilden mit **avoir**: *J'**ai** mangé*, *Elle **a** regardé*.\n- Eine **kleine Gruppe** (Bewegung/Zustand) bildet mit **être** — mit Angleichung an das Subjekt: *Je **suis** allé(e)*, *Elles **sont** parties*.\n\nDas ist alles A1-Stoff. Jetzt gehen wir **einen Schritt weiter**: Bei regelmäßigen Verben endet das Partizip vorhersehbar (*-er → -é*, *-ir → -i*). Aber viele **häufige** Verben haben ein **unregelmäßiges Partizip**, das du dir einzeln merken musst. Genau darum geht es in dieser Lektion."
+    },
+    {
+      "id": "step-irregular",
+      "type": "theory",
+      "title": "Unregelmäßige Partizipien",
+      "body": "## Die wichtigsten unregelmäßigen Partizipien\n\nDiese Verben kommen ständig vor — präge dir ihr Partizip gut ein:\n\n| Infinitiv | Bedeutung | Partizip | Beispiel |\n|---|---|---|---|\n| voir | sehen | **vu** | j'ai vu |\n| faire | machen | **fait** | j'ai fait |\n| prendre | nehmen | **pris** | j'ai pris |\n| mettre | legen | **mis** | j'ai mis |\n| dire | sagen | **dit** | j'ai dit |\n| écrire | schreiben | **écrit** | j'ai écrit |\n| lire | lesen | **lu** | j'ai lu |\n| boire | trinken | **bu** | j'ai bu |\n| vouloir | wollen | **voulu** | j'ai voulu |\n| pouvoir | können | **pu** | j'ai pu |\n| devoir | müssen | **dû** | j'ai dû |\n\nKleine Eselsbrücken: Viele Partizipien auf **-u** (*vu, lu, bu, voulu, pu, dû*). Die Verben *prendre, apprendre, comprendre* enden alle auf **-pris/-ppris**."
+    },
+    {
+      "id": "ex-match-meaning",
+      "type": "exercise",
+      "title": "Verben verstehen",
+      "exercise": {
+        "id": "ex-match-meaning",
+        "type": "matching",
+        "prompt": "Ordne jedem französischen Verb seine deutsche Bedeutung zu.",
+        "card_ids": ["verb-voir", "verb-faire", "verb-prendre", "verb-dire", "verb-lire"],
+        "pairs": [
+          { "left": "voir", "right": "sehen" },
+          { "left": "faire", "right": "machen" },
+          { "left": "prendre", "right": "nehmen" },
+          { "left": "dire", "right": "sagen" },
+          { "left": "lire", "right": "lesen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-participle",
+      "type": "exercise",
+      "title": "Partizip zum Infinitiv",
+      "exercise": {
+        "id": "ex-match-participle",
+        "type": "matching",
+        "prompt": "Ordne jedem Infinitiv sein unregelmäßiges Partizip Perfekt zu.",
+        "card_ids": ["verb-prendre", "verb-mettre", "verb-ecrire", "verb-boire", "verb-pouvoir"],
+        "pairs": [
+          { "left": "prendre", "right": "pris" },
+          { "left": "mettre", "right": "mis" },
+          { "left": "écrire", "right": "écrit" },
+          { "left": "boire", "right": "bu" },
+          { "left": "pouvoir", "right": "pu" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-vu",
+      "type": "exercise",
+      "title": "Ich habe einen Film gesehen",
+      "exercise": {
+        "id": "ex-cloze-vu",
+        "type": "cloze",
+        "prompt": "Ergänze das Partizip von *voir*.",
+        "card_ids": ["verb-voir"],
+        "sentence": "Hier soir, j'ai ___ un très bon film.",
+        "blanks": [
+          { "accept": ["vu"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Partizip von *voir* — endet auf -u."
+      }
+    },
+    {
+      "id": "ex-free-wrote-letter",
+      "type": "exercise",
+      "title": "Ich habe einen Brief geschrieben",
+      "exercise": {
+        "id": "ex-free-wrote-letter",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich habe einen Brief geschrieben.*",
+        "card_ids": ["verb-ecrire"],
+        "accept": [
+          "J'ai écrit une lettre.",
+          "j'ai écrit une lettre",
+          "J'ai ecrit une lettre.",
+          "j'ai ecrit une lettre"
+        ],
+        "hint": "*J'ai* + Partizip von *écrire* (**écrit**) + *une lettre*.",
+        "distractors": [
+          "J'ai écris une lettre.",
+          "Je écris une lettre.",
+          "J'ai écrivé une lettre."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-took-train",
+      "type": "exercise",
+      "title": "Wir haben den Zug genommen",
+      "exercise": {
+        "id": "ex-pic-took-train",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet *Wir haben den Zug genommen*?",
+        "card_ids": ["verb-prendre"],
+        "images": [
+          { "src": "assets/img/train-1.png", "label": "Nous avons pris le train", "is_correct": "true" },
+          { "src": "assets/img/train-2.png", "label": "Nous avons prendu le train" },
+          { "src": "assets/img/train-3.png", "label": "Nous sommes pris le train" },
+          { "src": "assets/img/train-4.png", "label": "Nous avons prit le train" }
+        ],
+        "hint": "Das Partizip von *prendre* ist **pris**, gebildet mit *avoir*.",
+        "distractors": [
+          "Nous avons prendu le train",
+          "Nous sommes pris le train",
+          "Nous avons prit le train"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-did-homework",
+      "type": "exercise",
+      "title": "Bilde: Ich habe meine Hausaufgaben gemacht",
+      "exercise": {
+        "id": "ex-tiles-did-homework",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich habe meine Hausaufgaben gemacht.*",
+        "card_ids": ["verb-faire"],
+        "tiles": ["J'", "ai", "fait", "mes", "devoirs"],
+        "hint": "*J'ai* + Partizip von *faire* (**fait**) + *mes devoirs*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-read-book",
+      "type": "exercise",
+      "title": "Sie hat das Buch gelesen",
+      "exercise": {
+        "id": "ex-free-read-book",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Sie hat das Buch gelesen.*",
+        "card_ids": ["verb-lire"],
+        "accept": [
+          "Elle a lu le livre.",
+          "elle a lu le livre",
+          "Elle a lu le livre"
+        ],
+        "hint": "*Elle a* + Partizip von *lire* (**lu**) + *le livre*.",
+        "distractors": [
+          "Elle a lit le livre.",
+          "Elle a lisu le livre.",
+          "Elle est lu le livre."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "step-avoir-etre-recap",
+      "type": "theory",
+      "title": "avoir oder être? — und die Angleichung",
+      "body": "## Das richtige Hilfsverb — kurze Erinnerung aus A1\n\nAuch mit unregelmäßigen Partizipien gilt dieselbe Regel wie in A1:\n\n- **Bewegung/Zustand** (aller, venir, partir, mourir …) → **être**, mit **Angleichung** ans Subjekt.\n- **Alles andere** → **avoir**, **ohne** Angleichung.\n\n| Mit avoir (keine Angleichung) | Mit être (Angleichung) |\n|---|---|\n| J'ai **pris** le bus | Je suis **parti(e)** |\n| Elle a **vu** le film | Elle est **morte** |\n| Ils ont **bu** un café | Ils sont **venus** |\n\n> Achtung bei *mourir*: unregelmäßiges Partizip **mort**, aber trotzdem **être** — *Elle est **morte***, *Ils sont **morts***.\n\nMerke dir: Das **unregelmäßige Partizip** ändert nur die *Form* des Partizips — **nicht** die Wahl des Hilfsverbs."
+    },
+    {
+      "id": "ex-cloze-mettre",
+      "type": "exercise",
+      "title": "Den Tisch gedeckt",
+      "exercise": {
+        "id": "ex-cloze-mettre",
+        "type": "cloze",
+        "prompt": "Ergänze das Partizip von *mettre*.",
+        "card_ids": ["verb-mettre"],
+        "sentence": "Elle a ___ la table avant le dîner.",
+        "blanks": [
+          { "accept": ["mis"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Partizip von *mettre* — drei Buchstaben, endet auf -s."
+      }
+    },
+    {
+      "id": "ex-free-receptive-said",
+      "type": "exercise",
+      "title": "Verstehen: Il a dit la vérité",
+      "exercise": {
+        "id": "ex-free-receptive-said",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *Il a dit la vérité.*",
+        "card_ids": ["verb-dire"],
+        "accept": [
+          "Er hat die Wahrheit gesagt.",
+          "er hat die Wahrheit gesagt",
+          "Er hat die Wahrheit gesagt"
+        ],
+        "hint": "*dit* ist das Partizip von *dire* (sagen); *la vérité* = die Wahrheit.",
+        "distractors": [
+          "Er sagt die Wahrheit.",
+          "Er hat die Wahrheit gehört.",
+          "Er hat recht gehabt."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-drank-coffee",
+      "type": "exercise",
+      "title": "Bilde: Sie haben Kaffee getrunken",
+      "exercise": {
+        "id": "ex-tiles-drank-coffee",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Sie haben Kaffee getrunken.* (männlich/gemischt: ils)",
+        "card_ids": ["verb-boire"],
+        "tiles": ["Ils", "ont", "bu", "du", "café"],
+        "hint": "*Ils ont* + Partizip von *boire* (**bu**) + *du café*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-she-died",
+      "type": "exercise",
+      "title": "être mit unregelmäßigem Partizip",
+      "exercise": {
+        "id": "ex-free-she-died",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Sie ist 1998 gestorben.* (mourir bildet mit être!)",
+        "card_ids": ["verb-mourir"],
+        "accept": [
+          "Elle est morte en 1998.",
+          "elle est morte en 1998",
+          "Elle est morte en 1998"
+        ],
+        "hint": "*mourir* gehört zur être-Gruppe; weibliches Subjekt → Partizip **morte** mit -e.",
+        "distractors": [
+          "Elle a mort en 1998.",
+          "Elle est mort en 1998.",
+          "Elle a mouru en 1998."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

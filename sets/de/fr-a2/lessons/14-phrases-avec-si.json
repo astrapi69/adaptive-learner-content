@@ -1,0 +1,336 @@
+{
+  "id": "14-phrases-avec-si",
+  "title": "Les phrases avec si — Bedingungssätze",
+  "description": "Bedingungssätze mit 'si': die reale Bedingung (si + présent → futur simple) und die hypothetische Bedingung (si + imparfait → conditionnel présent). Klassischer Fehler: nach 'si' steht nie futur oder conditionnel!",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "si-real-pattern",
+      "front": "si + présent → futur simple",
+      "back": "reale Bedingung: Wenn … (jetzt), dann werde ich …",
+      "notes": "Das **Muster der realen Bedingung**: Im si-Nebensatz steht das **présent**, im Hauptsatz das **futur simple**. Beispiel: *Si j'ai le temps, je viendrai.* — Wenn ich Zeit habe, werde ich kommen. Die Bedingung ist durchaus möglich.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["si-clauses", "reel", "futur-simple", "present"]
+    },
+    {
+      "id": "si-hypo-pattern",
+      "front": "si + imparfait → conditionnel présent",
+      "back": "hypothetische/irreale Bedingung: Wenn ich … hätte/wäre, würde ich …",
+      "notes": "Das **Muster der hypothetischen Bedingung**: Im si-Nebensatz steht das **imparfait**, im Hauptsatz das **conditionnel présent**. Beispiel: *Si j'avais le temps, je viendrais.* — Wenn ich Zeit hätte, würde ich kommen. Die Bedingung ist unwahrscheinlich oder rein gedanklich.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["si-clauses", "hypothetisch", "conditionnel", "imparfait"]
+    },
+    {
+      "id": "si-no-futur-rule",
+      "front": "Nach 'si' → niemals futur oder conditionnel!",
+      "back": "Klassischer Fehler: *Si j'aurai le temps* ✗ — korrekt: *Si j'ai le temps* ✓",
+      "notes": "**Wichtigste Regel:** Nach **si** (in der Bedingung) steht **nie** das futur simple und **nie** das conditionnel présent. Das ist ein sehr häufiger Fehler. Merksatz: 'Si + futur/conditionnel = immer falsch!' Die Zeitformen im Ergebnis-Satz hingegen variieren je nach Typ.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "si + futur = FALSCH. si + présent oder imparfait = richtig.",
+      "tags": ["si-clauses", "klassischer-fehler", "regel"]
+    },
+    {
+      "id": "si-sentence-venir-real",
+      "front": "Si j'ai le temps, je viendrai.",
+      "back": "Wenn ich Zeit habe, werde ich kommen. (reale Bedingung)",
+      "notes": "**Reale Bedingung:** si + **présent** (*ai*) → **futur simple** (*viendrai*). Der Sprecher hält es für möglich, dass er Zeit hat. Die Satzteile können auch getauscht werden: *Je viendrai si j'ai le temps.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["si-clauses", "reel", "beispielsatz", "venir"]
+    },
+    {
+      "id": "si-sentence-venir-hypo",
+      "front": "Si j'avais le temps, je viendrais.",
+      "back": "Wenn ich Zeit hätte, würde ich kommen. (hypothetische Bedingung)",
+      "notes": "**Hypothetische Bedingung:** si + **imparfait** (*avais*) → **conditionnel** (*viendrais*). Der Sprecher hat (wahrscheinlich) keine Zeit — die Bedingung ist nur gedanklich. Typisch: Das Deutsche 'würde' entspricht dem conditionnel im Hauptsatz.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["si-clauses", "hypothetisch", "beispielsatz", "venir"]
+    },
+    {
+      "id": "si-sentence-manger-real",
+      "front": "Si elle a faim, elle mangera une pomme.",
+      "back": "Wenn sie Hunger hat, wird sie einen Apfel essen. (reale Bedingung)",
+      "notes": "**Reale Bedingung:** si + **présent** (*a*) → **futur simple** (*mangera*). *avoir faim* = Hunger haben. Der Ergebnissatz kann auch voranstehen: *Elle mangera une pomme si elle a faim.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["si-clauses", "reel", "beispielsatz", "manger"]
+    },
+    {
+      "id": "si-sentence-manger-hypo",
+      "front": "Si elle avait faim, elle mangerait une pomme.",
+      "back": "Wenn sie Hunger hätte, würde sie einen Apfel essen. (hypothetische Bedingung)",
+      "notes": "**Hypothetische Bedingung:** si + **imparfait** (*avait*) → **conditionnel** (*mangerait*). Sie hat (wahrscheinlich) keinen Hunger — rein hypothetisch. Achte auf die Endung **-ait** beim imparfait und beim conditionnel: sie sind hier zufällig gleich!",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["si-clauses", "hypothetisch", "beispielsatz", "manger"]
+    },
+    {
+      "id": "si-sentence-aller-real",
+      "front": "Si tu es libre demain, nous irons au cinéma.",
+      "back": "Wenn du morgen frei bist, werden wir ins Kino gehen. (reale Bedingung)",
+      "notes": "**Reale Bedingung:** si + **présent** (*es*) → **futur simple** (*irons*). *aller* hat im futur simple den unregelmäßigen Stamm **ir-**: *j'irai, nous irons*. *libre* = frei. *le cinéma* = das Kino.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["si-clauses", "reel", "beispielsatz", "aller"]
+    },
+    {
+      "id": "si-sentence-aller-hypo",
+      "front": "Si tu étais libre, nous irions au cinéma.",
+      "back": "Wenn du frei wärst, würden wir ins Kino gehen. (hypothetische Bedingung)",
+      "notes": "**Hypothetische Bedingung:** si + **imparfait** (*étais*) → **conditionnel** (*irions*). *être* im imparfait: *j'étais, tu étais, il était …* Das conditionnel von *aller*: unregelmäßiger Stamm **ir-** + conditionnel-Endung: *j'irais, nous irions*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "imparfait von être: étais. conditionnel von aller: irions.",
+      "tags": ["si-clauses", "hypothetisch", "beispielsatz", "aller"]
+    },
+    {
+      "id": "si-sentence-travailler-real",
+      "front": "Si vous travaillez dur, vous réussirez.",
+      "back": "Wenn ihr/Sie fleißig arbeitet/arbeiten, werdet ihr/werden Sie Erfolg haben.",
+      "notes": "**Reale Bedingung:** si + **présent** (*travaillez*) → **futur simple** (*réussirez*). *travailler dur* = fleißig arbeiten. *réussir* = Erfolg haben, gelingen. Typische motivierende Aussage — durchaus realistisch.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["si-clauses", "reel", "beispielsatz", "reussir"]
+    },
+    {
+      "id": "si-sentence-faire-hypo",
+      "front": "Si nous avions de l'argent, nous ferions un voyage.",
+      "back": "Wenn wir Geld hätten, würden wir eine Reise machen. (hypothetische Bedingung)",
+      "notes": "**Hypothetische Bedingung:** si + **imparfait** (*avions*) → **conditionnel** (*ferions*). *faire* hat im conditionnel den unregelmäßigen Stamm **fer-**: *je ferais, nous ferions*. *de l'argent* = Geld (Partitivartikel). *un voyage* = eine Reise.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "conditionnel von faire: ferions (Stamm fer-).",
+      "tags": ["si-clauses", "hypothetisch", "beispielsatz", "faire"]
+    },
+    {
+      "id": "si-sentence-pouvoir-real",
+      "front": "Si tu peux venir, appelle-moi.",
+      "back": "Wenn du kommen kannst, ruf mich an. (reale Bedingung + Imperativ)",
+      "notes": "**Reale Bedingung:** si + **présent** (*peux*) → Hauptsatz hier mit **Imperativ** (*appelle-moi*) statt futur — auch das ist grammatisch möglich! Der Imperativ drückt eine direkte Aufforderung aus. *pouvoir* im présent: *je peux, tu peux …*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["si-clauses", "reel", "beispielsatz", "pouvoir", "imperatif"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-intro",
+      "type": "theory",
+      "title": "Bedingungssätze mit 'si' — Einführung",
+      "body": "# Les phrases avec si — Bedingungssätze\n\nDiese Lektion verbindet drei Zeiten, die du schon kennst: **présent** (A1), **imparfait** (Lektion 2), **futur simple** (Lektion 4) und **conditionnel** (Lektion 5). Mit **si** baust du daraus Bedingungssätze.\n\nEin Bedingungssatz besteht aus zwei Teilen:\n- **Bedingung** (*la condition*): der si-Satz — *was passieren muss*\n- **Ergebnis** (*la conséquence*): der Hauptsatz — *was dann folgt*\n\nBeide Reihenfolgen sind möglich — der si-Satz kann voran- oder nachgestellt sein:\n> *Si j'ai le temps, je viendrai.* = *Je viendrai si j'ai le temps.*\n\nEs gibt auf A2-Niveau **zwei Typen**, je nachdem ob die Bedingung realistisch oder nur hypothetisch ist."
+    },
+    {
+      "id": "theory-two-types",
+      "type": "theory",
+      "title": "Die zwei Typen: real und hypothetisch",
+      "body": "## Die zwei si-Muster im Überblick\n\n| Typ | si-Satz (Bedingung) | Hauptsatz (Ergebnis) | Bedeutung |\n|---|---|---|---|\n| **Reale Bedingung** | si + **présent** | **futur simple** | Wenn … (möglich), dann werde ich … |\n| **Hypothetische Bedingung** | si + **imparfait** | **conditionnel présent** | Wenn … (unwahrscheinlich/irreal), würde ich … |\n\n### Beispiele\n\n**Reale Bedingung** — die Bedingung ist möglich:\n> *Si j'**ai** le temps, je **viendrai**.* — Wenn ich Zeit **habe**, werde ich **kommen**.\n\n**Hypothetische Bedingung** — die Bedingung ist unwahrscheinlich oder rein gedanklich:\n> *Si j'**avais** le temps, je **viendrais**.* — Wenn ich Zeit **hätte**, würde ich **kommen**.\n\n### Vergleich Deutsch–Französisch\nDas deutsche 'würde' entspricht dem **conditionnel** im Hauptsatz. Im si-Satz selbst steht auf Deutsch oft der Konjunktiv II ('hätte', 'wäre', 'käme') — das entspricht dem französischen **imparfait**."
+    },
+    {
+      "id": "theory-no-futur-after-si",
+      "type": "theory",
+      "title": "WICHTIG: Nie futur oder conditionnel nach si!",
+      "body": "## Die goldene Regel — und der häufigste Fehler\n\n> **Nach 'si' steht NIEMALS das futur simple und NIEMALS das conditionnel présent!**\n\nDas ist der **Klassiker-Fehler**, den fast alle Lernenden irgendwann machen:\n\n| Falsch ✗ | Richtig ✓ |\n|---|---|\n| *Si j'**aurai** le temps …* | *Si j'**ai** le temps …* |\n| *Si je **viendrais** …* | *Si j'**avais** le temps …* |\n| *Si tu **seras** là …* | *Si tu **es** là …* |\n| *Si nous **ferions** …* | *Si nous **faisions** …* |\n\n### Eselsbrücke\nStell dir vor, das Wort **si** 'schiebt' futur und conditionnel in den *anderen* Satzteil: Futur und conditionnel gehören in den **Hauptsatz** (das Ergebnis) — nie in den si-Satz (die Bedingung).\n\n### Satzteile tauschen\nDie Reihenfolge ist frei wählbar — das ändert nichts an den Zeiten:\n- *Si j'ai le temps, **je viendrai**.* ✓\n- ***Je viendrai** si j'ai le temps.* ✓"
+    },
+    {
+      "id": "ex-match-patterns",
+      "type": "exercise",
+      "title": "Muster zuordnen",
+      "exercise": {
+        "id": "ex-match-patterns",
+        "type": "matching",
+        "prompt": "Ordne jede si-Bedingung ihrem korrekten Ergebnissatz zu.",
+        "card_ids": ["si-real-pattern", "si-hypo-pattern", "si-sentence-venir-real", "si-sentence-venir-hypo", "si-sentence-manger-real"],
+        "pairs": [
+          { "left": "Si j'ai le temps …", "right": "… je viendrai." },
+          { "left": "Si j'avais le temps …", "right": "… je viendrais." },
+          { "left": "Si elle a faim …", "right": "… elle mangera une pomme." },
+          { "left": "Si tu étais libre …", "right": "… nous irions au cinéma." },
+          { "left": "Si vous travaillez dur …", "right": "… vous réussirez." }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-type",
+      "type": "exercise",
+      "title": "Typ erkennen: real oder hypothetisch?",
+      "exercise": {
+        "id": "ex-match-type",
+        "type": "matching",
+        "prompt": "Ordne jeden si-Satz seinem Typ zu: reale oder hypothetische Bedingung?",
+        "card_ids": ["si-real-pattern", "si-hypo-pattern", "si-sentence-aller-real", "si-sentence-aller-hypo", "si-sentence-faire-hypo", "si-sentence-travailler-real"],
+        "pairs": [
+          { "left": "Si j'ai le temps, je viendrai.", "right": "reale Bedingung (présent + futur)" },
+          { "left": "Si j'avais le temps, je viendrais.", "right": "hypothetische Bedingung (imparfait + conditionnel)" },
+          { "left": "Si tu es libre demain, nous irons au cinéma.", "right": "reale Bedingung (présent + futur)" },
+          { "left": "Si nous avions de l'argent, nous ferions un voyage.", "right": "hypothetische Bedingung (imparfait + conditionnel)" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-real-venir",
+      "type": "exercise",
+      "title": "Ergänze: reale Bedingung",
+      "exercise": {
+        "id": "ex-cloze-real-venir",
+        "type": "cloze",
+        "prompt": "Ergänze das futur simple von *venir* (je): reale Bedingung.",
+        "card_ids": ["si-sentence-venir-real"],
+        "sentence": "Si j'ai le temps, je ___.",
+        "blanks": [
+          { "accept": ["viendrai"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "futur simple von *venir*: unregelmäßiger Stamm **viendr-** + -ai."
+      }
+    },
+    {
+      "id": "ex-cloze-hypo-avoir",
+      "type": "exercise",
+      "title": "Ergänze: hypothetische Bedingung — si-Satz",
+      "exercise": {
+        "id": "ex-cloze-hypo-avoir",
+        "type": "cloze",
+        "prompt": "Ergänze das imparfait von *avoir* (nous): hypothetische Bedingung.",
+        "card_ids": ["si-sentence-faire-hypo"],
+        "sentence": "Si nous ___ de l'argent, nous ferions un voyage.",
+        "blanks": [
+          { "accept": ["avions"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "imparfait von *avoir* (nous): **avions**. Niemals 'aurons' nach si!"
+      }
+    },
+    {
+      "id": "ex-free-translate-real",
+      "type": "exercise",
+      "title": "Übersetzen: reale Bedingung",
+      "exercise": {
+        "id": "ex-free-translate-real",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Wenn du morgen frei bist, werden wir ins Kino gehen.*",
+        "card_ids": ["si-sentence-aller-real"],
+        "accept": [
+          "Si tu es libre demain, nous irons au cinéma.",
+          "si tu es libre demain, nous irons au cinéma",
+          "Si tu es libre demain, nous irons au cinéma",
+          "Nous irons au cinéma si tu es libre demain.",
+          "nous irons au cinéma si tu es libre demain"
+        ],
+        "hint": "si + **présent** (*es*) → futur simple (*irons*). Stamm von *aller*: **ir-**.",
+        "distractors": [
+          "Si tu seras libre demain, nous irons au cinéma.",
+          "Si tu es libre demain, nous allons au cinéma.",
+          "Si tu étais libre demain, nous irons au cinéma."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-translate-hypo",
+      "type": "exercise",
+      "title": "Übersetzen: hypothetische Bedingung",
+      "exercise": {
+        "id": "ex-free-translate-hypo",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Wenn wir Geld hätten, würden wir eine Reise machen.*",
+        "card_ids": ["si-sentence-faire-hypo"],
+        "accept": [
+          "Si nous avions de l'argent, nous ferions un voyage.",
+          "si nous avions de l'argent, nous ferions un voyage",
+          "Si nous avions de l'argent, nous ferions un voyage",
+          "Nous ferions un voyage si nous avions de l'argent.",
+          "nous ferions un voyage si nous avions de l'argent"
+        ],
+        "hint": "si + **imparfait** (*avions*) → conditionnel (*ferions*). *faire* → conditionnel-Stamm: **fer-**.",
+        "distractors": [
+          "Si nous aurons de l'argent, nous ferions un voyage.",
+          "Si nous avions de l'argent, nous ferons un voyage.",
+          "Si nous aurions de l'argent, nous ferions un voyage."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-error-detection",
+      "type": "exercise",
+      "title": "Fehler erkennen: futur/conditionnel nach si",
+      "exercise": {
+        "id": "ex-free-error-detection",
+        "type": "free_text",
+        "prompt": "Korrigiere den Fehler: *Si j'aurai le temps, je viendrai.* → Schreibe den korrekten si-Satz (nur den si-Teil).",
+        "card_ids": ["si-no-futur-rule", "si-sentence-venir-real"],
+        "accept": [
+          "Si j'ai le temps",
+          "si j'ai le temps",
+          "Si j'ai le temps,",
+          "si j'ai le temps,"
+        ],
+        "hint": "Nach **si** steht nie das futur simple! Ersetze *aurai* durch das présent: **ai**.",
+        "distractors": [
+          "Si j'aurais le temps",
+          "Si j'avais le temps, je viendrai.",
+          "Si j'aurai le temps, je viendrais."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-real-sentence",
+      "type": "exercise",
+      "title": "Satz bauen: reale Bedingung",
+      "exercise": {
+        "id": "ex-tiles-real-sentence",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zu einem korrekten Bedingungssatz: *Wenn sie Hunger hat, wird sie einen Apfel essen.*",
+        "card_ids": ["si-sentence-manger-real"],
+        "tiles": ["Si", "elle", "a", "faim", ",", "elle", "mangera", "une", "pomme", "."],
+        "hint": "si + présent (*a*) → futur simple (*mangera*). Nie 'Si elle aura …'!",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-hypo-sentence",
+      "type": "exercise",
+      "title": "Satz bauen: hypothetische Bedingung",
+      "exercise": {
+        "id": "ex-tiles-hypo-sentence",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Wenn ich Zeit hätte, würde ich kommen.* (hypothetisch)",
+        "card_ids": ["si-sentence-venir-hypo"],
+        "tiles": ["Si", "j'", "avais", "le", "temps", ",", "je", "viendrais", "."],
+        "hint": "si + imparfait (*avais*) → conditionnel (*viendrais*). Nicht 'Si j'aurais …' oder 'Si j'aurai …'!",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-choose-correct",
+      "type": "exercise",
+      "title": "Welcher Satz ist grammatisch korrekt?",
+      "exercise": {
+        "id": "ex-picture-choose-correct",
+        "type": "picture_choice",
+        "prompt": "Welcher si-Satz ist grammatisch korrekt? (reale Bedingung: Wenn du fleißig arbeitest, wirst du Erfolg haben.)",
+        "card_ids": ["si-sentence-travailler-real", "si-no-futur-rule"],
+        "images": [
+          { "src": "assets/img/si-correct-1.png", "label": "Si vous travaillez dur, vous réussirez.", "is_correct": "true" },
+          { "src": "assets/img/si-wrong-futur.png", "label": "Si vous travaillerez dur, vous réussirez." },
+          { "src": "assets/img/si-wrong-cond.png", "label": "Si vous travailleriez dur, vous réussirez." },
+          { "src": "assets/img/si-wrong-mix.png", "label": "Si vous travaillez dur, vous réussissez." }
+        ],
+        "hint": "Nach **si** steht das présent — nie futur (*travaillerez*) oder conditionnel (*travailleriez*)!",
+        "distractors": [
+          "Si vous travaillerez dur, vous réussirez.",
+          "Si vous travailleriez dur, vous réussirez.",
+          "Si vous travaillez dur, vous réussissez."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

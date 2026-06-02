@@ -1,0 +1,336 @@
+{
+  "id": "01-indefinido-vertiefung",
+  "title": "El pretérito indefinido — Auffrischung und Vertiefung",
+  "description": "Wiederholung des indefinido aus A1 und Vertiefung mit den unregelmäßigen Stämmen (pretéritos fuertes) wie tener → tuve, hacer → hice und decir → dije.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "verb-tener",
+      "front": "tener (tuve)",
+      "back": "haben",
+      "notes": "Unregelmäßiger u-Stamm: **tuv-**. *Ayer **tuve** una reunión* — gestern hatte ich ein Meeting. Endungen ohne Akzent: tuve, tuviste, tuvo …",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verbo", "indefinido-irregular", "u-stamm"]
+    },
+    {
+      "id": "verb-estar",
+      "front": "estar (estuve)",
+      "back": "sein (Zustand/Ort)",
+      "notes": "u-Stamm: **estuv-**. ***Estuve** en Madrid* — ich war in Madrid. Nicht zu verwechseln mit *fui* (ser).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verbo", "indefinido-irregular", "u-stamm"]
+    },
+    {
+      "id": "verb-poder",
+      "front": "poder (pude)",
+      "back": "können",
+      "notes": "u-Stamm: **pud-**. *No **pude** venir* — ich konnte nicht kommen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verbo", "indefinido-irregular", "u-stamm"]
+    },
+    {
+      "id": "verb-poner",
+      "front": "poner (puse)",
+      "back": "setzen / stellen / legen",
+      "notes": "u-Stamm: **pus-**. ***Puse** la mesa* — ich deckte den Tisch.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verbo", "indefinido-irregular", "u-stamm"]
+    },
+    {
+      "id": "verb-saber",
+      "front": "saber (supe)",
+      "back": "wissen",
+      "notes": "u-Stamm: **sup-**. *Lo **supe** ayer* — ich erfuhr es gestern. Im indefinido oft 'erfahren'.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "u-Stamm wie tener/estar/poder/poner.",
+      "tags": ["verbo", "indefinido-irregular", "u-stamm"]
+    },
+    {
+      "id": "verb-hacer",
+      "front": "hacer (hice)",
+      "back": "machen / tun",
+      "notes": "i-Stamm: **hic-** (vor o → **hizo**, mit z!). *¿Qué **hiciste**?* — Was hast du gemacht? *Él **hizo** la tarea*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Achtung 3. Person: hi**z**o (mit z).",
+      "tags": ["verbo", "indefinido-irregular", "i-stamm"]
+    },
+    {
+      "id": "verb-querer",
+      "front": "querer (quise)",
+      "back": "wollen / mögen",
+      "notes": "i-Stamm: **quis-**. ***Quise** ayudar* — ich wollte helfen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["verbo", "indefinido-irregular", "i-stamm"]
+    },
+    {
+      "id": "verb-venir",
+      "front": "venir (vine)",
+      "back": "kommen",
+      "notes": "i-Stamm: **vin-**. ***Vine** en tren* — ich kam mit dem Zug.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verbo", "indefinido-irregular", "i-stamm"]
+    },
+    {
+      "id": "verb-decir",
+      "front": "decir (dije)",
+      "back": "sagen",
+      "notes": "j-Stamm: **dij-**. 3. Person Plural ohne i: *dij**eron*** (nicht dijieron). *Me lo **dijo*** — er/sie sagte es mir.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "j-Stamm: ellos dij**eron** (kein i!).",
+      "tags": ["verbo", "indefinido-irregular", "j-stamm"]
+    },
+    {
+      "id": "verb-traer",
+      "front": "traer (traje)",
+      "back": "bringen",
+      "notes": "j-Stamm: **traj-**. Plural: *traj**eron***. ***Traje** el postre* — ich brachte den Nachtisch mit.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["verbo", "indefinido-irregular", "j-stamm"]
+    },
+    {
+      "id": "verb-ir-ser",
+      "front": "ir / ser (fui)",
+      "back": "gehen / sein",
+      "notes": "**ir** und **ser** haben im indefinido die **gleiche** Form: *fui, fuiste, fue …*. Der Kontext entscheidet: ***Fui** al cine* (gehen) vs. *La fiesta **fue** genial* (sein).",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Eine Form für zwei Verben — Kontext entscheidet.",
+      "tags": ["verbo", "indefinido-irregular"]
+    },
+    {
+      "id": "verb-dar",
+      "front": "dar (di)",
+      "back": "geben",
+      "notes": "Unregelmäßig: *di, diste, dio, dimos, disteis, dieron* — wie ein -er/-ir-Verb, ohne Akzente. *Le **di** un regalo* — ich gab ihm/ihr ein Geschenk.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verbo", "indefinido-irregular"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Auffrischung: das indefinido",
+      "body": "# El pretérito indefinido — Auffrischung und Vertiefung\n\nIn **A1** hast du das **pretérito indefinido** kennengelernt — die Vergangenheit für **abgeschlossene Handlungen**: *Ayer **hablé** con María*, ***Comí** una pizza*. Die regelmäßigen Endungen waren:\n\n| | -ar (hablar) | -er/-ir (comer) |\n|---|---|---|\n| yo | habl**é** | com**í** |\n| tú | habl**aste** | com**iste** |\n| él/ella | habl**ó** | com**ió** |\n| nosotros | habl**amos** | com**imos** |\n| vosotros | habl**asteis** | com**isteis** |\n| ellos | habl**aron** | com**ieron** |\n\nDas ist A1-Stoff. Jetzt der A2-Schritt: viele **häufige** Verben sind im indefinido **unregelmäßig** — die *pretéritos fuertes* (starke Vergangenheitsformen). Sie haben einen **eigenen Stamm** und **besondere Endungen ohne Akzent**."
+    },
+    {
+      "id": "step-stems",
+      "type": "theory",
+      "title": "Die unregelmäßigen Stämme",
+      "body": "## Pretéritos fuertes — eigener Stamm + akzentlose Endungen\n\nDie starken Vergangenheitsformen nutzen für **alle** Personen die Endungen **-e, -iste, -o, -imos, -isteis, -ieron** — und zwar **ohne Akzent** (also *tuve*, *tuvo* — **nicht** ~~tuvé, tuvó~~). Du musst nur den Stamm kennen:\n\n| Gruppe | Verb | Stamm | yo-Form |\n|---|---|---|---|\n| **u-Stamm** | tener | tuv- | tuve |\n| | estar | estuv- | estuve |\n| | poder | pud- | pude |\n| | poner | pus- | puse |\n| | saber | sup- | supe |\n| **i-Stamm** | hacer | hic- | hice |\n| | querer | quis- | quise |\n| | venir | vin- | vine |\n| **j-Stamm** | decir | dij- | dije |\n| | traer | traj- | traje |\n\n> Zwei Stolpersteine:\n> - **hacer**: in der 3. Person *hi**z**o* (mit **z**, damit der Klang weich bleibt).\n> - **j-Stamm** (decir, traer): die 3. Person Plural endet auf **-eron**, nicht -ieron: *dij**eron***, *traj**eron***."
+    },
+    {
+      "id": "ex-match-meaning",
+      "type": "exercise",
+      "title": "Verben verstehen",
+      "exercise": {
+        "id": "ex-match-meaning",
+        "type": "matching",
+        "prompt": "Ordne jedem spanischen Verb seine deutsche Bedeutung zu.",
+        "card_ids": ["verb-tener", "verb-hacer", "verb-decir", "verb-venir", "verb-poder"],
+        "pairs": [
+          { "left": "tener", "right": "haben" },
+          { "left": "hacer", "right": "machen" },
+          { "left": "decir", "right": "sagen" },
+          { "left": "venir", "right": "kommen" },
+          { "left": "poder", "right": "können" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-stems",
+      "type": "exercise",
+      "title": "Stamm zum Infinitiv",
+      "exercise": {
+        "id": "ex-match-stems",
+        "type": "matching",
+        "prompt": "Ordne jedem Infinitiv seinen unregelmäßigen indefinido-Stamm zu.",
+        "card_ids": ["verb-tener", "verb-poner", "verb-hacer", "verb-querer", "verb-decir"],
+        "pairs": [
+          { "left": "tener", "right": "tuv-" },
+          { "left": "poner", "right": "pus-" },
+          { "left": "hacer", "right": "hic-" },
+          { "left": "querer", "right": "quis-" },
+          { "left": "decir", "right": "dij-" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-tuve",
+      "type": "exercise",
+      "title": "Gestern hatte ich keine Zeit",
+      "exercise": {
+        "id": "ex-cloze-tuve",
+        "type": "cloze",
+        "prompt": "Ergänze die yo-Form von *tener* im indefinido.",
+        "card_ids": ["verb-tener"],
+        "sentence": "Ayer no ___ tiempo para llamarte.",
+        "blanks": [
+          { "accept": ["tuve"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "u-Stamm tuv- + Endung -e, **ohne** Akzent."
+      }
+    },
+    {
+      "id": "ex-free-i-did",
+      "type": "exercise",
+      "title": "Was hast du gestern gemacht?",
+      "exercise": {
+        "id": "ex-free-i-did",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Ich machte nichts.* (yo-Form von hacer)",
+        "card_ids": ["verb-hacer"],
+        "accept": [
+          "No hice nada.",
+          "no hice nada",
+          "No hice nada",
+          "Yo no hice nada."
+        ],
+        "hint": "*No* + yo-Form von *hacer* (**hice**) + *nada*.",
+        "distractors": [
+          "No hací nada.",
+          "No hizo nada.",
+          "No hacé nada."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-she-went",
+      "type": "exercise",
+      "title": "Sie ging ins Kino",
+      "exercise": {
+        "id": "ex-pic-she-went",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet *Sie ging gestern ins Kino*?",
+        "card_ids": ["verb-ir-ser"],
+        "images": [
+          { "src": "assets/img/cinema-1.png", "label": "Ayer fue al cine.", "is_correct": "true" },
+          { "src": "assets/img/cinema-2.png", "label": "Ayer fui al cine." },
+          { "src": "assets/img/cinema-3.png", "label": "Ayer va al cine." },
+          { "src": "assets/img/cinema-4.png", "label": "Ayer irse al cine." }
+        ],
+        "hint": "3. Person Singular von *ir* im indefinido = *fue*.",
+        "distractors": [
+          "Ayer fui al cine.",
+          "Ayer va al cine.",
+          "Ayer irse al cine."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-i-came",
+      "type": "exercise",
+      "title": "Bilde: Ich kam mit dem Zug",
+      "exercise": {
+        "id": "ex-tiles-i-came",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich kam mit dem Zug.*",
+        "card_ids": ["verb-venir"],
+        "tiles": ["Vine", "en", "tren"],
+        "hint": "yo-Form von *venir* (**vine**) + *en tren*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-he-said",
+      "type": "exercise",
+      "title": "Er sagte es mir",
+      "exercise": {
+        "id": "ex-free-he-said",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Er sagte mir die Wahrheit.* (él-Form von decir)",
+        "card_ids": ["verb-decir"],
+        "accept": [
+          "Me dijo la verdad.",
+          "me dijo la verdad",
+          "Me dijo la verdad",
+          "Él me dijo la verdad."
+        ],
+        "hint": "*Me* + él-Form von *decir* (**dijo**) + *la verdad*.",
+        "distractors": [
+          "Me dició la verdad.",
+          "Me decía la verdad.",
+          "Me dije la verdad."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-dijeron",
+      "type": "exercise",
+      "title": "Sie sagten nichts",
+      "exercise": {
+        "id": "ex-cloze-dijeron",
+        "type": "cloze",
+        "prompt": "Ergänze die ellos-Form von *decir* (j-Stamm!).",
+        "card_ids": ["verb-decir"],
+        "sentence": "Ellos no ___ nada en la reunión.",
+        "blanks": [
+          { "accept": ["dijeron"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "j-Stamm → 3. Person Plural endet auf **-eron** (nicht -ieron)."
+      }
+    },
+    {
+      "id": "step-ir-ser-dar",
+      "type": "theory",
+      "title": "Sonderfälle: ir/ser und dar",
+      "body": "## Drei besonders wichtige Sonderfälle\n\nDrei sehr häufige Verben fallen aus den Gruppen heraus:\n\n| Verb(en) | indefinido (yo … ellos) | Bedeutung |\n|---|---|---|\n| **ir** und **ser** | fui, fuiste, fue, fuimos, fuisteis, fueron | gehen **oder** sein |\n| **dar** | di, diste, dio, dimos, disteis, dieron | geben |\n\n- **ir** und **ser** haben **dieselben** Formen — der **Kontext** entscheidet: ***Fui** a la playa* (ich **ging** an den Strand) vs. *La película **fue** aburrida* (der Film **war** langweilig).\n- **dar** nimmt die **-er/-ir-Endungen**, aber **ohne Akzent**: *di, dio* (nicht ~~dí, dió~~).\n\n> Merke dir die goldene Regel aller starken Vergangenheitsformen: **kein Akzent** auf der yo- und der él/ella-Form. Das ist der häufigste Fehler von Deutschsprachigen, die *hablé/habló* aus dem regelmäßigen Muster übertragen."
+    },
+    {
+      "id": "ex-free-receptive-estuve",
+      "type": "exercise",
+      "title": "Verstehen: Estuve en Madrid",
+      "exercise": {
+        "id": "ex-free-receptive-estuve",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *Estuve en Madrid dos días.*",
+        "card_ids": ["verb-estar"],
+        "accept": [
+          "Ich war zwei Tage in Madrid.",
+          "ich war zwei tage in madrid",
+          "Ich war zwei Tage in Madrid",
+          "Ich war für zwei Tage in Madrid."
+        ],
+        "hint": "*estuve* = yo-Form von *estar* (war); *dos días* = zwei Tage.",
+        "distractors": [
+          "Ich bin in Madrid.",
+          "Ich gehe nach Madrid.",
+          "Ich werde in Madrid sein."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-i-couldnt",
+      "type": "exercise",
+      "title": "Bilde: Ich konnte nicht kommen",
+      "exercise": {
+        "id": "ex-tiles-i-couldnt",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich konnte gestern nicht kommen.*",
+        "card_ids": ["verb-poder", "verb-venir"],
+        "tiles": ["Ayer", "no", "pude", "venir"],
+        "hint": "*No* + yo-Form von *poder* (**pude**) + Infinitiv *venir*.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

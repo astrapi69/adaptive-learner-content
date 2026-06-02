@@ -1,0 +1,351 @@
+{
+  "id": "04-futuro-simple",
+  "title": "El futuro simple",
+  "description": "Das futuro simple: Bildung mit dem vollständigen Infinitiv + Personalendungen für alle drei Verbgruppen, unregelmäßige Stämme (tener → tendr-, hacer → har- usw.) und Gebrauch für Zukunft, Vorhersagen und Vermutungen über die Gegenwart.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "verb-hablar-futuro",
+      "front": "hablar (hablaré)",
+      "back": "sprechen → ich werde sprechen",
+      "notes": "Regelmäßige -ar-Verben: vollständiger Infinitiv + Endung **-é**. *Mañana **hablaré** con él.* — Morgen werde ich mit ihm sprechen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["futuro-simple", "regelmaessig", "ar-verb"]
+    },
+    {
+      "id": "verb-comer-futuro",
+      "front": "comer (comeré)",
+      "back": "essen → ich werde essen",
+      "notes": "Regelmäßige -er-Verben: vollständiger Infinitiv + Endung **-é**. *Esta noche **comeré** con mi familia.* — Heute Abend werde ich mit meiner Familie essen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["futuro-simple", "regelmaessig", "er-verb"]
+    },
+    {
+      "id": "verb-vivir-futuro",
+      "front": "vivir (viviré)",
+      "back": "wohnen / leben → ich werde wohnen",
+      "notes": "Regelmäßige -ir-Verben: vollständiger Infinitiv + Endung **-é**. *El año que viene **viviré** en Barcelona.* — Nächstes Jahr werde ich in Barcelona wohnen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["futuro-simple", "regelmaessig", "ir-verb"]
+    },
+    {
+      "id": "verb-tener-futuro",
+      "front": "tener (tendré)",
+      "back": "haben → ich werde haben",
+      "notes": "Unregelmäßiger Stamm: **tendr-**. *El próximo año **tendré** más tiempo.* — Nächstes Jahr werde ich mehr Zeit haben. Nicht *teneré*!",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stamm: **tendr-** (nicht *tener-*). Das -e des Infinitivs fällt weg und -dr- wird eingefügt.",
+      "tags": ["futuro-simple", "unregelmaessig", "tendr-gruppe"]
+    },
+    {
+      "id": "verb-poner-futuro",
+      "front": "poner (pondré)",
+      "back": "legen / stellen / setzen → ich werde legen",
+      "notes": "Unregelmäßiger Stamm: **pondr-**. *¿Dónde **pondrás** las llaves?* — Wo wirst du die Schlüssel hinlegen?",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stamm: **pondr-** — wie tener/salir/venir mit -dr-.",
+      "tags": ["futuro-simple", "unregelmaessig", "pondr-gruppe"]
+    },
+    {
+      "id": "verb-salir-futuro",
+      "front": "salir (saldré)",
+      "back": "ausgehen / abfahren → ich werde ausgehen",
+      "notes": "Unregelmäßiger Stamm: **saldr-**. *El tren **saldrá** a las ocho.* — Der Zug wird um acht Uhr abfahren.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stamm: **saldr-** — gleiche Gruppe wie tendr-, pondr-, vendr-.",
+      "tags": ["futuro-simple", "unregelmaessig", "saldr-gruppe"]
+    },
+    {
+      "id": "verb-venir-futuro",
+      "front": "venir (vendré)",
+      "back": "kommen → ich werde kommen",
+      "notes": "Unregelmäßiger Stamm: **vendr-**. *¿**Vendrás** a la fiesta el sábado?* — Wirst du am Samstag zur Party kommen?",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stamm: **vendr-** — das -i- des Infinitivs fällt weg, -dr- kommt hinzu.",
+      "tags": ["futuro-simple", "unregelmaessig", "vendr-gruppe"]
+    },
+    {
+      "id": "verb-poder-futuro",
+      "front": "poder (podré)",
+      "back": "können → ich werde können",
+      "notes": "Unregelmäßiger Stamm: **podr-**. *Mañana no **podré** ayudarte.* — Morgen werde ich dir nicht helfen können.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Stamm: **podr-** — das -e- des Infinitivs entfällt (pod**e**r → podr-).",
+      "tags": ["futuro-simple", "unregelmaessig", "podr-gruppe"]
+    },
+    {
+      "id": "verb-saber-futuro",
+      "front": "saber (sabré)",
+      "back": "wissen → ich werde wissen",
+      "notes": "Unregelmäßiger Stamm: **sabr-**. *Pronto **sabremos** los resultados.* — Bald werden wir die Ergebnisse wissen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Stamm: **sabr-** — das mittlere -e- fällt weg (sab**e**r → sabr-).",
+      "tags": ["futuro-simple", "unregelmaessig", "sabr-gruppe"]
+    },
+    {
+      "id": "verb-hacer-futuro",
+      "front": "hacer (haré)",
+      "back": "machen / tun → ich werde machen",
+      "notes": "Unregelmäßiger Stamm: **har-**. *¿Qué **harás** este fin de semana?* — Was wirst du dieses Wochenende machen? Nicht *haceré*!",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Stamm: **har-** — komplett abweichend vom Infinitiv *hacer*. Kein -c- und kein -e-!",
+      "tags": ["futuro-simple", "unregelmaessig", "har-gruppe"]
+    },
+    {
+      "id": "verb-decir-futuro",
+      "front": "decir (diré)",
+      "back": "sagen → ich werde sagen",
+      "notes": "Unregelmäßiger Stamm: **dir-**. *Te **diré** la verdad.* — Ich werde dir die Wahrheit sagen. Nicht *decirré*!",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Stamm: **dir-** — sehr kurzer Stamm, komplett anders als der Infinitiv *decir*.",
+      "tags": ["futuro-simple", "unregelmaessig", "dir-gruppe"]
+    },
+    {
+      "id": "verb-querer-futuro",
+      "front": "querer (querré)",
+      "back": "wollen / mögen → ich werde wollen",
+      "notes": "Unregelmäßiger Stamm: **querr-** (doppeltes r!). *¿**Querrás** venir con nosotros?* — Wirst du mit uns kommen wollen?",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Stamm: **querr-** — Achtung: doppeltes **r**! Das -e- zwischen -qu- und -r- entfällt.",
+      "tags": ["futuro-simple", "unregelmaessig", "querr-gruppe"]
+    },
+    {
+      "id": "verb-haber-futuro",
+      "front": "haber (habrá)",
+      "back": "es gibt / es wird geben (Hilfszeitwort)",
+      "notes": "Unregelmäßiger Stamm: **habr-**. Häufig als **habrá** (es gibt/wird geben): ***Habrá** mucha gente.* — Es wird viele Leute geben. Auch Hilfsverb für das futuro perfecto.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Stamm: **habr-** — das -e- entfällt (hab**e**r → habr-). Fast immer in der 3. Person Singular.",
+      "tags": ["futuro-simple", "unregelmaessig", "habr-gruppe"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-formation",
+      "type": "theory",
+      "title": "Bildung des futuro simple",
+      "body": "# El futuro simple — Bildung\n\nIn **A1** hast du die Zukunft mit **ir a + Infinitiv** ausgedrückt (z. B. *Voy a comer* — ich werde essen). Jetzt lernst du das **futuro simple** — eine eigene Zeitform für die Zukunft, z. B. *Mañana hablaré con él* — Morgen werde ich mit ihm sprechen.\n\n## Formel\n\n**Vollständiger Infinitiv** + Personalendung. Das Besondere: Die Endungen sind **für alle drei Verbgruppen gleich** (-ar, -er, -ir)!\n\n| Person | Endung | hablar | comer | vivir |\n|---|---|---|---|---|\n| yo | **-é** | hablar**é** | comer**é** | vivir**é** |\n| tú | **-ás** | hablar**ás** | comer**ás** | vivir**ás** |\n| él/ella/usted | **-á** | hablar**á** | comer**á** | vivir**á** |\n| nosotros | **-emos** | hablar**emos** | comer**emos** | vivir**emos** |\n| vosotros | **-éis** | hablar**éis** | comer**éis** | vivir**éis** |\n| ellos/ustedes | **-án** | hablar**án** | comer**án** | vivir**án** |\n\n> **Wichtig:** Alle Endungen außer **-emos** tragen einen Akzent. Das ist der häufigste Fehler: *hablare* statt *hablaré* ist falsch!"
+    },
+    {
+      "id": "theory-irregular-stems",
+      "type": "theory",
+      "title": "Unregelmäßige Stämme",
+      "body": "## Unregelmäßige Futurstämme — auswendig lernen!\n\nDiese häufigen Verben bilden das futuro simple **nicht** vom vollständigen Infinitiv, sondern von einem eigenen Stamm. Die **Endungen** (-é, -ás, -á, -emos, -éis, -án) bleiben gleich.\n\n| Infinitiv | Futurstamm | yo-Form | Bedeutung |\n|---|---|---|---|\n| tener | **tendr-** | tendr**é** | ich werde haben |\n| poner | **pondr-** | pondr**é** | ich werde legen |\n| salir | **saldr-** | saldr**é** | ich werde ausgehen |\n| venir | **vendr-** | vendr**é** | ich werde kommen |\n| poder | **podr-** | podr**é** | ich werde können |\n| saber | **sabr-** | sabr**é** | ich werde wissen |\n| hacer | **har-** | har**é** | ich werde machen |\n| decir | **dir-** | dir**é** | ich werde sagen |\n| querer | **querr-** | querr**é** | ich werde wollen |\n| haber | **habr-** | habr**á** | es wird geben |\n\n### Eselsbrücken\n- **-dr-Gruppe** (tendr-, pondr-, saldr-, vendr-): Das -e- oder -i- des Infinitivs wird durch **-dr-** ersetzt.\n- **-r-Gruppe** (podr-, sabr-, habr-): Nur das mittlere Vokal entfällt.\n- **Kurze Stämme** (har-, dir-): Komplett abweichend — nur 3–4 Buchstaben!\n- **querr-**: Doppeltes **rr** — wie ein Rollgeräusch für die Zukunft.\n\n> Häufiger Fehler: **teneré** statt *tendré*, **haceré** statt *haré*."
+    },
+    {
+      "id": "theory-usage",
+      "type": "theory",
+      "title": "Gebrauch des futuro simple",
+      "body": "## Wann benutze ich das futuro simple?\n\n### 1. Zukunft und Pläne\nFür Ereignisse in der Zukunft — oft mit Zeitangaben wie *mañana, el próximo año, dentro de diez años*:\n\n> *El año que viene **viviré** en Madrid.* — Nächstes Jahr werde ich in Madrid wohnen.\n\n### 2. Vorhersagen\n> *Mañana **hará** mucho sol.* — Morgen wird es sehr sonnig sein. (Wettervorhersage)\n\n### 3. Vermutungen über die Gegenwart\nDas ist ein wichtiger Unterschied zum Deutschen! Das futuro simple kann ausdrücken, was man **vermutet** oder **annimmt**:\n\n> *¿Dónde **estará** Juan?* — Wo mag Juan wohl sein? (Vermutung)\n> *Tendrá unos cuarenta años.* — Er wird wohl um die vierzig sein.\n\n### Vergleich: ir a + Infinitiv vs. futuro simple\n\n| ir a + Infinitiv (A1) | futuro simple |\n|---|---|\n| nahe, geplante Zukunft | allgemeine und fernere Zukunft |\n| *Voy a comer ahora.* | *Mañana **comeré** con ella.* |\n| betont Absicht / Planung | Vorhersagen und Vermutungen |\n\n> Im Alltag überlappen sich beide Formen. Das futuro simple klingt oft etwas formeller oder bezieht sich auf weiter entfernte Ereignisse."
+    },
+    {
+      "id": "ex-match-endungen",
+      "type": "exercise",
+      "title": "Endungen zuordnen",
+      "exercise": {
+        "id": "ex-match-endungen",
+        "type": "matching",
+        "prompt": "Ordne jeder Person die richtige Futuro-Endung zu.",
+        "card_ids": ["verb-hablar-futuro", "verb-comer-futuro", "verb-vivir-futuro"],
+        "pairs": [
+          { "left": "yo", "right": "-é" },
+          { "left": "tú", "right": "-ás" },
+          { "left": "él/ella", "right": "-á" },
+          { "left": "nosotros", "right": "-emos" },
+          { "left": "ellos", "right": "-án" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-unregelmaessig",
+      "type": "exercise",
+      "title": "Unregelmäßige Stämme zuordnen",
+      "exercise": {
+        "id": "ex-match-unregelmaessig",
+        "type": "matching",
+        "prompt": "Ordne jedem Infinitiv seinen unregelmäßigen Futurstamm zu.",
+        "card_ids": ["verb-tener-futuro", "verb-hacer-futuro", "verb-decir-futuro", "verb-querer-futuro", "verb-saber-futuro"],
+        "pairs": [
+          { "left": "tener", "right": "tendr-" },
+          { "left": "hacer", "right": "har-" },
+          { "left": "decir", "right": "dir-" },
+          { "left": "querer", "right": "querr-" },
+          { "left": "saber", "right": "sabr-" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-hablare",
+      "type": "exercise",
+      "title": "Morgen werde ich mit ihm sprechen",
+      "exercise": {
+        "id": "ex-cloze-hablare",
+        "type": "cloze",
+        "prompt": "Ergänze die yo-Form von *hablar* im futuro simple.",
+        "card_ids": ["verb-hablar-futuro"],
+        "sentence": "Mañana ___ con él sobre el proyecto.",
+        "blanks": [
+          { "accept": ["hablaré"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Infinitiv *hablar* + Endung **-é** → *hablaré*. Achtung: Akzent auf dem -é!"
+      }
+    },
+    {
+      "id": "ex-cloze-tendre",
+      "type": "exercise",
+      "title": "Ich werde mehr Zeit haben",
+      "exercise": {
+        "id": "ex-cloze-tendre",
+        "type": "cloze",
+        "prompt": "Ergänze die yo-Form von *tener* im futuro simple (unregelmäßiger Stamm!).",
+        "card_ids": ["verb-tener-futuro"],
+        "sentence": "El próximo año ___ más tiempo libre.",
+        "blanks": [
+          { "accept": ["tendré"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Stamm **tendr-** + Endung **-é** → *tendré*. Nicht *teneré*!"
+      }
+    },
+    {
+      "id": "ex-free-hare",
+      "type": "exercise",
+      "title": "Übersetzen: Was wirst du machen?",
+      "exercise": {
+        "id": "ex-free-hare",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Was wirst du dieses Wochenende machen?* (tú-Form von hacer)",
+        "card_ids": ["verb-hacer-futuro"],
+        "accept": [
+          "¿Qué harás este fin de semana?",
+          "¿que haras este fin de semana?",
+          "que harás este fin de semana",
+          "¿Qué harás este fin de semana?"
+        ],
+        "hint": "*hacer* im Futur: Stamm **har-** + **-ás** → *harás*. Nicht *haceré* oder *hacerás*!",
+        "distractors": [
+          "¿Qué haceás este fin de semana?",
+          "¿Qué vas a hacer este fin de semana?",
+          "¿Qué haceré este fin de semana?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-estara",
+      "type": "exercise",
+      "title": "Verstehen: Vermutung mit futuro",
+      "exercise": {
+        "id": "ex-free-estara",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *¿Dónde estará Juan?*",
+        "card_ids": ["verb-hablar-futuro", "verb-vivir-futuro"],
+        "accept": [
+          "Wo mag Juan wohl sein?",
+          "wo mag juan wohl sein",
+          "Wo wird Juan wohl sein?",
+          "Wo kann Juan nur sein?"
+        ],
+        "hint": "*estará* = Futuro von *estar* (3. Person) — drückt hier eine **Vermutung** aus, nicht eine echte Zukunft.",
+        "distractors": [
+          "Wo ist Juan jetzt?",
+          "Wo war Juan gestern?",
+          "Wo wird Juan morgen hingehen?"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-vendre",
+      "type": "exercise",
+      "title": "Übersetzen: Wirst du zur Party kommen?",
+      "exercise": {
+        "id": "ex-free-vendre",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Wirst du am Samstag zur Party kommen?* (tú-Form von venir)",
+        "card_ids": ["verb-venir-futuro"],
+        "accept": [
+          "¿Vendrás a la fiesta el sábado?",
+          "¿vendras a la fiesta el sabado?",
+          "vendrás a la fiesta el sábado",
+          "¿Vendrás a la fiesta el sábado?"
+        ],
+        "hint": "*venir* im Futur: Stamm **vendr-** + **-ás** → *vendrás*. Nicht *venirás*!",
+        "distractors": [
+          "¿Venirás a la fiesta el sábado?",
+          "¿Vas a venir a la fiesta el sábado?",
+          "¿Viendrás a la fiesta el sábado?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-comere",
+      "type": "exercise",
+      "title": "Bilde: Heute Abend werde ich mit meiner Familie essen",
+      "exercise": {
+        "id": "ex-tiles-comere",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Heute Abend werde ich mit meiner Familie essen.*",
+        "card_ids": ["verb-comer-futuro"],
+        "tiles": ["Esta", "noche", "comeré", "con", "mi", "familia"],
+        "hint": "Futuro von *comer* (yo): Infinitiv + **-é** → *comeré*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-saldra",
+      "type": "exercise",
+      "title": "Bilde: Der Zug wird um acht Uhr abfahren",
+      "exercise": {
+        "id": "ex-tiles-saldra",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Der Zug wird um acht Uhr abfahren.*",
+        "card_ids": ["verb-salir-futuro"],
+        "tiles": ["El", "tren", "saldrá", "a", "las", "ocho"],
+        "hint": "Futuro von *salir* (él): Stamm **saldr-** + **-á** → *saldrá*.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pic-futuro-form",
+      "type": "exercise",
+      "title": "Die richtige Futurform wählen",
+      "exercise": {
+        "id": "ex-pic-futuro-form",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist die korrekte Futurform für *Ich werde die Wahrheit sagen*? (yo-Form von decir)",
+        "card_ids": ["verb-decir-futuro"],
+        "images": [
+          { "src": "assets/img/speech-correct.png", "label": "Te diré la verdad.", "is_correct": "true" },
+          { "src": "assets/img/speech-wrong1.png", "label": "Te decirré la verdad." },
+          { "src": "assets/img/speech-wrong2.png", "label": "Te voy a decir la verdad." },
+          { "src": "assets/img/speech-wrong3.png", "label": "Te diría la verdad." }
+        ],
+        "hint": "Futuro von *decir* (yo): Stamm **dir-** + **-é** → *diré*. Nicht *decirré*!",
+        "distractors": [
+          "Te decirré la verdad.",
+          "Te voy a decir la verdad.",
+          "Te diría la verdad."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "id": "09-por-vs-para",
+  "title": "Por y para",
+  "description": "Die klassische A2-Hürde: wann verwendet man por, wann para? Beide heißen auf Deutsch oft 'für' — sind aber nicht austauschbar. Diese Lektion erklärt alle wichtigen Verwendungen mit klaren Faustregeln und festen Wendungen.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "para-zweck",
+      "front": "para aprender (Zweck/Ziel)",
+      "back": "um zu lernen (Zweck/Ziel)",
+      "notes": "**para + Infinitiv** drückt den Zweck oder das Ziel einer Handlung aus. Frage: *Wozu?* — *Estudio español **para aprender** una nueva lengua.* Deutsch: 'um zu ...'",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["para", "zweck", "ziel", "infinitiv"]
+    },
+    {
+      "id": "para-empfaenger",
+      "front": "un regalo para ti (Empfänger)",
+      "back": "ein Geschenk für dich (Empfänger)",
+      "notes": "**para + Person** gibt an, für wen etwas bestimmt ist. *Este pastel es **para ti**.* — Dieser Kuchen ist für dich. Frage: *Für wen?*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["para", "empfaenger", "bestaendigkeit"]
+    },
+    {
+      "id": "para-frist",
+      "front": "para el lunes (Frist/Deadline)",
+      "back": "bis Montag (Frist/Deadline)",
+      "notes": "**para + Zeitpunkt** bezeichnet eine Frist oder Deadline. *Necesito el informe **para el lunes**.* — Ich brauche den Bericht bis Montag.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "para bei Fristen: 'bis wann muss etwas fertig sein?'",
+      "tags": ["para", "frist", "deadline", "zeitpunkt"]
+    },
+    {
+      "id": "para-richtung",
+      "front": "salgo para Madrid (Richtung/Zielort)",
+      "back": "ich fahre nach Madrid ab (Richtung/Zielort)",
+      "notes": "**para + Ort** gibt die Richtung oder das Reiseziel an. *Mañana salimos **para** Barcelona.* — Morgen fahren wir nach Barcelona ab. Unterschied zu *ir a*: para betont das Ziel als Endpunkt einer Reise.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["para", "richtung", "zielort", "bewegung"]
+    },
+    {
+      "id": "para-meinung",
+      "front": "para mí, es fácil (Meinung)",
+      "back": "meiner Meinung nach / für mich ist es leicht (Meinung)",
+      "notes": "**para + mí/ti/él …** leitet eine persönliche Meinung ein. *¿Es difícil? **Para mí**, no.* — Ist es schwierig? Für mich nicht. Entspricht 'meiner Meinung nach' oder 'für mich'.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["para", "meinung", "subjektiv"]
+    },
+    {
+      "id": "por-grund",
+      "front": "gracias por tu ayuda (Grund/Ursache)",
+      "back": "danke für deine Hilfe (Grund/Ursache)",
+      "notes": "**por** gibt den Grund oder die Ursache an. *Llegué tarde **por** el tráfico.* — Ich kam wegen des Staus zu spät. *Gracias **por** tu ayuda.* — Danke für deine Hilfe. Frage: *Warum? Wegen wem/was?*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["por", "grund", "ursache", "wegen"]
+    },
+    {
+      "id": "por-austausch",
+      "front": "pagué 20 euros por el libro (Austausch/Preis)",
+      "back": "ich zahlte 20 Euro für das Buch (Austausch/Preis)",
+      "notes": "**por** beim Austausch oder Kauf: *Pagué 50 euros **por** estas zapatillas.* — Ich zahlte 50 Euro für diese Schuhe. Auch bei Tausch: *Te cambio esto **por** aquello.* — Ich tausche das gegen das.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Austausch, Preis, Gegenwert — immer por.",
+      "tags": ["por", "austausch", "preis", "kauf"]
+    },
+    {
+      "id": "por-zeitdauer",
+      "front": "estudié por dos horas (Zeitdauer)",
+      "back": "ich lernte zwei Stunden lang (Zeitdauer)",
+      "notes": "**por + Zeitspanne** drückt aus, wie lange etwas dauert. *Viví en Berlín **por** tres años.* — Ich lebte drei Jahre lang in Berlin. Auch: *por la mañana/tarde/noche* — morgens/nachmittags/abends (unbestimmte Tageszeit).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["por", "zeitdauer", "zeitspanne", "tageszeit"]
+    },
+    {
+      "id": "por-ort",
+      "front": "paseo por el parque (Ort/Durchquerung)",
+      "back": "ich spaziere durch den Park (Ort/Durchquerung)",
+      "notes": "**por + Ort** bedeutet 'durch' oder 'entlang'. *Caminamos **por** la playa.* — Wir gingen am Strand entlang. *El tren pasa **por** Valencia.* — Der Zug fährt durch Valencia.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["por", "ort", "durchquerung", "bewegung"]
+    },
+    {
+      "id": "por-mittel",
+      "front": "hablamos por teléfono (Mittel/Kanal)",
+      "back": "wir sprachen per Telefon (Mittel/Kanal)",
+      "notes": "**por** bei Kommunikationsmitteln und Kanälen: *Te mando un correo **por** email.* — Ich schicke dir eine E-Mail. *Lo vi **por** internet.* — Ich sah es im Internet. Frage: *Womit? Über welchen Kanal?*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["por", "mittel", "kanal", "kommunikation"]
+    },
+    {
+      "id": "expr-por-favor",
+      "front": "por favor",
+      "back": "bitte",
+      "notes": "Feste Wendung — unveränderlich. *Una mesa para dos, **por favor**.* — Einen Tisch für zwei, bitte.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["por", "wendung", "hoeflichkeit"]
+    },
+    {
+      "id": "expr-por-eso",
+      "front": "por eso",
+      "back": "deshalb / deswegen",
+      "notes": "Feste Wendung für Folge/Schluss. ***Por eso** llegué tarde.* — Deshalb kam ich zu spät.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["por", "wendung", "folge"]
+    },
+    {
+      "id": "expr-por-fin",
+      "front": "por fin",
+      "back": "endlich / schließlich",
+      "notes": "Feste Wendung. ***Por fin** llegó el verano!* — Endlich ist der Sommer da!",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["por", "wendung"]
+    },
+    {
+      "id": "expr-por-supuesto",
+      "front": "por supuesto",
+      "back": "natürlich / selbstverständlich",
+      "notes": "Feste Wendung. *¿Puedes ayudarme? — **Por supuesto!*** — Natürlich!",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["por", "wendung", "zustimmung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-por-para",
+      "type": "theory",
+      "title": "Die größte A2-Hürde: por vs. para",
+      "body": "# Por y para — die größte A2-Hürde\n\n**Por** und **para** heißen im Deutschen beide oft *für* — aber sie sind **NICHT** austauschbar. Das ist eine der größten Stolpersteine auf A2-Niveau.\n\n> **Faustregel:**\n> - **para** blickt nach **VORN** — Ziel, Zweck, Empfänger, Deadline.\n> - **por** blickt auf den **GRUND oder den Weg** — Ursache, Mittel, Dauer, Durchquerung.\n\nEin Beispiel macht den Unterschied sofort klar:\n\n| Satz | Bedeutung | Warum? |\n|---|---|---|\n| *Trabajo **para** vivir.* | Ich arbeite, **um** zu leben. | Zweck → **para** |\n| *Trabajo **por** dinero.* | Ich arbeite **wegen** des Geldes. | Grund → **por** |\n\nIn den nächsten Schritten lernst du alle wichtigen Verwendungen mit konkreten Beispielen."
+    },
+    {
+      "id": "theory-para-uses",
+      "type": "theory",
+      "title": "PARA — alle wichtigen Verwendungen",
+      "body": "## PARA — blickt nach vorn\n\nVerwende **para** in diesen Situationen:\n\n| Verwendung | Beispiel | Deutsch |\n|---|---|---|\n| **Zweck / Ziel** (+ Infinitiv) | *Estudio **para** aprender.* | um zu lernen |\n| **Empfänger** (für wen?) | *Es un regalo **para** ti.* | für dich |\n| **Frist / Deadline** | *Lo necesito **para** el lunes.* | bis Montag |\n| **Richtung / Reiseziel** | *Salgo **para** Madrid.* | nach Madrid ab |\n| **persönliche Meinung** | ***Para** mí, es difícil.* | für mich / meiner Meinung nach |\n\n> **Merkhilfe:** Denke bei *para* immer an einen **Pfeil nach vorne** — wohin geht es? Wofür? Bis wann? Für wen?\n\n**Typischer Fehler:** *Estudio **por** aprender* — falsch! Der Zweck verlangt **para**."
+    },
+    {
+      "id": "theory-por-uses",
+      "type": "theory",
+      "title": "POR — alle wichtigen Verwendungen + feste Wendungen",
+      "body": "## POR — Grund, Weg, Mittel und mehr\n\nVerwende **por** in diesen Situationen:\n\n| Verwendung | Beispiel | Deutsch |\n|---|---|---|\n| **Grund / Ursache** | *Gracias **por** tu ayuda.* | wegen / für (Dank) |\n| **Austausch / Preis** | *Pagué 20 € **por** el libro.* | für (Preis) |\n| **Zeitdauer** | *Estudié **por** dos horas.* | lang (zwei Stunden lang) |\n| **Tageszeit** (unbestimmt) | ***por** la mañana* | morgens |\n| **Ort / Durchquerung** | *Paseo **por** el parque.* | durch den Park |\n| **Mittel / Kanal** | *Hablo **por** teléfono.* | per Telefon |\n\n### Feste Wendungen mit POR — auswendig lernen!\n\n| Wendung | Bedeutung |\n|---|---|\n| **por favor** | bitte |\n| **por eso** | deshalb / deswegen |\n| **por fin** | endlich |\n| **por supuesto** | natürlich / selbstverständlich |\n\n> **Merkhilfe:** *Por* blickt **zurück oder durch** — Warum ist es passiert? Womit? Wie lange? Auf welchem Weg?"
+    },
+    {
+      "id": "ex-matching-uses",
+      "type": "exercise",
+      "title": "Verwendung erkennen: por oder para?",
+      "exercise": {
+        "id": "ex-matching-uses",
+        "type": "matching",
+        "prompt": "Ordne jede Verwendung der richtigen Präposition zu.",
+        "card_ids": ["para-zweck", "para-empfaenger", "por-grund", "por-zeitdauer", "por-mittel", "para-frist"],
+        "pairs": [
+          { "left": "Zweck / Ziel (um zu …)", "right": "para" },
+          { "left": "Empfänger (für wen?)", "right": "para" },
+          { "left": "Frist / Deadline (bis wann?)", "right": "para" },
+          { "left": "Grund / Ursache (wegen …)", "right": "por" },
+          { "left": "Zeitdauer (… lang)", "right": "por" },
+          { "left": "Mittel / Kanal (per Telefon)", "right": "por" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-matching-phrases",
+      "type": "exercise",
+      "title": "Satzfragmente zuordnen",
+      "exercise": {
+        "id": "ex-matching-phrases",
+        "type": "matching",
+        "prompt": "Ordne jedem spanischen Ausdruck seine deutsche Bedeutung zu.",
+        "card_ids": ["expr-por-favor", "expr-por-eso", "expr-por-fin", "expr-por-supuesto"],
+        "pairs": [
+          { "left": "por favor", "right": "bitte" },
+          { "left": "por eso", "right": "deshalb" },
+          { "left": "por fin", "right": "endlich" },
+          { "left": "por supuesto", "right": "natürlich" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-regalo",
+      "type": "exercise",
+      "title": "Ein Geschenk für dich",
+      "exercise": {
+        "id": "ex-cloze-regalo",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Präposition: por oder para?",
+        "card_ids": ["para-empfaenger"],
+        "sentence": "Este regalo es ___ ti.",
+        "blanks": [
+          { "accept": ["para"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Für wen ist das Geschenk bestimmt? → Empfänger → **para**.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-trafico",
+      "type": "exercise",
+      "title": "Wegen des Staus",
+      "exercise": {
+        "id": "ex-cloze-trafico",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Präposition: Warum kam er zu spät?",
+        "card_ids": ["por-grund"],
+        "sentence": "Llegó tarde ___ el tráfico.",
+        "blanks": [
+          { "accept": ["por"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Grund/Ursache (wegen des Staus) → **por**.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-zweck",
+      "type": "exercise",
+      "title": "Übersetze: Ich lerne Spanisch, um zu reisen.",
+      "exercise": {
+        "id": "ex-free-zweck",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Ich lerne Spanisch, um zu reisen.* (Zweck → para)",
+        "card_ids": ["para-zweck"],
+        "accept": [
+          "Aprendo español para viajar.",
+          "aprendo español para viajar",
+          "Aprendo español para viajar",
+          "Estudio español para viajar.",
+          "estudio español para viajar"
+        ],
+        "hint": "*aprender/estudiar español* + **para** + Infinitiv *viajar*.",
+        "distractors": [
+          "Aprendo español por viajar.",
+          "Aprendo español para viajo.",
+          "Aprendo español por el viaje."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-danke",
+      "type": "exercise",
+      "title": "Übersetze: Danke für alles.",
+      "exercise": {
+        "id": "ex-free-danke",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Danke für alles.* (Grund → por)",
+        "card_ids": ["por-grund"],
+        "accept": [
+          "Gracias por todo.",
+          "gracias por todo",
+          "Gracias por todo",
+          "Muchas gracias por todo."
+        ],
+        "hint": "*Gracias* + **por** + *todo*. Typischer Fehler: *Gracias para todo* — falsch!",
+        "distractors": [
+          "Gracias para todo.",
+          "Gracias para ti todo.",
+          "Gracias con todo."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-zweck-oder-grund",
+      "type": "exercise",
+      "title": "Welcher Satz ist korrekt?",
+      "exercise": {
+        "id": "ex-picture-zweck-oder-grund",
+        "type": "picture_choice",
+        "prompt": "Wähle den grammatikalisch richtigen Satz für: *Ich rief an wegen des Problems.*",
+        "card_ids": ["por-grund"],
+        "images": [
+          { "src": "assets/img/phone-reason.png", "label": "Llamé por el problema.", "is_correct": "true" },
+          { "src": "assets/img/phone-goal.png", "label": "Llamé para el problema." },
+          { "src": "assets/img/phone-duration.png", "label": "Llamé por el lunes." },
+          { "src": "assets/img/phone-mixed.png", "label": "Llamé para resolver por ti." }
+        ],
+        "hint": "Grund/Ursache (wegen des Problems) → **por**.",
+        "distractors": [
+          "Llamé para el problema.",
+          "Llamé por el lunes.",
+          "Llamé para resolver por ti."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-park",
+      "type": "exercise",
+      "title": "Bilde: Ich spaziere jeden Morgen durch den Park.",
+      "exercise": {
+        "id": "ex-tiles-park",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich spaziere jeden Morgen durch den Park.*",
+        "card_ids": ["por-ort", "por-zeitdauer"],
+        "tiles": ["Paseo", "por", "el", "parque", "por", "la", "mañana"],
+        "hint": "Durchquerung: *por el parque*; Tageszeit: *por la mañana*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-deadline",
+      "type": "exercise",
+      "title": "Bilde: Ich brauche es bis Freitag.",
+      "exercise": {
+        "id": "ex-tiles-deadline",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich brauche den Bericht bis Freitag.*",
+        "card_ids": ["para-frist"],
+        "tiles": ["Necesito", "el", "informe", "para", "el", "viernes"],
+        "hint": "Frist/Deadline → **para** + Zeitpunkt.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-preis",
+      "type": "exercise",
+      "title": "Übersetze: Ich zahlte 30 Euro für das Ticket.",
+      "exercise": {
+        "id": "ex-free-preis",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische: *Ich zahlte 30 Euro für das Ticket.* (Austausch/Preis → por)",
+        "card_ids": ["por-austausch"],
+        "accept": [
+          "Pagué 30 euros por la entrada.",
+          "pagué 30 euros por la entrada",
+          "Pagué treinta euros por la entrada.",
+          "pagué treinta euros por la entrada",
+          "Pagué 30 euros por el ticket."
+        ],
+        "hint": "*Pagué* + Betrag + **por** + Ware/Dienstleistung. Nie *para* beim Preis!",
+        "distractors": [
+          "Pagué 30 euros para la entrada.",
+          "Pagué 30 euros con la entrada.",
+          "Pagué 30 euros para el ticket."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

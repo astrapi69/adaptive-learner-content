@@ -1,0 +1,335 @@
+{
+  "id": "12-comparatif-superlatif",
+  "title": "Le comparatif et le superlatif",
+  "description": "Vergleiche auf Französisch ausdrücken: Komparativ (plus/moins/aussi … que) und Superlativ (le/la/les plus/moins …), einschließlich der unregelmäßigen Formen bon → meilleur und bien → mieux.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "comp-plus-que",
+      "front": "plus … que",
+      "back": "mehr … als / -er als",
+      "notes": "Komparativ der Überlegenheit. Das Adjektiv steht zwischen *plus* und *que*: **Marie est plus grande que Paul.** — Marie ist größer als Paul.\n\nDas Adjektiv wird wie gewohnt an Genus und Numerus angeglichen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["comparatif", "structure"]
+    },
+    {
+      "id": "comp-moins-que",
+      "front": "moins … que",
+      "back": "weniger … als",
+      "notes": "Komparativ der Unterlegenheit: **Ce restaurant est moins cher que l'autre.** — Dieses Restaurant ist weniger teuer als das andere.\n\nAdjektiv-Angleichung gilt auch hier.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["comparatif", "structure"]
+    },
+    {
+      "id": "comp-aussi-que",
+      "front": "aussi … que",
+      "back": "so … wie (Gleichheit)",
+      "notes": "Komparativ der Gleichheit: **Thomas est aussi grand que Marc.** — Thomas ist genauso groß wie Marc.\n\nHäufiger Fehler: *comme* statt *que* — falsch: ~~aussi grand comme~~.",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "Gleichheit: *aussi … que* — nicht *comme*!",
+      "tags": ["comparatif", "structure"]
+    },
+    {
+      "id": "superlatif-plus",
+      "front": "le/la/les plus …",
+      "back": "der/die/das -ste (Superlativ der Überlegenheit)",
+      "notes": "Superlativ mit dem bestimmten Artikel, der sich nach Genus und Numerus richtet:\n\n- **C'est le plus grand musée de Paris.** — Das ist das größte Museum von Paris.\n- **C'est la plus belle ville.** — Das ist die schönste Stadt.\n- **Ce sont les plus beaux tableaux.** — Das sind die schönsten Gemälde.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["superlatif", "structure"]
+    },
+    {
+      "id": "superlatif-moins",
+      "front": "le/la/les moins …",
+      "back": "der/die/das am wenigsten … (Superlativ der Unterlegenheit)",
+      "notes": "Superlativ der Unterlegenheit: **C'est le moins cher de tous.** — Das ist das günstigste (wörtl. das am wenigsten teure) von allen.\n\nArtikel richtet sich nach dem Bezugsnomen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["superlatif", "structure"]
+    },
+    {
+      "id": "irreg-meilleur",
+      "front": "meilleur / meilleure / meilleurs / meilleures",
+      "back": "besser / der beste (Komparativ + Superlativ von bon)",
+      "notes": "**bon** hat eine unregelmäßige Steigerung:\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| bon (gut) | **meilleur** (besser) | **le meilleur** (der beste) |\n| bonne | **meilleure** | **la meilleure** |\n\n- **Ce vin est meilleur que l'autre.** — Dieser Wein ist besser als der andere.\n- **C'est le meilleur restaurant de la ville.** — Das ist das beste Restaurant der Stadt.\n\nFehler vermeiden: **Niemals** *plus bon* oder *plus bonne* — das ist falsch!",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "bon → meilleur (besser) / le meilleur (der beste) — niemals *plus bon*!",
+      "tags": ["comparatif", "superlatif", "irregulier", "bon"]
+    },
+    {
+      "id": "irreg-mieux",
+      "front": "mieux",
+      "back": "besser (Adverb) — Komparativ von bien",
+      "notes": "**bien** (gut, Adverb) steigert sich ebenfalls unregelmäßig:\n\n| Grundform | Komparativ | Superlativ |\n|---|---|---|\n| bien | **mieux** | **le mieux** |\n\n- **Elle chante mieux que moi.** — Sie singt besser als ich.\n- **C'est lui qui parle le mieux.** — Er spricht am besten.\n\nUnterschied: *meilleur* ist Adjektiv (beschreibt ein Nomen), *mieux* ist Adverb (beschreibt ein Verb).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["comparatif", "superlatif", "irregulier", "bien"]
+    },
+    {
+      "id": "adj-grand",
+      "front": "grand / grande / grands / grandes",
+      "back": "groß / größer (plus grand) / der größte (le plus grand)",
+      "notes": "Reguläres Adjektiv — Steigerung regelmäßig:\n\n- Komparativ: **plus grand que** — größer als\n- Superlativ m.: **le plus grand** — der größte\n- Superlativ f.: **la plus grande** — die größte\n\nBeispiel: *Paris est plus grand que Lyon.* — Paris ist größer als Lyon.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["comparatif", "superlatif", "adjektiv"]
+    },
+    {
+      "id": "adj-petit",
+      "front": "petit / petite",
+      "back": "klein / kleiner (plus petit) / der kleinste (le plus petit)",
+      "notes": "Reguläres Adjektiv — regelmäßige Steigerung:\n\n- **moins grand que** = kleiner als (alternativ: **plus petit que**)\n- **le plus petit** / **la plus petite** = der/die Kleinste\n\nBeispiel: *Ma chambre est plus petite que la tienne.* — Mein Zimmer ist kleiner als deins.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["comparatif", "superlatif", "adjektiv"]
+    },
+    {
+      "id": "adj-interessant",
+      "front": "intéressant / intéressante",
+      "back": "interessant / interessanter (plus intéressant) / am interessantesten (le plus intéressant)",
+      "notes": "Reguläres Adjektiv — Steigerung mit *plus*:\n\n- **Ce livre est plus intéressant que le film.** — Dieses Buch ist interessanter als der Film.\n- **C'est la plus intéressante conférence de l'année.** — Das ist die interessanteste Konferenz des Jahres.\n\nAdjektiv-Angleichung: *intéressante* (f.), *intéressants* (m. pl.), *intéressantes* (f. pl.).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["comparatif", "superlatif", "adjektiv"]
+    },
+    {
+      "id": "adj-bon-positif",
+      "front": "bon / bonne",
+      "back": "gut — Steigerung: meilleur / le meilleur (nicht *plus bon*!)",
+      "notes": "**bon** ist eines der häufigsten Adjektive und hat eine **unregelmäßige** Steigerung.\n\n- positiv: *bon* / *bonne* — gut\n- Komparativ: **meilleur** / **meilleure** — besser\n- Superlativ: **le meilleur** / **la meilleure** — der/die Beste\n\nTypischer Deutschsprachler-Fehler: ~~*plus bon*~~ — gibt es nicht!",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Komparativ von *bon* = *meilleur* — kein *plus bon*!",
+      "tags": ["irregulier", "bon", "adjektiv"]
+    },
+    {
+      "id": "adj-cher",
+      "front": "cher / chère",
+      "back": "teuer / teurer (plus cher) / am teuersten (le plus cher)",
+      "notes": "Reguläre Steigerung:\n\n- **Ce manteau est plus cher que cette veste.** — Dieser Mantel ist teurer als diese Jacke.\n- **C'est le restaurant le plus cher de la ville.** — Das ist das teuerste Restaurant der Stadt.\n\nAchtung: *cher* / *chère* (f.) — Genus-Angleichung nicht vergessen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["comparatif", "superlatif", "adjektiv"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theorie-komparativ",
+      "type": "theory",
+      "title": "Auffrischung und Komparativ",
+      "body": "# Le comparatif — Vergleiche ausdrücken\n\nIn **A1** hast du Adjektive gelernt (*grand*, *petit*, *bon*). Jetzt vergleichst du damit: **plus grand que**, **le plus grand** — und das unregelmäßige **meilleur** (besser).\n\nDen Komparativ bildest du so — das Adjektiv steht **zwischen** dem Vergleichswort und *que*:\n\n| Komparativ | Bedeutung | Beispiel |\n|---|---|---|\n| **plus** + Adj. + **que** | -er als / mehr … als | *Marie est **plus grande** que Paul.* |\n| **moins** + Adj. + **que** | weniger … als | *Ce livre est **moins cher** que l'autre.* |\n| **aussi** + Adj. + **que** | so … wie | *Thomas est **aussi grand** que Marc.* |\n\n**Wichtige Regeln:**\n- Das Adjektiv wird wie immer an **Genus und Numerus** angeglichen: *plus grand* (m.) / *plus grande* (f.) / *plus grands* (m. pl.) / *plus grandes* (f. pl.)\n- Nach *que* steht ein **Nomen** oder **Pronomen**: *que Paul*, *que moi*, *que toi*.\n- Gleichheit: **aussi … que** — **nie** *comme*: ~~aussi grand comme~~ ist falsch!\n\n> **Merksatz:** Plus – Moins – Aussi … que = MLA = „Mein Lernziel: Adjektive!“"
+    },
+    {
+      "id": "theorie-superlatif",
+      "type": "theory",
+      "title": "Superlativ",
+      "body": "## Le superlatif — die höchste Stufe\n\nDen Superlativ bildest du mit dem **bestimmten Artikel + plus/moins + Adjektiv**:\n\n| Superlativ | Bedeutung | Beispiel |\n|---|---|---|\n| **le/la/les plus** + Adj. | der/die/das -ste | *C'est **le plus grand** musée de Paris.* |\n| **le/la/les moins** + Adj. | der/die/das am wenigsten… | *C'est **la moins chère** option.* |\n\n**Genus- und Numerus-Angleichung des Artikels:**\n\n| | Singular | Plural |\n|---|---|---|\n| **maskulin** | *le plus grand* | *les plus grands* |\n| **feminin** | *la plus grande* | *les plus grandes* |\n\n- Nach dem Superlativ steht oft **de** für „von/unter/in“: *le plus grand musée **de Paris***, *la meilleure étudiante **de la classe***.\n- Das Adjektiv steht normalerweise **nach** dem Nomen, außer bei vorgestellten Adjektiven (*grand, petit, beau …*):\n  - vorgestellt: *C'est **le plus beau** tableau.*\n  - nachgestellt: *C'est **le restaurant le plus cher**.*"
+    },
+    {
+      "id": "theorie-irregulier",
+      "type": "theory",
+      "title": "Unregelmäßige Formen: meilleur und mieux",
+      "body": "## Unregelmäßige Steigerung: bon → meilleur / bien → mieux\n\nZwei sehr häufige Wörter steigern sich **unregelmäßig** — ähnlich wie im Deutschen „gut → besser → am besten“:\n\n| Grundform | Bedeutung | Komparativ | Superlativ |\n|---|---|---|---|\n| **bon** / **bonne** | gut (Adjektiv) | **meilleur** / **meilleure** | **le meilleur** / **la meilleure** |\n| **bien** | gut (Adverb) | **mieux** | **le mieux** |\n\n**Beispiele:**\n- *Ce vin est **meilleur** que l'autre.* — Dieser Wein ist **besser** als der andere.\n- *C'est **le meilleur** restaurant de la ville.* — Das ist **das beste** Restaurant der Stadt.\n- *Elle chante **mieux** que moi.* — Sie singt **besser** als ich.\n- *C'est lui qui parle **le mieux**.* — Er spricht **am besten**.\n\n> **Achtung — häufige Fehler:**\n> - ~~*plus bon*~~ → immer **meilleur** (Adjektiv)\n> - ~~*plus bien*~~ → immer **mieux** (Adverb)\n> - **meilleur** stimmt in Genus/Numerus überein: *meilleur* (m.), *meilleure* (f.), *meilleurs* (m. pl.), *meilleures* (f. pl.)\n> - **mieux** ist unveränderlich (Adverb — keine Angleichung)"
+    },
+    {
+      "id": "ex-match-strukturen",
+      "type": "exercise",
+      "title": "Vergleichsstrukturen zuordnen",
+      "exercise": {
+        "id": "ex-match-strukturen",
+        "type": "matching",
+        "prompt": "Ordne jede französische Vergleichsstruktur ihrer deutschen Bedeutung zu.",
+        "card_ids": ["comp-plus-que", "comp-moins-que", "comp-aussi-que", "superlatif-plus", "superlatif-moins"],
+        "pairs": [
+          { "left": "plus … que", "right": "mehr … als / -er als" },
+          { "left": "moins … que", "right": "weniger … als" },
+          { "left": "aussi … que", "right": "so … wie" },
+          { "left": "le/la/les plus …", "right": "der/die/das -ste" },
+          { "left": "le/la/les moins …", "right": "der/die/das am wenigsten …" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-irregulier",
+      "type": "exercise",
+      "title": "Unregelmäßige Formen zuordnen",
+      "exercise": {
+        "id": "ex-match-irregulier",
+        "type": "matching",
+        "prompt": "Ordne die Grundform ihrer Komparativ- bzw. Superlativform zu.",
+        "card_ids": ["irreg-meilleur", "irreg-mieux", "adj-bon-positif"],
+        "pairs": [
+          { "left": "bon (Adjektiv, Komparativ)", "right": "meilleur" },
+          { "left": "bon (Adjektiv, Superlativ)", "right": "le meilleur" },
+          { "left": "bien (Adverb, Komparativ)", "right": "mieux" },
+          { "left": "bien (Adverb, Superlativ)", "right": "le mieux" },
+          { "left": "plus … que (Gleichheit?)", "right": "nein — aussi … que" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-marie-grande",
+      "type": "exercise",
+      "title": "Marie ist größer als Paul",
+      "exercise": {
+        "id": "ex-cloze-marie-grande",
+        "type": "cloze",
+        "prompt": "Ergänze den Komparativ: *Marie ist größer als Paul.*",
+        "card_ids": ["comp-plus-que", "adj-grand"],
+        "sentence": "Marie est ___ grande ___ Paul.",
+        "blanks": [
+          { "accept": ["plus"] },
+          { "accept": ["que"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Komparativ der Überlegenheit: *plus … que*."
+      }
+    },
+    {
+      "id": "ex-cloze-meilleur",
+      "type": "exercise",
+      "title": "Dieser Wein ist besser",
+      "exercise": {
+        "id": "ex-cloze-meilleur",
+        "type": "cloze",
+        "prompt": "Ergänze die unregelmäßige Komparativform von *bon*: *Dieser Wein ist besser als der andere.*",
+        "card_ids": ["irreg-meilleur", "adj-bon-positif"],
+        "sentence": "Ce vin est ___ que l'autre.",
+        "blanks": [
+          { "accept": ["meilleur"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Komparativ von *bon* (maskulin) — **niemals** *plus bon*!"
+      }
+    },
+    {
+      "id": "ex-free-paris-grand",
+      "type": "exercise",
+      "title": "Paris ist größer als Lyon",
+      "exercise": {
+        "id": "ex-free-paris-grand",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Paris ist größer als Lyon.*",
+        "card_ids": ["comp-plus-que", "adj-grand"],
+        "accept": [
+          "Paris est plus grand que Lyon.",
+          "paris est plus grand que lyon",
+          "Paris est plus grand que Lyon",
+          "Paris est plus grand que lyon."
+        ],
+        "hint": "*Paris est* + *plus grand que* + *Lyon.*",
+        "distractors": [
+          "Paris est plus grande que Lyon.",
+          "Paris est plus grand comme Lyon.",
+          "Paris est grander que Lyon."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-meilleur-restaurant",
+      "type": "exercise",
+      "title": "Das beste Restaurant",
+      "exercise": {
+        "id": "ex-free-meilleur-restaurant",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Das ist das beste Restaurant der Stadt.*",
+        "card_ids": ["irreg-meilleur", "superlatif-plus"],
+        "accept": [
+          "C'est le meilleur restaurant de la ville.",
+          "c'est le meilleur restaurant de la ville",
+          "C'est le meilleur restaurant de la ville",
+          "c'est le meilleur restaurant de la ville."
+        ],
+        "hint": "*C'est le meilleur restaurant de la ville.* — Superlativ von *bon* = *le meilleur*.",
+        "distractors": [
+          "C'est le plus bon restaurant de la ville.",
+          "C'est le meilleure restaurant de la ville.",
+          "C'est le plus meilleur restaurant de la ville."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-elle-chante-mieux",
+      "type": "exercise",
+      "title": "Sie singt besser als ich",
+      "exercise": {
+        "id": "ex-free-elle-chante-mieux",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Sie singt besser als ich.* (Adverb — Tipp: mieux)",
+        "card_ids": ["irreg-mieux"],
+        "accept": [
+          "Elle chante mieux que moi.",
+          "elle chante mieux que moi",
+          "Elle chante mieux que moi"
+        ],
+        "hint": "Adverb *bien* → Komparativ **mieux** (unveränderlich) + *que moi*.",
+        "distractors": [
+          "Elle chante plus bien que moi.",
+          "Elle chante meilleure que moi.",
+          "Elle chante mieux comme moi."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-plus-petit",
+      "type": "exercise",
+      "title": "Bilde: Mein Zimmer ist kleiner als deins",
+      "exercise": {
+        "id": "ex-tiles-plus-petit",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Mein Zimmer ist kleiner als deins.*",
+        "card_ids": ["adj-petit", "comp-plus-que"],
+        "tiles": ["Ma", "chambre", "est", "plus", "petite", "que", "la", "tienne"],
+        "hint": "Komparativ: *plus petite que* — *petite* weil *chambre* feminin ist.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-superlatif-musee",
+      "type": "exercise",
+      "title": "Bilde: Das ist das größte Museum von Paris",
+      "exercise": {
+        "id": "ex-tiles-superlatif-musee",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Das ist das größte Museum von Paris.*",
+        "card_ids": ["superlatif-plus", "adj-grand"],
+        "tiles": ["C'est", "le", "plus", "grand", "musée", "de", "Paris"],
+        "hint": "Superlativ vorgestellt: *le plus grand musée de Paris*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-comparatif",
+      "type": "exercise",
+      "title": "Welcher Satz ist korrekt?",
+      "exercise": {
+        "id": "ex-pic-comparatif",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz drückt korrekt aus: *Dieser Film ist interessanter als das Buch.*",
+        "card_ids": ["comp-plus-que", "adj-interessant"],
+        "images": [
+          { "src": "assets/img/comp-correct.png", "label": "Ce film est plus intéressant que le livre.", "is_correct": "true" },
+          { "src": "assets/img/comp-error1.png", "label": "Ce film est plus intéressant comme le livre." },
+          { "src": "assets/img/comp-error2.png", "label": "Ce film est plus intéressante que le livre." },
+          { "src": "assets/img/comp-error3.png", "label": "Ce film est meilleur intéressant que le livre." }
+        ],
+        "hint": "Komparativ: *plus … que* — und *intéressant* bleibt maskulin (wie *film*).",
+        "distractors": [
+          "Ce film est plus intéressant comme le livre.",
+          "Ce film est plus intéressante que le livre.",
+          "Ce film est meilleur intéressant que le livre."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

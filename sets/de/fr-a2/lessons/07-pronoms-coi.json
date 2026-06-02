@@ -1,0 +1,337 @@
+{
+  "id": "07-pronoms-coi",
+  "title": "Les pronoms COI (lui, leur)",
+  "description": "Indirekte Objektpronomen im Französischen: me, te, lui, nous, vous, leur — für 'à + Person'. Stellung, typische Verben und Abgrenzung zum direkten Objektpronomen (COD).",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "coi-me",
+      "front": "me / m'",
+      "back": "mir (indirektes Objekt, 1. Person Singular)",
+      "notes": "**me** → **m'** vor Vokal oder stummem *h*. Steht **vor dem Verb**: *Il me parle* — er spricht mit mir. Mit *à*-Verben: *Il m'écrit* — er schreibt mir.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["pronoms-coi", "personne-1-sg"]
+    },
+    {
+      "id": "coi-te",
+      "front": "te / t'",
+      "back": "dir (indirektes Objekt, 2. Person Singular)",
+      "notes": "**te** → **t'** vor Vokal oder stummem *h*. Steht **vor dem Verb**: *Je te téléphone ce soir* — ich rufe dich heute Abend an. Achtung: *téléphoner à* → COI!",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["pronoms-coi", "personne-2-sg"]
+    },
+    {
+      "id": "coi-lui",
+      "front": "lui",
+      "back": "ihm / ihr (indirektes Objekt, 3. Person Singular)",
+      "notes": "**Wichtig:** *lui* steht für **ihm** (männlich) UND **ihr** (weiblich) — kein Unterschied im Genus! *Je lui parle* = ich spreche mit ihm / mit ihr. Ersetze immer *à + männliche/weibliche Person*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "Kein Genus: lui = ihm UND ihr — anders als im Deutschen.",
+      "tags": ["pronoms-coi", "personne-3-sg", "lui"]
+    },
+    {
+      "id": "coi-nous",
+      "front": "nous",
+      "back": "uns (indirektes Objekt, 1. Person Plural)",
+      "notes": "**nous** ist gleichzeitig Subjekt- und COI-Pronomen. *Il nous écrit* — er schreibt uns. *Elle nous répond* — sie antwortet uns.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["pronoms-coi", "personne-1-pl"]
+    },
+    {
+      "id": "coi-vous",
+      "front": "vous",
+      "back": "euch / Ihnen (indirektes Objekt, 2. Person Plural / Höflichkeitsform)",
+      "notes": "**vous** als COI: *Je vous réponds demain* — ich antworte euch / Ihnen morgen. Gilt für Plural und Höflichkeitsform (Sie).",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["pronoms-coi", "personne-2-pl"]
+    },
+    {
+      "id": "coi-leur",
+      "front": "leur",
+      "back": "ihnen (indirektes Objekt, 3. Person Plural)",
+      "notes": "**Achtung:** Als COI-Pronomen schreibt man *leur* **ohne -s** — kein *leurs*! *Je leur parle* — ich spreche mit ihnen. Verwechslungsgefahr mit dem Possessivpronomen *leurs*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Als Pronomen: immer 'leur' ohne -s — nie 'leurs'!",
+      "tags": ["pronoms-coi", "personne-3-pl", "leur"]
+    },
+    {
+      "id": "verb-parler-a",
+      "front": "parler à qqn",
+      "back": "mit jemandem sprechen (COI-Verb)",
+      "notes": "**parler à** braucht ein indirektes Objekt (COI). *Je parle à Marie → Je lui parle.* Das Pronomen ersetzt *à + Person* und steht **vor** dem Verb.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verbe-coi", "parler"]
+    },
+    {
+      "id": "verb-telephoner-a",
+      "front": "téléphoner à qqn",
+      "back": "jemanden anrufen (COI-Verb)",
+      "notes": "**téléphoner à** — im Deutschen sagt man 'anrufen' (direktes Objekt), im Französischen aber *téléphoner à*! → COI. *Je téléphone à Paul → Je lui téléphone.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Im Deutschen 'jdn. anrufen' (COD), im Französischen 'téléphoner à' (COI)!",
+      "tags": ["verbe-coi", "téléphoner"]
+    },
+    {
+      "id": "verb-ecrire-a",
+      "front": "écrire à qqn",
+      "back": "jemandem schreiben (COI-Verb)",
+      "notes": "**écrire à** — jemandem schreiben. *J'écris à mes parents → Je leur écris.* Das Pronomen *leur* (ihnen) steht direkt vor *écris*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verbe-coi", "écrire"]
+    },
+    {
+      "id": "verb-donner-a",
+      "front": "donner qqch à qqn",
+      "back": "jemandem etwas geben (COI-Verb)",
+      "notes": "**donner qqch à qqn** hat zwei Objekte: *qqch* (direkt, COD) und *qqn* (indirekt, COI). *Je donne le livre à Sophie → Je lui donne le livre.* Nur die Person (*à qqn*) wird durch COI ersetzt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verbe-coi", "donner"]
+    },
+    {
+      "id": "verb-repondre-a",
+      "front": "répondre à qqn",
+      "back": "jemandem antworten (COI-Verb)",
+      "notes": "**répondre à** — jemandem antworten. *Je réponds à la professeure → Je lui réponds.* Auch: *répondre à un e-mail* (aber dann kein Personen-COI).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verbe-coi", "répondre"]
+    },
+    {
+      "id": "verb-demander-a",
+      "front": "demander qqch à qqn",
+      "back": "jemanden um etwas bitten / jemanden etwas fragen (COI-Verb)",
+      "notes": "**demander à qqn** — jemanden fragen. *Je demande l'heure à Marc → Je lui demande l'heure.* Das Personobjekt (*à qqn*) wird durch COI ersetzt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verbe-coi", "demander"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-intro-coi",
+      "type": "theory",
+      "title": "Von COD zu COI — indirektes Objektpronomen",
+      "body": "# Les pronoms COI — indirekte Objektpronomen\n\nIn der letzten Lektion hast du die **direkten Objektpronomen** (COD: *le, la, les*) gelernt. Jetzt kommen die **indirekten Objektpronomen** (COI: *lui, leur*) — für **'à + Person'**.\n\n## Was ist ein indirektes Objekt?\n\nEin indirektes Objekt antwortet auf die Frage *à qui?* (wem?) und wird im Französischen immer mit **à** eingeführt:\n\n> *Je parle **à Marie**.* → Je lui parle.\n\nDas Pronomen ersetzt **à + Person** vollständig und steht **vor dem Verb**.\n\n## Die COI-Pronomen im Überblick\n\n| Person | COI | Bedeutung |\n|---|---|---|\n| 1. Sg. | **me / m'** | mir |\n| 2. Sg. | **te / t'** | dir |\n| 3. Sg. | **lui** | ihm **und** ihr |\n| 1. Pl. | **nous** | uns |\n| 2. Pl. | **vous** | euch / Ihnen |\n| 3. Pl. | **leur** | ihnen |\n\n> **Merke:** *lui* gilt für **beide Geschlechter** — kein Genusunterschied im Singular. *leur* schreibt man als Pronomen **immer ohne -s**!"
+    },
+    {
+      "id": "theory-verbs-and-position",
+      "type": "theory",
+      "title": "Typische à-Verben und Stellung des Pronomens",
+      "body": "## Verben, die immer ein COI brauchen\n\nDiese Verben verbinden sich mit **à + Person** — das Pronomen ersetzt genau diesen Teil:\n\n| Verb | Konstruktion | Beispiel | Mit Pronomen |\n|---|---|---|---|\n| parler | parler **à** qqn | Je parle à Luc. | Je **lui** parle. |\n| téléphoner | téléphoner **à** qqn | Tu téléphones à Anna. | Tu **lui** téléphones. |\n| écrire | écrire **à** qqn | Elle écrit à ses amis. | Elle **leur** écrit. |\n| donner | donner qqch **à** qqn | Il donne le livre à Paul. | Il **lui** donne le livre. |\n| répondre | répondre **à** qqn | Nous répondons au prof. | Nous **lui** répondons. |\n| demander | demander qqch **à** qqn | Je demande l'heure à Marc. | Je **lui** demande l'heure. |\n\n## Stellung — gleich wie COD\n\n- **Vor dem Verb** (Präsens, Imparfait, Futur …): *Je **lui** parle.*\n- Bei **verneinten** Sätzen: *Je ne **lui** parle pas.*\n- Im **Infinitivsatz**: zwischen Hilfsverb und Infinitiv — *Je vais **lui** écrire.*"
+    },
+    {
+      "id": "theory-coi-vs-cod",
+      "type": "theory",
+      "title": "COI vs. COD — der entscheidende Unterschied",
+      "body": "## COD oder COI? — Die Schlüsselfrage\n\nDer Unterschied liegt im **à**: Hat das Verb *à + Person*? → **COI**. Kein *à*? → **COD**.\n\n| | COD | COI |\n|---|---|---|\n| **Pronomen** | le / la / les | me, te, **lui**, nous, vous, **leur** |\n| **Frage** | *qui? / quoi?* (wen/was?) | *à qui?* (wem?) |\n| **à im Satz?** | nein | ja |\n| **Beispiel** | *Je **le** vois.* (ich sehe ihn) | *Je **lui** parle.* (ich spreche mit ihm) |\n\n### Typische Fehler — und warum sie falsch sind\n\n| Falsch ❌ | Richtig ✓ | Erklärung |\n|---|---|---|\n| *Je **le** parle.* | *Je **lui** parle.* | *parler à* → COI, nicht COD |\n| *Je **leurs** écris.* | *Je **leur** écris.* | Pronomen *leur* hat nie -s |\n| *Je parle **lui**.* | *Je **lui** parle.* | Pronomen steht **vor** dem Verb |\n| *Je **l'**téléphone.* | *Je **lui** téléphone.* | *téléphoner à* → COI |\n\n> **Eselsbrücke:** *lui* und *leur* sind die beiden COI-Pronomen der 3. Person. Beide gehen **vor** das Verb, beide ersetzen **à + Person**."
+    },
+    {
+      "id": "ex-match-coi-table",
+      "type": "exercise",
+      "title": "COI-Pronomen zuordnen",
+      "exercise": {
+        "id": "ex-match-coi-table",
+        "type": "matching",
+        "prompt": "Ordne jedes COI-Pronomen seiner deutschen Bedeutung zu.",
+        "card_ids": ["coi-me", "coi-te", "coi-lui", "coi-nous", "coi-leur"],
+        "pairs": [
+          { "left": "me / m'", "right": "mir" },
+          { "left": "te / t'", "right": "dir" },
+          { "left": "lui", "right": "ihm / ihr" },
+          { "left": "nous", "right": "uns" },
+          { "left": "leur", "right": "ihnen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-verbs-coi",
+      "type": "exercise",
+      "title": "à-Verben erkennen",
+      "exercise": {
+        "id": "ex-match-verbs-coi",
+        "type": "matching",
+        "prompt": "Verbinde das französische Verb mit seiner deutschen Bedeutung.",
+        "card_ids": ["verb-parler-a", "verb-telephoner-a", "verb-ecrire-a", "verb-repondre-a", "verb-demander-a"],
+        "pairs": [
+          { "left": "parler à qqn", "right": "mit jemandem sprechen" },
+          { "left": "téléphoner à qqn", "right": "jemanden anrufen" },
+          { "left": "écrire à qqn", "right": "jemandem schreiben" },
+          { "left": "répondre à qqn", "right": "jemandem antworten" },
+          { "left": "demander qqch à qqn", "right": "jemanden etwas fragen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-lui-parle",
+      "type": "exercise",
+      "title": "Ich spreche mit ihr",
+      "exercise": {
+        "id": "ex-cloze-lui-parle",
+        "type": "cloze",
+        "prompt": "Ersetze *à Marie* durch das richtige COI-Pronomen.",
+        "card_ids": ["coi-lui", "verb-parler-a"],
+        "sentence": "Je parle à Marie. → Je ___ parle.",
+        "blanks": [
+          { "accept": ["lui"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "3. Person Singular, COI — kein Genus!"
+      }
+    },
+    {
+      "id": "ex-cloze-leur-ecrit",
+      "type": "exercise",
+      "title": "Er schreibt ihnen",
+      "exercise": {
+        "id": "ex-cloze-leur-ecrit",
+        "type": "cloze",
+        "prompt": "Ersetze *à ses amis* durch das richtige COI-Pronomen.",
+        "card_ids": ["coi-leur", "verb-ecrire-a"],
+        "sentence": "Il écrit à ses amis. → Il ___ écrit.",
+        "blanks": [
+          { "accept": ["leur"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "3. Person Plural, COI — ohne -s!"
+      }
+    },
+    {
+      "id": "ex-free-je-lui-telephone",
+      "type": "exercise",
+      "title": "Ich rufe ihn an",
+      "exercise": {
+        "id": "ex-free-je-lui-telephone",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich rufe ihn heute Abend an.* (téléphoner à — COI!)",
+        "card_ids": ["coi-lui", "verb-telephoner-a"],
+        "accept": [
+          "Je lui téléphone ce soir.",
+          "je lui téléphone ce soir",
+          "Je lui telephone ce soir.",
+          "je lui telephone ce soir"
+        ],
+        "hint": "*téléphoner à* → COI: **lui** vor dem Verb. *ce soir* = heute Abend.",
+        "distractors": [
+          "Je le téléphone ce soir.",
+          "Je lui téléphone après le verbe.",
+          "Je téléphone lui ce soir."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-je-leur-reponds",
+      "type": "exercise",
+      "title": "Ich antworte ihnen",
+      "exercise": {
+        "id": "ex-free-je-leur-reponds",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich antworte ihnen morgen.* (répondre à — COI!)",
+        "card_ids": ["coi-leur", "verb-repondre-a"],
+        "accept": [
+          "Je leur réponds demain.",
+          "je leur réponds demain",
+          "Je leur reponds demain.",
+          "je leur reponds demain"
+        ],
+        "hint": "*répondre à* → COI: **leur** (ohne -s!) vor dem Verb. *demain* = morgen.",
+        "distractors": [
+          "Je leurs réponds demain.",
+          "Je les réponds demain.",
+          "Je réponds leur demain."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-lui-donne",
+      "type": "exercise",
+      "title": "Ich gebe ihr das Buch",
+      "exercise": {
+        "id": "ex-tiles-lui-donne",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum Satz: *Ich gebe ihr das Buch.* (donner à — COI)",
+        "card_ids": ["coi-lui", "verb-donner-a"],
+        "tiles": ["Je", "lui", "donne", "le", "livre"],
+        "hint": "COI **lui** steht direkt vor *donne*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-leur-ecris",
+      "type": "exercise",
+      "title": "Wir schreiben ihnen",
+      "exercise": {
+        "id": "ex-tiles-leur-ecris",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Wir schreiben ihnen eine E-Mail.*",
+        "card_ids": ["coi-leur", "verb-ecrire-a"],
+        "tiles": ["Nous", "leur", "écrivons", "un", "e-mail"],
+        "hint": "COI **leur** (ohne -s) steht vor *écrivons*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-cod-vs-coi",
+      "type": "exercise",
+      "title": "COD oder COI?",
+      "exercise": {
+        "id": "ex-picture-cod-vs-coi",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet *Ich spreche mit ihr* (COI — nicht COD)?",
+        "card_ids": ["coi-lui", "verb-parler-a"],
+        "images": [
+          { "src": "assets/img/coi-lui-parle.png", "label": "Je lui parle.", "is_correct": "true" },
+          { "src": "assets/img/cod-la-vois.png", "label": "Je le parle." },
+          { "src": "assets/img/coi-apres-verbe.png", "label": "Je parle lui." },
+          { "src": "assets/img/coi-leurs.png", "label": "Je leur parle à elle." }
+        ],
+        "hint": "*parler à* → COI: **lui** (3. Sg., kein Genus) direkt vor dem Verb.",
+        "distractors": [
+          "Je le parle.",
+          "Je parle lui.",
+          "Je leur parle à elle."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-receptive-lui-demande",
+      "type": "exercise",
+      "title": "Verstehen: Je lui demande l'heure",
+      "exercise": {
+        "id": "ex-free-receptive-lui-demande",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *Je lui demande l'heure.*",
+        "card_ids": ["coi-lui", "verb-demander-a"],
+        "accept": [
+          "Ich frage ihn nach der Uhrzeit.",
+          "ich frage ihn nach der Uhrzeit",
+          "Ich frage sie nach der Uhrzeit.",
+          "ich frage sie nach der Uhrzeit",
+          "Ich frage ihn die Uhrzeit.",
+          "ich frage ihn die uhrzeit"
+        ],
+        "hint": "*lui* = ihm oder ihr (kein Genus!); *demander l'heure* = nach der Uhrzeit fragen.",
+        "distractors": [
+          "Ich frage sie nach der Stunde.",
+          "Er fragt ihn nach der Uhrzeit.",
+          "Ich antworte ihm zur Uhrzeit."
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

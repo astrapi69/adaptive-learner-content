@@ -7,14 +7,16 @@ Official content repository for [Adaptive Learner](https://github.com/astrapi69/
 | Set | Source | Target | Lessons | Level | Domain |
 |-----|--------|--------|---------|-------|--------|
 | Französisch A1 | Deutsch (DE) | Französisch (FR) | 15 | A1 | Sprache |
+| Französisch A2 | Deutsch (DE) | Französisch (FR) | 15 | A2 | Sprache |
 | Französisch A1 | English (EN) | French (FR) | 15 | A1 | Language |
 | Spanisch A1 | Deutsch (DE) | Spanisch (ES) | 15 | A1 | Sprache |
+| Spanisch A2 | Deutsch (DE) | Spanisch (ES) | 15 | A2 | Sprache |
 | Spanisch A1 | English (EN) | Spanish (ES) | 15 | A1 | Language |
 | Englisch A1 | Deutsch (DE) | English (EN) | 15 | A1 | Sprache |
 | Psychologie | Deutsch (DE) | Deutsch (DE) | 15 | Intro | Psychologie |
 | Python — Grundlagen | Deutsch (DE) | Deutsch (DE) | 15 | A1 | Programmierung |
 
-**105 Lektionen · ~24 Stunden Lernmaterial**
+**135 Lektionen · ~30 Stunden Lernmaterial**
 
 ## Directory Structure
 
@@ -22,7 +24,9 @@ Official content repository for [Adaptive Learner](https://github.com/astrapi69/
 sets/
 ├── de/                 # Source language: German
 │   ├── fr-a1/          # Target: French A1
+│   ├── fr-a2/          # Target: French A2
 │   ├── es-a1/          # Target: Spanish A1
+│   ├── es-a2/          # Target: Spanish A2
 │   ├── en-a1/          # Target: English A1
 │   ├── psych-intro/    # Domain: Psychology
 │   └── python-basics/  # Domain: Programming

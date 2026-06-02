@@ -1,0 +1,338 @@
+{
+  "id": "05-conditionnel-present",
+  "title": "Le conditionnel présent",
+  "description": "Bildung und Gebrauch des conditionnel présent: Höflichkeit, Wünsche, Ratschläge und hypothetische Aussagen — mit unregelmäßigen Stämmen und Vergleich zum futur simple.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "cond-voudrais",
+      "front": "je voudrais",
+      "back": "ich hätte gern / ich möchte",
+      "notes": "Conditionnel von **vouloir**. Unregelmäßiger Stamm: **voudr-** + Endung *-ais*. Höflicher als *je veux* (ich will). *Je voudrais un café, s'il vous plaît.*",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["conditionnel", "vouloir", "höflichkeit"]
+    },
+    {
+      "id": "cond-serais",
+      "front": "je serais",
+      "back": "ich wäre",
+      "notes": "Conditionnel von **être**. Unregelmäßiger Stamm: **ser-** + Endung *-ais*. *Je serais content(e) de t'aider* — ich wäre froh, dir zu helfen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["conditionnel", "être", "unregelmäßig"]
+    },
+    {
+      "id": "cond-aurais",
+      "front": "j'aurais",
+      "back": "ich hätte",
+      "notes": "Conditionnel von **avoir**. Unregelmäßiger Stamm: **aur-** + Endung *-ais*. *J'aurais le temps demain* — ich hätte morgen Zeit.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["conditionnel", "avoir", "unregelmäßig"]
+    },
+    {
+      "id": "cond-irais",
+      "front": "j'irais",
+      "back": "ich würde gehen",
+      "notes": "Conditionnel von **aller**. Unregelmäßiger Stamm: **ir-** + Endung *-ais*. *J'irais en France cet été* — ich würde diesen Sommer nach Frankreich fahren.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["conditionnel", "aller", "unregelmäßig"]
+    },
+    {
+      "id": "cond-ferais",
+      "front": "je ferais",
+      "back": "ich würde machen / ich täte",
+      "notes": "Conditionnel von **faire**. Unregelmäßiger Stamm: **fer-** + Endung *-ais*. *Je ferais la cuisine* — ich würde kochen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["conditionnel", "faire", "unregelmäßig"]
+    },
+    {
+      "id": "cond-pourrais",
+      "front": "je pourrais",
+      "back": "ich könnte",
+      "notes": "Conditionnel von **pouvoir**. Unregelmäßiger Stamm: **pourr-** + Endung *-ais*. *Je pourrais t'aider* — ich könnte dir helfen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["conditionnel", "pouvoir", "unregelmäßig"]
+    },
+    {
+      "id": "cond-devrais",
+      "front": "tu devrais",
+      "back": "du solltest / du müsstest",
+      "notes": "Conditionnel von **devoir**. Unregelmäßiger Stamm: **devr-** + Endung *-ais*. Typischer Ratschlag: *Tu devrais te reposer* — du solltest dich ausruhen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["conditionnel", "devoir", "ratschlag"]
+    },
+    {
+      "id": "cond-parlerais",
+      "front": "je parlerais",
+      "back": "ich würde sprechen",
+      "notes": "Conditionnel eines regelmäßigen **-er**-Verbs. Stamm = Infinitiv **parler-** + Endung *-ais*. *Je parlerais français si je vivais à Paris* — ich würde Französisch sprechen, wenn ich in Paris lebte.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["conditionnel", "regelmäßig", "-er-verb"]
+    },
+    {
+      "id": "phrase-pourriez-vous",
+      "front": "Pourriez-vous m'aider ?",
+      "back": "Könnten Sie mir helfen?",
+      "notes": "Höfliche Bitte mit **pourriez-vous** (conditionnel von *pouvoir*, 2. Person Plural). Deutlich höflicher als *Pouvez-vous …?* (présent). Typisch im formellen Kontext.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Endung der 2. Person Plural im conditionnel: **-iez**.",
+      "tags": ["conditionnel", "höflichkeit", "bitte"]
+    },
+    {
+      "id": "phrase-aimerais",
+      "front": "j'aimerais",
+      "back": "ich würde gern / ich möchte gern",
+      "notes": "Conditionnel von **aimer** (regelmäßig). Stamm: **aimer-** + Endung *-ais*. Etwas förmlicher als *je veux*. *J'aimerais visiter le Louvre* — ich würde gerne den Louvre besuchen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["conditionnel", "höflichkeit", "wunsch"]
+    },
+    {
+      "id": "phrase-on-pourrait",
+      "front": "on pourrait",
+      "back": "man könnte / wir könnten",
+      "notes": "Conditionnel von **pouvoir** mit dem Pronomen **on** (= man / wir im Umgangsfranzösischen). *On pourrait aller au cinéma* — wir könnten ins Kino gehen. Sehr gebräuchlicher Vorschlag.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["conditionnel", "vorschlag", "on"]
+    },
+    {
+      "id": "phrase-auriez-vous",
+      "front": "Est-ce que vous auriez …?",
+      "back": "Hätten Sie …? / Würden Sie … haben?",
+      "notes": "Höfliche Frage mit conditionnel von **avoir** (2. Person Plural: **auriez**). *Est-ce que vous auriez une chambre libre ?* — Hätten Sie ein freies Zimmer? Sehr formell und höflich.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["conditionnel", "höflichkeit", "frage"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-formation",
+      "type": "theory",
+      "title": "Bildung des conditionnel présent",
+      "body": "# Le conditionnel présent — Bildung\n\n**Je voudrais** (ich hätte gern) kennst du schon aus dem A1-Restaurant-Kapitel. Das war bereits conditionnel! Jetzt lernst du das ganze System — und warum es höflicher klingt als *je veux*.\n\n## Die Formel\n\n> **Futur-Stamm** + **imparfait-Endungen**\n\nBei regelmäßigen Verben ist der Futur-Stamm einfach der **Infinitiv** (das -e bei *-re*-Verben fällt weg). Die Endungen sind dieselben wie beim imparfait:\n\n| Pronomen | Endung | Beispiel: *parler* |\n|---|---|---|\n| je | **-ais** | je parler**ais** |\n| tu | **-ais** | tu parler**ais** |\n| il/elle/on | **-ait** | il parler**ait** |\n| nous | **-ions** | nous parler**ions** |\n| vous | **-iez** | vous parler**iez** |\n| ils/elles | **-aient** | ils parler**aient** |\n\n> **Merke:** Diese Endungen kennst du bereits vom imparfait (*je parlais …*). Neu ist nur, dass du sie an den **Futur-Stamm** hängst."
+    },
+    {
+      "id": "theory-unregelmaessige",
+      "type": "theory",
+      "title": "Unregelmäßige Stämme",
+      "body": "## Unregelmäßige Stämme — dieselben wie im futur simple!\n\nDie wichtigsten Verben haben einen **unregelmäßigen Stamm** — aber: es sind exakt **dieselben Stämme wie im futur simple**. Wenn du also futur simple kennst, kannst du den Stamm direkt übernehmen.\n\n| Infinitiv | Stamm (futur/conditionnel) | conditionnel (je) | Bedeutung |\n|---|---|---|---|\n| être | **ser-** | je ser**ais** | ich wäre |\n| avoir | **aur-** | j'aur**ais** | ich hätte |\n| aller | **ir-** | j'ir**ais** | ich würde gehen |\n| faire | **fer-** | je fer**ais** | ich würde machen |\n| vouloir | **voudr-** | je voudr**ais** | ich möchte |\n| pouvoir | **pourr-** | je pourr**ais** | ich könnte |\n| devoir | **devr-** | je devr**ais** | ich sollte |\n\n> **Tipp:** Schreib dir die Stämme **ser-, aur-, ir-, fer-, voudr-, pourr-, devr-** auf eine Karteikarte. Wer diese sieben beherrscht, hat das conditionnel im Griff."
+    },
+    {
+      "id": "theory-gebrauch",
+      "type": "theory",
+      "title": "Wann benutzt man den conditionnel?",
+      "body": "## Gebrauch des conditionnel présent\n\nDas conditionnel hat drei Hauptfunktionen:\n\n### 1. Höflichkeit\nDas conditionnel macht Bitten und Wünsche weicher und höflicher als das présent:\n\n| Direkt (présent) | Höflich (conditionnel) | Bedeutung |\n|---|---|---|\n| Je **veux** un café. | Je **voudrais** un café. | Ich möchte einen Kaffee. |\n| **Pouvez**-vous m'aider ? | **Pourriez**-vous m'aider ? | Könnten Sie mir helfen? |\n| Vous **avez** une chambre? | Est-ce que vous **auriez** une chambre? | Hätten Sie ein Zimmer? |\n\n### 2. Wünsche und Vorschläge\n- *J'**aimerais** voyager en Italie.* — Ich würde gerne nach Italien reisen.\n- *On **pourrait** aller au cinéma.* — Wir könnten ins Kino gehen.\n\n### 3. Ratschläge\n- *Tu **devrais** te reposer.* — Du solltest dich ausruhen.\n- *Il **devrait** manger moins de sucre.* — Er sollte weniger Zucker essen.\n\n> **Wichtig:** Im Deutschen drücken wir das conditionnel oft mit **\"würde + Infinitiv\"** oder dem **Konjunktiv II** (ich wäre, ich hätte, ich könnte) aus."
+    },
+    {
+      "id": "ex-match-stamm",
+      "type": "exercise",
+      "title": "Stamm zum Verb",
+      "exercise": {
+        "id": "ex-match-stamm",
+        "type": "matching",
+        "prompt": "Ordne jedem Infinitiv seinen unregelmäßigen conditionnel/futur-Stamm zu.",
+        "card_ids": ["cond-serais", "cond-aurais", "cond-ferais", "cond-pourrais", "cond-irais"],
+        "pairs": [
+          { "left": "être", "right": "ser-" },
+          { "left": "avoir", "right": "aur-" },
+          { "left": "faire", "right": "fer-" },
+          { "left": "pouvoir", "right": "pourr-" },
+          { "left": "aller", "right": "ir-" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-bedeutung",
+      "type": "exercise",
+      "title": "Conditionnel-Formen verstehen",
+      "exercise": {
+        "id": "ex-match-bedeutung",
+        "type": "matching",
+        "prompt": "Ordne jede conditionnel-Form ihrer deutschen Bedeutung zu.",
+        "card_ids": ["cond-voudrais", "cond-devrais", "cond-pourrais", "phrase-aimerais", "phrase-on-pourrait"],
+        "pairs": [
+          { "left": "je voudrais", "right": "ich hätte gern" },
+          { "left": "tu devrais", "right": "du solltest" },
+          { "left": "je pourrais", "right": "ich könnte" },
+          { "left": "j'aimerais", "right": "ich würde gern" },
+          { "left": "on pourrait", "right": "wir könnten" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-voudrais",
+      "type": "exercise",
+      "title": "Höflich bestellen",
+      "exercise": {
+        "id": "ex-cloze-voudrais",
+        "type": "cloze",
+        "prompt": "Ergänze die höfliche Form von *vouloir* (je, conditionnel).",
+        "card_ids": ["cond-voudrais"],
+        "sentence": "Je ___ un thé au citron, s'il vous plaît.",
+        "blanks": [
+          { "accept": ["voudrais"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Unregelmäßiger Stamm: **voudr-** + Endung *-ais*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-devrais",
+      "type": "exercise",
+      "title": "Ratschlag geben",
+      "exercise": {
+        "id": "ex-cloze-devrais",
+        "type": "cloze",
+        "prompt": "Ergänze den Ratschlag: *du solltest* früher schlafen gehen.",
+        "card_ids": ["cond-devrais"],
+        "sentence": "Tu ___ te coucher plus tôt.",
+        "blanks": [
+          { "accept": ["devrais"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Conditionnel von *devoir* (tu): Stamm **devr-** + *-ais*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ich-waere",
+      "type": "exercise",
+      "title": "Übersetze: Ich wäre froh",
+      "exercise": {
+        "id": "ex-free-ich-waere",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich wäre froh, dir zu helfen.*",
+        "card_ids": ["cond-serais"],
+        "accept": [
+          "Je serais content de t'aider.",
+          "je serais content de t'aider",
+          "Je serais contente de t'aider.",
+          "je serais contente de t'aider",
+          "Je serais heureux de t'aider.",
+          "je serais heureux de t'aider"
+        ],
+        "hint": "Conditionnel von *être* (je): **je serais** + Adjektiv + *de t'aider*.",
+        "distractors": [
+          "Je serai content de t'aider.",
+          "Je suis content de t'aider.",
+          "J'étais content de t'aider."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-koennten-sie",
+      "type": "exercise",
+      "title": "Verstehen: Pourriez-vous …?",
+      "exercise": {
+        "id": "ex-free-koennten-sie",
+        "type": "free_text",
+        "prompt": "Was bedeutet auf Deutsch: *Pourriez-vous répéter, s'il vous plaît ?*",
+        "card_ids": ["phrase-pourriez-vous"],
+        "accept": [
+          "Könnten Sie bitte wiederholen?",
+          "könnten Sie bitte wiederholen",
+          "Könnten Sie wiederholen, bitte?",
+          "Könnten Sie das bitte wiederholen?"
+        ],
+        "hint": "*Pourriez-vous* = conditionnel von *pouvoir* (vous); *répéter* = wiederholen.",
+        "distractors": [
+          "Können Sie bitte wiederholen?",
+          "Könnten Sie mir helfen?",
+          "Würden Sie bitte warten?"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-on-pourrait",
+      "type": "exercise",
+      "title": "Bilde: Wir könnten ins Kino gehen",
+      "exercise": {
+        "id": "ex-tiles-on-pourrait",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Wir könnten ins Kino gehen.*",
+        "card_ids": ["phrase-on-pourrait"],
+        "tiles": ["On", "pourrait", "aller", "au", "cinéma"],
+        "hint": "*on pourrait* = wir könnten; *aller au cinéma* = ins Kino gehen.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-je-ferais",
+      "type": "exercise",
+      "title": "Bilde: Ich würde die Küche machen",
+      "exercise": {
+        "id": "ex-tiles-je-ferais",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich würde kochen.* (faire la cuisine)",
+        "card_ids": ["cond-ferais"],
+        "tiles": ["Je", "ferais", "la", "cuisine"],
+        "hint": "Conditionnel von *faire* (je): **je ferais**.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-hoeflichkeit",
+      "type": "exercise",
+      "title": "Die höflichste Form wählen",
+      "exercise": {
+        "id": "ex-picture-hoeflichkeit",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist im Restaurant am höflichsten — *Ich möchte ein Glas Wasser.*?",
+        "card_ids": ["cond-voudrais"],
+        "images": [
+          { "src": "assets/img/restaurant-polite.png", "label": "Je voudrais un verre d'eau.", "is_correct": "true" },
+          { "src": "assets/img/restaurant-direct.png", "label": "Je veux un verre d'eau." },
+          { "src": "assets/img/restaurant-future.png", "label": "Je voudrai un verre d'eau." },
+          { "src": "assets/img/restaurant-wrong.png", "label": "Je voudraient un verre d'eau." }
+        ],
+        "hint": "Conditionnel (je): **voudrais** — nicht futur (*voudrai*) und nicht présent (*veux*).",
+        "distractors": [
+          "Je veux un verre d'eau.",
+          "Je voudrai un verre d'eau.",
+          "Je voudraient un verre d'eau."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-j-irais",
+      "type": "exercise",
+      "title": "Hypothetische Aussage bilden",
+      "exercise": {
+        "id": "ex-free-j-irais",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Ich würde diesen Sommer nach Frankreich fahren.*",
+        "card_ids": ["cond-irais"],
+        "accept": [
+          "J'irais en France cet été.",
+          "j'irais en France cet été",
+          "J'irais en France cet ete.",
+          "j'irais en France cet ete",
+          "J'irais en France cet été"
+        ],
+        "hint": "Conditionnel von *aller* (je): **j'irais** + *en France* + *cet été*.",
+        "distractors": [
+          "J'irai en France cet été.",
+          "Je vais en France cet été.",
+          "J'allais en France cet été."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
