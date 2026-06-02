@@ -13,19 +13,27 @@
 # Bewusstsein/Schlaf und einer Wiederholung. Die neuen Karten
 # nutzen die optionalen v1.3-Felder difficulty, tags und
 # media_type ("text").
+#
+# v1.2.0 (schema v1.3): erweitert um eine fünfteilige
+# Psychotherapie-Reihe (16–20): Grundlagen, Verhaltenstherapie,
+# kognitive Verhaltenstherapie, psychodynamische und humanistische
+# Verfahren sowie eine abschließende Wiederholung dieser Reihe.
+# Lektion 15 bleibt als Zwischen-Wiederholung erhalten.
 schema_version: '1.3'
 name: Psychologie — Grundlagen
 description: >-
-  Einführung in die Psychologie für Deutschsprachige (15
+  Einführung in die Psychologie für Deutschsprachige (20
   Lektionen): Grundbegriffe und Geschichte, Wahrnehmung,
   Gedächtnis, Lernen und Konditionierung, Motivation und Emotion,
   Entwicklungs-, Sozial- und Persönlichkeitspsychologie, ein
   behutsamer Überblick über die klinische und die positive
-  Psychologie sowie Intelligenz und Denken, Stress und
-  Gesundheit, biologische Grundlagen, Bewusstsein und Schlaf und
-  eine abschließende Wiederholung. Karten, Definitionen und
-  Theorie auf Deutsch, mit den englischen Originalbegriffen in
-  Klammern.
+  Psychologie, Intelligenz und Denken, Stress und Gesundheit,
+  biologische Grundlagen, Bewusstsein und Schlaf sowie eine
+  fünfteilige Reihe zu den Psychotherapieverfahren
+  (Verhaltenstherapie, kognitive Verhaltenstherapie,
+  psychodynamische und humanistische Verfahren). Karten,
+  Definitionen und Theorie auf Deutsch, mit den englischen
+  Originalbegriffen in Klammern.
 sets:
   - id: psych-intro-from-de
     title: Psychologie — Grundlagen
@@ -35,14 +43,14 @@ sets:
     domain: psychology
     level: A1
     path: sets/de/psych-intro
-    version: '1.1.0'
-    lesson_count: 15
+    version: '1.2.0'
+    lesson_count: 20
     domain_label: Psychologie
     description: >-
-      Fünfzehn Einführungslektionen Psychologie, auf Deutsch
+      Zwanzig Einführungslektionen Psychologie, auf Deutsch
       erklärt — von Wundts erstem Labor über Intelligenz, Stress
       und das Gehirn bis zu Bewusstsein, Schlaf und einer
-      abschließenden Wiederholung.
+      fünfteiligen Reihe zu den Psychotherapieverfahren.
     tags:
       - beginner
       - psychology
@@ -66,3 +74,8 @@ metadata:
     - 13-biologische-grundlagen.json
     - 14-bewusstsein-und-schlaf.json
     - 15-wiederholung-und-vertiefung.json
+    - 16-psychotherapie-grundlagen.json
+    - 17-verhaltenstherapie.json
+    - 18-kognitive-verhaltenstherapie.json
+    - 19-psychodynamische-humanistische-verfahren.json
+    - 20-wiederholung-psychotherapie.json
