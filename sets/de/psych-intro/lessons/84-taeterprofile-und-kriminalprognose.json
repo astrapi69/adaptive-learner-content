@@ -1,0 +1,248 @@
+{
+  "id": "84-taeterprofile-und-kriminalprognose",
+  "title": "Täterprofile und Kriminalprognose",
+  "description": "Täterprofile (Criminal Profiling) und Kriminalprognose sachlich erklärt: der FBI-typologische Ansatz vs. die statistische Investigative Psychologie, die ehrliche Bewertung der empirischen Evidenz, aktuarische Risikobeurteilung und ihre Grenzen — wissenschaftlich, ohne True-Crime-Atmosphäre.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "fallanalyse",
+      "front": "Fallanalyse (Criminal Profiling / Offender Profiling)",
+      "back": "Ermittlungshilfe, bei der aus Merkmalen einer Tat — z. B. Tatort, Vorgehen, Opferwahl — auf mögliche Eigenschaften einer noch unbekannten Tatperson geschlossen wird.",
+      "notes": "Auch als 'Täterprofil' bekannt. Es ist ein Hilfsmittel für die Ermittlung, kein Beweis und keine sichere Identifikation.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["forensik", "profiling", "grundlagen"]
+    },
+    {
+      "id": "fbi-typologie",
+      "front": "FBI-Typen: organisiert vs. desorganisiert",
+      "back": "Das klassische FBI-Modell teilt Täterinnen und Täter in 'organisierte' (planvoll, kontrolliert) und 'desorganisierte' (impulsiv, ungeordnet) Typen ein — eine Dichotomie, die empirisch kaum belegt ist.",
+      "notes": "Entstammt qualitativen Gefängnisinterviews der 1970er/80er Jahre; die Stichproben waren klein und nicht repräsentativ.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["forensik", "profiling", "fbi"]
+    },
+    {
+      "id": "investigative-psychologie",
+      "front": "Investigative Psychologie (Canter)",
+      "back": "Datenbasierter Ansatz von David Canter: Statt klinischer Typen werden statistisch-empirische Muster aus großen Fallmengen genutzt, um Wahrscheinlichkeitsaussagen über Tatpersonenmerkmale abzuleiten.",
+      "notes": "Gilt als wissenschaftlich fundierter als die FBI-Typologie, weil sie auf systematischen Daten und Hypothesentests beruht.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["forensik", "profiling", "methodik"]
+    },
+    {
+      "id": "profiling-umstritten",
+      "front": "Wissenschaftlicher Status des Profilings",
+      "back": "Profiling ist empirisch umstritten: Studien zeigen, dass erfahrene Profiler anderen Berufsgruppen oft kaum überlegen sind; die Trefferquoten sind begrenzt. Es ist ein Ermittlungshilfsmittel, kein verlässliches Diagnoseverfahren.",
+      "notes": "Die mediale Darstellung (TV-Serien, Krimis) übertreibt die Treffsicherheit erheblich. In der Praxis kann Profiling Ermittlungen in falsche Richtungen lenken.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Denke daran: Was im Fernsehen funktioniert, muss in der Wissenschaft nicht standhalten.",
+      "tags": ["forensik", "profiling", "evidenz", "grenzen"]
+    },
+    {
+      "id": "kriminalprognose",
+      "front": "Kriminalprognose (Risikobeurteilung)",
+      "back": "Die systematische Einschätzung der Wahrscheinlichkeit, dass eine Person erneut straffällig wird — z. B. zur Entscheidung über Bewährung, Lockerungen oder Therapiebedarf.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["forensik", "prognose", "grundlagen"]
+    },
+    {
+      "id": "aktuarisch",
+      "front": "Aktuarisches Verfahren (strukturierte Risikobeurteilung)",
+      "back": "Statistisch abgeleitetes Instrument, das anhand standardisierter Risikofaktoren (z. B. Alter, Vorstrafen, Substanzmissbrauch) einen numerischen Risikowert berechnet.",
+      "notes": "Vertiefung aus Lektion 24 (aktuarisch vs. klinisches Urteil). Beispiele: HCR-20, Static-99, PCL-R.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["forensik", "prognose", "aktuarisch", "statistik"]
+    },
+    {
+      "id": "aktuarisch-vs-klinisch",
+      "front": "Aktuarisch vs. unstrukturiert-klinisch",
+      "back": "Im Durchschnitt sind strukturierte/aktuarische Verfahren der unstrukturierten klinischen Einschätzung bei der Rückfallprognose überlegen — ein robuster Befund der Entscheidungsforschung (vgl. Lektionen 24 und 51).",
+      "notes": "Das bedeutet nicht, dass klinische Expertise wertlos ist — aber intuitive Urteile ohne Struktur unterliegen systematischen Verzerrungen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["forensik", "prognose", "aktuarisch", "urteilsbildung"]
+    },
+    {
+      "id": "risikofaktoren",
+      "front": "Risiko- und Schutzfaktoren (Rückfallprognose)",
+      "back": "Risikofaktoren (z. B. frühere Delikte, soziale Isolation, Substanzmissbrauch) erhöhen die Rückfallwahrscheinlichkeit; Schutzfaktoren (z. B. soziale Unterstützung, stabile Beschäftigung) verringern sie.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["forensik", "prognose", "risiko"]
+    },
+    {
+      "id": "prognose-grenzen",
+      "front": "Grenzen der Kriminalprognose",
+      "back": "Prognoseinstrumente liefern Wahrscheinlichkeitsaussagen über Gruppen, keine sicheren Vorhersagen für Einzelpersonen. Fehlklassifikationen (falsch positiv/negativ) sind unvermeidbar und haben erhebliche Folgen für Betroffene.",
+      "notes": "Eine hohe Risikoeinschätzung bedeutet keine Gewissheit; eine niedrige schließt Rückfall nicht aus. Ethische Sorgfalt ist deshalb unerlässlich.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["forensik", "prognose", "grenzen", "ethik"]
+    },
+    {
+      "id": "fehlklassifikation",
+      "front": "Fehlklassifikation (Falsch positiv / Falsch negativ)",
+      "back": "Falsch positiv: Person wird als hochriskant eingestuft, würde aber nicht rückfällig. Falsch negativ: Person wird als gering riskant eingestuft, wird aber rückfällig. Beide Fehlerarten haben ernste Konsequenzen.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["forensik", "prognose", "fehler", "statistik"]
+    },
+    {
+      "id": "ethik-prognose",
+      "front": "Ethische Verantwortung bei Prognose und Profiling",
+      "back": "Beide Methoden haben Auswirkungen auf Freiheitsrechte. Sie dürfen nur als Entscheidungshilfe — nie als alleinige Entscheidungsgrundlage — verwendet werden; Transparenz, Überprüfbarkeit und professionelle Sorgfalt sind Pflicht.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["forensik", "ethik", "prognose", "profiling"]
+    },
+    {
+      "id": "tatortanalyse",
+      "front": "Tatortanalyse (Crime Scene Analysis)",
+      "back": "Systematische Auswertung von Tatortmerkmalen — Spuren, Vorgehen, Opferwahl — als Datengrundlage für Fallanalysen; methodisch robuster als intuitive Deutung, aber immer noch mit Unsicherheiten behaftet.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["forensik", "profiling", "methodik"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theorie-profiling",
+      "type": "theory",
+      "title": "Täterprofile: Idee, Geschichte und wissenschaftliche Realität",
+      "body": "# Täterprofile und Kriminalprognose\n\n## Was ist Fallanalyse (Criminal Profiling)?\n\nDie **Fallanalyse** (auch: Täterprofilierung, *Offender Profiling*) ist ein Ermittlungshilfsmittel: Aus dem **Tatverhalten** — Tatortmerkmale, Vorgehensweise (*Modus Operandi*), Opferwahl, hinterlassene Spuren — wird auf mögliche Eigenschaften einer noch unbekannten Tatperson geschlossen.\n\n> **Wichtig:** Ein Täterprofil ist eine **Hypothese**, kein Beweis. Es schränkt den Ermittlungsrahmen ein, identifiziert aber keine Person.\n\n## Zwei Ansätze im Vergleich\n\n| Merkmal | FBI-Typologie (USA, 1970er/80er) | Investigative Psychologie (Canter) |\n|---|---|---|\n| **Kernidee** | Typen: *organisiert* vs. *desorganisiert* | Empirische Muster aus großen Fallmengen |\n| **Methode** | Qualitative Gefängnisinterviews | Statistische Analyse, Hypothesentests |\n| **Stichprobe** | Klein, nicht repräsentativ | Systematisch erhoben |\n| **Empirische Stütze** | Schwach — Dichotomie kaum belegt | Besser, aber ebenfalls begrenzt |\n\n## Die ehrliche Bilanz\n\nTrotz ihrer Popularität im Fernsehen ist **Profiling wissenschaftlich umstritten**:\n\n- Studien zeigen, dass ausgebildete Profiler *anderen Berufsgruppen* (z. B. Polizeibeamten, Psychologiestudierenden) bei der Einschätzung von Tätermerkmalen **oft kaum überlegen** sind.\n- Die Trefferquoten sind **begrenzt**; gleichzeitig kann ein falsches Profil Ermittlungen in die falsche Richtung lenken.\n- **Das Fernsehbild ist irreführend:** In Kriminalserien erscheint Profiling als quasi-telepathische Fähigkeit. Die wissenschaftliche Realität ist deutlich nüchterner.\n\n**Profiling ist ein Hilfsmittel für die Ermittlung — kein Diagnoseverfahren, kein Beweis und kein 'Gedankenlesen'.**"
+    },
+    {
+      "id": "theorie-kriminalprognose",
+      "type": "theory",
+      "title": "Kriminalprognose: Aktuarisch vs. klinisch",
+      "body": "## Kriminalprognose (Risikobeurteilung)\n\nDie **Kriminalprognose** schätzt ein, wie wahrscheinlich eine Person erneut straffällig wird — relevant z. B. für Bewährungsentscheidungen, Therapiebedarf oder Lockerungen im Strafvollzug.\n\n### Risiko- und Schutzfaktoren\n\n- **Risikofaktoren:** frühere Delikte, früher Beginn, Substanzmissbrauch, soziale Isolation, antisoziale Einstellungen\n- **Schutzfaktoren:** stabile soziale Bindungen, Beschäftigung, Therapiemotivation, protektives soziales Umfeld\n\n### Zwei Arten der Einschätzung\n\n| Merkmal | Aktuarisch (strukturiert) | Unstrukturiert-klinisch |\n|---|---|---|\n| **Vorgehen** | Standardisierte Checkliste, Punktwert | Intuitive Gesamtbeurteilung |\n| **Beispiele** | HCR-20, Static-99, PCL-R | Freies klinisches Urteil |\n| **Reproduzierbarkeit** | Hoch (intersubjektiv prüfbar) | Niedrig (personenabhängig) |\n| **Genauigkeit (Ø)** | Besser | Schlechter |\n\n> **Kernbefund** (vgl. Lektion 24 — aktuarisches vs. klinisches Urteil; Lektion 21 — Forschungsmethodik): Strukturierte und aktuarische Verfahren sind der **unstrukturierten klinischen Einschätzung** bei der Rückfallprognose **im Durchschnitt überlegen** — ein robuster Befund, der sich über viele Studien repliziert hat."
+    },
+    {
+      "id": "theorie-grenzen",
+      "type": "theory",
+      "title": "Grenzen, Fehler und ethische Verantwortung",
+      "body": "## Grenzen der Kriminalprognose\n\nAuch aktuarische Instrumente sind **keine Orakel**:\n\n- Sie liefern **Wahrscheinlichkeitsaussagen über Gruppen**, keine sicheren Vorhersagen für Einzelpersonen.\n- **Fehlklassifikationen** sind unvermeidbar:\n  - *Falsch positiv:* Person wird als hochriskant eingestuft — wäre aber nicht rückfällig geworden.\n  - *Falsch negativ:* Person wird als gering riskant eingestuft — wird aber rückfällig.\n- Beide Fehlerarten haben erhebliche **Konsequenzen** für Betroffene (Freiheitsentzug, entgangene Hilfe).\n\n## Ethische Verantwortung\n\n- Prognose**instrumente** dürfen nur als **Entscheidungshilfe**, nie als alleinige Entscheidungsgrundlage eingesetzt werden.\n- **Transparenz** und Nachvollziehbarkeit sind Pflicht; Betroffene müssen das Recht haben, Einschätzungen zu hinterfragen.\n- Für **Profiling** gilt dasselbe: Ein Täterprofil ist kein Beweismittel und darf Ermittlungen nicht ersetzen.\n\n> **Zusammenfassung:** Täterprofile und Kriminalprognosen sind methodisch nützliche, aber **begrenzte und fehleranfällige** Werkzeuge. Beide erfordern wissenschaftliche Nüchternheit, methodische Transparenz und ethische Sorgfalt."
+    },
+    {
+      "id": "ex-matching-ansaetze",
+      "type": "exercise",
+      "title": "Zwei Ansätze zuordnen",
+      "exercise": {
+        "id": "ex-matching-ansaetze",
+        "type": "matching",
+        "prompt": "Ordne jedes Merkmal dem richtigen Profiling-Ansatz zu.",
+        "card_ids": ["fbi-typologie", "investigative-psychologie"],
+        "pairs": [
+          { "left": "organisiert vs. desorganisiert", "right": "FBI-Typologie" },
+          { "left": "statistische Analyse großer Fallmengen", "right": "Investigative Psychologie (Canter)" },
+          { "left": "kleine, qualitative Stichproben", "right": "FBI-Typologie" },
+          { "left": "systematische Hypothesentests", "right": "Investigative Psychologie (Canter)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-profiling-status",
+      "type": "exercise",
+      "title": "Wissenschaftlicher Status des Profilings",
+      "exercise": {
+        "id": "ex-cloze-profiling-status",
+        "type": "cloze",
+        "prompt": "Ergänze, wie Profiling korrekt eingeordnet werden sollte.",
+        "card_ids": ["profiling-umstritten", "fallanalyse"],
+        "sentence": "Profiling ist ein ___ für die Ermittlung, kein Beweis und keine sichere Identifikation.",
+        "blanks": [
+          { "accept": ["Ermittlungshilfsmittel", "Hilfsmittel", "Ermittlungshilfe"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Es hilft den Ermittlerinnen und Ermittlern — aber es beweist nichts."
+      }
+    },
+    {
+      "id": "ex-free-aktuarisch",
+      "type": "exercise",
+      "title": "Aktuarisch vs. klinisch",
+      "exercise": {
+        "id": "ex-free-aktuarisch",
+        "type": "free_text",
+        "prompt": "Welche Art der Risikobeurteilung ist der unstrukturierten klinischen Einschätzung im Durchschnitt überlegen?",
+        "card_ids": ["aktuarisch-vs-klinisch", "aktuarisch"],
+        "accept": ["aktuarisch", "aktuarische", "das aktuarische Verfahren", "strukturierte Verfahren", "strukturiert", "aktuarisches Verfahren"],
+        "hint": "Denke an statistische Instrumente mit Checklisten und Punktwerten.",
+        "distractors": ["klinische Einschätzung", "intuitives Urteil", "unstrukturierte Einschätzung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-matching-prognose",
+      "type": "exercise",
+      "title": "Begriffe der Kriminalprognose",
+      "exercise": {
+        "id": "ex-matching-prognose",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine Erklärung zu.",
+        "card_ids": ["kriminalprognose", "risikofaktoren", "prognose-grenzen"],
+        "pairs": [
+          { "left": "Kriminalprognose", "right": "Einschätzung der Rückfallwahrscheinlichkeit" },
+          { "left": "Risikofaktoren", "right": "erhöhen die Wahrscheinlichkeit erneuter Straffälligkeit" },
+          { "left": "Grenze der Prognose", "right": "Wahrscheinlichkeitsaussagen über Gruppen, keine sicheren Einzelfallvorhersagen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-fehlklassifikation",
+      "type": "exercise",
+      "title": "Fehlklassifikationen",
+      "exercise": {
+        "id": "ex-cloze-fehlklassifikation",
+        "type": "cloze",
+        "prompt": "Ergänze den Fachbegriff: Eine Person wird als hochriskant eingestuft, wäre aber nicht rückfällig geworden.",
+        "card_ids": ["fehlklassifikation"],
+        "sentence": "Wenn eine Person fälschlicherweise als hochriskant gilt, spricht man von einem ___ positiven Ergebnis.",
+        "blanks": [
+          { "accept": ["falsch", "falsch-positiven", "falsch-positiv"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Gegenteil von richtig — und die Einschätzung war zu hoch."
+      }
+    },
+    {
+      "id": "ex-free-grenzen-profiling",
+      "type": "exercise",
+      "title": "Profiling — Grenzen benennen",
+      "exercise": {
+        "id": "ex-free-grenzen-profiling",
+        "type": "free_text",
+        "prompt": "Nenne einen zentralen Kritikpunkt am wissenschaftlichen Status des klassischen Profilings.",
+        "card_ids": ["profiling-umstritten", "fbi-typologie"],
+        "accept": ["empirisch umstritten", "begrenzte Trefferquote", "kaum empirisch belegt", "geringe Treffsicherheit", "empirisch schwach", "kleine Stichproben", "nicht repräsentativ"],
+        "hint": "Was sagen Studien über die Treffsicherheit von Profilern?",
+        "distractors": ["sehr treffsicher", "besser als alle anderen", "wissenschaftlich gesichert"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-ethik",
+      "type": "exercise",
+      "title": "Ethische Verantwortung",
+      "exercise": {
+        "id": "ex-tiles-ethik",
+        "type": "word_tiles",
+        "prompt": "Setze den Grundsatz für den Einsatz von Prognoseinstrumenten zusammen.",
+        "card_ids": ["ethik-prognose", "prognose-grenzen"],
+        "tiles": ["Entscheidungshilfe", "nur", "als", "nie", "alleinige", "als", "Grundlage"],
+        "hint": "Instrumente helfen — sie entscheiden nicht allein.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
