@@ -1,0 +1,257 @@
+{
+  "id": "77-essstoerungen",
+  "title": "Essstörungen verstehen",
+  "description": "Essstörungen sind ernsthafte psychische Erkrankungen — keine Lifestyle-Entscheidung und keine Willensschwäche. Diese Lektion erklärt auf Konzeptebene, was Fachleute unter den drei Hauptformen verstehen, welche Ursachen eine Rolle spielen, wie Genesung möglich ist und wo man Hilfe findet. Für Verständnis und Empathie, nicht zur Selbstdiagnose.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "hinweis-keine-diagnose",
+      "front": "Wichtiger Hinweis",
+      "back": "Diese Lektion ersetzt keine professionelle Diagnose oder Behandlung. Sie dient dem Verständnis und der Empathie. Bei eigener Belastung oder der Sorge um andere hilft eine Ärztin, ein Psychotherapeut oder eine Beratungsstelle weiter.",
+      "notes": "Anlaufstellen findest du am Ende der Lektion.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["klinisch", "hinweis"]
+    },
+    {
+      "id": "esstoerung-definition",
+      "front": "Essstörung (Eating Disorder)",
+      "back": "Eine ernsthafte psychische Erkrankung, bei der Gedanken, Gefühle und Verhalten rund um Essen, Körper und Gewicht stark beeinträchtigt sind und den Alltag sowie die Gesundheit erheblich belasten.",
+      "notes": "Essstörungen sind keine Modeerscheinung und kein Zeichen von Willensschwäche, sondern behandlungsbedürftige Erkrankungen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["klinisch", "essstoerung"]
+    },
+    {
+      "id": "anorexia-nervosa",
+      "front": "Anorexia nervosa (Magersucht)",
+      "back": "Eine Essstörung, bei der Fachleute eine ausgeprägte Einschränkung der Nahrungsaufnahme, eine intensive Angst vor Gewichtszunahme und ein verzerrtes Körperbild beobachten — unabhängig vom tatsächlichen körperlichen Zustand.",
+      "notes": "Konzeptebene — keine Zahlen, keine Messwerte. Anorexia nervosa hat unter den psychischen Erkrankungen eine besonders hohe gesundheitliche Belastung.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["klinisch", "essstoerung"]
+    },
+    {
+      "id": "bulimia-nervosa",
+      "front": "Bulimia nervosa (Bulimie)",
+      "back": "Eine Essstörung, bei der Fachleute Episoden unkontrollierten Essens und anschließende kompensatorische Verhaltensweisen sowie ausgeprägte Scham- und Schuldgefühle beobachten, während das äußere Erscheinungsbild oft unauffällig ist.",
+      "notes": "Wichtig: Bulimia nervosa bleibt häufig lange unentdeckt, was die Bedeutung von Verständnis und Entstigmatisierung unterstreicht.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["klinisch", "essstoerung"]
+    },
+    {
+      "id": "binge-eating-stoerung",
+      "front": "Binge-Eating-Störung (Binge Eating Disorder)",
+      "back": "Eine Essstörung, bei der Fachleute wiederkehrende Episoden des unkontrollierten Essens beobachten, die mit Kontrollverlust und starkem emotionalem Leid verbunden sind — ohne regelmäßige Kompensationsmaßnahmen.",
+      "notes": "Die Binge-Eating-Störung ist die häufigste Essstörung und wird oft unterschätzt oder nicht erkannt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["klinisch", "essstoerung"]
+    },
+    {
+      "id": "koerperschemastoerung",
+      "front": "Körperbild / Körperschemastörung (Body Image Disturbance)",
+      "back": "Eine veränderte oder verzerrte Wahrnehmung des eigenen Körpers, bei der die innere Vorstellung vom Körper stark von der tatsächlichen äußeren Erscheinung abweicht und zu erheblichem Leid führt.",
+      "notes": "Körperschemastörungen sind ein zentrales Merkmal bei Essstörungen, besonders bei Anorexia nervosa.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["klinisch", "essstoerung", "wahrnehmung"]
+    },
+    {
+      "id": "multifaktorielle-ursachen",
+      "front": "Multifaktorielle Ursachen (Multifactorial Etiology)",
+      "back": "Essstörungen entstehen durch das Zusammenspiel biologischer, psychologischer und soziokultureller Faktoren — nicht durch eine einzelne Ursache und nicht durch freie Entscheidung.",
+      "notes": "Das biopsychosoziale Modell gilt als wissenschaftlicher Konsens für die Entstehung von Essstörungen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["klinisch", "essstoerung", "aetiologie"]
+    },
+    {
+      "id": "biologische-faktoren",
+      "front": "Biologische und genetische Faktoren",
+      "back": "Genetische Veranlagung, neurobiologische Besonderheiten (z. B. im Bereich der Hunger- und Sättigungsregulation) und hormonelle Einflüsse können die Anfälligkeit für Essstörungen erhöhen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["klinisch", "essstoerung", "biopsychologie"]
+    },
+    {
+      "id": "psychologische-faktoren",
+      "front": "Psychologische Faktoren",
+      "back": "Perfektionismus, geringes Selbstwertgefühl, Schwierigkeiten bei der Emotionsregulation und ein Bedürfnis nach Kontrolle gelten als typische psychologische Risikofaktoren bei Essstörungen.",
+      "notes": "Essstörungen gehen häufig mit weiteren psychischen Erkrankungen wie Depressionen oder Angststörungen einher (Komorbidität).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["klinisch", "essstoerung", "persoenlichkeit"]
+    },
+    {
+      "id": "soziokulturelle-faktoren",
+      "front": "Soziokulturelle Faktoren",
+      "back": "Gesellschaftliche Schönheitsideale, Medienbilder und sozialer Druck in Bezug auf Körper und Aussehen können zur Entstehung und Aufrechterhaltung von Essstörungen beitragen — ein Bezug zur Kulturpsychologie (vgl. Lektion 49).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["klinisch", "essstoerung", "soziokulturell"]
+    },
+    {
+      "id": "komorbidität",
+      "front": "Komorbidität (Comorbidity) bei Essstörungen",
+      "back": "Essstörungen treten häufig gemeinsam mit Depressionen, Angststörungen oder anderen psychischen Erkrankungen auf. Diese Begleiteerkrankungen sind Teil des Gesamtbildes und müssen mitbehandelt werden.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["klinisch", "essstoerung", "komorbiditat"]
+    },
+    {
+      "id": "genesung-moeglich",
+      "front": "Genesung ist möglich (Recovery)",
+      "back": "Mit professioneller Unterstützung — Psychotherapie, ärztliche Behandlung, ggf. Ernährungsberatung — kann Genesung bei Essstörungen gelingen. Frühe Hilfe verbessert die Aussichten erheblich.",
+      "notes": "Genesung ist ein Prozess und verläuft individuell unterschiedlich. Rückschläge gehören häufig dazu und sind kein Versagen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["klinisch", "therapie", "hoffnung"]
+    },
+    {
+      "id": "hilfe-anlaufstellen",
+      "front": "Hilfe und Anlaufstellen (Deutschland)",
+      "back": "BZgA-Beratungstelefon Essstörungen: 0221 892031. ANAD e.V. (Fachberatung Essstörungen): anad.de. Telefonseelsorge: 0800 111 0 111 oder 116 123 (kostenlos, anonym, 24/7). Hausärzt:in und psychotherapeutische Praxen sind gute erste Anlaufstellen.",
+      "notes": "Sich Hilfe zu holen ist ein Zeichen von Stärke — für sich selbst oder für jemanden, um den man sich sorgt.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["klinisch", "hilfe"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Was sind Essstörungen?",
+      "body": "# Essstörungen verstehen\n\n> **Wichtiger Hinweis:** Diese Lektion ersetzt keine professionelle Diagnose oder Behandlung. Sie dient dem Verständnis und der Empathie — nicht der Selbsteinschätzung. Wenn dich dieses Thema belastet, sprich bitte mit einer Ärztin, einem Psychotherapeuten oder einer Beratungsstelle. Anlaufstellen findest du am Ende der Lektion.\n\nDiese Lektion baut auf der klinischen Psychologie aus **Lektion 9** auf.\n\n## Was sind Essstörungen?\n\n**Essstörungen** (Eating Disorders) sind **ernsthafte psychische Erkrankungen**. Sie sind weder eine Lifestyle-Entscheidung noch ein Zeichen von Willensschwäche oder Eitelkeit, sondern behandlungsbedürftige Erkrankungen, die das Leben der Betroffenen erheblich beeinträchtigen.\n\nFachleute unterscheiden drei Hauptformen auf konzeptueller Ebene:\n\n| Hauptform | Kerncharakteristik (ohne Details) |\n|---|---|\n| **Anorexia nervosa** (Magersucht) | Ausgeprägte Einschränkung der Nahrungsaufnahme, intensive Angst vor Gewichtszunahme, verzerrtes Körperbild |\n| **Bulimia nervosa** (Bulimie) | Episoden unkontrollierten Essens mit anschließenden Kompensationsversuchen; ausgeprägte Scham- und Schuldgefühle |\n| **Binge-Eating-Störung** | Wiederkehrende Episoden unkontrollierten Essens mit starkem emotionalem Leid, ohne regelmäßige Kompensation |\n\nEin zentrales Merkmal — besonders bei Anorexia nervosa — ist die **Körperschemastörung** (Body Image Disturbance): Die eigene Körperwahrnehmung weicht stark von der tatsächlichen äußeren Erscheinung ab und verursacht erhebliches Leid."
+    },
+    {
+      "id": "step-ursachen-komorbidität",
+      "type": "theory",
+      "title": "Ursachen und Begleiterkrankungen",
+      "body": "## Wie entstehen Essstörungen?\n\nWissenschaftlerinnen und Wissenschaftler sind sich einig: Essstörungen entstehen **multifaktoriell** (Multifactorial Etiology) — durch das Zusammenspiel verschiedener Einflüsse, nie durch einen einzigen Faktor allein.\n\n| Faktorenbereich | Beispiele |\n|---|---|\n| **Biologisch / genetisch** | Genetische Veranlagung, neurobiologische Besonderheiten bei der Hunger- und Sättigungsregulation, hormonelle Einflüsse |\n| **Psychologisch** | Perfektionismus, geringes Selbstwertgefühl, Schwierigkeiten bei der Emotionsregulation (vgl. Lektion 57), starkes Kontrollbedürfnis |\n| **Soziokulturell** | Gesellschaftliche Schönheitsideale, Medienbilder, sozialer Druck — ein Bezug zur Kultur- und Evolutionspsychologie aus **Lektion 49** |\n\n## Komorbidität\n\nEssstörungen treten häufig gemeinsam mit **Depressionen**, **Angststörungen** und anderen psychischen Erkrankungen auf (**Komorbidität**). Diese Begleiteerkrankungen sind Teil des Gesamtbildes und müssen im Rahmen einer Behandlung mitberücksichtigt werden.\n\nDieses Wissen fördert **Empathie**: Betroffene brauchen Unterstützung, kein Urteil."
+    },
+    {
+      "id": "step-hilfe",
+      "type": "theory",
+      "title": "Genesung und Unterstützung",
+      "body": "## Genesung ist möglich\n\n**Professionelle Behandlung hilft.** Mit Psychotherapie, ärztlicher Begleitung und gegebenenfalls Ernährungsberatung kann Genesung (Recovery) gelingen. Frühe Hilfe verbessert die Aussichten erheblich. Rückschläge gehören zum Prozess und sind kein Versagen.\n\n## Wie kann man Betroffene unterstützen?\n\n- **Zuhören** ohne zu werten — Aussehen, Gewicht und Essverhalten nicht kommentieren.\n- **Keine Ratschläge** zu Ernährung oder Aussehen geben.\n- **Ermutigen**, professionelle Hilfe anzunehmen — in Ruhe und ohne Druck.\n- **Eigene Grenzen** kennen: Unterstützung leisten, aber sich selbst nicht überfordern.\n\n## Anlaufstellen in Deutschland\n\n| Angebot | Kontakt |\n|---|---|\n| **BZgA-Beratungstelefon Essstörungen** | **0221 892031** |\n| **ANAD e.V.** (Fachberatung) | **anad.de** |\n| **Telefonseelsorge** (kostenlos, anonym, 24/7) | **0800 111 0 111** / **116 123** |\n| **Hausärzt:in & psychotherapeutische Praxen** | erster persönlicher Anlaufpunkt |\n\nSich Hilfe zu holen ist ein Zeichen von **Stärke** — für sich selbst oder für jemanden, dem man nahesteht."
+    },
+    {
+      "id": "ex-cloze-definition",
+      "type": "exercise",
+      "title": "Was sind Essstörungen?",
+      "exercise": {
+        "id": "ex-cloze-definition",
+        "type": "cloze",
+        "prompt": "Ergänze den fehlenden Begriff: Essstörungen sind ernsthafte ___ Erkrankungen, keine Lifestyle-Entscheidung.",
+        "card_ids": ["esstoerung-definition"],
+        "sentence": "Essstörungen sind ernsthafte ___ Erkrankungen, die Behandlung erfordern.",
+        "blanks": [
+          { "accept": ["psychische", "psychiatrische"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Gegenteil von 'körperlich' — bezieht sich auf die Seele und das Denken."
+      }
+    },
+    {
+      "id": "ex-match-hauptformen",
+      "type": "exercise",
+      "title": "Die drei Hauptformen zuordnen",
+      "exercise": {
+        "id": "ex-match-hauptformen",
+        "type": "matching",
+        "prompt": "Ordne jeder Hauptform ihre Kerncharakteristik zu (auf Konzeptebene, zum Verständnis).",
+        "card_ids": ["anorexia-nervosa", "bulimia-nervosa", "binge-eating-stoerung"],
+        "pairs": [
+          { "left": "Anorexia nervosa", "right": "Ausgeprägte Einschränkung der Nahrungsaufnahme, verzerrtes Körperbild" },
+          { "left": "Bulimia nervosa", "right": "Episoden unkontrollierten Essens, Scham- und Schuldgefühle" },
+          { "left": "Binge-Eating-Störung", "right": "Wiederkehrender Kontrollverlust beim Essen, starkes emotionales Leid" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-ursachen",
+      "type": "exercise",
+      "title": "Ursachenbereiche verstehen",
+      "exercise": {
+        "id": "ex-match-ursachen",
+        "type": "matching",
+        "prompt": "Ordne jedem Ursachenbereich ein passendes Beispiel zu.",
+        "card_ids": ["biologische-faktoren", "psychologische-faktoren", "soziokulturelle-faktoren"],
+        "pairs": [
+          { "left": "Biologisch / genetisch", "right": "Genetische Veranlagung, neurobiologische Besonderheiten" },
+          { "left": "Psychologisch", "right": "Perfektionismus, geringes Selbstwertgefühl" },
+          { "left": "Soziokulturell", "right": "Gesellschaftliche Schönheitsideale, Medienbilder" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-multifaktoriell",
+      "type": "exercise",
+      "title": "Entstehung von Essstörungen",
+      "exercise": {
+        "id": "ex-cloze-multifaktoriell",
+        "type": "cloze",
+        "prompt": "Wie nennt man das Zusammenspiel mehrerer Ursachenbereiche bei der Entstehung?",
+        "card_ids": ["multifaktorielle-ursachen"],
+        "sentence": "Essstörungen entstehen ___, d. h. durch das Zusammenspiel biologischer, psychologischer und soziokultureller Faktoren.",
+        "blanks": [
+          { "accept": ["multifaktoriell", "multifaktorieller Ursachen", "durch multifaktorielle Ursachen"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Lateinisch für 'viele Faktoren'."
+      }
+    },
+    {
+      "id": "ex-free-koerperbild",
+      "type": "exercise",
+      "title": "Körperbild und Wahrnehmung",
+      "exercise": {
+        "id": "ex-free-koerperbild",
+        "type": "free_text",
+        "prompt": "Wie nennen Fachleute die verzerrte Wahrnehmung des eigenen Körpers, die bei Essstörungen eine zentrale Rolle spielt?",
+        "card_ids": ["koerperschemastoerung"],
+        "accept": ["Körperschemastörung", "Körperbildstörung", "Body Image Disturbance", "verzerrtes Körperbild"],
+        "hint": "Zwei Teile: Körper + Schema/Bild + Störung.",
+        "distractors": ["Körpersymptom", "Wahrnehmungsillusion", "Depersonalisation"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-genesung",
+      "type": "exercise",
+      "title": "Eine wichtige Botschaft zur Genesung",
+      "exercise": {
+        "id": "ex-tiles-genesung",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zur Genesung zusammen.",
+        "card_ids": ["genesung-moeglich"],
+        "tiles": ["Mit", "professioneller", "Unterstützung", "kann", "Genesung", "gelingen"],
+        "hint": "Beginnt mit 'Mit professioneller …'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-anlaufstellen",
+      "type": "exercise",
+      "title": "Hilfsangebote kennen",
+      "exercise": {
+        "id": "ex-free-anlaufstellen",
+        "type": "free_text",
+        "prompt": "Welche spezialisierte deutsche Fachberatung für Essstörungen ist unter dem Kürzel ANAD bekannt?",
+        "card_ids": ["hilfe-anlaufstellen"],
+        "accept": ["ANAD", "ANAD e.V.", "ANAD eV"],
+        "hint": "Ein Kürzel aus vier Buchstaben, beginnt mit A.",
+        "distractors": ["BZgA", "Telefonseelsorge", "Caritas"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
