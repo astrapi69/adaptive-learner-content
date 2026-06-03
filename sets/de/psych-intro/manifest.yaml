@@ -68,6 +68,11 @@
 # Gruppenprozesse, Aggression und prosoziales Verhalten,
 # Intergruppenbeziehungen und Vorurteile sowie eine abschließende
 # Wiederholung.
+#
+# v1.11.0 (schema v1.3): Block 71–75 zur Entwicklung über die
+# Lebensspanne: pränatale Entwicklung und frühe Kindheit, Kindheit
+# und Jugend, Erwachsenenalter, Alter und Gerontopsychologie sowie
+# eine abschließende Wiederholung.
 schema_version: '1.3'
 name: Psychologie — Grundlagen
 description: >-
@@ -94,12 +99,12 @@ sets:
     domain: psychology
     level: A1
     path: sets/de/psych-intro
-    version: '1.10.0'
-    lesson_count: 70
+    version: '1.11.0'
+    lesson_count: 75
     domain_label: Psychologie
     description: >-
       Vollständiger Einführungskurs Psychologie auf
-      Universitätsniveau (70 Lektionen), auf Deutsch erklärt — von
+      Universitätsniveau (75 Lektionen), auf Deutsch erklärt — von
       den Grundlagen- und Anwendungsfächern über Psychotherapie,
       Forschungsmethoden und Statistik bis zu vertieften
       Grundlagenfächern, Geschichte, Wissenschaftstheorie, einem
@@ -112,7 +117,9 @@ sets:
       Bewusstsein, Substanzen und Gehirn (Schlaf, veränderte
       Zustände, Psychopharmakologie, Sucht) sowie der vertieften
       Sozialpsychologie (Persuasion, Gruppenprozesse, Aggression
-      und Prosozialität, Vorurteile und Intergruppenbeziehungen).
+      und Prosozialität, Vorurteile und Intergruppenbeziehungen)
+      sowie der Entwicklung über die Lebensspanne (von der
+      pränatalen Phase bis ins hohe Alter).
     tags:
       - beginner
       - psychology
@@ -191,3 +198,8 @@ metadata:
     - 68-aggression-und-prosoziales-verhalten.json
     - 69-intergruppenbeziehungen-und-vorurteile.json
     - 70-wiederholung-sozialpsychologie-vertieft.json
+    - 71-praenatale-entwicklung-und-fruehe-kindheit.json
+    - 72-kindheit-und-jugend.json
+    - 73-erwachsenenalter.json
+    - 74-alter-und-gerontopsychologie.json
+    - 75-wiederholung-lebensspanne.json
