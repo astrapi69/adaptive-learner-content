@@ -1,0 +1,249 @@
+{
+  "id": "83-schuldfaehigkeit-und-zurechnungsfaehigkeit",
+  "title": "Schuldfähigkeit und Zurechnungsfähigkeit",
+  "description": "Das rechtlich-psychologische Konzept der Schuldfähigkeit im deutschen Strafrecht: § 20 StGB (Schuldunfähigkeit), § 21 StGB (verminderte Schuldfähigkeit), die vier Eingangsmerkmale, die zweistufige Prüfung, die Rolle des Sachverständigen und Maßregeln der Besserung und Sicherung — sachlich und entstigmatisierend erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "schuldfaehigkeit",
+      "front": "Schuldfähigkeit",
+      "back": "Die strafrechtliche Voraussetzung für Bestrafung: Eine Person muss fähig sein, das Unrecht ihrer Tat einzusehen (Einsichtsfähigkeit) und nach dieser Einsicht zu handeln (Steuerungsfähigkeit).",
+      "notes": "Fehlt eine dieser Fähigkeiten aufgrund eines anerkannten Eingangsmerkmals, greift § 20 StGB.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["forensik", "strafrecht", "grundlagen"]
+    },
+    {
+      "id": "einsichtsfaehigkeit",
+      "front": "Einsichtsfähigkeit",
+      "back": "Die Fähigkeit einer Person, das Unrecht einer konkreten Tat zu erkennen — eine der zwei Komponenten der Schuldfähigkeit.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["forensik", "strafrecht"]
+    },
+    {
+      "id": "steuerungsfaehigkeit",
+      "front": "Steuerungsfähigkeit",
+      "back": "Die Fähigkeit, das eigene Verhalten gemäß der Unrechtseinsicht zu steuern — die zweite Komponente der Schuldfähigkeit. Auch wenn jemand das Unrecht erkennt, kann die Steuerung erheblich beeinträchtigt sein.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["forensik", "strafrecht"]
+    },
+    {
+      "id": "paragraph-20-stgb",
+      "front": "§ 20 StGB — Schuldunfähigkeit",
+      "back": "Wer wegen einer krankhaften seelischen Störung, einer tiefgreifenden Bewusstseinsstörung, einer Intelligenzminderung (früher: Schwachsinn) oder einer schweren anderen seelischen Störung unfähig ist, das Unrecht der Tat einzusehen oder nach dieser Einsicht zu handeln, handelt ohne Schuld.",
+      "notes": "Die vier Eingangsmerkmale sind abschließend aufgezählt. Keine Schuld bedeutet: keine Strafe — aber Maßregeln können dennoch angeordnet werden.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Vier Eingangsmerkmale → zwei Fähigkeiten (Einsicht ODER Steuerung aufgehoben).",
+      "tags": ["forensik", "strafrecht", "paragraph-20"]
+    },
+    {
+      "id": "paragraph-21-stgb",
+      "front": "§ 21 StGB — Verminderte Schuldfähigkeit",
+      "back": "Ist die Fähigkeit, das Unrecht der Tat einzusehen oder nach dieser Einsicht zu handeln, aus den in § 20 genannten Gründen beim Täter bei Begehung der Tat erheblich vermindert (nicht aufgehoben), so kann die Strafe gemildert werden.",
+      "notes": "§ 21 führt nicht zu Straffreiheit, sondern zu einer möglichen Strafmilderung nach § 49 Abs. 1 StGB.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["forensik", "strafrecht", "paragraph-21"]
+    },
+    {
+      "id": "eingangsmerkmale",
+      "front": "Die vier Eingangsmerkmale (§ 20 StGB)",
+      "back": "1. Krankhafte seelische Störung (z. B. Psychosen, schwere Sucht); 2. Tiefgreifende Bewusstseinsstörung (z. B. hochgradiger Affekt, extreme Erschöpfung); 3. Intelligenzminderung (früher: Schwachsinn); 4. Schwere andere seelische Störung (z. B. schwere Persönlichkeitsstörungen, Pädophilie).",
+      "notes": "Die Eingangsmerkmale beschreiben psychiatrische Befunde — nicht jeder Befund führt automatisch zu Schuldunfähigkeit.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["forensik", "strafrecht", "eingangsmerkmale"]
+    },
+    {
+      "id": "zweistufige-pruefung",
+      "front": "Zweistufige Prüfung der Schuldfähigkeit",
+      "back": "Stufe 1 (Eingangsebene): Liegt eines der vier Eingangsmerkmale des § 20 StGB vor? — Stufe 2 (Auswirkungsebene): Hat dieses Merkmal die Einsichts- oder Steuerungsfähigkeit aufgehoben (§ 20) oder erheblich vermindert (§ 21)?",
+      "notes": "Ein psychiatrischer Befund allein reicht nicht — er muss kausal auf die konkrete Tat eingewirkt haben.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["forensik", "strafrecht", "methodik"]
+    },
+    {
+      "id": "sachverstaendiger",
+      "front": "Psychiatrischer/psychologischer Sachverständiger",
+      "back": "Fachgutachter, der das Gericht in Fragen der Schuldfähigkeit berät. Der Sachverständige bewertet das Vorliegen eines Eingangsmerkmales und dessen Auswirkung — die Entscheidung über Schuld und Strafe trifft jedoch allein das Gericht.",
+      "notes": "Die Unterscheidung ist wichtig: Der Gutachter berät, das Gericht entscheidet.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["forensik", "strafrecht", "gutachten"]
+    },
+    {
+      "id": "massregeln-besserung-sicherung",
+      "front": "Maßregeln der Besserung und Sicherung",
+      "back": "Strafrechtliche Reaktionen, die nicht auf Vergeltung, sondern auf Behandlung und Schutz der Allgemeinheit abzielen. Beispiele: Unterbringung im psychiatrischen Krankenhaus (§ 63 StGB) oder in einer Entziehungsanstalt (§ 64 StGB). Sie können auch bei Schuldunfähigkeit angeordnet werden.",
+      "notes": "Unterschied zur Strafe: Strafe setzt Schuld voraus und vergilt. Maßregeln setzen Gefährlichkeit voraus und schützen/behandeln.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["forensik", "strafrecht", "massregeln"]
+    },
+    {
+      "id": "paragraph-63-stgb",
+      "front": "§ 63 StGB — Psychiatrisches Krankenhaus",
+      "back": "Unterbringung im psychiatrischen Krankenhaus als Maßregel der Besserung und Sicherung, wenn jemand aufgrund eines krankhaften Zustands (z. B. Schuldunfähigkeit oder verminderte Schuldfähigkeit) eine rechtswidrige Tat begeht und zu erwarten ist, dass er infolge seines Zustands weitere erhebliche Straftaten begehen wird.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["forensik", "strafrecht", "massregeln"]
+    },
+    {
+      "id": "stoerung-nicht-automatisch-schulunfaehig",
+      "front": "Psychische Störung ≠ automatisch Schuldunfähigkeit",
+      "back": "Eine diagnostizierte psychische Störung (vgl. Lektion 9/43) führt nicht automatisch zu Schuldunfähigkeit. Entscheidend ist, ob die Störung die Einsichts- oder Steuerungsfähigkeit im konkreten Tatmoment aufgehoben oder erheblich vermindert hat.",
+      "notes": "Wichtige Entstigmatisierung: Die meisten Menschen mit psychischen Störungen sind voll schuldfähig.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["forensik", "entstigmatisierung", "klinische-psychologie"]
+    },
+    {
+      "id": "hinweis-karte",
+      "front": "Hinweis: Wissensvermittlung, keine Rechtsberatung",
+      "back": "Diese Lektion vermittelt psychologisches und rechtliches Grundwissen über Schuldfähigkeit im deutschen Strafrecht. Sie ersetzt keine juristische oder forensisch-psychiatrische Fachberatung. Für konkrete Rechtsfragen wenden Sie sich an eine qualifizierte Fachkraft.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["hinweis", "disclaimer"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-schuldfaehigkeit",
+      "type": "theory",
+      "title": "Was ist Schuldfähigkeit?",
+      "body": "# Schuldfähigkeit und Zurechnungsfähigkeit\n\n> **Hinweis:** Diese Lektion vermittelt psychologisches und rechtliches Grundwissen. Sie ersetzt keine juristische oder forensisch-psychiatrische Fachberatung.\n\nIm deutschen Strafrecht kann nur bestraft werden, wer **schuldfähig** ist. Schuldfähigkeit bedeutet: Eine Person muss in der Lage sein,\n\n1. das **Unrecht** ihrer Tat einzusehen (**Einsichtsfähigkeit**) und\n2. ihr Handeln gemäß dieser Einsicht zu **steuern** (**Steuerungsfähigkeit**).\n\nDieses Konzept verbindet Recht und Psychologie: Es fragt nicht nur *was* jemand getan hat, sondern *ob er anders handeln konnte*.\n\n## Wichtiger Ausgangspunkt (Bezug: Lektionen 9 und 43)\n\nAus der klinischen Psychologie (Lektionen 9 und 43) wissen wir, dass psychische Störungen vielfältig sind. Entscheidend ist hier: **Eine diagnostizierte psychische Störung führt nicht automatisch zur Schuldunfähigkeit.** Die meisten Menschen mit psychischen Erkrankungen sind vollständig schuldfähig. Strafrechtlich relevant wird eine Störung nur, wenn sie die Einsichts- oder Steuerungsfähigkeit im konkreten Tatmoment erheblich beeinträchtigt hat."
+    },
+    {
+      "id": "step-paragraphen",
+      "type": "theory",
+      "title": "§ 20 und § 21 StGB: Schuldunfähigkeit und verminderte Schuldfähigkeit",
+      "body": "## Die rechtliche Grundlage\n\nDas deutsche Strafgesetzbuch (StGB) kennt zwei Stufen:\n\n| Norm | Voraussetzung | Rechtsfolge |\n|---|---|---|\n| **§ 20 StGB** | Einsichts- oder Steuerungsfähigkeit vollständig **aufgehoben** | **Keine Schuld** → keine Strafe (aber Maßregeln möglich) |\n| **§ 21 StGB** | Einsichts- oder Steuerungsfähigkeit erheblich **vermindert** (nicht aufgehoben) | Schuld vorhanden, Strafe kann **gemildert** werden |\n\n## Die vier Eingangsmerkmale des § 20 StGB\n\nNur wenn **eines** der folgenden Merkmale vorliegt, kann § 20 oder § 21 überhaupt geprüft werden:\n\n| Eingangsmerkmal | Beispiele |\n|---|---|\n| **Krankhafte seelische Störung** | Psychosen (z. B. Schizophrenie), schwere Suchterkrankung |\n| **Tiefgreifende Bewusstseinsstörung** | Hochgradiger Affekt, extreme Erschöpfung, Schlaftrunkenheit |\n| **Intelligenzminderung** (früher: Schwachsinn) | Erhebliche kognitive Einschränkung |\n| **Schwere andere seelische Störung** | Schwere Persönlichkeitsstörungen, bestimmte Impulskontrollstörungen |\n\n## Die zweistufige Prüfung\n\n**Stufe 1 (Eingangsebene):** Liegt eines der vier Merkmale vor?\n**Stufe 2 (Auswirkungsebene):** Hat es die Einsichts- oder Steuerungsfähigkeit konkret aufgehoben (§ 20) oder erheblich vermindert (§ 21)?\n\nBeide Stufen müssen bejaht werden — ein psychiatrischer Befund allein genügt nicht."
+    },
+    {
+      "id": "step-sachverstaendiger-massregeln",
+      "type": "theory",
+      "title": "Sachverständige, Maßregeln und Entstigmatisierung",
+      "body": "## Die Rolle des Sachverständigen\n\nFür die Schuldfähigkeitsbegutachtung beauftragt das Gericht einen **psychiatrischen oder psychologischen Sachverständigen** (Forensiker). Die Aufgaben sind klar getrennt:\n\n- **Sachverständiger:** Bewertet das Vorliegen eines Eingangsmerkmales und dessen Auswirkung auf die Tatzeit.\n- **Gericht:** Entscheidet allein über Schuld, Strafe und Maßregeln — es ist an das Gutachten nicht gebunden.\n\n## Maßregeln der Besserung und Sicherung\n\nAuch wer schuldunfähig ist, kann **Maßregeln** erhalten — sie setzen keine Schuld voraus, sondern eine **Gefährlichkeitsprognose**:\n\n| Maßregel | Rechtsgrundlage | Zweck |\n|---|---|---|\n| Unterbringung im psychiatrischen Krankenhaus | § 63 StGB | Behandlung + Schutz der Allgemeinheit |\n| Unterbringung in einer Entziehungsanstalt | § 64 StGB | Entzug + Therapie bei Sucht |\n\nDer entscheidende Unterschied zur **Strafe**: Strafe setzt Schuld voraus und dient der Vergeltung. Maßregeln setzen Gefährlichkeit voraus und dienen **Behandlung und Schutz**.\n\n## Entstigmatisierung\n\n> Schuldfähigkeitsrecht meint nicht, dass jemand 'verrückt' war. Es ist ein rechtlich-psychiatrisches Präzisionsinstrument, das individuelle Verantwortlichkeit sachlich bewertet — und nichts über psychische Erkrankung im Allgemeinen sagt."
+    },
+    {
+      "id": "ex-match-paragraphen",
+      "type": "exercise",
+      "title": "§ 20 und § 21 unterscheiden",
+      "exercise": {
+        "id": "ex-match-paragraphen",
+        "type": "matching",
+        "prompt": "Ordne jeder Rechtsfolge die zutreffende Norm zu.",
+        "card_ids": ["paragraph-20-stgb", "paragraph-21-stgb", "schuldfaehigkeit"],
+        "pairs": [
+          { "left": "§ 20 StGB", "right": "Einsichts- oder Steuerungsfähigkeit vollständig aufgehoben → keine Schuld" },
+          { "left": "§ 21 StGB", "right": "Einsichts- oder Steuerungsfähigkeit erheblich vermindert → Strafmilderung möglich" },
+          { "left": "Schuldfähigkeit (Grundvoraussetzung)", "right": "Einsichtsfähigkeit und Steuerungsfähigkeit vorhanden → Strafe möglich" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-eingangsmerkmale",
+      "type": "exercise",
+      "title": "Die vier Eingangsmerkmale",
+      "exercise": {
+        "id": "ex-match-eingangsmerkmale",
+        "type": "matching",
+        "prompt": "Ordne jedem Eingangsmerkmal ein Beispiel zu.",
+        "card_ids": ["eingangsmerkmale", "paragraph-20-stgb"],
+        "pairs": [
+          { "left": "Krankhafte seelische Störung", "right": "z. B. Psychose oder schwere Suchterkrankung" },
+          { "left": "Tiefgreifende Bewusstseinsstörung", "right": "z. B. hochgradiger Affekt oder extreme Erschöpfung" },
+          { "left": "Intelligenzminderung", "right": "erhebliche kognitive Einschränkung" },
+          { "left": "Schwere andere seelische Störung", "right": "z. B. schwere Persönlichkeitsstörung" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-zweistufig",
+      "type": "exercise",
+      "title": "Die zweistufige Prüfung",
+      "exercise": {
+        "id": "ex-cloze-zweistufig",
+        "type": "cloze",
+        "prompt": "Ergänze die zweite Prüfungsstufe der Schuldfähigkeit.",
+        "card_ids": ["zweistufige-pruefung", "paragraph-20-stgb"],
+        "sentence": "Nach der Eingangsebene folgt die Auswirkungsebene: Hat das Eingangsmerkmal die Einsichts- oder ___ aufgehoben oder erheblich vermindert?",
+        "blanks": [
+          { "accept": ["Steuerungsfähigkeit", "steuerungsfähigkeit"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Die zweite Fähigkeitskomponente neben der Einsicht."
+      }
+    },
+    {
+      "id": "ex-free-massregeln",
+      "type": "exercise",
+      "title": "Maßregeln vs. Strafe",
+      "exercise": {
+        "id": "ex-free-massregeln",
+        "type": "free_text",
+        "prompt": "Maßregeln der Besserung und Sicherung unterscheiden sich von Strafen dadurch, dass sie keine ___ voraussetzen, sondern auf Behandlung und Schutz abzielen.",
+        "card_ids": ["massregeln-besserung-sicherung", "paragraph-63-stgb"],
+        "accept": ["Schuld", "Schuldfähigkeit", "Schuldfeststellung", "strafrechtliche Schuld"],
+        "hint": "Strafen setzen dies voraus — Maßregeln nicht.",
+        "distractors": ["Vorsatz", "Zeugenaussage", "Anklage", "Verhör"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-sachverstaendiger",
+      "type": "exercise",
+      "title": "Wer entscheidet?",
+      "exercise": {
+        "id": "ex-cloze-sachverstaendiger",
+        "type": "cloze",
+        "prompt": "Ergänze, wer im Gerichtsverfahren über Schuld und Strafe entscheidet.",
+        "card_ids": ["sachverstaendiger"],
+        "sentence": "Der Sachverständige berät das Gericht fachlich — die Entscheidung über Schuld und Strafe trifft jedoch allein das ___.",
+        "blanks": [
+          { "accept": ["Gericht", "gericht"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Der Sachverständige berät; das ___ entscheidet."
+      }
+    },
+    {
+      "id": "ex-tiles-stoerung-nicht-schulunfaehig",
+      "type": "exercise",
+      "title": "Wichtige Klarstellung",
+      "exercise": {
+        "id": "ex-tiles-stoerung-nicht-schulunfaehig",
+        "type": "word_tiles",
+        "prompt": "Setze den Kernsatz zur Entstigmatisierung zusammen.",
+        "card_ids": ["stoerung-nicht-automatisch-schulunfaehig"],
+        "tiles": ["Eine", "psychische", "Störung", "führt", "nicht", "automatisch", "zur", "Schuldunfähigkeit"],
+        "hint": "Beginnt mit 'Eine psychische Störung …'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-eingangsmerkmale",
+      "type": "exercise",
+      "title": "Eingangsmerkmale benennen",
+      "exercise": {
+        "id": "ex-free-eingangsmerkmale",
+        "type": "free_text",
+        "prompt": "Welches der vier Eingangsmerkmale des § 20 StGB beschreibt z. B. hochgradigen Affekt oder extreme Erschöpfung?",
+        "card_ids": ["eingangsmerkmale", "paragraph-20-stgb"],
+        "accept": ["tiefgreifende Bewusstseinsstörung", "Tiefgreifende Bewusstseinsstörung", "Bewusstseinsstörung", "tiefgreifende Bewusstseinsstörung (§ 20 StGB)"],
+        "hint": "Es geht um das Bewusstsein — nicht um eine krankhafte Störung.",
+        "distractors": ["Einsichtsfähigkeit", "Schuldfähigkeit", "Maßregelvollzug", "Gutachterpflicht"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
