@@ -1,0 +1,407 @@
+{
+  "id": "05-la-voix-passive",
+  "title": "La voix passive (Passiv)",
+  "description": "Das französische Passiv: Bildung mit être + participe passé, Angleichung des Partizips an das Subjekt, Passiv in verschiedenen Zeiten, der Urheber mit par oder de — und die typisch französischen Alternativen on und das passif pronominal. Auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "passiv-bildung",
+      "front": "La lettre est écrite. / Les lettres sont écrites.",
+      "back": "Bildung des Passivs: être + participe passé (angleichung!)",
+      "notes": "Das Passiv wird mit **être** (im jeweiligen Tempus) + **participe passé** gebildet. Das Partizip **gleicht sich in Genus und Numerus** an das grammatische Subjekt an:\n- *La lettre* (f. sg.) → *est écrit**e***\n- *Les lettres* (f. pl.) → *sont écrit**es***\n- *Le livre* (m. sg.) → *est écrit*\n- *Les livres* (m. pl.) → *sont écrit**s***",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "passiv", "angleichung"]
+    },
+    {
+      "id": "passiv-zeiten",
+      "front": "présent / passé composé / futur du passif",
+      "back": "Passiv in drei Zeiten: être (Präsens/PC/Futur) + participe passé",
+      "notes": "Das Hilfsverb **être** steht im jeweiligen Tempus:\n\n| Tempus | être-Form | Beispiel |\n|---|---|---|\n| **Présent** | est / sont | *La ville **est** fondée.* |\n| **Passé composé** | a été / ont été | *La ville **a été** fondée.* |\n| **Futur simple** | sera / seront | *La ville **sera** fondée.* |\n\nAchtung: Im passé composé hat das Passiv **zwei** Hilfsverben: *avoir* + *été* + Partizip.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "passiv", "zeiten"]
+    },
+    {
+      "id": "passiv-par-de",
+      "front": "par le directeur / aimé de tous",
+      "back": "Urheber mit par (Handlung) oder de (Zustand/Gefühl)",
+      "notes": "Der **Urheber** (Agens) steht nach **par** oder **de**:\n\n- **par** → konkrete, einmalige **Handlung**: *La lettre a été écrite **par** le directeur.*\n- **de** → dauerhafter **Zustand** oder **Gefühl**: *Il est aimé **de** tous.* / *La maison est entourée **de** fleurs.*\n\nIm Alltag dominiert **par** bei weitem; **de** ist eher literarisch und bei festen Wendungen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "passiv", "par", "de"]
+    },
+    {
+      "id": "passiv-on-alternative",
+      "front": "On parle français ici. (statt Le français est parlé ici.)",
+      "back": "on als häufigste Passiv-Alternative im Französischen",
+      "notes": "Das Französische **meidet das Passiv** im Alltag oft und bevorzugt:\n1. **on** + Aktiv: *On parle français ici.* (= Hier wird Französisch gesprochen.)\n2. **Pronominalpassiv** (*passif pronominal*): *Ça se vend bien.* (= Das verkauft sich gut.)\n\nBeide Konstruktionen klingen natürlicher als das Passiv mit être, besonders in der gesprochenen Sprache.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "passiv", "on", "stil", "passif-pronominal"]
+    },
+    {
+      "id": "passif-pronominal",
+      "front": "Ça se vend bien. / Le vin se boit frais.",
+      "back": "Pronominalpassiv (passif pronominal): se + Verb",
+      "notes": "Das **passif pronominal** (auch: passiv-reflexiv) drückt aus, dass etwas mit einer Sache üblicherweise so gemacht wird. Kein Urheber wird genannt:\n- *Ça **se vend** bien.* — Das verkauft sich gut.\n- *Le vin **se boit** frais.* — Wein trinkt man kalt.\n- *Ça **se dit**.* — Das sagt man so.\n\nTypisch für Gewohnheiten, Regeln, Eigenschaften.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "passiv", "passif-pronominal"]
+    },
+    {
+      "id": "passiv-angleichung-pc",
+      "front": "Les maisons ont été construites par les ouvriers.",
+      "back": "Angleichung im passé composé: construites (f. pl.)",
+      "notes": "Auch im **passé composé** gleicht sich das Partizip an das Subjekt an:\n*Les maisons* (f. pl.) → *construit**es***\n\nVergleich:\n- m. sg.: *Le pont a été construit.*\n- f. sg.: *La maison a été construit**e**.*\n- m. pl.: *Les ponts ont été construits.*\n- f. pl.: *Les maisons ont été construit**es**.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Zwei Partizipien im passé composé: été bleibt unveränderlich, das zweite Partizip gleicht sich an.",
+      "tags": ["grammatik", "passiv", "angleichung", "passe-compose"]
+    },
+    {
+      "id": "passiv-vs-aktiv",
+      "front": "Le chef signe le contrat. → Le contrat est signé par le chef.",
+      "back": "Aktiv → Passiv: Objekt wird Subjekt, Subjekt wird Urheber mit par",
+      "notes": "Beim Umformen Aktiv → Passiv:\n1. Das **Akkusativobjekt** des Aktivsatzes wird zum **Subjekt** im Passivsatz.\n2. Das **Subjekt** des Aktivsatzes wird zum **Urheber** mit **par**.\n3. Das Verb wird zu **être + participe passé** (angleichen!).\n\n*Le chef (S) signe **le contrat** (O).* → ***Le contrat** est sign**é** par le chef.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "passiv", "aktiv-passiv", "umformung"]
+    },
+    {
+      "id": "passiv-deutsch-vergleich",
+      "front": "werden-Passiv (dt.) ≠ être + participe passé (fr.)",
+      "back": "Deutsch: werden + Partizip II — Französisch: être + participe passé",
+      "notes": "Der direkte Kontrast:\n\n| Deutsch | Französisch |\n|---|---|\n| Das Buch **wird** gelesen. | Le livre **est** lu. |\n| Das Buch **wurde** gelesen. | Le livre **a été** lu. |\n| Das Buch **wird** gelesen **werden**. | Le livre **sera** lu. |\n\nWo das Deutsche **werden** als Hilfsverb nutzt, steht im Französischen **être**. Achtung: Nicht mit *être* als Zustandsverb verwechseln (*La porte est ouverte* = Die Tür ist offen — Zustand, kein Vorgang).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "passiv", "vergleich-deutsch"]
+    },
+    {
+      "id": "passiv-futur",
+      "front": "Le rapport sera publié demain.",
+      "back": "Der Bericht wird morgen veröffentlicht werden. (Passiv Futur)",
+      "notes": "Passiv im **Futur simple**: *sera/seront* + participe passé.\n- *Le rapport **sera** publié demain.* (m. sg.)\n- *Les résultats **seront** publiés demain.* (m. pl.)\n- *La décision **sera** prise bientôt.* (f. sg.)",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "passiv", "futur"]
+    },
+    {
+      "id": "passiv-ohne-urheber",
+      "front": "La réunion a été annulée.",
+      "back": "Das Meeting wurde abgesagt. (Passiv ohne Urheber)",
+      "notes": "Das Passiv kann **ohne Urheber** stehen — das ist sogar der häufigere Fall:\n*La réunion a été annulée.* (Wer es abgesagt hat, wird nicht genannt.)\n\nDies entspricht dem deutschen unpersönlichen Passiv. Im Zweifel ist das **on**-Aktiv natürlicher: *On a annulé la réunion.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "passiv", "ohne-urheber"]
+    },
+    {
+      "id": "etre-par-resultat",
+      "front": "La fenêtre est cassée.",
+      "back": "Das Fenster ist kaputt. (Zustandsbeschreibung, kein Passivvorgang!)",
+      "notes": "Vorsicht: *être + participe passé* kann entweder ein **Passiv** (Vorgang) oder einen **Zustand** (Resultat) beschreiben:\n- **Vorgang**: *La fenêtre **a été** cassée par Jean.* — Jean hat das Fenster eingeschlagen.\n- **Zustand**: *La fenêtre **est** cassée.* — Das Fenster ist (gerade) kaputt.\n\nDer Kontext (v.a. *par* + Urheber oder Tempus) entscheidet.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "passiv", "zustand", "kontrast"]
+    },
+    {
+      "id": "se-vendre-exemple",
+      "front": "Ça se fait. / Ça ne se dit pas.",
+      "back": "Das macht man so. / Das sagt man nicht.",
+      "notes": "Feste Wendungen mit **passif pronominal** — sehr häufig im Alltag:\n- *Ça **se fait**.* — Das macht man so. / Das gehört sich so.\n- *Ça ne **se dit** pas.* — Das sagt man nicht.\n- *Ça **se voit**.* — Das sieht man. / Das ist offensichtlich.\n- *Comment **ça se prononce**?* — Wie spricht man das aus?",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "passif-pronominal", "wendungen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theorie-bildung",
+      "type": "theory",
+      "title": "Das Passiv: Bildung und Angleichung",
+      "body": "# La voix passive — Das Passiv\n\nIm Deutschen bilden wir das Passiv mit **werden + Partizip II**. Im Französischen steht stattdessen **être (im jeweiligen Tempus) + participe passé**.\n\n## Bildung\n\n> **être** (konjugiert) + **participe passé** (gleicht sich an!)\n\nDas Partizip **muss** sich in **Genus** (m./f.) und **Numerus** (sg./pl.) an das grammatische **Subjekt** angleichen:\n\n| Subjekt | Passiv Présent | Bedeutung |\n|---|---|---|\n| Le livre (m. sg.) | est lu | wird gelesen |\n| La lettre (f. sg.) | est lue | wird gelesen |\n| Les livres (m. pl.) | sont lus | werden gelesen |\n| Les lettres (f. pl.) | sont lues | werden gelesen |\n\n## Der Urheber: *par* oder *de*?\n\n- **par** → konkrete **Handlung** (häufig): *écrit **par** le professeur*\n- **de** → dauerhafter **Zustand oder Gefühl** (seltener, eher literarisch): *aimé **de** tous*\n\n## Vergleich mit Deutsch\n\n| Deutsch | Französisch |\n|---|---|\n| Das Buch **wird** gelesen. | Le livre **est** lu. |\n| Das Buch **wurde** gelesen. | Le livre **a été** lu. |\n| Das Buch **wird** gelesen **werden**. | Le livre **sera** lu. |\n\nWo das Deutsche **werden** nutzt, steht im Französischen **être**."
+    },
+    {
+      "id": "theorie-zeiten",
+      "type": "theory",
+      "title": "Passiv in verschiedenen Zeiten",
+      "body": "## Das Passiv in drei wichtigen Zeiten\n\nDas Hilfsverb **être** steht im jeweiligen Tempus — das Partizip bleibt gleich (und gleicht sich weiterhin an):\n\n| Tempus | être-Form (Sg./Pl.) | Beispiel |\n|---|---|---|\n| **Présent** | est / sont | *La ville est fondée.* |\n| **Passé composé** | a été / ont été | *La ville a été fondée.* |\n| **Imparfait** | était / étaient | *La ville était fondée.* |\n| **Futur simple** | sera / seront | *La ville sera fondée.* |\n\n### Passé composé: Doppel-Partizip!\n\nIm passé composé entstehen **zwei Partizipien**: *avoir* + **été** (unveränderlich!) + Partizip (gleicht sich an):\n\n*Les maisons **ont été construite**s par les ouvriers.*\n- *été* bleibt immer *été*\n- *construites* gleicht sich an: f. pl. → **-es**\n\n### Zustand vs. Vorgang\n\nVorsicht: *être + participe passé* kann auch einen **Zustand** (kein Passivvorgang) beschreiben:\n- **Vorgang** (Passiv): *La fenêtre **a été** cassée par Jean.* — Jean hat die Scheibe eingeschlagen.\n- **Zustand**: *La fenêtre **est** cassée.* — Die Scheibe ist kaputt (Ergebnis)."
+    },
+    {
+      "id": "theorie-alternativen",
+      "type": "theory",
+      "title": "Wann Passiv — und die typischen Alternativen",
+      "body": "## Wann nutzt man das Passiv?\n\nDas Passiv betont das **Objekt der Handlung**, nicht den Handelnden. Es eignet sich für formelle, schriftliche Kontexte.\n\n## Stil-Hinweis: Französisch meidet das Passiv oft!\n\nIm **gesprochenen Französisch** und im Alltag wird das Passiv häufig **vermieden**. Die zwei wichtigsten Alternativen:\n\n### 1. Konstruktion mit *on*\n\n*On parle français ici.* (statt *Le français est parlé ici.*)\n\n**on** + Aktiv-Verb = unpersönliches \"man\" → klingt natürlicher!\n\n| Passiv | on-Alternative |\n|---|---|\n| *La réunion a été annulée.* | *On a annulé la réunion.* |\n| *Le colis a été livré.* | *On a livré le colis.* |\n\n### 2. Passif pronominal (*se* + Verb)\n\nFür **Gewohnheiten, Regeln, allgemeine Wahrheiten** — kein Urheber genannt:\n\n- *Ça **se vend** bien.* — Das verkauft sich gut.\n- *Le vin **se boit** frais.* — Wein trinkt man kalt.\n- *Ça ne **se dit** pas.* — Das sagt man nicht.\n\n> **Faustregel**: Im Zweifelsfall klingt *on* + Aktiv natürlicher als das Passiv — nutze das Passiv bewusst, wenn du das Objekt in den Vordergrund stellen willst."
+    },
+    {
+      "id": "ex-cloze-lettre-ecrite",
+      "type": "exercise",
+      "title": "Passiv Présent mit Angleichung",
+      "exercise": {
+        "id": "ex-cloze-lettre-ecrite",
+        "type": "cloze",
+        "prompt": "Ergänze das Passiv von *écrire* im Présent. Achte auf die Angleichung des Partizips!",
+        "card_ids": ["passiv-bildung"],
+        "sentence": "La lettre ___ écrite par la secrétaire.",
+        "blanks": [
+          { "accept": ["est"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Présent Passiv: être (3. Sg.) + participe passé. Das Subjekt *la lettre* ist feminin Singular.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-maisons-construites",
+      "type": "exercise",
+      "title": "Passé composé Passiv",
+      "exercise": {
+        "id": "ex-cloze-maisons-construites",
+        "type": "cloze",
+        "prompt": "Ergänze die Passivform von *construire* im passé composé. *Les maisons* ist feminin Plural.",
+        "card_ids": ["passiv-zeiten", "passiv-angleichung-pc"],
+        "sentence": "Les maisons ___ construites par les ouvriers.",
+        "blanks": [
+          { "accept": ["ont été"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Passé composé Passiv: avoir + été + participe passé. Hilfsverb für *les maisons* (pl.) → *ont été*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-aktiv-zu-passiv",
+      "type": "exercise",
+      "title": "Aktiv → Passiv umformen",
+      "exercise": {
+        "id": "ex-free-aktiv-zu-passiv",
+        "type": "free_text",
+        "prompt": "Forme den Aktivsatz ins Passiv um: *Le chef signe le contrat.*",
+        "card_ids": ["passiv-vs-aktiv", "passiv-bildung"],
+        "accept": [
+          "Le contrat est signé par le chef.",
+          "le contrat est signé par le chef",
+          "Le contrat est signé par le chef",
+          "Le contrat est signé."
+        ],
+        "hint": "Das Objekt (*le contrat*) wird Subjekt; das Subjekt (*le chef*) → *par le chef*. Partizip *signé* (m. sg., keine Angleichung nötig).",
+        "distractors": [
+          "Le contrat est signer par le chef.",
+          "Le contrat a signé par le chef.",
+          "Le contrat est signée par le chef.",
+          "Le chef est signé par le contrat."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-on-alternative",
+      "type": "exercise",
+      "title": "Passiv → on-Alternative",
+      "exercise": {
+        "id": "ex-free-on-alternative",
+        "type": "free_text",
+        "prompt": "Drücke denselben Inhalt mit *on* aus (umgangssprachliche Alternative): *Le français est parlé ici.*",
+        "card_ids": ["passiv-on-alternative"],
+        "accept": [
+          "On parle français ici.",
+          "on parle français ici",
+          "On parle le français ici.",
+          "on parle le français ici"
+        ],
+        "hint": "*on* + Aktiv-Verb: *On parle…* — kein Artikel vor *français* nötig (aber möglich).",
+        "distractors": [
+          "On est parlé français ici.",
+          "On parle français est ici.",
+          "Le français se parle ici (falsche Frage — aber auch richtig!)",
+          "On a parlé français ici."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-zeiten",
+      "type": "exercise",
+      "title": "Passiv in verschiedenen Zeiten zuordnen",
+      "exercise": {
+        "id": "ex-match-zeiten",
+        "type": "matching",
+        "prompt": "Ordne jede Passivform dem richtigen Tempus zu.",
+        "card_ids": ["passiv-zeiten", "passiv-futur", "passiv-angleichung-pc"],
+        "pairs": [
+          { "left": "est construit", "right": "Présent" },
+          { "left": "a été construit", "right": "Passé composé" },
+          { "left": "sera construit", "right": "Futur simple" },
+          { "left": "était construit", "right": "Imparfait" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-par-de",
+      "type": "exercise",
+      "title": "par oder de — Urheber zuordnen",
+      "exercise": {
+        "id": "ex-match-par-de",
+        "type": "matching",
+        "prompt": "Ordne den Satzfragmenten die richtige Präposition (*par* oder *de*) zu.",
+        "card_ids": ["passiv-par-de"],
+        "pairs": [
+          { "left": "La lettre a été écrite ___ le directeur.", "right": "par" },
+          { "left": "Il est aimé ___ tous.", "right": "de" },
+          { "left": "La maison est entourée ___ fleurs.", "right": "de" },
+          { "left": "Le voleur a été arrêté ___ la police.", "right": "par" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-rapport-publie",
+      "type": "exercise",
+      "title": "Passiv Futur bilden",
+      "exercise": {
+        "id": "ex-tiles-rapport-publie",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Der Bericht wird morgen veröffentlicht werden.*",
+        "card_ids": ["passiv-futur", "passiv-zeiten"],
+        "tiles": ["Le", "rapport", "sera", "publié", "demain"],
+        "hint": "Futur Passiv: *sera* + participe passé. *Le rapport* (m. sg.) → *publié* ohne Endung.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-se-vend",
+      "type": "exercise",
+      "title": "Pronominalpassiv bilden",
+      "exercise": {
+        "id": "ex-tiles-se-vend",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Das verkauft sich gut.* (Pronominalpassiv)",
+        "card_ids": ["passif-pronominal", "passiv-on-alternative"],
+        "tiles": ["Ça", "se", "vend", "bien"],
+        "hint": "Passif pronominal: *ça* + *se* + Verb (3. Sg.).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-traduction-passiv-pc",
+      "type": "exercise",
+      "title": "Passé composé Passiv übersetzen",
+      "exercise": {
+        "id": "ex-free-traduction-passiv-pc",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische: *Das Meeting wurde abgesagt.*",
+        "card_ids": ["passiv-ohne-urheber", "passiv-zeiten"],
+        "accept": [
+          "La réunion a été annulée.",
+          "la réunion a été annulée",
+          "La réunion a été annulée",
+          "On a annulé la réunion."
+        ],
+        "hint": "Passé composé Passiv: *a été* + Partizip. *La réunion* (f. sg.) → *annulée* (mit -e). Oder: *on a annulé la réunion.*",
+        "distractors": [
+          "La réunion est annulée par quelqu'un.",
+          "La réunion a été annulé.",
+          "La réunion était annulée.",
+          "Le réunion a été annulée."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-angleichung",
+      "type": "exercise",
+      "title": "Welche Passivform ist korrekt?",
+      "exercise": {
+        "id": "ex-pic-angleichung",
+        "type": "picture_choice",
+        "prompt": "Das Subjekt ist *Les lettres* (feminin Plural). Welche Passivform ist korrekt?",
+        "card_ids": ["passiv-bildung", "passiv-angleichung-pc"],
+        "images": [
+          { "src": "assets/img/letters-passive-1.png", "label": "Les lettres sont écrites.", "is_correct": "true" },
+          { "src": "assets/img/letters-passive-2.png", "label": "Les lettres sont écrit." },
+          { "src": "assets/img/letters-passive-3.png", "label": "Les lettres sont écrits." },
+          { "src": "assets/img/letters-passive-4.png", "label": "Les lettres est écrites." }
+        ],
+        "hint": "Feminin Plural: *écrit* + **-es**. Das Hilfsverb *être* konjugiert mit *les lettres* → *sont*.",
+        "distractors": [
+          "Les lettres sont écrit.",
+          "Les lettres sont écrits.",
+          "Les lettres est écrites."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-zustand-vs-vorgang",
+      "type": "exercise",
+      "title": "Zustand oder Vorgang? Übersetzen",
+      "exercise": {
+        "id": "ex-free-zustand-vs-vorgang",
+        "type": "free_text",
+        "prompt": "Übersetze: *Die Tür wurde von dem Kind geöffnet.* (Passivvorgang, nicht Zustand!)",
+        "card_ids": ["etre-par-resultat", "passiv-vs-aktiv"],
+        "accept": [
+          "La porte a été ouverte par l'enfant.",
+          "la porte a été ouverte par l'enfant",
+          "La porte a été ouverte par l'enfant",
+          "On a ouvert la porte."
+        ],
+        "hint": "Vorgang → passé composé Passiv: *a été ouverte* (f. sg.) + *par l'enfant*. Nicht: *la porte est ouverte* (Zustand!).",
+        "distractors": [
+          "La porte est ouverte par l'enfant.",
+          "La porte a été ouvert par l'enfant.",
+          "La porte a été ouverte de l'enfant.",
+          "L'enfant a été ouverte par la porte."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-se-dit",
+      "type": "exercise",
+      "title": "Pronominalpassiv — feste Wendung",
+      "exercise": {
+        "id": "ex-cloze-se-dit",
+        "type": "cloze",
+        "prompt": "Ergänze das Verb *dire* als Pronominalpassiv (3. Sg.): *Das sagt man nicht.*",
+        "card_ids": ["passif-pronominal", "se-vendre-exemple"],
+        "sentence": "Ça ne ___ pas.",
+        "blanks": [
+          { "accept": ["se dit"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Passif pronominal: *se* + Verb in der 3. Sg. → *se dit*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-futur-sera-livre",
+      "type": "exercise",
+      "title": "Passiv Futur übersetzen",
+      "exercise": {
+        "id": "ex-free-futur-sera-livre",
+        "type": "free_text",
+        "prompt": "Übersetze: *Das Paket wird morgen geliefert werden.*",
+        "card_ids": ["passiv-futur", "passiv-zeiten"],
+        "accept": [
+          "Le colis sera livré demain.",
+          "le colis sera livré demain",
+          "Le colis sera livré demain",
+          "On livrera le colis demain."
+        ],
+        "hint": "Futur Passiv: *sera* + Partizip. *Le colis* (m. sg.) → *livré* (kein -e). Oder: *on livrera le colis demain.*",
+        "distractors": [
+          "Le colis sera livrée demain.",
+          "Le colis est livré demain.",
+          "Le colis a été livré demain.",
+          "Le colis sera livrés demain."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

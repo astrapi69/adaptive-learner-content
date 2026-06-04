@@ -1,0 +1,440 @@
+{
+  "id": "10-travail-et-carriere",
+  "title": "Arbeit und Beruf",
+  "description": "Wortschatz und Kommunikation rund um die Arbeitswelt auf B1-Niveau: Berufe, Bewerbung, Vorstellungsgespräch und formelles Register — alles auf Deutsch erklärt, mit korrekten französischen Ausdrücken.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "un-emploi",
+      "front": "un emploi",
+      "back": "eine Stelle / ein Job",
+      "notes": "Allgemeiner Begriff für **Beschäftigung**. Kontext: *chercher un emploi* — eine Stelle suchen. Oft gleichbedeutend mit *un poste* (eher formell, auf eine bestimmte Stelle bezogen).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["travail", "vocabulaire"]
+    },
+    {
+      "id": "un-poste",
+      "front": "un poste",
+      "back": "eine Stelle / eine Position (formell)",
+      "notes": "Formeller als *un emploi*. Wird in Stellenausschreibungen und Bewerbungsschreiben bevorzugt: *Je postule au poste de chef de projet.* — Ich bewerbe mich um die Stelle als Projektleiter.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["travail", "bewerbung", "vocabulaire"]
+    },
+    {
+      "id": "un-entretien",
+      "front": "un entretien d'embauche",
+      "back": "ein Vorstellungsgespräch",
+      "notes": "Das **Vorstellungsgespräch**. Verwandte Ausdrücke: *passer un entretien* — ein Gespräch führen/absolvieren; *être convoqué(e) à un entretien* — zu einem Vorstellungsgespräch eingeladen werden.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["bewerbung", "vocabulaire"]
+    },
+    {
+      "id": "le-cv",
+      "front": "le CV (le curriculum vitæ)",
+      "back": "der Lebenslauf",
+      "notes": "Abkürzung für *curriculum vitæ*. Im Französischen immer **le CV** (maskulin). Ausdruck: *joindre son CV* — seinen Lebenslauf beifügen (z. B. als E-Mail-Anhang).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["bewerbung", "vocabulaire"]
+    },
+    {
+      "id": "la-lettre-de-motivation",
+      "front": "la lettre de motivation",
+      "back": "das Motivationsschreiben / das Anschreiben",
+      "notes": "Unverzichtbar bei einer Bewerbung in Frankreich. Enthält die **Motivation**, Stärken und den Bezug zum Unternehmen. Formelles Dokument → formelles Register (Sie-Anrede, höfliche Schlussformel).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["bewerbung", "vocabulaire"]
+    },
+    {
+      "id": "postuler",
+      "front": "postuler (à une offre / à un poste)",
+      "back": "sich bewerben (auf eine Stelle)",
+      "notes": "**Formelles Verb** für die Bewerbung: *Je postule à une offre d'emploi.* — Ich bewerbe mich auf eine Stellenanzeige. Umgangssprachlich auch *candidater* (regional/informell).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["bewerbung", "vocabulaire"]
+    },
+    {
+      "id": "embaucher",
+      "front": "embaucher / être embauché(e)",
+      "back": "einstellen / eingestellt werden",
+      "notes": "*embaucher* ist transitiv (Arbeitgeber-Perspektive): *L'entreprise m'a embauché.* — Die Firma hat mich eingestellt. Das Nomen: *l'embauche* (die Einstellung).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["travail", "vocabulaire"]
+    },
+    {
+      "id": "un-stage",
+      "front": "un stage / un(e) stagiaire",
+      "back": "ein Praktikum / ein(e) Praktikant(in)",
+      "notes": "**Achtung**: *un stage* ≠ *eine Bühne* (das wäre *une scène*). Falsche Freundin! *faire un stage* — ein Praktikum machen; *un stage de trois mois* — ein dreimonatiges Praktikum.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Falsche Freundin: kein Zusammenhang mit dem deutschen Wort 'Bühne'.",
+      "tags": ["travail", "faux-amis", "vocabulaire"]
+    },
+    {
+      "id": "le-chomage",
+      "front": "le chômage / être au chômage",
+      "back": "die Arbeitslosigkeit / arbeitslos sein",
+      "notes": "*être au chômage* — arbeitslos sein; *tomber au chômage* — arbeitslos werden; *les allocations chômage* — das Arbeitslosengeld. Register: neutral bis leicht administrativ.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["travail", "vocabulaire"]
+    },
+    {
+      "id": "je-suis-motive",
+      "front": "Je suis motivé(e) et rigoureux(se).",
+      "back": "Ich bin motiviert und sorgfältig/gewissenhaft.",
+      "notes": "Typische **Stärkenformulierung** im Vorstellungsgespräch oder Anschreiben. Weitere Adjektive: *organisé(e)* (organisiert), *autonome* (selbstständig), *dynamique* (dynamisch), *à l'écoute* (aufmerksam, empfänglich für andere).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["entretien", "register", "vocabulaire"]
+    },
+    {
+      "id": "experience-en",
+      "front": "j'ai de l'expérience en…",
+      "back": "ich habe Erfahrung in…",
+      "notes": "Standardwendung im Gespräch und Anschreiben: *J'ai de l'expérience en gestion de projet.* — Ich habe Erfahrung im Projektmanagement. Achtung: **en** + Bereich ohne Artikel.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["entretien", "vocabulaire"]
+    },
+    {
+      "id": "je-me-permets",
+      "front": "Je me permets de vous contacter…",
+      "back": "Ich erlaube mir, Sie zu kontaktieren…",
+      "notes": "Höfliche **Eröffnungswendung** in formellen E-Mails und Bewerbungsschreiben. Drückt Bescheidenheit aus. Beispiel: *Je me permets de vous contacter afin de postuler au poste de…*",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["register", "formell", "bewerbung"]
+    },
+    {
+      "id": "salutations-distinguees",
+      "front": "Veuillez agréer mes salutations distinguées.",
+      "back": "Mit freundlichen Grüßen. (formelle Schlussformel)",
+      "notes": "Die **formellste Schlussformel** im Französischen, standardmäßig für Bewerbungsschreiben und offizielle Briefe. Varianten:\n\n| Formel | Ton |\n|---|---|\n| *Veuillez agréer mes salutations distinguées.* | sehr formell |\n| *Cordialement,* | formell-freundlich (E-Mail) |\n| *Bien cordialement,* | halbformell |\n| *Amitiés,* | persönlich/informell |",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["register", "formell", "bewerbung"]
+    },
+    {
+      "id": "une-entreprise",
+      "front": "une entreprise",
+      "back": "ein Unternehmen / eine Firma",
+      "notes": "*une grande entreprise* — ein Großunternehmen; *une PME (petite et moyenne entreprise)* — ein KMU; *une start-up* — ein Start-up. Im formellen Kontext schreibt man nie *une boîte* (sehr umgangssprachlich).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["travail", "vocabulaire"]
+    },
+    {
+      "id": "un-salaire",
+      "front": "un salaire / une rémunération",
+      "back": "ein Gehalt / eine Vergütung",
+      "notes": "*un salaire* ist der allgemeine Begriff; *une rémunération* ist formeller (Verträge, Verhandlungen). Wendung: *négocier son salaire* — sein Gehalt verhandeln; *le salaire brut/net* — das Brutto-/Nettogehalt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["travail", "vocabulaire"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-vokabular",
+      "type": "theory",
+      "title": "Wortschatz der Arbeitswelt",
+      "body": "# Arbeit und Beruf — le monde du travail\n\nAuf B1-Niveau brauchst du präzisen Wortschatz für **Beruf, Bewerbung und Arbeitsalltag**. Hier die wichtigsten Begriffe im Überblick:\n\n| Französisch | Deutsch | Hinweis |\n|---|---|---|\n| *un emploi* | eine Stelle, ein Job | allgemein |\n| *un poste* | eine Position (formell) | Bewerbungskontext |\n| *une entreprise* | ein Unternehmen | formal |\n| *un salaire / une rémunération* | ein Gehalt / eine Vergütung | *rémunération* formeller |\n| *un stage* | ein Praktikum | **falsche Freundin**: ≠ Bühne! |\n| *le chômage* | die Arbeitslosigkeit | *être au chômage* |\n| *embaucher* | einstellen | Arbeitgeber-Perspektive |\n| *postuler* | sich bewerben | formell |\n\n> **Tipp:** *un stage* ist eine der häufigsten **faux amies** zwischen Deutsch und Französisch. Merke: die Bühne heißt *une scène*."
+    },
+    {
+      "id": "theory-bewerbung",
+      "type": "theory",
+      "title": "Die Bewerbung — la candidature",
+      "body": "## Rund um die Bewerbung\n\nEine französische Bewerbung besteht klassisch aus **le CV** und **la lettre de motivation**. Beim Versand per E-Mail *joint* man seinen CV (joindre = beifügen).\n\n### Schlüsselverben und -ausdrücke\n\n| Ausdruck | Bedeutung |\n|---|---|\n| *postuler à une offre d'emploi* | sich auf eine Stellenanzeige bewerben |\n| *joindre son CV* | seinen Lebenslauf beifügen |\n| *être convoqué(e) à un entretien* | zu einem Gespräch eingeladen werden |\n| *être embauché(e)* | eingestellt werden |\n| *décrocher un poste* | eine Stelle bekommen (ugs.) |\n\n### Vorstellungsgespräch — l'entretien d'embauche\n\nHäufige Fragen und Antworten:\n\n- *Quelles sont vos qualités ?* → *Je suis motivé(e), rigoureux(se) et autonome.*\n- *Quelle expérience avez-vous ?* → *J'ai de l'expérience en marketing digital.*\n- *Pourquoi postulez-vous chez nous ?* → *Je suis convaincu(e) que votre entreprise…*\n\n> Im Gespräch gilt immer das **Vouvoiement** (Sie-Anrede) — das ist in Frankreich Standard und zeigt Professionalität."
+    },
+    {
+      "id": "theory-register",
+      "type": "theory",
+      "title": "Formelles Register — le registre formel",
+      "body": "## Formelles Französisch in der Bewerbung\n\nDie Sprache einer Bewerbung oder formellen E-Mail unterscheidet sich deutlich vom Alltag. Hier die wichtigsten Merkmale:\n\n### Formelle Eröffnungen und Schlussformeln\n\n| Formel | Verwendung |\n|---|---|\n| *Je me permets de vous contacter…* | Eröffnung (höfliche Bescheidenheit) |\n| *Suite à votre annonce, je souhaite postuler…* | Bezug auf Stellenanzeige |\n| *Dans l'attente de votre réponse…* | vor der Schlussformel |\n| *Veuillez agréer mes salutations distinguées.* | sehr formelle Schlussformel |\n| *Cordialement,* | formell-freundlich (E-Mail) |\n\n### Grammatik im formellen Kontext\n\n- **Conditionnel** als Höflichkeitsform: *Je souhaiterais vous rencontrer.* (Ich würde Sie gerne treffen.)\n- **Subjonctif** nach Wunsch/Notwendigkeit: *Il est essentiel que je puisse m'entretenir avec vous.*\n- **Vouvoiement** immer: *vous* statt *tu*, *votre CV* statt *ton CV*\n\n> **Register-Fehler vermeiden:** Umgangssprache (*boîte* statt *entreprise*, *boss* statt *directeur*, *ok* statt *bien entendu*) wirkt unprofessionell und kann zur Absage führen."
+    },
+    {
+      "id": "ex-cloze-postuler",
+      "type": "exercise",
+      "title": "Sich bewerben — postuler",
+      "exercise": {
+        "id": "ex-cloze-postuler",
+        "type": "cloze",
+        "prompt": "Ergänze das passende Verb in der richtigen Form. (*postuler*, formeller Kontext)",
+        "card_ids": ["postuler", "un-poste"],
+        "sentence": "Je ___ au poste de responsable marketing depuis ce matin.",
+        "blanks": [
+          { "accept": ["postule"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "postuler → je postule (Présent). Formelles Verb für 'sich bewerben'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-entretien",
+      "type": "exercise",
+      "title": "Stärken im Vorstellungsgespräch nennen",
+      "exercise": {
+        "id": "ex-free-entretien",
+        "type": "free_text",
+        "prompt": "Übersetze auf Französisch (formell, Vorstellungsgespräch): *Ich bin motiviert und ich habe Erfahrung im Projektmanagement.*",
+        "card_ids": ["je-suis-motive", "experience-en"],
+        "accept": [
+          "Je suis motivé et j'ai de l'expérience en gestion de projet.",
+          "Je suis motivée et j'ai de l'expérience en gestion de projet.",
+          "Je suis motivé(e) et j'ai de l'expérience en gestion de projet.",
+          "Je suis motivé et j'ai de l'expérience en management de projet.",
+          "Je suis très motivé et j'ai de l'expérience en gestion de projet."
+        ],
+        "hint": "Denke an: *je suis motivé(e)* + *j'ai de l'expérience en* + Fachbereich (ohne Artikel).",
+        "distractors": [
+          "Je suis motivé et j'ai de l'expérience dans le gestion de projet.",
+          "I am motivated and I have experience in project management.",
+          "Je suis motivé et j'ai une expérience en gestion de projet.",
+          "Je suis motivé et j'ai de l'expérience pour la gestion de projet."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-vocabulaire",
+      "type": "exercise",
+      "title": "Begriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-vocabulaire",
+        "type": "matching",
+        "prompt": "Ordne jedem französischen Begriff seine deutsche Bedeutung zu.",
+        "card_ids": ["un-stage", "le-chomage", "embaucher", "la-lettre-de-motivation", "un-entretien"],
+        "pairs": [
+          { "left": "un stage", "right": "ein Praktikum" },
+          { "left": "le chômage", "right": "die Arbeitslosigkeit" },
+          { "left": "embaucher", "right": "einstellen" },
+          { "left": "la lettre de motivation", "right": "das Anschreiben / Motivationsschreiben" },
+          { "left": "un entretien d'embauche", "right": "ein Vorstellungsgespräch" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pic-stage-scene",
+      "type": "exercise",
+      "title": "Falsche Freundin erkennen",
+      "exercise": {
+        "id": "ex-pic-stage-scene",
+        "type": "picture_choice",
+        "prompt": "Welches Bild passt zum Satz *Il fait un stage dans une entreprise.*?",
+        "card_ids": ["un-stage"],
+        "images": [
+          { "src": "assets/img/internship-office.png", "label": "Praktikant im Büro", "is_correct": "true" },
+          { "src": "assets/img/theater-stage.png", "label": "Theaterbühne" },
+          { "src": "assets/img/graduation.png", "label": "Abschlussfeier" },
+          { "src": "assets/img/unemployment-office.png", "label": "Arbeitsagentur" }
+        ],
+        "hint": "*un stage* = Praktikum, NICHT Bühne (*une scène*).",
+        "distractors": [
+          "Theaterbühne",
+          "Abschlussfeier",
+          "Arbeitsagentur"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-lettre-ouverture",
+      "type": "exercise",
+      "title": "Formelle Eröffnung bilden",
+      "exercise": {
+        "id": "ex-tiles-lettre-ouverture",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zur formellen Eröffnungswendung einer Bewerbung: *Ich erlaube mir, Sie zu kontaktieren, um mich um die Stelle zu bewerben.*",
+        "card_ids": ["je-me-permets", "postuler"],
+        "tiles": ["Je", "me", "permets", "de", "vous", "contacter", "afin", "de", "postuler", "au", "poste"],
+        "hint": "*Je me permets de vous contacter afin de postuler au poste…*",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-schlussformel",
+      "type": "exercise",
+      "title": "Formelle Schlussformel — Welche passt?",
+      "exercise": {
+        "id": "ex-free-schlussformel",
+        "type": "free_text",
+        "prompt": "Du schreibst ein formelles Bewerbungsschreiben auf Französisch. Welche Schlussformel ist korrekt und angemessen? Schreibe die **formellste** Standardformel auf.",
+        "card_ids": ["salutations-distinguees"],
+        "accept": [
+          "Veuillez agréer mes salutations distinguées.",
+          "Veuillez agréer, Madame, Monsieur, mes salutations distinguées.",
+          "Veuillez agréer mes salutations distinguées",
+          "Veuillez agréer, Monsieur, mes salutations distinguées.",
+          "Veuillez agréer, Madame, mes salutations distinguées."
+        ],
+        "hint": "Die formellste Schlussformel beginnt mit *Veuillez agréer…* und endet mit *…mes salutations distinguées.*",
+        "distractors": [
+          "Amitiés,",
+          "Cordialement,",
+          "À bientôt !",
+          "Bisous !"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-joindre-cv",
+      "type": "exercise",
+      "title": "Den Lebenslauf beifügen",
+      "exercise": {
+        "id": "ex-cloze-joindre-cv",
+        "type": "cloze",
+        "prompt": "Ergänze: *joindre* im Infinitiv mit dem richtigen Objekt — typische Wendung im Bewerbungskontext.",
+        "card_ids": ["le-cv", "la-lettre-de-motivation"],
+        "sentence": "Vous trouverez ci-joint mon ___ ainsi que ma lettre de motivation.",
+        "blanks": [
+          { "accept": ["CV", "curriculum vitæ", "curriculum vitae"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das franzöische Wort für Lebenslauf (Abkürzung).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-conditionnel-poli",
+      "type": "exercise",
+      "title": "Conditionnel als Höflichkeitsform",
+      "exercise": {
+        "id": "ex-free-conditionnel-poli",
+        "type": "free_text",
+        "prompt": "Übersetze höflich (Conditionnel, formelles Register): *Ich würde mich sehr freuen, Sie zu treffen.*",
+        "card_ids": ["je-me-permets", "un-entretien"],
+        "accept": [
+          "Je serais ravi(e) de vous rencontrer.",
+          "Je serais ravi de vous rencontrer.",
+          "Je serais ravie de vous rencontrer.",
+          "Je serais très heureux/heureuse de vous rencontrer.",
+          "Je serais très heureux de vous rencontrer.",
+          "J'aimerais beaucoup vous rencontrer."
+        ],
+        "hint": "Conditionnel von *être* + *ravi(e) de* + Infinitiv — oder *j'aimerais* + Infinitiv.",
+        "distractors": [
+          "Je suis ravi de vous rencontrer.",
+          "Je voudrais vous rencontrer très bien.",
+          "Je suis très content te rencontrer.",
+          "J'aime vous rencontrer."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-register",
+      "type": "exercise",
+      "title": "Register erkennen — formell oder umgangssprachlich?",
+      "exercise": {
+        "id": "ex-match-register",
+        "type": "matching",
+        "prompt": "Ordne jedem Ausdruck das passende Register zu.",
+        "card_ids": ["salutations-distinguees", "une-entreprise", "je-me-permets"],
+        "pairs": [
+          { "left": "Veuillez agréer mes salutations distinguées.", "right": "sehr formell (Bewerbung)" },
+          { "left": "Cordialement,", "right": "formell-freundlich (E-Mail)" },
+          { "left": "Amitiés,", "right": "persönlich / informell" },
+          { "left": "Bisous !", "right": "sehr informell / privat" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-au-chomage",
+      "type": "exercise",
+      "title": "Satz mit chômage bilden",
+      "exercise": {
+        "id": "ex-tiles-au-chomage",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Seit sechs Monaten ist er arbeitslos.*",
+        "card_ids": ["le-chomage"],
+        "tiles": ["Depuis", "six", "mois", ",", "il", "est", "au", "chômage"],
+        "hint": "*être au chômage* = arbeitslos sein; *depuis* + Zeitangabe für Dauer.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-stage-faux-ami",
+      "type": "exercise",
+      "title": "Die falsche Freundin vermeiden",
+      "exercise": {
+        "id": "ex-free-stage-faux-ami",
+        "type": "free_text",
+        "prompt": "Übersetze: *Sie macht ein dreimonatiges Praktikum in einem großen Unternehmen.*",
+        "card_ids": ["un-stage", "une-entreprise"],
+        "accept": [
+          "Elle fait un stage de trois mois dans une grande entreprise.",
+          "elle fait un stage de trois mois dans une grande entreprise",
+          "Elle fait un stage de 3 mois dans une grande entreprise.",
+          "Elle effectue un stage de trois mois dans une grande entreprise."
+        ],
+        "hint": "Praktikum = *un stage* (nicht *une scène*!); Unternehmen = *une entreprise*.",
+        "distractors": [
+          "Elle fait une scène de trois mois dans une grande entreprise.",
+          "Elle fait un stage de trois mois dans une grande boîte.",
+          "Elle fait un stage pour trois mois dans une grande entreprise.",
+          "Elle fait un stage de trois mois chez un grand entreprise."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-salaire-negocier",
+      "type": "exercise",
+      "title": "Über das Gehalt sprechen",
+      "exercise": {
+        "id": "ex-cloze-salaire-negocier",
+        "type": "cloze",
+        "prompt": "Ergänze das richtige Wort für *Gehalt* (formell: Vergütung) im Bewerbungskontext.",
+        "card_ids": ["un-salaire"],
+        "sentence": "Lors de l'entretien, il est possible de négocier sa ___.",
+        "blanks": [
+          { "accept": ["rémunération", "salaire"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Im formellen Kontext: *une rémunération*. Allgemeiner: *un salaire*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-embauche",
+      "type": "exercise",
+      "title": "Eingestellt werden",
+      "exercise": {
+        "id": "ex-free-embauche",
+        "type": "free_text",
+        "prompt": "Übersetze: *Das Unternehmen hat mich nach dem Vorstellungsgespräch eingestellt.*",
+        "card_ids": ["embaucher", "un-entretien", "une-entreprise"],
+        "accept": [
+          "L'entreprise m'a embauché après l'entretien.",
+          "L'entreprise m'a embauchée après l'entretien.",
+          "L'entreprise m'a embauché(e) après l'entretien.",
+          "La société m'a embauché(e) après l'entretien d'embauche.",
+          "L'entreprise m'a embauché après l'entretien d'embauche."
+        ],
+        "hint": "*embaucher* → Passé composé: *a embauché*. Nach dem Gespräch = *après l'entretien*.",
+        "distractors": [
+          "L'entreprise m'a employé après l'entretien.",
+          "L'entreprise m'a engagé lors de l'entretien.",
+          "La boîte m'a embauché après l'entretien.",
+          "L'entreprise me embauche après l'entretien."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

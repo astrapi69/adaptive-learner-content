@@ -1,0 +1,406 @@
+{
+  "id": "12-actualites-et-medias",
+  "title": "Nachrichten und Medien",
+  "description": "Medienwortschatz (Journal, Artikel, Émission usw.), Zeitungsartikel verstehen, die eigene Meinung zu Nachrichten äußern (*selon moi, d'après cet article, il paraît que*) und Quellen kritisch einordnen (*vérifier l'information, les fausses nouvelles*). Konnektoren (Lektion 08) und Meinungswendungen (Lektion 09) im Kontext.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "med-journal",
+      "front": "un journal (pl. des journaux)",
+      "back": "eine Zeitung (pl. Zeitungen)",
+      "notes": "**un journal** = Zeitung (Print oder digital). Nicht verwechseln mit *un journal télévisé* (Fernsehnachrichten) oder *un journal intime* (Tagebuch).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["wortschatz", "medien"]
+    },
+    {
+      "id": "med-article",
+      "front": "un article",
+      "back": "ein Artikel (Zeitungs-/Online-Artikel)",
+      "notes": "**un article de presse** = Zeitungsartikel. *Lire un article* = einen Artikel lesen. Überschrift → *un titre*; kurze Zusammenfassung unter der Überschrift → *un chapeau* (wörtl. Hut).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["wortschatz", "medien"]
+    },
+    {
+      "id": "med-titre",
+      "front": "un titre / les gros titres",
+      "back": "eine Überschrift / die Schlagzeilen",
+      "notes": "**un titre** = Überschrift eines Artikels. **les gros titres** = die Schlagzeilen (z. B. auf der Titelseite). *Faire la une* = auf der Titelseite erscheinen / Schlagzeilen machen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["wortschatz", "medien", "presse"]
+    },
+    {
+      "id": "med-chaine",
+      "front": "une chaîne (de télévision)",
+      "back": "ein Fernsehsender / -kanal",
+      "notes": "**une chaîne** = TV-Sender (*chaîne d'information* = Nachrichtensender). Im Radio: *une station de radio*. Achtung: *une chaîne* hat ein Zirkumflex auf dem *â*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["wortschatz", "medien", "fernsehen"]
+    },
+    {
+      "id": "med-emission",
+      "front": "une émission",
+      "back": "eine Sendung / ein Programm",
+      "notes": "**une émission** = Sendung im Radio oder Fernsehen. *une émission d'information* = Nachrichtensendung; *une émission de divertissement* = Unterhaltungssendung. Das Wort kommt von *émettre* (senden, ausstrahlen).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["wortschatz", "medien"]
+    },
+    {
+      "id": "med-reportage",
+      "front": "un reportage",
+      "back": "eine Reportage / ein Bericht",
+      "notes": "**un reportage** = ausführlicher Nachrichtenbericht, Reportage. *un(e) reporter* = Reporter/in. *faire un reportage sur qch* = über etw. berichten.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["wortschatz", "medien"]
+    },
+    {
+      "id": "med-actualite",
+      "front": "l'actualité / les actualités",
+      "back": "die aktuelle Nachrichtenlage / die Nachrichten",
+      "notes": "**l'actualité** (Sing.) = das aktuelle Geschehen, die Tagesnachrichten. **les actualités** (Pl.) = die Nachrichten(sendung). *suivre l'actualité* = die Nachrichten verfolgen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["wortschatz", "medien", "nachrichten"]
+    },
+    {
+      "id": "med-reseaux-sociaux",
+      "front": "les réseaux sociaux",
+      "back": "die sozialen Netzwerke / Social Media",
+      "notes": "**les réseaux sociaux** (Plural, immer mit Artikel *les*) = Social Media. *Sur les réseaux sociaux* = in den sozialen Netzwerken. Achtung: *un réseau* (Netzwerk) → Plural *des réseaux* (das -eau-Plural bekommt -x).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["wortschatz", "medien", "digital"]
+    },
+    {
+      "id": "med-source",
+      "front": "une source / vérifier la source",
+      "back": "eine Quelle / die Quelle überprüfen",
+      "notes": "**une source** = Quelle (von Informationen). *vérifier la source* = die Quelle prüfen. *une source fiable* = eine zuverlässige Quelle; *une source douteuse* = eine fragwürdige Quelle.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["wortschatz", "medien", "medienkompetenz"]
+    },
+    {
+      "id": "med-rubrique",
+      "front": "une rubrique",
+      "back": "eine Rubrik / Sparte (in einer Zeitung)",
+      "notes": "**une rubrique** = Themenbereich in einer Zeitung oder Website. Beispiele: *la rubrique politique, la rubrique culture, la rubrique sports*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["wortschatz", "medien", "presse"]
+    },
+    {
+      "id": "med-journaliste",
+      "front": "un(e) journaliste",
+      "back": "ein Journalist / eine Journalistin",
+      "notes": "**un journaliste / une journaliste** = Journalist/in. *un rédacteur en chef / une rédactrice en chef* = Chefredakteur/in. *la presse* = die Presse (als Institution).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["wortschatz", "medien", "personen"]
+    },
+    {
+      "id": "med-info-desinformation",
+      "front": "l'information ≠ la désinformation / les fausses nouvelles",
+      "back": "die Information ≠ die Desinformation / die Falschmeldungen (Fake News)",
+      "notes": "**l'information** (auch kurz *l'info*) = sachliche, korrekte Nachricht. **la désinformation** = gezielte Fehlinformation. **les fausses nouvelles** = falsche Nachrichten, Fake News. *diffuser de la désinformation* = Falschinformationen verbreiten.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["wortschatz", "medien", "medienkompetenz"]
+    },
+    {
+      "id": "med-selon-moi",
+      "front": "selon moi / d'après moi",
+      "back": "meiner Meinung nach / meiner Ansicht nach",
+      "notes": "**selon moi** und **d'après moi** sind austauschbar und leiten eine persönliche Meinung ein. Register: neutral bis leicht umgangssprachlich. Formeller: *à mon avis*, *de mon point de vue*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["meinung", "ausdruck", "b1"]
+    },
+    {
+      "id": "med-daprès-article",
+      "front": "d'après cet article / selon cet article",
+      "back": "laut diesem Artikel / diesem Artikel zufolge",
+      "notes": "**d'après cet article** = laut diesem Artikel. Nützlich, wenn man sich auf eine Quelle bezieht. *D'après l'article, les prix ont augmenté.* = Laut dem Artikel sind die Preise gestiegen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["meinung", "ausdruck", "quellenangabe"]
+    },
+    {
+      "id": "med-il-parait",
+      "front": "il paraît que… / on dit que…",
+      "back": "es heißt, dass … / man sagt, dass …",
+      "notes": "**il paraît que** + Indikativ = es heißt, es scheint, dass (Gerücht oder nicht gesichertes Wissen). **on dit que** = man sagt, dass. Beide Wendungen distanzieren den Sprecher von der Aussage — nützlich beim kritischen Einordnen von Nachrichten.\n\n*Il paraît que la situation s'améliore.* = Es heißt, die Lage verbessere sich.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["meinung", "ausdruck", "distanzierung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-wortschatz-medien",
+      "type": "theory",
+      "title": "Medienwortschatz: die wichtigsten Begriffe",
+      "body": "# Nachrichten und Medien — Wortschatz\n\nOhne die richtigen Nomen kann man weder einen Artikel zusammenfassen noch über Nachrichten diskutieren. Hier die wichtigsten Begriffe auf einen Blick:\n\n## Die Medien und ihre Inhalte\n\n| Französisch | Deutsch | Beispiel |\n|---|---|---|\n| **un journal** | eine Zeitung | *lire le journal* |\n| **un article** | ein Artikel | *un article de presse* |\n| **un titre / les gros titres** | eine Überschrift / die Schlagzeilen | *faire la une* |\n| **une émission** | eine Sendung | *une émission d'information* |\n| **une chaîne** | ein Sender/Kanal | *une chaîne d'info* |\n| **un reportage** | eine Reportage | *faire un reportage* |\n| **l'actualité / les actualités** | die Nachrichten | *suivre l'actualité* |\n| **les réseaux sociaux** | Social Media | *sur les réseaux sociaux* |\n| **une rubrique** | eine Rubrik | *la rubrique politique* |\n| **un(e) journaliste** | ein/e Journalist/in | *la presse* |\n\n## Kurzer Originaltext: Schlagzeile verstehen\n\n> **« Les réseaux sociaux, principale source d'information pour les moins de 25 ans »**\n> *(d'après une étude publiée dans *Le Monde*)*\n\nWas sagt uns diese Schlagzeile?\n- **les réseaux sociaux** = Social Media (Subjekt)\n- **principale source d'information** = hauptsächliche Informationsquelle (Prädikatsnomen)\n- **pour les moins de 25 ans** = für die unter 25-Jährigen\n\nDie Hauptaussage: Für junge Menschen unter 25 sind soziale Netzwerke die wichtigste Nachrichtenquelle.\n\n> **Tipp:** Schlagzeilen im Französischen stehen oft ohne Verb (*les réseaux sociaux = principale source*) oder im Präsens. Achte immer zuerst auf Subjekt + Schlüsselwort."
+    },
+    {
+      "id": "theory-meinung-ausdruck",
+      "type": "theory",
+      "title": "Meinung äußern und Quellen einordnen",
+      "body": "## Meinung äußern zu Nachrichten\n\nAuf B1-Niveau reicht es nicht mehr, nur zu sagen *je pense que…*. Hier sind die wichtigsten Wendungen, um eine Nachricht einzuordnen und kommentieren:\n\n| Wendung | Bedeutung | Register |\n|---|---|---|\n| **selon moi** / **d'après moi** | meiner Meinung nach | neutral |\n| **à mon avis** | meiner Ansicht nach | neutral–formell |\n| **de mon point de vue** | aus meiner Sicht | formell |\n| **d'après cet article** | laut diesem Artikel | neutral (Quellenangabe) |\n| **selon cette source** | laut dieser Quelle | neutral |\n| **il paraît que** + Indikativ | es heißt, dass | Distanzierung vom Gerücht |\n| **on dit que** + Indikativ | man sagt, dass | allgemeines Hörensagen |\n\n## Kritisch einordnen: *vérifier l'information*\n\nMedienkompetenz auf Französisch heißt **éducation aux médias**. Nützliche Ausdrücke:\n\n- *vérifier la source* = die Quelle überprüfen\n- *une source fiable / douteuse* = eine zuverlässige / fragwürdige Quelle\n- *la désinformation / les fausses nouvelles* = Desinformation / Fake News\n- *diffuser une information* = eine Information verbreiten\n- *recouper les informations* = Informationen gegenchecken\n\n> **Register-Hinweis:** *selon moi* und *d'après moi* wirken natürlich im Gespräch und in Aufsätzen. In sehr formellen Texten bevorzugt man *à mon avis* oder *de mon point de vue*. **Vermeide das Anglizismus** *fake news* im formellen Schreiben — lieber *les fausses nouvelles* oder *la désinformation*."
+    },
+    {
+      "id": "theory-konnektoren-kontext",
+      "type": "theory",
+      "title": "Konnektoren und Meinungswendungen im Kontext",
+      "body": "## Konnektoren (Lektion 08) beim Kommentieren von Nachrichten\n\nWenn du einen Artikel besprichst oder deine Meinung äußerst, brauchst du **Konnektoren**, um deine Aussagen zu verknüpfen:\n\n| Funktion | Konnektor | Beispiel im Medienkontext |\n|---|---|---|\n| **Hinzufügen** | *de plus, par ailleurs* | *De plus, l'article cite des experts.* |\n| **Gegensatz** | *cependant, en revanche* | *Cependant, d'autres sources contredisent cela.* |\n| **Folge** | *donc, c'est pourquoi* | *C'est pourquoi il faut vérifier la source.* |\n| **Begründung** | *car, parce que* | *Car cette source n'est pas fiable.* |\n| **Einräumung** | *certes… mais* | *Certes, l'article est intéressant, mais…* |\n\n## Meinungswendungen (Lektion 09) kombiniert\n\nSo baut man auf B1-Niveau einen kurzen Kommentar auf:\n\n> *D'après cet article, les jeunes s'informent surtout via les réseaux sociaux. **Selon moi**, c'est préoccupant, **car** les fausses nouvelles s'y diffusent très rapidement. **Cependant**, il faut reconnaître que certaines chaînes en ligne sont fiables. **C'est pourquoi** il est important de **vérifier la source** avant de partager une information.*\n\n**Übersetzung:** Laut diesem Artikel informieren sich junge Menschen vor allem über Social Media. Meiner Meinung nach ist das beunruhigend, da sich Falschmeldungen dort sehr schnell verbreiten. Dennoch muss man anerkennen, dass manche Online-Sender zuverlässig sind. Deshalb ist es wichtig, die Quelle zu überprüfen, bevor man eine Information weiterleitet.\n\n> **Tipp zum Schreiben:** Beginne deinen Kommentar mit einer Quellenangabe (*d'après cet article / selon cette étude*), führe dann deine Meinung ein (*selon moi / à mon avis*) und schließe mit einem Konnektor der Folge (*donc / c'est pourquoi*)."
+    },
+    {
+      "id": "ex-match-wortschatz",
+      "type": "exercise",
+      "title": "Medienbegriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-wortschatz",
+        "type": "matching",
+        "prompt": "Ordne den französischen Medienbegriff seiner deutschen Bedeutung zu.",
+        "card_ids": ["med-journal", "med-emission", "med-titre", "med-reportage", "med-rubrique"],
+        "pairs": [
+          { "left": "un journal", "right": "eine Zeitung" },
+          { "left": "une émission", "right": "eine Sendung" },
+          { "left": "les gros titres", "right": "die Schlagzeilen" },
+          { "left": "un reportage", "right": "eine Reportage" },
+          { "left": "une rubrique", "right": "eine Rubrik" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-daprès-article",
+      "type": "exercise",
+      "title": "Quellenangabe mit d'après",
+      "exercise": {
+        "id": "ex-cloze-daprès-article",
+        "type": "cloze",
+        "prompt": "Ergänze die passende Quellenwendung. Auf Deutsch: *Laut diesem Artikel sind die Preise gestiegen.*",
+        "card_ids": ["med-daprès-article"],
+        "sentence": "___ cet article, les prix ont augmenté.",
+        "blanks": [
+          { "accept": ["D'après", "Selon"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Zwei Wendungen sind möglich: *D'après…* oder *Selon…*"
+      }
+    },
+    {
+      "id": "ex-free-selon-moi",
+      "type": "exercise",
+      "title": "Meinung zu einer Schlagzeile äußern",
+      "exercise": {
+        "id": "ex-free-selon-moi",
+        "type": "free_text",
+        "prompt": "Übersetze: *Meiner Meinung nach ist es wichtig, die Quelle zu überprüfen.*",
+        "card_ids": ["med-selon-moi", "med-source"],
+        "accept": [
+          "Selon moi, il est important de vérifier la source.",
+          "D'après moi, il est important de vérifier la source.",
+          "À mon avis, il est important de vérifier la source.",
+          "selon moi, il est important de verifier la source",
+          "De mon point de vue, il est important de vérifier la source."
+        ],
+        "hint": "Meinungseinleitung (*selon moi / d'après moi / à mon avis*) + *il est important de* + Infinitiv.",
+        "distractors": [
+          "Je pense vérifier la source est important.",
+          "Selon moi il est important vérifier la source.",
+          "D'après moi, il faut la source vérifier."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-fausses-nouvelles",
+      "type": "exercise",
+      "title": "Satz über Fake News aufbauen",
+      "exercise": {
+        "id": "ex-tiles-fausses-nouvelles",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum Satz: *Es ist wichtig, Falschmeldungen nicht zu verbreiten.*",
+        "card_ids": ["med-info-desinformation"],
+        "tiles": ["Il", "est", "important", "de", "ne", "pas", "diffuser", "de", "fausses", "nouvelles"],
+        "hint": "*il est important de + Infinitiv*; Verneinung: *ne pas + Infinitiv*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-source-fiable",
+      "type": "exercise",
+      "title": "Die richtige Übersetzung wählen",
+      "exercise": {
+        "id": "ex-pic-source-fiable",
+        "type": "picture_choice",
+        "prompt": "Welcher französische Satz bedeutet *Laut dieser Quelle sind die Informationen falsch*?",
+        "card_ids": ["med-source", "med-daprès-article"],
+        "images": [
+          { "src": "assets/img/news-check-1.png", "label": "Selon cette source, les informations sont fausses.", "is_correct": "true" },
+          { "src": "assets/img/news-check-2.png", "label": "Selon cette source, les informations sont vraies." },
+          { "src": "assets/img/news-check-3.png", "label": "D'après cette source fausse, l'information est fiable." },
+          { "src": "assets/img/news-check-4.png", "label": "Cette source dit que les informations fausses." }
+        ],
+        "hint": "*Selon cette source* = laut dieser Quelle; *les informations sont fausses* = die Informationen sind falsch.",
+        "distractors": [
+          "Selon cette source, les informations sont vraies.",
+          "D'après cette source fausse, l'information est fiable.",
+          "Cette source dit que les informations fausses."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-il-parait",
+      "type": "exercise",
+      "title": "Distanzierung mit il paraît que",
+      "exercise": {
+        "id": "ex-cloze-il-parait",
+        "type": "cloze",
+        "prompt": "Ergänze die passende Distanzierungswendung: *Es heißt, dass die Situation schwierig ist.*",
+        "card_ids": ["med-il-parait"],
+        "sentence": "___ que la situation est difficile.",
+        "blanks": [
+          { "accept": ["Il paraît", "On dit"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*Il paraît que* oder *On dit que* + Indikativ drücken Distanz zur Aussage aus."
+      }
+    },
+    {
+      "id": "ex-match-meinung-wendungen",
+      "type": "exercise",
+      "title": "Meinungswendungen und ihre Bedeutung",
+      "exercise": {
+        "id": "ex-match-meinung-wendungen",
+        "type": "matching",
+        "prompt": "Ordne jede Meinungswendung ihrer deutschen Bedeutung zu.",
+        "card_ids": ["med-selon-moi", "med-daprès-article", "med-il-parait"],
+        "pairs": [
+          { "left": "selon moi", "right": "meiner Meinung nach" },
+          { "left": "d'après cet article", "right": "laut diesem Artikel" },
+          { "left": "il paraît que", "right": "es heißt, dass" },
+          { "left": "on dit que", "right": "man sagt, dass" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-on-dit-que",
+      "type": "exercise",
+      "title": "Hörensagen ausdrücken",
+      "exercise": {
+        "id": "ex-free-on-dit-que",
+        "type": "free_text",
+        "prompt": "Übersetze: *Man sagt, dass diese Zeitung nicht zuverlässig ist.*",
+        "card_ids": ["med-il-parait", "med-journal"],
+        "accept": [
+          "On dit que ce journal n'est pas fiable.",
+          "on dit que ce journal n'est pas fiable",
+          "Il paraît que ce journal n'est pas fiable.",
+          "On dit que ce journal n'est pas fiable.",
+          "Il paraît que ce journal n'est pas fiable."
+        ],
+        "hint": "*On dit que* / *Il paraît que* + Indikativ; *fiable* = zuverlässig (Gegenteil: *pas fiable*).",
+        "distractors": [
+          "On dit ce journal n'est pas fiable.",
+          "Il paraît ce journal ne soit pas fiable.",
+          "On dit que ce journal n'est fiable."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-kommentar-artikel",
+      "type": "exercise",
+      "title": "Einen Artikel kommentieren",
+      "exercise": {
+        "id": "ex-free-kommentar-artikel",
+        "type": "free_text",
+        "prompt": "Übersetze: *Laut diesem Artikel haben sich die Nachrichten in den sozialen Netzwerken sehr schnell verbreitet.*",
+        "card_ids": ["med-daprès-article", "med-reseaux-sociaux", "med-actualite"],
+        "accept": [
+          "D'après cet article, les informations se sont diffusées très vite sur les réseaux sociaux.",
+          "Selon cet article, les informations se sont diffusées très vite sur les réseaux sociaux.",
+          "D'après cet article, les nouvelles se sont répandues très rapidement sur les réseaux sociaux.",
+          "Selon cet article, les nouvelles se sont diffusées très rapidement sur les réseaux sociaux.",
+          "D'après cet article, les informations se sont répandues très vite sur les réseaux sociaux."
+        ],
+        "hint": "*D'après cet article* + Passé composé von *se diffuser* oder *se répandre*; *les réseaux sociaux* = soziale Netzwerke.",
+        "distractors": [
+          "D'après cet article, les informations se diffusent très vite sur les réseaux sociaux.",
+          "Selon cet article, les informations ont diffusé très vite sur les réseaux sociaux.",
+          "D'après cet article, les informations diffusaient vite sur les réseaux sociaux."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-verifier-source",
+      "type": "exercise",
+      "title": "Medienkompetenz auf Französisch",
+      "exercise": {
+        "id": "ex-tiles-verifier-source",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Bevor du eine Information teilst, überprüfe immer die Quelle.*",
+        "card_ids": ["med-source", "med-info-desinformation"],
+        "tiles": ["Avant", "de", "partager", "une", "information", ",", "vérifiez", "toujours", "la", "source"],
+        "hint": "*Avant de + Infinitiv* (bevor man etw. tut); *vérifier la source* = die Quelle überprüfen.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-rubrique-politique",
+      "type": "exercise",
+      "title": "Wortschatz: Rubriken einer Zeitung",
+      "exercise": {
+        "id": "ex-cloze-rubrique-politique",
+        "type": "cloze",
+        "prompt": "Ergänze den passenden Begriff: *Die Zeitung hat eine Politik-Rubrik und eine Kultur-Rubrik.*",
+        "card_ids": ["med-rubrique", "med-journal"],
+        "sentence": "Le journal a une ___ politique et une rubrique culture.",
+        "blanks": [
+          { "accept": ["rubrique"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Wort für Themenbereich / Sparte in einer Zeitung."
+      }
+    },
+    {
+      "id": "ex-free-chaine-info",
+      "type": "exercise",
+      "title": "Über Medienkonsum sprechen",
+      "exercise": {
+        "id": "ex-free-chaine-info",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich schaue jeden Abend die Nachrichtensendung auf einem Nachrichtensender.*",
+        "card_ids": ["med-emission", "med-chaine"],
+        "accept": [
+          "Je regarde l'émission d'information tous les soirs sur une chaîne d'info.",
+          "je regarde l'émission d'information tous les soirs sur une chaine d'info",
+          "Je regarde le journal télévisé tous les soirs sur une chaîne d'information.",
+          "Chaque soir, je regarde une émission d'information sur une chaîne d'info.",
+          "Je regarde les actualités tous les soirs sur une chaîne d'information."
+        ],
+        "hint": "*une émission d'information* oder *le journal télévisé* = Nachrichtensendung; *une chaîne d'info* = Nachrichtensender; *tous les soirs* = jeden Abend.",
+        "distractors": [
+          "Je regarde une rubrique d'information tous les soirs sur une chaîne.",
+          "Je vois l'actualité tous les soirs dans un journal.",
+          "Je regarde tous les soirs le reportage sur une émission d'info."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "id": "01-subjonctif-present",
+  "title": "Le subjonctif présent",
+  "description": "Der Subjonctif présent als Modus der Subjektivität: Bildung, die wichtigsten unregelmäßigen Formen und die Auslöser (Wunsch, Gefühl, Zweifel, Notwendigkeit) — mit dem Kontrast zum Indikativ. Auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "subjonctif-konzept",
+      "front": "le subjonctif",
+      "back": "der Subjonctif (Konjunktiv)",
+      "notes": "Kein Tempus, sondern ein **Modus**: Er drückt Subjektivität aus — Wunsch, Gefühl, Zweifel, Notwendigkeit. Steht fast immer nach **que** in einem Nebensatz.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "subjonctif"]
+    },
+    {
+      "id": "subjonctif-bildung",
+      "front": "que je parle, que nous parlions",
+      "back": "Bildung des Subjonctif",
+      "notes": "Stamm = 3. Person Plural Präsens ohne **-ent** (*ils parlent* → *parl-*) + Endungen **-e, -es, -e, -ions, -iez, -ent**. *que je parle, que tu parles, qu'il parle …*",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Stamm aus der ils-Form des Présent.",
+      "tags": ["grammatik", "subjonctif"]
+    },
+    {
+      "id": "subj-etre",
+      "front": "que je sois, qu'il soit",
+      "back": "être im Subjonctif",
+      "notes": "Unregelmäßig: *que je **sois**, que tu sois, qu'il **soit**, que nous **soyons**, que vous soyez, qu'ils **soient***.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "subjonctif", "unregelmaessig"]
+    },
+    {
+      "id": "subj-avoir",
+      "front": "que j'aie, qu'il ait",
+      "back": "avoir im Subjonctif",
+      "notes": "Unregelmäßig: *que j'**aie**, que tu aies, qu'il **ait**, que nous **ayons**, que vous ayez, qu'ils **aient***.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "subjonctif", "unregelmaessig"]
+    },
+    {
+      "id": "subj-faire",
+      "front": "que je fasse",
+      "back": "faire im Subjonctif",
+      "notes": "Stamm **fass-**: *que je fasse, qu'il fasse, que nous fassions, qu'ils fassent*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "subjonctif", "unregelmaessig"]
+    },
+    {
+      "id": "subj-aller",
+      "front": "que j'aille, que nous allions",
+      "back": "aller im Subjonctif",
+      "notes": "Zwei Stämme: *que j'**aille**, qu'il aille, qu'ils aillent*, aber *que nous **allions**, que vous alliez*.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "subjonctif", "unregelmaessig"]
+    },
+    {
+      "id": "subj-pouvoir-savoir",
+      "front": "que je puisse, que je sache",
+      "back": "pouvoir / savoir im Subjonctif",
+      "notes": "*pouvoir* → Stamm **puiss-** (*que je puisse*); *savoir* → Stamm **sach-** (*que je sache*).",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "subjonctif", "unregelmaessig"]
+    },
+    {
+      "id": "il-faut-que",
+      "front": "il faut que",
+      "back": "es ist nötig, dass / man muss",
+      "notes": "Notwendigkeit → Subjonctif: *Il faut que tu **fasses** tes devoirs.* — Du musst deine Hausaufgaben machen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["ausloeser", "subjonctif"]
+    },
+    {
+      "id": "vouloir-que",
+      "front": "vouloir que",
+      "back": "wollen, dass",
+      "notes": "Wunsch/Wille → Subjonctif: *Je veux que tu **viennes**.* Achtung: bei gleichem Subjekt steht der Infinitiv (*Je veux venir*).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["ausloeser", "subjonctif"]
+    },
+    {
+      "id": "etre-content-que",
+      "front": "être content(e) que",
+      "back": "froh sein, dass",
+      "notes": "Gefühl → Subjonctif: *Je suis content que tu **sois** là.* Ebenso: *avoir peur que, être triste que, c'est dommage que*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["ausloeser", "subjonctif", "emotion"]
+    },
+    {
+      "id": "douter-que",
+      "front": "douter que / ne pas penser que",
+      "back": "bezweifeln, dass / nicht glauben, dass",
+      "notes": "Zweifel und Verneinung der Meinung → Subjonctif: *Je doute qu'il **ait** raison.* *Je ne pense pas qu'elle **vienne**.*",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["ausloeser", "subjonctif", "zweifel"]
+    },
+    {
+      "id": "esperer-penser-indicatif",
+      "front": "espérer que / penser que (+ Indikativ!)",
+      "back": "hoffen / denken, dass (+ Indikativ)",
+      "notes": "**Kein** Subjonctif! Sicherheit/Hoffnung → Indikativ: *J'espère qu'il **vient**.* *Je pense qu'elle **a** raison.* Erst die **Verneinung** (*je ne pense pas que*) löst den Subjonctif aus.",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "Der wichtigste Kontrast: nicht jeder que-Satz braucht Subjonctif.",
+      "tags": ["ausloeser", "indikativ", "kontrast"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Ein neuer Modus: der Subjonctif",
+      "body": "# Le subjonctif présent\n\nBis A2 hast du fast alles im **Indikativ** ausgedrückt — dem Modus der **Tatsachen**. Der **Subjonctif** ist dagegen der Modus der **Subjektivität**: Er erscheint, wenn ein Satz einen **Wunsch, ein Gefühl, einen Zweifel oder eine Notwendigkeit** ausdrückt.\n\n> Der Subjonctif ist **kein Tempus**, sondern ein **Modus**. Er steht fast immer im Nebensatz nach **que**.\n\n## Bildung (regelmäßig)\n\nDen Stamm bildest du aus der **3. Person Plural des Présent** ohne **-ent**:\n\n*ils parl**ent*** → Stamm **parl-**\n\nDann die Endungen anhängen:\n\n| Person | Endung | Beispiel |\n|---|---|---|\n| que je | **-e** | que je parle |\n| que tu | **-es** | que tu parles |\n| qu'il/elle | **-e** | qu'il parle |\n| que nous | **-ions** | que nous parlions |\n| que vous | **-iez** | que vous parliez |\n| qu'ils/elles | **-ent** | qu'ils parlent |\n\nViele Formen klingen wie der Indikativ — der Unterschied zeigt sich vor allem bei **nous/vous** (*nous parlions*) und bei unregelmäßigen Verben."
+    },
+    {
+      "id": "step-irregular",
+      "type": "theory",
+      "title": "Die wichtigsten unregelmäßigen Formen",
+      "body": "## Die musst du können\n\nEinige sehr häufige Verben sind unregelmäßig — sie kommen ständig vor:\n\n| Verb | Subjonctif (que je / qu'il) | que nous |\n|---|---|---|\n| **être** | que je **sois** / qu'il **soit** | que nous **soyons** |\n| **avoir** | que j'**aie** / qu'il **ait** | que nous **ayons** |\n| **faire** | que je **fasse** | que nous fassions |\n| **aller** | que j'**aille** | que nous **allions** |\n| **pouvoir** | que je **puisse** | que nous puissions |\n| **savoir** | que je **sache** | que nous sachions |\n| **vouloir** | que je **veuille** | que nous voulions |\n\nBeachte die **zwei Stämme** bei *aller* (aille / allions) und *vouloir* (veuille / voulions): die nous/vous-Form ist anders.\n\n> Tipp: Lerne zuerst sicher **sois/soit** (être) und **aie/ait** (avoir) — sie stecken in unzähligen Wendungen."
+    },
+    {
+      "id": "step-ausloeser",
+      "type": "theory",
+      "title": "Wann steht der Subjonctif? Die Auslöser",
+      "body": "## Vier große Auslöser-Gruppen\n\nDer Subjonctif wird durch einen **Ausdruck im Hauptsatz** ausgelöst:\n\n| Gruppe | Beispiel-Auslöser | Satz |\n|---|---|---|\n| **Notwendigkeit** | il faut que, il est important que | Il faut que tu **fasses** ça. |\n| **Wille/Wunsch** | vouloir que, souhaiter que | Je veux que tu **viennes**. |\n| **Gefühl** | être content/triste que, avoir peur que | Je suis content que tu **sois** là. |\n| **Zweifel/Verneinung** | douter que, ne pas penser que | Je doute qu'il **ait** raison. |\n\n## Der entscheidende Kontrast: nicht jeder *que*-Satz!\n\nAusdrücke der **Sicherheit oder Hoffnung** verlangen den **Indikativ**:\n\n- *J'espère qu'il **vient**.* (espérer → Indikativ)\n- *Je pense qu'elle **a** raison.* (penser, **bejaht** → Indikativ)\n\nAber sobald **Zweifel oder Verneinung** ins Spiel kommen, kippt es in den Subjonctif:\n\n- *Je **ne** pense **pas** qu'elle **ait** raison.*\n\n## Register-Hinweis\n\nDer Subjonctif ist **kein gehobenes Schönschreiben**, sondern im Alltag allgegenwärtig — *il faut que…*, *je voudrais que…* hört man ständig. Wer ihn vermeidet, klingt schnell unnatürlich."
+    },
+    {
+      "id": "ex-cloze-faut-faire",
+      "type": "exercise",
+      "title": "Notwendigkeit ausdrücken",
+      "exercise": {
+        "id": "ex-cloze-faut-faire",
+        "type": "cloze",
+        "prompt": "Ergänze die Subjonctif-Form von *faire* (que tu).",
+        "card_ids": ["il-faut-que", "subj-faire"],
+        "sentence": "Il faut que tu ___ tes devoirs avant de sortir.",
+        "blanks": [
+          { "accept": ["fasses"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Stamm *fass-* + Endung für *tu* (-es)."
+      }
+    },
+    {
+      "id": "ex-match-irregular",
+      "type": "exercise",
+      "title": "Unregelmäßige Formen zuordnen",
+      "exercise": {
+        "id": "ex-match-irregular",
+        "type": "matching",
+        "prompt": "Ordne jedem Verb seine Subjonctif-Form (qu'il/elle) zu.",
+        "card_ids": ["subj-etre", "subj-avoir", "subj-faire", "subj-aller", "subj-pouvoir-savoir"],
+        "pairs": [
+          { "left": "être", "right": "qu'il soit" },
+          { "left": "avoir", "right": "qu'il ait" },
+          { "left": "faire", "right": "qu'il fasse" },
+          { "left": "aller", "right": "qu'il aille" },
+          { "left": "pouvoir", "right": "qu'il puisse" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-veux-viennes",
+      "type": "exercise",
+      "title": "Einen Wunsch ausdrücken",
+      "exercise": {
+        "id": "ex-free-veux-viennes",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich möchte, dass du heute Abend kommst.*",
+        "card_ids": ["vouloir-que", "subjonctif-bildung"],
+        "accept": [
+          "Je veux que tu viennes ce soir.",
+          "je veux que tu viennes ce soir",
+          "Je voudrais que tu viennes ce soir.",
+          "j'aimerais que tu viennes ce soir",
+          "Je souhaite que tu viennes ce soir."
+        ],
+        "hint": "vouloir que + Subjonctif von *venir* (que tu viennes). *Je voudrais que…* ist höflicher.",
+        "distractors": [
+          "Je veux que tu viens ce soir.",
+          "Je veux que tu venir ce soir.",
+          "Je te veux venir ce soir."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-faut-partir",
+      "type": "exercise",
+      "title": "Welcher Satz ist korrekt?",
+      "exercise": {
+        "id": "ex-pic-faut-partir",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet korrekt *Wir müssen jetzt gehen* (mit Subjonctif)?",
+        "card_ids": ["il-faut-que"],
+        "images": [
+          { "src": "assets/img/clock-leave-1.png", "label": "Il faut que nous partions maintenant.", "is_correct": "true" },
+          { "src": "assets/img/clock-leave-2.png", "label": "Il faut que nous partons maintenant." },
+          { "src": "assets/img/clock-leave-3.png", "label": "Il faut que nous partir maintenant." },
+          { "src": "assets/img/clock-leave-4.png", "label": "Il faut nous partions maintenant." }
+        ],
+        "hint": "*il faut que* + Subjonctif; *partir* → que nous *partions*.",
+        "distractors": [
+          "Il faut que nous partons maintenant.",
+          "Il faut que nous partir maintenant.",
+          "Il faut nous partions maintenant."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-content-sois",
+      "type": "exercise",
+      "title": "Ein Gefühl ausdrücken",
+      "exercise": {
+        "id": "ex-tiles-content-sois",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich bin froh, dass du hier bist.*",
+        "card_ids": ["etre-content-que", "subj-etre"],
+        "tiles": ["Je", "suis", "content", "que", "tu", "sois", "là"],
+        "hint": "être content que + Subjonctif von *être* (que tu *sois*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-doute-ait",
+      "type": "exercise",
+      "title": "Zweifel ausdrücken",
+      "exercise": {
+        "id": "ex-free-doute-ait",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich bezweifle, dass er recht hat.*",
+        "card_ids": ["douter-que", "subj-avoir"],
+        "accept": [
+          "Je doute qu'il ait raison.",
+          "je doute qu'il ait raison",
+          "Je doute qu'il ait raison",
+          "Je ne suis pas sûr qu'il ait raison.",
+          "Je ne pense pas qu'il ait raison."
+        ],
+        "hint": "douter que + Subjonctif von *avoir*: *qu'il ait*.",
+        "distractors": [
+          "Je doute qu'il a raison.",
+          "Je doute qu'il avoir raison.",
+          "Je doute il a raison."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-espere-indicatif",
+      "type": "exercise",
+      "title": "Der Kontrast: espérer + Indikativ",
+      "exercise": {
+        "id": "ex-cloze-espere-indicatif",
+        "type": "cloze",
+        "prompt": "Ergänze *venir* in der RICHTIGEN Form. Achtung: *espérer que* verlangt den Indikativ!",
+        "card_ids": ["esperer-penser-indicatif"],
+        "sentence": "J'espère qu'il ___ à la fête ce soir.",
+        "blanks": [
+          { "accept": ["vient", "viendra"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Nach *espérer que* steht KEIN Subjonctif, sondern Indikativ (Präsens *vient* oder Futur *viendra*)."
+      }
+    },
+    {
+      "id": "ex-free-dommage-soit",
+      "type": "exercise",
+      "title": "Bedauern ausdrücken",
+      "exercise": {
+        "id": "ex-free-dommage-soit",
+        "type": "free_text",
+        "prompt": "Übersetze: *Es ist schade, dass sie nicht da ist.*",
+        "card_ids": ["etre-content-que", "subj-etre"],
+        "accept": [
+          "C'est dommage qu'elle ne soit pas là.",
+          "c'est dommage qu'elle ne soit pas là",
+          "Dommage qu'elle ne soit pas là.",
+          "Il est dommage qu'elle ne soit pas là."
+        ],
+        "hint": "c'est dommage que + Subjonctif von *être* (qu'elle *soit*); Verneinung *ne … pas* umschließt *soit*.",
+        "distractors": [
+          "C'est dommage qu'elle n'est pas là.",
+          "C'est dommage qu'elle ne soit pas ici être.",
+          "C'est dommage elle ne soit pas là."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-ausloeser",
+      "type": "exercise",
+      "title": "Subjonctif oder Indikativ?",
+      "exercise": {
+        "id": "ex-match-ausloeser",
+        "type": "matching",
+        "prompt": "Ordne jedem Auslöser den verlangten Modus zu.",
+        "card_ids": ["vouloir-que", "douter-que", "esperer-penser-indicatif", "il-faut-que"],
+        "pairs": [
+          { "left": "il faut que", "right": "Subjonctif" },
+          { "left": "vouloir que", "right": "Subjonctif" },
+          { "left": "douter que", "right": "Subjonctif" },
+          { "left": "espérer que", "right": "Indikativ" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-faut-soyons",
+      "type": "exercise",
+      "title": "Subjonctif von être (nous)",
+      "exercise": {
+        "id": "ex-free-faut-soyons",
+        "type": "free_text",
+        "prompt": "Übersetze: *Wir müssen pünktlich sein.* (mit *il faut que nous*)",
+        "card_ids": ["il-faut-que", "subj-etre"],
+        "accept": [
+          "Il faut que nous soyons à l'heure.",
+          "il faut que nous soyons à l'heure",
+          "Il faut que nous soyons ponctuels.",
+          "Il faut qu'on soit à l'heure."
+        ],
+        "hint": "il faut que + nous-Form von être im Subjonctif: *soyons*. (*qu'on soit* ist die umgangssprachliche Variante.)",
+        "distractors": [
+          "Il faut que nous sommes à l'heure.",
+          "Il faut que nous être à l'heure.",
+          "Il faut nous soyons à l'heure."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-ne-pense-pas",
+      "type": "exercise",
+      "title": "Verneinte Meinung kippt in den Subjonctif",
+      "exercise": {
+        "id": "ex-cloze-ne-pense-pas",
+        "type": "cloze",
+        "prompt": "Ergänze *être* (qu'elle). Achtung: die verneinte Meinung verlangt den Subjonctif.",
+        "card_ids": ["douter-que", "subj-etre"],
+        "sentence": "Je ne pense pas qu'elle ___ d'accord avec nous.",
+        "blanks": [
+          { "accept": ["soit"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*ne pas penser que* → Subjonctif; être → qu'elle *soit*."
+      }
+    },
+    {
+      "id": "ex-tiles-faut-aille",
+      "type": "exercise",
+      "title": "Bilde mit aller",
+      "exercise": {
+        "id": "ex-tiles-faut-aille",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Es ist nötig, dass er zum Arzt geht.*",
+        "card_ids": ["il-faut-que", "subj-aller"],
+        "tiles": ["Il", "faut", "qu'il", "aille", "chez", "le", "médecin"],
+        "hint": "il faut que + Subjonctif von *aller*: *qu'il aille*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-veux-saches",
+      "type": "exercise",
+      "title": "savoir im Subjonctif",
+      "exercise": {
+        "id": "ex-free-veux-saches",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich möchte, dass du die Wahrheit weißt.*",
+        "card_ids": ["vouloir-que", "subj-pouvoir-savoir"],
+        "accept": [
+          "Je veux que tu saches la vérité.",
+          "je veux que tu saches la vérité",
+          "Je voudrais que tu saches la vérité.",
+          "j'aimerais que tu saches la vérité"
+        ],
+        "hint": "vouloir que + Subjonctif von *savoir* (Stamm *sach-*): *que tu saches*.",
+        "distractors": [
+          "Je veux que tu sais la vérité.",
+          "Je veux que tu savoir la vérité.",
+          "Je veux que tu connaisses la vérité."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

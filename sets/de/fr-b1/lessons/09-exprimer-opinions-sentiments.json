@@ -1,0 +1,398 @@
+{
+  "id": "09-exprimer-opinions-sentiments",
+  "title": "Gefühle und Meinungen ausdrücken",
+  "description": "Meinungen, Gewissheit, Zweifel und Gefühle auf Französisch ausdrücken — mit dem Schwerpunkt auf der bewussten Wahl zwischen Indikativ und Subjonctif. Aufbauend auf Lektionen 01–02 (Subjonctif présent). B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "je-pense-que",
+      "front": "je pense que / je trouve que / je crois que",
+      "back": "ich denke/glaube/finde, dass (+ Indikativ)",
+      "notes": "Bejahte Meinungsausdrücke verlangen den **Indikativ**: *Je pense qu'il **a** raison.* — *Je trouve que c'est **intéressant**.* — *Je crois qu'elle **viendra**.* Erst die **Verneinung** (*je ne pense pas que*) löst den Subjonctif aus.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Positive Meinung → Indikativ. Verneinung → Subjonctif.",
+      "tags": ["meinung", "indikativ", "kontrast"]
+    },
+    {
+      "id": "il-me-semble-que",
+      "front": "il me semble que / à mon avis",
+      "back": "es scheint mir, dass / meiner Meinung nach (+ Indikativ)",
+      "notes": "*Il me semble que* folgt der Indikativ: *Il me semble qu'il **a** tort.* — *À mon avis* ist eine freie Einleitung (kein Nebensatz): *À mon avis, c'est une bonne idée.* Beide drücken eine persönliche Einschätzung aus.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["meinung", "indikativ"]
+    },
+    {
+      "id": "je-suis-sur-que",
+      "front": "je suis sûr(e) que / il est évident que",
+      "back": "ich bin sicher, dass / es ist offensichtlich, dass (+ Indikativ)",
+      "notes": "Ausdrücke der **Gewissheit** verlangen den Indikativ: *Je suis sûr qu'elle **vient**.* — *Il est évident que tu **as** raison.* Gewissheit ≠ Zweifel; daher kein Subjonctif.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gewissheit", "indikativ"]
+    },
+    {
+      "id": "je-ne-pense-pas-que",
+      "front": "je ne pense pas que / je ne crois pas que",
+      "back": "ich glaube/denke nicht, dass (+ Subjonctif)",
+      "notes": "Die **Verneinung** der Meinung kippt in den Subjonctif: *Je ne pense pas qu'il **ait** raison.* — *Je ne crois pas qu'elle **vienne**.* Merkhilfe: **Bejahung → Indikativ, Verneinung → Subjonctif**.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Verneinte Meinung = Subjonctif. Vergleiche: je pense que (Ind.) vs. je ne pense pas que (Subj.).",
+      "tags": ["zweifel", "subjonctif", "kontrast"]
+    },
+    {
+      "id": "je-doute-que",
+      "front": "je doute que / il est possible que",
+      "back": "ich bezweifle, dass / es ist möglich, dass (+ Subjonctif)",
+      "notes": "**Zweifel** und **Möglichkeit** lösen den Subjonctif aus: *Je doute qu'il **puisse** venir.* — *Il est possible qu'elle **soit** en retard.* Anders als *il est certain que* oder *il est évident que* (Indikativ).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["zweifel", "subjonctif"]
+    },
+    {
+      "id": "je-suis-content-que",
+      "front": "je suis content(e) que / je suis déçu(e) que",
+      "back": "ich bin froh/enttäuscht, dass (+ Subjonctif)",
+      "notes": "**Gefühle** lösen immer den Subjonctif aus: *Je suis content que tu **sois** là.* — *Je suis déçu qu'il ne **vienne** pas.* Alle Gefühlsausdrücke nach *que* folgen dieser Regel.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gefuehl", "subjonctif"]
+    },
+    {
+      "id": "ca-m-etonne-que",
+      "front": "ça m'étonne que / j'ai peur que",
+      "back": "es überrascht mich, dass / ich habe Angst, dass (+ Subjonctif)",
+      "notes": "*Ça m'étonne que tu ne le **saches** pas.* — *J'ai peur qu'il **soit** en danger.* Bei *j'ai peur que* kann *ne* expletif hinzutreten (ohne Verneinungsbedeutung): *J'ai peur qu'il ne **vienne** pas* = Ich habe Angst, dass er nicht kommt.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["gefuehl", "subjonctif"]
+    },
+    {
+      "id": "je-regrette-que",
+      "front": "je regrette que / il est dommage que",
+      "back": "ich bedauere, dass / es ist schade, dass (+ Subjonctif)",
+      "notes": "Bedauern → Subjonctif: *Je regrette que vous ne **puissiez** pas venir.* — *Il est dommage qu'il **fasse** si mauvais temps.* Ebenso: *c'est dommage que + Subjonctif*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gefuehl", "subjonctif"]
+    },
+    {
+      "id": "je-suis-d-accord",
+      "front": "je suis d'accord / en effet / tout à fait",
+      "back": "ich stimme zu / tatsächlich / absolut (Zustimmung)",
+      "notes": "Höfliche **Zustimmung**: *Je suis d'accord avec toi.* — *En effet, c'est une bonne idée.* — *Tout à fait !* Register: neutral bis förmlich. Umgangssprachlich auch: *Exactement !* oder *C'est vrai !*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["diskurs", "zustimmung", "register"]
+    },
+    {
+      "id": "pas-du-tout",
+      "front": "pas du tout / je ne suis pas convaincu(e) / permettez-moi de nuancer",
+      "back": "überhaupt nicht / ich bin nicht überzeugt / erlauben Sie mir zu differenzieren (Widerspruch)",
+      "notes": "Höfliches **Widersprechen** auf B1–B2: *Pas du tout !* (direkt) — *Je ne suis pas convaincu(e) que ce soit la meilleure solution.* (Beachte: Subjonctif nach *convaincu que* in verneinter Form!) — *Permettez-moi de nuancer :* (förmlicher Einstieg). Weniger direkt als *Non !*, höflicher als *C'est faux !*",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "Je ne suis pas convaincu que + Subjonctif (verneinter Überzeugungsausdruck).",
+      "tags": ["diskurs", "widerspruch", "register"]
+    },
+    {
+      "id": "indikativ-vs-subjonctif-uebersicht",
+      "front": "je pense que (Ind.) ↔ je ne pense pas que (Subj.)",
+      "back": "Indikativ vs. Subjonctif: der Schlüsselkontrast",
+      "notes": "Der **wichtigste Kontrast** dieser Lektion:\n\n| Ausdruck | Modus |\n|---|---|\n| je pense que | Indikativ |\n| je ne pense pas que | Subjonctif |\n| je crois que | Indikativ |\n| je ne crois pas que | Subjonctif |\n| il est évident que | Indikativ |\n| il est possible que | Subjonctif |\n\nFaustregel: **Gewissheit/bejahte Meinung → Indikativ; Zweifel/Verneinung/Gefühl → Subjonctif.**",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["kontrast", "indikativ", "subjonctif"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-meinung-indikativ",
+      "type": "theory",
+      "title": "Meinung und Gewissheit: + Indikativ",
+      "body": "# Gefühle und Meinungen ausdrücken\n\n## Teil 1: Meinung und Gewissheit → Indikativ\n\nBejahte Meinungsausdrücke und Ausdrücke der Gewissheit verlangen den **Indikativ**, weil der Sprecher von der Aussage **überzeugt** ist (oder zumindest so tut):\n\n| Ausdruck | Bedeutung | Beispiel |\n|---|---|---|\n| **je pense que** | ich denke, dass | *Je pense qu'il **a** raison.* |\n| **je trouve que** | ich finde, dass | *Je trouve que c'est **difficile**.* |\n| **je crois que** | ich glaube, dass | *Je crois qu'elle **viendra**.* |\n| **il me semble que** | es scheint mir, dass | *Il me semble qu'il **a** tort.* |\n| **je suis sûr(e) que** | ich bin sicher, dass | *Je suis sûre qu'il **vient**.* |\n| **il est évident que** | es ist offensichtlich, dass | *Il est évident qu'il **a** raison.* |\n\n> **Tipp:** *À mon avis* (meiner Meinung nach) leitet keinen Nebensatz ein — danach steht einfach ein normaler Satz im Indikativ.\n\n## Der entscheidende Punkt\n\n*Je pense que* ist **positiv** → Indikativ. Sobald du verneinst (*je ne pense pas que*), wechselst du in den Subjonctif. Diesen Kontrast üben wir in dieser Lektion ausführlich."
+    },
+    {
+      "id": "theory-zweifel-subjonctif",
+      "type": "theory",
+      "title": "Zweifel, Verneinung und Gefühl: + Subjonctif",
+      "body": "## Teil 2: Zweifel, Verneinung, Gefühl → Subjonctif\n\nDer Subjonctif wird ausgelöst, wenn der Hauptsatz **Zweifel**, die **verneinte Meinung** oder ein **Gefühl** ausdrückt:\n\n| Gruppe | Ausdruck | Beispiel |\n|---|---|---|\n| **Verneinte Meinung** | je ne pense pas que | *Je ne pense pas qu'il **ait** raison.* |\n| **Verneinte Meinung** | je ne crois pas que | *Je ne crois pas qu'elle **vienne**.* |\n| **Zweifel** | je doute que | *Je doute qu'il **puisse** venir.* |\n| **Möglichkeit** | il est possible que | *Il est possible qu'elle **soit** en retard.* |\n| **Gefühl** | je suis content(e) que | *Je suis content qu'il **soit** là.* |\n| **Gefühl** | je suis déçu(e) que | *Je suis déçue qu'il ne **vienne** pas.* |\n| **Gefühl** | ça m'étonne que | *Ça m'étonne que tu ne le **saches** pas.* |\n| **Gefühl** | j'ai peur que | *J'ai peur qu'il **soit** en danger.* |\n| **Bedauern** | je regrette que | *Je regrette que vous ne **puissiez** pas venir.* |\n| **Bedauern** | il est dommage que | *Il est dommage qu'il **fasse** mauvais.* |\n\n> **Merksatz:** Verneinte Meinung = Zweifel = Subjonctif. Bejahte Meinung = Gewissheit = Indikativ."
+    },
+    {
+      "id": "theory-diskurs-register",
+      "type": "theory",
+      "title": "Zustimmen und höflich widersprechen — Register",
+      "body": "## Teil 3: Zustimmen, Widersprechen und Register\n\n### Zustimmung\n\n| Ausdruck | Register | Bedeutung |\n|---|---|---|\n| **je suis d'accord** | neutral | ich stimme zu |\n| **en effet** | neutral/förmlich | tatsächlich, in der Tat |\n| **tout à fait** | neutral | absolut, ganz genau |\n| **exactement** | neutral | genau |\n| **c'est vrai** | umgangssprachlich | das stimmt |\n\n### Höflicher Widerspruch\n\n| Ausdruck | Register | Bedeutung |\n|---|---|---|\n| **pas du tout** | direkt | überhaupt nicht |\n| **je ne suis pas convaincu(e)** | neutral/förmlich | ich bin nicht überzeugt |\n| **je ne suis pas sûr(e) que** | förmlich | ich bin nicht sicher, dass (+ Subjonctif!) |\n| **permettez-moi de nuancer** | förmlich | erlauben Sie mir zu differenzieren |\n\n### Modusfall beim Widersprechen\n\nAchtung: *je ne suis pas convaincu(e) **que*** löst wie alle verneinten Überzeugungsausdrücke den **Subjonctif** aus:\n\n> *Je ne suis pas convaincu que ce **soit** la meilleure solution.*\n\nDagegen: *Je suis convaincu qu'il **a** raison.* → Indikativ (positive Gewissheit).\n\n### Register-Hinweis\n\n- **Informell:** *c'est vrai, exactement, pas du tout, tu as tort*\n- **Neutral:** *je suis d'accord, en effet, je ne suis pas convaincu*\n- **Förmlich:** *tout à fait, permettez-moi de nuancer, je tiens à souligner*\n\nIm mündlichen Alltag (B1) reichen die neutralen Ausdrücke völlig aus."
+    },
+    {
+      "id": "ex-match-ausloeser-modus",
+      "type": "exercise",
+      "title": "Auslöser: Indikativ oder Subjonctif?",
+      "exercise": {
+        "id": "ex-match-ausloeser-modus",
+        "type": "matching",
+        "prompt": "Ordne jedem Ausdruck den verlangten Modus zu.",
+        "card_ids": ["je-pense-que", "je-ne-pense-pas-que", "je-suis-sur-que", "je-doute-que", "je-suis-content-que"],
+        "pairs": [
+          { "left": "je pense que", "right": "Indikativ" },
+          { "left": "je ne pense pas que", "right": "Subjonctif" },
+          { "left": "je suis sûr(e) que", "right": "Indikativ" },
+          { "left": "je doute que", "right": "Subjonctif" },
+          { "left": "je suis content(e) que", "right": "Subjonctif" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-pense-indicatif",
+      "type": "exercise",
+      "title": "je pense que + Indikativ",
+      "exercise": {
+        "id": "ex-cloze-pense-indicatif",
+        "type": "cloze",
+        "prompt": "Ergänze *avoir* in der richtigen Form. Achtung: *je pense que* (bejaht) verlangt den **Indikativ**!",
+        "card_ids": ["je-pense-que", "indikativ-vs-subjonctif-uebersicht"],
+        "sentence": "Je pense qu'il ___ raison sur ce point.",
+        "blanks": [
+          { "accept": ["a"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Bejahte Meinung → Indikativ Présent: *il a*. Nicht *ait* (das wäre Subjonctif nach *je ne pense pas que*)."
+      }
+    },
+    {
+      "id": "ex-cloze-ne-pense-pas-subjonctif",
+      "type": "exercise",
+      "title": "je ne pense pas que + Subjonctif",
+      "exercise": {
+        "id": "ex-cloze-ne-pense-pas-subjonctif",
+        "type": "cloze",
+        "prompt": "Ergänze *avoir* in der richtigen Form. Jetzt ist die Meinung **verneint** — das verlangt den Subjonctif!",
+        "card_ids": ["je-ne-pense-pas-que", "indikativ-vs-subjonctif-uebersicht"],
+        "sentence": "Je ne pense pas qu'il ___ raison sur ce point.",
+        "blanks": [
+          { "accept": ["ait"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Verneinte Meinung → Subjonctif: *avoir* → *qu'il ait*."
+      }
+    },
+    {
+      "id": "ex-free-je-doute",
+      "type": "exercise",
+      "title": "Zweifel ausdrücken",
+      "exercise": {
+        "id": "ex-free-je-doute",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich bezweifle, dass sie pünktlich kommen kann.*",
+        "card_ids": ["je-doute-que"],
+        "accept": [
+          "Je doute qu'elle puisse arriver à l'heure.",
+          "je doute qu'elle puisse arriver à l'heure",
+          "Je doute qu'elle puisse être à l'heure.",
+          "je doute qu'elle puisse être à l'heure",
+          "Je doute qu'elle puisse venir à temps."
+        ],
+        "hint": "je doute que + Subjonctif von *pouvoir* (Stamm *puiss-*): *qu'elle puisse*.",
+        "distractors": [
+          "Je doute qu'elle peut arriver à l'heure.",
+          "Je doute qu'elle vient à l'heure.",
+          "Je doute elle puisse arriver à l'heure."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-content-sois",
+      "type": "exercise",
+      "title": "Freude ausdrücken",
+      "exercise": {
+        "id": "ex-free-content-sois",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich bin froh, dass du endlich hier bist.*",
+        "card_ids": ["je-suis-content-que"],
+        "accept": [
+          "Je suis content que tu sois enfin là.",
+          "je suis content que tu sois enfin là",
+          "Je suis content(e) que tu sois enfin là.",
+          "Je suis contente que tu sois enfin là.",
+          "Je suis heureux que tu sois enfin là."
+        ],
+        "hint": "je suis content(e) que + Subjonctif von *être* (que tu *sois*). Nicht *es* (das wäre Indikativ).",
+        "distractors": [
+          "Je suis content que tu es enfin là.",
+          "Je suis content que tu sois enfin ici être.",
+          "Je suis content tu sois enfin là."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-il-est-possible",
+      "type": "exercise",
+      "title": "Möglichkeit ausdrücken",
+      "exercise": {
+        "id": "ex-tiles-il-est-possible",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Es ist möglich, dass sie zu spät kommt.*",
+        "card_ids": ["je-doute-que"],
+        "tiles": ["Il", "est", "possible", "qu'elle", "soit", "en", "retard"],
+        "hint": "il est possible que + Subjonctif von *être*: *qu'elle soit*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-je-regrette",
+      "type": "exercise",
+      "title": "Bedauern ausdrücken",
+      "exercise": {
+        "id": "ex-free-je-regrette",
+        "type": "free_text",
+        "prompt": "Übersetze: *Es ist schade, dass er nicht kommen kann.*",
+        "card_ids": ["je-regrette-que"],
+        "accept": [
+          "C'est dommage qu'il ne puisse pas venir.",
+          "c'est dommage qu'il ne puisse pas venir",
+          "Il est dommage qu'il ne puisse pas venir.",
+          "Je regrette qu'il ne puisse pas venir.",
+          "Dommage qu'il ne puisse pas venir."
+        ],
+        "hint": "il est dommage que / c'est dommage que + Subjonctif von *pouvoir*: *qu'il ne puisse pas*.",
+        "distractors": [
+          "C'est dommage qu'il ne peut pas venir.",
+          "C'est dommage qu'il ne vient pas.",
+          "C'est dommage qu'il ne pouvoir venir."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-meinung-modus",
+      "type": "exercise",
+      "title": "Welcher Satz ist korrekt?",
+      "exercise": {
+        "id": "ex-pic-meinung-modus",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz drückt korrekt aus: *Ich glaube nicht, dass das eine gute Idee ist.*",
+        "card_ids": ["je-ne-pense-pas-que", "indikativ-vs-subjonctif-uebersicht"],
+        "images": [
+          { "src": "assets/img/opinion-subj-1.png", "label": "Je ne crois pas que ce soit une bonne idée.", "is_correct": "true" },
+          { "src": "assets/img/opinion-subj-2.png", "label": "Je ne crois pas que c'est une bonne idée." },
+          { "src": "assets/img/opinion-subj-3.png", "label": "Je ne crois pas que ce être une bonne idée." },
+          { "src": "assets/img/opinion-subj-4.png", "label": "Je ne crois pas ce soit une bonne idée." }
+        ],
+        "hint": "Verneinte Meinung → Subjonctif: *être* → *que ce soit*. Ohne *que* nach dem Auslöser geht es nicht.",
+        "distractors": [
+          "Je ne crois pas que c'est une bonne idée.",
+          "Je ne crois pas que ce être une bonne idée.",
+          "Je ne crois pas ce soit une bonne idée."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-gefuehl-ausdruck",
+      "type": "exercise",
+      "title": "Gefühlsausdrücke zuordnen",
+      "exercise": {
+        "id": "ex-match-gefuehl-ausdruck",
+        "type": "matching",
+        "prompt": "Ordne jedem französischen Ausdruck seine deutsche Bedeutung zu.",
+        "card_ids": ["je-suis-content-que", "ca-m-etonne-que", "je-regrette-que", "je-doute-que"],
+        "pairs": [
+          { "left": "je suis déçu(e) que", "right": "ich bin enttäuscht, dass" },
+          { "left": "ça m'étonne que", "right": "es überrascht mich, dass" },
+          { "left": "je regrette que", "right": "ich bedauere, dass" },
+          { "left": "j'ai peur que", "right": "ich habe Angst, dass" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-ca-m-etonne",
+      "type": "exercise",
+      "title": "ça m'étonne que + Subjonctif",
+      "exercise": {
+        "id": "ex-cloze-ca-m-etonne",
+        "type": "cloze",
+        "prompt": "Ergänze *savoir* (que tu) im Subjonctif. Gefühlsausdruck → Subjonctif.",
+        "card_ids": ["ca-m-etonne-que"],
+        "sentence": "Ça m'étonne que tu ne le ___ pas.",
+        "blanks": [
+          { "accept": ["saches"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*savoir* → Subjonctif-Stamm *sach-* + Endung -es: *que tu saches*."
+      }
+    },
+    {
+      "id": "ex-tiles-je-suis-d-accord",
+      "type": "exercise",
+      "title": "Höflich zustimmen",
+      "exercise": {
+        "id": "ex-tiles-je-suis-d-accord",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich stimme dir absolut zu, das stimmt wirklich.*",
+        "card_ids": ["je-suis-d-accord"],
+        "tiles": ["Je", "suis", "tout", "à", "fait", "d'accord", "avec", "toi"],
+        "hint": "Zustimmung: *je suis d'accord avec* + Person. *Tout à fait* verstärkt die Zustimmung.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-pas-convaincu",
+      "type": "exercise",
+      "title": "Höflich widersprechen",
+      "exercise": {
+        "id": "ex-free-pas-convaincu",
+        "type": "free_text",
+        "prompt": "Übersetze höflich auf Französisch: *Ich bin nicht überzeugt, dass das die beste Lösung ist.*",
+        "card_ids": ["pas-du-tout", "je-ne-pense-pas-que"],
+        "accept": [
+          "Je ne suis pas convaincu que ce soit la meilleure solution.",
+          "je ne suis pas convaincu que ce soit la meilleure solution",
+          "Je ne suis pas convaincue que ce soit la meilleure solution.",
+          "Je ne suis pas convaincu que ce soit la bonne solution.",
+          "Je ne suis pas sûr que ce soit la meilleure solution."
+        ],
+        "hint": "je ne suis pas convaincu(e) que + Subjonctif: *être* → *que ce soit*. Verneinter Überzeugungsausdruck → Subjonctif.",
+        "distractors": [
+          "Je ne suis pas convaincu que c'est la meilleure solution.",
+          "Je ne suis pas convaincu que ce serait la meilleure solution.",
+          "Je ne suis pas convaincu c'est la meilleure solution."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-a-mon-avis",
+      "type": "exercise",
+      "title": "Meinung mit à mon avis",
+      "exercise": {
+        "id": "ex-free-a-mon-avis",
+        "type": "free_text",
+        "prompt": "Übersetze: *Meiner Meinung nach ist das eine sehr gute Idee.*",
+        "card_ids": ["il-me-semble-que"],
+        "accept": [
+          "À mon avis, c'est une très bonne idée.",
+          "à mon avis, c'est une très bonne idée",
+          "À mon avis c'est une très bonne idée.",
+          "Selon moi, c'est une très bonne idée.",
+          "Il me semble que c'est une très bonne idée."
+        ],
+        "hint": "*À mon avis* leitet keinen Nebensatz ein → kein Subjonctif, einfacher Indikativ. *Selon moi* ist ein gleichwertiges Synonym.",
+        "distractors": [
+          "À mon avis, c'est une très bonne idée que je pense.",
+          "À mon avis que c'est une très bonne idée.",
+          "À mon avis, c'était une très bonne idée être."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

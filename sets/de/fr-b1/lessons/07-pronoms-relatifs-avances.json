@@ -1,0 +1,381 @@
+{
+  "id": "07-pronoms-relatifs-avances",
+  "title": "Relativpronomen vertieft",
+  "description": "Fortgeschrittene Relativpronomen auf B1-Niveau: dont (= de + Bezug), ce qui / ce que / ce dont (unbestimmter Bezug), lequel/laquelle/lesquels/lesquelles (nach Präposition für Sachen) mit Verschmelzungen auquel, duquel usw., sowie où für Ort und Zeit. Kurzer Rückgriff auf qui/que. Auf Deutsch erklärt für Deutschsprachige.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "rel-qui-que",
+      "front": "qui / que",
+      "back": "der/die/das … (Subjekt) / den/die/das … (Objekt)",
+      "notes": "Kurze Wiederholung aus A1/A2: **qui** = Subjekt (*l'homme **qui** parle*), **que** = direktes Objekt (*l'homme **que** je vois*). Dont und lequel bauen darauf auf.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "relativpronomen", "wiederholung"]
+    },
+    {
+      "id": "rel-dont",
+      "front": "dont",
+      "back": "dessen/deren; von dem/der; worüber/wovon",
+      "notes": "**dont** ersetzt *de + Nomen/Pronomen*. Zwei Hauptfunktionen:\n\n1. Verb + *de*: *parler de → le livre **dont** je parle* (das Buch, worüber ich spreche)\n2. Besitz (= deutschen Genitiv): *la femme **dont** la voiture est rouge* (die Frau, deren Auto rot ist)\n\nMerkregel: Sobald im Relativsatz ein *de* (oder *du/des*) auftaucht, das sich auf das Bezugswort bezieht, nimmt man **dont**.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "dont = de + quoi/qui — wenn du de siehst, denk an dont.",
+      "tags": ["grammatik", "relativpronomen", "dont"]
+    },
+    {
+      "id": "rel-ce-qui-ce-que",
+      "front": "ce qui / ce que",
+      "back": "was (Subjekt) / was (Objekt) — ohne konkretes Bezugsnomen",
+      "notes": "Wenn **kein bestimmtes Nomen** als Bezugswort vorhanden ist, verwendet man **ce qui** oder **ce que**:\n\n- **ce qui** = Subjekt des Relativsatzes: *Je ne sais pas **ce qui** se passe.* (was passiert)\n- **ce que** = Objekt des Relativsatzes: *Dis-moi **ce que** tu veux.* (was du willst)\n\nMerkregel: *ce **qui*** — das folgende Verb hat kein eigenes Subjekt mehr (*qui* ist es). *ce **que*** — das folgende Verb hat bereits ein Subjekt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "relativpronomen", "ce-qui", "ce-que"]
+    },
+    {
+      "id": "rel-ce-dont",
+      "front": "ce dont",
+      "back": "was … (von dem/wovon) — ohne konkretes Bezugsnomen",
+      "notes": "**ce dont** = *ce* + *dont*, wenn kein Bezugsnomen vorhanden ist und der Relativsatz ein Verb mit *de* enthält:\n\n*C'est **ce dont** j'ai besoin.* (Das ist, was ich brauche — *avoir besoin de*)\n\n*Je t'explique **ce dont** il s'agit.* (*s'agir de*)\n\nKontrastübersicht:\n\n| Form | Funktion | Beispiel |\n|---|---|---|\n| ce qui | was (Subj.) | ce qui m'intéresse |\n| ce que | was (Obj.) | ce que je veux |\n| ce dont | was … wovon | ce dont j'ai besoin |",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "relativpronomen", "ce-dont"]
+    },
+    {
+      "id": "rel-lequel",
+      "front": "lequel / laquelle / lesquels / lesquelles",
+      "back": "welcher/welche/welches — nach Präposition (für Sachen)",
+      "notes": "Nach einer Präposition nimmt man für **Sachen** (und formell auch für Personen) **lequel** usw. — nie *que* oder *qui*:\n\n*la table **sur laquelle** je pose mon livre* (der Tisch, auf den ich mein Buch lege)\n\nGeschlecht und Zahl müssen mit dem Bezugsnomen übereinstimmen:\n\n| Bezugsnomen | Form |\n|---|---|\n| mask. Sg. | lequel |\n| fem. Sg. | laquelle |\n| mask. Pl. | lesquels |\n| fem. Pl. | lesquelles |\n\n**Verschmelzungen mit à und de:**\n\n| Grundform | à + | de + |\n|---|---|---|\n| lequel | **auquel** | **duquel** |\n| laquelle | à laquelle | de laquelle |\n| lesquels | **auxquels** | **desquels** |\n| lesquelles | **auxquelles** | **desquelles** |\n\nBeispiel: *le projet **auquel** je travaille* (*travailler à*)",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "Präposition + Sache → lequel-Reihe. à + lequel = auquel.",
+      "tags": ["grammatik", "relativpronomen", "lequel"]
+    },
+    {
+      "id": "rel-ou-ort-zeit",
+      "front": "où",
+      "back": "wo (Ort) / als / in dem (Zeit)",
+      "notes": "**où** steht für Ort **und** Zeit:\n\n- Ort: *la ville **où** j'habite* (die Stadt, wo ich wohne)\n- Zeit: *le jour **où** je l'ai rencontré* (der Tag, an dem / als ich ihn traf)\n\nHäufiger Fehler: *le jour **que*** — falsch! Bei Zeitausdrücken immer **où**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "relativpronomen", "ou"]
+    },
+    {
+      "id": "rel-dont-parler",
+      "front": "le livre dont je parle",
+      "back": "das Buch, worüber ich spreche",
+      "notes": "*parler **de** qch* → dont ersetzt *de + ce livre*. **dont** steht direkt nach dem Bezugsnomen, der Rest des Satzes folgt in normaler Wortstellung (Subjekt – Verb – evtl. Objekt).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "dont", "beispiel"]
+    },
+    {
+      "id": "rel-dont-besitz",
+      "front": "la femme dont la voiture est rouge",
+      "back": "die Frau, deren Auto rot ist",
+      "notes": "**dont** für Besitz: *la femme* → *la voiture de la femme* → *la femme **dont** la voiture est rouge*. Wichtig: Nach *dont* kommt sofort der **bestimmte Artikel** (la voiture), **nicht** *sa voiture*.",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "Nach dont: bestimmter Artikel, nie Possessivpronomen (sa/son).",
+      "tags": ["grammatik", "dont", "besitz"]
+    },
+    {
+      "id": "rel-ce-qui-interesse",
+      "front": "ce qui m'intéresse",
+      "back": "was mich interessiert",
+      "notes": "*intéresser* braucht ein Subjekt — das liefert **ce qui**: *Je fais **ce qui** m'intéresse.* Vergleiche: *Je fais **ce que** tu veux.* — hier ist *tu* das Subjekt des Relativsatzes, also **ce que**.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "ce-qui", "beispiel"]
+    },
+    {
+      "id": "rel-ce-dont-besoin",
+      "front": "ce dont j'ai besoin",
+      "back": "was ich brauche / das, was ich brauche",
+      "notes": "*avoir besoin **de** qch* → ce dont: *Dis-moi **ce dont** tu as besoin.* Sag mir, was du brauchst.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "ce-dont", "beispiel"]
+    },
+    {
+      "id": "rel-sur-laquelle",
+      "front": "la table sur laquelle je travaille",
+      "back": "der Tisch, an dem ich arbeite",
+      "notes": "*sur* + Sache → **laquelle** (fem. Sg., weil *la table*). Falsch wäre: *la table **que** je travaille sur* — Präposition darf nicht am Satzende hängen (anders als im Deutschen/Englischen).",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "lequel", "beispiel"]
+    },
+    {
+      "id": "rel-auquel",
+      "front": "le projet auquel je participe",
+      "back": "das Projekt, an dem ich teilnehme",
+      "notes": "*participer **à** qch* → *à + lequel* = **auquel** (mask. Sg.). Feminin: *la réunion **à laquelle** je participe* (keine Verschmelzung bei *à laquelle*).",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "lequel", "auquel", "beispiel"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-dont",
+      "type": "theory",
+      "title": "dont — der vielseitigste Relativpronomen",
+      "body": "# dont: de + Bezugswort\n\nAus A1/A2 kennst du bereits **qui** (Subjekt) und **que** (Objekt). Jetzt kommt **dont** — es ersetzt immer *de + Bezugsnomen/Pronomen*.\n\n## Zwei Hauptanwendungen\n\n### 1. Verb oder Ausdruck mit *de*\n\n*parler de, avoir besoin de, être content de, se souvenir de …*\n\n> *C'est le livre **dont** je parle.* — Das ist das Buch, worüber ich spreche.\n> *Voilà **ce dont** j'ai besoin.* — Das ist das, was ich brauche.\n\n### 2. Besitz (= deutscher Genitiv)\n\n> *la femme **dont** la voiture est rouge* — die Frau, deren Auto rot ist\n\nNach **dont** folgt sofort der **bestimmte Artikel** des Besitzgegenstands — **kein** Possessivpronomen (*sa*, *son*).\n\n## Wortstellung nach dont\n\nIm Relativsatz gilt normale Wortstellung: **Subjekt – Verb – (Ergänzung)**. Das *de* verschwindet, weil es in *dont* steckt.\n\n| Hauptsatz | + dont-Satz | Bedeutung |\n|---|---|---|\n| C'est le film | dont je me souviens. | woran ich mich erinnere |\n| C'est l'ami | dont la sœur est médecin. | dessen Schwester Ärztin ist |\n| Voilà ce | dont elle a envie. | was sie gerne möchte |\n\n> **Stil-Hinweis:** *dont* ist im Alltag sehr frequent — es klingt natürlich und ist keineswegs geschwollen. Vermeide Konstruktionen wie *le livre sur lequel je parle* (falsch!) oder umgangssprachliches *le livre que je parle de* (familier, schriftlich vermeiden)."
+    },
+    {
+      "id": "theory-ce-qui-ce-que-ce-dont",
+      "type": "theory",
+      "title": "ce qui, ce que, ce dont — Relativpronomen ohne Bezugsnomen",
+      "body": "# Wenn kein Bezugsnomen da ist\n\nManchmal bezieht sich der Relativsatz nicht auf ein einzelnes Nomen, sondern auf etwas Unbestimmtes oder den ganzen vorigen Satz. Dann verwendet man **ce qui / ce que / ce dont**.\n\n## Übersicht\n\n| Form | Funktion im Relativsatz | Beispiel | Bedeutung |\n|---|---|---|---|\n| **ce qui** | Subjekt | *Je ne comprends pas ce qui se passe.* | was passiert |\n| **ce que** | direktes Objekt | *Dis-moi ce que tu veux.* | was du willst |\n| **ce dont** | Ergänzung zu Verb mit *de* | *C'est ce dont j'ai besoin.* | was ich brauche |\n\n## Wie unterscheide ich ce qui von ce que?\n\n**Trick:** Ersetze *ce qui/que* probehalber durch *la chose qui/que*:\n\n- Hat der Relativsatz kein eigenes Subjekt? → **ce qui** (es ist selbst Subjekt)\n- Hat der Relativsatz ein Subjekt (z. B. *je, tu, il*)? → **ce que** (es ist Objekt)\n\n> *ce **qui** m'intéresse* → das Verb *intéresser* braucht ein Subjekt → **ce qui** liefert es.\n> *ce **que** je veux* → *je* ist schon Subjekt, *ce que* ist Objekt von *vouloir*.\n\n## ce que am Satzanfang: emphatische Hervorhebung\n\n> *Ce que j'aime dans cette ville, c'est l'ambiance.* — Was ich an dieser Stadt liebe, ist die Atmosphäre.\n\nDiese Konstruktion (ce que … c'est …) ist im Französischen sehr gebräuchlich zur **Betonung**.\n\n> **Stil-Hinweis:** *ce qui* und *ce que* sind stilistisch neutral; sie kommen in der Alltagssprache genauso vor wie in der Schriftsprache."
+    },
+    {
+      "id": "theory-lequel-ou",
+      "type": "theory",
+      "title": "lequel nach Präposition und où für Ort & Zeit",
+      "body": "# lequel/laquelle/lesquels/lesquelles\n\nNach einer **Präposition** (sur, dans, avec, pour, par, à, de …) kann man für Sachen nicht *que* oder *qui* verwenden — man braucht die **lequel-Reihe**:\n\n> *la chaise **sur laquelle** tu es assis* — der Stuhl, auf dem du sitzt\n> *le stylo **avec lequel** j'écris* — der Stift, mit dem ich schreibe\n\n## Kongruenz\n\nDie Form richtet sich nach **Geschlecht und Zahl** des Bezugsnomens:\n\n| | Singular | Plural |\n|---|---|---|\n| **Maskulin** | lequel | lesquels |\n| **Feminin** | laquelle | lesquelles |\n\n## Verschmelzungen mit à und de\n\n| Grundform | à + | de + |\n|---|---|---|\n| lequel | **auquel** | **duquel** |\n| laquelle | à laquelle | de laquelle |\n| lesquels | **auxquels** | **desquels** |\n| lesquelles | **auxquelles** | **desquelles** |\n\n> *le club **auquel** j'appartiens* (*appartenir à*) — der Club, dem ich angehöre\n> *les raisons **pour lesquelles** il est parti* — die Gründe, aus denen er gegangen ist\n\n# où — Ort UND Zeit\n\n**où** ist als Relativpronomen für **Ortsangaben** bekannt, steht aber auch bei **Zeitangaben**:\n\n> *la ville **où** j'habite* — die Stadt, in der ich wohne *(Ort)*\n> *le jour **où** je l'ai rencontré* — der Tag, an dem ich ihn traf *(Zeit)*\n> *l'époque **où** tout était simple* — die Zeit, als alles einfach war\n\n**Achtung:** Bei Zeitausdrücken nimmt man **où**, nicht *que* — ein häufiger Fehler!\n\n> **Stil-Hinweis:** *lequel* klingt etwas formeller als *qui* für Personen. Im Alltag bevorzugt man bei Personen oft *qui* (*l'ami avec qui je travaille*), bei Sachen ist *lequel* nach Präposition die einzig korrekte Form."
+    },
+    {
+      "id": "ex-cloze-dont-parler",
+      "type": "exercise",
+      "title": "dont einsetzen",
+      "exercise": {
+        "id": "ex-cloze-dont-parler",
+        "type": "cloze",
+        "prompt": "Ergänze mit dem passenden Relativpronomen. Das Verb *parler* verlangt *de*.",
+        "card_ids": ["rel-dont", "rel-dont-parler"],
+        "sentence": "C'est exactement le sujet ___ nous parlons en cours.",
+        "blanks": [
+          { "accept": ["dont"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "parler de → dont ersetzt 'de + le sujet'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-dont-besitz",
+      "type": "exercise",
+      "title": "dont für Besitz",
+      "exercise": {
+        "id": "ex-cloze-dont-besitz",
+        "type": "cloze",
+        "prompt": "Ergänze: Besitzverhältnis — 'die Kollegin, deren Büro neben meinem liegt'.",
+        "card_ids": ["rel-dont-besitz"],
+        "sentence": "C'est la collègue ___ le bureau est à côté du mien.",
+        "blanks": [
+          { "accept": ["dont"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Besitz: dont + bestimmter Artikel (le bureau), nicht 'son bureau'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ce-qui-ce-que",
+      "type": "exercise",
+      "title": "ce qui oder ce que?",
+      "exercise": {
+        "id": "ex-free-ce-qui-ce-que",
+        "type": "free_text",
+        "prompt": "Übersetze: *Sag mir, was du willst, und ich erkläre dir, was mich überrascht hat.*",
+        "card_ids": ["rel-ce-qui-ce-que", "rel-ce-qui-interesse"],
+        "accept": [
+          "Dis-moi ce que tu veux et je t'explique ce qui m'a surpris.",
+          "dis-moi ce que tu veux et je t'explique ce qui m'a surpris",
+          "Dis-moi ce que tu veux, et je t'explique ce qui m'a surpris.",
+          "Dis-moi ce que tu veux et je vais t'expliquer ce qui m'a surpris."
+        ],
+        "hint": "'was du willst' → tu ist Subjekt → ce que; 'was mich überrascht hat' → ce qui ist Subjekt.",
+        "distractors": [
+          "Dis-moi ce qui tu veux et je t'explique ce que m'a surpris.",
+          "Dis-moi ce que tu veux et je t'explique ce que m'a surpris.",
+          "Dis-moi ce qui tu veux et je t'explique ce qui m'a surpris."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ce-dont-besoin",
+      "type": "exercise",
+      "title": "ce dont übersetzen",
+      "exercise": {
+        "id": "ex-free-ce-dont-besoin",
+        "type": "free_text",
+        "prompt": "Übersetze: *Das ist genau das, was ich brauche.* (avoir besoin de)",
+        "card_ids": ["rel-ce-dont", "rel-ce-dont-besoin"],
+        "accept": [
+          "C'est exactement ce dont j'ai besoin.",
+          "c'est exactement ce dont j'ai besoin",
+          "C'est précisément ce dont j'ai besoin.",
+          "Voilà exactement ce dont j'ai besoin.",
+          "C'est ce dont j'ai besoin."
+        ],
+        "hint": "avoir besoin **de** → ce dont. Nicht 'ce que' oder 'ce qui'.",
+        "distractors": [
+          "C'est exactement ce que j'ai besoin.",
+          "C'est exactement ce qui j'ai besoin.",
+          "C'est exactement dont j'ai besoin."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-pronomen-funktion",
+      "type": "exercise",
+      "title": "Relativpronomen nach Funktion zuordnen",
+      "exercise": {
+        "id": "ex-match-pronomen-funktion",
+        "type": "matching",
+        "prompt": "Ordne jedem Relativpronomen seine Funktion bzw. seinen Auslöser zu.",
+        "card_ids": ["rel-dont", "rel-ce-qui-ce-que", "rel-ce-dont", "rel-lequel", "rel-ou-ort-zeit"],
+        "pairs": [
+          { "left": "dont", "right": "Verb/Ausdruck mit de + konkretes Bezugsnomen" },
+          { "left": "ce qui", "right": "was — Subjekt, ohne Bezugsnomen" },
+          { "left": "ce que", "right": "was — Objekt, ohne Bezugsnomen" },
+          { "left": "ce dont", "right": "was — Verb mit de, ohne Bezugsnomen" },
+          { "left": "lequel / laquelle", "right": "Präposition + Sache (konkretes Bezugsnomen)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-laquelle",
+      "type": "exercise",
+      "title": "lequel nach Präposition",
+      "exercise": {
+        "id": "ex-cloze-laquelle",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Form von *lequel* nach der Präposition *sur*. Bezugsnomen: *la chaise* (fem. Sg.).",
+        "card_ids": ["rel-lequel", "rel-sur-laquelle"],
+        "sentence": "La chaise sur ___ tu es assis est très ancienne.",
+        "blanks": [
+          { "accept": ["laquelle"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "sur + fem. Sg. → laquelle.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-auquel",
+      "type": "exercise",
+      "title": "Satz mit auquel bauen",
+      "exercise": {
+        "id": "ex-tiles-auquel",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Das ist das Projekt, an dem ich gerade arbeite.* (*travailler à*)",
+        "card_ids": ["rel-auquel", "rel-lequel"],
+        "tiles": ["C'est", "le", "projet", "auquel", "je", "travaille", "en", "ce", "moment"],
+        "hint": "travailler à → à + lequel = auquel (mask. Sg.).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ou-ort-zeit",
+      "type": "exercise",
+      "title": "où für Zeit und Ort",
+      "exercise": {
+        "id": "ex-free-ou-ort-zeit",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich erinnere mich an den Tag, an dem wir uns kennengelernt haben, und an die Stadt, in der wir waren.*",
+        "card_ids": ["rel-ou-ort-zeit"],
+        "accept": [
+          "Je me souviens du jour où nous nous sommes rencontrés et de la ville où nous étions.",
+          "je me souviens du jour où nous nous sommes rencontrés et de la ville où nous étions",
+          "Je me souviens du jour où on s'est rencontrés et de la ville où on était.",
+          "Je me rappelle du jour où nous nous sommes rencontrés et de la ville où nous étions."
+        ],
+        "hint": "Zeitangabe (le jour) + Ortsangabe (la ville) → beide Male où, nie 'que'.",
+        "distractors": [
+          "Je me souviens du jour que nous nous sommes rencontrés et de la ville que nous étions.",
+          "Je me souviens du jour que nous nous sommes rencontrés et de la ville où nous étions.",
+          "Je me souviens du jour où nous nous sommes rencontrés et de la ville que nous étions."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-dont-vs-que",
+      "type": "exercise",
+      "title": "dont oder que?",
+      "exercise": {
+        "id": "ex-picture-dont-vs-que",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist grammatikalisch korrekt für *Das ist der Film, den ich dir empfohlen habe* vs. *Das ist der Film, über den wir gesprochen haben*?",
+        "card_ids": ["rel-dont", "rel-qui-que"],
+        "images": [
+          { "src": "assets/img/film-que-recommande.png", "label": "C'est le film que je t'ai recommandé.", "is_correct": "true" },
+          { "src": "assets/img/film-dont-parle.png", "label": "C'est le film dont nous avons parlé.", "is_correct": "true" },
+          { "src": "assets/img/film-dont-recommande.png", "label": "C'est le film dont je t'ai recommandé." },
+          { "src": "assets/img/film-que-parle.png", "label": "C'est le film que nous avons parlé." }
+        ],
+        "hint": "recommander qch → que (direktes Objekt); parler de qch → dont.",
+        "distractors": [
+          "C'est le film dont je t'ai recommandé.",
+          "C'est le film que nous avons parlé."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-verschmelzungen",
+      "type": "exercise",
+      "title": "Verschmelzungen mit à und de",
+      "exercise": {
+        "id": "ex-match-verschmelzungen",
+        "type": "matching",
+        "prompt": "Ordne die Grundform der entsprechenden Verschmelzung mit *à* zu.",
+        "card_ids": ["rel-lequel", "rel-auquel"],
+        "pairs": [
+          { "left": "à + lequel", "right": "auquel" },
+          { "left": "à + lesquels", "right": "auxquels" },
+          { "left": "à + lesquelles", "right": "auxquelles" },
+          { "left": "de + lequel", "right": "duquel" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-ce-qui-aimer",
+      "type": "exercise",
+      "title": "Hervorhebung mit ce que … c'est",
+      "exercise": {
+        "id": "ex-tiles-ce-qui-aimer",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Was ich an Frankreich liebe, ist das Essen.*",
+        "card_ids": ["rel-ce-qui-ce-que", "rel-ce-qui-interesse"],
+        "tiles": ["Ce", "que", "j'aime", "en", "France", ",", "c'est", "la", "cuisine"],
+        "hint": "Ce que j'aime… c'est… — 'was ich liebe' ist Objekt (j'aime), also ce que.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-dont-se-souvenir",
+      "type": "exercise",
+      "title": "dont mit se souvenir de",
+      "exercise": {
+        "id": "ex-free-dont-se-souvenir",
+        "type": "free_text",
+        "prompt": "Übersetze: *Das ist eine Reise, an die ich mich mein ganzes Leben erinnern werde.* (*se souvenir de*)",
+        "card_ids": ["rel-dont", "rel-dont-parler"],
+        "accept": [
+          "C'est un voyage dont je me souviendrai toute ma vie.",
+          "c'est un voyage dont je me souviendrai toute ma vie",
+          "C'est un voyage dont je me souviendrai toute la vie.",
+          "C'est un voyage dont je me souviendrai toujours."
+        ],
+        "hint": "se souvenir **de** qch → dont. Das 'de' verschwindet, weil es in dont steckt.",
+        "distractors": [
+          "C'est un voyage que je me souviendrai toute ma vie.",
+          "C'est un voyage qui je me souviendrai toute ma vie.",
+          "C'est un voyage de dont je me souviendrai toute ma vie."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

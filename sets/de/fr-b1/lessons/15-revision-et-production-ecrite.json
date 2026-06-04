@@ -1,0 +1,398 @@
+{
+  "id": "15-revision-et-production-ecrite",
+  "title": "Wiederholung und Textproduktion",
+  "description": "Abschlusslektion des B1-Kurses: Gemischte Wiederholung der wichtigsten Grammatikstrukturen (Subjonctif, conditionnel passé, plus-que-parfait, Passiv, indirekte Rede, Relativpronomen, Konnektoren) und Einführung in die Textproduktion (formelle E-Mail/Brief, résumé, argumentativer Absatz). Auf Deutsch erklärt.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 18,
+  "cards": [
+    {
+      "id": "rev-subjonctif-ausloeser",
+      "front": "il faut que, vouloir que, être content que, douter que",
+      "back": "Auslöser des Subjonctif (Notwendigkeit, Wille, Gefühl, Zweifel)",
+      "notes": "Faustregel: **Subjektivität → Subjonctif**. Aufmerksamkeit bei *espérer que* und *penser que* (bejaht) → diese verlangen den **Indikativ**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["wiederholung", "subjonctif", "grammatik"]
+    },
+    {
+      "id": "rev-conditionnel-passe",
+      "front": "j'aurais pu, elle serait venue",
+      "back": "conditionnel passé (unreale Vergangenheitsbedingung)",
+      "notes": "Bildung: **conditionnel présent von avoir/être** + Partizip. In si-Sätzen: *Si j'avais su, j'aurais agi.* — Wenn ich es gewusst hätte, hätte ich gehandelt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "avoir → aurais/aurait; être → serais/serait + Partizip.",
+      "tags": ["wiederholung", "conditionnel-passe", "grammatik"]
+    },
+    {
+      "id": "rev-plus-que-parfait",
+      "front": "j'avais déjà mangé, elle était partie",
+      "back": "plus-que-parfait (Vorvergangenheit)",
+      "notes": "Bildung: **imparfait von avoir/être** + Partizip. Drückt aus, was schon **vor** einem vergangenen Ereignis geschehen war. *Quand il est arrivé, elle était déjà partie.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["wiederholung", "plus-que-parfait", "grammatik"]
+    },
+    {
+      "id": "rev-passif",
+      "front": "La loi a été adoptée par le parlement.",
+      "back": "Das Gesetz wurde vom Parlament verabschiedet. (Passiv)",
+      "notes": "Bildung: **être** (im gewünschten Tempus) + **Partizip Perfekt** (kongruiert!). Das Agens (Handelnde) steht nach **par**. *Le rapport est rédigé chaque année.* — Der Bericht wird jedes Jahr verfasst.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["wiederholung", "passiv", "grammatik"]
+    },
+    {
+      "id": "rev-discours-indirect",
+      "front": "Il a dit qu'il viendrait. / Elle a demandé si j'étais prêt.",
+      "back": "indirekte Rede (Zeitverschiebung beachten)",
+      "notes": "Nach Vergangenheits-Einleitung: Présent → **imparfait**, futur simple → **conditionnel présent**, passé composé → **plus-que-parfait**. Fragen mit *si* (ob) oder Fragewort.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["wiederholung", "discours-indirect", "grammatik"]
+    },
+    {
+      "id": "rev-relatif-dont",
+      "front": "dont, ce qui, ce que, lequel",
+      "back": "erweiterte Relativpronomen",
+      "notes": "**dont** = dessen/deren/von dem (Ergänzung mit *de*). **ce qui** = was (Subjekt). **ce que** = was (Objekt). **lequel/laquelle** nach Präpositionen (außer *de*): *la table sur laquelle il écrit.*",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["wiederholung", "relativpronomen", "grammatik"]
+    },
+    {
+      "id": "rev-konnektoren",
+      "front": "cependant, par conséquent, en outre, néanmoins, bien que (+ subj.)",
+      "back": "logische Konnektoren für schriftliche Texte",
+      "notes": "**cependant / néanmoins** = jedoch/dennoch (Gegensatz). **par conséquent** = folglich. **en outre** = außerdem. **bien que** + Subjonctif = obwohl. Diese Wörter heben das Niveau jedes Aufsatzes erheblich.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["wiederholung", "konnektoren", "textproduktion"]
+    },
+    {
+      "id": "tp-formelle-anrede",
+      "front": "Madame, Monsieur,",
+      "back": "Formelle Anrede (Brief/E-Mail), wenn Empfänger unbekannt",
+      "notes": "Standard-Anrede bei unbekannten Empfängern. Kein Komma nach dem Vornamen wie im Deutschen; das Komma steht **nach** *Monsieur* oder *Madame*. Bei bekanntem Namen: *Madame Dupont,* oder *Monsieur Martin,*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["textproduktion", "formelle-email", "brief"]
+    },
+    {
+      "id": "tp-einstieg",
+      "front": "Je me permets de vous contacter au sujet de…",
+      "back": "Höflicher Einstieg: Ich erlaube mir, Sie bezüglich … zu kontaktieren.",
+      "notes": "Alternativen: *Suite à votre annonce, je souhaite…* (nach Ihrer Anzeige). *Je vous écris afin de vous demander…* (Ich schreibe Ihnen, um … zu fragen). Immer **vous** (Siezen).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["textproduktion", "formelle-email", "brief"]
+    },
+    {
+      "id": "tp-schlussformel",
+      "front": "Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.",
+      "back": "Formelle Schlussformel (Hochachtungsvoll)",
+      "notes": "Die vollständige Formel für Behörden/offizielle Schreiben. Vereinfachte Version: *Veuillez agréer mes cordiales salutations.* — Für E-Mails an Unbekannte genügt oft: *Cordialement,*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["textproduktion", "formelle-email", "schlussformel"]
+    },
+    {
+      "id": "tp-argumentativer-absatz",
+      "front": "Thèse → Arguments (en premier lieu … de plus … enfin) → Conclusion (en conclusion / ainsi)",
+      "back": "Aufbau eines argumentativen Absatzes",
+      "notes": "**These** einleiten: *Il me semble que… / Je pense que…* **Argumente** reihen: *En premier lieu,… De plus,… En outre,… Enfin,…* **Schluss**: *En conclusion, / Ainsi, / Par conséquent,…* Kontra-Argumente: *Certes,… Cependant,… Néanmoins,…*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["textproduktion", "argumentation", "aufbau"]
+    },
+    {
+      "id": "tp-resume-struktur",
+      "front": "résumé : idée principale → développement → conclusion en 1/4 du texte original",
+      "back": "Zusammenfassung schreiben: Hauptidee → Entfaltung → Schluss (¼ des Originals)",
+      "notes": "Regeln für das **résumé**: eigene Worte verwenden (kein Copy-Paste), Ich-Perspektive vermeiden, Präsens benutzen, Länge = ca. **¼** des Originals. Nützlich: *L'auteur souligne que… / Le texte montre que…*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["textproduktion", "resume", "zusammenfassung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-revision",
+      "type": "theory",
+      "title": "Zum Abschluss: Grammatik-Übersicht B1",
+      "body": "# Wiederholung und Textproduktion\n\nZum Abschluss des B1-Kurses: Wir wiederholen die wichtigsten Strukturen und üben, sie in eigenen Texten zu produzieren.\n\n## Übersicht: B1-Grammatikstrukturen auf einen Blick\n\n| Struktur | Bildung (Kurzformel) | Typischer Auslöser / Verwendung |\n|---|---|---|\n| **Subjonctif présent** | Stamm (3. Pl.) + -e/-es/-e/-ions/-iez/-ent | vouloir que, il faut que, douter que, être + Adj. + que |\n| **Conditionnel passé** | aurais/serais + Partizip | Si + plus-que-parfait → conditionnel passé |\n| **Plus-que-parfait** | avais/étais + Partizip | Vorvergangenheit; indirekte Rede (Zeitverschiebung) |\n| **Passif** | être (beliebiges Tempus) + Partizip | Handlung wichtiger als Handelnder; Agens nach *par* |\n| **Discours indirect** | Einleiteverb + que/si + Zeitverschiebung | Er sagte, dass …; Sie fragte, ob … |\n| **dont / lequel** | Relativpronomen nach *de* / nach Präp. | le livre dont j'ai besoin; la table sur laquelle |\n| **Konnektoren** | unveränderlich (+ Subjonctif bei *bien que*) | cependant, par conséquent, en outre, néanmoins |\n\n> **Merksatz**: Subjonctif = Subjektivität. Conditionnel passé = unreale Vergangenheit. Plus-que-parfait = noch weiter zurück."
+    },
+    {
+      "id": "theorie-textproduktion",
+      "type": "theory",
+      "title": "Textproduktion: formelle E-Mail und Brief",
+      "body": "## Die formelle E-Mail / der formelle Brief auf Französisch\n\nFormelle Texte folgen einem festen Bauplan. Kenne die Bausteine auswendig!\n\n### Aufbau\n\n| Teil | Funktion | Beispiel |\n|---|---|---|\n| **Anrede** | Empfänger ansprechen | *Madame, Monsieur,* |\n| **Einstieg** | Anlass nennen | *Je me permets de vous contacter au sujet de votre offre d'emploi.* |\n| **Hauptteil** | Inhalt mit Konnektoren strukturieren | *En premier lieu, … De plus, … Par conséquent, …* |\n| **Schlussformel** | Höflich verabschieden | *Veuillez agréer mes cordiales salutations.* |\n| **Unterschrift** | Name | *Prénom Nom* |\n\n### Nützliche Bausteine\n\n| Zweck | Formulierung |\n|---|---|\n| Anlass nennen | *Je vous écris afin de … / Suite à …, je souhaite …* |\n| Dank ausdrücken | *Je vous remercie de votre réponse rapide.* |\n| Bitte formulieren | *Je vous serais reconnaissant(e) de bien vouloir …* |\n| Anlage erwähnen | *Veuillez trouver ci-joint mon CV.* |\n| Höfl. Schluss (kurz) | *Cordialement,* |\n| Höfl. Schluss (offiziell) | *Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.* |\n\n> **Achtung**: Im Französischen wird immer gesiezt (*vous*). *Tu* in formellen E-Mails ist ein klarer Fehler."
+    },
+    {
+      "id": "theorie-argumentation",
+      "type": "theory",
+      "title": "Textproduktion: Zusammenfassung und Argumentation",
+      "body": "## Das résumé (Zusammenfassung)\n\nEin **résumé** fasst einen Text in ca. **¼ seiner Länge** in eigenen Worten zusammen:\n\n1. **Hauptidee** benennen: *L'auteur souligne que … / Le texte traite de …*\n2. **Entfaltung**: wichtigste Argumente / Fakten in logischer Reihenfolge\n3. **Schluss**: Fazit des Originals: *En conclusion, l'auteur affirme que …*\n\nRegeln: **kein Ich**, **Präsens**, **eigene Worte** — kein wörtliches Abschreiben.\n\n---\n\n## Der argumentative Absatz\n\nStruktur: **These → Argumente → Gegenargument → Schluss**\n\n| Funktion | Konnektoren / Phrasen |\n|---|---|\n| These einleiten | *Il me semble que … / À mon avis, …* |\n| 1. Argument | *En premier lieu, … / Tout d'abord, …* |\n| weiteres Argument | *De plus, … / En outre, … / Par ailleurs, …* |\n| Gegenargument einräumen | *Certes, … / Il est vrai que …* |\n| Aber / dennoch | *Cependant, … / Néanmoins, … / Or, …* |\n| Schluss ziehen | *En conclusion, … / Ainsi, … / Par conséquent, …* |\n\n> Ziel: Konnektoren nicht isoliert lernen, sondern **in Textsequenzen** üben — genau das tun wir jetzt."
+    },
+    {
+      "id": "ex-cloze-conditionnel-si",
+      "type": "exercise",
+      "title": "Conditionnel passé in einem si-Satz",
+      "exercise": {
+        "id": "ex-cloze-conditionnel-si",
+        "type": "cloze",
+        "prompt": "Ergänze das conditionnel passé von *pouvoir* (ils). Si-Satz Typ 3: unreale Vergangenheit.",
+        "card_ids": ["rev-conditionnel-passe"],
+        "sentence": "Si nous avions mieux préparé le projet, nous ___ éviter ces erreurs.",
+        "blanks": [
+          { "accept": ["aurions pu"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "conditionnel passé: *aurions* (avoir im conditionnel) + Partizip von *pouvoir* = *pu*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-dont-relatif",
+      "type": "exercise",
+      "title": "Relativpronomen dont",
+      "exercise": {
+        "id": "ex-cloze-dont-relatif",
+        "type": "cloze",
+        "prompt": "Ergänze die Lücke auf Französisch. Du schreibst einen Bericht und brauchst das Relativpronomen für *avoir besoin de*.",
+        "card_ids": ["rev-relatif-dont"],
+        "sentence": "C'est exactement le document ___ nous avons besoin pour la réunion.",
+        "blanks": [
+          { "accept": ["dont"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Verb *avoir besoin de* verlangt *de* → Relativpronomen = *dont*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-grammatik-formen",
+      "type": "exercise",
+      "title": "B1-Strukturen erkennen",
+      "exercise": {
+        "id": "ex-match-grammatik-formen",
+        "type": "matching",
+        "prompt": "Ordne jede französische Struktur ihrer deutschen Bezeichnung zu.",
+        "card_ids": ["rev-conditionnel-passe", "rev-plus-que-parfait", "rev-passif", "rev-discours-indirect"],
+        "pairs": [
+          { "left": "j'aurais fait", "right": "conditionnel passé" },
+          { "left": "il avait déjà mangé", "right": "plus-que-parfait" },
+          { "left": "Le rapport est rédigé par l'équipe.", "right": "Passiv (voix passive)" },
+          { "left": "Il a dit qu'il viendrait.", "right": "indirekte Rede (discours indirect)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-pqp-discours",
+      "type": "exercise",
+      "title": "Indirekte Rede mit Zeitverschiebung",
+      "exercise": {
+        "id": "ex-free-pqp-discours",
+        "type": "free_text",
+        "prompt": "Übersetze in die indirekte Rede: *Er sagte: «Ich habe das Formular schon abgeschickt.»* → Er sagte, dass er …",
+        "card_ids": ["rev-discours-indirect", "rev-plus-que-parfait"],
+        "accept": [
+          "Il a dit qu'il avait déjà envoyé le formulaire.",
+          "il a dit qu'il avait déjà envoyé le formulaire",
+          "Il a dit qu'il avait déjà soumis le formulaire.",
+          "Il a dit qu'il avait déjà rempli et envoyé le formulaire."
+        ],
+        "hint": "passé composé → plus-que-parfait in der indirekten Rede. *envoyer* → *avait envoyé*.",
+        "distractors": [
+          "Il a dit qu'il a déjà envoyé le formulaire.",
+          "Il a dit qu'il envoie le formulaire.",
+          "Il a dit il avait envoyé le formulaire."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-subjonctif-bien-que",
+      "type": "exercise",
+      "title": "Konnektoren + Subjonctif: bien que",
+      "exercise": {
+        "id": "ex-free-subjonctif-bien-que",
+        "type": "free_text",
+        "prompt": "Übersetze: *Obwohl sie müde ist, arbeitet sie weiter.* Verwende *bien que* + Subjonctif.",
+        "card_ids": ["rev-konnektoren", "rev-subjonctif-ausloeser"],
+        "accept": [
+          "Bien qu'elle soit fatiguée, elle continue à travailler.",
+          "bien qu'elle soit fatiguée, elle continue à travailler",
+          "Bien qu'elle soit fatiguée, elle continue de travailler.",
+          "Bien qu'elle soit fatiguée, elle travaille encore."
+        ],
+        "hint": "*bien que* + Subjonctif von *être* (qu'elle *soit*) + Adjektiv.",
+        "distractors": [
+          "Bien qu'elle est fatiguée, elle continue à travailler.",
+          "Bien qu'elle soit fatiguée, elle continue travailler.",
+          "Malgré elle est fatiguée, elle travaille."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-passif-actif",
+      "type": "exercise",
+      "title": "Passiv erkennen",
+      "exercise": {
+        "id": "ex-pic-passif-actif",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist ein korrekt gebildeter Passivsatz (voix passive) im passé composé?",
+        "card_ids": ["rev-passif"],
+        "images": [
+          { "src": "assets/img/passif-correct.png", "label": "La décision a été prise par le directeur.", "is_correct": "true" },
+          { "src": "assets/img/passif-wrong1.png", "label": "La décision a pris par le directeur." },
+          { "src": "assets/img/passif-wrong2.png", "label": "La décision est prise avoir le directeur." },
+          { "src": "assets/img/passif-wrong3.png", "label": "La décision a été prendre par le directeur." }
+        ],
+        "hint": "Passiv = être (hier: *a été*) + Partizip (*prise*, kongruiert mit *la décision*) + *par* + Agens.",
+        "distractors": [
+          "La décision a pris par le directeur.",
+          "La décision est prise avoir le directeur.",
+          "La décision a été prendre par le directeur."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-schlussformel",
+      "type": "exercise",
+      "title": "Formelle Schlussformel ordnen",
+      "exercise": {
+        "id": "ex-tiles-schlussformel",
+        "type": "word_tiles",
+        "prompt": "Bringe die Wörter in die richtige Reihenfolge: die vollständige formelle Schlussformel eines Briefes.",
+        "card_ids": ["tp-schlussformel"],
+        "tiles": ["Je", "vous", "prie", "d'agréer,", "Madame,", "Monsieur,", "l'expression", "de", "mes", "salutations", "distinguées."],
+        "hint": "*Je vous prie d'agréer* + Anrede + *l'expression de mes salutations distinguées.*",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-konnektoren-funktion",
+      "type": "exercise",
+      "title": "Konnektoren und ihre Funktion",
+      "exercise": {
+        "id": "ex-match-konnektoren-funktion",
+        "type": "matching",
+        "prompt": "Ordne jedem Konnektor seine logische Funktion zu.",
+        "card_ids": ["rev-konnektoren", "tp-argumentativer-absatz"],
+        "pairs": [
+          { "left": "par conséquent", "right": "Schlussfolgerung (folglich)" },
+          { "left": "cependant", "right": "Gegensatz (jedoch)" },
+          { "left": "en outre", "right": "Ergänzung (außerdem)" },
+          { "left": "néanmoins", "right": "Einschränkung (dennoch)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-formelle-email-anfang",
+      "type": "exercise",
+      "title": "Einstieg einer formellen E-Mail",
+      "exercise": {
+        "id": "ex-free-formelle-email-anfang",
+        "type": "free_text",
+        "prompt": "Formuliere auf Französisch: *Ich erlaube mir, Sie bezüglich der ausgeschriebenen Stelle zu kontaktieren.* (formelle E-Mail-Eröffnung)",
+        "card_ids": ["tp-einstieg", "tp-formelle-anrede"],
+        "accept": [
+          "Je me permets de vous contacter au sujet du poste proposé.",
+          "je me permets de vous contacter au sujet du poste proposé",
+          "Je me permets de vous contacter concernant le poste proposé.",
+          "Je me permets de vous écrire au sujet du poste à pourvoir.",
+          "Je vous contacte au sujet du poste proposé."
+        ],
+        "hint": "*Je me permets de vous contacter au sujet de…* — Schlüsselphrase lernen!",
+        "distractors": [
+          "Je me permets de te contacter au sujet du poste proposé.",
+          "Je me permets contacter vous au sujet du poste.",
+          "Je permets de vous contacter au sujet du poste proposé."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-subj-bien-que-fasse",
+      "type": "exercise",
+      "title": "Gemischt: Subjonctif + Konnektor",
+      "exercise": {
+        "id": "ex-cloze-subj-bien-que-fasse",
+        "type": "cloze",
+        "prompt": "Ergänze die Subjonctif-Form von *faire* (il). Konnektor *bien que* löst den Subjonctif aus.",
+        "card_ids": ["rev-subjonctif-ausloeser", "rev-konnektoren"],
+        "sentence": "Bien qu'il ___ de son mieux, le résultat n'est pas satisfaisant.",
+        "blanks": [
+          { "accept": ["fasse"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*bien que* + Subjonctif; *faire* → Stamm *fass-* + -e für *il*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-argumentativer-satz",
+      "type": "exercise",
+      "title": "Argumentativer Absatz: Schlussfolgerung",
+      "exercise": {
+        "id": "ex-free-argumentativer-satz",
+        "type": "free_text",
+        "prompt": "Übersetze und schreibe einen Schlusssatz für einen Aufsatz: *Folglich ist es wichtig, dass die Regierung in erneuerbare Energien investiert.*",
+        "card_ids": ["rev-konnektoren", "rev-subjonctif-ausloeser", "tp-argumentativer-absatz"],
+        "accept": [
+          "Par conséquent, il est important que le gouvernement investisse dans les énergies renouvelables.",
+          "par conséquent, il est important que le gouvernement investisse dans les énergies renouvelables",
+          "Ainsi, il est important que le gouvernement investisse dans les énergies renouvelables.",
+          "Par conséquent, il faut que le gouvernement investisse dans les énergies renouvelables.",
+          "Il est donc important que le gouvernement investisse dans les énergies renouvelables."
+        ],
+        "hint": "*Par conséquent* / *Ainsi* für Schlussfolgerung. *il est important que* → Subjonctif: *investisse*.",
+        "distractors": [
+          "Par conséquent, il est important que le gouvernement investit dans les énergies renouvelables.",
+          "Par conséquent, il est important le gouvernement investisse dans les énergies.",
+          "Donc, il est important que le gouvernement investir dans les énergies renouvelables."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-email-bausteine",
+      "type": "exercise",
+      "title": "Brief-Bausteine zuordnen",
+      "exercise": {
+        "id": "ex-match-email-bausteine",
+        "type": "matching",
+        "prompt": "Ordne jedem Briefbaustein seine Funktion im formellen Schreiben zu.",
+        "card_ids": ["tp-formelle-anrede", "tp-einstieg", "tp-schlussformel"],
+        "pairs": [
+          { "left": "Madame, Monsieur,", "right": "Anrede bei unbekanntem Empfänger" },
+          { "left": "Je me permets de vous contacter au sujet de…", "right": "Höfliche Eröffnung / Anlass nennen" },
+          { "left": "Veuillez agréer mes cordiales salutations.", "right": "Formeller Abschluss (kurze Form)" },
+          { "left": "Veuillez trouver ci-joint mon CV.", "right": "Anlage erwähnen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-argumentativer-satz",
+      "type": "exercise",
+      "title": "Argumentativen Satz aufbauen",
+      "exercise": {
+        "id": "ex-tiles-argumentativer-satz",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Obwohl die Situation schwierig ist, müssen wir eine Lösung finden.* (Konnektoren + Subjonctif)",
+        "card_ids": ["rev-konnektoren", "rev-subjonctif-ausloeser"],
+        "tiles": ["Bien", "que", "la", "situation", "soit", "difficile,", "il", "faut", "que", "nous", "trouvions", "une", "solution."],
+        "hint": "*Bien que* + Subjonctif von *être* (*soit*) + *il faut que* + Subjonctif von *trouver* (*trouvions*).",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
