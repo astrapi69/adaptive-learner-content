@@ -1,0 +1,64 @@
+# Französisch B1 (für Deutschsprachige) — Set-Manifest
+# (schema v1.3).
+#
+# Aufbaukurs Französisch B1, auf Deutsch erklärt. Setzt das
+# gesamte A1- und A2-Wissen VORAUS (fr-a1-from-de, fr-a2-from-de)
+# und wiederholt es nicht, sondern verweist nur darauf. B1 bringt
+# komplexere Grammatik (Subjonctif, conditionnel passé,
+# plus-que-parfait, Passiv, indirekte Rede), längere Texte und
+# abstraktere Themen. Schwerpunkt liegt auf der PRODUKTION: die
+# Übungen sind überwiegend produktiv (>=70 % source_to_target).
+# Schema v1.3 nutzt die optionalen Kartenfelder difficulty, tags
+# und media_type ("text"). Der Content-Loader liest
+# ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.3'
+name: Französisch B1 (für Deutschsprachige)
+description: >-
+  Französisch B1 für Deutschsprachige (15 Lektionen): Aufbau auf
+  A1+A2 mit dem Subjonctif (présent und Auslöser), conditionnel
+  passé, plus-que-parfait, Passiv, indirekter Rede, vertieften
+  Relativpronomen und Konnektoren sowie abstrakteren Themen
+  (Arbeit, Gesundheit, Medien, Umwelt/Gesellschaft, interkulturelle
+  Kommunikation) und einer Lektion zur Textproduktion. Erklärungen,
+  Notizen und Theorie auf Deutsch.
+sets:
+  - id: fr-b1-from-de
+    title: Französisch B1 — Mittelstufe
+    title_native: Français B1 — Intermédiaire
+    target_language: fr
+    source_language: de
+    level: B1
+    path: sets/de/fr-b1
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Mittelstufenkurs Französisch B1 (15 Lektionen), auf Deutsch
+      erklärt — vom Subjonctif über conditionnel passé,
+      plus-que-parfait, Passiv und indirekte Rede bis zu
+      Relativpronomen, Konnektoren, abstrakteren Themen und der
+      Textproduktion. Setzt das A1+A2-Wissen voraus und ist
+      überwiegend produktiv ausgerichtet.
+    tags:
+      - intermediate
+      - grammar
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-subjonctif-present.json
+    - 02-subjonctif-conjonctions.json
+    - 03-conditionnel-passe.json
+    - 04-plus-que-parfait.json
+    - 05-la-voix-passive.json
+    - 06-discours-indirect.json
+    - 07-pronoms-relatifs-avances.json
+    - 08-connecteurs-logiques.json
+    - 09-exprimer-opinions-sentiments.json
+    - 10-travail-et-carriere.json
+    - 11-sante-et-corps.json
+    - 12-actualites-et-medias.json
+    - 13-environnement-et-societe.json
+    - 14-voyages-et-communication-interculturelle.json
+    - 15-revision-et-production-ecrite.json
