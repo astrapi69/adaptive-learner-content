@@ -1,0 +1,423 @@
+{
+  "id": "02-subjuntivo-disparadores",
+  "title": "Subjuntivo: Auslöser und Konjunktionen",
+  "description": "Aufbauend auf Lektion 01 (Bildung des Subjuntivo): Welche unpersönlichen Ausdrücke, Konjunktionen und Adverbien lösen den Subjuntivo aus? Besondere Aufmerksamkeit gilt dem Wechsel bei 'cuando' (Zukunft vs. Gewohnheit) und 'aunque' (Hypothese vs. Tatsache) sowie der Gleiches-Subjekt-Regel (para que → para + Infinitiv). Auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "es-importante-que",
+      "front": "es importante que + subjuntivo",
+      "back": "es ist wichtig, dass (+ Subjuntivo)",
+      "notes": "Unpersönliche Wertung → Subjuntivo: *Es importante que **llegues** a tiempo.* Weitere ähnliche Ausdrücke: *es necesario que*, *es mejor que*, *es bueno que*, *es una lástima que*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["ausloeser", "subjuntivo", "unpers-wertung"]
+    },
+    {
+      "id": "es-posible-que",
+      "front": "es posible que + subjuntivo",
+      "back": "es ist möglich, dass (+ Subjuntivo)",
+      "notes": "Möglichkeit/Unsicherheit → Subjuntivo: *Es posible que **venga** mañana.* Kontrast: *Es posible **venir*** (ohne que, kein Subjuntivo-Problem, da kein Subjektwechsel nötig).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["ausloeser", "subjuntivo", "unpers-wertung"]
+    },
+    {
+      "id": "no-es-verdad-que",
+      "front": "no es verdad que / no es cierto que + subjuntivo",
+      "back": "es ist nicht wahr/richtig, dass (+ Subjuntivo)",
+      "notes": "Verneinte Behauptung → Subjuntivo: *No es verdad que **sea** fácil.* Kontrast: *Es verdad que **es** fácil.* (Tatsache = Indikativ!).",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Nur die VERNEINUNG kippt den Modus: bejaht → Indikativ, verneint → Subjuntivo.",
+      "tags": ["ausloeser", "subjuntivo", "verneinung"]
+    },
+    {
+      "id": "ojala-que",
+      "front": "ojalá (que) + subjuntivo",
+      "back": "hoffentlich / wenn doch nur (immer + Subjuntivo)",
+      "notes": "Arabische Herkunft (*inshallah*). *Ojalá* verlangt **immer** den Subjuntivo — auch ohne *que*: *¡Ojalá **apruebe** el examen!* Das *que* ist optional.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["ausloeser", "subjuntivo", "ojala"]
+    },
+    {
+      "id": "para-que",
+      "front": "para que + subjuntivo",
+      "back": "damit (bei verschiedenen Subjekten → Subjuntivo)",
+      "notes": "Zweck bei verschiedenen Subjekten: *Te llamo **para que** no **olvides** la reunión.* Gleiches Subjekt → *para + Infinitiv*: *Llamo **para** recordarte.* (Gleiches-Subjekt-Regel!)",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konjunktion", "subjuntivo", "zweck"]
+    },
+    {
+      "id": "antes-de-que",
+      "front": "antes de que + subjuntivo",
+      "back": "bevor (bei verschiedenen Subjekten → Subjuntivo)",
+      "notes": "*Antes de que* + Subjuntivo, wenn die Subjekte verschieden sind: *Sal **antes de que llegue** el jefe.* Gleiches Subjekt → *antes de + Infinitiv*: *Sal **antes de llegar** tarde.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konjunktion", "subjuntivo", "temporal"]
+    },
+    {
+      "id": "sin-que",
+      "front": "sin que + subjuntivo",
+      "back": "ohne dass (immer + Subjuntivo)",
+      "notes": "*Sin que* verlangt immer den Subjuntivo: *Salió **sin que** yo lo **supiera**.* Gleiches Subjekt: *sin + Infinitiv* — *Salió **sin decir** nada.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konjunktion", "subjuntivo"]
+    },
+    {
+      "id": "a-menos-que",
+      "front": "a menos que + subjuntivo",
+      "back": "es sei denn / außer wenn (immer + Subjuntivo)",
+      "notes": "Konditionale Einschränkung → immer Subjuntivo: *Iré a la fiesta, **a menos que llueva**.* Synonym: *a no ser que + subjuntivo*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konjunktion", "subjuntivo", "konditional"]
+    },
+    {
+      "id": "con-tal-de-que",
+      "front": "con tal de que + subjuntivo",
+      "back": "sofern / vorausgesetzt, dass (immer + Subjuntivo)",
+      "notes": "Konditionale Bedingung → immer Subjuntivo: *Te presto el coche, **con tal de que lo devuelvas** mañana.* Gleiches Subjekt: *con tal de + Infinitiv*.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["konjunktion", "subjuntivo", "konditional"]
+    },
+    {
+      "id": "cuando-subj",
+      "front": "cuando + subjuntivo (Zukunftsbezug)",
+      "back": "wenn/sobald (Zukunft → Subjuntivo)",
+      "notes": "Bei Zukunftsbezug verlangt *cuando* den Subjuntivo: *Cuando **llegues**, llámame.* Im Deutschen steht hier der Indikativ Präsens — auf Spanisch ist der Subjuntivo Pflicht!",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "Wenn 'cuando' + Zukunft gemeint ist, MUSS der Subjuntivo stehen — auch wenn es auf Deutsch wie Präsens klingt.",
+      "tags": ["konjunktion", "subjuntivo", "temporal", "cuando"]
+    },
+    {
+      "id": "cuando-ind",
+      "front": "cuando + indicativo (Gewohnheit/Vergangenheit)",
+      "back": "wenn/immer wenn (Gewohnheit/Vergangenheit → Indikativ)",
+      "notes": "Bei Gewohnheit oder Vergangenheit steht der Indikativ: *Cuando **llego** a casa, siempre como.* / *Cuando **llegué**, me saludaron.* Kein Subjuntivo — es geht um eine feststehende oder vergangene Tatsache.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["konjunktion", "indikativ", "temporal", "cuando"]
+    },
+    {
+      "id": "aunque-subj-ind",
+      "front": "aunque + subjuntivo / indicativo",
+      "back": "obwohl/auch wenn: Hypothese → Subj, Tatsache → Ind",
+      "notes": "**Tatsache** → Indikativ: *Aunque **está** lloviendo, salgo.* (Es regnet tatsächlich.) **Hypothese/Einräumung** → Subjuntivo: *Aunque **llueva**, saldré.* (Selbst wenn es regnen sollte…) Der Modus verändert die Bedeutung grundlegend!",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["konjunktion", "subjuntivo", "indikativ", "aunque"]
+    },
+    {
+      "id": "gleiches-subjekt-regel",
+      "front": "para que → para + inf. / antes de que → antes de + inf.",
+      "back": "Gleiches-Subjekt-Regel: que entfällt, Infinitiv folgt",
+      "notes": "Wenn Haupt- und Nebensatz **dasselbe Subjekt** haben, entfällt *que* und es folgt der **Infinitiv**: *Estudio **para aprender**.* (nicht: *para que aprenda*) / *Me ducho **antes de salir**.* (nicht: *antes de que salga*). Merke: **que → Subjuntivo** (verschiedene Subjekte), **kein que → Infinitiv** (gleiches Subjekt).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "subjuntivo", "infinitiv", "gleiches-subjekt"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-unpers-wertungen",
+      "type": "theory",
+      "title": "Unpersönliche Wertungen und ojalá",
+      "body": "# Subjuntivo: Auslöser und Konjunktionen\n\n## Unpersönliche Wertungen → immer Subjuntivo\n\nAusdrücke der Form *es + Adjektiv/Nomen + que* werten oder beurteilen eine Handlung subjektiv — das löst automatisch den Subjuntivo aus:\n\n| Ausdruck | Bedeutung | Beispiel |\n|---|---|---|\n| *es importante que* | es ist wichtig, dass | *Es importante que **llegues** a tiempo.* |\n| *es necesario que* | es ist nötig, dass | *Es necesario que **traigáis** el pasaporte.* |\n| *es mejor que* | es ist besser, dass | *Es mejor que **descanses** un poco.* |\n| *es posible que* | es ist möglich, dass | *Es posible que **venga** mañana.* |\n| *es una lástima que* | es ist schade, dass | *Es una lástima que no **puedas** quedarte.* |\n| *es bueno que* | es ist gut, dass | *Es bueno que **practiques** cada día.* |\n\n> **Achtung Falle:** Bejaht steht nach *es verdad que* / *es cierto que* der **Indikativ** (Tatsache!): *Es verdad que **es** difícil.* Erst die **Verneinung** kippt den Modus: *No es verdad que **sea** fácil.*\n\n## ojalá — immer Subjuntivo\n\n*Ojalá* stammt aus dem Arabischen (*inshallah*) und drückt einen starken Wunsch aus. Es verlangt **immer** den Subjuntivo, das *que* ist optional:\n\n- *¡Ojalá **apruebe** el examen!* (Hoffentlich bestehe ich die Prüfung!)\n- *Ojalá que **tengamos** buen tiempo.* (Wenn wir doch nur gutes Wetter hätten.)\n\n## Register-Hinweis\n\nIm mündlichen Alltag klingen diese Ausdrücke vollkommen normal — *es importante que…* ist kein Behördendeutsch, sondern gängige Umgangssprache. Wer stattdessen den Indikativ setzt (*es importante que **vienes***), klingt für Muttersprachler sofort fremd."
+    },
+    {
+      "id": "theory-konjunktionen-immer-subj",
+      "type": "theory",
+      "title": "Konjunktionen, die immer den Subjuntivo verlangen",
+      "body": "## SEMPRE-Konjunktionen — kein Ausweg\n\nDiese Konjunktionen verlangen **ohne Ausnahme** den Subjuntivo — unabhängig von Zeitbezug oder Subjekt:\n\n| Konjunktion | Bedeutung | Beispiel |\n|---|---|---|\n| *para que* | damit | *Te explico **para que** lo **entiendas**.* |\n| *antes de que* | bevor | *Llámame **antes de que** te **vayas**.* |\n| *sin que* | ohne dass | *Entró **sin que** nadie lo **viera**.* |\n| *a menos que* | es sei denn | *Iré, **a menos que llueva**.* |\n| *con tal de que* | sofern, vorausgesetzt dass | *Te ayudo, **con tal de que** lo **intentes**.* |\n\n## Die Gleiches-Subjekt-Regel\n\nWenn Haupt- und Nebensatz **dasselbe Subjekt** haben, entfällt *que* — und statt des Subjuntivo steht der **Infinitiv**:\n\n| Verschiedene Subjekte | Gleiches Subjekt |\n|---|---|\n| *Llamo **para que** ella **sepa**.* | *Llamo **para saber**.* |\n| *Sal **antes de que llegue** él.* | *Sal **antes de llegar**.* |\n| *Sin **que** tú lo **sepas**.* | *Sin **saberlo** yo.* |\n\n> Merkregel: **que → Subjuntivo** (zwei Subjekte), **kein que → Infinitiv** (ein Subjekt). Das spart beim Sprechen Zeit und klingt natürlicher."
+    },
+    {
+      "id": "theory-cuando-aunque",
+      "type": "theory",
+      "title": "cuando und aunque: Modus macht den Unterschied",
+      "body": "## cuando — der wichtige Doppelfall\n\n*Cuando* (wenn/sobald/als) wechselt den Modus je nach Zeitbezug:\n\n| Zeitbezug | Modus | Beispiel | Deutsch |\n|---|---|---|---|\n| **Zukunft** | **Subjuntivo** | *Cuando **llegues**, llámame.* | Wenn du ankommst, ruf mich an. |\n| **Gewohnheit (Präsens)** | **Indikativ** | *Cuando **llego**, como.* | Wenn ich ankomme, esse ich. |\n| **Vergangenheit** | **Indikativ** | *Cuando **llegué**, llovía.* | Als ich ankam, regnete es. |\n\nDas ist eine der häufigsten Fehlerquellen für Deutschsprachige: Im Deutschen steht überall Indikativ Präsens, im Spanischen entscheidet der **Zeitbezug**.\n\n## aunque — Modus verändert die Bedeutung\n\n| Modus | Bedeutung | Beispiel |\n|---|---|---|\n| *aunque* + **Indikativ** | obwohl (Tatsache) | *Aunque **está** lloviendo, salgo.* (Es regnet wirklich.) |\n| *aunque* + **Subjuntivo** | auch wenn (Hypothese) | *Aunque **llueva**, saldré.* (Selbst wenn es regnen sollte…) |\n\nBeide Sätze sind korrekt — aber sie bedeuten Verschiedenes. Der **Indikativ** präsentiert die Bedingung als real, der **Subjuntivo** als hypothetisch oder gleichgültig.\n\n## Register-Hinweis\n\n*Cuando* + Subjuntivo bei Zukunftsbezug ist kein gehobenes Register — es ist die einzig richtige Form. In der gesprochenen Sprache fällt dieser Fehler sofort auf."
+    },
+    {
+      "id": "ex-cloze-importante-llegues",
+      "type": "exercise",
+      "title": "Unpersönliche Wertung: es importante que",
+      "exercise": {
+        "id": "ex-cloze-importante-llegues",
+        "type": "cloze",
+        "prompt": "Ergänze die Subjuntivo-Form von *llegar* (que tú).",
+        "card_ids": ["es-importante-que"],
+        "sentence": "Es importante que ___ a tiempo a la reunión.",
+        "blanks": [
+          { "accept": ["llegues"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "llegar: regelmäßiger -ar-Stamm *lleg-* → Subjuntivo tú: *llegues* (mit gu- → ge-Wechsel beachten: *llegu-es*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-ojala-apruebe",
+      "type": "exercise",
+      "title": "ojalá immer mit Subjuntivo",
+      "exercise": {
+        "id": "ex-cloze-ojala-apruebe",
+        "type": "cloze",
+        "prompt": "Ergänze *aprobar* (que él, Subjuntivo Präsens). Denk an den Stammvokalwechsel o→ue!",
+        "card_ids": ["ojala-que"],
+        "sentence": "¡Ojalá ___ el examen mañana!",
+        "blanks": [
+          { "accept": ["apruebe"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "aprobar → apruebo → Stamm aprueb- → Subjuntivo él: *apruebe*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-no-es-verdad",
+      "type": "exercise",
+      "title": "Verneinte Wahrheit → Subjuntivo",
+      "exercise": {
+        "id": "ex-free-no-es-verdad",
+        "type": "free_text",
+        "prompt": "Übersetze: *Es ist nicht wahr, dass das einfach ist.*",
+        "card_ids": ["no-es-verdad-que"],
+        "accept": [
+          "No es verdad que sea fácil.",
+          "no es verdad que sea fácil",
+          "No es verdad que sea facil.",
+          "No es cierto que sea fácil.",
+          "No es cierto que sea facil.",
+          "No es verdad que esto sea fácil."
+        ],
+        "hint": "no es verdad que + Subjuntivo von *ser* (que ello *sea*).",
+        "distractors": [
+          "No es verdad que es fácil.",
+          "No es verdad que ser fácil.",
+          "Es verdad que no sea fácil."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-konj-bedeutung",
+      "type": "exercise",
+      "title": "Konjunktionen zuordnen",
+      "exercise": {
+        "id": "ex-match-konj-bedeutung",
+        "type": "matching",
+        "prompt": "Ordne jeder spanischen Konjunktion ihre deutsche Bedeutung zu.",
+        "card_ids": ["para-que", "antes-de-que", "sin-que", "a-menos-que", "con-tal-de-que"],
+        "pairs": [
+          { "left": "para que", "right": "damit" },
+          { "left": "antes de que", "right": "bevor" },
+          { "left": "sin que", "right": "ohne dass" },
+          { "left": "a menos que", "right": "es sei denn" },
+          { "left": "con tal de que", "right": "sofern / vorausgesetzt dass" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-cuando-subj",
+      "type": "exercise",
+      "title": "cuando + Subjuntivo bei Zukunft",
+      "exercise": {
+        "id": "ex-free-cuando-subj",
+        "type": "free_text",
+        "prompt": "Übersetze: *Wenn du fertig bist, ruf mich an.* (Zukunftsbezug!)",
+        "card_ids": ["cuando-subj"],
+        "accept": [
+          "Cuando termines, llámame.",
+          "cuando termines, llámame",
+          "Cuando termines llámame.",
+          "Cuando acabes, llámame.",
+          "Cuando estés listo, llámame.",
+          "Cuando hayas terminado, llámame."
+        ],
+        "hint": "cuando + Zukunft → Subjuntivo: terminar → *termines* (que tú). Kein Futur nach cuando!",
+        "distractors": [
+          "Cuando terminas, llámame.",
+          "Cuando terminarás, llámame.",
+          "Cuando terminar, llámame."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-para-que-entiendas",
+      "type": "exercise",
+      "title": "Satz mit para que",
+      "exercise": {
+        "id": "ex-tiles-para-que-entiendas",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich erkläre es dir, damit du es verstehst.*",
+        "card_ids": ["para-que"],
+        "tiles": ["Te", "lo", "explico", "para", "que", "lo", "entiendas"],
+        "hint": "para que + Subjuntivo (verschiedene Subjekte: ich → du).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-aunque-llueva",
+      "type": "exercise",
+      "title": "aunque + Hypothese → Subjuntivo",
+      "exercise": {
+        "id": "ex-cloze-aunque-llueva",
+        "type": "cloze",
+        "prompt": "Hypothetische Einräumung: Ergänze *llover* im Subjuntivo (que ello).",
+        "card_ids": ["aunque-subj-ind"],
+        "sentence": "Haremos el picnic aunque ___ un poco.",
+        "blanks": [
+          { "accept": ["llueva"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "aunque + Subjuntivo = 'auch wenn es regnen sollte' (Hypothese). llover → llueve → Stamm lluev- → *llueva*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-para-que-infinitiv",
+      "type": "exercise",
+      "title": "Gleiches-Subjekt-Regel: para + Infinitiv",
+      "exercise": {
+        "id": "ex-free-para-que-infinitiv",
+        "type": "free_text",
+        "prompt": "Übersetze mit der Gleiches-Subjekt-Regel: *Ich lerne Spanisch, um Freunde zu finden.*",
+        "card_ids": ["gleiches-subjekt-regel", "para-que"],
+        "accept": [
+          "Estudio español para hacer amigos.",
+          "estudio español para hacer amigos",
+          "Aprendo español para hacer amigos.",
+          "Aprendo español para encontrar amigos.",
+          "Estudio español para encontrar amigos.",
+          "Estudio español para tener amigos."
+        ],
+        "hint": "Gleiches Subjekt (ich/ich) → *para + Infinitiv* (NICHT *para que haga amigos*).",
+        "distractors": [
+          "Estudio español para que haga amigos.",
+          "Estudio español para que encuentro amigos.",
+          "Estudio español para que hacer amigos."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-cuando-modus",
+      "type": "exercise",
+      "title": "cuando: richtige Form wählen",
+      "exercise": {
+        "id": "ex-pic-cuando-modus",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz drückt korrekt aus: *Wenn ich nach Hause komme (morgen Abend), rufe ich dich an.* (Zukunft!)",
+        "card_ids": ["cuando-subj", "cuando-ind"],
+        "images": [
+          { "src": "assets/img/phone-call-1.png", "label": "Cuando llegue a casa, te llamo.", "is_correct": "true" },
+          { "src": "assets/img/phone-call-2.png", "label": "Cuando llego a casa, te llamo." },
+          { "src": "assets/img/phone-call-3.png", "label": "Cuando llegaré a casa, te llamo." },
+          { "src": "assets/img/phone-call-4.png", "label": "Cuando llegar a casa, te llamo." }
+        ],
+        "hint": "Zukunftsbezug → cuando + Subjuntivo: llegar → *que yo llegue*.",
+        "distractors": [
+          "Cuando llego a casa, te llamo.",
+          "Cuando llegaré a casa, te llamo.",
+          "Cuando llegar a casa, te llamo."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-a-menos-que",
+      "type": "exercise",
+      "title": "a menos que — Ausnahme formulieren",
+      "exercise": {
+        "id": "ex-free-a-menos-que",
+        "type": "free_text",
+        "prompt": "Übersetze: *Wir gehen spazieren, es sei denn, es regnet.*",
+        "card_ids": ["a-menos-que"],
+        "accept": [
+          "Vamos a dar un paseo, a menos que llueva.",
+          "vamos a dar un paseo, a menos que llueva.",
+          "Salimos a pasear, a menos que llueva.",
+          "Vamos a caminar, a menos que llueva.",
+          "Damos un paseo, a menos que llueva.",
+          "Vamos a pasear, a menos que llueva."
+        ],
+        "hint": "a menos que verlangt immer den Subjuntivo: llover → *llueva*.",
+        "distractors": [
+          "Vamos a dar un paseo, a menos que llueve.",
+          "Vamos a dar un paseo, a menos que lloverá.",
+          "Vamos a dar un paseo, a menos que llover."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-cuando-aunque",
+      "type": "exercise",
+      "title": "cuando und aunque: Modus bestimmen",
+      "exercise": {
+        "id": "ex-match-cuando-aunque",
+        "type": "matching",
+        "prompt": "Ordne jedem Satz seinen Modus (Subjuntivo / Indikativ) und seine Bedeutung zu.",
+        "card_ids": ["cuando-subj", "cuando-ind", "aunque-subj-ind"],
+        "pairs": [
+          { "left": "Cuando llegues (mañana)", "right": "Subjuntivo — Zukunft" },
+          { "left": "Cuando llego (siempre)", "right": "Indikativ — Gewohnheit" },
+          { "left": "Aunque llueva (quizás)", "right": "Subjuntivo — Hypothese" },
+          { "left": "Aunque llueve (ahora)", "right": "Indikativ — Tatsache" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-antes-de-que",
+      "type": "exercise",
+      "title": "Satz mit antes de que",
+      "exercise": {
+        "id": "ex-tiles-antes-de-que",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ruf mich an, bevor du abfährst.*",
+        "card_ids": ["antes-de-que"],
+        "tiles": ["Llámame", "antes", "de", "que", "te", "vayas"],
+        "hint": "antes de que + Subjuntivo (verschiedene Subjekte). irse → *que tú te vayas*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ojala-tengamos",
+      "type": "exercise",
+      "title": "ojalá — Wunsch auf Spanisch",
+      "exercise": {
+        "id": "ex-free-ojala-tengamos",
+        "type": "free_text",
+        "prompt": "Übersetze: *Hoffentlich haben wir morgen gutes Wetter.*",
+        "card_ids": ["ojala-que"],
+        "accept": [
+          "Ojalá tengamos buen tiempo mañana.",
+          "ojalá tengamos buen tiempo mañana",
+          "Ojalá que tengamos buen tiempo mañana.",
+          "Ojalá haga buen tiempo mañana.",
+          "Ojalá que haga buen tiempo mañana.",
+          "Ojalá haya buen tiempo mañana."
+        ],
+        "hint": "ojalá + Subjuntivo: tener → *tengamos* (nosotros). Das *que* nach ojalá ist optional.",
+        "distractors": [
+          "Ojalá tenemos buen tiempo mañana.",
+          "Ojalá tendremos buen tiempo mañana.",
+          "Ojalá tener buen tiempo mañana."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

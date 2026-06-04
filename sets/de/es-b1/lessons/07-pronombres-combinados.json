@@ -1,0 +1,408 @@
+{
+  "id": "07-pronombres-combinados",
+  "title": "Pronomen vertieft: Kombination und Stellung",
+  "description": "Objektpronomen auf B1-Niveau: Kombination von OI + OD in fester Reihenfolge, die le/les → se-Regel, Stellung vor dem konjugierten Verb bzw. angehängt bei Infinitiv, Gerundio und bejahendem Imperativ, sowie redundante Pronomen und ein Hinweis auf den leísmo. Auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "pron-reihenfolge",
+      "front": "me lo, te la, se los",
+      "back": "OI vor OD — die feste Reihenfolge",
+      "notes": "Wenn zwei Objektpronomen zusammen stehen, gilt immer: **erst OI (indirektes Objekt), dann OD (direktes Objekt)**. Beispiele: *Me lo dio* (er gab es mir), *Te la enseñé* (ich zeigte sie dir), *Nos los mandan* (sie schicken sie uns).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "pronomen", "reihenfolge"]
+    },
+    {
+      "id": "pron-le-se-regel",
+      "front": "le/les + lo/la/los/las → se lo/se la/se los/se las",
+      "back": "Die le → se-Regel (Lautvermeidung)",
+      "notes": "**le** und **les** werden vor einem weiteren Pronomen (lo/la/los/las) zu **se** umgewandelt, um den unschönen Laut „le lo“ zu vermeiden:\n\n| Original | Falsch | Richtig |\n|---|---|---|\n| Le di el libro. | *le lo di* | **Se lo** di. |\n| Les expliqué la regla. | *les la expliqué* | **Se la** expliqué. |\n| Les mandé los regalos. | *les los mandé* | **Se los** mandé. |\n\nDas **se** hier ist kein Reflexivpronomen — es ersetzt nur le/les vor lo/la/los/las.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Merksatz: „le lo“ gibt es nie — immer se lo.",
+      "tags": ["grammatik", "pronomen", "se-regel"]
+    },
+    {
+      "id": "pron-stellung",
+      "front": "Te lo voy a dar / Voy a dártelo — Estoy haciéndolo / Lo estoy haciendo",
+      "back": "Stellung der Pronomen (konjugiertes Verb, Infinitiv, Gerundio, Imperativ)",
+      "notes": "## Stellung der Objektpronomen\n\n**1. Vor dem konjugierten Verb** (Normalfall):\n*Me lo **da**. / No me lo **des**.* \n\n**2. Bei Infinitiv oder Gerundio** — zwei Möglichkeiten, beide korrekt:\n\n| Getrennt (vor konj. Verb) | Angehängt |\n|---|---|\n| **Te lo** voy a dar. | Voy a **dártelo**. |\n| **Lo** estoy haciendo. | Estoy **haciéndolo**. |\n\nAchtung: Beim Anhängen an den Infinitiv/Gerundio entsteht ein Akzent, wenn nötig: *haciéndo**lo***, *dárte**lo***.\n\n**3. Bejahendem Imperativ** — Pronomen IMMER angehängt (mit Akzent!):\n*¡**Dámelo**! ¡**Díselo**! ¡**Cuéntamela**!*\n\n**4. Verneintem Imperativ** — Pronomen DAVOR:\n*¡No me lo des! ¡No se lo digas!*\n\n## Leísmo (Hinweis)\n*Le* wird in Spanien häufig als direktes Objekt für männliche Personen verwendet statt *lo*: *Le vi* statt *Lo vi* (ich sah ihn). Dies ist regional akzeptiert, in Lateinamerika aber unüblich. Bleib im Zweifel bei *lo/la* für das direkte Objekt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "pronomen", "stellung", "imperativ", "leismo"]
+    },
+    {
+      "id": "pron-redundant",
+      "front": "A mí me gusta. / A Juan le di el libro.",
+      "back": "Redundante (verdoppelte) Pronomen",
+      "notes": "Im Spanischen wird das Pronomen oft **verdoppelt**, auch wenn das Nomen oder die betonte Form bereits vorhanden ist:\n- *A **mí** **me** gusta el café.* (verdoppelt zur Betonung)\n- *A **Juan** **le** di el libro.* (le ist obligatorisch, auch wenn Juan genannt wird)\n- *A **ellas** **les** encanta la música.*\n\nDie betonte Form (*a mí, a ti, a él…*) steht nie allein als Objekt — sie ergänzt nur das klitische Pronomen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "pronomen", "redundanz"]
+    },
+    {
+      "id": "pron-me-lo-dio",
+      "front": "Me lo dio.",
+      "back": "Er/sie gab es mir.",
+      "notes": "*Me* = mir (OI, 1. Ps. Sg.), *lo* = es (OD, mask. Sg.). Reihenfolge: OI → OD. Das Verb *dio* ist 3. Ps. Sg. Indefinido von *dar*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronomen", "beispiel", "reihenfolge"]
+    },
+    {
+      "id": "pron-se-lo-di",
+      "front": "Le di el libro. → Se lo di.",
+      "back": "Ich gab ihm/ihr das Buch. → Ich gab es ihm/ihr.",
+      "notes": "Wenn *le* (OI) und *lo* (OD) zusammen kommen: *le lo di* ist **falsch** → korrekt: **Se lo di**. Das *se* ersetzt hier *le*. Um Mehrdeutigkeit aufzulösen, kann man ergänzen: *Se lo di **a él/a ella/a usted**.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "le + lo → se lo (niemals „le lo“).",
+      "tags": ["pronomen", "se-regel", "beispiel"]
+    },
+    {
+      "id": "pron-damelo",
+      "front": "¡Dámelo!",
+      "back": "Gib es mir!",
+      "notes": "Bejahlter Imperativ (tú): Pronomen **immer angehängt**, mit geschriebenem Akzent: *da* + *me* + *lo* → ***Dámelo*** (Akzent auf *dá-*, da das Wort durch Anhängen länger wird und die Betonung erhalten bleibt).",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Imperativ (bejaht) + Pronomen angehängt → Akzent prüfen!",
+      "tags": ["pronomen", "imperativ", "beispiel"]
+    },
+    {
+      "id": "pron-no-me-lo-des",
+      "front": "¡No me lo des!",
+      "back": "Gib es mir nicht!",
+      "notes": "**Verneinender Imperativ**: Pronomen stehen **vor** dem Verb, **getrennt**. Das Verb steht im Subjuntivo (verneinter Imperativ): *des* = que tú des (Subjuntivo von *dar*). Kontrast: *¡Dámelo!* (bejaht, angehängt) vs. *¡No me lo des!* (verneint, davor).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pronomen", "imperativ", "verneinung"]
+    },
+    {
+      "id": "pron-infinitiv-doppel",
+      "front": "Voy a dártelo. / Te lo voy a dar.",
+      "back": "Ich werde es dir geben. (zwei Möglichkeiten)",
+      "notes": "Bei einer Konstruktion mit Infinitiv (*ir a* + Infinitiv) kann das Pronomen an den Infinitiv angehängt werden (**dár-te-lo**, mit Akzent) oder davor an das konjugierte Verb (**te lo** voy a dar). Beide Varianten sind grammatisch gleichwertig.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pronomen", "stellung", "infinitiv"]
+    },
+    {
+      "id": "pron-gerundio-doppel",
+      "front": "Estoy haciéndolo. / Lo estoy haciendo.",
+      "back": "Ich mache es gerade. (zwei Möglichkeiten)",
+      "notes": "Bei Gerundio-Konstruktionen (*estar* + Gerundio): Pronomen ans Gerundio anhängen (**haciéndo-lo**, Akzent!) oder davor an *estoy* (**lo** estoy haciendo). Beide sind korrekt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pronomen", "stellung", "gerundio"]
+    },
+    {
+      "id": "pron-se-la-explique",
+      "front": "Les expliqué la regla. → Se la expliqué.",
+      "back": "Ich erklärte ihnen die Regel. → Ich erklärte sie ihnen.",
+      "notes": "*Les* (OI, 3. Pl.) + *la* (OD, fem. Sg., für *la regla*) → *les la* ist **falsch** → korrekt: **Se la expliqué**. Das *se* ersetzt *les*. Kontext nötig oder ergänzen: *Se la expliqué **a ellos/a ellas**.*",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["pronomen", "se-regel", "beispiel"]
+    },
+    {
+      "id": "pron-te-la-ensene",
+      "front": "Te la enseñé.",
+      "back": "Ich zeigte sie dir.",
+      "notes": "*Te* = dir (OI, 2. Ps. Sg.), *la* = sie (OD, fem. Sg.). Verb *enseñé* = ich zeigte (Indefinido von *enseñar*). Reihenfolge OI (*te*) vor OD (*la*) — kein Lautproblem hier, da te + la kein „le“ enthält.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pronomen", "beispiel", "reihenfolge"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-reihenfolge",
+      "type": "theory",
+      "title": "Kombination OI + OD: Die feste Reihenfolge",
+      "body": "# Pronomen vertieft: Kombination und Stellung\n\nAuf A1/A2-Niveau hast du OI- und OD-Pronomen einzeln gelernt. Auf B1 kombinieren wir beide — und da gibt es klare Regeln.\n\n## Die Pronomen im Überblick\n\n| Person | OI (indirektes Objekt) | OD (direktes Objekt) |\n|---|---|---|\n| yo | **me** | **me** |\n| tú | **te** | **te** |\n| él/ella/usted | **le** | **lo / la** |\n| nosotros | **nos** | **nos** |\n| vosotros | **os** | **os** |\n| ellos/ellas/ustedes | **les** | **los / las** |\n\n## Reihenfolge: Erst OI, dann OD\n\nWenn beide Pronomen zusammenstehen, gilt immer:\n\n> **OI + OD** (indirektes zuerst, direktes danach)\n\n| Deutsch | Spanisch |\n|---|---|\n| Er gab es **mir**. | **Me lo** dio. |\n| Ich zeigte sie **dir**. | **Te la** enseñé. |\n| Sie schicken sie **uns**. | **Nos las** mandan. |\n| Ich habe es **euch** erklärt. | **Os lo** he explicado. |\n\n## Die zentrale Regel: le/les + lo/la → **se** lo/la\n\nWenn das OI **le** oder **les** ist und danach ein OD (lo/la/los/las) folgt, wird le/les zu **se** — weil „le lo“ im Spanischen lautlich vermieden wird:\n\n| Ausgangsatz | Falsch | Richtig |\n|---|---|---|\n| Le di el libro. | ~~le lo di~~ | **Se lo** di. |\n| Les expliqué la regla. | ~~les la expliqué~~ | **Se la** expliqué. |\n| Le mandé los regalos. | ~~le los mandé~~ | **Se los** mandé. |\n\n> Dieses **se** ist **kein Reflexivpronomen** — es ist nur eine Lautanpassung von le/les vor lo/la/los/las. Um Mehrdeutigkeit aufzulösen: *Se lo di **a él/a ella/a usted/a Juan**.*"
+    },
+    {
+      "id": "theory-stellung",
+      "type": "theory",
+      "title": "Stellung der Pronomen: vor dem Verb, angehängt, Imperativ",
+      "body": "## Wo stehen die Pronomen?\n\n### 1. Vor dem konjugierten Verb (Normalfall)\n\nIm normalen Aussagesatz stehen die Pronomen **direkt vor** dem konjugierten Verb:\n\n- ***Me lo** da todos los días.*\n- ***Se lo** explicamos en clase.*\n\n### 2. Bei Infinitiv-Konstruktionen — zwei Möglichkeiten\n\nWenn ein konjugiertes Hilfsverb + Infinitiv vorliegt (z. B. *ir a*, *querer*, *poder*, *tener que*), kann das Pronomen:\n\na) **Ans Infinitiv angehängt** werden (ein Wort, Akzent ggf. nötig):\n   - *Voy a **dártelo**.*\n   - *Quiero **mostrártela**.*\n\nb) **Vor das konjugierte Verb** gestellt werden:\n   - ***Te lo** voy a dar.*\n   - ***Te la** quiero mostrar.*\n\n### 3. Bei Gerundio-Konstruktionen (*estar* + Gerundio)\n\n| Angehängt | Davor |\n|---|---|\n| Estoy **haciéndolo**. | **Lo** estoy haciendo. |\n| Estamos **explicándosela**. | **Se la** estamos explicando. |\n\nAchtung: Beim Anhängen verschiebt sich die Betonung — schreibe den Akzent: *haciéndo**lo***, *explicándo**se**la*.\n\n### 4. Imperativ\n\n| Typ | Stellung | Beispiel |\n|---|---|---|\n| **Bejaht** | IMMER angehängt (mit Akzent!) | *¡Dáme**lo**! ¡Díselo! ¡Cuéntamela!* |\n| **Verneint** | IMMER davor (getrennt) | *¡No me lo des! ¡No se lo digas!* |"
+    },
+    {
+      "id": "theory-redundanz-leismo",
+      "type": "theory",
+      "title": "Redundante Pronomen und der leísmo",
+      "body": "## Redundante (verdoppelte) Pronomen\n\nIm Spanischen ist es sehr üblich, das Pronomen zu setzen, **auch wenn das Nomen oder eine betonte Form schon da ist**:\n\n| Satz | Erklärung |\n|---|---|\n| *A **mí** **me** gusta el café.* | Betonung durch *a mí*, Pronomen *me* trotzdem nötig |\n| *A **Juan** **le** di el libro.* | *le* ist obligatorisch, auch wenn Juan genannt wird |\n| *A **ellas** **les** encanta la música.* | Verdopplung bei Dativobjekten sehr häufig |\n\n> Die betonte Form (*a mí, a ti, a él, a ella, a nosotros…*) steht **nie allein als Objekt** — sie ergänzt das klitische Pronomen nur zur Betonung oder Verdeutlichung.\n\n## Leísmo — eine regionale Besonderheit\n\nIn Spanien (besonders Kastilien) wird **le** häufig als direktes Objekt für männliche Personen verwendet statt *lo*:\n\n- *Le vi ayer.* (ich sah ihn gestern) — in Spanien akzeptiert\n- *Lo vi ayer.* — in Lateinamerika und formal korrekt überall\n\nIn Lateinamerika gilt strikt: *lo* für männliches direktes Objekt, *la* für weibliches. Wähle im Zweifel **lo/la** — das ist immer korrekt."
+    },
+    {
+      "id": "ex-cloze-me-lo-dio",
+      "type": "exercise",
+      "title": "OI + OD kombinieren (me lo)",
+      "exercise": {
+        "id": "ex-cloze-me-lo-dio",
+        "type": "cloze",
+        "prompt": "Ergänze die kombinierten Pronomen. Das Buch wurde mir gegeben — OI = mir, OD = es (das Buch).",
+        "card_ids": ["pron-reihenfolge", "pron-me-lo-dio"],
+        "sentence": "___ ___ dio ayer.",
+        "blanks": [
+          { "accept": ["Me"] },
+          { "accept": ["lo"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "OI zuerst: me (mir) → dann OD: lo (es/das Buch). Reihenfolge: OI + OD.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-se-lo-di",
+      "type": "exercise",
+      "title": "le + lo → se lo (die Kerntransformation)",
+      "exercise": {
+        "id": "ex-free-se-lo-di",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich habe ihm das Buch gegeben.* (Verwende kombinierte Pronomen — le + lo → se lo)",
+        "card_ids": ["pron-le-se-regel", "pron-se-lo-di"],
+        "accept": [
+          "Se lo di.",
+          "se lo di",
+          "Se lo he dado.",
+          "se lo he dado",
+          "Se lo di a él.",
+          "Se lo he dado a él."
+        ],
+        "hint": "Le (ihm) + lo (das Buch) → se lo. Verb: dar (Indefinido: di / Perfekt: he dado).",
+        "distractors": [
+          "Le lo di.",
+          "Lo le di.",
+          "Me lo di."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-te-la-ensene",
+      "type": "exercise",
+      "title": "Satzstellung: te la enseñé",
+      "exercise": {
+        "id": "ex-tiles-te-la-ensene",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich zeigte sie dir.* (sie = die Fotos, dir = OI)",
+        "card_ids": ["pron-te-la-ensene", "pron-reihenfolge"],
+        "tiles": ["Te", "la", "enseñé", "ayer"],
+        "hint": "OI (te) kommt vor OD (la). Verb ans Ende.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-reihenfolge",
+      "type": "exercise",
+      "title": "Pronomen-Kombinationen zuordnen",
+      "exercise": {
+        "id": "ex-match-reihenfolge",
+        "type": "matching",
+        "prompt": "Ordne jedem deutschen Satzteil die richtige spanische Pronomen-Kombination zu.",
+        "card_ids": ["pron-reihenfolge", "pron-le-se-regel", "pron-me-lo-dio", "pron-te-la-ensene"],
+        "pairs": [
+          { "left": "er gab es mir", "right": "me lo dio" },
+          { "left": "ich zeigte sie dir", "right": "te la enseñé" },
+          { "left": "ich gab es ihm (le + lo)", "right": "se lo di" },
+          { "left": "sie schickte sie euch", "right": "os las mandó" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-se-la-explique",
+      "type": "exercise",
+      "title": "les + la → se la (Plural OI)",
+      "exercise": {
+        "id": "ex-free-se-la-explique",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich erklärte ihnen die Regel.* (les + la → se la)",
+        "card_ids": ["pron-le-se-regel", "pron-se-la-explique"],
+        "accept": [
+          "Se la expliqué.",
+          "se la expliqué",
+          "Se la he explicado.",
+          "se la he explicado",
+          "Se la expliqué a ellos.",
+          "Se la expliqué a ellas."
+        ],
+        "hint": "Les (ihnen, Pl.) + la (die Regel, fem.) → se la. Verb: explicar, Indefinido: expliqué.",
+        "distractors": [
+          "Les la expliqué.",
+          "Se lo expliqué.",
+          "La les expliqué."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-damelo",
+      "type": "exercise",
+      "title": "Bejahlter Imperativ mit Pronomen",
+      "exercise": {
+        "id": "ex-picture-damelo",
+        "type": "picture_choice",
+        "prompt": "Welche Form ist korrekt für den bejahten Imperativ (tú) von *dar* mit den Pronomen *me* + *lo*?",
+        "card_ids": ["pron-damelo", "pron-stellung"],
+        "images": [
+          { "src": "assets/img/imperativo-1.png", "label": "¡Dámelo!", "is_correct": "true" },
+          { "src": "assets/img/imperativo-2.png", "label": "¡Me lo da!" },
+          { "src": "assets/img/imperativo-3.png", "label": "¡Damelo!" },
+          { "src": "assets/img/imperativo-4.png", "label": "¡Lo me da!" }
+        ],
+        "hint": "Bejahlter Imperativ: Pronomen IMMER angehängt, mit Akzent auf der ursprünglich betonten Silbe.",
+        "distractors": [
+          "¡Me lo da!",
+          "¡Damelo!",
+          "¡Lo me da!"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-no-me-lo-des",
+      "type": "exercise",
+      "title": "Verneinender Imperativ mit Pronomen",
+      "exercise": {
+        "id": "ex-tiles-no-me-lo-des",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter für den verneinenden Imperativ: *Gib es mir nicht!*",
+        "card_ids": ["pron-no-me-lo-des", "pron-stellung"],
+        "tiles": ["¡No", "me", "lo", "des!"],
+        "hint": "Verneinender Imperativ: Pronomen DAVOR, getrennt. Verb im Subjuntivo: des (Subjuntivo von dar).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-infinitiv-dártelo",
+      "type": "exercise",
+      "title": "Pronomen beim Infinitiv angehängt",
+      "exercise": {
+        "id": "ex-cloze-infinitiv-dártelo",
+        "type": "cloze",
+        "prompt": "Ergänze die angehängte Form: *Ich werde es dir geben* — Pronomen an den Infinitiv anhängen.",
+        "card_ids": ["pron-infinitiv-doppel", "pron-stellung"],
+        "sentence": "Voy a ___.",
+        "blanks": [
+          { "accept": ["dártelo"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Infinitiv dar + te + lo → dár-te-lo (Akzent auf dár, da durch Anhängen das Wort länger wird).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-gerundio-haciendolo",
+      "type": "exercise",
+      "title": "Pronomen beim Gerundio",
+      "exercise": {
+        "id": "ex-free-gerundio-haciendolo",
+        "type": "free_text",
+        "prompt": "Übersetze auf zwei Arten: *Ich mache es gerade.* (Gerundio-Konstruktion — einmal angehängt, einmal davor)",
+        "card_ids": ["pron-gerundio-doppel", "pron-stellung"],
+        "accept": [
+          "Estoy haciéndolo.",
+          "estoy haciéndolo",
+          "Lo estoy haciendo.",
+          "lo estoy haciendo",
+          "Estoy haciendolo.",
+          "Lo estoy haciendo."
+        ],
+        "hint": "Angehängt: Estoy haciéndo-lo (Akzent!). Davor: Lo estoy haciendo. Beide sind richtig.",
+        "distractors": [
+          "Estoy haciendolo.",
+          "Lo haciéndolo estoy.",
+          "Estoy lo haciendo."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-imperativ",
+      "type": "exercise",
+      "title": "Imperativ-Formen mit Pronomen zuordnen",
+      "exercise": {
+        "id": "ex-match-imperativ",
+        "type": "matching",
+        "prompt": "Ordne jedem deutschen Imperativ-Satz die korrekte spanische Form zu.",
+        "card_ids": ["pron-damelo", "pron-no-me-lo-des", "pron-stellung"],
+        "pairs": [
+          { "left": "Gib es mir! (bejaht)", "right": "¡Dámelo!" },
+          { "left": "Gib es mir nicht! (verneint)", "right": "¡No me lo des!" },
+          { "left": "Erzähl es mir! (bejaht)", "right": "¡Cuéntamelo!" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-redundant-pron",
+      "type": "exercise",
+      "title": "Verdoppeltes Pronomen (a Juan le di…)",
+      "exercise": {
+        "id": "ex-free-redundant-pron",
+        "type": "free_text",
+        "prompt": "Übersetze: *Juan habe ich das Buch gegeben.* (Nenne Juan mit *a Juan* und verwende trotzdem das Pronomen le → se lo)",
+        "card_ids": ["pron-redundant", "pron-le-se-regel"],
+        "accept": [
+          "A Juan se lo di.",
+          "a Juan se lo di",
+          "Se lo di a Juan.",
+          "se lo di a Juan",
+          "A Juan se lo he dado.",
+          "Se lo he dado a Juan."
+        ],
+        "hint": "Auch wenn Juan genannt wird, bleibt le nötig — und le + lo = se lo. Also: A Juan se lo di.",
+        "distractors": [
+          "A Juan le lo di.",
+          "Di a Juan el libro.",
+          "A Juan lo di."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-voy-a-dartelo",
+      "type": "exercise",
+      "title": "Infinitiv-Konstruktion: Pronomen davor",
+      "exercise": {
+        "id": "ex-tiles-voy-a-dartelo",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter — Pronomen vor das konjugierte Verb: *Ich werde es dir geben.* (Alternative: Pronomen davor)",
+        "card_ids": ["pron-infinitiv-doppel", "pron-stellung"],
+        "tiles": ["Te", "lo", "voy", "a", "dar."],
+        "hint": "Alternative zu 'Voy a dártelo': Pronomen (te + lo) davor an das konjugierte Verb (voy).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-leismo",
+      "type": "exercise",
+      "title": "Leísmo erkennen und einordnen",
+      "exercise": {
+        "id": "ex-free-leismo",
+        "type": "free_text",
+        "prompt": "In Spanien hört man: *Le vi ayer* (für: ich sah ihn gestern). Wie lautet die in Lateinamerika und im Standard korrekte Form? Schreibe den vollständigen Satz.",
+        "card_ids": ["pron-stellung"],
+        "accept": [
+          "Lo vi ayer.",
+          "lo vi ayer",
+          "Lo vi ayer",
+          "Vi ayer a él."
+        ],
+        "hint": "Leísmo: in Spanien regional akzeptiert (le = direktes Objekt für mask. Personen). Standard und Lateinamerika: lo = OD maskulin.",
+        "distractors": [
+          "Le vi ayer.",
+          "La vi ayer.",
+          "Les vi ayer."
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

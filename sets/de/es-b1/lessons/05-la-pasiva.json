@@ -1,0 +1,381 @@
+{
+  "id": "05-la-pasiva",
+  "title": "La voz pasiva y la pasiva refleja",
+  "description": "Zwei passive Konstruktionen im Spanischen: die ser-Passiv (ser + Partizip, formell/schriftlich) und die pasiva refleja mit se (im Alltag viel häufiger). Dazu das unpersönliche se. Mit Vergleich zum deutschen Werden-Passiv. Auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "pasiva-ser-konzept",
+      "front": "La casa fue construida en 1900.",
+      "back": "Das Haus wurde 1900 gebaut. (ser-Passiv)",
+      "notes": "**Pasiva con ser**: *ser* + **Partizip**, das sich in Genus und Numerus nach dem Subjekt richtet. Der Urheber (Agens) steht nach **por**: *fue construida **por** los obreros*. Wird im Spanischen eher **schriftlich/formell** verwendet.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pasiva", "ser", "grammatik"]
+    },
+    {
+      "id": "pasiva-ser-kongruenz",
+      "front": "Los libros fueron escritos por García Márquez.",
+      "back": "Die Bücher wurden von García Márquez geschrieben. (Kongruenz!)",
+      "notes": "Das Partizip **kongruiert** mit dem Subjekt:\n- *el libro → fue escrit**o***\n- *la carta → fue escrit**a***\n- *los libros → fueron escrit**os***\n- *las cartas → fueron escrit**as***\n\nUrheber: **por** + Person/Institution.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pasiva", "ser", "kongruenz", "grammatik"]
+    },
+    {
+      "id": "pasiva-ser-por",
+      "front": "El proyecto fue aprobado por el director.",
+      "back": "Das Projekt wurde vom Direktor genehmigt.",
+      "notes": "**por** leitet den Urheber (Agens) ein — wie „von“ im deutschen Werden-Passiv. Ohne bekannten Urheber entfällt *por*: *El proyecto fue aprobado.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pasiva", "ser", "por", "grammatik"]
+    },
+    {
+      "id": "pasiva-refleja-konzept",
+      "front": "Se habla español. / Se venden pisos.",
+      "back": "Spanisch wird gesprochen. / Wohnungen werden verkauft. (pasiva refleja)",
+      "notes": "**Pasiva refleja** = **se** + Verb in der **3. Person**, kongruent mit dem grammatischen Subjekt:\n- *Se habl**a** español* (Singular: *español*)\n- *Se vend**en** pisos* (Plural: *pisos*)\n\nIm Alltag **viel häufiger** als die ser-Passiv. Kein Urheber nennbar.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pasiva-refleja", "se", "grammatik"]
+    },
+    {
+      "id": "pasiva-refleja-kongruenz",
+      "front": "Se busca camarero. / Se buscan camareros.",
+      "back": "Kellner gesucht. / Kellner (mehrere) gesucht. (Kongruenz beim Verb!)",
+      "notes": "Das **Verb** kongruiert mit dem Subjekt:\n- *Se busca **un** camarero* → Singular\n- *Se buscan **dos** camareros* → Plural\n\nHäufiger Fehler: Immer Singular lassen. Merke: Das nachfolgende Nomen ist das Subjekt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pasiva-refleja", "se", "kongruenz", "grammatik"]
+    },
+    {
+      "id": "se-impersonal",
+      "front": "Se dice que… / Se come bien aquí.",
+      "back": "Man sagt, dass… / Hier isst man gut. (unpersönliches se)",
+      "notes": "**Se impersonal**: Das Verb steht immer im **Singular**, es gibt kein grammatisches Subjekt. Entspricht dem deutschen „man“.\n\n- *Se dice que el español es fácil.* → Man sagt, Spanisch sei einfach.\n- *Aquí se come muy bien.* → Hier isst man sehr gut.\n- *Se trabaja mucho en esta empresa.* → In diesem Unternehmen arbeitet man viel.\n\nUnterschied zur pasiva refleja: Bei se impersonal ist kein Nomen als Subjekt vorhanden.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["se-impersonal", "se", "grammatik"]
+    },
+    {
+      "id": "pasiva-kontrast-registre",
+      "front": "ser-Passiv vs. pasiva refleja — wann was?",
+      "back": "ser-Passiv: formell/schriftlich, Urheber nennbar. se-Passiv: alltäglich, kein Urheber.",
+      "notes": "| Konstruktion | Häufigkeit | Register | Urheber |\n|---|---|---|---|\n| ser + Partizip | selten | formell/schriftlich | *por* + Person möglich |\n| se + Verb | sehr häufig | alltäglich | nicht nennbar |\n| aktiv + unbestimmtes Subjekt | häufig | neutral | impliziert |\n\n**Faustregeln**:\n- Zeitung/Gesetz/Bericht → eher ser-Passiv (*fue detenido el sospechoso*)\n- Hinweisschilder/Alltag → se-Passiv (*se alquila piso*, *se vende*)\n- Wenn der Urheber wichtig ist → ser-Passiv mit *por*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pasiva", "kontrast", "register", "grammatik"]
+    },
+    {
+      "id": "pasiva-vergleich-deutsch",
+      "front": "werden-Passiv (Deutsch) vs. spanische Passive",
+      "back": "Deutsch: werden + Partizip II. Spanisch: ser + Partizip ODER se + Verb.",
+      "notes": "Das deutsche **werden-Passiv** hat im Spanischen zwei Entsprechungen:\n\n| Deutsch | Spanisch (formell) | Spanisch (alltäglich) |\n|---|---|---|\n| Das Haus wird gebaut. | La casa es construida. | Se construye la casa. |\n| Das Haus wurde gebaut. | La casa fue construida. | Se construyó la casa. |\n| Bücher werden verkauft. | Los libros son vendidos. | Se venden libros. |\n\n> Tipp: Im gesprochenen Spanisch klingt die ser-Passiv oft gespreizt — die **se-Passiv ist natürlicher**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pasiva", "vergleich", "deutsch", "grammatik"]
+    },
+    {
+      "id": "pasiva-ser-partizip-formen",
+      "front": "construir → construido/a/os/as",
+      "back": "Partizipien für die ser-Passiv (regelmäßig und unregelmäßig)",
+      "notes": "**Regelmäßige** Partizipien: *-ar → -ado*, *-er/-ir → -ido*.\n**Unregelmäßige** (wichtigste):\n- *escribir → escrit**o***\n- *hacer → hech**o***\n- *abrir → abiert**o***\n- *ver → vist**o***\n- *decir → dich**o***\n- *poner → puest**o***\n\nJedes kongruiert: *escrito / escrita / escritos / escritas*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Partizip = Adjektiv → richtet sich nach dem Subjekt in Genus und Numerus.",
+      "tags": ["pasiva", "ser", "partizip", "grammatik"]
+    },
+    {
+      "id": "pasiva-refleja-schilder",
+      "front": "Se alquila piso. / Se necesita cocinero.",
+      "back": "Wohnung zu vermieten. / Koch gesucht (gebraucht).",
+      "notes": "Klassische **Alltagsanwendungen** der pasiva refleja auf Schildern und in Anzeigen:\n- *Se alquila* (Singular) → eine Wohnung\n- *Se alquilan* (Plural) → mehrere Wohnungen\n- *Se necesita* / *Se necesitan*\n- *Se vende* / *Se venden*\n\nDiese Formen sind im Spanischen allgegenwärtig.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pasiva-refleja", "alltag", "grammatik"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-ser-passiv",
+      "type": "theory",
+      "title": "Die ser-Passiv: ser + Partizip",
+      "body": "# La pasiva con ser\n\nDas Spanische kennt zwei Passive. Das erste ähnelt dem deutschen Werden-Passiv:\n\n**ser** + **Partizip Perfekt** (kongruent mit dem Subjekt)\n\n## Bildung\n\n| Person/Numerus | Beispiel |\n|---|---|\n| Singular maskulin | *El libro **fue escrito** por Cervantes.* |\n| Singular feminin | *La novela **fue escrita** por Cervantes.* |\n| Plural maskulin | *Los libros **fueron escritos** por Cervantes.* |\n| Plural feminin | *Las novelas **fueron escritas** por Cervantes.* |\n\nDas Partizip **kongruiert** in Genus und Numerus mit dem Subjekt — genau wie ein Adjektiv.\n\n## Urheber: por\n\nDen Urheber (Agens) leitet **por** ein:\n- *La ciudad **fue fundada por** los romanos.* → Die Stadt wurde von den Römern gegründet.\n\n## Register-Hinweis\n\n> Die ser-Passiv klingt im gesprochenen Spanisch **formell/gespreizt**. Sie findet sich vor allem in Zeitungsberichten, Gesetzen und offiziellen Texten. Im Alltag bevorzugt man fast immer die **pasiva refleja** mit *se*."
+    },
+    {
+      "id": "theory-pasiva-refleja",
+      "type": "theory",
+      "title": "Die pasiva refleja und das unpersönliche se",
+      "body": "# La pasiva refleja (se + Verb)\n\nDie **häufigste** Passivkonstruktion im Spanischen ist die pasiva refleja:\n\n**se** + **Verb in der 3. Person** (kongruent mit dem grammatischen Subjekt)\n\n## Bildung und Kongruenz\n\n| Subjekt | Beispiel | Deutsch |\n|---|---|---|\n| Singular | *Se **habla** español.* | Spanisch wird gesprochen. |\n| Singular | *Se **vende** pan aquí.* | Hier wird Brot verkauft. |\n| Plural | *Se **venden** pisos.* | Wohnungen werden verkauft. |\n| Plural | *Se **buscan** camareros.* | Kellner gesucht. |\n\n**Wichtig**: Das nachfolgende Nomen ist das Subjekt → das Verb kongruiert!\n\n## Se impersonal\n\nOhne grammatisches Subjekt steht das Verb immer im **Singular**:\n\n- *Se **dice** que el español es fácil.* → Man sagt, Spanisch sei einfach.\n- *Aquí se **come** muy bien.* → Hier isst man sehr gut.\n- *Se **trabaja** mucho en esta empresa.* → In diesem Unternehmen arbeitet man viel.\n\nDas se impersonal entspricht dem deutschen **„man“**."
+    },
+    {
+      "id": "theory-kontrast",
+      "type": "theory",
+      "title": "ser-Passiv vs. pasiva refleja vs. Aktiv — Wann was?",
+      "body": "# Wann welche Konstruktion?\n\n## Übersicht\n\n| Konstruktion | Form | Häufigkeit | Typisches Register |\n|---|---|---|---|\n| **ser-Passiv** | *ser + Partizip* | selten | formell, schriftlich |\n| **pasiva refleja** | *se + Verb (Kongruenz!)* | sehr häufig | alltäglich, mündlich |\n| **se impersonal** | *se + Verb (immer Singular)* | häufig | neutral |\n| **Aktiv mit unbestimmtem Subjekt** | *Dicen que…* | häufig | umgangssprachlich |\n\n## Vergleich: Deutsch → Spanisch\n\n| Deutsch (werden-Passiv) | ser-Passiv | pasiva refleja |\n|---|---|---|\n| Das Haus wird gebaut. | *La casa es construida.* | *Se construye la casa.* |\n| Das Haus wurde gebaut. | *La casa fue construida.* | *Se construyó la casa.* |\n| Bücher werden verkauft. | *Los libros son vendidos.* | *Se venden libros.* |\n\n## Wann ser-Passiv wählen?\n- Wenn der **Urheber** wichtig und nennbar ist (*por García Lorca*)\n- In **Zeitungsberichten, Gesetzen, offiziellen Dokumenten**\n- Wenn ein spezifisches Zeitgefüge nötig ist (z. B. Plusquamperfekt: *había sido construido*)\n\n## Wann pasiva refleja?\n- Im **gesprochenen Alltag** fast immer\n- Wenn kein Urheber genannt werden soll/kann\n- Auf **Schildern und Anzeigen**: *Se vende*, *Se alquila*, *Se busca*\n\n> **Merksatz**: Im Spanischen ist die se-Passiv der Normalfall — die ser-Passiv ist die Ausnahme."
+    },
+    {
+      "id": "ex-cloze-fue-construida",
+      "type": "exercise",
+      "title": "ser-Passiv: Partizip einsetzen",
+      "exercise": {
+        "id": "ex-cloze-fue-construida",
+        "type": "cloze",
+        "prompt": "Ergänze das korrekte Partizip von *construir* (feminin Singular) in der ser-Passiv.",
+        "card_ids": ["pasiva-ser-konzept", "pasiva-ser-kongruenz"],
+        "sentence": "La catedral fue ___ en el siglo XIII.",
+        "blanks": [
+          { "accept": ["construida"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "construir → construido. Das Subjekt *la catedral* ist feminin Singular → construid**a**.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-se-venden",
+      "type": "exercise",
+      "title": "pasiva refleja: Kongruenz",
+      "exercise": {
+        "id": "ex-cloze-se-venden",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Verbform (pasiva refleja) von *vender* — achte auf die Kongruenz mit *pisos* (Plural).",
+        "card_ids": ["pasiva-refleja-konzept", "pasiva-refleja-kongruenz"],
+        "sentence": "En este barrio ___ muchos pisos.",
+        "blanks": [
+          { "accept": ["se venden"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Subjekt = *pisos* (Plural) → se vend**en**.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-pasiva-ser",
+      "type": "exercise",
+      "title": "ser-Passiv übersetzen",
+      "exercise": {
+        "id": "ex-free-pasiva-ser",
+        "type": "free_text",
+        "prompt": "Übersetze mit der ser-Passiv: *Die Bücher wurden von García Márquez geschrieben.*",
+        "card_ids": ["pasiva-ser-kongruenz", "pasiva-ser-por", "pasiva-ser-partizip-formen"],
+        "accept": [
+          "Los libros fueron escritos por García Márquez.",
+          "los libros fueron escritos por García Márquez",
+          "Los libros fueron escritos por Garcia Marquez.",
+          "Los libros han sido escritos por García Márquez.",
+          "Estos libros fueron escritos por García Márquez."
+        ],
+        "hint": "Subjekt *los libros* (maskulin Plural) → Partizip *escrito* → *escritos*. Urheber mit *por*.",
+        "distractors": [
+          "Los libros fueron escritas por García Márquez.",
+          "Los libros fue escrito por García Márquez.",
+          "Los libros estuvieron escritos por García Márquez."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-pasiva-refleja",
+      "type": "exercise",
+      "title": "pasiva refleja übersetzen",
+      "exercise": {
+        "id": "ex-free-pasiva-refleja",
+        "type": "free_text",
+        "prompt": "Übersetze auf Spanisch (pasiva refleja): *Hier spricht man Spanisch.*",
+        "card_ids": ["pasiva-refleja-konzept", "pasiva-refleja-schilder"],
+        "accept": [
+          "Aquí se habla español.",
+          "aquí se habla español",
+          "Aquí se habla el español.",
+          "Se habla español aquí.",
+          "Se habla español."
+        ],
+        "hint": "pasiva refleja: se + Verb Singular, weil *español* als grammatisches Subjekt Singular ist.",
+        "distractors": [
+          "Aquí se hablan español.",
+          "Aquí se habla españoles.",
+          "Aquí es hablado español."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-se-impersonal",
+      "type": "exercise",
+      "title": "Se impersonal: Man sagt, dass …",
+      "exercise": {
+        "id": "ex-free-se-impersonal",
+        "type": "free_text",
+        "prompt": "Übersetze: *Man sagt, dass Spanisch leicht ist.*",
+        "card_ids": ["se-impersonal"],
+        "accept": [
+          "Se dice que el español es fácil.",
+          "se dice que el español es fácil",
+          "Se dice que español es fácil.",
+          "Dicen que el español es fácil.",
+          "Se dice que el español es muy fácil."
+        ],
+        "hint": "se impersonal → Verb immer im Singular: *se dice*. Alternativ aktiv: *dicen que*.",
+        "distractors": [
+          "Se dicen que el español es fácil.",
+          "Se dices que el español es fácil.",
+          "Se dice que el español está fácil."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-konstruktionen",
+      "type": "exercise",
+      "title": "Passivkonstruktionen zuordnen",
+      "exercise": {
+        "id": "ex-match-konstruktionen",
+        "type": "matching",
+        "prompt": "Ordne jeden Satz der richtigen Passivkonstruktion zu.",
+        "card_ids": ["pasiva-ser-konzept", "pasiva-refleja-konzept", "se-impersonal", "pasiva-kontrast-registre"],
+        "pairs": [
+          { "left": "La ciudad fue fundada por los romanos.", "right": "ser-Passiv" },
+          { "left": "Se venden pisos en este edificio.", "right": "pasiva refleja" },
+          { "left": "Se come muy bien en este restaurante.", "right": "se impersonal" },
+          { "left": "El informe fue aprobado por la directora.", "right": "ser-Passiv (formell)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-se-busca",
+      "type": "exercise",
+      "title": "Ein Schild auf Spanisch formulieren",
+      "exercise": {
+        "id": "ex-tiles-se-busca",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Koch gesucht (Vollzeit).* — als pasiva refleja wie auf einem Aushang.",
+        "card_ids": ["pasiva-refleja-schilder", "pasiva-refleja-kongruenz"],
+        "tiles": ["Se", "busca", "cocinero", "a", "tiempo", "completo"],
+        "hint": "*cocinero* ist Singular → se busc**a** (nicht *buscan*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-fue-construida",
+      "type": "exercise",
+      "title": "ser-Passiv: Satz aufbauen",
+      "exercise": {
+        "id": "ex-tiles-fue-construida",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Das Rathaus wurde 1890 gebaut.*",
+        "card_ids": ["pasiva-ser-konzept", "pasiva-ser-kongruenz"],
+        "tiles": ["El", "ayuntamiento", "fue", "construido", "en", "1890"],
+        "hint": "*el ayuntamiento* ist maskulin Singular → *construid**o*** (nicht *construida*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-kongruenz",
+      "type": "exercise",
+      "title": "Welcher Satz ist grammatisch korrekt?",
+      "exercise": {
+        "id": "ex-pic-kongruenz",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz verwendet die pasiva refleja **korrekt** für das Schild „Wohnungen zu vermieten“?",
+        "card_ids": ["pasiva-refleja-kongruenz", "pasiva-refleja-schilder"],
+        "images": [
+          { "src": "assets/img/alquiler-1.png", "label": "Se alquilan pisos.", "is_correct": "true" },
+          { "src": "assets/img/alquiler-2.png", "label": "Se alquila pisos." },
+          { "src": "assets/img/alquiler-3.png", "label": "Se alquilan el piso." },
+          { "src": "assets/img/alquiler-4.png", "label": "Son alquilados pisos." }
+        ],
+        "hint": "*pisos* ist Plural → se alquil**an**. Die ser-Passiv klingt hier unnatürlich.",
+        "distractors": [
+          "Se alquila pisos.",
+          "Se alquilan el piso.",
+          "Son alquilados pisos."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-kontrast-ser-se",
+      "type": "exercise",
+      "title": "ser-Passiv UND pasiva refleja — beide Varianten",
+      "exercise": {
+        "id": "ex-free-kontrast-ser-se",
+        "type": "free_text",
+        "prompt": "Übersetze auf zwei Arten: *Das Gesetz wurde vom Parlament verabschiedet.* (1) mit ser-Passiv, (2) mit pasiva refleja.",
+        "card_ids": ["pasiva-ser-konzept", "pasiva-ser-por", "pasiva-refleja-konzept", "pasiva-kontrast-registre"],
+        "accept": [
+          "La ley fue aprobada por el parlamento.",
+          "la ley fue aprobada por el parlamento",
+          "La ley fue aprobada por el Parlamento.",
+          "Se aprobó la ley en el parlamento.",
+          "Se aprobó la ley por el parlamento."
+        ],
+        "hint": "ser-Passiv: *La ley fue aprobada por el parlamento.* — pasiva refleja: *Se aprobó la ley.* Beide sind akzeptabel.",
+        "distractors": [
+          "La ley fue aprobado por el parlamento.",
+          "La ley estuvo aprobada por el parlamento.",
+          "Se aprobaron la ley por el parlamento."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-partizip",
+      "type": "exercise",
+      "title": "Partizipien zuordnen",
+      "exercise": {
+        "id": "ex-match-partizip",
+        "type": "matching",
+        "prompt": "Ordne jedem Infinitiv das korrekte (maskulin Singular) Partizip zu.",
+        "card_ids": ["pasiva-ser-partizip-formen", "pasiva-ser-kongruenz"],
+        "pairs": [
+          { "left": "escribir", "right": "escrito" },
+          { "left": "hacer", "right": "hecho" },
+          { "left": "abrir", "right": "abierto" },
+          { "left": "construir", "right": "construido" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-fue-escrito",
+      "type": "exercise",
+      "title": "ser-Passiv Kongruenz: weibliches Subjekt",
+      "exercise": {
+        "id": "ex-cloze-fue-escrito",
+        "type": "cloze",
+        "prompt": "Ergänze das Partizip von *escribir* in der richtigen Form (feminin Singular).",
+        "card_ids": ["pasiva-ser-kongruenz", "pasiva-ser-partizip-formen"],
+        "sentence": "Esta novela fue ___ por una autora anónima.",
+        "blanks": [
+          { "accept": ["escrita"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*la novela* ist feminin Singular → *escribir → escrito → escrit**a***.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-register",
+      "type": "exercise",
+      "title": "Register: formell oder alltäglich?",
+      "exercise": {
+        "id": "ex-match-register",
+        "type": "matching",
+        "prompt": "Ordne jede Beschreibung dem richtigen Register / der richtigen Konstruktion zu.",
+        "card_ids": ["pasiva-kontrast-registre", "pasiva-vergleich-deutsch", "pasiva-refleja-schilder"],
+        "pairs": [
+          { "left": "Zeitungsartikel mit Urheber (por)", "right": "ser-Passiv" },
+          { "left": "Aushang: ,Kellner gesucht'", "right": "pasiva refleja (se busca)" },
+          { "left": "Allgemeines ,man sagt'", "right": "se impersonal" }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
