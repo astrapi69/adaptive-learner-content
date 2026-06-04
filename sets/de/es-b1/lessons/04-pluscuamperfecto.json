@@ -1,0 +1,385 @@
+{
+  "id": "04-pluscuamperfecto",
+  "title": "El pluscuamperfecto",
+  "description": "Das Pluscuamperfecto (Vorvergangenheit): Bildung mit imperfecto von haber + Partizip, unregelmäßige Partizipien und Gebrauch zur zeitlichen Staffelung — mit Kontrast zu indefinido/perfecto. B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "plusc-konzept",
+      "front": "el pluscuamperfecto",
+      "back": "die Vorvergangenheit (Plusquamperfekt)",
+      "notes": "Das Pluscuamperfecto drückt eine Handlung aus, die **vor** einer anderen Vergangenheitshandlung abgeschlossen war. Bildung: **imperfecto von haber** + **Partizip**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "pluscuamperfecto", "vorvergangenheit"]
+    },
+    {
+      "id": "plusc-haber-formen",
+      "front": "había, habías, había, habíamos, habíais, habían",
+      "back": "imperfecto von haber (Hilfsverb für Pluscuamperfecto)",
+      "notes": "Das Hilfsverb **haber** im imperfecto — die Basis des Pluscuamperfecto:\n\n| Person | Form |\n|---|---|\n| yo | **había** |\n| tú | **habías** |\n| él/ella | **había** |\n| nosotros | **habíamos** |\n| vosotros | **habíais** |\n| ellos | **habían** |\n\nAlle Formen tragen den **Akzent** auf dem -ía-.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "pluscuamperfecto", "haber"]
+    },
+    {
+      "id": "plusc-bildung-regelmaessig",
+      "front": "había hablado / había comido / había vivido",
+      "back": "Pluscuamperfecto: regelmäßige Partizipien",
+      "notes": "Regelmäßige Partizipien: **-ar → -ado**, **-er/-ir → -ido**.\n\n| Infinitiv | Partizip | Beispiel |\n|---|---|---|\n| hablar | hablado | había hablado |\n| comer | comido | había comido |\n| vivir | vivido | había vivido |\n\nDas Partizip ist nach **haber** stets **unveränderlich** — keine Angleichung an Genus oder Numerus (anders als z. B. im Französischen).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "pluscuamperfecto", "partizip"]
+    },
+    {
+      "id": "plusc-partizipien-unregelmaessig",
+      "front": "hecho, dicho, escrito, visto, puesto, vuelto, abierto, roto",
+      "back": "unregelmäßige Partizipien (die wichtigsten acht)",
+      "notes": "Diese Partizipien **muss** man auswendig lernen:\n\n| Infinitiv | Partizip |\n|---|---|\n| hacer | **hecho** |\n| decir | **dicho** |\n| escribir | **escrito** |\n| ver | **visto** |\n| poner | **puesto** |\n| volver | **vuelto** |\n| abrir | **abierto** |\n| romper | **roto** |\n\nMerkhilfe: viele enden auf **-to** oder **-cho**.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Merke: -to (visto, vuelto, abierto, roto, escrito, puesto) und -cho (hecho, dicho).",
+      "tags": ["grammatik", "pluscuamperfecto", "partizip", "unregelmaessig"]
+    },
+    {
+      "id": "plusc-gebrauch-cuando",
+      "front": "Cuando llegué, la película ya había empezado.",
+      "back": "Als ich ankam, hatte der Film schon angefangen.",
+      "notes": "**Kerngebrauch**: Die Handlung im Pluscuamperfecto (*había empezado*) liegt **zeitlich vor** der Handlung im pretérito indefinido (*llegué*).\n\nTypische Signalwörter: **ya** (schon), **todavía no** (noch nicht), **cuando** (als), **antes de** (vor).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gebrauch", "pluscuamperfecto", "ya", "cuando"]
+    },
+    {
+      "id": "plusc-ya-todavia-no",
+      "front": "ya había llegado / todavía no había llegado",
+      "back": "er/sie war schon angekommen / er/sie war noch nicht angekommen",
+      "notes": "**ya** + Pluscuamperfecto = etwas war **schon** abgeschlossen.\n**todavía no** + Pluscuamperfecto = etwas war **noch nicht** abgeschlossen.\n\nBeispiele:\n- *Cuando llamé, ella **ya había salido**.* — Als ich anrief, war sie schon weg.\n- *Cuando llegaron, **todavía no habíamos comido**.* — Als sie ankamen, hatten wir noch nicht gegessen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gebrauch", "pluscuamperfecto", "ya", "todavia-no"]
+    },
+    {
+      "id": "plusc-kontrast-indefinido",
+      "front": "Ayer comí pizza. / Antes de comer, ya había preparado la mesa.",
+      "back": "Gestern aß ich Pizza. / Vor dem Essen hatte ich den Tisch schon gedeckt.",
+      "notes": "**Kontrast der Tempora** in der Vergangenheit:\n\n| Tempus | Funktion | Beispiel |\n|---|---|---|\n| pretérito indefinido | abgeschl. Handlung in der Vergangenheit | *comí* |\n| pretérito perfecto | Vergangenheit mit Gegenwartsbezug | *he comido* |\n| **pluscuamperfecto** | Handlung **vor** einer anderen Vergangenheitshandlung | *había comido* |\n\nFaustregel: Wenn du im Deutschen ‚hatte + Partizip II' sagst, brauchst du im Spanischen das Pluscuamperfecto.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gebrauch", "pluscuamperfecto", "kontrast", "indefinido"]
+    },
+    {
+      "id": "plusc-hecho",
+      "front": "había hecho",
+      "back": "er/sie hatte gemacht/getan",
+      "notes": "Unregelmäßiges Partizip: **hacer → hecho**. Nicht *hacido*!\n\nBeispiel: *Cuando llegué a casa, mi madre **ya había hecho** la cena.* — Als ich nach Hause kam, hatte meine Mutter das Abendessen schon gemacht.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pluscuamperfecto", "partizip", "unregelmaessig", "hacer"]
+    },
+    {
+      "id": "plusc-dicho",
+      "front": "había dicho",
+      "back": "er/sie hatte gesagt",
+      "notes": "Unregelmäßiges Partizip: **decir → dicho**. Nicht *decido*!\n\nBeispiel: *No recordaba lo que **había dicho**.* — Ich erinnerte mich nicht mehr daran, was er gesagt hatte.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pluscuamperfecto", "partizip", "unregelmaessig", "decir"]
+    },
+    {
+      "id": "plusc-escrito",
+      "front": "había escrito",
+      "back": "er/sie hatte geschrieben",
+      "notes": "Unregelmäßiges Partizip: **escribir → escrito**. Nicht *escribido*!\n\nBeispiel: *Ya **habías escrito** el correo cuando te llamé.* — Du hattest die E-Mail schon geschrieben, als ich dich anrief.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pluscuamperfecto", "partizip", "unregelmaessig", "escribir"]
+    },
+    {
+      "id": "plusc-visto",
+      "front": "había visto",
+      "back": "er/sie hatte gesehen",
+      "notes": "Unregelmäßiges Partizip: **ver → visto**. Nicht *vido*!\n\nBeispiel: *Cuando llegué al cine, ellos **ya habían visto** la película.* — Als ich im Kino ankam, hatten sie den Film schon gesehen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["pluscuamperfecto", "partizip", "unregelmaessig", "ver"]
+    },
+    {
+      "id": "plusc-unveraenderlich",
+      "front": "Las cartas que había escrito. / El libro que había escrito.",
+      "back": "Die Briefe, die er geschrieben hatte. / Das Buch, das er geschrieben hatte.",
+      "notes": "Wichtig: Das Partizip nach **haber** ist **unveränderlich** — es richtet sich **weder nach Genus noch nach Numerus** des Subjekts oder Objekts.\n\n*había escrito* bleibt immer **escrito** — nie *escrita* oder *escritos* (das wäre Französisch!).",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "pluscuamperfecto", "partizip", "unveraenderlich"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-bildung",
+      "type": "theory",
+      "title": "Bildung des Pluscuamperfecto",
+      "body": "# El pluscuamperfecto\n\nDas **Pluscuamperfecto** (Vorvergangenheit) drückt aus, dass eine Handlung **vor** einer anderen Vergangenheitshandlung abgeschlossen war — entspricht dem deutschen **‚hatte + Partizip II'**.\n\n## Bildung\n\n**imperfecto von haber** + **Partizip**\n\n| Person | haber (imperfecto) | Beispiel |\n|---|---|---|\n| yo | **había** | yo había hablado |\n| tú | **habías** | tú habías comido |\n| él/ella/Ud. | **había** | él había vivido |\n| nosotros | **habíamos** | nosotros habíamos llegado |\n| vosotros | **habíais** | vosotros habíais salido |\n| ellos/Uds. | **habían** | ellos habían vuelto |\n\n## Regelmäßige Partizipien\n\n| Infinitiv | Partizip |\n|---|---|\n| hablar (-ar) | habl**ado** |\n| comer (-er) | com**ido** |\n| vivir (-ir) | viv**ido** |\n\n> Das Partizip nach **haber** ist stets **unveränderlich** — keine Angleichung an Genus oder Numerus (anders als im Französischen!)."
+    },
+    {
+      "id": "theory-partizipien",
+      "type": "theory",
+      "title": "Unregelmäßige Partizipien",
+      "body": "## Die acht wichtigsten unregelmäßigen Partizipien\n\nDiese Formen sind Pflichtprogramm auf B1-Niveau:\n\n| Infinitiv | Partizip | Pluscuamperfecto (él) |\n|---|---|---|\n| hacer | **hecho** | había hecho |\n| decir | **dicho** | había dicho |\n| escribir | **escrito** | había escrito |\n| ver | **visto** | había visto |\n| poner | **puesto** | había puesto |\n| volver | **vuelto** | había vuelto |\n| abrir | **abierto** | había abierto |\n| romper | **roto** | había roto |\n\n## Merkhilfe\n\nViele enden auf **-to** (visto, vuelto, abierto, roto, escrito, puesto) oder **-cho** (hecho, dicho).\n\n> Falsch gebildete Partizipien (*hacido*, *decido*, *escribido*) sind der häufigste Fehler auf B1-Niveau — bitte einprägen!"
+    },
+    {
+      "id": "theory-gebrauch",
+      "type": "theory",
+      "title": "Gebrauch und Zeitenstaffelung",
+      "body": "## Wann steht das Pluscuamperfecto?\n\nImmer wenn eine Handlung **zeitlich vor** einer anderen Vergangenheitshandlung lag:\n\n*Cuando llegué, la película **ya había empezado**.* — Als ich ankam, hatte der Film schon angefangen.\n\n## Signalwörter\n\n| Signalwort | Bedeutung | Beispiel |\n|---|---|---|\n| **ya** | schon | ya había comido |\n| **todavía no** | noch nicht | todavía no había llegado |\n| **cuando** | als | cuando llegué, había... |\n| **antes de** | vor (+ Infinitiv) | antes de salir, había... |\n\n## Kontrast der Vergangenheitstempora\n\n| Tempus | Funktion |\n|---|---|\n| pretérito indefinido | abgeschlossene Handlung in der Vergangenheit (*comí*) |\n| pretérito perfecto | Vergangenheit mit Gegenwartsbezug (*he comido*) |\n| **pluscuamperfecto** | Handlung **vor** einer anderen Vergangenheit (*había comido*) |\n\n## Stil-Hinweis zur Zeitenstaffelung\n\nIn erzählenden Texten (Romanen, Berichten) steht der **Erzählrahmen** im pretérito indefinido, während weiter zurückliegende Ereignisse ins Pluscuamperfecto rücken. Wer nur das indefinido benutzt, verliert die zeitliche Tiefe der Erzählung — das Pluscuamperfecto ist also kein optionaler Luxus, sondern ein wesentliches Stilmittel."
+    },
+    {
+      "id": "ex-cloze-ya-habia-empezado",
+      "type": "exercise",
+      "title": "ya había + Partizip: Lückensatz",
+      "exercise": {
+        "id": "ex-cloze-ya-habia-empezado",
+        "type": "cloze",
+        "prompt": "Ergänze das Pluscuamperfecto von *empezar* (él). Signalwort: *ya*.",
+        "card_ids": ["plusc-gebrauch-cuando", "plusc-ya-todavia-no", "plusc-bildung-regelmaessig"],
+        "sentence": "Cuando llegué al cine, la película ___ ya ___.",
+        "blanks": [
+          { "accept": ["había"] },
+          { "accept": ["empezado"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Pluscuamperfecto: había/habías/… + Partizip. empezar → empezado (regelmäßig).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-haber-formen",
+      "type": "exercise",
+      "title": "haber im imperfecto übersetzen",
+      "exercise": {
+        "id": "ex-free-haber-formen",
+        "type": "free_text",
+        "prompt": "Übersetze: *Wir hatten das Buch schon gelesen, als der Lehrer darüber sprach.*",
+        "card_ids": ["plusc-haber-formen", "plusc-bildung-regelmaessig", "plusc-ya-todavia-no"],
+        "accept": [
+          "Ya habíamos leído el libro cuando el profesor habló de él.",
+          "ya habíamos leído el libro cuando el profesor habló de él",
+          "Habíamos leído el libro cuando el profesor habló de él.",
+          "Ya habíamos leído el libro cuando el profesor habló sobre él.",
+          "Ya habíamos leído el libro cuando habló el profesor."
+        ],
+        "hint": "nosotros → *habíamos* + Partizip von *leer* (*leído*). Signalwort *ya* passt gut davor.",
+        "distractors": [
+          "Ya habemos leído el libro cuando el profesor habló de él.",
+          "Ya habíamos leer el libro cuando el profesor habló de él.",
+          "Ya teníamos leído el libro cuando el profesor habló de él."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-partizipien",
+      "type": "exercise",
+      "title": "Unregelmäßige Partizipien zuordnen",
+      "exercise": {
+        "id": "ex-match-partizipien",
+        "type": "matching",
+        "prompt": "Ordne jedem Infinitiv sein unregelmäßiges Partizip zu.",
+        "card_ids": ["plusc-partizipien-unregelmaessig", "plusc-hecho", "plusc-dicho", "plusc-escrito", "plusc-visto"],
+        "pairs": [
+          { "left": "hacer", "right": "hecho" },
+          { "left": "decir", "right": "dicho" },
+          { "left": "escribir", "right": "escrito" },
+          { "left": "ver", "right": "visto" },
+          { "left": "poner", "right": "puesto" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-todavia-no",
+      "type": "exercise",
+      "title": "Satz mit todavía no bilden",
+      "exercise": {
+        "id": "ex-tiles-todavia-no",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Als sie ankamen, hatten wir noch nicht gegessen.*",
+        "card_ids": ["plusc-ya-todavia-no", "plusc-haber-formen"],
+        "tiles": ["Cuando", "llegaron,", "todavía", "no", "habíamos", "comido"],
+        "hint": "todavía no + Pluscuamperfecto: *habíamos comido*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-hecho-irregular",
+      "type": "exercise",
+      "title": "Unregelmäßiges Partizip: hecho",
+      "exercise": {
+        "id": "ex-free-hecho-irregular",
+        "type": "free_text",
+        "prompt": "Übersetze: *Als ich nach Hause kam, hatte meine Mutter das Abendessen schon gemacht.*",
+        "card_ids": ["plusc-hecho", "plusc-gebrauch-cuando", "plusc-ya-todavia-no"],
+        "accept": [
+          "Cuando llegué a casa, mi madre ya había hecho la cena.",
+          "cuando llegué a casa, mi madre ya había hecho la cena",
+          "Cuando llegué a casa, ya había hecho la cena mi madre.",
+          "Al llegar a casa, mi madre ya había hecho la cena.",
+          "Cuando volví a casa, mi madre ya había hecho la cena."
+        ],
+        "hint": "hacer → *hecho* (unregelmäßig, NICHT *hacido*). ella → *había hecho*.",
+        "distractors": [
+          "Cuando llegué a casa, mi madre ya había hacido la cena.",
+          "Cuando llegué a casa, mi madre ya ha hecho la cena.",
+          "Cuando llegué a casa, mi madre ya hizo la cena."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-zeitlinie",
+      "type": "exercise",
+      "title": "Welche Aussage beschreibt Vorvergangenheit?",
+      "exercise": {
+        "id": "ex-pic-zeitlinie",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz verwendet das Pluscuamperfecto korrekt, um Vorvergangenheit auszudrücken?",
+        "card_ids": ["plusc-gebrauch-cuando", "plusc-kontrast-indefinido"],
+        "images": [
+          { "src": "assets/img/plusc-correct.png", "label": "Cuando llegué, ya había comido.", "is_correct": "true" },
+          { "src": "assets/img/plusc-wrong1.png", "label": "Cuando llegué, ya comí." },
+          { "src": "assets/img/plusc-wrong2.png", "label": "Cuando llegué, ya he comido." },
+          { "src": "assets/img/plusc-wrong3.png", "label": "Cuando llegué, ya comía." }
+        ],
+        "hint": "Die Vorvergangenheit verlangt *había/habían/…* + Partizip, nicht indefinido oder perfecto.",
+        "distractors": [
+          "Cuando llegué, ya comí.",
+          "Cuando llegué, ya he comido.",
+          "Cuando llegué, ya comía."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-dicho",
+      "type": "exercise",
+      "title": "Unregelmäßiges Partizip: dicho",
+      "exercise": {
+        "id": "ex-cloze-dicho",
+        "type": "cloze",
+        "prompt": "Ergänze das Pluscuamperfecto von *decir* (él). Achtung: unregelmäßiges Partizip!",
+        "card_ids": ["plusc-dicho", "plusc-partizipien-unregelmaessig"],
+        "sentence": "No recordaba lo que él había ___.",
+        "blanks": [
+          { "accept": ["dicho"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "decir → *dicho* (NICHT *decido*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-escrito",
+      "type": "exercise",
+      "title": "Satz mit escrito bilden",
+      "exercise": {
+        "id": "ex-tiles-escrito",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Du hattest die E-Mail schon geschrieben, als ich dich anrief.*",
+        "card_ids": ["plusc-escrito", "plusc-ya-todavia-no"],
+        "tiles": ["Ya", "habías", "escrito", "el", "correo", "cuando", "te", "llamé."],
+        "hint": "escribir → *escrito* (unregelmäßig). tú → *habías*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-kontrast-tempora",
+      "type": "exercise",
+      "title": "Richtige Zeitform wählen",
+      "exercise": {
+        "id": "ex-match-kontrast-tempora",
+        "type": "matching",
+        "prompt": "Ordne jeder deutschen Zeitform die spanische Entsprechung zu.",
+        "card_ids": ["plusc-kontrast-indefinido", "plusc-gebrauch-cuando"],
+        "pairs": [
+          { "left": "Ich aß (einfache Vergangenheit)", "right": "comí (indefinido)" },
+          { "left": "Ich habe gegessen (mit Gegenwartsbezug)", "right": "he comido (perfecto)" },
+          { "left": "Ich hatte gegessen (vor einer anderen Vg.)", "right": "había comido (pluscuamperfecto)" },
+          { "left": "Als ich ankam, hatte er schon gegessen.", "right": "Cuando llegué, ya había comido." }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-todavia-no-habia-llegado",
+      "type": "exercise",
+      "title": "Verneinung in der Vorvergangenheit",
+      "exercise": {
+        "id": "ex-free-todavia-no-habia-llegado",
+        "type": "free_text",
+        "prompt": "Übersetze: *Als das Konzert begann, war mein Freund noch nicht angekommen.*",
+        "card_ids": ["plusc-ya-todavia-no", "plusc-haber-formen", "plusc-bildung-regelmaessig"],
+        "accept": [
+          "Cuando empezó el concierto, mi amigo todavía no había llegado.",
+          "cuando empezó el concierto, mi amigo todavía no había llegado",
+          "Cuando el concierto empezó, mi amigo todavía no había llegado.",
+          "Cuando comenzó el concierto, mi amigo todavía no había llegado.",
+          "Cuando empezó el concierto, todavía no había llegado mi amigo."
+        ],
+        "hint": "todavía no + Pluscuamperfecto: *todavía no había llegado*. él → *había*.",
+        "distractors": [
+          "Cuando empezó el concierto, mi amigo todavía no llegó.",
+          "Cuando empezó el concierto, mi amigo todavía no ha llegado.",
+          "Cuando empezó el concierto, mi amigo todavía no habías llegado."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-unveraenderlich",
+      "type": "exercise",
+      "title": "Partizip unveränderlich — Falle erkennen",
+      "exercise": {
+        "id": "ex-free-unveraenderlich",
+        "type": "free_text",
+        "prompt": "Übersetze: *Die Briefe, die sie (ella) geschrieben hatte, waren sehr lang.*",
+        "card_ids": ["plusc-unveraenderlich", "plusc-escrito"],
+        "accept": [
+          "Las cartas que había escrito eran muy largas.",
+          "las cartas que había escrito eran muy largas",
+          "Las cartas que ella había escrito eran muy largas.",
+          "Las cartas que había escrito fueron muy largas.",
+          "Las cartas que había escrito resultaron muy largas."
+        ],
+        "hint": "Achtung: *escrito* bleibt unveränderlich — auch wenn *las cartas* weiblich und Plural ist. Nie *escritas*!",
+        "distractors": [
+          "Las cartas que había escritas eran muy largas.",
+          "Las cartas que habían escritas eran muy largas.",
+          "Las cartas que había escribido eran muy largas."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-visto",
+      "type": "exercise",
+      "title": "Unregelmäßiges Partizip: visto",
+      "exercise": {
+        "id": "ex-cloze-visto",
+        "type": "cloze",
+        "prompt": "Ergänze das Pluscuamperfecto von *ver* (ellos). Unregelmäßiges Partizip!",
+        "card_ids": ["plusc-visto", "plusc-partizipien-unregelmaessig"],
+        "sentence": "Cuando llegué al cine, ellos ya ___ ___ la película.",
+        "blanks": [
+          { "accept": ["habían"] },
+          { "accept": ["visto"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "ellos → *habían*; ver → *visto* (NICHT *vido*).",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

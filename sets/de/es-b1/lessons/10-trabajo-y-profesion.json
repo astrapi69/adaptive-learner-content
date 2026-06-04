@@ -1,0 +1,405 @@
+{
+  "id": "10-trabajo-y-profesion",
+  "title": "Arbeit und Beruf",
+  "description": "Wortschatz rund um Bewerbung, Vorstellungsgespräch und Arbeitswelt — auf B1-Niveau mit formellem Register (usted), höflichen Schlussformeln und Strukturen mit Konditional und Subjuntivo. Auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "trabajo-empleo",
+      "front": "un empleo / un puesto (de trabajo)",
+      "back": "eine Stelle / ein Arbeitsplatz",
+      "notes": "**empleo** (allgemein: Beschäftigung) und **puesto (de trabajo)** (konkrete Position) werden oft synonym verwendet. *Busco un empleo en el sector tecnológico.* / *Se ha publicado un nuevo puesto de trabajo.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["arbeit", "wortschatz", "b1"]
+    },
+    {
+      "id": "entrevista-trabajo",
+      "front": "una entrevista (de trabajo)",
+      "back": "ein Vorstellungsgespräch",
+      "notes": "**entrevista de trabajo** ist der Standardbegriff. *Mañana tengo una entrevista de trabajo a las diez.* — Beachte: *hacer una entrevista* bedeutet aus Arbeitgebersicht 'ein Gespräch führen/durchführen'.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["bewerbung", "wortschatz", "b1"]
+    },
+    {
+      "id": "curriculum-vitae",
+      "front": "el currículum (vitae)",
+      "back": "der Lebenslauf",
+      "notes": "Kurzform **el currículum** oder im Lateinamerikanischen **el CV**. *¿Podría adjuntar su currículum al correo?* — Verbindung: *adjuntar el currículum* (den Lebenslauf anhängen).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["bewerbung", "wortschatz", "b1"]
+    },
+    {
+      "id": "carta-presentacion",
+      "front": "la carta de presentación",
+      "back": "das Anschreiben / der Bewerbungsbrief",
+      "notes": "**la carta de presentación** begleitet den Lebenslauf und erklärt, warum man sich bewirbt. *En la carta de presentación debe explicar sus motivaciones.* — In Lateinamerika: auch *carta de motivación*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["bewerbung", "wortschatz", "b1"]
+    },
+    {
+      "id": "candidato",
+      "front": "un(a) candidato/a",
+      "back": "ein(e) Bewerber/in / Kandidat/in",
+      "notes": "Genusneutral durch Schrägstrich: *El/la candidata ideal tiene experiencia en ventas.* — Synonyme: *un(a) aspirante*, *un(a) solicitante*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["bewerbung", "wortschatz", "b1"]
+    },
+    {
+      "id": "empresa",
+      "front": "una empresa",
+      "back": "ein Unternehmen / eine Firma",
+      "notes": "**empresa** (allgemein) — spezifischere Begriffe: *una multinacional* (Konzern), *una PYME* (KMU = *pequeña y mediana empresa*), *una startup*. *Trabajo en una empresa de logística.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["arbeit", "wortschatz", "b1"]
+    },
+    {
+      "id": "sueldo-salario",
+      "front": "el sueldo / el salario",
+      "back": "das Gehalt / der Lohn",
+      "notes": "**sueldo** (monatliches Festgehalt) und **salario** (allgemeiner; auch Stundenlohn) werden im Alltag oft synonym gebraucht. *¿Cuál es el sueldo para este puesto?* — *salario mínimo* = Mindestlohn.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["arbeit", "wortschatz", "b1"]
+    },
+    {
+      "id": "contrato",
+      "front": "un contrato",
+      "back": "ein Vertrag / ein Arbeitsvertrag",
+      "notes": "Typen: *contrato indefinido* (unbefristeter Vertrag) vs. *contrato temporal* (befristeter Vertrag). *Me han ofrecido un contrato de seis meses.* — *firmar un contrato* = einen Vertrag unterschreiben.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["arbeit", "wortschatz", "b1"]
+    },
+    {
+      "id": "practicas",
+      "front": "las prácticas",
+      "back": "das Praktikum",
+      "notes": "Immer im Plural: *las prácticas*. *Busco unas prácticas remuneradas en marketing.* — *un/a becario/a* = Praktikant/in; *una beca* = Stipendium/Förderung.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["arbeit", "wortschatz", "b1"]
+    },
+    {
+      "id": "paro-desempleo",
+      "front": "el paro / el desempleo",
+      "back": "die Arbeitslosigkeit / das Arbeitslosengeld",
+      "notes": "**el paro** (Spanien, umgangssprachlich) = Arbeitslosigkeit, auch das Arbeitslosengeld selbst. **el desempleo** (formell, Lateinamerika). *Está en el paro desde hace tres meses.* / *La tasa de desempleo ha bajado.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["arbeit", "wortschatz", "b1"]
+    },
+    {
+      "id": "contratar-solicitar",
+      "front": "contratar / solicitar un puesto / postularse a",
+      "back": "einstellen / sich auf eine Stelle bewerben",
+      "notes": "**contratar** (jdn. einstellen, aus Arbeitgebersicht) — **solicitar un puesto** (sich bewerben, Spanien/formell) — **postularse a** (sich bewerben, Lateinamerika). *La empresa quiere contratar a veinte personas.* / *Me postulé a tres ofertas esta semana.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["bewerbung", "wortschatz", "b1"]
+    },
+    {
+      "id": "experiencia-en",
+      "front": "Tengo experiencia en… / Soy una persona responsable.",
+      "back": "Ich habe Erfahrung in … / Ich bin eine verantwortungsvolle Person.",
+      "notes": "Typische Phrasen im **Vorstellungsgespräch**: *Tengo experiencia en atención al cliente.* (Ich habe Erfahrung in der Kundenbetreuung.) — *Soy una persona responsable, organizada y proactiva.* — Adjektive in Selbstbeschreibungen immer im Genus anpassen: *responsable* (für alle), aber *organizado/a*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["vorstellungsgespraech", "register", "b1"]
+    },
+    {
+      "id": "formelle-schlussformeln",
+      "front": "Le escribo para… / Quedo a la espera de su respuesta. / Atentamente / Un cordial saludo",
+      "back": "Ich schreibe Ihnen, um … / Ich verbleibe in Erwartung Ihrer Antwort. / Mit freundlichen Grüßen / Mit herzlichen Grüßen",
+      "notes": "**Formelle E-Mail / Bewerbungsbrief** — Aufbau:\n\n| Formel | Funktion |\n|---|---|\n| *Le escribo para solicitar información…* | Einleitung (Siezen: *le*, *su*) |\n| *Adjunto mi currículum vitae.* | Anlage benennen |\n| *Quedo a la espera de su respuesta.* | Abschluss vor Grußformel |\n| *Atentamente,* | neutrale Grußformel |\n| *Un cordial saludo,* | etwas wärmere Grußformel |\n\n**Register-Hinweis**: Im formellen Schreiben und Vorstellungsgespräch wird **usted** (3. Person Singular) verwendet — also *¿Podría usted indicarme…?*, nicht *tú*. Im Spanischen ist das Siezen nicht optional, sondern stilistisch erwartet.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["register", "formell", "schlussformeln", "b1"]
+    },
+    {
+      "id": "condicional-hoeflichkeit",
+      "front": "¿Podría enviarme…? / Me gustaría saber…",
+      "back": "Könnten Sie mir … schicken? / Ich würde gerne wissen …",
+      "notes": "Der **Condicional** (Conditional Simple) verleiht Bitten und Aussagen Höflichkeit — besonders im formellen und beruflichen Kontext: *¿Podría concederme una entrevista?* — *Me gustaría incorporarme lo antes posible.* — Anders als im Deutschen ist diese Form im Spanischen fast obligatorisch bei höflichen Anfragen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konditional", "register", "formell", "b1"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-wortschatz-arbeit",
+      "type": "theory",
+      "title": "Arbeitswelt: der wichtigste Wortschatz",
+      "body": "# Arbeit und Beruf — Grundwortschatz\n\nFür das B1-Niveau musst du die zentralen Begriffe der Arbeitswelt sicher kennen und in Kontext setzen können.\n\n## Rund um die Stelle\n\n| Spanisch | Deutsch | Beispiel |\n|---|---|---|\n| **un empleo / un puesto** | eine Stelle / ein Arbeitsplatz | *Busco un empleo en contabilidad.* |\n| **una empresa** | ein Unternehmen | *Trabajo en una empresa alemana.* |\n| **el sueldo / el salario** | das Gehalt / der Lohn | *El sueldo es de 2.000 € al mes.* |\n| **un contrato** | ein (Arbeits-)Vertrag | *Firmé un contrato indefinido.* |\n| **las prácticas** | das Praktikum (immer Plural!) | *Hago las prácticas en una startup.* |\n| **el paro / el desempleo** | Arbeitslosigkeit | *Está cobrando el paro.* |\n\n## Rund um die Bewerbung\n\n| Spanisch | Deutsch |\n|---|---|\n| **el currículum (vitae)** | der Lebenslauf |\n| **la carta de presentación** | das Anschreiben |\n| **un(a) candidato/a** | ein(e) Bewerber/in |\n| **solicitar un puesto** | sich auf eine Stelle bewerben (Spanien/formell) |\n| **postularse a** | sich bewerben (Lateinamerika) |\n| **contratar** | einstellen (aus Arbeitgebersicht) |\n| **adjuntar el currículum** | den Lebenslauf anhängen |\n\n> **Lateinamerika-Variante:** *postularse a una oferta* wird vor allem in Argentinien, Chile und Mexiko verwendet — beide Varianten sind auf B1-Niveau akzeptabel."
+    },
+    {
+      "id": "theory-vorstellungsgespraech",
+      "type": "theory",
+      "title": "Im Vorstellungsgespräch: Stärken und Erfahrung",
+      "body": "## Das Vorstellungsgespräch — *la entrevista de trabajo*\n\nIm Vorstellungsgespräch wirst du nach deiner Erfahrung, deinen Stärken und deiner Motivation gefragt. Diese Phrasen sind unverzichtbar:\n\n### Erfahrung beschreiben\n- *Tengo experiencia en atención al cliente.* — Ich habe Erfahrung in der Kundenbetreuung.\n- *He trabajado durante tres años en una empresa de logística.* — Ich habe drei Jahre in einem Logistikunternehmen gearbeitet.\n- *Domino el español y el inglés a nivel B2.* — Ich beherrsche Spanisch und Englisch auf B2-Niveau.\n\n### Eigenschaften beschreiben\n- *Soy una persona responsable y organizada.* — Ich bin eine verantwortungsvolle und organisierte Person.\n- *Me adapto fácilmente a los cambios.* — Ich passe mich leicht an Veränderungen an.\n- *Trabajo bien en equipo.* — Ich arbeite gut im Team.\n\n### Motivation\n- *Me gustaría trabajar en su empresa porque…* — Ich würde gerne in Ihrem Unternehmen arbeiten, weil …\n- *Estoy muy interesado/a en este puesto.* — Ich bin sehr an dieser Stelle interessiert.\n\n> **Register-Hinweis:** Im Vorstellungsgespräch wird **usted** (Siezen) erwartet — also *¿Podría usted explicarme…?* statt *¿Puedes explicarme…?* Der Condicional (*podría, me gustaría*) macht Bitten und Aussagen höflicher."
+    },
+    {
+      "id": "theory-formelles-register",
+      "type": "theory",
+      "title": "Formelles Register: Bewerbungsschreiben und E-Mail",
+      "body": "## Formelle Kommunikation auf Spanisch\n\nEin Bewerbungsschreiben (*la carta de presentación*) oder eine formelle E-Mail folgt einer festen Struktur und verlangt das **usted**-Register.\n\n### Aufbau einer formellen E-Mail / Bewerbung\n\n| Teil | Formel | Deutsch |\n|---|---|---|\n| **Einleitung** | *Le escribo para solicitar…* | Ich schreibe Ihnen, um … zu beantragen |\n| **Referenz** | *En respuesta a su anuncio…* | In Bezug auf Ihre Anzeige … |\n| **Anlage** | *Adjunto mi currículum vitae.* | Im Anhang finden Sie meinen Lebenslauf. |\n| **Abschluss** | *Quedo a la espera de su respuesta.* | Ich verbleibe in Erwartung Ihrer Antwort. |\n| **Grußformel neutral** | *Atentamente,* | Mit freundlichen Grüßen, |\n| **Grußformel wärmer** | *Un cordial saludo,* | Mit herzlichen Grüßen, |\n\n### Der Condicional zur Höflichkeit\n\n| Indikativ (direkt) | Condicional (höflich) |\n|---|---|\n| *¿Puede usted…?* | *¿Podría usted…?* |\n| *Quiero saber…* | *Me gustaría saber…* |\n| *¿Me da una cita?* | *¿Podría concederme una cita?* |\n\n> **Wichtig:** *Estimado/a Sr./Sra. [Apellido]:* ist die korrekte Anrede. *Querido/a* ist für private, nicht für geschäftliche Korrespondenz. Der Subjuntivo erscheint im Abschluss häufig: *Espero que mi candidatura sea de su interés.* (Ich hoffe, dass meine Bewerbung Ihr Interesse weckt.)"
+    },
+    {
+      "id": "ex-match-wortschatz",
+      "type": "exercise",
+      "title": "Bewerbungswortschatz zuordnen",
+      "exercise": {
+        "id": "ex-match-wortschatz",
+        "type": "matching",
+        "prompt": "Ordne jedem spanischen Begriff seine deutsche Bedeutung zu.",
+        "card_ids": ["curriculum-vitae", "carta-presentacion", "practicas", "contrato", "candidato"],
+        "pairs": [
+          { "left": "el currículum vitae", "right": "der Lebenslauf" },
+          { "left": "la carta de presentación", "right": "das Anschreiben" },
+          { "left": "las prácticas", "right": "das Praktikum" },
+          { "left": "un contrato indefinido", "right": "ein unbefristeter Vertrag" },
+          { "left": "un(a) candidato/a", "right": "ein(e) Bewerber/in" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-adjunto-cv",
+      "type": "exercise",
+      "title": "Lebenslauf im Anschreiben erwähnen",
+      "exercise": {
+        "id": "ex-cloze-adjunto-cv",
+        "type": "cloze",
+        "prompt": "Ergänze das fehlende Wort in diesem Satz aus einem formellen Bewerbungsschreiben.",
+        "card_ids": ["curriculum-vitae", "carta-presentacion"],
+        "sentence": "Adjunto mi ___ vitae para su consideración.",
+        "blanks": [
+          { "accept": ["currículum", "curriculum"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Wort kommt vom Lateinischen und bedeutet 'Lebenslauf'."
+      }
+    },
+    {
+      "id": "ex-free-le-escribo",
+      "type": "exercise",
+      "title": "Formelle E-Mail beginnen",
+      "exercise": {
+        "id": "ex-free-le-escribo",
+        "type": "free_text",
+        "prompt": "Übersetze den Eröffnungssatz eines formellen Bewerbungsschreibens: *Ich schreibe Ihnen, um mich auf die ausgeschriebene Stelle zu bewerben.*",
+        "card_ids": ["formelle-schlussformeln", "carta-presentacion"],
+        "accept": [
+          "Le escribo para solicitar el puesto anunciado.",
+          "Le escribo para postularme al puesto anunciado.",
+          "Me dirijo a usted para solicitar el puesto publicado.",
+          "Le escribo para candidatarme al puesto de trabajo anunciado.",
+          "Le escribo para solicitar el empleo anunciado."
+        ],
+        "hint": "Beginne mit *Le escribo para…* (formelles Siezen mit *le*) und nutze *solicitar* oder *postularme*.",
+        "distractors": [
+          "Te escribo para solicitar el puesto anunciado.",
+          "Le escribo para quiero el puesto anunciado.",
+          "Con saludos, le escribo para el puesto."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-schlussformel",
+      "type": "exercise",
+      "title": "Die richtige Schlussformel wählen",
+      "exercise": {
+        "id": "ex-free-schlussformel",
+        "type": "free_text",
+        "prompt": "Welche Schlussformel passt an das Ende einer formellen Bewerbungs-E-Mail? Schreibe den vollständigen Abschluss-Satz UND die Grußformel auf Spanisch: *Ich verbleibe in Erwartung Ihrer Antwort. / Mit freundlichen Grüßen,*",
+        "card_ids": ["formelle-schlussformeln"],
+        "accept": [
+          "Quedo a la espera de su respuesta. Atentamente,",
+          "Quedo a la espera de su respuesta. Un cordial saludo,",
+          "Quedo en espera de su respuesta. Atentamente,",
+          "Quedo a la espera de sus noticias. Atentamente,",
+          "En espera de su respuesta, le saludo atentamente."
+        ],
+        "hint": "Der Abschluss-Satz lautet *Quedo a la espera de su respuesta.* — danach folgt *Atentamente,* oder *Un cordial saludo,*",
+        "distractors": [
+          "Hasta pronto, un abrazo,",
+          "Con cariño, me despido.",
+          "Querido amigo, hasta la vista."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-tengo-experiencia",
+      "type": "exercise",
+      "title": "Erfahrung im Vorstellungsgespräch beschreiben",
+      "exercise": {
+        "id": "ex-tiles-tengo-experiencia",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum richtigen Satz: *Ich habe Erfahrung in der Kundenbetreuung.*",
+        "card_ids": ["experiencia-en"],
+        "tiles": ["Tengo", "experiencia", "en", "atención", "al", "cliente"],
+        "hint": "Die Struktur ist *Tengo experiencia en + [Bereich].*",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-vorstellungsgespraech",
+      "type": "exercise",
+      "title": "Stärken im Gespräch nennen",
+      "exercise": {
+        "id": "ex-free-vorstellungsgespraech",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich bin eine verantwortungsvolle und organisierte Person. Ich arbeite gut im Team.*",
+        "card_ids": ["experiencia-en"],
+        "accept": [
+          "Soy una persona responsable y organizada. Trabajo bien en equipo.",
+          "Soy una persona responsable y organizada. Trabajo bien en equipo.",
+          "Soy responsable y organizado. Trabajo bien en equipo.",
+          "Soy una persona organizada y responsable. Trabajo bien en equipo.",
+          "Soy responsable y organizada. Me adapto bien al trabajo en equipo."
+        ],
+        "hint": "Adjektive im Genus anpassen: *organizado* (mask.) / *organizada* (fem.). *Trabajar bien en equipo* = gut im Team arbeiten.",
+        "distractors": [
+          "Soy una persona responsable y organizada. Trabajo bien en el equipo de fútbol.",
+          "Soy muy responsible y organizada. Trabajo bien en equipo.",
+          "Eres una persona responsable. Trabajo bien."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-sueldo-contrato",
+      "type": "exercise",
+      "title": "Begriff erkennen",
+      "exercise": {
+        "id": "ex-pic-sueldo-contrato",
+        "type": "picture_choice",
+        "prompt": "Welches Bild passt zum Begriff *el sueldo*?",
+        "card_ids": ["sueldo-salario"],
+        "images": [
+          { "src": "assets/img/sueldo-salario.png", "label": "el sueldo — das Gehalt", "is_correct": "true" },
+          { "src": "assets/img/contrato.png", "label": "el contrato — der Vertrag" },
+          { "src": "assets/img/practicas.png", "label": "las prácticas — das Praktikum" },
+          { "src": "assets/img/paro.png", "label": "el paro — die Arbeitslosigkeit" }
+        ],
+        "hint": "Das monatliche Einkommen, das man für seine Arbeit bekommt.",
+        "distractors": [
+          "el contrato — der Vertrag",
+          "las prácticas — das Praktikum",
+          "el paro — die Arbeitslosigkeit"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-formelle-formeln",
+      "type": "exercise",
+      "title": "Formelle Wendungen zuordnen",
+      "exercise": {
+        "id": "ex-match-formelle-formeln",
+        "type": "matching",
+        "prompt": "Ordne jede formelle spanische Wendung ihrer deutschen Entsprechung zu.",
+        "card_ids": ["formelle-schlussformeln", "condicional-hoeflichkeit"],
+        "pairs": [
+          { "left": "Le escribo para…", "right": "Ich schreibe Ihnen, um …" },
+          { "left": "Quedo a la espera de su respuesta.", "right": "Ich verbleibe in Erwartung Ihrer Antwort." },
+          { "left": "Atentamente,", "right": "Mit freundlichen Grüßen," },
+          { "left": "¿Podría enviarme…?", "right": "Könnten Sie mir … schicken?" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-podria-entrevista",
+      "type": "exercise",
+      "title": "Höfliche Bitte mit Condicional",
+      "exercise": {
+        "id": "ex-cloze-podria-entrevista",
+        "type": "cloze",
+        "prompt": "Ergänze die höfliche Condicional-Form von *poder* (usted), um eine Bitte auszudrücken.",
+        "card_ids": ["condicional-hoeflichkeit", "formelle-schlussformeln"],
+        "sentence": "___ concederme una entrevista la próxima semana?",
+        "blanks": [
+          { "accept": ["¿Podría", "Podría"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Condicional von *poder* in der usted-Form: *pod-* + Endung *-ría*."
+      }
+    },
+    {
+      "id": "ex-free-solicitar-puesto",
+      "type": "exercise",
+      "title": "Sich auf eine Stelle bewerben",
+      "exercise": {
+        "id": "ex-free-solicitar-puesto",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich möchte mich auf die Stelle als Marketingmanager bewerben.*",
+        "card_ids": ["contratar-solicitar", "condicional-hoeflichkeit"],
+        "accept": [
+          "Me gustaría solicitar el puesto de director de marketing.",
+          "Me gustaría postularme al puesto de director de marketing.",
+          "Quisiera solicitar el puesto de mánager de marketing.",
+          "Me gustaría candidatarme al puesto de marketing manager.",
+          "Desearía solicitar el puesto de responsable de marketing."
+        ],
+        "hint": "Nutze den Condicional für Höflichkeit: *me gustaría* + Infinitiv. *Solicitar* (Spanien) oder *postularme* (Lateinamerika) sind beide korrekt.",
+        "distractors": [
+          "Quiero solicitar el trabajo de marketing manager en tu empresa.",
+          "Me gustaría solicitar el trabajo, adjunto mi CV, besos.",
+          "Quisiera ser director de marketing en vuestra empresa, tío."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-quedo-espera",
+      "type": "exercise",
+      "title": "Abschluss-Satz einer formellen E-Mail",
+      "exercise": {
+        "id": "ex-tiles-quedo-espera",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum korrekten formellen Abschluss-Satz: *Ich verbleibe in Erwartung Ihrer Antwort.*",
+        "card_ids": ["formelle-schlussformeln"],
+        "tiles": ["Quedo", "a", "la", "espera", "de", "su", "respuesta"],
+        "hint": "Die Formel lautet wörtlich: 'Ich verbleibe in der Erwartung Ihrer Antwort.' — *quedar a la espera de algo*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-espero-candidatura",
+      "type": "exercise",
+      "title": "Subjuntivo im Bewerbungsbrief",
+      "exercise": {
+        "id": "ex-free-espero-candidatura",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich hoffe, dass meine Bewerbung Ihr Interesse weckt.* (Verwende *esperar que* + Subjuntivo von *ser*.)",
+        "card_ids": ["formelle-schlussformeln", "carta-presentacion"],
+        "accept": [
+          "Espero que mi candidatura sea de su interés.",
+          "espero que mi candidatura sea de su interés",
+          "Espero que mi solicitud sea de su interés.",
+          "Espero que mi candidatura despierte su interés.",
+          "Confío en que mi candidatura sea de su interés."
+        ],
+        "hint": "*esperar que* löst den Subjuntivo aus: *ser → que sea*. *Candidatura* oder *solicitud* sind beide korrekt.",
+        "distractors": [
+          "Espero que mi candidatura es de su interés.",
+          "Espero que mi candidatura será de su interés.",
+          "Espero que mi candidatura estar de su interés."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

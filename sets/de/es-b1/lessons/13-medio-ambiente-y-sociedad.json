@@ -1,0 +1,397 @@
+{
+  "id": "13-medio-ambiente-y-sociedad",
+  "title": "Umwelt und Gesellschaft",
+  "description": "Abstrakter B1-Wortschatz zu Umwelt und Gesellschaft: Klimawandel, Nachhaltigkeit, soziale Ungleichheit, Migration. Dazu Argumentationswendungen mit Subjuntivo (es urgente que…, deberíamos…, habría que…) und Konnektoren. Auf Deutsch erklärt, Bezug zu Lektion 01, 02 und 08.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "cambio-climatico",
+      "front": "el cambio climático",
+      "back": "der Klimawandel",
+      "notes": "Eines der zentralen Themen im B1-Bereich. Beachte den Akzent: *climático*. Häufig in Verbindung mit *combatir el cambio climático* (den Klimawandel bekämpfen).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["umwelt", "wortschatz", "b1"]
+    },
+    {
+      "id": "calentamiento-global",
+      "front": "el calentamiento global",
+      "back": "die globale Erwärmung",
+      "notes": "*calentamiento* kommt von *calentar* (wärmen, erhitzen). Häufige Kombination: *frenar el calentamiento global* (die globale Erwärmung aufhalten).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["umwelt", "wortschatz", "b1"]
+    },
+    {
+      "id": "contaminacion",
+      "front": "la contaminación",
+      "back": "die Verschmutzung / die Umweltverschmutzung",
+      "notes": "Kann konkretisiert werden: *la contaminación del aire* (Luftverschmutzung), *la contaminación del agua* (Wasserverschmutzung). Verb: *contaminar*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["umwelt", "wortschatz", "b1"]
+    },
+    {
+      "id": "reciclaje",
+      "front": "el reciclaje / reciclar",
+      "back": "das Recycling / recyceln",
+      "notes": "*reciclar* ist ein regelmäßiges -ar-Verb. Häufig: *fomentar el reciclaje* (Recycling fördern), *separar los residuos* (Müll trennen).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["umwelt", "wortschatz", "b1"]
+    },
+    {
+      "id": "desarrollo-sostenible",
+      "front": "el desarrollo sostenible",
+      "back": "die nachhaltige Entwicklung",
+      "notes": "*sostenible* bedeutet wörtlich 'tragfähig, haltbar' und ist das spanische Äquivalent zu 'nachhaltig'. Synonym: *sustentable* (vor allem in Lateinamerika).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["umwelt", "wortschatz", "b1"]
+    },
+    {
+      "id": "energias-renovables",
+      "front": "las energías renovables",
+      "back": "die erneuerbaren Energien",
+      "notes": "Immer im Plural verwendet. Beispiele: *la energía solar* (Solarenergie), *la energía eólica* (Windenergie), *la energía hidráulica* (Wasserkraft).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["umwelt", "wortschatz", "b1"]
+    },
+    {
+      "id": "residuos-biodiversidad",
+      "front": "los residuos / la biodiversidad",
+      "back": "der Abfall / die Artenvielfalt",
+      "notes": "*los residuos* (formeller als *la basura*) bezeichnet Abfälle, vor allem in offiziellen Texten. *la biodiversidad* ist ein Internationalismus und leicht erkennbar.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["umwelt", "wortschatz", "b1"]
+    },
+    {
+      "id": "igualdad-desigualdad",
+      "front": "la igualdad / la desigualdad",
+      "back": "die Gleichheit / die Ungleichheit",
+      "notes": "Das Präfix *des-* entspricht dem deutschen 'Un-' oder 'Miss-'. Häufige Wendung: *luchar por la igualdad* (für Gleichheit kämpfen), *reducir la desigualdad* (Ungleichheit verringern).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["gesellschaft", "wortschatz", "b1"]
+    },
+    {
+      "id": "pobreza-desempleo",
+      "front": "la pobreza / el desempleo",
+      "back": "die Armut / die Arbeitslosigkeit",
+      "notes": "*el desempleo* ist das Substantiv zu *desempleado* (arbeitslos). Synonyme: *el paro* (vor allem in Spanien), *el desempleo* (in Lateinamerika). *la pobreza* → Adjektiv: *pobre*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["gesellschaft", "wortschatz", "b1"]
+    },
+    {
+      "id": "inmigracion-solidaridad",
+      "front": "la inmigración / la solidaridad",
+      "back": "die Einwanderung / die Solidarität",
+      "notes": "Achtung: *inmigración* (mit -nm-, nicht -inm-). *la solidaridad* ist ein Internationalismus. Häufig: *mostrar solidaridad* (Solidarität zeigen), *acoger a los inmigrantes* (Einwanderer aufnehmen).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["gesellschaft", "wortschatz", "b1"]
+    },
+    {
+      "id": "hay-que-luchar",
+      "front": "hay que luchar contra / tomar medidas",
+      "back": "man muss kämpfen gegen / Maßnahmen ergreifen",
+      "notes": "*hay que* + Infinitiv drückt eine unpersönliche Notwendigkeit aus (= 'man muss'). *tomar medidas* ist eine feste Wendung im Bereich Gesellschaft und Politik. Beispiel: *Hay que tomar medidas urgentes contra la contaminación.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["argumentation", "wortschatz", "b1"]
+    },
+    {
+      "id": "deberiamos-habria-que",
+      "front": "deberíamos… / habría que…",
+      "back": "wir sollten… / man müsste…",
+      "notes": "*deberíamos* ist der Konditional von *deber* (1. Person Plural). *habría que* ist der Konditional von *haber que* — unpersönlich, immer gefolgt vom Infinitiv. Beide drücken einen Ratschlag oder eine Forderung aus: *Deberíamos reciclar más. Habría que invertir en energías renovables.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["argumentation", "konditional", "b1"]
+    },
+    {
+      "id": "es-urgente-que",
+      "front": "es urgente que + subjuntivo",
+      "back": "es ist dringend notwendig, dass (+ Subjuntivo)",
+      "notes": "Unpersönliche Wertung → Subjuntivo (vgl. Lektion 02: *es importante que…*). Beispiel: *Es urgente que **tomemos** medidas contra el cambio climático.* Andere ähnliche Ausdrücke: *es necesario que*, *es imprescindible que*, *es fundamental que*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Unpersönliche Wertung + que → immer Subjuntivo im Nebensatz.",
+      "tags": ["argumentation", "subjuntivo", "b1"]
+    },
+    {
+      "id": "un-debate-social",
+      "front": "un debate social / argumentar",
+      "back": "eine gesellschaftliche Debatte / argumentieren",
+      "notes": "*argumentar a favor de* (für etwas argumentieren), *argumentar en contra de* (gegen etwas argumentieren). Nützliche Konnektoren (vgl. Lektion 08): *por un lado… por otro lado…*, *sin embargo*, *además*, *por lo tanto*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gesellschaft", "argumentation", "b1"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theorie-umwelt-wortschatz",
+      "type": "theory",
+      "title": "Umweltvokabular auf B1-Niveau",
+      "body": "# Umwelt und Gesellschaft — Wortschatz\n\nAuf B1-Niveau lernst du, über abstrakte Themen wie **Klimawandel**, **Nachhaltigkeit** und **soziale Probleme** zu sprechen. Dieser Wortschatz ist in Diskussionen, Aufsätzen und Prüfungen unverzichtbar.\n\n## Umwelt (*el medio ambiente*)\n\n| Spanisch | Deutsch | Tipp |\n|---|---|---|\n| **el cambio climático** | der Klimawandel | *climático* mit Akzent |\n| **el calentamiento global** | die globale Erwärmung | von *calentar* (erhitzen) |\n| **la contaminación** | die (Umwelt-)Verschmutzung | *contaminar* = verschmutzen |\n| **el reciclaje** | das Recycling | *reciclar* = recyceln |\n| **el desarrollo sostenible** | die nachhaltige Entwicklung | *sostenible* ≈ tragfähig |\n| **las energías renovables** | die erneuerbaren Energien | Plural! |\n| **los residuos** | der Abfall | formeller als *la basura* |\n| **la biodiversidad** | die Artenvielfalt | Internationalismus |\n\n> **Merkhilfe:** *contaminar → la contaminación*, *reciclar → el reciclaje* — die Substantive folgen bekannten Mustern."
+    },
+    {
+      "id": "theorie-gesellschaft-wortschatz",
+      "type": "theory",
+      "title": "Gesellschaftsvokabular und Argumentationswendungen",
+      "body": "## Gesellschaft (*la sociedad*)\n\n| Spanisch | Deutsch |\n|---|---|\n| **la igualdad / la desigualdad** | die Gleichheit / die Ungleichheit |\n| **la pobreza** | die Armut |\n| **el desempleo / el paro** | die Arbeitslosigkeit |\n| **la inmigración** | die Einwanderung |\n| **la solidaridad** | die Solidarität |\n| **un debate social** | eine gesellschaftliche Debatte |\n\n## Argumentieren auf B1-Niveau\n\nUm Probleme und Lösungen zu besprechen, brauchst du feste Wendungen:\n\n| Wendung | Bedeutung | Struktur |\n|---|---|---|\n| *hay que luchar contra…* | man muss kämpfen gegen… | *hay que* + Infinitiv |\n| *tomar medidas* | Maßnahmen ergreifen | feste Wendung |\n| *deberíamos…* | wir sollten… | Konditional von *deber* |\n| *habría que…* | man müsste… | Konditional von *haber*, unpersönlich |\n\n> **Konnektoren** (vgl. Lektion 08): *por un lado… por otro lado…* (einerseits… andererseits…), *sin embargo* (jedoch), *además* (außerdem), *por lo tanto* (daher)."
+    },
+    {
+      "id": "theorie-es-urgente-subjuntivo",
+      "type": "theory",
+      "title": "Forderungen mit Subjuntivo: es urgente que…",
+      "body": "## Dringende Forderungen und der Subjuntivo\n\nDu kennst bereits aus **Lektion 01** und **02** die Regel: Unpersönliche Wertungen im Hauptsatz lösen den **Subjuntivo** im Nebensatz aus.\n\nIm Bereich Umwelt und Gesellschaft sind diese Ausdrücke besonders häufig:\n\n| Ausdruck | Deutsch | Beispiel |\n|---|---|---|\n| *es urgente que* + Subj. | es ist dringend nötig, dass | *Es urgente que **tomemos** medidas.* |\n| *es necesario que* + Subj. | es ist notwendig, dass | *Es necesario que **reduzcamos** las emisiones.* |\n| *es importante que* + Subj. | es ist wichtig, dass | *Es importante que **reciclemos** más.* |\n| *es fundamental que* + Subj. | es ist grundlegend, dass | *Es fundamental que **actuemos** ya.* |\n\n### Wie bildet man den Subjuntivo?\n\nDen Stamm nimmst du aus der **1. Person Singular Präsens** ohne **-o** (*tomamos → tomo → tom-*), dann die gegenteiligen Endungen:\n\n- **-ar** → Endungen mit **-e-**: *tomo → tome, tomes, tome, tomemos, toméis, tomen*\n- **-er/-ir** → Endungen mit **-a-**: *reduzco → reduzca, reduzcas…*\n\n> **Merke:** Ohne *que* und ohne Subjektwechsel steht der **Infinitiv**: *Es urgente **actuar** ahora.* Erst ein Subjektwechsel erzwingt *que* + Subjuntivo."
+    },
+    {
+      "id": "ex-cloze-urgente-tomemos",
+      "type": "exercise",
+      "title": "Dringender Aufruf mit Subjuntivo",
+      "exercise": {
+        "id": "ex-cloze-urgente-tomemos",
+        "type": "cloze",
+        "prompt": "Ergänze die Subjuntivo-Form von *tomar* (nosotros). Denk an die Endung für -ar-Verben im Subjuntivo.",
+        "card_ids": ["es-urgente-que", "hay-que-luchar"],
+        "sentence": "Es urgente que ___ medidas contra el cambio climático.",
+        "blanks": [
+          { "accept": ["tomemos"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*tomar* → yo-Stamm *tom-* + Subjuntivo-Endung für nosotros: -emos."
+      }
+    },
+    {
+      "id": "ex-match-umwelt-vokabular",
+      "type": "exercise",
+      "title": "Umweltbegriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-umwelt-vokabular",
+        "type": "matching",
+        "prompt": "Ordne jedem spanischen Begriff seine deutsche Bedeutung zu.",
+        "card_ids": ["cambio-climatico", "calentamiento-global", "desarrollo-sostenible", "energias-renovables", "residuos-biodiversidad"],
+        "pairs": [
+          { "left": "el cambio climático", "right": "der Klimawandel" },
+          { "left": "el calentamiento global", "right": "die globale Erwärmung" },
+          { "left": "el desarrollo sostenible", "right": "die nachhaltige Entwicklung" },
+          { "left": "las energías renovables", "right": "die erneuerbaren Energien" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-hay-que",
+      "type": "exercise",
+      "title": "Forderung formulieren: hay que…",
+      "exercise": {
+        "id": "ex-free-hay-que",
+        "type": "free_text",
+        "prompt": "Übersetze: *Man muss Maßnahmen gegen die Umweltverschmutzung ergreifen.*",
+        "card_ids": ["hay-que-luchar", "contaminacion"],
+        "accept": [
+          "Hay que tomar medidas contra la contaminación.",
+          "hay que tomar medidas contra la contaminación",
+          "Hay que luchar contra la contaminación.",
+          "Hay que tomar medidas contra la contaminación ambiental.",
+          "Es necesario tomar medidas contra la contaminación."
+        ],
+        "hint": "*hay que* + Infinitiv; *tomar medidas* = Maßnahmen ergreifen; *contra* = gegen.",
+        "distractors": [
+          "Hay que tomar medidas para la contaminación.",
+          "Hay tomar medidas contra la contaminación.",
+          "Hay que tomamos medidas contra la contaminación."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-deberiamos-reciclar",
+      "type": "exercise",
+      "title": "Einen Ratschlag ausdrücken",
+      "exercise": {
+        "id": "ex-tiles-deberiamos-reciclar",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Wir sollten mehr recyceln und weniger Abfall produzieren.*",
+        "card_ids": ["deberiamos-habria-que", "reciclaje", "residuos-biodiversidad"],
+        "tiles": ["Deberíamos", "reciclar", "más", "y", "producir", "menos", "residuos"],
+        "hint": "*deberíamos* = Konditional von *deber* (nosotros); dann Infinitive.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-es-urgente-reduzcamos",
+      "type": "exercise",
+      "title": "Argumentieren mit Subjuntivo",
+      "exercise": {
+        "id": "ex-free-es-urgente-reduzcamos",
+        "type": "free_text",
+        "prompt": "Übersetze: *Es ist dringend notwendig, dass wir die Ungleichheit in der Gesellschaft verringern.*",
+        "card_ids": ["es-urgente-que", "igualdad-desigualdad"],
+        "accept": [
+          "Es urgente que reduzcamos la desigualdad en la sociedad.",
+          "es urgente que reduzcamos la desigualdad en la sociedad",
+          "Es urgente que reduzcamos la desigualdad social.",
+          "Es necesario que reduzcamos la desigualdad en la sociedad.",
+          "Es fundamental que reduzcamos la desigualdad social."
+        ],
+        "hint": "*es urgente que* + Subjuntivo von *reducir* (nosotros): *reduzca* → Stamm *reduzc-* + -amos.",
+        "distractors": [
+          "Es urgente que reducimos la desigualdad en la sociedad.",
+          "Es urgente reducimos la desigualdad en la sociedad.",
+          "Es urgente que reducir la desigualdad en la sociedad."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-inversion-energia",
+      "type": "exercise",
+      "title": "habría que + Infinitiv",
+      "exercise": {
+        "id": "ex-cloze-inversion-energia",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Form. *habría que* wird immer mit dem Infinitiv kombiniert.",
+        "card_ids": ["deberiamos-habria-que", "energias-renovables"],
+        "sentence": "Para proteger el medio ambiente, ___ invertir en energías renovables.",
+        "blanks": [
+          { "accept": ["habría que"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Unpersönliche Forderung im Konditional: *habría que* + Infinitiv."
+      }
+    },
+    {
+      "id": "ex-match-gesellschaft-begriffe",
+      "type": "exercise",
+      "title": "Gesellschaftsbegriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-gesellschaft-begriffe",
+        "type": "matching",
+        "prompt": "Ordne die spanischen Begriffe ihren deutschen Übersetzungen zu.",
+        "card_ids": ["pobreza-desempleo", "igualdad-desigualdad", "inmigracion-solidaridad"],
+        "pairs": [
+          { "left": "la pobreza", "right": "die Armut" },
+          { "left": "el desempleo", "right": "die Arbeitslosigkeit" },
+          { "left": "la inmigración", "right": "die Einwanderung" },
+          { "left": "la solidaridad", "right": "die Solidarität" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pic-argumentieren",
+      "type": "exercise",
+      "title": "Den richtigen Argumentationssatz erkennen",
+      "exercise": {
+        "id": "ex-pic-argumentieren",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet korrekt *Es ist notwendig, dass wir die Armut bekämpfen* (mit Subjuntivo)?",
+        "card_ids": ["es-urgente-que", "pobreza-desempleo"],
+        "images": [
+          { "src": "assets/img/debate-1.png", "label": "Es necesario que luchemos contra la pobreza.", "is_correct": "true" },
+          { "src": "assets/img/debate-2.png", "label": "Es necesario que luchamos contra la pobreza." },
+          { "src": "assets/img/debate-3.png", "label": "Es necesario luchar contra de la pobreza." },
+          { "src": "assets/img/debate-4.png", "label": "Es necesario que luchar contra la pobreza." }
+        ],
+        "hint": "Unpersönliche Wertung + *que* → Subjuntivo: *luchar* → que nosotros *luchemos*.",
+        "distractors": [
+          "Es necesario que luchamos contra la pobreza.",
+          "Es necesario luchar contra de la pobreza.",
+          "Es necesario que luchar contra la pobreza."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-deberiamos-energias",
+      "type": "exercise",
+      "title": "Wir sollten… — Ratschlag auf Spanisch",
+      "exercise": {
+        "id": "ex-free-deberiamos-energias",
+        "type": "free_text",
+        "prompt": "Übersetze: *Wir sollten mehr in erneuerbare Energien investieren.*",
+        "card_ids": ["deberiamos-habria-que", "energias-renovables"],
+        "accept": [
+          "Deberíamos invertir más en energías renovables.",
+          "deberíamos invertir más en energías renovables",
+          "Deberíamos invertir más en las energías renovables.",
+          "Habría que invertir más en energías renovables.",
+          "Tendríamos que invertir más en energías renovables."
+        ],
+        "hint": "*deberíamos* = Konditional Plural von *deber*; *invertir en* = investieren in.",
+        "distractors": [
+          "Deberíamos invertir más en energías renovable.",
+          "Debemos invertir más para energías renovables.",
+          "Deberíamos invertimos más en energías renovables."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-luchar-desigualdad",
+      "type": "exercise",
+      "title": "Einen Argumentationssatz bauen",
+      "exercise": {
+        "id": "ex-tiles-luchar-desigualdad",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Außerdem muss man gegen soziale Ungleichheit kämpfen.*",
+        "card_ids": ["hay-que-luchar", "igualdad-desigualdad", "un-debate-social"],
+        "tiles": ["Además", ",", "hay", "que", "luchar", "contra", "la", "desigualdad", "social"],
+        "hint": "*Además* (außerdem) am Satzanfang; *hay que* + Infinitiv; *la desigualdad social*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-debate-inmigracion",
+      "type": "exercise",
+      "title": "Über Einwanderung sprechen",
+      "exercise": {
+        "id": "ex-free-debate-inmigracion",
+        "type": "free_text",
+        "prompt": "Übersetze: *Einerseits ist Einwanderung ein wichtiges Thema; andererseits brauchen wir Solidarität.*",
+        "card_ids": ["inmigracion-solidaridad", "un-debate-social"],
+        "accept": [
+          "Por un lado, la inmigración es un tema importante; por otro lado, necesitamos solidaridad.",
+          "por un lado, la inmigración es un tema importante; por otro lado, necesitamos solidaridad",
+          "Por un lado la inmigración es un tema importante, por otro lado necesitamos solidaridad.",
+          "Por una parte, la inmigración es un tema importante; por otra parte, necesitamos solidaridad.",
+          "La inmigración es importante; sin embargo, también necesitamos solidaridad."
+        ],
+        "hint": "Konnektoren (Lektion 08): *por un lado… por otro lado…* (einerseits… andererseits…).",
+        "distractors": [
+          "Por un lado la inmigración es una tema importante; por otro lado necesitamos solidaridad.",
+          "Por un lado, la inmigración es un tema importante; por otro necesitamos de solidaridad.",
+          "En un lado, la inmigración es un tema importante; en otro lado, necesitamos solidaridad."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-reciclaje-proteger",
+      "type": "exercise",
+      "title": "Recycling und Umweltschutz",
+      "exercise": {
+        "id": "ex-cloze-reciclaje-proteger",
+        "type": "cloze",
+        "prompt": "Ergänze den passenden Umweltbegriff (auf Spanisch).",
+        "card_ids": ["reciclaje", "residuos-biodiversidad"],
+        "sentence": "Separar los ___ es una manera sencilla de cuidar el medio ambiente.",
+        "blanks": [
+          { "accept": ["residuos"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das formellere Wort für 'Abfall/Müll' im Spanischen (Plural)."
+      }
+    }
+  ]
+}

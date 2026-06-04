@@ -1,0 +1,65 @@
+# Spanisch B1 (für Deutschsprachige) — Set-Manifest
+# (schema v1.3).
+#
+# Aufbaukurs Spanisch B1, auf Deutsch erklärt. Setzt das gesamte
+# A1- und A2-Wissen VORAUS (es-a1-from-de, es-a2-from-de) und
+# wiederholt es nicht, sondern verweist nur darauf. B1 bringt
+# komplexere Grammatik (subjuntivo, condicional, pluscuamperfecto,
+# pasiva/pasiva refleja, estilo indirecto), längere Texte und
+# abstraktere Themen. Schwerpunkt liegt auf der PRODUKTION: die
+# Übungen sind überwiegend produktiv (>=70 % source_to_target).
+# Schema v1.3 nutzt die optionalen Kartenfelder difficulty, tags
+# und media_type ("text"). Der Content-Loader liest
+# ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.3'
+name: Spanisch B1 (für Deutschsprachige)
+description: >-
+  Spanisch B1 für Deutschsprachige (15 Lektionen): Aufbau auf
+  A1+A2 mit dem subjuntivo (presente und Auslöser), condicional
+  simple, pluscuamperfecto, der Passiv (ser-Passiv und pasiva
+  refleja), dem estilo indirecto, vertieften Pronomen und
+  Konnektoren sowie abstrakteren Themen (Arbeit, Gesundheit,
+  Medien, Umwelt/Gesellschaft, interkulturelle Kommunikation) und
+  einer Lektion zur Textproduktion. Erklärungen, Notizen und
+  Theorie auf Deutsch.
+sets:
+  - id: es-b1-from-de
+    title: Spanisch B1 — Mittelstufe
+    title_native: Español B1 — Intermedio
+    target_language: es
+    source_language: de
+    level: B1
+    path: sets/de/es-b1
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Mittelstufenkurs Spanisch B1 (15 Lektionen), auf Deutsch
+      erklärt — vom subjuntivo über condicional, pluscuamperfecto,
+      Passiv (ser/pasiva refleja) und estilo indirecto bis zu
+      Pronomen, Konnektoren, abstrakteren Themen und der
+      Textproduktion. Setzt das A1+A2-Wissen voraus und ist
+      überwiegend produktiv ausgerichtet.
+    tags:
+      - intermediate
+      - grammar
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-subjuntivo-presente.json
+    - 02-subjuntivo-disparadores.json
+    - 03-condicional-simple.json
+    - 04-pluscuamperfecto.json
+    - 05-la-pasiva.json
+    - 06-estilo-indirecto.json
+    - 07-pronombres-combinados.json
+    - 08-conectores.json
+    - 09-opiniones-y-sentimientos.json
+    - 10-trabajo-y-profesion.json
+    - 11-salud-y-cuerpo.json
+    - 12-noticias-y-medios.json
+    - 13-medio-ambiente-y-sociedad.json
+    - 14-viajes-y-comunicacion-intercultural.json
+    - 15-repaso-y-produccion-de-textos.json

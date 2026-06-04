@@ -1,0 +1,432 @@
+{
+  "id": "08-conectores",
+  "title": "Konnektoren und Textstruktur",
+  "description": "Logische Konnektoren für strukturierte B1-Texte: Gegensatz, Folge, Ursache, Einräumung und Gliederung — mit Nuancen wie *sino* vs. *pero*, *gracias a* vs. *a causa de* und *aunque* + Indikativ vs. Subjuntivo. Auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "sin-embargo",
+      "front": "sin embargo",
+      "back": "jedoch, dennoch, trotzdem",
+      "notes": "Häufigster Gegensatz-Konnektor im Schriftlichen. Steht meist am **Satzanfang** oder nach dem Subjekt, immer gefolgt von Komma: *Es caro; **sin embargo**, merece la pena.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "gegensatz"]
+    },
+    {
+      "id": "no-obstante",
+      "front": "no obstante",
+      "back": "nichtsdestoweniger, dennoch",
+      "notes": "Synonymisch mit *sin embargo*, aber **formeller**. Bevorzugt in Aufsätzen und offiziellen Texten: *La propuesta tiene defectos. No obstante, la aceptamos.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "gegensatz", "schriftlich"]
+    },
+    {
+      "id": "en-cambio",
+      "front": "en cambio",
+      "back": "dagegen, hingegen, im Gegensatz dazu",
+      "notes": "Betont einen **Kontrast zwischen zwei verschiedenen Sachverhalten**: *Él trabaja mucho; ella, **en cambio**, prefiere descansar.* Nicht synonym mit *sin embargo* — es geht nicht um Einschränkung, sondern um Gegenüberstellung.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "gegensatz"]
+    },
+    {
+      "id": "sino-sino-que",
+      "front": "sino / sino que",
+      "back": "sondern / sondern dass",
+      "notes": "**sino** ersetzt einen Begriff: *No es rojo, **sino** azul.* **sino que** leitet einen Nebensatz mit konjugiertem Verb ein: *No quiere descansar, **sino que** quiere trabajar.* Wichtig: *sino* steht nur nach einer **Verneinung** — es ist KEIN Synonym von *pero*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Merkhilfe: Nach 'No X, ___ Y' steht *sino*; nach 'X, ___ Y' (ohne Verneinung) steht *pero*.",
+      "tags": ["konnektoren", "gegensatz", "kontrast"]
+    },
+    {
+      "id": "aunque",
+      "front": "aunque + Indikativ / Subjuntivo",
+      "back": "obwohl (Tatsache) / auch wenn (Hypothese)",
+      "notes": "**aunque + Indikativ**: Die Tatsache ist bekannt — *Aunque **llueve**, salgo.* (Es regnet tatsächlich.)\n\n**aunque + Subjuntivo**: Die Aussage ist hypothetisch oder dem Sprecher egal — *Aunque **llueva**, saldré.* (Selbst wenn es regnen sollte …)\n\nSiehe auch Lektion 02 (Konditional/Hypothese).",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["konnektoren", "einraeuming", "subjuntivo", "indikativ"]
+    },
+    {
+      "id": "por-lo-tanto",
+      "front": "por lo tanto",
+      "back": "daher, deshalb, folglich",
+      "notes": "Leitet eine **logische Schlussfolgerung** ein. Schriftlich und formal: *No tenemos presupuesto; **por lo tanto**, cancelamos el proyecto.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "folge"]
+    },
+    {
+      "id": "por-eso-asi-que",
+      "front": "por eso / así que",
+      "back": "deswegen, deshalb / also, sodass",
+      "notes": "**por eso** und **así que** sind mündlich geläufiger als *por lo tanto*. *Estaba cansado, **así que** me fui a casa.* / *Estaba cansado, **por eso** me fui.* — **así que** leitet meist einen neuen Hauptsatz ein (kein Semikolon nötig).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "folge", "muendlich"]
+    },
+    {
+      "id": "en-consecuencia",
+      "front": "en consecuencia",
+      "back": "infolgedessen, als Konsequenz",
+      "notes": "Formeller Ersatz für *por lo tanto*, typisch in **wissenschaftlichen Texten und Berichten**: *Los datos son insuficientes; **en consecuencia**, no podemos sacar conclusiones.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "folge", "schriftlich"]
+    },
+    {
+      "id": "porque-ya-que-puesto-que",
+      "front": "porque / ya que / puesto que",
+      "back": "weil / da, weil / da, weil (formal)",
+      "notes": "**porque** gibt den **Hauptgrund** an und steht oft auf die Frage *¿Por qué?*.\n\n**ya que** und **puesto que** sind **stilistisch höherwertig** und stehen gern am **Satzanfang**: *Ya que no puedes venir, te llamamos.* — sie setzen den Grund als bekannt voraus.\n\n| Konnektor | Register | Position |\n|---|---|---|\n| *porque* | neutral | nach dem Hauptsatz |\n| *ya que* | gehoben | Satzanfang bevorzugt |\n| *puesto que* | formal/schriftlich | Satzanfang bevorzugt |",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "ursache"]
+    },
+    {
+      "id": "debido-a",
+      "front": "debido a (que)",
+      "back": "aufgrund von / wegen (+ Nominale oder Nebensatz)",
+      "notes": "**debido a** steht vor einem **Nomen**: *Debido al tráfico, llegué tarde.*\n**debido a que** steht vor einem **Nebensatz** mit konjugiertem Verb: *Debido a que había tráfico, llegué tarde.* — formal und schriftlich.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "ursache", "schriftlich"]
+    },
+    {
+      "id": "gracias-a-a-causa-de",
+      "front": "gracias a / a causa de",
+      "back": "dank (positiv) / wegen, aufgrund von (negativ/neutral)",
+      "notes": "**gracias a** drückt aus, dass etwas Positives durch einen Grund möglich wurde: *Aprobé **gracias a** tu ayuda.* ✓\n\n**a causa de** benennt die Ursache eines **negativen oder neutralen** Ergebnisses: *El partido se suspendió **a causa de** la lluvia.*\n\n> Verwechslungsgefahr: *Llegué tarde **a causa de** tus instrucciones.* (negativ) ≠ *Llegué a tiempo **gracias a** tus instrucciones.* (positiv)",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Eselsbrücke: 'gracias' klingt nach Dankbarkeit → positiver Ausgang.",
+      "tags": ["konnektoren", "ursache", "nuance"]
+    },
+    {
+      "id": "a-pesar-de-que",
+      "front": "a pesar de (que)",
+      "back": "trotz / obwohl",
+      "notes": "**a pesar de** + Nomen/Infinitiv: *A pesar del frío, salimos.* / *A pesar de estar cansado, trabajé.*\n**a pesar de que** + Satz: *A pesar de que estaba cansado, seguí trabajando.* — steht meist mit **Indikativ**, wenn die Tatsache anerkannt wird; Subjuntivo selten und nur bei Hypothese.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "einraeuming"]
+    },
+    {
+      "id": "ademas",
+      "front": "además",
+      "back": "außerdem, zudem, darüber hinaus",
+      "notes": "Fügt eine **zusätzliche Information** hinzu. Sehr häufig in mündlicher und schriftlicher Sprache: *El hotel es barato. **Además**, está en el centro.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "hinzufuegung"]
+    },
+    {
+      "id": "por-un-lado-por-otro-lado",
+      "front": "por un lado … por otro (lado)",
+      "back": "einerseits … andererseits",
+      "notes": "Gliedert eine **Argumentation in zwei Aspekte**: *Por un lado, el trabajo es interesante; **por otro**, el sueldo es bajo.* Typisch für B1-Aufsätze.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "gliederung"]
+    },
+    {
+      "id": "en-primer-lugar-por-ultimo",
+      "front": "en primer lugar … por último",
+      "back": "erstens … zuletzt / abschließend",
+      "notes": "Reihenfolge-Konnektoren für strukturierte Texte:\n\n| Position | Konnektor |\n|---|---|\n| 1. Punkt | en primer lugar |\n| 2. Punkt | en segundo lugar / además |\n| letzter Punkt | por último / finalmente |\n| Zusammenfassung | en conclusión / en resumen |\n\nRegister: **schriftlich**, typisch in Aufsätzen, Berichten und Präsentationen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "gliederung", "schriftlich"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-gegensatz-folge",
+      "type": "theory",
+      "title": "Gegensatz und Folge",
+      "body": "# Konnektoren und Textstruktur\n\nKonnektoren machen aus einzelnen Sätzen kohärente **Texte**. Auf B1-Niveau erwartet man, dass du verschiedene Konnektoren sicher und stilistisch angemessen einsetzt.\n\n## Gruppe 1: Gegensatz\n\n| Konnektor | Bedeutung | Register |\n|---|---|---|\n| **sin embargo** | jedoch, dennoch | neutral–schriftlich |\n| **no obstante** | nichtsdestoweniger | formell/schriftlich |\n| **en cambio** | dagegen, hingegen | neutral |\n| **pero** | aber | neutral–mündlich |\n| **sino / sino que** | sondern / sondern dass | alle Register |\n\n> **sino vs. pero**: *pero* schränkt ein (*Es caro, **pero** vale la pena.*), *sino* korrigiert nach einer Verneinung (*No es rojo, **sino** azul.*). Verwechslung gilt als klarer B1-Fehler.\n\n## Gruppe 2: Folge / Konsequenz\n\n| Konnektor | Bedeutung | Register |\n|---|---|---|\n| **por eso** | deswegen | mündlich–neutral |\n| **así que** | also, sodass | mündlich–neutral |\n| **por lo tanto** | daher, folglich | schriftlich |\n| **en consecuencia** | infolgedessen | formal/schriftlich |\n\n**Register-Tipp:** In E-Mails und Gesprächen klingt *por eso* und *así que* natürlich; in Aufsätzen bevorzuge *por lo tanto* oder *en consecuencia*."
+    },
+    {
+      "id": "theory-ursache-einraeuming",
+      "type": "theory",
+      "title": "Ursache und Einräumung",
+      "body": "## Gruppe 3: Ursache\n\n| Konnektor | Bedeutung | Besonderheit |\n|---|---|---|\n| **porque** | weil | steht nach dem Hauptsatz |\n| **ya que** | da, weil | Satzanfang, Grund als bekannt |\n| **puesto que** | da, weil | formal, Satzanfang |\n| **debido a (que)** | aufgrund von / wegen | + Nomen oder Nebensatz |\n| **gracias a** | dank | **positiver** Ausgang |\n| **a causa de** | wegen, aufgrund | **negativer/neutraler** Ausgang |\n\n> Nuance: *Aprobé **gracias a** tu ayuda.* ✓ (positiv) vs. *El vuelo se canceló **a causa de** la tormenta.* ✓ (negativ). **Nie** *gracias a* für negative Folgen!\n\n## Gruppe 4: Einräumung\n\n**aunque** ist der wichtigste Einräumungs-Konnektor:\n\n| Konstruktion | Beispiel | Bedeutung |\n|---|---|---|\n| aunque + **Indikativ** | Aunque **llueve**, salgo. | Obwohl es regnet (Tatsache) |\n| aunque + **Subjuntivo** | Aunque **llueva**, saldré. | Auch wenn es regnen sollte (Hypothese) |\n\n**a pesar de (que)** bedeutet ebenfalls 'trotz / obwohl' und steht meist mit Indikativ:\n*A pesar de que estaba cansado, terminé el trabajo.*\n\n**Register-Tipp:** *aunque* ist universell; *a pesar de que* klingt etwas schriftlicher."
+    },
+    {
+      "id": "theory-gliederung",
+      "type": "theory",
+      "title": "Hinzufügung und Gliederung",
+      "body": "## Gruppe 5: Hinzufügung und Gliederung\n\nFür strukturierte Aufsätze und Präsentationen auf B1-Niveau:\n\n| Funktion | Konnektor(en) |\n|---|---|\n| Zusatz | **además**, **también** |\n| Gegenüberstellung | **por un lado … por otro (lado)** |\n| Reihenfolge 1. | **en primer lugar**, **primero** |\n| Reihenfolge 2. | **en segundo lugar**, **además** |\n| Reihenfolge letzt. | **por último**, **finalmente** |\n| Zusammenfassung | **en conclusión**, **en resumen** |\n\n### Muster für einen B1-Aufsatz\n\n*En primer lugar, el transporte público es más ecológico. Además, es más barato. Por otro lado, el coche ofrece más comodidad. Sin embargo, contamina más. En conclusión, recomiendo el transporte público.*\n\n**Register-Tipp:** Diese Gliederungskonnektoren sind typisch **schriftlich**. Im mündlichen Vortrag klingen sie etwas förmlich, sind aber auch dort korrekt.\n\n> Für B1-Prüfungsaufsätze gilt: Mindestens **drei verschiedene** Konnektoren einsetzen, um die Maximalpunktzahl zu erreichen."
+    },
+    {
+      "id": "ex-match-funktion",
+      "type": "exercise",
+      "title": "Konnektor und Funktion zuordnen",
+      "exercise": {
+        "id": "ex-match-funktion",
+        "type": "matching",
+        "prompt": "Ordne jeden Konnektor seiner Funktion zu.",
+        "card_ids": ["sin-embargo", "por-lo-tanto", "porque-ya-que-puesto-que", "ademas", "gracias-a-a-causa-de"],
+        "pairs": [
+          { "left": "sin embargo", "right": "Gegensatz" },
+          { "left": "por lo tanto", "right": "Folge / Konsequenz" },
+          { "left": "ya que", "right": "Ursache" },
+          { "left": "además", "right": "Hinzufügung" },
+          { "left": "a pesar de que", "right": "Einräumung" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-sino-vs-pero",
+      "type": "exercise",
+      "title": "sino oder pero?",
+      "exercise": {
+        "id": "ex-sino-vs-pero",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Das Kleid ist nicht blau, sondern grün.' Wähle den richtigen Konnektor.",
+        "card_ids": ["sino-sino-que"],
+        "accept": [
+          "El vestido no es azul, sino verde.",
+          "el vestido no es azul, sino verde",
+          "El vestido no es azul sino verde.",
+          "La ropa no es azul, sino verde."
+        ],
+        "hint": "Nach einer Verneinung ('No es …') kommt *sino*, nicht *pero*.",
+        "distractors": [
+          "El vestido no es azul, pero verde.",
+          "El vestido no es azul, sino que verde.",
+          "El vestido no es azul, en cambio verde."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-sin-embargo",
+      "type": "exercise",
+      "title": "Gegensatz im Satz",
+      "exercise": {
+        "id": "ex-cloze-sin-embargo",
+        "type": "cloze",
+        "prompt": "Ergänze den passenden Gegensatz-Konnektor.",
+        "card_ids": ["sin-embargo", "no-obstante"],
+        "sentence": "El proyecto es muy ambicioso; ___, el equipo está dispuesto a intentarlo.",
+        "blanks": [
+          { "accept": ["sin embargo", "no obstante"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Beide Konnektoren bedeuten 'dennoch/jedoch' — wähle den gebräuchlicheren."
+      }
+    },
+    {
+      "id": "ex-free-gracias-causa",
+      "type": "exercise",
+      "title": "gracias a oder a causa de?",
+      "exercise": {
+        "id": "ex-free-gracias-causa",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Dank deiner Hilfe habe ich die Prüfung bestanden.'",
+        "card_ids": ["gracias-a-a-causa-de"],
+        "accept": [
+          "Gracias a tu ayuda, aprobé el examen.",
+          "gracias a tu ayuda, aprobé el examen",
+          "Gracias a tu ayuda aprobé el examen.",
+          "Gracias a tu apoyo, aprobé el examen.",
+          "Gracias a tu ayuda, pasé el examen."
+        ],
+        "hint": "Positives Ergebnis (bestanden) → *gracias a*, nicht *a causa de*.",
+        "distractors": [
+          "A causa de tu ayuda, aprobé el examen.",
+          "Debido a tu ayuda, aprobé el examen.",
+          "Por causa de tu ayuda, aprobé el examen."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-por-lo-tanto",
+      "type": "exercise",
+      "title": "Eine Schlussfolgerung ausdrücken",
+      "exercise": {
+        "id": "ex-tiles-por-lo-tanto",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: 'Es gibt keinen Bus; deshalb nehmen wir das Taxi.'",
+        "card_ids": ["por-lo-tanto", "por-eso-asi-que"],
+        "tiles": ["No", "hay", "autobús;", "por", "lo", "tanto,", "tomamos", "el", "taxi."],
+        "hint": "*por lo tanto* drückt eine Schlussfolgerung aus — formal und schriftlich.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-aunque-subj",
+      "type": "exercise",
+      "title": "aunque + Subjuntivo (Hypothese)",
+      "exercise": {
+        "id": "ex-cloze-aunque-subj",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Form von *llover* — hier ist die Aussage hypothetisch (auch wenn es regnen sollte).",
+        "card_ids": ["aunque"],
+        "sentence": "Aunque ___, iremos a la playa.",
+        "blanks": [
+          { "accept": ["llueva"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Hypothese → aunque + Subjuntivo. *llover* → que él *llueva*."
+      }
+    },
+    {
+      "id": "ex-picture-ursache",
+      "type": "exercise",
+      "title": "Den richtigen Ursachen-Konnektor erkennen",
+      "exercise": {
+        "id": "ex-picture-ursache",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz drückt korrekt aus: 'Das Spiel wurde wegen des Regens abgesagt.'?",
+        "card_ids": ["gracias-a-a-causa-de", "debido-a"],
+        "images": [
+          { "src": "assets/img/rain-cancel-1.png", "label": "El partido se canceló a causa de la lluvia.", "is_correct": "true" },
+          { "src": "assets/img/rain-cancel-2.png", "label": "El partido se canceló gracias a la lluvia." },
+          { "src": "assets/img/rain-cancel-3.png", "label": "El partido se canceló sin embargo la lluvia." },
+          { "src": "assets/img/rain-cancel-4.png", "label": "El partido se canceló por lo tanto la lluvia." }
+        ],
+        "hint": "Negatives Ergebnis (abgesagt) → *a causa de*, nie *gracias a*.",
+        "distractors": [
+          "El partido se canceló gracias a la lluvia.",
+          "El partido se canceló sin embargo la lluvia.",
+          "El partido se canceló por lo tanto la lluvia."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ya-que",
+      "type": "exercise",
+      "title": "Einen Grund mit ya que ausdrücken",
+      "exercise": {
+        "id": "ex-free-ya-que",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Da wir kein Geld haben, können wir nicht ins Restaurant gehen.'",
+        "card_ids": ["porque-ya-que-puesto-que"],
+        "accept": [
+          "Ya que no tenemos dinero, no podemos ir al restaurante.",
+          "ya que no tenemos dinero, no podemos ir al restaurante",
+          "Puesto que no tenemos dinero, no podemos ir al restaurante.",
+          "Como no tenemos dinero, no podemos ir al restaurante.",
+          "Ya que no hay dinero, no podemos ir al restaurante."
+        ],
+        "hint": "'Da wir …' → *ya que* oder *puesto que* am Satzanfang.",
+        "distractors": [
+          "Por lo tanto no tenemos dinero, no podemos ir al restaurante.",
+          "Sin embargo no tenemos dinero, no podemos ir al restaurante.",
+          "Aunque no tenemos dinero, no podemos ir al restaurante."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-register",
+      "type": "exercise",
+      "title": "Register zuordnen: schriftlich oder mündlich?",
+      "exercise": {
+        "id": "ex-match-register",
+        "type": "matching",
+        "prompt": "Ordne jedem Konnektor sein typisches Register zu.",
+        "card_ids": ["no-obstante", "por-eso-asi-que", "en-consecuencia", "ademas"],
+        "pairs": [
+          { "left": "así que", "right": "mündlich / neutral" },
+          { "left": "no obstante", "right": "schriftlich / formal" },
+          { "left": "en consecuencia", "right": "schriftlich / formal" },
+          { "left": "además", "right": "mündlich und schriftlich" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-gliederung",
+      "type": "exercise",
+      "title": "Aufsatz gliedern",
+      "exercise": {
+        "id": "ex-tiles-gliederung",
+        "type": "word_tiles",
+        "prompt": "Ordne den Einleitungssatz eines Aufsatzes: 'Erstens ist öffentlicher Verkehr umweltfreundlicher.'",
+        "card_ids": ["en-primer-lugar-por-ultimo"],
+        "tiles": ["En", "primer", "lugar,", "el", "transporte", "público", "es", "más", "ecológico."],
+        "hint": "'Erstens' → *en primer lugar* — typischer Aufsatzeinstieg.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-a-pesar-de",
+      "type": "exercise",
+      "title": "Einräumung mit a pesar de que",
+      "exercise": {
+        "id": "ex-cloze-a-pesar-de",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Form von *estar* im Indikativ (Präteritum). Die Tatsache ist bekannt.",
+        "card_ids": ["a-pesar-de-que", "aunque"],
+        "sentence": "A pesar de que ___ cansada, María terminó el informe.",
+        "blanks": [
+          { "accept": ["estaba"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*a pesar de que* + Indikativ, wenn die Tatsache feststeht. Imperfecto: *estaba*."
+      }
+    },
+    {
+      "id": "ex-free-en-cambio",
+      "type": "exercise",
+      "title": "Kontrast mit en cambio",
+      "exercise": {
+        "id": "ex-free-en-cambio",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Er arbeitet sehr viel; sie hingegen zieht es vor, sich zu erholen.'",
+        "card_ids": ["en-cambio", "sin-embargo"],
+        "accept": [
+          "Él trabaja mucho; ella, en cambio, prefiere descansar.",
+          "él trabaja mucho; ella, en cambio, prefiere descansar",
+          "Él trabaja mucho; en cambio, ella prefiere descansar.",
+          "Él trabaja mucho; ella, en cambio, prefiere relajarse.",
+          "Él trabaja mucho. Ella, en cambio, prefiere descansar."
+        ],
+        "hint": "'Hingegen' für einen Kontrast zwischen zwei Personen/Sachverhalten → *en cambio*.",
+        "distractors": [
+          "Él trabaja mucho; ella, sin embargo, prefiere descansar.",
+          "Él trabaja mucho; ella, por lo tanto, prefiere descansar.",
+          "Él trabaja mucho, sino ella prefiere descansar."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-sino-que",
+      "type": "exercise",
+      "title": "sino que — Nebensatz mit Verb",
+      "exercise": {
+        "id": "ex-free-sino-que",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Er will nicht schlafen, sondern er will weiterarbeiten.'",
+        "card_ids": ["sino-sino-que"],
+        "accept": [
+          "No quiere dormir, sino que quiere seguir trabajando.",
+          "no quiere dormir, sino que quiere seguir trabajando",
+          "No quiere dormir, sino que desea seguir trabajando.",
+          "No quiere descansar, sino que quiere seguir trabajando.",
+          "No quiere dormir, sino seguir trabajando."
+        ],
+        "hint": "Vor einem konjugierten Verb: *sino que* (nicht einfach *sino*).",
+        "distractors": [
+          "No quiere dormir, pero quiere seguir trabajando.",
+          "No quiere dormir, sino trabajando.",
+          "No quiere dormir, en cambio quiere seguir trabajando."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

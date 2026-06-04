@@ -1,0 +1,381 @@
+{
+  "id": "01-subjuntivo-presente",
+  "title": "El subjuntivo presente",
+  "description": "Der Subjuntivo presente als Modus der Subjektivität: Bildung aus dem yo-Stamm mit den 'gegenteiligen' Endungen, die wichtigsten unregelmäßigen Formen und die Auslöser (Wunsch, Gefühl, Zweifel) — mit dem Kontrast zum Indikativ. Auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "subjuntivo-konzept",
+      "front": "el subjuntivo",
+      "back": "der Subjuntivo (Konjunktiv)",
+      "notes": "Kein Tempus, sondern ein **Modus** der Subjektivität: Wunsch, Gefühl, Zweifel, Wertung. Steht fast immer im Nebensatz nach **que**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "subjuntivo"]
+    },
+    {
+      "id": "subjuntivo-bildung",
+      "front": "que yo hable, que yo coma",
+      "back": "Bildung des Subjuntivo (regelmäßig)",
+      "notes": "Stamm = **1. Person Singular Präsens** ohne **-o** (*hablo* → *habl-*, *como* → *com-*), dann die **gegenteiligen** Endungen: **-ar → -e** (hable, hables, hable, hablemos, habléis, hablen), **-er/-ir → -a** (coma, comas, coma, comamos, comáis, coman).",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "yo-Stamm + 'die andere Vokalfarbe': -ar nimmt e, -er/-ir nimmt a.",
+      "tags": ["grammatik", "subjuntivo"]
+    },
+    {
+      "id": "subj-yo-irregular",
+      "front": "tengo → que yo tenga, hago → que yo haga",
+      "back": "Unregelmäßiger yo-Stamm überträgt sich",
+      "notes": "Verben mit unregelmäßiger yo-Form behalten diesen Stamm: *tener (tengo) → tenga*, *hacer (hago) → haga*, *decir (digo) → diga*, *poner (pongo) → ponga*, *salir (salgo) → salga*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "subjuntivo", "unregelmaessig"]
+    },
+    {
+      "id": "subj-ser",
+      "front": "que yo sea, que él sea",
+      "back": "ser im Subjuntivo",
+      "notes": "Unregelmäßig: *que yo **sea**, seas, sea, **seamos**, seáis, **sean***.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "subjuntivo", "unregelmaessig"]
+    },
+    {
+      "id": "subj-estar",
+      "front": "que yo esté, que él esté",
+      "back": "estar im Subjuntivo",
+      "notes": "Mit Akzenten: *que yo **esté**, estés, esté, estemos, estéis, **estén***.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "subjuntivo", "unregelmaessig"]
+    },
+    {
+      "id": "subj-ir",
+      "front": "que yo vaya",
+      "back": "ir im Subjuntivo",
+      "notes": "Stamm **vay-**: *vaya, vayas, vaya, vayamos, vayáis, vayan*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "subjuntivo", "unregelmaessig"]
+    },
+    {
+      "id": "subj-haber-saber-dar",
+      "front": "que haya, que sepa, que dé",
+      "back": "haber / saber / dar im Subjuntivo",
+      "notes": "*haber → **haya*** (auch in *que haya…*), *saber → **sepa***, *dar → **dé*** (mit Akzent zur Unterscheidung von *de*).",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "subjuntivo", "unregelmaessig"]
+    },
+    {
+      "id": "querer-que",
+      "front": "querer que + subjuntivo",
+      "back": "wollen, dass",
+      "notes": "Wunsch → Subjuntivo: *Quiero que **vengas**.* Bei gleichem Subjekt steht der Infinitiv (*Quiero venir*).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["ausloeser", "subjuntivo"]
+    },
+    {
+      "id": "esperar-que",
+      "front": "esperar que + subjuntivo",
+      "back": "hoffen/erwarten, dass",
+      "notes": "Anders als im Deutschen → Subjuntivo: *Espero que **estés** bien.* Ebenso: *desear que, preferir que, pedir que*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Im Spanischen löst 'esperar que' den Subjuntivo aus.",
+      "tags": ["ausloeser", "subjuntivo"]
+    },
+    {
+      "id": "alegrarse-de-que",
+      "front": "alegrarse de que / sentir que",
+      "back": "sich freuen, dass / bedauern, dass",
+      "notes": "Gefühl → Subjuntivo: *Me alegro de que **estés** aquí.* *Siento que no **puedas** venir.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["ausloeser", "subjuntivo", "emotion"]
+    },
+    {
+      "id": "no-creer-que",
+      "front": "no creer que / dudar que",
+      "back": "nicht glauben, dass / bezweifeln, dass",
+      "notes": "Zweifel/Verneinung → Subjuntivo: *No creo que **tenga** razón.* *Dudo que **venga**.*",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["ausloeser", "subjuntivo", "zweifel"]
+    },
+    {
+      "id": "creer-que-indicativo",
+      "front": "creer que / pensar que (+ Indikativ!)",
+      "back": "glauben/denken, dass (+ Indikativ)",
+      "notes": "**Bejaht** → Indikativ: *Creo que **tiene** razón.* *Pienso que **viene**.* Erst die **Verneinung** (*no creo que*) kippt in den Subjuntivo. Tipp: *ojalá* (hoffentlich) verlangt IMMER Subjuntivo: *Ojalá **venga**.*",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "Der zentrale Kontrast: Sicherheit → Indikativ, Zweifel/Verneinung → Subjuntivo.",
+      "tags": ["ausloeser", "indikativ", "kontrast"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Ein neuer Modus: der Subjuntivo",
+      "body": "# El subjuntivo presente\n\nBis A2 hast du fast alles im **Indikativ** ausgedrückt — dem Modus der **Tatsachen**. Der **Subjuntivo** ist der Modus der **Subjektivität**: Wunsch, Gefühl, Zweifel, Wertung. Er steht fast immer im Nebensatz nach **que**.\n\n> Der Subjuntivo ist **kein Tempus**, sondern ein **Modus** — im Spanischen viel häufiger und alltäglicher als der deutsche Konjunktiv.\n\n## Bildung (regelmäßig)\n\nDen Stamm bildest du aus der **1. Person Singular Präsens** ohne **-o**:\n\n*habl**o*** → **habl-**, *com**o*** → **com-**, *viv**o*** → **viv-**\n\nDann hängst du die **„gegenteiligen“ Endungen** an: **-ar**-Verben nehmen ein **-e-**, **-er/-ir**-Verben ein **-a-**:\n\n| | hablar (-ar) | comer (-er) | vivir (-ir) |\n|---|---|---|---|\n| que yo | habl**e** | com**a** | viv**a** |\n| que tú | habl**es** | com**as** | viv**as** |\n| que él/ella | habl**e** | com**a** | viv**a** |\n| que nosotros | habl**emos** | com**amos** | viv**amos** |\n| que vosotros | habl**éis** | com**áis** | viv**áis** |\n| que ellos | habl**en** | com**an** | viv**an** |\n\nWeil der Stamm aus der **yo-Form** kommt, übertragen sich Unregelmäßigkeiten automatisch: *tengo → que tenga*, *hago → que haga*, *digo → que diga*."
+    },
+    {
+      "id": "step-irregular",
+      "type": "theory",
+      "title": "Die wichtigsten unregelmäßigen Formen",
+      "body": "## Die musst du können\n\nEinige sehr häufige Verben sind komplett unregelmäßig:\n\n| Verb | Subjuntivo (que yo / que él) | que nosotros |\n|---|---|---|\n| **ser** | que **sea** | que **seamos** |\n| **estar** | que **esté** | que estemos |\n| **ir** | que **vaya** | que vayamos |\n| **haber** | que **haya** | que hayamos |\n| **saber** | que **sepa** | que sepamos |\n| **dar** | que **dé** | que demos |\n\nDazu kommen die **stammwechselnden** Verben: *poder → que pueda*, *querer → que quiera*, *pedir → que pida* (mit den bekannten Vokalwechseln).\n\n> Tipp: Lerne zuerst sicher **sea** (ser) und **esté** (estar) — sie stecken in unzähligen Wendungen, und der Akzent bei *esté/estén* ist wichtig."
+    },
+    {
+      "id": "step-ausloeser",
+      "type": "theory",
+      "title": "Wann steht der Subjuntivo? Die Auslöser",
+      "body": "## Auslöser im Hauptsatz\n\nDer Subjuntivo wird durch einen **Ausdruck im Hauptsatz** ausgelöst:\n\n| Gruppe | Beispiel-Auslöser | Satz |\n|---|---|---|\n| **Wunsch/Wille** | querer que, esperar que, pedir que | Quiero que **vengas**. |\n| **Gefühl** | alegrarse de que, sentir que | Me alegro de que **estés** aquí. |\n| **Zweifel/Verneinung** | dudar que, no creer que | No creo que **tenga** razón. |\n| **Hoffnung (fest)** | ¡ojalá! | Ojalá **llueva**. |\n\nBeachte: **esperar que** verlangt im Spanischen den **Subjuntivo** (anders als das deutsche „ich hoffe, dass …“).\n\n## Der entscheidende Kontrast\n\n**Bejahte** Meinung/Sicherheit → **Indikativ**:\n\n- *Creo que **tiene** razón.* (creer, bejaht)\n- *Pienso que **viene**.*\n\nSobald **Verneinung oder Zweifel** dazukommen, kippt es in den Subjuntivo:\n\n- ***No** creo que **tenga** razón.* / *Dudo que **venga**.*\n\n## Register-Hinweis\n\nDer Subjuntivo ist **kein gehobenes Schönschreiben**, sondern im Alltag allgegenwärtig — *quiero que…*, *espero que…*, *ojalá…* hört man ständig. Wer ihn vermeidet, klingt sofort unnatürlich."
+    },
+    {
+      "id": "ex-cloze-quiero-vengas",
+      "type": "exercise",
+      "title": "Einen Wunsch ausdrücken",
+      "exercise": {
+        "id": "ex-cloze-quiero-vengas",
+        "type": "cloze",
+        "prompt": "Ergänze die Subjuntivo-Form von *venir* (que tú).",
+        "card_ids": ["querer-que", "subj-yo-irregular"],
+        "sentence": "Quiero que ___ a mi fiesta el sábado.",
+        "blanks": [
+          { "accept": ["vengas"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "venir hat yo-Form *vengo* → Stamm *veng-* + Endung für tú (-as)."
+      }
+    },
+    {
+      "id": "ex-match-irregular",
+      "type": "exercise",
+      "title": "Unregelmäßige Formen zuordnen",
+      "exercise": {
+        "id": "ex-match-irregular",
+        "type": "matching",
+        "prompt": "Ordne jedem Verb seine Subjuntivo-Form (que yo) zu.",
+        "card_ids": ["subj-ser", "subj-estar", "subj-ir", "subj-haber-saber-dar"],
+        "pairs": [
+          { "left": "ser", "right": "que yo sea" },
+          { "left": "estar", "right": "que yo esté" },
+          { "left": "ir", "right": "que yo vaya" },
+          { "left": "saber", "right": "que yo sepa" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-espero-estes",
+      "type": "exercise",
+      "title": "Hoffnung ausdrücken (esperar que)",
+      "exercise": {
+        "id": "ex-free-espero-estes",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich hoffe, dass du gut/wohlauf bist.*",
+        "card_ids": ["esperar-que", "subj-estar"],
+        "accept": [
+          "Espero que estés bien.",
+          "espero que estés bien",
+          "Espero que estes bien.",
+          "Ojalá estés bien.",
+          "Espero que te encuentres bien."
+        ],
+        "hint": "esperar que + Subjuntivo von *estar* (que tú estés). *Ojalá…* geht auch.",
+        "distractors": [
+          "Espero que estás bien.",
+          "Espero que estar bien.",
+          "Espero que seas bien."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-quiero-vengas",
+      "type": "exercise",
+      "title": "Welcher Satz ist korrekt?",
+      "exercise": {
+        "id": "ex-pic-quiero-vengas",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet korrekt *Ich will, dass du kommst* (mit Subjuntivo)?",
+        "card_ids": ["querer-que"],
+        "images": [
+          { "src": "assets/img/invite-1.png", "label": "Quiero que vengas.", "is_correct": "true" },
+          { "src": "assets/img/invite-2.png", "label": "Quiero que vienes." },
+          { "src": "assets/img/invite-3.png", "label": "Quiero que venir." },
+          { "src": "assets/img/invite-4.png", "label": "Te quiero venir." }
+        ],
+        "hint": "querer que + Subjuntivo; venir → que tú *vengas*.",
+        "distractors": [
+          "Quiero que vienes.",
+          "Quiero que venir.",
+          "Te quiero venir."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-alegro-estes",
+      "type": "exercise",
+      "title": "Ein Gefühl ausdrücken",
+      "exercise": {
+        "id": "ex-tiles-alegro-estes",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich freue mich, dass du hier bist.*",
+        "card_ids": ["alegrarse-de-que", "subj-estar"],
+        "tiles": ["Me", "alegro", "de", "que", "estés", "aquí"],
+        "hint": "alegrarse de que + Subjuntivo von *estar* (que tú estés).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-no-creo-tenga",
+      "type": "exercise",
+      "title": "Zweifel ausdrücken",
+      "exercise": {
+        "id": "ex-free-no-creo-tenga",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich glaube nicht, dass er recht hat.*",
+        "card_ids": ["no-creer-que", "subj-yo-irregular"],
+        "accept": [
+          "No creo que tenga razón.",
+          "no creo que tenga razón",
+          "No creo que tenga razon.",
+          "No pienso que tenga razón.",
+          "Dudo que tenga razón."
+        ],
+        "hint": "no creer que + Subjuntivo von *tener* (yo-Form *tengo* → *tenga*).",
+        "distractors": [
+          "No creo que tiene razón.",
+          "No creo que tener razón.",
+          "No creo que tenga razón tener."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-creo-indicativo",
+      "type": "exercise",
+      "title": "Der Kontrast: creer que + Indikativ",
+      "exercise": {
+        "id": "ex-cloze-creo-indicativo",
+        "type": "cloze",
+        "prompt": "Ergänze *tener* in der RICHTIGEN Form. Achtung: das bejahte *creer que* verlangt den Indikativ!",
+        "card_ids": ["creer-que-indicativo"],
+        "sentence": "Creo que Marta ___ razón.",
+        "blanks": [
+          { "accept": ["tiene"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Bejahtes *creer que* → Indikativ Präsens: *tiene* (NICHT *tenga*)."
+      }
+    },
+    {
+      "id": "ex-free-ojala-llueva",
+      "type": "exercise",
+      "title": "Mit ojalá",
+      "exercise": {
+        "id": "ex-free-ojala-llueva",
+        "type": "free_text",
+        "prompt": "Übersetze: *Hoffentlich regnet es morgen nicht.*",
+        "card_ids": ["creer-que-indicativo"],
+        "accept": [
+          "Ojalá no llueva mañana.",
+          "ojalá no llueva mañana",
+          "Ojalá no llueva mañana.",
+          "Espero que no llueva mañana.",
+          "Ojalá mañana no llueva."
+        ],
+        "hint": "*ojalá* verlangt immer den Subjuntivo: *llover → llueva*.",
+        "distractors": [
+          "Ojalá no llueve mañana.",
+          "Ojalá no llover mañana.",
+          "Ojalá no lluevará mañana."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-modo",
+      "type": "exercise",
+      "title": "Subjuntivo oder Indikativ?",
+      "exercise": {
+        "id": "ex-match-modo",
+        "type": "matching",
+        "prompt": "Ordne jedem Auslöser den verlangten Modus zu.",
+        "card_ids": ["querer-que", "esperar-que", "no-creer-que", "creer-que-indicativo"],
+        "pairs": [
+          { "left": "querer que", "right": "Subjuntivo" },
+          { "left": "esperar que", "right": "Subjuntivo" },
+          { "left": "no creer que", "right": "Subjuntivo" },
+          { "left": "creer que (bejaht)", "right": "Indikativ" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-importante-seas",
+      "type": "exercise",
+      "title": "Subjuntivo von ser",
+      "exercise": {
+        "id": "ex-cloze-importante-seas",
+        "type": "cloze",
+        "prompt": "Ergänze die Subjuntivo-Form von *ser* (que tú).",
+        "card_ids": ["subj-ser", "querer-que"],
+        "sentence": "Quiero que ___ sincero conmigo.",
+        "blanks": [
+          { "accept": ["seas"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "ser im Subjuntivo, 2. Person Singular: *seas*."
+      }
+    },
+    {
+      "id": "ex-free-quiero-hagas",
+      "type": "exercise",
+      "title": "Unregelmäßiger yo-Stamm (hacer)",
+      "exercise": {
+        "id": "ex-free-quiero-hagas",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich möchte, dass du deine Hausaufgaben machst.*",
+        "card_ids": ["querer-que", "subj-yo-irregular"],
+        "accept": [
+          "Quiero que hagas los deberes.",
+          "quiero que hagas los deberes",
+          "Quiero que hagas la tarea.",
+          "Quiero que hagas tus deberes.",
+          "Me gustaría que hicieras los deberes."
+        ],
+        "hint": "hacer hat yo-Form *hago* → Stamm *hag-*: *que tú hagas*. (*la tarea* in Lateinamerika.)",
+        "distractors": [
+          "Quiero que haces los deberes.",
+          "Quiero que hacer los deberes.",
+          "Quiero que hagás los deberes."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-dudo-venga",
+      "type": "exercise",
+      "title": "Bilde einen Zweifelssatz",
+      "exercise": {
+        "id": "ex-tiles-dudo-venga",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich bezweifle, dass er heute kommt.*",
+        "card_ids": ["no-creer-que", "subj-yo-irregular"],
+        "tiles": ["Dudo", "que", "venga", "hoy"],
+        "hint": "dudar que + Subjuntivo von *venir* (que él *venga*).",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

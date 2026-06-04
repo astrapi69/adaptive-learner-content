@@ -1,0 +1,423 @@
+{
+  "id": "03-condicional-simple",
+  "title": "El condicional simple",
+  "description": "Der Condicional simple: Bildung mit Infinitiv + Endungen -ía/-ías/-ía/-íamos/-íais/-ían, dieselben unregelmäßigen Stämme wie im Futuro, und die vier wichtigsten Verwendungen — Höflichkeit, Hypothesen/Ratschlag, Vermutung über die Vergangenheit, Zukunft aus Vergangenheitssicht. Auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "cond-konzept",
+      "front": "el condicional simple",
+      "back": "der Konditional (einfache Form)",
+      "notes": "Entspricht dem deutschen **Konjunktiv II** (würde + Infinitiv). Im Spanischen wird er direkt am Verb gebildet — kein Hilfsverb nötig: *hablaría* = ich würde sprechen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "condicional"]
+    },
+    {
+      "id": "cond-endungen",
+      "front": "hablaría, comerías, viviría",
+      "back": "Endungen des Condicional: -ía, -ías, -ía, -íamos, -íais, -ían",
+      "notes": "Der Condicional wird gebildet aus dem **vollen Infinitiv** + den Endungen. Diese sind für **alle drei Konjugationen** (-ar, -er, -ir) **identisch** und tragen immer einen Akzent auf dem **í**:\n\n| Person | Endung | hablar | comer | vivir |\n|---|---|---|---|---|\n| yo | **-ía** | hablaría | comería | viviría |\n| tú | **-ías** | hablarías | comerías | vivirías |\n| él/ella | **-ía** | hablaría | comería | viviría |\n| nosotros | **-íamos** | hablaríamos | comeríamos | viviríamos |\n| vosotros | **-íais** | hablaríais | comeríais | viviríais |\n| ellos | **-ían** | hablarían | comerían | vivirían |\n\nAlle Endungen tragen den Akzent auf **í** — ohne Akzent ist die Form falsch.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Infinitiv + -ía/-ías/-ía/-íamos/-íais/-ían — immer gleich, immer mit Akzent auf í.",
+      "tags": ["grammatik", "condicional", "endungen"]
+    },
+    {
+      "id": "cond-unregelmaessig",
+      "front": "tener → tendría, hacer → haría, poder → podría",
+      "back": "Unregelmäßige Stämme im Condicional",
+      "notes": "Dieselben **acht Verben**, die im Futuro unregelmäßige Stämme haben, zeigen denselben Stamm im Condicional. Danach kommen die regulären Endungen -ía/-ías usw.:\n\n| Infinitiv | Stamm | yo-Form |\n|---|---|---|\n| **tener** | tendr- | tendría |\n| **hacer** | har- | haría |\n| **poder** | podr- | podría |\n| **poner** | pondr- | pondría |\n| **salir** | saldr- | saldría |\n| **decir** | dir- | diría |\n| **querer** | querr- | querría |\n| **haber** | habr- | habría |\n\nTipp: Diese Stämme lassen sich als Gruppe lernen — Futuro und Condicional teilen sich sie.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Futuro-Stamm + Condicional-Endung: tener → tendr- → tendría.",
+      "tags": ["grammatik", "condicional", "unregelmaessig"]
+    },
+    {
+      "id": "cond-hoeflichkeit",
+      "front": "¿Podrías ayudarme? / Me gustaría un café.",
+      "back": "Höflichkeit mit dem Condicional",
+      "notes": "Der Condicional macht Bitten und Wünsche **höflicher und weicher** als der Imperativ oder das Präsens:\n\n- *¿Podrías ayudarme?* — Könntest du mir helfen?\n- *Me gustaría un café, por favor.* — Ich hätte gern einen Kaffee.\n- *¿Le importaría abrir la ventana?* — Würde es Ihnen etwas ausmachen, das Fenster zu öffnen?\n\nRegister-Hinweis: In der formellen Kommunikation (Büro, Gastronomie, Geschäftsbriefe) ist der Condicional für Bitten das **bevorzugte Register**. *¿Puedes…?* ist unter Freunden üblich, *¿Podrías…?* ist universell höflich.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["gebrauch", "condicional", "hoeflichkeit"]
+    },
+    {
+      "id": "cond-hypothese",
+      "front": "Yo en tu lugar, hablaría con él. / Deberías descansar.",
+      "back": "Hypothesen und Ratschläge",
+      "notes": "Der Condicional drückt aus, was man **an der Stelle einer anderen Person tun würde** (Ratschlag, Hypothese):\n\n- *Yo en tu lugar, **hablaría** con él.* — An deiner Stelle würde ich mit ihm reden.\n- *Deberías **descansar**.* — Du solltest dich ausruhen.\n- *En ese caso, **llamaría** a la policía.* — In dem Fall würde ich die Polizei rufen.\n\nDie Formel *yo en tu lugar + condicional* ist eine der häufigsten Ratschlagsstrukturen im gesprochenen Spanisch.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gebrauch", "condicional", "ratschlag"]
+    },
+    {
+      "id": "cond-vermutung-vergangenheit",
+      "front": "Serían las tres cuando llegó.",
+      "back": "Vermutung über die Vergangenheit",
+      "notes": "Der Condicional kann eine **Schätzung oder Vermutung über die Vergangenheit** ausdrücken — vergleichbar mit dem deutschen ‚es war wohl…':\n\n- *Serían las tres.* — Es war wohl drei Uhr. (ungefähre Zeitangabe in der Vergangenheit)\n- *Tendría unos cuarenta años.* — Er/Sie war wohl so um die vierzig.\n- *¿Qué hora sería cuando llamó?* — Wie spät war es wohl, als er anrief?\n\nDieser Gebrauch ist im Spanischen gängig, hat kein direktes deutsches Äquivalent und wird oft als ‚approximativer Konditional' bezeichnet.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["gebrauch", "condicional", "vermutung", "vergangenheit"]
+    },
+    {
+      "id": "cond-futuro-vergangenheit",
+      "front": "Dijo que vendría mañana.",
+      "back": "Zukunft aus der Perspektive der Vergangenheit",
+      "notes": "Wenn man in der Vergangenheit über eine **zukünftige Handlung** spricht, ersetzt der Condicional das Futuro:\n\n- *Dijo que **vendría** mañana.* — Er sagte, er werde morgen kommen. (indirekter Redebericht)\n- *Prometió que **llamaría**.* — Er/Sie versprach, zu rufen.\n- *Pensaba que **costaría** menos.* — Ich dachte, es würde weniger kosten.\n\nDirekte Rede: *«Vendré mañana»* → Indirekte Rede: *Dijo que **vendría** mañana.*",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["gebrauch", "condicional", "indirekte-rede"]
+    },
+    {
+      "id": "cond-si-satz-ausblick",
+      "front": "Si tuviera tiempo, iría al cine.",
+      "back": "Ausblick: irrealer si-Satz (B2)",
+      "notes": "Ein kurzer Vorgeschmack auf B2: Der Condicional erscheint auch im irrealen **si-Satz**:\n\n*Si tuviera tiempo, **iría** al cine.* — Wenn ich Zeit hätte, würde ich ins Kino gehen.\n\nDabei steht im **si-Teilsatz** das **Imperfecto de subjuntivo** (*tuviera*), im Hauptsatz der **Condicional** (*iría*). Dieser Typ wird in dieser Lektion **nur erwähnt**, nicht geübt — er ist das Kernthema einer eigenen B2-Lektion. Für jetzt reicht es, das Muster zu erkennen.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["gebrauch", "condicional", "si-satz", "ausblick"]
+    },
+    {
+      "id": "cond-podria-ayudar",
+      "front": "¿Podrías ayudarme?",
+      "back": "Könntest du mir helfen?",
+      "notes": "Höfliche Bitte mit *poder* im Condicional. Der unregelmäßige Stamm: *poder → podr-* → *podría, podrías, podría…*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["hoeflichkeit", "condicional", "poder"]
+    },
+    {
+      "id": "cond-me-gustaria",
+      "front": "Me gustaría reservar una mesa.",
+      "back": "Ich würde gern einen Tisch reservieren.",
+      "notes": "*gustar* im Condicional: *me gustaría* ist die höflichste Art, einen Wunsch auszudrücken. Sehr häufig in Restaurants, Hotels und formellen Situationen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["hoeflichkeit", "condicional", "gustar"]
+    },
+    {
+      "id": "cond-deberia",
+      "front": "Deberías descansar más.",
+      "back": "Du solltest mehr schlafen / dich mehr ausruhen.",
+      "notes": "*deber* im Condicional (*debería/s*) ist der sanfteste Weg, Ratschläge zu geben — weicher als *tienes que* oder *debes*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["ratschlag", "condicional", "deber"]
+    },
+    {
+      "id": "cond-tendria-anos",
+      "front": "Cuando la conocí, tendría unos treinta años.",
+      "back": "Als ich sie kennenlernte, war sie wohl so um die dreißig.",
+      "notes": "*tener* im Condicional als Vermutung über die Vergangenheit. Unregelmäßiger Stamm: *tener → tendr-* → *tendría*.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["vermutung", "condicional", "vergangenheit", "tener"]
+    },
+    {
+      "id": "cond-dijo-vendria",
+      "front": "Dijo que vendría.",
+      "back": "Er/Sie sagte, er/sie werde kommen.",
+      "notes": "Condicional als Futur der Vergangenheit in der indirekten Rede. *venir* hat den unregelmäßigen Stamm *vendr-* → *vendría*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["indirekte-rede", "condicional", "venir"]
+    },
+    {
+      "id": "cond-yo-lugar",
+      "front": "Yo en tu lugar, hablaría con ella.",
+      "back": "An deiner Stelle würde ich mit ihr reden.",
+      "notes": "Die Formel *yo en tu lugar + condicional* ist die typische Ratschlagsstruktur. *hablar* ist regelmäßig: *hablar → hablaría*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["ratschlag", "condicional", "hablar"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-bildung",
+      "type": "theory",
+      "title": "Bildung des Condicional simple",
+      "body": "# El condicional simple\n\nDer Condicional simple entspricht dem deutschen **‚würde + Infinitiv'** (Konjunktiv II), wird aber im Spanischen **ohne Hilfsverb** direkt am Verb gebildet.\n\n## Die Endungen\n\nDu hängst die Endungen an den **vollen Infinitiv** — und zwar für **alle drei Konjugationen (-ar, -er, -ir) identisch**:\n\n| Person | Endung | hablar | comer | vivir |\n|---|---|---|---|---|\n| yo | **-ía** | hablaría | comería | viviría |\n| tú | **-ías** | hablarías | comerías | vivirías |\n| él/ella | **-ía** | hablaría | comería | viviría |\n| nosotros | **-íamos** | hablaríamos | comeríamos | viviríamos |\n| vosotros | **-íais** | hablaríais | comeríais | viviríais |\n| ellos | **-ían** | hablarían | comerían | vivirían |\n\n> Wichtig: Das **í** in allen Endungen trägt **immer einen Akzent**. *hablaría* ohne Akzent ist ein Fehler.\n\n## Eselsbrücke\n\nDie Endungen sind dieselben wie die des Imperfekts von *-er/-ir*-Verben (*comía, comías…*) — wenn du das Imperfecto kennst, kennen du schon die Konditional-Endungen."
+    },
+    {
+      "id": "theory-unregelmaessig",
+      "type": "theory",
+      "title": "Die unregelmäßigen Stämme",
+      "body": "## Unregelmäßige Stämme — dieselben wie im Futuro\n\nAcht sehr häufige Verben haben einen **verkürzten oder veränderten Stamm**. Danach kommen die normalen Endungen. Der entscheidende Vorteil: **Futuro und Condicional teilen sich diese Stämme**.\n\n| Infinitiv | Stamm (Fut./Cond.) | Condicional (yo) | Bedeutung |\n|---|---|---|---|\n| **tener** | tendr- | tendría | ich hätte / würde haben |\n| **hacer** | har- | haría | ich würde machen |\n| **poder** | podr- | podría | ich könnte |\n| **poner** | pondr- | pondría | ich würde legen/stellen |\n| **salir** | saldr- | saldría | ich würde ausgehen |\n| **decir** | dir- | diría | ich würde sagen |\n| **querer** | querr- | querría | ich würde wollen |\n| **haber** | habr- | habría | es würde geben / ich hätte |\n\n> Merkregel: Bei *tener, poner, salir* → Infinitiv verliert den Vokal, bekommt ein **-d-** (*tendr-, pondr-, saldr-*). Bei *hacer* verschwindet mehr (*har-*). Bei *decir* bleibt nur *dir-*."
+    },
+    {
+      "id": "theory-gebrauch",
+      "type": "theory",
+      "title": "Wann benutze ich den Condicional?",
+      "body": "## Die vier wichtigsten Verwendungen\n\n| Verwendung | Beispiel | Deutsch |\n|---|---|---|\n| **Höflichkeit** | ¿Podrías ayudarme? / Me gustaría… | Könntest du …? / Ich hätte gern … |\n| **Hypothese/Ratschlag** | Yo en tu lugar, hablaría con él. | An deiner Stelle würde ich … |\n| **Vermutung über Vergangenes** | Serían las tres. / Tendría unos 40 años. | Es war wohl drei Uhr. / Er war wohl 40. |\n| **Zukunft aus Vergangenheitssicht** | Dijo que vendría. | Er sagte, er werde kommen. |\n\n## Register-Hinweis: Höflichkeit\n\n*¿Podrías…?* und *me gustaría…* sind **universell höflich** — in Restaurants, beim Einkaufen, im Büro, im formellen Brief. *¿Puedes…?* klingt direkter (unter Freunden völlig in Ordnung), aber in formellen Situationen greift man zum Condicional.\n\n## Ausblick: der irreale si-Satz (B2)\n\n*Si tuviera tiempo, **iría** al cine.* — Wenn ich Zeit hätte, würde ich ins Kino gehen.\n\nHier steht im *si*-Satz das **Imperfecto de subjuntivo** (*tuviera*) und im Hauptsatz der **Condicional** (*iría*). Dieses Muster lernst du vollständig in B2 — für jetzt reicht es, es zu erkennen."
+    },
+    {
+      "id": "ex-cloze-hablaria",
+      "type": "exercise",
+      "title": "Regelmäßige Endung einsetzen",
+      "exercise": {
+        "id": "ex-cloze-hablaria",
+        "type": "cloze",
+        "prompt": "Ergänze die Condicional-Form von *hablar* (yo). Denk an den Akzent!",
+        "card_ids": ["cond-endungen", "cond-yo-lugar"],
+        "sentence": "Yo en tu lugar, ___ con la profesora.",
+        "blanks": [
+          { "accept": ["hablaría"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Infinitiv *hablar* + Endung -ía (yo): habl**aría**. Akzent nicht vergessen!"
+      }
+    },
+    {
+      "id": "ex-cloze-tendria",
+      "type": "exercise",
+      "title": "Unregelmäßiger Stamm: tener",
+      "exercise": {
+        "id": "ex-cloze-tendria",
+        "type": "cloze",
+        "prompt": "Ergänze den Condicional von *tener* (yo). Achtung: unregelmäßiger Stamm!",
+        "card_ids": ["cond-unregelmaessig", "cond-tendria-anos"],
+        "sentence": "Con más dinero, ___ un apartamento más grande.",
+        "blanks": [
+          { "accept": ["tendría"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "tener → Stamm *tendr-* + -ía → tendría."
+      }
+    },
+    {
+      "id": "ex-free-podrias-ayudar",
+      "type": "exercise",
+      "title": "Höfliche Bitte übersetzen",
+      "exercise": {
+        "id": "ex-free-podrias-ayudar",
+        "type": "free_text",
+        "prompt": "Übersetze höflich ins Spanische: *Könntest du mir helfen?*",
+        "card_ids": ["cond-hoeflichkeit", "cond-podria-ayudar"],
+        "accept": [
+          "¿Podrías ayudarme?",
+          "¿Podrias ayudarme?",
+          "¿Podrías ayudar me?",
+          "¿Me podrías ayudar?",
+          "¿Me podrias ayudar?"
+        ],
+        "hint": "poder → podr- + ías (tú): ¿Podrías…? Mit Akzent auf -ía.",
+        "distractors": [
+          "¿Puedes ayudarme?",
+          "¿Podría ayudarme?",
+          "¿Podras ayudarme?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-me-gustaria",
+      "type": "exercise",
+      "title": "Wunsch höflich ausdrücken",
+      "exercise": {
+        "id": "ex-free-me-gustaria",
+        "type": "free_text",
+        "prompt": "Übersetze höflich: *Ich hätte gern einen Tisch für zwei Personen.*",
+        "card_ids": ["cond-me-gustaria", "cond-hoeflichkeit"],
+        "accept": [
+          "Me gustaría una mesa para dos personas.",
+          "Me gustaria una mesa para dos personas.",
+          "Me gustaría una mesa para dos.",
+          "Quisiera una mesa para dos personas.",
+          "Me gustaría reservar una mesa para dos."
+        ],
+        "hint": "gustar im Condicional: me gustaría + Substantiv oder Infinitiv.",
+        "distractors": [
+          "Me gusta una mesa para dos personas.",
+          "Quisero una mesa para dos.",
+          "Me gustaria una mesa para dos persona."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-stamm",
+      "type": "exercise",
+      "title": "Unregelmäßige Stämme zuordnen",
+      "exercise": {
+        "id": "ex-match-stamm",
+        "type": "matching",
+        "prompt": "Ordne jedem Infinitiv seinen Condicional-Stamm zu.",
+        "card_ids": ["cond-unregelmaessig"],
+        "pairs": [
+          { "left": "hacer", "right": "har-" },
+          { "left": "tener", "right": "tendr-" },
+          { "left": "salir", "right": "saldr-" },
+          { "left": "decir", "right": "dir-" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-deberia-descansar",
+      "type": "exercise",
+      "title": "Einen Ratschlag geben",
+      "exercise": {
+        "id": "ex-tiles-deberia-descansar",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Du solltest mehr schlafen.*",
+        "card_ids": ["cond-deberia", "cond-hypothese"],
+        "tiles": ["Deberías", "dormir", "más"],
+        "hint": "deber im Condicional (tú): deberías + Infinitiv.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-yo-lugar",
+      "type": "exercise",
+      "title": "An deiner Stelle … (Ratschlag)",
+      "exercise": {
+        "id": "ex-free-yo-lugar",
+        "type": "free_text",
+        "prompt": "Übersetze: *An deiner Stelle würde ich mit dem Chef sprechen.*",
+        "card_ids": ["cond-yo-lugar", "cond-hypothese"],
+        "accept": [
+          "Yo en tu lugar, hablaría con el jefe.",
+          "Yo en tu lugar hablaría con el jefe.",
+          "Yo en tu lugar hablaría con el jefe.",
+          "En tu lugar, hablaría con el jefe.",
+          "En tu lugar hablaría con el jefe."
+        ],
+        "hint": "Formel: *Yo en tu lugar + condicional*. hablar → hablaría (regelmäßig).",
+        "distractors": [
+          "Yo en tu lugar, hablo con el jefe.",
+          "Yo en tu lugar, hablar con el jefe.",
+          "Yo en tu lugar, hablarás con el jefe."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-hoeflichkeit",
+      "type": "exercise",
+      "title": "Die höflichste Formulierung erkennen",
+      "exercise": {
+        "id": "ex-pic-hoeflichkeit",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz klingt am höflichsten in einem Restaurant?",
+        "card_ids": ["cond-hoeflichkeit", "cond-me-gustaria"],
+        "images": [
+          { "src": "assets/img/restaurant-polite.png", "label": "Me gustaría reservar una mesa.", "is_correct": "true" },
+          { "src": "assets/img/restaurant-direct.png", "label": "Quiero una mesa." },
+          { "src": "assets/img/restaurant-imperative.png", "label": "Dame una mesa." },
+          { "src": "assets/img/restaurant-informal.png", "label": "¿Hay mesa?" }
+        ],
+        "hint": "Der Condicional (*me gustaría*) ist die höflichste Wahl in formellen Situationen.",
+        "distractors": [
+          "Quiero una mesa.",
+          "Dame una mesa.",
+          "¿Hay mesa?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-serian-tres",
+      "type": "exercise",
+      "title": "Vermutung über die Vergangenheit",
+      "exercise": {
+        "id": "ex-cloze-serian-tres",
+        "type": "cloze",
+        "prompt": "Ergänze den Condicional von *ser* (ellos/ellas — hier: für eine Uhrzeit) für die Vermutung über die Vergangenheit.",
+        "card_ids": ["cond-vermutung-vergangenheit"],
+        "sentence": "___ las tres de la madrugada cuando llegó a casa.",
+        "blanks": [
+          { "accept": ["Serían"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "ser (ellos) im Condicional: ser*ían* → Serían. Bedeutung: Es war wohl drei Uhr morgens."
+      }
+    },
+    {
+      "id": "ex-free-dijo-vendria",
+      "type": "exercise",
+      "title": "Zukunft aus Vergangenheitssicht",
+      "exercise": {
+        "id": "ex-free-dijo-vendria",
+        "type": "free_text",
+        "prompt": "Übersetze: *Er sagte, er werde morgen anrufen.*",
+        "card_ids": ["cond-dijo-vendria", "cond-futuro-vergangenheit"],
+        "accept": [
+          "Dijo que llamaría mañana.",
+          "dijo que llamaría mañana",
+          "Dijo que llamaria mañana.",
+          "Dijo que llamaría al día siguiente.",
+          "Prometió que llamaría mañana."
+        ],
+        "hint": "Direkte Rede: *«Llamaré mañana»* → Indirekte Rede: *Dijo que llamaría mañana.* llamar ist regelmäßig: llamar + -ía.",
+        "distractors": [
+          "Dijo que llamará mañana.",
+          "Dijo que llamar mañana.",
+          "Dijo que llama mañana."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-verwendung",
+      "type": "exercise",
+      "title": "Verwendung erkennen",
+      "exercise": {
+        "id": "ex-match-verwendung",
+        "type": "matching",
+        "prompt": "Ordne jeden Satz seiner Verwendung des Condicionals zu.",
+        "card_ids": ["cond-hoeflichkeit", "cond-hypothese", "cond-vermutung-vergangenheit", "cond-futuro-vergangenheit"],
+        "pairs": [
+          { "left": "¿Podrías cerrar la ventana?", "right": "Höflichkeit" },
+          { "left": "Yo en tu lugar, estudiaría más.", "right": "Ratschlag/Hypothese" },
+          { "left": "Tendría unos cuarenta años.", "right": "Vermutung über die Vergangenheit" },
+          { "left": "Dijo que vendría.", "right": "Zukunft aus Vergangenheitssicht" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-haria-reservacion",
+      "type": "exercise",
+      "title": "Einen Satz mit hacer bauen",
+      "exercise": {
+        "id": "ex-tiles-haria-reservacion",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich würde eine Reservierung machen.*",
+        "card_ids": ["cond-unregelmaessig", "cond-hoeflichkeit"],
+        "tiles": ["Haría", "una", "reserva"],
+        "hint": "hacer → unregelmäßiger Stamm *har-* + -ía → haría.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-tendria-anos",
+      "type": "exercise",
+      "title": "Vermutung über Alter ausdrücken",
+      "exercise": {
+        "id": "ex-free-tendria-anos",
+        "type": "free_text",
+        "prompt": "Übersetze: *Als ich sie kennenlernte, war sie wohl so um die fünfundzwanzig.*",
+        "card_ids": ["cond-tendria-anos", "cond-vermutung-vergangenheit"],
+        "accept": [
+          "Cuando la conocí, tendría unos veinticinco años.",
+          "Cuando la conocí tendría unos veinticinco años.",
+          "Cuando la conocí, tendría veinticinco años.",
+          "Tendría unos veinticinco años cuando la conocí.",
+          "Tendría unos 25 años cuando la conocí."
+        ],
+        "hint": "tener (Vermutung Vergangenheit) → tendría (unregelmäßiger Stamm *tendr-*). *unos* vor Zahlen = ‚ungefähr'.",
+        "distractors": [
+          "Cuando la conocí, tenía unos veinticinco años.",
+          "Cuando la conocí, tendrá unos veinticinco años.",
+          "Cuando la conocí, tendria unos veinticinco años."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "id": "09-opiniones-y-sentimientos",
+  "title": "Gefühle und Meinungen ausdrücken",
+  "description": "Meinungen, Sicherheit, Zweifel und Gefühle auf Spanisch — und die bewusste Entscheidung zwischen Indikativ und Subjuntivo. Aufbauend auf Lektionen 01-02 (Subjuntivo presente und seine Auslöser). Diskurswendungen zum Zustimmen und Widersprechen, Register-Hinweis für höflichen Widerspruch. Auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "creo-que-ind",
+      "front": "creo que / pienso que / me parece que + Indikativ",
+      "back": "Ich glaube/denke/finde, dass … (+ Indikativ)",
+      "notes": "Bejahte Meinung drückt Sicherheit aus → **Indikativ**: *Creo que **tiene** razón.* / *Me parece que **está** cansado.* Merke: **Bejaht = Indikativ** — man glaubt, es ist so.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["meinung", "indikativ", "kontrast"]
+    },
+    {
+      "id": "en-mi-opinion-ind",
+      "front": "en mi opinión / está claro que / es verdad que + Indikativ",
+      "back": "meiner Meinung nach / es ist klar, dass / es stimmt, dass (+ Indikativ)",
+      "notes": "Ausdrücke, die eine **Tatsache oder Sicherheit** signalisieren, verlangen den **Indikativ**: *Está claro que **hay** un problema.* / *Es verdad que **es** difícil.* Kein Subjuntivo nach diesen bejahten Formeln!",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Sicherheit/Tatsache → Indikativ. Erst die Verneinung ändert alles.",
+      "tags": ["meinung", "indikativ", "sicherheit"]
+    },
+    {
+      "id": "no-creo-que-subj",
+      "front": "no creo que / no pienso que / dudo que + Subjuntivo",
+      "back": "Ich glaube nicht, dass / Ich bezweifle, dass (+ Subjuntivo)",
+      "notes": "**Verneinte Meinung oder Zweifel** → **Subjuntivo**: *No creo que **tenga** razón.* / *Dudo que **venga** a tiempo.* Derselbe Auslöser, aber verneint — das reicht, um den Modus zu kippen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Verneinung = Zweifel = Subjuntivo. Der Schaltpunkt ist das 'no'.",
+      "tags": ["zweifel", "subjuntivo", "kontrast"]
+    },
+    {
+      "id": "no-es-verdad-que-subj",
+      "front": "no es verdad que / no está claro que + Subjuntivo",
+      "back": "es stimmt nicht, dass / es ist nicht klar, dass (+ Subjuntivo)",
+      "notes": "Wie bei der Meinung: **verneinte Tatsachenbehauptung** → **Subjuntivo**: *No es verdad que **sea** fácil.* Vergleiche: *Es verdad que **es** fácil.* (Indikativ, bejaht).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["zweifel", "subjuntivo", "verneinung"]
+    },
+    {
+      "id": "me-parece-bien-subj",
+      "front": "me parece bien/mal que + Subjuntivo",
+      "back": "ich finde es gut/schlecht, dass (+ Subjuntivo)",
+      "notes": "**Wertung und Gefühl** → immer **Subjuntivo**, egal ob positiv oder negativ: *Me parece bien que **vengas**.* / *Me parece mal que **llegues** tarde.* Es gibt kein 'bejaht = Indikativ' bei Gefühlsausdrücken — Gefühle sind immer subjektiv.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["wertung", "subjuntivo", "gefuehl"]
+    },
+    {
+      "id": "es-una-lastima-que-subj",
+      "front": "es una lástima que + Subjuntivo",
+      "back": "es ist schade, dass (+ Subjuntivo)",
+      "notes": "Unpersönliche **Wertung** → **Subjuntivo**: *Es una lástima que no **puedas** venir.* Ähnliche Ausdrücke: *es bueno que, es malo que, es mejor que, es importante que* — alle verlangen den Subjuntivo.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["wertung", "subjuntivo", "unpersoenlich"]
+    },
+    {
+      "id": "me-alegra-subj",
+      "front": "me alegra que / me molesta que + Subjuntivo",
+      "back": "es freut mich, dass / es stört mich, dass (+ Subjuntivo)",
+      "notes": "**Emotionale Reaktion** → **Subjuntivo**: *Me alegra que **estés** aquí.* / *Me molesta que siempre **llegues** tarde.* Ebenso: *me sorprende que, me preocupa que, me encanta que*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Frage dich: drückt der Hauptsatz ein Gefühl aus? Dann folgt Subjuntivo.",
+      "tags": ["gefuehl", "subjuntivo", "emotion"]
+    },
+    {
+      "id": "que-pena-que-subj",
+      "front": "¡qué pena que + Subjuntivo!",
+      "back": "wie schade, dass … (+ Subjuntivo)",
+      "notes": "Ausruf der Wertung → **Subjuntivo**: *¡Qué pena que no **pueda** venir Juan!* Ähnlich: *¡qué bien que …!, ¡qué raro que …!, ¡qué sorpresa que …!* — alle mit Subjuntivo.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["wertung", "subjuntivo", "ausruf"]
+    },
+    {
+      "id": "estoy-de-acuerdo",
+      "front": "estoy de acuerdo / tienes razón / exacto",
+      "back": "ich stimme zu / du hast recht / genau",
+      "notes": "Wendungen zum **Zustimmen**: *Estoy de acuerdo contigo.* / *Tienes razón, es difícil.* / *Exacto, eso es lo que pienso.* Register: neutral bis freundlich im Alltag.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["diskurs", "zustimmung", "redemittel"]
+    },
+    {
+      "id": "no-estoy-de-acuerdo",
+      "front": "no estoy de acuerdo / no tienes razón / depende",
+      "back": "ich stimme nicht zu / du hast nicht recht / das kommt darauf an",
+      "notes": "Wendungen zum **Widersprechen**: *No estoy de acuerdo contigo.* Register-Tipp: direkte Verneinung kann schroff wirken — höflicher: *No estoy del todo de acuerdo…* oder *Entiendo tu punto, pero…* / *Depende de la situación.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Höflicher Widerspruch: erst die andere Meinung anerkennen ('Entiendo que…'), dann eigene einbringen.",
+      "tags": ["diskurs", "widerspruch", "redemittel", "register"]
+    },
+    {
+      "id": "por-un-lado",
+      "front": "por un lado … por otro lado / sin embargo / aunque",
+      "back": "einerseits … andererseits / jedoch / obwohl/obgleich",
+      "notes": "**Diskursstruktur** für Meinungen: *Por un lado, creo que **es** una buena idea; por otro lado, dudo que **tengamos** suficiente tiempo.* Beachte den Moduswechsel: *creo que* (bejaht) → Indikativ, *dudo que* → Subjuntivo.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["diskurs", "konnektoren", "kontrast"]
+    },
+    {
+      "id": "me-parece-que-ind",
+      "front": "me parece que + Indikativ (bejaht)",
+      "back": "ich finde/denke, dass … (Indikativ bei bejahter Meinung)",
+      "notes": "*Me parece que* kann **Meinung** (→ Indikativ) oder **Wertung** (→ Subjuntivo) einleiten, je nach Struktur:\n- *Me parece que **tiene** razón.* (Ich finde, er hat recht — Meinung, Indikativ)\n- *Me parece bien que **venga**.* (Ich finde es gut, dass er kommt — Wertung, Subjuntivo)\n\nDer Schlüssel: folgt direkt *bien/mal/raro/interesante* + *que* → Subjuntivo.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["meinung", "wertung", "indikativ", "subjuntivo", "kontrast"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-indikativ-vs-subj",
+      "type": "theory",
+      "title": "Meinung und Sicherheit: Indikativ oder Subjuntivo?",
+      "body": "# Gefühle und Meinungen ausdrücken\n\nDiese Lektion baut auf **Lektion 01** (Bildung des Subjuntivo) und **Lektion 02** (Auslöser) auf. Hier geht es darum, in der Praxis den richtigen Modus **bewusst zu wählen**.\n\n## Die Grundregel: Bejaht vs. verneint\n\nDer wichtigste Hebel ist einfach: **Bejaht die Hauptklausel eine Meinung oder Tatsache?**\n\n| Auslöser | Modus | Beispiel |\n|---|---|---|\n| **creo que** | Indikativ | *Creo que **tiene** razón.* |\n| **pienso que** | Indikativ | *Pienso que **es** una buena idea.* |\n| **me parece que** | Indikativ | *Me parece que **están** cansados.* |\n| **en mi opinión** | Indikativ | *En mi opinión, **es** lo mejor.* |\n| **está claro que** | Indikativ | *Está claro que **hay** un problema.* |\n| **es verdad que** | Indikativ | *Es verdad que **es** difícil.* |\n| **no creo que** | Subjuntivo | *No creo que **tenga** razón.* |\n| **no pienso que** | Subjuntivo | *No pienso que **sea** posible.* |\n| **dudo que** | Subjuntivo | *Dudo que **venga** a tiempo.* |\n| **no es verdad que** | Subjuntivo | *No es verdad que **sea** fácil.* |\n\n> **Faustregel:** Bejahte Sicherheit/Meinung → Indikativ. Zweifel, Verneinung der Meinung → Subjuntivo."
+    },
+    {
+      "id": "theory-wertung-gefuehl",
+      "type": "theory",
+      "title": "Wertung und Gefühl: immer Subjuntivo",
+      "body": "## Wertende und emotionale Ausdrücke\n\nWenn der Hauptsatz kein Urteil über die **Wahrheit** einer Aussage fällt, sondern eine **Wertung oder ein Gefühl** ausdrückt, steht **immer der Subjuntivo** — unabhängig von Bejahung oder Verneinung:\n\n| Auslöser | Bedeutung | Beispiel |\n|---|---|---|\n| **me parece bien/mal que** | ich finde es gut/schlecht, dass | *Me parece bien que **vengas**.* |\n| **me alegra que** | es freut mich, dass | *Me alegra que **estés** aquí.* |\n| **me molesta que** | es stört mich, dass | *Me molesta que **llegues** tarde.* |\n| **es una lástima que** | es ist schade, dass | *Es una lástima que no **puedas** venir.* |\n| **¡qué pena que…!** | wie schade, dass … | *¡Qué pena que no **venga**!* |\n| **me sorprende que** | es überrascht mich, dass | *Me sorprende que **diga** eso.* |\n\n**Denkhilfe:** Frage dich: *Behaupte ich etwas über die Wirklichkeit* (→ Indikativ) *oder drücke ich aus, wie ich mich dabei fühle / wie ich es bewerte* (→ Subjuntivo)?\n\n> **Merksatz:** Wertung + Gefühl = Subjuntivo, immer."
+    },
+    {
+      "id": "theory-diskurs",
+      "type": "theory",
+      "title": "Zustimmen und Widersprechen — Register",
+      "body": "## Meinungen im Gespräch\n\nNeben dem richtigen Modus brauchst du auch die passenden **Diskurswendungen**:\n\n### Zustimmen\n- *Estoy de acuerdo (contigo/con usted).* — Ich stimme zu.\n- *Tienes/Tiene razón.* — Du hast/Sie haben recht.\n- *Exacto. / Claro que sí.* — Genau. / Natürlich.\n\n### Widersprechen — und das **Register**\n\n| Direkt (kann schroff wirken) | Höflicher / diplomatischer |\n|---|---|\n| *No estoy de acuerdo.* | *No estoy del todo de acuerdo…* |\n| *No tienes razón.* | *Entiendo tu punto, pero…* |\n| *Eso no es verdad.* | *Depende de la situación…* |\n\n> **Register-Tipp:** Im formellen Kontext (Arbeit, Diskussion mit Fremden) wirkt ein direktes *No tienes razón* unhöflich. Spanischsprachige Muttersprachler weichen das gern ab: erst die Gegenmeinung anerkennen (*Entiendo que…, Comprendo tu postura, sin embargo…*), dann den eigenen Standpunkt einbringen.\n\n### Strukturiertes Argumentieren\n\n- *Por un lado… por otro lado…* (einerseits … andererseits)\n- *Sin embargo…* (jedoch / trotzdem)\n- *Aunque + Subjuntivo* (obwohl — bei Hypothese)\n\n**Beachte den Moduswechsel** im selben Satz:\n\n*Por un lado, creo que **es** bueno (Indikativ); por otro lado, no creo que **sea** perfecto (Subjuntivo).*"
+    },
+    {
+      "id": "ex-cloze-creo-tiene",
+      "type": "exercise",
+      "title": "Bejahte Meinung: creo que + Indikativ",
+      "exercise": {
+        "id": "ex-cloze-creo-tiene",
+        "type": "cloze",
+        "prompt": "Ergänze *tener* in der richtigen Form. Achtung: bejahtes *creo que* verlangt den Indikativ!",
+        "card_ids": ["creo-que-ind", "no-creo-que-subj"],
+        "sentence": "Creo que María ___ razón en este asunto.",
+        "blanks": [
+          { "accept": ["tiene"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Bejaht (*creo que*) → Indikativ Präsens: *tiene* (NICHT *tenga*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-no-creo-tenga",
+      "type": "exercise",
+      "title": "Verneinte Meinung: no creo que + Subjuntivo",
+      "exercise": {
+        "id": "ex-cloze-no-creo-tenga",
+        "type": "cloze",
+        "prompt": "Ergänze *tener* im Subjuntivo. Das *no* vor *creo que* kippt den Modus!",
+        "card_ids": ["no-creo-que-subj", "creo-que-ind"],
+        "sentence": "No creo que él ___ suficiente experiencia para el puesto.",
+        "blanks": [
+          { "accept": ["tenga"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Verneint (*no creo que*) → Subjuntivo: *tener*, yo-Stamm *tengo* → *tenga*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-lastima-pueda",
+      "type": "exercise",
+      "title": "Es una lástima que + Subjuntivo",
+      "exercise": {
+        "id": "ex-cloze-lastima-pueda",
+        "type": "cloze",
+        "prompt": "Ergänze *poder* (que ella) im Subjuntivo.",
+        "card_ids": ["es-una-lastima-que-subj"],
+        "sentence": "Es una lástima que Ana no ___ venir a la boda.",
+        "blanks": [
+          { "accept": ["pueda"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*poder* → yo-Form *puedo* → Stamm *pued-* → *que ella pueda*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-creo-vs-no-creo",
+      "type": "exercise",
+      "title": "Ich glaube nicht, dass er kommt",
+      "exercise": {
+        "id": "ex-free-creo-vs-no-creo",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich glaube nicht, dass er morgen kommt.*",
+        "card_ids": ["no-creo-que-subj"],
+        "accept": [
+          "No creo que venga mañana.",
+          "no creo que venga mañana",
+          "No creo que él venga mañana.",
+          "No pienso que venga mañana.",
+          "Dudo que venga mañana."
+        ],
+        "hint": "*no creer que* + Subjuntivo von *venir* (yo-Stamm *veng-*) → *que él venga*.",
+        "distractors": [
+          "No creo que viene mañana.",
+          "No creo que venir mañana.",
+          "Creo que no venga mañana."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-lastima-no-puedas",
+      "type": "exercise",
+      "title": "Wie schade — es una lástima que",
+      "exercise": {
+        "id": "ex-free-lastima-no-puedas",
+        "type": "free_text",
+        "prompt": "Übersetze: *Es ist schade, dass du nicht bleiben kannst.*",
+        "card_ids": ["es-una-lastima-que-subj", "que-pena-que-subj"],
+        "accept": [
+          "Es una lástima que no puedas quedarte.",
+          "es una lástima que no puedas quedarte",
+          "Es una lástima que no te puedas quedar.",
+          "¡Qué pena que no puedas quedarte!",
+          "Es una pena que no puedas quedarte."
+        ],
+        "hint": "*es una lástima que* + Subjuntivo: *poder* → *que tú puedas*. *quedarse* = bleiben.",
+        "distractors": [
+          "Es una lástima que no puedes quedarte.",
+          "Es una lástima que no poder quedarte.",
+          "Es una lástima que no quedes quedarte."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-me-alegra-estes",
+      "type": "exercise",
+      "title": "Freude ausdrücken: me alegra que",
+      "exercise": {
+        "id": "ex-free-me-alegra-estes",
+        "type": "free_text",
+        "prompt": "Übersetze: *Es freut mich, dass du hier bist.*",
+        "card_ids": ["me-alegra-subj"],
+        "accept": [
+          "Me alegra que estés aquí.",
+          "me alegra que estés aquí",
+          "Me alegra que estés acá.",
+          "Me alegro de que estés aquí.",
+          "Me alegro de que estés acá."
+        ],
+        "hint": "*me alegra que* + Subjuntivo von *estar* (que tú estés). *aquí/acá* = hier.",
+        "distractors": [
+          "Me alegra que estás aquí.",
+          "Me alegra que estar aquí.",
+          "Me alegra que seas aquí."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-ausloeser-modus",
+      "type": "exercise",
+      "title": "Auslöser dem Modus zuordnen",
+      "exercise": {
+        "id": "ex-match-ausloeser-modus",
+        "type": "matching",
+        "prompt": "Ordne jedem Auslöser den verlangten Modus zu.",
+        "card_ids": ["creo-que-ind", "no-creo-que-subj", "es-una-lastima-que-subj", "me-alegra-subj", "en-mi-opinion-ind"],
+        "pairs": [
+          { "left": "creo que (bejaht)", "right": "Indikativ" },
+          { "left": "no creo que", "right": "Subjuntivo" },
+          { "left": "es una lástima que", "right": "Subjuntivo" },
+          { "left": "está claro que", "right": "Indikativ" },
+          { "left": "me molesta que", "right": "Subjuntivo" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-me-parece-mal",
+      "type": "exercise",
+      "title": "Missbilligung ausdrücken",
+      "exercise": {
+        "id": "ex-tiles-me-parece-mal",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich finde es schlecht, dass du so spät kommst.*",
+        "card_ids": ["me-parece-bien-subj"],
+        "tiles": ["Me", "parece", "mal", "que", "llegues", "tan", "tarde"],
+        "hint": "*me parece mal que* + Subjuntivo von *llegar* (que tú llegues).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-dudo-tenga",
+      "type": "exercise",
+      "title": "Zweifel ausdrücken",
+      "exercise": {
+        "id": "ex-tiles-dudo-tenga",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich bezweifle, dass er genug Zeit hat.*",
+        "card_ids": ["no-creo-que-subj"],
+        "tiles": ["Dudo", "que", "tenga", "suficiente", "tiempo"],
+        "hint": "*dudar que* + Subjuntivo von *tener* (que él tenga).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-modo-choice",
+      "type": "exercise",
+      "title": "Welcher Satz ist grammatisch korrekt?",
+      "exercise": {
+        "id": "ex-pic-modo-choice",
+        "type": "picture_choice",
+        "prompt": "Wähle den grammatisch korrekten Satz mit *es una lástima que*.",
+        "card_ids": ["es-una-lastima-que-subj"],
+        "images": [
+          { "src": "assets/img/sad-1.png", "label": "Es una lástima que no pueda venir.", "is_correct": "true" },
+          { "src": "assets/img/sad-2.png", "label": "Es una lástima que no puede venir." },
+          { "src": "assets/img/sad-3.png", "label": "Es una lástima que no poder venir." },
+          { "src": "assets/img/sad-4.png", "label": "Es una lástima que no pudo venir." }
+        ],
+        "hint": "Wertung → Subjuntivo: *poder* → que él/ella *pueda*. Indikativ (*puede*) und Infinitiv (*poder*) sind falsch.",
+        "distractors": [
+          "Es una lástima que no puede venir.",
+          "Es una lástima que no poder venir.",
+          "Es una lástima que no pudo venir."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-esta-claro-que",
+      "type": "exercise",
+      "title": "Sicherheit ausdrücken: está claro que",
+      "exercise": {
+        "id": "ex-free-esta-claro-que",
+        "type": "free_text",
+        "prompt": "Übersetze: *Es ist klar, dass das Problem schwierig ist.*",
+        "card_ids": ["en-mi-opinion-ind"],
+        "accept": [
+          "Está claro que el problema es difícil.",
+          "está claro que el problema es difícil",
+          "Está claro que es un problema difícil.",
+          "Es obvio que el problema es difícil.",
+          "Es evidente que el problema es difícil."
+        ],
+        "hint": "*está claro que* = Tatsache/Sicherheit → Indikativ: *es* (NICHT *sea*).",
+        "distractors": [
+          "Está claro que el problema sea difícil.",
+          "Está claro que el problema ser difícil.",
+          "Está claro que el problema esté difícil."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-diskurs",
+      "type": "exercise",
+      "title": "Diskurswendungen zuordnen",
+      "exercise": {
+        "id": "ex-match-diskurs",
+        "type": "matching",
+        "prompt": "Ordne jeder spanischen Wendung die deutsche Bedeutung zu.",
+        "card_ids": ["estoy-de-acuerdo", "no-estoy-de-acuerdo", "por-un-lado"],
+        "pairs": [
+          { "left": "estoy de acuerdo", "right": "ich stimme zu" },
+          { "left": "no estoy del todo de acuerdo", "right": "ich stimme nicht ganz zu" },
+          { "left": "depende de la situación", "right": "das kommt auf die Situation an" },
+          { "left": "por un lado … por otro lado", "right": "einerseits … andererseits" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-me-molesta",
+      "type": "exercise",
+      "title": "Ärger ausdrücken: me molesta que",
+      "exercise": {
+        "id": "ex-free-me-molesta",
+        "type": "free_text",
+        "prompt": "Übersetze: *Es stört mich, dass er nie pünktlich ist.*",
+        "card_ids": ["me-alegra-subj", "me-parece-bien-subj"],
+        "accept": [
+          "Me molesta que nunca sea puntual.",
+          "me molesta que nunca sea puntual",
+          "Me molesta que nunca esté puntual.",
+          "Me molesta que él nunca sea puntual.",
+          "Me fastidia que nunca sea puntual."
+        ],
+        "hint": "*me molesta que* + Subjuntivo: *ser puntual* → *que él sea puntual*. Oder *estar* mit Personen auch möglich.",
+        "distractors": [
+          "Me molesta que nunca es puntual.",
+          "Me molesta que nunca ser puntual.",
+          "Me molesta que nunca está puntual."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "id": "12-noticias-y-medios",
+  "title": "Nachrichten und Medien",
+  "description": "Wortschatz rund um Presse, TV und soziale Medien; Schlagzeilen auf Spanisch verstehen; Meinungen zu Nachrichten äußern und Quellen kritisch einordnen. Konnektoren (Lektion 08) und Meinungswendungen (Lektion 09) werden im Medienkontext geübt. Auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "un-periodico",
+      "front": "un periódico",
+      "back": "eine Zeitung",
+      "notes": "Maskulin. *El periódico de hoy trae una noticia importante.* Synonym (häufig in Lateinamerika): *un diario*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["medien", "wortschatz", "presse"]
+    },
+    {
+      "id": "una-noticia",
+      "front": "una noticia",
+      "back": "eine Nachricht / eine Neuigkeit",
+      "notes": "Achtung: *una noticia* ist eine einzelne Neuigkeit; der Plural *las noticias* entspricht dem deutschen 'Nachrichten' (Sendung oder Meldungen). *Ver las noticias* = die Nachrichten schauen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["medien", "wortschatz"]
+    },
+    {
+      "id": "un-titular",
+      "front": "un titular",
+      "back": "eine Schlagzeile",
+      "notes": "Der Titel eines Zeitungsartikels oder einer Online-Meldung. *Los titulares de hoy son preocupantes.* Im Deutschen oft 'Titel' oder 'Überschrift', im Journalistenkontext 'Schlagzeile'.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["medien", "wortschatz", "presse"]
+    },
+    {
+      "id": "un-articulo",
+      "front": "un artículo",
+      "back": "ein Artikel",
+      "notes": "Zeitungs- oder Online-Artikel. *Leí un artículo muy interesante sobre el cambio climático.* Nicht verwechseln mit dem grammatikalischen Artikel (*el artículo determinado*).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["medien", "wortschatz"]
+    },
+    {
+      "id": "la-prensa",
+      "front": "la prensa",
+      "back": "die Presse / die Printmedien",
+      "notes": "Kollektivbegriff. *La prensa libre es fundamental en una democracia.* Auch: *la prensa escrita* (Printpresse) vs. *la prensa digital* (Onlinemedien).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["medien", "wortschatz", "presse"]
+    },
+    {
+      "id": "un-canal",
+      "front": "un canal",
+      "back": "ein (Fernseh-)Kanal / ein Sender",
+      "notes": "*un canal de televisión* = ein TV-Sender. Auch im digitalen Kontext: *un canal de YouTube*. *¿Qué canal ponen las noticias a las nueve?*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["medien", "wortschatz", "tv"]
+    },
+    {
+      "id": "un-programa",
+      "front": "un programa",
+      "back": "eine Sendung / ein Programm",
+      "notes": "*un programa de noticias* = eine Nachrichtensendung, *un programa de debate* = eine Talksendung. *Esta noche hay un programa muy interesante en el canal 2.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["medien", "wortschatz", "tv"]
+    },
+    {
+      "id": "un-reportaje",
+      "front": "un reportaje",
+      "back": "ein Reportage / ein Bericht",
+      "notes": "Ausführlichere journalistische Form als der *artículo*. *Hicieron un reportaje sobre la situación en el Mediterráneo.* Register: eher formell/journalistisch.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["medien", "wortschatz", "journalismus"]
+    },
+    {
+      "id": "la-actualidad",
+      "front": "la actualidad",
+      "back": "das aktuelle Geschehen / die Aktualität",
+      "notes": "*Estar al tanto de la actualidad* = über das aktuelle Geschehen informiert sein. *los temas de actualidad* = aktuelle Themen. Kein direktes deutsches Einzelwort — am besten mit 'das Tagesgeschehen' übersetzt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["medien", "wortschatz"]
+    },
+    {
+      "id": "las-redes-sociales",
+      "front": "las redes sociales",
+      "back": "die sozialen Medien / die sozialen Netzwerke",
+      "notes": "Plural, immer mit Artikel. *Mucha gente se informa a través de las redes sociales.* Einzelnetzwerk: *una red social*. Kurzform im Alltag: *las redes*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["medien", "wortschatz", "digital"]
+    },
+    {
+      "id": "una-fuente",
+      "front": "una fuente (fiable / dudosa)",
+      "back": "eine (zuverlässige / zweifelhafte) Quelle",
+      "notes": "Schlüsselbegriff für Medienkompetenz. *Es importante verificar la fuente antes de compartir una noticia.* **fiable** = zuverlässig, **dudosa** = zweifelhaft/fragwürdig.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["medien", "wortschatz", "medienkompetenz"]
+    },
+    {
+      "id": "un-periodista",
+      "front": "un periodista / una periodista",
+      "back": "ein Journalist / eine Journalistin",
+      "notes": "Gemeinschaftsgeschlecht (*sustantivo epiceno*): nur der Artikel ändert sich. *La periodista entrevistó al ministro.* Zugehöriges Fach: *el periodismo*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["medien", "wortschatz", "berufe"]
+    },
+    {
+      "id": "la-desinformacion",
+      "front": "la (des)información / un bulo",
+      "back": "die (Des)information / eine Falschmeldung",
+      "notes": "**la desinformación** = Desinformation (Oberbegriff), **un bulo** = eine konkrete Falschmeldung (Hoax). *las noticias falsas* = Fake News. *Hay que aprender a distinguir la información fiable de los bulos.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["medien", "wortschatz", "medienkompetenz", "desinformation"]
+    },
+    {
+      "id": "segun-parece-que",
+      "front": "según este artículo… / parece que… / se dice que…",
+      "back": "laut diesem Artikel… / es scheint, dass… / man sagt, dass…",
+      "notes": "Drei Wendungen zum Berichten ohne eigene Garantie:\n- **según** + Quelle = laut (immer Indikativ danach)\n- **parece que** = es scheint, dass (Indikativ; mit Subjuntivo bei Zweifel: *parece que sea…*)\n- **se dice que** = man sagt, dass (Indikativ, unpersönlich)\n\nRegister: neutral bis leicht formell — gut für mündliche und schriftliche Berichte.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["meinung", "wendungen", "medien"]
+    },
+    {
+      "id": "verificar-contrastar",
+      "front": "verificar la fuente / contrastar la información",
+      "back": "die Quelle überprüfen / die Information gegenchecken",
+      "notes": "**verificar** = verifizieren, nachprüfen; **contrastar** = vergleichen, gegenprüfen (aus mehreren Quellen). *Antes de compartir una noticia, hay que verificar la fuente y contrastar la información con otros medios.*\n\nRegister: journalistisch-sachlich; ideal in Aufsätzen und Debatten.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["medienkompetenz", "wendungen", "verben"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-wortschatz",
+      "type": "theory",
+      "title": "Wortschatz: Medien und Presse",
+      "body": "# Nachrichten und Medien — Grundwortschatz\n\nAuf B1-Niveau musst du über aktuelle Ereignisse sprechen und Texte aus Zeitungen oder Online-Medien verstehen können. Hier sind die wichtigsten Begriffe:\n\n## Druckmedien und Online\n\n| Spanisch | Deutsch | Hinweis |\n|---|---|---|\n| **un periódico** (= *un diario*) | eine Zeitung | *diario* häufiger in Lateinamerika |\n| **un artículo** | ein Artikel | journalistischer Text |\n| **un titular** | eine Schlagzeile | Überschrift einer Meldung |\n| **un reportaje** | eine Reportage | längerer, recherchierter Bericht |\n| **la prensa** | die Presse / Printmedien | Kollektivbegriff |\n\n## TV und Digital\n\n| Spanisch | Deutsch |\n|---|---|\n| **un canal** | ein TV-Sender / ein Kanal |\n| **un programa** | eine Sendung |\n| **una noticia** / **las noticias** | eine Meldung / die Nachrichten |\n| **las redes sociales** | die sozialen Medien |\n| **la actualidad** | das aktuelle Geschehen |\n\n## Medienkompetenz\n\n| Spanisch | Deutsch |\n|---|---|\n| **una fuente fiable** | eine zuverlässige Quelle |\n| **una fuente dudosa** | eine zweifelhafte Quelle |\n| **un bulo** / **las noticias falsas** | eine Falschmeldung / Fake News |\n| **la desinformación** | Desinformation |\n| **un(a) periodista** | ein Journalist / eine Journalistin |\n\n> **Register-Hinweis:** *Un bulo* ist leicht umgangssprachlich und sehr gebräuchlich in Spanien; in Lateinamerika sagt man häufiger *una noticia falsa*. *Un reportaje* klingt formeller als *un artículo* und eignet sich gut für schriftliche Texte."
+    },
+    {
+      "id": "theory-schlagzeile",
+      "type": "theory",
+      "title": "Schlagzeilen verstehen: ein authentischer Mini-Text",
+      "body": "## Wie liest man spanische Schlagzeilen?\n\nSpanische Zeitungen lassen im Titular oft den Artikel und das Verb weg — ähnlich wie im Deutschen. Lies diese echte Titelzeile:\n\n> **„El Gobierno aprueba nuevas medidas para combatir la desinformación en las redes sociales'**\n> *(El País, digitale Ausgabe)*\n\n### Analyse\n\n| Element | Spanisch | Bedeutung |\n|---|---|---|\n| Subjekt | *El Gobierno* | die Regierung |\n| Verb | *aprueba* | genehmigt / beschließt (Präsens!) |\n| Objekt | *nuevas medidas* | neue Maßnahmen |\n| Zweck | *para combatir* | um zu bekämpfen |\n| Ziel | *la desinformación en las redes sociales* | die Desinformation in den sozialen Medien |\n\n### Besonderheiten spanischer Schlagzeilen\n\n- Das **Präsens** wird statt Vergangenheit verwendet (Histor. Präsens → mehr Unmittelbarkeit)\n- Infinitivkonstruktionen (*para combatir*) ersetzen Nebensätze\n- Substantivierungen und Komposita sind seltener als im Deutschen\n\n> **Tipp:** Wenn du einen Titular nicht sofort verstehst, such nach **Subjekt + Verb**. Der Rest ist meistens eine Erweiterung davon."
+    },
+    {
+      "id": "theory-meinung-und-kritik",
+      "type": "theory",
+      "title": "Meinung äußern und Quellen kritisch einordnen",
+      "body": "## Über Nachrichten sprechen\n\nAuf B1 kannst du nicht nur berichten, sondern auch kommentieren und hinterfragen. Kombiniere die Wendungen aus Lektion 09 mit medienspezifischem Vokabular:\n\n### Berichten ohne eigene Garantie\n\n| Wendung | Bedeutung | Beispiel |\n|---|---|---|\n| **según este artículo,** | laut diesem Artikel | *Según este artículo, los precios subirán.* |\n| **parece que** | es scheint, dass | *Parece que la situación es grave.* |\n| **se dice que** | man sagt, dass | *Se dice que habrá elecciones pronto.* |\n\n### Eigene Meinung äußern (Lektion 09)\n\n| Wendung | Bedeutung |\n|---|---|\n| **en mi opinión,** | meiner Meinung nach |\n| **creo que / pienso que** | ich glaube / denke, dass (+ Indikativ) |\n| **no creo que** | ich glaube nicht, dass (+ Subjuntivo!) |\n| **me parece importante que** | ich finde es wichtig, dass (+ Subjuntivo) |\n\n### Quellen kritisch einordnen\n\n| Wendung | Bedeutung |\n|---|---|\n| **verificar la fuente** | die Quelle überprüfen |\n| **contrastar la información** | die Information gegenchecken |\n| **una fuente fiable / dudosa** | eine zuverlässige / zweifelhafte Quelle |\n\n### Konnektoren (Lektion 08) im Medienkontext\n\n- **sin embargo** (jedoch): *La noticia parece real; sin embargo, la fuente es dudosa.*\n- **además** (außerdem): *Además, no hay ninguna foto oficial.*\n- **por lo tanto** (deshalb): *Por lo tanto, no deberías compartirla.*\n\n> **Register-Hinweis:** *Según* + Quelle klingt journalistisch und neutral — ideal für schriftliche Zusammenfassungen. Im mündlichen Register sagt man eher *dicen que…* oder *he leído que…* (ich habe gelesen, dass…)."
+    },
+    {
+      "id": "ex-match-medien-wortschatz",
+      "type": "exercise",
+      "title": "Medienbegriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-medien-wortschatz",
+        "type": "matching",
+        "prompt": "Ordne jedem spanischen Begriff die deutsche Entsprechung zu.",
+        "card_ids": ["un-titular", "la-prensa", "un-reportaje", "la-actualidad", "las-redes-sociales"],
+        "pairs": [
+          { "left": "un titular", "right": "eine Schlagzeile" },
+          { "left": "la prensa", "right": "die Presse" },
+          { "left": "un reportaje", "right": "eine Reportage" },
+          { "left": "la actualidad", "right": "das aktuelle Geschehen" },
+          { "left": "las redes sociales", "right": "die sozialen Medien" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-segun-articulo",
+      "type": "exercise",
+      "title": "Berichten mit 'según'",
+      "exercise": {
+        "id": "ex-cloze-segun-articulo",
+        "type": "cloze",
+        "prompt": "Ergänze die passende Wendung. Auf Deutsch: 'Laut diesem Artikel steigen die Preise.'",
+        "card_ids": ["segun-parece-que", "un-articulo"],
+        "sentence": "___ este artículo, los precios están subiendo.",
+        "blanks": [
+          { "accept": ["Según", "según"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "'Laut' + Quelle = *según* + Quelle (kein *que* danach!).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-fuente-dudosa",
+      "type": "exercise",
+      "title": "Eine zweifelhafte Quelle beschreiben",
+      "exercise": {
+        "id": "ex-free-fuente-dudosa",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Ich glaube nicht, dass diese Quelle zuverlässig ist.'",
+        "card_ids": ["una-fuente", "verificar-contrastar"],
+        "accept": [
+          "No creo que esta fuente sea fiable.",
+          "no creo que esta fuente sea fiable",
+          "No creo que sea una fuente fiable.",
+          "No pienso que esta fuente sea fiable.",
+          "No me parece que esta fuente sea fiable.",
+          "Dudo que esta fuente sea fiable."
+        ],
+        "hint": "Verneintes *creer que* → Subjuntivo: *no creo que* + *sea* (ser, 3. Pers. Sing. Subjuntivo).",
+        "distractors": [
+          "No creo que esta fuente es fiable.",
+          "No creo que esta fuente estar fiable.",
+          "No creo que esta fuente son fiables."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-verificar-fuente",
+      "type": "exercise",
+      "title": "Einen Ratschlag zur Mediennutzung formulieren",
+      "exercise": {
+        "id": "ex-tiles-verificar-fuente",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: 'Man muss die Quelle überprüfen, bevor man die Nachricht teilt.'",
+        "card_ids": ["verificar-contrastar", "una-fuente", "una-noticia"],
+        "tiles": ["Hay", "que", "verificar", "la", "fuente", "antes", "de", "compartir", "la", "noticia"],
+        "hint": "*hay que* + Infinitiv = man muss; *antes de* + Infinitiv = bevor man…",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-bulo",
+      "type": "exercise",
+      "title": "Was ist ein 'bulo'?",
+      "exercise": {
+        "id": "ex-pic-bulo",
+        "type": "picture_choice",
+        "prompt": "Welches Bild illustriert am besten den Begriff *un bulo*?",
+        "card_ids": ["la-desinformacion"],
+        "images": [
+          { "src": "assets/img/fake-news.png", "label": "una noticia falsa / un bulo", "is_correct": "true" },
+          { "src": "assets/img/newspaper.png", "label": "un periódico fiable" },
+          { "src": "assets/img/journalist.png", "label": "un periodista" },
+          { "src": "assets/img/tv-channel.png", "label": "un canal de televisión" }
+        ],
+        "hint": "*un bulo* = eine Falschmeldung, ein Hoax — also etwas Unwahres, das sich verbreitet.",
+        "distractors": [
+          "un periódico fiable",
+          "un periodista",
+          "un canal de televisión"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-fuentes",
+      "type": "exercise",
+      "title": "Quellen einordnen",
+      "exercise": {
+        "id": "ex-match-fuentes",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die passende Beschreibung zu.",
+        "card_ids": ["una-fuente", "la-desinformacion", "verificar-contrastar"],
+        "pairs": [
+          { "left": "una fuente fiable", "right": "eine zuverlässige Quelle" },
+          { "left": "un bulo", "right": "eine Falschmeldung" },
+          { "left": "verificar la fuente", "right": "die Quelle überprüfen" },
+          { "left": "contrastar la información", "right": "die Information gegenchecken" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-en-mi-opinion",
+      "type": "exercise",
+      "title": "Eigene Meinung zu einer Nachricht äußern",
+      "exercise": {
+        "id": "ex-free-en-mi-opinion",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Meiner Meinung nach ist es wichtig, dass wir die Nachrichten aus verschiedenen Quellen lesen.'",
+        "card_ids": ["segun-parece-que", "una-fuente", "una-noticia"],
+        "accept": [
+          "En mi opinión, es importante que leamos las noticias de varias fuentes.",
+          "en mi opinión, es importante que leamos las noticias de varias fuentes",
+          "En mi opinión, es importante que leamos las noticias de diferentes fuentes.",
+          "Creo que es importante que leamos las noticias de varias fuentes.",
+          "Me parece importante que leamos las noticias de distintas fuentes.",
+          "Pienso que es importante leer las noticias de varias fuentes."
+        ],
+        "hint": "*en mi opinión* + Komma; *es importante que* löst den Subjuntivo aus: *que leamos* (nosotros, leer).",
+        "distractors": [
+          "En mi opinión, es importante que leemos las noticias de varias fuentes.",
+          "En mi opinión, es importante que leer las noticias de varias fuentes.",
+          "En mi opinión, es importante que leen las noticias de varias fuentes."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-parece-que",
+      "type": "exercise",
+      "title": "Mit 'parece que' berichten",
+      "exercise": {
+        "id": "ex-cloze-parece-que",
+        "type": "cloze",
+        "prompt": "Ergänze: 'Es scheint, dass die Situation ernst ist.' — Nutze *parece que* + Indikativ.",
+        "card_ids": ["segun-parece-que"],
+        "sentence": "Parece que la situación ___ grave.",
+        "blanks": [
+          { "accept": ["es", "está"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*parece que* + Indikativ (Tatsachenaussage): *es* (ser) oder *está* (estar) sind beide möglich.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-se-dice-que",
+      "type": "exercise",
+      "title": "'Man sagt, dass…' formulieren",
+      "exercise": {
+        "id": "ex-tiles-se-dice-que",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: 'Man sagt, dass es bald Wahlen geben wird.'",
+        "card_ids": ["segun-parece-que", "la-actualidad"],
+        "tiles": ["Se", "dice", "que", "habrá", "elecciones", "pronto"],
+        "hint": "*se dice que* + Indikativ Futur (*habrá* = es wird geben); *elecciones* = Wahlen.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-contrastar",
+      "type": "exercise",
+      "title": "Einen Ratschlag zum Medienkonsum geben",
+      "exercise": {
+        "id": "ex-free-contrastar",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Bevor du eine Nachricht teilst, solltest du die Information aus mehreren Quellen gegenchecken.'",
+        "card_ids": ["verificar-contrastar", "una-fuente", "una-noticia"],
+        "accept": [
+          "Antes de compartir una noticia, deberías contrastar la información con varias fuentes.",
+          "antes de compartir una noticia, deberías contrastar la información con varias fuentes",
+          "Antes de compartir una noticia, debes contrastar la información con otras fuentes.",
+          "Antes de compartir la noticia, deberías verificar la información en varias fuentes.",
+          "Antes de compartir una noticia, es mejor contrastar la información con diversas fuentes."
+        ],
+        "hint": "*antes de* + Infinitiv (*compartir*); *deberías* = du solltest (Konditional); *contrastar con* = gegenchecken mit.",
+        "distractors": [
+          "Antes de compartir una noticia, deberías contrastar la información de una sola fuente.",
+          "Antes de compartir una noticia, deberías compartir la información con varias fuentes.",
+          "Antes compartir una noticia, deberías contrastar la información."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-bulo-redes",
+      "type": "exercise",
+      "title": "Falschmeldungen in sozialen Medien",
+      "exercise": {
+        "id": "ex-cloze-bulo-redes",
+        "type": "cloze",
+        "prompt": "Ergänze das passende Wort: 'In den sozialen Medien verbreiten sich Falschmeldungen sehr schnell.'",
+        "card_ids": ["la-desinformacion", "las-redes-sociales"],
+        "sentence": "En las redes sociales, los ___ se difunden muy rápidamente.",
+        "blanks": [
+          { "accept": ["bulos"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Plural von *un bulo* = *los bulos* (Falschmeldungen).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-periodista",
+      "type": "exercise",
+      "title": "Über einen Journalisten sprechen",
+      "exercise": {
+        "id": "ex-free-periodista",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Die Journalistin hat einen sehr gut recherchierten Artikel über die Desinformation geschrieben.'",
+        "card_ids": ["un-periodista", "un-articulo", "la-desinformacion"],
+        "accept": [
+          "La periodista ha escrito un artículo muy bien documentado sobre la desinformación.",
+          "la periodista ha escrito un artículo muy bien documentado sobre la desinformación",
+          "La periodista escribió un artículo muy bien investigado sobre la desinformación.",
+          "La periodista ha escrito un artículo muy documentado sobre la desinformación.",
+          "La periodista redactó un artículo muy bien investigado sobre la desinformación."
+        ],
+        "hint": "*la periodista* (weiblich, Artikel ändert sich); *documentado/investigado* = recherchiert; *redactar* = verfassen.",
+        "distractors": [
+          "La periodista ha escrito una noticia muy bien documentada sobre la desinformación.",
+          "La periodista ha escrito un artículo muy bien documentado sobre los bulos.",
+          "El periodista ha escrito un artículo muy bien documentado sobre la desinformación."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-meinungswendungen",
+      "type": "exercise",
+      "title": "Meinungswendungen im Medienkontext",
+      "exercise": {
+        "id": "ex-match-meinungswendungen",
+        "type": "matching",
+        "prompt": "Ordne jede spanische Wendung ihrer deutschen Entsprechung zu.",
+        "card_ids": ["segun-parece-que", "verificar-contrastar"],
+        "pairs": [
+          { "left": "según este artículo", "right": "laut diesem Artikel" },
+          { "left": "parece que", "right": "es scheint, dass" },
+          { "left": "se dice que", "right": "man sagt, dass" },
+          { "left": "en mi opinión", "right": "meiner Meinung nach" }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

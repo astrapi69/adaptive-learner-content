@@ -1,0 +1,419 @@
+{
+  "id": "06-estilo-indirecto",
+  "title": "El estilo indirecto (indirekte Rede)",
+  "description": "Direkte Rede wird mit *que* in die indirekte Rede umgeformt. Kern: Zeitenverschiebung bei vergangenem Einleitesatz — *dijo que…*. Verbindung zu Lektion 03 (Condicional) und Lektion 04 (Pluscuamperfecto). Indirekte Fragen mit *si*, *qué*, *dónde* usw. Verschiebung von Pronomen, Possessiva und Zeit-/Ortsangaben. Auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "estilo-konzept",
+      "front": "Dice que tiene hambre. / Dijo que tenía hambre.",
+      "back": "indirekte Rede mit que (Präsens vs. Vergangenheit)",
+      "notes": "Direkte Rede wird durch **estilo indirecto** ersetzt. Einleiteverb im Präsens → **kein Tempuswechsel** (*dice que tiene…*). Einleiteverb in der Vergangenheit → **Zeitenverschiebung** (*dijo que tenía…*).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "estilo-indirecto", "zeitenverschiebung"]
+    },
+    {
+      "id": "zeitenverschiebung-tabelle",
+      "front": "presente → imperfecto (dijo que…)",
+      "back": "Zeitenverschiebung: Präsens → Imperfekt",
+      "notes": "Wenn der Einleitesatz in der **Vergangenheit** steht (*dijo, comentó, explicó, contó…*), verschieben sich die Tempora:\n\n| Direkte Rede | Indirekte Rede (dijo que…) |\n|---|---|\n| presente (*habla*) | imperfecto (*hablaba*) |\n| pretérito perfecto (*ha hablado*) | pluscuamperfecto (*había hablado*) |\n| pretérito indefinido (*habló*) | pluscuamperfecto (*había hablado*) |\n| futuro (*hablará*) | condicional (*hablaría*) |\n| imperfecto (*hablaba*) | imperfecto (*hablaba*) — kein Wechsel |\n\nVerbindung: pluscuamperfecto → Lektion 04; condicional → Lektion 03.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Merkreihe: pres→imp, perf/indef→pluscuamp, fut→cond.",
+      "tags": ["grammatik", "estilo-indirecto", "zeitenverschiebung", "konkordanz"]
+    },
+    {
+      "id": "indirekte-frage-si",
+      "front": "¿Tienes dinero? → Preguntó si tenía dinero.",
+      "back": "indirekte Ja/Nein-Frage mit si",
+      "notes": "Ja/Nein-Fragen werden mit **si** (= ob) eingeleitet — **kein** *que* und **kein** Fragezeichen: *Preguntó **si** tenía dinero.* Das Tempus verschiebt sich wie bei Aussagesätzen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "estilo-indirecto", "indirekte-frage", "si"]
+    },
+    {
+      "id": "indirekte-frage-qué-donde",
+      "front": "¿Dónde vives? → Me preguntó dónde vivía.",
+      "back": "indirekte W-Frage mit qué/dónde/cuándo…",
+      "notes": "Ergänzungsfragen behalten ihr **Fragewort** (mit Akzent!): *qué, dónde, cuándo, cómo, quién, cuánto*. Das Fragewort übernimmt die Einleiterolle — **kein** zusätzliches *que*: *Me preguntó **dónde** vivía.* Das Tempus verschiebt sich normal.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Fragewort mit Akzent bleibt, kein que dazwischen.",
+      "tags": ["grammatik", "estilo-indirecto", "indirekte-frage", "w-frage"]
+    },
+    {
+      "id": "imperativ-indirekt",
+      "front": "«¡Ven aquí!» → Me dijo que viniera.",
+      "back": "Imperativ → que + imperfecto de subjuntivo",
+      "notes": "Ein **Befehl** in direkter Rede wird in der indirekten Rede mit **que + imperfecto de subjuntivo** wiedergegeben: *«¡Cállate!»* → *Me dijo que **me callara**.* Auf B1-Niveau reicht es, die Formen *viniera, callara, fuera, hiciera* zu erkennen.",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "Imperativ indirekt = que + imperfecto de subjuntivo (vereinfacht).",
+      "tags": ["grammatik", "estilo-indirecto", "imperativ", "subjuntivo-imperfecto"]
+    },
+    {
+      "id": "pronomen-verschiebung",
+      "front": "«Yo lo hice.» → Dijo que él lo había hecho.",
+      "back": "Verschiebung von Pronomen und Possessiva",
+      "notes": "Bei der Umformung wechseln **Personalpronomen und Possessiva** je nach Perspektive: *yo → él/ella*, *mi → su*, *nuestro → su* usw. Das ist Kontextarbeit — es gibt keine starre Regel, sondern immer die Frage: Wer spricht jetzt über wen?",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "estilo-indirecto", "pronomen"]
+    },
+    {
+      "id": "zeitangaben-verschiebung",
+      "front": "hoy → aquel día / mañana → al día siguiente",
+      "back": "Zeit- und Ortsangaben in der indirekten Rede",
+      "notes": "Zeit- und Ortsangaben verschieben sich mit der Perspektive:\n\n| Direkte Rede | Indirekte Rede |\n|---|---|\n| hoy | aquel día |\n| ayer | el día anterior |\n| mañana | al día siguiente |\n| ahora | entonces / en ese momento |\n| aquí | allí |\n| este/esta | aquel/aquella |\n| la semana que viene | la semana siguiente |",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "estilo-indirecto", "zeitangaben", "ortsangaben"]
+    },
+    {
+      "id": "einleiteverben",
+      "front": "decir, comentar, explicar, preguntar, contar",
+      "back": "Einleiteverben der indirekten Rede",
+      "notes": "Die häufigsten Einleiteverben: **decir** (sagen), **comentar** (kommentieren, erwähnen), **explicar** (erklären), **preguntar** (fragen), **contar** (erzählen). Alle lösen im Vergangenheitskontext die Zeitenverschiebung aus.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vokabular", "estilo-indirecto", "einleiteverben"]
+    },
+    {
+      "id": "dice-que-praesens",
+      "front": "Dice que está cansado.",
+      "back": "Er sagt, dass er müde ist.",
+      "notes": "Einleitesatz im **Präsens** (*dice*) → **kein Tempuswechsel**: *estar* bleibt im Präsens (*está*). Dies gilt für alle Einleiteverben im Präsens.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["estilo-indirecto", "praesens", "kein-wechsel"]
+    },
+    {
+      "id": "dijo-que-tenia",
+      "front": "«Estoy cansado.» → Dijo que estaba cansado.",
+      "back": "Er sagte, dass er müde sei/war. (presente → imperfecto)",
+      "notes": "Einleitesatz **dijo** (pretérito indefinido) → Zeitenverschiebung: *estar* Präsens (*estoy*) wird zu **imperfecto** (*estaba*). Dies ist die häufigste und wichtigste Verschiebung.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "dijo que + imperfecto ist die Basisregel.",
+      "tags": ["estilo-indirecto", "zeitenverschiebung", "imperfecto"]
+    },
+    {
+      "id": "dijo-que-habia",
+      "front": "«Llegué tarde.» → Dijo que había llegado tarde.",
+      "back": "Er sagte, er sei spät angekommen. (indef. → pluscuamp.)",
+      "notes": "Pretérito indefinido (*llegué*) wird zu **pluscuamperfecto** (*había llegado*) — Verbindung zu Lektion 04. *«He llegado tarde.»* (pretérito perfecto) verschiebt sich ebenfalls zu *había llegado*.",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "Verbindung Lektion 04: indef./perf. → pluscuamperfecto.",
+      "tags": ["estilo-indirecto", "zeitenverschiebung", "pluscuamperfecto"]
+    },
+    {
+      "id": "dijo-que-haria",
+      "front": "«Lo haré mañana.» → Dijo que lo haría al día siguiente.",
+      "back": "Er sagte, er werde es am nächsten Tag machen. (futuro → cond.)",
+      "notes": "Futuro (*haré*) wird zu **condicional** (*haría*) — Verbindung zu Lektion 03. Außerdem: *mañana* → *al día siguiente* (Zeitangabenverschiebung).",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "Verbindung Lektion 03: futuro → condicional.",
+      "tags": ["estilo-indirecto", "zeitenverschiebung", "condicional", "futuro"]
+    },
+    {
+      "id": "pregunto-si",
+      "front": "«¿Hablas alemán?» → Me preguntó si hablaba alemán.",
+      "back": "Er fragte mich, ob ich Deutsch spreche.",
+      "notes": "Ja/Nein-Fragen: Einleitung mit **si** (ob), Verb ins Imperfekt. **Kein** *qué* und kein Fragezeichen. *Me preguntó **si** hablaba alemán.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["estilo-indirecto", "indirekte-frage", "si"]
+    },
+    {
+      "id": "pregunto-donde",
+      "front": "«¿Dónde trabajas?» → Me preguntó dónde trabajaba.",
+      "back": "Er fragte mich, wo ich arbeite.",
+      "notes": "W-Fragen: Fragewort **dónde** (mit Akzent) bleibt, kein zusätzliches *que*, Verb ins Imperfekt: *Me preguntó **dónde** trabajaba.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["estilo-indirecto", "indirekte-frage", "w-frage"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-estilo",
+      "type": "theory",
+      "title": "Direkte Rede → indirekte Rede mit que",
+      "body": "# El estilo indirecto — indirekte Rede\n\nDirekte Rede gibt Worte in Anführungszeichen wieder: *«Tengo hambre.»*\nIndirekte Rede überträgt diese Worte in einen Nebensatz mit **que**:\n\n> *Dice que tiene hambre.* — Er sagt, dass er Hunger hat.\n\n## Einleitesatz im Präsens → kein Tempuswechsel\n\nWenn das Einleiteverb im **Präsens** steht, ändert sich das Tempus im Nebensatz **nicht**:\n\n| Direkte Rede | Indirekte Rede (dice que…) |\n|---|---|\n| «Estoy cansado.» | Dice que **está** cansado. |\n| «Vivo en Berlín.» | Dice que **vive** en Berlín. |\n\n## Einleitesatz in der Vergangenheit → Zeitenverschiebung\n\nWenn das Einleiteverb in der **Vergangenheit** steht (*dijo, comentó, explicó, contó…*), verschieben sich die Tempora:\n\n| Direkte Rede | Indirekte Rede (dijo que…) |\n|---|---|\n| presente (*habla*) | **imperfecto** (*hablaba*) |\n| pretérito indefinido (*habló*) | **pluscuamperfecto** (*había hablado*) |\n| pretérito perfecto (*ha hablado*) | **pluscuamperfecto** (*había hablado*) |\n| futuro (*hablará*) | **condicional** (*hablaría*) |\n| imperfecto (*hablaba*) | imperfecto (*hablaba*) — **kein Wechsel** |\n\n> Erinnerung: Das **pluscuamperfecto** kennst du aus Lektion 04, das **condicional** aus Lektion 03."
+    },
+    {
+      "id": "intro-fragen",
+      "type": "theory",
+      "title": "Indirekte Fragen: si und W-Wörter",
+      "body": "## Indirekte Fragen\n\nBei indirekten Fragen fällt das Fragezeichen weg und die Wortstellung wird normal (Verb nach Subjekt).\n\n### Ja/Nein-Fragen → si (= ob)\n\n| Direkte Frage | Indirekte Frage |\n|---|---|\n| «¿Tienes coche?» | Preguntó **si** tenía coche. |\n| «¿Vienes mañana?» | Me preguntó **si** vendría al día siguiente. |\n\n**Achtung:** Hier steht **si** (ob), **nicht** *que*. Kein Fragezeichen.\n\n### W-Fragen → Fragewort mit Akzent\n\n| Direkte Frage | Indirekte Frage |\n|---|---|\n| «¿Dónde vives?» | Me preguntó **dónde** vivía. |\n| «¿Qué estudias?» | Quiso saber **qué** estudiaba. |\n| «¿Cuándo llegas?» | Preguntó **cuándo** llegaba. |\n\nDas Fragewort (mit Akzent!) übernimmt die Einleiterolle — **kein** zusätzliches *que* davor.\n\n## Imperativ → que + imperfecto de subjuntivo (kurz)\n\nBefehle werden in der Vergangenheit mit **que + imperfecto de subjuntivo** wiedergegeben:\n\n- *«¡Ven aquí!»* → *Me dijo que **viniera**.* (kommen)\n- *«¡Cállate!»* → *Me dijo que me **callara**.* (schweigen)"
+    },
+    {
+      "id": "intro-angaben",
+      "type": "theory",
+      "title": "Pronomen, Possessiva und Zeit-/Ortsangaben",
+      "body": "## Was sich noch verändert\n\n### Pronomen und Possessiva\n\nBeim Wechsel der Perspektive verschieben sich auch Personalpronomen und Possessiva:\n\n| Direkte Rede | Indirekte Rede |\n|---|---|\n| *yo* | *él/ella* |\n| *mi/mis* | *su/sus* |\n| *me* (Reflexiv) | *se* |\n\n*«Yo lo hice con mis amigos.»* → *Dijo que **él** lo había hecho con **sus** amigos.*\n\n### Zeit- und Ortsangaben\n\nAuch Orts- und Zeitangaben passen sich an:\n\n| Direkte Rede | Indirekte Rede |\n|---|---|\n| **hoy** | aquel día |\n| **ayer** | el día anterior |\n| **mañana** | al día siguiente |\n| **ahora** | entonces / en ese momento |\n| **aquí** | allí |\n| **este/esta** | aquel/aquella |\n| **la semana que viene** | la semana siguiente |\n\n> Merktipp: Die Verschiebungen folgen alle demselben Prinzip — Abstand zur ursprünglichen Sprechsituation. *Mañana* war damals die Zukunft; im Bericht von gestern wird es *al día siguiente*."
+    },
+    {
+      "id": "ex-cloze-dijo-estaba",
+      "type": "exercise",
+      "title": "Zeitenverschiebung: presente → imperfecto",
+      "exercise": {
+        "id": "ex-cloze-dijo-estaba",
+        "type": "cloze",
+        "prompt": "Forme die direkte Rede in indirekte Rede um. Setze *estar* in der richtigen Form ein.",
+        "card_ids": ["dijo-que-tenia", "zeitenverschiebung-tabelle"],
+        "sentence": "«Estoy cansado.» → Él dijo que ___ cansado.",
+        "blanks": [
+          { "accept": ["estaba"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "dijo que → Zeitenverschiebung: presente (*estoy*) → imperfecto (*estaba*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-dijo-haria",
+      "type": "exercise",
+      "title": "Zeitenverschiebung: futuro → condicional",
+      "exercise": {
+        "id": "ex-cloze-dijo-haria",
+        "type": "cloze",
+        "prompt": "Setze *hacer* in der korrekten Form ein (Verbindung: Lektion 03 — Condicional).",
+        "card_ids": ["dijo-que-haria", "zeitenverschiebung-tabelle"],
+        "sentence": "«Lo haré mañana.» → Dijo que lo ___ al día siguiente.",
+        "blanks": [
+          { "accept": ["haría"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "futuro (*haré*) → condicional (*haría*). Und: mañana → al día siguiente.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-tempora",
+      "type": "exercise",
+      "title": "Tempuswechsel zuordnen",
+      "exercise": {
+        "id": "ex-match-tempora",
+        "type": "matching",
+        "prompt": "Ordne jedem direkten Tempus (linke Spalte) das entsprechende indirekte Tempus nach *dijo que…* zu.",
+        "card_ids": ["zeitenverschiebung-tabelle", "dijo-que-tenia", "dijo-que-habia", "dijo-que-haria"],
+        "pairs": [
+          { "left": "presente → dijo que…", "right": "imperfecto" },
+          { "left": "pretérito indefinido → dijo que…", "right": "pluscuamperfecto" },
+          { "left": "futuro → dijo que…", "right": "condicional" },
+          { "left": "pretérito perfecto → dijo que…", "right": "pluscuamperfecto" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-dijo-tenia",
+      "type": "exercise",
+      "title": "Indirekte Rede: presente → imperfecto",
+      "exercise": {
+        "id": "ex-free-dijo-tenia",
+        "type": "free_text",
+        "prompt": "Übersetze ins Spanische (indirekte Rede): *Sie sagte, dass sie Hunger hatte.*\n(Direkte Rede war: «Tengo hambre.»)",
+        "card_ids": ["dijo-que-tenia", "zeitenverschiebung-tabelle", "estilo-konzept"],
+        "accept": [
+          "Dijo que tenía hambre.",
+          "dijo que tenía hambre",
+          "Ella dijo que tenía hambre.",
+          "ella dijo que tenía hambre",
+          "Comentó que tenía hambre."
+        ],
+        "hint": "presente *tengo* → imperfecto *tenía* nach *dijo que*.",
+        "distractors": [
+          "Dijo que tiene hambre.",
+          "Dijo que tendrá hambre.",
+          "Dijo que ha tenido hambre."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-pregunto-si",
+      "type": "exercise",
+      "title": "Indirekte Ja/Nein-Frage mit si",
+      "exercise": {
+        "id": "ex-free-pregunto-si",
+        "type": "free_text",
+        "prompt": "Übersetze (indirekte Frage): *Er fragte mich, ob ich Deutsch spreche.*\n(Direkte Frage war: «¿Hablas alemán?»)",
+        "card_ids": ["indirekte-frage-si", "pregunto-si"],
+        "accept": [
+          "Me preguntó si hablaba alemán.",
+          "me preguntó si hablaba alemán",
+          "Él me preguntó si hablaba alemán.",
+          "Me preguntó si hablo alemán.",
+          "Quiso saber si hablaba alemán."
+        ],
+        "hint": "Ja/Nein-Frage → si (ob), kein que. Zeitenverschiebung: *hablas* → *hablaba*.",
+        "distractors": [
+          "Me preguntó qué hablaba alemán.",
+          "Me preguntó que si hablaba alemán.",
+          "Me preguntó que hablaba alemán."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-habia-llegado",
+      "type": "exercise",
+      "title": "Indefinido → Pluscuamperfecto",
+      "exercise": {
+        "id": "ex-free-habia-llegado",
+        "type": "free_text",
+        "prompt": "Übersetze (indirekte Rede): *Sie erklärte, dass der Zug zu spät angekommen war.*\n(Direkte Rede: «El tren llegó tarde.»)",
+        "card_ids": ["dijo-que-habia", "zeitenverschiebung-tabelle"],
+        "accept": [
+          "Explicó que el tren había llegado tarde.",
+          "explicó que el tren había llegado tarde",
+          "Dijo que el tren había llegado tarde.",
+          "Contó que el tren había llegado tarde.",
+          "Comentó que el tren había llegado tarde."
+        ],
+        "hint": "pretérito indefinido (*llegó*) → pluscuamperfecto (*había llegado*). Verbindung Lektion 04.",
+        "distractors": [
+          "Explicó que el tren llegó tarde.",
+          "Explicó que el tren llegaba tarde.",
+          "Explicó que el tren habrá llegado tarde."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-pregunto-donde",
+      "type": "exercise",
+      "title": "W-Frage in indirekter Rede",
+      "exercise": {
+        "id": "ex-tiles-pregunto-donde",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zur korrekten indirekten Frage: *Er fragte mich, wo ich arbeite.*\n(Direkte Frage: «¿Dónde trabajas?»)",
+        "card_ids": ["indirekte-frage-qué-donde", "pregunto-donde"],
+        "tiles": ["Me", "preguntó", "dónde", "trabajaba"],
+        "hint": "W-Frage → Fragewort *dónde* bleibt (mit Akzent), kein que. Verb: Zeitenverschiebung → imperfecto.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-dijo-haria",
+      "type": "exercise",
+      "title": "Futuro → Condicional in indirekter Rede",
+      "exercise": {
+        "id": "ex-tiles-dijo-haria",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Er sagte, er würde es am nächsten Tag kaufen.*\n(Direkte Rede: «Lo compraré mañana.»)",
+        "card_ids": ["dijo-que-haria", "zeitangaben-verschiebung"],
+        "tiles": ["Dijo", "que", "lo", "compraría", "al", "día", "siguiente"],
+        "hint": "futuro (*compraré*) → condicional (*compraría*); mañana → al día siguiente.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-dice-praesens",
+      "type": "exercise",
+      "title": "Kein Tempuswechsel bei Präsens-Einleiter",
+      "exercise": {
+        "id": "ex-cloze-dice-praesens",
+        "type": "cloze",
+        "prompt": "Einleiteverb im Präsens → kein Tempuswechsel. Setze *trabajar* in der richtigen Form ein.",
+        "card_ids": ["dice-que-praesens", "estilo-konzept"],
+        "sentence": "Ana dice que ___ en Madrid.",
+        "blanks": [
+          { "accept": ["trabaja"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*dice que* → kein Wechsel, also Präsens bleibt: *trabaja*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-zeitangaben",
+      "type": "exercise",
+      "title": "Zeit- und Ortsangaben zuordnen",
+      "exercise": {
+        "id": "ex-match-zeitangaben",
+        "type": "matching",
+        "prompt": "Ordne jeder Angabe aus der direkten Rede die entsprechende Form in der indirekten Rede zu.",
+        "card_ids": ["zeitangaben-verschiebung"],
+        "pairs": [
+          { "left": "hoy (direkte Rede)", "right": "aquel día" },
+          { "left": "mañana (direkte Rede)", "right": "al día siguiente" },
+          { "left": "aquí (direkte Rede)", "right": "allí" },
+          { "left": "ayer (direkte Rede)", "right": "el día anterior" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-si-vs-que",
+      "type": "exercise",
+      "title": "si oder que? Die richtige Einleitung wählen",
+      "exercise": {
+        "id": "ex-pic-si-vs-que",
+        "type": "picture_choice",
+        "prompt": "Die direkte Frage lautet: «¿Tienes hambre?» Welche indirekte Wiedergabe ist korrekt?",
+        "card_ids": ["indirekte-frage-si", "pregunto-si"],
+        "images": [
+          { "src": "assets/img/indirecto-1.png", "label": "Preguntó si tenía hambre.", "is_correct": "true" },
+          { "src": "assets/img/indirecto-2.png", "label": "Preguntó qué tenía hambre." },
+          { "src": "assets/img/indirecto-3.png", "label": "Preguntó que tenía hambre." },
+          { "src": "assets/img/indirecto-4.png", "label": "Preguntó si que tenía hambre." }
+        ],
+        "hint": "Ja/Nein-Frage → *si* (ob). Kein *qué*, kein doppeltes *si que*.",
+        "distractors": [
+          "Preguntó qué tenía hambre.",
+          "Preguntó que tenía hambre.",
+          "Preguntó si que tenía hambre."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-condicional-viviria",
+      "type": "exercise",
+      "title": "Futuro → Condicional (freie Übersetzung)",
+      "exercise": {
+        "id": "ex-free-condicional-viviria",
+        "type": "free_text",
+        "prompt": "Übersetze (indirekte Rede, Verbindung Lektion 03): *Er sagte, er würde in Barcelona wohnen.*\n(Direkte Rede: «Viviré en Barcelona.»)",
+        "card_ids": ["dijo-que-haria", "zeitenverschiebung-tabelle"],
+        "accept": [
+          "Dijo que viviría en Barcelona.",
+          "dijo que viviría en Barcelona",
+          "Él dijo que viviría en Barcelona.",
+          "Comentó que viviría en Barcelona.",
+          "Contó que viviría en Barcelona."
+        ],
+        "hint": "futuro *viviré* → condicional *viviría* (Verbindung Lektion 03: Condicional).",
+        "distractors": [
+          "Dijo que vivirá en Barcelona.",
+          "Dijo que vivía en Barcelona.",
+          "Dijo que ha vivido en Barcelona."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-imperativ",
+      "type": "exercise",
+      "title": "Imperativ in indirekter Rede",
+      "exercise": {
+        "id": "ex-tiles-imperativ",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: Direkte Rede «¡Ven aquí!» → Indirekte Rede: *Er sagte mir, ich solle kommen.*",
+        "card_ids": ["imperativ-indirekt"],
+        "tiles": ["Me", "dijo", "que", "viniera"],
+        "hint": "Imperativ → que + imperfecto de subjuntivo: *viniera* (venir).",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

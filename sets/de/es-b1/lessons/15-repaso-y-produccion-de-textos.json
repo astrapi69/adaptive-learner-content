@@ -1,0 +1,432 @@
+{
+  "id": "15-repaso-y-produccion-de-textos",
+  "title": "Wiederholung und Textproduktion",
+  "description": "Abschlusslektion des B1-Kurses: Gemischte Wiederholung aller Grammatikstrukturen (Subjuntivo, Konditional, Plusquamperfekto, Passiv, estilo indirecto, Pronomen, Konnektoren) und Einführung in die Textproduktion — formelle carta/E-Mail, resumen und argumentativer Absatz. Auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 18,
+  "cards": [
+    {
+      "id": "carta-anrede",
+      "front": "Estimado/a señor/a García:",
+      "back": "Formelle Anrede im Brief/E-Mail",
+      "notes": "Standardanrede in der formellen spanischen Korrespondenz. Bei unbekanntem Empfänger: **Estimado/a señor/a:** (ohne Namen). Bei bekanntem Namen: **Estimado señor García:** oder **Estimada señora Martínez:**. Nach der Anrede steht ein **Doppelpunkt**, kein Komma.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["textproduktion", "carta-formal", "anrede"]
+    },
+    {
+      "id": "carta-einstieg",
+      "front": "Le escribo para … / Me dirijo a usted para …",
+      "back": "Höflicher Briefeinstieg: Ich schreibe Ihnen, um … / Ich wende mich an Sie, um …",
+      "notes": "Typische Eröffnungsformeln der formellen carta:\n- **Le escribo para informarle de que …** (Ich schreibe Ihnen, um Sie darüber zu informieren, dass …)\n- **Me dirijo a usted para solicitar …** (Ich wende mich an Sie, um … zu beantragen)\n- **En respuesta a su anuncio, …** (In Antwort auf Ihre Anzeige …)\n\nDas **usted**-Register ist Pflicht; niemals *te* oder *tú* in formellen Texten.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["textproduktion", "carta-formal", "einstieg"]
+    },
+    {
+      "id": "carta-schlussformel",
+      "front": "Quedo a la espera de su respuesta. Atentamente,",
+      "back": "Formelle Schlussformel: Ich verbleibe in Erwartung Ihrer Antwort. Mit freundlichen Grüßen,",
+      "notes": "Standardschluss der formellen carta. Weitere Möglichkeiten:\n- **En espera de sus noticias, le saluda atentamente,** (etwas umständlicher, aber korrekt)\n- **Reciba un cordial saludo,** (weniger formal, aber höflich)\n- **A su disposición, atentamente,** (Ich stehe Ihnen zur Verfügung …)\n\nNach dem Schluss folgt Vorname + Nachname (kein 'Ihr + Name').",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["textproduktion", "carta-formal", "schlussformel"]
+    },
+    {
+      "id": "carta-konnektoren",
+      "front": "En primer lugar … Además … Por otro lado … En conclusión,",
+      "back": "Gliederungskonnektoren für formelle Texte",
+      "notes": "Unverzichtbare Textbausteine für strukturierte B1-Briefe und Aufsätze:\n\n| Funktion | Konnektor |\n|---|---|\n| Eröffnung | En primer lugar / Primero |\n| Ergänzung | Además / Asimismo |\n| Kontrast | Sin embargo / No obstante |\n| Schlussfolgerung | En conclusión / Por lo tanto |\n| Abschluss | Finalmente / Por último |\n\nRegister: **schriftlich-formell** für Briefe und Aufsätze.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["textproduktion", "konnektoren", "gliederung"]
+    },
+    {
+      "id": "resumen-struktur",
+      "front": "El texto trata de … / El autor sostiene que … / En conclusión,",
+      "back": "Textbausteine für ein resumen (Zusammenfassung)",
+      "notes": "Aufbau eines **resumen** auf B1-Niveau:\n1. **Einleitung**: *El texto trata de …* / *El artículo habla de …*\n2. **Hauptthese**: *El autor sostiene/afirma que …* / *Según el autor, …*\n3. **Hauptpunkte**: mit Konnektoren wie *además*, *por otro lado*, *sin embargo*\n4. **Schluss**: *En conclusión, el autor concluye que …*\n\nEigene Meinung im resumen **nicht** einfließen lassen — nur referieren.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["textproduktion", "resumen"]
+    },
+    {
+      "id": "argum-absatz",
+      "front": "En mi opinión … Por un lado … Por otro lado … En conclusión,",
+      "back": "Struktur eines argumentativen Absatzes: These – Argumente – Schluss",
+      "notes": "Aufbau eines **argumentativen Absatzes**:\n1. **These** (Behauptung): *En mi opinión, …* / *Creo que …* / *Considero que …*\n2. **Argument 1**: *Por un lado, …* + Begründung mit *porque / ya que*\n3. **Argument 2 / Einräumung**: *Por otro lado, …* / *Sin embargo, …*\n4. **Schluss**: *En conclusión, …* / *Por lo tanto, …*\n\nFür B1-Prüfungen: mindestens **2 Argumente** mit Konnektoren + 1 Schlussfolgerung.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["textproduktion", "argumentativer-absatz"]
+    },
+    {
+      "id": "subj-repaso",
+      "front": "querer que + subjuntivo / esperar que + subjuntivo",
+      "back": "Wiederholung: Subjuntivo-Auslöser (Wunsch, Hoffnung)",
+      "notes": "Kern des Subjuntivo: Wenn der Hauptsatz Wunsch, Gefühl oder Zweifel ausdrückt und **zwei verschiedene Subjekte** vorliegen, folgt *que + Subjuntivo*:\n- *Quiero que **vengas**.* (Wunsch, 2 Subjekte)\n- *Espero que **apruebe**.* (Hoffnung)\n- *No creo que **tenga** razón.* (Zweifel)\n- **Aber**: *Quiero **venir**.* (1 Subjekt → Infinitiv)",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "subjuntivo", "wiederholung"]
+    },
+    {
+      "id": "condicional-repaso",
+      "front": "Si + imperfecto de subjuntivo, + condicional simple",
+      "back": "Wiederholung: irreale Bedingung (Konditional II-Entsprechung)",
+      "notes": "Das Konditional-Muster für **irreale oder unwahrscheinliche** Bedingungen:\n- *Si **tuviera** dinero, **viajaría** por el mundo.*\n- *Si **pudiera**, **estudiaría** medicina.*\n\nBildung Konditional: Infinitiv + **-ía, -ías, -ía, -íamos, -íais, -ían**\nUnregelmäßige Stämme: *tener → tendr-*, *poder → podr-*, *salir → saldr-*, *hacer → har-*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "konditional", "wiederholung"]
+    },
+    {
+      "id": "pluscuam-repaso",
+      "front": "había + participio → había hablado, había comido",
+      "back": "Wiederholung: Plusquamperfekto (Vorvergangenheit)",
+      "notes": "Das **Plusquamperfekto** beschreibt eine Handlung, die **vor** einem anderen Vergangenheitspunkt abgeschlossen war:\n- *Cuando llegué, ella ya **había salido**.*\n- *No **habían comido** nada cuando llamé.*\n\nBildung: **había/habías/había/habíamos/habíais/habían** + Partizip\nUnregelmäßige Partizipien: *visto, dicho, hecho, puesto, escrito, abierto, roto, vuelto*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "pluscuamperfecto", "wiederholung"]
+    },
+    {
+      "id": "pasiva-repaso",
+      "front": "ser + participado / se + verbo",
+      "back": "Wiederholung: Passiv und pasiva refleja",
+      "notes": "**Vorgangspassiv** (ser + Partizip, Agens optional mit *por*):\n- *El informe **fue redactado** por el director.*\n\n**Pasiva refleja** (se + Verbo, kein ausdrückliches Agens):\n- *Se **hablan** tres idiomas aquí.* (3 Sprachen werden gesprochen)\n- *Se **vende** el piso.* (Die Wohnung wird verkauft)\n\nFaustregel: Ist der Handelnde wichtig → *ser*-Passiv; ist er unbekannt/unwichtig → *se*-Konstruktion.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "pasiva", "wiederholung"]
+    },
+    {
+      "id": "estilo-indirecto-repaso",
+      "front": "Dijo que … / Me preguntó si … / Me pidió que …",
+      "back": "Wiederholung: estilo indirecto (indirekte Rede)",
+      "notes": "Hauptregeln der indirekten Rede:\n\n| Direkt | Indirekt |\n|---|---|\n| *Tengo hambre.* | Dijo que **tenía** hambre. |\n| *¿Vendrás?* | Me preguntó si **vendría**. |\n| *Ven aquí.* | Me pidió que **fuera** (Imp. Subj.). |\n\nZeitverschiebung: Präsens → Imperfecto, Futuro → Condicional, Imperativ → Imperfecto Subjuntivo.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "estilo-indirecto", "wiederholung"]
+    },
+    {
+      "id": "pronombres-repaso",
+      "front": "se lo doy / te lo mando / nos la envió",
+      "back": "Wiederholung: kombinierte Objektpronomen (Dativ + Akkusativ)",
+      "notes": "Reihenfolge: **Dativpronomen + Akkusativpronomen + Verb**\n- *lo/la* → *le/les* wird zu **se**, wenn davor *lo/la/los/las* steht\n- *Te lo mando.* (Ich schicke es dir.)\n- *Se lo dije.* (Ich habe es ihm/ihr gesagt.)\n- *Nos la enviaron.* (Sie schickten es uns.)\n\nPosition: **vor** konjugierten Verben; **an** Infinitiv, Gerundium oder Imperativ angehängt.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "pronombres", "wiederholung"]
+    },
+    {
+      "id": "opinion-subj-ind",
+      "front": "Creo que tiene razón. / No creo que tenga razón.",
+      "back": "Meinung + Indikativ vs. Zweifel/Verneinung + Subjuntivo",
+      "notes": "Der zentrale Indikativ-Subjuntivo-Kontrast bei Meinungsverben:\n\n| Konstruktion | Modus | Beispiel |\n|---|---|---|\n| creer que (bejaht) | **Indikativ** | Creo que **tiene** razón. |\n| no creer que | **Subjuntivo** | No creo que **tenga** razón. |\n| pensar que (bejaht) | **Indikativ** | Pienso que **viene**. |\n| dudar que | **Subjuntivo** | Dudo que **venga**. |\n| es obvio que | **Indikativ** | Es obvio que **está** aquí. |\n| es posible que | **Subjuntivo** | Es posible que **venga**. |",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "subjuntivo", "indikativ", "meinung"]
+    },
+    {
+      "id": "conectores-argumentativos",
+      "front": "sin embargo / por lo tanto / además / a pesar de que / ya que",
+      "back": "Zentrale argumentative Konnektoren für B1-Texte",
+      "notes": "Kurzübersicht für Textproduktion:\n\n| Konnektor | Funktion |\n|---|---|\n| **sin embargo** | Gegensatz (dennoch) |\n| **por lo tanto** | Folge (daher) |\n| **además** | Hinzufügung (außerdem) |\n| **a pesar de que** | Einräumung (obwohl) |\n| **ya que / puesto que** | Ursache (da, weil) |\n| **en cambio** | Kontrast (hingegen) |\n| **sino** | Korrektur nach Verneinung (sondern) |",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "textproduktion", "wiederholung"]
+    },
+    {
+      "id": "b1-strukturen-uebersicht",
+      "front": "B1-Strukturen: Subjuntivo / Condicional / Pluscuamperfecto / Pasiva / Estilo indirecto",
+      "back": "Gesamtübersicht der B1-Grammatikstrukturen",
+      "notes": "**Schnellreferenz aller B1-Kernstrukturen:**\n\n| Struktur | Bildung | Gebrauch |\n|---|---|---|\n| Subjuntivo presente | yo-Stamm + -e/-a-Endungen | Wunsch, Gefühl, Zweifel |\n| Condicional simple | Inf. + -ía-Endungen | Hypothese, höfliche Bitte |\n| Plusquamperfecto | había + Partizip | Vorvergangenheit |\n| Pasiva (ser) | ser + Partizip (+ por) | Vorgangspassiv mit Agens |\n| Pasiva refleja (se) | se + Verb | Passiv ohne Agens |\n| Estilo indirecto | dijo que + Zeitverschiebung | indirekte Rede |\n| Pronombres combinados | D.+Akk. vor Verb (se lo) | zwei Obj.-Pron. kombiniert |",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "wiederholung", "uebersicht"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-abschluss-grammatik",
+      "type": "theory",
+      "title": "Zum Abschluss: Alle B1-Strukturen im Überblick",
+      "body": "# Wiederholung und Textproduktion\n\nZum Abschluss des B1-Kurses: Wir wiederholen die wichtigsten Strukturen und üben, sie in eigenen Texten zu produzieren.\n\n## Gesamtübersicht der B1-Grammatik\n\n| Struktur | Kurzformel | Typisches Beispiel |\n|---|---|---|\n| **Subjuntivo presente** | yo-Stamm + -e/-a | *Quiero que **vengas**.* |\n| **Subjuntivo-Auslöser** | Wunsch/Gefühl/Zweifel + que | *Espero que **apruebe**.* |\n| **Condicional simple** | Infinitiv + -ía | *Si tuviera tiempo, **viajaría**.* |\n| **Plusquamperfecto** | había/habías… + Partizip | *Ya **había salido** cuando llegué.* |\n| **Pasiva (ser)** | ser + Partizip (+ por) | *El texto **fue escrito** por la autora.* |\n| **Pasiva refleja (se)** | se + 3. Pers. | *Se **hablan** cinco idiomas.* |\n| **Estilo indirecto** | dijo que + Zeitverschiebung | *Dijo que **tenía** hambre.* |\n| **Pronombres combinados** | D. + Akk. + Verb | ***Se lo** mandé ayer.* |\n| **Konnektoren** | Gegensatz / Folge / Ursache … | *sin embargo, por lo tanto, ya que* |\n| **Indikativ vs. Subj.** | Sicherheit vs. Zweifel | *Creo que **tiene** / No creo que **tenga**.* |\n\n## Zeitverschiebung im estilo indirecto\n\n| Direkte Rede | Indirekte Rede |\n|---|---|\n| Presente (*tengo*) | Imperfecto (*tenía*) |\n| Futuro (*vendré*) | Condicional (*vendría*) |\n| Imperativo (*ven*) | Imp. Subjuntivo (*viniera*) |\n| Indefinido (*llegué*) | Pluscuamperfecto (*había llegado*) |"
+    },
+    {
+      "id": "theory-carta-formal",
+      "type": "theory",
+      "title": "Die formelle carta/E-Mail: Aufbau und Textbausteine",
+      "body": "## Aufbau einer formellen carta oder E-Mail\n\nDie formelle spanische Korrespondenz folgt einer klaren Struktur:\n\n### 1. Anrede\n- **Estimado/a señor/a García:** (bekannter Name)\n- **Estimado/a señor/a:** (unbekannter Empfänger)\n- **A quien corresponda:** (bei völlig unbekanntem Adressaten)\n\n### 2. Höflicher Einstieg\n- *Me dirijo a usted para …*\n- *Le escribo para informarle de que …*\n- *En respuesta a su anuncio/correo del … , …*\n\n### 3. Hauptteil mit Konnektoren\n- *En primer lugar, quisiera …*\n- *Además, me gustaría señalar que …*\n- *Sin embargo, existe un problema con …*\n- *Por lo tanto, le solicito que …* (+ Subjuntivo!)\n\n### 4. Schlussformel\n- **Quedo a la espera de su respuesta. Atentamente,**\n- *En espera de sus noticias, le saluda atentamente,*\n- *Reciba un cordial saludo,*\n\n### Wichtige Sprachregister-Regeln\n- Immer **usted** (nie *tú*)\n- Höfliche Bitten mit **condicional**: *quisiera, me gustaría, podría*\n- Bitten/Auforderungen an Empfänger: **le solicito que + Subjuntivo**\n- Kein Umgangssprachliches\n\n| Textbaustein | Funktion |\n|---|---|\n| *Le escribo para …* | Anlass nennen |\n| *Quisiera solicitar …* | Höfliche Bitte |\n| *Le agradecería que …* | Dankbare Bitte (+ Subj.) |\n| *Adjunto encontrará …* | Anhang erwähnen |\n| *No dude en contactarme.* | Rückmeldung einladen |\n| *Quedo a la espera …* | Schluss |"
+    },
+    {
+      "id": "theory-resumen-argumento",
+      "type": "theory",
+      "title": "Resumen und argumentativer Absatz",
+      "body": "## Einen resumen schreiben\n\nEin **resumen** (Zusammenfassung) gibt den Inhalt eines Textes in eigenen Worten wieder — **ohne** eigene Meinung.\n\n**Aufbau:**\n1. *El texto/artículo trata de …* (Thema einleiten)\n2. *El autor afirma/sostiene que …* (Hauptthese referieren)\n3. *Además, menciona que …* / *Por otro lado, señala que …* (Punkte aufzählen)\n4. *En conclusión, el autor concluye que …* (Schluss)\n\n**Verben zum Referieren:** *afirmar, sostener, señalar, destacar, mencionar, concluir, argumentar*\n\n---\n\n## Einen argumentativen Absatz aufbauen\n\nStruktur **These → Argumente → Schluss**:\n\n| Schritt | Konnektor/Formel | Beispiel |\n|---|---|---|\n| **These** | *En mi opinión, …* / *Creo que …* | *En mi opinión, el transporte público es esencial.* |\n| **Argument 1** | *En primer lugar, … ya que …* | *En primer lugar, reduce la contaminación, ya que …* |\n| **Argument 2 / Einräumung** | *Sin embargo, … Por otro lado, …* | *Sin embargo, no siempre es puntual.* |\n| **Schluss** | *En conclusión, por lo tanto …* | *En conclusión, creo que merece la pena invertir en él.* |\n\n> **B1-Prüfungstipp:** Mindestens **3 verschiedene Konnektoren** und **1 Einräumung** (*sin embargo*, *a pesar de que*) einsetzen — das erhöht die Bewertungspunkte deutlich."
+    },
+    {
+      "id": "ex-free-carta-einstieg",
+      "type": "exercise",
+      "title": "Einen formellen Briefeinstieg formulieren",
+      "exercise": {
+        "id": "ex-free-carta-einstieg",
+        "type": "free_text",
+        "prompt": "Übersetze den Briefeinstieg auf Spanisch: 'Ich schreibe Ihnen, um mich für die ausgeschriebene Stelle zu bewerben.'",
+        "card_ids": ["carta-einstieg", "carta-anrede"],
+        "accept": [
+          "Le escribo para solicitar el puesto anunciado.",
+          "le escribo para solicitar el puesto anunciado",
+          "Me dirijo a usted para solicitar el puesto anunciado.",
+          "Le escribo para postularme al puesto de trabajo anunciado.",
+          "Me pongo en contacto con usted para solicitar el puesto anunciado.",
+          "Le escribo con el fin de solicitar el puesto de trabajo anunciado."
+        ],
+        "hint": "Formeller Einstieg: 'Le escribo para …' oder 'Me dirijo a usted para …' + Infinitiv.",
+        "distractors": [
+          "Te escribo para solicitar el puesto anunciado.",
+          "Le escribo para que solicite el puesto anunciado.",
+          "Escribo para solicitar el puesto anunciado, usted."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-carta-schluss",
+      "type": "exercise",
+      "title": "Die Schlussformel des formellen Briefs",
+      "exercise": {
+        "id": "ex-tiles-carta-schluss",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zur korrekten formellen Schlussformel: 'Ich verbleibe in Erwartung Ihrer Antwort. Mit freundlichen Grüßen,'",
+        "card_ids": ["carta-schlussformel"],
+        "tiles": ["Quedo", "a", "la", "espera", "de", "su", "respuesta.", "Atentamente,"],
+        "hint": "Die häufigste formelle Schlussformel: 'Quedo a la espera de su respuesta. Atentamente,'",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-solicito-que-subj",
+      "type": "exercise",
+      "title": "Höfliche Bitte im Brief (Subjuntivo)",
+      "exercise": {
+        "id": "ex-cloze-solicito-que-subj",
+        "type": "cloze",
+        "prompt": "Ergänze die Subjuntivo-Form von *confirmar* (que usted). Im formellen Brief folgt nach 'le solicito que' immer der Subjuntivo.",
+        "card_ids": ["carta-einstieg", "subj-repaso"],
+        "sentence": "Le solicito que ___ la cita lo antes posible.",
+        "blanks": [
+          { "accept": ["confirme"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*confirmar* ist ein regelmäßiges -ar-Verb. Im Subjuntivo (que usted): *confirm-* + *-e* → *confirme*."
+      }
+    },
+    {
+      "id": "ex-match-b1-strukturen",
+      "type": "exercise",
+      "title": "B1-Strukturen und ihre Funktion zuordnen",
+      "exercise": {
+        "id": "ex-match-b1-strukturen",
+        "type": "matching",
+        "prompt": "Ordne jede Struktur ihrer grammatischen Funktion zu.",
+        "card_ids": ["b1-strukturen-uebersicht", "pluscuam-repaso", "pasiva-repaso", "estilo-indirecto-repaso"],
+        "pairs": [
+          { "left": "había + Partizip", "right": "Vorvergangenheit (Plusquamperfekto)" },
+          { "left": "ser + Partizip + por", "right": "Passiv mit Agens" },
+          { "left": "dijo que + Imperfecto", "right": "indirekte Rede (estilo indirecto)" },
+          { "left": "se + 3. Person", "right": "Passiv ohne Agens (pasiva refleja)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-pluscuam-llegue",
+      "type": "exercise",
+      "title": "Vorvergangenheit (Plusquamperfekto) anwenden",
+      "exercise": {
+        "id": "ex-free-pluscuam-llegue",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Als ich ankam, hatte sie die E-Mail bereits abgeschickt.'",
+        "card_ids": ["pluscuam-repaso"],
+        "accept": [
+          "Cuando llegué, ella ya había enviado el correo.",
+          "cuando llegué, ella ya había enviado el correo",
+          "Cuando llegué, ya había mandado el correo.",
+          "Cuando llegué, ella ya había mandado el correo electrónico.",
+          "Al llegar, ella ya había enviado el correo."
+        ],
+        "hint": "Vorvergangenheit: *había* + Partizip (*enviado*). 'Schicken' = *enviar* oder *mandar*.",
+        "distractors": [
+          "Cuando llegué, ella envió el correo.",
+          "Cuando llegué, ella ya enviaba el correo.",
+          "Cuando llegué, ella tenía enviado el correo."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-condicional-si",
+      "type": "exercise",
+      "title": "Irreale Bedingung (Condicional + Subjuntivo)",
+      "exercise": {
+        "id": "ex-cloze-condicional-si",
+        "type": "cloze",
+        "prompt": "Ergänze die Konditionalform von *poder* (yo). Si-Satz: irreale Bedingung.",
+        "card_ids": ["condicional-repaso"],
+        "sentence": "Si tuviera más tiempo libre, ___ aprender a tocar la guitarra.",
+        "blanks": [
+          { "accept": ["podría"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*poder* hat den unregelmäßigen Konditionalstamm *podr-*. + Endung *-ía* → *podría*."
+      }
+    },
+    {
+      "id": "ex-free-pasiva-refleja",
+      "type": "exercise",
+      "title": "Pasiva refleja bilden",
+      "exercise": {
+        "id": "ex-free-pasiva-refleja",
+        "type": "free_text",
+        "prompt": "Übersetze mit Pasiva refleja (se): 'In diesem Laden werden drei Sprachen gesprochen.'",
+        "card_ids": ["pasiva-repaso"],
+        "accept": [
+          "En esta tienda se hablan tres idiomas.",
+          "en esta tienda se hablan tres idiomas",
+          "En esta tienda se hablan 3 idiomas.",
+          "Aquí se hablan tres idiomas.",
+          "En esta tienda se hablan tres lenguas."
+        ],
+        "hint": "Pasiva refleja: *se + 3. Person*. 'Tres idiomas' ist Plural → *se hablan* (Plural).",
+        "distractors": [
+          "En esta tienda se habla tres idiomas.",
+          "En esta tienda es hablado tres idiomas.",
+          "En esta tienda hablan tres idiomas."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-estilo-indirecto",
+      "type": "exercise",
+      "title": "Indirekte Rede mit Zeitverschiebung",
+      "exercise": {
+        "id": "ex-free-estilo-indirecto",
+        "type": "free_text",
+        "prompt": "Wandle in indirekte Rede um. Ana sagte: '¡Tengo mucho trabajo hoy!' → Ana dijo que …",
+        "card_ids": ["estilo-indirecto-repaso"],
+        "accept": [
+          "Ana dijo que tenía mucho trabajo ese día.",
+          "ana dijo que tenía mucho trabajo ese día",
+          "Ana dijo que tenía mucho trabajo.",
+          "Ana dijo que tenía mucho trabajo aquel día.",
+          "Dijo que tenía mucho trabajo ese día."
+        ],
+        "hint": "Zeitverschiebung: Presente → Imperfecto. *tengo* → *tenía*. 'hoy' in indirekter Rede → 'ese día'.",
+        "distractors": [
+          "Ana dijo que tiene mucho trabajo hoy.",
+          "Ana dijo que tuvo mucho trabajo ese día.",
+          "Ana dijo que ha tenido mucho trabajo ese día."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-pronombres-combo",
+      "type": "exercise",
+      "title": "Kombinierte Pronomen in der richtigen Reihenfolge",
+      "exercise": {
+        "id": "ex-tiles-pronombres-combo",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: 'Ich habe es ihm gestern gesagt.' (Dativ: *le* → vor lo → *se*)",
+        "card_ids": ["pronombres-repaso"],
+        "tiles": ["Se", "lo", "dije", "ayer."],
+        "hint": "'ihm' = *le* (Dativ) + 'es' = *lo* (Akkusativ). Aber *le + lo* → **se lo**. Verb: *dije* (indefinido von *decir*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-condicional",
+      "type": "exercise",
+      "title": "Welcher Satz drückt eine irreale Bedingung aus?",
+      "exercise": {
+        "id": "ex-picture-condicional",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet korrekt: 'Wenn ich Lehrerin wäre, würde ich mehr Geduld haben.'?",
+        "card_ids": ["condicional-repaso"],
+        "images": [
+          { "src": "assets/img/teacher-1.png", "label": "Si fuera profesora, tendría más paciencia.", "is_correct": "true" },
+          { "src": "assets/img/teacher-2.png", "label": "Si soy profesora, tendré más paciencia." },
+          { "src": "assets/img/teacher-3.png", "label": "Si era profesora, tenía más paciencia." },
+          { "src": "assets/img/teacher-4.png", "label": "Si fuera profesora, tendrá más paciencia." }
+        ],
+        "hint": "Irreale Bedingung: *Si + Imperfecto Subjuntivo (fuera), + Condicional (tendría)*.",
+        "distractors": [
+          "Si soy profesora, tendré más paciencia.",
+          "Si era profesora, tenía más paciencia.",
+          "Si fuera profesora, tendrá más paciencia."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-konnektoren-funktion",
+      "type": "exercise",
+      "title": "Konnektoren und Funktionen im Argumentationstext",
+      "exercise": {
+        "id": "ex-match-konnektoren-funktion",
+        "type": "matching",
+        "prompt": "Ordne jeden Konnektor seiner Funktion in einem argumentativen Text zu.",
+        "card_ids": ["conectores-argumentativos", "carta-konnektoren"],
+        "pairs": [
+          { "left": "sin embargo", "right": "Gegensatz / Einschränkung" },
+          { "left": "por lo tanto", "right": "Schlussfolgerung / Folge" },
+          { "left": "ya que", "right": "Ursache / Begründung" },
+          { "left": "en conclusión", "right": "Zusammenfassung / Abschluss" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-argumentativer-absatz",
+      "type": "exercise",
+      "title": "These eines argumentativen Absatzes formulieren",
+      "exercise": {
+        "id": "ex-free-argumentativer-absatz",
+        "type": "free_text",
+        "prompt": "Formuliere auf Spanisch eine Einleitungsthese für einen Aufsatz: 'Meiner Meinung nach ist das Internet unverzichtbar für die Bildung.'",
+        "card_ids": ["argum-absatz", "opinion-subj-ind"],
+        "accept": [
+          "En mi opinión, internet es imprescindible para la educación.",
+          "en mi opinión, internet es imprescindible para la educación",
+          "En mi opinión, el internet es imprescindible para la educación.",
+          "Creo que internet es imprescindible para la educación.",
+          "En mi opinión, internet resulta imprescindible para la educación.",
+          "Considero que internet es imprescindible para la educación."
+        ],
+        "hint": "'Meiner Meinung nach' → *En mi opinión,* oder *Creo que* + Indikativ (bejahte Meinung!).",
+        "distractors": [
+          "En mi opinión, internet sea imprescindible para la educación.",
+          "En mi opinión, internet es imprescindible para la educación, creo.",
+          "Según mi opinión que internet es imprescindible."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-aunque-subj-repaso",
+      "type": "exercise",
+      "title": "Wiederholung: aunque + Subjuntivo oder Indikativ?",
+      "exercise": {
+        "id": "ex-cloze-aunque-subj-repaso",
+        "type": "cloze",
+        "prompt": "Der Sprecher weiß nicht, ob es morgen regnen wird — wähle die richtige Form von *llover* (Hypothese!).",
+        "card_ids": ["conectores-argumentativos", "subj-repaso"],
+        "sentence": "Aunque ___ mañana, iremos a la playa de todas formas.",
+        "blanks": [
+          { "accept": ["llueva"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Unbekannte / hypothetische Situation + *aunque* → Subjuntivo. *llover* im Subjuntivo: *llueva*."
+      }
+    }
+  ]
+}

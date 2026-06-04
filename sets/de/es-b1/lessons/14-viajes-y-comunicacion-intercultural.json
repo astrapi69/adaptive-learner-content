@@ -1,0 +1,389 @@
+{
+  "id": "14-viajes-y-comunicacion-intercultural",
+  "title": "Reisen und interkulturelle Kommunikation",
+  "description": "Reise-Wortschatz auf B1-Niveau, höfliches Anreden (tú vs. usted, vosotros vs. ustedes, vos), höfliche Bitten im Kondicional, Missverständnisse klären und kulturelle Unterschiede beim Reisen — auf Deutsch erklärt.",
+  "target_language": "es",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "reservar-alojamiento",
+      "front": "reservar el alojamiento",
+      "back": "die Unterkunft buchen/reservieren",
+      "notes": "**reservar** = buchen, reservieren; **el alojamiento** = die Unterkunft (Überbegriff für Hotel, Hostel, Ferienwohnung etc.). Auch: *hacer una reserva* = eine Reservierung vornehmen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["reisen", "wortschatz", "b1"]
+    },
+    {
+      "id": "un-imprevisto",
+      "front": "un imprevisto",
+      "back": "eine unvorhergesehene Situation / ein unerwartetes Problem",
+      "notes": "Von *imprevisto* (unvorhergesehen). Typische Reisepanne: *Hemos tenido un imprevisto y el vuelo se ha retrasado.* Synonym: *un contratiempo* (ein Rückschlag).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["reisen", "wortschatz", "b1"]
+    },
+    {
+      "id": "cancelar",
+      "front": "cancelar (la reserva / el vuelo)",
+      "back": "stornieren / absagen (die Buchung / den Flug)",
+      "notes": "**cancelar** = stornieren, absagen. Verwandt: *la cancelación* (die Stornierung). In Lateinamerika auch häufig: *anular* (annullieren).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["reisen", "wortschatz", "b1"]
+    },
+    {
+      "id": "apanarselas",
+      "front": "apañárselas / arreglárselas",
+      "back": "sich durchschlagen / zurechtkommen",
+      "notes": "Beide Ausdrücke bedeuten, eine schwierige Situation irgendwie meistern. *apañárselas* ist eher in **Spanien** gebräuchlich, *arreglárselas* ist im gesamten spanischsprachigen Raum verbreitet. *Me las apañé sola.* = Ich kam alleine zurecht.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "apañárselas (eher Spanien) ≈ arreglárselas (überall) — sich irgendwie behelfen.",
+      "tags": ["reisen", "wortschatz", "b1", "regional"]
+    },
+    {
+      "id": "un-malentendido",
+      "front": "un malentendido",
+      "back": "ein Missverständnis",
+      "notes": "Von *malentender* (falsch verstehen). Formell: *Creo que ha habido un malentendido.* = Ich glaube, es hat ein Missverständnis gegeben.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["kommunikation", "wortschatz", "b1"]
+    },
+    {
+      "id": "tu-vs-usted",
+      "front": "tú / usted — ¿cuál uso?",
+      "back": "Du-Form / Siez-Form — welche benutze ich?",
+      "notes": "**tú** = informelle Anrede (Freunde, Familie, Gleichaltrige, oft auch Kollegen). **usted** = formelle Anrede (unbekannte Erwachsene, ältere Personen, Autoritäten, Kund:innenservice). Usted nimmt die **3. Person Singular**: *¿Tiene usted la reserva?* Wichtig: In **Lateinamerika** ist usted deutlich häufiger — selbst unter Bekannten in manchen Ländern (z. B. Kolumbien, Costa Rica).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["register", "hoeflichkeit", "grammatik", "b1", "interkulturell"]
+    },
+    {
+      "id": "vosotros-vs-ustedes",
+      "front": "vosotros (España) / ustedes (Latinoamérica)",
+      "back": "ihr (Spanien) / Sie/ihr — Plural (Lateinamerika)",
+      "notes": "**vosotros/vosotras** ist ausschließlich in **Spanien** die informelle Pluralform (ihr). In ganz **Lateinamerika** existiert vosotros nicht — dort heißt sowohl das formelle als auch das informelle ‚ihr' **ustedes** (mit 3. Person Plural). *¿Queréis más café?* (Spanien) vs. *¿Quieren más café?* (Lateinamerika).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["register", "grammatik", "b1", "regional", "spanien-vs-lateinamerika"]
+    },
+    {
+      "id": "vos",
+      "front": "vos (Argentina, Uruguay, partes de C.A.)",
+      "back": "vos — regionale Du-Form (statt tú)",
+      "notes": "**vos** ersetzt **tú** in Argentinien, Uruguay, Paraguay und Teilen Mittelamerikas (*voseo*). Die Verbformen weichen von tú ab: *vos hablás, vos comés, vos sos* (= eres). Als Reisender muss man vos verstehen, aber nicht aktiv benutzen — *tú* wird akzeptiert.",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "vos ≈ tú, aber mit anderen Verbendungen: -ás/-és statt -as/-es.",
+      "tags": ["register", "grammatik", "b1", "regional", "voseo"]
+    },
+    {
+      "id": "podria-usted",
+      "front": "¿Podría usted...? / ¿Sería tan amable de...?",
+      "back": "Könnten Sie bitte...? / Wären Sie so freundlich...?",
+      "notes": "Höfliche Bitten mit dem **Kondicional** (Konjunktiv II-Äquivalent): **¿Podría...?** = Könnten Sie...? (von *poder*). **¿Sería tan amable de + Infinitiv?** = Wären Sie so freundlich, ...? — sehr förmlich, gut für Hotels, Behörden, unbekannte Personen. Der Kondicional macht Bitten weicher und höflicher als der Imperativ oder das Präsens.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["register", "hoeflichkeit", "kondicional", "b1"]
+    },
+    {
+      "id": "perdone-moleste",
+      "front": "Perdone que le moleste, pero...",
+      "back": "Entschuldigung, dass ich störe, aber...",
+      "notes": "Sehr höfliche Einleitung einer Bitte oder Frage an eine fremde Person (*usted*-Register). Varianten: *Disculpe que le moleste...* (eher Lateinamerika), *Perdone la molestia...* (Entschuldigung für die Umstände). Das **-e** in *perdone* ist Imperativ der Höflichkeitsform (usted).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["register", "hoeflichkeit", "b1", "kommunikation"]
+    },
+    {
+      "id": "clarificar-malentendido",
+      "front": "No estoy seguro/a de haber entendido bien. ¿Quiere decir que...?",
+      "back": "Ich bin nicht sicher, ob ich richtig verstanden habe. Meinen Sie, dass...?",
+      "notes": "Höfliche Formel zum Klären von Missverständnissen. Weitere nützliche Wendungen: **¿Podría repetirlo, por favor?** = Könnten Sie das wiederholen? / **¿Podría explicarlo de otra manera?** = Könnten Sie es anders erklären?",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["kommunikation", "missverstaendnis", "b1"]
+    },
+    {
+      "id": "saludos-culturales",
+      "front": "el saludo cultural (beso, apretón de manos, distancia)",
+      "back": "die kulturelle Begrüßung (Kuss, Handschlag, Abstand)",
+      "notes": "In **Spanien** ist ein Wangenkuss (links-rechts) unter Bekannten üblich, auch zwischen Mann und Frau. In **Lateinamerika** variiert es stark: ein Kuss, Handschlag oder Umarmung. In formellen Situationen ist der **Handschlag** (el apretón de manos) überall angemessen. Wichtig: Nicht vorschnell verallgemeinern — regionale Unterschiede sind groß.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["interkulturell", "kultur", "b1"]
+    },
+    {
+      "id": "puntualidad",
+      "front": "la puntualidad — diferencias regionales",
+      "back": "die Pünktlichkeit — regionale Unterschiede",
+      "notes": "Pünktlichkeit ist in der spanischsprachigen Welt **kontextabhängig**: Bei Geschäftsterminen wird Pünktlichkeit erwartet. Bei privaten Einladungen (z. B. zum Essen) ist 15–30 Minuten später in vielen Ländern normal. Als Gast sollte man lieber nachfragen: *¿A qué hora llego?* = Wann soll ich ankommen? — besser als blind auf Stereotypen zu verlassen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["interkulturell", "kultur", "b1"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-register-anrede",
+      "type": "theory",
+      "title": "Register und Anrede: tú, usted, vosotros, ustedes, vos",
+      "body": "# Wer redet wen wie an?\n\nDie Wahl der richtigen Anredeform ist eine der wichtigsten interkulturellen Kompetenzen auf B1-Niveau. Im Spanischen gibt es **mehr Anredeformen als im Deutschen** — und sie variieren stark nach Region.\n\n## Übersicht: Anredeformen im Vergleich\n\n| Situation | Spanien | Lateinamerika |\n|---|---|---|\n| Du (Singular, informell) | **tú** | **tú** (oder **vos** in Arg./Uru. etc.) |\n| Sie (Singular, formell) | **usted** | **usted** |\n| ihr (Plural, informell) | **vosotros/as** | **ustedes** |\n| Sie (Plural, formell) | **ustedes** | **ustedes** |\n\n> In **Lateinamerika** existiert *vosotros* nicht. Sowohl formelles als auch informelles ‚ihr' heißt dort **ustedes**.\n\n## usted: wann benutzen?\n\n**usted** ist die sichere Wahl, wenn du unsicher bist:\n- unbekannte Erwachsene (Hotel, Behörde, Geschäft)\n- ältere Personen\n- formelle oder berufliche Kontexte\n- in Kolumbien, Costa Rica und einigen anderen Ländern sogar unter Bekannten üblich\n\n## vos — was ist das?\n\nIn **Argentinien, Uruguay, Paraguay** und Teilen Mittelamerikas ersetzt **vos** das *tú*. Die Verbendungen weichen ab:\n\n| Infinitiv | tú | vos |\n|---|---|---|\n| hablar | hablas | hablás |\n| comer | comes | comés |\n| ser | eres | sos |\n\nAls Reisende:r musst du *vos* verstehen, aber *tú* wird überall akzeptiert."
+    },
+    {
+      "id": "theory-hoefliche-bitten",
+      "type": "theory",
+      "title": "Höfliche Bitten mit dem Kondicional",
+      "body": "# Höflich bitten — der Kondicional als Schlüssel\n\nIm Deutschen mildert der Konjunktiv II Bitten ab (*Könnten Sie…?*). Im Spanischen übernimmt das der **Kondicional** (Konditional).\n\n## Die wichtigsten Formeln\n\n| Formel | Deutsch | Register |\n|---|---|---|\n| **¿Podría usted…?** | Könnten Sie…? | formell |\n| **¿Me podría…?** | Könnten Sie mir…? | formell |\n| **¿Sería tan amable de…?** | Wären Sie so freundlich, zu…? | sehr formell |\n| **Perdone que le moleste, pero…** | Entschuldigung, dass ich störe, aber… | sehr formell |\n| **¿Puedes…?** | Kannst du…? | informell (tú) |\n\n## Beispiele im Kontext\n\n- *¿Podría repetirlo más despacio, por favor?* = Könnten Sie es bitte langsamer wiederholen?\n- *¿Sería tan amable de ayudarme con el equipaje?* = Wären Sie so freundlich, mir mit dem Gepäck zu helfen?\n- *Perdone que le moleste, pero ¿sabe dónde está la salida?* = Entschuldigung für die Störung, aber wissen Sie, wo der Ausgang ist?\n\n> **Tipp:** *¿Podría…?* funktioniert in fast allen formellen Situationen — lern diese Form als erste Priorität."
+    },
+    {
+      "id": "theory-interkulturell",
+      "type": "theory",
+      "title": "Missverständnisse klären und kulturelle Unterschiede",
+      "body": "# Wenn die Kommunikation hakt\n\n## Formeln zum Klären von Missverständnissen\n\n| Formel | Bedeutung |\n|---|---|\n| *No estoy seguro/a de haber entendido bien.* | Ich bin nicht sicher, ob ich richtig verstanden habe. |\n| *¿Quiere decir que…?* | Meinen Sie, dass…? |\n| *¿Podría repetirlo, por favor?* | Könnten Sie das wiederholen? |\n| *¿Podría explicarlo de otra manera?* | Könnten Sie es anders erklären? |\n| *¿He entendido bien que…?* | Habe ich richtig verstanden, dass…? |\n\n## Kulturelle Unterschiede sachlich einordnen\n\n**Begrüßung:** In Spanien ist der Wangenkuss (zwei Seiten) unter Bekannten verbreitet. In formellen Kontexten gilt der Handschlag. In Lateinamerika variiert es stark — nachschauen oder vorsichtig abwarten, was das Gegenüber initiiert.\n\n**Pünktlichkeit:** Bei Geschäftsterminen wird Pünktlichkeit generell erwartet. Bei privaten Einladungen sind 15–30 Minuten später in vielen Regionen üblich — aber nicht überall. Besser fragen: *¿A qué hora llego?*\n\n**Formell vs. informell:** In Kolumbien und Costa Rica ist *usted* selbst unter Freunden verbreitet. In Spanien wechselt man oft schnell zu *tú*. Lass dein Gegenüber das Tempo vorgeben.\n\n> **Wichtig:** Stereotypen sind ein Ausgangspunkt, kein Urteil. Individuelle und regionale Unterschiede sind groß — offene Beobachtung schlägt jedes Klischee."
+    },
+    {
+      "id": "ex-free-reservar",
+      "type": "exercise",
+      "title": "Vokabel: die Unterkunft buchen",
+      "exercise": {
+        "id": "ex-free-reservar",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Ich möchte eine Unterkunft für zwei Nächte buchen.'",
+        "card_ids": ["reservar-alojamiento"],
+        "accept": [
+          "Quisiera reservar un alojamiento para dos noches.",
+          "Me gustaría reservar un alojamiento para dos noches.",
+          "Quiero reservar un alojamiento para dos noches.",
+          "Quisiera reservar alojamiento para dos noches.",
+          "Me gustaría hacer una reserva para dos noches."
+        ],
+        "hint": "reservar + el alojamiento + para dos noches. Mit Kondicional (*quisiera / me gustaría*) klingt es höflicher.",
+        "distractors": [
+          "Quiero cancelar el alojamiento para dos noches.",
+          "Quisiera reservar el vuelo para dos personas.",
+          "Quiero un imprevisto para dos noches."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-register",
+      "type": "exercise",
+      "title": "Situation und passende Anrede zuordnen",
+      "exercise": {
+        "id": "ex-match-register",
+        "type": "matching",
+        "prompt": "Ordne jeder Situation die passende Anredeform oder Verbform zu.",
+        "card_ids": ["tu-vs-usted", "vosotros-vs-ustedes", "vos"],
+        "pairs": [
+          { "left": "Hotelrezeptionistin (unbekannt, formell)", "right": "usted" },
+          { "left": "Freund in Argentinien (informell, Singular)", "right": "vos" },
+          { "left": "Gruppe von Freunden in Spanien (informell, Plural)", "right": "vosotros" },
+          { "left": "Gruppe in Mexiko (informell oder formell, Plural)", "right": "ustedes" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-podria",
+      "type": "exercise",
+      "title": "Höfliche Bitte im Kondicional",
+      "exercise": {
+        "id": "ex-cloze-podria",
+        "type": "cloze",
+        "prompt": "Ergänze die höfliche Bitte mit der richtigen Kondicional-Form von *poder* (usted).",
+        "card_ids": ["podria-usted"],
+        "sentence": "¿___ usted repetirlo más despacio, por favor?",
+        "blanks": [
+          { "accept": ["Podría"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "poder im Kondicional, 3. Person Singular (usted): *Podría*."
+      }
+    },
+    {
+      "id": "ex-tiles-perdone",
+      "type": "exercise",
+      "title": "Höfliche Entschuldigung beim Ansprechen",
+      "exercise": {
+        "id": "ex-tiles-perdone",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zur korrekten höflichen Einleitung: 'Entschuldigung, dass ich störe, aber...'",
+        "card_ids": ["perdone-moleste"],
+        "tiles": ["Perdone", "que", "le", "moleste,", "pero..."],
+        "hint": "Die Reihenfolge folgt dem Muster: Imperativ (usted) + que + Subjektpronomen + Verb.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-tu-usted",
+      "type": "exercise",
+      "title": "tú oder usted? Richtig entscheiden",
+      "exercise": {
+        "id": "ex-free-tu-usted",
+        "type": "free_text",
+        "prompt": "Du sprichst die ältere, unbekannte Hoteldirektorin an und fragst, ob sie Ihr Zimmer upgraden kann. Formuliere die Bitte höflich (Sie-Form + Kondicional).",
+        "card_ids": ["tu-vs-usted", "podria-usted"],
+        "accept": [
+          "¿Podría usted mejorar mi habitación?",
+          "¿Podría mejorar mi habitación, por favor?",
+          "¿Sería tan amable de mejorar mi habitación?",
+          "¿Podría usted hacer un upgrade de mi habitación?",
+          "¿Me podría mejorar la habitación, por favor?"
+        ],
+        "hint": "usted + Kondicional von *poder*: *¿Podría usted...?* oder *¿Sería tan amable de...?*",
+        "distractors": [
+          "¿Puedes mejorar mi habitación?",
+          "¿Puede tú mejorar mi habitación?",
+          "¿Queréis mejorar mi habitación?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-malentendido",
+      "type": "exercise",
+      "title": "Ein Missverständnis höflich klären",
+      "exercise": {
+        "id": "ex-cloze-malentendido",
+        "type": "cloze",
+        "prompt": "Ergänze die Formel zur Klärung: 'Meinen Sie, dass die Reservierung storniert wurde?'",
+        "card_ids": ["clarificar-malentendido", "un-malentendido"],
+        "sentence": "¿___ decir que la reserva ha sido cancelada?",
+        "blanks": [
+          { "accept": ["Quiere"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Die Formel lautet: *¿Quiere decir que…?* (3. Person Singular, usted)."
+      }
+    },
+    {
+      "id": "ex-picture-imprevisto",
+      "type": "exercise",
+      "title": "Wortbild: Was ist ein 'imprevisto'?",
+      "exercise": {
+        "id": "ex-picture-imprevisto",
+        "type": "picture_choice",
+        "prompt": "Welches Bild zeigt einen typischen *imprevisto* auf Reisen?",
+        "card_ids": ["un-imprevisto"],
+        "images": [
+          { "src": "assets/img/flight-delay.png", "label": "Flugverspätung — un vuelo retrasado", "is_correct": "true" },
+          { "src": "assets/img/hotel-checkin.png", "label": "Normales Einchecken im Hotel" },
+          { "src": "assets/img/sightseeing.png", "label": "Touristin bei der Besichtigung" },
+          { "src": "assets/img/restaurant-menu.png", "label": "Speisekarte im Restaurant" }
+        ],
+        "hint": "Ein *imprevisto* ist etwas Unerwartetes, das schief läuft — z. B. eine Verspätung.",
+        "distractors": [
+          "Normales Einchecken im Hotel",
+          "Touristin bei der Besichtigung",
+          "Speisekarte im Restaurant"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-arreglarselas",
+      "type": "exercise",
+      "title": "Sich durchschlagen — apañárselas / arreglárselas",
+      "exercise": {
+        "id": "ex-free-arreglarselas",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Wir kamen trotzdem zurecht, obwohl wir kein Hotel hatten.'",
+        "card_ids": ["apanarselas"],
+        "accept": [
+          "Nos las arreglamos aunque no teníamos hotel.",
+          "Nos las apañamos aunque no teníamos hotel.",
+          "Nos las arreglamos a pesar de no tener hotel.",
+          "Nos las apañamos a pesar de no tener hotel.",
+          "Pudimos arreglárnoslas aunque no teníamos hotel."
+        ],
+        "hint": "arreglárselas (überall) oder apañárselas (Spanien): *nos las arreglamos / apañamos*. Vergangenheitsform (Indefinido): *arreglamos / apañamos*.",
+        "distractors": [
+          "Nos las cancelamos aunque no teníamos hotel.",
+          "Nos lo arreglamos aunque no teníamos hotel.",
+          "Las arreglamos aunque no teníamos hotel."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-clarificar",
+      "type": "exercise",
+      "title": "Missverständnis klären — Satz ordnen",
+      "exercise": {
+        "id": "ex-tiles-clarificar",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: 'Könnten Sie es bitte anders erklären?'",
+        "card_ids": ["clarificar-malentendido", "podria-usted"],
+        "tiles": ["¿Podría", "explicarlo", "de", "otra", "manera,", "por", "favor?"],
+        "hint": "Kondicional von *poder* (usted) + Infinitiv + Ergänzungen.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-formeln",
+      "type": "exercise",
+      "title": "Höflichkeitsformeln zuordnen",
+      "exercise": {
+        "id": "ex-match-formeln",
+        "type": "matching",
+        "prompt": "Ordne jeder deutschen Bedeutung die passende spanische Formel zu.",
+        "card_ids": ["podria-usted", "perdone-moleste", "clarificar-malentendido"],
+        "pairs": [
+          { "left": "Könnten Sie das wiederholen?", "right": "¿Podría repetirlo?" },
+          { "left": "Entschuldigung, dass ich störe.", "right": "Perdone que le moleste." },
+          { "left": "Meinen Sie, dass...?", "right": "¿Quiere decir que...?" },
+          { "left": "Wären Sie so freundlich zu...?", "right": "¿Sería tan amable de...?" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-vosotros-ustedes",
+      "type": "exercise",
+      "title": "vosotros vs. ustedes — richtig wählen",
+      "exercise": {
+        "id": "ex-free-vosotros-ustedes",
+        "type": "free_text",
+        "prompt": "Du bist in Mexiko und fragst eine Gruppe von Freunden (informell, Plural): 'Wollt ihr noch etwas trinken?' — Welche Form ist korrekt?",
+        "card_ids": ["vosotros-vs-ustedes"],
+        "accept": [
+          "¿Quieren algo más de beber?",
+          "¿Quieren tomar algo más?",
+          "¿Quieren beber algo más?",
+          "¿Ustedes quieren algo más de beber?",
+          "¿Quieren algo más para tomar?"
+        ],
+        "hint": "In Lateinamerika (Mexiko) gibt es kein *vosotros* — auch informell heißt ‚ihr' **ustedes** mit 3. Person Plural.",
+        "distractors": [
+          "¿Queréis algo más de beber?",
+          "¿Vosotros quieren algo más de beber?",
+          "¿Queréis tomar algo más?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-cancelar",
+      "type": "exercise",
+      "title": "Stornieren — cancelar im Kontext",
+      "exercise": {
+        "id": "ex-cloze-cancelar",
+        "type": "cloze",
+        "prompt": "Ergänze das passende Verb: 'Wegen des unerwarteten Problems musste ich die Buchung stornieren.'",
+        "card_ids": ["cancelar", "un-imprevisto"],
+        "sentence": "Por culpa del imprevisto tuve que ___ la reserva.",
+        "blanks": [
+          { "accept": ["cancelar"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "stornieren = *cancelar* (Infinitiv nach *tener que*)."
+      }
+    }
+  ]
+}
