@@ -1,0 +1,345 @@
+{
+  "id": "es-a2-14-shopping-and-comparison",
+  "title": "Shopping and Comparison",
+  "description": "Shop and buy in Spanish: shops and the vocabulary of sales (rebajas, en oferta, probarse, talla/número), handling money, plus comparisons — más/menos/tan ... que/como, superlatives, the irregulars mejor/peor/mayor/menor, and demonstratives (este/ese/aquel).",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "shop-places",
+      "front": "la tienda, el centro comercial, el mercado",
+      "back": "the shop, the shopping mall, the market",
+      "notes": "*la tienda* is a single shop; *el centro comercial* is a mall; *el mercado* is a (usually food/open-air) market. Note: *centro comercial* literally 'commercial centre' — not a 'commercial' on TV.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "shopping", "places"]
+    },
+    {
+      "id": "shop-fitting",
+      "front": "el probador, el escaparate, probarse",
+      "back": "the fitting room, the shop window, to try on",
+      "notes": "*el probador* = fitting/changing room; *el escaparate* = the display window. *probarse* (reflexive) = to try on: *¿Puedo probármelo?* = Can I try it on?",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "shopping"]
+    },
+    {
+      "id": "shop-size",
+      "front": "la talla / el número",
+      "back": "size (clothes) / size (shoes)",
+      "notes": "Use **la talla** for clothing sizes (*¿Qué talla usas?*) and **el número** for shoe size (*¿Qué número calzas?*). Don't use *el tamaño* for clothes — that means physical size of an object.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "shopping", "pitfall"]
+    },
+    {
+      "id": "shop-cuanto",
+      "front": "¿Cuánto cuesta? / ¿Puedo probármelo? / Me lo llevo.",
+      "back": "How much is it? / Can I try it on? / I'll take it.",
+      "notes": "Core shopping phrases. *¿Cuánto cuesta?* (singular) / *¿Cuánto cuestan?* (plural). *Me lo llevo* literally 'I take it with me' = I'll take it / I'll buy it.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "shopping", "phrases"]
+    },
+    {
+      "id": "shop-sales",
+      "front": "las rebajas, está rebajado, en oferta",
+      "back": "the sales, it's reduced/discounted, on offer/special",
+      "notes": "*las rebajas* = the (seasonal) sales; *estar rebajado/a* = to be marked down; *en oferta* = on special offer. *Estos zapatos están en oferta* = These shoes are on offer.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "shopping", "sales"]
+    },
+    {
+      "id": "shop-pay",
+      "front": "pagar en efectivo / con tarjeta",
+      "back": "to pay in cash / by card",
+      "notes": "*en efectivo* = in cash (also *en metálico*); *con tarjeta* = by (credit/debit) card. False friend pitfall: *el efectivo* is 'cash', not 'effective'. *¿Paga en efectivo o con tarjeta?*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "money", "false-friend"]
+    },
+    {
+      "id": "comp-mas-menos",
+      "front": "más ... que / menos ... que",
+      "back": "more ... than / less (fewer) ... than",
+      "notes": "Comparisons of inequality: *Esta tienda es **más** cara **que** aquella* = This shop is more expensive than that one. *menos ... que* = less ... than. The connector is **que** when comparing two things.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "comparison"]
+    },
+    {
+      "id": "comp-tan-como",
+      "front": "tan ... como",
+      "back": "as ... as (equality)",
+      "notes": "For equality use **tan + adjective + como**: *Este abrigo es **tan** caro **como** el otro* = This coat is as expensive as the other. With nouns use *tanto/a/os/as ... como*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "comparison"]
+    },
+    {
+      "id": "comp-que-de",
+      "front": "más alto QUE ... / más DE 20 euros",
+      "back": "than (comparing things) vs. than (before numbers)",
+      "notes": "Use **que** to compare two things (*más alto **que** tú*). Use **de** before a number/quantity (*Cuesta más **de** 20 euros* = It costs more than 20 euros). English uses 'than' for both — a common error.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "comparison", "pitfall"]
+    },
+    {
+      "id": "comp-superlative",
+      "front": "el/la más ... de",
+      "back": "the most ... in/of (superlative)",
+      "notes": "Superlative: **el/la/los/las + (noun) + más + adjective + de**. *Es la tienda **más** barata **de** la ciudad* = It's the cheapest shop in the city. Note **de** translates English 'in': *the cheapest **in** the city*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "comparison", "superlative"]
+    },
+    {
+      "id": "comp-irregulars",
+      "front": "mejor, peor, mayor, menor",
+      "back": "better, worse, older/bigger, younger/smaller",
+      "notes": "Irregular comparatives — never say *más bueno* or *más malo*: use **mejor** (better) and **peor** (worse). **mayor** = older / greater; **menor** = younger / lesser. *Esta calidad es **mejor que** la otra.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "comparison", "irregular", "pitfall"]
+    },
+    {
+      "id": "demonstratives",
+      "front": "este/esta, ese/esa, aquel/aquella",
+      "back": "this, that (near you), that (over there)",
+      "notes": "Three degrees of distance: **este** (this, near me), **ese** (that, near you), **aquel** (that, far from both). They agree in gender/number: *este coche, esta falda, estos zapatos, aquellas tiendas*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "demonstratives"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Going shopping",
+      "body": "# In the shops\n\nLet's build the language you need to shop in Spanish, from the places to the moment you pay.\n\n**Where you shop**\n\n- *la tienda* — the shop\n- *el centro comercial* — the shopping mall\n- *el mercado* — the market\n\n**Trying things on**\n\n- *el escaparate* — the shop window\n- *el probador* — the fitting room\n- *probarse* — to try on → *¿Puedo probármelo?* = Can I try it on?\n\n**Sizes — a key distinction:**\n\n- **la talla** = clothing size → *¿Qué talla usa?*\n- **el número** = shoe size → *¿Qué número calza?*\n\n> ⚠️ Don't mix them up: clothes use *talla*, shoes use *número*. And avoid *el tamaño* for either — that's the physical size of an object.\n\n**Useful phrases**\n\n- *¿Cuánto cuesta?* / *¿Cuánto cuestan?* — How much is it / are they?\n- *Me lo llevo.* — I'll take it.\n- *está rebajado*, *en oferta*, *las rebajas* — reduced, on offer, the sales\n- *pagar en efectivo / con tarjeta* — to pay in cash / by card\n\n> 💡 *en efectivo* means 'in cash' — it is **not** the English word 'effective'."
+    },
+    {
+      "id": "step-comparatives",
+      "type": "theory",
+      "title": "Comparatives and superlatives",
+      "body": "## Comparing things\n\n| Type | Pattern | Example |\n|---|---|---|\n| More | **más** + adj + **que** | *más caro **que*** (more expensive than) |\n| Less | **menos** + adj + **que** | *menos caro **que*** (less expensive than) |\n| Equal | **tan** + adj + **como** | *tan caro **como*** (as expensive as) |\n| Most/-est | el/la **más** + adj + **de** | *el **más** caro **de*** (the most expensive in) |\n\nThe **superlative** uses *de* where English uses 'in': *la tienda más barata **de** la ciudad* = the cheapest shop **in** the city.\n\n**Irregular comparatives** — do NOT say *más bueno* / *más malo*:\n\n| Adjective | Comparative |\n|---|---|\n| bueno (good) | **mejor** (better) |\n| malo (bad) | **peor** (worse) |\n| grande / viejo | **mayor** (older / greater) |\n| pequeño / joven | **menor** (younger / lesser) |\n\n> ⚠️ **que vs. de.** Use **que** to compare two things: *más alto **que** tú*. Use **de** before a number: *Cuesta más **de** 20 euros* (more than 20 euros). English 'than' covers both, so this is an easy slip."
+    },
+    {
+      "id": "step-demonstratives",
+      "type": "theory",
+      "title": "This, that, that over there",
+      "body": "## Demonstratives\n\nSpanish has **three** demonstratives, by distance from the speaker:\n\n| Distance | Masc. sing. | Fem. sing. | Masc. pl. | Fem. pl. |\n|---|---|---|---|---|\n| near me (*this*) | este | esta | estos | estas |\n| near you (*that*) | ese | esa | esos | esas |\n| far away (*that ... over there*) | aquel | aquella | aquellos | aquellas |\n\nThey **agree** with the noun in gender and number:\n\n- ***este** abrigo* (this coat), ***esta** falda* (this skirt)\n- ***esos** zapatos* (those shoes near you)\n- ***aquellas** tiendas* (those shops over there)\n\n> ⚠️ Agreement matters: it's *esta tienda* (fem.), not *este tienda*. Match the demonstrative to the noun's gender and number."
+    },
+    {
+      "id": "ex-match-shopvocab",
+      "type": "exercise",
+      "title": "Match the shopping words",
+      "exercise": {
+        "id": "ex-match-shopvocab",
+        "type": "matching",
+        "prompt": "Match each Spanish word with its English meaning.",
+        "card_ids": ["shop-places", "shop-fitting", "shop-size"],
+        "pairs": [
+          {"left": "el centro comercial", "right": "the shopping mall"},
+          {"left": "el probador", "right": "the fitting room"},
+          {"left": "el escaparate", "right": "the shop window"},
+          {"left": "la talla", "right": "clothing size"},
+          {"left": "el número", "right": "shoe size"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-howmuch",
+      "type": "exercise",
+      "title": "Asking the price",
+      "exercise": {
+        "id": "ex-free-howmuch",
+        "type": "free_text",
+        "prompt": "Translate: *How much does this shirt cost?*",
+        "card_ids": ["shop-cuanto", "demonstratives"],
+        "accept": ["¿Cuánto cuesta esta camisa?", "cuánto cuesta esta camisa", "¿Cuanto cuesta esta camisa?", "Cuánto cuesta esta camisa", "¿Cuánto cuesta esta camisa"],
+        "hint": "¿Cuánto cuesta + this (fem.) camisa? Match the demonstrative to camisa (feminine).",
+        "distractors": ["¿Cuánto cuesta este camisa?", "¿Cuántos cuesta esta camisa?", "¿Cuánto cuestan esta camisa?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-mascaro",
+      "type": "exercise",
+      "title": "More expensive than",
+      "exercise": {
+        "id": "ex-cloze-mascaro",
+        "type": "cloze",
+        "prompt": "Fill in the comparative. Comparing two cars:",
+        "card_ids": ["comp-mas-menos"],
+        "sentence": "Este coche es ___ caro que el otro.",
+        "blanks": [{"accept": ["más", "mas"]}],
+        "cloze_mode": "type",
+        "hint": "'more ... than' = más ... que."
+      }
+    },
+    {
+      "id": "ex-cloze-quede",
+      "type": "exercise",
+      "title": "que or de?",
+      "exercise": {
+        "id": "ex-cloze-quede",
+        "type": "cloze",
+        "prompt": "Before a number, which word means 'than'? Fill the blank:",
+        "card_ids": ["comp-que-de"],
+        "sentence": "Estos zapatos cuestan más ___ cincuenta euros.",
+        "blanks": [{"accept": ["de"]}],
+        "cloze_mode": "type",
+        "hint": "Before a number/quantity, 'than' is de, not que: más de 50 euros."
+      }
+    },
+    {
+      "id": "ex-free-better",
+      "type": "exercise",
+      "title": "Better, not 'more good'",
+      "exercise": {
+        "id": "ex-free-better",
+        "type": "free_text",
+        "prompt": "Translate: *This quality is better than the other.*",
+        "card_ids": ["comp-irregulars", "comp-mas-menos"],
+        "accept": ["Esta calidad es mejor que la otra.", "esta calidad es mejor que la otra", "Esta calidad es mejor que la otra", "La calidad es mejor que la otra."],
+        "hint": "'better' is the irregular mejor (never más bueno). 'than' between two things = que.",
+        "distractors": ["Esta calidad es más buena que la otra.", "Esta calidad es mejor de la otra.", "Esta calidad es más mejor que la otra."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-tryon",
+      "type": "exercise",
+      "title": "Build: Can I try it on?",
+      "exercise": {
+        "id": "ex-tiles-tryon",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to ask: *Can I try it on?*",
+        "card_ids": ["shop-fitting", "shop-cuanto"],
+        "tiles": ["¿Puedo", "probármelo?"],
+        "hint": "poder + probarse + lo → ¿Puedo probármelo?",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-fittingroom",
+      "type": "exercise",
+      "title": "Where do you try clothes on?",
+      "exercise": {
+        "id": "ex-pic-fittingroom",
+        "type": "picture_choice",
+        "prompt": "Which word means 'the fitting room'?",
+        "card_ids": ["shop-fitting"],
+        "images": [
+          {"src": "assets/img/el-probador.png", "label": "el probador", "is_correct": "true"},
+          {"src": "assets/img/el-escaparate.png", "label": "el escaparate"},
+          {"src": "assets/img/el-mercado.png", "label": "el mercado"},
+          {"src": "assets/img/la-talla.png", "label": "la talla"}
+        ],
+        "hint": "It's the small room where you try on clothes — from probarse (to try on).",
+        "distractors": ["el escaparate", "el mercado", "la talla"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-tancomo",
+      "type": "exercise",
+      "title": "As expensive as",
+      "exercise": {
+        "id": "ex-cloze-tancomo",
+        "type": "cloze",
+        "prompt": "Fill in the equality comparison ('as ... as'):",
+        "card_ids": ["comp-tan-como"],
+        "sentence": "Este abrigo es ___ caro como el otro.",
+        "blanks": [{"accept": ["tan"]}],
+        "cloze_mode": "type",
+        "hint": "'as ... as' = tan + adjective + como."
+      }
+    },
+    {
+      "id": "ex-free-cheapest",
+      "type": "exercise",
+      "title": "The cheapest in the city",
+      "exercise": {
+        "id": "ex-free-cheapest",
+        "type": "free_text",
+        "prompt": "Translate: *It's the cheapest shop in the city.*",
+        "card_ids": ["comp-superlative"],
+        "accept": ["Es la tienda más barata de la ciudad.", "es la tienda más barata de la ciudad", "Es la tienda más barata de la ciudad", "Es la más barata tienda de la ciudad."],
+        "hint": "Superlative: la tienda más barata; 'in the city' uses de, not en → de la ciudad.",
+        "distractors": ["Es la tienda más barata en la ciudad.", "Es la tienda la más barata de la ciudad.", "Es la tienda más buena de la ciudad."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-paycard",
+      "type": "exercise",
+      "title": "Paying",
+      "exercise": {
+        "id": "ex-free-paycard",
+        "type": "free_text",
+        "prompt": "Translate: *I'll take it. I'm paying by card.*",
+        "card_ids": ["shop-cuanto", "shop-pay"],
+        "accept": ["Me lo llevo. Pago con tarjeta.", "me lo llevo. pago con tarjeta", "Me lo llevo, pago con tarjeta.", "Me lo llevo. Pago con tarjeta", "Me lo llevo. Voy a pagar con tarjeta."],
+        "hint": "'I'll take it' = Me lo llevo. 'by card' = con tarjeta.",
+        "distractors": ["Me lo llevo. Pago en tarjeta.", "Me lo llevo. Pago con efectivo.", "Lo llevo. Pago por tarjeta."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-demonstratives",
+      "type": "exercise",
+      "title": "Match the demonstratives",
+      "exercise": {
+        "id": "ex-match-demonstratives",
+        "type": "matching",
+        "prompt": "Match each demonstrative with its meaning.",
+        "card_ids": ["demonstratives"],
+        "pairs": [
+          {"left": "esta falda", "right": "this skirt"},
+          {"left": "esos zapatos", "right": "those shoes (near you)"},
+          {"left": "aquella tienda", "right": "that shop (over there)"},
+          {"left": "estos abrigos", "right": "these coats"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-demo-agree",
+      "type": "exercise",
+      "title": "Demonstrative agreement",
+      "exercise": {
+        "id": "ex-cloze-demo-agree",
+        "type": "cloze",
+        "prompt": "Fill in 'this' to agree with *tienda* (feminine):",
+        "card_ids": ["demonstratives"],
+        "sentence": "___ tienda está en oferta hoy.",
+        "blanks": [{"accept": ["Esta", "esta"]}],
+        "cloze_mode": "type",
+        "hint": "tienda is feminine, so 'this' = esta (not este)."
+      }
+    },
+    {
+      "id": "ex-free-onsale",
+      "type": "exercise",
+      "title": "On sale",
+      "exercise": {
+        "id": "ex-free-onsale",
+        "type": "free_text",
+        "prompt": "Translate: *These shoes are on offer.*",
+        "card_ids": ["shop-sales", "demonstratives"],
+        "accept": ["Estos zapatos están en oferta.", "estos zapatos están en oferta", "Estos zapatos están en oferta", "Estos zapatos están rebajados."],
+        "hint": "'these' (masc. pl.) = estos; 'on offer' = en oferta; use están (plural).",
+        "distractors": ["Estos zapatos son en oferta.", "Estas zapatos están en oferta.", "Estos zapatos están en efectivo."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

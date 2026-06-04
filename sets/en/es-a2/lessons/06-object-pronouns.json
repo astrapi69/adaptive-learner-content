@@ -1,0 +1,350 @@
+{
+  "id": "es-a2-06-object-pronouns",
+  "title": "Object Pronouns and Their Combinations",
+  "description": "Replace nouns with direct (lo, la, los, las) and indirect (le, les) object pronouns, place them correctly (before a conjugated verb, attached to infinitives, gerunds and commands), and combine two pronouns including the key le/les -> se change (Se lo doy).",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "do-pronouns",
+      "front": "me, te, lo/la, nos, os, los/las",
+      "back": "direct object pronouns (the 'it / him / her / them' that receives the action)",
+      "notes": "**Direct object** pronouns replace the thing or person directly acted on: *¿Ves la casa? La veo.* (Do you see the house? I see **it**.) The 3rd person agrees in gender and number: **lo** (masc.), **la** (fem.), **los/las** (plural).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "pronouns", "direct-object"]
+    },
+    {
+      "id": "io-pronouns",
+      "front": "me, te, le, nos, os, les",
+      "back": "indirect object pronouns (the 'to/for whom')",
+      "notes": "**Indirect object** pronouns mark the person who receives *to* or *for* whom something is done: *Le doy el libro* = I give the book **to him/her**. Note 3rd person is **le / les** (no gender change), unlike the direct *lo/la*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "pronouns", "indirect-object"]
+    },
+    {
+      "id": "position-before",
+      "front": "Lo veo. / La conozco. / Te llamo.",
+      "back": "pronouns go BEFORE a conjugated verb",
+      "notes": "English puts the object **after** the verb (*I see **it***). Spanish puts the pronoun **before** the conjugated verb: *Lo veo.* Never *Veo lo*. This reversed word order is the #1 thing to retrain.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "pronouns", "position"]
+    },
+    {
+      "id": "position-attach",
+      "front": "Quiero verlo. / Voy a verlo. / Estoy haciéndolo.",
+      "back": "pronouns attach to infinitives and gerunds",
+      "notes": "With an **infinitive** (*verlo*) or **gerund** (*haciéndolo*) the pronoun attaches to the end. With two verbs you may choose: *Lo quiero ver* OR *Quiero verlo* — both correct. Attaching to a gerund adds a written accent (*haciéndolo*).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "pronouns", "position"]
+    },
+    {
+      "id": "position-commands",
+      "front": "Cómpralo. / Dámelo. (but: No lo compres.)",
+      "back": "attach to affirmative commands; before negative ones",
+      "notes": "**Affirmative** commands take the pronoun attached, often adding an accent: *Cómpralo* (Buy it). **Negative** commands put it before: *No lo compres* (Don't buy it). Same split for *Hazlo* vs *No lo hagas*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "pronouns", "commands"]
+    },
+    {
+      "id": "combine-order",
+      "front": "Me lo da. / Te la doy. / Nos los trae.",
+      "back": "two pronouns: INDIRECT before DIRECT",
+      "notes": "When both appear together, the **indirect** pronoun comes first, then the **direct**: *Me lo da* = He gives **it to me**. Order: indirect + direct + verb. English says it in the opposite order ('it to me'), so the sequence feels reversed.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "pronouns", "combination"]
+    },
+    {
+      "id": "combine-se",
+      "front": "Se lo doy.  (NOT le lo doy)",
+      "back": "le/les becomes SE before lo/la/los/las",
+      "notes": "The big rule: when **le** or **les** would sit next to **lo, la, los, las**, it changes to **se**. *Le doy el libro -> Se lo doy.* You can never say *le lo*. There is **no English parallel**, so this must be memorized.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "pronouns", "combination", "se"]
+    },
+    {
+      "id": "redundant-a",
+      "front": "A Juan le doy el libro. / A ella le gusta.",
+      "back": "the redundant / clarifying 'a + person'",
+      "notes": "Spanish often **doubles** the indirect object: the pronoun *le* PLUS *a + person*. *A Juan le doy el libro* (literally 'to Juan I give him the book'). It clarifies who *le/se* refers to, since *se lo doy* alone could mean to him, her, them or you.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "pronouns", "clarification"]
+    },
+    {
+      "id": "lo-la-agreement",
+      "front": "el coche -> lo veo / la casa -> la veo",
+      "back": "lo/la must agree with the noun's gender",
+      "notes": "Choose the direct pronoun by the gender of the noun it replaces: *el coche* (masc.) -> **lo** veo; *la casa* (fem.) -> **la** veo; *los libros* -> **los**; *las llaves* -> **las**. English 'it' has no gender, so this agreement is easy to forget.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "pronouns", "agreement"]
+    },
+    {
+      "id": "gusta-style",
+      "front": "Me gusta el café. / Le interesa el arte.",
+      "back": "indirect pronoun with gustar-type verbs",
+      "notes": "Verbs like *gustar, encantar, interesar* always use an **indirect** pronoun: *Me gusta* = it is pleasing **to me**. The thing that pleases is the subject and controls the verb: *Me gustan los libros* (plural).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "pronouns", "gustar"]
+    },
+    {
+      "id": "leismo",
+      "front": "Le vi (= Lo vi) — leísmo",
+      "back": "leísmo: using 'le' for a male person (Spain)",
+      "notes": "In much of Spain, *le* is used as the **direct** object for a male person: *A Pablo le vi ayer* instead of *lo vi*. This is called **leísmo** and is accepted for male people. Standard / Latin American Spanish prefers *lo*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "pronouns", "leismo", "regional"]
+    },
+    {
+      "id": "no-omit-pronoun",
+      "front": "Sí, lo tengo.  (NOT: Sí, tengo.)",
+      "back": "don't drop the pronoun in short answers",
+      "notes": "English can drop the object (*Yes, I have*). Spanish keeps the pronoun: *¿Tienes el billete? Sí, lo tengo.* Leaving it out (*Sí, tengo*) sounds incomplete. The pronoun stands in for the noun you already mentioned.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "pronouns", "error"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Two kinds of object pronouns",
+      "body": "# Direct and indirect object pronouns\n\nA pronoun lets you avoid repeating a noun. Spanish has two sets.\n\n**Direct object** = the thing or person directly acted on (the 'what' or 'whom'):\n\n| Person | DO pronoun |\n|---|---|\n| me | me |\n| you | te |\n| him/her/it | **lo / la** |\n| us | nos |\n| you (pl.) | os |\n| them | **los / las** |\n\n*¿Ves la casa? — Sí, **la** veo.* (Do you see the house? Yes, I see **it**.)\n\n**Indirect object** = the person *to/for whom* (the receiver):\n\n| Person | IO pronoun |\n|---|---|\n| to me | me |\n| to you | te |\n| to him/her | **le** |\n| to us | nos |\n| to you (pl.) | os |\n| to them | **les** |\n\n*¿El libro? — **Le** doy el libro a María.* (I give the book **to her**.)\n\n> Note the only real difference is the 3rd person: direct **lo/la/los/las** (gender!) vs indirect **le/les** (no gender)."
+    },
+    {
+      "id": "step-position",
+      "type": "theory",
+      "title": "Where the pronoun goes",
+      "body": "## Position: this is where English-speakers slip\n\nEnglish puts the object **after** the verb: *I see **it**.* Spanish puts the pronoun **before** the conjugated verb:\n\n> *Lo veo.* (not *Veo lo*)\n> *Te llamo mañana.*\n\n**But** with an infinitive, a gerund, or an affirmative command, it **attaches to the end**:\n\n- Infinitive: *Quiero **verlo**.* / *Voy a **verlo**.* (also fine: *Lo quiero ver* / *Lo voy a ver*)\n- Gerund: *Estoy **haciéndolo**.* (note the accent)\n- Affirmative command: *Cómpra**lo**.* / *Dá**me**lo.*\n\n**Negative** commands flip back to before: *No **lo** compres.* / *No **lo** hagas.*\n\n> ⚠️ The order *Veo lo* / *Llamo te* is always wrong. Retrain the reflex: pronoun first, then the conjugated verb."
+    },
+    {
+      "id": "step-combine",
+      "type": "theory",
+      "title": "Combining two pronouns",
+      "body": "## Indirect before direct — and le -> se\n\nWhen both pronouns appear, the **indirect** comes first, then the **direct**, then the verb:\n\n> *Me lo da.* = He gives **it to me**.\n> *Te la traigo.* = I bring **it to you**.\n\n**The key rule:** when *le* or *les* would meet *lo, la, los, las*, it changes to **se** — you can never say *le lo*:\n\n> *Le doy el libro* -> ***Se** lo doy.* (NOT *le lo doy*)\n> *Les compro los billetes* -> ***Se** los compro.*\n\nThere is **no English equivalent** for this change, so memorize it.\n\n**Clarifying 'a + person'.** Because *se* (and *le*) is ambiguous, Spanish often adds *a + person*, and even doubles it with a noun already present:\n\n> *A Juan **le** doy el libro.* / *Se lo doy **a ella**.*\n\n> Regional note: in much of Spain, **leísmo** uses *le* as the direct object for a male person (*A Pablo le vi* = lo vi). It is accepted; Latin American Spanish prefers *lo*."
+    },
+    {
+      "id": "ex-match-do",
+      "type": "exercise",
+      "title": "Match the direct pronoun",
+      "exercise": {
+        "id": "ex-match-do",
+        "type": "matching",
+        "prompt": "Match each noun with the direct object pronoun that replaces it.",
+        "card_ids": ["do-pronouns", "lo-la-agreement"],
+        "pairs": [
+          {"left": "el coche", "right": "lo"},
+          {"left": "la casa", "right": "la"},
+          {"left": "los libros", "right": "los"},
+          {"left": "las llaves", "right": "las"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-io",
+      "type": "exercise",
+      "title": "Match the indirect pronoun",
+      "exercise": {
+        "id": "ex-match-io",
+        "type": "matching",
+        "prompt": "Match each English phrase with its indirect object pronoun.",
+        "card_ids": ["io-pronouns"],
+        "pairs": [
+          {"left": "to me", "right": "me"},
+          {"left": "to you", "right": "te"},
+          {"left": "to him/her", "right": "le"},
+          {"left": "to us", "right": "nos"},
+          {"left": "to them", "right": "les"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-i-see-it",
+      "type": "exercise",
+      "title": "Position before the verb",
+      "exercise": {
+        "id": "ex-free-i-see-it",
+        "type": "free_text",
+        "prompt": "Translate: *I see it.* (referring to *el coche*, the car)",
+        "card_ids": ["position-before", "lo-la-agreement"],
+        "accept": ["Lo veo.", "lo veo", "Lo veo", "Yo lo veo."],
+        "hint": "el coche is masculine -> lo, and the pronoun goes BEFORE the verb.",
+        "distractors": ["Veo lo.", "La veo.", "Veo."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-se",
+      "type": "exercise",
+      "title": "le or se?",
+      "exercise": {
+        "id": "ex-cloze-se",
+        "type": "cloze",
+        "prompt": "Fill in the indirect pronoun. Remember what happens before *lo*.",
+        "card_ids": ["combine-se"],
+        "sentence": "¿El libro? ___ lo doy a María mañana.",
+        "blanks": [{"accept": ["Se", "se"]}],
+        "cloze_mode": "type",
+        "hint": "le would meet lo -> it must change. le/les -> se.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-give-it-to-me",
+      "type": "exercise",
+      "title": "Build: He gives it to me",
+      "exercise": {
+        "id": "ex-tiles-give-it-to-me",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *He gives it to me.* (it = el dinero)",
+        "card_ids": ["combine-order"],
+        "tiles": ["Me", "lo", "da"],
+        "hint": "Indirect (me) before direct (lo), then the verb.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-want-to-see-it",
+      "type": "exercise",
+      "title": "Build: I want to see it",
+      "exercise": {
+        "id": "ex-tiles-want-to-see-it",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I want to see it.* (it = la película) Attach the pronoun to the infinitive.",
+        "card_ids": ["position-attach"],
+        "tiles": ["Quiero", "verla"],
+        "hint": "With an infinitive the pronoun attaches to the end: ver + la = verla.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-buy-it",
+      "type": "exercise",
+      "title": "Which command is correct?",
+      "exercise": {
+        "id": "ex-pic-buy-it",
+        "type": "picture_choice",
+        "prompt": "You tell a friend to buy it (it = el pan). Which sentence is the correct affirmative command 'Buy it'?",
+        "card_ids": ["position-commands"],
+        "images": [
+          {"src": "assets/img/compralo-1.png", "label": "Cómpralo.", "is_correct": "true"},
+          {"src": "assets/img/compralo-2.png", "label": "Lo compra."},
+          {"src": "assets/img/compralo-3.png", "label": "Compra lo."},
+          {"src": "assets/img/compralo-4.png", "label": "Cómprala."}
+        ],
+        "hint": "Affirmative commands attach the pronoun and often take an accent: Cómpralo.",
+        "distractors": ["Lo compra.", "Compra lo.", "Cómprala."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-give-it-to-her",
+      "type": "exercise",
+      "title": "The le -> se change",
+      "exercise": {
+        "id": "ex-free-give-it-to-her",
+        "type": "free_text",
+        "prompt": "Translate: *I give it to her.* (it = el libro)",
+        "card_ids": ["combine-se", "combine-order"],
+        "accept": ["Se lo doy.", "se lo doy", "Se lo doy", "Se lo doy a ella.", "Yo se lo doy."],
+        "hint": "le + lo is impossible -> le becomes se. Indirect (se) before direct (lo).",
+        "distractors": ["Le lo doy.", "Lo se doy.", "Lo doy."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-redundant-a",
+      "type": "exercise",
+      "title": "Redundant 'a + person'",
+      "exercise": {
+        "id": "ex-cloze-redundant-a",
+        "type": "cloze",
+        "prompt": "Fill in the indirect pronoun that doubles 'a Juan'.",
+        "card_ids": ["redundant-a"],
+        "sentence": "A Juan ___ doy el libro.",
+        "blanks": [{"accept": ["le"]}],
+        "cloze_mode": "type",
+        "hint": "Spanish doubles the indirect object: a Juan + the matching pronoun (singular, to him).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-yes-i-have-it",
+      "type": "exercise",
+      "title": "Don't drop the pronoun",
+      "exercise": {
+        "id": "ex-free-yes-i-have-it",
+        "type": "free_text",
+        "prompt": "Translate: *Yes, I have it.* (it = el billete, the ticket)",
+        "card_ids": ["no-omit-pronoun", "lo-la-agreement"],
+        "accept": ["Sí, lo tengo.", "si, lo tengo", "Sí lo tengo.", "Sí, lo tengo"],
+        "hint": "el billete is masculine -> lo. Keep the pronoun; don't say 'Sí, tengo'.",
+        "distractors": ["Sí, tengo.", "Sí, la tengo.", "Sí, tengo lo."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-gusta",
+      "type": "exercise",
+      "title": "Indirect pronoun with gustar",
+      "exercise": {
+        "id": "ex-cloze-gusta",
+        "type": "cloze",
+        "prompt": "Fill in the indirect pronoun: 'I like coffee' (literally 'coffee is pleasing to me').",
+        "card_ids": ["gusta-style"],
+        "sentence": "___ gusta el café.",
+        "blanks": [{"accept": ["Me", "me"]}],
+        "cloze_mode": "type",
+        "hint": "gustar uses an indirect pronoun: to me = me.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-they-bring-them",
+      "type": "exercise",
+      "title": "Two pronouns together",
+      "exercise": {
+        "id": "ex-free-they-bring-them",
+        "type": "free_text",
+        "prompt": "Translate: *They bring them to us.* (them = los paquetes, the packages)",
+        "card_ids": ["combine-order", "do-pronouns"],
+        "accept": ["Nos los traen.", "nos los traen", "Nos los traen", "Ellos nos los traen."],
+        "hint": "Indirect (nos = to us) before direct (los = them, masc. plural), then the verb traen.",
+        "distractors": ["Los nos traen.", "Nos les traen.", "Traen nos los."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-combine",
+      "type": "exercise",
+      "title": "Match the combined forms",
+      "exercise": {
+        "id": "ex-match-combine",
+        "type": "matching",
+        "prompt": "Match each Spanish sentence with its English meaning.",
+        "card_ids": ["combine-order", "combine-se"],
+        "pairs": [
+          {"left": "Me lo da.", "right": "He gives it to me."},
+          {"left": "Te la doy.", "right": "I give it to you."},
+          {"left": "Se lo doy.", "right": "I give it to him/her."},
+          {"left": "Nos los trae.", "right": "He brings them to us."}
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

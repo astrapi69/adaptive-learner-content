@@ -1,0 +1,333 @@
+{
+  "id": "es-a2-12-food-and-restaurant",
+  "title": "Food and the Restaurant",
+  "description": "Order a meal like a local: the three meals and the courses, polite ways to order (Para mí..., ¿Me trae...?, ¿Qué me recomienda?, La cuenta por favor), food and taste vocabulary, dietary needs (soy vegetariano/a, sin gluten), typical dishes (la paella, el gazpacho, las tapas), and the gustar/encantar structure.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "food-meals",
+      "front": "el desayuno, la comida / el almuerzo, la cena",
+      "back": "breakfast, lunch, dinner",
+      "notes": "The three meals: **el desayuno** (breakfast), **la comida** or **el almuerzo** (lunch — *la comida* is the usual word in Spain), and **la cena** (dinner). The verbs are *desayunar, comer/almorzar, cenar*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "food", "meals"]
+    },
+    {
+      "id": "food-courses",
+      "front": "el primer plato, el segundo plato, el postre",
+      "back": "first course, main course, dessert",
+      "notes": "A Spanish meal often comes in courses: **el primer plato** (starter/first course), **el segundo plato** (main course), and **el postre** (dessert). A fixed-price meal is **el menú del día**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "food", "restaurant"]
+    },
+    {
+      "id": "food-ordering-polite",
+      "front": "Para mí..., ¿Me trae...?, La cuenta, por favor",
+      "back": "For me..., Could you bring me...?, The bill, please",
+      "notes": "Polite ordering phrases: **Para mí, la paella** (For me, the paella), **¿Me trae el menú?** (Could you bring me the menu?), and **La cuenta, por favor** (The bill, please). *Trae* is the polite *usted* form of *traer*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "restaurant", "phrases"]
+    },
+    {
+      "id": "food-recommend",
+      "front": "¿Qué me recomienda? / Yo quería...",
+      "back": "What do you recommend? / I would like... (lit. I wanted)",
+      "notes": "Ask the waiter **¿Qué me recomienda?** (What do you recommend?, *usted* form). To order softly, Spanish uses the imperfect: **Yo quería el gazpacho** (literally 'I wanted', but it means 'I'd like') — sounds more polite than *quiero*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "restaurant", "phrases"]
+    },
+    {
+      "id": "food-proteins",
+      "front": "los mariscos, la ternera, el cordero, las gambas",
+      "back": "seafood/shellfish, beef/veal, lamb, prawns/shrimp",
+      "notes": "Common menu words: **los mariscos** (shellfish/seafood), **la ternera** (beef or veal), **el cordero** (lamb), and **las gambas** (prawns/shrimp). Note: in Latin America prawns are often **los camarones**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "food"]
+    },
+    {
+      "id": "food-veg",
+      "front": "las verduras, los champiñones, el ajo",
+      "back": "vegetables, mushrooms, garlic",
+      "notes": "**las verduras** (vegetables), **los champiñones** (mushrooms), **el ajo** (garlic). *El ajo* is everywhere in Spanish cooking — *gambas al ajillo* (garlic prawns) is a classic tapa.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "food"]
+    },
+    {
+      "id": "food-taste",
+      "front": "picante, soso, salado, dulce, amargo, rico",
+      "back": "spicy, bland, salty, sweet, bitter, tasty",
+      "notes": "Describing taste: **picante** (spicy/hot), **soso** (bland, under-salted), **salado** (salty), **dulce** (sweet), **amargo** (bitter), **rico** (delicious/tasty). Use *estar* for taste: *Está muy rico* = It's really tasty.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "food", "adjectives"]
+    },
+    {
+      "id": "food-estar-ser-rico",
+      "front": "Está rico (tastes good) ≠ Es rico (he is rich)",
+      "back": "estar rico = tastes good; ser rico = is wealthy",
+      "notes": "Watch the verb! **Está rico** = it *tastes* delicious (temporary, about the food). **Es rico** = he/she/it *is* rich (wealthy). So *El pastel está rico* = the cake is yummy, but *Mi tío es rico* = my uncle is wealthy.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "food", "error"]
+    },
+    {
+      "id": "food-gustar",
+      "front": "Me gustan las gambas. / Me encanta la paella.",
+      "back": "I like prawns. / I love the paella.",
+      "notes": "**gustar** works backwards from English: the thing liked is the subject. *Me gustan las gambas* (lit. 'prawns please me') — plural thing → **gustan**; singular → **gusta**. Never *Yo gusto*. **Encantar** ('to love') works the same: *Me encanta la paella*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "gustar", "food"]
+    },
+    {
+      "id": "food-dietary",
+      "front": "Soy vegetariano/a. Soy alérgico/a a... Sin gluten.",
+      "back": "I'm vegetarian. I'm allergic to... Gluten-free.",
+      "notes": "Dietary needs: **Soy vegetariano/a** (I'm vegetarian), **Soy alérgico/a a los mariscos** (I'm allergic to shellfish), **sin gluten** (gluten-free), **sin lactosa** (lactose-free). Match the *-o/-a* ending to yourself.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "restaurant", "phrases"]
+    },
+    {
+      "id": "food-embarazada",
+      "front": "estar embarazada = to be pregnant (NOT embarrassed!)",
+      "back": "embarazada = pregnant; embarrassed = avergonzado/a",
+      "notes": "False friend alert! **embarazada** does **not** mean 'embarrassed' — it means **pregnant**. To say you're embarrassed, use **avergonzado/a** or **tener vergüenza**: *Estoy avergonzada* / *Me da vergüenza*. So *Estoy embarazada* announces a baby, not awkwardness!",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "false-friend", "error"]
+    },
+    {
+      "id": "food-typical-dishes",
+      "front": "la paella, el gazpacho, las tapas, la tortilla española",
+      "back": "paella, cold tomato soup, small plates, Spanish omelette",
+      "notes": "Typical dishes: **la paella** (rice with seafood/meat), **el gazpacho** (cold tomato-and-vegetable soup), **las tapas** (small shared plates), and **la tortilla española** (a thick potato-and-egg omelette — not a Mexican tortilla!).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "food", "culture"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Meals, courses and the menu",
+      "body": "# Eating out in Spanish\n\nFirst, the three meals of the day:\n\n| Spanish | English |\n|---|---|\n| el desayuno | breakfast |\n| la comida / el almuerzo | lunch |\n| la cena | dinner |\n\nIn Spain, **la comida** is the normal word for the midday meal; *el almuerzo* is common in Latin America.\n\nIn a restaurant, a full meal comes in **courses**:\n\n- **el primer plato** — first course / starter\n- **el segundo plato** — main course\n- **el postre** — dessert\n\nA great-value option is **el menú del día** — a fixed-price lunch with several courses and a drink.\n\n> Heads-up: **la tortilla española** is a thick *potato-and-egg omelette*, not a flat Mexican tortilla."
+    },
+    {
+      "id": "step-ordering",
+      "type": "theory",
+      "title": "Ordering politely",
+      "body": "## How to order without sounding rude\n\nSpanish has neat fixed phrases for the table. Many use the polite **usted** verb form:\n\n- **¿Me trae el menú, por favor?** — Could you bring me the menu? (*trae* = polite form of *traer*)\n- **¿Qué me recomienda?** — What do you recommend?\n- **Para mí, la paella.** — For me, the paella. (great for going round the table)\n- **Yo quería el gazpacho.** — I'd like the gazpacho. (literally 'I wanted' — the imperfect sounds softer and more polite than *quiero*)\n- **La cuenta, por favor.** — The bill, please.\n\n> The little word **me** in *¿Me trae...?* and *¿Qué me recomienda?* is an indirect object — 'to/for me'. It makes the request personal and polite."
+    },
+    {
+      "id": "step-gustar-taste",
+      "type": "theory",
+      "title": "Liking food, and a famous false friend",
+      "body": "## gustar, encantar and how things taste\n\n**gustar** literally means 'to be pleasing', so it works **backwards** from English. The thing you like is the subject:\n\n- **Me gusta la paella.** — I like paella. (singular thing → *gusta*)\n- **Me gustan las gambas.** — I like prawns. (plural thing → *gustan*)\n- **Me encanta el gazpacho.** — I love the gazpacho.\n\n> ⚠️ Never say *Yo gusto las gambas*. That would mean 'I am pleasing'! Always **Me gustan las gambas**.\n\n**Describing taste** uses *estar*: **Está muy rico** (it's delicious), **Está soso** (it's bland), **Está salado** (too salty), **picante** (spicy), **dulce** (sweet), **amargo** (bitter).\n\n> ⚠️ **estar rico** vs **ser rico**: *La sopa está rica* = the soup tastes great. *Mi tío es rico* = my uncle is wealthy.\n\n**False friend!** **embarazada** means **pregnant**, NOT 'embarrassed'. If you ate too much and feel awkward, say **Estoy avergonzado/a** or **Me da vergüenza** — not *Estoy embarazada* (which announces a baby)!\n\n**Dietary needs:** *Soy vegetariano/a*, *Soy alérgico/a a los mariscos*, *sin gluten*."
+    },
+    {
+      "id": "ex-match-meals",
+      "type": "exercise",
+      "title": "Match the meals and courses",
+      "exercise": {
+        "id": "ex-match-meals",
+        "type": "matching",
+        "prompt": "Match each Spanish word with its English meaning.",
+        "card_ids": ["food-meals", "food-courses"],
+        "pairs": [
+          {"left": "el desayuno", "right": "breakfast"},
+          {"left": "la cena", "right": "dinner"},
+          {"left": "el primer plato", "right": "first course"},
+          {"left": "el postre", "right": "dessert"},
+          {"left": "el almuerzo", "right": "lunch"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-bring-menu",
+      "type": "exercise",
+      "title": "Ask for the menu",
+      "exercise": {
+        "id": "ex-free-bring-menu",
+        "type": "free_text",
+        "prompt": "Translate politely: *Could you bring me the menu, please?*",
+        "card_ids": ["food-ordering-polite"],
+        "accept": ["¿Me trae el menú, por favor?", "me trae el menu por favor", "¿Me trae la carta, por favor?", "Me trae el menú, por favor", "¿Me trae el menú por favor?"],
+        "hint": "Use ¿Me trae...? (polite usted form of traer). menu = el menú / la carta.",
+        "distractors": ["¿Me traes el menú, por favor?", "¿Yo traigo el menú, por favor?", "¿Tú trae el menú, por favor?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-i-like-prawns",
+      "type": "exercise",
+      "title": "Using gustar correctly",
+      "exercise": {
+        "id": "ex-free-i-like-prawns",
+        "type": "free_text",
+        "prompt": "Translate: *I like prawns.* (careful with the gustar structure)",
+        "card_ids": ["food-gustar", "food-proteins"],
+        "accept": ["Me gustan las gambas.", "me gustan las gambas", "Me gustan las gambas", "A mí me gustan las gambas."],
+        "hint": "The thing liked is the subject. Prawns are plural → Me gustan las gambas. Never 'Yo gusto'.",
+        "distractors": ["Yo gusto las gambas.", "Me gusta las gambas.", "Yo gustan las gambas."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-pregnant",
+      "type": "exercise",
+      "title": "The famous false friend",
+      "exercise": {
+        "id": "ex-pic-pregnant",
+        "type": "picture_choice",
+        "prompt": "You spilled your wine and feel awkward. Which sentence correctly says 'I'm embarrassed'? (Watch the false friend!)",
+        "card_ids": ["food-embarazada"],
+        "images": [
+          {"src": "assets/img/embarrassed-1.png", "label": "Estoy avergonzado.", "is_correct": "true"},
+          {"src": "assets/img/embarrassed-2.png", "label": "Estoy embarazada."},
+          {"src": "assets/img/embarrassed-3.png", "label": "Estoy embarazado."},
+          {"src": "assets/img/embarrassed-4.png", "label": "Soy avergonzado."}
+        ],
+        "hint": "embarazada/embarazado relates to pregnancy, not embarrassment. 'embarrassed' = avergonzado/a (with estar).",
+        "distractors": ["Estoy embarazada.", "Estoy embarazado.", "Soy avergonzado."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-tasty",
+      "type": "exercise",
+      "title": "It tastes great",
+      "exercise": {
+        "id": "ex-cloze-tasty",
+        "type": "cloze",
+        "prompt": "Fill in the verb. The soup tastes delicious (talking about the food, not wealth).",
+        "card_ids": ["food-estar-ser-rico", "food-taste"],
+        "sentence": "La paella ___ muy rica.",
+        "blanks": [{"accept": ["está"]}],
+        "cloze_mode": "type",
+        "hint": "For how food tastes, use estar, not ser. Está rica = it tastes great; es rica would mean 'is wealthy'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-recommend",
+      "type": "exercise",
+      "title": "Build: What do you recommend?",
+      "exercise": {
+        "id": "ex-tiles-recommend",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to ask the waiter: *What do you recommend (to me)?*",
+        "card_ids": ["food-recommend"],
+        "tiles": ["¿Qué", "me", "recomienda?"],
+        "hint": "¿Qué me recomienda? — 'me' is the indirect object (to me); recomienda is the usted form.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-vegetarian",
+      "type": "exercise",
+      "title": "Stating a dietary need",
+      "exercise": {
+        "id": "ex-free-vegetarian",
+        "type": "free_text",
+        "prompt": "A woman says: *I'm vegetarian and I'm allergic to shellfish.*",
+        "card_ids": ["food-dietary", "food-proteins"],
+        "accept": ["Soy vegetariana y soy alérgica a los mariscos.", "soy vegetariana y soy alergica a los mariscos", "Soy vegetariana y alérgica a los mariscos.", "Soy vegetariana y soy alérgica a los mariscos"],
+        "hint": "Use ser: Soy vegetariana, soy alérgica a... A woman uses the -a endings.",
+        "distractors": ["Estoy vegetariana y estoy alérgica a los mariscos.", "Soy vegetariano y soy alérgico a los mariscos.", "Soy embarazada y soy alérgica a los mariscos."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-for-me",
+      "type": "exercise",
+      "title": "Ordering for yourself",
+      "exercise": {
+        "id": "ex-cloze-for-me",
+        "type": "cloze",
+        "prompt": "Fill the gap to order: 'For me, the lamb.'",
+        "card_ids": ["food-ordering-polite", "food-proteins"],
+        "sentence": "___ mí, el cordero.",
+        "blanks": [{"accept": ["Para", "para"]}],
+        "cloze_mode": "type",
+        "hint": "'For me' = Para mí. This is the easy way to order around the table.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-taste",
+      "type": "exercise",
+      "title": "Match the taste words",
+      "exercise": {
+        "id": "ex-match-taste",
+        "type": "matching",
+        "prompt": "Match each Spanish taste word with its English meaning.",
+        "card_ids": ["food-taste"],
+        "pairs": [
+          {"left": "picante", "right": "spicy"},
+          {"left": "soso", "right": "bland"},
+          {"left": "salado", "right": "salty"},
+          {"left": "dulce", "right": "sweet"},
+          {"left": "amargo", "right": "bitter"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-the-bill",
+      "type": "exercise",
+      "title": "Asking for the bill",
+      "exercise": {
+        "id": "ex-free-the-bill",
+        "type": "free_text",
+        "prompt": "Translate: *The bill, please.*",
+        "card_ids": ["food-ordering-polite"],
+        "accept": ["La cuenta, por favor.", "la cuenta por favor", "La cuenta por favor.", "La cuenta, por favor"],
+        "hint": "the bill = la cuenta. Add 'por favor' to be polite.",
+        "distractors": ["La cuento, por favor.", "El cuenta, por favor.", "La cuenta, por favora."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-love-paella",
+      "type": "exercise",
+      "title": "I love the paella",
+      "exercise": {
+        "id": "ex-cloze-love-paella",
+        "type": "cloze",
+        "prompt": "Fill in the verb. 'I love the paella' (encantar works like gustar).",
+        "card_ids": ["food-gustar", "food-typical-dishes"],
+        "sentence": "Me ___ la paella.",
+        "blanks": [{"accept": ["encanta"]}],
+        "cloze_mode": "type",
+        "hint": "La paella is singular, so the verb is singular: Me encanta la paella.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-i-wanted",
+      "type": "exercise",
+      "title": "Build: a soft order",
+      "exercise": {
+        "id": "ex-tiles-i-wanted",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to order politely: *I'd like the gazpacho.* (use the soft 'quería')",
+        "card_ids": ["food-recommend", "food-typical-dishes"],
+        "tiles": ["Yo", "quería", "el", "gazpacho"],
+        "hint": "Spanish softens an order with the imperfect: Yo quería... = 'I'd like...' (literally 'I wanted').",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

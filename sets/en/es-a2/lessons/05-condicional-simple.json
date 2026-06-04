@@ -1,0 +1,332 @@
+{
+  "id": "es-a2-05-condicional-simple",
+  "title": "The Conditional (Condicional Simple)",
+  "description": "The 'would' tense: take the whole infinitive and add one set of endings (-ía, -ías, -ía, -íamos, -íais, -ían). Learn the same irregular stems as the future, plus the everyday uses — polite requests (Me gustaría...), hypotheticals (Yo iría), advice (Deberías...) and guessing about the past (Serían las tres).",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "cond-endings",
+      "front": "hablaría, hablarías, hablaría, hablaríamos, hablaríais, hablarían",
+      "back": "conditional of hablar (would speak) — one set of endings",
+      "notes": "The conditional = **whole infinitive + endings**: **-ía, -ías, -ía, -íamos, -íais, -ían**. Every form carries a written accent on the **í**. *Yo hablaría* = I would speak.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conditional", "verbs"]
+    },
+    {
+      "id": "cond-same-endings",
+      "front": "hablaría / comería / viviría",
+      "back": "the same endings for -AR, -ER and -IR verbs",
+      "notes": "Unlike the present tense, the conditional uses **one** set of endings for all three verb groups: *hablar* → **hablaría**, *comer* → **comería**, *vivir* → **viviría**. Just add them to the full infinitive.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conditional", "verbs"]
+    },
+    {
+      "id": "cond-would-tense",
+      "front": "Yo iría a España.",
+      "back": "the 'would' tense (I would go to Spain)",
+      "notes": "The conditional is Spanish's **'would'** form for hypothetical situations: *Yo iría a España* = I would go to Spain. English uses two words (*would go*); Spanish uses **one** word with a conditional ending: *iría*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conditional", "usage"]
+    },
+    {
+      "id": "cond-irregular-stems",
+      "front": "tendr-, podr-, har-, dir-, saldr-, pondr-, vendr-, querr-, sabr-, habr-",
+      "back": "irregular conditional stems (same as the future)",
+      "notes": "A small group changes the **stem** but keeps the same endings: *tener* → **tendr-**, *poder* → **podr-**, *hacer* → **har-**, *decir* → **dir-**, *salir* → **saldr-**, *poner* → **pondr-**, *venir* → **vendr-**, *querer* → **querr-**, *saber* → **sabr-**, *haber* → **habr-**. These are exactly the **future** stems.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "conditional", "irregular"]
+    },
+    {
+      "id": "cond-tendria",
+      "front": "tendría, tendrías, tendría, tendríamos, tendríais, tendrían",
+      "back": "conditional of tener (would have)",
+      "notes": "Irregular stem **tendr-** + the normal endings: *tendría, tendrías, tendría...* The accent on **í** never goes away. *Tendría tiempo* = I would have time.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conditional", "irregular"]
+    },
+    {
+      "id": "cond-haria-diria",
+      "front": "haría / diría",
+      "back": "would do/make (hacer) / would say (decir)",
+      "notes": "*hacer* → **har-** → *haría* (I would do/make); *decir* → **dir-** → *diría* (I would say). Short stems, same endings: *¿Qué harías?* = What would you do?",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conditional", "irregular"]
+    },
+    {
+      "id": "cond-polite-gustaria",
+      "front": "Me gustaría un café, por favor.",
+      "back": "polite request: I would like a coffee, please",
+      "notes": "**Me gustaría** = 'I would like' — the polite, soft way to ask. Compare the blunt present **Quiero un café** = 'I want a coffee', which can sound demanding. In a café or shop, prefer *Me gustaría*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conditional", "polite"]
+    },
+    {
+      "id": "cond-podrias",
+      "front": "¿Podrías ayudarme?",
+      "back": "polite request: Could you help me?",
+      "notes": "*poder* → **podr-** → **¿Podrías...?** = 'Could you...?' This is gentler than the present *¿Puedes...?* ('Can you...?'). The conditional softens requests, just like 'could' vs 'can' in English.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conditional", "polite"]
+    },
+    {
+      "id": "cond-advice-deberias",
+      "front": "Deberías estudiar más.",
+      "back": "advice: You should study more",
+      "notes": "*deber* (must) → **deberías** = 'you should'. The conditional is the standard way to give **advice**. Also common: *Yo que tú, estudiaría* = 'If I were you, I would study' (literally 'I, who [are] you, would study').",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conditional", "advice"]
+    },
+    {
+      "id": "cond-conjecture-past",
+      "front": "Serían las tres.",
+      "back": "conjecture about the past: It was probably three o'clock",
+      "notes": "The conditional can **guess about the past**: *Serían las tres* = 'It was probably / It must have been three o'clock'. Where English adds 'probably' or 'must have been', Spanish just uses the conditional: *Tendría unos veinte años* = 'He was probably about twenty'.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "conditional", "usage"]
+    },
+    {
+      "id": "cond-vs-imperfect",
+      "front": "De niño jugaba (imperfect) ✗ jugaría",
+      "back": "habitual 'would' = imperfect, NOT conditional",
+      "notes": "English 'would' has two meanings. Habitual past ('As a child I **would play** every day') is the **imperfect**: *De niño **jugaba** cada día*. Only hypothetical 'would' ('I would play if I had time') is the **conditional**: *jugaría*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "conditional", "error"]
+    },
+    {
+      "id": "cond-si-clause",
+      "front": "Si tuviera dinero, viajaría.",
+      "back": "the conditional pairs with si-clauses (if...)",
+      "notes": "The conditional is the 'result' half of an **if-sentence**: *Si tuviera dinero, **viajaría*** = 'If I had money, I would travel'. You will study full *si*-clauses later; for now just notice that the **-ía** verb expresses the 'would' result.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conditional", "usage"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "One tense, one set of endings",
+      "body": "# The Conditional (el condicional simple)\n\nThe conditional is Spanish's **'would'** tense: *I would speak, you would eat, we would live*. The good news — it is one of the easiest tenses to build.\n\n**Formula: full infinitive + endings.** You keep the whole infinitive (*hablar*, *comer*, *vivir*) and bolt on **one** set of endings, the same for all three verb groups:\n\n> **-ía, -ías, -ía, -íamos, -íais, -ían**\n\n| | hablar | comer | vivir |\n|---|---|---|---|\n| yo | hablaría | comería | viviría |\n| tú | hablarías | comerías | vivirías |\n| él/ella | hablaría | comería | viviría |\n| nosotros | hablaríamos | comeríamos | viviríamos |\n| vosotros | hablaríais | comeríais | viviríais |\n| ellos | hablarían | comerían | vivirían |\n\nEvery single form carries a **written accent on the í**. Notice the *yo* and *él/ella* forms are identical — context (or a subject pronoun) tells them apart.\n\n> Quick contrast: English 'would' is **two words** (*would speak*); Spanish folds it into **one** ending: *hablaría*."
+    },
+    {
+      "id": "step-irregulars",
+      "type": "theory",
+      "title": "The irregular stems (same as the future)",
+      "body": "## Irregular stems\n\nA handful of common verbs change their **stem** — but keep the very same **-ía** endings. Best of all, these are **exactly the same stems as the future tense**, so learning them once covers both tenses:\n\n| Verb | Stem | yo form |\n|---|---|---|\n| tener | tendr- | tendría |\n| poder | podr- | podría |\n| poner | pondr- | pondría |\n| salir | saldr- | saldría |\n| venir | vendr- | vendría |\n| hacer | har- | haría |\n| decir | dir- | diría |\n| querer | querr- | querría |\n| saber | sabr- | sabría |\n| haber | habr- | habría |\n\nThree patterns to spot: some **drop a vowel** (*podr-, sabr-, querr-, habr-*), some **insert a d** (*tendr-, pondr-, saldr-, vendr-*), and two are just **short** (*har-, dir-*).\n\nThe endings never change: *tendría, tendrías, tendría, tendríamos, tendríais, tendrían*. *¿Qué harías tú?* = What would you do?"
+    },
+    {
+      "id": "step-uses",
+      "type": "theory",
+      "title": "What the conditional is for",
+      "body": "## The four everyday uses\n\n**1. Polite requests.** The conditional softens what you ask for, like 'could/would' in English:\n- **Me gustaría** un café. = I would like a coffee.\n- **¿Podrías** ayudarme? = Could you help me?\n\n> Politeness tip: *Me gustaría un café* sounds courteous; the blunt present *Quiero un café* ('I want a coffee') can come across as demanding. Reach for the conditional when ordering or asking favours.\n\n**2. Hypotheticals ('would').** *Yo **iría** a España* = I would go to Spain. It is the result half of an *if*-sentence: *Si tuviera dinero, **viajaría*** (you will study full *si*-clauses later).\n\n**3. Advice.** ***Deberías** estudiar más* = You should study more. ***Yo que tú**, estudiaría* = If I were you, I would study.\n\n**4. Guessing about the past.** ***Serían** las tres* = It was probably three o'clock. *Tendría unos veinte años* = He was probably about twenty.\n\n> ⚠️ **Watch out — two meanings of 'would'.** Habitual past ('As a child I **would play** outside') is **not** the conditional; it is the **imperfect**: *De niño **jugaba** fuera*. Use the conditional only for the hypothetical 'would' (*jugaría si...*)."
+    },
+    {
+      "id": "ex-match-endings",
+      "type": "exercise",
+      "title": "Match the conditional forms",
+      "exercise": {
+        "id": "ex-match-endings",
+        "type": "matching",
+        "prompt": "Match each subject with the correct conditional form of *hablar* (to speak).",
+        "card_ids": ["cond-endings"],
+        "pairs": [
+          {"left": "yo", "right": "hablaría"},
+          {"left": "tú", "right": "hablarías"},
+          {"left": "nosotros", "right": "hablaríamos"},
+          {"left": "vosotros", "right": "hablaríais"},
+          {"left": "ellos", "right": "hablarían"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-i-would-eat",
+      "type": "exercise",
+      "title": "An -ER verb in the conditional",
+      "exercise": {
+        "id": "ex-free-i-would-eat",
+        "type": "free_text",
+        "prompt": "Translate: *I would eat more.*",
+        "card_ids": ["cond-same-endings", "cond-endings"],
+        "accept": ["Comería más.", "comería más", "Comeria mas.", "Yo comería más.", "Comería más"],
+        "hint": "comer + ía = comería (yo). One word for 'would eat'.",
+        "distractors": ["Comaría más.", "Comía más.", "Quiero comer más."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-i-would-go",
+      "type": "exercise",
+      "title": "A hypothetical",
+      "exercise": {
+        "id": "ex-free-i-would-go",
+        "type": "free_text",
+        "prompt": "Translate: *I would go to Spain.*",
+        "card_ids": ["cond-would-tense"],
+        "accept": ["Iría a España.", "iría a españa", "Iria a Espana.", "Yo iría a España.", "Iría a España"],
+        "hint": "ir + ía = iría. 'would go' is one word in Spanish.",
+        "distractors": ["Iba a España.", "Voy a España.", "Iaría a España."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-polite",
+      "type": "exercise",
+      "title": "Order it politely",
+      "exercise": {
+        "id": "ex-pic-polite",
+        "type": "picture_choice",
+        "prompt": "You are in a café and want to ask politely. Which sentence is the courteous 'I would like a coffee, please'?",
+        "card_ids": ["cond-polite-gustaria"],
+        "images": [
+          {"src": "assets/img/gustaria-cafe-1.png", "label": "Me gustaría un café, por favor.", "is_correct": "true"},
+          {"src": "assets/img/gustaria-cafe-2.png", "label": "Quiero un café."},
+          {"src": "assets/img/gustaria-cafe-3.png", "label": "Me gusta un café."},
+          {"src": "assets/img/gustaria-cafe-4.png", "label": "Gustaría un café."}
+        ],
+        "hint": "Polite 'I would like' = Me gustaría. The blunt 'Quiero' can sound demanding.",
+        "distractors": ["Quiero un café.", "Me gusta un café.", "Gustaría un café."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-podrias",
+      "type": "exercise",
+      "title": "A polite request",
+      "exercise": {
+        "id": "ex-cloze-podrias",
+        "type": "cloze",
+        "prompt": "Fill in the tú conditional of *poder* to make a polite 'Could you...?'",
+        "card_ids": ["cond-podrias", "cond-irregular-stems"],
+        "sentence": "¿___ ayudarme, por favor?",
+        "blanks": [{"accept": ["Podrías", "podrías"]}],
+        "cloze_mode": "type",
+        "hint": "poder → podr- + ías = podrías ('Could you...?').",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-advice",
+      "type": "exercise",
+      "title": "Build a piece of advice",
+      "exercise": {
+        "id": "ex-tiles-advice",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *You should study more.*",
+        "card_ids": ["cond-advice-deberias"],
+        "tiles": ["Deberías", "estudiar", "más"],
+        "hint": "deber → deberías = 'you should'. Then the infinitive 'estudiar'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-what-would-you-do",
+      "type": "exercise",
+      "title": "An irregular stem",
+      "exercise": {
+        "id": "ex-free-what-would-you-do",
+        "type": "free_text",
+        "prompt": "Translate: *What would you do?* (tú, hacer)",
+        "card_ids": ["cond-haria-diria", "cond-irregular-stems"],
+        "accept": ["¿Qué harías?", "que harías", "¿Que harias?", "¿Qué harías tú?", "¿Qué harías?"],
+        "hint": "hacer → har- → harías (tú).",
+        "distractors": ["¿Qué hacerías?", "¿Qué harás?", "¿Qué hacías?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-conjecture",
+      "type": "exercise",
+      "title": "Guessing about the past",
+      "exercise": {
+        "id": "ex-cloze-conjecture",
+        "type": "cloze",
+        "prompt": "Fill in the conditional of *ser* to mean 'It was probably three o'clock.'",
+        "card_ids": ["cond-conjecture-past"],
+        "sentence": "No sé la hora exacta, pero ___ las tres.",
+        "blanks": [{"accept": ["serían"]}],
+        "cloze_mode": "type",
+        "hint": "Conjecture about the past uses the conditional: ser → serían ('it was probably')."
+      }
+    },
+    {
+      "id": "ex-free-i-would-have-time",
+      "type": "exercise",
+      "title": "tener in the conditional",
+      "exercise": {
+        "id": "ex-free-i-would-have-time",
+        "type": "free_text",
+        "prompt": "Translate: *I would have time.* (tener)",
+        "card_ids": ["cond-tendria", "cond-irregular-stems"],
+        "accept": ["Tendría tiempo.", "tendría tiempo", "Tendria tiempo.", "Yo tendría tiempo.", "Tendría tiempo"],
+        "hint": "tener → tendr- → tendría (yo).",
+        "distractors": ["Tenería tiempo.", "Tendré tiempo.", "Tenía tiempo."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-stems",
+      "type": "exercise",
+      "title": "Match verb and conditional stem",
+      "exercise": {
+        "id": "ex-match-stems",
+        "type": "matching",
+        "prompt": "Match each verb with its irregular conditional stem (the same as the future).",
+        "card_ids": ["cond-irregular-stems"],
+        "pairs": [
+          {"left": "tener", "right": "tendr-"},
+          {"left": "poder", "right": "podr-"},
+          {"left": "hacer", "right": "har-"},
+          {"left": "decir", "right": "dir-"},
+          {"left": "salir", "right": "saldr-"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-would-imperfect-trap",
+      "type": "exercise",
+      "title": "'would' that is really the imperfect",
+      "exercise": {
+        "id": "ex-free-would-imperfect-trap",
+        "type": "free_text",
+        "prompt": "Translate: *As a child, I would play in the park every day.* (habitual past — NOT the conditional)",
+        "card_ids": ["cond-vs-imperfect"],
+        "accept": ["De niño jugaba en el parque cada día.", "de niño jugaba en el parque cada día", "De nino jugaba en el parque cada dia.", "De niña jugaba en el parque cada día.", "De niño jugaba en el parque todos los días.", "De niño jugaba en el parque cada día"],
+        "hint": "Habitual 'would' = imperfect (jugaba), NOT the conditional (jugaría).",
+        "distractors": ["De niño jugaría en el parque cada día.", "De niño jugué en el parque cada día.", "De niño jugar en el parque cada día."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-if-i-had-money",
+      "type": "exercise",
+      "title": "The conditional in an if-sentence",
+      "exercise": {
+        "id": "ex-free-if-i-had-money",
+        "type": "free_text",
+        "prompt": "Complete the result clause: *If I had money, I would travel.* (the si-part is given: 'Si tuviera dinero,')",
+        "card_ids": ["cond-si-clause", "cond-same-endings"],
+        "accept": ["Si tuviera dinero, viajaría.", "si tuviera dinero, viajaría", "Si tuviera dinero viajaría.", "Si tuviera dinero, viajaría", "Si tuviera dinero, yo viajaría."],
+        "hint": "The 'would' result uses the conditional: viajar → viajaría.",
+        "distractors": ["Si tuviera dinero, viajaba.", "Si tuviera dinero, viajaré.", "Si tuviera dinero, viajara."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

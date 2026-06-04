@@ -1,0 +1,65 @@
+# Spanish A2 (for English speakers) — set manifest
+# (schema v1.3).
+#
+# Intermediate Spanish course explained in English. Builds on the
+# A1 set (es-a1-from-en): A1 basics are presupposed, not
+# re-taught. A2 introduces the preterite deepened and the
+# imperfect (and the key indefinido vs imperfecto distinction),
+# the futuro simple and condicional, object and reflexive
+# pronouns, ser vs estar and por vs para deepened, a gentle
+# introduction to the subjunctive, and everyday topics. Mostly
+# productive (>=65% source_to_target) with distractors targeting
+# common English-speaker mistakes (ser/estar, por/para, the
+# subjunctive, false friends realizar and embarazada).
+# The Content-Loader reads ``metadata.lessons`` for the file list.
+schema_version: '1.3'
+name: Spanish A2 (for English speakers)
+description: >-
+  Fifteen-lesson A2 Spanish course explained in English, building
+  on A1: the preterite (deepened) and the imperfect with their
+  contrast, the futuro simple and condicional, object and
+  reflexive pronouns, ser vs estar and por vs para deepened, an
+  introduction to the subjunctive, and everyday topics (travel,
+  food, health, shopping), closing with review and text
+  production.
+sets:
+  - id: es-a2-from-en
+    title: Spanish A2 — Elementary
+    title_native: Español A2 — Elemental
+    target_language: es
+    source_language: en
+    level: A2
+    path: sets/en/es-a2
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Intermediate Spanish for English speakers (15 lessons),
+      building on A1: preterite vs imperfect, futuro simple,
+      condicional, object and reflexive pronouns, ser vs estar,
+      por vs para, an introduction to the subjunctive, and
+      everyday topics, closing with text production. Presupposes
+      A1; mostly productive.
+    tags:
+      - elementary
+      - grammar
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-preterito-indefinido-deepened.json
+    - 02-preterito-imperfecto.json
+    - 03-indefinido-vs-imperfecto.json
+    - 04-futuro-simple.json
+    - 05-condicional-simple.json
+    - 06-object-pronouns.json
+    - 07-reflexive-verbs-deepened.json
+    - 08-ser-vs-estar-deepened.json
+    - 09-por-vs-para.json
+    - 10-subjuntivo-introduction.json
+    - 11-travel-and-directions.json
+    - 12-food-and-restaurant.json
+    - 13-health.json
+    - 14-shopping-and-comparison.json
+    - 15-review-and-text-production.json

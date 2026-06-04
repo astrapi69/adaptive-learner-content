@@ -1,0 +1,357 @@
+{
+  "id": "es-a2-15-review-and-text-production",
+  "title": "A2 Review and Text Production",
+  "description": "The capstone: pull the whole A2 course together — preterite vs imperfect, future and conditional, object and reflexive pronouns, ser vs estar, por vs para, the subjunctive intro — and learn to PRODUCE connected text with connectors (porque, aunque, sin embargo, además, por eso, primero/luego/finalmente, mientras). Plus a final pass over the course's false friends.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 22,
+  "cards": [
+    {
+      "id": "conn-porque-por-eso",
+      "front": "porque / por eso",
+      "back": "because / that's why (cause vs consequence)",
+      "notes": "**porque** introduces a **cause**: *No salí **porque** llovía* (I didn't go out because it was raining). **por eso** introduces a **consequence**: *Llovía, **por eso** no salí* (It was raining, that's why I didn't go out). Don't confuse with *¿**por qué**?* (why?) — two words, with accent.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["connectors", "writing", "vocabulary"]
+    },
+    {
+      "id": "conn-aunque-sin-embargo",
+      "front": "aunque / sin embargo",
+      "back": "although / however (contrast)",
+      "notes": "**aunque** joins two ideas inside one sentence: *Fui **aunque** estaba cansado* (I went although I was tired). **sin embargo** (= however / nevertheless) usually starts a new sentence after a comma or period: *Estaba cansado. **Sin embargo**, fui.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["connectors", "writing", "vocabulary"]
+    },
+    {
+      "id": "conn-ademas",
+      "front": "además",
+      "back": "besides / what's more / in addition",
+      "notes": "**además** adds a further point: *El hotel era barato. **Además**, estaba en el centro* (The hotel was cheap. Besides, it was in the centre). Note the accent on the **a**: *además*, not *ademas*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["connectors", "writing", "vocabulary"]
+    },
+    {
+      "id": "conn-secuencia",
+      "front": "primero, luego, después, finalmente",
+      "back": "first, then, afterwards, finally (sequence)",
+      "notes": "Sequence words order the steps of a narrative or plan: ***Primero** fuimos a la playa, **luego** comimos, y **finalmente** volvimos al hotel.* You'll also see *al principio* (at the beginning) and *por último* (lastly).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["connectors", "writing", "narrative"]
+    },
+    {
+      "id": "conn-mientras",
+      "front": "mientras",
+      "back": "while / meanwhile (two things at once)",
+      "notes": "**mientras** links two simultaneous actions — perfect with the **imperfect** for background: *Yo cocinaba **mientras** ella leía* (I was cooking while she was reading). For 'meanwhile' as a standalone, use *mientras tanto*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["connectors", "writing", "narrative"]
+    },
+    {
+      "id": "ff-realizar",
+      "front": "realizar (≠ realize)",
+      "back": "to carry out / to accomplish — NOT 'to realize'",
+      "notes": "**False friend.** *realizar* = to carry out, to make happen (*realizar un proyecto* = to carry out a project). To **realize** (notice/become aware) is **darse cuenta de**: *Me **di cuenta de** que era tarde* (I realized it was late).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["false-friends", "vocabulary", "pitfall"]
+    },
+    {
+      "id": "ff-embarazada",
+      "front": "embarazada (≠ embarrassed)",
+      "back": "pregnant — NOT 'embarrassed'",
+      "notes": "**Classic false friend.** *embarazada* = **pregnant**. To be **embarrassed** is **avergonzado/a** or *tener vergüenza*: *Estaba **avergonzado*** (He was embarrassed). Saying *estoy embarazada* means 'I'm pregnant'!",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["false-friends", "vocabulary", "pitfall"]
+    },
+    {
+      "id": "ff-asistir-actualmente",
+      "front": "asistir (≠ assist) / actualmente (≠ actually)",
+      "back": "to attend / currently",
+      "notes": "Two more false friends: **asistir a** = **to attend** (*asistí a la clase* = I attended the class), not 'to assist' (that's *ayudar*). **actualmente** = **currently / nowadays** (*Actualmente vivo en Madrid*), not 'actually' (that's *en realidad / de hecho*).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["false-friends", "vocabulary", "pitfall"]
+    },
+    {
+      "id": "recap-pret-imp",
+      "front": "Hacía sol cuando llegamos.",
+      "back": "imperfect (background) + preterite (event)",
+      "notes": "**Preterite vs imperfect**, the A2 core. Imperfect paints the **background/scene** (*hacía sol* = it was sunny), preterite marks the **completed event** (*llegamos* = we arrived). A narrative weaves both: *Era de noche y llovía cuando salí.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "recap", "narrative"]
+    },
+    {
+      "id": "recap-fut-cond",
+      "front": "Iré mañana. / Me gustaría ir.",
+      "back": "future (I will go) vs conditional (I would like)",
+      "notes": "For a **plan / future text**, use the **future** (*viajaré*, *iré*, *haré*) or *ir a + infinitive* (*voy a viajar*). The **conditional** softens and hypothesizes: *Me gustaría* (I would like), *Sería* (It would be), *Podríamos* (We could).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "recap", "future"]
+    },
+    {
+      "id": "recap-serestar-porpara",
+      "front": "ser/estar · por/para · pronouns",
+      "back": "ser=identity, estar=state/location; por=cause, para=goal",
+      "notes": "**ser** = identity/characteristics (*Es médico*); **estar** = states/location (*Está cansado*, *Está en casa*). **por** = cause/exchange/duration (*Gracias **por** todo*); **para** = goal/recipient/deadline (*Es **para** ti*). Pronouns: *Lo vi* (I saw him), *Se lava* (he washes himself).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "recap", "pitfall"]
+    },
+    {
+      "id": "recap-subjuntivo",
+      "front": "Espero que tengas un buen viaje.",
+      "back": "subjunctive after wishes/emotions (que + tener → tengas)",
+      "notes": "The **subjunctive** appears after expressions of wish, emotion or doubt with **que**: *Espero **que** **tengas**...* (I hope you have...), *Quiero **que** **vengas*** (I want you to come). Great for closing a text politely: *Ojalá **podamos** vernos pronto* (I hope we can meet soon).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "recap", "subjunctive"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Everything you've built — at a glance",
+      "body": "# The A2 toolkit, together\n\nThis is the capstone. By now you have a full set of tools; the goal of this lesson is to **use them together** in connected text. Here's the big picture:\n\n| Tool | Use it for | Example |\n|---|---|---|\n| **Preterite** | completed past events | *Llegué, comí, salí* |\n| **Imperfect** | past background / habits | *Hacía sol, todos hablaban* |\n| **Future** | plans, predictions | *Viajaré a Perú* |\n| **Conditional** | softening, hypotheses | *Me gustaría ir* |\n| **ser / estar** | identity vs state/location | *Es alto / Está cansado* |\n| **por / para** | cause vs goal | *por dinero / para ti* |\n| **Pronouns** | replace, reflexives | *Lo vi / Se ducha* |\n| **Subjunctive** | wishes, emotions after *que* | *Espero que vengas* |\n\n> The single biggest A2 skill is **tense choice in a story**: the **imperfect** sets the scene and the **preterite** moves the action forward. *Era tarde y llovía (scene) cuando sonó el teléfono (event).*"
+    },
+    {
+      "id": "step-build-paragraph",
+      "type": "theory",
+      "title": "How to build a paragraph",
+      "body": "## From sentences to text: connectors\n\nA2 writing isn't just correct sentences — it's **connected** sentences. Connectors are the glue.\n\n**Cause and consequence**\n- **porque** = because (cause): *No fui **porque** estaba enfermo.*\n- **por eso** = that's why (result): *Estaba enfermo, **por eso** no fui.*\n\n**Contrast**\n- **aunque** = although (inside a sentence): *Fui **aunque** llovía.*\n- **sin embargo** = however (new sentence): *Llovía. **Sin embargo**, fui.*\n\n**Adding**\n- **además** = besides / what's more: *Es barato. **Además**, es bonito.*\n\n**Sequence (for narratives and plans)**\n- **primero → luego / después → finalmente**: *Primero desayuné, luego trabajé, finalmente descansé.*\n\n**Simultaneity**\n- **mientras** = while (great with the imperfect): *Cocinaba **mientras** escuchaba música.*\n\n### Two mini-templates\n\n**A past narrative:** scene (imperfect) → events (preterite) chained with *primero/luego/finalmente* and *porque/por eso*.\n> *Era verano y hacía calor. **Primero** fuimos a la playa, **luego** comimos, y **finalmente** volvimos. Lo pasamos genial **porque** el tiempo era perfecto.*\n\n**A future plan:** intentions (future / *ir a*) + *me gustaría* + a polite wish in the subjunctive.\n> *El año que viene **viajaré** a México. **Primero** visitaré la capital y **luego** iré a la costa. **Me gustaría** ver muchas cosas. **Espero que** mis amigos **puedan** venir.*"
+    },
+    {
+      "id": "step-false-friends",
+      "type": "theory",
+      "title": "False friends: a final pass",
+      "body": "## Words that look English but aren't\n\nThroughout the course you've met traps where a Spanish word resembles an English one but means something different. Lock these in:\n\n| Spanish | Looks like | But actually means | Say this instead for the English word |\n|---|---|---|---|\n| **realizar** | realize | to carry out / accomplish | **darse cuenta de** (*Me di cuenta de...*) |\n| **embarazada** | embarrassed | **pregnant** | **avergonzado/a** (*Estaba avergonzado*) |\n| **asistir (a)** | assist | **to attend** | **ayudar** (to help/assist) |\n| **actualmente** | actually | **currently / nowadays** | **en realidad / de hecho** (actually) |\n\n> ⚠️ The most memorable one: *estoy embarazada* does **not** mean 'I'm embarrassed' — it means **'I'm pregnant'**. For embarrassment, use *estoy avergonzado/a* or *me da vergüenza*.\n\n### Quick pitfall recap for English speakers\n- **Tense choice:** completed event = preterite; scene/habit = imperfect.\n- **ser vs estar:** identity = ser; state/location = estar.\n- **por vs para:** cause/reason = por; goal/destination/recipient = para.\n- **No 'did':** the verb ending already carries the past (*comí*, not *hice comer*)."
+    },
+    {
+      "id": "ex-match-connectors",
+      "type": "exercise",
+      "title": "Match the connectors",
+      "exercise": {
+        "id": "ex-match-connectors",
+        "type": "matching",
+        "prompt": "Match each Spanish connector with its English meaning.",
+        "card_ids": ["conn-porque-por-eso", "conn-aunque-sin-embargo", "conn-ademas", "conn-mientras"],
+        "pairs": [
+          {"left": "porque", "right": "because"},
+          {"left": "por eso", "right": "that's why"},
+          {"left": "aunque", "right": "although"},
+          {"left": "sin embargo", "right": "however"},
+          {"left": "además", "right": "besides"},
+          {"left": "mientras", "right": "while"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-falsefriends",
+      "type": "exercise",
+      "title": "False friends: the real meaning",
+      "exercise": {
+        "id": "ex-match-falsefriends",
+        "type": "matching",
+        "prompt": "Match each false friend with what it ACTUALLY means in Spanish.",
+        "card_ids": ["ff-realizar", "ff-embarazada", "ff-asistir-actualmente"],
+        "pairs": [
+          {"left": "realizar", "right": "to carry out"},
+          {"left": "embarazada", "right": "pregnant"},
+          {"left": "asistir", "right": "to attend"},
+          {"left": "actualmente", "right": "currently"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-porque-poreso",
+      "type": "exercise",
+      "title": "Cause or consequence?",
+      "exercise": {
+        "id": "ex-cloze-porque-poreso",
+        "type": "cloze",
+        "prompt": "Fill the gap so it means 'It was raining, that's why we didn't go out.'",
+        "card_ids": ["conn-porque-por-eso"],
+        "sentence": "Llovía, ___ no salimos.",
+        "blanks": [{"accept": ["por eso"]}],
+        "cloze_mode": "type",
+        "hint": "You need the CONSEQUENCE connector (that's why), two words."
+      }
+    },
+    {
+      "id": "ex-cloze-mientras",
+      "type": "exercise",
+      "title": "Two things at once",
+      "exercise": {
+        "id": "ex-cloze-mientras",
+        "type": "cloze",
+        "prompt": "Fill the gap: 'I was reading while she was cooking.'",
+        "card_ids": ["conn-mientras", "recap-pret-imp"],
+        "sentence": "Yo leía ___ ella cocinaba.",
+        "blanks": [{"accept": ["mientras"]}],
+        "cloze_mode": "type",
+        "hint": "One word for 'while', linking two simultaneous imperfect actions."
+      }
+    },
+    {
+      "id": "ex-free-realize",
+      "type": "exercise",
+      "title": "Not 'realizar'!",
+      "exercise": {
+        "id": "ex-free-realize",
+        "type": "free_text",
+        "prompt": "Translate: *I realized that it was late.* (careful — this is a false friend!)",
+        "card_ids": ["ff-realizar"],
+        "accept": ["Me di cuenta de que era tarde.", "me di cuenta de que era tarde", "Me di cuenta de que era tarde", "Me di cuenta que era tarde.", "Me di cuenta de que ya era tarde."],
+        "hint": "'to realize' = darse cuenta de. yo → me di cuenta de que...",
+        "distractors": ["Realicé que era tarde.", "Realizé que era tarde.", "Me realicé que era tarde."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-although",
+      "type": "exercise",
+      "title": "Build: although I was tired",
+      "exercise": {
+        "id": "ex-tiles-although",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I went although I was tired.*",
+        "card_ids": ["conn-aunque-sin-embargo", "recap-pret-imp"],
+        "tiles": ["Fui", "aunque", "estaba", "cansado"],
+        "hint": "aunque = although; estaba (imperfect) = was (a state).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-pregnant",
+      "type": "exercise",
+      "title": "Which sentence is right?",
+      "exercise": {
+        "id": "ex-pic-pregnant",
+        "type": "picture_choice",
+        "prompt": "You want to say 'She was embarrassed.' Which sentence is correct? (Watch the false friend!)",
+        "card_ids": ["ff-embarazada"],
+        "images": [
+          {"src": "assets/img/avergonzada-1.png", "label": "Estaba avergonzada.", "is_correct": "true"},
+          {"src": "assets/img/avergonzada-2.png", "label": "Estaba embarazada."},
+          {"src": "assets/img/avergonzada-3.png", "label": "Era embarazada."},
+          {"src": "assets/img/avergonzada-4.png", "label": "Estaba embarazoso."}
+        ],
+        "hint": "embarazada = PREGNANT. 'embarrassed' = avergonzado/a.",
+        "distractors": ["Estaba embarazada.", "Era embarazada.", "Estaba embarazoso."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-subjuntivo",
+      "type": "exercise",
+      "title": "Close a message politely",
+      "exercise": {
+        "id": "ex-cloze-subjuntivo",
+        "type": "cloze",
+        "prompt": "Fill the gap with the subjunctive of *tener*: 'I hope you have a good trip.'",
+        "card_ids": ["recap-subjuntivo"],
+        "sentence": "Espero que ___ un buen viaje.",
+        "blanks": [{"accept": ["tengas"]}],
+        "cloze_mode": "type",
+        "hint": "After 'Espero que' use the subjunctive: tener (tú) → tengas."
+      }
+    },
+    {
+      "id": "ex-free-future-plan",
+      "type": "exercise",
+      "title": "A future intention",
+      "exercise": {
+        "id": "ex-free-future-plan",
+        "type": "free_text",
+        "prompt": "Translate: *Next year I will travel to Mexico.* (use the future tense)",
+        "card_ids": ["recap-fut-cond", "conn-secuencia"],
+        "accept": ["El año que viene viajaré a México.", "el año que viene viajaré a méxico", "El próximo año viajaré a México.", "El año que viene viajaré a Mexico.", "El año que viene iré a México."],
+        "hint": "future of viajar (yo) = viajaré. 'next year' = el año que viene / el próximo año.",
+        "distractors": ["El año que viene viajo a México.", "El año pasado viajaré a México.", "El año que viene voy viajar a México."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-narrative",
+      "type": "exercise",
+      "title": "Write a short past narrative (2-3 sentences)",
+      "exercise": {
+        "id": "ex-free-narrative",
+        "type": "free_text",
+        "prompt": "Write 2-3 sentences in Spanish about a day trip in the past. Set the scene with the imperfect, tell what happened with the preterite, and use at least one sequence connector (primero/luego/finalmente) and 'porque'. Idea: 'It was summer and it was hot. First we went to the beach, then we ate, and finally we went home. We had a great time because the weather was perfect.'",
+        "card_ids": ["recap-pret-imp", "conn-secuencia", "conn-porque-por-eso"],
+        "accept": [
+          "Era verano y hacía calor. Primero fuimos a la playa, luego comimos, y finalmente volvimos a casa. Lo pasamos genial porque el tiempo era perfecto.",
+          "Era verano y hacía calor. Primero fuimos a la playa, luego comimos y finalmente volvimos a casa. Lo pasamos muy bien porque el tiempo era perfecto.",
+          "Hacía calor y era verano. Primero fuimos a la playa, después comimos y finalmente volvimos a casa. Lo pasamos genial porque hacía buen tiempo.",
+          "Era verano y hacía sol. Primero fuimos a la playa, luego comimos en un restaurante y finalmente volvimos a casa porque estábamos cansados.",
+          "Era un día de verano y hacía calor. Primero fuimos a la playa, luego comimos, y por último volvimos a casa. Lo pasamos genial porque el tiempo era perfecto."
+        ],
+        "hint": "Scene = imperfect (era, hacía). Events = preterite (fuimos, comimos, volvimos). Chain with primero/luego/finalmente and explain with porque.",
+        "distractors": ["Es verano y hace calor. Primero vamos a la playa.", "Fue verano y hizo calor. Primero ir a la playa.", "Era verano y hacía calor, por eso porque fuimos a la playa."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-plan-text",
+      "type": "exercise",
+      "title": "Write a short plan (2-3 sentences)",
+      "exercise": {
+        "id": "ex-free-plan-text",
+        "type": "free_text",
+        "prompt": "Write 2-3 sentences in Spanish about a future plan. Use the future tense, a sequence connector, the conditional 'me gustaría', and end with a subjunctive wish 'Espero que...'. Idea: 'Next year I will travel to Peru. First I will visit Lima and then I will go to Cusco. I would like to see Machu Picchu. I hope my friends can come.'",
+        "card_ids": ["recap-fut-cond", "conn-secuencia", "recap-subjuntivo"],
+        "accept": [
+          "El año que viene viajaré a Perú. Primero visitaré Lima y luego iré a Cusco. Me gustaría ver Machu Picchu. Espero que mis amigos puedan venir.",
+          "El próximo año viajaré a Perú. Primero visitaré Lima y después iré a Cusco. Me gustaría ver Machu Picchu. Espero que mis amigos puedan venir.",
+          "El año que viene iré a Perú. Primero visitaré Lima y luego iré a Cusco. Me gustaría ver Machu Picchu. Ojalá mis amigos puedan venir.",
+          "El año que viene viajaré a Perú. Primero visitaré Lima, luego iré a Cusco y finalmente volveré. Me gustaría ver Machu Picchu. Espero que mis amigos vengan.",
+          "El próximo año voy a viajar a Perú. Primero visitaré Lima y luego iré a Cusco. Me gustaría ver Machu Picchu. Espero que mis amigos puedan venir conmigo."
+        ],
+        "hint": "Future: viajaré, visitaré, iré. Sequence: primero/luego. Conditional: me gustaría. Wish: Espero que + subjunctive (puedan/vengan).",
+        "distractors": ["El año que viene viajo a Perú. Primero visito Lima.", "El año pasado viajaré a Perú. Espero que mis amigos pueden venir.", "El año que viene viajaré a Perú porque me gustaría ver Machu Picchu primero luego."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-currently",
+      "type": "exercise",
+      "title": "actualmente, not 'actually'",
+      "exercise": {
+        "id": "ex-free-currently",
+        "type": "free_text",
+        "prompt": "Translate: *Currently I live in Madrid.* (false-friend alert: 'currently')",
+        "card_ids": ["ff-asistir-actualmente", "recap-serestar-porpara"],
+        "accept": ["Actualmente vivo en Madrid.", "actualmente vivo en madrid", "Actualmente vivo en Madrid", "Actualmente, vivo en Madrid.", "Vivo en Madrid actualmente."],
+        "hint": "'currently / nowadays' = actualmente (NOT 'actually').",
+        "distractors": ["En realidad vivo en Madrid.", "Actualmente vivió en Madrid.", "De hecho vivo en Madrid."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-because",
+      "type": "exercise",
+      "title": "Build: because it was cheap",
+      "exercise": {
+        "id": "ex-tiles-because",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *We chose the hotel because it was cheap.*",
+        "card_ids": ["conn-porque-por-eso", "recap-pret-imp"],
+        "tiles": ["Elegimos", "el", "hotel", "porque", "era", "barato"],
+        "hint": "porque = because (cause). 'was' as a characteristic = era (imperfect).",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

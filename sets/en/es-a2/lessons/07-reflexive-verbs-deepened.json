@@ -1,0 +1,350 @@
+{
+  "id": "es-a2-07-reflexive-verbs-deepened",
+  "title": "Reflexive Verbs, Deepened",
+  "description": "Master the reflexive pronouns (me, te, se, nos, os, se) and where they go, the daily-routine verbs (levantarse, ducharse, acostarse), the meaning shifts (dormir vs dormirse, ir vs irse, poner vs ponerse), the reciprocal 'each other' (nos vemos, se quieren), reflexives for emotions, and reflexives in the past.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "refl-pronouns",
+      "front": "me, te, se, nos, os, se",
+      "back": "the reflexive pronouns (myself, yourself, him/herself...)",
+      "notes": "Reflexive verbs pair each subject with a pronoun: *yo* → **me**, *tú* → **te**, *él/ella/usted* → **se**, *nosotros* → **nos**, *vosotros* → **os**, *ellos/ustedes* → **se**. English usually omits 'myself' (*I wash*, not *I wash myself*), so the pronoun is easy to forget — but in Spanish it is required.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "reflexive", "pronouns"]
+    },
+    {
+      "id": "refl-levantarse",
+      "front": "Me levanto a las siete.",
+      "back": "I get up at seven. (levantarse)",
+      "notes": "Before a conjugated verb, the pronoun goes **in front**: *Me levanto*, *Te levantas*, *Se levanta*. The infinitive *levantarse* keeps **-se** on the end; once conjugated, the **-se** becomes the matching pronoun.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "reflexive", "routine"]
+    },
+    {
+      "id": "refl-routine-verbs",
+      "front": "levantarse, ducharse, vestirse, acostarse, despertarse",
+      "back": "to get up, shower, get dressed, go to bed, wake up",
+      "notes": "The core daily-routine reflexives. Some also stem-change: *despertarse* → *me despierto* (e→ie), *acostarse* → *me acuesto* (o→ue), *vestirse* → *me visto* (e→i). The reflexive pronoun is separate from the stem change.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "reflexive", "routine"]
+    },
+    {
+      "id": "refl-placement",
+      "front": "Me voy a duchar. / Voy a ducharme.",
+      "back": "two correct positions with an infinitive",
+      "notes": "With *ir a + infinitive* (or any verb + infinitive), the pronoun can either go **before** the conjugated verb (*Me voy a duchar*) or **attach to the infinitive** (*Voy a ducharme*). Both are correct and mean the same. You may not split it: NOT *Voy me a duchar*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "reflexive", "placement"]
+    },
+    {
+      "id": "refl-commands",
+      "front": "Levántate. / ¡Despiértate!",
+      "back": "Get up! / Wake up! (pronoun attached to a command)",
+      "notes": "In affirmative commands the pronoun **attaches to the end**: *levanta* + *te* → **levántate** (note the added accent). Compare *Siéntate* (Sit down), *Acuéstate* (Go to bed). With a negative command it goes in front: *No te levantes*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "reflexive", "commands"]
+    },
+    {
+      "id": "refl-dormir-dormirse",
+      "front": "dormir = to sleep / dormirse = to fall asleep",
+      "back": "the reflexive changes the meaning",
+      "notes": "Adding the reflexive often shifts the meaning. *Dormir* is the ongoing state of sleeping; *dormirse* is the moment of falling asleep: *Dormí ocho horas* (I slept eight hours) vs *Me dormí en el sofá* (I fell asleep on the sofa).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "reflexive", "meaning"]
+    },
+    {
+      "id": "refl-ir-irse",
+      "front": "ir = to go / irse = to leave (go away)",
+      "back": "ir needs a destination; irse means to depart",
+      "notes": "*Ir* points to a destination (*Voy al cine* = I'm going to the cinema). *Irse* means to leave / go away from where you are (*Me voy* = I'm leaving / off I go). *¡Vámonos!* = Let's get going!",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "reflexive", "meaning"]
+    },
+    {
+      "id": "refl-poner-ponerse",
+      "front": "poner = to put / ponerse = to put on; to become",
+      "back": "ponerse = to put on (clothes) or to become (emotion)",
+      "notes": "*Poner* = to put/place (*Pongo el libro en la mesa*). *Ponerse* = to put on clothes (*Me pongo el abrigo* = I put on my coat) OR to become (an emotion/state): *Se pone nervioso* = He gets nervous.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "reflexive", "meaning"]
+    },
+    {
+      "id": "refl-reciprocal",
+      "front": "Nos vemos mañana. / Se quieren mucho.",
+      "back": "reciprocal: 'each other'",
+      "notes": "With a plural subject, the reflexive pronoun can mean **'each other'**: *Nos vemos* = We see each other / See you; *Se quieren* = They love each other; *Se escriben* = They write to each other. English needs 'each other'; Spanish just uses *nos/os/se*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "reflexive", "reciprocal"]
+    },
+    {
+      "id": "refl-emotions",
+      "front": "ponerse nervioso, enojarse, alegrarse, enfadarse",
+      "back": "to get nervous, get angry, become happy, get annoyed",
+      "notes": "Many change-of-state and emotion verbs are reflexive: *me enojo* (I get angry), *me alegro* (I'm glad), *me pongo nervioso* (I get nervous), *me aburro* (I get bored). Where English says 'get/become + adjective', Spanish often uses one reflexive verb.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "reflexive", "emotions"]
+    },
+    {
+      "id": "refl-past",
+      "front": "Me levanté temprano. / Se acostaron tarde.",
+      "back": "reflexives in the preterite (past)",
+      "notes": "In the past the pronoun still comes first; only the verb takes preterite endings: *Me levanté* (I got up), *Te duchaste*, *Se acostó*, *Nos despertamos*, *Se durmieron*. Don't drop the pronoun: NOT *Levanté temprano*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "reflexive", "past"]
+    },
+    {
+      "id": "refl-drop-error",
+      "front": "Me ducho.  NOT  Ducho.",
+      "back": "don't drop the reflexive pronoun",
+      "notes": "Because English rarely marks reflexives ('I shower', not 'I shower myself'), learners often leave out the pronoun. In Spanish, *Ducho* alone means 'I shower (someone else)'. You must say **Me ducho** for 'I shower (myself)'.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "reflexive", "error"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "The reflexive pronouns",
+      "body": "# Reflexive verbs, deepened\n\nA **reflexive verb** describes an action the subject does to itself. Its infinitive ends in **-se** (*levantarse* = to get up). To use it, you pick the pronoun that matches the subject:\n\n| Subject | Pronoun | Example |\n|---|---|---|\n| yo | **me** | me levanto |\n| tú | **te** | te levantas |\n| él/ella/usted | **se** | se levanta |\n| nosotros | **nos** | nos levantamos |\n| vosotros | **os** | os levantáis |\n| ellos/ustedes | **se** | se levantan |\n\nThe verb itself conjugates normally; the pronoun just sits in front.\n\n> ⚠️ **The #1 English-speaker trap.** English almost never says 'myself' (*I wash*, not *I wash myself*), so learners drop the pronoun. But *Ducho* means 'I shower **someone else**'. For 'I take a shower' you must say **Me ducho**. The pronoun is not optional."
+    },
+    {
+      "id": "step-placement",
+      "type": "theory",
+      "title": "Where the pronoun goes",
+      "body": "## Three positions\n\n**1. Before a conjugated verb** (the default):\n\n> **Me** levanto. / **Te** duchas. / **Se** acuesta.\n\n**2. With an infinitive or *ir a + infinitive*** — two correct options:\n\n> **Me** voy a duchar. = Voy a duchar**me**.\n\nEither put the pronoun before the helper, or glue it to the infinitive. What you may **not** do is split it: NOT *Voy me a duchar*.\n\n**3. Attached to an affirmative command:**\n\n> ¡Levánta**te**! (Get up!)  ·  Siénta**te**. (Sit down.)\n\nNote the written accent that appears when the pronoun is attached. With a **negative** command it goes back in front: *No **te** levantes.*\n\nDaily-routine verbs to practice: *levantarse, ducharse, vestirse, acostarse, despertarse* (several also stem-change: *me despierto*, *me acuesto*, *me visto*)."
+    },
+    {
+      "id": "step-meaning",
+      "type": "theory",
+      "title": "Meaning shifts and 'each other'",
+      "body": "## The reflexive can change the meaning\n\nAdding the pronoun often gives a verb a new sense:\n\n| Plain | Reflexive |\n|---|---|\n| **dormir** = to sleep | **dormirse** = to fall asleep |\n| **ir** = to go (somewhere) | **irse** = to leave / go away |\n| **poner** = to put | **ponerse** = to put on; to become |\n\n- *Dormí ocho horas* (I slept 8h) vs *Me dormí en clase* (I fell asleep).\n- *Voy a casa* (I'm going home) vs *Me voy* (I'm leaving).\n- *Pongo la taza aquí* (I put the cup here) vs *Me pongo el abrigo* (I put on my coat) vs *Se pone nervioso* (He gets nervous).\n\n## Reciprocal: 'each other'\n\nWith a plural subject, *nos / os / se* can mean **each other**:\n\n> **Nos** vemos mañana. = See you (We see each other) tomorrow.\n> Ellos **se** quieren mucho. = They love each other a lot.\n\n## Emotions and change of state\n\nMany feelings are reflexive in Spanish: *enojarse* (get angry), *alegrarse* (be glad), *ponerse nervioso* (get nervous), *aburrirse* (get bored). And they work in the **past** too: *Me levanté temprano* (I got up early) — keep the pronoun!"
+    },
+    {
+      "id": "ex-match-pronouns",
+      "type": "exercise",
+      "title": "Match subject and pronoun",
+      "exercise": {
+        "id": "ex-match-pronouns",
+        "type": "matching",
+        "prompt": "Match each subject with its reflexive pronoun.",
+        "card_ids": ["refl-pronouns"],
+        "pairs": [
+          {"left": "yo", "right": "me"},
+          {"left": "tú", "right": "te"},
+          {"left": "él / ella", "right": "se"},
+          {"left": "nosotros", "right": "nos"},
+          {"left": "ellos", "right": "se"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-i-get-up",
+      "type": "exercise",
+      "title": "Don't drop the pronoun",
+      "exercise": {
+        "id": "ex-free-i-get-up",
+        "type": "free_text",
+        "prompt": "Translate: *I get up at seven.* (levantarse)",
+        "card_ids": ["refl-levantarse", "refl-drop-error"],
+        "accept": ["Me levanto a las siete.", "me levanto a las siete", "Yo me levanto a las siete.", "Me levanto a las siete"],
+        "hint": "yo → me. The pronoun goes before the verb: Me levanto.",
+        "distractors": ["Levanto a las siete.", "Te levanto a las siete.", "Me levantar a las siete."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-routine",
+      "type": "exercise",
+      "title": "Match the routine verbs",
+      "exercise": {
+        "id": "ex-match-routine",
+        "type": "matching",
+        "prompt": "Match each reflexive verb with its English meaning.",
+        "card_ids": ["refl-routine-verbs"],
+        "pairs": [
+          {"left": "levantarse", "right": "to get up"},
+          {"left": "ducharse", "right": "to shower"},
+          {"left": "vestirse", "right": "to get dressed"},
+          {"left": "acostarse", "right": "to go to bed"},
+          {"left": "despertarse", "right": "to wake up"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-meaning",
+      "type": "exercise",
+      "title": "Plain vs reflexive",
+      "exercise": {
+        "id": "ex-match-meaning",
+        "type": "matching",
+        "prompt": "Match each verb with its meaning. Watch how the reflexive -se changes things!",
+        "card_ids": ["refl-dormir-dormirse", "refl-ir-irse", "refl-poner-ponerse"],
+        "pairs": [
+          {"left": "dormir", "right": "to sleep"},
+          {"left": "dormirse", "right": "to fall asleep"},
+          {"left": "ir", "right": "to go (somewhere)"},
+          {"left": "irse", "right": "to leave / go away"},
+          {"left": "ponerse", "right": "to put on / become"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-placement",
+      "type": "exercise",
+      "title": "Pronoun before the verb",
+      "exercise": {
+        "id": "ex-cloze-placement",
+        "type": "cloze",
+        "prompt": "Fill in the reflexive pronoun for *tú*: 'You shower in the morning.'",
+        "card_ids": ["refl-pronouns", "refl-routine-verbs"],
+        "sentence": "Tú ___ duchas por la mañana.",
+        "blanks": [{"accept": ["te"]}],
+        "cloze_mode": "type",
+        "hint": "tú → te. The pronoun goes right before the conjugated verb."
+      }
+    },
+    {
+      "id": "ex-tiles-going-to-shower",
+      "type": "exercise",
+      "title": "Build: I'm going to shower",
+      "exercise": {
+        "id": "ex-tiles-going-to-shower",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I'm going to shower.* (attach the pronoun to the infinitive)",
+        "card_ids": ["refl-placement"],
+        "tiles": ["Voy", "a", "ducharme"],
+        "hint": "With ir a + infinitive you may attach the pronoun: ducharme.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-command",
+      "type": "exercise",
+      "title": "A command",
+      "exercise": {
+        "id": "ex-cloze-command",
+        "type": "cloze",
+        "prompt": "Fill in the affirmative command 'Get up!' (levantarse, tú). Attach the pronoun.",
+        "card_ids": ["refl-commands"],
+        "sentence": "¡___! Es muy tarde.",
+        "blanks": [{"accept": ["Levántate", "levántate"]}],
+        "cloze_mode": "type",
+        "hint": "levanta + te = levántate (with an accent on the á)."
+      }
+    },
+    {
+      "id": "ex-free-i-fell-asleep",
+      "type": "exercise",
+      "title": "dormir or dormirse?",
+      "exercise": {
+        "id": "ex-free-i-fell-asleep",
+        "type": "free_text",
+        "prompt": "Translate: *I fell asleep on the sofa.* (use dormirse, past)",
+        "card_ids": ["refl-dormir-dormirse", "refl-past"],
+        "accept": ["Me dormí en el sofá.", "me dormí en el sofá", "Me dormi en el sofa.", "Yo me dormí en el sofá.", "Me dormí en el sofá"],
+        "hint": "'fall asleep' = dormirse → me dormí (preterite, with the pronoun).",
+        "distractors": ["Dormí en el sofá.", "Me dormir en el sofá.", "Te dormí en el sofá."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-she-gets-nervous",
+      "type": "exercise",
+      "title": "An emotion verb",
+      "exercise": {
+        "id": "ex-free-she-gets-nervous",
+        "type": "free_text",
+        "prompt": "Translate: *She gets nervous.* (ponerse)",
+        "card_ids": ["refl-poner-ponerse", "refl-emotions"],
+        "accept": ["Se pone nerviosa.", "se pone nerviosa", "Ella se pone nerviosa.", "Se pone nerviosa"],
+        "hint": "'get/become' here = ponerse → se pone; nervous (she) = nerviosa.",
+        "distractors": ["Pone nerviosa.", "Me pone nerviosa.", "Se poner nerviosa."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-we-see-each-other",
+      "type": "exercise",
+      "title": "Reciprocal: each other",
+      "exercise": {
+        "id": "ex-free-we-see-each-other",
+        "type": "free_text",
+        "prompt": "Translate: *We see each other tomorrow.* (verse, reciprocal)",
+        "card_ids": ["refl-reciprocal"],
+        "accept": ["Nos vemos mañana.", "nos vemos mañana", "Nos vemos manana.", "Nos vemos mañana"],
+        "hint": "'each other' with nosotros = nos. nos + vemos = Nos vemos.",
+        "distractors": ["Vemos mañana cada otro.", "Se vemos mañana.", "Nos ver mañana."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-i-shower",
+      "type": "exercise",
+      "title": "Which is correct?",
+      "exercise": {
+        "id": "ex-pic-i-shower",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly means 'I take a shower (myself)'?",
+        "card_ids": ["refl-drop-error", "refl-pronouns"],
+        "images": [
+          {"src": "assets/img/me-ducho-1.png", "label": "Me ducho.", "is_correct": "true"},
+          {"src": "assets/img/me-ducho-2.png", "label": "Ducho."},
+          {"src": "assets/img/me-ducho-3.png", "label": "Te ducho."},
+          {"src": "assets/img/me-ducho-4.png", "label": "Se ducho."}
+        ],
+        "hint": "yo → me. Without the pronoun, 'Ducho' means you shower someone else.",
+        "distractors": ["Ducho.", "Te ducho.", "Se ducho."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-past",
+      "type": "exercise",
+      "title": "Reflexive in the past",
+      "exercise": {
+        "id": "ex-cloze-past",
+        "type": "cloze",
+        "prompt": "Fill in the missing pronoun: 'I got up early yesterday.'",
+        "card_ids": ["refl-past"],
+        "sentence": "Ayer ___ levanté temprano.",
+        "blanks": [{"accept": ["me"]}],
+        "cloze_mode": "type",
+        "hint": "Even in the past, keep the pronoun: yo → me levanté."
+      }
+    },
+    {
+      "id": "ex-free-they-left",
+      "type": "exercise",
+      "title": "ir or irse?",
+      "exercise": {
+        "id": "ex-free-they-left",
+        "type": "free_text",
+        "prompt": "Translate: *They left early.* (use irse, past)",
+        "card_ids": ["refl-ir-irse", "refl-past"],
+        "accept": ["Se fueron temprano.", "se fueron temprano", "Ellos se fueron temprano.", "Se fueron temprano"],
+        "hint": "'to leave / go away' = irse → se fueron (preterite of ir + se).",
+        "distractors": ["Fueron temprano.", "Se fuieron temprano.", "Se ir temprano."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
