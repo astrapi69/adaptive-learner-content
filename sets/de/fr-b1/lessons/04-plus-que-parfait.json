@@ -1,0 +1,386 @@
+{
+  "id": "04-plus-que-parfait",
+  "title": "Le plus-que-parfait",
+  "description": "Das Plus-que-parfait (Vorvergangenheit): Bildung mit imparfait von avoir/être + participe passé, Angleichung bei être-Verben, Gebrauch in zeitlichen Staffelungen und im si-Satz Typ III — auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "pqp-konzept",
+      "front": "le plus-que-parfait",
+      "back": "das Plus-que-parfait (Vorvergangenheit)",
+      "notes": "Das **Plus-que-parfait** beschreibt eine Handlung, die **vor** einer anderen vergangenen Handlung stattgefunden hat. Es ist die Entsprechung des deutschen **Plusquamperfekts** (*ich hatte gegessen*, *sie war gegangen*).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "plus-que-parfait", "vergangenheit"]
+    },
+    {
+      "id": "pqp-bildung-avoir",
+      "front": "j'avais mangé, tu avais fini",
+      "back": "Plus-que-parfait mit avoir",
+      "notes": "**Bildung:** imparfait von **avoir** + participe passé.\n\n| Person | avoir (imparfait) | Beispiel |\n|---|---|---|\n| je | avais | j'avais mangé |\n| tu | avais | tu avais fini |\n| il/elle | avait | il avait attendu |\n| nous | avions | nous avions parlé |\n| vous | aviez | vous aviez choisi |\n| ils/elles | avaient | ils avaient vendu |\n\nDas participe passé **bleibt unveränderlich** bei avoir (solange kein vorangestelltes direktes Objekt vorhanden ist).",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "imparfait von avoir = avais/avais/avait/avions/aviez/avaient",
+      "tags": ["grammatik", "plus-que-parfait", "avoir"]
+    },
+    {
+      "id": "pqp-bildung-etre",
+      "front": "elle était partie, ils étaient arrivés",
+      "back": "Plus-que-parfait mit être",
+      "notes": "**Bewegungs- und reflexive Verben** bilden das Plus-que-parfait mit **être** (imparfait).\n\n| Person | être (imparfait) | Beispiel |\n|---|---|---|\n| je | étais | j'étais parti(e) |\n| tu | étais | tu étais venu(e) |\n| il/elle | était | elle était sortie |\n| nous | étions | nous étions restés |\n| vous | étiez | vous étiez arrivé(e)s |\n| ils/elles | étaient | ils étaient partis |\n\n**Angleichung:** Das participe passé richtet sich in Genus und Numerus nach dem Subjekt — genau wie im passé composé.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Dieselben Verben wie im passé composé mit être: DR & MRS VANDERTRAMP und reflexive.",
+      "tags": ["grammatik", "plus-que-parfait", "etre", "angleichung"]
+    },
+    {
+      "id": "pqp-gebrauch-zeitlich",
+      "front": "Quand je suis arrivé, ils étaient déjà partis.",
+      "back": "Gebrauch: zeitliche Staffelung (Vorvergangenheit)",
+      "notes": "Das **Plus-que-parfait** drückt aus, dass eine Handlung **vor** einer anderen vergangenen Handlung abgeschlossen war.\n\n- *Quand je **suis arrivé**, ils **étaient déjà partis**.* → Sie waren weg, bevor ich ankam.\n- *Elle a dit qu'elle **avait déjà mangé**.* → Sie sagte, sie habe schon gegessen.\n\nHäufige Zeitadverbien: **déjà** (schon), **avant** (vorher), **auparavant** (zuvor).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["gebrauch", "plus-que-parfait", "zeitlich"]
+    },
+    {
+      "id": "pqp-si-satz",
+      "front": "Si j'avais su…, j'aurais fait…",
+      "back": "Plus-que-parfait im si-Satz Typ III (irreal Vergangenheit)",
+      "notes": "Im **si-Satz Typ III** (irreale Bedingung in der Vergangenheit) steht das Plus-que-parfait im **si-Teilsatz**, der Hauptsatz verwendet das **conditionnel passé**:\n\n| si-Satz | Hauptsatz |\n|---|---|\n| Si j'**avais su**… | j'**aurais fait** autrement. |\n| Si elle **était venue**… | nous **aurions pu** en parler. |\n\nAuf Deutsch entspricht das: *Wenn ich es gewusst hätte, hätte ich es anders gemacht.*\n\n> Verbindung zu Lektion 03 (conditionnel): Das conditionnel passé im Hauptsatz ist das Pendant zum Plus-que-parfait im si-Satz.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["gebrauch", "plus-que-parfait", "si-satz", "konditional"]
+    },
+    {
+      "id": "pqp-kontrast-pc",
+      "front": "passé composé vs. plus-que-parfait",
+      "back": "Vergangenheitskontrast: passé composé ≠ plus-que-parfait",
+      "notes": "**Vergleich der Vergangenheitstempora:**\n\n| Tempus | Bedeutung | Beispiel |\n|---|---|---|\n| **passé composé** | abgeschlossene Handlung (A2) | Il **est parti** à 8 h. |\n| **imparfait** | Hintergrund/Zustand (A2) | Il **faisait** beau. |\n| **plus-que-parfait** | Handlung, die noch davor lag | Il **était déjà parti**. |\n\n*Il est parti* = er ist gegangen (gestern z. B.).\n*Il était déjà parti* = er war schon gegangen (bevor etwas anderes geschah).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "kontrast", "plus-que-parfait", "passe-compose"]
+    },
+    {
+      "id": "pqp-reflexiv",
+      "front": "Elle s'était levée tôt.",
+      "back": "Plus-que-parfait reflexiver Verben",
+      "notes": "Reflexive Verben bilden das Plus-que-parfait mit **être** (imparfait) + participe passé.\n\n*Elle **s'était levée** tôt.* — Sie war früh aufgestanden.\n*Ils **s'étaient disputés**.* — Sie hatten gestritten.\n\n**Angleichung:** Das participe passé richtet sich nach dem Subjekt, sofern kein nachgestelltes direktes Objekt vorhanden ist.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "plus-que-parfait", "reflexiv", "angleichung"]
+    },
+    {
+      "id": "pqp-deja",
+      "front": "Il avait déjà fini quand nous sommes arrivés.",
+      "back": "Er hatte schon aufgehört, als wir ankamen.",
+      "notes": "**déjà** (schon/bereits) ist das typischste Adverb, das die Vorvergangenheit signalisiert. Es steht zwischen **avait/était** und dem participe passé: *avait **déjà** fini*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vokabular", "plus-que-parfait", "adverb"]
+    },
+    {
+      "id": "pqp-venir-partir",
+      "front": "venir → était venu(e) / partir → était parti(e)",
+      "back": "venir und partir im Plus-que-parfait",
+      "notes": "Beide Verben nutzen **être** als Hilfsverb:\n\n- *venir*: il **était venu**, elle **était venue**, ils **étaient venus**\n- *partir*: il **était parti**, elle **était partie**, elles **étaient parties**\n\nMerkhilfe: Diese Verben stehen auch im passé composé mit être.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "plus-que-parfait", "etre-verben"]
+    },
+    {
+      "id": "pqp-faire-prendre",
+      "front": "avait fait / avait pris",
+      "back": "faire und prendre im Plus-que-parfait",
+      "notes": "Unregelmäßige participes passés bleiben unverändert:\n\n- *faire* → participe passé **fait**: *il avait **fait** ses devoirs*\n- *prendre* → participe passé **pris**: *elle avait **pris** le train*\n- *dire* → participe passé **dit**: *ils avaient **dit** la vérité*\n- *voir* → participe passé **vu**: *nous avions **vu** ce film*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "plus-que-parfait", "unregelmaessig", "partizip"]
+    },
+    {
+      "id": "pqp-indirect-speech",
+      "front": "Elle a dit qu'elle avait terminé.",
+      "back": "Plus-que-parfait in der indirekten Rede",
+      "notes": "In der **indirekten Rede** (discours indirect) ersetzt das Plus-que-parfait das passé composé der direkten Rede:\n\n| Direkte Rede | Indirekte Rede |\n|---|---|\n| « J'**ai fini** le travail. » | Elle a dit qu'elle **avait fini** le travail. |\n| « Il **est parti**. » | Elle a dit qu'il **était parti**. |\n\nVorgriff auf Lektion 06 (discours indirect).",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["gebrauch", "plus-que-parfait", "indirekte-rede"]
+    },
+    {
+      "id": "pqp-avant-que",
+      "front": "avant qu'il arrive / avant son arrivée",
+      "back": "bevor er ankam / vor seiner Ankunft",
+      "notes": "Zur zeitlichen Einordnung der Vorvergangenheit helfen:\n\n- **avant de + infinitif**: *Avant de **partir**, elle avait mangé.* (gleiches Subjekt)\n- **avant que + subjonctif**: *Avant qu'il **arrive**, j'avais tout préparé.* (verschiedene Subjekte)\n- **après + infinitif passé**: *Après **avoir mangé**, il est sorti.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["vokabular", "plus-que-parfait", "zeitausdruecke"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-bildung",
+      "type": "theory",
+      "title": "Das Plus-que-parfait: Bildung",
+      "body": "# Le plus-que-parfait — Die Vorvergangenheit\n\nDas **Plus-que-parfait** ist das französische Äquivalent des deutschen **Plusquamperfekts** (*ich hatte gegessen*, *sie war gegangen*). Es beschreibt eine Handlung, die **vor** einer anderen vergangenen Handlung abgeschlossen war.\n\n## Bildung: imparfait von avoir/être + participe passé\n\nDie Bildung folgt demselben Muster wie das **passé composé** (A2) — nur dass das Hilfsverb im **Imparfait** steht statt im Présent:\n\n### Mit avoir (die Mehrheit der Verben)\n\n| Person | Hilfsverb | participe passé | Beispiel |\n|---|---|---|---|\n| je | avais | + PP | j'avais mangé |\n| tu | avais | + PP | tu avais fini |\n| il/elle | avait | + PP | il avait attendu |\n| nous | avions | + PP | nous avions parlé |\n| vous | aviez | + PP | vous aviez choisi |\n| ils/elles | avaient | + PP | ils avaient vendu |\n\n### Mit être (Bewegungsverben + reflexive Verben)\n\n| Person | Hilfsverb | participe passé | Beispiel |\n|---|---|---|---|\n| je (m.) | étais | + PP | j'étais parti |\n| je (f.) | étais | + PP | j'étais partie |\n| elle | était | + PP | elle était arrivée |\n| ils | étaient | + PP | ils étaient venus |\n| elles | étaient | + PP | elles étaient venues |\n\n> **Angleichung:** Bei être-Verben und reflexiven Verben richtet sich das participe passé in Genus und Numerus nach dem Subjekt — genau wie im passé composé."
+    },
+    {
+      "id": "theory-gebrauch",
+      "type": "theory",
+      "title": "Wann benutze ich das Plus-que-parfait?",
+      "body": "## Gebrauch: zeitliche Staffelung in der Vergangenheit\n\nDas **Plus-que-parfait** markiert die **ältere** von zwei vergangenen Handlungen:\n\n| Tempus | Reihenfolge | Beispiel |\n|---|---|---|\n| **plus-que-parfait** | Handlung 1 (früher) | ils **étaient déjà partis** |\n| **passé composé** | Handlung 2 (später) | quand je **suis arrivé** |\n\n*Quand je suis arrivé, ils étaient déjà partis.* — Als ich ankam, waren sie schon gegangen.\n\n### Typische Zeitadverbien\n\n- **déjà** (schon/bereits): *Il avait **déjà** fini.*\n- **auparavant** (zuvor): *Elle avait **auparavant** travaillé à Paris.*\n- **avant (de)** (bevor): *Avant de partir, il avait fermé la fenêtre.*\n\n## Vergangenheitstempora im Überblick\n\n| Tempus | Funktion | Beispiel |\n|---|---|---|\n| **imparfait** | Hintergrund, Zustand | Il **faisait** froid. |\n| **passé composé** | abgeschl. Ereignis | Il **est sorti**. |\n| **plus-que-parfait** | Vorvergangenheit | Il **était déjà sorti**. |\n\n## Stil- und Erzählhinweis\n\nIn erzählenden Texten (*récit*) schafft das Plus-que-parfait **Tiefe in der Zeitlinie**: Es ermöglicht Rückblenden (*flashbacks*) innerhalb einer Erzählung im passé composé oder imparfait. Ohne Plus-que-parfait wirken Ereignisse chronologisch gleichrangig — mit ihm wird klar, was **vorausgegangen** ist. In gesprochener Sprache klingt *il avait déjà mangé* natürlicher als eine Umschreibung mit *avant*."
+    },
+    {
+      "id": "theory-si-satz",
+      "type": "theory",
+      "title": "Plus-que-parfait im si-Satz Typ III und der indirekten Rede",
+      "body": "## si-Satz Typ III: irreale Bedingung in der Vergangenheit\n\nDas Plus-que-parfait steht im **si-Teilsatz** eines Typ-III-Konditionalsatzes. Der Hauptsatz verwendet das **conditionnel passé** (Verbindung zu Lektion 03):\n\n| si-Satz (Plus-que-parfait) | Hauptsatz (conditionnel passé) |\n|---|---|\n| Si j'**avais su**… | j'**aurais fait** autrement. |\n| Si elle **était venue**… | nous **aurions pu** en parler. |\n| Si tu **avais étudié**… | tu **aurais réussi** l'examen. |\n\nDeutsch: *Wenn ich es gewusst hätte, hätte ich es anders gemacht.*\n\n> **Achtung:** Im si-Satz steht **nie** das conditionnel — immer Plus-que-parfait.\n\n## Plus-que-parfait in der indirekten Rede (Vorgriff Lektion 06)\n\nWenn man in der Vergangenheit berichtet, was jemand gesagt hat, verschiebt sich das passé composé der direkten Rede ins Plus-que-parfait:\n\n| Direkte Rede | Indirekte Rede |\n|---|---|\n| « J'**ai terminé**. » | Il a dit qu'il **avait terminé**. |\n| « Elle **est partie**. » | Il a dit qu'elle **était partie**. |\n\n## Zusammenfassung: Wann Plus-que-parfait?\n\n1. **Zeitliche Staffelung**: Handlung A lag vor Handlung B in der Vergangenheit.\n2. **si-Satz Typ III**: irreale Vergangenheitsbedingung.\n3. **Indirekte Rede**: Verschiebung des passé composé nach hinten."
+    },
+    {
+      "id": "ex-cloze-arrive-parti",
+      "type": "exercise",
+      "title": "Vorvergangenheit erkennen",
+      "exercise": {
+        "id": "ex-cloze-arrive-parti",
+        "type": "cloze",
+        "prompt": "Ergänze das Plus-que-parfait von *partir* (ils). Sie waren schon weg, als er ankam.",
+        "card_ids": ["pqp-gebrauch-zeitlich", "pqp-venir-partir"],
+        "sentence": "Quand il est arrivé, ils ___ déjà ___.",
+        "blanks": [
+          { "accept": ["étaient"] },
+          { "accept": ["partis"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "partir → être-Verb; Hilfsverb = étaient (ils, imparfait); participe passé = partis (Angleichung: ils → -s).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-manger-deja",
+      "type": "exercise",
+      "title": "Plus-que-parfait mit avoir",
+      "exercise": {
+        "id": "ex-cloze-manger-deja",
+        "type": "cloze",
+        "prompt": "Ergänze das Plus-que-parfait von *manger* (elle). Sie hatte schon gegessen.",
+        "card_ids": ["pqp-bildung-avoir"],
+        "sentence": "Elle ___ déjà ___ quand je suis rentré.",
+        "blanks": [
+          { "accept": ["avait"] },
+          { "accept": ["mangé"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "manger → avoir-Verb; elle → avait; participe passé = mangé (unveränderlich bei avoir).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-pris-train",
+      "type": "exercise",
+      "title": "Vorvergangenheit übersetzen",
+      "exercise": {
+        "id": "ex-free-pris-train",
+        "type": "free_text",
+        "prompt": "Übersetze: *Sie (sie, Sg.) hatte den Zug genommen, bevor es anfing zu regnen.*",
+        "card_ids": ["pqp-bildung-avoir", "pqp-faire-prendre"],
+        "accept": [
+          "Elle avait pris le train avant qu'il commence à pleuvoir.",
+          "elle avait pris le train avant qu'il commence à pleuvoir",
+          "Elle avait pris le train avant qu'il pleuve.",
+          "elle avait pris le train avant qu'il pleuve",
+          "Elle avait pris le train avant la pluie."
+        ],
+        "hint": "prendre → avoir-Verb; participe passé = pris; Hilfsverb = avait (elle).",
+        "distractors": [
+          "Elle a pris le train avant qu'il commence à pleuvoir.",
+          "Elle était prise le train avant qu'il commence à pleuvoir.",
+          "Elle avait prenait le train avant qu'il commence à pleuvoir."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-si-avais-su",
+      "type": "exercise",
+      "title": "si-Satz Typ III bilden",
+      "exercise": {
+        "id": "ex-free-si-avais-su",
+        "type": "free_text",
+        "prompt": "Übersetze: *Wenn ich das gewusst hätte, wäre ich nicht gegangen.*",
+        "card_ids": ["pqp-si-satz"],
+        "accept": [
+          "Si j'avais su, je ne serais pas parti.",
+          "si j'avais su, je ne serais pas parti",
+          "Si j'avais su ça, je ne serais pas parti.",
+          "si j'avais su ça, je ne serais pas parti",
+          "Si j'avais su cela, je ne serais pas parti."
+        ],
+        "hint": "si-Satz: Plus-que-parfait (*avais su*); Hauptsatz: conditionnel passé (*serais parti* — être-Verb, Angleichung nach Sprecher).",
+        "distractors": [
+          "Si j'aurais su, je ne serais pas parti.",
+          "Si j'avais su, je ne suis pas parti.",
+          "Si j'avais su, je ne partirais pas."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-hilfsverb",
+      "type": "exercise",
+      "title": "Welches Hilfsverb im Plus-que-parfait?",
+      "exercise": {
+        "id": "ex-match-hilfsverb",
+        "type": "matching",
+        "prompt": "Ordne jedem Verb das richtige Hilfsverb im Plus-que-parfait zu (*avoir* oder *être*).",
+        "card_ids": ["pqp-bildung-avoir", "pqp-bildung-etre", "pqp-venir-partir", "pqp-reflexiv"],
+        "pairs": [
+          { "left": "manger", "right": "avoir" },
+          { "left": "partir", "right": "être" },
+          { "left": "finir", "right": "avoir" },
+          { "left": "se lever", "right": "être" },
+          { "left": "venir", "right": "être" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-formen",
+      "type": "exercise",
+      "title": "Plus-que-parfait-Formen zuordnen",
+      "exercise": {
+        "id": "ex-match-formen",
+        "type": "matching",
+        "prompt": "Ordne die deutschen Übersetzungen den französischen Plus-que-parfait-Formen zu.",
+        "card_ids": ["pqp-gebrauch-zeitlich", "pqp-deja", "pqp-kontrast-pc"],
+        "pairs": [
+          { "left": "j'avais parlé", "right": "ich hatte gesprochen" },
+          { "left": "elle était arrivée", "right": "sie war angekommen" },
+          { "left": "nous avions vu", "right": "wir hatten gesehen" },
+          { "left": "ils s'étaient levés", "right": "sie hatten sich erhoben" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-etait-venue",
+      "type": "exercise",
+      "title": "Satz zusammenbauen: être-Verb",
+      "exercise": {
+        "id": "ex-tiles-etait-venue",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Sie (f.) war schon angekommen, als das Treffen begann.*",
+        "card_ids": ["pqp-bildung-etre", "pqp-gebrauch-zeitlich"],
+        "tiles": ["Elle", "était", "déjà", "arrivée", "quand", "la", "réunion", "a", "commencé"],
+        "hint": "arriver → être-Verb; elle → était; participe passé arrivée (f., Angleichung).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-si-etait-venue",
+      "type": "exercise",
+      "title": "si-Satz mit être-Verb zusammenbauen",
+      "exercise": {
+        "id": "ex-tiles-si-etait-venue",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Wenn sie gekommen wäre, hätten wir es feiern können.*",
+        "card_ids": ["pqp-si-satz", "pqp-bildung-etre"],
+        "tiles": ["Si", "elle", "était", "venue", ",", "nous", "aurions", "pu", "fêter", "ça"],
+        "hint": "si-Satz Typ III: être-Verb → si elle était venue; Hauptsatz: aurions pu (conditionnel passé von pouvoir).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-pqp-vs-pc",
+      "type": "exercise",
+      "title": "Plus-que-parfait oder passé composé?",
+      "exercise": {
+        "id": "ex-pic-pqp-vs-pc",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz drückt korrekt die Vorvergangenheit aus? (*Er hatte das Buch gelesen, bevor sie ankam.*)",
+        "card_ids": ["pqp-kontrast-pc", "pqp-bildung-avoir"],
+        "images": [
+          { "src": "assets/img/book-read-1.png", "label": "Il avait lu le livre avant qu'elle arrive.", "is_correct": "true" },
+          { "src": "assets/img/book-read-2.png", "label": "Il a lu le livre avant qu'elle arrive." },
+          { "src": "assets/img/book-read-3.png", "label": "Il lisait le livre avant qu'elle arrive." },
+          { "src": "assets/img/book-read-4.png", "label": "Il avait lire le livre avant qu'elle arrive." }
+        ],
+        "hint": "Vorvergangenheit = Plus-que-parfait: *avait lu* (avoir + participe passé von lire = lu).",
+        "distractors": [
+          "Il a lu le livre avant qu'elle arrive.",
+          "Il lisait le livre avant qu'elle arrive.",
+          "Il avait lire le livre avant qu'elle arrive."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-levee-tot",
+      "type": "exercise",
+      "title": "Reflexives Verb im Plus-que-parfait",
+      "exercise": {
+        "id": "ex-free-levee-tot",
+        "type": "free_text",
+        "prompt": "Übersetze: *Sie (f., Sg.) war früh aufgestanden, bevor alle ankamen.*",
+        "card_ids": ["pqp-reflexiv", "pqp-bildung-etre"],
+        "accept": [
+          "Elle s'était levée tôt avant que tout le monde arrive.",
+          "elle s'était levée tôt avant que tout le monde arrive",
+          "Elle s'était levée tôt avant l'arrivée de tous.",
+          "elle s'était levée tôt avant l'arrivée de tous",
+          "Elle s'était levée tôt avant que tout le monde n'arrive."
+        ],
+        "hint": "se lever → reflexiv → être; elle → s'était levée (Angleichung: f. → -e am participe passé).",
+        "distractors": [
+          "Elle s'avait levée tôt avant que tout le monde arrive.",
+          "Elle s'était levé tôt avant que tout le monde arrive.",
+          "Elle était levée tôt avant que tout le monde arrive."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-indirect-speech",
+      "type": "exercise",
+      "title": "Indirekte Rede: Zeitverschiebung",
+      "exercise": {
+        "id": "ex-cloze-indirect-speech",
+        "type": "cloze",
+        "prompt": "Ergänze das Plus-que-parfait. Direkte Rede: « J'ai fini mon travail. » → Indirekte Rede (il a dit que…).",
+        "card_ids": ["pqp-indirect-speech"],
+        "sentence": "Il a dit qu'il ___ son travail.",
+        "blanks": [
+          { "accept": ["avait fini"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "passé composé (a fini) in der direkten Rede → Plus-que-parfait (avait fini) in der indirekten Rede.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-vus-film",
+      "type": "exercise",
+      "title": "Plus-que-parfait frei formulieren",
+      "exercise": {
+        "id": "ex-free-vus-film",
+        "type": "free_text",
+        "prompt": "Übersetze: *Wir hatten diesen Film schon gesehen, also haben wir etwas anderes gewählt.*",
+        "card_ids": ["pqp-bildung-avoir", "pqp-faire-prendre"],
+        "accept": [
+          "Nous avions déjà vu ce film, donc nous avons choisi autre chose.",
+          "nous avions déjà vu ce film, donc nous avons choisi autre chose",
+          "Nous avions déjà vu ce film, alors nous avons choisi autre chose.",
+          "nous avions déjà vu ce film, alors nous avons choisi autre chose",
+          "Comme nous avions déjà vu ce film, nous avons choisi autre chose."
+        ],
+        "hint": "voir → avoir-Verb; participe passé = vu; Hilfsverb = avions (nous).",
+        "distractors": [
+          "Nous avons déjà vu ce film, donc nous avons choisi autre chose.",
+          "Nous avions déjà voir ce film, donc nous avons choisi autre chose.",
+          "Nous étions déjà vu ce film, donc nous avons choisi autre chose."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

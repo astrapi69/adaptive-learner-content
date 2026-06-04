@@ -1,0 +1,462 @@
+{
+  "id": "08-connecteurs-logiques",
+  "title": "Konnektoren und Textstruktur",
+  "description": "Logische Konnektoren für strukturierte B1-Texte: Gegensatz, Folge, Ursache, Hinzufügung und Gliederung — mit Registerhinweisen und Nuancen (grâce à vs. à cause de; en revanche vs. par contre). Auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "cependant",
+      "front": "cependant",
+      "back": "jedoch / dennoch (schriftlich)",
+      "notes": "Gegensatz-Konnektor, **schriftlich** und neutral-formell. Steht oft am Satzanfang oder nach dem Komma: *Il est fatigué ; **cependant**, il continue.* — Er ist müde; dennoch macht er weiter.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "gegensatz", "schriftlich"]
+    },
+    {
+      "id": "en-revanche",
+      "front": "en revanche",
+      "back": "dagegen / hingegen (neutral-schriftlich)",
+      "notes": "Drückt einen Gegensatz aus, meist um eine **kompensierende** oder kontrastierende Information einzuleiten. **Neutral bis leicht schriftlich** — stilistisch besser als *par contre* in formellen Texten: *Elle n'aime pas le sport ; **en revanche**, elle adore la musique.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Vorzuziehen gegenüber par contre in Aufsätzen und offiziellen Texten.",
+      "tags": ["konnektoren", "gegensatz", "register"]
+    },
+    {
+      "id": "neanmoins",
+      "front": "néanmoins",
+      "back": "nichtsdestoweniger / dennoch (formell)",
+      "notes": "Formeller Gegensatz-Konnektor, Synonym zu *cependant*. Häufig in **akademischen oder journalistischen** Texten: *La situation est difficile ; **néanmoins**, des progrès ont été réalisés.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "gegensatz", "formell"]
+    },
+    {
+      "id": "pourtant",
+      "front": "pourtant",
+      "back": "trotzdem / und dennoch",
+      "notes": "Gegensatz mit **überraschendem** oder **widersprüchlichem** Charakter — oft emotionaler als *cependant*. Kann mündlich und schriftlich verwendet werden: *Il a tout fait **pourtant** il a échoué.* — Er hat alles getan, und dennoch ist er gescheitert.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "gegensatz"]
+    },
+    {
+      "id": "tandis-que",
+      "front": "tandis que",
+      "back": "während / wohingegen",
+      "notes": "Leitet einen Nebensatz ein und drückt entweder **Gleichzeitigkeit** oder **Kontrast** aus. Im B1-Kontext meist kontrastiv: ***Tandis que** mon frère aime le foot, moi je préfère le tennis.* — Während mein Bruder Fußball mag, bevorzuge ich Tennis.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "gegensatz", "nebensatz"]
+    },
+    {
+      "id": "par-consequent",
+      "front": "par conséquent",
+      "back": "folglich / infolgedessen (schriftlich-formell)",
+      "notes": "Folge-/Konsequenz-Konnektor, **schriftlich und formell**. Zeigt an, dass etwas eine direkte logische Folge ist: *Il a plu toute la nuit ; **par conséquent**, les routes sont mouillées.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "folge", "formell"]
+    },
+    {
+      "id": "cest-pourquoi",
+      "front": "c'est pourquoi",
+      "back": "deshalb / aus diesem Grund",
+      "notes": "Neutraler Folge-Konnektor, häufig in **mündlichen und schriftlichen** B1-Texten. Leitet die Konsequenz ein: *Je suis allergique aux chats ; **c'est pourquoi** je n'en ai pas chez moi.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "folge"]
+    },
+    {
+      "id": "ainsi",
+      "front": "ainsi",
+      "back": "so / auf diese Weise / somit",
+      "notes": "Kann Folge **oder** Art und Weise ausdrücken. Als Folge-Konnektor oft am Satzanfang mit Inversion: ***Ainsi**, le problème a-t-il été résolu.* Ohne Inversion in neutralen Texten: *Il a étudié dur ; **ainsi**, il a réussi.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Nach ainsi am Satzanfang folgt oft die Inversion (schriftlich/formell).",
+      "tags": ["konnektoren", "folge", "formell"]
+    },
+    {
+      "id": "puisque",
+      "front": "puisque",
+      "back": "da / weil (bekannte Ursache)",
+      "notes": "Drückt eine **bereits bekannte oder offensichtliche** Ursache aus — der Hörer/Leser weiß die Ursache schon: ***Puisque** tu es là, on peut commencer.* — Da du da bist, können wir anfangen. Unterschied zu *car*: *car* führt eine neue Begründung ein.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "ursache", "nuance"]
+    },
+    {
+      "id": "etant-donne-que",
+      "front": "étant donné que",
+      "back": "angesichts der Tatsache, dass / da",
+      "notes": "Formeller Ursachen-Konnektor, oft in **schriftlichen und offiziellen** Kontexten. Betont eine Ausgangslage als Grundlage: ***Étant donné que** les résultats sont mauvais, nous devons agir.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "ursache", "formell"]
+    },
+    {
+      "id": "grace-a",
+      "front": "grâce à (+ nom)",
+      "back": "dank (+ Nomen) — positives Ergebnis",
+      "notes": "Drückt eine **positive** Ursache aus — dank etwas Gutem ist etwas Gutes eingetreten: ***Grâce à** son aide, j'ai réussi l'examen.* — Dank seiner Hilfe habe ich die Prüfung bestanden.\n\n⚠️ Verwechslungsgefahr: **à cause de** = wegen (negativer Zusammenhang).",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Merkhilfe: grâce à = positiv (grace = Gnade/Gunst); à cause de = negativ (Ursache eines Problems).",
+      "tags": ["konnektoren", "ursache", "nuance", "praeposition"]
+    },
+    {
+      "id": "a-cause-de",
+      "front": "à cause de (+ nom)",
+      "back": "wegen (+ Nomen) — negativer Zusammenhang",
+      "notes": "Drückt eine **negative** Ursache aus — wegen etwas Schlechtem ist etwas Schlechtes passiert: ***À cause de** la pluie, le match a été annulé.* — Wegen des Regens wurde das Spiel abgesagt.\n\n⚠️ Gegenteil: **grâce à** = dank (positiver Zusammenhang).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "ursache", "nuance", "praeposition"]
+    },
+    {
+      "id": "de-plus",
+      "front": "de plus",
+      "back": "außerdem / darüber hinaus",
+      "notes": "Hinzufügungs-Konnektor, neutral und häufig: ***De plus**, ce produit est moins cher.* — Außerdem ist dieses Produkt billiger. Etwas weniger formell als *en outre*, aber in schriftlichen B1-Texten gut verwendbar.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "hinzufuegung"]
+    },
+    {
+      "id": "en-outre",
+      "front": "en outre",
+      "back": "überdies / zudem (formell-schriftlich)",
+      "notes": "Formeller Hinzufügungs-Konnektor: ***En outre**, il faut considérer les coûts.* — Überdies müssen die Kosten berücksichtigt werden. Stärker formell als *de plus*; typisch für journalistische und akademische Texte.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "hinzufuegung", "formell"]
+    },
+    {
+      "id": "dailleurs",
+      "front": "d'ailleurs",
+      "back": "übrigens / im Übrigen / außerdem",
+      "notes": "Fügt eine **zusätzliche, oft bekräftigende** Information hinzu, manchmal mit dem Ton von 'und übrigens': ***D'ailleurs**, je l'ai déjà dit hier.* — Ich habe das übrigens schon gestern gesagt. Kann auch einen leichten Wechsel des Blickwinkels signalisieren.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "hinzufuegung"]
+    },
+    {
+      "id": "dune-part-dautre-part",
+      "front": "d'une part … d'autre part",
+      "back": "einerseits … andererseits",
+      "notes": "Strukturierendes Paar zur **Gliederung von zwei Aspekten**: ***D'une part**, le projet est coûteux ; **d'autre part**, il est très utile.* — Einerseits ist das Projekt kostspielig; andererseits ist es sehr nützlich. Typisch für schriftliche B1/B2-Texte.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "gliederung"]
+    },
+    {
+      "id": "premierement-enfin",
+      "front": "premièrement … enfin",
+      "back": "erstens … schließlich / zuletzt",
+      "notes": "Gliederungsreihe: **premièrement** (erstens), **deuxièmement** (zweitens), **enfin** (schließlich/zuletzt). Typisch für **nummerierte Argumente** in Aufsätzen: *Premièrement, … Deuxièmement, … Enfin, …* — Erstens … Zweitens … Schließlich …",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "gliederung"]
+    },
+    {
+      "id": "en-conclusion",
+      "front": "en conclusion",
+      "back": "abschließend / zum Schluss",
+      "notes": "Leitet den **Schlussteil** eines Aufsatzes oder einer Rede ein: ***En conclusion**, on peut dire que ce projet mérite d'être soutenu.* — Abschließend lässt sich sagen, dass dieses Projekt unterstützt werden sollte. Synonym: *pour conclure*, *en résumé*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "gliederung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-gegensatz-folge",
+      "type": "theory",
+      "title": "Gegensatz und Folge: die wichtigsten Konnektoren",
+      "body": "# Konnektoren und Textstruktur\n\nAuf B1-Niveau reicht *mais* (aber) nicht mehr aus. Du brauchst ein Repertoire an **logischen Konnektoren**, um Texte differenziert zu strukturieren. Dieses Kapitel zeigt dir, wie du Gegensätze, Folgen, Ursachen, Ergänzungen und Gliederungspunkte präzise ausdrückst.\n\n## 1. Gegensatz (*la concession / l'opposition*)\n\n| Konnektor | Bedeutung | Register |\n|---|---|---|\n| **cependant** | jedoch, dennoch | schriftlich-neutral |\n| **néanmoins** | nichtsdestoweniger | formell/schriftlich |\n| **pourtant** | trotzdem, und dennoch | neutral (auch mündlich) |\n| **en revanche** | dagegen, hingegen | neutral-schriftlich |\n| **tandis que** | während / wohingegen | neutral (Nebensatz) |\n\n### Register-Hinweis: *en revanche* vs. *par contre*\n\nBeide bedeuten „dagegen/hingegen”, aber:\n- **en revanche** → stilistisch neutral bis schriftlich, in Aufsätzen empfohlen\n- **par contre** → **umgangssprachlicher**, in formellen Texten eher zu vermeiden\n\n## 2. Folge / Konsequenz (*la conséquence*)\n\n| Konnektor | Bedeutung | Register |\n|---|---|---|\n| **par conséquent** | folglich, infolgedessen | formell/schriftlich |\n| **c'est pourquoi** | deshalb, aus diesem Grund | neutral |\n| **donc** | also, deshalb | neutral (auch mündlich) |\n| **ainsi** | so, auf diese Weise | schriftlich (oft mit Inversion) |\n\n> **Tipp:** *donc* kennst du schon (A2). *Par conséquent* und *ainsi* sind die formelleren Alternativen für schriftliche Texte."
+    },
+    {
+      "id": "intro-ursache-hinzufuegung",
+      "type": "theory",
+      "title": "Ursache und Hinzufügung: Nuancen erkennen",
+      "body": "## 3. Ursache (*la cause*)\n\n| Konnektor | Bedeutung | Besonderheit |\n|---|---|---|\n| **car** | denn | führt **neue** Begründung ein; koordinierend |\n| **puisque** | da | Ursache ist dem Hörer **bereits bekannt** |\n| **étant donné que** | angesichts der Tatsache, dass | formell, schriftlich |\n| **grâce à** + nom | **dank** | Ursache mit **positivem** Ergebnis |\n| **à cause de** + nom | **wegen** | Ursache mit **negativem** Ergebnis |\n\n### Die wichtigste Nuance: *grâce à* vs. *à cause de*\n\n| | Beispiel | Ton |\n|---|---|---|\n| **grâce à** | *Grâce à son aide, j'ai réussi.* | positiv ✓ |\n| **à cause de** | *À cause de la pluie, le match est annulé.* | negativ ✗ |\n\n⚠️ Fehler vermeiden: **Nicht** *À cause de son aide, j'ai réussi* — das klingt, als wäre die Hilfe ein Problem gewesen!\n\n## 4. Hinzufügung (*l'addition*)\n\n| Konnektor | Bedeutung | Register |\n|---|---|---|\n| **de plus** | außerdem | neutral |\n| **en outre** | überdies, zudem | formell/schriftlich |\n| **d'ailleurs** | übrigens, im Übrigen | neutral (oft bekräftigend) |"
+    },
+    {
+      "id": "intro-gliederung",
+      "type": "theory",
+      "title": "Texte gliedern: Struktur und Schluss",
+      "body": "## 5. Gliederung (*la structuration*)\n\nIn Aufsätzen und Präsentationen brauchst du Konnektoren, die den **Aufbau sichtbar machen**:\n\n| Funktion | Konnektoren |\n|---|---|\n| **Zwei Seiten benennen** | d'une part … d'autre part |\n| **Aufzählung** | premièrement, deuxièmement, troisièmement |\n| **Letzter Punkt / Abschluss** | enfin, finalement |\n| **Schluss ziehen** | en conclusion, pour conclure, en résumé |\n\n### Typisches B1-Aufsatz-Gerüst\n\n```\nD'une part, [Argument 1].\nD'autre part, [Argument 2].\nDe plus, [Ergänzung].\nEn conclusion, [Schlussfolgerung].\n```\n\n## Register-Übersicht: schriftlich vs. mündlich\n\n| Schriftlich/formell | Neutral | Umgangssprachlich |\n|---|---|---|\n| néanmoins, par conséquent, en outre, étant donné que, ainsi | cependant, c'est pourquoi, de plus, en revanche, pourtant | par contre, donc, d'ailleurs |\n\n> **Merksatz:** In Schulaufsätzen und offiziellen Briefen bevorzuge die schriftlich-formellen Konnektoren. Im Gespräch sind die umgangssprachlicheren Varianten natürlicher."
+    },
+    {
+      "id": "ex-cloze-grace-a",
+      "type": "exercise",
+      "title": "grâce à oder à cause de?",
+      "exercise": {
+        "id": "ex-cloze-grace-a",
+        "type": "cloze",
+        "prompt": "Ergänze mit *grâce à* oder *à cause de*. Achtung: Das Ergebnis ist positiv!",
+        "card_ids": ["grace-a", "a-cause-de"],
+        "sentence": "___ ses efforts, elle a obtenu le poste.",
+        "blanks": [
+          { "accept": ["Grâce à", "grâce à"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Ergebnis (einen Job bekommen) ist positiv → grâce à."
+      }
+    },
+    {
+      "id": "ex-cloze-a-cause-de",
+      "type": "exercise",
+      "title": "Negative Ursache benennen",
+      "exercise": {
+        "id": "ex-cloze-a-cause-de",
+        "type": "cloze",
+        "prompt": "Ergänze mit *à cause de* oder *grâce à*. Das Ergebnis ist negativ!",
+        "card_ids": ["a-cause-de", "grace-a"],
+        "sentence": "___ la grève, les trains ne circulent pas.",
+        "blanks": [
+          { "accept": ["À cause de", "à cause de"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Streik → Züge fahren nicht: negatives Ergebnis → à cause de."
+      }
+    },
+    {
+      "id": "ex-match-funktionen",
+      "type": "exercise",
+      "title": "Konnektor → Funktion zuordnen",
+      "exercise": {
+        "id": "ex-match-funktionen",
+        "type": "matching",
+        "prompt": "Ordne jeden Konnektor seiner logischen Funktion zu.",
+        "card_ids": ["par-consequent", "cependant", "de-plus", "puisque", "en-conclusion"],
+        "pairs": [
+          { "left": "par conséquent", "right": "Folge / Konsequenz" },
+          { "left": "cependant", "right": "Gegensatz" },
+          { "left": "de plus", "right": "Hinzufügung" },
+          { "left": "puisque", "right": "Ursache (bekannt)" },
+          { "left": "en conclusion", "right": "Gliederung / Abschluss" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-cependant",
+      "type": "exercise",
+      "title": "Einen Gegensatz formulieren",
+      "exercise": {
+        "id": "ex-free-cependant",
+        "type": "free_text",
+        "prompt": "Übersetze: *Das Projekt ist teuer. Dennoch lohnt es sich.*",
+        "card_ids": ["cependant", "neanmoins", "pourtant"],
+        "accept": [
+          "Le projet est coûteux. Cependant, il en vaut la peine.",
+          "Le projet est coûteux ; cependant, il en vaut la peine.",
+          "Le projet est coûteux. Néanmoins, il en vaut la peine.",
+          "Le projet est coûteux. Pourtant, il en vaut la peine.",
+          "Le projet est cher. Cependant, il en vaut la peine.",
+          "Le projet est coûteux, pourtant il en vaut la peine."
+        ],
+        "hint": "Gegensatz-Konnektoren: cependant / néanmoins / pourtant. Alle drei sind hier möglich!",
+        "distractors": [
+          "Le projet est coûteux. Par contre, il en vaut la peine.",
+          "Le projet est coûteux. Par conséquent, il en vaut la peine.",
+          "Le projet est coûteux. Puisque il en vaut la peine."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-par-consequent",
+      "type": "exercise",
+      "title": "Eine Konsequenz ausdrücken",
+      "exercise": {
+        "id": "ex-free-par-consequent",
+        "type": "free_text",
+        "prompt": "Übersetze: *Es hat die ganze Nacht geregnet. Folglich sind die Straßen nass.*",
+        "card_ids": ["par-consequent", "cest-pourquoi", "ainsi"],
+        "accept": [
+          "Il a plu toute la nuit. Par conséquent, les routes sont mouillées.",
+          "Il a plu toute la nuit ; par conséquent, les routes sont mouillées.",
+          "Il a plu toute la nuit. C'est pourquoi les routes sont mouillées.",
+          "Il a plu toute la nuit ; c'est pourquoi les routes sont mouillées.",
+          "Il a plu toute la nuit. Ainsi, les routes sont mouillées.",
+          "Il a plu toute la nuit, donc les routes sont mouillées."
+        ],
+        "hint": "Folge-Konnektoren: par conséquent, c'est pourquoi, ainsi, donc — alle sind hier korrekt!",
+        "distractors": [
+          "Il a plu toute la nuit. Cependant, les routes sont mouillées.",
+          "Il a plu toute la nuit. Grâce à la pluie, les routes sont mouillées.",
+          "Il a plu toute la nuit. D'ailleurs, les routes sont mouillées."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-dune-part",
+      "type": "exercise",
+      "title": "Zwei Aspekte strukturieren",
+      "exercise": {
+        "id": "ex-tiles-dune-part",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Einerseits ist er talentiert; andererseits ist er sehr faul.*",
+        "card_ids": ["dune-part-dautre-part"],
+        "tiles": ["D'une", "part", "il", "est", "talentueux", "d'autre", "part", "il", "est", "très", "paresseux"],
+        "hint": "d'une part … d'autre part = einerseits … andererseits. Kein Semikolon nötig.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-en-revanche-par-contre",
+      "type": "exercise",
+      "title": "Register: en revanche vs. par contre",
+      "exercise": {
+        "id": "ex-pic-en-revanche-par-contre",
+        "type": "picture_choice",
+        "prompt": "In einem formellen Bewerbungsschreiben möchtest du „dagegen” ausdrücken. Welche Formulierung ist stilistisch besser?",
+        "card_ids": ["en-revanche"],
+        "images": [
+          { "src": "assets/img/formal-letter-1.png", "label": "en revanche", "is_correct": "true" },
+          { "src": "assets/img/formal-letter-2.png", "label": "par contre" },
+          { "src": "assets/img/formal-letter-3.png", "label": "mais bon" },
+          { "src": "assets/img/formal-letter-4.png", "label": "par ailleurs" }
+        ],
+        "hint": "par contre ist umgangssprachlicher und in formellen Texten weniger empfehlenswert.",
+        "distractors": [
+          "par contre",
+          "mais bon",
+          "par ailleurs"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-puisque-etant-donne",
+      "type": "exercise",
+      "title": "Ursache mit bekanntem Kontext",
+      "exercise": {
+        "id": "ex-free-puisque-etant-donne",
+        "type": "free_text",
+        "prompt": "Übersetze: *Da du schon da bist, können wir anfangen.* (Verwende puisque oder étant donné que.)",
+        "card_ids": ["puisque", "etant-donne-que"],
+        "accept": [
+          "Puisque tu es là, on peut commencer.",
+          "Puisque tu es là, nous pouvons commencer.",
+          "Étant donné que tu es là, on peut commencer.",
+          "Étant donné que tu es là, nous pouvons commencer.",
+          "puisque tu es là, on peut commencer."
+        ],
+        "hint": "puisque = da (Ursache dem Hörer bekannt). étant donné que ist formeller, aber hier auch richtig.",
+        "distractors": [
+          "Car tu es là, on peut commencer.",
+          "Donc tu es là, on peut commencer.",
+          "Parce que tu es là, on peut commencer déjà."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-premierement-enfin",
+      "type": "exercise",
+      "title": "Gliederung: erstens … schließlich",
+      "exercise": {
+        "id": "ex-cloze-premierement-enfin",
+        "type": "cloze",
+        "prompt": "Ergänze den Gliederungskonnektor für den Schlusspunkt einer Aufzählung.",
+        "card_ids": ["premierement-enfin"],
+        "sentence": "Premièrement, nous devons réduire les coûts. Deuxièmement, nous devons améliorer la qualité. ___, nous devons former les employés.",
+        "blanks": [
+          { "accept": ["Enfin", "Troisièmement", "Finalement"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Der letzte Punkt in einer Aufzählung: enfin / finalement / troisièmement."
+      }
+    },
+    {
+      "id": "ex-match-gegensatz-register",
+      "type": "exercise",
+      "title": "Gegensatz-Konnektoren: Register zuordnen",
+      "exercise": {
+        "id": "ex-match-gegensatz-register",
+        "type": "matching",
+        "prompt": "Ordne jedem Konnektor sein typisches Register zu.",
+        "card_ids": ["en-revanche", "neanmoins", "pourtant"],
+        "pairs": [
+          { "left": "en revanche", "right": "neutral bis schriftlich (besser als par contre)" },
+          { "left": "néanmoins", "right": "formell / akademisch" },
+          { "left": "pourtant", "right": "neutral (auch mündlich)" },
+          { "left": "par contre", "right": "umgangssprachlich" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-en-outre-dailleurs",
+      "type": "exercise",
+      "title": "Informationen hinzufügen",
+      "exercise": {
+        "id": "ex-free-en-outre-dailleurs",
+        "type": "free_text",
+        "prompt": "Übersetze: *Dieses Restaurant ist gut. Außerdem ist es nicht zu teuer.*",
+        "card_ids": ["de-plus", "en-outre", "dailleurs"],
+        "accept": [
+          "Ce restaurant est bon. De plus, il n'est pas trop cher.",
+          "Ce restaurant est bon ; de plus, il n'est pas trop cher.",
+          "Ce restaurant est bon. En outre, il n'est pas trop cher.",
+          "Ce restaurant est bon. D'ailleurs, il n'est pas trop cher.",
+          "Ce restaurant est bien. De plus, il n'est pas trop cher."
+        ],
+        "hint": "Hinzufügung: de plus, en outre, d'ailleurs — alle drei sind hier sinnvoll!",
+        "distractors": [
+          "Ce restaurant est bon. Cependant, il n'est pas trop cher.",
+          "Ce restaurant est bon. Par conséquent, il n'est pas trop cher.",
+          "Ce restaurant est bon. Tandis que il n'est pas trop cher."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-en-conclusion",
+      "type": "exercise",
+      "title": "Einen Text abschließen",
+      "exercise": {
+        "id": "ex-tiles-en-conclusion",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Abschließend lässt sich sagen, dass dieses Projekt unterstützt werden sollte.*",
+        "card_ids": ["en-conclusion"],
+        "tiles": ["En", "conclusion", "on", "peut", "dire", "que", "ce", "projet", "mérite", "d'être", "soutenu"],
+        "hint": "en conclusion = abschließend. Dann on peut dire que … (= man kann sagen, dass …).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-grace-a-cause-de-kontrast",
+      "type": "exercise",
+      "title": "grâce à vs. à cause de — Nuance entscheiden",
+      "exercise": {
+        "id": "ex-free-grace-a-cause-de-kontrast",
+        "type": "free_text",
+        "prompt": "Übersetze: *Dank seiner Erfahrung hat er den Job bekommen.* (Verwende grâce à.)",
+        "card_ids": ["grace-a", "a-cause-de"],
+        "accept": [
+          "Grâce à son expérience, il a obtenu le poste.",
+          "Grâce à son expérience, il a eu le poste.",
+          "Grâce à son expérience, il a décroché le poste.",
+          "grâce à son expérience, il a obtenu le poste."
+        ],
+        "hint": "grâce à + Nomen (kein Verb!) = dank + Nomen. Das Ergebnis (Job bekommen) ist positiv.",
+        "distractors": [
+          "À cause de son expérience, il a obtenu le poste.",
+          "Grâce à son expérience, il a perdu le poste.",
+          "Car son expérience, il a obtenu le poste."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

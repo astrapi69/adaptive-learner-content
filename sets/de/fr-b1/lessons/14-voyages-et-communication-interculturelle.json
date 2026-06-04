@@ -1,0 +1,413 @@
+{
+  "id": "14-voyages-et-communication-interculturelle",
+  "title": "Reisen und interkulturelle Kommunikation",
+  "description": "Reise-Wortschatz auf B1-Niveau, Höflichkeit und Register (tu vs. vous, Conditionnel für höfliche Bitten), Missverständnisse klären und kulturelle Besonderheiten in Frankreich — auf Deutsch erklärt.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "reserver",
+      "front": "réserver",
+      "back": "reservieren / buchen",
+      "notes": "Sehr geläufiges Reiseverb: *Je voudrais réserver une chambre pour deux nuits.* — Ich möchte ein Zimmer für zwei Nächte reservieren.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["reise", "wortschatz"]
+    },
+    {
+      "id": "hebergement",
+      "front": "l'hébergement (m.)",
+      "back": "die Unterkunft",
+      "notes": "Oberbegriff für alle Arten der Unterkunft: Hôtel, Chambre d'hôtes, Auberge de jeunesse usw. *Quel type d'hébergement préférez-vous?* — Welche Art Unterkunft bevorzugen Sie?",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["reise", "wortschatz"]
+    },
+    {
+      "id": "imprevu",
+      "front": "un imprévu",
+      "back": "eine unvorhergesehene Situation / ein unerwartetes Ereignis",
+      "notes": "Typisch im Reisekontext: *Il y a eu un imprévu — notre vol a été annulé.* — Es gab ein unerwartetes Ereignis — unser Flug wurde gestrichen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["reise", "wortschatz"]
+    },
+    {
+      "id": "annuler",
+      "front": "annuler",
+      "back": "stornieren / absagen",
+      "notes": "*annuler une réservation* = eine Reservierung stornieren. *J'ai dû annuler mon billet de train.* — Ich musste mein Zugticket stornieren.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["reise", "wortschatz"]
+    },
+    {
+      "id": "se-debrouiller",
+      "front": "se débrouiller",
+      "back": "sich durchschlagen / zurechtkommen",
+      "notes": "Sehr idiomatisch: *Je me débrouille en français.* — Ich komme auf Französisch zurecht. Klingt positiv und praktisch.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Reflexives Verb — immer mit Reflexivpronomen!",
+      "tags": ["reise", "wortschatz", "idiom"]
+    },
+    {
+      "id": "malentendu",
+      "front": "un malentendu",
+      "back": "ein Missverständnis",
+      "notes": "Von *mal entendre* (falsch hören/verstehen). *Il y a eu un malentendu — je pensais que la chambre était incluse.* — Es gab ein Missverständnis — ich dachte, das Zimmer sei inklusive.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["kommunikation", "wortschatz"]
+    },
+    {
+      "id": "tu-vs-vous",
+      "front": "tu / vous — die Wahl des Anredepronomens",
+      "back": "du (informell) / Sie (formell) — Registerentscheidung",
+      "notes": "**tu**: Freunde, Familie, Kinder, Gleichaltrige in informellem Kontext, manchmal Kollegen nach Absprache.\n**vous**: Unbekannte, Dienstleister, Autoritätspersonen, formelle Situationen, ältere Personen.\n\nIn Frankreich gilt: **Im Zweifel immer vous**. Auf *tu* umsteigen erst, wenn die andere Person es explizit anbietet (*On se tutoie?*).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["register", "hoeflichkeit", "interkulturell"]
+    },
+    {
+      "id": "conditionnel-bitte",
+      "front": "Pourriez-vous…? / Auriez-vous l'amabilité de…?",
+      "back": "Könnten Sie…? / Wären Sie so freundlich, …?",
+      "notes": "Der **Conditionnel** macht Bitten höflicher — er ersetzt das direkte Präsens:\n- *Pouvez-vous…?* (direkt) → *Pourriez-vous…?* (höflicher)\n- *Auriez-vous l'amabilité de…?* ist besonders förmlich, z. B. in Briefen oder gegenüber Vorgesetzten.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["register", "hoeflichkeit", "conditionnel"]
+    },
+    {
+      "id": "excusez-moi",
+      "front": "Excusez-moi de vous déranger.",
+      "back": "Entschuldigen Sie, dass ich Sie störe.",
+      "notes": "Höfliche Einleitung, wenn man jemanden ansprechen möchte, der gerade beschäftigt ist. In formellen Situationen bevorzugt. Die informelle Variante wäre: *Désolé(e) de te déranger.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["register", "hoeflichkeit", "entschuldigung"]
+    },
+    {
+      "id": "clarifier-malentendu",
+      "front": "Je ne suis pas sûr(e) d'avoir bien compris. / Vous voulez dire que…?",
+      "back": "Ich bin mir nicht sicher, ob ich richtig verstanden habe. / Meinen Sie, dass…?",
+      "notes": "Wendungen zum **Klären von Missverständnissen**:\n- *Je ne suis pas sûr(e) d'avoir bien compris.* — neutral, höflich\n- *Vous voulez dire que…?* — Nachfragen zur Bestätigung\n- *Pourriez-vous reformuler?* — Könnten Sie es anders formulieren?\n\nImmer mit **vous** in formellen Situationen!",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["kommunikation", "hoeflichkeit", "missverstaendnis"]
+    },
+    {
+      "id": "la-bise",
+      "front": "la bise / faire la bise",
+      "back": "die Begrüßungsküsse / jemanden zur Begrüßung küssen",
+      "notes": "In Frankreich übliche Begrüßungsform unter Bekannten: Wangenkuss (je nach Region 2, 3 oder 4 Küsse). Unter Männern ist Händeschütteln häufiger. **Wichtig**: Im beruflichen oder formellen Kontext ist Händeschütteln die sichere Wahl.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["interkulturell", "begruessing", "frankreich"]
+    },
+    {
+      "id": "ponctualite",
+      "front": "la ponctualité / être en retard",
+      "back": "die Pünktlichkeit / zu spät sein",
+      "notes": "In Frankreich ist Pünktlichkeit im beruflichen Kontext erwartet, bei privaten Einladungen ist etwas Verspätung (ca. 10–15 Min.) jedoch sozial akzeptiert (*le quart d'heure de politesse*). Im Zweifel lieber pünktlich erscheinen und nachfragen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["interkulturell", "frankreich", "hoeflichkeit"]
+    },
+    {
+      "id": "reformuler",
+      "front": "Pourriez-vous reformuler?",
+      "back": "Könnten Sie es anders formulieren?",
+      "notes": "Nützliche Wendung, wenn man etwas nicht verstanden hat. **Alternativen**:\n- *Pourriez-vous répéter, s'il vous plaît?* — Könnten Sie das wiederholen?\n- *Pourriez-vous parler plus lentement?* — Könnten Sie langsamer sprechen?",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["kommunikation", "missverstaendnis", "hoeflichkeit"]
+    },
+    {
+      "id": "remercier-registre",
+      "front": "Merci beaucoup. / Je vous remercie vivement.",
+      "back": "Vielen Dank. / Ich danke Ihnen herzlich.",
+      "notes": "**Register beim Danken**:\n- *Merci* — neutral, alltäglich\n- *Merci beaucoup / Merci mille fois* — herzlicher Dank, informell/formell möglich\n- *Je vous remercie vivement / sincèrement* — formell, z. B. in Briefen oder gegenüber Dienstleistern",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["register", "hoeflichkeit", "dankbarkeit"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-reise-wortschatz",
+      "type": "theory",
+      "title": "Reise-Wortschatz auf B1-Niveau",
+      "body": "# Reisen und interkulturelle Kommunikation\n\nDiese Lektion baut auf dem A1/A2-Reisewortschatz auf. Du lernst **B1-Ausdrücke** für unerwartete Situationen, Buchungen und das Zurechtkommen — sowie das für Frankreich besonders wichtige Thema **Register und Höflichkeit**.\n\n## Wichtige Vokabeln im Überblick\n\n| Französisch | Deutsch | Beispiel |\n|---|---|---|\n| **réserver** | reservieren / buchen | *Je voudrais réserver une chambre.* |\n| **l'hébergement** | die Unterkunft | *Quel hébergement cherchez-vous?* |\n| **un imprévu** | ein unerwartetes Ereignis | *Il y a eu un imprévu.* |\n| **annuler** | stornieren / absagen | *J'ai annulé ma réservation.* |\n| **se débrouiller** | zurechtkommen | *Je me débrouille en français.* |\n| **un malentendu** | ein Missverständnis | *C'est un malentendu.* |\n\n## Kulturhinweis: Frankreich\n\n- **La bise**: Begrüßungsküsse auf die Wangen unter Bekannten — Anzahl variiert je nach Region. Im beruflichen Kontext: Händeschütteln ist sicherer.\n- **Pünktlichkeit**: Im Job erwartet; bei privaten Einladungen ca. 10–15 Minuten Verspätung (*le quart d'heure de politesse*) akzeptabel."
+    },
+    {
+      "id": "theory-tu-vous",
+      "type": "theory",
+      "title": "tu vs. vous — das richtige Register wählen",
+      "body": "## tu oder vous? — Die wichtigste Registerentscheidung im Französischen\n\nDas Anredepronomen signalisiert das **soziale Verhältnis** und den **Grad der Formalität**.\n\n| Situation | Pronomen | Beispiel |\n|---|---|---|\n| Freunde, Familie, Kinder | **tu** | *Tu veux un café?* |\n| Gleichaltrige Kolleg·innen (nach Einigung) | **tu** | *On se tutoie?* |\n| Unbekannte Erwachsene | **vous** | *Vous avez une chambre libre?* |\n| Dienstleister·innen, Behörden | **vous** | *Pourriez-vous m'aider?* |\n| Vorgesetzte, ältere Personen | **vous** | *Je vous remercie.* |\n| Formeller Brief / E-Mail | **vous** | *Je vous écris pour…* |\n\n> **Faustregel**: Im Zweifel immer **vous**. Auf **tu** umsteigen erst, wenn die andere Person es ausdrücklich anbietet: *On se tutoie?*\n\n## Der Übergang vom vous zum tu\n\nIn Frankreich ist das Angebot zum *tutoiement* ein Zeichen von Vertrautheit und wird von der ranghöheren oder älteren Person initiiert. Es wäre unhöflich, von sich aus ungefragt auf **tu** zu wechseln."
+    },
+    {
+      "id": "theory-hoeflichkeit-conditionnel",
+      "type": "theory",
+      "title": "Höfliche Bitten und Missverständnisse klären",
+      "body": "## Höflichkeit mit dem Conditionnel\n\nDer **Conditionnel** (Konjunktiv II) mildert Bitten und klingt deutlich höflicher als das Präsens:\n\n| Direkt (Présent) | Höflich (Conditionnel) | Übersetzung |\n|---|---|---|\n| *Pouvez-vous m'aider?* | ***Pourriez**-vous m'aider?* | Könnten Sie mir helfen? |\n| *Avez-vous une chambre?* | ***Auriez**-vous une chambre libre?* | Hätten Sie ein freies Zimmer? |\n| *Vous voulez répéter?* | ***Voudriez**-vous répéter?* | Würden Sie das wiederholen? |\n\nNoch förmlicher:\n- *Auriez-vous l'amabilité de…?* — Wären Sie so freundlich, …?\n- *Excusez-moi de vous déranger.* — Entschuldigen Sie, dass ich Sie störe.\n\n## Missverständnisse höflich klären\n\n| Wendung | Bedeutung |\n|---|---|\n| *Je ne suis pas sûr(e) d'avoir bien compris.* | Ich bin nicht sicher, ob ich richtig verstanden habe. |\n| *Vous voulez dire que…?* | Meinen Sie, dass…? |\n| *Pourriez-vous reformuler?* | Könnten Sie es anders ausdrücken? |\n| *Pourriez-vous parler plus lentement?* | Könnten Sie langsamer sprechen? |\n\n> **Merkhilfe**: Im formellen Kontext immer **vous** + Conditionnel — das signalisiert Respekt und Professionalität."
+    },
+    {
+      "id": "ex-match-tu-vous",
+      "type": "exercise",
+      "title": "tu oder vous? — Situation zuordnen",
+      "exercise": {
+        "id": "ex-match-tu-vous",
+        "type": "matching",
+        "prompt": "Ordne jeder Situation das passende Anredepronomen zu.",
+        "card_ids": ["tu-vs-vous"],
+        "pairs": [
+          { "left": "Rezeptionist·in im Hotel ansprechen", "right": "vous" },
+          { "left": "beste Freundin begrüßen", "right": "tu" },
+          { "left": "Formelles E-Mail an die Airline schreiben", "right": "vous" },
+          { "left": "10-jähriges Kind nach dem Weg fragen", "right": "tu" },
+          { "left": "Vorgesetzte·n im Büro ansprechen", "right": "vous" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-pourriez",
+      "type": "exercise",
+      "title": "Höfliche Bitte mit Conditionnel",
+      "exercise": {
+        "id": "ex-cloze-pourriez",
+        "type": "cloze",
+        "prompt": "Ergänze die höfliche Form von *pouvoir* (vous) im Conditionnel.",
+        "card_ids": ["conditionnel-bitte", "reformuler"],
+        "sentence": "___ -vous m'indiquer où se trouve la réception?",
+        "blanks": [
+          { "accept": ["Pourriez"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Conditionnel von *pouvoir* (vous) = *Pourri-ez*."
+      }
+    },
+    {
+      "id": "ex-free-reservation",
+      "type": "exercise",
+      "title": "Eine Reservierung höflich anfragen",
+      "exercise": {
+        "id": "ex-free-reservation",
+        "type": "free_text",
+        "prompt": "Übersetze höflich: *Ich möchte ein Zimmer für zwei Nächte reservieren.* (Sprechen Sie eine Rezeptionistin an — benutzen Sie vous und Conditionnel.)",
+        "card_ids": ["reserver", "hebergement", "conditionnel-bitte"],
+        "accept": [
+          "Je voudrais réserver une chambre pour deux nuits.",
+          "je voudrais réserver une chambre pour deux nuits",
+          "J'aimerais réserver une chambre pour deux nuits.",
+          "Pourriez-vous me réserver une chambre pour deux nuits?",
+          "Je souhaiterais réserver une chambre pour deux nuits."
+        ],
+        "hint": "*Je voudrais…* ist die Standardform für höfliche Wünsche (Conditionnel von *vouloir*).",
+        "distractors": [
+          "Je veux une chambre pour deux nuits.",
+          "Je réserve une chambre pour deux nuits, s'il te plaît.",
+          "Tu peux me réserver une chambre?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-excusez",
+      "type": "exercise",
+      "title": "Jemanden höflich ansprechen",
+      "exercise": {
+        "id": "ex-free-excusez",
+        "type": "free_text",
+        "prompt": "Übersetze: *Entschuldigen Sie bitte, dass ich Sie störe — könnten Sie mir helfen?*",
+        "card_ids": ["excusez-moi", "conditionnel-bitte"],
+        "accept": [
+          "Excusez-moi de vous déranger — pourriez-vous m'aider?",
+          "Excusez-moi de vous déranger, pourriez-vous m'aider?",
+          "Pardon de vous déranger — pourriez-vous m'aider?",
+          "Excusez-moi de vous déranger. Pourriez-vous m'aider, s'il vous plaît?"
+        ],
+        "hint": "*Excusez-moi de vous déranger* + *Pourriez-vous…?*",
+        "distractors": [
+          "Excuse-moi de te déranger — tu peux m'aider?",
+          "Désolé de vous déranger — pouvez-vous m'aider maintenant?",
+          "Excusez-moi, je veux de l'aide."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-malentendu",
+      "type": "exercise",
+      "title": "Ein Missverständnis klären",
+      "exercise": {
+        "id": "ex-tiles-malentendu",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Ich bin nicht sicher, ob ich richtig verstanden habe.*",
+        "card_ids": ["clarifier-malentendu"],
+        "tiles": ["Je", "ne", "suis", "pas", "sûr", "d'avoir", "bien", "compris"],
+        "hint": "*Je ne suis pas sûr(e) d'avoir bien compris.*",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-register",
+      "type": "exercise",
+      "title": "Die richtige Formulierung wählen",
+      "exercise": {
+        "id": "ex-pic-register",
+        "type": "picture_choice",
+        "prompt": "Sie sprechen die unbekannte Hotelangestellte an. Welche Formulierung passt am besten?",
+        "card_ids": ["tu-vs-vous", "conditionnel-bitte"],
+        "images": [
+          { "src": "assets/img/hotel-reception-formal.png", "label": "Pourriez-vous m'indiquer ma chambre?", "is_correct": "true" },
+          { "src": "assets/img/hotel-reception-informal.png", "label": "Tu peux me montrer ma chambre?" },
+          { "src": "assets/img/hotel-reception-direct.png", "label": "Montrez-moi ma chambre." },
+          { "src": "assets/img/hotel-reception-wrong.png", "label": "Pouvez-tu m'indiquer ma chambre?" }
+        ],
+        "hint": "Unbekannte Erwachsene → vous; höfliche Bitte → Conditionnel (*Pourriez*-).",
+        "distractors": [
+          "Tu peux me montrer ma chambre?",
+          "Montrez-moi ma chambre.",
+          "Pouvez-tu m'indiquer ma chambre?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-missverstaendnis",
+      "type": "exercise",
+      "title": "Wendungen zum Klären zuordnen",
+      "exercise": {
+        "id": "ex-match-missverstaendnis",
+        "type": "matching",
+        "prompt": "Ordne jeder französischen Wendung ihre deutsche Bedeutung zu.",
+        "card_ids": ["clarifier-malentendu", "reformuler"],
+        "pairs": [
+          { "left": "Vous voulez dire que…?", "right": "Meinen Sie, dass…?" },
+          { "left": "Pourriez-vous reformuler?", "right": "Könnten Sie es anders ausdrücken?" },
+          { "left": "Pourriez-vous parler plus lentement?", "right": "Könnten Sie langsamer sprechen?" },
+          { "left": "Je ne suis pas sûr(e) d'avoir bien compris.", "right": "Ich bin nicht sicher, ob ich richtig verstanden habe." }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-imprevu",
+      "type": "exercise",
+      "title": "Unvorhergesehenes ausdrücken",
+      "exercise": {
+        "id": "ex-cloze-imprevu",
+        "type": "cloze",
+        "prompt": "Ergänze das passende Wort: ein unerwartetes Ereignis.",
+        "card_ids": ["imprevu", "annuler"],
+        "sentence": "À cause d'un ___, j'ai dû annuler ma réservation.",
+        "blanks": [
+          { "accept": ["imprévu", "imprevu"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Wort bedeutet 'unvorhergesehenes Ereignis' und beginnt mit *im-*."
+      }
+    },
+    {
+      "id": "ex-free-debrouiller",
+      "type": "exercise",
+      "title": "se débrouiller anwenden",
+      "exercise": {
+        "id": "ex-free-debrouiller",
+        "type": "free_text",
+        "prompt": "Übersetze: *Er kommt gut auf Französisch zurecht, auch wenn es manchmal Missverständnisse gibt.*",
+        "card_ids": ["se-debrouiller", "malentendu"],
+        "accept": [
+          "Il se débrouille bien en français, même s'il y a parfois des malentendus.",
+          "il se débrouille bien en français, même s'il y a parfois des malentendus",
+          "Il se débrouille bien en français, même quand il y a des malentendus.",
+          "Il se débrouille en français, même s'il y a parfois des malentendus."
+        ],
+        "hint": "*se débrouiller* = zurechtkommen (reflexiv!); *un malentendu* = ein Missverständnis.",
+        "distractors": [
+          "Il débrouille bien en français, même s'il y a parfois des malentendus.",
+          "Il se débrouille bien en français, même si parfois des malentendu.",
+          "Il peut se débrouiller bien en français, même s'il y a parfois des malentendus beaucoup."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-remercier",
+      "type": "exercise",
+      "title": "Förmlich danken",
+      "exercise": {
+        "id": "ex-tiles-remercier",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zu einem formellen Dankessatz: *Ich danke Ihnen herzlich für Ihre Hilfe.*",
+        "card_ids": ["remercier-registre"],
+        "tiles": ["Je", "vous", "remercie", "vivement", "de", "votre", "aide"],
+        "hint": "*Je vous remercie vivement de votre aide.* — formell, mit vous.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-bise-kultur",
+      "type": "exercise",
+      "title": "Kulturwissen: la bise",
+      "exercise": {
+        "id": "ex-free-bise-kultur",
+        "type": "free_text",
+        "prompt": "Wie sagt man auf Französisch: *Ich bin nicht sicher, ob man sich hier küsst — sollen wir uns die Hand geben?* (informell, du sprichst eine Bekannte an)",
+        "card_ids": ["la-bise", "tu-vs-vous"],
+        "accept": [
+          "Je ne suis pas sûr(e) si on fait la bise ici — on se serre la main?",
+          "Je ne sais pas si on fait la bise — on se serre la main?",
+          "Je ne suis pas sûre si on fait la bise ici — on se serre la main?",
+          "Je ne suis pas sûr si on fait la bise ici — on se serre la main?"
+        ],
+        "hint": "*faire la bise* = Begrüßungsküsse; *se serrer la main* = Händeschütteln. Informell → tu-Kontext.",
+        "distractors": [
+          "Je ne suis pas sûr(e) si on fait la bise ici — vous vous serrez la main?",
+          "Je ne suis pas sûr(e) — Pourriez-vous faire la bise avec moi?",
+          "On fait la bise ou on se serre les mains?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-register-wahl",
+      "type": "exercise",
+      "title": "Höflichkeitsstufen zuordnen",
+      "exercise": {
+        "id": "ex-match-register-wahl",
+        "type": "matching",
+        "prompt": "Ordne jeder Wendung ihre Höflichkeitsstufe zu.",
+        "card_ids": ["conditionnel-bitte", "remercier-registre", "excusez-moi"],
+        "pairs": [
+          { "left": "Pouvez-vous m'aider?", "right": "direkt / neutral" },
+          { "left": "Pourriez-vous m'aider?", "right": "höflich (Conditionnel)" },
+          { "left": "Auriez-vous l'amabilité de m'aider?", "right": "sehr förmlich" },
+          { "left": "Tu peux m'aider?", "right": "informell (tu)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-ponctualite",
+      "type": "exercise",
+      "title": "Pünktlichkeit und Kultur",
+      "exercise": {
+        "id": "ex-cloze-ponctualite",
+        "type": "cloze",
+        "prompt": "Ergänze das fehlende Wort (Adjektiv für 'zu spät'): Ich bin zu spät — entschuldigen Sie bitte.",
+        "card_ids": ["ponctualite", "excusez-moi"],
+        "sentence": "Je suis ___ — excusez-moi, s'il vous plaît.",
+        "blanks": [
+          { "accept": ["en retard"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Die Wendung für 'zu spät' beginnt mit *en r-*."
+      }
+    }
+  ]
+}

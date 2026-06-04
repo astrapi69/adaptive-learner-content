@@ -1,0 +1,399 @@
+{
+  "id": "03-conditionnel-passe",
+  "title": "Le conditionnel passé",
+  "description": "Das Conditionnel passé: Bildung (conditionnel présent von avoir/être + participe passé), Gebrauch für irreal-vergangene Situationen, Bedauern und Vorwürfe (*j'aurais dû*, *tu aurais pu*), Höflichkeit in der Vergangenheit sowie der si-Satz Typ III. Auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "condpass-konzept",
+      "front": "le conditionnel passé",
+      "back": "das Conditionnel passé (vollendete Möglichkeitsform)",
+      "notes": "Drückt aus, was in der Vergangenheit hätte sein **können** oder **sollen** — aber nicht der Fall war. Auch für **unbestätigte Berichte** und höfliche Rückblicke.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "conditionnel-passe"]
+    },
+    {
+      "id": "condpass-bildung-avoir",
+      "front": "j'aurais fait, tu aurais dit",
+      "back": "Bildung mit avoir: conditionnel de avoir + participe passé",
+      "notes": "**Formel:** conditionnel présent von *avoir* + participe passé.\n\n| Person | Hilfsverb | Beispiel |\n|---|---|---|\n| je | aurais | j'aurais fait |\n| tu | aurais | tu aurais dit |\n| il/elle | aurait | il aurait vu |\n| nous | aurions | nous aurions pris |\n| vous | auriez | vous auriez su |\n| ils/elles | auraient | ils auraient pu |\n\nDie meisten Verben nehmen *avoir*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "conditionnel-passe", "avoir"]
+    },
+    {
+      "id": "condpass-bildung-etre",
+      "front": "je serais venu(e), elle serait partie",
+      "back": "Bildung mit être: conditionnel de être + participe passé",
+      "notes": "Die **Bewegungs- und Reflexivverben** (wie beim passé composé) nehmen *être*. Das **participe passé richtet sich nach dem Subjekt**:\n\n- *je serais venu* (m.) / *je serais venue* (f.)\n- *elle serait partie*\n- *ils seraient restés*\n- *elles seraient allées*\n\nDie Gruppe der être-Verben: aller, venir, partir, arriver, rester, naître, mourir, tomber … — wie beim passé composé (aus A2 bekannt).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "conditionnel-passe", "etre", "angleichung"]
+    },
+    {
+      "id": "condpass-irreal",
+      "front": "Si j'avais su, j'aurais réagi autrement.",
+      "back": "Wenn ich es gewusst hätte, hätte ich anders reagiert. (si-Satz Typ III)",
+      "notes": "**si-Satz Typ III** — die irreale Bedingung in der Vergangenheit:\n\n| Teil | Tempus |\n|---|---|\n| si-Nebensatz | **plus-que-parfait** |\n| Hauptsatz | **conditionnel passé** |\n\n*Si j'avais su (PQP) → j'aurais réagi autrement (cond. passé).*\n\nDas Plus-que-parfait (*j'avais su*, *elle était venue*) wird in Lektion 04 vertieft — hier genügt das Muster.",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "si + plus-que-parfait → conditionnel passé. Niemals: si + conditionnel!",
+      "tags": ["si-satz", "typ-III", "conditionnel-passe"]
+    },
+    {
+      "id": "condpass-devoir",
+      "front": "j'aurais dû",
+      "back": "ich hätte … sollen / ich hätte gemusst",
+      "notes": "*devoir* im conditionnel passé drückt einen **Vorwurf gegen sich selbst** oder **Bedauern** aus:\n- *J'aurais dû écouter.* — Ich hätte zuhören sollen.\n- *Tu aurais dû me dire ça.* — Du hättest mir das sagen sollen.\n\nMit Infinitiv dahinter: *j'aurais dû + inf.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["bedauern", "vorwurf", "conditionnel-passe", "devoir"]
+    },
+    {
+      "id": "condpass-pouvoir",
+      "front": "tu aurais pu",
+      "back": "du hättest können / du hättest … können",
+      "notes": "*pouvoir* im conditionnel passé — oft als **Vorwurf an andere**:\n- *Tu aurais pu m'appeler.* — Du hättest mich anrufen können.\n- *Il aurait pu rester.* — Er hätte bleiben können.\n\nTon ist je nach Kontext vorwurfsvoll oder bedauernd.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["bedauern", "vorwurf", "conditionnel-passe", "pouvoir"]
+    },
+    {
+      "id": "condpass-hoeflichkeit",
+      "front": "j'aurais voulu vous demander …",
+      "back": "Ich hätte Sie gerne fragen wollen … (höflicher Rückblick)",
+      "notes": "Das conditionnel passé kann als **höflicher Rückblick** oder sanfte Einleitung wirken, ähnlich wie *j'aurais aimé* (ich hätte gerne):\n\n- *J'aurais voulu vous parler un moment.* — Ich hätte kurz mit Ihnen sprechen wollen.\n- *J'aurais aimé venir.* — Ich wäre gerne gekommen.\n\n**Register:** formeller, distanzierter als das conditionnel présent (*je voudrais*) — typisch in E-Mails und Briefen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["hoeflichkeit", "register", "conditionnel-passe"]
+    },
+    {
+      "id": "condpass-nachricht",
+      "front": "Le suspect aurait fui à l'étranger.",
+      "back": "Der Verdächtige soll ins Ausland geflohen sein. (unbestätigte Nachricht)",
+      "notes": "In Medienberichten steht das conditionnel passé für **nicht bestätigte Informationen** (journalistisches Konditional):\n\n- *Le ministre aurait démissionné.* — Der Minister soll zurückgetreten sein.\n- *Trois personnes auraient été blessées.* — Drei Personen sollen verletzt worden sein.\n\nDieser Gebrauch signalisiert: **Quelle nicht gesichert**.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["nachricht", "journalismus", "conditionnel-passe"]
+    },
+    {
+      "id": "condpass-venir-angleichung",
+      "front": "Elles seraient venues.",
+      "back": "Sie wären gekommen. (Angleichung des participe passé bei être-Verben)",
+      "notes": "Bei **être-Verben** richtet sich das participe passé nach Genus und Numerus des Subjekts — wie beim passé composé (aus A2 bekannt):\n\n| Subjekt | Form |\n|---|---|\n| il | serait venu |\n| elle | serait venu**e** |\n| ils | seraient venu**s** |\n| elles | seraient venu**es** |\n",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["angleichung", "conditionnel-passe", "etre"]
+    },
+    {
+      "id": "condpass-avoir-aimé",
+      "front": "j'aurais aimé",
+      "back": "ich hätte gerne / ich hätte gemocht",
+      "notes": "*aimer* im conditionnel passé — Bedauern über etwas Verpasstes:\n- *J'aurais aimé te voir.* — Ich hätte dich gerne gesehen.\n- *On aurait aimé partir plus tôt.* — Wir wären gerne früher abgereist.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["bedauern", "conditionnel-passe"]
+    },
+    {
+      "id": "condpass-rester",
+      "front": "il serait resté",
+      "back": "er wäre geblieben",
+      "notes": "*rester* nimmt *être* als Hilfsverb — wie im passé composé. Das participe passé *resté* richtet sich nach dem Subjekt:\n- *il serait resté*\n- *elle serait restée*\n- *ils seraient restés*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["conditionnel-passe", "etre", "rester"]
+    },
+    {
+      "id": "condpass-si-typ3-muster",
+      "front": "Si + plus-que-parfait → conditionnel passé",
+      "back": "Grundmuster des si-Satzes Typ III (irreale Vergangenheit)",
+      "notes": "Das Muster auf einen Blick:\n\n| Satzteil | Form |\n|---|---|\n| si-Bedingung | **plus-que-parfait** (*j'avais eu*, *elle était venue*) |\n| Folge/Hauptsatz | **conditionnel passé** (*j'aurais pu*, *il aurait réagi*) |\n\n**Achtung:** Nach *si* steht **niemals** das conditionnel selbst — das ist ein häufiger Fehler.",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "si + conditionnel ist FALSCH. Immer: si + plus-que-parfait.",
+      "tags": ["si-satz", "typ-III", "grammatik"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-bildung",
+      "type": "theory",
+      "title": "Bildung des Conditionnel passé",
+      "body": "# Le conditionnel passé\n\nDas **Conditionnel passé** ist die Vergangenheitsform des conditionnel — du kennst bereits das conditionnel présent aus A2 (*je ferais*, *j'irais*). Jetzt kommt die vollendete Variante.\n\n## Formel\n\n> **conditionnel présent von *avoir* oder *être*** + **participe passé**\n\n## Mit *avoir* (die meisten Verben)\n\n| Person | Hilfsverb | Beispiel |\n|---|---|---|\n| je | **aurais** | j'aurais fait |\n| tu | **aurais** | tu aurais dit |\n| il/elle | **aurait** | il aurait vu |\n| nous | **aurions** | nous aurions pris |\n| vous | **auriez** | vous auriez su |\n| ils/elles | **auraient** | ils auraient pu |\n\n## Mit *être* (Bewegungs- und Reflexivverben)\n\nDieselben Verben wie beim **passé composé** (aus A2 bekannt): *aller, venir, partir, arriver, rester, naître, mourir, tomber …* — und alle Reflexivverben.\n\n| Beispiel | Bedeutung |\n|---|---|\n| je serais venu(e) | ich wäre gekommen |\n| elle serait partie | sie wäre gegangen |\n| ils seraient restés | sie wären geblieben |\n| elles seraient allées | sie wären gegangen |\n\n**Wichtig:** Das participe passé richtet sich bei *être*-Verben nach dem Subjekt in Genus und Numerus — genau wie im passé composé."
+    },
+    {
+      "id": "theory-gebrauch",
+      "type": "theory",
+      "title": "Gebrauch: Bedauern, Vorwurf, Höflichkeit, Nachrichten",
+      "body": "## Vier Gebrauchssituationen\n\n### 1. Irreale Vergangenheit\n\nEtwas hätte passieren können, ist aber nicht passiert:\n\n- *Sans toi, j'aurais échoué.* — Ohne dich wäre ich gescheitert.\n\n### 2. Bedauern und Vorwurf\n\nMit den Modalverben *devoir* und *pouvoir* entstehen typische Vorwurf- und Bedauern-Konstruktionen:\n\n| Ausdruck | Bedeutung |\n|---|---|\n| *j'aurais dû* + inf. | ich hätte … sollen |\n| *tu aurais pu* + inf. | du hättest … können |\n| *on aurait dû* + inf. | man hätte … sollen |\n\nBeispiele:\n- *J'aurais dû écouter mes parents.* — Ich hätte auf meine Eltern hören sollen.\n- *Tu aurais pu m'appeler !* — Du hättest mich anrufen können!\n\n### 3. Höflichkeit in der Vergangenheit\n\n*j'aurais voulu / j'aurais aimé* wirken als höflicher, distanzierter Rückblick — typisch in formellen E-Mails und Briefen:\n\n- *J'aurais voulu vous poser une question.* — Ich hätte Ihnen gerne eine Frage stellen wollen.\n\n**Register-Hinweis:** Diese Form klingt noch höflicher als das conditionnel présent (*je voudrais*). Im Alltag ist sie eher schriftlich gebräuchlich.\n\n### 4. Unbestätigte Nachricht (journalistisches Konditional)\n\n- *Le suspect aurait fui à l'étranger.* — Der Verdächtige soll ins Ausland geflohen sein.\n\nDas conditionnel passé signalisiert hier: **Quelle nicht gesichert**, Information nicht bestätigt."
+    },
+    {
+      "id": "theory-si-typ3",
+      "type": "theory",
+      "title": "Der si-Satz Typ III: irreale Bedingung in der Vergangenheit",
+      "body": "## si-Satz Typ III — Das Wichtigste auf B1\n\nDu kennst bereits den si-Satz Typ II aus A2 (*Si j'avais le temps, je ferais du sport* — Gegenwart/Zukunft irreal). Typ III bezieht sich auf die **Vergangenheit**: die Bedingung war nicht erfüllt, die Folge ist also nicht eingetreten.\n\n## Das Muster\n\n| Satzteil | Tempus | Beispiel |\n|---|---|---|\n| si-Nebensatz | **plus-que-parfait** | *Si j'avais su …* |\n| Hauptsatz/Folge | **conditionnel passé** | *… j'aurais réagi autrement.* |\n\n> *Si j'avais su (plus-que-parfait), j'aurais réagi autrement (conditionnel passé).*\n> → Wenn ich es gewusst hätte, hätte ich anders reagiert.\n\n## Weitere Beispiele\n\n- *Si elle était venue, nous aurions fêté ensemble.*\n  → Wenn sie gekommen wäre, hätten wir zusammen gefeiert.\n- *S'il avait étudié, il aurait réussi l'examen.*\n  → Wenn er gelernt hätte, hätte er die Prüfung bestanden.\n\n## Die häufigsten Fehler\n\n| Falsch | Richtig |\n|---|---|\n| *Si j'**aurais** su …* | *Si j'**avais** su …* |\n| *… je **savais** réagir* | *… j'**aurais** réagi* |\n\n**Merke:** Nach *si* steht **niemals** ein conditionnel — weder présent noch passé.\n\n> Das **plus-que-parfait** (*j'avais eu*, *elle était arrivée*) wird in Lektion 04 ausführlich erklärt. Für dieses Muster genügt es, das Muster zu erkennen und anzuwenden."
+    },
+    {
+      "id": "ex-cloze-du-ecouter",
+      "type": "exercise",
+      "title": "Vorwurf: j'aurais dû",
+      "exercise": {
+        "id": "ex-cloze-du-ecouter",
+        "type": "cloze",
+        "prompt": "Ergänze *devoir* im conditionnel passé (je). Bedeutung: *Ich hätte zuhören sollen.*",
+        "card_ids": ["condpass-devoir", "condpass-bildung-avoir"],
+        "sentence": "J'___ dû écouter mes parents.",
+        "blanks": [
+          { "accept": ["aurais"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "conditionnel présent von *avoir* (je) = *aurais*."
+      }
+    },
+    {
+      "id": "ex-match-hilfsverb",
+      "type": "exercise",
+      "title": "avoir oder être im conditionnel passé?",
+      "exercise": {
+        "id": "ex-match-hilfsverb",
+        "type": "matching",
+        "prompt": "Ordne jedem Verb das richtige Hilfsverb im conditionnel passé zu.",
+        "card_ids": ["condpass-bildung-avoir", "condpass-bildung-etre", "condpass-rester", "condpass-venir-angleichung"],
+        "pairs": [
+          { "left": "faire", "right": "avoir → j'aurais fait" },
+          { "left": "venir", "right": "être → je serais venu(e)" },
+          { "left": "rester", "right": "être → il serait resté" },
+          { "left": "voir", "right": "avoir → il aurait vu" },
+          { "left": "partir", "right": "être → elle serait partie" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-si-typ3",
+      "type": "exercise",
+      "title": "si-Satz Typ III übersetzen",
+      "exercise": {
+        "id": "ex-free-si-typ3",
+        "type": "free_text",
+        "prompt": "Übersetze: *Wenn er gelernt hätte, hätte er die Prüfung bestanden.*",
+        "card_ids": ["condpass-irreal", "condpass-si-typ3-muster"],
+        "accept": [
+          "S'il avait étudié, il aurait réussi l'examen.",
+          "s'il avait étudié, il aurait réussi l'examen",
+          "S'il avait travaillé, il aurait réussi l'examen.",
+          "Si il avait étudié, il aurait réussi l'examen.",
+          "S'il avait étudié, il aurait réussi son examen."
+        ],
+        "hint": "si + plus-que-parfait (*avait étudié*) → conditionnel passé (*aurait réussi*).",
+        "distractors": [
+          "S'il aurait étudié, il aurait réussi l'examen.",
+          "Si il étudiait, il réussirait l'examen.",
+          "S'il avait étudié, il réussirait l'examen.",
+          "S'il avait étudié, il a réussi l'examen."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-aurait-pu",
+      "type": "exercise",
+      "title": "Vorwurf mit tu aurais pu",
+      "exercise": {
+        "id": "ex-tiles-aurait-pu",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Du hättest mich anrufen können!*",
+        "card_ids": ["condpass-pouvoir"],
+        "tiles": ["Tu", "aurais", "pu", "m'appeler", "!"],
+        "hint": "conditionnel passé von *pouvoir* (tu) = *aurais pu* + Infinitiv.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-serais-venue",
+      "type": "exercise",
+      "title": "Angleichung bei être-Verben",
+      "exercise": {
+        "id": "ex-free-serais-venue",
+        "type": "free_text",
+        "prompt": "Übersetze (die Sprecherin ist weiblich): *Ich wäre gerne gekommen, aber ich hatte keine Zeit.*",
+        "card_ids": ["condpass-bildung-etre", "condpass-avoir-aimé"],
+        "accept": [
+          "Je serais venue volontiers, mais je n'avais pas le temps.",
+          "je serais venue volontiers, mais je n'avais pas le temps",
+          "J'aurais voulu venir, mais je n'avais pas le temps.",
+          "J'aurais aimé venir, mais je n'avais pas le temps.",
+          "Je serais bien venue, mais je n'avais pas le temps."
+        ],
+        "hint": "être-Verb *venir* → *serais venue* (feminine Angleichung: +e). Alternativ: *j'aurais aimé venir*.",
+        "distractors": [
+          "Je serais venu volontiers, mais je n'avais pas le temps.",
+          "J'aurais venu volontiers, mais je n'avais pas le temps.",
+          "Je serai venue volontiers, mais je n'avais pas le temps.",
+          "Je serais venue volontiers, mais je n'ai pas le temps."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-condpass-hilfsverb",
+      "type": "exercise",
+      "title": "Welche Form ist korrekt?",
+      "exercise": {
+        "id": "ex-pic-condpass-hilfsverb",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet *Wenn ich es gewusst hätte, hätte ich anders reagiert*?",
+        "card_ids": ["condpass-irreal", "condpass-si-typ3-muster"],
+        "images": [
+          { "src": "assets/img/si-typ3-correct.png", "label": "Si j'avais su, j'aurais réagi autrement.", "is_correct": "true" },
+          { "src": "assets/img/si-typ3-wrong1.png", "label": "Si j'aurais su, j'aurais réagi autrement." },
+          { "src": "assets/img/si-typ3-wrong2.png", "label": "Si j'avais su, je réagissais autrement." },
+          { "src": "assets/img/si-typ3-wrong3.png", "label": "Si j'avais su, j'allais réagir autrement." }
+        ],
+        "hint": "Nach *si* steht das plus-que-parfait, im Hauptsatz das conditionnel passé.",
+        "distractors": [
+          "Si j'aurais su, j'aurais réagi autrement.",
+          "Si j'avais su, je réagissais autrement.",
+          "Si j'avais su, j'allais réagir autrement."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-serait-restee",
+      "type": "exercise",
+      "title": "être-Verb im conditionnel passé (elle)",
+      "exercise": {
+        "id": "ex-cloze-serait-restee",
+        "type": "cloze",
+        "prompt": "Ergänze *rester* im conditionnel passé. Das Subjekt ist *elle*.",
+        "card_ids": ["condpass-rester", "condpass-venir-angleichung"],
+        "sentence": "Sans ce problème, elle ___ restée plus longtemps.",
+        "blanks": [
+          { "accept": ["serait"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*rester* nimmt *être* als Hilfsverb: elle **serait** restée (mit Angleichung: +e)."
+      }
+    },
+    {
+      "id": "ex-match-ausdruecke",
+      "type": "exercise",
+      "title": "Ausdrücke mit conditionnel passé zuordnen",
+      "exercise": {
+        "id": "ex-match-ausdruecke",
+        "type": "matching",
+        "prompt": "Ordne den französischen Ausdruck seiner deutschen Bedeutung zu.",
+        "card_ids": ["condpass-devoir", "condpass-pouvoir", "condpass-hoeflichkeit", "condpass-nachricht"],
+        "pairs": [
+          { "left": "j'aurais dû", "right": "ich hätte … sollen" },
+          { "left": "tu aurais pu", "right": "du hättest … können" },
+          { "left": "j'aurais voulu", "right": "ich hätte gerne gewollt (Höflichkeit)" },
+          { "left": "il aurait fui", "right": "er soll geflohen sein (Gerücht/Nachricht)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-si-typ3",
+      "type": "exercise",
+      "title": "si-Satz Typ III zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-si-typ3",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Wenn sie gekommen wäre, hätten wir zusammen gefeiert.*",
+        "card_ids": ["condpass-irreal", "condpass-si-typ3-muster", "condpass-bildung-etre"],
+        "tiles": ["Si", "elle", "était", "venue", ",", "nous", "aurions", "fêté", "ensemble", "."],
+        "hint": "si + plus-que-parfait von *venir* (*était venue*) → conditionnel passé (*aurions fêté*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-aurais-du-appeler",
+      "type": "exercise",
+      "title": "Bedauern mit j'aurais dû ausdrücken",
+      "exercise": {
+        "id": "ex-free-aurais-du-appeler",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich hätte früher anrufen sollen.*",
+        "card_ids": ["condpass-devoir", "condpass-bildung-avoir"],
+        "accept": [
+          "J'aurais dû appeler plus tôt.",
+          "j'aurais dû appeler plus tôt",
+          "J'aurais dû téléphoner plus tôt.",
+          "J'aurais dû appeler avant.",
+          "J'aurais dû vous appeler plus tôt."
+        ],
+        "hint": "*j'aurais dû* + Infinitiv: *appeler* oder *téléphoner*.",
+        "distractors": [
+          "J'aurais appelé plus tôt.",
+          "Je devrais appeler plus tôt.",
+          "J'avais dû appeler plus tôt.",
+          "J'aurais dû appelé plus tôt."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-nachricht",
+      "type": "exercise",
+      "title": "Journalistisches Konditional",
+      "exercise": {
+        "id": "ex-cloze-nachricht",
+        "type": "cloze",
+        "prompt": "Ergänze *démissionner* im conditionnel passé (il). Bedeutung: *Der Minister soll zurückgetreten sein.*",
+        "card_ids": ["condpass-nachricht", "condpass-bildung-avoir"],
+        "sentence": "Le ministre ___ démissionné suite au scandale.",
+        "blanks": [
+          { "accept": ["aurait"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "conditionnel présent von *avoir* (il/elle) = *aurait*. *démissionner* nimmt *avoir*."
+      }
+    },
+    {
+      "id": "ex-free-hoeflich-voulu",
+      "type": "exercise",
+      "title": "Höflicher Rückblick mit j'aurais voulu",
+      "exercise": {
+        "id": "ex-free-hoeflich-voulu",
+        "type": "free_text",
+        "prompt": "Übersetze (formal/höflich): *Ich hätte Ihnen gerne eine Frage stellen wollen.*",
+        "card_ids": ["condpass-hoeflichkeit", "condpass-bildung-avoir"],
+        "accept": [
+          "J'aurais voulu vous poser une question.",
+          "j'aurais voulu vous poser une question",
+          "J'aurais aimé vous poser une question.",
+          "J'aurais souhaité vous poser une question.",
+          "J'aurais voulu vous poser une question, s'il vous plaît."
+        ],
+        "hint": "*j'aurais voulu* + Infinitiv — höflicher als *je voudrais*. Formelle Anrede: *vous*.",
+        "distractors": [
+          "Je voudrais vous poser une question.",
+          "J'aurais voulé vous poser une question.",
+          "J'avais voulu vous poser une question.",
+          "J'aurais voulu vous posé une question."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-angles-elles",
+      "type": "exercise",
+      "title": "Angleichung beim être-Verb (elles)",
+      "exercise": {
+        "id": "ex-tiles-angles-elles",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Sie (pl., w.) wären ohne den Streik pünktlich angekommen.*",
+        "card_ids": ["condpass-venir-angleichung", "condpass-bildung-etre"],
+        "tiles": ["Sans", "la", "grève", ",", "elles", "seraient", "arrivées", "à", "l'heure", "."],
+        "hint": "*arriver* → être-Verb; elles seraient arriv**ées** (Angleichung: +es für Femininum Plural).",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

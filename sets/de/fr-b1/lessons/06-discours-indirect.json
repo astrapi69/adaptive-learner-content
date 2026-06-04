@@ -1,0 +1,410 @@
+{
+  "id": "06-discours-indirect",
+  "title": "Le discours indirect (indirekte Rede)",
+  "description": "Direkte Rede in indirekte Rede umwandeln: die Einleitung mit *que*, die Zeitenverschiebung (concordance des temps), indirekte Fragen mit *si / ce que / ce qui*, Verschiebung von Pronomen und Zeitangaben sowie der Imperativ → *de + Infinitif*. Auf B1-Niveau, auf Deutsch erklärt.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "di-konzept",
+      "front": "il dit que…",
+      "back": "er sagt, dass …",
+      "notes": "Die Grundstruktur der indirekten Rede: **Einleiteverb + *que* + Nebensatz**. Der Nebensatz folgt der Wortstellung des normalen Aussagesatzes — kein Fragezeichen, kein Anführungszeichen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "discours-indirect"]
+    },
+    {
+      "id": "di-concordance",
+      "front": "concordance des temps",
+      "back": "Zeitenfolge / Zeitenverschiebung",
+      "notes": "Wenn das **Einleiteverb in der Vergangenheit** steht (*il a dit que, il disait que*), verschiebt sich das Tempus im Nebensatz:\n\n| Direkte Rede | Indirekte Rede (Einleitesatz = Vergangenheit) |\n|---|---|\n| présent | **imparfait** |\n| passé composé | **plus-que-parfait** |\n| futur simple | **conditionnel présent** |\n| futur antérieur | **conditionnel passé** |\n\nSteht das Einleiteverb im **Präsens**, bleibt das Tempus unverändert.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "discours-indirect", "temps"]
+    },
+    {
+      "id": "di-presimparfait",
+      "front": "présent → imparfait",
+      "back": "Gegenwart → Vergangenheit (Zeitenverschiebung)",
+      "notes": "**Direkt:** *« Je suis fatigué. »*\n**Indirekt (Einleitesatz Vergangenheit):** *Il a dit qu'il **était** fatigué.*\n\nDas Présent *est* wird zu Imparfait *était*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Imparfait = Beschreibung in der Vergangenheit.",
+      "tags": ["grammatik", "discours-indirect", "imparfait"]
+    },
+    {
+      "id": "di-pcpqp",
+      "front": "passé composé → plus-que-parfait",
+      "back": "Passé composé → Plus-que-parfait (Zeitenverschiebung)",
+      "notes": "**Direkt:** *« J'ai mangé. »*\n**Indirekt (Einleitesatz Vergangenheit):** *Il a dit qu'il **avait mangé**.*\n\nDas Plus-que-parfait = **avoir/être im Imparfait + Partizip**. Vgl. Lektion 04.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "discours-indirect", "plus-que-parfait"]
+    },
+    {
+      "id": "di-futurconditionnel",
+      "front": "futur simple → conditionnel présent",
+      "back": "Futur simple → Conditionnel présent (Zeitenverschiebung)",
+      "notes": "**Direkt:** *« Elle **viendra**. »*\n**Indirekt (Einleitesatz Vergangenheit):** *Il a dit qu'elle **viendrait**.*\n\nDer Conditionnel présent hat dieselbe Form wie der Futur-Stamm + Imparfait-Endungen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "discours-indirect", "conditionnel"]
+    },
+    {
+      "id": "di-fragen-si",
+      "front": "il demande si…",
+      "back": "er fragt, ob …",
+      "notes": "Indirekte **Ja/Nein-Fragen** werden mit **si** eingeleitet:\n\n*« Viens-tu ? »* → *Il demande **si** tu viens.*\n\nDas Fragezeichen fällt weg, die Wortstellung kehrt zur normalen Satzstellung zurück (kein Verb-Subjekt-Inversion).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "discours-indirect", "frage"]
+    },
+    {
+      "id": "di-fragen-ceque",
+      "front": "ce que / ce qui",
+      "back": "*qu'est-ce que* / *qu'est-ce qui* → *ce que* / *ce qui* (indirekte Frage)",
+      "notes": "Indirekte **W-Fragen nach dem Objekt/Subjekt** ersetzen die direkte Frageform:\n\n| Direkte Frage | Indirekte Rede |\n|---|---|\n| *Qu'est-ce que* tu fais ? | Il demande **ce que** tu fais. |\n| *Qu'est-ce qui* se passe ? | Il demande **ce qui** se passe. |\n\n*Où, quand, pourquoi, comment* bleiben unverändert:\n*« Pourquoi tu pars ? »* → *Il demande **pourquoi** tu pars.*",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "*qu'est-ce que* → *ce que* (Objekt), *qu'est-ce qui* → *ce qui* (Subjekt).",
+      "tags": ["grammatik", "discours-indirect", "frage"]
+    },
+    {
+      "id": "di-zeitangaben",
+      "front": "aujourd'hui → ce jour-là",
+      "back": "Zeitangaben-Verschiebung in der indirekten Rede",
+      "notes": "Wenn der Einleitesatz in der Vergangenheit steht, verschieben sich auch die Zeitangaben:\n\n| Direkte Rede | Indirekte Rede |\n|---|---|\n| *aujourd'hui* | **ce jour-là** |\n| *hier* | **la veille** |\n| *demain* | **le lendemain** |\n| *maintenant* | **à ce moment-là** |\n| *cette semaine* | **cette semaine-là** |\n| *l'année dernière* | **l'année précédente** |",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "discours-indirect", "zeitangaben"]
+    },
+    {
+      "id": "di-imperativ",
+      "front": "Imperativ → de + infinitif",
+      "back": "direkter Befehl → indirekter Befehl mit *de + Infinitif*",
+      "notes": "**Direkt:** *« Pars ! »*\n**Indirekt:** *Il m'a dit **de partir**.*\n\nDer Imperativ wird in der indirekten Rede durch **de + Infinitif** ersetzt. Das *que* entfällt — stattdessen steht direkt *de*:\n\n*« Ne fume pas ! »* → *Elle m'a demandé **de ne pas fumer**.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "discours-indirect", "imperativ"]
+    },
+    {
+      "id": "di-pronomen",
+      "front": "Pronomen-Verschiebung",
+      "back": "Personalpronomen ändern sich bei der Umwandlung",
+      "notes": "Die Pronomen wechseln je nach Perspektive:\n\n*« Je t'aime. »* (er zu ihr) → *Il a dit qu'**il l'**aimait.*\n\n*« Tu as raison. »* (zu mir) → *Il a dit que **j'**avais raison.*\n\nGrundregel: Die Pronomen folgen der **logischen Erzählperspektive**, nicht der Original-Perspektive.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "discours-indirect", "pronomen"]
+    },
+    {
+      "id": "di-sitempus",
+      "front": "Si-Frage + Zeitenverschiebung",
+      "back": "Kombination: *si* + verschobenes Tempus",
+      "notes": "Bei indirekten Ja/Nein-Fragen mit *si* gilt dieselbe Zeitenverschiebung wie in Aussagesätzen:\n\n*« Viendras-tu ? »* → *Il a demandé **si** tu **viendrais**.*\n\nFutur simple wird zu Conditionnel présent, auch nach *si*.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "discours-indirect", "frage", "conditionnel"]
+    },
+    {
+      "id": "di-einleiteverben",
+      "front": "dire que / demander si / demander de",
+      "back": "typische Einleiteverben der indirekten Rede",
+      "notes": "Einleiteverben und ihre Struktur:\n\n| Verb | Struktur | Verwendung |\n|---|---|---|\n| *dire* | **dire que** | Aussage |\n| *demander* | **demander si** | Ja/Nein-Frage |\n| *demander* | **demander ce que/qui** | W-Frage |\n| *demander* | **demander de + inf.** | Bitte/Befehl |\n| *expliquer* | **expliquer que** | Erklärung |\n| *répondre* | **répondre que** | Antwort |",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "discours-indirect", "verben"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-grundstruktur",
+      "type": "theory",
+      "title": "Grundstruktur der indirekten Rede",
+      "body": "# Le discours indirect — indirekte Rede\n\nDie **direkte Rede** gibt Gesagtes wörtlich wieder (mit Anführungszeichen):\n> *Il dit : « Je suis fatigué. »*\n\nDie **indirekte Rede** bettet das Gesagte als Nebensatz ein:\n> *Il dit **qu'il est** fatigué.*\n\n## Aufbau\n\n**Einleiteverb + que + Nebensatz** (normale Satzstellung, kein Fragezeichen).\n\nTypische Einleiteverben:\n\n| Verb | Struktur | Beispiel |\n|---|---|---|\n| *dire* | **dire que** | Il dit **qu'**il est content. |\n| *expliquer* | **expliquer que** | Elle explique **qu'**elle part. |\n| *répondre* | **répondre que** | Il répond **qu'**il ne sait pas. |\n| *demander* | **demander si / ce que** | Il demande **si** tu viens. |\n| *demander* | **demander de + inf.** | Il demande de partir. |\n\n## Wichtigste Änderungen auf einen Blick\n\n1. **Anführungszeichen weg** — stattdessen *que*.\n2. **Fragesatz-Inversion weg** — normale Wortstellung.\n3. **Pronomen** passen sich der Erzählperspektive an.\n4. **Zeitangaben** verschieben sich (wenn Einleitesatz Vergangenheit).\n5. **Tempora** verschieben sich (wenn Einleitesatz Vergangenheit) → siehe nächste Einheit."
+    },
+    {
+      "id": "theory-zeitenverschiebung",
+      "type": "theory",
+      "title": "Die Zeitenverschiebung (concordance des temps)",
+      "body": "## Wann verschiebt sich das Tempus?\n\nNur wenn das **Einleiteverb in der Vergangenheit** steht (*il a dit, il disait, il avait dit*). Bei Einleiteverb im **Präsens** bleibt alles unverändert.\n\n## Die Tabelle der Zeitenverschiebung\n\n| Direkte Rede (Tempus) | Indirekte Rede (Einleitesatz = Vergangenheit) |\n|---|---|\n| **présent** (*il est*) | **imparfait** (*il était*) |\n| **passé composé** (*il a mangé*) | **plus-que-parfait** (*il avait mangé*) |\n| **futur simple** (*il viendra*) | **conditionnel présent** (*il viendrait*) |\n| **futur antérieur** (*il aura fini*) | **conditionnel passé** (*il aurait fini*) |\n| **imparfait** (*il voulait*) | **imparfait** (bleibt gleich) |\n\n## Beispiele\n\n**présent → imparfait**\n> *« Je **suis** malade. »* → Il a dit qu'il **était** malade.\n\n**passé composé → plus-que-parfait**\n> *« J'**ai oublié** mon sac. »* → Elle a dit qu'elle **avait oublié** son sac.\n\n**futur simple → conditionnel présent**\n> *« Elle **viendra**. »* → Il a annoncé qu'elle **viendrait**.\n\n## Merkhilfe zum Plus-que-parfait\n\nPlus-que-parfait = **avoir/être im Imparfait** + Partizip Perfekt:\n*avais, avais, avait, avions, aviez, avaient* + participe passé\n(vgl. Lektion 04 — Temps du passé)"
+    },
+    {
+      "id": "theory-fragen-zeitangaben",
+      "type": "theory",
+      "title": "Indirekte Fragen, Zeitangaben und der Imperativ",
+      "body": "## Indirekte Fragen\n\n### Ja/Nein-Fragen → *si*\n> *« Viens-tu ? »* → Il demande **si** tu viens.\n\n*Si* leitet die indirekte Ja/Nein-Frage ein. Normale Satzstellung (keine Inversion)!\n\n### W-Fragen: *qu'est-ce que/qui* → *ce que / ce qui*\n\n| Direkte Frage | Indirekte Rede |\n|---|---|\n| *Qu'est-ce **que** tu fais ?* | Il demande **ce que** tu fais. |\n| *Qu'est-ce **qui** se passe ?* | Il demande **ce qui** se passe. |\n| *Où vas-tu ?* | Il demande **où** tu vas. |\n| *Pourquoi pars-tu ?* | Il demande **pourquoi** tu pars. |\n\n*Où, quand, comment, pourquoi, combien* bleiben unverändert.\n\n## Zeitangaben-Verschiebung\n\nWenn der Einleitesatz in der Vergangenheit steht:\n\n| Direkte Rede | Indirekte Rede |\n|---|---|\n| *aujourd'hui* | **ce jour-là** |\n| *hier* | **la veille** |\n| *demain* | **le lendemain** |\n| *maintenant* | **à ce moment-là** |\n| *cette semaine* | **cette semaine-là** |\n\n## Imperativ → *de + Infinitif*\n\n> *« Pars ! »* → Il m'a dit **de partir**.\n> *« Ne fume pas ! »* → Elle m'a demandé **de ne pas fumer**.\n\nKein *que* — direkt **de + Infinitif** nach dem Einleiteverb. Die Verneinung *ne pas* steht vor dem Infinitiv."
+    },
+    {
+      "id": "ex-cloze-etait",
+      "type": "exercise",
+      "title": "Présent → Imparfait: Lücke füllen",
+      "exercise": {
+        "id": "ex-cloze-etait",
+        "type": "cloze",
+        "prompt": "Wandle in die indirekte Rede um. Einleitesatz ist Vergangenheit — wähle das richtige Tempus von *être*.",
+        "card_ids": ["di-presimparfait", "di-concordance"],
+        "sentence": "Il a dit qu'il ___ très fatigué après le match.",
+        "blanks": [
+          { "accept": ["était"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Direkte Rede: *« Je suis très fatigué. »* — présent → imparfait nach Vergangenheits-Einleitung."
+      }
+    },
+    {
+      "id": "ex-cloze-avait-oublie",
+      "type": "exercise",
+      "title": "Passé composé → Plus-que-parfait: Lücke füllen",
+      "exercise": {
+        "id": "ex-cloze-avait-oublie",
+        "type": "cloze",
+        "prompt": "Passé composé → Plus-que-parfait. Direkte Rede: *« J'ai oublié mon mot de passe. »* Fülle die Lücke.",
+        "card_ids": ["di-pcpqp", "di-concordance"],
+        "sentence": "Elle a dit qu'elle ___ son mot de passe.",
+        "blanks": [
+          { "accept": ["avait oublié"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Plus-que-parfait = avoir im Imparfait (*avait*) + Partizip (*oublié*)."
+      }
+    },
+    {
+      "id": "ex-free-viendrait",
+      "type": "exercise",
+      "title": "Futur → Conditionnel: Übersetzen",
+      "exercise": {
+        "id": "ex-free-viendrait",
+        "type": "free_text",
+        "prompt": "Übersetze ins Französische (indirekte Rede, Einleitesatz Vergangenheit): *Er sagte, dass er am nächsten Tag kommen würde.*",
+        "card_ids": ["di-futurconditionnel", "di-zeitangaben"],
+        "accept": [
+          "Il a dit qu'il viendrait le lendemain.",
+          "il a dit qu'il viendrait le lendemain",
+          "Il dit qu'il viendrait le lendemain.",
+          "Il a dit qu'il viendrait le jour suivant.",
+          "Il a dit qu'il viendrait demain."
+        ],
+        "hint": "Futur *viendra* → Conditionnel présent *viendrait*; *demain* → *le lendemain* (Einleitesatz Vergangenheit).",
+        "distractors": [
+          "Il a dit qu'il viendra le lendemain.",
+          "Il a dit qu'il venait le lendemain.",
+          "Il a dit qu'il vient demain.",
+          "Il a dit que il viendrait le lendemain."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-si-frage",
+      "type": "exercise",
+      "title": "Indirekte Ja/Nein-Frage mit *si*",
+      "exercise": {
+        "id": "ex-free-si-frage",
+        "type": "free_text",
+        "prompt": "Übersetze: *Sie fragte, ob ich am Wochenende Zeit hätte.*",
+        "card_ids": ["di-fragen-si", "di-sitempus"],
+        "accept": [
+          "Elle a demandé si j'avais du temps le week-end.",
+          "elle a demandé si j'avais du temps le week-end",
+          "Elle a demandé si j'avais du temps ce week-end-là.",
+          "Elle demandait si j'avais du temps le week-end.",
+          "Elle a demandé si j'avais le temps le week-end."
+        ],
+        "hint": "Ja/Nein-Frage → *si*; *haben* (présent *ai*) → imparfait *avais* (Einleitesatz Vergangenheit).",
+        "distractors": [
+          "Elle a demandé si j'ai du temps le week-end.",
+          "Elle a demandé est-ce que j'avais du temps le week-end.",
+          "Elle a demandé que j'avais du temps le week-end.",
+          "Elle a demandé si j'aurais du temps le week-end."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-zeitenverschiebung",
+      "type": "exercise",
+      "title": "Tempora zuordnen: direkt → indirekt",
+      "exercise": {
+        "id": "ex-match-zeitenverschiebung",
+        "type": "matching",
+        "prompt": "Ordne jedem Tempus der direkten Rede das entsprechende Tempus in der indirekten Rede (Einleitesatz = Vergangenheit) zu.",
+        "card_ids": ["di-concordance", "di-presimparfait", "di-pcpqp", "di-futurconditionnel"],
+        "pairs": [
+          { "left": "présent", "right": "imparfait" },
+          { "left": "passé composé", "right": "plus-que-parfait" },
+          { "left": "futur simple", "right": "conditionnel présent" },
+          { "left": "futur antérieur", "right": "conditionnel passé" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-zeitangaben",
+      "type": "exercise",
+      "title": "Zeitangaben verschieben",
+      "exercise": {
+        "id": "ex-match-zeitangaben",
+        "type": "matching",
+        "prompt": "Welche Zeitangabe der direkten Rede entspricht welcher Zeitangabe in der indirekten Rede (Einleitesatz Vergangenheit)?",
+        "card_ids": ["di-zeitangaben"],
+        "pairs": [
+          { "left": "aujourd'hui", "right": "ce jour-là" },
+          { "left": "hier", "right": "la veille" },
+          { "left": "demain", "right": "le lendemain" },
+          { "left": "maintenant", "right": "à ce moment-là" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-imperativ-de",
+      "type": "exercise",
+      "title": "Imperativ → *de + Infinitif*",
+      "exercise": {
+        "id": "ex-cloze-imperativ-de",
+        "type": "cloze",
+        "prompt": "Direkte Rede: *« Ferme la fenêtre ! »* Wandle in indirekte Rede um. Fülle die Lücke.",
+        "card_ids": ["di-imperativ"],
+        "sentence": "Elle m'a demandé ___ la fenêtre.",
+        "blanks": [
+          { "accept": ["de fermer"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Imperativ → *de + Infinitif*: *de fermer*. Kein *que*!"
+      }
+    },
+    {
+      "id": "ex-free-ce-que",
+      "type": "exercise",
+      "title": "*Ce que* statt *qu'est-ce que*",
+      "exercise": {
+        "id": "ex-free-ce-que",
+        "type": "free_text",
+        "prompt": "Übersetze: *Er fragte, was ich zum Abendessen machen würde.*",
+        "card_ids": ["di-fragen-ceque", "di-sitempus"],
+        "accept": [
+          "Il a demandé ce que je ferais pour le dîner.",
+          "il a demandé ce que je ferais pour le dîner",
+          "Il a demandé ce que je préparais pour le dîner.",
+          "Il demandait ce que je ferais pour le dîner.",
+          "Il a demandé ce que j'allais faire pour le dîner."
+        ],
+        "hint": "*Qu'est-ce que* → *ce que* in der indirekten Frage; *faire* im Futur → Conditionnel *ferais*.",
+        "distractors": [
+          "Il a demandé qu'est-ce que je ferais pour le dîner.",
+          "Il a demandé ce qui je ferais pour le dîner.",
+          "Il a demandé si je ferais le dîner.",
+          "Il a demandé que je ferais pour le dîner."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-imperativ",
+      "type": "exercise",
+      "title": "Imperativ in indirekter Rede — welcher Satz ist korrekt?",
+      "exercise": {
+        "id": "ex-pic-imperativ",
+        "type": "picture_choice",
+        "prompt": "Direkte Rede: *« Ne parlez pas ! »* Welche indirekte Rede ist korrekt?",
+        "card_ids": ["di-imperativ"],
+        "images": [
+          { "src": "assets/img/di-imperativ-1.png", "label": "Il nous a demandé de ne pas parler.", "is_correct": "true" },
+          { "src": "assets/img/di-imperativ-2.png", "label": "Il nous a demandé que nous ne parlons pas." },
+          { "src": "assets/img/di-imperativ-3.png", "label": "Il nous a demandé ne pas parler." },
+          { "src": "assets/img/di-imperativ-4.png", "label": "Il nous a dit que ne parlez pas." }
+        ],
+        "hint": "Imperativ → *de + Infinitif*; Verneinung *ne pas* steht vor dem Infinitiv.",
+        "distractors": [
+          "Il nous a demandé que nous ne parlons pas.",
+          "Il nous a demandé ne pas parler.",
+          "Il nous a dit que ne parlez pas."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-pc-pqp",
+      "type": "exercise",
+      "title": "Passé composé → Plus-que-parfait: Satz ordnen",
+      "exercise": {
+        "id": "ex-tiles-pc-pqp",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zur indirekten Rede: Direkte Rede war *« J'ai perdu mes clés. »* (er zu uns).",
+        "card_ids": ["di-pcpqp", "di-pronomen"],
+        "tiles": ["Il", "a", "dit", "qu'il", "avait", "perdu", "ses", "clés"],
+        "hint": "Passé composé *a perdu* → Plus-que-parfait *avait perdu*; Pronomen: *je* → *il*, *mes* → *ses*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-pronomen",
+      "type": "exercise",
+      "title": "Pronomen-Verschiebung: Übersetzen",
+      "exercise": {
+        "id": "ex-free-pronomen",
+        "type": "free_text",
+        "prompt": "Übersetze (Einleitesatz Vergangenheit, Pronomen beachten): *Sie sagte mir, dass sie mich liebt.*",
+        "card_ids": ["di-pronomen", "di-presimparfait"],
+        "accept": [
+          "Elle m'a dit qu'elle m'aimait.",
+          "elle m'a dit qu'elle m'aimait",
+          "Elle m'a dit qu'elle m'aime.",
+          "Elle m'avait dit qu'elle m'aimait.",
+          "Elle a dit qu'elle m'aimait."
+        ],
+        "hint": "*lieben* = *aimer*; présent *aime* → imparfait *aimait* (Einleitesatz Vergangenheit); *mir* = *me/m'*.",
+        "distractors": [
+          "Elle m'a dit qu'elle te m'aimait.",
+          "Elle m'a dit qu'elle aime moi.",
+          "Elle m'a dit qu'il m'aimait.",
+          "Elle m'a dit que je l'aimais."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-si-frage",
+      "type": "exercise",
+      "title": "Indirekte Frage mit *si*: Satz ordnen",
+      "exercise": {
+        "id": "ex-tiles-si-frage",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter. Direkte Rede: *« Est-ce que tu as faim ? »*",
+        "card_ids": ["di-fragen-si"],
+        "tiles": ["Il", "m'a", "demandé", "si", "j'avais", "faim"],
+        "hint": "Ja/Nein-Frage → *si*; normale Satzstellung, kein Fragezeichen; *as* → *avais* (Zeitenverschiebung).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ceque-frei",
+      "type": "exercise",
+      "title": "Vollständige Umwandlung: Aussage mit Zeitenverschiebung",
+      "exercise": {
+        "id": "ex-free-ceque-frei",
+        "type": "free_text",
+        "prompt": "Übersetze komplett (Einleitesatz Vergangenheit): *Sie erklärte, dass sie gestern sehr früh aufgestanden war.*",
+        "card_ids": ["di-pcpqp", "di-zeitangaben"],
+        "accept": [
+          "Elle a expliqué qu'elle s'était levée très tôt la veille.",
+          "elle a expliqué qu'elle s'était levée très tôt la veille",
+          "Elle a expliqué qu'elle était levée très tôt la veille.",
+          "Elle a expliqué qu'elle s'était levée très tôt hier.",
+          "Elle expliquait qu'elle s'était levée très tôt la veille."
+        ],
+        "hint": "*aufstehen* = *se lever* (reflexiv); passé composé → plus-que-parfait: *s'était levée*; *gestern* → *la veille*.",
+        "distractors": [
+          "Elle a expliqué qu'elle se levait très tôt la veille.",
+          "Elle a expliqué qu'elle s'est levée très tôt hier.",
+          "Elle a expliqué que elle s'était levée très tôt la veille.",
+          "Elle a expliqué qu'elle se lèverait très tôt la veille."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

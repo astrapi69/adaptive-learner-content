@@ -1,0 +1,414 @@
+{
+  "id": "02-subjonctif-conjonctions",
+  "title": "Subjonctif: Auslöser und Konjunktionen",
+  "description": "Konjunktionen, die immer den Subjonctif verlangen (bien que, pour que, avant que, jusqu'à ce que, à condition que, sans que, pourvu que) — mit dem Kontrast zu Konjunktionen des Indikativs (après que, parce que, pendant que) und der Infinitivregel bei gleichem Subjekt. Aufbaut auf Lektion 01.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "bien-que",
+      "front": "bien que / quoique + subjonctif",
+      "back": "obwohl (+ Subjonctif)",
+      "notes": "Beide Konjunktionen bedeuten **obwohl** und verlangen immer den Subjonctif:\n*Bien qu'il **soit** fatigué, il travaille.* — Obwohl er müde ist, arbeitet er.\n*Quoiqu'elle **ait** peu d'argent, elle voyage beaucoup.*\n\n**Stilhinweis:** *bien que* ist stilistisch neutraler; *quoique* klingt leicht gehobener.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konjunktionen", "subjonctif", "konzessiv"]
+    },
+    {
+      "id": "pour-que",
+      "front": "pour que / afin que + subjonctif",
+      "back": "damit (+ Subjonctif)",
+      "notes": "Finale Konjunktionen — **damit** — verlangen immer den Subjonctif:\n*Je t'explique pour que tu **comprennes**.* — Ich erkläre es dir, damit du es verstehst.\n*Il parle lentement afin que tout le monde **puisse** suivre.*\n\n**Gleiches Subjekt → Infinitiv:** *Je travaille pour **réussir**.* (nicht: *pour que je réussisse*)",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "pour que → pour + Infinitiv, wenn beide Sätze dasselbe Subjekt haben.",
+      "tags": ["konjunktionen", "subjonctif", "final"]
+    },
+    {
+      "id": "avant-que",
+      "front": "avant que + subjonctif",
+      "back": "bevor (+ Subjonctif)",
+      "notes": "**Bevor** → immer Subjonctif:\n*Finis tes devoirs avant qu'il **parte**.* — Erledige deine Hausaufgaben, bevor er geht.\n\n**Gleiches Subjekt → avant de + Infinitiv:**\n*Je prends un café avant de **partir**.* — Ich trinke einen Kaffee, bevor ich gehe.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "avant que + Subjonctif (verschiedene Subjekte); avant de + Infinitiv (gleiches Subjekt).",
+      "tags": ["konjunktionen", "subjonctif", "temporal"]
+    },
+    {
+      "id": "jusqu-a-ce-que",
+      "front": "jusqu'à ce que + subjonctif",
+      "back": "bis (+ Subjonctif)",
+      "notes": "**Bis** → immer Subjonctif:\n*Attends jusqu'à ce qu'il **arrive**.* — Warte, bis er ankommt.\n*Je travaillerai jusqu'à ce que vous **soyez** satisfaits.*\n\nIm Gegensatz zum Deutschen steht **nie** der Indikativ nach *jusqu'à ce que*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konjunktionen", "subjonctif", "temporal"]
+    },
+    {
+      "id": "a-condition-que",
+      "front": "à condition que + subjonctif",
+      "back": "unter der Bedingung, dass / sofern (+ Subjonctif)",
+      "notes": "Konditionale Konjunktion — **unter der Bedingung, dass** — verlangt immer den Subjonctif:\n*Je t'aide à condition que tu **fasses** un effort.* — Ich helfe dir, sofern du dich anstrengst.\n\nÄhnlich: *pourvu que* (sofern, gesetzt den Fall), *à moins que* (es sei denn).",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["konjunktionen", "subjonctif", "konditional"]
+    },
+    {
+      "id": "sans-que",
+      "front": "sans que + subjonctif",
+      "back": "ohne dass (+ Subjonctif)",
+      "notes": "**Ohne dass** → immer Subjonctif:\n*Il est parti sans qu'on le **sache**.* — Er ist gegangen, ohne dass wir es wussten.\n\n**Gleiches Subjekt → sans + Infinitiv:**\n*Elle est sortie sans **dire** au revoir.* — Sie ist gegangen, ohne Auf Wiedersehen zu sagen.",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "sans que + Subjonctif (verschiedene Subjekte); sans + Infinitiv (gleiches Subjekt).",
+      "tags": ["konjunktionen", "subjonctif", "modal"]
+    },
+    {
+      "id": "pourvu-que",
+      "front": "pourvu que + subjonctif",
+      "back": "sofern / wenn nur (+ Subjonctif)",
+      "notes": "Ausdruck einer **Bedingung oder eines Wunsches** — verlangt immer den Subjonctif:\n*Tout va bien pourvu qu'il **soit** là.* — Alles ist gut, solange er da ist.\n*Pourvu qu'elle **réussisse** son examen !* — Wenn sie nur ihre Prüfung besteht!\n\n**Stilhinweis:** In Ausrufen (*Pourvu que…!*) drückt *pourvu que* einen innigen Wunsch aus — sehr gebräuchlich im gesprochenen Französisch.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["konjunktionen", "subjonctif", "konditional"]
+    },
+    {
+      "id": "apres-que-indicatif",
+      "front": "après que + indicatif",
+      "back": "nachdem (+ Indikativ!)",
+      "notes": "**Achtung Kontrast:** *après que* verlangt traditionell den **Indikativ**, weil die Handlung zeitlich abgeschlossen ist:\n*Après qu'il **est parti**, nous avons mangé.* — Nachdem er gegangen war, haben wir gegessen.\n\nUmgangssprachlich hört man zunehmend den Subjonctif nach *après que*, aber im formellen Schreiben gilt: **Indikativ**.\n\n**Gleiches Subjekt → après avoir/être + Partizip:**\n*Après **avoir mangé**, il s'est reposé.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "après que ≠ avant que: après que → Indikativ, avant que → Subjonctif.",
+      "tags": ["konjunktionen", "indikativ", "kontrast", "temporal"]
+    },
+    {
+      "id": "parce-que-pendant-que",
+      "front": "parce que / pendant que + indicatif",
+      "back": "weil / während (+ Indikativ)",
+      "notes": "Kausal- und Temporalkonjunktionen mit **Indikativ**:\n- *parce que* (weil): *Je reste parce qu'il **pleut**.* — Ich bleibe, weil es regnet.\n- *pendant que* (während): *Lis pendant qu'il **dort**.* — Lies, während er schläft.\n\nKein Subjonctif, da keine Subjektivität, kein Zweifel, keine Finalität.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konjunktionen", "indikativ", "kausal", "temporal"]
+    },
+    {
+      "id": "infinitiv-regel",
+      "front": "pour que → pour + Infinitif / avant que → avant de + Infinitif",
+      "back": "Infinitivregel bei gleichem Subjekt",
+      "notes": "Wenn **beide Teilsätze dasselbe Subjekt** haben, ersetzt man die que-Konstruktion durch den **Infinitiv**:\n\n| Verschiedene Subjekte | Gleiches Subjekt |\n|---|---|\n| *pour que tu **comprennes*** | *pour **comprendre*** |\n| *avant qu'il **parte*** | *avant de **partir*** |\n| *sans qu'elle **sache*** | *sans **savoir*** |\n\nDas klingt natürlicher und ist stilistisch bevorzugt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "infinitiv", "subjonctif", "stilistik"]
+    },
+    {
+      "id": "konjunktionen-uebersicht",
+      "front": "bien que / pour que / avant que / jusqu'à ce que / sans que",
+      "back": "Konjunktionen → immer Subjonctif",
+      "notes": "Merkregel: Diese Konjunktionen verlangen **immer** den Subjonctif:\n\n| Konjunktion | Bedeutung |\n|---|---|\n| *bien que / quoique* | obwohl |\n| *pour que / afin que* | damit |\n| *avant que* | bevor |\n| *jusqu'à ce que* | bis |\n| *à condition que* | sofern, unter der Bedingung |\n| *sans que* | ohne dass |\n| *pourvu que* | sofern, wenn nur |",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konjunktionen", "subjonctif", "uebersicht"]
+    },
+    {
+      "id": "quoique-bien-que-unterschied",
+      "front": "quoiqu'il en soit",
+      "back": "wie dem auch sei / wie es auch sei",
+      "notes": "Feste Wendung mit **être** im Subjonctif: *quoiqu'il en soit* = wie dem auch sei.\nSehr gebräuchlich in formellen Texten und Reden als konzessive Formel.\n*Quoiqu'il en soit, nous devons décider.* — Wie dem auch sei, wir müssen entscheiden.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["redewendung", "subjonctif", "formal"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-subj-konj",
+      "type": "theory",
+      "title": "Konjunktionen, die immer den Subjonctif verlangen",
+      "body": "# Subjonctif-Konjunktionen: Die zuverlässigen Auslöser\n\nIn Lektion 01 hast du gelernt, dass Verben wie *vouloir que* oder *il faut que* den Subjonctif auslösen. Es gibt aber auch **Konjunktionen**, die automatisch — unabhängig vom Verb im Hauptsatz — den Subjonctif einleiten.\n\n## Die wichtigsten Subjonctif-Konjunktionen\n\n| Konjunktion | Bedeutung | Beispiel |\n|---|---|---|\n| **bien que / quoique** | obwohl | *Bien qu'il **soit** tard, il travaille.* |\n| **pour que / afin que** | damit | *Je parle pour que tu **comprennes**.* |\n| **avant que** | bevor | *Finis avant qu'il **parte**.* |\n| **jusqu'à ce que** | bis | *Attends jusqu'à ce qu'elle **arrive**.* |\n| **à condition que** | sofern, unter der Bedingung, dass | *Je viens à condition que tu **sois** là.* |\n| **sans que** | ohne dass | *Il est parti sans qu'on le **sache**.* |\n| **pourvu que** | sofern, wenn nur | *Tout va bien pourvu qu'il **soit** là.* |\n\n> **Merktrick:** Bei diesen Konjunktionen ist der Ausgang des Geschehens **ungewiss, beabsichtigt oder bedingend** — deshalb Subjonctif.\n\n## Register-Hinweis\n\n*bien que* und *pour que* sind stilistisch neutral und im Alltag häufig. *afin que* und *quoique* klingen formeller und sind typisch für geschriebene Texte. Im mündlichen Französisch hört man oft verkürzte Formen wie *pour que ça marche* oder *pourvu qu'il vienne*."
+    },
+    {
+      "id": "theory-indikativ-kontrast",
+      "type": "theory",
+      "title": "Konjunktionen des Indikativs: après que, parce que, pendant que",
+      "body": "# Der wichtigste Kontrast: nicht alle Konjunktionen lösen den Subjonctif aus\n\nEinige Konjunktionen, die oberflächlich ähnlich wirken, verlangen den **Indikativ**:\n\n## Indikativ-Konjunktionen im Überblick\n\n| Konjunktion | Bedeutung | Beispiel |\n|---|---|---|\n| **après que** | nachdem | *Après qu'il **est parti**, nous avons mangé.* |\n| **parce que** | weil | *Je reste parce qu'il **pleut**.* |\n| **pendant que** | während | *Lis pendant qu'il **dort**.* |\n| **puisque** | da ja, weil | *Puisque tu **es** là, aide-moi.* |\n\n## Der Klassiker: avant que ≠ après que\n\nDas ist die meistgeprüfte Falle auf B1-Niveau:\n\n| | Bedeutung | Modus |\n|---|---|---|\n| **avant que** | bevor | **Subjonctif** (*avant qu'il parte*) |\n| **après que** | nachdem | **Indikativ** (*après qu'il est parti*) |\n\n**Warum?** *avant que* bezieht sich auf ein zukünftiges, noch ungewisses Ereignis → Subjonctif. *après que* bezieht sich auf ein abgeschlossenes, reales Ereignis → Indikativ.\n\n> **Praxishinweis:** Im gesprochenen Französisch hört man häufig den Subjonctif auch nach *après que* (*après qu'il soit parti*). In formellen Prüfungen und geschriebenen Texten gilt aber: **après que → Indikativ**."
+    },
+    {
+      "id": "theory-infinitiv-regel",
+      "type": "theory",
+      "title": "Die Infinitivregel: kein Subjonctif bei gleichem Subjekt",
+      "body": "# Gleiches Subjekt → Infinitivkonstruktion statt Subjonctif\n\nWenn **Haupt- und Nebensatz dasselbe Subjekt** haben, ersetzt man die *que*-Konstruktion durch eine elegantere **Infinitivkonstruktion**. Das ist nicht nur möglich — es ist stilistisch bevorzugt.\n\n## Die wichtigsten Ersatzformen\n\n| que + Subjonctif (verschiedene Subjekte) | Infinitiv (gleiches Subjekt) |\n|---|---|\n| *pour que tu **comprennes*** (damit du verstehst) | *pour **comprendre*** (um zu verstehen) |\n| *avant qu'il **parte*** (bevor er geht) | *avant de **partir*** (bevor man geht) |\n| *sans qu'elle **sache*** (ohne dass sie weiß) | *sans **savoir*** (ohne zu wissen) |\n| *afin que vous **réussissiez*** | *afin de **réussir*** |\n\n## Vergleich im vollständigen Satz\n\n**Verschiedene Subjekte** → Subjonctif:\n*Je t'explique pour que tu **comprennes**.* — Ich erkläre es dir, damit du verstehst.\n\n**Gleiches Subjekt** → Infinitiv:\n*J'explique pour **comprendre** moi-même.* — Ich erkläre es, um selbst zu verstehen.\n\n## Register-Hinweis\n\nDie Infinitivkonstruktion klingt kompakter und stilistisch gepflegter. Wer im Schreiben konsequent auf *avant de + Infinitif* statt *avant que + Subjonctif* (bei gleichem Subjekt) achtet, wirkt schriftlich gewandter."
+    },
+    {
+      "id": "ex-match-konj-bedeutung",
+      "type": "exercise",
+      "title": "Konjunktionen zuordnen",
+      "exercise": {
+        "id": "ex-match-konj-bedeutung",
+        "type": "matching",
+        "prompt": "Ordne jeder französischen Konjunktion ihre deutsche Bedeutung zu.",
+        "card_ids": ["bien-que", "pour-que", "avant-que", "jusqu-a-ce-que", "sans-que"],
+        "pairs": [
+          { "left": "bien que", "right": "obwohl" },
+          { "left": "pour que", "right": "damit" },
+          { "left": "avant que", "right": "bevor" },
+          { "left": "jusqu'à ce que", "right": "bis" },
+          { "left": "sans que", "right": "ohne dass" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-bien-que-soit",
+      "type": "exercise",
+      "title": "bien que + Subjonctif",
+      "exercise": {
+        "id": "ex-cloze-bien-que-soit",
+        "type": "cloze",
+        "prompt": "Ergänze *être* im Subjonctif (qu'il). Denk daran: *bien que* löst immer den Subjonctif aus.",
+        "card_ids": ["bien-que"],
+        "sentence": "Bien qu'il ___ très occupé, il trouve toujours du temps pour sa famille.",
+        "blanks": [
+          { "accept": ["soit"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*bien que* → Subjonctif; être → *qu'il soit*."
+      }
+    },
+    {
+      "id": "ex-free-pour-que-comprenne",
+      "type": "exercise",
+      "title": "Absicht ausdrücken: damit",
+      "exercise": {
+        "id": "ex-free-pour-que-comprenne",
+        "type": "free_text",
+        "prompt": "Übersetze: *Er spricht langsam, damit wir ihn verstehen.*",
+        "card_ids": ["pour-que"],
+        "accept": [
+          "Il parle lentement pour que nous comprenions.",
+          "il parle lentement pour que nous comprenions",
+          "Il parle doucement pour que nous comprenions.",
+          "Il parle lentement afin que nous comprenions.",
+          "il parle lentement afin que nous comprenions"
+        ],
+        "hint": "*pour que* + Subjonctif von *comprendre* (nous): Stamm *comprenn-* + -ions → *comprenions*.",
+        "distractors": [
+          "Il parle lentement pour que nous comprendons.",
+          "Il parle lentement pour que nous comprenons.",
+          "Il parle lentement pour nous comprenions.",
+          "Il parle lentement pour qu'on comprends."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-avant-que-parte",
+      "type": "exercise",
+      "title": "Wörter ordnen: bevor er geht",
+      "exercise": {
+        "id": "ex-tiles-avant-que-parte",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum Satz: *Ruf mich an, bevor er geht.*",
+        "card_ids": ["avant-que"],
+        "tiles": ["Appelle-moi", "avant", "qu'il", "parte"],
+        "hint": "*avant que* + Subjonctif von *partir* (qu'il): *parte*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-jusqu-arrive",
+      "type": "exercise",
+      "title": "bis sie ankommt",
+      "exercise": {
+        "id": "ex-cloze-jusqu-arrive",
+        "type": "cloze",
+        "prompt": "Ergänze *attendre* im Subjonctif (qu'elle). *jusqu'à ce que* verlangt immer den Subjonctif.",
+        "card_ids": ["jusqu-a-ce-que"],
+        "sentence": "Nous attendrons ici jusqu'à ce qu'elle ___ .",
+        "blanks": [
+          { "accept": ["arrive"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Stamm aus *ils arrivent* → *arriv-* + Endung *-e* für qu'elle."
+      }
+    },
+    {
+      "id": "ex-free-sans-que-sache",
+      "type": "exercise",
+      "title": "ohne dass jemand es weiß",
+      "exercise": {
+        "id": "ex-free-sans-que-sache",
+        "type": "free_text",
+        "prompt": "Übersetze: *Er ist gegangen, ohne dass wir es wussten.*",
+        "card_ids": ["sans-que"],
+        "accept": [
+          "Il est parti sans qu'on le sache.",
+          "il est parti sans qu'on le sache",
+          "Il est parti sans que nous le sachions.",
+          "il est parti sans que nous le sachions",
+          "Il est parti sans que nous sachions."
+        ],
+        "hint": "*sans que* + Subjonctif von *savoir* (Stamm *sach-*): *qu'on le sache* oder *que nous le sachions*.",
+        "distractors": [
+          "Il est parti sans qu'on le sait.",
+          "Il est parti sans que nous savons.",
+          "Il est parti sans que nous saches.",
+          "Il est parti sans nous sachions."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-apres-que-avant-que",
+      "type": "exercise",
+      "title": "avant que oder après que?",
+      "exercise": {
+        "id": "ex-pic-apres-que-avant-que",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist grammatikalisch korrekt? (*nachdem* = après que + Indikativ)",
+        "card_ids": ["apres-que-indicatif", "avant-que"],
+        "images": [
+          { "src": "assets/img/timeline-after-1.png", "label": "Après qu'il est parti, nous avons mangé.", "is_correct": "true" },
+          { "src": "assets/img/timeline-after-2.png", "label": "Après qu'il soit parti, nous avons mangé." },
+          { "src": "assets/img/timeline-after-3.png", "label": "Après qu'il partait, nous avons mangé." },
+          { "src": "assets/img/timeline-after-4.png", "label": "Après qu'il part, nous avons mangé." }
+        ],
+        "hint": "*après que* → Indikativ (nicht Subjonctif!): *il est parti* (Passé composé, Indikativ).",
+        "distractors": [
+          "Après qu'il soit parti, nous avons mangé.",
+          "Après qu'il partait, nous avons mangé.",
+          "Après qu'il part, nous avons mangé."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-modus-konj",
+      "type": "exercise",
+      "title": "Subjonctif oder Indikativ?",
+      "exercise": {
+        "id": "ex-match-modus-konj",
+        "type": "matching",
+        "prompt": "Ordne jeder Konjunktion den verlangten Modus zu.",
+        "card_ids": ["apres-que-indicatif", "avant-que", "parce-que-pendant-que", "bien-que", "jusqu-a-ce-que"],
+        "pairs": [
+          { "left": "après que", "right": "Indikativ" },
+          { "left": "avant que", "right": "Subjonctif" },
+          { "left": "parce que", "right": "Indikativ" },
+          { "left": "bien que", "right": "Subjonctif" },
+          { "left": "jusqu'à ce que", "right": "Subjonctif" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-infinitiv-avant-de",
+      "type": "exercise",
+      "title": "Infinitivregel: avant de statt avant que",
+      "exercise": {
+        "id": "ex-free-infinitiv-avant-de",
+        "type": "free_text",
+        "prompt": "Übersetze mit der Infinitivregel (gleiches Subjekt): *Ich rufe dich an, bevor ich losfahre.*",
+        "card_ids": ["avant-que", "infinitiv-regel"],
+        "accept": [
+          "Je t'appelle avant de partir.",
+          "je t'appelle avant de partir",
+          "Je t'appelle avant de démarrer.",
+          "Je te téléphone avant de partir.",
+          "je te téléphone avant de partir"
+        ],
+        "hint": "Gleiches Subjekt (ich … ich) → *avant de + Infinitiv*, nicht *avant que + Subjonctif*: *avant de partir*.",
+        "distractors": [
+          "Je t'appelle avant que je parte.",
+          "Je t'appelle avant que partir.",
+          "Je t'appelle avant de pars.",
+          "Je t'appelle avant je pars."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-pourvu-que-reussisse",
+      "type": "exercise",
+      "title": "Wunsch mit pourvu que",
+      "exercise": {
+        "id": "ex-tiles-pourvu-que-reussisse",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Wenn sie nur ihre Prüfung besteht!*",
+        "card_ids": ["pourvu-que"],
+        "tiles": ["Pourvu", "qu'elle", "réussisse", "son", "examen", "!"],
+        "hint": "*pourvu que* + Subjonctif von *réussir* (qu'elle): Stamm *réussiss-* + -e → *réussisse*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-a-condition-que-fasse",
+      "type": "exercise",
+      "title": "Bedingung formulieren",
+      "exercise": {
+        "id": "ex-free-a-condition-que-fasse",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich helfe dir, sofern du dir Mühe gibst.*",
+        "card_ids": ["a-condition-que"],
+        "accept": [
+          "Je t'aide à condition que tu fasses un effort.",
+          "je t'aide à condition que tu fasses un effort",
+          "Je t'aiderai à condition que tu fasses un effort.",
+          "je t'aiderai à condition que tu fasses un effort",
+          "Je peux t'aider à condition que tu fasses un effort."
+        ],
+        "hint": "*à condition que* + Subjonctif von *faire* (Stamm *fass-*): *que tu fasses*.",
+        "distractors": [
+          "Je t'aide à condition que tu fais un effort.",
+          "Je t'aide à condition tu fasses un effort.",
+          "Je t'aide à condition que tu faire un effort.",
+          "Je t'aide pourvu tu fasses un effort."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-pour-que-infinitiv",
+      "type": "exercise",
+      "title": "pour que oder pour + Infinitiv?",
+      "exercise": {
+        "id": "ex-cloze-pour-que-infinitiv",
+        "type": "cloze",
+        "prompt": "Gleiches Subjekt! Ergänze die richtige Form: *pour* + Infinitiv von *comprendre*.",
+        "card_ids": ["pour-que", "infinitiv-regel"],
+        "sentence": "Elle lit ce livre pour mieux ___ la culture française.",
+        "blanks": [
+          { "accept": ["comprendre"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Gleiches Subjekt (elle … elle) → *pour + Infinitiv*: *pour comprendre*. Kein Subjonctif!"
+      }
+    },
+    {
+      "id": "ex-free-bien-que-quoique",
+      "type": "exercise",
+      "title": "Konzessiv: obwohl",
+      "exercise": {
+        "id": "ex-free-bien-que-quoique",
+        "type": "free_text",
+        "prompt": "Übersetze: *Obwohl sie wenig Geld hat, reist sie viel.*",
+        "card_ids": ["bien-que"],
+        "accept": [
+          "Bien qu'elle ait peu d'argent, elle voyage beaucoup.",
+          "bien qu'elle ait peu d'argent, elle voyage beaucoup",
+          "Quoiqu'elle ait peu d'argent, elle voyage beaucoup.",
+          "quoiqu'elle ait peu d'argent, elle voyage beaucoup",
+          "Bien qu'elle n'ait pas beaucoup d'argent, elle voyage beaucoup."
+        ],
+        "hint": "*bien que* + Subjonctif von *avoir* (qu'elle): *qu'elle ait*. *quoique* ist eine stilistisch gehobene Alternative.",
+        "distractors": [
+          "Bien qu'elle a peu d'argent, elle voyage beaucoup.",
+          "Bien qu'elle avoir peu d'argent, elle voyage beaucoup.",
+          "Bien que elle ait peu d'argent, elle voyage beaucoup.",
+          "Bien qu'elle est peu d'argent, elle voyage beaucoup."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
