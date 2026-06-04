@@ -1,0 +1,437 @@
+{
+  "id": "15-review-and-text-production",
+  "title": "Review and Text Production",
+  "description": "Abschlusslektion des B1-Kurses: Gemischte Wiederholung aller Grammatikthemen, Textproduktion (formelle E-Mail, Summary, Argumentationsabsatz) und Wiederholung aller sechs False-Friends-Paare. Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 18,
+  "cards": [
+    {
+      "id": "b1-grammar-overview",
+      "front": "B1 Grammar: 8 core structures",
+      "back": "Überblick: Present Perfect, Present Perfect Continuous, Past Perfect, Conditional II+III, Passive, Reported Speech, Relative Clauses, Linking Words",
+      "notes": "Diese acht Strukturen bilden das Rückgrat des B1-Niveaus. Sicher kombinieren können sie ist das Ziel dieser Abschlusslektion.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["wiederholung", "grammatik", "überblick"]
+    },
+    {
+      "id": "formal-email-structure",
+      "front": "Formal e-mail structure",
+      "back": "Formelle E-Mail: Anrede → Einleitung → Hauptteil → Abschluss → Grußformel",
+      "notes": "**Anrede:** *Dear Sir or Madam* (unbekannt) / *Dear Ms Smith* (bekannt)\n\n**Einleitung:** *I am writing to …* + Grund\n\n**Hauptteil:** Argumente/Informationen mit Linking Words (*Furthermore, However, In addition*)\n\n**Abschluss:** *I look forward to hearing from you.*\n\n**Grußformel:** *Yours faithfully* (unbekannt) / *Yours sincerely* (Name bekannt)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["textproduktion", "formelle-email"]
+    },
+    {
+      "id": "formal-email-opening",
+      "front": "I am writing to …",
+      "back": "Einleitungsformel für formelle E-Mails / Briefe",
+      "notes": "Die neutralste und häufigste Einleitung: *I am writing to **enquire about** …* / *I am writing to **complain about** …* / *I am writing to **apply for** …*\n\nNicht: ~~*I write to …*~~ (zu direkt/veraltet) oder ~~*I'm writing …*~~ (Apostroph in sehr formellen Texten vermeiden).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["textproduktion", "formelle-email", "bausteine"]
+    },
+    {
+      "id": "formal-email-closing",
+      "front": "Yours faithfully / Yours sincerely",
+      "back": "Yours faithfully = Name unbekannt · Yours sincerely = Name bekannt",
+      "notes": "**Merkregel:** Wenn die Anrede *Dear Sir or Madam* lautet (Name **un**bekannt) → *Yours **faithfully***.\nWenn die Anrede *Dear Mr/Ms Jones* lautet (Name **bekannt**) → *Yours **sincerely***.\n\nHäufiger Fehler: *Yours sincerely* nach *Dear Sir or Madam* — falsch!",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Unbekannt → faithfully; bekannt → sincerely.",
+      "tags": ["textproduktion", "formelle-email"]
+    },
+    {
+      "id": "summary-structure",
+      "front": "How to write a summary",
+      "back": "Summary: Hauptgedanken in eigenen Worten — kein Zitieren, kein eigenes Urteil",
+      "notes": "**Aufbau eines Summary:**\n1. Einleitungssatz: *The text / article describes / explains …*\n2. Hauptpunkte in **eigenen Worten** (paraphrasieren)\n3. Kein direktes Zitieren\n4. Kein eigenes Urteil oder eigene Meinung\n5. Tempus: meist **Simple Present** für den Inhalt",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["textproduktion", "summary"]
+    },
+    {
+      "id": "opinion-essay-structure",
+      "front": "Opinion essay / argumentative paragraph",
+      "back": "Aufbau: Einleitung → Argumente mit Linking Words → Schluss",
+      "notes": "**Einleitung:** These/Standpunkt nennen (*In my opinion … / I strongly believe that …*)\n\n**Argumente:** Mit Linking Words strukturieren:\n- Argument hinzufügen: *Furthermore, Moreover, In addition*\n- Gegenargument: *However, On the other hand, Nevertheless*\n- Beispiel: *For example, For instance*\n- Schlussfolgerung: *Therefore, As a result, Consequently*\n\n**Schluss:** Zusammenfassung und Wiederholung der These",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["textproduktion", "opinion-essay", "linking-words"]
+    },
+    {
+      "id": "false-friends-actually",
+      "front": "actually ≠ aktuell",
+      "back": "actually = eigentlich / tatsächlich · aktuell = current / up to date",
+      "notes": "*Actually, I prefer tea.* = **Eigentlich** mag ich Tee lieber.\n*What are the **current** news?* = Was sind die aktuellen Neuigkeiten?\n\n„Aktuell“ auf Englisch: *current, up to date, topical* — NICHT *actual/actually*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["false-friends", "wortschatz"]
+    },
+    {
+      "id": "false-friends-eventually",
+      "front": "eventually ≠ eventuell",
+      "back": "eventually = schließlich / irgendwann · eventuell = possibly / perhaps",
+      "notes": "*Eventually, she found the key.* = Sie fand den Schlüssel **schließlich**.\n*Possibly, we could meet tomorrow.* = Wir könnten **eventuell** morgen treffen.\n\n„Eventuell“ auf Englisch: *possibly, perhaps, maybe* — NICHT *eventually*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["false-friends", "wortschatz"]
+    },
+    {
+      "id": "false-friends-sensible",
+      "front": "sensible ≠ sensibel",
+      "back": "sensible = vernünftig · sensibel = sensitive",
+      "notes": "*That was a very **sensible** decision.* = Das war eine sehr **vernünftige** Entscheidung.\n*She is very **sensitive** about the topic.* = Sie ist sehr **sensibel** in Bezug auf das Thema.\n\nMerkregel: *sensible* klingt wie „vernünftig sein“ (Sinn haben).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["false-friends", "wortschatz"]
+    },
+    {
+      "id": "false-friends-sympathetic",
+      "front": "sympathetic ≠ sympathisch",
+      "back": "sympathetic = mitfühlend / verständnisvoll · sympathisch = nice / likeable",
+      "notes": "*She was very **sympathetic** when I told her my problem.* = Sie war sehr **mitfühlend**.\n*He is a very **likeable** person.* = Er ist ein sehr **sympathischer** Mensch.\n\n„Sympathisch“ auf Englisch: *nice, likeable, pleasant* — NICHT *sympathetic*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["false-friends", "wortschatz"]
+    },
+    {
+      "id": "false-friends-consequent",
+      "front": "consequent ≠ konsequent",
+      "back": "consequent = folgerichtig (selten) · konsequent = consistent / determined",
+      "notes": "*He is very **consistent** in his approach.* = Er ist sehr **konsequent** in seinem Vorgehen.\n*The **consequent** rise in prices …* = Der daraus folgende Preisanstieg … (eher *subsequent* oder *resulting*)\n\n„Konsequent“ auf Englisch am besten: *consistent, determined, persistent* — NICHT *consequent*.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["false-friends", "wortschatz"]
+    },
+    {
+      "id": "false-friends-brave",
+      "front": "brave ≠ brav",
+      "back": "brave = mutig · brav = well-behaved / good",
+      "notes": "*The firefighter was very **brave**.* = Der Feuerwehrmann war sehr **mutig**.\n*The child was very **well-behaved**.* = Das Kind war sehr **brav**.\n\n„Brav“ auf Englisch: *well-behaved, good, obedient* — NICHT *brave*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["false-friends", "wortschatz"]
+    },
+    {
+      "id": "mixed-grammar-conditionals",
+      "front": "If I had known, I would have called. / If I had more time, I would help.",
+      "back": "Conditional III (Vergangenheit) · Conditional II (Gegenwart/Zukunft hypothetisch)",
+      "notes": "**Conditional II** (unwirklich Gegenwart/Zukunft): *If + Past Simple … would + Infinitiv*\n*If I **had** more time, I **would help** you.*\n\n**Conditional III** (unwirklich Vergangenheit): *If + Past Perfect … would have + past participle*\n*If I **had known**, I **would have called**.*",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "conditional", "wiederholung"]
+    },
+    {
+      "id": "passive-reported-combo",
+      "front": "He said that the report had been finished.",
+      "back": "Reported Speech + Passive kombiniert",
+      "notes": "Hier wird **Passive** (*had been finished*) und **Reported Speech** (Backshift: *was finished* → *had been finished*) kombiniert.\n\nOriginal: *'The report **was finished** yesterday.'*\nReported: *He said that the report **had been finished** (the day before).*",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "reported-speech", "passive", "wiederholung"]
+    },
+    {
+      "id": "relative-clause-review",
+      "front": "The woman who called me works in Berlin. / The book that I bought is excellent.",
+      "back": "Relativsatz: who (Personen) · that/which (Dinge)",
+      "notes": "**Defining relative clauses** (ohne Komma) legen fest, von wem/was die Rede ist:\n- *who* / *that* für Personen\n- *that* / *which* für Dinge\n- *whose* für Besitz: *The man **whose** car broke down …*\n\n**Non-defining** (mit Komma, nur *who/which*): *My sister, **who** lives in Hamburg, called me.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "relativsatz", "wiederholung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-grammar-review",
+      "type": "theory",
+      "title": "Zum Abschluss des B1-Kurses: Grammatik-Überblick",
+      "body": "# Grammatik-Wiederholung B1\n\nZum Abschluss des B1-Kurses: Wir wiederholen die wichtigsten Strukturen und üben, sie in eigenen Texten zu produzieren.\n\n## Übersicht der B1-Strukturen\n\n| Struktur | Form / Formel | Typische Signalwörter |\n|---|---|---|\n| **Present Perfect** | have/has + past participle | just, already, yet, ever, never, since, for |\n| **Present Perfect Continuous** | have/has been + verb-ing | for, since, how long, all day |\n| **Past Perfect** | had + past participle | before, after, when, already, by the time |\n| **Conditional II** | If + Past Simple … would + inf. | if, unless, as long as |\n| **Conditional III** | If + Past Perfect … would have + pp | if only, I wish |\n| **Passive** | be + past participle | by (Agens), werden-Konstruktionen |\n| **Reported Speech** | Backshift (1 Stufe zurück) | say, tell, ask, that |\n| **Relative Clauses** | who / which / that / whose | defining (kein Komma) / non-defining (Komma) |\n| **Linking Words** | Konjunktionen / Adverbien | however, furthermore, although, because |\n\n## Kombination von Strukturen\n\nAuf B1-Niveau werden Strukturen **kombiniert**:\n\n- *The house **which had been built** in 1900 **was sold** last year.*\n  (Relative Clause + Past Perfect Passive + Past Simple Passive)\n\n- *She said **that** the project **had been completed** and **that** she **would send** the report.*\n  (Reported Speech + Passive + Conditional/Future-in-Past)"
+    },
+    {
+      "id": "theory-text-production",
+      "type": "theory",
+      "title": "Textproduktion: Formelle E-Mail, Summary, Opinion Essay",
+      "body": "## Formelle E-Mail — Bausteine\n\n| Teil | Englischer Baustein |\n|---|---|\n| **Anrede (unbekannt)** | *Dear Sir or Madam,* |\n| **Anrede (bekannt)** | *Dear Ms Smith / Dear Mr Jones,* |\n| **Einleitung** | *I am writing to enquire about … / to apply for … / to complain about …* |\n| **Argument hinzufügen** | *Furthermore, … / In addition, … / Moreover, …* |\n| **Kontrast** | *However, … / Nevertheless, … / On the other hand, …* |\n| **Abschluss** | *I look forward to hearing from you.* |\n| **Grußformel (unbekannt)** | *Yours faithfully,* |\n| **Grußformel (bekannt)** | *Yours sincerely,* |\n\n> **Merkregel:** *Dear Sir or Madam* → *Yours **faithfully*** · *Dear Ms Smith* → *Yours **sincerely***\n\n## Summary schreiben\n\n1. **Einleitungssatz:** *The text describes / explains / discusses …*\n2. **Hauptpunkte** in eigenen Worten (paraphrasieren, nicht zitieren)\n3. **Kein eigenes Urteil** — nur Inhalt des Originals\n4. **Tempus:** Simple Present für den laufenden Inhalt\n\n## Opinion Essay / Argumentativer Absatz\n\n**Struktur:**\n- **Einleitung:** These nennen — *In my opinion … / I strongly believe that …*\n- **Argumente:** mit Linking Words (*Furthermore, However, For example, Therefore*)\n- **Schluss:** These wiederholen — *In conclusion, … / To sum up, …*"
+    },
+    {
+      "id": "theory-false-friends-review",
+      "type": "theory",
+      "title": "False Friends — alle sechs Paare im Überblick",
+      "body": "## False Friends: Wiederholung aller sechs Paare\n\nDiese Wörter sehen ähnlich aus, bedeuten aber etwas anderes!\n\n| Englisch | Falsche Übersetzung (DE) | Richtige Bedeutung (EN) | Richtiges Englisch für das DE-Wort |\n|---|---|---|---|\n| **actually** | ~~aktuell~~ | eigentlich / tatsächlich | *current, up to date* |\n| **eventually** | ~~eventuell~~ | schließlich / irgendwann | *possibly, perhaps, maybe* |\n| **sensible** | ~~sensibel~~ | vernünftig | *sensitive* |\n| **sympathetic** | ~~sympathisch~~ | mitfühlend / verständnisvoll | *nice, likeable, pleasant* |\n| **consequent** | ~~konsequent~~ | folgerichtig (selten) | *consistent, determined* |\n| **brave** | ~~brav~~ | mutig | *well-behaved, good* |\n\n### Beispielsätze\n\n- *Actually, I prefer coffee.* → **Eigentlich** mag ich Kaffee lieber.\n- *Eventually, we found a solution.* → **Schließlich** fanden wir eine Lösung.\n- *That was a sensible choice.* → Das war eine **vernünftige** Wahl.\n- *She was very sympathetic.* → Sie war sehr **mitfühlend**.\n- *He is consistent in his work.* → Er ist **konsequent** bei der Arbeit.\n- *The child was well-behaved.* → Das Kind war **brav**."
+    },
+    {
+      "id": "ex-match-false-friends",
+      "type": "exercise",
+      "title": "False Friends: alle sechs Paare zuordnen",
+      "exercise": {
+        "id": "ex-match-false-friends",
+        "type": "matching",
+        "prompt": "Ordne jedem englischen False Friend seine richtige deutsche Bedeutung zu.",
+        "card_ids": ["false-friends-actually", "false-friends-eventually", "false-friends-sensible", "false-friends-sympathetic", "false-friends-consequent", "false-friends-brave"],
+        "pairs": [
+          { "left": "actually", "right": "eigentlich / tatsächlich" },
+          { "left": "eventually", "right": "schließlich / irgendwann" },
+          { "left": "sensible", "right": "vernünftig" },
+          { "left": "sympathetic", "right": "mitfühlend / verständnisvoll" },
+          { "left": "consequent", "right": "folgerichtig (selten)" },
+          { "left": "brave", "right": "mutig" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-formal-email-opening",
+      "type": "exercise",
+      "title": "Formelle E-Mail: Einleitungssatz aufbauen",
+      "exercise": {
+        "id": "ex-tiles-formal-email-opening",
+        "type": "word_tiles",
+        "prompt": "Baue den typischen Einleitungssatz einer formellen E-Mail: „Ich schreibe Ihnen, um mich für die Stelle zu bewerben.“",
+        "card_ids": ["formal-email-opening", "formal-email-structure"],
+        "tiles": ["I", "am", "writing", "to", "apply", "for", "the", "position"],
+        "hint": "Beginne mit *I am writing to …* — der Standardformel.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-email-parts",
+      "type": "exercise",
+      "title": "E-Mail-Struktur: Teile zuordnen",
+      "exercise": {
+        "id": "ex-match-email-parts",
+        "type": "matching",
+        "prompt": "Ordne jedem Baustein der formellen E-Mail seine Funktion zu.",
+        "card_ids": ["formal-email-structure", "formal-email-opening", "formal-email-closing"],
+        "pairs": [
+          { "left": "Dear Sir or Madam,", "right": "Anrede (Name unbekannt)" },
+          { "left": "I am writing to enquire about …", "right": "Einleitungssatz (Zweck der E-Mail)" },
+          { "left": "I look forward to hearing from you.", "right": "Abschlusssatz" },
+          { "left": "Yours faithfully,", "right": "Grußformel (Name unbekannt)" },
+          { "left": "Yours sincerely,", "right": "Grußformel (Name bekannt)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-passive-combined",
+      "type": "exercise",
+      "title": "Passiv + Past Perfect kombinieren",
+      "exercise": {
+        "id": "ex-free-passive-combined",
+        "type": "free_text",
+        "prompt": "Übersetze: „Das Bericht war bereits fertiggestellt worden, bevor das Meeting begann.“",
+        "card_ids": ["passive-reported-combo", "b1-grammar-overview"],
+        "accept": [
+          "The report had already been completed before the meeting started.",
+          "The report had already been finished before the meeting started.",
+          "The report had been completed before the meeting started.",
+          "The report had already been completed before the meeting began.",
+          "The report had been finished before the meeting started."
+        ],
+        "hint": "Past Perfect Passive: *had been + past participle*.",
+        "distractors": [
+          "The report was already completed before the meeting started.",
+          "The report had already completed before the meeting started.",
+          "The report has already been completed before the meeting started."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-reported-speech-backshift",
+      "type": "exercise",
+      "title": "Reported Speech: Backshift",
+      "exercise": {
+        "id": "ex-cloze-reported-speech-backshift",
+        "type": "cloze",
+        "prompt": "Wandle in indirekte Rede um. Original: „I have finished the project.“ — She told me that she ___ the project.",
+        "card_ids": ["passive-reported-combo", "b1-grammar-overview"],
+        "sentence": "She told me that she ___ the project.",
+        "blanks": [
+          { "accept": ["had finished", "had completed"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Present Perfect → Past Perfect (Backshift: have finished → had finished).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-conditional-iii",
+      "type": "exercise",
+      "title": "Conditional III: Bedauern über Vergangenheit",
+      "exercise": {
+        "id": "ex-free-conditional-iii",
+        "type": "free_text",
+        "prompt": "Übersetze: „Wenn ich früher aufgestanden wäre, hätte ich den Zug nicht verpasst.“",
+        "card_ids": ["mixed-grammar-conditionals"],
+        "accept": [
+          "If I had got up earlier, I wouldn't have missed the train.",
+          "If I had gotten up earlier, I wouldn't have missed the train.",
+          "If I had woken up earlier, I wouldn't have missed the train.",
+          "Had I got up earlier, I would not have missed the train.",
+          "If I had got up earlier, I would not have missed the train."
+        ],
+        "hint": "Conditional III: *If + Past Perfect … would have + past participle*.",
+        "distractors": [
+          "If I would have got up earlier, I wouldn't have missed the train.",
+          "If I got up earlier, I wouldn't miss the train.",
+          "If I had got up earlier, I didn't miss the train."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-relative-clause",
+      "type": "exercise",
+      "title": "Relativsatz: who oder which?",
+      "exercise": {
+        "id": "ex-cloze-relative-clause",
+        "type": "cloze",
+        "prompt": "Ergänze das richtige Relativpronomen: „Die Frau, die mich angerufen hat, arbeitet in Berlin.“",
+        "card_ids": ["relative-clause-review"],
+        "sentence": "The woman ___ called me works in Berlin.",
+        "blanks": [
+          { "accept": ["who", "that"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Person → *who* oder *that* (defining relative clause).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-false-friend-actually",
+      "type": "exercise",
+      "title": "False Friend: actually",
+      "exercise": {
+        "id": "ex-free-false-friend-actually",
+        "type": "free_text",
+        "prompt": "Übersetze: „Eigentlich mag ich keine formellen E-Mails schreiben.“ (Achtung: false friend!)",
+        "card_ids": ["false-friends-actually"],
+        "accept": [
+          "Actually, I don't like writing formal emails.",
+          "Actually, I do not like writing formal emails.",
+          "Actually I don't like writing formal emails.",
+          "I actually don't like writing formal emails.",
+          "I don't actually like writing formal emails."
+        ],
+        "hint": "„Eigentlich“ = *actually* (NICHT: *actual*). *Aktuell* wäre *current/up to date*.",
+        "distractors": [
+          "Actual, I don't like writing formal emails.",
+          "Currently, I don't like writing formal emails.",
+          "Actuell, I don't like writing formal emails."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-picture-grussformel",
+      "type": "exercise",
+      "title": "Grußformel wählen",
+      "exercise": {
+        "id": "ex-picture-grussformel",
+        "type": "picture_choice",
+        "prompt": "Die E-Mail beginnt mit „Dear Ms Johnson,“. Welche Grußformel ist korrekt?",
+        "card_ids": ["formal-email-closing"],
+        "images": [
+          { "src": "assets/img/email-sincerely.png", "label": "Yours sincerely,", "is_correct": "true" },
+          { "src": "assets/img/email-faithfully.png", "label": "Yours faithfully," },
+          { "src": "assets/img/email-regards.png", "label": "Best regards," },
+          { "src": "assets/img/email-truly.png", "label": "Yours truly," }
+        ],
+        "hint": "Name bekannt (*Dear Ms Johnson*) → *Yours sincerely*.",
+        "distractors": [
+          "Yours faithfully,",
+          "Best regards,",
+          "Yours truly,"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-linking-opinion",
+      "type": "exercise",
+      "title": "Meinung mit Linking Words ausdrücken",
+      "exercise": {
+        "id": "ex-free-linking-opinion",
+        "type": "free_text",
+        "prompt": "Übersetze: „Meiner Meinung nach ist Umweltschutz wichtig. Außerdem sollte jeder Energie sparen.“",
+        "card_ids": ["opinion-essay-structure", "b1-grammar-overview"],
+        "accept": [
+          "In my opinion, environmental protection is important. Furthermore, everyone should save energy.",
+          "In my opinion, protecting the environment is important. Furthermore, everyone should save energy.",
+          "In my opinion, environmental protection is important. Moreover, everyone should save energy.",
+          "In my opinion, environmental protection is important. In addition, everyone should save energy.",
+          "I believe that environmental protection is important. Furthermore, everyone should save energy."
+        ],
+        "hint": "„Meiner Meinung nach“ = *In my opinion* · „Außerdem“ = *Furthermore / Moreover / In addition*.",
+        "distractors": [
+          "My opinion, environmental protection is important. Furthermore, everyone should save energy.",
+          "In my opinion, environmental protection is important. Also everyone should save energy.",
+          "In my opinion, environmental protection is important. Eventually, everyone should save energy."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-conclusion",
+      "type": "exercise",
+      "title": "Abschlusssatz formulieren",
+      "exercise": {
+        "id": "ex-tiles-conclusion",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum typischen Abschlusssatz eines formellen Briefes: „Ich freue mich auf Ihre Antwort.“",
+        "card_ids": ["formal-email-structure", "formal-email-closing"],
+        "tiles": ["I", "look", "forward", "to", "hearing", "from", "you"],
+        "hint": "*look forward to* + Gerundium (*hearing*).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-false-friend-eventually",
+      "type": "exercise",
+      "title": "False Friend: eventually vs. eventuell",
+      "exercise": {
+        "id": "ex-free-false-friend-eventually",
+        "type": "free_text",
+        "prompt": "Übersetze: „Schließlich fanden wir eine Lösung für das Problem.“ (Achtung: false friend!)",
+        "card_ids": ["false-friends-eventually"],
+        "accept": [
+          "Eventually, we found a solution to the problem.",
+          "Eventually, we found a solution for the problem.",
+          "Eventually we found a solution to the problem.",
+          "In the end, we found a solution to the problem.",
+          "Finally, we found a solution to the problem."
+        ],
+        "hint": "„Schließlich“ = *eventually* (NICHT: *eventually* heißt NOT „eventuell“). „Eventuell“ wäre *possibly/perhaps*.",
+        "distractors": [
+          "Eventually, we would find a solution to the problem.",
+          "Possibly, we found a solution to the problem.",
+          "Eventually, we have found a solution to the problem yesterday."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-grammar-structures",
+      "type": "exercise",
+      "title": "Grammatikstruktur → Funktion",
+      "exercise": {
+        "id": "ex-match-grammar-structures",
+        "type": "matching",
+        "prompt": "Ordne jeder Grammatikstruktur ihre Hauptfunktion zu.",
+        "card_ids": ["b1-grammar-overview", "mixed-grammar-conditionals", "passive-reported-combo"],
+        "pairs": [
+          { "left": "Present Perfect Continuous", "right": "andauernde Handlung bis jetzt, sichtbares Ergebnis" },
+          { "left": "Conditional III", "right": "unwirkliche Bedingung in der Vergangenheit" },
+          { "left": "Passive", "right": "Handlung im Vordergrund, Agens unwichtig oder unbekannt" },
+          { "left": "Reported Speech (Backshift)", "right": "Zeitform um eine Stufe in die Vergangenheit verschieben" }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
