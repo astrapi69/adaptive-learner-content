@@ -1,0 +1,356 @@
+{
+  "id": "14-shopping-and-money",
+  "title": "Shopping and money",
+  "description": "A2 vocabulary for shops and money, prices and transactions, comparatives and superlatives (plus/moins/aussi … que), the irregular bon → meilleur, and two classic false friends: la librairie and la monnaie. Explained in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "shops-vocab",
+      "front": "le magasin, le marché, la boulangerie, la boucherie, le supermarché",
+      "back": "shop/store, market, bakery, butcher's, supermarket",
+      "notes": "Core shop vocabulary. Note the feminine suffix **-erie** on many French shops: *la boulangerie* (baker's), *la boucherie* (butcher's), *la charcuterie* (deli), *la pharmacie* (pharmacy).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "shopping", "places"]
+    },
+    {
+      "id": "prices-vocab",
+      "front": "Combien ça coûte ? / Ça fait … euros. / C'est combien ?",
+      "back": "How much does it cost? / That comes to … euros. / How much is it?",
+      "notes": "Three natural ways to ask and state a price:\n- **Combien ça coûte ?** — How much does it cost?\n- **C'est combien ?** — How much is it? (informal)\n- **Ça fait vingt euros.** — That comes to twenty euros. (what a cashier says)",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "shopping", "price"]
+    },
+    {
+      "id": "payment-vocab",
+      "front": "payer en espèces / payer par carte",
+      "back": "to pay in cash / to pay by card",
+      "notes": "*Payer* = to pay. Two common payment methods:\n- **en espèces** = in cash (literally 'in species/coins')\n- **par carte** = by card\n\nExample: *Je vais payer par carte.* — I am going to pay by card.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "shopping", "payment"]
+    },
+    {
+      "id": "false-friend-librairie",
+      "front": "la librairie",
+      "back": "bookshop (NOT library!)",
+      "notes": "**False friend alert!** *La librairie* = **bookshop** (where you buy books). A library (where you borrow books) = **la bibliothèque**.\n\n- *Je cherche une librairie pour acheter ce roman.* — I am looking for a bookshop to buy this novel.\n- *J'emprunte des livres à la bibliothèque.* — I borrow books from the library.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Think: a libraire (bookseller) works in la librairie. A library is la bibliotheque.",
+      "tags": ["vocabulary", "false-friend", "shopping"]
+    },
+    {
+      "id": "false-friend-monnaie",
+      "front": "la monnaie",
+      "back": "change/coins (NOT money!)",
+      "notes": "**False friend alert!** *La monnaie* = **change** or **coins** (the coins you get back). Money (in general) = **l'argent**.\n\n- *Vous avez de la monnaie ?* — Do you have change (coins)?\n- *Je n'ai pas assez d'argent.* — I don't have enough money.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Monnaie = the coins in your pocket after a purchase. Argent = money in general.",
+      "tags": ["vocabulary", "false-friend", "money"]
+    },
+    {
+      "id": "cher-bon-marche",
+      "front": "cher / bon marché",
+      "back": "expensive / cheap (inexpensive)",
+      "notes": "*Cher* (m.) / *chère* (f.) = expensive. *Bon marché* is invariable (does not change for gender or number) = cheap/inexpensive.\n\nEnglish 'cheaper' → **moins cher**. There is no single French word for 'cheaper'; you must use the comparative structure.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "shopping", "adjective"]
+    },
+    {
+      "id": "comparatives",
+      "front": "plus … que / moins … que / aussi … que",
+      "back": "more … than / less … than / as … as",
+      "notes": "French comparatives use **plus, moins, aussi** before the adjective and **que** after:\n\n| French | English |\n|---|---|\n| **plus cher que** | more expensive than |\n| **moins cher que** | less expensive than / cheaper than |\n| **aussi cher que** | as expensive as |\n\nThe adjective still agrees with what it describes:\n- *Cette robe est **plus chère** que ce pantalon.*\n- *Ce magasin est **moins cher** que le supermarché.*\n\n**Do NOT say** *plus bon* — use **meilleur** instead (see next card).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "comparative"]
+    },
+    {
+      "id": "meilleur",
+      "front": "meilleur(e) / le meilleur / la meilleure",
+      "back": "better / the best (irregular comparative of bon)",
+      "notes": "*Bon* (good) has an **irregular** comparative: **meilleur** (better), not *plus bon*.\n\n| Form | French | English |\n|---|---|---|\n| comparative | **meilleur** | better |\n| superlative (m.) | **le meilleur** | the best |\n| superlative (f.) | **la meilleure** | the best |\n\n- *Ce fromage est **meilleur** que ce biscuit.* — This cheese is better than this biscuit.\n- *C'est **le meilleur** marché de la ville.* — It is the best market in town.\n\n**Never say** *plus bon* — always use *meilleur*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "bon → meilleur, just like English good → better (both are irregular).",
+      "tags": ["grammar", "comparative", "irregular"]
+    },
+    {
+      "id": "superlative",
+      "front": "le/la plus … / le/la moins …",
+      "back": "the most … / the least …",
+      "notes": "The superlative is formed with the **definite article + plus/moins + adjective**:\n\n- *C'est **le magasin le plus cher** de la ville.* — It is the most expensive shop in the city.\n- *C'est **la boulangerie la moins chère**.* — It is the least expensive bakery.\n\nThe article and adjective both agree with the noun.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "superlative"]
+    },
+    {
+      "id": "euro-largent",
+      "front": "l'euro (m.) / l'argent (m.)",
+      "back": "euro / money",
+      "notes": "*L'euro* is the currency. *L'argent* means money in general (also means 'silver' — the metal — in older or poetic usage).\n\n- *Ça coûte dix euros.* — It costs ten euros.\n- *Je n'ai pas beaucoup d'argent.* — I don't have much money.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "money"]
+    },
+    {
+      "id": "wrong-comparative",
+      "front": "plus bon ✗ / plus cher comme ✗",
+      "back": "common English-speaker errors in comparatives",
+      "notes": "Two traps for English speakers:\n\n1. **Do NOT say** *plus bon* — the comparative of *bon* is **meilleur**.\n2. **Do NOT say** *plus cher comme* — the word after a comparative is **que** (not *comme*).\n\nCorrect: *Ce marché est **meilleur** que le supermarché.* / *Ce sac est **plus cher que** l'autre.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "common-error", "comparative"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-shops-money",
+      "type": "theory",
+      "title": "Shops and money vocabulary",
+      "body": "# Shopping and money\n\n## Key shops\n\n| French | English |\n|---|---|\n| le magasin | shop / store |\n| le marché | market |\n| la boulangerie | bakery |\n| la boucherie | butcher's |\n| le supermarché | supermarket |\n\nMany French shop names end in **-erie** (feminine): *la boulangerie, la boucherie, la charcuterie*.\n\n## Prices and payment\n\n- **Combien ça coûte ?** — How much does it cost?\n- **C'est combien ?** — How much is it?\n- **Ça fait vingt euros.** — That comes to twenty euros.\n- **payer en espèces** — to pay in cash\n- **payer par carte** — to pay by card\n\n## Key adjectives\n\n- **cher / chère** — expensive\n- **bon marché** (invariable) — cheap / inexpensive\n\n## False friends — be careful!\n\n| French word | What it REALLY means | English false friend |\n|---|---|---|\n| **la librairie** | **bookshop** | NOT 'library' (= *la bibliothèque*) |\n| **la monnaie** | **change / coins** | NOT 'money' (= *l'argent*) |"
+    },
+    {
+      "id": "theory-comparatives",
+      "type": "theory",
+      "title": "Comparatives and superlatives",
+      "body": "## Comparatives\n\nPlace **plus / moins / aussi** before the adjective and **que** after it:\n\n| Structure | Example | English |\n|---|---|---|\n| **plus** + adj + **que** | plus cher que | more expensive than |\n| **moins** + adj + **que** | moins cher que | less expensive than |\n| **aussi** + adj + **que** | aussi cher que | as expensive as |\n\n> **Note for English speakers:** 'cheaper' = **moins cher** — French has no single equivalent word.\n\n## Superlative\n\nUse the **definite article + plus/moins + adjective**:\n\n- *C'est **le magasin le plus cher** de la ville.* — It is the most expensive shop in the city.\n- *C'est **la boulangerie la moins chère**.* — It is the least expensive bakery.\n\n## The irregular: bon → meilleur\n\nJust like English *good → better*, French *bon* is **irregular**:\n\n| Degree | French | English |\n|---|---|---|\n| base | bon / bonne | good |\n| comparative | **meilleur** / meilleure | better |\n| superlative | **le meilleur** / la meilleure | the best |\n\n**Never say** *plus bon* — always use **meilleur**."
+    },
+    {
+      "id": "theory-errors",
+      "type": "theory",
+      "title": "Common errors and false friends",
+      "body": "## Two false friends to memorise\n\n**la librairie** = **bookshop** (where you *buy* books)\n- *J'achète ce roman dans une librairie.* — I buy this novel in a bookshop.\n- Library (where you *borrow* books) = **la bibliothèque**\n\n**la monnaie** = **change / coins** (money returned after paying)\n- *Vous avez de la monnaie pour le bus ?* — Do you have change for the bus?\n- Money (in general) = **l'argent**\n\n## Comparative errors\n\n| Mistake | Correct | Why |\n|---|---|---|\n| *plus bon* | **meilleur** | *bon* has an irregular comparative |\n| *plus cher comme* | **plus cher que** | comparatives use *que*, not *comme* |\n\n## Quick self-check\n\n- *Ce chocolat est ____ que celui-ci.* → **meilleur** (NOT *plus bon*)\n- *La librairie* is a **bookshop** — if you want a library, say **la bibliothèque**.\n- *La monnaie* is **change/coins** — if you mean money in general, say **l'argent**."
+    },
+    {
+      "id": "ex-match-shops",
+      "type": "exercise",
+      "title": "Match the shops",
+      "exercise": {
+        "id": "ex-match-shops",
+        "type": "matching",
+        "prompt": "Match each French shop name to its English meaning.",
+        "card_ids": ["shops-vocab", "false-friend-librairie"],
+        "pairs": [
+          { "left": "la boulangerie", "right": "bakery" },
+          { "left": "la boucherie", "right": "butcher's" },
+          { "left": "le marché", "right": "market" },
+          { "left": "la librairie", "right": "bookshop" },
+          { "left": "le supermarché", "right": "supermarket" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-how-much",
+      "type": "exercise",
+      "title": "Ask the price",
+      "exercise": {
+        "id": "ex-free-how-much",
+        "type": "free_text",
+        "prompt": "Translate: *How much does it cost?*",
+        "card_ids": ["prices-vocab"],
+        "accept": [
+          "Combien ça coûte ?",
+          "Combien ça coûte?",
+          "Combien ca coute ?",
+          "C'est combien ?",
+          "C'est combien?"
+        ],
+        "hint": "There are two natural ways to ask — either 'Combien ca coute ?' or 'C'est combien ?'.",
+        "distractors": [
+          "Combien ça paye ?",
+          "Ça fait combien euros ?",
+          "Quel est le prix combien ?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-false-friend-librairie",
+      "type": "exercise",
+      "title": "False friend: la librairie",
+      "exercise": {
+        "id": "ex-free-false-friend-librairie",
+        "type": "free_text",
+        "prompt": "What does *la librairie* mean in English? (Watch out — it is a false friend!)",
+        "card_ids": ["false-friend-librairie"],
+        "accept": [
+          "bookshop",
+          "book shop",
+          "book store",
+          "bookstore",
+          "a bookshop",
+          "a bookstore"
+        ],
+        "hint": "It looks like 'library' but it is NOT. Think of the libraire (bookseller) who works there.",
+        "distractors": [
+          "library",
+          "a library",
+          "the library"
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-meilleur",
+      "type": "exercise",
+      "title": "Good or better?",
+      "exercise": {
+        "id": "ex-cloze-meilleur",
+        "type": "cloze",
+        "prompt": "Fill in the correct comparative of *bon*. (Do NOT use *plus bon*.)",
+        "card_ids": ["meilleur", "wrong-comparative"],
+        "sentence": "Ce fromage est ___ que ce biscuit.",
+        "blanks": [
+          { "accept": ["meilleur"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "bon → meilleur (irregular, like English good → better)."
+      }
+    },
+    {
+      "id": "ex-free-cheaper",
+      "type": "exercise",
+      "title": "Comparative: cheaper",
+      "exercise": {
+        "id": "ex-free-cheaper",
+        "type": "free_text",
+        "prompt": "Translate: *This market is cheaper than the supermarket.*",
+        "card_ids": ["comparatives", "cher-bon-marche"],
+        "accept": [
+          "Ce marché est moins cher que le supermarché.",
+          "ce marché est moins cher que le supermarché",
+          "Ce marche est moins cher que le supermarche.",
+          "Ce marché est moins cher que le supermarché"
+        ],
+        "hint": "'Cheaper' = moins cher (literally 'less expensive'). Remember: comparatives use que, not comme.",
+        "distractors": [
+          "Ce marché est plus bon que le supermarché.",
+          "Ce marché est moins cher comme le supermarché.",
+          "Ce marché est plus cheap que le supermarché."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-pay-by-card",
+      "type": "exercise",
+      "title": "Build: I am going to pay by card",
+      "exercise": {
+        "id": "ex-tiles-pay-by-card",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I am going to pay by card.*",
+        "card_ids": ["payment-vocab"],
+        "tiles": ["Je", "vais", "payer", "par", "carte"],
+        "hint": "Use the near-future: je vais + infinitive. Payment method follows 'par'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-expensive-shop",
+      "type": "exercise",
+      "title": "Which sentence is correct?",
+      "exercise": {
+        "id": "ex-pic-expensive-shop",
+        "type": "picture_choice",
+        "prompt": "A customer says: 'This shop is more expensive than the market.' Which sentence is correct?",
+        "card_ids": ["comparatives", "wrong-comparative"],
+        "images": [
+          { "src": "assets/img/shop-expensive-correct.png", "label": "Ce magasin est plus cher que le marché.", "is_correct": "true" },
+          { "src": "assets/img/shop-expensive-wrong1.png", "label": "Ce magasin est plus cher comme le marché." },
+          { "src": "assets/img/shop-expensive-wrong2.png", "label": "Ce magasin est plus cher de le marché." },
+          { "src": "assets/img/shop-expensive-wrong3.png", "label": "Ce magasin est cher plus que le marché." }
+        ],
+        "hint": "Comparatives use 'que' (not comme or de). The structure is: plus/moins/aussi + adjective + que.",
+        "distractors": [
+          "Ce magasin est plus cher comme le marché.",
+          "Ce magasin est plus cher de le marché.",
+          "Ce magasin est cher plus que le marché."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-monnaie",
+      "type": "exercise",
+      "title": "False friend: la monnaie",
+      "exercise": {
+        "id": "ex-cloze-monnaie",
+        "type": "cloze",
+        "prompt": "Fill in the correct French word. (Careful — false friend!)",
+        "card_ids": ["false-friend-monnaie"],
+        "sentence": "Vous avez de la ___ pour le bus ?",
+        "blanks": [
+          { "accept": ["monnaie"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "This sentence means 'Do you have change for the bus?' — the word for change/coins is la monnaie."
+      }
+    },
+    {
+      "id": "ex-match-comparatives",
+      "type": "exercise",
+      "title": "Match the comparatives",
+      "exercise": {
+        "id": "ex-match-comparatives",
+        "type": "matching",
+        "prompt": "Match each French comparative expression to its English meaning.",
+        "card_ids": ["comparatives", "meilleur", "superlative"],
+        "pairs": [
+          { "left": "plus cher que", "right": "more expensive than" },
+          { "left": "moins cher que", "right": "less expensive than" },
+          { "left": "aussi cher que", "right": "as expensive as" },
+          { "left": "meilleur que", "right": "better than" },
+          { "left": "le plus cher", "right": "the most expensive" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-pay-cash",
+      "type": "exercise",
+      "title": "Paying in cash",
+      "exercise": {
+        "id": "ex-free-pay-cash",
+        "type": "free_text",
+        "prompt": "Translate: *I prefer to pay in cash.*",
+        "card_ids": ["payment-vocab"],
+        "accept": [
+          "Je préfère payer en espèces.",
+          "je préfère payer en espèces",
+          "Je prefere payer en especes.",
+          "Je préfère payer en espèces"
+        ],
+        "hint": "To pay in cash = payer en espèces. 'I prefer' = je préfère.",
+        "distractors": [
+          "Je préfère payer par cash.",
+          "Je préfère payer en carte.",
+          "Je préfère payer avec espèces."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-most-expensive",
+      "type": "exercise",
+      "title": "Build: the most expensive shop in the city",
+      "exercise": {
+        "id": "ex-tiles-most-expensive",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *It is the most expensive shop in the city.*",
+        "card_ids": ["superlative", "shops-vocab"],
+        "tiles": ["C'est", "le", "magasin", "le", "plus", "cher", "de", "la", "ville"],
+        "hint": "The superlative of an adjective following a noun: noun + le/la + plus/moins + adjective.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

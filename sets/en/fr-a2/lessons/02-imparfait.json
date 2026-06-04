@@ -1,0 +1,369 @@
+{
+  "id": "02-imparfait",
+  "title": "The Imparfait",
+  "description": "A2 introduction to the French imperfect tense: formation from the nous-present stem, the full set of endings, and the three key uses -- description/background, habitual past ('used to'), and ongoing past ('was doing'). Contrasted with the passé composé from A1. Explained in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "imp-concept",
+      "front": "l'imparfait",
+      "back": "the imperfect tense -- used for description, habits, and ongoing past",
+      "notes": "In A1 the passé composé was your only past tense. Now the imparfait covers a different job: **description and background** (*il faisait beau* -- the weather was nice), **habits** (*je jouais* -- I used to play), and **ongoing actions** (*elle dormait* -- she was sleeping).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "imparfait"]
+    },
+    {
+      "id": "imp-stem",
+      "front": "nous parlons → parl- (imparfait stem)",
+      "back": "drop -ons from the nous present to get the imparfait stem",
+      "notes": "The rule: take the **nous** form of the present tense and remove **-ons**. Examples: *nous parlons → parl-*, *nous finissons → finiss-*, *nous mangeons → mange-*, *nous buvons → buv-*. The only exception is **être**, whose stem is **ét-**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "imparfait", "stem"]
+    },
+    {
+      "id": "imp-endings",
+      "front": "-ais, -ais, -ait, -ions, -iez, -aient",
+      "back": "the six imparfait endings (same for all verbs)",
+      "notes": "These endings attach to the imparfait stem for every verb -- regular or irregular:\n\n| Subject | Ending | Example (parler) |\n|---|---|---|\n| je | **-ais** | je parl**ais** |\n| tu | **-ais** | tu parl**ais** |\n| il/elle/on | **-ait** | il parl**ait** |\n| nous | **-ions** | nous parl**ions** |\n| vous | **-iez** | vous parl**iez** |\n| ils/elles | **-aient** | ils parl**aient** |",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "imparfait", "endings"]
+    },
+    {
+      "id": "imp-etre-stem",
+      "front": "être → j'étais, tu étais, il était…",
+      "back": "être is the only irregular imparfait stem: ét-",
+      "notes": "**être** does not follow the nous-drop rule. Its imparfait stem is **ét-** (irregular). Full conjugation: *j'étais, tu étais, il/elle était, nous étions, vous étiez, ils/elles étaient*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "ét- is the only imparfait stem you must memorize separately.",
+      "tags": ["grammar", "imparfait", "etre"]
+    },
+    {
+      "id": "imp-use-description",
+      "front": "Il faisait beau. / Elle était fatiguée.",
+      "back": "imparfait for description and background",
+      "notes": "Use the imparfait to **paint a scene** -- describing weather, feelings, appearances, and states at a point in the past. English equivalents: *it was nice out*, *she was tired*. These are background conditions, not completed events.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "imparfait", "usage-description"]
+    },
+    {
+      "id": "imp-use-habit",
+      "front": "Quand j'étais petit, je jouais au foot.",
+      "back": "imparfait for habits and repeated past actions ('used to')",
+      "notes": "When something happened **repeatedly** or **habitually** in the past, use the imparfait. The English translation is often **'used to'** or a simple past that implies routine: *When I was young, I used to play football.* Contrast: passé composé (completed once) vs. imparfait (repeated/habitual).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "imparfait", "usage-habit"]
+    },
+    {
+      "id": "imp-use-ongoing",
+      "front": "Elle lisait quand je suis arrivé.",
+      "back": "imparfait for ongoing past actions ('was/were doing')",
+      "notes": "For an action that was **in progress** when something else happened, use the imparfait. English: *She was reading when I arrived.* The passé composé (*je suis arrivé*) marks the interrupting completed event; the imparfait (*elle lisait*) marks the background ongoing action.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Imparfait = the movie playing in the background; passé composé = the plot event.",
+      "tags": ["grammar", "imparfait", "usage-ongoing"]
+    },
+    {
+      "id": "imp-vs-pc",
+      "front": "J'habitais à Lyon. (imparfait) vs. J'ai habité à Lyon. (passé composé)",
+      "back": "imparfait = ongoing/habitual; passé composé = completed event",
+      "notes": "Both are past tense, but:\n- **Imparfait**: *J'habitais à Lyon* -- I used to live in Lyon / I was living in Lyon (state or habit, no defined end).\n- **Passé composé**: *J'ai habité à Lyon* -- I lived in Lyon (completed, now over).\n\nEnglish often uses the same simple past for both, which is why choosing between them is the core A2 challenge.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "imparfait", "passe-compose", "contrast"]
+    },
+    {
+      "id": "imp-parler",
+      "front": "parler → je parlais",
+      "back": "to speak/talk -- I was speaking / I used to speak",
+      "notes": "Stem: *nous parlons* → **parl-**. Add **-ais**: *je parl**ais***. All persons: *je parlais, tu parlais, il parlait, nous parlions, vous parliez, ils parlaient*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "imparfait", "-er"]
+    },
+    {
+      "id": "imp-finir",
+      "front": "finir → je finissais",
+      "back": "to finish -- I was finishing / I used to finish",
+      "notes": "Stem: *nous finissons* → **finiss-**. Add **-ais**: *je finiss**ais***. Note the double-s in the stem -- this is the -ir verb pattern visible here.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "imparfait", "-ir"]
+    },
+    {
+      "id": "imp-avoir",
+      "front": "avoir → j'avais",
+      "back": "to have -- I had / I used to have",
+      "notes": "Stem: *nous avons* → **av-**. Add **-ais**: *j'av**ais***. Full: *j'avais, tu avais, il avait, nous avions, vous aviez, ils avaient*. Very common in descriptions: *J'avais faim* -- I was hungry.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "imparfait", "avoir"]
+    },
+    {
+      "id": "imp-faire",
+      "front": "faire → je faisais",
+      "back": "to do/make -- I was doing / I used to do",
+      "notes": "Stem: *nous faisons* → **fais-**. Add **-ais**: *je fais**ais***. Common in weather: *Il faisait beau* -- the weather was nice / it was nice out.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "imparfait", "faire"]
+    },
+    {
+      "id": "imp-aller",
+      "front": "aller → j'allais",
+      "back": "to go -- I was going / I used to go",
+      "notes": "Stem: *nous allons* → **all-**. Add **-ais**: *j'all**ais***. Useful for habits: *J'allais au marché chaque samedi* -- I used to go to the market every Saturday.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "imparfait", "aller"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-formation",
+      "type": "theory",
+      "title": "Forming the imparfait: stem + endings",
+      "body": "# The Imparfait -- Formation\n\nIn A1 the passé composé was your only past tense; it covers completed actions. The **imparfait** covers the rest: description, habit, and ongoing actions. Same past time frame, different role.\n\n## Step 1 -- Find the stem\n\nTake the **nous** form of the present tense and **drop -ons**:\n\n| Infinitive | Nous present | Imparfait stem |\n|---|---|---|\n| parler | nous parl**ons** | **parl-** |\n| finir | nous finiss**ons** | **finiss-** |\n| faire | nous fais**ons** | **fais-** |\n| boire | nous buv**ons** | **buv-** |\n| avoir | nous av**ons** | **av-** |\n\n> **Exception:** **être** is the only irregular stem -- it is **ét-** (*j'étais, tu étais*...).\n\n## Step 2 -- Add the endings\n\nThese six endings are the same for **every** verb:\n\n| Subject | Ending |\n|---|---|\n| je | **-ais** |\n| tu | **-ais** |\n| il / elle / on | **-ait** |\n| nous | **-ions** |\n| vous | **-iez** |\n| ils / elles | **-aient** |\n\nFull example -- *parler*: *je parlais, tu parlais, il parlait, nous parlions, vous parliez, ils parlaient.*"
+    },
+    {
+      "id": "theory-usage",
+      "type": "theory",
+      "title": "When to use the imparfait",
+      "body": "## The three uses of the imparfait\n\n### 1. Description and background\nSetting the scene -- weather, feelings, appearances, states:\n\n- *Il **faisait** beau.* -- The weather was nice.\n- *Elle **était** fatiguée.* -- She was tired.\n- *La maison **semblait** vide.* -- The house seemed empty.\n\n### 2. Habits and repeated past actions ('used to')\nSomething that happened **regularly** in the past:\n\n- *Quand j'**étais** petit, je **jouais** au foot.* -- When I was young, I used to play football.\n- *Chaque été, nous **allions** à la mer.* -- Every summer we used to go to the sea.\n\nEnglish signal words: *used to, would (habitual), every day, always, often, when I was young.*\n\n### 3. Ongoing past action ('was/were doing')\nAn action **in progress** when something else happened:\n\n- *Elle **lisait** quand je suis arrivé.* -- She was reading when I arrived.\n- *Il **dormait** pendant que tu téléphonais.* -- He was sleeping while you were on the phone.\n\nThe interrupting completed event takes the **passé composé**; the background action takes the **imparfait**."
+    },
+    {
+      "id": "theory-contrast",
+      "type": "theory",
+      "title": "Imparfait vs. passé composé",
+      "body": "## Choosing between the two past tenses\n\nBoth refer to the past -- but they answer different questions:\n\n| Question | Tense | Example |\n|---|---|---|\n| What was happening? (background) | **imparfait** | *Il neigeait.* (It was snowing.) |\n| What happened? (completed event) | **passé composé** | *Je suis sorti.* (I went out.) |\n| What did you use to do? (habit) | **imparfait** | *Je courais chaque matin.* (I used to run every morning.) |\n| What did you do once? (single event) | **passé composé** | *J'ai couru 10 km hier.* (I ran 10 km yesterday.) |\n\n## The English trap\n\nEnglish often uses the **same simple past** for both:\n\n- *She lived in Paris.* → Could be **imparfait** (*Elle habitait à Paris* -- ongoing, no end stated) **or** passé composé (*Elle a habité à Paris* -- completed, now over).\n\nAsk yourself: **habit / description / in-progress → imparfait; completed single event → passé composé.**\n\n## Quick test\n\n- Does 'used to' or 'was/were ...-ing' fit in English? → **imparfait**\n- Could you say 'once' or 'suddenly'? → **passé composé**"
+    },
+    {
+      "id": "ex-match-stems",
+      "type": "exercise",
+      "title": "Match verb to its imparfait stem",
+      "exercise": {
+        "id": "ex-match-stems",
+        "type": "matching",
+        "prompt": "Match each infinitive to its imparfait stem (remember: drop -ons from the nous present).",
+        "card_ids": ["imp-stem", "imp-parler", "imp-finir", "imp-avoir", "imp-faire"],
+        "pairs": [
+          { "left": "parler", "right": "parl-" },
+          { "left": "finir", "right": "finiss-" },
+          { "left": "avoir", "right": "av-" },
+          { "left": "faire", "right": "fais-" },
+          { "left": "aller", "right": "all-" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-weather",
+      "type": "exercise",
+      "title": "Describe past weather",
+      "exercise": {
+        "id": "ex-free-weather",
+        "type": "free_text",
+        "prompt": "Translate: *The weather was nice.* (use faire -- il faisait...)",
+        "card_ids": ["imp-use-description", "imp-faire"],
+        "accept": [
+          "Il faisait beau.",
+          "il faisait beau",
+          "Il faisait beau",
+          "il faisait beau."
+        ],
+        "hint": "faire: stem fais- + -ait (il) = faisait. Weather uses il as subject.",
+        "distractors": [
+          "Il a fait beau.",
+          "Il faisait belle.",
+          "Il était beau faire."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-habit",
+      "type": "exercise",
+      "title": "Fill in the imparfait -- habit",
+      "exercise": {
+        "id": "ex-cloze-habit",
+        "type": "cloze",
+        "prompt": "Fill in the correct imparfait form of *jouer* (je) -- I used to play.",
+        "card_ids": ["imp-use-habit", "imp-parler"],
+        "sentence": "Quand j'étais petit, je ___ au foot tous les jours.",
+        "blanks": [
+          { "accept": ["jouais"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "jouer: stem jou- + -ais (je) = jouais."
+      }
+    },
+    {
+      "id": "ex-free-used-to-live",
+      "type": "exercise",
+      "title": "Habitual past -- 'used to live'",
+      "exercise": {
+        "id": "ex-free-used-to-live",
+        "type": "free_text",
+        "prompt": "Translate: *We used to live in Paris.* (habiter -- nous)",
+        "card_ids": ["imp-use-habit", "imp-stem"],
+        "accept": [
+          "Nous habitions à Paris.",
+          "nous habitions à Paris",
+          "Nous habitions a Paris.",
+          "nous habitions a Paris"
+        ],
+        "hint": "habiter: stem habit- + -ions (nous) = habitions.",
+        "distractors": [
+          "Nous avons habité à Paris.",
+          "Nous habitons à Paris.",
+          "Nous habitaient à Paris."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-was-sleeping",
+      "type": "exercise",
+      "title": "Build: He was sleeping",
+      "exercise": {
+        "id": "ex-tiles-was-sleeping",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *He was sleeping when I called.* (dormir: il dormait; appeler passé composé: j'ai appelé)",
+        "card_ids": ["imp-use-ongoing", "imp-vs-pc"],
+        "tiles": ["Il", "dormait", "quand", "j'ai", "appelé."],
+        "hint": "Background ongoing action (dormait) + completed interrupting event (j'ai appelé).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-she-was-tired",
+      "type": "exercise",
+      "title": "Description -- state in the past",
+      "exercise": {
+        "id": "ex-free-she-was-tired",
+        "type": "free_text",
+        "prompt": "Translate: *She was tired.* (être -- elle étais or était?)",
+        "card_ids": ["imp-etre-stem", "imp-use-description"],
+        "accept": [
+          "Elle était fatiguée.",
+          "elle était fatiguée",
+          "Elle etait fatiguee.",
+          "elle etait fatiguee"
+        ],
+        "hint": "être: irregular stem ét- + -ait (il/elle) = était. Don't forget to agree the adjective: fatiguée (feminine).",
+        "distractors": [
+          "Elle étais fatiguée.",
+          "Elle a été fatiguée.",
+          "Elle était fatigué."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-choose-tense",
+      "type": "exercise",
+      "title": "Which sentence uses the imparfait correctly?",
+      "exercise": {
+        "id": "ex-pic-choose-tense",
+        "type": "picture_choice",
+        "prompt": "A person describes their childhood routine. Which sentence is correct French?",
+        "card_ids": ["imp-use-habit", "imp-vs-pc"],
+        "images": [
+          { "src": "assets/img/child-routine-1.png", "label": "Chaque matin, je mangeais des céréales.", "is_correct": "true" },
+          { "src": "assets/img/child-routine-2.png", "label": "Chaque matin, j'ai mangé des céréales." },
+          { "src": "assets/img/child-routine-3.png", "label": "Chaque matin, je mangeait des céréales." },
+          { "src": "assets/img/child-routine-4.png", "label": "Chaque matin, je mange des céréales." }
+        ],
+        "hint": "A repeated childhood routine calls for the imparfait. Also check: je (not il) takes -ais, not -ait.",
+        "distractors": [
+          "Chaque matin, j'ai mangé des céréales.",
+          "Chaque matin, je mangeait des céréales.",
+          "Chaque matin, je mange des céréales."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-elle-lisait",
+      "type": "exercise",
+      "title": "Fill in the imparfait -- ongoing action",
+      "exercise": {
+        "id": "ex-cloze-elle-lisait",
+        "type": "cloze",
+        "prompt": "Fill in the imparfait of *lire* (elle) -- she was reading. (Stem: nous lisons → lis-)",
+        "card_ids": ["imp-use-ongoing", "imp-stem"],
+        "sentence": "Elle ___ quand le téléphone a sonné.",
+        "blanks": [
+          { "accept": ["lisait"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "lire: stem lis- + -ait (elle) = lisait."
+      }
+    },
+    {
+      "id": "ex-match-use",
+      "type": "exercise",
+      "title": "Match the English cue to the correct tense",
+      "exercise": {
+        "id": "ex-match-use",
+        "type": "matching",
+        "prompt": "Match each English phrase to the tense it signals in French.",
+        "card_ids": ["imp-vs-pc", "imp-use-habit", "imp-use-ongoing", "imp-use-description"],
+        "pairs": [
+          { "left": "I used to walk to school.", "right": "imparfait" },
+          { "left": "She suddenly ran out.", "right": "passé composé" },
+          { "left": "It was raining.", "right": "imparfait" },
+          { "left": "He called once.", "right": "passé composé" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-every-summer",
+      "type": "exercise",
+      "title": "Build: Every summer we went to the sea",
+      "exercise": {
+        "id": "ex-tiles-every-summer",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *Every summer, we used to go to the sea.* (aller -- nous allions)",
+        "card_ids": ["imp-use-habit", "imp-aller"],
+        "tiles": ["Chaque", "été,", "nous", "allions", "à", "la", "mer."],
+        "hint": "aller: stem all- + -ions (nous) = allions.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-i-had",
+      "type": "exercise",
+      "title": "Avoir in the imparfait",
+      "exercise": {
+        "id": "ex-free-i-had",
+        "type": "free_text",
+        "prompt": "Translate: *I was hungry.* (literally: I had hunger -- avoir faim; use je)",
+        "card_ids": ["imp-avoir", "imp-use-description"],
+        "accept": [
+          "J'avais faim.",
+          "j'avais faim",
+          "J'avais faim",
+          "j'avais faim."
+        ],
+        "hint": "avoir: stem av- + -ais (je) = avais. 'To be hungry' in French is avoir faim (to have hunger).",
+        "distractors": [
+          "J'ai eu faim.",
+          "J'avait faim.",
+          "J'étais faim."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

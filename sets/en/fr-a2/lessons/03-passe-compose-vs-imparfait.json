@@ -1,0 +1,361 @@
+{
+  "id": "03-passe-compose-vs-imparfait",
+  "title": "Passé Composé vs Imparfait",
+  "description": "The key A2 distinction: passé composé for single completed events, imparfait for background, ongoing states, and habits. Explained in English with clear signal-word guidance.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "pc-completed-action",
+      "front": "Le passé composé — action ponctuelle",
+      "back": "a single, completed event ('and then X happened')",
+      "notes": "Use the **passé composé** for anything that happened once and is finished: *Il **a appelé**.* (He called.) *Soudain, elle **est tombée**.* (Suddenly, she fell.) English equivalents: 'did X' or 'has done X' as a single event.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "passe-compose", "tense-choice"]
+    },
+    {
+      "id": "imp-background",
+      "front": "L'imparfait — arrière-plan",
+      "back": "background, ongoing state, or habit in the past",
+      "notes": "Use the **imparfait** for: what was happening (background), what used to happen (habit), and descriptions. *Il **pleuvait**.* (It was raining.) *Elle **travaillait** tous les jours.* (She worked every day.) English: 'was doing', 'used to do'.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "imparfait", "tense-choice"]
+    },
+    {
+      "id": "classic-combo",
+      "front": "Je dormais quand le téléphone a sonné.",
+      "back": "I was sleeping (background) when the phone rang (event).",
+      "notes": "The classic combination: **imparfait** sets the scene, **passé composé** fires the event that interrupts it. The pattern is: *[imparfait] quand/lorsque [passé composé]*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "tense-choice", "imparfait", "passe-compose"]
+    },
+    {
+      "id": "signal-pc",
+      "front": "soudain, tout à coup, un jour, hier, ce jour-là",
+      "back": "signal words that trigger the passé composé",
+      "notes": "These adverbs mark a **specific, punctual moment** — exactly what the passé composé expresses:\n\n| Signal word | Meaning |\n|---|---|\n| **soudain** | suddenly |\n| **tout à coup** | all of a sudden |\n| **un jour** | one day |\n| **hier** | yesterday |\n| **ce jour-là** | that day |",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "If you can replace the signal with 'suddenly' or 'one day', use passé composé.",
+      "tags": ["grammar", "signal-words", "passe-compose"]
+    },
+    {
+      "id": "signal-imp",
+      "front": "d'habitude, tous les jours, souvent, toujours, pendant que, quand j'étais",
+      "back": "signal words that trigger the imparfait",
+      "notes": "These expressions mark **repeated, ongoing, or habitual** past action:\n\n| Signal word | Meaning |\n|---|---|\n| **d'habitude** | usually |\n| **tous les jours** | every day |\n| **souvent** | often |\n| **toujours** | always |\n| **pendant que** | while |\n| **quand j'étais** | when I was |",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "If the action repeated or was ongoing, use imparfait.",
+      "tags": ["grammar", "signal-words", "imparfait"]
+    },
+    {
+      "id": "imp-formation",
+      "front": "nous parlons → je parlais, tu parlais, il parlait…",
+      "back": "imparfait = nous-stem + endings: -ais, -ais, -ait, -ions, -iez, -aient",
+      "notes": "Take the **nous** present-tense stem (drop *-ons*), then add the imparfait endings. *parler*: nous parl**ons** → je parl**ais**. *finir*: nous finiss**ons** → je finiss**ais**. Only **être** is irregular: stem *ét-* → j'étais.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "imparfait", "formation"]
+    },
+    {
+      "id": "habit-vs-event",
+      "front": "D'habitude il prenait le bus. Un jour, il a pris un taxi.",
+      "back": "He usually took the bus. One day, he took a taxi.",
+      "notes": "*D'habitude* → **imparfait** (habit). *Un jour* → **passé composé** (single event that broke the habit). Both sentences about the same verb *prendre*, but different tenses because the meaning changes.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "tense-choice", "example"]
+    },
+    {
+      "id": "pendant-que",
+      "front": "Pendant qu'il lisait, elle a téléphoné.",
+      "back": "While he was reading, she phoned.",
+      "notes": "**Pendant que** (while) + imparfait sets the continuous background. The interrupting event gets the passé composé. Compare English: 'was reading' (ongoing) vs 'phoned' (event).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "tense-choice", "imparfait", "passe-compose"]
+    },
+    {
+      "id": "description-past",
+      "front": "Il faisait beau. Les oiseaux chantaient.",
+      "back": "The weather was nice. The birds were singing.",
+      "notes": "Pure **description** in the past always uses the **imparfait**: weather, physical appearance, mood, setting the scene. No single event is happening — the camera is just panning over the scene.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "imparfait", "description"]
+    },
+    {
+      "id": "english-clue",
+      "front": "English 'was doing' → imparfait; 'did / has done' (single event) → passé composé",
+      "back": "use English tense as a first clue, then check for signal words",
+      "notes": "This works well as a **first filter** but is not perfect — English 'I used to do' and 'I was doing' both → imparfait. When in doubt, ask: *is this a one-off completed event or a state/habit/background?*",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "'was doing' → imparfait; 'did' (once) → passé composé.",
+      "tags": ["grammar", "tense-choice", "english-clue"]
+    },
+    {
+      "id": "soudain-card",
+      "front": "Soudain, il a crié.",
+      "back": "Suddenly, he shouted. (passé composé — punctual event)",
+      "notes": "*Soudain* (suddenly) virtually always triggers the **passé composé** — it marks a sharp, unexpected single moment.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "passe-compose", "signal-words"]
+    },
+    {
+      "id": "toujours-card",
+      "front": "Il chantait toujours sous la douche.",
+      "back": "He always sang in the shower. (imparfait — habit)",
+      "notes": "*Toujours* (always) here marks a **repeated past habit** — the action happened regularly, so we use the imparfait. (If *toujours* means 'still' in the present, that is a different use.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "imparfait", "signal-words"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-core-distinction",
+      "type": "theory",
+      "title": "The core distinction",
+      "body": "# Passé Composé vs Imparfait\n\nBoth tenses talk about the past. The difference is **not** how far back — it is the **nature** of the action.\n\n| Tense | Use | English clue |\n|---|---|---|\n| **Passé composé** | Single completed event, 'and then X happened' | 'did X', 'has done X' (once) |\n| **Imparfait** | Background, ongoing state, repeated habit | 'was doing X', 'used to do X' |\n\nThink of it as a **movie**: the imparfait is the continuous background footage (the scenery, the weather, what everyone was doing). The passé composé is every **cut** — a new event in the plot.\n\n> *Il **faisait** beau* (imparfait — background: it was a nice day) *quand elle **est arrivée*** (passé composé — event: she arrived).\n\n## The classic pattern\n\n**Imparfait** (what was going on) + **quand/lorsque** + **passé composé** (what happened):\n\n> *Je **dormais** quand le téléphone **a sonné**.* — I was sleeping when the phone rang."
+    },
+    {
+      "id": "theory-signal-words",
+      "type": "theory",
+      "title": "Signal words",
+      "body": "## Signal words — let the adverb guide you\n\nCertain adverbs and expressions almost always pair with one tense:\n\n### Passé composé signals\n\n| Word / phrase | Meaning |\n|---|---|\n| **soudain** | suddenly |\n| **tout à coup** | all of a sudden |\n| **un jour** | one day |\n| **hier** | yesterday |\n| **ce jour-là** | that day |\n| **à ce moment-là** | at that moment |\n\n### Imparfait signals\n\n| Word / phrase | Meaning |\n|---|---|\n| **d'habitude** | usually |\n| **tous les jours** | every day |\n| **souvent** | often |\n| **toujours** | always |\n| **pendant que** | while |\n| **quand j'étais enfant** | when I was a child |\n| **autrefois** | in the old days |\n\n> **Tip:** If you can substitute the signal with 'suddenly' or 'one day', use passé composé. If you can substitute with 'usually' or 'every day', use imparfait."
+    },
+    {
+      "id": "theory-formation-imparfait",
+      "type": "theory",
+      "title": "Forming the imparfait",
+      "body": "## How to form the imparfait\n\nTake the **nous** form of the present tense, drop **-ons**, then add these endings:\n\n| Person | Ending | parler example |\n|---|---|---|\n| je | **-ais** | je parlais |\n| tu | **-ais** | tu parlais |\n| il/elle | **-ait** | il parlait |\n| nous | **-ions** | nous parlions |\n| vous | **-iez** | vous parliez |\n| ils/elles | **-aient** | ils parlaient |\n\nThe only irregular stem is **être**: *j'**étais**, tu **étais**, il **était**…*\n\n## Quick English-speaker guide\n\n| English | French tense |\n|---|---|\n| *She **called** me yesterday.* (once) | **Passé composé**: elle m'**a appelé** |\n| *She **was calling** me.* (ongoing) | **Imparfait**: elle m'**appelait** |\n| *She **used to call** me.* (habit) | **Imparfait**: elle m'**appelait** |\n\n> Remember: the imparfait endings **-ais / -ait / -aient** are all pronounced the same. Only the spelling changes."
+    },
+    {
+      "id": "ex-match-signals",
+      "type": "exercise",
+      "title": "Signal word → tense",
+      "exercise": {
+        "id": "ex-match-signals",
+        "type": "matching",
+        "prompt": "Match each signal word or phrase to the tense it typically triggers.",
+        "card_ids": ["signal-pc", "signal-imp"],
+        "pairs": [
+          { "left": "soudain", "right": "passé composé" },
+          { "left": "d'habitude", "right": "imparfait" },
+          { "left": "tout à coup", "right": "passé composé" },
+          { "left": "tous les jours", "right": "imparfait" },
+          { "left": "un jour", "right": "passé composé" },
+          { "left": "pendant que", "right": "imparfait" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-suddenly-fell",
+      "type": "exercise",
+      "title": "Translate: a sudden event",
+      "exercise": {
+        "id": "ex-free-suddenly-fell",
+        "type": "free_text",
+        "prompt": "Translate: *Suddenly, he fell.* (soudain signals a completed event)",
+        "card_ids": ["signal-pc", "soudain-card"],
+        "accept": [
+          "Soudain, il est tombé.",
+          "soudain, il est tombé",
+          "Soudain il est tombé.",
+          "soudain il est tombé"
+        ],
+        "hint": "soudain → passé composé; tomber takes être → il est tombé.",
+        "distractors": [
+          "Soudain, il tombait.",
+          "Soudain, il a tombé.",
+          "D'habitude, il est tombé."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-used-to-sing",
+      "type": "exercise",
+      "title": "Translate: a past habit",
+      "exercise": {
+        "id": "ex-free-used-to-sing",
+        "type": "free_text",
+        "prompt": "Translate: *He always sang in the shower.* (habit → imparfait)",
+        "card_ids": ["signal-imp", "toujours-card"],
+        "accept": [
+          "Il chantait toujours sous la douche.",
+          "il chantait toujours sous la douche",
+          "Il chantait toujours sous la douche"
+        ],
+        "hint": "toujours (always) marks a habit → imparfait. chanter: il chantait.",
+        "distractors": [
+          "Il a chanté toujours sous la douche.",
+          "Il a toujours chanté sous la douche dans le passé.",
+          "Il chante toujours sous la douche."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-classic-combo",
+      "type": "exercise",
+      "title": "Classic combo: fill the event verb",
+      "exercise": {
+        "id": "ex-cloze-classic-combo",
+        "type": "cloze",
+        "prompt": "Fill in the passé composé of *sonner* (to ring). Background already set with imparfait.",
+        "card_ids": ["classic-combo", "pc-completed-action"],
+        "sentence": "Je dormais quand le téléphone ___ sonné.",
+        "blanks": [
+          { "accept": ["a"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "sonner takes avoir; il/le → il a sonné. Fill in the auxiliary 'a'."
+      }
+    },
+    {
+      "id": "ex-cloze-weather-description",
+      "type": "exercise",
+      "title": "Fill the imparfait: weather description",
+      "exercise": {
+        "id": "ex-cloze-weather-description",
+        "type": "cloze",
+        "prompt": "Fill in the imparfait of *faire* (il fait beau → il ___ beau). Pure description, no event.",
+        "card_ids": ["description-past", "imp-background"],
+        "sentence": "Il ___ beau ce matin-là.",
+        "blanks": [
+          { "accept": ["faisait"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Description of the weather → imparfait. faire: il faisait."
+      }
+    },
+    {
+      "id": "ex-tiles-while-reading",
+      "type": "exercise",
+      "title": "Build: while he was reading",
+      "exercise": {
+        "id": "ex-tiles-while-reading",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *While he was reading, she phoned.* (pendant que + imparfait, then passé composé)",
+        "card_ids": ["pendant-que", "imp-background"],
+        "tiles": ["Pendant", "qu'il", "lisait", ",", "elle", "a", "téléphoné", "."],
+        "hint": "pendant que + imparfait (lisait); the phone call = passé composé (a téléphoné).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-one-day",
+      "type": "exercise",
+      "title": "Translate: one-day event vs habit",
+      "exercise": {
+        "id": "ex-free-one-day",
+        "type": "free_text",
+        "prompt": "Translate: *Usually she walked, but one day she took a taxi.* Use d'habitude + imparfait, then un jour + passé composé.",
+        "card_ids": ["habit-vs-event", "signal-pc", "signal-imp"],
+        "accept": [
+          "D'habitude elle marchait, mais un jour elle a pris un taxi.",
+          "d'habitude elle marchait, mais un jour elle a pris un taxi",
+          "D'habitude, elle marchait, mais un jour elle a pris un taxi.",
+          "D'habitude elle marchait mais un jour elle a pris un taxi."
+        ],
+        "hint": "d'habitude + marchait (imparfait); un jour + a pris (passé composé, irrégulier: prendre → pris).",
+        "distractors": [
+          "D'habitude elle a marché, mais un jour elle prenait un taxi.",
+          "D'habitude elle marchait, mais un jour elle prenait un taxi.",
+          "D'habitude elle marche, mais un jour elle a pris un taxi."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-tense-choice",
+      "type": "exercise",
+      "title": "Which sentence matches the image?",
+      "exercise": {
+        "id": "ex-pic-tense-choice",
+        "type": "picture_choice",
+        "prompt": "The image shows: rain falling as a woman reads inside — a calm, ongoing scene. Which sentence fits?",
+        "card_ids": ["description-past", "imp-background"],
+        "images": [
+          { "src": "assets/img/rain-reading-1.png", "label": "Il pleuvait et elle lisait.", "is_correct": "true" },
+          { "src": "assets/img/rain-reading-2.png", "label": "Il a plu et elle a lu." },
+          { "src": "assets/img/rain-reading-3.png", "label": "Soudain, il a plu." },
+          { "src": "assets/img/rain-reading-4.png", "label": "Un jour, elle a lu." }
+        ],
+        "hint": "Ongoing background scene → imparfait for both verbs.",
+        "distractors": [
+          "Il a plu et elle a lu.",
+          "Soudain, il a plu.",
+          "Un jour, elle a lu."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-tense-by-meaning",
+      "type": "exercise",
+      "title": "Match the English clue to the correct French tense",
+      "exercise": {
+        "id": "ex-match-tense-by-meaning",
+        "type": "matching",
+        "prompt": "Match each English description to the French tense it requires.",
+        "card_ids": ["pc-completed-action", "imp-background", "english-clue"],
+        "pairs": [
+          { "left": "She was sleeping. (ongoing background)", "right": "imparfait" },
+          { "left": "He called once. (single event)", "right": "passé composé" },
+          { "left": "They used to eat together. (habit)", "right": "imparfait" },
+          { "left": "Suddenly it started raining. (punctual)", "right": "passé composé" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-suddenly-called",
+      "type": "exercise",
+      "title": "Build: Suddenly she called me",
+      "exercise": {
+        "id": "ex-tiles-suddenly-called",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *Suddenly she called me.* (soudain → passé composé)",
+        "card_ids": ["signal-pc", "soudain-card"],
+        "tiles": ["Soudain", ",", "elle", "m'", "a", "appelé", "."],
+        "hint": "soudain → passé composé; appeler takes avoir → elle a appelé.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-was-eating-when",
+      "type": "exercise",
+      "title": "Translate: interrupted action",
+      "exercise": {
+        "id": "ex-free-was-eating-when",
+        "type": "free_text",
+        "prompt": "Translate: *I was eating when she arrived.* (imparfait + quand + passé composé)",
+        "card_ids": ["classic-combo", "pendant-que"],
+        "accept": [
+          "Je mangeais quand elle est arrivée.",
+          "je mangeais quand elle est arrivée",
+          "Je mangeais quand elle est arrivee.",
+          "Je mangeais quand elle est arrivée"
+        ],
+        "hint": "'was eating' → imparfait (je mangeais); 'arrived' = event → passé composé (elle est arrivée, arriver takes être).",
+        "distractors": [
+          "J'ai mangé quand elle arrivait.",
+          "Je mangeais quand elle arrivait.",
+          "J'ai mangé quand elle est arrivée."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

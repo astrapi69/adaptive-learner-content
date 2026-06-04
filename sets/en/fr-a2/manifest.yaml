@@ -1,0 +1,62 @@
+# French A2 (for English speakers) — set manifest
+# (schema v1.3).
+#
+# Intermediate French course explained in English. Builds on the
+# A1 set (fr-a1-from-en): A1 basics are presupposed, not
+# re-taught. A2 introduces the imparfait, the passé composé vs
+# imparfait distinction, the futur simple and conditionnel, the
+# pronouns y and en, deepened negation, conjunctions, and more
+# everyday topics. Mostly productive (>=65% source_to_target) and
+# with distractors targeting common English-speaker mistakes
+# (avoir vs être, partitive, gender agreement, false friends).
+# The Content-Loader reads ``metadata.lessons`` for the file list.
+schema_version: '1.3'
+name: French A2 (for English speakers)
+description: >-
+  Fifteen-lesson A2 French course explained in English, building
+  on A1: the passé composé (avoir and être with agreement), the
+  imparfait and the passé composé vs imparfait distinction, the
+  futur simple and conditionnel présent, the pronouns y and en,
+  deepened negation, conjunctions, and everyday topics (describing
+  people, daily life, travel, food, health, shopping), closing
+  with review and text production.
+sets:
+  - id: fr-a2-from-en
+    title: French A2 — Elementary
+    title_native: Français A2 — Élémentaire
+    target_language: fr
+    source_language: en
+    level: A2
+    path: sets/en/fr-a2
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Intermediate French for English speakers (15 lessons),
+      building on A1: past tenses (passé composé vs imparfait),
+      futur simple, conditionnel, the pronouns y and en, deepened
+      negation, conjunctions, and everyday topics, closing with
+      text production. Presupposes A1; mostly productive.
+    tags:
+      - elementary
+      - grammar
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-passe-compose-deepened.json
+    - 02-imparfait.json
+    - 03-passe-compose-vs-imparfait.json
+    - 04-futur-simple.json
+    - 05-conditionnel-present.json
+    - 06-pronouns-y-and-en.json
+    - 07-negation-deepened.json
+    - 08-conjunctions-complex-sentences.json
+    - 09-describing-people-emotions.json
+    - 10-daily-life-routines.json
+    - 11-travel-accommodation.json
+    - 12-food-restaurant-deepened.json
+    - 13-health-and-body.json
+    - 14-shopping-and-money.json
+    - 15-review-and-text-production.json

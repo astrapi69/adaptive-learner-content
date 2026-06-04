@@ -1,0 +1,335 @@
+{
+  "id": "09-describing-people-emotions",
+  "title": "Describing people and emotions",
+  "description": "A2 French: character adjectives with agreement and position, feelings with être and avoir, and expressing opinions. Explained in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "adj-agreement",
+      "front": "gentil / gentille",
+      "back": "kind (m.) / kind (f.)",
+      "notes": "Most French adjectives agree with the noun they describe. Add **-e** for feminine: *gentil → gentille*, *sérieux → sérieuse*, *paresseux → paresseuse*. English has no agreement, so this is easy to forget.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "adjectives", "agreement"]
+    },
+    {
+      "id": "adj-list-character",
+      "front": "sympathique, timide, sérieux/sérieuse, drôle, paresseux/paresseuse, travailleur/travailleuse",
+      "back": "friendly, shy, serious, funny, lazy, hard-working",
+      "notes": "Common character adjectives. Most are placed **after** the noun: *un homme sérieux* (a serious man), *une femme drôle* (a funny woman). Note feminine forms: *sérieux → sérieuse*, *paresseux → paresseuse*, *travailleur → travailleuse*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "adjectives", "character"]
+    },
+    {
+      "id": "adj-position-before",
+      "front": "bon/bonne, grand/grande, petit/petite, jeune, beau/belle",
+      "back": "good, tall/big, small, young, beautiful",
+      "notes": "A small group of very common adjectives goes **before** the noun: *un bon ami* (a good friend), *une grande ville* (a big city), *un petit chat* (a small cat), *un beau garçon* (a handsome boy). Remember **BAGS**: Beauty, Age, Goodness, Size go before.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "BAGS = Beauty, Age, Goodness, Size — these go BEFORE the noun.",
+      "tags": ["grammar", "adjectives", "position"]
+    },
+    {
+      "id": "feelings-etre",
+      "front": "je suis content(e) / triste / fatigué(e)",
+      "back": "I am happy / sad / tired",
+      "notes": "Use **être** for emotional or physical states described by adjectives. The adjective agrees with the subject: *je suis content* (m.) / *je suis contente* (f.). Other examples: *heureux/heureuse* (happy), *stressé(e)* (stressed), *inquiet/inquiète* (worried).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "feelings", "etre"]
+    },
+    {
+      "id": "avoir-expressions",
+      "front": "avoir faim / avoir peur / avoir froid / avoir envie de",
+      "back": "to be hungry / to be afraid / to be cold / to feel like (doing something)",
+      "notes": "French uses **avoir** (to have) for many sensations where English uses *to be*. This is a classic trap: **never** say *je suis faim* — it must be *j'ai faim* (I have hunger = I am hungry). Similarly: *j'ai peur* (I am afraid), *j'ai froid* (I am cold), *j'ai envie de dormir* (I feel like sleeping).",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "English: 'I AM hungry' — French: 'j'AI faim' (I HAVE hunger).",
+      "tags": ["grammar", "feelings", "avoir", "common-error"]
+    },
+    {
+      "id": "opinions-phrases",
+      "front": "je pense que / je trouve que / à mon avis / je crois que",
+      "back": "I think that / I find that / in my opinion / I believe that",
+      "notes": "These opinion phrases are all followed by the **indicative** (ordinary) verb form — not the subjunctive at A2. Examples: *Je pense que c'est difficile.* (I think it is difficult.) *À mon avis, il est gentil.* (In my opinion, he is kind.) *Je trouve que le film est drôle.* (I find the film funny.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "opinions", "phrases"]
+    },
+    {
+      "id": "adj-gentil-f",
+      "front": "Il est gentil. / Elle est gentille.",
+      "back": "He is kind. / She is kind.",
+      "notes": "*Gentil → gentille*: the feminine doubles the **-l** and adds **-e**. Other doublers: *gros → grosse* (fat/big), *bon → bonne* (good). Pronunciation tip: the final consonant becomes audible in the feminine form.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["adjectives", "agreement", "character"]
+    },
+    {
+      "id": "adj-travailleur",
+      "front": "travailleur / travailleuse",
+      "back": "hard-working (m.) / hard-working (f.)",
+      "notes": "Adjectives ending in **-eur** often change to **-euse** in the feminine: *travailleur → travailleuse*. Similarly: *menteur → menteuse* (lying/liar). Do not confuse with *travaillant* (the present participle, used more verbally).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["adjectives", "agreement", "character"]
+    },
+    {
+      "id": "card-j-ai-peur",
+      "front": "j'ai peur",
+      "back": "I am afraid (literally: I have fear)",
+      "notes": "Remember: **avoir** peur, not *être* peur. You can say what you are afraid of with **de**: *j'ai peur des araignées* (I am afraid of spiders). Other avoir expressions of the same type: *avoir honte* (to be ashamed), *avoir hâte* (to be eager).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "feelings", "avoir"]
+    },
+    {
+      "id": "card-content-contente",
+      "front": "content / contente",
+      "back": "happy, pleased (m.) / happy, pleased (f.)",
+      "notes": "A very common feeling adjective. *Je suis content(e) de te voir* — I am happy to see you. Synonym: *heureux/heureuse* (happier in tone). The opposite is *triste* (sad) — which has the same form for both genders.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "feelings", "adjectives"]
+    },
+    {
+      "id": "card-je-trouve",
+      "front": "Je trouve que c'est drôle.",
+      "back": "I find that it is funny. / I think it is funny.",
+      "notes": "*Trouver que* + indicative is a natural, colloquial way to give an opinion. It is slightly softer than *je pense que*. *Drôle* means funny/odd and stays the same for both genders (invariable in this sense).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["opinions", "vocabulary"]
+    },
+    {
+      "id": "card-petit-grande",
+      "front": "un petit garçon / une grande fille",
+      "back": "a small boy / a tall girl",
+      "notes": "*Petit* and *grand* are BAGS adjectives — they go **before** the noun. *Petit → petite* (add -e), *grand → grande* (add -e, final -d is now pronounced). Compare: *une ville grande* (unusual/literary) vs *une grande ville* (normal: a big city).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["adjectives", "position", "agreement"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-adjectives",
+      "type": "theory",
+      "title": "Character adjectives: agreement and position",
+      "body": "# Describing people — adjectives\n\nFrench adjectives must **agree** with the noun they describe (unlike English, which has no agreement). Add **-e** for feminine, **-s** for plural, **-es** for feminine plural.\n\n## Common character adjectives\n\n| Masculine | Feminine | Meaning |\n|---|---|---|\n| gentil | gentille | kind |\n| sérieux | sérieuse | serious |\n| paresseux | paresseuse | lazy |\n| travailleur | travailleuse | hard-working |\n| sympathique | sympathique | friendly |\n| timide | timide | shy |\n| drôle | drôle | funny |\n\n*Sympathique, timide* and *drôle* are invariable for gender (same form for m./f.).\n\n## Position: before or after the noun?\n\nMost adjectives go **after** the noun: *un homme sérieux*, *une femme timide*.\n\nBut the **BAGS** group (Beauty, Age, Goodness, Size) goes **before**:\n\n| Adjective | Meaning | Example |\n|---|---|---|\n| beau/belle | beautiful | un beau jour |\n| jeune | young | une jeune femme |\n| bon/bonne | good | un bon ami |\n| grand/grande | big/tall | une grande maison |\n| petit/petite | small | un petit chien |\n\n> **English-speaker tip:** English adjectives always go before the noun. In French, the default is *after*. Only memorise the short list that goes before."
+    },
+    {
+      "id": "theory-feelings",
+      "type": "theory",
+      "title": "Expressing feelings: être vs avoir",
+      "body": "## Feelings with être\n\nUse **être** + adjective for emotional or physical states:\n\n- *Je suis content(e).* — I am happy.\n- *Il est triste.* — He is sad.\n- *Nous sommes fatigués.* — We are tired.\n\nThe adjective agrees with the subject (content/contente, fatigué/fatiguée).\n\n## Feelings with avoir — the English trap\n\nFor **physical sensations**, French uses **avoir** (to have) where English uses *to be*:\n\n| French | Literal | English |\n|---|---|---|\n| j'ai faim | I have hunger | I am hungry |\n| j'ai soif | I have thirst | I am thirsty |\n| j'ai peur | I have fear | I am afraid |\n| j'ai froid | I have cold | I am cold |\n| j'ai chaud | I have heat | I am hot |\n| j'ai envie de + inf. | I have desire to | I feel like -ing |\n\n> **Never say** *je suis faim* or *je suis peur* — these are ungrammatical. The verb must be **avoir**."
+    },
+    {
+      "id": "theory-opinions",
+      "type": "theory",
+      "title": "Giving opinions",
+      "body": "## Opinion phrases\n\nAt A2, use these four phrases to express opinions. All are followed by **que** + a normal (indicative) verb:\n\n| Phrase | Meaning | Example |\n|---|---|---|\n| **Je pense que** | I think that | *Je pense que c'est vrai.* |\n| **Je trouve que** | I find/think that | *Je trouve que c'est drôle.* |\n| **Je crois que** | I believe that | *Je crois qu'il est gentil.* |\n| **À mon avis** | In my opinion | *À mon avis, elle est sérieuse.* |\n\n*À mon avis* does **not** use *que* — it stands alone at the start: *À mon avis, le film est long.*\n\n## Putting it all together\n\nCombine an opinion phrase + adjective in context:\n\n- *Je pense qu'il est très **travailleur**.* — I think he is very hard-working.\n- *À mon avis, elle n'est pas **timide**.* — In my opinion, she is not shy.\n- *Je trouve que tu es **drôle**!* — I think you are funny!"
+    },
+    {
+      "id": "ex-match-adjectives",
+      "type": "exercise",
+      "title": "Match the adjective to its meaning",
+      "exercise": {
+        "id": "ex-match-adjectives",
+        "type": "matching",
+        "prompt": "Match each French adjective to its English meaning.",
+        "card_ids": ["adj-list-character", "adj-agreement"],
+        "pairs": [
+          { "left": "timide", "right": "shy" },
+          { "left": "paresseux", "right": "lazy" },
+          { "left": "travailleur", "right": "hard-working" },
+          { "left": "drôle", "right": "funny" },
+          { "left": "sérieux", "right": "serious" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-she-is-kind",
+      "type": "exercise",
+      "title": "Adjective agreement — feminine",
+      "exercise": {
+        "id": "ex-free-she-is-kind",
+        "type": "free_text",
+        "prompt": "Translate: *She is kind.* (use gentil — remember the feminine form!)",
+        "card_ids": ["adj-agreement", "card-content-contente"],
+        "accept": [
+          "Elle est gentille.",
+          "elle est gentille",
+          "Elle est gentille"
+        ],
+        "hint": "gentil (m.) → gentille (f.): double the -l and add -e.",
+        "distractors": [
+          "Elle est gentil.",
+          "Elle suis gentille.",
+          "Elle est gentils."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-i-am-hungry",
+      "type": "exercise",
+      "title": "avoir or être for hunger?",
+      "exercise": {
+        "id": "ex-free-i-am-hungry",
+        "type": "free_text",
+        "prompt": "Translate: *I am hungry.* (careful — English says 'am', French does NOT use être here!)",
+        "card_ids": ["avoir-expressions"],
+        "accept": [
+          "J'ai faim.",
+          "j'ai faim",
+          "J'ai faim"
+        ],
+        "hint": "French uses avoir for hunger: j'ai faim (I have hunger).",
+        "distractors": [
+          "Je suis faim.",
+          "J'ai faimé.",
+          "Je suis affamé."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-opinion",
+      "type": "exercise",
+      "title": "Complete the opinion sentence",
+      "exercise": {
+        "id": "ex-cloze-opinion",
+        "type": "cloze",
+        "prompt": "Fill in the blank with the correct opinion phrase (in my opinion).",
+        "card_ids": ["opinions-phrases"],
+        "sentence": "___, elle est très sympathique.",
+        "blanks": [
+          { "accept": ["À mon avis"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "The phrase meaning 'in my opinion' does not use que."
+      }
+    },
+    {
+      "id": "ex-tiles-he-is-serious",
+      "type": "exercise",
+      "title": "Build: He is a serious man",
+      "exercise": {
+        "id": "ex-tiles-he-is-serious",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *He is a serious man.* (adjective after the noun!)",
+        "card_ids": ["adj-list-character"],
+        "tiles": ["C'est", "un", "homme", "sérieux"],
+        "hint": "sérieux goes AFTER homme — most adjectives follow the noun.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-avant-apres",
+      "type": "exercise",
+      "title": "Which sentence uses the adjective correctly?",
+      "exercise": {
+        "id": "ex-pic-avant-apres",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly describes a small house?",
+        "card_ids": ["adj-position-before", "card-petit-grande"],
+        "images": [
+          { "src": "assets/img/small-house-1.png", "label": "une petite maison", "is_correct": "true" },
+          { "src": "assets/img/small-house-2.png", "label": "une maison petite" },
+          { "src": "assets/img/small-house-3.png", "label": "une petite maisons" },
+          { "src": "assets/img/small-house-4.png", "label": "un petit maison" }
+        ],
+        "hint": "petit is a BAGS adjective — it goes before the noun. Also check gender: maison is feminine.",
+        "distractors": [
+          "une maison petite",
+          "une petite maisons",
+          "un petit maison"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-avoir-feelings",
+      "type": "exercise",
+      "title": "Match the avoir expression to its English meaning",
+      "exercise": {
+        "id": "ex-match-avoir-feelings",
+        "type": "matching",
+        "prompt": "Match each avoir expression to its English equivalent.",
+        "card_ids": ["avoir-expressions", "card-j-ai-peur"],
+        "pairs": [
+          { "left": "avoir faim", "right": "to be hungry" },
+          { "left": "avoir peur", "right": "to be afraid" },
+          { "left": "avoir froid", "right": "to be cold" },
+          { "left": "avoir envie de", "right": "to feel like" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-i-think-he-is-funny",
+      "type": "exercise",
+      "title": "Give an opinion",
+      "exercise": {
+        "id": "ex-free-i-think-he-is-funny",
+        "type": "free_text",
+        "prompt": "Translate: *I think that he is funny.*",
+        "card_ids": ["opinions-phrases", "adj-list-character", "card-je-trouve"],
+        "accept": [
+          "Je pense qu'il est drôle.",
+          "je pense qu'il est drôle",
+          "Je pense qu'il est drole.",
+          "Je trouve qu'il est drôle.",
+          "je trouve qu'il est drôle"
+        ],
+        "hint": "Je pense que / je trouve que + indicative. Use que → qu' before a vowel.",
+        "distractors": [
+          "Je pense qu'il est drôles.",
+          "Je pense que il est drôle.",
+          "À mon avis que il est drôle."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-agreement",
+      "type": "exercise",
+      "title": "Fill in the correct adjective form",
+      "exercise": {
+        "id": "ex-cloze-agreement",
+        "type": "cloze",
+        "prompt": "Complete the sentence with the feminine form of travailleur.",
+        "card_ids": ["adj-travailleur", "adj-list-character"],
+        "sentence": "Ma soeur est très ___.",
+        "blanks": [
+          { "accept": ["travailleuse"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "travailleur → travailleuse (change -eur to -euse)."
+      }
+    },
+    {
+      "id": "ex-tiles-i-am-afraid",
+      "type": "exercise",
+      "title": "Build: I am afraid of the dog",
+      "exercise": {
+        "id": "ex-tiles-i-am-afraid",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I am afraid of the dog.*",
+        "card_ids": ["avoir-expressions", "card-j-ai-peur"],
+        "tiles": ["J'ai", "peur", "du", "chien"],
+        "hint": "Use avoir (j'ai) — never être — for avoir peur.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
