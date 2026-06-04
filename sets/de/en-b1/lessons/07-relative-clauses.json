@@ -1,0 +1,399 @@
+{
+  "id": "07-relative-clauses",
+  "title": "Relative Clauses vertieft",
+  "description": "Relativsätze im Detail: definierend vs. nicht-definierend, alle Relativpronomen (who, which, that, whose, where, when, why), Weglassen des Pronomens und Präposition + which/whom im formellen Stil. Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "defining-vs-nondefinig-overview",
+      "front": "Defining vs. Non-defining Relative Clause",
+      "back": "notwendiger Relativsatz vs. Zusatzinformation mit Kommas",
+      "notes": "**Defining:** kein Komma, notwendig für den Sinn — *The book **that I read** was great.* (Welches Buch genau?)\n\n**Non-defining:** mit Kommas, gibt Zusatzinformation — *The book, **which I read last summer**, was great.* (Das Buch ist schon bekannt.)",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "relativsatz", "defining", "non-defining"]
+    },
+    {
+      "id": "relativpronomen-who-which-that",
+      "front": "who / which / that",
+      "back": "Personen / Sachen / nur defining (nicht nach Komma)",
+      "notes": "| Pronomen | Verwendung | Defining? | Non-defining? |\n|---|---|---|---|\n| **who** | Personen | ✓ | ✓ |\n| **which** | Sachen, Tiere | ✓ | ✓ |\n| **that** | Personen oder Sachen | ✓ | ✗ |\n\n> **Wichtig:** *that* geht **nicht** im non-defining clause und **nicht nach Komma**.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "relativpronomen", "that", "who", "which"]
+    },
+    {
+      "id": "whose-where-when-why",
+      "front": "whose / where / when / why",
+      "back": "dessen–deren / wo / als–wann / warum",
+      "notes": "- **whose** (dessen/deren): *The man **whose car** broke down.* — Besitz\n- **where** (wo/wohin): *The city **where** I grew up.*\n- **when** (als/wann): *The day **when** we met.*\n- **why** (warum): *The reason **why** she left.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "relativpronomen", "whose", "where", "when"]
+    },
+    {
+      "id": "omitting-pronoun",
+      "front": "the book (that) I read / the man (who) I called",
+      "back": "Relativpronomen weglassen, wenn es Objekt ist",
+      "notes": "Das Relativpronomen kann **weggelassen** werden, wenn es das **Objekt** des Relativsatzes ist (nicht das Subjekt):\n\n- ✓ *The film **(that) I watched** was boring.* — *that/which* ist Objekt\n- ✗ *The film **that was** boring.* — *that* ist Subjekt → **nicht** weglassen\n\nFaustregel: Folgt direkt ein Subjekt + Verb → weglassen möglich.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Objekt-Test: Gibt es nach dem Pronomen noch ein eigenes Subjekt? Dann ist das Pronomen Objekt → weglassen möglich.",
+      "tags": ["grammatik", "relativsatz", "weglassen"]
+    },
+    {
+      "id": "preposition-which-whom",
+      "front": "the company for which I work / the person to whom I spoke",
+      "back": "Präposition + which/whom — formeller Stil",
+      "notes": "## Formell vs. natürlich\n\n| Stil | Beispiel |\n|---|---|\n| **Formell** | *the company **for which** I work* |\n| **Natürlich** | *the company **I work for*** |\n| **Formell** | *the person **to whom** I spoke* |\n| **Natürlich** | *the person **(who/that) I spoke to*** |\n\n**Regel:** Im formellen Schreiben steht die Präposition **vor** *which/whom*. Im Alltag steht sie am **Satzende**.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "relativsatz", "formell", "präposition"]
+    },
+    {
+      "id": "that-not-nondefining",
+      "front": "My sister, _____ lives in London, is a doctor.",
+      "back": "who (NICHT that — non-defining, mit Kommas)",
+      "notes": "Nach einem Komma im non-defining clause ist **that verboten**:\n\n- ✓ *My sister, **who** lives in London, is a doctor.*\n- ✗ *My sister, **that** lives in London, is a doctor.*\n\nNon-defining = Zusatzinfo, Kommas → immer **who** (Personen) oder **which** (Sachen).",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "relativpronomen", "that", "non-defining", "fehler"]
+    },
+    {
+      "id": "whose-possession",
+      "front": "The woman whose bag was stolen called the police.",
+      "back": "whose = dessen / deren (Besitz im Relativsatz)",
+      "notes": "*whose* ersetzt ein Possessivpronomen (*his/her/its/their*) im Relativsatz:\n\n- *The student **whose essay** won the prize.* (→ his/her essay)\n- *The company **whose products** we use.* (→ its products)\n\n*whose* steht immer **direkt vor** dem Substantiv, das es besitzt.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "whose", "besitz", "relativpronomen"]
+    },
+    {
+      "id": "commas-nondefining",
+      "front": "London, which is the capital of England, has millions of visitors.",
+      "back": "Non-defining: Kommas einschließen die Zusatzinformation",
+      "notes": "Im non-defining relative clause:\n- **Öffnendes Komma** direkt nach dem Bezugswort\n- **Schließendes Komma** nach dem Relativsatz\n- Die Information in Kommas ist **weglassbar** — der Kernsatz bleibt vollständig: *London has millions of visitors.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "non-defining", "komma", "interpunktion"]
+    },
+    {
+      "id": "which-not-for-people",
+      "front": "The teacher who/that taught me was strict. (NICHT: which)",
+      "back": "which geht NICHT für Personen",
+      "notes": "Ein klassischer Fehler: *which* für Personen zu benutzen.\n\n- ✓ *The teacher **who/that** taught me.*\n- ✗ *The teacher **which** taught me.*\n\n*which* steht nur für **Sachen und Tiere** (nicht für Menschen).",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Person → who oder that. Sache → which oder that.",
+      "tags": ["grammatik", "relativpronomen", "which", "who", "fehler"]
+    },
+    {
+      "id": "where-when-clauses",
+      "front": "the city where I grew up / the year when it happened",
+      "back": "where für Orte, when für Zeitpunkte",
+      "notes": "- **where** = in/at which: *the café **where** we first met* (= the café **in which** we first met)\n- **when** = on/in which: *the summer **when** I turned 18* (= the summer **in which** I turned 18)\n\nBeide kommen in defining **und** non-defining clauses vor.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "where", "when", "relativpronomen"]
+    },
+    {
+      "id": "defining-essential",
+      "front": "Students who study hard usually pass. (definierend)",
+      "back": "Defining: schränkt ein, wer/was gemeint ist — kein Komma",
+      "notes": "Ohne den Relativsatz würde der Satz eine **andere oder unvollständige Bedeutung** haben:\n\n- *Students **who study hard** usually pass.* → Nur die fleißigen, nicht alle!\n- Kommt kein Komma → **defining**\n- *that* ist hier erlaubt: *Students **that** study hard …*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "defining", "relativsatz"]
+    },
+    {
+      "id": "nondefinig-extra-info",
+      "front": "My car, which is quite old, needs a service.",
+      "back": "Non-defining: Zusatzinformation — der Satz funktioniert ohne sie",
+      "notes": "Der Kernsatz *My car needs a service* ist **vollständig**. Der Relativsatz *which is quite old* fügt nur zusätzliche Information hinzu.\n\n**Merkmale:**\n- Kommas\n- **which** (nicht *that*) für Sachen\n- **who** (nicht *that*) für Personen\n- Weglassen des Pronomens **nicht** möglich",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "non-defining", "relativsatz"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-defining-vs-nondefining",
+      "type": "theory",
+      "title": "Defining vs. Non-defining: der zentrale B1-Unterschied",
+      "body": "# Relativsätze vertieft\n\nBei B1 kommt es vor allem auf **einen** Unterschied an:\n\n## Defining Relative Clause (notwendig, kein Komma)\n\nDer Relativsatz **schränkt ein**, worüber gesprochen wird — ohne ihn wäre die Aussage unvollständig oder mehrdeutig:\n\n- *The film **(that) I watched** last night was brilliant.* (Welcher Film genau?)\n- *People **who exercise regularly** live longer.*\n\n**Kein Komma.** *that*, *who* und *which* sind alle erlaubt.\n\n## Non-defining Relative Clause (Zusatzinfo, mit Kommas)\n\nDer Relativsatz liefert **zusätzliche Information** — man könnte ihn weglassen, ohne den Kernsinn zu zerstören:\n\n- *My brother, **who lives in Hamburg**, is a chef.* (Ich habe nur einen Bruder — er lebt in Hamburg, das ist Extrainfo.)\n- *The Eiffel Tower, **which was built in 1889**, is in Paris.*\n\n**Mit Kommas.** Hier ist ***that* verboten** — nur *who* (Personen) und *which* (Sachen).\n\n## Vergleichstabelle\n\n| Merkmal | Defining | Non-defining |\n|---|---|---|\n| Kommas | nein | ja |\n| *that* erlaubt? | ✓ | ✗ |\n| Pronomen weglassbar? | ✓ (wenn Objekt) | ✗ |\n| Bedeutung ohne Relativsatz | unklar | vollständig |\n\n> **Faustregel:** Komma davor → non-defining → **kein that**."
+    },
+    {
+      "id": "theory-relativpronomen",
+      "type": "theory",
+      "title": "Relativpronomen: who, which, that, whose, where, when, why",
+      "body": "## Übersicht aller Relativpronomen\n\n| Pronomen | Bezug | Defining | Non-defining | Bedeutung |\n|---|---|---|---|---|\n| **who** | Personen | ✓ | ✓ | der/die/das (Person) |\n| **which** | Sachen, Tiere | ✓ | ✓ | der/die/das (Sache) |\n| **that** | Personen + Sachen | ✓ | ✗ | der/die/das |\n| **whose** | Besitz (Personen + Sachen) | ✓ | ✓ | dessen/deren |\n| **where** | Orte | ✓ | ✓ | wo, wohin |\n| **when** | Zeitpunkte | ✓ | ✓ | als, wann |\n| **why** | Gründe | ✓ | – | warum |\n\n## whose — Besitz im Relativsatz\n\n*whose* ersetzt ein Possessivpronomen:\n\n- *The student **whose essay** won …* (→ her essay won)\n- *The house **whose roof** leaks …* (→ its roof leaks)\n\n*whose* steht **immer direkt vor** dem Substantiv, das es besitzt.\n\n## Pronomen weglassen\n\nIm **defining clause** kann das Pronomen weggelassen werden, wenn es **Objekt** ist:\n\n- *The book **(that/which) I read** was good.* → *I* ist das Subjekt, *that* ist Objekt → weglassbar\n- *The book **that** was on the table.* → *that* ist Subjekt → **nicht** weglassbar\n\n**Im non-defining clause** ist Weglassen **nie** möglich."
+    },
+    {
+      "id": "theory-formal-preposition",
+      "type": "theory",
+      "title": "Formeller Stil: Präposition + which/whom",
+      "body": "## Präposition am Satzende vs. vor which/whom\n\nBei Relativsätzen mit Präposition gibt es zwei Möglichkeiten:\n\n| Stil | Beispiel |\n|---|---|\n| **Natürlich/gesprochen** | *the company (that) I work **for*** |\n| **Formell/geschrieben** | *the company **for which** I work* |\n| **Natürlich** | *the person (who) I spoke **to*** |\n| **Formell** | *the person **to whom** I spoke* |\n| **Natürlich** | *the issue (that) we talked **about*** |\n| **Formell** | *the issue **about which** we talked* |\n\n## Regeln\n\n1. Im formellen Schreiben (Bewerbungen, akademische Texte) steht die Präposition **vor** *which* oder *whom*.\n2. Im Alltag und mündlich steht die Präposition **am Satzende** — das klingt natürlicher.\n3. **whom** (nicht *who*) nach einer Präposition: *to **whom**, for **whom**, with **whom***.\n4. Nach *Präposition + which/whom* ist **that nicht erlaubt**: ✗ *the company for that I work*.\n\n## Register-Hinweis\n\n> Für B1-Prüfungen: Im **Schreiben** gelegentlich *for which / in which* verwenden — das zeigt grammatische Kompetenz. Im Sprechen klingt es steif; die natürliche Form ist besser."
+    },
+    {
+      "id": "ex-free-defining-book",
+      "type": "exercise",
+      "title": "Defining clause: das Buch, das ich gelesen habe",
+      "exercise": {
+        "id": "ex-free-defining-book",
+        "type": "free_text",
+        "prompt": "Übersetze: *Das Buch, das ich gelesen habe, war faszinierend.* (defining, Relativpronomen kann wegfallen)",
+        "card_ids": ["defining-essential", "omitting-pronoun", "relativpronomen-who-which-that"],
+        "accept": [
+          "The book that I read was fascinating.",
+          "The book which I read was fascinating.",
+          "The book I read was fascinating.",
+          "The book that I read was fascinating",
+          "The book I read was fascinating"
+        ],
+        "hint": "Defining clause: *that* oder *which* — oder ganz weglassen, da das Pronomen Objekt ist.",
+        "distractors": [
+          "The book, that I read, was fascinating.",
+          "The book who I read was fascinating.",
+          "The book which I read it was fascinating."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-nondefining-sister",
+      "type": "exercise",
+      "title": "Non-defining clause: meine Schwester",
+      "exercise": {
+        "id": "ex-free-nondefining-sister",
+        "type": "free_text",
+        "prompt": "Übersetze: *Meine Schwester, die in Wien lebt, ist Ärztin.* (Zusatzinfo → non-defining, Kommas!)",
+        "card_ids": ["defining-vs-nondefinig-overview", "that-not-nondefining", "commas-nondefining"],
+        "accept": [
+          "My sister, who lives in Vienna, is a doctor.",
+          "my sister, who lives in vienna, is a doctor.",
+          "My sister, who lives in Vienna, is a doctor",
+          "My sister who lives in Vienna is a doctor."
+        ],
+        "hint": "Non-defining → Kommas und **who** (Personen), NIEMALS *that* nach Komma.",
+        "distractors": [
+          "My sister, that lives in Vienna, is a doctor.",
+          "My sister, which lives in Vienna, is a doctor.",
+          "My sister who lives in Vienna, is a doctor."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-whose",
+      "type": "exercise",
+      "title": "whose: Besitz im Relativsatz",
+      "exercise": {
+        "id": "ex-cloze-whose",
+        "type": "cloze",
+        "prompt": "Ergänze das richtige Relativpronomen (Besitz).",
+        "card_ids": ["whose-possession", "whose-where-when-why"],
+        "sentence": "The woman ___ handbag was stolen went to the police.",
+        "blanks": [
+          { "accept": ["whose"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Besitz (deren Handtasche) → **whose** (nicht *who's* — das ist *who is*)."
+      }
+    },
+    {
+      "id": "ex-match-pronomen",
+      "type": "exercise",
+      "title": "Relativpronomen zuordnen",
+      "exercise": {
+        "id": "ex-match-pronomen",
+        "type": "matching",
+        "prompt": "Ordne jedem Relativpronomen seine Funktion zu.",
+        "card_ids": ["relativpronomen-who-which-that", "whose-where-when-why", "whose-possession"],
+        "pairs": [
+          { "left": "who", "right": "Personen (Subjekt oder Objekt)" },
+          { "left": "whose", "right": "Besitz (dessen/deren)" },
+          { "left": "where", "right": "Orte (wo/wohin)" },
+          { "left": "which", "right": "Sachen und Tiere (nicht Personen)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-preposition-natural",
+      "type": "exercise",
+      "title": "Natürlicher Stil: Präposition ans Ende",
+      "exercise": {
+        "id": "ex-tiles-preposition-natural",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum natürlichen (nicht-formellen) Relativsatz: *das Unternehmen, für das ich arbeite*",
+        "card_ids": ["preposition-which-whom"],
+        "tiles": ["the", "company", "I", "work", "for"],
+        "hint": "Natürlich: Relativpronomen weglassen, Präposition ans Satzende."
+      }
+    },
+    {
+      "id": "ex-pic-defining-nondefining",
+      "type": "exercise",
+      "title": "Defining oder non-defining?",
+      "exercise": {
+        "id": "ex-pic-defining-nondefining",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz ist ein **non-defining** relative clause (Zusatzinfo mit Kommas)?",
+        "card_ids": ["defining-vs-nondefinig-overview", "commas-nondefining", "that-not-nondefining"],
+        "images": [
+          { "src": "assets/img/rel-nondefining-1.png", "label": "The Eiffel Tower, which was built in 1889, is in Paris.", "is_correct": "true" },
+          { "src": "assets/img/rel-defining-1.png", "label": "The man that called was my uncle." },
+          { "src": "assets/img/rel-defining-2.png", "label": "Students who work hard usually pass." },
+          { "src": "assets/img/rel-nondefining-err.png", "label": "The tower, that stands in Paris, is famous." }
+        ],
+        "hint": "Non-defining: Kommas + kein *that*. Schau auf die Kommas und das Pronomen!",
+        "distractors": [
+          "The man that called was my uncle.",
+          "Students who work hard usually pass.",
+          "The tower, that stands in Paris, is famous."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-where-city",
+      "type": "exercise",
+      "title": "where für Orte",
+      "exercise": {
+        "id": "ex-cloze-where-city",
+        "type": "cloze",
+        "prompt": "Ergänze das richtige Relativpronomen (Ort).",
+        "card_ids": ["where-when-clauses", "whose-where-when-why"],
+        "sentence": "The village ___ I grew up has a beautiful church.",
+        "blanks": [
+          { "accept": ["where", "in which"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Ort → **where** (= in which)."
+      }
+    },
+    {
+      "id": "ex-free-that-forbidden",
+      "type": "exercise",
+      "title": "that nach Komma — verboten!",
+      "exercise": {
+        "id": "ex-free-that-forbidden",
+        "type": "free_text",
+        "prompt": "Korrigiere den Fehler: *My dog, **that** is very old, loves long walks.* Schreibe den richtigen Satz auf Englisch.",
+        "card_ids": ["that-not-nondefining", "relativpronomen-who-which-that", "nondefinig-extra-info"],
+        "accept": [
+          "My dog, which is very old, loves long walks.",
+          "my dog, which is very old, loves long walks.",
+          "My dog, which is very old, loves long walks",
+          "My dog, who is very old, loves long walks."
+        ],
+        "hint": "Nach Komma (non-defining) → *that* ist verboten. Tier/Sache → **which**.",
+        "distractors": [
+          "My dog, that is very old, loves long walks.",
+          "My dog which is very old loves long walks.",
+          "My dog, who that is very old, loves long walks."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-formal-which",
+      "type": "exercise",
+      "title": "Formeller Stil: for which",
+      "exercise": {
+        "id": "ex-free-formal-which",
+        "type": "free_text",
+        "prompt": "Schreibe den Satz im **formellen** Stil um: *the project that we worked on* → Präposition vor *which*",
+        "card_ids": ["preposition-which-whom"],
+        "accept": [
+          "the project on which we worked",
+          "The project on which we worked",
+          "the project on which we worked.",
+          "The project on which we worked."
+        ],
+        "hint": "Formell: Präposition **vor** *which*. *on* + *which* → *on which we worked*.",
+        "distractors": [
+          "the project for which we worked on",
+          "the project which we worked on",
+          "the project in which we worked on"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-defining-nondefining-sätze",
+      "type": "exercise",
+      "title": "Defining oder non-defining?",
+      "exercise": {
+        "id": "ex-match-defining-nondefining-sätze",
+        "type": "matching",
+        "prompt": "Bestimme für jeden Satz: defining (kein Komma, einschränkend) oder non-defining (Kommas, Zusatzinfo)?",
+        "card_ids": ["defining-vs-nondefinig-overview", "defining-essential", "nondefinig-extra-info"],
+        "pairs": [
+          { "left": "The film that won the award was French.", "right": "defining" },
+          { "left": "Paris, which is in France, is beautiful.", "right": "non-defining" },
+          { "left": "Children who eat vegetables are healthy.", "right": "defining" },
+          { "left": "My boss, who is very strict, gave me feedback.", "right": "non-defining" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-whose-sentence",
+      "type": "exercise",
+      "title": "whose im Satz: dessen Auto",
+      "exercise": {
+        "id": "ex-tiles-whose-sentence",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Der Mann, dessen Auto gestohlen wurde, rief die Polizei an.*",
+        "card_ids": ["whose-possession", "whose-where-when-why"],
+        "tiles": ["The", "man", "whose", "car", "was", "stolen", "called", "the", "police"],
+        "hint": "Besitz → **whose** direkt vor dem Substantiv (*whose car*)."
+      }
+    },
+    {
+      "id": "ex-cloze-omit-pronoun",
+      "type": "exercise",
+      "title": "Relativpronomen weglassen — oder nicht?",
+      "exercise": {
+        "id": "ex-cloze-omit-pronoun",
+        "type": "cloze",
+        "prompt": "Trage das Relativpronomen ein — oder lass die Lücke leer (leere Antwort = weglassen), wenn das möglich ist. Welche Form ist korrekt? *The letter ___ she wrote was very kind.*",
+        "card_ids": ["omitting-pronoun", "relativpronomen-who-which-that"],
+        "sentence": "The letter ___ she wrote was very kind.",
+        "blanks": [
+          { "accept": ["that", "which", ""] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Pronomen ist hier **Objekt** (*she* ist das Subjekt des Relativsatzes) → weglassen möglich: *The letter she wrote …*"
+      }
+    },
+    {
+      "id": "ex-free-which-not-person",
+      "type": "exercise",
+      "title": "which geht nicht für Personen",
+      "exercise": {
+        "id": "ex-free-which-not-person",
+        "type": "free_text",
+        "prompt": "Übersetze: *Die Lehrerin, die mich unterrichtet hat, war sehr geduldig.* (defining clause)",
+        "card_ids": ["which-not-for-people", "relativpronomen-who-which-that", "defining-essential"],
+        "accept": [
+          "The teacher who taught me was very patient.",
+          "The teacher that taught me was very patient.",
+          "the teacher who taught me was very patient",
+          "The teacher who taught me was very patient"
+        ],
+        "hint": "Person → **who** oder **that** — NIEMALS *which* für Menschen.",
+        "distractors": [
+          "The teacher which taught me was very patient.",
+          "The teacher, which taught me, was very patient.",
+          "The teacher who teached me was very patient."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "id": "05-the-passive",
+  "title": "The Passive (Passiv in allen Zeiten)",
+  "description": "Das englische Passiv quer durch alle wichtigen Zeiten: be (im jeweiligen Tempus) + 3. Verbform. Aktiv ↔ Passiv umformen, der Urheber mit by, Register-Hinweise und der Vergleich mit dem deutschen werden-Passiv. Alles auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "passiv-formel",
+      "front": "be (in the correct tense) + past participle",
+      "back": "Die Grundformel des englischen Passivs",
+      "notes": "Englisches Passiv = **be** (in der gewünschten Zeit) + **3. Verbform** (past participle). Beispiel: *The letter **is written**.* Das Objekt im Aktivsatz wird zum **Subjekt** im Passivsatz.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "passiv", "formel"]
+    },
+    {
+      "id": "passiv-present-simple",
+      "front": "English is spoken here. / Mistakes are made.",
+      "back": "Passiv: Present Simple (is/are + 3. Verbform)",
+      "notes": "Present-Simple-Passiv: **am/is/are + past participle**. Für allgemeine Aussagen oder dauerhafte Zustände: *Coffee **is grown** in Brazil.* *The offices **are cleaned** every night.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["passiv", "present-simple"]
+    },
+    {
+      "id": "passiv-past-simple",
+      "front": "The house was built in 1900. / Errors were found.",
+      "back": "Passiv: Past Simple (was/were + 3. Verbform)",
+      "notes": "Past-Simple-Passiv: **was/were + past participle**. Handelnder unbekannt oder unwichtig: *The window **was broken** last night.* *Three suspects **were arrested**.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["passiv", "past-simple"]
+    },
+    {
+      "id": "passiv-present-continuous",
+      "front": "A new bridge is being built.",
+      "back": "Passiv: Present Continuous (is/are being + 3. Verbform)",
+      "notes": "Present-Continuous-Passiv: **am/is/are being + past participle**. Für Vorgänge, die gerade laufen: *The road **is being repaired** at the moment.* Häufiger Fehler: ‚is been built' statt **is being built**.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Gerade im Gange → is/are **being** + 3. Verbform (NICHT 'is been').",
+      "tags": ["passiv", "present-continuous"]
+    },
+    {
+      "id": "passiv-present-perfect",
+      "front": "The work has been done. / The letters have been sent.",
+      "back": "Passiv: Present Perfect (has/have been + 3. Verbform)",
+      "notes": "Present-Perfect-Passiv: **has/have been + past participle**. Das Ergebnis zählt jetzt: *The report **has been finished**.* Typischer Fehler: ‚has been wrote' → richtig: **has been written**; fehlendes *been*: ‚has written' (das wäre Aktiv!).",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Present-Perfect-Passiv braucht **been** zwischen *has/have* und dem Partizip.",
+      "tags": ["passiv", "present-perfect"]
+    },
+    {
+      "id": "passiv-future",
+      "front": "The parcel will be delivered tomorrow.",
+      "back": "Passiv: Future (will be + 3. Verbform)",
+      "notes": "Future-Passiv: **will be + past participle**. *The results **will be announced** next week.* *You **will be contacted** by our team.* Oft in formellen Ankündigungen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["passiv", "future"]
+    },
+    {
+      "id": "passiv-modal",
+      "front": "It can be repaired. / This must be done.",
+      "back": "Passiv mit Modalverb (modal + be + 3. Verbform)",
+      "notes": "Passiv mit Modalverb: **modal + be + past participle** (kein *being*, kein *been*): *It **can be fixed**.* *The form **must be signed**.* *This **should be checked** again.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["passiv", "modalverb"]
+    },
+    {
+      "id": "passiv-by-urheber",
+      "front": "The novel was written by Kafka.",
+      "back": "Urheber/Verursacher mit by",
+      "notes": "Den **Urheber** (= wer etwas tut/tat) gibt man mit **by + Nomen/Pronomen** an: *The painting was made **by Picasso**.* *I was told **by my manager**.* Ist der Handelnde unwichtig oder unbekannt, lässt man *by* weg.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["passiv", "by", "urheber"]
+    },
+    {
+      "id": "passiv-wann",
+      "front": "When do we use the passive?",
+      "back": "Handelnder unbekannt/unwichtig; formell/wissenschaftlicher Stil",
+      "notes": "Das Passiv nutzt man, wenn\n1. der **Handelnde unbekannt** ist: *My bike was stolen.*\n2. der Handelnde **unwichtig** ist: *The bridge was opened in 2010.*\n3. man einen **formellen/wissenschaftlichen** Stil anstrebt: *The experiment was conducted …*\n4. man das **Objekt betonen** möchte (Thema des Satzes).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["passiv", "register", "wann"]
+    },
+    {
+      "id": "passiv-aktiv-umformen",
+      "front": "Active → Passive: The chef cooked the meal.",
+      "back": "The meal was cooked (by the chef).",
+      "notes": "Umformung **Aktiv → Passiv**:\n1. Objekt wird **Subjekt**: *the meal*\n2. Verb → **was/were + past participle**: *was cooked*\n3. Ursprüngliches Subjekt optional als **by-Phrase**: *(by the chef)*\n\n*Active:* **The chef** cooked **the meal**.\n*Passive:* **The meal** was cooked (by the chef).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["passiv", "umformung", "aktiv"]
+    },
+    {
+      "id": "passiv-zwei-objekte",
+      "front": "I was given a book. / A book was given to me.",
+      "back": "Passiv bei Verben mit zwei Objekten",
+      "notes": "Verben wie *give, send, tell, show* haben zwei Objekte. Beide können Subjekt im Passivsatz werden:\n- *I **was given** a book.* (Personalobjekt → Subjekt)\n- *A book **was given to** me.* (Sachobjekt → Subjekt, Personalobjekt mit *to*)\n\nBeide Varianten sind korrekt; die erste ist im Alltag häufiger.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["passiv", "zwei-objekte", "dativ"]
+    },
+    {
+      "id": "passiv-werden-kontrast",
+      "front": "Deutsch: werden-Passiv vs. Englisch: be-Passiv",
+      "back": "Deutsch: wird gebaut / Englisch: is being built",
+      "notes": "Kontrast Deutsch–Englisch:\n\n| Deutsch | Englisch |\n|---|---|\n| wird gebaut | is being built |\n| wurde gebaut | was built |\n| ist gebaut worden | has been built |\n| wird gebaut werden | will be built |\n\nIm Deutschen ist *werden* das Hilfsverb; im Englischen übernimmt **be** diese Rolle. ‚Wird gebaut' bedeutet gerade jetzt → **is being built** (Present Continuous Passive).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["passiv", "deutsch-kontrast", "werden"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theorie-01-grundform",
+      "type": "theory",
+      "title": "Das englische Passiv — Grundform und alle Zeiten",
+      "body": "# The Passive — Passiv in allen Zeiten\n\nDie Grundformel ist immer gleich: **be (im passenden Tempus) + 3. Verbform (past participle)**.\n\n## Übersicht: Passiv in den wichtigsten Zeiten\n\n| Zeitform | Bildung | Beispiel |\n|---|---|---|\n| **Present Simple** | am/is/are + p.p. | *English **is spoken** here.* |\n| **Past Simple** | was/were + p.p. | *The house **was built** in 1900.* |\n| **Present Continuous** | am/is/are being + p.p. | *A bridge **is being built**.* |\n| **Present Perfect** | has/have been + p.p. | *The work **has been done**.* |\n| **Future (will)** | will be + p.p. | *It **will be delivered** tomorrow.* |\n| **Modal** | modal + be + p.p. | *It **can be repaired**.* |\n\n> **Merke:** Das Hilfsverb **be** übernimmt die Zeitinformation. Die 3. Verbform (past participle) bleibt unveränderlich.\n\n## Vergleich mit dem Deutschen\n\nDeutsch benutzt **werden** als Passiv-Hilfsverb; Englisch benutzt **be**. Beide Sprachen bilden das Passiv strukturell ähnlich — der wichtigste Unterschied ist das Hilfsverb und bei laufenden Vorgängen die Erweiterung **being**:\n\n- *Das Haus wird gerade gebaut.* → ***The house is being built.***\n- *Das Haus wurde gebaut.* → ***The house was built.***"
+    },
+    {
+      "id": "theorie-02-urheber-wann",
+      "type": "theory",
+      "title": "Wann benutzt man das Passiv? Der Urheber mit by",
+      "body": "## Wann wählt man das Passiv?\n\n1. **Handelnder unbekannt:** *My car was stolen.* (Wer hat es gestohlen? Unbekannt.)\n2. **Handelnder unwichtig:** *The bridge was opened in 2010.* (Wer es eröffnete, ist nebensächlich.)\n3. **Formeller / wissenschaftlicher Stil:** *The samples were analysed in the laboratory.* Das Passiv ist typisch für akademische Texte, Berichte und Nachrichten.\n4. **Betonung des Objekts:** Das, worüber gesprochen wird, steht als Subjekt vorn.\n\n## Der Urheber: by + Person/Sache\n\nDen **Handelnden** (Agens) nennt man optional mit **by**:\n\n- *The novel **was written by** Kafka.*\n- *I **was told by** my teacher.*\n\nIst er unwichtig oder unbekannt → *by*-Phrase weglassen.\n\n## Register-Hinweis\n\n> Das Passiv wirkt **formeller** und ist besonders in wissenschaftlichen Texten, Zeitungsberichten und Geschäftsdokumenten häufig. Im Alltag bevorzugen Muttersprachler oft das **Aktiv**, weil es direkter klingt. Für B1-Schreiben und -Lesen: beide Formen sicher erkennen und anwenden."
+    },
+    {
+      "id": "theorie-03-umformung-sonderfaelle",
+      "type": "theory",
+      "title": "Aktiv ↔ Passiv umformen — Sonderfälle",
+      "body": "## Aktiv → Passiv: die drei Schritte\n\n1. **Objekt des Aktivsatzes** wird zum **Subjekt** des Passivsatzes.\n2. **Verb** wird zu **be (im gleichen Tempus) + past participle**.\n3. **Subjekt des Aktivsatzes** wird optional zur **by-Phrase**.\n\n**Beispiel:**\n\n| | Satz |\n|---|---|\n| *Aktiv* | **The company** launched **the product** last year. |\n| *Passiv* | **The product** was launched (by the company) last year. |\n\n## Verben mit zwei Objekten\n\nBei Verben wie *give, send, tell, offer* gibt es zwei Möglichkeiten:\n\n- *They gave **me** a book.* → ***I was given** a book.* (häufiger)\n- *They gave me **a book**.* → ***A book was given to me.**\n\n## Häufige Fehler — Checkliste\n\n| Fehler | Richtig |\n|---|---|\n| *is build* | **is built** (3. Verbform!) |\n| *is been built* | **is being built** (Present Continuous) |\n| *has written* (als Passiv) | **has been written** (*been* fehlt!) |\n| Aktiv statt Passiv: *they built it* | *it **was built*** |\n\n> **Kurzregel:** Present-Perfect-Passiv braucht **been** — nie vergessen: *has/have **been** + p.p.*"
+    },
+    {
+      "id": "ex-ft-present-simple-passiv",
+      "type": "exercise",
+      "title": "Übersetzen: Present Simple Passiv",
+      "exercise": {
+        "id": "ex-ft-present-simple-passiv",
+        "type": "free_text",
+        "prompt": "Übersetze ins Englische: *Hier wird Englisch gesprochen.* (Present Simple Passiv)",
+        "card_ids": ["passiv-present-simple", "passiv-formel"],
+        "accept": [
+          "English is spoken here.",
+          "english is spoken here",
+          "English is spoken here",
+          "Here English is spoken."
+        ],
+        "hint": "Present Simple Passiv: is + 3. Verbform von *speak* (= spoken).",
+        "distractors": [
+          "English is speak here.",
+          "English is speaking here.",
+          "English has been spoken here.",
+          "English spoke here."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-ft-past-simple-passiv",
+      "type": "exercise",
+      "title": "Übersetzen: Past Simple Passiv",
+      "exercise": {
+        "id": "ex-ft-past-simple-passiv",
+        "type": "free_text",
+        "prompt": "Übersetze: *Das Haus wurde 1900 gebaut.* (Past Simple Passiv)",
+        "card_ids": ["passiv-past-simple", "passiv-formel"],
+        "accept": [
+          "The house was built in 1900.",
+          "the house was built in 1900",
+          "The house was built in 1900",
+          "In 1900 the house was built."
+        ],
+        "hint": "Past Simple Passiv: was + 3. Verbform von *build* (= built).",
+        "distractors": [
+          "The house is built in 1900.",
+          "The house was build in 1900.",
+          "The house has been built in 1900.",
+          "The house built in 1900."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-ft-present-continuous-passiv",
+      "type": "exercise",
+      "title": "Übersetzen: Present Continuous Passiv",
+      "exercise": {
+        "id": "ex-ft-present-continuous-passiv",
+        "type": "free_text",
+        "prompt": "Übersetze: *Gerade wird eine neue Brücke gebaut.* (Vorgang läuft gerade — Present Continuous Passiv)",
+        "card_ids": ["passiv-present-continuous", "passiv-formel"],
+        "accept": [
+          "A new bridge is being built.",
+          "a new bridge is being built",
+          "A new bridge is being built",
+          "A new bridge is currently being built."
+        ],
+        "hint": "Gerade im Gange → is **being** + built (NICHT 'is been built').",
+        "distractors": [
+          "A new bridge is been built.",
+          "A new bridge is building.",
+          "A new bridge was being built.",
+          "A new bridge has been built."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-ft-present-perfect-passiv",
+      "type": "exercise",
+      "title": "Übersetzen: Present Perfect Passiv",
+      "exercise": {
+        "id": "ex-ft-present-perfect-passiv",
+        "type": "free_text",
+        "prompt": "Übersetze: *Die Arbeit ist erledigt worden.* (Present Perfect Passiv — das Ergebnis zählt jetzt)",
+        "card_ids": ["passiv-present-perfect", "passiv-formel"],
+        "accept": [
+          "The work has been done.",
+          "the work has been done",
+          "The work has been done",
+          "The work has been completed."
+        ],
+        "hint": "Present-Perfect-Passiv: has + **been** + 3. Verbform. Das *been* darf nicht fehlen!",
+        "distractors": [
+          "The work has done.",
+          "The work has been did.",
+          "The work was done.",
+          "The work is done."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-zeiten-passiv",
+      "type": "exercise",
+      "title": "Tempus → Passivform zuordnen",
+      "exercise": {
+        "id": "ex-match-zeiten-passiv",
+        "type": "matching",
+        "prompt": "Ordne jedem Tempus die richtige Passivform zu.",
+        "card_ids": ["passiv-present-simple", "passiv-past-simple", "passiv-present-continuous", "passiv-present-perfect", "passiv-future", "passiv-modal"],
+        "pairs": [
+          { "left": "Present Simple Passiv", "right": "is/are + past participle" },
+          { "left": "Present Continuous Passiv", "right": "is/are being + past participle" },
+          { "left": "Present Perfect Passiv", "right": "has/have been + past participle" },
+          { "left": "Future Passiv (will)", "right": "will be + past participle" },
+          { "left": "Modal Passiv", "right": "modal + be + past participle" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-road-being-repaired",
+      "type": "exercise",
+      "title": "Lücke: Vorgang gerade jetzt",
+      "exercise": {
+        "id": "ex-cloze-road-being-repaired",
+        "type": "cloze",
+        "prompt": "Ergänze die Lücke (Present Continuous Passiv: der Vorgang läuft gerade).",
+        "card_ids": ["passiv-present-continuous"],
+        "sentence": "Don't go that way — the road ___ at the moment.",
+        "blanks": [
+          { "accept": ["is being repaired", "is being resurfaced", "is being worked on"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Gerade im Gange: is + being + past participle. (z. B. *is being repaired*)"
+      }
+    },
+    {
+      "id": "ex-cloze-letters-sent",
+      "type": "exercise",
+      "title": "Lücke: Present Perfect Passiv",
+      "exercise": {
+        "id": "ex-cloze-letters-sent",
+        "type": "cloze",
+        "prompt": "Ergänze die Lücke mit dem Present Perfect Passiv von *send*.",
+        "card_ids": ["passiv-present-perfect"],
+        "sentence": "All the invitations ___ already.",
+        "blanks": [
+          { "accept": ["have been sent", "'ve been sent"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Present-Perfect-Passiv: have/has + **been** + past participle von *send* (= sent)."
+      }
+    },
+    {
+      "id": "ex-tiles-aktiv-zu-passiv",
+      "type": "exercise",
+      "title": "Aktiv → Passiv: Wörter ordnen",
+      "exercise": {
+        "id": "ex-tiles-aktiv-zu-passiv",
+        "type": "word_tiles",
+        "prompt": "Bilde den Passivsatz aus: *Shakespeare wrote this play.* → Die Wörter des Passivsatzes:",
+        "card_ids": ["passiv-aktiv-umformen", "passiv-past-simple"],
+        "tiles": ["This", "play", "was", "written", "by", "Shakespeare."],
+        "hint": "Objekt (*this play*) → Subjekt; was + written; by + Urheber."
+      }
+    },
+    {
+      "id": "ex-tiles-modal-passiv",
+      "type": "exercise",
+      "title": "Passiv mit Modalverb",
+      "exercise": {
+        "id": "ex-tiles-modal-passiv",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zu einem korrekten Passivsatz: *Das Problem kann gelöst werden.*",
+        "card_ids": ["passiv-modal"],
+        "tiles": ["The", "problem", "can", "be", "solved."],
+        "hint": "Modal-Passiv: modal + be + past participle (kein *being*, kein *been*)."
+      }
+    },
+    {
+      "id": "ex-ft-aktiv-passiv-umformung",
+      "type": "exercise",
+      "title": "Aktiv → Passiv umformen",
+      "exercise": {
+        "id": "ex-ft-aktiv-passiv-umformung",
+        "type": "free_text",
+        "prompt": "Forme den Aktivsatz ins Passiv um: *The company launched the product last year.*",
+        "card_ids": ["passiv-aktiv-umformen", "passiv-past-simple"],
+        "accept": [
+          "The product was launched by the company last year.",
+          "the product was launched by the company last year",
+          "The product was launched last year by the company.",
+          "The product was launched last year.",
+          "The product was launched by the company last year"
+        ],
+        "hint": "Objekt (*the product*) → Subjekt; was launched; by the company (optional).",
+        "distractors": [
+          "The product is launched by the company last year.",
+          "The product was launch by the company last year.",
+          "The product has been launched by the company last year.",
+          "The company was launched by the product last year."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-ft-zwei-objekte",
+      "type": "exercise",
+      "title": "Passiv mit zwei Objekten",
+      "exercise": {
+        "id": "ex-ft-zwei-objekte",
+        "type": "free_text",
+        "prompt": "Bilde den häufigeren Passivsatz (Personalobjekt → Subjekt): *They gave me a book.*",
+        "card_ids": ["passiv-zwei-objekte"],
+        "accept": [
+          "I was given a book.",
+          "i was given a book",
+          "I was given a book",
+          "I was given a book by them."
+        ],
+        "hint": "Das Personalobjekt (*me* → *I*) wird Subjekt: I was given a book.",
+        "distractors": [
+          "I was given a book to.",
+          "Me was given a book.",
+          "A book was given me.",
+          "I am given a book."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-passiv-zeiten",
+      "type": "exercise",
+      "title": "Welcher Satz ist korrekt?",
+      "exercise": {
+        "id": "ex-pic-passiv-zeiten",
+        "type": "picture_choice",
+        "prompt": "Ein Paket ist gerade gestern Abend geliefert worden (abgeschlossen, Ergebnis zählt jetzt). Welcher englische Satz ist korrekt?",
+        "card_ids": ["passiv-present-perfect", "passiv-past-simple"],
+        "images": [
+          { "src": "assets/img/passive-pp-1.png", "label": "The parcel has been delivered.", "is_correct": "true" },
+          { "src": "assets/img/passive-pp-2.png", "label": "The parcel have been delivered." },
+          { "src": "assets/img/passive-pp-3.png", "label": "The parcel has been deliver." },
+          { "src": "assets/img/passive-pp-4.png", "label": "The parcel was been delivered." }
+        ],
+        "hint": "Present-Perfect-Passiv: **has been** + past participle (*delivered*).",
+        "distractors": [
+          "The parcel have been delivered.",
+          "The parcel has been deliver.",
+          "The parcel was been delivered."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-future-passiv",
+      "type": "exercise",
+      "title": "Lücke: Future Passiv",
+      "exercise": {
+        "id": "ex-cloze-future-passiv",
+        "type": "cloze",
+        "prompt": "Ergänze: Future Passiv von *announce* — die Ergebnisse werden morgen bekannt gegeben.",
+        "card_ids": ["passiv-future"],
+        "sentence": "The results ___ tomorrow.",
+        "blanks": [
+          { "accept": ["will be announced", "will be published", "will be released"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Future Passiv: will + be + past participle (z. B. *will be announced*)."
+      }
+    }
+  ]
+}

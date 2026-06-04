@@ -1,0 +1,403 @@
+{
+  "id": "08-linking-words",
+  "title": "Linking Words und Textstruktur",
+  "description": "Konnektoren für strukturierte B1-Texte: Gegensatz, Folge, Ursache, Hinzufügung und Gliederung. Mit besonderem Fokus auf die feinen Unterschiede zwischen 'although' und 'despite', 'because' und 'because of' sowie dem Unterschied zwischen 'however' (Satzadverb) und 'but' (Konjunktion). Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "konnektoren-gegensatz",
+      "front": "however / nevertheless / on the other hand / whereas",
+      "back": "Gegensatz-Konnektoren",
+      "notes": "**Gegensatz** (Kontrast) ausdrücken:\n- **however** (jedoch) — Satzadverb, Komma: *The plan was good. **However**, it failed.*\n- **nevertheless** (trotzdem) — betont, formell: *It was risky. **Nevertheless**, we continued.*\n- **on the other hand** (andererseits) — zwei Seiten abwägen\n- **whereas** (wohingegen) — direkter Kontrast in einem Satz: *She likes tea, **whereas** he prefers coffee.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "however = Satzadverb (Komma!), but = Konjunktion (kein Komma nötig).",
+      "tags": ["konnektoren", "gegensatz", "b1"]
+    },
+    {
+      "id": "although-vs-despite",
+      "front": "although/though + Satz vs. despite/in spite of + Nomen/-ing",
+      "back": "Konzession: Satz oder Nomen?",
+      "notes": "**although / though** leitet einen **vollständigen Nebensatz** ein:\n- *__Although__ it was raining, we went out.*\n- *We went out, **though** it was cold.*\n\n**despite / in spite of** verlangen **Nomen oder Verb+-ing** (KEIN Satz mit Subjekt + Verb):\n- *__Despite__ the rain, we went out.*\n- *__In spite of__ feeling tired, she worked hard.*\n\n⚠️ Häufiger Fehler: *~~Despite it was raining~~* → ❌ (Satz nach *despite* ist falsch!)",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "despite/in spite of + Nomen oder -ing; although + vollständiger Satz.",
+      "tags": ["konnektoren", "gegensatz", "although", "despite", "b1"]
+    },
+    {
+      "id": "folge-konsequenz",
+      "front": "therefore / so / as a result / consequently",
+      "back": "Folge- und Konsequenz-Konnektoren",
+      "notes": "**Folge / Konsequenz** ausdrücken:\n- **therefore** (deshalb, daher) — formell, schriftlich: *She studied hard; **therefore**, she passed.*\n- **so** (also, deswegen) — neutral bis umgangssprachlich: *It was late, **so** we left.*\n- **as a result** (als Ergebnis / folglich) — formell: *He missed the train. **As a result**, he was late.*\n- **consequently** (folglich) — sehr formell: *Consequently, production stopped.*\n\n**Register:** *so* eher mündlich/informell; *therefore/consequently* schriftlich/formell.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "folge", "b1"]
+    },
+    {
+      "id": "because-vs-because-of",
+      "front": "because + Satz vs. because of / due to + Nomen",
+      "back": "Ursache: Satz oder Nomen?",
+      "notes": "**because** leitet einen **vollständigen Satz** ein:\n- *We stayed home **because** it was raining.*\n\n**because of** und **due to** verlangen ein **Nomen oder Nomen-Phrase** (KEIN vollständiger Satz):\n- *We stayed home **because of** the rain.*\n- *The delay was **due to** bad weather.*\n\n**since / as** können ebenfalls Ursache ausdrücken (eher formell/geschrieben):\n- ***Since** you're here, let's start.*\n- ***As** it was late, they stopped.*\n\n⚠️ *~~because of it was raining~~* → ❌",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "because + Satz; because of/due to + Nomen/-ing.",
+      "tags": ["konnektoren", "ursache", "because", "b1"]
+    },
+    {
+      "id": "hinzufuegung",
+      "front": "moreover / furthermore / in addition / besides",
+      "back": "Hinzufügungs-Konnektoren",
+      "notes": "**Zusätzliche Information** hinzufügen:\n- **moreover** (darüber hinaus) — formell, stärker als *also*: *It's expensive. **Moreover**, it takes too long.*\n- **furthermore** (außerdem, des Weiteren) — formell, Aufsätze/Berichte: *__Furthermore__, studies show …*\n- **in addition** (zusätzlich) — neutral bis formell: *__In addition__ to the cost, there is another problem.*\n- **besides** (außerdem, überdies) — eher informell/gesprochen: *I don't want to go. **Besides**, it's too far.*\n\n**Tipp:** *moreover* und *furthermore* wirken im Aufsatz akademischer als *also*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "hinzufuegung", "b1"]
+    },
+    {
+      "id": "gliederung-reihenfolge",
+      "front": "firstly / secondly / finally / to sum up / in conclusion",
+      "back": "Gliederungs- und Reihenfolge-Konnektoren",
+      "notes": "Für **strukturierte Texte und Präsentationen**:\n- **firstly … secondly … finally** (erstens … zweitens … schließlich) — Aufzählung von Punkten\n- **to sum up / to summarise** (zusammenfassend) — Zusammenfassung einleiten\n- **in conclusion** (abschließend, zum Schluss) — letzter Absatz eines Aufsatzes\n\n**Reihenfolge im Text:**\n| Position | Beispiel |\n|---|---|\n| Einleitung | *To begin with, …* |\n| Mittelteil | *Furthermore, … / In addition, …* |\n| Schluss | *In conclusion, … / To sum up, …* |",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "gliederung", "b1"]
+    },
+    {
+      "id": "however-vs-but",
+      "front": "however (Satzadverb) vs. but (Konjunktion)",
+      "back": "Gegensatz: Stellung und Interpunktion",
+      "notes": "**but** ist eine **Konjunktion** — verbindet zwei Hauptsätze direkt, kein Semikolon:\n- *It was cold **but** we enjoyed it.*\n\n**however** ist ein **Satzadverb** — steht am Anfang des zweiten Satzes mit Komma (oder nach Semikolon):\n- *It was cold. **However**, we enjoyed it.*\n- *It was cold; **however**, we enjoyed it.*\n\n⚠️ *~~It was cold, however we enjoyed it.~~* (ohne Satzzeichen nach *however*) → ❌\n\n**Register:** *however* ist formeller als *but* und typisch für schriftliche Texte.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "gegensatz", "however", "but", "b1"]
+    },
+    {
+      "id": "whereas-contrast",
+      "front": "whereas / while (Kontrast)",
+      "back": "direkter Kontrast in einem Satz",
+      "notes": "**whereas** und **while** (im Sinne von Kontrast) verbinden zwei gegensätzliche Fakten **in einem Satz**:\n- *She prefers tea, **whereas** he drinks coffee.*\n- ***While** some people enjoy cities, others prefer the countryside.*\n\n**Tipp:** *whereas* ist typisch schriftlich und etwas formeller; *while* kann auch zeitlich sein — Kontext beachten!",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "gegensatz", "whereas", "b1"]
+    },
+    {
+      "id": "therefore-formal",
+      "front": "therefore / thus / hence",
+      "back": "formelle Schlussfolgerung",
+      "notes": "**therefore** (deshalb), **thus** (somit) und **hence** (daher) sind alle formell und schriftlich. *Thus* und *hence* wirken noch akademischer als *therefore*:\n- *The data was incomplete; **therefore**, we repeated the test.*\n- ***Thus**, no conclusion could be drawn.*\n\n**Stil:** *so* ist das informelle Äquivalent — mündlich und alltäglich.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "folge", "formell", "b1"]
+    },
+    {
+      "id": "in-spite-of-form",
+      "front": "in spite of + Nomen/-ing",
+      "back": "trotz + Nomen (formell)",
+      "notes": "**in spite of** ist ein formelleres Synonym für **despite** und verhält sich genauso:\n- ***In spite of** the cold weather, they played outside.*\n- ***In spite of** working hard, he failed the exam.*\n\nBeide Ausdrücke verlangen **Nomen oder Verb+-ing** — KEIN Satz mit Subjekt+Verb.\n\n*Despite* und *in spite of* sind **austauschbar**; *despite* wird häufiger verwendet.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "gegensatz", "despite", "b1"]
+    },
+    {
+      "id": "since-as-cause",
+      "front": "since / as (Ursache)",
+      "back": "da / weil (formell, Ursache bereits bekannt)",
+      "notes": "**since** und **as** können Ursache ausdrücken (nicht nur Zeit!), wenn der Grund **bereits bekannt** oder **selbstverständlich** ist:\n- ***Since** you are already here, let us start the meeting.*\n- ***As** it was getting dark, we turned on the lights.*\n\n⚠️ Verwechslungsgefahr: *since* kann auch Zeit bedeuten (*since 2020*). Im Kontext unterscheiden!\n\n**Stil:** *since/as* als Ursache = eher formell/schriftlich.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konnektoren", "ursache", "since", "b1"]
+    },
+    {
+      "id": "due-to-formal",
+      "front": "due to / owing to + Nomen",
+      "back": "aufgrund von + Nomen (formell)",
+      "notes": "**due to** und **owing to** sind formell und verlangen ein **Nomen oder Gerundium**:\n- *The flight was cancelled **due to** bad weather.*\n- ***Owing to** heavy traffic, we arrived late.*\n\n**due to** ist häufiger im Alltag; **owing to** wirkt noch formeller (Berichte, Amtssprache).\n\n**Merke:** Beide = *because of* (formeller Stil).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "ursache", "formell", "b1"]
+    },
+    {
+      "id": "in-conclusion-sumup",
+      "front": "in conclusion / to sum up / to summarise",
+      "back": "Schluss und Zusammenfassung",
+      "notes": "Diese Ausdrücke **eröffnen den Schlussabsatz** eines Aufsatzes oder einer Präsentation:\n- ***In conclusion**, renewable energy is essential for our future.*\n- ***To sum up**, there are three main reasons …*\n\n**Tipp:** Nicht mit *finally* verwechseln — *finally* fügt den letzten **Punkt** einer Aufzählung hinzu, *in conclusion* leitet die **Gesamtzusammenfassung** ein.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["konnektoren", "gliederung", "schluss", "b1"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-overview",
+      "type": "theory",
+      "title": "Konnektoren nach Funktion — Überblick",
+      "body": "# Linking Words: Konnektoren für strukturierte Texte\n\nKonnektoren (auch: *linking words* oder *discourse markers*) geben deinem Text **Struktur und Logik**. Für B1 sind fünf Funktionsgruppen wichtig:\n\n| Funktion | Typische Konnektoren |\n|---|---|\n| **Gegensatz** | however, nevertheless, on the other hand, although, though, despite, in spite of, whereas |\n| **Folge / Konsequenz** | therefore, so, as a result, consequently |\n| **Ursache / Grund** | because, since, as, due to, because of, owing to |\n| **Hinzufügung** | moreover, furthermore, in addition, besides |\n| **Gliederung / Reihenfolge** | firstly, secondly, finally, to sum up, in conclusion |\n\n## Register — schriftlich vs. mündlich\n\nNicht alle Konnektoren sind gleich formell:\n\n- **Formell / schriftlich (Aufsatz, Bericht):** however, therefore, moreover, furthermore, consequently, in addition, in conclusion, nevertheless\n- **Neutral:** although, because, as a result, firstly/finally\n- **Eher mündlich / informell:** so, but, besides, though (am Satzende)\n\n> **Regel für B1-Aufsätze:** Bevorzuge formelle Konnektoren. Vermeide, ganze Abschnitte nur mit *and*, *but* und *so* zu verbinden."
+    },
+    {
+      "id": "theory-although-despite",
+      "type": "theory",
+      "title": "although vs. despite — der häufigste Fehler",
+      "body": "## although / though → vollständiger Nebensatz\n\n**although** und **though** leiten einen **vollständigen Satz** mit Subjekt + Verb ein:\n\n- *__Although__ it was **raining**, we went out.*\n- *We continued, **though** we were **tired**.*\n\n## despite / in spite of → Nomen oder Verb+-ing\n\n**despite** und **in spite of** verlangen ein **Nomen** oder **Verb+-ing** — KEIN vollständiger Satz:\n\n| ✓ Richtig | ✗ Falsch |\n|---|---|\n| *Despite the **rain**, we went out.* | *~~Despite it was raining~~* |\n| *In spite of **feeling** tired, she continued.* | *~~In spite of she was tired~~* |\n| *Despite the **cold weather**, they played outside.* | *~~Despite it was cold~~* |\n\n## Schnelltest\n\nKommt nach dem Konnektor ein **Verb mit Subjekt** (z. B. *it was*)? → **although/though**\nKommt ein **Nomen** oder **-ing**? → **despite/in spite of**"
+    },
+    {
+      "id": "theory-because-however",
+      "type": "theory",
+      "title": "because vs. because of — und however vs. but",
+      "body": "## because + Satz vs. because of / due to + Nomen\n\n| Konnektor | Folgt | Beispiel |\n|---|---|---|\n| **because** | vollständiger Satz | *We stayed home **because** it **was** raining.* |\n| **because of** | Nomen / Nomen-Phrase | *We stayed home **because of** the rain.* |\n| **due to** | Nomen / Nomen-Phrase (formell) | *Delays **due to** bad weather.* |\n\n⚠️ *~~because of it was raining~~* → ❌ (*of* verlangt Nomen, keinen Satz)\n\n## however (Satzadverb) vs. but (Konjunktion)\n\n**but** verbindet zwei Hauptsätze **direkt** — keine besondere Interpunktion:\n- *It was cold **but** we enjoyed it.*\n\n**however** beginnt einen **neuen Satz** oder folgt einem Semikolon — mit **Komma**:\n- *It was cold. **However**, we enjoyed it.*\n- *It was cold; **however**, we enjoyed it.*\n\n> **Merksatz:** *however* = eigener Satz (oder Semikolon), immer mit Komma danach. *but* = Konjunktion, verbindet direkt.\n\n## Stil-Tipp\n*however* ist deutlich formeller als *but* und gehört in schriftliche Texte, Aufsätze und Berichte."
+    },
+    {
+      "id": "ex-free-although-regen",
+      "type": "exercise",
+      "title": "although — Konzession übersetzen",
+      "exercise": {
+        "id": "ex-free-although-regen",
+        "type": "free_text",
+        "prompt": "Übersetze: *Obwohl es regnete, gingen wir spazieren.* (Nutze 'although'.)",
+        "card_ids": ["although-vs-despite"],
+        "accept": [
+          "Although it was raining, we went for a walk.",
+          "Although it rained, we went for a walk.",
+          "Although it was raining, we went out.",
+          "We went for a walk, although it was raining.",
+          "We went for a walk although it rained."
+        ],
+        "hint": "although + vollständiger Satz (Subjekt + Verb).",
+        "distractors": [
+          "Despite it was raining, we went for a walk.",
+          "Despite it rained, we went for a walk.",
+          "In spite of it was raining, we went out.",
+          "Although the rain, we went for a walk."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-despite-noise",
+      "type": "exercise",
+      "title": "despite — trotz des Lärms",
+      "exercise": {
+        "id": "ex-free-despite-noise",
+        "type": "free_text",
+        "prompt": "Übersetze: *Trotz des Lärms konnte sie schlafen.* (Nutze 'despite'.)",
+        "card_ids": ["although-vs-despite", "in-spite-of-form"],
+        "accept": [
+          "Despite the noise, she could sleep.",
+          "Despite the noise she could sleep.",
+          "She could sleep despite the noise.",
+          "In spite of the noise, she could sleep.",
+          "In spite of the noise she could sleep."
+        ],
+        "hint": "despite + Nomen (hier: 'the noise') — KEIN Satz mit Verb.",
+        "distractors": [
+          "Although the noise, she could sleep.",
+          "Despite it was noisy, she could sleep.",
+          "In spite of it was noisy, she could sleep.",
+          "Despite of the noise, she could sleep."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-because-of-traffic",
+      "type": "exercise",
+      "title": "because of — wegen des Staus",
+      "exercise": {
+        "id": "ex-free-because-of-traffic",
+        "type": "free_text",
+        "prompt": "Übersetze: *Wir kamen zu spät wegen des Staus.* (Nutze 'because of'.)",
+        "card_ids": ["because-vs-because-of", "due-to-formal"],
+        "accept": [
+          "We were late because of the traffic.",
+          "We arrived late because of the traffic.",
+          "Because of the traffic, we were late.",
+          "Because of the traffic we were late.",
+          "We were late due to the traffic."
+        ],
+        "hint": "because of + Nomen ('the traffic') — kein vollständiger Satz danach.",
+        "distractors": [
+          "We were late because of it was traffic.",
+          "We were late because the traffic.",
+          "We were late because of there was traffic.",
+          "We were late although the traffic."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-however",
+      "type": "exercise",
+      "title": "however — Satzadverb einsetzen",
+      "exercise": {
+        "id": "ex-cloze-however",
+        "type": "cloze",
+        "prompt": "Ergänze die Lücke mit dem richtigen Konnektor (Gegensatz, formell, Satzadverb).",
+        "card_ids": ["however-vs-but", "konnektoren-gegensatz"],
+        "sentence": "The project was expensive. ___, the results were impressive.",
+        "blanks": [
+          { "accept": ["However", "however", "Nevertheless", "nevertheless"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Ein Satzadverb, das einen neuen Satz beginnt und mit Komma folgt: H______."
+      }
+    },
+    {
+      "id": "ex-cloze-due-to",
+      "type": "exercise",
+      "title": "due to — Ursache mit Nomen",
+      "exercise": {
+        "id": "ex-cloze-due-to",
+        "type": "cloze",
+        "prompt": "Ergänze: Ursache mit Nomen, formeller Stil.",
+        "card_ids": ["because-vs-because-of", "due-to-formal"],
+        "sentence": "The match was postponed ___ heavy rain.",
+        "blanks": [
+          { "accept": ["due to", "because of", "owing to"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Nomen ('heavy rain') folgt → 'due to' oder 'because of' (kein vollständiger Satz)."
+      }
+    },
+    {
+      "id": "ex-match-function",
+      "type": "exercise",
+      "title": "Konnektor → Funktion",
+      "exercise": {
+        "id": "ex-match-function",
+        "type": "matching",
+        "prompt": "Ordne jeden Konnektor seiner Funktion zu.",
+        "card_ids": ["konnektoren-gegensatz", "folge-konsequenz", "hinzufuegung", "because-vs-because-of", "gliederung-reihenfolge"],
+        "pairs": [
+          { "left": "therefore", "right": "Folge / Konsequenz" },
+          { "left": "moreover", "right": "Hinzufügung" },
+          { "left": "however", "right": "Gegensatz" },
+          { "left": "because", "right": "Ursache / Grund" },
+          { "left": "in conclusion", "right": "Gliederung / Schluss" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-although-despite",
+      "type": "exercise",
+      "title": "although oder despite?",
+      "exercise": {
+        "id": "ex-match-although-despite",
+        "type": "matching",
+        "prompt": "Welcher Konnektor passt zur Struktur? Ordne zu.",
+        "card_ids": ["although-vs-despite", "in-spite-of-form"],
+        "pairs": [
+          { "left": "… ___ the bad weather, …", "right": "despite / in spite of" },
+          { "left": "… ___ it was cold, …", "right": "although / though" },
+          { "left": "… ___ working all night, …", "right": "despite / in spite of" },
+          { "left": "… ___ she was tired, …", "right": "although / though" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-furthermore",
+      "type": "exercise",
+      "title": "furthermore — Satz zusammenbauen",
+      "exercise": {
+        "id": "ex-tiles-furthermore",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zum richtigen Satz: *Außerdem ist das Programm sehr teuer.*",
+        "card_ids": ["hinzufuegung"],
+        "tiles": ["Furthermore", ",", "the", "programme", "is", "very", "expensive", "."],
+        "hint": "Hinzufügungs-Konnektor am Satzanfang, dann Komma."
+      }
+    },
+    {
+      "id": "ex-tiles-as-a-result",
+      "type": "exercise",
+      "title": "as a result — Folge ausdrücken",
+      "exercise": {
+        "id": "ex-tiles-as-a-result",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Sie hat hart gelernt. Als Ergebnis hat sie bestanden.*",
+        "card_ids": ["folge-konsequenz", "therefore-formal"],
+        "tiles": ["She", "studied", "hard", ".", "As", "a", "result", ",", "she", "passed", "."],
+        "hint": "'As a result' beginnt den zweiten Satz, gefolgt von einem Komma."
+      }
+    },
+    {
+      "id": "ex-pic-because-because-of",
+      "type": "exercise",
+      "title": "because oder because of?",
+      "exercise": {
+        "id": "ex-pic-because-because-of",
+        "type": "picture_choice",
+        "prompt": "Wähle den grammatisch richtigen Satz.",
+        "card_ids": ["because-vs-because-of"],
+        "images": [
+          { "src": "assets/img/rain-cancel-a.png", "label": "We cancelled the trip because of the storm.", "is_correct": "true" },
+          { "src": "assets/img/rain-cancel-b.png", "label": "We cancelled the trip because of it was stormy." },
+          { "src": "assets/img/rain-cancel-c.png", "label": "We cancelled the trip because the storm." },
+          { "src": "assets/img/rain-cancel-d.png", "label": "We cancelled the trip despite the storm was bad." }
+        ],
+        "hint": "'because of' + Nomen: 'the storm' (kein Satz mit Subjekt+Verb danach).",
+        "distractors": [
+          "We cancelled the trip because of it was stormy.",
+          "We cancelled the trip because the storm.",
+          "We cancelled the trip despite the storm was bad."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-therefore-formal",
+      "type": "exercise",
+      "title": "therefore — formelle Schlussfolgerung",
+      "exercise": {
+        "id": "ex-free-therefore-formal",
+        "type": "free_text",
+        "prompt": "Übersetze (formell, schriftlich): *Die Daten waren unvollständig. Deshalb mussten wir den Test wiederholen.*",
+        "card_ids": ["folge-konsequenz", "therefore-formal"],
+        "accept": [
+          "The data was incomplete. Therefore, we had to repeat the test.",
+          "The data was incomplete; therefore, we had to repeat the test.",
+          "The data were incomplete. Therefore, we had to repeat the test.",
+          "The data was incomplete. Therefore we had to repeat the test.",
+          "The data was incomplete. Consequently, we had to repeat the test.",
+          "The data was incomplete. As a result, we had to repeat the test."
+        ],
+        "hint": "Formelle Schlussfolgerung: 'Therefore,' (mit Komma) beginnt den zweiten Satz.",
+        "distractors": [
+          "The data was incomplete, therefore we had to repeat the test.",
+          "The data was incomplete. So, we had to repeat the test.",
+          "The data was incomplete although we had to repeat the test.",
+          "The data was incomplete. Therefore we repeated despite the results."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-in-conclusion",
+      "type": "exercise",
+      "title": "in conclusion — Schlusssatz",
+      "exercise": {
+        "id": "ex-free-in-conclusion",
+        "type": "free_text",
+        "prompt": "Wie beginnt man den Schlussabsatz eines Aufsatzes? Übersetze: *Zusammenfassend ist erneuerbare Energie für unsere Zukunft unerlässlich.*",
+        "card_ids": ["gliederung-reihenfolge", "in-conclusion-sumup"],
+        "accept": [
+          "In conclusion, renewable energy is essential for our future.",
+          "To sum up, renewable energy is essential for our future.",
+          "To summarise, renewable energy is essential for our future.",
+          "In conclusion renewable energy is essential for our future.",
+          "To sum up renewable energy is essential for our future."
+        ],
+        "hint": "'In conclusion,' oder 'To sum up,' (mit Komma) leitet die Zusammenfassung ein.",
+        "distractors": [
+          "Finally, renewable energy is essential for our future.",
+          "Moreover, renewable energy is essential for our future.",
+          "However, renewable energy is essential for our future.",
+          "In conclusion renewable energy are essential for our future."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

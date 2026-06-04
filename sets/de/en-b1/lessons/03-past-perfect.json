@@ -1,0 +1,386 @@
+{
+  "id": "03-past-perfect",
+  "title": "Past Perfect",
+  "description": "Die Vorvergangenheit auf Englisch: *had + 3. Verbform* für alle Personen. Wenn eine Vergangenheitshandlung einer anderen vorausgeht, braucht sie das Past Perfect. Mit Kontrast zum Past Simple, typischen Signalwörtern und einem Blick auf das Past Perfect Continuous. Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "pp-form",
+      "front": "had + past participle (3. Verbform)",
+      "back": "Bildung des Past Perfect — alle Personen",
+      "notes": "Das Past Perfect wird für **alle Personen** gleich gebildet: ***had* + 3. Verbform (past participle)**.\n\n| Person | Positiv | Negativ |\n|---|---|---|\n| I | I **had finished** | I **hadn't finished** |\n| she/he/it | she **had gone** | she **hadn't gone** |\n| we/they | they **had arrived** | they **hadn't arrived** |\n\nKurzform: *I'd, she'd, they'd* + 3. Form.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammatik", "past-perfect", "bildung"]
+    },
+    {
+      "id": "pp-use-before",
+      "front": "When I arrived, the film had already started.",
+      "back": "Handlung VOR einer anderen Vergangenheitshandlung",
+      "notes": "Das Past Perfect zeigt, dass Ereignis A **vor** Ereignis B in der Vergangenheit stattfand:\n\n- Ereignis A (früher): *The film **had started.*** → Past Perfect\n- Ereignis B (später): *I **arrived.*** → Past Simple\n\n> **Zeitlinie:** A (Past Perfect) ←── B (Past Simple) ←── Jetzt\n\nOhne Past Perfect wäre die **Reihenfolge unklar**.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Zwei Vergangenheitsereignisse — das frühere braucht Past Perfect.",
+      "tags": ["grammatik", "past-perfect", "reihenfolge"]
+    },
+    {
+      "id": "pp-signals",
+      "front": "already, just, never, by the time, after, before",
+      "back": "Signalwörter fürs Past Perfect",
+      "notes": "Diese Wörter erscheinen häufig mit dem Past Perfect:\n\n| Signalwort | Beispiel |\n|---|---|\n| **already** | She had **already** left when he called. |\n| **just** | I had **just** sat down when the phone rang. |\n| **never** | He had **never** seen snow before. |\n| **by the time** | **By the time** we arrived, it had sold out. |\n| **after** | **After** they had eaten, they went for a walk. |\n| **before** | She had finished the report **before** the meeting. |",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["signal", "past-perfect"]
+    },
+    {
+      "id": "pp-vs-past-simple",
+      "front": "She left. / She had left.",
+      "back": "Past Simple vs. Past Perfect — Reihenfolge der Ereignisse",
+      "notes": "**Past Simple** beschreibt, was passierte. **Past Perfect** macht deutlich, was *noch früher* passiert war:\n\n- *When Tom arrived, Sarah **left**.* → Sarah verließ den Raum, als Tom ankam. (gleichzeitig oder danach)\n- *When Tom arrived, Sarah **had left**.* → Sarah war **bereits weg**, als Tom ankam. (vorher)\n\nDie Wahl der Zeitform bestimmt die **Bedeutung** des Satzes.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["kontrast", "past-perfect", "past-simple"]
+    },
+    {
+      "id": "pp-narrative",
+      "front": "Erzählungen / narrative use",
+      "back": "Past Perfect in Rückblenden und Hintergrundgeschichten",
+      "notes": "In Erzählungen (Romane, Kurzgeschichten, Berichte) steht der Haupthandlungsstrang im **Past Simple**. Wenn man **zurückblendet** und erklärt, was *davor* geschehen war, wechselt man ins **Past Perfect** (Stilmittel: Zeitenstaffelung / *narrative backshift*):\n\n> *He stood at the door of the house where he **had grown up**. His parents **had moved** away years ago, but the old oak tree **had survived** everything.*\n\n> **Stilhinweis:** Zu viele Past-Perfect-Formen hintereinander wirken schwerfällig. Nach einer klaren Zeitangabe (*after, once, when*) kann man zum Past Simple wechseln, wenn die Reihenfolge eindeutig ist.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["stil", "past-perfect", "narrativ"]
+    },
+    {
+      "id": "pp-continuous",
+      "front": "had been + Verb-ing",
+      "back": "Past Perfect Continuous — Dauer vor einem Vergangenheitspunkt",
+      "notes": "Das **Past Perfect Continuous** (*had been + -ing*) betont, dass eine Handlung über eine gewisse **Dauer** vor einem vergangenen Punkt andauerte:\n\n- *She **had been waiting** for two hours when he finally arrived.* (Dauer: 2 Stunden)\n- *They **had been driving** all night, so they were exhausted.*\n\nVergleich: *She had waited* (Ergebnis) vs. *She had been waiting* (Betonung der Dauer).",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "past-perfect-continuous"]
+    },
+    {
+      "id": "pp-never-before",
+      "front": "He had never seen snow before.",
+      "back": "Erfahrung bis zu einem Vergangenheitspunkt",
+      "notes": "Mit **never … before** und dem Past Perfect drückt man aus, dass jemand etwas bis zu einem bestimmten Moment in der Vergangenheit **noch nie** erlebt hatte:\n\n- *She **had never tasted** sushi before that evening.*\n- *We **had never heard** of the band before they became famous.*\n\nEntspricht im Deutschen dem Plusquamperfekt: „Er **hatte** noch nie Schnee **gesehen**.“",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["past-perfect", "never", "erfahrung"]
+    },
+    {
+      "id": "pp-by-the-time",
+      "front": "By the time she arrived, everyone had gone home.",
+      "back": "„bis zu dem Zeitpunkt, als“ — zwei vergangene Ereignisse",
+      "notes": "**By the time** + Past Simple beschreibt den späteren Zeitpunkt; das **Past Perfect** beschreibt, was davor bereits abgeschlossen war:\n\n- ***By the time** the ambulance arrived, he **had already recovered**.*\n- ***By the time** I understood the problem, it **had gotten** much worse.*\n\nDeutsch: „Als sie ankam, war bereits jeder nach Hause gegangen.“",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["past-perfect", "by-the-time", "reihenfolge"]
+    },
+    {
+      "id": "pp-irregular-forms",
+      "front": "go–went–**gone**, eat–ate–**eaten**, write–wrote–**written**",
+      "back": "Unregelmäßige 3. Verbformen (past participle) für das Past Perfect",
+      "notes": "Das Past Perfect braucht die **3. Verbform** (past participle). Wichtige unregelmäßige Formen:\n\n| Infinitiv | Past Simple | Past Participle |\n|---|---|---|\n| go | went | **gone** |\n| eat | ate | **eaten** |\n| write | wrote | **written** |\n| take | took | **taken** |\n| see | saw | **seen** |\n| know | knew | **known** |\n| leave | left | **left** |\n| speak | spoke | **spoken** |",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["formen", "past-perfect", "unregelmäßig"]
+    },
+    {
+      "id": "pp-plusquamperfekt",
+      "front": "Plusquamperfekt (Deutsch) ↔ Past Perfect (Englisch)",
+      "back": "Ich **hatte** es **gemacht** / Sie **war** gegangen",
+      "notes": "Das englische Past Perfect entspricht dem deutschen **Plusquamperfekt**:\n\n| Deutsch | Englisch |\n|---|---|\n| Ich **hatte** es **gemacht** | I **had done** it |\n| Sie **war** gegangen | She **had gone** |\n| Wir **hatten** es noch nie **gesehen** | We **had never seen** it |\n\nIm Deutschen bildet man das Plusquamperfekt mit *hatte/war + Partizip II*; im Englischen immer nur mit **had + past participle** — kein Unterschied zwischen *sein*- und *haben*-Verben!",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["kontrast", "deutsch", "plusquamperfekt"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-bildung",
+      "type": "theory",
+      "title": "Bildung und Bedeutung des Past Perfect",
+      "body": "# Past Perfect — Vorvergangenheit\n\nDas Past Perfect (Vorvergangenheit / Plusquamperfekt) zeigt, dass eine Handlung **vor einer anderen Vergangenheitshandlung** abgeschlossen war.\n\n## Bildung: had + 3. Verbform\n\nFür **alle Personen** gilt: **had + past participle (3. Verbform)**\n\n| Person | Positiv | Negativ | Frage |\n|---|---|---|---|\n| I / you | I **had finished** | I **hadn't finished** | **Had** I finished? |\n| she/he/it | she **had gone** | she **hadn't gone** | **Had** she gone? |\n| we/they | they **had arrived** | they **hadn't arrived** | **Had** they arrived? |\n\nKurzform: *I'd, you'd, she'd, we'd, they'd* + 3. Form.\n\n## Wann benutzt man das Past Perfect?\n\n**Zwei Ereignisse in der Vergangenheit — das frühere steht im Past Perfect:**\n\n> *When I **arrived** at the cinema, the film **had already started**.*\n\n- Ereignis A (früher): *The film **had started*** → Past Perfect\n- Ereignis B (später): *I **arrived*** → Past Simple\n\n**Zeitlinie:** Filmstart (PP) ←─── Mein Ankommen (PS) ←─── Jetzt\n\n## Deutsch vs. Englisch\n\nDas Past Perfect entspricht dem deutschen **Plusquamperfekt** (*hatte gemacht / war gegangen*). Im Englischen gibt es jedoch nur eine Form für alle Verben: immer **had** — kein Unterschied zwischen *sein*- und *haben*-Verben."
+    },
+    {
+      "id": "theory-signalwoerter",
+      "type": "theory",
+      "title": "Signalwörter und typische Verwendung",
+      "body": "## Signalwörter fürs Past Perfect\n\n| Signalwort | Beispielsatz |\n|---|---|\n| **already** | She had **already** left when he called. |\n| **just** | I had **just** sat down when the phone rang. |\n| **never … before** | He had **never** seen snow **before**. |\n| **by the time** | **By the time** we arrived, it had sold out. |\n| **after** | **After** she had eaten, she went to bed. |\n| **before** | He had finished **before** the deadline. |\n\n## Typische Kontexte\n\n**1. Erzählungen / Narrative (Rückblenden)**\nDer Haupthandlungsstrang steht im Past Simple; Rückblenden ins Past Perfect:\n\n> *He walked into the old house. He **had spent** his whole childhood there. His family **had moved** away twenty years ago.*\n\n> **Stilhinweis zur Zeitenstaffelung:** Sobald die zeitliche Reihenfolge durch *after, once* oder *when* eindeutig ist, kann man nach dem ersten Past-Perfect-Satz ins Past Simple wechseln — zu viele *had*-Formen wirken stilistisch schwerfällig.\n\n**2. Dritte Konditionalis (Vorgriff Lektion 04)**\nDas Past Perfect bildet die Bedingung: *If I **had known**, I would have helped.*\n\n**3. Reported Speech (Vorgriff Lektion 06)**\nDas Present Perfect wird in der indirekten Rede ins Past Perfect verschoben:\nDirekt: *'I have finished.'* → Indirekt: *He said he **had finished**.*"
+    },
+    {
+      "id": "theory-kontrast-continuous",
+      "type": "theory",
+      "title": "Kontrast Past Simple / Past Perfect und Past Perfect Continuous",
+      "body": "## Past Simple vs. Past Perfect — Reihenfolge entscheidet\n\nDie Wahl der Zeitform **verändert die Bedeutung**:\n\n| Satz | Bedeutung |\n|---|---|\n| When Tom arrived, Sarah **left**. | Sarah ging, als Tom ankam (gleichzeitig/danach). |\n| When Tom arrived, Sarah **had left**. | Sarah war schon weg, als Tom ankam (vorher). |\n\n> Ohne Past Perfect wäre die Reihenfolge zweier vergangener Ereignisse **unklar**.\n\n## Past Perfect Continuous: had been + Verb-ing\n\nFür Handlungen, die über eine **Dauer** bis zu einem vergangenen Zeitpunkt andauerten:\n\n- *She **had been waiting** for two hours when he arrived.* (Dauer betont)\n- *They **had been driving** all night, so they were exhausted.*\n\n**Vergleich:**\n\n| Form | Fokus | Beispiel |\n|---|---|---|\n| Past Perfect | Abschluss / Ergebnis | She **had read** the book. |\n| Past Perfect Continuous | Dauer des Vorgangs | She **had been reading** for an hour. |\n\n## Deutsches Plusquamperfekt\n\nDas englische Past Perfect = deutsches Plusquamperfekt:\n- *Ich **hatte** es schon **gemacht**.* → *I **had** already **done** it.*\n- *Sie **war** bereits **gegangen**.* → *She **had** already **gone**.*\n\nWichtig: Auf Englisch immer **had** — kein Wechsel zu *was* für Bewegungsverben!"
+    },
+    {
+      "id": "ex-free-arrived-started",
+      "type": "exercise",
+      "title": "Zwei Ereignisse — das frühere übersetzen",
+      "exercise": {
+        "id": "ex-free-arrived-started",
+        "type": "free_text",
+        "prompt": "Übersetze: *Als ich ankam, hatte der Film bereits begonnen.* (Welches Ereignis war früher?)",
+        "card_ids": ["pp-use-before", "pp-signals"],
+        "accept": [
+          "When I arrived, the film had already started.",
+          "when i arrived, the film had already started.",
+          "When I arrived, the film had already started",
+          "The film had already started when I arrived.",
+          "When I arrived the film had already started."
+        ],
+        "hint": "Der Filmbeginn war früher → Past Perfect *had started*; das Ankommen war später → Past Simple *arrived*.",
+        "distractors": [
+          "When I arrived, the film already started.",
+          "When I had arrived, the film started.",
+          "When I arrived, the film has already started."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-had-left",
+      "type": "exercise",
+      "title": "Lücke: Past Perfect oder Past Simple?",
+      "exercise": {
+        "id": "ex-cloze-had-left",
+        "type": "cloze",
+        "prompt": "Ergänze die Lücke mit der richtigen Form von *leave* (sie war bereits weg — das frühere Ereignis).",
+        "card_ids": ["pp-vs-past-simple", "pp-form"],
+        "sentence": "By the time he called, she ___ already ___.",
+        "blanks": [
+          { "accept": ["had"] },
+          { "accept": ["left"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Zwei Blanks: *had* + 3. Form von *leave* (*left*)."
+      }
+    },
+    {
+      "id": "ex-match-signals",
+      "type": "exercise",
+      "title": "Signalwort → Verwendung zuordnen",
+      "exercise": {
+        "id": "ex-match-signals",
+        "type": "matching",
+        "prompt": "Ordne jedem Signalwort / Ausdruck den passenden deutschen Begriff zu.",
+        "card_ids": ["pp-signals", "pp-by-the-time"],
+        "pairs": [
+          { "left": "by the time", "right": "bis zu dem Zeitpunkt, als" },
+          { "left": "already", "right": "schon / bereits" },
+          { "left": "never … before", "right": "noch nie zuvor" },
+          { "left": "after … had done", "right": "nachdem … getan hatte" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-never-seen",
+      "type": "exercise",
+      "title": "Noch nie zuvor erlebt",
+      "exercise": {
+        "id": "ex-free-never-seen",
+        "type": "free_text",
+        "prompt": "Übersetze: *Er hatte noch nie Schnee gesehen, bevor er nach Kanada zog.*",
+        "card_ids": ["pp-never-before", "pp-form"],
+        "accept": [
+          "He had never seen snow before he moved to Canada.",
+          "he had never seen snow before he moved to canada.",
+          "He had never seen snow before moving to Canada.",
+          "He hadn't seen snow before he moved to Canada.",
+          "Before he moved to Canada, he had never seen snow."
+        ],
+        "hint": "*noch nie … vor* = *had never … before*; Past Perfect für das frühere Ereignis.",
+        "distractors": [
+          "He never saw snow before he moved to Canada.",
+          "He has never seen snow before he moved to Canada.",
+          "He had never saw snow before he moved to Canada."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-order-events",
+      "type": "exercise",
+      "title": "Reihenfolge der Ereignisse — welcher Satz stimmt?",
+      "exercise": {
+        "id": "ex-pic-order-events",
+        "type": "picture_choice",
+        "prompt": "Der Zug fuhr um 9 Uhr ab. Maria kam um 9:05 Uhr am Bahnhof an. Welcher Satz beschreibt die Situation korrekt?",
+        "card_ids": ["pp-use-before", "pp-by-the-time"],
+        "images": [
+          { "src": "assets/img/train-left-before-arrival.png", "label": "When Maria arrived, the train had already left.", "is_correct": "true" },
+          { "src": "assets/img/train-arrival-same-time.png", "label": "When Maria arrived, the train left." },
+          { "src": "assets/img/train-present-perfect.png", "label": "When Maria arrived, the train has already left." },
+          { "src": "assets/img/train-past-wrong.png", "label": "When Maria arrived, the train had already leave." }
+        ],
+        "hint": "Der Zug fuhr *vor* Marias Ankunft ab → Past Perfect *had left*.",
+        "distractors": [
+          "When Maria arrived, the train left.",
+          "When Maria arrived, the train has already left.",
+          "When Maria arrived, the train had already leave."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-had-eaten",
+      "type": "exercise",
+      "title": "Nachdem sie gegessen hatte",
+      "exercise": {
+        "id": "ex-free-had-eaten",
+        "type": "free_text",
+        "prompt": "Übersetze: *Nachdem sie gegessen hatte, ging sie spazieren.*",
+        "card_ids": ["pp-signals", "pp-use-before"],
+        "accept": [
+          "After she had eaten, she went for a walk.",
+          "after she had eaten, she went for a walk.",
+          "She went for a walk after she had eaten.",
+          "After she had eaten she went for a walk.",
+          "After she'd eaten, she went for a walk."
+        ],
+        "hint": "*nachdem sie gegessen hatte* = *after she had eaten* (Past Perfect für das frühere Ereignis).",
+        "distractors": [
+          "After she ate, she had gone for a walk.",
+          "After she has eaten, she went for a walk.",
+          "After she had ate, she went for a walk."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-just-sat",
+      "type": "exercise",
+      "title": "Wörter ordnen: gerade hingesetzt",
+      "exercise": {
+        "id": "ex-tiles-just-sat",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter zu einem korrekten englischen Satz: *Ich hatte mich gerade hingesetzt, als das Telefon klingelte.*",
+        "card_ids": ["pp-signals", "pp-form"],
+        "tiles": ["I", "had", "just", "sat", "down", "when", "the", "phone", "rang"],
+        "hint": "Struktur: *had + just + 3. Form* für das frühere Ereignis."
+      }
+    },
+    {
+      "id": "ex-cloze-by-the-time",
+      "type": "exercise",
+      "title": "by the time — Lücke füllen",
+      "exercise": {
+        "id": "ex-cloze-by-the-time",
+        "type": "cloze",
+        "prompt": "Ergänze *sell out* in der richtigen Form (der Ausverkauf passierte vor der Ankunft).",
+        "card_ids": ["pp-by-the-time", "pp-form"],
+        "sentence": "By the time we arrived at the concert, all the tickets ___ ___.",
+        "blanks": [
+          { "accept": ["had"] },
+          { "accept": ["sold out", "been sold out"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*by the time* + Past Simple → das frühere Ereignis: *had sold out*."
+      }
+    },
+    {
+      "id": "ex-match-ps-vs-pp",
+      "type": "exercise",
+      "title": "Past Simple oder Past Perfect — Bedeutung zuordnen",
+      "exercise": {
+        "id": "ex-match-ps-vs-pp",
+        "type": "matching",
+        "prompt": "Ordne jedem Satz seine Bedeutung auf Deutsch zu.",
+        "card_ids": ["pp-vs-past-simple", "pp-use-before"],
+        "pairs": [
+          { "left": "When Tom arrived, Sarah left.", "right": "Sarah ging, als Tom ankam (gleichzeitig)." },
+          { "left": "When Tom arrived, Sarah had left.", "right": "Sarah war bereits weg, als Tom ankam." },
+          { "left": "She had never tried sushi before.", "right": "Bis zu diesem Moment keine Erfahrung damit." }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-plusquamperfekt",
+      "type": "exercise",
+      "title": "Deutsches Plusquamperfekt → Past Perfect",
+      "exercise": {
+        "id": "ex-free-plusquamperfekt",
+        "type": "free_text",
+        "prompt": "Übersetze: *Sie war bereits gegangen, als er anrief.*",
+        "card_ids": ["pp-plusquamperfekt", "pp-form"],
+        "accept": [
+          "She had already gone when he called.",
+          "she had already gone when he called.",
+          "She had already left when he called.",
+          "When he called, she had already gone.",
+          "She'd already gone when he called."
+        ],
+        "hint": "„war … gegangen“ = *had gone* (nicht *was gone* — auf Englisch immer *had* für Past Perfect!)",
+        "distractors": [
+          "She was already gone when he called.",
+          "She has already gone when he called.",
+          "She had already went when he called."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-pp-continuous",
+      "type": "exercise",
+      "title": "Dauer vor einem Vergangenheitspunkt",
+      "exercise": {
+        "id": "ex-free-pp-continuous",
+        "type": "free_text",
+        "prompt": "Übersetze mit Past Perfect Continuous: *Sie hatte zwei Stunden gewartet, als er endlich ankam.*",
+        "card_ids": ["pp-continuous", "pp-form"],
+        "accept": [
+          "She had been waiting for two hours when he finally arrived.",
+          "she had been waiting for two hours when he finally arrived.",
+          "She had been waiting for two hours when he arrived.",
+          "She'd been waiting for two hours when he finally arrived.",
+          "She had been waiting for 2 hours when he finally arrived."
+        ],
+        "hint": "Dauer (*zwei Stunden*) vor einem vergangenen Moment → *had been waiting* (Past Perfect Continuous).",
+        "distractors": [
+          "She was waiting for two hours when he finally arrived.",
+          "She had waited for two hours when he finally arrived.",
+          "She has been waiting for two hours when he finally arrived."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-narrative",
+      "type": "exercise",
+      "title": "Erzähltext — Rückblende erkennen",
+      "exercise": {
+        "id": "ex-cloze-narrative",
+        "type": "cloze",
+        "prompt": "Ergänze die Lücke mit der Past-Perfect-Form von *grow up* (Rückblende in einer Erzählung).",
+        "card_ids": ["pp-narrative", "pp-form"],
+        "sentence": "She stood in front of the old school where she ___ ___ up.",
+        "blanks": [
+          { "accept": ["had"] },
+          { "accept": ["grown"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*had grown up* — Rückblende: die Kindheit lag vor dem Moment im Haupthandlungsstrang."
+      }
+    },
+    {
+      "id": "ex-tiles-irregular",
+      "type": "exercise",
+      "title": "Unregelmäßige 3. Form einsetzen",
+      "exercise": {
+        "id": "ex-tiles-irregular",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Er hatte das Buch noch nie gelesen, bevor er den Film sah.*",
+        "card_ids": ["pp-irregular-forms", "pp-never-before"],
+        "tiles": ["He", "had", "never", "read", "the", "book", "before", "he", "saw", "the", "film"],
+        "hint": "3. Form von *read* = *read* (gleiches Wort, andere Aussprache: /rɛd/). Struktur: *had never + 3. Form*."
+      }
+    }
+  ]
+}

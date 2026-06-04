@@ -1,0 +1,424 @@
+{
+  "id": "09-opinions-and-feelings",
+  "title": "Meinungen und Gefühle ausdrücken",
+  "description": "Meinungen höflich einleiten, zustimmen und widersprechen sowie Gefühle auf B1-Niveau formulieren. Inklusive einer eigenen Sektion zu den gefährlichsten False Friends beim Beschreiben von Menschen: *sensible* und *sympathetic*. Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "in-my-opinion",
+      "front": "In my opinion, … / In my view, …",
+      "back": "Meiner Meinung nach … / Meiner Ansicht nach …",
+      "notes": "Klassische, neutrale Einleitung für eine persönliche Meinung: *In my opinion, the plan is risky.* Formell und schriftlich häufig; im Gespräch ebenfalls üblich.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["meinung", "redemittel"]
+    },
+    {
+      "id": "i-think-tend",
+      "front": "I think … / I tend to think …",
+      "back": "Ich denke … / Ich neige dazu zu denken …",
+      "notes": "*I think* ist das häufigste Einleitewort im gesprochenen Englisch. *I tend to think* klingt vorsichtiger und nachdenklicher: *I tend to think we need more time.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["meinung", "redemittel"]
+    },
+    {
+      "id": "it-seems-to-me",
+      "front": "It seems to me (that) … / As far as I'm concerned, …",
+      "back": "Es scheint mir, dass … / Was mich betrifft …",
+      "notes": "*It seems to me that* drückt eine vorsichtige, persönliche Einschätzung aus. *As far as I'm concerned* betont, dass man nur für sich selbst spricht: *As far as I'm concerned, the decision is final.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["meinung", "redemittel"]
+    },
+    {
+      "id": "personally",
+      "front": "Personally, … / From my point of view, …",
+      "back": "Persönlich … / Aus meiner Sicht …",
+      "notes": "*Personally* steht oft am Satzanfang und hebt hervor, dass es eine subjektive Meinung ist: *Personally, I prefer the second option.* Synonym zu *in my opinion*, aber etwas umgangssprachlicher.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["meinung", "redemittel"]
+    },
+    {
+      "id": "i-agree-point",
+      "front": "I agree. / You have a point. / I see what you mean.",
+      "back": "Ich stimme zu. / Da haben Sie/hast du recht. / Ich verstehe, was du meinst.",
+      "notes": "Drei Abstufungen der Zustimmung: *I agree* ist direkt; *You have a point* lobt das Argument; *I see what you mean* zeigt Verständnis — oft gefolgt von einem 'aber': *I see what you mean, but I still think …*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["zustimmung", "redemittel"]
+    },
+    {
+      "id": "not-sure-disagree",
+      "front": "I'm not sure I agree. / I'm afraid I disagree.",
+      "back": "Ich bin nicht sicher, ob ich zustimme. / Ich muss leider widersprechen.",
+      "notes": "*I'm not sure I agree* ist höflich-zögernd, *I'm afraid I disagree* ist formell und trotzdem respektvoll. Beide vermeiden eine direkte Konfrontation — typisch im britischen Englisch.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["widerspruch", "redemittel"]
+    },
+    {
+      "id": "but-however",
+      "front": "… but … / … however, … / … although …",
+      "back": "… aber … / … jedoch … / … obwohl …",
+      "notes": "Einschränkung nach Zustimmung: *You have a point, but I think we need more data.* *However* ist etwas formeller und steht oft am Satzanfang oder nach einem Komma.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["zustimmung", "widerspruch", "konnektoren"]
+    },
+    {
+      "id": "worried-glad-disappointed",
+      "front": "I'm worried that … / I'm glad that … / I'm disappointed that …",
+      "back": "Ich mache mir Sorgen, dass … / Ich bin froh, dass … / Ich bin enttäuscht, dass …",
+      "notes": "Gefühle mit *that*-Satz einleiten: *I'm worried that he hasn't replied.* *I'm glad that you could come.* *I'm disappointed that the project was cancelled.* Das *that* kann auch weggelassen werden (umgangssprachlich).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gefühle", "redemittel"]
+    },
+    {
+      "id": "surprised-relieved",
+      "front": "I'm surprised that … / I'm relieved that …",
+      "back": "Ich bin überrascht, dass … / Ich bin erleichtert, dass …",
+      "notes": "*I'm surprised that it worked so well.* *I'm relieved that nobody was hurt.* Beide Adjektive beschreiben eine Reaktion auf eine Situation — typisch in B1-Schreib- und Gesprächsaufgaben.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["gefühle", "redemittel"]
+    },
+    {
+      "id": "false-friend-sensible",
+      "front": "sensible",
+      "back": "vernünftig (NICHT: sensibel)",
+      "notes": "**False Friend!** *sensible* bedeutet auf Englisch **vernünftig** — nicht 'sensibel'.\n\n- ✓ *That's a sensible decision.* (= eine vernünftige Entscheidung)\n- ✗ *She is very sensible.* (= Sie ist sehr sensibel) → **FALSCH** in dieser Bedeutung\n\n**Das deutsche 'sensibel'** übersetzt man mit ***sensitive***: *She is very sensitive.*",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "sensible ≠ sensibel — denk an 'sense' (Sinn/Vernunft).",
+      "tags": ["false-friends", "wortschatz"]
+    },
+    {
+      "id": "false-friend-sympathetic",
+      "front": "sympathetic",
+      "back": "mitfühlend / verständnisvoll (NICHT: sympathisch)",
+      "notes": "**False Friend!** *sympathetic* bedeutet **mitfühlend** — nicht 'sympathisch'.\n\n- ✓ *She was very sympathetic when I told her the bad news.* (= mitfühlend)\n- ✗ *He is very sympathetic.* (= Er ist sehr sympathisch) → **FALSCH** in dieser Bedeutung\n\n**Das deutsche 'sympathisch'** (= nett, likeable) übersetzt man mit ***likeable*** oder ***nice***: *He is very likeable.*",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "sympathetic ≠ sympathisch — es bedeutet Mitgefühl zeigen.",
+      "tags": ["false-friends", "wortschatz"]
+    },
+    {
+      "id": "sensitive-meaning",
+      "front": "sensitive",
+      "back": "sensibel / empfindlich",
+      "notes": "Das **richtige** englische Wort für das deutsche 'sensibel': *She is a very sensitive person.* Nicht zu verwechseln mit *sensible* (= vernünftig).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["false-friends", "wortschatz"]
+    },
+    {
+      "id": "likeable-meaning",
+      "front": "likeable / nice",
+      "back": "sympathisch / nett",
+      "notes": "Das **richtige** englische Wort für das deutsche 'sympathisch': *She is very likeable.* oder *He seems really nice.* Nicht *sympathetic* (= mitfühlend).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["false-friends", "wortschatz"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-opinions",
+      "type": "theory",
+      "title": "Meinungen einleiten und auf Englisch höflich ausdrücken",
+      "body": "# Meinungen und Gefühle auf B1-Niveau\n\nAuf B1-Niveau reicht es nicht mehr, einfach *I think* zu sagen. Du brauchst ein Repertoire an Wendungen, mit denen du Meinungen **einleitest**, **abschwächst** und **begründest**.\n\n## Meinung einleiten\n\n| Englisch | Deutsch | Ton |\n|---|---|---|\n| In my opinion, … | Meiner Meinung nach … | neutral, häufig |\n| I think … | Ich denke … | umgangssprachlich |\n| I tend to think … | Ich neige dazu zu denken … | vorsichtig, nachdenklich |\n| It seems to me (that) … | Es scheint mir, dass … | zurückhaltend |\n| As far as I'm concerned, … | Was mich betrifft … | persönlich, direkt |\n| Personally, … | Persönlich … | subjektiv betont |\n| From my point of view, … | Aus meiner Sicht … | formal |\n\n> **Tipp:** Variiere die Einleitungen — mehrmals *I think* in einem Text wirkt eintönig.\n\n## Zustimmen und Widersprechen\n\n| Englisch | Deutsch | Ton |\n|---|---|---|\n| I agree. | Ich stimme zu. | direkt |\n| You have a point. | Da haben Sie recht. | anerkennend |\n| I see what you mean. | Ich verstehe, was du meinst. | verständnisvoll |\n| I'm not sure I agree. | Ich bin nicht sicher, ob ich zustimme. | höflich ablehnend |\n| I'm afraid I disagree. | Ich muss leider widersprechen. | formell, respektvoll |\n\n> **Kombination:** *I see what you mean, **but** I still think we need more time.*"
+    },
+    {
+      "id": "theory-feelings",
+      "type": "theory",
+      "title": "Gefühle und Reaktionen ausdrücken",
+      "body": "## Gefühle auf B1-Niveau\n\nMit **adjective + that-clause** drückst du Gefühle präzise und natürlich aus:\n\n| Struktur | Beispiel | Bedeutung |\n|---|---|---|\n| I'm worried that … | I'm worried that he's not well. | Ich mache mir Sorgen, dass … |\n| I'm glad that … | I'm glad that you came. | Ich bin froh, dass … |\n| I'm disappointed that … | I'm disappointed that it failed. | Ich bin enttäuscht, dass … |\n| I'm surprised that … | I'm surprised that it worked. | Ich bin überrascht, dass … |\n| I'm relieved that … | I'm relieved that it's over. | Ich bin erleichtert, dass … |\n\n> **Grammatik-Hinweis:** Das *that* kann im informellen Englisch weggelassen werden: *I'm glad you could come.*\n\n## Abschwächende Konnektoren\n\nNach einer Zustimmung folgt oft eine Einschränkung:\n\n- *You have a point, **but** I think we need more evidence.*\n- *I see what you mean, **however**, the costs are too high.*\n- *I agree up to a point, **although** I'm not convinced.*"
+    },
+    {
+      "id": "theory-false-friends",
+      "type": "theory",
+      "title": "False Friends: sensible und sympathetic",
+      "body": "## Gefährliche False Friends beim Beschreiben von Menschen\n\nZwei der häufigsten Fehler bei B1-Lernenden kommen beim Beschreiben von Personen und Entscheidungen vor:\n\n| Englisches Wort | Falsche Annahme | Echte Bedeutung | Für das deutsche Wort sagt man |\n|---|---|---|---|\n| **sensible** | = sensibel (empfindlich) | = vernünftig, sinnvoll | sensibel → **sensitive** |\n| **sympathetic** | = sympathisch (nett) | = mitfühlend, verständnisvoll | sympathisch → **likeable** / **nice** |\n\n### Merkhilfen\n\n- **sensible** → denke an *sense* (Sinn, Vernunft) → *a sensible decision* = eine **vernünftige** Entscheidung\n- **sympathetic** → jemand, der *sympathy* (Mitgefühl) zeigt → *a sympathetic friend* = ein **mitfühlender** Freund\n\n### Richtige Sätze\n\n| Deutsch | Falsches Englisch | Richtiges Englisch |\n|---|---|---|\n| Sie ist sehr sensibel. | ~~She is very sensible.~~ | She is very **sensitive**. |\n| Das war eine vernünftige Entscheidung. | ~~That was a sensitive decision.~~ | That was a **sensible** decision. |\n| Er ist sehr sympathisch. | ~~He is very sympathetic.~~ | He is very **likeable** / **nice**. |\n| Sie war sehr mitfühlend. | ~~She was very likeable.~~ | She was very **sympathetic**. |"
+    },
+    {
+      "id": "ex-free-in-my-opinion",
+      "type": "exercise",
+      "title": "Meinung einleiten",
+      "exercise": {
+        "id": "ex-free-in-my-opinion",
+        "type": "free_text",
+        "prompt": "Übersetze: *Meiner Meinung nach ist das Projekt zu teuer.*",
+        "card_ids": ["in-my-opinion"],
+        "accept": [
+          "In my opinion, the project is too expensive.",
+          "In my opinion the project is too expensive.",
+          "in my opinion, the project is too expensive.",
+          "In my view, the project is too expensive.",
+          "In my view the project is too expensive."
+        ],
+        "hint": "'Meiner Meinung nach' = *In my opinion,* (Komma danach).",
+        "distractors": [
+          "In my opinion, the project is too costly.",
+          "I think, the project is too expensive.",
+          "Personally, the project is too expensive."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-personally",
+      "type": "exercise",
+      "title": "Persönliche Sicht",
+      "exercise": {
+        "id": "ex-free-personally",
+        "type": "free_text",
+        "prompt": "Übersetze: *Aus meiner Sicht brauchen wir mehr Zeit.*",
+        "card_ids": ["personally", "i-think-tend"],
+        "accept": [
+          "From my point of view, we need more time.",
+          "From my point of view we need more time.",
+          "from my point of view, we need more time.",
+          "Personally, I think we need more time.",
+          "As far as I'm concerned, we need more time."
+        ],
+        "hint": "'Aus meiner Sicht' = *From my point of view,* oder *Personally,*",
+        "distractors": [
+          "From my point of view, we need more money.",
+          "In my opinion, we need more time.",
+          "It seems to me we have enough time."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-opinions",
+      "type": "exercise",
+      "title": "Redemittel zuordnen",
+      "exercise": {
+        "id": "ex-match-opinions",
+        "type": "matching",
+        "prompt": "Ordne jedem englischen Ausdruck die passende deutsche Bedeutung zu.",
+        "card_ids": ["in-my-opinion", "i-think-tend", "it-seems-to-me", "not-sure-disagree", "i-agree-point"],
+        "pairs": [
+          { "left": "I tend to think …", "right": "Ich neige dazu zu denken …" },
+          { "left": "As far as I'm concerned, …", "right": "Was mich betrifft …" },
+          { "left": "I'm afraid I disagree.", "right": "Ich muss leider widersprechen." },
+          { "left": "You have a point.", "right": "Da hast du recht." }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-worried-that",
+      "type": "exercise",
+      "title": "Gefühl ausdrücken",
+      "exercise": {
+        "id": "ex-cloze-worried-that",
+        "type": "cloze",
+        "prompt": "Ergänze die Lücke mit dem passenden Adjektiv (Gefühl: Sorge).",
+        "card_ids": ["worried-glad-disappointed"],
+        "sentence": "I'm ___ that he hasn't replied to my email.",
+        "blanks": [
+          { "accept": ["worried", "concerned"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "'Ich mache mir Sorgen, dass …' = *I'm worried that …*"
+      }
+    },
+    {
+      "id": "ex-free-glad-that",
+      "type": "exercise",
+      "title": "Freude ausdrücken",
+      "exercise": {
+        "id": "ex-free-glad-that",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich bin froh, dass du kommen konntest.*",
+        "card_ids": ["worried-glad-disappointed"],
+        "accept": [
+          "I'm glad that you could come.",
+          "I'm glad you could come.",
+          "I am glad that you could come.",
+          "I am glad you could come.",
+          "I'm glad that you were able to come."
+        ],
+        "hint": "'Ich bin froh, dass …' = *I'm glad that …* (das *that* kann wegfallen).",
+        "distractors": [
+          "I'm happy that you could go.",
+          "I'm glad that you can come.",
+          "I'm glad because you could come."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-see-what",
+      "type": "exercise",
+      "title": "Zustimmung mit Einschränkung",
+      "exercise": {
+        "id": "ex-cloze-see-what",
+        "type": "cloze",
+        "prompt": "Ergänze den Satz (Zustimmung, die mit 'but' eingeschränkt wird).",
+        "card_ids": ["i-agree-point", "but-however"],
+        "sentence": "I see what you ___, but I still think we need more data.",
+        "blanks": [
+          { "accept": ["mean"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "'Ich verstehe, was du meinst' = *I see what you mean.*"
+      }
+    },
+    {
+      "id": "ex-pic-sensible-sympathetic",
+      "type": "exercise",
+      "title": "False Friend erkennen",
+      "exercise": {
+        "id": "ex-pic-sensible-sympathetic",
+        "type": "picture_choice",
+        "prompt": "Dein Freund hat dir nach einem schlechten Tag zugehört und dich unterstützt. Welcher Satz beschreibt ihn richtig auf Englisch?",
+        "card_ids": ["false-friend-sympathetic", "likeable-meaning"],
+        "images": [
+          { "src": "assets/img/supportive-friend-1.png", "label": "He was very sympathetic.", "is_correct": "true" },
+          { "src": "assets/img/supportive-friend-2.png", "label": "He was very sympathisch." },
+          { "src": "assets/img/supportive-friend-3.png", "label": "He was very likeable." },
+          { "src": "assets/img/supportive-friend-4.png", "label": "He was very sensible." }
+        ],
+        "hint": "Mitfühlend/verständnisvoll = *sympathetic* (nicht: sympathisch = likeable).",
+        "distractors": [
+          "He was very sympathisch.",
+          "He was very likeable.",
+          "He was very sensible."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-sensible-decision",
+      "type": "exercise",
+      "title": "False Friend: sensible",
+      "exercise": {
+        "id": "ex-free-sensible-decision",
+        "type": "free_text",
+        "prompt": "Übersetze: *Das war eine vernünftige Entscheidung.* (Achtung: False Friend!)",
+        "card_ids": ["false-friend-sensible", "sensitive-meaning"],
+        "accept": [
+          "That was a sensible decision.",
+          "that was a sensible decision.",
+          "It was a sensible decision.",
+          "That was a sensible choice.",
+          "This was a sensible decision."
+        ],
+        "hint": "'vernünftig' = *sensible* — NICHT *sensitive* (= sensibel/empfindlich).",
+        "distractors": [
+          "That was a sensitive decision.",
+          "That was a sympathetic decision.",
+          "That was a sensibel decision."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-it-seems-to-me",
+      "type": "exercise",
+      "title": "Satz zusammenbauen",
+      "exercise": {
+        "id": "ex-tiles-it-seems-to-me",
+        "type": "word_tiles",
+        "prompt": "Ordne die Wörter: *Es scheint mir, dass wir ein Problem haben.*",
+        "card_ids": ["it-seems-to-me"],
+        "tiles": ["It", "seems", "to", "me", "that", "we", "have", "a", "problem"],
+        "hint": "'Es scheint mir, dass …' = *It seems to me that …*",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-feelings",
+      "type": "exercise",
+      "title": "Gefühle zuordnen",
+      "exercise": {
+        "id": "ex-match-feelings",
+        "type": "matching",
+        "prompt": "Ordne jedem englischen Ausdruck die passende deutsche Bedeutung zu.",
+        "card_ids": ["worried-glad-disappointed", "surprised-relieved"],
+        "pairs": [
+          { "left": "I'm relieved that it's over.", "right": "Ich bin erleichtert, dass es vorbei ist." },
+          { "left": "I'm disappointed that it failed.", "right": "Ich bin enttäuscht, dass es gescheitert ist." },
+          { "left": "I'm surprised that it worked.", "right": "Ich bin überrascht, dass es funktioniert hat." }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-not-sure-agree",
+      "type": "exercise",
+      "title": "Höflich widersprechen",
+      "exercise": {
+        "id": "ex-free-not-sure-agree",
+        "type": "free_text",
+        "prompt": "Übersetze: *Ich bin nicht sicher, ob ich zustimme — ich denke, wir brauchen mehr Beweise.*",
+        "card_ids": ["not-sure-disagree", "but-however"],
+        "accept": [
+          "I'm not sure I agree — I think we need more evidence.",
+          "I'm not sure I agree; I think we need more evidence.",
+          "I'm not sure I agree. I think we need more evidence.",
+          "I'm not sure I agree — I think we need more proof.",
+          "I'm not sure that I agree — I think we need more evidence."
+        ],
+        "hint": "'Ich bin nicht sicher, ob ich zustimme' = *I'm not sure I agree* (kein *that* nötig).",
+        "distractors": [
+          "I'm afraid I disagree — we need more time.",
+          "I'm not sure I agree with you — we have enough evidence.",
+          "I don't agree — I think we need more evidence."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-sympathetic-likeable",
+      "type": "exercise",
+      "title": "False Friend: sympathetic vs. sympathisch",
+      "exercise": {
+        "id": "ex-free-sympathetic-likeable",
+        "type": "free_text",
+        "prompt": "Übersetze: *Er ist sehr sympathisch — alle mögen ihn.* (Achtung: False Friend!)",
+        "card_ids": ["false-friend-sympathetic", "likeable-meaning"],
+        "accept": [
+          "He is very likeable — everyone likes him.",
+          "He is very likeable — everybody likes him.",
+          "He is very nice — everyone likes him.",
+          "He is very nice — everybody likes him.",
+          "He is very likeable and everyone likes him."
+        ],
+        "hint": "'sympathisch' (= nett, beliebt) = *likeable* oder *nice* — NICHT *sympathetic* (= mitfühlend).",
+        "distractors": [
+          "He is very sympathetic — everyone likes him.",
+          "He is very sympathisch — everyone likes him.",
+          "He is very sensible — everyone likes him."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-surprised-relieved",
+      "type": "exercise",
+      "title": "Reaktion formulieren",
+      "exercise": {
+        "id": "ex-cloze-surprised-relieved",
+        "type": "cloze",
+        "prompt": "Ergänze das Adjektiv (Erleichterung nach einer Sorge).",
+        "card_ids": ["surprised-relieved"],
+        "sentence": "I'm ___ that nobody was hurt in the accident.",
+        "blanks": [
+          { "accept": ["relieved", "glad"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "'Ich bin erleichtert, dass …' = *I'm relieved that …*"
+      }
+    }
+  ]
+}

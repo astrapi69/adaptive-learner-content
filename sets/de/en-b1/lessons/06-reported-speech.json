@@ -1,0 +1,412 @@
+{
+  "id": "06-reported-speech",
+  "title": "Reported Speech (indirekte Rede)",
+  "description": "Direkte Rede in indirekte umwandeln: Tense Backshift, say vs. tell, indirekte Fragen mit if/whether und W-Wörtern, Befehle mit to-Infinitiv sowie die Verschiebung von Pronomen und Zeit-/Ortsangaben. Aufbauend auf Past Perfect (Lektion 03). Auf Deutsch erklärt.",
+  "target_language": "en",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "rs-tense-backshift-table",
+      "front": "Tense Backshift: direct → reported",
+      "back": "Zeitverschiebung in der indirekten Rede",
+      "notes": "Nach *said/told* (Vergangenheit) verschiebt sich die Zeitform **eine Stufe zurück**:\n\n| Direkte Rede | Indirekte Rede |\n|---|---|\n| present simple | past simple |\n| present continuous | past continuous |\n| present perfect | past perfect |\n| past simple | past perfect |\n| will | would |\n| can | could |\n| must | had to |\n\n*He said: „I **work** here.“* → *He said (that) he **worked** there.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Immer eine Zeitform zurück — außer bei allgemeingültigen Tatsachen.",
+      "tags": ["grammatik", "tense-backshift", "reported-speech"]
+    },
+    {
+      "id": "rs-say-vs-tell",
+      "front": "say (that) … / tell somebody (that) …",
+      "back": "sagen (ohne Objekt) / jemandem sagen (mit Objekt)",
+      "notes": "**say**: kein Personenobjekt direkt danach: *She **said** (that) she was tired.* **NICHT:** *She **said me** …*\n\n**tell**: braucht ein Personenobjekt: *She **told me** (that) she was tired.*\n\n| Verb | Objekt erforderlich? | Beispiel |\n|---|---|---|\n| say | nein | *He said (that) …* |\n| tell | ja | *He told her (that) …* |",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "„say me“ ist immer falsch — nutze „tell me“.",
+      "tags": ["grammatik", "say-tell", "reported-speech"]
+    },
+    {
+      "id": "rs-indirect-questions",
+      "front": "She asked if/whether … / She asked where/what/why …",
+      "back": "indirekte Fragen: normale Wortstellung, kein do, keine Inversion",
+      "notes": "Indirekte Fragen haben **normale Aussagewortstellung** — kein *do/does/did*, keine Inversion:\n\n- **Ja/Nein-Fragen** → *if* oder *whether*: *She asked **if** I was ready.* (NICHT: *if was I ready*)\n- **W-Fragen** → W-Wort + normale Wortstellung: *He asked **where** she lived.* (NICHT: *where did she live*)\n\n| Direkte Frage | Indirekte Frage |\n|---|---|\n| „Are you ready?“ | She asked if I was ready. |\n| „Where do you live?“ | He asked where I lived. |\n| „What did she say?“ | I wondered what she had said. |",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "In indirekten Fragen: Wortstellung wie im Aussagesatz.",
+      "tags": ["grammatik", "indirekte-frage", "reported-speech"]
+    },
+    {
+      "id": "rs-commands-requests",
+      "front": "He told me to wait. / She asked me not to be late.",
+      "back": "Befehle und Bitten: tell/ask + Objekt + to-Infinitiv",
+      "notes": "Direkte Befehle und Bitten werden mit **to + Infinitiv** (oder **not to + Infinitiv**) umformuliert:\n\n- *„Wait!“* → *He **told me to** wait.*\n- *„Please don't be late.“* → *She **asked me not to** be late.*\n- *„Open the window.“* → *She **told him to** open the window.*\n\nKein Modalverb, kein *that* — nur **tell/ask + Person + (not) to + Verb**.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "befehle", "reported-speech"]
+    },
+    {
+      "id": "rs-time-place-shift",
+      "front": "now → then, today → that day, tomorrow → the next day, here → there, this → that",
+      "back": "Zeit- und Ortsangaben verschieben sich in der indirekten Rede",
+      "notes": "Wenn zwischen dem ursprünglichen Sprechen und dem Berichten Zeit vergangen ist, passen sich Zeigwörter an:\n\n| Direkte Rede | Indirekte Rede |\n|---|---|\n| now | then / at that moment |\n| today | that day |\n| yesterday | the day before |\n| tomorrow | the next day / the following day |\n| here | there |\n| this | that |\n| these | those |\n\n*„I will call you **tomorrow**.“* → *He said he would call me **the next day**.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammatik", "zeitangaben", "reported-speech"]
+    },
+    {
+      "id": "rs-no-backshift",
+      "front": "No backshift: general truths / still true now",
+      "back": "kein Tense Backshift bei allgemeingültigen oder noch wahren Aussagen",
+      "notes": "Wenn eine Aussage **immer noch wahr** ist oder eine **allgemeingültige Tatsache** darstellt, kann die Zeitform **unverändert** bleiben:\n\n- *She said (that) the Earth **is** round.* (allgemeine Wahrheit — kein Backshift nötig)\n- *He said (that) he **lives** in Berlin.* (er wohnt immer noch dort)\n\nAber bei Aussagen über die Vergangenheit oder wenn es nicht mehr wahr ist: Backshift anwenden.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["grammatik", "kein-backshift", "reported-speech"]
+    },
+    {
+      "id": "rs-present-simple-to-past-simple",
+      "front": "„I work in London.“ → She said she worked in London.",
+      "back": "present simple → past simple (Backshift)",
+      "notes": "Der häufigste Backshift-Fall: *present simple* wird zu *past simple*.\n\n*He said: „I **work** here.“* → *He said (that) he **worked** there.*\n\nDas Wörtchen *that* ist **optional** — beide Versionen sind korrekt: *He said he worked there.* und *He said **that** he worked there.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["tense-backshift", "reported-speech"]
+    },
+    {
+      "id": "rs-present-perfect-to-past-perfect",
+      "front": "„I have finished the report.“ → She said she had finished the report.",
+      "back": "present perfect → past perfect (Backshift)",
+      "notes": "**Present Perfect** (have/has + participle) wird in der indirekten Rede zu **Past Perfect** (had + participle):\n\n*She said: „I **have finished** the report.“*\n→ *She said (that) she **had finished** the report.*\n\nDies setzt Kenntnisse des Past Perfect voraus (Lektion 03).",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "have/has + participle → had + participle.",
+      "tags": ["tense-backshift", "past-perfect", "reported-speech"]
+    },
+    {
+      "id": "rs-will-to-would",
+      "front": "„I will help you.“ → He said he would help me.",
+      "back": "will → would (Backshift)",
+      "notes": "*will* wird in der indirekten Rede zu *would*:\n\n*He said: „I **will** call you tomorrow.“*\n→ *He said he **would** call me the next day.*\n\nAchtung: Gleichzeitig verschiebt sich *tomorrow* → *the next day*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["tense-backshift", "will-would", "reported-speech"]
+    },
+    {
+      "id": "rs-can-to-could",
+      "front": "„I can swim.“ → She said she could swim.",
+      "back": "can → could (Backshift)",
+      "notes": "*can* wird in der indirekten Rede zu *could*:\n\n*She said: „I **can** help.“*\n→ *She said she **could** help.*\n\nEbenso: *must* → *had to*: *He said he **had to** leave.* (aus „I **must** leave.“)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["tense-backshift", "modalverben", "reported-speech"]
+    },
+    {
+      "id": "rs-if-whether-question",
+      "front": "„Are you coming?“ → She asked if I was coming.",
+      "back": "Ja/Nein-Frage → asked if/whether + normale Wortstellung",
+      "notes": "Ja/Nein-Fragen werden mit **if** oder **whether** eingeleitet — die Wortstellung ist **nicht invertiert**:\n\n*„**Are** you coming?“* → *She asked **if** I **was** coming.*\n\nFehler vermeiden: NICHT *She asked if **was** I coming* (falsche Inversion).",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "if/whether + Subjekt + Verb (normale Reihenfolge).",
+      "tags": ["indirekte-frage", "if-whether", "reported-speech"]
+    },
+    {
+      "id": "rs-pronoun-shift",
+      "front": "„I am tired.“ → She said she was tired.",
+      "back": "Pronomen verschieben sich je nach Sprecher",
+      "notes": "Pronomen müssen dem **neuen Kontext** angepasst werden:\n\n| Direkte Rede | Indirekte Rede (über sie) |\n|---|---|\n| I | she/he |\n| my | her/his |\n| you | I / we / they (je nach Kontext) |\n| we | they |\n\n*„**I** love **my** job.“* (Anna sagt) → *Anna said (that) **she** loved **her** job.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pronomen", "reported-speech"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-backshift",
+      "type": "theory",
+      "title": "Tense Backshift: die Kernregel der indirekten Rede",
+      "body": "# Reported Speech — indirekte Rede\n\nWenn wir wiedergeben, was jemand **gesagt hat** (*said/told*), verschieben wir die Zeitform **eine Stufe zurück** — das nennt sich **Tense Backshift**.\n\n## Warum?\n\nDas Berichtszeitwort (*said, told*) steht in der **Vergangenheit** — die referenzierte Handlung rückt damit noch weiter zurück.\n\n## Die Backshift-Tabelle\n\n| Direkte Rede | Indirekte Rede |\n|---|---|\n| present simple (*works*) | past simple (*worked*) |\n| present continuous (*is working*) | past continuous (*was working*) |\n| present perfect (*has worked*) | past perfect (*had worked*) |\n| past simple (*worked*) | past perfect (*had worked*) |\n| will (*will work*) | would (*would work*) |\n| can (*can work*) | could (*could work*) |\n| must (*must go*) | had to (*had to go*) |\n\n## Beispiele\n\n- *„I **work** in Berlin.“* → She said (that) she **worked** in Berlin.\n- *„I **have finished** the report.“* → She said she **had finished** the report.\n- *„I **will** call you **tomorrow**.“* → He said he **would** call me **the next day**.\n\n> **Kein Backshift** bei allgemeingültigen Tatsachen oder Aussagen, die noch wahr sind: *She said the Earth **is** round.*\n\nDas Wörtchen **that** ist immer **optional**: *She said she was tired.* = *She said **that** she was tired.*"
+    },
+    {
+      "id": "theory-say-tell-questions",
+      "type": "theory",
+      "title": "say vs. tell — und indirekte Fragen",
+      "body": "## say vs. tell\n\nEin typischer Fehler: *„She **said me**…“* — das ist **falsch**!\n\n| Verb | Gebrauch | Beispiel |\n|---|---|---|\n| **say** | ohne Personenobjekt | *She **said** (that) she was ready.* |\n| **tell** | + Personenobjekt | *She **told me** (that) she was ready.* |\n\n**say** kann niemals direkt ein Personenobjekt haben — für *„sagen + Person“* muss es **tell** heißen.\n\n## Indirekte Fragen\n\nIn indirekten Fragen gibt es **keine Inversion** und **kein Hilfsverb** *do/does/did*. Die Wortstellung ist **normal** (Subjekt → Verb):\n\n### Ja/Nein-Fragen → if / whether\n\n*„**Are** you ready?“* → She asked **if** I **was** ready. ✓\n(NICHT: *She asked if **was** I ready.* ✗)\n\n### W-Fragen → W-Wort + normale Wortstellung\n\n*„**Where do** you live?“* → He asked **where** I **lived**. ✓\n(NICHT: *He asked where **did** I live.* ✗)\n\n| Direkte Frage | Indirekte Frage |\n|---|---|\n| „Are you coming?“ | She asked **if** I was coming. |\n| „Where does she work?“ | He asked **where** she worked. |\n| „What did they say?“ | I wondered **what** they had said. |"
+    },
+    {
+      "id": "theory-commands-time-pronouns",
+      "type": "theory",
+      "title": "Befehle, Zeit-/Ortsangaben und Pronomen",
+      "body": "## Befehle und Bitten\n\nBefehle (*imperatives*) und Bitten werden mit **tell/ask + Person + (not) to + Infinitiv** wiedergegeben — kein Modalverb, kein *that*:\n\n- *„**Wait**!“* → He **told me to** wait.\n- *„Please **don't be** late.“* → She **asked me not to** be late.\n- *„**Open** the window.“* → She **told him to** open the window.\n\n## Verschiebung von Zeit- und Ortsangaben\n\nWenn Zeit zwischen Aussage und Bericht liegt, passen sich Zeigwörter an:\n\n| Direkte Rede | Indirekte Rede |\n|---|---|\n| now | then / at that moment |\n| today | that day |\n| yesterday | the day before |\n| tomorrow | the next day |\n| here | there |\n| this | that |\n| these | those |\n\n## Pronomen\n\nPronomen verschieben sich je nach Sprecher und Kontext:\n\n*„**I** love **my** job.“* (Anna) → Anna said **she** loved **her** job.\n*„**You** can do it.“* (er sagt zu mir) → He said **I** could do it.\n\n> **Faustregel:** Wer spricht? Wer ist angesprochen? Der neue Kontext bestimmt alle Pronomen."
+    },
+    {
+      "id": "ex-free-backshift-simple",
+      "type": "exercise",
+      "title": "Backshift: present simple → past simple",
+      "exercise": {
+        "id": "ex-free-backshift-simple",
+        "type": "free_text",
+        "prompt": "Forme um in indirekte Rede. Anna sagt: „I work in London.“ — Was sagte Anna? Beginne mit *Anna said (that)…*",
+        "card_ids": ["rs-present-simple-to-past-simple", "rs-tense-backshift-table"],
+        "accept": [
+          "Anna said that she worked in London.",
+          "Anna said she worked in London.",
+          "anna said that she worked in london.",
+          "anna said she worked in london.",
+          "Anna said (that) she worked in London."
+        ],
+        "hint": "*works* → *worked* (present simple → past simple); *I* → *she* (Pronomenverschiebung).",
+        "distractors": [
+          "Anna said that she works in London.",
+          "Anna said me that she worked in London.",
+          "Anna told that she worked in London.",
+          "Anna said that she has worked in London."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-pp-to-past-perfect",
+      "type": "exercise",
+      "title": "Backshift: present perfect → past perfect",
+      "exercise": {
+        "id": "ex-free-pp-to-past-perfect",
+        "type": "free_text",
+        "prompt": "Forme um. Tom sagt: „I have finished the report.“ — Was sagte Tom? Beginne mit *Tom said…*",
+        "card_ids": ["rs-present-perfect-to-past-perfect", "rs-tense-backshift-table"],
+        "accept": [
+          "Tom said he had finished the report.",
+          "Tom said that he had finished the report.",
+          "tom said he had finished the report.",
+          "tom said that he had finished the report.",
+          "Tom said (that) he had finished the report."
+        ],
+        "hint": "*have finished* → *had finished* (present perfect → past perfect).",
+        "distractors": [
+          "Tom said he has finished the report.",
+          "Tom said that he finished the report.",
+          "Tom said that he have finished the report.",
+          "Tom told that he had finished the report."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-will-would",
+      "type": "exercise",
+      "title": "will → would",
+      "exercise": {
+        "id": "ex-cloze-will-would",
+        "type": "cloze",
+        "prompt": "Ergänze die Lücke mit der richtigen Form des Verbs (indirekte Rede nach *said*).",
+        "card_ids": ["rs-will-to-would", "rs-tense-backshift-table"],
+        "sentence": "He said he ___ call me the next day.",
+        "blanks": [
+          { "accept": ["would"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*will* → *would* nach *said* (Backshift)."
+      }
+    },
+    {
+      "id": "ex-cloze-if-question",
+      "type": "exercise",
+      "title": "Indirekte Ja/Nein-Frage",
+      "exercise": {
+        "id": "ex-cloze-if-question",
+        "type": "cloze",
+        "prompt": "Ergänze die Lücke. Direkte Frage: „Are you ready?“ — Indirekt: *She asked ___…*",
+        "card_ids": ["rs-if-whether-question", "rs-indirect-questions"],
+        "sentence": "She asked ___ I was ready.",
+        "blanks": [
+          { "accept": ["if", "whether"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Ja/Nein-Fragen → *if* oder *whether* (keine Inversion danach)."
+      }
+    },
+    {
+      "id": "ex-free-say-tell",
+      "type": "exercise",
+      "title": "say oder tell?",
+      "exercise": {
+        "id": "ex-free-say-tell",
+        "type": "free_text",
+        "prompt": "Übersetze: *Sie sagte mir, dass sie müde sei.* (Nutze *tell* korrekt.)",
+        "card_ids": ["rs-say-vs-tell"],
+        "accept": [
+          "She told me (that) she was tired.",
+          "She told me that she was tired.",
+          "She told me she was tired.",
+          "she told me that she was tired.",
+          "she told me she was tired."
+        ],
+        "hint": "Mit Personenobjekt (*me*) → *tell*, nicht *say*.",
+        "distractors": [
+          "She said me that she was tired.",
+          "She said me she was tired.",
+          "She told that she was tired.",
+          "She asked me that she was tired."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-matching-backshift",
+      "type": "exercise",
+      "title": "Backshift-Paare zuordnen",
+      "exercise": {
+        "id": "ex-matching-backshift",
+        "type": "matching",
+        "prompt": "Ordne jedem direkten Tempus das entsprechende indirekte Tempus in Reported Speech zu.",
+        "card_ids": ["rs-tense-backshift-table"],
+        "pairs": [
+          { "left": "present simple (works)", "right": "past simple (worked)" },
+          { "left": "present perfect (has worked)", "right": "past perfect (had worked)" },
+          { "left": "will (will go)", "right": "would (would go)" },
+          { "left": "can (can help)", "right": "could (could help)" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-command",
+      "type": "exercise",
+      "title": "Befehl in indirekter Rede",
+      "exercise": {
+        "id": "ex-tiles-command",
+        "type": "word_tiles",
+        "prompt": "Direkte Rede: „Wait outside!“ (er zu mir). Forme in indirekte Rede um und ordne die Wörter.",
+        "card_ids": ["rs-commands-requests"],
+        "tiles": ["He", "told", "me", "to", "wait", "outside"],
+        "hint": "Befehl → *tell + Person + to + Infinitiv*; kein *that*, kein Modalverb."
+      }
+    },
+    {
+      "id": "ex-picture-indirect-question",
+      "type": "exercise",
+      "title": "Indirekte Frage — richtige Wortstellung",
+      "exercise": {
+        "id": "ex-picture-indirect-question",
+        "type": "picture_choice",
+        "prompt": "Direkte Frage: „Where does she work?“ — Welche indirekte Version ist korrekt?",
+        "card_ids": ["rs-indirect-questions"],
+        "images": [
+          { "src": "assets/img/reported-q-correct.png", "label": "He asked where she worked.", "is_correct": "true" },
+          { "src": "assets/img/reported-q-inversion.png", "label": "He asked where did she work." },
+          { "src": "assets/img/reported-q-that.png", "label": "He asked that where she worked." },
+          { "src": "assets/img/reported-q-present.png", "label": "He asked where she works." }
+        ],
+        "hint": "Keine Inversion, kein *did* in indirekten Fragen — normale Wortstellung.",
+        "distractors": [
+          "He asked where did she work.",
+          "He asked that where she worked.",
+          "He asked where she works."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-time-shift",
+      "type": "exercise",
+      "title": "Zeit-/Ortsangaben verschieben",
+      "exercise": {
+        "id": "ex-free-time-shift",
+        "type": "free_text",
+        "prompt": "Forme um. Lisa sagt: „I will call you tomorrow.“ — Was sagte Lisa? Beginne mit *Lisa said…* und verschiebe *tomorrow* korrekt.",
+        "card_ids": ["rs-will-to-would", "rs-time-place-shift"],
+        "accept": [
+          "Lisa said she would call me the next day.",
+          "Lisa said that she would call me the next day.",
+          "Lisa said she would call me the following day.",
+          "Lisa said that she would call me the following day.",
+          "lisa said she would call me the next day."
+        ],
+        "hint": "*will* → *would*; *tomorrow* → *the next day* / *the following day*; *I* → *she*.",
+        "distractors": [
+          "Lisa said she will call me tomorrow.",
+          "Lisa said she would call me tomorrow.",
+          "Lisa said she would called me the next day.",
+          "Lisa told that she would call me the next day."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-can-could",
+      "type": "exercise",
+      "title": "can → could",
+      "exercise": {
+        "id": "ex-cloze-can-could",
+        "type": "cloze",
+        "prompt": "Ergänze die Lücke: Direkte Rede war „I can swim.“ — Indirekt nach *said*:",
+        "card_ids": ["rs-can-to-could", "rs-tense-backshift-table"],
+        "sentence": "She said she ___ swim.",
+        "blanks": [
+          { "accept": ["could"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "*can* → *could* (Backshift nach *said*)."
+      }
+    },
+    {
+      "id": "ex-matching-time-words",
+      "type": "exercise",
+      "title": "Zeit-/Ortsangaben: direkt → indirekt",
+      "exercise": {
+        "id": "ex-matching-time-words",
+        "type": "matching",
+        "prompt": "Ordne jeder Angabe aus der direkten Rede die entsprechende Form in der indirekten Rede zu.",
+        "card_ids": ["rs-time-place-shift"],
+        "pairs": [
+          { "left": "now", "right": "then" },
+          { "left": "today", "right": "that day" },
+          { "left": "tomorrow", "right": "the next day" },
+          { "left": "here", "right": "there" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-no-backshift",
+      "type": "exercise",
+      "title": "Kein Backshift — allgemeingültig",
+      "exercise": {
+        "id": "ex-free-no-backshift",
+        "type": "free_text",
+        "prompt": "Übersetze (allgemeingültige Tatsache — kein Backshift nötig): *Er sagte, die Erde sei rund.*",
+        "card_ids": ["rs-no-backshift"],
+        "accept": [
+          "He said (that) the Earth is round.",
+          "He said that the Earth is round.",
+          "He said the Earth is round.",
+          "he said that the earth is round.",
+          "he said the earth is round.",
+          "He said the Earth was round."
+        ],
+        "hint": "Allgemeingültige Tatsachen: Backshift optional — *is* oder *was* sind beide korrekt.",
+        "distractors": [
+          "He said me that the Earth is round.",
+          "He told that the Earth is round.",
+          "He asked that the Earth is round.",
+          "He said the Earth be round."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-not-to",
+      "type": "exercise",
+      "title": "Bitte mit Verneinung: asked not to",
+      "exercise": {
+        "id": "ex-tiles-not-to",
+        "type": "word_tiles",
+        "prompt": "Direkte Rede: „Please don't be late.“ (sie zu mir). Forme in indirekte Rede um und ordne die Wörter.",
+        "card_ids": ["rs-commands-requests"],
+        "tiles": ["She", "asked", "me", "not", "to", "be", "late"],
+        "hint": "Verneinung bei Bitten: *ask + Person + not to + Infinitiv*."
+      }
+    }
+  ]
+}
