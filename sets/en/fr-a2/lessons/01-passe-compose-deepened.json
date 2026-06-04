@@ -1,0 +1,371 @@
+{
+  "id": "01-passe-compose-deepened",
+  "title": "The Passé Composé, deepened",
+  "description": "A2 review and deepening of the passé composé: choosing between avoir and être, the small group of être verbs, and agreement of the past participle with the subject. Explained in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "pc-form",
+      "front": "j'ai mangé / je suis allé(e)",
+      "back": "auxiliary (avoir or être) + past participle",
+      "notes": "The passé composé = a present-tense form of **avoir** or **être** + the **past participle**. *J'ai mangé* (I ate / I have eaten), *Je suis allé(e)* (I went / I have gone).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "passe-compose"]
+    },
+    {
+      "id": "pc-avoir",
+      "front": "avoir (auxiliary)",
+      "back": "the auxiliary for MOST verbs",
+      "notes": "The large majority of verbs form the passé composé with **avoir**: *J'ai parlé, tu as fini, il a vu*. No agreement with the subject here.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "auxiliary"]
+    },
+    {
+      "id": "pc-etre",
+      "front": "être (auxiliary)",
+      "back": "for a small group of movement/state verbs",
+      "notes": "A small, fixed group uses **être** — mostly verbs of **movement** (come, go, arrive, leave) and a few of **state** (stay, become, be born, die). English uses *have* for all of these, so this is a classic trap.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "English 'have' → but French may need être.",
+      "tags": ["grammar", "auxiliary"]
+    },
+    {
+      "id": "regular-participles",
+      "front": "-er → -é, -ir → -i, -re → -u",
+      "back": "regular past participles",
+      "notes": "*parler → parl**é***, *finir → fin**i***, *vendre → vend**u***. So *J'ai parlé, j'ai fini, j'ai vendu*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "participle"]
+    },
+    {
+      "id": "etre-verbs-list",
+      "front": "aller, venir, arriver, partir, entrer, sortir, monter, descendre, rester, tomber, naître, mourir",
+      "back": "the main être verbs",
+      "notes": "A memory aid is the 'house of être' (or 'DR & MRS VANDERTRAMP'). Most come in opposite pairs: *arriver/partir* (arrive/leave), *monter/descendre* (go up/down), *entrer/sortir* (enter/exit).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "etre-verb"]
+    },
+    {
+      "id": "agreement-etre",
+      "front": "Elle est allée. / Ils sont partis.",
+      "back": "with être, the participle agrees with the subject",
+      "notes": "Like an adjective: add **-e** (feminine), **-s** (plural), **-es** (feminine plural). *Il est allé / Elle est allée / Ils sont allés / Elles sont allées.* (No agreement with avoir.)",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "être → agree; avoir → don't.",
+      "tags": ["grammar", "agreement"]
+    },
+    {
+      "id": "aller-alle",
+      "front": "aller → allé",
+      "back": "to go → gone (être)",
+      "notes": "*Je suis allé(e) au marché* — I went to the market.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "etre-verb"]
+    },
+    {
+      "id": "venir-venu",
+      "front": "venir → venu",
+      "back": "to come → come (être)",
+      "notes": "*Elle est venue hier* — She came yesterday. Also: *devenir → devenu*, *revenir → revenu*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "etre-verb"]
+    },
+    {
+      "id": "irregular-participles",
+      "front": "avoir→eu, être→été, faire→fait, voir→vu, prendre→pris",
+      "back": "common irregular participles (with avoir)",
+      "notes": "Also: *boire→bu, lire→lu, écrire→écrit, dire→dit, mettre→mis, pouvoir→pu, vouloir→voulu*. These take **avoir**: *J'ai fait, j'ai vu, j'ai pris*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["verb", "participle"]
+    },
+    {
+      "id": "naitre-mourir",
+      "front": "naître → né / mourir → mort",
+      "back": "to be born / to die (être)",
+      "notes": "*Je suis né(e) en 2000* — I was born in 2000. *Il est mort* — He died. Both take être (with agreement).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["verb", "etre-verb"]
+    },
+    {
+      "id": "pc-negation",
+      "front": "Je n'ai pas mangé. / Je ne suis pas allé.",
+      "back": "negation wraps the auxiliary",
+      "notes": "*ne … pas* goes around the **auxiliary**, not the participle: *Je **n'ai pas** mangé*, *Elle **n'est pas** venue*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "negation"]
+    },
+    {
+      "id": "avoir-alle-error",
+      "front": "Je suis allé (NOT: j'ai allé)",
+      "back": "the #1 English-speaker mistake",
+      "notes": "Because English says *I have gone*, learners write *j'ai allé*. But *aller* takes **être**: *Je **suis** allé(e)*. Always check: is it a movement/state verb?",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Movement verb → être, even though English uses 'have'.",
+      "tags": ["grammar", "common-error"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Two auxiliaries, one tense",
+      "body": "# The Passé Composé, deepened\n\nIn A1 you met the passé composé — French's main past tense for completed actions. It has two parts:\n\n> **avoir** or **être** (present tense) + **past participle**\n\nRegular participles are predictable:\n\n| Verb type | Participle | Example |\n|---|---|---|\n| **-er** | **-é** | parler → parlé |\n| **-ir** | **-i** | finir → fini |\n| **-re** | **-u** | vendre → vendu |\n\nSo: *J'**ai** parlé, tu **as** fini, il **a** vendu.*\n\n## The catch for English speakers\n\nEnglish uses **have** for every past: *I have eaten, I have gone, I have arrived.* French does **not**. Most verbs take **avoir**, but a **small group** takes **être** — and getting the auxiliary right is the heart of A2."
+    },
+    {
+      "id": "step-etre",
+      "type": "theory",
+      "title": "The être verbs — and agreement",
+      "body": "## Which verbs take être?\n\nA small, fixed set — mostly **movement** and a few **state** verbs:\n\n*aller, venir, arriver, partir, entrer, sortir, monter, descendre, rester, tomber, naître, mourir* (plus *devenir, revenir, retourner, passer*).\n\nMany come in **opposite pairs**, which makes them easier to remember: arrive/leave, go up/go down, enter/exit, be born/die.\n\n## With être, the participle agrees\n\nThis is the big difference. With **être**, the past participle behaves like an **adjective** and agrees with the **subject**:\n\n| Subject | Form | Meaning |\n|---|---|---|\n| il | il est **allé** | he went |\n| elle | elle est **allée** | she went |\n| ils | ils sont **allés** | they went (m.) |\n| elles | elles sont **allées** | they went (f.) |\n\nWith **avoir**, there is **no** agreement with the subject: *Elle a mangé* (not *mangée*).\n\n> Quick test: is the verb about **moving** or **a change of state** (come, go, arrive, leave, stay, be born, die)? If yes → **être** + agreement."
+    },
+    {
+      "id": "step-irregular",
+      "type": "theory",
+      "title": "Irregular participles and negation",
+      "body": "## Irregular participles\n\nMany common verbs have irregular participles. These almost all take **avoir**:\n\n| Verb | Participle | Verb | Participle |\n|---|---|---|---|\n| avoir | **eu** | prendre | **pris** |\n| être | **été** | mettre | **mis** |\n| faire | **fait** | voir | **vu** |\n| boire | **bu** | écrire | **écrit** |\n| lire | **lu** | dire | **dit** |\n\nExample: *J'ai **fait** mes devoirs.* (I did my homework.)\n\n## Negation\n\n*ne … pas* wraps the **auxiliary**, never the participle:\n\n- *Je **n'ai pas** mangé.*\n- *Elle **n'est pas** venue.*\n\n## The classic mistake\n\nBecause English uses *have* everywhere, learners write *j'ai allé*. Wrong — *aller* takes **être**: *Je **suis** allé(e).* Always ask: movement/state verb? → être."
+    },
+    {
+      "id": "ex-match-participles",
+      "type": "exercise",
+      "title": "Match the participle",
+      "exercise": {
+        "id": "ex-match-participles",
+        "type": "matching",
+        "prompt": "Match each infinitive to its past participle.",
+        "card_ids": ["irregular-participles", "regular-participles", "aller-alle"],
+        "pairs": [
+          { "left": "faire", "right": "fait" },
+          { "left": "voir", "right": "vu" },
+          { "left": "prendre", "right": "pris" },
+          { "left": "aller", "right": "allé" },
+          { "left": "finir", "right": "fini" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-i-ate",
+      "type": "exercise",
+      "title": "A verb with avoir",
+      "exercise": {
+        "id": "ex-free-i-ate",
+        "type": "free_text",
+        "prompt": "Translate: *I ate a sandwich.* (manger takes avoir)",
+        "card_ids": ["pc-avoir", "regular-participles"],
+        "accept": [
+          "J'ai mangé un sandwich.",
+          "j'ai mangé un sandwich",
+          "J'ai mange un sandwich.",
+          "J'ai mangé un sandwich"
+        ],
+        "hint": "avoir (j'ai) + participle of manger (mangé). No agreement with avoir.",
+        "distractors": [
+          "Je suis mangé un sandwich.",
+          "J'ai mangée un sandwich.",
+          "Je mange un sandwich."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-she-went",
+      "type": "exercise",
+      "title": "An être verb with agreement",
+      "exercise": {
+        "id": "ex-free-she-went",
+        "type": "free_text",
+        "prompt": "Translate: *She went to Paris.* (aller takes être — mind the agreement!)",
+        "card_ids": ["aller-alle", "agreement-etre"],
+        "accept": [
+          "Elle est allée à Paris.",
+          "elle est allée à Paris",
+          "Elle est allee a Paris.",
+          "Elle est allée à Paris"
+        ],
+        "hint": "être (elle est) + allé + -e (feminine subject) → allée.",
+        "distractors": [
+          "Elle a allé à Paris.",
+          "Elle est allé à Paris.",
+          "Elle est allée a Paris être."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-i-went",
+      "type": "exercise",
+      "title": "Which is correct?",
+      "exercise": {
+        "id": "ex-pic-i-went",
+        "type": "picture_choice",
+        "prompt": "A man says 'I went to the market.' Which sentence is correct?",
+        "card_ids": ["avoir-alle-error"],
+        "images": [
+          { "src": "assets/img/market-1.png", "label": "Je suis allé au marché.", "is_correct": "true" },
+          { "src": "assets/img/market-2.png", "label": "J'ai allé au marché." },
+          { "src": "assets/img/market-3.png", "label": "Je suis allée au marché." },
+          { "src": "assets/img/market-4.png", "label": "J'ai été au marché aller." }
+        ],
+        "hint": "aller → être; a male speaker → allé (no extra -e).",
+        "distractors": [
+          "J'ai allé au marché.",
+          "Je suis allée au marché.",
+          "J'ai été au marché aller."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-auxiliary",
+      "type": "exercise",
+      "title": "Choose the auxiliary",
+      "exercise": {
+        "id": "ex-cloze-auxiliary",
+        "type": "cloze",
+        "prompt": "Fill in the correct auxiliary for *venir* (elle).",
+        "card_ids": ["pc-etre", "venir-venu"],
+        "sentence": "Elle ___ venue hier soir.",
+        "blanks": [
+          { "accept": ["est"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "venir is a movement verb → être (elle est)."
+      }
+    },
+    {
+      "id": "ex-tiles-we-arrived",
+      "type": "exercise",
+      "title": "Build: We arrived this morning",
+      "exercise": {
+        "id": "ex-tiles-we-arrived",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *We arrived this morning.* (mixed/male group)",
+        "card_ids": ["etre-verbs-list", "agreement-etre"],
+        "tiles": ["Nous", "sommes", "arrivés", "ce", "matin"],
+        "hint": "arriver → être; nous (plural) → arrivés (add -s).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-not-eaten",
+      "type": "exercise",
+      "title": "Negation",
+      "exercise": {
+        "id": "ex-free-not-eaten",
+        "type": "free_text",
+        "prompt": "Translate: *I have not eaten today.* (use ne … pas)",
+        "card_ids": ["pc-negation"],
+        "accept": [
+          "Je n'ai pas mangé aujourd'hui.",
+          "je n'ai pas mangé aujourd'hui",
+          "Je n'ai pas mange aujourd'hui.",
+          "Je n'ai pas mangé aujourd'hui"
+        ],
+        "hint": "ne … pas wraps the auxiliary: *je n'ai pas mangé*.",
+        "distractors": [
+          "Je n'ai mangé pas aujourd'hui.",
+          "Je ne suis pas mangé aujourd'hui.",
+          "Je n'ai pas mangée aujourd'hui."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-auxiliary",
+      "type": "exercise",
+      "title": "avoir or être?",
+      "exercise": {
+        "id": "ex-match-auxiliary",
+        "type": "matching",
+        "prompt": "Match each verb to its auxiliary in the passé composé.",
+        "card_ids": ["pc-avoir", "pc-etre", "etre-verbs-list"],
+        "pairs": [
+          { "left": "manger", "right": "avoir" },
+          { "left": "voir", "right": "avoir" },
+          { "left": "aller", "right": "être" },
+          { "left": "partir", "right": "être" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-born-in",
+      "type": "exercise",
+      "title": "To be born",
+      "exercise": {
+        "id": "ex-free-born-in",
+        "type": "free_text",
+        "prompt": "Translate: *I was born in 1995.* (female speaker — mind the agreement)",
+        "card_ids": ["naitre-mourir", "agreement-etre"],
+        "accept": [
+          "Je suis née en 1995.",
+          "je suis née en 1995",
+          "Je suis nee en 1995.",
+          "Je suis née en 1995"
+        ],
+        "hint": "naître → être; female speaker → né + e = née.",
+        "distractors": [
+          "J'ai né en 1995.",
+          "Je suis né en 1995.",
+          "Je suis née en 1995 naître."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-did-homework",
+      "type": "exercise",
+      "title": "An irregular participle",
+      "exercise": {
+        "id": "ex-cloze-did-homework",
+        "type": "cloze",
+        "prompt": "Fill in the past participle of *faire*.",
+        "card_ids": ["irregular-participles"],
+        "sentence": "Hier, j'ai ___ mes devoirs.",
+        "blanks": [
+          { "accept": ["fait"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "faire has an irregular participle: f-a-i-t."
+      }
+    },
+    {
+      "id": "ex-free-they-left",
+      "type": "exercise",
+      "title": "Plural agreement (feminine)",
+      "exercise": {
+        "id": "ex-free-they-left",
+        "type": "free_text",
+        "prompt": "Translate: *They (women) left early.* (partir takes être)",
+        "card_ids": ["etre-verbs-list", "agreement-etre"],
+        "accept": [
+          "Elles sont parties tôt.",
+          "elles sont parties tôt",
+          "Elles sont parties tot.",
+          "Elles sont parties tôt"
+        ],
+        "hint": "partir → être; elles (feminine plural) → parti + es = parties.",
+        "distractors": [
+          "Elles ont parti tôt.",
+          "Elles sont parti tôt.",
+          "Elles sont partis tôt."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

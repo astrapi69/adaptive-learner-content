@@ -1,0 +1,327 @@
+{
+  "id": "11-travel-accommodation",
+  "title": "Travel and accommodation",
+  "description": "A2 vocabulary and communication for travel: transport, accommodation, directions, and key prepositions. Includes the false friend *attendre* (to wait for, NOT to attend). Explained in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "transport-vocab",
+      "front": "le train, l'avion, le métro, le bus, la voiture",
+      "back": "train, plane, metro/subway, bus, car",
+      "notes": "Core transport nouns. Note the articles: **le** train, **l'**avion (l' before a vowel), **le** métro, **le** bus, **la** voiture.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "transport"]
+    },
+    {
+      "id": "transport-prepositions",
+      "front": "en train, en avion, en voiture / à pied, à vélo",
+      "back": "by train, by plane, by car / on foot, by bike",
+      "notes": "Use **en** + motorised transport and **à** + non-motorised travel. **en** train/avion/voiture/bus/métro; **à** pied/vélo. There is no article after *en* or *à* here.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Motorised = en; walking/cycling = à.",
+      "tags": ["grammar", "prepositions", "transport"]
+    },
+    {
+      "id": "city-country-prepositions",
+      "front": "à Paris, en France, au Canada, aux États-Unis",
+      "back": "in/to Paris, in/to France, in/to Canada, in/to the United States",
+      "notes": "**à** + city; **en** + feminine country (most ending in -e); **au** + masculine country; **aux** + plural country. France is feminine → *en France*; Canada is masculine → *au Canada*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "prepositions", "geography"]
+    },
+    {
+      "id": "travel-phrases",
+      "front": "prendre le train, un billet, un aller-retour, un aller simple",
+      "back": "to take the train, a ticket, a return ticket, a one-way ticket",
+      "notes": "*Prendre* is used for transport: *Je prends le train.* (I take/am taking the train.) *Un billet* = a ticket; *un aller-retour* = round-trip; *un aller simple* = one-way.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "transport", "phrases"]
+    },
+    {
+      "id": "accommodation-vocab",
+      "front": "l'hôtel, une chambre, réserver, une réservation, la clé, l'auberge de jeunesse",
+      "back": "the hotel, a room, to book/reserve, a reservation, the key, the youth hostel",
+      "notes": "*Réserver* is a regular -er verb: *Je voudrais réserver une chambre* (I would like to book a room). *La clé* is sometimes spelled *la clef* — both are correct.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "accommodation"]
+    },
+    {
+      "id": "directions-vocab",
+      "front": "tournez à gauche, tournez à droite, tout droit, au coin, en face de, à côté de, jusqu'à",
+      "back": "turn left, turn right, straight ahead, at the corner, opposite/across from, next to, as far as/until",
+      "notes": "Use the imperative *tournez* (formal/plural) or *tourne* (informal) for directions. *Tout droit* = straight on (no turn). *Jusqu'à* combines with an article: *jusqu'au carrefour* (as far as the crossroads).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "directions"]
+    },
+    {
+      "id": "attendre-false-friend",
+      "front": "attendre",
+      "back": "to wait for (NOT 'to attend')",
+      "notes": "**False friend alert!** *Attendre* = **to wait for**, not 'to attend'. *J'attends le bus* = I am waiting for the bus. 'To attend' = **assister à**: *J'assiste au concert* (I am attending the concert).",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "attendre = to wait for; assister a = to attend.",
+      "tags": ["vocabulary", "false-friend", "common-error"]
+    },
+    {
+      "id": "booking-phrases",
+      "front": "Je voudrais réserver une chambre pour deux nuits.",
+      "back": "I would like to book a room for two nights.",
+      "notes": "*Je voudrais* (conditional of *vouloir*) is polite. *Pour deux nuits* = for two nights. You can also say *une chambre simple* (single room) or *une chambre double* (double room).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["phrases", "accommodation", "communication"]
+    },
+    {
+      "id": "direction-asking",
+      "front": "Excusez-moi, pour aller à la gare, s'il vous plaît ?",
+      "back": "Excuse me, how do I get to the station, please?",
+      "notes": "Literally: 'Excuse me, to go to the station, please?' The *pour aller a...* structure is the standard way to ask for directions. *La gare* = the (train) station.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["phrases", "directions", "communication"]
+    },
+    {
+      "id": "transport-action-phrases",
+      "front": "Je dois prendre le métro jusqu'à Nation, puis tourner à gauche.",
+      "back": "I need to take the metro to Nation, then turn left.",
+      "notes": "*Devoir* + infinitive = must/have to. *Jusqu'a* + place = as far as / up to. *Puis* = then (sequence). This type of sentence chains a transport instruction with a direction.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "directions", "transport"]
+    },
+    {
+      "id": "hotel-check-in",
+      "front": "J'ai une réservation au nom de Dupont.",
+      "back": "I have a reservation in the name of Dupont.",
+      "notes": "*Au nom de* = in the name of. This is the standard phrase for checking in. You might also hear *Vous avez une réservation ?* (Do you have a reservation?) from the receptionist.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["phrases", "accommodation", "communication"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-transport",
+      "type": "theory",
+      "title": "Getting around: transport and prepositions",
+      "body": "# Travel and accommodation\n\nAt A2 you need to handle real travel situations: buying tickets, checking in to a hotel, and asking for directions. This lesson covers the key vocabulary and two important grammar points.\n\n## Transport vocabulary\n\n*le train, l'avion, le métro, le bus, la voiture* — train, plane, metro, bus, car.\n\nTo say how you travel, use **en** or **à**:\n\n| Preposition | Used with | Examples |\n|---|---|---|\n| **en** | motorised transport | *en train, en avion, en voiture, en bus, en métro* |\n| **à** | non-motorised | *à pied* (on foot), *à vélo* (by bike) |\n\n## Cities, countries\n\n| Location type | Preposition | Example |\n|---|---|---|\n| Any city | **à** | *à Paris, à Lyon* |\n| Feminine country | **en** | *en France, en Espagne* |\n| Masculine country | **au** | *au Canada, au Japon* |\n| Plural country | **aux** | *aux États-Unis* |\n\n> Most countries ending in **-e** are feminine → *en*. Canada, Mexique, Maroc, Portugal are masculine → *au*."
+    },
+    {
+      "id": "theory-accommodation-directions",
+      "type": "theory",
+      "title": "Accommodation and directions",
+      "body": "## Accommodation\n\nKey words: *l'hôtel, une chambre, réserver, une réservation, la clé, l'auberge de jeunesse* (youth hostel).\n\nUseful booking phrase:\n> *Je voudrais réserver une chambre pour deux nuits.* (I would like to book a room for two nights.)\n\n## Direction phrases\n\n| French | English |\n|---|---|\n| *tournez à gauche* | turn left |\n| *tournez à droite* | turn right |\n| *tout droit* | straight ahead |\n| *au coin* | at the corner |\n| *en face de* | opposite / across from |\n| *à côté de* | next to |\n| *jusqu'à* | as far as / until |\n\nTo ask for directions:\n> *Excusez-moi, pour aller à la gare, s'il vous plaît ?* (Excuse me, how do I get to the station, please?)"
+    },
+    {
+      "id": "theory-false-friend",
+      "type": "theory",
+      "title": "False friend: attendre vs. assister a",
+      "body": "## False friend: *attendre*\n\n**attendre** does NOT mean 'to attend'. It means **to wait for**.\n\n| French | English |\n|---|---|\n| *J'attends le bus.* | I am waiting for the bus. |\n| *Elle attend son ami.* | She is waiting for her friend. |\n\n'To attend' = **assister a** + noun:\n\n| French | English |\n|---|---|\n| *J'assiste au concert.* | I am attending the concert. |\n| *Il assiste à la réunion.* | He is attending the meeting. |\n\n> Note: *attendre* already contains the idea of 'for' — you do NOT say *attendre pour le bus*.\n\n## Quick recap: buying a ticket\n\n- *un billet* — a ticket\n- *un aller simple* — a one-way ticket\n- *un aller-retour* — a return ticket\n- *Je voudrais un aller-retour pour Lyon.* — I would like a return ticket to Lyon."
+    },
+    {
+      "id": "ex-match-transport-prepositions",
+      "type": "exercise",
+      "title": "Match the transport to its preposition",
+      "exercise": {
+        "id": "ex-match-transport-prepositions",
+        "type": "matching",
+        "prompt": "Match each way of travelling to the correct French preposition (en or a).",
+        "card_ids": ["transport-prepositions"],
+        "pairs": [
+          { "left": "by plane", "right": "en avion" },
+          { "left": "by car", "right": "en voiture" },
+          { "left": "on foot", "right": "a pied" },
+          { "left": "by bike", "right": "a velo" },
+          { "left": "by train", "right": "en train" }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-i-take-train",
+      "type": "exercise",
+      "title": "Translate: travelling by train",
+      "exercise": {
+        "id": "ex-free-i-take-train",
+        "type": "free_text",
+        "prompt": "Translate: *I travel to Paris by train.* Use *voyager* (to travel) + correct prepositions.",
+        "card_ids": ["transport-prepositions", "city-country-prepositions"],
+        "accept": [
+          "Je voyage à Paris en train.",
+          "je voyage à Paris en train",
+          "Je voyage a Paris en train.",
+          "Je voyage à Paris en train"
+        ],
+        "hint": "City = a + city name; transport = en + vehicle.",
+        "distractors": [
+          "Je voyage en Paris en train.",
+          "Je voyage à Paris au train.",
+          "Je voyage en Paris à train."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-country-preposition",
+      "type": "exercise",
+      "title": "Fill in the correct preposition before the country",
+      "exercise": {
+        "id": "ex-cloze-country-preposition",
+        "type": "cloze",
+        "prompt": "Fill in the blank: France is feminine, so use the correct preposition.",
+        "card_ids": ["city-country-prepositions"],
+        "sentence": "Nous allons ___ France cet été.",
+        "blanks": [
+          { "accept": ["en"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "France is a feminine country ending in -e."
+      }
+    },
+    {
+      "id": "ex-free-attendre-false-friend",
+      "type": "exercise",
+      "title": "False friend: attendre",
+      "exercise": {
+        "id": "ex-free-attendre-false-friend",
+        "type": "free_text",
+        "prompt": "Translate: *I am waiting for the bus.* (Watch out for the false friend!)",
+        "card_ids": ["attendre-false-friend"],
+        "accept": [
+          "J'attends le bus.",
+          "j'attends le bus",
+          "J'attends le bus",
+          "j'attends le bus."
+        ],
+        "hint": "attendre = to wait for. Do NOT use assister a here.",
+        "distractors": [
+          "J'assiste au bus.",
+          "J'attends pour le bus.",
+          "J'attend le bus."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-hotel-vocabulary",
+      "type": "exercise",
+      "title": "Hotel scene: choose the correct phrase",
+      "exercise": {
+        "id": "ex-pic-hotel-vocabulary",
+        "type": "picture_choice",
+        "prompt": "A guest arrives at the reception desk. Which sentence would they use to check in?",
+        "card_ids": ["hotel-check-in", "accommodation-vocab"],
+        "images": [
+          { "src": "assets/img/hotel-checkin.png", "label": "J'ai une réservation au nom de Dupont.", "is_correct": "true" },
+          { "src": "assets/img/hotel-directions.png", "label": "Tournez à droite jusqu'à l'hôtel." },
+          { "src": "assets/img/hotel-ticket.png", "label": "Je voudrais un aller-retour, s'il vous plaît." },
+          { "src": "assets/img/hotel-wait.png", "label": "J'attends mon ami dans le couloir." }
+        ],
+        "hint": "Checking in involves confirming your reservation.",
+        "distractors": [
+          "Tournez à droite jusqu'a l'hotel.",
+          "Je voudrais un aller-retour, s'il vous plait.",
+          "J'attends mon ami dans le couloir."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-directions",
+      "type": "exercise",
+      "title": "Build: go straight ahead then turn left",
+      "exercise": {
+        "id": "ex-tiles-directions",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *Go straight ahead, then turn left.*",
+        "card_ids": ["directions-vocab"],
+        "tiles": ["Allez", "tout", "droit,", "puis", "tournez", "à", "gauche."],
+        "hint": "tout droit = straight ahead; tournez a gauche = turn left.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-directions",
+      "type": "exercise",
+      "title": "Match the direction phrases",
+      "exercise": {
+        "id": "ex-match-directions",
+        "type": "matching",
+        "prompt": "Match each French direction phrase to its English meaning.",
+        "card_ids": ["directions-vocab"],
+        "pairs": [
+          { "left": "tout droit", "right": "straight ahead" },
+          { "left": "à côté de", "right": "next to" },
+          { "left": "en face de", "right": "opposite" },
+          { "left": "jusqu'à", "right": "as far as" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-book-room",
+      "type": "exercise",
+      "title": "Translate: booking a room",
+      "exercise": {
+        "id": "ex-free-book-room",
+        "type": "free_text",
+        "prompt": "Translate: *I would like to book a room for two nights.*",
+        "card_ids": ["booking-phrases", "accommodation-vocab"],
+        "accept": [
+          "Je voudrais réserver une chambre pour deux nuits.",
+          "je voudrais réserver une chambre pour deux nuits",
+          "Je voudrais reserver une chambre pour deux nuits.",
+          "Je voudrais réserver une chambre pour deux nuits"
+        ],
+        "hint": "Je voudrais (I would like) + réserver (to book) + une chambre (a room) + pour deux nuits (for two nights).",
+        "distractors": [
+          "Je veux attendre une chambre pour deux nuits.",
+          "Je voudrais réserver une clé pour deux nuits.",
+          "Je voudrais assister une chambre pour deux nuits."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-attendre",
+      "type": "exercise",
+      "title": "Fill in: false friend attendre in context",
+      "exercise": {
+        "id": "ex-cloze-attendre",
+        "type": "cloze",
+        "prompt": "Fill in the blank with the correct verb. She is waiting for her friend at the station.",
+        "card_ids": ["attendre-false-friend"],
+        "sentence": "Elle ___ son ami à la gare.",
+        "blanks": [
+          { "accept": ["attend"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "attendre conjugated for elle (3rd person singular): j'attends, tu attends, il/elle attend."
+      }
+    },
+    {
+      "id": "ex-tiles-ticket-phrase",
+      "type": "exercise",
+      "title": "Build: I would like a return ticket to Lyon",
+      "exercise": {
+        "id": "ex-tiles-ticket-phrase",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I would like a return ticket to Lyon.*",
+        "card_ids": ["travel-phrases"],
+        "tiles": ["Je", "voudrais", "un", "aller-retour", "pour", "Lyon."],
+        "hint": "un aller-retour = a return/round-trip ticket.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

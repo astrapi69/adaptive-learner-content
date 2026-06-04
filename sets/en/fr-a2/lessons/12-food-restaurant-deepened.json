@@ -1,0 +1,338 @@
+{
+  "id": "12-food-restaurant-deepened",
+  "title": "Food and restaurant, deepened",
+  "description": "A2 deep-dive into French food and restaurant language: the partitive article (du, de la, de l', des), the de rule after negatives, quantity expressions, polite ordering, and restaurant phrases. All explanations in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "partitive-intro",
+      "front": "du pain, de la salade, de l'eau, des fruits",
+      "back": "some bread, some salad, some water, some fruit — the partitive article",
+      "notes": "French requires a **partitive article** where English often drops 'some'. The form depends on the noun's gender and first letter:\n\n| Noun type | Partitive | Example |\n|---|---|---|\n| masculine | **du** | du pain |\n| feminine | **de la** | de la salade |\n| vowel/h | **de l'** | de l'eau |\n| plural | **des** | des fruits |",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "partitive", "articles"]
+    },
+    {
+      "id": "partitive-negative",
+      "front": "Je ne mange pas de viande.",
+      "back": "I do not eat meat. (du/de la/des → de after a negative)",
+      "notes": "After a **negative** (ne … pas, ne … plus, ne … jamais), all partitive articles become simply **de** (or **d'** before a vowel):\n\n- *Je mange **du** poulet.* → *Je ne mange pas **de** poulet.*\n- *Elle boit **de la** bière.* → *Elle ne boit pas **de** bière.*\n- *Il mange **des** légumes.* → *Il ne mange pas **de** légumes.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Negative + du/de la/des → always just de.",
+      "tags": ["grammar", "partitive", "negation"]
+    },
+    {
+      "id": "quantity-expressions",
+      "front": "un peu de, beaucoup de, un kilo de, une bouteille de",
+      "back": "a little, a lot of, a kilo of, a bottle of — quantity expressions use plain de",
+      "notes": "After **quantity words**, French always uses plain **de** (no article), just like after a negative:\n\n- *un peu de sucre* — a little sugar\n- *beaucoup de vin* — a lot of wine\n- *un kilo de tomates* — a kilo of tomatoes\n- *une tasse de café* — a cup of coffee\n\nThis is a quantity, not a partitive, so **no** du / de la / des here.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "partitive", "quantity"]
+    },
+    {
+      "id": "ordering-phrases",
+      "front": "Je voudrais…, Je vais prendre…, Pour moi…",
+      "back": "I would like…, I will have…, For me… — polite ordering phrases",
+      "notes": "Three natural ways to order in a French restaurant:\n\n| French | English |\n|---|---|\n| **Je voudrais** du saumon, s'il vous plaît. | I would like some salmon, please. |\n| **Je vais prendre** la soupe. | I will have the soup. |\n| **Pour moi**, le poulet rôti. | For me, the roast chicken. |\n\n*Je voudrais* (conditional of vouloir) is the most polite.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "restaurant", "ordering"]
+    },
+    {
+      "id": "menu-courses",
+      "front": "l'entrée, le plat (principal), le dessert",
+      "back": "the starter, the main course, the dessert",
+      "notes": "A typical French restaurant menu (le menu or la carte) has three courses:\n\n- **l'entrée** (f.) — the starter / first course\n- **le plat (principal)** — the main course\n- **le dessert** — the dessert\n\nNote: in French, *entrée* means **starter**, not the main course (a common false-friend trap for English speakers).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "restaurant"]
+    },
+    {
+      "id": "addition-phrase",
+      "front": "L'addition, s'il vous plaît.",
+      "back": "The bill, please.",
+      "notes": "*L'addition* is the standard word for the restaurant bill. *S'il vous plaît* (formal) or *s'il te plaît* (informal) means 'please'. You can also say *L'addition, s'il vous plaît* while making a writing gesture in the air — universally understood.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "restaurant"]
+    },
+    {
+      "id": "complaint-phrase",
+      "front": "Excusez-moi, ce n'est pas ce que j'ai commandé.",
+      "back": "Excuse me, this is not what I ordered.",
+      "notes": "A polite but clear complaint phrase. Breaking it down:\n\n- *Excusez-moi* — Excuse me (formal/polite)\n- *ce n'est pas* — this is not\n- *ce que j'ai commandé* — what I ordered (relative clause with passé composé)\n\nYou can also say *Il y a une erreur* (There is a mistake) or *Ce plat est froid* (This dish is cold).",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "ce que = what (as a relative pronoun).",
+      "tags": ["vocabulary", "restaurant", "complaint"]
+    },
+    {
+      "id": "je-voudrais-du-pain",
+      "front": "Je voudrais du pain.",
+      "back": "I would like some bread.",
+      "notes": "*du pain* — bread is a masculine noun, so the partitive is **du**. English drops 'some' (*I'd like bread*), but French **requires** *du*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "pain is masculine → du pain.",
+      "tags": ["grammar", "partitive", "vocabulary"]
+    },
+    {
+      "id": "partitive-vowel",
+      "front": "Je voudrais de l'eau minérale.",
+      "back": "I would like some mineral water.",
+      "notes": "*eau* (water) is feminine and starts with a vowel, so the partitive is **de l'** (not *de la*). The apostrophe replaces the 'a' of *la* before a vowel sound.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "partitive"]
+    },
+    {
+      "id": "no-viande",
+      "front": "Je ne mange pas de viande.",
+      "back": "I do not eat meat.",
+      "notes": "After the negative *ne … pas*, the partitive **de la** viande collapses to just **de** viande. This rule applies for **all** partitives (du, de la, de l', des) in a negative context.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "partitive", "negation"]
+    },
+    {
+      "id": "beaucoup-de",
+      "front": "Il y a beaucoup de fromages en France.",
+      "back": "There are a lot of cheeses in France.",
+      "notes": "After *beaucoup de*, use **de** alone — no article. Compare: *Il y a **des** fromages* (there are some cheeses) vs. *Il y a **beaucoup de** fromages* (there are a lot of cheeses).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "quantity"]
+    },
+    {
+      "id": "plat-du-jour",
+      "front": "Qu'est-ce que vous recommandez comme plat ?",
+      "back": "What do you recommend as a main dish?",
+      "notes": "A useful restaurant phrase. *Recommander* (to recommend) is a regular -er verb. You can also say *Qu'est-ce que c'est, le plat du jour ?* (What is the dish of the day?) — *le plat du jour* is a set French expression.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["vocabulary", "restaurant"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-partitive",
+      "type": "theory",
+      "title": "The partitive article: du, de la, de l', des",
+      "body": "# The partitive article\n\nIn English you can say *I'd like bread* or *I'd like some bread* — 'some' is optional. In French, **you must use the partitive article** to express an unspecified amount of something.\n\nThe form depends on **gender** and the **first letter** of the noun:\n\n| Noun type | Partitive | Example |\n|---|---|---|\n| masculine | **du** | *du pain* (some bread) |\n| feminine | **de la** | *de la salade* (some salad) |\n| vowel or mute h | **de l'** | *de l'eau* (some water) |\n| plural | **des** | *des fruits* (some fruit) |\n\n## English trap\n\nEnglish often drops 'some' entirely:\n\n- *I'd like bread.* → French: *Je voudrais **du** pain.*\n- *She's eating salad.* → French: *Elle mange **de la** salade.*\n\n**Never** leave out the partitive in French — it is obligatory."
+    },
+    {
+      "id": "theory-negative-de",
+      "type": "theory",
+      "title": "After a negative: du/de la/des → de",
+      "body": "## The negative rule\n\nAfter **ne … pas** (and ne … plus, ne … jamais), all partitives reduce to plain **de** (or **d'** before a vowel):\n\n| Positive | Negative |\n|---|---|\n| Je mange **du** poulet. | Je ne mange pas **de** poulet. |\n| Elle boit **de la** bière. | Elle ne boit pas **de** bière. |\n| Nous voulons **des** légumes. | Nous ne voulons pas **de** légumes. |\n| Il boit **de l'**eau. | Il ne boit pas **d'**eau. |\n\n> Rule: **negative + any partitive = de / d'**\n\n## Quantity expressions — also use plain de\n\nAfter quantity words, the same plain **de** applies:\n\n- *un peu de sucre* — a little sugar\n- *beaucoup de vin* — a lot of wine\n- *un kilo de tomates* — a kilo of tomatoes\n- *une tasse de café* — a cup of coffee"
+    },
+    {
+      "id": "theory-restaurant",
+      "type": "theory",
+      "title": "Ordering, the bill, and complaints",
+      "body": "## Polite ordering phrases\n\n| French | English |\n|---|---|\n| **Je voudrais** du saumon, s'il vous plaît. | I would like some salmon, please. |\n| **Je vais prendre** la soupe de l'oignon. | I will have the onion soup. |\n| **Pour moi**, le steak-frites. | For me, the steak and fries. |\n\n*Je voudrais* is the most polite (conditional mood). *Je vais prendre* is casual but natural. *Pour moi* is a clipped, informal shorthand.\n\n## The menu structure\n\n- **l'entrée** — starter (NOT the main course — false friend!)\n- **le plat (principal)** — the main course\n- **le dessert** — dessert\n\n## Asking for the bill\n\n> *L'addition, s'il vous plaît.* — The bill, please.\n\n## Making a polite complaint\n\n> *Excusez-moi, ce n'est pas ce que j'ai commandé.* — Excuse me, this is not what I ordered.\n\nOr simply: *Il y a une erreur, je crois.* (I think there is a mistake.)"
+    },
+    {
+      "id": "ex-match-partitive-forms",
+      "type": "exercise",
+      "title": "Match the noun to its partitive",
+      "exercise": {
+        "id": "ex-match-partitive-forms",
+        "type": "matching",
+        "prompt": "Match each French noun to the correct partitive article that goes with it.",
+        "card_ids": ["partitive-intro", "je-voudrais-du-pain", "partitive-vowel"],
+        "pairs": [
+          { "left": "pain (m.)", "right": "du" },
+          { "left": "salade (f.)", "right": "de la" },
+          { "left": "eau (f., vowel)", "right": "de l'" },
+          { "left": "fruits (pl.)", "right": "des" },
+          { "left": "fromage (m.)", "right": "du" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-id-like-bread",
+      "type": "exercise",
+      "title": "I would like some bread",
+      "exercise": {
+        "id": "ex-free-id-like-bread",
+        "type": "free_text",
+        "prompt": "Translate: *I would like some bread, please.* (pain is masculine)",
+        "card_ids": ["partitive-intro", "je-voudrais-du-pain", "ordering-phrases"],
+        "accept": [
+          "Je voudrais du pain, s'il vous plaît.",
+          "je voudrais du pain, s'il vous plaît.",
+          "Je voudrais du pain, s'il vous plait.",
+          "Je voudrais du pain s'il vous plaît."
+        ],
+        "hint": "pain is masculine → du pain. Use je voudrais for polite ordering.",
+        "distractors": [
+          "Je voudrais pain, s'il vous plaît.",
+          "Je voudrais le pain, s'il vous plaît.",
+          "Je voudrais de la pain, s'il vous plaît."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-no-meat",
+      "type": "exercise",
+      "title": "No meat please (negative → de)",
+      "exercise": {
+        "id": "ex-free-no-meat",
+        "type": "free_text",
+        "prompt": "Translate: *I do not eat meat.* Remember: after a negative, du/de la/des → de.",
+        "card_ids": ["partitive-negative", "no-viande"],
+        "accept": [
+          "Je ne mange pas de viande.",
+          "je ne mange pas de viande.",
+          "Je ne mange pas de viande",
+          "je ne mange pas de viande"
+        ],
+        "hint": "viande is feminine (de la viande), but after ne … pas it becomes just de.",
+        "distractors": [
+          "Je ne mange pas de la viande.",
+          "Je ne mange pas du viande.",
+          "Je ne mange pas des viandes."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-partitive-water",
+      "type": "exercise",
+      "title": "Fill in the partitive",
+      "exercise": {
+        "id": "ex-cloze-partitive-water",
+        "type": "cloze",
+        "prompt": "Fill in the correct partitive article. (eau is feminine and starts with a vowel)",
+        "card_ids": ["partitive-intro", "partitive-vowel"],
+        "sentence": "Je voudrais ___ eau minérale, s'il vous plaît.",
+        "blanks": [
+          { "accept": ["de l'", "de l'"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "eau starts with a vowel → de l' (not de la)."
+      }
+    },
+    {
+      "id": "ex-tiles-order-main",
+      "type": "exercise",
+      "title": "Build: I will have the main course",
+      "exercise": {
+        "id": "ex-tiles-order-main",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *I will have the soup as a starter.*",
+        "card_ids": ["ordering-phrases", "menu-courses"],
+        "tiles": ["Je", "vais", "prendre", "la", "soupe", "comme", "entrée"],
+        "hint": "Je vais prendre = I will have. entrée = starter (not main course).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-bill-request",
+      "type": "exercise",
+      "title": "Asking for the bill",
+      "exercise": {
+        "id": "ex-pic-bill-request",
+        "type": "picture_choice",
+        "prompt": "A diner wants to pay and leave. Which phrase do they use?",
+        "card_ids": ["addition-phrase"],
+        "images": [
+          { "src": "assets/img/bill-correct.png", "label": "L'addition, s'il vous plaît.", "is_correct": "true" },
+          { "src": "assets/img/bill-wrong1.png", "label": "Le menu, s'il vous plaît." },
+          { "src": "assets/img/bill-wrong2.png", "label": "L'entrée, s'il vous plaît." },
+          { "src": "assets/img/bill-wrong3.png", "label": "Le plat, s'il vous plaît." }
+        ],
+        "hint": "l'addition = the bill.",
+        "distractors": [
+          "Le menu, s'il vous plaît.",
+          "L'entrée, s'il vous plaît.",
+          "Le plat, s'il vous plaît."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-ordering-phrases",
+      "type": "exercise",
+      "title": "Match the ordering phrase to its meaning",
+      "exercise": {
+        "id": "ex-match-ordering-phrases",
+        "type": "matching",
+        "prompt": "Match each French ordering phrase to its English meaning.",
+        "card_ids": ["ordering-phrases", "addition-phrase", "complaint-phrase"],
+        "pairs": [
+          { "left": "Je voudrais du saumon.", "right": "I would like some salmon." },
+          { "left": "Je vais prendre le steak.", "right": "I will have the steak." },
+          { "left": "Pour moi, la salade.", "right": "For me, the salad." },
+          { "left": "L'addition, s'il vous plaît.", "right": "The bill, please." },
+          { "left": "Ce n'est pas ce que j'ai commandé.", "right": "This is not what I ordered." }
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-a-lot-of-wine",
+      "type": "exercise",
+      "title": "Quantity expression: beaucoup de",
+      "exercise": {
+        "id": "ex-free-a-lot-of-wine",
+        "type": "free_text",
+        "prompt": "Translate: *There is a lot of wine in this region.* (Use il y a… beaucoup de…)",
+        "card_ids": ["quantity-expressions", "beaucoup-de"],
+        "accept": [
+          "Il y a beaucoup de vin dans cette région.",
+          "il y a beaucoup de vin dans cette région.",
+          "Il y a beaucoup de vin dans cette region.",
+          "Il y a beaucoup de vin dans cette région"
+        ],
+        "hint": "After beaucoup de, no article: beaucoup de vin (not beaucoup du vin).",
+        "distractors": [
+          "Il y a beaucoup du vin dans cette région.",
+          "Il y a beaucoup de la vin dans cette région.",
+          "Il y a beaucoup des vins dans cette région."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-negative-vegetables",
+      "type": "exercise",
+      "title": "Negative sentence: vegetables",
+      "exercise": {
+        "id": "ex-cloze-negative-vegetables",
+        "type": "cloze",
+        "prompt": "Complete with the correct form. (After ne … pas, des légumes becomes…)",
+        "card_ids": ["partitive-negative", "no-viande"],
+        "sentence": "Mon fils ne mange pas ___ légumes.",
+        "blanks": [
+          { "accept": ["de"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "After ne … pas, des → de."
+      }
+    },
+    {
+      "id": "ex-tiles-complaint",
+      "type": "exercise",
+      "title": "Build a polite complaint",
+      "exercise": {
+        "id": "ex-tiles-complaint",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to make a polite complaint: *Excuse me, this is not what I ordered.*",
+        "card_ids": ["complaint-phrase"],
+        "tiles": ["Excusez-moi", ",", "ce", "n'est", "pas", "ce", "que", "j'ai", "commandé", "."],
+        "hint": "Start with Excusez-moi, then ce n'est pas ce que j'ai commandé.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

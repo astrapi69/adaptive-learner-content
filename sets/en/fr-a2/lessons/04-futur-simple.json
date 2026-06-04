@@ -1,0 +1,363 @@
+{
+  "id": "04-futur-simple",
+  "title": "The Futur Simple",
+  "description": "A2 introduction to the futur simple: how to form it from the infinitive, the key irregular stems, and when to use it instead of the futur proche you met in A1. All explanations in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "fs-formation",
+      "front": "parler → je parlerai, tu parleras, il parlera, nous parlerons, vous parlerez, ils parleront",
+      "back": "futur simple endings on a regular -er verb: -ai, -as, -a, -ons, -ez, -ont",
+      "notes": "The futur simple is built by adding the endings **-ai, -as, -a, -ons, -ez, -ont** directly to the **infinitive**. For **-er** and **-ir** verbs the infinitive is used as-is: *parler → parlera*, *finir → finira*. For **-re** verbs the final **-e** is dropped first: *prendre → prendr-* then *prendrai*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "futur-simple", "formation"]
+    },
+    {
+      "id": "fs-re-verbs",
+      "front": "prendre → je prendrai / attendre → j'attendrai",
+      "back": "-re verbs: drop the final -e before adding the endings",
+      "notes": "For **-re** verbs, remove the **-e** at the end of the infinitive to get the stem, then attach the endings: *prendre → prendr-* → *je prendrai, tu prendras...*. Same for *vendre → vendr-*, *attendre → attendr-*, *répondre → répondr-*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Drop the -e from -re verbs before adding the futur simple ending.",
+      "tags": ["grammar", "futur-simple", "formation"]
+    },
+    {
+      "id": "fs-irregular-stems",
+      "front": "être → ser-, avoir → aur-, aller → ir-, faire → fer-, venir → viendr-",
+      "back": "the five most common irregular futur stems",
+      "notes": "These verbs use a **completely different stem** (not the infinitive) in the futur simple. The endings are always the same: *-ai, -as, -a, -ons, -ez, -ont*. Examples: *je serai* (I will be), *j'aurai* (I will have), *j'irai* (I will go), *je ferai* (I will do/make), *je viendrai* (I will come).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "futur-simple", "irregular"]
+    },
+    {
+      "id": "fs-irregular-stems-2",
+      "front": "pouvoir → pourr-, voir → verr-, devoir → devr-, vouloir → voudr-, savoir → saur-",
+      "back": "five more common irregular futur stems",
+      "notes": "A second batch of high-frequency irregulars: *je pourrai* (I will be able to), *je verrai* (I will see), *je devrai* (I will have to), *je voudrai* (I will want), *je saurai* (I will know). Notice the double **-r-** in *pourrai* and *verrai* — a common spelling trap.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Watch the double -rr- in pourrai and verrai.",
+      "tags": ["grammar", "futur-simple", "irregular"]
+    },
+    {
+      "id": "fs-use",
+      "front": "Demain, il pleuvra. / Un jour, je voyagerai partout.",
+      "back": "futur simple = general/distant future, predictions, promises",
+      "notes": "Use the **futur simple** for:\n- **General or distant future** events: *L'annee prochaine, nous demenagerons.* (Next year, we will move.)\n- **Predictions**: *Il pleuvra demain.* (It will rain tomorrow.)\n- **Promises or firm intentions**: *Je t'appellerai ce soir.* (I will call you tonight.)\n\n**Contrast with A1 futur proche** (aller + infinitive), which signals something happening **very soon** or already planned: *Je vais manger* (I am going to eat [right now/shortly]).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "futur-simple", "usage"]
+    },
+    {
+      "id": "fs-vs-proche",
+      "front": "Je vais partir. (futur proche) vs. Je partirai bientot. (futur simple)",
+      "back": "near future (going to) vs. general future (will)",
+      "notes": "In A1, **futur proche** (aller + infinitive) covered the near future: *Je vais partir* means 'I am going to leave' (imminent or planned). The **futur simple** — *Je partirai* — expresses a more general 'I will leave', used for predictions, promises, or more distant events. Both are correct French; the futur simple sounds slightly more formal or further away in time.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "futur-simple", "futur-proche", "contrast"]
+    },
+    {
+      "id": "fs-aller-irai",
+      "front": "aller → j'irai",
+      "back": "to go → I will go (irregular stem: ir-)",
+      "notes": "*j'irai, tu iras, il ira, nous irons, vous irez, ils iront*. A very common error for English speakers is to write *j'allerai* — but the stem is **ir-**, not the infinitive.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "The stem is ir-, NOT aller-. Never write j'allerai.",
+      "tags": ["verb", "futur-simple", "irregular"]
+    },
+    {
+      "id": "fs-etre-serai",
+      "front": "etre → je serai",
+      "back": "to be → I will be (irregular stem: ser-)",
+      "notes": "*je serai, tu seras, il sera, nous serons, vous serez, ils seront*. Example: *Ce sera difficile.* (That will be difficult.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "futur-simple", "irregular"]
+    },
+    {
+      "id": "fs-avoir-aurai",
+      "front": "avoir → j'aurai",
+      "back": "to have → I will have (irregular stem: aur-)",
+      "notes": "*j'aurai, tu auras, il aura, nous aurons, vous aurez, ils auront*. Example: *J'aurai le temps demain.* (I will have time tomorrow.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "futur-simple", "irregular"]
+    },
+    {
+      "id": "fs-faire-ferai",
+      "front": "faire → je ferai",
+      "back": "to do / make → I will do (irregular stem: fer-)",
+      "notes": "*je ferai, tu feras, il fera, nous ferons, vous ferez, ils feront*. Example: *Nous ferons un gateau.* (We will make a cake.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "futur-simple", "irregular"]
+    },
+    {
+      "id": "fs-venir-viendrai",
+      "front": "venir → je viendrai",
+      "back": "to come → I will come (irregular stem: viendr-)",
+      "notes": "*je viendrai, tu viendras, il viendra, nous viendrons, vous viendrez, ils viendront*. Example: *Elle viendra a la fete.* (She will come to the party.)",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["verb", "futur-simple", "irregular"]
+    },
+    {
+      "id": "fs-finir-finirai",
+      "front": "finir → je finirai",
+      "back": "to finish → I will finish (regular -ir verb, stem = infinitive)",
+      "notes": "*je finirai, tu finiras, il finira, nous finirons, vous finirez, ils finiront*. Regular -ir verbs keep the full infinitive as the stem: *finir + ai = finirai*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "futur-simple", "regular"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-formation",
+      "type": "theory",
+      "title": "Forming the futur simple",
+      "body": "# The Futur Simple\n\nThe futur simple is French's main way to say **will** — for predictions, promises, and general future events.\n\n## The rule: infinitive + endings\n\nFor most verbs, simply attach these endings to the **infinitive**:\n\n| Subject | Ending | parler | finir |\n|---|---|---|---|\n| je | **-ai** | parler**ai** | finir**ai** |\n| tu | **-as** | parler**as** | finir**as** |\n| il/elle | **-a** | parler**a** | finir**a** |\n| nous | **-ons** | parler**ons** | finir**ons** |\n| vous | **-ez** | parler**ez** | finir**ez** |\n| ils/elles | **-ont** | parler**ont** | finir**ont** |\n\n## Special rule for -re verbs\n\n**-re verbs drop the final -e** before adding the endings:\n\n| Infinitive | Stem | je form |\n|---|---|---|\n| prendre | prendr- | je prendrai |\n| attendre | attendr- | j'attendrai |\n| vendre | vendr- | je vendrai |\n\n> Tip: the endings **-ai, -as, -a** look like the present tense of **avoir** (j'ai, tu as, il a) — a useful memory hook."
+    },
+    {
+      "id": "theory-irregular",
+      "type": "theory",
+      "title": "Irregular stems",
+      "body": "## Irregular stems in the futur simple\n\nA set of very common verbs use a **different stem** (not the infinitive) but keep the same endings. You must memorize these:\n\n| Infinitive | Futur stem | Example (je) |\n|---|---|---|\n| **etre** | ser- | je **ser**ai |\n| **avoir** | aur- | j'**aur**ai |\n| **aller** | ir- | j'**ir**ai |\n| **faire** | fer- | je **fer**ai |\n| **venir** | viendr- | je **viendr**ai |\n| **pouvoir** | pourr- | je **pourr**ai |\n| **voir** | verr- | je **verr**ai |\n| **devoir** | devr- | je **devr**ai |\n| **vouloir** | voudr- | je **voudr**ai |\n| **savoir** | saur- | je **saur**ai |\n\n### Classic English-speaker traps\n- **aller**: English speakers write *j'allerai* (wrong). The stem is **ir-**: *j'**ir**ai*.\n- **pouvoir / voir**: The double **-r-** (*pourrai, verrai*) is required — do not drop one.\n- **-re verbs with a regular stem**: do not forget to drop the **-e**: *prendre → prendr-*, NOT *prendrer-*."
+    },
+    {
+      "id": "theory-use",
+      "type": "theory",
+      "title": "When to use the futur simple",
+      "body": "## Uses of the futur simple\n\n### 1. General or distant future\n*L'annee prochaine, nous voyagerons en France.* (Next year, we will travel to France.)\n\n### 2. Predictions\n*Demain, il fera beau.* (Tomorrow, the weather will be fine.)\n\n### 3. Promises\n*Je t'appellerai ce soir.* (I will call you tonight.)\n\n## Contrast with the futur proche (A1 review)\n\nIn A1, you learned **futur proche** (aller + infinitive) for the **near future**:\n\n| Structure | Meaning | Example |\n|---|---|---|\n| **aller + infinitive** | near / imminent | *Je vais partir.* (I am going to leave.) |\n| **futur simple** | general / distant | *Je partirai demain.* (I will leave tomorrow.) |\n\nBoth are correct; the futur simple is slightly more formal and suits events further ahead in time or more open-ended predictions."
+    },
+    {
+      "id": "ex-match-stems",
+      "type": "exercise",
+      "title": "Match the verb to its futur stem",
+      "exercise": {
+        "id": "ex-match-stems",
+        "type": "matching",
+        "prompt": "Match each infinitive to its futur simple stem.",
+        "card_ids": ["fs-irregular-stems", "fs-irregular-stems-2", "fs-aller-irai", "fs-etre-serai", "fs-avoir-aurai", "fs-faire-ferai"],
+        "pairs": [
+          { "left": "etre", "right": "ser-" },
+          { "left": "avoir", "right": "aur-" },
+          { "left": "aller", "right": "ir-" },
+          { "left": "faire", "right": "fer-" },
+          { "left": "venir", "right": "viendr-" },
+          { "left": "pouvoir", "right": "pourr-" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-i-will-speak",
+      "type": "exercise",
+      "title": "Regular -er verb: I will speak",
+      "exercise": {
+        "id": "ex-free-i-will-speak",
+        "type": "free_text",
+        "prompt": "Translate: *I will speak French tomorrow.* (parler is a regular -er verb)",
+        "card_ids": ["fs-formation"],
+        "accept": [
+          "Je parlerai francais demain.",
+          "je parlerai francais demain",
+          "Je parlerai le francais demain.",
+          "je parlerai le francais demain"
+        ],
+        "hint": "parler + ai (je ending) = je parlerai. No stem change for -er verbs.",
+        "distractors": [
+          "Je vais parler francais demain.",
+          "Je parlerais francais demain.",
+          "Je parle francais demain."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-i-will-go",
+      "type": "exercise",
+      "title": "Irregular: I will go",
+      "exercise": {
+        "id": "ex-free-i-will-go",
+        "type": "free_text",
+        "prompt": "Translate: *I will go to the cinema on Saturday.* (aller has an irregular stem!)",
+        "card_ids": ["fs-aller-irai", "fs-irregular-stems"],
+        "accept": [
+          "J'irai au cinema samedi.",
+          "j'irai au cinema samedi",
+          "J'irai au cinema le samedi.",
+          "j'irai au cinema le samedi"
+        ],
+        "hint": "aller's futur stem is ir-, so: j'irai. NOT j'allerai.",
+        "distractors": [
+          "Je vais aller au cinema samedi.",
+          "J'allerai au cinema samedi.",
+          "Je suis alle au cinema samedi."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-it-will-rain",
+      "type": "exercise",
+      "title": "Prediction: it will rain",
+      "exercise": {
+        "id": "ex-cloze-it-will-rain",
+        "type": "cloze",
+        "prompt": "Fill in the futur simple of *pleuvoir* (stem: pleuvr-) to complete the weather prediction.",
+        "card_ids": ["fs-use", "fs-formation"],
+        "sentence": "Demain, il ___ toute la journee.",
+        "blanks": [
+          { "accept": ["pleuvra"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "stem pleuvr- + ending -a (il/elle form) = pleuvra."
+      }
+    },
+    {
+      "id": "ex-cloze-we-will-do",
+      "type": "exercise",
+      "title": "Irregular: we will do",
+      "exercise": {
+        "id": "ex-cloze-we-will-do",
+        "type": "cloze",
+        "prompt": "Fill in the futur simple of *faire* (nous form) to complete the sentence.",
+        "card_ids": ["fs-faire-ferai", "fs-irregular-stems"],
+        "sentence": "Nous ___ un voyage l'annee prochaine.",
+        "blanks": [
+          { "accept": ["ferons"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "faire's futur stem is fer-. Nous ending = -ons, so: ferons."
+      }
+    },
+    {
+      "id": "ex-tiles-she-will-come",
+      "type": "exercise",
+      "title": "Build: She will come to the party",
+      "exercise": {
+        "id": "ex-tiles-she-will-come",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *She will come to the party.*",
+        "card_ids": ["fs-venir-viendrai", "fs-irregular-stems"],
+        "tiles": ["Elle", "viendra", "a", "la", "fete"],
+        "hint": "venir's futur stem is viendr-. Elle form: viendra.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-you-will-be-able",
+      "type": "exercise",
+      "title": "Build: You will be able to see the film",
+      "exercise": {
+        "id": "ex-tiles-you-will-be-able",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *You (tu) will be able to see the film.*",
+        "card_ids": ["fs-irregular-stems-2"],
+        "tiles": ["Tu", "pourras", "voir", "le", "film"],
+        "hint": "pouvoir's futur stem is pourr-. Tu form: pourras (double -r-).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-futur-proche-vs-simple",
+      "type": "exercise",
+      "title": "Near future or general future?",
+      "exercise": {
+        "id": "ex-pic-futur-proche-vs-simple",
+        "type": "picture_choice",
+        "prompt": "Someone is making a distant promise: 'I will call you tonight.' Which sentence uses the futur simple correctly?",
+        "card_ids": ["fs-vs-proche", "fs-use"],
+        "images": [
+          { "src": "assets/img/phone-call-1.png", "label": "Je t'appellerai ce soir.", "is_correct": "true" },
+          { "src": "assets/img/phone-call-2.png", "label": "Je vais t'appeler ce soir." },
+          { "src": "assets/img/phone-call-3.png", "label": "Je t'appelle ce soir." },
+          { "src": "assets/img/phone-call-4.png", "label": "J'appellerai pas ce soir." }
+        ],
+        "hint": "A promise phrased as 'will' = futur simple. 'Going to' = futur proche.",
+        "distractors": [
+          "Je vais t'appeler ce soir.",
+          "Je t'appelle ce soir.",
+          "J'appellerai pas ce soir."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-they-will-finish",
+      "type": "exercise",
+      "title": "Regular -ir verb: they will finish",
+      "exercise": {
+        "id": "ex-free-they-will-finish",
+        "type": "free_text",
+        "prompt": "Translate: *They will finish the work tomorrow.* (ils; finir is regular)",
+        "card_ids": ["fs-finir-finirai", "fs-formation"],
+        "accept": [
+          "Ils finiront le travail demain.",
+          "ils finiront le travail demain",
+          "Ils finiront le travail demain",
+          "ils finiront le travail demain."
+        ],
+        "hint": "finir + ont (ils ending) = finiront. No stem change for -ir verbs.",
+        "distractors": [
+          "Ils vont finir le travail demain.",
+          "Ils finiront pas le travail demain.",
+          "Ils finissent le travail demain."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-prendre-stem",
+      "type": "exercise",
+      "title": "-re verb: she will take",
+      "exercise": {
+        "id": "ex-free-prendre-stem",
+        "type": "free_text",
+        "prompt": "Translate: *She will take the train.* (prendre is a -re verb — remember to drop the -e!)",
+        "card_ids": ["fs-re-verbs", "fs-formation"],
+        "accept": [
+          "Elle prendra le train.",
+          "elle prendra le train",
+          "Elle prendra le train",
+          "elle prendra le train."
+        ],
+        "hint": "prendre → drop -e → prendr- + a (elle form) = prendra.",
+        "distractors": [
+          "Elle prendrera le train.",
+          "Elle va prendre le train.",
+          "Elle prends le train."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-forms",
+      "type": "exercise",
+      "title": "Match the futur simple form to its meaning",
+      "exercise": {
+        "id": "ex-match-forms",
+        "type": "matching",
+        "prompt": "Match each futur simple form to its English meaning.",
+        "card_ids": ["fs-etre-serai", "fs-avoir-aurai", "fs-aller-irai", "fs-faire-ferai", "fs-venir-viendrai"],
+        "pairs": [
+          { "left": "je serai", "right": "I will be" },
+          { "left": "j'aurai", "right": "I will have" },
+          { "left": "j'irai", "right": "I will go" },
+          { "left": "je ferai", "right": "I will do" },
+          { "left": "je viendrai", "right": "I will come" }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
