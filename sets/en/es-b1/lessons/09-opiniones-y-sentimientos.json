@@ -1,0 +1,330 @@
+{
+  "id": "es-b1-09-opiniones-y-sentimientos",
+  "title": "Expressing Opinions and Feelings",
+  "description": "The functional language of opinion and emotion: give your view with creo que / me parece que, master the affirmative-indicative vs negated-subjunctive flip, react to things with value judgments and emotions (es lógico que, me molesta que), agree and disagree, and weigh certainty against doubt.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "op-creo-que",
+      "front": "Creo que / Pienso que / Me parece que",
+      "back": "I think / I believe / It seems to me that (+ indicative)",
+      "notes": "To state an opinion you assert as true, use **creo que**, **pienso que** or **me parece que** followed by the **indicative**: *Creo que **tiene** razón* (I think he's right). You are presenting it as a fact from your viewpoint, so no subjunctive.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocab", "opinion", "functional"]
+    },
+    {
+      "id": "op-en-mi-opinion",
+      "front": "en mi opinión / desde mi punto de vista / para mí",
+      "back": "in my opinion / from my point of view / for me (in my view)",
+      "notes": "Set phrases to frame an opinion: **en mi opinión**, **desde mi punto de vista**, **para mí**. They are followed by a normal indicative clause: *Para mí, esta película **es** la mejor*. Note *para mí* carries an accent on *mí*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocab", "opinion", "functional"]
+    },
+    {
+      "id": "op-flip-rule",
+      "front": "Creo que tiene razón. / No creo que tenga razón.",
+      "back": "affirmative opinion → indicative; negated opinion → subjunctive",
+      "notes": "The key flip for English speakers: an **affirmative** opinion asserts a fact → **indicative** (*Creo que **tiene** razón*). **Negate** the opinion verb and you introduce doubt → **subjunctive** (*No creo que **tenga** razón*). English keeps the same verb form both ways, so this switch is easy to forget.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "opinion", "mood"]
+    },
+    {
+      "id": "op-value-judgments",
+      "front": "me parece bien/mal que · es lógico/normal que",
+      "back": "value judgments that trigger the subjunctive",
+      "notes": "Judging or evaluating an action triggers the **subjunctive** when the subject changes: **me parece bien/mal que**, **es lógico que**, **es normal que**, **es una pena que**. *Me parece mal que **llegues** tarde* (I think it's wrong that you arrive late).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "emotion", "mood"]
+    },
+    {
+      "id": "op-emotion-verbs",
+      "front": "me molesta que · me sorprende que · me encanta que",
+      "back": "emotion verbs + subjunctive (change of subject)",
+      "notes": "Verbs of emotion take **que + subjunctive** when there are two subjects: **me molesta que**, **me sorprende que**, **me encanta que**, **es una pena que**. *Me molesta que **hablen** tan alto*. With no subject change, use the infinitive: *Me molesta **llegar** tarde*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "emotion", "mood"]
+    },
+    {
+      "id": "op-estar-de-acuerdo",
+      "front": "estoy de acuerdo (con) / tienes razón",
+      "back": "I agree (with) / you're right",
+      "notes": "To agree: **estoy de acuerdo** and, crucially, **estar de acuerdo CON** someone — not *con* dropped or replaced. *Estoy de acuerdo **contigo***. Also **tienes razón** (you're right). Avoid translating 'agree with' word for word as *acordar con*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocab", "agreement", "functional"]
+    },
+    {
+      "id": "op-no-acuerdo",
+      "front": "no estoy de acuerdo / depende",
+      "back": "I disagree / it depends",
+      "notes": "To disagree politely: **no estoy de acuerdo** (con) and the very common **depende** (it depends). These let you push back without sounding harsh in a discussion.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocab", "agreement", "functional"]
+    },
+    {
+      "id": "op-por-un-lado",
+      "front": "por un lado... por otro (lado)...",
+      "back": "on the one hand... on the other (hand)...",
+      "notes": "To structure a balanced view: **por un lado... por otro (lado)...** *Por un lado es caro, por otro lado es muy cómodo.* Useful for nuanced opinions where you see both sides.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "opinion", "functional"]
+    },
+    {
+      "id": "op-certainty",
+      "front": "estoy seguro de que (+ indicative)",
+      "back": "I'm sure that... (certainty → indicative)",
+      "notes": "Certainty keeps the **indicative**: **estoy seguro de que** + indicative (*Estoy seguro de que **vendrá***). Note the **de** before *que*. As with opinions, certainty asserts a fact, so no subjunctive.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "certainty", "mood"]
+    },
+    {
+      "id": "op-doubt",
+      "front": "no estoy seguro de que (+ subjunctive)",
+      "back": "I'm not sure that... (doubt → subjunctive)",
+      "notes": "Negate the certainty and you get doubt → **subjunctive**: **no estoy seguro de que** + subjunctive (*No estoy seguro de que **venga***). Same affirmative-indicative / negated-subjunctive flip as with opinion verbs.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "doubt", "mood"]
+    },
+    {
+      "id": "op-quizas",
+      "front": "quizás / tal vez (+ subjunctive)",
+      "back": "maybe / perhaps (usually + subjunctive)",
+      "notes": "**Quizás** and **tal vez** (maybe) express possibility and typically take the **subjunctive** to stress uncertainty: *Quizás **llueva** mañana*. The indicative is possible if you feel more sure, but subjunctive is the safe, common choice.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "doubt", "mood"]
+    },
+    {
+      "id": "op-feelings-vocab",
+      "front": "la alegría · la sorpresa · el enfado · la preocupación",
+      "back": "joy · surprise · anger · worry",
+      "notes": "Core feelings vocabulary for reactions: **la alegría** (joy), **la sorpresa** (surprise), **el enfado** (anger), **la preocupación** (worry). Pair them with the structures above: *Con gran **alegría**, me encanta que estés aquí*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocab", "emotion"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Giving an opinion — and the mood flip",
+      "body": "# Expressing opinions and feelings\n\nThis lesson is **functional language**: the phrases you need to say what you think, react to news, and agree or disagree.\n\n## Giving an opinion\n\nTo state your view, use:\n\n- **Creo que** / **Pienso que** / **Me parece que** + *indicative*\n- **En mi opinión**, / **Desde mi punto de vista**, / **Para mí**, + *indicative*\n\n> *Creo que esta idea **es** buena.*  ·  *Para mí, el español **no es** difícil.*\n\nWhen you **assert** an opinion as true, Spanish uses the **indicative**. You are presenting a fact (from your perspective).\n\n## The flip that trips up English speakers\n\nNegate the opinion verb and the mood **changes to subjunctive**:\n\n| Affirmative (assertion) → indicative | Negated (doubt) → subjunctive |\n|---|---|\n| Creo que **tiene** razón. | No creo que **tenga** razón. |\n| Pienso que **viene**. | No pienso que **venga**. |\n| Me parece que **es** verdad. | No me parece que **sea** verdad. |\n\nIn English the verb does not change (*I think he's right / I don't think he's right*), so it is easy to forget the switch. **Affirmative opinion = indicative; negated opinion = subjunctive.**"
+    },
+    {
+      "id": "step-emotion-value",
+      "type": "theory",
+      "title": "Reacting: value judgments and emotions",
+      "body": "## Value judgments + subjunctive\n\nWhen you **evaluate** or **judge** an action (not just report it), use the **subjunctive** with a change of subject:\n\n- **Me parece bien/mal que** + subjunctive\n- **Es lógico que** · **Es normal que** · **Es una pena que** + subjunctive\n\n> *Me parece mal que **llegues** tarde.*  ·  *Es una pena que no **puedan** venir.*\n\n## Emotions + subjunctive\n\nVerbs of **emotion and reaction** behave the same way:\n\n- **Me molesta que** (it bothers me that)\n- **Me sorprende que** (it surprises me that)\n- **Me encanta que** (I love that)\n\n> *Me encanta que **estés** aquí.*  ·  *Me molesta que **hablen** tan alto.*\n\n**Two subjects → que + subjunctive.** If the subject does not change, use the **infinitive** instead:\n\n- *Me molesta **llegar** tarde.* (I dislike arriving late — same subject)\n- *Me molesta que tú **llegues** tarde.* (two subjects → subjunctive)\n\nFeelings vocabulary to combine: **la alegría** (joy), **la sorpresa** (surprise), **el enfado** (anger), **la preocupación** (worry)."
+    },
+    {
+      "id": "step-agree-certainty",
+      "type": "theory",
+      "title": "Agreeing, disagreeing, and certainty vs doubt",
+      "body": "## Agreeing and disagreeing\n\n- **Estoy de acuerdo (con...)** — I agree (with...)\n- **Tienes razón** — you're right\n- **No estoy de acuerdo** — I disagree\n- **Depende** — it depends\n- **Por un lado... por otro (lado)...** — on the one hand... on the other...\n\n> Watch out: it's **estar de acuerdo CON** alguien — *Estoy de acuerdo **contigo***. Do not drop *con*, and do not say *acordar con* for 'agree with'.\n\n## Certainty vs doubt — the flip again\n\nThe same affirmative-indicative / negated-subjunctive pattern governs certainty:\n\n| Certainty → indicative | Doubt → subjunctive |\n|---|---|\n| Estoy seguro de que **vendrá**. | No estoy seguro de que **venga**. |\n\nNote the **de** in *estoy seguro **de** que*.\n\n## Maybe: quizás / tal vez\n\n**Quizás** and **tal vez** (maybe, perhaps) usually take the **subjunctive** to stress uncertainty:\n\n> *Quizás **llueva** mañana.*  ·  *Tal vez **tengan** razón.*"
+    },
+    {
+      "id": "ex-match-functions",
+      "type": "exercise",
+      "title": "Match the phrase",
+      "exercise": {
+        "id": "ex-match-functions",
+        "type": "matching",
+        "prompt": "Match each Spanish expression with its English function.",
+        "card_ids": ["op-creo-que", "op-estar-de-acuerdo", "op-no-acuerdo", "op-por-un-lado"],
+        "pairs": [
+          {"left": "Me parece que", "right": "It seems to me that"},
+          {"left": "Estoy de acuerdo", "right": "I agree"},
+          {"left": "No estoy de acuerdo", "right": "I disagree"},
+          {"left": "Por un lado", "right": "On the one hand"},
+          {"left": "Depende", "right": "It depends"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-dont-think-right",
+      "type": "exercise",
+      "title": "The opinion flip",
+      "exercise": {
+        "id": "ex-free-dont-think-right",
+        "type": "free_text",
+        "prompt": "Translate: *I don't think he's right.* (negated opinion → subjunctive)",
+        "card_ids": ["op-flip-rule", "op-creo-que"],
+        "accept": ["No creo que tenga razón.", "no creo que tenga razon", "No creo que tenga razón", "No creo que tenga razon."],
+        "hint": "Negate the opinion verb → subjunctive; tener → tenga.",
+        "distractors": ["No creo que tiene razón.", "No creo que tener razón.", "No pienso que tendrá razón."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-affirmative-indicative",
+      "type": "exercise",
+      "title": "Affirmative opinion → indicative",
+      "exercise": {
+        "id": "ex-cloze-affirmative-indicative",
+        "type": "cloze",
+        "prompt": "Fill in *tener* in the right mood. The opinion is affirmative, so use the indicative.",
+        "card_ids": ["op-flip-rule", "op-creo-que"],
+        "sentence": "Creo que María ___ razón en este tema.",
+        "blanks": [{"accept": ["tiene"]}],
+        "cloze_mode": "type",
+        "hint": "Affirmative 'creo que' asserts a fact → indicative: tiene."
+      }
+    },
+    {
+      "id": "ex-free-bothers-me",
+      "type": "exercise",
+      "title": "Emotion + subjunctive",
+      "exercise": {
+        "id": "ex-free-bothers-me",
+        "type": "free_text",
+        "prompt": "Translate: *It bothers me that you arrive late.* (emotion + change of subject → subjunctive)",
+        "card_ids": ["op-emotion-verbs"],
+        "accept": ["Me molesta que llegues tarde.", "me molesta que llegues tarde", "Me molesta que llegues tarde", "Me molesta que tú llegues tarde."],
+        "hint": "me molesta que + subjunctive; llegar → llegues (tú).",
+        "distractors": ["Me molesta que llegas tarde.", "Me molesta que llegar tarde.", "Me molesta que llegarás tarde."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-no-estoy-seguro",
+      "type": "exercise",
+      "title": "Certainty or doubt?",
+      "exercise": {
+        "id": "ex-pic-no-estoy-seguro",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly says 'I'm not sure he'll come'? (doubt → subjunctive)",
+        "card_ids": ["op-doubt", "op-certainty"],
+        "images": [
+          {"src": "assets/img/no-seguro-venga.png", "label": "No estoy seguro de que venga.", "is_correct": "true"},
+          {"src": "assets/img/no-seguro-viene.png", "label": "No estoy seguro de que viene."},
+          {"src": "assets/img/no-seguro-vendra.png", "label": "No estoy seguro que vendrá."},
+          {"src": "assets/img/no-seguro-venir.png", "label": "No estoy seguro de que venir."}
+        ],
+        "hint": "Doubt → subjunctive, and keep 'de que'; venir → venga.",
+        "distractors": ["No estoy seguro de que viene.", "No estoy seguro que vendrá.", "No estoy seguro de que venir."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-me-encanta",
+      "type": "exercise",
+      "title": "Build: I love that you're here",
+      "exercise": {
+        "id": "ex-tiles-me-encanta",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I love that you're here.* (emotion → subjunctive)",
+        "card_ids": ["op-emotion-verbs", "op-feelings-vocab"],
+        "tiles": ["Me", "encanta", "que", "estés", "aquí"],
+        "hint": "me encanta que + subjunctive; estar → estés (tú).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-quizas",
+      "type": "exercise",
+      "title": "Maybe it'll rain",
+      "exercise": {
+        "id": "ex-cloze-quizas",
+        "type": "cloze",
+        "prompt": "Fill in *llover* after *quizás* to stress uncertainty (subjunctive).",
+        "card_ids": ["op-quizas"],
+        "sentence": "Quizás ___ mañana, así que lleva el paraguas.",
+        "blanks": [{"accept": ["llueva"]}],
+        "cloze_mode": "type",
+        "hint": "quizás + subjunctive; llover (o→ue) → llueva."
+      }
+    },
+    {
+      "id": "ex-free-i-agree-with-you",
+      "type": "exercise",
+      "title": "Agree WITH someone",
+      "exercise": {
+        "id": "ex-free-i-agree-with-you",
+        "type": "free_text",
+        "prompt": "Translate: *I agree with you.* (mind the preposition)",
+        "card_ids": ["op-estar-de-acuerdo"],
+        "accept": ["Estoy de acuerdo contigo.", "estoy de acuerdo contigo", "Estoy de acuerdo contigo", "Estoy de acuerdo con usted."],
+        "hint": "estar de acuerdo CON; con + ti → contigo.",
+        "distractors": ["Estoy de acuerdo con ti.", "Acuerdo contigo.", "Estoy de acuerdo tú."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-emotions-vocab",
+      "type": "exercise",
+      "title": "Feelings vocabulary",
+      "exercise": {
+        "id": "ex-match-emotions-vocab",
+        "type": "matching",
+        "prompt": "Match each feeling noun with its English meaning.",
+        "card_ids": ["op-feelings-vocab"],
+        "pairs": [
+          {"left": "la alegría", "right": "joy"},
+          {"left": "la sorpresa", "right": "surprise"},
+          {"left": "el enfado", "right": "anger"},
+          {"left": "la preocupación", "right": "worry"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-its-a-pity",
+      "type": "exercise",
+      "title": "It's a pity that...",
+      "exercise": {
+        "id": "ex-free-its-a-pity",
+        "type": "free_text",
+        "prompt": "Translate: *It's a pity that they can't come.* (value judgment → subjunctive)",
+        "card_ids": ["op-value-judgments"],
+        "accept": ["Es una pena que no puedan venir.", "es una pena que no puedan venir", "Es una pena que no puedan venir", "Es una pena que no puedan venir."],
+        "hint": "Es una pena que + subjunctive; poder → puedan (ellos).",
+        "distractors": ["Es una pena que no pueden venir.", "Es una pena que no poder venir.", "Es una pena que no podrán venir."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-no-me-parece",
+      "type": "exercise",
+      "title": "Negated opinion → subjunctive",
+      "exercise": {
+        "id": "ex-cloze-no-me-parece",
+        "type": "cloze",
+        "prompt": "Fill in *ser* in the right mood after a negated opinion.",
+        "card_ids": ["op-flip-rule", "op-creo-que"],
+        "sentence": "No me parece que esta ___ la mejor solución.",
+        "blanks": [{"accept": ["sea"]}],
+        "cloze_mode": "type",
+        "hint": "'No me parece que' negates the opinion → subjunctive; ser → sea."
+      }
+    },
+    {
+      "id": "ex-free-im-sure",
+      "type": "exercise",
+      "title": "Certainty → indicative",
+      "exercise": {
+        "id": "ex-free-im-sure",
+        "type": "free_text",
+        "prompt": "Translate: *I'm sure (that) she'll come tomorrow.* (certainty → indicative)",
+        "card_ids": ["op-certainty"],
+        "accept": ["Estoy seguro de que vendrá mañana.", "estoy seguro de que vendra manana", "Estoy seguro de que vendrá mañana", "Estoy segura de que vendrá mañana."],
+        "hint": "estoy seguro DE que + indicative; venir → vendrá (future).",
+        "distractors": ["Estoy seguro de que venga mañana.", "Estoy seguro que vendrá mañana.", "Estoy seguro de que venir mañana."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

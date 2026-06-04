@@ -1,0 +1,328 @@
+{
+  "id": "es-b1-03-oraciones-condicionales",
+  "title": "Conditional Sentences and the Imperfect Subjunctive",
+  "description": "Master the three types of si-clauses (real, hypothetical, and unreal-past) and meet the imperfect subjunctive (hablara/hablase, tuviera, fuera) for the first time. Learn why English 'if I had' and 'if I were' become the imperfect subjunctive, why 'would' is the conditional, and the golden rule: never put the present subjunctive after si.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 21,
+  "cards": [
+    {
+      "id": "cond-impf-sub-formation",
+      "front": "hablaron → hablara; comieron → comiera; vivieron → viviera",
+      "back": "Build the imperfect subjunctive from the 3rd-plural preterite stem",
+      "notes": "Take the **ellos** preterite (*hablaron, comieron, vivieron*), drop **-ron**, and add the endings *-ra, -ras, -ra, -ramos, -rais, -ran*. This single rule captures every irregularity automatically.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "imperfect-subjunctive", "condicionales"]
+    },
+    {
+      "id": "cond-ra-se-forms",
+      "front": "hablara = hablase; comiera = comiese; fuera = fuese",
+      "back": "Two interchangeable sets of endings: -ra and -se",
+      "notes": "The imperfect subjunctive has **two forms** that mean the same thing: *-ra* (*hablara, comiera, fuera*) and *-se* (*hablase, comiese, fuese*). The **-ra form is far more common**, especially in speech; *-se* is a touch more formal or literary.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "imperfect-subjunctive"]
+    },
+    {
+      "id": "cond-impf-sub-irregulars",
+      "front": "fueron → fuera; tuvieron → tuviera; pidieron → pidiera; pudieron → pudiera",
+      "back": "Irregular preterites carry their stem into the imperfect subjunctive",
+      "notes": "Because the rule starts from the *ellos* preterite, irregular stems come for free: *ser/ir → fueron → **fuera*** (both ser and ir share it), *tener → tuvieron → **tuviera***, *poder → pudieron → **pudiera***, *pedir → pidieron → **pidiera***, *hacer → hicieron → **hiciera***.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "imperfect-subjunctive", "irregular"]
+    },
+    {
+      "id": "cond-nosotros-accent",
+      "front": "habláramos, comiéramos, fuéramos, tuviéramos",
+      "back": "The nosotros form takes a written accent",
+      "notes": "The **nosotros** form needs a written accent on the stem vowel: *habl**á**ramos, comi**é**ramos, fu**é**ramos, tuvi**é**ramos*. The *-se* versions accent the same way: *habl**á**semos*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "imperfect-subjunctive", "spelling"]
+    },
+    {
+      "id": "cond-type1-real",
+      "front": "Si tengo tiempo, te ayudaré.",
+      "back": "Type 1 (real/likely): Si + present indicative, + present/future/imperative",
+      "notes": "For **real or likely** conditions, the si-clause uses the **present indicative** and the result uses present, future, or an imperative: *Si tengo tiempo, te **ayudaré** / te **ayudo** / **ayúdame***. The si-clause stays in the indicative — **never** the subjunctive here.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "condicionales", "type1"]
+    },
+    {
+      "id": "cond-type2-hypothetical",
+      "front": "Si tuviera dinero, viajaría más.",
+      "back": "Type 2 (unreal present): Si + imperfect subjunctive, + conditional",
+      "notes": "For **hypothetical or unreal present** situations: *Si + imperfect subjunctive, + conditional*. *Si **tuviera** dinero, **viajaría** más* (If I **had** money, I **would** travel more). English 'if I had / if I were' = imperfect subjunctive; 'would' = conditional.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "condicionales", "type2"]
+    },
+    {
+      "id": "cond-type3-unreal-past",
+      "front": "Si hubiera estudiado, habría aprobado.",
+      "back": "Type 3 (unreal past): Si + pluperfect subjunctive, + conditional perfect",
+      "notes": "For an **unreal past** ('what would have happened'): *Si + **hubiera** + participle, + **habría** + participle*. *Si **hubiera estudiado**, **habría aprobado*** (If I had studied, I would have passed). The *-se* form *hubiese* also works.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "condicionales", "type3"]
+    },
+    {
+      "id": "cond-como-si",
+      "front": "Habla como si fuera experto.",
+      "back": "como si ('as if') always takes the imperfect subjunctive",
+      "notes": "**como si** ('as if') is always followed by the **imperfect subjunctive**, because it describes something contrary to fact: *Habla **como si fuera** experto* (He talks as if he were an expert). *Me trata como si **fuéramos** amigos*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "como-si", "imperfect-subjunctive"]
+    },
+    {
+      "id": "cond-never-present-sub-after-si",
+      "front": "Si tuviera... (NOT 'si tenga...')",
+      "back": "Never use the present subjunctive directly after si",
+      "notes": "A classic error: **never** put the present subjunctive right after *si*. Say *Si **tengo*** (indicative, real) or *Si **tuviera*** (imperfect subjunctive, hypothetical) — but **never** *si tenga*. The present subjunctive simply does not follow *si* in conditional clauses.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "condicionales", "pitfall"]
+    },
+    {
+      "id": "cond-would-is-conditional",
+      "front": "I would travel → viajaría (conditional)",
+      "back": "English 'would' in the result clause = Spanish conditional",
+      "notes": "The English **'would'** in the result of a hypothetical maps to the Spanish **conditional** (-ía endings): *viajar**ía**, ten**dría**, ser**ía***. Put the **imperfect subjunctive** in the si-clause and the **conditional** in the result: *Si **fuera** rico, **compraría** una casa*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "condicionales", "contrast"]
+    },
+    {
+      "id": "cond-if-i-were",
+      "front": "If I were you → Si yo fuera tú / Yo en tu lugar",
+      "back": "English 'if I were' → imperfect subjunctive (fuera), never 'era'",
+      "notes": "English 'if I **were**' is the leftover English subjunctive; in Spanish it becomes the **imperfect subjunctive** *fuera*: *Si yo **fuera** tú, no lo haría* (If I were you, I wouldn't do it). Do **not** use the imperfect indicative *era* here.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "condicionales", "contrast"]
+    },
+    {
+      "id": "cond-result-order",
+      "front": "Viajaría más si tuviera dinero. = Si tuviera dinero, viajaría más.",
+      "back": "The two clauses can swap order; the comma drops when si comes second",
+      "notes": "You can lead with either clause. When the **si-clause comes first**, separate with a comma: *Si tuviera dinero, viajaría más*. When the **result comes first**, no comma: *Viajaría más si tuviera dinero*. The verb forms do not change.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "condicionales", "word-order"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Meet the imperfect subjunctive",
+      "body": "# Conditional sentences and the imperfect subjunctive\n\nTo talk about what *would* happen *if* something were true, Spanish needs a new tense: the **imperfect subjunctive**. The good news is the formation rule is simple and catches every irregularity.\n\n## The rule: start from the 3rd-plural preterite\n\n1. Take the **ellos** form of the preterite: *hablar → hablaron*, *comer → comieron*, *vivir → vivieron*.\n2. Drop **-ron**.\n3. Add the endings.\n\nThere are **two interchangeable sets** of endings — the **-ra** form (more common) and the **-se** form:\n\n| | -ra form | -se form |\n|---|---|---|\n| yo | hablara | hablase |\n| tú | hablaras | hablases |\n| él/ella | hablara | hablase |\n| nosotros | habláramos | hablásemos |\n| vosotros | hablarais | hablaseis |\n| ellos | hablaran | hablasen |\n\nNote the **written accent** on *nosotros*: *habl**á**ramos / habl**á**semos*.\n\n## Irregulars come for free\n\nBecause we start from the preterite, irregular stems carry over automatically:\n\n- *ser / ir → fueron → **fuera / fuese*** (both verbs share it)\n- *tener → tuvieron → **tuviera***\n- *poder → pudieron → **pudiera***\n- *pedir → pidieron → **pidiera***\n- *hacer → hicieron → **hiciera***\n\n> *comieron → comiera/comiese*; *fueron → fuera/fuese*; *tuvieron → tuviera*; *pidieron → pidiera*."
+    },
+    {
+      "id": "step-three-types",
+      "type": "theory",
+      "title": "The three types of si-clauses",
+      "body": "## The three conditional types\n\nEverything depends on **how real** the condition is:\n\n| Type | Meaning | Si-clause | Result clause | Example |\n|---|---|---|---|---|\n| **1 — Real** | likely / open | si + **present indicative** | present / **future** / imperative | *Si tengo tiempo, te **ayudaré**.* |\n| **2 — Hypothetical** | unreal present | si + **imperfect subjunctive** | **conditional** | *Si **tuviera** dinero, **viajaría** más.* |\n| **3 — Unreal past** | impossible past | si + **pluperfect subjunctive** (hubiera + participle) | **conditional perfect** (habría + participle) | *Si **hubiera estudiado**, **habría aprobado**.* |\n\n## Type 1 — real conditions\n\nFor something likely or open, keep the si-clause in the **present indicative**:\n\n- *Si **tengo** tiempo, te **ayudaré**.* (future result)\n- *Si **tengo** tiempo, te **ayudo**.* (present result)\n- *Si **tienes** tiempo, **ayúdame**.* (imperative result)\n\n## Type 2 — hypothetical / unreal present\n\nFor things that are **contrary to fact now** or unlikely: *si + imperfect subjunctive, + conditional*.\n\n- *Si **tuviera** dinero, **viajaría** más.* (If I **had** money, I **would** travel more.)\n- *Si yo **fuera** tú, no lo **haría**.* (If I **were** you, I **wouldn't** do it.)\n\nEnglish 'if I **had** / if I **were**' = imperfect subjunctive. English '**would**' = the Spanish **conditional**."
+    },
+    {
+      "id": "step-type3-comosi-pitfall",
+      "type": "theory",
+      "title": "Unreal past, como si, and the big pitfall",
+      "body": "## Type 3 — the unreal past\n\nTo say what **would have happened** if the past had been different, stack two perfect forms:\n\n- **Si + hubiera + participle, + habría + participle**\n- *Si **hubiera estudiado**, **habría aprobado**.* (If I had studied, I would have passed.)\n- *Si **hubieras llamado**, te **habría esperado**.*\n\nThe *-se* version *hubiese* is equally correct: *Si hubiese estudiado...*\n\n## como si — 'as if'\n\n**como si** is always followed by the **imperfect subjunctive**, because it always describes something untrue:\n\n- *Habla **como si fuera** experto.* (He talks as if he were an expert.)\n- *Me trata **como si fuéramos** amigos.*\n\n## The golden rule: NEVER use the present subjunctive after si\n\nThis is the classic English-speaker error. After *si* in a condition, you use only:\n\n- **present indicative** for a real condition → *Si **tengo***\n- **imperfect subjunctive** for a hypothetical → *Si **tuviera***\n\nYou never write the **present subjunctive** directly after *si*:\n\n- Right: *Si **tengo** tiempo...* / *Si **tuviera** tiempo...*\n- Wrong: ~~*Si **tenga** tiempo...*~~"
+    },
+    {
+      "id": "ex-match-types",
+      "type": "exercise",
+      "title": "Match the type to its structure",
+      "exercise": {
+        "id": "ex-match-types",
+        "type": "matching",
+        "prompt": "Match each conditional type with the verb structure it uses.",
+        "card_ids": ["cond-type1-real", "cond-type2-hypothetical", "cond-type3-unreal-past"],
+        "pairs": [
+          {"left": "Type 1 (real)", "right": "si + present indicative, + future"},
+          {"left": "Type 2 (hypothetical)", "right": "si + imperfect subjunctive, + conditional"},
+          {"left": "Type 3 (unreal past)", "right": "si + hubiera + participle, + habría + participle"},
+          {"left": "como si (as if)", "right": "como si + imperfect subjunctive"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-impf-forms",
+      "type": "exercise",
+      "title": "Match the imperfect subjunctive forms",
+      "exercise": {
+        "id": "ex-match-impf-forms",
+        "type": "matching",
+        "prompt": "Match each infinitive with its yo imperfect-subjunctive (-ra) form.",
+        "card_ids": ["cond-impf-sub-formation", "cond-impf-sub-irregulars"],
+        "pairs": [
+          {"left": "hablar", "right": "hablara"},
+          {"left": "tener", "right": "tuviera"},
+          {"left": "ser/ir", "right": "fuera"},
+          {"left": "pedir", "right": "pidiera"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-if-had-money",
+      "type": "exercise",
+      "title": "If I had money...",
+      "exercise": {
+        "id": "ex-free-if-had-money",
+        "type": "free_text",
+        "prompt": "Translate: *If I had money, I would travel more.* (Type 2: imperfect subjunctive + conditional)",
+        "card_ids": ["cond-type2-hypothetical", "cond-would-is-conditional"],
+        "accept": ["Si tuviera dinero, viajaría más.", "si tuviera dinero, viajaria mas", "Si tuviera dinero, viajaría mas.", "Si tuviese dinero, viajaría más.", "Si tuviera dinero viajaría más", "Si tuviera dinero, viajaría más"],
+        "hint": "tener → tuviera (imperfect subjunctive); 'would travel' = viajaría (conditional).",
+        "distractors": ["Si tenga dinero, viajaría más.", "Si tengo dinero, viajaría más.", "Si tuviera dinero, viajara más."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-if-were-you",
+      "type": "exercise",
+      "title": "If I were you...",
+      "exercise": {
+        "id": "ex-free-if-were-you",
+        "type": "free_text",
+        "prompt": "Translate: *If I were you, I wouldn't do it.* (if I were → fuera, not era)",
+        "card_ids": ["cond-if-i-were", "cond-would-is-conditional"],
+        "accept": ["Si yo fuera tú, no lo haría.", "si yo fuera tu, no lo haria", "Si yo fuera tú, no lo haria.", "Si fuera tú, no lo haría.", "Si yo fuese tú, no lo haría.", "Si yo fuera tú, no lo haría"],
+        "hint": "'if I were' = si yo fuera; 'wouldn't do' = no lo haría (conditional of hacer).",
+        "distractors": ["Si yo era tú, no lo haría.", "Si yo sea tú, no lo haría.", "Si yo fuera tú, no lo hacía."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-type1-future",
+      "type": "exercise",
+      "title": "A real condition (Type 1)",
+      "exercise": {
+        "id": "ex-cloze-type1-future",
+        "type": "cloze",
+        "prompt": "Fill in the present indicative of *tener* (yo). Type 1 keeps the indicative after si.",
+        "card_ids": ["cond-type1-real", "cond-never-present-sub-after-si"],
+        "sentence": "Si ___ tiempo mañana, te ayudaré con la mudanza.",
+        "blanks": [{"accept": ["tengo"]}],
+        "cloze_mode": "type",
+        "hint": "Real condition → si + present indicative. NOT the subjunctive 'tenga'."
+      }
+    },
+    {
+      "id": "ex-cloze-type2-tuviera",
+      "type": "exercise",
+      "title": "A hypothetical condition (Type 2)",
+      "exercise": {
+        "id": "ex-cloze-type2-tuviera",
+        "type": "cloze",
+        "prompt": "Fill in the imperfect subjunctive of *tener* (yo) for this hypothetical.",
+        "card_ids": ["cond-type2-hypothetical", "cond-impf-sub-irregulars"],
+        "sentence": "Si ___ más tiempo libre, aprendería a tocar el piano.",
+        "blanks": [{"accept": ["tuviera", "tuviese"]}],
+        "cloze_mode": "type",
+        "hint": "tuvieron → drop -ron → tuviera (or tuviese). The result 'aprendería' is conditional."
+      }
+    },
+    {
+      "id": "ex-cloze-como-si",
+      "type": "exercise",
+      "title": "as if...",
+      "exercise": {
+        "id": "ex-cloze-como-si",
+        "type": "cloze",
+        "prompt": "Fill in the imperfect subjunctive of *ser* after 'como si'.",
+        "card_ids": ["cond-como-si", "cond-impf-sub-irregulars"],
+        "sentence": "Me habla como si ___ mi jefe, pero solo es un compañero.",
+        "blanks": [{"accept": ["fuera", "fuese"]}],
+        "cloze_mode": "type",
+        "hint": "como si always takes the imperfect subjunctive; ser → fuera (or fuese)."
+      }
+    },
+    {
+      "id": "ex-tiles-type3",
+      "type": "exercise",
+      "title": "Build: If I had studied, I would have passed",
+      "exercise": {
+        "id": "ex-tiles-type3",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *If I had studied, I would have passed.* (Type 3, unreal past)",
+        "card_ids": ["cond-type3-unreal-past"],
+        "tiles": ["Si", "hubiera", "estudiado", "habría", "aprobado"],
+        "hint": "Si + hubiera + participle, + habría + participle.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-type2-rich",
+      "type": "exercise",
+      "title": "Build: If I were rich, I would buy a house",
+      "exercise": {
+        "id": "ex-tiles-type2-rich",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *If I were rich, I would buy a house.* (Type 2)",
+        "card_ids": ["cond-type2-hypothetical", "cond-would-is-conditional"],
+        "tiles": ["Si", "fuera", "rico", "compraría", "una", "casa"],
+        "hint": "'if I were' = si fuera; 'would buy' = compraría (conditional).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-never-tenga",
+      "type": "exercise",
+      "title": "Spot the correct si-clause",
+      "exercise": {
+        "id": "ex-pic-never-tenga",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly says 'If I have time, I'll call you'? (real condition)",
+        "card_ids": ["cond-type1-real", "cond-never-present-sub-after-si"],
+        "images": [
+          {"src": "assets/img/si-tengo-tiempo.png", "label": "Si tengo tiempo, te llamaré.", "is_correct": "true"},
+          {"src": "assets/img/si-tenga-tiempo.png", "label": "Si tenga tiempo, te llamaré."},
+          {"src": "assets/img/si-tuviera-llamare.png", "label": "Si tuviera tiempo, te llamaré."},
+          {"src": "assets/img/si-tengo-llamara.png", "label": "Si tengo tiempo, te llamara."}
+        ],
+        "hint": "Real condition → si + present indicative (tengo); never 'si tenga'.",
+        "distractors": ["Si tenga tiempo, te llamaré.", "Si tuviera tiempo, te llamaré.", "Si tengo tiempo, te llamara."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-as-if-expert",
+      "type": "exercise",
+      "title": "He talks as if...",
+      "exercise": {
+        "id": "ex-free-as-if-expert",
+        "type": "free_text",
+        "prompt": "Translate: *He talks as if he were an expert.* (como si + imperfect subjunctive)",
+        "card_ids": ["cond-como-si"],
+        "accept": ["Habla como si fuera experto.", "habla como si fuera experto", "Habla como si fuera un experto.", "Habla como si fuese experto.", "Habla como si fuera experto"],
+        "hint": "como si + imperfect subjunctive; ser → fuera.",
+        "distractors": ["Habla como si es experto.", "Habla como si sea experto.", "Habla como si era experto."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-type3-habria",
+      "type": "exercise",
+      "title": "Complete the unreal past result",
+      "exercise": {
+        "id": "ex-cloze-type3-habria",
+        "type": "cloze",
+        "prompt": "Fill in the auxiliary for the conditional-perfect result (habría/habrías... for tú).",
+        "card_ids": ["cond-type3-unreal-past"],
+        "sentence": "Si hubieras llamado antes, te ___ esperado en la estación.",
+        "blanks": [{"accept": ["habría"]}],
+        "cloze_mode": "type",
+        "hint": "Result of a Type 3 = conditional perfect: habría + participle (esperado)."
+      }
+    }
+  ]
+}

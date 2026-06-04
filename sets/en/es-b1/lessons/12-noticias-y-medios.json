@@ -1,0 +1,330 @@
+{
+  "id": "es-b1-12-noticias-y-medios",
+  "title": "News and Media",
+  "description": "Talk about the press, TV channels and social media in Spanish: report what the news says with reported speech and the impersonal se, weigh up whether a source is reliable, and dodge the classic false friends actual, actualmente and realizar.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "med-periodico",
+      "front": "el periódico / el diario",
+      "back": "the newspaper",
+      "notes": "Both mean *newspaper*. *El diario* is the daily paper (from *día*); *el periódico* is the more general word. A journalist works for *la prensa* (the press).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocab", "media"]
+    },
+    {
+      "id": "med-noticia-titular",
+      "front": "la noticia / el titular",
+      "back": "the (piece of) news / the headline",
+      "notes": "**Una noticia** is a single news item; the plural **las noticias** = *the news* in general. The big text at the top is **el titular** (headline). Spanish keeps *las noticias* plural even when English says \"the news is...\".",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocab", "media"]
+    },
+    {
+      "id": "med-reportaje-periodista",
+      "front": "el reportaje / el/la periodista",
+      "back": "the report (feature) / the journalist",
+      "notes": "**El reportaje** is an in-depth report or feature story. **El/la periodista** (same form for both genders) is the journalist. Note: a *reportaje* is not a quick \"report\" you hand to your boss — that is *un informe*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "media"]
+    },
+    {
+      "id": "med-cadena-canal",
+      "front": "la cadena / el canal",
+      "back": "the (broadcast) network / the channel",
+      "notes": "**La cadena** is a TV or radio network (a chain of stations); **el canal** is an individual channel. *Cambiar de canal* = to change the channel.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "media"]
+    },
+    {
+      "id": "med-redes-medios",
+      "front": "las redes sociales / los medios de comunicación",
+      "back": "social media / the (mass) media",
+      "notes": "**Las redes sociales** = social media (literally *social networks*). **Los medios de comunicación** (often just *los medios*) = the mass media. Both are normally plural.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "media"]
+    },
+    {
+      "id": "med-secciones",
+      "front": "la política, los sucesos, los deportes, la economía",
+      "back": "politics, crime/incidents, sports, the economy (news sections)",
+      "notes": "News sections: **la política** (politics), **los sucesos** (crime stories, accidents, incidents — false-friend warning: not \"success\"!), **los deportes** (sports), **la economía** (economy/business).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "news-types"]
+    },
+    {
+      "id": "med-enterarse-aldia",
+      "front": "enterarse de / estar al día / seguir las noticias",
+      "back": "to find out about / to be up to date / to follow the news",
+      "notes": "**Enterarse de algo** = to find out / hear about something (*Me enteré de la noticia por la radio*). **Estar al día** = to be up to date. **Seguir las noticias** = to follow the news.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "media", "verbs"]
+    },
+    {
+      "id": "med-se-dice-segun",
+      "front": "Se dice que... / Según...",
+      "back": "It is said that... / According to...",
+      "notes": "Report what people say impersonally with **se**: *Se dice que...*, *Se rumorea que...*, *Se cree que...* (+ indicative). Cite a source with **según**: *según el periódico*, *según la fuente* (no *que* after *según* + noun).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "reported-speech", "impersonal-se"]
+    },
+    {
+      "id": "med-reported-speech",
+      "front": "\"Habrá elecciones.\" → El periódico dijo que habría elecciones.",
+      "back": "reported speech: present/future shifts back one tense",
+      "notes": "Reporting in the past shifts the tense back: present → imperfect, future → conditional. *\"Llueve\"* → *Dijo que **llovía***. *\"Ganaremos\"* → *Dijo que **ganarían***. Connects to Lesson 6 (estilo indirecto).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "reported-speech"]
+    },
+    {
+      "id": "med-fiable-fuente",
+      "front": "fiable / la fuente / verificar",
+      "back": "reliable / the source / to verify",
+      "notes": "Judging fake news: **fiable** = reliable/trustworthy; **una fuente** = a source; **verificar / comprobar** = to verify/check the facts. *Las noticias falsas* = fake news.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "reliability"]
+    },
+    {
+      "id": "med-ff-actual",
+      "front": "actual / actualmente (false friends)",
+      "back": "current(ly) — NOT 'actual/actually'",
+      "notes": "FALSE FRIENDS. **actual** = *current, present-day* (*el presidente actual* = the current president), NOT \"actual\". For \"the actual reason\" say *la verdadera razón / la razón real*. **actualmente** = *currently, nowadays*, NOT \"actually\". For \"actually\" use *en realidad* or *de hecho*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["vocab", "false-friend"]
+    },
+    {
+      "id": "med-ff-realizar",
+      "front": "realizar (false friend)",
+      "back": "to carry out / to do — NOT 'to realize'",
+      "notes": "FALSE FRIEND (recap). **realizar** = *to carry out, to do, to make* (*realizar una entrevista* = to do an interview). It does NOT mean \"to realize\". For \"to realize\" (become aware) use **darse cuenta de**: *Me di cuenta de que la noticia era falsa*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["vocab", "false-friend"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "The media landscape in Spanish",
+      "body": "# News and Media\n\nLet's build the vocabulary to talk about how you stay informed.\n\n## The press and broadcasting\n\n| Spanish | English |\n|---|---|\n| el periódico / el diario | the newspaper |\n| la prensa | the press |\n| la noticia | a news item |\n| **las noticias** | the news (always plural) |\n| el titular | the headline |\n| el reportaje | the (feature) report |\n| el/la periodista | the journalist |\n| la cadena / el canal | the network / the channel |\n| las redes sociales | social media |\n| los medios de comunicación | the (mass) media |\n\n## News sections\n\n*la política* (politics), *los sucesos* (crime/incidents — **not** \"success\"!), *los deportes* (sports), *la economía* (the economy).\n\n## Staying informed\n\n- **enterarse de** algo — to find out / hear about something\n- **estar al día** — to be up to date\n- **seguir las noticias** — to follow the news\n\n> Watch the number: English treats *the news* as singular (\"the news **is**...\"), but Spanish uses **las noticias** (plural): *Las noticias **son** preocupantes*."
+    },
+    {
+      "id": "step-reporting",
+      "type": "theory",
+      "title": "Reporting what the news says",
+      "body": "## The impersonal *se* (recap of Lessons 5-6)\n\nTo report what \"people say\" without naming who, use **se** + verb:\n\n- **Se dice que** el ministro va a dimitir. — *It is said that...*\n- **Se cree que** la economía mejorará. — *It is believed that...*\n- **Se rumorea que**... — *It is rumoured that...*\n\nAfter these, use the **indicative** (they report facts/claims).\n\n## Citing a source: *según*\n\nUse **según** (= according to) + a source. No *que* after *según + noun*:\n\n- **Según** el periódico, hubo un accidente.\n- **Según** la fuente, los datos son fiables.\n\n## Reported speech: shift the tense back\n\nWhen you report past speech, tenses shift back one step (Lesson 6):\n\n| Direct | Reported (past) |\n|---|---|\n| \"Llueve\" (present) | Dijo que **llovía** (imperfect) |\n| \"Habrá elecciones\" (future) | Dijo que **habría** elecciones (conditional) |\n| \"Ganamos\" (preterite) | Dijo que **habían** ganado (pluperfect) |\n\n*El periodista dijo que la cadena **emitiría** el reportaje esa noche.*"
+    },
+    {
+      "id": "step-false-friends",
+      "type": "theory",
+      "title": "Reliability and three nasty false friends",
+      "body": "## Fake news and reliability\n\n- **fiable** — reliable, trustworthy\n- **la fuente** — the source\n- **verificar / comprobar** — to verify, to check\n- **las noticias falsas** — fake news\n\n*Antes de compartir algo, hay que **verificar** la **fuente** y comprobar si es **fiable**.*\n\n## Three false friends that trip up English speakers\n\n**1. actual** ≠ *actual*. It means **current / present-day**.\n- *el presidente **actual*** = the **current** president.\n- For English \"the actual reason\", say *la **verdadera** razón* / *la razón **real***.\n\n**2. actualmente** ≠ *actually*. It means **currently / nowadays**.\n- ***Actualmente** trabajo como periodista* = *Currently* I work as a journalist.\n- For English \"actually\", use **en realidad** or **de hecho**.\n\n**3. realizar** ≠ *to realize*. It means **to carry out / to do**.\n- *El canal **realizó** una entrevista* = The channel **did/carried out** an interview.\n- For English \"to realize\" (become aware), use **darse cuenta de**: *Me di cuenta de que era falso*.\n\n> Other classics: *los sucesos* = crime stories, not \"success\"; and **asistir a** = to attend (*asistir a la rueda de prensa*), while **atender** = to attend *to* / serve someone, not \"to attend an event\"."
+    },
+    {
+      "id": "ex-match-media-vocab",
+      "type": "exercise",
+      "title": "Match the media words",
+      "exercise": {
+        "id": "ex-match-media-vocab",
+        "type": "matching",
+        "prompt": "Match each Spanish media word with its English meaning.",
+        "card_ids": ["med-periodico", "med-noticia-titular", "med-reportaje-periodista", "med-redes-medios"],
+        "pairs": [
+          {"left": "el periódico", "right": "the newspaper"},
+          {"left": "el titular", "right": "the headline"},
+          {"left": "el/la periodista", "right": "the journalist"},
+          {"left": "las redes sociales", "right": "social media"},
+          {"left": "los medios de comunicación", "right": "the mass media"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-current-president",
+      "type": "exercise",
+      "title": "False friend: actual",
+      "exercise": {
+        "id": "ex-free-current-president",
+        "type": "free_text",
+        "prompt": "Translate: *The current president gave an interview.* (current → actual)",
+        "card_ids": ["med-ff-actual", "med-reportaje-periodista"],
+        "accept": ["El presidente actual dio una entrevista.", "el presidente actual dio una entrevista", "El presidente actual dio una entrevista", "La presidenta actual dio una entrevista."],
+        "hint": "\"current\" = actual (after the noun); \"gave an interview\" = dio una entrevista.",
+        "distractors": ["El presidente real dio una entrevista.", "El actual presidente realizó que dio una entrevista.", "El presidente verdadero dio una entrevista."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-actually-fake",
+      "type": "exercise",
+      "title": "False friend: actually",
+      "exercise": {
+        "id": "ex-free-actually-fake",
+        "type": "free_text",
+        "prompt": "Translate: *Actually, that piece of news is fake.* (actually → en realidad / de hecho)",
+        "card_ids": ["med-ff-actual", "med-fiable-fuente"],
+        "accept": ["En realidad, esa noticia es falsa.", "en realidad, esa noticia es falsa", "En realidad esa noticia es falsa.", "De hecho, esa noticia es falsa.", "De hecho esa noticia es falsa."],
+        "hint": "\"actually\" is NOT actualmente; use en realidad or de hecho. \"fake\" = falsa.",
+        "distractors": ["Actualmente, esa noticia es falsa.", "Actual, esa noticia es falsa.", "Realmente esa noticia realiza falsa."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-realizar",
+      "type": "exercise",
+      "title": "False friend: realizar",
+      "exercise": {
+        "id": "ex-cloze-realizar",
+        "type": "cloze",
+        "prompt": "Fill the blank: the channel \"carried out\" an interview (realizar, preterite).",
+        "card_ids": ["med-ff-realizar", "med-cadena-canal"],
+        "sentence": "La cadena ___ una entrevista con el ministro.",
+        "blanks": [{"accept": ["realizó", "realizo"]}],
+        "cloze_mode": "type",
+        "hint": "realizar = to carry out (NOT to realize); 3rd person preterite = realizó."
+      }
+    },
+    {
+      "id": "ex-cloze-se-dice",
+      "type": "exercise",
+      "title": "Reporting with impersonal se",
+      "exercise": {
+        "id": "ex-cloze-se-dice",
+        "type": "cloze",
+        "prompt": "Complete the impersonal report: \"It is said that...\"",
+        "card_ids": ["med-se-dice-segun"],
+        "sentence": "___ dice que el periódico cerrará el año que viene.",
+        "blanks": [{"accept": ["Se", "se"]}],
+        "cloze_mode": "type",
+        "hint": "Impersonal 'it is said that' = Se dice que..."
+      }
+    },
+    {
+      "id": "ex-pic-newspaper",
+      "type": "exercise",
+      "title": "Pick the newspaper",
+      "exercise": {
+        "id": "ex-pic-newspaper",
+        "type": "picture_choice",
+        "prompt": "Which word means 'the newspaper'?",
+        "card_ids": ["med-periodico", "med-cadena-canal"],
+        "images": [
+          {"src": "assets/img/el-periodico.png", "label": "el periódico", "is_correct": "true"},
+          {"src": "assets/img/la-cadena.png", "label": "la cadena"},
+          {"src": "assets/img/el-titular.png", "label": "el titular"},
+          {"src": "assets/img/la-fuente.png", "label": "la fuente"}
+        ],
+        "hint": "From el día → el diario / el periódico.",
+        "distractors": ["la cadena", "el titular", "la fuente"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-segun",
+      "type": "exercise",
+      "title": "Build: According to the press",
+      "exercise": {
+        "id": "ex-tiles-segun",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *According to the press, the source is reliable.*",
+        "card_ids": ["med-se-dice-segun", "med-fiable-fuente"],
+        "tiles": ["Según", "la", "prensa,", "la", "fuente", "es", "fiable"],
+        "hint": "según + noun (no que); fuente = source; fiable = reliable.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-found-out",
+      "type": "exercise",
+      "title": "Find out / be up to date",
+      "exercise": {
+        "id": "ex-free-found-out",
+        "type": "free_text",
+        "prompt": "Translate: *I found out about the news on social media.* (enterarse de)",
+        "card_ids": ["med-enterarse-aldia", "med-redes-medios"],
+        "accept": ["Me enteré de la noticia en las redes sociales.", "me enteré de la noticia en las redes sociales", "Me entere de la noticia en las redes sociales.", "Me enteré de la noticia por las redes sociales."],
+        "hint": "enterarse de = to find out about; preterite yo = me enteré.",
+        "distractors": ["Me realicé de la noticia en las redes sociales.", "Asistí la noticia en las redes sociales.", "Actualmente la noticia en las redes sociales."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-reported",
+      "type": "exercise",
+      "title": "Reported speech: shift the tense",
+      "exercise": {
+        "id": "ex-cloze-reported",
+        "type": "cloze",
+        "prompt": "Report \"Habrá elecciones\" in the past: the future shifts to the conditional.",
+        "card_ids": ["med-reported-speech"],
+        "sentence": "El periódico dijo que ___ elecciones en otoño.",
+        "blanks": [{"accept": ["habría", "habria"]}],
+        "cloze_mode": "type",
+        "hint": "future habrá → conditional habría in reported past speech."
+      }
+    },
+    {
+      "id": "ex-match-news-types",
+      "type": "exercise",
+      "title": "Match the news sections",
+      "exercise": {
+        "id": "ex-match-news-types",
+        "type": "matching",
+        "prompt": "Match each news section with its English meaning.",
+        "card_ids": ["med-secciones"],
+        "pairs": [
+          {"left": "la política", "right": "politics"},
+          {"left": "los sucesos", "right": "crime/incidents"},
+          {"left": "los deportes", "right": "sports"},
+          {"left": "la economía", "right": "the economy"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-attend-press",
+      "type": "exercise",
+      "title": "Attend the press conference",
+      "exercise": {
+        "id": "ex-free-attend-press",
+        "type": "free_text",
+        "prompt": "Translate: *The journalists attended the press conference.* (attend → asistir a)",
+        "card_ids": ["med-reportaje-periodista", "med-enterarse-aldia"],
+        "accept": ["Los periodistas asistieron a la rueda de prensa.", "los periodistas asistieron a la rueda de prensa", "Los periodistas asistieron a la rueda de prensa", "Los periodistas asistieron a la conferencia de prensa."],
+        "hint": "\"to attend an event\" = asistir a (NOT atender); press conference = rueda de prensa.",
+        "distractors": ["Los periodistas atendieron a la rueda de prensa.", "Los periodistas asistieron la rueda de prensa.", "Los periodistas realizaron a la rueda de prensa."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-up-to-date",
+      "type": "exercise",
+      "title": "Stay up to date",
+      "exercise": {
+        "id": "ex-free-up-to-date",
+        "type": "free_text",
+        "prompt": "Translate: *I follow the news to be up to date.* (seguir las noticias / estar al día)",
+        "card_ids": ["med-enterarse-aldia", "med-noticia-titular"],
+        "accept": ["Sigo las noticias para estar al día.", "sigo las noticias para estar al día", "Sigo las noticias para estar al dia.", "Sigo las noticias para estar al día"],
+        "hint": "seguir (yo) = sigo; las noticias is plural; estar al día = to be up to date.",
+        "distractors": ["Sigo la noticia para estar al día.", "Sigo las noticias para ser al día.", "Actualmente las noticias para estar al día."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
