@@ -63,6 +63,29 @@ sets:
       - beginner
       - travel
       - everyday
+  - id: es-a2-from-en
+    title: Spanish A2 — Elementary
+    title_native: Español A2 — Elemental
+    target_language: es
+    source_language: en
+    level: A2
+    path: sets/en/es-a2
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Intermediate Spanish for English speakers (15 lessons),
+      building on A1: the preterite (deepened) and the imperfect
+      with their contrast, the futuro simple and condicional,
+      object and reflexive pronouns, ser vs estar and por vs para
+      deepened, an introduction to the subjunctive, and everyday
+      topics (travel, food, health, shopping), closing with review
+      and text production. Presupposes A1; mostly productive.
+      Explanations in English (schema v1.3).
+    tags:
+      - elementary
+      - grammar
+      - everyday
   - id: fr-a1-from-de
     title: Französisch A1 (für Deutschsprachige)
     title_native: Français A1
