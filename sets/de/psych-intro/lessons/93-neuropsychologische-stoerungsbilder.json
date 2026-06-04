@@ -1,0 +1,264 @@
+{
+  "id": "93-neuropsychologische-stoerungsbilder",
+  "title": "Neuropsychologische Störungsbilder",
+  "description": "Nach einer Hirnschädigung können umschriebene psychische Funktionen ausfallen, während andere erhalten bleiben. Diese Lektion stellt zentrale erworbene Störungsbilder sachlich und respektvoll vor: Aphasie (Broca vs. Wernicke), Apraxie, Agnosie, Neglect sowie Alexie und Agrafie — auf Deutsch erklärt, mit den Fachbegriffen. Diese Begriffe beschreiben Funktionsausfälle und definieren nicht den Wert eines Menschen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "stoerungsbild-def",
+      "front": "Neuropsychologisches Störungsbild",
+      "back": "Muster aus Funktionsausfällen, das nach einer erworbenen Hirnschädigung (z. B. Schlaganfall, Schädel-Hirn-Trauma) auftreten kann. Charakteristisch ist, dass bestimmte Leistungen gestört sind, während andere erhalten bleiben.",
+      "notes": "Wichtig: Ein Störungsbild beschreibt einen Funktionsausfall, es definiert nicht den Wert eines Menschen. Englisch: neuropsychological syndrome.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["neuropsychologie", "grundbegriff", "stoerungsbilder"]
+    },
+    {
+      "id": "aphasie",
+      "front": "Aphasie",
+      "back": "Erworbene Störung der Sprache nach Hirnschädigung, die das Sprechen, Verstehen, Lesen oder Schreiben betreffen kann. Die allgemeine Sprachfähigkeit ist beeinträchtigt, nicht die Intelligenz an sich.",
+      "notes": "Tritt meist nach Schädigung der sprachdominanten (oft linken) Hemisphäre auf. Englisch: aphasia.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["neuropsychologie", "sprache", "stoerungsbilder"]
+    },
+    {
+      "id": "broca-aphasie",
+      "front": "Broca-Aphasie",
+      "back": "Nicht-flüssige Aphasie: Die Sprachproduktion ist stark erschwert, das Sprechen wirkt mühevoll und abgehackt (oft im Telegrammstil). Das Sprachverständnis ist vergleichsweise besser erhalten. Betroffene merken die Schwierigkeit häufig.",
+      "notes": "Auch motorische bzw. expressive Aphasie genannt; Schädigung im Bereich des Broca-Areals (frontal). Englisch: Broca's aphasia.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "sprache", "stoerungsbilder"]
+    },
+    {
+      "id": "wernicke-aphasie",
+      "front": "Wernicke-Aphasie",
+      "back": "Flüssige Aphasie: Das Sprechen läuft flüssig, ist aber inhaltlich oft schwer verständlich (falsche oder erfundene Wörter). Vor allem das Sprachverständnis ist deutlich gestört.",
+      "notes": "Auch sensorische bzw. rezeptive Aphasie genannt; Schädigung im Bereich des Wernicke-Areals (temporal). Englisch: Wernicke's aphasia.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "sprache", "stoerungsbilder"]
+    },
+    {
+      "id": "broca-vs-wernicke",
+      "front": "Broca vs. Wernicke (Abgrenzung)",
+      "back": "Faustregel: Broca-Aphasie ist nicht-flüssig mit gestörter Sprachproduktion bei besser erhaltenem Verständnis; Wernicke-Aphasie ist flüssig mit deutlich gestörtem Sprachverständnis. Beide sind in der Praxis nicht immer reine Formen.",
+      "notes": "Merkhilfe: Broca = Produktion (front), Wernicke = Verständnis (hinten/temporal).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "sprache", "stoerungsbilder"]
+    },
+    {
+      "id": "apraxie",
+      "front": "Apraxie",
+      "back": "Störung der Planung und Ausführung zielgerichteter Handlungen, obwohl Beweglichkeit, Kraft und Koordination grundsätzlich erhalten sind. Vertraute Bewegungsabläufe (z. B. eine Geste oder den Umgang mit einem Gegenstand) auf Aufforderung auszuführen, fällt schwer.",
+      "notes": "Nicht durch Lähmung oder Verständnisprobleme erklärbar, sondern eine Störung der Handlungsplanung. Englisch: apraxia.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "handeln", "stoerungsbilder"]
+    },
+    {
+      "id": "agnosie",
+      "front": "Agnosie",
+      "back": "Störung des Erkennens von Reizen, obwohl die Sinnesorgane intakt sind und der Reiz wahrgenommen wird. Das Gesehene, Gehörte oder Getastete kann nicht zu einer Bedeutung zugeordnet werden.",
+      "notes": "Wörtlich (aus dem Griechischen) Nicht-Erkennen. Englisch: agnosia.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "wahrnehmung", "stoerungsbilder"]
+    },
+    {
+      "id": "visuelle-agnosie",
+      "front": "Visuelle Agnosie",
+      "back": "Form der Agnosie, bei der Objekte zwar gesehen, aber nicht als das erkannt werden, was sie sind, obwohl das Sehen selbst erhalten ist. Über andere Sinne (z. B. Tasten) gelingt die Erkennung oft trotzdem.",
+      "notes": "Beispiel für eine modalitätsspezifische Erkennensstörung. Englisch: visual agnosia.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "wahrnehmung", "stoerungsbilder"]
+    },
+    {
+      "id": "prosopagnosie",
+      "front": "Prosopagnosie",
+      "back": "Spezifische Störung des Erkennens von Gesichtern: Vertraute Personen können nicht mehr am Gesicht identifiziert werden, obwohl das Sehen intakt ist. Die Erkennung gelingt oft über andere Hinweise wie Stimme, Gang oder Kleidung.",
+      "notes": "Auch Gesichtsblindheit genannt; eine Unterform der visuellen Agnosie. Englisch: prosopagnosia.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["neuropsychologie", "wahrnehmung", "stoerungsbilder"]
+    },
+    {
+      "id": "neglect",
+      "front": "Neglect",
+      "back": "Halbseitige Vernachlässigung: Eine Raumhälfte (und oft die eigene Körperhälfte) wird nicht beachtet, obwohl die Sinnesorgane funktionieren. Betroffene übersehen z. B. Reize auf der vernachlässigten Seite, ohne es selbst zu bemerken.",
+      "notes": "Meist nach rechtshemisphärischer Schädigung, dann Vernachlässigung der linken Seite. Englisch: (hemi)neglect.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["neuropsychologie", "aufmerksamkeit", "stoerungsbilder"]
+    },
+    {
+      "id": "alexie",
+      "front": "Alexie",
+      "back": "Erworbene Störung des Lesens nach Hirnschädigung: Das Lesen von Wörtern oder Texten ist beeinträchtigt oder nicht mehr möglich, obwohl Lesen zuvor beherrscht wurde.",
+      "notes": "Abzugrenzen von einer Lese-Rechtschreib-Störung in der Entwicklung (Legasthenie). Englisch: alexia.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "sprache", "stoerungsbilder"]
+    },
+    {
+      "id": "agrafie",
+      "front": "Agrafie",
+      "back": "Erworbene Störung des Schreibens nach Hirnschädigung: Das Schreiben von Wörtern ist beeinträchtigt oder nicht mehr möglich, unabhängig von einer reinen Bewegungsstörung der Hand.",
+      "notes": "Tritt häufig zusammen mit Aphasie oder Alexie auf. Englisch: agraphia.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "sprache", "stoerungsbilder"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Was Störungsbilder sind",
+      "body": "# Neuropsychologische Störungsbilder\n\nNach einer erworbenen **Hirnschädigung** (etwa durch Schlaganfall oder Schädel-Hirn-Trauma) können einzelne psychische Funktionen **ausfallen**, während andere erhalten bleiben. Ein solches Muster nennt man ein **neuropsychologisches Störungsbild** (englisch: *neuropsychological syndrome*).\n\n> Wichtig: Diese Begriffe beschreiben **Funktionsausfälle**. Sie definieren **nicht** den Wert eines Menschen. Wir behandeln sie sachlich und respektvoll.\n\nGerade weil bestimmte Leistungen gestört sind und andere nicht, helfen Störungsbilder, den **Aufbau gesunder Kognition** zu verstehen (vgl. die kognitive Neuropsychologie aus Lektion 91).\n\nIn dieser Lektion lernst du vier zentrale Bereiche kennen:\n\n- Störungen der **Sprache** (Aphasie),\n- Störungen des **Handelns** (Apraxie),\n- Störungen des **Erkennens** (Agnosie),\n- Störungen der **räumlichen Aufmerksamkeit** (Neglect)."
+    },
+    {
+      "id": "sprache",
+      "type": "theory",
+      "title": "Aphasie: Broca und Wernicke",
+      "body": "## Aphasie — die Sprache ist betroffen\n\nEine **Aphasie** (*aphasia*) ist eine erworbene Störung der Sprache. Betroffen sein können Sprechen, Verstehen, Lesen oder Schreiben. Wichtig: Eine Aphasie ist eine **Sprachstörung**, kein Zeichen geringerer Intelligenz.\n\nZwei klassische Formen werden unterschieden:\n\n| Merkmal | Broca-Aphasie | Wernicke-Aphasie |\n|---|---|---|\n| Sprachfluss | nicht-flüssig, mühevoll | flüssig |\n| Hauptproblem | Sprach**produktion** | Sprach**verständnis** |\n| Verständnis | relativ besser erhalten | deutlich gestört |\n| typische Lage | vorn (Broca-Areal) | hinten/temporal (Wernicke-Areal) |\n\n**Merkhilfe:** *Broca = Produktion (vorn)*, *Wernicke = Verständnis (hinten)*.\n\nIn der Praxis treten diese Formen nicht immer rein auf; es gibt Mischbilder und Übergänge.\n\nVerwandt sind die **Alexie** (erworbene Lesestörung) und die **Agrafie** (erworbene Schreibstörung), die oft gemeinsam mit einer Aphasie vorkommen."
+    },
+    {
+      "id": "handeln-erkennen-raum",
+      "type": "theory",
+      "title": "Apraxie, Agnosie und Neglect",
+      "body": "## Handeln, Erkennen und Raum\n\n**Apraxie** (*apraxia*) ist eine Störung der **Handlungsplanung**: Vertraute Bewegungsabläufe auf Aufforderung auszuführen fällt schwer, obwohl Kraft, Beweglichkeit und Koordination grundsätzlich **erhalten** sind. Die Bewegung scheitert also nicht an einer Lähmung, sondern an der Planung.\n\n**Agnosie** (*agnosia*) ist eine Störung des **Erkennens** trotz intakter Sinnesorgane: Ein Reiz wird wahrgenommen, aber nicht zu einer Bedeutung zugeordnet.\n\n- **Visuelle Agnosie**: Objekte werden gesehen, aber nicht erkannt.\n- **Prosopagnosie**: speziell **Gesichter** werden nicht mehr erkannt (Gesichtsblindheit); die Erkennung gelingt oft über Stimme oder Gang.\n\n**Neglect** ist eine **halbseitige Vernachlässigung** des Raums: Eine Raumhälfte wird nicht beachtet, obwohl die Sinnesorgane funktionieren. Er tritt **meist nach rechtshemisphärischer Schädigung** auf, dann wird die **linke** Seite vernachlässigt — häufig, ohne dass es selbst bemerkt wird.\n\n> Diagnostik und Rehabilitation dieser Störungsbilder werden in **Lektion 94/95** vertieft."
+    },
+    {
+      "id": "ex-match-stoerungen",
+      "type": "exercise",
+      "title": "Störungsbilder zuordnen",
+      "exercise": {
+        "id": "ex-match-stoerungen",
+        "type": "matching",
+        "prompt": "Ordne jedem Störungsbild die passende Kurzbeschreibung zu.",
+        "card_ids": ["aphasie", "apraxie", "agnosie", "neglect"],
+        "pairs": [
+          {"left": "Aphasie", "right": "erworbene Störung der Sprache"},
+          {"left": "Apraxie", "right": "gestörte Handlungsplanung trotz erhaltener Motorik"},
+          {"left": "Agnosie", "right": "gestörtes Erkennen trotz intakter Sinnesorgane"},
+          {"left": "Neglect", "right": "halbseitige Vernachlässigung des Raums"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-prosopagnosie",
+      "type": "exercise",
+      "title": "Gesichter erkennen",
+      "exercise": {
+        "id": "ex-free-prosopagnosie",
+        "type": "free_text",
+        "prompt": "Wie heißt die spezifische Störung, bei der vertraute Personen nicht mehr am Gesicht erkannt werden, obwohl das Sehen intakt ist?",
+        "card_ids": ["prosopagnosie"],
+        "accept": ["Prosopagnosie", "die Prosopagnosie", "Gesichtsblindheit", "prosopagnosia"],
+        "hint": "Eine Unterform der visuellen Agnosie; auch Gesichtsblindheit genannt.",
+        "distractors": ["Wernicke-Aphasie", "Apraxie", "Neglect"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-neglect",
+      "type": "exercise",
+      "title": "Die vernachlässigte Seite",
+      "exercise": {
+        "id": "ex-cloze-neglect",
+        "type": "cloze",
+        "prompt": "Ergänze die Aussage zur typischen Lage der Schädigung beim Neglect.",
+        "card_ids": ["neglect"],
+        "sentence": "Ein Neglect tritt meist nach Schädigung der ___ Hemisphäre auf, sodass die linke Raumhälfte vernachlässigt wird.",
+        "blanks": [{"accept": ["rechten", "rechtshemisphärischen", "rechts"]}],
+        "cloze_mode": "type",
+        "hint": "Vernachlässigt wird die linke Seite — die Schädigung liegt auf der Gegenseite."
+      }
+    },
+    {
+      "id": "ex-free-apraxie",
+      "type": "exercise",
+      "title": "Handlung trotz erhaltener Motorik",
+      "exercise": {
+        "id": "ex-free-apraxie",
+        "type": "free_text",
+        "prompt": "Wie heißt die Störung der Handlungsplanung, bei der zielgerichtete Bewegungen misslingen, obwohl Kraft und Beweglichkeit erhalten sind?",
+        "card_ids": ["apraxie"],
+        "accept": ["Apraxie", "die Apraxie", "apraxia"],
+        "hint": "Kein Lähmungsproblem, sondern ein Planungsproblem.",
+        "distractors": ["Aphasie", "Agnosie", "Alexie"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-broca",
+      "type": "exercise",
+      "title": "Broca-Aphasie kennzeichnen",
+      "exercise": {
+        "id": "ex-cloze-broca",
+        "type": "cloze",
+        "prompt": "Ergänze das Kennzeichen der Broca-Aphasie.",
+        "card_ids": ["broca-aphasie", "broca-vs-wernicke"],
+        "sentence": "Die Broca-Aphasie ist nicht-flüssig; vor allem die Sprach___ ist gestört, das Verständnis ist besser erhalten.",
+        "blanks": [{"accept": ["produktion", "Produktion"]}],
+        "cloze_mode": "type",
+        "hint": "Broca = vorn = das Hervorbringen von Sprache."
+      }
+    },
+    {
+      "id": "ex-match-aphasieformen",
+      "type": "exercise",
+      "title": "Broca vs. Wernicke",
+      "exercise": {
+        "id": "ex-match-aphasieformen",
+        "type": "matching",
+        "prompt": "Ordne jeder Aphasieform und verwandten Störung das richtige Merkmal zu.",
+        "card_ids": ["broca-aphasie", "wernicke-aphasie", "alexie", "agrafie"],
+        "pairs": [
+          {"left": "Broca-Aphasie", "right": "nicht-flüssig, gestörte Sprachproduktion"},
+          {"left": "Wernicke-Aphasie", "right": "flüssig, deutlich gestörtes Sprachverständnis"},
+          {"left": "Alexie", "right": "erworbene Störung des Lesens"},
+          {"left": "Agrafie", "right": "erworbene Störung des Schreibens"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-agnosie",
+      "type": "exercise",
+      "title": "Erkennen trotz intakter Sinne",
+      "exercise": {
+        "id": "ex-free-agnosie",
+        "type": "free_text",
+        "prompt": "Wie heißt die Störung des Erkennens, bei der ein Reiz wahrgenommen, aber nicht als das erkannt wird, was er ist — obwohl die Sinnesorgane intakt sind?",
+        "card_ids": ["agnosie", "visuelle-agnosie"],
+        "accept": ["Agnosie", "die Agnosie", "agnosia", "visuelle Agnosie"],
+        "hint": "Wörtlich Nicht-Erkennen; z. B. in visueller Form.",
+        "distractors": ["Apraxie", "Broca-Aphasie", "Neglect"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-wernicke",
+      "type": "exercise",
+      "title": "Wernicke-Aphasie zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-wernicke",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zur Wernicke-Aphasie zusammen.",
+        "card_ids": ["wernicke-aphasie", "broca-vs-wernicke"],
+        "tiles": ["Die", "Wernicke-Aphasie", "ist", "flüssig", "mit", "gestörtem", "Sprachverständnis"],
+        "hint": "Beginnt mit 'Die Wernicke-Aphasie ist flüssig …'.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

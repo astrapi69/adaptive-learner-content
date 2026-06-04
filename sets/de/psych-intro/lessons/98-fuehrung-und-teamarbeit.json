@@ -1,0 +1,263 @@
+{
+  "id": "98-fuehrung-und-teamarbeit",
+  "title": "Führung und Teamarbeit",
+  "description": "Diese Lektion führt in die zentralen Führungstheorien ein (Eigenschafts-, Verhaltens- und situative Ansätze, transformationale vs. transaktionale Führung) und behandelt die Grundlagen der Teamarbeit: Teambegriff, Phasen der Teamentwicklung, Rollen, Synergie und Risiken (soziales Faulenzen, Groupthink) sowie psychologische Sicherheit — auf Deutsch erklärt, mit den Fachbegriffen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "eigenschaftsansatz",
+      "front": "Eigenschaftsansatz der Führung",
+      "back": "Älteste Führungstheorie. Sie nimmt an, dass erfolgreiche Führung auf relativ stabilen Persönlichkeitsmerkmalen der führenden Person beruht (z. B. Intelligenz, Dominanz, Selbstvertrauen). Kritik: Eigenschaften allein erklären Führungserfolg nur schwach; die Situation und das Verhalten werden vernachlässigt.",
+      "notes": "Auch (Great-Man-Theorie) bzw. englisch: trait approach.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["fuehrung", "theorie"]
+    },
+    {
+      "id": "verhaltensansatz",
+      "front": "Verhaltensansatz der Führung",
+      "back": "Verlagert den Fokus von den Eigenschaften auf das beobachtbare Verhalten von Führungskräften. Leitfrage: Was tun erfolgreiche Führungskräfte konkret? Bekanntester Vertreter sind die Ohio-State-Studien.",
+      "notes": "Englisch: behavioral approach. Vorteil gegenüber dem Eigenschaftsansatz: Verhalten ist erlernbar.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["fuehrung", "theorie"]
+    },
+    {
+      "id": "ohio-state",
+      "front": "Ohio-State-Studien: zwei Führungsdimensionen",
+      "back": "Identifizierten zwei weitgehend unabhängige Verhaltensdimensionen: Mitarbeiterorientierung (Rücksicht, Wertschätzung, gutes Klima) und Aufgabenorientierung (Strukturierung, Zielsetzung, Organisation der Arbeit). Eine Führungskraft kann in beiden hoch sein.",
+      "notes": "Englisch: consideration (Mitarbeiterorientierung) und initiating structure (Aufgabenorientierung).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["fuehrung", "theorie"]
+    },
+    {
+      "id": "kontingenzmodell-fiedler",
+      "front": "Kontingenzmodell (Fiedler)",
+      "back": "Situativer Ansatz: Der Führungserfolg hängt davon ab, ob der Führungsstil zur Günstigkeit der Situation passt. Aufgabenorientierte Führung wirkt in sehr günstigen und sehr ungünstigen Situationen, mitarbeiterorientierte Führung in mittleren Situationen.",
+      "notes": "Englisch: contingency model. Kontingenz bedeutet (Es kommt darauf an).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["fuehrung", "theorie"]
+    },
+    {
+      "id": "situatives-fuehren",
+      "front": "Situatives Führen (Hersey & Blanchard)",
+      "back": "Der passende Führungsstil richtet sich nach dem Reifegrad bzw. der Kompetenz und Motivation der Geführten. Mit zunehmender Reife verschiebt sich der Stil von stark anweisend über unterstützend hin zu delegierend.",
+      "notes": "Englisch: situational leadership. Reifegrad = maturity bzw. readiness.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["fuehrung", "theorie"]
+    },
+    {
+      "id": "transaktionale-fuehrung",
+      "front": "Transaktionale Führung (Bass)",
+      "back": "Führung als Austauschbeziehung (Transaktion): Leistung gegen Belohnung. Klare Ziele, Kontrolle der Ergebnisse und Eingreifen bei Abweichungen. Sie hält den Betrieb am Laufen, motiviert aber kaum über das Erwartete hinaus.",
+      "notes": "Englisch: transactional leadership. Kernmechanismus: bedingte Belohnung (contingent reward).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["fuehrung", "theorie"]
+    },
+    {
+      "id": "transformationale-fuehrung",
+      "front": "Transformationale Führung (Bass)",
+      "back": "Führung, die Mitarbeitende inspiriert und über den reinen Eigennutz hinaus für gemeinsame Ziele begeistert. Sie umfasst die vier I: idealisierter Einfluss, inspirierende Motivation, intellektuelle Stimulierung und individuelle Wertschätzung.",
+      "notes": "Englisch: transformational leadership. Die vier I = four I's. Ergänzt, nicht ersetzt, transaktionale Führung.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["fuehrung", "theorie"]
+    },
+    {
+      "id": "team-definition",
+      "front": "Team",
+      "back": "Kleine Gruppe von Personen mit sich ergänzenden Fähigkeiten, die ein gemeinsames Ziel verfolgen, sich für ein gemeinsames Vorgehen verantwortlich fühlen und voneinander abhängig zusammenarbeiten. Mehr als eine bloße Ansammlung von Einzelpersonen.",
+      "notes": "Englisch: team. Abgrenzung zur Gruppe: stärkere Zielbindung und wechselseitige Verantwortlichkeit.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["team", "grundbegriff"]
+    },
+    {
+      "id": "tuckman-phasen",
+      "front": "Phasen der Teamentwicklung (Tuckman)",
+      "back": "Teams durchlaufen typische Phasen: Forming (Orientierung), Storming (Konflikte um Rollen und Ziele), Norming (Regeln und Zusammenhalt bilden sich), Performing (produktive Zusammenarbeit) und Adjourning (Auflösung).",
+      "notes": "Englisch: forming, storming, norming, performing, adjourning. Adjourning wurde später ergänzt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["team", "theorie"]
+    },
+    {
+      "id": "social-loafing",
+      "front": "Soziales Faulenzen",
+      "back": "Tendenz von Einzelnen, sich in der Gruppe weniger anzustrengen als allein, weil der eigene Beitrag weniger sichtbar und identifizierbar ist. Ein zentrales Risiko der Teamarbeit, dem die erhoffte Synergie gegenübersteht.",
+      "notes": "Englisch: social loafing. Querverweis Sozialpsychologie. Gegenmittel: Beiträge sichtbar und zurechenbar machen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["team", "risiko"]
+    },
+    {
+      "id": "groupthink",
+      "front": "Gruppendenken",
+      "back": "Fehlerhafter Entscheidungsprozess in stark zusammenhaltenden Gruppen: Das Streben nach Einigkeit unterdrückt kritisches Denken und abweichende Meinungen, sodass riskante oder schlechte Entscheidungen entstehen.",
+      "notes": "Englisch: groupthink (Janis). Querverweis Sozialpsychologie. Gegenmittel: Kritik aktiv einfordern, Advocatus Diaboli.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["team", "risiko"]
+    },
+    {
+      "id": "psychologische-sicherheit",
+      "front": "Psychologische Sicherheit (Edmondson)",
+      "back": "Geteilte Überzeugung im Team, dass man ohne Angst vor Bloßstellung oder Bestrafung Fragen stellen, Fehler eingestehen und abweichende Ideen äußern darf. Sie gilt zusammen mit Diversität als wichtiger Faktor für Lern- und Leistungsfähigkeit von Teams.",
+      "notes": "Englisch: psychological safety. Diversität (Vielfalt) erhöht das Potenzial, erfordert aber gute Zusammenarbeit.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["team", "theorie"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-fuehrungstheorien",
+      "type": "theory",
+      "title": "Führungstheorien im Überblick",
+      "body": "# Führung und Teamarbeit\n\n**Führung** bedeutet, das Verhalten anderer zielgerichtet zu beeinflussen. Die Forschung hat dazu mehrere Theoriefamilien hervorgebracht.\n\n## Vom Was zur Person zum Verhalten zur Situation\n\n**1. Eigenschaftsansatz** (*trait approach*). Die älteste Sicht: Erfolgreiche Führung beruht auf stabilen **Persönlichkeitsmerkmalen** (Intelligenz, Dominanz, Selbstvertrauen).\n\n> Kritik: Eigenschaften erklären Führungserfolg nur schwach. Situation und Verhalten bleiben unberücksichtigt.\n\n**2. Verhaltensansatz** (*behavioral approach*). Nicht wer die Person ist, sondern was sie **tut**, zählt. Die **Ohio-State-Studien** fanden zwei unabhängige Dimensionen:\n\n| Dimension | Englisch | Inhalt |\n|---|---|---|\n| Mitarbeiterorientierung | *consideration* | Wertschätzung, Klima, Rücksicht |\n| Aufgabenorientierung | *initiating structure* | Struktur, Ziele, Organisation |\n\n**3. Situative Ansätze.** Der beste Stil hängt von der Lage ab. Im **Kontingenzmodell** von *Fiedler* muss der Stil zur Günstigkeit der Situation passen; beim **situativen Führen** von *Hersey & Blanchard* richtet er sich nach dem Reifegrad der Geführten."
+    },
+    {
+      "id": "transformationale-transaktionale",
+      "type": "theory",
+      "title": "Transformationale und transaktionale Führung",
+      "body": "## Zwei Grundformen nach Bass\n\n**Transaktionale Führung** versteht Führung als **Austausch** (Transaktion): Leistung gegen Belohnung. Sie setzt klare Ziele, kontrolliert Ergebnisse und greift bei Abweichungen ein. Das hält den Betrieb am Laufen, motiviert aber selten über das Erwartete hinaus.\n\n**Transformationale Führung** geht weiter: Sie **inspiriert** und begeistert für gemeinsame Ziele über den Eigennutz hinaus. Bass beschreibt sie mit den **vier I**:\n\n1. **Idealisierter Einfluss** — die Führungskraft ist ein glaubwürdiges Vorbild.\n2. **Inspirierende Motivation** — sie vermittelt eine sinnstiftende Vision.\n3. **Intellektuelle Stimulierung** — sie regt zum Hinterfragen und kreativen Denken an.\n4. **Individuelle Wertschätzung** — sie fördert jede Person einzeln.\n\n> Beide Formen schließen sich nicht aus: Transformationale Führung **ergänzt** die transaktionale Basis."
+    },
+    {
+      "id": "teamarbeit",
+      "type": "theory",
+      "title": "Teamarbeit: Phasen, Chancen und Risiken",
+      "body": "## Was ist ein Team?\n\nEin **Team** ist eine kleine Gruppe mit sich ergänzenden Fähigkeiten, **gemeinsamem Ziel** und wechselseitiger Verantwortlichkeit — mehr als die Summe einzelner Personen.\n\n## Phasen der Teamentwicklung (Tuckman)\n\nTeams durchlaufen typische Phasen:\n\n| Phase | Englisch | Kennzeichen |\n|---|---|---|\n| Orientierung | *forming* | Kennenlernen, Unsicherheit |\n| Konflikt | *storming* | Streit um Rollen und Ziele |\n| Normierung | *norming* | Regeln, Zusammenhalt |\n| Leistung | *performing* | produktive Zusammenarbeit |\n| Auflösung | *adjourning* | Abschluss, Abschied |\n\n## Chancen und Risiken\n\nTeams können **Synergie** erzeugen — gemeinsam mehr leisten als allein. Doch es drohen Risiken:\n\n- **Soziales Faulenzen** (*social loafing*): Einzelne strengen sich weniger an, weil ihr Beitrag untergeht.\n- **Gruppendenken** (*groupthink*): Das Streben nach Einigkeit unterdrückt Kritik (Querverweis Sozialpsychologie).\n\nGünstig wirken **Diversität** (Vielfalt der Perspektiven) und vor allem **psychologische Sicherheit** (*Edmondson*): das geteilte Gefühl, ohne Angst Fragen stellen und Fehler zugeben zu dürfen."
+    },
+    {
+      "id": "ex-match-ansaetze",
+      "type": "exercise",
+      "title": "Führungsansätze zuordnen",
+      "exercise": {
+        "id": "ex-match-ansaetze",
+        "type": "matching",
+        "prompt": "Ordne jedem Führungsansatz die passende Kernidee zu.",
+        "card_ids": ["eigenschaftsansatz", "verhaltensansatz", "kontingenzmodell-fiedler", "situatives-fuehren"],
+        "pairs": [
+          {"left": "Eigenschaftsansatz", "right": "Führung beruht auf stabilen Persönlichkeitsmerkmalen"},
+          {"left": "Verhaltensansatz", "right": "entscheidend ist das beobachtbare Verhalten"},
+          {"left": "Kontingenzmodell (Fiedler)", "right": "Stil muss zur Günstigkeit der Situation passen"},
+          {"left": "Situatives Führen (Hersey & Blanchard)", "right": "Stil richtet sich nach dem Reifegrad der Geführten"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-ohio",
+      "type": "exercise",
+      "title": "Die zwei Ohio-Dimensionen",
+      "exercise": {
+        "id": "ex-cloze-ohio",
+        "type": "cloze",
+        "prompt": "Ergänze die zweite Führungsdimension der Ohio-State-Studien.",
+        "card_ids": ["ohio-state"],
+        "sentence": "Die Ohio-State-Studien unterscheiden Mitarbeiterorientierung und ___ .",
+        "blanks": [{"accept": ["Aufgabenorientierung", "die Aufgabenorientierung", "initiating structure"]}],
+        "cloze_mode": "type",
+        "hint": "Strukturierung, Ziele, Organisation der Arbeit."
+      }
+    },
+    {
+      "id": "ex-free-transformational",
+      "type": "exercise",
+      "title": "Inspirierende Führung",
+      "exercise": {
+        "id": "ex-free-transformational",
+        "type": "free_text",
+        "prompt": "Wie heißt die Führungsform nach Bass, die Mitarbeitende über den Eigennutz hinaus inspiriert und durch die vier I beschrieben wird?",
+        "card_ids": ["transformationale-fuehrung", "transaktionale-fuehrung"],
+        "accept": ["transformationale Führung", "Transformationale Führung", "transformational leadership", "die transformationale Führung"],
+        "hint": "Gegenstück zur transaktionalen (Austausch-)Führung.",
+        "distractors": ["transaktionale Führung", "Eigenschaftsansatz", "Laissez-faire-Führung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-vier-i",
+      "type": "exercise",
+      "title": "Ein I der transformationalen Führung",
+      "exercise": {
+        "id": "ex-tiles-vier-i",
+        "type": "word_tiles",
+        "prompt": "Setze eines der vier I der transformationalen Führung als Begriff zusammen.",
+        "card_ids": ["transformationale-fuehrung"],
+        "tiles": ["intellektuelle", "Stimulierung", "regt", "zum", "kritischen", "Denken", "an"],
+        "hint": "Beginnt mit 'intellektuelle …' und meint das Anregen kreativen Denkens.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-tuckman",
+      "type": "exercise",
+      "title": "Die Konfliktphase",
+      "exercise": {
+        "id": "ex-cloze-tuckman",
+        "type": "cloze",
+        "prompt": "Ergänze die Tuckman-Phase, in der Konflikte um Rollen und Ziele ausgetragen werden.",
+        "card_ids": ["tuckman-phasen"],
+        "sentence": "In der Phase ___ entstehen Konflikte um Rollen und Ziele, bevor sich in der Norming-Phase Regeln bilden.",
+        "blanks": [{"accept": ["Storming", "storming", "Storming-Phase", "die Storming-Phase"]}],
+        "cloze_mode": "type",
+        "hint": "Tuckman-Phase zwischen Forming und Norming."
+      }
+    },
+    {
+      "id": "ex-match-risiken",
+      "type": "exercise",
+      "title": "Chancen und Risiken der Teamarbeit",
+      "exercise": {
+        "id": "ex-match-risiken",
+        "type": "matching",
+        "prompt": "Ordne jedem Teamphänomen die korrekte Beschreibung zu.",
+        "card_ids": ["social-loafing", "groupthink", "psychologische-sicherheit"],
+        "pairs": [
+          {"left": "Soziales Faulenzen", "right": "Einzelne strengen sich in der Gruppe weniger an"},
+          {"left": "Gruppendenken", "right": "Streben nach Einigkeit unterdrückt Kritik"},
+          {"left": "Psychologische Sicherheit", "right": "ohne Angst Fragen stellen und Fehler zugeben dürfen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-team",
+      "type": "exercise",
+      "title": "Mehr als eine Gruppe",
+      "exercise": {
+        "id": "ex-free-team",
+        "type": "free_text",
+        "prompt": "Wie heißt eine kleine Einheit von Personen mit sich ergänzenden Fähigkeiten, gemeinsamem Ziel und wechselseitiger Verantwortlichkeit?",
+        "card_ids": ["team-definition"],
+        "accept": ["Team", "ein Team", "das Team"],
+        "hint": "Mehr als eine bloße Ansammlung von Einzelpersonen.",
+        "distractors": ["Masse", "Aggregat", "Organisation"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-sicherheit",
+      "type": "exercise",
+      "title": "Faktor für gute Teams",
+      "exercise": {
+        "id": "ex-cloze-sicherheit",
+        "type": "cloze",
+        "prompt": "Ergänze den von Edmondson geprägten Begriff für das angstfreie Klima im Team.",
+        "card_ids": ["psychologische-sicherheit"],
+        "sentence": "Die geteilte Überzeugung, ohne Angst vor Bloßstellung Fehler zugeben zu dürfen, nennt Edmondson ___ .",
+        "blanks": [{"accept": ["psychologische Sicherheit", "psychologischer Sicherheit", "psychological safety"]}],
+        "cloze_mode": "type",
+        "hint": "Zwei Wörter: ein Adjektiv plus Sicherheit."
+      }
+    }
+  ]
+}

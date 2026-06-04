@@ -1,0 +1,264 @@
+{
+  "id": "94-gedaechtnis-und-exekutivstoerungen",
+  "title": "Gedächtnis-, Aufmerksamkeits- und Exekutivstörungen",
+  "description": "Diese Lektion behandelt erworbene Störungen von Gedächtnis, Aufmerksamkeit und Exekutivfunktionen nach Hirnschädigung sowie die neuropsychologische Diagnostik und Rehabilitation. Im Mittelpunkt stehen anterograde und retrograde Amnesie, das dysexekutive Syndrom und die Grundprinzipien der Therapie — auf Deutsch erklärt, ressourcenorientiert und mit den Fachbegriffen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "amnesie-def",
+      "front": "Amnesie",
+      "back": "Erworbene Gedächtnisstörung infolge einer Hirnschädigung (z. B. durch Sauerstoffmangel, Schlaganfall, Entzündung oder Schädel-Hirn-Trauma). Andere kognitive Leistungen wie Sprache oder Intelligenz können dabei weitgehend erhalten sein.",
+      "notes": "Englisch: amnesia. Abzugrenzen vom normalen Vergessen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["neuropsychologie", "gedaechtnis"]
+    },
+    {
+      "id": "anterograde-amnesie",
+      "front": "Anterograde Amnesie",
+      "back": "Unfähigkeit, nach dem Schädigungszeitpunkt neue Inhalte dauerhaft ins Langzeitgedächtnis zu überführen. Betroffene erleben den Moment, können ihn aber nicht behalten, sodass keine neuen Erinnerungen mehr entstehen.",
+      "notes": "Englisch: anterograde amnesia. Merkhilfe: *anterograd* = nach vorne, also alles Neue ab der Schädigung.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "gedaechtnis"]
+    },
+    {
+      "id": "retrograde-amnesie",
+      "front": "Retrograde Amnesie",
+      "back": "Verlust von Inhalten, die vor dem Schädigungszeitpunkt erworben wurden. Oft sind jüngere Erinnerungen stärker betroffen als weit zurückliegende (zeitlicher Gradient).",
+      "notes": "Englisch: retrograde amnesia. Merkhilfe: *retrograd* = nach hinten, also Früheres.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "gedaechtnis"]
+    },
+    {
+      "id": "hippocampus-rolle",
+      "front": "Rolle des Hippocampus",
+      "back": "Der Hippocampus ist zentral für die Bildung neuer deklarativer Gedächtnisinhalte (die Konsolidierung). Eine beidseitige Schädigung führt typischerweise zu schwerer anterograder Amnesie, während ältere, bereits konsolidierte Inhalte eher erhalten bleiben.",
+      "notes": "Englisch: hippocampus. Teil des limbischen Systems im Schläfenlappen (medialer Temporallappen).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "gedaechtnis"]
+    },
+    {
+      "id": "fall-hm",
+      "front": "Fall H. M. (Lehrbeispiel)",
+      "back": "Patient, dem zur Behandlung schwerer Epilepsie beidseitig Teile des medialen Temporallappens einschließlich des Hippocampus entfernt wurden. Danach konnte er kaum noch neue Inhalte behalten (schwere anterograde Amnesie), lernte aber motorische Fertigkeiten weiterhin. Der Fall belegte die Trennung von deklarativem und prozeduralem Gedächtnis.",
+      "notes": "Sachlich als wissenschaftliches Lehrbeispiel behandelt, nicht als Sensationsfall. Englisch: case H. M.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "geschichte"]
+    },
+    {
+      "id": "exekutivfunktionen",
+      "front": "Exekutivfunktionen",
+      "back": "Übergeordnete Steuerungsleistungen, die zielgerichtetes Handeln ermöglichen: Planen, Hemmen unpassender Reaktionen, Arbeitsgedächtnis und kognitive Flexibilität (Umstellen zwischen Aufgaben). Sie hängen stark vom präfrontalen Cortex ab.",
+      "notes": "Englisch: executive functions. Vergleichbar mit dem Dirigenten eines Orchesters.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "exekutiv"]
+    },
+    {
+      "id": "dysexekutives-syndrom",
+      "front": "Dysexekutives Syndrom",
+      "back": "Störungsbild nach Schädigung des Frontalhirns: Betroffene haben Schwierigkeiten beim Planen, beim Hemmen von Impulsen, beim Umstellen auf Neues und im Arbeitsgedächtnis. Gedächtnisinhalte selbst können dabei verfügbar sein, werden aber schlecht organisiert eingesetzt.",
+      "notes": "Englisch: dysexecutive syndrome. Frühere Bezeichnung: Frontalhirnsyndrom.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["neuropsychologie", "exekutiv"]
+    },
+    {
+      "id": "arbeitsgedaechtnis",
+      "front": "Arbeitsgedächtnis",
+      "back": "System, das Informationen kurzfristig hält und gleichzeitig bearbeitet (z. B. eine Telefonnummer merken und währenddessen tippen). Es gilt als Teil der Exekutivfunktionen und ist bei Frontalhirnschädigung häufig beeinträchtigt.",
+      "notes": "Englisch: working memory. Abzugrenzen vom passiven Kurzzeitgedächtnis.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "exekutiv"]
+    },
+    {
+      "id": "aufmerksamkeitsstoerung",
+      "front": "Aufmerksamkeitsstörung",
+      "back": "Beeinträchtigung der Wachheit, der Daueraufmerksamkeit oder der geteilten Aufmerksamkeit, häufig nach Schädel-Hirn-Trauma. Betroffene ermüden rasch, sind leicht ablenkbar oder können mehrere Dinge nicht mehr gleichzeitig steuern.",
+      "notes": "Englisch: attention deficit (im neuropsychologischen Sinn). Aufmerksamkeit ist oft Voraussetzung für Gedächtnisleistungen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["neuropsychologie", "aufmerksamkeit"]
+    },
+    {
+      "id": "neuropsych-diagnostik",
+      "front": "Neuropsychologische Diagnostik",
+      "back": "Systematische Erfassung kognitiver Leistungen mit standardisierten Testverfahren, ergänzt durch Anamnese (Vorgeschichte) und Verhaltensbeobachtung. Ziel ist ein individuelles Stärken-Schwächen-Profil als Grundlage für die Therapie.",
+      "notes": "Englisch: neuropsychological assessment. Standardisierte Tests erlauben den Vergleich mit Normwerten.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "diagnostik"]
+    },
+    {
+      "id": "rehabilitation-prinzipien",
+      "front": "Neuropsychologische Rehabilitation",
+      "back": "Behandlung mit drei Grundprinzipien: Restitution (Wiederherstellung beeinträchtigter Funktionen durch Üben), Kompensation (Ausgleich durch Strategien und Hilfsmittel) und Adaptation (Anpassung von Umwelt und Anforderungen). Sie nutzt die Neuroplastizität des Gehirns.",
+      "notes": "Englisch: neuropsychological rehabilitation. Ressourcenorientiert: vorhandene Stärken werden gezielt genutzt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "rehabilitation"]
+    },
+    {
+      "id": "kompensation",
+      "front": "Kompensation (Strategie)",
+      "back": "Rehabilitationsweg, bei dem eine beeinträchtigte Funktion nicht wiederhergestellt, sondern durch Strategien oder Hilfsmittel ausgeglichen wird, etwa durch Gedächtniskalender, Erinnerungs-Apps oder feste Routinen.",
+      "notes": "Englisch: compensation. Abzugrenzen von der Restitution, die auf Wiederherstellung zielt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuropsychologie", "rehabilitation"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-gedaechtnis",
+      "type": "theory",
+      "title": "Wenn das Gedächtnis verletzt wird",
+      "body": "# Gedächtnis-, Aufmerksamkeits- und Exekutivstörungen\n\nNach einer Hirnschädigung können einzelne kognitive Leistungen ausfallen, während andere erhalten bleiben. Eine **Amnesie** (*amnesia*) ist eine solche erworbene **Gedächtnisstörung**.\n\nMan unterscheidet zwei Richtungen:\n\n- **Anterograde Amnesie** (*anterograde amnesia*): Ab dem Schädigungszeitpunkt entstehen **keine neuen** dauerhaften Erinnerungen mehr — *anterograd* heißt nach vorne.\n- **Retrograde Amnesie** (*retrograde amnesia*): **Früher** erworbene Inhalte gehen verloren — *retrograd* heißt nach hinten.\n\n## Die Rolle des Hippocampus\n\nDer **Hippocampus** ist entscheidend dafür, neue deklarative Inhalte zu festigen (zu konsolidieren). Ist er beidseitig geschädigt, entsteht typischerweise eine schwere anterograde Amnesie, während weit zurückliegende, bereits gefestigte Erinnerungen eher erhalten bleiben.\n\nDer Patient **H. M.** ist hierfür ein wissenschaftliches Lehrbeispiel: Nach beidseitiger Entfernung von Teilen des medialen Temporallappens konnte er kaum noch Neues behalten, lernte aber weiterhin motorische Fertigkeiten. Das zeigte, dass **deklaratives** und **prozedurales** Gedächtnis verschiedenen Systemen angehören."
+    },
+    {
+      "id": "exekutiv-aufmerksamkeit",
+      "type": "theory",
+      "title": "Steuerung und Aufmerksamkeit",
+      "body": "## Exekutivfunktionen\n\nDie **Exekutivfunktionen** (*executive functions*) steuern zielgerichtetes Handeln wie ein Dirigent ein Orchester. Dazu gehören:\n\n| Funktion | Aufgabe |\n|---|---|\n| Planen | Schritte vorausdenken und ordnen |\n| Hemmen | unpassende Impulse unterdrücken |\n| Arbeitsgedächtnis | Information halten und zugleich bearbeiten |\n| kognitive Flexibilität | zwischen Aufgaben umstellen |\n\nSie hängen stark vom **präfrontalen Cortex** ab. Nach einer Frontalhirnschädigung entsteht das **dysexekutive Syndrom** (*dysexecutive syndrome*): Das Wissen ist oft vorhanden, wird aber schlecht organisiert eingesetzt.\n\n## Aufmerksamkeit\n\nNach einem **Schädel-Hirn-Trauma** treten häufig **Aufmerksamkeitsstörungen** auf — rasche Ermüdung, leichte Ablenkbarkeit oder Schwierigkeiten, mehrere Dinge gleichzeitig zu steuern. Da Aufmerksamkeit eine Voraussetzung für das Einprägen ist, wirken sich solche Störungen oft auch auf das Gedächtnis aus."
+    },
+    {
+      "id": "diagnostik-reha",
+      "type": "theory",
+      "title": "Diagnostik und Rehabilitation",
+      "body": "## Diagnostik\n\nDie **neuropsychologische Diagnostik** (*neuropsychological assessment*) verbindet drei Quellen:\n\n- **standardisierte Testverfahren** (Vergleich mit Normwerten),\n- die **Anamnese** (Vorgeschichte und Beschwerden) und\n- die **Verhaltensbeobachtung**.\n\nZiel ist kein einzelner Wert, sondern ein **Stärken-Schwächen-Profil** als Grundlage der Therapie.\n\n## Rehabilitation\n\nDie **neuropsychologische Rehabilitation** (*neuropsychological rehabilitation*) ist ressourcenorientiert und nutzt die **Neuroplastizität** des Gehirns. Sie folgt drei Prinzipien:\n\n1. **Restitution** — beeinträchtigte Funktionen durch gezieltes Üben wiederherstellen.\n2. **Kompensation** — Funktionen durch Strategien und Hilfsmittel ausgleichen (z. B. Gedächtniskalender, Erinnerungs-Apps).\n3. **Adaptation** — Umwelt und Anforderungen an die Möglichkeiten der Person anpassen.\n\nWelcher Weg im Vordergrund steht, hängt von Art und Schwere der Störung und von den vorhandenen Stärken ab."
+    },
+    {
+      "id": "ex-cloze-richtung",
+      "type": "exercise",
+      "title": "Anterograd oder retrograd?",
+      "exercise": {
+        "id": "ex-cloze-richtung",
+        "type": "cloze",
+        "prompt": "Ergänze die Fachbegriffe für die beiden Richtungen der Amnesie.",
+        "card_ids": ["anterograde-amnesie", "retrograde-amnesie"],
+        "sentence": "Können nach der Schädigung keine neuen Inhalte mehr behalten werden, spricht man von ___ Amnesie; gehen früher erworbene Inhalte verloren, von ___ Amnesie.",
+        "blanks": [{"accept": ["anterograder", "anterograde"]}, {"accept": ["retrograder", "retrograde"]}],
+        "cloze_mode": "type",
+        "hint": "anterograd = nach vorne (Neues), retrograd = nach hinten (Früheres)."
+      }
+    },
+    {
+      "id": "ex-match-amnesie",
+      "type": "exercise",
+      "title": "Gedächtnisbegriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-amnesie",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die passende Beschreibung zu.",
+        "card_ids": ["anterograde-amnesie", "retrograde-amnesie", "hippocampus-rolle", "fall-hm"],
+        "pairs": [
+          {"left": "Anterograde Amnesie", "right": "keine neuen Inhalte mehr nach der Schädigung"},
+          {"left": "Retrograde Amnesie", "right": "Verlust früher erworbener Inhalte"},
+          {"left": "Hippocampus", "right": "zentral für die Bildung neuer deklarativer Inhalte"},
+          {"left": "Fall H. M.", "right": "Lehrbeispiel für die Trennung von deklarativem und prozeduralem Gedächtnis"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-dysexekutiv",
+      "type": "exercise",
+      "title": "Nach der Frontalhirnschädigung",
+      "exercise": {
+        "id": "ex-free-dysexekutiv",
+        "type": "free_text",
+        "prompt": "Wie heißt das Störungsbild nach Frontalhirnschädigung, bei dem Planen, Hemmen, Arbeitsgedächtnis und kognitive Flexibilität beeinträchtigt sind?",
+        "card_ids": ["dysexekutives-syndrom"],
+        "accept": ["dysexekutives Syndrom", "Dysexekutives Syndrom", "das dysexekutive Syndrom", "dysexecutive syndrome"],
+        "hint": "Frühere Bezeichnung: Frontalhirnsyndrom.",
+        "distractors": ["anterograde Amnesie", "Aufmerksamkeitsstörung", "retrograde Amnesie"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-exekutiv",
+      "type": "exercise",
+      "title": "Exekutivfunktionen zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-exekutiv",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zu den Exekutivfunktionen zusammen.",
+        "card_ids": ["exekutivfunktionen"],
+        "tiles": ["Exekutivfunktionen", "steuern", "Planen", "Hemmen", "Arbeitsgedächtnis", "und", "kognitive", "Flexibilität"],
+        "hint": "Beginnt mit *Exekutivfunktionen steuern …*.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-hippocampus",
+      "type": "exercise",
+      "title": "Das Schlüsselareal",
+      "exercise": {
+        "id": "ex-cloze-hippocampus",
+        "type": "cloze",
+        "prompt": "Ergänze den Namen der Struktur, die neue deklarative Inhalte festigt.",
+        "card_ids": ["hippocampus-rolle"],
+        "sentence": "Für die Bildung neuer deklarativer Gedächtnisinhalte ist der ___ zentral; seine beidseitige Schädigung führt zu schwerer anterograder Amnesie.",
+        "blanks": [{"accept": ["Hippocampus", "Hippokampus"]}],
+        "cloze_mode": "type",
+        "hint": "Struktur im medialen Temporallappen, Teil des limbischen Systems."
+      }
+    },
+    {
+      "id": "ex-match-reha",
+      "type": "exercise",
+      "title": "Rehabilitation und Diagnostik",
+      "exercise": {
+        "id": "ex-match-reha",
+        "type": "matching",
+        "prompt": "Ordne jedem Prinzip bzw. Vorgehen die korrekte Kennzeichnung zu.",
+        "card_ids": ["rehabilitation-prinzipien", "kompensation", "neuropsych-diagnostik"],
+        "pairs": [
+          {"left": "Restitution", "right": "beeinträchtigte Funktion durch Üben wiederherstellen"},
+          {"left": "Kompensation", "right": "Ausgleich durch Strategien und Hilfsmittel"},
+          {"left": "Adaptation", "right": "Umwelt und Anforderungen anpassen"},
+          {"left": "Neuropsychologische Diagnostik", "right": "Stärken-Schwächen-Profil mit Tests, Anamnese, Beobachtung"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-kompensation",
+      "type": "exercise",
+      "title": "Ausgleichen statt wiederherstellen",
+      "exercise": {
+        "id": "ex-free-kompensation",
+        "type": "free_text",
+        "prompt": "Wie heißt der Rehabilitationsweg, bei dem eine beeinträchtigte Funktion nicht wiederhergestellt, sondern durch Strategien und Hilfsmittel (z. B. Gedächtniskalender) ausgeglichen wird?",
+        "card_ids": ["kompensation"],
+        "accept": ["Kompensation", "die Kompensation", "compensation"],
+        "hint": "Gegenstück zur Restitution.",
+        "distractors": ["Restitution", "Adaptation", "Konsolidierung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-diagnostik",
+      "type": "exercise",
+      "title": "Das Ziel der Diagnostik",
+      "exercise": {
+        "id": "ex-cloze-diagnostik",
+        "type": "cloze",
+        "prompt": "Ergänze, was das Ziel der neuropsychologischen Diagnostik ist.",
+        "card_ids": ["neuropsych-diagnostik"],
+        "sentence": "Mit standardisierten Tests, Anamnese und Verhaltensbeobachtung erstellt die Diagnostik ein individuelles ___ als Grundlage der Therapie.",
+        "blanks": [{"accept": ["Stärken-Schwächen-Profil", "Staerken-Schwaechen-Profil", "Profil"]}],
+        "cloze_mode": "type",
+        "hint": "Es zeigt, was erhalten und was beeinträchtigt ist."
+      }
+    }
+  ]
+}
