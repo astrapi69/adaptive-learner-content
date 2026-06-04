@@ -10,6 +10,7 @@ Official content repository for [Adaptive Learner](https://github.com/astrapi69/
 | Französisch A2 | Deutsch (DE) | Französisch (FR) | 15 | A2 | Sprache |
 | Französisch B1 | Deutsch (DE) | Französisch (FR) | 15 | B1 | Sprache |
 | Französisch A1 | English (EN) | French (FR) | 15 | A1 | Language |
+| Französisch A2 | English (EN) | French (FR) | 15 | A2 | Language |
 | Spanisch A1 | Deutsch (DE) | Spanisch (ES) | 15 | A1 | Sprache |
 | Spanisch A2 | Deutsch (DE) | Spanisch (ES) | 15 | A2 | Sprache |
 | Spanisch B1 | Deutsch (DE) | Spanisch (ES) | 15 | B1 | Sprache |
@@ -20,7 +21,7 @@ Official content repository for [Adaptive Learner](https://github.com/astrapi69/
 | Psychologie | Deutsch (DE) | Deutsch (DE) | 90 | Uni-Intro | Psychologie |
 | Python — Grundlagen | Deutsch (DE) | Deutsch (DE) | 15 | A1 | Programmierung |
 
-**270 Lektionen · ~57 Stunden Lernmaterial**
+**285 Lektionen · ~60 Stunden Lernmaterial**
 
 ## Directory Structure
 
@@ -40,6 +41,7 @@ sets/
 │   └── python-basics/  # Domain: Programming
 ├── en/                 # Source language: English
 │   ├── fr-a1/          # Target: French A1
+│   ├── fr-a2/          # Target: French A2
 │   └── es-a1/          # Target: Spanish A1
 └── manifest.yaml       # Root manifest
 ```
