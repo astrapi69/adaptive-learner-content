@@ -1,0 +1,362 @@
+{
+  "id": "15-review-and-text-production",
+  "title": "Review and text production",
+  "description": "A2 French for English speakers: a consolidating review of all key A2 grammar structures (passe compose vs imparfait, futur, conditionnel, y/en, negation, conjunctions) and a practical guide to writing short postcards, messages, and emails about past events and future plans. Explained in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "a2-grammar-overview",
+      "front": "Tableau de bord A2 : structures clés",
+      "back": "A2 grammar dashboard: passe compose, imparfait, futur simple, conditionnel, y/en, negation, conjunctions",
+      "notes": "A quick reference for the seven A2 grammar pillars you have studied:\n\n| Structure | Key use | Quick example |\n|---|---|---|\n| **Passe compose** | completed past action | *J'ai mangé / Je suis allé(e)* |\n| **Imparfait** | background / habit in past | *Il faisait beau / Je travaillais* |\n| **Futur simple** | future plans/predictions | *Nous irons en France* |\n| **Conditionnel** | polite request / hypothesis | *Je voudrais un café* |\n| **y / en** | replace à+place/thing and de+thing | *J'y vais / J'en prends* |\n| **Negation** | ne...plus/jamais/rien/personne | *Je ne sais rien* |\n| **Conjunctions** | link clauses | *parce que, donc, bien que* |",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "review", "a2"]
+    },
+    {
+      "id": "pc-vs-imparfait-review",
+      "front": "Il faisait froid quand je suis sorti(e).",
+      "back": "Imparfait (background) + passe compose (event) in one sentence",
+      "notes": "The classic contrast: **imparfait** sets the scene or background (*faisait* = it was cold — a state), **passe compose** describes the event that happened (*je suis sorti(e)* = I went out — a completed action).\n\n- *Je lisais quand le telephone a sonne.* (I was reading when the phone rang.)\n- *Elle habitait a Lyon quand elle a rencontre Marc.* (She was living in Lyon when she met Marc.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "passe-compose", "imparfait", "review"]
+    },
+    {
+      "id": "futur-conditionnel-review",
+      "front": "Si j'ai le temps, j'irai au marche. / Je voudrais partir tot.",
+      "back": "Futur simple for real future plans; conditionnel for polite requests and hypotheses",
+      "notes": "**Futur simple**: regular verbs add endings *-ai, -as, -a, -ons, -ez, -ont* to the infinitive. Use for firm future plans or predictions.\n\n**Conditionnel**: same stem as futur + imperfect endings *-ais, -ais, -ait, -ions, -iez, -aient*. Use for:\n- Polite requests: *Je voudrais..., Pourriez-vous...?*\n- Hypotheses (si + imparfait): *Si j'avais de l'argent, je voyagerais.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Futur = definite future. Conditionnel = polite or hypothetical.",
+      "tags": ["grammar", "futur-simple", "conditionnel", "review"]
+    },
+    {
+      "id": "y-en-review",
+      "front": "J'y suis alle(e). / J'en ai achete trois.",
+      "back": "y (replaces a + place/thing) and en (replaces de + thing / partitive) before the verb",
+      "notes": "**y** = replaces *a + place/thing*: *Tu vas au marche ? J'y vais.* (Are you going to the market? I'm going there.)\n\n**en** = replaces *de + thing* or a partitive/quantity: *Tu veux du fromage ? J'en veux.* / *Il en a acheté trois.*\n\nBoth go **before the conjugated verb** (or auxiliary in passe compose): *Je n'y suis pas allé. / Je n'en ai pas pris.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "pronoun-y", "pronoun-en", "review"]
+    },
+    {
+      "id": "negation-review",
+      "front": "ne...plus / ne...jamais / ne...rien / ne...personne",
+      "back": "not anymore / never / nothing / nobody",
+      "notes": "Four key negatives beyond *ne...pas*:\n\n| Negative | Meaning | PC placement |\n|---|---|---|\n| ne...plus | not anymore | between aux + participle |\n| ne...jamais | never | between aux + participle |\n| ne...rien | nothing | between aux + participle |\n| ne...personne | nobody | **after** participle |\n\nExamples: *Je n'ai plus d'argent. / Je n'ai jamais menti. / Je n'ai rien vu. / Je n'ai vu personne.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "negation", "review"]
+    },
+    {
+      "id": "conjunctions-review",
+      "front": "parce que / donc / mais / bien que / quand / si",
+      "back": "because / so (therefore) / but / although / when / if",
+      "notes": "Key conjunctions for building longer sentences:\n\n- **parce que** (because) — gives a reason: *Je reste parce qu'il pleut.*\n- **donc** (so, therefore) — gives a consequence: *Il fait froid, donc je mets un manteau.*\n- **mais** (but) — contrasts: *Je veux venir, mais je suis fatigue(e).*\n- **bien que** + subjunctive (although) — concedes: *Bien qu'il fasse froid, je sors.*\n- **quand** (when) + indicative: *Quand j'arrive, j'appelle.*\n- **si** (if) + present → futur: *Si tu viens, nous mangerons ensemble.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conjunctions", "review"]
+    },
+    {
+      "id": "postcard-structure",
+      "front": "Cher Paul, / Chere Marie, ... Bisous, / A bientot,",
+      "back": "postcard/message opening: Cher (m.) / Chere (f.) + name; closing: Bisous / A bientot / Bien a toi",
+      "notes": "## How to open and close a French postcard or informal message\n\n**Openings:**\n- *Cher Paul,* (Dear Paul — to a man)\n- *Chere Marie,* (Dear Marie — to a woman)\n- *Bonjour a tous !* (Hello everyone!)\n\n**Closings:**\n- *Bisous,* (Kisses — friendly/family)\n- *A bientot,* (See you soon)\n- *Bien a toi,* (Warmly yours)\n- *Grosses bises,* (Big kisses — very warm)\n\n**Note:** *Cher / Chere* follows the same masculine/feminine pattern as adjectives.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["writing", "postcard", "text-production"]
+    },
+    {
+      "id": "text-connectors",
+      "front": "D'abord... Ensuite... Enfin...",
+      "back": "First... Then... Finally... (sequence connectors for postcards and stories)",
+      "notes": "Use these connectors to give your text a clear flow when describing a sequence of events:\n\n- **D'abord** — First of all\n- **Ensuite** / **Puis** — Then / Next\n- **Enfin** / **Finalement** — Finally / In the end\n- **Apres cela** — After that\n- **Le lendemain** — The next day\n\nExample postcard body: *D'abord, nous sommes arrives a Rome. Ensuite, nous avons visite le Colisee. Enfin, nous avons dine dans un petit restaurant.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["writing", "connectors", "text-production"]
+    },
+    {
+      "id": "false-friends-review",
+      "front": "attendre / librairie / monnaie",
+      "back": "to wait for / bookshop / (small) change — not 'attend', 'library', 'money'",
+      "notes": "Three false friends from across the A2 course:\n\n| French word | Actual meaning | English false friend |\n|---|---|---|\n| **attendre** | to wait for | *attend* (= assister a) |\n| **librairie** | bookshop | *library* (= bibliotheque) |\n| **monnaie** | change / coins | *money* (= argent) |\n\nExamples:\n- *J'attends le bus.* (I am waiting for the bus.)\n- *Je cherche une librairie.* (I am looking for a bookshop.)\n- *Tu as de la monnaie ?* (Do you have change?)",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "False friends look like English words but mean something different.",
+      "tags": ["vocabulary", "false-friends", "review"]
+    },
+    {
+      "id": "postcard-model",
+      "front": "Chere Sophie, Je suis a Barcelone depuis trois jours. D'abord nous avons visite la Sagrada Familia, ensuite nous avons mange des tapas. Demain nous irons a la plage. Bisous, Emma",
+      "back": "model postcard: greeting + past events (passe compose) + future plan (futur simple) + closing",
+      "notes": "This postcard uses:\n1. **Greeting**: *Chere Sophie,*\n2. **Present context**: *Je suis a Barcelone depuis trois jours.*\n3. **Past events** (passe compose): *nous avons visite... nous avons mange...*\n4. **Sequence connector**: *D'abord... ensuite...*\n5. **Future plan** (futur simple): *nous irons a la plage.*\n6. **Closing**: *Bisous, Emma*\n\nThis five-part structure works for any postcard, email, or holiday message.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["writing", "postcard", "text-production", "review"]
+    },
+    {
+      "id": "si-futur-structure",
+      "front": "Si + present → futur simple",
+      "back": "If + present tense → future simple (real condition)",
+      "notes": "To talk about a **real possibility** in the future, French uses:\n\n> **Si** + present + **futur simple**\n\nExamples:\n- *Si j'ai de l'argent, j'acheterai un nouveau velo.* (If I have money, I will buy a new bike.)\n- *Si tu viens demain, nous pourrons diner ensemble.* (If you come tomorrow, we will be able to have dinner together.)\n\nNote: **never** use futur directly after *si* for a real condition — that is an English trap.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "si + present (NOT si + futur) → then futur simple.",
+      "tags": ["grammar", "futur-simple", "conjunctions", "review"]
+    },
+    {
+      "id": "attendre-usage",
+      "front": "J'attends le bus depuis vingt minutes.",
+      "back": "I have been waiting for the bus for twenty minutes.",
+      "notes": "*attendre* = to wait **for** (the *for* is built in — do not add *pour*). *J'attends le bus, j'attends mon ami.* Note also: *depuis* + present tense = an action that started in the past and is still going on (English uses present perfect continuous).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "false-friends", "review"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-review",
+      "type": "theory",
+      "title": "A2 in review: the key structures",
+      "body": "# Review and text production\n\nTo finish A2: we review the key structures and practise using them in your own short texts.\n\nYou have covered seven grammar pillars across this course. Here they are in one place:\n\n| Structure | Core rule | Example |\n|---|---|---|\n| **Passe compose** | avoir/etre + participle; etre verbs agree | *Elle est partie. / J'ai vu.* |\n| **Imparfait** | background, habits, states in the past | *Il faisait beau. / Je travaillais.* |\n| **PC vs imparfait** | event vs background in same sentence | *Je lisais quand il est arrive.* |\n| **Futur simple** | infinitive + endings for real future | *Nous partirons demain.* |\n| **Conditionnel** | polite requests, si-hypotheses | *Je voudrais... / Si j'avais..., je ferais...* |\n| **y / en** | y = a+place/thing; en = de+thing/partitive | *J'y vais. / J'en veux.* |\n| **Negation** | ne...plus/jamais/rien/personne | *Je ne sais rien.* |\n| **Conjunctions** | parce que, donc, mais, si, quand | *Je reste parce qu'il pleut.* |\n\n## False friends to remember\n\n| French | Actual meaning | NOT |\n|---|---|---|\n| attendre | to wait for | to attend |\n| librairie | bookshop | library |\n| monnaie | (small) change / coins | money |\n\nIn the exercises that follow, each task mixes at least two of these topics."
+    },
+    {
+      "id": "theory-text-production",
+      "type": "theory",
+      "title": "Writing a postcard or short message",
+      "body": "## How to write a short postcard / message / email in French\n\nA French postcard or informal message has five parts:\n\n1. **Greeting** — *Cher [name],* (m.) / *Chere [name],* (f.)\n2. **Opening line** — where you are or what the context is (present tense or passe compose)\n3. **Body** — past events + present situation + future plans; use **connectors**\n4. **Closing remark** — a brief forward-looking sentence (*A bientot !*, *On se voit la semaine prochaine.*)\n5. **Sign-off** — *Bisous,* / *A bientot,* / *Bien a toi,*\n\n## Text-building blocks\n\n### Sequence connectors\n| French | English |\n|---|---|\n| **D'abord** | First of all |\n| **Ensuite** / **Puis** | Then / Next |\n| **Apres cela** | After that |\n| **Enfin** / **Finalement** | Finally |\n| **Le lendemain** | The next day |\n\n### Tense choices\n- **What happened** → passe compose (*Nous avons visite, je suis alle(e)*)\n- **Background / how things were** → imparfait (*Il faisait chaud, les rues etaient animees*)\n- **Future plans** → futur simple (*Nous irons, je visiterai*) or aller + infinitive (*Je vais partir*)\n- **Polite request / wish** → conditionnel (*Je voudrais revenir*)\n\n## Model postcard\n\n*Chere Sophie,*\n\n*Je suis a Barcelone depuis trois jours. D'abord nous avons visite la Sagrada Familia, ensuite nous avons mange des tapas dans un petit restaurant. Il faisait un temps magnifique ! Demain nous irons a la plage.*\n\n*Bisous,*\n*Emma*"
+    },
+    {
+      "id": "theory-mixed-structures",
+      "type": "theory",
+      "title": "Combining structures: a final checklist",
+      "body": "## Putting it all together\n\nWhen you write or speak at A2 level, aim to combine these patterns naturally:\n\n### PC vs imparfait — the two-layer past\n> **Imparfait** = the canvas (ongoing state / background / habit)  \n> **Passe compose** = the brushstroke (specific event that happened)\n\n*Le soleil brillait (imparfait) quand nous sommes arrives (PC).*  \n(The sun was shining when we arrived.)\n\n### Conditionnel for politeness and hypothesis\n- Polite: *Pourriez-vous m'aider ?* (Could you help me?)\n- Hypothesis: *Si j'avais le temps, je lirais plus.* (If I had time, I would read more.)\n\n### y and en — avoid repetition\nDo not repeat a noun you just mentioned — replace it:\n- *Tu vas a la boulangerie ? Oui, j'y vais.* (Yes, I'm going there.)\n- *Tu as achete des croissants ? J'en ai achete deux.* (I bought two of them.)\n\n### Advanced negation review\n| Sentence | Meaning |\n|---|---|\n| *Je ne mange plus de viande.* | I no longer eat meat. |\n| *Je n'ai jamais vu la mer.* | I have never seen the sea. |\n| *Je n'ai rien compris.* | I understood nothing. |\n| *Je n'ai vu personne.* | I saw nobody. |\n\n**Remember**: *personne* goes **after** the participle; the others go before.\n\n### Quick false-friends recap\n- *J'attends le bus.* (I am waiting **for** the bus — not *j'attends pour*)\n- *Je cherche une librairie.* (I'm looking for a **bookshop**, not a library)\n- *Tu as de la monnaie ?* (Do you have **change**, not just money in general)"
+    },
+    {
+      "id": "ex-match-tenses",
+      "type": "exercise",
+      "title": "Match the tense to its use",
+      "exercise": {
+        "id": "ex-match-tenses",
+        "type": "matching",
+        "prompt": "Match each French sentence to the description of what its tense expresses.",
+        "card_ids": ["pc-vs-imparfait-review", "futur-conditionnel-review", "a2-grammar-overview"],
+        "pairs": [
+          { "left": "Nous sommes alles a Lyon.", "right": "Completed past event (passe compose)" },
+          { "left": "Il pleuvait toute la journee.", "right": "Background state in the past (imparfait)" },
+          { "left": "Je voudrais une chambre, s'il vous plait.", "right": "Polite request (conditionnel)" },
+          { "left": "Demain, j'irai chez le medecin.", "right": "Future plan (futur simple)" },
+          { "left": "Je n'ai jamais mange d'huitres.", "right": "Never / past negation (ne...jamais)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-postcard-opening",
+      "type": "exercise",
+      "title": "Write the opening of a postcard to a female friend named Claire",
+      "exercise": {
+        "id": "ex-free-postcard-opening",
+        "type": "free_text",
+        "prompt": "Write the greeting line for a postcard addressed to a female friend called Claire. (Use *Chere* for a female recipient.)",
+        "card_ids": ["postcard-structure"],
+        "accept": [
+          "Chere Claire,",
+          "Chere Claire ,",
+          "chere claire,",
+          "Chere Claire"
+        ],
+        "hint": "Cher = masculine, Chere = feminine. Use the feminine form here.",
+        "distractors": [
+          "Cher Claire,",
+          "Bonjour Claire cher,",
+          "Dear Claire,"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-pc-imparfait",
+      "type": "exercise",
+      "title": "Background or event?",
+      "exercise": {
+        "id": "ex-cloze-pc-imparfait",
+        "type": "cloze",
+        "prompt": "Fill in the correct past tense: *Il faisait beau quand nous ___ (arriver).*  Type the passe compose form of *arriver* (nous, masculine group).",
+        "card_ids": ["pc-vs-imparfait-review"],
+        "sentence": "Il faisait beau quand nous ___ au bord de la mer.",
+        "blanks": [
+          { "accept": ["sommes arrives", "sommes arrivés"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "arriver takes etre; nous (mixed group) → arrivés."
+      }
+    },
+    {
+      "id": "ex-free-y-en",
+      "type": "exercise",
+      "title": "Replace with y or en",
+      "exercise": {
+        "id": "ex-free-y-en",
+        "type": "free_text",
+        "prompt": "Your friend asks: *Tu vas au supermarche ?* Reply: *Yes, I'm going there.* Use the pronoun **y**.",
+        "card_ids": ["y-en-review"],
+        "accept": [
+          "Oui, j'y vais.",
+          "oui, j'y vais",
+          "Oui j'y vais.",
+          "Oui, j'y vais"
+        ],
+        "hint": "y replaces a + place. J'y vais = I'm going there.",
+        "distractors": [
+          "Oui, je vais la.",
+          "Oui, j'en vais.",
+          "Oui, je y vais."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-postcard-sentence",
+      "type": "exercise",
+      "title": "Build a postcard sentence",
+      "exercise": {
+        "id": "ex-tiles-postcard-sentence",
+        "type": "word_tiles",
+        "prompt": "Arrange these words to make a sentence for a postcard: *First, we visited the Eiffel Tower.*",
+        "card_ids": ["text-connectors", "postcard-model"],
+        "tiles": ["D'abord,", "nous", "avons", "visite", "la", "tour", "Eiffel."],
+        "hint": "Use d'abord (first) + passe compose (nous avons visite).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-false-friend",
+      "type": "exercise",
+      "title": "False friend: which sentence is correct?",
+      "exercise": {
+        "id": "ex-pic-false-friend",
+        "type": "picture_choice",
+        "prompt": "You want to say: *I am looking for a bookshop.* Which French sentence is correct?",
+        "card_ids": ["false-friends-review"],
+        "images": [
+          { "src": "assets/img/bookshop-1.png", "label": "Je cherche une librairie.", "is_correct": "true" },
+          { "src": "assets/img/bookshop-2.png", "label": "Je cherche une bibliotheque." },
+          { "src": "assets/img/bookshop-3.png", "label": "J'attends une librairie." },
+          { "src": "assets/img/bookshop-4.png", "label": "Je cherche une librarie." }
+        ],
+        "hint": "librairie = bookshop; bibliotheque = library.",
+        "distractors": [
+          "Je cherche une bibliotheque.",
+          "J'attends une librairie.",
+          "Je cherche une librarie."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-negation-mix",
+      "type": "exercise",
+      "title": "Advanced negation in the passe compose",
+      "exercise": {
+        "id": "ex-free-negation-mix",
+        "type": "free_text",
+        "prompt": "Translate: *I never went to Italy.* (Use ne...jamais and the passe compose of *aller*.)",
+        "card_ids": ["negation-review", "pc-vs-imparfait-review"],
+        "accept": [
+          "Je ne suis jamais alle en Italie.",
+          "Je ne suis jamais allee en Italie.",
+          "je ne suis jamais alle en Italie.",
+          "Je ne suis jamais allé en Italie.",
+          "Je ne suis jamais allée en Italie."
+        ],
+        "hint": "aller takes etre; jamais goes between the auxiliary and the participle: je ne suis jamais alle(e).",
+        "distractors": [
+          "Je n'ai jamais alle en Italie.",
+          "Je suis jamais alle en Italie.",
+          "Je ne suis pas jamais alle en Italie."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-false-friends",
+      "type": "exercise",
+      "title": "False friends: match meaning",
+      "exercise": {
+        "id": "ex-match-false-friends",
+        "type": "matching",
+        "prompt": "Match each French word to its correct English meaning.",
+        "card_ids": ["false-friends-review", "attendre-usage"],
+        "pairs": [
+          { "left": "attendre", "right": "to wait for" },
+          { "left": "librairie", "right": "bookshop" },
+          { "left": "monnaie", "right": "(small) change / coins" },
+          { "left": "bibliotheque", "right": "library" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-si-futur",
+      "type": "exercise",
+      "title": "Si + present → futur simple",
+      "exercise": {
+        "id": "ex-cloze-si-futur",
+        "type": "cloze",
+        "prompt": "Fill in the futur simple of *pouvoir* (nous) to complete the *si* sentence: *Si tu viens demain, nous ___ diner ensemble.*",
+        "card_ids": ["si-futur-structure", "futur-conditionnel-review"],
+        "sentence": "Si tu viens demain, nous ___ diner ensemble.",
+        "blanks": [
+          { "accept": ["pourrons"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "pouvoir (futur stem: pourr-) + -ons (nous) = pourrons."
+      }
+    },
+    {
+      "id": "ex-tiles-future-plan",
+      "type": "exercise",
+      "title": "Build a future plan sentence",
+      "exercise": {
+        "id": "ex-tiles-future-plan",
+        "type": "word_tiles",
+        "prompt": "Arrange these words: *Tomorrow we will go to the beach.* (futur simple of aller: nous irons)",
+        "card_ids": ["futur-conditionnel-review", "postcard-model"],
+        "tiles": ["Demain,", "nous", "irons", "a", "la", "plage."],
+        "hint": "Futur simple of aller: nous irons (not nous allerons — aller is irregular in the futur).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-full-postcard",
+      "type": "exercise",
+      "title": "Write a postcard body sentence using connectors and passe compose",
+      "exercise": {
+        "id": "ex-free-full-postcard",
+        "type": "free_text",
+        "prompt": "Write one sentence for a postcard body using **d'abord** and the passe compose of *visiter* (nous). You visited the museum. Start with *D'abord,*",
+        "card_ids": ["text-connectors", "postcard-model", "postcard-structure"],
+        "accept": [
+          "D'abord, nous avons visite le musee.",
+          "D'abord nous avons visite le musee.",
+          "D'abord, nous avons visité le musée.",
+          "D'abord nous avons visité le musée."
+        ],
+        "hint": "d'abord = first of all; visiter takes avoir: nous avons visite.",
+        "distractors": [
+          "D'abord, nous sommes visite le musee.",
+          "Ensuite, nous avons visite le musee.",
+          "D'abord, j'ai visite le musee."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

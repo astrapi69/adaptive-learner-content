@@ -87,6 +87,30 @@ sets:
       - intermediate
       - grammar
       - everyday
+  - id: fr-a2-from-en
+    title: French A2 — Elementary
+    title_native: Français A2 — Élémentaire
+    target_language: fr
+    source_language: en
+    level: A2
+    path: sets/en/fr-a2
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Intermediate French for English speakers (15 lessons),
+      building on A1: the passé composé (avoir and être with
+      agreement), the imparfait and the passé composé vs imparfait
+      distinction, the futur simple and conditionnel présent, the
+      pronouns y and en, deepened negation, conjunctions, and
+      everyday topics (describing people, daily life, travel, food,
+      health, shopping), closing with review and text production.
+      Presupposes A1; mostly productive. Explanations in English
+      (schema v1.3).
+    tags:
+      - elementary
+      - grammar
+      - everyday
   - id: fr-a1-from-de
     title: Französisch A1 (für Deutschsprachige)
     title_native: Français A1
