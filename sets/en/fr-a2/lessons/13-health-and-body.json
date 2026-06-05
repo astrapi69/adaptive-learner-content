@@ -1,0 +1,329 @@
+{
+  "id": "13-health-and-body",
+  "title": "Health and the body",
+  "description": "A2 vocabulary and grammar for talking about health: body parts, the construction avoir mal à (with contractions au/aux), common symptoms, visiting the doctor, and giving advice with tu devrais and il faut. Explained in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "body-parts",
+      "front": "la tête, la gorge, le ventre, le dos, les jambes, les dents",
+      "back": "the head, the throat, the stomach/belly, the back, the legs, the teeth",
+      "notes": "Key body parts you need for describing pain. Note the genders: **la** tête (f), **la** gorge (f), **le** ventre (m), **le** dos (m), **les** jambes (f pl), **les** dents (f pl).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "body", "health"]
+    },
+    {
+      "id": "avoir-mal-a",
+      "front": "avoir mal à",
+      "back": "to have pain in / to hurt (a body part)",
+      "notes": "The standard French construction for body pain. Literally *to have pain at*. You MUST use the contracted article:\n\n| Article needed | Contracted form | Example |\n|---|---|---|\n| à + **la** | **à la** (no change) | *j'ai mal **à la** tête* |\n| à + **le** | **au** | *j'ai mal **au** dos* |\n| à + **les** | **aux** | *j'ai mal **aux** dents* |\n\n**English trap:** 'I have a headache' = *j'ai mal à la tête* — do NOT say *j'ai un mal de tête* (that is wrong at A2).",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "à + le = au; à + les = aux; à + la stays à la.",
+      "tags": ["grammar", "contraction", "avoir-mal-a", "health"]
+    },
+    {
+      "id": "avoir-mal-examples",
+      "front": "j'ai mal à la tête / j'ai mal au dos / j'ai mal aux dents",
+      "back": "I have a headache / my back hurts / my teeth hurt",
+      "notes": "*à la tête* — feminine singular, no contraction needed. *au dos* — masculine singular: à + le → **au**. *aux dents* — plural: à + les → **aux**. These three sentences cover all three contraction cases.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "avoir-mal-a", "contraction", "health"]
+    },
+    {
+      "id": "symptoms",
+      "front": "j'ai de la fièvre / je tousse / j'ai un rhume / je suis fatigué(e) / j'ai mal au cœur",
+      "back": "I have a fever / I am coughing / I have a cold / I am tired / I feel nauseous (lit. I have pain at the heart)",
+      "notes": "Common symptoms:\n- *j'ai **de la** fièvre* — fever (partitive with fièvre)\n- *je **tousse*** — I cough (tousser, regular -er)\n- *j'ai **un rhume*** — a cold\n- *je suis **fatigué(e)*** — tired (adjective agrees with gender)\n- *j'ai mal **au cœur*** — nauseous; literally 'I have pain at the heart' — a classic false friend. Do NOT translate literally into English.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "j'ai mal au coeur = I feel sick/nauseous, NOT a heart problem.",
+      "tags": ["vocabulary", "symptoms", "health"]
+    },
+    {
+      "id": "at-the-doctor",
+      "front": "prendre rendez-vous / le médecin / une ordonnance / un médicament / la pharmacie",
+      "back": "to make an appointment / the doctor / a prescription / a medicine / the pharmacy",
+      "notes": "Useful phrases for a medical visit:\n- *prendre rendez-vous* — to make an appointment (lit. to take a meeting)\n- *le médecin* — the doctor (gender-neutral noun, always **le**)\n- *une ordonnance* — a prescription\n- *un médicament* — a medicine/medication\n- *la pharmacie* — the pharmacy",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "doctor", "health"]
+    },
+    {
+      "id": "giving-advice",
+      "front": "tu devrais te reposer / il faut boire de l'eau / repose-toi",
+      "back": "you should rest / you must/one must drink water / rest! (command)",
+      "notes": "Three ways to give advice:\n\n| Structure | Example | Notes |\n|---|---|---|\n| **tu devrais** + infinitive | *tu devrais **te reposer*** | polite advice, conditional of devoir |\n| **il faut** + infinitive | *il faut **boire de l'eau*** | impersonal 'one must / you need to' |\n| **imperative** | ***repose-toi*** | direct command; reflexive verbs add -toi |\n\n*Devoir* (to have to/must) in the conditional: *je devrais, tu devrais, il devrait, nous devrions, vous devriez, ils devraient.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "tu devrais = conditional of devoir (you should); il faut = it is necessary (impersonal).",
+      "tags": ["grammar", "advice", "health", "conditionnel"]
+    },
+    {
+      "id": "rhume-card",
+      "front": "j'ai un rhume",
+      "back": "I have a cold",
+      "notes": "*Un rhume* is a common cold. Do not confuse with *la grippe* (the flu). Both use **avoir**: *j'ai un rhume*, *j'ai la grippe*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "symptoms", "health"]
+    },
+    {
+      "id": "fievre-card",
+      "front": "j'ai de la fièvre",
+      "back": "I have a fever",
+      "notes": "*Fièvre* is a feminine noun and takes the **partitive** article *de la*: *j'ai **de la** fièvre*. English says 'a fever' with the indefinite article, but French uses the partitive here.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "symptoms", "health", "partitive"]
+    },
+    {
+      "id": "ordonnance-card",
+      "front": "une ordonnance",
+      "back": "a prescription",
+      "notes": "*Une ordonnance* is what a doctor writes for you to get medicine at the pharmacy. The verb to use: *le médecin m'a donné une ordonnance* (the doctor gave me a prescription).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "doctor", "health"]
+    },
+    {
+      "id": "tousser-card",
+      "front": "je tousse",
+      "back": "I am coughing / I cough",
+      "notes": "*Tousser* is a regular **-er** verb: *je tousse, tu tousses, il/elle tousse, nous toussons, vous toussez, ils/elles toussent*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "symptoms", "health", "verb"]
+    },
+    {
+      "id": "mal-au-coeur-card",
+      "front": "j'ai mal au cœur",
+      "back": "I feel nauseous / I feel sick to my stomach",
+      "notes": "Literally 'I have pain at the heart' — but in French this means **nausea**, not a heart problem. A classic false friend. For actual heart pain, French says *j'ai des douleurs cardiaques*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "mal au coeur = nausea, NOT a heart attack.",
+      "tags": ["vocabulary", "symptoms", "health", "false-friend"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-body-vocab",
+      "type": "theory",
+      "title": "Body parts and avoir mal à",
+      "body": "# Health and the body\n\nTo talk about pain in French, the key construction is:\n\n> **avoir mal à** + (contracted article) + body part\n\nThis literally means 'to have pain at'. The article after **à** must contract:\n\n| Article | Contracts to | Example |\n|---|---|---|\n| à + **la** | **à la** | *j'ai mal **à la** gorge* (I have a sore throat) |\n| à + **le** | **au** | *j'ai mal **au** ventre* (my stomach hurts) |\n| à + **les** | **aux** | *j'ai mal **aux** jambes* (my legs hurt) |\n\n## Common body parts\n\n| French | English | Gender |\n|---|---|---|\n| la tête | the head | f |\n| la gorge | the throat | f |\n| le ventre | the stomach/belly | m |\n| le dos | the back | m |\n| les jambes | the legs | f pl |\n| les dents | the teeth | f pl |\n\n## English speaker note\n\n'I have a headache' = **j'ai mal à la tête** (NOT *j'ai un mal de tête*). French uses *avoir mal à* where English uses 'have a -ache'."
+    },
+    {
+      "id": "theory-symptoms",
+      "type": "theory",
+      "title": "Symptoms and seeing the doctor",
+      "body": "## Common symptoms\n\n| French | English | Note |\n|---|---|---|\n| *j'ai de la fièvre* | I have a fever | partitive *de la* with fièvre |\n| *je tousse* | I am coughing | regular -er verb |\n| *j'ai un rhume* | I have a cold | indefinite article |\n| *je suis fatigué(e)* | I am tired | adjective — add -e if female |\n| *j'ai mal au cœur* | I feel nauseous | **false friend** — not a heart problem! |\n\n## At the doctor\n\n| French | English |\n|---|---|\n| prendre rendez-vous | to make an appointment |\n| le médecin | the doctor |\n| une ordonnance | a prescription |\n| un médicament | a medicine |\n| la pharmacie | the pharmacy |"
+    },
+    {
+      "id": "theory-advice",
+      "type": "theory",
+      "title": "Giving advice about health",
+      "body": "## Three ways to give advice in French\n\n| Structure | Example | Meaning |\n|---|---|---|\n| **tu devrais** + infinitive | *tu devrais **te reposer*** | you should rest (conditional, polite) |\n| **il faut** + infinitive | *il faut **prendre un médicament*** | you must take medicine (impersonal) |\n| **imperative** | ***repose-toi!*** | rest! (direct command) |\n\n### Tu devrais — conditional of devoir\n\n*Devoir* in the conditional expresses 'should/ought to'. For advice use **tu devrais** + infinitive:\n- *Tu devrais **aller** chez le médecin.* (You should go to the doctor.)\n- *Tu devrais **boire** beaucoup d'eau.* (You should drink lots of water.)\n\n### Il faut + infinitive\n\nImpersonal and neutral — 'one must / it is necessary to':\n- *Il faut **se reposer**.* (You need to rest.)\n- *Il faut **prendre** cette ordonnance à la pharmacie.* (You need to take this prescription to the pharmacy.)\n\n### Repose-toi — imperative of reflexive verbs\n\nIn the imperative, reflexive verbs use **-toi** (informal you): ***repose-toi*** (rest!), ***lève-toi*** (get up!)."
+    },
+    {
+      "id": "ex-match-body-symptoms",
+      "type": "exercise",
+      "title": "Match the symptom to its meaning",
+      "exercise": {
+        "id": "ex-match-body-symptoms",
+        "type": "matching",
+        "prompt": "Match each French expression to its English meaning.",
+        "card_ids": ["symptoms", "rhume-card", "fievre-card", "tousser-card", "mal-au-coeur-card"],
+        "pairs": [
+          { "left": "je tousse", "right": "I am coughing" },
+          { "left": "j'ai de la fièvre", "right": "I have a fever" },
+          { "left": "j'ai un rhume", "right": "I have a cold" },
+          { "left": "j'ai mal au cœur", "right": "I feel nauseous" },
+          { "left": "je suis fatigué", "right": "I am tired" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-headache",
+      "type": "exercise",
+      "title": "Translate: I have a headache",
+      "exercise": {
+        "id": "ex-free-headache",
+        "type": "free_text",
+        "prompt": "Translate: *I have a headache.* Use the avoir mal à construction with the correct contracted article.",
+        "card_ids": ["avoir-mal-a", "avoir-mal-examples"],
+        "accept": [
+          "J'ai mal à la tête.",
+          "j'ai mal à la tête.",
+          "j'ai mal à la tête",
+          "J'ai mal à la tête"
+        ],
+        "hint": "tête is feminine (la tête), so: à + la = à la. No contraction needed.",
+        "distractors": [
+          "J'ai mal au tête.",
+          "J'ai un mal de tête.",
+          "J'ai mal à le tête."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-au-dos",
+      "type": "exercise",
+      "title": "Fill in the contraction: back pain",
+      "exercise": {
+        "id": "ex-cloze-au-dos",
+        "type": "cloze",
+        "prompt": "Fill in the correct contracted form of 'à + le' for *dos* (masculine).",
+        "card_ids": ["avoir-mal-a", "avoir-mal-examples"],
+        "sentence": "Depuis ce matin, j'ai mal ___ dos.",
+        "blanks": [
+          { "accept": ["au"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "dos is masculine (le dos): à + le = au."
+      }
+    },
+    {
+      "id": "ex-tiles-should-rest",
+      "type": "exercise",
+      "title": "Build: You should rest",
+      "exercise": {
+        "id": "ex-tiles-should-rest",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *You should rest.*",
+        "card_ids": ["giving-advice"],
+        "tiles": ["tu", "devrais", "te", "reposer"],
+        "hint": "tu devrais + infinitive of the reflexive verb se reposer.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-avoir-mal-aux-dents",
+      "type": "exercise",
+      "title": "My teeth hurt — which sentence is correct?",
+      "exercise": {
+        "id": "ex-pic-avoir-mal-aux-dents",
+        "type": "picture_choice",
+        "prompt": "Someone is pointing to their teeth and saying 'My teeth hurt.' Which sentence is correct?",
+        "card_ids": ["avoir-mal-a", "avoir-mal-examples"],
+        "images": [
+          { "src": "assets/img/teeth-correct.png", "label": "J'ai mal aux dents.", "is_correct": "true" },
+          { "src": "assets/img/teeth-wrong1.png", "label": "J'ai mal à les dents." },
+          { "src": "assets/img/teeth-wrong2.png", "label": "J'ai mal au dents." },
+          { "src": "assets/img/teeth-wrong3.png", "label": "J'ai mal de dents." }
+        ],
+        "hint": "dents is plural (les dents): à + les = aux.",
+        "distractors": [
+          "J'ai mal à les dents.",
+          "J'ai mal au dents.",
+          "J'ai mal de dents."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-sore-throat",
+      "type": "exercise",
+      "title": "Translate: I have a sore throat",
+      "exercise": {
+        "id": "ex-free-sore-throat",
+        "type": "free_text",
+        "prompt": "Translate: *I have a sore throat.* (gorge is feminine — la gorge)",
+        "card_ids": ["avoir-mal-a", "body-parts"],
+        "accept": [
+          "J'ai mal à la gorge.",
+          "j'ai mal à la gorge.",
+          "j'ai mal à la gorge",
+          "J'ai mal à la gorge"
+        ],
+        "hint": "gorge is feminine (la gorge): à + la stays à la.",
+        "distractors": [
+          "J'ai mal au gorge.",
+          "J'ai mal aux gorges.",
+          "J'ai mal à le gorge."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-doctor-vocab",
+      "type": "exercise",
+      "title": "Match the medical vocabulary",
+      "exercise": {
+        "id": "ex-match-doctor-vocab",
+        "type": "matching",
+        "prompt": "Match each French term to its English meaning.",
+        "card_ids": ["at-the-doctor", "ordonnance-card"],
+        "pairs": [
+          { "left": "le médecin", "right": "the doctor" },
+          { "left": "une ordonnance", "right": "a prescription" },
+          { "left": "un médicament", "right": "a medicine" },
+          { "left": "la pharmacie", "right": "the pharmacy" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-il-faut",
+      "type": "exercise",
+      "title": "Fill in: il faut advice",
+      "exercise": {
+        "id": "ex-cloze-il-faut",
+        "type": "cloze",
+        "prompt": "Complete the advice sentence with the correct impersonal form meaning 'it is necessary to'.",
+        "card_ids": ["giving-advice"],
+        "sentence": "___ prendre ce médicament trois fois par jour.",
+        "blanks": [
+          { "accept": ["Il faut", "il faut"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "The impersonal advice structure is il faut + infinitive."
+      }
+    },
+    {
+      "id": "ex-free-you-should-see-doctor",
+      "type": "exercise",
+      "title": "Give advice: you should see the doctor",
+      "exercise": {
+        "id": "ex-free-you-should-see-doctor",
+        "type": "free_text",
+        "prompt": "Translate: *You should see the doctor.* Use **tu devrais** + aller chez le médecin.",
+        "card_ids": ["giving-advice", "at-the-doctor"],
+        "accept": [
+          "Tu devrais aller chez le médecin.",
+          "tu devrais aller chez le médecin.",
+          "tu devrais aller chez le médecin",
+          "Tu devrais aller chez le médecin"
+        ],
+        "hint": "tu devrais (conditional of devoir) + infinitive: aller chez le médecin.",
+        "distractors": [
+          "Tu dois aller chez le médecin.",
+          "Tu devrais vas chez le médecin.",
+          "Il faut tu aller chez le médecin."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-i-have-fever",
+      "type": "exercise",
+      "title": "Build: I have a fever and I am coughing",
+      "exercise": {
+        "id": "ex-tiles-i-have-fever",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *I have a fever and I am coughing.*",
+        "card_ids": ["symptoms", "fievre-card", "tousser-card"],
+        "tiles": ["J'ai", "de", "la", "fièvre", "et", "je", "tousse"],
+        "hint": "j'ai de la fièvre (partitive) + et + je tousse.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

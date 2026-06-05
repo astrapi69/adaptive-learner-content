@@ -1,0 +1,329 @@
+{
+  "id": "es-b1-05-la-pasiva-e-impersonal",
+  "title": "The Passive and Impersonal Constructions",
+  "description": "Spanish has several ways to say what English packs into the be-passive. Meet the formal ser-passive (with an agreeing participle), the everyday pasiva refleja with se, the impersonal se, and the crucial estar + participle (a resulting state) versus ser + participle (the action). Learn which one Spanish actually prefers.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "pas-ser-form",
+      "front": "La casa fue construida por los romanos.",
+      "back": "ser-passive: ser + past participle (+ por + agent); participle AGREES",
+      "notes": "The formal passive = **ser** + past participle. Here the participle behaves like an adjective and **agrees** in gender and number with the subject: *La casa fue **construida***, *Los puentes fueron **construidos***. The agent (the doer) is introduced by **por**: *por los romanos*. This sounds bookish or journalistic; in speech Spanish usually avoids it.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "passive", "ser"]
+    },
+    {
+      "id": "pas-ser-agree",
+      "front": "Los libros fueron escritos / La carta fue escrita",
+      "back": "in the ser-passive the participle matches the subject (gender + number)",
+      "notes": "Contrast this with compound tenses (*haber* + participle), where the participle is **frozen**: *He **escrito** las cartas* (no agreement). In the ser-passive it must agree: *Las cartas **fueron escritas***. English speakers often forget to make it agree because English participles never change.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "passive", "agreement"]
+    },
+    {
+      "id": "pas-refleja-form",
+      "front": "Se venden coches. / Se vende coche.",
+      "back": "pasiva refleja: se + verb, agreeing with the grammatical subject",
+      "notes": "The much more common passive uses **se** + a 3rd-person verb that **agrees** with the thing affected: *Se **vende** un coche* (singular) vs *Se **venden** coches* (plural). Think of it as 'cars get sold'. No agent is normally expressed.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "passive", "se"]
+    },
+    {
+      "id": "pas-refleja-agree",
+      "front": "Se habla español. / Se hablan varios idiomas.",
+      "back": "the se-passive verb is singular or plural to match its subject",
+      "notes": "The verb tracks the **number of the subject**: one thing → singular (*Se habla español*), several things → plural (*Se hablan varios idiomas*). A classic English-speaker error is leaving the verb singular for a plural subject: *Se vende coches* should be **Se venden coches**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "passive", "agreement", "se"]
+    },
+    {
+      "id": "pas-impersonal-se",
+      "front": "Se vive bien aquí. / Se dice que va a llover.",
+      "back": "impersonal se: no specific subject, verb always 3rd person SINGULAR",
+      "notes": "When there is **no subject at all** ('one', 'people', 'they' in general), use **se** + verb in the **3rd person singular**: *Se **vive** bien aquí* (one lives well here), *Se **dice** que...* (they say that...). Unlike the pasiva refleja, this verb never goes plural.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "impersonal", "se"]
+    },
+    {
+      "id": "pas-se-vs-impersonal",
+      "front": "Se venden libros. (passive) vs Se trabaja mucho. (impersonal)",
+      "back": "with a grammatical subject the verb agrees; with none it stays singular",
+      "notes": "Quick test: is there a noun the verb can agree with? *Se venden **libros*** → yes, *libros* is the subject, so plural. *Se trabaja mucho* → no noun subject, so it stays **singular** (impersonal). Intransitive verbs like *vivir, trabajar, estar* are almost always impersonal.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "passive", "impersonal", "se"]
+    },
+    {
+      "id": "pas-estar-result",
+      "front": "La puerta está cerrada.",
+      "back": "estar + participle = the RESULT/state of an action (not the action)",
+      "notes": "**estar** + past participle describes a **resulting state**: *La puerta **está cerrada*** = the door is (in the state of being) closed. The participle agrees like an adjective. This is not really a passive — it tells you how things *are now*, not who did what.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "estar", "participle"]
+    },
+    {
+      "id": "pas-ser-vs-estar",
+      "front": "La puerta fue cerrada (action) vs La puerta está cerrada (state)",
+      "back": "ser + participle = the action happening; estar + participle = the state after",
+      "notes": "*La puerta **fue cerrada** (por el guardia)* focuses on the **event** of closing it. *La puerta **está cerrada*** focuses on the **state** afterwards. English uses 'is closed' for both, which is why learners mix them up. Ask: action (ser) or result (estar)?",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "ser", "estar", "contrast"]
+    },
+    {
+      "id": "pas-prefer-refleja",
+      "front": "El libro fue publicado. → Se publicó el libro.",
+      "back": "Spanish usually prefers the se-passive (or an active sentence) over ser",
+      "notes": "Where English reaches for the be-passive, natural Spanish prefers the **pasiva refleja** (*Se publicó el libro*) or simply an **active** sentence (*Publicaron el libro*). Reserve the **ser**-passive for formal or written style, especially when you want to name the agent with *por*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "passive", "register"]
+    },
+    {
+      "id": "pas-english-overuse",
+      "front": "It is said that... → Se dice que... (NOT *Es dicho que...*)",
+      "back": "do not translate every English be-passive word-for-word",
+      "notes": "English loves the passive ('it is said', 'Spanish is spoken here', 'cars are sold'). Translating each literally with *ser* sounds wrong: say **Se dice que**, **Aquí se habla español**, **Se venden coches**. The instinct to use *ser* for every be-passive is the #1 trap here.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "passive", "contrast", "se"]
+    },
+    {
+      "id": "pas-participle-no-agree-compound",
+      "front": "Han construido la casa. (no agreement) vs La casa fue construida. (agreement)",
+      "back": "compound-tense participle is invariable; ser-passive participle agrees",
+      "notes": "Don't let agreement bleed across. After **haber** the participle is **invariable**: *Han **construido** las casas* (never *construidas*). In the **ser**-passive it **agrees**: *Las casas fueron **construidas***. Same word, opposite rule depending on the helper verb.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "passive", "agreement", "contrast"]
+    },
+    {
+      "id": "pas-por-agent",
+      "front": "América fue descubierta por Colón.",
+      "back": "name the doer with por in the ser-passive",
+      "notes": "When you do want to say **who** performed the action, the agent follows **por**: *El cuadro fue pintado **por Picasso***. The pasiva refleja normally can't add an agent, so naming the doer is one of the few good reasons to choose the ser-passive.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "passive", "ser", "por"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Two passives and an impersonal",
+      "body": "# The Passive and Impersonal Constructions\n\nEnglish reaches for the **be-passive** constantly: *the house was built*, *Spanish is spoken here*, *cars are sold*. Spanish has the same idea but usually expresses it differently — and overusing the literal *ser*-passive is the classic English-speaker mistake.\n\nYou have three main tools:\n\n## 1. The ser-passive (formal)\n\n**ser** + past participle, with the participle **agreeing** like an adjective:\n\n- *La casa **fue construida**.* (the house was built)\n- *Los puentes **fueron construidos**.* (plural → -os)\n- *La carta **fue escrita**.* (feminine → -a)\n\nTo name the doer, use **por**:\n\n> *América **fue descubierta por** Colón.*\n\nThis sounds bookish. In everyday speech Spanish avoids it.\n\n## 2. The pasiva refleja (everyday)\n\nFar more common: **se** + a 3rd-person verb that **agrees** with the thing affected:\n\n- *Se **vende** un coche.* (singular subject → singular verb)\n- *Se **venden** coches.* (plural subject → plural verb)\n- *Se **habla** español aquí.*\n\nThink 'cars **get** sold'. Normally no agent is mentioned."
+    },
+    {
+      "id": "step-impersonal",
+      "type": "theory",
+      "title": "Impersonal se vs the se-passive",
+      "body": "## 3. The impersonal se\n\nWhen there is **no subject at all** — 'one', 'people', 'they' in general — use **se** + verb in the **3rd person singular**, always:\n\n- *Se **vive** bien aquí.* (one lives well here)\n- *Se **dice** que va a llover.* (they say it's going to rain)\n- *Se **trabaja** mucho en esta empresa.*\n\n## Telling them apart\n\nBoth start with *se*. The difference is whether a noun can be the **grammatical subject**:\n\n| Sentence | Is there a noun subject? | Verb |\n|---|---|---|\n| Se venden **libros**. | yes (*libros*) | plural → *venden* |\n| Se vende **un libro**. | yes (*un libro*) | singular → *vende* |\n| Se vive bien. | no | singular → *vive* |\n| Se dice que... | no | singular → *dice* |\n\n> The #1 agreement error: *Se vende coches* for plural. With *coches* (plural subject) it must be **Se venden coches**."
+    },
+    {
+      "id": "step-ser-estar",
+      "type": "theory",
+      "title": "ser vs estar + participle, and what to prefer",
+      "body": "## Action vs result: ser vs estar + participle\n\nEnglish 'the door is closed' is ambiguous. Spanish splits it:\n\n- **ser** + participle = the **action** taking place: *La puerta **fue cerrada** (por el guardia).* — someone closed it.\n- **estar** + participle = the **resulting state**: *La puerta **está cerrada**.* — it is now closed.\n\nIn both, the participle agrees: *Las ventanas **están cerradas***.\n\n## Agreement warning\n\nThe ser-passive participle agrees, **but the compound-tense participle does not**:\n\n- *Han **construido** las casas.* (after *haber* → invariable)\n- *Las casas **fueron construidas**.* (ser-passive → agrees)\n\n## Which to choose\n\nWhere English uses the be-passive, natural Spanish prefers:\n\n1. the **pasiva refleja**: *Se publicó el libro.*\n2. or a plain **active** sentence: *Publicaron el libro.*\n\nKeep the **ser**-passive for formal/written style — above all when you want to name the agent with **por**: *El cuadro **fue pintado por** Picasso.*"
+    },
+    {
+      "id": "ex-match-types",
+      "type": "exercise",
+      "title": "Match the construction",
+      "exercise": {
+        "id": "ex-match-types",
+        "type": "matching",
+        "prompt": "Match each Spanish sentence with the construction it uses.",
+        "card_ids": ["pas-ser-form", "pas-refleja-form", "pas-impersonal-se", "pas-estar-result"],
+        "pairs": [
+          {"left": "La casa fue construida por los romanos.", "right": "ser-passive (action + agent)"},
+          {"left": "Se venden coches.", "right": "pasiva refleja"},
+          {"left": "Se vive bien aquí.", "right": "impersonal se"},
+          {"left": "La puerta está cerrada.", "right": "estar + participle (state)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-se-habla",
+      "type": "exercise",
+      "title": "Spanish is spoken here",
+      "exercise": {
+        "id": "ex-cloze-se-habla",
+        "type": "cloze",
+        "prompt": "Fill in the little word that turns this into a pasiva refleja.",
+        "card_ids": ["pas-refleja-form", "pas-english-overuse"],
+        "sentence": "Aquí ___ habla español.",
+        "blanks": [{"accept": ["se"]}],
+        "cloze_mode": "type",
+        "hint": "The everyday passive uses this reflexive-looking particle, not ser."
+      }
+    },
+    {
+      "id": "ex-cloze-se-venden",
+      "type": "exercise",
+      "title": "Agreement in the se-passive",
+      "exercise": {
+        "id": "ex-cloze-se-venden",
+        "type": "cloze",
+        "prompt": "Fill in vender so it agrees with its plural subject coches.",
+        "card_ids": ["pas-refleja-agree", "pas-se-vs-impersonal"],
+        "sentence": "En esa tienda se ___ coches de segunda mano.",
+        "blanks": [{"accept": ["venden"]}],
+        "cloze_mode": "type",
+        "hint": "The subject coches is plural, so the verb must be plural too (not vende)."
+      }
+    },
+    {
+      "id": "ex-free-house-built",
+      "type": "exercise",
+      "title": "The ser-passive with an agent",
+      "exercise": {
+        "id": "ex-free-house-built",
+        "type": "free_text",
+        "prompt": "Translate: *The house was built by the Romans.* (ser-passive, participle agrees, agent with por)",
+        "card_ids": ["pas-ser-form", "pas-ser-agree", "pas-por-agent"],
+        "accept": ["La casa fue construida por los romanos.", "la casa fue construida por los romanos", "La casa fue construida por los Romanos.", "La casa fue construida por los romanos"],
+        "hint": "ser (fue) + construir; construida agrees with la casa (feminine singular); agent = por los romanos.",
+        "distractors": ["La casa fue construido por los romanos.", "La casa estuvo construida por los romanos.", "La casa fue construida de los romanos."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-spanish-spoken",
+      "type": "exercise",
+      "title": "Avoid the English be-passive",
+      "exercise": {
+        "id": "ex-free-spanish-spoken",
+        "type": "free_text",
+        "prompt": "Translate: *Spanish is spoken here.* (use the pasiva refleja, not ser)",
+        "card_ids": ["pas-refleja-form", "pas-english-overuse"],
+        "accept": ["Aquí se habla español.", "aquí se habla español", "Aqui se habla español.", "Se habla español aquí.", "Aquí se habla español"],
+        "hint": "se + hablar (3rd singular, español is singular); do NOT use es hablado.",
+        "distractors": ["Español es hablado aquí.", "Aquí es hablado español.", "Aquí se hablan español."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-door-state",
+      "type": "exercise",
+      "title": "State, not action",
+      "exercise": {
+        "id": "ex-pic-door-state",
+        "type": "picture_choice",
+        "prompt": "Which sentence describes the resulting STATE 'The door is closed'? (estar, not ser)",
+        "card_ids": ["pas-estar-result", "pas-ser-vs-estar"],
+        "images": [
+          {"src": "assets/img/puerta-cerrada-1.png", "label": "La puerta está cerrada.", "is_correct": "true"},
+          {"src": "assets/img/puerta-cerrada-2.png", "label": "La puerta fue cerrada."},
+          {"src": "assets/img/puerta-cerrada-3.png", "label": "La puerta es cerrada."},
+          {"src": "assets/img/puerta-cerrada-4.png", "label": "La puerta está cerrado."}
+        ],
+        "hint": "A resulting state uses estar; the participle agrees with la puerta (feminine).",
+        "distractors": ["La puerta fue cerrada.", "La puerta es cerrada.", "La puerta está cerrado."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-se-dice",
+      "type": "exercise",
+      "title": "Build: They say it's going to rain",
+      "exercise": {
+        "id": "ex-tiles-se-dice",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *They say (that) it's going to rain.* (impersonal se)",
+        "card_ids": ["pas-impersonal-se", "pas-english-overuse"],
+        "tiles": ["Se", "dice", "que", "va", "a", "llover"],
+        "hint": "Impersonal se + decir in the 3rd person singular: Se dice que...",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-impersonal-vive",
+      "type": "exercise",
+      "title": "Impersonal se stays singular",
+      "exercise": {
+        "id": "ex-cloze-impersonal-vive",
+        "type": "cloze",
+        "prompt": "Fill in vivir for the impersonal se (no subject, 3rd person singular).",
+        "card_ids": ["pas-impersonal-se", "pas-se-vs-impersonal"],
+        "sentence": "En este pueblo se ___ muy bien.",
+        "blanks": [{"accept": ["vive"]}],
+        "cloze_mode": "type",
+        "hint": "No noun subject here, so the verb stays singular: se vive."
+      }
+    },
+    {
+      "id": "ex-free-prefer-refleja",
+      "type": "exercise",
+      "title": "Rephrase the formal passive",
+      "exercise": {
+        "id": "ex-free-prefer-refleja",
+        "type": "free_text",
+        "prompt": "Say 'The book was published' the natural, everyday way using the pasiva refleja (preterite of publicar).",
+        "card_ids": ["pas-prefer-refleja", "pas-refleja-form"],
+        "accept": ["Se publicó el libro.", "se publicó el libro", "Se publico el libro.", "El libro se publicó.", "Se publicó el libro"],
+        "hint": "se + publicar in the preterite, agreeing with el libro (singular): se publicó.",
+        "distractors": ["El libro fue publicado.", "Se publicaron el libro.", "El libro es publicado."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-ser-estar",
+      "type": "exercise",
+      "title": "Action or result?",
+      "exercise": {
+        "id": "ex-match-ser-estar",
+        "type": "matching",
+        "prompt": "Match each sentence with whether it names the action (ser) or the resulting state (estar).",
+        "card_ids": ["pas-ser-vs-estar", "pas-estar-result"],
+        "pairs": [
+          {"left": "La tienda fue abierta en 1990.", "right": "action (ser)"},
+          {"left": "La tienda está abierta ahora.", "right": "state (estar)"},
+          {"left": "Las cartas fueron escritas ayer.", "right": "action (ser)"},
+          {"left": "Las cartas ya están escritas.", "right": "state (estar)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-compound-no-agree",
+      "type": "exercise",
+      "title": "Compound participle does NOT agree",
+      "exercise": {
+        "id": "ex-cloze-compound-no-agree",
+        "type": "cloze",
+        "prompt": "Fill in the participle of construir after han (compound tense → invariable).",
+        "card_ids": ["pas-participle-no-agree-compound", "pas-ser-agree"],
+        "sentence": "Los obreros han ___ las casas en un año.",
+        "blanks": [{"accept": ["construido"]}],
+        "cloze_mode": "type",
+        "hint": "After haber the participle never changes: construido (not construidas)."
+      }
+    },
+    {
+      "id": "ex-free-discovered-by",
+      "type": "exercise",
+      "title": "Name the agent with por",
+      "exercise": {
+        "id": "ex-free-discovered-by",
+        "type": "free_text",
+        "prompt": "Translate: *America was discovered by Columbus.* (ser-passive with agent)",
+        "card_ids": ["pas-por-agent", "pas-ser-agree"],
+        "accept": ["América fue descubierta por Colón.", "america fue descubierta por colon", "America fue descubierta por Colon.", "América fue descubierta por Colón", "América fue descubierta por Cristóbal Colón."],
+        "hint": "ser (fue) + descubrir; descubierta agrees with América (feminine); agent = por Colón.",
+        "distractors": ["América fue descubierto por Colón.", "América fue descubierta de Colón.", "América estaba descubierta por Colón."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

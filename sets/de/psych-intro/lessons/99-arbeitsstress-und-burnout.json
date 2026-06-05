@@ -1,0 +1,263 @@
+{
+  "id": "99-arbeitsstress-und-burnout",
+  "title": "Arbeitsstress und Burnout",
+  "description": "Wie Arbeitsstress entsteht und wissenschaftlich erklärt wird (transaktionales Stressmodell, Job-Demand-Control, Effort-Reward-Imbalance), was Burnout nach Maslach kennzeichnet, wie es im ICD-11 eingeordnet ist und welche Ansätze der Prävention und Erholung es gibt — sachlich und respektvoll auf Deutsch erklärt, mit den Fachbegriffen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "belastung-beanspruchung",
+      "front": "Belastung vs. Beanspruchung",
+      "back": "Belastung meint die von außen einwirkenden Anforderungen einer Tätigkeit (z. B. Termindruck, Lärm). Beanspruchung ist die individuelle Reaktion darauf, die von den persönlichen Voraussetzungen abhängt. Gleiche Belastung kann unterschiedlich stark beanspruchen.",
+      "notes": "Belastungs-Beanspruchungs-Konzept; knüpft an Lektion 96 an. Englisch: load vs. strain.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["arbeitsstress", "grundbegriff"]
+    },
+    {
+      "id": "transaktionales-modell",
+      "front": "Transaktionales Stressmodell (Lazarus)",
+      "back": "Stress entsteht nicht durch einen Reiz allein, sondern durch die Bewertung der Situation im Verhältnis zu den eigenen Ressourcen. Stress ist damit das Ergebnis einer Transaktion zwischen Person und Umwelt.",
+      "notes": "Nach Richard Lazarus. Englisch: transactional model of stress.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["arbeitsstress", "theorie"]
+    },
+    {
+      "id": "primaere-sekundaere-bewertung",
+      "front": "Primäre und sekundäre Bewertung",
+      "back": "Bei der primären Bewertung schätzt eine Person ein, ob eine Situation bedrohlich, herausfordernd oder irrelevant ist. Bei der sekundären Bewertung prüft sie, welche Bewältigungsmöglichkeiten ihr zur Verfügung stehen.",
+      "notes": "Teil des transaktionalen Modells. Englisch: primary appraisal / secondary appraisal.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["arbeitsstress", "theorie"]
+    },
+    {
+      "id": "stressoren-arbeitsplatz",
+      "front": "Stressoren am Arbeitsplatz",
+      "back": "Bedingungen der Arbeit, die Stressreaktionen auslösen können: z. B. Zeit- und Termindruck, häufige Unterbrechungen, Rollenkonflikte, geringe Handlungsspielräume, soziale Konflikte oder Arbeitsplatzunsicherheit.",
+      "notes": "Englisch: workplace stressors. Stressoren beschreiben Bedingungen, kein persönliches Versagen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["arbeitsstress", "grundbegriff"]
+    },
+    {
+      "id": "job-demand-control",
+      "front": "Job-Demand-Control-Modell (Karasek)",
+      "back": "Die Belastung am Arbeitsplatz ergibt sich aus dem Zusammenspiel von Anforderungen und Kontrolle (Entscheidungsspielraum). Besonders ungünstig ist die Kombination hoher Anforderungen mit geringem Spielraum (High-Strain-Jobs).",
+      "notes": "Nach Robert Karasek. Englisch: job demand-control model. Auch Demand-Control-Modell genannt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["arbeitsstress", "modell"]
+    },
+    {
+      "id": "entscheidungsspielraum",
+      "front": "Entscheidungsspielraum (Kontrolle)",
+      "back": "Das Ausmaß, in dem eine Person über die eigene Arbeit mitbestimmen kann: wie, wann und in welcher Reihenfolge Aufgaben erledigt werden. Ein hoher Spielraum kann hohe Anforderungen abpuffern.",
+      "notes": "Im Modell von Karasek der zweite zentrale Faktor. Englisch: job control / decision latitude.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["arbeitsstress", "modell"]
+    },
+    {
+      "id": "effort-reward-imbalance",
+      "front": "Effort-Reward-Imbalance (Siegrist)",
+      "back": "Stress entsteht, wenn ein dauerhaftes Ungleichgewicht zwischen hoher Verausgabung und zu geringer Belohnung besteht. Belohnung umfasst Geld, Anerkennung, Aufstiegschancen und Arbeitsplatzsicherheit.",
+      "notes": "Nach Johannes Siegrist; auch Modell beruflicher Gratifikationskrisen. Englisch: effort-reward imbalance.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["arbeitsstress", "modell"]
+    },
+    {
+      "id": "gratifikationskrise",
+      "front": "Gratifikationskrise",
+      "back": "Der Zustand, in dem die erlebte Belohnung dauerhaft nicht zur eingebrachten Anstrengung passt. Das anhaltende Ungleichgewicht zwischen Verausgabung und Belohnung gilt als Risiko für gesundheitliche Beeinträchtigungen.",
+      "notes": "Kernbegriff des Modells von Siegrist. Englisch: reward crisis.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["arbeitsstress", "modell"]
+    },
+    {
+      "id": "burnout-definition",
+      "front": "Burnout",
+      "back": "Ein Zustand anhaltender Erschöpfung, der sich infolge chronischer, nicht erfolgreich bewältigter Arbeitsüberlastung entwickelt. Burnout wird als Folge länger andauernder Belastung im Arbeitskontext beschrieben.",
+      "notes": "Englisch: burnout. Burnout entsteht als Prozess über die Zeit, nicht plötzlich.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["burnout", "grundbegriff"]
+    },
+    {
+      "id": "maslach-dimensionen",
+      "front": "Die drei Burnout-Dimensionen (Maslach)",
+      "back": "Burnout wird über drei Dimensionen beschrieben: emotionale Erschöpfung, Depersonalisation bzw. Zynismus (distanzierte, abweisende Haltung gegenüber Arbeit und Menschen) und reduzierte Leistungsfähigkeit (Gefühl verringerter Wirksamkeit).",
+      "notes": "Nach Christina Maslach; erfasst u. a. mit dem Maslach Burnout Inventory. Englisch: emotional exhaustion, depersonalization/cynicism, reduced personal accomplishment.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["burnout", "modell"]
+    },
+    {
+      "id": "icd11-burnout",
+      "front": "Burnout im ICD-11",
+      "back": "Im ICD-11 wird Burnout als Syndrom im Zusammenhang mit dem Arbeitskontext geführt, das aus chronischem, nicht bewältigtem Arbeitsstress resultiert. Es ist dort ausdrücklich keine eigenständige medizinische Krankheitsdiagnose im klassischen Sinn.",
+      "notes": "ICD-11 ordnet Burnout den Faktoren zu, die den Gesundheitszustand beeinflussen, nicht den Erkrankungen. Englisch: ICD-11.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["burnout", "klassifikation"]
+    },
+    {
+      "id": "verhaeltnis-verhaltenspraevention",
+      "front": "Verhältnis- vs. Verhaltensprävention",
+      "back": "Verhältnisprävention verändert die Arbeitsbedingungen selbst (z. B. Aufgabengestaltung, Spielräume). Verhaltensprävention setzt beim Einzelnen an (z. B. Stresskompetenz, Erholung). Wirksame Prävention kombiniert beides.",
+      "notes": "Eingebettet in betriebliches Gesundheitsmanagement (BGM). Recovery meint planmäßige Erholung. Englisch: structural vs. behavioral prevention.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["burnout", "praevention"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "step-intro",
+      "type": "theory",
+      "title": "Arbeitsstress: Belastung, Beanspruchung und Bewertung",
+      "body": "# Arbeitsstress und Burnout\n\n> **Wichtiger Hinweis:** Diese Lektion dient der Wissensbildung und der wissenschaftlichen Einordnung. Sie ersetzt keine professionelle Beratung, Diagnostik oder Therapie. Bei anhaltender Belastung können die Hausärztin oder der Hausarzt, die Betriebsärztin oder der Betriebsarzt sowie psychotherapeutische Beratungsstellen weiterhelfen.\n\nDiese Lektion knüpft an das Stresserleben aus **Lektion 96** an und überträgt es auf die Arbeitswelt. Es geht um Modelle und Begriffe — nicht um das eigene Befinden.\n\n## Belastung und Beanspruchung\n\nEin wichtiger Unterschied: **Belastung** meint die von außen einwirkenden **Anforderungen** einer Tätigkeit (etwa Termindruck oder Lärm). **Beanspruchung** ist die **individuelle Reaktion** darauf. Dieselbe Belastung kann je nach persönlichen Voraussetzungen unterschiedlich stark beanspruchen.\n\n## Das transaktionale Stressmodell (Lazarus)\n\nNach **Richard Lazarus** entsteht Stress nicht durch einen Reiz allein, sondern durch die **Bewertung** der Situation im Verhältnis zu den eigenen Ressourcen. Stress ist das Ergebnis einer **Transaktion** zwischen Person und Umwelt.\n\nLazarus unterscheidet zwei Bewertungsschritte:\n\n- **Primäre Bewertung** (*primary appraisal*): Ist die Situation bedrohlich, herausfordernd oder irrelevant?\n- **Sekundäre Bewertung** (*secondary appraisal*): Welche Bewältigungsmöglichkeiten stehen mir zur Verfügung?\n\n## Stressoren am Arbeitsplatz\n\n**Stressoren** sind Bedingungen der Arbeit, die Stressreaktionen auslösen können: Zeit- und Termindruck, häufige Unterbrechungen, Rollenkonflikte, geringe Handlungsspielräume, soziale Konflikte oder Arbeitsplatzunsicherheit. Sie beschreiben **Bedingungen**, kein persönliches Versagen."
+    },
+    {
+      "id": "step-modelle",
+      "type": "theory",
+      "title": "Zwei Erklärungsmodelle des Arbeitsstresses",
+      "body": "## Job-Demand-Control-Modell (Karasek)\n\n**Robert Karasek** erklärt Arbeitsstress aus dem Zusammenspiel zweier Faktoren:\n\n- **Anforderungen** (*demands*) — wie viel verlangt die Arbeit?\n- **Kontrolle / Entscheidungsspielraum** (*control*) — wie viel kann ich mitbestimmen?\n\n| Anforderungen | Kontrolle | Ergebnis |\n|---|---|---|\n| hoch | gering | hohe Belastung (*High Strain*) |\n| hoch | hoch | aktive, lernförderliche Arbeit |\n| gering | gering | passive Arbeit |\n| gering | hoch | geringe Belastung |\n\nDie Kernidee: Ein **hoher Entscheidungsspielraum** kann hohe Anforderungen **abpuffern**.\n\n## Effort-Reward-Imbalance (Siegrist)\n\n**Johannes Siegrist** richtet den Blick auf das Verhältnis von Geben und Bekommen. Stress entsteht, wenn dauerhaft ein **Ungleichgewicht zwischen Verausgabung und Belohnung** besteht. Zur Belohnung zählen Geld, Anerkennung, Aufstiegschancen und Arbeitsplatzsicherheit.\n\nDas anhaltende Missverhältnis bezeichnet Siegrist als **Gratifikationskrise** — ein erlebtes Ungleichgewicht, das als gesundheitlicher Risikofaktor gilt.\n\n> Beide Modelle betonen: Belastung entsteht im **Verhältnis** von Anforderung und Ressource (Kontrolle bei Karasek, Belohnung bei Siegrist) — nicht aus der Anforderung allein."
+    },
+    {
+      "id": "step-burnout-praevention",
+      "type": "theory",
+      "title": "Burnout: Dimensionen, Einordnung und Prävention",
+      "body": "## Was Burnout bezeichnet\n\n**Burnout** ist ein Zustand anhaltender Erschöpfung, der sich infolge **chronischer, nicht erfolgreich bewältigter Arbeitsüberlastung** entwickelt. Wichtig: Burnout entsteht als **Prozess** über die Zeit, nicht plötzlich.\n\n## Die drei Dimensionen nach Maslach\n\n**Christina Maslach** beschreibt Burnout über drei Dimensionen:\n\n1. **Emotionale Erschöpfung** — das Gefühl, ausgelaugt und kraftlos zu sein.\n2. **Depersonalisation / Zynismus** — eine distanzierte, abweisende Haltung gegenüber der Arbeit und den Menschen darin.\n3. **Reduzierte Leistungsfähigkeit** — das Gefühl verringerter Wirksamkeit und Kompetenz.\n\n## Einordnung im ICD-11\n\nIm **ICD-11** wird Burnout als **Syndrom im Zusammenhang mit dem Arbeitskontext** geführt, das aus chronischem, nicht bewältigtem Arbeitsstress resultiert. Es ist dort ausdrücklich **keine eigenständige medizinische Krankheitsdiagnose** im klassischen Sinn, sondern den Faktoren zugeordnet, die den Gesundheitszustand beeinflussen.\n\n## Ressourcen und Prävention\n\nPrävention setzt auf zwei Ebenen an:\n\n- **Verhältnisprävention** verändert die **Arbeitsbedingungen** selbst (Aufgabengestaltung, mehr Spielraum, klare Rollen).\n- **Verhaltensprävention** setzt beim **Einzelnen** an (Stresskompetenz, geplante **Erholung / Recovery**).\n\nGetragen wird beides oft vom **betrieblichen Gesundheitsmanagement (BGM)**. Ergänzend beschreibt das **Job-Demands-Resources-Modell**, wie **Anforderungen** belasten, während **Ressourcen** (z. B. Unterstützung, Spielraum, Rückmeldung) schützen und Motivation fördern können."
+    },
+    {
+      "id": "ex-match-modelle",
+      "type": "exercise",
+      "title": "Modelle und ihre Kernidee",
+      "exercise": {
+        "id": "ex-match-modelle",
+        "type": "matching",
+        "prompt": "Ordne jedem Modell bzw. Begriff die passende Kernidee zu.",
+        "card_ids": ["transaktionales-modell", "job-demand-control", "effort-reward-imbalance", "gratifikationskrise"],
+        "pairs": [
+          {"left": "Transaktionales Stressmodell (Lazarus)", "right": "Stress entsteht durch die Bewertung der Situation"},
+          {"left": "Job-Demand-Control-Modell (Karasek)", "right": "Anforderungen mal Entscheidungsspielraum"},
+          {"left": "Effort-Reward-Imbalance (Siegrist)", "right": "Ungleichgewicht von Verausgabung und Belohnung"},
+          {"left": "Gratifikationskrise", "right": "dauerhaft fehlende Belohnung für die Anstrengung"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-belastung",
+      "type": "exercise",
+      "title": "Belastung und Beanspruchung",
+      "exercise": {
+        "id": "ex-cloze-belastung",
+        "type": "cloze",
+        "prompt": "Ergänze den Fachbegriff für die individuelle Reaktion auf die Anforderungen einer Tätigkeit.",
+        "card_ids": ["belastung-beanspruchung"],
+        "sentence": "Die von außen einwirkenden Anforderungen heißen Belastung; die individuelle Reaktion darauf nennt man ___ .",
+        "blanks": [{"accept": ["Beanspruchung", "die Beanspruchung"]}],
+        "cloze_mode": "type",
+        "hint": "Beginnt mit Bean...; das Ergebnis der Belastung beim Einzelnen."
+      }
+    },
+    {
+      "id": "ex-free-burnout",
+      "type": "exercise",
+      "title": "Der Zustand nach chronischer Überlastung",
+      "exercise": {
+        "id": "ex-free-burnout",
+        "type": "free_text",
+        "prompt": "Wie heißt der Zustand anhaltender Erschöpfung, der sich infolge chronischer, nicht bewältigter Arbeitsüberlastung entwickelt?",
+        "card_ids": ["burnout-definition"],
+        "accept": ["Burnout", "Burn-out", "das Burnout"],
+        "hint": "Englischer Begriff; wörtlich *ausbrennen*.",
+        "distractors": ["Boreout", "Mobbing", "Resilienz"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-maslach",
+      "type": "exercise",
+      "title": "Die drei Burnout-Dimensionen (Maslach)",
+      "exercise": {
+        "id": "ex-match-maslach",
+        "type": "matching",
+        "prompt": "Ordne jeder Burnout-Dimension nach Maslach die passende Beschreibung zu.",
+        "card_ids": ["maslach-dimensionen"],
+        "pairs": [
+          {"left": "Emotionale Erschöpfung", "right": "Gefühl, ausgelaugt und kraftlos zu sein"},
+          {"left": "Depersonalisation / Zynismus", "right": "distanzierte, abweisende Haltung zur Arbeit"},
+          {"left": "Reduzierte Leistungsfähigkeit", "right": "Gefühl verringerter Wirksamkeit und Kompetenz"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-icd11",
+      "type": "exercise",
+      "title": "Einordnung im ICD-11",
+      "exercise": {
+        "id": "ex-cloze-icd11",
+        "type": "cloze",
+        "prompt": "Ergänze, als was Burnout im ICD-11 geführt wird.",
+        "card_ids": ["icd11-burnout"],
+        "sentence": "Im ICD-11 gilt Burnout als ___ im Zusammenhang mit dem Arbeitskontext, nicht als eigenständige Krankheitsdiagnose.",
+        "blanks": [{"accept": ["Syndrom", "ein Syndrom"]}],
+        "cloze_mode": "type",
+        "hint": "Ein Muster zusammengehöriger Merkmale; beginnt mit Syn..."
+      }
+    },
+    {
+      "id": "ex-free-karasek",
+      "type": "exercise",
+      "title": "Der puffernde Faktor",
+      "exercise": {
+        "id": "ex-free-karasek",
+        "type": "free_text",
+        "prompt": "Welcher Faktor kann im Modell von Karasek hohe Anforderungen abpuffern (Mitbestimmung über die eigene Arbeit)?",
+        "card_ids": ["job-demand-control", "entscheidungsspielraum"],
+        "accept": ["Entscheidungsspielraum", "Kontrolle", "der Entscheidungsspielraum", "Handlungsspielraum"],
+        "hint": "Im Modell der zweite Faktor neben den Anforderungen.",
+        "distractors": ["Belohnung", "Verausgabung", "emotionale Erschöpfung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-praevention",
+      "type": "exercise",
+      "title": "Prävention auf zwei Ebenen",
+      "exercise": {
+        "id": "ex-tiles-praevention",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zu den beiden Präventionsebenen zusammen.",
+        "card_ids": ["verhaeltnis-verhaltenspraevention"],
+        "tiles": ["Verhältnisprävention", "ändert", "die", "Bedingungen", "Verhaltensprävention", "den", "Einzelnen"],
+        "hint": "Beginnt mit *Verhältnisprävention ändert die Bedingungen ...*.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-siegrist",
+      "type": "exercise",
+      "title": "Das Ungleichgewicht bei Siegrist",
+      "exercise": {
+        "id": "ex-cloze-siegrist",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für das anhaltende Missverhältnis zwischen Verausgabung und Belohnung.",
+        "card_ids": ["effort-reward-imbalance", "gratifikationskrise"],
+        "sentence": "Ein dauerhaftes Ungleichgewicht zwischen hoher Verausgabung und zu geringer Belohnung bezeichnet Siegrist als ___ .",
+        "blanks": [{"accept": ["Gratifikationskrise", "berufliche Gratifikationskrise", "die Gratifikationskrise"]}],
+        "cloze_mode": "type",
+        "hint": "Gratifikation bedeutet Belohnung; das Wort endet auf -krise."
+      }
+    }
+  ]
+}

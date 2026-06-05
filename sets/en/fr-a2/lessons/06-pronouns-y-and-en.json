@@ -1,0 +1,336 @@
+{
+  "id": "06-pronouns-y-and-en",
+  "title": "The pronouns y and en",
+  "description": "A2 French for English speakers: how y replaces à + place/thing (Tu vas à Paris? J'y vais.) and en replaces de + thing or a partitive/quantity (Tu veux du café? J'en veux. J'en ai trois.). Both pronouns go before the verb. Explained in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "y-intro",
+      "front": "J'y vais.",
+      "back": "I'm going there. (y = to Paris / à Paris)",
+      "notes": "**y** replaces **à + place** (or any location phrase): *Tu vas à Paris ? J'y vais.* (Are you going to Paris? I'm going there.) Place it **before the conjugated verb**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "pronoun-y"]
+    },
+    {
+      "id": "y-penser",
+      "front": "J'y pense.",
+      "back": "I'm thinking about it. (y = à ce problème / à cette idée)",
+      "notes": "**y** also replaces **à + thing** (not a person) with verbs like *penser à, répondre à, jouer à*: *Tu penses à ce problème ? J'y pense.* English often drops the pronoun entirely ('I'm thinking') — French requires **y**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "y = à + thing/place. Never use y for à + person.",
+      "tags": ["grammar", "pronoun-y"]
+    },
+    {
+      "id": "il-y-a",
+      "front": "Il y a",
+      "back": "There is / There are",
+      "notes": "**il y a** is a frozen idiom you already know from A1 — literally 'it there has'. The **y** here is the same pronoun meaning 'there' (à cet endroit). *Il y a un chat dans le jardin.* (There is a cat in the garden.)",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "pronoun-y", "idiom"]
+    },
+    {
+      "id": "en-partitive",
+      "front": "J'en veux.",
+      "back": "I want some. (en = du café / de la soupe)",
+      "notes": "**en** replaces **de + thing**, including **partitive articles** (du, de la, des): *Tu veux du café ? J'en veux.* (Do you want some coffee? I want some.) English often says just 'I want some' — French always keeps **en**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "pronoun-en"]
+    },
+    {
+      "id": "en-quantity",
+      "front": "J'en ai trois.",
+      "back": "I have three (of them). (en + number)",
+      "notes": "When a **quantity or number** is mentioned, **en** is still required even though English drops it: *Tu as des frères ? J'en ai trois.* (Do you have brothers? I have three.) English says 'I have three' — French says **j'en ai trois** (literally 'I have three of them').",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "English: 'I have three.' French: j'en ai trois — keep en!",
+      "tags": ["grammar", "pronoun-en", "quantity"]
+    },
+    {
+      "id": "en-besoin",
+      "front": "J'en ai besoin.",
+      "back": "I need it / I need some. (en = de + thing, with avoir besoin de)",
+      "notes": "**avoir besoin de** uses **en** to replace *de + thing*: *Tu as besoin de ce livre ? J'en ai besoin.* (Do you need this book? I need it.) Compare: *avoir besoin de quelqu'un* → **lui/leur** (à + person), NOT en.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "pronoun-en", "expression"]
+    },
+    {
+      "id": "y-vs-en-contrast",
+      "front": "y (à) vs en (de)",
+      "back": "y replaces à + place/thing; en replaces de + thing",
+      "notes": "The key contrast: **y** = **à** + place/thing. **en** = **de** + thing (or partitive). Neither is used for **people**: *à + person* → **lui/leur** (indirect object pronoun). Example: *Je lui parle.* (I'm talking to him/her.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "pronoun-y", "pronoun-en", "contrast"]
+    },
+    {
+      "id": "position-before-verb",
+      "front": "J'y vais. / Je n'y vais pas. / J'en ai deux.",
+      "back": "y and en go before the conjugated verb (after ne in negation)",
+      "notes": "Like all object pronouns, **y** and **en** go **directly before the verb**: *J'**y** vais, Il **en** prend.* In negation, they stay between *ne* and the verb: *Je **n'y** vais pas, Il **n'en** prend pas.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "pronoun-position", "pronoun-y", "pronoun-en"]
+    },
+    {
+      "id": "y-place-example",
+      "front": "Tu vas au marché ? Oui, j'y vais.",
+      "back": "Are you going to the market? Yes, I'm going there.",
+      "notes": "*y* stands for *au marché* (= à + le marché). The question uses the full noun phrase; the answer replaces it with **y** before the verb.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["pronoun-y", "place"]
+    },
+    {
+      "id": "en-de-place",
+      "front": "Tu viens de Paris ? Oui, j'en viens.",
+      "back": "Are you coming from Paris? Yes, I'm coming from there.",
+      "notes": "**en** can also replace **de + place** with movement verbs like *venir de, revenir de, sortir de*: *j'en viens* = I'm coming from there. This is the exact mirror of **y** (à + place): **en** handles **de + place**.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["pronoun-en", "place"]
+    },
+    {
+      "id": "lui-leur-not-y",
+      "front": "Je lui parle. (NOT: j'y parle)",
+      "back": "à + person stays as lui/leur — never y",
+      "notes": "**y** never replaces **à + person**. For people, use the indirect object pronouns **lui** (him/her) or **leur** (them): *Je parle à Marie → Je **lui** parle.* This is a common mistake for English speakers who might try to use **y** or drop the pronoun entirely.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "à + person → lui/leur, NOT y.",
+      "tags": ["grammar", "common-error", "pronoun-y", "indirect-object"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-y",
+      "type": "theory",
+      "title": "The pronoun y — replacing à + place or thing",
+      "body": "# The pronoun y\n\n**y** (pronounced like the letter 'e' in 'feet') replaces a phrase beginning with **à** when it refers to a **place or thing** — never a person.\n\n## Uses of y\n\n| What y replaces | Example with noun | Example with y |\n|---|---|---|\n| à + **place** | *Tu vas **à Paris** ?* | *J'**y** vais.* (I'm going there.) |\n| à + **place** | *Il est **au bureau**.* | *Il **y** est.* (He is there.) |\n| à + **thing** (*penser à*, *jouer à*, *répondre à*) | *Tu penses **à ce problème** ?* | *J'**y** pense.* (I'm thinking about it.) |\n\n## Position\n\n**y** goes **directly before the conjugated verb**:\n- Affirmative: *J'**y** vais.*\n- Negative: *Je **n'y** vais pas.*\n\n## il y a\n\nThe A1 expression **il y a** (there is / there are) uses the same **y**: it literally means 'there has' — a frozen reminder of how y works.\n\n## Watch out!\n\nEnglish often drops 'there' entirely ('I'm going' instead of 'I'm going there'). French **always** keeps **y**: *J'y vais* — never just *Je vais*."
+    },
+    {
+      "id": "theory-en",
+      "type": "theory",
+      "title": "The pronoun en — replacing de + thing and partitives",
+      "body": "## The pronoun en\n\n**en** replaces a phrase beginning with **de** when it refers to a **thing** (not a person). This includes **partitive articles** (du, de la, de l', des) and **quantities**.\n\n## Uses of en\n\n| What en replaces | Example with noun | Example with en |\n|---|---|---|\n| **Partitive** (du / de la / des) | *Tu veux **du café** ?* | *J'**en** veux.* (I want some.) |\n| **de + thing** after an expression | *Tu as besoin **de ce livre** ?* | *J'**en** ai besoin.* (I need it.) |\n| **Quantity + noun** | *Tu as **des frères** ?* | *J'**en** ai trois.* (I have three.) |\n| **de + place** (movement verbs) | *Il vient **de Lyon**.* | *Il **en** vient.* (He comes from there.) |\n\n## The quantity trap — biggest English-speaker error\n\nWhen a number or quantity is mentioned, **en is still mandatory**:\n\n> English: *I have **three**.* (no pronoun)\n> French: *J'**en** ai trois.* (literally: I have three of them)\n\nDropping **en** in French sounds as wrong as omitting a subject in English."
+    },
+    {
+      "id": "theory-contrast",
+      "type": "theory",
+      "title": "y vs en vs lui/leur — the full picture",
+      "body": "## y vs en vs lui/leur\n\nThe three pronoun families cover three preposition + noun patterns:\n\n| Preposition | Refers to | Pronoun | Example |\n|---|---|---|---|\n| **à** + place/thing | a place or non-person thing | **y** | *J'y vais.* / *J'y pense.* |\n| **de** + thing | a thing (incl. partitive) | **en** | *J'en veux.* / *J'en ai trois.* |\n| **à** + **person** | a person | **lui / leur** | *Je lui parle.* |\n\n## Why à + person never becomes y\n\nBecause **lui/leur** already handles indirect objects with people. *y* is reserved for places and things. This is a frequent error:\n\n- **Wrong:** *Je y parle.* (trying to say 'I talk to him')\n- **Right:** *Je **lui** parle.*\n\n## Both pronouns go before the verb\n\n*J'**y** pense, il **en** a deux, elle **n'en** prend pas, nous **n'y** allons plus.*\n\n> Memory hook: **y = à (place/thing)**, **en = de (thing/quantity)**, **lui/leur = à (person)**."
+    },
+    {
+      "id": "ex-match-pronoun-rule",
+      "type": "exercise",
+      "title": "Match the pronoun to what it replaces",
+      "exercise": {
+        "id": "ex-match-pronoun-rule",
+        "type": "matching",
+        "prompt": "Match each pronoun to the phrase it replaces.",
+        "card_ids": ["y-intro", "en-partitive", "y-vs-en-contrast", "lui-leur-not-y"],
+        "pairs": [
+          { "left": "y", "right": "à + place / à + thing" },
+          { "left": "en", "right": "de + thing / partitive" },
+          { "left": "lui", "right": "à + person (singular)" },
+          { "left": "leur", "right": "à + person (plural)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-y-paris",
+      "type": "exercise",
+      "title": "Use y for a place",
+      "exercise": {
+        "id": "ex-free-y-paris",
+        "type": "free_text",
+        "prompt": "Translate: *Are you going to Paris? Yes, I'm going there.* (use y)",
+        "card_ids": ["y-intro", "y-place-example"],
+        "accept": [
+          "Tu vas à Paris ? Oui, j'y vais.",
+          "Tu vas à Paris? Oui, j'y vais.",
+          "Tu vas à Paris ? Oui, j'y vais",
+          "tu vas à Paris ? oui, j'y vais.",
+          "Tu vas à Paris? J'y vais.",
+          "Tu vas à Paris ? J'y vais."
+        ],
+        "hint": "Replace à Paris with y before the verb: j'y vais.",
+        "distractors": [
+          "Tu vas à Paris ? Oui, je vais.",
+          "Tu vas à Paris ? Oui, j'en vais.",
+          "Tu vas à Paris ? Oui, je vais y.",
+          "Tu vas à Paris ? Oui, j'y vas."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-en-cafe",
+      "type": "exercise",
+      "title": "Use en for a partitive",
+      "exercise": {
+        "id": "ex-free-en-cafe",
+        "type": "free_text",
+        "prompt": "Translate: *Do you want some coffee? Yes, I want some.* (use en)",
+        "card_ids": ["en-partitive"],
+        "accept": [
+          "Tu veux du café ? Oui, j'en veux.",
+          "Tu veux du café? Oui, j'en veux.",
+          "Tu veux du café ? Oui, j'en veux",
+          "tu veux du café ? oui, j'en veux.",
+          "Tu veux du café ? J'en veux.",
+          "Tu veux du café? J'en veux."
+        ],
+        "hint": "du café is a partitive → replace with en before the verb: j'en veux.",
+        "distractors": [
+          "Tu veux du café ? Oui, je veux.",
+          "Tu veux du café ? Oui, j'y veux.",
+          "Tu veux du café ? Oui, je veux en.",
+          "Tu veux du café ? Oui, j'en veut."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-en-trois",
+      "type": "exercise",
+      "title": "en with a quantity — the English-speaker trap",
+      "exercise": {
+        "id": "ex-free-en-trois",
+        "type": "free_text",
+        "prompt": "Translate: *Do you have brothers? I have three.* (French must keep en — don't drop it!)",
+        "card_ids": ["en-quantity"],
+        "accept": [
+          "Tu as des frères ? J'en ai trois.",
+          "Tu as des frères? J'en ai trois.",
+          "Tu as des frères ? J'en ai trois",
+          "tu as des frères ? j'en ai trois.",
+          "Tu as des frères ? Oui, j'en ai trois.",
+          "Tu as des frères? Oui, j'en ai trois."
+        ],
+        "hint": "English drops the pronoun ('I have three') — French keeps en: j'en ai trois.",
+        "distractors": [
+          "Tu as des frères ? J'ai trois.",
+          "Tu as des frères ? J'y ai trois.",
+          "Tu as des frères ? J'en ai des trois.",
+          "Tu as des frères ? J'ai trois frères en."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-y-marche",
+      "type": "exercise",
+      "title": "Fill in y",
+      "exercise": {
+        "id": "ex-cloze-y-marche",
+        "type": "cloze",
+        "prompt": "Replace the underlined place with the correct pronoun. (Il va au marché → ?)",
+        "card_ids": ["y-intro", "y-place-example"],
+        "sentence": "Il ___ va tous les matins.",
+        "blanks": [
+          { "accept": ["y"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "au marché = à + le marché → replace with y before the verb."
+      }
+    },
+    {
+      "id": "ex-cloze-en-besoin",
+      "type": "exercise",
+      "title": "Fill in en (avoir besoin de)",
+      "exercise": {
+        "id": "ex-cloze-en-besoin",
+        "type": "cloze",
+        "prompt": "Fill in the correct pronoun. (They need it — avoir besoin de ce document)",
+        "card_ids": ["en-besoin", "y-vs-en-contrast"],
+        "sentence": "Ils ___ ont besoin pour la réunion.",
+        "blanks": [
+          { "accept": ["en"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "avoir besoin de + thing → replace de + thing with en."
+      }
+    },
+    {
+      "id": "ex-tiles-y-think",
+      "type": "exercise",
+      "title": "Build: I'm thinking about it",
+      "exercise": {
+        "id": "ex-tiles-y-think",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I'm thinking about it.* (penser à quelque chose → use y)",
+        "card_ids": ["y-penser", "position-before-verb"],
+        "tiles": ["J'", "y", "pense", "souvent"],
+        "hint": "y replaces à + thing; it goes before the verb: j'y pense.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-en-neg",
+      "type": "exercise",
+      "title": "Build: She doesn't want any",
+      "exercise": {
+        "id": "ex-tiles-en-neg",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *She doesn't want any.* (en in a negative sentence)",
+        "card_ids": ["en-partitive", "position-before-verb"],
+        "tiles": ["Elle", "n'", "en", "veut", "pas"],
+        "hint": "In negation: ne … pas wraps the verb, but en stays between ne and the verb.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-replace",
+      "type": "exercise",
+      "title": "Which pronoun replaces the phrase?",
+      "exercise": {
+        "id": "ex-match-replace",
+        "type": "matching",
+        "prompt": "Match each underlined phrase to the pronoun that replaces it.",
+        "card_ids": ["y-intro", "en-partitive", "en-besoin", "y-penser", "lui-leur-not-y"],
+        "pairs": [
+          { "left": "au bureau", "right": "y" },
+          { "left": "de la soupe", "right": "en" },
+          { "left": "à Marie", "right": "lui" },
+          { "left": "deux billets", "right": "en (j'en ai deux)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pic-place-pronoun",
+      "type": "exercise",
+      "title": "Which sentence uses y correctly?",
+      "exercise": {
+        "id": "ex-pic-place-pronoun",
+        "type": "picture_choice",
+        "prompt": "A woman says she is going to the library. Which sentence is correct?",
+        "card_ids": ["y-intro", "position-before-verb", "y-place-example"],
+        "images": [
+          { "src": "assets/img/library-y-correct.png", "label": "J'y vais maintenant.", "is_correct": "true" },
+          { "src": "assets/img/library-en-wrong.png", "label": "J'en vais maintenant." },
+          { "src": "assets/img/library-drop-wrong.png", "label": "Je vais maintenant." },
+          { "src": "assets/img/library-after-wrong.png", "label": "Je vais y maintenant." }
+        ],
+        "hint": "à + place → y, placed before the verb.",
+        "distractors": [
+          "J'en vais maintenant.",
+          "Je vais maintenant.",
+          "Je vais y maintenant."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

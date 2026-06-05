@@ -86,6 +86,54 @@ sets:
       - elementary
       - grammar
       - everyday
+  - id: es-b1-from-en
+    title: Spanish B1 — Intermediate
+    title_native: Español B1 — Intermedio
+    target_language: es
+    source_language: en
+    level: B1
+    path: sets/en/es-b1
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Intermediate Spanish for English speakers (15 lessons),
+      building on A1+A2: the present subjunctive and its triggers,
+      conditional sentences (si-clauses with the imperfect
+      subjunctive), the pluperfect, the passive and impersonal se,
+      reported speech, relative pronouns, connectors, and abstract
+      topics (work, health, media, environment/society,
+      intercultural communication), closing with text production.
+      Presupposes A1+A2; mostly productive. Explanations in English
+      (schema v1.3).
+    tags:
+      - intermediate
+      - grammar
+      - everyday
+  - id: fr-a2-from-en
+    title: French A2 — Elementary
+    title_native: Français A2 — Élémentaire
+    target_language: fr
+    source_language: en
+    level: A2
+    path: sets/en/fr-a2
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Intermediate French for English speakers (15 lessons),
+      building on A1: the passé composé (avoir and être with
+      agreement), the imparfait and the passé composé vs imparfait
+      distinction, the futur simple and conditionnel présent, the
+      pronouns y and en, deepened negation, conjunctions, and
+      everyday topics (describing people, daily life, travel, food,
+      health, shopping), closing with review and text production.
+      Presupposes A1; mostly productive. Explanations in English
+      (schema v1.3).
+    tags:
+      - elementary
+      - grammar
+      - everyday
   - id: fr-a1-from-de
     title: Französisch A1 (für Deutschsprachige)
     title_native: Français A1
@@ -294,11 +342,11 @@ sets:
     domain: psychology
     level: A1
     path: sets/de/psych-intro
-    version: '1.14.0'
-    lesson_count: 90
+    version: '1.17.0'
+    lesson_count: 105
     description: >-
       Einführungskurs Psychologie auf Universitätsniveau für
-      Deutschsprachige (90 Lektionen): Grundbegriffe und
+      Deutschsprachige (105 Lektionen): Grundbegriffe und
       Geschichte, die Grundlagenfächer (Wahrnehmung, Gedächtnis,
       Lernen, Motivation/Emotion, Entwicklung, Sozial-,
       Persönlichkeits- und biologische Psychologie), klinische und
@@ -307,9 +355,12 @@ sets:
       Statistik, die angewandten Felder (pädagogische,
       Arbeits-/Organisations-, Gesundheitspsychologie,
       Diagnostik), vertiefte Grundlagenfächer, Geschichte und
-      Paradigmen sowie Wissenschaftstheorie und Forschungsethik.
-      Erklärt auf Deutsch, mit englischen Originalbegriffen in
-      Klammern. Erstes Nicht-Sprachen-Set (domain: psychology).
+      Paradigmen, Wissenschaftstheorie und Forschungsethik sowie
+      vertiefende Blöcke zur Neuropsychologie, zur Arbeits- und
+      Organisationspsychologie (mit Arbeitsstress und Burnout) und
+      zur Pädagogischen Psychologie. Erklärt auf Deutsch, mit
+      englischen Originalbegriffen in Klammern. Erstes
+      Nicht-Sprachen-Set (domain: psychology).
     tags:
       - beginner
       - psychology

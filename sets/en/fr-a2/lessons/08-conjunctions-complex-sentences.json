@@ -1,0 +1,363 @@
+{
+  "id": "08-conjunctions-complex-sentences",
+  "title": "Conjunctions and complex sentences",
+  "description": "Joining short sentences into longer A2 French ones using coordinating and subordinating conjunctions. All explanations in English; French targets with correct accents.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "conj-parce-que",
+      "front": "parce que",
+      "back": "because (followed by a full clause with subject + verb)",
+      "notes": "**parce que** introduces a reason clause: *Je reste ici **parce qu'**il pleut.* (I am staying here **because** it is raining.) Note the elision before a vowel: *parce que + il* → *parce qu'il*.\n\n**English trap:** *parce que* = because + **clause**. *Pour* = (in order) **to** + infinitive. Never use *pour* when you have a full subject-verb clause.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conjunction", "subordinating"]
+    },
+    {
+      "id": "conj-car",
+      "front": "car",
+      "back": "for / because (written register, introduces a reason clause)",
+      "notes": "**car** is essentially a more formal, written synonym of *parce que*. It is common in essays and formal writing, less so in speech. Like *parce que*, it is followed by a full clause: *Je reste ici, **car** il pleut.*\n\nUnlike *parce que*, *car* cannot open a sentence — it always comes after the main clause.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "car = formal written 'because'; cannot start a sentence.",
+      "tags": ["grammar", "conjunction", "written-register"]
+    },
+    {
+      "id": "conj-puisque",
+      "front": "puisque",
+      "back": "since / given that (explains a reason already known or obvious)",
+      "notes": "**puisque** implies the reason is already known or self-evident: ***Puisque** tu es là, on peut commencer.* (Since you are here, we can start.) Elision: *puisque + il* → *puisqu'il*.\n\nContrast: *parce que* answers *why?* as new information; *puisque* invokes shared knowledge.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conjunction", "subordinating"]
+    },
+    {
+      "id": "conj-comme",
+      "front": "comme",
+      "back": "as / since (sentence-initial causal conjunction)",
+      "notes": "When **comme** means 'since / as (because)', it **must** come at the **start** of the sentence: ***Comme** il était fatigué, il est parti tôt.* (As / Since he was tired, he left early.)\n\nNote: *comme* also means 'like / as' in comparisons, but that is a separate use.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Causal comme always opens the sentence.",
+      "tags": ["grammar", "conjunction", "sentence-initial"]
+    },
+    {
+      "id": "conj-donc",
+      "front": "donc",
+      "back": "so / therefore (expresses a consequence or conclusion)",
+      "notes": "**donc** links a consequence to a cause: *Il pleut, **donc** je reste.* (It is raining, **so** I am staying.) It is very common in both speech and writing.\n\n**Word order:** French keeps normal subject-verb order after *donc* — no inversion, unlike some formal English constructions.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conjunction", "coordinating"]
+    },
+    {
+      "id": "conj-alors",
+      "front": "alors",
+      "back": "then / so (consequence or next step in a sequence)",
+      "notes": "**alors** overlaps with *donc* in conversational use: *Tu n'as pas faim? **Alors**, ne mange pas.* (You are not hungry? **Then**, don't eat.) It also marks a time sequence: *Il est arrivé, **alors** on a commencé.* (He arrived, **then** we started.)\n\n*alors* is more colloquial than *donc*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conjunction", "coordinating"]
+    },
+    {
+      "id": "conj-mais",
+      "front": "mais",
+      "back": "but (contrast or objection between two clauses)",
+      "notes": "**mais** is the most basic contrastive conjunction: *J'aime le café **mais** je n'aime pas le thé.* (I like coffee **but** I do not like tea.) It always connects two full clauses or phrases.\n\nThis is a direct equivalent of English 'but' with no register restriction.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conjunction", "coordinating"]
+    },
+    {
+      "id": "conj-quand",
+      "front": "quand",
+      "back": "when (introduces a time clause; subject-verb order follows)",
+      "notes": "**quand** introduces a clause of time: ***Quand** j'arrive, je dis bonjour.* (When I arrive, I say hello.) **Important:** French keeps normal subject-verb order after *quand* — there is no inversion, unlike in German.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conjunction", "temporal"]
+    },
+    {
+      "id": "conj-pendant-que",
+      "front": "pendant que",
+      "back": "while (two actions happening at the same time)",
+      "notes": "**pendant que** expresses two simultaneous actions: *Je lis **pendant qu'**il cuisine.* (I read **while** he cooks.) Both clauses describe actions in progress at the same time.\n\nElision: *pendant que + il* → *pendant qu'il*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conjunction", "temporal"]
+    },
+    {
+      "id": "conj-bien-que",
+      "front": "bien que (+ subjonctif)",
+      "back": "although (concession — note: requires the subjunctive, a B1 structure)",
+      "notes": "**bien que** expresses concession: ***Bien qu'**il soit fatigué, il travaille.* (Although he is tired, he works.) \n\nAt A2, just **recognize** this conjunction and understand its meaning. The subjunctive mood it triggers (*soit* instead of *est*) is a B1 topic. Do not worry about producing it yet.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Recognize bien que = although. The subjunctive after it is B1.",
+      "tags": ["grammar", "conjunction", "subjonctif", "recognition-only"]
+    },
+    {
+      "id": "sv-order-after-conj",
+      "front": "...parce que je suis fatigué / ...quand elle arrive",
+      "back": "French keeps subject-verb order after all conjunctions",
+      "notes": "After every French conjunction — *parce que, quand, pendant que, bien que*, etc. — the clause that follows has **normal subject-verb order**. There is no inversion.\n\n**Contrast with German:** German sends the verb to the end after many conjunctions (*weil ich mude bin*). French does not do this: *parce que je **suis** fatigué* (not *parce que fatigué je suis*).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "word-order", "contrast-german"]
+    },
+    {
+      "id": "parce-que-vs-pour",
+      "front": "parce qu'il est tard vs. pour rentrer tôt",
+      "back": "parce que + clause (because) vs. pour + infinitive (in order to)",
+      "notes": "A classic English-speaker trap: English 'because' sometimes translates as *pour* when followed by an **infinitive of purpose**, but only *parce que* introduces a full reason clause.\n\n| French | Structure | Meaning |\n|---|---|---|\n| *parce que* | + subject + verb | because (reason) |\n| *pour* | + infinitive | (in order) to (purpose) |\n\n*Je pars **parce qu'**il est tard.* (I am leaving because it is late.)\n*Je pars **pour** rentrer tôt.* (I am leaving in order to get home early.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conjunction", "common-error"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-reason-conjunctions",
+      "type": "theory",
+      "title": "Reason conjunctions: parce que, car, puisque, comme",
+      "body": "# Conjunctions and complex sentences\n\nA conjunction joins two clauses. French conjunctions **never** change word order in the clause that follows — the subject always precedes the verb.\n\n## Reason conjunctions\n\n| Conjunction | Meaning | Register | Notes |\n|---|---|---|---|\n| **parce que** | because | all | most common; elision before vowel |\n| **car** | for / because | written | cannot open a sentence |\n| **puisque** | since / given that | all | reason is already known |\n| **comme** | as / since | all | **must** open the sentence |\n\n### Examples\n\n- *Je reste ici **parce qu'**il pleut.* — I am staying here because it is raining.\n- *Je reste ici, **car** il pleut.* — I am staying here, for it is raining. (formal)\n- ***Puisque** tu es là, on peut commencer.* — Since you are here, we can start.\n- ***Comme** il était fatigué, il est parti tôt.* — As he was tired, he left early.\n\n## English trap: parce que vs. pour\n\nEnglish 'because' can sometimes feel like a purpose, but French is strict:\n\n- **parce que** + full clause (subject + verb) → expresses a **reason**\n- **pour** + infinitive → expresses a **purpose** (in order to)\n\n*Je travaille **parce que** j'ai besoin d'argent.* (because I need money — reason)\n*Je travaille **pour** gagner de l'argent.* (in order to earn money — purpose)"
+    },
+    {
+      "id": "theory-consequence-contrast",
+      "type": "theory",
+      "title": "Consequence and contrast: donc, alors, mais",
+      "body": "## Consequence conjunctions\n\n| Conjunction | Meaning | Typical use |\n|---|---|---|\n| **donc** | so / therefore | conclusion or logical consequence |\n| **alors** | then / so | consequence or time sequence; more colloquial |\n\n- *Il pleut, **donc** je reste.* — It is raining, so I am staying.\n- *Tu n'as pas faim ? **Alors**, ne mange pas.* — You are not hungry? Then don't eat.\n\n*donc* is slightly more formal; *alors* is everyday speech.\n\n## Contrast\n\n| Conjunction | Meaning |\n|---|---|\n| **mais** | but |\n\n- *J'aime le café **mais** je n'aime pas le thé.* — I like coffee but I do not like tea.\n\n## Word order reminder\n\nAfter **all** French conjunctions, the following clause uses **normal subject-verb order** — no inversion, no verb-at-end (unlike German). This applies to every conjunction in this lesson."
+    },
+    {
+      "id": "theory-time-concession",
+      "type": "theory",
+      "title": "Time conjunctions and bien que",
+      "body": "## Time conjunctions\n\n| Conjunction | Meaning | Notes |\n|---|---|---|\n| **quand** | when | same time or sequence |\n| **pendant que** | while | two simultaneous ongoing actions |\n\n- ***Quand** j'arrive, je dis bonjour.* — When I arrive, I say hello.\n- *Je lis **pendant qu'**il cuisine.* — I read while he cooks.\n\nBoth use elision before a vowel: *quand + il* → *quand il* (no elision needed here), *pendant que + il* → *pendant qu'il*.\n\n## bien que — recognition only at A2\n\n**bien que** means *although / even though* and expresses concession. It is followed by the **subjonctif**, which is a B1 grammar topic.\n\n- ***Bien qu'**il soit fatigué, il travaille.* — Although he is tired, he works.\n\nAt A2 you only need to **recognise** *bien que* and understand that it means *although*. The subjunctive form it requires (*soit* instead of *est*) will be studied at B1.\n\n## Summary table — all conjunctions in this lesson\n\n| Conjunction | Meaning | Type |\n|---|---|---|\n| parce que | because | reason |\n| car | for / because | reason (written) |\n| puisque | since / given that | reason (shared knowledge) |\n| comme | as / since | reason (sentence-initial) |\n| donc | so / therefore | consequence |\n| alors | then / so | consequence / sequence |\n| mais | but | contrast |\n| quand | when | time |\n| pendant que | while | time (simultaneous) |\n| bien que | although | concession (+ subjonctif, B1) |"
+    },
+    {
+      "id": "ex-match-conjunctions-meaning",
+      "type": "exercise",
+      "title": "Match conjunction to meaning",
+      "exercise": {
+        "id": "ex-match-conjunctions-meaning",
+        "type": "matching",
+        "prompt": "Match each French conjunction to its English meaning.",
+        "card_ids": ["conj-parce-que", "conj-donc", "conj-mais", "conj-quand", "conj-pendant-que"],
+        "pairs": [
+          { "left": "parce que", "right": "because" },
+          { "left": "donc", "right": "so / therefore" },
+          { "left": "mais", "right": "but" },
+          { "left": "quand", "right": "when" },
+          { "left": "pendant que", "right": "while" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-register",
+      "type": "exercise",
+      "title": "Match the formal synonym",
+      "exercise": {
+        "id": "ex-match-register",
+        "type": "matching",
+        "prompt": "Match each conjunction to its near-equivalent.",
+        "card_ids": ["conj-car", "conj-puisque", "conj-alors", "conj-comme"],
+        "pairs": [
+          { "left": "car", "right": "parce que (formal/written)" },
+          { "left": "puisque", "right": "because — reason already known" },
+          { "left": "alors", "right": "donc (colloquial)" },
+          { "left": "comme", "right": "puisque (sentence-initial)" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-because-tired",
+      "type": "exercise",
+      "title": "Translate with parce que",
+      "exercise": {
+        "id": "ex-free-because-tired",
+        "type": "free_text",
+        "prompt": "Translate: *I am staying home because I am tired.* (Use parce que.)",
+        "card_ids": ["conj-parce-que"],
+        "accept": [
+          "Je reste à la maison parce que je suis fatigué.",
+          "Je reste à la maison parce que je suis fatiguée.",
+          "je reste à la maison parce que je suis fatigué",
+          "Je reste chez moi parce que je suis fatigué.",
+          "Je reste chez moi parce que je suis fatiguée."
+        ],
+        "hint": "parce que is followed by a full clause: parce que + subject + verb.",
+        "distractors": [
+          "Je reste à la maison parce je suis fatigué.",
+          "Je reste à la maison pour être fatigué.",
+          "Je reste à la maison because que je suis fatigué."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-so-therefore",
+      "type": "exercise",
+      "title": "Translate with donc",
+      "exercise": {
+        "id": "ex-free-so-therefore",
+        "type": "free_text",
+        "prompt": "Translate: *It is late, so we are leaving.* (Use donc.)",
+        "card_ids": ["conj-donc", "sv-order-after-conj"],
+        "accept": [
+          "Il est tard, donc nous partons.",
+          "il est tard, donc nous partons",
+          "Il est tard donc nous partons.",
+          "Il est tard, donc on part."
+        ],
+        "hint": "donc comes after the first clause, then normal subject-verb order follows.",
+        "distractors": [
+          "Il est tard, donc partons nous.",
+          "Il est tard, alors que nous partons.",
+          "Il est tard, pour nous partons."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-parce-que",
+      "type": "exercise",
+      "title": "Fill in the conjunction",
+      "exercise": {
+        "id": "ex-cloze-parce-que",
+        "type": "cloze",
+        "prompt": "Complete the sentence with the correct conjunction meaning 'because'.",
+        "card_ids": ["conj-parce-que"],
+        "sentence": "Elle ne vient pas ___ elle est malade.",
+        "blanks": [
+          { "accept": ["parce que", "parce qu'", "car", "puisque"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "parce que is the most common way to say 'because' in French."
+      }
+    },
+    {
+      "id": "ex-cloze-quand",
+      "type": "exercise",
+      "title": "Time clause with quand",
+      "exercise": {
+        "id": "ex-cloze-quand",
+        "type": "cloze",
+        "prompt": "Fill in the blank with the French word for 'when'.",
+        "card_ids": ["conj-quand", "sv-order-after-conj"],
+        "sentence": "___ il fait beau, nous allons au parc.",
+        "blanks": [
+          { "accept": ["Quand", "quand"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "The clause that follows uses normal subject-verb order."
+      }
+    },
+    {
+      "id": "ex-tiles-pendant-que",
+      "type": "exercise",
+      "title": "Build a sentence with pendant que",
+      "exercise": {
+        "id": "ex-tiles-pendant-que",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *I read while she watches TV.*",
+        "card_ids": ["conj-pendant-que"],
+        "tiles": ["Je", "lis", "pendant", "qu'elle", "regarde", "la", "télé"],
+        "hint": "pendant que introduces the simultaneous action; elision before a vowel gives qu'elle.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-mais-contrast",
+      "type": "exercise",
+      "title": "Build a contrast sentence",
+      "exercise": {
+        "id": "ex-tiles-mais-contrast",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *He likes coffee but he does not like tea.*",
+        "card_ids": ["conj-mais"],
+        "tiles": ["Il", "aime", "le", "café", "mais", "il", "n'aime", "pas", "le", "thé"],
+        "hint": "mais connects the two full clauses; subject-verb order stays normal on both sides.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-parce-que-vs-pour",
+      "type": "exercise",
+      "title": "parce que or pour?",
+      "exercise": {
+        "id": "ex-pic-parce-que-vs-pour",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly translates: *She is leaving because she is tired.*",
+        "card_ids": ["parce-que-vs-pour", "conj-parce-que"],
+        "images": [
+          { "src": "assets/img/tired-leave-1.png", "label": "Elle part parce qu'elle est fatiguée.", "is_correct": "true" },
+          { "src": "assets/img/tired-leave-2.png", "label": "Elle part pour elle est fatiguée." },
+          { "src": "assets/img/tired-leave-3.png", "label": "Elle part pour être fatiguée." },
+          { "src": "assets/img/tired-leave-4.png", "label": "Elle part because qu'elle est fatiguée." }
+        ],
+        "hint": "parce que introduces a full clause with subject + verb. pour is for infinitives.",
+        "distractors": [
+          "Elle part pour elle est fatiguée.",
+          "Elle part pour être fatiguée.",
+          "Elle part because qu'elle est fatiguée."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-although-recognition",
+      "type": "exercise",
+      "title": "Recognize bien que",
+      "exercise": {
+        "id": "ex-free-although-recognition",
+        "type": "free_text",
+        "prompt": "What does this sentence mean in English? *Bien qu'il soit fatigué, il continue de travailler.*",
+        "card_ids": ["conj-bien-que"],
+        "accept": [
+          "Although he is tired, he continues to work.",
+          "Although he is tired, he keeps working.",
+          "Even though he is tired, he continues to work.",
+          "Even though he is tired, he keeps working.",
+          "Although he is tired he continues to work."
+        ],
+        "hint": "bien que = although / even though. The verb form 'soit' (subjunctive) is a B1 topic — just focus on the meaning.",
+        "distractors": [
+          "Because he is tired, he continues to work.",
+          "While he is tired, he continues to work.",
+          "So he is tired, he continues to work."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-comme-sentence",
+      "type": "exercise",
+      "title": "Translate with comme (causal)",
+      "exercise": {
+        "id": "ex-free-comme-sentence",
+        "type": "free_text",
+        "prompt": "Translate: *As the shop was closed, we went home.* (Use comme; it must open the sentence.)",
+        "card_ids": ["conj-comme"],
+        "accept": [
+          "Comme le magasin était fermé, nous sommes rentrés.",
+          "Comme le magasin était fermé, nous sommes rentrées.",
+          "Comme le magasin était fermé, on est rentré.",
+          "Comme la boutique était fermée, nous sommes rentrés."
+        ],
+        "hint": "comme must come first; the main clause follows with normal subject-verb order.",
+        "distractors": [
+          "Nous sommes rentrés comme le magasin était fermé.",
+          "Parce comme le magasin était fermé, nous sommes rentrés.",
+          "Comme le magasin était fermé alors nous sommes rentrés comme."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

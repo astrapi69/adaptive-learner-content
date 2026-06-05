@@ -10,18 +10,19 @@ Official content repository for [Adaptive Learner](https://github.com/astrapi69/
 | Französisch A2 | Deutsch (DE) | Französisch (FR) | 15 | A2 | Sprache |
 | Französisch B1 | Deutsch (DE) | Französisch (FR) | 15 | B1 | Sprache |
 | Französisch A1 | English (EN) | French (FR) | 15 | A1 | Language |
+| Französisch A2 | English (EN) | French (FR) | 15 | A2 | Language |
 | Spanisch A1 | Deutsch (DE) | Spanisch (ES) | 15 | A1 | Sprache |
 | Spanisch A2 | Deutsch (DE) | Spanisch (ES) | 15 | A2 | Sprache |
 | Spanisch B1 | Deutsch (DE) | Spanisch (ES) | 15 | B1 | Sprache |
 | Spanisch A1 | English (EN) | Spanish (ES) | 15 | A1 | Language |
-| Spanisch A2 | English (EN) | Spanish (ES) | 15 | A2 | Language |
+| Spanisch B1 | English (EN) | Spanish (ES) | 15 | B1 | Language |
 | Englisch A1 | Deutsch (DE) | English (EN) | 15 | A1 | Sprache |
 | Englisch A2 | Deutsch (DE) | English (EN) | 15 | A2 | Sprache |
 | Englisch B1 | Deutsch (DE) | English (EN) | 15 | B1 | Sprache |
-| Psychologie | Deutsch (DE) | Deutsch (DE) | 90 | Uni-Intro | Psychologie |
+| Psychologie | Deutsch (DE) | Deutsch (DE) | 105 | Uni-Intro | Psychologie |
 | Python — Grundlagen | Deutsch (DE) | Deutsch (DE) | 15 | A1 | Programmierung |
 
-**285 Lektionen · ~60 Stunden Lernmaterial**
+**285 Lektionen · ~61 Stunden Lernmaterial**
 
 ## Directory Structure
 
@@ -41,8 +42,10 @@ sets/
 │   └── python-basics/  # Domain: Programming
 ├── en/                 # Source language: English
 │   ├── fr-a1/          # Target: French A1
+│   ├── fr-a2/          # Target: French A2
 │   ├── es-a1/          # Target: Spanish A1
-│   └── es-a2/          # Target: Spanish A2
+│   ├── es-a2/          # Target: Spanish A2
+│   └── es-b1/          # Target: Spanish B1
 └── manifest.yaml       # Root manifest
 ```
 

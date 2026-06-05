@@ -1,0 +1,360 @@
+{
+  "id": "es-b1-08-conectores",
+  "title": "Connectors and Complex Sentences",
+  "description": "Move beyond simple sentences: link your ideas like a fluent speaker with connectors for cause (porque, ya que, como), consequence (por eso, por lo tanto), contrast (pero, sino, sin embargo, aunque), addition, purpose and condition. Master the tricky pairs that trip up English speakers: pero vs sino, 'because' vs 'because of', and aunque with the indicative vs the subjunctive.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "con-porque",
+      "front": "porque",
+      "back": "because (cause, joins two clauses)",
+      "notes": "**porque** (one word) introduces a *cause* and links two full clauses: *No salgo **porque** llueve* (I'm not going out because it's raining). Don't confuse it with **por qué** (why?, two words) or **el porqué** (the reason). Crucially, *porque* = the conjunction 'because'; for 'because **of**' + a noun, use **por** or **a causa de**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conectores", "cause"]
+    },
+    {
+      "id": "con-ya-que",
+      "front": "ya que / puesto que",
+      "back": "since, given that (cause already known)",
+      "notes": "**ya que** and **puesto que** mean 'since / given that' and present a cause the listener already knows or accepts: ***Ya que** estás aquí, ayúdame* (Since you're here, help me). They are slightly more formal than *porque* and can start the sentence.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conectores", "cause"]
+    },
+    {
+      "id": "con-como-causa",
+      "front": "como (at sentence start) / debido a",
+      "back": "as, since (cause first) / due to (+ noun)",
+      "notes": "**como** meaning 'since/as' must come **at the start** of the sentence, before the result: ***Como** llovía, no salimos* (As it was raining, we didn't go out). **debido a** = 'due to' + a noun; **debido a que** + a clause: *Llegué tarde **debido al** tráfico*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conectores", "cause"]
+    },
+    {
+      "id": "con-por-eso",
+      "front": "por eso / por lo tanto",
+      "back": "that's why / therefore (consequence)",
+      "notes": "These introduce a *consequence*. **por eso** = 'that's why, so': *Llovía, **por eso** no salí*. **por lo tanto** = 'therefore' and is more formal/written: *No estudió; **por lo tanto**, suspendió*. Both usually follow the cause.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conectores", "consequence"]
+    },
+    {
+      "id": "con-asi-que",
+      "front": "así que / de modo que",
+      "back": "so / so that (consequence)",
+      "notes": "**así que** = 'so' and is common in speech: *Estaba cansado, **así que** me fui a casa* (I was tired, so I went home). **de modo que** / **de manera que** = 'so that, in such a way that'. With indicative they state a result; with subjunctive they express purpose.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conectores", "consequence"]
+    },
+    {
+      "id": "con-pero-sino",
+      "front": "pero vs sino",
+      "back": "but (adds/contrasts) vs but rather (corrects a negative)",
+      "notes": "Both translate 'but', but they are NOT interchangeable. **pero** simply adds a contrasting idea: *Es caro **pero** bueno*. **sino** *corrects* a preceding **negative**: *No es rojo, **sino** azul* (not red, but blue). If a *conjugated verb* follows the correction, use **sino que**: *No vino, **sino que** llamó*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conectores", "contrast", "contrast-pair"]
+    },
+    {
+      "id": "con-sin-embargo",
+      "front": "sin embargo / no obstante",
+      "back": "however / nevertheless (contrast)",
+      "notes": "**sin embargo** = 'however, nevertheless', typically between two sentences and set off by commas: *Es difícil; **sin embargo**, lo intentaré*. **no obstante** means the same but is more formal/written. Neither changes the verb's mood.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conectores", "contrast"]
+    },
+    {
+      "id": "con-aunque",
+      "front": "aunque + indicative / + subjunctive",
+      "back": "even though (real fact) / even if (hypothetical)",
+      "notes": "**aunque** + **indicative** = 'even though' for a *real* fact: ***Aunque llueve**, salimos* (Even though it IS raining, we're going out). **aunque** + **subjunctive** = 'even if' for something *hypothetical* or not (yet) a fact: ***Aunque llueva**, saldremos* (Even if it rains, we'll go out). The mood carries the whole meaning difference.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "conectores", "concession", "subjuntivo"]
+    },
+    {
+      "id": "con-a-pesar-de",
+      "front": "a pesar de (que) / mientras que",
+      "back": "in spite of / whereas (contrast)",
+      "notes": "**a pesar de** + a noun or infinitive: *A pesar **del** frío...*; **a pesar de que** + a full clause: *A pesar de **que** hacía frío...* (the **que** is required before a clause!). **mientras que** = 'whereas' for direct contrast: *Yo trabajo, **mientras que** él descansa*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "conectores", "concession"]
+    },
+    {
+      "id": "con-ademas",
+      "front": "además / por un lado... por otro lado",
+      "back": "moreover, besides / on one hand... on the other",
+      "notes": "Addition and sequencing. **además** = 'moreover, what's more': *Es barato; **además**, es bonito*. **también** = 'also'. Order ideas with **primero... luego... finalmente** and weigh two sides with **por un lado... por otro (lado)...**",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conectores", "addition"]
+    },
+    {
+      "id": "con-para-que",
+      "front": "para (que) / con el fin de",
+      "back": "(in order) to / so that (purpose)",
+      "notes": "Purpose. **para** + infinitive when the subject is the same: *Estudio **para** aprender*. **para que** + **subjunctive** when the subject changes: *Te lo explico **para que** lo **entiendas***. **con el fin de (que)** is a more formal equivalent.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conectores", "purpose", "subjuntivo"]
+    },
+    {
+      "id": "con-condicion",
+      "front": "si / a menos que / siempre que",
+      "back": "if / unless / provided that (condition)",
+      "notes": "Condition recap. **si** + indicative for real conditions: *Si llueve, me quedo*. **a menos que** ('unless') and **siempre que** ('provided that, as long as') always take the **subjunctive**: *No iré **a menos que** me **invites***; *Te ayudo **siempre que** me lo **pidas***.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "conectores", "condition", "subjuntivo"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Linking your ideas",
+      "body": "# Connectors and complex sentences\n\nAt B1, you stop speaking in short, separate sentences and start *linking* your ideas the way fluent speakers do. The tools for this are **connectors** (*los conectores*) — words and phrases that show **why**, **so**, **but**, **and**, **in order to** and **if**.\n\n## A connector by function\n\n| Function | Connectors |\n|---|---|\n| **Cause** (why) | porque, ya que, puesto que, como, debido a |\n| **Consequence** (so) | por eso, por lo tanto, así que, de modo que |\n| **Contrast / concession** | pero, sino (que), sin embargo, no obstante, aunque, a pesar de (que), mientras que |\n| **Addition / sequence** | además, también, primero / luego / finalmente, por un lado... por otro lado |\n| **Purpose** | para (que), con el fin de |\n| **Condition** | si, a menos que, siempre que |\n\n## Cause: 'because' is not always *porque*\n\n- **porque** joins two clauses: *No salgo **porque** llueve.*\n- **como** must go **first**: ***Como** llueve, no salgo.*\n- **ya que / puesto que** = 'since' (a known cause): ***Ya que** estás aquí, ayúdame.*\n\n> English speaker trap: 'because' = **porque** (+ a clause), but 'because **of**' = **por / a causa de** (+ a noun): *No salgo **a causa de** la lluvia* — never *porque la lluvia*."
+    },
+    {
+      "id": "step-contrast",
+      "type": "theory",
+      "title": "Contrast: pero vs sino, and aunque",
+      "body": "## pero vs sino — two words for 'but'\n\nEnglish has one word, 'but'; Spanish splits it in two.\n\n- **pero** adds a contrasting idea to an affirmative: *Es caro **pero** bueno.* (It's expensive but good.)\n- **sino** *corrects* a **negative** statement — 'not X **but rather** Y':\n  - *No es rojo, **sino** azul.* (Not red, but blue.)\n  - *No quiero café, **sino** té.*\n- If a **conjugated verb** follows the correction, use **sino que**: *No lo perdió, **sino que** lo regaló.*\n\n**Quick test:** Is the first part negative *and* are you replacing it? → **sino**. Otherwise → **pero**.\n\n## More contrast connectors\n\n- **sin embargo / no obstante** = 'however / nevertheless': *Es tarde; **sin embargo**, seguimos.*\n- **a pesar de** + noun/infinitive; **a pesar de que** + clause (the **que** is required!): *A pesar de **que** llovía, salimos.*\n- **mientras que** = 'whereas': *Yo leo, **mientras que** ella ve la tele.*\n\n## aunque: indicative vs subjunctive\n\nThis is the big one. The **mood** changes the meaning:\n\n| | Meaning | Example |\n|---|---|---|\n| **aunque + indicative** | even though (a **real** fact) | ***Aunque llueve**, salimos.* (It IS raining, we go out anyway) |\n| **aunque + subjunctive** | even if (**hypothetical**) | ***Aunque llueva**, saldremos.* (If it should rain, we'll still go) |"
+    },
+    {
+      "id": "step-purpose-condition",
+      "type": "theory",
+      "title": "Consequence, purpose, condition and sequence",
+      "body": "## Consequence: 'so / therefore'\n\n- **por eso** = 'that's why, so' (everyday): *Llovía, **por eso** no salí.*\n- **así que** = 'so' (conversational): *Estaba cansado, **así que** me fui.*\n- **por lo tanto** = 'therefore' (formal/written): *No estudió; **por lo tanto**, suspendió.*\n\n## Purpose: para vs para que\n\n- Same subject → **para** + **infinitive**: *Estudio **para aprender**.*\n- Different subject → **para que** + **subjunctive**: *Te lo explico **para que** lo **entiendas**.*\n- Formal alternative: **con el fin de (que)**.\n\n## Condition (recap)\n\n- **si** + indicative for real conditions: ***Si** llueve, me quedo en casa.*\n- **a menos que** ('unless') and **siempre que** ('provided that') always take the **subjunctive**: *No iré **a menos que** me **invites**.*\n\n## Addition and sequence\n\nBuild richer paragraphs with **además** (moreover), **también** (also), the sequence **primero... luego... finalmente**, and the balancing pair **por un lado... por otro lado...** to weigh two sides of an argument."
+    },
+    {
+      "id": "ex-match-function",
+      "type": "exercise",
+      "title": "Connector by function",
+      "exercise": {
+        "id": "ex-match-function",
+        "type": "matching",
+        "prompt": "Match each connector with the function it expresses.",
+        "card_ids": ["con-porque", "con-por-eso", "con-sin-embargo", "con-para-que", "con-condicion"],
+        "pairs": [
+          {"left": "porque", "right": "cause (because)"},
+          {"left": "por lo tanto", "right": "consequence (therefore)"},
+          {"left": "sin embargo", "right": "contrast (however)"},
+          {"left": "para que", "right": "purpose (so that)"},
+          {"left": "a menos que", "right": "condition (unless)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-meaning",
+      "type": "exercise",
+      "title": "What does it mean?",
+      "exercise": {
+        "id": "ex-match-meaning",
+        "type": "matching",
+        "prompt": "Match each Spanish connector with its English meaning.",
+        "card_ids": ["con-ya-que", "con-aunque", "con-a-pesar-de", "con-asi-que"],
+        "pairs": [
+          {"left": "ya que", "right": "since / given that"},
+          {"left": "aunque", "right": "even though / even if"},
+          {"left": "mientras que", "right": "whereas"},
+          {"left": "así que", "right": "so"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-sino",
+      "type": "exercise",
+      "title": "Correcting a negative",
+      "exercise": {
+        "id": "ex-cloze-sino",
+        "type": "cloze",
+        "prompt": "Fill the gap. The first part is negative and you are replacing it.",
+        "card_ids": ["con-pero-sino"],
+        "sentence": "No es té, ___ café.",
+        "blanks": [{"accept": ["sino"]}],
+        "cloze_mode": "type",
+        "hint": "Negative + replacement → not 'pero'. It corrects: 'not X, but rather Y'."
+      }
+    },
+    {
+      "id": "ex-cloze-pero",
+      "type": "exercise",
+      "title": "Adding a contrast",
+      "exercise": {
+        "id": "ex-cloze-pero",
+        "type": "cloze",
+        "prompt": "Fill the gap. The first part is affirmative; you are simply adding a contrast.",
+        "card_ids": ["con-pero-sino"],
+        "sentence": "El piso es pequeño ___ muy cómodo.",
+        "blanks": [{"accept": ["pero"]}],
+        "cloze_mode": "type",
+        "hint": "Nothing is being negated and replaced here, so it is not 'sino'."
+      }
+    },
+    {
+      "id": "ex-free-because-rain",
+      "type": "exercise",
+      "title": "Because (a clause)",
+      "exercise": {
+        "id": "ex-free-because-rain",
+        "type": "free_text",
+        "prompt": "Translate: *I'm not going out because it's raining.* (because + a clause → porque)",
+        "card_ids": ["con-porque"],
+        "accept": ["No salgo porque llueve.", "no salgo porque llueve", "No salgo porque está lloviendo.", "No salgo porque llueve"],
+        "hint": "'because' + a full clause = porque (one word). Use the verb llover.",
+        "distractors": ["No salgo por que llueve.", "No salgo a causa de llueve.", "No salgo porque la lluvia."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-because-of",
+      "type": "exercise",
+      "title": "Because of (a noun)",
+      "exercise": {
+        "id": "ex-free-because-of",
+        "type": "free_text",
+        "prompt": "Translate: *I'm not going out because of the rain.* ('because of' + a noun → a causa de / por)",
+        "card_ids": ["con-porque", "con-como-causa"],
+        "accept": ["No salgo a causa de la lluvia.", "no salgo a causa de la lluvia", "No salgo por la lluvia.", "No salgo debido a la lluvia.", "No salgo a causa de la lluvia"],
+        "hint": "'because of' + a noun is NOT porque. Use a causa de / por / debido a + the noun.",
+        "distractors": ["No salgo porque la lluvia.", "No salgo porque de la lluvia.", "No salgo porqué la lluvia."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-aunque-ind",
+      "type": "exercise",
+      "title": "aunque: a real fact",
+      "exercise": {
+        "id": "ex-cloze-aunque-ind",
+        "type": "cloze",
+        "prompt": "Fill in 'aunque' + the right form. It IS raining right now (a real fact), and we go out anyway.",
+        "card_ids": ["con-aunque"],
+        "sentence": "Aunque ___ (llover) ahora mismo, salimos a la calle.",
+        "blanks": [{"accept": ["llueve"]}],
+        "cloze_mode": "type",
+        "hint": "Real, current fact → aunque + indicative (it really is raining)."
+      }
+    },
+    {
+      "id": "ex-cloze-aunque-subj",
+      "type": "exercise",
+      "title": "aunque: a hypothetical",
+      "exercise": {
+        "id": "ex-cloze-aunque-subj",
+        "type": "cloze",
+        "prompt": "Fill in 'aunque' + the right form. It MIGHT rain (hypothetical, 'even if'), but we'll still go.",
+        "card_ids": ["con-aunque"],
+        "sentence": "Aunque ___ (llover) mañana, saldremos igualmente.",
+        "blanks": [{"accept": ["llueva"]}],
+        "cloze_mode": "type",
+        "hint": "Hypothetical 'even if' → aunque + subjunctive: llover → llueva."
+      }
+    },
+    {
+      "id": "ex-tiles-para-que",
+      "type": "exercise",
+      "title": "Build: purpose with a change of subject",
+      "exercise": {
+        "id": "ex-tiles-para-que",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I'm explaining it to you so that you understand it.* (different subjects → para que + subjunctive)",
+        "card_ids": ["con-para-que"],
+        "tiles": ["Te", "lo", "explico", "para que", "lo", "entiendas"],
+        "hint": "Different subject → para que + subjunctive; entender → entiendas (tú).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-tired-so",
+      "type": "exercise",
+      "title": "Consequence: so",
+      "exercise": {
+        "id": "ex-free-tired-so",
+        "type": "free_text",
+        "prompt": "Translate: *I was tired, so I went home.* (consequence → así que)",
+        "card_ids": ["con-asi-que", "con-por-eso"],
+        "accept": ["Estaba cansado, así que me fui a casa.", "estaba cansado, así que me fui a casa", "Estaba cansada, así que me fui a casa.", "Estaba cansado así que me fui a casa.", "Estaba cansado, por eso me fui a casa."],
+        "hint": "'so' introducing a result = así que (or por eso). Use the imperfect estaba.",
+        "distractors": ["Estaba cansado, porque me fui a casa.", "Estaba cansado, sino que me fui a casa.", "Estaba cansado, para que me fui a casa."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-sino",
+      "type": "exercise",
+      "title": "Not red, but blue",
+      "exercise": {
+        "id": "ex-pic-sino",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly says 'The car isn't red, but (rather) blue'?",
+        "card_ids": ["con-pero-sino"],
+        "images": [
+          {"src": "assets/img/no-es-rojo-sino-azul.png", "label": "El coche no es rojo, sino azul.", "is_correct": "true"},
+          {"src": "assets/img/no-es-rojo-pero-azul.png", "label": "El coche no es rojo, pero azul."},
+          {"src": "assets/img/no-es-rojo-sino-que-azul.png", "label": "El coche no es rojo, sino que azul."},
+          {"src": "assets/img/no-es-rojo-aunque-azul.png", "label": "El coche no es rojo, aunque azul."}
+        ],
+        "hint": "Negative being replaced → sino. No conjugated verb follows, so not 'sino que'.",
+        "distractors": ["El coche no es rojo, pero azul.", "El coche no es rojo, sino que azul.", "El coche no es rojo, aunque azul."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-unless-invite",
+      "type": "exercise",
+      "title": "Condition: unless + subjunctive",
+      "exercise": {
+        "id": "ex-free-unless-invite",
+        "type": "free_text",
+        "prompt": "Translate: *I won't go unless you invite me.* (a menos que + subjunctive)",
+        "card_ids": ["con-condicion"],
+        "accept": ["No iré a menos que me invites.", "no iré a menos que me invites", "No ire a menos que me invites.", "No iré a menos que me invites"],
+        "hint": "'unless' = a menos que + subjunctive; invitar → invites (tú).",
+        "distractors": ["No iré a menos que me invitas.", "No iré sino que me invites.", "No iré aunque me invites."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-a-pesar-de-que",
+      "type": "exercise",
+      "title": "The required 'que'",
+      "exercise": {
+        "id": "ex-cloze-a-pesar-de-que",
+        "type": "cloze",
+        "prompt": "Fill the gap before this full clause. Remember the word that must follow 'a pesar de' before a clause.",
+        "card_ids": ["con-a-pesar-de"],
+        "sentence": "A pesar de ___ hacía mucho frío, fuimos a la playa.",
+        "blanks": [{"accept": ["que"]}],
+        "cloze_mode": "type",
+        "hint": "Before a full clause (with a conjugated verb), 'a pesar de' needs ___."
+      }
+    },
+    {
+      "id": "ex-free-however",
+      "type": "exercise",
+      "title": "Contrast: however",
+      "exercise": {
+        "id": "ex-free-however",
+        "type": "free_text",
+        "prompt": "Translate: *It's difficult; however, I'll try.* (contrast → sin embargo)",
+        "card_ids": ["con-sin-embargo"],
+        "accept": ["Es difícil; sin embargo, lo intentaré.", "es difícil; sin embargo, lo intentaré", "Es dificil; sin embargo, lo intentaré.", "Es difícil, sin embargo, lo intentaré.", "Es difícil; sin embargo lo intentaré."],
+        "hint": "'however' = sin embargo (or no obstante). Use the future lo intentaré.",
+        "distractors": ["Es difícil; pero embargo, lo intentaré.", "Es difícil; aunque, lo intentaré.", "Es difícil; sino embargo, lo intentaré."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

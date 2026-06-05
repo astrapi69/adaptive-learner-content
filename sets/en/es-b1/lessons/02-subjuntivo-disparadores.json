@@ -1,0 +1,329 @@
+{
+  "id": "es-b1-02-subjuntivo-disparadores",
+  "title": "Subjunctive Triggers: the WEIRDO and beyond",
+  "description": "Lesson 1 built every form; now learn WHEN to use the subjunctive. The trigger families (Wishes, Emotions, Impersonal expressions, Recommendations, Doubt/denial, Ojalá), the conjunctions of time and purpose (cuando, para que, antes de que), and relative clauses with an unknown antecedent. All hinge on 'que' + a change of subject.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 21,
+  "cards": [
+    {
+      "id": "trig-wishes",
+      "front": "Quiero que vengas. / Espero que llames.",
+      "back": "wishes, wants and requests trigger the subjunctive",
+      "notes": "Verbs of **wanting, hoping and requesting** take *que* + subjunctive when the subject changes: *querer que*, *esperar que*, *pedir que*, *preferir que*. *Quiero que **vengas*** (I want you to come). Same subject? Use the infinitive: *Quiero **venir***.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "subjuntivo", "triggers"]
+    },
+    {
+      "id": "trig-emotions",
+      "front": "Me alegro de que estés aquí. / Es una pena que te vayas.",
+      "back": "emotions and value judgments trigger the subjunctive",
+      "notes": "Reactions and feelings about something take the subjunctive: *alegrarse de que*, *sentir que* (to be sorry that), *tener miedo de que*, *es una pena que*, *me gusta que*. *Me alegro de que **estés** aquí* (I'm glad you're here).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "triggers"]
+    },
+    {
+      "id": "trig-impersonal",
+      "front": "Es importante que estudies. / Es necesario que vengas.",
+      "back": "impersonal expressions (value/necessity) trigger the subjunctive",
+      "notes": "*Es importante/necesario/posible/mejor que* + subjunctive. BUT expressions that **assert a fact** stay in the indicative: *es verdad que*, *es obvio que*, *es cierto que*. Contrast: *Es posible que **venga*** vs. *Es verdad que **viene***.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "triggers", "contrast"]
+    },
+    {
+      "id": "trig-recommend",
+      "front": "Te recomiendo que descanses.",
+      "back": "advice and influence trigger the subjunctive",
+      "notes": "Verbs that try to **influence** another person's behaviour take the subjunctive: *recomendar que*, *aconsejar que*, *sugerir que*, *es necesario que*. *Te aconsejo que **lo pienses*** (I advise you to think about it).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "triggers"]
+    },
+    {
+      "id": "trig-doubt-denial",
+      "front": "No creo que venga. / Dudo que sea cierto.",
+      "back": "doubt and denial trigger the subjunctive",
+      "notes": "Doubt or denial → subjunctive: *no creer que*, *dudar que*, *no pensar que*, *no es verdad que*. The catch: the **affirmative** *creo que* / *pienso que* asserts a belief and takes the **indicative**. *Creo que **viene*** vs. *No creo que **venga***.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "subjuntivo", "triggers", "contrast"]
+    },
+    {
+      "id": "trig-ojala",
+      "front": "Ojalá (que) llueva mañana.",
+      "back": "Ojalá always takes the subjunctive",
+      "notes": "*Ojalá* (\"I wish / let's hope\") **always** triggers the subjunctive, with or without *que*: *Ojalá **gane** nuestro equipo* (Let's hope our team wins). Present subjunctive for a real hope; imperfect subjunctive for something unlikely.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "subjuntivo", "triggers"]
+    },
+    {
+      "id": "trig-cuando-future",
+      "front": "Cuando sea mayor, viajaré. / Cuando soy mayor, viajo. (habitual)",
+      "back": "cuando + subjunctive for the unrealised future; + indicative for habits",
+      "notes": "After **cuando, en cuanto, hasta que** use the subjunctive when the action is still **future/unrealised**: *Cuando **sea** mayor...* (When I'm older...). Use the indicative for habits or past facts: *Cuando **soy** mayor, me canso* (whenever / generally).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "subjuntivo", "conjunctions", "contrast"]
+    },
+    {
+      "id": "trig-antes-para",
+      "front": "antes de que llegues; para que entiendas; a menos que vengas",
+      "back": "some conjunctions ALWAYS take the subjunctive",
+      "notes": "These conjunctions take the subjunctive **every time**, because they introduce something not (yet) real: *antes de que* (before), *para que* (so that), *a menos que* (unless), *sin que*, *con tal de que*. *Te lo explico **para que** lo **entiendas***.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "subjuntivo", "conjunctions"]
+    },
+    {
+      "id": "trig-aunque",
+      "front": "Aunque llueva, saldremos. (even if) / Aunque llueve, salgo. (even though)",
+      "back": "aunque + subjunctive = even if (hypothetical); + indicative = even though (fact)",
+      "notes": "*Aunque* takes the **subjunctive** when the situation is hypothetical (\"even if\"): *Aunque **llueva**, saldremos* (Even if it rains...). It takes the **indicative** for a known fact (\"even though\"): *Aunque **llueve**, salgo* (Even though it's raining...).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "subjuntivo", "conjunctions", "contrast"]
+    },
+    {
+      "id": "trig-relative-unknown",
+      "front": "Busco a alguien que hable francés. / No hay nadie que sepa.",
+      "back": "relative clauses with an unknown or nonexistent antecedent take the subjunctive",
+      "notes": "When the thing or person you describe is **not known to exist** (or doesn't exist), the relative clause uses the subjunctive: *Busco a alguien que **hable** francés* (someone who may or may not exist). If it's a specific, real person → indicative: *Conozco a alguien que **habla** francés*. *No hay nadie que **sepa*** (nobody exists who knows).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "subjuntivo", "relative", "contrast"]
+    },
+    {
+      "id": "trig-infinitive-no-change",
+      "front": "Quiero estudiar. (no change) / Quiero que estudies. (change)",
+      "back": "no change of subject → infinitive, not que + subjunctive",
+      "notes": "The subjunctive needs **two different subjects** across *que*. If the subject is the same, drop *que* and use the **infinitive**: *Quiero **estudiar*** (I want to study), *Espero **verte*** (I hope to see you). Change of subject → *Quiero que **estudies***.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "contrast"]
+    },
+    {
+      "id": "trig-weirdo",
+      "front": "WEIRDO: Wishes, Emotions, Impersonal, Recommendations, Doubt, Ojalá",
+      "back": "a memory hook for the subjunctive trigger families",
+      "notes": "**WEIRDO** collects the main triggers: **W**ishes, **E**motions, **I**mpersonal expressions, **R**ecommendations/requests, **D**oubt/denial, **O**jalá. Add the time/purpose conjunctions and unknown-antecedent relatives, and you have the whole map.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "subjuntivo", "triggers"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "The WEIRDO map of triggers",
+      "body": "# When do I actually use the subjunctive?\n\nLesson 1 built every form. The real skill is knowing **when** the subjunctive is required. Almost every case shares one shape:\n\n> **main clause + que + [different subject] + subjunctive**\n\nA handy memory hook is **WEIRDO**:\n\n| Letter | Family | Example |\n|---|---|---|\n| **W** | Wishes / wants / requests | *Quiero que **vengas*** |\n| **E** | Emotions / value judgments | *Me alegro de que **estés** aquí* |\n| **I** | Impersonal expressions | *Es importante que **estudies*** |\n| **R** | Recommendations / influence | *Te aconsejo que **descanses*** |\n| **D** | Doubt / denial | *Dudo que **sea** cierto* |\n| **O** | Ojalá | *Ojalá **llueva*** |\n\n## The one big condition: change of subject\n\nThe subjunctive needs **two different subjects** joined by *que*.\n\n- Same subject → **infinitive**: *Quiero **estudiar*** (I want to study).\n- Different subject → **que + subjunctive**: *Quiero que **estudies*** (I want *you* to study).\n\nEnglish hides this with an infinitive (*I want you to study*), so never translate *to* literally."
+    },
+    {
+      "id": "step-families",
+      "type": "theory",
+      "title": "The families up close (and the indicative exceptions)",
+      "body": "## Wishes, emotions, recommendations\n\nThese always trigger the subjunctive with a change of subject:\n\n- **Wishes:** *querer que, esperar que, pedir que, preferir que*\n- **Emotions:** *alegrarse de que, sentir que, tener miedo de que, es una pena que, me gusta que*\n- **Recommendations:** *recomendar que, aconsejar que, sugerir que*\n\n## Impersonal expressions — but watch the fact-asserting ones\n\nMost take the subjunctive:\n\n- *Es importante / necesario / posible / mejor que* + **subjunctive** → *Es posible que **venga***\n\nBut expressions that **state a fact** take the **indicative**:\n\n- *Es verdad que, es obvio que, es cierto que* + **indicative** → *Es verdad que **viene***\n\n## Doubt and denial — and the affirmative trap\n\n| Expression | Mood | Example |\n|---|---|---|\n| *creo que / pienso que* | **indicative** | *Creo que **viene*** |\n| *no creo que / no pienso que* | **subjunctive** | *No creo que **venga*** |\n| *dudar que* | **subjunctive** | *Dudo que **sea** cierto* |\n| *no es verdad que* | **subjunctive** | *No es verdad que **venga*** |\n\n> The most common English-speaker error: *Creo que **venga***. Wrong! An affirmative belief is asserted → indicative: *Creo que **viene***."
+    },
+    {
+      "id": "step-conjunctions-relatives",
+      "type": "theory",
+      "title": "Conjunctions and unknown antecedents",
+      "body": "## Time conjunctions: future vs. habit\n\nAfter **cuando, en cuanto, hasta que**, choose the mood by whether the action is real yet:\n\n- **Future / unrealised → subjunctive:** *Cuando **sea** mayor, viajaré* (When I'm older...).\n- **Habit or past fact → indicative:** *Cuando **soy** mayor me canso* / *Cuando **era** niño, jugaba*.\n\n> English uses the present (\"when I **am** older\") for the future, which tempts you toward the indicative. In Spanish it must be the subjunctive: *cuando **sea** mayor*.\n\n## Conjunctions that ALWAYS take the subjunctive\n\nThese introduce something not (yet) real, so the subjunctive is automatic:\n\n- *antes de que* (before) · *para que* (so that) · *a menos que* (unless) · *sin que* · *con tal de que*\n- *Te lo explico **para que** lo **entiendas***.\n\n## Aunque: even if vs. even though\n\n- **Hypothetical (even if) → subjunctive:** *Aunque **llueva**, saldremos*.\n- **Known fact (even though) → indicative:** *Aunque **llueve**, salgo*.\n\n## Relative clauses with an unknown antecedent\n\nIf the person/thing described **may not exist**, the relative clause is subjunctive:\n\n- *Busco a alguien que **hable** francés* (anyone who can) → subjunctive\n- *Conozco a alguien que **habla** francés* (a specific person) → indicative\n- *No hay nadie que **sepa** la respuesta* (nonexistent) → subjunctive"
+    },
+    {
+      "id": "ex-match-families",
+      "type": "exercise",
+      "title": "Match the trigger to its family",
+      "exercise": {
+        "id": "ex-match-families",
+        "type": "matching",
+        "prompt": "Match each Spanish trigger with its WEIRDO family.",
+        "card_ids": ["trig-wishes", "trig-emotions", "trig-doubt-denial", "trig-recommend"],
+        "pairs": [
+          {"left": "querer que", "right": "Wishes / wants"},
+          {"left": "alegrarse de que", "right": "Emotions"},
+          {"left": "dudar que", "right": "Doubt / denial"},
+          {"left": "recomendar que", "right": "Recommendations"},
+          {"left": "Ojalá", "right": "Ojalá / hope"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-want-call",
+      "type": "exercise",
+      "title": "A wish with a change of subject",
+      "exercise": {
+        "id": "ex-free-want-call",
+        "type": "free_text",
+        "prompt": "Translate: *I want you to call me tonight.* (querer que + subjunctive, tú)",
+        "card_ids": ["trig-wishes", "trig-infinitive-no-change"],
+        "accept": ["Quiero que me llames esta noche.", "quiero que me llames esta noche", "Quiero que me llames esta noche", "Quiero que me llames hoy por la noche."],
+        "hint": "querer que + subjunctive; llamar -> llames (tú). Different subjects, so use que, not the infinitive.",
+        "distractors": ["Quiero que me llamas esta noche.", "Quiero llamarte esta noche.", "Te quiero llamar esta noche."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-creo-vs-nocreo",
+      "type": "exercise",
+      "title": "Belief vs. doubt",
+      "exercise": {
+        "id": "ex-pic-creo-vs-nocreo",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly says 'I don't think it's true'? (doubt -> subjunctive)",
+        "card_ids": ["trig-doubt-denial"],
+        "images": [
+          {"src": "assets/img/no-creo-sea.png", "label": "No creo que sea verdad.", "is_correct": "true"},
+          {"src": "assets/img/no-creo-es.png", "label": "No creo que es verdad."},
+          {"src": "assets/img/creo-sea.png", "label": "Creo que sea verdad."},
+          {"src": "assets/img/no-creo-sera.png", "label": "No creo que será verdad."}
+        ],
+        "hint": "no creer que = doubt -> subjunctive; ser -> sea. Note that affirmative 'creo que' would take the indicative.",
+        "distractors": ["No creo que es verdad.", "Creo que sea verdad.", "No creo que será verdad."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-cuando-sea",
+      "type": "exercise",
+      "title": "Cuando + future = subjunctive",
+      "exercise": {
+        "id": "ex-cloze-cuando-sea",
+        "type": "cloze",
+        "prompt": "Fill in the subjunctive of *ser* (yo). 'When I am older, I will travel.'",
+        "card_ids": ["trig-cuando-future"],
+        "sentence": "Cuando ___ mayor, viajaré por todo el mundo.",
+        "blanks": [{"accept": ["sea"]}],
+        "cloze_mode": "type",
+        "hint": "The action is still future/unrealised, so cuando takes the subjunctive: ser (yo) -> sea. English 'when I am' is misleading here."
+      }
+    },
+    {
+      "id": "ex-tiles-para-que",
+      "type": "exercise",
+      "title": "Build: so that you understand",
+      "exercise": {
+        "id": "ex-tiles-para-que",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I'll explain it to you so that you understand.*",
+        "card_ids": ["trig-antes-para"],
+        "tiles": ["Te", "lo", "explico", "para que", "entiendas"],
+        "hint": "para que ALWAYS takes the subjunctive; entender -> entiendas (tú).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-glad-here",
+      "type": "exercise",
+      "title": "Emotion + subjunctive",
+      "exercise": {
+        "id": "ex-free-glad-here",
+        "type": "free_text",
+        "prompt": "Translate: *I'm glad (that) you are here.* (alegrarse de que + subjunctive, estar)",
+        "card_ids": ["trig-emotions"],
+        "accept": ["Me alegro de que estés aquí.", "me alegro de que estés aquí", "Me alegro de que estes aqui.", "Me alegro que estés aquí.", "Me alegro de que estés aquí"],
+        "hint": "alegrarse de que + subjunctive; estar -> estés (tú).",
+        "distractors": ["Me alegro de que estás aquí.", "Me alegro de que seas aquí.", "Me alegro de estar aquí."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-antes-de-que",
+      "type": "exercise",
+      "title": "antes de que always",
+      "exercise": {
+        "id": "ex-cloze-antes-de-que",
+        "type": "cloze",
+        "prompt": "Fill in the subjunctive of *salir* (nosotros). 'before we leave'",
+        "card_ids": ["trig-antes-para"],
+        "sentence": "Termina la tarea antes de que ___ de casa.",
+        "blanks": [{"accept": ["salgamos"]}],
+        "cloze_mode": "type",
+        "hint": "antes de que ALWAYS takes the subjunctive; salir (salgo) -> salgamos (nosotros)."
+      }
+    },
+    {
+      "id": "ex-free-doctor-recommends",
+      "type": "exercise",
+      "title": "Advice with the subjunctive",
+      "exercise": {
+        "id": "ex-free-doctor-recommends",
+        "type": "free_text",
+        "prompt": "Translate: *I recommend that you rest more.* (recomendar que + subjunctive, tú)",
+        "card_ids": ["trig-recommend"],
+        "accept": ["Te recomiendo que descanses más.", "te recomiendo que descanses más", "Te recomiendo que descanses mas.", "Te recomiendo que descanses más"],
+        "hint": "recomendar que + subjunctive; descansar -> descanses (tú).",
+        "distractors": ["Te recomiendo que descansas más.", "Te recomiendo descansar más.", "Recomiendo que tú descansas más."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-mood",
+      "type": "exercise",
+      "title": "Subjunctive or indicative?",
+      "exercise": {
+        "id": "ex-match-mood",
+        "type": "matching",
+        "prompt": "Match each trigger with the mood it requires.",
+        "card_ids": ["trig-impersonal", "trig-doubt-denial"],
+        "pairs": [
+          {"left": "Es importante que...", "right": "subjunctive"},
+          {"left": "Es verdad que...", "right": "indicative"},
+          {"left": "No creo que...", "right": "subjunctive (doubt)"},
+          {"left": "Creo que...", "right": "indicative (belief)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-someone-french",
+      "type": "exercise",
+      "title": "An unknown antecedent",
+      "exercise": {
+        "id": "ex-free-someone-french",
+        "type": "free_text",
+        "prompt": "Translate: *I'm looking for someone who speaks French.* (unknown person -> subjunctive)",
+        "card_ids": ["trig-relative-unknown"],
+        "accept": ["Busco a alguien que hable francés.", "busco a alguien que hable francés", "Busco a alguien que hable frances.", "Busco a alguien que hable francés"],
+        "hint": "The person may not exist, so the relative clause is subjunctive; hablar -> hable. Compare: 'Conozco a alguien que habla francés' (real -> indicative).",
+        "distractors": ["Busco a alguien que habla francés.", "Busco a alguien que hablar francés.", "Busco alguien que hable francés."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-aunque",
+      "type": "exercise",
+      "title": "Even if (hypothetical)",
+      "exercise": {
+        "id": "ex-cloze-aunque",
+        "type": "cloze",
+        "prompt": "Fill in the subjunctive of *llover*. 'Even if it rains, we'll go out.'",
+        "card_ids": ["trig-aunque"],
+        "sentence": "Aunque ___ mañana, saldremos a la calle.",
+        "blanks": [{"accept": ["llueva"]}],
+        "cloze_mode": "type",
+        "hint": "Here 'even if' is hypothetical -> subjunctive; llover (o->ue) -> llueva. (If it were a fact, 'even though', you'd use the indicative llueve.)"
+      }
+    },
+    {
+      "id": "ex-tiles-ojala",
+      "type": "exercise",
+      "title": "Build: let's hope they win",
+      "exercise": {
+        "id": "ex-tiles-ojala",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *Let's hope our team wins tomorrow.* (Ojalá + subjunctive)",
+        "card_ids": ["trig-ojala"],
+        "tiles": ["Ojalá", "gane", "nuestro", "equipo", "mañana"],
+        "hint": "Ojalá ALWAYS takes the subjunctive; ganar -> gane.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

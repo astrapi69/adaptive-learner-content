@@ -1,0 +1,266 @@
+{
+  "id": "101-grundlagen-paedagogische-psychologie",
+  "title": "Grundlagen der Pädagogischen Psychologie",
+  "description": "Die Pädagogische Psychologie beschreibt, erklärt und optimiert Lehren, Lernen, Erziehung und Entwicklung in Bildungskontexten. Diese Lektion klärt Gegenstand und Abgrenzung zur Pädagogik und zur Lernpsychologie, stellt das Lehr-Lern-Forschungs-Paradigma und das Angebots-Nutzungs-Modell des Unterrichts vor und verknüpft behavioristische, kognitive und konstruktivistische Sichtweisen mit Bildungsstandards und dem Kompetenzbegriff — auf Deutsch erklärt, mit den Fachbegriffen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "paedpsych-def",
+      "front": "Pädagogische Psychologie",
+      "back": "Teilgebiet der Psychologie, das psychologisches Wissen und Methoden auf Bildung und Erziehung anwendet. Sie beschreibt, erklärt und optimiert Lehren, Lernen, Erziehung und Entwicklung in Bildungskontexten — von der Schule über die Hochschule bis zur Weiterbildung.",
+      "notes": "Zugleich Grundlagen- und Anwendungsfach. Englisch: educational psychology.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["paedagogische-psychologie", "grundbegriff"]
+    },
+    {
+      "id": "gegenstand-aufgaben",
+      "front": "Beschreiben, Erklären, Optimieren",
+      "back": "Drei zentrale Aufgaben der Pädagogischen Psychologie: das Lehr- und Lerngeschehen genau beschreiben, seine Zusammenhänge erklären (warum gelingt oder misslingt Lernen?) und auf dieser Grundlage Bildungsprozesse optimieren, also wirksamer gestalten.",
+      "notes": "Optimieren als Anwendungsanspruch unterscheidet das Fach von rein beschreibender Forschung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["paedagogische-psychologie", "grundbegriff"]
+    },
+    {
+      "id": "bildungskontext",
+      "front": "Bildungskontext",
+      "back": "Jede Situation, in der gezielt gelehrt, gelernt oder erzogen wird: Kindergarten, Schule, Hochschule, Ausbildung, betriebliche Weiterbildung und informelles Lernen. Die Pädagogische Psychologie ist nicht auf die Schule beschränkt.",
+      "notes": "Englisch: educational context bzw. educational setting.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["paedagogische-psychologie", "grundbegriff"]
+    },
+    {
+      "id": "abgrenzung-paedagogik",
+      "front": "Abgrenzung zur Pädagogik",
+      "back": "Die Pädagogik (Erziehungswissenschaft) fragt vor allem normativ nach Zielen und nach der Gestaltung von Bildung und Erziehung. Die Pädagogische Psychologie untersucht empirisch die psychischen Prozesse beim Lehren und Lernen. Beide Fächer ergänzen sich, haben aber unterschiedliche Leitfragen.",
+      "notes": "Pädagogik fragt eher (Wozu erziehen?), Pädagogische Psychologie eher (Wie laufen Lernprozesse ab?). Englisch: pedagogy bzw. educational science.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["paedagogische-psychologie", "abgrenzung"]
+    },
+    {
+      "id": "abgrenzung-lernpsychologie",
+      "front": "Abgrenzung zur Lernpsychologie",
+      "back": "Die Lernpsychologie erforscht allgemeine Gesetzmäßigkeiten des Lernens (z. B. Konditionierung, Gedächtnis). Die Pädagogische Psychologie überträgt und untersucht diese Prozesse speziell in Bildungskontexten — also im realen Unterricht und in Erziehungssituationen.",
+      "notes": "Die Lernpsychologie liefert Grundlagen, die Pädagogische Psychologie wendet sie auf das Lehren und Lernen an. Englisch: psychology of learning.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["paedagogische-psychologie", "abgrenzung"]
+    },
+    {
+      "id": "lehr-lern-forschung",
+      "front": "Lehr-Lern-Forschung",
+      "back": "Forschungsparadigma, das Lehren und Lernen gemeinsam und empirisch untersucht: Welche Merkmale des Unterrichts hängen mit welchen Lernergebnissen zusammen? Sie verbindet psychologische Theorie mit der Beobachtung realen Unterrichts.",
+      "notes": "Englisch: teaching and learning research. Grundlage der empirischen Unterrichtsforschung.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["paedagogische-psychologie", "forschung"]
+    },
+    {
+      "id": "angebots-nutzungs-modell",
+      "front": "Angebots-Nutzungs-Modell (Helmke)",
+      "back": "Rahmenmodell des Unterrichts: Die Lehrkraft macht ein Lehrangebot, das von den Lernenden aktiv genutzt werden muss, damit Wirkungen (Lernergebnisse) entstehen. Angebot und Nutzung werden durch Kontextfaktoren (z. B. Familie, Klasse, Schule) moderiert.",
+      "notes": "Nach Andreas Helmke. Kernidee: Ein gutes Angebot wirkt nur über die Nutzung durch die Lernenden. Englisch: supply-use model bzw. offer-use model.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["paedagogische-psychologie", "modell"]
+    },
+    {
+      "id": "nutzung-mediation",
+      "front": "Nutzung durch die Lernenden",
+      "back": "Im Angebots-Nutzungs-Modell ist die Nutzung das entscheidende Bindeglied: Aufmerksamkeit, Anstrengung und aktive Verarbeitung der Lernenden. Selbst der beste Unterricht bleibt wirkungslos, wenn das Angebot nicht genutzt wird.",
+      "notes": "Erklärt, warum identischer Unterricht bei verschiedenen Lernenden unterschiedlich wirkt. Englisch: use bzw. utilization.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["paedagogische-psychologie", "modell"]
+    },
+    {
+      "id": "lernsichtweisen",
+      "front": "Sichtweisen auf Lernen",
+      "back": "Die Pädagogische Psychologie greift drei große Lerntheorien auf: den Behaviorismus (Lernen als Verhaltensänderung durch Verstärkung), den Kognitivismus (Lernen als Informationsverarbeitung) und den Konstruktivismus (Lernen als aktiver, selbstgesteuerter Aufbau von Wissen).",
+      "notes": "Querverweis auf die früheren Lernlektionen. Englisch: behaviorism, cognitivism, constructivism.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["paedagogische-psychologie", "lerntheorie"]
+    },
+    {
+      "id": "bildungsstandards",
+      "front": "Bildungsstandards",
+      "back": "Verbindlich festgelegte Lernergebnisse, die Schülerinnen und Schüler bis zu einem bestimmten Zeitpunkt erreicht haben sollen. Sie beschreiben Kompetenzen als Ziel und dienen der Steuerung und Überprüfung von Bildung (Outputorientierung).",
+      "notes": "In Deutschland seit den 2000er-Jahren, u. a. als Reaktion auf die PISA-Studien. Englisch: educational standards.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["paedagogische-psychologie", "bildungsstandards"]
+    },
+    {
+      "id": "kompetenz-weinert",
+      "front": "Kompetenz (Weinert)",
+      "back": "Nach Franz E. Weinert die bei Personen verfügbaren oder erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen, samt der motivationalen, volitionalen und sozialen Bereitschaft, diese erfolgreich und verantwortungsvoll zu nutzen.",
+      "notes": "Diese Definition prägt den deutschen Kompetenzbegriff in Bildungsstandards. Englisch: competence.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["paedagogische-psychologie", "kompetenz"]
+    },
+    {
+      "id": "klassiker-disziplin",
+      "front": "Klassiker der Disziplin",
+      "back": "Wegbereiter und prägende Figuren der Pädagogischen Psychologie sind u. a. Edward L. Thorndike (Lernen und Lerngesetze), Jean Piaget (kognitive Entwicklung), Lew Wygotski (soziale Konstruktion, Zone der nächsten Entwicklung) und Jerome Bruner (entdeckendes Lernen).",
+      "notes": "Thorndike gilt als ein Begründer des Fachs. Englisch: founding figures.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["paedagogische-psychologie", "geschichte"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Was die Pädagogische Psychologie untersucht",
+      "body": "# Grundlagen der Pädagogischen Psychologie\n\nDie **Pädagogische Psychologie** (englisch: *educational psychology*) wendet psychologisches Wissen auf **Bildung und Erziehung** an. Sie verfolgt drei Aufgaben:\n\n- **beschreiben** — wie laufen Lehren und Lernen ab?\n- **erklären** — warum gelingt oder misslingt Lernen?\n- **optimieren** — wie lassen sich Bildungsprozesse wirksamer gestalten?\n\nIhr Gegenstand sind **Lehren, Lernen, Erziehung und Entwicklung** in **Bildungskontexten** (*educational settings*): Schule, Hochschule, Ausbildung und Weiterbildung.\n\n## Abgrenzung\n\n- Die **Pädagogik** (Erziehungswissenschaft) fragt eher **normativ** nach Zielen und Gestaltung von Bildung.\n- Die **Lernpsychologie** erforscht **allgemeine** Gesetze des Lernens.\n- Die **Pädagogische Psychologie** untersucht **empirisch** die psychischen Prozesse beim Lehren und Lernen — speziell im realen Bildungsgeschehen."
+    },
+    {
+      "id": "lehr-lern-paradigma",
+      "type": "theory",
+      "title": "Lehr-Lern-Forschung und das Angebots-Nutzungs-Modell",
+      "body": "## Das Lehr-Lern-Forschungs-Paradigma\n\nDie **Lehr-Lern-Forschung** (*teaching and learning research*) untersucht Lehren und Lernen **gemeinsam** und **empirisch**: Welche Merkmale des Unterrichts hängen mit welchen Lernergebnissen zusammen?\n\n## Das Angebots-Nutzungs-Modell\n\nEin einflussreiches Rahmenmodell stammt von **Andreas Helmke**. Es ordnet den Unterricht in einer Kette an:\n\n| Baustein | Bedeutung |\n|---|---|\n| **Lehrangebot** | was die Lehrkraft bereitstellt |\n| **Nutzung** | wie aktiv die Lernenden es verarbeiten |\n| **Wirkungen** | die erreichten Lernergebnisse |\n| **Kontext** | Familie, Klasse, Schule (moderierend) |\n\n> Kernidee: Ein gutes **Lehrangebot** wirkt nur, wenn es von den Lernenden tatsächlich **genutzt** wird. Die **Nutzung** ist das entscheidende Bindeglied — deshalb wirkt derselbe Unterricht bei verschiedenen Lernenden unterschiedlich."
+    },
+    {
+      "id": "lernen-kompetenz",
+      "type": "theory",
+      "title": "Lernen verstehen, Standards und Kompetenz",
+      "body": "## Drei Sichtweisen auf das Lernen\n\nDie Pädagogische Psychologie knüpft an die großen **Lerntheorien** an (siehe die früheren Lernlektionen):\n\n- **Behaviorismus** — Lernen als Verhaltensänderung durch Verstärkung,\n- **Kognitivismus** — Lernen als Informationsverarbeitung,\n- **Konstruktivismus** — Lernen als aktiver, selbstgesteuerter **Wissensaufbau**.\n\n## Bildungsstandards und Kompetenz\n\n**Bildungsstandards** (*educational standards*) legen verbindlich fest, welche **Kompetenzen** Lernende erreichen sollen (Outputorientierung). Sie wurden u. a. als Reaktion auf die PISA-Studien eingeführt.\n\nDen prägenden **Kompetenzbegriff** lieferte **Franz E. Weinert**: Kompetenzen sind die verfügbaren oder erlernbaren **Fähigkeiten und Fertigkeiten**, Probleme zu lösen, samt der **motivationalen, volitionalen und sozialen** Bereitschaft, sie erfolgreich zu nutzen.\n\n## Klassiker der Disziplin\n\nPrägend waren u. a. **Thorndike** (Lerngesetze), **Piaget** (kognitive Entwicklung), **Wygotski** (Zone der nächsten Entwicklung) und **Bruner** (entdeckendes Lernen)."
+    },
+    {
+      "id": "ex-match-abgrenzung",
+      "type": "exercise",
+      "title": "Fächer abgrenzen",
+      "exercise": {
+        "id": "ex-match-abgrenzung",
+        "type": "matching",
+        "prompt": "Ordne jedem Fach bzw. Begriff die passende Kennzeichnung zu.",
+        "card_ids": ["paedpsych-def", "abgrenzung-paedagogik", "abgrenzung-lernpsychologie"],
+        "pairs": [
+          {"left": "Pädagogische Psychologie", "right": "untersucht empirisch Lehren und Lernen in Bildungskontexten"},
+          {"left": "Pädagogik", "right": "fragt vor allem normativ nach Zielen der Erziehung"},
+          {"left": "Lernpsychologie", "right": "erforscht allgemeine Gesetzmäßigkeiten des Lernens"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-aufgaben",
+      "type": "exercise",
+      "title": "Die drei Aufgaben",
+      "exercise": {
+        "id": "ex-cloze-aufgaben",
+        "type": "cloze",
+        "prompt": "Ergänze die dritte zentrale Aufgabe der Pädagogischen Psychologie.",
+        "card_ids": ["gegenstand-aufgaben", "paedpsych-def"],
+        "sentence": "Die Pädagogische Psychologie will Lehr- und Lernprozesse beschreiben, erklären und ___ .",
+        "blanks": [{"accept": ["optimieren", "verbessern"]}],
+        "cloze_mode": "type",
+        "hint": "Den Anwendungsanspruch des Fachs: Bildung wirksamer machen."
+      }
+    },
+    {
+      "id": "ex-match-modell",
+      "type": "exercise",
+      "title": "Angebots-Nutzungs-Modell zuordnen",
+      "exercise": {
+        "id": "ex-match-modell",
+        "type": "matching",
+        "prompt": "Ordne jeden Baustein des Angebots-Nutzungs-Modells seiner Bedeutung zu.",
+        "card_ids": ["angebots-nutzungs-modell", "nutzung-mediation"],
+        "pairs": [
+          {"left": "Lehrangebot", "right": "was die Lehrkraft bereitstellt"},
+          {"left": "Nutzung", "right": "aktive Verarbeitung durch die Lernenden"},
+          {"left": "Wirkungen", "right": "die erreichten Lernergebnisse"},
+          {"left": "Kontext", "right": "moderierende Faktoren wie Familie, Klasse, Schule"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-modell-autor",
+      "type": "exercise",
+      "title": "Wer prägte das Modell?",
+      "exercise": {
+        "id": "ex-free-modell-autor",
+        "type": "free_text",
+        "prompt": "Wie heißt das Rahmenmodell des Unterrichts (nach Helmke), in dem das Lehrangebot erst über die Nutzung durch die Lernenden zu Wirkungen führt?",
+        "card_ids": ["angebots-nutzungs-modell"],
+        "accept": ["Angebots-Nutzungs-Modell", "das Angebots-Nutzungs-Modell", "Angebots-Nutzungs-Modell des Unterrichts", "Angebot-Nutzung-Modell"],
+        "hint": "Es benennt zwei Pole: was bereitgestellt und was verarbeitet wird.",
+        "distractors": ["Reiz-Reaktions-Modell", "Mehrspeichermodell", "Stufenmodell der Entwicklung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-nutzung",
+      "type": "exercise",
+      "title": "Das entscheidende Bindeglied",
+      "exercise": {
+        "id": "ex-cloze-nutzung",
+        "type": "cloze",
+        "prompt": "Ergänze, was im Angebots-Nutzungs-Modell darüber entscheidet, ob ein Lehrangebot wirkt.",
+        "card_ids": ["nutzung-mediation"],
+        "sentence": "Ein Lehrangebot wirkt nur, wenn es von den Lernenden aktiv ___ wird.",
+        "blanks": [{"accept": ["genutzt", "verarbeitet"]}],
+        "cloze_mode": "type",
+        "hint": "Verb zum Begriff (Nutzung)."
+      }
+    },
+    {
+      "id": "ex-free-kompetenz",
+      "type": "exercise",
+      "title": "Der Kompetenzbegriff",
+      "exercise": {
+        "id": "ex-free-kompetenz",
+        "type": "free_text",
+        "prompt": "Wie heißt der Begriff für die verfügbaren oder erlernbaren Fähigkeiten, Probleme zu lösen, samt der Bereitschaft, sie erfolgreich zu nutzen (zentrale Definition nach Weinert)?",
+        "card_ids": ["kompetenz-weinert", "bildungsstandards"],
+        "accept": ["Kompetenz", "die Kompetenz", "Kompetenzen", "competence"],
+        "hint": "Bildungsstandards beschreiben sie als Ziel.",
+        "distractors": ["Intelligenz", "Begabung", "Qualifikation"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-lernsichtweisen",
+      "type": "exercise",
+      "title": "Lernen aus drei Sichten",
+      "exercise": {
+        "id": "ex-tiles-lernsichtweisen",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zu den drei großen Sichtweisen auf das Lernen zusammen.",
+        "card_ids": ["lernsichtweisen"],
+        "tiles": ["Behaviorismus", "Kognitivismus", "und", "Konstruktivismus", "erklären", "das", "Lernen"],
+        "hint": "Beginnt mit den drei (-ismus)-Begriffen.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-klassiker",
+      "type": "exercise",
+      "title": "Klassiker zuordnen",
+      "exercise": {
+        "id": "ex-match-klassiker",
+        "type": "matching",
+        "prompt": "Ordne jeder klassischen Figur ihren Beitrag zu.",
+        "card_ids": ["klassiker-disziplin", "lernsichtweisen"],
+        "pairs": [
+          {"left": "Thorndike", "right": "Lernen und Lerngesetze"},
+          {"left": "Piaget", "right": "kognitive Entwicklung"},
+          {"left": "Wygotski", "right": "Zone der nächsten Entwicklung"},
+          {"left": "Bruner", "right": "entdeckendes Lernen"}
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
