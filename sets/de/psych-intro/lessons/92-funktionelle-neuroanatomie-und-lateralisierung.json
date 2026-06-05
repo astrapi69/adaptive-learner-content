@@ -1,0 +1,264 @@
+{
+  "id": "92-funktionelle-neuroanatomie-und-lateralisierung",
+  "title": "Funktionelle Neuroanatomie und Lateralisierung",
+  "description": "Diese Lektion gibt einen Überblick über den Aufbau des Großhirns: die vier Hirnlappen und ihre Hauptfunktionen, primäre/sekundäre/assoziative Areale, motorischen und somatosensorischen Cortex (Homunkulus), die zwei Hemisphären und das Corpus callosum sowie die Lateralisierung. Die Split-Brain-Forschung wird sachlich dargestellt und der Mythos vom linkshirnigen/rechtshirnigen Menschen kritisch eingeordnet — auf Deutsch erklärt, mit den Fachbegriffen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 17,
+  "cards": [
+    {
+      "id": "frontallappen",
+      "front": "Frontallappen (Lobus frontalis)",
+      "back": "Vorderster und größter Hirnlappen. Sitz der Exekutivfunktionen: Planung, Handlungssteuerung, Impulskontrolle, Arbeitsgedächtnis und soziales Verhalten. Enthält außerdem den primär-motorischen Cortex, der willkürliche Bewegungen steuert.",
+      "notes": "Lateinisch: lobus frontalis. Englisch: frontal lobe. Vergleiche Phineas Gage (Lektion 91).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["neuroanatomie", "hirnlappen"]
+    },
+    {
+      "id": "parietallappen",
+      "front": "Parietallappen (Lobus parietalis)",
+      "back": "Scheitellappen hinter dem Frontallappen. Verarbeitet Körperempfindungen (Berührung, Temperatur, Schmerz, Lage) und räumliche Information. Hier liegt der somatosensorische Cortex; das Areal ist zentral für die Orientierung im Raum.",
+      "notes": "Lateinisch: lobus parietalis. Englisch: parietal lobe. Schädigung rechts: oft Neglect (Vernachlässigung einer Raumhälfte).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuroanatomie", "hirnlappen"]
+    },
+    {
+      "id": "temporallappen",
+      "front": "Temporallappen (Lobus temporalis)",
+      "back": "Schläfenlappen an der Seite des Gehirns. Wichtig für Hören (primär-auditorischer Cortex), Sprachverständnis (Wernicke-Areal, meist links) und Gedächtnis (der Hippocampus liegt im inneren Temporallappen).",
+      "notes": "Lateinisch: lobus temporalis. Englisch: temporal lobe.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuroanatomie", "hirnlappen"]
+    },
+    {
+      "id": "okzipitallappen",
+      "front": "Okzipitallappen (Lobus occipitalis)",
+      "back": "Hinterster Hirnlappen. Zentrum der visuellen Verarbeitung: Hier liegt der primär-visuelle Cortex, der eingehende Sehinformation zuerst verarbeitet. Schädigungen können zu Sehausfällen oder Wahrnehmungsstörungen führen.",
+      "notes": "Lateinisch: lobus occipitalis. Englisch: occipital lobe.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["neuroanatomie", "hirnlappen"]
+    },
+    {
+      "id": "primaere-areale",
+      "front": "Primäre Areale",
+      "back": "Hirnrindenbereiche, die sensorische Information zuerst empfangen oder Bewegungsbefehle direkt ausgeben (z. B. primär-visueller, primär-auditorischer, primär-motorischer Cortex). Sie verarbeiten einfache, elementare Reizmerkmale bzw. steuern konkrete Muskeln.",
+      "notes": "Englisch: primary areas. Erste Verarbeitungsstufe.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuroanatomie", "areale"]
+    },
+    {
+      "id": "assoziationsareale",
+      "front": "Assoziationsareale (Assoziationscortex)",
+      "back": "Ausgedehnte Rindenbereiche, die Information aus verschiedenen Quellen verknüpfen und integrieren. Hier entstehen höhere Leistungen wie Bedeutung, Planung, Sprache und das Zusammenfügen von Sinneseindrücken. Sie machen den größten Teil der menschlichen Großhirnrinde aus.",
+      "notes": "Englisch: association cortex. Zwischen den primären/sekundären Arealen liegen die Assoziationsareale.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuroanatomie", "areale"]
+    },
+    {
+      "id": "motorischer-cortex",
+      "front": "Primär-motorischer Cortex",
+      "back": "Streifen im hinteren Frontallappen (Gyrus praecentralis), der willkürliche Bewegungen steuert. Die Körperregionen sind systematisch abgebildet (somatotop) — diese Karte heißt motorischer Homunkulus. Stark gesteuerte Bereiche wie Hand und Gesicht nehmen besonders viel Fläche ein.",
+      "notes": "Englisch: primary motor cortex. Praecentral = vor der Zentralfurche.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuroanatomie", "cortex"]
+    },
+    {
+      "id": "somatosensorischer-cortex",
+      "front": "Somatosensorischer Cortex",
+      "back": "Streifen im vorderen Parietallappen (Gyrus postcentralis), der Körperempfindungen verarbeitet. Auch er ist somatotop gegliedert (sensorischer Homunkulus): empfindliche Bereiche wie Lippen und Fingerspitzen beanspruchen überproportional viel Rindenfläche.",
+      "notes": "Englisch: somatosensory cortex. Postcentral = hinter der Zentralfurche.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuroanatomie", "cortex"]
+    },
+    {
+      "id": "homunkulus",
+      "front": "Homunkulus",
+      "back": "Verzerrte Karte des Körpers auf dem motorischen bzw. somatosensorischen Cortex. Die Fläche eines Körperteils richtet sich nicht nach seiner Größe, sondern nach der Feinheit seiner Steuerung bzw. seiner Empfindlichkeit. Daher sind Hände, Lippen und Zunge stark überrepräsentiert.",
+      "notes": "Lateinisch: homunculus (Menschlein). Es gibt einen motorischen und einen sensorischen Homunkulus.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuroanatomie", "cortex"]
+    },
+    {
+      "id": "corpus-callosum",
+      "front": "Corpus callosum (Balken)",
+      "back": "Großes Bündel von Nervenfasern, das die beiden Großhirnhemisphären verbindet und Information zwischen ihnen austauscht. Wird der Balken durchtrennt, können die Hemisphären nicht mehr direkt kommunizieren (Split-Brain).",
+      "notes": "Lateinisch: corpus callosum. Deutsch: Balken. Englisch: corpus callosum.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["neuroanatomie", "hemisphaeren"]
+    },
+    {
+      "id": "lateralisierung",
+      "front": "Lateralisierung (Hemisphärendominanz)",
+      "back": "Tendenz, dass bestimmte Funktionen in einer Hemisphäre stärker ausgeprägt sind: Sprache meist in der linken, visuell-räumliche Verarbeitung eher in der rechten Hemisphäre. Lateralisierung ist graduell, nicht absolut — beide Hemisphären arbeiten ständig zusammen.",
+      "notes": "Englisch: lateralization. Bei den meisten Menschen ist Sprache links lateralisiert.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["neuroanatomie", "lateralisierung"]
+    },
+    {
+      "id": "split-brain",
+      "front": "Split-Brain-Forschung (Sperry, Gazzaniga)",
+      "back": "Untersuchungen an Patienten, deren Balken (gegen schwere Epilepsie) durchtrennt wurde. Reize, die nur einer Hemisphäre gezeigt wurden, konnten nur von dieser verarbeitet werden — etwa konnte ein nur rechts gezeigter Gegenstand oft nicht benannt (Sprache links), aber mit der linken Hand gegriffen werden. Roger Sperry erhielt dafür 1981 den Nobelpreis.",
+      "notes": "Englisch: split-brain research. Wichtige Belege für Lateralisierung, KEIN Beleg für getrennte Persönlichkeitstypen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["neuroanatomie", "lateralisierung", "forschung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-lappen",
+      "type": "theory",
+      "title": "Die vier Großhirnlappen",
+      "body": "# Funktionelle Neuroanatomie\n\nDie **Großhirnrinde** (Cortex) jeder Hemisphäre wird in vier **Lappen** (lateinisch *lobi*) gegliedert. Jeder Lappen hat Schwerpunkte — arbeitet aber nie allein.\n\n| Lappen | Lateinisch | Hauptfunktionen |\n|---|---|---|\n| Frontallappen | *lobus frontalis* | Planung, Exekutivfunktionen, Motorik |\n| Parietallappen | *lobus parietalis* | Raum, Somatosensorik (Körperempfindung) |\n| Temporallappen | *lobus temporalis* | Hören, Gedächtnis, Sprachverständnis |\n| Okzipitallappen | *lobus occipitalis* | Sehen |\n\nEine Merkhilfe für die Lage: vorne planen (frontal), oben/hinten fühlen und verorten (parietal), seitlich hören und erinnern (temporal), ganz hinten sehen (okzipital)."
+    },
+    {
+      "id": "areale-homunkulus",
+      "type": "theory",
+      "title": "Areale und der Homunkulus",
+      "body": "## Drei Stufen der Verarbeitung\n\nInnerhalb der Lappen unterscheidet man\n\n- **primäre Areale** — empfangen Sinnesreize zuerst oder geben Bewegungsbefehle direkt aus (z. B. primär-visueller Cortex im Okzipitallappen),\n- **sekundäre Areale** — verarbeiten diese Information weiter und komplexer,\n- **Assoziationsareale** — verknüpfen Information aus mehreren Quellen; hier entstehen Bedeutung, Planung und Sprache. Sie bilden den größten Teil der menschlichen Rinde.\n\n## Zwei Streifen am Sulcus centralis\n\nDirekt vor der Zentralfurche liegt der **primär-motorische Cortex** (Frontallappen), direkt dahinter der **somatosensorische Cortex** (Parietallappen).\n\nBeide bilden den Körper **somatotop** ab — als verzerrte Karte, den **Homunkulus** (*homunculus* = Menschlein).\n\n> Entscheidend ist nicht die Größe eines Körperteils, sondern die Feinheit seiner Steuerung bzw. Empfindlichkeit. Deshalb sind Hände, Lippen und Zunge stark überrepräsentiert."
+    },
+    {
+      "id": "hemisphaeren-mythos",
+      "type": "theory",
+      "title": "Hemisphären, Balken und der Lateralisierungs-Mythos",
+      "body": "## Zwei Hemisphären, eine Verbindung\n\nDas Großhirn besteht aus zwei **Hemisphären**, die über das **Corpus callosum** (den *Balken*) ständig Information austauschen.\n\n**Lateralisierung** bedeutet, dass manche Funktionen in einer Hemisphäre stärker ausgeprägt sind: **Sprache** meist **links**, **visuell-räumliche** Verarbeitung eher **rechts**.\n\n## Split-Brain-Forschung\n\nIst der Balken durchtrennt (früher bei schwerer Epilepsie), können die Hemisphären nicht mehr direkt kommunizieren. **Roger Sperry** und **Michael Gazzaniga** zeigten: Ein nur der rechten Hemisphäre gezeigter Gegenstand konnte oft nicht **benannt** (Sprache links), aber mit der **linken Hand gegriffen** werden. Sperry erhielt 1981 den Nobelpreis.\n\n## Der Mythos vom linkshirnigen/rechtshirnigen Menschen\n\nPopulär heißt es, manche Menschen seien *linkshirnig* (logisch) und andere *rechtshirnig* (kreativ). Das ist ein **Mythos**:\n\n- Lateralisierung ist **graduell**, nicht ein Entweder-oder.\n- Nahezu jede Aufgabe nutzt **beide Hemisphären**, die über den Balken zusammenarbeiten.\n- Es gibt keine Belege für stabile *Gehirnhälften-Persönlichkeitstypen*."
+    },
+    {
+      "id": "ex-match-lappen",
+      "type": "exercise",
+      "title": "Lappen zuordnen",
+      "exercise": {
+        "id": "ex-match-lappen",
+        "type": "matching",
+        "prompt": "Ordne jedem Hirnlappen seine Hauptfunktion zu.",
+        "card_ids": ["frontallappen", "parietallappen", "temporallappen", "okzipitallappen"],
+        "pairs": [
+          {"left": "Frontallappen", "right": "Planung, Exekutivfunktionen, Motorik"},
+          {"left": "Parietallappen", "right": "Raum und Körperempfindung (Somatosensorik)"},
+          {"left": "Temporallappen", "right": "Hören, Gedächtnis, Sprachverständnis"},
+          {"left": "Okzipitallappen", "right": "Sehen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-okzipital",
+      "type": "exercise",
+      "title": "Wo wir sehen",
+      "exercise": {
+        "id": "ex-cloze-okzipital",
+        "type": "cloze",
+        "prompt": "Ergänze den Hirnlappen, der für das Sehen zuständig ist.",
+        "card_ids": ["okzipitallappen"],
+        "sentence": "Der primär-visuelle Cortex liegt im ___ , dem hintersten Hirnlappen.",
+        "blanks": [{"accept": ["Okzipitallappen", "Lobus occipitalis", "Occipitallappen"]}],
+        "cloze_mode": "type",
+        "hint": "Ganz hinten am Gehirn."
+      }
+    },
+    {
+      "id": "ex-free-homunkulus",
+      "type": "exercise",
+      "title": "Die verzerrte Körperkarte",
+      "exercise": {
+        "id": "ex-free-homunkulus",
+        "type": "free_text",
+        "prompt": "Wie heißt die verzerrte Karte des Körpers auf dem motorischen bzw. somatosensorischen Cortex, bei der Hände und Lippen überrepräsentiert sind?",
+        "card_ids": ["homunkulus", "motorischer-cortex"],
+        "accept": ["Homunkulus", "der Homunkulus", "Homunculus", "homunculus"],
+        "hint": "Lateinisch: kleiner Mensch, Menschlein.",
+        "distractors": ["Konnektom", "Hippocampus", "Assoziationscortex"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-balken",
+      "type": "exercise",
+      "title": "Die Brücke zwischen den Hälften",
+      "exercise": {
+        "id": "ex-cloze-balken",
+        "type": "cloze",
+        "prompt": "Ergänze den Fachbegriff für das Faserbündel, das die beiden Hemisphären verbindet.",
+        "card_ids": ["corpus-callosum"],
+        "sentence": "Die beiden Großhirnhemisphären tauschen Information über das ___ , auch Balken genannt, aus.",
+        "blanks": [{"accept": ["Corpus callosum", "corpus callosum", "Corpus Callosum"]}],
+        "cloze_mode": "type",
+        "hint": "Lateinisch; deutsch: Balken."
+      }
+    },
+    {
+      "id": "ex-match-cortexstreifen",
+      "type": "exercise",
+      "title": "Cortex und Areale",
+      "exercise": {
+        "id": "ex-match-cortexstreifen",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die korrekte Kennzeichnung zu.",
+        "card_ids": ["motorischer-cortex", "somatosensorischer-cortex", "primaere-areale", "assoziationsareale"],
+        "pairs": [
+          {"left": "Primär-motorischer Cortex", "right": "steuert willkürliche Bewegungen (Frontallappen)"},
+          {"left": "Somatosensorischer Cortex", "right": "verarbeitet Körperempfindungen (Parietallappen)"},
+          {"left": "Primäre Areale", "right": "erste Verarbeitungsstufe von Reizen"},
+          {"left": "Assoziationsareale", "right": "verknüpfen Information, höhere Leistungen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-lateralisierung",
+      "type": "exercise",
+      "title": "Funktionen und Seiten",
+      "exercise": {
+        "id": "ex-free-lateralisierung",
+        "type": "free_text",
+        "prompt": "Wie heißt das Phänomen, dass bestimmte Funktionen (z. B. Sprache meist links) in einer Hemisphäre stärker ausgeprägt sind?",
+        "card_ids": ["lateralisierung"],
+        "accept": ["Lateralisierung", "die Lateralisierung", "Hemisphärendominanz", "lateralization", "Lateralisation"],
+        "hint": "Von lateral = seitlich; auch Hemisphärendominanz.",
+        "distractors": ["Plastizität", "Somatotopie", "Lokalisation"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-mythos",
+      "type": "exercise",
+      "title": "Den Mythos richtigstellen",
+      "exercise": {
+        "id": "ex-tiles-mythos",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen, der das Klischee vom linkshirnigen/rechtshirnigen Menschen korrigiert.",
+        "card_ids": ["lateralisierung", "split-brain"],
+        "tiles": ["Lateralisierung", "ist", "graduell", "und", "beide", "Hemisphären", "arbeiten", "zusammen"],
+        "hint": "Beginnt mit 'Lateralisierung ist graduell …'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-splitbrain",
+      "type": "exercise",
+      "title": "Split-Brain einordnen",
+      "exercise": {
+        "id": "ex-cloze-splitbrain",
+        "type": "cloze",
+        "prompt": "Ergänze den Forscher, der für die Split-Brain-Untersuchungen 1981 den Nobelpreis erhielt.",
+        "card_ids": ["split-brain"],
+        "sentence": "Für die Split-Brain-Forschung an Patienten mit durchtrenntem Balken erhielt Roger ___ 1981 den Nobelpreis.",
+        "blanks": [{"accept": ["Sperry", "Sperry.", "Roger Sperry"]}],
+        "cloze_mode": "type",
+        "hint": "Zusammen mit Gazzaniga bekannt geworden."
+      }
+    }
+  ]
+}
