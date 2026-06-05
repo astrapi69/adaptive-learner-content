@@ -44,6 +44,7 @@ sets/
 │   ├── fr-a1/          # Target: French A1
 │   ├── fr-a2/          # Target: French A2
 │   ├── es-a1/          # Target: Spanish A1
+│   ├── es-a2/          # Target: Spanish A2
 │   └── es-b1/          # Target: Spanish B1
 └── manifest.yaml       # Root manifest
 ```

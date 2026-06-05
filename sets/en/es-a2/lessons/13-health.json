@@ -1,0 +1,330 @@
+{
+  "id": "es-a2-13-health",
+  "title": "Health and the Body",
+  "description": "Talk about how you feel: body parts (la cabeza, la garganta, la espalda...), symptoms with DOLER (which works like gustar) and tener (tener fiebre, gripe), a visit to the doctor or pharmacy, and giving simple advice with deber / tener que and gentle commands.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "body-parts-core",
+      "front": "la cabeza, el estómago, la garganta, la espalda",
+      "back": "the head, the stomach, the throat, the back",
+      "notes": "Core body parts. Note the genders: **la** cabeza, **el** estómago, **la** garganta, **la** espalda. *Estómago* carries an accent on the first **ó**.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "health", "body"]
+    },
+    {
+      "id": "body-parts-limbs",
+      "front": "el brazo, la pierna, el pie, la mano",
+      "back": "the arm, the leg, the foot, the hand",
+      "notes": "*La mano* is feminine even though it ends in **-o** — a classic exception: *la mano derecha* (the right hand). Plurals: *los pies*, *las manos*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "health", "body"]
+    },
+    {
+      "id": "body-parts-dientes",
+      "front": "los dientes",
+      "back": "the teeth (sg. el diente = the tooth)",
+      "notes": "Singular **el diente**, plural **los dientes**. *Me duelen los dientes* = my teeth hurt (plural, so *duelen*).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "health", "body"]
+    },
+    {
+      "id": "doler-structure",
+      "front": "Me duele la cabeza. / Me duelen las piernas.",
+      "back": "My head hurts. / My legs hurt. (doler = to hurt)",
+      "notes": "**Doler works like gustar.** The body part is the *subject*: *duele* with one part, *duelen* with several. Literally 'the head hurts to me'. Use the **definite article** (la cabeza), never *mi cabeza*. Never say *Yo duelo*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "health", "doler"]
+    },
+    {
+      "id": "doler-pronouns",
+      "front": "me / te / le duele",
+      "back": "it hurts me / you / him-her",
+      "notes": "Change the pronoun to change *whose* part hurts: *Me duele* (it hurts me), *Te duele* (it hurts you), *Le duele* (it hurts him/her). The verb still agrees with the body part, not the person.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "health", "doler"]
+    },
+    {
+      "id": "tener-symptoms",
+      "front": "tener fiebre, tener tos, tener gripe",
+      "back": "to have a fever, to have a cough, to have the flu",
+      "notes": "Many symptoms use **tener** (no article): *Tengo fiebre / tos / gripe*. Also *tener dolor de...*: *Tengo dolor de cabeza* = I have a headache.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "health", "symptoms"]
+    },
+    {
+      "id": "encontrarse-mal",
+      "front": "Me encuentro mal.",
+      "back": "I feel ill / I don't feel well.",
+      "notes": "**Encontrarse** is reflexive here ('to feel'): *me encuentro, te encuentras, se encuentra*. *Me encuentro mal* = I feel unwell; *Me encuentro mejor* = I feel better.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "health", "reflexive"]
+    },
+    {
+      "id": "doctor-pharmacy",
+      "front": "el médico, la farmacia, la receta",
+      "back": "the doctor, the pharmacy, the prescription",
+      "notes": "*El médico / la médica* = the doctor. *La farmacia* = pharmacy. *La receta* means both 'prescription' and 'recipe' — context decides.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "health", "doctor"]
+    },
+    {
+      "id": "medicine",
+      "front": "las pastillas, el jarabe",
+      "back": "the pills / tablets, the (cough) syrup",
+      "notes": "*Las pastillas* = pills/tablets; *el jarabe* = syrup. *Tómate las pastillas* = take the pills.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "health", "medicine"]
+    },
+    {
+      "id": "doctor-questions",
+      "front": "¿Qué le pasa? / ¿Qué te pasa?",
+      "back": "What's wrong (with you)? / What's the matter?",
+      "notes": "The doctor uses the formal *¿Qué **le** pasa?* (with *usted*); friends use *¿Qué **te** pasa?* Answer with *Me duele...* or *Me encuentro mal*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "health", "doctor"]
+    },
+    {
+      "id": "advice-deber",
+      "front": "Debes descansar. / Tienes que beber agua.",
+      "back": "You should rest. / You have to drink water.",
+      "notes": "Give advice with **deber** + infinitive (*debes descansar* = you should rest) or **tener que** + infinitive (*tienes que beber agua* = you have to drink water). The second verb stays in the infinitive.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "health", "advice"]
+    },
+    {
+      "id": "advice-imperative",
+      "front": "Tómate esto. / Ve al médico. / Descansa.",
+      "back": "Take this. / Go to the doctor. / Rest.",
+      "notes": "Gentle commands (tú imperative): *descansa* (rest), *ve al médico* (go to the doctor), *tómate esto* (take this — *toma* + reflexive *te*). These are everyday, friendly suggestions.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "health", "imperative"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "The body and how you feel",
+      "body": "# Health and the body\n\nLet's learn to say what hurts and how we feel. First, the **body parts** — and notice the article and gender of each:\n\n| Spanish | English |\n|---|---|\n| la cabeza | the head |\n| el estómago | the stomach |\n| la garganta | the throat |\n| la espalda | the back |\n| el brazo | the arm |\n| la pierna | the leg |\n| el pie | the foot |\n| la mano | the hand |\n| los dientes | the teeth |\n\n> ⚠️ **la mano** is feminine even though it ends in **-o**.\n\nTo say a symptom, two patterns are common:\n\n- **tener** + symptom: *Tengo **fiebre** / **tos** / **gripe*** (I have a fever / cough / the flu).\n- **tener dolor de** + part: *Tengo **dolor de cabeza*** (I have a headache).\n\nAnd to say how you feel in general, use the reflexive **encontrarse**: *Me encuentro **mal*** (I feel ill), *Me encuentro **mejor*** (I feel better)."
+    },
+    {
+      "id": "step-doler",
+      "type": "theory",
+      "title": "DOLER works like GUSTAR",
+      "body": "## Saying what hurts: doler\n\nThe verb **doler** (to hurt) does **not** work like English *to hurt*. It works exactly like **gustar**.\n\nThe **body part is the subject**, and the person is an indirect-object pronoun (*me, te, le...*). Literally you say *the head hurts **to me***:\n\n> **Me duele la cabeza.** = My head hurts.\n> **Me duelen las piernas.** = My legs hurt.\n\nThe verb agrees with the **body part**, not the person:\n\n| | one part | several parts |\n|---|---|---|\n| me (to me) | me **duele** la espalda | me **duelen** los pies |\n| te (to you) | te **duele** la garganta | te **duelen** las manos |\n| le (to him/her) | le **duele** el estómago | le **duelen** los dientes |\n\nTwo common English-speaker mistakes:\n\n> ❌ **Yo duelo la cabeza.** — *doler* is never conjugated to match *yo*. The head is the subject, so it's *Me **duele** la cabeza*.\n\n> ❌ **Me duele mi cabeza.** — use the **definite article**, not a possessive: *Me duele **la** cabeza*. The pronoun *me* already tells us whose head it is.\n\nThere is also *tener dolor de...* (*Tengo dolor de cabeza*), but never mix the two: don't say *Tengo duele*."
+    },
+    {
+      "id": "step-doctor-advice",
+      "type": "theory",
+      "title": "At the doctor and giving advice",
+      "body": "## At the doctor or pharmacy\n\nUseful words: **el médico** (the doctor), **la farmacia** (the pharmacy), **la receta** (the prescription), **las pastillas** (pills), **el jarabe** (syrup).\n\nThe doctor asks (formally, with *usted*): **¿Qué le pasa?** (What's wrong?). A friend asks: **¿Qué te pasa?** You answer with *Me duele...* or **Me encuentro mal** (I feel ill).\n\n## Giving advice\n\nThree easy ways to suggest what someone should do:\n\n- **deber** + infinitive — a soft 'should': *Debes **descansar*** (You should rest).\n- **tener que** + infinitive — a stronger 'have to': *Tienes que **beber** agua* (You have to drink water).\n- gentle **commands** (tú imperative): *Descansa* (Rest), *Ve al médico* (Go to the doctor), *Tómate esto* (Take this).\n\nNotice the second verb after *deber* and *tener que* stays in the **infinitive**: *Debes **ir** al médico*, not *Debes vas*."
+    },
+    {
+      "id": "ex-match-body",
+      "type": "exercise",
+      "title": "Match the body parts",
+      "exercise": {
+        "id": "ex-match-body",
+        "type": "matching",
+        "prompt": "Match each Spanish body part with its English meaning.",
+        "card_ids": ["body-parts-core", "body-parts-limbs", "body-parts-dientes"],
+        "pairs": [
+          {"left": "la cabeza", "right": "the head"},
+          {"left": "la garganta", "right": "the throat"},
+          {"left": "la espalda", "right": "the back"},
+          {"left": "la mano", "right": "the hand"},
+          {"left": "los dientes", "right": "the teeth"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-head-hurts",
+      "type": "exercise",
+      "title": "My head hurts",
+      "exercise": {
+        "id": "ex-free-head-hurts",
+        "type": "free_text",
+        "prompt": "Translate: *My head hurts.* (use doler)",
+        "card_ids": ["doler-structure"],
+        "accept": ["Me duele la cabeza.", "me duele la cabeza", "Me duele la cabeza", "Me duele la cabeza!"],
+        "hint": "doler works like gustar: the head is the subject. Use the article la, not mi.",
+        "distractors": ["Yo duelo la cabeza.", "Me duele mi cabeza.", "Me duelen la cabeza."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-legs",
+      "type": "exercise",
+      "title": "One part or several?",
+      "exercise": {
+        "id": "ex-cloze-legs",
+        "type": "cloze",
+        "prompt": "Fill in the correct form of *doler*. The body part is plural!",
+        "card_ids": ["doler-structure"],
+        "sentence": "Me ___ las piernas.",
+        "blanks": [{"accept": ["duelen"]}],
+        "cloze_mode": "type",
+        "hint": "doler agrees with the body part. 'las piernas' is plural, so the verb is plural too."
+      }
+    },
+    {
+      "id": "ex-tiles-throat",
+      "type": "exercise",
+      "title": "Build: I have a sore throat",
+      "exercise": {
+        "id": "ex-tiles-throat",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *My throat hurts.*",
+        "card_ids": ["doler-structure", "body-parts-core"],
+        "tiles": ["Me", "duele", "la", "garganta"],
+        "hint": "doler + la garganta (singular, so duele). Start with the pronoun Me.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-fever",
+      "type": "exercise",
+      "title": "A symptom with tener",
+      "exercise": {
+        "id": "ex-cloze-fever",
+        "type": "cloze",
+        "prompt": "Fill in the verb to say 'I have a fever'.",
+        "card_ids": ["tener-symptoms"],
+        "sentence": "___ fiebre y tos.",
+        "blanks": [{"accept": ["Tengo", "tengo"]}],
+        "cloze_mode": "type",
+        "hint": "Symptoms use tener: yo form = tengo. No article before fiebre."
+      }
+    },
+    {
+      "id": "ex-pic-feel-ill",
+      "type": "exercise",
+      "title": "Which is correct?",
+      "exercise": {
+        "id": "ex-pic-feel-ill",
+        "type": "picture_choice",
+        "prompt": "You want to tell the doctor 'I feel ill'. Which sentence is correct?",
+        "card_ids": ["encontrarse-mal"],
+        "images": [
+          {"src": "assets/img/encuentro-mal-1.png", "label": "Me encuentro mal.", "is_correct": "true"},
+          {"src": "assets/img/encuentro-mal-2.png", "label": "Yo encuentro mal."},
+          {"src": "assets/img/encuentro-mal-3.png", "label": "Me encuentro malo."},
+          {"src": "assets/img/encuentro-mal-4.png", "label": "Me duele mal."}
+        ],
+        "hint": "encontrarse is reflexive: me encuentro. Use the adverb mal (badly), not malo.",
+        "distractors": ["Yo encuentro mal.", "Me encuentro malo.", "Me duele mal."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-go-doctor",
+      "type": "exercise",
+      "title": "Giving advice",
+      "exercise": {
+        "id": "ex-free-go-doctor",
+        "type": "free_text",
+        "prompt": "Translate: *You should rest.* (use deber)",
+        "card_ids": ["advice-deber"],
+        "accept": ["Debes descansar.", "debes descansar", "Debes descansar", "Tú debes descansar."],
+        "hint": "deber + infinitive: debes (tú) + descansar.",
+        "distractors": ["Debes descansas.", "Deber descansar.", "Debo descansar."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-doctor",
+      "type": "exercise",
+      "title": "At the pharmacy",
+      "exercise": {
+        "id": "ex-match-doctor",
+        "type": "matching",
+        "prompt": "Match each Spanish word with its English meaning.",
+        "card_ids": ["doctor-pharmacy", "medicine"],
+        "pairs": [
+          {"left": "el médico", "right": "the doctor"},
+          {"left": "la farmacia", "right": "the pharmacy"},
+          {"left": "la receta", "right": "the prescription"},
+          {"left": "las pastillas", "right": "the pills"},
+          {"left": "el jarabe", "right": "the syrup"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-his-back",
+      "type": "exercise",
+      "title": "Someone else's pain",
+      "exercise": {
+        "id": "ex-free-his-back",
+        "type": "free_text",
+        "prompt": "Translate: *His back hurts.* (use doler)",
+        "card_ids": ["doler-pronouns", "doler-structure"],
+        "accept": ["Le duele la espalda.", "le duele la espalda", "Le duele la espalda", "A él le duele la espalda."],
+        "hint": "Use le (to him) + duele (one part) + la espalda. Use the article, not su.",
+        "distractors": ["Le duele su espalda.", "Le duelen la espalda.", "Él duele la espalda."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-take-this",
+      "type": "exercise",
+      "title": "Build: Take this",
+      "exercise": {
+        "id": "ex-tiles-take-this",
+        "type": "word_tiles",
+        "prompt": "Arrange the words for a gentle command: *Take this and rest.*",
+        "card_ids": ["advice-imperative"],
+        "tiles": ["Tómate", "esto", "y", "descansa"],
+        "hint": "Tómate esto (take this) + y + descansa (rest).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-whats-wrong",
+      "type": "exercise",
+      "title": "What's wrong?",
+      "exercise": {
+        "id": "ex-cloze-whats-wrong",
+        "type": "cloze",
+        "prompt": "The doctor (using usted) asks what is wrong. Fill in the pronoun.",
+        "card_ids": ["doctor-questions"],
+        "sentence": "¿Qué ___ pasa? Me encuentro mal, doctor.",
+        "blanks": [{"accept": ["le"]}],
+        "cloze_mode": "type",
+        "hint": "Formal 'you' (usted) uses the pronoun le: ¿Qué le pasa?"
+      }
+    },
+    {
+      "id": "ex-free-fever-doctor",
+      "type": "exercise",
+      "title": "Putting it together",
+      "exercise": {
+        "id": "ex-free-fever-doctor",
+        "type": "free_text",
+        "prompt": "Translate: *I have a fever. You have to go to the doctor.* (tener fiebre; tener que)",
+        "card_ids": ["tener-symptoms", "advice-deber"],
+        "accept": ["Tengo fiebre. Tienes que ir al médico.", "tengo fiebre tienes que ir al médico", "Tengo fiebre. Tienes que ir al medico.", "Tengo fiebre. Tienes que ir al médico"],
+        "hint": "Tengo fiebre (tener, no article). Then tienes que + infinitive ir + al médico.",
+        "distractors": ["Tengo fiebre. Tienes que vas al médico.", "Tengo la fiebre. Tienes que ir al médico.", "Tengo fiebre. Debes ir el médico."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

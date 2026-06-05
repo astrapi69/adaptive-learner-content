@@ -1,0 +1,330 @@
+{
+  "id": "es-a2-10-subjuntivo-introduction",
+  "title": "First Contact with the Subjunctive (Presente de Subjuntivo)",
+  "description": "A gentle introduction to the subjunctive MOOD: what it is, why English speakers find it strange, how to form it (flip the vowel from the yo form), the most common irregulars, and the everyday triggers for wishes, emotions and recommendations after que (Quiero que estudies, Espero que tengas, Ojalá...).",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "subj-what-is",
+      "front": "el subjuntivo (modo)",
+      "back": "the subjunctive — a verb MOOD for wishes, emotions, doubt and the unreal",
+      "notes": "The subjunctive is **not a tense** but a **mood** — a way of coloring the verb. Spanish uses it for things that are **wished for, felt about, doubted, or not yet real**, rather than stated as plain facts. English barely has it anymore, so it feels new — that's normal. Don't worry: you'll mostly recognize it by the patterns that **trigger** it.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "subjunctive", "concept"]
+    },
+    {
+      "id": "subj-que-trigger",
+      "front": "Quiero que (tú) estudies.",
+      "back": "I want you to study. (trigger + que + subjunctive)",
+      "notes": "The subjunctive almost always appears in a second clause introduced by **que**, when there are **two different subjects**. *Quiero* (I want) → *que* → *estudies* (you study). English says \"I want **you to** study\"; Spanish has no \"to + verb\" here — it uses *que* + subjunctive.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjunctive", "trigger"]
+    },
+    {
+      "id": "subj-form-ar",
+      "front": "hablar → hable, hables, hable, hablemos, habléis, hablen",
+      "back": "present subjunctive of -AR verbs (flip to -e)",
+      "notes": "Take the **yo** form of the present (*hablo*), drop the **-o**, and add the **opposite** vowel. For **-AR** verbs the endings become **-e, -es, -e, -emos, -éis, -en**. So *hablo* → *hable*. The vowel \"flips\" from a to e.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "subjunctive", "formation"]
+    },
+    {
+      "id": "subj-form-er-ir",
+      "front": "comer → coma...; vivir → viva...",
+      "back": "present subjunctive of -ER/-IR verbs (flip to -a)",
+      "notes": "**-ER** and **-IR** verbs share one set: **-a, -as, -a, -amos, -áis, -an**. From the yo form: *como* → *coma*; *vivo* → *viva*. The vowel \"flips\" from e/i to a. (Notice -AR uses *e*, -ER/-IR use *a* — the mirror image of the present.)",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "subjunctive", "formation"]
+    },
+    {
+      "id": "subj-irreg-yo",
+      "front": "tener→tenga, hacer→haga, salir→salga, decir→diga",
+      "back": "yo-form irregulars carry into the subjunctive",
+      "notes": "Verbs with an irregular **yo** form keep that irregularity throughout the subjunctive. *tengo* → **tenga**, *hago* → **haga**, *salgo* → **salga**, *digo* → **diga**. The rule is the same: take the yo form, drop -o, add -a endings.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjunctive", "irregular"]
+    },
+    {
+      "id": "subj-irreg-true",
+      "front": "ser→sea, ir→vaya, estar→esté, haber→haya, saber→sepa, dar→dé",
+      "back": "the few truly irregular subjunctives (memorize)",
+      "notes": "A small group does **not** come from the yo form and must simply be learned: *ser* → **sea**, *ir* → **vaya**, *estar* → **esté**, *haber* → **haya**, *saber* → **sepa**, *dar* → **dé**. These are very frequent, so they pay off quickly.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjunctive", "irregular"]
+    },
+    {
+      "id": "subj-wishes",
+      "front": "Quiero que... / Espero que tengas...",
+      "back": "wishes and wants trigger the subjunctive",
+      "notes": "Verbs of **wanting and hoping** trigger the subjunctive after *que*: *Quiero que vengas* (I want you to come), *Espero que tengas un buen día* (I hope you have a good day). The wish is about someone else's action, so it isn't a plain fact — hence the subjunctive.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjunctive", "trigger"]
+    },
+    {
+      "id": "subj-emotions",
+      "front": "Me alegro de que... / Es una pena que...",
+      "back": "emotions trigger the subjunctive",
+      "notes": "Expressions of **emotion** about something take the subjunctive: *Me alegro de que estés aquí* (I'm glad you're here), *Es una pena que no puedas venir* (It's a pity you can't come). You're reacting to the situation, not reporting it as a neutral fact.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjunctive", "trigger"]
+    },
+    {
+      "id": "subj-recommend",
+      "front": "Te recomiendo que... / Es importante que...",
+      "back": "recommendations and advice trigger the subjunctive",
+      "notes": "**Advice and recommendations** also trigger it: *Te recomiendo que descanses* (I recommend you rest), *Es importante que estudies* (It's important that you study). You're influencing someone's behavior, which is not (yet) a fact.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjunctive", "trigger"]
+    },
+    {
+      "id": "subj-ojala",
+      "front": "Ojalá (que)...",
+      "back": "Ojalá = I hope / I wish (always + subjunctive)",
+      "notes": "*Ojalá* is a fixed word meaning **I hope / I wish** (originally from Arabic). It is **always** followed by the subjunctive, with or without *que*: *Ojalá (que) llueva* (I hope it rains), *Ojalá tengas suerte* (I wish you luck). A handy, very common trigger.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "subjunctive", "trigger"]
+    },
+    {
+      "id": "subj-same-subject",
+      "front": "Quiero estudiar. vs Quiero que estudies.",
+      "back": "no subject change → infinitive; subject change → que + subjunctive",
+      "notes": "If the subject **does not change**, use the **infinitive**, not the subjunctive: *Quiero estudiar* (I want to study — same \"I\"). If the second subject is **different**, use *que* + subjunctive: *Quiero que (tú) estudies* (I want **you** to study). The change of subject is your signal.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "subjunctive", "contrast"]
+    },
+    {
+      "id": "subj-english-pitfall",
+      "front": "I want you to study.  →  Quiero que estudies.  (not: Quiero tú estudiar)",
+      "back": "English 'want you to' becomes que + subjunctive",
+      "notes": "English uses a **plain verb** (\"that you study\", \"you to study\") where Spanish needs the subjunctive. Don't say *Quiero tú estudiar* or *Quiero que estudias* (that's indicative). The fix: **que + subjunctive** → *Quiero que estudies*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "subjunctive", "error"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "What on earth is the subjunctive?",
+      "body": "# Meet the subjunctive (gently!)\n\nThe **subjuntivo** is not a new tense — it's a verb **mood**, a different \"flavor\" of the verb. Spanish keeps two everyday moods:\n\n- the **indicative**, for stating facts: *Estudias español.* (You study Spanish.)\n- the **subjunctive**, for things that are **wished for, felt about, doubted, recommended, or simply not (yet) real**.\n\n> Take a breath: this almost certainly feels strange, and that's completely normal.\n\nThe good news: you don't decide \"is this real or unreal?\" from scratch each time. The subjunctive is **triggered** by certain expressions, and it almost always shows up in a second clause after the little word **que**:\n\n> **Quiero que** (tú) **estudies.** — I want you to study.\n\nFor now, just two goals: (1) **recognize** the common triggers, and (2) **form** the verb correctly. We'll keep it light."
+    },
+    {
+      "id": "step-why-hard",
+      "type": "theory",
+      "title": "Why this feels so foreign to English speakers",
+      "body": "## It barely exists in English\n\nModern English has *almost* lost the subjunctive, so your ear has nothing to compare it to. The few survivors are fossilized:\n\n- *I suggest that he **be** on time.* (not *is*)\n- *If I **were** you...* (not *was*)\n- *God **save** the Queen.*\n\nMost of the time English just uses an ordinary verb or an infinitive where Spanish reaches for the subjunctive:\n\n| English | Spanish |\n|---|---|\n| I want **you to study** | Quiero que **estudies** |\n| I hope **you have** a good day | Espero que **tengas** un buen día |\n| It's important **that you rest** | Es importante que **descanses** |\n\nNotice the trap: English says \"want **you to**\", with a plain verb. There is **no** *to* + verb here in Spanish, and **no** plain present (*estudias*) either — Spanish needs **que + subjunctive** (*estudies*).\n\nSo what does the subjunctive \"feel\" like? Think of it as the verb form for **what's in someone's head**: a wish, a hope, an emotion, a piece of advice — not a flat report of reality. If a sentence is bending reality toward what someone *wants, fears, or recommends*, that's its home turf."
+    },
+    {
+      "id": "step-formation",
+      "type": "theory",
+      "title": "Forming it: flip the vowel",
+      "body": "## A simple recipe\n\n1. Take the **yo** form of the present (*hablo, como, tengo*).\n2. Drop the **-o**.\n3. Add the **opposite** endings (the vowel \"flips\"):\n\n| | -AR (*hablar*) | -ER/-IR (*comer / vivir*) |\n|---|---|---|\n| que yo | hable | coma / viva |\n| que tú | hables | comas / vivas |\n| que él/ella | hable | coma / viva |\n| que nosotros | hablemos | comamos / vivamos |\n| que vosotros | habléis | comáis / viváis |\n| que ellos | hablen | coman / vivan |\n\n**-AR verbs take *e*; -ER/-IR verbs take *a*** — the mirror image of the normal present.\n\n**Irregulars are easy if the yo form is irregular** — it carries straight over: *tengo* → **tenga**, *hago* → **haga**, *salgo* → **salga**, *digo* → **diga**.\n\nOnly a handful must be memorized outright (they don't come from the yo form):\n\n> *ser* → **sea**, *ir* → **vaya**, *estar* → **esté**, *haber* → **haya**, *saber* → **sepa**, *dar* → **dé**.\n\n**One last rule of thumb:** same subject → use the **infinitive** (*Quiero estudiar*). Different subject after *que* → use the **subjunctive** (*Quiero que estudies*)."
+    },
+    {
+      "id": "ex-match-yoform",
+      "type": "exercise",
+      "title": "Match: verb → subjunctive yo form",
+      "exercise": {
+        "id": "ex-match-yoform",
+        "type": "matching",
+        "prompt": "Match each infinitive with its present-subjunctive *yo* form.",
+        "card_ids": ["subj-form-ar", "subj-form-er-ir", "subj-irreg-yo"],
+        "pairs": [
+          {"left": "hablar", "right": "hable"},
+          {"left": "comer", "right": "coma"},
+          {"left": "vivir", "right": "viva"},
+          {"left": "tener", "right": "tenga"},
+          {"left": "hacer", "right": "haga"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-trueirreg",
+      "type": "exercise",
+      "title": "Match the true irregulars",
+      "exercise": {
+        "id": "ex-match-trueirreg",
+        "type": "matching",
+        "prompt": "Match each verb with its (truly irregular) present-subjunctive *yo* form.",
+        "card_ids": ["subj-irreg-true"],
+        "pairs": [
+          {"left": "ser", "right": "sea"},
+          {"left": "ir", "right": "vaya"},
+          {"left": "estar", "right": "esté"},
+          {"left": "saber", "right": "sepa"},
+          {"left": "dar", "right": "dé"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-venir",
+      "type": "exercise",
+      "title": "After 'Espero que...'",
+      "exercise": {
+        "id": "ex-cloze-venir",
+        "type": "cloze",
+        "prompt": "Fill in the present subjunctive of *venir* (to come) for *tú*.",
+        "card_ids": ["subj-wishes", "subj-irreg-yo"],
+        "sentence": "Espero que (tú) ___ (venir) mañana.",
+        "blanks": [{"accept": ["vengas"]}],
+        "cloze_mode": "type",
+        "hint": "yo form is *vengo* → drop -o, add -as → vengas."
+      }
+    },
+    {
+      "id": "ex-cloze-estudiar",
+      "type": "exercise",
+      "title": "I want you to study",
+      "exercise": {
+        "id": "ex-cloze-estudiar",
+        "type": "cloze",
+        "prompt": "Fill in the present subjunctive of *estudiar* for *tú*.",
+        "card_ids": ["subj-que-trigger", "subj-form-ar"],
+        "sentence": "Quiero que (tú) ___ (estudiar) más.",
+        "blanks": [{"accept": ["estudies"]}],
+        "cloze_mode": "type",
+        "hint": "-AR verb: estudio → drop -o, flip the vowel to e → estudies (not estudias)."
+      }
+    },
+    {
+      "id": "ex-cloze-estar",
+      "type": "exercise",
+      "title": "An emotion + a true irregular",
+      "exercise": {
+        "id": "ex-cloze-estar",
+        "type": "cloze",
+        "prompt": "Fill in the present subjunctive of *estar* for *tú*.",
+        "card_ids": ["subj-emotions", "subj-irreg-true"],
+        "sentence": "Me alegro de que (tú) ___ (estar) aquí.",
+        "blanks": [{"accept": ["estés"]}],
+        "cloze_mode": "type",
+        "hint": "*estar* is truly irregular in the subjunctive: esté, estés, esté..."
+      }
+    },
+    {
+      "id": "ex-tiles-want-study",
+      "type": "exercise",
+      "title": "Build: I want you to study",
+      "exercise": {
+        "id": "ex-tiles-want-study",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I want you to study.*",
+        "card_ids": ["subj-que-trigger", "subj-english-pitfall"],
+        "tiles": ["Quiero", "que", "estudies"],
+        "hint": "English 'want you to' = querer + que + subjunctive. No word for 'to' here.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-ojala",
+      "type": "exercise",
+      "title": "Build: I hope it rains",
+      "exercise": {
+        "id": "ex-tiles-ojala",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I hope it rains tomorrow.* (use Ojalá)",
+        "card_ids": ["subj-ojala"],
+        "tiles": ["Ojalá", "llueva", "mañana"],
+        "hint": "*Ojalá* = I hope, and it is always followed by the subjunctive (*llover* → llueva).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-recommend",
+      "type": "exercise",
+      "title": "A recommendation",
+      "exercise": {
+        "id": "ex-free-recommend",
+        "type": "free_text",
+        "prompt": "Translate: *I recommend that you rest.* (use Te recomiendo que + descansar)",
+        "card_ids": ["subj-recommend", "subj-form-ar"],
+        "accept": ["Te recomiendo que descanses.", "te recomiendo que descanses", "Te recomiendo que descanses"],
+        "hint": "descansar is -AR: descanso → descanses (flip a to e).",
+        "distractors": ["Te recomiendo que descansas.", "Te recomiendo descansar.", "Te recomiendo que descanse."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-want-study",
+      "type": "exercise",
+      "title": "The classic English trap",
+      "exercise": {
+        "id": "ex-free-want-study",
+        "type": "free_text",
+        "prompt": "Translate: *I want you to study.* (one person 'you' = tú)",
+        "card_ids": ["subj-english-pitfall", "subj-que-trigger"],
+        "accept": ["Quiero que estudies.", "quiero que estudies", "Quiero que estudies", "Quiero que tú estudies."],
+        "hint": "There is no 'to' here. Use que + subjunctive: Quiero que estudies.",
+        "distractors": ["Quiero que estudias.", "Quiero tú estudiar.", "Quiero estudiar."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-glad-here",
+      "type": "exercise",
+      "title": "An emotion with ser/estar",
+      "exercise": {
+        "id": "ex-free-glad-here",
+        "type": "free_text",
+        "prompt": "Translate: *I'm glad you're here.* ('you' = tú; use Me alegro de que + estar)",
+        "card_ids": ["subj-emotions", "subj-irreg-true"],
+        "accept": ["Me alegro de que estés aquí.", "me alegro de que estés aqui", "Me alegro de que estés aquí", "Me alegro de que tú estés aquí."],
+        "hint": "emotion trigger + que + subjunctive of estar → estés.",
+        "distractors": ["Me alegro de que estás aquí.", "Me alegro de que seas aquí.", "Me alegro de estar aquí."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-want-eat",
+      "type": "exercise",
+      "title": "Which one is correct?",
+      "exercise": {
+        "id": "ex-pic-want-eat",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly means 'I want you to eat more'?",
+        "card_ids": ["subj-english-pitfall", "subj-form-er-ir"],
+        "images": [
+          {"src": "assets/img/quiero-comas-1.png", "label": "Quiero que comas más.", "is_correct": "true"},
+          {"src": "assets/img/quiero-comas-2.png", "label": "Quiero que comes más."},
+          {"src": "assets/img/quiero-comas-3.png", "label": "Quiero tú comer más."},
+          {"src": "assets/img/quiero-comas-4.png", "label": "Quiero comer más."}
+        ],
+        "hint": "Different subject → que + subjunctive of comer (e/i flips to a) → comas.",
+        "distractors": ["Quiero que comes más.", "Quiero tú comer más.", "Quiero comer más."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-infinitive",
+      "type": "exercise",
+      "title": "Same subject? Use the infinitive",
+      "exercise": {
+        "id": "ex-cloze-infinitive",
+        "type": "cloze",
+        "prompt": "Same subject (I want / I travel), so NO subjunctive. Fill in the correct form of *viajar*.",
+        "card_ids": ["subj-same-subject"],
+        "sentence": "Quiero ___ (viajar) a España.",
+        "blanks": [{"accept": ["viajar"]}],
+        "cloze_mode": "type",
+        "hint": "No change of subject and no *que* → use the plain infinitive: viajar."
+      }
+    }
+  ]
+}

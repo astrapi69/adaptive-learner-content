@@ -1,0 +1,331 @@
+{
+  "id": "es-a2-04-futuro-simple",
+  "title": "The Simple Future (Futuro Simple)",
+  "description": "Form the future by adding one set of endings (-é, -ás, -á, -emos, -éis, -án) to the WHOLE infinitive — hablaré, comeré, viviré. Learn the common irregular stems (tendr-, podr-, har-, dir-, saldr-...), the uses (predictions, promises) and the future of probability (¿Dónde estará Juan?).",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "fut-regular-endings",
+      "front": "hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán",
+      "back": "simple future of regular verbs (hablar = to speak)",
+      "notes": "One set of endings for **all** verbs: **-é, -ás, -á, -emos, -éis, -án**. They attach to the **whole infinitive**, not a stem: *hablar* + *é* = **hablaré** (I will speak). All forms carry a written accent except *nosotros* (*hablaremos*).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "future", "verbs"]
+    },
+    {
+      "id": "fut-er-ir-same",
+      "front": "comeré / viviré",
+      "back": "-ER and -IR take the same future endings as -AR",
+      "notes": "Unlike the present, the future uses **one** set of endings for *-AR, -ER* and *-IR*. The base is always the **full infinitive**: *comer* → **comeré** (not *comé*), *vivir* → **viviré**. *Comeré más tarde* = I will eat later.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "future", "verbs"]
+    },
+    {
+      "id": "fut-no-will-word",
+      "front": "Saldré. = I will leave.  ✗ Yo will salir.",
+      "back": "no separate word for 'will' — the ending carries it",
+      "notes": "English uses a helper word *will* (*I will go*). Spanish has **no** word for *will* — the future ending alone carries that meaning: *Iré* = I will go. Never add a separate word for *will*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "future", "error"]
+    },
+    {
+      "id": "fut-tener",
+      "front": "tendré, tendrás, tendrá, tendremos, tendréis, tendrán",
+      "back": "future of tener (to have) — stem tendr-",
+      "notes": "*tener* drops the *e* and adds a *d*: stem **tendr-**. The endings are the same: *tendré, tendrás...* *Tendré tiempo mañana* = I'll have time tomorrow. Same pattern: *poner* → **pondr-**, *salir* → **saldr-**, *venir* → **vendr-**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "future", "irregular"]
+    },
+    {
+      "id": "fut-poder-saber-querer",
+      "front": "podr- / sabr- / querr- / habr-",
+      "back": "stems that just drop a vowel: poder, saber, querer, haber",
+      "notes": "These lose the infinitive vowel: *poder* → **podr-**, *saber* → **sabr-**, *querer* → **querr-** (double r), *haber* → **habr-**. E.g. *Podré ir* = I will be able to go; *Habrá una fiesta* = There will be a party.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "future", "irregular"]
+    },
+    {
+      "id": "fut-hacer-decir",
+      "front": "haré / diré",
+      "back": "the two short stems: hacer → har-, decir → dir-",
+      "notes": "*hacer* and *decir* are extra short: stems **har-** and **dir-**. *Haré la cena* = I'll make dinner; *Te diré la verdad* = I'll tell you the truth. Don't say *haceré* or *deciré*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "future", "irregular"]
+    },
+    {
+      "id": "fut-salir-poner-venir",
+      "front": "saldré / pondré / vendré",
+      "back": "the 'add-a-d' stems: salir, poner, venir",
+      "notes": "Like *tener*, these drop a vowel and insert a **d**: *salir* → **saldr-**, *poner* → **pondr-**, *venir* → **vendr-**. *Saldré pronto* = I'll leave soon; *Vendrán mañana* = They'll come tomorrow.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "future", "irregular"]
+    },
+    {
+      "id": "fut-uses",
+      "front": "Mañana lloverá. Te llamaré. España ganará.",
+      "back": "uses: future events, promises, predictions",
+      "notes": "The simple future expresses **future events** (*Mañana lloverá* = It will rain tomorrow), **promises** (*Te llamaré* = I'll call you), and **predictions** (*España ganará* = Spain will win).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "future", "usage"]
+    },
+    {
+      "id": "fut-probability",
+      "front": "¿Dónde estará Juan?",
+      "back": "future of probability — 'I wonder...' / 'must be'",
+      "notes": "The future also expresses a **guess about the present**: *¿Dónde estará Juan?* = Where can Juan be? / I wonder where Juan is. *Serán las tres* = It must be about three o'clock. This is conjecture, not a future time.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "future", "usage"]
+    },
+    {
+      "id": "fut-vs-ir-a",
+      "front": "Voy a estudiar.  ≈  Estudiaré.",
+      "back": "ir a + infinitive (near future) vs futuro simple",
+      "notes": "A1's **ir a + infinitive** (*Voy a estudiar* = I'm going to study) is common for near, planned actions. The **futuro simple** (*Estudiaré*) is a bit more formal/distant. Both are correct and widely used.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "future", "contrast"]
+    },
+    {
+      "id": "fut-time-markers",
+      "front": "mañana, la próxima semana, el año que viene",
+      "back": "time markers that point to the future",
+      "notes": "Words that signal the future: *mañana* (tomorrow), *la próxima semana* (next week), *el año que viene* (next year), *luego* (later), *pronto* (soon). *El año que viene viviremos en Madrid.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "future", "vocabulary"]
+    },
+    {
+      "id": "fut-whole-infinitive",
+      "front": "comeré (✓)  vs  comé (✗)",
+      "back": "endings attach to the WHOLE infinitive, not a stem",
+      "notes": "For regular verbs, **keep the full infinitive** and add the ending: *comer* + *é* = **comeré**. Do not cut off *-er/-ar/-ir* first. *comé* and *hablé* are preterite forms, not future.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "future", "error"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "One set of endings, on the whole infinitive",
+      "body": "# The Simple Future\n\nThe **futuro simple** is one of the easiest Spanish tenses to form. There is just **one** set of endings, and for regular verbs you add them to the **entire infinitive** — you do **not** chop off *-ar/-er/-ir* first.\n\n| | hablar | comer | vivir |\n|---|---|---|---|\n| yo | hablaré | comeré | viviré |\n| tú | hablarás | comerás | vivirás |\n| él/ella | hablará | comerá | vivirá |\n| nosotros | hablaremos | comeremos | viviremos |\n| vosotros | hablaréis | comeréis | viviréis |\n| ellos | hablarán | comerán | vivirán |\n\nThe endings are **-é, -ás, -á, -emos, -éis, -án**. Every form has a written accent **except** *nosotros* (*hablaremos*).\n\n> ⚠️ **Whole infinitive, not a stem.** It's *comer* → **comeré**, never *comé*. Cutting the verb gives you a preterite form by accident.\n\n> ⚠️ **No word for \"will\".** English needs a helper (*I will eat*). Spanish doesn't — the ending alone means *will*: *comeré* = I will eat."
+    },
+    {
+      "id": "step-irregulars",
+      "type": "theory",
+      "title": "The irregular stems",
+      "body": "## A small group of irregular stems\n\nThe **endings never change**. A handful of common verbs simply use an irregular **stem** instead of the full infinitive. They fall into three neat groups:\n\n**1. Drop a vowel:**\n\n| Verb | Stem | yo form |\n|---|---|---|\n| poder | podr- | podré |\n| saber | sabr- | sabré |\n| querer | querr- | querré |\n| haber | habr- | habrá (there will be) |\n\n**2. Drop a vowel and insert a *d*:**\n\n| Verb | Stem | yo form |\n|---|---|---|\n| tener | tendr- | tendré |\n| poner | pondr- | pondré |\n| salir | saldr- | saldré |\n| venir | vendr- | vendré |\n\n**3. Two short ones:**\n\n| Verb | Stem | yo form |\n|---|---|---|\n| hacer | har- | haré |\n| decir | dir- | diré |\n\nSo: *Tendré tiempo* (I'll have time), *Podrás venir* (you'll be able to come), *Haré la cena* (I'll make dinner), *Te diré la verdad* (I'll tell you the truth)."
+    },
+    {
+      "id": "step-uses",
+      "type": "theory",
+      "title": "Uses, probability, and ir a + infinitive",
+      "body": "## What the future is for\n\n**Future events, promises, predictions:**\n- *Mañana lloverá.* — It will rain tomorrow.\n- *Te llamaré esta noche.* — I'll call you tonight. (promise)\n- *España ganará el partido.* — Spain will win the match. (prediction)\n\n**Future of probability (conjecture).** The same forms express a **guess about the present** — English uses *must be*, *probably*, or *I wonder*:\n- *¿Dónde estará Juan?* — Where can Juan be? / I wonder where Juan is.\n- *Serán las tres.* — It must be about three o'clock.\n- *Estará en casa.* — He's probably at home.\n\n## Futuro simple vs *ir a + infinitive*\n\nIn A1 you learned the **near future**: *ir a + infinitive*.\n\n| ir a + infinitive | futuro simple |\n|---|---|\n| *Voy a estudiar.* | *Estudiaré.* |\n| near, planned, conversational | a bit more formal / distant |\n\nBoth are common and often interchangeable. Choose *ir a* for immediate plans and the *futuro simple* for more distant or formal statements — and use the futuro simple for **probability**, where *ir a* does not work."
+    },
+    {
+      "id": "ex-match-regular",
+      "type": "exercise",
+      "title": "Match the regular forms",
+      "exercise": {
+        "id": "ex-match-regular",
+        "type": "matching",
+        "prompt": "Match each subject with the correct simple-future form of *hablar* (to speak).",
+        "card_ids": ["fut-regular-endings"],
+        "pairs": [
+          {"left": "yo", "right": "hablaré"},
+          {"left": "tú", "right": "hablarás"},
+          {"left": "él", "right": "hablará"},
+          {"left": "nosotros", "right": "hablaremos"},
+          {"left": "ellos", "right": "hablarán"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-i-will-eat",
+      "type": "exercise",
+      "title": "Whole infinitive, not a stem",
+      "exercise": {
+        "id": "ex-free-i-will-eat",
+        "type": "free_text",
+        "prompt": "Translate: *I will eat later.* (comer)",
+        "card_ids": ["fut-er-ir-same", "fut-whole-infinitive"],
+        "accept": ["Comeré más tarde.", "comeré más tarde", "Comere mas tarde.", "Comeré más tarde", "Yo comeré más tarde."],
+        "hint": "comer + é = comeré (keep the whole infinitive). 'later' = más tarde.",
+        "distractors": ["Comé más tarde.", "Comeé más tarde.", "Voy a comeré más tarde."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-they-will-live",
+      "type": "exercise",
+      "title": "An -IR verb in the future",
+      "exercise": {
+        "id": "ex-free-they-will-live",
+        "type": "free_text",
+        "prompt": "Translate: *They will live in Madrid next year.*",
+        "card_ids": ["fut-er-ir-same", "fut-time-markers"],
+        "accept": ["Vivirán en Madrid el año que viene.", "vivirán en madrid el año que viene", "Viviran en Madrid el ano que viene.", "Ellos vivirán en Madrid el año que viene.", "Vivirán en Madrid el próximo año."],
+        "hint": "vivir + án = vivirán. 'next year' = el año que viene.",
+        "distractors": ["Vivrán en Madrid el año que viene.", "Viván en Madrid el año que viene.", "Viviran en Madrid el año que viene."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-tener",
+      "type": "exercise",
+      "title": "An irregular stem: tener",
+      "exercise": {
+        "id": "ex-cloze-tener",
+        "type": "cloze",
+        "prompt": "Fill in the yo simple-future of *tener*.",
+        "card_ids": ["fut-tener"],
+        "sentence": "Mañana ___ más tiempo libre.",
+        "blanks": [{"accept": ["tendré"]}],
+        "cloze_mode": "type",
+        "hint": "tener uses the stem tendr- → tendré."
+      }
+    },
+    {
+      "id": "ex-tiles-i-will-do",
+      "type": "exercise",
+      "title": "Build: I will make dinner tonight",
+      "exercise": {
+        "id": "ex-tiles-i-will-do",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I will make the dinner tonight.* (hacer)",
+        "card_ids": ["fut-hacer-decir"],
+        "tiles": ["Haré", "la", "cena", "esta", "noche"],
+        "hint": "hacer has the short stem har- → haré. There is no separate word for 'will'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-we-will-be-able",
+      "type": "exercise",
+      "title": "poder in the future",
+      "exercise": {
+        "id": "ex-free-we-will-be-able",
+        "type": "free_text",
+        "prompt": "Translate: *We will be able to come tomorrow.* (poder)",
+        "card_ids": ["fut-poder-saber-querer", "fut-time-markers"],
+        "accept": ["Podremos venir mañana.", "podremos venir mañana", "Podremos venir manana.", "Nosotros podremos venir mañana.", "Podremos venir mañana"],
+        "hint": "poder → stem podr-, nosotros = podremos. 'to come' = venir.",
+        "distractors": ["Poderemos venir mañana.", "Podremos vendremos mañana.", "Podemos venir mañana."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-probability",
+      "type": "exercise",
+      "title": "The future of probability",
+      "exercise": {
+        "id": "ex-pic-probability",
+        "type": "picture_choice",
+        "prompt": "You don't know where Juan is and you wonder aloud. Which sentence means 'Where can Juan be? / I wonder where Juan is'?",
+        "card_ids": ["fut-probability"],
+        "images": [
+          {"src": "assets/img/donde-estara-1.png", "label": "¿Dónde estará Juan?", "is_correct": "true"},
+          {"src": "assets/img/donde-estara-2.png", "label": "¿Dónde está Juan ayer?"},
+          {"src": "assets/img/donde-estara-3.png", "label": "¿Dónde will estar Juan?"},
+          {"src": "assets/img/donde-estara-4.png", "label": "¿Dónde estuvo Juan será?"}
+        ],
+        "hint": "The future form (estará) here expresses a guess about the present.",
+        "distractors": ["¿Dónde está Juan ayer?", "¿Dónde will estar Juan?", "¿Dónde estuvo Juan será?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-decir",
+      "type": "exercise",
+      "title": "The short stem of decir",
+      "exercise": {
+        "id": "ex-cloze-decir",
+        "type": "cloze",
+        "prompt": "Fill in the yo simple-future of *decir*.",
+        "card_ids": ["fut-hacer-decir"],
+        "sentence": "Te ___ la verdad mañana.",
+        "blanks": [{"accept": ["diré"]}],
+        "cloze_mode": "type",
+        "hint": "decir has the short stem dir- → diré (not deciré)."
+      }
+    },
+    {
+      "id": "ex-free-no-will",
+      "type": "exercise",
+      "title": "No word for 'will'",
+      "exercise": {
+        "id": "ex-free-no-will",
+        "type": "free_text",
+        "prompt": "Translate: *I will leave soon.* (salir)",
+        "card_ids": ["fut-salir-poner-venir", "fut-no-will-word"],
+        "accept": ["Saldré pronto.", "saldré pronto", "Saldre pronto.", "Yo saldré pronto.", "Saldré pronto"],
+        "hint": "salir → stem saldr- → saldré. There is no separate word for 'will'.",
+        "distractors": ["Yo will salir pronto.", "Saliré pronto.", "Salré pronto."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-stems",
+      "type": "exercise",
+      "title": "Match verb and future stem",
+      "exercise": {
+        "id": "ex-match-stems",
+        "type": "matching",
+        "prompt": "Match each verb with its irregular future stem.",
+        "card_ids": ["fut-tener", "fut-poder-saber-querer", "fut-hacer-decir", "fut-salir-poner-venir"],
+        "pairs": [
+          {"left": "tener", "right": "tendr-"},
+          {"left": "poder", "right": "podr-"},
+          {"left": "hacer", "right": "har-"},
+          {"left": "decir", "right": "dir-"},
+          {"left": "salir", "right": "saldr-"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-ir-a",
+      "type": "exercise",
+      "title": "futuro simple vs ir a",
+      "exercise": {
+        "id": "ex-cloze-ir-a",
+        "type": "cloze",
+        "prompt": "Rewrite the near future as the simple future. *Voy a estudiar* → I ___ (estudiar) tonight.",
+        "card_ids": ["fut-vs-ir-a"],
+        "sentence": "Esta noche ___ para el examen.",
+        "blanks": [{"accept": ["estudiaré"]}],
+        "cloze_mode": "type",
+        "hint": "estudiar + é = estudiaré (the more formal equivalent of 'voy a estudiar')."
+      }
+    },
+    {
+      "id": "ex-free-it-will-rain",
+      "type": "exercise",
+      "title": "A prediction",
+      "exercise": {
+        "id": "ex-free-it-will-rain",
+        "type": "free_text",
+        "prompt": "Translate: *It will rain tomorrow.* (llover)",
+        "card_ids": ["fut-uses", "fut-time-markers"],
+        "accept": ["Lloverá mañana.", "lloverá mañana", "Llovera manana.", "Mañana lloverá.", "Lloverá mañana"],
+        "hint": "llover + á = lloverá. 'tomorrow' = mañana.",
+        "distractors": ["Lloveré mañana.", "Llové mañana.", "Va a lloverá mañana."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

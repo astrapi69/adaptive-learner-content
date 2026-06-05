@@ -1,0 +1,331 @@
+{
+  "id": "es-a2-01-preterito-indefinido-deepened",
+  "title": "The Preterite (Pretérito Indefinido), Deepened",
+  "description": "Go beyond regular -AR verbs: the full -ER/-IR endings, the high-frequency irregulars (ser/ir, tener, hacer, estar, poder...), spelling changes (llegué, busqué, empecé) and the -IR stem-changers (pidió, durmió).",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "pret-ar-endings",
+      "front": "hablé, hablaste, habló, hablamos, hablasteis, hablaron",
+      "back": "preterite of -AR verbs (hablar = to speak)",
+      "notes": "Regular **-AR** endings: **-é, -aste, -ó, -amos, -asteis, -aron**. Note the accents on *hablé* and *habló* — they change the meaning (*hablo* = I speak; *habló* = he/she spoke).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "preterite", "verbs"]
+    },
+    {
+      "id": "pret-er-ir-endings",
+      "front": "comí, comiste, comió, comimos, comisteis, comieron",
+      "back": "preterite of -ER and -IR verbs (comer = to eat)",
+      "notes": "**-ER** and **-IR** verbs share one set of endings: **-í, -iste, -ió, -imos, -isteis, -ieron**. So *comer* and *vivir* are conjugated the same way in the preterite: *comí / viví*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "preterite", "verbs"]
+    },
+    {
+      "id": "pret-ser-ir",
+      "front": "fui, fuiste, fue, fuimos, fuisteis, fueron",
+      "back": "preterite of SER and IR (identical!)",
+      "notes": "*ser* (to be) and *ir* (to go) have the **same** preterite. *Fui médico* = I was a doctor; *Fui a casa* = I went home. Context tells them apart.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "preterite", "irregular"]
+    },
+    {
+      "id": "pret-tener",
+      "front": "tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron",
+      "back": "preterite of tener (to have)",
+      "notes": "*tener* uses the irregular stem **tuv-** plus the special endings **-e, -iste, -o, -imos, -isteis, -ieron** (no accents, and *tuvo* not *tuvió*). These same endings are shared by many irregulars.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "preterite", "irregular"]
+    },
+    {
+      "id": "pret-hacer",
+      "front": "hice, hiciste, hizo, hicimos, hicisteis, hicieron",
+      "back": "preterite of hacer (to do / to make)",
+      "notes": "Irregular stem **hic-**, but watch the spelling: *él/ella* form is **hizo** (with z) to keep the soft sound. *¿Qué hiciste ayer?* = What did you do yesterday?",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "preterite", "irregular"]
+    },
+    {
+      "id": "pret-estar-poder",
+      "front": "estuve / pude / puse / vine / quise",
+      "back": "more irregular stems: estar, poder, poner, venir, querer",
+      "notes": "Same special endings, different stems: *estar* → **estuv-**, *poder* → **pud-**, *poner* → **pus-**, *venir* → **vin-**, *querer* → **quis-**. E.g. *Estuve en Madrid* = I was in Madrid.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "preterite", "irregular"]
+    },
+    {
+      "id": "pret-decir",
+      "front": "dije, dijiste, dijo, dijimos, dijisteis, dijeron",
+      "back": "preterite of decir (to say / to tell)",
+      "notes": "Stem **dij-**. After a **j**, the *ellos* ending drops the *i*: **dijeron** (not *dijieron*). The same happens with *traer* → *trajeron* and *conducir* → *condujeron*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "preterite", "irregular"]
+    },
+    {
+      "id": "pret-spelling-yo",
+      "front": "llegué, busqué, empecé",
+      "back": "spelling changes in the yo form (-gar, -car, -zar)",
+      "notes": "To keep the sound, the **yo** form changes spelling: *llegar* → **llegué**, *buscar* → **busqué**, *empezar* → **empecé**. Only the *yo* form changes; the rest are regular (*llegaste, llegó*...).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "preterite", "spelling"]
+    },
+    {
+      "id": "pret-ir-stemchange",
+      "front": "pidió, durmió, prefirió, sirvió",
+      "back": "-IR stem-changers (3rd person only): e→i, o→u",
+      "notes": "Stem-changing **-IR** verbs change the vowel only in the *él/ella* and *ellos* forms: *pedir* → **pidió/pidieron**, *dormir* → **durmió/durmieron**. The other forms are regular (*pedí, pediste*).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "preterite", "stem-change"]
+    },
+    {
+      "id": "pret-ayer-marker",
+      "front": "ayer, anoche, la semana pasada, en 2019",
+      "back": "time markers that trigger the preterite",
+      "notes": "The preterite reports **completed** actions at a definite past time. Words like *ayer* (yesterday), *anoche* (last night), *el año pasado* (last year) and specific dates signal it.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "preterite", "vocabulary"]
+    },
+    {
+      "id": "pret-no-did-error",
+      "front": "Comí pizza.  ✗ Hice comer pizza.",
+      "back": "no 'did' helper — the verb itself carries the past",
+      "notes": "English uses *did* for the past (*I did eat / I ate*). Spanish has **no** *did* helper — the ending alone marks the past: *comí* = I ate. Never translate *did* as *hice*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "preterite", "error"]
+    },
+    {
+      "id": "pret-ver",
+      "front": "vi, viste, vio, vimos, visteis, vieron",
+      "back": "preterite of ver (to see) — no accents",
+      "notes": "*ver* is regular but its short forms take **no** written accent: **vi**, **vio** (not *ví, vió*). *Lo vi ayer* = I saw it/him yesterday.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "preterite", "irregular"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "One past tense, fully formed",
+      "body": "# The Preterite, deepened\n\nIn A1 you met the **pretérito indefinido** (the preterite) for completed past actions, mostly with **-AR** verbs. Now we complete the picture.\n\nFirst, the two regular patterns:\n\n| | -AR (*hablar*) | -ER/-IR (*comer / vivir*) |\n|---|---|---|\n| yo | hablé | comí |\n| tú | hablaste | comiste |\n| él/ella | habló | comió |\n| nosotros | hablamos | comimos |\n| vosotros | hablasteis | comisteis |\n| ellos | hablaron | comieron |\n\n**-ER and -IR verbs share one set of endings.** Note the accented *yo* and *él* forms: *hablé / habló*, *comí / comió*.\n\n> ⚠️ **No \"did\".** English builds the past with a helper (*Did you eat? I did not eat*). Spanish does **not** — the ending alone carries the past: *¿Comiste? No comí.* There is no word for *did*."
+    },
+    {
+      "id": "step-irregulars",
+      "type": "theory",
+      "title": "The irregular stems",
+      "body": "## High-frequency irregulars\n\nA group of common verbs uses a **new stem** plus one shared set of endings — and crucially these endings have **no accents**:\n\n> **-e, -iste, -o, -imos, -isteis, -ieron**\n\n| Verb | Stem | yo / él |\n|---|---|---|\n| tener | tuv- | tuve / tuvo |\n| estar | estuv- | estuve / estuvo |\n| poder | pud- | pude / pudo |\n| poner | pus- | puse / puso |\n| venir | vin- | vine / vino |\n| querer | quis- | quise / quiso |\n| hacer | hic- | hice / **hizo** |\n\nNote *hizo* with a **z** (spelling, to keep the soft sound).\n\n**ser and ir are identical** in the preterite: *fui, fuiste, fue, fuimos, fuisteis, fueron*. *Fui a Perú* (I went) vs *Fui feliz* (I was happy) — context decides.\n\nAfter a **j-stem** (*decir* → *dij-*, *traer* → *traj-*), the *ellos* ending loses its *i*: **dijeron**, **trajeron** (not *dijieron*)."
+    },
+    {
+      "id": "step-spelling",
+      "type": "theory",
+      "title": "Spelling changes and -IR stem-changers",
+      "body": "## Two small but important patterns\n\n**1. Yo-form spelling (-car, -gar, -zar).** To preserve the consonant sound, the *yo* form changes — and only the *yo* form:\n\n- *buscar* → **busqué** (c → qu)\n- *llegar* → **llegué** (g → gu)\n- *empezar* → **empecé** (z → c)\n\nThe rest stay regular: *busqué, buscaste, buscó...*\n\n**2. -IR stem-changers in the 3rd person.** Stem-changing **-IR** verbs (and only -IR) shift their vowel in the *él/ella* and *ellos* forms:\n\n- *pedir* → pedí, pediste, **pidió**, pedimos, pedisteis, **pidieron** (e → i)\n- *dormir* → dormí, dormiste, **durmió**, ..., **durmieron** (o → u)\n\nAlso common: *preferir* → prefirió, *servir* → sirvió, *morir* → murió, *seguir* → siguió."
+    },
+    {
+      "id": "ex-match-endings",
+      "type": "exercise",
+      "title": "Match the regular forms",
+      "exercise": {
+        "id": "ex-match-endings",
+        "type": "matching",
+        "prompt": "Match each subject with the correct preterite form of *comer* (to eat).",
+        "card_ids": ["pret-er-ir-endings"],
+        "pairs": [
+          {"left": "yo", "right": "comí"},
+          {"left": "tú", "right": "comiste"},
+          {"left": "él", "right": "comió"},
+          {"left": "nosotros", "right": "comimos"},
+          {"left": "ellos", "right": "comieron"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-i-ate",
+      "type": "exercise",
+      "title": "An -ER verb",
+      "exercise": {
+        "id": "ex-free-i-ate",
+        "type": "free_text",
+        "prompt": "Translate: *I ate paella yesterday.*",
+        "card_ids": ["pret-er-ir-endings", "pret-ayer-marker"],
+        "accept": ["Comí paella ayer.", "comí paella ayer", "Comi paella ayer.", "Ayer comí paella.", "Comí paella ayer"],
+        "hint": "comer → comí (yo). 'yesterday' = ayer.",
+        "distractors": ["Hice comer paella ayer.", "Comió paella ayer.", "Comé paella ayer."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-she-went",
+      "type": "exercise",
+      "title": "ser or ir?",
+      "exercise": {
+        "id": "ex-free-she-went",
+        "type": "free_text",
+        "prompt": "Translate: *She went to Mexico last year.*",
+        "card_ids": ["pret-ser-ir"],
+        "accept": ["Fue a México el año pasado.", "fue a méxico el año pasado", "Fue a Mexico el ano pasado.", "Ella fue a México el año pasado.", "Fue a México el año pasado"],
+        "hint": "ir → fue (él/ella). 'last year' = el año pasado.",
+        "distractors": ["Fui a México el año pasado.", "Ella va a México el año pasado.", "Fuió a México el año pasado."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-did",
+      "type": "exercise",
+      "title": "Which is correct?",
+      "exercise": {
+        "id": "ex-pic-did",
+        "type": "picture_choice",
+        "prompt": "A friend asks what you did. Which sentence means 'I did not eat anything'? (Remember: no 'did' helper.)",
+        "card_ids": ["pret-no-did-error"],
+        "images": [
+          {"src": "assets/img/no-comi-1.png", "label": "No comí nada.", "is_correct": "true"},
+          {"src": "assets/img/no-comi-2.png", "label": "No hice comer nada."},
+          {"src": "assets/img/no-comi-3.png", "label": "No did comí nada."},
+          {"src": "assets/img/no-comi-4.png", "label": "No comer nada."}
+        ],
+        "hint": "The ending of *comer* already carries the past — no extra verb for 'did'.",
+        "distractors": ["No hice comer nada.", "No did comí nada.", "No comer nada."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-hacer",
+      "type": "exercise",
+      "title": "The él form of hacer",
+      "exercise": {
+        "id": "ex-cloze-hacer",
+        "type": "cloze",
+        "prompt": "Fill in the él/ella preterite of *hacer*. Mind the spelling!",
+        "card_ids": ["pret-hacer"],
+        "sentence": "¿Qué ___ ella el fin de semana?",
+        "blanks": [{"accept": ["hizo"]}],
+        "cloze_mode": "type",
+        "hint": "hacer → hic-, but the él form is spelled with z: hizo."
+      }
+    },
+    {
+      "id": "ex-tiles-i-had",
+      "type": "exercise",
+      "title": "Build: I had a problem",
+      "exercise": {
+        "id": "ex-tiles-i-had",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I had a problem yesterday.*",
+        "card_ids": ["pret-tener"],
+        "tiles": ["Tuve", "un", "problema", "ayer"],
+        "hint": "tener → tuve (yo), no accent.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-i-arrived",
+      "type": "exercise",
+      "title": "Spelling change in yo",
+      "exercise": {
+        "id": "ex-free-i-arrived",
+        "type": "free_text",
+        "prompt": "Translate: *I arrived late.* (llegar — careful with the yo form)",
+        "card_ids": ["pret-spelling-yo"],
+        "accept": ["Llegué tarde.", "llegué tarde", "Llegue tarde.", "Yo llegué tarde.", "Llegué tarde"],
+        "hint": "llegar → yo llegué (g becomes gu).",
+        "distractors": ["Llegé tarde.", "Llegó tarde.", "Llegaste tarde."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-pedir",
+      "type": "exercise",
+      "title": "An -IR stem-changer",
+      "exercise": {
+        "id": "ex-cloze-pedir",
+        "type": "cloze",
+        "prompt": "Fill in the él/ella preterite of *pedir* (to ask for / order).",
+        "card_ids": ["pret-ir-stemchange"],
+        "sentence": "El camarero trajo lo que ella ___.",
+        "blanks": [{"accept": ["pidió"]}],
+        "cloze_mode": "type",
+        "hint": "pedir is an -IR stem-changer: e → i in the él form → pidió."
+      }
+    },
+    {
+      "id": "ex-free-they-said",
+      "type": "exercise",
+      "title": "A j-stem irregular",
+      "exercise": {
+        "id": "ex-free-they-said",
+        "type": "free_text",
+        "prompt": "Translate: *They said the truth.* (decir)",
+        "card_ids": ["pret-decir"],
+        "accept": ["Dijeron la verdad.", "dijeron la verdad", "Ellos dijeron la verdad.", "Dijeron la verdad"],
+        "hint": "decir → dij-; after j the ellos ending drops the i → dijeron.",
+        "distractors": ["Dijieron la verdad.", "Decieron la verdad.", "Dicieron la verdad."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-irregstems",
+      "type": "exercise",
+      "title": "Match verb and stem",
+      "exercise": {
+        "id": "ex-match-irregstems",
+        "type": "matching",
+        "prompt": "Match each verb with its irregular preterite stem.",
+        "card_ids": ["pret-tener", "pret-estar-poder", "pret-hacer"],
+        "pairs": [
+          {"left": "tener", "right": "tuv-"},
+          {"left": "estar", "right": "estuv-"},
+          {"left": "poder", "right": "pud-"},
+          {"left": "venir", "right": "vin-"},
+          {"left": "hacer", "right": "hic-"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-i-was",
+      "type": "exercise",
+      "title": "estar in the past",
+      "exercise": {
+        "id": "ex-free-i-was",
+        "type": "free_text",
+        "prompt": "Translate: *I was in Madrid last week.* (use estar)",
+        "card_ids": ["pret-estar-poder", "pret-ayer-marker"],
+        "accept": ["Estuve en Madrid la semana pasada.", "estuve en madrid la semana pasada", "Estuve en Madrid la semana pasada"],
+        "hint": "estar → estuve (yo). 'last week' = la semana pasada.",
+        "distractors": ["Fui en Madrid la semana pasada.", "Estuvé en Madrid la semana pasada.", "Estaba en Madrid la semana pasada."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-we-slept",
+      "type": "exercise",
+      "title": "Putting it together",
+      "exercise": {
+        "id": "ex-free-we-slept",
+        "type": "free_text",
+        "prompt": "Translate: *We slept well and they slept badly.* (dormir)",
+        "card_ids": ["pret-ir-stemchange", "pret-er-ir-endings"],
+        "accept": ["Dormimos bien y durmieron mal.", "dormimos bien y durmieron mal", "Nosotros dormimos bien y ellos durmieron mal.", "Dormimos bien y durmieron mal"],
+        "hint": "nosotros is regular (dormimos); ellos stem-changes o→u (durmieron).",
+        "distractors": ["Durmimos bien y dormieron mal.", "Dormimos bien y dormieron mal.", "Durmimos bien y durmieron mal."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

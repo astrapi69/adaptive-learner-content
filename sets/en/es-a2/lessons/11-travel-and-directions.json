@@ -1,0 +1,329 @@
+{
+  "id": "es-a2-11-travel-and-directions",
+  "title": "Travel and Directions",
+  "description": "Get around in Spanish: transport (el tren, el avión, el metro), the station and airport (¿A qué hora sale?, andén, retraso, hacer transbordo), asking and giving directions with commands (sigue todo recto, gira a la derecha, cruza la calle) and booking a hotel room. Includes the false friend realizar (NOT 'to realize').",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "trav-transport",
+      "front": "el tren, el avión, el autobús, el metro",
+      "back": "the train, the plane, the bus, the metro/subway",
+      "notes": "Core transport vocabulary. Note *el avión* has an accent (plural *los aviones*, no accent). *El autobús* is often shortened to *el bus*. The verb for travelling by these is *ir en*: *ir en tren* = to go by train.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "travel", "transport"]
+    },
+    {
+      "id": "trav-ticket-stops",
+      "front": "el billete / el boleto, la parada",
+      "back": "the ticket; the (bus) stop",
+      "notes": "In Spain *el billete*; in much of Latin America *el boleto*. *La parada* is a bus/metro stop; *¿Dónde está la parada del autobús?* = Where is the bus stop? A round-trip ticket is *un billete de ida y vuelta*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "travel", "transport"]
+    },
+    {
+      "id": "trav-station-airport",
+      "front": "la estación, el aeropuerto",
+      "back": "the station, the airport",
+      "notes": "Use **estar** for the location of a place: *La estación **está** cerca* = The station is nearby. English speakers often reach for *es*, but a physical location takes *estar*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "travel", "location"]
+    },
+    {
+      "id": "trav-sale-llega",
+      "front": "¿A qué hora sale / llega el tren?",
+      "back": "What time does the train leave / arrive?",
+      "notes": "*salir* = to leave/depart, *llegar* = to arrive. These are the two questions you need at any station: *¿A qué hora sale?* and *¿A qué hora llega?* The reply: *Sale a las ocho* = It leaves at eight.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "travel", "functional"]
+    },
+    {
+      "id": "trav-platform-gate",
+      "front": "el andén, la puerta de embarque, el retraso",
+      "back": "the platform, the boarding gate, the delay",
+      "notes": "*El andén* = train platform; *la puerta de embarque* = airport boarding gate; *el retraso* = delay. *El tren lleva retraso* = The train is delayed (literally 'carries a delay').",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "travel", "station"]
+    },
+    {
+      "id": "trav-transbordo",
+      "front": "hacer transbordo",
+      "back": "to change / transfer (trains or lines)",
+      "notes": "*Hacer transbordo* = to switch trains or metro lines on a journey. *Tienes que hacer transbordo en la próxima estación* = You have to change at the next station. It uses the verb *hacer*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "travel", "station"]
+    },
+    {
+      "id": "trav-ask-directions",
+      "front": "¿Cómo llego a...? / ¿Dónde está...?",
+      "back": "How do I get to...? / Where is...?",
+      "notes": "Two essential questions. *¿Cómo llego a la estación?* = How do I get to the station? *¿Dónde está el museo?* = Where is the museum? Location always uses **está** (from *estar*), not *es*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "directions", "functional"]
+    },
+    {
+      "id": "trav-commands",
+      "front": "sigue todo recto, gira a la derecha / izquierda, cruza la calle",
+      "back": "go straight on, turn right / left, cross the street",
+      "notes": "These are **informal (tú) commands**: *seguir* → **sigue**, *girar* → **gira**, *cruzar* → **cruza**. Spanish uses the command form directly for directions; there is no 'you should' wrapper needed.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "directions", "commands"]
+    },
+    {
+      "id": "trav-location-words",
+      "front": "a la vuelta de la esquina, enfrente de, al lado de",
+      "back": "around the corner, opposite / across from, next to",
+      "notes": "Position phrases: *a la vuelta de la esquina* = around the corner, *enfrente de* = opposite, *al lado de* = next to. *El banco está al lado del hotel* = The bank is next to the hotel (de + el → del).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "directions", "location"]
+    },
+    {
+      "id": "trav-hotel",
+      "front": "reservar una habitación doble / individual",
+      "back": "to book a double / single room",
+      "notes": "*Reservar* = to book/reserve; *una habitación doble* = a double room, *individual* = single. *¿Tiene una habitación libre?* = Do you have a room available? (*libre* = free/available).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "hotel", "functional"]
+    },
+    {
+      "id": "trav-realizar-falsefriend",
+      "front": "realizar  ≠  to realize",
+      "back": "realizar = to carry out / accomplish; 'to realize (become aware)' = darse cuenta de",
+      "notes": "**False friend!** *realizar* does NOT mean 'to realize'. It means to carry out or accomplish: *realizar un viaje* = to make/carry out a trip. To **realize** = become aware = **darse cuenta de**: *Me di cuenta de que perdí el tren* = I realized I missed the train. Never say *Realicé que...* for 'I realized that...'.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["vocabulary", "false-friend", "error"]
+    },
+    {
+      "id": "trav-libre-question",
+      "front": "¿Tiene una habitación libre?",
+      "back": "Do you have a room available?",
+      "notes": "Polite hotel question using *usted* (*tiene*). *libre* = free/available. The reply might be *Sí, ¿para cuántas noches?* = Yes, for how many nights? Compare *individual* (single) and *doble* (double).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "hotel", "functional"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Getting around: transport and the station",
+      "body": "# Travel and Directions\n\nThis lesson gives you the language to move through a Spanish-speaking city or country.\n\n**Transport:**\n\n| Spanish | English |\n|---|---|\n| el tren | the train |\n| el avión | the plane |\n| el autobús (el bus) | the bus |\n| el metro | the metro / subway |\n| el billete / el boleto | the ticket |\n| la parada | the (bus) stop |\n\nUse *ir en* + transport: *Voy en metro* = I'm going by metro.\n\n**At the station / airport**, two questions do most of the work:\n\n> *¿A qué hora **sale** el tren?* — What time does the train leave?\n> *¿A qué hora **llega** el avión?* — What time does the plane arrive?\n\nUseful nouns: **el andén** (platform), **la puerta de embarque** (boarding gate), **el retraso** (delay), and **hacer transbordo** (to change trains/lines).\n\n> ⚠️ **Location uses *estar*.** *La estación **está** cerca.* English speakers often want *es*, but the physical location of a place always takes **estar**: *El aeropuerto está lejos.*"
+    },
+    {
+      "id": "step-directions",
+      "type": "theory",
+      "title": "Asking for and giving directions",
+      "body": "## Directions\n\n**Asking:**\n\n- *¿Cómo llego a la plaza?* — How do I get to the square?\n- *¿Dónde está el banco?* — Where is the bank?\n\n**Giving directions** — Spanish uses the **informal (tú) command** form directly. There is no need for 'you should':\n\n| Verb | Command (tú) | Meaning |\n|---|---|---|\n| seguir | **sigue** todo recto | go straight on |\n| girar | **gira** a la derecha | turn right |\n| girar | **gira** a la izquierda | turn left |\n| cruzar | **cruza** la calle | cross the street |\n\n**Position phrases:**\n\n- *está **a la vuelta de la esquina*** — it's around the corner\n- *está **enfrente de** la iglesia* — it's opposite the church\n- *está **al lado del** hotel* — it's next to the hotel\n\nRemember *de + el → del*: *al lado **del** banco*."
+    },
+    {
+      "id": "step-hotel-falsefriend",
+      "type": "theory",
+      "title": "The hotel — and a dangerous false friend",
+      "body": "## At the hotel\n\n- *¿**Tiene una habitación libre**?* — Do you have a room available?\n- *Quiero **reservar una habitación doble**.* — I want to book a double room.\n- *una habitación **individual*** — a single room\n\n## False friend: realizar ≠ to realize\n\nThis one trips up almost every English speaker.\n\n> **realizar** does **NOT** mean 'to realize'.\n\n*realizar* = **to carry out, to accomplish, to make (happen)**:\n- *Quiero **realizar** un viaje a Perú.* = I want to make a trip to Peru.\n\nTo **realize** (= to become aware) = **darse cuenta de**:\n- *Me **di cuenta de** que perdí el tren.* = I realized I missed the train.\n\n✗ *Realicé que perdí el tren.* — wrong, this does not mean 'I realized'.\n✓ *Me di cuenta de que perdí el tren.*"
+    },
+    {
+      "id": "ex-match-transport",
+      "type": "exercise",
+      "title": "Match the transport",
+      "exercise": {
+        "id": "ex-match-transport",
+        "type": "matching",
+        "prompt": "Match each Spanish word with its English meaning.",
+        "card_ids": ["trav-transport", "trav-ticket-stops", "trav-station-airport"],
+        "pairs": [
+          {"left": "el tren", "right": "the train"},
+          {"left": "el avión", "right": "the plane"},
+          {"left": "el metro", "right": "the metro / subway"},
+          {"left": "el billete", "right": "the ticket"},
+          {"left": "la parada", "right": "the bus stop"},
+          {"left": "el aeropuerto", "right": "the airport"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-where-station",
+      "type": "exercise",
+      "title": "Location with estar",
+      "exercise": {
+        "id": "ex-free-where-station",
+        "type": "free_text",
+        "prompt": "Translate: *Where is the station?*",
+        "card_ids": ["trav-ask-directions", "trav-station-airport"],
+        "accept": ["¿Dónde está la estación?", "donde esta la estacion", "¿Dónde está la estación?", "Dónde está la estación", "¿Donde esta la estacion?"],
+        "hint": "Location of a place uses está (from estar), not es.",
+        "distractors": ["¿Dónde es la estación?", "¿Cómo está la estación?", "¿Dónde está el estación?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-realizar",
+      "type": "exercise",
+      "title": "False friend: I realized",
+      "exercise": {
+        "id": "ex-free-realizar",
+        "type": "free_text",
+        "prompt": "Translate: *I realized that I missed the train.* (become aware — NOT realizar!)",
+        "card_ids": ["trav-realizar-falsefriend"],
+        "accept": ["Me di cuenta de que perdí el tren.", "me di cuenta de que perdi el tren", "Me di cuenta de que perdí el tren", "Me di cuenta que perdí el tren."],
+        "hint": "'to realize / become aware' = darse cuenta de. Do NOT use realizar.",
+        "distractors": ["Realicé que perdí el tren.", "Realizé que perdí el tren.", "Me realicé que perdí el tren."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-sale",
+      "type": "exercise",
+      "title": "What time does it leave?",
+      "exercise": {
+        "id": "ex-cloze-sale",
+        "type": "cloze",
+        "prompt": "Fill in the verb for 'leaves / departs'. Ask what time the train leaves.",
+        "card_ids": ["trav-sale-llega"],
+        "sentence": "¿A qué hora ___ el tren?",
+        "blanks": [{"accept": ["sale"]}],
+        "cloze_mode": "type",
+        "hint": "salir = to leave/depart. The él/ella form is sale."
+      }
+    },
+    {
+      "id": "ex-tiles-turn-right",
+      "type": "exercise",
+      "title": "Build a direction",
+      "exercise": {
+        "id": "ex-tiles-turn-right",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *Turn right and cross the street.*",
+        "card_ids": ["trav-commands"],
+        "tiles": ["Gira", "a", "la", "derecha", "y", "cruza", "la", "calle"],
+        "hint": "Use tú commands: girar → gira, cruzar → cruza.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-directions",
+      "type": "exercise",
+      "title": "Read the map",
+      "exercise": {
+        "id": "ex-pic-directions",
+        "type": "picture_choice",
+        "prompt": "On the map, the bank is straight ahead at the end of the street. Which direction tells you to 'go straight on'?",
+        "card_ids": ["trav-commands"],
+        "images": [
+          {"src": "assets/img/dir-recto.png", "label": "Sigue todo recto.", "is_correct": "true"},
+          {"src": "assets/img/dir-derecha.png", "label": "Gira a la derecha."},
+          {"src": "assets/img/dir-izquierda.png", "label": "Gira a la izquierda."},
+          {"src": "assets/img/dir-cruza.png", "label": "Cruza la calle."}
+        ],
+        "hint": "seguir → sigue; 'straight on' = todo recto.",
+        "distractors": ["Gira a la derecha.", "Gira a la izquierda.", "Cruza la calle."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-book-room",
+      "type": "exercise",
+      "title": "At the hotel",
+      "exercise": {
+        "id": "ex-free-book-room",
+        "type": "free_text",
+        "prompt": "Translate: *I want to book a double room.*",
+        "card_ids": ["trav-hotel"],
+        "accept": ["Quiero reservar una habitación doble.", "quiero reservar una habitacion doble", "Quiero reservar una habitación doble", "Deseo reservar una habitación doble."],
+        "hint": "reservar = to book; una habitación doble = a double room.",
+        "distractors": ["Quiero realizar una habitación doble.", "Quiero reservar una habitación individual.", "Quiero reservar un habitación doble."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-transbordo",
+      "type": "exercise",
+      "title": "Changing trains",
+      "exercise": {
+        "id": "ex-cloze-transbordo",
+        "type": "cloze",
+        "prompt": "Fill in the noun: you have to 'transfer / change' at the next station.",
+        "card_ids": ["trav-transbordo"],
+        "sentence": "Tienes que hacer ___ en la próxima estación.",
+        "blanks": [{"accept": ["transbordo"]}],
+        "cloze_mode": "type",
+        "hint": "hacer ___ = to change trains/lines. The noun is transbordo."
+      }
+    },
+    {
+      "id": "ex-match-location",
+      "type": "exercise",
+      "title": "Position phrases",
+      "exercise": {
+        "id": "ex-match-location",
+        "type": "matching",
+        "prompt": "Match each Spanish position phrase with its English meaning.",
+        "card_ids": ["trav-location-words"],
+        "pairs": [
+          {"left": "enfrente de", "right": "opposite / across from"},
+          {"left": "al lado de", "right": "next to"},
+          {"left": "a la vuelta de la esquina", "right": "around the corner"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-around-corner",
+      "type": "exercise",
+      "title": "Build: it's around the corner",
+      "exercise": {
+        "id": "ex-tiles-around-corner",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *The hotel is around the corner.*",
+        "card_ids": ["trav-location-words", "trav-station-airport"],
+        "tiles": ["El", "hotel", "está", "a", "la", "vuelta", "de", "la", "esquina"],
+        "hint": "Location uses está; 'around the corner' = a la vuelta de la esquina.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-room-available",
+      "type": "exercise",
+      "title": "Is there a room?",
+      "exercise": {
+        "id": "ex-free-room-available",
+        "type": "free_text",
+        "prompt": "Translate (formal/usted): *Do you have a room available?*",
+        "card_ids": ["trav-libre-question"],
+        "accept": ["¿Tiene una habitación libre?", "tiene una habitacion libre", "¿Tiene una habitación libre?", "¿Tiene usted una habitación libre?"],
+        "hint": "usted form of tener = tiene; 'available' = libre.",
+        "distractors": ["¿Tienes una habitación libre?", "¿Es una habitación libre?", "¿Tiene una habitación doble libre?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-realizar-trip",
+      "type": "exercise",
+      "title": "Using realizar correctly",
+      "exercise": {
+        "id": "ex-free-realizar-trip",
+        "type": "free_text",
+        "prompt": "Translate: *I want to make a trip to Peru.* (here 'make/carry out' = realizar)",
+        "card_ids": ["trav-realizar-falsefriend"],
+        "accept": ["Quiero realizar un viaje a Perú.", "quiero realizar un viaje a peru", "Quiero realizar un viaje a Perú", "Quiero hacer un viaje a Perú."],
+        "hint": "realizar = to carry out / make (happen). realizar un viaje = to make a trip.",
+        "distractors": ["Quiero darme cuenta de un viaje a Perú.", "Quiero realizar que un viaje a Perú.", "Me doy cuenta de un viaje a Perú."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
