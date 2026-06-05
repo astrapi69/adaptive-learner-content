@@ -63,6 +63,30 @@ sets:
       - beginner
       - travel
       - everyday
+  - id: es-b1-from-en
+    title: Spanish B1 — Intermediate
+    title_native: Español B1 — Intermedio
+    target_language: es
+    source_language: en
+    level: B1
+    path: sets/en/es-b1
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Intermediate Spanish for English speakers (15 lessons),
+      building on A1+A2: the present subjunctive and its triggers,
+      conditional sentences (si-clauses with the imperfect
+      subjunctive), the pluperfect, the passive and impersonal se,
+      reported speech, relative pronouns, connectors, and abstract
+      topics (work, health, media, environment/society,
+      intercultural communication), closing with text production.
+      Presupposes A1+A2; mostly productive. Explanations in English
+      (schema v1.3).
+    tags:
+      - intermediate
+      - grammar
+      - everyday
   - id: fr-a2-from-en
     title: French A2 — Elementary
     title_native: Français A2 — Élémentaire

@@ -1,0 +1,331 @@
+{
+  "id": "es-b1-10-trabajo-y-profesion",
+  "title": "Work and Profession",
+  "description": "The vocabulary and functional language of the Spanish-speaking workplace: jobs and the company (el empleo, la empresa, el sueldo, el horario, el contrato), the job hunt (el currículum, la entrevista, solicitar, contratar, despedir), describing your duties (encargarse de, ser responsable de) and getting things done at work (pedir un día libre, una reunión, un ascenso). Watch two classic false friends: éxito (success, not exit) and carrera (degree/career/race).",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "work-empleo",
+      "front": "el empleo / el trabajo",
+      "back": "the job / employment / work",
+      "notes": "*El empleo* (employment, a job) and *el trabajo* (work, a job) overlap. *Buscar empleo* / *buscar trabajo* = to look for a job. *Estar en paro* / *estar desempleado* = to be unemployed.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocab", "trabajo"]
+    },
+    {
+      "id": "work-empresa",
+      "front": "la empresa / la compañía",
+      "back": "the company / firm / business",
+      "notes": "*La empresa* is the everyday word for a company or firm. *El departamento* = the department; *la oficina* = the office. Note *empresa* is feminine: *una empresa grande*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocab", "trabajo"]
+    },
+    {
+      "id": "work-sueldo",
+      "front": "el sueldo / el salario",
+      "back": "the salary / pay / wage",
+      "notes": "*El sueldo* and *el salario* both mean pay. *Cobrar* = to get paid / to earn (*cobro 2000 euros al mes*). *Un aumento de sueldo* = a pay rise.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocab", "trabajo"]
+    },
+    {
+      "id": "work-horario-jornada",
+      "front": "el horario / la jornada / el contrato",
+      "back": "the schedule / the working day / the contract",
+      "notes": "*El horario* = the (working) hours or schedule. *La jornada* = the working day: *jornada completa* (full-time), *media jornada* (part-time). *El contrato* = the contract (*un contrato fijo* = a permanent contract).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "trabajo"]
+    },
+    {
+      "id": "work-jefe-companero",
+      "front": "el/la jefe/a · el/la compañero/a de trabajo",
+      "back": "the boss · the co-worker / colleague",
+      "notes": "*El jefe / la jefa* = the boss. *El compañero / la compañera de trabajo* = a colleague. False-friend alert: a *colega* is more of a buddy in Spain; for a work colleague say *compañero/a*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocab", "trabajo"]
+    },
+    {
+      "id": "work-job-search",
+      "front": "el currículum · la entrevista de trabajo · la oferta de empleo",
+      "back": "the CV/résumé · the job interview · the job offer/posting",
+      "notes": "*El currículum* (CV) — full form *currículum vítae*. *La entrevista de trabajo* = job interview. *La oferta de empleo* = a job posting/vacancy. *Solicitar un puesto* = to apply for a position.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "trabajo", "busqueda"]
+    },
+    {
+      "id": "work-contratar-despedir",
+      "front": "contratar ↔ despedir",
+      "back": "to hire ↔ to fire / lay off",
+      "notes": "*Contratar a alguien* = to hire someone. *Despedir a alguien* = to fire/lay someone off (*despedir* is an -IR stem-changer: *despido, despides*...). *Solicitar* = to apply for / request.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "trabajo", "busqueda"]
+    },
+    {
+      "id": "work-duties",
+      "front": "encargarse de · ser responsable de · tener experiencia en",
+      "back": "to be in charge of · to be responsible for · to have experience in",
+      "notes": "Describe your role: *Me encargo de las ventas* (I'm in charge of sales). *Soy responsable del equipo* (I'm responsible for the team). *Tengo experiencia en marketing* (I have experience in marketing).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "trabajo", "funciones"]
+    },
+    {
+      "id": "work-requests",
+      "front": "pedir un día libre · pedir un ascenso · convocar una reunión",
+      "back": "to ask for a day off · to ask for a promotion · to call a meeting",
+      "notes": "*Pedir un día libre* = ask for a day off. *Pedir un ascenso* = ask for a promotion. *Una reunión* = a meeting — and you **asistir a** a meeting (see the asistir card).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "trabajo", "funciones"]
+    },
+    {
+      "id": "work-asistir",
+      "front": "asistir a una reunión",
+      "back": "to attend a meeting (asistir = to ATTEND, not to assist)",
+      "notes": "False-friend trap: *asistir a* means **to attend / be present at**, NOT to assist. *Asisto a la reunión* = I attend the meeting. To *assist/help* someone is *ayudar a alguien*. *Atender* (yet another) = to serve/see to a customer.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "trabajo", "false-friend"]
+    },
+    {
+      "id": "work-exito",
+      "front": "el éxito",
+      "back": "success (NOT exit — that is 'la salida')",
+      "notes": "False friend: *el éxito* = **success**, never 'exit'. *Tener éxito* = to be successful; *una empresa de éxito* = a successful company. The way out / EXIT sign is **la salida**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "false-friend"]
+    },
+    {
+      "id": "work-carrera",
+      "front": "la carrera",
+      "back": "university degree / career / race",
+      "notes": "False friend: *la carrera* most often means a **university degree/major** (*estudié la carrera de Derecho* = I did a law degree), and also a **career** (*una carrera profesional*) or a **race** (*una carrera de coches*). Don't assume it only means 'career'.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocab", "false-friend"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Talking about jobs and the workplace",
+      "body": "# Work and Profession\n\nThis lesson gives you the everyday vocabulary of the Spanish-speaking workplace, plus the functional phrases you need to operate inside one.\n\n## The job and the company\n\n| Spanish | English |\n|---|---|\n| el empleo / el trabajo | the job / work |\n| la empresa / la compañía | the company / firm |\n| el sueldo / el salario | the salary / pay |\n| el horario | the (working) hours / schedule |\n| la jornada | the working day (*jornada completa* = full-time) |\n| el contrato | the contract |\n| el/la jefe/a | the boss |\n| el/la compañero/a de trabajo | the colleague / co-worker |\n| el departamento | the department |\n\n> *Cobrar* = to get paid / earn; *un aumento de sueldo* = a pay rise; *un contrato fijo* = a permanent contract."
+    },
+    {
+      "id": "step-job-search",
+      "type": "theory",
+      "title": "The job hunt and describing what you do",
+      "body": "## Looking for a job\n\n- **el currículum** — the CV / résumé\n- **la entrevista de trabajo** — the job interview\n- **la oferta de empleo** — the job posting / vacancy\n- **solicitar un puesto** — to apply for a position\n- **contratar** — to hire  ·  **despedir** — to fire / lay off\n\n## Describing your duties and skills\n\n- **encargarse de** — to be in charge of: *Me encargo de las ventas.*\n- **ser responsable de** — to be responsible for: *Soy responsable del equipo.*\n- **tener experiencia en** — to have experience in: *Tengo experiencia en marketing.*\n\n## Two false friends to lock in now\n\n- **éxito** = **success**, NOT 'exit'. *Tener éxito* = to be successful. The way out is **la salida**.\n- **carrera** = a university **degree/major**, a **career**, or a **race** — context decides. *Estudié la carrera de Medicina* = I studied medicine (a degree)."
+    },
+    {
+      "id": "step-functional",
+      "type": "theory",
+      "title": "Functional language and the subjunctive at work",
+      "body": "## Getting things done at work\n\n- **pedir un día libre** — to ask for a day off\n- **pedir un ascenso** — to ask for a promotion\n- **convocar / tener una reunión** — to call / have a meeting\n- **asistir a una reunión** — to **attend** a meeting\n\n> False-friend trap: **asistir a** = to **attend / be present at**, NOT to assist. To assist/help someone = *ayudar a alguien*.\n\n## Wishes and not-yet-found jobs → subjunctive\n\nWhen you describe a job you want but **haven't found yet**, the relative clause goes in the **subjunctive**, because the thing is hypothetical:\n\n- *Busco un trabajo que **sea** interesante.* — I'm looking for a job that is interesting (any such job).\n- *Quiero una empresa que **pague** bien.* — I want a company that pays well.\n\nCompare a real, known job (indicative): *Tengo un trabajo que **es** interesante.*\n\nAnd to talk about wishes politely, use the conditional: *Me **gustaría** trabajar en el extranjero.* (I would like to work abroad)."
+    },
+    {
+      "id": "ex-match-workplace",
+      "type": "exercise",
+      "title": "The workplace, matched",
+      "exercise": {
+        "id": "ex-match-workplace",
+        "type": "matching",
+        "prompt": "Match each Spanish word with its English meaning.",
+        "card_ids": ["work-empleo", "work-empresa", "work-sueldo", "work-jefe-companero"],
+        "pairs": [
+          {"left": "el empleo", "right": "the job"},
+          {"left": "la empresa", "right": "the company"},
+          {"left": "el sueldo", "right": "the salary"},
+          {"left": "el jefe", "right": "the boss"},
+          {"left": "el compañero de trabajo", "right": "the colleague"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-looking-job",
+      "type": "exercise",
+      "title": "A job you haven't found yet",
+      "exercise": {
+        "id": "ex-free-looking-job",
+        "type": "free_text",
+        "prompt": "Translate: *I'm looking for a job that is interesting.* (not-yet-found job → subjunctive: ser → sea)",
+        "card_ids": ["work-empleo", "work-duties"],
+        "accept": ["Busco un trabajo que sea interesante.", "busco un trabajo que sea interesante", "Busco un trabajo que sea interesante", "Busco un empleo que sea interesante."],
+        "hint": "Desired/unknown job → relative clause with subjunctive; ser → sea.",
+        "distractors": ["Busco un trabajo que es interesante.", "Busco una salida que sea interesante.", "Busco un trabajo que tenga éxito interesante."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-would-like",
+      "type": "exercise",
+      "title": "Saying what you'd like",
+      "exercise": {
+        "id": "ex-free-would-like",
+        "type": "free_text",
+        "prompt": "Translate: *I would like to work in a big company.* (conditional: gustar)",
+        "card_ids": ["work-empresa"],
+        "accept": ["Me gustaría trabajar en una empresa grande.", "me gustaría trabajar en una empresa grande", "Me gustaria trabajar en una empresa grande.", "Me gustaría trabajar en una gran empresa.", "Me gustaría trabajar en una empresa grande"],
+        "hint": "Me gustaría + infinitive; company = empresa (feminine).",
+        "distractors": ["Me gusta trabajar en una empresa grande.", "Me gustaría asistir en una empresa grande.", "Me gustaría trabajar en una salida grande."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-exito",
+      "type": "exercise",
+      "title": "Success, not exit",
+      "exercise": {
+        "id": "ex-pic-exito",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly says 'The company had a lot of success'? (mind éxito vs salida)",
+        "card_ids": ["work-exito", "work-empresa"],
+        "images": [
+          {"src": "assets/img/empresa-exito.png", "label": "La empresa tuvo mucho éxito.", "is_correct": "true"},
+          {"src": "assets/img/empresa-salida.png", "label": "La empresa tuvo mucha salida."},
+          {"src": "assets/img/empresa-exit.png", "label": "La empresa tuvo mucho exit."},
+          {"src": "assets/img/empresa-carrera.png", "label": "La empresa tuvo mucha carrera."}
+        ],
+        "hint": "éxito = success (NOT exit, which is salida); tener éxito = to be successful.",
+        "distractors": ["La empresa tuvo mucha salida.", "La empresa tuvo mucho exit.", "La empresa tuvo mucha carrera."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-encargo",
+      "type": "exercise",
+      "title": "What you're in charge of",
+      "exercise": {
+        "id": "ex-cloze-encargo",
+        "type": "cloze",
+        "prompt": "Fill in the verb: *encargarse de* (yo) — 'I'm in charge of the sales department.'",
+        "card_ids": ["work-duties"],
+        "sentence": "Yo me ___ del departamento de ventas.",
+        "blanks": [{"accept": ["encargo"]}],
+        "cloze_mode": "type",
+        "hint": "encargarse de → me encargo de (yo)."
+      }
+    },
+    {
+      "id": "ex-tiles-day-off",
+      "type": "exercise",
+      "title": "Build: ask for a day off",
+      "exercise": {
+        "id": "ex-tiles-day-off",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I want to ask the boss for a day off.*",
+        "card_ids": ["work-requests", "work-jefe-companero"],
+        "tiles": ["Quiero", "pedirle", "un", "día", "libre", "al", "jefe"],
+        "hint": "pedir un día libre = ask for a day off; pedirle ... al jefe = ask the boss.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-asistir",
+      "type": "exercise",
+      "title": "Attend, don't assist",
+      "exercise": {
+        "id": "ex-cloze-asistir",
+        "type": "cloze",
+        "prompt": "Fill in the preposition that goes with *asistir* (to attend): 'Tomorrow I attend an important meeting.'",
+        "card_ids": ["work-asistir", "work-requests"],
+        "sentence": "Mañana asisto ___ una reunión importante.",
+        "blanks": [{"accept": ["a"]}],
+        "cloze_mode": "type",
+        "hint": "asistir A algo = to attend something (asistir means attend, not assist)."
+      }
+    },
+    {
+      "id": "ex-free-carrera",
+      "type": "exercise",
+      "title": "Carrera: a degree, not just a career",
+      "exercise": {
+        "id": "ex-free-carrera",
+        "type": "free_text",
+        "prompt": "Translate: *I studied a law degree.* (use carrera for the university degree)",
+        "card_ids": ["work-carrera"],
+        "accept": ["Estudié la carrera de Derecho.", "estudié la carrera de derecho", "Estudie la carrera de Derecho.", "Estudié una carrera de Derecho.", "Estudié la carrera de Derecho"],
+        "hint": "carrera = university degree/major here; Derecho = Law.",
+        "distractors": ["Estudié la salida de Derecho.", "Estudié el éxito de Derecho.", "Asistí la carrera de Derecho."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-job-search",
+      "type": "exercise",
+      "title": "The job hunt, matched",
+      "exercise": {
+        "id": "ex-match-job-search",
+        "type": "matching",
+        "prompt": "Match each Spanish term with its English meaning.",
+        "card_ids": ["work-job-search", "work-contratar-despedir"],
+        "pairs": [
+          {"left": "el currículum", "right": "the CV / résumé"},
+          {"left": "la entrevista de trabajo", "right": "the job interview"},
+          {"left": "la oferta de empleo", "right": "the job posting"},
+          {"left": "contratar", "right": "to hire"},
+          {"left": "despedir", "right": "to fire"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-pague",
+      "type": "exercise",
+      "title": "A company that pays well",
+      "exercise": {
+        "id": "ex-cloze-pague",
+        "type": "cloze",
+        "prompt": "Fill in the subjunctive of *pagar* (it/the company): 'I want a company that pays well.' (desired → subjunctive)",
+        "card_ids": ["work-sueldo", "work-empresa"],
+        "sentence": "Quiero una empresa que ___ bien.",
+        "blanks": [{"accept": ["pague"]}],
+        "cloze_mode": "type",
+        "hint": "Desired/unknown company → subjunctive; pagar → pague (spelling -gar to -gue)."
+      }
+    },
+    {
+      "id": "ex-free-apply",
+      "type": "exercise",
+      "title": "Applying for a position",
+      "exercise": {
+        "id": "ex-free-apply",
+        "type": "free_text",
+        "prompt": "Translate: *I want to apply for this position.* (use solicitar)",
+        "card_ids": ["work-job-search", "work-contratar-despedir"],
+        "accept": ["Quiero solicitar este puesto.", "quiero solicitar este puesto", "Quiero solicitar este puesto", "Quiero solicitar este puesto de trabajo."],
+        "hint": "solicitar un puesto = to apply for a position.",
+        "distractors": ["Quiero asistir este puesto.", "Quiero solicitar esta salida.", "Quiero solicitar este éxito."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-experience",
+      "type": "exercise",
+      "title": "Talking about your experience",
+      "exercise": {
+        "id": "ex-free-experience",
+        "type": "free_text",
+        "prompt": "Translate: *I have experience in marketing and I'm responsible for the team.*",
+        "card_ids": ["work-duties"],
+        "accept": ["Tengo experiencia en marketing y soy responsable del equipo.", "tengo experiencia en marketing y soy responsable del equipo", "Tengo experiencia en marketing y soy responsable del equipo", "Tengo experiencia en marketing y soy responsable del equipo."],
+        "hint": "tener experiencia en + field; ser responsable de + el equipo (del = de + el).",
+        "distractors": ["Tengo experiencia en marketing y estoy responsable del equipo.", "Tengo éxito en marketing y soy responsable del equipo.", "Asisto experiencia en marketing y soy responsable del equipo."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

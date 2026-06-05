@@ -1,0 +1,69 @@
+# Spanish B1 (for English speakers) — set manifest
+# (schema v1.3).
+#
+# Intermediate Spanish course explained in English. Builds on the
+# A1 and A2 sets (es-a1-from-en, es-a2-from-en): the A1+A2 grammar
+# is presupposed, not re-taught. B1 deepens the subjunctive (full
+# present subjunctive and its triggers), adds conditional
+# sentences (si-clauses with the imperfect subjunctive), the
+# pluperfect, the passive and impersonal se, reported speech,
+# relative pronouns and connectors, and moves to more abstract
+# topics (work, health, media, environment/society, intercultural
+# communication), closing with text production. Mostly productive
+# (>=70% source_to_target) with distractors targeting common
+# English-speaker mistakes and false friends (éxito, constipado,
+# actual/actualmente, realizar, sensible, soportar, molestar,
+# recordar, embarazada).
+# The Content-Loader reads ``metadata.lessons`` for the file list.
+schema_version: '1.3'
+name: Spanish B1 (for English speakers)
+description: >-
+  Fifteen-lesson B1 Spanish course explained in English, building
+  on A1+A2: the present subjunctive and its triggers, conditional
+  sentences (si-clauses with the imperfect subjunctive), the
+  pluperfect, the passive and impersonal se, reported speech,
+  relative pronouns and connectors, abstract topics (work, health,
+  media, environment/society, intercultural communication) and
+  false friends, closing with review and text production.
+sets:
+  - id: es-b1-from-en
+    title: Spanish B1 — Intermediate
+    title_native: Español B1 — Intermedio
+    target_language: es
+    source_language: en
+    level: B1
+    path: sets/en/es-b1
+    version: '1.0.0'
+    lesson_count: 15
+    domain: language
+    description: >-
+      Intermediate Spanish for English speakers (15 lessons),
+      building on A1+A2: the present subjunctive and its triggers,
+      conditional sentences (si-clauses), the pluperfect, the
+      passive and impersonal se, reported speech, relative
+      pronouns, connectors, and abstract topics (work, health,
+      media, environment, travel), closing with text production.
+      Presupposes A1+A2; mostly productive.
+    tags:
+      - intermediate
+      - grammar
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-subjuntivo-presente.json
+    - 02-subjuntivo-disparadores.json
+    - 03-oraciones-condicionales.json
+    - 04-pluscuamperfecto.json
+    - 05-la-pasiva-e-impersonal.json
+    - 06-estilo-indirecto.json
+    - 07-pronombres-relativos.json
+    - 08-conectores.json
+    - 09-opiniones-y-sentimientos.json
+    - 10-trabajo-y-profesion.json
+    - 11-salud-y-cuerpo.json
+    - 12-noticias-y-medios.json
+    - 13-medio-ambiente-y-sociedad.json
+    - 14-viajes-y-comunicacion-intercultural.json
+    - 15-repaso-y-produccion-de-textos.json

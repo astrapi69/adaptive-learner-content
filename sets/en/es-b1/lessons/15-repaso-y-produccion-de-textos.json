@@ -1,0 +1,350 @@
+{
+  "id": "es-b1-15-repaso-y-produccion-de-textos",
+  "title": "B1 Review and Text Production",
+  "description": "The capstone: pull the whole B1 course together — present subjunctive and its triggers, si-clauses, the pluperfect, the passive and impersonal se, reported speech, relative pronouns and connectors — and put it to work PRODUCING connected text. You will build paragraphs with primero, además, sin embargo, por lo tanto and en conclusión, write a short opinion text and a short hypothetical narrative, and clear up the course's most stubborn false friends.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 22,
+  "cards": [
+    {
+      "id": "con-primero-ademas",
+      "front": "primero… además…",
+      "back": "first… also/furthermore… (adding and ordering ideas)",
+      "notes": "Use **primero** to open a point and **además** to pile on a second, reinforcing idea: *Primero, el trabajo da estabilidad. Además, te permite crecer.* (*Furthermore…*). Good for building the body of a paragraph.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["connectors", "writing"]
+    },
+    {
+      "id": "con-sin-embargo",
+      "front": "sin embargo / no obstante",
+      "back": "however / nevertheless (introduces a contrast)",
+      "notes": "**Sin embargo** flags a contrast with what came before: *Es un buen sueldo; **sin embargo**, los horarios son terribles.* It usually starts a clause and is set off by commas. *No obstante* is its more formal twin.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["connectors", "writing", "contrast"]
+    },
+    {
+      "id": "con-por-lo-tanto",
+      "front": "por lo tanto / así que",
+      "back": "therefore / so (introduces a consequence)",
+      "notes": "**Por lo tanto** draws a conclusion or consequence: *No estudió; **por lo tanto**, suspendió.* In speech *así que* does the same job more casually: *No había tren, **así que** fuimos andando.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["connectors", "writing", "consequence"]
+    },
+    {
+      "id": "con-en-conclusion",
+      "front": "en conclusión / en resumen",
+      "back": "in conclusion / to sum up (closes a text)",
+      "notes": "**En conclusión** signals your final paragraph and wraps up an opinion: *En conclusión, creo que viajar es la mejor inversión.* Pair it with *en resumen* (to sum up) or *para terminar* (to finish).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["connectors", "writing"]
+    },
+    {
+      "id": "ff-exito",
+      "front": "el éxito ≠ exit",
+      "back": "éxito means SUCCESS (an exit is la salida)",
+      "notes": "False friend. *El éxito* = **success**: *La película fue un gran éxito.* An **exit** is *la salida*. *Tener éxito* = to be successful.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["false-friends", "vocabulary"]
+    },
+    {
+      "id": "ff-constipado",
+      "front": "estar constipado ≠ constipated",
+      "back": "constipado means having a COLD (constipated is estreñido)",
+      "notes": "Famous trap. *Estoy constipado* = **I have a cold / a stuffy nose**, not constipated. To be **constipated** is *estar estreñido*. Health vocab from the course.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["false-friends", "vocabulary", "health"]
+    },
+    {
+      "id": "ff-actual",
+      "front": "actual / actualmente ≠ actual / actually",
+      "back": "actual = CURRENT; actualmente = CURRENTLY (not 'actually')",
+      "notes": "*Actual* = **current/present-day** (*el actual presidente* = the current president). *Actualmente* = **currently/nowadays**. For English **actually** use *en realidad* or *de hecho*; for **actual** use *real* or *verdadero*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["false-friends", "vocabulary", "media"]
+    },
+    {
+      "id": "ff-realizar",
+      "front": "realizar ≠ realize",
+      "back": "realizar = to CARRY OUT/do (to realize is darse cuenta)",
+      "notes": "*Realizar un proyecto* = **to carry out / do** a project. To **realize** (become aware) is *darse cuenta de*: *Me di cuenta de que…* Don't say *realicé que…* for 'I realized that…'.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["false-friends", "vocabulary", "work"]
+    },
+    {
+      "id": "ff-sensible-soportar",
+      "front": "sensible ≠ sensible; soportar ≠ support",
+      "back": "sensible = SENSITIVE; soportar = to TOLERATE/bear",
+      "notes": "*Sensible* = **sensitive** (emotionally); 'sensible' (reasonable) is *sensato/razonable*. *Soportar* = **to bear/tolerate** (*No soporto el ruido*); to **support** (back/help) is *apoyar*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["false-friends", "vocabulary"]
+    },
+    {
+      "id": "ff-molestar-recordar",
+      "front": "molestar ≠ molest; recordar ≠ record",
+      "back": "molestar = to BOTHER; recordar = to REMEMBER/remind",
+      "notes": "*Molestar* simply means **to bother/annoy** (*¿Te molesta la música?*). *Recordar* = **to remember** or **to remind**; to **record** is *grabar*. *Embarazada* = **pregnant**, not embarrassed (that's *avergonzado*).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["false-friends", "vocabulary"]
+    },
+    {
+      "id": "model-opinion",
+      "front": "En mi opinión, …; Creo que…; Estoy convencido de que…",
+      "back": "opening an opinion text",
+      "notes": "Model openers for an opinion paragraph. After *creo que* use the **indicative** (assertion); after *no creo que* use the **subjunctive**: *No creo que sea fácil.* Combine with connectors to structure the whole text.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["writing", "opinion", "review"]
+    },
+    {
+      "id": "model-si-clause",
+      "front": "Si tuviera tiempo, viajaría más.",
+      "back": "second-conditional si-clause (imperfect subjunctive + conditional)",
+      "notes": "Hypothetical si-clauses pair tenses: **Si + imperfect subjunctive, + conditional** (*Si tuviera… viajaría…*). Real/likely ones use **Si + present, + present/future** (*Si tengo tiempo, viajaré*). Never put a present subjunctive right after *si*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["writing", "conditional", "review"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-recap",
+      "type": "theory",
+      "title": "Everything you built, on one page",
+      "body": "# B1, all together now\n\nThis capstone doesn't teach a new structure — it makes the whole course *work together* so you can **produce connected text**. Here is the grammar toolkit at a glance.\n\n## The big structures\n\n| Tool | Core shape | Example |\n|---|---|---|\n| Present subjunctive | trigger + **que** + subj. | *Quiero que **vengas**.* |\n| Si-clause (real) | Si + present, + future | *Si **puedo**, **iré**.* |\n| Si-clause (unreal) | Si + imperf. subj., + conditional | *Si **tuviera** tiempo, **viajaría**.* |\n| Pluperfect | había + participle | *Ya **había salido**.* |\n| Passive / impersonal se | **se** + verb | ***Se habla** español. **Se** vendió la casa.* |\n| Reported speech | dijo que + (back-shift) | *Dijo que **vendría**.* |\n| Relative pronouns | que / quien / el que / cuyo | *el libro **que** leí* |\n\n## Two reflexes that separate B1 from A2\n\n- **Subjunctive triggers**: wishes, emotion, doubt/denial, *ojalá*, impersonal *es importante que*, and **change of subject** after *que*.\n- **Ser vs estar**: *ser* = identity/characteristic (*Es médico*); *estar* = state/location (*Está cansado*). And remember the meaning shifts: *ser listo* (clever) vs *estar listo* (ready).\n\nKeep this table in mind while you write the exercises below."
+    },
+    {
+      "id": "step-build-paragraph",
+      "type": "theory",
+      "title": "How to build a B1 paragraph",
+      "body": "## From sentences to a text\n\nB1 writing is judged on **cohesion**: ideas linked into paragraphs, not a list of isolated lines. Use connectors as the skeleton.\n\n### The opinion paragraph (4 moves)\n\n1. **Open / state your view** — *En mi opinión…*, *Creo que…*, *Estoy convencido de que…*\n2. **Add reasons** — *Primero,…* · *Además,…* · *Por un lado… por otro lado…*\n3. **Concede a contrast** — *Sin embargo,…* · *No obstante,…* · *Aunque…*\n4. **Conclude** — *Por lo tanto,…* · *En conclusión,…* · *En resumen,…*\n\n> Model: *En mi opinión, el teletrabajo es positivo. **Primero**, ahorras tiempo. **Además**, eres más productivo. **Sin embargo**, puede ser solitario. **En conclusión**, creo que sus ventajas pesan más.*\n\n### The narrative / hypothetical paragraph\n\nFor a story, anchor the timeline with the **pluperfect** for the earlier event and the preterite/imperfect for the main line: *Cuando llegué, la reunión ya **había empezado**.*\n\nFor a hypothesis, drive it with a **si-clause** plus the conditional: *Si **tuviera** más vacaciones, **viajaría** por Sudamérica. **Además**, **aprendería** a cocinar platos locales.*\n\n### Connector cheat-sheet\n\n| Function | Connectors |\n|---|---|\n| Add / order | primero, además, también, por un lado… por otro |\n| Contrast | sin embargo, no obstante, aunque, en cambio |\n| Cause / consequence | porque, ya que, por lo tanto, así que |\n| Conclude | en conclusión, en resumen, para terminar |"
+    },
+    {
+      "id": "step-false-friends",
+      "type": "theory",
+      "title": "False friends: the course's worst traps",
+      "body": "## Words that lie\n\nThese English-looking words mean something else. Burn them in before you write.\n\n| Spanish | Looks like | Actually means | English word you wanted |\n|---|---|---|---|\n| **éxito** | exit | success | salida |\n| **constipado** | constipated | having a cold | estreñido |\n| **actual / actualmente** | actual / actually | current / currently | real / en realidad |\n| **realizar** | realize | to carry out, do | darse cuenta (de) |\n| **sensible** | sensible | sensitive | sensato, razonable |\n| **molestar** | molest | to bother, annoy | acosar/agredir |\n| **soportar** | support | to bear, tolerate | apoyar |\n| **recordar** | record | to remember/remind | grabar |\n| **embarazada** | embarrassed | pregnant | avergonzada |\n\n> Sanity check: *Actualmente estoy constipado, así que no soporto el ruido; en realidad, sólo quiero descansar.* = *Currently I have a cold, so I can't stand noise; actually, I just want to rest.*\n\nWhen you produce text, pause on any word that 'looks English' — it is exactly where mistakes hide."
+    },
+    {
+      "id": "ex-match-falsefriends",
+      "type": "exercise",
+      "title": "False friend → real meaning",
+      "exercise": {
+        "id": "ex-match-falsefriends",
+        "type": "matching",
+        "prompt": "Match each Spanish false friend with what it ACTUALLY means in English.",
+        "card_ids": ["ff-exito", "ff-constipado", "ff-actual", "ff-realizar", "ff-sensible-soportar"],
+        "pairs": [
+          {"left": "éxito", "right": "success"},
+          {"left": "constipado", "right": "having a cold"},
+          {"left": "actualmente", "right": "currently"},
+          {"left": "realizar", "right": "to carry out / do"},
+          {"left": "sensible", "right": "sensitive"},
+          {"left": "soportar", "right": "to tolerate / bear"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-connectors",
+      "type": "exercise",
+      "title": "Connector → function",
+      "exercise": {
+        "id": "ex-match-connectors",
+        "type": "matching",
+        "prompt": "Match each connector with the job it does in a paragraph.",
+        "card_ids": ["con-primero-ademas", "con-sin-embargo", "con-por-lo-tanto", "con-en-conclusion"],
+        "pairs": [
+          {"left": "además", "right": "adds a further idea"},
+          {"left": "sin embargo", "right": "introduces a contrast"},
+          {"left": "por lo tanto", "right": "introduces a consequence"},
+          {"left": "en conclusión", "right": "closes the text"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-sin-embargo",
+      "type": "exercise",
+      "title": "Choose the contrast connector",
+      "exercise": {
+        "id": "ex-cloze-sin-embargo",
+        "type": "cloze",
+        "prompt": "Fill the blank with the two-word connector that signals a contrast (however).",
+        "card_ids": ["con-sin-embargo"],
+        "sentence": "El sueldo es bueno; ___ embargo, los horarios son muy malos.",
+        "blanks": [{"accept": ["sin"]}],
+        "cloze_mode": "type",
+        "hint": "'However' = ___ embargo."
+      }
+    },
+    {
+      "id": "ex-cloze-si-clause",
+      "type": "exercise",
+      "title": "Si-clause tense pairing",
+      "exercise": {
+        "id": "ex-cloze-si-clause",
+        "type": "cloze",
+        "prompt": "Complete the hypothetical sentence: Si + imperfect subjunctive of TENER (yo).",
+        "card_ids": ["model-si-clause"],
+        "sentence": "Si ___ más tiempo, viajaría por toda Sudamérica.",
+        "blanks": [{"accept": ["tuviera", "tuviese"]}],
+        "cloze_mode": "type",
+        "hint": "Si + imperfect subjunctive (tener → tuviera/tuviese), main clause in the conditional (viajaría)."
+      }
+    },
+    {
+      "id": "ex-cloze-se-impersonal",
+      "type": "exercise",
+      "title": "Impersonal se",
+      "exercise": {
+        "id": "ex-cloze-se-impersonal",
+        "type": "cloze",
+        "prompt": "Fill in the impersonal marker so the sentence means 'Spanish is spoken here'.",
+        "card_ids": ["model-opinion"],
+        "sentence": "En esta empresa ___ habla español e inglés.",
+        "blanks": [{"accept": ["se"]}],
+        "cloze_mode": "type",
+        "hint": "Impersonal/passive 'se' + verb in the third person: ___ habla español."
+      }
+    },
+    {
+      "id": "ex-tiles-opinion",
+      "type": "exercise",
+      "title": "Build an opinion sentence",
+      "exercise": {
+        "id": "ex-tiles-opinion",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *In my opinion, teleworking is positive; however, it can be lonely.*",
+        "card_ids": ["model-opinion", "con-sin-embargo"],
+        "tiles": ["En", "mi", "opinión", "el", "teletrabajo", "es", "positivo", "sin", "embargo", "puede", "ser", "solitario"],
+        "hint": "Open with 'En mi opinión…', then pivot with 'sin embargo' for the contrast.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-pluperfect",
+      "type": "exercise",
+      "title": "Build a narrative line (pluperfect)",
+      "exercise": {
+        "id": "ex-tiles-pluperfect",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *When I arrived, the meeting had already started.*",
+        "card_ids": ["model-si-clause"],
+        "tiles": ["Cuando", "llegué", "la", "reunión", "ya", "había", "empezado"],
+        "hint": "Preterite for the main event (llegué), pluperfect (había + empezado) for the earlier one.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-falsefriend",
+      "type": "exercise",
+      "title": "Say it without the false friend",
+      "exercise": {
+        "id": "ex-pic-falsefriend",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly says 'The film was a great success'? (mind éxito vs salida)",
+        "card_ids": ["ff-exito"],
+        "images": [
+          {"src": "assets/img/exito-1.png", "label": "La película fue un gran éxito.", "is_correct": "true"},
+          {"src": "assets/img/exito-2.png", "label": "La película fue una gran salida."},
+          {"src": "assets/img/exito-3.png", "label": "La película tuvo un gran exit."},
+          {"src": "assets/img/exito-4.png", "label": "La película fue muy suceso."}
+        ],
+        "hint": "'Success' = éxito; 'salida' would mean exit.",
+        "distractors": ["La película fue una gran salida.", "La película tuvo un gran exit.", "La película fue muy suceso."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-realize",
+      "type": "exercise",
+      "title": "I realized that… (not realizar!)",
+      "exercise": {
+        "id": "ex-free-realize",
+        "type": "free_text",
+        "prompt": "Translate: *I realized that I was wrong.* (use darse cuenta, NOT realizar)",
+        "card_ids": ["ff-realizar"],
+        "accept": ["Me di cuenta de que estaba equivocado.", "me di cuenta de que estaba equivocado", "Me di cuenta de que estaba equivocada.", "Me di cuenta de que me equivocaba.", "Me di cuenta de que estaba equivocado"],
+        "hint": "To realize = darse cuenta de que; 'I was wrong' = estaba equivocado/a.",
+        "distractors": ["Realicé que estaba equivocado.", "Me realicé que estaba equivocado.", "Di cuenta que estaba equivocado."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-cold",
+      "type": "exercise",
+      "title": "A health false friend",
+      "exercise": {
+        "id": "ex-free-cold",
+        "type": "free_text",
+        "prompt": "Translate: *I have a cold and I can't stand the noise.* (constipado + soportar, mind the false friends)",
+        "card_ids": ["ff-constipado", "ff-sensible-soportar"],
+        "accept": ["Estoy constipado y no soporto el ruido.", "estoy constipado y no soporto el ruido", "Estoy constipada y no soporto el ruido.", "Estoy resfriado y no soporto el ruido.", "Estoy constipado y no soporto el ruido"],
+        "hint": "'Have a cold' = estar constipado/resfriado; 'can't stand' = no soportar.",
+        "distractors": ["Estoy constipated y no support el ruido.", "Soy constipado y no apoyo el ruido.", "Estoy estreñido y no soporto el ruido."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-opinion-text",
+      "type": "exercise",
+      "title": "Write a short opinion text (2-3 sentences)",
+      "exercise": {
+        "id": "ex-free-opinion-text",
+        "type": "free_text",
+        "prompt": "Write 2-3 connected sentences giving your opinion on teleworking. Open with 'En mi opinión…', add a reason with 'Además…', and pivot with 'Sin embargo…'. (Several answers accepted.)",
+        "card_ids": ["model-opinion", "con-primero-ademas", "con-sin-embargo", "con-en-conclusion"],
+        "accept": [
+          "En mi opinión, el teletrabajo es positivo. Además, ahorras tiempo. Sin embargo, puede ser solitario.",
+          "en mi opinion, el teletrabajo es positivo. ademas, ahorras tiempo. sin embargo, puede ser solitario.",
+          "En mi opinión, el teletrabajo es muy bueno. Además, eres más productivo. Sin embargo, a veces es solitario.",
+          "En mi opinión, el teletrabajo tiene ventajas. Además, ahorras tiempo y dinero. Sin embargo, puede ser solitario. En conclusión, creo que es positivo.",
+          "En mi opinion, el teletrabajo es positivo. Ademas, ahorras tiempo. Sin embargo, puede ser solitario."
+        ],
+        "hint": "Structure: En mi opinión, … . Además, … . Sin embargo, … . Use the indicative after 'creo que'.",
+        "distractors": [
+          "Yo pienso teletrabajo bueno y malo también.",
+          "En mi opinión que el teletrabajo sea positivo además solitario.",
+          "I think teletrabajo is positive but solitario."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-hypothetical-text",
+      "type": "exercise",
+      "title": "Write a short hypothetical text (2-3 sentences)",
+      "exercise": {
+        "id": "ex-free-hypothetical-text",
+        "type": "free_text",
+        "prompt": "Write 2-3 connected sentences about what you would do if you had more free time. Use a si-clause (Si tuviera…, …ría) and link with 'Además…'. (Several answers accepted.)",
+        "card_ids": ["model-si-clause", "con-primero-ademas"],
+        "accept": [
+          "Si tuviera más tiempo libre, viajaría por Sudamérica. Además, aprendería a cocinar platos locales.",
+          "si tuviera mas tiempo libre, viajaria por sudamerica. ademas, aprenderia a cocinar platos locales.",
+          "Si tuviera más tiempo libre, viajaría más. Además, leería muchos libros.",
+          "Si tuviese más tiempo libre, viajaría por el mundo. Además, estudiaría otro idioma.",
+          "Si tuviera mas tiempo libre, viajaria por Sudamerica. Ademas, aprenderia a cocinar."
+        ],
+        "hint": "Si + imperfect subjunctive (tuviera/tuviese) + conditional (viajaría, aprendería). Add a second idea with 'Además'.",
+        "distractors": [
+          "Si tengo más tiempo libre, viajaré por Sudamérica además aprendo cocinar.",
+          "Si tendría más tiempo, viajaría por Sudamérica.",
+          "If I tuviera tiempo, yo viajaría además cocinar."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
