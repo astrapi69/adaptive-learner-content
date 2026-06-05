@@ -1,0 +1,335 @@
+{
+  "id": "10-daily-life-routines",
+  "title": "Daily life and routines, deepened",
+  "description": "A2 vocabulary and grammar for daily routines: reflexive verbs (se lever, se coucher, etc.), household chores (faire le menage, passer l'aspirateur), sequence/time expressions (d'abord, ensuite, enfin, avant de + infinitive), and frequency adverbs (toujours, souvent, parfois, rarement, ne...jamais). Explained in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "reflexive-intro",
+      "front": "se réveiller, se lever, se laver, s'habiller, se brosser les dents, se coucher",
+      "back": "to wake up, to get up, to wash (oneself), to get dressed, to brush one's teeth, to go to bed",
+      "notes": "These are **reflexive verbs** — the subject acts on itself. The reflexive pronoun (**me, te, se, nous, vous, se**) always matches the subject. English hides this: *I get up* looks simple, but French forces you to say *je **me** lève*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "reflexive", "routine"]
+    },
+    {
+      "id": "reflexive-conjugation",
+      "front": "se lever — je me lève, tu te lèves, il/elle se lève, nous nous levons, vous vous levez, ils/elles se lèvent",
+      "back": "reflexive conjugation of se lever (to get up)",
+      "notes": "The reflexive pronoun **changes with every person**: *me → te → se → nous → vous → se*. Notice the stem also changes: *lèv-* (with grave accent) for all persons except nous/vous: *je me lève, nous nous levons*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "The pronoun before the verb always mirrors the subject: je me, tu te, il se, nous nous, vous vous, ils se.",
+      "tags": ["grammar", "reflexive", "conjugation"]
+    },
+    {
+      "id": "household-chores",
+      "front": "faire le ménage, faire la vaisselle, faire la lessive, ranger, passer l'aspirateur",
+      "back": "to do the housework/cleaning, to do the dishes, to do the laundry, to tidy up, to vacuum",
+      "notes": "These chores use **faire** (to do/make) + a definite article for the task, except *ranger* (irregular: just the verb) and *passer l'aspirateur* (lit. 'to pass the vacuum'). They are NOT reflexive.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "household", "chores"]
+    },
+    {
+      "id": "sequence-expressions",
+      "front": "d'abord, ensuite, puis, enfin",
+      "back": "first (of all), then/next, then/next, finally/lastly",
+      "notes": "Use these adverbs to **sequence** your daily routine: *D'abord je me lève, **ensuite** je me douche, **puis** je prends le petit-déjeuner, **enfin** je pars au travail.* They are interchangeable in the middle positions; *d'abord* starts and *enfin* closes.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "sequence", "discourse"]
+    },
+    {
+      "id": "avant-apres",
+      "front": "avant de + infinitif / après (+ infinitif passé)",
+      "back": "before doing / after doing",
+      "notes": "**Avant de** is followed by an **infinitive**: *avant de **partir*** (before leaving). **Après** at A2 is often followed by a noun: *après le dîner* (after dinner). Example: *Je me brosse les dents avant de me coucher.* (I brush my teeth before going to bed.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "avant de + infinitive; after avant de the verb stays in the infinitive, never conjugated.",
+      "tags": ["grammar", "sequence", "avant-de"]
+    },
+    {
+      "id": "frequency-adverbs",
+      "front": "toujours, souvent, parfois, rarement, ne...jamais",
+      "back": "always, often, sometimes, rarely, never",
+      "notes": "These adverbs go **after the verb** in simple tenses: *Je me lève **toujours** tôt.* **Ne...jamais** is a negative pair — *ne* before the verb, *jamais* after: *Je **ne** me couche **jamais** avant minuit.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "frequency", "adverbs"]
+    },
+    {
+      "id": "se-reveiller",
+      "front": "se réveiller",
+      "back": "to wake up (reflexive)",
+      "notes": "*Je **me réveille** à sept heures.* (I wake up at seven.) Note the accent on the first *e*: réveiller. The reflexive pronoun is required — you cannot say *je réveille* for waking yourself up.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "reflexive", "routine"]
+    },
+    {
+      "id": "se-coucher",
+      "front": "se coucher",
+      "back": "to go to bed (reflexive)",
+      "notes": "*Elle **se couche** à onze heures.* (She goes to bed at eleven.) The base verb *coucher* means 'to lay down'; the reflexive makes it 'to lay oneself down = go to bed'.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "reflexive", "routine"]
+    },
+    {
+      "id": "passer-aspirateur",
+      "front": "passer l'aspirateur",
+      "back": "to vacuum / to hoover",
+      "notes": "Literally 'to pass the vacuum cleaner'. *Je passe l'aspirateur le samedi.* (I vacuum on Saturdays.) This is a completely regular non-reflexive construction with *passer* + definite article.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "household", "chores"]
+    },
+    {
+      "id": "ne-jamais",
+      "front": "Je ne me lève jamais avant sept heures.",
+      "back": "I never get up before seven o'clock.",
+      "notes": "**Ne...jamais** = never. The *ne* comes before the reflexive pronoun (and verb), *jamais* after the verb: *Je **ne** me lève **jamais**.* The reflexive pronoun stays between *ne* and the verb.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Word order: subject + ne + reflexive pronoun + verb + jamais.",
+      "tags": ["grammar", "negation", "frequency", "reflexive"]
+    },
+    {
+      "id": "habiller-brosser",
+      "front": "s'habiller / se brosser les dents",
+      "back": "to get dressed / to brush one's teeth",
+      "notes": "*Je **m'habille** rapidement.* (I get dressed quickly.) *Tu **te brosses** les dents.* (You brush your teeth.) Note: *se brosser les dents* — the body part takes a definite article (*les dents*), not a possessive adjective.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "reflexive", "routine"]
+    },
+    {
+      "id": "une-fois-par",
+      "front": "une fois par semaine / deux fois par jour",
+      "back": "once a week / twice a day",
+      "notes": "**Une fois par** + time period = once per...; **deux fois par** = twice per... *Je fais la lessive **deux fois par semaine**.* (I do the laundry twice a week.) These phrases come at the end of the sentence.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "frequency", "time"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-reflexive-verbs",
+      "type": "theory",
+      "title": "Reflexive verbs in daily routines",
+      "body": "# Daily life and routines, deepened\n\n## Reflexive verbs — the invisible 'myself'\n\nMany daily routine verbs in French are **reflexive**: the subject performs the action on themselves. English usually hides this — *I get up, I wash, I get dressed* — but French **requires** a reflexive pronoun that agrees with the subject.\n\n> **je me lève** (I get up) — *me* = myself, but it is **obligatory** in French.\n\nThe six core routine reflexive verbs:\n\n| Infinitive | Meaning |\n|---|---|\n| **se réveiller** | to wake up |\n| **se lever** | to get up |\n| **se laver** | to wash (oneself) |\n| **s'habiller** | to get dressed |\n| **se brosser les dents** | to brush one's teeth |\n| **se coucher** | to go to bed |\n\n## Reflexive pronouns\n\nThe pronoun **must match** the subject:\n\n| Person | Pronoun | Example |\n|---|---|---|\n| je | **me** (m') | je **me** lève |\n| tu | **te** (t') | tu **te** lèves |\n| il/elle/on | **se** (s') | il **se** lève |\n| nous | **nous** | nous **nous** levons |\n| vous | **vous** | vous **vous** levez |\n| ils/elles | **se** (s') | ils **se** lèvent |\n\n> Key trap for English speakers: *je lève* is **wrong** for 'I get up'. Without the reflexive pronoun, *lever* means to lift something else. Always say **je me lève**."
+    },
+    {
+      "id": "theory-chores-sequence",
+      "type": "theory",
+      "title": "Household chores and sequencing your day",
+      "body": "## Household chores\n\nThese common chores use **faire** + article, or standalone verbs — they are **not** reflexive:\n\n| French | English |\n|---|---|\n| faire le **ménage** | do the housework / clean |\n| faire la **vaisselle** | do the dishes |\n| faire la **lessive** | do the laundry |\n| **ranger** | tidy up |\n| passer l'**aspirateur** | vacuum / hoover |\n\n## Sequencing a routine\n\nLink actions with these time adverbs:\n\n| Word | Meaning | Position |\n|---|---|---|\n| **d'abord** | first of all | start |\n| **ensuite** | then, next | middle |\n| **puis** | then, next | middle |\n| **enfin** | finally, lastly | end |\n\nExample: *D'abord je me lève, ensuite je me douche, puis je prends le petit-déjeuner, enfin je pars.*\n\n**Avant de + infinitive** = before doing something:\n> *Je me brosse les dents **avant de** me coucher.* (I brush my teeth before going to bed.)"
+    },
+    {
+      "id": "theory-frequency",
+      "type": "theory",
+      "title": "Frequency adverbs and ne...jamais",
+      "body": "## Frequency adverbs\n\nPlace these **after the verb** in a simple tense:\n\n| Adverb | Meaning | Example |\n|---|---|---|\n| **toujours** | always | Je me lève **toujours** tot |\n| **souvent** | often | Elle range **souvent** |\n| **parfois** | sometimes | Il passe **parfois** l'aspirateur |\n| **rarement** | rarely | Nous faisons **rarement** la vaisselle |\n\n## Ne...jamais (never)\n\n**Ne...jamais** is a two-part negative like *ne...pas*. The *ne* (or *n'*) comes before the verb, *jamais* after:\n\n| Positive | Negative |\n|---|---|\n| Je me couche toujours tot. | Je **ne** me couche **jamais** tot. |\n| Il fait souvent la lessive. | Il **ne** fait **jamais** la lessive. |\n\n> With a reflexive verb: subject + **ne** + reflexive pronoun + verb + **jamais**.\n> *Je **ne** me lève **jamais** avant sept heures.*\n\n## Frequency expressions\n\n**Une fois par** + time period = once per ...\n\n- *une fois par **jour*** — once a day\n- *deux fois par **semaine*** — twice a week\n- *trois fois par **mois*** — three times a month"
+    },
+    {
+      "id": "ex-match-reflexive-pronouns",
+      "type": "exercise",
+      "title": "Match the subject to the reflexive form",
+      "exercise": {
+        "id": "ex-match-reflexive-pronouns",
+        "type": "matching",
+        "prompt": "Match each subject pronoun to the correct form of se lever.",
+        "card_ids": ["reflexive-conjugation"],
+        "pairs": [
+          { "left": "je", "right": "me lève" },
+          { "left": "tu", "right": "te lèves" },
+          { "left": "il/elle", "right": "se lève" },
+          { "left": "nous", "right": "nous levons" },
+          { "left": "ils/elles", "right": "se lèvent" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-i-get-up",
+      "type": "exercise",
+      "title": "Translate a reflexive routine sentence",
+      "exercise": {
+        "id": "ex-free-i-get-up",
+        "type": "free_text",
+        "prompt": "Translate: *I get up at seven o'clock.* (use se lever)",
+        "card_ids": ["reflexive-conjugation", "reflexive-intro"],
+        "accept": [
+          "Je me lève à sept heures.",
+          "je me lève à sept heures",
+          "Je me leve a sept heures.",
+          "Je me lève a sept heures."
+        ],
+        "hint": "Don't forget the reflexive pronoun: je **me** lève. The verb stem gets a grave accent: lève.",
+        "distractors": [
+          "Je lève à sept heures.",
+          "Je te lève à sept heures.",
+          "Je me lever à sept heures."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-se-coucher",
+      "type": "exercise",
+      "title": "Complete the reflexive verb",
+      "exercise": {
+        "id": "ex-cloze-se-coucher",
+        "type": "cloze",
+        "prompt": "Fill in the correct reflexive pronoun for elle (se coucher).",
+        "card_ids": ["se-coucher", "reflexive-conjugation"],
+        "sentence": "Elle ___ couche à onze heures.",
+        "blanks": [
+          { "accept": ["se"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "The reflexive pronoun for il/elle is se."
+      }
+    },
+    {
+      "id": "ex-tiles-brush-teeth",
+      "type": "exercise",
+      "title": "Build: I brush my teeth before going to bed",
+      "exercise": {
+        "id": "ex-tiles-brush-teeth",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I brush my teeth before going to bed.*",
+        "card_ids": ["habiller-brosser", "avant-apres"],
+        "tiles": ["Je", "me", "brosse", "les", "dents", "avant", "de", "me", "coucher."],
+        "hint": "avant de + infinitive. The reflexive pronoun (me) appears twice: once for se brosser and once for se coucher.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-she-does-laundry",
+      "type": "exercise",
+      "title": "Household chore sentence",
+      "exercise": {
+        "id": "ex-free-she-does-laundry",
+        "type": "free_text",
+        "prompt": "Translate: *She does the laundry twice a week.*",
+        "card_ids": ["household-chores", "une-fois-par"],
+        "accept": [
+          "Elle fait la lessive deux fois par semaine.",
+          "elle fait la lessive deux fois par semaine",
+          "Elle fait la lessive deux fois par semaine"
+        ],
+        "hint": "faire la lessive = to do the laundry; deux fois par semaine = twice a week.",
+        "distractors": [
+          "Elle se fait la lessive deux fois par semaine.",
+          "Elle fait les lessives deux fois par semaine.",
+          "Elle fait la lessive deux fois semaine."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-routine-sequence",
+      "type": "exercise",
+      "title": "Which sentence describes the routine correctly?",
+      "exercise": {
+        "id": "ex-pic-routine-sequence",
+        "type": "picture_choice",
+        "prompt": "Someone describes their morning: they wake up, then shower, then have breakfast. Which sentence correctly uses sequencing words?",
+        "card_ids": ["sequence-expressions"],
+        "images": [
+          { "src": "assets/img/routine-correct.png", "label": "D'abord je me réveille, ensuite je me douche, puis je prends le petit-déjeuner.", "is_correct": "true" },
+          { "src": "assets/img/routine-wrong1.png", "label": "Enfin je me réveille, d'abord je me douche, puis je prends le petit-déjeuner." },
+          { "src": "assets/img/routine-wrong2.png", "label": "D'abord je me réveille, d'abord je me douche, d'abord je prends le petit-déjeuner." },
+          { "src": "assets/img/routine-wrong3.png", "label": "Puis je me réveille, enfin je me douche, d'abord je prends le petit-déjeuner." }
+        ],
+        "hint": "d'abord = first; ensuite/puis = then/next; enfin = finally.",
+        "distractors": [
+          "Enfin je me réveille, d'abord je me douche, puis je prends le petit-déjeuner.",
+          "D'abord je me réveille, d'abord je me douche, d'abord je prends le petit-déjeuner.",
+          "Puis je me réveille, enfin je me douche, d'abord je prends le petit-déjeuner."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-chores-meanings",
+      "type": "exercise",
+      "title": "Match the chore to its meaning",
+      "exercise": {
+        "id": "ex-match-chores-meanings",
+        "type": "matching",
+        "prompt": "Match each French expression to its English meaning.",
+        "card_ids": ["household-chores", "passer-aspirateur"],
+        "pairs": [
+          { "left": "faire la vaisselle", "right": "do the dishes" },
+          { "left": "passer l'aspirateur", "right": "vacuum" },
+          { "left": "faire la lessive", "right": "do the laundry" },
+          { "left": "ranger", "right": "tidy up" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-ne-jamais",
+      "type": "exercise",
+      "title": "Insert the negative adverb",
+      "exercise": {
+        "id": "ex-cloze-ne-jamais",
+        "type": "cloze",
+        "prompt": "Fill in the missing word to complete the 'never' construction.",
+        "card_ids": ["ne-jamais", "frequency-adverbs"],
+        "sentence": "Je ne me lève ___ avant sept heures.",
+        "blanks": [
+          { "accept": ["jamais"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "ne...jamais = never. The second part of the negative goes after the verb."
+      }
+    },
+    {
+      "id": "ex-free-i-vacuum",
+      "type": "exercise",
+      "title": "Frequency adverb sentence",
+      "exercise": {
+        "id": "ex-free-i-vacuum",
+        "type": "free_text",
+        "prompt": "Translate: *I often vacuum on Saturdays.*",
+        "card_ids": ["passer-aspirateur", "frequency-adverbs"],
+        "accept": [
+          "Je passe souvent l'aspirateur le samedi.",
+          "je passe souvent l'aspirateur le samedi",
+          "Je passe souvent l'aspirateur le samedi"
+        ],
+        "hint": "passer l'aspirateur = to vacuum; souvent (often) goes after the verb.",
+        "distractors": [
+          "Je passe l'aspirateur souvent le samedi.",
+          "Je me passe souvent l'aspirateur le samedi.",
+          "Je souvent passe l'aspirateur le samedi."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-we-tidy-up",
+      "type": "exercise",
+      "title": "Build: We always tidy up after dinner",
+      "exercise": {
+        "id": "ex-tiles-we-tidy-up",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *We always tidy up after dinner.*",
+        "card_ids": ["household-chores", "frequency-adverbs"],
+        "tiles": ["Nous", "rangeons", "toujours", "après", "le", "dîner."],
+        "hint": "toujours (always) comes right after the verb; après le dîner = after dinner.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

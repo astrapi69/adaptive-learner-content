@@ -1,0 +1,330 @@
+{
+  "id": "es-b1-01-subjuntivo-presente",
+  "title": "The Present Subjunctive, Deepened",
+  "description": "Move from the A2 first contact to the full present subjunctive: how every form is built from the yo-form, the spelling changes, the stem-changing verbs and all the truly irregular verbs (sea, vaya, haya, sepa, dé, esté). The triggers come in Lesson 2.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "sub-yo-rule",
+      "front": "hablar → hablo → hable",
+      "back": "Build the subjunctive from the yo-form: drop -o, add the opposite endings",
+      "notes": "The golden rule: take the **yo** form of the present indicative (*hablo*, *como*, *digo*), drop the **-o**, and add the *opposite* vowel endings. This keeps almost every irregularity automatically (*digo → diga*).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "subjuntivo"]
+    },
+    {
+      "id": "sub-ar-endings",
+      "front": "hable, hables, hable, hablemos, habléis, hablen",
+      "back": "present subjunctive of -AR verbs (endings with -e)",
+      "notes": "-AR verbs take **e-endings**: -e, -es, -e, -emos, -éis, -en. The vowel *flips* from the indicative's -a.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "subjuntivo"]
+    },
+    {
+      "id": "sub-er-ir-endings",
+      "front": "coma, comas, coma, comamos, comáis, coman",
+      "back": "present subjunctive of -ER/-IR verbs (endings with -a)",
+      "notes": "-ER and -IR verbs take **a-endings**: -a, -as, -a, -amos, -áis, -an. So *comer → coma*, *vivir → viva*. The vowel flips from -e/-i to -a.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "subjuntivo"]
+    },
+    {
+      "id": "sub-irregular-yo",
+      "front": "tener → tengo → tenga; decir → digo → diga",
+      "back": "verbs irregular in the yo-form stay irregular in the subjunctive",
+      "notes": "Because the rule starts from the yo-form, verbs like *tener (tengo), decir (digo), hacer (hago), salir (salgo), poner (pongo), conocer (conozco)* carry their irregular stem through every person: *tenga, tengas...*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo"]
+    },
+    {
+      "id": "sub-spelling",
+      "front": "buscar → busque; llegar → llegue; empezar → empiece",
+      "back": "spelling changes (-car, -gar, -zar) in ALL persons",
+      "notes": "Unlike the preterite (only *yo*), here the spelling change runs through **all** persons: *busque, busques, busque...*; *llegue...*; and *-zar* → *-ce* (*empiece*).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "spelling"]
+    },
+    {
+      "id": "sub-stem-ar-er",
+      "front": "pensar → piense; poder → pueda",
+      "back": "-AR/-ER stem-changers: change in all forms EXCEPT nosotros/vosotros",
+      "notes": "*pensar (e→ie)* → piense, pienses, piense, **pensemos**, **penséis**, piensen. Same boot pattern as the indicative: nosotros/vosotros keep the plain stem.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "stem-change"]
+    },
+    {
+      "id": "sub-stem-ir",
+      "front": "pedir → pida; dormir → duerma, durmamos",
+      "back": "-IR stem-changers also change in nosotros/vosotros",
+      "notes": "-IR verbs add an extra change in *nosotros/vosotros*: *dormir* → duerma... but **durmamos, durmáis**; *pedir* → pida... **pidamos**. *sentir* → sienta... **sintamos**.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "subjuntivo", "stem-change"]
+    },
+    {
+      "id": "sub-irregulars",
+      "front": "ser→sea, ir→vaya, haber→haya, saber→sepa, dar→dé, estar→esté",
+      "back": "the six truly irregular subjunctives",
+      "notes": "These don't come from the yo-form and must be memorised: *ser → sea*, *ir → vaya*, *haber → haya*, *saber → sepa*, *dar → dé* (with accent, vs. *de*), *estar → esté* (accents on esté, estés, estén).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "irregular"]
+    },
+    {
+      "id": "sub-haya",
+      "front": "haya, hayas, haya, hayamos, hayáis, hayan",
+      "back": "present subjunctive of haber (for the perfect subjunctive)",
+      "notes": "*haya* + past participle = the perfect subjunctive: *Espero que **hayas comido*** (I hope you have eaten). Don't confuse *haya* (subjunctive) with *allá* (over there) or *halla* (he/she finds).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "subjuntivo", "irregular"]
+    },
+    {
+      "id": "sub-vs-indicative",
+      "front": "Creo que viene. / No creo que venga.",
+      "back": "indicative for fact/assertion, subjunctive for the unreal/subjective",
+      "notes": "The subjunctive is a **mood**, not a tense. Roughly: assert a fact → indicative (*Creo que viene*); express doubt, wish, emotion or denial → subjunctive (*No creo que venga*). The triggers come in Lesson 2.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo"]
+    },
+    {
+      "id": "sub-english-gap",
+      "front": "I want you to study. → Quiero que estudies.",
+      "back": "English has no living subjunctive — watch the 'que + change of subject' pattern",
+      "notes": "English uses an infinitive (*I want you to study*); Spanish needs **que + subjunctive** when the subject changes: *Quiero que estudies*. With no subject change, use the infinitive: *Quiero estudiar*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "contrast"]
+    },
+    {
+      "id": "sub-dar-estar-accents",
+      "front": "dé, esté, estés, estén",
+      "back": "mind the written accents",
+      "notes": "*dé* keeps an accent to distinguish it from the preposition *de*. *estar* takes accents on **esté, estés, estén** (but not *estemos, estéis*… actually *estéis* has one). Accents matter for meaning and for the validator.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "spelling"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "From first contact to full command",
+      "body": "# The Present Subjunctive, deepened\n\nIn A2 you met the subjunctive as a mood for **wishes, emotions, doubt and the unreal**. Now we build *every* form reliably.\n\n## The golden rule: start from the yo-form\n\n1. Take the **yo** form of the present indicative: *hablar → hablo*, *comer → como*, *decir → digo*.\n2. Drop the **-o**.\n3. Add the **opposite** endings:\n\n| | -AR (*hablar*) | -ER/-IR (*comer / vivir*) |\n|---|---|---|\n| yo | hable | coma |\n| tú | hables | comas |\n| él/ella | hable | coma |\n| nosotros | hablemos | comamos |\n| vosotros | habléis | comáis |\n| ellos | hablen | coman |\n\nThe vowel **flips**: -AR verbs take *e*, -ER/-IR verbs take *a*.\n\n> Because we start from *yo*, irregular yo-forms come along for free: *tener (tengo) → tenga*, *decir (digo) → diga*, *conocer (conozco) → conozca*."
+    },
+    {
+      "id": "step-spelling-stem",
+      "type": "theory",
+      "title": "Spelling changes and stem-changers",
+      "body": "## Spelling changes — in every person\n\nTo keep the sound, **-car, -gar, -zar** verbs change spelling throughout (not just *yo*):\n\n- *buscar* → **busque, busques, busque, busquemos, busquéis, busquen**\n- *llegar* → **llegue...**  ·  *empezar* → **empiece...**\n\n## Stem-changing verbs\n\n**-AR and -ER** stem-changers follow the boot: they change in all forms **except** *nosotros/vosotros*.\n\n- *pensar (e→ie)* → piense, pienses, piense, **pensemos, penséis**, piensen\n- *poder (o→ue)* → pueda... **podamos, podáis**... puedan\n\n**-IR** stem-changers change there **too**, with a special vowel:\n\n- *dormir* → duerma, duermas... **durmamos, durmáis**... duerman (o→u)\n- *pedir* → pida... **pidamos, pidáis**... pidan (e→i)\n- *sentir* → sienta... **sintamos, sintáis**... sientan (e→i)"
+    },
+    {
+      "id": "step-irregulars",
+      "type": "theory",
+      "title": "The six irregulars and the English gap",
+      "body": "## Six verbs you simply memorise\n\nThese don't come from the yo-form:\n\n| Verb | Subjunctive |\n|---|---|\n| ser | **sea**, seas, sea, seamos, seáis, sean |\n| ir | **vaya**, vayas, vaya, vayamos, vayáis, vayan |\n| haber | **haya**, hayas, haya, hayamos, hayáis, hayan |\n| saber | **sepa**, sepas... |\n| dar | **dé**, des, dé, demos, deis, den |\n| estar | **esté**, estés, esté, estemos, estéis, estén |\n\nNote the accents: *dé* (vs. the preposition *de*) and *esté/estés/esté/estén*.\n\n## Mind the English gap\n\nModern English barely has a subjunctive, so the structure feels alien. The key trigger is **que + a change of subject**:\n\n- *I want **to** study* → *Quiero estudiar* (no change → infinitive)\n- *I want **you to** study* → *Quiero que **estudies*** (change → que + subjunctive)\n\nNever translate *to* literally here. The full list of triggers is Lesson 2."
+    },
+    {
+      "id": "ex-match-endings",
+      "type": "exercise",
+      "title": "Which ending?",
+      "exercise": {
+        "id": "ex-match-endings",
+        "type": "matching",
+        "prompt": "Match each verb with its correct yo present-subjunctive form.",
+        "card_ids": ["sub-ar-endings", "sub-er-ir-endings", "sub-irregulars"],
+        "pairs": [
+          {"left": "hablar", "right": "hable"},
+          {"left": "comer", "right": "coma"},
+          {"left": "vivir", "right": "viva"},
+          {"left": "ser", "right": "sea"},
+          {"left": "ir", "right": "vaya"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-want-you-study",
+      "type": "exercise",
+      "title": "The change-of-subject trap",
+      "exercise": {
+        "id": "ex-free-want-you-study",
+        "type": "free_text",
+        "prompt": "Translate: *I want you to study more.* (change of subject → que + subjunctive)",
+        "card_ids": ["sub-english-gap", "sub-er-ir-endings"],
+        "accept": ["Quiero que estudies más.", "quiero que estudies más", "Quiero que estudies mas.", "Quiero que estudies más"],
+        "hint": "querer que + subjunctive; estudiar → estudies (tú).",
+        "distractors": ["Quiero que estudias más.", "Quiero tú estudiar más.", "Te quiero para estudiar más."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-hope-be-happy",
+      "type": "exercise",
+      "title": "An irregular subjunctive",
+      "exercise": {
+        "id": "ex-free-hope-be-happy",
+        "type": "free_text",
+        "prompt": "Translate: *I hope (that) you are happy.* (ser → subjunctive)",
+        "card_ids": ["sub-irregulars"],
+        "accept": ["Espero que seas feliz.", "espero que seas feliz", "Espero que seas feliz."],
+        "hint": "esperar que + subjunctive; ser → seas (tú).",
+        "distractors": ["Espero que eres feliz.", "Espero que estés feliz.", "Espero que seras feliz."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-no-creo",
+      "type": "exercise",
+      "title": "Fact or doubt?",
+      "exercise": {
+        "id": "ex-pic-no-creo",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly says 'I don't think he will come'? (doubt → subjunctive)",
+        "card_ids": ["sub-vs-indicative", "sub-irregular-yo"],
+        "images": [
+          {"src": "assets/img/venga-1.png", "label": "No creo que venga.", "is_correct": "true"},
+          {"src": "assets/img/venga-2.png", "label": "No creo que viene."},
+          {"src": "assets/img/venga-3.png", "label": "No pienso que viniendo."},
+          {"src": "assets/img/venga-4.png", "label": "No creo que vendrá."}
+        ],
+        "hint": "no creer que expresses doubt → subjunctive; venir (vengo) → venga.",
+        "distractors": ["No creo que viene.", "No pienso que viniendo.", "No creo que vendrá."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-busque",
+      "type": "exercise",
+      "title": "Spelling change throughout",
+      "exercise": {
+        "id": "ex-cloze-busque",
+        "type": "cloze",
+        "prompt": "Fill in the present subjunctive of *buscar* for nosotros.",
+        "card_ids": ["sub-spelling"],
+        "sentence": "El jefe quiere que ___ una solución entre todos.",
+        "blanks": [{"accept": ["busquemos"]}],
+        "cloze_mode": "type",
+        "hint": "buscar → busqu- in every person; nosotros ending -emos → busquemos."
+      }
+    },
+    {
+      "id": "ex-tiles-ojala",
+      "type": "exercise",
+      "title": "Build: I hope it doesn't rain",
+      "exercise": {
+        "id": "ex-tiles-ojala",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I hope it doesn't rain tomorrow.* (Ojalá + subjunctive)",
+        "card_ids": ["sub-ar-endings", "sub-vs-indicative"],
+        "tiles": ["Ojalá", "no", "llueva", "mañana"],
+        "hint": "Ojalá always takes the subjunctive; llover → llueva.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-durmamos",
+      "type": "exercise",
+      "title": "An -IR stem-changer (nosotros)",
+      "exercise": {
+        "id": "ex-cloze-durmamos",
+        "type": "cloze",
+        "prompt": "Fill in the present subjunctive of *dormir* for nosotros.",
+        "card_ids": ["sub-stem-ir"],
+        "sentence": "Es importante que ___ ocho horas cada noche.",
+        "blanks": [{"accept": ["durmamos"]}],
+        "cloze_mode": "type",
+        "hint": "-IR stem-changers shift o→u in nosotros too: durmamos."
+      }
+    },
+    {
+      "id": "ex-free-recommend-rest",
+      "type": "exercise",
+      "title": "Recommend with the subjunctive",
+      "exercise": {
+        "id": "ex-free-recommend-rest",
+        "type": "free_text",
+        "prompt": "Translate: *The doctor recommends that you rest.* (recomendar que + subjunctive, usted)",
+        "card_ids": ["sub-vs-indicative", "sub-stem-ar-er"],
+        "accept": ["El médico recomienda que descanse.", "el médico recomienda que descanse", "El medico recomienda que descanse.", "El médico recomienda que usted descanse.", "El médico recomienda que descanse"],
+        "hint": "recomendar que + subjunctive; descansar → descanse (usted).",
+        "distractors": ["El médico recomienda que descansas.", "El médico recomienda descansar tú.", "El médico recomienda que descanses usted."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-irregulars",
+      "type": "exercise",
+      "title": "Match the irregulars",
+      "exercise": {
+        "id": "ex-match-irregulars",
+        "type": "matching",
+        "prompt": "Match each infinitive with its (irregular) present-subjunctive yo-form.",
+        "card_ids": ["sub-irregulars", "sub-haya"],
+        "pairs": [
+          {"left": "haber", "right": "haya"},
+          {"left": "saber", "right": "sepa"},
+          {"left": "dar", "right": "dé"},
+          {"left": "estar", "right": "esté"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-glad-you-know",
+      "type": "exercise",
+      "title": "Emotion + subjunctive",
+      "exercise": {
+        "id": "ex-free-glad-you-know",
+        "type": "free_text",
+        "prompt": "Translate: *I'm glad (that) you know the truth.* (saber → subjunctive)",
+        "card_ids": ["sub-irregulars"],
+        "accept": ["Me alegro de que sepas la verdad.", "me alegro de que sepas la verdad", "Me alegro de que sepas la verdad.", "Me alegro que sepas la verdad."],
+        "hint": "alegrarse de que + subjunctive; saber → sepas (tú).",
+        "distractors": ["Me alegro de que sabes la verdad.", "Me alegro de que conozcas la verdad.", "Estoy contento de que sabrás la verdad."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-perfect-sub",
+      "type": "exercise",
+      "title": "The perfect subjunctive",
+      "exercise": {
+        "id": "ex-cloze-perfect-sub",
+        "type": "cloze",
+        "prompt": "Fill in the subjunctive of *haber* (tú) to form the perfect subjunctive.",
+        "card_ids": ["sub-haya"],
+        "sentence": "Espero que ___ terminado el trabajo antes de la reunión.",
+        "blanks": [{"accept": ["hayas"]}],
+        "cloze_mode": "type",
+        "hint": "haber (tú) subjunctive = hayas; + past participle = perfect subjunctive."
+      }
+    },
+    {
+      "id": "ex-free-its-important",
+      "type": "exercise",
+      "title": "Impersonal expression + subjunctive",
+      "exercise": {
+        "id": "ex-free-its-important",
+        "type": "free_text",
+        "prompt": "Translate: *It's important that we be on time.* (estar → subjunctive, nosotros)",
+        "card_ids": ["sub-irregulars", "sub-dar-estar-accents"],
+        "accept": ["Es importante que estemos a tiempo.", "es importante que estemos a tiempo", "Es importante que estemos a tiempo."],
+        "hint": "Es importante que + subjunctive; estar → estemos (nosotros).",
+        "distractors": ["Es importante que estamos a tiempo.", "Es importante que seamos a tiempo.", "Es importante estar a tiempo nosotros."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

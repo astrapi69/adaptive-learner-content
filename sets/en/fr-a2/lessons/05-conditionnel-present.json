@@ -1,0 +1,362 @@
+{
+  "id": "05-conditionnel-present",
+  "title": "The Conditionnel Présent",
+  "description": "A2 introduction to the present conditional in French: formation from the futur simple stem plus imparfait endings, polite requests, wishes, advice, and a first look at si-clauses. Explained in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "cond-form",
+      "front": "je parlerais / tu parlerais / il parlerait / nous parlerions / vous parleriez / ils parleraient",
+      "back": "the conditional of parler (regular -er verb)",
+      "notes": "The present conditional = **futur simple stem** + **imparfait endings**. For regular -er verbs the futur stem is the infinitive itself: *parler-*. Then add: *-ais, -ais, -ait, -ions, -iez, -aient*.\n\n| Person | Ending |\n|---|---|\n| je | **-ais** |\n| tu | **-ais** |\n| il/elle | **-ait** |\n| nous | **-ions** |\n| vous | **-iez** |\n| ils/elles | **-aient** |",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conditionnel", "formation"]
+    },
+    {
+      "id": "cond-irregular-stems",
+      "front": "être → ser- / avoir → aur- / aller → ir- / faire → fer- / vouloir → voudr- / pouvoir → pourr- / devoir → devr-",
+      "back": "irregular futur/conditional stems",
+      "notes": "The conditional uses the **same irregular stems as the futur simple** — only the endings change. Memorise the stem, then add the imparfait ending.\n\n| Verb | Irregular stem | je-form |\n|---|---|---|\n| être | **ser-** | je **serais** |\n| avoir | **aur-** | j'**aurais** |\n| aller | **ir-** | j'**irais** |\n| faire | **fer-** | je **ferais** |\n| vouloir | **voudr-** | je **voudrais** |\n| pouvoir | **pourr-** | je **pourrais** |\n| devoir | **devr-** | je **devrais** |",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Same irregular stems as the futur simple — learn them once, use them twice.",
+      "tags": ["grammar", "conditionnel", "irregular"]
+    },
+    {
+      "id": "cond-politeness",
+      "front": "je voudrais / j'aimerais / pourriez-vous... ? / est-ce que vous auriez... ?",
+      "back": "polite requests using the conditional",
+      "notes": "The conditional is the default politeness tense in French.\n\n| Expression | Literal meaning | Use |\n|---|---|---|\n| **je voudrais** | I would like | ordering, requesting |\n| **j'aimerais** | I would like / love | softer wish |\n| **pourriez-vous** | could you | polite request to someone |\n| **est-ce que vous auriez** | would you have | very polite inquiry |\n\nCompare: *Je **veux** un cafe* (blunt) vs *Je **voudrais** un cafe* (polite). A1 link: you may already know *je voudrais* — it is the conditional of *vouloir*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "conditionnel", "politeness"]
+    },
+    {
+      "id": "cond-advice",
+      "front": "tu devrais / vous devriez",
+      "back": "you should (advice with devoir in the conditional)",
+      "notes": "*Tu **devrais** faire du sport* = You should do some exercise. The conditional of *devoir* softens a command into a recommendation. Contrast with the present tense: *tu **dois*** = you must (obligation).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "conditionnel", "advice"]
+    },
+    {
+      "id": "cond-si-clause",
+      "front": "Si j'avais le temps, je voyagerais.",
+      "back": "If I had the time, I would travel. (si + imparfait → conditionnel)",
+      "notes": "A **conditional sentence** links a hypothetical condition (the si-clause) to its imagined result:\n\n> **si + imparfait** → **conditionnel**\n\n*Si j'**avais** de l'argent, j'**acheterais** une voiture.* (If I **had** money, I **would buy** a car.)\n\nNever use the conditionnel directly after *si*: *si j'aurais* is wrong in standard French.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "After si (if), use the imparfait — NOT the conditional.",
+      "tags": ["grammar", "conditionnel", "si-clause"]
+    },
+    {
+      "id": "je-voudrais",
+      "front": "je voudrais",
+      "back": "I would like (polite conditional of vouloir)",
+      "notes": "*Je **voudrais** un cafe, s'il vous plait.* (I would like a coffee, please.) This is A1-level vocabulary that is actually A2 grammar: the conditional of *vouloir*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["verb", "conditionnel", "politeness"]
+    },
+    {
+      "id": "je-serais",
+      "front": "je serais",
+      "back": "I would be (conditional of etre)",
+      "notes": "Stem: *ser-* + *-ais* → *je **serais***. Example: *Je **serais** heureux de vous aider.* (I would be happy to help you.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "conditionnel"]
+    },
+    {
+      "id": "j-aurais",
+      "front": "j'aurais",
+      "back": "I would have (conditional of avoir)",
+      "notes": "Stem: *aur-* + *-ais* → *j'**aurais***. Example: *J'**aurais** besoin d'aide.* (I would need some help.) Often appears in polite expressions: *Est-ce que vous **auriez** un stylo ?* (Would you have a pen?)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "conditionnel"]
+    },
+    {
+      "id": "je-ferais",
+      "front": "je ferais",
+      "back": "I would do / make (conditional of faire)",
+      "notes": "Stem: *fer-* + *-ais* → *je **ferais***. Example: *Qu'est-ce que tu **ferais** a ma place ?* (What would you do in my position?)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "conditionnel"]
+    },
+    {
+      "id": "je-pourrais",
+      "front": "je pourrais / pourriez-vous",
+      "back": "I could / could you (conditional of pouvoir)",
+      "notes": "Stem: *pourr-* + ending. *Je **pourrais** venir demain.* (I could come tomorrow.) *Pourriez-vous repeter, s'il vous plait ?* (Could you repeat that, please?) — a key politeness phrase.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "conditionnel", "politeness"]
+    },
+    {
+      "id": "je-devrais",
+      "front": "tu devrais partir",
+      "back": "you should leave (conditional of devoir = advice)",
+      "notes": "*Devoir* in the conditional gives soft advice: *Tu **devrais** te reposer.* (You should rest.) Compare: *tu **dois** partir* (you must leave — stronger obligation).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "conditionnel", "advice"]
+    },
+    {
+      "id": "j-irais",
+      "front": "j'irais",
+      "back": "I would go (conditional of aller)",
+      "notes": "Stem: *ir-* + *-ais* → *j'**irais***. Example: *Si j'etais libre, j'**irais** en France.* (If I were free, I would go to France.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["verb", "conditionnel"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-formation",
+      "type": "theory",
+      "title": "Formation: futur stem + imparfait endings",
+      "body": "# The Conditionnel Présent\n\nThe **present conditional** expresses what *would* happen. It is formed from two pieces you already know:\n\n> **futur simple stem** + **imparfait endings**\n\n## The endings\n\nThe endings are identical to those of the imparfait:\n\n| Person | Ending | Example (parler) |\n|---|---|---|\n| je | **-ais** | je parler**ais** |\n| tu | **-ais** | tu parler**ais** |\n| il / elle | **-ait** | il parler**ait** |\n| nous | **-ions** | nous parler**ions** |\n| vous | **-iez** | vous parler**iez** |\n| ils / elles | **-aient** | ils parler**aient** |\n\n## The stem\n\nFor **regular** verbs the stem is the infinitive (same as the futur):\n- *parler → parler-* → *je parlerais*\n- *finir → finir-* → *je finirais*\n\nFor **irregular** verbs the stem changes — but it is the **same** stem as the futur simple:\n\n| Verb | Stem | je-form |\n|---|---|---|\n| être | **ser-** | je **serais** |\n| avoir | **aur-** | j'**aurais** |\n| aller | **ir-** | j'**irais** |\n| faire | **fer-** | je **ferais** |\n| vouloir | **voudr-** | je **voudrais** |\n| pouvoir | **pourr-** | je **pourrais** |\n| devoir | **devr-** | je **devrais** |"
+    },
+    {
+      "id": "theory-uses",
+      "type": "theory",
+      "title": "Uses: politeness, wishes, advice",
+      "body": "## When to use the conditionnel\n\n### 1. Polite requests\n\nThe conditional is the standard politeness register in French. Using the present tense can sound abrupt:\n\n| Blunt (present) | Polite (conditional) | Meaning |\n|---|---|---|\n| Je veux un cafe. | **Je voudrais** un cafe. | I would like a coffee. |\n| Tu peux m'aider ? | **Pourriez-vous** m'aider ? | Could you help me? |\n| Tu as un stylo ? | **Est-ce que vous auriez** un stylo ? | Would you have a pen? |\n\n> **A1 link:** *je voudrais* (I would like) is already polite conditional — you may have been using it without realising it is a grammatical tense!\n\n### 2. Wishes\n\n*J'aimerais voyager en Asie.* (I would love to travel in Asia.)\n\n### 3. Advice with devoir\n\n*tu **devrais*** = you should (soft recommendation)\n\n*Tu devrais manger plus de legumes.* (You should eat more vegetables.)\n\nContrast: *tu **dois*** = you must (strong obligation)."
+    },
+    {
+      "id": "theory-si-clause",
+      "type": "theory",
+      "title": "Hypothetical si-clauses: si + imparfait → conditionnel",
+      "body": "## Conditional sentences (si-clauses)\n\nA classic structure links an **imaginary condition** to its **result**:\n\n> **si + imparfait** → **conditionnel present**\n\n| Si-clause (imparfait) | Main clause (conditionnel) | Meaning |\n|---|---|---|\n| Si j'**avais** le temps | je **voyagerais**. | If I had the time, I would travel. |\n| Si elle **etait** libre | elle **viendrait**. | If she were free, she would come. |\n| Si nous **avions** de l'argent | nous **acheterions** une maison. | If we had money, we would buy a house. |\n\n## Important rule\n\nNever place the conditional directly after *si*:\n\n- **Wrong:** *Si j'aurais le temps...* (common English-speaker error)\n- **Right:** *Si j'**avais** le temps...*\n\nThink of it as: *si* gets the imparfait, the other clause gets the conditionnel."
+    },
+    {
+      "id": "ex-match-stems",
+      "type": "exercise",
+      "title": "Match the verb to its conditional stem",
+      "exercise": {
+        "id": "ex-match-stems",
+        "type": "matching",
+        "prompt": "Match each verb to its conditional/futur stem.",
+        "card_ids": ["cond-irregular-stems"],
+        "pairs": [
+          { "left": "être", "right": "ser-" },
+          { "left": "avoir", "right": "aur-" },
+          { "left": "aller", "right": "ir-" },
+          { "left": "faire", "right": "fer-" },
+          { "left": "vouloir", "right": "voudr-" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-i-would-like",
+      "type": "exercise",
+      "title": "Polite request: I would like a coffee",
+      "exercise": {
+        "id": "ex-free-i-would-like",
+        "type": "free_text",
+        "prompt": "Translate politely: *I would like a coffee, please.* (Use je voudrais.)",
+        "card_ids": ["je-voudrais", "cond-politeness"],
+        "accept": [
+          "Je voudrais un cafe, s'il vous plait.",
+          "je voudrais un cafe, s'il vous plait",
+          "Je voudrais un cafe s'il vous plait.",
+          "Je voudrais un café, s'il vous plaît.",
+          "je voudrais un café s'il vous plaît"
+        ],
+        "hint": "vouloir → voudr- + -ais = voudrais. Do not write je veux (that is blunt).",
+        "distractors": [
+          "Je veux un cafe, s'il vous plait.",
+          "Je voudrai un cafe, s'il vous plait.",
+          "Je voudrais un cafe, si vous plait."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-devrais",
+      "type": "exercise",
+      "title": "Advice: you should rest",
+      "exercise": {
+        "id": "ex-cloze-devrais",
+        "type": "cloze",
+        "prompt": "Fill in the conditional of *devoir* (tu) to give soft advice.",
+        "card_ids": ["cond-advice", "je-devrais"],
+        "sentence": "Tu ___ te reposer, tu as l'air fatigue.",
+        "blanks": [
+          { "accept": ["devrais"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "devoir → devr- + -ais (tu form)."
+      }
+    },
+    {
+      "id": "ex-tiles-si-clause",
+      "type": "exercise",
+      "title": "Build: If I had time, I would travel",
+      "exercise": {
+        "id": "ex-tiles-si-clause",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say: *If I had the time, I would travel.*",
+        "card_ids": ["cond-si-clause", "cond-form"],
+        "tiles": ["Si", "j'avais", "le", "temps,", "je", "voyagerais."],
+        "hint": "si + imparfait (avais) first, then conditionnel (voyagerais).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-polite",
+      "type": "exercise",
+      "title": "Which sentence is polite?",
+      "exercise": {
+        "id": "ex-pic-polite",
+        "type": "picture_choice",
+        "prompt": "A customer is ordering in a restaurant. Which sentence is the polite choice?",
+        "card_ids": ["cond-politeness", "je-voudrais"],
+        "images": [
+          { "src": "assets/img/restaurant-polite.png", "label": "Je voudrais un steak, s'il vous plait.", "is_correct": "true" },
+          { "src": "assets/img/restaurant-blunt.png", "label": "Je veux un steak." },
+          { "src": "assets/img/restaurant-future.png", "label": "Je voudrai un steak." },
+          { "src": "assets/img/restaurant-wrong.png", "label": "Je voudrais un steak vouloir." }
+        ],
+        "hint": "The conditional *voudrais* is polite; the present *veux* is blunt; *voudrai* (futur) is incorrect here.",
+        "distractors": [
+          "Je veux un steak.",
+          "Je voudrai un steak.",
+          "Je voudrais un steak vouloir."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-could-you",
+      "type": "exercise",
+      "title": "Polite request: could you repeat?",
+      "exercise": {
+        "id": "ex-free-could-you",
+        "type": "free_text",
+        "prompt": "Translate: *Could you repeat that, please?* (Use pourriez-vous.)",
+        "card_ids": ["je-pourrais", "cond-politeness"],
+        "accept": [
+          "Pourriez-vous repeter, s'il vous plait ?",
+          "Pourriez-vous repeter s'il vous plait ?",
+          "Pourriez-vous répéter, s'il vous plaît ?",
+          "Pourriez-vous repeter, s'il vous plait?",
+          "pourriez-vous repeter, s'il vous plait ?"
+        ],
+        "hint": "pouvoir → pourr- + -iez (vous form) = pourriez. Then the infinitive: repeter.",
+        "distractors": [
+          "Pouvez-vous repeter, s'il vous plait ?",
+          "Pourrez-vous repeter, s'il vous plait ?",
+          "Pourriez-vous repeterait, s'il vous plait ?"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-i-would-go",
+      "type": "exercise",
+      "title": "Wish: I would go to France",
+      "exercise": {
+        "id": "ex-free-i-would-go",
+        "type": "free_text",
+        "prompt": "Translate: *I would go to France if I had the money.* (Start with the wish clause.)",
+        "card_ids": ["j-irais", "cond-si-clause"],
+        "accept": [
+          "J'irais en France si j'avais l'argent.",
+          "j'irais en France si j'avais l'argent",
+          "J'irais en France si j'avais de l'argent.",
+          "j'irais en France si j'avais de l'argent"
+        ],
+        "hint": "aller → ir- + -ais = irais. After si: imparfait of avoir (avais).",
+        "distractors": [
+          "J'irai en France si j'avais l'argent.",
+          "J'irais en France si j'aurais l'argent.",
+          "Je vais en France si j'avais l'argent."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-si-avoir",
+      "type": "exercise",
+      "title": "Si-clause: fill in the conditionnel",
+      "exercise": {
+        "id": "ex-cloze-si-avoir",
+        "type": "cloze",
+        "prompt": "Fill in the conditional of *faire* (je) to complete this si-clause sentence.",
+        "card_ids": ["cond-si-clause", "je-ferais"],
+        "sentence": "Si j'etais en vacances, je ___ du sport tous les jours.",
+        "blanks": [
+          { "accept": ["ferais"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "faire → fer- + -ais (je form) = ferais."
+      }
+    },
+    {
+      "id": "ex-match-meanings",
+      "type": "exercise",
+      "title": "Match the conditional form to its English meaning",
+      "exercise": {
+        "id": "ex-match-meanings",
+        "type": "matching",
+        "prompt": "Match each French conditional expression to its English meaning.",
+        "card_ids": ["je-voudrais", "cond-advice", "j-aurais", "cond-politeness"],
+        "pairs": [
+          { "left": "je voudrais", "right": "I would like" },
+          { "left": "tu devrais", "right": "you should" },
+          { "left": "j'aurais", "right": "I would have" },
+          { "left": "pourriez-vous", "right": "could you" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-i-would-be",
+      "type": "exercise",
+      "title": "Build: I would be happy to help",
+      "exercise": {
+        "id": "ex-tiles-i-would-be",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I would be happy to help you.*",
+        "card_ids": ["je-serais", "cond-form"],
+        "tiles": ["Je", "serais", "heureux", "de", "vous", "aider."],
+        "hint": "etre → ser- + -ais = serais.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-should-sleep",
+      "type": "exercise",
+      "title": "Advice: you should sleep more",
+      "exercise": {
+        "id": "ex-free-should-sleep",
+        "type": "free_text",
+        "prompt": "Translate: *You (tu) should sleep more.* (Use devoir in the conditional for soft advice.)",
+        "card_ids": ["cond-advice", "je-devrais"],
+        "accept": [
+          "Tu devrais dormir plus.",
+          "tu devrais dormir plus",
+          "Tu devrais dormir davantage.",
+          "tu devrais dormir davantage"
+        ],
+        "hint": "devoir → devr- + -ais (tu) = devrais. Not tu dois (too strong).",
+        "distractors": [
+          "Tu dois dormir plus.",
+          "Tu devrais dormirais plus.",
+          "Tu devras dormir plus."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

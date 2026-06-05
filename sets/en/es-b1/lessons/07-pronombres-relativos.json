@@ -1,0 +1,329 @@
+{
+  "id": "es-b1-07-pronombres-relativos",
+  "title": "Relative Pronouns",
+  "description": "Link two ideas into one smooth sentence with relative pronouns: the all-purpose que, quien/quienes for people, el que / el cual after prepositions, the neuter lo que / lo cual for whole ideas, cuyo for 'whose', and donde for place. Plus a quick recap of combined object pronouns (se lo, me lo, te la).",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "rel-que",
+      "front": "El libro que leí es interesante.",
+      "back": "que = the all-purpose relative (people AND things): who, that, which",
+      "notes": "**que** is by far the most common relative pronoun. It works for both people and things and translates as *that, which, who*. Crucially, English often **drops** it (*the book I read*), but Spanish **never** does: *el libro **que** leí*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "relativos"]
+    },
+    {
+      "id": "rel-no-drop",
+      "front": "the book I read → el libro que leí",
+      "back": "Spanish never drops 'que' even when English drops the relative",
+      "notes": "English freely omits the relative in object clauses: *the man (whom) I saw*, *the book (that) I read*. Spanish **requires** the relative every time: *el hombre **que** vi*, *el libro **que** leí*. Dropping *que* is one of the most common English-speaker mistakes.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "relativos", "contrast"]
+    },
+    {
+      "id": "rel-quien",
+      "front": "La mujer con quien hablé es médica.",
+      "back": "quien / quienes = only people, typically after a preposition or in non-defining clauses",
+      "notes": "**quien** (singular) / **quienes** (plural) refer **only to people**. Use them after a preposition (*la mujer con **quien** hablé*) or in commas (non-defining): *Mi hermano, **quien** vive en Madrid, llega hoy*. They agree in number with the person.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "relativos"]
+    },
+    {
+      "id": "rel-el-que",
+      "front": "La casa en la que vivo es vieja.",
+      "back": "el que / la que / los que / las que = after prepositions or for clarity (agrees in gender/number)",
+      "notes": "**el que, la que, los que, las que** are used after prepositions, especially longer ones, and when you need to be clear which noun you mean. They agree with the antecedent: *la casa en **la que** vivo*; *los amigos con **los que** viajé*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "relativos"]
+    },
+    {
+      "id": "rel-el-cual",
+      "front": "El puente por el cual pasamos es del siglo XV.",
+      "back": "el cual / la cual / los cuales / las cuales = more formal alternative to el que",
+      "notes": "**el cual, la cual, los cuales, las cuales** are a more **formal/written** equivalent of *el que*. Common after prepositions and in non-defining clauses: *el puente por **el cual** pasamos*. Also agrees in gender and number with its antecedent.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "relativos"]
+    },
+    {
+      "id": "rel-lo-que",
+      "front": "No entiendo lo que dices.",
+      "back": "lo que = 'what' (a neuter relative with NO specific noun antecedent)",
+      "notes": "**lo que** means *what* when there is **no concrete noun** behind it (an idea, a thing): *No entiendo **lo que** dices* (I don't understand what you say). English speakers often wrongly use *que* alone here — but with no antecedent you need **lo que**, not just *que*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "relativos", "contrast"]
+    },
+    {
+      "id": "rel-lo-cual",
+      "front": "Llegó tarde, lo cual me molestó.",
+      "back": "lo cual / lo que = 'which', referring back to a WHOLE idea",
+      "notes": "To comment on a **whole previous clause** ('...which'), use **lo cual** or **lo que** after a comma: *Llegó tarde, **lo cual** me molestó* (He arrived late, which annoyed me). Here *lo cual* refers to the entire fact of arriving late, not to a single noun.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "relativos"]
+    },
+    {
+      "id": "rel-cuyo",
+      "front": "El autor cuyos libros leo vive aquí.",
+      "back": "cuyo / cuya / cuyos / cuyas = 'whose' (agrees with the thing POSSESSED, not the owner)",
+      "notes": "**cuyo** means *whose*. Its key trap: it agrees in gender and number with the **thing possessed**, NOT with the owner. *El autor **cuyos** libros leo* — *cuyos* is masculine plural because **libros** is, even though *autor* is one man. *La mujer **cuya** casa compré*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "relativos", "contrast"]
+    },
+    {
+      "id": "rel-donde",
+      "front": "La ciudad donde nací es pequeña.",
+      "back": "donde = relative of place ('where')",
+      "notes": "**donde** is the relative pronoun for **place** (*where*): *La ciudad **donde** nací*. It can often be replaced by *en la que / en el que*: *la ciudad **en la que** nací*. No accent here (unlike the question word *¿dónde?*).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "relativos"]
+    },
+    {
+      "id": "rel-defining-nondefining",
+      "front": "Los alumnos que estudian aprueban. / Mi madre, que es médica, trabaja mucho.",
+      "back": "defining (no commas) vs. non-defining (commas) relative clauses",
+      "notes": "A **defining** clause picks out which one and takes **no commas**: *Los alumnos **que** estudian aprueban* (only the ones who study). A **non-defining** clause adds extra info between **commas**: *Mi madre, **que** es médica, trabaja mucho*. In non-defining clauses about people you may also use *quien*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "relativos"]
+    },
+    {
+      "id": "obj-combined",
+      "front": "¿El libro? Te lo doy. / Se lo dije a ella.",
+      "back": "Recap: combined object pronouns — indirect BEFORE direct (me lo, te la, se lo)",
+      "notes": "When you have two object pronouns, the **indirect** one comes **first**: *te lo*, *me la*, *nos los*. The order is fixed: indirect + direct. *¿El libro? **Te lo** doy* (it to you).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "pronombres", "recap"]
+    },
+    {
+      "id": "obj-se-lo",
+      "front": "Le doy el libro → Se lo doy.",
+      "back": "le/les becomes 'se' before lo/la/los/las; pronouns attach to infinitives/gerunds",
+      "notes": "When both pronouns start with l-, the indirect *le/les* changes to **se**: *Le doy el libro → **Se lo** doy* (not *le lo*). Position: **before** a conjugated verb (*se lo doy*), or **attached** to an infinitive/gerund/affirmative command (*voy a dár**selo***, *dá**melo***).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "pronombres", "recap"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Joining ideas with que and friends",
+      "body": "# Relative pronouns\n\nRelative pronouns let you glue two sentences into one by linking back to a noun (the **antecedent**):\n\n- *I read a book. The book is interesting.* → *El libro **que** leí es interesante.*\n\n## que — the all-purpose relative\n\n**que** is the workhorse. It works for **people and things** and means *that, which, who*:\n\n- *El libro **que** leí* (the book that I read)\n- *La chica **que** vino* (the girl who came)\n\n> **The #1 English-speaker trap:** English happily drops the relative — *the book I read*, *the man I saw*. Spanish **never** drops it: *el libro **que** leí*, *el hombre **que** vi*. If there is a relative clause, there must be a relative pronoun.\n\n## Defining vs. non-defining\n\n- **Defining** (no commas) tells you *which one*: *Los alumnos **que** estudian aprueban.*\n- **Non-defining** (commas) adds extra info: *Mi madre, **que** es médica, trabaja mucho.*"
+    },
+    {
+      "id": "step-quien-elque",
+      "type": "theory",
+      "title": "People, prepositions and clarity",
+      "body": "## quien / quienes — people only\n\n**quien** (sing.) and **quienes** (pl.) refer **only to people**. Use them especially:\n\n- after a **preposition**: *La mujer **con quien** hablé* (the woman with whom I spoke)\n- in **non-defining** clauses: *Mi jefe, **quien** es muy amable, me ayudó.*\n\n## el que / el cual — after prepositions, for clarity\n\nAfter a preposition (especially for things, or longer prepositions), use **el que / la que / los que / las que**, which **agree in gender and number** with the antecedent:\n\n- *La casa **en la que** vivo* (the house in which I live)\n- *Los amigos **con los que** viajé*\n\n**el cual / la cual / los cuales / las cuales** is the more **formal** equivalent:\n\n- *El puente **por el cual** pasamos es muy antiguo.*\n\n## donde — place\n\nFor places, **donde** (no accent) means *where*:\n\n- *La ciudad **donde** nací* = *la ciudad **en la que** nací*."
+    },
+    {
+      "id": "step-loque-cuyo-recap",
+      "type": "theory",
+      "title": "lo que, cuyo, and a pronoun recap",
+      "body": "## lo que / lo cual — the neuter relatives\n\nWhen there is **no concrete noun** behind the relative (an idea, a 'thing'), use **lo que** = *what*:\n\n- *No entiendo **lo que** dices.* (I don't understand **what** you say)\n\n> Trap: with no antecedent you need **lo que**, not bare *que*. *Lo que* = *what*; *que* alone ≠ *what*.\n\nTo comment on a **whole previous clause** ('...which'), use **lo cual** (or *lo que*):\n\n- *Llegó tarde, **lo cual** me molestó.* (He arrived late, which annoyed me)\n\n## cuyo — 'whose'\n\n**cuyo / cuya / cuyos / cuyas** = *whose*. It agrees with the **thing possessed**, NOT the owner:\n\n- *El autor **cuyos** libros leo* — *cuyos* is plural because **libros** is plural, though the author is one person.\n- *La mujer **cuya** casa compré.*\n\n## Recap: combined object pronouns\n\nTwo pronouns together → **indirect before direct**: *me lo, te la, nos los*. And *le/les* becomes **se** before *lo/la/los/las*:\n\n- *Le doy el libro → **Se lo** doy.*\n- *¿El libro? **Te lo** doy.*\n\nThey go **before** a conjugated verb, or **attach** to infinitives/gerunds/affirmative commands: *dár**selo***, *dá**melo***."
+    },
+    {
+      "id": "ex-match-relatives",
+      "type": "exercise",
+      "title": "Match the relative to its use",
+      "exercise": {
+        "id": "ex-match-relatives",
+        "type": "matching",
+        "prompt": "Match each relative pronoun with what it is used for.",
+        "card_ids": ["rel-que", "rel-quien", "rel-cuyo", "rel-donde", "rel-lo-que"],
+        "pairs": [
+          {"left": "que", "right": "all-purpose (people and things)"},
+          {"left": "quien", "right": "people, after a preposition"},
+          {"left": "cuyo", "right": "whose (agrees with the possessed)"},
+          {"left": "donde", "right": "place (where)"},
+          {"left": "lo que", "right": "what (no noun antecedent)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-book-i-read",
+      "type": "exercise",
+      "title": "Never drop the relative",
+      "exercise": {
+        "id": "ex-free-book-i-read",
+        "type": "free_text",
+        "prompt": "Translate: *The book I read is interesting.* (English drops the relative — Spanish does NOT)",
+        "card_ids": ["rel-que", "rel-no-drop"],
+        "accept": ["El libro que leí es interesante.", "el libro que leí es interesante", "El libro que lei es interesante.", "El libro que leí es interesante"],
+        "hint": "English omits 'that/which', but Spanish needs que: el libro que leí.",
+        "distractors": ["El libro leí es interesante.", "El libro lo que leí es interesante.", "El libro cual leí es interesante."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-lo-que",
+      "type": "exercise",
+      "title": "What, with no antecedent",
+      "exercise": {
+        "id": "ex-cloze-lo-que",
+        "type": "cloze",
+        "prompt": "Fill in the neuter relative meaning 'what'.",
+        "card_ids": ["rel-lo-que"],
+        "sentence": "No entiendo ___ que dices.",
+        "blanks": [{"accept": ["lo"]}],
+        "cloze_mode": "type",
+        "hint": "'What' with no noun behind it = lo que, not just que. The blank is the missing word before 'que'."
+      }
+    },
+    {
+      "id": "ex-tiles-con-quien",
+      "type": "exercise",
+      "title": "Build: the woman with whom I spoke",
+      "exercise": {
+        "id": "ex-tiles-con-quien",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *The woman with whom I spoke is a doctor.* (people + preposition → quien)",
+        "card_ids": ["rel-quien"],
+        "tiles": ["La", "mujer", "con", "quien", "hablé", "es", "médica"],
+        "hint": "After a preposition, for a person, use quien: con quien hablé.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-house-i-live",
+      "type": "exercise",
+      "title": "After a preposition, for a thing",
+      "exercise": {
+        "id": "ex-free-house-i-live",
+        "type": "free_text",
+        "prompt": "Translate: *The house in which I live is old.* (preposition + thing → en la que)",
+        "card_ids": ["rel-el-que"],
+        "accept": ["La casa en la que vivo es vieja.", "la casa en la que vivo es vieja", "La casa en la que vivo es vieja", "La casa en que vivo es vieja."],
+        "hint": "After 'en', for a feminine thing: en la que (agrees with casa).",
+        "distractors": ["La casa en quien vivo es vieja.", "La casa en cual vivo es vieja.", "La casa vivo es vieja."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-cuyo",
+      "type": "exercise",
+      "title": "Whose — agreement trap",
+      "exercise": {
+        "id": "ex-pic-cuyo",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly says 'The author whose books I read lives here'? (cuyo agrees with the possessed noun)",
+        "card_ids": ["rel-cuyo"],
+        "images": [
+          {"src": "assets/img/cuyos-libros.png", "label": "El autor cuyos libros leo vive aquí.", "is_correct": "true"},
+          {"src": "assets/img/cuyo-libros.png", "label": "El autor cuyo libros leo vive aquí."},
+          {"src": "assets/img/que-libros.png", "label": "El autor que libros leo vive aquí."},
+          {"src": "assets/img/quien-libros.png", "label": "El autor de quien libros leo vive aquí."}
+        ],
+        "hint": "cuyo agrees with 'libros' (the thing possessed), not with the author → cuyos.",
+        "distractors": ["El autor cuyo libros leo vive aquí.", "El autor que libros leo vive aquí.", "El autor de quien libros leo vive aquí."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-lo-cual",
+      "type": "exercise",
+      "title": "...which, about a whole idea",
+      "exercise": {
+        "id": "ex-cloze-lo-cual",
+        "type": "cloze",
+        "prompt": "Fill in the neuter relative ('which') that refers to the whole previous clause.",
+        "card_ids": ["rel-lo-cual"],
+        "sentence": "Llegó tarde, lo ___ me molestó.",
+        "blanks": [{"accept": ["cual"]}],
+        "cloze_mode": "type",
+        "hint": "lo ___ comments on the whole fact of arriving late: lo cual (or lo que)."
+      }
+    },
+    {
+      "id": "ex-free-city-born",
+      "type": "exercise",
+      "title": "Relative of place",
+      "exercise": {
+        "id": "ex-free-city-born",
+        "type": "free_text",
+        "prompt": "Translate: *The city where I was born is small.* (place → donde)",
+        "card_ids": ["rel-donde"],
+        "accept": ["La ciudad donde nací es pequeña.", "la ciudad donde nací es pequeña", "La ciudad donde naci es pequeña.", "La ciudad en la que nací es pequeña."],
+        "hint": "For place, 'where' = donde (no accent). nacer (yo, pretérito) → nací.",
+        "distractors": ["La ciudad que nací es pequeña.", "La ciudad dónde nací es pequeña.", "La ciudad cual nací es pequeña."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-objpron",
+      "type": "exercise",
+      "title": "Recap: combined object pronouns",
+      "exercise": {
+        "id": "ex-match-objpron",
+        "type": "matching",
+        "prompt": "Match each Spanish combined-pronoun sentence with its English meaning.",
+        "card_ids": ["obj-combined", "obj-se-lo"],
+        "pairs": [
+          {"left": "Te lo doy.", "right": "I give it to you."},
+          {"left": "Se lo dije a ella.", "right": "I said it to her."},
+          {"left": "Me la dieron.", "right": "They gave it to me."},
+          {"left": "Voy a dárselo.", "right": "I'm going to give it to him."}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-se-lo",
+      "type": "exercise",
+      "title": "le/les → se",
+      "exercise": {
+        "id": "ex-cloze-se-lo",
+        "type": "cloze",
+        "prompt": "Rewrite 'Le doy el libro' with both pronouns. Fill in the indirect pronoun (le/les changes before lo).",
+        "card_ids": ["obj-se-lo"],
+        "sentence": "¿El libro? ___ lo doy a ella.",
+        "blanks": [{"accept": ["Se", "se"]}],
+        "cloze_mode": "type",
+        "hint": "Before lo/la, le/les becomes se: Se lo doy (not 'le lo')."
+      }
+    },
+    {
+      "id": "ex-free-man-i-saw",
+      "type": "exercise",
+      "title": "Defining clause with a person",
+      "exercise": {
+        "id": "ex-free-man-i-saw",
+        "type": "free_text",
+        "prompt": "Translate: *The man I saw yesterday is my neighbor.* (English drops 'whom' — Spanish keeps que)",
+        "card_ids": ["rel-que", "rel-no-drop", "rel-defining-nondefining"],
+        "accept": ["El hombre que vi ayer es mi vecino.", "el hombre que vi ayer es mi vecino", "El hombre que vi ayer es mi vecino", "El hombre que vi ayer es mi vecino."],
+        "hint": "Defining clause, no commas; never drop que: el hombre que vi ayer.",
+        "distractors": ["El hombre vi ayer es mi vecino.", "El hombre quien vi ayer es mi vecino.", "El hombre cuyo vi ayer es mi vecino."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-formal-cual",
+      "type": "exercise",
+      "title": "Build a formal relative clause",
+      "exercise": {
+        "id": "ex-tiles-formal-cual",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *The bridge through which we passed is very old.* (formal → el cual)",
+        "card_ids": ["rel-el-cual"],
+        "tiles": ["El", "puente", "por", "el", "cual", "pasamos", "es", "muy", "antiguo"],
+        "hint": "Formal relative after a preposition: por el cual (agrees with 'puente').",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "id": "07-negation-deepened",
+  "title": "Negation, deepened",
+  "description": "A2 expansion of negation beyond ne...pas: ne...plus, ne...jamais, ne...rien, ne...personne, and ne...que. Placement rules in simple tenses and the passé composé. Explained in English.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "neg-plus",
+      "front": "ne ... plus",
+      "back": "not anymore / no longer",
+      "notes": "Use **ne ... plus** to say something that used to be true is no longer true. *Je ne travaille **plus** ici.* (I no longer work here.) In the passé composé the **plus** goes between the auxiliary and the participle: *Je **n'ai plus** mangé de viande.* (I no longer ate meat.)",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "negation"]
+    },
+    {
+      "id": "neg-jamais",
+      "front": "ne ... jamais",
+      "back": "never",
+      "notes": "**ne ... jamais** = never. *Je ne mens **jamais**.* (I never lie.) In the passé composé: *Je **n'ai jamais** vu la mer.* (I have never seen the sea.) Note: *jamais* can also mean 'ever' in questions — *As-tu **jamais** voyagé?* — but in a negation frame it always means 'never'.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "negation"]
+    },
+    {
+      "id": "neg-rien",
+      "front": "ne ... rien",
+      "back": "nothing / not anything",
+      "notes": "**ne ... rien** = nothing. *Je ne dis **rien**.* (I say nothing.) In the passé composé, **rien** sits between the auxiliary and the participle, just like pas: *Je **n'ai rien** dit.* (I said nothing.) **rien** can also act as the **subject**: *Rien ne marche.* (Nothing works.) — here **ne** comes right after *rien*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "negation"]
+    },
+    {
+      "id": "neg-personne",
+      "front": "ne ... personne",
+      "back": "nobody / not anybody",
+      "notes": "**ne ... personne** = nobody. Unlike the others, in the passé composé **personne** comes **after** the past participle: *Je **n'ai vu personne**.* (I saw nobody.) This is the key exception to learn. **personne** can also be the **subject**: *Personne ne vient.* (Nobody is coming.)",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "personne is the odd one out: it follows the participle in the passe compose.",
+      "tags": ["grammar", "negation"]
+    },
+    {
+      "id": "neg-que",
+      "front": "ne ... que",
+      "back": "only (restriction, not a true negative)",
+      "notes": "**ne ... que** does not negate — it **restricts**: *Je ne bois **qu'**eau.* (I drink only water.) The **que** goes directly before the restricted element (not necessarily at the end). In the passé composé: *Il **n'a** mangé **que** du pain.* (He only ate bread.) This is sometimes called *restriction* rather than negation.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "negation", "restriction"]
+    },
+    {
+      "id": "neg-passe-compose-placement",
+      "front": "Je n'ai jamais mangé... / Je n'ai rien dit. / Je n'ai vu personne.",
+      "back": "negation placement in the passe compose",
+      "notes": "In the passé composé, most negatives sit **between the auxiliary and the participle** (like *pas*): *ne + auxiliary + **plus/jamais/rien** + participle*. **personne** is the exception — it goes **after** the participle: *Je n'ai vu **personne**.*\n\n| Negative | Position in passe compose | Example |\n|---|---|---|\n| **ne...pas** | aux | *n'ai **pas** mangé* |\n| **ne...plus** | aux | *n'ai **plus** mangé* |\n| **ne...jamais** | aux | *n'ai **jamais** mangé* |\n| **ne...rien** | aux | *n'ai **rien** dit* |\n| **ne...personne** | after participle | *n'ai vu **personne*** |",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "negation", "passe-compose"]
+    },
+    {
+      "id": "neg-subject-use",
+      "front": "Personne ne vient. / Rien ne marche.",
+      "back": "rien and personne as subjects",
+      "notes": "**rien** and **personne** can be the **subject** of a sentence. In that position, they come **first**, followed immediately by **ne** and then the verb. *Personne ne vient.* (Nobody is coming.) *Rien ne marche.* (Nothing works.) The verb stays in 3rd-person singular.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "negation"]
+    },
+    {
+      "id": "neg-ne-dropped",
+      "front": "Je sais pas. (spoken) vs. Je ne sais pas. (written)",
+      "back": "the ne is often dropped in casual spoken French",
+      "notes": "In everyday spoken French the **ne** is frequently omitted: *Je sais pas, J'ai jamais vu ca.* However, in **writing** and **formal speech** the *ne* is required. At A2 level you should always write and produce the full form with *ne*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "Always keep the ne in writing.",
+      "tags": ["grammar", "negation", "register"]
+    },
+    {
+      "id": "neg-double-negative",
+      "front": "Je n'ai vu personne. (NOT: Je n'ai pas vu personne.)",
+      "back": "French uses ONE negative word with ne — not two",
+      "notes": "English speakers sometimes write *Je n'ai **pas** vu personne* — a double negative that calques 'I didn't see nobody.' In French, **ne** + **one** negative word is the correct pattern. Adding **pas** alongside another negative (jamais, rien, personne) is an error: *ne **pas** jamais, ne **pas** rien* are wrong.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "negation", "common-error"]
+    },
+    {
+      "id": "neg-plus-card",
+      "front": "Il ne travaille plus.",
+      "back": "He no longer works.",
+      "notes": "*ne ... plus* in a simple tense: *ne* before the verb, *plus* after it. Compare: *Il ne travaille **pas*** (he does not work) vs. *Il ne travaille **plus*** (he no longer works — he used to).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["negation", "ne-plus"]
+    },
+    {
+      "id": "neg-jamais-card",
+      "front": "Elle n'a jamais visité Paris.",
+      "back": "She has never visited Paris.",
+      "notes": "Passé composé with **ne...jamais**: *ne* before the auxiliary, *jamais* between auxiliary and participle.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["negation", "ne-jamais", "passe-compose"]
+    },
+    {
+      "id": "neg-rien-card",
+      "front": "Je n'entends rien.",
+      "back": "I hear nothing.",
+      "notes": "**ne...rien** in a simple present tense: *ne* before the verb, *rien* after it.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["negation", "ne-rien"]
+    },
+    {
+      "id": "neg-personne-card",
+      "front": "Il n'a invité personne.",
+      "back": "He invited nobody.",
+      "notes": "**ne...personne** in the passé composé: *personne* comes **after** the past participle *invité*. This is the key exception.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["negation", "ne-personne", "passe-compose"]
+    },
+    {
+      "id": "neg-que-card",
+      "front": "Nous n'avons qu'une heure.",
+      "back": "We only have one hour.",
+      "notes": "**ne...que**: *que* (shortened to *qu'* before a vowel) sits directly before the restricted element (*une heure*). This expresses restriction, not absence.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["negation", "ne-que", "restriction"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-negation",
+      "type": "theory",
+      "title": "Beyond ne...pas — the five negative constructions",
+      "body": "# Negation, deepened\n\nIn A1 you learned **ne ... pas**. French has four more core negative constructions — each slots into the same position around the verb:\n\n| French | English meaning | Example |\n|---|---|---|\n| **ne ... pas** | not | *Je ne mange **pas** de viande.* |\n| **ne ... plus** | not anymore / no longer | *Je ne travaille **plus** ici.* |\n| **ne ... jamais** | never | *Il ne ment **jamais**.* |\n| **ne ... rien** | nothing / not anything | *Elle ne dit **rien**.* |\n| **ne ... personne** | nobody / not anybody | *Je ne vois **personne**.* |\n| **ne ... que** | only (restriction) | *Je bois **que** de l'eau.* |\n\n## The pattern\n\nIn a simple tense (present, imparfait), the structure is:\n\n> **ne** + VERB + **negative word**\n\nSo: *Je ne mange **rien**.* / *Tu ne lis **jamais**.* / *Elle ne vient **plus**.*\n\n## Important note about spoken French\n\nIn **casual speech** the *ne* is very often dropped: *Je sais pas, J'ai jamais vu ca.* In **writing** and **formal French** the *ne* is always required. This course always uses the full written form."
+    },
+    {
+      "id": "step-passe-compose-placement",
+      "type": "theory",
+      "title": "Placement in the passe compose",
+      "body": "## Where does the negative word go in the passe compose?\n\nIn the passé composé you have two verb parts: **auxiliary** (avoir/etre) + **past participle**. Most negative words sit **between** them — exactly where *pas* goes:\n\n> **ne** + AUXILIARY + **negative word** + PARTICIPLE\n\n| Construction | Example | English |\n|---|---|---|\n| ne ... pas | *Je **n'ai pas** mangé.* | I did not eat. |\n| ne ... plus | *Je **n'ai plus** mangé de viande.* | I no longer ate meat. |\n| ne ... jamais | *Il **n'a jamais** vu la mer.* | He has never seen the sea. |\n| ne ... rien | *Elle **n'a rien** dit.* | She said nothing. |\n\n## The one exception — personne\n\n**ne...personne** is different: **personne** comes **after** the past participle:\n\n> **ne** + AUXILIARY + PARTICIPLE + **personne**\n\n*Je **n'ai vu personne**.* (I saw nobody.) NOT: *Je n'ai personne vu.*\n\nMemory tip: *personne* is a full noun-like word and takes the same slot as a noun object — which follows the participle."
+    },
+    {
+      "id": "step-rien-personne-subject",
+      "type": "theory",
+      "title": "Rien and personne as subjects; ne...que",
+      "body": "## Rien and personne as subjects\n\n**rien** and **personne** can start a sentence as the **subject**. In that case, they come first and **ne** follows immediately:\n\n> **Rien / Personne** + **ne** + VERB\n\n| French | English |\n|---|---|\n| *Rien ne marche.* | Nothing works. |\n| *Personne ne vient.* | Nobody is coming. |\n| *Rien n'a change.* | Nothing changed. |\n| *Personne n'a repondu.* | Nobody replied. |\n\nThe verb is always **3rd-person singular**.\n\n## ne...que — restriction, not negation\n\n**ne...que** does not truly negate — it **restricts** to one element (like English 'only'):\n\n*Il **n'a** mange **que** du pain.* — He only ate bread. (not: he ate nothing)\n\n**que** goes directly before the restricted word or phrase. In the passé composé the structure is: *ne + auxiliary + participle + que + restricted element*.\n\n## The double-negative trap\n\nEnglish sometimes uses double negatives ('I didn't see nobody'). French **never** does. Use **ne + one negative word** only:\n\n- Correct: *Je **n'ai vu personne**.* (I saw nobody.)\n- Wrong: *Je **n'ai pas vu personne**.* (mixing pas + personne)"
+    },
+    {
+      "id": "ex-match-negations",
+      "type": "exercise",
+      "title": "Match the negation to its meaning",
+      "exercise": {
+        "id": "ex-match-negations",
+        "type": "matching",
+        "prompt": "Match each French negative construction to its English meaning.",
+        "card_ids": ["neg-plus", "neg-jamais", "neg-rien", "neg-personne", "neg-que"],
+        "pairs": [
+          { "left": "ne ... plus", "right": "not anymore" },
+          { "left": "ne ... jamais", "right": "never" },
+          { "left": "ne ... rien", "right": "nothing" },
+          { "left": "ne ... personne", "right": "nobody" },
+          { "left": "ne ... que", "right": "only" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-never-eaten",
+      "type": "exercise",
+      "title": "Translate: I have never eaten sushi.",
+      "exercise": {
+        "id": "ex-free-never-eaten",
+        "type": "free_text",
+        "prompt": "Translate: **I have never eaten sushi.** (passe compose — jamais goes between auxiliary and participle)",
+        "card_ids": ["neg-jamais", "neg-passe-compose-placement"],
+        "accept": [
+          "Je n'ai jamais mange de sushi.",
+          "Je n'ai jamais mange du sushi.",
+          "Je n'ai jamais mange de sushis.",
+          "je n'ai jamais mange de sushi.",
+          "Je n'ai jamais mange sushi."
+        ],
+        "hint": "ne + auxiliary (n'ai) + jamais + participle (mange).",
+        "distractors": [
+          "Je n'ai pas jamais mange de sushi.",
+          "Je n'ai mange jamais de sushi.",
+          "Je n'ai pas mange de sushi jamais.",
+          "Je jamais ai mange de sushi."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-ne-plus",
+      "type": "exercise",
+      "title": "Fill the blank: no longer",
+      "exercise": {
+        "id": "ex-cloze-ne-plus",
+        "type": "cloze",
+        "prompt": "Complete the sentence with the correct negative word meaning 'no longer'.",
+        "card_ids": ["neg-plus", "neg-plus-card"],
+        "sentence": "Il ne travaille ___ dans ce bureau.",
+        "blanks": [
+          { "accept": ["plus"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "not anymore = ne ... plus"
+      }
+    },
+    {
+      "id": "ex-free-said-nothing",
+      "type": "exercise",
+      "title": "Translate: She said nothing.",
+      "exercise": {
+        "id": "ex-free-said-nothing",
+        "type": "free_text",
+        "prompt": "Translate: **She said nothing.** (passe compose — rien sits between auxiliary and participle)",
+        "card_ids": ["neg-rien", "neg-passe-compose-placement"],
+        "accept": [
+          "Elle n'a rien dit.",
+          "elle n'a rien dit.",
+          "Elle n'a rien dit",
+          "elle n'a rien dit"
+        ],
+        "hint": "ne + n'a + rien + dit. Rien stays between auxiliary and participle.",
+        "distractors": [
+          "Elle n'a dit rien.",
+          "Elle n'a pas rien dit.",
+          "Elle a rien dit.",
+          "Elle ne dit rien. (wrong tense)"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-saw-nobody",
+      "type": "exercise",
+      "title": "Build: I saw nobody.",
+      "exercise": {
+        "id": "ex-tiles-saw-nobody",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say **I saw nobody.** (passe compose — personne goes AFTER the participle)",
+        "card_ids": ["neg-personne", "neg-personne-card", "neg-passe-compose-placement"],
+        "tiles": ["Je", "n'ai", "vu", "personne"],
+        "hint": "personne is the exception: ne + auxiliary + participle + personne.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-placement",
+      "type": "exercise",
+      "title": "Which sentence is correct?",
+      "exercise": {
+        "id": "ex-pic-placement",
+        "type": "picture_choice",
+        "prompt": "A woman says 'I have never visited Paris.' Which French sentence is correct?",
+        "card_ids": ["neg-jamais", "neg-passe-compose-placement", "neg-jamais-card"],
+        "images": [
+          { "src": "assets/img/paris-1.png", "label": "Je n'ai jamais visite Paris.", "is_correct": "true" },
+          { "src": "assets/img/paris-2.png", "label": "Je n'ai visite jamais Paris." },
+          { "src": "assets/img/paris-3.png", "label": "Je n'ai pas jamais visite Paris." },
+          { "src": "assets/img/paris-4.png", "label": "J'ai jamais visite Paris." }
+        ],
+        "hint": "jamais goes between auxiliary and participle; ne is required in writing; never mix pas with jamais.",
+        "distractors": [
+          "Je n'ai visite jamais Paris.",
+          "Je n'ai pas jamais visite Paris.",
+          "J'ai jamais visite Paris."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-nobody-coming",
+      "type": "exercise",
+      "title": "Translate: Nobody is coming.",
+      "exercise": {
+        "id": "ex-free-nobody-coming",
+        "type": "free_text",
+        "prompt": "Translate: **Nobody is coming.** (personne as subject — use present tense)",
+        "card_ids": ["neg-subject-use", "neg-personne"],
+        "accept": [
+          "Personne ne vient.",
+          "personne ne vient.",
+          "Personne ne vient",
+          "personne ne vient"
+        ],
+        "hint": "personne as subject: Personne + ne + verb. Verb is 3rd-person singular.",
+        "distractors": [
+          "Ne personne vient.",
+          "Personne vient pas.",
+          "Personne n'est venu. (wrong tense)",
+          "Ne vient personne."
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-que-restriction",
+      "type": "exercise",
+      "title": "Fill the blank: only",
+      "exercise": {
+        "id": "ex-cloze-que-restriction",
+        "type": "cloze",
+        "prompt": "Fill in the blank to express restriction: 'He only ate bread.' (passe compose)",
+        "card_ids": ["neg-que", "neg-que-card"],
+        "sentence": "Il n'a mange ___ du pain.",
+        "blanks": [
+          { "accept": ["que"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "ne ... que = only; que goes directly before the restricted element."
+      }
+    },
+    {
+      "id": "ex-match-passe-compose-forms",
+      "type": "exercise",
+      "title": "Match: full negative sentences",
+      "exercise": {
+        "id": "ex-match-passe-compose-forms",
+        "type": "matching",
+        "prompt": "Match each French sentence (passe compose) to its English translation.",
+        "card_ids": ["neg-passe-compose-placement", "neg-jamais-card", "neg-rien-card", "neg-personne-card"],
+        "pairs": [
+          { "left": "Elle n'a jamais visite Paris.", "right": "She has never visited Paris." },
+          { "left": "Je n'ai rien entendu.", "right": "I heard nothing." },
+          { "left": "Il n'a invite personne.", "right": "He invited nobody." },
+          { "left": "Nous n'avons plus parle.", "right": "We no longer talked." }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-nothing-works",
+      "type": "exercise",
+      "title": "Build: Nothing works.",
+      "exercise": {
+        "id": "ex-tiles-nothing-works",
+        "type": "word_tiles",
+        "prompt": "Arrange the words to say **Nothing works.** (rien as subject)",
+        "card_ids": ["neg-subject-use", "neg-rien"],
+        "tiles": ["Rien", "ne", "marche"],
+        "hint": "rien as subject: Rien + ne + verb (3rd-person singular).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-only-one-hour",
+      "type": "exercise",
+      "title": "Translate: We only have one hour.",
+      "exercise": {
+        "id": "ex-free-only-one-hour",
+        "type": "free_text",
+        "prompt": "Translate: **We only have one hour.** (use ne...que; present tense: nous avons)",
+        "card_ids": ["neg-que", "neg-que-card"],
+        "accept": [
+          "Nous n'avons qu'une heure.",
+          "nous n'avons qu'une heure.",
+          "Nous n'avons qu'une heure",
+          "nous n'avons qu'une heure"
+        ],
+        "hint": "ne ... que: Nous n'avons + que (contracts to qu' before vowel) + une heure.",
+        "distractors": [
+          "Nous n'avons que pas une heure.",
+          "Nous n'avons pas qu'une heure.",
+          "Nous avons qu'une heure.",
+          "Nous ne qu'avons une heure."
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

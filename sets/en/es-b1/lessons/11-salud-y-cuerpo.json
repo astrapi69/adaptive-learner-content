@@ -1,0 +1,315 @@
+{
+  "id": "es-b1-11-salud-y-cuerpo",
+  "title": "Health and the Body",
+  "description": "Talk about your health like a B1 speaker: describe symptoms with doler (me duele/duelen) and tener fiebre/tos/gripe, handle a visit to el médico and la farmacia (la receta, las pastillas, el jarabe, la cita), and give advice with the subjunctive and conditional (Te recomiendo que descanses; Deberías ir al médico). Plus the classic false friends estar constipado and embarazada.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "salud-doler-gustar",
+      "front": "Me duele la cabeza. / Me duelen los pies.",
+      "back": "to hurt — doler works like gustar (the body part is the subject)",
+      "notes": "*Doler* behaves like *gustar*: the body part is the grammatical subject, so the verb agrees with it. **Singular** part → *duele* (*me duele la cabeza*); **plural** parts → *duelen* (*me duelen los pies*). The person who hurts is an indirect-object pronoun: *me, te, le, nos, os, les*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "salud", "grammar"]
+    },
+    {
+      "id": "salud-articulo-cuerpo",
+      "front": "Me duele la cabeza (not *mi cabeza*).",
+      "back": "use the definite article, not the possessive, with body parts",
+      "notes": "With body parts Spanish uses the **definite article** (*la, el, los, las*), not the possessive. Say *me duele **la** cabeza*, *me lavo **las** manos* — never *me duele **mi** cabeza*. The pronoun (*me*) already tells you whose body it is.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "salud", "pitfall"]
+    },
+    {
+      "id": "salud-sintomas",
+      "front": "tener fiebre, tos, gripe, un resfriado",
+      "back": "to have a fever, a cough, the flu, a cold",
+      "notes": "Common ailments use **tener** + noun, no article for some: *tener **fiebre*** (a fever), *tener **tos*** (a cough), *tener **gripe*** (the flu), *tener **un resfriado*** (a cold). Note: *gripe* and *resfriado* are everyday words for flu and cold.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "salud"]
+    },
+    {
+      "id": "salud-estados",
+      "front": "estar mareado/a, sentirse débil",
+      "back": "to be dizzy, to feel weak",
+      "notes": "Temporary states use **estar** or **sentirse**: *estar **mareado/a*** (dizzy/light-headed), *estar **cansado/a*** (tired), *sentirse **débil*** (to feel weak). These agree in gender: *ella está mareada*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "salud"]
+    },
+    {
+      "id": "salud-constipado-falso",
+      "front": "estar constipado",
+      "back": "FALSE FRIEND: to have a cold / be congested — NOT 'constipated'",
+      "notes": "**False friend!** *Estar constipado* means *to have a cold / a stuffy nose*, not *constipated*. If you really mean *constipated*, say *estar **estreñido/a***. So *Estoy constipado* = *I have a cold*, while *Estoy estreñido* = *I'm constipated*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "salud", "false-friend"]
+    },
+    {
+      "id": "salud-embarazada-falso",
+      "front": "embarazada",
+      "back": "FALSE FRIEND: pregnant — NOT 'embarrassed'",
+      "notes": "**False friend!** *Embarazada* means *pregnant*, not *embarrassed*. For *embarrassed* use *avergonzado/a* or *me da vergüenza*. So *Está embarazada* = *She's pregnant*, while *Estoy avergonzado* = *I'm embarrassed*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "salud", "false-friend"]
+    },
+    {
+      "id": "salud-medico-vocab",
+      "front": "el síntoma, el diagnóstico, la cita, la urgencia",
+      "back": "symptom, diagnosis, appointment, emergency",
+      "notes": "At the doctor's: *el **síntoma*** (symptom — masculine despite the -a), *el **diagnóstico*** (diagnosis), *pedir una **cita*** (to make an appointment), *ir a **urgencias*** (to go to A&E / the emergency room).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "salud", "medico"]
+    },
+    {
+      "id": "salud-farmacia-vocab",
+      "front": "la receta, las pastillas, el jarabe",
+      "back": "prescription, pills/tablets, (cough) syrup",
+      "notes": "At the pharmacy: *la **receta*** (prescription — also 'recipe'!), *las **pastillas*** (pills/tablets), *el **jarabe*** (syrup, e.g. for a cough), *el **seguro médico*** (health insurance). *Tomar las pastillas* = to take the pills.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "salud", "farmacia"]
+    },
+    {
+      "id": "salud-consejo-subjuntivo",
+      "front": "Te recomiendo que descanses.",
+      "back": "advice verbs (recomendar, aconsejar) take the subjunctive",
+      "notes": "Verbs of advice and recommendation trigger the **subjunctive** after *que*: *Te recomiendo que **descanses*** (I recommend that you rest), *Te aconsejo que **bebas** agua*, *El médico quiere que **tomes** las pastillas*. English uses an infinitive here, so don't say *Te recomiendo que descansas*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "salud", "subjuntivo"]
+    },
+    {
+      "id": "salud-deberias-condicional",
+      "front": "Deberías ir al médico.",
+      "back": "soften advice with the conditional: deberías + infinitive",
+      "notes": "The conditional **deberías** (you should) gives gentle advice and is followed by the **infinitive**: *Deberías ir al médico*, *Deberías descansar más*. Compare *podrías* (you could). This is softer than the command *Ve al médico*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "salud", "condicional"]
+    },
+    {
+      "id": "salud-vida-sana",
+      "front": "llevar una vida sana, cuidarse",
+      "back": "to lead a healthy life, to take care of oneself",
+      "notes": "Healthy-lifestyle phrases: *llevar una **vida sana*** (to lead a healthy life), *hacer **ejercicio*** (to exercise), *cuidarse* (to look after oneself), *comer **sano*** (to eat healthily). *¡Cuídate!* = Take care!",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "salud"]
+    },
+    {
+      "id": "salud-es-importante",
+      "front": "Es importante que tomes las pastillas.",
+      "back": "impersonal expressions of advice also take the subjunctive",
+      "notes": "Impersonal expressions like *Es importante que...*, *Es necesario que...*, *Es mejor que...* trigger the **subjunctive**: *Es importante que **tomes** las pastillas*, *Es mejor que **vayas** al médico*. Without a specific subject, use the infinitive: *Es importante descansar*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "salud", "subjuntivo"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Saying what hurts: doler like gustar",
+      "body": "# Health and the Body\n\nAt B1 you can do more than name body parts — you can describe how you feel, talk to a doctor, and give advice.\n\n## doler works like gustar\n\nTo say something hurts, use **doler**, and treat it exactly like *gustar*: the **body part is the subject**, and the verb agrees with it.\n\n| | singular part | plural parts |\n|---|---|---|\n| me | me **duele** la cabeza | me **duelen** los pies |\n| te | te **duele** la espalda | te **duelen** las piernas |\n| le | le **duele** el estómago | le **duelen** las muelas |\n\nThe person is an **indirect-object pronoun** (*me, te, le, nos, os, les*):\n\n- *Me duele **la** cabeza.* — My head hurts.\n- *Me duelen **las** piernas.* — My legs hurt.\n\n## Use the article, not the possessive\n\nWith body parts Spanish uses the **definite article**, not *mi/tu*:\n\n- ✓ *Me duele **la** cabeza.*  ✗ *Me duele **mi** cabeza.*\n\nThe pronoun *me* already shows whose head it is."
+    },
+    {
+      "id": "step-sintomas-medico",
+      "type": "theory",
+      "title": "Symptoms, the doctor and the pharmacy",
+      "body": "## Describing symptoms\n\nMost ailments use **tener** + a noun:\n\n- *Tengo **fiebre**.* — I have a fever.\n- *Tengo **tos**.* — I have a cough.\n- *Tengo **gripe** / un **resfriado**.* — I have the flu / a cold.\n\nTemporary states use **estar** or **sentirse**:\n\n- *Estoy **mareado/a**.* — I'm dizzy.\n- *Me siento **débil**.* — I feel weak.\n\n## At the doctor and the pharmacy\n\n- *Pedir una **cita*** — to make an appointment\n- *Los **síntomas**, el **diagnóstico*** — symptoms, the diagnosis\n- *La **receta**, las **pastillas**, el **jarabe*** — prescription, pills, syrup\n- *Ir a **urgencias**, el **seguro médico*** — to go to A&E, health insurance\n\n## Two famous false friends\n\n> **estar constipado** does **not** mean *constipated* — it means *to have a cold / a stuffy nose*. *Constipated* = **estreñido/a**.\n>\n> **embarazada** does **not** mean *embarrassed* — it means *pregnant*. *Embarrassed* = **avergonzado/a**."
+    },
+    {
+      "id": "step-consejos",
+      "type": "theory",
+      "title": "Giving advice: subjunctive and conditional",
+      "body": "## Advice with the subjunctive\n\nVerbs of advice/recommendation take **que + subjunctive** when there's a new subject:\n\n- *Te **recomiendo** que **descanses**.* — I recommend (that) you rest.\n- *Te **aconsejo** que **bebas** mucha agua.*\n- *El médico **quiere** que **tomes** las pastillas.*\n\nImpersonal expressions do the same:\n\n- *Es **importante** que **tomes** las pastillas.*\n- *Es **mejor** que **vayas** al médico.*\n\n> Watch out: English uses an infinitive (*I recommend you to rest*), but Spanish needs *que* + subjunctive. Don't say *Te recomiendo que descansas*.\n\n## Softer advice with the conditional\n\n**Deberías** (you should) + **infinitive** gives gentle advice:\n\n- *Deberías **ir** al médico.*\n- *Deberías **descansar** más.*  ·  *Podrías **tomar** un jarabe.*\n\n## A healthy lifestyle\n\n- *llevar una **vida sana*** — to lead a healthy life\n- *hacer **ejercicio**, comer **sano**, **cuidarse*** — to exercise, eat healthily, take care of yourself\n- *¡**Cuídate**!* — Take care!"
+    },
+    {
+      "id": "ex-match-vocab",
+      "type": "exercise",
+      "title": "At the doctor and pharmacy",
+      "exercise": {
+        "id": "ex-match-vocab",
+        "type": "matching",
+        "prompt": "Match each Spanish health word with its English meaning.",
+        "card_ids": ["salud-medico-vocab", "salud-farmacia-vocab", "salud-sintomas"],
+        "pairs": [
+          {"left": "la receta", "right": "prescription"},
+          {"left": "el jarabe", "right": "cough syrup"},
+          {"left": "la cita", "right": "appointment"},
+          {"left": "el diagnóstico", "right": "diagnosis"},
+          {"left": "la fiebre", "right": "fever"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-my-legs-hurt",
+      "type": "exercise",
+      "title": "doler agreement (plural)",
+      "exercise": {
+        "id": "ex-free-my-legs-hurt",
+        "type": "free_text",
+        "prompt": "Translate: *My legs hurt.* (doler agrees with the plural body part; use the article)",
+        "card_ids": ["salud-doler-gustar", "salud-articulo-cuerpo"],
+        "accept": ["Me duelen las piernas.", "me duelen las piernas", "Me duelen las piernas"],
+        "hint": "Plural body part → duelen; use 'las', not 'mis'.",
+        "distractors": ["Me duele las piernas.", "Mis piernas duelen.", "Me duelen mis piernas."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-i-have-a-cold",
+      "type": "exercise",
+      "title": "False friend: I have a cold",
+      "exercise": {
+        "id": "ex-free-i-have-a-cold",
+        "type": "free_text",
+        "prompt": "Translate: *I have a cold.* (use the false friend constipado — it means congested, not 'constipated')",
+        "card_ids": ["salud-constipado-falso"],
+        "accept": ["Estoy constipado.", "estoy constipado", "Estoy constipada.", "estoy constipada", "Estoy constipado"],
+        "hint": "estar constipado = to have a cold; NOT estreñido (= constipated).",
+        "distractors": ["Estoy estreñido.", "Tengo un constipado de estómago.", "Estoy embarazado."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-embarazada",
+      "type": "exercise",
+      "title": "False friend: pregnant or embarrassed?",
+      "exercise": {
+        "id": "ex-pic-embarazada",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly says 'She is pregnant'? (mind the false friend)",
+        "card_ids": ["salud-embarazada-falso"],
+        "images": [
+          {"src": "assets/img/esta-embarazada.png", "label": "Está embarazada.", "is_correct": "true"},
+          {"src": "assets/img/esta-avergonzada.png", "label": "Está avergonzada."},
+          {"src": "assets/img/esta-constipada.png", "label": "Está constipada."},
+          {"src": "assets/img/esta-mareada.png", "label": "Está mareada."}
+        ],
+        "hint": "embarazada = pregnant; avergonzada = embarrassed.",
+        "distractors": ["Está avergonzada.", "Está constipada.", "Está mareada."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-duele-cabeza",
+      "type": "exercise",
+      "title": "doler + the definite article",
+      "exercise": {
+        "id": "ex-cloze-duele-cabeza",
+        "type": "cloze",
+        "prompt": "Fill in the correct form of doler for a single body part (la cabeza).",
+        "card_ids": ["salud-doler-gustar", "salud-articulo-cuerpo"],
+        "sentence": "Me ___ la cabeza desde esta mañana.",
+        "blanks": [{"accept": ["duele"]}],
+        "cloze_mode": "type",
+        "hint": "One singular part (la cabeza) → duele; note 'la', not 'mi'."
+      }
+    },
+    {
+      "id": "ex-tiles-recomiendo-descanses",
+      "type": "exercise",
+      "title": "Build: I recommend that you rest",
+      "exercise": {
+        "id": "ex-tiles-recomiendo-descanses",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *I recommend that you rest.* (recomendar que + subjunctive)",
+        "card_ids": ["salud-consejo-subjuntivo"],
+        "tiles": ["Te", "recomiendo", "que", "descanses"],
+        "hint": "recomendar que + subjunctive; descansar → descanses (tú).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-es-importante-tomes",
+      "type": "exercise",
+      "title": "Es importante que + subjunctive",
+      "exercise": {
+        "id": "ex-cloze-es-importante-tomes",
+        "type": "cloze",
+        "prompt": "Fill in the present subjunctive of tomar (tú) after 'Es importante que'.",
+        "card_ids": ["salud-es-importante"],
+        "sentence": "Es importante que ___ las pastillas tres veces al día.",
+        "blanks": [{"accept": ["tomes"]}],
+        "cloze_mode": "type",
+        "hint": "Es importante que + subjunctive; tomar → tomes (tú)."
+      }
+    },
+    {
+      "id": "ex-free-you-should-see-doctor",
+      "type": "exercise",
+      "title": "Soft advice with the conditional",
+      "exercise": {
+        "id": "ex-free-you-should-see-doctor",
+        "type": "free_text",
+        "prompt": "Translate: *You should go to the doctor.* (deberías + infinitive)",
+        "card_ids": ["salud-deberias-condicional"],
+        "accept": ["Deberías ir al médico.", "deberías ir al médico", "Deberias ir al medico.", "Deberías ir al médico"],
+        "hint": "deberías + infinitive (no subjunctive here): ir al médico.",
+        "distractors": ["Deberías que vayas al médico.", "Debes vas al médico.", "Deberías ir al doctor mi."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-consejos",
+      "type": "exercise",
+      "title": "Match the advice phrases",
+      "exercise": {
+        "id": "ex-match-consejos",
+        "type": "matching",
+        "prompt": "Match each Spanish phrase with its English meaning.",
+        "card_ids": ["salud-consejo-subjuntivo", "salud-deberias-condicional", "salud-vida-sana"],
+        "pairs": [
+          {"left": "Deberías descansar.", "right": "You should rest."},
+          {"left": "Te recomiendo que bebas agua.", "right": "I recommend that you drink water."},
+          {"left": "llevar una vida sana", "right": "to lead a healthy life"},
+          {"left": "cuidarse", "right": "to take care of oneself"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-doctor-recommends-rest",
+      "type": "exercise",
+      "title": "Advice verb + subjunctive",
+      "exercise": {
+        "id": "ex-free-doctor-recommends-rest",
+        "type": "free_text",
+        "prompt": "Translate: *The doctor recommends that you rest.* (recomendar que + subjunctive, tú)",
+        "card_ids": ["salud-consejo-subjuntivo", "salud-medico-vocab"],
+        "accept": ["El médico recomienda que descanses.", "el médico recomienda que descanses", "El medico recomienda que descanses.", "El médico recomienda que descanses"],
+        "hint": "recomendar que + subjunctive; descansar → descanses (tú).",
+        "distractors": ["El médico recomienda que descansas.", "El médico recomienda que descanses mi.", "El médico recomienda descansas."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-tengo-fiebre",
+      "type": "exercise",
+      "title": "Describing a symptom",
+      "exercise": {
+        "id": "ex-cloze-tengo-fiebre",
+        "type": "cloze",
+        "prompt": "Fill in the verb used with symptoms like fiebre.",
+        "card_ids": ["salud-sintomas"],
+        "sentence": "No me encuentro bien: ___ fiebre y tos.",
+        "blanks": [{"accept": ["tengo"]}],
+        "cloze_mode": "type",
+        "hint": "Symptoms use tener: yo → tengo fiebre."
+      }
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "id": "es-b1-14-viajes-y-comunicacion-intercultural",
+  "title": "Travel and Intercultural Communication",
+  "description": "Go beyond A2 travel survival language: handle reservations, accommodation, customs and travel insurance, talk about cultural differences and etiquette, and master polite registers (formal usted vs informal tú) with conditional requests. Includes the classic false friends molestar, soportar and recordar, plus a light look at regional variety across the Spanish-speaking world.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "trav-reserva-alojamiento",
+      "front": "la reserva, el alojamiento, el vuelo",
+      "back": "the reservation/booking, the accommodation, the flight",
+      "notes": "Core travel nouns beyond A2: **la reserva** (booking), **el alojamiento** (accommodation, lodging), **el vuelo** (flight). To book is *hacer una reserva* or *reservar*. Note *el alojamiento* covers hotels, hostels and rentals alike.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "travel"]
+    },
+    {
+      "id": "trav-aduana-seguro",
+      "front": "la aduana, el seguro de viaje",
+      "back": "customs (border control), travel insurance",
+      "notes": "**La aduana** is customs at the border — *pasar por la aduana* = to go through customs. **El seguro de viaje** is travel insurance; *contratar un seguro* = to take out insurance. Don't confuse *seguro* (insurance / safe) with *seguramente* (probably).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "travel"]
+    },
+    {
+      "id": "trav-itinerario-turismo",
+      "front": "hacer turismo, el itinerario",
+      "back": "to go sightseeing, the itinerary",
+      "notes": "**Hacer turismo** = to do some sightseeing / be a tourist. **El itinerario** is your travel plan or route. A guided tour is *una visita guiada*; a sightseeing trip is *una excursión*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["vocabulary", "travel"]
+    },
+    {
+      "id": "trav-perder-transbordo",
+      "front": "perder el vuelo, hacer transbordo",
+      "back": "to miss the flight, to change/transfer (trains, planes)",
+      "notes": "**Perder el vuelo / el tren** = to miss the flight/train (the same verb *perder* means to lose). **Hacer transbordo** = to change trains/lines, to make a connection. A connecting flight is *un vuelo con escala* (*la escala* = layover).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "travel"]
+    },
+    {
+      "id": "trav-costumbres-cortesia",
+      "front": "las costumbres, la cortesía, los malentendidos",
+      "back": "customs/habits, politeness/courtesy, misunderstandings",
+      "notes": "**Las costumbres** = customs or habits of a culture (different from *la aduana*, the border customs!). **La cortesía** = courtesy, politeness. **Un malentendido** = a misunderstanding (literally a 'badly understood' thing).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "culture"]
+    },
+    {
+      "id": "trav-choque-cultural",
+      "front": "el choque cultural",
+      "back": "culture shock",
+      "notes": "**El choque cultural** = culture shock — the disorientation you feel abroad. *Sufrir un choque cultural* = to experience culture shock. *El choque* alone means a crash or collision, so context matters.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "culture"]
+    },
+    {
+      "id": "trav-tutear-usted",
+      "front": "tutear vs. tratar de usted",
+      "back": "to address someone as tú vs. to address them as usted",
+      "notes": "**Tutear** = to use the informal *tú* with someone. **Tratar de usted** = to use the formal *usted*. In much of Spain *tú* is the default; with elders, officials or strangers, *usted* shows respect. When unsure, start with *usted* and let the other person invite *tú*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["culture", "register"]
+    },
+    {
+      "id": "trav-cortesia-podria",
+      "front": "¿Podría...? / ¿Le importaría...? / Disculpe",
+      "back": "Could you...? / Would you mind...? / Excuse me",
+      "notes": "Polite conditional requests soften what you ask: **¿Podría ayudarme?** (Could you help me?), **¿Le importaría abrir la ventana?** (Would you mind opening the window?). **Disculpe** (formal) or *perdone* opens a polite request. Note *¿Le importaría + infinitive?* uses *usted*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["functional", "register", "politeness"]
+    },
+    {
+      "id": "trav-molestar-false-friend",
+      "front": "molestar (≠ to molest)",
+      "back": "to bother / annoy / disturb",
+      "notes": "False friend! **molestar** does NOT mean 'to molest' — it simply means *to bother, annoy or disturb*. *¿Le molesta si fumo?* = Does it bother you if I smoke? *No quiero molestar* = I don't want to be a nuisance. To 'molest' (abuse) is *abusar de* or *agredir*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "false-friend"]
+    },
+    {
+      "id": "trav-soportar-false-friend",
+      "front": "soportar (≠ to support)",
+      "back": "to put up with / tolerate / bear",
+      "notes": "False friend! **soportar** means *to tolerate, bear or put up with*, NOT 'to support'. *No soporto el ruido* = I can't stand the noise. To 'support' (emotionally/financially) is **apoyar** (*Te apoyo*) or *mantener*; to physically hold up something can be *sostener*.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "false-friend"]
+    },
+    {
+      "id": "trav-recordar-false-friend",
+      "front": "recordar (≠ to record)",
+      "back": "to remember / remind",
+      "notes": "Recap false friend! **recordar** means *to remember* or *to remind*, NOT 'to record'. *No recuerdo su nombre* = I don't remember his name. *Recuérdame llamar* = Remind me to call. To 'record' (audio/video) is **grabar**. (recordar is an o→ue stem-changer: *recuerdo, recuerdas*.)",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["vocabulary", "false-friend"]
+    },
+    {
+      "id": "trav-variedad-regional",
+      "front": "vosotros vs. ustedes; el coche vs. el carro",
+      "back": "regional variety across the Spanish-speaking world",
+      "notes": "Spanish varies by region: Spain uses **vosotros** for informal plural 'you'; Latin America uses **ustedes** for everyone. Vocabulary differs too: *el coche* (Spain) vs. *el carro* (much of Latin America) for 'car'; *el móvil* vs. *el celular* (mobile phone). All are correct — just regional.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["culture", "regional-variety"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Travelling beyond survival Spanish",
+      "body": "# Travel and Intercultural Communication\n\nAt A2 you could book a room and order a coffee. Now you'll handle the **real** travel situations and talk about culture itself.\n\n## Travel vocabulary, levelled up\n\n| Spanish | English |\n|---|---|\n| la reserva | booking, reservation |\n| el alojamiento | accommodation |\n| el vuelo | flight |\n| la aduana | customs (border) |\n| el seguro de viaje | travel insurance |\n| el itinerario | itinerary |\n| hacer turismo | to go sightseeing |\n| perder el vuelo / el tren | to miss the flight / train |\n| hacer transbordo | to change / transfer |\n\n> Watch two 'customs': **la aduana** is the border checkpoint, while **las costumbres** are a culture's habits and traditions. Same English word, two very different Spanish ones.\n\n## When things go wrong\n\n- *Perdí el vuelo porque había mucho tráfico.* — I missed the flight because of traffic.\n- *Tengo que hacer transbordo en Madrid.* — I have to change trains in Madrid.\n- *Por suerte contraté un seguro de viaje.* — Luckily I took out travel insurance."
+    },
+    {
+      "id": "step-registros-cortesia",
+      "type": "theory",
+      "title": "Registers and polite requests: tú, usted and the conditional",
+      "body": "## Tú or usted?\n\nSpanish forces a choice English doesn't: **tú** (informal) vs **usted** (formal).\n\n- **tutear** = to address someone as *tú*\n- **tratar de usted** = to address someone as *usted*\n\nWith friends, peers and children → *tú*. With strangers, elders, officials and in service situations → *usted* is the safe, respectful start. If unsure, use *usted* and wait to be invited: *Puedes tutearme.*\n\n## Soften your requests with the conditional\n\nDirect commands sound blunt to a stranger. Use polite conditional forms:\n\n| Direct | Polite |\n|---|---|\n| Ayúdeme. | **¿Podría** ayudarme? (Could you help me?) |\n| Abra la ventana. | **¿Le importaría** abrir la ventana? (Would you mind...?) |\n| Oiga. | **Disculpe**, ¿dónde está...? (Excuse me...) |\n\n> *¿Le importaría + infinitive?* literally asks 'Would it matter to you to...?' — a very polite way to request. Note it pairs with **usted** (*le*).\n\n## Three false friends that ambush English speakers\n\n- **molestar** = to bother / annoy (NOT 'to molest'). *¿Le molesta si abro la ventana?*\n- **soportar** = to put up with / tolerate (NOT 'to support'). To support someone = **apoyar**.\n- **recordar** = to remember / remind (NOT 'to record'). To record = **grabar**."
+    },
+    {
+      "id": "step-cultura-subjuntivo",
+      "type": "theory",
+      "title": "Talking about cultural difference (and a little regional variety)",
+      "body": "## Culture, etiquette and misunderstandings\n\n- **las costumbres** — customs, traditions, habits\n- **la cortesía** — courtesy, politeness\n- **un malentendido** — a misunderstanding\n- **el choque cultural** — culture shock\n- **los horarios y las comidas** — schedules and mealtimes (in Spain, lunch around 14:00 and dinner after 21:00 often surprise visitors!)\n\n## Use the subjunctive to comment on culture\n\nImpersonal value judgements about culture trigger the **subjunctive**:\n\n- *Es interesante que cada país **tenga** sus propias costumbres.* — It's interesting that each country has its own customs.\n- *Es normal que al principio **sientas** un choque cultural.* — It's normal that at first you feel culture shock.\n- *No me extraña que **haya** malentendidos.* — It doesn't surprise me that there are misunderstandings.\n\nTo narrate past experiences abroad, mix your past tenses: *Cuando **viajé** a México, **descubrí** que **tratábamos** de usted a casi todo el mundo.*\n\n## A light note on regional variety\n\nSpanish is one language with many flavours:\n\n- **vosotros** (Spain) vs **ustedes** (Latin America) for informal plural 'you'.\n- Vocabulary: **el coche** (Spain) / **el carro** (much of Latin America); **el móvil** / **el celular**.\n\nNone is 'more correct' — just be aware so you avoid your own little *malentendidos*."
+    },
+    {
+      "id": "ex-match-travel-nouns",
+      "type": "exercise",
+      "title": "Match the travel vocabulary",
+      "exercise": {
+        "id": "ex-match-travel-nouns",
+        "type": "matching",
+        "prompt": "Match each Spanish travel term with its English meaning.",
+        "card_ids": ["trav-reserva-alojamiento", "trav-aduana-seguro", "trav-perder-transbordo"],
+        "pairs": [
+          {"left": "el alojamiento", "right": "accommodation"},
+          {"left": "la aduana", "right": "customs (border)"},
+          {"left": "el seguro de viaje", "right": "travel insurance"},
+          {"left": "hacer transbordo", "right": "to change/transfer"},
+          {"left": "perder el vuelo", "right": "to miss the flight"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-molestar",
+      "type": "exercise",
+      "title": "False friend: molestar",
+      "exercise": {
+        "id": "ex-free-molestar",
+        "type": "free_text",
+        "prompt": "Translate: *Does it bother you if I open the window?* (use molestar with usted)",
+        "card_ids": ["trav-molestar-false-friend", "trav-cortesia-podria"],
+        "accept": ["¿Le molesta si abro la ventana?", "le molesta si abro la ventana", "¿Le molesta si abro la ventana?", "Le molesta si abro la ventana"],
+        "hint": "molestar = to bother (NOT to molest); 'does it bother you' (usted) = ¿le molesta?",
+        "distractors": ["¿Le molesta a usted molestarme?", "¿Le soporta si abro la ventana?", "¿Le apoya si abro la ventana?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-soportar",
+      "type": "exercise",
+      "title": "False friend: soportar",
+      "exercise": {
+        "id": "ex-cloze-soportar",
+        "type": "cloze",
+        "prompt": "Fill in the verb for 'I can't stand' (to put up with). Beware the false friend!",
+        "card_ids": ["trav-soportar-false-friend"],
+        "sentence": "No ___ el ruido del aeropuerto por la noche.",
+        "blanks": [{"accept": ["soporto"]}],
+        "cloze_mode": "type",
+        "hint": "soportar = to tolerate / put up with (NOT to support). yo form = soporto."
+      }
+    },
+    {
+      "id": "ex-pic-recordar",
+      "type": "exercise",
+      "title": "False friend: recordar",
+      "exercise": {
+        "id": "ex-pic-recordar",
+        "type": "picture_choice",
+        "prompt": "Which sentence correctly says 'I don't remember the hotel name'? (recordar = to remember)",
+        "card_ids": ["trav-recordar-false-friend"],
+        "images": [
+          {"src": "assets/img/recordar-hotel.png", "label": "No recuerdo el nombre del hotel.", "is_correct": "true"},
+          {"src": "assets/img/grabar-hotel.png", "label": "No grabo el nombre del hotel."},
+          {"src": "assets/img/soportar-hotel.png", "label": "No soporto el nombre del hotel."},
+          {"src": "assets/img/recordar-mal.png", "label": "No recordo el nombre del hotel."}
+        ],
+        "hint": "recordar = to remember (NOT to record); o→ue stem change: recuerdo. To record = grabar.",
+        "distractors": ["No grabo el nombre del hotel.", "No soporto el nombre del hotel.", "No recordo el nombre del hotel."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-podria-ayudar",
+      "type": "exercise",
+      "title": "A polite conditional request",
+      "exercise": {
+        "id": "ex-free-podria-ayudar",
+        "type": "free_text",
+        "prompt": "Translate politely: *Excuse me, could you help me with my reservation?* (formal)",
+        "card_ids": ["trav-cortesia-podria", "trav-reserva-alojamiento"],
+        "accept": ["Disculpe, ¿podría ayudarme con mi reserva?", "disculpe, ¿podría ayudarme con mi reserva?", "Disculpe, ¿podria ayudarme con mi reserva?", "Disculpe, ¿podría ayudarme con mi reserva?"],
+        "hint": "Disculpe (formal) + ¿podría + infinitive? ; la reserva = the booking.",
+        "distractors": ["Disculpe, ¿puede ayudarme con mi recordar?", "Oye, ¿podrías soportarme con mi reserva?", "Disculpe, ¿le importaría ayudarte con mi reserva?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-le-importaria",
+      "type": "exercise",
+      "title": "Build a 'Would you mind...?' request",
+      "exercise": {
+        "id": "ex-tiles-le-importaria",
+        "type": "word_tiles",
+        "prompt": "Arrange the words: *Would you mind closing the door?* (formal, usted)",
+        "card_ids": ["trav-cortesia-podria"],
+        "tiles": ["¿Le", "importaría", "cerrar", "la", "puerta?"],
+        "hint": "¿Le importaría + infinitive? = Would you mind + -ing? (uses usted).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-subjuntivo-cultura",
+      "type": "exercise",
+      "title": "Subjunctive: commenting on culture",
+      "exercise": {
+        "id": "ex-cloze-subjuntivo-cultura",
+        "type": "cloze",
+        "prompt": "Fill in the subjunctive of *tener* (each country has...).",
+        "card_ids": ["trav-costumbres-cortesia"],
+        "sentence": "Es interesante que cada país ___ sus propias costumbres.",
+        "blanks": [{"accept": ["tenga"]}],
+        "cloze_mode": "type",
+        "hint": "Es interesante que + subjunctive; tener (tengo) → tenga."
+      }
+    },
+    {
+      "id": "ex-free-tutear",
+      "type": "exercise",
+      "title": "Registers: tú vs. usted",
+      "exercise": {
+        "id": "ex-free-tutear",
+        "type": "free_text",
+        "prompt": "Translate: *In Spain you can address young people as tú.* (use tutear)",
+        "card_ids": ["trav-tutear-usted"],
+        "accept": ["En España puedes tutear a los jóvenes.", "en españa puedes tutear a los jóvenes", "En Espana puedes tutear a los jovenes.", "En España puedes tutear a los jóvenes"],
+        "hint": "tutear = to use tú with someone; a los jóvenes = young people.",
+        "distractors": ["En España puedes tratar de usted a los jóvenes.", "En España puedes soportar a los jóvenes.", "En España puedes recordar a los jóvenes."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-match-cultura",
+      "type": "exercise",
+      "title": "Match the culture vocabulary",
+      "exercise": {
+        "id": "ex-match-cultura",
+        "type": "matching",
+        "prompt": "Match each cultural term with its English meaning.",
+        "card_ids": ["trav-costumbres-cortesia", "trav-choque-cultural"],
+        "pairs": [
+          {"left": "el choque cultural", "right": "culture shock"},
+          {"left": "un malentendido", "right": "a misunderstanding"},
+          {"left": "la cortesía", "right": "courtesy/politeness"},
+          {"left": "las costumbres", "right": "customs/habits"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-choque-cultural",
+      "type": "exercise",
+      "title": "Subjunctive + culture shock",
+      "exercise": {
+        "id": "ex-free-choque-cultural",
+        "type": "free_text",
+        "prompt": "Translate: *It's normal that at first you feel culture shock.* (es normal que + subjunctive, tú)",
+        "card_ids": ["trav-choque-cultural", "trav-costumbres-cortesia"],
+        "accept": ["Es normal que al principio sientas un choque cultural.", "es normal que al principio sientas un choque cultural", "Es normal que al principio sientas un choque cultural.", "Es normal que sientas un choque cultural al principio."],
+        "hint": "Es normal que + subjunctive; sentir → sientas (tú); el choque cultural = culture shock.",
+        "distractors": ["Es normal que al principio sientes un choque cultural.", "Es normal que al principio soportas un choque cultural.", "Es normal que recuerdas un choque cultural."],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-regional",
+      "type": "exercise",
+      "title": "Regional variety: the word for 'car'",
+      "exercise": {
+        "id": "ex-cloze-regional",
+        "type": "cloze",
+        "prompt": "Fill in the word for 'car' used in much of Latin America (not the Spain word coche).",
+        "card_ids": ["trav-variedad-regional"],
+        "sentence": "En muchos países de Latinoamérica la gente dice 'el ___' en vez de 'el coche'.",
+        "blanks": [{"accept": ["carro"]}],
+        "cloze_mode": "type",
+        "hint": "el coche (Spain) vs. el ___ (Latin America) = car."
+      }
+    },
+    {
+      "id": "ex-free-perder-vuelo",
+      "type": "exercise",
+      "title": "Narrate a travel mishap (past tenses)",
+      "exercise": {
+        "id": "ex-free-perder-vuelo",
+        "type": "free_text",
+        "prompt": "Translate: *I missed the flight because there was a lot of traffic.* (preterite + imperfect)",
+        "card_ids": ["trav-perder-transbordo"],
+        "accept": ["Perdí el vuelo porque había mucho tráfico.", "perdí el vuelo porque había mucho tráfico", "Perdi el vuelo porque habia mucho trafico.", "Perdí el vuelo porque había mucho tráfico"],
+        "hint": "perder el vuelo = to miss the flight; perdí (preterite) + había (imperfect, there was).",
+        "distractors": ["Recordé el vuelo porque había mucho tráfico.", "Soporté el vuelo porque había mucho tráfico.", "Perdí el vuelo porque hubo mucho tráfico todo."],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
