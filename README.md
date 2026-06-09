@@ -70,6 +70,20 @@ Content uses schema v1.2 / v1.3 with:
 - 5 exercise types: Matching, Picture Choice, Free Text, Word Tiles, Cloze
 - Progressive direction: receptive → mixed → productive
 
+## Eigene Lektionen erstellen
+
+Du willst eigene Inhalte erstellen? So gehst du vor:
+
+1. Lies die [Schnellstart-Anleitung](docs/GETTING-STARTED.md)
+2. Kopiere ein [Template](templates/) für deine Domäne (`language`, `knowledge`, `programming`)
+3. Füge deine Inhalte ein (eine vollständige Beispiel-Lektion: [`examples/inception-effekt/`](examples/inception-effekt/))
+4. Validiere mit `python3 scripts/validate_content.py`
+5. Verbinde dein Repo in der App (Einstellungen → Inhalte) oder öffne einen Pull Request
+
+Für die vollständige Schema-Referenz siehe [docs/LESSON-FORMAT.md](docs/LESSON-FORMAT.md).
+Als forkbarer Startpunkt für ein eigenes Content-Repo dient
+[adaptive-learner-content-test](https://github.com/astrapi69/adaptive-learner-content-test).
+
 ## Contributing
 
 1. Create lessons using the [Lesson Creator](https://astrapi69.github.io/adaptive-learner/) in the app
