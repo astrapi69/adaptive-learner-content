@@ -114,6 +114,12 @@
 # Lernmotivation und selbstreguliertes Lernen, Instruktion und
 # Unterrichtsqualität, Leistungsbeurteilung und Prüfungsangst
 # sowie eine abschließende Wiederholung (rezeptive Richtung).
+#
+# v1.18.0 (schema v1.3): Einzellektion 106 zur
+# Kommunikationspsychologie — der Inception-Effekt (induzierte
+# Eigendynamik): die Mechanismen sokratische Gesprächsführung,
+# Priming/Framing und Fehlattribuierung der Quelle, sachlich und
+# mit Beispielen.
 schema_version: '1.3'
 name: Psychologie — Grundlagen
 description: >-
@@ -140,8 +146,8 @@ sets:
     domain: psychology
     level: A1
     path: sets/de/psych-intro
-    version: '1.17.0'
-    lesson_count: 105
+    version: '1.18.0'
+    lesson_count: 106
     domain_label: Psychologie
     description: >-
       Vollständiger Einführungskurs Psychologie auf
@@ -287,3 +293,4 @@ metadata:
     - 103-instruktion-und-unterrichtsqualitaet.json
     - 104-leistungsbeurteilung-und-pruefungsangst.json
     - 105-wiederholung-paedagogische-psychologie.json
+    - 106-inception-effekt-und-beeinflussung.json
