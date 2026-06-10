@@ -232,7 +232,7 @@
         "card_ids": ["kurzzeitgedaechtnis"],
         "sentence": "Das Kurzzeitgedächtnis kann laut Miller ungefähr ___ Einheiten gleichzeitig halten.",
         "blanks": [
-          { "accept": ["7 ± 2", "sieben", "7", "sieben plus/minus zwei"] }
+          { "accept": ["7 ± 2", "7±2", "7 +/- 2", "7+/-2", "7 +- 2", "7+-2", "sieben", "7", "7 plus minus 2", "sieben plus/minus zwei", "sieben plus minus zwei", "sieben plusminus zwei"] }
         ],
         "cloze_mode": "type",
         "hint": "Millers berühmter Aufsatz heißt 'The Magical Number Seven, Plus or Minus Two'."
