@@ -1,0 +1,35 @@
+# English A1 (for Hindi speakers) — set manifest (I18N-11, EXP-027 §1).
+#
+# Starter content so the app is not empty for Hindi-speaking learners
+# once the Hindi UI lands. Source = hi (the explanation language),
+# target = en (the language being learned).
+schema_version: '1.2'
+name: English A1 (for Hindi speakers)
+description: >-
+  Three starter lessons of English for Hindi speakers: basic
+  vocabulary (greetings, numbers, colours), everyday sentences,
+  and grammar basics (articles + the verb "to be").
+sets:
+  - id: en-a1-from-hi
+    title: अंग्रेज़ी A1 (हिंदी भाषियों के लिए)
+    title_native: English A1
+    target_language: en
+    source_language: hi
+    level: A1
+    path: sets/hi/en-a1
+    version: '1.0.0'
+    lesson_count: 3
+    domain: language
+    description: >-
+      Starter English set for Hindi speakers (3 lessons): basic
+      vocabulary, everyday sentences, and grammar basics.
+    tags:
+      - beginner
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-basic-vocabulary.json
+    - 02-everyday-sentences.json
+    - 03-grammar-basics.json

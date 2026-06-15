@@ -1,0 +1,371 @@
+{
+  "id": "01-basic-vocabulary",
+  "title": "Basic Vocabulary",
+  "description": "Greetings, numbers 1-5, and colours in English, explained in Hindi.",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "hi-hello",
+      "front": "Hello",
+      "back": "नमस्ते",
+      "notes": "All-purpose greeting, any time of day.",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "hi-good-morning",
+      "front": "Good morning",
+      "back": "सुप्रभात",
+      "notes": "Used in the morning until noon.",
+      "tags": [
+        "greeting",
+        "morning"
+      ]
+    },
+    {
+      "id": "hi-thank-you",
+      "front": "Thank you",
+      "back": "धन्यवाद",
+      "notes": "Polite thanks. *Shukriya* (शुक्रिया) is a common informal variant.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "hi-please",
+      "front": "Please",
+      "back": "कृपया",
+      "notes": "Used to make a polite request.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "hi-goodbye",
+      "front": "Goodbye",
+      "back": "अलविदा",
+      "notes": "Standard farewell.",
+      "tags": [
+        "farewell"
+      ]
+    },
+    {
+      "id": "hi-yes",
+      "front": "Yes",
+      "back": "हाँ",
+      "notes": "Affirmative.",
+      "tags": [
+        "basics"
+      ]
+    },
+    {
+      "id": "hi-no",
+      "front": "No",
+      "back": "नहीं",
+      "notes": "Negative.",
+      "tags": [
+        "basics"
+      ]
+    },
+    {
+      "id": "hi-one",
+      "front": "One",
+      "back": "एक",
+      "notes": "The number 1.",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "hi-two",
+      "front": "Two",
+      "back": "दो",
+      "notes": "The number 2.",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "hi-three",
+      "front": "Three",
+      "back": "तीन",
+      "notes": "The number 3.",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "hi-four",
+      "front": "Four",
+      "back": "चार",
+      "notes": "The number 4.",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "hi-five",
+      "front": "Five",
+      "back": "पाँच",
+      "notes": "The number 5.",
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "hi-red",
+      "front": "Red",
+      "back": "लाल",
+      "notes": "The colour red.",
+      "tags": [
+        "colour"
+      ]
+    },
+    {
+      "id": "hi-blue",
+      "front": "Blue",
+      "back": "नीला",
+      "notes": "The colour blue.",
+      "tags": [
+        "colour"
+      ]
+    },
+    {
+      "id": "hi-green",
+      "front": "Green",
+      "back": "हरा",
+      "notes": "The colour green.",
+      "tags": [
+        "colour"
+      ]
+    },
+    {
+      "id": "hi-yellow",
+      "front": "Yellow",
+      "back": "पीला",
+      "notes": "The colour yellow.",
+      "tags": [
+        "colour"
+      ]
+    },
+    {
+      "id": "hi-black",
+      "front": "Black",
+      "back": "काला",
+      "notes": "The colour black.",
+      "tags": [
+        "colour"
+      ]
+    },
+    {
+      "id": "hi-white",
+      "front": "White",
+      "back": "सफ़ेद",
+      "notes": "The colour white.",
+      "tags": [
+        "colour"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l1-greetings",
+      "type": "theory",
+      "title": "Greetings and politeness",
+      "body": "# Greetings\n\nA few words cover most polite first contact in English:\n\n- **Hello** (नमस्ते) — works any time of day\n- **Good morning** (सुप्रभात) — until noon\n- **Thank you** (धन्यवाद) — to thank someone\n- **Please** (कृपया) — to make a request polite\n- **Goodbye** (अलविदा) — when leaving\n\nUnlike Hindi, English does not change the verb for respect (आप vs तुम). \"Hello\" and \"Thank you\" are the same for everyone — politeness comes from words like *please* and *thank you*, not from the verb form."
+    },
+    {
+      "id": "l1-ex-match-greetings",
+      "type": "exercise",
+      "title": "Match the greetings",
+      "exercise": {
+        "id": "l1-ex-match-greetings",
+        "type": "matching",
+        "prompt": "Match each English word with its Hindi meaning.",
+        "card_ids": [
+          "hi-hello",
+          "hi-thank-you",
+          "hi-please",
+          "hi-goodbye"
+        ],
+        "pairs": [
+          {
+            "left": "Hello",
+            "right": "नमस्ते"
+          },
+          {
+            "left": "Thank you",
+            "right": "धन्यवाद"
+          },
+          {
+            "left": "Please",
+            "right": "कृपया"
+          },
+          {
+            "left": "Goodbye",
+            "right": "अलविदा"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l1-ex-free-thanks",
+      "type": "exercise",
+      "title": "Say thank you",
+      "exercise": {
+        "id": "l1-ex-free-thanks",
+        "type": "free_text",
+        "prompt": "Translate to English: धन्यवाद",
+        "card_ids": [
+          "hi-thank-you"
+        ],
+        "accept": [
+          "Thank you",
+          "thank you",
+          "Thanks",
+          "thanks"
+        ],
+        "distractors": [
+          "Please",
+          "Hello",
+          "Goodbye"
+        ],
+        "hint": "A two-word polite phrase.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l1-numbers",
+      "type": "theory",
+      "title": "Numbers 1 to 5",
+      "body": "# Numbers 1-5\n\n- **One** (एक)\n- **Two** (दो)\n- **Three** (तीन)\n- **Four** (चार)\n- **Five** (पाँच)\n\nEnglish numbers do not change with gender or case, so *two* is always *two* — simpler than the noun system you may know from other languages."
+    },
+    {
+      "id": "l1-ex-match-numbers",
+      "type": "exercise",
+      "title": "Match the numbers",
+      "exercise": {
+        "id": "l1-ex-match-numbers",
+        "type": "matching",
+        "prompt": "Match each English number with its Hindi meaning.",
+        "card_ids": [
+          "hi-one",
+          "hi-two",
+          "hi-three",
+          "hi-four",
+          "hi-five"
+        ],
+        "pairs": [
+          {
+            "left": "One",
+            "right": "एक"
+          },
+          {
+            "left": "Two",
+            "right": "दो"
+          },
+          {
+            "left": "Three",
+            "right": "तीन"
+          },
+          {
+            "left": "Four",
+            "right": "चार"
+          },
+          {
+            "left": "Five",
+            "right": "पाँच"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l1-ex-free-three",
+      "type": "exercise",
+      "title": "Write the number",
+      "exercise": {
+        "id": "l1-ex-free-three",
+        "type": "free_text",
+        "prompt": "Translate to English: तीन",
+        "card_ids": [
+          "hi-three"
+        ],
+        "accept": [
+          "Three",
+          "three"
+        ],
+        "distractors": [
+          "Two",
+          "Four",
+          "Five"
+        ],
+        "hint": "The number 3.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l1-colours",
+      "type": "theory",
+      "title": "Colours",
+      "body": "# Colours\n\n- **Red** (लाल) · **Blue** (नीला) · **Green** (हरा)\n- **Yellow** (पीला) · **Black** (काला) · **White** (सफ़ेद)\n\nIn English the colour word comes **before** the noun: *a red car* (एक लाल गाड़ी), never *a car red*. The colour word never changes for number or gender: *red car*, *red cars*."
+    },
+    {
+      "id": "l1-ex-match-colours",
+      "type": "exercise",
+      "title": "Match the colours",
+      "exercise": {
+        "id": "l1-ex-match-colours",
+        "type": "matching",
+        "prompt": "Match each English colour with its Hindi meaning.",
+        "card_ids": [
+          "hi-red",
+          "hi-blue",
+          "hi-green",
+          "hi-black"
+        ],
+        "pairs": [
+          {
+            "left": "Red",
+            "right": "लाल"
+          },
+          {
+            "left": "Blue",
+            "right": "नीला"
+          },
+          {
+            "left": "Green",
+            "right": "हरा"
+          },
+          {
+            "left": "Black",
+            "right": "काला"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l1-ex-tiles-redcar",
+      "type": "exercise",
+      "title": "Build a phrase",
+      "exercise": {
+        "id": "l1-ex-tiles-redcar",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: एक लाल गाड़ी (a red car).",
+        "card_ids": [
+          "hi-red"
+        ],
+        "tiles": [
+          "a",
+          "red",
+          "car"
+        ],
+        "hint": "Colour comes before the noun in English.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

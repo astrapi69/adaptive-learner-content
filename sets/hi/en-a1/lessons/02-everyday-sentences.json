@@ -1,0 +1,251 @@
+{
+  "id": "02-everyday-sentences",
+  "title": "Everyday Sentences",
+  "description": "Meeting people and useful everyday phrases in English, explained in Hindi.",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "hi-how-are-you",
+      "front": "How are you?",
+      "back": "आप कैसे हैं?",
+      "notes": "Common greeting follow-up.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "hi-i-am-fine",
+      "front": "I am fine.",
+      "back": "मैं ठीक हूँ।",
+      "notes": "Standard reply to *How are you?*",
+      "tags": [
+        "reply"
+      ]
+    },
+    {
+      "id": "hi-your-name",
+      "front": "What is your name?",
+      "back": "आपका नाम क्या है?",
+      "notes": "Asking someone's name.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "hi-my-name-is",
+      "front": "My name is...",
+      "back": "मेरा नाम ... है।",
+      "notes": "Giving your name. Put your name in the blank.",
+      "tags": [
+        "introduction"
+      ]
+    },
+    {
+      "id": "hi-where-from",
+      "front": "Where are you from?",
+      "back": "आप कहाँ से हैं?",
+      "notes": "Asking origin.",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "id": "hi-i-am-from-india",
+      "front": "I am from India.",
+      "back": "मैं भारत से हूँ।",
+      "notes": "Giving your origin.",
+      "tags": [
+        "introduction"
+      ]
+    },
+    {
+      "id": "hi-nice-to-meet",
+      "front": "Nice to meet you.",
+      "back": "आपसे मिलकर अच्छा लगा।",
+      "notes": "Said after an introduction.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "hi-excuse-me",
+      "front": "Excuse me.",
+      "back": "माफ़ कीजिए।",
+      "notes": "To get attention or apologise politely.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "hi-how-much",
+      "front": "How much is this?",
+      "back": "यह कितने का है?",
+      "notes": "Asking a price while shopping.",
+      "tags": [
+        "question",
+        "shopping"
+      ]
+    },
+    {
+      "id": "hi-dont-understand",
+      "front": "I do not understand.",
+      "back": "मुझे समझ नहीं आया।",
+      "notes": "Useful when you are lost in a conversation.",
+      "tags": [
+        "basics"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l2-meeting",
+      "type": "theory",
+      "title": "Meeting someone",
+      "body": "# Meeting someone\n\nA short conversation when you meet a person:\n\n- **How are you?** (आप कैसे हैं?) — *I am fine.* (मैं ठीक हूँ।)\n- **What is your name?** (आपका नाम क्या है?) — *My name is ...* (मेरा नाम ... है।)\n- **Where are you from?** (आप कहाँ से हैं?) — *I am from India.* (मैं भारत से हूँ।)\n- **Nice to meet you.** (आपसे मिलकर अच्छा लगा।)\n\nNotice the word order: the question word (*how*, *what*, *where*) comes **first**, then the verb *are/is*, then the rest."
+    },
+    {
+      "id": "l2-ex-match-qa",
+      "type": "exercise",
+      "title": "Match question and answer",
+      "exercise": {
+        "id": "l2-ex-match-qa",
+        "type": "matching",
+        "prompt": "Match each English question or phrase with its Hindi meaning.",
+        "card_ids": [
+          "hi-how-are-you",
+          "hi-your-name",
+          "hi-where-from",
+          "hi-nice-to-meet"
+        ],
+        "pairs": [
+          {
+            "left": "How are you?",
+            "right": "आप कैसे हैं?"
+          },
+          {
+            "left": "What is your name?",
+            "right": "आपका नाम क्या है?"
+          },
+          {
+            "left": "Where are you from?",
+            "right": "आप कहाँ से हैं?"
+          },
+          {
+            "left": "Nice to meet you.",
+            "right": "आपसे मिलकर अच्छा लगा।"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l2-ex-free-fine",
+      "type": "exercise",
+      "title": "Reply that you are fine",
+      "exercise": {
+        "id": "l2-ex-free-fine",
+        "type": "free_text",
+        "prompt": "Translate to English: मैं ठीक हूँ।",
+        "card_ids": [
+          "hi-i-am-fine"
+        ],
+        "accept": [
+          "I am fine.",
+          "I am fine",
+          "I'm fine.",
+          "I'm fine"
+        ],
+        "distractors": [
+          "I am from India.",
+          "My name is Ana.",
+          "How are you?"
+        ],
+        "hint": "Subject *I* + verb *am* + *fine*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l2-ex-tiles-name",
+      "type": "exercise",
+      "title": "Build a sentence",
+      "exercise": {
+        "id": "l2-ex-tiles-name",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: मेरा नाम राज है। (My name is Raj.)",
+        "card_ids": [
+          "hi-my-name-is"
+        ],
+        "tiles": [
+          "My",
+          "name",
+          "is",
+          "Raj"
+        ],
+        "hint": "Order: My + name + is + [name].",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l2-getting-by",
+      "type": "theory",
+      "title": "Getting by politely",
+      "body": "# Useful phrases\n\nThree phrases save almost any situation:\n\n- **Excuse me.** (माफ़ कीजिए।) — to get attention or apologise\n- **How much is this?** (यह कितने का है?) — while shopping\n- **I do not understand.** (मुझे समझ नहीं आया।) — when you are lost\n\nIn English you can shorten *I do not* to *I don't* in speech. Both are correct; *do not* is a little more formal."
+    },
+    {
+      "id": "l2-ex-match-phrases",
+      "type": "exercise",
+      "title": "Match the phrases",
+      "exercise": {
+        "id": "l2-ex-match-phrases",
+        "type": "matching",
+        "prompt": "Match each English phrase with its Hindi meaning.",
+        "card_ids": [
+          "hi-excuse-me",
+          "hi-how-much",
+          "hi-dont-understand"
+        ],
+        "pairs": [
+          {
+            "left": "Excuse me.",
+            "right": "माफ़ कीजिए।"
+          },
+          {
+            "left": "How much is this?",
+            "right": "यह कितने का है?"
+          },
+          {
+            "left": "I do not understand.",
+            "right": "मुझे समझ नहीं आया।"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l2-ex-free-origin",
+      "type": "exercise",
+      "title": "Say where you are from",
+      "exercise": {
+        "id": "l2-ex-free-origin",
+        "type": "free_text",
+        "prompt": "Translate to English: मैं भारत से हूँ।",
+        "card_ids": [
+          "hi-i-am-from-india"
+        ],
+        "accept": [
+          "I am from India.",
+          "I am from India",
+          "I'm from India.",
+          "I'm from India"
+        ],
+        "distractors": [
+          "I am fine.",
+          "Where are you from?",
+          "My name is India."
+        ],
+        "hint": "Subject *I* + *am* + *from* + place.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
