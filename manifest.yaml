@@ -23,6 +23,23 @@ description: >-
   English speakers (sets/en) and for German speakers (sets/de).
   Community contributions arrive via pull request.
 sets:
+  - id: en-a1-from-hi
+    title: अंग्रेज़ी A1 (हिंदी भाषियों के लिए)
+    title_native: English A1
+    target_language: en
+    source_language: hi
+    level: A1
+    path: sets/hi/en-a1
+    version: '1.0.0'
+    lesson_count: 3
+    domain: language
+    description: >-
+      Starter English set for Hindi speakers (I18N-11, EXP-027 §1):
+      basic vocabulary (greetings, numbers, colours), everyday
+      sentences, and grammar basics (articles + the verb to be).
+    tags:
+      - beginner
+      - everyday
   - id: fr-a1-from-en
     title: French A1 (for English speakers)
     title_native: Français A1

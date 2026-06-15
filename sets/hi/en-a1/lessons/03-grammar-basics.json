@@ -1,0 +1,276 @@
+{
+  "id": "03-grammar-basics",
+  "title": "Grammar Basics: Articles and 'to be'",
+  "description": "English articles (a, an, the) and the verb 'to be', explained in Hindi.",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "hi-art-a",
+      "front": "a",
+      "back": "एक (व्यंजन से पहले)",
+      "notes": "Indefinite article before a consonant sound: *a book*, *a car*.",
+      "tags": [
+        "article"
+      ]
+    },
+    {
+      "id": "hi-art-an",
+      "front": "an",
+      "back": "एक (स्वर से पहले)",
+      "notes": "Indefinite article before a vowel sound: *an apple*, *an hour*.",
+      "tags": [
+        "article"
+      ]
+    },
+    {
+      "id": "hi-art-the",
+      "front": "the",
+      "back": "निश्चित आर्टिकल",
+      "notes": "Definite article for a specific thing: *the book on the table*.",
+      "tags": [
+        "article"
+      ]
+    },
+    {
+      "id": "hi-be-i-am",
+      "front": "I am",
+      "back": "मैं हूँ",
+      "notes": "First person singular of *to be*.",
+      "tags": [
+        "verb",
+        "to-be"
+      ]
+    },
+    {
+      "id": "hi-be-you-are",
+      "front": "you are",
+      "back": "आप हैं / तुम हो",
+      "notes": "Second person of *to be* (singular and plural).",
+      "tags": [
+        "verb",
+        "to-be"
+      ]
+    },
+    {
+      "id": "hi-be-he-is",
+      "front": "he is",
+      "back": "वह है (पुरुष)",
+      "notes": "Third person singular of *to be*.",
+      "tags": [
+        "verb",
+        "to-be"
+      ]
+    },
+    {
+      "id": "hi-be-she-is",
+      "front": "she is",
+      "back": "वह है (स्त्री)",
+      "notes": "Third person singular of *to be*.",
+      "tags": [
+        "verb",
+        "to-be"
+      ]
+    },
+    {
+      "id": "hi-be-it-is",
+      "front": "it is",
+      "back": "यह है",
+      "notes": "For a thing or animal.",
+      "tags": [
+        "verb",
+        "to-be"
+      ]
+    },
+    {
+      "id": "hi-be-we-are",
+      "front": "we are",
+      "back": "हम हैं",
+      "notes": "First person plural of *to be*.",
+      "tags": [
+        "verb",
+        "to-be"
+      ]
+    },
+    {
+      "id": "hi-be-they-are",
+      "front": "they are",
+      "back": "वे हैं",
+      "notes": "Third person plural of *to be*.",
+      "tags": [
+        "verb",
+        "to-be"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l3-articles",
+      "type": "theory",
+      "title": "Articles: a, an, the",
+      "body": "# a / an / the\n\nHindi has no articles, so English articles need attention.\n\n- **a** / **an** = एक (one, any): *a book* (कोई एक किताब)\n- Use **an** before a **vowel sound**: *an apple*, *an hour* (the *h* is silent).\n- Use **a** before a **consonant sound**: *a book*, *a university* (*university* starts with a *y* sound).\n- **the** = the specific one both speakers know: *the book on the table* (मेज़ पर रखी किताब).\n\nRule of thumb: new thing → *a/an*; already-known thing → *the*."
+    },
+    {
+      "id": "l3-ex-match-articles",
+      "type": "exercise",
+      "title": "Match the articles",
+      "exercise": {
+        "id": "l3-ex-match-articles",
+        "type": "matching",
+        "prompt": "Match each English article with its use.",
+        "card_ids": [
+          "hi-art-a",
+          "hi-art-an",
+          "hi-art-the"
+        ],
+        "pairs": [
+          {
+            "left": "a",
+            "right": "एक (व्यंजन से पहले)"
+          },
+          {
+            "left": "an",
+            "right": "एक (स्वर से पहले)"
+          },
+          {
+            "left": "the",
+            "right": "निश्चित आर्टिकल"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l3-ex-free-anapple",
+      "type": "exercise",
+      "title": "Choose a or an",
+      "exercise": {
+        "id": "l3-ex-free-anapple",
+        "type": "free_text",
+        "prompt": "Fill the blank in English: ___ apple (एक सेब)",
+        "card_ids": [
+          "hi-art-an"
+        ],
+        "accept": [
+          "an apple",
+          "an"
+        ],
+        "distractors": [
+          "a apple",
+          "the apple"
+        ],
+        "hint": "*Apple* starts with a vowel sound.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l3-ex-free-abook",
+      "type": "exercise",
+      "title": "Choose a or an",
+      "exercise": {
+        "id": "l3-ex-free-abook",
+        "type": "free_text",
+        "prompt": "Fill the blank in English: ___ book (एक किताब)",
+        "card_ids": [
+          "hi-art-a"
+        ],
+        "accept": [
+          "a book",
+          "a"
+        ],
+        "distractors": [
+          "an book",
+          "the book"
+        ],
+        "hint": "*Book* starts with a consonant sound.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l3-to-be",
+      "type": "theory",
+      "title": "The verb 'to be'",
+      "body": "# to be: am / is / are\n\nEnglish uses three present forms of *to be*:\n\n| Subject | to be | Hindi |\n|---|---|---|\n| I | **am** | मैं हूँ |\n| you | **are** | आप हैं |\n| he / she / it | **is** | वह / यह है |\n| we / they | **are** | हम / वे हैं |\n\nSo: *I am a student.* (मैं एक छात्र हूँ।) · *She is from India.* (वह भारत से है।) · *They are happy.* (वे ख़ुश हैं।)\n\nMatch the form to the subject: **I → am**, **he/she/it → is**, **you/we/they → are**."
+    },
+    {
+      "id": "l3-ex-match-tobe",
+      "type": "exercise",
+      "title": "Match subject and verb",
+      "exercise": {
+        "id": "l3-ex-match-tobe",
+        "type": "matching",
+        "prompt": "Match each English subject + verb with its Hindi meaning.",
+        "card_ids": [
+          "hi-be-i-am",
+          "hi-be-he-is",
+          "hi-be-we-are",
+          "hi-be-they-are"
+        ],
+        "pairs": [
+          {
+            "left": "I am",
+            "right": "मैं हूँ"
+          },
+          {
+            "left": "he is",
+            "right": "वह है (पुरुष)"
+          },
+          {
+            "left": "we are",
+            "right": "हम हैं"
+          },
+          {
+            "left": "they are",
+            "right": "वे हैं"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l3-ex-tiles-student",
+      "type": "exercise",
+      "title": "Build a sentence",
+      "exercise": {
+        "id": "l3-ex-tiles-student",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: मैं एक छात्र हूँ। (I am a student.)",
+        "card_ids": [
+          "hi-be-i-am",
+          "hi-art-a"
+        ],
+        "tiles": [
+          "I",
+          "am",
+          "a",
+          "student"
+        ],
+        "hint": "Subject *I* + *am* + article *a* + noun.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l3-ex-free-sheis",
+      "type": "exercise",
+      "title": "Use the right 'to be'",
+      "exercise": {
+        "id": "l3-ex-free-sheis",
+        "type": "free_text",
+        "prompt": "Fill the blank in English: She ___ from India. (वह भारत से है।)",
+        "card_ids": [
+          "hi-be-she-is"
+        ],
+        "accept": [
+          "She is from India.",
+          "is",
+          "She is from India"
+        ],
+        "distractors": [
+          "She are from India.",
+          "She am from India."
+        ],
+        "hint": "*she* takes *is*.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
