@@ -1,0 +1,41 @@
+# German A1 (for English speakers) — set manifest.
+#
+# Starter German content explained in English (source = en,
+# target = de). The Content-Loader reads ``metadata.lessons`` for
+# the lesson filename list.
+schema_version: '1.2'
+name: German A1 (for English speakers)
+description: >-
+  Five starter lessons of German for English speakers: greetings
+  and introductions, numbers and colours, articles plus the verb
+  "sein" (to be), family members, and food, drink and everyday
+  phrases.
+sets:
+  - id: de-a1-from-en
+    title: German A1 (for English speakers)
+    title_native: Deutsch A1
+    target_language: de
+    source_language: en
+    level: A1
+    path: sets/en/de-a1
+    version: '1.0.0'
+    lesson_count: 5
+    domain: language
+    description: >-
+      Five starter German lessons explained in English: greetings
+      and introducing yourself, numbers 1-10 and colours, the
+      articles der/die/das with the verb "sein", family members,
+      and food, drink and useful everyday phrases.
+    tags:
+      - beginner
+      - everyday
+      - travel
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-greetings-and-introductions.json
+    - 02-numbers-and-colours.json
+    - 03-articles-and-sein.json
+    - 04-family.json
+    - 05-food-and-everyday-phrases.json

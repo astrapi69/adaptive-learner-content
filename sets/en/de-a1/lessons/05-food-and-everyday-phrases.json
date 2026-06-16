@@ -1,0 +1,231 @@
+{
+  "id": "05-food-and-everyday-phrases",
+  "title": "Food & Everyday Phrases",
+  "description": "Food, drink and useful everyday phrases in German.",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "de-das-brot",
+      "front": "das Brot",
+      "back": "the bread",
+      "notes": "*Brot* is neuter.",
+      "tags": ["food", "neuter"]
+    },
+    {
+      "id": "de-das-wasser",
+      "front": "das Wasser",
+      "back": "the water",
+      "notes": "*Wasser* is neuter.",
+      "tags": ["drink", "neuter"]
+    },
+    {
+      "id": "de-der-kaffee",
+      "front": "der Kaffee",
+      "back": "the coffee",
+      "notes": "*Kaffee* is masculine.",
+      "tags": ["drink", "masculine"]
+    },
+    {
+      "id": "de-der-apfel",
+      "front": "der Apfel",
+      "back": "the apple",
+      "notes": "*Apfel* is masculine. Plural: *die Äpfel*.",
+      "tags": ["food", "masculine"]
+    },
+    {
+      "id": "de-die-milch",
+      "front": "die Milch",
+      "back": "the milk",
+      "notes": "*Milch* is feminine.",
+      "tags": ["drink", "feminine"]
+    },
+    {
+      "id": "de-der-kaese",
+      "front": "der Käse",
+      "back": "the cheese",
+      "notes": "*Käse* is masculine. Note the **ä**.",
+      "tags": ["food", "masculine"]
+    },
+    {
+      "id": "de-ich-moechte",
+      "front": "Ich möchte",
+      "back": "I would like",
+      "notes": "Polite way to order or ask for something: *Ich möchte einen Kaffee.* Note the **ö**.",
+      "tags": ["phrase", "ordering"]
+    },
+    {
+      "id": "de-die-rechnung",
+      "front": "die Rechnung, bitte",
+      "back": "the bill, please",
+      "notes": "Ask for the bill in a restaurant or café.",
+      "tags": ["phrase", "restaurant"]
+    },
+    {
+      "id": "de-entschuldigung",
+      "front": "Entschuldigung",
+      "back": "Excuse me / Sorry",
+      "notes": "Use to get attention or to apologise.",
+      "tags": ["phrase", "politeness"]
+    },
+    {
+      "id": "de-wie-viel-kostet",
+      "front": "Wie viel kostet das?",
+      "back": "How much does it cost?",
+      "notes": "Useful when shopping.",
+      "tags": ["phrase", "question"]
+    },
+    {
+      "id": "de-ich-verstehe-nicht",
+      "front": "Ich verstehe nicht",
+      "back": "I don't understand",
+      "notes": "Handy when you are lost in a conversation.",
+      "tags": ["phrase"]
+    },
+    {
+      "id": "de-sprechen-sie-englisch",
+      "front": "Sprechen Sie Englisch?",
+      "back": "Do you speak English?",
+      "notes": "Formal. Note the capitalised *Sie* (you, formal).",
+      "tags": ["phrase", "question"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l5-food-theory",
+      "type": "theory",
+      "title": "Food and drink",
+      "body": "# Essen und Trinken — food and drink\n\n| German | English |\n|---|---|\n| **das Brot** | the bread |\n| **das Wasser** | the water |\n| **der Kaffee** | the coffee |\n| **der Apfel** | the apple |\n| **die Milch** | the milk |\n| **der Käse** | the cheese |\n\nWatch the spelling of **Käse** (with **ä**). As always, learn each noun with its article (**der / die / das**)."
+    },
+    {
+      "id": "l5-phrases-theory",
+      "type": "theory",
+      "title": "Useful everyday phrases",
+      "body": "# Everyday phrases\n\nThese phrases will get you through a café, a shop, or a tricky conversation:\n\n- **Ich möchte …** — *I would like …* (polite ordering)\n- **Die Rechnung, bitte.** — *The bill, please.*\n- **Entschuldigung.** — *Excuse me / Sorry.*\n- **Wie viel kostet das?** — *How much does it cost?*\n- **Ich verstehe nicht.** — *I don't understand.*\n- **Sprechen Sie Englisch?** — *Do you speak English?*\n\nNotice the **ö** in *möchte* and the capitalised **Sie** (the formal \"you\")."
+    },
+    {
+      "id": "l5-ex-match-food",
+      "type": "exercise",
+      "title": "Match food and drink",
+      "exercise": {
+        "id": "l5-ex-match-food",
+        "type": "matching",
+        "prompt": "Match each German word with its English meaning.",
+        "card_ids": ["de-das-brot", "de-das-wasser", "de-der-kaffee", "de-der-apfel"],
+        "pairs": [
+          {"left": "das Brot", "right": "the bread"},
+          {"left": "das Wasser", "right": "the water"},
+          {"left": "der Kaffee", "right": "the coffee"},
+          {"left": "der Apfel", "right": "the apple"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l5-ex-match-phrases",
+      "type": "exercise",
+      "title": "Match the phrases",
+      "exercise": {
+        "id": "l5-ex-match-phrases",
+        "type": "matching",
+        "prompt": "Match each German phrase with its English meaning.",
+        "card_ids": ["de-ich-moechte", "de-entschuldigung", "de-wie-viel-kostet", "de-ich-verstehe-nicht"],
+        "pairs": [
+          {"left": "Ich möchte", "right": "I would like"},
+          {"left": "Entschuldigung", "right": "Excuse me / Sorry"},
+          {"left": "Wie viel kostet das?", "right": "How much does it cost?"},
+          {"left": "Ich verstehe nicht", "right": "I don't understand"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l5-ex-free-water",
+      "type": "exercise",
+      "title": "Write the word",
+      "exercise": {
+        "id": "l5-ex-free-water",
+        "type": "free_text",
+        "prompt": "Write the German for \"the water\" (article + noun).",
+        "card_ids": ["de-das-wasser"],
+        "accept": ["das Wasser", "Das Wasser", "Wasser"],
+        "distractors": ["der Wasser", "die Wasser", "das Brot"],
+        "hint": "*Wasser* is neuter.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l5-ex-free-excuseme",
+      "type": "exercise",
+      "title": "Say excuse me",
+      "exercise": {
+        "id": "l5-ex-free-excuseme",
+        "type": "free_text",
+        "prompt": "How do you say \"Excuse me / Sorry\" in German?",
+        "card_ids": ["de-entschuldigung"],
+        "accept": ["Entschuldigung", "entschuldigung"],
+        "distractors": ["Bitte", "Danke", "Hallo"],
+        "hint": "One long word starting with *Ent-*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l5-ex-cloze-order",
+      "type": "exercise",
+      "title": "Order politely",
+      "exercise": {
+        "id": "l5-ex-cloze-order",
+        "type": "cloze",
+        "prompt": "Complete: \"I would like a coffee.\"",
+        "card_ids": ["de-ich-moechte"],
+        "sentence": "Ich ___ einen Kaffee.",
+        "blanks": [{"accept": ["möchte", "moechte"]}],
+        "cloze_mode": "type",
+        "hint": "The polite \"would like\", with **ö**."
+      }
+    },
+    {
+      "id": "l5-ex-cloze-bill",
+      "type": "exercise",
+      "title": "Ask for the bill",
+      "exercise": {
+        "id": "l5-ex-cloze-bill",
+        "type": "cloze",
+        "prompt": "Complete: \"The bill, please.\"",
+        "card_ids": ["de-die-rechnung"],
+        "sentence": "Die ___ , bitte.",
+        "blanks": [{"accept": ["Rechnung", "rechnung"]}],
+        "cloze_mode": "type",
+        "hint": "The word for \"bill\"."
+      }
+    },
+    {
+      "id": "l5-ex-tiles-english",
+      "type": "exercise",
+      "title": "Build the question",
+      "exercise": {
+        "id": "l5-ex-tiles-english",
+        "type": "word_tiles",
+        "prompt": "Arrange the tiles to ask: \"Do you speak English?\" (formal)",
+        "card_ids": ["de-sprechen-sie-englisch"],
+        "tiles": ["Sprechen", "Sie", "Englisch"],
+        "hint": "Verb first, then the formal \"you\", then the language.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l5-ex-cloze-cost",
+      "type": "exercise",
+      "title": "Ask the price",
+      "exercise": {
+        "id": "l5-ex-cloze-cost",
+        "type": "cloze",
+        "prompt": "Complete: \"How much does it cost?\"",
+        "card_ids": ["de-wie-viel-kostet"],
+        "sentence": "Wie viel ___ das?",
+        "blanks": [{"accept": ["kostet", "Kostet"]}],
+        "cloze_mode": "type",
+        "hint": "The verb means \"costs\"."
+      }
+    }
+  ]
+}
