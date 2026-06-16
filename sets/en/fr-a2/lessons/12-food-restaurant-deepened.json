@@ -92,15 +92,6 @@
       "tags": ["grammar", "partitive"]
     },
     {
-      "id": "no-viande",
-      "front": "Je ne mange pas de viande.",
-      "back": "I do not eat meat.",
-      "notes": "After the negative *ne … pas*, the partitive **de la** viande collapses to just **de** viande. This rule applies for **all** partitives (du, de la, de l', des) in a negative context.",
-      "media_type": "text",
-      "difficulty": 3,
-      "tags": ["grammar", "partitive", "negation"]
-    },
-    {
       "id": "beaucoup-de",
       "front": "Il y a beaucoup de fromages en France.",
       "back": "There are a lot of cheeses in France.",
@@ -189,7 +180,7 @@
         "id": "ex-free-no-meat",
         "type": "free_text",
         "prompt": "Translate: *I do not eat meat.* Remember: after a negative, du/de la/des → de.",
-        "card_ids": ["partitive-negative", "no-viande"],
+        "card_ids": ["partitive-negative"],
         "accept": [
           "Je ne mange pas de viande.",
           "je ne mange pas de viande.",
@@ -311,7 +302,7 @@
         "id": "ex-cloze-negative-vegetables",
         "type": "cloze",
         "prompt": "Complete with the correct form. (After ne … pas, des légumes becomes…)",
-        "card_ids": ["partitive-negative", "no-viande"],
+        "card_ids": ["partitive-negative"],
         "sentence": "Mon fils ne mange pas ___ légumes.",
         "blanks": [
           { "accept": ["de"] }

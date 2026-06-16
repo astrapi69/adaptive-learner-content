@@ -305,16 +305,17 @@
       "exercise": {
         "id": "ex-picture-dont-vs-que",
         "type": "picture_choice",
-        "prompt": "Welcher Satz ist grammatikalisch korrekt für *Das ist der Film, den ich dir empfohlen habe* vs. *Das ist der Film, über den wir gesprochen haben*?",
+        "prompt": "Welcher Satz ist die korrekte Übersetzung für *Das ist der Film, über den wir gesprochen haben*? (parler **de** qch → dont)",
         "card_ids": ["rel-dont", "rel-qui-que"],
         "images": [
-          { "src": "assets/img/film-que-recommande.png", "label": "C'est le film que je t'ai recommandé.", "is_correct": "true" },
           { "src": "assets/img/film-dont-parle.png", "label": "C'est le film dont nous avons parlé.", "is_correct": "true" },
+          { "src": "assets/img/film-que-recommande.png", "label": "C'est le film que je t'ai recommandé." },
           { "src": "assets/img/film-dont-recommande.png", "label": "C'est le film dont je t'ai recommandé." },
           { "src": "assets/img/film-que-parle.png", "label": "C'est le film que nous avons parlé." }
         ],
-        "hint": "recommander qch → que (direktes Objekt); parler de qch → dont.",
+        "hint": "parler de qch → dont; recommander qch → que (direktes Objekt).",
         "distractors": [
+          "C'est le film que je t'ai recommandé.",
           "C'est le film dont je t'ai recommandé.",
           "C'est le film que nous avons parlé."
         ],
