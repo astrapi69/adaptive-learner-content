@@ -1,0 +1,352 @@
+{
+  "id": "06-directions-and-places",
+  "title": "Directions and Places",
+  "description": "Direction words and common places in English, explained in Hindi.",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "hi-left",
+      "front": "Left",
+      "back": "बाएँ",
+      "notes": "The opposite of right.",
+      "tags": [
+        "direction"
+      ]
+    },
+    {
+      "id": "hi-right",
+      "front": "Right",
+      "back": "दाएँ",
+      "notes": "The opposite of left.",
+      "tags": [
+        "direction"
+      ]
+    },
+    {
+      "id": "hi-straight",
+      "front": "Straight",
+      "back": "सीधे",
+      "notes": "Continue ahead without turning.",
+      "tags": [
+        "direction"
+      ]
+    },
+    {
+      "id": "hi-near",
+      "front": "Near",
+      "back": "पास",
+      "notes": "A short distance away.",
+      "tags": [
+        "direction"
+      ]
+    },
+    {
+      "id": "hi-far",
+      "front": "Far",
+      "back": "दूर",
+      "notes": "A long distance away.",
+      "tags": [
+        "direction"
+      ]
+    },
+    {
+      "id": "hi-here",
+      "front": "Here",
+      "back": "यहाँ",
+      "notes": "In this place.",
+      "tags": [
+        "direction"
+      ]
+    },
+    {
+      "id": "hi-there",
+      "front": "There",
+      "back": "वहाँ",
+      "notes": "In that place.",
+      "tags": [
+        "direction"
+      ]
+    },
+    {
+      "id": "hi-station",
+      "front": "Station",
+      "back": "स्टेशन",
+      "notes": "Where trains stop.",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "hi-market",
+      "front": "Market",
+      "back": "बाज़ार",
+      "notes": "Where things are bought and sold.",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "hi-hospital",
+      "front": "Hospital",
+      "back": "अस्पताल",
+      "notes": "Where sick people are treated.",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "hi-school",
+      "front": "School",
+      "back": "स्कूल",
+      "notes": "Where children study.",
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "hi-where-station",
+      "front": "Where is the station?",
+      "back": "स्टेशन कहाँ है?",
+      "notes": "Asking for a place.",
+      "tags": [
+        "phrase"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l6-directions",
+      "type": "theory",
+      "title": "Direction words",
+      "body": "# Directions\n\nWords to find your way:\n\n- **Left** (बाएँ) and **Right** (दाएँ)\n- **Straight** (सीधे) — go ahead\n- **Near** (पास) and **Far** (दूर)\n- **Here** (यहाँ) and **There** (वहाँ)\n\nTo give a direction, English uses **turn** or **go**: *Turn left* (बाएँ मुड़ें), *Go straight* (सीधे जाएँ). The direction word comes **after** the verb."
+    },
+    {
+      "id": "l6-ex-match-directions",
+      "type": "exercise",
+      "title": "Match the directions",
+      "exercise": {
+        "id": "l6-ex-match-directions",
+        "type": "matching",
+        "prompt": "Match each English direction word with its Hindi meaning.",
+        "card_ids": [
+          "hi-left",
+          "hi-right",
+          "hi-straight",
+          "hi-near"
+        ],
+        "pairs": [
+          {
+            "left": "Left",
+            "right": "बाएँ"
+          },
+          {
+            "left": "Right",
+            "right": "दाएँ"
+          },
+          {
+            "left": "Straight",
+            "right": "सीधे"
+          },
+          {
+            "left": "Near",
+            "right": "पास"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l6-ex-free-far",
+      "type": "exercise",
+      "title": "Translate the word",
+      "exercise": {
+        "id": "l6-ex-free-far",
+        "type": "free_text",
+        "prompt": "Translate to English: दूर",
+        "card_ids": [
+          "hi-far"
+        ],
+        "accept": [
+          "Far",
+          "far"
+        ],
+        "distractors": [
+          "Near",
+          "Left",
+          "Here"
+        ],
+        "hint": "A long distance away.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l6-ex-tiles-turnleft",
+      "type": "exercise",
+      "title": "Build a phrase",
+      "exercise": {
+        "id": "l6-ex-tiles-turnleft",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: बाएँ मुड़ें। (Turn left.)",
+        "card_ids": [
+          "hi-left"
+        ],
+        "tiles": [
+          "Turn",
+          "left"
+        ],
+        "hint": "Verb *Turn* + direction.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l6-places",
+      "type": "theory",
+      "title": "Common places",
+      "body": "# Places\n\nPlaces you often need to find:\n\n| English | Hindi |\n|---|---|\n| Station | स्टेशन |\n| Market | बाज़ार |\n| Hospital | अस्पताल |\n| School | स्कूल |\n\nTo ask where a place is, use **Where is the ...?** : *Where is the station?* (स्टेशन कहाँ है?). The question word **Where** comes first, then **is**, then **the** + the place."
+    },
+    {
+      "id": "l6-ex-match-places",
+      "type": "exercise",
+      "title": "Match the places",
+      "exercise": {
+        "id": "l6-ex-match-places",
+        "type": "matching",
+        "prompt": "Match each English place with its Hindi meaning.",
+        "card_ids": [
+          "hi-station",
+          "hi-market",
+          "hi-hospital",
+          "hi-school"
+        ],
+        "pairs": [
+          {
+            "left": "Station",
+            "right": "स्टेशन"
+          },
+          {
+            "left": "Market",
+            "right": "बाज़ार"
+          },
+          {
+            "left": "Hospital",
+            "right": "अस्पताल"
+          },
+          {
+            "left": "School",
+            "right": "स्कूल"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l6-ex-cloze-where",
+      "type": "exercise",
+      "title": "Complete the question",
+      "exercise": {
+        "id": "l6-ex-cloze-where",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-where-station",
+          "hi-market"
+        ],
+        "sentence": "Where is the ___ ? (बाज़ार कहाँ है?)",
+        "blanks": [
+          {
+            "accept": [
+              "market",
+              "Market"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Where things are bought and sold."
+      }
+    },
+    {
+      "id": "l6-ex-free-wherestation",
+      "type": "exercise",
+      "title": "Ask for a place",
+      "exercise": {
+        "id": "l6-ex-free-wherestation",
+        "type": "free_text",
+        "prompt": "Translate to English: स्टेशन कहाँ है?",
+        "card_ids": [
+          "hi-where-station"
+        ],
+        "accept": [
+          "Where is the station?",
+          "Where is the station",
+          "where is the station?"
+        ],
+        "distractors": [
+          "Where is the market?",
+          "Turn left.",
+          "The station is far."
+        ],
+        "hint": "Where + is + the + station.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l6-ex-cloze-straight",
+      "type": "exercise",
+      "title": "Complete the sentence",
+      "exercise": {
+        "id": "l6-ex-cloze-straight",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-straight"
+        ],
+        "sentence": "Go ___ . (सीधे जाएँ।)",
+        "blanks": [
+          {
+            "accept": [
+              "straight",
+              "Straight"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Continue ahead without turning."
+      }
+    },
+    {
+      "id": "l6-ex-match-more",
+      "type": "exercise",
+      "title": "Match more words",
+      "exercise": {
+        "id": "l6-ex-match-more",
+        "type": "matching",
+        "prompt": "Match each English word with its Hindi meaning.",
+        "card_ids": [
+          "hi-far",
+          "hi-here",
+          "hi-there",
+          "hi-hospital"
+        ],
+        "pairs": [
+          {
+            "left": "Far",
+            "right": "दूर"
+          },
+          {
+            "left": "Here",
+            "right": "यहाँ"
+          },
+          {
+            "left": "There",
+            "right": "वहाँ"
+          },
+          {
+            "left": "Hospital",
+            "right": "अस्पताल"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

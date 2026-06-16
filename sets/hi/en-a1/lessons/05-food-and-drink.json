@@ -1,0 +1,355 @@
+{
+  "id": "05-food-and-drink",
+  "title": "Food and Drink",
+  "description": "Common food and drink words and ordering phrases in English, explained in Hindi.",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "hi-water",
+      "front": "Water",
+      "back": "पानी",
+      "notes": "The most common drink.",
+      "tags": [
+        "drink"
+      ]
+    },
+    {
+      "id": "hi-tea",
+      "front": "Tea",
+      "back": "चाय",
+      "notes": "A hot drink.",
+      "tags": [
+        "drink"
+      ]
+    },
+    {
+      "id": "hi-milk",
+      "front": "Milk",
+      "back": "दूध",
+      "notes": "A white drink.",
+      "tags": [
+        "drink"
+      ]
+    },
+    {
+      "id": "hi-bread",
+      "front": "Bread",
+      "back": "रोटी",
+      "notes": "A common food made from flour.",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "hi-rice",
+      "front": "Rice",
+      "back": "चावल",
+      "notes": "A staple grain food.",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "hi-fruit",
+      "front": "Fruit",
+      "back": "फल",
+      "notes": "Sweet food from plants, like apples or mangoes.",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "hi-vegetable",
+      "front": "Vegetable",
+      "back": "सब्ज़ी",
+      "notes": "Food from plants eaten in meals.",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "hi-apple",
+      "front": "Apple",
+      "back": "सेब",
+      "notes": "A common fruit.",
+      "tags": [
+        "food",
+        "fruit"
+      ]
+    },
+    {
+      "id": "hi-sugar",
+      "front": "Sugar",
+      "back": "चीनी",
+      "notes": "Sweet white food added to tea.",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "hi-salt",
+      "front": "Salt",
+      "back": "नमक",
+      "notes": "Used to add flavour to food.",
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "hi-iam-hungry",
+      "front": "I am hungry.",
+      "back": "मुझे भूख लगी है।",
+      "notes": "Said when you want to eat.",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "hi-want-water",
+      "front": "I want water.",
+      "back": "मुझे पानी चाहिए।",
+      "notes": "A simple way to ask for something.",
+      "tags": [
+        "phrase"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l5-foods",
+      "type": "theory",
+      "title": "Food and drink words",
+      "body": "# Food and drink\n\nEveryday food and drink words:\n\n- **Water** (पानी) · **Tea** (चाय) · **Milk** (दूध)\n- **Bread** (रोटी) · **Rice** (चावल) · **Fruit** (फल)\n- **Vegetable** (सब्ज़ी) · **Apple** (सेब)\n\nMany of these are **uncountable** in English: we say *some water* (कुछ पानी), not *a water*. You count them with a container: *a glass of water* (एक गिलास पानी), *a cup of tea* (एक कप चाय)."
+    },
+    {
+      "id": "l5-ex-match-foods",
+      "type": "exercise",
+      "title": "Match the food words",
+      "exercise": {
+        "id": "l5-ex-match-foods",
+        "type": "matching",
+        "prompt": "Match each English food or drink with its Hindi meaning.",
+        "card_ids": [
+          "hi-water",
+          "hi-tea",
+          "hi-bread",
+          "hi-rice"
+        ],
+        "pairs": [
+          {
+            "left": "Water",
+            "right": "पानी"
+          },
+          {
+            "left": "Tea",
+            "right": "चाय"
+          },
+          {
+            "left": "Bread",
+            "right": "रोटी"
+          },
+          {
+            "left": "Rice",
+            "right": "चावल"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l5-ex-free-milk",
+      "type": "exercise",
+      "title": "Translate the word",
+      "exercise": {
+        "id": "l5-ex-free-milk",
+        "type": "free_text",
+        "prompt": "Translate to English: दूध",
+        "card_ids": [
+          "hi-milk"
+        ],
+        "accept": [
+          "Milk",
+          "milk"
+        ],
+        "distractors": [
+          "Water",
+          "Tea",
+          "Sugar"
+        ],
+        "hint": "A white drink.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l5-ex-cloze-apple",
+      "type": "exercise",
+      "title": "Complete the sentence",
+      "exercise": {
+        "id": "l5-ex-cloze-apple",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-apple"
+        ],
+        "sentence": "I eat an ___ . (मैं एक सेब खाता हूँ।)",
+        "blanks": [
+          {
+            "accept": [
+              "apple",
+              "Apple"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "A common fruit; the article *an* gives a clue."
+      }
+    },
+    {
+      "id": "l5-ordering",
+      "type": "theory",
+      "title": "Asking for food",
+      "body": "# Asking for food\n\nTwo useful phrases at a table or shop:\n\n- **I am hungry.** (मुझे भूख लगी है।)\n- **I want water.** (मुझे पानी चाहिए।)\n\nTo be more polite, add **please** (कृपया) at the end: *I want water, please.* In English the order is **subject + want + thing**: *I want tea* (मुझे चाय चाहिए), never *I tea want*."
+    },
+    {
+      "id": "l5-ex-match-phrases",
+      "type": "exercise",
+      "title": "Match the phrases",
+      "exercise": {
+        "id": "l5-ex-match-phrases",
+        "type": "matching",
+        "prompt": "Match each English phrase or word with its Hindi meaning.",
+        "card_ids": [
+          "hi-iam-hungry",
+          "hi-want-water",
+          "hi-sugar",
+          "hi-salt"
+        ],
+        "pairs": [
+          {
+            "left": "I am hungry.",
+            "right": "मुझे भूख लगी है।"
+          },
+          {
+            "left": "I want water.",
+            "right": "मुझे पानी चाहिए।"
+          },
+          {
+            "left": "Sugar",
+            "right": "चीनी"
+          },
+          {
+            "left": "Salt",
+            "right": "नमक"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l5-ex-tiles-wanttea",
+      "type": "exercise",
+      "title": "Build a sentence",
+      "exercise": {
+        "id": "l5-ex-tiles-wanttea",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: मुझे चाय चाहिए। (I want tea.)",
+        "card_ids": [
+          "hi-tea",
+          "hi-want-water"
+        ],
+        "tiles": [
+          "I",
+          "want",
+          "tea"
+        ],
+        "hint": "Order: I + want + [thing].",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l5-ex-free-hungry",
+      "type": "exercise",
+      "title": "Say you are hungry",
+      "exercise": {
+        "id": "l5-ex-free-hungry",
+        "type": "free_text",
+        "prompt": "Translate to English: मुझे भूख लगी है।",
+        "card_ids": [
+          "hi-iam-hungry"
+        ],
+        "accept": [
+          "I am hungry.",
+          "I am hungry",
+          "I'm hungry.",
+          "I'm hungry"
+        ],
+        "distractors": [
+          "I want water.",
+          "I am fine.",
+          "I eat rice."
+        ],
+        "hint": "Subject *I* + *am* + *hungry*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l5-ex-cloze-water",
+      "type": "exercise",
+      "title": "Complete the sentence",
+      "exercise": {
+        "id": "l5-ex-cloze-water",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-water"
+        ],
+        "sentence": "I drink ___ . (मैं पानी पीता हूँ।)",
+        "blanks": [
+          {
+            "accept": [
+              "water",
+              "Water"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "The most common drink."
+      }
+    },
+    {
+      "id": "l5-ex-match-more",
+      "type": "exercise",
+      "title": "Match more food words",
+      "exercise": {
+        "id": "l5-ex-match-more",
+        "type": "matching",
+        "prompt": "Match each English word with its Hindi meaning.",
+        "card_ids": [
+          "hi-milk",
+          "hi-fruit",
+          "hi-vegetable",
+          "hi-apple"
+        ],
+        "pairs": [
+          {
+            "left": "Milk",
+            "right": "दूध"
+          },
+          {
+            "left": "Fruit",
+            "right": "फल"
+          },
+          {
+            "left": "Vegetable",
+            "right": "सब्ज़ी"
+          },
+          {
+            "left": "Apple",
+            "right": "सेब"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

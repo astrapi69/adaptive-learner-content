@@ -1,0 +1,352 @@
+{
+  "id": "04-family-and-relationships",
+  "title": "Family and Relationships",
+  "description": "Family members and relationship words in English, explained in Hindi.",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "hi-mother",
+      "front": "Mother",
+      "back": "माँ",
+      "notes": "Your female parent. *Mom* is an informal variant.",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "hi-father",
+      "front": "Father",
+      "back": "पिता",
+      "notes": "Your male parent. *Dad* is an informal variant.",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "hi-brother",
+      "front": "Brother",
+      "back": "भाई",
+      "notes": "A male sibling.",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "hi-sister",
+      "front": "Sister",
+      "back": "बहन",
+      "notes": "A female sibling.",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "hi-son",
+      "front": "Son",
+      "back": "बेटा",
+      "notes": "A male child.",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "hi-daughter",
+      "front": "Daughter",
+      "back": "बेटी",
+      "notes": "A female child.",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "hi-grandfather",
+      "front": "Grandfather",
+      "back": "दादा",
+      "notes": "Your parent's father.",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "hi-grandmother",
+      "front": "Grandmother",
+      "back": "दादी",
+      "notes": "Your parent's mother.",
+      "tags": [
+        "family"
+      ]
+    },
+    {
+      "id": "hi-husband",
+      "front": "Husband",
+      "back": "पति",
+      "notes": "A woman's male spouse.",
+      "tags": [
+        "relationship"
+      ]
+    },
+    {
+      "id": "hi-wife",
+      "front": "Wife",
+      "back": "पत्नी",
+      "notes": "A man's female spouse.",
+      "tags": [
+        "relationship"
+      ]
+    },
+    {
+      "id": "hi-friend",
+      "front": "Friend",
+      "back": "दोस्त",
+      "notes": "A person you like and know well.",
+      "tags": [
+        "relationship"
+      ]
+    },
+    {
+      "id": "hi-family",
+      "front": "Family",
+      "back": "परिवार",
+      "notes": "All your relatives together.",
+      "tags": [
+        "family"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l4-parents",
+      "type": "theory",
+      "title": "Parents and siblings",
+      "body": "# Family members\n\nThe closest family words in English:\n\n- **Mother** (माँ) and **Father** (पिता) — your parents\n- **Brother** (भाई) and **Sister** (बहन) — your siblings\n- **Son** (बेटा) and **Daughter** (बेटी) — your children\n\nUnlike Hindi, English uses **one** word for *brother* whether older or younger — there is no separate word for बड़ा भाई or छोटा भाई. The same is true for *sister*, *uncle*, and *aunt*."
+    },
+    {
+      "id": "l4-ex-match-close",
+      "type": "exercise",
+      "title": "Match the family words",
+      "exercise": {
+        "id": "l4-ex-match-close",
+        "type": "matching",
+        "prompt": "Match each English family word with its Hindi meaning.",
+        "card_ids": [
+          "hi-mother",
+          "hi-father",
+          "hi-brother",
+          "hi-sister"
+        ],
+        "pairs": [
+          {
+            "left": "Mother",
+            "right": "माँ"
+          },
+          {
+            "left": "Father",
+            "right": "पिता"
+          },
+          {
+            "left": "Brother",
+            "right": "भाई"
+          },
+          {
+            "left": "Sister",
+            "right": "बहन"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l4-ex-free-sister",
+      "type": "exercise",
+      "title": "Translate the word",
+      "exercise": {
+        "id": "l4-ex-free-sister",
+        "type": "free_text",
+        "prompt": "Translate to English: बहन",
+        "card_ids": [
+          "hi-sister"
+        ],
+        "accept": [
+          "Sister",
+          "sister"
+        ],
+        "distractors": [
+          "Brother",
+          "Mother",
+          "Daughter"
+        ],
+        "hint": "A female sibling.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l4-ex-cloze-son",
+      "type": "exercise",
+      "title": "Complete the sentence",
+      "exercise": {
+        "id": "l4-ex-cloze-son",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-son"
+        ],
+        "sentence": "This is my ___ . (यह मेरा बेटा है।)",
+        "blanks": [
+          {
+            "accept": [
+              "son",
+              "Son"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "A male child."
+      }
+    },
+    {
+      "id": "l4-extended",
+      "type": "theory",
+      "title": "Grandparents and spouses",
+      "body": "# More relations\n\nBeyond the immediate family:\n\n| English | Hindi |\n|---|---|\n| Grandfather | दादा |\n| Grandmother | दादी |\n| Husband | पति |\n| Wife | पत्नी |\n| Friend | दोस्त |\n\nIn English we say **my** before the word: *my mother* (मेरी माँ), *my friend* (मेरा दोस्त). The word **my** does not change for gender — it is always *my*."
+    },
+    {
+      "id": "l4-ex-match-extended",
+      "type": "exercise",
+      "title": "Match the relations",
+      "exercise": {
+        "id": "l4-ex-match-extended",
+        "type": "matching",
+        "prompt": "Match each English word with its Hindi meaning.",
+        "card_ids": [
+          "hi-grandfather",
+          "hi-grandmother",
+          "hi-husband",
+          "hi-wife"
+        ],
+        "pairs": [
+          {
+            "left": "Grandfather",
+            "right": "दादा"
+          },
+          {
+            "left": "Grandmother",
+            "right": "दादी"
+          },
+          {
+            "left": "Husband",
+            "right": "पति"
+          },
+          {
+            "left": "Wife",
+            "right": "पत्नी"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l4-ex-tiles-mymother",
+      "type": "exercise",
+      "title": "Build a sentence",
+      "exercise": {
+        "id": "l4-ex-tiles-mymother",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: यह मेरी माँ है। (This is my mother.)",
+        "card_ids": [
+          "hi-mother"
+        ],
+        "tiles": [
+          "This",
+          "is",
+          "my",
+          "mother"
+        ],
+        "hint": "Order: This + is + my + [person].",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l4-ex-free-friend",
+      "type": "exercise",
+      "title": "Translate the word",
+      "exercise": {
+        "id": "l4-ex-free-friend",
+        "type": "free_text",
+        "prompt": "Translate to English: दोस्त",
+        "card_ids": [
+          "hi-friend"
+        ],
+        "accept": [
+          "Friend",
+          "friend"
+        ],
+        "distractors": [
+          "Family",
+          "Brother",
+          "Husband"
+        ],
+        "hint": "A person you like and know well.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l4-ex-cloze-family",
+      "type": "exercise",
+      "title": "Complete the sentence",
+      "exercise": {
+        "id": "l4-ex-cloze-family",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-family"
+        ],
+        "sentence": "I love my ___ . (मैं अपने परिवार से प्यार करता हूँ।)",
+        "blanks": [
+          {
+            "accept": [
+              "family",
+              "Family"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "All your relatives together."
+      }
+    },
+    {
+      "id": "l4-ex-match-children",
+      "type": "exercise",
+      "title": "Match more words",
+      "exercise": {
+        "id": "l4-ex-match-children",
+        "type": "matching",
+        "prompt": "Match each English word with its Hindi meaning.",
+        "card_ids": [
+          "hi-son",
+          "hi-daughter",
+          "hi-friend",
+          "hi-family"
+        ],
+        "pairs": [
+          {
+            "left": "Son",
+            "right": "बेटा"
+          },
+          {
+            "left": "Daughter",
+            "right": "बेटी"
+          },
+          {
+            "left": "Friend",
+            "right": "दोस्त"
+          },
+          {
+            "left": "Family",
+            "right": "परिवार"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

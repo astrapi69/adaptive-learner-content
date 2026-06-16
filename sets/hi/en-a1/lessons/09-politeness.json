@@ -1,0 +1,327 @@
+{
+  "id": "09-politeness",
+  "title": "Politeness",
+  "description": "Polite words and phrases for everyday situations in English, explained in Hindi.",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "hi-sorry",
+      "front": "Sorry",
+      "back": "माफ़ कीजिए",
+      "notes": "To apologise.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "hi-welcome",
+      "front": "You are welcome.",
+      "back": "आपका स्वागत है।",
+      "notes": "A reply to *thank you*.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "hi-may-i",
+      "front": "May I?",
+      "back": "क्या मैं कर सकता हूँ?",
+      "notes": "A polite way to ask permission.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "hi-of-course",
+      "front": "Of course.",
+      "back": "ज़रूर।",
+      "notes": "A polite yes.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "hi-no-problem",
+      "front": "No problem.",
+      "back": "कोई बात नहीं।",
+      "notes": "A relaxed, friendly reply.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "hi-can-you-help",
+      "front": "Can you help me?",
+      "back": "क्या आप मेरी मदद कर सकते हैं?",
+      "notes": "Asking for help politely.",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "hi-after-you",
+      "front": "After you.",
+      "back": "आप पहले।",
+      "notes": "Letting someone go first.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "hi-take-care",
+      "front": "Take care.",
+      "back": "अपना ख़्याल रखना।",
+      "notes": "A warm farewell.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "hi-good-night",
+      "front": "Good night.",
+      "back": "शुभ रात्रि।",
+      "notes": "Said when parting at night.",
+      "tags": [
+        "politeness"
+      ]
+    },
+    {
+      "id": "hi-pleased",
+      "front": "Pleased to meet you.",
+      "back": "आपसे मिलकर ख़ुशी हुई।",
+      "notes": "Polite after an introduction.",
+      "tags": [
+        "politeness"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l9-words",
+      "type": "theory",
+      "title": "Polite words",
+      "body": "# Polite words\n\nA few words smooth almost every interaction:\n\n- **Sorry** (माफ़ कीजिए) — to apologise\n- **You are welcome.** (आपका स्वागत है।) — reply to *thank you*\n- **Of course.** (ज़रूर।) and **No problem.** (कोई बात नहीं।)\n- **May I?** (क्या मैं कर सकता हूँ?) — to ask permission\n\nEnglish does not change verbs for respect (आप vs तुम). Politeness comes from these **extra words** — *sorry*, *please*, *thank you* — not from the verb form."
+    },
+    {
+      "id": "l9-ex-match-words",
+      "type": "exercise",
+      "title": "Match the polite words",
+      "exercise": {
+        "id": "l9-ex-match-words",
+        "type": "matching",
+        "prompt": "Match each English phrase with its Hindi meaning.",
+        "card_ids": [
+          "hi-sorry",
+          "hi-welcome",
+          "hi-of-course",
+          "hi-no-problem"
+        ],
+        "pairs": [
+          {
+            "left": "Sorry",
+            "right": "माफ़ कीजिए"
+          },
+          {
+            "left": "You are welcome.",
+            "right": "आपका स्वागत है।"
+          },
+          {
+            "left": "Of course.",
+            "right": "ज़रूर।"
+          },
+          {
+            "left": "No problem.",
+            "right": "कोई बात नहीं।"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l9-ex-free-sorry",
+      "type": "exercise",
+      "title": "Apologise",
+      "exercise": {
+        "id": "l9-ex-free-sorry",
+        "type": "free_text",
+        "prompt": "Translate to English: माफ़ कीजिए",
+        "card_ids": [
+          "hi-sorry"
+        ],
+        "accept": [
+          "Sorry",
+          "sorry",
+          "I am sorry",
+          "I'm sorry"
+        ],
+        "distractors": [
+          "Thank you",
+          "Of course.",
+          "You are welcome."
+        ],
+        "hint": "A word to apologise.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l9-ex-cloze-welcome",
+      "type": "exercise",
+      "title": "Complete the reply",
+      "exercise": {
+        "id": "l9-ex-cloze-welcome",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-welcome"
+        ],
+        "sentence": "You are ___ . (आपका स्वागत है।)",
+        "blanks": [
+          {
+            "accept": [
+              "welcome",
+              "Welcome"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "The reply to *thank you*."
+      }
+    },
+    {
+      "id": "l9-phrases",
+      "type": "theory",
+      "title": "Polite phrases",
+      "body": "# Polite phrases\n\nLonger phrases for everyday courtesy:\n\n| English | Hindi |\n|---|---|\n| Can you help me? | क्या आप मेरी मदद कर सकते हैं? |\n| After you. | आप पहले। |\n| Take care. | अपना ख़्याल रखना। |\n| Pleased to meet you. | आपसे मिलकर ख़ुशी हुई। |\n\nThe word **can** here makes a request polite: *Can you help me?* is softer than *Help me*. Add **please** for extra courtesy: *Can you help me, please?*"
+    },
+    {
+      "id": "l9-ex-match-phrases",
+      "type": "exercise",
+      "title": "Match the phrases",
+      "exercise": {
+        "id": "l9-ex-match-phrases",
+        "type": "matching",
+        "prompt": "Match each English phrase with its Hindi meaning.",
+        "card_ids": [
+          "hi-can-you-help",
+          "hi-after-you",
+          "hi-take-care",
+          "hi-pleased"
+        ],
+        "pairs": [
+          {
+            "left": "Can you help me?",
+            "right": "क्या आप मेरी मदद कर सकते हैं?"
+          },
+          {
+            "left": "After you.",
+            "right": "आप पहले।"
+          },
+          {
+            "left": "Take care.",
+            "right": "अपना ख़्याल रखना।"
+          },
+          {
+            "left": "Pleased to meet you.",
+            "right": "आपसे मिलकर ख़ुशी हुई।"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l9-ex-tiles-help",
+      "type": "exercise",
+      "title": "Build a question",
+      "exercise": {
+        "id": "l9-ex-tiles-help",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: क्या आप मेरी मदद कर सकते हैं? (Can you help me?)",
+        "card_ids": [
+          "hi-can-you-help"
+        ],
+        "tiles": [
+          "Can",
+          "you",
+          "help",
+          "me"
+        ],
+        "hint": "Order: Can + you + help + me.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l9-ex-free-takecare",
+      "type": "exercise",
+      "title": "Say a warm farewell",
+      "exercise": {
+        "id": "l9-ex-free-takecare",
+        "type": "free_text",
+        "prompt": "Translate to English: अपना ख़्याल रखना।",
+        "card_ids": [
+          "hi-take-care"
+        ],
+        "accept": [
+          "Take care.",
+          "Take care",
+          "take care"
+        ],
+        "distractors": [
+          "Good night.",
+          "After you.",
+          "No problem."
+        ],
+        "hint": "A warm farewell, two words.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l9-ex-cloze-goodnight",
+      "type": "exercise",
+      "title": "Complete the farewell",
+      "exercise": {
+        "id": "l9-ex-cloze-goodnight",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-good-night"
+        ],
+        "sentence": "Good ___ . (शुभ रात्रि।)",
+        "blanks": [
+          {
+            "accept": [
+              "night",
+              "Night"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Said when parting at night."
+      }
+    },
+    {
+      "id": "l9-ex-free-ofcourse",
+      "type": "exercise",
+      "title": "Give a polite yes",
+      "exercise": {
+        "id": "l9-ex-free-ofcourse",
+        "type": "free_text",
+        "prompt": "Translate to English: ज़रूर।",
+        "card_ids": [
+          "hi-of-course"
+        ],
+        "accept": [
+          "Of course.",
+          "Of course",
+          "of course"
+        ],
+        "distractors": [
+          "No problem.",
+          "Sorry",
+          "Take care."
+        ],
+        "hint": "A polite yes, two words.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
