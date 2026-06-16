@@ -1,0 +1,361 @@
+{
+  "id": "08-time-and-date",
+  "title": "Time and Date",
+  "description": "Days, time words, and telling the time in English, explained in Hindi.",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "hi-today",
+      "front": "Today",
+      "back": "आज",
+      "notes": "This day.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "hi-tomorrow",
+      "front": "Tomorrow",
+      "back": "कल (आने वाला)",
+      "notes": "The day after today.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "hi-yesterday",
+      "front": "Yesterday",
+      "back": "कल (बीता हुआ)",
+      "notes": "The day before today.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "hi-day",
+      "front": "Day",
+      "back": "दिन",
+      "notes": "A 24-hour period.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "hi-week",
+      "front": "Week",
+      "back": "सप्ताह",
+      "notes": "Seven days.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "hi-month",
+      "front": "Month",
+      "back": "महीना",
+      "notes": "About thirty days.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "hi-year",
+      "front": "Year",
+      "back": "साल",
+      "notes": "Twelve months.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "hi-hour",
+      "front": "Hour",
+      "back": "घंटा",
+      "notes": "Sixty minutes.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "hi-minute",
+      "front": "Minute",
+      "back": "मिनट",
+      "notes": "Sixty seconds.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "hi-morning",
+      "front": "Morning",
+      "back": "सुबह",
+      "notes": "The early part of the day.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "hi-night",
+      "front": "Night",
+      "back": "रात",
+      "notes": "The dark part of the day.",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "id": "hi-what-time",
+      "front": "What time is it?",
+      "back": "क्या समय हुआ है?",
+      "notes": "Asking the time.",
+      "tags": [
+        "phrase"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l8-days",
+      "type": "theory",
+      "title": "Time words",
+      "body": "# Days and periods\n\nWords for when things happen:\n\n- **Today** (आज) · **Tomorrow** (कल, आने वाला) · **Yesterday** (कल, बीता हुआ)\n- **Day** (दिन) · **Week** (सप्ताह) · **Month** (महीना) · **Year** (साल)\n\nNote that Hindi uses **कल** for both *tomorrow* and *yesterday*, but English has **two different words**. Watch the context: *I will come tomorrow* (future) vs *I came yesterday* (past)."
+    },
+    {
+      "id": "l8-ex-match-days",
+      "type": "exercise",
+      "theory_ref": "l8-days",
+      "title": "Match the time words",
+      "exercise": {
+        "id": "l8-ex-match-days",
+        "type": "matching",
+        "prompt": "Match each English time word with its Hindi meaning.",
+        "card_ids": [
+          "hi-today",
+          "hi-tomorrow",
+          "hi-yesterday",
+          "hi-week"
+        ],
+        "pairs": [
+          {
+            "left": "Today",
+            "right": "आज"
+          },
+          {
+            "left": "Tomorrow",
+            "right": "कल (आने वाला)"
+          },
+          {
+            "left": "Yesterday",
+            "right": "कल (बीता हुआ)"
+          },
+          {
+            "left": "Week",
+            "right": "सप्ताह"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l8-ex-free-month",
+      "type": "exercise",
+      "theory_ref": "l8-days",
+      "title": "Translate the word",
+      "exercise": {
+        "id": "l8-ex-free-month",
+        "type": "free_text",
+        "prompt": "Translate to English: महीना",
+        "card_ids": [
+          "hi-month"
+        ],
+        "accept": [
+          "Month",
+          "month"
+        ],
+        "distractors": [
+          "Week",
+          "Year",
+          "Day"
+        ],
+        "hint": "About thirty days.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l8-ex-cloze-today",
+      "type": "exercise",
+      "theory_ref": "l8-days",
+      "title": "Complete the sentence",
+      "exercise": {
+        "id": "l8-ex-cloze-today",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-today"
+        ],
+        "sentence": "I am busy ___ . (मैं आज व्यस्त हूँ।)",
+        "blanks": [
+          {
+            "accept": [
+              "today",
+              "Today"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "This day."
+      }
+    },
+    {
+      "id": "l8-clock",
+      "type": "theory",
+      "title": "Telling the time",
+      "body": "# The clock\n\nFor clock time you need:\n\n| English | Hindi |\n|---|---|\n| Hour | घंटा |\n| Minute | मिनट |\n| Morning | सुबह |\n| Night | रात |\n\nTo ask the time, say **What time is it?** (क्या समय हुआ है?). To answer, English uses **It is ...**: *It is three o'clock* (तीन बजे हैं). The word **o'clock** is used only for a full hour."
+    },
+    {
+      "id": "l8-ex-match-clock",
+      "type": "exercise",
+      "theory_ref": "l8-clock",
+      "title": "Match the clock words",
+      "exercise": {
+        "id": "l8-ex-match-clock",
+        "type": "matching",
+        "prompt": "Match each English word with its Hindi meaning.",
+        "card_ids": [
+          "hi-hour",
+          "hi-minute",
+          "hi-morning",
+          "hi-night"
+        ],
+        "pairs": [
+          {
+            "left": "Hour",
+            "right": "घंटा"
+          },
+          {
+            "left": "Minute",
+            "right": "मिनट"
+          },
+          {
+            "left": "Morning",
+            "right": "सुबह"
+          },
+          {
+            "left": "Night",
+            "right": "रात"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l8-ex-tiles-whattime",
+      "type": "exercise",
+      "theory_ref": "l8-clock",
+      "title": "Build a question",
+      "exercise": {
+        "id": "l8-ex-tiles-whattime",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: क्या समय हुआ है? (What time is it?)",
+        "card_ids": [
+          "hi-what-time"
+        ],
+        "tiles": [
+          "What",
+          "time",
+          "is",
+          "it"
+        ],
+        "hint": "Order: What + time + is + it.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l8-ex-free-whattime",
+      "type": "exercise",
+      "theory_ref": "l8-clock",
+      "title": "Ask the time",
+      "exercise": {
+        "id": "l8-ex-free-whattime",
+        "type": "free_text",
+        "prompt": "Translate to English: क्या समय हुआ है?",
+        "card_ids": [
+          "hi-what-time"
+        ],
+        "accept": [
+          "What time is it?",
+          "What time is it",
+          "what time is it?"
+        ],
+        "distractors": [
+          "What is your name?",
+          "It is morning.",
+          "What day is it?"
+        ],
+        "hint": "What + time + is + it.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l8-ex-cloze-night",
+      "type": "exercise",
+      "theory_ref": "l8-clock",
+      "title": "Complete the sentence",
+      "exercise": {
+        "id": "l8-ex-cloze-night",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-night"
+        ],
+        "sentence": "Good ___ . (शुभ रात्रि।)",
+        "blanks": [
+          {
+            "accept": [
+              "night",
+              "Night"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "The dark part of the day."
+      }
+    },
+    {
+      "id": "l8-ex-match-periods",
+      "type": "exercise",
+      "theory_ref": "l8-clock",
+      "title": "Match the periods",
+      "exercise": {
+        "id": "l8-ex-match-periods",
+        "type": "matching",
+        "prompt": "Match each English word with its Hindi meaning.",
+        "card_ids": [
+          "hi-day",
+          "hi-month",
+          "hi-year",
+          "hi-morning"
+        ],
+        "pairs": [
+          {
+            "left": "Day",
+            "right": "दिन"
+          },
+          {
+            "left": "Month",
+            "right": "महीना"
+          },
+          {
+            "left": "Year",
+            "right": "साल"
+          },
+          {
+            "left": "Morning",
+            "right": "सुबह"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

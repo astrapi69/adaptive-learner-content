@@ -20,10 +20,12 @@ Official content repository for [Adaptive Learner](https://github.com/astrapi69/
 | Englisch A1 | Deutsch (DE) | English (EN) | 15 | A1 | Sprache |
 | Englisch A2 | Deutsch (DE) | English (EN) | 15 | A2 | Sprache |
 | Englisch B1 | Deutsch (DE) | English (EN) | 15 | B1 | Sprache |
+| English A1 | हिंदी (HI) | English (EN) | 10 | A1 | Language |
+| Deutsch A1 | English (EN) | German (DE) | 5 | A1 | Language |
 | Psychologie | Deutsch (DE) | Deutsch (DE) | 106 | Uni-Intro | Psychologie |
 | Python — Grundlagen | Deutsch (DE) | Deutsch (DE) | 15 | A1 | Programmierung |
 
-**331 Lektionen · ~70 Stunden Lernmaterial**
+**346 Lektionen · ~73 Stunden Lernmaterial**
 
 ## Directory Structure
 
@@ -42,11 +44,14 @@ sets/
 │   ├── psych-intro/    # Domain: Psychology
 │   └── python-basics/  # Domain: Programming
 ├── en/                 # Source language: English
+│   ├── de-a1/          # Target: German A1
 │   ├── fr-a1/          # Target: French A1
 │   ├── fr-a2/          # Target: French A2
 │   ├── es-a1/          # Target: Spanish A1
 │   ├── es-a2/          # Target: Spanish A2
 │   └── es-b1/          # Target: Spanish B1
+├── hi/                 # Source language: Hindi
+│   └── en-a1/          # Target: English A1
 └── manifest.yaml       # Root manifest
 ```
 

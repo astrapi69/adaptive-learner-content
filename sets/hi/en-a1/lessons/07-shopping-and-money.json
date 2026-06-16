@@ -1,0 +1,352 @@
+{
+  "id": "07-shopping-and-money",
+  "title": "Shopping and Money",
+  "description": "Shopping words, money, and useful buying phrases in English, explained in Hindi.",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "hi-shop",
+      "front": "Shop",
+      "back": "दुकान",
+      "notes": "A place where you buy things. *Store* is a common variant.",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "hi-money",
+      "front": "Money",
+      "back": "पैसा",
+      "notes": "What you use to pay.",
+      "tags": [
+        "money"
+      ]
+    },
+    {
+      "id": "hi-price",
+      "front": "Price",
+      "back": "कीमत",
+      "notes": "How much a thing costs.",
+      "tags": [
+        "money"
+      ]
+    },
+    {
+      "id": "hi-cheap",
+      "front": "Cheap",
+      "back": "सस्ता",
+      "notes": "Low in price.",
+      "tags": [
+        "money"
+      ]
+    },
+    {
+      "id": "hi-expensive",
+      "front": "Expensive",
+      "back": "महँगा",
+      "notes": "High in price.",
+      "tags": [
+        "money"
+      ]
+    },
+    {
+      "id": "hi-buy",
+      "front": "Buy",
+      "back": "खरीदना",
+      "notes": "To get something for money.",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "hi-sell",
+      "front": "Sell",
+      "back": "बेचना",
+      "notes": "To give something for money.",
+      "tags": [
+        "shopping"
+      ]
+    },
+    {
+      "id": "hi-pay",
+      "front": "Pay",
+      "back": "भुगतान करना",
+      "notes": "To give money for something.",
+      "tags": [
+        "money"
+      ]
+    },
+    {
+      "id": "hi-how-much-cost",
+      "front": "How much does it cost?",
+      "back": "इसकी कीमत कितनी है?",
+      "notes": "Asking a price.",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "hi-too-expensive",
+      "front": "It is too expensive.",
+      "back": "यह बहुत महँगा है।",
+      "notes": "Said when the price is high.",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "hi-i-want-buy",
+      "front": "I want to buy this.",
+      "back": "मैं यह खरीदना चाहता हूँ।",
+      "notes": "Telling a seller what you want.",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "hi-receipt",
+      "front": "Receipt",
+      "back": "रसीद",
+      "notes": "A paper that shows what you paid.",
+      "tags": [
+        "shopping"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l7-words",
+      "type": "theory",
+      "title": "Shopping and money words",
+      "body": "# Shopping and money\n\nCore words for the shop:\n\n- **Shop** (दुकान) · **Money** (पैसा) · **Price** (कीमत)\n- **Cheap** (सस्ता) and **Expensive** (महँगा)\n- **Buy** (खरीदना) · **Sell** (बेचना) · **Pay** (भुगतान करना)\n\nIn English the price word comes **before** the noun: *a cheap shirt* (एक सस्ती क़मीज़), *an expensive phone* (एक महँगा फ़ोन). The word **cheap** or **expensive** never changes for gender."
+    },
+    {
+      "id": "l7-ex-match-words",
+      "type": "exercise",
+      "theory_ref": "l7-words",
+      "title": "Match the words",
+      "exercise": {
+        "id": "l7-ex-match-words",
+        "type": "matching",
+        "prompt": "Match each English word with its Hindi meaning.",
+        "card_ids": [
+          "hi-shop",
+          "hi-money",
+          "hi-price",
+          "hi-buy"
+        ],
+        "pairs": [
+          {
+            "left": "Shop",
+            "right": "दुकान"
+          },
+          {
+            "left": "Money",
+            "right": "पैसा"
+          },
+          {
+            "left": "Price",
+            "right": "कीमत"
+          },
+          {
+            "left": "Buy",
+            "right": "खरीदना"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l7-ex-free-cheap",
+      "type": "exercise",
+      "theory_ref": "l7-words",
+      "title": "Translate the word",
+      "exercise": {
+        "id": "l7-ex-free-cheap",
+        "type": "free_text",
+        "prompt": "Translate to English: सस्ता",
+        "card_ids": [
+          "hi-cheap"
+        ],
+        "accept": [
+          "Cheap",
+          "cheap"
+        ],
+        "distractors": [
+          "Expensive",
+          "Money",
+          "Price"
+        ],
+        "hint": "Low in price.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l7-ex-match-verbs",
+      "type": "exercise",
+      "theory_ref": "l7-words",
+      "title": "Match the verbs",
+      "exercise": {
+        "id": "l7-ex-match-verbs",
+        "type": "matching",
+        "prompt": "Match each English word with its Hindi meaning.",
+        "card_ids": [
+          "hi-sell",
+          "hi-pay",
+          "hi-expensive",
+          "hi-receipt"
+        ],
+        "pairs": [
+          {
+            "left": "Sell",
+            "right": "बेचना"
+          },
+          {
+            "left": "Pay",
+            "right": "भुगतान करना"
+          },
+          {
+            "left": "Expensive",
+            "right": "महँगा"
+          },
+          {
+            "left": "Receipt",
+            "right": "रसीद"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l7-phrases",
+      "type": "theory",
+      "title": "Buying phrases",
+      "body": "# At the shop\n\nThree phrases for buying:\n\n- **How much does it cost?** (इसकी कीमत कितनी है?)\n- **It is too expensive.** (यह बहुत महँगा है।)\n- **I want to buy this.** (मैं यह खरीदना चाहता हूँ।)\n\nThe word **too** here means *more than you want* (ज़रूरत से ज़्यादा): *too expensive* = महँगा (a problem), not just *very*. To say something is fine, use **It is cheap** (यह सस्ता है)."
+    },
+    {
+      "id": "l7-ex-cloze-cost",
+      "type": "exercise",
+      "theory_ref": "l7-phrases",
+      "title": "Complete the question",
+      "exercise": {
+        "id": "l7-ex-cloze-cost",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-how-much-cost"
+        ],
+        "sentence": "How much does it ___ ? (इसकी कीमत कितनी है?)",
+        "blanks": [
+          {
+            "accept": [
+              "cost",
+              "Cost"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "The verb for what a price is."
+      }
+    },
+    {
+      "id": "l7-ex-tiles-buythis",
+      "type": "exercise",
+      "theory_ref": "l7-phrases",
+      "title": "Build a sentence",
+      "exercise": {
+        "id": "l7-ex-tiles-buythis",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: मैं यह खरीदना चाहता हूँ। (I want to buy this.)",
+        "card_ids": [
+          "hi-i-want-buy"
+        ],
+        "tiles": [
+          "I",
+          "want",
+          "to",
+          "buy",
+          "this"
+        ],
+        "hint": "Order: I + want + to + buy + this.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l7-ex-free-expensive",
+      "type": "exercise",
+      "theory_ref": "l7-phrases",
+      "title": "Say it is too expensive",
+      "exercise": {
+        "id": "l7-ex-free-expensive",
+        "type": "free_text",
+        "prompt": "Translate to English: यह बहुत महँगा है।",
+        "card_ids": [
+          "hi-too-expensive"
+        ],
+        "accept": [
+          "It is too expensive.",
+          "It is too expensive",
+          "It's too expensive.",
+          "It's too expensive"
+        ],
+        "distractors": [
+          "It is cheap.",
+          "How much does it cost?",
+          "I want to buy this."
+        ],
+        "hint": "It + is + too + expensive.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l7-ex-cloze-money",
+      "type": "exercise",
+      "theory_ref": "l7-phrases",
+      "title": "Complete the sentence",
+      "exercise": {
+        "id": "l7-ex-cloze-money",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-money"
+        ],
+        "sentence": "I have no ___ . (मेरे पास पैसा नहीं है।)",
+        "blanks": [
+          {
+            "accept": [
+              "money",
+              "Money"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "What you use to pay."
+      }
+    },
+    {
+      "id": "l7-ex-free-buy",
+      "type": "exercise",
+      "theory_ref": "l7-phrases",
+      "title": "Translate the word",
+      "exercise": {
+        "id": "l7-ex-free-buy",
+        "type": "free_text",
+        "prompt": "Translate to English: खरीदना",
+        "card_ids": [
+          "hi-buy"
+        ],
+        "accept": [
+          "Buy",
+          "buy"
+        ],
+        "distractors": [
+          "Sell",
+          "Pay",
+          "Shop"
+        ],
+        "hint": "To get something for money.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

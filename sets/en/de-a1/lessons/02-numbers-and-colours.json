@@ -1,0 +1,272 @@
+{
+  "id": "02-numbers-and-colours",
+  "title": "Numbers & Colours",
+  "description": "Numbers 1 to 10 and the basic colours in German.",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "de-eins",
+      "front": "eins",
+      "back": "one",
+      "notes": "The number 1. As a counting word it is *eins*; before a noun it changes (e.g. *ein Buch*).",
+      "tags": ["number"]
+    },
+    {
+      "id": "de-zwei",
+      "front": "zwei",
+      "back": "two",
+      "notes": "The number 2.",
+      "tags": ["number"]
+    },
+    {
+      "id": "de-drei",
+      "front": "drei",
+      "back": "three",
+      "notes": "The number 3.",
+      "tags": ["number"]
+    },
+    {
+      "id": "de-vier",
+      "front": "vier",
+      "back": "four",
+      "notes": "The number 4.",
+      "tags": ["number"]
+    },
+    {
+      "id": "de-fuenf",
+      "front": "fünf",
+      "back": "five",
+      "notes": "The number 5. Note the **ü**.",
+      "tags": ["number"]
+    },
+    {
+      "id": "de-sechs",
+      "front": "sechs",
+      "back": "six",
+      "notes": "The number 6.",
+      "tags": ["number"]
+    },
+    {
+      "id": "de-sieben",
+      "front": "sieben",
+      "back": "seven",
+      "notes": "The number 7.",
+      "tags": ["number"]
+    },
+    {
+      "id": "de-acht",
+      "front": "acht",
+      "back": "eight",
+      "notes": "The number 8.",
+      "tags": ["number"]
+    },
+    {
+      "id": "de-neun",
+      "front": "neun",
+      "back": "nine",
+      "notes": "The number 9.",
+      "tags": ["number"]
+    },
+    {
+      "id": "de-zehn",
+      "front": "zehn",
+      "back": "ten",
+      "notes": "The number 10.",
+      "tags": ["number"]
+    },
+    {
+      "id": "de-rot",
+      "front": "rot",
+      "back": "red",
+      "notes": "The colour red.",
+      "tags": ["colour"]
+    },
+    {
+      "id": "de-blau",
+      "front": "blau",
+      "back": "blue",
+      "notes": "The colour blue.",
+      "tags": ["colour"]
+    },
+    {
+      "id": "de-gruen",
+      "front": "grün",
+      "back": "green",
+      "notes": "The colour green. Note the **ü**.",
+      "tags": ["colour"]
+    },
+    {
+      "id": "de-gelb",
+      "front": "gelb",
+      "back": "yellow",
+      "notes": "The colour yellow.",
+      "tags": ["colour"]
+    },
+    {
+      "id": "de-schwarz",
+      "front": "schwarz",
+      "back": "black",
+      "notes": "The colour black.",
+      "tags": ["colour"]
+    },
+    {
+      "id": "de-weiss",
+      "front": "weiß",
+      "back": "white",
+      "notes": "The colour white. Note the **ß**.",
+      "tags": ["colour"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l2-numbers-theory",
+      "type": "theory",
+      "title": "Numbers 1 to 10",
+      "body": "# Numbers 1–10\n\n| German | English |\n|---|---|\n| **eins** | one |\n| **zwei** | two |\n| **drei** | three |\n| **vier** | four |\n| **fünf** | five |\n| **sechs** | six |\n| **sieben** | seven |\n| **acht** | eight |\n| **neun** | nine |\n| **zehn** | ten |\n\nWatch the spelling: **fünf** has an **ü**. When counting, \"one\" is **eins**, but before a noun it becomes **ein/eine** (e.g. *ein Auto* — a car)."
+    },
+    {
+      "id": "l2-ex-match-numbers-low",
+      "type": "exercise",
+      "theory_ref": "l2-numbers-theory",
+      "title": "Match numbers 1–5",
+      "exercise": {
+        "id": "l2-ex-match-numbers-low",
+        "type": "matching",
+        "prompt": "Match each German number with its English meaning.",
+        "card_ids": ["de-eins", "de-zwei", "de-drei", "de-vier", "de-fuenf"],
+        "pairs": [
+          {"left": "eins", "right": "one"},
+          {"left": "zwei", "right": "two"},
+          {"left": "drei", "right": "three"},
+          {"left": "vier", "right": "four"},
+          {"left": "fünf", "right": "five"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l2-ex-match-numbers-high",
+      "type": "exercise",
+      "theory_ref": "l2-numbers-theory",
+      "title": "Match numbers 6–10",
+      "exercise": {
+        "id": "l2-ex-match-numbers-high",
+        "type": "matching",
+        "prompt": "Match each German number with its English meaning.",
+        "card_ids": ["de-sechs", "de-sieben", "de-acht", "de-neun", "de-zehn"],
+        "pairs": [
+          {"left": "sechs", "right": "six"},
+          {"left": "sieben", "right": "seven"},
+          {"left": "acht", "right": "eight"},
+          {"left": "neun", "right": "nine"},
+          {"left": "zehn", "right": "ten"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l2-ex-free-three",
+      "type": "exercise",
+      "theory_ref": "l2-numbers-theory",
+      "title": "Write the number",
+      "exercise": {
+        "id": "l2-ex-free-three",
+        "type": "free_text",
+        "prompt": "Write the German word for \"three\".",
+        "card_ids": ["de-drei"],
+        "accept": ["drei", "Drei"],
+        "distractors": ["zwei", "vier", "zehn"],
+        "hint": "The number 3.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l2-ex-free-seven",
+      "type": "exercise",
+      "theory_ref": "l2-numbers-theory",
+      "title": "Write the number",
+      "exercise": {
+        "id": "l2-ex-free-seven",
+        "type": "free_text",
+        "prompt": "Write the German word for \"seven\".",
+        "card_ids": ["de-sieben"],
+        "accept": ["sieben", "Sieben"],
+        "distractors": ["sechs", "neun", "acht"],
+        "hint": "The number 7.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l2-colours-theory",
+      "type": "theory",
+      "title": "Colours",
+      "body": "# Colours\n\n- **rot** — red\n- **blau** — blue\n- **grün** — green\n- **gelb** — yellow\n- **schwarz** — black\n- **weiß** — white\n\nWatch the spelling of **grün** (with **ü**) and **weiß** (with **ß**). In German the colour word usually comes **before** the noun, like in English: *ein rotes Auto* — a red car."
+    },
+    {
+      "id": "l2-ex-match-colours",
+      "type": "exercise",
+      "theory_ref": "l2-colours-theory",
+      "title": "Match the colours",
+      "exercise": {
+        "id": "l2-ex-match-colours",
+        "type": "matching",
+        "prompt": "Match each German colour with its English meaning.",
+        "card_ids": ["de-rot", "de-blau", "de-gruen", "de-gelb"],
+        "pairs": [
+          {"left": "rot", "right": "red"},
+          {"left": "blau", "right": "blue"},
+          {"left": "grün", "right": "green"},
+          {"left": "gelb", "right": "yellow"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l2-ex-cloze-white",
+      "type": "exercise",
+      "theory_ref": "l2-colours-theory",
+      "title": "Complete the colour",
+      "exercise": {
+        "id": "l2-ex-cloze-white",
+        "type": "cloze",
+        "prompt": "Fill in the German colour for \"white\".",
+        "card_ids": ["de-weiss"],
+        "sentence": "Schnee ist ___ . (Snow is white.)",
+        "blanks": [{"accept": ["weiß", "weiss"]}],
+        "cloze_mode": "type",
+        "hint": "Written with **ß**."
+      }
+    },
+    {
+      "id": "l2-ex-cloze-black",
+      "type": "exercise",
+      "theory_ref": "l2-colours-theory",
+      "title": "Complete the colour",
+      "exercise": {
+        "id": "l2-ex-cloze-black",
+        "type": "cloze",
+        "prompt": "Fill in the German colour for \"black\".",
+        "card_ids": ["de-schwarz"],
+        "sentence": "Die Nacht ist ___ . (The night is black.)",
+        "blanks": [{"accept": ["schwarz", "Schwarz"]}],
+        "cloze_mode": "type",
+        "hint": "Starts with *schw-*."
+      }
+    },
+    {
+      "id": "l2-ex-tiles-redcar",
+      "type": "exercise",
+      "theory_ref": "l2-colours-theory",
+      "title": "Build a phrase",
+      "exercise": {
+        "id": "l2-ex-tiles-redcar",
+        "type": "word_tiles",
+        "prompt": "Arrange the tiles to mean \"a red car\".",
+        "card_ids": ["de-rot"],
+        "tiles": ["ein", "rotes", "Auto"],
+        "hint": "Colour comes before the noun.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

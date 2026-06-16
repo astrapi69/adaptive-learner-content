@@ -1,0 +1,240 @@
+{
+  "id": "03-articles-and-sein",
+  "title": "Articles & the verb \"sein\"",
+  "description": "The three German articles der/die/das and the verb \"sein\" (to be).",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "de-der-mann",
+      "front": "der Mann",
+      "back": "the man",
+      "notes": "**der** is the masculine article (the).",
+      "tags": ["article", "masculine"]
+    },
+    {
+      "id": "de-die-frau",
+      "front": "die Frau",
+      "back": "the woman",
+      "notes": "**die** is the feminine article (the).",
+      "tags": ["article", "feminine"]
+    },
+    {
+      "id": "de-das-kind",
+      "front": "das Kind",
+      "back": "the child",
+      "notes": "**das** is the neuter article (the).",
+      "tags": ["article", "neuter"]
+    },
+    {
+      "id": "de-der-hund",
+      "front": "der Hund",
+      "back": "the dog",
+      "notes": "*Hund* is masculine, so it takes **der**.",
+      "tags": ["article", "masculine"]
+    },
+    {
+      "id": "de-die-katze",
+      "front": "die Katze",
+      "back": "the cat",
+      "notes": "*Katze* is feminine, so it takes **die**.",
+      "tags": ["article", "feminine"]
+    },
+    {
+      "id": "de-das-haus",
+      "front": "das Haus",
+      "back": "the house",
+      "notes": "*Haus* is neuter, so it takes **das**.",
+      "tags": ["article", "neuter"]
+    },
+    {
+      "id": "de-ich-bin",
+      "front": "ich bin",
+      "back": "I am",
+      "notes": "First person singular of **sein** (to be).",
+      "tags": ["verb", "sein"]
+    },
+    {
+      "id": "de-du-bist",
+      "front": "du bist",
+      "back": "you are",
+      "notes": "Second person singular, informal.",
+      "tags": ["verb", "sein"]
+    },
+    {
+      "id": "de-er-ist",
+      "front": "er ist",
+      "back": "he is",
+      "notes": "Third person singular (masculine). *sie ist* = she is, *es ist* = it is.",
+      "tags": ["verb", "sein"]
+    },
+    {
+      "id": "de-wir-sind",
+      "front": "wir sind",
+      "back": "we are",
+      "notes": "First person plural of **sein**.",
+      "tags": ["verb", "sein"]
+    },
+    {
+      "id": "de-ihr-seid",
+      "front": "ihr seid",
+      "back": "you are (plural)",
+      "notes": "Second person plural, informal.",
+      "tags": ["verb", "sein"]
+    },
+    {
+      "id": "de-sie-sind",
+      "front": "sie sind",
+      "back": "they are",
+      "notes": "Third person plural. Capitalised *Sie sind* is the formal \"you are\".",
+      "tags": ["verb", "sein"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l3-articles-theory",
+      "type": "theory",
+      "title": "Three words for \"the\"",
+      "body": "# der, die, das\n\nEvery German noun has a **gender**: masculine, feminine, or neuter. The word for *the* changes with the gender:\n\n| Article | Gender | Example | English |\n|---|---|---|---|\n| **der** | masculine | der Mann | the man |\n| **die** | feminine | die Frau | the woman |\n| **das** | neuter | das Kind | the child |\n\nThe gender is not always logical (*das Mädchen* — the girl — is neuter!), so **learn each noun together with its article**. Nouns are always written with a **capital letter** in German."
+    },
+    {
+      "id": "l3-ex-match-articles",
+      "type": "exercise",
+      "theory_ref": "l3-articles-theory",
+      "title": "Match noun and meaning",
+      "exercise": {
+        "id": "l3-ex-match-articles",
+        "type": "matching",
+        "prompt": "Match each German noun with its English meaning.",
+        "card_ids": ["de-der-mann", "de-die-frau", "de-das-kind", "de-der-hund"],
+        "pairs": [
+          {"left": "der Mann", "right": "the man"},
+          {"left": "die Frau", "right": "the woman"},
+          {"left": "das Kind", "right": "the child"},
+          {"left": "der Hund", "right": "the dog"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l3-ex-free-article-cat",
+      "type": "exercise",
+      "theory_ref": "l3-articles-theory",
+      "title": "Choose the article",
+      "exercise": {
+        "id": "l3-ex-free-article-cat",
+        "type": "free_text",
+        "prompt": "Write the correct article + noun for \"the cat\".",
+        "card_ids": ["de-die-katze"],
+        "accept": ["die Katze", "Die Katze"],
+        "distractors": ["der Katze", "das Katze"],
+        "hint": "*Katze* is feminine.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l3-ex-free-article-house",
+      "type": "exercise",
+      "theory_ref": "l3-articles-theory",
+      "title": "Choose the article",
+      "exercise": {
+        "id": "l3-ex-free-article-house",
+        "type": "free_text",
+        "prompt": "Write the correct article + noun for \"the house\".",
+        "card_ids": ["de-das-haus"],
+        "accept": ["das Haus", "Das Haus"],
+        "distractors": ["der Haus", "die Haus"],
+        "hint": "*Haus* is neuter.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l3-sein-theory",
+      "type": "theory",
+      "title": "The verb \"sein\" (to be)",
+      "body": "# sein — to be\n\n**sein** is the most important German verb, and it is irregular. Memorise the full pattern:\n\n| German | English |\n|---|---|\n| **ich bin** | I am |\n| **du bist** | you are *(informal)* |\n| **er / sie / es ist** | he / she / it is |\n| **wir sind** | we are |\n| **ihr seid** | you are *(plural)* |\n| **sie / Sie sind** | they are / you are *(formal)* |\n\nExample: **Ich bin müde.** — *I am tired.*"
+    },
+    {
+      "id": "l3-ex-match-sein",
+      "type": "exercise",
+      "theory_ref": "l3-sein-theory",
+      "title": "Match the forms of sein",
+      "exercise": {
+        "id": "l3-ex-match-sein",
+        "type": "matching",
+        "prompt": "Match each form of \"sein\" with its English meaning.",
+        "card_ids": ["de-ich-bin", "de-du-bist", "de-er-ist", "de-wir-sind", "de-sie-sind"],
+        "pairs": [
+          {"left": "ich bin", "right": "I am"},
+          {"left": "du bist", "right": "you are"},
+          {"left": "er ist", "right": "he is"},
+          {"left": "wir sind", "right": "we are"},
+          {"left": "sie sind", "right": "they are"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l3-ex-cloze-iam",
+      "type": "exercise",
+      "theory_ref": "l3-sein-theory",
+      "title": "Complete with sein",
+      "exercise": {
+        "id": "l3-ex-cloze-iam",
+        "type": "cloze",
+        "prompt": "Complete: \"I am Anna.\"",
+        "card_ids": ["de-ich-bin"],
+        "sentence": "Ich ___ Anna.",
+        "blanks": [{"accept": ["bin", "Bin"]}],
+        "cloze_mode": "type",
+        "hint": "The form of *sein* that goes with *ich*."
+      }
+    },
+    {
+      "id": "l3-ex-cloze-weare",
+      "type": "exercise",
+      "theory_ref": "l3-sein-theory",
+      "title": "Complete with sein",
+      "exercise": {
+        "id": "l3-ex-cloze-weare",
+        "type": "cloze",
+        "prompt": "Complete: \"We are here.\"",
+        "card_ids": ["de-wir-sind"],
+        "sentence": "Wir ___ hier.",
+        "blanks": [{"accept": ["sind", "Sind"]}],
+        "cloze_mode": "type",
+        "hint": "The form of *sein* that goes with *wir*."
+      }
+    },
+    {
+      "id": "l3-ex-tiles-sentence",
+      "type": "exercise",
+      "theory_ref": "l3-sein-theory",
+      "title": "Build the sentence",
+      "exercise": {
+        "id": "l3-ex-tiles-sentence",
+        "type": "word_tiles",
+        "prompt": "Arrange the tiles to mean \"The man is tired.\"",
+        "card_ids": ["de-der-mann", "de-er-ist"],
+        "tiles": ["Der", "Mann", "ist", "müde"],
+        "hint": "Subject, then verb, then adjective.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l3-ex-cloze-youare",
+      "type": "exercise",
+      "theory_ref": "l3-sein-theory",
+      "title": "Complete with sein",
+      "exercise": {
+        "id": "l3-ex-cloze-youare",
+        "type": "cloze",
+        "prompt": "Complete: \"You are nice.\" (informal)",
+        "card_ids": ["de-du-bist"],
+        "sentence": "Du ___ nett.",
+        "blanks": [{"accept": ["bist", "Bist"]}],
+        "cloze_mode": "type",
+        "hint": "The form of *sein* that goes with *du*."
+      }
+    }
+  ]
+}

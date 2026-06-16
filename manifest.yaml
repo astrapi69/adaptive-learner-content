@@ -30,13 +30,16 @@ sets:
     source_language: hi
     level: A1
     path: sets/hi/en-a1
-    version: '1.0.0'
-    lesson_count: 3
+    version: '1.1.0'
+    lesson_count: 10
     domain: language
     description: >-
-      Starter English set for Hindi speakers (I18N-11, EXP-027 §1):
-      basic vocabulary (greetings, numbers, colours), everyday
-      sentences, and grammar basics (articles + the verb to be).
+      English set for Hindi speakers (I18N-11, EXP-027 §1; 10
+      lessons): basic vocabulary (greetings, numbers, colours),
+      everyday sentences, grammar basics (articles + the verb to
+      be), family and relationships, food and drink, directions and
+      places, shopping and money, time and date, politeness, and
+      travel and transport.
     tags:
       - beginner
       - everyday
@@ -127,6 +130,25 @@ sets:
       - intermediate
       - grammar
       - everyday
+  - id: de-a1-from-en
+    title: German A1 (for English speakers)
+    title_native: Deutsch A1
+    target_language: de
+    source_language: en
+    level: A1
+    path: sets/en/de-a1
+    version: '1.0.0'
+    lesson_count: 5
+    domain: language
+    description: >-
+      Five starter German lessons explained in English: greetings
+      and introducing yourself, numbers 1-10 and colours, the
+      articles der/die/das with the verb "sein", family members,
+      and food, drink and useful everyday phrases.
+    tags:
+      - beginner
+      - everyday
+      - travel
   - id: fr-a2-from-en
     title: French A2 — Elementary
     title_native: Français A2 — Élémentaire
@@ -382,6 +404,11 @@ sets:
       - beginner
       - psychology
       - science
+    book:
+      title: "Psychologie"
+      author: "Philip Zimbardo, Robert Johnson, Vivian McCann"
+      isbn: "978-3868943238"
+      url: "https://www.amazon.de/dp/3868943234/"
   - id: python-basics-from-de
     title: Python — Grundlagen
     title_native: Python — Basics

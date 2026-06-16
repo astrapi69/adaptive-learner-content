@@ -1,0 +1,253 @@
+{
+  "id": "01-greetings-and-introductions",
+  "title": "Greetings & Introductions",
+  "description": "Greet people, say goodbye, and introduce yourself in German.",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "de-hallo",
+      "front": "Hallo",
+      "back": "Hello",
+      "notes": "All-purpose greeting, fine at any time of day and in most situations.",
+      "tags": ["greeting"]
+    },
+    {
+      "id": "de-guten-morgen",
+      "front": "Guten Morgen",
+      "back": "Good morning",
+      "notes": "Used in the morning until roughly 11 a.m.",
+      "tags": ["greeting", "morning"]
+    },
+    {
+      "id": "de-guten-tag",
+      "front": "Guten Tag",
+      "back": "Good day / Hello",
+      "notes": "A polite, neutral greeting used during the day.",
+      "tags": ["greeting"]
+    },
+    {
+      "id": "de-guten-abend",
+      "front": "Guten Abend",
+      "back": "Good evening",
+      "notes": "Used in the evening.",
+      "tags": ["greeting", "evening"]
+    },
+    {
+      "id": "de-tschuss",
+      "front": "Tschüss",
+      "back": "Bye",
+      "notes": "Informal goodbye. Note the **ü** and the **ß**.",
+      "tags": ["farewell"]
+    },
+    {
+      "id": "de-auf-wiedersehen",
+      "front": "Auf Wiedersehen",
+      "back": "Goodbye",
+      "notes": "More formal farewell; literally \"until we see each other again\".",
+      "tags": ["farewell"]
+    },
+    {
+      "id": "de-danke",
+      "front": "Danke",
+      "back": "Thank you",
+      "notes": "Add *schön* (**Danke schön**) to say \"thank you very much\".",
+      "tags": ["politeness"]
+    },
+    {
+      "id": "de-bitte",
+      "front": "Bitte",
+      "back": "Please / You're welcome",
+      "notes": "Means both \"please\" and \"you're welcome\", depending on context.",
+      "tags": ["politeness"]
+    },
+    {
+      "id": "de-ja",
+      "front": "Ja",
+      "back": "Yes",
+      "notes": "Affirmative.",
+      "tags": ["basics"]
+    },
+    {
+      "id": "de-nein",
+      "front": "Nein",
+      "back": "No",
+      "notes": "Negative.",
+      "tags": ["basics"]
+    },
+    {
+      "id": "de-ich-heisse",
+      "front": "Ich heiße",
+      "back": "My name is",
+      "notes": "Literally \"I am called\". Followed by your name: *Ich heiße Anna.*",
+      "tags": ["introduction"]
+    },
+    {
+      "id": "de-wie-heisst-du",
+      "front": "Wie heißt du?",
+      "back": "What is your name?",
+      "notes": "Informal. The formal version is *Wie heißen Sie?*",
+      "tags": ["introduction", "question"]
+    },
+    {
+      "id": "de-freut-mich",
+      "front": "Freut mich",
+      "back": "Nice to meet you",
+      "notes": "Short for *Es freut mich* — \"it pleases me\".",
+      "tags": ["introduction"]
+    },
+    {
+      "id": "de-wie-gehts",
+      "front": "Wie geht's?",
+      "back": "How are you?",
+      "notes": "Informal. *Wie geht's?* is short for *Wie geht es dir?*",
+      "tags": ["introduction", "question"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l1-greetings-theory",
+      "type": "theory",
+      "title": "Saying hello and goodbye",
+      "body": "# Greetings\n\nGerman greetings often depend on the **time of day**:\n\n| German | English | When |\n|---|---|---|\n| **Guten Morgen** | Good morning | until ~11 a.m. |\n| **Guten Tag** | Good day / Hello | during the day |\n| **Guten Abend** | Good evening | in the evening |\n| **Hallo** | Hello | any time, informal |\n\nTo say goodbye, use **Tschüss** (informal) or **Auf Wiedersehen** (formal).\n\nNote the special letters: *Tschüss* has an **ü** and a **ß** (the \"sharp s\")."
+    },
+    {
+      "id": "l1-ex-match-greetings",
+      "type": "exercise",
+      "theory_ref": "l1-greetings-theory",
+      "title": "Match the greetings",
+      "exercise": {
+        "id": "l1-ex-match-greetings",
+        "type": "matching",
+        "prompt": "Match each German greeting with its English meaning.",
+        "card_ids": ["de-guten-morgen", "de-guten-tag", "de-guten-abend", "de-tschuss"],
+        "pairs": [
+          {"left": "Guten Morgen", "right": "Good morning"},
+          {"left": "Guten Tag", "right": "Good day / Hello"},
+          {"left": "Guten Abend", "right": "Good evening"},
+          {"left": "Tschüss", "right": "Bye"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l1-ex-free-thanks",
+      "type": "exercise",
+      "theory_ref": "l1-greetings-theory",
+      "title": "Say thank you",
+      "exercise": {
+        "id": "l1-ex-free-thanks",
+        "type": "free_text",
+        "prompt": "How do you say \"Thank you\" in German?",
+        "card_ids": ["de-danke"],
+        "accept": ["Danke", "danke", "Danke schön", "danke schön"],
+        "distractors": ["Bitte", "Hallo", "Tschüss"],
+        "hint": "Add *schön* to make it \"thank you very much\".",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l1-ex-free-yes",
+      "type": "exercise",
+      "theory_ref": "l1-greetings-theory",
+      "title": "Say yes",
+      "exercise": {
+        "id": "l1-ex-free-yes",
+        "type": "free_text",
+        "prompt": "How do you say \"Yes\" in German?",
+        "card_ids": ["de-ja"],
+        "accept": ["Ja", "ja"],
+        "distractors": ["Nein", "Bitte", "Danke"],
+        "hint": "Two letters.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l1-intro-theory",
+      "type": "theory",
+      "title": "Introducing yourself",
+      "body": "# Introducing yourself\n\nTo give your name, use **Ich heiße …** (literally *\"I am called …\"*):\n\n- **Ich heiße Anna.** — My name is Anna.\n\nTo ask someone's name:\n\n- **Wie heißt du?** — What's your name? *(informal)*\n- **Wie heißen Sie?** — What's your name? *(formal)*\n\nWhen you meet someone, reply with **Freut mich** (\"nice to meet you\"). To ask how someone is, say **Wie geht's?** (\"how are you?\")."
+    },
+    {
+      "id": "l1-ex-match-intro",
+      "type": "exercise",
+      "theory_ref": "l1-intro-theory",
+      "title": "Match the introductions",
+      "exercise": {
+        "id": "l1-ex-match-intro",
+        "type": "matching",
+        "prompt": "Match each German phrase with its English meaning.",
+        "card_ids": ["de-ich-heisse", "de-wie-heisst-du", "de-freut-mich", "de-wie-gehts"],
+        "pairs": [
+          {"left": "Ich heiße", "right": "My name is"},
+          {"left": "Wie heißt du?", "right": "What is your name?"},
+          {"left": "Freut mich", "right": "Nice to meet you"},
+          {"left": "Wie geht's?", "right": "How are you?"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l1-ex-cloze-name",
+      "type": "exercise",
+      "theory_ref": "l1-intro-theory",
+      "title": "Complete the introduction",
+      "exercise": {
+        "id": "l1-ex-cloze-name",
+        "type": "cloze",
+        "prompt": "Complete: \"My name is Anna.\"",
+        "card_ids": ["de-ich-heisse"],
+        "sentence": "Ich ___ Anna.",
+        "blanks": [{"accept": ["heiße", "heisse"]}],
+        "cloze_mode": "type",
+        "hint": "The verb means \"am called\"."
+      }
+    },
+    {
+      "id": "l1-ex-cloze-goodbye",
+      "type": "exercise",
+      "theory_ref": "l1-intro-theory",
+      "title": "Complete the farewell",
+      "exercise": {
+        "id": "l1-ex-cloze-goodbye",
+        "type": "cloze",
+        "prompt": "Complete the formal goodbye: \"Goodbye.\"",
+        "card_ids": ["de-auf-wiedersehen"],
+        "sentence": "Auf ___ !",
+        "blanks": [{"accept": ["Wiedersehen", "wiedersehen"]}],
+        "cloze_mode": "type",
+        "hint": "Literally \"until we see again\"."
+      }
+    },
+    {
+      "id": "l1-ex-tiles-intro",
+      "type": "exercise",
+      "theory_ref": "l1-intro-theory",
+      "title": "Build the question",
+      "exercise": {
+        "id": "l1-ex-tiles-intro",
+        "type": "word_tiles",
+        "prompt": "Arrange the tiles to ask: \"What is your name?\" (informal)",
+        "card_ids": ["de-wie-heisst-du"],
+        "tiles": ["Wie", "heißt", "du"],
+        "hint": "Question word first, then verb, then \"you\".",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l1-ex-free-hello",
+      "type": "exercise",
+      "theory_ref": "l1-intro-theory",
+      "title": "Greet someone",
+      "exercise": {
+        "id": "l1-ex-free-hello",
+        "type": "free_text",
+        "prompt": "Write an all-purpose German greeting for \"Hello\".",
+        "card_ids": ["de-hallo"],
+        "accept": ["Hallo", "hallo"],
+        "distractors": ["Tschüss", "Danke", "Bitte"],
+        "hint": "Works at any time of day.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

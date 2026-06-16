@@ -1,0 +1,355 @@
+{
+  "id": "10-travel-and-transport",
+  "title": "Travel and Transport",
+  "description": "Transport words and useful travel phrases in English, explained in Hindi.",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "hi-train",
+      "front": "Train",
+      "back": "रेलगाड़ी",
+      "notes": "Runs on rails.",
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "hi-bus",
+      "front": "Bus",
+      "back": "बस",
+      "notes": "A large road vehicle for many people.",
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "hi-car",
+      "front": "Car",
+      "back": "गाड़ी",
+      "notes": "A small road vehicle.",
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "hi-plane",
+      "front": "Plane",
+      "back": "हवाई जहाज़",
+      "notes": "Flies in the sky.",
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "hi-ticket",
+      "front": "Ticket",
+      "back": "टिकट",
+      "notes": "A paper that lets you travel.",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "hi-road",
+      "front": "Road",
+      "back": "सड़क",
+      "notes": "Where vehicles go.",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "hi-airport",
+      "front": "Airport",
+      "back": "हवाई अड्डा",
+      "notes": "Where planes land and take off.",
+      "tags": [
+        "travel",
+        "place"
+      ]
+    },
+    {
+      "id": "hi-luggage",
+      "front": "Luggage",
+      "back": "सामान",
+      "notes": "The bags you travel with.",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "id": "hi-where-bus",
+      "front": "Where is the bus?",
+      "back": "बस कहाँ है?",
+      "notes": "Asking where transport is.",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "hi-one-ticket",
+      "front": "One ticket, please.",
+      "back": "एक टिकट, कृपया।",
+      "notes": "Buying a ticket.",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "hi-go-airport",
+      "front": "I want to go to the airport.",
+      "back": "मुझे हवाई अड्डे जाना है।",
+      "notes": "Telling a driver where to go.",
+      "tags": [
+        "phrase"
+      ]
+    },
+    {
+      "id": "hi-stop-here",
+      "front": "Stop here, please.",
+      "back": "यहाँ रोकिए, कृपया।",
+      "notes": "Asking a driver to stop.",
+      "tags": [
+        "phrase"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l10-vehicles",
+      "type": "theory",
+      "title": "Transport words",
+      "body": "# Getting around\n\nWays to travel:\n\n- **Train** (रेलगाड़ी) · **Bus** (बस) · **Car** (गाड़ी) · **Plane** (हवाई जहाज़)\n- **Ticket** (टिकट) · **Road** (सड़क) · **Airport** (हवाई अड्डा) · **Luggage** (सामान)\n\nIn English we travel **by** a vehicle: *by train* (रेलगाड़ी से), *by bus* (बस से), *by car* (गाड़ी से). The word **by** does not change. One exception: we say *on foot* (पैदल), not *by foot*."
+    },
+    {
+      "id": "l10-ex-match-vehicles",
+      "type": "exercise",
+      "theory_ref": "l10-vehicles",
+      "title": "Match the transport words",
+      "exercise": {
+        "id": "l10-ex-match-vehicles",
+        "type": "matching",
+        "prompt": "Match each English transport word with its Hindi meaning.",
+        "card_ids": [
+          "hi-train",
+          "hi-bus",
+          "hi-car",
+          "hi-plane"
+        ],
+        "pairs": [
+          {
+            "left": "Train",
+            "right": "रेलगाड़ी"
+          },
+          {
+            "left": "Bus",
+            "right": "बस"
+          },
+          {
+            "left": "Car",
+            "right": "गाड़ी"
+          },
+          {
+            "left": "Plane",
+            "right": "हवाई जहाज़"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l10-ex-free-ticket",
+      "type": "exercise",
+      "theory_ref": "l10-vehicles",
+      "title": "Translate the word",
+      "exercise": {
+        "id": "l10-ex-free-ticket",
+        "type": "free_text",
+        "prompt": "Translate to English: टिकट",
+        "card_ids": [
+          "hi-ticket"
+        ],
+        "accept": [
+          "Ticket",
+          "ticket"
+        ],
+        "distractors": [
+          "Road",
+          "Bus",
+          "Luggage"
+        ],
+        "hint": "A paper that lets you travel.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l10-ex-match-travel",
+      "type": "exercise",
+      "theory_ref": "l10-vehicles",
+      "title": "Match more travel words",
+      "exercise": {
+        "id": "l10-ex-match-travel",
+        "type": "matching",
+        "prompt": "Match each English word with its Hindi meaning.",
+        "card_ids": [
+          "hi-ticket",
+          "hi-road",
+          "hi-airport",
+          "hi-luggage"
+        ],
+        "pairs": [
+          {
+            "left": "Ticket",
+            "right": "टिकट"
+          },
+          {
+            "left": "Road",
+            "right": "सड़क"
+          },
+          {
+            "left": "Airport",
+            "right": "हवाई अड्डा"
+          },
+          {
+            "left": "Luggage",
+            "right": "सामान"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l10-phrases",
+      "type": "theory",
+      "title": "Travel phrases",
+      "body": "# At the station\n\nPhrases that help you travel:\n\n| English | Hindi |\n|---|---|\n| Where is the bus? | बस कहाँ है? |\n| One ticket, please. | एक टिकट, कृपया। |\n| I want to go to the airport. | मुझे हवाई अड्डे जाना है। |\n| Stop here, please. | यहाँ रोकिए, कृपया। |\n\nTo tell a driver your destination, use **I want to go to the ...** : *I want to go to the airport* (मुझे हवाई अड्डे जाना है). End requests with **please** (कृपया) to stay polite."
+    },
+    {
+      "id": "l10-ex-cloze-bus",
+      "type": "exercise",
+      "theory_ref": "l10-phrases",
+      "title": "Complete the question",
+      "exercise": {
+        "id": "l10-ex-cloze-bus",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-where-bus"
+        ],
+        "sentence": "Where is the ___ ? (बस कहाँ है?)",
+        "blanks": [
+          {
+            "accept": [
+              "bus",
+              "Bus"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "A large road vehicle for many people."
+      }
+    },
+    {
+      "id": "l10-ex-tiles-airport",
+      "type": "exercise",
+      "theory_ref": "l10-phrases",
+      "title": "Build a sentence",
+      "exercise": {
+        "id": "l10-ex-tiles-airport",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: मुझे हवाई अड्डे जाना है। (I want to go to the airport.)",
+        "card_ids": [
+          "hi-go-airport"
+        ],
+        "tiles": [
+          "I",
+          "want",
+          "to",
+          "go",
+          "to",
+          "the",
+          "airport"
+        ],
+        "hint": "Order: I + want + to + go + to + the + airport.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l10-ex-free-stop",
+      "type": "exercise",
+      "theory_ref": "l10-phrases",
+      "title": "Ask the driver to stop",
+      "exercise": {
+        "id": "l10-ex-free-stop",
+        "type": "free_text",
+        "prompt": "Translate to English: यहाँ रोकिए, कृपया।",
+        "card_ids": [
+          "hi-stop-here"
+        ],
+        "accept": [
+          "Stop here, please.",
+          "Stop here please",
+          "Stop here, please",
+          "stop here, please."
+        ],
+        "distractors": [
+          "Where is the bus?",
+          "One ticket, please.",
+          "I want to go to the airport."
+        ],
+        "hint": "Stop + here + please.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l10-ex-cloze-ticket",
+      "type": "exercise",
+      "theory_ref": "l10-phrases",
+      "title": "Complete the request",
+      "exercise": {
+        "id": "l10-ex-cloze-ticket",
+        "type": "cloze",
+        "prompt": "Fill the blank in English.",
+        "card_ids": [
+          "hi-one-ticket"
+        ],
+        "sentence": "One ___ , please. (एक टिकट, कृपया।)",
+        "blanks": [
+          {
+            "accept": [
+              "ticket",
+              "Ticket"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "A paper that lets you travel."
+      }
+    },
+    {
+      "id": "l10-ex-free-airport",
+      "type": "exercise",
+      "theory_ref": "l10-phrases",
+      "title": "Translate the word",
+      "exercise": {
+        "id": "l10-ex-free-airport",
+        "type": "free_text",
+        "prompt": "Translate to English: हवाई अड्डा",
+        "card_ids": [
+          "hi-airport"
+        ],
+        "accept": [
+          "Airport",
+          "airport"
+        ],
+        "distractors": [
+          "Road",
+          "Station",
+          "Plane"
+        ],
+        "hint": "Where planes land and take off.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

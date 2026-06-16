@@ -1,0 +1,239 @@
+{
+  "id": "04-family",
+  "title": "Family",
+  "description": "Talk about family members in German.",
+  "estimated_minutes": 11,
+  "cards": [
+    {
+      "id": "de-die-familie",
+      "front": "die Familie",
+      "back": "the family",
+      "notes": "*Familie* is feminine.",
+      "tags": ["family"]
+    },
+    {
+      "id": "de-die-mutter",
+      "front": "die Mutter",
+      "back": "the mother",
+      "notes": "Informal: *die Mama* (mum).",
+      "tags": ["family", "feminine"]
+    },
+    {
+      "id": "de-der-vater",
+      "front": "der Vater",
+      "back": "the father",
+      "notes": "Informal: *der Papa* (dad).",
+      "tags": ["family", "masculine"]
+    },
+    {
+      "id": "de-die-schwester",
+      "front": "die Schwester",
+      "back": "the sister",
+      "notes": "*Schwester* is feminine.",
+      "tags": ["family", "feminine"]
+    },
+    {
+      "id": "de-der-bruder",
+      "front": "der Bruder",
+      "back": "the brother",
+      "notes": "*Bruder* is masculine.",
+      "tags": ["family", "masculine"]
+    },
+    {
+      "id": "de-die-oma",
+      "front": "die Oma",
+      "back": "the grandma",
+      "notes": "Affectionate word for grandmother. Formal: *die Großmutter*.",
+      "tags": ["family", "feminine"]
+    },
+    {
+      "id": "de-der-opa",
+      "front": "der Opa",
+      "back": "the grandpa",
+      "notes": "Affectionate word for grandfather. Formal: *der Großvater*.",
+      "tags": ["family", "masculine"]
+    },
+    {
+      "id": "de-die-tochter",
+      "front": "die Tochter",
+      "back": "the daughter",
+      "notes": "*Tochter* is feminine.",
+      "tags": ["family", "feminine"]
+    },
+    {
+      "id": "de-der-sohn",
+      "front": "der Sohn",
+      "back": "the son",
+      "notes": "*Sohn* is masculine.",
+      "tags": ["family", "masculine"]
+    },
+    {
+      "id": "de-die-eltern",
+      "front": "die Eltern",
+      "back": "the parents",
+      "notes": "Plural noun; always used in the plural.",
+      "tags": ["family", "plural"]
+    },
+    {
+      "id": "de-mein-bruder",
+      "front": "mein Bruder",
+      "back": "my brother",
+      "notes": "**mein** (my) is used with masculine and neuter nouns.",
+      "tags": ["family", "possessive"]
+    },
+    {
+      "id": "de-meine-schwester",
+      "front": "meine Schwester",
+      "back": "my sister",
+      "notes": "**meine** (my) is used with feminine and plural nouns.",
+      "tags": ["family", "possessive"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l4-family-theory",
+      "type": "theory",
+      "title": "Family members",
+      "body": "# Die Familie — the family\n\n| German | English |\n|---|---|\n| **die Mutter** | the mother |\n| **der Vater** | the father |\n| **die Schwester** | the sister |\n| **der Bruder** | the brother |\n| **die Oma** | the grandma |\n| **der Opa** | the grandpa |\n| **die Eltern** | the parents *(plural)* |\n\nNotice the articles: female family members take **die**, male members take **der**. Remember that all nouns are written with a **capital letter**."
+    },
+    {
+      "id": "l4-possessive-theory",
+      "type": "theory",
+      "title": "Saying \"my\"",
+      "body": "# mein / meine — my\n\nThe word for *my* changes with the gender of the noun:\n\n- **mein** + masculine or neuter: *mein Bruder* (my brother), *mein Kind* (my child)\n- **meine** + feminine or plural: *meine Schwester* (my sister), *meine Eltern* (my parents)\n\nSo: **mein Vater** but **meine Mutter**."
+    },
+    {
+      "id": "l4-ex-match-family",
+      "type": "exercise",
+      "theory_ref": "l4-family-theory",
+      "title": "Match family members",
+      "exercise": {
+        "id": "l4-ex-match-family",
+        "type": "matching",
+        "prompt": "Match each German word with its English meaning.",
+        "card_ids": ["de-die-mutter", "de-der-vater", "de-die-schwester", "de-der-bruder"],
+        "pairs": [
+          {"left": "die Mutter", "right": "the mother"},
+          {"left": "der Vater", "right": "the father"},
+          {"left": "die Schwester", "right": "the sister"},
+          {"left": "der Bruder", "right": "the brother"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l4-ex-match-grandparents",
+      "type": "exercise",
+      "theory_ref": "l4-family-theory",
+      "title": "Match more family",
+      "exercise": {
+        "id": "l4-ex-match-grandparents",
+        "type": "matching",
+        "prompt": "Match each German word with its English meaning.",
+        "card_ids": ["de-die-oma", "de-der-opa", "de-die-tochter", "de-der-sohn"],
+        "pairs": [
+          {"left": "die Oma", "right": "the grandma"},
+          {"left": "der Opa", "right": "the grandpa"},
+          {"left": "die Tochter", "right": "the daughter"},
+          {"left": "der Sohn", "right": "the son"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l4-ex-free-mother",
+      "type": "exercise",
+      "theory_ref": "l4-family-theory",
+      "title": "Write the word",
+      "exercise": {
+        "id": "l4-ex-free-mother",
+        "type": "free_text",
+        "prompt": "Write the German for \"the mother\" (article + noun).",
+        "card_ids": ["de-die-mutter"],
+        "accept": ["die Mutter", "Die Mutter", "Mutter"],
+        "distractors": ["der Mutter", "das Mutter", "die Vater"],
+        "hint": "Female members take *die*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l4-ex-free-brother",
+      "type": "exercise",
+      "theory_ref": "l4-family-theory",
+      "title": "Write the word",
+      "exercise": {
+        "id": "l4-ex-free-brother",
+        "type": "free_text",
+        "prompt": "Write the German for \"the brother\" (article + noun).",
+        "card_ids": ["de-der-bruder"],
+        "accept": ["der Bruder", "Der Bruder", "Bruder"],
+        "distractors": ["die Bruder", "das Bruder", "der Schwester"],
+        "hint": "Male members take *der*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l4-ex-cloze-my-sister",
+      "type": "exercise",
+      "theory_ref": "l4-family-theory",
+      "title": "Complete with \"my\"",
+      "exercise": {
+        "id": "l4-ex-cloze-my-sister",
+        "type": "cloze",
+        "prompt": "Complete: \"my sister\". (Schwester is feminine.)",
+        "card_ids": ["de-meine-schwester"],
+        "sentence": "___ Schwester",
+        "blanks": [{"accept": ["meine", "Meine"]}],
+        "cloze_mode": "type",
+        "hint": "Feminine nouns take *meine*."
+      }
+    },
+    {
+      "id": "l4-ex-cloze-my-brother",
+      "type": "exercise",
+      "theory_ref": "l4-family-theory",
+      "title": "Complete with \"my\"",
+      "exercise": {
+        "id": "l4-ex-cloze-my-brother",
+        "type": "cloze",
+        "prompt": "Complete: \"my brother\". (Bruder is masculine.)",
+        "card_ids": ["de-mein-bruder"],
+        "sentence": "___ Bruder",
+        "blanks": [{"accept": ["mein", "Mein"]}],
+        "cloze_mode": "type",
+        "hint": "Masculine nouns take *mein*."
+      }
+    },
+    {
+      "id": "l4-ex-tiles-my-family",
+      "type": "exercise",
+      "theory_ref": "l4-family-theory",
+      "title": "Build the sentence",
+      "exercise": {
+        "id": "l4-ex-tiles-my-family",
+        "type": "word_tiles",
+        "prompt": "Arrange the tiles to mean \"My father is here.\"",
+        "card_ids": ["de-der-vater"],
+        "tiles": ["Mein", "Vater", "ist", "hier"],
+        "hint": "Possessive, noun, verb, then \"here\".",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l4-ex-free-parents",
+      "type": "exercise",
+      "theory_ref": "l4-family-theory",
+      "title": "Write the word",
+      "exercise": {
+        "id": "l4-ex-free-parents",
+        "type": "free_text",
+        "prompt": "Write the German for \"the parents\" (article + noun).",
+        "card_ids": ["de-die-eltern"],
+        "accept": ["die Eltern", "Die Eltern", "Eltern"],
+        "distractors": ["der Eltern", "das Eltern", "die Familie"],
+        "hint": "A plural noun; plural takes *die*.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
