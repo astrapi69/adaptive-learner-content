@@ -1,0 +1,230 @@
+{
+  "id": "10-ki-teamarbeit",
+  "title": "KI im Team",
+  "description": "Wie künstliche Intelligenz die Zusammenarbeit im Team unterstützt — von Protokollen über Projektmanagement und Wissensdatenbanken bis zum verantwortungsvollen Einsatz.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "teamkommunikation",
+      "front": "Teamkommunikation mit KI",
+      "back": "Die KI hilft, Nachrichten klar zu formulieren, Protokolle zu schreiben und Informationen verständlich weiterzugeben.",
+      "notes": "Klare Kommunikation spart dem ganzen Team Zeit.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["team", "kommunikation"]
+    },
+    {
+      "id": "meeting-protokoll",
+      "front": "Meeting-Protokoll",
+      "back": "Eine Zusammenfassung eines Meetings mit den wichtigsten Punkten und Aufgaben, die die KI aus Notizen erstellen kann.",
+      "notes": "Hält Ergebnisse und nächste Schritte fest.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["team", "protokoll"]
+    },
+    {
+      "id": "wissensdatenbank",
+      "front": "Wissensdatenbank",
+      "back": "Eine durchsuchbare Sammlung von Dokumenten und Antworten (z. B. FAQ), in der die KI schnell die passende Information findet.",
+      "notes": "Macht Wissen für das ganze Team auffindbar.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["team", "wissen"]
+    },
+    {
+      "id": "team-brainstorming",
+      "front": "Team-Brainstorming",
+      "back": "Das gemeinsame Sammeln von Ideen, bei dem die KI zusätzliche Vorschläge liefert und Ideen ordnet.",
+      "notes": "Die KI erweitert die Ideen des Teams, ersetzt sie aber nicht.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["team", "ideen"]
+    },
+    {
+      "id": "verantwortungsvoller-einsatz",
+      "front": "Verantwortungsvoller KI-Einsatz",
+      "back": "KI bewusst nutzen: Datenschutz beachten, Ergebnisse prüfen und sie nicht blind für vertrauliche oder sensible Entscheidungen einsetzen.",
+      "notes": "Bei vertraulichen Daten und Personalentscheidungen ist Vorsicht geboten.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["team", "verantwortung"]
+    },
+    {
+      "id": "projektmanagement",
+      "front": "Projektmanagement mit KI",
+      "back": "Die KI hilft, Aufgaben zu verteilen, den Status zu verfolgen und nächste Schritte zu planen.",
+      "notes": "Gut für den Überblick, wer was bis wann macht.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["team", "planung"]
+    },
+    {
+      "id": "ergebnisse-pruefen",
+      "front": "Ergebnisse prüfen",
+      "back": "KI-Ausgaben immer kontrollieren, bevor man sie verwendet — die KI kann sich irren oder veraltete Informationen liefern.",
+      "notes": "Der Mensch trägt die Verantwortung für das Endergebnis.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["team", "verantwortung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "KI als Helfer für die Zusammenarbeit",
+      "body": "# KI im Team\n\nIm Team entsteht viel **Kommunikation** und **Organisation** — und genau hier kann KI helfen. Sie schreibt **Protokolle**, formuliert **klare Nachrichten**, verteilt **Aufgaben** und macht **Wissen** auffindbar.\n\nTypische Einsätze:\n\n- **Teamkommunikation** — Nachrichten klar und freundlich formulieren.\n- **Meeting-Protokolle** — aus Notizen eine geordnete Zusammenfassung.\n- **Projektmanagement** — Aufgaben verteilen und den Status verfolgen.\n- **Wissensdatenbank** — Dokumente und FAQ durchsuchbar machen.\n\nSo bleibt mehr Zeit für die eigentliche Teamarbeit."
+    },
+    {
+      "id": "step-einsatzfelder",
+      "type": "theory",
+      "title": "Wo KI im Team unterstützt",
+      "body": "## Aufgaben und passende KI-Hilfe\n\nFür jede Team-Aufgabe gibt es einen passenden KI-Einsatz:\n\n| Team-Aufgabe | KI-Hilfe | Beispiel-Prompt |\n|---|---|---|\n| **Meeting festhalten** | Protokoll erstellen | „Fasse diese Notizen als Protokoll zusammen.“ |\n| **Aufgaben verteilen** | Projektmanagement | „Erstelle eine Aufgabenliste mit Verantwortlichen.“ |\n| **Ideen sammeln** | Team-Brainstorming | „Gib uns zehn Ideen für unser Projekt.“ |\n| **Wissen finden** | Wissensdatenbank | „Suche die Antwort in unserer Doku.“ |\n\nDer richtige **Prompt** macht den Unterschied: Je klarer du sagst, was du brauchst, desto nützlicher die Antwort."
+    },
+    {
+      "id": "step-verantwortung",
+      "type": "theory",
+      "title": "Verantwortungsvoller Einsatz im Team",
+      "body": "## KI verantwortungsvoll nutzen\n\nGerade im Team gilt: KI ist eine Hilfe, kein Ersatz für menschliches Urteil. Drei Regeln:\n\n- **Datenschutz beachten** — keine vertraulichen oder personenbezogenen Daten ohne Erlaubnis eingeben.\n- **Ergebnisse prüfen** — KI kann sich irren; kontrolliere, bevor du etwas verwendest.\n- **Nicht blind entscheiden** — bei **sensiblen Personalentscheidungen** oder **vertraulichen Informationen** entscheidet der Mensch.\n\n> Merke: Beim **Brainstorming** oder **Protokollieren** ist KI sehr nützlich — bei **vertraulichen Daten** und **sensiblen Personalentscheidungen** solltest du sie nicht allein einsetzen."
+    },
+    {
+      "id": "ex-match-teamaufgaben",
+      "type": "exercise",
+      "theory_ref": "step-einsatzfelder",
+      "title": "Team-Aufgabe und KI-Prompt",
+      "exercise": {
+        "id": "ex-match-teamaufgaben",
+        "type": "matching",
+        "prompt": "Ordne jeder Team-Aufgabe den passenden KI-Prompt zu.",
+        "card_ids": ["meeting-protokoll", "projektmanagement", "team-brainstorming", "wissensdatenbank"],
+        "pairs": [
+          { "left": "Meeting festhalten", "right": "Fasse diese Notizen als Protokoll zusammen." },
+          { "left": "Aufgaben verteilen", "right": "Erstelle eine Aufgabenliste mit Verantwortlichen." },
+          { "left": "Ideen sammeln", "right": "Gib uns zehn Ideen für unser Projekt." },
+          { "left": "Wissen finden", "right": "Suche die Antwort in unserer Doku." }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-nicht-einsetzen",
+      "type": "exercise",
+      "theory_ref": "step-verantwortung",
+      "title": "Wann KI lieber nicht?",
+      "exercise": {
+        "id": "ex-free-nicht-einsetzen",
+        "type": "free_text",
+        "prompt": "Wann sollte man KI im Team eher NICHT (allein) einsetzen?",
+        "card_ids": ["verantwortungsvoller-einsatz"],
+        "accept": ["bei vertraulichen Daten", "bei sensiblen Personalentscheidungen", "bei vertraulichen Informationen"],
+        "hint": "Denke an Datenschutz und sensible Entscheidungen über Personen.",
+        "distractors": ["beim Protokollieren", "beim Brainstorming"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-protokoll",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Das Meeting festhalten",
+      "exercise": {
+        "id": "ex-cloze-protokoll",
+        "type": "cloze",
+        "prompt": "Ergänze, was die KI aus den Meeting-Notizen erstellt.",
+        "card_ids": ["meeting-protokoll"],
+        "sentence": "Aus den Notizen eines Meetings erstellt die KI ein ___ mit den wichtigsten Punkten.",
+        "blanks": [
+          { "accept": ["Protokoll", "protokoll", "Meeting-Protokoll"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Hält Ergebnisse und nächste Schritte fest."
+      }
+    },
+    {
+      "id": "ex-tiles-verantwortung",
+      "type": "exercise",
+      "theory_ref": "step-verantwortung",
+      "title": "Regel für den KI-Einsatz",
+      "exercise": {
+        "id": "ex-tiles-verantwortung",
+        "type": "word_tiles",
+        "prompt": "Setze die Regel für den verantwortungsvollen KI-Einsatz zusammen.",
+        "card_ids": ["verantwortungsvoller-einsatz", "ergebnisse-pruefen"],
+        "tiles": ["Prüfe", "die", "Ergebnisse", "und", "beachte", "den", "Datenschutz"],
+        "hint": "Beginnt mit „Prüfe die Ergebnisse …“.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-wissensdatenbank",
+      "type": "exercise",
+      "theory_ref": "step-einsatzfelder",
+      "title": "Wissen auffindbar machen",
+      "exercise": {
+        "id": "ex-free-wissensdatenbank",
+        "type": "free_text",
+        "prompt": "Wie nennt man eine durchsuchbare Sammlung von Dokumenten und Antworten, in der die KI Informationen findet?",
+        "card_ids": ["wissensdatenbank"],
+        "accept": ["Wissensdatenbank", "wissensdatenbank", "Wissens-Datenbank", "FAQ"],
+        "hint": "Hier findet das Team Antworten und Doku.",
+        "distractors": ["Spamfilter", "Bildschirmschoner", "Druckertreiber"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-einsatz",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "KI-Einsatz im Team",
+      "exercise": {
+        "id": "ex-match-einsatz",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine Bedeutung zu.",
+        "card_ids": ["teamkommunikation", "wissensdatenbank", "projektmanagement", "ergebnisse-pruefen"],
+        "pairs": [
+          { "left": "Teamkommunikation", "right": "Nachrichten klar formulieren" },
+          { "left": "Wissensdatenbank", "right": "Doku durchsuchbar machen" },
+          { "left": "Projektmanagement", "right": "Aufgaben verteilen und Status verfolgen" },
+          { "left": "Ergebnisse prüfen", "right": "KI-Ausgaben vor Gebrauch kontrollieren" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-pruefen",
+      "type": "exercise",
+      "theory_ref": "step-verantwortung",
+      "title": "Immer kontrollieren",
+      "exercise": {
+        "id": "ex-cloze-pruefen",
+        "type": "cloze",
+        "prompt": "Ergänze, was man mit KI-Ergebnissen tun sollte, bevor man sie verwendet.",
+        "card_ids": ["ergebnisse-pruefen"],
+        "sentence": "KI-Ergebnisse sollte man immer ___, denn die KI kann sich irren.",
+        "blanks": [
+          { "accept": ["prüfen", "kontrollieren", "überprüfen"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Der Mensch trägt die Verantwortung für das Endergebnis."
+      }
+    },
+    {
+      "id": "ex-tiles-brainstorming",
+      "type": "exercise",
+      "theory_ref": "step-einsatzfelder",
+      "title": "Ideen im Team",
+      "exercise": {
+        "id": "ex-tiles-brainstorming",
+        "type": "word_tiles",
+        "prompt": "Setze einen Prompt für das Team-Brainstorming zusammen.",
+        "card_ids": ["team-brainstorming"],
+        "tiles": ["Gib", "uns", "zehn", "Ideen", "für", "unser", "Projekt"],
+        "hint": "Beginnt mit „Gib uns zehn Ideen …“.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

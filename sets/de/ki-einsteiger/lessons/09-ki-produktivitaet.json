@@ -1,0 +1,231 @@
+{
+  "id": "09-ki-produktivitaet",
+  "title": "KI und Produktivität",
+  "description": "Wie künstliche Intelligenz beim Zeit- und Aufgabenmanagement hilft — E-Mails entwerfen, Texte zusammenfassen, SMART-Ziele setzen und die Informationsflut bewältigen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "aufgabenmanagement",
+      "front": "Aufgabenmanagement mit KI",
+      "back": "Die KI hilft, Aufgaben zu ordnen, in Schritte zu zerlegen und einen realistischen Plan zu erstellen.",
+      "notes": "Gut, um große Vorhaben in kleine, machbare Schritte zu teilen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["produktivitaet", "planung"]
+    },
+    {
+      "id": "zusammenfassung",
+      "front": "Zusammenfassung",
+      "back": "Die KI fasst lange Texte in wenigen Sätzen zusammen und hebt das Wichtigste hervor.",
+      "notes": "Spart Zeit beim Lesen langer Berichte oder Artikel.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["produktivitaet", "text"]
+    },
+    {
+      "id": "email-entwurf",
+      "front": "E-Mail-Entwurf",
+      "back": "Die KI formuliert auf Stichworte hin eine vollständige E-Mail, die man danach nur noch anpassen muss.",
+      "notes": "Hilft, schneller mit dem Schreiben anzufangen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["produktivitaet", "kommunikation"]
+    },
+    {
+      "id": "smart-ziel",
+      "front": "SMART-Ziel",
+      "back": "Ein gut formuliertes Ziel: Spezifisch, Messbar, Attraktiv, Realistisch und Terminiert.",
+      "notes": "SMART = Spezifisch, Messbar, Attraktiv (Akzeptiert), Realistisch, Terminiert.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["produktivitaet", "ziele"]
+    },
+    {
+      "id": "priorisierung",
+      "front": "Priorisierung",
+      "back": "Das Ordnen von Aufgaben nach Wichtigkeit und Dringlichkeit — die KI hilft, das Wesentliche zuerst zu erledigen.",
+      "notes": "Hilft gegen die Informationsflut: filtern, zusammenfassen, priorisieren.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["produktivitaet", "planung"]
+    },
+    {
+      "id": "automatisierung",
+      "front": "Einfache Automatisierung",
+      "back": "Wiederkehrende Aufgaben mit KI-Hilfe ablaufen lassen, etwa Standardantworten oder Textbausteine erstellen.",
+      "notes": "Spart Zeit bei Routineaufgaben.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["produktivitaet", "automatisierung"]
+    },
+    {
+      "id": "informationsflut",
+      "front": "Informationsflut bewältigen",
+      "back": "Mit zu vielen Informationen umgehen, indem die KI sie filtert, zusammenfasst und nach Wichtigkeit ordnet.",
+      "notes": "Drei Schritte: filtern, zusammenfassen, priorisieren.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["produktivitaet", "information"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "KI als Produktivitäts-Helfer",
+      "body": "# KI und Produktivität\n\nKI kann viele kleine, lästige Aufgaben abnehmen und so **Zeit** freischaufeln. Sie hilft beim **Planen**, beim **Schreiben** und beim **Ordnen** von Informationen.\n\nTypische Einsätze:\n\n- **E-Mails entwerfen** — aus Stichworten wird ein fertiger Text.\n- **Texte zusammenfassen** — lange Berichte in wenige Sätze.\n- **Aufgaben planen** — große Vorhaben in kleine Schritte zerlegen.\n- **Priorisieren** — das Wichtigste zuerst erkennen.\n\nSo bleibt mehr Zeit für die Dinge, die wirklich deine Aufmerksamkeit brauchen."
+    },
+    {
+      "id": "step-smart",
+      "type": "theory",
+      "title": "Ziele setzen mit SMART",
+      "body": "## SMART-Ziele\n\nGute Ziele sind klar formuliert. Dafür gibt es die **SMART**-Formel:\n\n| Buchstabe | Bedeutung | Frage |\n|---|---|---|\n| **S** | Spezifisch | Was genau will ich erreichen? |\n| **M** | Messbar | Woran erkenne ich den Erfolg? |\n| **A** | Attraktiv (Akzeptiert) | Will ich es wirklich? |\n| **R** | Realistisch | Ist es machbar? |\n| **T** | Terminiert | Bis wann? |\n\nDie KI kann helfen, ein vages Vorhaben in ein **SMART-Ziel** umzuformulieren — etwa aus „Ich will fitter werden“ ein „Ich gehe drei Monate lang zweimal pro Woche joggen“."
+    },
+    {
+      "id": "step-informationsflut",
+      "type": "theory",
+      "title": "Informationsflut bewältigen",
+      "body": "## Den Überblick behalten\n\nWir bekommen täglich mehr Informationen, als wir lesen können. KI hilft in **drei Schritten**:\n\n1. **Filtern** — Unwichtiges aussortieren.\n2. **Zusammenfassen** — das Wesentliche in wenige Sätze bringen.\n3. **Priorisieren** — nach Wichtigkeit und Dringlichkeit ordnen.\n\nAuch einfache **Automatisierung** gehört dazu: wiederkehrende Aufgaben wie Standardantworten oder Textbausteine lässt du dir von der KI vorbereiten.\n\n> Merke: KI nimmt dir die Routine ab — die Entscheidung, was wichtig ist, triffst du."
+    },
+    {
+      "id": "ex-match-aufgaben",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Aufgabe und KI-Einsatz",
+      "exercise": {
+        "id": "ex-match-aufgaben",
+        "type": "matching",
+        "prompt": "Ordne jeder Aufgabe den besten KI-Einsatz zu.",
+        "card_ids": ["email-entwurf", "zusammenfassung", "priorisierung", "aufgabenmanagement"],
+        "pairs": [
+          { "left": "Eine E-Mail schreiben", "right": "E-Mail-Entwurf erstellen" },
+          { "left": "Einen langen Bericht lesen", "right": "Text zusammenfassen lassen" },
+          { "left": "Zu viele Aufgaben", "right": "nach Wichtigkeit priorisieren" },
+          { "left": "Großes Projekt starten", "right": "in kleine Schritte zerlegen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-smart",
+      "type": "exercise",
+      "theory_ref": "step-smart",
+      "title": "Wofür steht SMART?",
+      "exercise": {
+        "id": "ex-cloze-smart",
+        "type": "cloze",
+        "prompt": "Ergänze die fehlenden Begriffe der SMART-Formel.",
+        "card_ids": ["smart-ziel"],
+        "sentence": "SMART steht für Spezifisch, ___, Attraktiv, Realistisch und ___ .",
+        "blanks": [
+          { "accept": ["Messbar"] },
+          { "accept": ["Terminiert", "terminiert"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "M steht für „woran erkenne ich den Erfolg?“, T für „bis wann?“."
+      }
+    },
+    {
+      "id": "ex-free-zusammenfassung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lange Texte kürzen",
+      "exercise": {
+        "id": "ex-free-zusammenfassung",
+        "type": "free_text",
+        "prompt": "Wie nennt man es, wenn die KI einen langen Text in wenige Sätze bringt?",
+        "card_ids": ["zusammenfassung"],
+        "accept": ["Zusammenfassung", "zusammenfassung", "zusammenfassen", "Zusammenfassen"],
+        "hint": "Das Wichtigste in Kurzform.",
+        "distractors": ["Übersetzung", "Verlängerung", "Verschlüsselung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-informationsflut",
+      "type": "exercise",
+      "theory_ref": "step-informationsflut",
+      "title": "Drei Schritte gegen die Flut",
+      "exercise": {
+        "id": "ex-tiles-informationsflut",
+        "type": "word_tiles",
+        "prompt": "Setze die drei Schritte gegen die Informationsflut in die richtige Reihenfolge.",
+        "card_ids": ["informationsflut"],
+        "tiles": ["Filtern", "Zusammenfassen", "Priorisieren"],
+        "hint": "Erst aussortieren, dann kürzen, dann ordnen.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-email",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Schneller mit E-Mails",
+      "exercise": {
+        "id": "ex-free-email",
+        "type": "free_text",
+        "prompt": "Wie nennt man den von der KI vorformulierten Text, den man danach nur noch anpasst?",
+        "card_ids": ["email-entwurf"],
+        "accept": ["E-Mail-Entwurf", "Entwurf", "entwurf", "E-Mail Entwurf"],
+        "hint": "Eine erste Fassung der Nachricht.",
+        "distractors": ["Spamfilter", "Posteingang", "Unterschrift"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-smart",
+      "type": "exercise",
+      "theory_ref": "step-smart",
+      "title": "SMART im Detail",
+      "exercise": {
+        "id": "ex-match-smart",
+        "type": "matching",
+        "prompt": "Ordne jedem SMART-Buchstaben seine Bedeutung zu.",
+        "card_ids": ["smart-ziel"],
+        "pairs": [
+          { "left": "S", "right": "Spezifisch" },
+          { "left": "M", "right": "Messbar" },
+          { "left": "R", "right": "Realistisch" },
+          { "left": "T", "right": "Terminiert" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-priorisierung",
+      "type": "exercise",
+      "theory_ref": "step-informationsflut",
+      "title": "Das Wichtigste zuerst",
+      "exercise": {
+        "id": "ex-cloze-priorisierung",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für das Ordnen von Aufgaben nach Wichtigkeit.",
+        "card_ids": ["priorisierung"],
+        "sentence": "Aufgaben nach Wichtigkeit und Dringlichkeit zu ordnen nennt man ___ .",
+        "blanks": [
+          { "accept": ["Priorisierung", "priorisierung", "Priorisieren", "priorisieren"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Wesentliche kommt zuerst."
+      }
+    },
+    {
+      "id": "ex-tiles-merksatz",
+      "type": "exercise",
+      "theory_ref": "step-informationsflut",
+      "title": "Merksatz zur Produktivität",
+      "exercise": {
+        "id": "ex-tiles-merksatz",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": ["automatisierung", "priorisierung"],
+        "tiles": ["KI", "nimmt", "die", "Routine", "ab", "du", "entscheidest", "was", "wichtig", "ist"],
+        "hint": "Beginnt mit: KI nimmt die Routine ab …",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

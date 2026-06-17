@@ -1,0 +1,225 @@
+{
+  "id": "12-ki-ethik-verantwortung",
+  "title": "KI-Ethik und Verantwortung",
+  "description": "Wie man KI verantwortungsvoll nutzt: Datenschutz beachten, Halluzinationen erkennen, Verzerrungen hinterfragen und die menschliche Kontrolle behalten.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "datenschutz",
+      "front": "Datenschutz",
+      "back": "Keine sensiblen oder persönlichen Daten unbedacht in eine KI eingeben — Eingaben können gespeichert oder weiterverarbeitet werden.",
+      "notes": "Im Zweifel keine Namen, Passwörter oder vertrauliche Inhalte eingeben.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["ethik", "datenschutz"]
+    },
+    {
+      "id": "halluzination",
+      "front": "Halluzination",
+      "back": "Wenn eine KI plausibel klingende, aber falsche Angaben erfindet — etwa erfundene Fakten, Zahlen oder Quellen.",
+      "notes": "Deshalb gilt: Wichtige Angaben immer nachprüfen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["ethik", "risiko"]
+    },
+    {
+      "id": "bias",
+      "front": "Bias (Verzerrung)",
+      "back": "Eine KI kann Vorurteile aus ihren Trainingsdaten übernehmen und so verzerrte oder einseitige Ergebnisse liefern.",
+      "notes": "Englisch: bias. Ergebnisse kritisch hinterfragen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["ethik", "risiko"]
+    },
+    {
+      "id": "faktencheck",
+      "front": "Faktencheck",
+      "back": "Das Überprüfen von KI-Antworten anhand verlässlicher Quellen, besonders bei Fakten, Zahlen und Quellenangaben.",
+      "notes": "Vertraue keiner Angabe blind, nur weil sie überzeugend klingt.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["ethik", "gegenmassnahme"]
+    },
+    {
+      "id": "menschliche-kontrolle",
+      "front": "Menschliche Kontrolle",
+      "back": "KI ist ein Werkzeug, kein Ersatz für das eigene Urteil. Der Mensch überprüft die Ergebnisse und verantwortet die Entscheidung.",
+      "notes": "Die letzte Entscheidung sollte immer beim Menschen liegen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["ethik", "verantwortung"]
+    },
+    {
+      "id": "werkzeug-kein-ersatz",
+      "front": "KI als Werkzeug",
+      "back": "KI unterstützt das eigene Denken, ersetzt es aber nicht. Das eigene Urteil bleibt wichtig.",
+      "notes": "Werkzeug statt Autopilot.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["ethik", "verantwortung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-ethik",
+      "type": "theory",
+      "title": "KI verantwortungsvoll nutzen",
+      "body": "# KI-Ethik und Verantwortung\n\nKI ist ein mächtiges Werkzeug — aber sie nimmt uns die **Verantwortung** nicht ab. Wer KI nutzt, sollte ein paar Grundregeln kennen.\n\nDie wichtigsten Punkte:\n\n- **Datenschutz** — keine sensiblen oder persönlichen Daten unbedacht eingeben.\n- **Halluzinationen** — KI erfindet manchmal falsche, aber überzeugend klingende Angaben.\n- **Bias (Verzerrung)** — KI kann Vorurteile aus den Trainingsdaten übernehmen.\n- **Menschliche Kontrolle** — Ergebnisse überprüfen und selbst verantworten.\n\nKurz gesagt: **KI ist ein Werkzeug, kein Ersatz für das eigene Urteil.**"
+    },
+    {
+      "id": "step-risiken",
+      "type": "theory",
+      "title": "Risiken und wie man ihnen begegnet",
+      "body": "## Drei typische Risiken\n\nDie folgende Tabelle zeigt häufige Risiken und die passende **Gegenmaßnahme**:\n\n| Risiko | Was passiert | Gegenmaßnahme |\n|---|---|---|\n| **Halluzination** | KI erfindet falsche Fakten oder Quellen | wichtige Angaben **prüfen** |\n| **Datenschutz** | sensible Daten gelangen in das System | **keine sensiblen Daten** eingeben |\n| **Bias** | Vorurteile aus den Trainingsdaten | Ergebnisse **kritisch hinterfragen** |\n\nBesonders bei **Fakten, Zahlen und Quellen** lohnt sich ein Faktencheck: Eine KI-Antwort kann sehr sicher klingen und trotzdem falsch sein."
+    },
+    {
+      "id": "step-kontrolle",
+      "type": "theory",
+      "title": "Die Kontrolle behalten",
+      "body": "## Der Mensch entscheidet\n\nKI kann Vorschläge machen, Texte entwerfen und Daten ordnen. Doch die **Verantwortung** bleibt beim Menschen.\n\nDeshalb gilt:\n\n- **Überprüfen** — Ergebnisse nicht blind übernehmen.\n- **Hinterfragen** — Klingt das plausibel? Gibt es eine verlässliche Quelle?\n- **Verantworten** — Wer ein Ergebnis nutzt, steht auch dafür gerade.\n\nSo bleibt KI ein **hilfreiches Werkzeug**, und das eigene Urteil bleibt der Maßstab."
+    },
+    {
+      "id": "ex-free-immer-korrekt",
+      "type": "exercise",
+      "theory_ref": "step-risiken",
+      "title": "Sind KI-Antworten immer korrekt?",
+      "exercise": {
+        "id": "ex-free-immer-korrekt",
+        "type": "free_text",
+        "prompt": "Richtig oder falsch: KI-Antworten sind immer korrekt.",
+        "card_ids": ["halluzination", "faktencheck"],
+        "accept": ["falsch", "Falsch", "nein"],
+        "hint": "Denke an Halluzinationen — KI kann auch Falsches erfinden.",
+        "distractors": ["richtig", "wahr", "immer"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-risiko-gegenmassnahme",
+      "type": "exercise",
+      "theory_ref": "step-risiken",
+      "title": "Risiko und Gegenmaßnahme",
+      "exercise": {
+        "id": "ex-match-risiko-gegenmassnahme",
+        "type": "matching",
+        "prompt": "Ordne jedem Risiko die passende Gegenmaßnahme zu.",
+        "card_ids": ["halluzination", "datenschutz", "bias"],
+        "pairs": [
+          { "left": "Halluzination", "right": "Fakten prüfen" },
+          { "left": "Datenschutz", "right": "keine sensiblen Daten eingeben" },
+          { "left": "Bias (Verzerrung)", "right": "Ergebnisse kritisch hinterfragen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-halluzination",
+      "type": "exercise",
+      "theory_ref": "step-risiken",
+      "title": "Wenn KI Fakten erfindet",
+      "exercise": {
+        "id": "ex-cloze-halluzination",
+        "type": "cloze",
+        "prompt": "Ergänze den Fachbegriff für erfundene KI-Angaben.",
+        "card_ids": ["halluzination"],
+        "sentence": "Wenn eine KI Fakten erfindet, spricht man von einer ___",
+        "blanks": [
+          { "accept": ["Halluzination", "Halluzinationen"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Der Begriff kommt eigentlich aus der Wahrnehmung — die KI sieht etwas, das nicht da ist."
+      }
+    },
+    {
+      "id": "ex-tiles-werkzeug",
+      "type": "exercise",
+      "theory_ref": "intro-ethik",
+      "title": "Merksatz zur Verantwortung",
+      "exercise": {
+        "id": "ex-tiles-werkzeug",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": ["werkzeug-kein-ersatz", "menschliche-kontrolle"],
+        "tiles": ["KI", "ist", "ein", "Werkzeug", "kein", "Ersatz", "für", "das", "eigene", "Urteil"],
+        "hint": "Beginnt mit: KI ist ein Werkzeug …",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-datenschutz",
+      "type": "exercise",
+      "theory_ref": "intro-ethik",
+      "title": "Was gehört nicht in die KI?",
+      "exercise": {
+        "id": "ex-pick-datenschutz",
+        "type": "picture_choice",
+        "prompt": "Welche Eingabe ist aus Datenschutzgründen problematisch?",
+        "card_ids": ["datenschutz"],
+        "images": [
+          { "src": "assets/img/ethik-passwort.png", "label": "Das Passwort und die Kontonummer eines Kunden", "is_correct": "true" },
+          { "src": "assets/img/ethik-rezept.png", "label": "Ein öffentliches Kochrezept" },
+          { "src": "assets/img/ethik-gedicht.png", "label": "Ein erfundenes Gedicht über den Frühling" },
+          { "src": "assets/img/ethik-mathe.png", "label": "Eine einfache Rechenaufgabe" }
+        ],
+        "hint": "Welche Angabe ist sensibel und persönlich?",
+        "distractors": ["Ein öffentliches Kochrezept", "Ein erfundenes Gedicht über den Frühling", "Eine einfache Rechenaufgabe"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-bias",
+      "type": "exercise",
+      "theory_ref": "step-risiken",
+      "title": "Vorurteile aus den Daten",
+      "exercise": {
+        "id": "ex-free-bias",
+        "type": "free_text",
+        "prompt": "Wie nennt man es, wenn eine KI Vorurteile aus ihren Trainingsdaten übernimmt?",
+        "card_ids": ["bias"],
+        "accept": ["Bias", "bias", "Verzerrung", "Verzerrung (Bias)"],
+        "hint": "Der englische Fachbegriff hat vier Buchstaben.",
+        "distractors": ["Halluzination", "Datenschutz", "Faktencheck"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-kontrolle",
+      "type": "exercise",
+      "theory_ref": "step-kontrolle",
+      "title": "Wer entscheidet?",
+      "exercise": {
+        "id": "ex-cloze-kontrolle",
+        "type": "cloze",
+        "prompt": "Ergänze, wer die letzte Entscheidung verantwortet.",
+        "card_ids": ["menschliche-kontrolle"],
+        "sentence": "Ergebnisse einer KI sollte am Ende immer der ___ überprüfen und verantworten.",
+        "blanks": [
+          { "accept": ["Mensch", "Nutzer", "Anwender"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Nicht die Maschine trägt die Verantwortung."
+      }
+    },
+    {
+      "id": "ex-match-begriffe",
+      "type": "exercise",
+      "theory_ref": "intro-ethik",
+      "title": "Begriff und Bedeutung",
+      "exercise": {
+        "id": "ex-match-begriffe",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die passende Bedeutung zu.",
+        "card_ids": ["datenschutz", "halluzination", "faktencheck"],
+        "pairs": [
+          { "left": "Datenschutz", "right": "keine sensiblen Daten eingeben" },
+          { "left": "Halluzination", "right": "erfundene, aber plausibel klingende Angaben" },
+          { "left": "Faktencheck", "right": "Antworten anhand von Quellen überprüfen" }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "id": "03-prompting-grundlagen",
+  "title": "Prompting Grundlagen",
+  "description": "Was ein Prompt ist, aus welchen Bausteinen er besteht und wie sich ein guter von einem schlechten Prompt unterscheidet — die Grundlage für die Arbeit mit KI.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "prompt",
+      "front": "Prompt",
+      "back": "Die Anweisung oder Frage, die man an eine KI richtet. Der Prompt steuert, was die KI tut und wie sie antwortet.",
+      "notes": "Je klarer der Prompt, desto besser die Antwort.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["prompting"]
+    },
+    {
+      "id": "rolle",
+      "front": "Rolle",
+      "back": "Der Baustein eines Prompts, der festlegt, aus welcher Perspektive die KI antworten soll — etwa als Lehrerin, Köchin oder Reiseexperte.",
+      "notes": "Beispiel: Agiere als erfahrener Reiseführer.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["prompting", "anatomie"]
+    },
+    {
+      "id": "kontext",
+      "front": "Kontext",
+      "back": "Die Hintergrundinformationen, die der KI helfen, die Aufgabe richtig einzuordnen — etwa für wen, wozu oder in welcher Situation.",
+      "notes": "Ohne Kontext rät die KI und liegt oft daneben.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["prompting", "anatomie"]
+    },
+    {
+      "id": "aufgabe",
+      "front": "Aufgabe",
+      "back": "Der Kern des Prompts: was die KI konkret tun soll — zusammenfassen, erklären, eine Liste erstellen oder einen Text schreiben.",
+      "notes": "Möglichst mit einem klaren Verb beginnen: Erkläre, Fasse zusammen, Erstelle.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["prompting", "anatomie"]
+    },
+    {
+      "id": "format",
+      "front": "Format",
+      "back": "Die gewünschte Form der Antwort — zum Beispiel eine Stichpunktliste, eine Tabelle, ein kurzer Absatz oder eine bestimmte Länge.",
+      "notes": "Beispiel: Antworte in fünf Stichpunkten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["prompting", "anatomie"]
+    },
+    {
+      "id": "einschraenkung",
+      "front": "Einschränkung",
+      "back": "Eine Vorgabe oder Grenze für die Antwort — etwa eine maximale Länge, eine einfache Sprache oder das Vermeiden bestimmter Begriffe.",
+      "notes": "Beispiel: Erkläre es so, dass ein Kind es versteht.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["prompting", "anatomie"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-prompt",
+      "type": "theory",
+      "title": "Was ist ein Prompt?",
+      "body": "# Prompting Grundlagen\n\nEin **Prompt** ist die Anweisung oder Frage, die du an eine KI richtest. Er ist dein wichtigstes Werkzeug: Die KI tut nur das, worum du sie bittest — und sie tut es so gut, wie deine Anweisung es zulässt.\n\nMan kann sich das wie das Briefing für eine Mitarbeiterin vorstellen. Sagst du nur *Schreib was über Hunde*, bekommst du etwas Beliebiges. Sagst du genau, **was** du willst, **für wen** und **in welcher Form**, bekommst du ein brauchbares Ergebnis.\n\n> Faustregel: Die KI ist nur so gut wie deine Frage."
+    },
+    {
+      "id": "step-anatomie",
+      "type": "theory",
+      "title": "Die Anatomie eines Prompts",
+      "body": "## Die fünf Bausteine\n\nGute Prompts enthalten oft mehrere dieser Bausteine — du musst aber nicht immer alle nutzen:\n\n| Baustein | Frage | Beispiel |\n|---|---|---|\n| **Rolle** | Wer soll antworten? | Agiere als Ernährungsberaterin. |\n| **Kontext** | Worum geht es? | Ich koche für zwei Kinder. |\n| **Aufgabe** | Was soll getan werden? | Erstelle einen Wochenplan. |\n| **Format** | In welcher Form? | Als Tabelle mit sieben Zeilen. |\n| **Einschränkung** | Welche Grenzen gelten? | Ohne Nüsse, höchstens 30 Minuten Kochzeit. |\n\nDie **Aufgabe** ist der Kern und sollte nie fehlen. Die übrigen Bausteine machen die Antwort genauer und passender."
+    },
+    {
+      "id": "step-gut-schlecht",
+      "type": "theory",
+      "title": "Guter vs. schlechter Prompt",
+      "body": "## Was einen guten Prompt ausmacht\n\nEin **guter Prompt** ist klar, spezifisch und liefert Kontext. Ein **schlechter Prompt** ist vage und überlässt der KI das Raten.\n\n- **Schlecht:** *Schreib was über Urlaub.*\n- **Gut:** *Agiere als Reiseberater. Schlage mir drei günstige Reiseziele in Europa für einen Familienurlaub im Sommer vor. Antworte als Stichpunktliste.*\n\nDer zweite Prompt ist besser, weil er **Rolle, Aufgabe, Kontext und Format** enthält. Merksatz:\n\n**Ein guter Prompt ist klar und spezifisch.**"
+    },
+    {
+      "id": "ex-match-bausteine",
+      "type": "exercise",
+      "theory_ref": "step-anatomie",
+      "title": "Prompt-Element und Beschreibung",
+      "exercise": {
+        "id": "ex-match-bausteine",
+        "type": "matching",
+        "prompt": "Ordne jeden Prompt-Baustein seiner Beschreibung zu.",
+        "card_ids": ["rolle", "kontext", "aufgabe", "format"],
+        "pairs": [
+          { "left": "Rolle", "right": "aus welcher Perspektive die KI antwortet" },
+          { "left": "Kontext", "right": "Hintergrundinfos zur Einordnung" },
+          { "left": "Aufgabe", "right": "was die KI konkret tun soll" },
+          { "left": "Format", "right": "die gewünschte Form der Antwort" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-besser",
+      "type": "exercise",
+      "theory_ref": "step-gut-schlecht",
+      "title": "Welcher Prompt ist besser?",
+      "exercise": {
+        "id": "ex-pick-besser",
+        "type": "picture_choice",
+        "prompt": "Welcher Prompt ist besser, weil er klar und spezifisch ist?",
+        "card_ids": ["prompt", "kontext"],
+        "images": [
+          { "src": "assets/img/prompt-gut.png", "label": "Agiere als Reiseberater und schlage drei günstige Reiseziele in Europa für einen Familienurlaub im Sommer vor, als Stichpunktliste.", "is_correct": "true" },
+          { "src": "assets/img/prompt-vage.png", "label": "Schreib was über Urlaub." },
+          { "src": "assets/img/prompt-leer.png", "label": "Hilf mir mal." }
+        ],
+        "hint": "Welcher Prompt nennt Rolle, Aufgabe, Kontext und Format?",
+        "distractors": ["Schreib was über Urlaub.", "Hilf mir mal."],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-klar-spezifisch",
+      "type": "exercise",
+      "theory_ref": "step-gut-schlecht",
+      "title": "Merkmal eines guten Prompts",
+      "exercise": {
+        "id": "ex-cloze-klar-spezifisch",
+        "type": "cloze",
+        "prompt": "Ergänze den Merksatz aus der Lektion.",
+        "card_ids": ["prompt"],
+        "sentence": "Ein guter Prompt ist klar und ___ .",
+        "blanks": [
+          { "accept": ["spezifisch", "konkret"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Gegenteil von vage."
+      }
+    },
+    {
+      "id": "ex-free-was-ist-prompt",
+      "type": "exercise",
+      "theory_ref": "intro-prompt",
+      "title": "Begriff zur Definition",
+      "exercise": {
+        "id": "ex-free-was-ist-prompt",
+        "type": "free_text",
+        "prompt": "Wie nennt man die Anweisung oder Frage, die man an eine KI richtet?",
+        "card_ids": ["prompt"],
+        "accept": ["Prompt", "der Prompt", "ein Prompt"],
+        "hint": "Englischer Fachbegriff, beginnt mit P.",
+        "distractors": ["Modell", "Trainingsdaten", "Chatbot"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-beispiele",
+      "type": "exercise",
+      "theory_ref": "step-anatomie",
+      "title": "Baustein und Beispiel",
+      "exercise": {
+        "id": "ex-match-beispiele",
+        "type": "matching",
+        "prompt": "Ordne jedem Prompt-Baustein das passende Beispiel zu.",
+        "card_ids": ["rolle", "format", "einschraenkung", "aufgabe"],
+        "pairs": [
+          { "left": "Rolle", "right": "Agiere als Ernährungsberaterin." },
+          { "left": "Aufgabe", "right": "Erstelle einen Wochenplan." },
+          { "left": "Format", "right": "Antworte als Tabelle." },
+          { "left": "Einschränkung", "right": "Ohne Nüsse." }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-kern",
+      "type": "exercise",
+      "theory_ref": "step-anatomie",
+      "title": "Der Kern jedes Prompts",
+      "exercise": {
+        "id": "ex-cloze-kern",
+        "type": "cloze",
+        "prompt": "Ergänze, welcher Baustein in keinem Prompt fehlen sollte.",
+        "card_ids": ["aufgabe"],
+        "sentence": "Der Kern jedes Prompts ist die ___ , also was die KI tun soll.",
+        "blanks": [
+          { "accept": ["Aufgabe", "Aufgabenstellung"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Sie beginnt oft mit einem Verb wie Erkläre oder Erstelle."
+      }
+    },
+    {
+      "id": "ex-tiles-faustregel",
+      "type": "exercise",
+      "theory_ref": "intro-prompt",
+      "title": "Faustregel zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-faustregel",
+        "type": "word_tiles",
+        "prompt": "Setze die Faustregel aus der Lektion zusammen.",
+        "card_ids": ["prompt"],
+        "tiles": ["Die", "KI", "ist", "nur", "so", "gut", "wie", "deine", "Frage"],
+        "hint": "Beginnt mit: Die KI ist nur …",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-fehlt-kontext",
+      "type": "exercise",
+      "theory_ref": "step-gut-schlecht",
+      "title": "Was fehlt einem vagen Prompt?",
+      "exercise": {
+        "id": "ex-free-fehlt-kontext",
+        "type": "free_text",
+        "prompt": "Welcher Baustein liefert der KI die Hintergrundinformationen zur richtigen Einordnung?",
+        "card_ids": ["kontext"],
+        "accept": ["Kontext", "der Kontext", "Hintergrund", "Hintergrundinformationen"],
+        "hint": "Worum geht es, für wen, in welcher Situation?",
+        "distractors": ["Format", "Rolle", "Länge"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

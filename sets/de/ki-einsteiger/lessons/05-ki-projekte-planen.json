@@ -1,0 +1,230 @@
+{
+  "id": "05-ki-projekte-planen",
+  "title": "KI-Projekte planen",
+  "description": "Wie du künstliche Intelligenz bei der Planung von Projekten einsetzt — Ziele setzen, Budget erstellen, Aufgaben zerlegen und gute Projekt-Prompts schreiben.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "projektplanung-ki",
+      "front": "Projektplanung mit KI",
+      "back": "Die KI hilft dabei, ein Vorhaben in überschaubare Schritte zu zerlegen, Aufgaben zu ordnen und einen Plan zu erstellen — etwa für eine Party, einen Umzug oder ein Event.",
+      "notes": "Die KI denkt nicht für dich, aber sie strukturiert deine Ideen schnell.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["planung", "grundlagen"]
+    },
+    {
+      "id": "zieldefinition",
+      "front": "Zieldefinition",
+      "back": "Das klare Festlegen, was am Ende erreicht werden soll. Ein gutes Ziel ist konkret und messbar, z. B. „eine Geburtstagsfeier für 20 Gäste“.",
+      "notes": "Ohne klares Ziel kann die KI nur vage antworten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["planung"]
+    },
+    {
+      "id": "budgetplanung",
+      "front": "Budgetplanung",
+      "back": "Das Festlegen, wie viel Geld zur Verfügung steht, und das Aufteilen dieser Summe auf die einzelnen Posten eines Projekts.",
+      "notes": "Gib der KI dein Budget an, damit ihre Vorschläge realistisch bleiben.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["planung"]
+    },
+    {
+      "id": "checkliste",
+      "front": "Checkliste",
+      "back": "Eine geordnete Liste von Aufgaben, die nacheinander abgehakt werden. Ideal, um bei einem Projekt nichts zu vergessen.",
+      "notes": "Auch To-do-Liste oder Aufgabenliste genannt.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["planung", "werkzeug"]
+    },
+    {
+      "id": "rahmenbedingungen",
+      "front": "Rahmenbedingungen (Constraints)",
+      "back": "Die Vorgaben und Grenzen eines Projekts, z. B. Zeit, Budget, Ort oder Anzahl der Personen. Sie schränken die Möglichkeiten sinnvoll ein.",
+      "notes": "Englisch: constraints. Je genauer die Rahmenbedingungen, desto passender die KI-Antwort.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["planung", "prompt"]
+    },
+    {
+      "id": "projekt-prompt",
+      "front": "Projekt-Prompt",
+      "back": "Eine durchdachte Anfrage an die KI, die das Ziel nennt, Rahmenbedingungen angibt und ein Ausgabeformat wünscht — etwa eine Tabelle oder Checkliste.",
+      "notes": "Bausteine: Ziel + Rahmenbedingungen + gewünschtes Format.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["prompt"]
+    },
+    {
+      "id": "aufgaben-zerlegen",
+      "front": "Aufgaben zerlegen",
+      "back": "Ein großes Vorhaben in viele kleine, machbare Einzelschritte aufteilen. So wird ein Projekt überschaubar und planbar.",
+      "notes": "Die KI ist gut darin, ein Ziel in Teilschritte zu gliedern.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["planung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-planen",
+      "type": "theory",
+      "title": "KI als Planungshilfe",
+      "body": "# KI-Projekte planen\n\nViele Vorhaben wirken zuerst überwältigend: eine **Party organisieren**, einen **Umzug** stemmen oder ein **Event** auf die Beine stellen. Genau hier ist KI eine starke Hilfe.\n\nDie KI kann:\n\n- ein **Ziel** klar formulieren helfen,\n- ein großes Vorhaben in **kleine Schritte zerlegen**,\n- ein **Budget** aufteilen,\n- eine **Checkliste** erstellen, damit nichts vergessen wird.\n\nWichtig: Die KI nimmt dir die Entscheidungen nicht ab. Aber sie bringt deine Ideen schnell in eine **klare Struktur** — und das ist beim Planen die halbe Miete."
+    },
+    {
+      "id": "step-bausteine",
+      "type": "theory",
+      "title": "Bausteine eines guten Projekt-Prompts",
+      "body": "## So fragst du die KI nach einem Plan\n\nEin guter **Projekt-Prompt** besteht aus drei Bausteinen:\n\n| Baustein | Was du angibst | Beispiel |\n|---|---|---|\n| **Ziel** | Was soll erreicht werden? | „Plane eine Geburtstagsfeier für 20 Gäste“ |\n| **Rahmenbedingungen** | Budget, Zeit, Ort, Personen | „Budget 200 Euro, am Samstag, im Garten“ |\n| **Format** | Wie soll die Antwort aussehen? | „als Checkliste“ oder „als Tabelle“ |\n\nJe genauer du die **Rahmenbedingungen** (engl. *constraints*) nennst, desto brauchbarer wird der Plan. Bittest du um eine **Checkliste** oder **Tabelle**, bekommst du ein Ergebnis, das du sofort weiterverwenden kannst."
+    },
+    {
+      "id": "step-schritte",
+      "type": "theory",
+      "title": "Vom Ziel zu den Schritten",
+      "body": "## Ein Projekt in Schritte zerlegen\n\nGute Planung folgt einer einfachen Reihenfolge:\n\n1. **Ziel definieren** — konkret und messbar.\n2. **Rahmenbedingungen klären** — Budget, Zeit, Ort.\n3. **Aufgaben zerlegen** — das Ziel in kleine Schritte aufteilen.\n4. **Checkliste erstellen** — die Schritte in eine abhakbare Liste bringen.\n\nDie KI kann jeden dieser Schritte unterstützen. Sag ihr zum Beispiel: *„Zerlege die Planung eines Umzugs in zehn Aufgaben und gib sie als To-do-Liste aus.“* So entsteht aus einem vagen Vorhaben ein **klarer Fahrplan**."
+    },
+    {
+      "id": "ex-match-ansatz",
+      "type": "exercise",
+      "theory_ref": "step-bausteine",
+      "title": "Projekt und Prompt-Ansatz",
+      "exercise": {
+        "id": "ex-match-ansatz",
+        "type": "matching",
+        "prompt": "Ordne jedem Projekt-Typ den besten Prompt-Ansatz zu.",
+        "card_ids": ["projektplanung-ki", "budgetplanung", "checkliste", "aufgaben-zerlegen"],
+        "pairs": [
+          { "left": "Party mit knappem Geld", "right": "Budget angeben und um eine Kostenaufstellung bitten" },
+          { "left": "Umzug ohne etwas zu vergessen", "right": "um eine Checkliste bitten" },
+          { "left": "Großes Event überschaubar machen", "right": "Aufgaben in kleine Schritte zerlegen lassen" },
+          { "left": "Klarer Überblick über Posten", "right": "Antwort als Tabelle wünschen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-party",
+      "type": "exercise",
+      "theory_ref": "step-schritte",
+      "title": "Party planen",
+      "exercise": {
+        "id": "ex-cloze-party",
+        "type": "cloze",
+        "prompt": "Ergänze, wonach du die KI bei der Planung einer Party fragst.",
+        "card_ids": ["checkliste"],
+        "sentence": "Für die Planung einer Party frage ich die KI nach einer ___ .",
+        "blanks": [
+          { "accept": ["Checkliste", "To-do-Liste", "Aufgabenliste"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Eine geordnete Liste zum Abhaken."
+      }
+    },
+    {
+      "id": "ex-free-bausteine",
+      "type": "exercise",
+      "theory_ref": "step-bausteine",
+      "title": "Wichtiger Prompt-Baustein",
+      "exercise": {
+        "id": "ex-free-bausteine",
+        "type": "free_text",
+        "prompt": "Welche Vorgaben (z. B. Budget oder Zeit) solltest du in einem Projekt-Prompt nennen?",
+        "card_ids": ["rahmenbedingungen", "projekt-prompt"],
+        "accept": ["Rahmenbedingungen", "Constraints", "Budget", "Zeit", "Vorgaben", "Grenzen"],
+        "hint": "Das englische Wort dafür ist „constraints“.",
+        "distractors": ["Lieblingsfarbe", "Wetter von gestern", "Telefonnummer"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-prompt",
+      "type": "exercise",
+      "theory_ref": "step-bausteine",
+      "title": "Merksatz zum Projekt-Prompt",
+      "exercise": {
+        "id": "ex-tiles-prompt",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zu den Prompt-Bausteinen zusammen.",
+        "card_ids": ["projekt-prompt"],
+        "tiles": ["Nenne", "das", "Ziel", "die", "Rahmenbedingungen", "und", "das", "Format"],
+        "hint": "Beginnt mit: Nenne das Ziel …",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-ziel",
+      "type": "exercise",
+      "theory_ref": "step-schritte",
+      "title": "Erster Planungsschritt",
+      "exercise": {
+        "id": "ex-free-ziel",
+        "type": "free_text",
+        "prompt": "Was solltest du bei einem Projekt als Allererstes festlegen?",
+        "card_ids": ["zieldefinition"],
+        "accept": ["Ziel", "das Ziel", "Zieldefinition", "Lernziel", "Projektziel"],
+        "hint": "Es beschreibt, was am Ende erreicht sein soll.",
+        "distractors": ["die Schriftart", "den Hintergrund", "das Passwort"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-begriffe",
+      "type": "exercise",
+      "theory_ref": "intro-planen",
+      "title": "Begriffe und Bedeutung",
+      "exercise": {
+        "id": "ex-match-begriffe",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine Bedeutung zu.",
+        "card_ids": ["zieldefinition", "budgetplanung", "checkliste", "rahmenbedingungen"],
+        "pairs": [
+          { "left": "Zieldefinition", "right": "festlegen, was erreicht werden soll" },
+          { "left": "Budgetplanung", "right": "festlegen, wie das Geld aufgeteilt wird" },
+          { "left": "Checkliste", "right": "geordnete Liste zum Abhaken" },
+          { "left": "Rahmenbedingungen", "right": "Vorgaben und Grenzen des Projekts" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-zerlegen",
+      "type": "exercise",
+      "theory_ref": "step-schritte",
+      "title": "Großes Vorhaben handhabbar machen",
+      "exercise": {
+        "id": "ex-cloze-zerlegen",
+        "type": "cloze",
+        "prompt": "Ergänze, was man mit einem großen Vorhaben tut, um es planbar zu machen.",
+        "card_ids": ["aufgaben-zerlegen"],
+        "sentence": "Ein großes Projekt zerlegt man in viele kleine ___ .",
+        "blanks": [
+          { "accept": ["Schritte", "Aufgaben", "Teilschritte"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kleine, machbare Einzelteile eines Projekts."
+      }
+    },
+    {
+      "id": "ex-tiles-reihenfolge",
+      "type": "exercise",
+      "theory_ref": "step-schritte",
+      "title": "Reihenfolge der Planung",
+      "exercise": {
+        "id": "ex-tiles-reihenfolge",
+        "type": "word_tiles",
+        "prompt": "Bringe die Planungsschritte in die richtige Reihenfolge.",
+        "card_ids": ["zieldefinition", "rahmenbedingungen", "checkliste"],
+        "tiles": ["Ziel", "festlegen", "Rahmenbedingungen", "klären", "Checkliste", "erstellen"],
+        "hint": "Zuerst das Ziel, zuletzt die Liste.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

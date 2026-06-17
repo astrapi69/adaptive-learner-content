@@ -1,0 +1,236 @@
+{
+  "id": "08-ki-kreativitaet",
+  "title": "KI und Kreativität",
+  "description": "Wie künstliche Intelligenz beim kreativen Arbeiten hilft — von Story-Ideen über Bildgeneratoren bis zum Brainstorming und zur KI als Co-Autorin.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "kreativer-prompt",
+      "front": "Kreativer Prompt",
+      "back": "Eine offene, anregende Anweisung an die KI, die Raum für Fantasie lässt — etwa „Erfinde eine Geschichte über eine Stadt unter Wasser“ statt einer eng begrenzten Faktenfrage.",
+      "notes": "Je offener und bildhafter der Prompt, desto vielfältiger die Ergebnisse.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["kreativitaet", "prompt"]
+    },
+    {
+      "id": "bildgenerator",
+      "front": "Bildgenerator",
+      "back": "KI, die aus einer Textbeschreibung neue Bilder erzeugt, zum Beispiel DALL·E oder Midjourney.",
+      "notes": "Englisch: image generator. Aus Worten wird visuelle Kunst.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["kreativitaet", "bild"]
+    },
+    {
+      "id": "story-idee",
+      "front": "Story-Idee",
+      "back": "Ein Vorschlag für Handlung, Figuren oder Wendungen einer Geschichte, den die KI auf Wunsch liefert.",
+      "notes": "Gut, um eine Schreibblockade zu überwinden oder Plots weiterzudenken.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["kreativitaet", "text"]
+    },
+    {
+      "id": "brainstorming-ki",
+      "front": "Brainstorming mit KI",
+      "back": "Das schnelle Sammeln vieler Ideen mithilfe der KI — sie liefert in Sekunden zahlreiche Vorschläge, aus denen man auswählt.",
+      "notes": "Die KI bewertet nicht, sie liefert Menge; die Auswahl trifft der Mensch.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["kreativitaet", "ideen"]
+    },
+    {
+      "id": "co-autorin",
+      "front": "KI als Co-Autorin",
+      "back": "Eine Arbeitsweise, bei der der Mensch die Richtung vorgibt und die KI Varianten, Formulierungen oder Fortsetzungen liefert.",
+      "notes": "Der Mensch behält die kreative Kontrolle, die KI ist Partnerin.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["kreativitaet", "zusammenarbeit"]
+    },
+    {
+      "id": "musik-idee",
+      "front": "Musik-Idee mit KI",
+      "back": "Vorschläge für Melodien, Texte oder Stimmungen, die eine KI als Ausgangspunkt für eigene Musik liefern kann.",
+      "notes": "Ein Startpunkt zum Weiterentwickeln, kein fertiges Werk.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["kreativitaet", "musik"]
+    },
+    {
+      "id": "sprachmodell",
+      "front": "Sprachmodell",
+      "back": "KI, die Texte versteht und erzeugt — die Grundlage für Story-Ideen, Gedichte und kreative Texte.",
+      "notes": "Englisch: language model. Arbeitet mit Sprache, nicht mit Bildern.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["kreativitaet", "text"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "KI als kreatives Werkzeug",
+      "body": "# KI und Kreativität\n\nKI kann nicht nur rechnen und sortieren — sie ist auch ein erstaunliches **kreatives Werkzeug**. Sie erfindet Geschichten, malt Bilder, schlägt Melodien vor und hilft beim Sammeln von Ideen.\n\nWichtig dabei:\n\n- Die KI **ersetzt** deine Kreativität nicht, sie **verstärkt** sie.\n- Der Mensch gibt die **Richtung** vor, die KI liefert **Varianten**.\n- Mit einem **kreativen Prompt** öffnest du der KI viel Spielraum: „Erfinde …“, „Stell dir vor …“, „Gib mir zehn Ideen für …“.\n\nSo wird die KI zur **Co-Autorin** — einer Partnerin, die mitdenkt, aber nicht entscheidet."
+    },
+    {
+      "id": "step-bereiche",
+      "type": "theory",
+      "title": "Kreative Bereiche und passende Werkzeuge",
+      "body": "## Wo KI kreativ unterstützt\n\nJe nach Kunstform hilft eine andere Art von KI:\n\n| Kreativbereich | KI-Ansatz / Werkzeug | Beispiel |\n|---|---|---|\n| **Text & Geschichten** | Sprachmodell | Plots, Figuren, Dialoge |\n| **Bilder & Kunst** | Bildgenerator (DALL·E, Midjourney) | aus Text ein Bild erzeugen |\n| **Musik** | Musik-KI | Melodien und Stimmungen vorschlagen |\n| **Ideen sammeln** | Brainstorming mit KI | viele Vorschläge in Sekunden |\n\nFür **Text** nutzt du ein Sprachmodell, für **Bilder** einen Bildgenerator. Den richtigen Prompt zu finden, ist dabei selbst eine kreative Übung."
+    },
+    {
+      "id": "step-co-autorin",
+      "type": "theory",
+      "title": "Die KI als Co-Autorin nutzen",
+      "body": "## Mensch und KI im Team\n\nAm besten funktioniert kreative KI als **Co-Autorin**:\n\n- **Du gibst die Richtung vor** — Thema, Stimmung, Stil.\n- **Die KI liefert Varianten** — mehrere Versionen, aus denen du wählst.\n- **Du wählst aus und verfeinerst** — die Entscheidung bleibt bei dir.\n\nBeim **Brainstorming** zählt zuerst die *Menge* der Ideen, nicht die Qualität. Bitte die KI ruhig um „zehn ungewöhnliche Ideen“ und sortiere danach selbst.\n\n> Merke: Ein **offener, fantasievoller Prompt** bringt kreativere Antworten als eine eng gestellte Frage."
+    },
+    {
+      "id": "ex-match-bereiche",
+      "type": "exercise",
+      "theory_ref": "step-bereiche",
+      "title": "Kreativbereich und Werkzeug",
+      "exercise": {
+        "id": "ex-match-bereiche",
+        "type": "matching",
+        "prompt": "Ordne jedem kreativen Bereich das passende KI-Werkzeug zu.",
+        "card_ids": ["bildgenerator", "sprachmodell", "musik-idee", "brainstorming-ki"],
+        "pairs": [
+          { "left": "Bild erstellen", "right": "Bildgenerator" },
+          { "left": "Geschichte schreiben", "right": "Sprachmodell" },
+          { "left": "Melodie entwickeln", "right": "Musik-KI" },
+          { "left": "Viele Ideen sammeln", "right": "Brainstorming mit KI" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-prompt",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Der kreativste Prompt",
+      "exercise": {
+        "id": "ex-pick-prompt",
+        "type": "picture_choice",
+        "prompt": "Welcher Prompt erzeugt die kreativste und offenste Antwort?",
+        "card_ids": ["kreativer-prompt"],
+        "images": [
+          { "src": "assets/img/prompt-fantasie.png", "label": "Erfinde eine Geschichte über eine Stadt, die unter dem Meer lebt.", "is_correct": "true" },
+          { "src": "assets/img/prompt-datum.png", "label": "Welches Datum ist heute?" },
+          { "src": "assets/img/prompt-rechnung.png", "label": "Wie viel ist 12 mal 8?" },
+          { "src": "assets/img/prompt-hauptstadt.png", "label": "Wie heißt die Hauptstadt von Frankreich?" }
+        ],
+        "hint": "Welcher Prompt lässt der Fantasie den meisten Raum?",
+        "distractors": ["Welches Datum ist heute?", "Wie viel ist 12 mal 8?", "Wie heißt die Hauptstadt von Frankreich?"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-bildgenerator",
+      "type": "exercise",
+      "theory_ref": "step-bereiche",
+      "title": "Bilder aus Text",
+      "exercise": {
+        "id": "ex-free-bildgenerator",
+        "type": "free_text",
+        "prompt": "Wie nennt man eine KI, die aus einer Textbeschreibung neue Bilder erzeugt?",
+        "card_ids": ["bildgenerator"],
+        "accept": ["Bildgenerator", "bildgenerator", "Bild-Generator", "image generator"],
+        "hint": "Aus Worten wird ein Bild — Beispiele sind DALL·E und Midjourney.",
+        "distractors": ["Taschenrechner", "Suchmaschine", "Tabellenkalkulation"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-co-autorin",
+      "type": "exercise",
+      "theory_ref": "step-co-autorin",
+      "title": "Wer gibt die Richtung vor?",
+      "exercise": {
+        "id": "ex-cloze-co-autorin",
+        "type": "cloze",
+        "prompt": "Ergänze, wie die Zusammenarbeit mit der KI als Co-Autorin funktioniert.",
+        "card_ids": ["co-autorin"],
+        "sentence": "Der Mensch gibt die Richtung vor, und die KI liefert ___ .",
+        "blanks": [
+          { "accept": ["Varianten", "varianten", "Vorschläge", "Ideen"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Mehrere Versionen, aus denen du auswählst."
+      }
+    },
+    {
+      "id": "ex-tiles-prompt",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Ein kreativer Prompt",
+      "exercise": {
+        "id": "ex-tiles-prompt",
+        "type": "word_tiles",
+        "prompt": "Setze einen offenen, kreativen Prompt zusammen.",
+        "card_ids": ["kreativer-prompt", "story-idee"],
+        "tiles": ["Erfinde", "eine", "Geschichte", "über", "eine", "Stadt", "unter", "Wasser"],
+        "hint": "Beginnt mit dem Wort „Erfinde …“.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-brainstorming",
+      "type": "exercise",
+      "theory_ref": "step-co-autorin",
+      "title": "Viele Ideen sammeln",
+      "exercise": {
+        "id": "ex-free-brainstorming",
+        "type": "free_text",
+        "prompt": "Wie nennt man das schnelle Sammeln vieler Ideen mithilfe der KI?",
+        "card_ids": ["brainstorming-ki"],
+        "accept": ["Brainstorming", "brainstorming", "Brainstorming mit KI", "Ideensammlung"],
+        "hint": "Zuerst zählt die Menge der Ideen, nicht die Qualität.",
+        "distractors": ["Korrekturlesen", "Übersetzen", "Rechtschreibprüfung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-werkzeuge",
+      "type": "exercise",
+      "theory_ref": "step-bereiche",
+      "title": "Was leistet das Werkzeug?",
+      "exercise": {
+        "id": "ex-match-werkzeuge",
+        "type": "matching",
+        "prompt": "Ordne jedem KI-Werkzeug zu, was es leistet.",
+        "card_ids": ["bildgenerator", "sprachmodell", "co-autorin", "story-idee"],
+        "pairs": [
+          { "left": "Bildgenerator", "right": "macht aus Text ein Bild" },
+          { "left": "Sprachmodell", "right": "schreibt und versteht Texte" },
+          { "left": "KI als Co-Autorin", "right": "liefert Varianten zu deiner Idee" },
+          { "left": "Story-Idee", "right": "Vorschlag für Handlung oder Figuren" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-prompt-offen",
+      "type": "exercise",
+      "theory_ref": "step-co-autorin",
+      "title": "Offene Prompts",
+      "exercise": {
+        "id": "ex-cloze-prompt-offen",
+        "type": "cloze",
+        "prompt": "Ergänze den Merksatz zum kreativen Prompt.",
+        "card_ids": ["kreativer-prompt"],
+        "sentence": "Ein ___ Prompt bringt kreativere Antworten als eine eng gestellte Frage.",
+        "blanks": [
+          { "accept": ["offener", "offen", "fantasievoller", "kreativer"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Das Gegenteil von eng und begrenzt."
+      }
+    }
+  ]
+}
