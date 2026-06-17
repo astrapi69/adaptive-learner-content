@@ -1,0 +1,221 @@
+{
+  "id": "07-ki-lernen",
+  "title": "Mit KI lernen",
+  "description": "Wie du KI als persönliche Lernhilfe nutzt — Sprachen lernen, individuelle Lernpläne erstellen, neue Themen erkunden und beim Programmieren Hilfe bekommen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "ki-tutor",
+      "front": "KI-Tutor",
+      "back": "Die KI in der Rolle eines geduldigen Lehrers, der Konzepte einfach erklärt, Fragen beantwortet und sich deinem Tempo anpasst.",
+      "notes": "Du kannst beliebig oft nachfragen, ohne dass es jemandem zu viel wird.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["lernen", "grundlagen"]
+    },
+    {
+      "id": "lernplan",
+      "front": "Lernplan",
+      "back": "Ein individueller Fahrplan zum Lernen, der ein klares Ziel, einen Zeitplan, Etappen und regelmäßige Übung enthält.",
+      "notes": "Die KI kann einen Lernplan auf deine Zeit und dein Niveau zuschneiden.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["lernen", "planung"]
+    },
+    {
+      "id": "vokabeltraining-ki",
+      "front": "Vokabeltraining mit KI",
+      "back": "Mit der KI Sprachen üben: Sie gibt dir Vokabeln, führt kleine Dialoge und korrigiert deine Sätze geduldig.",
+      "notes": "Gut für Wortschatz, Aussprache-Tipps und Gespräche zum Üben.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["lernen", "sprachen"]
+    },
+    {
+      "id": "konzept-erklaeren",
+      "front": "Konzept erklären lassen",
+      "back": "Ein schwieriges Thema von der KI verständlich aufbereiten lassen — z. B. „Erkläre mir Zinsen so, als wäre ich zehn Jahre alt“.",
+      "notes": "Bitte um einfache Sprache, Beispiele oder Vergleiche.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["lernen"]
+    },
+    {
+      "id": "code-hilfe",
+      "front": "Code-Hilfe",
+      "back": "Beim Programmieren von der KI unterstützen lassen: Sie erklärt Code, findet Fehler und schlägt Verbesserungen vor.",
+      "notes": "Auch ohne Programmiererfahrung lässt sich so erklären, was ein Stück Code tut.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["lernen", "programmieren"]
+    },
+    {
+      "id": "thema-erkunden",
+      "front": "Neues Thema erkunden",
+      "back": "Sich in ein unbekanntes Gebiet einarbeiten, indem man der KI offene Fragen stellt und sich Schritt für Schritt vortastet.",
+      "notes": "Die KI gibt einen Überblick und vertieft auf Nachfrage.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["lernen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-lernen",
+      "type": "theory",
+      "title": "KI als persönliche Lernhilfe",
+      "body": "# Mit KI lernen\n\nKI ist eine geduldige, jederzeit verfügbare **Lernhilfe**. Sie ermüdet nicht, urteilt nicht und passt sich deinem Tempo an.\n\nWofür du sie nutzen kannst:\n\n- **Sprachen lernen** — Vokabeln üben, Dialoge führen, Sätze korrigieren lassen.\n- **Lernpläne erstellen** — einen individuellen Fahrplan für dein Ziel.\n- **Themen erkunden** — die KI als **Tutor**, der Konzepte einfach erklärt.\n- **Programmieren** — Code erklären lassen und Fehler finden.\n\nDer große Vorteil: Du kannst **so oft nachfragen, wie du willst**, bis du etwas wirklich verstanden hast."
+    },
+    {
+      "id": "step-lernplan",
+      "type": "theory",
+      "title": "Was ein guter Lernplan enthält",
+      "body": "## Der individuelle Lernplan\n\nEin **Lernplan** macht aus einem vagen Wunsch ein konkretes Vorhaben. Bitte die KI, einen Plan auf dein Niveau und deine Zeit zuzuschneiden.\n\nEin guter Lernplan enthält:\n\n| Baustein | Bedeutung |\n|---|---|\n| **Ziel** | Was willst du am Ende können? |\n| **Zeitplan** | Wie viel Zeit pro Woche? Bis wann? |\n| **Etappen** | Welche Zwischenschritte führen zum Ziel? |\n| **Übung** | Wie und wann wird das Gelernte trainiert? |\n\nBeispiel-Prompt: *„Erstelle mir einen 4-Wochen-Lernplan für Spanisch-Grundlagen, 30 Minuten täglich, mit Etappen und Übungen.“*"
+    },
+    {
+      "id": "step-tutor",
+      "type": "theory",
+      "title": "Die KI als Tutor und Code-Helfer",
+      "body": "## Erklären, erkunden, programmieren\n\nAls **KI-Tutor** kann die KI:\n\n- **Konzepte einfach erklären** — auf Wunsch in Alltagssprache oder mit Vergleichen.\n- **neue Themen erschließen** — du fragst dich vom Überblick zu den Details vor.\n- **beim Programmieren helfen** — sie erklärt fremden **Code**, findet **Fehler** und schlägt Verbesserungen vor.\n\nGute Lernfragen sind offen und neugierig:\n\n> „Erkläre mir das Konzept so, als wäre ich Anfänger.“\n>\n> „Was macht dieser Code Zeile für Zeile?“\n\nSo wird die KI zu einem **Lernpartner**, der dich nicht nur mit Antworten füttert, sondern dir hilft, selbst zu verstehen."
+    },
+    {
+      "id": "ex-match-strategie",
+      "type": "exercise",
+      "theory_ref": "step-tutor",
+      "title": "Lernziel und KI-Strategie",
+      "exercise": {
+        "id": "ex-match-strategie",
+        "type": "matching",
+        "prompt": "Ordne jedem Lernziel die passende KI-Strategie zu.",
+        "card_ids": ["vokabeltraining-ki", "konzept-erklaeren", "code-hilfe", "lernplan"],
+        "pairs": [
+          { "left": "Eine Sprache lernen", "right": "Vokabeln üben und Dialoge führen lassen" },
+          { "left": "Ein schwieriges Thema verstehen", "right": "Konzept einfach erklären lassen" },
+          { "left": "Programmieren lernen", "right": "Code erklären und Fehler finden lassen" },
+          { "left": "Strukturiert vorgehen", "right": "einen Lernplan erstellen lassen" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-lernplan",
+      "type": "exercise",
+      "theory_ref": "step-lernplan",
+      "title": "Kern eines Lernplans",
+      "exercise": {
+        "id": "ex-cloze-lernplan",
+        "type": "cloze",
+        "prompt": "Ergänze, was ein individueller Lernplan unbedingt enthalten sollte.",
+        "card_ids": ["lernplan"],
+        "sentence": "Ein individueller Lernplan sollte ein klares ___ enthalten.",
+        "blanks": [
+          { "accept": ["Ziel", "Lernziel"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Es beschreibt, was du am Ende können willst."
+      }
+    },
+    {
+      "id": "ex-free-tutor",
+      "type": "exercise",
+      "theory_ref": "intro-lernen",
+      "title": "Die KI als Lehrer",
+      "exercise": {
+        "id": "ex-free-tutor",
+        "type": "free_text",
+        "prompt": "Wie nennt man die KI, wenn sie wie ein geduldiger Lehrer Konzepte erklärt?",
+        "card_ids": ["ki-tutor"],
+        "accept": ["KI-Tutor", "Tutor", "Lernpartner", "KI-Lehrer"],
+        "hint": "Ein Wort für privaten Lehrer, mit „KI-“ davor.",
+        "distractors": ["Spamfilter", "Suchmaschine", "Taschenrechner"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-lernplan",
+      "type": "exercise",
+      "theory_ref": "step-lernplan",
+      "title": "Bausteine eines Lernplans",
+      "exercise": {
+        "id": "ex-tiles-lernplan",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zu den Bausteinen eines Lernplans zusammen.",
+        "card_ids": ["lernplan"],
+        "tiles": ["Ein", "Lernplan", "braucht", "Ziel", "Zeitplan", "Etappen", "und", "Übung"],
+        "hint": "Beginnt mit: Ein Lernplan braucht …",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-code",
+      "type": "exercise",
+      "theory_ref": "step-tutor",
+      "title": "Hilfe beim Programmieren",
+      "exercise": {
+        "id": "ex-free-code",
+        "type": "free_text",
+        "prompt": "Wobei kann die KI dir beim Programmieren konkret helfen?",
+        "card_ids": ["code-hilfe"],
+        "accept": ["Code erklären", "Fehler finden", "Code-Hilfe", "Fehler", "Code", "Verbesserungen vorschlagen"],
+        "hint": "Sie erklärt Quelltext und sucht Fehler darin.",
+        "distractors": ["Kaffee kochen", "Strom sparen", "Möbel aufbauen"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-begriffe-lernen",
+      "type": "exercise",
+      "theory_ref": "intro-lernen",
+      "title": "Begriffe und Bedeutung",
+      "exercise": {
+        "id": "ex-match-begriffe-lernen",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine Bedeutung zu.",
+        "card_ids": ["ki-tutor", "vokabeltraining-ki", "konzept-erklaeren", "thema-erkunden"],
+        "pairs": [
+          { "left": "KI-Tutor", "right": "geduldiger Lehrer, der erklärt" },
+          { "left": "Vokabeltraining mit KI", "right": "Wortschatz und Dialoge üben" },
+          { "left": "Konzept erklären lassen", "right": "ein Thema verständlich aufbereiten lassen" },
+          { "left": "Neues Thema erkunden", "right": "sich mit Fragen Schritt für Schritt einarbeiten" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-konzept",
+      "type": "exercise",
+      "theory_ref": "step-tutor",
+      "title": "Einfach erklären lassen",
+      "exercise": {
+        "id": "ex-cloze-konzept",
+        "type": "cloze",
+        "prompt": "Ergänze, worum du die KI bittest, wenn ein Thema zu schwierig ist.",
+        "card_ids": ["konzept-erklaeren"],
+        "sentence": "Wenn ein Thema schwierig ist, lasse ich es mir von der KI einfach ___ .",
+        "blanks": [
+          { "accept": ["erklären", "erklären lassen", "erläutern"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Verständlich machen, oft mit Beispielen."
+      }
+    },
+    {
+      "id": "ex-tiles-sprachen",
+      "type": "exercise",
+      "theory_ref": "intro-lernen",
+      "title": "Merksatz zum Sprachenlernen",
+      "exercise": {
+        "id": "ex-tiles-sprachen",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zum Sprachenlernen mit KI zusammen.",
+        "card_ids": ["vokabeltraining-ki"],
+        "tiles": ["Die", "KI", "übt", "Vokabeln", "und", "korrigiert", "meine", "Sätze"],
+        "hint": "Beginnt mit: Die KI übt Vokabeln …",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

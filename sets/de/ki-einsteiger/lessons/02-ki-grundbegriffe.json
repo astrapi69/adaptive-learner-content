@@ -1,0 +1,242 @@
+{
+  "id": "02-ki-grundbegriffe",
+  "title": "KI-Grundbegriffe",
+  "description": "Die wichtigsten Grundbegriffe der künstlichen Intelligenz verständlich erklärt: Maschinelles Lernen, neuronale Netze, Trainingsdaten, Modelle, Sprachmodelle und gängige KI-Mythen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "maschinelles-lernen",
+      "front": "Maschinelles Lernen",
+      "back": "Verfahren, bei dem ein Computer aus Daten lernt, statt feste Regeln vorgegeben zu bekommen. Aus vielen Beispielen leitet er selbst Muster ab.",
+      "notes": "Englisch: Machine Learning (ML). Der Kern moderner KI.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grundbegriffe"]
+    },
+    {
+      "id": "neuronales-netz",
+      "front": "Neuronales Netz",
+      "back": "Ein Rechenmodell aus vielen verbundenen Recheneinheiten, das lose vom Aufbau des Gehirns inspiriert ist. Es verarbeitet Daten Schicht für Schicht.",
+      "notes": "Die einzelnen Einheiten heißen künstliche Neuronen. Es denkt nicht wie ein Gehirn, es rechnet.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grundbegriffe"]
+    },
+    {
+      "id": "trainingsdaten",
+      "front": "Trainingsdaten",
+      "back": "Die Beispiele, mit denen ein KI-Modell lernt — etwa Texte, Bilder oder Zahlen. Die Qualität dieser Daten bestimmt, wie gut das Modell wird.",
+      "notes": "Schlechte oder einseitige Trainingsdaten führen zu schlechten Ergebnissen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["grundbegriffe"]
+    },
+    {
+      "id": "modell",
+      "front": "Modell",
+      "back": "Das Ergebnis des Trainings — also das, was die KI gelernt hat. Mit dem fertigen Modell kann man dann neue Aufgaben lösen.",
+      "notes": "Man trainiert ein Modell einmal und nutzt es danach immer wieder.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grundbegriffe"]
+    },
+    {
+      "id": "sprachmodell",
+      "front": "Großes Sprachmodell (LLM)",
+      "back": "Ein KI-Modell, das auf riesigen Mengen Text trainiert wurde und daraus Sprache erzeugen und verstehen kann. Beispiele sind die Modelle hinter ChatGPT.",
+      "notes": "Englisch: Large Language Model (LLM). Sagt jeweils das wahrscheinlich nächste Wort voraus.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grundbegriffe", "llm"]
+    },
+    {
+      "id": "ki-mythos",
+      "front": "KI-Mythos",
+      "back": "Eine verbreitete falsche Vorstellung über KI — zum Beispiel, dass KI eigenständig denke, ein Bewusstsein habe oder niemals Fehler mache.",
+      "notes": "KI erkennt Muster und rechnet. Sie versteht nicht wie ein Mensch und kann sich irren.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["grundbegriffe", "mythen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-lernen",
+      "type": "theory",
+      "title": "Wie KI lernt",
+      "body": "# KI-Grundbegriffe\n\nModerne KI funktioniert anders, als man oft denkt. Sie bekommt **keine festen Regeln** vorgesetzt, sondern lernt aus Beispielen.\n\n## Maschinelles Lernen\n\nBeim **maschinellen Lernen** zeigt man dem Computer viele Beispiele, und er leitet daraus selbst Muster ab. Statt zu programmieren *Wenn rot und rund, dann Apfel*, zeigt man dem System tausende Bilder von Äpfeln — und es lernt selbst, wie ein Apfel aussieht.\n\nDie Beispiele, mit denen gelernt wird, heißen **Trainingsdaten**. Sie sind das Herzstück: Sind die Daten gut, wird das Ergebnis gut. Sind sie einseitig oder fehlerhaft, übernimmt die KI diese Schwächen.\n\n- **Trainingsdaten** — die Beispiele zum Lernen.\n- **Training** — der Lernvorgang selbst.\n- **Modell** — das fertige Gelernte, das man danach nutzt."
+    },
+    {
+      "id": "step-netze",
+      "type": "theory",
+      "title": "Neuronale Netze und Sprachmodelle",
+      "body": "## Neuronale Netze\n\nViele KI-Systeme beruhen auf **neuronalen Netzen**. Das sind Rechenmodelle aus vielen verbundenen Recheneinheiten, lose inspiriert vom Aufbau des Gehirns. Die Daten wandern Schicht für Schicht durch das Netz und werden dabei Schritt für Schritt verarbeitet.\n\nWichtig: Ein neuronales Netz **denkt nicht** wie ein Gehirn. Es rechnet nur sehr geschickt mit Zahlen.\n\n## Große Sprachmodelle\n\nEin **großes Sprachmodell (LLM)** ist ein neuronales Netz, das auf riesigen Mengen Text trainiert wurde. Es lernt, welche Wörter typischerweise aufeinanderfolgen, und kann so Texte verstehen und neue erzeugen.\n\n| Begriff | Kurz erklärt |\n|---|---|\n| **Maschinelles Lernen** | aus Daten lernen statt feste Regeln |\n| **Neuronales Netz** | verbundene Recheneinheiten in Schichten |\n| **Trainingsdaten** | die Beispiele zum Lernen |\n| **Modell** | das fertig Gelernte |\n| **Sprachmodell (LLM)** | Modell für Sprache, z. B. hinter ChatGPT |"
+    },
+    {
+      "id": "step-mythen",
+      "type": "theory",
+      "title": "Häufige KI-Mythen",
+      "body": "## Was KI NICHT ist\n\nUm KI sicher zu nutzen, hilft es, ein paar verbreitete **Mythen** zu kennen:\n\n- **Mythos: KI denkt eigenständig.** Falsch. KI erkennt Muster und rechnet Wahrscheinlichkeiten aus. Sie verfolgt keine eigenen Absichten.\n- **Mythos: KI hat ein Bewusstsein.** Falsch. Ein Modell *fühlt* und *will* nichts. Es erzeugt nur passende Antworten.\n- **Mythos: KI ist unfehlbar.** Falsch. KI kann sich irren und sogar überzeugend Falsches behaupten. Antworten sollte man prüfen.\n\nMerksatz: **KI ist ein mächtiges Werkzeug — aber kein denkendes Wesen.**"
+    },
+    {
+      "id": "ex-match-begriffe",
+      "type": "exercise",
+      "theory_ref": "step-netze",
+      "title": "Begriff und Definition",
+      "exercise": {
+        "id": "ex-match-begriffe",
+        "type": "matching",
+        "prompt": "Ordne jedem Grundbegriff seine kurze Erklärung zu.",
+        "card_ids": ["maschinelles-lernen", "neuronales-netz", "trainingsdaten", "modell"],
+        "pairs": [
+          { "left": "Maschinelles Lernen", "right": "aus Daten lernen statt feste Regeln" },
+          { "left": "Neuronales Netz", "right": "verbundene Recheneinheiten in Schichten" },
+          { "left": "Trainingsdaten", "right": "die Beispiele zum Lernen" },
+          { "left": "Modell", "right": "das fertig Gelernte" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-lernt-aus",
+      "type": "exercise",
+      "theory_ref": "intro-lernen",
+      "title": "Woraus KI lernt",
+      "exercise": {
+        "id": "ex-cloze-lernt-aus",
+        "type": "cloze",
+        "prompt": "Ergänze, woraus eine KI beim maschinellen Lernen lernt.",
+        "card_ids": ["maschinelles-lernen", "trainingsdaten"],
+        "sentence": "KI lernt aus ___ .",
+        "blanks": [
+          { "accept": ["Daten", "Trainingsdaten", "Beispielen"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Es sind die Beispiele, mit denen trainiert wird."
+      }
+    },
+    {
+      "id": "ex-free-denken",
+      "type": "exercise",
+      "theory_ref": "step-mythen",
+      "title": "Richtig oder falsch?",
+      "exercise": {
+        "id": "ex-free-denken",
+        "type": "free_text",
+        "prompt": "Richtig oder falsch: KI kann eigenständig denken.",
+        "card_ids": ["ki-mythos"],
+        "accept": ["falsch", "Falsch", "nein", "Nein"],
+        "hint": "KI erkennt nur Muster und rechnet — sie verfolgt keine eigenen Absichten.",
+        "distractors": ["richtig", "wahr"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-was-lernt",
+      "type": "exercise",
+      "theory_ref": "intro-lernen",
+      "title": "Begriff zur Definition",
+      "exercise": {
+        "id": "ex-free-was-lernt",
+        "type": "free_text",
+        "prompt": "Wie nennt man das Verfahren, bei dem ein Computer aus Daten lernt statt feste Regeln vorgegeben zu bekommen?",
+        "card_ids": ["maschinelles-lernen"],
+        "accept": ["Maschinelles Lernen", "maschinelles Lernen", "Machine Learning", "ML"],
+        "hint": "Englisch: Machine Learning.",
+        "distractors": ["Tabellenkalkulation", "Datenbank", "Programmieren"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-mythen",
+      "type": "exercise",
+      "theory_ref": "step-mythen",
+      "title": "Mythos oder Wahrheit",
+      "exercise": {
+        "id": "ex-match-mythen",
+        "type": "matching",
+        "prompt": "Ordne jeder Aussage zu, ob sie ein Mythos oder zutreffend ist.",
+        "card_ids": ["ki-mythos", "maschinelles-lernen"],
+        "pairs": [
+          { "left": "KI hat ein Bewusstsein", "right": "Mythos" },
+          { "left": "KI ist unfehlbar", "right": "Mythos" },
+          { "left": "KI lernt aus Daten", "right": "zutreffend" },
+          { "left": "KI erkennt Muster", "right": "zutreffend" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-sprachmodell",
+      "type": "exercise",
+      "theory_ref": "step-netze",
+      "title": "Worauf ein LLM trainiert wird",
+      "exercise": {
+        "id": "ex-cloze-sprachmodell",
+        "type": "cloze",
+        "prompt": "Ergänze, womit ein großes Sprachmodell trainiert wird.",
+        "card_ids": ["sprachmodell"],
+        "sentence": "Ein großes Sprachmodell wird auf riesigen Mengen ___ trainiert.",
+        "blanks": [
+          { "accept": ["Text", "Texten", "Textdaten"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Daraus lernt es, welche Wörter aufeinanderfolgen."
+      }
+    },
+    {
+      "id": "ex-tiles-werkzeug",
+      "type": "exercise",
+      "theory_ref": "step-mythen",
+      "title": "Merksatz zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-werkzeug",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz aus der Lektion zusammen.",
+        "card_ids": ["ki-mythos"],
+        "tiles": ["KI", "ist", "ein", "Werkzeug", "kein", "denkendes", "Wesen"],
+        "hint": "Beginnt mit: KI ist ein …",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-modell",
+      "type": "exercise",
+      "theory_ref": "intro-lernen",
+      "title": "Das Gelernte benennen",
+      "exercise": {
+        "id": "ex-free-modell",
+        "type": "free_text",
+        "prompt": "Wie nennt man das fertige Ergebnis des Trainings, also das, was die KI gelernt hat?",
+        "card_ids": ["modell"],
+        "accept": ["Modell", "das Modell", "KI-Modell"],
+        "hint": "Man trainiert es einmal und nutzt es danach immer wieder.",
+        "distractors": ["Trainingsdaten", "Regel", "Programm"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-netz",
+      "type": "exercise",
+      "theory_ref": "step-netze",
+      "title": "Was ist ein neuronales Netz?",
+      "exercise": {
+        "id": "ex-pick-netz",
+        "type": "picture_choice",
+        "prompt": "Welche Beschreibung trifft auf ein neuronales Netz zu?",
+        "card_ids": ["neuronales-netz"],
+        "images": [
+          { "src": "assets/img/ki-netz.png", "label": "Viele verbundene Recheneinheiten in Schichten", "is_correct": "true" },
+          { "src": "assets/img/ki-tabelle.png", "label": "Eine einfache Tabelle mit festen Regeln" },
+          { "src": "assets/img/ki-ordner.png", "label": "Ein Ordner mit gespeicherten Dateien" }
+        ],
+        "hint": "Der Aufbau ist lose vom Gehirn inspiriert.",
+        "distractors": ["Eine einfache Tabelle mit festen Regeln", "Ein Ordner mit gespeicherten Dateien"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
