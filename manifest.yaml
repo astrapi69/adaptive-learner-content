@@ -431,6 +431,32 @@ sets:
       - beginner
       - programming
       - python
+  - id: ki-einsteiger-from-de
+    title: KI für Einsteiger
+    title_native: KI für Einsteiger
+    target_language: de
+    source_language: de
+    domain: ai
+    level: A1
+    path: sets/de/ki-einsteiger
+    version: '1.0.0'
+    lesson_count: 12
+    description: >-
+      Begleitkurs zum Buch „KI für Einsteiger" von Asterios
+      Raptis (12 Lektionen): KI im Alltag und Grundbegriffe,
+      Prompt-Engineering (Grundlagen und Prompt-Typen), KI für
+      Projekte, Lernen, Kreativität, Produktivität und Teamarbeit
+      sowie ein Tool-Überblick und KI-Ethik. Erklärt auf Deutsch,
+      mit eigenständigem Lerninhalt. Erstes KI-Set (domain: ai).
+    tags:
+      - beginner
+      - ai
+      - prompt-engineering
+    book:
+      title: "KI für Einsteiger"
+      author: "Asterios Raptis"
+      asin: "B0F43H6T2M"
+      url: "https://www.amazon.de/dp/B0F43H6T2M"
 metadata:
   author: Asterios Raptis
   license: CC-BY-SA-4.0
