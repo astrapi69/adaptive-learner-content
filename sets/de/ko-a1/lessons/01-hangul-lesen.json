@@ -1,0 +1,259 @@
+{
+  "id": "01-hangul-lesen",
+  "title": "Hangul lesen",
+  "description": "Die koreanische Schrift Hangul: Grundkonsonanten, Grundvokale und wie man sie zu Silben kombiniert — auf Deutsch erklärt.",
+  "target_language": "ko",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "konsonant-g",
+      "front": "ㄱ",
+      "back": "Konsonant g/k",
+      "notes": "Romanisierung: g (am Wortanfang oft wie k). Kontext: 가 (ga) – Silbe aus ㄱ + ㅏ.",
+      "difficulty": 1,
+      "tags": ["hangul", "konsonant"]
+    },
+    {
+      "id": "konsonant-n",
+      "front": "ㄴ",
+      "back": "Konsonant n",
+      "notes": "Romanisierung: n. Kontext: 나 (na) – 'ich' (informell), Silbe aus ㄴ + ㅏ.",
+      "difficulty": 1,
+      "tags": ["hangul", "konsonant"]
+    },
+    {
+      "id": "konsonant-d",
+      "front": "ㄷ",
+      "back": "Konsonant d/t",
+      "notes": "Romanisierung: d (am Wortanfang oft wie t). Kontext: 다 (da) – Silbe aus ㄷ + ㅏ.",
+      "difficulty": 1,
+      "tags": ["hangul", "konsonant"]
+    },
+    {
+      "id": "konsonant-r",
+      "front": "ㄹ",
+      "back": "Konsonant r/l",
+      "notes": "Romanisierung: r/l. Kontext: 라 (ra) – Silbe aus ㄹ + ㅏ.",
+      "difficulty": 2,
+      "tags": ["hangul", "konsonant"]
+    },
+    {
+      "id": "konsonant-m",
+      "front": "ㅁ",
+      "back": "Konsonant m",
+      "notes": "Romanisierung: m. Kontext: 마 (ma) – Silbe aus ㅁ + ㅏ.",
+      "difficulty": 1,
+      "tags": ["hangul", "konsonant"]
+    },
+    {
+      "id": "konsonant-b",
+      "front": "ㅂ",
+      "back": "Konsonant b/p",
+      "notes": "Romanisierung: b (am Wortanfang oft wie p). Kontext: 바 (ba) – Silbe aus ㅂ + ㅏ.",
+      "difficulty": 1,
+      "tags": ["hangul", "konsonant"]
+    },
+    {
+      "id": "konsonant-s",
+      "front": "ㅅ",
+      "back": "Konsonant s",
+      "notes": "Romanisierung: s. Kontext: 사 (sa) – auch 'vier', Silbe aus ㅅ + ㅏ.",
+      "difficulty": 1,
+      "tags": ["hangul", "konsonant"]
+    },
+    {
+      "id": "konsonant-ng",
+      "front": "ㅇ",
+      "back": "stumm / ng",
+      "notes": "Romanisierung: am Silbenanfang stumm, am Silbenende 'ng'. Kontext: 아 (a) – ㅇ ist hier stumm, man hört nur den Vokal.",
+      "difficulty": 2,
+      "tags": ["hangul", "konsonant"]
+    },
+    {
+      "id": "vokal-a",
+      "front": "ㅏ",
+      "back": "Vokal a",
+      "notes": "Romanisierung: a. Kontext: 가 (ga) – ㄱ + ㅏ ergibt 'ga'.",
+      "difficulty": 1,
+      "tags": ["hangul", "vokal"]
+    },
+    {
+      "id": "vokal-eo",
+      "front": "ㅓ",
+      "back": "Vokal eo (offenes o)",
+      "notes": "Romanisierung: eo (wie offenes 'o' in 'Sonne'). Kontext: 너 (neo) – 'du', ㄴ + ㅓ.",
+      "difficulty": 2,
+      "tags": ["hangul", "vokal"]
+    },
+    {
+      "id": "vokal-o",
+      "front": "ㅗ",
+      "back": "Vokal o (geschlossen)",
+      "notes": "Romanisierung: o. Kontext: 도 (do) – ㄷ + ㅗ.",
+      "difficulty": 1,
+      "tags": ["hangul", "vokal"]
+    },
+    {
+      "id": "vokal-u",
+      "front": "ㅜ",
+      "back": "Vokal u",
+      "notes": "Romanisierung: u. Kontext: 무 (mu) – ㅁ + ㅜ.",
+      "difficulty": 1,
+      "tags": ["hangul", "vokal"]
+    },
+    {
+      "id": "vokal-eu",
+      "front": "ㅡ",
+      "back": "Vokal eu",
+      "notes": "Romanisierung: eu (gepresstes 'ü/u', wie unbetontes 'e'). Kontext: 그 (geu) – 'jener', ㄱ + ㅡ.",
+      "difficulty": 2,
+      "tags": ["hangul", "vokal"]
+    },
+    {
+      "id": "vokal-i",
+      "front": "ㅣ",
+      "back": "Vokal i",
+      "notes": "Romanisierung: i. Kontext: 미 (mi) – ㅁ + ㅣ.",
+      "difficulty": 1,
+      "tags": ["hangul", "vokal"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Was ist Hangul?",
+      "body": "# Hangul — die koreanische Schrift\n\nKoreanisch wird in **Hangul** geschrieben, einem Alphabet aus einfachen Strichen. Anders als chinesische Zeichen steht jedes Hangul-Symbol für einen **Laut**.\n\nMan kombiniert Konsonanten und Vokale zu **Silbenblöcken**. Jeder Block enthält mindestens einen Konsonanten und einen Vokal.\n\n## Grundkonsonanten\n\n| Zeichen | Laut |\n|---|---|\n| ㄱ | g/k |\n| ㄴ | n |\n| ㄷ | d/t |\n| ㄹ | r/l |\n| ㅁ | m |\n| ㅂ | b/p |\n| ㅅ | s |\n| ㅇ | stumm / ng |\n\n## Grundvokale\n\n| Zeichen | Laut |\n|---|---|\n| ㅏ | a |\n| ㅓ | eo |\n| ㅗ | o |\n| ㅜ | u |\n| ㅡ | eu |\n| ㅣ | i |"
+    },
+    {
+      "id": "step-silben",
+      "type": "theory",
+      "title": "Silben bilden",
+      "body": "## Silbenblöcke\n\nEine Silbe = **Konsonant + Vokal**. Die Anordnung hängt vom Vokal ab:\n\n- Senkrechte Vokale (ㅏ ㅓ ㅣ) stehen **rechts**: ㄱ + ㅏ = 가 (ga)\n- Waagerechte Vokale (ㅗ ㅜ ㅡ) stehen **unten**: ㄷ + ㅗ = 도 (do)\n\nBeispiele: 가 (ga), 나 (na), 다 (da), 마 (ma), 사 (sa).\n\nBeginnt eine Silbe mit einem Vokal, schreibt man das stumme ㅇ davor: ㅇ + ㅏ = 아 (a)."
+    },
+    {
+      "id": "ex-match-konsonanten",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Konsonanten zuordnen",
+      "exercise": {
+        "id": "ex-match-konsonanten",
+        "type": "matching",
+        "prompt": "Ordne jedem Hangul-Konsonanten seinen Laut zu.",
+        "card_ids": ["konsonant-g", "konsonant-n", "konsonant-m", "konsonant-s"],
+        "pairs": [
+          {"left": "ㄱ", "right": "g/k"},
+          {"left": "ㄴ", "right": "n"},
+          {"left": "ㅁ", "right": "m"},
+          {"left": "ㅅ", "right": "s"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-vokale",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Vokale zuordnen",
+      "exercise": {
+        "id": "ex-match-vokale",
+        "type": "matching",
+        "prompt": "Ordne jedem Hangul-Vokal seinen Laut zu.",
+        "card_ids": ["vokal-a", "vokal-o", "vokal-u", "vokal-i"],
+        "pairs": [
+          {"left": "ㅏ", "right": "a"},
+          {"left": "ㅗ", "right": "o"},
+          {"left": "ㅜ", "right": "u"},
+          {"left": "ㅣ", "right": "i"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-na",
+      "type": "exercise",
+      "theory_ref": "step-silben",
+      "title": "Silbe lesen: 나",
+      "exercise": {
+        "id": "ex-free-na",
+        "type": "free_text",
+        "prompt": "Wie wird die Silbe 나 (ㄴ + ㅏ) romanisiert?",
+        "card_ids": ["konsonant-n", "vokal-a"],
+        "accept": ["na", "Na"],
+        "hint": "Konsonant n + Vokal a.",
+        "distractors": ["ga", "da", "ma"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-do",
+      "type": "exercise",
+      "theory_ref": "step-silben",
+      "title": "Silbe lesen: 도",
+      "exercise": {
+        "id": "ex-free-do",
+        "type": "free_text",
+        "prompt": "Wie wird die Silbe 도 (ㄷ + ㅗ) romanisiert?",
+        "card_ids": ["konsonant-d", "vokal-o"],
+        "accept": ["do", "Do"],
+        "hint": "Konsonant d + Vokal o.",
+        "distractors": ["da", "du", "go"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-silbe-ga",
+      "type": "exercise",
+      "theory_ref": "step-silben",
+      "title": "Silbe bauen",
+      "exercise": {
+        "id": "ex-cloze-silbe-ga",
+        "type": "cloze",
+        "prompt": "Ergänze die Silbe, die aus ㄱ + ㅏ entsteht.",
+        "card_ids": ["konsonant-g", "vokal-a"],
+        "sentence": "ㄱ + ㅏ = ___",
+        "blanks": [{"accept": ["가"]}],
+        "cloze_mode": "type",
+        "hint": "Romanisiert 'ga'."
+      }
+    },
+    {
+      "id": "ex-tiles-sa",
+      "type": "exercise",
+      "theory_ref": "step-silben",
+      "title": "Bausteine von 사",
+      "exercise": {
+        "id": "ex-tiles-sa",
+        "type": "word_tiles",
+        "prompt": "Setze die Bausteine der Silbe 사 (sa) in der richtigen Reihenfolge zusammen.",
+        "card_ids": ["konsonant-s", "vokal-a"],
+        "tiles": ["ㅅ", "ㅏ"],
+        "hint": "Erst der Konsonant, dann der Vokal.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-vokal-eu",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Vokal erkennen: eu",
+      "exercise": {
+        "id": "ex-pick-vokal-eu",
+        "type": "picture_choice",
+        "prompt": "Welches Zeichen ist der Vokal 'eu'?",
+        "card_ids": ["vokal-eu"],
+        "images": [
+          {"src": "assets/img/eu.png", "label": "ㅡ", "is_correct": "true"},
+          {"src": "assets/img/a.png", "label": "ㅏ"},
+          {"src": "assets/img/o.png", "label": "ㅗ"},
+          {"src": "assets/img/i.png", "label": "ㅣ"}
+        ],
+        "hint": "Ein einfacher waagerechter Strich.",
+        "distractors": ["ㅏ", "ㅗ", "ㅣ"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

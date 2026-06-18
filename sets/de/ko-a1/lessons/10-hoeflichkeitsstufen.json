@@ -1,0 +1,214 @@
+{
+  "id": "10-hoeflichkeitsstufen",
+  "title": "Höflichkeitsstufen",
+  "description": "Überblick über die koreanischen Höflichkeitsstufen: die alltägliche Haeyo-che mit -요 und die formelle Stufe mit -ㅂ니다/-습니다 — auf Deutsch erklärt.",
+  "target_language": "ko",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "yo-endung",
+      "front": "-요",
+      "back": "höfliche Alltagsendung (Haeyo-che)",
+      "notes": "Romanisierung: -yo. Kontext: 가요 (gayo) – ich gehe (höflich, alltäglich). Die -요-Endung macht fast jeden Satz höflich.",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit", "grammatik"]
+    },
+    {
+      "id": "mnida-endung",
+      "front": "-ㅂ니다/-습니다",
+      "back": "formelle Endung (Hapsyo-che)",
+      "notes": "Romanisierung: -mnida / -seumnida. Kontext: 갑니다 (gamnida) – ich gehe (formell). Für Nachrichten, Vorträge, sehr förmliche Situationen.",
+      "difficulty": 3,
+      "tags": ["hoeflichkeit", "grammatik"]
+    },
+    {
+      "id": "gayo",
+      "front": "가요",
+      "back": "ich gehe (höflich)",
+      "notes": "Romanisierung: gayo. Kontext: 학교에 가요 (hakgyoe gayo) – Ich gehe zur Schule. Grundform: 가다 (gada).",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit", "verb"]
+    },
+    {
+      "id": "gamnida",
+      "front": "갑니다",
+      "back": "ich gehe (formell)",
+      "notes": "Romanisierung: gamnida. Kontext: 지금 갑니다 (jigeum gamnida) – Ich gehe jetzt. Formelle Form von 가다.",
+      "difficulty": 3,
+      "tags": ["hoeflichkeit", "verb"]
+    },
+    {
+      "id": "meogeoyo",
+      "front": "먹어요",
+      "back": "ich esse (höflich)",
+      "notes": "Romanisierung: meogeoyo. Kontext: 밥을 먹어요 (babeul meogeoyo) – Ich esse. Grundform: 먹다 (meokda).",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit", "verb"]
+    },
+    {
+      "id": "meokseumnida",
+      "front": "먹습니다",
+      "back": "ich esse (formell)",
+      "notes": "Romanisierung: meokseumnida. Kontext: 점심을 먹습니다 (jeomsimeul meokseumnida) – Ich esse zu Mittag. Formell, Stamm endet auf Konsonant → -습니다.",
+      "difficulty": 3,
+      "tags": ["hoeflichkeit", "verb"]
+    },
+    {
+      "id": "imnida-kopula",
+      "front": "입니다",
+      "back": "ist / bin (formell)",
+      "notes": "Romanisierung: imnida. Kontext: 학생입니다 (haksaeng-imnida) – Ich bin Studentin (formell).",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit", "kopula"]
+    },
+    {
+      "id": "ieyo-kopula",
+      "front": "이에요",
+      "back": "ist / bin (höflich)",
+      "notes": "Romanisierung: ieyo. Kontext: 학생이에요 (haksaeng-ieyo) – Ich bin Studentin (höflich, alltäglich).",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit", "kopula"]
+    },
+    {
+      "id": "banmal",
+      "front": "반말",
+      "back": "informelle Sprache (ohne -요)",
+      "notes": "Romanisierung: banmal. Kontext: 친구한테 반말해요 (chinguhante banmalhaeyo) – Mit Freunden spricht man informell. 가 (ga) statt 가요.",
+      "difficulty": 3,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "jondaenmal",
+      "front": "존댓말",
+      "back": "höfliche Sprache (mit -요/-ㅂ니다)",
+      "notes": "Romanisierung: jondaenmal. Kontext: 어른한테 존댓말을 써요 (eorunhante jondaenmareul sseoyo) – Mit Erwachsenen verwendet man die Höflichkeitssprache.",
+      "difficulty": 3,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "hapnida-gamsa",
+      "front": "감사합니다",
+      "back": "Danke (formell)",
+      "notes": "Romanisierung: gamsahamnida. Kontext: 감사합니다 endet auf -ㅂ니다 und ist die formelle Stufe; alltäglich sagt man auch 고마워요 (gomawoyo).",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Zwei Höflichkeitsstufen",
+      "body": "# Höflichkeitsstufen\n\nIm Koreanischen ändert sich die **Verbendung** je nach Höflichkeit. Für den Anfang reichen zwei Stufen:\n\n## 1. Haeyo-che — höflich-alltäglich (-요)\nDie wichtigste Stufe für Lernende. Man hängt **-요 (-yo)** an. Passt fast überall: im Laden, bei Bekannten, im Café.\n\n- 가요 (gayo) — ich gehe\n- 먹어요 (meogeoyo) — ich esse\n- 학생이에요 (haksaeng-ieyo) — ich bin Studentin\n\n## 2. Hapsyo-che — formell (-ㅂ니다/-습니다)\nFür Nachrichten, Reden, Vorstellungsgespräche, sehr förmliche Situationen.\n\n- 갑니다 (gamnida) — ich gehe\n- 먹습니다 (meokseumnida) — ich esse\n- 학생입니다 (haksaeng-imnida) — ich bin Studentin"
+    },
+    {
+      "id": "step-regel",
+      "type": "theory",
+      "title": "Die Regel und 반말",
+      "body": "## Formell bilden\n\nVom Verbstamm aus:\n\n- endet der Stamm auf einen **Vokal** → **-ㅂ니다**: 가 → 갑니다 (gamnida)\n- endet er auf einen **Konsonanten** → **-습니다**: 먹 → 먹습니다 (meokseumnida)\n\n## Höflich vs. informell\n\n- **존댓말 (jondaenmal)** = höfliche Sprache (mit -요 oder -ㅂ니다) — für Ältere, Fremde, Vorgesetzte.\n- **반말 (banmal)** = informell, **ohne** -요 — nur unter engen Freunden gleichen Alters und mit Kindern.\n\nLässt man bei 가요 das -요 weg, wird daraus 가 (ga) — banmal. Als Lernende(r) bleibst du sicher bei -요."
+    },
+    {
+      "id": "ex-match-stufen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Formen zuordnen",
+      "exercise": {
+        "id": "ex-match-stufen",
+        "type": "matching",
+        "prompt": "Ordne jeder koreanischen Form die deutsche Beschreibung zu.",
+        "card_ids": ["gayo", "gamnida", "meogeoyo", "meokseumnida"],
+        "pairs": [
+          {"left": "가요", "right": "ich gehe (höflich)"},
+          {"left": "갑니다", "right": "ich gehe (formell)"},
+          {"left": "먹어요", "right": "ich esse (höflich)"},
+          {"left": "먹습니다", "right": "ich esse (formell)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-begriffe",
+      "type": "exercise",
+      "theory_ref": "step-regel",
+      "title": "Begriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-begriffe",
+        "type": "matching",
+        "prompt": "Ordne die Höflichkeitsbegriffe zu.",
+        "card_ids": ["yo-endung", "mnida-endung", "banmal", "jondaenmal"],
+        "pairs": [
+          {"left": "-요", "right": "höfliche Alltagsendung"},
+          {"left": "-ㅂ니다/-습니다", "right": "formelle Endung"},
+          {"left": "반말", "right": "informelle Sprache"},
+          {"left": "존댓말", "right": "höfliche Sprache"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-formell-gehen",
+      "type": "exercise",
+      "theory_ref": "step-regel",
+      "title": "Gehen (formell)",
+      "exercise": {
+        "id": "ex-free-formell-gehen",
+        "type": "free_text",
+        "prompt": "Wie lautet 'ich gehe' in der formellen Stufe (von 가다)? (Hangul oder Romanisierung)",
+        "card_ids": ["gamnida"],
+        "accept": ["갑니다", "gamnida", "Gamnida"],
+        "hint": "Stamm 가 endet auf Vokal → -ㅂ니다.",
+        "distractors": ["가요", "gayo", "먹습니다"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-hoeflich-essen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Essen (höflich-alltäglich)",
+      "exercise": {
+        "id": "ex-free-hoeflich-essen",
+        "type": "free_text",
+        "prompt": "Wie lautet 'ich esse' in der höflich-alltäglichen Stufe (Haeyo-che)? (Hangul oder Romanisierung)",
+        "card_ids": ["meogeoyo"],
+        "accept": ["먹어요", "meogeoyo", "Meogeoyo"],
+        "hint": "Endet auf -어요.",
+        "distractors": ["먹습니다", "meokseumnida", "갑니다"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-formell-essen",
+      "type": "exercise",
+      "theory_ref": "step-regel",
+      "title": "Lücke füllen: formell essen",
+      "exercise": {
+        "id": "ex-cloze-formell-essen",
+        "type": "cloze",
+        "prompt": "Ergänze die formelle Form von 먹다 ('essen'). Der Stamm endet auf einen Konsonanten.",
+        "card_ids": ["meokseumnida"],
+        "sentence": "점심을 ___ .",
+        "blanks": [{"accept": ["먹습니다", "meokseumnida"]}],
+        "cloze_mode": "type",
+        "hint": "Konsonant-Stamm → -습니다."
+      }
+    },
+    {
+      "id": "ex-tiles-bin-student-formell",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Formelle Vorstellung",
+      "exercise": {
+        "id": "ex-tiles-bin-student-formell",
+        "type": "word_tiles",
+        "prompt": "Baue 'Ich bin Studentin.' in der formellen Stufe.",
+        "card_ids": ["imnida-kopula"],
+        "tiles": ["학생", "입니다"],
+        "hint": "Student + formelle Kopula.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

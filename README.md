@@ -26,8 +26,9 @@ Official content repository for [Adaptive Learner](https://github.com/astrapi69/
 | Python — Grundlagen | Deutsch (DE) | Deutsch (DE) | 15 | A1 | Programmierung |
 | KI für Einsteiger | Deutsch (DE) | Deutsch (DE) | 12 | Einsteiger | KI |
 | Japanisch A1 | Deutsch (DE) | 日本語 (JA) | 10 | A1 | Sprache |
+| Koreanisch A1 | Deutsch (DE) | 한국어 (KO) | 10 | A1 | Sprache |
 
-**368 Lektionen · ~77 Stunden Lernmaterial**
+**378 Lektionen · ~79 Stunden Lernmaterial**
 
 ## Directory Structure
 
@@ -46,7 +47,8 @@ sets/
 │   ├── psych-intro/    # Domain: Psychology
 │   ├── python-basics/  # Domain: Programming
 │   ├── ki-einsteiger/  # Domain: AI
-│   └── ja-a1/          # Target: Japanese A1
+│   ├── ja-a1/          # Target: Japanese A1
+│   └── ko-a1/          # Target: Korean A1
 ├── en/                 # Source language: English
 │   ├── de-a1/          # Target: German A1
 │   ├── fr-a1/          # Target: French A1

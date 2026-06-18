@@ -1,0 +1,224 @@
+{
+  "id": "02-begruessungen",
+  "title": "Begrüßungen",
+  "description": "Höfliche Begrüßungen, Verabschiedungen und Grundausdrücke wie Danke, Ja und Nein — auf Deutsch erklärt.",
+  "target_language": "ko",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "annyeonghaseyo",
+      "front": "안녕하세요",
+      "back": "Hallo / Guten Tag",
+      "notes": "Romanisierung: annyeonghaseyo. Kontext: 안녕하세요, 만나서 반갑습니다 (annyeonghaseyo, mannaseo bangapseumnida) – Hallo, schön Sie kennenzulernen.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "annyeong",
+      "front": "안녕",
+      "back": "Hallo / Tschüss (informell)",
+      "notes": "Romanisierung: annyeong. Kontext: 안녕, 잘 지냈어? (annyeong, jal jinaesseo?) – Hi, wie ging's dir?",
+      "difficulty": 1,
+      "tags": ["begruessung", "informell"]
+    },
+    {
+      "id": "gamsahamnida",
+      "front": "감사합니다",
+      "back": "Danke (höflich)",
+      "notes": "Romanisierung: gamsahamnida. Kontext: 도와주셔서 감사합니다 (dowajusyeoseo gamsahamnida) – Danke für Ihre Hilfe.",
+      "difficulty": 1,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "ne",
+      "front": "네",
+      "back": "Ja",
+      "notes": "Romanisierung: ne. Kontext: 네, 맞아요 (ne, majayo) – Ja, das stimmt.",
+      "difficulty": 1,
+      "tags": ["grundwort"]
+    },
+    {
+      "id": "aniyo",
+      "front": "아니요",
+      "back": "Nein",
+      "notes": "Romanisierung: aniyo. Kontext: 아니요, 괜찮아요 (aniyo, gwaenchanayo) – Nein, danke, es ist in Ordnung.",
+      "difficulty": 1,
+      "tags": ["grundwort"]
+    },
+    {
+      "id": "annyeonghi-gaseyo",
+      "front": "안녕히 가세요",
+      "back": "Auf Wiedersehen (zur Person, die geht)",
+      "notes": "Romanisierung: annyeonghi gaseyo. Kontext: 안녕히 가세요, 또 봐요 (annyeonghi gaseyo, tto bwayo) – Auf Wiedersehen, bis bald.",
+      "difficulty": 2,
+      "tags": ["verabschiedung"]
+    },
+    {
+      "id": "annyeonghi-gyeseyo",
+      "front": "안녕히 계세요",
+      "back": "Auf Wiedersehen (zur Person, die bleibt)",
+      "notes": "Romanisierung: annyeonghi gyeseyo. Kontext: 안녕히 계세요 (annyeonghi gyeseyo) – sagt, wer selbst geht, zur bleibenden Person.",
+      "difficulty": 2,
+      "tags": ["verabschiedung"]
+    },
+    {
+      "id": "joesonghamnida",
+      "front": "죄송합니다",
+      "back": "Entschuldigung / Es tut mir leid",
+      "notes": "Romanisierung: joesonghamnida. Kontext: 늦어서 죄송합니다 (neujeoseo joesonghamnida) – Entschuldigung für die Verspätung.",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "cheonmaneyo",
+      "front": "천만에요",
+      "back": "Gern geschehen / Keine Ursache",
+      "notes": "Romanisierung: cheonmaneyo. Kontext: 감사합니다 — 천만에요 (gamsahamnida — cheonmaneyo) – Danke — Gern geschehen.",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "jal-jinaeseyo",
+      "front": "잘 지내세요?",
+      "back": "Wie geht es Ihnen?",
+      "notes": "Romanisierung: jal jinaeseyo? Kontext: 안녕하세요, 잘 지내세요? (annyeonghaseyo, jal jinaeseyo?) – Hallo, wie geht es Ihnen?",
+      "difficulty": 2,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "jal-jinaeyo",
+      "front": "잘 지내요",
+      "back": "Mir geht es gut",
+      "notes": "Romanisierung: jal jinaeyo. Kontext: 네, 잘 지내요 (ne, jal jinaeyo) – Ja, mir geht es gut.",
+      "difficulty": 2,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "sillyehamnida",
+      "front": "실례합니다",
+      "back": "Entschuldigen Sie (um Aufmerksamkeit)",
+      "notes": "Romanisierung: sillyehamnida. Kontext: 실례합니다, 질문이 있어요 (sillyehamnida, jilmuni isseoyo) – Entschuldigung, ich habe eine Frage.",
+      "difficulty": 3,
+      "tags": ["hoeflichkeit"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Begrüßen auf Koreanisch",
+      "body": "# Begrüßungen\n\nDie wichtigste Begrüßung ist **안녕하세요 (annyeonghaseyo)** — sie passt zu jeder Tageszeit und ist höflich.\n\nUnter Freunden sagt man kurz **안녕 (annyeong)** — das bedeutet sowohl 'Hi' als auch 'Tschüss'.\n\n## Grundausdrücke\n\n- **네 (ne)** — Ja\n- **아니요 (aniyo)** — Nein\n- **감사합니다 (gamsahamnida)** — Danke\n- **죄송합니다 (joesonghamnida)** — Entschuldigung / Es tut mir leid"
+    },
+    {
+      "id": "step-abschied",
+      "type": "theory",
+      "title": "Verabschieden",
+      "body": "## Zwei Arten von 'Auf Wiedersehen'\n\nKoreanisch unterscheidet, wer geht:\n\n- **안녕히 가세요 (annyeonghi gaseyo)** — 'Gehen Sie wohl': sagt man zu der Person, die **weggeht**.\n- **안녕히 계세요 (annyeonghi gyeseyo)** — 'Bleiben Sie wohl': sagt man zu der Person, die **bleibt**.\n\nGehen beide (z. B. zwei Gäste), sagen beide *annyeonghi gaseyo*."
+    },
+    {
+      "id": "ex-match-begruessung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Ausdrücke zuordnen",
+      "exercise": {
+        "id": "ex-match-begruessung",
+        "type": "matching",
+        "prompt": "Ordne jedem koreanischen Ausdruck die deutsche Bedeutung zu.",
+        "card_ids": ["annyeonghaseyo", "gamsahamnida", "ne", "aniyo"],
+        "pairs": [
+          {"left": "안녕하세요", "right": "Hallo / Guten Tag"},
+          {"left": "감사합니다", "right": "Danke"},
+          {"left": "네", "right": "Ja"},
+          {"left": "아니요", "right": "Nein"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-hallo",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Hallo sagen",
+      "exercise": {
+        "id": "ex-free-hallo",
+        "type": "free_text",
+        "prompt": "Wie sagt man höflich 'Hallo' auf Koreanisch? (Hangul oder Romanisierung)",
+        "card_ids": ["annyeonghaseyo"],
+        "accept": ["안녕하세요", "annyeonghaseyo", "Annyeonghaseyo"],
+        "hint": "Beginnt mit 안녕...",
+        "distractors": ["감사합니다", "아니요", "안녕히 가세요"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-danke",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Danke sagen",
+      "exercise": {
+        "id": "ex-free-danke",
+        "type": "free_text",
+        "prompt": "Wie sagt man höflich 'Danke'? (Hangul oder Romanisierung)",
+        "card_ids": ["gamsahamnida"],
+        "accept": ["감사합니다", "gamsahamnida", "Gamsahamnida"],
+        "hint": "Endet auf ...합니다.",
+        "distractors": ["네", "천만에요", "안녕"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-abschied",
+      "type": "exercise",
+      "theory_ref": "step-abschied",
+      "title": "Lücke füllen: Abschied",
+      "exercise": {
+        "id": "ex-cloze-abschied",
+        "type": "cloze",
+        "prompt": "Du bleibst, dein Gast geht. Was sagst du zu ihm?",
+        "card_ids": ["annyeonghi-gaseyo"],
+        "sentence": "안녕히 ___ .",
+        "blanks": [{"accept": ["가세요", "gaseyo"]}],
+        "cloze_mode": "type",
+        "hint": "'Gehen Sie wohl' — Verb für gehen."
+      }
+    },
+    {
+      "id": "ex-tiles-wie-gehts",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Frage zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-wie-gehts",
+        "type": "word_tiles",
+        "prompt": "Baue die Frage 'Wie geht es Ihnen?'",
+        "card_ids": ["jal-jinaeseyo"],
+        "tiles": ["잘", "지내세요?"],
+        "hint": "Wörtlich 'gut leben Sie?'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-entschuldigung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Entschuldigung erkennen",
+      "exercise": {
+        "id": "ex-pick-entschuldigung",
+        "type": "picture_choice",
+        "prompt": "Welcher Ausdruck bedeutet 'Es tut mir leid'?",
+        "card_ids": ["joesonghamnida"],
+        "images": [
+          {"src": "assets/img/joesonghamnida.png", "label": "죄송합니다", "is_correct": "true"},
+          {"src": "assets/img/annyeong.png", "label": "안녕"},
+          {"src": "assets/img/ne.png", "label": "네"},
+          {"src": "assets/img/cheonmaneyo.png", "label": "천만에요"}
+        ],
+        "hint": "Eine Entschuldigung.",
+        "distractors": ["안녕", "네", "천만에요"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

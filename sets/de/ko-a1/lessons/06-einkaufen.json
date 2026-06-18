@@ -1,0 +1,224 @@
+{
+  "id": "06-einkaufen",
+  "title": "Einkaufen",
+  "description": "Nach dem Preis fragen, sagen ob etwas teuer oder billig ist und auf Dinge zeigen (dies/das/jenes) — auf Deutsch erklärt.",
+  "target_language": "ko",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "eolmayeyo",
+      "front": "얼마예요?",
+      "back": "Wie viel kostet das?",
+      "notes": "Romanisierung: eolmayeyo? Kontext: 이거 얼마예요? (igeo eolmayeyo?) – Wie viel kostet das hier?",
+      "difficulty": 1,
+      "tags": ["einkaufen", "frage"]
+    },
+    {
+      "id": "bissayo",
+      "front": "비싸요",
+      "back": "Es ist teuer",
+      "notes": "Romanisierung: bissayo. Kontext: 너무 비싸요 (neomu bissayo) – Das ist zu teuer.",
+      "difficulty": 2,
+      "tags": ["einkaufen", "adjektiv"]
+    },
+    {
+      "id": "ssayo",
+      "front": "싸요",
+      "back": "Es ist billig",
+      "notes": "Romanisierung: ssayo. Kontext: 이거 정말 싸요 (igeo jeongmal ssayo) – Das ist wirklich billig.",
+      "difficulty": 2,
+      "tags": ["einkaufen", "adjektiv"]
+    },
+    {
+      "id": "igeo",
+      "front": "이거",
+      "back": "dies / das hier",
+      "notes": "Romanisierung: igeo. Kontext: 이거 주세요 (igeo juseyo) – Das hier, bitte. Für Dinge nah bei mir.",
+      "difficulty": 1,
+      "tags": ["einkaufen", "demonstrativ"]
+    },
+    {
+      "id": "geugeo",
+      "front": "그거",
+      "back": "das (bei dir)",
+      "notes": "Romanisierung: geugeo. Kontext: 그거 얼마예요? (geugeo eolmayeyo?) – Wie viel kostet das (bei dir)? Für Dinge nah beim Gegenüber.",
+      "difficulty": 2,
+      "tags": ["einkaufen", "demonstrativ"]
+    },
+    {
+      "id": "jeogeo",
+      "front": "저거",
+      "back": "jenes (dort drüben)",
+      "notes": "Romanisierung: jeogeo. Kontext: 저거 보여주세요 (jeogeo boyeojuseyo) – Zeigen Sie mir das dort. Für entfernte Dinge.",
+      "difficulty": 2,
+      "tags": ["einkaufen", "demonstrativ"]
+    },
+    {
+      "id": "won",
+      "front": "원",
+      "back": "Won (koreanische Währung)",
+      "notes": "Romanisierung: won. Kontext: 만 원이에요 (man wonieyo) – Das kostet 10.000 Won.",
+      "difficulty": 1,
+      "tags": ["einkaufen", "geld"]
+    },
+    {
+      "id": "juseyo-einkaufen",
+      "front": "주세요",
+      "back": "Ich nehme / Bitte geben Sie mir",
+      "notes": "Romanisierung: juseyo. Kontext: 이거 주세요 (igeo juseyo) – Das hier nehme ich.",
+      "difficulty": 1,
+      "tags": ["einkaufen", "hoeflichkeit"]
+    },
+    {
+      "id": "kkakka-juseyo",
+      "front": "깎아 주세요",
+      "back": "Geben Sie mir bitte einen Rabatt",
+      "notes": "Romanisierung: kkakka juseyo. Kontext: 조금 깎아 주세요 (jogeum kkakka juseyo) – Geben Sie mir bitte etwas Rabatt.",
+      "difficulty": 3,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "eopseoyo",
+      "front": "없어요",
+      "back": "gibt es nicht / ist nicht da",
+      "notes": "Romanisierung: eopseoyo. Kontext: 지금 없어요 (jigeum eopseoyo) – Im Moment nicht vorhanden.",
+      "difficulty": 2,
+      "tags": ["einkaufen", "verb"]
+    },
+    {
+      "id": "isseoyo",
+      "front": "있어요",
+      "back": "gibt es / ist da",
+      "notes": "Romanisierung: isseoyo. Kontext: 이거 있어요? (igeo isseoyo?) – Haben Sie das?",
+      "difficulty": 2,
+      "tags": ["einkaufen", "verb"]
+    },
+    {
+      "id": "manwon",
+      "front": "만 원",
+      "back": "zehntausend Won",
+      "notes": "Romanisierung: man won. Kontext: 이거 만 원이에요 (igeo man wonieyo) – Das kostet 10.000 Won.",
+      "difficulty": 2,
+      "tags": ["einkaufen", "geld"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Nach dem Preis fragen",
+      "body": "# Einkaufen\n\nDie zentrale Frage ist **얼마예요? (eolmayeyo?)** — 'Wie viel kostet das?'\n\nWillst du auf etwas zeigen, kombinierst du sie mit einem Demonstrativwort:\n\n- **이거 (igeo)** — dies / das hier (bei mir)\n- **그거 (geugeo)** — das (bei dir)\n- **저거 (jeogeo)** — jenes (dort drüben)\n\nBeispiel: **이거 얼마예요?** (igeo eolmayeyo?) — Wie viel kostet das hier?\n\nPreise werden in **원 (won)** angegeben, mit sino-koreanischen Zahlen."
+    },
+    {
+      "id": "step-teuer-billig",
+      "type": "theory",
+      "title": "Teuer oder billig",
+      "body": "## Reagieren auf den Preis\n\n- **비싸요. (bissayo)** — Es ist teuer.\n- **싸요. (ssayo)** — Es ist billig.\n- **너무 비싸요! (neomu bissayo)** — Das ist zu teuer!\n\nKaufst du etwas, sagst du **이거 주세요. (igeo juseyo)** — 'Das hier nehme ich.'\n\nNützlich: **있어요? (isseoyo?)** 'Haben Sie das?' und die Antwort **없어요. (eopseoyo)** 'Gibt es nicht.'"
+    },
+    {
+      "id": "ex-match-einkaufen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wörter zuordnen",
+      "exercise": {
+        "id": "ex-match-einkaufen",
+        "type": "matching",
+        "prompt": "Ordne jedem koreanischen Wort die deutsche Bedeutung zu.",
+        "card_ids": ["igeo", "geugeo", "jeogeo", "won"],
+        "pairs": [
+          {"left": "이거", "right": "dies / das hier"},
+          {"left": "그거", "right": "das (bei dir)"},
+          {"left": "저거", "right": "jenes (dort drüben)"},
+          {"left": "원", "right": "Won (Währung)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-wieviel",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Nach dem Preis fragen",
+      "exercise": {
+        "id": "ex-free-wieviel",
+        "type": "free_text",
+        "prompt": "Wie fragt man 'Wie viel kostet das?' (Hangul oder Romanisierung)",
+        "card_ids": ["eolmayeyo"],
+        "accept": ["얼마예요?", "얼마예요", "eolmayeyo", "eolmayeyo?"],
+        "hint": "Beginnt mit 얼마...",
+        "distractors": ["비싸요", "있어요?", "주세요"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-teuer",
+      "type": "exercise",
+      "theory_ref": "step-teuer-billig",
+      "title": "Es ist teuer",
+      "exercise": {
+        "id": "ex-free-teuer",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Es ist teuer'? (Hangul oder Romanisierung)",
+        "card_ids": ["bissayo"],
+        "accept": ["비싸요", "bissayo", "Bissayo"],
+        "hint": "Gegenteil von 싸요.",
+        "distractors": ["싸요", "ssayo", "없어요"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-das-hier",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke füllen: das hier",
+      "exercise": {
+        "id": "ex-cloze-das-hier",
+        "type": "cloze",
+        "prompt": "Du zeigst auf etwas nah bei dir und fragst nach dem Preis. Ergänze das Demonstrativwort.",
+        "card_ids": ["igeo", "eolmayeyo"],
+        "sentence": "___ 얼마예요?",
+        "blanks": [{"accept": ["이거", "igeo"]}],
+        "cloze_mode": "type",
+        "hint": "'das hier' (bei mir)."
+      }
+    },
+    {
+      "id": "ex-tiles-zu-teuer",
+      "type": "exercise",
+      "theory_ref": "step-teuer-billig",
+      "title": "Zu teuer!",
+      "exercise": {
+        "id": "ex-tiles-zu-teuer",
+        "type": "word_tiles",
+        "prompt": "Baue den Satz 'Das ist zu teuer.'",
+        "card_ids": ["bissayo"],
+        "tiles": ["너무", "비싸요"],
+        "hint": "너무 = zu / sehr.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-billig",
+      "type": "exercise",
+      "theory_ref": "step-teuer-billig",
+      "title": "Billig erkennen",
+      "exercise": {
+        "id": "ex-pick-billig",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'Es ist billig'?",
+        "card_ids": ["ssayo"],
+        "images": [
+          {"src": "assets/img/ssayo.png", "label": "싸요", "is_correct": "true"},
+          {"src": "assets/img/bissayo.png", "label": "비싸요"},
+          {"src": "assets/img/eopseoyo.png", "label": "없어요"},
+          {"src": "assets/img/won.png", "label": "원"}
+        ],
+        "hint": "Gegenteil von teuer.",
+        "distractors": ["비싸요", "없어요", "원"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
