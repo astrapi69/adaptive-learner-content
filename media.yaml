@@ -15,7 +15,14 @@
 #   - Every url is a real, working http/https link (validated).
 #   - language: de or en (the language of the resource).
 #   - level: beginner | intermediate | advanced, where meaningful.
-#   - type: youtube | podcast | article.
+#   - type: youtube | podcast | article | book.
+#         ``book`` surfaces the companion book of a set as the first
+#         "further study" item; the canonical book record still lives
+#         in books.yaml.
+#   - set: optional set id an entry is tied to (e.g. ``ki-einsteiger``).
+#   - priority: lower sorts first. The companion ``book`` of a set uses
+#         ``priority: 0`` so it appears before all videos and links;
+#         every other entry defaults to ``priority: 10``.
 
 language:
   - title: "Easy Spanish — real street conversations"
@@ -58,12 +65,23 @@ language:
       Verbreitung, Aussprache und Grammatik.
 
 ai:
+  - title: "KI für Einsteiger"
+    set: ki-einsteiger
+    type: book
+    author: "Asterios Raptis"
+    url: "https://www.amazon.de/dp/B0F43H6T2M"
+    language: de
+    priority: 0
+    description: >-
+      Das Begleitbuch zu diesen Lektionen. Der vollständige
+      Buch-Eintrag steht in books.yaml.
   - title: "But what is a neural network?"
     type: youtube
     url: "https://www.youtube.com/watch?v=aircAruvnKk"
     language: en
     duration: "19min"
     level: beginner
+    priority: 10
     description: >-
       3Blue1Brown's visual introduction to neural networks — the single
       best starting point for understanding how they work.
@@ -72,6 +90,7 @@ ai:
     url: "https://www.youtube.com/playlist?list=PLZZWrBYkx7Otcjr3eCLZDCgfpqnxMY29s"
     language: en
     level: intermediate
+    priority: 10
     description: >-
       The full deep-learning playlist: gradient descent,
       backpropagation and the calculus behind training.
@@ -81,6 +100,7 @@ ai:
     language: en
     duration: "11min"
     level: beginner
+    priority: 10
     description: >-
       Episode 1 of Crash Course AI: a friendly, jargon-free overview of
       what AI is and is not.
@@ -88,6 +108,7 @@ ai:
     type: article
     url: "https://en.wikipedia.org/wiki/Artificial_intelligence"
     language: en
+    priority: 10
     description: >-
       A broad, well-sourced reference on AI: history, approaches and
       current applications.
@@ -95,6 +116,7 @@ ai:
     type: article
     url: "https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz"
     language: de
+    priority: 10
     description: >-
       Deutschsprachige Einführung in die Grundbegriffe der KI — passend
       zum Buch „KI für Einsteiger" (siehe books.yaml).
