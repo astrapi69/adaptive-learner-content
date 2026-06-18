@@ -1,0 +1,44 @@
+# Italienisch A1 (für Deutschsprachige) — Set-Manifest
+#
+# Italienisch lernen, mit Erklärungen und Übersetzungen auf Deutsch.
+# Der Content-Loader liest ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.3'
+name: Italienisch A1 (für Deutschsprachige)
+description: >-
+  Einsteigerkurs Italienisch für Deutschsprachige (10
+  Lektionen): Begrüßungen, sich vorstellen, Zahlen 1-30, im
+  Restaurant, Einkaufen, Artikel und Geschlecht, Uhrzeit und
+  Wochentage, Familie, Farben und Adjektive sowie
+  Wegbeschreibung. Karten-Rückseiten, Notizen und Theorie auf
+  Deutsch.
+sets:
+  - id: it-a1-from-de
+    title: Italienisch A1 (für Deutschsprachige)
+    title_native: Italiano A1
+    target_language: it
+    source_language: de
+    level: A1
+    path: sets/de/it-a1
+    version: '1.0.0'
+    lesson_count: 10
+    domain: language
+    description: >-
+      Zehn A1-Lektionen Italienisch, auf Deutsch erklärt — vom
+      ersten Gruß bis zur Wegbeschreibung.
+    tags:
+      - beginner
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-begruessungen.json
+    - 02-sich-vorstellen.json
+    - 03-zahlen-1-30.json
+    - 04-im-restaurant.json
+    - 05-einkaufen.json
+    - 06-artikel-und-geschlecht.json
+    - 07-uhrzeit-und-tage.json
+    - 08-familie.json
+    - 09-farben-und-adjektive.json
+    - 10-wegbeschreibung.json

@@ -1,0 +1,234 @@
+{
+  "id": "03-zahlen-1-30",
+  "title": "Zahlen 1-30",
+  "description": "Die italienischen Zahlen von 1 bis 30 — auf Deutsch erklärt.",
+  "target_language": "it",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 11,
+  "cards": [
+    {
+      "id": "uno",
+      "front": "uno",
+      "back": "eins",
+      "notes": "Kontext: Ho un fratello. – Ich habe einen Bruder. Vor Nomen wird 'uno' zu un/una.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "due",
+      "front": "due",
+      "back": "zwei",
+      "notes": "Kontext: Due caffè, per favore. – Zwei Kaffee, bitte.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "tre",
+      "front": "tre",
+      "back": "drei",
+      "notes": "Kontext: Sono le tre. – Es ist drei Uhr.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "quattro",
+      "front": "quattro",
+      "back": "vier",
+      "notes": "Kontext: Un tavolo per quattro. – Ein Tisch für vier.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "cinque",
+      "front": "cinque",
+      "back": "fünf",
+      "notes": "Kontext: Cinque euro. – Fünf Euro.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "sei",
+      "front": "sei",
+      "back": "sechs",
+      "notes": "Kontext: Sono le sei. – Es ist sechs Uhr. Achtung: 'sei' heißt auch 'du bist'.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "sette",
+      "front": "sette",
+      "back": "sieben",
+      "notes": "Kontext: Alle sette di sera. – Um sieben Uhr abends.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "otto",
+      "front": "otto",
+      "back": "acht",
+      "notes": "Kontext: Ho otto anni. – Ich bin acht Jahre alt.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "nove",
+      "front": "nove",
+      "back": "neun",
+      "notes": "Kontext: Apriamo alle nove. – Wir öffnen um neun.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "dieci",
+      "front": "dieci",
+      "back": "zehn",
+      "notes": "Kontext: Dieci minuti. – Zehn Minuten.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "venti",
+      "front": "venti",
+      "back": "zwanzig",
+      "notes": "Kontext: Ho venti euro. – Ich habe zwanzig Euro. 21 = ventuno, 28 = ventotto.",
+      "difficulty": 2,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "trenta",
+      "front": "trenta",
+      "back": "dreißig",
+      "notes": "Kontext: Trenta gradi! – Dreißig Grad! 31 = trentuno.",
+      "difficulty": 2,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "ventuno",
+      "front": "ventuno",
+      "back": "einundzwanzig",
+      "notes": "Kontext: Ho ventuno anni. – Ich bin einundzwanzig. venti + uno: das End-i fällt weg.",
+      "difficulty": 3,
+      "tags": ["zahlen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Zahlen von 1 bis 10",
+      "body": "# Zahlen 1–10\n\n| Zahl | Italienisch |\n|---|---|\n| 1 | uno |\n| 2 | due |\n| 3 | tre |\n| 4 | quattro |\n| 5 | cinque |\n| 6 | sei |\n| 7 | sette |\n| 8 | otto |\n| 9 | nove |\n| 10 | dieci |\n\n> **sei** bedeutet auch 'du bist' — der Kontext entscheidet."
+    },
+    {
+      "id": "step-zehner",
+      "type": "theory",
+      "title": "Bis 30 zählen",
+      "body": "## Zwanzig und dreißig\n\n- **20 = venti**\n- **30 = trenta**\n\nDie Zahlen dazwischen setzt man zusammen: Zehner + Einer.\n\n- 21 = vent**uno** (das *i* von venti fällt vor Vokal weg)\n- 23 = ventitré\n- 28 = vent**otto**\n- 31 = trent**uno**\n\n> Vor **uno** und **otto** verliert der Zehner seinen Endvokal: ventuno, ventotto, trentuno."
+    },
+    {
+      "id": "ex-match-zahlen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zahlen zuordnen",
+      "exercise": {
+        "id": "ex-match-zahlen",
+        "type": "matching",
+        "prompt": "Ordne die italienischen Zahlwörter den Ziffern zu.",
+        "card_ids": ["due", "cinque", "otto", "dieci"],
+        "pairs": [
+          {"left": "due", "right": "zwei"},
+          {"left": "cinque", "right": "fünf"},
+          {"left": "otto", "right": "acht"},
+          {"left": "dieci", "right": "zehn"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-tre",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Drei auf Italienisch",
+      "exercise": {
+        "id": "ex-free-tre",
+        "type": "free_text",
+        "prompt": "Wie heißt 'drei' auf Italienisch?",
+        "card_ids": ["tre"],
+        "accept": ["tre", "Tre"],
+        "hint": "Drei Buchstaben.",
+        "distractors": ["due", "sei", "dieci"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-venti",
+      "type": "exercise",
+      "theory_ref": "step-zehner",
+      "title": "Zwanzig auf Italienisch",
+      "exercise": {
+        "id": "ex-free-venti",
+        "type": "free_text",
+        "prompt": "Wie heißt 'zwanzig' auf Italienisch?",
+        "card_ids": ["venti"],
+        "accept": ["venti", "Venti"],
+        "hint": "Beginnt mit 'v'.",
+        "distractors": ["trenta", "dieci", "sette"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-ventuno",
+      "type": "exercise",
+      "theory_ref": "step-zehner",
+      "title": "Lücke füllen: 21",
+      "exercise": {
+        "id": "ex-cloze-ventuno",
+        "type": "cloze",
+        "prompt": "Ergänze die Zahl 21 (ein Wort).",
+        "card_ids": ["ventuno"],
+        "sentence": "Ho ___ anni. (21)",
+        "blanks": [
+          {"accept": ["ventuno"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "venti + uno, ohne das i."
+      }
+    },
+    {
+      "id": "ex-tile-trenta",
+      "type": "exercise",
+      "theory_ref": "step-zehner",
+      "title": "Bis dreißig zählen",
+      "exercise": {
+        "id": "ex-tile-trenta",
+        "type": "word_tiles",
+        "prompt": "Ordne die Zahlen aufsteigend: dieci, venti, trenta.",
+        "card_ids": ["dieci", "venti", "trenta"],
+        "tiles": ["dieci", "venti", "trenta"],
+        "hint": "10, 20, 30.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-cinque",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Fünf erkennen",
+      "exercise": {
+        "id": "ex-pick-cinque",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'fünf'?",
+        "card_ids": ["cinque"],
+        "images": [
+          {"src": "assets/img/cinque.png", "label": "cinque", "is_correct": "true"},
+          {"src": "assets/img/quattro.png", "label": "quattro"},
+          {"src": "assets/img/sei.png", "label": "sei"},
+          {"src": "assets/img/nove.png", "label": "nove"}
+        ],
+        "hint": "Beginnt mit 'c'.",
+        "distractors": ["quattro", "sei", "nove"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
