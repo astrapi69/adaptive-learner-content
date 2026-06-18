@@ -1,0 +1,241 @@
+{
+  "id": "03-zahlen-1-30",
+  "title": "Zahlen 1-30",
+  "description": "Die brasilianischen Zahlen von 1 bis 30 — auf Deutsch erklärt.",
+  "target_language": "pt",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 11,
+  "cards": [
+    {
+      "id": "um",
+      "front": "um / uma",
+      "back": "eins",
+      "notes": "Kontext: um café e uma água – ein Kaffee und ein Wasser. 'um' (m.), 'uma' (w.).",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "dois",
+      "front": "dois / duas",
+      "back": "zwei",
+      "notes": "Kontext: dois cafés, duas águas – zwei Kaffee, zwei Wasser. 'dois' (m.), 'duas' (w.).",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "tres",
+      "front": "três",
+      "back": "drei",
+      "notes": "Kontext: três amigos – drei Freunde.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "quatro",
+      "front": "quatro",
+      "back": "vier",
+      "notes": "Kontext: quatro horas – vier Uhr.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "cinco",
+      "front": "cinco",
+      "back": "fünf",
+      "notes": "Kontext: cinco dias – fünf Tage.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "seis",
+      "front": "seis",
+      "back": "sechs",
+      "notes": "Kontext: seis euros – sechs Euro.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "sete",
+      "front": "sete",
+      "back": "sieben",
+      "notes": "Kontext: sete horas – sieben Uhr.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "oito",
+      "front": "oito",
+      "back": "acht",
+      "notes": "Kontext: oito anos – acht Jahre.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "nove",
+      "front": "nove",
+      "back": "neun",
+      "notes": "Kontext: nove pessoas – neun Personen.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "dez",
+      "front": "dez",
+      "back": "zehn",
+      "notes": "Kontext: dez reais – zehn Real.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "vinte",
+      "front": "vinte",
+      "back": "zwanzig",
+      "notes": "Kontext: vinte e um – einundzwanzig (wörtlich 'zwanzig und eins').",
+      "difficulty": 2,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "trinta",
+      "front": "trinta",
+      "back": "dreißig",
+      "notes": "Kontext: Tenho trinta anos. – Ich bin dreißig Jahre alt.",
+      "difficulty": 2,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "vinte-e-cinco",
+      "front": "vinte e cinco",
+      "back": "fünfundzwanzig",
+      "notes": "Kontext: vinte e cinco minutos – fünfundzwanzig Minuten. Zusammengesetzt mit 'e' (und).",
+      "difficulty": 2,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "quanto",
+      "front": "Quantos?",
+      "back": "Wie viele?",
+      "notes": "Kontext: Quantos anos? – Wie viele Jahre? Weiblich: 'Quantas?'",
+      "difficulty": 2,
+      "tags": ["frage"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die Zahlen 1 bis 10",
+      "body": "# Zahlen 1 bis 10\n\n| Ziffer | Portugiesisch |\n|---|---|\n| 1 | um / uma |\n| 2 | dois / duas |\n| 3 | três |\n| 4 | quatro |\n| 5 | cinco |\n| 6 | seis |\n| 7 | sete |\n| 8 | oito |\n| 9 | nove |\n| 10 | dez |\n\n> Hinweis: **um/uma** und **dois/duas** richten sich nach dem Geschlecht: *um carro* (m.), *uma casa* (w.); *dois cafés* (m.), *duas águas* (w.)."
+    },
+    {
+      "id": "step-zwanzig",
+      "type": "theory",
+      "title": "Zwanzig und dreißig",
+      "body": "## 11 bis 30\n\nWichtige Zehner:\n\n- **vinte** — zwanzig\n- **trinta** — dreißig\n\nZusammengesetzte Zahlen verbindet man mit **e** (und):\n\n- **vinte e um** — einundzwanzig\n- **vinte e cinco** — fünfundzwanzig\n- **trinta** — dreißig\n\nNach der Anzahl fragt man mit **Quantos?** (m.) / **Quantas?** (w.) — *wie viele?*"
+    },
+    {
+      "id": "ex-match-zahlen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zahlen zuordnen",
+      "exercise": {
+        "id": "ex-match-zahlen",
+        "type": "matching",
+        "prompt": "Ordne jede portugiesische Zahl der deutschen zu.",
+        "card_ids": ["tres", "cinco", "oito", "dez", "vinte"],
+        "pairs": [
+          {"left": "três", "right": "drei"},
+          {"left": "cinco", "right": "fünf"},
+          {"left": "oito", "right": "acht"},
+          {"left": "dez", "right": "zehn"},
+          {"left": "vinte", "right": "zwanzig"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-sete",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Sieben auf Portugiesisch",
+      "exercise": {
+        "id": "ex-free-sete",
+        "type": "free_text",
+        "prompt": "Wie heißt 'sieben' auf Portugiesisch?",
+        "card_ids": ["sete"],
+        "accept": ["sete", "Sete"],
+        "hint": "Vier Buchstaben.",
+        "distractors": ["seis", "oito", "cinco"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-trinta",
+      "type": "exercise",
+      "theory_ref": "step-zwanzig",
+      "title": "Dreißig",
+      "exercise": {
+        "id": "ex-free-trinta",
+        "type": "free_text",
+        "prompt": "Wie heißt 'dreißig' auf Portugiesisch?",
+        "card_ids": ["trinta"],
+        "accept": ["trinta", "Trinta"],
+        "hint": "Beginnt mit 'tr'.",
+        "distractors": ["vinte", "treze", "trinta e um"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-vinte-cinco",
+      "type": "exercise",
+      "theory_ref": "step-zwanzig",
+      "title": "Lücke füllen: 25",
+      "exercise": {
+        "id": "ex-cloze-vinte-cinco",
+        "type": "cloze",
+        "prompt": "Ergänze das Verbindungswort in 'fünfundzwanzig'.",
+        "card_ids": ["vinte-e-cinco"],
+        "sentence": "vinte ___ cinco",
+        "blanks": [{"accept": ["e"]}],
+        "cloze_mode": "type",
+        "hint": "Deutsch: 'und'."
+      }
+    },
+    {
+      "id": "ex-tile-vinte-um",
+      "type": "exercise",
+      "theory_ref": "step-zwanzig",
+      "title": "21 zusammensetzen",
+      "exercise": {
+        "id": "ex-tile-vinte-um",
+        "type": "word_tiles",
+        "prompt": "Baue die Zahl 'einundzwanzig'.",
+        "card_ids": ["vinte", "um"],
+        "tiles": ["vinte", "e", "um"],
+        "hint": "Drei Kacheln, mit 'e'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-dez",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zehn erkennen",
+      "exercise": {
+        "id": "ex-pic-dez",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'zehn'?",
+        "card_ids": ["dez"],
+        "images": [
+          {"src": "assets/img/dez.png", "label": "dez", "is_correct": "true"},
+          {"src": "assets/img/dois.png", "label": "dois"},
+          {"src": "assets/img/seis.png", "label": "seis"},
+          {"src": "assets/img/nove.png", "label": "nove"}
+        ],
+        "hint": "Drei Buchstaben.",
+        "distractors": ["dois", "seis", "nove"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

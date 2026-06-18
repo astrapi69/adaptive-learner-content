@@ -28,8 +28,9 @@ Official content repository for [Adaptive Learner](https://github.com/astrapi69/
 | Japanisch A1 | Deutsch (DE) | 日本語 (JA) | 10 | A1 | Sprache |
 | Koreanisch A1 | Deutsch (DE) | 한국어 (KO) | 10 | A1 | Sprache |
 | Italienisch A1 | Deutsch (DE) | Italiano (IT) | 10 | A1 | Sprache |
+| Portugiesisch (BR) A1 | Deutsch (DE) | Português-BR (PT) | 10 | A1 | Sprache |
 
-**388 Lektionen · ~81 Stunden Lernmaterial**
+**398 Lektionen · ~83 Stunden Lernmaterial**
 
 ## Directory Structure
 
@@ -50,7 +51,8 @@ sets/
 │   ├── ki-einsteiger/  # Domain: AI
 │   ├── ja-a1/          # Target: Japanese A1
 │   ├── ko-a1/          # Target: Korean A1
-│   └── it-a1/          # Target: Italian A1
+│   ├── it-a1/          # Target: Italian A1
+│   └── pt-a1/          # Target: Brazilian Portuguese A1
 ├── en/                 # Source language: English
 │   ├── de-a1/          # Target: German A1
 │   ├── fr-a1/          # Target: French A1

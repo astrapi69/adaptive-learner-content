@@ -1,0 +1,225 @@
+{
+  "id": "06-artikel-und-geschlecht",
+  "title": "Artikel und Geschlecht",
+  "description": "Bestimmte und unbestimmte Artikel sowie das grammatische Geschlecht im brasilianischen Portugiesisch — auf Deutsch erklärt.",
+  "target_language": "pt",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "o",
+      "front": "o",
+      "back": "der/das (best. Artikel, m. Sg.)",
+      "notes": "Kontext: o carro – das Auto. Bestimmter Artikel maskulin Singular.",
+      "difficulty": 1,
+      "tags": ["artikel"]
+    },
+    {
+      "id": "a",
+      "front": "a",
+      "back": "die (best. Artikel, w. Sg.)",
+      "notes": "Kontext: a casa – das Haus. Bestimmter Artikel feminin Singular.",
+      "difficulty": 1,
+      "tags": ["artikel"]
+    },
+    {
+      "id": "os",
+      "front": "os",
+      "back": "die (best. Artikel, m. Pl.)",
+      "notes": "Kontext: os carros – die Autos. Bestimmter Artikel maskulin Plural.",
+      "difficulty": 2,
+      "tags": ["artikel"]
+    },
+    {
+      "id": "as",
+      "front": "as",
+      "back": "die (best. Artikel, w. Pl.)",
+      "notes": "Kontext: as casas – die Häuser. Bestimmter Artikel feminin Plural.",
+      "difficulty": 2,
+      "tags": ["artikel"]
+    },
+    {
+      "id": "um-art",
+      "front": "um",
+      "back": "ein/einer (unbest. Artikel, m.)",
+      "notes": "Kontext: um livro – ein Buch. Unbestimmter Artikel maskulin.",
+      "difficulty": 1,
+      "tags": ["artikel"]
+    },
+    {
+      "id": "uma-art",
+      "front": "uma",
+      "back": "eine (unbest. Artikel, w.)",
+      "notes": "Kontext: uma mesa – ein Tisch. Unbestimmter Artikel feminin.",
+      "difficulty": 1,
+      "tags": ["artikel"]
+    },
+    {
+      "id": "o-livro",
+      "front": "o livro",
+      "back": "das Buch",
+      "notes": "Kontext: O livro é interessante. – Das Buch ist interessant. Maskulin (Endung -o).",
+      "difficulty": 1,
+      "tags": ["nomen"]
+    },
+    {
+      "id": "a-mesa",
+      "front": "a mesa",
+      "back": "der Tisch",
+      "notes": "Kontext: A mesa é grande. – Der Tisch ist groß. Feminin (Endung -a).",
+      "difficulty": 1,
+      "tags": ["nomen"]
+    },
+    {
+      "id": "o-homem",
+      "front": "o homem",
+      "back": "der Mann",
+      "notes": "Kontext: O homem trabalha. – Der Mann arbeitet. Maskulin trotz Endung -m.",
+      "difficulty": 2,
+      "tags": ["nomen"]
+    },
+    {
+      "id": "a-mulher",
+      "front": "a mulher",
+      "back": "die Frau",
+      "notes": "Kontext: A mulher é médica. – Die Frau ist Ärztin. Feminin.",
+      "difficulty": 2,
+      "tags": ["nomen"]
+    },
+    {
+      "id": "a-cidade",
+      "front": "a cidade",
+      "back": "die Stadt",
+      "notes": "Kontext: A cidade é linda. – Die Stadt ist schön. Feminin trotz Endung -e.",
+      "difficulty": 2,
+      "tags": ["nomen"]
+    },
+    {
+      "id": "o-dia",
+      "front": "o dia",
+      "back": "der Tag",
+      "notes": "Kontext: Bom dia! – Guten Tag! Ausnahme: maskulin, obwohl es auf -a endet.",
+      "difficulty": 3,
+      "tags": ["nomen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Bestimmte und unbestimmte Artikel",
+      "body": "# Artikel und Geschlecht\n\nJedes Substantiv ist **maskulin** oder **feminin**. Der Artikel passt sich an:\n\n| | maskulin | feminin |\n|---|---|---|\n| bestimmt (Sg.) | **o** | **a** |\n| bestimmt (Pl.) | **os** | **as** |\n| unbestimmt | **um** | **uma** |\n\nBeispiele:\n\n- **o carro** (das Auto), **os carros** (die Autos)\n- **a casa** (das Haus), **as casas** (die Häuser)\n- **um livro** (ein Buch), **uma mesa** (ein Tisch)"
+    },
+    {
+      "id": "step-endungen",
+      "type": "theory",
+      "title": "Geschlecht an der Endung erkennen",
+      "body": "## Faustregel für das Geschlecht\n\n- Wörter auf **-o** sind meist **maskulin**: *o livro, o carro*.\n- Wörter auf **-a** sind meist **feminin**: *a mesa, a casa*.\n\nAber Vorsicht, es gibt **Ausnahmen**:\n\n- **o dia** (der Tag) — maskulin trotz -a\n- **a cidade** (die Stadt) — feminin auf -e\n- **o homem** / **a mulher** — Geschlecht folgt der Bedeutung\n\n> Lerne neue Substantive immer **mit Artikel**: nicht *casa*, sondern *a casa*."
+    },
+    {
+      "id": "ex-match-artikel",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Nomen mit Artikel zuordnen",
+      "exercise": {
+        "id": "ex-match-artikel",
+        "type": "matching",
+        "prompt": "Ordne jedem portugiesischen Ausdruck die deutsche Bedeutung zu.",
+        "card_ids": ["o-livro", "a-mesa", "o-homem", "a-mulher", "a-cidade"],
+        "pairs": [
+          {"left": "o livro", "right": "das Buch"},
+          {"left": "a mesa", "right": "der Tisch"},
+          {"left": "o homem", "right": "der Mann"},
+          {"left": "a mulher", "right": "die Frau"},
+          {"left": "a cidade", "right": "die Stadt"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-o-livro",
+      "type": "exercise",
+      "theory_ref": "step-endungen",
+      "title": "Lücke füllen: Artikel für Buch",
+      "exercise": {
+        "id": "ex-cloze-o-livro",
+        "type": "cloze",
+        "prompt": "Ergänze den bestimmten Artikel: '___ livro' (das Buch).",
+        "card_ids": ["o", "o-livro"],
+        "sentence": "___ livro é interessante.",
+        "blanks": [{"accept": ["O", "o"]}],
+        "cloze_mode": "type",
+        "hint": "Maskulin Singular, Endung -o."
+      }
+    },
+    {
+      "id": "ex-cloze-a-mesa",
+      "type": "exercise",
+      "theory_ref": "step-endungen",
+      "title": "Lücke füllen: Artikel für Tisch",
+      "exercise": {
+        "id": "ex-cloze-a-mesa",
+        "type": "cloze",
+        "prompt": "Ergänze den bestimmten Artikel: '___ mesa' (der Tisch).",
+        "card_ids": ["a", "a-mesa"],
+        "sentence": "___ mesa é grande.",
+        "blanks": [{"accept": ["A", "a"]}],
+        "cloze_mode": "type",
+        "hint": "Feminin Singular, Endung -a."
+      }
+    },
+    {
+      "id": "ex-free-uma",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Unbestimmter Artikel feminin",
+      "exercise": {
+        "id": "ex-free-uma",
+        "type": "free_text",
+        "prompt": "Wie heißt der unbestimmte Artikel (eine) für feminine Wörter?",
+        "card_ids": ["uma-art"],
+        "accept": ["uma", "Uma"],
+        "hint": "Drei Buchstaben.",
+        "distractors": ["um", "uns", "a"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tile-os-carros",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Plural bilden",
+      "exercise": {
+        "id": "ex-tile-os-carros",
+        "type": "word_tiles",
+        "prompt": "Baue den Plural: 'die Autos'.",
+        "card_ids": ["os"],
+        "tiles": ["os", "carros"],
+        "hint": "Maskuliner Plural-Artikel + Nomen mit -s.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-mulher",
+      "type": "exercise",
+      "theory_ref": "step-endungen",
+      "title": "Feminines Nomen erkennen",
+      "exercise": {
+        "id": "ex-pic-mulher",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'die Frau'?",
+        "card_ids": ["a-mulher"],
+        "images": [
+          {"src": "assets/img/mulher.png", "label": "a mulher", "is_correct": "true"},
+          {"src": "assets/img/homem.png", "label": "o homem"},
+          {"src": "assets/img/livro.png", "label": "o livro"},
+          {"src": "assets/img/mesa.png", "label": "a mesa"}
+        ],
+        "hint": "Feminin, mit Artikel 'a'.",
+        "distractors": ["o homem", "o livro", "a mesa"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "id": "04-im-restaurant",
+  "title": "Im Restaurant",
+  "description": "Im Restaurant bestellen auf brasilianischem Portugiesisch: bestellen, Getränke und die Rechnung — auf Deutsch erklärt.",
+  "target_language": "pt",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "eu-quero",
+      "front": "Eu quero...",
+      "back": "Ich möchte...",
+      "notes": "Kontext: Eu quero um café. – Ich möchte einen Kaffee. Von 'querer' (wollen).",
+      "difficulty": 2,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "eu-gostaria",
+      "front": "Eu gostaria de...",
+      "back": "Ich hätte gern...",
+      "notes": "Kontext: Eu gostaria de uma água. – Ich hätte gern ein Wasser. Höflicher als 'quero'.",
+      "difficulty": 3,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "o-cardapio",
+      "front": "o cardápio",
+      "back": "die Speisekarte",
+      "notes": "Kontext: O cardápio, por favor. – Die Speisekarte, bitte. BR: cardápio, PT: ementa.",
+      "difficulty": 2,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "a-conta",
+      "front": "a conta",
+      "back": "die Rechnung",
+      "notes": "Kontext: A conta, por favor. – Die Rechnung, bitte.",
+      "difficulty": 2,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "um-cafe",
+      "front": "um café",
+      "back": "ein Kaffee",
+      "notes": "Kontext: Um café, por favor. – Einen Kaffee, bitte. In Brasilien meist ein kleiner, gesüßter 'cafezinho'.",
+      "difficulty": 1,
+      "tags": ["restaurant", "getraenke"]
+    },
+    {
+      "id": "agua",
+      "front": "água",
+      "back": "Wasser",
+      "notes": "Kontext: Uma água sem gás. – Ein stilles Wasser. 'com gás' = mit Kohlensäure.",
+      "difficulty": 1,
+      "tags": ["restaurant", "getraenke"]
+    },
+    {
+      "id": "cerveja",
+      "front": "cerveja",
+      "back": "Bier",
+      "notes": "Kontext: Uma cerveja gelada, por favor. – Ein kaltes Bier, bitte.",
+      "difficulty": 2,
+      "tags": ["restaurant", "getraenke"]
+    },
+    {
+      "id": "suco",
+      "front": "suco",
+      "back": "Saft",
+      "notes": "Kontext: um suco de laranja – ein Orangensaft. BR: suco, PT: sumo.",
+      "difficulty": 2,
+      "tags": ["restaurant", "getraenke"]
+    },
+    {
+      "id": "o-garcom",
+      "front": "o garçom",
+      "back": "der Kellner",
+      "notes": "Kontext: Garçom, por favor! – Herr Ober, bitte! BR: garçom, PT: empregado de mesa.",
+      "difficulty": 2,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "a-comida",
+      "front": "a comida",
+      "back": "das Essen",
+      "notes": "Kontext: A comida está deliciosa. – Das Essen ist köstlich.",
+      "difficulty": 1,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "esta-delicioso",
+      "front": "Está delicioso",
+      "back": "Es schmeckt köstlich",
+      "notes": "Kontext: Nossa, está delicioso! – Wow, das ist köstlich!",
+      "difficulty": 2,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "sem-gas",
+      "front": "sem gás",
+      "back": "ohne Kohlensäure / still",
+      "notes": "Kontext: água sem gás – stilles Wasser. Gegenteil: 'com gás'.",
+      "difficulty": 2,
+      "tags": ["restaurant", "getraenke"]
+    },
+    {
+      "id": "a-gente-quer",
+      "front": "A gente quer...",
+      "back": "Wir möchten...",
+      "notes": "Kontext: A gente quer a conta. – Wir möchten die Rechnung. In Brasilien sehr verbreitet statt 'nós'.",
+      "difficulty": 3,
+      "tags": ["restaurant"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Bestellen im Restaurant",
+      "body": "# Bestellen\n\nUm zu bestellen, benutzt man:\n\n- **Eu quero...** — Ich möchte... (direkt)\n- **Eu gostaria de...** — Ich hätte gern... (höflicher)\n\nHäng einfach **por favor** (bitte) an:\n\n- **Um café, por favor.** — Einen Kaffee, bitte.\n\n> Brasilianisch: Sehr oft sagt man **a gente quer** (wörtlich 'die Leute wollen') statt *nós queremos* für 'wir möchten'."
+    },
+    {
+      "id": "step-vokabeln",
+      "type": "theory",
+      "title": "Wichtige Wörter (BR vs PT)",
+      "body": "## Im Restaurant\n\n| Brasilien | Portugal | Deutsch |\n|---|---|---|\n| o cardápio | a ementa | die Speisekarte |\n| o suco | o sumo | der Saft |\n| o garçom | o empregado de mesa | der Kellner |\n\nGetränke: **água** (Wasser), **cerveja** (Bier), **suco** (Saft).\n\nWasser bestellt man oft mit **sem gás** (still) oder **com gás** (mit Kohlensäure).\n\nAm Ende: **A conta, por favor.** — Die Rechnung, bitte."
+    },
+    {
+      "id": "ex-match-restaurant",
+      "type": "exercise",
+      "theory_ref": "step-vokabeln",
+      "title": "Restaurant-Wörter zuordnen",
+      "exercise": {
+        "id": "ex-match-restaurant",
+        "type": "matching",
+        "prompt": "Ordne jedes portugiesische Wort der deutschen Bedeutung zu.",
+        "card_ids": ["o-cardapio", "a-conta", "agua", "o-garcom", "suco"],
+        "pairs": [
+          {"left": "o cardápio", "right": "die Speisekarte"},
+          {"left": "a conta", "right": "die Rechnung"},
+          {"left": "água", "right": "Wasser"},
+          {"left": "o garçom", "right": "der Kellner"},
+          {"left": "suco", "right": "Saft"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-conta",
+      "type": "exercise",
+      "theory_ref": "step-vokabeln",
+      "title": "Die Rechnung verlangen",
+      "exercise": {
+        "id": "ex-free-conta",
+        "type": "free_text",
+        "prompt": "Wie heißt 'die Rechnung' auf Portugiesisch?",
+        "card_ids": ["a-conta"],
+        "accept": ["a conta", "conta", "A conta"],
+        "hint": "Beginnt mit 'c'.",
+        "distractors": ["o cardápio", "a comida", "o garçom"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-cardapio",
+      "type": "exercise",
+      "theory_ref": "step-vokabeln",
+      "title": "Speisekarte (BR)",
+      "exercise": {
+        "id": "ex-free-cardapio",
+        "type": "free_text",
+        "prompt": "Wie heißt die 'Speisekarte' in Brasilien?",
+        "card_ids": ["o-cardapio"],
+        "accept": ["o cardápio", "cardápio", "cardapio"],
+        "hint": "BR-Wort; in PT sagt man 'ementa'.",
+        "distractors": ["a ementa", "a conta", "o prato"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-quero",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke füllen: Bestellen",
+      "exercise": {
+        "id": "ex-cloze-quero",
+        "type": "cloze",
+        "prompt": "Ergänze: 'Ich möchte einen Kaffee, bitte.'",
+        "card_ids": ["eu-quero", "um-cafe"],
+        "sentence": "Eu ___ um café, por favor.",
+        "blanks": [{"accept": ["quero", "Quero"]}],
+        "cloze_mode": "type",
+        "hint": "Von 'querer' (wollen), 1. Person."
+      }
+    },
+    {
+      "id": "ex-tile-agua",
+      "type": "exercise",
+      "theory_ref": "step-vokabeln",
+      "title": "Stilles Wasser bestellen",
+      "exercise": {
+        "id": "ex-tile-agua",
+        "type": "word_tiles",
+        "prompt": "Baue: 'ein stilles Wasser' (ein Wasser ohne Kohlensäure).",
+        "card_ids": ["agua", "sem-gas"],
+        "tiles": ["uma", "água", "sem", "gás"],
+        "hint": "Vier Kacheln.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-cerveja",
+      "type": "exercise",
+      "theory_ref": "step-vokabeln",
+      "title": "Getränk erkennen",
+      "exercise": {
+        "id": "ex-pic-cerveja",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'Bier'?",
+        "card_ids": ["cerveja"],
+        "images": [
+          {"src": "assets/img/cerveja.png", "label": "cerveja", "is_correct": "true"},
+          {"src": "assets/img/agua.png", "label": "água"},
+          {"src": "assets/img/suco.png", "label": "suco"},
+          {"src": "assets/img/cafe.png", "label": "café"}
+        ],
+        "hint": "Alkoholisches Getränk.",
+        "distractors": ["água", "suco", "café"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

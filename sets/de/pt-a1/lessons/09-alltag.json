@@ -1,0 +1,233 @@
+{
+  "id": "09-alltag",
+  "title": "Alltag",
+  "description": "Wörter und Wendungen rund um den Alltag im brasilianischen Portugiesisch: Haus, Arbeit, Schule, Stadt — auf Deutsch erklärt.",
+  "target_language": "pt",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "a-casa",
+      "front": "a casa",
+      "back": "das Haus / zu Hause",
+      "notes": "Kontext: Estou em casa. – Ich bin zu Hause.",
+      "difficulty": 1,
+      "tags": ["alltag"]
+    },
+    {
+      "id": "o-trabalho",
+      "front": "o trabalho",
+      "back": "die Arbeit",
+      "notes": "Kontext: Vou para o trabalho. – Ich gehe zur Arbeit. Verb: trabalhar (arbeiten).",
+      "difficulty": 2,
+      "tags": ["alltag"]
+    },
+    {
+      "id": "a-escola",
+      "front": "a escola",
+      "back": "die Schule",
+      "notes": "Kontext: As crianças vão à escola. – Die Kinder gehen zur Schule.",
+      "difficulty": 1,
+      "tags": ["alltag"]
+    },
+    {
+      "id": "o-amigo",
+      "front": "o amigo",
+      "back": "der Freund",
+      "notes": "Kontext: Meu amigo mora aqui. – Mein Freund wohnt hier. Weiblich: a amiga.",
+      "difficulty": 1,
+      "tags": ["alltag"]
+    },
+    {
+      "id": "a-cidade2",
+      "front": "a cidade",
+      "back": "die Stadt",
+      "notes": "Kontext: Rio é uma cidade grande. – Rio ist eine große Stadt.",
+      "difficulty": 1,
+      "tags": ["alltag"]
+    },
+    {
+      "id": "o-carro",
+      "front": "o carro",
+      "back": "das Auto",
+      "notes": "Kontext: Vou de carro. – Ich fahre mit dem Auto.",
+      "difficulty": 1,
+      "tags": ["alltag"]
+    },
+    {
+      "id": "o-celular",
+      "front": "o celular",
+      "back": "das Handy",
+      "notes": "Kontext: Cadê meu celular? – Wo ist mein Handy? BR: celular, PT: telemóvel.",
+      "difficulty": 2,
+      "tags": ["alltag"]
+    },
+    {
+      "id": "o-trabalho-verb",
+      "front": "trabalhar",
+      "back": "arbeiten",
+      "notes": "Kontext: Eu trabalho de segunda a sexta. – Ich arbeite von Montag bis Freitag.",
+      "difficulty": 2,
+      "tags": ["alltag", "verb"]
+    },
+    {
+      "id": "morar",
+      "front": "morar",
+      "back": "wohnen",
+      "notes": "Kontext: Onde você mora? – Wo wohnst du?",
+      "difficulty": 2,
+      "tags": ["alltag", "verb"]
+    },
+    {
+      "id": "comer",
+      "front": "comer",
+      "back": "essen",
+      "notes": "Kontext: Vou comer agora. – Ich werde jetzt essen.",
+      "difficulty": 2,
+      "tags": ["alltag", "verb"]
+    },
+    {
+      "id": "o-cafe-da-manha",
+      "front": "o café da manhã",
+      "back": "das Frühstück",
+      "notes": "Kontext: Tomo café da manhã às sete. – Ich frühstücke um sieben. BR: café da manhã, PT: pequeno-almoço.",
+      "difficulty": 3,
+      "tags": ["alltag"]
+    },
+    {
+      "id": "o-onibus2",
+      "front": "o ônibus",
+      "back": "der Bus",
+      "notes": "Kontext: Pego o ônibus para o trabalho. – Ich nehme den Bus zur Arbeit. BR: ônibus, PT: autocarro.",
+      "difficulty": 2,
+      "tags": ["alltag", "verkehr"]
+    },
+    {
+      "id": "cade",
+      "front": "Cadê...?",
+      "back": "Wo ist...? (umgangssprachlich)",
+      "notes": "Kontext: Cadê o cachorro? – Wo ist der Hund? Typisch brasilianische Umgangssprache.",
+      "difficulty": 3,
+      "tags": ["alltag", "frage"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Orte und Dinge im Alltag",
+      "body": "# O dia a dia\n\nWichtige Orte und Dinge:\n\n- **a casa** — das Haus / zu Hause\n- **o trabalho** — die Arbeit\n- **a escola** — die Schule\n- **a cidade** — die Stadt\n- **o carro** — das Auto\n- **o amigo / a amiga** — der Freund / die Freundin\n\n> Brasilianisch: Das Handy heißt **celular** (in Portugal *telemóvel*), der Bus **ônibus** (in Portugal *autocarro*)."
+    },
+    {
+      "id": "step-verben",
+      "type": "theory",
+      "title": "Alltagsverben und Umgangssprache",
+      "body": "## Häufige Verben\n\n- **morar** — wohnen: *Onde você mora?* (Wo wohnst du?)\n- **trabalhar** — arbeiten: *Eu trabalho.* (Ich arbeite.)\n- **comer** — essen: *Vou comer.* (Ich werde essen.)\n\n## Brasilianische Umgangssprache\n\n- **Cadê...?** — Wo ist...? (sehr verbreitet, statt *Onde está...?*)\n- **o café da manhã** — das Frühstück (in Portugal: *pequeno-almoço*)"
+    },
+    {
+      "id": "ex-match-alltag",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Alltagswörter zuordnen",
+      "exercise": {
+        "id": "ex-match-alltag",
+        "type": "matching",
+        "prompt": "Ordne jedes portugiesische Wort der deutschen Bedeutung zu.",
+        "card_ids": ["a-casa", "o-trabalho", "a-escola", "o-carro", "o-celular"],
+        "pairs": [
+          {"left": "a casa", "right": "das Haus / zu Hause"},
+          {"left": "o trabalho", "right": "die Arbeit"},
+          {"left": "a escola", "right": "die Schule"},
+          {"left": "o carro", "right": "das Auto"},
+          {"left": "o celular", "right": "das Handy"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-celular",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Handy (BR)",
+      "exercise": {
+        "id": "ex-free-celular",
+        "type": "free_text",
+        "prompt": "Wie heißt das 'Handy' in Brasilien?",
+        "card_ids": ["o-celular"],
+        "accept": ["o celular", "celular"],
+        "hint": "BR-Wort; in PT sagt man 'telemóvel'.",
+        "distractors": ["o telemóvel", "o carro", "o computador"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-morar",
+      "type": "exercise",
+      "theory_ref": "step-verben",
+      "title": "Wohnen",
+      "exercise": {
+        "id": "ex-free-morar",
+        "type": "free_text",
+        "prompt": "Wie heißt das Verb 'wohnen' (Grundform) auf Portugiesisch?",
+        "card_ids": ["morar"],
+        "accept": ["morar", "Morar"],
+        "hint": "Endet auf -ar.",
+        "distractors": ["comer", "trabalhar", "casa"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-mora",
+      "type": "exercise",
+      "theory_ref": "step-verben",
+      "title": "Lücke füllen: Wo wohnst du?",
+      "exercise": {
+        "id": "ex-cloze-mora",
+        "type": "cloze",
+        "prompt": "Ergänze das Verb: 'Wo wohnst du?'",
+        "card_ids": ["morar"],
+        "sentence": "Onde você ___?",
+        "blanks": [{"accept": ["mora", "Mora"]}],
+        "cloze_mode": "type",
+        "hint": "Von 'morar', Form für 'você'."
+      }
+    },
+    {
+      "id": "ex-tile-trabalho",
+      "type": "exercise",
+      "theory_ref": "step-verben",
+      "title": "Satz zur Arbeit bauen",
+      "exercise": {
+        "id": "ex-tile-trabalho",
+        "type": "word_tiles",
+        "prompt": "Baue: 'Ich gehe zur Arbeit.'",
+        "card_ids": ["o-trabalho"],
+        "tiles": ["Vou", "para", "o", "trabalho"],
+        "hint": "Vier Kacheln.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-onibus",
+      "type": "exercise",
+      "theory_ref": "step-verben",
+      "title": "Verkehrsmittel erkennen",
+      "exercise": {
+        "id": "ex-pic-onibus",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'der Bus' (in Brasilien)?",
+        "card_ids": ["o-onibus2"],
+        "images": [
+          {"src": "assets/img/onibus.png", "label": "ônibus", "is_correct": "true"},
+          {"src": "assets/img/carro.png", "label": "carro"},
+          {"src": "assets/img/autocarro.png", "label": "autocarro"},
+          {"src": "assets/img/celular.png", "label": "celular"}
+        ],
+        "hint": "BR: ônibus, PT: autocarro.",
+        "distractors": ["carro", "autocarro", "celular"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

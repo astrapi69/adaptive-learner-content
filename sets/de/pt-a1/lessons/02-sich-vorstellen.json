@@ -1,0 +1,227 @@
+{
+  "id": "02-sich-vorstellen",
+  "title": "Sich vorstellen",
+  "description": "Sich auf brasilianischem Portugiesisch vorstellen: Name, Herkunft und das höfliche Du 'você' — auf Deutsch erklärt.",
+  "target_language": "pt",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 11,
+  "cards": [
+    {
+      "id": "meu-nome-e",
+      "front": "Meu nome é...",
+      "back": "Mein Name ist...",
+      "notes": "Kontext: Meu nome é Ana. – Mein Name ist Ana.",
+      "difficulty": 2,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "eu-me-chamo",
+      "front": "Eu me chamo...",
+      "back": "Ich heiße...",
+      "notes": "Kontext: Eu me chamo Pedro. – Ich heiße Pedro. BR stellt 'me' vor das Verb; PT sagt eher 'chamo-me'.",
+      "difficulty": 2,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "como-voce-se-chama",
+      "front": "Como você se chama?",
+      "back": "Wie heißt du?",
+      "notes": "Kontext: Como você se chama? – Wie heißt du? 'Você' ist in Brasilien das normale Du.",
+      "difficulty": 2,
+      "tags": ["vorstellen", "frage"]
+    },
+    {
+      "id": "voce",
+      "front": "você",
+      "back": "du / Sie",
+      "notes": "Kontext: Você é alemão? – Bist du Deutscher? In Brasilien Standard-Anrede; PT nutzt häufiger 'tu'.",
+      "difficulty": 2,
+      "tags": ["pronomen"]
+    },
+    {
+      "id": "eu-sou",
+      "front": "Eu sou...",
+      "back": "Ich bin...",
+      "notes": "Kontext: Eu sou estudante. – Ich bin Student. Von 'ser' (sein).",
+      "difficulty": 2,
+      "tags": ["vorstellen", "verb"]
+    },
+    {
+      "id": "sou-de",
+      "front": "Sou de...",
+      "back": "Ich komme aus...",
+      "notes": "Kontext: Sou de Berlim. – Ich komme aus Berlin.",
+      "difficulty": 2,
+      "tags": ["herkunft"]
+    },
+    {
+      "id": "moro-em",
+      "front": "Moro em...",
+      "back": "Ich wohne in...",
+      "notes": "Kontext: Moro em São Paulo. – Ich wohne in São Paulo.",
+      "difficulty": 2,
+      "tags": ["herkunft"]
+    },
+    {
+      "id": "prazer",
+      "front": "Prazer",
+      "back": "Freut mich / Sehr erfreut",
+      "notes": "Kontext: Prazer em conhecer você. – Freut mich, dich kennenzulernen.",
+      "difficulty": 1,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "alemao",
+      "front": "alemão",
+      "back": "Deutscher / deutsch",
+      "notes": "Kontext: Eu sou alemão. – Ich bin Deutscher. Weibliche Form: alemã.",
+      "difficulty": 2,
+      "tags": ["nationalitaet"]
+    },
+    {
+      "id": "alema",
+      "front": "alemã",
+      "back": "Deutsche (weiblich)",
+      "notes": "Kontext: Ela é alemã. – Sie ist Deutsche.",
+      "difficulty": 2,
+      "tags": ["nationalitaet"]
+    },
+    {
+      "id": "quantos-anos",
+      "front": "Quantos anos você tem?",
+      "back": "Wie alt bist du?",
+      "notes": "Kontext: Quantos anos você tem? – Wie alt bist du? Wörtlich: 'Wie viele Jahre hast du?'",
+      "difficulty": 3,
+      "tags": ["frage", "alter"]
+    },
+    {
+      "id": "tenho-anos",
+      "front": "Tenho ... anos",
+      "back": "Ich bin ... Jahre alt",
+      "notes": "Kontext: Tenho trinta anos. – Ich bin dreißig Jahre alt. Wörtlich: 'Ich habe ... Jahre.'",
+      "difficulty": 3,
+      "tags": ["alter"]
+    },
+    {
+      "id": "muito-prazer",
+      "front": "Muito prazer",
+      "back": "Sehr angenehm",
+      "notes": "Kontext: Muito prazer! – Sehr angenehm! Höfliche Reaktion beim Kennenlernen.",
+      "difficulty": 1,
+      "tags": ["vorstellen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Sich vorstellen",
+      "body": "# Sich vorstellen\n\nUm den Namen zu nennen, gibt es zwei gängige Wege:\n\n- **Meu nome é Ana.** — Mein Name ist Ana.\n- **Eu me chamo Pedro.** — Ich heiße Pedro.\n\n> Hinweis: In Brasilien steht das Pronomen vor dem Verb: **me chamo**. In Portugal hört man oft **chamo-me**.\n\nNach dem Namen fragt man: **Como você se chama?** (Wie heißt du?)."
+    },
+    {
+      "id": "step-voce",
+      "type": "theory",
+      "title": "você, Herkunft und Alter",
+      "body": "## você — das brasilianische Du\n\nIn Brasilien sagt man fast immer **você** statt *tu*. Trotzdem wird es grammatisch wie 'er/sie' behandelt: **Você é...** (Du bist...).\n\nHerkunft und Wohnort:\n\n- **Sou de Berlim.** — Ich komme aus Berlin.\n- **Moro em São Paulo.** — Ich wohne in São Paulo.\n\nAlter wird mit *ter* (haben) ausgedrückt:\n\n- **Quantos anos você tem?** — Wie alt bist du?\n- **Tenho trinta anos.** — Ich bin dreißig Jahre alt."
+    },
+    {
+      "id": "ex-match-vorstellen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Vorstellungs-Wendungen zuordnen",
+      "exercise": {
+        "id": "ex-match-vorstellen",
+        "type": "matching",
+        "prompt": "Ordne jede portugiesische Wendung der deutschen Bedeutung zu.",
+        "card_ids": ["meu-nome-e", "sou-de", "moro-em", "prazer"],
+        "pairs": [
+          {"left": "Meu nome é...", "right": "Mein Name ist..."},
+          {"left": "Sou de...", "right": "Ich komme aus..."},
+          {"left": "Moro em...", "right": "Ich wohne in..."},
+          {"left": "Prazer", "right": "Freut mich"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-voce",
+      "type": "exercise",
+      "theory_ref": "step-voce",
+      "title": "Das Du auf Brasilianisch",
+      "exercise": {
+        "id": "ex-free-voce",
+        "type": "free_text",
+        "prompt": "Welches Wort benutzt man in Brasilien für 'du'?",
+        "card_ids": ["voce"],
+        "accept": ["você", "Você", "voce"],
+        "hint": "Mit Tilde auf dem e.",
+        "distractors": ["tu", "eu", "ele"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-chamo",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke füllen: Ich heiße",
+      "exercise": {
+        "id": "ex-cloze-chamo",
+        "type": "cloze",
+        "prompt": "Ergänze: 'Ich heiße Pedro.' (brasilianische Wortstellung)",
+        "card_ids": ["eu-me-chamo"],
+        "sentence": "Eu ___ chamo Pedro.",
+        "blanks": [{"accept": ["me", "Me"]}],
+        "cloze_mode": "type",
+        "hint": "Das Reflexivpronomen steht vor dem Verb."
+      }
+    },
+    {
+      "id": "ex-tile-sou-de",
+      "type": "exercise",
+      "theory_ref": "step-voce",
+      "title": "Herkunft formulieren",
+      "exercise": {
+        "id": "ex-tile-sou-de",
+        "type": "word_tiles",
+        "prompt": "Baue den Satz: 'Ich komme aus Berlin.'",
+        "card_ids": ["sou-de"],
+        "tiles": ["Sou", "de", "Berlim"],
+        "hint": "Drei Wörter.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-prazer",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Beim Kennenlernen",
+      "exercise": {
+        "id": "ex-free-prazer",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Freut mich' (kurz) auf Portugiesisch?",
+        "card_ids": ["prazer"],
+        "accept": ["Prazer", "prazer"],
+        "hint": "Ein Wort, beginnt mit P.",
+        "distractors": ["Obrigado", "Tchau", "Você"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-alter",
+      "type": "exercise",
+      "theory_ref": "step-voce",
+      "title": "Lücke füllen: Alter",
+      "exercise": {
+        "id": "ex-cloze-alter",
+        "type": "cloze",
+        "prompt": "Ergänze: 'Ich bin dreißig Jahre alt.' (wörtlich: ich habe ...)",
+        "card_ids": ["tenho-anos"],
+        "sentence": "___ trinta anos.",
+        "blanks": [{"accept": ["Tenho", "tenho"]}],
+        "cloze_mode": "type",
+        "hint": "Von 'ter' (haben), 1. Person."
+      }
+    }
+  ]
+}

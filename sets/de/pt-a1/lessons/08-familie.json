@@ -1,0 +1,233 @@
+{
+  "id": "08-familie",
+  "title": "Familie",
+  "description": "Familienmitglieder auf brasilianischem Portugiesisch — auf Deutsch erklärt.",
+  "target_language": "pt",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "a-mae",
+      "front": "a mãe",
+      "back": "die Mutter",
+      "notes": "Kontext: Minha mãe é professora. – Meine Mutter ist Lehrerin.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "o-pai",
+      "front": "o pai",
+      "back": "der Vater",
+      "notes": "Kontext: Meu pai trabalha muito. – Mein Vater arbeitet viel.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "os-pais",
+      "front": "os pais",
+      "back": "die Eltern",
+      "notes": "Kontext: Moro com meus pais. – Ich wohne bei meinen Eltern.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "o-irmao",
+      "front": "o irmão",
+      "back": "der Bruder",
+      "notes": "Kontext: Tenho um irmão mais velho. – Ich habe einen älteren Bruder.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "a-irma",
+      "front": "a irmã",
+      "back": "die Schwester",
+      "notes": "Kontext: Minha irmã estuda medicina. – Meine Schwester studiert Medizin.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "o-filho",
+      "front": "o filho",
+      "back": "der Sohn",
+      "notes": "Kontext: Meu filho tem cinco anos. – Mein Sohn ist fünf Jahre alt.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "a-filha",
+      "front": "a filha",
+      "back": "die Tochter",
+      "notes": "Kontext: Minha filha gosta de música. – Meine Tochter mag Musik.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "o-avo",
+      "front": "o avô",
+      "back": "der Großvater",
+      "notes": "Kontext: Meu avô tem oitenta anos. – Mein Opa ist achtzig. Beachte den Zirkumflex: avô (Opa) vs avó (Oma).",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "a-avo",
+      "front": "a avó",
+      "back": "die Großmutter",
+      "notes": "Kontext: Minha avó cozinha bem. – Meine Oma kocht gut. avó (Oma) mit Akut, avô (Opa) mit Zirkumflex.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "o-marido",
+      "front": "o marido",
+      "back": "der Ehemann",
+      "notes": "Kontext: Meu marido é brasileiro. – Mein Mann ist Brasilianer.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "a-esposa",
+      "front": "a esposa",
+      "back": "die Ehefrau",
+      "notes": "Kontext: A esposa dele é alemã. – Seine Frau ist Deutsche.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "meu-minha",
+      "front": "meu / minha",
+      "back": "mein/meine",
+      "notes": "Kontext: meu pai, minha mãe – mein Vater, meine Mutter. 'meu' (m.), 'minha' (w.).",
+      "difficulty": 2,
+      "tags": ["familie", "possessiv"]
+    },
+    {
+      "id": "a-crianca",
+      "front": "a criança",
+      "back": "das Kind",
+      "notes": "Kontext: A criança brinca no parque. – Das Kind spielt im Park. Immer feminin, egal ob Junge oder Mädchen.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die Familie",
+      "body": "# A família\n\nDie engsten Familienmitglieder:\n\n- **a mãe** — die Mutter\n- **o pai** — der Vater\n- **os pais** — die Eltern\n- **o irmão** / **a irmã** — Bruder / Schwester\n- **o filho** / **a filha** — Sohn / Tochter\n\n> Beachte das **ã** in *mãe* und *irmã* (nasaler Laut)."
+    },
+    {
+      "id": "step-grosseltern",
+      "type": "theory",
+      "title": "Großeltern und Possessivbegleiter",
+      "body": "## Großeltern\n\nHier entscheidet ein kleines Akzentzeichen:\n\n- **o avô** (mit Zirkumflex ^) — der Großvater\n- **a avó** (mit Akut ´) — die Großmutter\n\n## mein / meine\n\nDas Possessivpronomen richtet sich nach dem Geschlecht des Nomens:\n\n- **meu pai** — mein Vater (maskulin)\n- **minha mãe** — meine Mutter (feminin)\n\n> In Brasilien lässt man den Artikel davor meist weg: *minha mãe* (nicht *a minha mãe* wie oft in Portugal)."
+    },
+    {
+      "id": "ex-match-familie",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Familienmitglieder zuordnen",
+      "exercise": {
+        "id": "ex-match-familie",
+        "type": "matching",
+        "prompt": "Ordne jedes portugiesische Wort der deutschen Bedeutung zu.",
+        "card_ids": ["a-mae", "o-pai", "o-irmao", "a-irma", "o-filho"],
+        "pairs": [
+          {"left": "a mãe", "right": "die Mutter"},
+          {"left": "o pai", "right": "der Vater"},
+          {"left": "o irmão", "right": "der Bruder"},
+          {"left": "a irmã", "right": "die Schwester"},
+          {"left": "o filho", "right": "der Sohn"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-mae",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Die Mutter",
+      "exercise": {
+        "id": "ex-free-mae",
+        "type": "free_text",
+        "prompt": "Wie heißt 'die Mutter' auf Portugiesisch (mit Artikel)?",
+        "card_ids": ["a-mae"],
+        "accept": ["a mãe", "mãe", "a mae"],
+        "hint": "Mit nasalem ã.",
+        "distractors": ["o pai", "a irmã", "a filha"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-avo",
+      "type": "exercise",
+      "theory_ref": "step-grosseltern",
+      "title": "Die Großmutter",
+      "exercise": {
+        "id": "ex-free-avo",
+        "type": "free_text",
+        "prompt": "Wie heißt 'die Großmutter' auf Portugiesisch (mit Artikel)?",
+        "card_ids": ["a-avo"],
+        "accept": ["a avó", "avó", "a avo"],
+        "hint": "Mit Akut auf dem o: avó.",
+        "distractors": ["o avô", "a mãe", "a tia"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-meu-pai",
+      "type": "exercise",
+      "theory_ref": "step-grosseltern",
+      "title": "Lücke füllen: mein Vater",
+      "exercise": {
+        "id": "ex-cloze-meu-pai",
+        "type": "cloze",
+        "prompt": "Ergänze das Possessivpronomen: '___ pai' (mein Vater).",
+        "card_ids": ["meu-minha", "o-pai"],
+        "sentence": "___ pai trabalha muito.",
+        "blanks": [{"accept": ["Meu", "meu"]}],
+        "cloze_mode": "type",
+        "hint": "Maskuline Form von 'mein'."
+      }
+    },
+    {
+      "id": "ex-tile-minha-mae",
+      "type": "exercise",
+      "theory_ref": "step-grosseltern",
+      "title": "Satz über die Mutter",
+      "exercise": {
+        "id": "ex-tile-minha-mae",
+        "type": "word_tiles",
+        "prompt": "Baue: 'Meine Mutter ist Lehrerin.'",
+        "card_ids": ["meu-minha", "a-mae"],
+        "tiles": ["Minha", "mãe", "é", "professora"],
+        "hint": "Vier Kacheln.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-irma",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Familienmitglied erkennen",
+      "exercise": {
+        "id": "ex-pic-irma",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'die Schwester'?",
+        "card_ids": ["a-irma"],
+        "images": [
+          {"src": "assets/img/irma.png", "label": "a irmã", "is_correct": "true"},
+          {"src": "assets/img/irmao.png", "label": "o irmão"},
+          {"src": "assets/img/filha.png", "label": "a filha"},
+          {"src": "assets/img/mae.png", "label": "a mãe"}
+        ],
+        "hint": "Weibliches Geschwister, mit ã.",
+        "distractors": ["o irmão", "a filha", "a mãe"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
