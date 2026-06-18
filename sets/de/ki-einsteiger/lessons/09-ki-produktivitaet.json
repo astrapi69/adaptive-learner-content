@@ -14,7 +14,10 @@
       "notes": "Gut, um große Vorhaben in kleine, machbare Schritte zu teilen.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["produktivitaet", "planung"]
+      "tags": [
+        "produktivitaet",
+        "planung"
+      ]
     },
     {
       "id": "zusammenfassung",
@@ -23,7 +26,10 @@
       "notes": "Spart Zeit beim Lesen langer Berichte oder Artikel.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["produktivitaet", "text"]
+      "tags": [
+        "produktivitaet",
+        "text"
+      ]
     },
     {
       "id": "email-entwurf",
@@ -32,7 +38,10 @@
       "notes": "Hilft, schneller mit dem Schreiben anzufangen.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["produktivitaet", "kommunikation"]
+      "tags": [
+        "produktivitaet",
+        "kommunikation"
+      ]
     },
     {
       "id": "smart-ziel",
@@ -41,7 +50,10 @@
       "notes": "SMART = Spezifisch, Messbar, Attraktiv (Akzeptiert), Realistisch, Terminiert.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["produktivitaet", "ziele"]
+      "tags": [
+        "produktivitaet",
+        "ziele"
+      ]
     },
     {
       "id": "priorisierung",
@@ -50,7 +62,10 @@
       "notes": "Hilft gegen die Informationsflut: filtern, zusammenfassen, priorisieren.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["produktivitaet", "planung"]
+      "tags": [
+        "produktivitaet",
+        "planung"
+      ]
     },
     {
       "id": "automatisierung",
@@ -59,7 +74,10 @@
       "notes": "Spart Zeit bei Routineaufgaben.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["produktivitaet", "automatisierung"]
+      "tags": [
+        "produktivitaet",
+        "automatisierung"
+      ]
     },
     {
       "id": "informationsflut",
@@ -68,7 +86,65 @@
       "notes": "Drei Schritte: filtern, zusammenfassen, priorisieren.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["produktivitaet", "information"]
+      "tags": [
+        "produktivitaet",
+        "information"
+      ]
+    },
+    {
+      "id": "tagesplan",
+      "front": "Tagesplanung",
+      "back": "Die KI ordnet Aufgaben zu einem realistischen Tagesablauf.",
+      "notes": "Beispiel: »Plane meinen Arbeitstag mit diesen fünf Aufgaben«.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "produktivitaet"
+      ]
+    },
+    {
+      "id": "textvorlage",
+      "front": "Textvorlage",
+      "back": "Ein von der KI erstelltes Muster, das man immer wieder anpassen kann, z. B. für E-Mails.",
+      "notes": "Englisch: Template. Spart Zeit bei wiederkehrenden Texten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "produktivitaet"
+      ]
+    },
+    {
+      "id": "notizen-ordnen",
+      "front": "Notizen ordnen",
+      "back": "Die KI sortiert ungeordnete Notizen in Themen, Listen oder eine Gliederung.",
+      "notes": "Hilft, aus Stichworten eine Struktur zu machen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "produktivitaet"
+      ]
+    },
+    {
+      "id": "entscheidung-treffen",
+      "front": "Entscheidung vorbereiten",
+      "back": "Die KI stellt Optionen mit Vor- und Nachteilen gegenüber.",
+      "notes": "Die Entscheidung selbst bleibt beim Menschen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "produktivitaet"
+      ]
+    },
+    {
+      "id": "meeting-vorbereitung",
+      "front": "Meeting-Vorbereitung",
+      "back": "Die KI erstellt Tagesordnung, Leitfragen und Stichpunkte für eine Besprechung.",
+      "notes": "Sorgt für strukturierte und kürzere Meetings.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "produktivitaet"
+      ]
     }
   ],
   "steps": [
@@ -99,12 +175,29 @@
         "id": "ex-match-aufgaben",
         "type": "matching",
         "prompt": "Ordne jeder Aufgabe den besten KI-Einsatz zu.",
-        "card_ids": ["email-entwurf", "zusammenfassung", "priorisierung", "aufgabenmanagement"],
+        "card_ids": [
+          "email-entwurf",
+          "zusammenfassung",
+          "priorisierung",
+          "aufgabenmanagement"
+        ],
         "pairs": [
-          { "left": "Eine E-Mail schreiben", "right": "E-Mail-Entwurf erstellen" },
-          { "left": "Einen langen Bericht lesen", "right": "Text zusammenfassen lassen" },
-          { "left": "Zu viele Aufgaben", "right": "nach Wichtigkeit priorisieren" },
-          { "left": "Großes Projekt starten", "right": "in kleine Schritte zerlegen" }
+          {
+            "left": "Eine E-Mail schreiben",
+            "right": "E-Mail-Entwurf erstellen"
+          },
+          {
+            "left": "Einen langen Bericht lesen",
+            "right": "Text zusammenfassen lassen"
+          },
+          {
+            "left": "Zu viele Aufgaben",
+            "right": "nach Wichtigkeit priorisieren"
+          },
+          {
+            "left": "Großes Projekt starten",
+            "right": "in kleine Schritte zerlegen"
+          }
         ],
         "direction": "target_to_source"
       }
@@ -118,11 +211,22 @@
         "id": "ex-cloze-smart",
         "type": "cloze",
         "prompt": "Ergänze die fehlenden Begriffe der SMART-Formel.",
-        "card_ids": ["smart-ziel"],
+        "card_ids": [
+          "smart-ziel"
+        ],
         "sentence": "SMART steht für Spezifisch, ___, Attraktiv, Realistisch und ___ .",
         "blanks": [
-          { "accept": ["Messbar"] },
-          { "accept": ["Terminiert", "terminiert"] }
+          {
+            "accept": [
+              "Messbar"
+            ]
+          },
+          {
+            "accept": [
+              "Terminiert",
+              "terminiert"
+            ]
+          }
         ],
         "cloze_mode": "type",
         "hint": "M steht für „woran erkenne ich den Erfolg?“, T für „bis wann?“."
@@ -137,10 +241,21 @@
         "id": "ex-free-zusammenfassung",
         "type": "free_text",
         "prompt": "Wie nennt man es, wenn die KI einen langen Text in wenige Sätze bringt?",
-        "card_ids": ["zusammenfassung"],
-        "accept": ["Zusammenfassung", "zusammenfassung", "zusammenfassen", "Zusammenfassen"],
+        "card_ids": [
+          "zusammenfassung"
+        ],
+        "accept": [
+          "Zusammenfassung",
+          "zusammenfassung",
+          "zusammenfassen",
+          "Zusammenfassen"
+        ],
         "hint": "Das Wichtigste in Kurzform.",
-        "distractors": ["Übersetzung", "Verlängerung", "Verschlüsselung"],
+        "distractors": [
+          "Übersetzung",
+          "Verlängerung",
+          "Verschlüsselung"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -153,8 +268,14 @@
         "id": "ex-tiles-informationsflut",
         "type": "word_tiles",
         "prompt": "Setze die drei Schritte gegen die Informationsflut in die richtige Reihenfolge.",
-        "card_ids": ["informationsflut"],
-        "tiles": ["Filtern", "Zusammenfassen", "Priorisieren"],
+        "card_ids": [
+          "informationsflut"
+        ],
+        "tiles": [
+          "Filtern",
+          "Zusammenfassen",
+          "Priorisieren"
+        ],
         "hint": "Erst aussortieren, dann kürzen, dann ordnen.",
         "direction": "target_to_source"
       }
@@ -168,10 +289,21 @@
         "id": "ex-free-email",
         "type": "free_text",
         "prompt": "Wie nennt man den von der KI vorformulierten Text, den man danach nur noch anpasst?",
-        "card_ids": ["email-entwurf"],
-        "accept": ["E-Mail-Entwurf", "Entwurf", "entwurf", "E-Mail Entwurf"],
+        "card_ids": [
+          "email-entwurf"
+        ],
+        "accept": [
+          "E-Mail-Entwurf",
+          "Entwurf",
+          "entwurf",
+          "E-Mail Entwurf"
+        ],
         "hint": "Eine erste Fassung der Nachricht.",
-        "distractors": ["Spamfilter", "Posteingang", "Unterschrift"],
+        "distractors": [
+          "Spamfilter",
+          "Posteingang",
+          "Unterschrift"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -184,12 +316,26 @@
         "id": "ex-match-smart",
         "type": "matching",
         "prompt": "Ordne jedem SMART-Buchstaben seine Bedeutung zu.",
-        "card_ids": ["smart-ziel"],
+        "card_ids": [
+          "smart-ziel"
+        ],
         "pairs": [
-          { "left": "S", "right": "Spezifisch" },
-          { "left": "M", "right": "Messbar" },
-          { "left": "R", "right": "Realistisch" },
-          { "left": "T", "right": "Terminiert" }
+          {
+            "left": "S",
+            "right": "Spezifisch"
+          },
+          {
+            "left": "M",
+            "right": "Messbar"
+          },
+          {
+            "left": "R",
+            "right": "Realistisch"
+          },
+          {
+            "left": "T",
+            "right": "Terminiert"
+          }
         ],
         "direction": "target_to_source"
       }
@@ -203,10 +349,19 @@
         "id": "ex-cloze-priorisierung",
         "type": "cloze",
         "prompt": "Ergänze den Begriff für das Ordnen von Aufgaben nach Wichtigkeit.",
-        "card_ids": ["priorisierung"],
+        "card_ids": [
+          "priorisierung"
+        ],
         "sentence": "Aufgaben nach Wichtigkeit und Dringlichkeit zu ordnen nennt man ___ .",
         "blanks": [
-          { "accept": ["Priorisierung", "priorisierung", "Priorisieren", "priorisieren"] }
+          {
+            "accept": [
+              "Priorisierung",
+              "priorisierung",
+              "Priorisieren",
+              "priorisieren"
+            ]
+          }
         ],
         "cloze_mode": "type",
         "hint": "Das Wesentliche kommt zuerst."
@@ -221,8 +376,22 @@
         "id": "ex-tiles-merksatz",
         "type": "word_tiles",
         "prompt": "Setze den Merksatz zusammen.",
-        "card_ids": ["automatisierung", "priorisierung"],
-        "tiles": ["KI", "nimmt", "die", "Routine", "ab", "du", "entscheidest", "was", "wichtig", "ist"],
+        "card_ids": [
+          "automatisierung",
+          "priorisierung"
+        ],
+        "tiles": [
+          "KI",
+          "nimmt",
+          "die",
+          "Routine",
+          "ab",
+          "du",
+          "entscheidest",
+          "was",
+          "wichtig",
+          "ist"
+        ],
         "hint": "Beginnt mit: KI nimmt die Routine ab …",
         "direction": "target_to_source"
       }

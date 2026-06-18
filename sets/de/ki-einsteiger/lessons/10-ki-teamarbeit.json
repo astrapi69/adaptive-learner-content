@@ -14,7 +14,10 @@
       "notes": "Klare Kommunikation spart dem ganzen Team Zeit.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["team", "kommunikation"]
+      "tags": [
+        "team",
+        "kommunikation"
+      ]
     },
     {
       "id": "meeting-protokoll",
@@ -23,7 +26,10 @@
       "notes": "Hält Ergebnisse und nächste Schritte fest.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["team", "protokoll"]
+      "tags": [
+        "team",
+        "protokoll"
+      ]
     },
     {
       "id": "wissensdatenbank",
@@ -32,7 +38,10 @@
       "notes": "Macht Wissen für das ganze Team auffindbar.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["team", "wissen"]
+      "tags": [
+        "team",
+        "wissen"
+      ]
     },
     {
       "id": "team-brainstorming",
@@ -41,7 +50,10 @@
       "notes": "Die KI erweitert die Ideen des Teams, ersetzt sie aber nicht.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["team", "ideen"]
+      "tags": [
+        "team",
+        "ideen"
+      ]
     },
     {
       "id": "verantwortungsvoller-einsatz",
@@ -50,7 +62,10 @@
       "notes": "Bei vertraulichen Daten und Personalentscheidungen ist Vorsicht geboten.",
       "media_type": "text",
       "difficulty": 3,
-      "tags": ["team", "verantwortung"]
+      "tags": [
+        "team",
+        "verantwortung"
+      ]
     },
     {
       "id": "projektmanagement",
@@ -59,7 +74,10 @@
       "notes": "Gut für den Überblick, wer was bis wann macht.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["team", "planung"]
+      "tags": [
+        "team",
+        "planung"
+      ]
     },
     {
       "id": "ergebnisse-pruefen",
@@ -68,7 +86,65 @@
       "notes": "Der Mensch trägt die Verantwortung für das Endergebnis.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["team", "verantwortung"]
+      "tags": [
+        "team",
+        "verantwortung"
+      ]
+    },
+    {
+      "id": "rollenverteilung",
+      "front": "Rollenverteilung",
+      "back": "Die KI hilft, Aufgaben passend auf Teammitglieder zu verteilen.",
+      "notes": "Beispiel: »Wer übernimmt welche Aufgabe in diesem Projekt?«",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "team"
+      ]
+    },
+    {
+      "id": "onboarding",
+      "front": "Onboarding",
+      "back": "Die KI erstellt Einführungsmaterial für neue Teammitglieder.",
+      "notes": "Englisch: onboarding. Verkürzt die Einarbeitungszeit.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "team"
+      ]
+    },
+    {
+      "id": "feedback-formulieren",
+      "front": "Feedback formulieren",
+      "back": "Die KI hilft, Rückmeldungen sachlich und wertschätzend zu formulieren.",
+      "notes": "Gut, um Kritik konstruktiv zu verpacken.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "team"
+      ]
+    },
+    {
+      "id": "statusbericht",
+      "front": "Statusbericht",
+      "back": "Die KI fasst den Fortschritt eines Projekts kurz und übersichtlich zusammen.",
+      "notes": "Beispiel: »Schreibe einen wöchentlichen Statusbericht aus diesen Stichpunkten«.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "team"
+      ]
+    },
+    {
+      "id": "praesentation",
+      "front": "Präsentation vorbereiten",
+      "back": "Die KI gliedert Inhalte in Folien und schlägt Kernbotschaften vor.",
+      "notes": "Den Vortrag selbst hält und prüft der Mensch.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "team"
+      ]
     }
   ],
   "steps": [
@@ -99,12 +175,29 @@
         "id": "ex-match-teamaufgaben",
         "type": "matching",
         "prompt": "Ordne jeder Team-Aufgabe den passenden KI-Prompt zu.",
-        "card_ids": ["meeting-protokoll", "projektmanagement", "team-brainstorming", "wissensdatenbank"],
+        "card_ids": [
+          "meeting-protokoll",
+          "projektmanagement",
+          "team-brainstorming",
+          "wissensdatenbank"
+        ],
         "pairs": [
-          { "left": "Meeting festhalten", "right": "Fasse diese Notizen als Protokoll zusammen." },
-          { "left": "Aufgaben verteilen", "right": "Erstelle eine Aufgabenliste mit Verantwortlichen." },
-          { "left": "Ideen sammeln", "right": "Gib uns zehn Ideen für unser Projekt." },
-          { "left": "Wissen finden", "right": "Suche die Antwort in unserer Doku." }
+          {
+            "left": "Meeting festhalten",
+            "right": "Fasse diese Notizen als Protokoll zusammen."
+          },
+          {
+            "left": "Aufgaben verteilen",
+            "right": "Erstelle eine Aufgabenliste mit Verantwortlichen."
+          },
+          {
+            "left": "Ideen sammeln",
+            "right": "Gib uns zehn Ideen für unser Projekt."
+          },
+          {
+            "left": "Wissen finden",
+            "right": "Suche die Antwort in unserer Doku."
+          }
         ],
         "direction": "target_to_source"
       }
@@ -118,10 +211,19 @@
         "id": "ex-free-nicht-einsetzen",
         "type": "free_text",
         "prompt": "Wann sollte man KI im Team eher NICHT (allein) einsetzen?",
-        "card_ids": ["verantwortungsvoller-einsatz"],
-        "accept": ["bei vertraulichen Daten", "bei sensiblen Personalentscheidungen", "bei vertraulichen Informationen"],
+        "card_ids": [
+          "verantwortungsvoller-einsatz"
+        ],
+        "accept": [
+          "bei vertraulichen Daten",
+          "bei sensiblen Personalentscheidungen",
+          "bei vertraulichen Informationen"
+        ],
         "hint": "Denke an Datenschutz und sensible Entscheidungen über Personen.",
-        "distractors": ["beim Protokollieren", "beim Brainstorming"],
+        "distractors": [
+          "beim Protokollieren",
+          "beim Brainstorming"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -134,10 +236,18 @@
         "id": "ex-cloze-protokoll",
         "type": "cloze",
         "prompt": "Ergänze, was die KI aus den Meeting-Notizen erstellt.",
-        "card_ids": ["meeting-protokoll"],
+        "card_ids": [
+          "meeting-protokoll"
+        ],
         "sentence": "Aus den Notizen eines Meetings erstellt die KI ein ___ mit den wichtigsten Punkten.",
         "blanks": [
-          { "accept": ["Protokoll", "protokoll", "Meeting-Protokoll"] }
+          {
+            "accept": [
+              "Protokoll",
+              "protokoll",
+              "Meeting-Protokoll"
+            ]
+          }
         ],
         "cloze_mode": "type",
         "hint": "Hält Ergebnisse und nächste Schritte fest."
@@ -152,8 +262,19 @@
         "id": "ex-tiles-verantwortung",
         "type": "word_tiles",
         "prompt": "Setze die Regel für den verantwortungsvollen KI-Einsatz zusammen.",
-        "card_ids": ["verantwortungsvoller-einsatz", "ergebnisse-pruefen"],
-        "tiles": ["Prüfe", "die", "Ergebnisse", "und", "beachte", "den", "Datenschutz"],
+        "card_ids": [
+          "verantwortungsvoller-einsatz",
+          "ergebnisse-pruefen"
+        ],
+        "tiles": [
+          "Prüfe",
+          "die",
+          "Ergebnisse",
+          "und",
+          "beachte",
+          "den",
+          "Datenschutz"
+        ],
         "hint": "Beginnt mit „Prüfe die Ergebnisse …“.",
         "direction": "target_to_source"
       }
@@ -167,10 +288,21 @@
         "id": "ex-free-wissensdatenbank",
         "type": "free_text",
         "prompt": "Wie nennt man eine durchsuchbare Sammlung von Dokumenten und Antworten, in der die KI Informationen findet?",
-        "card_ids": ["wissensdatenbank"],
-        "accept": ["Wissensdatenbank", "wissensdatenbank", "Wissens-Datenbank", "FAQ"],
+        "card_ids": [
+          "wissensdatenbank"
+        ],
+        "accept": [
+          "Wissensdatenbank",
+          "wissensdatenbank",
+          "Wissens-Datenbank",
+          "FAQ"
+        ],
         "hint": "Hier findet das Team Antworten und Doku.",
-        "distractors": ["Spamfilter", "Bildschirmschoner", "Druckertreiber"],
+        "distractors": [
+          "Spamfilter",
+          "Bildschirmschoner",
+          "Druckertreiber"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -183,12 +315,29 @@
         "id": "ex-match-einsatz",
         "type": "matching",
         "prompt": "Ordne jedem Begriff seine Bedeutung zu.",
-        "card_ids": ["teamkommunikation", "wissensdatenbank", "projektmanagement", "ergebnisse-pruefen"],
+        "card_ids": [
+          "teamkommunikation",
+          "wissensdatenbank",
+          "projektmanagement",
+          "ergebnisse-pruefen"
+        ],
         "pairs": [
-          { "left": "Teamkommunikation", "right": "Nachrichten klar formulieren" },
-          { "left": "Wissensdatenbank", "right": "Doku durchsuchbar machen" },
-          { "left": "Projektmanagement", "right": "Aufgaben verteilen und Status verfolgen" },
-          { "left": "Ergebnisse prüfen", "right": "KI-Ausgaben vor Gebrauch kontrollieren" }
+          {
+            "left": "Teamkommunikation",
+            "right": "Nachrichten klar formulieren"
+          },
+          {
+            "left": "Wissensdatenbank",
+            "right": "Doku durchsuchbar machen"
+          },
+          {
+            "left": "Projektmanagement",
+            "right": "Aufgaben verteilen und Status verfolgen"
+          },
+          {
+            "left": "Ergebnisse prüfen",
+            "right": "KI-Ausgaben vor Gebrauch kontrollieren"
+          }
         ],
         "direction": "target_to_source"
       }
@@ -202,10 +351,18 @@
         "id": "ex-cloze-pruefen",
         "type": "cloze",
         "prompt": "Ergänze, was man mit KI-Ergebnissen tun sollte, bevor man sie verwendet.",
-        "card_ids": ["ergebnisse-pruefen"],
+        "card_ids": [
+          "ergebnisse-pruefen"
+        ],
         "sentence": "KI-Ergebnisse sollte man immer ___, denn die KI kann sich irren.",
         "blanks": [
-          { "accept": ["prüfen", "kontrollieren", "überprüfen"] }
+          {
+            "accept": [
+              "prüfen",
+              "kontrollieren",
+              "überprüfen"
+            ]
+          }
         ],
         "cloze_mode": "type",
         "hint": "Der Mensch trägt die Verantwortung für das Endergebnis."
@@ -220,8 +377,18 @@
         "id": "ex-tiles-brainstorming",
         "type": "word_tiles",
         "prompt": "Setze einen Prompt für das Team-Brainstorming zusammen.",
-        "card_ids": ["team-brainstorming"],
-        "tiles": ["Gib", "uns", "zehn", "Ideen", "für", "unser", "Projekt"],
+        "card_ids": [
+          "team-brainstorming"
+        ],
+        "tiles": [
+          "Gib",
+          "uns",
+          "zehn",
+          "Ideen",
+          "für",
+          "unser",
+          "Projekt"
+        ],
         "hint": "Beginnt mit „Gib uns zehn Ideen …“.",
         "direction": "target_to_source"
       }
