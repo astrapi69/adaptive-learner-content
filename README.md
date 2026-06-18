@@ -22,7 +22,7 @@ Official content repository for [Adaptive Learner](https://github.com/astrapi69/
 | Englisch B1 | Deutsch (DE) | English (EN) | 15 | B1 | Sprache |
 | English A1 | हिंदी (HI) | English (EN) | 10 | A1 | Language |
 | Deutsch A1 | English (EN) | German (DE) | 5 | A1 | Language |
-| Psychologie | Deutsch (DE) | Deutsch (DE) | 106 | Uni-Intro | Psychologie |
+| Psychologie | Deutsch (DE) | Deutsch (DE) | 112 | Uni-Intro | Psychologie |
 | Python — Grundlagen | Deutsch (DE) | Deutsch (DE) | 15 | A1 | Programmierung |
 | KI für Einsteiger | Deutsch (DE) | Deutsch (DE) | 12 | Einsteiger | KI |
 | Japanisch A1 | Deutsch (DE) | 日本語 (JA) | 10 | A1 | Sprache |
@@ -32,7 +32,7 @@ Official content repository for [Adaptive Learner](https://github.com/astrapi69/
 | Chinesisch A1 | Deutsch (DE) | 中文 (ZH) | 10 | A1 | Sprache |
 | IT-Grundlagen | Deutsch (DE) | Deutsch (DE) | 10 | Einsteiger | Technik |
 
-**418 Lektionen · ~87 Stunden Lernmaterial**
+**424 Lektionen · ~88 Stunden Lernmaterial**
 
 ## Directory Structure
 

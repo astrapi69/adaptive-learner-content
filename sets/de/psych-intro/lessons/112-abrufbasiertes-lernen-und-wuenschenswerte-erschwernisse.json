@@ -1,0 +1,266 @@
+{
+  "id": "112-abrufbasiertes-lernen-und-wuenschenswerte-erschwernisse",
+  "title": "Abrufbasiertes Lernen — Testing-Effekt und wünschenswerte Erschwernisse",
+  "description": "Wirksames Lernen aus der kognitiven Lernforschung: der Testing-Effekt (abrufbasiertes Lernen), der Generierungseffekt, verschachteltes Üben (Interleaving), das Konzept der wünschenswerten Erschwernisse (Bjork) und die trügerische 'Flüssigkeit' (fluency illusion) — auf Deutsch erklärt. Praxisnaher Schwerpunkt auf aktivem Abruf, ergänzend zu den Lektionen 3 und 46, ohne deren Modelle und Vergessenskurve erneut durchzunehmen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "abrufbasiertes-lernen",
+      "front": "Abrufbasiertes Lernen (Retrieval Practice)",
+      "back": "Lernen durch das aktive Abrufen von Informationen aus dem Gedächtnis (z. B. sich selbst abfragen), statt den Stoff nur erneut zu lesen. Der Abruf selbst festigt das Gelernte.",
+      "notes": "Auch 'Abrufpraxis' oder 'aktiver Abruf'. Grundlage des Lernens mit Karteikarten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "hint": "Sich selbst abfragen statt nur wiederlesen.",
+      "tags": ["abruf", "lernstrategie", "gedaechtnis"]
+    },
+    {
+      "id": "testing-effekt",
+      "front": "Testing-Effekt (Testing Effect)",
+      "back": "Der Befund, dass sich Gelerntes besser einprägt, wenn man es durch einen Test abruft, als wenn man es noch einmal liest — auch ohne zusätzliches Feedback.",
+      "notes": "Roediger & Karpicke (2006): Testen schlägt erneutes Lesen, besonders bei längerem Behaltensintervall.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Sich testen festigt mehr als nochmals lesen.",
+      "tags": ["testing-effekt", "abruf", "lernstrategie"]
+    },
+    {
+      "id": "wuenschenswerte-erschwernisse",
+      "front": "Wünschenswerte Erschwernisse (Desirable Difficulties)",
+      "back": "Von Robert Bjork geprägter Begriff für Lernbedingungen, die das Lernen kurzfristig mühsamer und langsamer machen, das langfristige Behalten und den Transfer aber verbessern.",
+      "notes": "Beispiele: verteiltes und verschachteltes Üben, abrufbasiertes Lernen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Kurzfristig schwerer, langfristig besser (Bjork).",
+      "tags": ["bjork", "lernstrategie", "erschwernisse"]
+    },
+    {
+      "id": "generierungseffekt",
+      "front": "Generierungseffekt (Generation Effect)",
+      "back": "Information, die man selbst erzeugt (etwa eine Antwort, ein Beispiel oder eine Lücke ausfüllt), wird besser behalten als Information, die man nur passiv vorgelegt bekommt.",
+      "notes": "Selbst Erzeugtes hinterlässt eine tiefere Gedächtnisspur als bloßes Lesen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["generierung", "lernstrategie", "gedaechtnis"]
+    },
+    {
+      "id": "verschachteltes-ueben",
+      "front": "Verschachteltes Üben (Interleaving)",
+      "back": "Das Mischen verschiedener Aufgabentypen oder Themen innerhalb einer Lernsitzung, statt jeweils einen Block lange am Stück zu üben (geblocktes Üben).",
+      "notes": "Erschwert das Üben kurzfristig, verbessert aber das Unterscheiden und den Transfer — eine wünschenswerte Erschwernis.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Themen mischen statt blockweise üben.",
+      "tags": ["interleaving", "lernstrategie", "uebung"]
+    },
+    {
+      "id": "geblocktes-ueben",
+      "front": "Geblocktes Üben (Blocked Practice)",
+      "back": "Das Üben eines einzigen Aufgabentyps lange am Stück (AAAA BBBB). Es fühlt sich flüssig an, führt aber meist zu schwächerem langfristigem Lernen als verschachteltes Üben.",
+      "notes": "Der Gegenbegriff zum Interleaving; verleitet zur Überschätzung des eigenen Lernfortschritts.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["geblockt", "uebung", "lernstrategie"]
+    },
+    {
+      "id": "fluency-illusion",
+      "front": "Flüssigkeitsillusion (Fluency Illusion)",
+      "back": "Die trügerische Überzeugung, etwas gut zu beherrschen, nur weil sich das wiederholte Lesen leicht und flüssig anfühlt — obwohl der Abruf später nicht gelingt.",
+      "notes": "Erklärt, warum sich passives Wiederlesen beliebt, aber wenig wirksam ist.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Sich leicht anfühlen ist nicht dasselbe wie können.",
+      "tags": ["illusion", "metakognition", "lernstrategie"]
+    },
+    {
+      "id": "wiederlesen",
+      "front": "Wiederholtes Lesen (Rereading)",
+      "back": "Die häufigste, aber wenig wirksame Lernmethode: denselben Text mehrfach lesen. Es erzeugt ein Gefühl von Vertrautheit (Flüssigkeitsillusion), festigt das Wissen aber kaum.",
+      "notes": "Im direkten Vergleich dem abrufbasierten Lernen klar unterlegen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["wiederlesen", "lernstrategie"]
+    },
+    {
+      "id": "feedback-lernen",
+      "front": "Rolle des Feedbacks",
+      "back": "Rückmeldung über richtige und falsche Antworten verstärkt den Testing-Effekt zusätzlich, indem sie Fehler korrigiert und korrektes Wissen festigt. Der Effekt tritt aber auch ohne Feedback auf.",
+      "notes": "Verzögertes Feedback kann langfristig sogar wirksamer sein als sofortiges.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["feedback", "testing-effekt", "lernstrategie"]
+    },
+    {
+      "id": "roediger-karpicke",
+      "front": "Roediger & Karpicke (2006)",
+      "back": "Klassische Studie zum Testing-Effekt: Lernende, die einen Text durch Abrufen wiederholten, behielten ihn nach einer Woche deutlich besser als jene, die ihn nur mehrfach gelesen hatten.",
+      "notes": "Interessant: Die Wiederleser schätzten ihren Lernerfolg höher ein — ein Beispiel für die Flüssigkeitsillusion.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["roediger", "karpicke", "testing-effekt"]
+    },
+    {
+      "id": "metakognitive-fehleinschaetzung",
+      "front": "Metakognitive Fehleinschätzung",
+      "back": "Lernende halten leicht wirkende Methoden (Wiederlesen) oft für die besseren, obwohl mühsamere Methoden (Abrufen, Verschachteln) langfristig mehr bringen — eine Fehleinschätzung des eigenen Lernens.",
+      "notes": "Deshalb wählen viele intuitiv die wenig wirksamen Strategien.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["metakognition", "lernstrategie", "illusion"]
+    },
+    {
+      "id": "transfer",
+      "front": "Transfer (Transfer of Learning)",
+      "back": "Die Fähigkeit, Gelerntes auf neue, andersartige Aufgaben oder Situationen anzuwenden. Wünschenswerte Erschwernisse verbessern besonders diesen Transfer.",
+      "notes": "Ziel echten Verstehens: Wissen flexibel über die Übungsaufgaben hinaus nutzen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["transfer", "lernstrategie"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-testing-effekt",
+      "type": "theory",
+      "title": "Abrufen statt Wiederlesen",
+      "body": "# Abrufbasiertes Lernen\n\n> **Lektion 3** und **Lektion 46** behandeln die Gedächtnismodelle, die Vergessenskurve und die Verarbeitungstiefe. Diese Lektion fragt praktisch: *Welche Lernstrategien wirken wirklich — und warum täuschen wir uns dabei so oft?*\n\n## Der Testing-Effekt\n\nDie wohl wichtigste Erkenntnis der Lernforschung: **Sich selbst abzufragen festigt mehr als erneutes Lesen.** Das nennt man **abrufbasiertes Lernen** (retrieval practice), und der dadurch erzielte Vorteil heißt **Testing-Effekt**.\n\n**Roediger & Karpicke** (2006) zeigten: Wer einen Text durch **Abrufen** wiederholte, behielt ihn nach einer Woche deutlich besser als wer ihn nur **mehrfach las** — obwohl die Wiederleser sich erfolgreicher *fühlten*.\n\n## Die Flüssigkeitsillusion\n\nGenau dieses Gefühl ist die Falle: Die **Flüssigkeitsillusion** (fluency illusion). Weil sich wiederholtes Lesen leicht und flüssig anfühlt, hält man den Stoff für beherrscht — bis der Abruf in der Prüfung scheitert."
+    },
+    {
+      "id": "theory-wuenschenswerte-erschwernisse",
+      "type": "theory",
+      "title": "Wünschenswerte Erschwernisse",
+      "body": "## Wünschenswerte Erschwernisse (Bjork)\n\n**Robert Bjork** prägte den Begriff der **wünschenswerten Erschwernisse**: Lernbedingungen, die das Lernen **kurzfristig mühsamer** machen, das **langfristige Behalten** und den **Transfer** aber verbessern.\n\n| Strategie | Kurzfristig | Langfristig |\n|---|---|---|\n| **abrufbasiertes Lernen** | anstrengend | starkes Behalten |\n| **verschachteltes Üben** | verwirrend | besseres Unterscheiden, Transfer |\n| **wiederholtes Lesen** | leicht, flüssig | schwaches Behalten |\n\n## Interleaving vs. geblocktes Üben\n\n- **Geblocktes Üben** (AAAA BBBB) fühlt sich flüssig an, täuscht aber Können vor.\n- **Verschachteltes Üben** (ABCABC) zwingt dazu, jedes Mal die passende Methode neu zu wählen — schwerer, aber wirksamer.\n\n## Der Generierungseffekt\n\nSelbst **erzeugte** Antworten oder Beispiele werden besser behalten als bloß gelesene (**Generierungseffekt**).\n\n> Achtung **metakognitive Fehleinschätzung**: Die leicht wirkenden Methoden fühlen sich am besten an — sind aber meist die schwächsten."
+    },
+    {
+      "id": "ex-free-testing-effekt",
+      "type": "exercise",
+      "theory_ref": "theory-testing-effekt",
+      "title": "Der wichtigste Lerneffekt",
+      "exercise": {
+        "id": "ex-free-testing-effekt",
+        "type": "free_text",
+        "prompt": "Wie heißt der Befund, dass man sich Stoff besser merkt, wenn man ihn durch einen Test abruft, statt ihn erneut zu lesen?",
+        "card_ids": ["testing-effekt", "abrufbasiertes-lernen"],
+        "accept": ["Testing-Effekt", "testing-effekt", "Testing Effect", "Testeffekt", "Abrufeffekt", "Testing Effekt"],
+        "hint": "Englisch: Testing Effect. Klassische Studie: Roediger & Karpicke (2006).",
+        "distractors": ["Generierungseffekt", "Spacing-Effekt", "Flüssigkeitsillusion"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-strategien",
+      "type": "exercise",
+      "theory_ref": "theory-wuenschenswerte-erschwernisse",
+      "title": "Lernstrategien zuordnen",
+      "exercise": {
+        "id": "ex-match-strategien",
+        "type": "matching",
+        "prompt": "Ordne jeder Strategie die richtige Beschreibung zu.",
+        "card_ids": ["abrufbasiertes-lernen", "verschachteltes-ueben", "generierungseffekt", "wiederlesen"],
+        "pairs": [
+          { "left": "Abrufbasiertes Lernen", "right": "Information aktiv aus dem Gedächtnis abrufen" },
+          { "left": "Verschachteltes Üben", "right": "verschiedene Themen innerhalb einer Sitzung mischen" },
+          { "left": "Generierungseffekt", "right": "Selbst erzeugtes wird besser behalten als Vorgelegtes" },
+          { "left": "Wiederholtes Lesen", "right": "weit verbreitet, fühlt sich leicht an, wirkt aber kaum" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-erschwernisse",
+      "type": "exercise",
+      "theory_ref": "theory-wuenschenswerte-erschwernisse",
+      "title": "Bjorks Konzept",
+      "exercise": {
+        "id": "ex-cloze-erschwernisse",
+        "type": "cloze",
+        "prompt": "Ergänze das fehlende Wort in Bjorks Begriff.",
+        "card_ids": ["wuenschenswerte-erschwernisse"],
+        "sentence": "Robert Bjork nennt Lernbedingungen, die kurzfristig schwerer, langfristig aber wirksamer sind, ___ Erschwernisse.",
+        "blanks": [
+          { "accept": ["wünschenswerte", "wuenschenswerte", "wünschenswert"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englisch: desirable difficulties — sie sind 'erwünscht', weil sie nützen."
+      }
+    },
+    {
+      "id": "ex-free-fluency",
+      "type": "exercise",
+      "theory_ref": "theory-testing-effekt",
+      "title": "Die trügerische Leichtigkeit",
+      "exercise": {
+        "id": "ex-free-fluency",
+        "type": "free_text",
+        "prompt": "Wie heißt die trügerische Überzeugung, etwas zu beherrschen, nur weil sich das Wiederlesen leicht und flüssig anfühlt?",
+        "card_ids": ["fluency-illusion"],
+        "accept": ["Flüssigkeitsillusion", "flüssigkeitsillusion", "Fluency Illusion", "fluency illusion", "Fluency-Illusion", "Illusion der Flüssigkeit"],
+        "hint": "Englisch: fluency illusion. Leicht anfühlen ist nicht dasselbe wie können.",
+        "distractors": ["Testing-Effekt", "Generierungseffekt", "Interleaving"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-testing",
+      "type": "exercise",
+      "theory_ref": "theory-testing-effekt",
+      "title": "Die Kernregel formulieren",
+      "exercise": {
+        "id": "ex-tiles-testing",
+        "type": "word_tiles",
+        "prompt": "Setze die zentrale Empfehlung des abrufbasierten Lernens zusammen.",
+        "card_ids": ["abrufbasiertes-lernen", "testing-effekt"],
+        "tiles": ["Sich", "selbst", "abfragen", "festigt", "mehr", "als", "Wiederlesen"],
+        "hint": "Beginnt mit 'Sich selbst abfragen …'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-interleaving",
+      "type": "exercise",
+      "theory_ref": "theory-wuenschenswerte-erschwernisse",
+      "title": "Welches Vorgehen ist verschachteltes Üben?",
+      "exercise": {
+        "id": "ex-pick-interleaving",
+        "type": "picture_choice",
+        "prompt": "Welche Lernsitzung nutzt verschachteltes Üben (Interleaving)?",
+        "card_ids": ["verschachteltes-ueben", "geblocktes-ueben"],
+        "images": [
+          { "src": "assets/img/lernen-interleaving.png", "label": "Die Schülerin mischt Aufgaben zu Addition, Subtraktion und Multiplikation bunt durcheinander.", "is_correct": "true" },
+          { "src": "assets/img/lernen-geblockt.png", "label": "Die Schülerin rechnet erst 20 Additionen, dann 20 Subtraktionen, dann 20 Multiplikationen am Stück." },
+          { "src": "assets/img/lernen-wiederlesen.png", "label": "Die Schülerin liest dasselbe Kapitel zum fünften Mal durch." },
+          { "src": "assets/img/lernen-markieren.png", "label": "Die Schülerin markiert im Text möglichst viele Sätze mit Textmarker." }
+        ],
+        "hint": "Beim Interleaving werden verschiedene Aufgabentypen gemischt, nicht blockweise geübt.",
+        "distractors": [
+          "Die Schülerin rechnet erst 20 Additionen, dann 20 Subtraktionen, dann 20 Multiplikationen am Stück.",
+          "Die Schülerin liest dasselbe Kapitel zum fünften Mal durch.",
+          "Die Schülerin markiert im Text möglichst viele Sätze mit Textmarker."
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-vertiefung-lernen",
+      "type": "exercise",
+      "theory_ref": "theory-wuenschenswerte-erschwernisse",
+      "title": "Vertiefende Begriffe",
+      "exercise": {
+        "id": "ex-match-vertiefung-lernen",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die passende Aussage zu.",
+        "card_ids": ["roediger-karpicke", "feedback-lernen", "metakognitive-fehleinschaetzung", "transfer"],
+        "pairs": [
+          { "left": "Roediger & Karpicke (2006)", "right": "Studie: Abrufen schlägt Wiederlesen nach einer Woche" },
+          { "left": "Feedback", "right": "verstärkt den Testing-Effekt, ist aber nicht zwingend nötig" },
+          { "left": "Metakognitive Fehleinschätzung", "right": "leicht wirkende Methoden werden überschätzt" },
+          { "left": "Transfer", "right": "Gelerntes auf neue Situationen anwenden können" }
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
