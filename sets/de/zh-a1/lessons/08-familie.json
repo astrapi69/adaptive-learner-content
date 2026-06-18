@@ -1,0 +1,224 @@
+{
+  "id": "08-familie",
+  "title": "Familie",
+  "description": "Die Familienmitglieder benennen und über die eigene Familie sprechen — auf Deutsch erklärt.",
+  "target_language": "zh",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "mama",
+      "front": "妈妈",
+      "back": "Mama / Mutter",
+      "notes": "Pinyin: māma (zweites ma neutral). Kontext: 我 妈妈 (wǒ māma) – meine Mutter.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "baba",
+      "front": "爸爸",
+      "back": "Papa / Vater",
+      "notes": "Pinyin: bàba (zweites ba neutral). Kontext: 我 爸爸 (wǒ bàba) – mein Vater.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "gege",
+      "front": "哥哥",
+      "back": "älterer Bruder",
+      "notes": "Pinyin: gēge. Kontext: 我 哥哥 (wǒ gēge) – mein großer Bruder.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "jiejie",
+      "front": "姐姐",
+      "back": "ältere Schwester",
+      "notes": "Pinyin: jiějie. Kontext: 我 有 一 个 姐姐 (wǒ yǒu yí gè jiějie) – Ich habe eine ältere Schwester.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "didi",
+      "front": "弟弟",
+      "back": "jüngerer Bruder",
+      "notes": "Pinyin: dìdi. Kontext: 我 弟弟 (wǒ dìdi) – mein kleiner Bruder.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "meimei",
+      "front": "妹妹",
+      "back": "jüngere Schwester",
+      "notes": "Pinyin: mèimei. Kontext: 我 妹妹 (wǒ mèimei) – meine kleine Schwester.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "jia",
+      "front": "家",
+      "back": "Familie / Zuhause",
+      "notes": "Pinyin: jiā. Kontext: 我 家 有 四 个 人 (wǒ jiā yǒu sì gè rén) – Meine Familie hat vier Personen.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "you",
+      "front": "有",
+      "back": "haben / es gibt",
+      "notes": "Pinyin: yǒu. Kontext: 我 有 一 个 哥哥 (wǒ yǒu yí gè gēge) – Ich habe einen älteren Bruder.",
+      "difficulty": 1,
+      "tags": ["familie", "verb"]
+    },
+    {
+      "id": "meiyou",
+      "front": "没有",
+      "back": "nicht haben / es gibt nicht",
+      "notes": "Pinyin: méiyǒu. Verneinung von 有. Kontext: 我 没有 弟弟 (wǒ méiyǒu dìdi) – Ich habe keinen jüngeren Bruder.",
+      "difficulty": 2,
+      "tags": ["familie", "verb"]
+    },
+    {
+      "id": "nainai",
+      "front": "奶奶",
+      "back": "Oma (väterlicherseits)",
+      "notes": "Pinyin: nǎinai. Kontext: 我 奶奶 (wǒ nǎinai) – meine Oma.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "yeye",
+      "front": "爷爷",
+      "back": "Opa (väterlicherseits)",
+      "notes": "Pinyin: yéye. Kontext: 我 爷爷 (wǒ yéye) – mein Opa.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "ji-kou-ren",
+      "front": "几口人",
+      "back": "wie viele Personen (in der Familie)",
+      "notes": "Pinyin: jǐ kǒu rén. 口 ist das Zählwort für Familienmitglieder. Kontext: 你 家 有 几 口 人 ？ (nǐ jiā yǒu jǐ kǒu rén?) – Wie viele Personen sind in deiner Familie?",
+      "difficulty": 3,
+      "tags": ["familie", "frage"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-familie",
+      "type": "theory",
+      "title": "Familienmitglieder",
+      "body": "# Die Familie\n\nViele Verwandtschaftswörter sind **verdoppelte Silben**, das zweite Zeichen meist im neutralen Ton:\n\n| Hanzi | Pinyin | Deutsch |\n|---|---|---|\n| 妈妈 | māma | Mutter |\n| 爸爸 | bàba | Vater |\n| 哥哥 | gēge | älterer Bruder |\n| 姐姐 | jiějie | ältere Schwester |\n| 弟弟 | dìdi | jüngerer Bruder |\n| 妹妹 | mèimei | jüngere Schwester |\n\n> Wichtig: Chinesisch unterscheidet bei Geschwistern nach **Alter** — es gibt kein neutrales Wort für 'Bruder' oder 'Schwester'.\n\n**家 (jiā)** bedeutet sowohl 'Familie' als auch 'Zuhause'."
+    },
+    {
+      "id": "intro-haben",
+      "type": "theory",
+      "title": "Haben mit 有",
+      "body": "## Über die Familie sprechen\n\nDas Verb **有 (yǒu)** heißt 'haben / es gibt'. Verneint wird es **immer** mit 没 — also **没有 (méiyǒu)**, nie mit 不!\n\n- **我有一个姐姐。(wǒ yǒu yí gè jiějie.)** — Ich habe eine ältere Schwester.\n- **我没有弟弟。(wǒ méiyǒu dìdi.)** — Ich habe keinen jüngeren Bruder.\n\nWie viele Personen in der Familie? Mit dem speziellen Zählwort **口 (kǒu)**:\n\n> **你家有几口人？ (nǐ jiā yǒu jǐ kǒu rén?)** — Wie viele Personen hat deine Familie?\n>\n> **我家有四口人。 (wǒ jiā yǒu sì kǒu rén.)** — Meine Familie hat vier Personen."
+    },
+    {
+      "id": "ex-match-familie",
+      "type": "exercise",
+      "theory_ref": "intro-familie",
+      "title": "Familienmitglieder zuordnen",
+      "exercise": {
+        "id": "ex-match-familie",
+        "type": "matching",
+        "prompt": "Ordne jedem Wort die deutsche Bedeutung zu.",
+        "card_ids": ["mama", "baba", "gege", "meimei"],
+        "pairs": [
+          {"left": "妈妈", "right": "Mama / Mutter"},
+          {"left": "爸爸", "right": "Papa / Vater"},
+          {"left": "哥哥", "right": "älterer Bruder"},
+          {"left": "妹妹", "right": "jüngere Schwester"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-mutter",
+      "type": "exercise",
+      "theory_ref": "intro-familie",
+      "title": "Mutter",
+      "exercise": {
+        "id": "ex-free-mutter",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Mama / Mutter' (Hanzi oder Pinyin)?",
+        "card_ids": ["mama"],
+        "accept": ["妈妈", "māma", "mama", "mā ma"],
+        "hint": "Verdoppelte Silbe, zweites Zeichen neutral.",
+        "distractors": ["爸爸", "姐姐", "奶奶"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-haben",
+      "type": "exercise",
+      "theory_ref": "intro-haben",
+      "title": "Ich habe eine Schwester",
+      "exercise": {
+        "id": "ex-cloze-haben",
+        "type": "cloze",
+        "prompt": "Ergänze das Verb 'haben'.",
+        "card_ids": ["you", "jiejie"],
+        "sentence": "我 ___ 一 个 姐姐 。",
+        "blanks": [{"accept": ["有", "yǒu", "you"]}],
+        "cloze_mode": "type",
+        "hint": "Das Verb 'haben / es gibt'."
+      }
+    },
+    {
+      "id": "ex-tiles-keinbruder",
+      "type": "exercise",
+      "theory_ref": "intro-haben",
+      "title": "Ich habe keinen kleinen Bruder",
+      "exercise": {
+        "id": "ex-tiles-keinbruder",
+        "type": "word_tiles",
+        "prompt": "Setze 'Ich habe keinen jüngeren Bruder.' zusammen.",
+        "card_ids": ["meiyou", "didi"],
+        "tiles": ["我", "没有", "弟弟"],
+        "hint": "有 wird mit 没 verneint: 没有.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-aelterebruder",
+      "type": "exercise",
+      "theory_ref": "intro-familie",
+      "title": "Älterer Bruder",
+      "exercise": {
+        "id": "ex-free-aelterebruder",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'älterer Bruder' (Hanzi oder Pinyin)?",
+        "card_ids": ["gege"],
+        "accept": ["哥哥", "gēge", "gege", "gē ge"],
+        "hint": "Nicht der kleine Bruder (弟弟).",
+        "distractors": ["弟弟", "姐姐", "爸爸"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-vater",
+      "type": "exercise",
+      "theory_ref": "intro-familie",
+      "title": "Welches Wort bedeutet Vater?",
+      "exercise": {
+        "id": "ex-pic-vater",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'Papa / Vater'?",
+        "card_ids": ["baba"],
+        "images": [
+          {"src": "assets/img/baba.png", "label": "爸爸", "is_correct": "true"},
+          {"src": "assets/img/mama.png", "label": "妈妈"},
+          {"src": "assets/img/gege.png", "label": "哥哥"},
+          {"src": "assets/img/yeye.png", "label": "爷爷"}
+        ],
+        "hint": "bàba.",
+        "distractors": ["妈妈", "哥哥", "爷爷"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

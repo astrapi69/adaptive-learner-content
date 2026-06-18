@@ -1,0 +1,227 @@
+{
+  "id": "02-begruessungen",
+  "title": "Begrüßungen",
+  "description": "Grundlegende chinesische Begrüßungen, Verabschiedungen und Höflichkeitsformeln — auf Deutsch erklärt.",
+  "target_language": "zh",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "ni-hao",
+      "front": "你好",
+      "back": "Hallo",
+      "notes": "Pinyin: nǐ hǎo. Kontext: 你 好 ， 王 老师 (nǐ hǎo, Wáng lǎoshī) – Hallo, Frau/Herr Lehrer Wang.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "nin-hao",
+      "front": "您好",
+      "back": "Hallo (höflich/Sie)",
+      "notes": "Pinyin: nín hǎo. Kontext: 您 好 ！ (nín hǎo!) – Guten Tag! (höfliche Anrede).",
+      "difficulty": 1,
+      "tags": ["begruessung", "hoeflichkeit"]
+    },
+    {
+      "id": "ni-hao-ma",
+      "front": "你好吗",
+      "back": "Wie geht es dir?",
+      "notes": "Pinyin: nǐ hǎo ma. Kontext: 你 好 吗 ？ (nǐ hǎo ma?) – Wie geht es dir?",
+      "difficulty": 1,
+      "tags": ["begruessung", "frage"]
+    },
+    {
+      "id": "wo-hen-hao",
+      "front": "我很好",
+      "back": "Mir geht es sehr gut.",
+      "notes": "Pinyin: wǒ hěn hǎo. Kontext: 我 很 好 ， 谢谢 (wǒ hěn hǎo, xièxie) – Mir geht es gut, danke.",
+      "difficulty": 1,
+      "tags": ["antwort"]
+    },
+    {
+      "id": "zaijian",
+      "front": "再见",
+      "back": "Auf Wiedersehen",
+      "notes": "Pinyin: zàijiàn. Wörtlich 'wieder sehen'. Kontext: 再见 ！ 明天 见 (zàijiàn! míngtiān jiàn) – Tschüss! Bis morgen.",
+      "difficulty": 1,
+      "tags": ["verabschiedung"]
+    },
+    {
+      "id": "xiexie",
+      "front": "谢谢",
+      "back": "Danke",
+      "notes": "Pinyin: xièxie (zweites xie im neutralen Ton). Kontext: 谢谢 你 (xièxie nǐ) – Danke dir.",
+      "difficulty": 1,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "bu-keqi",
+      "front": "不客气",
+      "back": "Bitte / Gern geschehen",
+      "notes": "Pinyin: bù kèqi. Antwort auf 谢谢. Kontext: 不客气 ！ (bù kèqi!) – Gern geschehen!",
+      "difficulty": 1,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "duibuqi",
+      "front": "对不起",
+      "back": "Entschuldigung / Es tut mir leid",
+      "notes": "Pinyin: duìbuqǐ. Kontext: 对不起 ！ (duìbuqǐ!) – Entschuldigung!",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "meiguanxi",
+      "front": "没关系",
+      "back": "Macht nichts / Kein Problem",
+      "notes": "Pinyin: méi guānxi. Antwort auf 对不起. Kontext: 没关系 (méi guānxi) – Macht nichts.",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "zaoshang-hao",
+      "front": "早上好",
+      "back": "Guten Morgen",
+      "notes": "Pinyin: zǎoshang hǎo. Kontext: 早上 好 ！ (zǎoshang hǎo!) – Guten Morgen!",
+      "difficulty": 2,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "wanshang-hao",
+      "front": "晚上好",
+      "back": "Guten Abend",
+      "notes": "Pinyin: wǎnshang hǎo. Kontext: 晚上 好 ！ (wǎnshang hǎo!) – Guten Abend!",
+      "difficulty": 2,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "ne",
+      "front": "呢",
+      "back": "und ...? (Rückfragepartikel)",
+      "notes": "Pinyin: ne (neutraler Ton). Kontext: 你 呢 ？ (nǐ ne?) – Und du?",
+      "difficulty": 2,
+      "tags": ["partikel", "frage"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-begruessung",
+      "type": "theory",
+      "title": "Hallo und Auf Wiedersehen",
+      "body": "# Begrüßungen auf Chinesisch\n\nDie wichtigste Begrüßung ist **你好 (nǐ hǎo)** — wörtlich 'du gut'. Höflich, etwa zu älteren Personen oder im Geschäft, sagt man **您好 (nín hǎo)**.\n\n- **你好吗？ (nǐ hǎo ma?)** — Wie geht es dir? Die Partikel **吗 (ma)** macht aus einer Aussage eine Ja/Nein-Frage.\n- **我很好。(wǒ hěn hǎo.)** — Mir geht es sehr gut. (Antwort)\n- **再见 (zàijiàn)** — Auf Wiedersehen, wörtlich 'wieder sehen'.\n\n> Mit **你呢？(nǐ ne?)** gibst du die Frage zurück: 'Und dir?'"
+    },
+    {
+      "id": "intro-hoeflichkeit",
+      "type": "theory",
+      "title": "Höflichkeitsformeln",
+      "body": "## Danke, bitte, Entschuldigung\n\n| Chinesisch | Pinyin | Deutsch |\n|---|---|---|\n| 谢谢 | xièxie | Danke |\n| 不客气 | bù kèqi | Gern geschehen |\n| 对不起 | duìbuqǐ | Entschuldigung |\n| 没关系 | méi guānxi | Macht nichts |\n\nNach der Tageszeit grüßt man mit **早上好 (zǎoshang hǎo)** 'Guten Morgen' und **晚上好 (wǎnshang hǎo)** 'Guten Abend'. Das Muster ist *[Tageszeit] + 好*."
+    },
+    {
+      "id": "ex-match-begruessung",
+      "type": "exercise",
+      "theory_ref": "intro-begruessung",
+      "title": "Begrüßungen zuordnen",
+      "exercise": {
+        "id": "ex-match-begruessung",
+        "type": "matching",
+        "prompt": "Ordne jedem chinesischen Ausdruck die deutsche Bedeutung zu.",
+        "card_ids": ["ni-hao", "zaijian", "xiexie", "duibuqi"],
+        "pairs": [
+          {"left": "你好", "right": "Hallo"},
+          {"left": "再见", "right": "Auf Wiedersehen"},
+          {"left": "谢谢", "right": "Danke"},
+          {"left": "对不起", "right": "Entschuldigung"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-hallo",
+      "type": "exercise",
+      "theory_ref": "intro-begruessung",
+      "title": "Hallo sagen",
+      "exercise": {
+        "id": "ex-free-hallo",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Hallo' auf Chinesisch (Hanzi oder Pinyin)?",
+        "card_ids": ["ni-hao"],
+        "accept": ["你好", "nǐ hǎo", "ni hao", "nǐhǎo"],
+        "hint": "Wörtlich 'du gut', beide Silben im 3. Ton.",
+        "distractors": ["再见", "谢谢", "对不起"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-danke",
+      "type": "exercise",
+      "theory_ref": "intro-hoeflichkeit",
+      "title": "Danke sagen",
+      "exercise": {
+        "id": "ex-free-danke",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Danke' auf Chinesisch (Hanzi oder Pinyin)?",
+        "card_ids": ["xiexie"],
+        "accept": ["谢谢", "xièxie", "xiexie", "xiè xie"],
+        "hint": "Das zweite Zeichen steht im neutralen Ton.",
+        "distractors": ["你好", "再见", "不客气"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-wiegehts",
+      "type": "exercise",
+      "theory_ref": "intro-begruessung",
+      "title": "Wie geht es dir?",
+      "exercise": {
+        "id": "ex-cloze-wiegehts",
+        "type": "cloze",
+        "prompt": "Ergänze die Fragepartikel.",
+        "card_ids": ["ni-hao-ma", "ne"],
+        "sentence": "你 好 ___ ？ 我 很 好 ， 你 ___ ？",
+        "blanks": [
+          {"accept": ["吗", "ma"]},
+          {"accept": ["呢", "ne"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "吗 für eine Ja/Nein-Frage, 呢 für die Rückfrage 'und du?'."
+      }
+    },
+    {
+      "id": "ex-tiles-zaijian",
+      "type": "exercise",
+      "theory_ref": "intro-begruessung",
+      "title": "Auf Wiedersehen bauen",
+      "exercise": {
+        "id": "ex-tiles-zaijian",
+        "type": "word_tiles",
+        "prompt": "Setze 'Mir geht es gut, danke.' zusammen.",
+        "card_ids": ["wo-hen-hao", "xiexie"],
+        "tiles": ["我", "很", "好", "，", "谢谢"],
+        "hint": "Erst der Zustand, dann der Dank.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-zaijian",
+      "type": "exercise",
+      "theory_ref": "intro-begruessung",
+      "title": "Welcher Abschiedsgruß?",
+      "exercise": {
+        "id": "ex-pic-zaijian",
+        "type": "picture_choice",
+        "prompt": "Welcher Ausdruck bedeutet 'Auf Wiedersehen'?",
+        "card_ids": ["zaijian"],
+        "images": [
+          {"src": "assets/img/zaijian.png", "label": "再见", "is_correct": "true"},
+          {"src": "assets/img/nihao.png", "label": "你好"},
+          {"src": "assets/img/xiexie.png", "label": "谢谢"},
+          {"src": "assets/img/bukeqi.png", "label": "不客气"}
+        ],
+        "hint": "Wörtlich 'wieder sehen'.",
+        "distractors": ["你好", "谢谢", "不客气"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

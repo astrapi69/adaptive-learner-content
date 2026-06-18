@@ -1,0 +1,45 @@
+# Chinesisch A1 (für Deutschsprachige) — Set-Manifest
+#
+# Mandarin-Chinesisch lernen, mit Erklärungen und Übersetzungen auf Deutsch.
+# Der Content-Loader liest ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.3'
+name: Chinesisch A1 (für Deutschsprachige)
+description: >-
+  Vollständiger A1-Kurs Mandarin-Chinesisch für Deutschsprachige
+  (10 Lektionen): Töne und Pinyin, Begrüßungen, sich vorstellen,
+  Zahlen 1-100, im Restaurant, Einkaufen, Uhrzeit und Wochentage,
+  Familie, Zählwörter sowie einfache Sätze. Vorderseiten in
+  vereinfachten Schriftzeichen (Hanzi), Pinyin mit korrekten
+  Tonzeichen in den Notizen; Karten-Rückseiten, Notizen und
+  Theorie auf Deutsch.
+sets:
+  - id: zh-a1-from-de
+    title: Chinesisch A1 (für Deutschsprachige)
+    title_native: 中文 A1
+    target_language: zh
+    source_language: de
+    level: A1
+    path: sets/de/zh-a1
+    version: '1.0.0'
+    lesson_count: 10
+    domain: language
+    description: >-
+      Zehn A1-Lektionen Mandarin-Chinesisch, auf Deutsch erklärt —
+      von den vier Tönen und Pinyin bis zu einfachen Sätzen.
+    tags:
+      - beginner
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-toene-und-pinyin.json
+    - 02-begruessungen.json
+    - 03-sich-vorstellen.json
+    - 04-zahlen-1-100.json
+    - 05-im-restaurant.json
+    - 06-einkaufen.json
+    - 07-uhrzeit-und-tage.json
+    - 08-familie.json
+    - 09-zaehlwoerter.json
+    - 10-einfache-saetze.json

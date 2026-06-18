@@ -1,0 +1,224 @@
+{
+  "id": "06-einkaufen",
+  "title": "Einkaufen",
+  "description": "Nach dem Preis fragen, über teuer und billig sprechen und auf Dinge zeigen — auf Deutsch erklärt.",
+  "target_language": "zh",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "duoshao-qian",
+      "front": "多少钱",
+      "back": "Wie viel kostet das?",
+      "notes": "Pinyin: duōshao qián. Wörtlich 'wie viel Geld'. Kontext: 这 个 多少 钱 ？ (zhè ge duōshao qián?) – Wie viel kostet das?",
+      "difficulty": 2,
+      "tags": ["einkaufen", "frage"]
+    },
+    {
+      "id": "qian",
+      "front": "钱",
+      "back": "Geld",
+      "notes": "Pinyin: qián. Kontext: 我 没有 钱 (wǒ méiyǒu qián) – Ich habe kein Geld.",
+      "difficulty": 1,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "gui",
+      "front": "贵",
+      "back": "teuer",
+      "notes": "Pinyin: guì. Kontext: 太 贵 了 ！ (tài guì le!) – Zu teuer!",
+      "difficulty": 1,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "pianyi",
+      "front": "便宜",
+      "back": "billig / günstig",
+      "notes": "Pinyin: piányi (zweites yi neutral). Kontext: 这 个 很 便宜 (zhè ge hěn piányi) – Das ist sehr günstig.",
+      "difficulty": 2,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "zhege",
+      "front": "这个",
+      "back": "dieses (hier)",
+      "notes": "Pinyin: zhège. Kontext: 我 要 这个 (wǒ yào zhège) – Ich möchte dieses.",
+      "difficulty": 1,
+      "tags": ["einkaufen", "demonstrativ"]
+    },
+    {
+      "id": "nage",
+      "front": "那个",
+      "back": "jenes (dort)",
+      "notes": "Pinyin: nàge. Kontext: 那个 多少 钱 ？ (nàge duōshao qián?) – Wie viel kostet jenes?",
+      "difficulty": 1,
+      "tags": ["einkaufen", "demonstrativ"]
+    },
+    {
+      "id": "kuai",
+      "front": "块",
+      "back": "Yuan (Geldeinheit, umgangssprachlich)",
+      "notes": "Pinyin: kuài. Umgangssprachlich für 元 (yuán). Kontext: 十 块 钱 (shí kuài qián) – zehn Yuan.",
+      "difficulty": 2,
+      "tags": ["einkaufen", "geld"]
+    },
+    {
+      "id": "tai-le",
+      "front": "太……了",
+      "back": "zu / allzu ...",
+      "notes": "Pinyin: tài … le. Verstärkt ein Adjektiv. Kontext: 太 贵 了 (tài guì le) – zu teuer.",
+      "difficulty": 3,
+      "tags": ["einkaufen", "grammatik"]
+    },
+    {
+      "id": "mai",
+      "front": "买",
+      "back": "kaufen",
+      "notes": "Pinyin: mǎi (3. Ton). Kontext: 我 想 买 这个 (wǒ xiǎng mǎi zhège) – Ich möchte das kaufen.",
+      "difficulty": 1,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "yao-bu-yao",
+      "front": "要不要",
+      "back": "möchtest du (es) oder nicht?",
+      "notes": "Pinyin: yào bu yào. Entscheidungsfrage. Kontext: 你 要 不要 ？ (nǐ yào bu yào?) – Möchtest du es?",
+      "difficulty": 2,
+      "tags": ["einkaufen", "frage"]
+    },
+    {
+      "id": "xiang",
+      "front": "想",
+      "back": "möchten / wollen",
+      "notes": "Pinyin: xiǎng. Kontext: 我 想 买 茶 (wǒ xiǎng mǎi chá) – Ich möchte Tee kaufen.",
+      "difficulty": 2,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "you-dianr-gui",
+      "front": "有点儿贵",
+      "back": "ein bisschen teuer",
+      "notes": "Pinyin: yǒudiǎnr guì. Kontext: 这个 有点儿 贵 (zhège yǒudiǎnr guì) – Das ist etwas teuer.",
+      "difficulty": 3,
+      "tags": ["einkaufen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-preis",
+      "type": "theory",
+      "title": "Nach dem Preis fragen",
+      "body": "# Einkaufen\n\nDie Schlüsselfrage beim Einkaufen ist:\n\n> **多少钱？ (duōshao qián?)** — Wie viel kostet das? (wörtlich 'wie viel Geld')\n\nMit dem Demonstrativpronomen davor zeigst du auf etwas:\n\n- **这个 (zhège)** — dieses (hier)\n- **那个 (nàge)** — jenes (dort)\n- **这个多少钱？** — Wie viel kostet das hier?\n\nDie Geldeinheit ist umgangssprachlich **块 (kuài)** (offiziell 元 yuán): 十块钱 = 10 Yuan."
+    },
+    {
+      "id": "intro-teuer-billig",
+      "type": "theory",
+      "title": "Teuer und billig",
+      "body": "## Feilschen und bewerten\n\n- **贵 (guì)** — teuer\n- **便宜 (piányi)** — billig/günstig\n\nVerstärkung mit der Klammer **太……了 (tài … le)** 'zu/allzu':\n\n- **太贵了！(tài guì le!)** — Zu teuer!\n\nAbschwächung mit **有点儿 (yǒudiǎnr)** 'ein bisschen': 有点儿贵 = etwas teuer.\n\nKaufen heißt **买 (mǎi)**, möchten **想 (xiǎng)**: 我想买这个 = Ich möchte das kaufen. Vorsicht: 买 (mǎi, kaufen, 3. Ton) klingt fast wie 卖 (mài, verkaufen, 4. Ton)!"
+    },
+    {
+      "id": "ex-match-einkaufen",
+      "type": "exercise",
+      "theory_ref": "intro-preis",
+      "title": "Einkaufs-Wörter zuordnen",
+      "exercise": {
+        "id": "ex-match-einkaufen",
+        "type": "matching",
+        "prompt": "Ordne jedem Wort die deutsche Bedeutung zu.",
+        "card_ids": ["gui", "pianyi", "zhege", "qian"],
+        "pairs": [
+          {"left": "贵", "right": "teuer"},
+          {"left": "便宜", "right": "billig / günstig"},
+          {"left": "这个", "right": "dieses (hier)"},
+          {"left": "钱", "right": "Geld"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-wieviel",
+      "type": "exercise",
+      "theory_ref": "intro-preis",
+      "title": "Nach dem Preis fragen",
+      "exercise": {
+        "id": "ex-free-wieviel",
+        "type": "free_text",
+        "prompt": "Wie fragt man 'Wie viel kostet das?' (Hanzi oder Pinyin)?",
+        "card_ids": ["duoshao-qian"],
+        "accept": ["多少钱", "duōshao qián", "duoshao qian", "多少钱？"],
+        "hint": "Wörtlich 'wie viel Geld'.",
+        "distractors": ["这个", "便宜", "买"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-zuteuer",
+      "type": "exercise",
+      "theory_ref": "intro-teuer-billig",
+      "title": "Zu teuer!",
+      "exercise": {
+        "id": "ex-cloze-zuteuer",
+        "type": "cloze",
+        "prompt": "Ergänze das Adjektiv.",
+        "card_ids": ["gui", "tai-le"],
+        "sentence": "太 ___ 了 ！",
+        "blanks": [{"accept": ["贵", "guì", "gui"]}],
+        "cloze_mode": "type",
+        "hint": "Das Gegenteil von billig."
+      }
+    },
+    {
+      "id": "ex-tiles-kaufen",
+      "type": "exercise",
+      "theory_ref": "intro-teuer-billig",
+      "title": "Ich möchte das kaufen",
+      "exercise": {
+        "id": "ex-tiles-kaufen",
+        "type": "word_tiles",
+        "prompt": "Setze 'Ich möchte dieses kaufen.' zusammen.",
+        "card_ids": ["xiang", "mai", "zhege"],
+        "tiles": ["我", "想", "买", "这个"],
+        "hint": "Subjekt + 想 + 买 + Objekt.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-billig",
+      "type": "exercise",
+      "theory_ref": "intro-teuer-billig",
+      "title": "Billig",
+      "exercise": {
+        "id": "ex-free-billig",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'billig / günstig' (Hanzi oder Pinyin)?",
+        "card_ids": ["pianyi"],
+        "accept": ["便宜", "piányi", "pianyi", "pián yi"],
+        "hint": "Das zweite Zeichen steht im neutralen Ton.",
+        "distractors": ["贵", "钱", "买"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-billig",
+      "type": "exercise",
+      "theory_ref": "intro-teuer-billig",
+      "title": "Welches Wort bedeutet teuer?",
+      "exercise": {
+        "id": "ex-pic-billig",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'teuer'?",
+        "card_ids": ["gui"],
+        "images": [
+          {"src": "assets/img/gui.png", "label": "贵", "is_correct": "true"},
+          {"src": "assets/img/pianyi.png", "label": "便宜"},
+          {"src": "assets/img/qian.png", "label": "钱"},
+          {"src": "assets/img/mai.png", "label": "买"}
+        ],
+        "hint": "guì, 4. Ton.",
+        "distractors": ["便宜", "钱", "买"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "id": "01-toene-und-pinyin",
+  "title": "Töne und Pinyin",
+  "description": "Die vier Töne plus neutraler Ton, die Beispielsilben mā má mǎ mà und Grundlagen der Pinyin-Umschrift — auf Deutsch erklärt.",
+  "target_language": "zh",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "ma-erster-ton",
+      "front": "妈",
+      "back": "Mama / Mutter",
+      "notes": "Pinyin: mā (1. Ton, hoch und gleichbleibend). Kontext: 我 妈 (wǒ mā) – meine Mama.",
+      "difficulty": 1,
+      "tags": ["toene", "pinyin"]
+    },
+    {
+      "id": "ma-zweiter-ton",
+      "front": "麻",
+      "back": "Hanf / taub (kribbelnd)",
+      "notes": "Pinyin: má (2. Ton, steigend wie bei einer Frage). Kontext: 麻 了 (má le) – es ist taub geworden.",
+      "difficulty": 1,
+      "tags": ["toene", "pinyin"]
+    },
+    {
+      "id": "ma-dritter-ton",
+      "front": "马",
+      "back": "Pferd",
+      "notes": "Pinyin: mǎ (3. Ton, fallend-steigend). Kontext: 一 匹 马 (yì pǐ mǎ) – ein Pferd.",
+      "difficulty": 1,
+      "tags": ["toene", "pinyin"]
+    },
+    {
+      "id": "ma-vierter-ton",
+      "front": "骂",
+      "back": "schimpfen / beschimpfen",
+      "notes": "Pinyin: mà (4. Ton, scharf fallend). Kontext: 别 骂 我 (bié mà wǒ) – schimpf nicht mit mir.",
+      "difficulty": 2,
+      "tags": ["toene", "pinyin"]
+    },
+    {
+      "id": "ma-frage",
+      "front": "吗",
+      "back": "Fragepartikel (neutraler Ton)",
+      "notes": "Pinyin: ma (neutraler Ton, kurz und leicht). Kontext: 你 好 吗 (nǐ hǎo ma) – Wie geht es dir?",
+      "difficulty": 1,
+      "tags": ["toene", "pinyin", "partikel"]
+    },
+    {
+      "id": "ni",
+      "front": "你",
+      "back": "du",
+      "notes": "Pinyin: nǐ (3. Ton). Kontext: 你 好 (nǐ hǎo) – Hallo.",
+      "difficulty": 1,
+      "tags": ["pinyin", "pronomen"]
+    },
+    {
+      "id": "hao",
+      "front": "好",
+      "back": "gut",
+      "notes": "Pinyin: hǎo (3. Ton). Kontext: 很 好 (hěn hǎo) – sehr gut.",
+      "difficulty": 1,
+      "tags": ["pinyin"]
+    },
+    {
+      "id": "yi",
+      "front": "一",
+      "back": "eins",
+      "notes": "Pinyin: yī (1. Ton). Kontext: 一 个 (yí gè) – ein Stück (der Ton ändert sich vor 4. Ton).",
+      "difficulty": 1,
+      "tags": ["pinyin", "zahlen"]
+    },
+    {
+      "id": "wo",
+      "front": "我",
+      "back": "ich",
+      "notes": "Pinyin: wǒ (3. Ton). Kontext: 我 好 (wǒ hǎo) – mir geht es gut.",
+      "difficulty": 1,
+      "tags": ["pinyin", "pronomen"]
+    },
+    {
+      "id": "shi",
+      "front": "是",
+      "back": "sein (bin/bist/ist)",
+      "notes": "Pinyin: shì (4. Ton). Kontext: 我 是 (wǒ shì) – ich bin.",
+      "difficulty": 1,
+      "tags": ["pinyin"]
+    },
+    {
+      "id": "bu",
+      "front": "不",
+      "back": "nicht / nein",
+      "notes": "Pinyin: bù (4. Ton). Kontext: 不 好 (bù hǎo) – nicht gut.",
+      "difficulty": 1,
+      "tags": ["pinyin"]
+    },
+    {
+      "id": "li",
+      "front": "里",
+      "back": "in / innen (Beispielsilbe)",
+      "notes": "Pinyin: lǐ (3. Ton). Beispiel für die Anlaute b, p, m, l. Kontext: 这 里 (zhè lǐ) – hier.",
+      "difficulty": 2,
+      "tags": ["pinyin"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-toene",
+      "type": "theory",
+      "title": "Die vier Töne",
+      "body": "# Die Töne im Chinesischen\n\nMandarin ist eine **Tonsprache**: Die Tonhöhe verändert die Bedeutung eines Wortes. Dieselbe Silbe **ma** bedeutet je nach Ton etwas völlig anderes.\n\n| Ton | Zeichen | Pinyin | Verlauf | Bedeutung |\n|---|---|---|---|---|\n| 1. Ton | 妈 | **mā** | hoch und gleichbleibend (¯) | Mama |\n| 2. Ton | 麻 | **má** | steigend (´), wie eine Frage | Hanf |\n| 3. Ton | 马 | **mǎ** | erst fallend, dann steigend (ˇ) | Pferd |\n| 4. Ton | 骂 | **mà** | scharf fallend (`) | schimpfen |\n| neutral | 吗 | **ma** | kurz und leicht, ohne Zeichen | Fragepartikel |\n\n> Merksatz: **mā má mǎ mà** — vom gleichbleibend hohen bis zum scharf fallenden Ton.\n\nDie **Tonzeichen** stehen immer über dem Vokal: ā á ǎ à. Bei mehreren Vokalen trägt in der Regel a, o oder e das Zeichen (z. B. *hǎo*, *xièxie*)."
+    },
+    {
+      "id": "intro-pinyin",
+      "type": "theory",
+      "title": "Pinyin-Grundlagen",
+      "body": "## Was ist Pinyin?\n\n**Pinyin** ist die offizielle Umschrift, die chinesische Laute mit lateinischen Buchstaben darstellt. Sie hilft dir, die Aussprache zu lernen, bevor du nur noch Schriftzeichen siehst.\n\n- Eine Silbe besteht aus **Anlaut** (Konsonant) + **Auslaut** (Vokalteil) + **Ton**.\n- Beispiel: **n** + **ǐ** = **nǐ** (你, du).\n- Der **neutrale Ton** bekommt kein Tonzeichen: *ma* (吗), *xie* in *xièxie*.\n\nAchtung: Einige Buchstaben klingen anders als im Deutschen. *q* spricht man etwa wie *tsch*, *x* wie ein weiches *sch*, *zh* wie *dsch*. Konzentriere dich zuerst auf die **Töne** — sie sind der Schlüssel."
+    },
+    {
+      "id": "ex-match-toene",
+      "type": "exercise",
+      "theory_ref": "intro-toene",
+      "title": "Töne zuordnen",
+      "exercise": {
+        "id": "ex-match-toene",
+        "type": "matching",
+        "prompt": "Ordne jeder ma-Silbe die richtige Bedeutung zu.",
+        "card_ids": ["ma-erster-ton", "ma-zweiter-ton", "ma-dritter-ton", "ma-vierter-ton"],
+        "pairs": [
+          {"left": "妈", "right": "Mama / Mutter"},
+          {"left": "麻", "right": "Hanf"},
+          {"left": "马", "right": "Pferd"},
+          {"left": "骂", "right": "schimpfen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-mama",
+      "type": "exercise",
+      "theory_ref": "intro-toene",
+      "title": "Mama schreiben",
+      "exercise": {
+        "id": "ex-free-mama",
+        "type": "free_text",
+        "prompt": "Wie schreibt man 'Mama' (Pinyin mit 1. Ton oder Hanzi)?",
+        "card_ids": ["ma-erster-ton"],
+        "accept": ["妈", "mā", "ma1", "ma"],
+        "hint": "1. Ton: hoch und gleichbleibend, ā.",
+        "distractors": ["má", "mǎ", "mà"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-frage",
+      "type": "exercise",
+      "theory_ref": "intro-pinyin",
+      "title": "Fragepartikel ergänzen",
+      "exercise": {
+        "id": "ex-cloze-frage",
+        "type": "cloze",
+        "prompt": "Ergänze die Fragepartikel im neutralen Ton.",
+        "card_ids": ["ma-frage", "ni", "hao"],
+        "sentence": "你 好 ___ ？",
+        "blanks": [{"accept": ["吗", "ma"]}],
+        "cloze_mode": "type",
+        "hint": "Neutraler Ton, kein Tonzeichen."
+      }
+    },
+    {
+      "id": "ex-tiles-nihao",
+      "type": "exercise",
+      "theory_ref": "intro-pinyin",
+      "title": "Eine Silbe bauen",
+      "exercise": {
+        "id": "ex-tiles-nihao",
+        "type": "word_tiles",
+        "prompt": "Setze die Pinyin-Silbe für 你 (du) zusammen.",
+        "card_ids": ["ni"],
+        "tiles": ["n", "ǐ"],
+        "hint": "Anlaut + Auslaut mit 3. Ton.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-pferd",
+      "type": "exercise",
+      "theory_ref": "intro-toene",
+      "title": "Welcher Ton ist 'Pferd'?",
+      "exercise": {
+        "id": "ex-pic-pferd",
+        "type": "picture_choice",
+        "prompt": "Welches Zeichen wird mǎ (3. Ton) ausgesprochen und bedeutet 'Pferd'?",
+        "card_ids": ["ma-dritter-ton"],
+        "images": [
+          {"src": "assets/img/ma3.png", "label": "马", "is_correct": "true"},
+          {"src": "assets/img/ma1.png", "label": "妈"},
+          {"src": "assets/img/ma2.png", "label": "麻"},
+          {"src": "assets/img/ma4.png", "label": "骂"}
+        ],
+        "hint": "3. Ton: erst fallend, dann steigend (ˇ).",
+        "distractors": ["妈", "麻", "骂"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-bu",
+      "type": "exercise",
+      "theory_ref": "intro-pinyin",
+      "title": "Nicht / nein",
+      "exercise": {
+        "id": "ex-free-bu",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'nicht' bzw. 'nein' (Pinyin oder Hanzi)?",
+        "card_ids": ["bu"],
+        "accept": ["不", "bù", "bu4", "bu"],
+        "hint": "4. Ton, scharf fallend.",
+        "distractors": ["是", "好", "你"],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
