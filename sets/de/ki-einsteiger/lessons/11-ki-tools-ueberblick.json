@@ -14,7 +14,10 @@
       "notes": "Entwickelt von OpenAI. Beruht auf großen Sprachmodellen.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["tools", "chatbot"]
+      "tags": [
+        "tools",
+        "chatbot"
+      ]
     },
     {
       "id": "claude",
@@ -23,7 +26,10 @@
       "notes": "Entwickelt von Anthropic.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["tools", "chatbot"]
+      "tags": [
+        "tools",
+        "chatbot"
+      ]
     },
     {
       "id": "gemini",
@@ -32,7 +38,10 @@
       "notes": "Greift auf Google-Dienste und aktuelle Suchergebnisse zu.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["tools", "chatbot"]
+      "tags": [
+        "tools",
+        "chatbot"
+      ]
     },
     {
       "id": "perplexity",
@@ -41,7 +50,10 @@
       "notes": "Gut für Recherche, weil man die Quellen nachprüfen kann.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["tools", "suche"]
+      "tags": [
+        "tools",
+        "suche"
+      ]
     },
     {
       "id": "copilot",
@@ -50,7 +62,10 @@
       "notes": "Unterstützt beim Schreiben und Erklären von Code.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["tools", "code"]
+      "tags": [
+        "tools",
+        "code"
+      ]
     },
     {
       "id": "bildgenerator",
@@ -59,7 +74,10 @@
       "notes": "Aus einer geschriebenen Beschreibung (Prompt) entsteht ein Bild.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["tools", "bild"]
+      "tags": [
+        "tools",
+        "bild"
+      ]
     },
     {
       "id": "richtiges-tool",
@@ -68,7 +86,66 @@
       "notes": "Es gibt nicht das eine beste Tool — entscheidend ist der Einsatzzweck.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["tools", "auswahl"]
+      "tags": [
+        "tools",
+        "auswahl"
+      ]
+    },
+    {
+      "id": "deepl",
+      "front": "DeepL",
+      "back": "Ein KI-Übersetzer, der für besonders natürliche Übersetzungen bekannt ist.",
+      "notes": "Hilfreich für E-Mails und Texte in Fremdsprachen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "id": "notebooklm",
+      "front": "NotebookLM",
+      "back": "Ein Google-Werkzeug, das Fragen zu eigenen hochgeladenen Dokumenten beantwortet.",
+      "notes": "Gut, um Notizen und Quellen gebündelt auszuwerten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "id": "kostenlos-bezahlt",
+      "front": "Kostenlos vs. kostenpflichtig",
+      "back": "Viele KI-Tools bieten eine Gratis-Version; Bezahl-Versionen sind schneller oder können mehr.",
+      "notes": "Für den Einstieg reichen die kostenlosen Versionen meist aus.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "id": "datenschutz-tool",
+      "front": "Datenschutz beim Tool",
+      "back": "Vor der Nutzung prüfen, was mit den eingegebenen Daten geschieht.",
+      "notes": "Keine sensiblen oder fremden persönlichen Daten eingeben.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "tools",
+        "ethik"
+      ]
+    },
+    {
+      "id": "tool-aktualitaet",
+      "front": "Aktualität der Tools",
+      "back": "KI-Werkzeuge ändern sich schnell — Funktionen und Anbieter kommen und gehen.",
+      "notes": "Es lohnt sich, gelegentlich neue Möglichkeiten zu prüfen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "tools"
+      ]
     }
   ],
   "steps": [
@@ -99,12 +176,29 @@
         "id": "ex-match-tool-staerke",
         "type": "matching",
         "prompt": "Ordne jedem Tool seine typische Stärke zu.",
-        "card_ids": ["chatgpt", "perplexity", "copilot", "bildgenerator"],
+        "card_ids": [
+          "chatgpt",
+          "perplexity",
+          "copilot",
+          "bildgenerator"
+        ],
         "pairs": [
-          { "left": "ChatGPT", "right": "vielseitiger Allrounder für Text und Ideen" },
-          { "left": "Perplexity", "right": "Recherche mit Quellenangaben" },
-          { "left": "GitHub Copilot", "right": "Programmieren im Code-Editor" },
-          { "left": "Midjourney / DALL·E", "right": "Bilder aus Textbeschreibungen" }
+          {
+            "left": "ChatGPT",
+            "right": "vielseitiger Allrounder für Text und Ideen"
+          },
+          {
+            "left": "Perplexity",
+            "right": "Recherche mit Quellenangaben"
+          },
+          {
+            "left": "GitHub Copilot",
+            "right": "Programmieren im Code-Editor"
+          },
+          {
+            "left": "Midjourney / DALL·E",
+            "right": "Bilder aus Textbeschreibungen"
+          }
         ],
         "direction": "target_to_source"
       }
@@ -118,10 +212,18 @@
         "id": "ex-free-recherche",
         "type": "free_text",
         "prompt": "Welches Tool eignet sich am besten für Recherche mit Quellenangaben?",
-        "card_ids": ["perplexity"],
-        "accept": ["Perplexity", "perplexity"],
+        "card_ids": [
+          "perplexity"
+        ],
+        "accept": [
+          "Perplexity",
+          "perplexity"
+        ],
         "hint": "Es ist eine KI-Suchmaschine, die ihre Quellen nennt.",
-        "distractors": ["Midjourney", "DALL·E"],
+        "distractors": [
+          "Midjourney",
+          "DALL·E"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -134,15 +236,36 @@
         "id": "ex-pick-bildgenerator",
         "type": "picture_choice",
         "prompt": "Welches Tool erstellt aus Text ein Bild?",
-        "card_ids": ["bildgenerator", "chatgpt", "perplexity"],
+        "card_ids": [
+          "bildgenerator",
+          "chatgpt",
+          "perplexity"
+        ],
         "images": [
-          { "src": "assets/img/tool-midjourney.png", "label": "Midjourney (Bildgenerator)", "is_correct": "true" },
-          { "src": "assets/img/tool-chatgpt.png", "label": "ChatGPT (Chatbot)" },
-          { "src": "assets/img/tool-perplexity.png", "label": "Perplexity (KI-Suche)" },
-          { "src": "assets/img/tool-copilot.png", "label": "GitHub Copilot (Code-Hilfe)" }
+          {
+            "src": "assets/img/tool-midjourney.png",
+            "label": "Midjourney (Bildgenerator)",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/tool-chatgpt.png",
+            "label": "ChatGPT (Chatbot)"
+          },
+          {
+            "src": "assets/img/tool-perplexity.png",
+            "label": "Perplexity (KI-Suche)"
+          },
+          {
+            "src": "assets/img/tool-copilot.png",
+            "label": "GitHub Copilot (Code-Hilfe)"
+          }
         ],
         "hint": "Du suchst ein Werkzeug, das Bilder erzeugt.",
-        "distractors": ["ChatGPT (Chatbot)", "Perplexity (KI-Suche)", "GitHub Copilot (Code-Hilfe)"],
+        "distractors": [
+          "ChatGPT (Chatbot)",
+          "Perplexity (KI-Suche)",
+          "GitHub Copilot (Code-Hilfe)"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -155,10 +278,18 @@
         "id": "ex-cloze-copilot",
         "type": "cloze",
         "prompt": "Ergänze, wobei GitHub Copilot hilft.",
-        "card_ids": ["copilot"],
+        "card_ids": [
+          "copilot"
+        ],
         "sentence": "GitHub Copilot ist ein KI-Assistent fürs ___ direkt im Code-Editor.",
         "blanks": [
-          { "accept": ["Programmieren", "Coden", "Schreiben von Code"] }
+          {
+            "accept": [
+              "Programmieren",
+              "Coden",
+              "Schreiben von Code"
+            ]
+          }
         ],
         "cloze_mode": "type",
         "hint": "Diese Tätigkeit macht man, um Software zu erstellen."
@@ -173,8 +304,19 @@
         "id": "ex-tiles-aufgabe",
         "type": "word_tiles",
         "prompt": "Setze den Merksatz zur Tool-Auswahl zusammen.",
-        "card_ids": ["richtiges-tool"],
-        "tiles": ["Das", "richtige", "Tool", "hängt", "von", "der", "Aufgabe", "ab"],
+        "card_ids": [
+          "richtiges-tool"
+        ],
+        "tiles": [
+          "Das",
+          "richtige",
+          "Tool",
+          "hängt",
+          "von",
+          "der",
+          "Aufgabe",
+          "ab"
+        ],
         "hint": "Beginnt mit: Das richtige Tool …",
         "direction": "target_to_source"
       }
@@ -188,10 +330,18 @@
         "id": "ex-free-claude",
         "type": "free_text",
         "prompt": "Welcher Chatbot von Anthropic gilt als besonders stark bei langen Texten und durchdachten Antworten?",
-        "card_ids": ["claude"],
-        "accept": ["Claude", "claude"],
+        "card_ids": [
+          "claude"
+        ],
+        "accept": [
+          "Claude",
+          "claude"
+        ],
         "hint": "Das Tool stammt von der Firma Anthropic.",
-        "distractors": ["Gemini", "Copilot"],
+        "distractors": [
+          "Gemini",
+          "Copilot"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -204,12 +354,29 @@
         "id": "ex-match-gruppe",
         "type": "matching",
         "prompt": "Ordne jedes Tool seiner Werkzeuggruppe zu.",
-        "card_ids": ["gemini", "perplexity", "copilot", "bildgenerator"],
+        "card_ids": [
+          "gemini",
+          "perplexity",
+          "copilot",
+          "bildgenerator"
+        ],
         "pairs": [
-          { "left": "Gemini", "right": "Chatbot" },
-          { "left": "Perplexity", "right": "KI-Suche" },
-          { "left": "GitHub Copilot", "right": "Programmierhilfe" },
-          { "left": "DALL·E", "right": "Bildgenerator" }
+          {
+            "left": "Gemini",
+            "right": "Chatbot"
+          },
+          {
+            "left": "Perplexity",
+            "right": "KI-Suche"
+          },
+          {
+            "left": "GitHub Copilot",
+            "right": "Programmierhilfe"
+          },
+          {
+            "left": "DALL·E",
+            "right": "Bildgenerator"
+          }
         ],
         "direction": "target_to_source"
       }
@@ -223,10 +390,17 @@
         "id": "ex-cloze-gemini",
         "type": "cloze",
         "prompt": "Ergänze, mit welchen Diensten Gemini eng verzahnt ist.",
-        "card_ids": ["gemini"],
+        "card_ids": [
+          "gemini"
+        ],
         "sentence": "Gemini ist eng mit den Diensten von ___ und einer aktuellen Websuche verzahnt.",
         "blanks": [
-          { "accept": ["Google", "google"] }
+          {
+            "accept": [
+              "Google",
+              "google"
+            ]
+          }
         ],
         "cloze_mode": "type",
         "hint": "Es ist der bekannte Suchmaschinen-Konzern."

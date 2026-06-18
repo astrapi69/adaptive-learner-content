@@ -14,7 +14,9 @@
       "notes": "Je klarer der Prompt, desto besser die Antwort.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["prompting"]
+      "tags": [
+        "prompting"
+      ]
     },
     {
       "id": "rolle",
@@ -23,7 +25,10 @@
       "notes": "Beispiel: Agiere als erfahrener Reiseführer.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["prompting", "anatomie"]
+      "tags": [
+        "prompting",
+        "anatomie"
+      ]
     },
     {
       "id": "kontext",
@@ -32,7 +37,10 @@
       "notes": "Ohne Kontext rät die KI und liegt oft daneben.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["prompting", "anatomie"]
+      "tags": [
+        "prompting",
+        "anatomie"
+      ]
     },
     {
       "id": "aufgabe",
@@ -41,7 +49,10 @@
       "notes": "Möglichst mit einem klaren Verb beginnen: Erkläre, Fasse zusammen, Erstelle.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["prompting", "anatomie"]
+      "tags": [
+        "prompting",
+        "anatomie"
+      ]
     },
     {
       "id": "format",
@@ -50,7 +61,10 @@
       "notes": "Beispiel: Antworte in fünf Stichpunkten.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["prompting", "anatomie"]
+      "tags": [
+        "prompting",
+        "anatomie"
+      ]
     },
     {
       "id": "einschraenkung",
@@ -59,7 +73,76 @@
       "notes": "Beispiel: Erkläre es so, dass ein Kind es versteht.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["prompting", "anatomie"]
+      "tags": [
+        "prompting",
+        "anatomie"
+      ]
+    },
+    {
+      "id": "klarer-prompt",
+      "front": "Klarer Prompt",
+      "back": "Eine eindeutige Anweisung an die KI, die genau sagt, was gewünscht ist — Gegenteil eines vagen Prompts.",
+      "notes": "Je klarer die Anfrage, desto brauchbarer die Antwort.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "prompting"
+      ]
+    },
+    {
+      "id": "beispiel-im-prompt",
+      "front": "Beispiel im Prompt",
+      "back": "Ein mitgeliefertes Muster, an dem sich die KI für Stil oder Form orientieren soll.",
+      "notes": "Englisch: few-shot. Beispiele verbessern oft das Ergebnis deutlich.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "prompting"
+      ]
+    },
+    {
+      "id": "iteration",
+      "front": "Iteratives Nachbessern",
+      "back": "Das schrittweise Verbessern einer Antwort durch Rückfragen und Präzisieren.",
+      "notes": "Selten ist die erste Antwort perfekt — nachhaken lohnt sich.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "prompting"
+      ]
+    },
+    {
+      "id": "ton",
+      "front": "Tonfall festlegen",
+      "back": "Im Prompt angeben, wie die Antwort klingen soll, z. B. förmlich, locker oder humorvoll.",
+      "notes": "Beispiel: »Antworte freundlich und einfach«.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "prompting"
+      ]
+    },
+    {
+      "id": "zielgruppe",
+      "front": "Zielgruppe angeben",
+      "back": "Im Prompt nennen, für wen der Text gedacht ist, z. B. Kinder, Fachleute oder Einsteiger.",
+      "notes": "Die KI passt Wortwahl und Tiefe an die Zielgruppe an.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "prompting"
+      ]
+    },
+    {
+      "id": "laenge",
+      "front": "Länge vorgeben",
+      "back": "Im Prompt festlegen, wie lang die Antwort sein soll, etwa »in drei Sätzen« oder »als Stichpunkte«.",
+      "notes": "Verhindert zu lange oder zu knappe Antworten.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "prompting"
+      ]
     }
   ],
   "steps": [
@@ -90,12 +173,29 @@
         "id": "ex-match-bausteine",
         "type": "matching",
         "prompt": "Ordne jeden Prompt-Baustein seiner Beschreibung zu.",
-        "card_ids": ["rolle", "kontext", "aufgabe", "format"],
+        "card_ids": [
+          "rolle",
+          "kontext",
+          "aufgabe",
+          "format"
+        ],
         "pairs": [
-          { "left": "Rolle", "right": "aus welcher Perspektive die KI antwortet" },
-          { "left": "Kontext", "right": "Hintergrundinfos zur Einordnung" },
-          { "left": "Aufgabe", "right": "was die KI konkret tun soll" },
-          { "left": "Format", "right": "die gewünschte Form der Antwort" }
+          {
+            "left": "Rolle",
+            "right": "aus welcher Perspektive die KI antwortet"
+          },
+          {
+            "left": "Kontext",
+            "right": "Hintergrundinfos zur Einordnung"
+          },
+          {
+            "left": "Aufgabe",
+            "right": "was die KI konkret tun soll"
+          },
+          {
+            "left": "Format",
+            "right": "die gewünschte Form der Antwort"
+          }
         ],
         "direction": "target_to_source"
       }
@@ -109,14 +209,30 @@
         "id": "ex-pick-besser",
         "type": "picture_choice",
         "prompt": "Welcher Prompt ist besser, weil er klar und spezifisch ist?",
-        "card_ids": ["prompt", "kontext"],
+        "card_ids": [
+          "prompt",
+          "kontext"
+        ],
         "images": [
-          { "src": "assets/img/prompt-gut.png", "label": "Agiere als Reiseberater und schlage drei günstige Reiseziele in Europa für einen Familienurlaub im Sommer vor, als Stichpunktliste.", "is_correct": "true" },
-          { "src": "assets/img/prompt-vage.png", "label": "Schreib was über Urlaub." },
-          { "src": "assets/img/prompt-leer.png", "label": "Hilf mir mal." }
+          {
+            "src": "assets/img/prompt-gut.png",
+            "label": "Agiere als Reiseberater und schlage drei günstige Reiseziele in Europa für einen Familienurlaub im Sommer vor, als Stichpunktliste.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/prompt-vage.png",
+            "label": "Schreib was über Urlaub."
+          },
+          {
+            "src": "assets/img/prompt-leer.png",
+            "label": "Hilf mir mal."
+          }
         ],
         "hint": "Welcher Prompt nennt Rolle, Aufgabe, Kontext und Format?",
-        "distractors": ["Schreib was über Urlaub.", "Hilf mir mal."],
+        "distractors": [
+          "Schreib was über Urlaub.",
+          "Hilf mir mal."
+        ],
         "direction": "target_to_source"
       }
     },
@@ -129,10 +245,17 @@
         "id": "ex-cloze-klar-spezifisch",
         "type": "cloze",
         "prompt": "Ergänze den Merksatz aus der Lektion.",
-        "card_ids": ["prompt"],
+        "card_ids": [
+          "prompt"
+        ],
         "sentence": "Ein guter Prompt ist klar und ___ .",
         "blanks": [
-          { "accept": ["spezifisch", "konkret"] }
+          {
+            "accept": [
+              "spezifisch",
+              "konkret"
+            ]
+          }
         ],
         "cloze_mode": "type",
         "hint": "Das Gegenteil von vage."
@@ -147,10 +270,20 @@
         "id": "ex-free-was-ist-prompt",
         "type": "free_text",
         "prompt": "Wie nennt man die Anweisung oder Frage, die man an eine KI richtet?",
-        "card_ids": ["prompt"],
-        "accept": ["Prompt", "der Prompt", "ein Prompt"],
+        "card_ids": [
+          "prompt"
+        ],
+        "accept": [
+          "Prompt",
+          "der Prompt",
+          "ein Prompt"
+        ],
         "hint": "Englischer Fachbegriff, beginnt mit P.",
-        "distractors": ["Modell", "Trainingsdaten", "Chatbot"],
+        "distractors": [
+          "Modell",
+          "Trainingsdaten",
+          "Chatbot"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -163,12 +296,29 @@
         "id": "ex-match-beispiele",
         "type": "matching",
         "prompt": "Ordne jedem Prompt-Baustein das passende Beispiel zu.",
-        "card_ids": ["rolle", "format", "einschraenkung", "aufgabe"],
+        "card_ids": [
+          "rolle",
+          "format",
+          "einschraenkung",
+          "aufgabe"
+        ],
         "pairs": [
-          { "left": "Rolle", "right": "Agiere als Ernährungsberaterin." },
-          { "left": "Aufgabe", "right": "Erstelle einen Wochenplan." },
-          { "left": "Format", "right": "Antworte als Tabelle." },
-          { "left": "Einschränkung", "right": "Ohne Nüsse." }
+          {
+            "left": "Rolle",
+            "right": "Agiere als Ernährungsberaterin."
+          },
+          {
+            "left": "Aufgabe",
+            "right": "Erstelle einen Wochenplan."
+          },
+          {
+            "left": "Format",
+            "right": "Antworte als Tabelle."
+          },
+          {
+            "left": "Einschränkung",
+            "right": "Ohne Nüsse."
+          }
         ],
         "direction": "target_to_source"
       }
@@ -182,10 +332,17 @@
         "id": "ex-cloze-kern",
         "type": "cloze",
         "prompt": "Ergänze, welcher Baustein in keinem Prompt fehlen sollte.",
-        "card_ids": ["aufgabe"],
+        "card_ids": [
+          "aufgabe"
+        ],
         "sentence": "Der Kern jedes Prompts ist die ___ , also was die KI tun soll.",
         "blanks": [
-          { "accept": ["Aufgabe", "Aufgabenstellung"] }
+          {
+            "accept": [
+              "Aufgabe",
+              "Aufgabenstellung"
+            ]
+          }
         ],
         "cloze_mode": "type",
         "hint": "Sie beginnt oft mit einem Verb wie Erkläre oder Erstelle."
@@ -200,8 +357,20 @@
         "id": "ex-tiles-faustregel",
         "type": "word_tiles",
         "prompt": "Setze die Faustregel aus der Lektion zusammen.",
-        "card_ids": ["prompt"],
-        "tiles": ["Die", "KI", "ist", "nur", "so", "gut", "wie", "deine", "Frage"],
+        "card_ids": [
+          "prompt"
+        ],
+        "tiles": [
+          "Die",
+          "KI",
+          "ist",
+          "nur",
+          "so",
+          "gut",
+          "wie",
+          "deine",
+          "Frage"
+        ],
         "hint": "Beginnt mit: Die KI ist nur …",
         "direction": "target_to_source"
       }
@@ -215,10 +384,21 @@
         "id": "ex-free-fehlt-kontext",
         "type": "free_text",
         "prompt": "Welcher Baustein liefert der KI die Hintergrundinformationen zur richtigen Einordnung?",
-        "card_ids": ["kontext"],
-        "accept": ["Kontext", "der Kontext", "Hintergrund", "Hintergrundinformationen"],
+        "card_ids": [
+          "kontext"
+        ],
+        "accept": [
+          "Kontext",
+          "der Kontext",
+          "Hintergrund",
+          "Hintergrundinformationen"
+        ],
         "hint": "Worum geht es, für wen, in welcher Situation?",
-        "distractors": ["Format", "Rolle", "Länge"],
+        "distractors": [
+          "Format",
+          "Rolle",
+          "Länge"
+        ],
         "direction": "target_to_source"
       }
     }

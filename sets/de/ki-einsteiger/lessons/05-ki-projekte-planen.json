@@ -14,7 +14,10 @@
       "notes": "Die KI denkt nicht für dich, aber sie strukturiert deine Ideen schnell.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["planung", "grundlagen"]
+      "tags": [
+        "planung",
+        "grundlagen"
+      ]
     },
     {
       "id": "zieldefinition",
@@ -23,7 +26,9 @@
       "notes": "Ohne klares Ziel kann die KI nur vage antworten.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["planung"]
+      "tags": [
+        "planung"
+      ]
     },
     {
       "id": "budgetplanung",
@@ -32,7 +37,9 @@
       "notes": "Gib der KI dein Budget an, damit ihre Vorschläge realistisch bleiben.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["planung"]
+      "tags": [
+        "planung"
+      ]
     },
     {
       "id": "checkliste",
@@ -41,7 +48,10 @@
       "notes": "Auch To-do-Liste oder Aufgabenliste genannt.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["planung", "werkzeug"]
+      "tags": [
+        "planung",
+        "werkzeug"
+      ]
     },
     {
       "id": "rahmenbedingungen",
@@ -50,7 +60,10 @@
       "notes": "Englisch: constraints. Je genauer die Rahmenbedingungen, desto passender die KI-Antwort.",
       "media_type": "text",
       "difficulty": 3,
-      "tags": ["planung", "prompt"]
+      "tags": [
+        "planung",
+        "prompt"
+      ]
     },
     {
       "id": "projekt-prompt",
@@ -59,7 +72,9 @@
       "notes": "Bausteine: Ziel + Rahmenbedingungen + gewünschtes Format.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["prompt"]
+      "tags": [
+        "prompt"
+      ]
     },
     {
       "id": "aufgaben-zerlegen",
@@ -68,7 +83,64 @@
       "notes": "Die KI ist gut darin, ein Ziel in Teilschritte zu gliedern.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["planung"]
+      "tags": [
+        "planung"
+      ]
+    },
+    {
+      "id": "zeitplan",
+      "front": "Zeitplan",
+      "back": "Eine von der KI erstellte zeitliche Abfolge der Projektschritte mit Fristen.",
+      "notes": "Gut kombinierbar mit Meilensteinen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "projekt"
+      ]
+    },
+    {
+      "id": "meilenstein",
+      "front": "Meilenstein",
+      "back": "Ein wichtiger Zwischenschritt im Projekt, an dem ein Teilziel erreicht ist.",
+      "notes": "Die KI kann sinnvolle Meilensteine vorschlagen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "projekt"
+      ]
+    },
+    {
+      "id": "risikoanalyse",
+      "front": "Risikoanalyse",
+      "back": "Das Erkennen möglicher Probleme im Voraus — die KI listet Risiken und Gegenmaßnahmen auf.",
+      "notes": "Beispiel: »Welche Risiken hat dieses Projekt und wie beuge ich vor?«",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "projekt"
+      ]
+    },
+    {
+      "id": "ressourcenplanung",
+      "front": "Ressourcenplanung",
+      "back": "Das Einplanen von Material, Geld und Personen, die ein Projekt braucht.",
+      "notes": "Die KI hilft, nichts Wichtiges zu vergessen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "projekt"
+      ]
+    },
+    {
+      "id": "entscheidungshilfe",
+      "front": "Entscheidungshilfe",
+      "back": "Eine von der KI erstellte Pro-und-Contra-Liste, die eine Entscheidung erleichtert.",
+      "notes": "Die endgültige Entscheidung trifft immer der Mensch.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "projekt"
+      ]
     }
   ],
   "steps": [
@@ -99,12 +171,29 @@
         "id": "ex-match-ansatz",
         "type": "matching",
         "prompt": "Ordne jedem Projekt-Typ den besten Prompt-Ansatz zu.",
-        "card_ids": ["projektplanung-ki", "budgetplanung", "checkliste", "aufgaben-zerlegen"],
+        "card_ids": [
+          "projektplanung-ki",
+          "budgetplanung",
+          "checkliste",
+          "aufgaben-zerlegen"
+        ],
         "pairs": [
-          { "left": "Party mit knappem Geld", "right": "Budget angeben und um eine Kostenaufstellung bitten" },
-          { "left": "Umzug ohne etwas zu vergessen", "right": "um eine Checkliste bitten" },
-          { "left": "Großes Event überschaubar machen", "right": "Aufgaben in kleine Schritte zerlegen lassen" },
-          { "left": "Klarer Überblick über Posten", "right": "Antwort als Tabelle wünschen" }
+          {
+            "left": "Party mit knappem Geld",
+            "right": "Budget angeben und um eine Kostenaufstellung bitten"
+          },
+          {
+            "left": "Umzug ohne etwas zu vergessen",
+            "right": "um eine Checkliste bitten"
+          },
+          {
+            "left": "Großes Event überschaubar machen",
+            "right": "Aufgaben in kleine Schritte zerlegen lassen"
+          },
+          {
+            "left": "Klarer Überblick über Posten",
+            "right": "Antwort als Tabelle wünschen"
+          }
         ],
         "direction": "target_to_source"
       }
@@ -118,10 +207,18 @@
         "id": "ex-cloze-party",
         "type": "cloze",
         "prompt": "Ergänze, wonach du die KI bei der Planung einer Party fragst.",
-        "card_ids": ["checkliste"],
+        "card_ids": [
+          "checkliste"
+        ],
         "sentence": "Für die Planung einer Party frage ich die KI nach einer ___ .",
         "blanks": [
-          { "accept": ["Checkliste", "To-do-Liste", "Aufgabenliste"] }
+          {
+            "accept": [
+              "Checkliste",
+              "To-do-Liste",
+              "Aufgabenliste"
+            ]
+          }
         ],
         "cloze_mode": "type",
         "hint": "Eine geordnete Liste zum Abhaken."
@@ -136,10 +233,24 @@
         "id": "ex-free-bausteine",
         "type": "free_text",
         "prompt": "Welche Vorgaben (z. B. Budget oder Zeit) solltest du in einem Projekt-Prompt nennen?",
-        "card_ids": ["rahmenbedingungen", "projekt-prompt"],
-        "accept": ["Rahmenbedingungen", "Constraints", "Budget", "Zeit", "Vorgaben", "Grenzen"],
+        "card_ids": [
+          "rahmenbedingungen",
+          "projekt-prompt"
+        ],
+        "accept": [
+          "Rahmenbedingungen",
+          "Constraints",
+          "Budget",
+          "Zeit",
+          "Vorgaben",
+          "Grenzen"
+        ],
         "hint": "Das englische Wort dafür ist „constraints“.",
-        "distractors": ["Lieblingsfarbe", "Wetter von gestern", "Telefonnummer"],
+        "distractors": [
+          "Lieblingsfarbe",
+          "Wetter von gestern",
+          "Telefonnummer"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -152,8 +263,19 @@
         "id": "ex-tiles-prompt",
         "type": "word_tiles",
         "prompt": "Setze den Merksatz zu den Prompt-Bausteinen zusammen.",
-        "card_ids": ["projekt-prompt"],
-        "tiles": ["Nenne", "das", "Ziel", "die", "Rahmenbedingungen", "und", "das", "Format"],
+        "card_ids": [
+          "projekt-prompt"
+        ],
+        "tiles": [
+          "Nenne",
+          "das",
+          "Ziel",
+          "die",
+          "Rahmenbedingungen",
+          "und",
+          "das",
+          "Format"
+        ],
         "hint": "Beginnt mit: Nenne das Ziel …",
         "direction": "target_to_source"
       }
@@ -167,10 +289,22 @@
         "id": "ex-free-ziel",
         "type": "free_text",
         "prompt": "Was solltest du bei einem Projekt als Allererstes festlegen?",
-        "card_ids": ["zieldefinition"],
-        "accept": ["Ziel", "das Ziel", "Zieldefinition", "Lernziel", "Projektziel"],
+        "card_ids": [
+          "zieldefinition"
+        ],
+        "accept": [
+          "Ziel",
+          "das Ziel",
+          "Zieldefinition",
+          "Lernziel",
+          "Projektziel"
+        ],
         "hint": "Es beschreibt, was am Ende erreicht sein soll.",
-        "distractors": ["die Schriftart", "den Hintergrund", "das Passwort"],
+        "distractors": [
+          "die Schriftart",
+          "den Hintergrund",
+          "das Passwort"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -183,12 +317,29 @@
         "id": "ex-match-begriffe",
         "type": "matching",
         "prompt": "Ordne jedem Begriff seine Bedeutung zu.",
-        "card_ids": ["zieldefinition", "budgetplanung", "checkliste", "rahmenbedingungen"],
+        "card_ids": [
+          "zieldefinition",
+          "budgetplanung",
+          "checkliste",
+          "rahmenbedingungen"
+        ],
         "pairs": [
-          { "left": "Zieldefinition", "right": "festlegen, was erreicht werden soll" },
-          { "left": "Budgetplanung", "right": "festlegen, wie das Geld aufgeteilt wird" },
-          { "left": "Checkliste", "right": "geordnete Liste zum Abhaken" },
-          { "left": "Rahmenbedingungen", "right": "Vorgaben und Grenzen des Projekts" }
+          {
+            "left": "Zieldefinition",
+            "right": "festlegen, was erreicht werden soll"
+          },
+          {
+            "left": "Budgetplanung",
+            "right": "festlegen, wie das Geld aufgeteilt wird"
+          },
+          {
+            "left": "Checkliste",
+            "right": "geordnete Liste zum Abhaken"
+          },
+          {
+            "left": "Rahmenbedingungen",
+            "right": "Vorgaben und Grenzen des Projekts"
+          }
         ],
         "direction": "target_to_source"
       }
@@ -202,10 +353,18 @@
         "id": "ex-cloze-zerlegen",
         "type": "cloze",
         "prompt": "Ergänze, was man mit einem großen Vorhaben tut, um es planbar zu machen.",
-        "card_ids": ["aufgaben-zerlegen"],
+        "card_ids": [
+          "aufgaben-zerlegen"
+        ],
         "sentence": "Ein großes Projekt zerlegt man in viele kleine ___ .",
         "blanks": [
-          { "accept": ["Schritte", "Aufgaben", "Teilschritte"] }
+          {
+            "accept": [
+              "Schritte",
+              "Aufgaben",
+              "Teilschritte"
+            ]
+          }
         ],
         "cloze_mode": "type",
         "hint": "Kleine, machbare Einzelteile eines Projekts."
@@ -220,8 +379,19 @@
         "id": "ex-tiles-reihenfolge",
         "type": "word_tiles",
         "prompt": "Bringe die Planungsschritte in die richtige Reihenfolge.",
-        "card_ids": ["zieldefinition", "rahmenbedingungen", "checkliste"],
-        "tiles": ["Ziel", "festlegen", "Rahmenbedingungen", "klären", "Checkliste", "erstellen"],
+        "card_ids": [
+          "zieldefinition",
+          "rahmenbedingungen",
+          "checkliste"
+        ],
+        "tiles": [
+          "Ziel",
+          "festlegen",
+          "Rahmenbedingungen",
+          "klären",
+          "Checkliste",
+          "erstellen"
+        ],
         "hint": "Zuerst das Ziel, zuletzt die Liste.",
         "direction": "target_to_source"
       }

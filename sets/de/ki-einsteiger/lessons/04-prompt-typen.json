@@ -14,7 +14,9 @@
       "notes": "Beispiel: Erkläre in drei Schritten, wie man eine E-Mail formatiert.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["prompt-typen"]
+      "tags": [
+        "prompt-typen"
+      ]
     },
     {
       "id": "explorativ",
@@ -23,7 +25,9 @@
       "notes": "Beispiel: Welche Möglichkeiten gibt es, einen Kindergeburtstag zu gestalten?",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["prompt-typen"]
+      "tags": [
+        "prompt-typen"
+      ]
     },
     {
       "id": "rollenbasiert",
@@ -32,7 +36,9 @@
       "notes": "Beispiel: Agiere als erfahrener Bewerbungscoach.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["prompt-typen"]
+      "tags": [
+        "prompt-typen"
+      ]
     },
     {
       "id": "gespraechsbasiert",
@@ -41,7 +47,9 @@
       "notes": "Beispiel: Erst um eine Idee bitten, dann nachfragen: Mach es kürzer.",
       "media_type": "text",
       "difficulty": 2,
-      "tags": ["prompt-typen"]
+      "tags": [
+        "prompt-typen"
+      ]
     },
     {
       "id": "reflexiv",
@@ -50,7 +58,9 @@
       "notes": "Beispiel: Prüfe deine Antwort auf Fehler und verbessere sie.",
       "media_type": "text",
       "difficulty": 3,
-      "tags": ["prompt-typen"]
+      "tags": [
+        "prompt-typen"
+      ]
     },
     {
       "id": "promptfehler",
@@ -59,7 +69,76 @@
       "notes": "Häufigster Fehler: kein Kontext.",
       "media_type": "text",
       "difficulty": 1,
-      "tags": ["prompt-typen", "fehler"]
+      "tags": [
+        "prompt-typen",
+        "fehler"
+      ]
+    },
+    {
+      "id": "vergleichs-prompt",
+      "front": "Vergleichender Prompt",
+      "back": "Ein Prompt, der die KI bittet, zwei oder mehr Optionen gegenüberzustellen.",
+      "notes": "Beispiel: »Vergleiche Bahn und Auto für eine Reise nach München«.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "prompt-typen"
+      ]
+    },
+    {
+      "id": "schritt-prompt",
+      "front": "Schritt-für-Schritt-Prompt",
+      "back": "Ein Prompt, der die KI bittet, eine Aufgabe in nachvollziehbaren Schritten zu lösen.",
+      "notes": "Hilft besonders bei Anleitungen und Erklärungen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "prompt-typen"
+      ]
+    },
+    {
+      "id": "umformulieren-prompt",
+      "front": "Umformulierungs-Prompt",
+      "back": "Ein Prompt, der einen vorhandenen Text neu schreiben lässt, z. B. einfacher oder förmlicher.",
+      "notes": "Beispiel: »Formuliere diese E-Mail höflicher«.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "prompt-typen"
+      ]
+    },
+    {
+      "id": "zusammenfassungs-prompt",
+      "front": "Zusammenfassungs-Prompt",
+      "back": "Ein Prompt, der einen langen Text auf das Wesentliche verkürzt.",
+      "notes": "Beispiel: »Fasse diesen Artikel in fünf Stichpunkten zusammen«.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "prompt-typen"
+      ]
+    },
+    {
+      "id": "few-shot-prompt",
+      "front": "Few-Shot-Prompt",
+      "back": "Ein Prompt mit einigen Beispielen, an denen sich die KI orientieren soll.",
+      "notes": "Gegenteil: Zero-Shot, ein Prompt ganz ohne Beispiele.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "prompt-typen"
+      ]
+    },
+    {
+      "id": "offene-frage",
+      "front": "Offene vs. geschlossene Frage",
+      "back": "Offene Fragen laden zu ausführlichen Antworten ein, geschlossene erwarten nur Ja/Nein oder eine Auswahl.",
+      "notes": "Der Fragetyp steuert, wie umfangreich die KI antwortet.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "prompt-typen"
+      ]
     }
   ],
   "steps": [
@@ -90,12 +169,29 @@
         "id": "ex-match-typ-beispiel",
         "type": "matching",
         "prompt": "Ordne jedem Prompt-Typ das passende Beispiel zu.",
-        "card_ids": ["anleitend", "explorativ", "rollenbasiert", "reflexiv"],
+        "card_ids": [
+          "anleitend",
+          "explorativ",
+          "rollenbasiert",
+          "reflexiv"
+        ],
         "pairs": [
-          { "left": "Anleitend", "right": "Erstelle eine Einkaufsliste in drei Schritten." },
-          { "left": "Explorativ", "right": "Welche Themen könnte ich für einen Vortrag wählen?" },
-          { "left": "Rollenbasiert", "right": "Agiere als geduldiger Mathelehrer." },
-          { "left": "Reflexiv", "right": "Prüfe deine Antwort auf Fehler und verbessere sie." }
+          {
+            "left": "Anleitend",
+            "right": "Erstelle eine Einkaufsliste in drei Schritten."
+          },
+          {
+            "left": "Explorativ",
+            "right": "Welche Themen könnte ich für einen Vortrag wählen?"
+          },
+          {
+            "left": "Rollenbasiert",
+            "right": "Agiere als geduldiger Mathelehrer."
+          },
+          {
+            "left": "Reflexiv",
+            "right": "Prüfe deine Antwort auf Fehler und verbessere sie."
+          }
         ],
         "direction": "target_to_source"
       }
@@ -109,10 +205,19 @@
         "id": "ex-free-fehler-kontext",
         "type": "free_text",
         "prompt": "Welcher Fehler steckt in einem Prompt ohne jede Hintergrundinfo?",
-        "card_ids": ["promptfehler"],
-        "accept": ["kein Kontext", "fehlender Kontext", "zu wenig Kontext"],
+        "card_ids": [
+          "promptfehler"
+        ],
+        "accept": [
+          "kein Kontext",
+          "fehlender Kontext",
+          "zu wenig Kontext"
+        ],
         "hint": "Es fehlen die Hintergrundinfos zur Einordnung.",
-        "distractors": ["zu lang", "zu höflich"],
+        "distractors": [
+          "zu lang",
+          "zu höflich"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -125,10 +230,18 @@
         "id": "ex-cloze-rollenbasiert",
         "type": "cloze",
         "prompt": "Ergänze, womit ein rollenbasierter Prompt oft beginnt.",
-        "card_ids": ["rollenbasiert"],
+        "card_ids": [
+          "rollenbasiert"
+        ],
         "sentence": "Ein rollenbasierter Prompt beginnt oft mit ___ .",
         "blanks": [
-          { "accept": ["Agiere als", "Du bist", "Handle als"] }
+          {
+            "accept": [
+              "Agiere als",
+              "Du bist",
+              "Handle als"
+            ]
+          }
         ],
         "cloze_mode": "type",
         "hint": "Man gibt der KI damit eine Rolle."
@@ -143,12 +256,29 @@
         "id": "ex-match-typ-zweck",
         "type": "matching",
         "prompt": "Ordne jedem Prompt-Typ seinen Zweck zu.",
-        "card_ids": ["anleitend", "explorativ", "gespraechsbasiert", "reflexiv"],
+        "card_ids": [
+          "anleitend",
+          "explorativ",
+          "gespraechsbasiert",
+          "reflexiv"
+        ],
         "pairs": [
-          { "left": "Anleitend", "right": "eine klare Aufgabe lösen" },
-          { "left": "Explorativ", "right": "offen Ideen sammeln" },
-          { "left": "Gesprächsbasiert", "right": "schrittweise verfeinern" },
-          { "left": "Reflexiv", "right": "die Antwort prüfen lassen" }
+          {
+            "left": "Anleitend",
+            "right": "eine klare Aufgabe lösen"
+          },
+          {
+            "left": "Explorativ",
+            "right": "offen Ideen sammeln"
+          },
+          {
+            "left": "Gesprächsbasiert",
+            "right": "schrittweise verfeinern"
+          },
+          {
+            "left": "Reflexiv",
+            "right": "die Antwort prüfen lassen"
+          }
         ],
         "direction": "target_to_source"
       }
@@ -162,10 +292,21 @@
         "id": "ex-free-rolle-typ",
         "type": "free_text",
         "prompt": "Wie heißt der Prompt-Typ, der der KI eine bestimmte Rolle gibt?",
-        "card_ids": ["rollenbasiert"],
-        "accept": ["rollenbasiert", "Rollenbasiert", "rollenbasierter Prompt", "Rollenprompt"],
+        "card_ids": [
+          "rollenbasiert"
+        ],
+        "accept": [
+          "rollenbasiert",
+          "Rollenbasiert",
+          "rollenbasierter Prompt",
+          "Rollenprompt"
+        ],
         "hint": "Er beginnt oft mit Agiere als.",
-        "distractors": ["explorativ", "reflexiv", "anleitend"],
+        "distractors": [
+          "explorativ",
+          "reflexiv",
+          "anleitend"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -178,10 +319,17 @@
         "id": "ex-cloze-explorativ",
         "type": "cloze",
         "prompt": "Ergänze, wozu ein explorativer Prompt dient.",
-        "card_ids": ["explorativ"],
+        "card_ids": [
+          "explorativ"
+        ],
         "sentence": "Mit einem explorativen Prompt sammelt man offen ___ .",
         "blanks": [
-          { "accept": ["Ideen", "Vorschläge"] }
+          {
+            "accept": [
+              "Ideen",
+              "Vorschläge"
+            ]
+          }
         ],
         "cloze_mode": "type",
         "hint": "Es geht ums Brainstormen."
@@ -196,8 +344,20 @@
         "id": "ex-tiles-tipp",
         "type": "word_tiles",
         "prompt": "Setze den Tipp aus der Lektion zusammen.",
-        "card_ids": ["promptfehler"],
-        "tiles": ["Lieber", "einen", "Satz", "mehr", "Kontext", "als", "einen", "zu", "wenig"],
+        "card_ids": [
+          "promptfehler"
+        ],
+        "tiles": [
+          "Lieber",
+          "einen",
+          "Satz",
+          "mehr",
+          "Kontext",
+          "als",
+          "einen",
+          "zu",
+          "wenig"
+        ],
         "hint": "Beginnt mit: Lieber einen Satz mehr …",
         "direction": "target_to_source"
       }
@@ -211,14 +371,29 @@
         "id": "ex-pick-reflexiv",
         "type": "picture_choice",
         "prompt": "Welches Beispiel ist ein reflexiver Prompt?",
-        "card_ids": ["reflexiv"],
+        "card_ids": [
+          "reflexiv"
+        ],
         "images": [
-          { "src": "assets/img/prompt-reflexiv.png", "label": "Prüfe deine Antwort auf Fehler und verbessere sie.", "is_correct": "true" },
-          { "src": "assets/img/prompt-anleitend.png", "label": "Erstelle eine Einkaufsliste für vier Personen." },
-          { "src": "assets/img/prompt-explorativ.png", "label": "Welche Themen könnte ich für einen Vortrag wählen?" }
+          {
+            "src": "assets/img/prompt-reflexiv.png",
+            "label": "Prüfe deine Antwort auf Fehler und verbessere sie.",
+            "is_correct": "true"
+          },
+          {
+            "src": "assets/img/prompt-anleitend.png",
+            "label": "Erstelle eine Einkaufsliste für vier Personen."
+          },
+          {
+            "src": "assets/img/prompt-explorativ.png",
+            "label": "Welche Themen könnte ich für einen Vortrag wählen?"
+          }
         ],
         "hint": "Bei welchem soll die KI ihre eigene Antwort prüfen?",
-        "distractors": ["Erstelle eine Einkaufsliste für vier Personen.", "Welche Themen könnte ich für einen Vortrag wählen?"],
+        "distractors": [
+          "Erstelle eine Einkaufsliste für vier Personen.",
+          "Welche Themen könnte ich für einen Vortrag wählen?"
+        ],
         "direction": "target_to_source"
       }
     },
@@ -231,10 +406,21 @@
         "id": "ex-free-mehrere-runden",
         "type": "free_text",
         "prompt": "Wie heißt der Prompt-Typ, bei dem man die Antwort über mehrere Runden im Dialog verfeinert?",
-        "card_ids": ["gespraechsbasiert"],
-        "accept": ["gesprächsbasiert", "Gesprächsbasiert", "gesprächsbasierter Prompt", "dialogbasiert"],
+        "card_ids": [
+          "gespraechsbasiert"
+        ],
+        "accept": [
+          "gesprächsbasiert",
+          "Gesprächsbasiert",
+          "gesprächsbasierter Prompt",
+          "dialogbasiert"
+        ],
         "hint": "Man arbeitet Schritt für Schritt im Dialog.",
-        "distractors": ["anleitend", "reflexiv", "explorativ"],
+        "distractors": [
+          "anleitend",
+          "reflexiv",
+          "explorativ"
+        ],
         "direction": "target_to_source"
       }
     }
