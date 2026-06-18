@@ -1,0 +1,45 @@
+# Japanisch A1 (für Deutschsprachige) — Set-Manifest
+#
+# Japanisch lernen, mit Erklärungen und Übersetzungen auf Deutsch.
+# Der Content-Loader liest ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.3'
+name: Japanisch A1 (für Deutschsprachige)
+description: >-
+  Vollständiger A1-Kurs Japanisch für Deutschsprachige (10
+  Lektionen): Begrüßungen, sich vorstellen, Zahlen 1–20, im
+  Restaurant, Einkaufen, Uhrzeit und Wochentage, Familie,
+  Wegbeschreibung, Adjektive sowie Höflichkeitsformen. Die
+  Vorderseiten stehen in japanischer Schrift (Hiragana,
+  Katakana, Kanji); Karten-Rückseiten, Notizen mit Romaji und
+  Theorie sind auf Deutsch.
+sets:
+  - id: ja-a1-from-de
+    title: Japanisch A1 (für Deutschsprachige)
+    title_native: 日本語 A1
+    target_language: ja
+    source_language: de
+    level: A1
+    path: sets/de/ja-a1
+    version: '1.0.0'
+    lesson_count: 10
+    domain: language
+    description: >-
+      Zehn A1-Lektionen Japanisch, auf Deutsch erklärt — vom
+      ersten Gruß bis zu den Höflichkeitsformen.
+    tags:
+      - beginner
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-begruessungen.json
+    - 02-sich-vorstellen.json
+    - 03-zahlen-1-20.json
+    - 04-im-restaurant.json
+    - 05-einkaufen.json
+    - 06-uhrzeit-und-tage.json
+    - 07-familie.json
+    - 08-wegbeschreibung.json
+    - 09-adjektive.json
+    - 10-hoeflichkeitsformen.json

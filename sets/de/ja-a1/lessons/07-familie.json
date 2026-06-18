@@ -1,0 +1,228 @@
+{
+  "id": "07-familie",
+  "title": "Familie",
+  "description": "Familienmitglieder auf Japanisch — die bescheidenen Formen für die eigene Familie und die höflichen Formen für andere — auf Deutsch erklärt.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "kazoku",
+      "front": "家族",
+      "back": "Familie",
+      "notes": "Romaji: kazoku. Kontext: わたしの家族は四人です。(watashi no kazoku wa yonin desu.) – Meine Familie hat vier Personen.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "haha",
+      "front": "母",
+      "back": "(meine) Mutter",
+      "notes": "Romaji: haha. Kontext: 母は先生です。(haha wa sensei desu.) – Meine Mutter ist Lehrerin. Bescheidene Form für die eigene Mutter.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "chichi",
+      "front": "父",
+      "back": "(mein) Vater",
+      "notes": "Romaji: chichi. Kontext: 父は会社員です。(chichi wa kaishain desu.) – Mein Vater ist Angestellter. Bescheidene Form für den eigenen Vater.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "ani",
+      "front": "兄",
+      "back": "(mein) älterer Bruder",
+      "notes": "Romaji: ani. Kontext: 兄は学生です。(ani wa gakusei desu.) – Mein älterer Bruder ist Student.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "ane",
+      "front": "姉",
+      "back": "(meine) ältere Schwester",
+      "notes": "Romaji: ane. Kontext: 姉は東京にいます。(ane wa toukyou ni imasu.) – Meine ältere Schwester ist in Tokio.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "otouto",
+      "front": "弟",
+      "back": "(mein) jüngerer Bruder",
+      "notes": "Romaji: otouto. Kontext: 弟は十歳です。(otouto wa jussai desu.) – Mein jüngerer Bruder ist zehn Jahre alt.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "imouto",
+      "front": "妹",
+      "back": "(meine) jüngere Schwester",
+      "notes": "Romaji: imouto. Kontext: 妹はかわいいです。(imouto wa kawaii desu.) – Meine jüngere Schwester ist niedlich.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "okaasan",
+      "front": "お母さん",
+      "back": "(Ihre/seine) Mutter; Mama (Anrede)",
+      "notes": "Romaji: okaasan. Kontext: お母さんはお元気ですか。(okaasan wa ogenki desu ka.) – Geht es Ihrer Mutter gut? Höfliche Form für die Mutter anderer.",
+      "difficulty": 2,
+      "tags": ["familie", "hoeflich"]
+    },
+    {
+      "id": "otousan",
+      "front": "お父さん",
+      "back": "(Ihr/sein) Vater; Papa (Anrede)",
+      "notes": "Romaji: otousan. Kontext: お父さんは何のお仕事ですか。(otousan wa nan no oshigoto desu ka.) – Was macht Ihr Vater beruflich? Höfliche Form für den Vater anderer.",
+      "difficulty": 2,
+      "tags": ["familie", "hoeflich"]
+    },
+    {
+      "id": "oniisan",
+      "front": "お兄さん",
+      "back": "(Ihr/sein) älterer Bruder",
+      "notes": "Romaji: oniisan. Kontext: お兄さんは学生ですか。(oniisan wa gakusei desu ka.) – Ist Ihr älterer Bruder Student? Höfliche Form von 兄.",
+      "difficulty": 2,
+      "tags": ["familie", "hoeflich"]
+    },
+    {
+      "id": "oneesan",
+      "front": "お姉さん",
+      "back": "(Ihre/seine) ältere Schwester",
+      "notes": "Romaji: oneesan. Kontext: お姉さんはきれいですね。(oneesan wa kirei desu ne.) – Ihre ältere Schwester ist hübsch, nicht? Höfliche Form von 姉.",
+      "difficulty": 2,
+      "tags": ["familie", "hoeflich"]
+    },
+    {
+      "id": "kodomo",
+      "front": "子供",
+      "back": "Kind",
+      "notes": "Romaji: kodomo. Kontext: 子供が二人います。(kodomo ga futari imasu.) – Ich habe zwei Kinder.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die eigene Familie (bescheidene Formen)",
+      "body": "# Familie\n\n**家族** (kazoku) bedeutet *Familie*.\n\nÜber die **eigene** Familie sprichst du mit bescheidenen Formen:\n\n- **母** (haha) — *(meine) Mutter*\n- **父** (chichi) — *(mein) Vater*\n- **兄** (ani) — *älterer Bruder*, **姉** (ane) — *ältere Schwester*\n- **弟** (otouto) — *jüngerer Bruder*, **妹** (imouto) — *jüngere Schwester*\n\nJapanisch unterscheidet bei Geschwistern **älter** und **jünger**."
+    },
+    {
+      "id": "step-hoeflich",
+      "type": "theory",
+      "title": "Die Familie anderer (höfliche Formen)",
+      "body": "## Über die Familie anderer\n\nWenn du über die Familie **anderer** sprichst (oder ein Kind die eigenen Eltern anredet), nimmst du die höflichen Formen mit **お…さん**:\n\n- **お母さん** (okaasan) — *(Ihre) Mutter / Mama*\n- **お父さん** (otousan) — *(Ihr) Vater / Papa*\n\n| eigene Familie | Familie anderer |\n|---|---|\n| 母 (haha) | お母さん (okaasan) |\n| 父 (chichi) | お父さん (otousan) |\n\n> Faustregel: bescheiden über die eigene Familie, höflich über die der anderen."
+    },
+    {
+      "id": "ex-match-familie",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Familienmitglieder zuordnen",
+      "exercise": {
+        "id": "ex-match-familie",
+        "type": "matching",
+        "prompt": "Ordne jedem japanischen Wort die deutsche Bedeutung zu.",
+        "card_ids": ["haha", "chichi", "ani", "imouto"],
+        "pairs": [
+          {"left": "母", "right": "(meine) Mutter"},
+          {"left": "父", "right": "(mein) Vater"},
+          {"left": "兄", "right": "(mein) älterer Bruder"},
+          {"left": "妹", "right": "(meine) jüngere Schwester"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-hoeflich",
+      "type": "exercise",
+      "theory_ref": "step-hoeflich",
+      "title": "Bescheiden vs. höflich",
+      "exercise": {
+        "id": "ex-match-hoeflich",
+        "type": "matching",
+        "prompt": "Ordne die bescheidene Form der höflichen Form zu.",
+        "card_ids": ["haha", "chichi", "okaasan", "otousan"],
+        "pairs": [
+          {"left": "母", "right": "お母さん (höflich)"},
+          {"left": "父", "right": "お父さん (höflich)"},
+          {"left": "お母さん", "right": "Mutter anderer"},
+          {"left": "お父さん", "right": "Vater anderer"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-haha",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Meine Mutter",
+      "exercise": {
+        "id": "ex-free-haha",
+        "type": "free_text",
+        "prompt": "Wie nennst du deine eigene Mutter (bescheidene Form)?",
+        "card_ids": ["haha"],
+        "accept": ["母", "haha", "はは"],
+        "hint": "Nur ein Kanji, Romaji: haha.",
+        "distractors": ["お母さん", "父", "姉"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-okaasan",
+      "type": "exercise",
+      "theory_ref": "step-hoeflich",
+      "title": "Die Mutter anderer",
+      "exercise": {
+        "id": "ex-free-okaasan",
+        "type": "free_text",
+        "prompt": "Wie sprichst du höflich über die Mutter einer anderen Person?",
+        "card_ids": ["okaasan"],
+        "accept": ["お母さん", "okaasan", "おかあさん"],
+        "hint": "お…さん umrahmt das Wort.",
+        "distractors": ["母", "お父さん", "家族"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-kazoku",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke: meine Familie",
+      "exercise": {
+        "id": "ex-cloze-kazoku",
+        "type": "cloze",
+        "prompt": "Ergänze das Wort für 'Familie'.",
+        "card_ids": ["kazoku"],
+        "sentence": "わたしの___は四人です。",
+        "blanks": [{"accept": ["家族", "kazoku", "かぞく"]}],
+        "cloze_mode": "type",
+        "hint": "Romaji: kazoku."
+      }
+    },
+    {
+      "id": "ex-pic-chichi",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Welches Wort bedeutet '(mein) Vater'?",
+      "exercise": {
+        "id": "ex-pic-chichi",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet '(mein) Vater' (bescheidene Form)?",
+        "card_ids": ["chichi"],
+        "images": [
+          {"src": "assets/img/chichi.png", "label": "父", "is_correct": "true"},
+          {"src": "assets/img/haha.png", "label": "母"},
+          {"src": "assets/img/ani.png", "label": "兄"},
+          {"src": "assets/img/ane.png", "label": "姉"}
+        ],
+        "hint": "Romaji: chichi.",
+        "distractors": ["母", "兄", "姉"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

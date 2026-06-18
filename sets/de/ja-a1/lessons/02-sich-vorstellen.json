@@ -1,0 +1,224 @@
+{
+  "id": "02-sich-vorstellen",
+  "title": "Sich vorstellen",
+  "description": "Sich auf Japanisch vorstellen: Namen nennen, nach dem Namen fragen und höfliche Floskeln — auf Deutsch erklärt.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 11,
+  "cards": [
+    {
+      "id": "watashi",
+      "front": "わたし",
+      "back": "ich",
+      "notes": "Romaji: watashi. Kontext: わたしは学生です。(watashi wa gakusei desu.) – Ich bin Student.",
+      "difficulty": 1,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "desu",
+      "front": "です",
+      "back": "bin / ist / sind (höfliche Kopula)",
+      "notes": "Romaji: desu. Kontext: これはペンです。(kore wa pen desu.) – Das ist ein Stift.",
+      "difficulty": 1,
+      "tags": ["grammatik"]
+    },
+    {
+      "id": "hajimemashite",
+      "front": "はじめまして",
+      "back": "Sehr erfreut / Angenehm (beim ersten Treffen)",
+      "notes": "Romaji: hajimemashite. Kontext: はじめまして、田中です。(hajimemashite, Tanaka desu.) – Angenehm, ich bin Tanaka.",
+      "difficulty": 1,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "douzo-yoroshiku",
+      "front": "どうぞよろしく",
+      "back": "Freut mich (Bitte um wohlwollendes Miteinander)",
+      "notes": "Romaji: douzo yoroshiku. Kontext: どうぞよろしくお願いします。(douzo yoroshiku onegaishimasu.) – Sehr erfreut, bitte seien Sie mir gewogen.",
+      "difficulty": 2,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "onamae-wa",
+      "front": "お名前は",
+      "back": "Wie heißen Sie? (Ihr Name?)",
+      "notes": "Romaji: onamae wa. Kontext: お名前は何ですか。(onamae wa nan desu ka.) – Wie ist Ihr Name?",
+      "difficulty": 2,
+      "tags": ["vorstellen", "frage"]
+    },
+    {
+      "id": "namae",
+      "front": "名前",
+      "back": "Name",
+      "notes": "Romaji: namae. Kontext: わたしの名前はアンナです。(watashi no namae wa Anna desu.) – Mein Name ist Anna.",
+      "difficulty": 1,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "doitsu",
+      "front": "ドイツ",
+      "back": "Deutschland",
+      "notes": "Romaji: doitsu. Kontext: わたしはドイツ人です。(watashi wa doitsujin desu.) – Ich bin Deutsche(r). In Katakana, weil es ein Lehnwort ist.",
+      "difficulty": 1,
+      "tags": ["land"]
+    },
+    {
+      "id": "doitsujin",
+      "front": "ドイツ人",
+      "back": "Deutsche(r) (Person aus Deutschland)",
+      "notes": "Romaji: doitsujin. Kontext: 彼はドイツ人です。(kare wa doitsujin desu.) – Er ist Deutscher. 人 (jin) = Person/Nationalität.",
+      "difficulty": 2,
+      "tags": ["land"]
+    },
+    {
+      "id": "gakusei",
+      "front": "学生",
+      "back": "Student / Schüler",
+      "notes": "Romaji: gakusei. Kontext: わたしは学生です。(watashi wa gakusei desu.) – Ich bin Studentin.",
+      "difficulty": 1,
+      "tags": ["vorstellen", "beruf"]
+    },
+    {
+      "id": "nan-desu-ka",
+      "front": "何ですか",
+      "back": "Was ist das? / Was ist es?",
+      "notes": "Romaji: nan desu ka. Kontext: お仕事は何ですか。(oshigoto wa nan desu ka.) – Was sind Sie von Beruf? 何 = was.",
+      "difficulty": 2,
+      "tags": ["vorstellen", "frage"]
+    },
+    {
+      "id": "no",
+      "front": "の",
+      "back": "von / -s (Besitz-Partikel)",
+      "notes": "Romaji: no. Kontext: わたしの名前 (watashi no namae) – mein Name. Das Partikel の verbindet Besitzer und Besessenes.",
+      "difficulty": 1,
+      "tags": ["grammatik"]
+    },
+    {
+      "id": "anata",
+      "front": "あなた",
+      "back": "du / Sie",
+      "notes": "Romaji: anata. Kontext: あなたはドイツ人ですか。(anata wa doitsujin desu ka.) – Sind Sie Deutsche(r)?",
+      "difficulty": 1,
+      "tags": ["vorstellen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Sich vorstellen mit „… です“",
+      "body": "# Sich vorstellen\n\nDer Grundbaustein ist die höfliche Kopula **です** (desu) = *ist / bin / sind*.\n\n- **わたしは … です** (watashi wa … desu) — *Ich bin …*\n- Das Partikel **は** wird hier **wa** ausgesprochen und markiert das Thema.\n\nBeispiel: **わたしはアンナです。** (watashi wa Anna desu.) — *Ich bin Anna.*"
+    },
+    {
+      "id": "step-floskeln",
+      "type": "theory",
+      "title": "Höfliche Floskeln und Fragen",
+      "body": "## Floskeln beim Kennenlernen\n\n- **はじめまして** (hajimemashite) — *Angenehm* (sagt man am Anfang)\n- **どうぞよろしく(お願いします)** (douzo yoroshiku (onegaishimasu)) — *Freut mich* (zum Abschluss der Vorstellung)\n\n## Nach dem Namen fragen\n\n- **お名前は（何ですか）？** (onamae wa (nan desu ka)?) — *Wie heißen Sie?*\n- **名前** (namae) — *Name*; das höfliche **お** (o-) wird vorangestellt, wenn man nach dem Namen anderer fragt."
+    },
+    {
+      "id": "ex-match-vorstellen",
+      "type": "exercise",
+      "theory_ref": "step-floskeln",
+      "title": "Floskeln zuordnen",
+      "exercise": {
+        "id": "ex-match-vorstellen",
+        "type": "matching",
+        "prompt": "Ordne jeder japanischen Wendung die deutsche Bedeutung zu.",
+        "card_ids": ["hajimemashite", "douzo-yoroshiku", "onamae-wa", "watashi"],
+        "pairs": [
+          {"left": "はじめまして", "right": "Angenehm (erstes Treffen)"},
+          {"left": "どうぞよろしく", "right": "Freut mich"},
+          {"left": "お名前は", "right": "Wie heißen Sie?"},
+          {"left": "わたし", "right": "ich"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-watashi-wa",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke: Ich bin Anna",
+      "exercise": {
+        "id": "ex-cloze-watashi-wa",
+        "type": "cloze",
+        "prompt": "Ergänze die höfliche Kopula in 'Ich bin Anna'.",
+        "card_ids": ["watashi", "desu"],
+        "sentence": "わたしはアンナ___。",
+        "blanks": [{"accept": ["です", "desu"]}],
+        "cloze_mode": "type",
+        "hint": "Höfliches 'bin/ist'."
+      }
+    },
+    {
+      "id": "ex-free-hajimemashite",
+      "type": "exercise",
+      "theory_ref": "step-floskeln",
+      "title": "Angenehm!",
+      "exercise": {
+        "id": "ex-free-hajimemashite",
+        "type": "free_text",
+        "prompt": "Wie sagt man beim ersten Treffen 'Angenehm'?",
+        "card_ids": ["hajimemashite"],
+        "accept": ["はじめまして", "hajimemashite"],
+        "hint": "Beginnt mit はじ.",
+        "distractors": ["どうぞよろしく", "お名前は", "さようなら"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-doitsujin",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Ich bin Deutsche(r)",
+      "exercise": {
+        "id": "ex-free-doitsujin",
+        "type": "free_text",
+        "prompt": "Wie heißt 'Deutsche(r)' (Person aus Deutschland) auf Japanisch?",
+        "card_ids": ["doitsujin"],
+        "accept": ["ドイツ人", "doitsujin"],
+        "hint": "ドイツ + 人 (jin).",
+        "distractors": ["ドイツ", "名前", "わたし"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-watashi",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Satz bauen: Ich bin Anna",
+      "exercise": {
+        "id": "ex-tiles-watashi",
+        "type": "word_tiles",
+        "prompt": "Baue den Satz 'Ich bin Anna' in der richtigen Reihenfolge.",
+        "card_ids": ["watashi", "desu"],
+        "tiles": ["わたし", "は", "アンナ", "です"],
+        "hint": "Thema – は – Name – です.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-namae",
+      "type": "exercise",
+      "theory_ref": "step-floskeln",
+      "title": "Welches Wort bedeutet 'Name'?",
+      "exercise": {
+        "id": "ex-pic-namae",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'Name'?",
+        "card_ids": ["namae"],
+        "images": [
+          {"src": "assets/img/namae.png", "label": "名前", "is_correct": "true"},
+          {"src": "assets/img/watashi.png", "label": "わたし"},
+          {"src": "assets/img/doitsu.png", "label": "ドイツ"},
+          {"src": "assets/img/desu.png", "label": "です"}
+        ],
+        "hint": "Romaji: namae.",
+        "distractors": ["わたし", "ドイツ", "です"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

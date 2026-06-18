@@ -1,0 +1,224 @@
+{
+  "id": "01-begruessungen",
+  "title": "Begrüßungen",
+  "description": "Grundlegende japanische Begrüßungen und Verabschiedungen — auf Deutsch erklärt. Vorderseiten in japanischer Schrift, Romaji in den Notizen.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "konnichiwa",
+      "front": "こんにちは",
+      "back": "Guten Tag / Hallo",
+      "notes": "Romaji: konnichiwa. Kontext: こんにちは、田中さん。(konnichiwa, Tanaka-san.) – Guten Tag, Herr Tanaka.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "ohayou-gozaimasu",
+      "front": "おはようございます",
+      "back": "Guten Morgen (höflich)",
+      "notes": "Romaji: ohayou gozaimasu. Kontext: 先生、おはようございます。(sensei, ohayou gozaimasu.) – Guten Morgen, Frau Lehrerin.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "konbanwa",
+      "front": "こんばんは",
+      "back": "Guten Abend",
+      "notes": "Romaji: konbanwa. Kontext: こんばんは、お元気ですか。(konbanwa, ogenki desu ka.) – Guten Abend, wie geht es Ihnen?",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "sayounara",
+      "front": "さようなら",
+      "back": "Auf Wiedersehen",
+      "notes": "Romaji: sayounara. Kontext: それでは、さようなら。(sore dewa, sayounara.) – Also dann, auf Wiedersehen.",
+      "difficulty": 1,
+      "tags": ["verabschiedung"]
+    },
+    {
+      "id": "oyasuminasai",
+      "front": "おやすみなさい",
+      "back": "Gute Nacht",
+      "notes": "Romaji: oyasuminasai. Kontext: もう寝ます。おやすみなさい。(mou nemasu. oyasuminasai.) – Ich gehe jetzt schlafen. Gute Nacht.",
+      "difficulty": 1,
+      "tags": ["verabschiedung"]
+    },
+    {
+      "id": "hai",
+      "front": "はい",
+      "back": "ja",
+      "notes": "Romaji: hai. Kontext: はい、そうです。(hai, sou desu.) – Ja, das stimmt.",
+      "difficulty": 1,
+      "tags": ["grundwort"]
+    },
+    {
+      "id": "iie",
+      "front": "いいえ",
+      "back": "nein",
+      "notes": "Romaji: iie. Kontext: いいえ、違います。(iie, chigaimasu.) – Nein, das ist falsch.",
+      "difficulty": 1,
+      "tags": ["grundwort"]
+    },
+    {
+      "id": "ogenki-desu-ka",
+      "front": "お元気ですか",
+      "back": "Wie geht es Ihnen?",
+      "notes": "Romaji: ogenki desu ka. Kontext: お元気ですか。— はい、元気です。(ogenki desu ka. — hai, genki desu.) – Wie geht es Ihnen? — Ja, gut.",
+      "difficulty": 2,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "ohayou",
+      "front": "おはよう",
+      "back": "Guten Morgen (locker)",
+      "notes": "Romaji: ohayou. Kontext: おはよう、よく寝た？(ohayou, yoku neta?) – Morgen, gut geschlafen? Lockere Form unter Freunden.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "genki-desu",
+      "front": "元気です",
+      "back": "Mir geht es gut.",
+      "notes": "Romaji: genki desu. Kontext: おかげさまで、元気です。(okagesama de, genki desu.) – Danke der Nachfrage, mir geht es gut.",
+      "difficulty": 2,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "mata-ne",
+      "front": "またね",
+      "back": "Bis später / Tschüss (locker)",
+      "notes": "Romaji: mata ne. Kontext: じゃあ、またね。(jaa, mata ne.) – Na dann, bis später.",
+      "difficulty": 1,
+      "tags": ["verabschiedung"]
+    },
+    {
+      "id": "ittekimasu",
+      "front": "いってきます",
+      "back": "Ich gehe dann (und komme wieder)",
+      "notes": "Romaji: ittekimasu. Kontext: いってきます。— いってらっしゃい。(ittekimasu. — itterasshai.) – Ich gehe los. — Komm gut wieder. Sagt man beim Verlassen des Hauses.",
+      "difficulty": 2,
+      "tags": ["verabschiedung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Begrüßungen auf Japanisch",
+      "body": "# Begrüßungen auf Japanisch\n\nJapanisch unterscheidet Begrüßungen nach **Tageszeit**:\n\n- **こんにちは** (konnichiwa) — Guten Tag / Hallo, tagsüber\n- **おはようございます** (ohayou gozaimasu) — Guten Morgen (höflich)\n- **こんばんは** (konbanwa) — Guten Abend\n\nDie Vorderseiten sind in japanischer Schrift geschrieben. Die Aussprache (Romaji) findest du in den Notizen jeder Karte.\n\n> Achtung: は wird in こんにちは und こんばんは als **wa** ausgesprochen, nicht als *ha*."
+    },
+    {
+      "id": "step-abschied",
+      "type": "theory",
+      "title": "Verabschiedung und Grundwörter",
+      "body": "## Verabschiedung\n\n- **さようなら** (sayounara) — Auf Wiedersehen (eher förmlich/endgültig)\n- **おやすみなさい** (oyasuminasai) — Gute Nacht\n\n## Wichtige Grundwörter\n\n- **はい** (hai) — ja\n- **いいえ** (iie) — nein\n\nMit **お元気ですか** (ogenki desu ka) fragt man höflich *Wie geht es Ihnen?*"
+    },
+    {
+      "id": "ex-match-begruessung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Begrüßungen zuordnen",
+      "exercise": {
+        "id": "ex-match-begruessung",
+        "type": "matching",
+        "prompt": "Ordne jeder japanischen Begrüßung die deutsche Übersetzung zu.",
+        "card_ids": ["konnichiwa", "ohayou-gozaimasu", "konbanwa", "sayounara"],
+        "pairs": [
+          {"left": "こんにちは", "right": "Guten Tag / Hallo"},
+          {"left": "おはようございます", "right": "Guten Morgen (höflich)"},
+          {"left": "こんばんは", "right": "Guten Abend"},
+          {"left": "さようなら", "right": "Auf Wiedersehen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-konnichiwa",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Guten Tag sagen",
+      "exercise": {
+        "id": "ex-free-konnichiwa",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Guten Tag / Hallo' auf Japanisch?",
+        "card_ids": ["konnichiwa"],
+        "accept": ["こんにちは", "konnichiwa"],
+        "hint": "Endet auf は (wa).",
+        "distractors": ["こんばんは", "さようなら", "おやすみなさい"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-oyasumi",
+      "type": "exercise",
+      "theory_ref": "step-abschied",
+      "title": "Gute Nacht sagen",
+      "exercise": {
+        "id": "ex-free-oyasumi",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Gute Nacht' auf Japanisch?",
+        "card_ids": ["oyasuminasai"],
+        "accept": ["おやすみなさい", "oyasuminasai", "おやすみ"],
+        "hint": "Beginnt mit お (o).",
+        "distractors": ["こんにちは", "さようなら", "おはようございます"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-genki",
+      "type": "exercise",
+      "theory_ref": "step-abschied",
+      "title": "Lücke füllen: Wie geht es?",
+      "exercise": {
+        "id": "ex-cloze-genki",
+        "type": "cloze",
+        "prompt": "Ergänze die höfliche Frage 'Wie geht es Ihnen?'.",
+        "card_ids": ["ogenki-desu-ka"],
+        "sentence": "お元気___か。",
+        "blanks": [{"accept": ["です", "desu"]}],
+        "cloze_mode": "type",
+        "hint": "Die höfliche Kopula."
+      }
+    },
+    {
+      "id": "ex-tiles-ohayou",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Morgengruß zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-ohayou",
+        "type": "word_tiles",
+        "prompt": "Setze die Kacheln zum höflichen Morgengruß zusammen.",
+        "card_ids": ["ohayou-gozaimasu"],
+        "tiles": ["おはよう", "ございます"],
+        "hint": "Zwei Teile: Gruß + höfliche Endung.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pic-sayounara",
+      "type": "exercise",
+      "theory_ref": "step-abschied",
+      "title": "Welches Wort bedeutet 'Auf Wiedersehen'?",
+      "exercise": {
+        "id": "ex-pic-sayounara",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'Auf Wiedersehen'?",
+        "card_ids": ["sayounara"],
+        "images": [
+          {"src": "assets/img/sayounara.png", "label": "さようなら", "is_correct": "true"},
+          {"src": "assets/img/konnichiwa.png", "label": "こんにちは"},
+          {"src": "assets/img/konbanwa.png", "label": "こんばんは"},
+          {"src": "assets/img/hai.png", "label": "はい"}
+        ],
+        "hint": "Man sagt es zum Abschied.",
+        "distractors": ["こんにちは", "こんばんは", "はい"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

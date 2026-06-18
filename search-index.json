@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/adaptive-learner-content",
-  "generated": "2026-06-18T11:16:48Z",
+  "generated": "2026-06-18T17:58:04Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -392,8 +392,27 @@
         "cover_image": null
       },
       "updated_at": "2026-06-18T13:16:37+02:00"
+    },
+    {
+      "id": "ja-a1-from-de",
+      "name": "Japanisch A1 (für Deutschsprachige)",
+      "description": "Zehn A1-Lektionen Japanisch, auf Deutsch erklärt — vom ersten Gruß bis zu den Höflichkeitsformen.",
+      "source_language": "de",
+      "target_language": "ja",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 10,
+      "card_count": 122,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-18T17:58:04Z"
     }
   ],
-  "total_lessons": 358,
-  "total_cards": 4512
+  "total_lessons": 368,
+  "total_cards": 4634
 }

@@ -1,0 +1,224 @@
+{
+  "id": "04-im-restaurant",
+  "title": "Im Restaurant",
+  "description": "Im Restaurant bestellen, um Aufmerksamkeit bitten und bezahlen — auf Deutsch erklärt.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "sumimasen",
+      "front": "すみません",
+      "back": "Entschuldigung / Bitte (um Aufmerksamkeit)",
+      "notes": "Romaji: sumimasen. Kontext: すみません、メニューをください。(sumimasen, menyuu o kudasai.) – Entschuldigung, die Speisekarte bitte.",
+      "difficulty": 1,
+      "tags": ["restaurant", "hoeflichkeit"]
+    },
+    {
+      "id": "kudasai",
+      "front": "ください",
+      "back": "bitte (geben Sie mir …)",
+      "notes": "Romaji: kudasai. Kontext: 水をください。(mizu o kudasai.) – Wasser bitte. Steht hinter dem Wunsch: … を ください.",
+      "difficulty": 1,
+      "tags": ["restaurant", "grammatik"]
+    },
+    {
+      "id": "menyuu",
+      "front": "メニュー",
+      "back": "Speisekarte / Menü",
+      "notes": "Romaji: menyuu. Kontext: メニューを見せてください。(menyuu o misete kudasai.) – Zeigen Sie mir bitte die Speisekarte. Lehnwort in Katakana.",
+      "difficulty": 1,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "mizu",
+      "front": "水",
+      "back": "Wasser",
+      "notes": "Romaji: mizu. Kontext: お水をください。(omizu o kudasai.) – Wasser bitte.",
+      "difficulty": 1,
+      "tags": ["restaurant", "getraenk"]
+    },
+    {
+      "id": "ocha",
+      "front": "お茶",
+      "back": "(grüner) Tee",
+      "notes": "Romaji: ocha. Kontext: お茶はいかがですか。(ocha wa ikaga desu ka.) – Wie wäre es mit Tee?",
+      "difficulty": 1,
+      "tags": ["restaurant", "getraenk"]
+    },
+    {
+      "id": "oishii",
+      "front": "おいしい",
+      "back": "lecker / köstlich",
+      "notes": "Romaji: oishii. Kontext: このラーメンはおいしいです。(kono raamen wa oishii desu.) – Diese Ramen sind lecker.",
+      "difficulty": 1,
+      "tags": ["restaurant", "adjektiv"]
+    },
+    {
+      "id": "okaikei",
+      "front": "お会計",
+      "back": "die Rechnung",
+      "notes": "Romaji: okaikei. Kontext: お会計をお願いします。(okaikei o onegaishimasu.) – Die Rechnung bitte.",
+      "difficulty": 2,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "onegaishimasu",
+      "front": "お願いします",
+      "back": "bitte (höfliche Bitte)",
+      "notes": "Romaji: onegaishimasu. Kontext: コーヒーをお願いします。(koohii o onegaishimasu.) – Einen Kaffee bitte.",
+      "difficulty": 2,
+      "tags": ["restaurant", "hoeflichkeit"]
+    },
+    {
+      "id": "raamen",
+      "front": "ラーメン",
+      "back": "Ramen (Nudelsuppe)",
+      "notes": "Romaji: raamen. Kontext: ラーメンを一つください。(raamen o hitotsu kudasai.) – Eine Ramen bitte. Katakana mit Längsstrich ー.",
+      "difficulty": 1,
+      "tags": ["restaurant", "essen"]
+    },
+    {
+      "id": "koohii",
+      "front": "コーヒー",
+      "back": "Kaffee",
+      "notes": "Romaji: koohii. Kontext: コーヒーをお願いします。(koohii o onegaishimasu.) – Einen Kaffee bitte. Lehnwort in Katakana.",
+      "difficulty": 1,
+      "tags": ["restaurant", "getraenk"]
+    },
+    {
+      "id": "gohan",
+      "front": "ご飯",
+      "back": "Reis / Mahlzeit",
+      "notes": "Romaji: gohan. Kontext: ご飯を食べます。(gohan o tabemasu.) – Ich esse (Reis).",
+      "difficulty": 1,
+      "tags": ["restaurant", "essen"]
+    },
+    {
+      "id": "hitotsu",
+      "front": "一つ",
+      "back": "ein Stück / eins (Zählwort)",
+      "notes": "Romaji: hitotsu. Kontext: これを一つください。(kore o hitotsu kudasai.) – Davon eins bitte.",
+      "difficulty": 2,
+      "tags": ["restaurant"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Bestellen mit „… を ください“",
+      "body": "# Im Restaurant bestellen\n\nUm etwas zu bestellen, nutzt du das Muster:\n\n> **[Wunsch] を ください** — *… bitte (geben Sie mir …)*\n\nDas Partikel **を** (o) markiert das Objekt. Beispiele:\n\n- **水をください。** (mizu o kudasai.) — *Wasser bitte.*\n- **ラーメンをください。** (raamen o kudasai.) — *Ramen bitte.*\n\nMit **すみません** (sumimasen) machst du zuerst auf dich aufmerksam."
+    },
+    {
+      "id": "step-bezahlen",
+      "type": "theory",
+      "title": "Loben und bezahlen",
+      "body": "## Loben\n\n- **おいしい(です)** (oishii (desu)) — *lecker / köstlich*\n\n## Bezahlen\n\n- **お会計をお願いします。** (okaikei o onegaishimasu.) — *Die Rechnung bitte.*\n\n**お願いします** (onegaishimasu) ist eine höflichere Bitte als ください und passt besonders gut, wenn man um einen Gefallen bittet."
+    },
+    {
+      "id": "ex-match-restaurant",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wörter zuordnen",
+      "exercise": {
+        "id": "ex-match-restaurant",
+        "type": "matching",
+        "prompt": "Ordne jedem japanischen Wort die deutsche Bedeutung zu.",
+        "card_ids": ["menyuu", "mizu", "okaikei", "oishii"],
+        "pairs": [
+          {"left": "メニュー", "right": "Speisekarte / Menü"},
+          {"left": "水", "right": "Wasser"},
+          {"left": "お会計", "right": "die Rechnung"},
+          {"left": "おいしい", "right": "lecker / köstlich"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-mizu",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke: Wasser bestellen",
+      "exercise": {
+        "id": "ex-cloze-mizu",
+        "type": "cloze",
+        "prompt": "Ergänze das Höflichkeitswort 'bitte (geben Sie mir)'.",
+        "card_ids": ["mizu", "kudasai"],
+        "sentence": "水を___。",
+        "blanks": [{"accept": ["ください", "kudasai"]}],
+        "cloze_mode": "type",
+        "hint": "Steht am Satzende beim Bestellen."
+      }
+    },
+    {
+      "id": "ex-free-sumimasen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Aufmerksamkeit erbitten",
+      "exercise": {
+        "id": "ex-free-sumimasen",
+        "type": "free_text",
+        "prompt": "Wie ruft man höflich die Bedienung ('Entschuldigung')?",
+        "card_ids": ["sumimasen"],
+        "accept": ["すみません", "sumimasen"],
+        "hint": "Beginnt mit す.",
+        "distractors": ["ください", "おいしい", "お会計"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-okaikei",
+      "type": "exercise",
+      "theory_ref": "step-bezahlen",
+      "title": "Nach der Rechnung fragen",
+      "exercise": {
+        "id": "ex-free-okaikei",
+        "type": "free_text",
+        "prompt": "Wie heißt 'die Rechnung' auf Japanisch?",
+        "card_ids": ["okaikei"],
+        "accept": ["お会計", "okaikei", "おかいけい"],
+        "hint": "Beginnt mit dem höflichen お.",
+        "distractors": ["メニュー", "水", "お茶"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-raamen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Satz bauen: Ramen bitte",
+      "exercise": {
+        "id": "ex-tiles-raamen",
+        "type": "word_tiles",
+        "prompt": "Baue den Satz 'Ramen bitte.' in der richtigen Reihenfolge.",
+        "card_ids": ["raamen", "kudasai"],
+        "tiles": ["ラーメン", "を", "ください"],
+        "hint": "Wunsch – を – ください.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-ocha",
+      "type": "exercise",
+      "theory_ref": "step-bezahlen",
+      "title": "Welches Wort bedeutet 'Tee'?",
+      "exercise": {
+        "id": "ex-pic-ocha",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet '(grüner) Tee'?",
+        "card_ids": ["ocha"],
+        "images": [
+          {"src": "assets/img/ocha.png", "label": "お茶", "is_correct": "true"},
+          {"src": "assets/img/mizu.png", "label": "水"},
+          {"src": "assets/img/raamen.png", "label": "ラーメン"},
+          {"src": "assets/img/menyuu.png", "label": "メニュー"}
+        ],
+        "hint": "Romaji: ocha.",
+        "distractors": ["水", "ラーメン", "メニュー"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

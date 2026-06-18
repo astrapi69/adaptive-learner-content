@@ -1,0 +1,232 @@
+{
+  "id": "03-zahlen-1-20",
+  "title": "Zahlen 1–20",
+  "description": "Die japanischen Zahlen von 1 bis 20 lesen, schreiben und zusammensetzen — auf Deutsch erklärt.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 11,
+  "cards": [
+    {
+      "id": "ichi",
+      "front": "一",
+      "back": "eins (1)",
+      "notes": "Romaji: ichi. Kontext: りんごを一つください。(ringo o hitotsu kudasai.) – Einen Apfel bitte. Zahl: 一 = 1.",
+      "difficulty": 1,
+      "tags": ["zahl"]
+    },
+    {
+      "id": "ni",
+      "front": "二",
+      "back": "zwei (2)",
+      "notes": "Romaji: ni. Kontext: 二時です。(ni-ji desu.) – Es ist zwei Uhr.",
+      "difficulty": 1,
+      "tags": ["zahl"]
+    },
+    {
+      "id": "san",
+      "front": "三",
+      "back": "drei (3)",
+      "notes": "Romaji: san. Kontext: 三人います。(san-nin imasu.) – Es sind drei Personen.",
+      "difficulty": 1,
+      "tags": ["zahl"]
+    },
+    {
+      "id": "yon",
+      "front": "四",
+      "back": "vier (4)",
+      "notes": "Romaji: yon (auch shi). Kontext: 四月です。(shi-gatsu desu.) – Es ist April (vierter Monat).",
+      "difficulty": 1,
+      "tags": ["zahl"]
+    },
+    {
+      "id": "go",
+      "front": "五",
+      "back": "fünf (5)",
+      "notes": "Romaji: go. Kontext: 五円です。(go-en desu.) – Es sind fünf Yen.",
+      "difficulty": 1,
+      "tags": ["zahl"]
+    },
+    {
+      "id": "roku",
+      "front": "六",
+      "back": "sechs (6)",
+      "notes": "Romaji: roku. Kontext: 六時に起きます。(roku-ji ni okimasu.) – Ich stehe um sechs Uhr auf.",
+      "difficulty": 1,
+      "tags": ["zahl"]
+    },
+    {
+      "id": "nana",
+      "front": "七",
+      "back": "sieben (7)",
+      "notes": "Romaji: nana (auch shichi). Kontext: 七日です。(nanoka desu.) – Es ist der siebte Tag.",
+      "difficulty": 1,
+      "tags": ["zahl"]
+    },
+    {
+      "id": "hachi",
+      "front": "八",
+      "back": "acht (8)",
+      "notes": "Romaji: hachi. Kontext: 八月は暑いです。(hachi-gatsu wa atsui desu.) – Der August ist heiß.",
+      "difficulty": 1,
+      "tags": ["zahl"]
+    },
+    {
+      "id": "kyuu",
+      "front": "九",
+      "back": "neun (9)",
+      "notes": "Romaji: kyuu (auch ku). Kontext: 九時です。(ku-ji desu.) – Es ist neun Uhr.",
+      "difficulty": 1,
+      "tags": ["zahl"]
+    },
+    {
+      "id": "juu",
+      "front": "十",
+      "back": "zehn (10)",
+      "notes": "Romaji: juu. Kontext: 十人います。(juu-nin imasu.) – Es sind zehn Personen.",
+      "difficulty": 1,
+      "tags": ["zahl"]
+    },
+    {
+      "id": "juuichi",
+      "front": "十一",
+      "back": "elf (11)",
+      "notes": "Romaji: juuichi. Kontext: 十一時です。(juuichi-ji desu.) – Es ist elf Uhr. 十 (10) + 一 (1).",
+      "difficulty": 2,
+      "tags": ["zahl"]
+    },
+    {
+      "id": "juugo",
+      "front": "十五",
+      "back": "fünfzehn (15)",
+      "notes": "Romaji: juugo. Kontext: 十五分です。(juugo-fun desu.) – Es sind fünfzehn Minuten. 十 (10) + 五 (5).",
+      "difficulty": 2,
+      "tags": ["zahl"]
+    },
+    {
+      "id": "nijuu",
+      "front": "二十",
+      "back": "zwanzig (20)",
+      "notes": "Romaji: nijuu. Kontext: 二十歳です。(hatachi desu.) – Ich bin zwanzig (Jahre). Zahl: 二 (2) × 十 (10) = 二十.",
+      "difficulty": 2,
+      "tags": ["zahl"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Zahlen 1–10",
+      "body": "# Japanische Zahlen 1–10\n\n| Ziffer | Kanji | Romaji |\n|---|---|---|\n| 1 | 一 | ichi |\n| 2 | 二 | ni |\n| 3 | 三 | san |\n| 4 | 四 | yon / shi |\n| 5 | 五 | go |\n| 6 | 六 | roku |\n| 7 | 七 | nana / shichi |\n| 8 | 八 | hachi |\n| 9 | 九 | kyuu / ku |\n| 10 | 十 | juu |\n\nFür 4, 7 und 9 gibt es je zwei Lesungen — im Alltag meist **yon, nana, kyuu**."
+    },
+    {
+      "id": "step-11-20",
+      "type": "theory",
+      "title": "Zahlen 11–20 zusammensetzen",
+      "body": "## Von 11 bis 20\n\nDie Zahlen 11–19 baust du als **十 (10) + Einer**:\n\n- **十一** = 10 + 1 = 11 (juuichi)\n- **十五** = 10 + 5 = 15 (juugo)\n- **十九** = 10 + 9 = 19 (juukyuu)\n\nZwanzig ist **二十** = 2 × 10 (nijuu).\n\n> Das Prinzip ist sehr regelmäßig: einfach Zehner und Einer aneinanderreihen."
+    },
+    {
+      "id": "ex-match-zahlen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zahlen zuordnen",
+      "exercise": {
+        "id": "ex-match-zahlen",
+        "type": "matching",
+        "prompt": "Ordne jedem Kanji die Zahl zu.",
+        "card_ids": ["ichi", "san", "go", "juu"],
+        "pairs": [
+          {"left": "一", "right": "eins (1)"},
+          {"left": "三", "right": "drei (3)"},
+          {"left": "五", "right": "fünf (5)"},
+          {"left": "十", "right": "zehn (10)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-nana",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Sieben schreiben",
+      "exercise": {
+        "id": "ex-free-nana",
+        "type": "free_text",
+        "prompt": "Schreibe die Zahl 'sieben' (Kanji oder Romaji).",
+        "card_ids": ["nana"],
+        "accept": ["七", "nana", "shichi"],
+        "hint": "Romaji: nana.",
+        "distractors": ["八", "九", "六"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-juu",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zehn schreiben",
+      "exercise": {
+        "id": "ex-free-juu",
+        "type": "free_text",
+        "prompt": "Schreibe die Zahl 'zehn' (Kanji oder Romaji).",
+        "card_ids": ["juu"],
+        "accept": ["十", "juu", "juː"],
+        "hint": "Ein einziger Strich-Kreuz-Kanji.",
+        "distractors": ["一", "二十", "六"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-juuichi",
+      "type": "exercise",
+      "theory_ref": "step-11-20",
+      "title": "Lücke: 11 zusammensetzen",
+      "exercise": {
+        "id": "ex-cloze-juuichi",
+        "type": "cloze",
+        "prompt": "Ergänze den Einer, sodass 11 entsteht (10 + ?).",
+        "card_ids": ["juuichi", "ichi"],
+        "sentence": "十___ = 11",
+        "blanks": [{"accept": ["一", "ichi"]}],
+        "cloze_mode": "type",
+        "hint": "10 + 1 = 11."
+      }
+    },
+    {
+      "id": "ex-tiles-nijuu",
+      "type": "exercise",
+      "theory_ref": "step-11-20",
+      "title": "20 zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-nijuu",
+        "type": "word_tiles",
+        "prompt": "Setze die Kanji so zusammen, dass 20 entsteht.",
+        "card_ids": ["nijuu", "ni", "juu"],
+        "tiles": ["二", "十"],
+        "hint": "2 × 10.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-go",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Welches Kanji ist 'fünf'?",
+      "exercise": {
+        "id": "ex-pic-go",
+        "type": "picture_choice",
+        "prompt": "Welches Kanji bedeutet 'fünf' (5)?",
+        "card_ids": ["go"],
+        "images": [
+          {"src": "assets/img/go.png", "label": "五", "is_correct": "true"},
+          {"src": "assets/img/san.png", "label": "三"},
+          {"src": "assets/img/hachi.png", "label": "八"},
+          {"src": "assets/img/juu.png", "label": "十"}
+        ],
+        "hint": "Romaji: go.",
+        "distractors": ["三", "八", "十"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

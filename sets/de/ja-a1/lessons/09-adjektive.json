@@ -1,0 +1,228 @@
+{
+  "id": "09-adjektive",
+  "title": "Adjektive",
+  "description": "Häufige i-Adjektive und ihre Gegensätze: groß/klein, neu/alt, teuer/billig, heiß/kalt — auf Deutsch erklärt.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "ookii",
+      "front": "大きい",
+      "back": "groß",
+      "notes": "Romaji: ookii. Kontext: 大きい犬です。(ookii inu desu.) – Es ist ein großer Hund.",
+      "difficulty": 1,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "chiisai",
+      "front": "小さい",
+      "back": "klein",
+      "notes": "Romaji: chiisai. Kontext: 小さい部屋です。(chiisai heya desu.) – Es ist ein kleines Zimmer.",
+      "difficulty": 1,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "atarashii",
+      "front": "新しい",
+      "back": "neu",
+      "notes": "Romaji: atarashii. Kontext: 新しい車を買いました。(atarashii kuruma o kaimashita.) – Ich habe ein neues Auto gekauft.",
+      "difficulty": 2,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "furui",
+      "front": "古い",
+      "back": "alt (von Dingen)",
+      "notes": "Romaji: furui. Kontext: この本は古いです。(kono hon wa furui desu.) – Dieses Buch ist alt.",
+      "difficulty": 2,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "takai-adj",
+      "front": "高い",
+      "back": "teuer / hoch",
+      "notes": "Romaji: takai. Kontext: この時計は高いです。(kono tokei wa takai desu.) – Diese Uhr ist teuer.",
+      "difficulty": 1,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "yasui-adj",
+      "front": "安い",
+      "back": "billig / günstig",
+      "notes": "Romaji: yasui. Kontext: この店は安いです。(kono mise wa yasui desu.) – Dieser Laden ist günstig.",
+      "difficulty": 1,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "atsui",
+      "front": "暑い",
+      "back": "heiß (Wetter)",
+      "notes": "Romaji: atsui. Kontext: 今日は暑いです。(kyou wa atsui desu.) – Heute ist es heiß.",
+      "difficulty": 2,
+      "tags": ["adjektiv", "wetter"]
+    },
+    {
+      "id": "samui",
+      "front": "寒い",
+      "back": "kalt (Wetter)",
+      "notes": "Romaji: samui. Kontext: 冬は寒いです。(fuyu wa samui desu.) – Im Winter ist es kalt.",
+      "difficulty": 2,
+      "tags": ["adjektiv", "wetter"]
+    },
+    {
+      "id": "ii",
+      "front": "いい",
+      "back": "gut",
+      "notes": "Romaji: ii. Kontext: いい天気ですね。(ii tenki desu ne.) – Schönes Wetter, nicht wahr?",
+      "difficulty": 1,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "warui",
+      "front": "悪い",
+      "back": "schlecht",
+      "notes": "Romaji: warui. Kontext: 天気が悪いです。(tenki ga warui desu.) – Das Wetter ist schlecht.",
+      "difficulty": 1,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "muzukashii",
+      "front": "難しい",
+      "back": "schwierig",
+      "notes": "Romaji: muzukashii. Kontext: 日本語は難しいです。(nihongo wa muzukashii desu.) – Japanisch ist schwierig.",
+      "difficulty": 2,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "yasashii",
+      "front": "やさしい",
+      "back": "einfach / freundlich",
+      "notes": "Romaji: yasashii. Kontext: このテストはやさしいです。(kono tesuto wa yasashii desu.) – Dieser Test ist einfach.",
+      "difficulty": 2,
+      "tags": ["adjektiv"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "i-Adjektive verwenden",
+      "body": "# Adjektive\n\nViele japanische Adjektive enden auf **い** (i) — man nennt sie *i-Adjektive*.\n\nSie stehen **direkt vor dem Nomen** oder **vor です** als Aussage:\n\n- **大きい犬** (ookii inu) — *ein großer Hund*\n- **この犬は大きいです。** (kono inu wa ookii desu.) — *Dieser Hund ist groß.*\n\nDas い bleibt erhalten, auch vor です."
+    },
+    {
+      "id": "step-gegensaetze",
+      "type": "theory",
+      "title": "Gegensatzpaare",
+      "body": "## Wichtige Gegensätze\n\n| Adjektiv | | Gegenteil |\n|---|---|---|\n| 大きい (ookii) groß | ↔ | 小さい (chiisai) klein |\n| 新しい (atarashii) neu | ↔ | 古い (furui) alt |\n| 高い (takai) teuer | ↔ | 安い (yasui) billig |\n| 暑い (atsui) heiß | ↔ | 寒い (samui) kalt |\n\n暑い/寒い beschreiben das **Wetter**. **いい** (ii) heißt *gut*."
+    },
+    {
+      "id": "ex-match-adjektive",
+      "type": "exercise",
+      "theory_ref": "step-gegensaetze",
+      "title": "Adjektive zuordnen",
+      "exercise": {
+        "id": "ex-match-adjektive",
+        "type": "matching",
+        "prompt": "Ordne jedem Adjektiv die deutsche Bedeutung zu.",
+        "card_ids": ["ookii", "chiisai", "atarashii", "furui"],
+        "pairs": [
+          {"left": "大きい", "right": "groß"},
+          {"left": "小さい", "right": "klein"},
+          {"left": "新しい", "right": "neu"},
+          {"left": "古い", "right": "alt"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-gegensatz",
+      "type": "exercise",
+      "theory_ref": "step-gegensaetze",
+      "title": "Gegensätze zuordnen",
+      "exercise": {
+        "id": "ex-match-gegensatz",
+        "type": "matching",
+        "prompt": "Ordne jedem Adjektiv sein Gegenteil zu.",
+        "card_ids": ["atsui", "samui", "takai-adj", "yasui-adj"],
+        "pairs": [
+          {"left": "暑い", "right": "Gegenteil von 寒い (kalt)"},
+          {"left": "寒い", "right": "Gegenteil von 暑い (heiß)"},
+          {"left": "高い", "right": "Gegenteil von 安い (billig)"},
+          {"left": "安い", "right": "Gegenteil von 高い (teuer)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-chiisai",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Klein sagen",
+      "exercise": {
+        "id": "ex-free-chiisai",
+        "type": "free_text",
+        "prompt": "Wie heißt 'klein' auf Japanisch?",
+        "card_ids": ["chiisai"],
+        "accept": ["小さい", "chiisai", "ちいさい"],
+        "hint": "Gegenteil von 大きい (groß).",
+        "distractors": ["大きい", "新しい", "古い"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-atsui",
+      "type": "exercise",
+      "theory_ref": "step-gegensaetze",
+      "title": "Heiß sagen",
+      "exercise": {
+        "id": "ex-free-atsui",
+        "type": "free_text",
+        "prompt": "Wie heißt 'heiß' (Wetter) auf Japanisch?",
+        "card_ids": ["atsui"],
+        "accept": ["暑い", "atsui", "あつい"],
+        "hint": "Romaji: atsui.",
+        "distractors": ["寒い", "高い", "いい"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-ookii",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke: ein großer Hund",
+      "exercise": {
+        "id": "ex-cloze-ookii",
+        "type": "cloze",
+        "prompt": "Ergänze das Adjektiv 'groß' vor dem Nomen.",
+        "card_ids": ["ookii"],
+        "sentence": "___犬です。",
+        "blanks": [{"accept": ["大きい", "ookii", "おおきい"]}],
+        "cloze_mode": "type",
+        "hint": "Romaji: ookii."
+      }
+    },
+    {
+      "id": "ex-pic-samui",
+      "type": "exercise",
+      "theory_ref": "step-gegensaetze",
+      "title": "Welches Wort bedeutet 'kalt'?",
+      "exercise": {
+        "id": "ex-pic-samui",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'kalt' (Wetter)?",
+        "card_ids": ["samui"],
+        "images": [
+          {"src": "assets/img/samui.png", "label": "寒い", "is_correct": "true"},
+          {"src": "assets/img/atsui.png", "label": "暑い"},
+          {"src": "assets/img/ookii.png", "label": "大きい"},
+          {"src": "assets/img/ii.png", "label": "いい"}
+        ],
+        "hint": "Gegenteil von 暑い (heiß).",
+        "distractors": ["暑い", "大きい", "いい"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

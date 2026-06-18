@@ -1,0 +1,232 @@
+{
+  "id": "06-uhrzeit-und-tage",
+  "title": "Uhrzeit und Tage",
+  "description": "Nach der Uhrzeit fragen, Uhrzeiten nennen und die Wochentage lernen — auf Deutsch erklärt.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "nanji",
+      "front": "何時",
+      "back": "Wie spät? / Welche Uhrzeit?",
+      "notes": "Romaji: nanji. Kontext: 今、何時ですか。(ima, nanji desu ka.) – Wie spät ist es jetzt?",
+      "difficulty": 2,
+      "tags": ["uhrzeit", "frage"]
+    },
+    {
+      "id": "ji",
+      "front": "時",
+      "back": "Uhr (Stundenzähler)",
+      "notes": "Romaji: ji. Kontext: 三時です。(san-ji desu.) – Es ist drei Uhr. 時 hängt man an die Zahl.",
+      "difficulty": 1,
+      "tags": ["uhrzeit"]
+    },
+    {
+      "id": "ima",
+      "front": "今",
+      "back": "jetzt",
+      "notes": "Romaji: ima. Kontext: 今、勉強します。(ima, benkyou shimasu.) – Ich lerne jetzt.",
+      "difficulty": 1,
+      "tags": ["uhrzeit", "zeit"]
+    },
+    {
+      "id": "getsuyoubi",
+      "front": "月曜日",
+      "back": "Montag",
+      "notes": "Romaji: getsuyoubi. Kontext: 月曜日に会いましょう。(getsuyoubi ni aimashou.) – Treffen wir uns am Montag. 月 = Mond.",
+      "difficulty": 2,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "kayoubi",
+      "front": "火曜日",
+      "back": "Dienstag",
+      "notes": "Romaji: kayoubi. Kontext: 火曜日は休みです。(kayoubi wa yasumi desu.) – Am Dienstag ist frei. 火 = Feuer.",
+      "difficulty": 2,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "suiyoubi",
+      "front": "水曜日",
+      "back": "Mittwoch",
+      "notes": "Romaji: suiyoubi. Kontext: 水曜日に映画を見ます。(suiyoubi ni eiga o mimasu.) – Am Mittwoch sehe ich einen Film. 水 = Wasser.",
+      "difficulty": 2,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "doyoubi",
+      "front": "土曜日",
+      "back": "Samstag",
+      "notes": "Romaji: doyoubi. Kontext: 土曜日は忙しいです。(doyoubi wa isogashii desu.) – Am Samstag bin ich beschäftigt. 土 = Erde.",
+      "difficulty": 2,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "nichiyoubi",
+      "front": "日曜日",
+      "back": "Sonntag",
+      "notes": "Romaji: nichiyoubi. Kontext: 日曜日に休みます。(nichiyoubi ni yasumimasu.) – Am Sonntag ruhe ich mich aus. 日 = Sonne.",
+      "difficulty": 2,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "kyou",
+      "front": "今日",
+      "back": "heute",
+      "notes": "Romaji: kyou. Kontext: 今日は月曜日です。(kyou wa getsuyoubi desu.) – Heute ist Montag.",
+      "difficulty": 1,
+      "tags": ["zeit"]
+    },
+    {
+      "id": "ashita",
+      "front": "明日",
+      "back": "morgen",
+      "notes": "Romaji: ashita. Kontext: 明日、東京へ行きます。(ashita, toukyou e ikimasu.) – Morgen fahre ich nach Tokio.",
+      "difficulty": 1,
+      "tags": ["zeit"]
+    },
+    {
+      "id": "mokuyoubi",
+      "front": "木曜日",
+      "back": "Donnerstag",
+      "notes": "Romaji: mokuyoubi. Kontext: 木曜日に会議があります。(mokuyoubi ni kaigi ga arimasu.) – Am Donnerstag ist eine Besprechung. 木 = Baum.",
+      "difficulty": 2,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "kinyoubi",
+      "front": "金曜日",
+      "back": "Freitag",
+      "notes": "Romaji: kinyoubi. Kontext: 金曜日は楽しいです。(kinyoubi wa tanoshii desu.) – Der Freitag macht Spaß. 金 = Gold.",
+      "difficulty": 2,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "fun",
+      "front": "分",
+      "back": "Minute(n) (Zähler)",
+      "notes": "Romaji: fun/pun. Kontext: 十五分です。(juugo-fun desu.) – Es sind fünfzehn Minuten.",
+      "difficulty": 2,
+      "tags": ["uhrzeit"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Nach der Uhrzeit fragen",
+      "body": "# Uhrzeit\n\nDie Uhrzeit bildest du mit **Zahl + 時 (ji)** = *… Uhr*:\n\n- **三時** (san-ji) — *drei Uhr*\n- **九時** (ku-ji) — *neun Uhr*\n\nNach der Uhrzeit fragst du mit **何時** (nanji) = *wie spät*:\n\n> **今、何時ですか。** (ima, nanji desu ka.) — *Wie spät ist es jetzt?*\n\n**今** (ima) bedeutet *jetzt*."
+    },
+    {
+      "id": "step-wochentage",
+      "type": "theory",
+      "title": "Die Wochentage",
+      "body": "## Wochentage\n\nAlle enden auf **曜日** (youbi):\n\n| Tag | Kanji | Romaji |\n|---|---|---|\n| Montag | 月曜日 | getsuyoubi |\n| Dienstag | 火曜日 | kayoubi |\n| Mittwoch | 水曜日 | suiyoubi |\n| Samstag | 土曜日 | doyoubi |\n| Sonntag | 日曜日 | nichiyoubi |\n\nMerkhilfe: **月** = Mond, **火** = Feuer, **水** = Wasser …\n\n**今日** (kyou) = *heute*, **明日** (ashita) = *morgen*."
+    },
+    {
+      "id": "ex-match-wochentage",
+      "type": "exercise",
+      "theory_ref": "step-wochentage",
+      "title": "Wochentage zuordnen",
+      "exercise": {
+        "id": "ex-match-wochentage",
+        "type": "matching",
+        "prompt": "Ordne jedem japanischen Wochentag die deutsche Bedeutung zu.",
+        "card_ids": ["getsuyoubi", "suiyoubi", "doyoubi", "nichiyoubi"],
+        "pairs": [
+          {"left": "月曜日", "right": "Montag"},
+          {"left": "水曜日", "right": "Mittwoch"},
+          {"left": "土曜日", "right": "Samstag"},
+          {"left": "日曜日", "right": "Sonntag"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-nanji",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke: Wie spät ist es?",
+      "exercise": {
+        "id": "ex-cloze-nanji",
+        "type": "cloze",
+        "prompt": "Ergänze das Fragewort für 'wie spät'.",
+        "card_ids": ["nanji", "ima"],
+        "sentence": "今、___ですか。",
+        "blanks": [{"accept": ["何時", "nanji", "なんじ"]}],
+        "cloze_mode": "type",
+        "hint": "Romaji: nanji."
+      }
+    },
+    {
+      "id": "ex-free-kyou",
+      "type": "exercise",
+      "theory_ref": "step-wochentage",
+      "title": "Heute sagen",
+      "exercise": {
+        "id": "ex-free-kyou",
+        "type": "free_text",
+        "prompt": "Wie heißt 'heute' auf Japanisch?",
+        "card_ids": ["kyou"],
+        "accept": ["今日", "kyou", "きょう"],
+        "hint": "Enthält das Kanji 日 (Tag).",
+        "distractors": ["明日", "今", "月曜日"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ashita",
+      "type": "exercise",
+      "theory_ref": "step-wochentage",
+      "title": "Morgen sagen",
+      "exercise": {
+        "id": "ex-free-ashita",
+        "type": "free_text",
+        "prompt": "Wie heißt 'morgen' (der nächste Tag) auf Japanisch?",
+        "card_ids": ["ashita"],
+        "accept": ["明日", "ashita", "あした"],
+        "hint": "Romaji: ashita.",
+        "distractors": ["今日", "今", "日曜日"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-sanji",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Satz bauen: Es ist drei Uhr",
+      "exercise": {
+        "id": "ex-tiles-sanji",
+        "type": "word_tiles",
+        "prompt": "Baue den Satz 'Es ist drei Uhr.' in der richtigen Reihenfolge.",
+        "card_ids": ["ji", "nanji"],
+        "tiles": ["三", "時", "です"],
+        "hint": "Zahl – 時 – です.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-nichiyoubi",
+      "type": "exercise",
+      "theory_ref": "step-wochentage",
+      "title": "Welches Wort bedeutet 'Sonntag'?",
+      "exercise": {
+        "id": "ex-pic-nichiyoubi",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'Sonntag'?",
+        "card_ids": ["nichiyoubi"],
+        "images": [
+          {"src": "assets/img/nichiyoubi.png", "label": "日曜日", "is_correct": "true"},
+          {"src": "assets/img/getsuyoubi.png", "label": "月曜日"},
+          {"src": "assets/img/kayoubi.png", "label": "火曜日"},
+          {"src": "assets/img/doyoubi.png", "label": "土曜日"}
+        ],
+        "hint": "Beginnt mit 日 (Sonne/Tag).",
+        "distractors": ["月曜日", "火曜日", "土曜日"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
