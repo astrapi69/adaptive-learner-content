@@ -1,0 +1,265 @@
+{
+  "id": "110-synaptische-plastizitaet-und-langzeitpotenzierung",
+  "title": "Synaptische Plastizität — Langzeitpotenzierung und die Hebbsche Regel",
+  "description": "Die zelluläre Grundlage des Lernens: synaptische Plastizität, die Hebbsche Regel, Langzeitpotenzierung (LTP) und Langzeitdepression (LTD), die Rolle des NMDA-Rezeptors und des Hippocampus sowie der Bezug zur Gedächtniskonsolidierung — auf Deutsch erklärt. Vertieft die biologischen Grundlagen aus den Lektionen 13 und 37 mit einem völlig neuen, zellulären Fokus.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "synaptische-plastizitaet",
+      "front": "Synaptische Plastizität (Synaptic Plasticity)",
+      "back": "Die Fähigkeit von Synapsen, ihre Übertragungsstärke aufgrund von Aktivität dauerhaft zu verändern. Sie gilt als zelluläre Grundlage von Lernen und Gedächtnis.",
+      "notes": "Plastizität heißt: Verbindungen werden je nach Gebrauch stärker oder schwächer.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Synapsen passen ihre Stärke je nach Aktivität an.",
+      "tags": ["plastizitaet", "lernen", "biopsychologie"]
+    },
+    {
+      "id": "hebbsche-regel",
+      "front": "Hebbsche Regel (Hebb's Rule)",
+      "back": "Donald Hebb (1949): Feuert ein Neuron wiederholt kurz vor einem zweiten und trägt so zu dessen Erregung bei, wird die Verbindung zwischen beiden verstärkt.",
+      "notes": "Griffige Merkformel: 'Cells that fire together, wire together' — Zellen, die gemeinsam feuern, verschalten sich.",
+      "media_type": "text",
+      "difficulty": 3,
+      "hint": "Fire together, wire together.",
+      "tags": ["hebb", "plastizitaet", "lernen"]
+    },
+    {
+      "id": "langzeitpotenzierung",
+      "front": "Langzeitpotenzierung (Long-Term Potentiation, LTP)",
+      "back": "Eine langanhaltende Verstärkung der synaptischen Übertragung nach hochfrequenter Reizung. Sie gilt als wichtigster zellulärer Mechanismus für die Bildung neuer Gedächtnisspuren.",
+      "notes": "Erstmals von Bliss & Lømo (1973) im Hippocampus nachgewiesen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "hint": "Die Synapse wird nach starker Reizung langfristig 'lauter'.",
+      "tags": ["ltp", "plastizitaet", "gedaechtnis"]
+    },
+    {
+      "id": "langzeitdepression",
+      "front": "Langzeitdepression (Long-Term Depression, LTD)",
+      "back": "Eine langanhaltende Abschwächung der synaptischen Übertragung nach schwacher oder niederfrequenter Aktivität. Sie ist das Gegenstück zur LTP.",
+      "notes": "Hat nichts mit der Stimmungsstörung Depression zu tun. LTP und LTD zusammen erlauben Feinabstimmung der Verbindungen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["ltd", "plastizitaet", "gedaechtnis"]
+    },
+    {
+      "id": "nmda-rezeptor",
+      "front": "NMDA-Rezeptor (NMDA Receptor)",
+      "back": "Ein Glutamat-Rezeptor, der nur öffnet, wenn die Synapse gleichzeitig Glutamat empfängt und die Zelle bereits depolarisiert ist. Diese 'Koinzidenzdetektion' macht ihn zentral für die LTP.",
+      "notes": "Er funktioniert wie ein UND-Gatter: Es müssen zwei Bedingungen zugleich erfüllt sein, damit Calcium einströmt.",
+      "media_type": "text",
+      "difficulty": 5,
+      "hint": "Koinzidenzdetektor: zwei Bedingungen müssen zugleich erfüllt sein.",
+      "tags": ["nmda", "rezeptor", "ltp"]
+    },
+    {
+      "id": "glutamat-erregend",
+      "front": "Glutamat als erregender Botenstoff",
+      "back": "Glutamat ist der wichtigste erregende Neurotransmitter des ZNS und der Hauptbotenstoff bei der LTP, indem es u. a. AMPA- und NMDA-Rezeptoren aktiviert.",
+      "notes": "Bezug Lektion 37: Dort als erregender Botenstoff eingeführt — hier seine Rolle beim Lernen.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["glutamat", "ltp", "neurotransmitter"]
+    },
+    {
+      "id": "calcium-einstrom",
+      "front": "Calcium-Einstrom (Calcium Influx)",
+      "back": "Bei aktiviertem NMDA-Rezeptor strömt Calcium in die postsynaptische Zelle. Dieser Calcium-Anstieg löst die molekularen Veränderungen aus, die die Synapse dauerhaft stärken.",
+      "notes": "Folge u. a.: mehr AMPA-Rezeptoren in der Membran -> die Synapse reagiert stärker auf Glutamat.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["calcium", "ltp", "molekular"]
+    },
+    {
+      "id": "hippocampus-ltp",
+      "front": "Hippocampus und LTP",
+      "back": "Der Hippocampus ist eine zentrale Struktur für die Bildung neuer deklarativer Gedächtnisinhalte und der klassische Ort, an dem LTP erstmals und am besten untersucht wurde.",
+      "notes": "Bezug Lektion 13: Der Hippocampus überführt Inhalte ins Langzeitgedächtnis.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["hippocampus", "ltp", "gedaechtnis"]
+    },
+    {
+      "id": "konsolidierung-synaptisch",
+      "front": "Synaptische Konsolidierung (Synaptic Consolidation)",
+      "back": "Der Prozess, durch den eine frisch gebildete, noch labile Gedächtnisspur in den ersten Stunden durch dauerhafte synaptische Veränderungen (u. a. Proteinsynthese) stabilisiert wird.",
+      "notes": "Erfordert die Bildung neuer Proteine; wird dies blockiert, bleibt die LTP nur kurzlebig.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["konsolidierung", "gedaechtnis", "plastizitaet"]
+    },
+    {
+      "id": "engramm",
+      "front": "Engramm (Engram)",
+      "back": "Die physische Gedächtnisspur im Gehirn — das Muster veränderter Synapsen und Zellverbände, in dem eine bestimmte Erinnerung gespeichert ist.",
+      "notes": "Begriff von Richard Semon; Karl Lashley suchte das Engramm lange erfolglos an einem einzelnen Ort.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["engramm", "gedaechtnis", "plastizitaet"]
+    },
+    {
+      "id": "neuronaler-zellverband",
+      "front": "Neuronaler Zellverband (Cell Assembly)",
+      "back": "Nach Hebb eine Gruppe von Neuronen, die durch gemeinsames, wiederholtes Feuern fest miteinander verschaltet wird und so gemeinsam eine Repräsentation (z. B. einen Begriff) kodiert.",
+      "notes": "Wird ein Teil des Verbands aktiviert, neigt der ganze Verband dazu, mitzufeuern.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["zellverband", "hebb", "plastizitaet"]
+    },
+    {
+      "id": "ampa-rezeptor",
+      "front": "AMPA-Rezeptor (AMPA Receptor)",
+      "back": "Ein schneller Glutamat-Rezeptor, der für die normale erregende Übertragung sorgt. Bei der LTP werden zusätzliche AMPA-Rezeptoren in die Membran eingebaut, wodurch die Synapse stärker reagiert.",
+      "notes": "Mehr AMPA-Rezeptoren = die Synapse wird 'lauter'. Arbeitet mit dem NMDA-Rezeptor zusammen.",
+      "media_type": "text",
+      "difficulty": 5,
+      "tags": ["ampa", "rezeptor", "ltp"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "theory-hebb-plastizitaet",
+      "type": "theory",
+      "title": "Plastizität und die Hebbsche Regel",
+      "body": "# Synaptische Plastizität\n\n> Diese Lektion vertieft die biologischen Grundlagen aus **Lektion 13** (Neuron, Synapse) und **Lektion 37** (Neurotransmitter) mit einem neuen, **zellulären** Blick: *Wie verändert Lernen das Gehirn auf der Ebene einzelner Synapsen?*\n\n## Synaptische Plastizität\n\nSynapsen sind nicht starr: Sie können ihre **Übertragungsstärke** aufgrund von Aktivität dauerhaft verändern. Diese **synaptische Plastizität** gilt als die zelluläre Grundlage von Lernen und Gedächtnis.\n\n## Die Hebbsche Regel (1949)\n\n**Donald Hebb** formulierte das Grundprinzip:\n\n> Feuert Neuron A wiederholt kurz vor Neuron B und trägt zu dessen Erregung bei, wird die Verbindung A→B verstärkt.\n\nDie griffige Merkformel lautet: **\"Cells that fire together, wire together.\"** Aus gemeinsam feuernden Zellen entstehen feste **neuronale Zellverbände**, die zusammen eine Repräsentation kodieren."
+    },
+    {
+      "id": "theory-ltp-mechanismus",
+      "type": "theory",
+      "title": "Langzeitpotenzierung im Detail",
+      "body": "## Langzeitpotenzierung (LTP)\n\nDas zelluläre Korrelat der Hebbschen Regel ist die **Langzeitpotenzierung (LTP)**: Nach **hochfrequenter Reizung** wird eine Synapse langanhaltend stärker. Bliss & Lømo wiesen sie 1973 im **Hippocampus** nach.\n\n### Der molekulare Ablauf (vereinfacht)\n\n1. **Glutamat** wird ausgeschüttet und aktiviert AMPA- und NMDA-Rezeptoren.\n2. Der **NMDA-Rezeptor** öffnet nur, wenn *gleichzeitig* Glutamat anliegt **und** die Zelle bereits depolarisiert ist — er ist ein **Koinzidenzdetektor** (UND-Gatter).\n3. Dann strömt **Calcium** in die Zelle und löst die Verstärkung aus.\n4. Folge: mehr **AMPA-Rezeptoren** in der Membran — die Synapse wird dauerhaft 'lauter'.\n\n| Mechanismus | Wirkung |\n|---|---|\n| **LTP** | langanhaltende Verstärkung (hochfrequente Reizung) |\n| **LTD** | langanhaltende Abschwächung (niederfrequente Aktivität) |\n\n## Vom Mechanismus zum Gedächtnis\n\nDamit eine frische Spur dauerhaft wird, braucht es **synaptische Konsolidierung** (u. a. Proteinsynthese). Das stabile Muster veränderter Synapsen heißt **Engramm** — die physische Gedächtnisspur."
+    },
+    {
+      "id": "ex-free-hebb",
+      "type": "exercise",
+      "theory_ref": "theory-hebb-plastizitaet",
+      "title": "Hebbs Merkformel",
+      "exercise": {
+        "id": "ex-free-hebb",
+        "type": "free_text",
+        "prompt": "Wie heißt die Regel (Hebb, 1949), die besagt, dass gemeinsam feuernde Neurone ihre Verbindung verstärken?",
+        "card_ids": ["hebbsche-regel"],
+        "accept": ["Hebbsche Regel", "hebbsche Regel", "Hebb-Regel", "Hebbsches Lernen", "Hebbsche Lernregel", "Hebbs Regel"],
+        "hint": "Benannt nach Donald Hebb. 'Fire together, wire together.'",
+        "distractors": ["Langzeitdepression", "Hebbsche Synapse allein", "Koinzidenzdetektion"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-ltp-begriffe",
+      "type": "exercise",
+      "theory_ref": "theory-ltp-mechanismus",
+      "title": "Bausteine der LTP",
+      "exercise": {
+        "id": "ex-match-ltp-begriffe",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine Rolle bei der Langzeitpotenzierung zu.",
+        "card_ids": ["glutamat-erregend", "nmda-rezeptor", "calcium-einstrom", "ampa-rezeptor"],
+        "pairs": [
+          { "left": "Glutamat", "right": "erregender Botenstoff, der die Rezeptoren aktiviert" },
+          { "left": "NMDA-Rezeptor", "right": "Koinzidenzdetektor, öffnet nur bei zwei Bedingungen zugleich" },
+          { "left": "Calcium-Einstrom", "right": "löst die molekulare Verstärkung der Synapse aus" },
+          { "left": "AMPA-Rezeptor", "right": "wird vermehrt eingebaut, die Synapse wird 'lauter'" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-ltp-ltd",
+      "type": "exercise",
+      "theory_ref": "theory-ltp-mechanismus",
+      "title": "LTP vs. LTD",
+      "exercise": {
+        "id": "ex-cloze-ltp-ltd",
+        "type": "cloze",
+        "prompt": "Ergänze das Gegenstück zur Langzeitpotenzierung.",
+        "card_ids": ["langzeitpotenzierung", "langzeitdepression"],
+        "sentence": "Während die Langzeitpotenzierung eine Synapse verstärkt, schwächt die Langzeit___ sie ab.",
+        "blanks": [
+          { "accept": ["depression", "Depression"] }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englisch: long-term depression (LTD) — hat nichts mit der Stimmungsstörung zu tun."
+      }
+    },
+    {
+      "id": "ex-free-ltp",
+      "type": "exercise",
+      "theory_ref": "theory-ltp-mechanismus",
+      "title": "Der Kernmechanismus des Lernens",
+      "exercise": {
+        "id": "ex-free-ltp",
+        "type": "free_text",
+        "prompt": "Wie heißt die langanhaltende Verstärkung der synaptischen Übertragung nach hochfrequenter Reizung, die als zellulärer Hauptmechanismus des Gedächtnisses gilt?",
+        "card_ids": ["langzeitpotenzierung"],
+        "accept": ["Langzeitpotenzierung", "langzeitpotenzierung", "LTP", "Long-Term Potentiation", "long-term potentiation"],
+        "hint": "Abkürzung: LTP. Erstmals im Hippocampus nachgewiesen.",
+        "distractors": ["Langzeitdepression", "Hebbsche Regel", "synaptische Konsolidierung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-hebb-formel",
+      "type": "exercise",
+      "theory_ref": "theory-hebb-plastizitaet",
+      "title": "Hebbs Prinzip auf Deutsch",
+      "exercise": {
+        "id": "ex-tiles-hebb-formel",
+        "type": "word_tiles",
+        "prompt": "Setze die deutsche Fassung von Hebbs Merkformel zusammen.",
+        "card_ids": ["hebbsche-regel", "neuronaler-zellverband"],
+        "tiles": ["Zellen", "die", "gemeinsam", "feuern", "verschalten", "sich"],
+        "hint": "Entspricht 'cells that fire together, wire together'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-gedaechtnis-konzepte",
+      "type": "exercise",
+      "theory_ref": "theory-ltp-mechanismus",
+      "title": "Vom Mechanismus zur Erinnerung",
+      "exercise": {
+        "id": "ex-match-gedaechtnis-konzepte",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die passende Erklärung zu.",
+        "card_ids": ["synaptische-plastizitaet", "konsolidierung-synaptisch", "engramm", "hippocampus-ltp"],
+        "pairs": [
+          { "left": "Synaptische Plastizität", "right": "Synapsen verändern ihre Stärke aufgrund von Aktivität" },
+          { "left": "Synaptische Konsolidierung", "right": "Stabilisierung der frischen Spur, u. a. durch Proteinsynthese" },
+          { "left": "Engramm", "right": "die physische Gedächtnisspur im Gehirn" },
+          { "left": "Hippocampus", "right": "klassischer Ort des LTP-Nachweises" }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-nmda",
+      "type": "exercise",
+      "theory_ref": "theory-ltp-mechanismus",
+      "title": "Was macht den NMDA-Rezeptor besonders?",
+      "exercise": {
+        "id": "ex-pick-nmda",
+        "type": "picture_choice",
+        "prompt": "Welche Aussage beschreibt die Besonderheit des NMDA-Rezeptors korrekt?",
+        "card_ids": ["nmda-rezeptor", "calcium-einstrom"],
+        "images": [
+          { "src": "assets/img/nmda-koinzidenz.png", "label": "Er öffnet nur, wenn gleichzeitig Glutamat anliegt und die Zelle bereits depolarisiert ist.", "is_correct": "true" },
+          { "src": "assets/img/nmda-immer.png", "label": "Er ist ständig geöffnet und lässt Calcium frei strömen." },
+          { "src": "assets/img/nmda-hemmend.png", "label": "Er ist der wichtigste hemmende Rezeptor des Gehirns." },
+          { "src": "assets/img/nmda-dopamin.png", "label": "Er wird ausschließlich durch Dopamin aktiviert." }
+        ],
+        "hint": "Der NMDA-Rezeptor ist ein Koinzidenzdetektor — er braucht zwei Bedingungen zugleich.",
+        "distractors": [
+          "Er ist ständig geöffnet und lässt Calcium frei strömen.",
+          "Er ist der wichtigste hemmende Rezeptor des Gehirns.",
+          "Er wird ausschließlich durch Dopamin aktiviert."
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
