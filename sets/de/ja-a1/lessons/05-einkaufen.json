@@ -1,0 +1,224 @@
+{
+  "id": "05-einkaufen",
+  "title": "Einkaufen",
+  "description": "Einkaufen auf Japanisch: nach dem Preis fragen, auf Dinge zeigen und teuer/billig unterscheiden — auf Deutsch erklärt.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "ikura",
+      "front": "いくら",
+      "back": "wie viel (Preis)",
+      "notes": "Romaji: ikura. Kontext: これはいくらですか。(kore wa ikura desu ka.) – Wie viel kostet das?",
+      "difficulty": 1,
+      "tags": ["einkaufen", "frage"]
+    },
+    {
+      "id": "ikura-desu-ka",
+      "front": "いくらですか",
+      "back": "Wie viel kostet das?",
+      "notes": "Romaji: ikura desu ka. Kontext: このかばんはいくらですか。(kono kaban wa ikura desu ka.) – Wie viel kostet diese Tasche?",
+      "difficulty": 2,
+      "tags": ["einkaufen", "frage"]
+    },
+    {
+      "id": "kore",
+      "front": "これ",
+      "back": "dies / das hier (nah beim Sprecher)",
+      "notes": "Romaji: kore. Kontext: これをください。(kore o kudasai.) – Das hier bitte.",
+      "difficulty": 1,
+      "tags": ["einkaufen", "demonstrativ"]
+    },
+    {
+      "id": "sore",
+      "front": "それ",
+      "back": "das da (nah beim Hörer)",
+      "notes": "Romaji: sore. Kontext: それは何ですか。(sore wa nan desu ka.) – Was ist das da?",
+      "difficulty": 1,
+      "tags": ["einkaufen", "demonstrativ"]
+    },
+    {
+      "id": "are",
+      "front": "あれ",
+      "back": "jenes / das dort (entfernt)",
+      "notes": "Romaji: are. Kontext: あれは富士山です。(are wa fujisan desu.) – Das dort ist der Berg Fuji.",
+      "difficulty": 1,
+      "tags": ["einkaufen", "demonstrativ"]
+    },
+    {
+      "id": "takai",
+      "front": "高い",
+      "back": "teuer (auch: hoch)",
+      "notes": "Romaji: takai. Kontext: これは高いです。(kore wa takai desu.) – Das ist teuer.",
+      "difficulty": 1,
+      "tags": ["einkaufen", "adjektiv"]
+    },
+    {
+      "id": "yasui",
+      "front": "安い",
+      "back": "billig / günstig",
+      "notes": "Romaji: yasui. Kontext: この店は安いです。(kono mise wa yasui desu.) – Dieser Laden ist günstig.",
+      "difficulty": 1,
+      "tags": ["einkaufen", "adjektiv"]
+    },
+    {
+      "id": "en",
+      "front": "円",
+      "back": "Yen (Währung)",
+      "notes": "Romaji: en. Kontext: 五百円です。(gohyaku-en desu.) – Es kostet 500 Yen.",
+      "difficulty": 1,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "kaban",
+      "front": "かばん",
+      "back": "Tasche",
+      "notes": "Romaji: kaban. Kontext: そのかばんはいくらですか。(sono kaban wa ikura desu ka.) – Wie viel kostet diese Tasche?",
+      "difficulty": 1,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "mise",
+      "front": "店",
+      "back": "Laden / Geschäft",
+      "notes": "Romaji: mise. Kontext: あの店は安いです。(ano mise wa yasui desu.) – Jener Laden ist günstig.",
+      "difficulty": 1,
+      "tags": ["einkaufen", "ort"]
+    },
+    {
+      "id": "kono",
+      "front": "この",
+      "back": "diese(r/s) … (vor Nomen)",
+      "notes": "Romaji: kono. Kontext: このかばんはいくらですか。(kono kaban wa ikura desu ka.) – Wie viel kostet diese Tasche? この steht vor einem Nomen.",
+      "difficulty": 1,
+      "tags": ["einkaufen", "demonstrativ"]
+    },
+    {
+      "id": "okane",
+      "front": "お金",
+      "back": "Geld",
+      "notes": "Romaji: okane. Kontext: お金がありません。(okane ga arimasen.) – Ich habe kein Geld.",
+      "difficulty": 1,
+      "tags": ["einkaufen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Nach dem Preis fragen",
+      "body": "# Einkaufen\n\nNach dem Preis fragst du mit **いくら** (ikura) = *wie viel*:\n\n> **これはいくらですか。** (kore wa ikura desu ka.) — *Wie viel kostet das?*\n\nDie Antwort enthält oft die Währung **円** (en) = *Yen*:\n\n- **五百円です。** (gohyaku-en desu.) — *Es kostet 500 Yen.*"
+    },
+    {
+      "id": "step-kosoado",
+      "type": "theory",
+      "title": "kore / sore / are — dies, das, jenes",
+      "body": "## Auf Dinge zeigen\n\nJapanisch unterscheidet die Entfernung:\n\n- **これ** (kore) — *dies* (nah beim Sprecher)\n- **それ** (sore) — *das da* (nah beim Hörer)\n- **あれ** (are) — *jenes* (von beiden entfernt)\n\n## Preis-Adjektive\n\n- **高い** (takai) — *teuer* (wörtlich auch *hoch*)\n- **安い** (yasui) — *billig / günstig*"
+    },
+    {
+      "id": "ex-match-kosoado",
+      "type": "exercise",
+      "theory_ref": "step-kosoado",
+      "title": "Demonstrativa zuordnen",
+      "exercise": {
+        "id": "ex-match-kosoado",
+        "type": "matching",
+        "prompt": "Ordne jedem Wort die deutsche Bedeutung zu.",
+        "card_ids": ["kore", "sore", "are", "takai"],
+        "pairs": [
+          {"left": "これ", "right": "dies / das hier"},
+          {"left": "それ", "right": "das da"},
+          {"left": "あれ", "right": "jenes / das dort"},
+          {"left": "高い", "right": "teuer"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-ikura",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke: nach dem Preis fragen",
+      "exercise": {
+        "id": "ex-cloze-ikura",
+        "type": "cloze",
+        "prompt": "Ergänze das Fragewort für 'wie viel (Preis)'.",
+        "card_ids": ["ikura", "kore"],
+        "sentence": "これは___ですか。",
+        "blanks": [{"accept": ["いくら", "ikura"]}],
+        "cloze_mode": "type",
+        "hint": "Romaji: ikura."
+      }
+    },
+    {
+      "id": "ex-free-yasui",
+      "type": "exercise",
+      "theory_ref": "step-kosoado",
+      "title": "Günstig sagen",
+      "exercise": {
+        "id": "ex-free-yasui",
+        "type": "free_text",
+        "prompt": "Wie heißt 'billig / günstig' auf Japanisch?",
+        "card_ids": ["yasui"],
+        "accept": ["安い", "yasui", "やすい"],
+        "hint": "Gegenteil von 高い (teuer).",
+        "distractors": ["高い", "いくら", "円"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-takai",
+      "type": "exercise",
+      "theory_ref": "step-kosoado",
+      "title": "Teuer sagen",
+      "exercise": {
+        "id": "ex-free-takai",
+        "type": "free_text",
+        "prompt": "Wie heißt 'teuer' auf Japanisch?",
+        "card_ids": ["takai"],
+        "accept": ["高い", "takai", "たかい"],
+        "hint": "Bedeutet auch 'hoch'.",
+        "distractors": ["安い", "これ", "かばん"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-ikura-desu-ka",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Satz bauen: Wie viel kostet das?",
+      "exercise": {
+        "id": "ex-tiles-ikura-desu-ka",
+        "type": "word_tiles",
+        "prompt": "Baue die Frage 'Wie viel kostet das (hier)?' in der richtigen Reihenfolge.",
+        "card_ids": ["kore", "ikura", "ikura-desu-ka"],
+        "tiles": ["これ", "は", "いくら", "ですか"],
+        "hint": "これ – は – いくら – ですか.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-kaban",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Welches Wort bedeutet 'Tasche'?",
+      "exercise": {
+        "id": "ex-pic-kaban",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'Tasche'?",
+        "card_ids": ["kaban"],
+        "images": [
+          {"src": "assets/img/kaban.png", "label": "かばん", "is_correct": "true"},
+          {"src": "assets/img/en.png", "label": "円"},
+          {"src": "assets/img/kore.png", "label": "これ"},
+          {"src": "assets/img/takai.png", "label": "高い"}
+        ],
+        "hint": "Romaji: kaban.",
+        "distractors": ["円", "これ", "高い"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

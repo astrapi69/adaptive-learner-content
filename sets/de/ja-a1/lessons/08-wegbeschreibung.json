@@ -1,0 +1,227 @@
+{
+  "id": "08-wegbeschreibung",
+  "title": "Wegbeschreibung",
+  "description": "Nach dem Weg fragen und Richtungen verstehen: rechts, links, geradeaus, wo? — auf Deutsch erklärt.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "migi",
+      "front": "右",
+      "back": "rechts",
+      "notes": "Romaji: migi. Kontext: 右に曲がってください。(migi ni magatte kudasai.) – Bitte biegen Sie rechts ab.",
+      "difficulty": 1,
+      "tags": ["weg", "richtung"]
+    },
+    {
+      "id": "hidari",
+      "front": "左",
+      "back": "links",
+      "notes": "Romaji: hidari. Kontext: 左に駅があります。(hidari ni eki ga arimasu.) – Links ist der Bahnhof.",
+      "difficulty": 1,
+      "tags": ["weg", "richtung"]
+    },
+    {
+      "id": "massugu",
+      "front": "まっすぐ",
+      "back": "geradeaus",
+      "notes": "Romaji: massugu. Kontext: まっすぐ行ってください。(massugu itte kudasai.) – Gehen Sie bitte geradeaus.",
+      "difficulty": 1,
+      "tags": ["weg", "richtung"]
+    },
+    {
+      "id": "doko",
+      "front": "どこ",
+      "back": "wo",
+      "notes": "Romaji: doko. Kontext: 駅はどこですか。(eki wa doko desu ka.) – Wo ist der Bahnhof?",
+      "difficulty": 1,
+      "tags": ["weg", "frage"]
+    },
+    {
+      "id": "eki",
+      "front": "駅",
+      "back": "Bahnhof",
+      "notes": "Romaji: eki. Kontext: この近くに駅はありますか。(kono chikaku ni eki wa arimasu ka.) – Gibt es hier in der Nähe einen Bahnhof?",
+      "difficulty": 1,
+      "tags": ["weg", "ort"]
+    },
+    {
+      "id": "koko",
+      "front": "ここ",
+      "back": "hier (beim Sprecher)",
+      "notes": "Romaji: koko. Kontext: ここはどこですか。(koko wa doko desu ka.) – Wo bin ich hier?",
+      "difficulty": 1,
+      "tags": ["weg", "ort"]
+    },
+    {
+      "id": "soko",
+      "front": "そこ",
+      "back": "dort (beim Hörer)",
+      "notes": "Romaji: soko. Kontext: そこに本があります。(soko ni hon ga arimasu.) – Dort liegt ein Buch.",
+      "difficulty": 1,
+      "tags": ["weg", "ort"]
+    },
+    {
+      "id": "asoko",
+      "front": "あそこ",
+      "back": "dort drüben (entfernt)",
+      "notes": "Romaji: asoko. Kontext: あそこに銀行があります。(asoko ni ginkou ga arimasu.) – Dort drüben ist eine Bank.",
+      "difficulty": 2,
+      "tags": ["weg", "ort"]
+    },
+    {
+      "id": "magatte-kudasai",
+      "front": "曲がってください",
+      "back": "Bitte biegen Sie ab.",
+      "notes": "Romaji: magatte kudasai. Kontext: 次の角を右に曲がってください。(tsugi no kado o migi ni magatte kudasai.) – Biegen Sie an der nächsten Ecke rechts ab.",
+      "difficulty": 2,
+      "tags": ["weg"]
+    },
+    {
+      "id": "itte-kudasai",
+      "front": "行ってください",
+      "back": "Bitte gehen Sie.",
+      "notes": "Romaji: itte kudasai. Kontext: まっすぐ行ってください。(massugu itte kudasai.) – Gehen Sie bitte geradeaus.",
+      "difficulty": 2,
+      "tags": ["weg"]
+    },
+    {
+      "id": "ginkou",
+      "front": "銀行",
+      "back": "Bank (Geldinstitut)",
+      "notes": "Romaji: ginkou. Kontext: 銀行はどこですか。(ginkou wa doko desu ka.) – Wo ist die Bank?",
+      "difficulty": 2,
+      "tags": ["weg", "ort"]
+    },
+    {
+      "id": "toire",
+      "front": "トイレ",
+      "back": "Toilette",
+      "notes": "Romaji: toire. Kontext: トイレはどこですか。(toire wa doko desu ka.) – Wo ist die Toilette? Lehnwort in Katakana.",
+      "difficulty": 1,
+      "tags": ["weg", "ort"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Richtungen und nach dem Weg fragen",
+      "body": "# Wegbeschreibung\n\nDie wichtigsten Richtungen:\n\n- **右** (migi) — *rechts*\n- **左** (hidari) — *links*\n- **まっすぐ** (massugu) — *geradeaus*\n\nNach dem Ort fragst du mit **どこ** (doko) = *wo*:\n\n> **駅はどこですか。** (eki wa doko desu ka.) — *Wo ist der Bahnhof?*\n\n**駅** (eki) bedeutet *Bahnhof*."
+    },
+    {
+      "id": "step-koko",
+      "type": "theory",
+      "title": "koko / soko / asoko — hier, dort, dort drüben",
+      "body": "## Ortsangaben\n\nWie bei これ/それ/あれ gibt es drei Stufen der Entfernung:\n\n- **ここ** (koko) — *hier* (beim Sprecher)\n- **そこ** (soko) — *dort* (beim Hörer)\n- **あそこ** (asoko) — *dort drüben* (von beiden entfernt)\n\n## Anweisung\n\n- **右に曲がってください。** (migi ni magatte kudasai.) — *Biegen Sie rechts ab.*"
+    },
+    {
+      "id": "ex-match-richtung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Richtungen zuordnen",
+      "exercise": {
+        "id": "ex-match-richtung",
+        "type": "matching",
+        "prompt": "Ordne jedem Wort die deutsche Bedeutung zu.",
+        "card_ids": ["migi", "hidari", "massugu", "eki"],
+        "pairs": [
+          {"left": "右", "right": "rechts"},
+          {"left": "左", "right": "links"},
+          {"left": "まっすぐ", "right": "geradeaus"},
+          {"left": "駅", "right": "Bahnhof"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-koko",
+      "type": "exercise",
+      "theory_ref": "step-koko",
+      "title": "Ortsangaben zuordnen",
+      "exercise": {
+        "id": "ex-match-koko",
+        "type": "matching",
+        "prompt": "Ordne jede Ortsangabe der deutschen Bedeutung zu.",
+        "card_ids": ["koko", "soko", "asoko", "doko"],
+        "pairs": [
+          {"left": "ここ", "right": "hier"},
+          {"left": "そこ", "right": "dort"},
+          {"left": "あそこ", "right": "dort drüben"},
+          {"left": "どこ", "right": "wo"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-doko",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke: Wo ist der Bahnhof?",
+      "exercise": {
+        "id": "ex-cloze-doko",
+        "type": "cloze",
+        "prompt": "Ergänze das Fragewort für 'wo'.",
+        "card_ids": ["doko", "eki"],
+        "sentence": "駅は___ですか。",
+        "blanks": [{"accept": ["どこ", "doko"]}],
+        "cloze_mode": "type",
+        "hint": "Romaji: doko."
+      }
+    },
+    {
+      "id": "ex-free-migi",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Rechts sagen",
+      "exercise": {
+        "id": "ex-free-migi",
+        "type": "free_text",
+        "prompt": "Wie heißt 'rechts' auf Japanisch?",
+        "card_ids": ["migi"],
+        "accept": ["右", "migi", "みぎ"],
+        "hint": "Romaji: migi.",
+        "distractors": ["左", "まっすぐ", "駅"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-magaru",
+      "type": "exercise",
+      "theory_ref": "step-koko",
+      "title": "Satz bauen: Bitte rechts abbiegen",
+      "exercise": {
+        "id": "ex-tiles-magaru",
+        "type": "word_tiles",
+        "prompt": "Baue den Satz 'Bitte biegen Sie rechts ab.' in der richtigen Reihenfolge.",
+        "card_ids": ["migi", "magatte-kudasai"],
+        "tiles": ["右", "に", "曲がって", "ください"],
+        "hint": "右 – に – 曲がって – ください.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-eki",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Welches Wort bedeutet 'Bahnhof'?",
+      "exercise": {
+        "id": "ex-pic-eki",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'Bahnhof'?",
+        "card_ids": ["eki"],
+        "images": [
+          {"src": "assets/img/eki.png", "label": "駅", "is_correct": "true"},
+          {"src": "assets/img/migi.png", "label": "右"},
+          {"src": "assets/img/hidari.png", "label": "左"},
+          {"src": "assets/img/koko.png", "label": "ここ"}
+        ],
+        "hint": "Romaji: eki.",
+        "distractors": ["右", "左", "ここ"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
