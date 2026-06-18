@@ -42,12 +42,15 @@ the failures otherwise.
 """
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import sys
 from pathlib import Path
 
 import yaml
+
+import generate_search_index
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SETS_DIR = REPO_ROOT / "sets"
@@ -206,7 +209,7 @@ def validate_set_dir(content_set: dict, errors: list[str]) -> None:
         validate_lesson(lesson, source, f"{sid}/{filename}", errors)
 
 
-def main() -> int:
+def validate() -> int:
     root_manifest = REPO_ROOT / "manifest.yaml"
     if not root_manifest.is_file():
         print("FAIL: no root manifest.yaml", file=sys.stderr)
@@ -237,6 +240,28 @@ def main() -> int:
         return 1
     print(f"\nAll {len(sets)} set(s) passed validation.")
     return 0
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Validate the content tree.")
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument(
+        "--generate-index",
+        action="store_true",
+        help="(re)generate search-index.json via generate_search_index.py",
+    )
+    group.add_argument(
+        "--check-index",
+        action="store_true",
+        help="verify search-index.json is up to date; exit 1 if stale",
+    )
+    args = parser.parse_args()
+
+    if args.generate_index:
+        return generate_search_index.main([])
+    if args.check_index:
+        return generate_search_index.main(["--check"])
+    return validate()
 
 
 if __name__ == "__main__":
