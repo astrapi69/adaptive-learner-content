@@ -1,0 +1,243 @@
+{
+  "id": "08-versionsverwaltung",
+  "title": "Versionsverwaltung",
+  "description": "Wie man Änderungen am Code nachverfolgt: Git, Commit, Repository, Branch, Merge sowie Push und Pull — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "technology",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "it-versionsverwaltung",
+      "front": "Versionsverwaltung (version control)",
+      "back": "Ein System, das alle Änderungen an Dateien über die Zeit aufzeichnet und frühere Stände wiederherstellbar macht.",
+      "notes": "So kann man jederzeit nachsehen, wer was wann geändert hat.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["git", "grundlagen"]
+    },
+    {
+      "id": "it-git",
+      "front": "Git",
+      "back": "Das heute am weitesten verbreitete Versionsverwaltungssystem.",
+      "notes": "Git wurde 2005 von Linus Torvalds entwickelt.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["git", "grundlagen"]
+    },
+    {
+      "id": "it-repository",
+      "front": "Repository (Repo)",
+      "back": "Der Speicherort eines Projekts samt seiner kompletten Änderungsgeschichte.",
+      "notes": "Kurz 'Repo'. Plattformen wie GitHub hosten Repositories online.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["git", "repository"]
+    },
+    {
+      "id": "it-commit",
+      "front": "Commit",
+      "back": "Ein gespeicherter Schnappschuss der Änderungen, meist mit einer kurzen Beschreibung.",
+      "notes": "Jeder Commit hält einen bestimmten Stand des Projekts fest.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["git", "commit"]
+    },
+    {
+      "id": "it-commit-message",
+      "front": "Commit-Nachricht (commit message)",
+      "back": "Eine kurze Beschreibung, die erklärt, was in einem Commit geändert wurde.",
+      "notes": "Gute Nachrichten machen die Geschichte verständlich.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["git", "commit"]
+    },
+    {
+      "id": "it-branch",
+      "front": "Branch (Zweig)",
+      "back": "Eine parallele Entwicklungslinie, auf der man Änderungen unabhängig vom Hauptstand vornimmt.",
+      "notes": "So kann man an einer neuen Funktion arbeiten, ohne den Hauptzweig zu stören.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["git", "branch"]
+    },
+    {
+      "id": "it-merge",
+      "front": "Merge (Zusammenführen)",
+      "back": "Das Zusammenführen der Änderungen eines Branches in einen anderen.",
+      "notes": "Damit holt man die Arbeit aus einem Zweig zurück in den Hauptzweig.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["git", "merge"]
+    },
+    {
+      "id": "it-merge-konflikt",
+      "front": "Merge-Konflikt",
+      "back": "Eine Situation, in der zwei Branches dieselbe Stelle unterschiedlich geändert haben und Git nicht automatisch zusammenführen kann.",
+      "notes": "Dann muss ein Mensch entscheiden, welche Änderung gilt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["git", "merge", "fehler"]
+    },
+    {
+      "id": "it-push",
+      "front": "Push",
+      "back": "Das Hochladen lokaler Commits in ein entferntes Repository.",
+      "notes": "Beispiel: deine Commits zu GitHub hochladen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["git", "push-pull"]
+    },
+    {
+      "id": "it-pull",
+      "front": "Pull",
+      "back": "Das Herunterladen und Einbinden von Änderungen aus einem entfernten Repository.",
+      "notes": "So holst du dir Änderungen anderer auf deinen Rechner.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["git", "push-pull"]
+    },
+    {
+      "id": "it-clone",
+      "front": "Clone (Klonen)",
+      "back": "Das Erstellen einer lokalen Kopie eines entfernten Repositorys.",
+      "notes": "Der erste Schritt, um an einem bestehenden Projekt mitzuarbeiten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["git", "repository"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Git, Repository und Commit",
+      "body": "# Versionsverwaltung\n\n**Versionsverwaltung (version control)** zeichnet **alle Änderungen** an Dateien über die Zeit auf. So kann man frühere Stände wiederherstellen und sehen, wer was wann geändert hat. Das verbreitetste System ist **Git**.\n\n## Grundbegriffe\n\n- Ein **Repository (Repo)** ist der Speicherort eines Projekts samt **kompletter Änderungsgeschichte**. Mit **Clone** holt man sich eine lokale Kopie.\n- Ein **Commit** ist ein **Schnappschuss** der Änderungen — meist mit einer kurzen **Commit-Nachricht**, die erklärt, was sich geändert hat."
+    },
+    {
+      "id": "step-branch-remote",
+      "type": "theory",
+      "title": "Branch, Merge, Push und Pull",
+      "body": "## Parallel arbeiten\n\nEin **Branch (Zweig)** ist eine **parallele Entwicklungslinie**. Auf ihm kann man an einer neuen Funktion arbeiten, ohne den Hauptzweig zu stören. Mit einem **Merge** führt man die Änderungen wieder zusammen. Ändern zwei Branches dieselbe Stelle unterschiedlich, entsteht ein **Merge-Konflikt**, den ein Mensch lösen muss.\n\n## Mit anderen teilen\n\n- **Push** — lokale Commits **hochladen** (z. B. zu GitHub).\n- **Pull** — Änderungen anderer **herunterladen** und einbinden.\n\nMerksatz: Push schiebt **hoch**, Pull zieht **herunter**."
+    },
+    {
+      "id": "ex-match-git",
+      "type": "exercise",
+      "theory_ref": "step-branch-remote",
+      "title": "Git-Begriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-git",
+        "type": "matching",
+        "prompt": "Ordne jeden Begriff der passenden Beschreibung zu.",
+        "card_ids": ["it-commit", "it-branch", "it-merge", "it-repository"],
+        "pairs": [
+          {"left": "Commit", "right": "gespeicherter Schnappschuss der Änderungen"},
+          {"left": "Branch", "right": "parallele Entwicklungslinie"},
+          {"left": "Merge", "right": "Zusammenführen zweier Branches"},
+          {"left": "Repository", "right": "Speicherort des Projekts mit Geschichte"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-git",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Das verbreitetste System",
+      "exercise": {
+        "id": "ex-free-git",
+        "type": "free_text",
+        "prompt": "Wie heißt das heute am weitesten verbreitete Versionsverwaltungssystem?",
+        "card_ids": ["it-git"],
+        "accept": ["Git", "git"],
+        "hint": "Von Linus Torvalds entwickelt.",
+        "distractors": ["GitHub", "SQL", "Linux"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-commit",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Ein Schnappschuss",
+      "exercise": {
+        "id": "ex-cloze-commit",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für einen gespeicherten Schnappschuss der Änderungen.",
+        "card_ids": ["it-commit"],
+        "sentence": "Ein ___ hält einen bestimmten Stand des Projekts mit einer kurzen Beschreibung fest.",
+        "blanks": [{"accept": ["Commit"]}],
+        "cloze_mode": "type",
+        "hint": "Englisch 'to commit' = festschreiben."
+      }
+    },
+    {
+      "id": "ex-free-push",
+      "type": "exercise",
+      "theory_ref": "step-branch-remote",
+      "title": "Hochladen",
+      "exercise": {
+        "id": "ex-free-push",
+        "type": "free_text",
+        "prompt": "Wie heißt der Befehl, der lokale Commits in ein entferntes Repository hochlädt?",
+        "card_ids": ["it-push"],
+        "accept": ["Push", "push"],
+        "hint": "Englisch für 'schieben/drücken'.",
+        "distractors": ["Pull", "Merge", "Clone"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-push-pull",
+      "type": "exercise",
+      "theory_ref": "step-branch-remote",
+      "title": "Push und Pull",
+      "exercise": {
+        "id": "ex-tiles-push-pull",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": ["it-push", "it-pull"],
+        "tiles": ["Push", "lädt", "hoch", "Pull", "lädt", "herunter"],
+        "hint": "Beginnt mit 'Push'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-branch",
+      "type": "exercise",
+      "theory_ref": "step-branch-remote",
+      "title": "Paralleler Zweig",
+      "exercise": {
+        "id": "ex-cloze-branch",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für eine parallele Entwicklungslinie.",
+        "card_ids": ["it-branch"],
+        "sentence": "Ein ___ ist eine parallele Entwicklungslinie neben dem Hauptzweig.",
+        "blanks": [{"accept": ["Branch", "Zweig"]}],
+        "cloze_mode": "type",
+        "hint": "Englisch für 'Ast / Zweig'."
+      }
+    },
+    {
+      "id": "ex-pick-pull",
+      "type": "exercise",
+      "theory_ref": "step-branch-remote",
+      "title": "Herunterladen",
+      "exercise": {
+        "id": "ex-pick-pull",
+        "type": "picture_choice",
+        "prompt": "Welcher Befehl holt Änderungen aus einem entfernten Repository herunter?",
+        "card_ids": ["it-pull", "it-push"],
+        "images": [
+          {"src": "assets/img/pull.png", "label": "Pull", "is_correct": "true"},
+          {"src": "assets/img/push.png", "label": "Push"},
+          {"src": "assets/img/merge.png", "label": "Merge"},
+          {"src": "assets/img/commit.png", "label": "Commit"}
+        ],
+        "hint": "Englisch für 'ziehen'.",
+        "distractors": ["Push", "Merge", "Commit"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

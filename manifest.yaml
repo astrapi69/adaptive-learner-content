@@ -562,6 +562,28 @@ sets:
     tags:
       - beginner
       - everyday
+  - id: it-grundlagen-from-de
+    title: IT-Grundlagen
+    title_native: IT-Grundlagen
+    target_language: de
+    source_language: de
+    domain: technology
+    level: A1
+    path: sets/de/it-grundlagen
+    version: '1.0.0'
+    lesson_count: 10
+    description: >-
+      Einführung in IT und Programmierung für Deutschsprachige
+      (10 Lektionen): von Hardware, Betriebssystemen und
+      Netzwerk-Grundlagen über Programmiersprachen, Variablen und
+      Kontrollstrukturen bis zu Datenbanken, Versionsverwaltung
+      (Git), Web-Grundlagen und IT-Sicherheit. Erklärt auf
+      Deutsch, mit den englischen Fachbegriffen in Klammern.
+      Sachthemen-Set (domain: technology).
+    tags:
+      - beginner
+      - technology
+      - it
 metadata:
   author: Asterios Raptis
   license: CC-BY-SA-4.0

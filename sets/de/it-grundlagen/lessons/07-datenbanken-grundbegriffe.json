@@ -1,0 +1,243 @@
+{
+  "id": "07-datenbanken-grundbegriffe",
+  "title": "Datenbanken Grundbegriffe",
+  "description": "Die wichtigsten Begriffe rund um Datenbanken: Datenbank, Tabelle, SQL, Query, Primärschlüssel sowie Zeile und Spalte — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "technology",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "it-datenbank",
+      "front": "Datenbank (database)",
+      "back": "Eine strukturierte Sammlung von Daten, die dauerhaft gespeichert und gezielt abgefragt werden kann.",
+      "notes": "Beispiel: alle Kunden eines Online-Shops mit Name, Adresse und Bestellungen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["datenbank", "grundlagen"]
+    },
+    {
+      "id": "it-dbms",
+      "front": "Datenbanksystem (DBMS)",
+      "back": "Die Software, die eine Datenbank verwaltet und Abfragen ausführt.",
+      "notes": "DBMS steht für 'Database Management System'. Beispiele: MySQL, PostgreSQL.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["datenbank", "grundlagen"]
+    },
+    {
+      "id": "it-tabelle",
+      "front": "Tabelle (table)",
+      "back": "Eine Struktur aus Zeilen und Spalten, in der zusammengehörige Daten gespeichert werden.",
+      "notes": "Eine relationale Datenbank besteht aus mehreren Tabellen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["datenbank", "tabelle"]
+    },
+    {
+      "id": "it-zeile",
+      "front": "Zeile (row / Datensatz)",
+      "back": "Eine waagerechte Reihe in einer Tabelle, die einen einzelnen Datensatz darstellt.",
+      "notes": "Beispiel: eine Zeile = ein Kunde mit all seinen Angaben.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["datenbank", "tabelle"]
+    },
+    {
+      "id": "it-spalte",
+      "front": "Spalte (column / Feld)",
+      "back": "Eine senkrechte Spalte in einer Tabelle, die ein bestimmtes Merkmal aller Datensätze enthält.",
+      "notes": "Beispiel: die Spalte 'E-Mail' enthält die E-Mail jedes Kunden.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["datenbank", "tabelle"]
+    },
+    {
+      "id": "it-primaerschluessel",
+      "front": "Primärschlüssel (primary key)",
+      "back": "Eine Spalte, deren Wert jede Zeile einer Tabelle eindeutig identifiziert.",
+      "notes": "Beispiel: eine Kundennummer. Kein Wert darf doppelt vorkommen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["datenbank", "schluessel"]
+    },
+    {
+      "id": "it-fremdschluessel",
+      "front": "Fremdschlüssel (foreign key)",
+      "back": "Eine Spalte, die auf den Primärschlüssel einer anderen Tabelle verweist und so Tabellen verknüpft.",
+      "notes": "So verbindet man z. B. die Tabelle 'Bestellungen' mit der Tabelle 'Kunden'.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["datenbank", "schluessel"]
+    },
+    {
+      "id": "it-sql",
+      "front": "SQL",
+      "back": "Die Abfragesprache, mit der man Daten in relationalen Datenbanken abfragt und verändert.",
+      "notes": "SQL steht für 'Structured Query Language'.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["datenbank", "sql"]
+    },
+    {
+      "id": "it-query",
+      "front": "Query (Abfrage)",
+      "back": "Eine Anfrage an die Datenbank, um bestimmte Daten zu lesen oder zu verändern.",
+      "notes": "Beispiel: 'Gib alle Kunden aus Berlin aus'.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["datenbank", "sql"]
+    },
+    {
+      "id": "it-select",
+      "front": "SELECT",
+      "back": "Der SQL-Befehl, mit dem man Daten aus einer Tabelle ausliest.",
+      "notes": "Beispiel: SELECT * FROM kunden liest alle Spalten der Tabelle 'kunden'.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["datenbank", "sql"]
+    },
+    {
+      "id": "it-relationale-db",
+      "front": "Relationale Datenbank",
+      "back": "Eine Datenbank, die Daten in Tabellen organisiert, welche über Schlüssel miteinander in Beziehung stehen.",
+      "notes": "Das verbreitetste Datenbankmodell. 'Relation' meint hier eine Tabelle.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["datenbank", "grundlagen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Datenbank, Tabelle, Zeile und Spalte",
+      "body": "# Datenbanken — Grundbegriffe\n\nEine **Datenbank** ist eine **strukturierte Sammlung von Daten**, die dauerhaft gespeichert und gezielt abgefragt werden kann. Verwaltet wird sie von einem **Datenbanksystem (DBMS)** wie MySQL oder PostgreSQL.\n\nIn einer **relationalen Datenbank** liegen die Daten in **Tabellen**:\n\n- Eine **Zeile (row)** ist ein einzelner **Datensatz** — z. B. ein Kunde.\n- Eine **Spalte (column)** ist ein **Merkmal** aller Datensätze — z. B. die E-Mail-Adresse.\n\n| Kundennr | Name | Stadt |\n|---|---|---|\n| 1 | Anna | Berlin |\n| 2 | Ben | Wien |\n\nHier ist jede Zeile ein Kunde, jede Spalte ein Merkmal."
+    },
+    {
+      "id": "step-schluessel-sql",
+      "type": "theory",
+      "title": "Schlüssel und SQL",
+      "body": "## Schlüssel\n\nDer **Primärschlüssel (primary key)** ist eine Spalte, deren Wert **jede Zeile eindeutig** identifiziert — etwa eine Kundennummer. Ein **Fremdschlüssel (foreign key)** verweist auf den Primärschlüssel einer **anderen** Tabelle und verknüpft so die Tabellen.\n\n## SQL\n\n**SQL (Structured Query Language)** ist die Sprache, mit der man Datenbanken abfragt. Eine einzelne Anfrage heißt **Query (Abfrage)**. Der wichtigste Lesebefehl ist **SELECT**:\n\n```\nSELECT * FROM kunden;\n```\n\nDas liest alle Spalten (`*`) aus der Tabelle `kunden`."
+    },
+    {
+      "id": "ex-match-db",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Datenbank-Begriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-db",
+        "type": "matching",
+        "prompt": "Ordne jeden Begriff der passenden Beschreibung zu.",
+        "card_ids": ["it-tabelle", "it-zeile", "it-spalte", "it-primaerschluessel"],
+        "pairs": [
+          {"left": "Tabelle", "right": "Struktur aus Zeilen und Spalten"},
+          {"left": "Zeile (row)", "right": "ein einzelner Datensatz"},
+          {"left": "Spalte (column)", "right": "ein Merkmal aller Datensätze"},
+          {"left": "Primärschlüssel", "right": "identifiziert jede Zeile eindeutig"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-sql",
+      "type": "exercise",
+      "theory_ref": "step-schluessel-sql",
+      "title": "Die Abfragesprache",
+      "exercise": {
+        "id": "ex-free-sql",
+        "type": "free_text",
+        "prompt": "Wie heißt die Sprache, mit der man relationale Datenbanken abfragt?",
+        "card_ids": ["it-sql"],
+        "accept": ["SQL", "sql"],
+        "hint": "Structured Query Language.",
+        "distractors": ["HTML", "Python", "DNS"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-primaer",
+      "type": "exercise",
+      "theory_ref": "step-schluessel-sql",
+      "title": "Eindeutige Zeile",
+      "exercise": {
+        "id": "ex-cloze-primaer",
+        "type": "cloze",
+        "prompt": "Ergänze den Schlüssel, der jede Zeile eindeutig identifiziert.",
+        "card_ids": ["it-primaerschluessel"],
+        "sentence": "Der ___ identifiziert jede Zeile einer Tabelle eindeutig.",
+        "blanks": [{"accept": ["Primärschlüssel"]}],
+        "cloze_mode": "type",
+        "hint": "Auf Englisch 'primary key'."
+      }
+    },
+    {
+      "id": "ex-free-zeile",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Ein Datensatz",
+      "exercise": {
+        "id": "ex-free-zeile",
+        "type": "free_text",
+        "prompt": "Wie nennt man eine waagerechte Reihe in einer Tabelle, die einen Datensatz darstellt?",
+        "card_ids": ["it-zeile"],
+        "accept": ["Zeile", "die Zeile", "Row", "Datensatz"],
+        "hint": "Englisch 'row'.",
+        "distractors": ["Spalte", "Tabelle", "Query"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-select",
+      "type": "exercise",
+      "theory_ref": "step-schluessel-sql",
+      "title": "Eine SELECT-Abfrage",
+      "exercise": {
+        "id": "ex-tiles-select",
+        "type": "word_tiles",
+        "prompt": "Setze die SQL-Abfrage zusammen, die alle Spalten der Tabelle 'kunden' liest.",
+        "card_ids": ["it-select"],
+        "tiles": ["SELECT", "*", "FROM", "kunden"],
+        "hint": "Beginnt mit 'SELECT'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-query",
+      "type": "exercise",
+      "theory_ref": "step-schluessel-sql",
+      "title": "Eine Anfrage",
+      "exercise": {
+        "id": "ex-cloze-query",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für eine einzelne Anfrage an die Datenbank.",
+        "card_ids": ["it-query"],
+        "sentence": "Eine einzelne Anfrage an die Datenbank nennt man eine ___ .",
+        "blanks": [{"accept": ["Query", "Abfrage"]}],
+        "cloze_mode": "type",
+        "hint": "Englisches Wort für 'Abfrage'."
+      }
+    },
+    {
+      "id": "ex-pick-spalte",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Merkmal aller Datensätze",
+      "exercise": {
+        "id": "ex-pick-spalte",
+        "type": "picture_choice",
+        "prompt": "Wie nennt man eine senkrechte Spalte, die ein Merkmal aller Datensätze enthält?",
+        "card_ids": ["it-spalte", "it-zeile"],
+        "images": [
+          {"src": "assets/img/spalte.png", "label": "Spalte (column)", "is_correct": "true"},
+          {"src": "assets/img/zeile.png", "label": "Zeile (row)"},
+          {"src": "assets/img/tabelle.png", "label": "Tabelle"},
+          {"src": "assets/img/query.png", "label": "Query"}
+        ],
+        "hint": "Steht senkrecht, z. B. die Spalte 'E-Mail'.",
+        "distractors": ["Zeile (row)", "Tabelle", "Query"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

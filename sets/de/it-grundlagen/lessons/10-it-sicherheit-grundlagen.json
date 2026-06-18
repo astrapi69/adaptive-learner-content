@@ -1,0 +1,243 @@
+{
+  "id": "10-it-sicherheit-grundlagen",
+  "title": "IT-Sicherheit Grundlagen",
+  "description": "Wie man sich digital schützt: Passwort, Verschlüsselung, Phishing, Firewall, Zwei-Faktor-Authentifizierung und Malware — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "technology",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "it-it-sicherheit",
+      "front": "IT-Sicherheit",
+      "back": "Alle Maßnahmen, die Daten und Systeme vor unbefugtem Zugriff, Verlust und Schaden schützen.",
+      "notes": "Auf Englisch 'IT security' oder 'cybersecurity'.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["sicherheit", "grundlagen"]
+    },
+    {
+      "id": "it-passwort",
+      "front": "Passwort (password)",
+      "back": "Ein geheimes Kennwort, das den Zugang zu einem Konto oder System schützt.",
+      "notes": "Ein sicheres Passwort ist lang und enthält Buchstaben, Zahlen und Sonderzeichen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["sicherheit", "passwort"]
+    },
+    {
+      "id": "it-passwortmanager",
+      "front": "Passwortmanager",
+      "back": "Ein Programm, das viele starke Passwörter sicher speichert und verwaltet.",
+      "notes": "So muss man sich nur ein einziges Hauptpasswort merken.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["sicherheit", "passwort"]
+    },
+    {
+      "id": "it-verschluesselung",
+      "front": "Verschlüsselung (encryption)",
+      "back": "Das Umwandeln von Daten in eine unlesbare Form, die nur mit dem richtigen Schlüssel wieder lesbar wird.",
+      "notes": "Schützt Daten beim Übertragen und Speichern. Beispiel: HTTPS verschlüsselt Webverkehr.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["sicherheit", "verschluesselung"]
+    },
+    {
+      "id": "it-phishing",
+      "front": "Phishing",
+      "back": "Ein Betrugsversuch, bei dem Angreifer mit gefälschten Nachrichten an Passwörter oder Daten gelangen wollen.",
+      "notes": "Oft per E-Mail mit gefälschten Links. 'Phishing' klingt wie 'fishing' (angeln).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["sicherheit", "angriff"]
+    },
+    {
+      "id": "it-firewall",
+      "front": "Firewall",
+      "back": "Eine Schutzkomponente, die den Netzwerkverkehr überwacht und unerwünschte Verbindungen blockiert.",
+      "notes": "Wie ein Türsteher, der nur erlaubten Verkehr durchlässt.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["sicherheit", "netzwerk"]
+    },
+    {
+      "id": "it-2fa",
+      "front": "Zwei-Faktor-Authentifizierung (2FA)",
+      "back": "Eine zusätzliche Sicherung, bei der man neben dem Passwort einen zweiten Nachweis braucht.",
+      "notes": "Zweiter Faktor z. B. ein Code aufs Handy. Selbst ein gestohlenes Passwort reicht dann nicht.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["sicherheit", "authentifizierung"]
+    },
+    {
+      "id": "it-malware",
+      "front": "Malware (Schadsoftware)",
+      "back": "Software, die absichtlich Schaden anrichtet oder Daten ausspäht.",
+      "notes": "Oberbegriff für Viren, Trojaner und Würmer. 'Mal' steht für 'malicious' (bösartig).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["sicherheit", "angriff"]
+    },
+    {
+      "id": "it-virus",
+      "front": "Virus",
+      "back": "Eine Form von Malware, die sich an Dateien anhängt und sich beim Ausführen weiterverbreitet.",
+      "notes": "Ein Virus braucht eine 'Wirtsdatei', um sich zu verbreiten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["sicherheit", "angriff"]
+    },
+    {
+      "id": "it-backup",
+      "front": "Backup (Datensicherung)",
+      "back": "Eine zusätzliche Kopie von Daten, um sie bei Verlust oder Beschädigung wiederherstellen zu können.",
+      "notes": "Regelmäßige Backups schützen z. B. vor Erpressungs-Malware (Ransomware).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["sicherheit", "datensicherung"]
+    },
+    {
+      "id": "it-update",
+      "front": "Update (Aktualisierung)",
+      "back": "Eine Aktualisierung von Software, die oft auch Sicherheitslücken schließt.",
+      "notes": "Regelmäßige Updates sind eine der einfachsten Schutzmaßnahmen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["sicherheit", "grundlagen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Zugang schützen: Passwort, 2FA, Verschlüsselung",
+      "body": "# IT-Sicherheit — Grundlagen\n\n**IT-Sicherheit** umfasst alle Maßnahmen, die **Daten und Systeme** vor unbefugtem Zugriff, Verlust und Schaden schützen.\n\n## Zugang schützen\n\n- Ein **Passwort** ist ein geheimes Kennwort. Sicher heißt: **lang** und gemischt aus Buchstaben, Zahlen und Sonderzeichen. Ein **Passwortmanager** speichert viele starke Passwörter für dich.\n- Die **Zwei-Faktor-Authentifizierung (2FA)** verlangt **zusätzlich** zum Passwort einen zweiten Nachweis (z. B. einen Code aufs Handy). Selbst ein gestohlenes Passwort reicht dann nicht.\n\n## Daten schützen\n\n- **Verschlüsselung (encryption)** wandelt Daten in eine **unlesbare Form** um, die nur mit dem richtigen **Schlüssel** wieder lesbar ist. So schützt z. B. HTTPS den Webverkehr."
+    },
+    {
+      "id": "step-bedrohungen",
+      "type": "theory",
+      "title": "Bedrohungen und Schutzmaßnahmen",
+      "body": "## Typische Bedrohungen\n\n- **Phishing** — gefälschte Nachrichten (oft E-Mails mit Links), die dich zur Herausgabe von Passwörtern verleiten wollen.\n- **Malware (Schadsoftware)** — Software, die absichtlich Schaden anrichtet. Ein **Virus** ist eine Form davon: Er hängt sich an Dateien und verbreitet sich weiter.\n\n## Schutzmaßnahmen\n\n- Eine **Firewall** überwacht den Netzwerkverkehr und blockiert unerwünschte Verbindungen — wie ein Türsteher.\n- **Updates** schließen Sicherheitslücken in Software.\n- **Backups (Datensicherungen)** sind Kopien, mit denen du Daten nach einem Verlust wiederherstellen kannst."
+    },
+    {
+      "id": "ex-match-sicherheit",
+      "type": "exercise",
+      "theory_ref": "step-bedrohungen",
+      "title": "Sicherheitsbegriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-sicherheit",
+        "type": "matching",
+        "prompt": "Ordne jeden Begriff der passenden Beschreibung zu.",
+        "card_ids": ["it-phishing", "it-firewall", "it-malware", "it-verschluesselung"],
+        "pairs": [
+          {"left": "Phishing", "right": "Betrug mit gefälschten Nachrichten"},
+          {"left": "Firewall", "right": "blockiert unerwünschten Netzwerkverkehr"},
+          {"left": "Malware", "right": "Software, die absichtlich Schaden anrichtet"},
+          {"left": "Verschlüsselung", "right": "wandelt Daten in eine unlesbare Form um"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-phishing",
+      "type": "exercise",
+      "theory_ref": "step-bedrohungen",
+      "title": "Betrug per Nachricht",
+      "exercise": {
+        "id": "ex-free-phishing",
+        "type": "free_text",
+        "prompt": "Wie nennt man den Betrugsversuch, bei dem man mit gefälschten Nachrichten an Passwörter gelangen will?",
+        "card_ids": ["it-phishing"],
+        "accept": ["Phishing", "phishing", "das Phishing"],
+        "hint": "Klingt wie das englische Wort fürs Angeln.",
+        "distractors": ["Firewall", "Backup", "Update"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-2fa",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zweiter Nachweis",
+      "exercise": {
+        "id": "ex-cloze-2fa",
+        "type": "cloze",
+        "prompt": "Ergänze die Abkürzung für die zusätzliche Sicherung mit zweitem Nachweis.",
+        "card_ids": ["it-2fa"],
+        "sentence": "Neben dem Passwort verlangt die ___ einen zweiten Nachweis, z. B. einen Code aufs Handy.",
+        "blanks": [{"accept": ["2FA", "Zwei-Faktor-Authentifizierung"]}],
+        "cloze_mode": "type",
+        "hint": "Eine Zahl, ein Buchstabe, eine Abkürzung."
+      }
+    },
+    {
+      "id": "ex-free-verschluesselung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Daten unlesbar machen",
+      "exercise": {
+        "id": "ex-free-verschluesselung",
+        "type": "free_text",
+        "prompt": "Wie heißt das Umwandeln von Daten in eine unlesbare Form, die nur mit Schlüssel lesbar ist?",
+        "card_ids": ["it-verschluesselung"],
+        "accept": ["Verschlüsselung", "die Verschlüsselung", "Encryption"],
+        "hint": "Englisch 'encryption'.",
+        "distractors": ["Firewall", "Phishing", "Backup"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-firewall",
+      "type": "exercise",
+      "theory_ref": "step-bedrohungen",
+      "title": "Aufgabe der Firewall",
+      "exercise": {
+        "id": "ex-tiles-firewall",
+        "type": "word_tiles",
+        "prompt": "Setze den Satz über die Firewall zusammen.",
+        "card_ids": ["it-firewall"],
+        "tiles": ["Die", "Firewall", "blockiert", "unerwünschte", "Verbindungen"],
+        "hint": "Beginnt mit 'Die Firewall'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-backup",
+      "type": "exercise",
+      "theory_ref": "step-bedrohungen",
+      "title": "Daten retten",
+      "exercise": {
+        "id": "ex-cloze-backup",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für eine zusätzliche Kopie zur Wiederherstellung.",
+        "card_ids": ["it-backup"],
+        "sentence": "Ein ___ ist eine Kopie, mit der man Daten nach einem Verlust wiederherstellen kann.",
+        "blanks": [{"accept": ["Backup", "Datensicherung"]}],
+        "cloze_mode": "type",
+        "hint": "Englisches Wort, deutsch 'Datensicherung'."
+      }
+    },
+    {
+      "id": "ex-pick-malware",
+      "type": "exercise",
+      "theory_ref": "step-bedrohungen",
+      "title": "Schädliche Software erkennen",
+      "exercise": {
+        "id": "ex-pick-malware",
+        "type": "picture_choice",
+        "prompt": "Welcher Begriff bezeichnet Software, die absichtlich Schaden anrichtet?",
+        "card_ids": ["it-malware", "it-firewall"],
+        "images": [
+          {"src": "assets/img/malware.png", "label": "Malware", "is_correct": "true"},
+          {"src": "assets/img/firewall.png", "label": "Firewall"},
+          {"src": "assets/img/backup.png", "label": "Backup"},
+          {"src": "assets/img/passwort.png", "label": "Passwort"}
+        ],
+        "hint": "Oberbegriff für Viren, Trojaner und Würmer.",
+        "distractors": ["Firewall", "Backup", "Passwort"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

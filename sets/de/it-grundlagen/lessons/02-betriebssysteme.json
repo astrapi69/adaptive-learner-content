@@ -1,0 +1,261 @@
+{
+  "id": "02-betriebssysteme",
+  "title": "Betriebssysteme",
+  "description": "Was ein Betriebssystem ist und welche Aufgaben es hat: Windows, Linux, macOS, Kernel, Dateisystem und Prozesse — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "technology",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "it-betriebssystem",
+      "front": "Betriebssystem (operating system)",
+      "back": "Die grundlegende Software, die die Hardware verwaltet und anderen Programmen eine Arbeitsumgebung bietet.",
+      "notes": "Abgekürzt 'OS' oder im Deutschen 'BS'. Ohne Betriebssystem läuft kein normales Programm.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["os", "grundlagen"]
+    },
+    {
+      "id": "it-windows",
+      "front": "Windows",
+      "back": "Ein weit verbreitetes Betriebssystem der Firma Microsoft.",
+      "notes": "Das auf Privat-PCs am häufigsten genutzte Betriebssystem.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["os"]
+    },
+    {
+      "id": "it-linux",
+      "front": "Linux",
+      "back": "Ein freies, quelloffenes Betriebssystem, das besonders auf Servern verbreitet ist.",
+      "notes": "Es gibt viele Varianten ('Distributionen'), z. B. Ubuntu oder Debian.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["os", "linux"]
+    },
+    {
+      "id": "it-macos",
+      "front": "macOS",
+      "back": "Das Betriebssystem der Firma Apple für deren Mac-Computer.",
+      "notes": "Läuft nur auf Apple-Hardware.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["os"]
+    },
+    {
+      "id": "it-kernel",
+      "front": "Kernel",
+      "back": "Der Kern des Betriebssystems, der direkt die Hardware steuert und die Ressourcen verteilt.",
+      "notes": "Er verwaltet z. B. CPU-Zeit und Arbeitsspeicher für alle Programme.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["os", "kernel"]
+    },
+    {
+      "id": "it-dateisystem",
+      "front": "Dateisystem (file system)",
+      "back": "Die Methode, mit der ein Betriebssystem Dateien und Ordner auf einem Speicher organisiert und wiederfindet.",
+      "notes": "Beispiele für Dateisysteme: NTFS (Windows), ext4 (Linux), APFS (macOS).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["os", "dateien"]
+    },
+    {
+      "id": "it-datei",
+      "front": "Datei (file)",
+      "back": "Eine benannte Einheit von Daten, die auf einem Speicher abgelegt ist.",
+      "notes": "Beispiel: ein Foto, ein Text oder ein Programm ist jeweils eine Datei.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["dateien"]
+    },
+    {
+      "id": "it-ordner",
+      "front": "Ordner (Verzeichnis)",
+      "back": "Ein Behälter, der Dateien und weitere Ordner gruppiert.",
+      "notes": "Auf Englisch 'folder' oder 'directory'. Ordner bilden eine Baumstruktur.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["dateien"]
+    },
+    {
+      "id": "it-prozess",
+      "front": "Prozess (process)",
+      "back": "Ein gerade laufendes Programm, dem das Betriebssystem Speicher und CPU-Zeit zuteilt.",
+      "notes": "Dasselbe Programm kann mehrmals laufen — dann gibt es mehrere Prozesse.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["os", "prozess"]
+    },
+    {
+      "id": "it-treiber",
+      "front": "Treiber (driver)",
+      "back": "Spezielle Software, die dem Betriebssystem erklärt, wie es ein bestimmtes Hardware-Gerät ansteuert.",
+      "notes": "Beispiel: ein Druckertreiber für einen Drucker.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["os", "hardware"]
+    },
+    {
+      "id": "it-benutzeroberflaeche",
+      "front": "Benutzeroberfläche (GUI)",
+      "back": "Die grafische Oberfläche mit Fenstern, Symbolen und Menüs, über die man den Computer bedient.",
+      "notes": "GUI steht für 'Graphical User Interface'. Gegenstück ist die Kommandozeile.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["os", "bedienung"]
+    },
+    {
+      "id": "it-kommandozeile",
+      "front": "Kommandozeile (Terminal)",
+      "back": "Eine textbasierte Eingabe, über die man dem Computer Befehle als Text gibt.",
+      "notes": "Auf Englisch 'command line'. Beliebt bei Profis und auf Servern.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["os", "bedienung"]
+    },
+    {
+      "id": "it-multitasking",
+      "front": "Multitasking",
+      "back": "Die Fähigkeit eines Betriebssystems, mehrere Programme scheinbar gleichzeitig laufen zu lassen.",
+      "notes": "Der Kernel teilt die CPU-Zeit schnell zwischen den Prozessen auf.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["os", "prozess"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Was ist ein Betriebssystem?",
+      "body": "# Betriebssysteme\n\nEin **Betriebssystem (operating system, OS)** ist die grundlegende Software eines Computers. Es verwaltet die **Hardware** und gibt anderen Programmen eine Umgebung, in der sie laufen können. Ohne Betriebssystem könntest du keinen Browser und kein Textprogramm starten.\n\nBekannte Betriebssysteme:\n\n- **Windows** — von Microsoft, auf Privat-PCs sehr verbreitet.\n- **Linux** — frei und quelloffen, stark auf Servern.\n- **macOS** — von Apple, nur auf Mac-Computern.\n\nDer **Kernel** ist der innerste Teil: Er steuert direkt die Hardware und verteilt Ressourcen wie CPU-Zeit und Arbeitsspeicher an die Programme."
+    },
+    {
+      "id": "step-aufgaben",
+      "type": "theory",
+      "title": "Dateien, Prozesse und Bedienung",
+      "body": "## Aufgaben des Betriebssystems\n\n**Dateien verwalten.** Das **Dateisystem (file system)** organisiert **Dateien** in **Ordnern (Verzeichnissen)** und findet sie wieder.\n\n**Programme ausführen.** Ein laufendes Programm heißt **Prozess**. Beim **Multitasking** laufen viele Prozesse scheinbar gleichzeitig — der Kernel teilt ihnen abwechselnd CPU-Zeit zu.\n\n**Hardware ansprechen.** Für jedes Gerät gibt es einen **Treiber (driver)**, der erklärt, wie das Gerät angesteuert wird.\n\n## Bedienung\n\n- **Benutzeroberfläche (GUI)** — grafisch, mit Fenstern und Symbolen.\n- **Kommandozeile (Terminal)** — textbasiert, man tippt Befehle ein."
+    },
+    {
+      "id": "ex-match-os",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Betriebssysteme und Begriffe",
+      "exercise": {
+        "id": "ex-match-os",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die passende Beschreibung zu.",
+        "card_ids": ["it-windows", "it-linux", "it-macos", "it-kernel"],
+        "pairs": [
+          {"left": "Windows", "right": "Betriebssystem von Microsoft"},
+          {"left": "Linux", "right": "freies, quelloffenes Betriebssystem"},
+          {"left": "macOS", "right": "Betriebssystem von Apple"},
+          {"left": "Kernel", "right": "Kern, der direkt die Hardware steuert"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-betriebssystem",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Die grundlegende Software",
+      "exercise": {
+        "id": "ex-free-betriebssystem",
+        "type": "free_text",
+        "prompt": "Wie heißt die grundlegende Software, die die Hardware verwaltet und Programme laufen lässt?",
+        "card_ids": ["it-betriebssystem"],
+        "accept": ["Betriebssystem", "das Betriebssystem", "Operating System", "OS"],
+        "hint": "Englisch 'operating system'.",
+        "distractors": ["Treiber", "Browser", "Prozessor"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-prozess",
+      "type": "exercise",
+      "theory_ref": "step-aufgaben",
+      "title": "Laufendes Programm",
+      "exercise": {
+        "id": "ex-cloze-prozess",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für ein laufendes Programm.",
+        "card_ids": ["it-prozess"],
+        "sentence": "Ein gerade laufendes Programm nennt man einen ___ .",
+        "blanks": [{"accept": ["Prozess"]}],
+        "cloze_mode": "type",
+        "hint": "Auf Englisch 'process'."
+      }
+    },
+    {
+      "id": "ex-free-dateisystem",
+      "type": "exercise",
+      "theory_ref": "step-aufgaben",
+      "title": "Dateien organisieren",
+      "exercise": {
+        "id": "ex-free-dateisystem",
+        "type": "free_text",
+        "prompt": "Wie nennt man die Methode, mit der das Betriebssystem Dateien und Ordner organisiert?",
+        "card_ids": ["it-dateisystem"],
+        "accept": ["Dateisystem", "das Dateisystem", "File System"],
+        "hint": "Englisch 'file system'.",
+        "distractors": ["Kernel", "Treiber", "Prozess"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-kernel",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Aufgabe des Kernels",
+      "exercise": {
+        "id": "ex-tiles-kernel",
+        "type": "word_tiles",
+        "prompt": "Setze den Satz über den Kernel zusammen.",
+        "card_ids": ["it-kernel"],
+        "tiles": ["Der", "Kernel", "steuert", "die", "Hardware"],
+        "hint": "Beginnt mit 'Der'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-treiber",
+      "type": "exercise",
+      "theory_ref": "step-aufgaben",
+      "title": "Hardware ansteuern",
+      "exercise": {
+        "id": "ex-cloze-treiber",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für die Software, die ein Gerät ansteuert.",
+        "card_ids": ["it-treiber"],
+        "sentence": "Ein ___ erklärt dem Betriebssystem, wie es ein Gerät wie einen Drucker ansteuert.",
+        "blanks": [{"accept": ["Treiber"]}],
+        "cloze_mode": "type",
+        "hint": "Auf Englisch 'driver'."
+      }
+    },
+    {
+      "id": "ex-pick-bedienung",
+      "type": "exercise",
+      "theory_ref": "step-aufgaben",
+      "title": "Grafische Bedienung",
+      "exercise": {
+        "id": "ex-pick-bedienung",
+        "type": "picture_choice",
+        "prompt": "Welche Art der Bedienung ist grafisch, mit Fenstern und Symbolen?",
+        "card_ids": ["it-benutzeroberflaeche", "it-kommandozeile"],
+        "images": [
+          {"src": "assets/img/gui.png", "label": "Benutzeroberfläche (GUI)", "is_correct": "true"},
+          {"src": "assets/img/terminal.png", "label": "Kommandozeile (Terminal)"},
+          {"src": "assets/img/kernel.png", "label": "Kernel"},
+          {"src": "assets/img/treiber.png", "label": "Treiber"}
+        ],
+        "hint": "Sie hat Fenster, Symbole und Menüs.",
+        "distractors": ["Kommandozeile (Terminal)", "Kernel", "Treiber"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

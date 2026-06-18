@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/adaptive-learner-content",
-  "generated": "2026-06-18T18:06:48Z",
+  "generated": "2026-06-18T18:07:45Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -487,8 +487,28 @@
       "trust_level": 3,
       "book": null,
       "updated_at": "2026-06-18T20:06:37+02:00"
+    },
+    {
+      "id": "it-grundlagen-from-de",
+      "name": "IT-Grundlagen",
+      "description": "Zehn Einführungslektionen in IT und Programmierung, auf Deutsch erklärt — von Hardware und Betriebssystemen bis zu Web-Grundlagen und IT-Sicherheit, mit den englischen Fachbegriffen in Klammern.",
+      "source_language": "de",
+      "target_language": "de",
+      "level": "a1",
+      "domain": "technology",
+      "lesson_count": 10,
+      "card_count": 115,
+      "tags": [
+        "beginner",
+        "technology",
+        "it"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-18T18:07:45Z"
     }
   ],
-  "total_lessons": 408,
-  "total_cards": 5130
+  "total_lessons": 418,
+  "total_cards": 5245
 }
