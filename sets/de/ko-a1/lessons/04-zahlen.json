@@ -1,0 +1,222 @@
+{
+  "id": "04-zahlen",
+  "title": "Zahlen",
+  "description": "Die beiden koreanischen Zahlensysteme: sino-koreanisch (il, i, sam ...) und nativ-koreanisch (hana, dul, set ...) — auf Deutsch erklärt.",
+  "target_language": "ko",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "il",
+      "front": "일",
+      "back": "eins (sino-koreanisch)",
+      "notes": "Romanisierung: il. Kontext: 일 번 (il beon) – Nummer eins. Sino-koreanisch für Daten, Geld, Telefonnummern.",
+      "difficulty": 1,
+      "tags": ["zahl", "sino"]
+    },
+    {
+      "id": "i",
+      "front": "이",
+      "back": "zwei (sino-koreanisch)",
+      "notes": "Romanisierung: i. Kontext: 이 층 (i cheung) – zweite Etage.",
+      "difficulty": 1,
+      "tags": ["zahl", "sino"]
+    },
+    {
+      "id": "sam",
+      "front": "삼",
+      "back": "drei (sino-koreanisch)",
+      "notes": "Romanisierung: sam. Kontext: 삼 월 (sam wol) – März (wörtlich 'dritter Monat').",
+      "difficulty": 1,
+      "tags": ["zahl", "sino"]
+    },
+    {
+      "id": "sa",
+      "front": "사",
+      "back": "vier (sino-koreanisch)",
+      "notes": "Romanisierung: sa. Kontext: 사 명 (sa myeong) – vier Personen.",
+      "difficulty": 1,
+      "tags": ["zahl", "sino"]
+    },
+    {
+      "id": "o",
+      "front": "오",
+      "back": "fünf (sino-koreanisch)",
+      "notes": "Romanisierung: o. Kontext: 오 분 (o bun) – fünf Minuten.",
+      "difficulty": 1,
+      "tags": ["zahl", "sino"]
+    },
+    {
+      "id": "yuk",
+      "front": "육",
+      "back": "sechs (sino-koreanisch)",
+      "notes": "Romanisierung: yuk. Kontext: 육 월 → 유월 (yuwol) – Juni.",
+      "difficulty": 2,
+      "tags": ["zahl", "sino"]
+    },
+    {
+      "id": "hana",
+      "front": "하나",
+      "back": "eins (nativ-koreanisch)",
+      "notes": "Romanisierung: hana. Kontext: 사과 하나 (sagwa hana) – ein Apfel. Nativ für Anzahl von Dingen.",
+      "difficulty": 1,
+      "tags": ["zahl", "nativ"]
+    },
+    {
+      "id": "dul",
+      "front": "둘",
+      "back": "zwei (nativ-koreanisch)",
+      "notes": "Romanisierung: dul. Kontext: 둘이서 (durieoseo) – zu zweit.",
+      "difficulty": 1,
+      "tags": ["zahl", "nativ"]
+    },
+    {
+      "id": "set",
+      "front": "셋",
+      "back": "drei (nativ-koreanisch)",
+      "notes": "Romanisierung: set. Kontext: 셋 다 (set da) – alle drei.",
+      "difficulty": 1,
+      "tags": ["zahl", "nativ"]
+    },
+    {
+      "id": "net",
+      "front": "넷",
+      "back": "vier (nativ-koreanisch)",
+      "notes": "Romanisierung: net. Kontext: 넷 중에 (net junge) – von den vieren.",
+      "difficulty": 1,
+      "tags": ["zahl", "nativ"]
+    },
+    {
+      "id": "daseot",
+      "front": "다섯",
+      "back": "fünf (nativ-koreanisch)",
+      "notes": "Romanisierung: daseot. Kontext: 다섯 시 (daseot si) – fünf Uhr.",
+      "difficulty": 2,
+      "tags": ["zahl", "nativ"]
+    },
+    {
+      "id": "yeoseot",
+      "front": "여섯",
+      "back": "sechs (nativ-koreanisch)",
+      "notes": "Romanisierung: yeoseot. Kontext: 여섯 개 (yeoseot gae) – sechs Stück.",
+      "difficulty": 2,
+      "tags": ["zahl", "nativ"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Zwei Zahlensysteme",
+      "body": "# Koreanische Zahlen\n\nKoreanisch hat **zwei** Zahlensysteme, die man je nach Situation verwendet:\n\n## Sino-koreanisch (chinesischer Ursprung)\nFür Daten, Geld, Telefonnummern, Minuten, Adressen.\n\n| Zahl | Hangul | Romanisierung |\n|---|---|---|\n| 1 | 일 | il |\n| 2 | 이 | i |\n| 3 | 삼 | sam |\n| 4 | 사 | sa |\n| 5 | 오 | o |\n| 6 | 육 | yuk |\n\n## Nativ-koreanisch\nFür Anzahl von Dingen, Alter, Stunden.\n\n| Zahl | Hangul | Romanisierung |\n|---|---|---|\n| 1 | 하나 | hana |\n| 2 | 둘 | dul |\n| 3 | 셋 | set |\n| 4 | 넷 | net |\n| 5 | 다섯 | daseot |\n| 6 | 여섯 | yeoseot |"
+    },
+    {
+      "id": "step-anwendung",
+      "type": "theory",
+      "title": "Wann welches System?",
+      "body": "## Faustregel\n\n- **Sino-koreanisch**: 'wie viel?' im Sinne von Maßeinheiten — Geld (원 won), Minuten (분 bun), Monate, Datum.\n- **Nativ-koreanisch**: 'wie viele?' beim Zählen von Gegenständen (개 gae 'Stück'), Personen (명 myeong) und bei der vollen Stunde (시 si).\n\nBeispiel: **다섯 시 삼십 분 (daseot si samsip bun)** — 5 Uhr 30 (Stunde nativ, Minuten sino)."
+    },
+    {
+      "id": "ex-match-sino",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Sino-koreanisch zuordnen",
+      "exercise": {
+        "id": "ex-match-sino",
+        "type": "matching",
+        "prompt": "Ordne die sino-koreanischen Zahlen zu.",
+        "card_ids": ["il", "i", "sam", "o"],
+        "pairs": [
+          {"left": "일", "right": "eins"},
+          {"left": "이", "right": "zwei"},
+          {"left": "삼", "right": "drei"},
+          {"left": "오", "right": "fünf"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-nativ",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Nativ-koreanisch zuordnen",
+      "exercise": {
+        "id": "ex-match-nativ",
+        "type": "matching",
+        "prompt": "Ordne die nativ-koreanischen Zahlen zu.",
+        "card_ids": ["hana", "dul", "set", "daseot"],
+        "pairs": [
+          {"left": "하나", "right": "eins"},
+          {"left": "둘", "right": "zwei"},
+          {"left": "셋", "right": "drei"},
+          {"left": "다섯", "right": "fünf"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-drei-sino",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Drei (sino)",
+      "exercise": {
+        "id": "ex-free-drei-sino",
+        "type": "free_text",
+        "prompt": "Wie heißt 'drei' im sino-koreanischen System? (Hangul oder Romanisierung)",
+        "card_ids": ["sam"],
+        "accept": ["삼", "sam", "Sam"],
+        "hint": "Klingt wie 'sam'.",
+        "distractors": ["셋", "set", "이"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-zwei-nativ",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zwei (nativ)",
+      "exercise": {
+        "id": "ex-free-zwei-nativ",
+        "type": "free_text",
+        "prompt": "Wie heißt 'zwei' im nativ-koreanischen System? (Hangul oder Romanisierung)",
+        "card_ids": ["dul"],
+        "accept": ["둘", "dul", "Dul"],
+        "hint": "Klingt wie 'dul'.",
+        "distractors": ["이", "i", "하나"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-apfel",
+      "type": "exercise",
+      "theory_ref": "step-anwendung",
+      "title": "Lücke füllen: ein Apfel",
+      "exercise": {
+        "id": "ex-cloze-apfel",
+        "type": "cloze",
+        "prompt": "Beim Zählen von Dingen nimmt man nativ. Ergänze 'eins'.",
+        "card_ids": ["hana"],
+        "sentence": "사과 ___ 주세요.",
+        "blanks": [{"accept": ["하나", "hana"]}],
+        "cloze_mode": "type",
+        "hint": "'einen Apfel, bitte' — nativ 'eins'."
+      }
+    },
+    {
+      "id": "ex-tiles-1-2-3-sino",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Sino-Zahlen ordnen",
+      "exercise": {
+        "id": "ex-tiles-1-2-3-sino",
+        "type": "word_tiles",
+        "prompt": "Ordne die sino-koreanischen Zahlen 1, 2, 3 in der richtigen Reihenfolge.",
+        "card_ids": ["il", "i", "sam"],
+        "tiles": ["일", "이", "삼"],
+        "hint": "il, i, sam.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

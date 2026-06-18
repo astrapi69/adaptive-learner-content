@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/adaptive-learner-content",
-  "generated": "2026-06-18T17:59:04Z",
+  "generated": "2026-06-18T18:00:03Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -411,8 +411,27 @@
       "trust_level": 3,
       "book": null,
       "updated_at": "2026-06-18T19:58:54+02:00"
+    },
+    {
+      "id": "ko-a1-from-de",
+      "name": "Koreanisch A1 (für Deutschsprachige)",
+      "description": "Zehn A1-Lektionen Koreanisch, auf Deutsch erklärt — vom Hangul-Lesen bis zu den Höflichkeitsstufen.",
+      "source_language": "de",
+      "target_language": "ko",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 10,
+      "card_count": 119,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-18T18:00:03Z"
     }
   ],
-  "total_lessons": 368,
-  "total_cards": 4634
+  "total_lessons": 378,
+  "total_cards": 4753
 }

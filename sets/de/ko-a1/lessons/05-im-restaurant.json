@@ -1,0 +1,224 @@
+{
+  "id": "05-im-restaurant",
+  "title": "Im Restaurant",
+  "description": "Essen und Trinken bestellen, höflich um etwas bitten und die Rechnung verlangen — auf Deutsch erklärt.",
+  "target_language": "ko",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "juseyo",
+      "front": "주세요",
+      "back": "Bitte geben Sie mir / Ich hätte gern",
+      "notes": "Romanisierung: juseyo. Kontext: 물 주세요 (mul juseyo) – Wasser, bitte.",
+      "difficulty": 1,
+      "tags": ["restaurant", "hoeflichkeit"]
+    },
+    {
+      "id": "mul",
+      "front": "물",
+      "back": "Wasser",
+      "notes": "Romanisierung: mul. Kontext: 물 한 잔 주세요 (mul han jan juseyo) – Ein Glas Wasser, bitte.",
+      "difficulty": 1,
+      "tags": ["restaurant", "getraenk"]
+    },
+    {
+      "id": "bap",
+      "front": "밥",
+      "back": "Reis / Essen / Mahlzeit",
+      "notes": "Romanisierung: bap. Kontext: 밥 먹었어요? (bap meogeosseoyo?) – Hast du gegessen? (wörtlich 'Reis gegessen?').",
+      "difficulty": 1,
+      "tags": ["restaurant", "essen"]
+    },
+    {
+      "id": "meokda",
+      "front": "먹다",
+      "back": "essen (Grundform)",
+      "notes": "Romanisierung: meokda. Kontext: 밥을 먹어요 (babeul meogeoyo) – Ich esse (Reis). Höfliche Form: 먹어요 (meogeoyo).",
+      "difficulty": 2,
+      "tags": ["restaurant", "verb"]
+    },
+    {
+      "id": "mashida",
+      "front": "마시다",
+      "back": "trinken (Grundform)",
+      "notes": "Romanisierung: mashida. Kontext: 물을 마셔요 (mureul masyeoyo) – Ich trinke Wasser. Höfliche Form: 마셔요 (masyeoyo).",
+      "difficulty": 2,
+      "tags": ["restaurant", "verb"]
+    },
+    {
+      "id": "masisseoyo",
+      "front": "맛있어요",
+      "back": "Es ist lecker",
+      "notes": "Romanisierung: masisseoyo. Kontext: 이거 정말 맛있어요 (igeo jeongmal masisseoyo) – Das ist wirklich lecker.",
+      "difficulty": 2,
+      "tags": ["restaurant", "adjektiv"]
+    },
+    {
+      "id": "gyesanseo",
+      "front": "계산서",
+      "back": "die Rechnung",
+      "notes": "Romanisierung: gyesanseo. Kontext: 계산서 주세요 (gyesanseo juseyo) – Die Rechnung, bitte.",
+      "difficulty": 2,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "menyu",
+      "front": "메뉴",
+      "back": "die Speisekarte",
+      "notes": "Romanisierung: menyu. Kontext: 메뉴 주세요 (menyu juseyo) – Die Speisekarte, bitte.",
+      "difficulty": 1,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "kkeopi",
+      "front": "커피",
+      "back": "Kaffee",
+      "notes": "Romanisierung: keopi. Kontext: 커피 한 잔 주세요 (keopi han jan juseyo) – Eine Tasse Kaffee, bitte.",
+      "difficulty": 1,
+      "tags": ["restaurant", "getraenk"]
+    },
+    {
+      "id": "han-jan",
+      "front": "한 잔",
+      "back": "ein Glas / eine Tasse",
+      "notes": "Romanisierung: han jan. Kontext: 물 한 잔 주세요 (mul han jan juseyo) – Ein Glas Wasser, bitte. 한 = nativ 'eins' vor Zähleinheit.",
+      "difficulty": 2,
+      "tags": ["restaurant", "zaehleinheit"]
+    },
+    {
+      "id": "yeogiyo",
+      "front": "여기요",
+      "back": "Hallo! / Hier bitte! (Kellner rufen)",
+      "notes": "Romanisierung: yeogiyo. Kontext: 여기요, 메뉴 주세요 (yeogiyo, menyu juseyo) – Entschuldigung, die Karte bitte.",
+      "difficulty": 2,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "baegopayo",
+      "front": "배고파요",
+      "back": "Ich habe Hunger",
+      "notes": "Romanisierung: baegopayo. Kontext: 너무 배고파요 (neomu baegopayo) – Ich habe großen Hunger.",
+      "difficulty": 2,
+      "tags": ["restaurant", "adjektiv"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Bestellen mit 주세요",
+      "body": "# Im Restaurant\n\nDas wichtigste Wort beim Bestellen ist **주세요 (juseyo)** — 'Bitte geben Sie mir'. Du sagst einfach das Gewünschte davor:\n\n- **물 주세요.** (mul juseyo) — Wasser, bitte.\n- **메뉴 주세요.** (menyu juseyo) — Die Karte, bitte.\n- **커피 한 잔 주세요.** (keopi han jan juseyo) — Eine Tasse Kaffee, bitte.\n\nUm den Kellner zu rufen, sagt man **여기요! (yeogiyo)** — 'Hier bitte!'."
+    },
+    {
+      "id": "step-verben",
+      "type": "theory",
+      "title": "Essen, trinken, lecker",
+      "body": "## Verben und Ausdrücke\n\n- **먹다 (meokda)** — essen → höflich **먹어요 (meogeoyo)**\n- **마시다 (mashida)** — trinken → höflich **마셔요 (masyeoyo)**\n- **맛있어요 (masisseoyo)** — Es ist lecker!\n- **배고파요 (baegopayo)** — Ich habe Hunger.\n\nNach dem Essen bittest du um die Rechnung: **계산서 주세요. (gyesanseo juseyo)**"
+    },
+    {
+      "id": "ex-match-restaurant",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wörter zuordnen",
+      "exercise": {
+        "id": "ex-match-restaurant",
+        "type": "matching",
+        "prompt": "Ordne jedem koreanischen Wort die deutsche Bedeutung zu.",
+        "card_ids": ["mul", "bap", "menyu", "gyesanseo"],
+        "pairs": [
+          {"left": "물", "right": "Wasser"},
+          {"left": "밥", "right": "Reis / Essen"},
+          {"left": "메뉴", "right": "die Speisekarte"},
+          {"left": "계산서", "right": "die Rechnung"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-wasser-bitte",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wasser bestellen",
+      "exercise": {
+        "id": "ex-free-wasser-bitte",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Wasser, bitte'? (Hangul oder Romanisierung)",
+        "card_ids": ["mul", "juseyo"],
+        "accept": ["물 주세요", "mul juseyo", "Mul juseyo"],
+        "hint": "Wasser + 주세요.",
+        "distractors": ["계산서 주세요", "맛있어요", "커피 주세요"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-lecker",
+      "type": "exercise",
+      "theory_ref": "step-verben",
+      "title": "Es ist lecker",
+      "exercise": {
+        "id": "ex-free-lecker",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Es ist lecker'? (Hangul oder Romanisierung)",
+        "card_ids": ["masisseoyo"],
+        "accept": ["맛있어요", "masisseoyo", "Masisseoyo"],
+        "hint": "Beginnt mit 맛...",
+        "distractors": ["배고파요", "주세요", "계산서"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-rechnung",
+      "type": "exercise",
+      "theory_ref": "step-verben",
+      "title": "Lücke füllen: Rechnung",
+      "exercise": {
+        "id": "ex-cloze-rechnung",
+        "type": "cloze",
+        "prompt": "Bitte um die Rechnung. Ergänze das passende Wort.",
+        "card_ids": ["gyesanseo", "juseyo"],
+        "sentence": "___ 주세요.",
+        "blanks": [{"accept": ["계산서", "gyesanseo"]}],
+        "cloze_mode": "type",
+        "hint": "Das Wort für 'Rechnung'."
+      }
+    },
+    {
+      "id": "ex-tiles-kaffee",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Kaffee bestellen",
+      "exercise": {
+        "id": "ex-tiles-kaffee",
+        "type": "word_tiles",
+        "prompt": "Baue den Satz 'Eine Tasse Kaffee, bitte.'",
+        "card_ids": ["keopi", "han-jan", "juseyo"],
+        "tiles": ["커피", "한", "잔", "주세요"],
+        "hint": "Kaffee + eine Tasse + bitte.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-hunger",
+      "type": "exercise",
+      "theory_ref": "step-verben",
+      "title": "Hunger erkennen",
+      "exercise": {
+        "id": "ex-pick-hunger",
+        "type": "picture_choice",
+        "prompt": "Welcher Satz bedeutet 'Ich habe Hunger'?",
+        "card_ids": ["baegopayo"],
+        "images": [
+          {"src": "assets/img/baegopayo.png", "label": "배고파요", "is_correct": "true"},
+          {"src": "assets/img/masisseoyo.png", "label": "맛있어요"},
+          {"src": "assets/img/mul.png", "label": "물 주세요"},
+          {"src": "assets/img/gyesanseo.png", "label": "계산서 주세요"}
+        ],
+        "hint": "Ein Gefühl, kein Bestellsatz.",
+        "distractors": ["맛있어요", "물 주세요", "계산서 주세요"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

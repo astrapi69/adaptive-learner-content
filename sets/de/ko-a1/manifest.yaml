@@ -1,0 +1,45 @@
+# Koreanisch A1 (für Deutschsprachige) — Set-Manifest
+#
+# Koreanisch lernen, mit Erklärungen und Übersetzungen auf Deutsch.
+# Der Content-Loader liest ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.3'
+name: Koreanisch A1 (für Deutschsprachige)
+description: >-
+  Vollständiger A1-Kurs Koreanisch für Deutschsprachige (10
+  Lektionen): Hangul lesen, Begrüßungen, sich vorstellen, Zahlen
+  (sino-koreanisch und nativ), im Restaurant, Einkaufen, Uhrzeit
+  und Wochentage, Familie, Gefühle und Adjektive sowie ein
+  Überblick über die Höflichkeitsstufen. Karten-Rückseiten,
+  Notizen und Theorie auf Deutsch; alle Vokabeln in Hangul mit
+  Revidierter Romanisierung.
+sets:
+  - id: ko-a1-from-de
+    title: Koreanisch A1 (für Deutschsprachige)
+    title_native: 한국어 A1
+    target_language: ko
+    source_language: de
+    level: A1
+    path: sets/de/ko-a1
+    version: '1.0.0'
+    lesson_count: 10
+    domain: language
+    description: >-
+      Zehn A1-Lektionen Koreanisch, auf Deutsch erklärt — vom
+      Hangul-Lesen bis zu den Höflichkeitsstufen.
+    tags:
+      - beginner
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-hangul-lesen.json
+    - 02-begruessungen.json
+    - 03-sich-vorstellen.json
+    - 04-zahlen.json
+    - 05-im-restaurant.json
+    - 06-einkaufen.json
+    - 07-uhrzeit-und-tage.json
+    - 08-familie.json
+    - 09-gefuehle-und-adjektive.json
+    - 10-hoeflichkeitsstufen.json

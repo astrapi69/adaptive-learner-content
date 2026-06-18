@@ -1,0 +1,224 @@
+{
+  "id": "07-uhrzeit-und-tage",
+  "title": "Uhrzeit und Tage",
+  "description": "Nach der Uhrzeit fragen, die Wochentage nennen und über heute und morgen sprechen — auf Deutsch erklärt.",
+  "target_language": "ko",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "myeot-siyeyo",
+      "front": "몇 시예요?",
+      "back": "Wie spät ist es?",
+      "notes": "Romanisierung: myeot siyeyo? Kontext: 지금 몇 시예요? (jigeum myeot siyeyo?) – Wie spät ist es jetzt?",
+      "difficulty": 2,
+      "tags": ["zeit", "frage"]
+    },
+    {
+      "id": "si",
+      "front": "시",
+      "back": "Uhr (Stunde)",
+      "notes": "Romanisierung: si. Kontext: 세 시예요 (se siyeyo) – Es ist drei Uhr. Stunden mit nativen Zahlen!",
+      "difficulty": 2,
+      "tags": ["zeit"]
+    },
+    {
+      "id": "bun",
+      "front": "분",
+      "back": "Minute",
+      "notes": "Romanisierung: bun. Kontext: 삼십 분 (samsip bun) – 30 Minuten. Minuten mit sino-koreanischen Zahlen!",
+      "difficulty": 2,
+      "tags": ["zeit"]
+    },
+    {
+      "id": "woryoil",
+      "front": "월요일",
+      "back": "Montag",
+      "notes": "Romanisierung: woryoil. Kontext: 월요일에 만나요 (woryoire mannayo) – Wir treffen uns am Montag.",
+      "difficulty": 1,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "hwayoil",
+      "front": "화요일",
+      "back": "Dienstag",
+      "notes": "Romanisierung: hwayoil. Kontext: 화요일이에요 (hwayoirieyo) – Es ist Dienstag.",
+      "difficulty": 1,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "suyoil",
+      "front": "수요일",
+      "back": "Mittwoch",
+      "notes": "Romanisierung: suyoil. Kontext: 수요일에 수업이 있어요 (suyoire sueobi isseoyo) – Am Mittwoch habe ich Unterricht.",
+      "difficulty": 1,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "mogyoil",
+      "front": "목요일",
+      "back": "Donnerstag",
+      "notes": "Romanisierung: mogyoil. Kontext: 목요일이에요 (mogyoirieyo) – Es ist Donnerstag.",
+      "difficulty": 1,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "geumyoil",
+      "front": "금요일",
+      "back": "Freitag",
+      "notes": "Romanisierung: geumyoil. Kontext: 금요일 좋아요 (geumyoil joayo) – Ich mag Freitag.",
+      "difficulty": 1,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "toyoil",
+      "front": "토요일",
+      "back": "Samstag",
+      "notes": "Romanisierung: toyoil. Kontext: 토요일에 쉬어요 (toyoire swieoyo) – Am Samstag ruhe ich mich aus.",
+      "difficulty": 1,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "iryoil",
+      "front": "일요일",
+      "back": "Sonntag",
+      "notes": "Romanisierung: iryoil. Kontext: 일요일에 교회에 가요 (iryoire gyohoee gayo) – Am Sonntag gehe ich in die Kirche.",
+      "difficulty": 1,
+      "tags": ["wochentag"]
+    },
+    {
+      "id": "oneul",
+      "front": "오늘",
+      "back": "heute",
+      "notes": "Romanisierung: oneul. Kontext: 오늘 뭐 해요? (oneul mwo haeyo?) – Was machst du heute?",
+      "difficulty": 1,
+      "tags": ["zeit"]
+    },
+    {
+      "id": "naeil",
+      "front": "내일",
+      "back": "morgen",
+      "notes": "Romanisierung: naeil. Kontext: 내일 만나요 (naeil mannayo) – Wir sehen uns morgen.",
+      "difficulty": 1,
+      "tags": ["zeit"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Nach der Uhrzeit fragen",
+      "body": "# Uhrzeit\n\nDie Frage nach der Uhrzeit ist **몇 시예요? (myeot siyeyo?)** — 'Wie spät ist es?'\n\nAchtung beim Antworten — Koreanisch mischt die Zahlensysteme:\n\n- **Stunden** mit **nativen** Zahlen + 시 (si): 한 시 (han si) = 1 Uhr, 세 시 (se si) = 3 Uhr\n- **Minuten** mit **sino-koreanischen** Zahlen + 분 (bun): 십 분 (sip bun) = 10 Min\n\nBeispiel: **세 시 삼십 분 (se si samsip bun)** — 3 Uhr 30."
+    },
+    {
+      "id": "step-tage",
+      "type": "theory",
+      "title": "Wochentage",
+      "body": "## Wochentage\n\nAlle enden auf **요일 (yoil)** = 'Tag der Woche':\n\n| Tag | Hangul | Romanisierung |\n|---|---|---|\n| Montag | 월요일 | woryoil |\n| Dienstag | 화요일 | hwayoil |\n| Mittwoch | 수요일 | suyoil |\n| Donnerstag | 목요일 | mogyoil |\n| Freitag | 금요일 | geumyoil |\n| Samstag | 토요일 | toyoil |\n| Sonntag | 일요일 | iryoil |\n\nUnd: **오늘 (oneul)** = heute, **내일 (naeil)** = morgen."
+    },
+    {
+      "id": "ex-match-tage",
+      "type": "exercise",
+      "theory_ref": "step-tage",
+      "title": "Wochentage zuordnen",
+      "exercise": {
+        "id": "ex-match-tage",
+        "type": "matching",
+        "prompt": "Ordne jedem koreanischen Wochentag den deutschen zu.",
+        "card_ids": ["woryoil", "suyoil", "geumyoil", "iryoil"],
+        "pairs": [
+          {"left": "월요일", "right": "Montag"},
+          {"left": "수요일", "right": "Mittwoch"},
+          {"left": "금요일", "right": "Freitag"},
+          {"left": "일요일", "right": "Sonntag"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-wie-spaet",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Nach der Uhrzeit fragen",
+      "exercise": {
+        "id": "ex-free-wie-spaet",
+        "type": "free_text",
+        "prompt": "Wie fragt man 'Wie spät ist es?' (Hangul oder Romanisierung)",
+        "card_ids": ["myeot-siyeyo"],
+        "accept": ["몇 시예요?", "몇 시예요", "myeot siyeyo", "myeot siyeyo?"],
+        "hint": "몇 = wie viele/welche.",
+        "distractors": ["오늘 뭐 해요?", "내일 만나요", "월요일이에요"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-heute",
+      "type": "exercise",
+      "theory_ref": "step-tage",
+      "title": "Heute",
+      "exercise": {
+        "id": "ex-free-heute",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'heute'? (Hangul oder Romanisierung)",
+        "card_ids": ["oneul"],
+        "accept": ["오늘", "oneul", "Oneul"],
+        "hint": "Zwei Silben, beginnt mit 오.",
+        "distractors": ["내일", "naeil", "월요일"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-morgen",
+      "type": "exercise",
+      "theory_ref": "step-tage",
+      "title": "Lücke füllen: morgen",
+      "exercise": {
+        "id": "ex-cloze-morgen",
+        "type": "cloze",
+        "prompt": "Ergänze das Wort für 'morgen'.",
+        "card_ids": ["naeil"],
+        "sentence": "___ 만나요.",
+        "blanks": [{"accept": ["내일", "naeil"]}],
+        "cloze_mode": "type",
+        "hint": "Nicht heute, sondern der Tag danach."
+      }
+    },
+    {
+      "id": "ex-tiles-drei-uhr",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Uhrzeit zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-drei-uhr",
+        "type": "word_tiles",
+        "prompt": "Baue 'Es ist drei Uhr.' (nativ 'drei' + 시 + 예요)",
+        "card_ids": ["si"],
+        "tiles": ["세", "시", "예요"],
+        "hint": "세 = nativ 'drei'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-samstag",
+      "type": "exercise",
+      "theory_ref": "step-tage",
+      "title": "Samstag erkennen",
+      "exercise": {
+        "id": "ex-pick-samstag",
+        "type": "picture_choice",
+        "prompt": "Welcher Tag ist 'Samstag'?",
+        "card_ids": ["toyoil"],
+        "images": [
+          {"src": "assets/img/toyoil.png", "label": "토요일", "is_correct": "true"},
+          {"src": "assets/img/woryoil.png", "label": "월요일"},
+          {"src": "assets/img/mogyoil.png", "label": "목요일"},
+          {"src": "assets/img/iryoil.png", "label": "일요일"}
+        ],
+        "hint": "Beginnt mit 토.",
+        "distractors": ["월요일", "목요일", "일요일"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

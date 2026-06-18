@@ -1,0 +1,214 @@
+{
+  "id": "08-familie",
+  "title": "Familie",
+  "description": "Familienmitglieder benennen — und das koreanische Besondere: Geschwister-Wörter hängen davon ab, wer spricht — auf Deutsch erklärt.",
+  "target_language": "ko",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "eomma",
+      "front": "엄마",
+      "back": "Mama",
+      "notes": "Romanisierung: eomma. Kontext: 우리 엄마예요 (uri eommayeyo) – Das ist meine Mama. Förmlich: 어머니 (eomeoni).",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "appa",
+      "front": "아빠",
+      "back": "Papa",
+      "notes": "Romanisierung: appa. Kontext: 우리 아빠예요 (uri appayeyo) – Das ist mein Papa. Förmlich: 아버지 (abeoji).",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "hyeong",
+      "front": "형",
+      "back": "älterer Bruder (von einem Mann)",
+      "notes": "Romanisierung: hyeong. Kontext: 우리 형 (uri hyeong) – mein großer Bruder. Nur ein Mann sagt 형.",
+      "difficulty": 2,
+      "tags": ["familie", "geschwister"]
+    },
+    {
+      "id": "nuna",
+      "front": "누나",
+      "back": "ältere Schwester (von einem Mann)",
+      "notes": "Romanisierung: nuna. Kontext: 우리 누나 (uri nuna) – meine große Schwester. Nur ein Mann sagt 누나.",
+      "difficulty": 2,
+      "tags": ["familie", "geschwister"]
+    },
+    {
+      "id": "oppa",
+      "front": "오빠",
+      "back": "älterer Bruder (von einer Frau)",
+      "notes": "Romanisierung: oppa. Kontext: 우리 오빠 (uri oppa) – mein großer Bruder. Nur eine Frau sagt 오빠.",
+      "difficulty": 2,
+      "tags": ["familie", "geschwister"]
+    },
+    {
+      "id": "eonni",
+      "front": "언니",
+      "back": "ältere Schwester (von einer Frau)",
+      "notes": "Romanisierung: eonni. Kontext: 우리 언니 (uri eonni) – meine große Schwester. Nur eine Frau sagt 언니.",
+      "difficulty": 2,
+      "tags": ["familie", "geschwister"]
+    },
+    {
+      "id": "dongsaeng",
+      "front": "동생",
+      "back": "jüngeres Geschwister",
+      "notes": "Romanisierung: dongsaeng. Kontext: 남동생 (namdongsaeng) – jüngerer Bruder, 여동생 (yeodongsaeng) – jüngere Schwester.",
+      "difficulty": 2,
+      "tags": ["familie", "geschwister"]
+    },
+    {
+      "id": "gajok",
+      "front": "가족",
+      "back": "Familie",
+      "notes": "Romanisierung: gajok. Kontext: 우리 가족이에요 (uri gajogieyo) – Das ist meine Familie.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "harabeoji",
+      "front": "할아버지",
+      "back": "Großvater",
+      "notes": "Romanisierung: harabeoji. Kontext: 할아버지 댁 (harabeoji daek) – Opas Haus.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "halmeoni",
+      "front": "할머니",
+      "back": "Großmutter",
+      "notes": "Romanisierung: halmeoni. Kontext: 할머니가 좋아요 (halmeoniga joayo) – Ich mag Oma.",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "uri",
+      "front": "우리",
+      "back": "wir / unser (oft 'mein' bei Familie)",
+      "notes": "Romanisierung: uri. Kontext: 우리 엄마 (uri eomma) – 'meine Mama' (wörtlich 'unsere Mama'). Koreaner sagen oft 'unser' statt 'mein'.",
+      "difficulty": 2,
+      "tags": ["familie", "pronomen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Familie",
+      "body": "# Familie\n\n**가족 (gajok)** heißt 'Familie'. Die engsten Mitglieder:\n\n- **엄마 (eomma)** — Mama, **아빠 (appa)** — Papa\n- **할아버지 (harabeoji)** — Großvater, **할머니 (halmeoni)** — Großmutter\n\nBesonderheit: Bei Familie sagen Koreaner oft **우리 (uri)** 'unser' statt 'mein' — **우리 엄마** = 'meine Mama'."
+    },
+    {
+      "id": "step-geschwister",
+      "type": "theory",
+      "title": "Geschwister — wer spricht?",
+      "body": "## Geschwister hängen vom Sprecher ab\n\nKoreanisch hat für ältere Geschwister verschiedene Wörter — je nachdem, **ob ein Mann oder eine Frau** spricht:\n\n| ältere/r ... | Mann sagt | Frau sagt |\n|---|---|---|\n| Bruder | 형 (hyeong) | 오빠 (oppa) |\n| Schwester | 누나 (nuna) | 언니 (eonni) |\n\nFür **jüngere** Geschwister gilt für beide: **동생 (dongsaeng)** — genauer 남동생 (jüngerer Bruder), 여동생 (jüngere Schwester)."
+    },
+    {
+      "id": "ex-match-familie",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Familienwörter zuordnen",
+      "exercise": {
+        "id": "ex-match-familie",
+        "type": "matching",
+        "prompt": "Ordne jedem koreanischen Wort die deutsche Bedeutung zu.",
+        "card_ids": ["eomma", "appa", "gajok", "halmeoni"],
+        "pairs": [
+          {"left": "엄마", "right": "Mama"},
+          {"left": "아빠", "right": "Papa"},
+          {"left": "가족", "right": "Familie"},
+          {"left": "할머니", "right": "Großmutter"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-geschwister",
+      "type": "exercise",
+      "theory_ref": "step-geschwister",
+      "title": "Geschwister zuordnen",
+      "exercise": {
+        "id": "ex-match-geschwister",
+        "type": "matching",
+        "prompt": "Ordne die Geschwister-Wörter zu.",
+        "card_ids": ["hyeong", "nuna", "oppa", "eonni"],
+        "pairs": [
+          {"left": "형", "right": "älterer Bruder (von einem Mann)"},
+          {"left": "누나", "right": "ältere Schwester (von einem Mann)"},
+          {"left": "오빠", "right": "älterer Bruder (von einer Frau)"},
+          {"left": "언니", "right": "ältere Schwester (von einer Frau)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-mama",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Mama",
+      "exercise": {
+        "id": "ex-free-mama",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Mama'? (Hangul oder Romanisierung)",
+        "card_ids": ["eomma"],
+        "accept": ["엄마", "eomma", "Eomma"],
+        "hint": "Zwei Silben, beginnt mit 엄.",
+        "distractors": ["아빠", "appa", "누나"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-oppa",
+      "type": "exercise",
+      "theory_ref": "step-geschwister",
+      "title": "Großer Bruder (von einer Frau)",
+      "exercise": {
+        "id": "ex-free-oppa",
+        "type": "free_text",
+        "prompt": "Eine Frau nennt ihren älteren Bruder ___ ? (Hangul oder Romanisierung)",
+        "card_ids": ["oppa"],
+        "accept": ["오빠", "oppa", "Oppa"],
+        "hint": "Nicht 형 — das sagt ein Mann.",
+        "distractors": ["형", "hyeong", "언니"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-meine-mama",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke füllen: meine Mama",
+      "exercise": {
+        "id": "ex-cloze-meine-mama",
+        "type": "cloze",
+        "prompt": "Ergänze das Wort, das Koreaner statt 'mein' bei Familie benutzen.",
+        "card_ids": ["uri", "eomma"],
+        "sentence": "___ 엄마예요.",
+        "blanks": [{"accept": ["우리", "uri"]}],
+        "cloze_mode": "type",
+        "hint": "Wörtlich 'unsere'."
+      }
+    },
+    {
+      "id": "ex-tiles-meine-familie",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Das ist meine Familie",
+      "exercise": {
+        "id": "ex-tiles-meine-familie",
+        "type": "word_tiles",
+        "prompt": "Baue den Satz 'Das ist meine Familie.'",
+        "card_ids": ["uri", "gajok"],
+        "tiles": ["우리", "가족이에요"],
+        "hint": "우리 + Familie + ist.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
