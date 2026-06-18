@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/adaptive-learner-content",
-  "generated": "2026-06-18T18:03:32Z",
+  "generated": "2026-06-18T18:04:36Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -449,8 +449,27 @@
       "trust_level": 3,
       "book": null,
       "updated_at": "2026-06-18T20:03:19+02:00"
+    },
+    {
+      "id": "pt-br-a1-from-de",
+      "name": "Portugiesisch (Brasilianisch) A1 (für Deutschsprachige)",
+      "description": "Zehn A1-Lektionen brasilianisches Portugiesisch, auf Deutsch erklärt — vom ersten Gruß bis zur Reise. Brasilianische Vokabeln und Schreibweise, mit Hinweisen zum europäischen Portugiesisch.",
+      "source_language": "de",
+      "target_language": "pt",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 10,
+      "card_count": 130,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-18T18:04:36Z"
     }
   ],
-  "total_lessons": 388,
-  "total_cards": 4878
+  "total_lessons": 398,
+  "total_cards": 5008
 }

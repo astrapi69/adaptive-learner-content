@@ -1,0 +1,49 @@
+# Portugiesisch (Brasilianisch) A1 (für Deutschsprachige) — Set-Manifest
+#
+# Brasilianisches Portugiesisch lernen, mit Erklärungen und
+# Übersetzungen auf Deutsch. Der Content-Loader liest
+# ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.3'
+name: Portugiesisch (Brasilianisch) A1 (für Deutschsprachige)
+description: >-
+  Vollständiger A1-Kurs brasilianisches Portugiesisch für
+  Deutschsprachige (10 Lektionen): Begrüßungen, sich vorstellen,
+  Zahlen 1-30, im Restaurant, Einkaufen, Artikel und Geschlecht,
+  Uhrzeit und Wochentage, Familie, Alltag sowie Reisen. Es wird
+  durchgehend die brasilianische Variante verwendet (z. B. ônibus,
+  trem, celular, você); Unterschiede zum europäischen
+  Portugiesisch werden vermerkt. Karten-Rückseiten, Notizen und
+  Theorie auf Deutsch.
+sets:
+  - id: pt-br-a1-from-de
+    title: Portugiesisch (Brasilianisch) A1 (für Deutschsprachige)
+    title_native: Português (Brasil) A1
+    target_language: pt
+    source_language: de
+    level: A1
+    path: sets/de/pt-a1
+    version: '1.0.0'
+    lesson_count: 10
+    domain: language
+    description: >-
+      Zehn A1-Lektionen brasilianisches Portugiesisch, auf Deutsch
+      erklärt — vom ersten Gruß bis zur Reise. Brasilianische
+      Vokabeln und Schreibweise, mit Hinweisen zum europäischen
+      Portugiesisch.
+    tags:
+      - beginner
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-begruessungen.json
+    - 02-sich-vorstellen.json
+    - 03-zahlen-1-30.json
+    - 04-im-restaurant.json
+    - 05-einkaufen.json
+    - 06-artikel-und-geschlecht.json
+    - 07-uhrzeit-und-tage.json
+    - 08-familie.json
+    - 09-alltag.json
+    - 10-reisen.json

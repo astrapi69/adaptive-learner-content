@@ -1,0 +1,233 @@
+{
+  "id": "10-reisen",
+  "title": "Reisen",
+  "description": "Reisewortschatz im brasilianischen Portugiesisch: Flughafen, Hotel, Strand, Verkehrsmittel — auf Deutsch erklärt.",
+  "target_language": "pt",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "o-aeroporto",
+      "front": "o aeroporto",
+      "back": "der Flughafen",
+      "notes": "Kontext: Vou para o aeroporto. – Ich fahre zum Flughafen.",
+      "difficulty": 2,
+      "tags": ["reisen"]
+    },
+    {
+      "id": "o-aviao",
+      "front": "o avião",
+      "back": "das Flugzeug",
+      "notes": "Kontext: O avião atrasou. – Das Flugzeug hatte Verspätung. Mit nasalem -ão.",
+      "difficulty": 2,
+      "tags": ["reisen"]
+    },
+    {
+      "id": "o-hotel",
+      "front": "o hotel",
+      "back": "das Hotel",
+      "notes": "Kontext: O hotel fica perto da praia. – Das Hotel liegt nah am Strand.",
+      "difficulty": 1,
+      "tags": ["reisen"]
+    },
+    {
+      "id": "a-praia",
+      "front": "a praia",
+      "back": "der Strand",
+      "notes": "Kontext: Vamos à praia! – Lass uns an den Strand gehen!",
+      "difficulty": 1,
+      "tags": ["reisen"]
+    },
+    {
+      "id": "o-passaporte",
+      "front": "o passaporte",
+      "back": "der Reisepass",
+      "notes": "Kontext: Onde está meu passaporte? – Wo ist mein Reisepass?",
+      "difficulty": 2,
+      "tags": ["reisen"]
+    },
+    {
+      "id": "a-mala",
+      "front": "a mala",
+      "back": "der Koffer",
+      "notes": "Kontext: Minha mala é pesada. – Mein Koffer ist schwer.",
+      "difficulty": 2,
+      "tags": ["reisen"]
+    },
+    {
+      "id": "o-onibus",
+      "front": "o ônibus",
+      "back": "der Bus",
+      "notes": "Kontext: Pego o ônibus para o centro. – Ich nehme den Bus ins Zentrum. BR: ônibus, PT: autocarro.",
+      "difficulty": 2,
+      "tags": ["reisen", "verkehr"]
+    },
+    {
+      "id": "o-trem",
+      "front": "o trem",
+      "back": "der Zug",
+      "notes": "Kontext: O trem chega às oito. – Der Zug kommt um acht. BR: trem, PT: comboio.",
+      "difficulty": 2,
+      "tags": ["reisen", "verkehr"]
+    },
+    {
+      "id": "a-passagem",
+      "front": "a passagem",
+      "back": "das Ticket / die Fahrkarte",
+      "notes": "Kontext: Comprei a passagem. – Ich habe das Ticket gekauft. BR: passagem (Flug/Bus), PT eher: bilhete.",
+      "difficulty": 3,
+      "tags": ["reisen"]
+    },
+    {
+      "id": "onde-fica",
+      "front": "Onde fica...?",
+      "back": "Wo liegt/ist...?",
+      "notes": "Kontext: Onde fica o hotel? – Wo liegt das Hotel?",
+      "difficulty": 2,
+      "tags": ["reisen", "frage"]
+    },
+    {
+      "id": "a-viagem",
+      "front": "a viagem",
+      "back": "die Reise",
+      "notes": "Kontext: Boa viagem! – Gute Reise!",
+      "difficulty": 2,
+      "tags": ["reisen"]
+    },
+    {
+      "id": "o-taxi",
+      "front": "o táxi",
+      "back": "das Taxi",
+      "notes": "Kontext: Vou de táxi. – Ich fahre mit dem Taxi.",
+      "difficulty": 1,
+      "tags": ["reisen", "verkehr"]
+    },
+    {
+      "id": "esquerda-direita",
+      "front": "à esquerda / à direita",
+      "back": "links / rechts",
+      "notes": "Kontext: Vire à direita. – Biegen Sie rechts ab.",
+      "difficulty": 3,
+      "tags": ["reisen", "richtung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Unterwegs reisen",
+      "body": "# Viajar\n\nWichtige Reisewörter:\n\n- **o aeroporto** — der Flughafen\n- **o avião** — das Flugzeug\n- **o hotel** — das Hotel\n- **a praia** — der Strand\n- **o passaporte** — der Reisepass\n- **a mala** — der Koffer\n\nZum Abschied einer Reisenden sagt man: **Boa viagem!** (Gute Reise!)."
+    },
+    {
+      "id": "step-verkehr",
+      "type": "theory",
+      "title": "Verkehrsmittel (BR vs PT) und nach dem Weg fragen",
+      "body": "## Verkehrsmittel\n\n| Brasilien | Portugal | Deutsch |\n|---|---|---|\n| o ônibus | o autocarro | der Bus |\n| o trem | o comboio | der Zug |\n| a passagem | o bilhete | das Ticket |\n\nAuch: **o táxi** (das Taxi).\n\n## Nach dem Weg fragen\n\n- **Onde fica o hotel?** — Wo liegt das Hotel?\n- **à esquerda** — links / **à direita** — rechts"
+    },
+    {
+      "id": "ex-match-reisen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Reisewörter zuordnen",
+      "exercise": {
+        "id": "ex-match-reisen",
+        "type": "matching",
+        "prompt": "Ordne jedes portugiesische Wort der deutschen Bedeutung zu.",
+        "card_ids": ["o-aeroporto", "o-hotel", "a-praia", "o-passaporte", "a-mala"],
+        "pairs": [
+          {"left": "o aeroporto", "right": "der Flughafen"},
+          {"left": "o hotel", "right": "das Hotel"},
+          {"left": "a praia", "right": "der Strand"},
+          {"left": "o passaporte", "right": "der Reisepass"},
+          {"left": "a mala", "right": "der Koffer"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-trem",
+      "type": "exercise",
+      "theory_ref": "step-verkehr",
+      "title": "Zug (BR)",
+      "exercise": {
+        "id": "ex-free-trem",
+        "type": "free_text",
+        "prompt": "Wie heißt 'der Zug' in Brasilien?",
+        "card_ids": ["o-trem"],
+        "accept": ["o trem", "trem"],
+        "hint": "BR-Wort; in PT sagt man 'comboio'.",
+        "distractors": ["o comboio", "o ônibus", "o avião"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-onibus",
+      "type": "exercise",
+      "theory_ref": "step-verkehr",
+      "title": "Bus (BR)",
+      "exercise": {
+        "id": "ex-free-onibus",
+        "type": "free_text",
+        "prompt": "Wie heißt 'der Bus' in Brasilien?",
+        "card_ids": ["o-onibus"],
+        "accept": ["o ônibus", "ônibus", "onibus"],
+        "hint": "BR-Wort mit Zirkumflex; in PT 'autocarro'.",
+        "distractors": ["o autocarro", "o trem", "o táxi"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-onde-fica",
+      "type": "exercise",
+      "theory_ref": "step-verkehr",
+      "title": "Lücke füllen: nach dem Weg fragen",
+      "exercise": {
+        "id": "ex-cloze-onde-fica",
+        "type": "cloze",
+        "prompt": "Ergänze: 'Wo liegt das Hotel?'",
+        "card_ids": ["onde-fica", "o-hotel"],
+        "sentence": "Onde ___ o hotel?",
+        "blanks": [{"accept": ["fica", "Fica"]}],
+        "cloze_mode": "type",
+        "hint": "Von 'ficar' (sich befinden)."
+      }
+    },
+    {
+      "id": "ex-tile-boa-viagem",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Gute Reise wünschen",
+      "exercise": {
+        "id": "ex-tile-boa-viagem",
+        "type": "word_tiles",
+        "prompt": "Baue den Wunsch: 'Gute Reise!'",
+        "card_ids": ["a-viagem"],
+        "tiles": ["Boa", "viagem!"],
+        "hint": "Zwei Kacheln.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-praia",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Reiseort erkennen",
+      "exercise": {
+        "id": "ex-pic-praia",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'der Strand'?",
+        "card_ids": ["a-praia"],
+        "images": [
+          {"src": "assets/img/praia.png", "label": "a praia", "is_correct": "true"},
+          {"src": "assets/img/hotel.png", "label": "o hotel"},
+          {"src": "assets/img/aeroporto.png", "label": "o aeroporto"},
+          {"src": "assets/img/trem.png", "label": "o trem"}
+        ],
+        "hint": "Sand und Meer.",
+        "distractors": ["o hotel", "o aeroporto", "o trem"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "05-einkaufen",
+  "title": "Einkaufen",
+  "description": "Einkaufen auf brasilianischem Portugiesisch: nach dem Preis fragen, billig/teuer und Demonstrativa este/esse/aquele — auf Deutsch erklärt.",
+  "target_language": "pt",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "quanto-custa",
+      "front": "Quanto custa?",
+      "back": "Wie viel kostet das?",
+      "notes": "Kontext: Quanto custa esta camiseta? – Wie viel kostet dieses T-Shirt?",
+      "difficulty": 2,
+      "tags": ["einkaufen", "frage"]
+    },
+    {
+      "id": "quanto-e",
+      "front": "Quanto é?",
+      "back": "Was macht das? / Wie viel ist das?",
+      "notes": "Kontext: Quanto é tudo? – Was macht alles zusammen?",
+      "difficulty": 2,
+      "tags": ["einkaufen", "frage"]
+    },
+    {
+      "id": "barato",
+      "front": "barato",
+      "back": "billig / günstig",
+      "notes": "Kontext: Está muito barato! – Das ist sehr günstig! Weiblich: barata.",
+      "difficulty": 1,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "caro",
+      "front": "caro",
+      "back": "teuer",
+      "notes": "Kontext: Nossa, que caro! – Mensch, wie teuer! Weiblich: cara.",
+      "difficulty": 1,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "este",
+      "front": "este / esta",
+      "back": "dieser/diese (hier bei mir)",
+      "notes": "Kontext: Quero este aqui. – Ich will diesen hier. Für Dinge nahe beim Sprecher.",
+      "difficulty": 2,
+      "tags": ["einkaufen", "demonstrativ"]
+    },
+    {
+      "id": "esse",
+      "front": "esse / essa",
+      "back": "dieser/diese (da bei dir)",
+      "notes": "Kontext: Esse aí é bonito. – Der da (bei dir) ist schön. In Brasilien sehr verbreitet, oft auch für 'este'.",
+      "difficulty": 2,
+      "tags": ["einkaufen", "demonstrativ"]
+    },
+    {
+      "id": "aquele",
+      "front": "aquele / aquela",
+      "back": "jener/jene (dort drüben)",
+      "notes": "Kontext: Aquele ali, por favor. – Jenen dort, bitte. Für Entferntes.",
+      "difficulty": 2,
+      "tags": ["einkaufen", "demonstrativ"]
+    },
+    {
+      "id": "a-loja",
+      "front": "a loja",
+      "back": "das Geschäft / der Laden",
+      "notes": "Kontext: A loja abre às nove. – Der Laden öffnet um neun.",
+      "difficulty": 1,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "o-dinheiro",
+      "front": "o dinheiro",
+      "back": "das Geld",
+      "notes": "Kontext: Pago em dinheiro. – Ich zahle bar. A moeda do Brasil é o real.",
+      "difficulty": 1,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "o-cartao",
+      "front": "o cartão",
+      "back": "die Karte (Kreditkarte)",
+      "notes": "Kontext: Posso pagar com cartão? – Kann ich mit Karte zahlen?",
+      "difficulty": 2,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "a-camiseta",
+      "front": "a camiseta",
+      "back": "das T-Shirt",
+      "notes": "Kontext: uma camiseta azul – ein blaues T-Shirt. BR: camiseta, PT: t-shirt/camisola.",
+      "difficulty": 2,
+      "tags": ["einkaufen", "kleidung"]
+    },
+    {
+      "id": "tem-desconto",
+      "front": "Tem desconto?",
+      "back": "Gibt es einen Rabatt?",
+      "notes": "Kontext: Tem desconto à vista? – Gibt es Rabatt bei Barzahlung?",
+      "difficulty": 3,
+      "tags": ["einkaufen", "frage"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Nach dem Preis fragen",
+      "body": "# Einkaufen\n\nNach dem Preis fragt man:\n\n- **Quanto custa?** — Wie viel kostet das?\n- **Quanto é?** — Was macht das?\n\nUrteile über den Preis:\n\n- **barato** — billig/günstig\n- **caro** — teuer\n\n> Tipp: **Está muito caro!** — Das ist sehr teuer! Mit *está* (von *estar*) drückt man einen aktuellen Zustand aus."
+    },
+    {
+      "id": "step-demonstrativ",
+      "type": "theory",
+      "title": "este, esse, aquele",
+      "body": "## Dieser, der da, jener\n\nDas Portugiesische unterscheidet drei Entfernungen:\n\n| Form | Bedeutung | Lage |\n|---|---|---|\n| **este / esta** | dieser/diese | nah beim Sprecher |\n| **esse / essa** | der/die da | beim Angesprochenen |\n| **aquele / aquela** | jener/jene | weit weg |\n\n> Brasilianisch: Umgangssprachlich wird **esse/essa** oft auch für 'este/esta' verwendet — der Unterschied verwischt im Alltag.\n\nBezahlen: mit **dinheiro** (bar) oder **cartão** (Karte)."
+    },
+    {
+      "id": "ex-match-einkaufen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Einkaufs-Wörter zuordnen",
+      "exercise": {
+        "id": "ex-match-einkaufen",
+        "type": "matching",
+        "prompt": "Ordne jedes portugiesische Wort der deutschen Bedeutung zu.",
+        "card_ids": ["barato", "caro", "a-loja", "o-dinheiro", "o-cartao"],
+        "pairs": [
+          {"left": "barato", "right": "billig / günstig"},
+          {"left": "caro", "right": "teuer"},
+          {"left": "a loja", "right": "das Geschäft / der Laden"},
+          {"left": "o dinheiro", "right": "das Geld"},
+          {"left": "o cartão", "right": "die Karte"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-quanto-custa",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Nach dem Preis fragen",
+      "exercise": {
+        "id": "ex-free-quanto-custa",
+        "type": "free_text",
+        "prompt": "Wie fragt man 'Wie viel kostet das?' auf Portugiesisch?",
+        "card_ids": ["quanto-custa"],
+        "accept": ["Quanto custa?", "Quanto custa", "quanto custa"],
+        "hint": "Zwei Wörter, beginnt mit 'Quanto'.",
+        "distractors": ["Quem é?", "Onde está?", "Que horas são?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-caro",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Teuer",
+      "exercise": {
+        "id": "ex-free-caro",
+        "type": "free_text",
+        "prompt": "Wie heißt 'teuer' auf Portugiesisch?",
+        "card_ids": ["caro"],
+        "accept": ["caro", "Caro", "cara"],
+        "hint": "Vier Buchstaben.",
+        "distractors": ["barato", "bonito", "grande"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-este",
+      "type": "exercise",
+      "theory_ref": "step-demonstrativ",
+      "title": "Lücke füllen: dieser hier",
+      "exercise": {
+        "id": "ex-cloze-este",
+        "type": "cloze",
+        "prompt": "Ergänze das Wort für 'diesen hier' (nah beim Sprecher, maskulin).",
+        "card_ids": ["este"],
+        "sentence": "Quero ___ aqui.",
+        "blanks": [{"accept": ["este", "esse"]}],
+        "cloze_mode": "type",
+        "hint": "Maskuline Nahform; umgangssprachlich auch 'esse'."
+      }
+    },
+    {
+      "id": "ex-tile-quanto-custa",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Preisfrage bauen",
+      "exercise": {
+        "id": "ex-tile-quanto-custa",
+        "type": "word_tiles",
+        "prompt": "Baue die Frage: 'Wie viel kostet dieses T-Shirt?'",
+        "card_ids": ["quanto-custa", "a-camiseta"],
+        "tiles": ["Quanto", "custa", "esta", "camiseta?"],
+        "hint": "Vier Kacheln.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-dinheiro",
+      "type": "exercise",
+      "theory_ref": "step-demonstrativ",
+      "title": "Geld erkennen",
+      "exercise": {
+        "id": "ex-pic-dinheiro",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'Geld'?",
+        "card_ids": ["o-dinheiro"],
+        "images": [
+          {"src": "assets/img/dinheiro.png", "label": "dinheiro", "is_correct": "true"},
+          {"src": "assets/img/cartao.png", "label": "cartão"},
+          {"src": "assets/img/loja.png", "label": "loja"},
+          {"src": "assets/img/camiseta.png", "label": "camiseta"}
+        ],
+        "hint": "Damit zahlt man bar.",
+        "distractors": ["cartão", "loja", "camiseta"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

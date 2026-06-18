@@ -1,0 +1,233 @@
+{
+  "id": "01-begruessungen",
+  "title": "Begrüßungen",
+  "description": "Grundlegende brasilianische Begrüßungen, Verabschiedungen und Höflichkeitsfloskeln — auf Deutsch erklärt.",
+  "target_language": "pt",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "oi",
+      "front": "Oi",
+      "back": "Hi / Hallo",
+      "notes": "Kontext: Oi, tudo bem? – Hi, alles gut? In Brasilien sehr verbreitet; in Portugal sagt man eher 'Olá'.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "ola",
+      "front": "Olá",
+      "back": "Hallo",
+      "notes": "Kontext: Olá, como vai? – Hallo, wie geht es? Etwas neutraler als 'Oi'.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "bom-dia",
+      "front": "Bom dia",
+      "back": "Guten Morgen / Guten Tag",
+      "notes": "Kontext: Bom dia, professor! – Guten Morgen, Herr Lehrer! Bis zum Mittag.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "boa-tarde",
+      "front": "Boa tarde",
+      "back": "Guten Nachmittag",
+      "notes": "Kontext: Boa tarde a todos. – Guten Nachmittag allerseits. Vom Mittag bis zum Abend.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "boa-noite",
+      "front": "Boa noite",
+      "back": "Guten Abend / Gute Nacht",
+      "notes": "Kontext: Boa noite, durma bem. – Gute Nacht, schlaf gut. Zur Begrüßung am Abend und zum Abschied.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "tchau",
+      "front": "Tchau",
+      "back": "Tschüss",
+      "notes": "Kontext: Tchau, até logo! – Tschüss, bis bald! BR: tchau; in Portugal hört man auch 'adeus'.",
+      "difficulty": 1,
+      "tags": ["verabschiedung"]
+    },
+    {
+      "id": "ate-logo",
+      "front": "Até logo",
+      "back": "Bis bald",
+      "notes": "Kontext: Tchau, até logo! – Tschüss, bis bald!",
+      "difficulty": 2,
+      "tags": ["verabschiedung"]
+    },
+    {
+      "id": "obrigado",
+      "front": "Obrigado",
+      "back": "Danke (von einem Mann gesagt)",
+      "notes": "Kontext: Obrigado pela ajuda. – Danke für die Hilfe. Ein Mann sagt 'obrigado'.",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "obrigada",
+      "front": "Obrigada",
+      "back": "Danke (von einer Frau gesagt)",
+      "notes": "Kontext: Obrigada pela ajuda. – Danke für die Hilfe. Eine Frau sagt 'obrigada'. Die Form richtet sich nach dem Sprecher, nicht nach dem Angesprochenen.",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "de-nada",
+      "front": "De nada",
+      "back": "Gern geschehen / Bitte",
+      "notes": "Kontext: Obrigado! – De nada. – Danke! – Gern geschehen.",
+      "difficulty": 1,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "por-favor",
+      "front": "Por favor",
+      "back": "Bitte (bei einer Bitte)",
+      "notes": "Kontext: Um café, por favor. – Einen Kaffee, bitte.",
+      "difficulty": 1,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "tudo-bem",
+      "front": "Tudo bem?",
+      "back": "Alles gut? / Wie geht's?",
+      "notes": "Kontext: Oi! Tudo bem? – Tudo bem! – Hi! Alles gut? – Alles gut!",
+      "difficulty": 2,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "com-licenca",
+      "front": "Com licença",
+      "back": "Entschuldigung (um vorbeizugehen)",
+      "notes": "Kontext: Com licença, posso passar? – Entschuldigung, darf ich durch?",
+      "difficulty": 2,
+      "tags": ["hoeflichkeit"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Begrüßungen auf brasilianischem Portugiesisch",
+      "body": "# Begrüßungen\n\nIm brasilianischen Portugiesisch ist **Oi** der häufigste lockere Gruß. **Olá** ist etwas neutraler.\n\nNach Tageszeit gibt es:\n\n- **Bom dia** — guten Morgen / guten Tag (bis Mittag)\n- **Boa tarde** — guten Nachmittag\n- **Boa noite** — guten Abend und gute Nacht\n\nZum Abschied: **Tchau** (tschüss) und **Até logo** (bis bald).\n\n> Hinweis: In Brasilien sagt man **tchau**; das in Portugal übliche **adeus** klingt dort recht endgültig."
+    },
+    {
+      "id": "step-danke",
+      "type": "theory",
+      "title": "Danke: obrigado oder obrigada?",
+      "body": "## Danke sagen\n\n**Obrigado/Obrigada** bedeutet *Danke*. Die Endung richtet sich nach dem **Sprecher**:\n\n- Ein Mann sagt **obrigado**.\n- Eine Frau sagt **obrigada**.\n\nWeitere höfliche Wendungen:\n\n- **De nada** — gern geschehen\n- **Por favor** — bitte (bei einer Bitte)\n- **Com licença** — Entschuldigung (wenn man vorbeigehen möchte)"
+    },
+    {
+      "id": "ex-match-begruessung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Begrüßungen zuordnen",
+      "exercise": {
+        "id": "ex-match-begruessung",
+        "type": "matching",
+        "prompt": "Ordne jeder portugiesischen Begrüßung die deutsche Übersetzung zu.",
+        "card_ids": ["oi", "bom-dia", "boa-tarde", "boa-noite", "tchau"],
+        "pairs": [
+          {"left": "Oi", "right": "Hi / Hallo"},
+          {"left": "Bom dia", "right": "Guten Morgen / Guten Tag"},
+          {"left": "Boa tarde", "right": "Guten Nachmittag"},
+          {"left": "Boa noite", "right": "Guten Abend / Gute Nacht"},
+          {"left": "Tchau", "right": "Tschüss"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-oi",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Locker begrüßen",
+      "exercise": {
+        "id": "ex-free-oi",
+        "type": "free_text",
+        "prompt": "Wie begrüßt man in Brasilien jemanden locker mit 'Hi'?",
+        "card_ids": ["oi"],
+        "accept": ["Oi", "oi"],
+        "hint": "Zwei Buchstaben.",
+        "distractors": ["Tchau", "Obrigado", "Boa noite"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-obrigada",
+      "type": "exercise",
+      "theory_ref": "step-danke",
+      "title": "Danke als Frau",
+      "exercise": {
+        "id": "ex-free-obrigada",
+        "type": "free_text",
+        "prompt": "Wie sagt eine Frau 'Danke' auf Portugiesisch?",
+        "card_ids": ["obrigada"],
+        "accept": ["Obrigada", "obrigada"],
+        "hint": "Endet auf -a, weil eine Frau spricht.",
+        "distractors": ["Obrigado", "De nada", "Por favor"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-tudo-bem",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke füllen: Wie geht's?",
+      "exercise": {
+        "id": "ex-cloze-tudo-bem",
+        "type": "cloze",
+        "prompt": "Ergänze die typische Nachfrage nach dem Befinden.",
+        "card_ids": ["tudo-bem"],
+        "sentence": "Oi! Tudo ___?",
+        "blanks": [{"accept": ["bem", "Bem"]}],
+        "cloze_mode": "type",
+        "hint": "Deutsch: 'gut'."
+      }
+    },
+    {
+      "id": "ex-tile-boa-noite",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Abendgruß zusammensetzen",
+      "exercise": {
+        "id": "ex-tile-boa-noite",
+        "type": "word_tiles",
+        "prompt": "Setze die Kacheln zu 'Guten Abend / Gute Nacht' zusammen.",
+        "card_ids": ["boa-noite"],
+        "tiles": ["Boa", "noite"],
+        "hint": "Zwei Wörter.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-tchau",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Verabschiedung erkennen",
+      "exercise": {
+        "id": "ex-pic-tchau",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'Tschüss'?",
+        "card_ids": ["tchau"],
+        "images": [
+          {"src": "assets/img/tchau.png", "label": "Tchau", "is_correct": "true"},
+          {"src": "assets/img/oi.png", "label": "Oi"},
+          {"src": "assets/img/bom-dia.png", "label": "Bom dia"},
+          {"src": "assets/img/obrigado.png", "label": "Obrigado"}
+        ],
+        "hint": "Sagt man beim Weggehen.",
+        "distractors": ["Oi", "Bom dia", "Obrigado"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

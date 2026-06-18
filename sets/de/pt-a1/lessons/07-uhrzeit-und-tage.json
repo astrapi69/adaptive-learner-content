@@ -1,0 +1,241 @@
+{
+  "id": "07-uhrzeit-und-tage",
+  "title": "Uhrzeit und Tage",
+  "description": "Die Uhrzeit erfragen und nennen sowie die Wochentage im brasilianischen Portugiesisch — auf Deutsch erklärt.",
+  "target_language": "pt",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "que-horas-sao",
+      "front": "Que horas são?",
+      "back": "Wie spät ist es?",
+      "notes": "Kontext: Que horas são? – São três. – Wie spät ist es? – Es ist drei.",
+      "difficulty": 2,
+      "tags": ["uhrzeit", "frage"]
+    },
+    {
+      "id": "sao",
+      "front": "São...",
+      "back": "Es ist... (ab 2 Uhr)",
+      "notes": "Kontext: São duas horas. – Es ist zwei Uhr. Plural, weil mehrere Stunden.",
+      "difficulty": 2,
+      "tags": ["uhrzeit"]
+    },
+    {
+      "id": "e-uma-hora",
+      "front": "É uma hora",
+      "back": "Es ist ein Uhr",
+      "notes": "Kontext: É uma hora. – Es ist ein Uhr. Singular 'é' nur bei 1 Uhr.",
+      "difficulty": 2,
+      "tags": ["uhrzeit"]
+    },
+    {
+      "id": "meio-dia",
+      "front": "meio-dia",
+      "back": "Mittag (12 Uhr)",
+      "notes": "Kontext: É meio-dia. – Es ist zwölf Uhr mittags.",
+      "difficulty": 2,
+      "tags": ["uhrzeit"]
+    },
+    {
+      "id": "segunda-feira",
+      "front": "segunda-feira",
+      "back": "Montag",
+      "notes": "Kontext: Na segunda-feira tenho aula. – Am Montag habe ich Unterricht. Kurz auch nur 'segunda'.",
+      "difficulty": 2,
+      "tags": ["tage"]
+    },
+    {
+      "id": "terca-feira",
+      "front": "terça-feira",
+      "back": "Dienstag",
+      "notes": "Kontext: terça-feira é meu dia livre – Dienstag ist mein freier Tag.",
+      "difficulty": 2,
+      "tags": ["tage"]
+    },
+    {
+      "id": "quarta-feira",
+      "front": "quarta-feira",
+      "back": "Mittwoch",
+      "notes": "Kontext: na quarta-feira – am Mittwoch.",
+      "difficulty": 2,
+      "tags": ["tage"]
+    },
+    {
+      "id": "quinta-feira",
+      "front": "quinta-feira",
+      "back": "Donnerstag",
+      "notes": "Kontext: quinta-feira à noite – Donnerstagabend.",
+      "difficulty": 2,
+      "tags": ["tage"]
+    },
+    {
+      "id": "sexta-feira",
+      "front": "sexta-feira",
+      "back": "Freitag",
+      "notes": "Kontext: Sexta-feira, enfim! – Endlich Freitag!",
+      "difficulty": 2,
+      "tags": ["tage"]
+    },
+    {
+      "id": "sabado",
+      "front": "sábado",
+      "back": "Samstag",
+      "notes": "Kontext: No sábado vou à praia. – Am Samstag gehe ich an den Strand.",
+      "difficulty": 1,
+      "tags": ["tage"]
+    },
+    {
+      "id": "domingo",
+      "front": "domingo",
+      "back": "Sonntag",
+      "notes": "Kontext: Domingo é dia de descanso. – Sonntag ist Ruhetag.",
+      "difficulty": 1,
+      "tags": ["tage"]
+    },
+    {
+      "id": "hoje",
+      "front": "hoje",
+      "back": "heute",
+      "notes": "Kontext: Hoje é segunda. – Heute ist Montag.",
+      "difficulty": 1,
+      "tags": ["zeit"]
+    },
+    {
+      "id": "amanha",
+      "front": "amanhã",
+      "back": "morgen",
+      "notes": "Kontext: Amanhã eu trabalho. – Morgen arbeite ich.",
+      "difficulty": 1,
+      "tags": ["zeit"]
+    },
+    {
+      "id": "ontem",
+      "front": "ontem",
+      "back": "gestern",
+      "notes": "Kontext: Ontem foi domingo. – Gestern war Sonntag.",
+      "difficulty": 1,
+      "tags": ["zeit"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die Uhrzeit",
+      "body": "# Wie spät ist es?\n\nDie Frage lautet: **Que horas são?**\n\nDie Antwort hängt von der Stunde ab:\n\n- **É uma hora.** — Es ist ein Uhr. (Singular bei 1)\n- **São duas horas.** — Es ist zwei Uhr. (Plural ab 2)\n- **É meio-dia.** — Es ist zwölf Uhr mittags.\n- **É meia-noite.** — Es ist Mitternacht.\n\n> Merke: Nur bei **1 Uhr** und bei Mittag/Mitternacht steht **é** (Singular); sonst **são** (Plural)."
+    },
+    {
+      "id": "step-tage",
+      "type": "theory",
+      "title": "Die Wochentage",
+      "body": "## Wochentage\n\nDie Werktage enden auf **-feira**:\n\n| Portugiesisch | Deutsch |\n|---|---|\n| segunda-feira | Montag |\n| terça-feira | Dienstag |\n| quarta-feira | Mittwoch |\n| quinta-feira | Donnerstag |\n| sexta-feira | Freitag |\n| sábado | Samstag |\n| domingo | Sonntag |\n\nIm Alltag lässt man **-feira** oft weg: *segunda, terça...*.\n\nZeitwörter: **hoje** (heute), **amanhã** (morgen), **ontem** (gestern)."
+    },
+    {
+      "id": "ex-match-tage",
+      "type": "exercise",
+      "theory_ref": "step-tage",
+      "title": "Wochentage zuordnen",
+      "exercise": {
+        "id": "ex-match-tage",
+        "type": "matching",
+        "prompt": "Ordne jeden Wochentag der deutschen Bedeutung zu.",
+        "card_ids": ["segunda-feira", "quarta-feira", "sexta-feira", "sabado", "domingo"],
+        "pairs": [
+          {"left": "segunda-feira", "right": "Montag"},
+          {"left": "quarta-feira", "right": "Mittwoch"},
+          {"left": "sexta-feira", "right": "Freitag"},
+          {"left": "sábado", "right": "Samstag"},
+          {"left": "domingo", "right": "Sonntag"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-que-horas",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Nach der Uhrzeit fragen",
+      "exercise": {
+        "id": "ex-free-que-horas",
+        "type": "free_text",
+        "prompt": "Wie fragt man 'Wie spät ist es?' auf Portugiesisch?",
+        "card_ids": ["que-horas-sao"],
+        "accept": ["Que horas são?", "Que horas são", "que horas são"],
+        "hint": "Drei Wörter, beginnt mit 'Que'.",
+        "distractors": ["Quanto custa?", "Como vai?", "Que dia é hoje?"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-sao-duas",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke füllen: zwei Uhr",
+      "exercise": {
+        "id": "ex-cloze-sao-duas",
+        "type": "cloze",
+        "prompt": "Ergänze: 'Es ist zwei Uhr.' (Plural-Form von 'sein').",
+        "card_ids": ["sao"],
+        "sentence": "___ duas horas.",
+        "blanks": [{"accept": ["São", "são"]}],
+        "cloze_mode": "type",
+        "hint": "Plural, weil mehr als eine Stunde."
+      }
+    },
+    {
+      "id": "ex-cloze-hoje",
+      "type": "exercise",
+      "theory_ref": "step-tage",
+      "title": "Lücke füllen: heute",
+      "exercise": {
+        "id": "ex-cloze-hoje",
+        "type": "cloze",
+        "prompt": "Ergänze: '___ é segunda.' (Heute ist Montag.)",
+        "card_ids": ["hoje"],
+        "sentence": "___ é segunda.",
+        "blanks": [{"accept": ["Hoje", "hoje"]}],
+        "cloze_mode": "type",
+        "hint": "Deutsch: 'heute'."
+      }
+    },
+    {
+      "id": "ex-tile-sabado-praia",
+      "type": "exercise",
+      "theory_ref": "step-tage",
+      "title": "Satz mit Samstag bauen",
+      "exercise": {
+        "id": "ex-tile-sabado-praia",
+        "type": "word_tiles",
+        "prompt": "Baue: 'Heute ist Samstag.'",
+        "card_ids": ["hoje", "sabado"],
+        "tiles": ["Hoje", "é", "sábado"],
+        "hint": "Drei Kacheln.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-amanha",
+      "type": "exercise",
+      "theory_ref": "step-tage",
+      "title": "Zeitwort erkennen",
+      "exercise": {
+        "id": "ex-pic-amanha",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'morgen'?",
+        "card_ids": ["amanha"],
+        "images": [
+          {"src": "assets/img/amanha.png", "label": "amanhã", "is_correct": "true"},
+          {"src": "assets/img/hoje.png", "label": "hoje"},
+          {"src": "assets/img/ontem.png", "label": "ontem"},
+          {"src": "assets/img/domingo.png", "label": "domingo"}
+        ],
+        "hint": "Mit Tilde am Ende: -nhã.",
+        "distractors": ["hoje", "ontem", "domingo"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
