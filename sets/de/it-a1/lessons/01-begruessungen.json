@@ -1,0 +1,235 @@
+{
+  "id": "01-begruessungen",
+  "title": "Begrüßungen",
+  "description": "Grundlegende italienische Begrüßungen und Verabschiedungen — auf Deutsch erklärt.",
+  "target_language": "it",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "buongiorno",
+      "front": "Buongiorno",
+      "back": "Guten Morgen / Guten Tag",
+      "notes": "Kontext: Buongiorno, signora! – Guten Tag, gnädige Frau! Wird vormittags bis nachmittags verwendet.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "buonasera",
+      "front": "Buonasera",
+      "back": "Guten Abend",
+      "notes": "Kontext: Buonasera a tutti! – Guten Abend zusammen! Wird ab dem späten Nachmittag verwendet.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "buonanotte",
+      "front": "Buonanotte",
+      "back": "Gute Nacht",
+      "notes": "Kontext: Buonanotte, a domani! – Gute Nacht, bis morgen! Nur beim Schlafengehen.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "ciao",
+      "front": "Ciao",
+      "back": "Hallo / Tschüss",
+      "notes": "Kontext: Ciao, come stai? – Hallo, wie geht's? Informell, bei Begrüßung und Abschied.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "salve",
+      "front": "Salve",
+      "back": "Hallo (neutral)",
+      "notes": "Kontext: Salve, posso aiutarla? – Hallo, kann ich Ihnen helfen? Neutral, weder zu formell noch zu locker.",
+      "difficulty": 2,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "arrivederci",
+      "front": "Arrivederci",
+      "back": "Auf Wiedersehen",
+      "notes": "Kontext: Grazie e arrivederci! – Danke und auf Wiedersehen! Höflicher Abschied.",
+      "difficulty": 1,
+      "tags": ["verabschiedung"]
+    },
+    {
+      "id": "a-presto",
+      "front": "A presto",
+      "back": "Bis bald",
+      "notes": "Kontext: Ci vediamo, a presto! – Wir sehen uns, bis bald!",
+      "difficulty": 2,
+      "tags": ["verabschiedung"]
+    },
+    {
+      "id": "a-domani",
+      "front": "A domani",
+      "back": "Bis morgen",
+      "notes": "Kontext: A domani in ufficio! – Bis morgen im Büro!",
+      "difficulty": 2,
+      "tags": ["verabschiedung"]
+    },
+    {
+      "id": "come-stai",
+      "front": "Come stai?",
+      "back": "Wie geht es dir?",
+      "notes": "Kontext: Ciao Marco, come stai? – Hallo Marco, wie geht es dir? Informell (du).",
+      "difficulty": 2,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "come-va",
+      "front": "Come va?",
+      "back": "Wie läuft's?",
+      "notes": "Kontext: Come va? Tutto bene? – Wie läuft's? Alles gut?",
+      "difficulty": 2,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "bene-grazie",
+      "front": "Bene, grazie",
+      "back": "Gut, danke",
+      "notes": "Kontext: Bene, grazie, e tu? – Gut, danke, und du? Typische Antwort auf 'come stai?'.",
+      "difficulty": 1,
+      "tags": ["begruessung"]
+    },
+    {
+      "id": "grazie",
+      "front": "Grazie",
+      "back": "Danke",
+      "notes": "Kontext: Grazie mille! – Tausend Dank!",
+      "difficulty": 1,
+      "tags": ["hoeflichkeit"]
+    },
+    {
+      "id": "prego",
+      "front": "Prego",
+      "back": "Bitte (gern geschehen)",
+      "notes": "Kontext: – Grazie! – Prego! – Danke! – Bitte! Antwort auf 'grazie'.",
+      "difficulty": 1,
+      "tags": ["hoeflichkeit"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Begrüßungen auf Italienisch",
+      "body": "# Begrüßungen auf Italienisch\n\nIm Italienischen richten sich Begrüßungen nach Tageszeit und Höflichkeitsgrad.\n\n- **Buongiorno** — vormittags bis nachmittags\n- **Buonasera** — am Abend\n- **Buonanotte** — beim Schlafengehen\n- **Ciao** — informell, für Hallo *und* Tschüss\n- **Salve** — neutral, wenn man unsicher ist\n\n> **Ciao** sagt man nur zu Freunden und Bekannten, nicht zu Fremden oder Vorgesetzten."
+    },
+    {
+      "id": "step-abschied",
+      "type": "theory",
+      "title": "Verabschieden und Befinden",
+      "body": "## Sich verabschieden\n\n- **Arrivederci** — höfliches 'Auf Wiedersehen'\n- **A presto** — bis bald\n- **A domani** — bis morgen\n\n## Nach dem Befinden fragen\n\n- **Come stai?** — Wie geht es dir? (informell)\n- **Come va?** — Wie läuft's?\n- Antwort: **Bene, grazie, e tu?** — Gut, danke, und du?"
+    },
+    {
+      "id": "ex-match-begruessung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Begrüßungen zuordnen",
+      "exercise": {
+        "id": "ex-match-begruessung",
+        "type": "matching",
+        "prompt": "Ordne jeder italienischen Begrüßung die deutsche Übersetzung zu.",
+        "card_ids": ["buongiorno", "buonasera", "buonanotte", "ciao"],
+        "pairs": [
+          {"left": "Buongiorno", "right": "Guten Morgen / Guten Tag"},
+          {"left": "Buonasera", "right": "Guten Abend"},
+          {"left": "Buonanotte", "right": "Gute Nacht"},
+          {"left": "Ciao", "right": "Hallo / Tschüss"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-ciao",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Informell begrüßen",
+      "exercise": {
+        "id": "ex-free-ciao",
+        "type": "free_text",
+        "prompt": "Wie begrüßt man Freunde informell auf Italienisch (Hallo)?",
+        "card_ids": ["ciao"],
+        "accept": ["Ciao", "ciao"],
+        "hint": "Vier Buchstaben, weltbekannt.",
+        "distractors": ["Arrivederci", "Grazie", "Buonasera"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-grazie",
+      "type": "exercise",
+      "theory_ref": "step-abschied",
+      "title": "Danke sagen",
+      "exercise": {
+        "id": "ex-free-grazie",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Danke' auf Italienisch?",
+        "card_ids": ["grazie"],
+        "accept": ["Grazie", "grazie"],
+        "hint": "Beginnt mit G.",
+        "distractors": ["Prego", "Ciao", "Salve"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tile-buonasera",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Abendgruß zusammensetzen",
+      "exercise": {
+        "id": "ex-tile-buonasera",
+        "type": "word_tiles",
+        "prompt": "Setze die Kacheln zum Gruß 'Guten Abend' zusammen.",
+        "card_ids": ["buonasera"],
+        "tiles": ["Buona", "sera"],
+        "hint": "Wörtlich 'guter Abend'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-come-stai",
+      "type": "exercise",
+      "theory_ref": "step-abschied",
+      "title": "Lücke füllen: Befinden",
+      "exercise": {
+        "id": "ex-cloze-come-stai",
+        "type": "cloze",
+        "prompt": "Ergänze die Frage nach dem Befinden.",
+        "card_ids": ["come-stai", "bene-grazie"],
+        "sentence": "Ciao, come ___? – Bene, ___ !",
+        "blanks": [
+          {"accept": ["stai"]},
+          {"accept": ["grazie"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "Wie geht es dir? – Gut, danke!"
+      }
+    },
+    {
+      "id": "ex-pick-arrivederci",
+      "type": "exercise",
+      "theory_ref": "step-abschied",
+      "title": "Den höflichen Abschied wählen",
+      "exercise": {
+        "id": "ex-pick-arrivederci",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'Auf Wiedersehen'?",
+        "card_ids": ["arrivederci"],
+        "images": [
+          {"src": "assets/img/arrivederci.png", "label": "Arrivederci", "is_correct": "true"},
+          {"src": "assets/img/buongiorno.png", "label": "Buongiorno"},
+          {"src": "assets/img/grazie.png", "label": "Grazie"},
+          {"src": "assets/img/prego.png", "label": "Prego"}
+        ],
+        "hint": "Man sagt es höflich beim Weggehen.",
+        "distractors": ["Buongiorno", "Grazie", "Prego"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

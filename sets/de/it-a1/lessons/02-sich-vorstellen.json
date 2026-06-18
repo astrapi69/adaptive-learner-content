@@ -1,0 +1,226 @@
+{
+  "id": "02-sich-vorstellen",
+  "title": "Sich vorstellen",
+  "description": "Sich auf Italienisch vorstellen, nach dem Namen und der Herkunft fragen — auf Deutsch erklärt.",
+  "target_language": "it",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 11,
+  "cards": [
+    {
+      "id": "mi-chiamo",
+      "front": "Mi chiamo...",
+      "back": "Ich heiße...",
+      "notes": "Kontext: Mi chiamo Anna. – Ich heiße Anna. Wörtlich: 'Ich rufe mich'.",
+      "difficulty": 1,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "come-ti-chiami",
+      "front": "Come ti chiami?",
+      "back": "Wie heißt du?",
+      "notes": "Kontext: Ciao, come ti chiami? – Hallo, wie heißt du? Informell (du).",
+      "difficulty": 2,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "come-si-chiama",
+      "front": "Come si chiama?",
+      "back": "Wie heißen Sie?",
+      "notes": "Kontext: Buongiorno, come si chiama? – Guten Tag, wie heißen Sie? Höflich (Sie).",
+      "difficulty": 2,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "sono",
+      "front": "Sono...",
+      "back": "Ich bin...",
+      "notes": "Kontext: Sono Marco. – Ich bin Marco. Form von 'essere' (sein), 1. Person.",
+      "difficulty": 1,
+      "tags": ["vorstellen", "essere"]
+    },
+    {
+      "id": "sono-di",
+      "front": "Sono di...",
+      "back": "Ich komme aus...",
+      "notes": "Kontext: Sono di Berlino. – Ich komme aus Berlin. Wörtlich 'ich bin von'.",
+      "difficulty": 2,
+      "tags": ["vorstellen", "herkunft"]
+    },
+    {
+      "id": "di-dove-sei",
+      "front": "Di dove sei?",
+      "back": "Woher kommst du?",
+      "notes": "Kontext: Di dove sei? – Sono di Roma. – Woher kommst du? – Aus Rom.",
+      "difficulty": 2,
+      "tags": ["herkunft"]
+    },
+    {
+      "id": "piacere",
+      "front": "Piacere",
+      "back": "Freut mich (Sehr erfreut)",
+      "notes": "Kontext: – Sono Luca. – Piacere! – Ich bin Luca. – Freut mich! Beim Kennenlernen.",
+      "difficulty": 1,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "tedesco",
+      "front": "tedesco / tedesca",
+      "back": "deutsch (m./f.)",
+      "notes": "Kontext: Sono tedesco. – Ich bin Deutscher. Mann: tedesco (m.), Frau: tedesca (f.).",
+      "difficulty": 2,
+      "tags": ["herkunft", "nationalitaet"]
+    },
+    {
+      "id": "italiano",
+      "front": "italiano / italiana",
+      "back": "italienisch (m./f.)",
+      "notes": "Kontext: Lei è italiana. – Sie ist Italienerin. Mann: italiano (m.), Frau: italiana (f.).",
+      "difficulty": 2,
+      "tags": ["herkunft", "nationalitaet"]
+    },
+    {
+      "id": "parlo",
+      "front": "Parlo...",
+      "back": "Ich spreche...",
+      "notes": "Kontext: Parlo tedesco e un po' di italiano. – Ich spreche Deutsch und ein bisschen Italienisch.",
+      "difficulty": 2,
+      "tags": ["sprache"]
+    },
+    {
+      "id": "abito-a",
+      "front": "Abito a...",
+      "back": "Ich wohne in...",
+      "notes": "Kontext: Abito a Milano. – Ich wohne in Mailand. Bei Städten steht 'a'.",
+      "difficulty": 2,
+      "tags": ["wohnen"]
+    },
+    {
+      "id": "molto-lieto",
+      "front": "Molto lieto",
+      "back": "Sehr erfreut",
+      "notes": "Kontext: Molto lieto di conoscerla. – Sehr erfreut, Sie kennenzulernen. Formell; Frau sagt 'molto lieta'.",
+      "difficulty": 3,
+      "tags": ["vorstellen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Sich vorstellen",
+      "body": "# Sich vorstellen\n\nUm den eigenen Namen zu nennen, gibt es zwei Wege:\n\n- **Mi chiamo Anna.** — Ich heiße Anna. (wörtlich 'ich rufe mich')\n- **Sono Marco.** — Ich bin Marco. (Form von *essere*, sein)\n\nNach dem Namen fragt man je nach Höflichkeit:\n\n| informell (du) | höflich (Sie) |\n|---|---|\n| Come ti chiami? | Come si chiama? |\n\nBeim Kennenlernen sagt man **Piacere!** — Freut mich!"
+    },
+    {
+      "id": "step-herkunft",
+      "type": "theory",
+      "title": "Herkunft und Nationalität",
+      "body": "## Woher kommst du?\n\n- **Di dove sei?** — Woher kommst du?\n- **Sono di Berlino.** — Ich komme aus Berlin.\n- **Abito a Milano.** — Ich wohne in Mailand.\n\n## Nationalität\n\nAdjektive der Nationalität haben eine männliche und eine weibliche Form:\n\n- Mann: **tedesco**, **italiano**\n- Frau: **tedesca**, **italiana**\n\n> Anders als im Deutschen werden Nationalitäten klein geschrieben."
+    },
+    {
+      "id": "ex-match-vorstellen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Ausdrücke zuordnen",
+      "exercise": {
+        "id": "ex-match-vorstellen",
+        "type": "matching",
+        "prompt": "Ordne jedem italienischen Ausdruck die deutsche Bedeutung zu.",
+        "card_ids": ["mi-chiamo", "come-ti-chiami", "piacere", "sono-di"],
+        "pairs": [
+          {"left": "Mi chiamo...", "right": "Ich heiße..."},
+          {"left": "Come ti chiami?", "right": "Wie heißt du?"},
+          {"left": "Piacere", "right": "Freut mich"},
+          {"left": "Sono di...", "right": "Ich komme aus..."}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-mi-chiamo",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Den Namen nennen",
+      "exercise": {
+        "id": "ex-free-mi-chiamo",
+        "type": "free_text",
+        "prompt": "Übersetze: 'Ich heiße...' (mit dem üblichen Ausdruck)",
+        "card_ids": ["mi-chiamo"],
+        "accept": ["Mi chiamo", "mi chiamo"],
+        "hint": "Wörtlich 'ich rufe mich'.",
+        "distractors": ["Come ti chiami", "Sono di", "Piacere"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-piacere",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Freut mich",
+      "exercise": {
+        "id": "ex-free-piacere",
+        "type": "free_text",
+        "prompt": "Was sagt man beim Kennenlernen ('Freut mich')?",
+        "card_ids": ["piacere"],
+        "accept": ["Piacere", "piacere"],
+        "hint": "Ein Wort, hat mit 'gefallen' zu tun.",
+        "distractors": ["Grazie", "Prego", "Arrivederci"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-sono-di",
+      "type": "exercise",
+      "theory_ref": "step-herkunft",
+      "title": "Lücke füllen: Herkunft",
+      "exercise": {
+        "id": "ex-cloze-sono-di",
+        "type": "cloze",
+        "prompt": "Ergänze: 'Ich komme aus Berlin.'",
+        "card_ids": ["sono-di"],
+        "sentence": "Sono ___ Berlino.",
+        "blanks": [
+          {"accept": ["di"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "Wörtlich 'von'."
+      }
+    },
+    {
+      "id": "ex-tile-come-ti-chiami",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Frage zusammensetzen",
+      "exercise": {
+        "id": "ex-tile-come-ti-chiami",
+        "type": "word_tiles",
+        "prompt": "Baue die Frage 'Wie heißt du?'.",
+        "card_ids": ["come-ti-chiami"],
+        "tiles": ["Come", "ti", "chiami"],
+        "hint": "Drei Wörter, informell.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-tedesco",
+      "type": "exercise",
+      "theory_ref": "step-herkunft",
+      "title": "Nationalität wählen",
+      "exercise": {
+        "id": "ex-pick-tedesco",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'deutsch'?",
+        "card_ids": ["tedesco"],
+        "images": [
+          {"src": "assets/img/tedesco.png", "label": "tedesco", "is_correct": "true"},
+          {"src": "assets/img/italiano.png", "label": "italiano"},
+          {"src": "assets/img/piacere.png", "label": "piacere"},
+          {"src": "assets/img/parlo.png", "label": "parlo"}
+        ],
+        "hint": "Die männliche Form endet auf -o.",
+        "distractors": ["italiano", "piacere", "parlo"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

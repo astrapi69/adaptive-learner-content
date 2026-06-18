@@ -1,0 +1,226 @@
+{
+  "id": "08-familie",
+  "title": "Familie",
+  "description": "Familienmitglieder auf Italienisch — auf Deutsch erklärt.",
+  "target_language": "it",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "la-madre",
+      "front": "la madre",
+      "back": "die Mutter",
+      "notes": "Kontext: Mia madre è gentile. – Meine Mutter ist nett. (f.) Umgangssprachlich: la mamma.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "il-padre",
+      "front": "il padre",
+      "back": "der Vater",
+      "notes": "Kontext: Mio padre lavora. – Mein Vater arbeitet. (m.) Umgangssprachlich: il papà.",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "il-fratello",
+      "front": "il fratello",
+      "back": "der Bruder",
+      "notes": "Kontext: Ho un fratello. – Ich habe einen Bruder. (m.)",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "la-sorella",
+      "front": "la sorella",
+      "back": "die Schwester",
+      "notes": "Kontext: Ho due sorelle. – Ich habe zwei Schwestern. (f.)",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "il-figlio",
+      "front": "il figlio",
+      "back": "der Sohn",
+      "notes": "Kontext: Mio figlio ha cinque anni. – Mein Sohn ist fünf Jahre alt. (m.)",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "la-figlia",
+      "front": "la figlia",
+      "back": "die Tochter",
+      "notes": "Kontext: La mia figlia studia. – Meine Tochter studiert. (f.)",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "il-nonno",
+      "front": "il nonno",
+      "back": "der Großvater",
+      "notes": "Kontext: Il nonno racconta storie. – Der Opa erzählt Geschichten. (m.)",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "la-nonna",
+      "front": "la nonna",
+      "back": "die Großmutter",
+      "notes": "Kontext: La nonna cucina bene. – Die Oma kocht gut. (f.)",
+      "difficulty": 1,
+      "tags": ["familie"]
+    },
+    {
+      "id": "i-genitori",
+      "front": "i genitori",
+      "back": "die Eltern",
+      "notes": "Kontext: I miei genitori. – Meine Eltern. (m. Plural)",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "il-marito",
+      "front": "il marito",
+      "back": "der Ehemann",
+      "notes": "Kontext: Mio marito si chiama Luca. – Mein Mann heißt Luca. (m.)",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "la-moglie",
+      "front": "la moglie",
+      "back": "die Ehefrau",
+      "notes": "Kontext: Mia moglie è italiana. – Meine Frau ist Italienerin. (f.)",
+      "difficulty": 2,
+      "tags": ["familie"]
+    },
+    {
+      "id": "la-famiglia",
+      "front": "la famiglia",
+      "back": "die Familie",
+      "notes": "Kontext: Ho una famiglia numerosa. – Ich habe eine große Familie. (f.)",
+      "difficulty": 1,
+      "tags": ["familie"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die Familie",
+      "body": "# Die Familie (la famiglia)\n\nViele Familienwörter gibt es als Paar — männlich auf **-o**, weiblich auf **-a**:\n\n| männlich | weiblich |\n|---|---|\n| il figlio (Sohn) | la figlia (Tochter) |\n| il nonno (Opa) | la nonna (Oma) |\n| il fratello (Bruder) | la sorella (Schwester)* |\n\n*Bruder/Schwester folgen nicht dem -o/-a-Muster, sind aber trotzdem ein Paar.\n\n> **la madre** (Mutter) und **il padre** (Vater) enden auf -e."
+    },
+    {
+      "id": "step-possessiv",
+      "type": "theory",
+      "title": "Mein/Meine in der Familie",
+      "body": "## Besitz ausdrücken\n\nBei einzelnen Familienmitgliedern steht **kein** Artikel vor dem Possessiv:\n\n- **mio padre** — mein Vater\n- **mia madre** — meine Mutter\n- **mio fratello** — mein Bruder\n\nIm Plural kommt der Artikel zurück:\n\n- **i miei genitori** — meine Eltern\n- **le mie sorelle** — meine Schwestern"
+    },
+    {
+      "id": "ex-match-familie",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Familienmitglieder zuordnen",
+      "exercise": {
+        "id": "ex-match-familie",
+        "type": "matching",
+        "prompt": "Ordne den italienischen Wörtern die deutsche Bedeutung zu.",
+        "card_ids": ["la-madre", "il-padre", "il-fratello", "la-sorella"],
+        "pairs": [
+          {"left": "la madre", "right": "die Mutter"},
+          {"left": "il padre", "right": "der Vater"},
+          {"left": "il fratello", "right": "der Bruder"},
+          {"left": "la sorella", "right": "die Schwester"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-sorella",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Schwester auf Italienisch",
+      "exercise": {
+        "id": "ex-free-sorella",
+        "type": "free_text",
+        "prompt": "Wie heißt 'die Schwester' auf Italienisch (mit Artikel)?",
+        "card_ids": ["la-sorella"],
+        "accept": ["la sorella", "La sorella"],
+        "hint": "Weiblich, mit 'la'.",
+        "distractors": ["il fratello", "la madre", "la figlia"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-nonna",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Großmutter auf Italienisch",
+      "exercise": {
+        "id": "ex-free-nonna",
+        "type": "free_text",
+        "prompt": "Wie heißt 'die Großmutter' auf Italienisch (mit Artikel)?",
+        "card_ids": ["la-nonna"],
+        "accept": ["la nonna", "La nonna"],
+        "hint": "Weiblich, doppeltes n.",
+        "distractors": ["il nonno", "la madre", "la moglie"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-mio-padre",
+      "type": "exercise",
+      "theory_ref": "step-possessiv",
+      "title": "Lücke füllen: mein Vater",
+      "exercise": {
+        "id": "ex-cloze-mio-padre",
+        "type": "cloze",
+        "prompt": "Ergänze: 'Mein Vater arbeitet.' (ohne Artikel)",
+        "card_ids": ["il-padre"],
+        "sentence": "Mio ___ lavora.",
+        "blanks": [
+          {"accept": ["padre"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "der Vater (ohne Artikel nach 'mio')."
+      }
+    },
+    {
+      "id": "ex-tile-figlio-figlia",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Satz zusammensetzen",
+      "exercise": {
+        "id": "ex-tile-figlio-figlia",
+        "type": "word_tiles",
+        "prompt": "Baue den Satz 'Ich habe einen Sohn und eine Tochter.'",
+        "card_ids": ["il-figlio", "la-figlia"],
+        "tiles": ["Ho", "un", "figlio", "e", "una", "figlia"],
+        "hint": "Sechs Wörter.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-nonno",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Großvater erkennen",
+      "exercise": {
+        "id": "ex-pick-nonno",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'der Großvater'?",
+        "card_ids": ["il-nonno"],
+        "images": [
+          {"src": "assets/img/nonno.png", "label": "il nonno", "is_correct": "true"},
+          {"src": "assets/img/nonna.png", "label": "la nonna"},
+          {"src": "assets/img/padre.png", "label": "il padre"},
+          {"src": "assets/img/fratello.png", "label": "il fratello"}
+        ],
+        "hint": "Männlich, endet auf -o.",
+        "distractors": ["la nonna", "il padre", "il fratello"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "05-einkaufen",
+  "title": "Einkaufen",
+  "description": "Einkaufen auf Italienisch: nach dem Preis fragen und Eigenschaften beschreiben — auf Deutsch erklärt.",
+  "target_language": "it",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "quanto-costa",
+      "front": "Quanto costa?",
+      "back": "Wie viel kostet das?",
+      "notes": "Kontext: Quanto costa questo? – Wie viel kostet das? Für eine Sache (Singular).",
+      "difficulty": 2,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "quanto-costano",
+      "front": "Quanto costano?",
+      "back": "Wie viel kosten sie?",
+      "notes": "Kontext: Quanto costano le mele? – Wie viel kosten die Äpfel? Für mehrere Dinge (Plural).",
+      "difficulty": 3,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "il-negozio",
+      "front": "il negozio",
+      "back": "das Geschäft",
+      "notes": "Kontext: Il negozio è aperto. – Das Geschäft ist offen. (m.)",
+      "difficulty": 2,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "caro",
+      "front": "caro",
+      "back": "teuer",
+      "notes": "Kontext: È troppo caro! – Das ist zu teuer! (m. caro / f. cara)",
+      "difficulty": 2,
+      "tags": ["einkaufen", "adjektiv"]
+    },
+    {
+      "id": "economico",
+      "front": "economico",
+      "back": "günstig / billig",
+      "notes": "Kontext: Questo è più economico. – Das ist günstiger. (m. economico / f. economica)",
+      "difficulty": 2,
+      "tags": ["einkaufen", "adjektiv"]
+    },
+    {
+      "id": "grande",
+      "front": "grande",
+      "back": "groß",
+      "notes": "Kontext: Una taglia più grande. – Eine größere Größe. Endung -e gilt für m. und f.",
+      "difficulty": 1,
+      "tags": ["einkaufen", "adjektiv"]
+    },
+    {
+      "id": "piccolo",
+      "front": "piccolo",
+      "back": "klein",
+      "notes": "Kontext: È troppo piccolo. – Das ist zu klein. (m. piccolo / f. piccola)",
+      "difficulty": 1,
+      "tags": ["einkaufen", "adjektiv"]
+    },
+    {
+      "id": "vorrei-questo",
+      "front": "Vorrei questo",
+      "back": "Ich möchte das",
+      "notes": "Kontext: Vorrei questo, per favore. – Ich möchte das, bitte.",
+      "difficulty": 2,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "il-prezzo",
+      "front": "il prezzo",
+      "back": "der Preis",
+      "notes": "Kontext: Qual è il prezzo? – Wie ist der Preis? (m.)",
+      "difficulty": 2,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "i-soldi",
+      "front": "i soldi",
+      "back": "das Geld",
+      "notes": "Kontext: Non ho soldi. – Ich habe kein Geld. (m. Plural, wird meist im Plural benutzt)",
+      "difficulty": 2,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "in-saldo",
+      "front": "in saldo",
+      "back": "im Angebot / reduziert",
+      "notes": "Kontext: È in saldo? – Ist es reduziert?",
+      "difficulty": 3,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "lo-prendo",
+      "front": "Lo prendo",
+      "back": "Ich nehme es",
+      "notes": "Kontext: Va bene, lo prendo. – In Ordnung, ich nehme es.",
+      "difficulty": 2,
+      "tags": ["einkaufen"]
+    },
+    {
+      "id": "troppo",
+      "front": "troppo",
+      "back": "zu (viel)",
+      "notes": "Kontext: È troppo caro. – Das ist zu teuer.",
+      "difficulty": 2,
+      "tags": ["einkaufen", "adjektiv"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Nach dem Preis fragen",
+      "body": "# Einkaufen\n\nDie wichtigste Frage beim Einkaufen ist:\n\n- **Quanto costa?** — Wie viel kostet das? (eine Sache)\n- **Quanto costano?** — Wie viel kosten sie? (mehrere Sachen)\n\nWeitere nützliche Sätze:\n\n- **Vorrei questo.** — Ich möchte das.\n- **Lo prendo.** — Ich nehme es.\n- **È in saldo?** — Ist es reduziert?"
+    },
+    {
+      "id": "step-adjektive",
+      "type": "theory",
+      "title": "Eigenschaften beschreiben",
+      "body": "## Adjektive zum Einkaufen\n\n| Italienisch | Deutsch |\n|---|---|\n| caro | teuer |\n| economico | günstig |\n| grande | groß |\n| piccolo | klein |\n\nAdjektive passen sich dem Geschlecht an:\n\n- **caro** (m.) / **cara** (f.)\n- **piccolo** (m.) / **piccola** (f.)\n- **grande** bleibt gleich (Endung -e für m. und f.)\n\n> **troppo** = zu (viel): *È troppo caro!* — Das ist zu teuer!"
+    },
+    {
+      "id": "ex-match-einkaufen",
+      "type": "exercise",
+      "theory_ref": "step-adjektive",
+      "title": "Adjektive zuordnen",
+      "exercise": {
+        "id": "ex-match-einkaufen",
+        "type": "matching",
+        "prompt": "Ordne den italienischen Adjektiven die deutsche Bedeutung zu.",
+        "card_ids": ["caro", "economico", "grande", "piccolo"],
+        "pairs": [
+          {"left": "caro", "right": "teuer"},
+          {"left": "economico", "right": "günstig"},
+          {"left": "grande", "right": "groß"},
+          {"left": "piccolo", "right": "klein"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-quanto-costa",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Nach dem Preis fragen",
+      "exercise": {
+        "id": "ex-free-quanto-costa",
+        "type": "free_text",
+        "prompt": "Wie fragt man 'Wie viel kostet das?' (eine Sache)?",
+        "card_ids": ["quanto-costa"],
+        "accept": ["Quanto costa?", "Quanto costa", "quanto costa"],
+        "hint": "Zwei Wörter, beginnt mit 'Quanto'.",
+        "distractors": ["Quanto costano?", "Vorrei questo", "Lo prendo"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-caro",
+      "type": "exercise",
+      "theory_ref": "step-adjektive",
+      "title": "Teuer auf Italienisch",
+      "exercise": {
+        "id": "ex-free-caro",
+        "type": "free_text",
+        "prompt": "Wie heißt 'teuer' (männlich) auf Italienisch?",
+        "card_ids": ["caro"],
+        "accept": ["caro", "Caro"],
+        "hint": "Endet auf -o (männlich).",
+        "distractors": ["economico", "grande", "piccolo"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-troppo-caro",
+      "type": "exercise",
+      "theory_ref": "step-adjektive",
+      "title": "Lücke füllen: zu teuer",
+      "exercise": {
+        "id": "ex-cloze-troppo-caro",
+        "type": "cloze",
+        "prompt": "Ergänze: 'Das ist zu teuer!'",
+        "card_ids": ["troppo", "caro"],
+        "sentence": "È ___ ___ !",
+        "blanks": [
+          {"accept": ["troppo"]},
+          {"accept": ["caro"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "zu + teuer."
+      }
+    },
+    {
+      "id": "ex-tile-lo-prendo",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Eine Kaufentscheidung",
+      "exercise": {
+        "id": "ex-tile-lo-prendo",
+        "type": "word_tiles",
+        "prompt": "Baue den Satz 'In Ordnung, ich nehme es.'",
+        "card_ids": ["lo-prendo"],
+        "tiles": ["Va", "bene,", "lo", "prendo"],
+        "hint": "Vier Wörter.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-piccolo",
+      "type": "exercise",
+      "theory_ref": "step-adjektive",
+      "title": "Klein erkennen",
+      "exercise": {
+        "id": "ex-pick-piccolo",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'klein'?",
+        "card_ids": ["piccolo"],
+        "images": [
+          {"src": "assets/img/piccolo.png", "label": "piccolo", "is_correct": "true"},
+          {"src": "assets/img/grande.png", "label": "grande"},
+          {"src": "assets/img/caro.png", "label": "caro"},
+          {"src": "assets/img/economico.png", "label": "economico"}
+        ],
+        "hint": "Das Gegenteil von 'grande'.",
+        "distractors": ["grande", "caro", "economico"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

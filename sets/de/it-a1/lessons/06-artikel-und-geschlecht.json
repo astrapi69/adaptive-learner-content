@@ -1,0 +1,235 @@
+{
+  "id": "06-artikel-und-geschlecht",
+  "title": "Artikel und Geschlecht",
+  "description": "Die italienischen bestimmten und unbestimmten Artikel sowie das grammatische Geschlecht — auf Deutsch erklärt.",
+  "target_language": "it",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "il",
+      "front": "il",
+      "back": "der (m. Sg.)",
+      "notes": "Kontext: il libro – das Buch. Vor den meisten männlichen Wörtern: il treno, il gatto.",
+      "difficulty": 1,
+      "tags": ["artikel"]
+    },
+    {
+      "id": "lo",
+      "front": "lo",
+      "back": "der (m. Sg., Sonderfall)",
+      "notes": "Kontext: lo studente – der Student. Vor s+Konsonant, z, gn, ps: lo zaino, lo gnomo.",
+      "difficulty": 3,
+      "tags": ["artikel"]
+    },
+    {
+      "id": "la",
+      "front": "la",
+      "back": "die (f. Sg.)",
+      "notes": "Kontext: la casa – das Haus. Vor weiblichen Wörtern: la donna, la pizza.",
+      "difficulty": 1,
+      "tags": ["artikel"]
+    },
+    {
+      "id": "l-apostrofo",
+      "front": "l'",
+      "back": "der/die (vor Vokal)",
+      "notes": "Kontext: l'amico (m.), l'acqua (f.). il/lo/la werden vor Vokal zu l'.",
+      "difficulty": 2,
+      "tags": ["artikel"]
+    },
+    {
+      "id": "i",
+      "front": "i",
+      "back": "die (m. Pl.)",
+      "notes": "Kontext: i libri – die Bücher. Plural von 'il'.",
+      "difficulty": 2,
+      "tags": ["artikel", "plural"]
+    },
+    {
+      "id": "gli",
+      "front": "gli",
+      "back": "die (m. Pl., Sonderfall)",
+      "notes": "Kontext: gli studenti, gli amici. Plural von 'lo' und 'l'' (m.).",
+      "difficulty": 3,
+      "tags": ["artikel", "plural"]
+    },
+    {
+      "id": "le",
+      "front": "le",
+      "back": "die (f. Pl.)",
+      "notes": "Kontext: le case – die Häuser. Plural von 'la' und 'l'' (f.).",
+      "difficulty": 2,
+      "tags": ["artikel", "plural"]
+    },
+    {
+      "id": "un",
+      "front": "un",
+      "back": "ein (m.)",
+      "notes": "Kontext: un libro – ein Buch. Unbestimmter Artikel männlich (Normalfall).",
+      "difficulty": 1,
+      "tags": ["artikel", "unbestimmt"]
+    },
+    {
+      "id": "uno-art",
+      "front": "uno",
+      "back": "ein (m., Sonderfall)",
+      "notes": "Kontext: uno studente, uno zaino. Vor s+Konsonant, z, gn, ps.",
+      "difficulty": 3,
+      "tags": ["artikel", "unbestimmt"]
+    },
+    {
+      "id": "una",
+      "front": "una",
+      "back": "eine (f.)",
+      "notes": "Kontext: una casa – ein Haus. Vor Vokal: un'amica.",
+      "difficulty": 1,
+      "tags": ["artikel", "unbestimmt"]
+    },
+    {
+      "id": "parola-o",
+      "front": "il gatto",
+      "back": "die Katze (m.)",
+      "notes": "Kontext: Il gatto dorme. – Die Katze schläft. Wörter auf -o sind meist männlich.",
+      "difficulty": 1,
+      "tags": ["genus"]
+    },
+    {
+      "id": "parola-a",
+      "front": "la casa",
+      "back": "das Haus (f.)",
+      "notes": "Kontext: La casa è grande. – Das Haus ist groß. Wörter auf -a sind meist weiblich.",
+      "difficulty": 1,
+      "tags": ["genus"]
+    },
+    {
+      "id": "parola-e",
+      "front": "il fiore",
+      "back": "die Blume (m.)",
+      "notes": "Kontext: Il fiore è rosso. – Die Blume ist rot. Wörter auf -e können m. oder f. sein; hier männlich.",
+      "difficulty": 2,
+      "tags": ["genus"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Das Geschlecht der Wörter",
+      "body": "# Geschlecht im Italienischen\n\nJedes Substantiv ist männlich (m.) oder weiblich (f.). Die Endung gibt einen Hinweis:\n\n| Endung | meist | Beispiel |\n|---|---|---|\n| -o | männlich | il libr**o** |\n| -a | weiblich | la cas**a** |\n| -e | m. oder f. | il fior**e**, la nott**e** |\n\n> Wörter auf **-e** muss man mit dem Artikel lernen."
+    },
+    {
+      "id": "step-artikel",
+      "type": "theory",
+      "title": "Bestimmte und unbestimmte Artikel",
+      "body": "## Bestimmter Artikel (der/die/das)\n\n| | Singular | Plural |\n|---|---|---|\n| männlich | **il** (il libro) | **i** (i libri) |\n| männlich Sonderfall* | **lo** (lo studente) | **gli** (gli studenti) |\n| vor Vokal | **l'** (l'amico) | i / gli / le |\n| weiblich | **la** (la casa) | **le** (le case) |\n\n*Sonderfall = vor s+Konsonant, z, gn, ps.\n\n## Unbestimmter Artikel (ein/eine)\n\n- männlich: **un** (un libro), Sonderfall **uno** (uno studente)\n- weiblich: **una** (una casa), vor Vokal **un'** (un'amica)"
+    },
+    {
+      "id": "ex-match-artikel",
+      "type": "exercise",
+      "theory_ref": "step-artikel",
+      "title": "Artikel zuordnen",
+      "exercise": {
+        "id": "ex-match-artikel",
+        "type": "matching",
+        "prompt": "Ordne den italienischen Artikeln ihre Bedeutung zu.",
+        "card_ids": ["il", "la", "i", "le"],
+        "pairs": [
+          {"left": "il", "right": "der (m. Sg.)"},
+          {"left": "la", "right": "die (f. Sg.)"},
+          {"left": "i", "right": "die (m. Pl.)"},
+          {"left": "le", "right": "die (f. Pl.)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-una",
+      "type": "exercise",
+      "theory_ref": "step-artikel",
+      "title": "Unbestimmter Artikel weiblich",
+      "exercise": {
+        "id": "ex-free-una",
+        "type": "free_text",
+        "prompt": "Wie heißt der unbestimmte Artikel 'eine' (weiblich)?",
+        "card_ids": ["una"],
+        "accept": ["una", "Una"],
+        "hint": "Endet auf -a.",
+        "distractors": ["un", "uno", "la"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-le",
+      "type": "exercise",
+      "theory_ref": "step-artikel",
+      "title": "Weiblicher Plural",
+      "exercise": {
+        "id": "ex-free-le",
+        "type": "free_text",
+        "prompt": "Wie heißt der bestimmte Artikel im weiblichen Plural (le case)?",
+        "card_ids": ["le"],
+        "accept": ["le", "Le"],
+        "hint": "Zwei Buchstaben, Plural von 'la'.",
+        "distractors": ["la", "i", "gli"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-il-la",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke füllen: Artikel wählen",
+      "exercise": {
+        "id": "ex-cloze-il-la",
+        "type": "cloze",
+        "prompt": "Ergänze den richtigen bestimmten Artikel (il oder la).",
+        "card_ids": ["il", "la", "parola-o", "parola-a"],
+        "sentence": "___ gatto e ___ casa.",
+        "blanks": [
+          {"accept": ["il", "Il"]},
+          {"accept": ["la"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "gatto endet auf -o (m.), casa auf -a (f.)."
+      }
+    },
+    {
+      "id": "ex-tile-uno-studente",
+      "type": "exercise",
+      "theory_ref": "step-artikel",
+      "title": "Sonderfall-Artikel",
+      "exercise": {
+        "id": "ex-tile-uno-studente",
+        "type": "word_tiles",
+        "prompt": "Baue 'ein Student' (Sonderfall vor st-).",
+        "card_ids": ["uno-art"],
+        "tiles": ["uno", "studente"],
+        "hint": "Vor s+Konsonant nimmt man 'uno'.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-la-casa",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Weibliches Wort erkennen",
+      "exercise": {
+        "id": "ex-pick-la-casa",
+        "type": "picture_choice",
+        "prompt": "Welches Wort ist weiblich (mit 'la')?",
+        "card_ids": ["parola-a"],
+        "images": [
+          {"src": "assets/img/casa.png", "label": "la casa", "is_correct": "true"},
+          {"src": "assets/img/gatto.png", "label": "il gatto"},
+          {"src": "assets/img/fiore.png", "label": "il fiore"},
+          {"src": "assets/img/libro.png", "label": "il libro"}
+        ],
+        "hint": "Endet auf -a, Artikel 'la'.",
+        "distractors": ["il gatto", "il fiore", "il libro"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

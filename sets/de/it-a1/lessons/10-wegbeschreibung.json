@@ -1,0 +1,226 @@
+{
+  "id": "10-wegbeschreibung",
+  "title": "Wegbeschreibung",
+  "description": "Nach dem Weg fragen und einer Wegbeschreibung folgen — auf Italienisch, auf Deutsch erklärt.",
+  "target_language": "it",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "dov-e",
+      "front": "Dov'è...?",
+      "back": "Wo ist...?",
+      "notes": "Kontext: Dov'è la stazione? – Wo ist der Bahnhof? Aus 'dove è' wird 'dov'è'.",
+      "difficulty": 2,
+      "tags": ["wegbeschreibung"]
+    },
+    {
+      "id": "a-destra",
+      "front": "a destra",
+      "back": "rechts / nach rechts",
+      "notes": "Kontext: Giri a destra. – Biegen Sie nach rechts ab.",
+      "difficulty": 1,
+      "tags": ["wegbeschreibung", "richtung"]
+    },
+    {
+      "id": "a-sinistra",
+      "front": "a sinistra",
+      "back": "links / nach links",
+      "notes": "Kontext: La banca è a sinistra. – Die Bank ist links.",
+      "difficulty": 1,
+      "tags": ["wegbeschreibung", "richtung"]
+    },
+    {
+      "id": "dritto",
+      "front": "sempre dritto",
+      "back": "immer geradeaus",
+      "notes": "Kontext: Vada sempre dritto. – Gehen Sie immer geradeaus.",
+      "difficulty": 2,
+      "tags": ["wegbeschreibung", "richtung"]
+    },
+    {
+      "id": "vicino",
+      "front": "vicino",
+      "back": "nah / in der Nähe",
+      "notes": "Kontext: È qui vicino. – Es ist hier in der Nähe. vicino a = in der Nähe von.",
+      "difficulty": 2,
+      "tags": ["wegbeschreibung"]
+    },
+    {
+      "id": "lontano",
+      "front": "lontano",
+      "back": "weit / weit weg",
+      "notes": "Kontext: È lontano da qui? – Ist es weit von hier?",
+      "difficulty": 2,
+      "tags": ["wegbeschreibung"]
+    },
+    {
+      "id": "la-stazione",
+      "front": "la stazione",
+      "back": "der Bahnhof",
+      "notes": "Kontext: La stazione è vicina. – Der Bahnhof ist in der Nähe. (f.)",
+      "difficulty": 1,
+      "tags": ["wegbeschreibung", "orte"]
+    },
+    {
+      "id": "la-piazza",
+      "front": "la piazza",
+      "back": "der Platz",
+      "notes": "Kontext: La piazza è grande. – Der Platz ist groß. (f.)",
+      "difficulty": 1,
+      "tags": ["wegbeschreibung", "orte"]
+    },
+    {
+      "id": "la-strada",
+      "front": "la strada",
+      "back": "die Straße",
+      "notes": "Kontext: Attraversa la strada. – Überquere die Straße. (f.)",
+      "difficulty": 1,
+      "tags": ["wegbeschreibung", "orte"]
+    },
+    {
+      "id": "il-semaforo",
+      "front": "il semaforo",
+      "back": "die Ampel",
+      "notes": "Kontext: Gira al semaforo. – Bieg an der Ampel ab. (m.)",
+      "difficulty": 3,
+      "tags": ["wegbeschreibung", "orte"]
+    },
+    {
+      "id": "qui",
+      "front": "qui",
+      "back": "hier",
+      "notes": "Kontext: Sono qui. – Ich bin hier.",
+      "difficulty": 1,
+      "tags": ["wegbeschreibung"]
+    },
+    {
+      "id": "scusi-dov-e",
+      "front": "Scusi, dov'è...?",
+      "back": "Entschuldigung, wo ist...?",
+      "notes": "Kontext: Scusi, dov'è il bagno? – Entschuldigung, wo ist die Toilette? Höflich (Sie).",
+      "difficulty": 2,
+      "tags": ["wegbeschreibung", "hoeflichkeit"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Nach dem Weg fragen",
+      "body": "# Nach dem Weg fragen\n\nHöflich fragt man:\n\n- **Scusi, dov'è la stazione?** — Entschuldigung, wo ist der Bahnhof?\n- **Dov'è la piazza?** — Wo ist der Platz?\n\n> **dov'è** entsteht aus *dove* (wo) + *è* (ist). Der Apostroph ersetzt das wegfallende *e*."
+    },
+    {
+      "id": "step-richtungen",
+      "type": "theory",
+      "title": "Richtungen und Entfernung",
+      "body": "## Richtungen\n\n| Italienisch | Deutsch |\n|---|---|\n| a destra | rechts |\n| a sinistra | links |\n| sempre dritto | immer geradeaus |\n\n## Entfernung\n\n- **vicino (a)** — nah, in der Nähe (von)\n- **lontano (da)** — weit (von)\n- **qui** — hier\n\nBeispiel: **Vada sempre dritto, poi a destra.** — Gehen Sie geradeaus, dann nach rechts."
+    },
+    {
+      "id": "ex-match-wegbeschreibung",
+      "type": "exercise",
+      "theory_ref": "step-richtungen",
+      "title": "Richtungen zuordnen",
+      "exercise": {
+        "id": "ex-match-wegbeschreibung",
+        "type": "matching",
+        "prompt": "Ordne den italienischen Ausdrücken die deutsche Bedeutung zu.",
+        "card_ids": ["a-destra", "a-sinistra", "dritto", "vicino"],
+        "pairs": [
+          {"left": "a destra", "right": "rechts"},
+          {"left": "a sinistra", "right": "links"},
+          {"left": "sempre dritto", "right": "immer geradeaus"},
+          {"left": "vicino", "right": "nah / in der Nähe"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-a-destra",
+      "type": "exercise",
+      "theory_ref": "step-richtungen",
+      "title": "Nach rechts",
+      "exercise": {
+        "id": "ex-free-a-destra",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'rechts / nach rechts' auf Italienisch?",
+        "card_ids": ["a-destra"],
+        "accept": ["a destra", "A destra"],
+        "hint": "Zwei Wörter, beginnt mit 'a'.",
+        "distractors": ["a sinistra", "sempre dritto", "lontano"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-lontano",
+      "type": "exercise",
+      "theory_ref": "step-richtungen",
+      "title": "Weit weg",
+      "exercise": {
+        "id": "ex-free-lontano",
+        "type": "free_text",
+        "prompt": "Wie heißt 'weit / weit weg' auf Italienisch?",
+        "card_ids": ["lontano"],
+        "accept": ["lontano", "Lontano"],
+        "hint": "Das Gegenteil von 'vicino'.",
+        "distractors": ["vicino", "qui", "a destra"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-dov-e-stazione",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke füllen: Wo ist der Bahnhof?",
+      "exercise": {
+        "id": "ex-cloze-dov-e-stazione",
+        "type": "cloze",
+        "prompt": "Ergänze: 'Entschuldigung, wo ist der Bahnhof?'",
+        "card_ids": ["dov-e", "la-stazione"],
+        "sentence": "Scusi, ___ la stazione?",
+        "blanks": [
+          {"accept": ["dov'è", "dove è", "dov'e"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "dove + è, mit Apostroph."
+      }
+    },
+    {
+      "id": "ex-tile-sempre-dritto",
+      "type": "exercise",
+      "theory_ref": "step-richtungen",
+      "title": "Wegbeschreibung zusammensetzen",
+      "exercise": {
+        "id": "ex-tile-sempre-dritto",
+        "type": "word_tiles",
+        "prompt": "Baue 'Gehen Sie geradeaus, dann nach rechts.'",
+        "card_ids": ["dritto", "a-destra"],
+        "tiles": ["Vada", "sempre", "dritto,", "poi", "a", "destra"],
+        "hint": "Sechs Wörter.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-stazione",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Den Ort erkennen",
+      "exercise": {
+        "id": "ex-pick-stazione",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'der Bahnhof'?",
+        "card_ids": ["la-stazione"],
+        "images": [
+          {"src": "assets/img/stazione.png", "label": "la stazione", "is_correct": "true"},
+          {"src": "assets/img/piazza.png", "label": "la piazza"},
+          {"src": "assets/img/strada.png", "label": "la strada"},
+          {"src": "assets/img/semaforo.png", "label": "il semaforo"}
+        ],
+        "hint": "Dort fahren Züge ab.",
+        "distractors": ["la piazza", "la strada", "il semaforo"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/adaptive-learner-content",
-  "generated": "2026-06-18T18:00:44Z",
+  "generated": "2026-06-18T18:03:07Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -430,8 +430,27 @@
       "trust_level": 3,
       "book": null,
       "updated_at": "2026-06-18T20:00:31+02:00"
+    },
+    {
+      "id": "it-a1-from-de",
+      "name": "Italienisch A1 (für Deutschsprachige)",
+      "description": "Zehn A1-Lektionen Italienisch, auf Deutsch erklärt — vom ersten Gruß bis zur Wegbeschreibung.",
+      "source_language": "de",
+      "target_language": "it",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 10,
+      "card_count": 125,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-18T18:03:07Z"
     }
   ],
-  "total_lessons": 378,
-  "total_cards": 4753
+  "total_lessons": 388,
+  "total_cards": 4878
 }

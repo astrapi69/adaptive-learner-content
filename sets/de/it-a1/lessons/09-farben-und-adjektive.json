@@ -1,0 +1,226 @@
+{
+  "id": "09-farben-und-adjektive",
+  "title": "Farben und Adjektive",
+  "description": "Farben und gebräuchliche Adjektive auf Italienisch, mit Angleichung an Geschlecht und Zahl — auf Deutsch erklärt.",
+  "target_language": "it",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "rosso",
+      "front": "rosso",
+      "back": "rot",
+      "notes": "Kontext: Il vino rosso. – Der Rotwein. (m. rosso / f. rossa)",
+      "difficulty": 1,
+      "tags": ["farben"]
+    },
+    {
+      "id": "verde",
+      "front": "verde",
+      "back": "grün",
+      "notes": "Kontext: La mela verde. – Der grüne Apfel. Endung -e: m. und f. gleich.",
+      "difficulty": 1,
+      "tags": ["farben"]
+    },
+    {
+      "id": "blu",
+      "front": "blu",
+      "back": "blau",
+      "notes": "Kontext: Il cielo blu. – Der blaue Himmel. Unveränderlich: immer 'blu'.",
+      "difficulty": 2,
+      "tags": ["farben"]
+    },
+    {
+      "id": "giallo",
+      "front": "giallo",
+      "back": "gelb",
+      "notes": "Kontext: Il limone giallo. – Die gelbe Zitrone. (m. giallo / f. gialla)",
+      "difficulty": 1,
+      "tags": ["farben"]
+    },
+    {
+      "id": "bianco",
+      "front": "bianco",
+      "back": "weiß",
+      "notes": "Kontext: Il vino bianco. – Der Weißwein. (m. bianco / f. bianca)",
+      "difficulty": 2,
+      "tags": ["farben"]
+    },
+    {
+      "id": "nero",
+      "front": "nero",
+      "back": "schwarz",
+      "notes": "Kontext: Il gatto nero. – Die schwarze Katze. (m. nero / f. nera)",
+      "difficulty": 1,
+      "tags": ["farben"]
+    },
+    {
+      "id": "bello",
+      "front": "bello",
+      "back": "schön",
+      "notes": "Kontext: Che bella giornata! – Was für ein schöner Tag! (m. bello / f. bella)",
+      "difficulty": 2,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "brutto",
+      "front": "brutto",
+      "back": "hässlich",
+      "notes": "Kontext: Che tempo brutto! – Was für schlechtes Wetter! (m. brutto / f. brutta)",
+      "difficulty": 2,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "nuovo",
+      "front": "nuovo",
+      "back": "neu",
+      "notes": "Kontext: Una macchina nuova. – Ein neues Auto. (m. nuovo / f. nuova)",
+      "difficulty": 2,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "vecchio",
+      "front": "vecchio",
+      "back": "alt",
+      "notes": "Kontext: Un libro vecchio. – Ein altes Buch. (m. vecchio / f. vecchia)",
+      "difficulty": 2,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "grande-adj",
+      "front": "grande",
+      "back": "groß",
+      "notes": "Kontext: Una casa grande. – Ein großes Haus. Endung -e: m. und f. gleich.",
+      "difficulty": 1,
+      "tags": ["adjektiv"]
+    },
+    {
+      "id": "piccolo-adj",
+      "front": "piccolo",
+      "back": "klein",
+      "notes": "Kontext: Un cane piccolo. – Ein kleiner Hund. (m. piccolo / f. piccola)",
+      "difficulty": 1,
+      "tags": ["adjektiv"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Adjektive richten sich nach dem Nomen",
+      "body": "# Adjektive im Italienischen\n\nAdjektive passen sich Geschlecht und Zahl des Nomens an. Es gibt zwei Gruppen:\n\n**Gruppe 1 (auf -o):** vier Formen\n\n| | Singular | Plural |\n|---|---|---|\n| männlich | ross**o** | ross**i** |\n| weiblich | ross**a** | ross**e** |\n\n**Gruppe 2 (auf -e):** zwei Formen\n\n| | Singular | Plural |\n|---|---|---|\n| m. + f. | verd**e** | verd**i** |\n\n> **blu** ist unveränderlich und bleibt immer gleich."
+    },
+    {
+      "id": "step-stellung",
+      "type": "theory",
+      "title": "Farben und Stellung",
+      "body": "## Wichtige Farben\n\n| Italienisch | Deutsch |\n|---|---|\n| rosso | rot |\n| verde | grün |\n| blu | blau |\n| giallo | gelb |\n| bianco | weiß |\n| nero | schwarz |\n\n## Stellung\n\nFarben und die meisten Adjektive stehen **nach** dem Nomen:\n\n- **la macchina rossa** — das rote Auto\n- **il vino bianco** — der Weißwein\n\n> Bewertende Adjektive wie **bello** stehen oft davor: *un bel giorno*."
+    },
+    {
+      "id": "ex-match-farben",
+      "type": "exercise",
+      "theory_ref": "step-stellung",
+      "title": "Farben zuordnen",
+      "exercise": {
+        "id": "ex-match-farben",
+        "type": "matching",
+        "prompt": "Ordne den italienischen Farben die deutsche Bedeutung zu.",
+        "card_ids": ["rosso", "verde", "blu", "nero"],
+        "pairs": [
+          {"left": "rosso", "right": "rot"},
+          {"left": "verde", "right": "grün"},
+          {"left": "blu", "right": "blau"},
+          {"left": "nero", "right": "schwarz"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-bello",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Schön auf Italienisch",
+      "exercise": {
+        "id": "ex-free-bello",
+        "type": "free_text",
+        "prompt": "Wie heißt 'schön' (männlich) auf Italienisch?",
+        "card_ids": ["bello"],
+        "accept": ["bello", "Bello"],
+        "hint": "Doppeltes l, endet auf -o.",
+        "distractors": ["brutto", "nuovo", "vecchio"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-giallo",
+      "type": "exercise",
+      "theory_ref": "step-stellung",
+      "title": "Gelb auf Italienisch",
+      "exercise": {
+        "id": "ex-free-giallo",
+        "type": "free_text",
+        "prompt": "Wie heißt 'gelb' (männlich) auf Italienisch?",
+        "card_ids": ["giallo"],
+        "accept": ["giallo", "Giallo"],
+        "hint": "Beginnt mit 'gi', doppeltes l.",
+        "distractors": ["rosso", "verde", "bianco"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-macchina-rossa",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke füllen: Angleichung",
+      "exercise": {
+        "id": "ex-cloze-macchina-rossa",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Form von 'rosso' (la macchina ist weiblich).",
+        "card_ids": ["rosso"],
+        "sentence": "La macchina ___ .",
+        "blanks": [
+          {"accept": ["rossa"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "Weibliche Endung -a."
+      }
+    },
+    {
+      "id": "ex-tile-vino-bianco",
+      "type": "exercise",
+      "theory_ref": "step-stellung",
+      "title": "Adjektiv hinten",
+      "exercise": {
+        "id": "ex-tile-vino-bianco",
+        "type": "word_tiles",
+        "prompt": "Baue 'der Weißwein' (Adjektiv steht hinten).",
+        "card_ids": ["bianco"],
+        "tiles": ["il", "vino", "bianco"],
+        "hint": "Artikel + Nomen + Farbe.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-verde",
+      "type": "exercise",
+      "theory_ref": "step-stellung",
+      "title": "Grün erkennen",
+      "exercise": {
+        "id": "ex-pick-verde",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'grün'?",
+        "card_ids": ["verde"],
+        "images": [
+          {"src": "assets/img/verde.png", "label": "verde", "is_correct": "true"},
+          {"src": "assets/img/rosso.png", "label": "rosso"},
+          {"src": "assets/img/giallo.png", "label": "giallo"},
+          {"src": "assets/img/blu.png", "label": "blu"}
+        ],
+        "hint": "Endet auf -e.",
+        "distractors": ["rosso", "giallo", "blu"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

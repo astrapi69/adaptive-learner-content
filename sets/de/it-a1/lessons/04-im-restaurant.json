@@ -1,0 +1,227 @@
+{
+  "id": "04-im-restaurant",
+  "title": "Im Restaurant",
+  "description": "Im italienischen Restaurant bestellen und bezahlen — auf Deutsch erklärt.",
+  "target_language": "it",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "il-menu",
+      "front": "il menù",
+      "back": "die Speisekarte",
+      "notes": "Kontext: Il menù, per favore. – Die Speisekarte, bitte. (m.) Mit Akzent auf dem ù.",
+      "difficulty": 1,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "vorrei",
+      "front": "Vorrei...",
+      "back": "Ich hätte gern...",
+      "notes": "Kontext: Vorrei un caffè. – Ich hätte gern einen Kaffee. Höfliche Bestellform.",
+      "difficulty": 2,
+      "tags": ["restaurant", "bestellen"]
+    },
+    {
+      "id": "un-caffe",
+      "front": "un caffè",
+      "back": "ein Kaffee (Espresso)",
+      "notes": "Kontext: Un caffè, per favore. – Einen Kaffee, bitte. (m.) In Italien meist ein Espresso.",
+      "difficulty": 1,
+      "tags": ["restaurant", "getraenke"]
+    },
+    {
+      "id": "l-acqua",
+      "front": "l'acqua",
+      "back": "das Wasser",
+      "notes": "Kontext: Un'acqua naturale. – Ein stilles Wasser. (f.) acqua naturale = still, frizzante = mit Kohlensäure.",
+      "difficulty": 1,
+      "tags": ["restaurant", "getraenke"]
+    },
+    {
+      "id": "il-vino",
+      "front": "il vino",
+      "back": "der Wein",
+      "notes": "Kontext: Un bicchiere di vino rosso. – Ein Glas Rotwein. (m.)",
+      "difficulty": 1,
+      "tags": ["restaurant", "getraenke"]
+    },
+    {
+      "id": "la-pizza",
+      "front": "la pizza",
+      "back": "die Pizza",
+      "notes": "Kontext: Vorrei una pizza margherita. – Ich hätte gern eine Pizza Margherita. (f.)",
+      "difficulty": 1,
+      "tags": ["restaurant", "essen"]
+    },
+    {
+      "id": "il-conto",
+      "front": "il conto",
+      "back": "die Rechnung",
+      "notes": "Kontext: Il conto, per favore! – Die Rechnung, bitte! (m.)",
+      "difficulty": 1,
+      "tags": ["restaurant", "bezahlen"]
+    },
+    {
+      "id": "per-favore",
+      "front": "per favore",
+      "back": "bitte (Bitte um etwas)",
+      "notes": "Kontext: Un tavolo per due, per favore. – Einen Tisch für zwei, bitte.",
+      "difficulty": 1,
+      "tags": ["restaurant", "hoeflichkeit"]
+    },
+    {
+      "id": "il-cameriere",
+      "front": "il cameriere",
+      "back": "der Kellner",
+      "notes": "Kontext: Cameriere, scusi! – Herr Ober, Entschuldigung! (m.) Kellnerin: la cameriera (f.).",
+      "difficulty": 2,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "il-tavolo",
+      "front": "il tavolo",
+      "back": "der Tisch",
+      "notes": "Kontext: Un tavolo per quattro. – Ein Tisch für vier. (m.)",
+      "difficulty": 1,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "buono",
+      "front": "buono",
+      "back": "lecker / gut",
+      "notes": "Kontext: La pasta è molto buona! – Die Pasta ist sehr lecker! (m. buono / f. buona)",
+      "difficulty": 2,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "scusi",
+      "front": "Scusi",
+      "back": "Entschuldigung (höflich)",
+      "notes": "Kontext: Scusi, dov'è il bagno? – Entschuldigung, wo ist die Toilette? Höflich (Sie).",
+      "difficulty": 2,
+      "tags": ["restaurant", "hoeflichkeit"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Bestellen im Restaurant",
+      "body": "# Im Restaurant bestellen\n\nDie höfliche Bestellform ist **Vorrei...** (Ich hätte gern...).\n\n- **Vorrei un caffè, per favore.** — Ich hätte gern einen Kaffee, bitte.\n- **Vorrei una pizza.** — Ich hätte gern eine Pizza.\n\nWichtige Wörter:\n\n- **il menù** — die Speisekarte\n- **per favore** — bitte\n- **scusi** — Entschuldigung (höflich)\n\n> **caffè** und **menù** tragen einen Akzent auf dem letzten Buchstaben."
+    },
+    {
+      "id": "step-bezahlen",
+      "type": "theory",
+      "title": "Bezahlen und Genus",
+      "body": "## Bezahlen\n\n- **Il conto, per favore!** — Die Rechnung, bitte!\n\n## Genus erkennen\n\nDer Artikel verrät das Geschlecht:\n\n| männlich (il) | weiblich (la) |\n|---|---|\n| il vino | la pizza |\n| il conto | l'acqua |\n| il caffè | la birra |\n\n> Vor einem Vokal wird *la* zu **l'** (l'acqua) und *il* manchmal zu **lo**."
+    },
+    {
+      "id": "ex-match-restaurant",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Restaurantwörter zuordnen",
+      "exercise": {
+        "id": "ex-match-restaurant",
+        "type": "matching",
+        "prompt": "Ordne den italienischen Wörtern die deutsche Bedeutung zu.",
+        "card_ids": ["il-menu", "il-conto", "l-acqua", "la-pizza"],
+        "pairs": [
+          {"left": "il menù", "right": "die Speisekarte"},
+          {"left": "il conto", "right": "die Rechnung"},
+          {"left": "l'acqua", "right": "das Wasser"},
+          {"left": "la pizza", "right": "die Pizza"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-vorrei",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Höflich bestellen",
+      "exercise": {
+        "id": "ex-free-vorrei",
+        "type": "free_text",
+        "prompt": "Wie sagt man höflich 'Ich hätte gern...'?",
+        "card_ids": ["vorrei"],
+        "accept": ["Vorrei", "vorrei"],
+        "hint": "Beginnt mit 'v', Konditionalform.",
+        "distractors": ["Per favore", "Scusi", "Il conto"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-conto",
+      "type": "exercise",
+      "theory_ref": "step-bezahlen",
+      "title": "Nach der Rechnung fragen",
+      "exercise": {
+        "id": "ex-free-conto",
+        "type": "free_text",
+        "prompt": "Wie heißt 'die Rechnung' auf Italienisch (mit Artikel)?",
+        "card_ids": ["il-conto"],
+        "accept": ["il conto", "Il conto"],
+        "hint": "Männlich, mit 'il'.",
+        "distractors": ["il menù", "il vino", "la pizza"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-vorrei-caffe",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lücke füllen: Bestellung",
+      "exercise": {
+        "id": "ex-cloze-vorrei-caffe",
+        "type": "cloze",
+        "prompt": "Ergänze die höfliche Bestellung eines Kaffees.",
+        "card_ids": ["vorrei", "un-caffe", "per-favore"],
+        "sentence": "___ un caffè, per ___ .",
+        "blanks": [
+          {"accept": ["Vorrei", "vorrei"]},
+          {"accept": ["favore"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "Ich hätte gern einen Kaffee, bitte."
+      }
+    },
+    {
+      "id": "ex-tile-conto-favore",
+      "type": "exercise",
+      "theory_ref": "step-bezahlen",
+      "title": "Rechnung verlangen",
+      "exercise": {
+        "id": "ex-tile-conto-favore",
+        "type": "word_tiles",
+        "prompt": "Baue den Satz 'Die Rechnung, bitte!'.",
+        "card_ids": ["il-conto", "per-favore"],
+        "tiles": ["Il", "conto", "per", "favore"],
+        "hint": "Vier Wörter.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pick-vino",
+      "type": "exercise",
+      "theory_ref": "step-bezahlen",
+      "title": "Getränk erkennen",
+      "exercise": {
+        "id": "ex-pick-vino",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'der Wein'?",
+        "card_ids": ["il-vino"],
+        "images": [
+          {"src": "assets/img/vino.png", "label": "il vino", "is_correct": "true"},
+          {"src": "assets/img/acqua.png", "label": "l'acqua"},
+          {"src": "assets/img/caffe.png", "label": "il caffè"},
+          {"src": "assets/img/pizza.png", "label": "la pizza"}
+        ],
+        "hint": "Männlich, mit 'il'.",
+        "distractors": ["l'acqua", "il caffè", "la pizza"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
