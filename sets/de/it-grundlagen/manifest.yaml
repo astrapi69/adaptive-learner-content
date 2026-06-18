@@ -1,0 +1,55 @@
+# IT-Grundlagen (für Deutschsprachige) — Set-Manifest (schema v1.3).
+#
+# Wissens-/Sachthemen-Set: ``domain: technology`` markiert den
+# Inhalt als Sachthema. Material und Erklärung sind beide auf
+# Deutsch (source_language == target_language), daher trägt der
+# Set-Ordner einen Themennamen (``it-grundlagen``) statt eines
+# ``{target}-{level}``-Namens. Karten sind Begriff/Frage (front)
+# und Definition/Antwort (back), beide auf Deutsch, mit den
+# englischen Originalbegriffen in Klammern. Der Content-Loader
+# liest ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.3'
+name: IT-Grundlagen
+description: >-
+  Einführung in die Grundlagen der IT und Programmierung für
+  Deutschsprachige (10 Lektionen): von Computer-Hardware,
+  Betriebssystemen und Netzwerken über Programmiersprachen,
+  Variablen und Kontrollstrukturen bis zu Datenbanken,
+  Versionsverwaltung, Web-Grundlagen und IT-Sicherheit. Alle
+  Begriffe, Definitionen und Theorie auf Deutsch, mit den
+  englischen Originalbegriffen in Klammern.
+sets:
+  - id: it-grundlagen-from-de
+    title: IT-Grundlagen
+    title_native: IT-Grundlagen
+    target_language: de
+    source_language: de
+    domain: technology
+    level: A1
+    path: sets/de/it-grundlagen
+    version: '1.0.0'
+    lesson_count: 10
+    domain_label: Technik
+    description: >-
+      Zehn Einführungslektionen in IT und Programmierung, auf
+      Deutsch erklärt — von Hardware und Betriebssystemen bis zu
+      Web-Grundlagen und IT-Sicherheit, mit den englischen
+      Fachbegriffen in Klammern.
+    tags:
+      - beginner
+      - technology
+      - it
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-was-ist-ein-computer.json
+    - 02-betriebssysteme.json
+    - 03-netzwerk-grundlagen.json
+    - 04-programmiersprachen-ueberblick.json
+    - 05-variablen-und-datentypen.json
+    - 06-kontrollstrukturen.json
+    - 07-datenbanken-grundbegriffe.json
+    - 08-versionsverwaltung.json
+    - 09-web-grundlagen.json
+    - 10-it-sicherheit-grundlagen.json

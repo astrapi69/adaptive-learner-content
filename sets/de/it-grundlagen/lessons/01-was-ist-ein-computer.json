@@ -1,0 +1,253 @@
+{
+  "id": "01-was-ist-ein-computer",
+  "title": "Was ist ein Computer?",
+  "description": "Die wichtigsten Hardware-Bauteile eines Computers: CPU, RAM, Festplatte/SSD, Mainboard, GPU sowie Eingabe- und Ausgabegeräte — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "technology",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "it-computer",
+      "front": "Computer",
+      "back": "Ein elektronisches Gerät, das Daten nach festgelegten Anweisungen (Programmen) verarbeitet, speichert und ausgibt.",
+      "notes": "Beispiele: ein Laptop, ein Smartphone oder ein Server sind alle Computer.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["hardware", "grundlagen"]
+    },
+    {
+      "id": "it-hardware",
+      "front": "Hardware",
+      "back": "Alle physischen, anfassbaren Teile eines Computers — zum Beispiel Bildschirm, Tastatur und die Bauteile im Inneren.",
+      "notes": "Gegenstück ist die Software: die Programme, die man nicht anfassen kann.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["hardware", "grundlagen"]
+    },
+    {
+      "id": "it-cpu",
+      "front": "Prozessor (CPU)",
+      "back": "Das Rechenzentrum des Computers, das Anweisungen ausführt und Berechnungen durchführt.",
+      "notes": "CPU steht für 'Central Processing Unit'. Man nennt sie oft das 'Gehirn' des Computers.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["hardware", "cpu"]
+    },
+    {
+      "id": "it-ram",
+      "front": "Arbeitsspeicher (RAM)",
+      "back": "Schneller, flüchtiger Speicher, in dem laufende Programme und ihre Daten kurzfristig liegen.",
+      "notes": "RAM steht für 'Random Access Memory'. Beim Ausschalten geht der Inhalt verloren.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["hardware", "speicher"]
+    },
+    {
+      "id": "it-festplatte",
+      "front": "Festplatte (hard disk)",
+      "back": "Dauerhafter Massenspeicher, der Daten auch nach dem Ausschalten behält.",
+      "notes": "Klassische Festplatten (HDD) haben rotierende Scheiben.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["hardware", "speicher"]
+    },
+    {
+      "id": "it-ssd",
+      "front": "SSD (Solid State Drive)",
+      "back": "Ein moderner, sehr schneller Massenspeicher ohne bewegliche Teile.",
+      "notes": "Eine SSD ist deutlich schneller als eine klassische Festplatte (HDD).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["hardware", "speicher"]
+    },
+    {
+      "id": "it-mainboard",
+      "front": "Mainboard (Motherboard)",
+      "back": "Die zentrale Platine, die alle Bauteile des Computers miteinander verbindet.",
+      "notes": "Auch 'Hauptplatine' genannt. Hier stecken CPU, RAM und weitere Komponenten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["hardware", "mainboard"]
+    },
+    {
+      "id": "it-gpu",
+      "front": "Grafikkarte (GPU)",
+      "back": "Bauteil, das für die Berechnung und Ausgabe von Bildern und Grafik zuständig ist.",
+      "notes": "GPU steht für 'Graphics Processing Unit'. Wichtig für Spiele, Videos und KI-Berechnungen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["hardware", "gpu"]
+    },
+    {
+      "id": "it-eingabe",
+      "front": "Eingabegerät (input device)",
+      "back": "Gerät, mit dem der Mensch Daten in den Computer eingibt.",
+      "notes": "Beispiele: Tastatur, Maus, Mikrofon, Scanner.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["hardware", "ein-ausgabe"]
+    },
+    {
+      "id": "it-ausgabe",
+      "front": "Ausgabegerät (output device)",
+      "back": "Gerät, das Daten des Computers für den Menschen darstellt.",
+      "notes": "Beispiele: Bildschirm, Drucker, Lautsprecher.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["hardware", "ein-ausgabe"]
+    },
+    {
+      "id": "it-software",
+      "front": "Software",
+      "back": "Die Programme und Daten eines Computers, die man nicht anfassen kann.",
+      "notes": "Software steuert die Hardware. Beispiel: ein Textprogramm oder ein Browser.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["software", "grundlagen"]
+    },
+    {
+      "id": "it-bit",
+      "front": "Bit",
+      "back": "Die kleinste Informationseinheit im Computer — sie hat den Wert 0 oder 1.",
+      "notes": "8 Bit ergeben 1 Byte. Computer rechnen intern nur mit 0 und 1 (binär).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grundlagen", "daten"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Hardware: die Bauteile eines Computers",
+      "body": "# Was ist ein Computer?\n\nEin **Computer** ist ein elektronisches Gerät, das **Daten** nach Anweisungen verarbeitet, speichert und ausgibt. Alle anfassbaren Teile zusammen nennt man **Hardware**.\n\nDie wichtigsten Bauteile:\n\n| Bauteil | Aufgabe |\n|---|---|\n| **Prozessor (CPU)** | rechnet und führt Anweisungen aus — das 'Gehirn' |\n| **Arbeitsspeicher (RAM)** | hält laufende Programme kurzfristig bereit |\n| **Festplatte / SSD** | speichert Daten dauerhaft |\n| **Mainboard** | verbindet alle Bauteile |\n| **Grafikkarte (GPU)** | berechnet Bilder und Grafik |\n\nDie **CPU** ist sehr schnell, hat aber selbst kaum Speicher. Der **RAM** ist schnell, aber **flüchtig**: Beim Ausschalten ist sein Inhalt weg. Die **Festplatte** oder die schnellere **SSD** behält Daten dagegen dauerhaft."
+    },
+    {
+      "id": "step-ein-ausgabe",
+      "type": "theory",
+      "title": "Ein- und Ausgabe, Hardware und Software",
+      "body": "## Mensch und Computer\n\nDamit wir mit dem Computer arbeiten können, gibt es:\n\n- **Eingabegeräte (input)** — wir geben Daten ein: Tastatur, Maus, Mikrofon.\n- **Ausgabegeräte (output)** — der Computer zeigt uns Daten: Bildschirm, Drucker, Lautsprecher.\n\n## Hardware vs. Software\n\n- **Hardware** = die anfassbaren Teile.\n- **Software** = die Programme, die man nicht anfassen kann. Software steuert die Hardware.\n\nIntern rechnet jeder Computer nur mit zwei Zuständen: 0 und 1. Die kleinste Einheit dafür heißt **Bit**."
+    },
+    {
+      "id": "ex-match-bauteile",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Bauteile zuordnen",
+      "exercise": {
+        "id": "ex-match-bauteile",
+        "type": "matching",
+        "prompt": "Ordne jedem Bauteil seine Aufgabe zu.",
+        "card_ids": ["it-cpu", "it-ram", "it-festplatte", "it-mainboard", "it-gpu"],
+        "pairs": [
+          {"left": "Prozessor (CPU)", "right": "rechnet und führt Anweisungen aus"},
+          {"left": "Arbeitsspeicher (RAM)", "right": "hält laufende Programme kurzfristig bereit"},
+          {"left": "Festplatte (hard disk)", "right": "speichert Daten dauerhaft"},
+          {"left": "Mainboard", "right": "verbindet alle Bauteile"},
+          {"left": "Grafikkarte (GPU)", "right": "berechnet Bilder und Grafik"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-cpu",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Das Gehirn des Computers",
+      "exercise": {
+        "id": "ex-free-cpu",
+        "type": "free_text",
+        "prompt": "Wie heißt das Bauteil, das rechnet und Anweisungen ausführt — oft das 'Gehirn' des Computers genannt?",
+        "card_ids": ["it-cpu"],
+        "accept": ["CPU", "Prozessor", "der Prozessor", "die CPU"],
+        "hint": "Englische Abkürzung mit drei Buchstaben.",
+        "distractors": ["RAM", "GPU", "Festplatte"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-ram",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Flüchtiger Speicher",
+      "exercise": {
+        "id": "ex-cloze-ram",
+        "type": "cloze",
+        "prompt": "Ergänze den Namen des flüchtigen Speichers.",
+        "card_ids": ["it-ram"],
+        "sentence": "Der Arbeitsspeicher ___ verliert seinen Inhalt, sobald man den Computer ausschaltet.",
+        "blanks": [{"accept": ["RAM"]}],
+        "cloze_mode": "type",
+        "hint": "Random Access Memory."
+      }
+    },
+    {
+      "id": "ex-free-hardware",
+      "type": "exercise",
+      "theory_ref": "step-ein-ausgabe",
+      "title": "Anfassbare Teile",
+      "exercise": {
+        "id": "ex-free-hardware",
+        "type": "free_text",
+        "prompt": "Wie nennt man alle anfassbaren, physischen Teile eines Computers?",
+        "card_ids": ["it-hardware"],
+        "accept": ["Hardware", "die Hardware"],
+        "hint": "Englisches Wort, Gegenstück zu 'Software'.",
+        "distractors": ["Software", "Programm", "Datei"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-cpu-def",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Definition zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-cpu-def",
+        "type": "word_tiles",
+        "prompt": "Setze die Definition der CPU zusammen.",
+        "card_ids": ["it-cpu"],
+        "tiles": ["Die", "CPU", "führt", "Anweisungen", "aus"],
+        "hint": "Beginnt mit 'Die'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-pick-ein-ausgabe",
+      "type": "exercise",
+      "theory_ref": "step-ein-ausgabe",
+      "title": "Eingabegerät erkennen",
+      "exercise": {
+        "id": "ex-pick-ein-ausgabe",
+        "type": "picture_choice",
+        "prompt": "Welches Gerät ist ein Eingabegerät?",
+        "card_ids": ["it-eingabe", "it-ausgabe"],
+        "images": [
+          {"src": "assets/img/tastatur.png", "label": "Tastatur", "is_correct": "true"},
+          {"src": "assets/img/bildschirm.png", "label": "Bildschirm"},
+          {"src": "assets/img/drucker.png", "label": "Drucker"},
+          {"src": "assets/img/lautsprecher.png", "label": "Lautsprecher"}
+        ],
+        "hint": "Damit gibt der Mensch etwas in den Computer ein.",
+        "distractors": ["Bildschirm", "Drucker", "Lautsprecher"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-bit",
+      "type": "exercise",
+      "theory_ref": "step-ein-ausgabe",
+      "title": "Die kleinste Einheit",
+      "exercise": {
+        "id": "ex-cloze-bit",
+        "type": "cloze",
+        "prompt": "Ergänze die kleinste Informationseinheit.",
+        "card_ids": ["it-bit"],
+        "sentence": "Ein ___ kann nur den Wert 0 oder 1 haben.",
+        "blanks": [{"accept": ["Bit"]}],
+        "cloze_mode": "type",
+        "hint": "Drei Buchstaben; 8 davon ergeben 1 Byte."
+      }
+    }
+  ]
+}

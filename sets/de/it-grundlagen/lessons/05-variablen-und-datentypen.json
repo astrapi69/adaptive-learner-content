@@ -1,0 +1,243 @@
+{
+  "id": "05-variablen-und-datentypen",
+  "title": "Variablen und Datentypen",
+  "description": "Was Variablen sind und welche grundlegenden Datentypen es gibt: Integer, String, Boolean und Float — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "technology",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "it-variable",
+      "front": "Variable",
+      "back": "Ein benannter Behälter, in dem ein Programm einen Wert speichert und später wieder verwendet.",
+      "notes": "Beispiel: alter = 30. Der Name ist 'alter', der Wert ist 30.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["programmierung", "variablen"]
+    },
+    {
+      "id": "it-wert",
+      "front": "Wert (value)",
+      "back": "Der konkrete Inhalt, der in einer Variablen gespeichert ist.",
+      "notes": "Bei alter = 30 ist 30 der Wert.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["programmierung", "variablen"]
+    },
+    {
+      "id": "it-datentyp",
+      "front": "Datentyp (data type)",
+      "back": "Die Art eines Wertes, die festlegt, was man damit tun kann — z. B. Zahl oder Text.",
+      "notes": "Mit Zahlen kann man rechnen, mit Text nicht.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "datentyp"]
+    },
+    {
+      "id": "it-integer",
+      "front": "Integer (int)",
+      "back": "Ein Datentyp für ganze Zahlen ohne Nachkommastellen.",
+      "notes": "Beispiele: 0, 7, -42. 'Integer' ist Englisch/Latein für 'ganze Zahl'.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "datentyp"]
+    },
+    {
+      "id": "it-float",
+      "front": "Float (Gleitkommazahl)",
+      "back": "Ein Datentyp für Zahlen mit Nachkommastellen.",
+      "notes": "Beispiele: 3.14, -0.5. Der Punkt trennt die Nachkommastellen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "datentyp"]
+    },
+    {
+      "id": "it-string-typ",
+      "front": "String (str)",
+      "back": "Ein Datentyp für Text — eine Zeichenkette, die in Anführungszeichen steht.",
+      "notes": "Beispiel: 'Hallo'. 'String' heißt wörtlich 'Kette' (von Zeichen).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "datentyp"]
+    },
+    {
+      "id": "it-boolean",
+      "front": "Boolean (bool)",
+      "back": "Ein Datentyp mit nur zwei möglichen Werten: wahr (true) oder falsch (false).",
+      "notes": "Benannt nach dem Mathematiker George Boole. Wichtig für Bedingungen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "datentyp"]
+    },
+    {
+      "id": "it-zuweisung",
+      "front": "Zuweisung (assignment)",
+      "back": "Das Speichern eines Wertes in einer Variablen, meist mit dem Gleichheitszeichen =.",
+      "notes": "Beispiel: name = 'Anna' weist der Variablen 'name' den Wert 'Anna' zu.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "variablen"]
+    },
+    {
+      "id": "it-variablenname",
+      "front": "Variablenname",
+      "back": "Der frei gewählte Name, über den man eine Variable anspricht.",
+      "notes": "Gute Namen sind aussagekräftig, z. B. 'benutzername' statt 'x'.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["programmierung", "variablen"]
+    },
+    {
+      "id": "it-konstante",
+      "front": "Konstante (constant)",
+      "back": "Ein benannter Wert, der sich während des Programmlaufs nicht ändern soll.",
+      "notes": "Gegenstück zur Variablen, deren Wert sich ändern darf.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "variablen"]
+    },
+    {
+      "id": "it-typumwandlung",
+      "front": "Typumwandlung (type conversion)",
+      "back": "Das Umwandeln eines Wertes von einem Datentyp in einen anderen.",
+      "notes": "Beispiel: aus dem Text '5' die Zahl 5 machen, um damit zu rechnen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["programmierung", "datentyp"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Variablen: Behälter für Werte",
+      "body": "# Variablen und Datentypen\n\nEine **Variable** ist ein **benannter Behälter** für einen **Wert**. Über den **Variablennamen** kommt man an den gespeicherten Wert.\n\nDas Speichern eines Werts heißt **Zuweisung** und nutzt meist das Gleichheitszeichen `=`:\n\n```\nalter = 30\nname = 'Anna'\n```\n\nHier ist `alter` der Name und `30` der Wert. Ein Wert, der sich nicht ändern soll, heißt **Konstante**.\n\nWichtig: In der Programmierung bedeutet `=` **zuweisen**, nicht 'ist gleich' wie in der Mathematik."
+    },
+    {
+      "id": "step-datentypen",
+      "type": "theory",
+      "title": "Die wichtigsten Datentypen",
+      "body": "## Datentypen\n\nJeder Wert hat einen **Datentyp**. Er legt fest, was man mit dem Wert tun kann. Die wichtigsten Grundtypen:\n\n| Datentyp | Bedeutung | Beispiel |\n|---|---|---|\n| **Integer (int)** | ganze Zahl | `7`, `-42` |\n| **Float** | Zahl mit Nachkommastellen | `3.14` |\n| **String (str)** | Text in Anführungszeichen | `'Hallo'` |\n| **Boolean (bool)** | wahr oder falsch | `true`, `false` |\n\nMit Zahlen (int, float) kann man rechnen, mit einem String nicht. Manchmal muss man einen Wert von einem Typ in einen anderen umwandeln — das ist eine **Typumwandlung**, z. B. aus dem Text `'5'` die Zahl `5`."
+    },
+    {
+      "id": "ex-match-datentypen",
+      "type": "exercise",
+      "theory_ref": "step-datentypen",
+      "title": "Datentypen zuordnen",
+      "exercise": {
+        "id": "ex-match-datentypen",
+        "type": "matching",
+        "prompt": "Ordne jedem Datentyp die passende Beschreibung zu.",
+        "card_ids": ["it-integer", "it-float", "it-string-typ", "it-boolean"],
+        "pairs": [
+          {"left": "Integer (int)", "right": "ganze Zahl ohne Nachkommastellen"},
+          {"left": "Float", "right": "Zahl mit Nachkommastellen"},
+          {"left": "String (str)", "right": "Text in Anführungszeichen"},
+          {"left": "Boolean (bool)", "right": "wahr oder falsch"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-variable",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Der benannte Behälter",
+      "exercise": {
+        "id": "ex-free-variable",
+        "type": "free_text",
+        "prompt": "Wie heißt der benannte Behälter, in dem ein Programm einen Wert speichert?",
+        "card_ids": ["it-variable"],
+        "accept": ["Variable", "die Variable"],
+        "hint": "Ihr Wert kann sich ändern (er 'variiert').",
+        "distractors": ["Konstante", "Datentyp", "Wert"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-integer",
+      "type": "exercise",
+      "theory_ref": "step-datentypen",
+      "title": "Ganze Zahlen",
+      "exercise": {
+        "id": "ex-cloze-integer",
+        "type": "cloze",
+        "prompt": "Ergänze den Datentyp für ganze Zahlen.",
+        "card_ids": ["it-integer"],
+        "sentence": "Eine ganze Zahl wie 7 hat den Datentyp ___ .",
+        "blanks": [{"accept": ["Integer", "int"]}],
+        "cloze_mode": "type",
+        "hint": "Englisch/Latein für 'ganze Zahl'."
+      }
+    },
+    {
+      "id": "ex-free-boolean",
+      "type": "exercise",
+      "theory_ref": "step-datentypen",
+      "title": "Wahr oder falsch",
+      "exercise": {
+        "id": "ex-free-boolean",
+        "type": "free_text",
+        "prompt": "Wie heißt der Datentyp mit nur zwei Werten: wahr oder falsch?",
+        "card_ids": ["it-boolean"],
+        "accept": ["Boolean", "Boolean (bool)", "bool"],
+        "hint": "Benannt nach George Boole.",
+        "distractors": ["Integer", "String", "Float"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-zuweisung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Eine Zuweisung",
+      "exercise": {
+        "id": "ex-tiles-zuweisung",
+        "type": "word_tiles",
+        "prompt": "Setze die Zuweisung zusammen, die der Variablen 'alter' den Wert 30 gibt.",
+        "card_ids": ["it-zuweisung"],
+        "tiles": ["alter", "=", "30"],
+        "hint": "Name, Gleichheitszeichen, Wert.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-string",
+      "type": "exercise",
+      "theory_ref": "step-datentypen",
+      "title": "Text speichern",
+      "exercise": {
+        "id": "ex-cloze-string",
+        "type": "cloze",
+        "prompt": "Ergänze den Datentyp für Text.",
+        "card_ids": ["it-string-typ"],
+        "sentence": "Text in Anführungszeichen wie 'Hallo' ist ein ___ .",
+        "blanks": [{"accept": ["String", "str"]}],
+        "cloze_mode": "type",
+        "hint": "Wörtlich eine 'Kette' aus Zeichen."
+      }
+    },
+    {
+      "id": "ex-pick-float",
+      "type": "exercise",
+      "theory_ref": "step-datentypen",
+      "title": "Zahl mit Komma",
+      "exercise": {
+        "id": "ex-pick-float",
+        "type": "picture_choice",
+        "prompt": "Welcher Datentyp speichert eine Zahl wie 3.14 mit Nachkommastellen?",
+        "card_ids": ["it-float", "it-integer"],
+        "images": [
+          {"src": "assets/img/float.png", "label": "Float", "is_correct": "true"},
+          {"src": "assets/img/integer.png", "label": "Integer"},
+          {"src": "assets/img/string.png", "label": "String"},
+          {"src": "assets/img/boolean.png", "label": "Boolean"}
+        ],
+        "hint": "Gleitkommazahl.",
+        "distractors": ["Integer", "String", "Boolean"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

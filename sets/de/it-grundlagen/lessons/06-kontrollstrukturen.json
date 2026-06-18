@@ -1,0 +1,243 @@
+{
+  "id": "06-kontrollstrukturen",
+  "title": "Kontrollstrukturen",
+  "description": "Wie Programme Entscheidungen treffen und wiederholen: If/Else, For-Schleife, While-Schleife, Bedingung und boolescher Ausdruck — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "technology",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "it-kontrollstruktur",
+      "front": "Kontrollstruktur",
+      "back": "Ein Sprachmittel, das den Ablauf eines Programms steuert — etwa Entscheidungen oder Wiederholungen.",
+      "notes": "Die wichtigsten sind Verzweigungen (if/else) und Schleifen (for/while).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "kontrollfluss"]
+    },
+    {
+      "id": "it-bedingung",
+      "front": "Bedingung (condition)",
+      "back": "Ein Ausdruck, der entweder wahr oder falsch ist und den Ablauf steuert.",
+      "notes": "Beispiel: alter >= 18. Je nach Ergebnis läuft das Programm anders weiter.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "kontrollfluss"]
+    },
+    {
+      "id": "it-boolescher-ausdruck",
+      "front": "Boolescher Ausdruck",
+      "back": "Ein Ausdruck, der zu einem Wahrheitswert wahr (true) oder falsch (false) führt.",
+      "notes": "Beispiel: 5 > 3 ergibt wahr. Vergleiche und logische Verknüpfungen liefern boolesche Werte.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["programmierung", "kontrollfluss"]
+    },
+    {
+      "id": "it-if",
+      "front": "if (wenn)",
+      "back": "Führt einen Code-Block nur dann aus, wenn eine Bedingung wahr ist.",
+      "notes": "Beispiel: wenn das Alter über 18 ist, dann gewähre Zugang.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "verzweigung"]
+    },
+    {
+      "id": "it-else",
+      "front": "else (sonst)",
+      "back": "Führt einen Code-Block aus, wenn die if-Bedingung falsch ist.",
+      "notes": "if und else bilden zusammen eine Entweder-oder-Entscheidung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "verzweigung"]
+    },
+    {
+      "id": "it-verzweigung",
+      "front": "Verzweigung",
+      "back": "Eine Stelle im Programm, an der je nach Bedingung unterschiedliche Wege eingeschlagen werden.",
+      "notes": "Typisch mit if/else umgesetzt.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "verzweigung"]
+    },
+    {
+      "id": "it-schleife",
+      "front": "Schleife (loop)",
+      "back": "Eine Kontrollstruktur, die einen Code-Block mehrfach wiederholt.",
+      "notes": "So muss man denselben Code nicht viele Male schreiben.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "schleife"]
+    },
+    {
+      "id": "it-for",
+      "front": "For-Schleife",
+      "back": "Eine Schleife, die einen Block eine bestimmte, im Voraus bekannte Anzahl von Malen wiederholt.",
+      "notes": "Beispiel: für jede Zahl von 1 bis 10 etwas tun.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["programmierung", "schleife"]
+    },
+    {
+      "id": "it-while",
+      "front": "While-Schleife",
+      "back": "Eine Schleife, die einen Block wiederholt, solange eine Bedingung wahr bleibt.",
+      "notes": "Achtung: Wird die Bedingung nie falsch, entsteht eine Endlosschleife.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["programmierung", "schleife"]
+    },
+    {
+      "id": "it-endlosschleife",
+      "front": "Endlosschleife",
+      "back": "Eine Schleife, deren Bedingung nie falsch wird und die daher nie von selbst endet.",
+      "notes": "Meist ein Fehler — das Programm 'hängt'.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["programmierung", "schleife", "fehler"]
+    },
+    {
+      "id": "it-vergleichsoperator",
+      "front": "Vergleichsoperator",
+      "back": "Ein Zeichen, das zwei Werte vergleicht und wahr oder falsch zurückgibt.",
+      "notes": "Beispiele: ==, !=, <, >, <=, >=.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["programmierung", "kontrollfluss"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Entscheidungen mit if/else",
+      "body": "# Kontrollstrukturen\n\n**Kontrollstrukturen** steuern den **Ablauf** eines Programms. Ohne sie würde der Code stur von oben nach unten laufen.\n\n## Bedingungen\n\nEine **Bedingung** ist ein **boolescher Ausdruck**, der entweder **wahr (true)** oder **falsch (false)** ist, z. B. `alter >= 18`. Solche Vergleiche erstellt man mit **Vergleichsoperatoren** wie `==`, `<`, `>`.\n\n## Verzweigung mit if/else\n\n- **if (wenn)** führt einen Block nur aus, **wenn** die Bedingung wahr ist.\n- **else (sonst)** führt einen Block aus, **wenn** die Bedingung falsch ist.\n\n```\nwenn alter >= 18:\n    Zugang gewähren\nsonst:\n    Zugang verweigern\n```"
+    },
+    {
+      "id": "step-schleifen",
+      "type": "theory",
+      "title": "Wiederholen mit Schleifen",
+      "body": "## Schleifen\n\nEine **Schleife (loop)** wiederholt einen Code-Block. Es gibt zwei Hauptarten:\n\n| Schleife | Wiederholt … |\n|---|---|\n| **For-Schleife** | … eine im Voraus **bekannte Anzahl** von Malen (z. B. 1 bis 10) |\n| **While-Schleife** | … **solange** eine Bedingung wahr bleibt |\n\nVorsicht bei der While-Schleife: Wird die Bedingung **nie falsch**, entsteht eine **Endlosschleife** — das Programm hängt und endet nie von selbst."
+    },
+    {
+      "id": "ex-match-kontroll",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Kontrollstrukturen zuordnen",
+      "exercise": {
+        "id": "ex-match-kontroll",
+        "type": "matching",
+        "prompt": "Ordne jeden Begriff der passenden Beschreibung zu.",
+        "card_ids": ["it-if", "it-else", "it-for", "it-while"],
+        "pairs": [
+          {"left": "if (wenn)", "right": "läuft nur, wenn die Bedingung wahr ist"},
+          {"left": "else (sonst)", "right": "läuft, wenn die Bedingung falsch ist"},
+          {"left": "For-Schleife", "right": "wiederholt eine bekannte Anzahl von Malen"},
+          {"left": "While-Schleife", "right": "wiederholt, solange die Bedingung wahr ist"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-bedingung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wahr oder falsch",
+      "exercise": {
+        "id": "ex-free-bedingung",
+        "type": "free_text",
+        "prompt": "Wie nennt man einen Ausdruck, der entweder wahr oder falsch ist und den Ablauf steuert?",
+        "card_ids": ["it-bedingung"],
+        "accept": ["Bedingung", "die Bedingung", "Condition"],
+        "hint": "Englisch 'condition'.",
+        "distractors": ["Schleife", "Variable", "Funktion"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-while",
+      "type": "exercise",
+      "theory_ref": "step-schleifen",
+      "title": "Solange wahr",
+      "exercise": {
+        "id": "ex-cloze-while",
+        "type": "cloze",
+        "prompt": "Ergänze die Schleifenart.",
+        "card_ids": ["it-while"],
+        "sentence": "Die ___-Schleife wiederholt einen Block, solange die Bedingung wahr ist.",
+        "blanks": [{"accept": ["While", "while"]}],
+        "cloze_mode": "type",
+        "hint": "Englisch für 'solange / während'."
+      }
+    },
+    {
+      "id": "ex-free-schleife",
+      "type": "exercise",
+      "theory_ref": "step-schleifen",
+      "title": "Mehrfaches Wiederholen",
+      "exercise": {
+        "id": "ex-free-schleife",
+        "type": "free_text",
+        "prompt": "Wie heißt eine Kontrollstruktur, die einen Code-Block mehrfach wiederholt?",
+        "card_ids": ["it-schleife"],
+        "accept": ["Schleife", "die Schleife", "Loop"],
+        "hint": "Englisch 'loop'.",
+        "distractors": ["Bedingung", "Verzweigung", "Variable"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-if-else",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "If/Else in Worten",
+      "exercise": {
+        "id": "ex-tiles-if-else",
+        "type": "word_tiles",
+        "prompt": "Setze den Satz über eine Verzweigung zusammen.",
+        "card_ids": ["it-if", "it-else"],
+        "tiles": ["wenn", "die", "Bedingung", "wahr", "ist", "sonst", "nicht"],
+        "hint": "Beginnt mit 'wenn'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-endlos",
+      "type": "exercise",
+      "theory_ref": "step-schleifen",
+      "title": "Wenn es nie endet",
+      "exercise": {
+        "id": "ex-cloze-endlos",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für eine Schleife, die nie von selbst endet.",
+        "card_ids": ["it-endlosschleife"],
+        "sentence": "Wird die Bedingung nie falsch, entsteht eine ___ .",
+        "blanks": [{"accept": ["Endlosschleife"]}],
+        "cloze_mode": "type",
+        "hint": "Sie läuft 'ohne Ende'."
+      }
+    },
+    {
+      "id": "ex-pick-for",
+      "type": "exercise",
+      "theory_ref": "step-schleifen",
+      "title": "Bekannte Anzahl",
+      "exercise": {
+        "id": "ex-pick-for",
+        "type": "picture_choice",
+        "prompt": "Welche Schleife eignet sich, um etwas eine bekannte Anzahl von Malen zu wiederholen?",
+        "card_ids": ["it-for", "it-while"],
+        "images": [
+          {"src": "assets/img/for.png", "label": "For-Schleife", "is_correct": "true"},
+          {"src": "assets/img/while.png", "label": "While-Schleife"},
+          {"src": "assets/img/if.png", "label": "if"},
+          {"src": "assets/img/else.png", "label": "else"}
+        ],
+        "hint": "Zum Beispiel für jede Zahl von 1 bis 10.",
+        "distractors": ["While-Schleife", "if", "else"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "id": "03-netzwerk-grundlagen",
+  "title": "Netzwerk-Grundlagen",
+  "description": "Wie Computer im Netzwerk kommunizieren: IP-Adresse, DNS, HTTP/HTTPS, Router, Server und Client — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "technology",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "it-netzwerk",
+      "front": "Netzwerk (network)",
+      "back": "Ein Verbund aus mehreren Computern, die miteinander Daten austauschen können.",
+      "notes": "Das größte Netzwerk der Welt ist das Internet.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["netzwerk", "grundlagen"]
+    },
+    {
+      "id": "it-internet",
+      "front": "Internet",
+      "back": "Das weltweite Netzwerk, das unzählige kleinere Netzwerke miteinander verbindet.",
+      "notes": "Das Web (WWW) ist nur ein Dienst, der über das Internet läuft.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["netzwerk", "grundlagen"]
+    },
+    {
+      "id": "it-ip",
+      "front": "IP-Adresse",
+      "back": "Eine eindeutige Adresse, mit der ein Gerät im Netzwerk angesprochen wird.",
+      "notes": "Beispiel: 192.168.0.1. Sie funktioniert wie eine Postadresse für Computer.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["netzwerk", "adresse"]
+    },
+    {
+      "id": "it-dns",
+      "front": "DNS (Domain Name System)",
+      "back": "Der Dienst, der Domainnamen in IP-Adressen übersetzt.",
+      "notes": "Wie ein Telefonbuch: aus 'beispiel.de' wird eine IP-Adresse wie 93.184.216.34.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["netzwerk", "dns"]
+    },
+    {
+      "id": "it-domain",
+      "front": "Domain (Domainname)",
+      "back": "Der gut merkbare Name einer Website, z. B. beispiel.de.",
+      "notes": "DNS übersetzt die Domain in die zugehörige IP-Adresse.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["netzwerk", "dns"]
+    },
+    {
+      "id": "it-http",
+      "front": "HTTP",
+      "back": "Das Protokoll, mit dem Browser und Webserver Webseiten austauschen.",
+      "notes": "HTTP steht für 'HyperText Transfer Protocol'.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["netzwerk", "protokoll"]
+    },
+    {
+      "id": "it-https",
+      "front": "HTTPS",
+      "back": "Die verschlüsselte, sichere Variante von HTTP.",
+      "notes": "Das 'S' steht für 'Secure'. Erkennbar am Schloss-Symbol im Browser.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["netzwerk", "protokoll", "sicherheit"]
+    },
+    {
+      "id": "it-protokoll",
+      "front": "Protokoll (protocol)",
+      "back": "Ein vereinbarter Satz von Regeln, nach denen Geräte im Netzwerk kommunizieren.",
+      "notes": "Beispiele: HTTP, HTTPS, FTP. Ohne gemeinsames Protokoll verstehen sich Geräte nicht.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["netzwerk", "protokoll"]
+    },
+    {
+      "id": "it-router",
+      "front": "Router",
+      "back": "Ein Gerät, das Datenpakete zwischen Netzwerken weiterleitet und den Weg zum Ziel bestimmt.",
+      "notes": "Zu Hause verbindet der Router dein lokales Netzwerk mit dem Internet.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["netzwerk", "router"]
+    },
+    {
+      "id": "it-server",
+      "front": "Server",
+      "back": "Ein Computer, der Dienste oder Daten bereitstellt und Anfragen von Clients beantwortet.",
+      "notes": "Beispiel: ein Webserver liefert Webseiten aus.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["netzwerk", "server-client"]
+    },
+    {
+      "id": "it-client",
+      "front": "Client",
+      "back": "Ein Gerät oder Programm, das einen Dienst beim Server anfragt.",
+      "notes": "Dein Browser ist ein Client, der Webseiten beim Server anfragt.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["netzwerk", "server-client"]
+    },
+    {
+      "id": "it-paket",
+      "front": "Datenpaket (packet)",
+      "back": "Eine kleine Dateneinheit, in die Nachrichten für die Übertragung im Netzwerk zerlegt werden.",
+      "notes": "Große Daten werden in viele Pakete aufgeteilt und beim Empfänger wieder zusammengesetzt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["netzwerk", "daten"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Netzwerk, Adressen und Namen",
+      "body": "# Netzwerk-Grundlagen\n\nEin **Netzwerk** verbindet mehrere Computer, damit sie **Daten** austauschen können. Das weltweite Netzwerk ist das **Internet**.\n\nDamit ein Gerät erreichbar ist, hat es eine **IP-Adresse** — eine eindeutige Adresse wie `192.168.0.1`. Sie ist die Postadresse des Geräts.\n\nIP-Adressen sind schwer zu merken. Deshalb gibt es **Domains (Domainnamen)** wie `beispiel.de`. Der Dienst **DNS (Domain Name System)** funktioniert wie ein Telefonbuch und übersetzt die Domain in die passende IP-Adresse."
+    },
+    {
+      "id": "step-kommunikation",
+      "type": "theory",
+      "title": "Server, Client, Router und Protokolle",
+      "body": "## Wer fragt, wer antwortet?\n\n- Ein **Client** fragt einen Dienst an (z. B. dein **Browser**).\n- Ein **Server** stellt den Dienst bereit und antwortet (z. B. ein Webserver mit einer Webseite).\n\nDie Daten reisen in kleinen **Datenpaketen** durch das Netzwerk. Ein **Router** leitet diese Pakete zwischen Netzwerken weiter und sucht den Weg zum Ziel.\n\n## Protokolle\n\nEin **Protokoll** ist ein Satz Regeln für die Kommunikation. Im Web sind das vor allem:\n\n- **HTTP** — überträgt Webseiten.\n- **HTTPS** — dasselbe, aber **verschlüsselt** und sicher (das 'S' steht für *Secure*)."
+    },
+    {
+      "id": "ex-match-netzwerk",
+      "type": "exercise",
+      "theory_ref": "step-kommunikation",
+      "title": "Netzwerk-Begriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-netzwerk",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die passende Beschreibung zu.",
+        "card_ids": ["it-server", "it-client", "it-router", "it-dns"],
+        "pairs": [
+          {"left": "Server", "right": "stellt Dienste bereit und antwortet"},
+          {"left": "Client", "right": "fragt einen Dienst an"},
+          {"left": "Router", "right": "leitet Datenpakete zwischen Netzwerken weiter"},
+          {"left": "DNS", "right": "übersetzt Domainnamen in IP-Adressen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-ip",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Adresse eines Geräts",
+      "exercise": {
+        "id": "ex-free-ip",
+        "type": "free_text",
+        "prompt": "Wie heißt die eindeutige Adresse, mit der ein Gerät im Netzwerk angesprochen wird?",
+        "card_ids": ["it-ip"],
+        "accept": ["IP-Adresse", "die IP-Adresse", "IP"],
+        "hint": "Besteht z. B. aus Zahlen wie 192.168.0.1.",
+        "distractors": ["DNS", "Domain", "Router"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-dns",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Das Telefonbuch des Internets",
+      "exercise": {
+        "id": "ex-cloze-dns",
+        "type": "cloze",
+        "prompt": "Ergänze den Dienst, der Namen in IP-Adressen übersetzt.",
+        "card_ids": ["it-dns"],
+        "sentence": "Das ___ übersetzt einen Domainnamen wie beispiel.de in eine IP-Adresse.",
+        "blanks": [{"accept": ["DNS"]}],
+        "cloze_mode": "type",
+        "hint": "Domain Name System."
+      }
+    },
+    {
+      "id": "ex-free-https",
+      "type": "exercise",
+      "theory_ref": "step-kommunikation",
+      "title": "Sicheres Web-Protokoll",
+      "exercise": {
+        "id": "ex-free-https",
+        "type": "free_text",
+        "prompt": "Wie heißt die verschlüsselte, sichere Variante von HTTP?",
+        "card_ids": ["it-https"],
+        "accept": ["HTTPS", "https"],
+        "hint": "Das 'S' steht für Secure.",
+        "distractors": ["HTTP", "FTP", "DNS"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-client-server",
+      "type": "exercise",
+      "theory_ref": "step-kommunikation",
+      "title": "Client und Server",
+      "exercise": {
+        "id": "ex-tiles-client-server",
+        "type": "word_tiles",
+        "prompt": "Setze den Satz zusammen.",
+        "card_ids": ["it-client", "it-server"],
+        "tiles": ["Der", "Client", "fragt", "den", "Server", "an"],
+        "hint": "Beginnt mit 'Der Client'.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-router",
+      "type": "exercise",
+      "theory_ref": "step-kommunikation",
+      "title": "Pakete weiterleiten",
+      "exercise": {
+        "id": "ex-cloze-router",
+        "type": "cloze",
+        "prompt": "Ergänze das Gerät, das Datenpakete weiterleitet.",
+        "card_ids": ["it-router"],
+        "sentence": "Ein ___ leitet Datenpakete zwischen Netzwerken weiter.",
+        "blanks": [{"accept": ["Router"]}],
+        "cloze_mode": "type",
+        "hint": "Verbindet zu Hause dein Netzwerk mit dem Internet."
+      }
+    },
+    {
+      "id": "ex-pick-https",
+      "type": "exercise",
+      "theory_ref": "step-kommunikation",
+      "title": "Verschlüsselte Verbindung erkennen",
+      "exercise": {
+        "id": "ex-pick-https",
+        "type": "picture_choice",
+        "prompt": "Welches Protokoll überträgt Webseiten verschlüsselt?",
+        "card_ids": ["it-https", "it-http"],
+        "images": [
+          {"src": "assets/img/https.png", "label": "HTTPS", "is_correct": "true"},
+          {"src": "assets/img/http.png", "label": "HTTP"},
+          {"src": "assets/img/dns.png", "label": "DNS"},
+          {"src": "assets/img/ip.png", "label": "IP"}
+        ],
+        "hint": "Es hat ein zusätzliches 'S' für Secure.",
+        "distractors": ["HTTP", "DNS", "IP"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
