@@ -1,0 +1,397 @@
+{
+  "repo": "astrapi69/adaptive-learner-content",
+  "generated": "2026-06-18T06:53:06Z",
+  "schema_version": "1.0",
+  "sets": [
+    {
+      "id": "en-a1-from-hi",
+      "name": "अंग्रेज़ी A1 (हिंदी भाषियों के लिए)",
+      "description": "English set for Hindi speakers (10 lessons): basic vocabulary, everyday sentences, grammar basics, family and relationships, food and drink, directions and places, shopping and money, time and date, politeness, and travel and transport.",
+      "source_language": "hi",
+      "target_language": "en",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 10,
+      "card_count": 120,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-16T18:17:56+02:00"
+    },
+    {
+      "id": "fr-a1-from-en",
+      "name": "French A1 (for English speakers)",
+      "description": "Fifteen lessons covering A1 essentials, explained in English.",
+      "source_language": "en",
+      "target_language": "fr",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 190,
+      "tags": [
+        "beginner",
+        "travel",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-16T18:17:56+02:00"
+    },
+    {
+      "id": "es-a1-from-en",
+      "name": "Spanish A1 (for English speakers)",
+      "description": "Complete A1 Spanish set (15 lessons) explained in English, from first greetings through the preterite, with ser/estar as the central A1 grammar challenge.",
+      "source_language": "en",
+      "target_language": "es",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 253,
+      "tags": [
+        "beginner",
+        "travel",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-17T10:53:18+02:00"
+    },
+    {
+      "id": "es-a2-from-en",
+      "name": "Spanish A2 — Elementary",
+      "description": "Intermediate Spanish for English speakers (15 lessons), building on A1: preterite vs imperfect, futuro simple, condicional, object and reflexive pronouns, ser vs estar, por vs para, an introduction to the subjunctive, and everyday topics, closing with text production. Presupposes A1; mostly productive.",
+      "source_language": "en",
+      "target_language": "es",
+      "level": "a2",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 179,
+      "tags": [
+        "elementary",
+        "grammar",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-16T18:17:56+02:00"
+    },
+    {
+      "id": "es-b1-from-en",
+      "name": "Spanish B1 — Intermediate",
+      "description": "Intermediate Spanish for English speakers (15 lessons), building on A1+A2: the present subjunctive and its triggers, conditional sentences (si-clauses), the pluperfect, the passive and impersonal se, reported speech, relative pronouns, connectors, and abstract topics (work, health, media, environment, travel), closing with text production. Presupposes A1+A2; mostly productive.",
+      "source_language": "en",
+      "target_language": "es",
+      "level": "b1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 179,
+      "tags": [
+        "intermediate",
+        "grammar",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-17T10:53:18+02:00"
+    },
+    {
+      "id": "de-a1-from-en",
+      "name": "German A1 (for English speakers)",
+      "description": "Five starter German lessons explained in English: greetings and introducing yourself, numbers 1-10 and colours, the articles der/die/das with the verb \"sein\", family members, and food, drink and useful everyday phrases.",
+      "source_language": "en",
+      "target_language": "de",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 5,
+      "card_count": 66,
+      "tags": [
+        "beginner",
+        "everyday",
+        "travel"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-16T18:17:56+02:00"
+    },
+    {
+      "id": "fr-a2-from-en",
+      "name": "French A2 — Elementary",
+      "description": "Intermediate French for English speakers (15 lessons), building on A1: past tenses (passé composé vs imparfait), futur simple, conditionnel, the pronouns y and en, deepened negation, conjunctions, and everyday topics, closing with text production. Presupposes A1; mostly productive.",
+      "source_language": "en",
+      "target_language": "fr",
+      "level": "a2",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 178,
+      "tags": [
+        "elementary",
+        "grammar",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-16T18:17:56+02:00"
+    },
+    {
+      "id": "fr-a1-from-de",
+      "name": "Französisch A1 (für Deutschsprachige)",
+      "description": "Vollständiger A1-Kurs Französisch (15 Lektionen), auf Deutsch erklärt.",
+      "source_language": "de",
+      "target_language": "fr",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 186,
+      "tags": [
+        "beginner",
+        "travel",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-17T10:53:18+02:00"
+    },
+    {
+      "id": "fr-a2-from-de",
+      "name": "Französisch A2 — Grundlagen",
+      "description": "Aufbaukurs Französisch A2 (15 Lektionen), auf Deutsch erklärt — von den Vergangenheitsformen und Zukunftszeiten über die Objektpronomen und die erweiterte Verneinung bis zu Vergleichen, längeren Texten und Bedingungssätzen. Setzt das A1-Wissen voraus und baut darauf auf.",
+      "source_language": "de",
+      "target_language": "fr",
+      "level": "a2",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 180,
+      "tags": [
+        "elementary",
+        "grammar",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-17T10:53:18+02:00"
+    },
+    {
+      "id": "fr-b1-from-de",
+      "name": "Französisch B1 — Mittelstufe",
+      "description": "Mittelstufenkurs Französisch B1 (15 Lektionen), auf Deutsch erklärt — vom Subjonctif über conditionnel passé, plus-que-parfait, Passiv und indirekte Rede bis zu Relativpronomen, Konnektoren, abstrakteren Themen und der Textproduktion. Setzt das A1+A2-Wissen voraus und ist überwiegend produktiv ausgerichtet.",
+      "source_language": "de",
+      "target_language": "fr",
+      "level": "b1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 193,
+      "tags": [
+        "intermediate",
+        "grammar",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-17T10:53:18+02:00"
+    },
+    {
+      "id": "es-a1-from-de",
+      "name": "Spanisch A1 (für Deutschsprachige)",
+      "description": "Fünfzehn A1-Lektionen Spanisch, auf Deutsch erklärt — vom ersten Gruß bis zum Indefinido.",
+      "source_language": "de",
+      "target_language": "es",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 230,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-17T10:53:18+02:00"
+    },
+    {
+      "id": "es-a2-from-de",
+      "name": "Spanisch A2 — Grundlagen",
+      "description": "Aufbaukurs Spanisch A2 (15 Lektionen), auf Deutsch erklärt — von den Vergangenheitsformen und Zukunftszeiten über die Objekt- und Reflexivpronomen, por/para und die Vertiefung von ser/estar bis zur Einführung in den subjuntivo, Vergleichen, längeren Texten und Konnektoren. Setzt das A1-Wissen voraus und baut darauf auf.",
+      "source_language": "de",
+      "target_language": "es",
+      "level": "a2",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 182,
+      "tags": [
+        "elementary",
+        "grammar",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-17T10:53:18+02:00"
+    },
+    {
+      "id": "es-b1-from-de",
+      "name": "Spanisch B1 — Mittelstufe",
+      "description": "Mittelstufenkurs Spanisch B1 (15 Lektionen), auf Deutsch erklärt — vom subjuntivo über condicional, pluscuamperfecto, Passiv (ser/pasiva refleja) und estilo indirecto bis zu Pronomen, Konnektoren, abstrakteren Themen und der Textproduktion. Setzt das A1+A2-Wissen voraus und ist überwiegend produktiv ausgerichtet.",
+      "source_language": "de",
+      "target_language": "es",
+      "level": "b1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 197,
+      "tags": [
+        "intermediate",
+        "grammar",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-17T10:53:18+02:00"
+    },
+    {
+      "id": "en-a1-from-de",
+      "name": "Englisch A1 — Anfänger",
+      "description": "Englisch lernen für Deutschsprachige. Grundwortschatz, Grammatik und Alltagssituationen — von der Begrüßung bis zum Simple Past, mit Fokus auf typische Fehler und falsche Freunde. Erklärungen auf Deutsch.",
+      "source_language": "de",
+      "target_language": "en",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 163,
+      "tags": [
+        "beginner",
+        "travel",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-16T18:17:56+02:00"
+    },
+    {
+      "id": "en-a2-from-de",
+      "name": "Englisch A2 — Grundlagen",
+      "description": "Aufbaukurs Englisch A2 (15 Lektionen), auf Deutsch erklärt — von den Verlaufsformen und dem Present Perfect über die Zukunfts- und Modalverben bis zu Steigerung, Bedingungssätzen, Passiv und falschen Freunden. Mit Fokus auf die typischen Fehler von Deutschsprachigen. Setzt das A1-Wissen voraus und baut darauf auf.",
+      "source_language": "de",
+      "target_language": "en",
+      "level": "a2",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 182,
+      "tags": [
+        "elementary",
+        "grammar",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-16T18:17:56+02:00"
+    },
+    {
+      "id": "en-b1-from-de",
+      "name": "Englisch B1 — Mittelstufe",
+      "description": "Mittelstufenkurs Englisch B1 (15 Lektionen), auf Deutsch erklärt — von Present Perfect vs. Past Simple über Present Perfect Continuous, Past Perfect, Conditionals II/III, Passiv, Reported Speech und Relative Clauses bis zu Linking Words, abstrakteren Themen, falschen Freunden und der Textproduktion. Mit Fokus auf typische Fehler von Deutschsprachigen. Setzt das A1+A2-Wissen voraus, überwiegend produktiv.",
+      "source_language": "de",
+      "target_language": "en",
+      "level": "b1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 188,
+      "tags": [
+        "intermediate",
+        "grammar",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-16T18:17:56+02:00"
+    },
+    {
+      "id": "psych-intro-from-de",
+      "name": "Psychologie — Grundlagen",
+      "description": "Vollständiger Einführungskurs Psychologie auf Universitätsniveau (90 Lektionen), auf Deutsch erklärt — von den Grundlagen- und Anwendungsfächern über Psychotherapie, Forschungsmethoden und Statistik bis zu vertieften Grundlagenfächern, Geschichte, Wissenschaftstheorie, einem Spezialgebiete-Block (Psychophysik, Neuropsychologie, klinische Vertiefung, weiterführende Statistik), einem Block zu Gedächtnis, Sprache, Sinnessystemen, Evolution und Kultur, der Entscheidungspsychologie (Heuristiken, Dual-Process, Prospect Theory, Verhaltensökonomie), einem Block zu Motivation, Emotion und Wohlbefinden sowie einem Block zu Bewusstsein, Substanzen und Gehirn (Schlaf, veränderte Zustände, Psychopharmakologie, Sucht) sowie der vertieften Sozialpsychologie (Persuasion, Gruppenprozesse, Aggression und Prosozialität, Vorurteile und Intergruppenbeziehungen) sowie der Entwicklung über die Lebensspanne (von der pränatalen Phase bis ins hohe Alter) und einer Vertiefung der klinischen Psychologie (Trauma, Essstörungen, Suizidprävention, Zwangs- und Angststörungen — mit Hinweis auf professionelle Hilfe und Anlaufstellen) sowie der forensischen und Rechtspsychologie (Aussagepsychologie, Glaubhaftigkeitsbegutachtung, Schuldfähigkeit, Täterprofile und Kriminalprognose — sachlich und ohne Sensationalismus) sowie der Neuropsychologie (Grundlagen und Methoden, funktionelle Neuroanatomie, Störungsbilder, Gedächtnis- und Exekutivstörungen), der Arbeits- und Organisationspsychologie (Motivation und Zufriedenheit, Führung und Teams, Arbeitsstress und Burnout — mit Hinweis auf professionelle Hilfe) und der Pädagogischen Psychologie (Lernmotivation, Unterrichtsqualität, Leistungsbeurteilung und Prüfungsangst).",
+      "source_language": "de",
+      "target_language": "de",
+      "level": "a1",
+      "domain": "psychology",
+      "lesson_count": 106,
+      "card_count": 1336,
+      "tags": [
+        "beginner",
+        "psychology",
+        "science"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": {
+        "title": "Psychologie",
+        "author": "Philip Zimbardo, Robert Johnson, Vivian McCann",
+        "isbn": "978-3868943238",
+        "url": "https://www.amazon.de/dp/3868943234/"
+      },
+      "updated_at": "2026-06-16T18:17:56+02:00"
+    },
+    {
+      "id": "python-basics-from-de",
+      "name": "Python — Grundlagen",
+      "description": "Fünfzehn Einführungslektionen Python, auf Deutsch erklärt — vom ersten print() bis zu List Comprehensions, mit lauffähigen Code-Beispielen und erwarteter Ausgabe.",
+      "source_language": "de",
+      "target_language": "de",
+      "level": "a1",
+      "domain": "programming",
+      "lesson_count": 15,
+      "card_count": 166,
+      "tags": [
+        "beginner",
+        "programming",
+        "python"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-16T18:17:56+02:00"
+    },
+    {
+      "id": "ki-einsteiger-from-de",
+      "name": "KI für Einsteiger",
+      "description": "Zwölf Einführungslektionen rund um künstliche Intelligenz, auf Deutsch erklärt: KI im Alltag, Grundbegriffe, Prompt-Engineering, KI für Projekte, Lernen, Kreativität, Produktivität und Teamarbeit, ein Tool-Überblick sowie Ethik und Verantwortung. Begleitkurs zum Buch von Asterios Raptis.",
+      "source_language": "de",
+      "target_language": "de",
+      "level": "a1",
+      "domain": "ai",
+      "lesson_count": 12,
+      "card_count": 79,
+      "tags": [
+        "beginner",
+        "ai",
+        "prompt-engineering"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": {
+        "title": "KI für Einsteiger",
+        "author": "Asterios Raptis",
+        "asin": "B0F43H6T2M",
+        "url": "https://www.amazon.de/dp/B0F43H6T2M"
+      },
+      "updated_at": "2026-06-17T19:23:12+02:00"
+    }
+  ],
+  "total_lessons": 358,
+  "total_cards": 4447
+}
