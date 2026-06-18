@@ -1,0 +1,232 @@
+{
+  "id": "10-einfache-saetze",
+  "title": "Einfache Sätze",
+  "description": "Grundlegende Satzmuster: sein und nicht sein, haben und nicht haben, 很 + Adjektiv und Ja/Nein-Fragen — auf Deutsch erklärt.",
+  "target_language": "zh",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "shi-satz",
+      "front": "是",
+      "back": "sein (bin/bist/ist)",
+      "notes": "Pinyin: shì. Verbindet zwei Nomen. Kontext: 我 是 学生 (wǒ shì xuésheng) – Ich bin Schüler.",
+      "difficulty": 1,
+      "tags": ["satzmuster", "verb"]
+    },
+    {
+      "id": "bu-shi",
+      "front": "不是",
+      "back": "nicht sein (bin/bist/ist nicht)",
+      "notes": "Pinyin: bú shì. 是 wird mit 不 verneint. Kontext: 我 不是 老师 (wǒ bú shì lǎoshī) – Ich bin kein Lehrer.",
+      "difficulty": 1,
+      "tags": ["satzmuster", "verneinung"]
+    },
+    {
+      "id": "you-satz",
+      "front": "有",
+      "back": "haben / es gibt",
+      "notes": "Pinyin: yǒu. Kontext: 我 有 时间 (wǒ yǒu shíjiān) – Ich habe Zeit.",
+      "difficulty": 1,
+      "tags": ["satzmuster", "verb"]
+    },
+    {
+      "id": "meiyou-satz",
+      "front": "没有",
+      "back": "nicht haben / es gibt nicht",
+      "notes": "Pinyin: méiyǒu. 有 wird mit 没 verneint, nie mit 不. Kontext: 我 没有 时间 (wǒ méiyǒu shíjiān) – Ich habe keine Zeit.",
+      "difficulty": 2,
+      "tags": ["satzmuster", "verneinung"]
+    },
+    {
+      "id": "hen",
+      "front": "很",
+      "back": "sehr (verbindet mit Adjektiv)",
+      "notes": "Pinyin: hěn. Vor einem Adjektiv steht meist 很; ein Verb 'sein' entfällt. Kontext: 我 很 好 (wǒ hěn hǎo) – Mir geht es gut.",
+      "difficulty": 1,
+      "tags": ["satzmuster", "adjektiv"]
+    },
+    {
+      "id": "hen-gao",
+      "front": "很高",
+      "back": "(ist) groß / hoch",
+      "notes": "Pinyin: hěn gāo. Kontext: 他 很 高 (tā hěn gāo) – Er ist groß.",
+      "difficulty": 1,
+      "tags": ["satzmuster", "adjektiv"]
+    },
+    {
+      "id": "hen-da",
+      "front": "很大",
+      "back": "(ist) groß (an Größe)",
+      "notes": "Pinyin: hěn dà. Kontext: 中国 很 大 (Zhōngguó hěn dà) – China ist groß.",
+      "difficulty": 1,
+      "tags": ["satzmuster", "adjektiv"]
+    },
+    {
+      "id": "ma-frage-satz",
+      "front": "吗",
+      "back": "Fragepartikel (Ja/Nein-Frage)",
+      "notes": "Pinyin: ma (neutral). Am Satzende macht es eine Ja/Nein-Frage. Kontext: 你 是 学生 吗 ？ (nǐ shì xuésheng ma?) – Bist du Schüler?",
+      "difficulty": 1,
+      "tags": ["satzmuster", "frage"]
+    },
+    {
+      "id": "xuesheng",
+      "front": "学生",
+      "back": "Schüler / Student",
+      "notes": "Pinyin: xuésheng (zweites Zeichen neutral). Kontext: 我 是 学生 (wǒ shì xuésheng) – Ich bin Schüler.",
+      "difficulty": 1,
+      "tags": ["nomen"]
+    },
+    {
+      "id": "laoshi",
+      "front": "老师",
+      "back": "Lehrer / Lehrerin",
+      "notes": "Pinyin: lǎoshī. Kontext: 她 是 老师 (tā shì lǎoshī) – Sie ist Lehrerin.",
+      "difficulty": 1,
+      "tags": ["nomen"]
+    },
+    {
+      "id": "shijian",
+      "front": "时间",
+      "back": "Zeit",
+      "notes": "Pinyin: shíjiān. Kontext: 我 没有 时间 (wǒ méiyǒu shíjiān) – Ich habe keine Zeit.",
+      "difficulty": 2,
+      "tags": ["nomen"]
+    },
+    {
+      "id": "dou",
+      "front": "都",
+      "back": "alle / beide / jeweils",
+      "notes": "Pinyin: dōu. Steht vor dem Verb. Kontext: 我们 都 是 学生 (wǒmen dōu shì xuésheng) – Wir sind alle Schüler.",
+      "difficulty": 3,
+      "tags": ["satzmuster", "adverb"]
+    },
+    {
+      "id": "women",
+      "front": "我们",
+      "back": "wir",
+      "notes": "Pinyin: wǒmen. 我 + 们 (Plural). Kontext: 我们 是 朋友 (wǒmen shì péngyou) – Wir sind Freunde.",
+      "difficulty": 1,
+      "tags": ["pronomen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-shi-you",
+      "type": "theory",
+      "title": "是, 有 und ihre Verneinung",
+      "body": "# Einfache Satzmuster\n\nDie Grundstruktur ist wie im Deutschen: **Subjekt – Verb – Objekt (SVO)**.\n\n**1. 是 (shì) — sein** verbindet zwei Nomen:\n- 我是学生。(wǒ shì xuésheng.) — Ich bin Schüler.\n- Verneinung mit **不**: 我**不是**老师。(wǒ bú shì lǎoshī.) — Ich bin kein Lehrer.\n\n**2. 有 (yǒu) — haben / es gibt:**\n- 我有时间。(wǒ yǒu shíjiān.) — Ich habe Zeit.\n- Verneinung **immer mit 没**: 我**没有**时间。(wǒ méiyǒu shíjiān.) — Ich habe keine Zeit.\n\n> Faustregel: Alles wird mit **不 (bù)** verneint — **außer 有**, das verlangt **没 (méi)**."
+    },
+    {
+      "id": "intro-hen-ma",
+      "type": "theory",
+      "title": "很 + Adjektiv und Fragen mit 吗",
+      "body": "## Adjektive und Fragen\n\n**3. 很 (hěn) + Adjektiv:** Vor einem Adjektiv braucht man **kein** 是. Stattdessen steht meist **很 (hěn)** 'sehr' (oft nur als Füllwort, ohne starke Betonung):\n- 他很高。(tā hěn gāo.) — Er ist groß.\n- 中国很大。(Zhōngguó hěn dà.) — China ist groß.\n\nFalsch wäre ~~他是高~~.\n\n**4. Ja/Nein-Fragen mit 吗 (ma):** Hänge **吗** an eine Aussage:\n- 你是学生**吗**？(nǐ shì xuésheng ma?) — Bist du Schüler?\n- 你有时间**吗**？(nǐ yǒu shíjiān ma?) — Hast du Zeit?\n\nMit **都 (dōu)** 'alle' vor dem Verb: 我们都是学生。(wǒmen dōu shì xuésheng.) — Wir sind alle Schüler."
+    },
+    {
+      "id": "ex-match-saetze",
+      "type": "exercise",
+      "theory_ref": "intro-shi-you",
+      "title": "Bausteine zuordnen",
+      "exercise": {
+        "id": "ex-match-saetze",
+        "type": "matching",
+        "prompt": "Ordne jedem Baustein die deutsche Bedeutung zu.",
+        "card_ids": ["shi-satz", "bu-shi", "meiyou-satz", "hen"],
+        "pairs": [
+          {"left": "是", "right": "sein (bin/bist/ist)"},
+          {"left": "不是", "right": "nicht sein"},
+          {"left": "没有", "right": "nicht haben"},
+          {"left": "很", "right": "sehr (vor Adjektiv)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-keinezeit",
+      "type": "exercise",
+      "theory_ref": "intro-shi-you",
+      "title": "Ich habe keine Zeit",
+      "exercise": {
+        "id": "ex-cloze-keinezeit",
+        "type": "cloze",
+        "prompt": "Ergänze die richtige Verneinung von 有.",
+        "card_ids": ["meiyou-satz", "shijian"],
+        "sentence": "我 ___ 时间 。",
+        "blanks": [{"accept": ["没有", "méiyǒu", "meiyou"]}],
+        "cloze_mode": "type",
+        "hint": "有 wird mit 没 verneint, nicht mit 不."
+      }
+    },
+    {
+      "id": "ex-cloze-frage",
+      "type": "exercise",
+      "theory_ref": "intro-hen-ma",
+      "title": "Bist du Schüler?",
+      "exercise": {
+        "id": "ex-cloze-frage",
+        "type": "cloze",
+        "prompt": "Ergänze die Fragepartikel.",
+        "card_ids": ["ma-frage-satz", "shi-satz", "xuesheng"],
+        "sentence": "你 是 学生 ___ ？",
+        "blanks": [{"accept": ["吗", "ma"]}],
+        "cloze_mode": "type",
+        "hint": "Macht aus der Aussage eine Ja/Nein-Frage."
+      }
+    },
+    {
+      "id": "ex-tiles-grossersatz",
+      "type": "exercise",
+      "theory_ref": "intro-hen-ma",
+      "title": "Er ist groß",
+      "exercise": {
+        "id": "ex-tiles-grossersatz",
+        "type": "word_tiles",
+        "prompt": "Setze 'Er ist groß.' zusammen.",
+        "card_ids": ["hen", "hen-gao"],
+        "tiles": ["他", "很", "高"],
+        "hint": "Vor dem Adjektiv steht 很, kein 是.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-binschueler",
+      "type": "exercise",
+      "theory_ref": "intro-shi-you",
+      "title": "Ich bin Schüler",
+      "exercise": {
+        "id": "ex-free-binschueler",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'Ich bin Schüler.' (Hanzi oder Pinyin)?",
+        "card_ids": ["shi-satz", "xuesheng"],
+        "accept": ["我是学生", "wǒ shì xuésheng", "wo shi xuesheng", "我是学生。"],
+        "hint": "Subjekt + 是 + Nomen.",
+        "distractors": ["我有学生", "我是老师", "我不是学生"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-meiyou",
+      "type": "exercise",
+      "theory_ref": "intro-shi-you",
+      "title": "Welche ist die Verneinung von 有?",
+      "exercise": {
+        "id": "ex-pic-meiyou",
+        "type": "picture_choice",
+        "prompt": "Wie verneint man 有 ('haben')?",
+        "card_ids": ["meiyou-satz"],
+        "images": [
+          {"src": "assets/img/meiyou.png", "label": "没有", "is_correct": "true"},
+          {"src": "assets/img/buyou.png", "label": "不有"},
+          {"src": "assets/img/bushi.png", "label": "不是"},
+          {"src": "assets/img/bu.png", "label": "不"}
+        ],
+        "hint": "有 verlangt 没, nicht 不.",
+        "distractors": ["不有", "不是", "不"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

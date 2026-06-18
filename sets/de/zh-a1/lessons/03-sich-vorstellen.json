@@ -1,0 +1,224 @@
+{
+  "id": "03-sich-vorstellen",
+  "title": "Sich vorstellen",
+  "description": "Den eigenen Namen nennen, nach dem Namen fragen und sagen, wer man ist — auf Deutsch erklärt.",
+  "target_language": "zh",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "wo-jiao",
+      "front": "我叫",
+      "back": "Ich heiße ...",
+      "notes": "Pinyin: wǒ jiào. Kontext: 我 叫 安娜 (wǒ jiào Ānnà) – Ich heiße Anna.",
+      "difficulty": 1,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "wo-shi",
+      "front": "我是",
+      "back": "Ich bin ...",
+      "notes": "Pinyin: wǒ shì. Kontext: 我 是 德国人 (wǒ shì Déguórén) – Ich bin Deutsche(r).",
+      "difficulty": 1,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "ni-jiao-shenme",
+      "front": "你叫什么名字",
+      "back": "Wie heißt du?",
+      "notes": "Pinyin: nǐ jiào shénme míngzi. Kontext: 你 叫 什么 名字 ？ (nǐ jiào shénme míngzi?) – Wie heißt du?",
+      "difficulty": 2,
+      "tags": ["vorstellen", "frage"]
+    },
+    {
+      "id": "mingzi",
+      "front": "名字",
+      "back": "Name",
+      "notes": "Pinyin: míngzi (zweites zi neutral). Kontext: 我 的 名字 (wǒ de míngzi) – mein Name.",
+      "difficulty": 1,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "shenme",
+      "front": "什么",
+      "back": "was / welche(r)",
+      "notes": "Pinyin: shénme. Kontext: 这 是 什么 ？ (zhè shì shénme?) – Was ist das?",
+      "difficulty": 1,
+      "tags": ["frage"]
+    },
+    {
+      "id": "renshi-ni",
+      "front": "认识你很高兴",
+      "back": "Schön, dich kennenzulernen.",
+      "notes": "Pinyin: rènshi nǐ hěn gāoxìng. Kontext: 认识 你 很 高兴 ！ (rènshi nǐ hěn gāoxìng!) – Freut mich, dich kennenzulernen!",
+      "difficulty": 3,
+      "tags": ["vorstellen"]
+    },
+    {
+      "id": "deguoren",
+      "front": "德国人",
+      "back": "Deutsche(r)",
+      "notes": "Pinyin: Déguórén. 德国 (Deutschland) + 人 (Mensch). Kontext: 我 是 德国人 (wǒ shì Déguórén) – Ich bin Deutsche(r).",
+      "difficulty": 2,
+      "tags": ["vorstellen", "land"]
+    },
+    {
+      "id": "zhongguoren",
+      "front": "中国人",
+      "back": "Chinese / Chinesin",
+      "notes": "Pinyin: Zhōngguórén. 中国 (China) + 人. Kontext: 他 是 中国人 (tā shì Zhōngguórén) – Er ist Chinese.",
+      "difficulty": 2,
+      "tags": ["vorstellen", "land"]
+    },
+    {
+      "id": "ta-er",
+      "front": "他",
+      "back": "er",
+      "notes": "Pinyin: tā (1. Ton). Kontext: 他 是 老师 (tā shì lǎoshī) – Er ist Lehrer.",
+      "difficulty": 1,
+      "tags": ["pronomen"]
+    },
+    {
+      "id": "ta-sie",
+      "front": "她",
+      "back": "sie",
+      "notes": "Pinyin: tā (1. Ton, gleich ausgesprochen wie 他). Kontext: 她 是 学生 (tā shì xuésheng) – Sie ist Schülerin.",
+      "difficulty": 1,
+      "tags": ["pronomen"]
+    },
+    {
+      "id": "ne-frage",
+      "front": "你呢",
+      "back": "Und du?",
+      "notes": "Pinyin: nǐ ne. Kontext: 我 是 学生 ， 你 呢 ？ (wǒ shì xuésheng, nǐ ne?) – Ich bin Schüler, und du?",
+      "difficulty": 1,
+      "tags": ["frage"]
+    },
+    {
+      "id": "de-possessiv",
+      "front": "的",
+      "back": "Besitzpartikel (von / -s)",
+      "notes": "Pinyin: de (neutraler Ton). Kontext: 我 的 名字 (wǒ de míngzi) – mein Name.",
+      "difficulty": 2,
+      "tags": ["partikel"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-name",
+      "type": "theory",
+      "title": "Den Namen nennen",
+      "body": "# Sich vorstellen\n\nEs gibt zwei gängige Wege, sich vorzustellen:\n\n- **我叫… (wǒ jiào …)** — 'Ich heiße …'. 叫 (jiào) heißt wörtlich 'gerufen werden'.\n- **我是… (wǒ shì …)** — 'Ich bin …'. 是 (shì) ist das Verb 'sein'.\n\nNach dem Namen fragst du mit:\n\n> **你叫什么名字？ (nǐ jiào shénme míngzi?)** — Wie heißt du? (wörtlich: 'Du heißt welchen Namen?')\n\n什么 (shénme) bedeutet 'was/welche', 名字 (míngzi) 'Name'."
+    },
+    {
+      "id": "intro-herkunft",
+      "type": "theory",
+      "title": "Herkunft und Pronomen",
+      "body": "## Wer bist du?\n\nNationalität bildet man mit **Land + 人 (rén, Mensch)**:\n\n- 德国 + 人 = **德国人 (Déguórén)** — Deutsche(r)\n- 中国 + 人 = **中国人 (Zhōngguórén)** — Chinese/Chinesin\n\nDie Personalpronomen:\n\n| Hanzi | Pinyin | Deutsch |\n|---|---|---|\n| 我 | wǒ | ich |\n| 你 | nǐ | du |\n| 他 | tā | er |\n| 她 | tā | sie |\n\n他 und 她 klingen identisch (**tā**), unterscheiden sich nur im Schriftzeichen. Mit **的 (de)** zeigst du Besitz: 我的名字 = mein Name."
+    },
+    {
+      "id": "ex-match-vorstellen",
+      "type": "exercise",
+      "theory_ref": "intro-name",
+      "title": "Ausdrücke zuordnen",
+      "exercise": {
+        "id": "ex-match-vorstellen",
+        "type": "matching",
+        "prompt": "Ordne jedem Ausdruck die deutsche Bedeutung zu.",
+        "card_ids": ["wo-jiao", "wo-shi", "mingzi", "deguoren"],
+        "pairs": [
+          {"left": "我叫", "right": "Ich heiße ..."},
+          {"left": "我是", "right": "Ich bin ..."},
+          {"left": "名字", "right": "Name"},
+          {"left": "德国人", "right": "Deutsche(r)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-ichheisse",
+      "type": "exercise",
+      "theory_ref": "intro-name",
+      "title": "Ich heiße ...",
+      "exercise": {
+        "id": "ex-free-ichheisse",
+        "type": "free_text",
+        "prompt": "Wie beginnt man 'Ich heiße ...' auf Chinesisch (Hanzi oder Pinyin)?",
+        "card_ids": ["wo-jiao"],
+        "accept": ["我叫", "wǒ jiào", "wo jiao", "wǒjiào"],
+        "hint": "我 (ich) + 叫 (heißen).",
+        "distractors": ["我是", "你呢", "名字"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-frage-name",
+      "type": "exercise",
+      "theory_ref": "intro-name",
+      "title": "Nach dem Namen fragen",
+      "exercise": {
+        "id": "ex-cloze-frage-name",
+        "type": "cloze",
+        "prompt": "Ergänze das Fragewort.",
+        "card_ids": ["ni-jiao-shenme", "shenme", "mingzi"],
+        "sentence": "你 叫 ___ 名字 ？",
+        "blanks": [{"accept": ["什么", "shénme", "shenme"]}],
+        "cloze_mode": "type",
+        "hint": "Bedeutet 'was / welche'."
+      }
+    },
+    {
+      "id": "ex-tiles-deutsche",
+      "type": "exercise",
+      "theory_ref": "intro-herkunft",
+      "title": "Ich bin Deutsche(r)",
+      "exercise": {
+        "id": "ex-tiles-deutsche",
+        "type": "word_tiles",
+        "prompt": "Setze 'Ich bin Deutsche(r).' zusammen.",
+        "card_ids": ["wo-shi", "deguoren"],
+        "tiles": ["我", "是", "德国人"],
+        "hint": "Subjekt + 是 + Nationalität.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-undu",
+      "type": "exercise",
+      "theory_ref": "intro-herkunft",
+      "title": "Und du?",
+      "exercise": {
+        "id": "ex-free-undu",
+        "type": "free_text",
+        "prompt": "Wie fragt man kurz zurück 'Und du?' (Hanzi oder Pinyin)?",
+        "card_ids": ["ne-frage"],
+        "accept": ["你呢", "nǐ ne", "ni ne", "呢"],
+        "hint": "你 + Rückfragepartikel 呢.",
+        "distractors": ["我是", "什么", "名字"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-chinese",
+      "type": "exercise",
+      "theory_ref": "intro-herkunft",
+      "title": "Wer ist Chinese?",
+      "exercise": {
+        "id": "ex-pic-chinese",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'Chinese / Chinesin'?",
+        "card_ids": ["zhongguoren"],
+        "images": [
+          {"src": "assets/img/zhongguoren.png", "label": "中国人", "is_correct": "true"},
+          {"src": "assets/img/deguoren.png", "label": "德国人"},
+          {"src": "assets/img/mingzi.png", "label": "名字"},
+          {"src": "assets/img/laoshi.png", "label": "老师"}
+        ],
+        "hint": "中国 = China, 人 = Mensch.",
+        "distractors": ["德国人", "名字", "老师"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

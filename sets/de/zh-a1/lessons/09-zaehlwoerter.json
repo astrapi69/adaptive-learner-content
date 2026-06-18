@@ -1,0 +1,224 @@
+{
+  "id": "09-zaehlwoerter",
+  "title": "Zählwörter",
+  "description": "Die wichtigsten chinesischen Zählwörter (Maßeinheiten) und wie man sie zwischen Zahl und Nomen einsetzt — auf Deutsch erklärt.",
+  "target_language": "zh",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "ge",
+      "front": "个",
+      "back": "Stück (universelles Zählwort)",
+      "notes": "Pinyin: gè (oft neutral ge). Allzweck-Zählwort für Personen und Dinge. Kontext: 一 个 人 (yí gè rén) – eine Person.",
+      "difficulty": 1,
+      "tags": ["zaehlwort"]
+    },
+    {
+      "id": "zhang",
+      "front": "张",
+      "back": "Zählwort für Flaches (Blatt, Tisch, Ticket)",
+      "notes": "Pinyin: zhāng. Für flache Dinge. Kontext: 一 张 票 (yì zhāng piào) – eine Eintrittskarte.",
+      "difficulty": 2,
+      "tags": ["zaehlwort"]
+    },
+    {
+      "id": "ben",
+      "front": "本",
+      "back": "Zählwort für Bücher/Hefte",
+      "notes": "Pinyin: běn. Für gebundene Druckwerke. Kontext: 一 本 书 (yì běn shū) – ein Buch.",
+      "difficulty": 2,
+      "tags": ["zaehlwort"]
+    },
+    {
+      "id": "bei-zw",
+      "front": "杯",
+      "back": "Zählwort für Getränke (Glas/Tasse)",
+      "notes": "Pinyin: bēi. Kontext: 一 杯 茶 (yì bēi chá) – eine Tasse Tee.",
+      "difficulty": 1,
+      "tags": ["zaehlwort"]
+    },
+    {
+      "id": "kou",
+      "front": "口",
+      "back": "Zählwort für Familienmitglieder",
+      "notes": "Pinyin: kǒu. Kontext: 五 口 人 (wǔ kǒu rén) – fünf (Familien-)Personen.",
+      "difficulty": 3,
+      "tags": ["zaehlwort"]
+    },
+    {
+      "id": "yi-ge-ren",
+      "front": "一个人",
+      "back": "eine Person",
+      "notes": "Pinyin: yí gè rén. 一 wird vor 个 (4. Ton) zu yí. Kontext: 那 是 一 个 人 (nà shì yí gè rén) – Das ist eine Person.",
+      "difficulty": 1,
+      "tags": ["zaehlwort", "beispiel"]
+    },
+    {
+      "id": "yi-ben-shu",
+      "front": "一本书",
+      "back": "ein Buch",
+      "notes": "Pinyin: yì běn shū. 一 wird vor 本 (3. Ton) zu yì. Kontext: 我 有 一 本 书 (wǒ yǒu yì běn shū) – Ich habe ein Buch.",
+      "difficulty": 2,
+      "tags": ["zaehlwort", "beispiel"]
+    },
+    {
+      "id": "shu",
+      "front": "书",
+      "back": "Buch",
+      "notes": "Pinyin: shū. Kontext: 一 本 书 (yì běn shū) – ein Buch.",
+      "difficulty": 1,
+      "tags": ["nomen"]
+    },
+    {
+      "id": "ren",
+      "front": "人",
+      "back": "Mensch / Person",
+      "notes": "Pinyin: rén. Kontext: 三 个 人 (sān gè rén) – drei Personen.",
+      "difficulty": 1,
+      "tags": ["nomen"]
+    },
+    {
+      "id": "piao",
+      "front": "票",
+      "back": "Ticket / Eintrittskarte",
+      "notes": "Pinyin: piào. Kontext: 两 张 票 (liǎng zhāng piào) – zwei Tickets.",
+      "difficulty": 2,
+      "tags": ["nomen"]
+    },
+    {
+      "id": "liang",
+      "front": "两",
+      "back": "zwei (vor Zählwörtern)",
+      "notes": "Pinyin: liǎng. Statt 二 verwendet man vor einem Zählwort 两. Kontext: 两 个 人 (liǎng gè rén) – zwei Personen.",
+      "difficulty": 2,
+      "tags": ["zahlen", "grammatik"]
+    },
+    {
+      "id": "ji-ge",
+      "front": "几个",
+      "back": "wie viele (Stück)?",
+      "notes": "Pinyin: jǐ gè. Frage nach kleiner Menge + Zählwort. Kontext: 你 要 几 个 ？ (nǐ yào jǐ gè?) – Wie viele möchtest du?",
+      "difficulty": 2,
+      "tags": ["zaehlwort", "frage"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-zaehlwoerter",
+      "type": "theory",
+      "title": "Was sind Zählwörter?",
+      "body": "# Zählwörter (Maßeinheiten)\n\nIm Chinesischen steht zwischen einer Zahl und einem Nomen fast immer ein **Zählwort** (量词, liàngcí). Das Muster ist:\n\n> **Zahl + Zählwort + Nomen**\n>\n> 一 **个** 人 (yí gè rén) — eine Person\n\nDas universelle Zählwort ist **个 (gè)**. Wenn du unsicher bist, passt 个 fast immer. Spezielle Nomen verlangen aber eigene Zählwörter:\n\n| Zählwort | Pinyin | für | Beispiel |\n|---|---|---|---|\n| 个 | gè | alles (Allzweck) | 一个人 |\n| 张 | zhāng | Flaches | 一张票 (ein Ticket) |\n| 本 | běn | Bücher | 一本书 (ein Buch) |\n| 杯 | bēi | Getränke | 一杯茶 (eine Tasse Tee) |\n| 口 | kǒu | Familienmitglieder | 五口人 |"
+    },
+    {
+      "id": "intro-zwei",
+      "type": "theory",
+      "title": "Tonänderung von 一 und das Wort 两",
+      "body": "## Zwei Stolpersteine\n\n**1. 一 (yī) ändert den Ton** je nach folgendem Zählwort:\n\n- vor 1./2./3. Ton → **yì**: 一本书 (yì běn shū)\n- vor 4. Ton → **yí**: 一个人 (yí gè rén)\n\n**2. 'Zwei' vor einem Zählwort ist 两 (liǎng), nicht 二 (èr).**\n\n- richtig: **两个人 (liǎng gè rén)** — zwei Personen\n- falsch: ~~二个人~~\n\n二 benutzt man nur beim Zählen (1, 2, 3 …) und in Zahlen wie 十二, 二十.\n\nFragen nach der Menge: **几个？ (jǐ gè?)** — wie viele (Stück)?"
+    },
+    {
+      "id": "ex-match-zaehlwoerter",
+      "type": "exercise",
+      "theory_ref": "intro-zaehlwoerter",
+      "title": "Zählwörter zuordnen",
+      "exercise": {
+        "id": "ex-match-zaehlwoerter",
+        "type": "matching",
+        "prompt": "Ordne jedem Zählwort seine Verwendung zu.",
+        "card_ids": ["ge", "zhang", "ben", "bei-zw"],
+        "pairs": [
+          {"left": "个", "right": "Stück (universelles Zählwort)"},
+          {"left": "张", "right": "Zählwort für Flaches"},
+          {"left": "本", "right": "Zählwort für Bücher"},
+          {"left": "杯", "right": "Zählwort für Getränke"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-buch",
+      "type": "exercise",
+      "theory_ref": "intro-zaehlwoerter",
+      "title": "Ein Buch",
+      "exercise": {
+        "id": "ex-cloze-buch",
+        "type": "cloze",
+        "prompt": "Ergänze das richtige Zählwort für 'Buch'.",
+        "card_ids": ["ben", "shu", "yi-ben-shu"],
+        "sentence": "我 有 一 ___ 书 。",
+        "blanks": [{"accept": ["本", "běn", "ben"]}],
+        "cloze_mode": "type",
+        "hint": "Das Zählwort für gebundene Druckwerke."
+      }
+    },
+    {
+      "id": "ex-free-person",
+      "type": "exercise",
+      "theory_ref": "intro-zaehlwoerter",
+      "title": "Eine Person",
+      "exercise": {
+        "id": "ex-free-person",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'eine Person' (Hanzi oder Pinyin)?",
+        "card_ids": ["yi-ge-ren"],
+        "accept": ["一个人", "yí gè rén", "yi ge ren", "yígèrén"],
+        "hint": "Zahl + 个 + 人. 一 wird hier zu yí.",
+        "distractors": ["一本书", "两个人", "一杯茶"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-zweipersonen",
+      "type": "exercise",
+      "theory_ref": "intro-zwei",
+      "title": "Zwei Personen",
+      "exercise": {
+        "id": "ex-tiles-zweipersonen",
+        "type": "word_tiles",
+        "prompt": "Setze 'zwei Personen' zusammen.",
+        "card_ids": ["liang", "ge", "ren"],
+        "tiles": ["两", "个", "人"],
+        "hint": "Vor einem Zählwort heißt 'zwei' 两, nicht 二.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-zwei",
+      "type": "exercise",
+      "theory_ref": "intro-zwei",
+      "title": "Zwei vor Zählwort",
+      "exercise": {
+        "id": "ex-free-zwei",
+        "type": "free_text",
+        "prompt": "Welches Wort für 'zwei' steht vor einem Zählwort (Hanzi oder Pinyin)?",
+        "card_ids": ["liang"],
+        "accept": ["两", "liǎng", "liang"],
+        "hint": "Nicht 二 (èr).",
+        "distractors": ["二", "个", "本"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-buch-zw",
+      "type": "exercise",
+      "theory_ref": "intro-zaehlwoerter",
+      "title": "Zählwort für Bücher",
+      "exercise": {
+        "id": "ex-pic-buch-zw",
+        "type": "picture_choice",
+        "prompt": "Welches Zählwort benutzt man für Bücher?",
+        "card_ids": ["ben"],
+        "images": [
+          {"src": "assets/img/ben.png", "label": "本", "is_correct": "true"},
+          {"src": "assets/img/zhang.png", "label": "张"},
+          {"src": "assets/img/bei.png", "label": "杯"},
+          {"src": "assets/img/ge.png", "label": "个"}
+        ],
+        "hint": "běn — für gebundene Druckwerke.",
+        "distractors": ["张", "杯", "个"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

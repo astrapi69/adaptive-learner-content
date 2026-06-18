@@ -1,0 +1,235 @@
+{
+  "id": "04-zahlen-1-100",
+  "title": "Zahlen 1-100",
+  "description": "Die Zahlen von eins bis hundert und das einfache Bildungssystem der chinesischen Zahlen — auf Deutsch erklärt.",
+  "target_language": "zh",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "zahl-yi",
+      "front": "一",
+      "back": "eins (1)",
+      "notes": "Pinyin: yī. Kontext: 一 个 人 (yí gè rén) – eine Person.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "zahl-er",
+      "front": "二",
+      "back": "zwei (2)",
+      "notes": "Pinyin: èr. Kontext: 二 月 (èr yuè) – Februar (wörtlich zweiter Monat).",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "zahl-san",
+      "front": "三",
+      "back": "drei (3)",
+      "notes": "Pinyin: sān. Kontext: 三 个 苹果 (sān gè píngguǒ) – drei Äpfel.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "zahl-si",
+      "front": "四",
+      "back": "vier (4)",
+      "notes": "Pinyin: sì. Kontext: 四 点 (sì diǎn) – vier Uhr.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "zahl-wu",
+      "front": "五",
+      "back": "fünf (5)",
+      "notes": "Pinyin: wǔ. Kontext: 五 块 钱 (wǔ kuài qián) – fünf Yuan.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "zahl-liu",
+      "front": "六",
+      "back": "sechs (6)",
+      "notes": "Pinyin: liù. Kontext: 六 个 月 (liù gè yuè) – sechs Monate.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "zahl-qi",
+      "front": "七",
+      "back": "sieben (7)",
+      "notes": "Pinyin: qī. Kontext: 七 天 (qī tiān) – sieben Tage.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "zahl-ba",
+      "front": "八",
+      "back": "acht (8)",
+      "notes": "Pinyin: bā. Kontext: 八 点 (bā diǎn) – acht Uhr.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "zahl-jiu",
+      "front": "九",
+      "back": "neun (9)",
+      "notes": "Pinyin: jiǔ. Kontext: 九 个 (jiǔ gè) – neun Stück.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "zahl-shi",
+      "front": "十",
+      "back": "zehn (10)",
+      "notes": "Pinyin: shí. Kontext: 十 个 (shí gè) – zehn Stück.",
+      "difficulty": 1,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "zahl-ershi",
+      "front": "二十",
+      "back": "zwanzig (20)",
+      "notes": "Pinyin: èrshí. Wörtlich 'zwei-zehn' = 2×10. Kontext: 二十 岁 (èrshí suì) – zwanzig Jahre alt.",
+      "difficulty": 2,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "zahl-sanshiwu",
+      "front": "三十五",
+      "back": "fünfunddreißig (35)",
+      "notes": "Pinyin: sānshíwǔ. Wörtlich 'drei-zehn-fünf' = 3×10+5. Kontext: 三十五 块 (sānshíwǔ kuài) – 35 Yuan.",
+      "difficulty": 3,
+      "tags": ["zahlen"]
+    },
+    {
+      "id": "zahl-yibai",
+      "front": "一百",
+      "back": "hundert (100)",
+      "notes": "Pinyin: yìbǎi. 百 = hundert. Kontext: 一百 块 (yìbǎi kuài) – hundert Yuan.",
+      "difficulty": 2,
+      "tags": ["zahlen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-zahlen",
+      "type": "theory",
+      "title": "Die Zahlen 1 bis 10",
+      "body": "# Zahlen auf Chinesisch\n\nDie Grundzahlen eins bis zehn:\n\n| Zahl | Hanzi | Pinyin |\n|---|---|---|\n| 1 | 一 | yī |\n| 2 | 二 | èr |\n| 3 | 三 | sān |\n| 4 | 四 | sì |\n| 5 | 五 | wǔ |\n| 6 | 六 | liù |\n| 7 | 七 | qī |\n| 8 | 八 | bā |\n| 9 | 九 | jiǔ |\n| 10 | 十 | shí |\n\n> Tipp: 四 (sì, vier) und 十 (shí, zehn) klingen ähnlich — achte auf den Ton: 4 ist fallend, 10 ist steigend."
+    },
+    {
+      "id": "intro-zusammensetzen",
+      "type": "theory",
+      "title": "Zahlen bis 100 bilden",
+      "body": "## Zehner und mehr\n\nDas System ist sehr logisch:\n\n- **Zehner**: Zahl + 十. Also 20 = **二十 (èrshí)** = '2×10', 30 = 三十, 90 = 九十.\n- **Zweistellige Zahlen**: Zehner + Einer. 35 = **三十五 (sānshíwǔ)** = '3×10+5', 48 = 四十八.\n- **Hundert**: **一百 (yìbǎi)** = 100.\n\nMerke: 11 ist einfach 十一 (shíyī) = '10+1', nicht 'eins-zehn'. Erst ab 20 setzt man die Vorzahl voran."
+    },
+    {
+      "id": "ex-match-zahlen",
+      "type": "exercise",
+      "theory_ref": "intro-zahlen",
+      "title": "Zahlen zuordnen",
+      "exercise": {
+        "id": "ex-match-zahlen",
+        "type": "matching",
+        "prompt": "Ordne jedem Zeichen die Zahl zu.",
+        "card_ids": ["zahl-yi", "zahl-san", "zahl-wu", "zahl-shi"],
+        "pairs": [
+          {"left": "一", "right": "eins (1)"},
+          {"left": "三", "right": "drei (3)"},
+          {"left": "五", "right": "fünf (5)"},
+          {"left": "十", "right": "zehn (10)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-acht",
+      "type": "exercise",
+      "theory_ref": "intro-zahlen",
+      "title": "Acht schreiben",
+      "exercise": {
+        "id": "ex-free-acht",
+        "type": "free_text",
+        "prompt": "Wie schreibt man 'acht' (8) auf Chinesisch (Hanzi oder Pinyin)?",
+        "card_ids": ["zahl-ba"],
+        "accept": ["八", "bā", "ba"],
+        "hint": "1. Ton, sieht aus wie zwei Striche.",
+        "distractors": ["六", "九", "七"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-zwanzig",
+      "type": "exercise",
+      "theory_ref": "intro-zusammensetzen",
+      "title": "Zwanzig bilden",
+      "exercise": {
+        "id": "ex-cloze-zwanzig",
+        "type": "cloze",
+        "prompt": "Ergänze die Zahl 20 (zwei mal zehn).",
+        "card_ids": ["zahl-ershi", "zahl-er", "zahl-shi"],
+        "sentence": "二十 = ___ × ___",
+        "blanks": [
+          {"accept": ["二", "èr", "er", "2"]},
+          {"accept": ["十", "shí", "shi", "10"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "20 = 'zwei-zehn'."
+      }
+    },
+    {
+      "id": "ex-tiles-fuenfunddreissig",
+      "type": "exercise",
+      "theory_ref": "intro-zusammensetzen",
+      "title": "35 zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-fuenfunddreissig",
+        "type": "word_tiles",
+        "prompt": "Setze die Zahl 35 (drei-zehn-fünf) zusammen.",
+        "card_ids": ["zahl-sanshiwu"],
+        "tiles": ["三", "十", "五"],
+        "hint": "3×10 + 5.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-hundert",
+      "type": "exercise",
+      "theory_ref": "intro-zusammensetzen",
+      "title": "Hundert",
+      "exercise": {
+        "id": "ex-free-hundert",
+        "type": "free_text",
+        "prompt": "Wie sagt man '100' auf Chinesisch (Hanzi oder Pinyin)?",
+        "card_ids": ["zahl-yibai"],
+        "accept": ["一百", "yìbǎi", "yi bai", "yibai"],
+        "hint": "一 + 百 (bǎi = hundert).",
+        "distractors": ["十", "二十", "九十"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-vier",
+      "type": "exercise",
+      "theory_ref": "intro-zahlen",
+      "title": "Welches Zeichen ist die Vier?",
+      "exercise": {
+        "id": "ex-pic-vier",
+        "type": "picture_choice",
+        "prompt": "Welches Zeichen bedeutet 'vier' (4)?",
+        "card_ids": ["zahl-si"],
+        "images": [
+          {"src": "assets/img/si4.png", "label": "四", "is_correct": "true"},
+          {"src": "assets/img/shi10.png", "label": "十"},
+          {"src": "assets/img/liu6.png", "label": "六"},
+          {"src": "assets/img/qi7.png", "label": "七"}
+        ],
+        "hint": "sì, 4. Ton (fallend).",
+        "distractors": ["十", "六", "七"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

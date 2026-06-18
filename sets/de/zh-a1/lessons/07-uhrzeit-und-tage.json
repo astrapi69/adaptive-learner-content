@@ -1,0 +1,224 @@
+{
+  "id": "07-uhrzeit-und-tage",
+  "title": "Uhrzeit und Tage",
+  "description": "Nach der Uhrzeit fragen, die Wochentage nennen und über heute und morgen sprechen — auf Deutsch erklärt.",
+  "target_language": "zh",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "ji-dian",
+      "front": "几点",
+      "back": "Wie spät? / Um wie viel Uhr?",
+      "notes": "Pinyin: jǐ diǎn. Kontext: 现在 几点 ？ (xiànzài jǐ diǎn?) – Wie spät ist es jetzt?",
+      "difficulty": 2,
+      "tags": ["uhrzeit", "frage"]
+    },
+    {
+      "id": "dian",
+      "front": "点",
+      "back": "Uhr (volle Stunde)",
+      "notes": "Pinyin: diǎn. Kontext: 三 点 (sān diǎn) – drei Uhr.",
+      "difficulty": 1,
+      "tags": ["uhrzeit"]
+    },
+    {
+      "id": "fen",
+      "front": "分",
+      "back": "Minute",
+      "notes": "Pinyin: fēn. Kontext: 三 点 十 分 (sān diǎn shí fēn) – 3 Uhr 10.",
+      "difficulty": 2,
+      "tags": ["uhrzeit"]
+    },
+    {
+      "id": "xianzai",
+      "front": "现在",
+      "back": "jetzt",
+      "notes": "Pinyin: xiànzài. Kontext: 现在 八 点 (xiànzài bā diǎn) – Es ist jetzt acht Uhr.",
+      "difficulty": 2,
+      "tags": ["uhrzeit", "zeit"]
+    },
+    {
+      "id": "xingqiyi",
+      "front": "星期一",
+      "back": "Montag",
+      "notes": "Pinyin: xīngqīyī. 星期 (Woche) + 一 (1). Kontext: 今天 星期一 (jīntiān xīngqīyī) – Heute ist Montag.",
+      "difficulty": 2,
+      "tags": ["tage"]
+    },
+    {
+      "id": "xingqisan",
+      "front": "星期三",
+      "back": "Mittwoch",
+      "notes": "Pinyin: xīngqīsān. 星期 + 三 (3). Kontext: 星期三 见 (xīngqīsān jiàn) – Bis Mittwoch.",
+      "difficulty": 2,
+      "tags": ["tage"]
+    },
+    {
+      "id": "xingqiwu",
+      "front": "星期五",
+      "back": "Freitag",
+      "notes": "Pinyin: xīngqīwǔ. 星期 + 五 (5). Kontext: 星期五 晚上 (xīngqīwǔ wǎnshang) – Freitagabend.",
+      "difficulty": 2,
+      "tags": ["tage"]
+    },
+    {
+      "id": "xingqiri",
+      "front": "星期日",
+      "back": "Sonntag",
+      "notes": "Pinyin: xīngqīrì. 星期 + 日 (Tag/Sonne) statt einer Zahl. Auch 星期天 (xīngqītiān). Kontext: 星期日 休息 (xīngqīrì xiūxi) – Am Sonntag ruht man.",
+      "difficulty": 2,
+      "tags": ["tage"]
+    },
+    {
+      "id": "jintian",
+      "front": "今天",
+      "back": "heute",
+      "notes": "Pinyin: jīntiān. Kontext: 今天 星期几 ？ (jīntiān xīngqī jǐ?) – Welcher Wochentag ist heute?",
+      "difficulty": 1,
+      "tags": ["zeit"]
+    },
+    {
+      "id": "mingtian",
+      "front": "明天",
+      "back": "morgen",
+      "notes": "Pinyin: míngtiān. Kontext: 明天 见 ！ (míngtiān jiàn!) – Bis morgen!",
+      "difficulty": 1,
+      "tags": ["zeit"]
+    },
+    {
+      "id": "zuotian",
+      "front": "昨天",
+      "back": "gestern",
+      "notes": "Pinyin: zuótiān. Kontext: 昨天 星期日 (zuótiān xīngqīrì) – Gestern war Sonntag.",
+      "difficulty": 2,
+      "tags": ["zeit"]
+    },
+    {
+      "id": "xingqi-ji",
+      "front": "星期几",
+      "back": "welcher Wochentag?",
+      "notes": "Pinyin: xīngqī jǐ. Kontext: 今天 星期几 ？ (jīntiān xīngqī jǐ?) – Welcher Wochentag ist heute?",
+      "difficulty": 2,
+      "tags": ["tage", "frage"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-uhrzeit",
+      "type": "theory",
+      "title": "Die Uhrzeit",
+      "body": "# Die Uhrzeit\n\nNach der Uhrzeit fragst du mit **几点？ (jǐ diǎn?)** — 'Wie spät?' (几 = wie viel, 点 = Uhr/Stunde).\n\n- Volle Stunde: Zahl + **点 (diǎn)**. 三点 = drei Uhr, 八点 = acht Uhr.\n- Minuten: + Zahl + **分 (fēn)**. 三点十分 = 3 Uhr 10.\n- **现在 (xiànzài)** = jetzt: **现在几点？** — Wie spät ist es jetzt?\n\n> Beachte: Für '2 Uhr' sagt man 两点 (liǎng diǎn), nicht 二点 — aber das lernst du später, hier reicht das Muster Zahl + 点."
+    },
+    {
+      "id": "intro-tage",
+      "type": "theory",
+      "title": "Wochentage und Zeitwörter",
+      "body": "## Die Wochentage\n\nDie Woche ist herrlich logisch: **星期 (xīngqī)** + Zahl.\n\n| Tag | Hanzi | Pinyin |\n|---|---|---|\n| Montag | 星期一 | xīngqīyī |\n| Dienstag | 星期二 | xīngqī'èr |\n| Mittwoch | 星期三 | xīngqīsān |\n| Donnerstag | 星期四 | xīngqīsì |\n| Freitag | 星期五 | xīngqīwǔ |\n| Samstag | 星期六 | xīngqīliù |\n| Sonntag | 星期日 / 星期天 | xīngqīrì / xīngqītiān |\n\nNur der Sonntag bekommt **日 (rì)** oder **天 (tiān)** statt einer Zahl. Frage: **星期几？ (xīngqī jǐ?)** — welcher Wochentag?\n\nZeitwörter: **今天 (jīntiān)** heute, **明天 (míngtiān)** morgen, **昨天 (zuótiān)** gestern."
+    },
+    {
+      "id": "ex-match-tage",
+      "type": "exercise",
+      "theory_ref": "intro-tage",
+      "title": "Wochentage zuordnen",
+      "exercise": {
+        "id": "ex-match-tage",
+        "type": "matching",
+        "prompt": "Ordne jedem Tag die deutsche Bedeutung zu.",
+        "card_ids": ["xingqiyi", "xingqisan", "xingqiwu", "xingqiri"],
+        "pairs": [
+          {"left": "星期一", "right": "Montag"},
+          {"left": "星期三", "right": "Mittwoch"},
+          {"left": "星期五", "right": "Freitag"},
+          {"left": "星期日", "right": "Sonntag"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-wiespaet",
+      "type": "exercise",
+      "theory_ref": "intro-uhrzeit",
+      "title": "Wie spät?",
+      "exercise": {
+        "id": "ex-free-wiespaet",
+        "type": "free_text",
+        "prompt": "Wie fragt man 'Wie spät?' / 'Um wie viel Uhr?' (Hanzi oder Pinyin)?",
+        "card_ids": ["ji-dian"],
+        "accept": ["几点", "jǐ diǎn", "ji dian", "几点？"],
+        "hint": "几 (wie viel) + 点 (Uhr).",
+        "distractors": ["现在", "今天", "星期几"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-dreiuhr",
+      "type": "exercise",
+      "theory_ref": "intro-uhrzeit",
+      "title": "Drei Uhr",
+      "exercise": {
+        "id": "ex-cloze-dreiuhr",
+        "type": "cloze",
+        "prompt": "Ergänze das Wort für die volle Stunde.",
+        "card_ids": ["dian", "xianzai"],
+        "sentence": "现在 三 ___ 。",
+        "blanks": [{"accept": ["点", "diǎn", "dian"]}],
+        "cloze_mode": "type",
+        "hint": "Zahl + dieses Wort = 'X Uhr'."
+      }
+    },
+    {
+      "id": "ex-tiles-heutemontag",
+      "type": "exercise",
+      "theory_ref": "intro-tage",
+      "title": "Heute ist Montag",
+      "exercise": {
+        "id": "ex-tiles-heutemontag",
+        "type": "word_tiles",
+        "prompt": "Setze 'Heute ist Montag.' zusammen.",
+        "card_ids": ["jintian", "xingqiyi"],
+        "tiles": ["今天", "星期一"],
+        "hint": "Im Chinesischen braucht man hier kein 是.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-morgen",
+      "type": "exercise",
+      "theory_ref": "intro-tage",
+      "title": "Morgen",
+      "exercise": {
+        "id": "ex-free-morgen",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'morgen' (der Tag danach; Hanzi oder Pinyin)?",
+        "card_ids": ["mingtian"],
+        "accept": ["明天", "míngtiān", "mingtian", "míng tiān"],
+        "hint": "明 (hell) + 天 (Tag).",
+        "distractors": ["今天", "昨天", "现在"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-heute",
+      "type": "exercise",
+      "theory_ref": "intro-tage",
+      "title": "Welches Wort bedeutet heute?",
+      "exercise": {
+        "id": "ex-pic-heute",
+        "type": "picture_choice",
+        "prompt": "Welches Wort bedeutet 'heute'?",
+        "card_ids": ["jintian"],
+        "images": [
+          {"src": "assets/img/jintian.png", "label": "今天", "is_correct": "true"},
+          {"src": "assets/img/mingtian.png", "label": "明天"},
+          {"src": "assets/img/zuotian.png", "label": "昨天"},
+          {"src": "assets/img/xianzai.png", "label": "现在"}
+        ],
+        "hint": "jīntiān.",
+        "distractors": ["明天", "昨天", "现在"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

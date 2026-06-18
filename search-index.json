@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/adaptive-learner-content",
-  "generated": "2026-06-18T18:05:25Z",
+  "generated": "2026-06-18T18:06:08Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -468,8 +468,27 @@
       "trust_level": 3,
       "book": null,
       "updated_at": "2026-06-18T20:05:11+02:00"
+    },
+    {
+      "id": "zh-a1-from-de",
+      "name": "Chinesisch A1 (für Deutschsprachige)",
+      "description": "Zehn A1-Lektionen Mandarin-Chinesisch, auf Deutsch erklärt — von den vier Tönen und Pinyin bis zu einfachen Sätzen.",
+      "source_language": "de",
+      "target_language": "zh",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 10,
+      "card_count": 122,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-18T18:06:08Z"
     }
   ],
-  "total_lessons": 398,
-  "total_cards": 5008
+  "total_lessons": 408,
+  "total_cards": 5130
 }

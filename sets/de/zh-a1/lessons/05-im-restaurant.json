@@ -1,0 +1,224 @@
+{
+  "id": "05-im-restaurant",
+  "title": "Im Restaurant",
+  "description": "Essen bestellen, die Rechnung verlangen und über Speisen sprechen — auf Deutsch erklärt.",
+  "target_language": "zh",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "wo-yao",
+      "front": "我要",
+      "back": "Ich möchte / Ich hätte gern",
+      "notes": "Pinyin: wǒ yào. Kontext: 我 要 一 杯 水 (wǒ yào yì bēi shuǐ) – Ich möchte ein Glas Wasser.",
+      "difficulty": 1,
+      "tags": ["restaurant", "bestellen"]
+    },
+    {
+      "id": "caidan",
+      "front": "菜单",
+      "back": "Speisekarte",
+      "notes": "Pinyin: càidān. Kontext: 请 给 我 菜单 (qǐng gěi wǒ càidān) – Bitte geben Sie mir die Speisekarte.",
+      "difficulty": 2,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "cai",
+      "front": "菜",
+      "back": "Gericht / Gemüse",
+      "notes": "Pinyin: cài. Kontext: 这 个 菜 很 好吃 (zhè ge cài hěn hǎochī) – Dieses Gericht ist sehr lecker.",
+      "difficulty": 1,
+      "tags": ["restaurant", "essen"]
+    },
+    {
+      "id": "shui",
+      "front": "水",
+      "back": "Wasser",
+      "notes": "Pinyin: shuǐ. Kontext: 一 杯 水 (yì bēi shuǐ) – ein Glas Wasser.",
+      "difficulty": 1,
+      "tags": ["restaurant", "getraenk"]
+    },
+    {
+      "id": "cha",
+      "front": "茶",
+      "back": "Tee",
+      "notes": "Pinyin: chá. Kontext: 我 要 一 杯 茶 (wǒ yào yì bēi chá) – Ich möchte einen Tee.",
+      "difficulty": 1,
+      "tags": ["restaurant", "getraenk"]
+    },
+    {
+      "id": "mifan",
+      "front": "米饭",
+      "back": "(gekochter) Reis",
+      "notes": "Pinyin: mǐfàn. Kontext: 一 碗 米饭 (yì wǎn mǐfàn) – eine Schale Reis.",
+      "difficulty": 2,
+      "tags": ["restaurant", "essen"]
+    },
+    {
+      "id": "haochi",
+      "front": "好吃",
+      "back": "lecker / schmackhaft",
+      "notes": "Pinyin: hǎochī. Wörtlich 'gut zu essen'. Kontext: 很 好吃 ！ (hěn hǎochī!) – Sehr lecker!",
+      "difficulty": 1,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "maidan",
+      "front": "买单",
+      "back": "die Rechnung (bitte)",
+      "notes": "Pinyin: mǎidān. Kontext: 服务员 ， 买单 ！ (fúwùyuán, mǎidān!) – Herr Ober, die Rechnung bitte!",
+      "difficulty": 2,
+      "tags": ["restaurant", "bezahlen"]
+    },
+    {
+      "id": "qing",
+      "front": "请",
+      "back": "bitte (Aufforderung)",
+      "notes": "Pinyin: qǐng. Kontext: 请 坐 (qǐng zuò) – Bitte setzen Sie sich.",
+      "difficulty": 1,
+      "tags": ["restaurant", "hoeflichkeit"]
+    },
+    {
+      "id": "fuwuyuan",
+      "front": "服务员",
+      "back": "Kellner / Bedienung",
+      "notes": "Pinyin: fúwùyuán. Kontext: 服务员 ， 请 给 我 菜单 (fúwùyuán, qǐng gěi wǒ càidān) – Bedienung, die Karte bitte.",
+      "difficulty": 3,
+      "tags": ["restaurant"]
+    },
+    {
+      "id": "bei",
+      "front": "杯",
+      "back": "Glas / Tasse (Zählwort)",
+      "notes": "Pinyin: bēi. Zählwort für Getränke. Kontext: 一 杯 茶 (yì bēi chá) – eine Tasse Tee.",
+      "difficulty": 2,
+      "tags": ["restaurant", "zaehlwort"]
+    },
+    {
+      "id": "hao-de",
+      "front": "好的",
+      "back": "Gut / In Ordnung",
+      "notes": "Pinyin: hǎo de. Zustimmende Antwort. Kontext: 好的 ， 请 等 一下 (hǎo de, qǐng děng yíxià) – In Ordnung, einen Moment bitte.",
+      "difficulty": 1,
+      "tags": ["restaurant", "antwort"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro-bestellen",
+      "type": "theory",
+      "title": "Bestellen mit 我要",
+      "body": "# Im Restaurant\n\nUm etwas zu bestellen, benutzt du **我要… (wǒ yào …)** — 'Ich möchte …':\n\n- **我要一杯茶。(wǒ yào yì bēi chá.)** — Ich möchte einen Tee.\n- **我要米饭。(wǒ yào mǐfàn.)** — Ich möchte Reis.\n\nHöflich beginnst du mit **请 (qǐng)** 'bitte': **请给我菜单。(qǐng gěi wǒ càidān.)** — Bitte geben Sie mir die Karte.\n\nDie Bedienung rufst du mit **服务员 (fúwùyuán)** 'Kellner/Bedienung'."
+    },
+    {
+      "id": "intro-essen-rechnung",
+      "type": "theory",
+      "title": "Essen loben und zahlen",
+      "body": "## Lecker und bezahlen\n\n- **好吃 (hǎochī)** — lecker, wörtlich 'gut zu essen'. Mit **很 (hěn)** verstärkt: 很好吃 = sehr lecker.\n- **买单 (mǎidān)** — die Rechnung. So bittest du am Ende ums Bezahlen: 服务员，买单！\n\nWichtige Wörter:\n\n| Hanzi | Pinyin | Deutsch |\n|---|---|---|\n| 菜 | cài | Gericht/Gemüse |\n| 水 | shuǐ | Wasser |\n| 茶 | chá | Tee |\n| 米饭 | mǐfàn | Reis |\n\nGetränke zählst du mit **杯 (bēi)** 'Glas/Tasse': 一杯水 = ein Glas Wasser."
+    },
+    {
+      "id": "ex-match-restaurant",
+      "type": "exercise",
+      "theory_ref": "intro-bestellen",
+      "title": "Restaurant-Wörter zuordnen",
+      "exercise": {
+        "id": "ex-match-restaurant",
+        "type": "matching",
+        "prompt": "Ordne jedem Wort die deutsche Bedeutung zu.",
+        "card_ids": ["caidan", "shui", "cha", "maidan"],
+        "pairs": [
+          {"left": "菜单", "right": "Speisekarte"},
+          {"left": "水", "right": "Wasser"},
+          {"left": "茶", "right": "Tee"},
+          {"left": "买单", "right": "die Rechnung"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-ichmoechte",
+      "type": "exercise",
+      "theory_ref": "intro-bestellen",
+      "title": "Ich möchte ...",
+      "exercise": {
+        "id": "ex-free-ichmoechte",
+        "type": "free_text",
+        "prompt": "Wie beginnt man 'Ich möchte ...' beim Bestellen (Hanzi oder Pinyin)?",
+        "card_ids": ["wo-yao"],
+        "accept": ["我要", "wǒ yào", "wo yao", "wǒyào"],
+        "hint": "我 (ich) + 要 (wollen/möchten).",
+        "distractors": ["买单", "好吃", "菜单"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-wasser",
+      "type": "exercise",
+      "theory_ref": "intro-essen-rechnung",
+      "title": "Ein Glas Wasser",
+      "exercise": {
+        "id": "ex-cloze-wasser",
+        "type": "cloze",
+        "prompt": "Ergänze das Getränk.",
+        "card_ids": ["shui", "bei", "wo-yao"],
+        "sentence": "我 要 一 杯 ___ 。",
+        "blanks": [{"accept": ["水", "shuǐ", "shui"]}],
+        "cloze_mode": "type",
+        "hint": "Das wichtigste Getränk: Wasser."
+      }
+    },
+    {
+      "id": "ex-tiles-rechnung",
+      "type": "exercise",
+      "theory_ref": "intro-essen-rechnung",
+      "title": "Die Rechnung verlangen",
+      "exercise": {
+        "id": "ex-tiles-rechnung",
+        "type": "word_tiles",
+        "prompt": "Setze 'Bedienung, die Rechnung bitte!' zusammen.",
+        "card_ids": ["fuwuyuan", "maidan"],
+        "tiles": ["服务员", "，", "买单"],
+        "hint": "Erst die Bedienung rufen, dann ums Zahlen bitten.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-lecker",
+      "type": "exercise",
+      "theory_ref": "intro-essen-rechnung",
+      "title": "Lecker!",
+      "exercise": {
+        "id": "ex-free-lecker",
+        "type": "free_text",
+        "prompt": "Wie sagt man 'lecker' (Hanzi oder Pinyin)?",
+        "card_ids": ["haochi"],
+        "accept": ["好吃", "hǎochī", "hao chi", "haochi"],
+        "hint": "Wörtlich 'gut essen'.",
+        "distractors": ["好的", "买单", "菜单"],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-pic-tee",
+      "type": "exercise",
+      "theory_ref": "intro-essen-rechnung",
+      "title": "Welches Zeichen ist Tee?",
+      "exercise": {
+        "id": "ex-pic-tee",
+        "type": "picture_choice",
+        "prompt": "Welches Zeichen bedeutet 'Tee'?",
+        "card_ids": ["cha"],
+        "images": [
+          {"src": "assets/img/cha.png", "label": "茶", "is_correct": "true"},
+          {"src": "assets/img/shui.png", "label": "水"},
+          {"src": "assets/img/mifan.png", "label": "米饭"},
+          {"src": "assets/img/cai.png", "label": "菜"}
+        ],
+        "hint": "chá, 2. Ton.",
+        "distractors": ["水", "米饭", "菜"],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
