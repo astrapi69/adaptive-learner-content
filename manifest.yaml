@@ -584,6 +584,30 @@ sets:
       - beginner
       - technology
       - it
+  - id: ansible-qe-from-de
+    title: Ansible-Grundlagen für Quality Engineering
+    title_native: Ansible-Grundlagen für Quality Engineering
+    target_language: de
+    source_language: de
+    domain: technology
+    level: B1
+    path: sets/de/ansible-qe
+    version: '1.0.0'
+    lesson_count: 8
+    description: >-
+      Ansible für Quality Engineering, auf Deutsch (8 Lektionen):
+      Grundkonzepte, YAML/Playbook-Struktur, das Ausführungsmodell
+      (Task-Sequenzialität vs. Host-Parallelität), Testing-Module
+      (assert, uri, command, shell), Variablen/Facts/Bedingungen,
+      Testumgebungen aufsetzen und bereinigen, Inventory-Targeting
+      sowie Handlers und Jinja2-Templates. 88 Karten mit Theorie
+      und Übungen (matching, cloze, free_text, word_tiles).
+      Sachthemen-Set (domain: technology).
+    tags:
+      - ansible
+      - devops
+      - qa
+      - automation
 metadata:
   author: Asterios Raptis
   license: CC-BY-SA-4.0
