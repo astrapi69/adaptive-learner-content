@@ -1,0 +1,49 @@
+# Spanish B2 (for English speakers) — set manifest.
+#
+# Upper-intermediate Spanish content explained in English (source = en,
+# target = es), building on the es-b1 set. The Content-Loader reads
+# ``metadata.lessons`` for the lesson filename list.
+schema_version: '1.3'
+name: Spanish B2 (for English speakers)
+description: >-
+  Five upper-intermediate lessons of Spanish for English speakers,
+  building on B1: the imperfect subjunctive and second-conditional
+  si-clauses, the third conditional (condicional compuesto and
+  pluscuamperfecto de subjuntivo), the subjunctive in adverbial
+  clauses, the passive voice and pasiva refleja, and a closing lesson
+  on discourse connectors, register and text production.
+sets:
+  - id: es-b2-from-en
+    title: Spanish B2 (for English speakers)
+    title_native: Español B2
+    target_language: es
+    source_language: en
+    level: B2
+    path: sets/en/es-b2
+    version: '1.0.0'
+    lesson_count: 5
+    domain: language
+    description: >-
+      Upper-intermediate Spanish for English speakers (5 lessons),
+      building on B1: the imperfect (past) subjunctive and
+      second-conditional si-clauses, the third conditional with the
+      condicional compuesto and pluscuamperfecto de subjuntivo, the
+      subjunctive in temporal, concessive and purpose clauses (cuando,
+      aunque, antes de que, a menos que, para que), the passive voice
+      (ser + participio), the pasiva refleja and estar + participio,
+      and a closing lesson on discourse connectors, register and text
+      production. Presupposes B1; mostly productive. Explanations in
+      English (schema v1.3).
+    tags:
+      - upper-intermediate
+      - grammar
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-imperfecto-de-subjuntivo.json
+    - 02-condicional-compuesto-tercer-condicional.json
+    - 03-subjuntivo-temporales-concesivas.json
+    - 04-voz-pasiva-y-pasiva-refleja.json
+    - 05-conectores-registro-revision.json

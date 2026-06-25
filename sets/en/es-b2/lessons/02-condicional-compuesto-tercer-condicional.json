@@ -1,0 +1,170 @@
+{
+  "id": "es-b2-02-condicional-compuesto-tercer-condicional",
+  "title": "The Third Conditional",
+  "description": "Talk about unreal situations in the past: the conditional perfect (habría hablado), the pluperfect subjunctive (hubiera hablado) and the si hubiera… habría… pattern.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 19,
+  "cards": [
+    {
+      "id": "es-b2-cp-habria",
+      "front": "habría hablado",
+      "back": "I would have spoken (conditional perfect)",
+      "notes": "**Condicional de haber** (*habría*) + **participio**: habría, habrías, habría, habríamos, habríais, habrían.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "condicional"]
+    },
+    {
+      "id": "es-b2-cp-hubiera",
+      "front": "hubiera / hubiese hablado",
+      "back": "I had spoken (pluperfect subjunctive)",
+      "notes": "**Imperfecto de subjuntivo de haber** (*hubiera/hubiese*) + **participio**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "pasado"]
+    },
+    {
+      "id": "es-b2-cp-pattern",
+      "front": "Si hubiera sabido, habría venido.",
+      "back": "If I had known, I would have come.",
+      "notes": "Third conditional (unreal past): **Si + pluscuamperfecto de subjuntivo, condicional compuesto**.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "condicional", "subjuntivo"]
+    },
+    {
+      "id": "es-b2-cp-interchange",
+      "front": "habría venido = hubiera venido",
+      "back": "in the result clause, habría and hubiera are both accepted",
+      "notes": "Colloquially the result clause often uses *hubiera* too: *Si hubiera sabido, **hubiera venido***. Both are correct.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "condicional"]
+    },
+    {
+      "id": "es-b2-cp-mixed",
+      "front": "Si hubiera estudiado, ahora tendría el título.",
+      "back": "If I had studied, I would now have the degree.",
+      "notes": "Mixed conditional: past condition (*hubiera estudiado*) → present result (*tendría*).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "condicional"]
+    },
+    {
+      "id": "es-b2-cp-haber-part",
+      "front": "haber + participio",
+      "back": "remember: the participle never changes after haber",
+      "notes": "After *haber* the participle is invariable: *habría **dicho***, *hubiera **hecho***, *habría **escrito***. Mind the irregulars (dicho, hecho, escrito, visto, puesto, vuelto).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "participio"]
+    },
+    {
+      "id": "es-b2-cp-reproche",
+      "front": "Deberías haberlo dicho.",
+      "back": "You should have said so.",
+      "notes": "*deber/poder + haber + participio* expresses past reproach or missed possibility.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "perifrasis"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Two compound forms",
+      "body": "# Building the pieces\n\nBoth tenses are **haber + participio**; only the form of *haber* changes.\n\n## Conditional perfect — what *would have* happened\n\n> **condicional de haber + participio**\n\n*habría, habrías, habría, habríamos, habríais, habrían* + participio\n\n- *Yo **habría venido**.* — I would have come.\n\n## Pluperfect subjunctive — the unreal *had done*\n\n> **imperfecto de subjuntivo de haber + participio**\n\n*hubiera/hubiese, hubieras, hubiera…* + participio\n\n- *Si yo **hubiera sabido**…* — If I had known…\n\nThe participle is **invariable** after *haber*; watch the irregulars: *dicho, hecho, escrito, visto, puesto, vuelto*."
+    },
+    {
+      "id": "step-third",
+      "type": "theory",
+      "title": "The third conditional",
+      "body": "# Unreal situations in the past\n\n> **Si + pluscuamperfecto de subjuntivo, condicional compuesto**\n\n- *Si **hubiera sabido**, **habría venido**.* — If I had known, I would have come.\n\nIn the **result** clause, Spanish accepts both *habría* and *hubiera*:\n\n- *Si hubiera sabido, **hubiera venido**.* (equally correct)\n\n## Mixed conditional\n\nA past condition can lead to a **present** result — then use the simple conditional:\n\n- *Si **hubiera estudiado**, ahora **tendría** el título.* — If I had studied, I would now have the degree.\n\n## A useful structure\n\n- *Deberías **haber** estudiado.* — You should have studied. (reproach about the past)"
+    },
+    {
+      "id": "ex-match-forms",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Match form to meaning",
+      "exercise": {
+        "id": "ex-match-forms",
+        "type": "matching",
+        "prompt": "Match each Spanish form with its English meaning.",
+        "card_ids": ["es-b2-cp-habria", "es-b2-cp-hubiera"],
+        "pairs": [
+          {"left": "habría hablado", "right": "I would have spoken"},
+          {"left": "hubiera hablado", "right": "(if) I had spoken"},
+          {"left": "habría hecho", "right": "I would have done"},
+          {"left": "hubiera dicho", "right": "(if) I had said"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-si-hubiera",
+      "type": "exercise",
+      "theory_ref": "step-third",
+      "title": "The condition clause",
+      "exercise": {
+        "id": "ex-cloze-si-hubiera",
+        "type": "cloze",
+        "prompt": "Fill in the pluperfect subjunctive of saber (yo): \"If I had known…\"",
+        "card_ids": ["es-b2-cp-pattern", "es-b2-cp-hubiera"],
+        "sentence": "Si ___ sabido la verdad, habría actuado de otra forma.",
+        "blanks": [{"accept": ["hubiera", "hubiese"]}],
+        "cloze_mode": "type",
+        "hint": "imperfect subjunctive of haber + participle (sabido)."
+      }
+    },
+    {
+      "id": "ex-cloze-result",
+      "type": "exercise",
+      "theory_ref": "step-third",
+      "title": "The result clause",
+      "exercise": {
+        "id": "ex-cloze-result",
+        "type": "cloze",
+        "prompt": "Fill in the conditional of haber (yo): \"…I would have come.\"",
+        "card_ids": ["es-b2-cp-habria"],
+        "sentence": "Si me lo hubieras dicho, ___ venido.",
+        "blanks": [{"accept": ["habría", "hubiera", "hubiese"]}],
+        "cloze_mode": "type",
+        "hint": "conditional of haber (habría) + venido; hubiera is also accepted here."
+      }
+    },
+    {
+      "id": "ex-free-third",
+      "type": "exercise",
+      "theory_ref": "step-third",
+      "title": "Build a third conditional",
+      "exercise": {
+        "id": "ex-free-third",
+        "type": "free_text",
+        "prompt": "Translate: *If you had studied, you would have passed the exam.* (estudiar / aprobar)",
+        "card_ids": ["es-b2-cp-pattern"],
+        "accept": ["Si hubieras estudiado, habrías aprobado el examen.", "si hubieras estudiado, habrías aprobado el examen", "Si hubieras estudiado, habrías aprobado el examen.", "Si hubieras estudiado, hubieras aprobado el examen."],
+        "distractors": ["Si habrías estudiado, habrías aprobado el examen.", "Si hubieras estudiado, aprobarías el examen.", "Si estudiarías, habrías aprobado el examen."],
+        "hint": "Si + hubieras estudiado, habrías/hubieras aprobado.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-reproche",
+      "type": "exercise",
+      "theory_ref": "step-third",
+      "title": "Past reproach",
+      "exercise": {
+        "id": "ex-tiles-reproche",
+        "type": "word_tiles",
+        "prompt": "Arrange: *You should have said so.*",
+        "card_ids": ["es-b2-cp-reproche"],
+        "tiles": ["Deberías", "haberlo", "dicho"],
+        "hint": "deber (conditional) + haber + participio.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

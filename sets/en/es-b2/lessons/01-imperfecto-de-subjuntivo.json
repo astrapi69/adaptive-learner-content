@@ -1,0 +1,195 @@
+{
+  "id": "es-b2-01-imperfecto-de-subjuntivo",
+  "title": "The Imperfect Subjunctive",
+  "description": "Form the imperfect (past) subjunctive from the ellos-preterite, master the -ra and -se forms, and use it for the sequence of tenses, second-conditional si-clauses, como si and ojalá.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "es-b2-impsub-rule",
+      "front": "hablaron → hablara / hablase",
+      "back": "build the imperfect subjunctive from the ellos-preterite: drop -ron, add -ra or -se",
+      "notes": "Take the **ellos** preterite (*hablaron, comieron, vivieron*), drop **-ron**, and add the endings. The **-ra** and **-se** sets are interchangeable.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "pasado"]
+    },
+    {
+      "id": "es-b2-impsub-endings",
+      "front": "-ra, -ras, -ra, -´ramos, -rais, -ran",
+      "back": "the -ra endings (note the accent on nosotros: habláramos)",
+      "notes": "The nosotros form takes a written accent: *habláramos, comiéramos, tuviéramos*. The -se set mirrors it: *hablase, hablases…*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "pasado"]
+    },
+    {
+      "id": "es-b2-impsub-irregular",
+      "front": "tuvieron → tuviera; fueron → fuera; hicieron → hiciera",
+      "back": "irregular preterites carry their stem into the imperfect subjunctive",
+      "notes": "Because we start from the ellos-preterite, every irregular preterite comes along: *tener → tuviera*, *ser/ir → fuera*, *hacer → hiciera*, *decir → dijera*, *poder → pudiera*, *poner → pusiera*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "subjuntivo", "irregular"]
+    },
+    {
+      "id": "es-b2-impsub-sequence",
+      "front": "Quería que vinieras.",
+      "back": "I wanted you to come.",
+      "notes": "Sequence of tenses: a **past** main verb (*quería*) needs the **past** subjunctive (*vinieras*), not the present.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "concordancia"]
+    },
+    {
+      "id": "es-b2-impsub-si",
+      "front": "Si tuviera tiempo, viajaría.",
+      "back": "If I had time, I would travel.",
+      "notes": "Second conditional (unreal present): **Si + imperfecto de subjuntivo**, **condicional simple**.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "condicional"]
+    },
+    {
+      "id": "es-b2-impsub-como-si",
+      "front": "como si",
+      "back": "as if / as though (+ imperfect subjunctive)",
+      "notes": "*Habla como si fuera un experto.* — He talks as if he were an expert. Always followed by the past subjunctive.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo"]
+    },
+    {
+      "id": "es-b2-impsub-ojala",
+      "front": "Ojalá tuviera más tiempo.",
+      "back": "I wish I had more time. / If only I had more time.",
+      "notes": "**Ojalá + imperfecto de subjuntivo** = a wish about the present that is unlikely or untrue.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo"]
+    },
+    {
+      "id": "es-b2-impsub-fuera",
+      "front": "fuera / fuese",
+      "back": "imperfect subjunctive of ser AND ir (same form)",
+      "notes": "*ser* and *ir* share the form *fuera/fuese* — context decides the meaning.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "irregular"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Forming the imperfect subjunctive",
+      "body": "# The imperfect (past) subjunctive\n\nThe rule is mechanical and never fails:\n\n1. Take the **ellos** form of the **preterite**: *hablar → hablaron*, *comer → comieron*, *tener → tuvieron*.\n2. Drop **-ron**.\n3. Add the endings (two interchangeable sets):\n\n| | -ra set | -se set |\n|---|---|---|\n| yo | hablara | hablase |\n| tú | hablaras | hablases |\n| él/ella | hablara | hablase |\n| nosotros | **habláramos** | **hablásemos** |\n| vosotros | hablarais | hablaseis |\n| ellos | hablaran | hablasen |\n\nNote the **accent** on *nosotros*. Because we start from the preterite, **every** irregular preterite carries over: *tuvieron → tuviera*, *fueron → fuera*, *hicieron → hiciera*, *dijeron → dijera*."
+    },
+    {
+      "id": "step-uses",
+      "type": "theory",
+      "title": "When to use it",
+      "body": "# Four key uses\n\n## 1. Sequence of tenses\n\nA **past** main clause requires the **past** subjunctive:\n\n- *Quiero que vengas.* (present → present)\n- *Quería que **vinieras**.* — I wanted you to come. (past → past)\n\n## 2. Second conditional (unreal present)\n\n> **Si + imperfecto de subjuntivo, condicional simple**\n\n- *Si **tuviera** tiempo, **viajaría**.* — If I had time, I would travel.\n\nNever use the present subjunctive after this *si* — and never *si tuviera… viajara*.\n\n## 3. como si (as if)\n\n- *Habla **como si fuera** un experto.* — He talks as if he were an expert.\n\n## 4. ojalá (I wish)\n\n- ***Ojalá tuviera** más tiempo.* — I wish I had more time."
+    },
+    {
+      "id": "ex-match-irregulars",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Match the irregular stems",
+      "exercise": {
+        "id": "ex-match-irregulars",
+        "type": "matching",
+        "prompt": "Match each infinitive with its yo imperfect-subjunctive form.",
+        "card_ids": ["es-b2-impsub-irregular", "es-b2-impsub-fuera"],
+        "pairs": [
+          {"left": "tener", "right": "tuviera"},
+          {"left": "hacer", "right": "hiciera"},
+          {"left": "poder", "right": "pudiera"},
+          {"left": "ser / ir", "right": "fuera"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-sequence",
+      "type": "exercise",
+      "theory_ref": "step-uses",
+      "title": "Sequence of tenses",
+      "exercise": {
+        "id": "ex-cloze-sequence",
+        "type": "cloze",
+        "prompt": "Fill in the imperfect subjunctive of venir (tú): \"I wanted you to come.\"",
+        "card_ids": ["es-b2-impsub-sequence"],
+        "sentence": "Quería que ___ a la fiesta.",
+        "blanks": [{"accept": ["vinieras", "vinieses"]}],
+        "cloze_mode": "type",
+        "hint": "vinieron → drop -ron → vinie- + ras."
+      }
+    },
+    {
+      "id": "ex-cloze-si",
+      "type": "exercise",
+      "theory_ref": "step-uses",
+      "title": "Second conditional",
+      "exercise": {
+        "id": "ex-cloze-si",
+        "type": "cloze",
+        "prompt": "Fill in the imperfect subjunctive of tener (yo): \"If I had time, I would travel.\"",
+        "card_ids": ["es-b2-impsub-si"],
+        "sentence": "Si ___ tiempo, viajaría.",
+        "blanks": [{"accept": ["tuviera", "tuviese"]}],
+        "cloze_mode": "type",
+        "hint": "Si-clause = imperfect subjunctive; tuvieron → tuviera."
+      }
+    },
+    {
+      "id": "ex-free-if-rich",
+      "type": "exercise",
+      "theory_ref": "step-uses",
+      "title": "Build a full second conditional",
+      "exercise": {
+        "id": "ex-free-if-rich",
+        "type": "free_text",
+        "prompt": "Translate: *If I were rich, I would travel the world.* (ser → fuera; viajar → conditional)",
+        "card_ids": ["es-b2-impsub-si", "es-b2-impsub-fuera"],
+        "accept": ["Si fuera rico, viajaría por el mundo.", "si fuera rico, viajaría por el mundo", "Si fuera rico, viajaría por el mundo.", "Si fuese rico, viajaría por el mundo."],
+        "distractors": ["Si era rico, viajaría por el mundo.", "Si fuera rico, viajara por el mundo.", "Si sería rico, viajaría por el mundo."],
+        "hint": "Si + imperfect subjunctive (fuera), condicional simple (viajaría).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-como-si",
+      "type": "exercise",
+      "theory_ref": "step-uses",
+      "title": "Build with como si",
+      "exercise": {
+        "id": "ex-tiles-como-si",
+        "type": "word_tiles",
+        "prompt": "Arrange: *He talks as if he were an expert.*",
+        "card_ids": ["es-b2-impsub-como-si"],
+        "tiles": ["Habla", "como", "si", "fuera", "un", "experto"],
+        "hint": "como si always takes the imperfect subjunctive (fuera).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-ojala",
+      "type": "exercise",
+      "theory_ref": "step-uses",
+      "title": "Express a wish",
+      "exercise": {
+        "id": "ex-free-ojala",
+        "type": "free_text",
+        "prompt": "Translate: *I wish I had more time.* (Ojalá + imperfect subjunctive of tener)",
+        "card_ids": ["es-b2-impsub-ojala"],
+        "accept": ["Ojalá tuviera más tiempo.", "ojalá tuviera más tiempo", "Ojalá tuviera más tiempo.", "Ojalá tuviese más tiempo."],
+        "distractors": ["Ojalá tengo más tiempo.", "Ojalá tenga más tiempo.", "Ojalá tendría más tiempo."],
+        "hint": "Ojalá + tuviera (about an unlikely present).",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

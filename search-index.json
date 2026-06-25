@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/adaptive-learner-content",
-  "generated": "2026-06-25T13:55:30Z",
+  "generated": "2026-06-25T14:00:03Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -121,6 +121,26 @@
       "trust_level": 3,
       "book": null,
       "updated_at": "2026-06-17T10:53:18+02:00"
+    },
+    {
+      "id": "es-b2-from-en",
+      "name": "Spanish B2 (for English speakers)",
+      "description": "Upper-intermediate Spanish for English speakers (5 lessons), building on B1: the imperfect (past) subjunctive and second-conditional si-clauses, the third conditional with the condicional compuesto and pluscuamperfecto de subjuntivo, the subjunctive in temporal, concessive and purpose clauses (cuando, aunque, antes de que, a menos que, para que), the passive voice (ser + participio), the pasiva refleja and estar + participio, and a closing lesson on discourse connectors, register and text production. Presupposes B1; mostly productive. Explanations in English (schema v1.3).",
+      "source_language": "en",
+      "target_language": "es",
+      "level": "b2",
+      "domain": "language",
+      "lesson_count": 5,
+      "card_count": 36,
+      "tags": [
+        "upper-intermediate",
+        "grammar",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-25T14:00:03+00:00"
     },
     {
       "id": "de-a1-from-en",
@@ -590,6 +610,6 @@
       "updated_at": "2026-06-19T16:24:13+02:00"
     }
   ],
-  "total_lessons": 447,
-  "total_cards": 5530
+  "total_lessons": 452,
+  "total_cards": 5566
 }
