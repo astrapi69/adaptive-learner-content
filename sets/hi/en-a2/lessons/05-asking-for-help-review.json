@@ -1,0 +1,169 @@
+{
+  "id": "05-asking-for-help-review",
+  "title": "Asking for Help & Review",
+  "description": "Ask for help politely in shops and on the street with can/could and would like, then review the A2 grammar.",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "en-a2-can-you-help",
+      "front": "Can you help me?",
+      "back": "क्या आप मेरी मदद कर सकते हैं?",
+      "notes": "*Can* + you + base verb. Everyday, friendly request.",
+      "tags": ["requests", "question"]
+    },
+    {
+      "id": "en-a2-could-you",
+      "front": "Could you repeat that?",
+      "back": "क्या आप उसे दोहरा सकते हैं?",
+      "notes": "*Could* is more polite than *can* for a request.",
+      "tags": ["requests", "politeness"]
+    },
+    {
+      "id": "en-a2-would-like",
+      "front": "I would like a ticket.",
+      "back": "मुझे एक टिकट चाहिए।",
+      "notes": "*I would like* (= I'd like) is more polite than *I want*.",
+      "tags": ["requests", "politeness"]
+    },
+    {
+      "id": "en-a2-how-much",
+      "front": "How much is it?",
+      "back": "यह कितने का है?",
+      "notes": "Ask the price of one thing.",
+      "tags": ["shopping", "question"]
+    },
+    {
+      "id": "en-a2-excuse-me",
+      "front": "Excuse me",
+      "back": "माफ़ कीजिए / सुनिए",
+      "notes": "Use it to get attention before asking for help.",
+      "tags": ["politeness"]
+    },
+    {
+      "id": "en-a2-where-is",
+      "front": "Where is the station?",
+      "back": "स्टेशन कहाँ है?",
+      "notes": "Ask for a place. *Where is …?*",
+      "tags": ["directions", "question"]
+    },
+    {
+      "id": "en-a2-i-dont-understand",
+      "front": "I don't understand.",
+      "back": "मैं नहीं समझा।",
+      "notes": "Useful when you need help. Present simple negative with *don't*.",
+      "tags": ["everyday"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l5-help-theory",
+      "type": "theory",
+      "title": "Polite requests and questions",
+      "body": "# Asking for help politely\n\n**Get attention first:** *Excuse me, …* (माफ़ कीजिए)\n\n**Make a request** with *can* or the more polite *could* + base verb:\n\n- ***Can** you help me?* (क्या आप मदद कर सकते हैं?)\n- ***Could** you repeat that?* — more polite\n\n**Ask for something** with *I would like* (= *I'd like*), nicer than *I want*:\n\n- *I **would like** a ticket, please.*\n\n**Useful shop/street questions:**\n\n- *How much is it?* (यह कितने का है?)\n- *Where is the station?* (स्टेशन कहाँ है?)\n- *I don't understand.* (मैं नहीं समझा।)"
+    },
+    {
+      "id": "l5-review-theory",
+      "type": "theory",
+      "title": "Quick A2 review",
+      "body": "# Putting your A2 English together\n\nYou can now combine what you learned:\n\n- **Past simple:** *I **bought** a ticket yesterday.* (कल मैंने टिकट खरीदा।)\n- **Future:** *I **will help** you.* / *I **am going to** travel next week.*\n- **Comparative:** *The train is **faster than** the bus.*\n- **Present continuous:** *I **am waiting** now.*\n\nMix them in a real situation — for example, at a station: *Excuse me, I would like a ticket. How much is it? Will the train be late?*"
+    },
+    {
+      "id": "l5-ex-match-requests",
+      "type": "exercise",
+      "theory_ref": "l5-help-theory",
+      "title": "Match the phrases",
+      "exercise": {
+        "id": "l5-ex-match-requests",
+        "type": "matching",
+        "prompt": "Match each English phrase with its Hindi meaning.",
+        "card_ids": ["en-a2-can-you-help", "en-a2-how-much", "en-a2-where-is", "en-a2-excuse-me"],
+        "pairs": [
+          {"left": "Can you help me?", "right": "क्या आप मेरी मदद कर सकते हैं?"},
+          {"left": "How much is it?", "right": "यह कितने का है?"},
+          {"left": "Where is the station?", "right": "स्टेशन कहाँ है?"},
+          {"left": "Excuse me", "right": "माफ़ कीजिए / सुनिए"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l5-ex-cloze-could",
+      "type": "exercise",
+      "theory_ref": "l5-help-theory",
+      "title": "Be extra polite",
+      "exercise": {
+        "id": "l5-ex-cloze-could",
+        "type": "cloze",
+        "prompt": "Complete the polite request: \"___ you repeat that, please?\"",
+        "card_ids": ["en-a2-could-you"],
+        "sentence": "___ you repeat that, please?",
+        "blanks": [{"accept": ["Could", "could"]}],
+        "cloze_mode": "type",
+        "hint": "More polite than *Can*."
+      }
+    },
+    {
+      "id": "l5-ex-free-would-like",
+      "type": "exercise",
+      "theory_ref": "l5-help-theory",
+      "title": "Ask politely for something",
+      "exercise": {
+        "id": "l5-ex-free-would-like",
+        "type": "free_text",
+        "prompt": "Give the polite phrase for \"I want …\" used in a shop (\"I ___ a ticket\").",
+        "card_ids": ["en-a2-would-like"],
+        "accept": ["would like", "'d like", "I would like", "I'd like"],
+        "distractors": ["want", "am wanting", "will like"],
+        "hint": "Two words: would + like.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l5-ex-tiles-help",
+      "type": "exercise",
+      "theory_ref": "l5-help-theory",
+      "title": "Build a request",
+      "exercise": {
+        "id": "l5-ex-tiles-help",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: क्या आप मेरी मदद कर सकते हैं? (Can you help me?)",
+        "card_ids": ["en-a2-can-you-help"],
+        "tiles": ["Can", "you", "help", "me"],
+        "hint": "Can + you + base verb + me.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l5-ex-cloze-review-past",
+      "type": "exercise",
+      "theory_ref": "l5-review-theory",
+      "title": "Review: the past simple",
+      "exercise": {
+        "id": "l5-ex-cloze-review-past",
+        "type": "cloze",
+        "prompt": "Complete: \"I ___ a ticket yesterday.\" (buy, past)",
+        "card_ids": ["en-a2-how-much"],
+        "sentence": "I ___ a ticket yesterday.",
+        "blanks": [{"accept": ["bought"]}],
+        "cloze_mode": "type",
+        "hint": "Irregular past of *buy*."
+      }
+    },
+    {
+      "id": "l5-ex-free-understand",
+      "type": "exercise",
+      "theory_ref": "l5-help-theory",
+      "title": "Say you need help",
+      "exercise": {
+        "id": "l5-ex-free-understand",
+        "type": "free_text",
+        "prompt": "How do you say \"मैं नहीं समझा।\" in English?",
+        "card_ids": ["en-a2-i-dont-understand"],
+        "accept": ["I don't understand", "I don't understand.", "I do not understand", "I dont understand"],
+        "distractors": ["I don't know", "I can't hear", "I'm sorry"],
+        "hint": "don't + understand.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

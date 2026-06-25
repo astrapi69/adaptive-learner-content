@@ -1,0 +1,160 @@
+{
+  "id": "04-present-continuous-routine",
+  "title": "Present Continuous & Daily Routine",
+  "description": "Say what is happening now with the present continuous, and contrast it with the present simple for routines.",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "en-a2-am-working",
+      "front": "I am working.",
+      "back": "मैं काम कर रहा हूँ।",
+      "notes": "Present continuous: **am/is/are** + verb + **-ing**. Happening now.",
+      "tags": ["continuous"]
+    },
+    {
+      "id": "en-a2-is-playing",
+      "front": "She is playing.",
+      "back": "वह खेल रही है।",
+      "notes": "*is* + playing. English does not change the verb for gender.",
+      "tags": ["continuous"]
+    },
+    {
+      "id": "en-a2-are-eating",
+      "front": "They are eating.",
+      "back": "वे खा रहे हैं।",
+      "notes": "*are* + eating (plural subject).",
+      "tags": ["continuous"]
+    },
+    {
+      "id": "en-a2-ing",
+      "front": "-ing",
+      "back": "रहा/रही/रहे (चल रही क्रिया)",
+      "notes": "The ending added to the verb in the continuous: work → working.",
+      "tags": ["continuous", "form"]
+    },
+    {
+      "id": "en-a2-now",
+      "front": "now",
+      "back": "अभी",
+      "notes": "A signal word for the present continuous. Also *right now*, *at the moment*.",
+      "tags": ["time"]
+    },
+    {
+      "id": "en-a2-every-day",
+      "front": "every day",
+      "back": "हर दिन / रोज़",
+      "notes": "A signal word for the **present simple** (a routine), not the continuous.",
+      "tags": ["time"]
+    },
+    {
+      "id": "en-a2-get-up",
+      "front": "I get up at seven.",
+      "back": "मैं सात बजे उठता हूँ।",
+      "notes": "Routine → present simple (*get up*), not continuous.",
+      "tags": ["routine"]
+    },
+    {
+      "id": "en-a2-what-doing",
+      "front": "What are you doing?",
+      "back": "तुम क्या कर रहे हो?",
+      "notes": "Continuous question: **are** + you + **doing**.",
+      "tags": ["continuous", "question"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l4-continuous-theory",
+      "type": "theory",
+      "title": "Happening right now",
+      "body": "# Present continuous\n\nFor something happening **now**, use **am / is / are** + verb + **-ing**:\n\n| Subject | be | verb+ing |\n|---|---|---|\n| I | am | working |\n| he / she | is | working |\n| we / they | are | working |\n\n- *I **am working** now.* (मैं अभी काम कर रहा हूँ।)\n- *What **are** you **doing**?* (तुम क्या कर रहे हो?)\n\nRemember: the verb does **not** change for gender — *He is playing* / *She is playing*."
+    },
+    {
+      "id": "l4-simple-vs-continuous",
+      "type": "theory",
+      "title": "Now vs. every day",
+      "body": "# Present continuous vs. present simple\n\n- **Present continuous** — happening *now*: signal words **now**, *right now*, *at the moment*.\n  - *I am eating now.*\n- **Present simple** — a *routine / habit*: signal words **every day**, *usually*, *always*.\n  - *I eat lunch every day.*\n\nDaily routine uses the **simple**:\n\n- *I **get up** at seven every day.* (मैं रोज़ सात बजे उठता हूँ।)\n\nSo: *now* → continuous (-ing); *every day* → simple."
+    },
+    {
+      "id": "l4-ex-match-continuous",
+      "type": "exercise",
+      "theory_ref": "l4-continuous-theory",
+      "title": "Match the sentences",
+      "exercise": {
+        "id": "l4-ex-match-continuous",
+        "type": "matching",
+        "prompt": "Match each English sentence with its Hindi meaning.",
+        "card_ids": ["en-a2-am-working", "en-a2-is-playing", "en-a2-are-eating", "en-a2-what-doing"],
+        "pairs": [
+          {"left": "I am working.", "right": "मैं काम कर रहा हूँ।"},
+          {"left": "She is playing.", "right": "वह खेल रही है।"},
+          {"left": "They are eating.", "right": "वे खा रहे हैं।"},
+          {"left": "What are you doing?", "right": "तुम क्या कर रहे हो?"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l4-ex-cloze-be",
+      "type": "exercise",
+      "theory_ref": "l4-continuous-theory",
+      "title": "Choose the right form of be",
+      "exercise": {
+        "id": "l4-ex-cloze-be",
+        "type": "cloze",
+        "prompt": "Complete: \"She ___ playing now.\"",
+        "card_ids": ["en-a2-is-playing"],
+        "sentence": "She ___ playing now.",
+        "blanks": [{"accept": ["is", "'s"]}],
+        "cloze_mode": "type",
+        "hint": "he/she takes this form of *be*."
+      }
+    },
+    {
+      "id": "l4-ex-cloze-ing",
+      "type": "exercise",
+      "theory_ref": "l4-continuous-theory",
+      "title": "Add the -ing form",
+      "exercise": {
+        "id": "l4-ex-cloze-ing",
+        "type": "cloze",
+        "prompt": "Complete: \"They are ___ now.\" (eat)",
+        "card_ids": ["en-a2-are-eating", "en-a2-ing"],
+        "sentence": "They are ___ now.",
+        "blanks": [{"accept": ["eating"]}],
+        "cloze_mode": "type",
+        "hint": "eat + -ing."
+      }
+    },
+    {
+      "id": "l4-ex-tiles-question",
+      "type": "exercise",
+      "theory_ref": "l4-continuous-theory",
+      "title": "Build the question",
+      "exercise": {
+        "id": "l4-ex-tiles-question",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: तुम क्या कर रहे हो? (What are you doing?)",
+        "card_ids": ["en-a2-what-doing"],
+        "tiles": ["What", "are", "you", "doing"],
+        "hint": "Question word + are + you + verb-ing.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l4-ex-free-now-vs-everyday",
+      "type": "exercise",
+      "theory_ref": "l4-simple-vs-continuous",
+      "title": "Which signal word means \"now\"?",
+      "exercise": {
+        "id": "l4-ex-free-now-vs-everyday",
+        "type": "free_text",
+        "prompt": "Which English word signals the present continuous (something happening at this moment)?",
+        "card_ids": ["en-a2-now", "en-a2-every-day"],
+        "accept": ["now", "Now", "right now"],
+        "distractors": ["every day", "usually", "always"],
+        "hint": "The opposite of *every day*.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+# English A2 (for Hindi speakers) — set manifest.
+#
+# Elementary English content explained in Hindi, building on the
+# en-a1 set. Source = hi (the explanation language), target = en
+# (the language being learned). The Content-Loader reads
+# ``metadata.lessons`` for the lesson filename list.
+schema_version: '1.2'
+name: English A2 (for Hindi speakers)
+description: >-
+  Five elementary lessons of English for Hindi speakers, building on
+  A1: the past simple, the future with will and going to, comparatives
+  and superlatives, the present continuous versus daily routine, and a
+  closing lesson on asking for help with review.
+sets:
+  - id: en-a2-from-hi
+    title: अंग्रेज़ी A2 (हिंदी भाषियों के लिए)
+    title_native: English A2
+    target_language: en
+    source_language: hi
+    level: A2
+    path: sets/hi/en-a2
+    version: '1.0.0'
+    lesson_count: 5
+    domain: language
+    description: >-
+      Elementary English for Hindi speakers (5 lessons), building on
+      A1: the past simple (regular and irregular verbs, did-questions),
+      the future with will and going to, comparatives and superlatives,
+      the present continuous contrasted with the present simple for
+      routines, and asking for help politely with a review of the A2
+      grammar. Explanations in Hindi.
+    tags:
+      - elementary
+      - grammar
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-past-simple.json
+    - 02-future-and-plans.json
+    - 03-comparatives-and-superlatives.json
+    - 04-present-continuous-routine.json
+    - 05-asking-for-help-review.json
