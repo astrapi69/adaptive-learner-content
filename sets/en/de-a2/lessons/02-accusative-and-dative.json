@@ -1,0 +1,160 @@
+{
+  "id": "02-accusative-and-dative",
+  "title": "Cases: Accusative & Dative",
+  "description": "Use the accusative for direct objects and the dative for indirect objects, and learn how the articles change.",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "de-a2-den",
+      "front": "den",
+      "back": "the (masculine, accusative)",
+      "notes": "*der* → **den** when the masculine noun is the direct object.",
+      "tags": ["case", "accusative", "article"]
+    },
+    {
+      "id": "de-a2-einen",
+      "front": "einen",
+      "back": "a / an (masculine, accusative)",
+      "notes": "*ein* → **einen** in the accusative (masculine only).",
+      "tags": ["case", "accusative", "article"]
+    },
+    {
+      "id": "de-a2-dem",
+      "front": "dem",
+      "back": "the (masculine/neuter, dative)",
+      "notes": "Dative marks the indirect object (the receiver).",
+      "tags": ["case", "dative", "article"]
+    },
+    {
+      "id": "de-a2-der-dat",
+      "front": "der",
+      "back": "the (feminine, dative)",
+      "notes": "In the dative the feminine article is **der** (not die).",
+      "tags": ["case", "dative", "article"]
+    },
+    {
+      "id": "de-a2-fuer",
+      "front": "für",
+      "back": "for",
+      "notes": "Always takes the **accusative**: *für den Mann*.",
+      "tags": ["preposition", "accusative"]
+    },
+    {
+      "id": "de-a2-mit",
+      "front": "mit",
+      "back": "with",
+      "notes": "Always takes the **dative**: *mit dem Bus*.",
+      "tags": ["preposition", "dative"]
+    },
+    {
+      "id": "de-a2-ich-sehe-den-mann",
+      "front": "Ich sehe den Mann.",
+      "back": "I see the man.",
+      "notes": "*den Mann* is the direct object → accusative.",
+      "tags": ["accusative", "example"]
+    },
+    {
+      "id": "de-a2-ich-gebe-dem-kind",
+      "front": "Ich gebe dem Kind den Ball.",
+      "back": "I give the child the ball.",
+      "notes": "*dem Kind* (receiver) = dative; *den Ball* (thing given) = accusative.",
+      "tags": ["dative", "accusative", "example"]
+    },
+    {
+      "id": "de-a2-mit-dem-bus",
+      "front": "mit dem Bus",
+      "back": "by bus",
+      "notes": "*mit* + dative. Literally \"with the bus\".",
+      "tags": ["dative", "example"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l2-cases-theory",
+      "type": "theory",
+      "title": "Nominative, accusative, dative",
+      "body": "# Three cases\n\nGerman marks a noun's **role** in the sentence by changing the article:\n\n- **Nominative** — the subject (who does it).\n- **Accusative** — the direct object (what is affected).\n- **Dative** — the indirect object (to/for whom).\n\n## Article table\n\n| Case | masc. | fem. | neut. |\n|---|---|---|---|\n| Nominative | der | die | das |\n| Accusative | **den** | die | das |\n| Dative | **dem** | **der** | **dem** |\n\nOnly the **masculine** article changes in the accusative (*der → den*).\n\n- **Ich sehe den Mann.** — I see the man. *(accusative)*\n- **Ich gebe dem Kind den Ball.** — I give the child the ball. *(dem = dative, den = accusative)*\n\n## Prepositions fix the case\n\n- **für** + accusative: *für den Mann*\n- **mit** + dative: *mit dem Bus*"
+    },
+    {
+      "id": "l2-ex-match-cases",
+      "type": "exercise",
+      "theory_ref": "l2-cases-theory",
+      "title": "Match articles to their case",
+      "exercise": {
+        "id": "l2-ex-match-cases",
+        "type": "matching",
+        "prompt": "Match each article form with its description.",
+        "card_ids": ["de-a2-den", "de-a2-dem", "de-a2-der-dat"],
+        "pairs": [
+          {"left": "den", "right": "the (masc., accusative)"},
+          {"left": "dem", "right": "the (masc./neut., dative)"},
+          {"left": "der", "right": "the (fem., dative)"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l2-ex-cloze-accusative",
+      "type": "exercise",
+      "theory_ref": "l2-cases-theory",
+      "title": "Accusative article",
+      "exercise": {
+        "id": "l2-ex-cloze-accusative",
+        "type": "cloze",
+        "prompt": "Complete: \"I see the man.\" (der Mann → direct object)",
+        "card_ids": ["de-a2-den", "de-a2-ich-sehe-den-mann"],
+        "sentence": "Ich sehe ___ Mann.",
+        "blanks": [{"accept": ["den"]}],
+        "cloze_mode": "type",
+        "hint": "Masculine direct object: der → ?"
+      }
+    },
+    {
+      "id": "l2-ex-cloze-dative-prep",
+      "type": "exercise",
+      "theory_ref": "l2-cases-theory",
+      "title": "Dative after \"mit\"",
+      "exercise": {
+        "id": "l2-ex-cloze-dative-prep",
+        "type": "cloze",
+        "prompt": "Complete: \"by bus\" (der Bus, after mit)",
+        "card_ids": ["de-a2-mit", "de-a2-dem", "de-a2-mit-dem-bus"],
+        "sentence": "mit ___ Bus",
+        "blanks": [{"accept": ["dem"]}],
+        "cloze_mode": "type",
+        "hint": "*mit* takes the dative."
+      }
+    },
+    {
+      "id": "l2-ex-tiles-dative",
+      "type": "exercise",
+      "theory_ref": "l2-cases-theory",
+      "title": "Build a sentence with two objects",
+      "exercise": {
+        "id": "l2-ex-tiles-dative",
+        "type": "word_tiles",
+        "prompt": "Arrange the tiles to say: \"I give the child the ball.\"",
+        "card_ids": ["de-a2-ich-gebe-dem-kind"],
+        "tiles": ["Ich", "gebe", "dem", "Kind", "den", "Ball"],
+        "hint": "Receiver (dative) before the thing given (accusative).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l2-ex-free-for",
+      "type": "exercise",
+      "theory_ref": "l2-cases-theory",
+      "title": "Say \"for\"",
+      "exercise": {
+        "id": "l2-ex-free-for",
+        "type": "free_text",
+        "prompt": "Which German preposition means \"for\" and takes the accusative?",
+        "card_ids": ["de-a2-fuer"],
+        "accept": ["für", "fur", "für "],
+        "distractors": ["mit", "von", "zu"],
+        "hint": "*___ den Mann* = for the man.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

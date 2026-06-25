@@ -1,0 +1,175 @@
+{
+  "id": "01-perfect-tense",
+  "title": "Talking About the Past (Perfekt)",
+  "description": "Use the German perfect tense (Perfekt) with haben and sein to talk about what you did.",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "de-a2-gemacht",
+      "front": "gemacht",
+      "back": "done / made",
+      "notes": "Past participle of *machen*. Regular pattern: **ge-** + stem + **-t**.",
+      "tags": ["perfekt", "participle"]
+    },
+    {
+      "id": "de-a2-gekauft",
+      "front": "gekauft",
+      "back": "bought",
+      "notes": "Past participle of *kaufen* (regular).",
+      "tags": ["perfekt", "participle"]
+    },
+    {
+      "id": "de-a2-gespielt",
+      "front": "gespielt",
+      "back": "played",
+      "notes": "Past participle of *spielen* (regular).",
+      "tags": ["perfekt", "participle"]
+    },
+    {
+      "id": "de-a2-gegessen",
+      "front": "gegessen",
+      "back": "eaten",
+      "notes": "Past participle of *essen* (irregular: **ge-** + …**-en**).",
+      "tags": ["perfekt", "participle"]
+    },
+    {
+      "id": "de-a2-getrunken",
+      "front": "getrunken",
+      "back": "drunk",
+      "notes": "Past participle of *trinken* (irregular, vowel change).",
+      "tags": ["perfekt", "participle"]
+    },
+    {
+      "id": "de-a2-gefahren",
+      "front": "gefahren",
+      "back": "driven / gone (by vehicle)",
+      "notes": "Past participle of *fahren*. Uses **sein** (movement).",
+      "tags": ["perfekt", "participle", "sein"]
+    },
+    {
+      "id": "de-a2-gegangen",
+      "front": "gegangen",
+      "back": "gone (on foot)",
+      "notes": "Past participle of *gehen*. Uses **sein** (movement).",
+      "tags": ["perfekt", "participle", "sein"]
+    },
+    {
+      "id": "de-a2-habe-gemacht",
+      "front": "Ich habe … gemacht",
+      "back": "I did / I have done",
+      "notes": "Perfekt = **haben** (position 2) + participle at the end.",
+      "tags": ["perfekt", "haben"]
+    },
+    {
+      "id": "de-a2-bin-gegangen",
+      "front": "Ich bin … gegangen",
+      "back": "I went / I have gone",
+      "notes": "Verbs of movement/change take **sein**, not haben.",
+      "tags": ["perfekt", "sein"]
+    },
+    {
+      "id": "de-a2-gestern",
+      "front": "gestern",
+      "back": "yesterday",
+      "notes": "A common time word with the Perfekt.",
+      "tags": ["time"]
+    },
+    {
+      "id": "de-a2-am-wochenende",
+      "front": "am Wochenende",
+      "back": "at the weekend",
+      "notes": "*das Wochenende* = the weekend.",
+      "tags": ["time"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l1-perfekt-theory",
+      "type": "theory",
+      "title": "How the Perfekt works",
+      "body": "# The perfect tense (Perfekt)\n\nIn spoken German, the **Perfekt** is the normal way to talk about the past. It has **two parts**:\n\n> **haben / sein** (conjugated, position 2) + **past participle** (at the end)\n\n- **Ich habe Pizza gegessen.** — I ate pizza.\n- **Wir sind nach Berlin gefahren.** — We went to Berlin.\n\n## Building the participle\n\n| Type | Pattern | Example |\n|---|---|---|\n| Regular | **ge-** + stem + **-t** | machen → **gemacht** |\n| Irregular | **ge-** + … + **-en** | essen → **gegessen** |\n\n## haben or sein?\n\n- Most verbs use **haben**.\n- Verbs of **movement** or **change of state** use **sein**: *gehen, fahren, kommen, fliegen*.\n\n*Ich bin gegangen* (not *ich habe gegangen*)."
+    },
+    {
+      "id": "l1-ex-match-participles",
+      "type": "exercise",
+      "theory_ref": "l1-perfekt-theory",
+      "title": "Match the participles",
+      "exercise": {
+        "id": "l1-ex-match-participles",
+        "type": "matching",
+        "prompt": "Match each German past participle with its English meaning.",
+        "card_ids": ["de-a2-gemacht", "de-a2-gekauft", "de-a2-gegessen", "de-a2-getrunken"],
+        "pairs": [
+          {"left": "gemacht", "right": "done / made"},
+          {"left": "gekauft", "right": "bought"},
+          {"left": "gegessen", "right": "eaten"},
+          {"left": "getrunken", "right": "drunk"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l1-ex-cloze-haben",
+      "type": "exercise",
+      "theory_ref": "l1-perfekt-theory",
+      "title": "Choose the right helper (haben)",
+      "exercise": {
+        "id": "l1-ex-cloze-haben",
+        "type": "cloze",
+        "prompt": "Complete: \"I ate pizza.\"",
+        "card_ids": ["de-a2-habe-gemacht", "de-a2-gegessen"],
+        "sentence": "Ich ___ Pizza gegessen.",
+        "blanks": [{"accept": ["habe"]}],
+        "cloze_mode": "type",
+        "hint": "*essen* takes haben."
+      }
+    },
+    {
+      "id": "l1-ex-cloze-sein",
+      "type": "exercise",
+      "theory_ref": "l1-perfekt-theory",
+      "title": "Choose the right helper (sein)",
+      "exercise": {
+        "id": "l1-ex-cloze-sein",
+        "type": "cloze",
+        "prompt": "Complete: \"We went to Berlin.\"",
+        "card_ids": ["de-a2-bin-gegangen", "de-a2-gefahren"],
+        "sentence": "Wir ___ nach Berlin gefahren.",
+        "blanks": [{"accept": ["sind"]}],
+        "cloze_mode": "type",
+        "hint": "*fahren* is movement, so it takes sein. \"We\" = wir."
+      }
+    },
+    {
+      "id": "l1-ex-tiles-perfekt",
+      "type": "exercise",
+      "theory_ref": "l1-perfekt-theory",
+      "title": "Build a past-tense sentence",
+      "exercise": {
+        "id": "l1-ex-tiles-perfekt",
+        "type": "word_tiles",
+        "prompt": "Arrange the tiles to say: \"I played football.\"",
+        "card_ids": ["de-a2-gespielt"],
+        "tiles": ["Ich", "habe", "Fußball", "gespielt"],
+        "hint": "Helper verb in position 2, participle at the very end.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l1-ex-free-yesterday",
+      "type": "exercise",
+      "theory_ref": "l1-perfekt-theory",
+      "title": "Say \"yesterday\"",
+      "exercise": {
+        "id": "l1-ex-free-yesterday",
+        "type": "free_text",
+        "prompt": "How do you say \"yesterday\" in German?",
+        "card_ids": ["de-a2-gestern"],
+        "accept": ["gestern", "Gestern"],
+        "distractors": ["heute", "morgen", "am Wochenende"],
+        "hint": "Often used to start a past-tense sentence.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
