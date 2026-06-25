@@ -1,0 +1,161 @@
+{
+  "id": "04-separable-verbs-daily-routine",
+  "title": "Separable Verbs & Daily Routine",
+  "description": "Describe your day with separable verbs and time expressions like \"um sieben Uhr\".",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "de-a2-aufstehen",
+      "front": "aufstehen",
+      "back": "to get up",
+      "notes": "Separable: prefix **auf-** splits off. *Ich stehe … auf.*",
+      "tags": ["separable", "routine"]
+    },
+    {
+      "id": "de-a2-einkaufen",
+      "front": "einkaufen",
+      "back": "to go shopping",
+      "notes": "Separable prefix **ein-**. *Ich kaufe … ein.*",
+      "tags": ["separable", "routine"]
+    },
+    {
+      "id": "de-a2-fernsehen",
+      "front": "fernsehen",
+      "back": "to watch TV",
+      "notes": "Separable prefix **fern-**. *Ich sehe … fern.*",
+      "tags": ["separable", "routine"]
+    },
+    {
+      "id": "de-a2-anrufen",
+      "front": "anrufen",
+      "back": "to call (phone)",
+      "notes": "Separable prefix **an-**. *Ich rufe … an.*",
+      "tags": ["separable", "routine"]
+    },
+    {
+      "id": "de-a2-aufraeumen",
+      "front": "aufräumen",
+      "back": "to tidy up",
+      "notes": "Separable prefix **auf-**. *Ich räume … auf.*",
+      "tags": ["separable", "routine"]
+    },
+    {
+      "id": "de-a2-um-uhr",
+      "front": "um sieben Uhr",
+      "back": "at seven o'clock",
+      "notes": "Telling clock time: **um** + number + **Uhr**.",
+      "tags": ["time"]
+    },
+    {
+      "id": "de-a2-am-morgen",
+      "front": "am Morgen",
+      "back": "in the morning",
+      "notes": "Also *am Abend* (in the evening), *am Mittag* (at noon).",
+      "tags": ["time"]
+    },
+    {
+      "id": "de-a2-stehe-auf",
+      "front": "Ich stehe um sieben Uhr auf.",
+      "back": "I get up at seven o'clock.",
+      "notes": "Conjugated part second, separable prefix **auf** at the end.",
+      "tags": ["separable", "example"]
+    },
+    {
+      "id": "de-a2-rufe-an",
+      "front": "Ich rufe meine Mutter an.",
+      "back": "I call my mother.",
+      "notes": "*an* jumps to the end of the sentence.",
+      "tags": ["separable", "example"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l4-separable-theory",
+      "type": "theory",
+      "title": "Separable verbs and time",
+      "body": "# Separable verbs\n\nMany German verbs have a **prefix** that splits off in a main clause and jumps to the **end**.\n\n> **aufstehen** → **Ich stehe** um sieben Uhr **auf.** — I get up at seven o'clock.\n> **anrufen** → **Ich rufe** meine Mutter **an.** — I call my mother.\n\nThe prefix often tells you the meaning, so learn the whole verb (*aufstehen*, *einkaufen*, *fernsehen*, *aufräumen*).\n\n## Telling the time\n\nUse **um** + number + **Uhr**:\n\n- **um sieben Uhr** — at seven o'clock\n- **um halb acht** — at half past seven (literally \"half eight\")\n\nParts of the day take **am**: *am Morgen*, *am Abend*."
+    },
+    {
+      "id": "l4-ex-match-routine",
+      "type": "exercise",
+      "theory_ref": "l4-separable-theory",
+      "title": "Match the daily-routine verbs",
+      "exercise": {
+        "id": "l4-ex-match-routine",
+        "type": "matching",
+        "prompt": "Match each separable verb with its meaning.",
+        "card_ids": ["de-a2-aufstehen", "de-a2-einkaufen", "de-a2-fernsehen", "de-a2-aufraeumen"],
+        "pairs": [
+          {"left": "aufstehen", "right": "to get up"},
+          {"left": "einkaufen", "right": "to go shopping"},
+          {"left": "fernsehen", "right": "to watch TV"},
+          {"left": "aufräumen", "right": "to tidy up"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l4-ex-tiles-aufstehen",
+      "type": "exercise",
+      "theory_ref": "l4-separable-theory",
+      "title": "Split the verb",
+      "exercise": {
+        "id": "l4-ex-tiles-aufstehen",
+        "type": "word_tiles",
+        "prompt": "Arrange the tiles to say: \"I get up at seven o'clock.\"",
+        "card_ids": ["de-a2-stehe-auf", "de-a2-aufstehen"],
+        "tiles": ["Ich", "stehe", "um", "sieben", "Uhr", "auf"],
+        "hint": "The prefix **auf** goes all the way to the end.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l4-ex-cloze-anrufen",
+      "type": "exercise",
+      "theory_ref": "l4-separable-theory",
+      "title": "Complete the separable verb",
+      "exercise": {
+        "id": "l4-ex-cloze-anrufen",
+        "type": "cloze",
+        "prompt": "Complete: \"I call my mother.\" (anrufen)",
+        "card_ids": ["de-a2-anrufen", "de-a2-rufe-an"],
+        "sentence": "Ich ___ meine Mutter an.",
+        "blanks": [{"accept": ["rufe"]}],
+        "cloze_mode": "type",
+        "hint": "Conjugate *rufen*; the prefix *an* is already at the end."
+      }
+    },
+    {
+      "id": "l4-ex-free-time",
+      "type": "exercise",
+      "theory_ref": "l4-separable-theory",
+      "title": "Say \"at seven o'clock\"",
+      "exercise": {
+        "id": "l4-ex-free-time",
+        "type": "free_text",
+        "prompt": "How do you say \"at seven o'clock\" in German?",
+        "card_ids": ["de-a2-um-uhr"],
+        "accept": ["um sieben Uhr", "um 7 Uhr", "um sieben uhr"],
+        "distractors": ["am Morgen", "um halb acht", "sieben Uhr"],
+        "hint": "Start with *um* and end with *Uhr*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l4-ex-cloze-morning",
+      "type": "exercise",
+      "theory_ref": "l4-separable-theory",
+      "title": "Part of the day",
+      "exercise": {
+        "id": "l4-ex-cloze-morning",
+        "type": "cloze",
+        "prompt": "Complete: \"in the morning\"",
+        "card_ids": ["de-a2-am-morgen"],
+        "sentence": "___ Morgen",
+        "blanks": [{"accept": ["am", "Am"]}],
+        "cloze_mode": "type",
+        "hint": "Parts of the day take this little word."
+      }
+    }
+  ]
+}

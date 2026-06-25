@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/adaptive-learner-content",
-  "generated": "2026-06-21T17:13:13Z",
+  "generated": "2026-06-25T13:45:49Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -121,6 +121,26 @@
       "trust_level": 3,
       "book": null,
       "updated_at": "2026-06-16T18:17:56+02:00"
+    },
+    {
+      "id": "de-a2-from-en",
+      "name": "German A2 (for English speakers)",
+      "description": "Five elementary German lessons explained in English, building on A1: the perfect tense (Perfekt) with haben and sein, the accusative and dative cases, modal verbs (können, müssen, dürfen, wollen, sollen, möchten), separable verbs with daily routine and clock time, and a shopping and directions lesson that reviews the A2 grammar.",
+      "source_language": "en",
+      "target_language": "de",
+      "level": "a2",
+      "domain": "language",
+      "lesson_count": 5,
+      "card_count": 46,
+      "tags": [
+        "elementary",
+        "grammar",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-25T13:45:48+00:00"
     },
     {
       "id": "fr-a2-from-en",
@@ -530,6 +550,6 @@
       "updated_at": "2026-06-19T16:24:13+02:00"
     }
   ],
-  "total_lessons": 432,
-  "total_cards": 5405
+  "total_lessons": 437,
+  "total_cards": 5451
 }

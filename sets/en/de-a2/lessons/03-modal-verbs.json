@@ -1,0 +1,161 @@
+{
+  "id": "03-modal-verbs",
+  "title": "Modal Verbs",
+  "description": "Express ability, necessity, permission and wishes with können, müssen, dürfen, wollen, sollen and möchten.",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "de-a2-koennen",
+      "front": "können",
+      "back": "can / to be able to",
+      "notes": "*Ich kann* — I can. Note: no **-t** in *er kann*.",
+      "tags": ["modal"]
+    },
+    {
+      "id": "de-a2-muessen",
+      "front": "müssen",
+      "back": "must / to have to",
+      "notes": "*Ich muss* — I must.",
+      "tags": ["modal"]
+    },
+    {
+      "id": "de-a2-duerfen",
+      "front": "dürfen",
+      "back": "may / to be allowed to",
+      "notes": "*Ich darf* — I'm allowed to.",
+      "tags": ["modal"]
+    },
+    {
+      "id": "de-a2-wollen",
+      "front": "wollen",
+      "back": "to want to",
+      "notes": "*Ich will* — I want to. (Careful: *will* is German, not English \"will\".)",
+      "tags": ["modal"]
+    },
+    {
+      "id": "de-a2-sollen",
+      "front": "sollen",
+      "back": "should / to be supposed to",
+      "notes": "*Ich soll* — I should / I'm supposed to.",
+      "tags": ["modal"]
+    },
+    {
+      "id": "de-a2-moechten",
+      "front": "möchten",
+      "back": "would like to",
+      "notes": "Polite form of *mögen*. *Ich möchte* — I'd like.",
+      "tags": ["modal", "politeness"]
+    },
+    {
+      "id": "de-a2-kann-schwimmen",
+      "front": "Ich kann schwimmen.",
+      "back": "I can swim.",
+      "notes": "Modal verb in position 2, main verb **infinitive at the end**.",
+      "tags": ["modal", "example"]
+    },
+    {
+      "id": "de-a2-moechte-kaffee",
+      "front": "Ich möchte einen Kaffee.",
+      "back": "I would like a coffee.",
+      "notes": "*einen* = accusative (a coffee is the direct object).",
+      "tags": ["modal", "example"]
+    },
+    {
+      "id": "de-a2-muss-arbeiten",
+      "front": "Ich muss arbeiten.",
+      "back": "I have to work.",
+      "notes": "*arbeiten* (infinitive) goes to the end.",
+      "tags": ["modal", "example"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l3-modal-theory",
+      "type": "theory",
+      "title": "Using modal verbs",
+      "body": "# Modal verbs\n\nModal verbs add meaning to another verb: ability, necessity, permission, wishes.\n\n**Sentence pattern:** modal verb in **position 2**, the main verb as an **infinitive at the end**.\n\n> **Ich kann schwimmen.** — I can swim.\n> **Ich muss heute arbeiten.** — I have to work today.\n\n## The six modals\n\n| Verb | Meaning | *ich* form |\n|---|---|---|\n| können | can | ich **kann** |\n| müssen | must | ich **muss** |\n| dürfen | may | ich **darf** |\n| wollen | want to | ich **will** |\n| sollen | should | ich **soll** |\n| möchten | would like to | ich **möchte** |\n\nNote: in the singular there is **no -t** ending: *er kann*, *er muss* (not *kannt/musst*).\n\nUse **möchten** to order politely: *Ich möchte einen Kaffee.*"
+    },
+    {
+      "id": "l3-ex-match-modals",
+      "type": "exercise",
+      "theory_ref": "l3-modal-theory",
+      "title": "Match the modal verbs",
+      "exercise": {
+        "id": "l3-ex-match-modals",
+        "type": "matching",
+        "prompt": "Match each modal verb with its meaning.",
+        "card_ids": ["de-a2-koennen", "de-a2-muessen", "de-a2-duerfen", "de-a2-moechten"],
+        "pairs": [
+          {"left": "können", "right": "can"},
+          {"left": "müssen", "right": "must"},
+          {"left": "dürfen", "right": "may / allowed to"},
+          {"left": "möchten", "right": "would like to"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l3-ex-cloze-kann",
+      "type": "exercise",
+      "theory_ref": "l3-modal-theory",
+      "title": "Complete with können",
+      "exercise": {
+        "id": "l3-ex-cloze-kann",
+        "type": "cloze",
+        "prompt": "Complete: \"I can speak German.\"",
+        "card_ids": ["de-a2-koennen", "de-a2-kann-schwimmen"],
+        "sentence": "Ich ___ Deutsch sprechen.",
+        "blanks": [{"accept": ["kann"]}],
+        "cloze_mode": "type",
+        "hint": "*ich*-form of können — remember: no -t."
+      }
+    },
+    {
+      "id": "l3-ex-tiles-muss",
+      "type": "exercise",
+      "theory_ref": "l3-modal-theory",
+      "title": "Build a sentence with müssen",
+      "exercise": {
+        "id": "l3-ex-tiles-muss",
+        "type": "word_tiles",
+        "prompt": "Arrange the tiles to say: \"I have to work today.\"",
+        "card_ids": ["de-a2-muss-arbeiten"],
+        "tiles": ["Ich", "muss", "heute", "arbeiten"],
+        "hint": "Modal in position 2; the infinitive goes to the end.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l3-ex-free-moechte",
+      "type": "exercise",
+      "theory_ref": "l3-modal-theory",
+      "title": "Order politely",
+      "exercise": {
+        "id": "l3-ex-free-moechte",
+        "type": "free_text",
+        "prompt": "Fill the gap politely — \"Ich ___ einen Kaffee.\" (I would like a coffee)",
+        "card_ids": ["de-a2-moechten", "de-a2-moechte-kaffee"],
+        "accept": ["möchte", "mochte", "möchte "],
+        "distractors": ["will", "kann", "muss"],
+        "hint": "The polite \"would like\" form.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l3-ex-cloze-darf",
+      "type": "exercise",
+      "theory_ref": "l3-modal-theory",
+      "title": "Permission with dürfen",
+      "exercise": {
+        "id": "l3-ex-cloze-darf",
+        "type": "cloze",
+        "prompt": "Complete: \"You may park here.\" (du-form of dürfen)",
+        "card_ids": ["de-a2-duerfen"],
+        "sentence": "Du ___ hier parken.",
+        "blanks": [{"accept": ["darfst"]}],
+        "cloze_mode": "type",
+        "hint": "*du* + dürfen → darf + st."
+      }
+    }
+  ]
+}

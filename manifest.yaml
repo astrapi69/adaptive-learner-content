@@ -149,6 +149,28 @@ sets:
       - beginner
       - everyday
       - travel
+  - id: de-a2-from-en
+    title: German A2 (for English speakers)
+    title_native: Deutsch A2
+    target_language: de
+    source_language: en
+    level: A2
+    path: sets/en/de-a2
+    version: '1.0.0'
+    lesson_count: 5
+    domain: language
+    description: >-
+      Five elementary German lessons explained in English, building on
+      A1: the perfect tense (Perfekt) with haben and sein, the
+      accusative and dative cases, modal verbs (können, müssen, dürfen,
+      wollen, sollen, möchten), separable verbs with daily routine and
+      clock time, and a shopping and directions lesson that reviews the
+      A2 grammar. Presupposes A1; mostly productive. Explanations in
+      English.
+    tags:
+      - elementary
+      - grammar
+      - everyday
   - id: fr-a2-from-en
     title: French A2 — Elementary
     title_native: Français A2 — Élémentaire

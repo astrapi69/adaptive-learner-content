@@ -1,0 +1,44 @@
+# German A2 (for English speakers) — set manifest.
+#
+# Elementary German content explained in English (source = en,
+# target = de), building on the de-a1 set. The Content-Loader reads
+# ``metadata.lessons`` for the lesson filename list.
+schema_version: '1.2'
+name: German A2 (for English speakers)
+description: >-
+  Five elementary lessons of German for English speakers, building on
+  A1: the perfect tense (Perfekt) with haben and sein, the accusative
+  and dative cases, modal verbs, separable verbs with daily routine
+  and telling the time, and a closing shopping/directions lesson with
+  review and text production.
+sets:
+  - id: de-a2-from-en
+    title: German A2 (for English speakers)
+    title_native: Deutsch A2
+    target_language: de
+    source_language: en
+    level: A2
+    path: sets/en/de-a2
+    version: '1.0.0'
+    lesson_count: 5
+    domain: language
+    description: >-
+      Five elementary German lessons explained in English, building on
+      A1: the perfect tense (Perfekt) with haben and sein, the
+      accusative and dative cases, modal verbs (können, müssen, dürfen,
+      wollen, sollen, möchten), separable verbs with daily routine and
+      clock time, and a shopping and directions lesson that reviews the
+      A2 grammar.
+    tags:
+      - elementary
+      - grammar
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-perfect-tense.json
+    - 02-accusative-and-dative.json
+    - 03-modal-verbs.json
+    - 04-separable-verbs-daily-routine.json
+    - 05-shopping-directions-review.json

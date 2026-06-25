@@ -1,0 +1,154 @@
+{
+  "id": "05-shopping-directions-review",
+  "title": "Shopping, Directions & Review",
+  "description": "Ask for prices and directions, then review the A2 grammar by producing your own short sentences.",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "de-a2-was-kostet",
+      "front": "Was kostet das?",
+      "back": "How much does that cost?",
+      "notes": "Also: *Wie viel kostet das?*",
+      "tags": ["shopping", "question"]
+    },
+    {
+      "id": "de-a2-ich-haette-gern",
+      "front": "Ich hätte gern …",
+      "back": "I would like … (please)",
+      "notes": "Very polite way to order or ask for something in a shop.",
+      "tags": ["shopping", "politeness"]
+    },
+    {
+      "id": "de-a2-die-baeckerei",
+      "front": "die Bäckerei",
+      "back": "the bakery",
+      "notes": "*-ei* nouns are feminine: *die Bäckerei*.",
+      "tags": ["shopping", "places"]
+    },
+    {
+      "id": "de-a2-wo-ist",
+      "front": "Wo ist …?",
+      "back": "Where is …?",
+      "notes": "*Wo ist der Bahnhof?* — Where is the station?",
+      "tags": ["directions", "question"]
+    },
+    {
+      "id": "de-a2-links",
+      "front": "links",
+      "back": "(on the) left",
+      "notes": "*nach links* — to the left.",
+      "tags": ["directions"]
+    },
+    {
+      "id": "de-a2-rechts",
+      "front": "rechts",
+      "back": "(on the) right",
+      "notes": "*nach rechts* — to the right.",
+      "tags": ["directions"]
+    },
+    {
+      "id": "de-a2-geradeaus",
+      "front": "geradeaus",
+      "back": "straight ahead",
+      "notes": "*Gehen Sie geradeaus.* — Go straight ahead.",
+      "tags": ["directions"]
+    },
+    {
+      "id": "de-a2-entschuldigung",
+      "front": "Entschuldigung",
+      "back": "excuse me / sorry",
+      "notes": "Use it to get attention before asking for directions.",
+      "tags": ["politeness"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l5-shopping-theory",
+      "type": "theory",
+      "title": "Getting around and shopping",
+      "body": "# Shopping and directions\n\n**In a shop**\n\n- **Was kostet das?** — How much does that cost?\n- **Ich hätte gern ein Brot.** — I'd like a loaf of bread.\n\n**Asking the way** — start with **Entschuldigung** to be polite:\n\n- **Entschuldigung, wo ist der Bahnhof?** — Excuse me, where is the station?\n\n**Directions**\n\n| German | English |\n|---|---|\n| links | (on the) left |\n| rechts | (on the) right |\n| geradeaus | straight ahead |\n\n## Quick A2 review\n\nYou can now combine what you learned:\n\n- **Perfekt:** *Ich habe Brot gekauft.* — I bought bread.\n- **Modal verb:** *Ich möchte zur Bäckerei gehen.* — I'd like to go to the bakery.\n- **Separable verb:** *Ich kaufe am Morgen ein.* — I go shopping in the morning."
+    },
+    {
+      "id": "l5-ex-match-directions",
+      "type": "exercise",
+      "theory_ref": "l5-shopping-theory",
+      "title": "Match the directions",
+      "exercise": {
+        "id": "l5-ex-match-directions",
+        "type": "matching",
+        "prompt": "Match each German word with its English meaning.",
+        "card_ids": ["de-a2-links", "de-a2-rechts", "de-a2-geradeaus", "de-a2-entschuldigung"],
+        "pairs": [
+          {"left": "links", "right": "(on the) left"},
+          {"left": "rechts", "right": "(on the) right"},
+          {"left": "geradeaus", "right": "straight ahead"},
+          {"left": "Entschuldigung", "right": "excuse me / sorry"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l5-ex-free-price",
+      "type": "exercise",
+      "theory_ref": "l5-shopping-theory",
+      "title": "Ask the price",
+      "exercise": {
+        "id": "l5-ex-free-price",
+        "type": "free_text",
+        "prompt": "How do you ask \"How much does that cost?\" in German?",
+        "card_ids": ["de-a2-was-kostet"],
+        "accept": ["Was kostet das?", "Was kostet das", "Wie viel kostet das?", "Wie viel kostet das"],
+        "distractors": ["Wo ist das?", "Wer ist das?", "Was ist das?"],
+        "hint": "Starts with *Was kostet …*",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l5-ex-cloze-where",
+      "type": "exercise",
+      "theory_ref": "l5-shopping-theory",
+      "title": "Ask for the station",
+      "exercise": {
+        "id": "l5-ex-cloze-where",
+        "type": "cloze",
+        "prompt": "Complete: \"Where is the station?\" (der Bahnhof)",
+        "card_ids": ["de-a2-wo-ist"],
+        "sentence": "___ ist der Bahnhof?",
+        "blanks": [{"accept": ["Wo", "wo"]}],
+        "cloze_mode": "type",
+        "hint": "Question word for a place."
+      }
+    },
+    {
+      "id": "l5-ex-tiles-review",
+      "type": "exercise",
+      "theory_ref": "l5-shopping-theory",
+      "title": "Review: build a Perfekt sentence",
+      "exercise": {
+        "id": "l5-ex-tiles-review",
+        "type": "word_tiles",
+        "prompt": "Arrange the tiles to say: \"I bought bread.\"",
+        "card_ids": ["de-a2-die-baeckerei"],
+        "tiles": ["Ich", "habe", "Brot", "gekauft"],
+        "hint": "Perfekt: haben in position 2, participle at the end.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l5-ex-free-polite-order",
+      "type": "exercise",
+      "theory_ref": "l5-shopping-theory",
+      "title": "Order politely",
+      "exercise": {
+        "id": "l5-ex-free-polite-order",
+        "type": "free_text",
+        "prompt": "Give the polite phrase for \"I would like …\" used in a shop.",
+        "card_ids": ["de-a2-ich-haette-gern"],
+        "accept": ["Ich hätte gern", "Ich hatte gern", "Ich hätte gerne", "Ich hätte gern…"],
+        "distractors": ["Ich will", "Ich muss", "Ich habe"],
+        "hint": "*Ich hätte g___* …",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
