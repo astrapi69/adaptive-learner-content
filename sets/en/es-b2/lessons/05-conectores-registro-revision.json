@@ -1,0 +1,170 @@
+{
+  "id": "es-b2-05-conectores-registro-revision",
+  "title": "Connectors, Register & Review",
+  "description": "Structure an argument with formal discourse connectors, handle register, and review the B2 grammar in short text production.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 18,
+  "cards": [
+    {
+      "id": "es-b2-con-sinembargo",
+      "front": "sin embargo",
+      "back": "however / nevertheless",
+      "notes": "Strong contrast, common in writing: *Es caro; **sin embargo**, vale la pena.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["conector", "contraste"]
+    },
+    {
+      "id": "es-b2-con-porlotanto",
+      "front": "por lo tanto",
+      "back": "therefore / consequently",
+      "notes": "Introduces a logical consequence: *No estudió; **por lo tanto**, suspendió.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["conector", "consecuencia"]
+    },
+    {
+      "id": "es-b2-con-apesarde",
+      "front": "a pesar de (que)",
+      "back": "in spite of / despite (the fact that)",
+      "notes": "*a pesar de* + noun/infinitive; *a pesar de que* + clause: *A pesar de que **llueva**…*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["conector", "concesion"]
+    },
+    {
+      "id": "es-b2-con-dadoque",
+      "front": "dado que",
+      "back": "given that / since",
+      "notes": "Formal cause: *Dado que no hay pruebas, se archiva el caso.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["conector", "causa"]
+    },
+    {
+      "id": "es-b2-con-encuantoa",
+      "front": "en cuanto a",
+      "back": "regarding / as for",
+      "notes": "Introduces a topic: *En cuanto a los costes, hablaremos mañana.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["conector", "tema"]
+    },
+    {
+      "id": "es-b2-con-porunlado",
+      "front": "por un lado… por otro (lado)",
+      "back": "on the one hand… on the other (hand)",
+      "notes": "Balances two points in an argument.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["conector", "estructura"]
+    },
+    {
+      "id": "es-b2-reg-tu-usted",
+      "front": "¿Podrías…? vs. ¿Podría usted…?",
+      "back": "informal (tú) vs. formal (usted) register",
+      "notes": "Register matters at B2: use *usted* and the conditional (*¿Podría…?*) for formal or polite requests.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["registro"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Connectors for argument and register",
+      "body": "# Linking ideas in formal Spanish\n\n| Function | Connector | English |\n|---|---|---|\n| Contrast | **sin embargo**, **no obstante** | however, nevertheless |\n| Consequence | **por lo tanto**, **por consiguiente** | therefore |\n| Cause | **dado que**, **puesto que** | given that, since |\n| Concession | **a pesar de (que)** | in spite of |\n| Topic | **en cuanto a** | as for, regarding |\n| Structure | **por un lado… por otro** | on one hand… on the other |\n\n## Register\n\nAt B2, match your forms to the situation:\n\n- Informal: *¿**Puedes** ayudarme?* / *¿**Podrías**…?* (tú)\n- Formal: *¿**Podría usted** ayudarme?* (usted + conditional)\n\nKeep the register **consistent** through a text."
+    },
+    {
+      "id": "step-review",
+      "type": "theory",
+      "title": "Putting B2 together",
+      "body": "# Review: weaving the grammar together\n\nA short argumentative paragraph can use almost everything from this set:\n\n> *En cuanto a la educación, **si** los gobiernos **invirtieran** más, los resultados **mejorarían**. **Sin embargo**, **aunque** se **gaste** más dinero, hace falta una buena gestión. Muchos expertos afirman que, **si** se **hubiera actuado** antes, hoy no **tendríamos** este problema. **Por lo tanto**, **se necesita** un plan a largo plazo.*\n\nNotice:\n\n- **si invirtieran → mejorarían** (second conditional, Lesson 1)\n- **si se hubiera actuado → tendríamos** (mixed conditional, Lesson 2)\n- **aunque se gaste** (concession + subjunctive, Lesson 3)\n- **se necesita** (pasiva refleja, Lesson 4)\n- formal connectors (this lesson)"
+    },
+    {
+      "id": "ex-match-connectors",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Match the connectors",
+      "exercise": {
+        "id": "ex-match-connectors",
+        "type": "matching",
+        "prompt": "Match each Spanish connector with its English meaning.",
+        "card_ids": ["es-b2-con-sinembargo", "es-b2-con-porlotanto", "es-b2-con-dadoque", "es-b2-con-encuantoa"],
+        "pairs": [
+          {"left": "sin embargo", "right": "however"},
+          {"left": "por lo tanto", "right": "therefore"},
+          {"left": "dado que", "right": "given that"},
+          {"left": "en cuanto a", "right": "regarding"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-consequence",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Express a consequence",
+      "exercise": {
+        "id": "ex-cloze-consequence",
+        "type": "cloze",
+        "prompt": "Fill in a 3-word connector meaning \"therefore\": \"No estudió; ___, suspendió.\"",
+        "card_ids": ["es-b2-con-porlotanto"],
+        "sentence": "No estudió; por lo ___, suspendió.",
+        "blanks": [{"accept": ["tanto"]}],
+        "cloze_mode": "type",
+        "hint": "por lo ___ = therefore."
+      }
+    },
+    {
+      "id": "ex-free-however",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Add a contrast",
+      "exercise": {
+        "id": "ex-free-however",
+        "type": "free_text",
+        "prompt": "Give a formal two-word connector meaning \"however\".",
+        "card_ids": ["es-b2-con-sinembargo"],
+        "accept": ["sin embargo", "Sin embargo", "no obstante", "No obstante"],
+        "distractors": ["por lo tanto", "dado que", "en cuanto a"],
+        "hint": "sin + e___ (or: no obstante).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-register",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Be formally polite",
+      "exercise": {
+        "id": "ex-tiles-register",
+        "type": "word_tiles",
+        "prompt": "Arrange the formal request: *Could you (usted) help me, please?*",
+        "card_ids": ["es-b2-reg-tu-usted"],
+        "tiles": ["¿Podría", "usted", "ayudarme,", "por favor?"],
+        "hint": "Formal = usted + conditional (podría).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-review-conditional",
+      "type": "exercise",
+      "theory_ref": "step-review",
+      "title": "Review: a second conditional",
+      "exercise": {
+        "id": "ex-free-review-conditional",
+        "type": "free_text",
+        "prompt": "Translate (review of Lesson 1): *If they invested more, the results would improve.* (invertir / mejorar)",
+        "card_ids": ["es-b2-con-porlotanto"],
+        "accept": ["Si invirtieran más, los resultados mejorarían.", "si invirtieran más, los resultados mejorarían", "Si invirtieran más, los resultados mejorarían.", "Si invirtiesen más, los resultados mejorarían."],
+        "distractors": ["Si invertirían más, los resultados mejorarían.", "Si invirtieran más, los resultados mejoraran.", "Si invierten más, los resultados mejorarían."],
+        "hint": "Si + imperfect subjunctive (invirtieran), conditional (mejorarían).",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

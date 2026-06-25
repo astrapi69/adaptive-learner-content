@@ -151,6 +151,31 @@ sets:
       - intermediate
       - grammar
       - everyday
+  - id: es-b2-from-en
+    title: Spanish B2 (for English speakers)
+    title_native: Español B2
+    target_language: es
+    source_language: en
+    level: B2
+    path: sets/en/es-b2
+    version: '1.0.0'
+    lesson_count: 5
+    domain: language
+    description: >-
+      Upper-intermediate Spanish for English speakers (5 lessons),
+      building on B1: the imperfect (past) subjunctive and
+      second-conditional si-clauses, the third conditional with the
+      condicional compuesto and pluscuamperfecto de subjuntivo, the
+      subjunctive in temporal, concessive and purpose clauses (cuando,
+      aunque, antes de que, a menos que, para que), the passive voice
+      (ser + participio), the pasiva refleja and estar + participio,
+      and a closing lesson on discourse connectors, register and text
+      production. Presupposes B1; mostly productive. Explanations in
+      English (schema v1.3).
+    tags:
+      - upper-intermediate
+      - grammar
+      - everyday
   - id: de-a1-from-en
     title: German A1 (for English speakers)
     title_native: Deutsch A1

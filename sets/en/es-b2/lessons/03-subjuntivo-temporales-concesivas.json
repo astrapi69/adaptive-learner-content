@@ -1,0 +1,170 @@
+{
+  "id": "es-b2-03-subjuntivo-temporales-concesivas",
+  "title": "Subjunctive in Adverbial Clauses",
+  "description": "Choose indicative or subjunctive after time, concession and purpose conjunctions: cuando, en cuanto, hasta que, aunque, antes de que, a menos que, para que.",
+  "target_language": "es",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 19,
+  "cards": [
+    {
+      "id": "es-b2-temp-cuando",
+      "front": "Cuando llegues, llámame.",
+      "back": "When you arrive, call me. (future → subjunctive)",
+      "notes": "A time clause about the **future/unknown** takes the subjunctive: *cuando **llegues***. Habitual or past → indicative: *Cuando **llego**, siempre…*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "temporal"]
+    },
+    {
+      "id": "es-b2-temp-encuanto",
+      "front": "en cuanto",
+      "back": "as soon as",
+      "notes": "*En cuanto **termine**, te aviso.* — As soon as I finish, I'll let you know (future → subjunctive).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "temporal"]
+    },
+    {
+      "id": "es-b2-temp-hastaque",
+      "front": "hasta que",
+      "back": "until",
+      "notes": "*Espera hasta que **vuelva**.* — Wait until I come back (future → subjunctive).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "temporal"]
+    },
+    {
+      "id": "es-b2-conc-aunque",
+      "front": "aunque venga / aunque viene",
+      "back": "even if he comes (subj.) vs. although he is coming (ind.)",
+      "notes": "**aunque + subjunctive** = even if (hypothetical); **aunque + indicative** = although (a known fact).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "subjuntivo", "concesiva"]
+    },
+    {
+      "id": "es-b2-antesdeque",
+      "front": "antes de que",
+      "back": "before (always + subjunctive)",
+      "notes": "*Antes de que **salgas**, cierra la puerta.* — *antes de que* **always** takes the subjunctive.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo"]
+    },
+    {
+      "id": "es-b2-amenosque",
+      "front": "a menos que",
+      "back": "unless (always + subjunctive)",
+      "notes": "*No iré a menos que me **invites**.* — I won't go unless you invite me.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo"]
+    },
+    {
+      "id": "es-b2-paraque",
+      "front": "para que",
+      "back": "so that (always + subjunctive)",
+      "notes": "Purpose with a change of subject → subjunctive: *Te lo explico **para que** lo **entiendas**.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjuntivo", "final"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Time clauses: future = subjunctive",
+      "body": "# Indicative or subjunctive?\n\nMany conjunctions can take **either** mood. The rule for **time** clauses:\n\n- Refers to the **future / something not yet real** → **subjunctive**\n- Refers to the **habitual or the past (a fact)** → **indicative**\n\n| Conjunction | Future (subj.) | Habitual/past (ind.) |\n|---|---|---|\n| cuando | Cuando **llegues**, llámame. | Cuando **llego**, como. |\n| en cuanto | En cuanto **termine**… | En cuanto **termino**… |\n| hasta que | Espera hasta que **vuelva**. | Esperé hasta que **volvió**. |\n\nEnglish hides this — *When you arrive* uses the present, but Spanish needs the **subjunctive** for the still-unreal future."
+    },
+    {
+      "id": "step-fixed",
+      "type": "theory",
+      "title": "Concession and the always-subjunctive group",
+      "body": "# aunque and the fixed triggers\n\n## aunque — even if vs. although\n\n- **aunque + subjunctive** = *even if* (hypothetical): *Aunque **llueva**, saldré.* — Even if it rains, I'll go out.\n- **aunque + indicative** = *although* (a fact): *Aunque **llueve**, salgo.* — Although it's raining, I go out.\n\n## Always subjunctive\n\nThese conjunctions **always** take the subjunctive (the action is unreal, anticipated or purpose-driven):\n\n- **antes de que** — before: *antes de que **salgas***\n- **a menos que** — unless: *a menos que me **invites***\n- **para que** — so that: *para que lo **entiendas***\n- **sin que** — without: *sin que lo **sepa***\n\nLearn this group as a fixed list."
+    },
+    {
+      "id": "ex-match-conj",
+      "type": "exercise",
+      "theory_ref": "step-fixed",
+      "title": "Match the conjunctions",
+      "exercise": {
+        "id": "ex-match-conj",
+        "type": "matching",
+        "prompt": "Match each Spanish conjunction with its English meaning.",
+        "card_ids": ["es-b2-temp-encuanto", "es-b2-temp-hastaque", "es-b2-antesdeque", "es-b2-amenosque"],
+        "pairs": [
+          {"left": "en cuanto", "right": "as soon as"},
+          {"left": "hasta que", "right": "until"},
+          {"left": "antes de que", "right": "before"},
+          {"left": "a menos que", "right": "unless"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-cuando",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Cuando + future",
+      "exercise": {
+        "id": "ex-cloze-cuando",
+        "type": "cloze",
+        "prompt": "Fill in the subjunctive of llegar (tú): \"When you arrive, call me.\"",
+        "card_ids": ["es-b2-temp-cuando"],
+        "sentence": "Cuando ___ a casa, llámame.",
+        "blanks": [{"accept": ["llegues"]}],
+        "cloze_mode": "type",
+        "hint": "Future reference after cuando → present subjunctive."
+      }
+    },
+    {
+      "id": "ex-cloze-antesdeque",
+      "type": "exercise",
+      "theory_ref": "step-fixed",
+      "title": "Always subjunctive",
+      "exercise": {
+        "id": "ex-cloze-antesdeque",
+        "type": "cloze",
+        "prompt": "Fill in the subjunctive of salir (tú): \"Before you leave, close the door.\"",
+        "card_ids": ["es-b2-antesdeque"],
+        "sentence": "Antes de que ___, cierra la puerta.",
+        "blanks": [{"accept": ["salgas"]}],
+        "cloze_mode": "type",
+        "hint": "antes de que always takes the subjunctive; salir (yo salgo) → salga-stem."
+      }
+    },
+    {
+      "id": "ex-free-aunque",
+      "type": "exercise",
+      "theory_ref": "step-fixed",
+      "title": "even if (hypothetical)",
+      "exercise": {
+        "id": "ex-free-aunque",
+        "type": "free_text",
+        "prompt": "Translate: *Even if it rains, I will go out.* (aunque + subjunctive of llover; salir → future)",
+        "card_ids": ["es-b2-conc-aunque"],
+        "accept": ["Aunque llueva, saldré.", "aunque llueva, saldré", "Aunque llueva, saldré.", "Aunque llueva saldré."],
+        "distractors": ["Aunque llueve, saldré.", "Aunque lloverá, saldré.", "Aunque llueva, salgo."],
+        "hint": "even if = aunque + subjunctive (llueva).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-paraque",
+      "type": "exercise",
+      "theory_ref": "step-fixed",
+      "title": "Purpose clause",
+      "exercise": {
+        "id": "ex-tiles-paraque",
+        "type": "word_tiles",
+        "prompt": "Arrange: *I'll explain it to you so that you understand it.*",
+        "card_ids": ["es-b2-paraque"],
+        "tiles": ["Te", "lo", "explico", "para", "que", "lo", "entiendas"],
+        "hint": "para que + subjunctive (entiendas).",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

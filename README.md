@@ -1,8 +1,8 @@
 # Adaptive Learner Content
 
-[![Sets](https://img.shields.io/badge/sets-29-0d9488)](#content-sets)
-[![Lessons](https://img.shields.io/badge/lessons-447-0d9488)](#content-sets)
-[![Cards](https://img.shields.io/badge/cards-5530-0d9488)](#content-sets)
+[![Sets](https://img.shields.io/badge/sets-30-0d9488)](#content-sets)
+[![Lessons](https://img.shields.io/badge/lessons-452-0d9488)](#content-sets)
+[![Cards](https://img.shields.io/badge/cards-5566-0d9488)](#content-sets)
 [![Languages](https://img.shields.io/badge/languages-10-0d9488)](#content-sets)
 [![Hours](https://img.shields.io/badge/~88h-learning%20content-0d9488)](#content-sets)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/license-CC--BY--SA--4.0-blue)](LICENSE)
@@ -11,13 +11,13 @@
 
 > **Kostenlose, offene Lerninhalte** für
 > [Adaptive Learner](https://astrapi69.github.io/adaptive-learner/) -
-> **29 Sets, 447 Lektionen, 5530 Karten** in 10 Sprachen.
+> **30 Sets, 452 Lektionen, 5566 Karten** in 10 Sprachen.
 > Sprachen lernen, KI verstehen, Ansible meistern.
 > Spaced-Repetition-optimiert, KI-validiert, CC-BY-SA-4.0.
 
 > Free, open **language- and knowledge-learning content** for
 > [Adaptive Learner](https://astrapi69.github.io/adaptive-learner/) -
-> **29 sets, 447 lessons, 5530 cards** across 10 languages.
+> **30 sets, 452 lessons, 5566 cards** across 10 languages.
 > Learn French, Spanish, English, Japanese, Korean, Chinese,
 > Italian, Portuguese - plus German, AI fundamentals and DevOps.
 > Spaced-repetition-ready, AI-validated, CC-BY-SA-4.0.
@@ -75,6 +75,7 @@ ls sets/
 | Spanisch A1 | EN→ES | A1 | 15 | 253 | Sprache | Review |
 | Spanisch A2 | EN→ES | A2 | 15 | 179 | Sprache | Review |
 | Spanisch B1 | EN→ES | B1 | 15 | 179 | Sprache | Review |
+| Spanisch B2 | EN→ES | B2 | 5 | 36 | Sprache | Review |
 | Deutsch A1 | EN→DE | A1 | 5 | 66 | Sprache | Review |
 | Deutsch A2 | EN→DE | A2 | 5 | 46 | Sprache | Review |
 | Englisch A1 | HI→EN | A1 | 10 | 120 | Sprache | Review |
@@ -85,7 +86,7 @@ ls sets/
 | IT-Grundlagen | DE | Einsteiger | 10 | 115 | Technik | Review |
 | Ansible QE | DE | B1 | 8 | 88 | DevOps | Review |
 
-**Gesamt: 29 Sets, 447 Lektionen, 5530 Karten, ~88 Stunden Lerninhalt in 10 Sprachen.**
+**Gesamt: 30 Sets, 452 Lektionen, 5566 Karten, ~88 Stunden Lerninhalt in 10 Sprachen.**
 
 > Sprachen / Languages: Deutsch, Englisch, Französisch, Spanisch,
 > Italienisch, Portugiesisch, Japanisch, Koreanisch, Chinesisch, Hindi.
