@@ -216,6 +216,29 @@ sets:
       - elementary
       - grammar
       - everyday
+  - id: fr-b1-from-en
+    title: French B1 (for English speakers)
+    title_native: Français B1
+    target_language: fr
+    source_language: en
+    level: B1
+    path: sets/en/fr-b1
+    version: '1.0.0'
+    lesson_count: 5
+    domain: language
+    description: >-
+      Intermediate French for English speakers (5 lessons), building on
+      A2: the present subjunctive (formation from the ils-stem, key
+      irregulars, and triggers like il faut que, vouloir que, bien que,
+      pour que), hypotheses with si + imparfait → conditionnel, the
+      plus-que-parfait, the relative pronouns qui/que/dont/où, and a
+      closing lesson on giving opinions, using connectors and short
+      text production. Presupposes A2; mostly productive. Explanations
+      in English (schema v1.3).
+    tags:
+      - intermediate
+      - grammar
+      - everyday
   - id: fr-a1-from-de
     title: Französisch A1 (für Deutschsprachige)
     title_native: Français A1

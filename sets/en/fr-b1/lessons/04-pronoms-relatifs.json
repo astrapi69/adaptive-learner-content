@@ -1,0 +1,186 @@
+{
+  "id": "fr-b1-04-pronoms-relatifs",
+  "title": "Relative Pronouns: qui, que, dont, où",
+  "description": "Join sentences smoothly with the relative pronouns qui (subject), que (object), dont (of which / whose) and où (where / when).",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 18,
+  "cards": [
+    {
+      "id": "fr-b1-qui",
+      "front": "qui",
+      "back": "who / which / that (subject of the relative clause)",
+      "notes": "*qui* is the **subject** and is followed by a verb: *l'homme **qui** parle*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "relative"]
+    },
+    {
+      "id": "fr-b1-que",
+      "front": "que",
+      "back": "whom / which / that (object of the relative clause)",
+      "notes": "*que* is the **object** and is followed by a subject + verb: *le livre **que** je lis*. Elides to *qu'* before a vowel.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "relative"]
+    },
+    {
+      "id": "fr-b1-dont",
+      "front": "dont",
+      "back": "of which / of whom / whose",
+      "notes": "Replaces **de + noun**: *le film **dont** je parle* (the film I'm talking about — *parler de*).",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "relative"]
+    },
+    {
+      "id": "fr-b1-ou",
+      "front": "où",
+      "back": "where / when (place or time)",
+      "notes": "For place and time: *la ville **où** j'habite*; *le jour **où** il est venu*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "relative"]
+    },
+    {
+      "id": "fr-b1-qui-example",
+      "front": "l'homme qui parle est mon père",
+      "back": "the man who is speaking is my father",
+      "notes": "*qui* = subject → directly followed by the verb *parle*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "relative", "example"]
+    },
+    {
+      "id": "fr-b1-que-example",
+      "front": "le livre que je lis",
+      "back": "the book (that) I am reading",
+      "notes": "*que* = object → followed by subject *je* + verb *lis*. English often drops 'that'; French never drops *que*.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "relative", "example"]
+    },
+    {
+      "id": "fr-b1-dont-example",
+      "front": "le film dont je parle",
+      "back": "the film (that) I'm talking about",
+      "notes": "*parler **de** quelque chose* → *dont* carries the *de*.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "relative", "example"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "qui vs. que",
+      "body": "# Relative pronouns join two ideas\n\nInstead of two short sentences, use a relative pronoun to link them.\n\n## qui = subject\n\n**qui** is the subject of its clause, so a **verb** follows directly:\n\n- *L'homme **qui** parle est mon père.* — The man **who** is speaking is my father.\n\n## que = object\n\n**que** is the object, so a **subject + verb** follow. It becomes **qu'** before a vowel:\n\n- *Le livre **que** je lis est intéressant.* — The book (**that**) I'm reading is interesting.\n\n> Tip: if a verb comes straight after, use **qui**; if a new subject comes after, use **que**. Unlike English, French **never** drops *que*."
+    },
+    {
+      "id": "step-dont-ou",
+      "type": "theory",
+      "title": "dont and où",
+      "body": "# dont and où\n\n## dont = de + …\n\n**dont** replaces a phrase with **de** (of/about/from), and also means **whose**:\n\n- *parler **de** ce film* → *le film **dont** je parle* (the film I'm talking about)\n- *la femme **dont** le fils est médecin* — the woman **whose** son is a doctor\n\n## où = where / when\n\n**où** covers both **place** and **time**:\n\n- *la ville **où** j'habite* — the city **where** I live\n- *le jour **où** il est arrivé* — the day **(when)** he arrived\n\nUse *où* for time expressions — French does not say *quand* here."
+    },
+    {
+      "id": "ex-match-relatives",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Match the relative pronouns",
+      "exercise": {
+        "id": "ex-match-relatives",
+        "type": "matching",
+        "prompt": "Match each relative pronoun with its use.",
+        "card_ids": ["fr-b1-qui", "fr-b1-que", "fr-b1-dont", "fr-b1-ou"],
+        "pairs": [
+          {"left": "qui", "right": "subject (a verb follows)"},
+          {"left": "que", "right": "object (subject + verb follow)"},
+          {"left": "dont", "right": "replaces de + … / whose"},
+          {"left": "où", "right": "place or time"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-qui",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Subject pronoun",
+      "exercise": {
+        "id": "ex-cloze-qui",
+        "type": "cloze",
+        "prompt": "Fill the gap: \"The man who is speaking is my father.\"",
+        "card_ids": ["fr-b1-qui", "fr-b1-qui-example"],
+        "sentence": "L'homme ___ parle est mon père.",
+        "blanks": [{"accept": ["qui"]}],
+        "cloze_mode": "type",
+        "hint": "A verb (parle) follows directly → subject pronoun."
+      }
+    },
+    {
+      "id": "ex-cloze-que",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Object pronoun",
+      "exercise": {
+        "id": "ex-cloze-que",
+        "type": "cloze",
+        "prompt": "Fill the gap: \"The book that I am reading is interesting.\"",
+        "card_ids": ["fr-b1-que", "fr-b1-que-example"],
+        "sentence": "Le livre ___ je lis est intéressant.",
+        "blanks": [{"accept": ["que", "qu'"]}],
+        "cloze_mode": "type",
+        "hint": "A subject (je) + verb (lis) follow → object pronoun."
+      }
+    },
+    {
+      "id": "ex-free-dont",
+      "type": "exercise",
+      "theory_ref": "step-dont-ou",
+      "title": "Use dont",
+      "exercise": {
+        "id": "ex-free-dont",
+        "type": "free_text",
+        "prompt": "Translate: *the film I'm talking about* (parler de → dont)",
+        "card_ids": ["fr-b1-dont", "fr-b1-dont-example"],
+        "accept": ["le film dont je parle", "Le film dont je parle", "le film dont je parle."],
+        "distractors": ["le film que je parle", "le film qui je parle", "le film où je parle"],
+        "hint": "parler DE → the relative pronoun that carries de.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-ou",
+      "type": "exercise",
+      "theory_ref": "step-dont-ou",
+      "title": "Build with où",
+      "exercise": {
+        "id": "ex-tiles-ou",
+        "type": "word_tiles",
+        "prompt": "Arrange: *the city where I live*",
+        "card_ids": ["fr-b1-ou"],
+        "tiles": ["la", "ville", "où", "j'habite"],
+        "hint": "Place → où.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-day-when",
+      "type": "exercise",
+      "theory_ref": "step-dont-ou",
+      "title": "où for time",
+      "exercise": {
+        "id": "ex-free-day-when",
+        "type": "free_text",
+        "prompt": "Which relative pronoun fills the gap: \"le jour ___ il est arrivé\" (the day when he arrived)?",
+        "card_ids": ["fr-b1-ou"],
+        "accept": ["où", "ou"],
+        "distractors": ["quand", "que", "dont"],
+        "hint": "French uses the place/time pronoun here, not *quand*.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

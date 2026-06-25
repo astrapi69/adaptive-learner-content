@@ -1,0 +1,186 @@
+{
+  "id": "fr-b1-05-opinion-connecteurs-revision",
+  "title": "Opinions, Connectors & Review",
+  "description": "Give and justify your opinion, link ideas with connectors (cependant, donc, parce que), and review the B1 grammar in short text production.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 18,
+  "cards": [
+    {
+      "id": "fr-b1-je-pense-que",
+      "front": "Je pense que…",
+      "back": "I think that… (+ indicative)",
+      "notes": "Affirmative opinion takes the **indicative**: *Je pense qu'il a raison.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["opinion"]
+    },
+    {
+      "id": "fr-b1-a-mon-avis",
+      "front": "À mon avis",
+      "back": "In my opinion",
+      "notes": "A natural way to open an opinion: *À mon avis, c'est une bonne idée.*",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["opinion"]
+    },
+    {
+      "id": "fr-b1-je-ne-pense-pas",
+      "front": "Je ne pense pas que… (+ subjonctif)",
+      "back": "I don't think that… (+ subjunctive)",
+      "notes": "**Negated** opinion triggers the subjunctive: *Je ne pense pas qu'il **ait** raison.*",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["opinion", "subjonctif"]
+    },
+    {
+      "id": "fr-b1-parce-que",
+      "front": "parce que",
+      "back": "because",
+      "notes": "Gives a reason: *Je reste **parce que** j'ai du travail.*",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["connector"]
+    },
+    {
+      "id": "fr-b1-cependant",
+      "front": "cependant",
+      "back": "however / nevertheless",
+      "notes": "Introduces a contrast: *C'est cher; **cependant**, c'est utile.*",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["connector"]
+    },
+    {
+      "id": "fr-b1-donc",
+      "front": "donc",
+      "back": "so / therefore",
+      "notes": "Introduces a consequence: *Il pleut, **donc** je reste.*",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["connector"]
+    },
+    {
+      "id": "fr-b1-d-abord-ensuite",
+      "front": "d'abord… ensuite… enfin",
+      "back": "first… then… finally",
+      "notes": "Sequencing connectors for structuring a text.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["connector", "sequence"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Giving an opinion",
+      "body": "# Expressing and justifying opinions\n\nOpen with a phrase, then justify with a connector:\n\n- **À mon avis**, … — In my opinion, …\n- **Je pense que** / **Je crois que** … — I think / believe that … (+ **indicative**)\n- **Je trouve que** … — I find that …\n\n## A subtle B1 point\n\nWhen the opinion verb is **negative** or a **question**, the doubt triggers the **subjunctive**:\n\n- *Je pense qu'il **a** raison.* (indicative — I'm asserting)\n- *Je ne pense pas qu'il **ait** raison.* (subjunctive — I'm doubting)\n\nThis links back to Lesson 1: doubt → subjunctive."
+    },
+    {
+      "id": "step-connectors",
+      "type": "theory",
+      "title": "Linking your ideas",
+      "body": "# Connectors\n\nGood B1 writing links ideas instead of listing them:\n\n| Connector | Meaning | Use |\n|---|---|---|\n| **parce que** | because | a reason |\n| **donc** | so / therefore | a consequence |\n| **cependant / pourtant** | however | a contrast |\n| **d'abord / ensuite / enfin** | first / then / finally | sequence |\n\n*Il pleut, **donc** je reste à la maison; **cependant**, je sortirai ce soir.*\n\n## Review\n\nCombine everything: *Je pense que ce film, **dont** tout le monde parle, est excellent. **Si** j'avais le temps, je le **reverrais**. Il faut absolument que tu le **voies**!* — note the relative *dont*, the *si* + conditional, and the subjunctive *voies*."
+    },
+    {
+      "id": "ex-match-connectors",
+      "type": "exercise",
+      "theory_ref": "step-connectors",
+      "title": "Match the connectors",
+      "exercise": {
+        "id": "ex-match-connectors",
+        "type": "matching",
+        "prompt": "Match each French connector with its English meaning.",
+        "card_ids": ["fr-b1-parce-que", "fr-b1-cependant", "fr-b1-donc", "fr-b1-a-mon-avis"],
+        "pairs": [
+          {"left": "parce que", "right": "because"},
+          {"left": "cependant", "right": "however"},
+          {"left": "donc", "right": "so / therefore"},
+          {"left": "à mon avis", "right": "in my opinion"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-donc",
+      "type": "exercise",
+      "theory_ref": "step-connectors",
+      "title": "Express a consequence",
+      "exercise": {
+        "id": "ex-cloze-donc",
+        "type": "cloze",
+        "prompt": "Fill the connector: \"It's raining, so I'm staying home.\"",
+        "card_ids": ["fr-b1-donc"],
+        "sentence": "Il pleut, ___ je reste à la maison.",
+        "blanks": [{"accept": ["donc"]}],
+        "cloze_mode": "type",
+        "hint": "Consequence connector (therefore)."
+      }
+    },
+    {
+      "id": "ex-cloze-ne-pense-pas",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Negative opinion → subjunctive",
+      "exercise": {
+        "id": "ex-cloze-ne-pense-pas",
+        "type": "cloze",
+        "prompt": "Fill in the subjunctive of avoir: \"I don't think he is right.\"",
+        "card_ids": ["fr-b1-je-ne-pense-pas"],
+        "sentence": "Je ne pense pas qu'il ___ raison.",
+        "blanks": [{"accept": ["ait"]}],
+        "cloze_mode": "type",
+        "hint": "Negated opinion → subjunctive; avoir, il-form: ait."
+      }
+    },
+    {
+      "id": "ex-free-in-my-opinion",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Open an opinion",
+      "exercise": {
+        "id": "ex-free-in-my-opinion",
+        "type": "free_text",
+        "prompt": "Translate the opener: *In my opinion, …*",
+        "card_ids": ["fr-b1-a-mon-avis"],
+        "accept": ["À mon avis", "à mon avis", "A mon avis", "À mon avis,"],
+        "distractors": ["Je suis avis", "Dans mon avis", "À ma opinion"],
+        "hint": "Three words: à + mon + avis.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-because",
+      "type": "exercise",
+      "theory_ref": "step-connectors",
+      "title": "Justify with parce que",
+      "exercise": {
+        "id": "ex-tiles-because",
+        "type": "word_tiles",
+        "prompt": "Arrange: *I think (that) the film is good because it is interesting.*",
+        "card_ids": ["fr-b1-je-pense-que", "fr-b1-parce-que"],
+        "tiles": ["Je", "pense", "que", "le film", "est", "bon", "parce qu'il", "est", "intéressant"],
+        "hint": "Je pense que + indicative, then parce que + reason.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-review-si",
+      "type": "exercise",
+      "theory_ref": "step-connectors",
+      "title": "Review: a hypothesis",
+      "exercise": {
+        "id": "ex-free-review-si",
+        "type": "free_text",
+        "prompt": "Translate (review of Lesson 2): *If I had time, I would read it.*",
+        "card_ids": ["fr-b1-je-pense-que"],
+        "accept": ["Si j'avais le temps, je le lirais.", "si j'avais le temps, je le lirais", "Si j'avais le temps, je le lirais"],
+        "distractors": ["Si j'aurais le temps, je le lirais.", "Si j'avais le temps, je le lis.", "Si j'ai le temps, je le lirais."],
+        "hint": "Si + imparfait (avais), conditional (lirais).",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

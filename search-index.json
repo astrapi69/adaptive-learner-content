@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/adaptive-learner-content",
-  "generated": "2026-06-25T13:50:24Z",
+  "generated": "2026-06-25T13:55:02Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -181,6 +181,26 @@
       "trust_level": 3,
       "book": null,
       "updated_at": "2026-06-16T18:17:56+02:00"
+    },
+    {
+      "id": "fr-b1-from-en",
+      "name": "French B1 (for English speakers)",
+      "description": "Intermediate French for English speakers (5 lessons), building on A2: the present subjunctive (formation from the ils-stem, key irregulars, and triggers like il faut que, vouloir que, bien que, pour que), hypotheses with si + imparfait → conditionnel, the plus-que-parfait, the relative pronouns qui/que/dont/où, and a closing lesson on giving opinions, using connectors and short text production. Presupposes A2; mostly productive. Explanations in English (schema v1.3).",
+      "source_language": "en",
+      "target_language": "fr",
+      "level": "b1",
+      "domain": "language",
+      "lesson_count": 5,
+      "card_count": 37,
+      "tags": [
+        "intermediate",
+        "grammar",
+        "everyday"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-25T13:54:56+00:00"
     },
     {
       "id": "fr-a1-from-de",
@@ -570,6 +590,6 @@
       "updated_at": "2026-06-19T16:24:13+02:00"
     }
   ],
-  "total_lessons": 442,
-  "total_cards": 5493
+  "total_lessons": 447,
+  "total_cards": 5530
 }

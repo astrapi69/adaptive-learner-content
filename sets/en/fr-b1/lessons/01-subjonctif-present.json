@@ -1,0 +1,204 @@
+{
+  "id": "fr-b1-01-subjonctif-present",
+  "title": "The Present Subjunctive",
+  "description": "Form the present subjunctive from the ils-stem, learn the key irregular verbs, and use it after triggers like il faut que, vouloir que, bien que and pour que.",
+  "target_language": "fr",
+  "source_language": "en",
+  "domain": "language",
+  "estimated_minutes": 20,
+  "cards": [
+    {
+      "id": "fr-b1-sub-rule",
+      "front": "ils parlent → que je parle",
+      "back": "build the subjunctive from the ils-form: drop -ent, add -e, -es, -e, -ions, -iez, -ent",
+      "notes": "Take the **ils** present form (*parlent*, *finissent*, *vendent*), drop **-ent**, and add the subjunctive endings.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjonctif"]
+    },
+    {
+      "id": "fr-b1-sub-endings",
+      "front": "-e, -es, -e, -ions, -iez, -ent",
+      "back": "the present-subjunctive endings (all regular verbs)",
+      "notes": "Nous/vous look like the imparfait (*que nous parlions*, *que vous parliez*).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "subjonctif"]
+    },
+    {
+      "id": "fr-b1-sub-faire",
+      "front": "que je fasse",
+      "back": "(that) I do / make — subjunctive of faire",
+      "notes": "Irregular stem **fass-**: que je fasse, que tu fasses, qu'il fasse…",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjonctif", "irregular"]
+    },
+    {
+      "id": "fr-b1-sub-aller",
+      "front": "que j'aille",
+      "back": "(that) I go — subjunctive of aller",
+      "notes": "Irregular: aille, ailles, aille, **allions, alliez**, aillent.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjonctif", "irregular"]
+    },
+    {
+      "id": "fr-b1-sub-etre-avoir",
+      "front": "que je sois / que j'aie",
+      "back": "subjunctive of être (sois) and avoir (aie)",
+      "notes": "être: sois, sois, soit, soyons, soyez, soient. avoir: aie, aies, ait, ayons, ayez, aient.",
+      "media_type": "text",
+      "difficulty": 4,
+      "tags": ["grammar", "subjonctif", "irregular"]
+    },
+    {
+      "id": "fr-b1-il-faut-que",
+      "front": "Il faut que",
+      "back": "It is necessary that… (+ subjunctive)",
+      "notes": "The classic trigger: *Il faut que je parte.* — I have to leave.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grammar", "subjonctif", "trigger"]
+    },
+    {
+      "id": "fr-b1-vouloir-que",
+      "front": "Je veux que tu viennes.",
+      "back": "I want you to come.",
+      "notes": "*vouloir que* + subjunctive when the subject changes. No infinitive as in English.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjonctif", "trigger"]
+    },
+    {
+      "id": "fr-b1-bien-que",
+      "front": "bien que",
+      "back": "although (+ subjunctive)",
+      "notes": "*Bien qu'il soit fatigué, il travaille.* — Although he is tired, he works.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjonctif", "trigger"]
+    },
+    {
+      "id": "fr-b1-pour-que",
+      "front": "pour que",
+      "back": "so that (+ subjunctive)",
+      "notes": "*Je t'explique pour que tu comprennes.* — I explain so that you understand.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grammar", "subjonctif", "trigger"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Forming the present subjunctive",
+      "body": "# The present subjunctive\n\nThe subjunctive is a **mood** for what is wished, required, doubted or emotional — not a plain statement of fact.\n\n## The rule: start from the ils-form\n\n1. Take the **ils** present form: *parler → parlent*, *finir → finissent*, *vendre → vendent*.\n2. Drop **-ent**.\n3. Add the endings:\n\n| | parler | finir |\n|---|---|---|\n| que je | parle | finisse |\n| que tu | parles | finisses |\n| qu'il/elle | parle | finisse |\n| que nous | parlions | finissions |\n| que vous | parliez | finissiez |\n| qu'ils | parlent | finissent |\n\n> *nous/vous* look exactly like the **imparfait**: *que nous parlions*."
+    },
+    {
+      "id": "step-irregulars",
+      "type": "theory",
+      "title": "Irregular verbs and triggers",
+      "body": "# Irregular subjunctives\n\nLearn these by heart:\n\n| Verb | Subjunctive |\n|---|---|\n| faire | **fasse** |\n| aller | **aille** (but allions, alliez) |\n| être | **sois**, soit, soyons, soient |\n| avoir | **aie**, ait, ayons, aient |\n| pouvoir | **puisse** |\n| savoir | **sache** |\n\n## When to use it — the triggers\n\nThe subjunctive appears in a **que-clause** after expressions of necessity, will, emotion or concession:\n\n- **Il faut que** je parte. — I have to leave.\n- **Je veux que** tu viennes. — I want you to come.\n- **Bien qu'**il soit tard, … — Although it is late, …\n- **Pour que** tu comprennes, … — So that you understand, …\n\nKey: with **a change of subject**, French uses *que* + subjunctive where English often uses an infinitive (*I want you **to come*** → *Je veux que tu **viennes***)."
+    },
+    {
+      "id": "ex-match-irregulars",
+      "type": "exercise",
+      "theory_ref": "step-irregulars",
+      "title": "Match the irregular subjunctives",
+      "exercise": {
+        "id": "ex-match-irregulars",
+        "type": "matching",
+        "prompt": "Match each infinitive with its (irregular) je-subjunctive form.",
+        "card_ids": ["fr-b1-sub-faire", "fr-b1-sub-aller", "fr-b1-sub-etre-avoir"],
+        "pairs": [
+          {"left": "faire", "right": "que je fasse"},
+          {"left": "aller", "right": "que j'aille"},
+          {"left": "être", "right": "que je sois"},
+          {"left": "avoir", "right": "que j'aie"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-il-faut",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "After il faut que",
+      "exercise": {
+        "id": "ex-cloze-il-faut",
+        "type": "cloze",
+        "prompt": "Fill in the subjunctive of partir (je): \"It is necessary that I leave.\"",
+        "card_ids": ["fr-b1-il-faut-que"],
+        "sentence": "Il faut que je ___ maintenant.",
+        "blanks": [{"accept": ["parte"]}],
+        "cloze_mode": "type",
+        "hint": "ils partent → drop -ent → part- + e."
+      }
+    },
+    {
+      "id": "ex-free-want-you-come",
+      "type": "exercise",
+      "theory_ref": "step-irregulars",
+      "title": "The change-of-subject trap",
+      "exercise": {
+        "id": "ex-free-want-you-come",
+        "type": "free_text",
+        "prompt": "Translate: *I want you to come.* (change of subject → que + subjunctive)",
+        "card_ids": ["fr-b1-vouloir-que"],
+        "accept": ["Je veux que tu viennes.", "je veux que tu viennes", "Je veux que tu viennes"],
+        "distractors": ["Je veux que tu viens.", "Je te veux venir.", "Je veux toi venir."],
+        "hint": "vouloir que + subjunctive; venir → viennes (tu).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-bien-que",
+      "type": "exercise",
+      "theory_ref": "step-irregulars",
+      "title": "Concession with bien que",
+      "exercise": {
+        "id": "ex-cloze-bien-que",
+        "type": "cloze",
+        "prompt": "Fill in the subjunctive of être (il): \"Although he is tired, he works.\"",
+        "card_ids": ["fr-b1-bien-que", "fr-b1-sub-etre-avoir"],
+        "sentence": "Bien qu'il ___ fatigué, il travaille.",
+        "blanks": [{"accept": ["soit"]}],
+        "cloze_mode": "type",
+        "hint": "être subjunctive, il-form: soit."
+      }
+    },
+    {
+      "id": "ex-tiles-pour-que",
+      "type": "exercise",
+      "theory_ref": "step-irregulars",
+      "title": "Build a purpose clause",
+      "exercise": {
+        "id": "ex-tiles-pour-que",
+        "type": "word_tiles",
+        "prompt": "Arrange: *I explain so that you understand.* (pour que + subjunctive)",
+        "card_ids": ["fr-b1-pour-que"],
+        "tiles": ["J'explique", "pour", "que", "tu", "comprennes"],
+        "hint": "pour que + tu + subjunctive of comprendre (comprennes).",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-free-must-do-it",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Necessity + faire",
+      "exercise": {
+        "id": "ex-free-must-do-it",
+        "type": "free_text",
+        "prompt": "Translate: *I have to do it.* (Il faut que… + faire, je)",
+        "card_ids": ["fr-b1-il-faut-que", "fr-b1-sub-faire"],
+        "accept": ["Il faut que je le fasse.", "il faut que je le fasse", "Il faut que je le fasse"],
+        "distractors": ["Il faut que je le fais.", "Il faut que je le faire.", "Je dois que le fasse."],
+        "hint": "Il faut que + je + le + subjunctive of faire (fasse).",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
