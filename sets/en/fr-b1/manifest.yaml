@@ -1,0 +1,46 @@
+# French B1 (for English speakers) — set manifest.
+#
+# Intermediate French content explained in English (source = en,
+# target = fr), building on the fr-a2 set. The Content-Loader reads
+# ``metadata.lessons`` for the lesson filename list.
+schema_version: '1.3'
+name: French B1 (for English speakers)
+description: >-
+  Five intermediate lessons of French for English speakers, building on
+  A2: the present subjunctive and its triggers, hypotheses with
+  si + imparfait and the conditional, the plus-que-parfait, the relative
+  pronouns qui/que/dont/où, and a closing lesson on opinions, connectors
+  and text production.
+sets:
+  - id: fr-b1-from-en
+    title: French B1 (for English speakers)
+    title_native: Français B1
+    target_language: fr
+    source_language: en
+    level: B1
+    path: sets/en/fr-b1
+    version: '1.0.0'
+    lesson_count: 5
+    domain: language
+    description: >-
+      Intermediate French for English speakers (5 lessons), building on
+      A2: the present subjunctive (formation from the ils-stem, key
+      irregulars, and triggers like il faut que, vouloir que, bien que,
+      pour que), hypotheses with si + imparfait → conditionnel, the
+      plus-que-parfait, the relative pronouns qui/que/dont/où, and a
+      closing lesson on giving opinions, using connectors and short
+      text production. Presupposes A2; mostly productive. Explanations
+      in English (schema v1.3).
+    tags:
+      - intermediate
+      - grammar
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-subjonctif-present.json
+    - 02-hypothese-conditionnel.json
+    - 03-plus-que-parfait.json
+    - 04-pronoms-relatifs.json
+    - 05-opinion-connecteurs-revision.json
