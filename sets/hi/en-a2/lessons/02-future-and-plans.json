@@ -1,0 +1,170 @@
+{
+  "id": "02-future-and-plans",
+  "title": "Talking About the Future",
+  "description": "Make predictions and plans in English with will and going to, plus useful time words for the future.",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "en-a2-will",
+      "front": "will",
+      "back": "गा / गी / गे (भविष्य)",
+      "notes": "*will* + base verb for predictions and decisions: *I will help you.*",
+      "tags": ["future"]
+    },
+    {
+      "id": "en-a2-going-to",
+      "front": "going to",
+      "back": "वाला/वाली है (योजना)",
+      "notes": "*be going to* + base verb for plans: *I am going to study.*",
+      "tags": ["future", "plan"]
+    },
+    {
+      "id": "en-a2-wont",
+      "front": "won't",
+      "back": "नहीं करेगा (will not)",
+      "notes": "*will not* → won't. *I won't be late.*",
+      "tags": ["future", "negative"]
+    },
+    {
+      "id": "en-a2-tomorrow",
+      "front": "tomorrow",
+      "back": "कल (आने वाला)",
+      "notes": "A common future time word.",
+      "tags": ["time"]
+    },
+    {
+      "id": "en-a2-next-week",
+      "front": "next week",
+      "back": "अगले हफ़्ते",
+      "notes": "Also: *next month*, *next year*.",
+      "tags": ["time"]
+    },
+    {
+      "id": "en-a2-i-will-help",
+      "front": "I will help you.",
+      "back": "मैं तुम्हारी मदद करूँगा।",
+      "notes": "*will* + base verb (*help*).",
+      "tags": ["future", "example"]
+    },
+    {
+      "id": "en-a2-going-to-study",
+      "front": "I am going to study tonight.",
+      "back": "मैं आज रात पढ़ने वाला हूँ।",
+      "notes": "A planned action → *going to*.",
+      "tags": ["future", "example"]
+    },
+    {
+      "id": "en-a2-will-it-rain",
+      "front": "Will it rain tomorrow?",
+      "back": "क्या कल बारिश होगी?",
+      "notes": "Question: **Will** + subject + base verb.",
+      "tags": ["future", "question"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l2-future-theory",
+      "type": "theory",
+      "title": "will and going to",
+      "body": "# Two ways to talk about the future\n\n## will + base verb\n\nUse **will** for predictions and quick decisions:\n\n- *I **will help** you.* (मैं मदद करूँगा।)\n- *It **will rain** tomorrow.*\n\nNegative: **won't** (= will not). Question: **Will** you help?\n\n## be going to + base verb\n\nUse **going to** for plans you have already decided:\n\n- *I **am going to study** tonight.* (मैं पढ़ने वाला हूँ।)\n- *We **are going to travel** next week.*\n\n## Rule of thumb\n\n- Decision now / prediction → **will**\n- Plan already made → **going to**\n\nAfter both, the main verb is always the **base** form (*help*, *study*), never *helps* or *studied*."
+    },
+    {
+      "id": "l2-ex-match-future",
+      "type": "exercise",
+      "theory_ref": "l2-future-theory",
+      "title": "Match the future words",
+      "exercise": {
+        "id": "l2-ex-match-future",
+        "type": "matching",
+        "prompt": "Match each English word with its Hindi meaning.",
+        "card_ids": ["en-a2-will", "en-a2-going-to", "en-a2-tomorrow", "en-a2-next-week"],
+        "pairs": [
+          {"left": "will", "right": "गा / गी / गे (भविष्य)"},
+          {"left": "going to", "right": "वाला/वाली है (योजना)"},
+          {"left": "tomorrow", "right": "कल (आने वाला)"},
+          {"left": "next week", "right": "अगले हफ़्ते"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l2-ex-cloze-will",
+      "type": "exercise",
+      "theory_ref": "l2-future-theory",
+      "title": "Make a promise with will",
+      "exercise": {
+        "id": "l2-ex-cloze-will",
+        "type": "cloze",
+        "prompt": "Complete: \"I ___ help you.\" (a decision now)",
+        "card_ids": ["en-a2-will", "en-a2-i-will-help"],
+        "sentence": "I ___ help you.",
+        "blanks": [{"accept": ["will", "'ll"]}],
+        "cloze_mode": "type",
+        "hint": "Use the word for a quick decision; then the base verb *help*."
+      }
+    },
+    {
+      "id": "l2-ex-tiles-going-to",
+      "type": "exercise",
+      "theory_ref": "l2-future-theory",
+      "title": "Build a plan",
+      "exercise": {
+        "id": "l2-ex-tiles-going-to",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: मैं आज रात पढ़ने वाला हूँ। (I am going to study tonight.)",
+        "card_ids": ["en-a2-going-to-study"],
+        "tiles": ["I", "am", "going", "to", "study", "tonight"],
+        "hint": "am + going to + base verb, then the time word.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l2-ex-free-tomorrow",
+      "type": "exercise",
+      "theory_ref": "l2-future-theory",
+      "title": "Say \"tomorrow\"",
+      "exercise": {
+        "id": "l2-ex-free-tomorrow",
+        "type": "free_text",
+        "prompt": "How do you say \"कल (आने वाला)\" in English?",
+        "card_ids": ["en-a2-tomorrow"],
+        "accept": ["tomorrow", "Tomorrow"],
+        "distractors": ["yesterday", "today", "now"],
+        "hint": "The day after today.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l2-ex-cloze-question",
+      "type": "exercise",
+      "theory_ref": "l2-future-theory",
+      "title": "Ask about the future",
+      "exercise": {
+        "id": "l2-ex-cloze-question",
+        "type": "cloze",
+        "prompt": "Complete the question: \"___ it rain tomorrow?\"",
+        "card_ids": ["en-a2-will-it-rain"],
+        "sentence": "___ it rain tomorrow?",
+        "blanks": [{"accept": ["Will", "will"]}],
+        "cloze_mode": "type",
+        "hint": "Future question word for a prediction."
+      }
+    },
+    {
+      "id": "l2-ex-free-wont",
+      "type": "exercise",
+      "theory_ref": "l2-future-theory",
+      "title": "The negative of will",
+      "exercise": {
+        "id": "l2-ex-free-wont",
+        "type": "free_text",
+        "prompt": "Write the short form of \"will not\".",
+        "card_ids": ["en-a2-wont"],
+        "accept": ["won't", "wont", "will not"],
+        "distractors": ["don't", "didn't", "isn't"],
+        "hint": "Five letters with an apostrophe.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

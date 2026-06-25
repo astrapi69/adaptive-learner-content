@@ -1,0 +1,183 @@
+{
+  "id": "03-comparatives-and-superlatives",
+  "title": "Comparatives & Superlatives",
+  "description": "Compare things in English: bigger than, more expensive than, and the biggest of all.",
+  "estimated_minutes": 15,
+  "cards": [
+    {
+      "id": "en-a2-bigger",
+      "front": "bigger",
+      "back": "अधिक बड़ा",
+      "notes": "Short adjective: big → **bigger** (double the g, add -er).",
+      "tags": ["comparative"]
+    },
+    {
+      "id": "en-a2-cheaper",
+      "front": "cheaper",
+      "back": "सस्ता (अधिक सस्ता)",
+      "notes": "cheap → **cheaper** (add -er).",
+      "tags": ["comparative"]
+    },
+    {
+      "id": "en-a2-more-expensive",
+      "front": "more expensive",
+      "back": "अधिक महँगा",
+      "notes": "Long adjective: use **more** + adjective, not -er.",
+      "tags": ["comparative"]
+    },
+    {
+      "id": "en-a2-better",
+      "front": "better",
+      "back": "बेहतर",
+      "notes": "Irregular: good → **better**.",
+      "tags": ["comparative", "irregular"]
+    },
+    {
+      "id": "en-a2-than",
+      "front": "than",
+      "back": "से (तुलना में)",
+      "notes": "Joins the two things compared: *bigger **than** that*.",
+      "tags": ["comparative"]
+    },
+    {
+      "id": "en-a2-biggest",
+      "front": "the biggest",
+      "back": "सबसे बड़ा",
+      "notes": "Superlative of short adjectives: **the** + adjective + **-est**.",
+      "tags": ["superlative"]
+    },
+    {
+      "id": "en-a2-most-expensive",
+      "front": "the most expensive",
+      "back": "सबसे महँगा",
+      "notes": "Superlative of long adjectives: **the most** + adjective.",
+      "tags": ["superlative"]
+    },
+    {
+      "id": "en-a2-best",
+      "front": "the best",
+      "back": "सबसे अच्छा",
+      "notes": "Irregular superlative of *good*.",
+      "tags": ["superlative", "irregular"]
+    },
+    {
+      "id": "en-a2-bigger-than",
+      "front": "This house is bigger than that one.",
+      "back": "यह घर उस घर से बड़ा है।",
+      "notes": "comparative + **than** + the second thing.",
+      "tags": ["comparative", "example"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l3-comp-theory",
+      "type": "theory",
+      "title": "Comparing two things",
+      "body": "# Comparatives: comparing two things\n\n**Short adjectives** (1 syllable): add **-er** + **than**.\n\n- big → **bigger than**  ·  cheap → **cheaper than**  ·  old → **older than**\n\n**Long adjectives** (2+ syllables): use **more** + adjective + **than**.\n\n- expensive → **more expensive than**  ·  beautiful → **more beautiful than**\n\n**Irregular:** good → **better**, bad → **worse**.\n\n> *This house is **bigger than** that one.* (यह घर उससे बड़ा है।)\n\nThe word **than** (से) connects the two things you compare."
+    },
+    {
+      "id": "l3-super-theory",
+      "type": "theory",
+      "title": "The most of all (superlatives)",
+      "body": "# Superlatives: the most of all\n\nUse **the** with the superlative when one thing is top of the group.\n\n**Short adjectives:** the + adjective + **-est**\n\n- big → **the biggest**  ·  cheap → **the cheapest**\n\n**Long adjectives:** **the most** + adjective\n\n- expensive → **the most expensive**  ·  beautiful → **the most beautiful**\n\n**Irregular:** good → **the best**, bad → **the worst**.\n\n> *This is **the biggest** house in the village.* (सबसे बड़ा घर)\n\nDon't forget **the** before a superlative."
+    },
+    {
+      "id": "l3-ex-match-comp",
+      "type": "exercise",
+      "theory_ref": "l3-comp-theory",
+      "title": "Match the comparatives",
+      "exercise": {
+        "id": "l3-ex-match-comp",
+        "type": "matching",
+        "prompt": "Match each English form with its Hindi meaning.",
+        "card_ids": ["en-a2-bigger", "en-a2-more-expensive", "en-a2-better", "en-a2-biggest"],
+        "pairs": [
+          {"left": "bigger", "right": "अधिक बड़ा"},
+          {"left": "more expensive", "right": "अधिक महँगा"},
+          {"left": "better", "right": "बेहतर"},
+          {"left": "the biggest", "right": "सबसे बड़ा"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l3-ex-cloze-than",
+      "type": "exercise",
+      "theory_ref": "l3-comp-theory",
+      "title": "Complete the comparison",
+      "exercise": {
+        "id": "l3-ex-cloze-than",
+        "type": "cloze",
+        "prompt": "Complete: \"This house is bigger ___ that one.\"",
+        "card_ids": ["en-a2-than", "en-a2-bigger-than"],
+        "sentence": "This house is bigger ___ that one.",
+        "blanks": [{"accept": ["than"]}],
+        "cloze_mode": "type",
+        "hint": "The word that joins two compared things (से)."
+      }
+    },
+    {
+      "id": "l3-ex-cloze-superlative",
+      "type": "exercise",
+      "theory_ref": "l3-super-theory",
+      "title": "Form the superlative",
+      "exercise": {
+        "id": "l3-ex-cloze-superlative",
+        "type": "cloze",
+        "prompt": "Complete: \"Mount Everest is the ___ mountain in the world.\" (high)",
+        "card_ids": ["en-a2-biggest"],
+        "sentence": "Mount Everest is the ___ mountain in the world.",
+        "blanks": [{"accept": ["highest"]}],
+        "cloze_mode": "type",
+        "hint": "Short adjective high → the + high + -est."
+      }
+    },
+    {
+      "id": "l3-ex-free-more-expensive",
+      "type": "exercise",
+      "theory_ref": "l3-comp-theory",
+      "title": "Compare a long adjective",
+      "exercise": {
+        "id": "l3-ex-free-more-expensive",
+        "type": "free_text",
+        "prompt": "Make the comparative of \"expensive\" (a long adjective).",
+        "card_ids": ["en-a2-more-expensive"],
+        "accept": ["more expensive", "more expensive than"],
+        "distractors": ["expensiver", "most expensive", "expensivest"],
+        "hint": "Long adjectives use a word before them, not -er.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l3-ex-tiles-comp",
+      "type": "exercise",
+      "theory_ref": "l3-comp-theory",
+      "title": "Build a comparison",
+      "exercise": {
+        "id": "l3-ex-tiles-comp",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: ट्रेन बस से तेज़ है। (The train is faster than the bus.)",
+        "card_ids": ["en-a2-than"],
+        "tiles": ["The", "train", "is", "faster", "than", "the", "bus"],
+        "hint": "comparative (faster) + than + second thing.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l3-ex-free-best",
+      "type": "exercise",
+      "theory_ref": "l3-super-theory",
+      "title": "The irregular best",
+      "exercise": {
+        "id": "l3-ex-free-best",
+        "type": "free_text",
+        "prompt": "What is the superlative of \"good\"? (with \"the\")",
+        "card_ids": ["en-a2-best"],
+        "accept": ["the best", "best"],
+        "distractors": ["the goodest", "the better", "the most good"],
+        "hint": "good → better → ?",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

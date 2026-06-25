@@ -1,0 +1,190 @@
+{
+  "id": "01-past-simple",
+  "title": "The Past Simple",
+  "description": "Talk about finished actions in English with the past simple — regular -ed verbs, common irregular verbs, and questions and negatives with did.",
+  "estimated_minutes": 16,
+  "cards": [
+    {
+      "id": "en-a2-played",
+      "front": "played",
+      "back": "खेला",
+      "notes": "Regular past of *play*: add **-ed**.",
+      "tags": ["past", "regular"]
+    },
+    {
+      "id": "en-a2-worked",
+      "front": "worked",
+      "back": "काम किया",
+      "notes": "Regular past of *work*: work + **-ed**.",
+      "tags": ["past", "regular"]
+    },
+    {
+      "id": "en-a2-watched",
+      "front": "watched",
+      "back": "देखा",
+      "notes": "Regular past of *watch*.",
+      "tags": ["past", "regular"]
+    },
+    {
+      "id": "en-a2-went",
+      "front": "went",
+      "back": "गया / गई",
+      "notes": "Irregular past of *go* — the form changes completely.",
+      "tags": ["past", "irregular"]
+    },
+    {
+      "id": "en-a2-ate",
+      "front": "ate",
+      "back": "खाया",
+      "notes": "Irregular past of *eat*.",
+      "tags": ["past", "irregular"]
+    },
+    {
+      "id": "en-a2-bought",
+      "front": "bought",
+      "back": "खरीदा",
+      "notes": "Irregular past of *buy*.",
+      "tags": ["past", "irregular"]
+    },
+    {
+      "id": "en-a2-yesterday",
+      "front": "yesterday",
+      "back": "कल (बीता हुआ)",
+      "notes": "A common time word for the past simple.",
+      "tags": ["time"]
+    },
+    {
+      "id": "en-a2-didnt",
+      "front": "didn't",
+      "back": "नहीं (भूतकाल में)",
+      "notes": "*did not* → didn't. After it, use the **base** verb: *didn't go*.",
+      "tags": ["past", "negative"]
+    },
+    {
+      "id": "en-a2-i-played",
+      "front": "I played football yesterday.",
+      "back": "मैंने कल फ़ुटबॉल खेला।",
+      "notes": "Subject + past verb + rest. Time word can go at the end.",
+      "tags": ["past", "example"]
+    },
+    {
+      "id": "en-a2-did-you-go",
+      "front": "Did you go to school?",
+      "back": "क्या तुम स्कूल गए?",
+      "notes": "Questions use **Did** + subject + base verb (*go*, not *went*).",
+      "tags": ["past", "question"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "l1-past-theory",
+      "type": "theory",
+      "title": "Regular and irregular past",
+      "body": "# The past simple\n\nUse the **past simple** for finished actions: *Yesterday I worked.* (कल मैंने काम किया।)\n\n## Regular verbs: add -ed\n\n| Base | Past |\n|---|---|\n| play | **played** |\n| work | **worked** |\n| watch | **watched** |\n\n## Irregular verbs: a new form\n\nMany common verbs change completely — you must learn them:\n\n| Base | Past |\n|---|---|\n| go | **went** |\n| eat | **ate** |\n| buy | **bought** |\n| see | **saw** |\n\nUnlike Hindi, the English verb does **not** change for gender — *I went* / *she went* are the same."
+    },
+    {
+      "id": "l1-questions-theory",
+      "type": "theory",
+      "title": "Questions and negatives with did",
+      "body": "# Did for questions and negatives\n\nIn the past, questions and negatives use **did** — and the main verb goes back to its **base** form:\n\n- Statement: *I went.*\n- Question: **Did** you **go**? (not *Did you went?*)\n- Negative: *I **didn't go**.* (नहीं गया)\n\nSo only **did** carries the past; the main verb stays simple. This is different from Hindi, where the verb itself shows the tense."
+    },
+    {
+      "id": "l1-ex-match-past",
+      "type": "exercise",
+      "theory_ref": "l1-past-theory",
+      "title": "Match the past forms",
+      "exercise": {
+        "id": "l1-ex-match-past",
+        "type": "matching",
+        "prompt": "Match each English past-tense verb with its Hindi meaning.",
+        "card_ids": ["en-a2-played", "en-a2-went", "en-a2-ate", "en-a2-bought"],
+        "pairs": [
+          {"left": "played", "right": "खेला"},
+          {"left": "went", "right": "गया / गई"},
+          {"left": "ate", "right": "खाया"},
+          {"left": "bought", "right": "खरीदा"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "l1-ex-cloze-played",
+      "type": "exercise",
+      "theory_ref": "l1-past-theory",
+      "title": "Complete the sentence",
+      "exercise": {
+        "id": "l1-ex-cloze-played",
+        "type": "cloze",
+        "prompt": "Complete: \"Yesterday I ___ football.\" (play, past)",
+        "card_ids": ["en-a2-played", "en-a2-i-played"],
+        "sentence": "Yesterday I ___ football.",
+        "blanks": [{"accept": ["played"]}],
+        "cloze_mode": "type",
+        "hint": "Regular verb: play + -ed."
+      }
+    },
+    {
+      "id": "l1-ex-free-went",
+      "type": "exercise",
+      "theory_ref": "l1-past-theory",
+      "title": "Translate the past form",
+      "exercise": {
+        "id": "l1-ex-free-went",
+        "type": "free_text",
+        "prompt": "Translate to English: गया (past tense of \"go\")",
+        "card_ids": ["en-a2-went"],
+        "accept": ["went", "Went"],
+        "distractors": ["go", "gone", "going"],
+        "hint": "Irregular past of *go*.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l1-ex-cloze-question",
+      "type": "exercise",
+      "theory_ref": "l1-questions-theory",
+      "title": "Make a past question",
+      "exercise": {
+        "id": "l1-ex-cloze-question",
+        "type": "cloze",
+        "prompt": "Complete the question: \"___ you go to school?\"",
+        "card_ids": ["en-a2-did-you-go"],
+        "sentence": "___ you go to school?",
+        "blanks": [{"accept": ["Did", "did"]}],
+        "cloze_mode": "type",
+        "hint": "Past questions start with this helper; the main verb stays base form."
+      }
+    },
+    {
+      "id": "l1-ex-tiles-past",
+      "type": "exercise",
+      "theory_ref": "l1-past-theory",
+      "title": "Build a past sentence",
+      "exercise": {
+        "id": "l1-ex-tiles-past",
+        "type": "word_tiles",
+        "prompt": "Arrange to mean: मैंने कल फ़ुटबॉल खेला। (I played football yesterday.)",
+        "card_ids": ["en-a2-i-played"],
+        "tiles": ["I", "played", "football", "yesterday"],
+        "hint": "Subject, past verb, object, then the time word.",
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "l1-ex-free-yesterday",
+      "type": "exercise",
+      "theory_ref": "l1-past-theory",
+      "title": "Say \"yesterday\"",
+      "exercise": {
+        "id": "l1-ex-free-yesterday",
+        "type": "free_text",
+        "prompt": "How do you say \"कल (बीता हुआ)\" in English?",
+        "card_ids": ["en-a2-yesterday"],
+        "accept": ["yesterday", "Yesterday"],
+        "distractors": ["today", "tomorrow", "now"],
+        "hint": "The day before today.",
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}
