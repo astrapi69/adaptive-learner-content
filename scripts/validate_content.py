@@ -179,6 +179,25 @@ def validate_lesson(lesson: dict, source: str, label: str, errors: list[str]) ->
         elif ex.get("type") == "picture_choice":
             if not ex.get("distractors"):
                 errors.append(f"{label}: picture_choice '{eid}' needs distractors")
+        elif ex.get("type") == "word_tiles":
+            # ``accepted_orders`` is OPTIONAL: extra full tile orderings
+            # that are also graded correct (grammatically equivalent
+            # rearrangements). Absent it, only ``tiles`` is accepted, so
+            # tasks without the field stay valid. When present, every
+            # alternative must be a permutation of ``tiles`` (same tiles,
+            # different order) — otherwise it could never match.
+            tiles = ex.get("tiles") or []
+            orders = ex.get("accepted_orders")
+            if orders is not None:
+                if not isinstance(orders, list):
+                    errors.append(f"{label}: word_tiles '{eid}' accepted_orders must be a list of orderings")
+                else:
+                    for i, order in enumerate(orders):
+                        if not isinstance(order, list) or sorted(order) != sorted(tiles):
+                            errors.append(
+                                f"{label}: word_tiles '{eid}' accepted_orders[{i}] is not a "
+                                f"permutation of tiles"
+                            )
 
 
 def validate_set_dir(content_set: dict, errors: list[str]) -> None:

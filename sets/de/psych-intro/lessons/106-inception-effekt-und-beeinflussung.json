@@ -208,6 +208,9 @@
         "prompt": "Setze den Kernsatz zur Fehlattribuierung zusammen.",
         "card_ids": ["card-08"],
         "tiles": ["Das", "Gehirn", "vergisst", "die", "Quelle", "aber", "erinnert", "sich", "an", "den", "Inhalt"],
+        "accepted_orders": [
+          ["Das", "Gehirn", "vergisst", "die", "Quelle", "erinnert", "sich", "aber", "an", "den", "Inhalt"]
+        ],
         "hint": "Beginnt mit *Das Gehirn vergisst…*.",
         "direction": "source_to_target"
       }
