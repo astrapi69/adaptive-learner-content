@@ -150,9 +150,24 @@ Most carry `card_ids` (the cards they draw on) and a `direction`.
 ```jsonc
 { "type": "word_tiles", "prompt": "Build: Hello, thank you", "card_ids": [ … ],
   "tiles": ["Hola", "gracias"],            // the correct sequence (the app shuffles)
+  "accepted_orders": [                     // OPTIONAL: extra correct orderings
+    ["gracias", "Hola"]                    // each: the SAME tiles, a different valid order
+  ],
   "hint": "…",
   "direction": "source_to_target" }
 ```
+
+**`accepted_orders`** (optional, schema v1.3) lets a tile sentence accept more
+than one grammatically correct arrangement. `tiles` is always the primary
+solution; `accepted_orders` adds *full alternative orderings* that are graded
+correct too — useful when a language allows equivalent word order (e.g. German
+"…aber erinnert sich…" vs. "…erinnert sich aber…").
+
+- **Optional and backward-compatible.** Tasks without the field are unchanged:
+  only `tiles` is accepted. No existing set needs to add it.
+- Each entry is a **complete** ordering containing **the same tiles** as
+  `tiles` (same multiset) — just a different permutation. The validator rejects
+  an alternative that is not a permutation of `tiles`.
 
 ### picture_choice
 ```jsonc
@@ -182,6 +197,7 @@ paths as elsewhere in the repo.
 | `free_text` accepts | ≥ 2 **and** `distractors` present |
 | `matching` pairs | ≥ 3 |
 | `picture_choice` | `distractors` present |
+| `word_tiles` | each `accepted_orders` entry (if any) is a permutation of `tiles` |
 | cards | no empty `front`/`back` |
 
 …and, per set: a valid ISO 639-1 language pair, the correct `path` for the
