@@ -180,23 +180,29 @@ def validate_lesson(lesson: dict, source: str, label: str, errors: list[str]) ->
             if not ex.get("distractors"):
                 errors.append(f"{label}: picture_choice '{eid}' needs distractors")
         elif ex.get("type") == "word_tiles":
-            # ``accepted_orders`` is OPTIONAL: extra full tile orderings
-            # that are also graded correct (grammatically equivalent
-            # rearrangements). Absent it, only ``tiles`` is accepted, so
-            # tasks without the field stay valid. When present, every
-            # alternative must be a permutation of ``tiles`` (same tiles,
-            # different order) — otherwise it could never match.
+            # ``accept_orderings`` is OPTIONAL: extra full orderings that
+            # are also graded correct (grammatically equivalent
+            # rearrangements). It matches the app's field name + format:
+            # each alternative is an INDEX permutation (number[][]) over
+            # ``tiles`` — 0-based positions, each index exactly once, none
+            # out of range. Absent it, only ``tiles`` is accepted, so
+            # tasks without the field stay valid.
             tiles = ex.get("tiles") or []
-            orders = ex.get("accepted_orders")
-            if orders is not None:
-                if not isinstance(orders, list):
-                    errors.append(f"{label}: word_tiles '{eid}' accepted_orders must be a list of orderings")
+            orderings = ex.get("accept_orderings")
+            if orderings is not None:
+                expected = list(range(len(tiles)))
+                if not isinstance(orderings, list):
+                    errors.append(f"{label}: word_tiles '{eid}' accept_orderings must be a list of index orderings")
                 else:
-                    for i, order in enumerate(orders):
-                        if not isinstance(order, list) or sorted(order) != sorted(tiles):
+                    for i, order in enumerate(orderings):
+                        if (
+                            not isinstance(order, list)
+                            or not all(isinstance(x, int) and not isinstance(x, bool) for x in order)
+                            or sorted(order) != expected
+                        ):
                             errors.append(
-                                f"{label}: word_tiles '{eid}' accepted_orders[{i}] is not a "
-                                f"permutation of tiles"
+                                f"{label}: word_tiles '{eid}' accept_orderings[{i}] is not a "
+                                f"permutation of tile indices 0..{len(tiles) - 1}"
                             )
 
 
