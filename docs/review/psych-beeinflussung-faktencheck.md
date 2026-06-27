@@ -50,7 +50,7 @@ Quelle: `lessons/01-priming.json`
 - Keine konkreten Zahlen/Effektstärken genannt (qualitative Einordnung „robust" vs. „klein/fragil").
 
 ### Einordnungs-/Augenmaß-Aussagen
-- **Replikationskrise:** „Seit etwa 2011" ließen sich viele klassische Studien nicht reproduzieren, besonders behaviorales Priming; Folge: vorsichtigere Prüfung mit Präregistrierung. *(step `intro`, card `card-replikationskrise`)*
+- **Replikationskrise:** seit den **frühen 2010er-Jahren** ließen sich viele klassische Studien nicht reproduzieren, besonders behaviorales Priming. Beginn um **2011** (erste Zweifel am social Priming, Betrugsfall Stapel), breit rezipierter Wendepunkt der **Open-Science-Replikationsreport 2015** (Open Science Collaboration); Folge: vorsichtigere Prüfung mit Präregistrierung. *(step `intro`, card `card-replikationskrise`)*
 - „Priming ist real, aber kein allmächtiger Hebel." *(step `intro`)*
 - Hinweis im Set: „Beide Studien [Bargh; Doyen] sind real und korrekt zugeordnet." *(card `card-bargh-doyen`)*
 
@@ -84,12 +84,15 @@ Quelle: `lessons/03-ankereffekt.json`
 
 ### Fachliche Kernaussagen
 - Ankereffekt: eine zuerst genannte Information (oft eine Zahl) dient als Bezugspunkt und zieht Folgeurteile in ihre Richtung; wirkt selbst dann, wenn der Anker offensichtlich zufällig/irrelevant ist. *(step `intro`, card `card-anker`)*
-- **Anchoring and Adjustment / unzureichende Anpassung:** Menschen passen ihr Urteil vom Anker ausgehend an, hören aber meist zu früh auf, sodass das Ergebnis nahe am Anker bleibt. *(step `intro`, card `card-anpassung`)*
+- **Zwei Erklärungsmodelle nebeneinander (als Entwicklung der Theorie dargestellt):**
+  - *Ursprüngliches Modell — Anchoring and Adjustment (Tversky & Kahneman, 1974):* Menschen passen ihr Urteil vom Anker ausgehend an, hören aber meist zu früh auf, sodass das Ergebnis nahe am Anker bleibt („zu früh aufhören beim Anpassen"). *(step `intro`, card `card-anpassung`)*
+  - *Moderne Verfeinerung — Selective Accessibility / selektive Verfügbarkeit (Strack & Mussweiler, 1997):* besonders bei zufälligen, extern vorgegebenen Ankern (wie dem Glücksrad) aktiviert der Anker selektiv passende Informationen im Gedächtnis, die danach leichter verfügbar sind und das Urteil in Richtung Anker verschieben („das Gehirn sucht selektiv nach Infos, die zum Anker passen"). *(step `intro`, card `card-selektive-verfuegbarkeit`)*
 - **Anwendung Verhandlung:** das erste Angebot setzt einen Bezugspunkt; wer zuerst nennt, prägt oft den Rahmen. *(card `card-anker-verhandlung`)*
 - Abgrenzung: Anker = zuerst genannter Bezugswert prägt die Schätzung; Framing = positive/negative Formulierung prägt die Bewertung. *(card `card-anker-abgrenzung`)*
 
 ### Genannte Studien
-- **Tversky & Kahneman (1974)** — Glücksrad-Experiment: ein per Glücksrad erzeugter Zufallswert beeinflusste die anschließende Schätzung des Anteils afrikanischer Länder in der UNO; höherer Anker → höhere Schätzung, niedriger Anker → niedrigere. Im Set: „reale Studie", zeigt, dass selbst offensichtlich zufällige Anker wirken. *(step `intro`, card `card-tk-1974`, exercise `ex-select-anker-studie`)*
+- **Tversky & Kahneman (1974)** — Glücksrad-Experiment: ein per Glücksrad erzeugter Zufallswert beeinflusste die anschließende Schätzung des Anteils afrikanischer Länder in der UNO; höherer Anker → höhere Schätzung, niedriger Anker → niedrigere. Im Set: „reale Studie", zeigt, dass selbst offensichtlich zufällige Anker wirken. Im Set dem ursprünglichen Anchoring-and-Adjustment-Modell zugeordnet. *(step `intro`, card `card-tk-1974`, card `card-anpassung`, exercise `ex-select-anker-studie`)*
+- **Strack & Mussweiler (1997)** — dem Selective-Accessibility-Modell zugeordnet: der Anker aktiviert selektiv bestätigende Informationen im Gedächtnis, wodurch sich das Urteil Richtung Anker verschiebt. Im Set als moderne Verfeinerung neben (nicht statt) Anchoring and Adjustment dargestellt. *(step `intro`, card `card-selektive-verfuegbarkeit`)*
 
 ### Zahlen / Effektstärken
 - Keine konkreten Zahlen/Effektstärken genannt (Beschreibung qualitativ).
@@ -165,12 +168,12 @@ Quelle: `lessons/07-foot-in-the-door.json`
 
 ### Fachliche Kernaussagen
 - Foot-in-the-door: wer zuerst einer kleinen Bitte zustimmt, willigt anschließend mit höherer Wahrscheinlichkeit auch in eine größere Bitte ein. *(step `intro`, card `card-fitd`)*
-- **Erklärung Selbstwahrnehmung:** nach der ersten Zusage sieht man sich als hilfsbereite/engagierte Person und handelt konsistent weiter; anknüpfend an die Selbstwahrnehmungstheorie (**Bem**) und das Konsistenzstreben. *(step `intro`, card `card-selbstwahrnehmung`)*
+- **Erklärung Selbstwahrnehmung:** nach der ersten Zusage sieht man sich als hilfsbereite/engagierte Person und handelt konsistent weiter; anknüpfend an die Selbstwahrnehmungstheorie (**Bem, 1972**) und das Konsistenzstreben. *(step `intro`, card `card-selbstwahrnehmung`)*
 - **Abgrenzung zu Door-in-the-face:** Foot-in-the-door beginnt klein und steigert (Mechanismus Konsistenz); Door-in-the-face beginnt überzogen und reduziert (Mechanismus Reziprozität). *(step `intro`, card `card-fitd-vs-ditf`)*
 
 ### Genannte Studien
 - **Freedman & Fraser (1966):** klassisches Experiment — Hausbesitzer, die zuerst einer kleinen Bitte zustimmten (z. B. kleinen Aufkleber anbringen / kurze Petition unterschreiben), willigten danach deutlich häufiger ein, ein großes Verkehrssicherheits-Schild im Vorgarten aufzustellen. Im Set: „reale, klassische Studie". *(step `intro`, card `card-freedman-fraser`, exercise `ex-select-fitd-studie`)*
-- **Bem** — als Urheber der Selbstwahrnehmungstheorie genannt (ohne Jahr). *(card `card-selbstwahrnehmung`)*
+- **Bem (1972)** — als Urheber der Selbstwahrnehmungstheorie genannt (Standardreferenz *Advances in Experimental Social Psychology*). *(card `card-selbstwahrnehmung`)*
 
 ### Zahlen / Effektstärken
 - Keine konkreten Zahlen („deutlich häufiger", qualitativ). *(step `intro`)*
@@ -205,7 +208,7 @@ Quelle: `lessons/08-wiederholung-beeinflussung.json`
 | 2 | Bargh, Chen & Burrows | 1996 | behaviorales Priming (langsameres Gehen nach Alters-Wörtern) | L1 |
 | 3 | Doyen et al. | 2012 | Nicht-Replikation des Bargh-Effekts | L1 |
 | 4 | Tversky & Kahneman | 1981 | Framing / Asian disease problem | L2, L8 |
-| 5 | Tversky & Kahneman | 1974 | Ankereffekt / Glücksrad-Experiment | L3, L8 |
+| 5 | Tversky & Kahneman | 1974 | Ankereffekt / Glücksrad-Experiment; ursprüngliches Anchoring-and-Adjustment-Modell | L3, L8 |
 | 6 | Festinger | 1957 | Theorie der kognitiven Dissonanz | L4, L8 |
 | 7 | Festinger & Carlsmith | 1959 | 1-Dollar/20-Dollar-Experiment | L4, L8 |
 | 8 | Gouldner | 1960 | Norm der Reziprozität | L5, L8 |
@@ -214,5 +217,6 @@ Quelle: `lessons/08-wiederholung-beeinflussung.json`
 | 11 | Deutsch & Gerard | 1955 | informationaler vs. normativer sozialer Einfluss | L6 |
 | 12 | Goldstein, Cialdini & Griskevicius | 2008 | Hotel-Handtuch-Feldexperiment (social proof) | L6 |
 | 13 | Freedman & Fraser | 1966 | Foot-in-the-door | L7, L8 |
-| 14 | Bem (Selbstwahrnehmungstheorie) | — (kein Jahr im Set) | Erklärung von Foot-in-the-door | L7 |
+| 14 | Bem (Selbstwahrnehmungstheorie) | 1972 | Erklärung von Foot-in-the-door | L7 |
+| 15 | Strack & Mussweiler | 1997 | Ankereffekt / Selective-Accessibility-Modell (card `card-selektive-verfuegbarkeit`) | L3 |
 | – | Robert Cialdini | — | Sammlung der sechs Einflussprinzipien | L5, L6 |
