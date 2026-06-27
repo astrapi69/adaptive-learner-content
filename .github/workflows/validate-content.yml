@@ -1,10 +1,13 @@
-# Content validation (Phase 60 / v1.44.0, D-108).
+# Content validation (Phase 60 / v1.44.0, D-108; EXP-039).
 #
-# Runs the self-contained validator on every pull request (and on
-# pushes to main) so no broken or low-quality lesson set can land:
-# schema, language-pair consistency, source-language directory
-# structure, and the quality minimums. This is the second of the
-# two validation layers — the Adaptive Learner app runs the same
+# Runs the validator on every pull request (and on pushes to main)
+# so no broken or low-quality lesson set can land. After EXP-039 the
+# structural fields are validated against the App-authoritative
+# JSON Schema mirrored under schema/ (via the jsonschema library),
+# the quality minimums are read from schema/quality-rules.json, and
+# the content-repo specifics (language pair, directory structure,
+# non-Latin scripts) stay in the validator. This is the second of
+# the two validation layers — the Adaptive Learner app runs the same
 # checks client-side before a community share.
 name: Validate content
 
@@ -27,6 +30,6 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install validator dependencies
-        run: pip install "pyyaml>=6,<7"
+        run: pip install "pyyaml>=6,<7" "jsonschema>=4,<5"
       - name: Validate content tree
         run: python scripts/validate_content.py
