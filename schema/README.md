@@ -17,6 +17,15 @@ and are the App-authoritative definition of the lesson format (EXP-039).
 |------|-----------------------------|------------------|
 | `lesson.schema.json` | `schema/lesson.schema.json` | `scripts/validate_content.py` (structural validation via `jsonschema`) |
 | `quality-rules.json` | `schema/quality-rules.json` | `scripts/validate_content.py` (quality minimums) |
+| `../tests/fixtures/lesson-shape-parity.json` | `frontend/src/lib/content/__fixtures__/lesson-shape-parity.json` | `tests/test_shape_parity.py` (cross-language shape parity, #1208 / #699) |
+
+The third file is the **shared shape-parity fixture**: the same valid/invalid
+lessons the app-side `ajv` test pins `validateLessonShape` against. Because both
+repos run these inputs against the same `lesson.schema.json`, an identical
+accept/reject verdict on each side *is* the #699 parity proof. It is mirrored
+and drift-gated alongside the schema so an app-side schema change forces the
+mirror **and** the fixture to be re-pulled together (`--update` does both) —
+the parity contract cannot silently rot.
 
 `lesson.schema.json` is a self-contained JSON Schema (Draft 2020-12) — its
 `$id`, `$schema` and `x-schema-version` make it usable for IDE autocomplete

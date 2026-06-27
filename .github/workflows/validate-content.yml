@@ -30,6 +30,8 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install validator dependencies
-        run: pip install "pyyaml>=6,<7" "jsonschema>=4,<5"
+        run: pip install "pyyaml>=6,<7" "jsonschema>=4,<5" "pytest>=8,<9"
       - name: Validate content tree
         run: python scripts/validate_content.py
+      - name: Shape-parity gate (App/Content identical verdicts, #1208)
+        run: python -m pytest tests/test_shape_parity.py -q
