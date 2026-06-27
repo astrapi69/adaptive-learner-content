@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """Schema-mirror drift gate (EXP-039).
 
-The JSON-Schema artefacts under ``schema/`` are MIRRORED from the app
-repository ``astrapi69/adaptive-learner`` — the app is the single source of
-truth (the schema is generated from its Pydantic model). This repo keeps a
-byte-for-byte copy plus this gate so that an app-side schema change has a
-visible consequence here (CI goes red until the mirror is refreshed) instead
-of silently drifting apart.
+The JSON-Schema artefacts under ``schema/`` AND the shared shape-parity
+fixture under ``tests/fixtures/`` are MIRRORED from the app repository
+``astrapi69/adaptive-learner`` — the app is the single source of truth (the
+schema is generated from its Pydantic model; the fixture is the #1205 parity
+contract). This repo keeps a byte-for-byte copy plus this gate so that an
+app-side schema or fixture change has a visible consequence here (CI goes red
+until the mirror is refreshed) instead of silently drifting apart. Refreshing
+after an app schema change therefore pulls the mirror AND the fixture together,
+so the cross-language parity (#699 / #1208) cannot silently rot.
 
 Mechanism: pull the canonical artefacts from the app repo at CI time and
 compare them byte-for-byte with the committed mirror.
@@ -38,12 +41,16 @@ APP_REPO = os.environ.get("APP_REPO", "astrapi69/adaptive-learner")
 APP_REF = os.environ.get("APP_REF", "master")
 RAW_BASE = "https://raw.githubusercontent.com"
 
-# Mirrored file -> path of the original inside the app repo. Both happen to
-# live under ``schema/`` on each side, but keep the mapping explicit so the
-# layout can diverge without breaking the gate.
+# Local mirror path (relative to the repo root) -> path of the original inside
+# the app repo. The schema artefacts live under ``schema/`` on both sides; the
+# shared shape-parity fixture lives next to its app-side test, so the mapping is
+# kept explicit per file rather than assuming a shared directory.
 MIRRORED = {
-    "lesson.schema.json": "schema/lesson.schema.json",
-    "quality-rules.json": "schema/quality-rules.json",
+    "schema/lesson.schema.json": "schema/lesson.schema.json",
+    "schema/quality-rules.json": "schema/quality-rules.json",
+    "tests/fixtures/lesson-shape-parity.json": (
+        "frontend/src/lib/content/__fixtures__/lesson-shape-parity.json"
+    ),
 }
 
 
@@ -70,7 +77,7 @@ def main() -> int:
     errors: list[str] = []
 
     for local_name, app_path in MIRRORED.items():
-        local_file = SCHEMA_DIR / local_name
+        local_file = REPO_ROOT / local_name
         try:
             canonical = fetch(app_path)
         except Exception as exc:  # network / 404 / etc.
@@ -78,12 +85,13 @@ def main() -> int:
             continue
 
         if args.update:
+            local_file.parent.mkdir(parents=True, exist_ok=True)
             local_file.write_bytes(canonical)
             print(f"UPDATED  {local_name}  ({len(canonical)} bytes)")
             continue
 
         if not local_file.is_file():
-            drift.append(f"{local_name}: missing from the mirror (schema/)")
+            drift.append(f"{local_name}: missing from the mirror")
             continue
         current = local_file.read_bytes()
         if current == canonical:
@@ -101,7 +109,7 @@ def main() -> int:
         return 2
 
     if args.update:
-        print("\nMirror refreshed. Review and commit schema/.")
+        print("\nMirror refreshed. Review and commit schema/ and tests/fixtures/.")
         return 0
 
     if drift:
@@ -111,7 +119,7 @@ def main() -> int:
         print(
             "\nThe app is the source of truth. Refresh the mirror with:\n"
             "    python scripts/check_schema_drift.py --update\n"
-            "then commit schema/.",
+            "then commit schema/ and tests/fixtures/.",
             file=sys.stderr,
         )
         return 1

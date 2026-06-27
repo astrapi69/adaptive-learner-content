@@ -174,6 +174,31 @@ def validate_lesson_schema(lesson: dict, label: str, errors: list[str]) -> None:
         errors.append(f"{label}: schema: {loc}: {err.message}")
 
 
+def lesson_shape_errors(lesson) -> list[str]:
+    """Return the structural (schema-shape) errors for one candidate lesson.
+
+    This is the cross-language parity surface for #1208 / #699: the same
+    ``schema/lesson.schema.json`` is validated here with ``jsonschema`` and
+    on the app side with ``ajv`` (``validateLessonShape``). The shared
+    ``tests/fixtures/lesson-shape-parity.json`` pins both validators to the
+    SAME accept/reject verdict per input. Empty list == schema-valid shape.
+    """
+    errors: list[str] = []
+    validate_lesson_schema(lesson, "<lesson>", errors)
+    return errors
+
+
+def lesson_shape_ok(lesson) -> bool:
+    """True when ``lesson`` matches the App-authoritative lesson SHAPE.
+
+    Parity twin of the app's ``validateLessonShape(lesson).ok``. Only the
+    structural schema (fields, types, closed enums, length/range bounds,
+    ``additionalProperties: false``) is checked here — the content-repo's
+    quality minimums and language-pair rules are a separate, disjoint layer.
+    """
+    return not lesson_shape_errors(lesson)
+
+
 def validate_lesson_quality(lesson: dict, source: str, label: str, errors: list[str]) -> None:
     """Quality minimums (from quality-rules.json) + content-repo specifics
     the JSON Schema cannot express."""
