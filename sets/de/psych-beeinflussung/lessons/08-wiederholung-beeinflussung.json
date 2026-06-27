@@ -1,0 +1,208 @@
+{
+  "id": "08-wiederholung-beeinflussung",
+  "title": "Wiederholung & Synthese — die Effekte der Beeinflussung",
+  "description": "Abschließende Wiederholung aller behandelten Effekte: Priming, Framing, Ankereffekt, kognitive Dissonanz, Reziprozität, soziale Bewährtheit und Foot-in-the-door. Mit Querverbindungen, Beispiel-Zuordnungen und einem zusammenfassenden Augenmaß-Schritt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 14,
+  "cards": [
+    {
+      "id": "card-s-priming",
+      "front": "Priming (Kurzform)",
+      "back": "Vorgeschalteter Reiz aktiviert unbewusst Assoziationen; robust nur als semantisches/perzeptuelles Priming",
+      "notes": "Behaviorales Priming ist umstritten (Replikationskrise).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["synthese", "priming"]
+    },
+    {
+      "id": "card-s-framing",
+      "front": "Framing (Kurzform)",
+      "back": "Gleiche Information, andere Verpackung führt zu anderer Bewertung — ein Einfluss, keine Determinante",
+      "notes": "Tversky & Kahneman (1981).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["synthese", "framing"]
+    },
+    {
+      "id": "card-s-anker",
+      "front": "Ankereffekt (Kurzform)",
+      "back": "Eine zuerst genannte Zahl prägt als Bezugspunkt die Folgeurteile",
+      "notes": "Tversky & Kahneman (1974).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["synthese", "anker"]
+    },
+    {
+      "id": "card-s-dissonanz",
+      "front": "Kognitive Dissonanz (Kurzform)",
+      "back": "Spannung zwischen Haltung und Handlung erzeugt Druck, beides wieder in Einklang zu bringen",
+      "notes": "Festinger (1957); Festinger & Carlsmith (1959).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["synthese", "dissonanz"]
+    },
+    {
+      "id": "card-s-reziprozitaet",
+      "front": "Reziprozität (Kurzform)",
+      "back": "Wer etwas erhält, fühlt sich verpflichtet, sich zu revanchieren",
+      "notes": "Cialdini; Norm der Reziprozität (Gouldner, 1960).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["synthese", "reziprozitaet"]
+    },
+    {
+      "id": "card-s-bewaehrtheit",
+      "front": "Soziale Bewährtheit (Kurzform)",
+      "back": "Das Verhalten anderer dient als Orientierung, besonders bei Unsicherheit",
+      "notes": "Cialdini; informationaler sozialer Einfluss.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["synthese", "soziale-bewaehrtheit"]
+    },
+    {
+      "id": "card-s-fitd",
+      "front": "Foot-in-the-door (Kurzform)",
+      "back": "Eine kleine Zusage erhöht die Bereitschaft, später auch einer großen Bitte zuzustimmen",
+      "notes": "Freedman & Fraser (1966).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["synthese", "foot-in-the-door"]
+    },
+    {
+      "id": "card-s-augenmass",
+      "front": "Gemeinsames Augenmaß",
+      "back": "Alle diese Effekte sind belegte Tendenzen, keine garantierten Hebel — Effektstärken nicht aufblasen, Studien korrekt zuordnen",
+      "notes": "Der rote Faden des gesamten Sets.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["synthese", "einordnung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die sieben Effekte im Überblick",
+      "body": "# Wiederholung: Effekte der Beeinflussung\n\nIn diesem Set hast du sieben Effekte kennengelernt. Hier noch einmal im Überblick:\n\n| Effekt | Kern | Augenmaß |\n| --- | --- | --- |\n| **Priming** | vorgeschalteter Reiz bahnt Assoziationen | robust nur semantisch/perzeptuell; behavioral umstritten |\n| **Framing** | gleiche Information, andere Verpackung | Einfluss, keine Determinante |\n| **Ankereffekt** | erste Zahl prägt Folgeurteile | robust, aber durch Hinterfragen begrenzbar |\n| **Kognitive Dissonanz** | Spannung Haltung/Handlung | Auflösungsrichtung nicht festgelegt |\n| **Reziprozität** | Geben erzeugt Verpflichtung | Tendenz, kein Automatismus |\n| **Soziale Bewährtheit** | andere als Orientierung | Mehrheit hat nicht automatisch recht |\n| **Foot-in-the-door** | kleine Zusage öffnet große | moderat, nicht garantiert |\n\n## Der rote Faden\n\nAlle diese Effekte sind **empirisch belegte Tendenzen**, keine garantierten Hebel. Sie beschreiben, was *im Schnitt wahrscheinlicher* wird — nicht, was sicher passiert. Wer sie kennt, kann sie erkennen, wenn andere sie einsetzen, und seine eigenen Urteile bewusster prüfen."
+    },
+    {
+      "id": "ex-match-effekt-kern",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Effekt und Kernaussage",
+      "exercise": {
+        "id": "ex-match-effekt-kern",
+        "type": "matching",
+        "prompt": "Ordne jedem Effekt seine Kernaussage zu.",
+        "card_ids": ["card-s-priming", "card-s-framing", "card-s-anker", "card-s-dissonanz", "card-s-reziprozitaet"],
+        "pairs": [
+          {"left": "Priming", "right": "vorgeschalteter Reiz bahnt unbewusst Assoziationen"},
+          {"left": "Framing", "right": "gleiche Information, andere Verpackung, andere Bewertung"},
+          {"left": "Ankereffekt", "right": "die erste Zahl prägt die Folgeurteile"},
+          {"left": "Kognitive Dissonanz", "right": "Spannung zwischen Haltung und Handlung"},
+          {"left": "Reziprozität", "right": "wer etwas erhält, möchte sich revanchieren"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-effekt-beispiel",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Effekt und Alltagsbeispiel",
+      "exercise": {
+        "id": "ex-match-effekt-beispiel",
+        "type": "matching",
+        "prompt": "Ordne jedem Alltagsbeispiel den passenden Effekt zu.",
+        "card_ids": ["card-s-framing", "card-s-anker", "card-s-reziprozitaet", "card-s-bewaehrtheit", "card-s-fitd"],
+        "pairs": [
+          {"left": "95 % fettfrei statt 5 % Fett auf der Packung", "right": "Framing"},
+          {"left": "Ein hoher Startpreis in der Verhandlung", "right": "Ankereffekt"},
+          {"left": "Eine Gratisprobe, dann die Kaufbitte", "right": "Reziprozität"},
+          {"left": "Schon 10.000 Kund:innen vertrauen uns", "right": "Soziale Bewährtheit"},
+          {"left": "Erst die kleine Unterschrift, dann das große Schild", "right": "Foot-in-the-door"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-select-priming-robust",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Welche Aussage über Priming stimmt?",
+      "exercise": {
+        "id": "ex-select-priming-robust",
+        "type": "cloze",
+        "prompt": "Wähle die fachlich korrekte Aussage über Priming.",
+        "card_ids": ["card-s-priming"],
+        "sentence": "Priming ist vor allem als ___ Priming robust belegt.",
+        "blanks": [
+          {"accept": ["semantisches"]}
+        ],
+        "cloze_mode": "select",
+        "distractors": ["behaviorales", "soziales", "allmächtiges"],
+        "hint": "Behaviorales Priming ist von der Replikationskrise betroffen."
+      }
+    },
+    {
+      "id": "ex-cloze-augenmass",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Der rote Faden",
+      "exercise": {
+        "id": "ex-cloze-augenmass",
+        "type": "cloze",
+        "prompt": "Ergänze den zusammenfassenden Merksatz.",
+        "card_ids": ["card-s-augenmass"],
+        "sentence": "Alle behandelten Effekte sind belegte ___, aber keine garantierten ___.",
+        "blanks": [
+          {"accept": ["Tendenzen", "Wahrscheinlichkeiten"]},
+          {"accept": ["Hebel", "Automatismen", "Garantien"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "Im Schnitt wahrscheinlicher, nicht sicher."
+      }
+    },
+    {
+      "id": "ex-free-anwenden",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Beispiel einordnen",
+      "exercise": {
+        "id": "ex-free-anwenden",
+        "type": "free_text",
+        "prompt": "Ein Café stellt ein Glas mit Trinkgeld-Münzen sichtbar auf den Tresen, damit Gäste eher Trinkgeld geben. Welcher Effekt wird hier vor allem genutzt?",
+        "card_ids": ["card-s-bewaehrtheit"],
+        "accept": [
+          "Soziale Bewährtheit",
+          "Soziale Bewaehrtheit",
+          "social proof",
+          "Soziale Bewährtheit (social proof)"
+        ],
+        "hint": "Das sichtbare Verhalten anderer wirkt als Orientierung.",
+        "distractors": [
+          "Ankereffekt",
+          "Kognitive Dissonanz",
+          "Foot-in-the-door"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-tiles-synthese",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Setze den Schlusssatz zusammen",
+      "exercise": {
+        "id": "ex-tiles-synthese",
+        "type": "word_tiles",
+        "prompt": "Setze den Schlusssatz des Sets zusammen.",
+        "card_ids": ["card-s-augenmass"],
+        "tiles": ["Wer", "die", "Effekte", "kennt", "kann", "sie", "auch", "erkennen"],
+        "hint": "Beginnt mit *Wer die Effekte kennt …*."
+      }
+    }
+  ]
+}

@@ -500,6 +500,37 @@ sets:
       author: "Philip Zimbardo, Robert Johnson, Vivian McCann"
       isbn: "978-3868943238"
       url: "https://www.amazon.de/dp/3868943234/"
+  - id: psych-beeinflussung-from-de
+    title: Psychologie der Beeinflussung
+    title_native: Psychologie der Beeinflussung
+    target_language: de
+    source_language: de
+    domain: psychology
+    level: A2
+    path: sets/de/psych-beeinflussung
+    version: '1.0.0'
+    lesson_count: 8
+    description: >-
+      Aufbau-Set zur Psychologie der Beeinflussung (8 Lektionen),
+      auf Deutsch erklärt, im thematischen Anschluss an die
+      Inception-Effekt-Lektion: Priming (mit Replikationskrise),
+      Framing-Effekt, Ankereffekt, kognitive Dissonanz,
+      Reziprozität, soziale Bewährtheit und Foot-in-the-door, mit
+      abschließender Wiederholung. Effekte werden als empirisch
+      belegte Tendenzen dargestellt, nicht als garantierte
+      Manipulations-Hebel; die genannten Studien sind real und
+      korrekt zugeordnet. Nutzt die Aufgabentypen free_text, cloze
+      (type und select), matching und word_tiles.
+    tags:
+      - intermediate
+      - psychology
+      - influence
+      - science
+    book:
+      title: "Die Psychologie des Überzeugens"
+      author: "Robert B. Cialdini"
+      isbn: "978-3456860350"
+      url: "https://www.hogrefe.com/de/shop/die-psychologie-des-ueberzeugens-91960.html"
   - id: python-basics-from-de
     title: Python — Grundlagen
     title_native: Python — Basics

@@ -1,0 +1,168 @@
+{
+  "id": "04-kognitive-dissonanz",
+  "title": "Kognitive Dissonanz — der Druck nach Stimmigkeit",
+  "description": "Kognitive Dissonanz ist der unangenehme Spannungszustand, der entsteht, wenn Überzeugung und Handlung nicht zusammenpassen. Menschen versuchen, ihn zu reduzieren — oft durch Einstellungsänderung. Mit Festingers Theorie (1957) und dem Experiment von Festinger & Carlsmith (1959).",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "card-dissonanz",
+      "front": "Kognitive Dissonanz",
+      "back": "Unangenehmer Spannungszustand, wenn Überzeugungen, Werte und das eigene Verhalten nicht zusammenpassen",
+      "notes": "Begründet von Leon Festinger (1957).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["dissonanz", "hauptbegriff"]
+    },
+    {
+      "id": "card-reduktion",
+      "front": "Dissonanzreduktion",
+      "back": "Das Bestreben, die Spannung zu verringern — etwa indem man die Einstellung ändert, das Verhalten anpasst oder neue Rechtfertigungen sucht",
+      "notes": "Häufig ist die Einstellung leichter zu ändern als das bereits gezeigte Verhalten.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["dissonanz", "mechanismus"]
+    },
+    {
+      "id": "card-festinger-carlsmith",
+      "front": "Festinger & Carlsmith (1959)",
+      "back": "Wer für eine Lüge nur 1 Dollar bekam, fand die langweilige Aufgabe danach interessanter als wer 20 Dollar bekam — die geringe Belohnung erzwang innere Rechtfertigung",
+      "notes": "Reale, klassische Studie. Die kleine Bezahlung bot keine äußere Rechtfertigung, also passte sich die Einstellung an.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["dissonanz", "studie"]
+    },
+    {
+      "id": "card-rechtfertigung",
+      "front": "Unzureichende Rechtfertigung",
+      "back": "Fehlt ein starker äußerer Grund für ein Verhalten, ändert man eher die innere Einstellung, um das Verhalten stimmig erscheinen zu lassen",
+      "notes": "Erklärt das Ergebnis des 1-Dollar-Bedingung.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["dissonanz", "konzept"]
+    },
+    {
+      "id": "card-dissonanz-beeinflussung",
+      "front": "Dissonanz als Hebel der Beeinflussung",
+      "back": "Wer jemanden zu einer kleinen freiwilligen Handlung bewegt, kann eine Einstellungsänderung anstoßen, weil die Person ihr Verhalten nachträglich rechtfertigt",
+      "notes": "Verbindung zu Foot-in-the-door: aus Handlung folgt Haltung.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["dissonanz", "anwendung"]
+    },
+    {
+      "id": "card-dissonanz-grenze",
+      "front": "Augenmaß bei kognitiver Dissonanz",
+      "back": "Dissonanz wird nicht immer durch Einstellungsänderung aufgelöst — man kann sie auch aushalten, die Information abwerten oder das Verhalten ändern",
+      "notes": "Die Richtung der Auflösung ist nicht festgelegt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["dissonanz", "einordnung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Spannung zwischen Haltung und Handlung",
+      "body": "# Kognitive Dissonanz\n\n**Kognitive Dissonanz** ist der unangenehme Spannungszustand, der entsteht, wenn Überzeugungen und Verhalten nicht zusammenpassen — etwa wenn man raucht, obwohl man weiß, dass es schädlich ist. Der Begriff geht auf **Leon Festinger (1957)** zurück.\n\nWeil die Spannung unangenehm ist, entsteht ein **Druck zur Reduktion**. Dafür gibt es mehrere Wege: die Einstellung ändern, das Verhalten anpassen oder neue Rechtfertigungen suchen. Oft ist die Einstellung leichter zu ändern als ein bereits gezeigtes Verhalten.\n\n## Das klassische Experiment\n\n**Festinger & Carlsmith (1959)** ließen Versuchspersonen eine langweilige Aufgabe erledigen und danach einer anderen Person erzählen, sie sei interessant gewesen. Ein Teil erhielt dafür **1 Dollar**, ein anderer **20 Dollar**. Überraschend: Wer nur 1 Dollar bekam, fand die Aufgabe hinterher *tatsächlich interessanter*.\n\nDie Erklärung ist die **unzureichende Rechtfertigung**: 20 Dollar waren ein ausreichender äußerer Grund für die kleine Lüge — die Einstellung musste sich nicht ändern. 1 Dollar war zu wenig, also passte sich die innere Einstellung an, um das eigene Verhalten stimmig erscheinen zu lassen.\n\n## Augenmaß\n\nDissonanz wird *nicht immer* durch Einstellungsänderung aufgelöst. Man kann die Spannung auch aushalten, die störende Information abwerten oder das Verhalten ändern. Die Richtung der Auflösung ist nicht festgelegt."
+    },
+    {
+      "id": "ex-free-dissonanz",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Definition: Kognitive Dissonanz",
+      "exercise": {
+        "id": "ex-free-dissonanz",
+        "type": "free_text",
+        "prompt": "Was ist kognitive Dissonanz?",
+        "card_ids": ["card-dissonanz"],
+        "accept": [
+          "Ein unangenehmer Spannungszustand, wenn Überzeugung und Verhalten nicht zusammenpassen",
+          "Die Spannung zwischen widersprüchlichen Überzeugungen und dem eigenen Handeln",
+          "Der unangenehme Zustand, wenn Haltung und Handlung im Widerspruch stehen"
+        ],
+        "hint": "Stichwörter: Spannung, Überzeugung, Verhalten passen nicht zusammen.",
+        "distractors": [
+          "Ein vorgeschalteter Reiz, der unbewusst Assoziationen aktiviert",
+          "Die erste Zahl prägt alle Folgeurteile",
+          "Das Verhalten anderer dient als Orientierung"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-rechtfertigung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Warum wirkte 1 Dollar stärker?",
+      "exercise": {
+        "id": "ex-cloze-rechtfertigung",
+        "type": "cloze",
+        "prompt": "Ergänze die Erklärung des 1-Dollar-Effekts.",
+        "card_ids": ["card-rechtfertigung", "card-festinger-carlsmith"],
+        "sentence": "Bei nur 1 Dollar fehlte eine ausreichende ___ Rechtfertigung, also änderte sich die innere ___.",
+        "blanks": [
+          {"accept": ["äußere", "externe"]},
+          {"accept": ["Einstellung", "Haltung", "Überzeugung"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "Zu wenig Geld bot keinen guten äußeren Grund für die Lüge."
+      }
+    },
+    {
+      "id": "ex-select-studie",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Das 1-Dollar-Experiment",
+      "exercise": {
+        "id": "ex-select-studie",
+        "type": "cloze",
+        "prompt": "Wähle die korrekte Zuordnung des 1-Dollar-Experiments.",
+        "card_ids": ["card-festinger-carlsmith"],
+        "sentence": "Das 1-Dollar/20-Dollar-Experiment zur Dissonanz stammt von ___ (1959).",
+        "blanks": [
+          {"accept": ["Festinger & Carlsmith"]}
+        ],
+        "cloze_mode": "select",
+        "distractors": ["Tversky & Kahneman", "Freedman & Fraser", "Goldstein & Cialdini"],
+        "hint": "Der Theoriegeber der Dissonanz war Leon Festinger."
+      }
+    },
+    {
+      "id": "ex-match-dissonanz",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Dissonanz-Konzepte zuordnen",
+      "exercise": {
+        "id": "ex-match-dissonanz",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die passende Aussage zu.",
+        "card_ids": ["card-dissonanz", "card-reduktion", "card-rechtfertigung", "card-dissonanz-grenze"],
+        "pairs": [
+          {"left": "Kognitive Dissonanz", "right": "Spannung zwischen Haltung und Handlung"},
+          {"left": "Dissonanzreduktion", "right": "Bestreben, die Spannung wieder zu verringern"},
+          {"left": "Unzureichende Rechtfertigung", "right": "ohne starken äußeren Grund ändert sich die Einstellung"},
+          {"left": "Augenmaß", "right": "die Spannung kann auch ausgehalten oder anders aufgelöst werden"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-dissonanz",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Setze den Merksatz zusammen",
+      "exercise": {
+        "id": "ex-tiles-dissonanz",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zur Dissonanzreduktion zusammen.",
+        "card_ids": ["card-reduktion"],
+        "tiles": ["Oft", "wird", "die", "Einstellung", "an", "das", "Verhalten", "angepasst"],
+        "hint": "Beginnt mit *Oft wird die Einstellung …*."
+      }
+    }
+  ]
+}

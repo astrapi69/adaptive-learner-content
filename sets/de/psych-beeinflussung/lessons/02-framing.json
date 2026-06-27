@@ -1,0 +1,191 @@
+{
+  "id": "02-framing",
+  "title": "Der Framing-Effekt — gleiche Information, andere Verpackung",
+  "description": "Der Framing-Effekt beschreibt, dass dieselbe Information je nach Formulierung (z. B. als Gewinn oder als Verlust) unterschiedlich bewertet wird. Real und gut belegt — aber ein Einfluss, keine Determinante. Mit dem klassischen Experiment von Tversky & Kahneman (1981).",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "card-framing",
+      "front": "Framing-Effekt",
+      "back": "Dieselbe Information wird je nach Formulierung unterschiedlich bewertet und kann zu anderen Entscheidungen führen",
+      "notes": "Der sachliche Inhalt bleibt gleich, nur die Verpackung ändert sich.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["framing", "hauptbegriff"]
+    },
+    {
+      "id": "card-gewinn-verlust",
+      "front": "Gewinn- vs. Verlust-Framing",
+      "back": "Im Gewinn-Frame (etwa *90 % überleben*) wählen Menschen eher risikoscheu, im Verlust-Frame (*10 % sterben*) eher risikofreudig",
+      "notes": "Beruht auf der Verlustaversion: Verluste wiegen subjektiv schwerer als gleich große Gewinne.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["framing", "entscheidung"]
+    },
+    {
+      "id": "card-asian-disease",
+      "front": "Tversky & Kahneman (1981)",
+      "back": "Klassisches Framing-Experiment (*Asian disease problem*): identische Überlebenszahlen führten je nach Gewinn- oder Verlust-Formulierung zu gegensätzlichen Entscheidungen",
+      "notes": "Reale, vielfach replizierte Studie. Sie zeigt den Effekt, behauptet aber keine beliebige Steuerbarkeit.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["framing", "studie"]
+    },
+    {
+      "id": "card-attribut-framing",
+      "front": "Attribut-Framing",
+      "back": "Ein Merkmal wird positiv oder negativ beschrieben (*95 % fettfrei* statt *5 % Fett*) und dadurch unterschiedlich bewertet",
+      "notes": "Gleiche Tatsache, andere Hervorhebung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["framing", "beispiel"]
+    },
+    {
+      "id": "card-framing-grenze",
+      "front": "Wie weit reicht Framing?",
+      "back": "Framing ist ein realer Einfluss, aber keine Determinante: Vorwissen, Motivation und klare Zahlen können den Effekt abschwächen oder aufheben",
+      "notes": "Framing lenkt Tendenzen, es steuert nicht jede Entscheidung beliebig.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["framing", "einordnung"]
+    },
+    {
+      "id": "card-framing-priming",
+      "front": "Framing vs. Priming",
+      "back": "Framing ist die Art der Formulierung einer Information; Priming sind vorgeschaltete Reize, die unabhängig vom Inhalt Denkmuster bahnen",
+      "notes": "Beide bahnen Urteile, setzen aber an unterschiedlichen Stellen an.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["framing", "abgrenzung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Was Framing ist",
+      "body": "# Der Framing-Effekt\n\nDer **Framing-Effekt** beschreibt, dass dieselbe Information je nach *Verpackung* unterschiedlich bewertet wird. Ein Joghurt mit *95 % fettfrei* wirkt attraktiver als einer mit *5 % Fett* — obwohl beide Angaben identisch sind.\n\n## Gewinn- und Verlust-Framing\n\nBesonders stark zeigt sich Framing, wenn dieselbe Lage einmal als Gewinn und einmal als Verlust dargestellt wird. Im klassischen Experiment von **Tversky & Kahneman (1981)** — dem *Asian disease problem* — sollten Versuchspersonen zwischen Maßnahmen gegen eine Krankheit wählen. Bei der Gewinn-Formulierung (*200 von 600 Menschen werden gerettet*) entschieden sie sich eher risikoscheu, bei der mathematisch identischen Verlust-Formulierung (*400 von 600 sterben*) eher risikofreudig.\n\nDahinter steht die **Verlustaversion**: Verluste wiegen subjektiv schwerer als gleich große Gewinne.\n\n## Augenmaß\n\nFraming ist real und vielfach repliziert — aber **ein Einfluss, keine Determinante**. Vorwissen, Motivation, klar dargestellte Zahlen oder Nachdenken können den Effekt abschwächen. Framing lenkt Tendenzen; es steuert nicht jede Entscheidung beliebig."
+    },
+    {
+      "id": "ex-free-framing",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Definition: Framing",
+      "exercise": {
+        "id": "ex-free-framing",
+        "type": "free_text",
+        "prompt": "Was beschreibt der Framing-Effekt?",
+        "card_ids": ["card-framing"],
+        "accept": [
+          "Dieselbe Information wird je nach Formulierung unterschiedlich bewertet",
+          "Gleiche Information führt je nach Verpackung zu anderen Entscheidungen",
+          "Die Formulierung einer Information verändert ihre Bewertung, obwohl der Inhalt gleich bleibt"
+        ],
+        "hint": "Gleicher Inhalt, andere Verpackung.",
+        "distractors": [
+          "Ein vorgeschalteter Reiz aktiviert unbewusst Assoziationen",
+          "Die erste genannte Zahl prägt alle Folgeurteile",
+          "Ein Gefallen erzeugt ein Gefühl der Verpflichtung"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-verlust",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Gewinn oder Verlust?",
+      "exercise": {
+        "id": "ex-cloze-verlust",
+        "type": "cloze",
+        "prompt": "Ergänze die Aussage zum Gewinn- und Verlust-Framing.",
+        "card_ids": ["card-gewinn-verlust"],
+        "sentence": "Im Gewinn-Frame entscheiden Menschen eher ___, im Verlust-Frame eher ___.",
+        "blanks": [
+          {"accept": ["risikoscheu", "vorsichtig", "risikoavers"]},
+          {"accept": ["risikofreudig", "riskant", "risikobereit"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "Verluste wiegen subjektiv schwerer — das macht riskanter."
+      }
+    },
+    {
+      "id": "ex-select-studie",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wer hat das klassische Framing-Experiment durchgeführt?",
+      "exercise": {
+        "id": "ex-select-studie",
+        "type": "cloze",
+        "prompt": "Wähle die korrekte Zuordnung der klassischen Framing-Studie.",
+        "card_ids": ["card-asian-disease"],
+        "sentence": "Das klassische *Asian disease problem* stammt von ___ (1981).",
+        "blanks": [
+          {"accept": ["Tversky & Kahneman"]}
+        ],
+        "cloze_mode": "select",
+        "distractors": ["Festinger & Carlsmith", "Freedman & Fraser", "Bargh & Chen"],
+        "hint": "Dieselben Forscher prägten auch die Prospect Theory."
+      }
+    },
+    {
+      "id": "ex-match-framing",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Frame und Wirkung zuordnen",
+      "exercise": {
+        "id": "ex-match-framing",
+        "type": "matching",
+        "prompt": "Ordne jeder Formulierung die passende Einordnung zu.",
+        "card_ids": ["card-attribut-framing", "card-gewinn-verlust", "card-framing-grenze"],
+        "pairs": [
+          {"left": "95 % fettfrei statt 5 % Fett", "right": "Attribut-Framing: gleiches Merkmal, positiv hervorgehoben"},
+          {"left": "200 gerettet statt 400 sterben", "right": "Gewinn- vs. Verlust-Framing einer identischen Lage"},
+          {"left": "Klare Zahlen, Vorwissen, Nachdenken", "right": "können den Framing-Effekt abschwächen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-framing",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Setze den Merksatz zusammen",
+      "exercise": {
+        "id": "ex-tiles-framing",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zum Framing-Effekt zusammen.",
+        "card_ids": ["card-framing-grenze"],
+        "tiles": ["Framing", "ist", "ein", "Einfluss", "aber", "keine", "Determinante"],
+        "hint": "Beginnt mit *Framing ist ein Einfluss …*."
+      }
+    },
+    {
+      "id": "ex-free-abgrenzung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Framing oder Priming?",
+      "exercise": {
+        "id": "ex-free-abgrenzung",
+        "type": "free_text",
+        "prompt": "Worin unterscheiden sich Framing und Priming?",
+        "card_ids": ["card-framing-priming"],
+        "accept": [
+          "Framing ist die Art der Formulierung einer Information, Priming sind vorgeschaltete Reize",
+          "Framing betrifft die Verpackung der Information, Priming die vorher gesetzten Reize",
+          "Framing formuliert die Information, Priming bahnt unabhängig vom Inhalt Denkmuster"
+        ],
+        "hint": "Das eine ist die Formulierung, das andere ein vorgeschalteter Reiz.",
+        "distractors": [
+          "Es gibt keinen Unterschied, beide Begriffe sind Synonyme",
+          "Framing wirkt nur bei Kindern, Priming nur bei Erwachsenen",
+          "Framing ist eine Hypnosetechnik, Priming eine Werbeform"
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

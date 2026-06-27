@@ -1,0 +1,158 @@
+{
+  "id": "07-foot-in-the-door",
+  "title": "Foot-in-the-door — die kleine Zusage zuerst",
+  "description": "Die Foot-in-the-door-Technik: Wer zuerst einer kleinen Bitte zustimmt, sagt später eher auch zu einer größeren Ja. Klassisch gezeigt von Freedman & Fraser (1966), erklärt über Selbstwahrnehmung. Mit Abgrenzung zu Door-in-the-face und realistischer Einordnung der Effektstärke.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "card-fitd",
+      "front": "Foot-in-the-door",
+      "back": "Wer zuerst einer kleinen Bitte zustimmt, willigt anschließend mit höherer Wahrscheinlichkeit auch in eine größere Bitte ein",
+      "notes": "Die kleine Zusage öffnet die Tür für die große.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["foot-in-the-door", "hauptbegriff"]
+    },
+    {
+      "id": "card-freedman-fraser",
+      "front": "Freedman & Fraser (1966)",
+      "back": "Hausbesitzer, die zuerst einer kleinen Bitte zustimmten, willigten danach häufiger ein, ein großes Verkehrssicherheits-Schild im Vorgarten aufzustellen",
+      "notes": "Reale, klassische Studie zur Foot-in-the-door-Technik.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["foot-in-the-door", "studie"]
+    },
+    {
+      "id": "card-selbstwahrnehmung",
+      "front": "Selbstwahrnehmung als Erklärung",
+      "back": "Nach der ersten Zusage sieht man sich selbst als hilfsbereite, engagierte Person — und handelt danach konsistent weiter",
+      "notes": "Anknüpfend an die Selbstwahrnehmungstheorie (Bem) und an das Konsistenzstreben.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["foot-in-the-door", "mechanismus"]
+    },
+    {
+      "id": "card-fitd-vs-ditf",
+      "front": "Foot-in-the-door vs. Door-in-the-face",
+      "back": "Foot-in-the-door beginnt mit einer kleinen Bitte und steigert; Door-in-the-face beginnt mit einer überzogenen Bitte und reduziert",
+      "notes": "Gegensätzliche Reihenfolge, unterschiedliche Mechanismen (Konsistenz vs. Reziprozität).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["foot-in-the-door", "abgrenzung"]
+    },
+    {
+      "id": "card-fitd-grenze",
+      "front": "Augenmaß bei Foot-in-the-door",
+      "back": "Die Effektstärke ist real, aber moderat und nicht garantiert; sie hängt von Kontext, Größe der Bitten und Freiwilligkeit der ersten Zusage ab",
+      "notes": "Eine belegte Tendenz, kein sicherer Hebel.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["foot-in-the-door", "einordnung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Erst klein, dann groß",
+      "body": "# Foot-in-the-door\n\nDie **Foot-in-the-door**-Technik (wörtlich *Fuß in der Tür*) beschreibt: Wer zuerst einer **kleinen** Bitte zustimmt, willigt anschließend mit höherer Wahrscheinlichkeit auch in eine **größere** Bitte ein.\n\n## Das klassische Experiment\n\n**Freedman & Fraser (1966)** baten Hausbesitzer zunächst um eine Kleinigkeit (etwa, einen kleinen Aufkleber anzubringen oder eine kurze Petition zu unterschreiben). Einige Tage später fragten sie, ob man ein großes, unschönes Verkehrssicherheits-Schild im Vorgarten aufstellen dürfe. Wer zuvor der kleinen Bitte zugestimmt hatte, sagte **deutlich häufiger** auch zur großen zu.\n\n## Warum das wirkt\n\nEine verbreitete Erklärung ist die **Selbstwahrnehmung**: Nach der ersten Zusage sieht man sich selbst als hilfsbereite, engagierte Person — und handelt danach **konsistent** weiter. Das knüpft an das menschliche Konsistenzstreben an.\n\nWichtig ist die Abgrenzung zu **Door-in-the-face**, das genau umgekehrt vorgeht (erst eine überzogene, dann eine kleinere Bitte) und über Reziprozität wirkt.\n\n## Augenmaß\n\nDer Effekt ist real, aber **moderat und nicht garantiert**. Er hängt von Kontext, Größe der Bitten und davon ab, ob die erste Zusage *freiwillig* erfolgte. Eine belegte Tendenz — kein sicherer Hebel."
+    },
+    {
+      "id": "ex-free-fitd",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Definition: Foot-in-the-door",
+      "exercise": {
+        "id": "ex-free-fitd",
+        "type": "free_text",
+        "prompt": "Was beschreibt die Foot-in-the-door-Technik?",
+        "card_ids": ["card-fitd"],
+        "accept": [
+          "Wer zuerst einer kleinen Bitte zustimmt, willigt danach eher auch in eine größere ein",
+          "Eine kleine Zusage öffnet die Tür für eine größere Bitte",
+          "Nach einer kleinen Zustimmung folgt eher die Zustimmung zu einer großen Bitte"
+        ],
+        "hint": "Erst klein, dann groß.",
+        "distractors": [
+          "Auf eine überzogene erste Bitte folgt eine kleinere",
+          "Ein Gefallen erzeugt das Gefühl, sich revanchieren zu müssen",
+          "Die erste Zahl prägt alle Folgeurteile"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-selbstwahrnehmung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Warum wirkt die Technik?",
+      "exercise": {
+        "id": "ex-cloze-selbstwahrnehmung",
+        "type": "cloze",
+        "prompt": "Ergänze die Erklärung über die Selbstwahrnehmung.",
+        "card_ids": ["card-selbstwahrnehmung"],
+        "sentence": "Nach der ersten Zusage sieht man sich als hilfsbereite Person und handelt danach ___ weiter.",
+        "blanks": [
+          {"accept": ["konsistent", "stimmig", "widerspruchsfrei"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "Stichwort: Konsistenzstreben."
+      }
+    },
+    {
+      "id": "ex-select-fitd-studie",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Das Schild-im-Vorgarten-Experiment",
+      "exercise": {
+        "id": "ex-select-fitd-studie",
+        "type": "cloze",
+        "prompt": "Wähle die korrekte Zuordnung der klassischen Foot-in-the-door-Studie.",
+        "card_ids": ["card-freedman-fraser"],
+        "sentence": "Die klassische Foot-in-the-door-Studie stammt von ___ (1966).",
+        "blanks": [
+          {"accept": ["Freedman & Fraser"]}
+        ],
+        "cloze_mode": "select",
+        "distractors": ["Festinger & Carlsmith", "Tversky & Kahneman", "Regan & Cialdini"],
+        "hint": "Beide Namen beginnen mit F."
+      }
+    },
+    {
+      "id": "ex-match-fitd",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Foot-in-the-door: Begriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-fitd",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die passende Aussage zu.",
+        "card_ids": ["card-fitd", "card-selbstwahrnehmung", "card-fitd-vs-ditf", "card-fitd-grenze"],
+        "pairs": [
+          {"left": "Foot-in-the-door", "right": "kleine Zusage zuerst, dann die große Bitte"},
+          {"left": "Selbstwahrnehmung", "right": "man hält sich für hilfsbereit und bleibt konsistent"},
+          {"left": "Door-in-the-face", "right": "umgekehrt: erst die große, dann die kleine Bitte"},
+          {"left": "Augenmaß", "right": "der Effekt ist real, aber moderat und nicht garantiert"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-fitd",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Setze den Kernsatz zusammen",
+      "exercise": {
+        "id": "ex-tiles-fitd",
+        "type": "word_tiles",
+        "prompt": "Setze den Kernsatz zur Foot-in-the-door-Technik zusammen.",
+        "card_ids": ["card-fitd"],
+        "tiles": ["Eine", "kleine", "Zusage", "öffnet", "die", "große", "Tür"],
+        "hint": "Beginnt mit *Eine kleine Zusage …*."
+      }
+    }
+  ]
+}

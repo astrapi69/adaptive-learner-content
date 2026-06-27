@@ -1,0 +1,158 @@
+{
+  "id": "05-reziprozitaet",
+  "title": "Reziprozität — der Druck der Gegenseitigkeit",
+  "description": "Das Reziprozitätsprinzip: Wer etwas erhält, fühlt sich verpflichtet, etwas zurückzugeben. Eines der Einflussprinzipien nach Cialdini, gestützt auf die Norm der Reziprozität (Gouldner, 1960). Als empirisch belegte Tendenz dargestellt — nicht als Trick, der immer funktioniert.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "card-reziprozitaet",
+      "front": "Reziprozität",
+      "back": "Wer etwas erhält (ein Geschenk, einen Gefallen, ein Zugeständnis), verspürt einen sozialen Druck, sich zu revanchieren",
+      "notes": "Eines der sechs Einflussprinzipien, die Robert Cialdini zusammengetragen hat.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["reziprozitaet", "cialdini", "hauptbegriff"]
+    },
+    {
+      "id": "card-gouldner",
+      "front": "Norm der Reziprozität (Gouldner, 1960)",
+      "back": "Eine weit verbreitete soziale Norm: Man soll denen helfen, die einem geholfen haben — sie stützt das Reziprozitätsprinzip",
+      "notes": "Alvin Gouldner beschrieb sie 1960 als nahezu universelle soziale Erwartung.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["reziprozitaet", "norm"]
+    },
+    {
+      "id": "card-regan",
+      "front": "Regan (1971)",
+      "back": "In einem klassischen Experiment kauften Versuchspersonen einer Person mehr Lose ab, nachdem diese ihnen unaufgefordert eine Cola spendiert hatte",
+      "notes": "Reale Studie. Sie zeigt die Reziprozitätswirkung eines kleinen Gefallens.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["reziprozitaet", "studie"]
+    },
+    {
+      "id": "card-door-in-the-face",
+      "front": "Door-in-the-face",
+      "back": "Eine reziproke Zugeständnis-Technik: Auf eine bewusst überzogene erste Bitte folgt eine kleinere — das Nachgeben des Bittenden erzeugt Druck, ebenfalls nachzugeben",
+      "notes": "Cialdini et al. (1975). Beruht auf reziproken Zugeständnissen, nicht auf einem Geschenk.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["reziprozitaet", "technik"]
+    },
+    {
+      "id": "card-reziprozitaet-grenze",
+      "front": "Augenmaß bei Reziprozität",
+      "back": "Reziprozität ist eine belegte Tendenz, kein Automatismus: Wer ein Geschenk als Manipulationsversuch durchschaut, fühlt sich oft nicht verpflichtet",
+      "notes": "Als empirisch gestützte Tendenz darstellen, nicht als sicheren Hebel.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["reziprozitaet", "einordnung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Geben erzeugt Verpflichtung",
+      "body": "# Reziprozität\n\nDas **Reziprozitätsprinzip** besagt: Wer etwas erhält — ein Geschenk, einen Gefallen, ein Zugeständnis — verspürt einen sozialen Druck, sich zu revanchieren. Es ist eines der sechs Einflussprinzipien, die **Robert Cialdini** zusammengetragen hat.\n\nDahinter steht die **Norm der Reziprozität**, die der Soziologe **Alvin Gouldner (1960)** als nahezu universelle soziale Erwartung beschrieb: Man soll denen helfen, die einem geholfen haben.\n\n## Ein Beispiel aus der Forschung\n\nIm Experiment von **Regan (1971)** spendierte ein vermeintlicher Mitproband den Versuchspersonen unaufgefordert eine Cola. Später bat er sie, ihm Lose abzukaufen. Wer zuvor die Cola erhalten hatte, kaufte im Schnitt **mehr** Lose — ein kleiner Gefallen erzeugte ein Gefühl der Verpflichtung.\n\nEine verwandte Technik ist **Door-in-the-face** (Cialdini et al., 1975): Auf eine bewusst überzogene erste Bitte folgt eine kleinere. Das sichtbare *Nachgeben* des Bittenden wirkt wie ein Zugeständnis, das man erwidern möchte.\n\n## Augenmaß\n\nReziprozität ist eine **empirisch belegte Tendenz, kein Automatismus**. Wer ein Geschenk als Manipulationsversuch durchschaut, fühlt sich oft nicht verpflichtet. Das Prinzip beschreibt eine Wahrscheinlichkeit, keinen Schalter."
+    },
+    {
+      "id": "ex-free-reziprozitaet",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Definition: Reziprozität",
+      "exercise": {
+        "id": "ex-free-reziprozitaet",
+        "type": "free_text",
+        "prompt": "Was besagt das Reziprozitätsprinzip?",
+        "card_ids": ["card-reziprozitaet"],
+        "accept": [
+          "Wer etwas erhält, verspürt einen Druck, sich zu revanchieren",
+          "Ein Geschenk oder Gefallen erzeugt das Gefühl, etwas zurückgeben zu müssen",
+          "Wer etwas bekommt, fühlt sich verpflichtet, sich erkenntlich zu zeigen"
+        ],
+        "hint": "Stichwort: Gegenseitigkeit, sich revanchieren.",
+        "distractors": [
+          "Die erste genannte Zahl prägt alle Folgeurteile",
+          "Dieselbe Information wird je nach Formulierung anders bewertet",
+          "Eine kleine Zusage öffnet die Tür für eine größere"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-norm",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Die Norm dahinter",
+      "exercise": {
+        "id": "ex-cloze-norm",
+        "type": "cloze",
+        "prompt": "Ergänze die soziale Grundlage der Reziprozität.",
+        "card_ids": ["card-gouldner"],
+        "sentence": "Die Norm der Reziprozität besagt, man solle denen ___, die einem geholfen haben.",
+        "blanks": [
+          {"accept": ["helfen", "zurückhelfen"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "Beschrieben von Gouldner (1960)."
+      }
+    },
+    {
+      "id": "ex-select-regan",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Das Cola-Experiment",
+      "exercise": {
+        "id": "ex-select-regan",
+        "type": "cloze",
+        "prompt": "Wähle die korrekte Zuordnung des Cola-Experiments.",
+        "card_ids": ["card-regan"],
+        "sentence": "Das klassische Cola-und-Lose-Experiment zur Reziprozität stammt von ___ (1971).",
+        "blanks": [
+          {"accept": ["Regan"]}
+        ],
+        "cloze_mode": "select",
+        "distractors": ["Festinger", "Tversky", "Asch"],
+        "hint": "Der Name beginnt mit R."
+      }
+    },
+    {
+      "id": "ex-match-reziprozitaet",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Reziprozität: Begriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-reziprozitaet",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die passende Aussage zu.",
+        "card_ids": ["card-reziprozitaet", "card-gouldner", "card-door-in-the-face", "card-reziprozitaet-grenze"],
+        "pairs": [
+          {"left": "Reziprozität", "right": "ein Gefallen erzeugt Druck, sich zu revanchieren"},
+          {"left": "Norm der Reziprozität", "right": "soziale Erwartung, Hilfe zu erwidern (Gouldner, 1960)"},
+          {"left": "Door-in-the-face", "right": "auf eine große folgt eine kleinere Bitte"},
+          {"left": "Augenmaß", "right": "durchschaute Geschenke erzeugen oft keine Verpflichtung"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-reziprozitaet",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Setze den Kernsatz zusammen",
+      "exercise": {
+        "id": "ex-tiles-reziprozitaet",
+        "type": "word_tiles",
+        "prompt": "Setze den Kernsatz zur Reziprozität zusammen.",
+        "card_ids": ["card-reziprozitaet"],
+        "tiles": ["Wer", "etwas", "erhält", "möchte", "sich", "gerne", "revanchieren"],
+        "hint": "Beginnt mit *Wer etwas erhält …*."
+      }
+    }
+  ]
+}

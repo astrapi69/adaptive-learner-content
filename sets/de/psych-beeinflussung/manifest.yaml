@@ -1,0 +1,73 @@
+# Psychologie der Beeinflussung (für Deutschsprachige) — Set-Manifest.
+#
+# Aufbauendes Nicht-Sprachen-Set (``domain: psychology``) im
+# thematischen Anschluss an die Inception-Effekt-Lektion des
+# psych-intro-Sets (Lektion 106). Material und Erklärung sind beide
+# auf Deutsch (source_language == target_language); der Set-Ordner
+# trägt einen Themennamen (``psych-beeinflussung``) statt eines
+# ``{target}-{level}``-Namens. Der Content-Loader liest
+# ``metadata.lessons`` für die Dateiliste.
+#
+# v1.0.0 (schema v1.4): acht Lektionen zu den zentralen
+# Beeinflussungs- und Verzerrungseffekten — Priming (mit
+# Replikationskrise), Framing, Ankereffekt, kognitive Dissonanz,
+# Reziprozität, soziale Bewährtheit und Foot-in-the-door — plus eine
+# zusammenfassende Wiederholung. Genutzte Aufgabentypen: free_text,
+# cloze (type und select), matching und word_tiles, jeweils mit
+# einem Theorie-Schritt pro Lektion. picture_choice wird bewusst
+# weggelassen, da das Thema abstrakt ist und keine sinnvollen,
+# real vorhandenen Bilder bietet.
+schema_version: '1.4'
+name: Psychologie der Beeinflussung
+description: >-
+  Ein deutsches Aufbau-Set zur Psychologie der Beeinflussung im
+  Anschluss an die Inception-Effekt-Lektion: Priming (mit
+  Replikationskrise), Framing-Effekt, Ankereffekt, kognitive
+  Dissonanz, Reziprozität, soziale Bewährtheit und
+  Foot-in-the-door. Fachlich mit Augenmaß erklärt — Effekte als
+  empirisch belegte Tendenzen, nicht als garantierte Manipulations-
+  Hebel; genannte Studien sind real und korrekt zugeordnet.
+sets:
+  - id: psych-beeinflussung-from-de
+    title: Psychologie der Beeinflussung
+    title_native: Psychologie der Beeinflussung
+    target_language: de
+    source_language: de
+    domain: psychology
+    level: A2
+    path: sets/de/psych-beeinflussung
+    version: '1.0.0'
+    lesson_count: 8
+    domain_label: Psychologie
+    description: >-
+      Aufbau-Set zur Psychologie der Beeinflussung (8 Lektionen),
+      auf Deutsch erklärt: Priming (mit Replikationskrise), Framing,
+      Ankereffekt, kognitive Dissonanz, Reziprozität, soziale
+      Bewährtheit und Foot-in-the-door, mit abschließender
+      Wiederholung. Effekte werden als empirisch belegte Tendenzen
+      dargestellt; die genannten Studien (Tversky & Kahneman,
+      Festinger & Carlsmith, Regan, Goldstein/Cialdini/Griskevicius,
+      Freedman & Fraser) sind real und korrekt zugeordnet.
+    tags:
+      - intermediate
+      - psychology
+      - influence
+      - science
+    book:
+      title: "Die Psychologie des Überzeugens"
+      author: "Robert B. Cialdini"
+      isbn: "978-3456860350"
+      url: "https://www.hogrefe.com/de/shop/die-psychologie-des-ueberzeugens-91960.html"
+      cover_image: null
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-priming.json
+    - 02-framing.json
+    - 03-ankereffekt.json
+    - 04-kognitive-dissonanz.json
+    - 05-reziprozitaet.json
+    - 06-soziale-bewaehrtheit.json
+    - 07-foot-in-the-door.json
+    - 08-wiederholung-beeinflussung.json
