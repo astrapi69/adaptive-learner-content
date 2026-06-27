@@ -1,0 +1,201 @@
+{
+  "id": "01-priming",
+  "title": "Priming — und warum man es nicht überschätzen darf",
+  "description": "Priming bezeichnet die Bahnung: ein vorgeschalteter Reiz aktiviert unbewusst bestimmte Assoziationen und beeinflusst die Folgereaktion. Diese Lektion unterscheidet sauber zwischen robust abgesichertem semantischem/perzeptuellem Priming und dem umstrittenen *social/behavioral Priming*, das die Replikationskrise schwer getroffen hat.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "card-priming",
+      "front": "Priming (Bahnung)",
+      "back": "Ein vorgeschalteter Reiz aktiviert unbewusst Assoziationen und beeinflusst dadurch die spätere Reaktion",
+      "notes": "Der Reiz bahnt einen Pfad: passende Inhalte werden danach schneller oder leichter verarbeitet.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["priming", "hauptbegriff", "kognition"]
+    },
+    {
+      "id": "card-semantisches-priming",
+      "front": "Semantisches Priming",
+      "back": "Ein bedeutungsverwandtes Wort wird schneller erkannt, wenn kurz zuvor ein verwandtes Wort gezeigt wurde (z. B. *Arzt* nach *Krankenschwester*)",
+      "notes": "Robust und vielfach repliziert. Klassisch gezeigt in Lexical-Decision-Aufgaben (Meyer & Schvaneveldt, 1971).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["priming", "robust", "kognition"]
+    },
+    {
+      "id": "card-perzeptuelles-priming",
+      "front": "Perzeptuelles Priming",
+      "back": "Ein zuvor wahrgenommener Reiz wird später leichter wiedererkannt, auch ohne bewusste Erinnerung an die erste Begegnung",
+      "notes": "Ebenfalls gut abgesichert; spielt z. B. beim impliziten Gedächtnis eine Rolle.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["priming", "robust", "gedaechtnis"]
+    },
+    {
+      "id": "card-social-priming",
+      "front": "Social/Behavioral Priming",
+      "back": "Die umstrittene Annahme, beiläufige Reize (etwa Wörter zum Thema *alt*) veränderten direkt komplexes Verhalten",
+      "notes": "Viele dieser Studien ließen sich nicht reproduzieren — hier ist Vorsicht geboten.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["priming", "umstritten", "kritik"]
+    },
+    {
+      "id": "card-replikationskrise",
+      "front": "Replikationskrise",
+      "back": "Befund, dass sich viele klassische Studien (besonders zum social/behavioral Priming) in unabhängigen Wiederholungen nicht bestätigen ließen",
+      "notes": "Seit etwa 2011 ein zentrales Thema der Psychologie. Folge: Effekte werden vorsichtiger und mit Präregistrierung geprüft.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["priming", "kritik", "methodik"]
+    },
+    {
+      "id": "card-bargh-doyen",
+      "front": "Bargh et al. (1996) und Doyen et al. (2012)",
+      "back": "Bargh et al. berichteten, Alters-Wörter ließen Personen langsamer gehen; Doyen et al. konnten diesen Effekt nicht sauber replizieren",
+      "notes": "Ein oft zitiertes Beispiel dafür, warum behaviorales Priming kritisch gesehen wird. Beide Studien sind real und korrekt zugeordnet.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["priming", "studie", "kritik"]
+    },
+    {
+      "id": "card-priming-grenze",
+      "front": "Wie stark ist Priming wirklich?",
+      "back": "Semantisches und perzeptuelles Priming sind robust; behaviorales Priming ist klein, fragil und nicht garantiert — kein allmächtiger Steuerungsmechanismus",
+      "notes": "Im Zweifel zurückhaltend formulieren statt Effektstärken aufzublasen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["priming", "einordnung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Was Priming ist — und was nicht",
+      "body": "# Priming (Bahnung)\n\n**Priming** bedeutet: ein vorgeschalteter Reiz aktiviert unbewusst bestimmte Assoziationen und macht passende Inhalte danach leichter verfügbar. Wer kurz das Wort *Krankenschwester* liest, erkennt anschließend das Wort *Arzt* schneller.\n\nWichtig ist eine saubere Unterscheidung, denn *Priming* ist nicht gleich *Priming*:\n\n- **Semantisches Priming** (bedeutungsverwandte Wörter) und **perzeptuelles Priming** (leichteres Wiedererkennen) sind **robust** und vielfach repliziert. Klassisch gezeigt wurde semantisches Priming in Lexical-Decision-Aufgaben (Meyer & Schvaneveldt, 1971).\n- **Social/Behavioral Priming** — die Idee, beiläufige Reize steuerten direkt komplexes Verhalten — ist dagegen **umstritten**.\n\n## Die Replikationskrise\n\nSeit etwa 2011 zeigte sich, dass sich viele klassische Studien nicht reproduzieren ließen. Besonders betroffen war das behaviorale Priming. Das bekannteste Beispiel: Bargh, Chen & Burrows (1996) berichteten, dass Versuchspersonen nach *Alters*-Wörtern langsamer gingen; Doyen et al. (2012) konnten diesen Effekt unter kontrollierten Bedingungen **nicht** sauber bestätigen.\n\n**Fazit:** Priming ist real, aber kein allmächtiger Hebel. Wo der Effekt robust ist (semantisch, perzeptuell), darf man ihn ernst nehmen; wo er fragil ist (behavioral), sollte man ihn nicht überverkaufen."
+    },
+    {
+      "id": "ex-free-priming",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Definition: Priming",
+      "exercise": {
+        "id": "ex-free-priming",
+        "type": "free_text",
+        "prompt": "Wie lässt sich Priming in einem Satz beschreiben?",
+        "card_ids": ["card-priming"],
+        "accept": [
+          "Ein vorgeschalteter Reiz aktiviert unbewusst Assoziationen und beeinflusst die spätere Reaktion",
+          "Ein Reiz bahnt bestimmte Denkmuster, sodass passende Inhalte danach leichter verarbeitet werden",
+          "Vorgeschaltete Reize aktivieren unbewusst Assoziationen und beeinflussen die Folgereaktion"
+        ],
+        "hint": "Stichwörter: vorgeschalteter Reiz, unbewusst, spätere Reaktion.",
+        "distractors": [
+          "Eine Reaktion wird durch ständige Wiederholung bewusst antrainiert",
+          "Eine Entscheidung wird durch die erste genannte Zahl verankert",
+          "Eine Information wird je nach Formulierung anders bewertet"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-arten",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Robust oder umstritten?",
+      "exercise": {
+        "id": "ex-cloze-arten",
+        "type": "cloze",
+        "prompt": "Ergänze die Einordnung der Priming-Arten.",
+        "card_ids": ["card-semantisches-priming", "card-social-priming"],
+        "sentence": "Semantisches Priming gilt als ___ Effekt, während social/behavioral Priming als ___ gilt.",
+        "blanks": [
+          {"accept": ["robust", "robuster", "gut abgesichert"]},
+          {"accept": ["umstritten", "fragil", "nicht repliziert"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "Das eine ist vielfach repliziert, das andere von der Replikationskrise betroffen."
+      }
+    },
+    {
+      "id": "ex-select-robust",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Welche Priming-Art ist gut abgesichert?",
+      "exercise": {
+        "id": "ex-select-robust",
+        "type": "cloze",
+        "prompt": "Wähle die Priming-Art, die als empirisch robust gilt.",
+        "card_ids": ["card-semantisches-priming"],
+        "sentence": "Als empirisch robust und vielfach repliziert gilt vor allem das ___ Priming.",
+        "blanks": [
+          {"accept": ["semantische"]}
+        ],
+        "cloze_mode": "select",
+        "distractors": ["behaviorale", "soziale", "verhaltensbezogene"],
+        "hint": "Es geht um bedeutungsverwandte Wörter wie *Arzt* nach *Krankenschwester*."
+      }
+    },
+    {
+      "id": "ex-match-priming",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Priming-Begriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-priming",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die passende Beschreibung zu.",
+        "card_ids": ["card-semantisches-priming", "card-perzeptuelles-priming", "card-social-priming", "card-replikationskrise"],
+        "pairs": [
+          {"left": "Semantisches Priming", "right": "bedeutungsverwandtes Wort wird schneller erkannt (robust)"},
+          {"left": "Perzeptuelles Priming", "right": "zuvor Gesehenes wird leichter wiedererkannt (robust)"},
+          {"left": "Behaviorales Priming", "right": "Reize sollen Verhalten steuern (umstritten)"},
+          {"left": "Replikationskrise", "right": "viele klassische Befunde ließen sich nicht reproduzieren"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-bargh",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Setze den Kernsatz zur Replikationskrise zusammen",
+      "exercise": {
+        "id": "ex-tiles-bargh",
+        "type": "word_tiles",
+        "prompt": "Setze den korrekten Satz über das Bargh-Doyen-Beispiel zusammen.",
+        "card_ids": ["card-bargh-doyen"],
+        "tiles": ["Der", "klassische", "Priming-Effekt", "ließ", "sich", "später", "nicht", "replizieren"],
+        "hint": "Beginnt mit *Der klassische Priming-Effekt …*."
+      }
+    },
+    {
+      "id": "ex-free-grenze",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wie stark ist Priming?",
+      "exercise": {
+        "id": "ex-free-grenze",
+        "type": "free_text",
+        "prompt": "Warum darf man Priming nicht als allmächtigen Steuerungsmechanismus darstellen?",
+        "card_ids": ["card-priming-grenze"],
+        "accept": [
+          "Weil nur semantisches und perzeptuelles Priming robust sind, behaviorales Priming aber klein, fragil und nicht garantiert ist",
+          "Weil viele behaviorale Priming-Studien sich nicht replizieren ließen und der Effekt nicht garantiert ist",
+          "Weil der Effekt je nach Art robust oder fragil ist und nicht zuverlässig Verhalten steuert"
+        ],
+        "hint": "Denke an die Replikationskrise und die Unterscheidung der Priming-Arten.",
+        "distractors": [
+          "Weil Priming immer und bei jedem Menschen gleich stark wirkt",
+          "Weil Priming nur bei Kindern nachweisbar ist",
+          "Weil Priming dasselbe wie Hypnose ist"
+        ],
+        "direction": "source_to_target"
+      }
+    }
+  ]
+}

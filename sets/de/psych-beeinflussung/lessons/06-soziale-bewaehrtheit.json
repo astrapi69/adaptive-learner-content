@@ -1,0 +1,159 @@
+{
+  "id": "06-soziale-bewaehrtheit",
+  "title": "Soziale Bewährtheit — sich an anderen orientieren",
+  "description": "Soziale Bewährtheit (social proof): Bei Unsicherheit nehmen Menschen das Verhalten anderer als Hinweis darauf, was richtig ist. Ein Cialdini-Prinzip, gestützt auf informationalen sozialen Einfluss. Mit dem Feldexperiment von Goldstein, Cialdini & Griskevicius (2008) und klarer Einordnung.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "psychology",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "card-soziale-bewaehrtheit",
+      "front": "Soziale Bewährtheit",
+      "back": "Menschen orientieren sich am Verhalten anderer, um zu entscheiden, was richtig ist — besonders in unsicheren oder mehrdeutigen Situationen",
+      "notes": "Englisch *social proof*; eines der Einflussprinzipien nach Cialdini.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["soziale-bewaehrtheit", "cialdini", "hauptbegriff"]
+    },
+    {
+      "id": "card-informationaler-einfluss",
+      "front": "Informationaler sozialer Einfluss",
+      "back": "Das Verhalten anderer wird als Information über die Wirklichkeit genutzt — man nimmt an, dass die vielen schon wissen werden, was richtig ist",
+      "notes": "Abgegrenzt vom normativen Einfluss (Dazugehören-Wollen). Deutsch & Gerard (1955).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["soziale-bewaehrtheit", "mechanismus"]
+    },
+    {
+      "id": "card-hotel-handtuch",
+      "front": "Goldstein, Cialdini & Griskevicius (2008)",
+      "back": "Hinweisschilder, die betonten, dass die meisten Gäste ihre Handtücher wiederverwenden, erhöhten die Wiederverwendung stärker als reine Umwelt-Appelle",
+      "notes": "Reales Feldexperiment in Hotels. Der Effekt war messbar, aber moderat.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["soziale-bewaehrtheit", "studie"]
+    },
+    {
+      "id": "card-unsicherheit-aehnlichkeit",
+      "front": "Wann wirkt soziale Bewährtheit stärker?",
+      "back": "Vor allem bei Unsicherheit und wenn die anderen einem ähnlich sind — dann ist ihr Verhalten ein besonders überzeugender Hinweis",
+      "notes": "Zwei Verstärker des Effekts.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["soziale-bewaehrtheit", "bedingungen"]
+    },
+    {
+      "id": "card-bewaehrtheit-grenze",
+      "front": "Augenmaß bei sozialer Bewährtheit",
+      "back": "Das Verhalten der Mehrheit ist nicht automatisch richtig; wer klare eigene Information oder Expertise hat, folgt der Masse seltener",
+      "notes": "Eine Orientierungshilfe, kein Wahrheitsbeweis.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["soziale-bewaehrtheit", "einordnung"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die anderen als Wegweiser",
+      "body": "# Soziale Bewährtheit\n\n**Soziale Bewährtheit** (englisch *social proof*) beschreibt, dass Menschen sich am Verhalten anderer orientieren, um zu entscheiden, was richtig ist — besonders in **unsicheren oder mehrdeutigen** Situationen. Sie ist eines der Einflussprinzipien nach **Cialdini**.\n\n## Warum das funktioniert\n\nDahinter steht der **informationale soziale Einfluss** (Deutsch & Gerard, 1955): Das Verhalten der vielen wird als *Information* über die Wirklichkeit gelesen — *die werden schon wissen, was richtig ist*. Das unterscheidet sich vom *normativen* Einfluss, bei dem es ums Dazugehören geht.\n\n## Ein Feldexperiment\n\n**Goldstein, Cialdini & Griskevicius (2008)** testeten Hinweisschilder in Hotels. Schilder mit dem Hinweis, dass *die meisten Gäste* ihre Handtücher wiederverwenden, steigerten die Wiederverwendung stärker als ein reiner Umwelt-Appell. Der Effekt war **messbar, aber moderat** — nicht dramatisch.\n\n## Augenmaß\n\nSoziale Bewährtheit wirkt **stärker bei Unsicherheit** und wenn die anderen einem **ähnlich** sind. Aber: Das Verhalten der Mehrheit ist nicht automatisch richtig. Wer über klare eigene Information oder Fachwissen verfügt, folgt der Masse seltener."
+    },
+    {
+      "id": "ex-free-bewaehrtheit",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Definition: Soziale Bewährtheit",
+      "exercise": {
+        "id": "ex-free-bewaehrtheit",
+        "type": "free_text",
+        "prompt": "Was beschreibt das Prinzip der sozialen Bewährtheit?",
+        "card_ids": ["card-soziale-bewaehrtheit"],
+        "accept": [
+          "Menschen orientieren sich am Verhalten anderer, um zu entscheiden, was richtig ist",
+          "Das Verhalten anderer dient als Orientierung, besonders bei Unsicherheit",
+          "Man nimmt das Verhalten der vielen als Hinweis darauf, was richtig ist"
+        ],
+        "hint": "Stichwort: das Verhalten anderer als Orientierung.",
+        "distractors": [
+          "Ein Gefallen erzeugt das Gefühl, etwas zurückgeben zu müssen",
+          "Die erste Zahl prägt alle Folgeurteile",
+          "Eine kleine Zusage öffnet die Tür für eine größere"
+        ],
+        "direction": "source_to_target"
+      }
+    },
+    {
+      "id": "ex-cloze-unsicherheit",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wann wirkt der Effekt stärker?",
+      "exercise": {
+        "id": "ex-cloze-unsicherheit",
+        "type": "cloze",
+        "prompt": "Ergänze die verstärkenden Bedingungen.",
+        "card_ids": ["card-unsicherheit-aehnlichkeit"],
+        "sentence": "Soziale Bewährtheit wirkt besonders stark bei ___ und wenn die anderen einem ___ sind.",
+        "blanks": [
+          {"accept": ["Unsicherheit", "Ungewissheit"]},
+          {"accept": ["ähnlich", "gleich"]}
+        ],
+        "cloze_mode": "type",
+        "hint": "Zwei Verstärker: mangelnde Sicherheit und Ähnlichkeit."
+      }
+    },
+    {
+      "id": "ex-select-einfluss",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Welcher Einfluss steckt dahinter?",
+      "exercise": {
+        "id": "ex-select-einfluss",
+        "type": "cloze",
+        "prompt": "Wähle die Art des sozialen Einflusses, die der sozialen Bewährtheit zugrunde liegt.",
+        "card_ids": ["card-informationaler-einfluss"],
+        "sentence": "Soziale Bewährtheit beruht vor allem auf ___ sozialem Einfluss.",
+        "blanks": [
+          {"accept": ["informationalem"]}
+        ],
+        "cloze_mode": "select",
+        "distractors": ["normativem", "autoritärem", "reziprokem"],
+        "hint": "Das Verhalten anderer wird als Information gelesen, nicht aus Gruppenzwang befolgt."
+      }
+    },
+    {
+      "id": "ex-match-bewaehrtheit",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Soziale Bewährtheit: Begriffe zuordnen",
+      "exercise": {
+        "id": "ex-match-bewaehrtheit",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff die passende Aussage zu.",
+        "card_ids": ["card-soziale-bewaehrtheit", "card-informationaler-einfluss", "card-hotel-handtuch", "card-bewaehrtheit-grenze"],
+        "pairs": [
+          {"left": "Soziale Bewährtheit", "right": "Verhalten anderer als Orientierung bei Unsicherheit"},
+          {"left": "Informationaler Einfluss", "right": "Verhalten der vielen wird als Information gelesen"},
+          {"left": "Handtuch-Studie (2008)", "right": "Hinweis auf das Mehrheitsverhalten erhöhte die Wiederverwendung"},
+          {"left": "Augenmaß", "right": "die Mehrheit hat nicht automatisch recht"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-bewaehrtheit",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Setze den Kernsatz zusammen",
+      "exercise": {
+        "id": "ex-tiles-bewaehrtheit",
+        "type": "word_tiles",
+        "prompt": "Setze den Kernsatz zur sozialen Bewährtheit zusammen.",
+        "card_ids": ["card-soziale-bewaehrtheit"],
+        "tiles": ["Bei", "Unsicherheit", "orientieren", "wir", "uns", "an", "anderen"],
+        "hint": "Beginnt mit *Bei Unsicherheit …*."
+      }
+    }
+  ]
+}
