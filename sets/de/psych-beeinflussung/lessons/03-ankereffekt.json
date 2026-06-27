@@ -20,7 +20,16 @@
       "id": "card-anpassung",
       "front": "Unzureichende Anpassung",
       "back": "Menschen passen ihr Urteil ausgehend vom Anker an, hören dabei aber meist zu früh auf — das Ergebnis bleibt nahe am Anker",
-      "notes": "Anchoring-and-adjustment: die Anpassung fällt typischerweise zu gering aus.",
+      "notes": "Anchoring-and-Adjustment: das ursprüngliche Modell (Tversky & Kahneman, 1974) — die Anpassung fällt typischerweise zu gering aus.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["anker", "mechanismus"]
+    },
+    {
+      "id": "card-selektive-verfuegbarkeit",
+      "front": "Selektive Verfügbarkeit",
+      "back": "Moderne Verfeinerung (Strack & Mussweiler, 1997): Bei zufälligen, extern vorgegebenen Ankern aktiviert der Anker selektiv passende Informationen im Gedächtnis — diese werden leichter verfügbar und ziehen das Urteil in Richtung Anker",
+      "notes": "Selective Accessibility — ergänzt das ältere Anchoring-and-Adjustment-Modell, ersetzt es aber nicht. Gut erklärt für das Glücksrad-Beispiel.",
       "media_type": "text",
       "difficulty": 3,
       "tags": ["anker", "mechanismus"]
@@ -67,7 +76,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Wie der Anker wirkt",
-      "body": "# Der Ankereffekt\n\nDer **Ankereffekt** beschreibt, dass eine zuerst genannte Information — oft eine Zahl — als Bezugspunkt dient und Folgeurteile in ihre Richtung zieht.\n\n## Das klassische Experiment\n\n**Tversky & Kahneman (1974)** drehten vor den Augen der Versuchspersonen ein Glücksrad, das eine Zufallszahl anzeigte. Danach sollten die Personen schätzen, wie hoch der Anteil afrikanischer Länder in der UNO sei. Obwohl die Zahl *offensichtlich zufällig* war, lagen die Schätzungen näher an einem hohen Anker, wenn das Rad eine hohe Zahl gezeigt hatte — und näher an einem niedrigen Anker bei niedriger Zahl.\n\n## Anchoring and Adjustment\n\nEine Erklärung: Menschen starten beim Anker und passen ihr Urteil an — aber sie hören dabei meist *zu früh* auf. Die Anpassung fällt zu gering aus, das Ergebnis bleibt nahe am Anker.\n\n## Augenmaß\n\nDer Ankereffekt ist robust und vielfach repliziert. Trotzdem ist er **begrenzbar**: Wer den Anker bewusst hinterfragt, Gegenargumente sucht oder über Fachwissen verfügt, reduziert seinen Einfluss. Robust heißt nicht unausweichlich."
+      "body": "# Der Ankereffekt\n\nDer **Ankereffekt** beschreibt, dass eine zuerst genannte Information — oft eine Zahl — als Bezugspunkt dient und Folgeurteile in ihre Richtung zieht.\n\n## Das klassische Experiment\n\n**Tversky & Kahneman (1974)** drehten vor den Augen der Versuchspersonen ein Glücksrad, das eine Zufallszahl anzeigte. Danach sollten die Personen schätzen, wie hoch der Anteil afrikanischer Länder in der UNO sei. Obwohl die Zahl *offensichtlich zufällig* war, lagen die Schätzungen näher an einem hohen Anker, wenn das Rad eine hohe Zahl gezeigt hatte — und näher an einem niedrigen Anker bei niedriger Zahl.\n\n## Zwei Erklärungsmodelle\n\n**Ursprünglich — Anchoring and Adjustment (Tversky & Kahneman, 1974):** Menschen starten beim Anker und passen ihr Urteil an — aber sie hören dabei meist *zu früh* auf. Die Anpassung fällt zu gering aus, das Ergebnis bleibt nahe am Anker.\n\n**Moderne Verfeinerung — Selektive Verfügbarkeit (Strack & Mussweiler, 1997):** Besonders bei *zufälligen, extern vorgegebenen* Ankern (wie dem Glücksrad) passt man nicht einfach zu kurz an — der Anker *aktiviert selektiv* Informationen im Gedächtnis, die zu ihm passen. Diese bestätigenden Inhalte sind danach leichter verfügbar und verschieben das Urteil in Richtung Anker. Kurz: alt = *zu früh aufhören beim Anpassen*, neu = *das Gehirn sucht selektiv nach Infos, die zum Anker passen*. Beide Modelle stehen nebeneinander als Entwicklung der Theorie.\n\n## Augenmaß\n\nDer Ankereffekt ist robust und vielfach repliziert. Trotzdem ist er **begrenzbar**: Wer den Anker bewusst hinterfragt, Gegenargumente sucht oder über Fachwissen verfügt, reduziert seinen Einfluss. Robust heißt nicht unausweichlich."
     },
     {
       "id": "ex-free-anker",
@@ -140,10 +149,11 @@
         "id": "ex-match-anker",
         "type": "matching",
         "prompt": "Ordne jedem Begriff die passende Aussage zu.",
-        "card_ids": ["card-anker", "card-anpassung", "card-anker-verhandlung", "card-anker-grenze"],
+        "card_ids": ["card-anker", "card-anpassung", "card-selektive-verfuegbarkeit", "card-anker-verhandlung", "card-anker-grenze"],
         "pairs": [
           {"left": "Anker", "right": "zuerst genannter Bezugspunkt für Folgeurteile"},
-          {"left": "Unzureichende Anpassung", "right": "die Korrektur vom Anker fällt zu gering aus"},
+          {"left": "Unzureichende Anpassung", "right": "ursprüngliches Modell: die Korrektur vom Anker fällt zu gering aus"},
+          {"left": "Selektive Verfügbarkeit", "right": "moderne Verfeinerung: der Anker aktiviert passende Infos im Gedächtnis"},
           {"left": "Erstes Angebot", "right": "setzt in Verhandlungen einen Bezugsrahmen"},
           {"left": "Hinterfragen und Fachwissen", "right": "können den Anker-Einfluss reduzieren"}
         ],
