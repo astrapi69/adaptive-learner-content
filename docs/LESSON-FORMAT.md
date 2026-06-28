@@ -24,6 +24,14 @@ extend the format.
 - **Shared quality minimums:** [`schema/quality-rules.json`](../schema/quality-rules.json)
   (`minExercisesPerLesson`, `minExerciseTypes`, `minFreeTextAccepts`,
   `minMatchingPairs`, `minTheorySteps`).
+- **Which exercise type for which learning goal (didactic guideline, EXP-041):**
+  the schema tells you the *shape* of each type, not *when* to use it. Choose the
+  type by learning goal — facts/definitions as `cloze` (or multiple choice via
+  `cloze` `select` mode), `word_tiles` only for sentences with one unambiguous
+  word order, and never exact-match grading for free production (it red-marks a
+  content-correct learner). Full guideline in the app authoring guide:
+  English — <https://astrapi69.github.io/adaptive-learner/docs/en/developer/authoring-content/>
+  · Deutsch — <https://astrapi69.github.io/adaptive-learner/docs/de/developer/authoring-content/>
 
 ## Validating your content here
 
