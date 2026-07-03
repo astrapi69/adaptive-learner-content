@@ -1,0 +1,344 @@
+{
+  "id": "06-neuronale-netze",
+  "title": "Neuronale Netze und Deep Learning",
+  "description": "Die Grundidee neuronaler Netze — Schichten, Gewichte und Lernen — und wofür Deep Learning stark ist und wofür nicht.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "neuronales-netz",
+      "front": "Neuronales Netz",
+      "back": "Ein Modell aus vielen einfachen Recheneinheiten (Neuronen), die in Schichten verbunden sind.",
+      "notes": "Lose vom Gehirn inspiriert, aber kein Abbild davon.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "schicht",
+      "front": "Schicht (Layer)",
+      "back": "Eine Ebene von Neuronen im Netz; Daten fließen von Schicht zu Schicht.",
+      "notes": "Eingabeschicht, verborgene Schichten, Ausgabeschicht.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "gewicht",
+      "front": "Gewicht",
+      "back": "Eine einstellbare Zahl, die festlegt, wie stark ein Signal weitergegeben wird.",
+      "notes": "Englisch: weight. Beim Lernen werden die Gewichte angepasst.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "deep-learning",
+      "front": "Deep Learning",
+      "back": "Maschinelles Lernen mit neuronalen Netzen aus vielen Schichten (tief).",
+      "notes": "Stark bei Bildern, Sprache und Audio — braucht aber viele Daten und Rechenleistung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "lernen-netz",
+      "front": "Lernen im Netz",
+      "back": "Das Netz vergleicht seine Ausgabe mit der richtigen Antwort und passt die Gewichte schrittweise an.",
+      "notes": "Millionen kleiner Korrekturen, bis der Fehler klein ist.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "blackbox",
+      "front": "Blackbox",
+      "back": "Ein Modell, dessen inneres Zustandekommen einer Entscheidung schwer nachvollziehbar ist.",
+      "notes": "Große neuronale Netze sind oft schwer erklärbar.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "dl-stark",
+      "front": "Stärken von Deep Learning",
+      "back": "Sehr gut bei unstrukturierten Daten wie Bildern, Sprache und Ton mit vielen Beispielen.",
+      "notes": "Erkennt komplexe Muster, die man nicht von Hand beschreiben kann.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "dl-schwach",
+      "front": "Grenzen von Deep Learning",
+      "back": "Braucht viele Daten und Rechenleistung, ist schwer erklärbar und kann Fehler selbstbewusst machen.",
+      "notes": "Bei kleinen, tabellarischen Daten sind einfache Modelle oft besser.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "data-science"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Neuronen, Schichten, Gewichte",
+      "body": "# Neuronale Netze\n\nEin **neuronales Netz** besteht aus vielen einfachen Recheneinheiten (**Neuronen**), die in **Schichten** angeordnet sind. Daten fließen von der **Eingabeschicht** über **verborgene Schichten** zur **Ausgabeschicht**.\n\nJede Verbindung hat ein **Gewicht** — eine Zahl, die festlegt, **wie stark** ein Signal weitergegeben wird. Die Idee ist lose vom Gehirn inspiriert, aber ein Netz ist **kein Abbild** des Gehirns, sondern reine Rechnerei."
+    },
+    {
+      "id": "step-lernen",
+      "type": "theory",
+      "title": "Wie ein Netz lernt",
+      "body": "## Lernen heißt Gewichte anpassen\n\nEin Netz **lernt**, indem es seine **Gewichte** anpasst:\n\n1. Es macht eine **Vorhersage**.\n2. Es **vergleicht** sie mit der richtigen Antwort (dem Label).\n3. Es **korrigiert** die Gewichte ein kleines Stück in Richtung der richtigen Antwort.\n\nÜber **Millionen** solcher kleinen Korrekturen sinkt der Fehler. **Deep Learning** heißt: das Netz hat **viele Schichten** (es ist „tief\") und kann so sehr komplexe Muster erfassen."
+    },
+    {
+      "id": "step-staerken",
+      "type": "theory",
+      "title": "Stark — und wo nicht",
+      "body": "## Wofür Deep Learning taugt\n\n**Stark** ist Deep Learning bei **unstrukturierten Daten** mit vielen Beispielen: **Bilder, Sprache, Audio**. Es erkennt Muster, die man **nicht von Hand** beschreiben könnte.\n\n**Grenzen:**\n\n- Es braucht **viele Daten** und **Rechenleistung**.\n- Es ist oft eine **Blackbox** — schwer erklärbar.\n- Es kann Fehler **selbstbewusst** machen.\n\nBei **kleinen, tabellarischen** Daten sind **einfache** Modelle oft **besser** und sparsamer."
+    },
+    {
+      "id": "ex-match-teile",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Teile des Netzes",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jeden Begriff seiner Bedeutung zu.",
+        "card_ids": [
+          "schicht",
+          "gewicht",
+          "neuronales-netz"
+        ],
+        "pairs": [
+          {
+            "left": "Neuron",
+            "right": "einfache Recheneinheit"
+          },
+          {
+            "left": "Schicht",
+            "right": "eine Ebene von Neuronen"
+          },
+          {
+            "left": "Gewicht",
+            "right": "regelt die Signalstärke"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-teile"
+      }
+    },
+    {
+      "id": "ex-mc-lernen",
+      "type": "exercise",
+      "theory_ref": "step-lernen",
+      "title": "Was wird angepasst?",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Was passt ein neuronales Netz beim Lernen an?",
+        "card_ids": [
+          "gewicht",
+          "lernen-netz"
+        ],
+        "sentence": "Beim Lernen passt ein Netz seine ___ an.",
+        "blanks": [
+          {
+            "accept": [
+              "Gewichte"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Schichten",
+          "Neuronenzahl",
+          "Eingabedaten"
+        ],
+        "hint": "Kleine Korrekturen, viele Male.",
+        "id": "ex-mc-lernen"
+      }
+    },
+    {
+      "id": "ex-mc-deep",
+      "type": "exercise",
+      "theory_ref": "step-staerken",
+      "title": "Wofür stark?",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wofür ist Deep Learning besonders stark?",
+        "card_ids": [
+          "deep-learning",
+          "dl-stark"
+        ],
+        "sentence": "Deep Learning ist besonders stark bei ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Bildern und Sprache"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "kleinen Tabellen",
+          "einfachen Summen",
+          "wenigen Beispielen"
+        ],
+        "hint": "Unstrukturierte Daten mit vielen Beispielen.",
+        "id": "ex-mc-deep"
+      }
+    },
+    {
+      "id": "ex-cloze-tief",
+      "type": "exercise",
+      "theory_ref": "step-lernen",
+      "title": "Warum „deep\"?",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze, was ein Netz „tief\" (deep) macht.",
+        "card_ids": [
+          "deep-learning",
+          "schicht"
+        ],
+        "sentence": "Ein Netz ist „tief\", wenn es viele ___ hat.",
+        "blanks": [
+          {
+            "accept": [
+              "Schichten",
+              "schichten",
+              "Layer"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englisch: layers.",
+        "id": "ex-cloze-tief"
+      }
+    },
+    {
+      "id": "ex-cloze-blackbox",
+      "type": "exercise",
+      "theory_ref": "step-staerken",
+      "title": "Schwer erklärbar",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für ein schwer nachvollziehbares Modell.",
+        "card_ids": [
+          "blackbox"
+        ],
+        "sentence": "Ein Modell, dessen Entscheidung schwer nachvollziehbar ist, nennt man ___ .",
+        "blanks": [
+          {
+            "accept": [
+              "Blackbox",
+              "blackbox",
+              "Black Box"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englischer Begriff.",
+        "id": "ex-cloze-blackbox"
+      }
+    },
+    {
+      "id": "ex-match-staerken",
+      "type": "exercise",
+      "theory_ref": "step-staerken",
+      "title": "Stärke oder Grenze?",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jede Aussage richtig zu.",
+        "card_ids": [
+          "dl-stark",
+          "dl-schwach"
+        ],
+        "pairs": [
+          {
+            "left": "erkennt Muster in Bildern",
+            "right": "Stärke"
+          },
+          {
+            "left": "braucht viele Daten",
+            "right": "Grenze"
+          },
+          {
+            "left": "schwer erklärbar",
+            "right": "Grenze"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-staerken"
+      }
+    },
+    {
+      "id": "ex-tiles-gehirn",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Merksatz Netz",
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": [
+          "neuronales-netz"
+        ],
+        "tiles": [
+          "Ein",
+          "Netz",
+          "ist",
+          "kein",
+          "Abbild",
+          "des",
+          "Gehirns"
+        ],
+        "hint": "Beginnt mit: Ein Netz ist kein …",
+        "direction": "target_to_source",
+        "id": "ex-tiles-gehirn"
+      }
+    },
+    {
+      "id": "ex-free-gewicht",
+      "type": "exercise",
+      "theory_ref": "step-lernen",
+      "title": "Die einstellbare Zahl",
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Wie heißt die einstellbare Zahl, die die Signalstärke im Netz regelt?",
+        "card_ids": [
+          "gewicht"
+        ],
+        "accept": [
+          "Gewicht",
+          "Gewichte",
+          "das Gewicht"
+        ],
+        "hint": "Englisch: weight.",
+        "distractors": [
+          "Schicht",
+          "Neuron",
+          "Label"
+        ],
+        "direction": "target_to_source",
+        "id": "ex-free-gewicht"
+      }
+    }
+  ]
+}

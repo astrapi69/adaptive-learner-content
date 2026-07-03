@@ -1,0 +1,343 @@
+{
+  "id": "08-ki-im-einsatz",
+  "title": "KI im Einsatz",
+  "description": "Typische Anwendungsfälle — Empfehlungen, Erkennung, Assistenz — sowie die Grenzen und Kosten von KI-Systemen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "empfehlung",
+      "front": "Empfehlung",
+      "back": "KI schlägt passende Inhalte oder Produkte vor, gelernt aus dem Verhalten vieler Nutzer.",
+      "notes": "Beispiel: Streaming-Vorschläge, Online-Shops.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "erkennung",
+      "front": "Erkennung",
+      "back": "KI erkennt Muster in Daten — etwa Objekte auf Bildern oder Betrug in Zahlungen.",
+      "notes": "Beispiel: Bilderkennung, Betrugserkennung, Spamfilter.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "assistenz",
+      "front": "Assistenz",
+      "back": "KI unterstützt Menschen bei Aufgaben — Texte entwerfen, übersetzen, zusammenfassen.",
+      "notes": "Beispiel: Schreibassistenten, Übersetzer, Chatbots.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "automatisierung",
+      "front": "Automatisierung",
+      "back": "Wiederkehrende Aufgaben laufen ohne ständiges Zutun ab.",
+      "notes": "KI kann Routine übernehmen und Menschen entlasten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "grenze-kontext",
+      "front": "Grenze: kein echtes Verständnis",
+      "back": "KI erkennt Muster, versteht aber Sinn und Kontext nicht wie ein Mensch.",
+      "notes": "Sie kann bei Ungewohntem oder Mehrdeutigem scheitern.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "kosten",
+      "front": "Kosten von KI",
+      "back": "Training und Betrieb kosten Rechenleistung, Energie und Geld.",
+      "notes": "Große Modelle sind teuer; nicht jede Aufgabe rechtfertigt sie.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "mensch-im-loop",
+      "front": "Mensch in der Schleife",
+      "back": "Ein Mensch prüft und verantwortet wichtige KI-Entscheidungen.",
+      "notes": "Englisch: human in the loop. Besonders bei folgenreichen Entscheidungen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "passende-aufgabe",
+      "front": "Passende Aufgabe wählen",
+      "back": "KI lohnt sich bei klaren, wiederkehrenden Mustern mit genügend Daten.",
+      "notes": "Bei seltenen Einzelfällen ist ein Mensch oft besser.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "data-science"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Drei typische Anwendungsfälle",
+      "body": "# KI im Einsatz\n\nDie meisten KI-Anwendungen fallen in drei Muster:\n\n- **Empfehlung** — passende Inhalte vorschlagen (Streaming, Shops).\n- **Erkennung** — Muster in Daten finden (Objekte auf Bildern, Betrug, Spam).\n- **Assistenz** — Menschen bei Aufgaben unterstützen (Texte entwerfen, übersetzen, zusammenfassen).\n\nOft steckt dahinter **Automatisierung**: Routine läuft ohne ständiges Zutun und entlastet Menschen für das Wesentliche."
+    },
+    {
+      "id": "step-grenzen",
+      "type": "theory",
+      "title": "Grenzen kennen",
+      "body": "## Was KI (noch) nicht kann\n\nKI erkennt **Muster**, aber sie **versteht** Sinn und Kontext nicht wie ein Mensch. Typische Grenzen:\n\n- Sie scheitert bei **Ungewohntem** oder **Mehrdeutigem**.\n- Sie kann Fehler **selbstbewusst** machen.\n- Sie ist nur so gut wie ihre **Daten**.\n\nDeshalb behält man bei folgenreichen Entscheidungen einen **Menschen in der Schleife**, der prüft und **verantwortet**."
+    },
+    {
+      "id": "step-kosten",
+      "type": "theory",
+      "title": "Kosten und Auswahl",
+      "body": "## Lohnt sich KI hier?\n\nKI ist nicht gratis: **Training und Betrieb** kosten **Rechenleistung, Energie und Geld**. Große Modelle sind **teuer** — nicht jede Aufgabe rechtfertigt sie.\n\nEine gute Faustregel: KI lohnt sich bei **klaren, wiederkehrenden Mustern** mit **genügend Daten**. Bei **seltenen Einzelfällen** oder wenn ein einfaches Regelwerk reicht, ist der Aufwand oft **nicht** gerechtfertigt. **Die passende Aufgabe wählen** ist die halbe Miete."
+    },
+    {
+      "id": "ex-match-faelle",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Anwendungsfall zuordnen",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedes Beispiel seinem Anwendungsfall zu.",
+        "card_ids": [
+          "empfehlung",
+          "erkennung",
+          "assistenz"
+        ],
+        "pairs": [
+          {
+            "left": "Streaming-Vorschläge",
+            "right": "Empfehlung"
+          },
+          {
+            "left": "Betrug in Zahlungen finden",
+            "right": "Erkennung"
+          },
+          {
+            "left": "einen Text entwerfen",
+            "right": "Assistenz"
+          },
+          {
+            "left": "Objekte auf Bildern finden",
+            "right": "Erkennung"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-faelle"
+      }
+    },
+    {
+      "id": "ex-mc-loop",
+      "type": "exercise",
+      "theory_ref": "step-grenzen",
+      "title": "Wer verantwortet?",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wer sollte folgenreiche KI-Entscheidungen prüfen und verantworten?",
+        "card_ids": [
+          "mensch-im-loop"
+        ],
+        "sentence": "Bei folgenreichen Entscheidungen bleibt ___ in der Schleife.",
+        "blanks": [
+          {
+            "accept": [
+              "ein Mensch"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "die KI allein",
+          "der Zufall",
+          "niemand"
+        ],
+        "hint": "Englisch: human in the loop.",
+        "id": "ex-mc-loop"
+      }
+    },
+    {
+      "id": "ex-mc-lohnt",
+      "type": "exercise",
+      "theory_ref": "step-kosten",
+      "title": "Wann lohnt KI?",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wann lohnt sich der Einsatz von KI am ehesten?",
+        "card_ids": [
+          "passende-aufgabe",
+          "kosten"
+        ],
+        "sentence": "KI lohnt sich vor allem bei ___.",
+        "blanks": [
+          {
+            "accept": [
+              "klaren, wiederkehrenden Mustern"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "seltenen Einzelfällen",
+          "völlig neuen Ausnahmen",
+          "sehr wenigen Daten"
+        ],
+        "hint": "Genug Daten, klares Muster.",
+        "id": "ex-mc-lohnt"
+      }
+    },
+    {
+      "id": "ex-cloze-erkennung",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Muster finden",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze den Anwendungsfall für das Finden von Mustern wie Betrug oder Objekten.",
+        "card_ids": [
+          "erkennung"
+        ],
+        "sentence": "Betrug oder Objekte in Daten aufzuspüren ist ein Fall von ___ .",
+        "blanks": [
+          {
+            "accept": [
+              "Erkennung",
+              "erkennung"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Beispiel: Bilderkennung.",
+        "id": "ex-cloze-erkennung"
+      }
+    },
+    {
+      "id": "ex-cloze-kosten",
+      "type": "exercise",
+      "theory_ref": "step-kosten",
+      "title": "Nicht gratis",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze, was Training und Betrieb großer Modelle vor allem kosten.",
+        "card_ids": [
+          "kosten"
+        ],
+        "sentence": "Training und Betrieb großer Modelle kosten viel ___ und Energie.",
+        "blanks": [
+          {
+            "accept": [
+              "Rechenleistung",
+              "rechenleistung",
+              "Geld"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Teuer bei großen Modellen.",
+        "id": "ex-cloze-kosten"
+      }
+    },
+    {
+      "id": "ex-match-grenzen",
+      "type": "exercise",
+      "theory_ref": "step-grenzen",
+      "title": "Stärke oder Grenze?",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jede Aussage richtig zu.",
+        "card_ids": [
+          "assistenz",
+          "grenze-kontext"
+        ],
+        "pairs": [
+          {
+            "left": "Texte schnell entwerfen",
+            "right": "Stärke"
+          },
+          {
+            "left": "Mehrdeutiges sicher verstehen",
+            "right": "Grenze"
+          },
+          {
+            "left": "Routine automatisieren",
+            "right": "Stärke"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-grenzen"
+      }
+    },
+    {
+      "id": "ex-tiles-loop",
+      "type": "exercise",
+      "theory_ref": "step-grenzen",
+      "title": "Merksatz Verantwortung",
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": [
+          "mensch-im-loop"
+        ],
+        "tiles": [
+          "Ein",
+          "Mensch",
+          "prüft",
+          "wichtige",
+          "Entscheidungen"
+        ],
+        "hint": "Beginnt mit: Ein Mensch prüft …",
+        "direction": "target_to_source",
+        "id": "ex-tiles-loop"
+      }
+    },
+    {
+      "id": "ex-free-assistenz",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Unterstützen",
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Wie nennt man den KI-Anwendungsfall, der Menschen bei Aufgaben unterstützt?",
+        "card_ids": [
+          "assistenz"
+        ],
+        "accept": [
+          "Assistenz",
+          "Assistenzsystem",
+          "Assistent"
+        ],
+        "hint": "Texte entwerfen, übersetzen, zusammenfassen.",
+        "distractors": [
+          "Empfehlung",
+          "Erkennung",
+          "Automatisierung"
+        ],
+        "direction": "target_to_source",
+        "id": "ex-free-assistenz"
+      }
+    }
+  ]
+}

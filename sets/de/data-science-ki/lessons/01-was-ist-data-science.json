@@ -1,0 +1,353 @@
+{
+  "id": "01-was-ist-data-science",
+  "title": "Was ist Data Science?",
+  "description": "Daten als Rohstoff, der Weg von Daten zu Entscheidungen und die Abgrenzung von KI, Machine Learning und Data Science.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "data-science",
+      "front": "Data Science",
+      "back": "Das Fachgebiet, das aus Daten mit statistischen und maschinellen Methoden nutzbares Wissen gewinnt.",
+      "notes": "Verbindet Statistik, Programmierung und Fachwissen. Ziel sind bessere Entscheidungen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "daten",
+      "front": "Daten",
+      "back": "Aufgezeichnete Fakten wie Zahlen, Texte, Bilder oder Messwerte — der Rohstoff jeder Analyse.",
+      "notes": "Erst durch Auswertung werden aus Daten Informationen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "ki",
+      "front": "Künstliche Intelligenz (KI)",
+      "back": "Oberbegriff für Systeme, die Aufgaben lösen, für die man sonst menschliche Intelligenz braucht.",
+      "notes": "Englisch: Artificial Intelligence. Machine Learning ist ein Teilgebiet der KI.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "ml",
+      "front": "Machine Learning (ML)",
+      "back": "Teilgebiet der KI, in dem ein Modell Muster aus Beispieldaten lernt, statt fest programmiert zu werden.",
+      "notes": "Deutsch: maschinelles Lernen. Der Kern der meisten heutigen KI-Anwendungen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "modell",
+      "front": "Modell",
+      "back": "Eine aus Daten gelernte Regel, die für neue Fälle Vorhersagen oder Einordnungen liefert.",
+      "notes": "Ein Modell ist immer eine Vereinfachung der Wirklichkeit.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "entscheidung",
+      "front": "Datengetriebene Entscheidung",
+      "back": "Eine Entscheidung, die auf ausgewerteten Daten statt nur auf Bauchgefühl beruht.",
+      "notes": "Daten unterstützen das Urteil — sie ersetzen es nicht.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "pipeline",
+      "front": "Daten-zu-Entscheidung",
+      "back": "Der Weg: Daten sammeln, bereinigen, analysieren, interpretieren und daraus handeln.",
+      "notes": "Jede Stufe kann das Ergebnis verbessern oder verfälschen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "fachwissen",
+      "front": "Domänenwissen",
+      "back": "Das Wissen über das Sachgebiet, aus dem die Daten stammen — nötig, um Ergebnisse richtig zu deuten.",
+      "notes": "Englisch: domain knowledge. Ohne Kontext sind Zahlen leicht misszuverstehen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Daten als Rohstoff",
+      "body": "# Was ist Data Science?\n\n**Data Science** gewinnt aus Daten nutzbares Wissen. Daten sind der **Rohstoff**: aufgezeichnete Fakten wie Messwerte, Klicks, Texte oder Bilder.\n\nWie Rohöl erst nach der Verarbeitung wertvoll wird, werden auch Daten erst durch Auswertung nützlich. Data Science verbindet dafür drei Zutaten:\n\n- **Statistik** — um Muster und Zufall zu unterscheiden,\n- **Programmierung** — um große Datenmengen zu verarbeiten,\n- **Domänenwissen** — um Ergebnisse im richtigen Kontext zu deuten."
+    },
+    {
+      "id": "step-weg",
+      "type": "theory",
+      "title": "Von Daten zu Entscheidungen",
+      "body": "## Der Weg zur Entscheidung\n\nData Science folgt meist einem Weg in mehreren Stufen:\n\n1. **Sammeln** — die passenden Daten beschaffen.\n2. **Bereinigen** — Fehler, Lücken und Ausreißer behandeln.\n3. **Analysieren** — Muster und Zusammenhänge suchen.\n4. **Interpretieren** — Ergebnisse im Fachkontext deuten.\n5. **Handeln** — eine **datengetriebene Entscheidung** treffen.\n\nDaten unterstützen das Urteil, sie ersetzen es nicht: Am Ende entscheidet ein Mensch."
+    },
+    {
+      "id": "step-abgrenzung",
+      "type": "theory",
+      "title": "KI, ML und Data Science",
+      "body": "## Wie hängt das zusammen?\n\nDie Begriffe werden oft vermischt, meinen aber Unterschiedliches:\n\n| Begriff | Kern |\n|---|---|\n| **Künstliche Intelligenz** | Oberbegriff für „intelligente\" Systeme |\n| **Machine Learning** | Teilgebiet der KI: lernt Muster aus Daten |\n| **Data Science** | Wissen aus Daten gewinnen — nutzt oft ML |\n\nMerke: **Machine Learning ist ein Teil der KI.** Data Science ist breiter und schließt auch Statistik, Aufbereitung und Interpretation ein."
+    },
+    {
+      "id": "ex-match-begriffe",
+      "type": "exercise",
+      "theory_ref": "step-abgrenzung",
+      "title": "Begriff und Kern",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jeden Begriff seiner Kernidee zu.",
+        "card_ids": [
+          "ki",
+          "ml",
+          "data-science"
+        ],
+        "pairs": [
+          {
+            "left": "Künstliche Intelligenz",
+            "right": "Oberbegriff für intelligente Systeme"
+          },
+          {
+            "left": "Machine Learning",
+            "right": "lernt Muster aus Beispieldaten"
+          },
+          {
+            "left": "Data Science",
+            "right": "gewinnt Wissen aus Daten"
+          },
+          {
+            "left": "Domänenwissen",
+            "right": "Fachwissen zur Deutung der Daten"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-begriffe"
+      }
+    },
+    {
+      "id": "ex-mc-ml-teil",
+      "type": "exercise",
+      "theory_ref": "step-abgrenzung",
+      "title": "ML und KI",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie verhält sich Machine Learning zur künstlichen Intelligenz?",
+        "card_ids": [
+          "ml",
+          "ki"
+        ],
+        "sentence": "Machine Learning ist ___.",
+        "blanks": [
+          {
+            "accept": [
+              "ein Teilgebiet der KI"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "der Oberbegriff für KI",
+          "dasselbe wie Data Science",
+          "unabhängig von KI"
+        ],
+        "hint": "KI ist der weitere Begriff.",
+        "id": "ex-mc-ml-teil"
+      }
+    },
+    {
+      "id": "ex-mc-rohstoff",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Der Rohstoff",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Was ist in der Data Science der Rohstoff jeder Analyse?",
+        "card_ids": [
+          "daten"
+        ],
+        "sentence": "Der Rohstoff jeder Analyse sind ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Daten"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Modelle",
+          "Entscheidungen",
+          "Meinungen"
+        ],
+        "hint": "Er wird erst durch Auswertung wertvoll.",
+        "id": "ex-mc-rohstoff"
+      }
+    },
+    {
+      "id": "ex-cloze-domaene",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Drei Zutaten",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze die dritte Zutat der Data Science neben Statistik und Programmierung.",
+        "card_ids": [
+          "fachwissen"
+        ],
+        "sentence": "Neben Statistik und Programmierung braucht Data Science auch ___ , um Ergebnisse richtig zu deuten.",
+        "blanks": [
+          {
+            "accept": [
+              "Domänenwissen",
+              "Fachwissen",
+              "Domaenenwissen"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Wissen über das Sachgebiet.",
+        "id": "ex-cloze-domaene"
+      }
+    },
+    {
+      "id": "ex-cloze-modell",
+      "type": "exercise",
+      "theory_ref": "step-weg",
+      "title": "Was ein Modell ist",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze, was ein Modell immer ist.",
+        "card_ids": [
+          "modell"
+        ],
+        "sentence": "Ein Modell ist immer eine ___ der Wirklichkeit.",
+        "blanks": [
+          {
+            "accept": [
+              "Vereinfachung",
+              "vereinfachung"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Es bildet die Welt nie vollständig ab.",
+        "id": "ex-cloze-modell"
+      }
+    },
+    {
+      "id": "ex-match-weg",
+      "type": "exercise",
+      "theory_ref": "step-weg",
+      "title": "Stufen des Wegs",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jeder Stufe ihre Aufgabe zu.",
+        "card_ids": [
+          "pipeline",
+          "daten"
+        ],
+        "pairs": [
+          {
+            "left": "Sammeln",
+            "right": "die passenden Daten beschaffen"
+          },
+          {
+            "left": "Bereinigen",
+            "right": "Fehler und Lücken behandeln"
+          },
+          {
+            "left": "Analysieren",
+            "right": "Muster und Zusammenhänge suchen"
+          },
+          {
+            "left": "Handeln",
+            "right": "eine Entscheidung treffen"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-weg"
+      }
+    },
+    {
+      "id": "ex-tiles-merksatz",
+      "type": "exercise",
+      "theory_ref": "step-abgrenzung",
+      "title": "Merksatz",
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": [
+          "ml",
+          "ki"
+        ],
+        "tiles": [
+          "Machine",
+          "Learning",
+          "ist",
+          "ein",
+          "Teil",
+          "der",
+          "KI"
+        ],
+        "hint": "Beginnt mit: Machine Learning ist …",
+        "direction": "target_to_source",
+        "id": "ex-tiles-merksatz"
+      }
+    },
+    {
+      "id": "ex-free-dreisatz",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Eine Zutat nennen",
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Nenne eine der drei Zutaten der Data Science.",
+        "card_ids": [
+          "data-science",
+          "fachwissen"
+        ],
+        "accept": [
+          "Statistik",
+          "Programmierung",
+          "Domänenwissen",
+          "Domaenenwissen",
+          "Fachwissen"
+        ],
+        "hint": "Statistik, Programmierung oder …",
+        "distractors": [
+          "Marketing",
+          "Buchhaltung",
+          "Design"
+        ],
+        "direction": "target_to_source",
+        "id": "ex-free-dreisatz"
+      }
+    }
+  ]
+}

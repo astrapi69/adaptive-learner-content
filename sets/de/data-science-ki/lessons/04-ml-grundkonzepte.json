@@ -1,0 +1,347 @@
+{
+  "id": "04-ml-grundkonzepte",
+  "title": "Maschinelles Lernen: Grundkonzepte",
+  "description": "Überwachtes und unüberwachtes Lernen, Training und Test sowie Features und Labels.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "ueberwacht",
+      "front": "Überwachtes Lernen",
+      "back": "Das Modell lernt aus Beispielen mit bekannter richtiger Antwort (Label).",
+      "notes": "Englisch: supervised learning. Beispiel: Fotos mit „Hund/Katze\"-Beschriftung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "unueberwacht",
+      "front": "Unüberwachtes Lernen",
+      "back": "Das Modell sucht ohne vorgegebene Antworten selbst Strukturen in den Daten.",
+      "notes": "Englisch: unsupervised learning. Beispiel: Kunden in Gruppen einteilen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "feature",
+      "front": "Feature (Merkmal)",
+      "back": "Eine Eingabegröße, aus der das Modell lernt — z. B. Alter, Preis, Wortanzahl.",
+      "notes": "Deutsch: Merkmal. Gute Features sind oft wichtiger als das Modell selbst.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "label",
+      "front": "Label (Zielwert)",
+      "back": "Die bekannte richtige Antwort in den Trainingsdaten des überwachten Lernens.",
+      "notes": "Deutsch: Zielwert / Beschriftung. Beim unüberwachten Lernen fehlt es.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "training",
+      "front": "Trainingsdaten",
+      "back": "Die Daten, aus denen das Modell seine Regeln lernt.",
+      "notes": "Englisch: training set. Je repräsentativer, desto besser das Modell.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "test",
+      "front": "Testdaten",
+      "back": "Zurückgehaltene Daten, an denen man prüft, wie gut das Modell auf Neues wirkt.",
+      "notes": "Englisch: test set. Sie dürfen im Training nicht vorkommen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "klassifikation",
+      "front": "Klassifikation",
+      "back": "Überwachte Aufgabe, bei der das Modell einer Eingabe eine Kategorie zuweist.",
+      "notes": "Beispiel: Spam oder Nicht-Spam. Label sind Kategorien.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "clustering",
+      "front": "Clustering",
+      "back": "Unüberwachte Aufgabe, bei der ähnliche Datenpunkte zu Gruppen zusammengefasst werden.",
+      "notes": "Beispiel: Kundensegmente. Ohne vorher bekannte Gruppen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "data-science"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Überwacht oder unüberwacht",
+      "body": "# Wie Maschinen lernen\n\nZwei Grundarten des maschinellen Lernens:\n\n- **Überwachtes Lernen** — die Trainingsbeispiele tragen die **richtige Antwort** (ein **Label**). Das Modell lernt den Zusammenhang von Eingabe zu Antwort. Beispiel: Fotos, beschriftet mit „Hund\" oder „Katze\".\n- **Unüberwachtes Lernen** — es gibt **keine** vorgegebenen Antworten. Das Modell sucht **selbst** Strukturen, etwa ähnliche Kunden. Beispiel: **Clustering**.\n\nMerke: **Label vorhanden → überwacht. Kein Label → unüberwacht.**"
+    },
+    {
+      "id": "step-feature-label",
+      "type": "theory",
+      "title": "Features und Labels",
+      "body": "## Eingabe und Ziel\n\nIm überwachten Lernen unterscheidet man zwei Rollen:\n\n- **Features** (Merkmale) sind die **Eingabegrößen** — z. B. Alter, Preis, Wortanzahl einer E-Mail.\n- Das **Label** ist die **gesuchte Antwort** — z. B. „Spam\" oder „kein Spam\".\n\nDas Modell lernt, von den **Features** auf das **Label** zu schließen. In der Praxis gilt oft: **Gute Features** sind wichtiger als ein besonders raffiniertes Modell."
+    },
+    {
+      "id": "step-train-test",
+      "type": "theory",
+      "title": "Training und Test",
+      "body": "## Getrennt üben und prüfen\n\nMan teilt die Daten in zwei Teile:\n\n- **Trainingsdaten** — daraus **lernt** das Modell seine Regeln.\n- **Testdaten** — daran **prüft** man, wie gut es auf **neue** Fälle wirkt.\n\nEntscheidend: Die Testdaten dürfen im Training **nicht** vorkommen. Sonst prüft man nur das Auswendiglernen. Diese Trennung ist die Grundlage jeder ehrlichen Bewertung (mehr dazu in der nächsten Lektion)."
+    },
+    {
+      "id": "ex-match-feature-label",
+      "type": "exercise",
+      "theory_ref": "step-feature-label",
+      "title": "Feature, Label, Training, Test",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jeden Grundbegriff seiner Bedeutung zu.",
+        "card_ids": [
+          "feature",
+          "label",
+          "training",
+          "test"
+        ],
+        "pairs": [
+          {
+            "left": "Feature",
+            "right": "Eingabemerkmal, aus dem gelernt wird"
+          },
+          {
+            "left": "Label",
+            "right": "die bekannte richtige Antwort"
+          },
+          {
+            "left": "Trainingsdaten",
+            "right": "woraus das Modell lernt"
+          },
+          {
+            "left": "Testdaten",
+            "right": "woran das Modell geprüft wird"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-feature-label"
+      }
+    },
+    {
+      "id": "ex-mc-supervised",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Mit Antwort",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie nennt man Lernen aus Beispielen mit bekannter richtiger Antwort?",
+        "card_ids": [
+          "ueberwacht",
+          "label"
+        ],
+        "sentence": "Lernen mit vorgegebenen Labels heißt ___ Lernen.",
+        "blanks": [
+          {
+            "accept": [
+              "überwachtes"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "unüberwachtes",
+          "zufälliges",
+          "selbstständiges"
+        ],
+        "hint": "Label vorhanden.",
+        "id": "ex-mc-supervised"
+      }
+    },
+    {
+      "id": "ex-mc-clustering",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Ohne Antwort",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Zu welcher Lernart gehört das Bilden von Kundengruppen ohne vorgegebene Gruppen?",
+        "card_ids": [
+          "unueberwacht",
+          "clustering"
+        ],
+        "sentence": "Kundengruppen ohne vorgegebene Labels zu bilden ist ___ Lernen.",
+        "blanks": [
+          {
+            "accept": [
+              "unüberwachtes"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "überwachtes",
+          "beschriftetes",
+          "getestetes"
+        ],
+        "hint": "Kein Label vorhanden.",
+        "id": "ex-mc-clustering"
+      }
+    },
+    {
+      "id": "ex-cloze-feature",
+      "type": "exercise",
+      "theory_ref": "step-feature-label",
+      "title": "Die Eingabegröße",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für eine Eingabegröße, aus der ein Modell lernt.",
+        "card_ids": [
+          "feature"
+        ],
+        "sentence": "Eine Eingabegröße wie Alter oder Preis nennt man ___ (Merkmal).",
+        "blanks": [
+          {
+            "accept": [
+              "Feature",
+              "feature",
+              "Merkmal"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englischer Fachbegriff.",
+        "id": "ex-cloze-feature"
+      }
+    },
+    {
+      "id": "ex-cloze-test",
+      "type": "exercise",
+      "theory_ref": "step-train-test",
+      "title": "Nicht im Training",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze, welche Daten im Training nicht vorkommen dürfen.",
+        "card_ids": [
+          "test"
+        ],
+        "sentence": "Um ehrlich zu prüfen, dürfen die ___ im Training nicht vorkommen.",
+        "blanks": [
+          {
+            "accept": [
+              "Testdaten",
+              "Testdaten",
+              "Testmenge"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englisch: test set.",
+        "id": "ex-cloze-test"
+      }
+    },
+    {
+      "id": "ex-match-aufgaben",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Aufgabentypen",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jede Aufgabe der richtigen Lernart zu.",
+        "card_ids": [
+          "klassifikation",
+          "clustering"
+        ],
+        "pairs": [
+          {
+            "left": "Spam erkennen",
+            "right": "überwacht (Klassifikation)"
+          },
+          {
+            "left": "Kunden gruppieren",
+            "right": "unüberwacht (Clustering)"
+          },
+          {
+            "left": "Hund/Katze auf Fotos",
+            "right": "überwacht"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-aufgaben"
+      }
+    },
+    {
+      "id": "ex-tiles-label",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Merksatz Label",
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": [
+          "ueberwacht",
+          "label"
+        ],
+        "tiles": [
+          "Label",
+          "vorhanden",
+          "heißt",
+          "überwachtes",
+          "Lernen"
+        ],
+        "hint": "Beginnt mit: Label vorhanden …",
+        "direction": "target_to_source",
+        "id": "ex-tiles-label"
+      }
+    },
+    {
+      "id": "ex-free-feature",
+      "type": "exercise",
+      "theory_ref": "step-feature-label",
+      "title": "Eingabemerkmal",
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Wie heißt eine Eingabegröße, aus der ein Modell lernt?",
+        "card_ids": [
+          "feature"
+        ],
+        "accept": [
+          "Feature",
+          "Merkmal",
+          "das Feature"
+        ],
+        "hint": "Englisch: feature.",
+        "distractors": [
+          "Label",
+          "Zielwert",
+          "Antwort"
+        ],
+        "direction": "target_to_source",
+        "id": "ex-free-feature"
+      }
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "id": "02-daten-verstehen",
+  "title": "Daten verstehen",
+  "description": "Strukturierte und unstrukturierte Daten, Datenqualität, Ausreißer und fehlende Werte — und warum „Garbage in, garbage out\" gilt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "strukturiert",
+      "front": "Strukturierte Daten",
+      "back": "Daten in fester Form wie Tabellen mit Zeilen und Spalten — leicht auszuwerten.",
+      "notes": "Beispiel: eine Kundentabelle mit Name, Alter, Umsatz.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "unstrukturiert",
+      "front": "Unstrukturierte Daten",
+      "back": "Daten ohne feste Form wie Texte, Bilder, Audio oder Video.",
+      "notes": "Machen den Großteil aller Daten aus, sind aber schwerer auszuwerten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "datenqualitaet",
+      "front": "Datenqualität",
+      "back": "Wie vollständig, korrekt, aktuell und einheitlich Daten sind.",
+      "notes": "Schlechte Qualität verdirbt jede Analyse — egal wie gut das Modell ist.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "ausreisser",
+      "front": "Ausreißer",
+      "back": "Ein Wert, der stark von den übrigen abweicht — echt oder ein Fehler.",
+      "notes": "Englisch: outlier. Erst prüfen, ob es ein Messfehler ist, bevor man ihn entfernt.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "fehlende-werte",
+      "front": "Fehlende Werte",
+      "back": "Lücken im Datensatz, wenn ein Wert nicht erfasst wurde.",
+      "notes": "Englisch: missing values. Man kann sie schätzen, ersetzen oder die Zeile ausschließen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "gigo",
+      "front": "Garbage in, garbage out",
+      "back": "Grundsatz: Aus schlechten Eingabedaten können nur schlechte Ergebnisse entstehen.",
+      "notes": "Kurz: GIGO. Datenqualität ist wichtiger als ein cleveres Modell.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "bereinigung",
+      "front": "Datenbereinigung",
+      "back": "Das Aufräumen von Daten: Fehler korrigieren, Dubletten entfernen, Formate vereinheitlichen.",
+      "notes": "Englisch: data cleaning. In der Praxis oft der zeitaufwendigste Schritt.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "einheit",
+      "front": "Einheitlichkeit",
+      "back": "Gleiche Dinge werden gleich geschrieben — etwa Datumsformate oder Einheiten.",
+      "notes": "„1,5 kg\" und „1500 g\" meinen dasselbe, verwirren aber ein Programm.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Strukturiert oder unstrukturiert",
+      "body": "# Daten verstehen\n\nDaten treten in zwei großen Formen auf:\n\n- **Strukturierte Daten** liegen in fester Form vor — meist **Tabellen** mit Zeilen und Spalten. Beispiel: eine Kundentabelle mit Name, Alter und Umsatz. Sie sind leicht auszuwerten.\n- **Unstrukturierte Daten** haben keine feste Form: **Texte, Bilder, Audio, Video**. Sie machen den Großteil aller Daten aus, sind aber schwerer zu verarbeiten.\n\nModerne KI kann zunehmend auch unstrukturierte Daten nutzen — trotzdem beginnt vieles mit sauberen Tabellen."
+    },
+    {
+      "id": "step-qualitaet",
+      "type": "theory",
+      "title": "Datenqualität entscheidet",
+      "body": "## Warum Qualität zählt\n\n**Datenqualität** beschreibt, wie **vollständig, korrekt, aktuell und einheitlich** Daten sind. Zwei typische Probleme:\n\n- **Fehlende Werte** — eine Angabe wurde nicht erfasst. Man kann sie schätzen, ersetzen oder die Zeile ausschließen.\n- **Ausreißer** — ein Wert weicht stark ab. Er kann echt sein (ein sehr großer Kunde) oder ein Fehler (ein Tippfehler „999\").\n\nWichtig: Erst **prüfen**, warum ein Wert auffällt, bevor man ihn löscht."
+    },
+    {
+      "id": "step-gigo",
+      "type": "theory",
+      "title": "Garbage in, garbage out",
+      "body": "## GIGO\n\nDer wohl wichtigste Grundsatz der Data Science lautet **„Garbage in, garbage out\"** (GIGO): Aus **schlechten Eingabedaten** können nur **schlechte Ergebnisse** entstehen — egal wie clever das Modell ist.\n\nDeshalb steckt in echten Projekten viel Arbeit in der **Datenbereinigung**: Dubletten entfernen, Formate vereinheitlichen, Fehler korrigieren. Dieser Schritt ist unspektakulär, aber entscheidend."
+    },
+    {
+      "id": "ex-match-form",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Welche Form?",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedes Beispiel der richtigen Datenform zu.",
+        "card_ids": [
+          "strukturiert",
+          "unstrukturiert"
+        ],
+        "pairs": [
+          {
+            "left": "Tabelle mit Umsätzen",
+            "right": "strukturiert"
+          },
+          {
+            "left": "Ein Foto",
+            "right": "unstrukturiert"
+          },
+          {
+            "left": "Ein E-Mail-Text",
+            "right": "unstrukturiert"
+          },
+          {
+            "left": "Excel-Kundenliste",
+            "right": "strukturiert"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-form"
+      }
+    },
+    {
+      "id": "ex-mc-gigo",
+      "type": "exercise",
+      "theory_ref": "step-gigo",
+      "title": "Schlechte Daten",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Was besagt der Grundsatz „Garbage in, garbage out\"?",
+        "card_ids": [
+          "gigo"
+        ],
+        "sentence": "Aus schlechten Eingabedaten entstehen ___.",
+        "blanks": [
+          {
+            "accept": [
+              "schlechte Ergebnisse"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "gute Ergebnisse",
+          "gar keine Ergebnisse",
+          "zufällig gute Modelle"
+        ],
+        "hint": "Kein Modell rettet schlechte Daten.",
+        "id": "ex-mc-gigo"
+      }
+    },
+    {
+      "id": "ex-mc-ausreisser",
+      "type": "exercise",
+      "theory_ref": "step-qualitaet",
+      "title": "Ein auffälliger Wert",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie sollte man mit einem Ausreißer zuerst umgehen?",
+        "card_ids": [
+          "ausreisser"
+        ],
+        "sentence": "Bei einem Ausreißer sollte man zuerst ___.",
+        "blanks": [
+          {
+            "accept": [
+              "prüfen, ob es ein Fehler ist"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ihn sofort löschen",
+          "ihn immer behalten",
+          "die Analyse abbrechen"
+        ],
+        "hint": "Nicht blind entfernen.",
+        "id": "ex-mc-ausreisser"
+      }
+    },
+    {
+      "id": "ex-cloze-missing",
+      "type": "exercise",
+      "theory_ref": "step-qualitaet",
+      "title": "Lücken im Datensatz",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze den Fachbegriff für Lücken im Datensatz.",
+        "card_ids": [
+          "fehlende-werte"
+        ],
+        "sentence": "Nicht erfasste Angaben nennt man ___ Werte.",
+        "blanks": [
+          {
+            "accept": [
+              "fehlende"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englisch: missing values.",
+        "id": "ex-cloze-missing"
+      }
+    },
+    {
+      "id": "ex-cloze-clean",
+      "type": "exercise",
+      "theory_ref": "step-gigo",
+      "title": "Aufräumen",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze, wie das Aufräumen der Daten heißt.",
+        "card_ids": [
+          "bereinigung"
+        ],
+        "sentence": "Das Korrigieren von Fehlern und Entfernen von Dubletten heißt Daten___.",
+        "blanks": [
+          {
+            "accept": [
+              "bereinigung",
+              "Bereinigung"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englisch: data cleaning.",
+        "id": "ex-cloze-clean"
+      }
+    },
+    {
+      "id": "ex-match-probleme",
+      "type": "exercise",
+      "theory_ref": "step-qualitaet",
+      "title": "Qualitätsprobleme",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedem Problem seine Beschreibung zu.",
+        "card_ids": [
+          "ausreisser",
+          "fehlende-werte",
+          "einheit"
+        ],
+        "pairs": [
+          {
+            "left": "Ausreißer",
+            "right": "ein stark abweichender Wert"
+          },
+          {
+            "left": "Fehlende Werte",
+            "right": "eine Lücke im Datensatz"
+          },
+          {
+            "left": "Uneinheitlichkeit",
+            "right": "gleiche Dinge verschieden geschrieben"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-probleme"
+      }
+    },
+    {
+      "id": "ex-tiles-gigo",
+      "type": "exercise",
+      "theory_ref": "step-gigo",
+      "title": "GIGO-Merksatz",
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": [
+          "gigo"
+        ],
+        "tiles": [
+          "Schlechte",
+          "Daten",
+          "ergeben",
+          "schlechte",
+          "Ergebnisse"
+        ],
+        "hint": "Beginnt mit: Schlechte Daten …",
+        "direction": "target_to_source",
+        "id": "ex-tiles-gigo"
+      }
+    },
+    {
+      "id": "ex-free-unstruktur",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Unstrukturiert nennen",
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Nenne ein Beispiel für unstrukturierte Daten.",
+        "card_ids": [
+          "unstrukturiert"
+        ],
+        "accept": [
+          "Text",
+          "Bild",
+          "Foto",
+          "Audio",
+          "Video",
+          "Sprachnachricht",
+          "E-Mail"
+        ],
+        "hint": "Etwas ohne Zeilen und Spalten.",
+        "distractors": [
+          "Tabelle",
+          "Datenbank",
+          "Tabellenblatt"
+        ],
+        "direction": "target_to_source",
+        "id": "ex-free-unstruktur"
+      }
+    }
+  ]
+}
