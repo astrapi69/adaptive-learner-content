@@ -1,0 +1,321 @@
+{
+  "id": "07-erotiseis",
+  "title": "Απλές ερωτήσεις και απαντήσεις",
+  "description": "Καθημερινές ερωτήσεις (comment ça va, où, qui, qu'est-ce que c'est) και ναι/όχι.",
+  "target_language": "fr",
+  "source_language": "el",
+  "estimated_minutes": 11,
+  "cards": [
+    {
+      "id": "ca-va",
+      "front": "Comment ça va ?",
+      "back": "Τι κάνεις; / Πώς πάει;",
+      "notes": "Πολύ συχνή ανεπίσημη ερώτηση.",
+      "tags": [
+        "erotiseis"
+      ]
+    },
+    {
+      "id": "ca-va-bien",
+      "front": "Ça va bien.",
+      "back": "Καλά (είμαι καλά).",
+      "notes": "Τυπική απάντηση στο «comment ça va ?».",
+      "tags": [
+        "erotiseis"
+      ]
+    },
+    {
+      "id": "ou",
+      "front": "où",
+      "back": "πού",
+      "notes": "Με τόνο βαρεία: où (για να ξεχωρίζει από το «ou» = ή).",
+      "tags": [
+        "erotiseis"
+      ]
+    },
+    {
+      "id": "qui",
+      "front": "qui",
+      "back": "ποιος",
+      "tags": [
+        "erotiseis"
+      ]
+    },
+    {
+      "id": "quest-ce",
+      "front": "Qu'est-ce que c'est ?",
+      "back": "Τι είναι αυτό;",
+      "notes": "Πολύ συχνή έκφραση· πρόσεξε τις εκθλίψεις.",
+      "tags": [
+        "erotiseis"
+      ]
+    },
+    {
+      "id": "oui",
+      "front": "oui",
+      "back": "ναι",
+      "tags": [
+        "erotiseis"
+      ]
+    },
+    {
+      "id": "non",
+      "front": "non",
+      "back": "όχι",
+      "tags": [
+        "erotiseis"
+      ]
+    },
+    {
+      "id": "pourquoi",
+      "front": "pourquoi",
+      "back": "γιατί",
+      "tags": [
+        "erotiseis"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "«Τι κάνεις;»",
+      "body": "# Απλές ερωτήσεις\n\nΗ πιο κοινή ανεπίσημη ερώτηση:\n\n```\nComment ça va ?   (Τι κάνεις; / Πώς πάει;)\nÇa va bien.       (Καλά.)\n```\n\nΜπορείς να απαντήσεις σύντομα: **Ça va.** (Καλά/εντάξει.)"
+    },
+    {
+      "id": "erotimatika",
+      "type": "theory",
+      "title": "Ερωτηματικές λέξεις",
+      "body": "## Λέξεις ερώτησης\n\n- **où** — πού (*Où est le café ?* Πού είναι το καφέ;)\n- **qui** — ποιος (*Qui est-ce ?* Ποιος είναι;)\n- **pourquoi** — γιατί\n- **Qu'est-ce que c'est ?** — Τι είναι αυτό;\n\nΠρόσεξε το **où** με τη βαρεία — χωρίς τόνο, το *ou* σημαίνει «ή»."
+    },
+    {
+      "id": "nai-ochi",
+      "type": "theory",
+      "title": "Ναι και όχι",
+      "body": "## oui / non\n\n- **oui** = ναι\n- **non** = όχι\n\nΠαράδειγμα:\n\n```\nTu es grec ? — Oui.\n(Είσαι Έλληνας; — Ναι.)\n```"
+    },
+    {
+      "id": "ex-match-erot",
+      "type": "exercise",
+      "title": "Ερωτηματικές λέξεις",
+      "exercise": {
+        "id": "ex-match-erot",
+        "type": "matching",
+        "prompt": "Αντιστοίχισε κάθε γαλλική λέξη με τη σημασία της.",
+        "card_ids": [
+          "ou",
+          "qui",
+          "pourquoi",
+          "quest-ce"
+        ],
+        "pairs": [
+          {
+            "left": "où",
+            "right": "πού"
+          },
+          {
+            "left": "qui",
+            "right": "ποιος"
+          },
+          {
+            "left": "pourquoi",
+            "right": "γιατί"
+          },
+          {
+            "left": "Qu'est-ce que c'est ?",
+            "right": "τι είναι αυτό;"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-mc-cava",
+      "type": "exercise",
+      "title": "Πώς ρωτάς ανεπίσημα «τι κάνεις;»",
+      "exercise": {
+        "id": "ex-mc-cava",
+        "type": "cloze",
+        "prompt": "Πώς ρωτάς ανεπίσημα «τι κάνεις;»",
+        "card_ids": [
+          "ca-va"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Comment ça va ?"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Comment tu t'appelles ?",
+          "Quel âge as-tu ?",
+          "Qu'est-ce que c'est ?"
+        ],
+        "hint": "Κυριολεκτικά «πώς πάει;»."
+      }
+    },
+    {
+      "id": "ex-mc-apantisi",
+      "type": "exercise",
+      "title": "Ποια είναι μια σωστή απάντηση στο «Comment ça va ?»",
+      "exercise": {
+        "id": "ex-mc-apantisi",
+        "type": "cloze",
+        "prompt": "Ποια είναι μια σωστή απάντηση στο «Comment ça va ?»",
+        "card_ids": [
+          "ca-va-bien"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Ça va bien."
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Je m'appelle bien.",
+          "J'ai bien.",
+          "Oui, un café."
+        ],
+        "hint": "«Είμαι καλά.»"
+      }
+    },
+    {
+      "id": "ex-mc-pou",
+      "type": "exercise",
+      "title": "Ποια λέξη σημαίνει «πού»;",
+      "exercise": {
+        "id": "ex-mc-pou",
+        "type": "cloze",
+        "prompt": "Ποια λέξη σημαίνει «πού»;",
+        "card_ids": [
+          "ou"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "où"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "qui",
+          "oui",
+          "ou"
+        ],
+        "hint": "Με βαρεία, για να ξεχωρίζει από το «ή»."
+      }
+    },
+    {
+      "id": "ex-mc-ti-einai",
+      "type": "exercise",
+      "title": "Πώς ρωτάς «τι είναι αυτό;»",
+      "exercise": {
+        "id": "ex-mc-ti-einai",
+        "type": "cloze",
+        "prompt": "Πώς ρωτάς «τι είναι αυτό;»",
+        "card_ids": [
+          "quest-ce"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Qu'est-ce que c'est ?"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Qui est-ce ?",
+          "Comment ça va ?",
+          "Où est-ce ?"
+        ],
+        "hint": "Πολλές εκθλίψεις: qu'est-ce."
+      }
+    },
+    {
+      "id": "ex-clz-oui",
+      "type": "exercise",
+      "title": "Ναι",
+      "exercise": {
+        "id": "ex-clz-oui",
+        "type": "cloze",
+        "prompt": "Γράψε «ναι» στα γαλλικά.",
+        "card_ids": [
+          "oui"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "oui",
+              "Oui"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Τρία γράμματα."
+      }
+    },
+    {
+      "id": "ex-clz-non",
+      "type": "exercise",
+      "title": "Όχι",
+      "exercise": {
+        "id": "ex-clz-non",
+        "type": "cloze",
+        "prompt": "Γράψε «όχι» στα γαλλικά.",
+        "card_ids": [
+          "non"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "non",
+              "Non"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Τρία γράμματα, αρχίζει από n."
+      }
+    },
+    {
+      "id": "ex-mc-pourquoi",
+      "type": "exercise",
+      "title": "Ποια λέξη σημαίνει «γιατί»;",
+      "exercise": {
+        "id": "ex-mc-pourquoi",
+        "type": "cloze",
+        "prompt": "Ποια λέξη σημαίνει «γιατί»;",
+        "card_ids": [
+          "pourquoi"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "pourquoi"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "qui",
+          "où",
+          "comment"
+        ],
+        "hint": "Ρωτάς την αιτία."
+      }
+    }
+  ]
+}

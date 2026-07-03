@@ -1,0 +1,321 @@
+{
+  "id": "06-fagito-poto",
+  "title": "Φαγητό και ποτό",
+  "description": "Βασικά τρόφιμα και ποτά και πώς να παραγγείλεις ευγενικά («je voudrais»).",
+  "target_language": "fr",
+  "source_language": "el",
+  "estimated_minutes": 11,
+  "cards": [
+    {
+      "id": "le-pain2",
+      "front": "le pain",
+      "back": "το ψωμί",
+      "tags": [
+        "fagito"
+      ]
+    },
+    {
+      "id": "leau2",
+      "front": "l'eau",
+      "back": "το νερό",
+      "notes": "Θηλυκό (la eau → l'eau).",
+      "tags": [
+        "fagito"
+      ]
+    },
+    {
+      "id": "le-cafe",
+      "front": "le café",
+      "back": "ο καφές",
+      "notes": "Και «καφετέρια». Πρόσεξε τον τόνο: café.",
+      "tags": [
+        "fagito"
+      ]
+    },
+    {
+      "id": "le-lait",
+      "front": "le lait",
+      "back": "το γάλα",
+      "tags": [
+        "fagito"
+      ]
+    },
+    {
+      "id": "le-vin",
+      "front": "le vin",
+      "back": "το κρασί",
+      "tags": [
+        "fagito"
+      ]
+    },
+    {
+      "id": "je-voudrais",
+      "front": "je voudrais",
+      "back": "θα ήθελα",
+      "notes": "Ευγενικός τρόπος να ζητήσεις κάτι.",
+      "tags": [
+        "fagito"
+      ]
+    },
+    {
+      "id": "un-croissant",
+      "front": "un croissant",
+      "back": "ένα κρουασάν",
+      "tags": [
+        "fagito"
+      ]
+    },
+    {
+      "id": "une-pomme",
+      "front": "une pomme",
+      "back": "ένα μήλο",
+      "notes": "Θηλυκό: une pomme.",
+      "tags": [
+        "fagito"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Φαγητό και ποτό",
+      "body": "# Στο τραπέζι\n\nΒασικά τρόφιμα και ποτά — πάντα με το άρθρο τους:\n\n- **le pain** (το ψωμί), **le café** (ο καφές), **le lait** (το γάλα), **le vin** (το κρασί)\n- **l'eau** (το νερό) — θηλυκό, με έκθλιψη\n- **un croissant**, **une pomme** (ένα μήλο)\n\nΠρόσεξε τον τόνο στο **café**."
+    },
+    {
+      "id": "paraggelia",
+      "type": "theory",
+      "title": "Να παραγγείλεις ευγενικά",
+      "body": "## «Θα ήθελα…»\n\nΓια να ζητήσεις κάτι ευγενικά, χρησιμοποιείς **je voudrais** (θα ήθελα):\n\n```\nJe voudrais un café, s'il te plaît.\n(Θα ήθελα έναν καφέ, σε παρακαλώ.)\n```\n\nΕίναι πιο ευγενικό από το *je veux* (θέλω)."
+    },
+    {
+      "id": "arthro-fagito",
+      "type": "theory",
+      "title": "Άρθρο και τρόφιμα",
+      "body": "## Ξαναθυμήσου το γένος\n\nΚάθε τρόφιμο έχει γένος:\n\n- αρσενικά: *le pain*, *le café*, *le vin*\n- θηλυκά: *une pomme*, *l'eau*\n\nΓι' αυτό μαθαίνουμε το ουσιαστικό μαζί με το άρθρο του — δεν υπάρχει κανόνας που να προβλέπει πάντα το γένος."
+    },
+    {
+      "id": "ex-match-fagito",
+      "type": "exercise",
+      "title": "Τρόφιμα και ποτά",
+      "exercise": {
+        "id": "ex-match-fagito",
+        "type": "matching",
+        "prompt": "Αντιστοίχισε κάθε γαλλική λέξη με τη σημασία της.",
+        "card_ids": [
+          "le-pain2",
+          "leau2",
+          "le-cafe",
+          "le-vin"
+        ],
+        "pairs": [
+          {
+            "left": "le pain",
+            "right": "το ψωμί"
+          },
+          {
+            "left": "l'eau",
+            "right": "το νερό"
+          },
+          {
+            "left": "le café",
+            "right": "ο καφές"
+          },
+          {
+            "left": "le vin",
+            "right": "το κρασί"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-mc-voudrais",
+      "type": "exercise",
+      "title": "Πώς ζητάς ευγενικά «θα ήθελα έναν καφέ»;",
+      "exercise": {
+        "id": "ex-mc-voudrais",
+        "type": "cloze",
+        "prompt": "Πώς ζητάς ευγενικά «θα ήθελα έναν καφέ»;",
+        "card_ids": [
+          "je-voudrais",
+          "le-cafe"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Je voudrais un café."
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Je veux café.",
+          "J'ai un café.",
+          "Je suis un café."
+        ],
+        "hint": "«Θα ήθελα» = je voudrais."
+      }
+    },
+    {
+      "id": "ex-mc-eau",
+      "type": "exercise",
+      "title": "Ποιο άρθρο ταιριάζει: «___ eau» (το νερό);",
+      "exercise": {
+        "id": "ex-mc-eau",
+        "type": "cloze",
+        "prompt": "Ποιο άρθρο ταιριάζει: «___ eau» (το νερό);",
+        "card_ids": [
+          "leau2"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "l'"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "le",
+          "la",
+          "les"
+        ],
+        "hint": "Αρχίζει από φωνήεν."
+      }
+    },
+    {
+      "id": "ex-mc-pomme",
+      "type": "exercise",
+      "title": "Πώς λες «ένα μήλο» (θηλυκό);",
+      "exercise": {
+        "id": "ex-mc-pomme",
+        "type": "cloze",
+        "prompt": "Πώς λες «ένα μήλο» (θηλυκό);",
+        "card_ids": [
+          "une-pomme"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "une pomme"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "un pomme",
+          "le pomme",
+          "des pomme"
+        ],
+        "hint": "pomme θηλυκό → une."
+      }
+    },
+    {
+      "id": "ex-mc-lait",
+      "type": "exercise",
+      "title": "Πώς λες «το γάλα»;",
+      "exercise": {
+        "id": "ex-mc-lait",
+        "type": "cloze",
+        "prompt": "Πώς λες «το γάλα»;",
+        "card_ids": [
+          "le-lait"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "le lait"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "la lait",
+          "l'lait",
+          "les lait"
+        ],
+        "hint": "Αρσενικό → le."
+      }
+    },
+    {
+      "id": "ex-clz-cafe",
+      "type": "exercise",
+      "title": "Γράψε «ο καφές»",
+      "exercise": {
+        "id": "ex-clz-cafe",
+        "type": "cloze",
+        "prompt": "Γράψε «ο καφές» στα γαλλικά (άρθρο + λέξη, με τόνο).",
+        "card_ids": [
+          "le-cafe"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "le café",
+              "Le café"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Μην ξεχάσεις τον τόνο: café."
+      }
+    },
+    {
+      "id": "ex-clz-voudrais",
+      "type": "exercise",
+      "title": "Θα ήθελα",
+      "exercise": {
+        "id": "ex-clz-voudrais",
+        "type": "cloze",
+        "prompt": "Συμπλήρωσε: «Je ___ un thé.» (θα ήθελα ένα τσάι)",
+        "card_ids": [
+          "je-voudrais"
+        ],
+        "sentence": "Je ___ un thé.",
+        "blanks": [
+          {
+            "accept": [
+              "voudrais"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Ευγενικό «θέλω»."
+      }
+    },
+    {
+      "id": "ex-mc-pain",
+      "type": "exercise",
+      "title": "Πώς λες «το ψωμί»;",
+      "exercise": {
+        "id": "ex-mc-pain",
+        "type": "cloze",
+        "prompt": "Πώς λες «το ψωμί»;",
+        "card_ids": [
+          "le-pain2"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "le pain"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "la pain",
+          "l'pain",
+          "les pain"
+        ],
+        "hint": "Αρσενικό → le."
+      }
+    }
+  ]
+}

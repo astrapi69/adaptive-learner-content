@@ -1,0 +1,332 @@
+{
+  "id": "04-etre-avoir",
+  "title": "Τα ρήματα être και avoir",
+  "description": "Ο ενεστώτας των être (είμαι) και avoir (έχω) — με παράλληλο προς το ελληνικό «είμαι/έχω».",
+  "target_language": "fr",
+  "source_language": "el",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "je-suis",
+      "front": "je suis",
+      "back": "(εγώ) είμαι",
+      "notes": "être = είμαι. je suis = είμαι.",
+      "tags": [
+        "etre"
+      ]
+    },
+    {
+      "id": "tu-es",
+      "front": "tu es",
+      "back": "(εσύ) είσαι",
+      "tags": [
+        "etre"
+      ]
+    },
+    {
+      "id": "il-est",
+      "front": "il/elle est",
+      "back": "(αυτός/αυτή) είναι",
+      "tags": [
+        "etre"
+      ]
+    },
+    {
+      "id": "jai",
+      "front": "j'ai",
+      "back": "(εγώ) έχω",
+      "notes": "avoir = έχω. j'ai (με έκθλιψη) = έχω.",
+      "tags": [
+        "avoir"
+      ]
+    },
+    {
+      "id": "tu-as",
+      "front": "tu as",
+      "back": "(εσύ) έχεις",
+      "tags": [
+        "avoir"
+      ]
+    },
+    {
+      "id": "il-a",
+      "front": "il/elle a",
+      "back": "(αυτός/αυτή) έχει",
+      "tags": [
+        "avoir"
+      ]
+    },
+    {
+      "id": "etre",
+      "front": "être",
+      "back": "είμαι (απαρέμφατο)",
+      "notes": "Ένα από τα δύο βασικά ρήματα. Αντιστοιχεί στο ελληνικό «είμαι».",
+      "tags": [
+        "etre"
+      ]
+    },
+    {
+      "id": "avoir",
+      "front": "avoir",
+      "back": "έχω (απαρέμφατο)",
+      "notes": "Το δεύτερο βασικό ρήμα. Αντιστοιχεί στο ελληνικό «έχω».",
+      "tags": [
+        "avoir"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Δύο ρήματα-κλειδιά",
+      "body": "# être και avoir\n\nΔύο ρήματα εμφανίζονται παντού στα γαλλικά:\n\n- **être** = **είμαι**\n- **avoir** = **έχω**\n\nΌπως στα ελληνικά το «είμαι» και το «έχω» είναι ανώμαλα, έτσι και εδώ — αξίζει να τα μάθεις απ' έξω."
+    },
+    {
+      "id": "etre",
+      "type": "theory",
+      "title": "être (είμαι) στον ενεστώτα",
+      "body": "## être — ενεστώτας\n\n| Γαλλικά | Ελληνικά |\n|---|---|\n| je suis | είμαι |\n| tu es | είσαι |\n| il/elle est | είναι |\n| nous sommes | είμαστε |\n| vous êtes | είστε |\n| ils/elles sont | είναι |\n\nΠαράδειγμα: *Je suis grec.* (Είμαι Έλληνας.)"
+    },
+    {
+      "id": "avoir",
+      "type": "theory",
+      "title": "avoir (έχω) στον ενεστώτα",
+      "body": "## avoir — ενεστώτας\n\n| Γαλλικά | Ελληνικά |\n|---|---|\n| j'ai | έχω |\n| tu as | έχεις |\n| il/elle a | έχει |\n| nous avons | έχουμε |\n| vous avez | έχετε |\n| ils/elles ont | έχουν |\n\nΠρόσεξε την έκθλιψη: **je + ai → j'ai**. Το avoir χρησιμεύει και για την ηλικία: *j'ai vingt ans*."
+    },
+    {
+      "id": "ex-match-etre",
+      "type": "exercise",
+      "title": "Το ρήμα être",
+      "exercise": {
+        "id": "ex-match-etre",
+        "type": "matching",
+        "prompt": "Αντιστοίχισε κάθε τύπο του être με τη σημασία του.",
+        "card_ids": [
+          "je-suis",
+          "tu-es",
+          "il-est",
+          "etre"
+        ],
+        "pairs": [
+          {
+            "left": "je suis",
+            "right": "είμαι"
+          },
+          {
+            "left": "tu es",
+            "right": "είσαι"
+          },
+          {
+            "left": "il est",
+            "right": "είναι (αυτός)"
+          },
+          {
+            "left": "nous sommes",
+            "right": "είμαστε"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-avoir",
+      "type": "exercise",
+      "title": "Το ρήμα avoir",
+      "exercise": {
+        "id": "ex-match-avoir",
+        "type": "matching",
+        "prompt": "Αντιστοίχισε κάθε τύπο του avoir με τη σημασία του.",
+        "card_ids": [
+          "jai",
+          "tu-as",
+          "il-a",
+          "avoir"
+        ],
+        "pairs": [
+          {
+            "left": "j'ai",
+            "right": "έχω"
+          },
+          {
+            "left": "tu as",
+            "right": "έχεις"
+          },
+          {
+            "left": "il a",
+            "right": "έχει (αυτός)"
+          },
+          {
+            "left": "nous avons",
+            "right": "έχουμε"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-mc-suis",
+      "type": "exercise",
+      "title": "Πώς λες «(εγώ) είμαι»;",
+      "exercise": {
+        "id": "ex-mc-suis",
+        "type": "cloze",
+        "prompt": "Πώς λες «(εγώ) είμαι»;",
+        "card_ids": [
+          "je-suis"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "je suis"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "j'ai",
+          "tu es",
+          "je suis pas"
+        ],
+        "hint": "Ρήμα être."
+      }
+    },
+    {
+      "id": "ex-mc-jai",
+      "type": "exercise",
+      "title": "Πώς λες «(εγώ) έχω»;",
+      "exercise": {
+        "id": "ex-mc-jai",
+        "type": "cloze",
+        "prompt": "Πώς λες «(εγώ) έχω»;",
+        "card_ids": [
+          "jai"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "j'ai"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "je suis",
+          "tu as",
+          "j'a"
+        ],
+        "hint": "Ρήμα avoir, με έκθλιψη."
+      }
+    },
+    {
+      "id": "ex-mc-tu-es",
+      "type": "exercise",
+      "title": "Συμπλήρωσε: «Tu ___ français.» (είσαι Γάλλος)",
+      "exercise": {
+        "id": "ex-mc-tu-es",
+        "type": "cloze",
+        "prompt": "Συμπλήρωσε: «Tu ___ français.» (είσαι Γάλλος)",
+        "card_ids": [
+          "tu-es"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "es"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "as",
+          "est",
+          "ai"
+        ],
+        "hint": "être στο δεύτερο πρόσωπο."
+      }
+    },
+    {
+      "id": "ex-mc-il-a",
+      "type": "exercise",
+      "title": "Συμπλήρωσε: «Il ___ un chat.» (έχει μια γάτα)",
+      "exercise": {
+        "id": "ex-mc-il-a",
+        "type": "cloze",
+        "prompt": "Συμπλήρωσε: «Il ___ un chat.» (έχει μια γάτα)",
+        "card_ids": [
+          "il-a"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "a"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "est",
+          "as",
+          "ai"
+        ],
+        "hint": "avoir στο τρίτο πρόσωπο."
+      }
+    },
+    {
+      "id": "ex-clz-jai",
+      "type": "exercise",
+      "title": "Η έκθλιψη με avoir",
+      "exercise": {
+        "id": "ex-clz-jai",
+        "type": "cloze",
+        "prompt": "Συμπλήρωσε το «(εγώ) έχω» με έκθλιψη.",
+        "card_ids": [
+          "jai"
+        ],
+        "sentence": "___ un frère.",
+        "blanks": [
+          {
+            "accept": [
+              "J'ai",
+              "j'ai"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "je + ai → j'ai."
+      }
+    },
+    {
+      "id": "ex-mc-nous-sommes",
+      "type": "exercise",
+      "title": "Πώς λες «(εμείς) είμαστε»;",
+      "exercise": {
+        "id": "ex-mc-nous-sommes",
+        "type": "cloze",
+        "prompt": "Πώς λες «(εμείς) είμαστε»;",
+        "card_ids": [
+          "etre"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "nous sommes"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "nous avons",
+          "vous êtes",
+          "je suis"
+        ],
+        "hint": "être, πρώτο πληθυντικό."
+      }
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "id": "03-arthra-genos",
+  "title": "Άρθρα και γένος",
+  "description": "Τα γαλλικά άρθρα le/la/l'/les και un/une, και το γένος — δύο γένη στα γαλλικά, τρία στα ελληνικά.",
+  "target_language": "fr",
+  "source_language": "el",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "art-le",
+      "front": "le",
+      "back": "ο/η/το (αρσενικό ενικός)",
+      "notes": "Οριστικό άρθρο πριν από αρσενικό ουσιαστικό.",
+      "tags": [
+        "arthra"
+      ]
+    },
+    {
+      "id": "art-la",
+      "front": "la",
+      "back": "ο/η/το (θηλυκό ενικός)",
+      "notes": "Οριστικό άρθρο πριν από θηλυκό ουσιαστικό.",
+      "tags": [
+        "arthra"
+      ]
+    },
+    {
+      "id": "art-l",
+      "front": "l'",
+      "back": "ο/η/το (πριν από φωνήεν)",
+      "notes": "Το le/la γίνεται l' πριν από φωνήεν ή άφωνο h: l'eau.",
+      "tags": [
+        "arthra"
+      ]
+    },
+    {
+      "id": "art-les",
+      "front": "les",
+      "back": "οι/τα (πληθυντικός)",
+      "notes": "Οριστικό άρθρο για πληθυντικό, και για τα δύο γένη.",
+      "tags": [
+        "arthra"
+      ]
+    },
+    {
+      "id": "art-un",
+      "front": "un",
+      "back": "ένας (αρσενικό)",
+      "notes": "Αόριστο άρθρο, αρσενικό.",
+      "tags": [
+        "arthra"
+      ]
+    },
+    {
+      "id": "art-une",
+      "front": "une",
+      "back": "μία (θηλυκό)",
+      "notes": "Αόριστο άρθρο, θηλυκό.",
+      "tags": [
+        "arthra"
+      ]
+    },
+    {
+      "id": "n-pain",
+      "front": "le pain",
+      "back": "το ψωμί (αρσενικό)",
+      "notes": "Στα γαλλικά το «ψωμί» είναι αρσενικό.",
+      "tags": [
+        "ousiastika"
+      ]
+    },
+    {
+      "id": "n-maison",
+      "front": "la maison",
+      "back": "το σπίτι (θηλυκό)",
+      "notes": "Στα γαλλικά το «σπίτι» είναι θηλυκό.",
+      "tags": [
+        "ousiastika"
+      ]
+    },
+    {
+      "id": "n-eau",
+      "front": "l'eau",
+      "back": "το νερό (θηλυκό, με έκθλιψη)",
+      "notes": "eau αρχίζει από φωνήεν, άρα la → l'.",
+      "tags": [
+        "ousiastika"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Δύο γένη, όχι τρία",
+      "body": "# Άρθρα και γένος\n\nΣτα **ελληνικά** έχουμε τρία γένη: **ο** (αρσενικό), **η** (θηλυκό), **το** (ουδέτερο).\n\nΣτα **γαλλικά** υπάρχουν μόνο **δύο**: **αρσενικό** και **θηλυκό**. Δεν υπάρχει ουδέτερο — κάθε ουσιαστικό είναι είτε αρσενικό είτε θηλυκό, ακόμη κι ένα αντικείμενο.\n\nΓι' αυτό μαθαίνουμε πάντα το ουσιαστικό **μαζί με το άρθρο του**: όχι *pain*, αλλά **le pain**."
+    },
+    {
+      "id": "oristika",
+      "type": "theory",
+      "title": "Τα οριστικά άρθρα",
+      "body": "## le / la / l' / les\n\n- **le** — αρσενικό: *le pain* (το ψωμί)\n- **la** — θηλυκό: *la maison* (το σπίτι)\n- **l'** — πριν από φωνήεν: *l'eau* (το νερό)\n- **les** — πληθυντικός (και τα δύο γένη): *les maisons*\n\nΤο γαλλικό γένος συχνά **δεν** συμφωνεί με το ελληνικό: *le pain* είναι αρσενικό, ενώ «το ψωμί» στα ελληνικά είναι ουδέτερο."
+    },
+    {
+      "id": "aorista",
+      "type": "theory",
+      "title": "Τα αόριστα άρθρα",
+      "body": "## un / une\n\n- **un** — αρσενικό: *un pain* (ένα ψωμί)\n- **une** — θηλυκό: *une maison* (ένα σπίτι)\n\nΌπως και στα οριστικά, η επιλογή εξαρτάται από το γένος του ουσιαστικού."
+    },
+    {
+      "id": "ex-match-oristika",
+      "type": "exercise",
+      "title": "Τα οριστικά άρθρα",
+      "exercise": {
+        "id": "ex-match-oristika",
+        "type": "matching",
+        "prompt": "Αντιστοίχισε κάθε άρθρο με τη χρήση του.",
+        "card_ids": [
+          "art-le",
+          "art-la",
+          "art-l",
+          "art-les"
+        ],
+        "pairs": [
+          {
+            "left": "le",
+            "right": "αρσενικό ενικός"
+          },
+          {
+            "left": "la",
+            "right": "θηλυκό ενικός"
+          },
+          {
+            "left": "l'",
+            "right": "πριν από φωνήεν"
+          },
+          {
+            "left": "les",
+            "right": "πληθυντικός"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-mc-pain",
+      "type": "exercise",
+      "title": "Ποιο άρθρο ταιριάζει: «___ pain» (το ψωμί, αρσενικό);",
+      "exercise": {
+        "id": "ex-mc-pain",
+        "type": "cloze",
+        "prompt": "Ποιο άρθρο ταιριάζει: «___ pain» (το ψωμί, αρσενικό);",
+        "card_ids": [
+          "art-le",
+          "n-pain"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "le"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "la",
+          "l'",
+          "les"
+        ],
+        "hint": "Το pain είναι αρσενικό."
+      }
+    },
+    {
+      "id": "ex-mc-maison",
+      "type": "exercise",
+      "title": "Ποιο άρθρο ταιριάζει: «___ maison» (το σπίτι, θηλυκό);",
+      "exercise": {
+        "id": "ex-mc-maison",
+        "type": "cloze",
+        "prompt": "Ποιο άρθρο ταιριάζει: «___ maison» (το σπίτι, θηλυκό);",
+        "card_ids": [
+          "art-la",
+          "n-maison"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "la"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "le",
+          "l'",
+          "un"
+        ],
+        "hint": "Το maison είναι θηλυκό."
+      }
+    },
+    {
+      "id": "ex-mc-eau",
+      "type": "exercise",
+      "title": "Ποιο άρθρο ταιριάζει: «___ eau» (το νερό, αρχίζει από φωνήεν",
+      "exercise": {
+        "id": "ex-mc-eau",
+        "type": "cloze",
+        "prompt": "Ποιο άρθρο ταιριάζει: «___ eau» (το νερό, αρχίζει από φωνήεν);",
+        "card_ids": [
+          "art-l",
+          "n-eau"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "l'"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "le",
+          "la",
+          "les"
+        ],
+        "hint": "Πριν από φωνήεν το le/la γίνεται l'."
+      }
+    },
+    {
+      "id": "ex-mc-genera",
+      "type": "exercise",
+      "title": "Πόσα γένη έχουν τα γαλλικά ουσιαστικά;",
+      "exercise": {
+        "id": "ex-mc-genera",
+        "type": "cloze",
+        "prompt": "Πόσα γένη έχουν τα γαλλικά ουσιαστικά;",
+        "card_ids": [
+          "art-le",
+          "art-la"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "δύο: αρσενικό και θηλυκό"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "τρία: αρσενικό, θηλυκό, ουδέτερο",
+          "ένα, κοινό για όλα",
+          "κανένα γένος"
+        ],
+        "hint": "Σε αντίθεση με τα ελληνικά, δεν υπάρχει ουδέτερο."
+      }
+    },
+    {
+      "id": "ex-mc-aoristo",
+      "type": "exercise",
+      "title": "Ποιο είναι το θηλυκό αόριστο άρθρο («μία»);",
+      "exercise": {
+        "id": "ex-mc-aoristo",
+        "type": "cloze",
+        "prompt": "Ποιο είναι το θηλυκό αόριστο άρθρο («μία»);",
+        "card_ids": [
+          "art-une"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "une"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "un",
+          "le",
+          "des"
+        ],
+        "hint": "Αρσενικό: un, θηλυκό: une."
+      }
+    },
+    {
+      "id": "ex-clz-les",
+      "type": "exercise",
+      "title": "Ο πληθυντικός",
+      "exercise": {
+        "id": "ex-clz-les",
+        "type": "cloze",
+        "prompt": "Συμπλήρωσε το άρθρο του πληθυντικού: «___ maisons» (τα σπίτια).",
+        "card_ids": [
+          "art-les"
+        ],
+        "sentence": "___ maisons",
+        "blanks": [
+          {
+            "accept": [
+              "les",
+              "Les"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Ίδιο για αρσενικό και θηλυκό στον πληθυντικό."
+      }
+    },
+    {
+      "id": "ex-mc-un-chat",
+      "type": "exercise",
+      "title": "Ποιο αόριστο άρθρο ταιριάζει: «___ chat» (μια γάτα, αρσενικό",
+      "exercise": {
+        "id": "ex-mc-un-chat",
+        "type": "cloze",
+        "prompt": "Ποιο αόριστο άρθρο ταιριάζει: «___ chat» (μια γάτα, αρσενικό);",
+        "card_ids": [
+          "art-un"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "un"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "une",
+          "le",
+          "des"
+        ],
+        "hint": "Αρσενικό αόριστο άρθρο."
+      }
+    }
+  ]
+}
