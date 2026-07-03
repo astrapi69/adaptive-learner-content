@@ -1,0 +1,343 @@
+{
+  "id": "03-statistik-grundlagen",
+  "title": "Statistik für den Alltag",
+  "description": "Mittelwert und Median, der Unterschied zwischen Korrelation und Kausalität sowie Stichprobe und Verzerrung.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "mittelwert",
+      "front": "Mittelwert",
+      "back": "Die Summe aller Werte geteilt durch ihre Anzahl — der „Durchschnitt\".",
+      "notes": "Englisch: mean. Reagiert empfindlich auf Ausreißer.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "median",
+      "front": "Median",
+      "back": "Der mittlere Wert, wenn man alle Werte der Größe nach sortiert.",
+      "notes": "Robust gegen Ausreißer. Bei Einkommen oft aussagekräftiger als der Mittelwert.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "korrelation",
+      "front": "Korrelation",
+      "back": "Zwei Größen verändern sich gemeinsam — steigt die eine, steigt (oder fällt) die andere.",
+      "notes": "Englisch: correlation. Sagt nichts über Ursache und Wirkung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "kausalitaet",
+      "front": "Kausalität",
+      "back": "Die eine Größe verursacht die andere wirklich.",
+      "notes": "Korrelation ist nur ein Hinweis, kein Beweis für Kausalität.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "scheinkorrelation",
+      "front": "Scheinkorrelation",
+      "back": "Zwei Größen hängen scheinbar zusammen, obwohl ein Dritter Faktor beide treibt.",
+      "notes": "Beispiel: mehr Eisverkauf und mehr Sonnenbrände — Ursache ist die Sonne.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "stichprobe",
+      "front": "Stichprobe",
+      "back": "Eine Auswahl aus der Gesamtheit, die man stellvertretend untersucht.",
+      "notes": "Englisch: sample. Sie sollte die Gesamtheit gut abbilden.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "verzerrung",
+      "front": "Verzerrung (Bias)",
+      "back": "Eine systematische Schieflage, wenn die Stichprobe die Gesamtheit nicht fair abbildet.",
+      "notes": "Beispiel: nur Smartphone-Nutzer befragen und auf alle schließen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "median-einkommen",
+      "front": "Warum der Median?",
+      "back": "Bei schiefen Verteilungen wie Einkommen zeigt der Median die typische Mitte besser als der Mittelwert.",
+      "notes": "Wenige Millionäre ziehen den Mittelwert nach oben, den Median kaum.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "data-science"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Mittelwert oder Median?",
+      "body": "# Statistik für den Alltag\n\nZwei Wege, „die Mitte\" von Daten zu beschreiben:\n\n- **Mittelwert** — alle Werte summieren, durch die Anzahl teilen. Der klassische Durchschnitt, aber **empfindlich gegenüber Ausreißern**.\n- **Median** — alle Werte sortieren, den **mittleren** nehmen. Er ist **robust**: einzelne Extremwerte verschieben ihn kaum.\n\nBeispiel Einkommen: Wenige sehr hohe Gehälter ziehen den **Mittelwert** stark nach oben. Der **Median** zeigt die typische Mitte besser."
+    },
+    {
+      "id": "step-korrelation",
+      "type": "theory",
+      "title": "Korrelation ist nicht Kausalität",
+      "body": "## Zusammenhang oder Ursache?\n\n**Korrelation** heißt: Zwei Größen verändern sich gemeinsam. **Kausalität** heißt: Die eine **verursacht** die andere.\n\nDer wichtigste Satz der Statistik: **Korrelation beweist keine Kausalität.** Oft steckt ein dritter Faktor dahinter (eine **Scheinkorrelation**):\n\n- Mehr Eisverkäufe **und** mehr Sonnenbrände — gemeinsame Ursache: die Sonne.\n\nEis verursacht keine Sonnenbrände. Wer das verwechselt, zieht falsche Schlüsse."
+    },
+    {
+      "id": "step-stichprobe",
+      "type": "theory",
+      "title": "Stichprobe und Verzerrung",
+      "body": "## Wen habe ich befragt?\n\nMeist untersucht man nicht alle, sondern eine **Stichprobe** — eine Auswahl, die stellvertretend steht. Damit sie trägt, muss sie die Gesamtheit **fair abbilden**.\n\nTut sie das nicht, entsteht eine **Verzerrung** (Bias): eine systematische Schieflage. Befragt man etwa nur Smartphone-Nutzer und schließt auf **alle** Menschen, fehlen ganze Gruppen. Eine gute Frage lautet immer: **Wen habe ich eigentlich gemessen?**"
+    },
+    {
+      "id": "ex-match-mittelmedian",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Mittelwert und Median",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jede Aussage dem richtigen Maß zu.",
+        "card_ids": [
+          "mittelwert",
+          "median"
+        ],
+        "pairs": [
+          {
+            "left": "Summe geteilt durch Anzahl",
+            "right": "Mittelwert"
+          },
+          {
+            "left": "der mittlere sortierte Wert",
+            "right": "Median"
+          },
+          {
+            "left": "empfindlich für Ausreißer",
+            "right": "Mittelwert"
+          },
+          {
+            "left": "robust gegen Ausreißer",
+            "right": "Median"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-mittelmedian"
+      }
+    },
+    {
+      "id": "ex-mc-korr",
+      "type": "exercise",
+      "theory_ref": "step-korrelation",
+      "title": "Der wichtigste Satz",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Was folgt aus einer Korrelation zwischen zwei Größen?",
+        "card_ids": [
+          "korrelation",
+          "kausalitaet"
+        ],
+        "sentence": "Eine Korrelation ___.",
+        "blanks": [
+          {
+            "accept": [
+              "beweist keine Kausalität"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "beweist Kausalität",
+          "bedeutet immer eine Ursache",
+          "schließt Zufall aus"
+        ],
+        "hint": "Ein dritter Faktor kann dahinterstecken.",
+        "id": "ex-mc-korr"
+      }
+    },
+    {
+      "id": "ex-mc-median",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Schiefes Einkommen",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Maß beschreibt bei Einkommen die typische Mitte besser?",
+        "card_ids": [
+          "median",
+          "median-einkommen"
+        ],
+        "sentence": "Bei Einkommen zeigt der ___ die typische Mitte besser.",
+        "blanks": [
+          {
+            "accept": [
+              "Median"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Mittelwert",
+          "Höchstwert",
+          "Ausreißer"
+        ],
+        "hint": "Wenige Millionäre ziehen den Mittelwert hoch.",
+        "id": "ex-mc-median"
+      }
+    },
+    {
+      "id": "ex-cloze-schein",
+      "type": "exercise",
+      "theory_ref": "step-korrelation",
+      "title": "Der dritte Faktor",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für einen Zusammenhang, den ein dritter Faktor erzeugt.",
+        "card_ids": [
+          "scheinkorrelation"
+        ],
+        "sentence": "Treibt ein dritter Faktor beide Größen, spricht man von einer ___ .",
+        "blanks": [
+          {
+            "accept": [
+              "Scheinkorrelation"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Eis und Sonnenbrände.",
+        "id": "ex-cloze-schein"
+      }
+    },
+    {
+      "id": "ex-cloze-bias",
+      "type": "exercise",
+      "theory_ref": "step-stichprobe",
+      "title": "Schiefe Auswahl",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für eine systematische Schieflage der Stichprobe.",
+        "card_ids": [
+          "verzerrung"
+        ],
+        "sentence": "Bildet die Stichprobe die Gesamtheit nicht fair ab, entsteht eine ___ .",
+        "blanks": [
+          {
+            "accept": [
+              "Verzerrung",
+              "verzerrung",
+              "Bias"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Englisch: bias.",
+        "id": "ex-cloze-bias"
+      }
+    },
+    {
+      "id": "ex-match-statbegriffe",
+      "type": "exercise",
+      "theory_ref": "step-stichprobe",
+      "title": "Statistik-Begriffe",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jeden Begriff seiner Bedeutung zu.",
+        "card_ids": [
+          "stichprobe",
+          "verzerrung",
+          "kausalitaet"
+        ],
+        "pairs": [
+          {
+            "left": "Stichprobe",
+            "right": "Auswahl aus der Gesamtheit"
+          },
+          {
+            "left": "Verzerrung",
+            "right": "systematische Schieflage"
+          },
+          {
+            "left": "Kausalität",
+            "right": "echte Ursache-Wirkung"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-statbegriffe"
+      }
+    },
+    {
+      "id": "ex-tiles-korr",
+      "type": "exercise",
+      "theory_ref": "step-korrelation",
+      "title": "Merksatz Korrelation",
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": [
+          "korrelation",
+          "kausalitaet"
+        ],
+        "tiles": [
+          "Korrelation",
+          "ist",
+          "nicht",
+          "gleich",
+          "Kausalität"
+        ],
+        "hint": "Beginnt mit: Korrelation ist …",
+        "direction": "target_to_source",
+        "id": "ex-tiles-korr"
+      }
+    },
+    {
+      "id": "ex-free-median",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Robustes Maß",
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Wie heißt das Maß, das gegen Ausreißer robust ist?",
+        "card_ids": [
+          "median"
+        ],
+        "accept": [
+          "Median",
+          "der Median"
+        ],
+        "hint": "Der mittlere sortierte Wert.",
+        "distractors": [
+          "Mittelwert",
+          "Durchschnitt",
+          "Summe"
+        ],
+        "direction": "target_to_source",
+        "id": "ex-free-median"
+      }
+    }
+  ]
+}

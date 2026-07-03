@@ -1,0 +1,341 @@
+{
+  "id": "07-sprachmodelle-generative-ki",
+  "title": "Sprachmodelle und generative KI",
+  "description": "Wie große Sprachmodelle grob funktionieren — Vorhersage des nächsten Tokens, Embeddings, Halluzinationen — und was gutes Prompting ausmacht.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "llm",
+      "front": "Großes Sprachmodell (LLM)",
+      "back": "Ein neuronales Netz, das auf riesigen Textmengen trainiert wurde, um Sprache zu verarbeiten und zu erzeugen.",
+      "notes": "Englisch: Large Language Model. Grundlage von ChatGPT & Co.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "token",
+      "front": "Token",
+      "back": "Ein Textbaustein — ein Wort oder Wortteil —, in den ein Modell Text zerlegt.",
+      "notes": "„Sonnenblume\" kann in mehrere Token zerfallen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "naechstes-token",
+      "front": "Nächstes-Token-Vorhersage",
+      "back": "Das Kernprinzip: Ein LLM sagt wiederholt das wahrscheinlichste nächste Token voraus.",
+      "notes": "So entsteht Wort für Wort ein flüssiger Text.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "embedding",
+      "front": "Embedding",
+      "back": "Eine Darstellung von Wörtern als Zahlenvektoren, bei der Ähnliches nahe beieinanderliegt.",
+      "notes": "So erfasst das Modell Bedeutung. „König\" und „Königin\" liegen nah.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "generative-ki",
+      "front": "Generative KI",
+      "back": "KI, die neue Inhalte erzeugt — Texte, Bilder, Audio, Code.",
+      "notes": "Englisch: generative AI. LLMs sind ein Beispiel.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "halluzination",
+      "front": "Halluzination",
+      "back": "Wenn ein Sprachmodell etwas Falsches überzeugend und flüssig erfindet.",
+      "notes": "Das Modell prüft keine Fakten; wichtige Angaben immer nachprüfen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "prompt",
+      "front": "Prompt",
+      "back": "Die Anweisung oder Frage, die man einem Sprachmodell gibt.",
+      "notes": "Klar, mit Kontext und Zielformat formuliert wirkt er am besten.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "kontextfenster",
+      "front": "Kontextfenster",
+      "back": "Die begrenzte Menge Text, die ein Modell gleichzeitig berücksichtigen kann.",
+      "notes": "Sehr lange Gespräche „vergessen\" den Anfang.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "data-science"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Wort für Wort",
+      "body": "# Sprachmodelle\n\nEin **großes Sprachmodell (LLM)** ist ein neuronales Netz, das auf **riesigen Textmengen** trainiert wurde. Sein Kernprinzip ist erstaunlich einfach: Es zerlegt Text in **Token** (Wörter oder Wortteile) und sagt wiederholt das **wahrscheinlichste nächste Token** voraus.\n\nSo entsteht **Wort für Wort** ein flüssiger Text. Das Modell „versteht\" nicht wie ein Mensch — es rechnet mit **Wahrscheinlichkeiten**, die es aus Unmengen Text gelernt hat."
+    },
+    {
+      "id": "step-embedding",
+      "type": "theory",
+      "title": "Bedeutung als Zahlen",
+      "body": "## Embeddings\n\nDamit ein Modell mit Sprache rechnen kann, wandelt es Wörter in **Zahlenvektoren** um — sogenannte **Embeddings**. Der Trick: **Ähnliche** Bedeutungen liegen **nah** beieinander.\n\nSo landet „König\" nahe bei „Königin\" und „Hund\" nahe bei „Katze\". Über solche Nähe erfasst das Modell **Bedeutung** und Zusammenhänge — ganz ohne ein Wörterbuch im menschlichen Sinn."
+    },
+    {
+      "id": "step-halluzination",
+      "type": "theory",
+      "title": "Halluzinationen und Prompting",
+      "body": "## Vorsicht und gutes Fragen\n\nWeil ein LLM auf **Wahrscheinlichkeit** setzt und **keine Fakten prüft**, kann es **halluzinieren**: etwas Falsches **überzeugend** erfinden — etwa eine erfundene Quelle. Deshalb: **wichtige Angaben immer nachprüfen**.\n\nGutes **Prompting** hilft: \n\n- **klar** sagen, was du willst,\n- **Kontext** geben,\n- das **Zielformat** nennen (z. B. „in fünf Stichpunkten\").\n\nJe präziser der **Prompt**, desto brauchbarer die Antwort."
+    },
+    {
+      "id": "ex-match-begriffe7",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Sprachmodell-Begriffe",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jeden Begriff seiner Bedeutung zu.",
+        "card_ids": [
+          "token",
+          "embedding",
+          "halluzination"
+        ],
+        "pairs": [
+          {
+            "left": "Token",
+            "right": "Wort oder Wortteil"
+          },
+          {
+            "left": "Embedding",
+            "right": "Bedeutung als Zahlenvektor"
+          },
+          {
+            "left": "Halluzination",
+            "right": "überzeugend erfundene Falschangabe"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-begriffe7"
+      }
+    },
+    {
+      "id": "ex-mc-kern",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Das Kernprinzip",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Was sagt ein Sprachmodell im Kern wiederholt voraus?",
+        "card_ids": [
+          "naechstes-token",
+          "token"
+        ],
+        "sentence": "Ein LLM sagt wiederholt das wahrscheinlichste ___ voraus.",
+        "blanks": [
+          {
+            "accept": [
+              "nächste Token"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ganze Kapitel",
+          "korrekte Fakten",
+          "endgültige Wahrheit"
+        ],
+        "hint": "So entsteht Text Wort für Wort.",
+        "id": "ex-mc-kern"
+      }
+    },
+    {
+      "id": "ex-mc-hallu",
+      "type": "exercise",
+      "theory_ref": "step-halluzination",
+      "title": "Erfundenes",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie sollte man mit wichtigen Angaben eines Sprachmodells umgehen?",
+        "card_ids": [
+          "halluzination"
+        ],
+        "sentence": "Weil Modelle halluzinieren können, sollte man wichtige Angaben ___.",
+        "blanks": [
+          {
+            "accept": [
+              "immer nachprüfen"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "blind glauben",
+          "sofort teilen",
+          "nie hinterfragen"
+        ],
+        "hint": "Das Modell prüft selbst keine Fakten.",
+        "id": "ex-mc-hallu"
+      }
+    },
+    {
+      "id": "ex-cloze-embedding",
+      "type": "exercise",
+      "theory_ref": "step-embedding",
+      "title": "Nähe = Ähnlichkeit",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für Wörter als Zahlenvektoren mit Bedeutungsnähe.",
+        "card_ids": [
+          "embedding"
+        ],
+        "sentence": "Wörter werden als Zahlenvektoren dargestellt; das nennt man ___ .",
+        "blanks": [
+          {
+            "accept": [
+              "Embedding",
+              "embedding",
+              "Embeddings"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Ähnliches liegt nah beieinander.",
+        "id": "ex-cloze-embedding"
+      }
+    },
+    {
+      "id": "ex-cloze-prompt",
+      "type": "exercise",
+      "theory_ref": "step-halluzination",
+      "title": "Die Anweisung",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für die Anweisung an ein Sprachmodell.",
+        "card_ids": [
+          "prompt"
+        ],
+        "sentence": "Die Anweisung oder Frage an ein Modell heißt ___ .",
+        "blanks": [
+          {
+            "accept": [
+              "Prompt",
+              "prompt"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Klar und mit Kontext wirkt er am besten.",
+        "id": "ex-cloze-prompt"
+      }
+    },
+    {
+      "id": "ex-match-prompt",
+      "type": "exercise",
+      "theory_ref": "step-halluzination",
+      "title": "Gutes Prompting",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jeder Prompting-Regel ihr Beispiel zu.",
+        "card_ids": [
+          "prompt",
+          "kontextfenster"
+        ],
+        "pairs": [
+          {
+            "left": "klar sagen, was du willst",
+            "right": "„Fasse in drei Sätzen zusammen\""
+          },
+          {
+            "left": "Kontext geben",
+            "right": "„Für Einsteiger erklärt\""
+          },
+          {
+            "left": "Zielformat nennen",
+            "right": "„als Tabelle\""
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-prompt"
+      }
+    },
+    {
+      "id": "ex-tiles-token",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Merksatz Token",
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": [
+          "naechstes-token"
+        ],
+        "tiles": [
+          "Ein",
+          "LLM",
+          "sagt",
+          "das",
+          "nächste",
+          "Token",
+          "voraus"
+        ],
+        "hint": "Beginnt mit: Ein LLM sagt …",
+        "direction": "target_to_source",
+        "id": "ex-tiles-token"
+      }
+    },
+    {
+      "id": "ex-free-generativ",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Neue Inhalte",
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Wie nennt man KI, die neue Inhalte wie Text oder Bilder erzeugt?",
+        "card_ids": [
+          "generative-ki"
+        ],
+        "accept": [
+          "Generative KI",
+          "generative KI",
+          "generative AI"
+        ],
+        "hint": "Englisch: generative AI.",
+        "distractors": [
+          "Suchmaschine",
+          "Datenbank",
+          "Tabellenkalkulation"
+        ],
+        "direction": "target_to_source",
+        "id": "ex-free-generativ"
+      }
+    }
+  ]
+}

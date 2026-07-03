@@ -748,6 +748,28 @@ sets:
       - devops
       - qa
       - automation
+  - id: data-science-ki-from-de
+    title: Data Science und KI
+    title_native: Data Science und KI
+    target_language: de
+    source_language: de
+    domain: ai
+    level: A2
+    path: sets/de/data-science-ki
+    version: '1.0.0'
+    lesson_count: 9
+    description: >-
+      Aufbaukurs im Anschluss an „KI für Einsteiger" (9 Lektionen):
+      Was Data Science ist, Daten verstehen, Statistik für den Alltag,
+      Grundkonzepte des maschinellen Lernens, Modelle bewerten,
+      neuronale Netze und Deep Learning, Sprachmodelle und generative
+      KI, KI im Einsatz sowie Verantwortung. Erklärt auf Deutsch,
+      konzeptuell und ohne Programmieren. KI-Set (domain: ai).
+    tags:
+      - aufbau
+      - ai
+      - data-science
+      - machine-learning
 metadata:
   author: Asterios Raptis
   license: CC-BY-SA-4.0

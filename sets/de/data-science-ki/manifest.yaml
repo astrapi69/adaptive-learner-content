@@ -1,0 +1,61 @@
+# Data Science und KI (für Deutschsprachige) — Set-Manifest
+# (schema v1.4, domain: ai).
+#
+# Aufbau-Fortsetzung des Einsteiger-Kurses „KI für Einsteiger":
+# eine Stufe darüber (Aufbau/A2), konzeptuell und ohne
+# Code-Schreiben. ``domain: ai`` markiert den Inhalt als
+# Sachthema: Material und Erklärung sind beide auf Deutsch
+# (source_language == target_language), und der Set-Ordner trägt
+# einen Themennamen (``data-science-ki``) statt eines
+# ``{target}-{level}``-Namens. Der Content-Loader liest
+# ``metadata.lessons`` für die Dateiliste.
+#
+# Hinweis: kein ``book:``-Block — anders als das Einsteiger-Set
+# ist dieser Aufbaukurs kein Begleitkurs zu einem konkreten Buch;
+# er setzt inhaltlich auf „KI für Einsteiger" auf. (Ein Buchbezug
+# ließe sich später ergänzen, sobald ein passender Titel vorliegt.)
+schema_version: '1.4'
+name: Data Science und KI
+description: >-
+  Aufbaukurs im Anschluss an „KI für Einsteiger": Data Science und
+  maschinelles Lernen verständlich erklärt — von Daten und Statistik
+  über Machine Learning, Modellbewertung und neuronale Netze bis zu
+  Sprachmodellen, Anwendungen und Verantwortung. Auf Deutsch,
+  konzeptuell und ohne Programmieren.
+sets:
+  - id: data-science-ki-from-de
+    title: Data Science und KI
+    title_native: Data Science und KI
+    target_language: de
+    source_language: de
+    domain: ai
+    level: A2
+    path: sets/de/data-science-ki
+    version: '1.0.0'
+    lesson_count: 9
+    domain_label: Künstliche Intelligenz
+    description: >-
+      Neun Aufbaulektionen rund um Data Science und KI, auf Deutsch
+      erklärt: Was Data Science ist, Daten verstehen, Statistik für den
+      Alltag, Grundkonzepte des maschinellen Lernens, Modelle bewerten,
+      neuronale Netze und Deep Learning, Sprachmodelle und generative KI,
+      KI im Einsatz sowie Verantwortung. Fortsetzung des Einsteiger-Kurses
+      „KI für Einsteiger".
+    tags:
+      - aufbau
+      - ai
+      - data-science
+      - machine-learning
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-was-ist-data-science.json
+    - 02-daten-verstehen.json
+    - 03-statistik-grundlagen.json
+    - 04-ml-grundkonzepte.json
+    - 05-modelle-bewerten.json
+    - 06-neuronale-netze.json
+    - 07-sprachmodelle-generative-ki.json
+    - 08-ki-im-einsatz.json
+    - 09-verantwortung.json

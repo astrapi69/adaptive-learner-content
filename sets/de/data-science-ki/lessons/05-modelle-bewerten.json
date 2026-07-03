@@ -1,0 +1,337 @@
+{
+  "id": "05-modelle-bewerten",
+  "title": "Modelle bewerten",
+  "description": "Overfitting und Underfitting, die Fallen der Genauigkeit und warum ein Testset heilig ist.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "ai",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "overfitting",
+      "front": "Overfitting",
+      "back": "Das Modell lernt die Trainingsdaten auswendig — samt Zufall — und versagt bei Neuem.",
+      "notes": "Deutsch: Überanpassung. Erkennbar: top im Training, schwach im Test.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "underfitting",
+      "front": "Underfitting",
+      "back": "Das Modell ist zu einfach und erfasst das Muster gar nicht — schwach überall.",
+      "notes": "Deutsch: Unteranpassung. Gegenteil von Overfitting.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "generalisierung",
+      "front": "Generalisierung",
+      "back": "Die Fähigkeit eines Modells, auch auf neue, ungesehene Daten gut zu wirken.",
+      "notes": "Das eigentliche Ziel. Nur der Test misst sie ehrlich.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "genauigkeit",
+      "front": "Genauigkeit (Accuracy)",
+      "back": "Anteil der richtig eingeordneten Fälle an allen Fällen.",
+      "notes": "Englisch: accuracy. Bei seltenen Ereignissen leicht irreführend.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "unbalanciert",
+      "front": "Unausgewogene Daten",
+      "back": "Eine Kategorie ist viel häufiger als die andere.",
+      "notes": "Beispiel: 99 % gesund, 1 % krank. Hohe Genauigkeit sagt dann wenig.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "testset-heilig",
+      "front": "Das Testset ist heilig",
+      "back": "Man wertet das Testset erst ganz am Ende aus und passt das Modell nie daran an.",
+      "notes": "Sonst sickert Wissen ein und die Bewertung wird geschönt.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "validierung",
+      "front": "Validierungsdaten",
+      "back": "Ein dritter Teil zum Abstimmen des Modells, damit das Testset unberührt bleibt.",
+      "notes": "Englisch: validation set. Zum Ausprobieren von Einstellungen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "data-science"
+      ]
+    },
+    {
+      "id": "leakage",
+      "front": "Datenleck (Leakage)",
+      "back": "Wenn Testwissen versehentlich ins Training gelangt und die Ergebnisse zu gut aussehen.",
+      "notes": "Englisch: data leakage. Häufige Ursache scheinbar perfekter Modelle.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": [
+        "data-science"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Auswendig oder verstanden?",
+      "body": "# Modelle bewerten\n\nEin Modell soll **generalisieren** — also auch bei **neuen** Daten gut wirken. Zwei typische Fehler:\n\n- **Overfitting** (Überanpassung): Das Modell lernt die Trainingsdaten **auswendig**, samt Zufall. Es glänzt im Training und **versagt** im Test.\n- **Underfitting** (Unteranpassung): Das Modell ist **zu einfach**, erfasst das Muster gar nicht und ist **überall schwach**.\n\nGesucht ist die Mitte: ein Modell, das das **echte Muster** lernt, nicht den Zufall."
+    },
+    {
+      "id": "step-genauigkeit",
+      "type": "theory",
+      "title": "Die Falle der Genauigkeit",
+      "body": "## Wenn 99 % nichts wert sind\n\n**Genauigkeit** ist der Anteil richtig eingeordneter Fälle. Klingt gut, kann aber täuschen — besonders bei **unausgewogenen Daten**.\n\nBeispiel: Eine Krankheit betrifft **1 %** der Menschen. Ein Modell, das **immer** „gesund\" sagt, hat **99 % Genauigkeit** — und ist trotzdem **nutzlos**, weil es keinen einzigen Kranken findet.\n\nDeshalb schaut man zusätzlich, **welche** Fehler passieren, nicht nur **wie viele**."
+    },
+    {
+      "id": "step-testset",
+      "type": "theory",
+      "title": "Das Testset ist heilig",
+      "body": "## Nicht schummeln\n\nDie ehrliche Bewertung steht und fällt mit einer Regel: **Das Testset ist heilig.** Man wertet es **erst ganz am Ende** aus und passt das Modell **nie** daran an.\n\nWer zwischendurch am Testset feilt, lässt Wissen einsickern (**Datenleck**) und schönt das Ergebnis. Zum Ausprobieren von Einstellungen nutzt man stattdessen **Validierungsdaten** — einen dritten Teil, der das Testset unberührt lässt."
+    },
+    {
+      "id": "ex-match-fit",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Over- und Underfitting",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jede Beschreibung dem richtigen Begriff zu.",
+        "card_ids": [
+          "overfitting",
+          "underfitting",
+          "generalisierung"
+        ],
+        "pairs": [
+          {
+            "left": "top im Training, schwach im Test",
+            "right": "Overfitting"
+          },
+          {
+            "left": "zu einfach, überall schwach",
+            "right": "Underfitting"
+          },
+          {
+            "left": "wirkt auch auf neue Daten gut",
+            "right": "Generalisierung"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-fit"
+      }
+    },
+    {
+      "id": "ex-mc-overfit",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Auswendig gelernt",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie nennt man es, wenn ein Modell die Trainingsdaten auswendig lernt und bei Neuem versagt?",
+        "card_ids": [
+          "overfitting"
+        ],
+        "sentence": "Top im Training, schwach im Test — das ist ___.",
+        "blanks": [
+          {
+            "accept": [
+              "Overfitting"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Underfitting",
+          "Generalisierung",
+          "Clustering"
+        ],
+        "hint": "Deutsch: Überanpassung.",
+        "id": "ex-mc-overfit"
+      }
+    },
+    {
+      "id": "ex-mc-accuracy",
+      "type": "exercise",
+      "theory_ref": "step-genauigkeit",
+      "title": "99 % und nutzlos",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Warum kann ein Modell mit 99 % Genauigkeit trotzdem nutzlos sein?",
+        "card_ids": [
+          "unbalanciert",
+          "genauigkeit"
+        ],
+        "sentence": "Bei unausgewogenen Daten kann hohe Genauigkeit ___.",
+        "blanks": [
+          {
+            "accept": [
+              "trotzdem nutzlos sein"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "nie täuschen",
+          "das Testset ersetzen",
+          "Overfitting verhindern"
+        ],
+        "hint": "Immer „gesund\" bei 1 % Kranken.",
+        "id": "ex-mc-accuracy"
+      }
+    },
+    {
+      "id": "ex-cloze-heilig",
+      "type": "exercise",
+      "theory_ref": "step-testset",
+      "title": "Erst am Ende",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze, wann man das Testset auswertet.",
+        "card_ids": [
+          "testset-heilig"
+        ],
+        "sentence": "Das Testset wertet man erst ganz am ___ aus.",
+        "blanks": [
+          {
+            "accept": [
+              "Ende",
+              "ende",
+              "Schluss"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Nie zwischendurch daran anpassen.",
+        "id": "ex-cloze-heilig"
+      }
+    },
+    {
+      "id": "ex-cloze-general",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Das eigentliche Ziel",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Ergänze das eigentliche Ziel eines Modells.",
+        "card_ids": [
+          "generalisierung"
+        ],
+        "sentence": "Das eigentliche Ziel eines Modells ist die ___ auf neue Daten.",
+        "blanks": [
+          {
+            "accept": [
+              "Generalisierung",
+              "generalisierung"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Gut wirken auf Ungesehenes.",
+        "id": "ex-cloze-general"
+      }
+    },
+    {
+      "id": "ex-match-bewerten",
+      "type": "exercise",
+      "theory_ref": "step-testset",
+      "title": "Rollen der Daten",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedem Datenteil seine Rolle zu.",
+        "card_ids": [
+          "validierung",
+          "testset-heilig"
+        ],
+        "pairs": [
+          {
+            "left": "Trainingsdaten",
+            "right": "woraus gelernt wird"
+          },
+          {
+            "left": "Validierungsdaten",
+            "right": "zum Abstimmen der Einstellungen"
+          },
+          {
+            "left": "Testdaten",
+            "right": "zur ehrlichen Endbewertung"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-bewerten"
+      }
+    },
+    {
+      "id": "ex-tiles-testset",
+      "type": "exercise",
+      "theory_ref": "step-testset",
+      "title": "Merksatz Testset",
+      "exercise": {
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": [
+          "testset-heilig"
+        ],
+        "tiles": [
+          "Das",
+          "Testset",
+          "ist",
+          "heilig"
+        ],
+        "hint": "Beginnt mit: Das Testset …",
+        "direction": "target_to_source",
+        "id": "ex-tiles-testset"
+      }
+    },
+    {
+      "id": "ex-free-underfit",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zu einfach",
+      "exercise": {
+        "type": "free_text",
+        "prompt": "Wie nennt man ein Modell, das zu einfach ist und das Muster gar nicht erfasst?",
+        "card_ids": [
+          "underfitting"
+        ],
+        "accept": [
+          "Underfitting",
+          "Unteranpassung"
+        ],
+        "hint": "Gegenteil von Overfitting.",
+        "distractors": [
+          "Overfitting",
+          "Überanpassung",
+          "Generalisierung"
+        ],
+        "direction": "target_to_source",
+        "id": "ex-free-underfit"
+      }
+    }
+  ]
+}
