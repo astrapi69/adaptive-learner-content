@@ -32,6 +32,35 @@ lesson rules): ≥ 1 theory step, ≥ 5 exercises across ≥ 2 types, free-text 
 ≥ 2 accepts **and** distractors, matching with ≥ 3 pairs, and a picture-choice
 with distractors. Keep those minimums when you edit.
 
+## Multiple choice
+
+There is **no** `multiple_choice` exercise type (deliberate — see
+[`adaptive-learner#890`](https://github.com/astrapi69/adaptive-learner/issues/890)
+/ EXP-036 §4.3). Author a single-answer multiple-choice question as a one-blank
+`cloze` in **`select` mode**: the question in `prompt`, a bare
+`"sentence": "___"`, `"blanks": [{"accept": ["<correct>"]}]`,
+`"cloze_mode": "select"`, and `distractors` = the plausible wrong answers.
+
+```json
+{
+  "type": "cloze",
+  "prompt": "Which article fits «___ maison» (feminine)?",
+  "card_ids": ["art-la"],
+  "sentence": "___",
+  "blanks": [{"accept": ["la"]}],
+  "cloze_mode": "select",
+  "distractors": ["le", "l'", "les"]
+}
+```
+
+**Do not use `picture_choice` for text multiple choice.** It is for genuine
+image selection with real, existing image assets; for text options it renders
+placeholder tiles, not a usable control — that was the bug in
+[`adaptive-learner-content-test#10`](https://github.com/astrapi69/adaptive-learner-content-test/issues/10).
+Full authoring reference: the app's
+[`authoring-content.md`](https://github.com/astrapi69/adaptive-learner/blob/develop/docs/help/en/developer/authoring-content.md)
+(§ Multiple Choice authoring).
+
 ## Domain differences at a glance
 
 - **language**: `domain: language`, `target_language` **and** `source_language`
