@@ -1,0 +1,361 @@
+{
+  "id": "02-arithmoi-ilikia",
+  "title": "Αριθμοί 1-20 και ηλικία",
+  "description": "Οι γαλλικοί αριθμοί από το 1 ως το 20 και πώς λες την ηλικία σου («έχω … χρόνια»).",
+  "target_language": "fr",
+  "source_language": "el",
+  "estimated_minutes": 11,
+  "cards": [
+    {
+      "id": "un",
+      "front": "un",
+      "back": "ένα (1)",
+      "notes": "Είναι και το αρσενικό αόριστο άρθρο («ένας»).",
+      "tags": [
+        "arithmoi"
+      ]
+    },
+    {
+      "id": "deux",
+      "front": "deux",
+      "back": "δύο (2)",
+      "tags": [
+        "arithmoi"
+      ]
+    },
+    {
+      "id": "trois",
+      "front": "trois",
+      "back": "τρία (3)",
+      "tags": [
+        "arithmoi"
+      ]
+    },
+    {
+      "id": "quatre",
+      "front": "quatre",
+      "back": "τέσσερα (4)",
+      "tags": [
+        "arithmoi"
+      ]
+    },
+    {
+      "id": "cinq",
+      "front": "cinq",
+      "back": "πέντε (5)",
+      "tags": [
+        "arithmoi"
+      ]
+    },
+    {
+      "id": "dix",
+      "front": "dix",
+      "back": "δέκα (10)",
+      "tags": [
+        "arithmoi"
+      ]
+    },
+    {
+      "id": "vingt",
+      "front": "vingt",
+      "back": "είκοσι (20)",
+      "notes": "Το τελικό «t» δεν προφέρεται.",
+      "tags": [
+        "arithmoi"
+      ]
+    },
+    {
+      "id": "jai-ans",
+      "front": "J'ai … ans.",
+      "back": "Είμαι … χρονών.",
+      "notes": "Κυριολεκτικά «έχω … χρόνια»: οι Γάλλοι λένε την ηλικία με το ρήμα «έχω».",
+      "tags": [
+        "ilikia"
+      ]
+    },
+    {
+      "id": "quel-age",
+      "front": "Quel âge as-tu ?",
+      "back": "Πόσων χρονών είσαι;",
+      "notes": "Ανεπίσημη ερώτηση για την ηλικία (τύπος «tu»).",
+      "tags": [
+        "ilikia"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Οι αριθμοί 1-10",
+      "body": "# Αριθμοί από το 1 ως το 10\n\n| Γαλλικά | Ελληνικά |\n|---|---|\n| un | ένα |\n| deux | δύο |\n| trois | τρία |\n| quatre | τέσσερα |\n| cinq | πέντε |\n| six | έξι |\n| sept | εφτά |\n| huit | οχτώ |\n| neuf | εννιά |\n| dix | δέκα |\n\nΠρόσεξε: το **un** είναι και ο αριθμός «ένα» και το αρσενικό άρθρο «ένας»."
+    },
+    {
+      "id": "teens",
+      "type": "theory",
+      "title": "Από το 11 ως το 20",
+      "body": "## 11-20\n\n- **onze** (11), **douze** (12), **treize** (13), **quatorze** (14), **quinze** (15), **seize** (16)\n- Μετά αλλάζει το μοτίβο: **dix-sept** (17), **dix-huit** (18), **dix-neuf** (19), δηλαδή «δέκα-εφτά» κ.λπ.\n- **vingt** (20)."
+    },
+    {
+      "id": "ilikia",
+      "type": "theory",
+      "title": "Η ηλικία με το «έχω»",
+      "body": "## Πόσων χρονών είσαι;\n\nΣτα γαλλικά η ηλικία λέγεται με το ρήμα **avoir** (έχω), όχι με το «είμαι»:\n\n```\nQuel âge as-tu ?   (Πόσων χρονών είσαι;)\nJ'ai vingt ans.    (Είμαι είκοσι χρονών.)\n```\n\nΚυριολεκτικά «**έχω** είκοσι **χρόνια**». Μην ξεχνάς τη λέξη **ans** στο τέλος."
+    },
+    {
+      "id": "ex-match-1-5",
+      "type": "exercise",
+      "title": "Αριθμοί 1-5",
+      "exercise": {
+        "id": "ex-match-1-5",
+        "type": "matching",
+        "prompt": "Αντιστοίχισε κάθε γαλλικό αριθμό με την τιμή του.",
+        "card_ids": [
+          "un",
+          "deux",
+          "trois",
+          "quatre",
+          "cinq"
+        ],
+        "pairs": [
+          {
+            "left": "un",
+            "right": "ένα (1)"
+          },
+          {
+            "left": "deux",
+            "right": "δύο (2)"
+          },
+          {
+            "left": "trois",
+            "right": "τρία (3)"
+          },
+          {
+            "left": "quatre",
+            "right": "τέσσερα (4)"
+          },
+          {
+            "left": "cinq",
+            "right": "πέντε (5)"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-mc-dix",
+      "type": "exercise",
+      "title": "Ποιος αριθμός σημαίνει «δέκα»;",
+      "exercise": {
+        "id": "ex-mc-dix",
+        "type": "cloze",
+        "prompt": "Ποιος αριθμός σημαίνει «δέκα»;",
+        "card_ids": [
+          "dix"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "dix"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "deux",
+          "six",
+          "douze"
+        ],
+        "hint": "Αρχίζει από d."
+      }
+    },
+    {
+      "id": "ex-mc-vingt",
+      "type": "exercise",
+      "title": "Πώς λες «είκοσι» στα γαλλικά;",
+      "exercise": {
+        "id": "ex-mc-vingt",
+        "type": "cloze",
+        "prompt": "Πώς λες «είκοσι» στα γαλλικά;",
+        "card_ids": [
+          "vingt"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "vingt"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "quatre",
+          "quinze",
+          "quatorze"
+        ],
+        "hint": "Το τελικό «t» δεν ακούγεται."
+      }
+    },
+    {
+      "id": "ex-mc-ilikia",
+      "type": "exercise",
+      "title": "Πώς λες «είμαι είκοσι χρονών»;",
+      "exercise": {
+        "id": "ex-mc-ilikia",
+        "type": "cloze",
+        "prompt": "Πώς λες «είμαι είκοσι χρονών»;",
+        "card_ids": [
+          "jai-ans"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "J'ai vingt ans."
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Je suis vingt ans.",
+          "J'ai vingt.",
+          "Je suis vingt."
+        ],
+        "hint": "Η ηλικία μπαίνει με το «έχω» (avoir) και τη λέξη ans."
+      }
+    },
+    {
+      "id": "ex-mc-erotisi-ilikia",
+      "type": "exercise",
+      "title": "Πώς ρωτάς ανεπίσημα «πόσων χρονών είσαι;»",
+      "exercise": {
+        "id": "ex-mc-erotisi-ilikia",
+        "type": "cloze",
+        "prompt": "Πώς ρωτάς ανεπίσημα «πόσων χρονών είσαι;»",
+        "card_ids": [
+          "quel-age"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Quel âge as-tu ?"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Comment tu t'appelles ?",
+          "Quel âge es-tu ?",
+          "Comment ça va ?"
+        ],
+        "hint": "Ρήμα avoir: as-tu."
+      }
+    },
+    {
+      "id": "ex-clz-cinq",
+      "type": "exercise",
+      "title": "Γράψε τον αριθμό",
+      "exercise": {
+        "id": "ex-clz-cinq",
+        "type": "cloze",
+        "prompt": "Γράψε τον αριθμό «πέντε» στα γαλλικά.",
+        "card_ids": [
+          "cinq"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "cinq",
+              "Cinq"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Αρχίζει από c."
+      }
+    },
+    {
+      "id": "ex-clz-ans",
+      "type": "exercise",
+      "title": "Η ηλικία",
+      "exercise": {
+        "id": "ex-clz-ans",
+        "type": "cloze",
+        "prompt": "Συμπλήρωσε τη λέξη που λείπει: «J'ai dix ___.» (είμαι δέκα χρονών)",
+        "card_ids": [
+          "jai-ans"
+        ],
+        "sentence": "J'ai dix ___.",
+        "blanks": [
+          {
+            "accept": [
+              "ans"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Σημαίνει «χρόνια»."
+      }
+    },
+    {
+      "id": "ex-mc-trois",
+      "type": "exercise",
+      "title": "Ποιος αριθμός είναι «τρία»;",
+      "exercise": {
+        "id": "ex-mc-trois",
+        "type": "cloze",
+        "prompt": "Ποιος αριθμός είναι «τρία»;",
+        "card_ids": [
+          "trois"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "trois"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "deux",
+          "treize",
+          "quatre"
+        ],
+        "hint": "Αρχίζει από t."
+      }
+    },
+    {
+      "id": "ex-mc-quatre",
+      "type": "exercise",
+      "title": "Ποιος αριθμός είναι «τέσσερα»;",
+      "exercise": {
+        "id": "ex-mc-quatre",
+        "type": "cloze",
+        "prompt": "Ποιος αριθμός είναι «τέσσερα»;",
+        "card_ids": [
+          "quatre"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "quatre"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "quatorze",
+          "cinq",
+          "quinze"
+        ],
+        "hint": "Μην το μπερδέψεις με το quatorze (14)."
+      }
+    }
+  ]
+}

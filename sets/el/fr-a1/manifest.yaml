@@ -1,0 +1,45 @@
+# Γαλλικά A1 (για ελληνόφωνους) — Set-Manifest.
+#
+# Erstes Set mit source_language ``el``: Französisch A1 für
+# griechischsprachige Lernende. Instruktionssprache Griechisch,
+# Zielsprache Französisch. Single-JSON, schema_version 1.4 (ohne das
+# geplante ``examples``-Feld — noch nicht im Schema). Der Content-Loader
+# liest ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.4'
+name: Γαλλικά A1 (για ελληνόφωνους)
+description: >-
+  Γαλλικά A1 για ελληνόφωνους (8 μαθήματα): χαιρετισμοί και συστάσεις,
+  αριθμοί και ηλικία, άρθρα και γένος, τα ρήματα être/avoir, οικογένεια,
+  φαγητό και ποτό, απλές ερωτήσεις, χρώματα και επίθετα. Οι εξηγήσεις,
+  οι σημειώσεις και οι ασκήσεις είναι στα ελληνικά.
+sets:
+  - id: fr-a1-from-el
+    title: Γαλλικά A1 (για ελληνόφωνους)
+    title_native: Français A1
+    target_language: fr
+    source_language: el
+    level: A1
+    path: sets/el/fr-a1
+    version: '1.0.0'
+    lesson_count: 8
+    domain: language
+    description: >-
+      Πλήρες εισαγωγικό σετ γαλλικών A1 (8 μαθήματα) με εξηγήσεις στα
+      ελληνικά. Το Multiple-Choice υλοποιείται ως cloze σε λειτουργία
+      select (κανονική μηχανική MC).
+    tags:
+      - beginner
+      - travel
+      - everyday
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-chairetismoi.json
+    - 02-arithmoi-ilikia.json
+    - 03-arthra-genos.json
+    - 04-etre-avoir.json
+    - 05-oikogeneia.json
+    - 06-fagito-poto.json
+    - 07-erotiseis.json
+    - 08-chromata-epitheta.json

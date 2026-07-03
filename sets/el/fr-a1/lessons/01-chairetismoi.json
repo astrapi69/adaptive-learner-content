@@ -1,0 +1,332 @@
+{
+  "id": "01-chairetismoi",
+  "title": "Χαιρετισμοί και συστάσεις",
+  "description": "Βασικοί γαλλικοί χαιρετισμοί και πώς να συστηθείς — με εξηγήσεις στα ελληνικά.",
+  "target_language": "fr",
+  "source_language": "el",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "bonjour",
+      "front": "Bonjour",
+      "back": "καλημέρα / γεια σας",
+      "notes": "Καθημερινός χαιρετισμός τη μέρα, τυπικός και ανεπίσημος.",
+      "tags": [
+        "chairetismoi"
+      ]
+    },
+    {
+      "id": "bonsoir",
+      "front": "Bonsoir",
+      "back": "καλησπέρα",
+      "notes": "Το βράδυ, για χαιρετισμό και αποχαιρετισμό.",
+      "tags": [
+        "chairetismoi"
+      ]
+    },
+    {
+      "id": "salut",
+      "front": "Salut",
+      "back": "γεια (ανεπίσημο)",
+      "notes": "Μόνο με φίλους και γνωστούς, όχι σε αγνώστους.",
+      "tags": [
+        "chairetismoi"
+      ]
+    },
+    {
+      "id": "au-revoir",
+      "front": "Au revoir",
+      "back": "αντίο",
+      "notes": "Τυπικός αποχαιρετισμός, σε κάθε περίσταση.",
+      "tags": [
+        "chairetismoi"
+      ]
+    },
+    {
+      "id": "merci",
+      "front": "Merci",
+      "back": "ευχαριστώ",
+      "notes": "«Merci beaucoup» = ευχαριστώ πολύ.",
+      "tags": [
+        "evgenia"
+      ]
+    },
+    {
+      "id": "je-mappelle",
+      "front": "Je m'appelle…",
+      "back": "Με λένε… / Ονομάζομαι…",
+      "notes": "Κυριολεκτικά «ονομάζομαι». Πρόσεξε την έκθλιψη: je m'appelle.",
+      "tags": [
+        "systaseis"
+      ]
+    },
+    {
+      "id": "comment-tu-tappelles",
+      "front": "Comment tu t'appelles ?",
+      "back": "Πώς σε λένε;",
+      "notes": "Ανεπίσημη ερώτηση με τον τύπο «tu» (εσύ).",
+      "tags": [
+        "systaseis"
+      ]
+    },
+    {
+      "id": "enchante",
+      "front": "Enchanté(e)",
+      "back": "Χαίρω πολύ",
+      "notes": "Ο άντρας λέει «enchanté», η γυναίκα «enchantée».",
+      "tags": [
+        "systaseis"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Οι χαιρετισμοί",
+      "body": "# Χαιρετισμοί στα γαλλικά\n\nΟι Γάλλοι διαλέγουν χαιρετισμό ανάλογα με την ώρα και το πόσο τυπική είναι η στιγμή:\n\n- **Bonjour** — καλημέρα/γεια, τη μέρα, παντού.\n- **Bonsoir** — καλησπέρα, το βράδυ.\n- **Salut** — ανεπίσημο «γεια», μόνο με φίλους.\n- **Au revoir** — αντίο, όταν φεύγεις.\n\nΣτη Γαλλία λες **bonjour** μόλις μπαίνεις σε ένα μικρό μαγαζί ή σε φούρνο — αν το παραλείψεις, θεωρείται αγένεια."
+    },
+    {
+      "id": "systaseis",
+      "type": "theory",
+      "title": "Πώς συστήνεσαι",
+      "body": "## Να πεις το όνομά σου\n\nΓια να πεις πώς σε λένε, χρησιμοποιείς **Je m'appelle…** (κυριολεκτικά «ονομάζομαι»):\n\n```\nBonjour, je m'appelle Marie.\n```\n\nΓια να ρωτήσεις κάποιον ανεπίσημα:\n\n```\nComment tu t'appelles ?\n```\n\nΠρόσεξε την **έκθλιψη**: *je m'appelle*, *tu t'appelles* (το «me/te» χάνει το φωνήεν πριν από φωνήεν)."
+    },
+    {
+      "id": "register",
+      "type": "theory",
+      "title": "Τυπικό ή ανεπίσημο",
+      "body": "## «tu» ή «vous»\n\nΤα γαλλικά έχουν δύο «εσύ»:\n\n- **tu** — ανεπίσημο, για φίλους, οικογένεια, συνομηλίκους. Αυτό χρησιμοποιούμε εδώ σε όλο το μάθημα.\n- **vous** — ευγενικό/πληθυντικός, για αγνώστους ή τυπικές καταστάσεις.\n\nΣε αυτό το μάθημα μένουμε στο **tu**. Το **vous** το αναφέρουμε μόνο για να το ξέρεις."
+    },
+    {
+      "id": "ex-match-chair",
+      "type": "exercise",
+      "title": "Αντιστοίχισε τους χαιρετισμούς",
+      "exercise": {
+        "id": "ex-match-chair",
+        "type": "matching",
+        "prompt": "Αντιστοίχισε κάθε γαλλικό χαιρετισμό με τη σημασία του.",
+        "card_ids": [
+          "bonjour",
+          "bonsoir",
+          "salut",
+          "au-revoir"
+        ],
+        "pairs": [
+          {
+            "left": "Bonjour",
+            "right": "καλημέρα / γεια"
+          },
+          {
+            "left": "Bonsoir",
+            "right": "καλησπέρα"
+          },
+          {
+            "left": "Salut",
+            "right": "γεια (ανεπίσημο)"
+          },
+          {
+            "left": "Au revoir",
+            "right": "αντίο"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-mc-vradi",
+      "type": "exercise",
+      "title": "Ποιος χαιρετισμός ταιριάζει το βράδυ;",
+      "exercise": {
+        "id": "ex-mc-vradi",
+        "type": "cloze",
+        "prompt": "Ποιος χαιρετισμός ταιριάζει το βράδυ;",
+        "card_ids": [
+          "bonsoir"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Bonsoir"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Bonjour",
+          "Salut",
+          "Au revoir"
+        ],
+        "hint": "Σκέψου την ώρα: το βράδυ."
+      }
+    },
+    {
+      "id": "ex-mc-anepisimo",
+      "type": "exercise",
+      "title": "Ποια λέξη είναι ανεπίσημη και τη λες μόνο σε φίλους;",
+      "exercise": {
+        "id": "ex-mc-anepisimo",
+        "type": "cloze",
+        "prompt": "Ποια λέξη είναι ανεπίσημη και τη λες μόνο σε φίλους;",
+        "card_ids": [
+          "salut"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Salut"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Bonjour",
+          "Bonsoir",
+          "Au revoir"
+        ],
+        "hint": "Δεν τη λες ποτέ σε άγνωστο."
+      }
+    },
+    {
+      "id": "ex-mc-systino",
+      "type": "exercise",
+      "title": "Πώς λες το όνομά σου (συστήνεσαι);",
+      "exercise": {
+        "id": "ex-mc-systino",
+        "type": "cloze",
+        "prompt": "Πώς λες το όνομά σου (συστήνεσαι);",
+        "card_ids": [
+          "je-mappelle"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Je m'appelle…"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Comment tu t'appelles ?",
+          "Enchanté",
+          "Au revoir"
+        ],
+        "hint": "Κυριολεκτικά «ονομάζομαι»."
+      }
+    },
+    {
+      "id": "ex-mc-erotisi-onoma",
+      "type": "exercise",
+      "title": "Πώς ρωτάς κάποιον ανεπίσημα πώς τον λένε;",
+      "exercise": {
+        "id": "ex-mc-erotisi-onoma",
+        "type": "cloze",
+        "prompt": "Πώς ρωτάς κάποιον ανεπίσημα πώς τον λένε;",
+        "card_ids": [
+          "comment-tu-tappelles"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Comment tu t'appelles ?"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Je m'appelle Marie",
+          "S'il te plaît",
+          "Merci beaucoup"
+        ],
+        "hint": "Ερώτηση με «tu»."
+      }
+    },
+    {
+      "id": "ex-match-systaseis",
+      "type": "exercise",
+      "title": "Φράσεις γνωριμίας",
+      "exercise": {
+        "id": "ex-match-systaseis",
+        "type": "matching",
+        "prompt": "Αντιστοίχισε κάθε γαλλική φράση με τη σημασία της.",
+        "card_ids": [
+          "je-mappelle",
+          "comment-tu-tappelles",
+          "enchante",
+          "merci"
+        ],
+        "pairs": [
+          {
+            "left": "Je m'appelle…",
+            "right": "με λένε…"
+          },
+          {
+            "left": "Comment tu t'appelles ?",
+            "right": "πώς σε λένε;"
+          },
+          {
+            "left": "Enchanté",
+            "right": "χαίρω πολύ"
+          },
+          {
+            "left": "Merci",
+            "right": "ευχαριστώ"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-clz-merci",
+      "type": "exercise",
+      "title": "Γράψε «ευχαριστώ»",
+      "exercise": {
+        "id": "ex-clz-merci",
+        "type": "cloze",
+        "prompt": "Πώς λες «ευχαριστώ» στα γαλλικά;",
+        "card_ids": [
+          "merci"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Merci",
+              "merci"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Αρχίζει από M."
+      }
+    },
+    {
+      "id": "ex-clz-elision",
+      "type": "exercise",
+      "title": "Η έκθλιψη",
+      "exercise": {
+        "id": "ex-clz-elision",
+        "type": "cloze",
+        "prompt": "Συμπλήρωσε το «me» σε συντομευμένη μορφή πριν από φωνήεν.",
+        "card_ids": [
+          "je-mappelle"
+        ],
+        "sentence": "Je ___ appelle Léa.",
+        "blanks": [
+          {
+            "accept": [
+              "m'",
+              "m’"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "me → m' πριν από φωνήεν."
+      }
+    }
+  ]
+}

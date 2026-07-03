@@ -1,0 +1,328 @@
+{
+  "id": "08-chromata-epitheta",
+  "title": "Χρώματα και απλά επίθετα",
+  "description": "Τα χρώματα και η συμφωνία γένους των επιθέτων (grand/grande, vert/verte).",
+  "target_language": "fr",
+  "source_language": "el",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "rouge",
+      "front": "rouge",
+      "back": "κόκκινο",
+      "notes": "Ίδιο σε αρσενικό και θηλυκό: rouge.",
+      "tags": [
+        "chromata"
+      ]
+    },
+    {
+      "id": "bleu",
+      "front": "bleu / bleue",
+      "back": "μπλε",
+      "notes": "Αρσενικό bleu, θηλυκό bleue.",
+      "tags": [
+        "chromata"
+      ]
+    },
+    {
+      "id": "vert",
+      "front": "vert / verte",
+      "back": "πράσινο",
+      "notes": "Αρσενικό vert, θηλυκό verte.",
+      "tags": [
+        "chromata"
+      ]
+    },
+    {
+      "id": "jaune",
+      "front": "jaune",
+      "back": "κίτρινο",
+      "notes": "Ίδιο και στα δύο γένη.",
+      "tags": [
+        "chromata"
+      ]
+    },
+    {
+      "id": "noir",
+      "front": "noir / noire",
+      "back": "μαύρο",
+      "notes": "Αρσενικό noir, θηλυκό noire.",
+      "tags": [
+        "chromata"
+      ]
+    },
+    {
+      "id": "blanc",
+      "front": "blanc / blanche",
+      "back": "άσπρο",
+      "notes": "Αρσενικό blanc, θηλυκό blanche (ανώμαλο).",
+      "tags": [
+        "chromata"
+      ]
+    },
+    {
+      "id": "grand",
+      "front": "grand / grande",
+      "back": "μεγάλος / μεγάλη",
+      "notes": "Το επίθετο συμφωνεί στο γένος: grand (αρσ.), grande (θηλ.).",
+      "tags": [
+        "epitheta"
+      ]
+    },
+    {
+      "id": "petit",
+      "front": "petit / petite",
+      "back": "μικρός / μικρή",
+      "notes": "petit (αρσ.), petite (θηλ.).",
+      "tags": [
+        "epitheta"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Τα χρώματα",
+      "body": "# Χρώματα\n\n- **rouge** (κόκκινο), **bleu** (μπλε), **vert** (πράσινο), **jaune** (κίτρινο), **noir** (μαύρο), **blanc** (άσπρο)\n\nΜερικά χρώματα αλλάζουν στο θηλυκό:\n\n- *vert → verte*, *noir → noire*, *blanc → blanche*\n\nΆλλα μένουν ίδια: **rouge**, **jaune** (και στα δύο γένη)."
+    },
+    {
+      "id": "symfonia",
+      "type": "theory",
+      "title": "Συμφωνία γένους",
+      "body": "## Το επίθετο συμφωνεί\n\nΣτα γαλλικά το επίθετο **συμφωνεί με το γένος** του ουσιαστικού — συχνά προσθέτοντας **-e** στο θηλυκό:\n\n- **un grand jardin** (ένας μεγάλος κήπος) → **une grande maison** (ένα μεγάλο σπίτι)\n- **le chat noir** (η μαύρη γάτα, αρσ.) → **la voiture noire** (το μαύρο αυτοκίνητο, θηλ.)\n\nΌπως και στα ελληνικά «μεγάλος/μεγάλη», έτσι και εδώ: **grand/grande**."
+    },
+    {
+      "id": "thesi",
+      "type": "theory",
+      "title": "Πού μπαίνει το επίθετο",
+      "body": "## Θέση του επιθέτου\n\nΤα περισσότερα γαλλικά επίθετα (όπως τα χρώματα) μπαίνουν **μετά** το ουσιαστικό:\n\n```\nune pomme rouge   (ένα κόκκινο μήλο)\nune voiture verte (ένα πράσινο αυτοκίνητο)\n```\n\nΜερικά κοινά επίθετα (grand, petit) μπαίνουν **πριν**: *un petit café*."
+    },
+    {
+      "id": "ex-match-chromata",
+      "type": "exercise",
+      "title": "Χρώματα",
+      "exercise": {
+        "id": "ex-match-chromata",
+        "type": "matching",
+        "prompt": "Αντιστοίχισε κάθε χρώμα με τη σημασία του.",
+        "card_ids": [
+          "rouge",
+          "bleu",
+          "vert",
+          "noir"
+        ],
+        "pairs": [
+          {
+            "left": "rouge",
+            "right": "κόκκινο"
+          },
+          {
+            "left": "bleu",
+            "right": "μπλε"
+          },
+          {
+            "left": "vert",
+            "right": "πράσινο"
+          },
+          {
+            "left": "noir",
+            "right": "μαύρο"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-mc-kokkino",
+      "type": "exercise",
+      "title": "Πώς λες «κόκκινο»;",
+      "exercise": {
+        "id": "ex-mc-kokkino",
+        "type": "cloze",
+        "prompt": "Πώς λες «κόκκινο»;",
+        "card_ids": [
+          "rouge"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "rouge"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "vert",
+          "jaune",
+          "noir"
+        ],
+        "hint": "Ίδιο και στα δύο γένη."
+      }
+    },
+    {
+      "id": "ex-mc-thiliko-verte",
+      "type": "exercise",
+      "title": "Ποιος είναι ο θηλυκός τύπος του «vert» (πράσινο);",
+      "exercise": {
+        "id": "ex-mc-thiliko-verte",
+        "type": "cloze",
+        "prompt": "Ποιος είναι ο θηλυκός τύπος του «vert» (πράσινο);",
+        "card_ids": [
+          "vert"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "verte"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "vert",
+          "verts",
+          "vertes"
+        ],
+        "hint": "Προσθέτουμε -e στο θηλυκό ενικό."
+      }
+    },
+    {
+      "id": "ex-mc-grande",
+      "type": "exercise",
+      "title": "Συμπλήρωσε: «une ___ maison» (ένα μεγάλο σπίτι, θηλυκό)",
+      "exercise": {
+        "id": "ex-mc-grande",
+        "type": "cloze",
+        "prompt": "Συμπλήρωσε: «une ___ maison» (ένα μεγάλο σπίτι, θηλυκό)",
+        "card_ids": [
+          "grand"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "grande"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "grand",
+          "grands",
+          "petit"
+        ],
+        "hint": "maison θηλυκό → grande."
+      }
+    },
+    {
+      "id": "ex-mc-thesi",
+      "type": "exercise",
+      "title": "Πού μπαίνει συνήθως το χρώμα σε σχέση με το ουσιαστικό;",
+      "exercise": {
+        "id": "ex-mc-thesi",
+        "type": "cloze",
+        "prompt": "Πού μπαίνει συνήθως το χρώμα σε σχέση με το ουσιαστικό;",
+        "card_ids": [
+          "rouge"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "μετά το ουσιαστικό: une pomme rouge"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "πριν το ουσιαστικό: une rouge pomme",
+          "πάντα στην αρχή της πρότασης",
+          "δεν μπαίνει ποτέ μαζί με ουσιαστικό"
+        ],
+        "hint": "π.χ. une voiture verte."
+      }
+    },
+    {
+      "id": "ex-mc-blanche",
+      "type": "exercise",
+      "title": "Ποιος είναι ο θηλυκός τύπος του «blanc» (άσπρο);",
+      "exercise": {
+        "id": "ex-mc-blanche",
+        "type": "cloze",
+        "prompt": "Ποιος είναι ο θηλυκός τύπος του «blanc» (άσπρο);",
+        "card_ids": [
+          "blanc"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "blanche"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "blanc",
+          "blance",
+          "blancs"
+        ],
+        "hint": "Ανώμαλο θηλυκό: blanche."
+      }
+    },
+    {
+      "id": "ex-clz-noire",
+      "type": "exercise",
+      "title": "Συμφωνία γένους",
+      "exercise": {
+        "id": "ex-clz-noire",
+        "type": "cloze",
+        "prompt": "Συμπλήρωσε το θηλυκό: «la voiture ___» (το μαύρο αυτοκίνητο· voiture θηλυκό).",
+        "card_ids": [
+          "noir"
+        ],
+        "sentence": "la voiture ___",
+        "blanks": [
+          {
+            "accept": [
+              "noire"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "noir → noire στο θηλυκό."
+      }
+    },
+    {
+      "id": "ex-mc-bleu",
+      "type": "exercise",
+      "title": "Πώς λες «μπλε»;",
+      "exercise": {
+        "id": "ex-mc-bleu",
+        "type": "cloze",
+        "prompt": "Πώς λες «μπλε»;",
+        "card_ids": [
+          "bleu"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "bleu"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "vert",
+          "noir",
+          "blanc"
+        ],
+        "hint": "Αρσενικό bleu, θηλυκό bleue."
+      }
+    }
+  ]
+}

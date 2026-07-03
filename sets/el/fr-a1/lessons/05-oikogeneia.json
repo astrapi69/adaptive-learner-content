@@ -1,0 +1,331 @@
+{
+  "id": "05-oikogeneia",
+  "title": "Οικογένεια και πρόσωπα",
+  "description": "Τα μέλη της οικογένειας στα γαλλικά, με το άρθρο τους (γένος).",
+  "target_language": "fr",
+  "source_language": "el",
+  "estimated_minutes": 11,
+  "cards": [
+    {
+      "id": "la-mere",
+      "front": "la mère",
+      "back": "η μητέρα",
+      "tags": [
+        "oikogeneia"
+      ]
+    },
+    {
+      "id": "le-pere",
+      "front": "le père",
+      "back": "ο πατέρας",
+      "tags": [
+        "oikogeneia"
+      ]
+    },
+    {
+      "id": "le-frere",
+      "front": "le frère",
+      "back": "ο αδελφός",
+      "tags": [
+        "oikogeneia"
+      ]
+    },
+    {
+      "id": "la-soeur",
+      "front": "la sœur",
+      "back": "η αδελφή",
+      "notes": "Γράφεται με το σύμπλεγμα œ: sœur.",
+      "tags": [
+        "oikogeneia"
+      ]
+    },
+    {
+      "id": "les-parents",
+      "front": "les parents",
+      "back": "οι γονείς",
+      "notes": "Πληθυντικός, άρα les.",
+      "tags": [
+        "oikogeneia"
+      ]
+    },
+    {
+      "id": "lenfant",
+      "front": "l'enfant",
+      "back": "το παιδί",
+      "notes": "Αρχίζει από φωνήεν → l'.",
+      "tags": [
+        "oikogeneia"
+      ]
+    },
+    {
+      "id": "la-fille",
+      "front": "la fille",
+      "back": "η κόρη / το κορίτσι",
+      "tags": [
+        "oikogeneia"
+      ]
+    },
+    {
+      "id": "le-fils",
+      "front": "le fils",
+      "back": "ο γιος",
+      "notes": "Το «l» στο τέλος δεν προφέρεται.",
+      "tags": [
+        "oikogeneia"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Η οικογένεια",
+      "body": "# Η οικογένεια\n\nΤα μέλη της οικογένειας — μάθε τα πάντα με το άρθρο τους, γιατί δείχνει το γένος:\n\n- **le père** (ο πατέρας), **la mère** (η μητέρα)\n- **le frère** (ο αδελφός), **la sœur** (η αδελφή)\n- **les parents** (οι γονείς)\n\nΤο **la sœur** γράφεται με το ειδικό σύμπλεγμα **œ**."
+    },
+    {
+      "id": "paidia",
+      "type": "theory",
+      "title": "Παιδιά",
+      "body": "## Τα παιδιά\n\n- **l'enfant** (το παιδί) — αρχίζει από φωνήεν, γι' αυτό **l'**.\n- **le fils** (ο γιος) — το τελικό «s» και το «l» δεν προφέρονται.\n- **la fille** (η κόρη / το κορίτσι).\n\nΜε το avoir λες τι έχεις: *J'ai un frère et une sœur.* (Έχω έναν αδελφό και μια αδελφή.)"
+    },
+    {
+      "id": "kthtika",
+      "type": "theory",
+      "title": "«Ο δικός μου»",
+      "body": "## mon / ma (ο δικός μου / η δική μου)\n\nΓια A1 φτάνει να αναγνωρίζεις:\n\n- **mon père** (ο πατέρας μου) — αρσενικό\n- **ma mère** (η μητέρα μου) — θηλυκό\n\nΤο κτητικό ακολουθεί το γένος του ουσιαστικού, όπως και το άρθρο."
+    },
+    {
+      "id": "ex-match-oik",
+      "type": "exercise",
+      "title": "Μέλη της οικογένειας",
+      "exercise": {
+        "id": "ex-match-oik",
+        "type": "matching",
+        "prompt": "Αντιστοίχισε κάθε γαλλική λέξη με τη σημασία της.",
+        "card_ids": [
+          "la-mere",
+          "le-pere",
+          "le-frere",
+          "la-soeur"
+        ],
+        "pairs": [
+          {
+            "left": "la mère",
+            "right": "η μητέρα"
+          },
+          {
+            "left": "le père",
+            "right": "ο πατέρας"
+          },
+          {
+            "left": "le frère",
+            "right": "ο αδελφός"
+          },
+          {
+            "left": "la sœur",
+            "right": "η αδελφή"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-mc-mitera",
+      "type": "exercise",
+      "title": "Πώς λες «η μητέρα»;",
+      "exercise": {
+        "id": "ex-mc-mitera",
+        "type": "cloze",
+        "prompt": "Πώς λες «η μητέρα»;",
+        "card_ids": [
+          "la-mere"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "la mère"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "le mère",
+          "la mer",
+          "le père"
+        ],
+        "hint": "Θηλυκό → la."
+      }
+    },
+    {
+      "id": "ex-mc-goneis",
+      "type": "exercise",
+      "title": "Πώς λες «οι γονείς»;",
+      "exercise": {
+        "id": "ex-mc-goneis",
+        "type": "cloze",
+        "prompt": "Πώς λες «οι γονείς»;",
+        "card_ids": [
+          "les-parents"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "les parents"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "le parent",
+          "la parents",
+          "des parent"
+        ],
+        "hint": "Πληθυντικός → les."
+      }
+    },
+    {
+      "id": "ex-mc-paidi",
+      "type": "exercise",
+      "title": "Ποιο άρθρο ταιριάζει: «___ enfant» (το παιδί);",
+      "exercise": {
+        "id": "ex-mc-paidi",
+        "type": "cloze",
+        "prompt": "Ποιο άρθρο ταιριάζει: «___ enfant» (το παιδί);",
+        "card_ids": [
+          "lenfant"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "l'"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "le",
+          "la",
+          "les"
+        ],
+        "hint": "Αρχίζει από φωνήεν."
+      }
+    },
+    {
+      "id": "ex-mc-adelfi",
+      "type": "exercise",
+      "title": "Πώς λες «η αδελφή»;",
+      "exercise": {
+        "id": "ex-mc-adelfi",
+        "type": "cloze",
+        "prompt": "Πώς λες «η αδελφή»;",
+        "card_ids": [
+          "la-soeur"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "la sœur"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "le sœur",
+          "la soeur du frère",
+          "la fille"
+        ],
+        "hint": "Θηλυκό, με œ."
+      }
+    },
+    {
+      "id": "ex-match-paidia",
+      "type": "exercise",
+      "title": "Γονείς και παιδιά",
+      "exercise": {
+        "id": "ex-match-paidia",
+        "type": "matching",
+        "prompt": "Αντιστοίχισε κάθε λέξη με τη σημασία της.",
+        "card_ids": [
+          "les-parents",
+          "lenfant",
+          "le-fils",
+          "la-fille"
+        ],
+        "pairs": [
+          {
+            "left": "les parents",
+            "right": "οι γονείς"
+          },
+          {
+            "left": "l'enfant",
+            "right": "το παιδί"
+          },
+          {
+            "left": "le fils",
+            "right": "ο γιος"
+          },
+          {
+            "left": "la fille",
+            "right": "η κόρη"
+          }
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-clz-frere",
+      "type": "exercise",
+      "title": "Έχω έναν αδελφό",
+      "exercise": {
+        "id": "ex-clz-frere",
+        "type": "cloze",
+        "prompt": "Συμπλήρωσε το αρσενικό αόριστο άρθρο: «J'ai ___ frère.» (έχω έναν αδελφό)",
+        "card_ids": [
+          "le-frere"
+        ],
+        "sentence": "J'ai ___ frère.",
+        "blanks": [
+          {
+            "accept": [
+              "un"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Αρσενικό αόριστο: un."
+      }
+    },
+    {
+      "id": "ex-mc-pere",
+      "type": "exercise",
+      "title": "Πώς λες «ο πατέρας»;",
+      "exercise": {
+        "id": "ex-mc-pere",
+        "type": "cloze",
+        "prompt": "Πώς λες «ο πατέρας»;",
+        "card_ids": [
+          "le-pere"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "le père"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "la père",
+          "le mère",
+          "les père"
+        ],
+        "hint": "Αρσενικό → le."
+      }
+    }
+  ]
+}
