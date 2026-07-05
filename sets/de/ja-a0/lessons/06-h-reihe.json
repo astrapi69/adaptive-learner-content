@@ -1,0 +1,358 @@
+{
+  "id": "06-h-reihe",
+  "title": "H-Reihe: ha hi fu he ho",
+  "description": "Die H-Reihe mit der Ausnahme fu. Fokus auf は/ほ/ま. Merksatz zu den Partikeln は (als „wa\") und へ (als „e\") — nur zum Wissen, nicht abgefragt.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "k-ha",
+      "front": "は",
+      "back": "ha",
+      "notes": "Hepburn: ha.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-hi",
+      "front": "ひ",
+      "back": "hi",
+      "notes": "Hepburn: hi.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-fu",
+      "front": "ふ",
+      "back": "fu",
+      "notes": "Hepburn: fu.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-he",
+      "front": "へ",
+      "back": "he",
+      "notes": "Hepburn: he.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ho",
+      "front": "ほ",
+      "back": "ho",
+      "notes": "Hepburn: ho.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-nu",
+      "front": "ぬ",
+      "back": "nu",
+      "notes": "Hepburn: nu.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die H-Reihe",
+      "body": "# Die H-Reihe\n\n**は** (ha) · **ひ** (hi) · **ふ** (fu) · **へ** (he) · **ほ** (ho)\n\n**Ausnahme:** **ふ** wird **fu** gelesen (ein weiches „f/h\"). Kunrei schreibt „hu\"; gelehrt wird **fu**."
+    },
+    {
+      "id": "step-partikel",
+      "type": "theory",
+      "title": "は/ほ/ま und ein Partikel-Hinweis",
+      "body": "## Gut hinsehen — und ein Merksatz\n\n**は** (ha), **ほ** (ho) und **ま** (ma) teilen einen senkrechten Strich links. **は** ist offen, **ほ** hat oben einen Querstrich mehr, **ま** hat unten eine Schlaufe.\n\n*Nur zum Wissen (nicht Teil der Übungen):* Als **Partikel** wird **は** „wa\" und **へ** „e\" gesprochen — das lernst du im A1-Kurs, hier bleibt es beim normalen Lautwert."
+    },
+    {
+      "id": "ex-r-ha",
+      "type": "exercise",
+      "theory_ref": "step-partikel",
+      "title": "Lesung von は",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man は?",
+        "card_ids": [
+          "k-ha"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ha"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ho",
+          "ma",
+          "ni"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-ha"
+      }
+    },
+    {
+      "id": "ex-r-fu",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von ふ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ふ?",
+        "card_ids": [
+          "k-fu"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "fu"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ra",
+          "u",
+          "a"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-fu"
+      }
+    },
+    {
+      "id": "ex-r-ho",
+      "type": "exercise",
+      "theory_ref": "step-partikel",
+      "title": "Lesung von ほ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ほ?",
+        "card_ids": [
+          "k-ho"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ho"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ha",
+          "ma",
+          "ni"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-ho"
+      }
+    },
+    {
+      "id": "ex-c-hi",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zeichen für 'hi'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „hi\"?",
+        "card_ids": [
+          "k-hi"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ひ"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "こ",
+          "し",
+          "あ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-hi"
+      }
+    },
+    {
+      "id": "ex-c-he",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zeichen für 'he'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „he\"?",
+        "card_ids": [
+          "k-he"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "へ"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "く",
+          "し",
+          "あ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-he"
+      }
+    },
+    {
+      "id": "ex-ms-h",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Alle H-Zeichen",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wähle alle Zeichen der H-Reihe.",
+        "card_ids": [
+          "k-ha",
+          "k-hi",
+          "k-fu",
+          "k-he",
+          "k-ho"
+        ],
+        "sentence": "Welche dieser Zeichen gehören zur H-Reihe?",
+        "accept": [
+          "は",
+          "ひ",
+          "ふ",
+          "へ",
+          "ほ"
+        ],
+        "cloze_mode": "multiselect",
+        "distractors": [
+          "ま",
+          "に",
+          "た"
+        ],
+        "hint": "h + a/i/(f)u/e/o.",
+        "id": "ex-ms-h"
+      }
+    },
+    {
+      "id": "ex-match-h",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "H-Reihe zuordnen",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedem H-Zeichen seine Lesung zu.",
+        "card_ids": [
+          "k-ha",
+          "k-hi",
+          "k-fu",
+          "k-he",
+          "k-ho"
+        ],
+        "pairs": [
+          {
+            "left": "は",
+            "right": "ha"
+          },
+          {
+            "left": "ひ",
+            "right": "hi"
+          },
+          {
+            "left": "ふ",
+            "right": "fu"
+          },
+          {
+            "left": "へ",
+            "right": "he"
+          },
+          {
+            "left": "ほ",
+            "right": "ho"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-h"
+      }
+    },
+    {
+      "id": "ex-rep-nu",
+      "type": "exercise",
+      "theory_ref": "step-partikel",
+      "title": "Lesung von ぬ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ぬ?",
+        "card_ids": [
+          "k-nu"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "nu"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "me",
+          "a",
+          "ne"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-rep-nu"
+      }
+    },
+    {
+      "id": "ex-tip-fu",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Romaji für ふ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ふ? (Romaji tippen)",
+        "card_ids": [
+          "k-fu"
+        ],
+        "sentence": "ふ = ___",
+        "blanks": [
+          {
+            "accept": [
+              "fu",
+              "hu"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
+        "id": "ex-tip-fu"
+      }
+    }
+  ]
+}

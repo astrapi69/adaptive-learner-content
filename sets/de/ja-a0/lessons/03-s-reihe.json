@@ -1,0 +1,358 @@
+{
+  "id": "03-s-reihe",
+  "title": "S-Reihe: sa shi su se so",
+  "description": "Die S-Reihe mit der Ausnahme shi. Fokus auf die Verwechslung さ (sa) und き (ki). Ab hier mischen Wiederholungs-Aufgaben frühere Reihen ein.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "k-sa",
+      "front": "さ",
+      "back": "sa",
+      "notes": "Hepburn: sa.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-shi",
+      "front": "し",
+      "back": "shi",
+      "notes": "Hepburn: shi.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-su",
+      "front": "す",
+      "back": "su",
+      "notes": "Hepburn: su.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-se",
+      "front": "せ",
+      "back": "se",
+      "notes": "Hepburn: se.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-so",
+      "front": "そ",
+      "back": "so",
+      "notes": "Hepburn: so.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ki",
+      "front": "き",
+      "back": "ki",
+      "notes": "Hepburn: ki.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die S-Reihe",
+      "body": "# Die S-Reihe\n\n**さ** (sa) · **し** (shi) · **す** (su) · **せ** (se) · **そ** (so)\n\n**Ausnahme:** **し** wird **shi** gelesen (nicht „si\") — eine der wenigen Unregelmäßigkeiten. In der Kunrei-Umschrift steht „si\", gelehrt wird aber die Hepburn-Form **shi**."
+    },
+    {
+      "id": "step-verwechsel",
+      "type": "theory",
+      "title": "さ oder き?",
+      "body": "## さ (sa) vs. き (ki)\n\nBeide haben einen ähnlichen oberen Bogen. Merke:\n\n- **さ** (sa) — ein Querstrich, dann ein Haken (**zwei** Hauptteile).\n- **き** (ki) — **zwei** Querstriche und ein Haken.\n\nWer die Strichzahl vergleicht, verwechselt sie nicht."
+    },
+    {
+      "id": "ex-r-sa",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Lesung von さ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man さ?",
+        "card_ids": [
+          "k-sa"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "sa"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ki",
+          "chi",
+          "ra"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-sa"
+      }
+    },
+    {
+      "id": "ex-r-shi",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von し",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man し?",
+        "card_ids": [
+          "k-shi"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "shi"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "tsu",
+          "ku",
+          "ri"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-shi"
+      }
+    },
+    {
+      "id": "ex-r-so",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von そ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man そ?",
+        "card_ids": [
+          "k-so"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "so"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ro",
+          "ru",
+          "n"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-so"
+      }
+    },
+    {
+      "id": "ex-c-su",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zeichen für 'su'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „su\"?",
+        "card_ids": [
+          "k-su"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "す"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "む",
+          "お",
+          "あ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-su"
+      }
+    },
+    {
+      "id": "ex-c-sa",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Zeichen für 'sa'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „sa\"?",
+        "card_ids": [
+          "k-sa"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "さ"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "き",
+          "ち",
+          "ら"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-sa"
+      }
+    },
+    {
+      "id": "ex-ms-s",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Alle S-Zeichen",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wähle alle Zeichen der S-Reihe.",
+        "card_ids": [
+          "k-sa",
+          "k-shi",
+          "k-su",
+          "k-se",
+          "k-so"
+        ],
+        "sentence": "Welche dieser Zeichen gehören zur S-Reihe?",
+        "accept": [
+          "さ",
+          "し",
+          "す",
+          "せ",
+          "そ"
+        ],
+        "cloze_mode": "multiselect",
+        "distractors": [
+          "き",
+          "た",
+          "あ"
+        ],
+        "hint": "s + a/(sh)i/u/e/o.",
+        "id": "ex-ms-s"
+      }
+    },
+    {
+      "id": "ex-match-s",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "S-Reihe zuordnen",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedem S-Zeichen seine Lesung zu.",
+        "card_ids": [
+          "k-sa",
+          "k-shi",
+          "k-su",
+          "k-se",
+          "k-so"
+        ],
+        "pairs": [
+          {
+            "left": "さ",
+            "right": "sa"
+          },
+          {
+            "left": "し",
+            "right": "shi"
+          },
+          {
+            "left": "す",
+            "right": "su"
+          },
+          {
+            "left": "せ",
+            "right": "se"
+          },
+          {
+            "left": "そ",
+            "right": "so"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-s"
+      }
+    },
+    {
+      "id": "ex-rep-ki",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Lesung von き",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man き?",
+        "card_ids": [
+          "k-ki"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ki"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "sa",
+          "chi",
+          "a"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-rep-ki"
+      }
+    },
+    {
+      "id": "ex-tip-shi",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Romaji für し",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man し? (Romaji tippen)",
+        "card_ids": [
+          "k-shi"
+        ],
+        "sentence": "し = ___",
+        "blanks": [
+          {
+            "accept": [
+              "shi",
+              "si"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
+        "id": "ex-tip-shi"
+      }
+    }
+  ]
+}

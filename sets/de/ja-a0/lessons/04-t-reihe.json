@@ -1,0 +1,358 @@
+{
+  "id": "04-t-reihe",
+  "title": "T-Reihe: ta chi tsu te to",
+  "description": "Die T-Reihe mit den Ausnahmen chi und tsu. Wiederholung früherer Reihen.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "k-ta",
+      "front": "た",
+      "back": "ta",
+      "notes": "Hepburn: ta.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-chi",
+      "front": "ち",
+      "back": "chi",
+      "notes": "Hepburn: chi.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-tsu",
+      "front": "つ",
+      "back": "tsu",
+      "notes": "Hepburn: tsu.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-te",
+      "front": "て",
+      "back": "te",
+      "notes": "Hepburn: te.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-to",
+      "front": "と",
+      "back": "to",
+      "notes": "Hepburn: to.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-shi",
+      "front": "し",
+      "back": "shi",
+      "notes": "Hepburn: shi.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die T-Reihe",
+      "body": "# Die T-Reihe\n\n**た** (ta) · **ち** (chi) · **つ** (tsu) · **て** (te) · **と** (to)\n\n**Zwei Ausnahmen:** **ち** = **chi** (nicht „ti\") und **つ** = **tsu** (nicht „tu\"). Kunrei schreibt „ti\"/„tu\"; gelehrt werden die Hepburn-Formen **chi** und **tsu**."
+    },
+    {
+      "id": "step-verwechsel",
+      "type": "theory",
+      "title": "つ, う und し",
+      "body": "## Ähnliche Rundungen\n\n**つ** (tsu), **う** (u) und **し** (shi) sind alle **kurze Bögen** — achte auf die Richtung:\n\n- **つ** (tsu) — flacher Bogen nach links,\n- **う** (u) — ein Häkchen oben plus Bogen,\n- **し** (shi) — langer Bogen von oben nach unten."
+    },
+    {
+      "id": "ex-r-ta",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von た",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man た?",
+        "card_ids": [
+          "k-ta"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ta"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "na",
+          "ko",
+          "ka"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-ta"
+      }
+    },
+    {
+      "id": "ex-r-chi",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von ち",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ち?",
+        "card_ids": [
+          "k-chi"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "chi"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "sa",
+          "ki",
+          "ra"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-chi"
+      }
+    },
+    {
+      "id": "ex-r-tsu",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Lesung von つ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man つ?",
+        "card_ids": [
+          "k-tsu"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "tsu"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "u",
+          "shi",
+          "ra"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-tsu"
+      }
+    },
+    {
+      "id": "ex-c-to",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zeichen für 'to'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „to\"?",
+        "card_ids": [
+          "k-to"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "と"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "て",
+          "た",
+          "あ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-to"
+      }
+    },
+    {
+      "id": "ex-c-te",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zeichen für 'te'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „te\"?",
+        "card_ids": [
+          "k-te"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "て"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "と",
+          "そ",
+          "あ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-te"
+      }
+    },
+    {
+      "id": "ex-ms-t",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Alle T-Zeichen",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wähle alle Zeichen der T-Reihe.",
+        "card_ids": [
+          "k-ta",
+          "k-chi",
+          "k-tsu",
+          "k-te",
+          "k-to"
+        ],
+        "sentence": "Welche dieser Zeichen gehören zur T-Reihe?",
+        "accept": [
+          "た",
+          "ち",
+          "つ",
+          "て",
+          "と"
+        ],
+        "cloze_mode": "multiselect",
+        "distractors": [
+          "さ",
+          "こ",
+          "な"
+        ],
+        "hint": "t + a/(ch)i/(ts)u/e/o.",
+        "id": "ex-ms-t"
+      }
+    },
+    {
+      "id": "ex-match-t",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "T-Reihe zuordnen",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedem T-Zeichen seine Lesung zu.",
+        "card_ids": [
+          "k-ta",
+          "k-chi",
+          "k-tsu",
+          "k-te",
+          "k-to"
+        ],
+        "pairs": [
+          {
+            "left": "た",
+            "right": "ta"
+          },
+          {
+            "left": "ち",
+            "right": "chi"
+          },
+          {
+            "left": "つ",
+            "right": "tsu"
+          },
+          {
+            "left": "て",
+            "right": "te"
+          },
+          {
+            "left": "と",
+            "right": "to"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-t"
+      }
+    },
+    {
+      "id": "ex-rep-shi",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Lesung von し",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man し?",
+        "card_ids": [
+          "k-shi"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "shi"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "tsu",
+          "ku",
+          "ri"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-rep-shi"
+      }
+    },
+    {
+      "id": "ex-tip-tsu",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Romaji für つ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man つ? (Romaji tippen)",
+        "card_ids": [
+          "k-tsu"
+        ],
+        "sentence": "つ = ___",
+        "blanks": [
+          {
+            "accept": [
+              "tsu",
+              "tu"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
+        "id": "ex-tip-tsu"
+      }
+    }
+  ]
+}

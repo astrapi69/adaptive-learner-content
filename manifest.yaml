@@ -597,6 +597,30 @@ sets:
       author: "Asterios Raptis"
       asin: "B0F43H6T2M"
       url: "https://www.amazon.de/dp/B0F43H6T2M"
+  - id: ja-a0-from-de
+    title: 'Japanisch Schrift: Hiragana (Vorstufe)'
+    title_native: ひらがな
+    target_language: ja
+    source_language: de
+    level: A0
+    path: sets/de/ja-a0
+    version: '1.0.0'
+    lesson_count: 10
+    domain: language
+    description: >-
+      Vorstufe zum A1-Set: das komplette Hiragana-Silbenalphabet in
+      zehn Lektionen erkennen und lesen — Vokale, Grundreihen,
+      Dakuten/Handakuten und Kombinationslaute. Überwiegend
+      Multiple-Choice (cloze select und multiselect) plus matching
+      und Romaji-Tipp. Nur Erkennen und Lesen, kein Schreiben oder
+      Hören. Umschrift: Hepburn (Tipp-Aufgaben akzeptieren zusätzlich
+      Kunrei-Varianten).
+    tags:
+      - beginner
+      - hiragana
+      - kana
+      - schrift
+      - vorstufe
   - id: ja-a1-from-de
     title: Japanisch A1 (für Deutschsprachige)
     title_native: 日本語 A1
@@ -614,7 +638,9 @@ sets:
       Wegbeschreibung, Adjektive und Höflichkeitsformen. Die
       Vorderseiten stehen in japanischer Schrift (Hiragana,
       Katakana, Kanji), Romaji und Kontextsätze in den Notizen;
-      Erklärungen und Übersetzungen auf Deutsch.
+      Erklärungen und Übersetzungen auf Deutsch. Wer die Hiragana-
+      Schrift noch nicht sicher liest, beginnt am besten mit der
+      Vorstufe „Japanisch Schrift: Hiragana (Vorstufe)".
     tags:
       - beginner
       - everyday

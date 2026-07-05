@@ -1,0 +1,418 @@
+{
+  "id": "09-dakuten-handakuten",
+  "title": "Dakuten und Handakuten: g z d b p",
+  "description": "Die abgeleiteten Reihen: mit zwei Strichen (Dakuten) werden k→g, s→z, t→d, h→b; mit einem Kreis (Handakuten) h→p. Plus der ji/zu-Hinweis.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "k-ga",
+      "front": "が",
+      "back": "ga",
+      "notes": "Hepburn: ga.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-gi",
+      "front": "ぎ",
+      "back": "gi",
+      "notes": "Hepburn: gi.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-gu",
+      "front": "ぐ",
+      "back": "gu",
+      "notes": "Hepburn: gu.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ge",
+      "front": "げ",
+      "back": "ge",
+      "notes": "Hepburn: ge.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-go",
+      "front": "ご",
+      "back": "go",
+      "notes": "Hepburn: go.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-za",
+      "front": "ざ",
+      "back": "za",
+      "notes": "Hepburn: za.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-da",
+      "front": "だ",
+      "back": "da",
+      "notes": "Hepburn: da.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ba",
+      "front": "ば",
+      "back": "ba",
+      "notes": "Hepburn: ba.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-pa",
+      "front": "ぱ",
+      "back": "pa",
+      "notes": "Hepburn: pa.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ji",
+      "front": "じ",
+      "back": "ji",
+      "notes": "Hepburn: ji.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-zu",
+      "front": "ず",
+      "back": "zu",
+      "notes": "Hepburn: zu.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ka",
+      "front": "か",
+      "back": "ka",
+      "notes": "Hepburn: ka.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Zwei Striche und ein Kreis",
+      "body": "# Dakuten und Handakuten\n\nZwei kleine Striche (**Dakuten**) oben rechts machen aus einem stimmlosen einen stimmhaften Laut:\n\n| von | wird zu |\n|---|---|\n| **か** (ka) | **が** (ga) |\n| **さ** (sa) | **ざ** (za) |\n| **た** (ta) | **だ** (da) |\n| **は** (ha) | **ば** (ba) |\n\nEin kleiner **Kreis** (**Handakuten**) macht aus der H-Reihe die **P-Reihe**: **は** (ha) → **ぱ** (pa)."
+    },
+    {
+      "id": "step-jizu",
+      "type": "theory",
+      "title": "ji und zu",
+      "body": "## じ und ず\n\nIn der Z-Reihe gilt: **じ** = **ji** und **ず** = **zu**. Es gibt selten auch **ぢ** und **づ**, die gleich klingen (ji/zu) — im Alltag begegnen dir fast immer **じ** und **ず**. Kunrei schreibt „zi\"; gelehrt wird **ji**."
+    },
+    {
+      "id": "ex-mc-dakuten",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wirkung der Dakuten",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Was bewirken die zwei kleinen Striche (Dakuten) an einem Zeichen?",
+        "card_ids": [
+          "k-ga"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Aus stimmlos wird stimmhaft (z. B. ka → ga)"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Der Vokal wird verdoppelt",
+          "Das Zeichen wird stumm",
+          "Die Silbe wird zum kleinen Zeichen"
+        ],
+        "hint": "か → が.",
+        "id": "ex-mc-dakuten"
+      }
+    },
+    {
+      "id": "ex-r-ga",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von が",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man が?",
+        "card_ids": [
+          "k-ga"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ga"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ka",
+          "na",
+          "a"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-ga"
+      }
+    },
+    {
+      "id": "ex-r-za",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von ざ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ざ?",
+        "card_ids": [
+          "k-za"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "za"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "sa",
+          "ki",
+          "a"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-za"
+      }
+    },
+    {
+      "id": "ex-r-pa",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von ぱ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ぱ?",
+        "card_ids": [
+          "k-pa"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "pa"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ha",
+          "ho",
+          "a"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-pa"
+      }
+    },
+    {
+      "id": "ex-r-ji",
+      "type": "exercise",
+      "theory_ref": "step-jizu",
+      "title": "Lesung von じ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man じ?",
+        "card_ids": [
+          "k-ji"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ji"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "shi",
+          "tsu",
+          "a"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-ji"
+      }
+    },
+    {
+      "id": "ex-c-da",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zeichen für 'da'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „da\"?",
+        "card_ids": [
+          "k-da"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "だ"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "た",
+          "な",
+          "あ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-da"
+      }
+    },
+    {
+      "id": "ex-ms-dak",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Reihe erkennen",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wähle alle Zeichen der G-Reihe.",
+        "card_ids": [
+          "k-ga",
+          "k-gi",
+          "k-gu",
+          "k-ge",
+          "k-go"
+        ],
+        "sentence": "Welche dieser Zeichen gehören zur G-Reihe (ga-Reihe)?",
+        "accept": [
+          "が",
+          "ぎ",
+          "ぐ",
+          "げ",
+          "ご"
+        ],
+        "cloze_mode": "multiselect",
+        "distractors": [
+          "ざ",
+          "だ",
+          "ば"
+        ],
+        "hint": "k-Reihe mit Dakuten.",
+        "id": "ex-ms-dak"
+      }
+    },
+    {
+      "id": "ex-match-g",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "G-Reihe zuordnen",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedem G-Zeichen seine Lesung zu.",
+        "card_ids": [
+          "k-ga",
+          "k-gi",
+          "k-gu",
+          "k-ge",
+          "k-go"
+        ],
+        "pairs": [
+          {
+            "left": "が",
+            "right": "ga"
+          },
+          {
+            "left": "ぎ",
+            "right": "gi"
+          },
+          {
+            "left": "ぐ",
+            "right": "gu"
+          },
+          {
+            "left": "げ",
+            "right": "ge"
+          },
+          {
+            "left": "ご",
+            "right": "go"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-g"
+      }
+    },
+    {
+      "id": "ex-tip-ji",
+      "type": "exercise",
+      "theory_ref": "step-jizu",
+      "title": "Romaji für じ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man じ? (Romaji tippen)",
+        "card_ids": [
+          "k-ji"
+        ],
+        "sentence": "じ = ___",
+        "blanks": [
+          {
+            "accept": [
+              "ji",
+              "zi"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
+        "id": "ex-tip-ji"
+      }
+    }
+  ]
+}

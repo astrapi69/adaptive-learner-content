@@ -1,0 +1,373 @@
+{
+  "id": "10-kombinationen",
+  "title": "Kombinationen, kleines tsu, lange Vokale",
+  "description": "Yōon (Zeichen + kleines や/ゆ/よ, z. B. kya, sho, chu), das kleine っ als Doppelkonsonant und lange Vokale. Abschluss der Vorstufe.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "k-kya",
+      "front": "きゃ",
+      "back": "kya",
+      "notes": "Hepburn: kya.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-kyu",
+      "front": "きゅ",
+      "back": "kyu",
+      "notes": "Hepburn: kyu.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-kyo",
+      "front": "きょ",
+      "back": "kyo",
+      "notes": "Hepburn: kyo.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-sha",
+      "front": "しゃ",
+      "back": "sha",
+      "notes": "Hepburn: sha.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-shu",
+      "front": "しゅ",
+      "back": "shu",
+      "notes": "Hepburn: shu.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-sho",
+      "front": "しょ",
+      "back": "sho",
+      "notes": "Hepburn: sho.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-chu",
+      "front": "ちゅ",
+      "back": "chu",
+      "notes": "Hepburn: chu.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-cho",
+      "front": "ちょ",
+      "back": "cho",
+      "notes": "Hepburn: cho.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Kombinationen (Yōon)",
+      "body": "# Kombinationen: kleines や/ゆ/よ\n\nEin i-Zeichen (き, し, ち, …) plus ein **kleines** や/ゆ/よ ergibt eine Kombi-Silbe (**Yōon**):\n\n| Kombi | Lesung |\n|---|---|\n| **きゃ** | kya |\n| **きゅ** | kyu |\n| **きょ** | kyo |\n| **しゃ** | sha |\n| **しょ** | sho |\n| **ちゅ** | chu |\n\nWichtig: Das や/ゆ/よ ist **klein** geschrieben — ein normal großes wäre eine eigene Silbe."
+    },
+    {
+      "id": "step-tsu-lang",
+      "type": "theory",
+      "title": "Kleines っ und lange Vokale",
+      "body": "## Doppelkonsonant und Länge\n\n- Ein **kleines っ** (small tsu) **verdoppelt den folgenden Konsonanten**: がっこう = *gakkou* (Schule), きって = *kitte* (Briefmarke). Es wird selbst nicht gelesen, sondern als kurze Pause.\n- **Lange Vokale** schreibt man meist mit einem **zusätzlichen Vokalzeichen**: ein langes „o\" oft als **おう**, ein langes „u\" als **うう**.\n\n*(Diese beiden Punkte prüfst du hier als Verständnis, nicht als Strichfolge.)*"
+    },
+    {
+      "id": "ex-r-kya",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von きゃ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man きゃ?",
+        "card_ids": [
+          "k-kya"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "kya"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "kyu",
+          "kyo",
+          "sha"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-kya"
+      }
+    },
+    {
+      "id": "ex-r-sho",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von しょ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man しょ?",
+        "card_ids": [
+          "k-sho"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "sho"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "kya",
+          "kyu",
+          "kyo"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-sho"
+      }
+    },
+    {
+      "id": "ex-r-chu",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von ちゅ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ちゅ?",
+        "card_ids": [
+          "k-chu"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "chu"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "kya",
+          "kyu",
+          "kyo"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-chu"
+      }
+    },
+    {
+      "id": "ex-c-kyo",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zeichen für 'kyo'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „kyo\"?",
+        "card_ids": [
+          "k-kyo"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "きょ"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "きゃ",
+          "きゅ",
+          "しゃ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-kyo"
+      }
+    },
+    {
+      "id": "ex-mc-tsu",
+      "type": "exercise",
+      "theory_ref": "step-tsu-lang",
+      "title": "Das kleine っ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Was bewirkt ein kleines っ (small tsu) vor einem Zeichen?",
+        "card_ids": [
+          "k-kya"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Es verdoppelt den folgenden Konsonanten"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Es verlängert den Vokal",
+          "Es macht das Zeichen stumm gesprochen wie „tsu\"",
+          "Es verdoppelt den Vokal"
+        ],
+        "hint": "z. B. きって = kitte.",
+        "id": "ex-mc-tsu"
+      }
+    },
+    {
+      "id": "ex-mc-lang",
+      "type": "exercise",
+      "theory_ref": "step-tsu-lang",
+      "title": "Langer o-Laut",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie schreibt man häufig einen langen „o\"-Laut?",
+        "card_ids": [
+          "k-sho"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "Mit einem zusätzlichen う (z. B. おう)"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "Mit einem kleinen っ",
+          "Mit einem kleinen や",
+          "Mit einem Kreis (Handakuten)"
+        ],
+        "hint": "Ein Extra-Vokalzeichen verlängert.",
+        "id": "ex-mc-lang"
+      }
+    },
+    {
+      "id": "ex-ms-yo",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Kombinationen erkennen",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wähle alle Kombi-Silben (Yōon).",
+        "card_ids": [
+          "k-kya",
+          "k-sho",
+          "k-chu"
+        ],
+        "sentence": "Welche davon sind Kombinationen mit kleinem ya/yu/yo?",
+        "accept": [
+          "きゃ",
+          "しょ",
+          "ちゅ"
+        ],
+        "cloze_mode": "multiselect",
+        "distractors": [
+          "か",
+          "し",
+          "つ"
+        ],
+        "hint": "Zwei Zeichen, das zweite klein.",
+        "id": "ex-ms-yo"
+      }
+    },
+    {
+      "id": "ex-match-yo",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Kombinationen zuordnen",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jeder Kombi-Silbe ihre Lesung zu.",
+        "card_ids": [
+          "k-kya",
+          "k-kyu",
+          "k-kyo",
+          "k-sha",
+          "k-sho"
+        ],
+        "pairs": [
+          {
+            "left": "きゃ",
+            "right": "kya"
+          },
+          {
+            "left": "きゅ",
+            "right": "kyu"
+          },
+          {
+            "left": "きょ",
+            "right": "kyo"
+          },
+          {
+            "left": "しゃ",
+            "right": "sha"
+          },
+          {
+            "left": "しょ",
+            "right": "sho"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-yo"
+      }
+    },
+    {
+      "id": "ex-tip-kyo",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Romaji für きょ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man きょ? (Romaji tippen)",
+        "card_ids": [
+          "k-kyo"
+        ],
+        "sentence": "きょ = ___",
+        "blanks": [
+          {
+            "accept": [
+              "kyo"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
+        "id": "ex-tip-kyo"
+      }
+    }
+  ]
+}
