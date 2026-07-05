@@ -128,10 +128,10 @@
         "prompt": "Ordne jeder Floskel die deutsche Bedeutung zu.",
         "card_ids": ["onegaishimasu", "arigatou-gozaimasu", "gomennasai", "douzo"],
         "pairs": [
-          {"left": "お願いします", "right": "bitte (höfliche Bitte)"},
-          {"left": "ありがとうございます", "right": "vielen Dank"},
-          {"left": "ごめんなさい", "right": "es tut mir leid"},
-          {"left": "どうぞ", "right": "bitte (anbieten)"}
+          {"left": "お願いします (onegaishimasu)", "right": "bitte (höfliche Bitte)"},
+          {"left": "ありがとうございます (arigatou gozaimasu)", "right": "vielen Dank"},
+          {"left": "ごめんなさい (gomennasai)", "right": "es tut mir leid"},
+          {"left": "どうぞ (douzo)", "right": "bitte (anbieten)"}
         ],
         "direction": "target_to_source"
       }
@@ -147,10 +147,10 @@
         "prompt": "Ordne jeden Spruch der richtigen Situation zu.",
         "card_ids": ["itadakimasu", "gochisousama", "arigatou", "douitashimashite"],
         "pairs": [
-          {"left": "いただきます", "right": "vor dem Essen"},
-          {"left": "ごちそうさまでした", "right": "nach dem Essen"},
-          {"left": "ありがとう", "right": "danke (locker)"},
-          {"left": "どういたしまして", "right": "gern geschehen"}
+          {"left": "いただきます (itadakimasu)", "right": "vor dem Essen"},
+          {"left": "ごちそうさまでした (gochisousama deshita)", "right": "nach dem Essen"},
+          {"left": "ありがとう (arigatou)", "right": "danke (locker)"},
+          {"left": "どういたしまして (douitashimashite)", "right": "gern geschehen"}
         ],
         "direction": "target_to_source"
       }

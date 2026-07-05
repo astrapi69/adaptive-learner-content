@@ -120,10 +120,10 @@
         "prompt": "Ordne jeder Grundform die deutsche Bedeutung zu.",
         "card_ids": ["jota", "nappeuda", "keuda", "jakda"],
         "pairs": [
-          {"left": "좋다", "right": "gut sein"},
-          {"left": "나쁘다", "right": "schlecht sein"},
-          {"left": "크다", "right": "groß sein"},
-          {"left": "작다", "right": "klein sein"}
+          {"left": "좋다 (jota)", "right": "gut sein"},
+          {"left": "나쁘다 (nappeuda)", "right": "schlecht sein"},
+          {"left": "크다 (keuda)", "right": "groß sein"},
+          {"left": "작다 (jakda)", "right": "klein sein"}
         ],
         "direction": "target_to_source"
       }
@@ -139,10 +139,10 @@
         "prompt": "Ordne die Gefühlswörter zu.",
         "card_ids": ["yeppeuda", "pigonhada", "haengbokada", "seulpeuda"],
         "pairs": [
-          {"left": "예쁘다", "right": "schön / hübsch sein"},
-          {"left": "피곤하다", "right": "müde sein"},
-          {"left": "행복하다", "right": "glücklich sein"},
-          {"left": "슬프다", "right": "traurig sein"}
+          {"left": "예쁘다 (yeppeuda)", "right": "schön / hübsch sein"},
+          {"left": "피곤하다 (pigonhada)", "right": "müde sein"},
+          {"left": "행복하다 (haengbokada)", "right": "glücklich sein"},
+          {"left": "슬프다 (seulpeuda)", "right": "traurig sein"}
         ],
         "direction": "target_to_source"
       }

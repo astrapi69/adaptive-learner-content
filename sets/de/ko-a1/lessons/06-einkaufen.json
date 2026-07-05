@@ -128,10 +128,10 @@
         "prompt": "Ordne jedem koreanischen Wort die deutsche Bedeutung zu.",
         "card_ids": ["igeo", "geugeo", "jeogeo", "won"],
         "pairs": [
-          {"left": "이거", "right": "dies / das hier"},
-          {"left": "그거", "right": "das (bei dir)"},
-          {"left": "저거", "right": "jenes (dort drüben)"},
-          {"left": "원", "right": "Won (Währung)"}
+          {"left": "이거 (igeo)", "right": "dies / das hier"},
+          {"left": "그거 (geugeo)", "right": "das (bei dir)"},
+          {"left": "저거 (jeogeo)", "right": "jenes (dort drüben)"},
+          {"left": "원 (won)", "right": "Won (Währung)"}
         ],
         "direction": "target_to_source"
       }

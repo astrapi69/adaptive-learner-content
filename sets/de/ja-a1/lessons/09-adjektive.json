@@ -128,10 +128,10 @@
         "prompt": "Ordne jedem Adjektiv die deutsche Bedeutung zu.",
         "card_ids": ["ookii", "chiisai", "atarashii", "furui"],
         "pairs": [
-          {"left": "大きい", "right": "groß"},
-          {"left": "小さい", "right": "klein"},
-          {"left": "新しい", "right": "neu"},
-          {"left": "古い", "right": "alt"}
+          {"left": "大きい (ookii)", "right": "groß"},
+          {"left": "小さい (chiisai)", "right": "klein"},
+          {"left": "新しい (atarashii)", "right": "neu"},
+          {"left": "古い (furui)", "right": "alt"}
         ],
         "direction": "target_to_source"
       }
@@ -147,10 +147,10 @@
         "prompt": "Ordne jedem Adjektiv sein Gegenteil zu.",
         "card_ids": ["atsui", "samui", "takai-adj", "yasui-adj"],
         "pairs": [
-          {"left": "暑い", "right": "Gegenteil von 寒い (kalt)"},
-          {"left": "寒い", "right": "Gegenteil von 暑い (heiß)"},
-          {"left": "高い", "right": "Gegenteil von 安い (billig)"},
-          {"left": "安い", "right": "Gegenteil von 高い (teuer)"}
+          {"left": "暑い (atsui)", "right": "Gegenteil von 寒い (kalt)"},
+          {"left": "寒い (samui)", "right": "Gegenteil von 暑い (heiß)"},
+          {"left": "高い (takai)", "right": "Gegenteil von 安い (billig)"},
+          {"left": "安い (yasui)", "right": "Gegenteil von 高い (teuer)"}
         ],
         "direction": "target_to_source"
       }

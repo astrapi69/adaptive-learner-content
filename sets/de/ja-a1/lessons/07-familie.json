@@ -128,10 +128,10 @@
         "prompt": "Ordne jedem japanischen Wort die deutsche Bedeutung zu.",
         "card_ids": ["haha", "chichi", "ani", "imouto"],
         "pairs": [
-          {"left": "母", "right": "(meine) Mutter"},
-          {"left": "父", "right": "(mein) Vater"},
-          {"left": "兄", "right": "(mein) älterer Bruder"},
-          {"left": "妹", "right": "(meine) jüngere Schwester"}
+          {"left": "母 (haha)", "right": "(meine) Mutter"},
+          {"left": "父 (chichi)", "right": "(mein) Vater"},
+          {"left": "兄 (ani)", "right": "(mein) älterer Bruder"},
+          {"left": "妹 (imouto)", "right": "(meine) jüngere Schwester"}
         ],
         "direction": "target_to_source"
       }
@@ -147,10 +147,10 @@
         "prompt": "Ordne die bescheidene Form der höflichen Form zu.",
         "card_ids": ["haha", "chichi", "okaasan", "otousan"],
         "pairs": [
-          {"left": "母", "right": "お母さん (höflich)"},
-          {"left": "父", "right": "お父さん (höflich)"},
-          {"left": "お母さん", "right": "Mutter anderer"},
-          {"left": "お父さん", "right": "Vater anderer"}
+          {"left": "母 (haha)", "right": "お母さん (höflich)"},
+          {"left": "父 (chichi)", "right": "お父さん (höflich)"},
+          {"left": "お母さん (okaasan)", "right": "Mutter anderer"},
+          {"left": "お父さん (otousan)", "right": "Vater anderer"}
         ],
         "direction": "target_to_source"
       }

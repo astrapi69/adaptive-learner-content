@@ -128,10 +128,10 @@
         "prompt": "Ordne jedem koreanischen Ausdruck die deutsche Bedeutung zu.",
         "card_ids": ["annyeonghaseyo", "gamsahamnida", "ne", "aniyo"],
         "pairs": [
-          {"left": "안녕하세요", "right": "Hallo / Guten Tag"},
-          {"left": "감사합니다", "right": "Danke"},
-          {"left": "네", "right": "Ja"},
-          {"left": "아니요", "right": "Nein"}
+          {"left": "안녕하세요 (annyeonghaseyo)", "right": "Hallo / Guten Tag"},
+          {"left": "감사합니다 (gamsahamnida)", "right": "Danke"},
+          {"left": "네 (ne)", "right": "Ja"},
+          {"left": "아니요 (aniyo)", "right": "Nein"}
         ],
         "direction": "target_to_source"
       }

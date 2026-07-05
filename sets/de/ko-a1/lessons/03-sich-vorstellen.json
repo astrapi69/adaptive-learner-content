@@ -128,10 +128,10 @@
         "prompt": "Ordne jedem koreanischen Wort die deutsche Bedeutung zu.",
         "card_ids": ["ireum", "saram", "haksaeng", "dogil"],
         "pairs": [
-          {"left": "이름", "right": "Name"},
-          {"left": "사람", "right": "Mensch / Person"},
-          {"left": "학생", "right": "Schüler / Student"},
-          {"left": "독일", "right": "Deutschland"}
+          {"left": "이름 (ireum)", "right": "Name"},
+          {"left": "사람 (saram)", "right": "Mensch / Person"},
+          {"left": "학생 (haksaeng)", "right": "Schüler / Student"},
+          {"left": "독일 (dogil)", "right": "Deutschland"}
         ],
         "direction": "target_to_source"
       }
