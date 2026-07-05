@@ -128,10 +128,10 @@
         "prompt": "Ordne jedem koreanischen Wochentag den deutschen zu.",
         "card_ids": ["woryoil", "suyoil", "geumyoil", "iryoil"],
         "pairs": [
-          {"left": "월요일", "right": "Montag"},
-          {"left": "수요일", "right": "Mittwoch"},
-          {"left": "금요일", "right": "Freitag"},
-          {"left": "일요일", "right": "Sonntag"}
+          {"left": "월요일 (woryoil)", "right": "Montag"},
+          {"left": "수요일 (suyoil)", "right": "Mittwoch"},
+          {"left": "금요일 (geumyoil)", "right": "Freitag"},
+          {"left": "일요일 (iryoil)", "right": "Sonntag"}
         ],
         "direction": "target_to_source"
       }

@@ -128,10 +128,10 @@
         "prompt": "Ordne jedem Wort die deutsche Bedeutung zu.",
         "card_ids": ["migi", "hidari", "massugu", "eki"],
         "pairs": [
-          {"left": "右", "right": "rechts"},
-          {"left": "左", "right": "links"},
-          {"left": "まっすぐ", "right": "geradeaus"},
-          {"left": "駅", "right": "Bahnhof"}
+          {"left": "右 (migi)", "right": "rechts"},
+          {"left": "左 (hidari)", "right": "links"},
+          {"left": "まっすぐ (massugu)", "right": "geradeaus"},
+          {"left": "駅 (eki)", "right": "Bahnhof"}
         ],
         "direction": "target_to_source"
       }
@@ -147,10 +147,10 @@
         "prompt": "Ordne jede Ortsangabe der deutschen Bedeutung zu.",
         "card_ids": ["koko", "soko", "asoko", "doko"],
         "pairs": [
-          {"left": "ここ", "right": "hier"},
-          {"left": "そこ", "right": "dort"},
-          {"left": "あそこ", "right": "dort drüben"},
-          {"left": "どこ", "right": "wo"}
+          {"left": "ここ (koko)", "right": "hier"},
+          {"left": "そこ (soko)", "right": "dort"},
+          {"left": "あそこ (asoko)", "right": "dort drüben"},
+          {"left": "どこ (doko)", "right": "wo"}
         ],
         "direction": "target_to_source"
       }

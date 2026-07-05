@@ -136,10 +136,10 @@
         "prompt": "Ordne jedem japanischen Wochentag die deutsche Bedeutung zu.",
         "card_ids": ["getsuyoubi", "suiyoubi", "doyoubi", "nichiyoubi"],
         "pairs": [
-          {"left": "月曜日", "right": "Montag"},
-          {"left": "水曜日", "right": "Mittwoch"},
-          {"left": "土曜日", "right": "Samstag"},
-          {"left": "日曜日", "right": "Sonntag"}
+          {"left": "月曜日 (getsuyoubi)", "right": "Montag"},
+          {"left": "水曜日 (suiyoubi)", "right": "Mittwoch"},
+          {"left": "土曜日 (doyoubi)", "right": "Samstag"},
+          {"left": "日曜日 (nichiyoubi)", "right": "Sonntag"}
         ],
         "direction": "target_to_source"
       }

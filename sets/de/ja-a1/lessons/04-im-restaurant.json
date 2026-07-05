@@ -128,10 +128,10 @@
         "prompt": "Ordne jedem japanischen Wort die deutsche Bedeutung zu.",
         "card_ids": ["menyuu", "mizu", "okaikei", "oishii"],
         "pairs": [
-          {"left": "メニュー", "right": "Speisekarte / Menü"},
-          {"left": "水", "right": "Wasser"},
-          {"left": "お会計", "right": "die Rechnung"},
-          {"left": "おいしい", "right": "lecker / köstlich"}
+          {"left": "メニュー (menyuu)", "right": "Speisekarte / Menü"},
+          {"left": "水 (mizu)", "right": "Wasser"},
+          {"left": "お会計 (okaikei)", "right": "die Rechnung"},
+          {"left": "おいしい (oishii)", "right": "lecker / köstlich"}
         ],
         "direction": "target_to_source"
       }

@@ -120,10 +120,10 @@
         "prompt": "Ordne jeder koreanischen Form die deutsche Beschreibung zu.",
         "card_ids": ["gayo", "gamnida", "meogeoyo", "meokseumnida"],
         "pairs": [
-          {"left": "가요", "right": "ich gehe (höflich)"},
-          {"left": "갑니다", "right": "ich gehe (formell)"},
-          {"left": "먹어요", "right": "ich esse (höflich)"},
-          {"left": "먹습니다", "right": "ich esse (formell)"}
+          {"left": "가요 (gayo)", "right": "ich gehe (höflich)"},
+          {"left": "갑니다 (gamnida)", "right": "ich gehe (formell)"},
+          {"left": "먹어요 (meogeoyo)", "right": "ich esse (höflich)"},
+          {"left": "먹습니다 (meokseumnida)", "right": "ich esse (formell)"}
         ],
         "direction": "target_to_source"
       }
@@ -139,10 +139,10 @@
         "prompt": "Ordne die Höflichkeitsbegriffe zu.",
         "card_ids": ["yo-endung", "mnida-endung", "banmal", "jondaenmal"],
         "pairs": [
-          {"left": "-요", "right": "höfliche Alltagsendung"},
-          {"left": "-ㅂ니다/-습니다", "right": "formelle Endung"},
-          {"left": "반말", "right": "informelle Sprache"},
-          {"left": "존댓말", "right": "höfliche Sprache"}
+          {"left": "-요 (-yo)", "right": "höfliche Alltagsendung"},
+          {"left": "-ㅂ니다/-습니다 (-mnida / -seumnida)", "right": "formelle Endung"},
+          {"left": "반말 (banmal)", "right": "informelle Sprache"},
+          {"left": "존댓말 (jondaenmal)", "right": "höfliche Sprache"}
         ],
         "direction": "target_to_source"
       }

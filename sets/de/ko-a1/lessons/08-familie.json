@@ -120,10 +120,10 @@
         "prompt": "Ordne jedem koreanischen Wort die deutsche Bedeutung zu.",
         "card_ids": ["eomma", "appa", "gajok", "halmeoni"],
         "pairs": [
-          {"left": "엄마", "right": "Mama"},
-          {"left": "아빠", "right": "Papa"},
-          {"left": "가족", "right": "Familie"},
-          {"left": "할머니", "right": "Großmutter"}
+          {"left": "엄마 (eomma)", "right": "Mama"},
+          {"left": "아빠 (appa)", "right": "Papa"},
+          {"left": "가족 (gajok)", "right": "Familie"},
+          {"left": "할머니 (halmeoni)", "right": "Großmutter"}
         ],
         "direction": "target_to_source"
       }
@@ -139,10 +139,10 @@
         "prompt": "Ordne die Geschwister-Wörter zu.",
         "card_ids": ["hyeong", "nuna", "oppa", "eonni"],
         "pairs": [
-          {"left": "형", "right": "älterer Bruder (von einem Mann)"},
-          {"left": "누나", "right": "ältere Schwester (von einem Mann)"},
-          {"left": "오빠", "right": "älterer Bruder (von einer Frau)"},
-          {"left": "언니", "right": "ältere Schwester (von einer Frau)"}
+          {"left": "형 (hyeong)", "right": "älterer Bruder (von einem Mann)"},
+          {"left": "누나 (nuna)", "right": "ältere Schwester (von einem Mann)"},
+          {"left": "오빠 (oppa)", "right": "älterer Bruder (von einer Frau)"},
+          {"left": "언니 (eonni)", "right": "ältere Schwester (von einer Frau)"}
         ],
         "direction": "target_to_source"
       }

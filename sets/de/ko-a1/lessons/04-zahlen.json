@@ -128,10 +128,10 @@
         "prompt": "Ordne die sino-koreanischen Zahlen zu.",
         "card_ids": ["il", "i", "sam", "o"],
         "pairs": [
-          {"left": "일", "right": "eins"},
-          {"left": "이", "right": "zwei"},
-          {"left": "삼", "right": "drei"},
-          {"left": "오", "right": "fünf"}
+          {"left": "일 (il)", "right": "eins"},
+          {"left": "이 (i)", "right": "zwei"},
+          {"left": "삼 (sam)", "right": "drei"},
+          {"left": "오 (o)", "right": "fünf"}
         ],
         "direction": "target_to_source"
       }
@@ -147,10 +147,10 @@
         "prompt": "Ordne die nativ-koreanischen Zahlen zu.",
         "card_ids": ["hana", "dul", "set", "daseot"],
         "pairs": [
-          {"left": "하나", "right": "eins"},
-          {"left": "둘", "right": "zwei"},
-          {"left": "셋", "right": "drei"},
-          {"left": "다섯", "right": "fünf"}
+          {"left": "하나 (hana)", "right": "eins"},
+          {"left": "둘 (dul)", "right": "zwei"},
+          {"left": "셋 (set)", "right": "drei"},
+          {"left": "다섯 (daseot)", "right": "fünf"}
         ],
         "direction": "target_to_source"
       }

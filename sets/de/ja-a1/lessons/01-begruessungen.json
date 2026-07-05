@@ -128,10 +128,10 @@
         "prompt": "Ordne jeder japanischen Begrüßung die deutsche Übersetzung zu.",
         "card_ids": ["konnichiwa", "ohayou-gozaimasu", "konbanwa", "sayounara"],
         "pairs": [
-          {"left": "こんにちは", "right": "Guten Tag / Hallo"},
-          {"left": "おはようございます", "right": "Guten Morgen (höflich)"},
-          {"left": "こんばんは", "right": "Guten Abend"},
-          {"left": "さようなら", "right": "Auf Wiedersehen"}
+          {"left": "こんにちは (konnichiwa)", "right": "Guten Tag / Hallo"},
+          {"left": "おはようございます (ohayou gozaimasu)", "right": "Guten Morgen (höflich)"},
+          {"left": "こんばんは (konbanwa)", "right": "Guten Abend"},
+          {"left": "さようなら (sayounara)", "right": "Auf Wiedersehen"}
         ],
         "direction": "target_to_source"
       }
