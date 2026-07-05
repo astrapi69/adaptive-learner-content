@@ -1,0 +1,318 @@
+{
+  "id": "01-vokale",
+  "title": "Vokale: a i u e o",
+  "description": "Vorstufe zum Japanisch-A1-Set: die fünf Hiragana-Vokale erkennen und lesen — und wie Hiragana funktioniert (ein Zeichen je Silbe). Nur Erkennen und Lesen, kein Schreiben, kein Hören.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "k-a",
+      "front": "あ",
+      "back": "a",
+      "notes": "Hepburn: a.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-i",
+      "front": "い",
+      "back": "i",
+      "notes": "Hepburn: i.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-u",
+      "front": "う",
+      "back": "u",
+      "notes": "Hepburn: u.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-e",
+      "front": "え",
+      "back": "e",
+      "notes": "Hepburn: e.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-o",
+      "front": "お",
+      "back": "o",
+      "notes": "Hepburn: o.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Wie Hiragana funktioniert",
+      "body": "# Hiragana — die Silbenschrift\n\n**Hiragana** ist eine **Silbenschrift**: Jedes Zeichen steht für **eine Silbe**, nicht für einen einzelnen Laut wie unsere Buchstaben. Es gibt **46 Grundzeichen**.\n\nAlles beginnt mit den fünf **Vokalen**:\n\n**あ** (a) · **い** (i) · **う** (u) · **え** (e) · **お** (o)\n\nDie Umschrift in Klammern (Hepburn) zeigt die Aussprache. In diesem Set **liest** du die Zeichen — Schreiben und Hören sind bewusst nicht enthalten."
+    },
+    {
+      "id": "step-vokale",
+      "type": "theory",
+      "title": "Die fünf Vokale",
+      "body": "## Merkhilfen\n\n- **あ** (a) — wie in „Kanne\"\n- **い** (i) — wie in „Kino\"\n- **う** (u) — wie in „Kuh\", kurz\n- **え** (e) — wie in „Bett\"\n- **お** (o) — wie in „Osten\"\n\nDie Reihenfolge **a-i-u-e-o** ist die Grundordnung aller Hiragana-Reihen."
+    },
+    {
+      "id": "ex-r-a",
+      "type": "exercise",
+      "theory_ref": "step-vokale",
+      "title": "Lesung von あ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man あ?",
+        "card_ids": [
+          "k-a"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "a"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "o",
+          "me",
+          "nu"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-a"
+      }
+    },
+    {
+      "id": "ex-r-e",
+      "type": "exercise",
+      "theory_ref": "step-vokale",
+      "title": "Lesung von え",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man え?",
+        "card_ids": [
+          "k-e"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "e"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ne",
+          "n",
+          "a"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-e"
+      }
+    },
+    {
+      "id": "ex-r-o",
+      "type": "exercise",
+      "theory_ref": "step-vokale",
+      "title": "Lesung von お",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man お?",
+        "card_ids": [
+          "k-o"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "o"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "a",
+          "mu",
+          "me"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-o"
+      }
+    },
+    {
+      "id": "ex-c-i",
+      "type": "exercise",
+      "theory_ref": "step-vokale",
+      "title": "Zeichen für 'i'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „i\"?",
+        "card_ids": [
+          "k-i"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "い"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "り",
+          "こ",
+          "あ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-i"
+      }
+    },
+    {
+      "id": "ex-c-u",
+      "type": "exercise",
+      "theory_ref": "step-vokale",
+      "title": "Zeichen für 'u'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „u\"?",
+        "card_ids": [
+          "k-u"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "う"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "つ",
+          "ら",
+          "し"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-u"
+      }
+    },
+    {
+      "id": "ex-ms-vok",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Alle Vokale",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wähle alle fünf Vokal-Zeichen.",
+        "card_ids": [
+          "k-a",
+          "k-i",
+          "k-u",
+          "k-e",
+          "k-o"
+        ],
+        "sentence": "Welche dieser Zeichen sind Vokale?",
+        "accept": [
+          "あ",
+          "い",
+          "う",
+          "え",
+          "お"
+        ],
+        "cloze_mode": "multiselect",
+        "distractors": [
+          "か",
+          "さ",
+          "な"
+        ],
+        "hint": "Die Grundreihe a-i-u-e-o.",
+        "id": "ex-ms-vok"
+      }
+    },
+    {
+      "id": "ex-match-vok",
+      "type": "exercise",
+      "theory_ref": "step-vokale",
+      "title": "Vokale zuordnen",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedem Vokal-Zeichen seine Lesung zu.",
+        "card_ids": [
+          "k-a",
+          "k-i",
+          "k-u",
+          "k-e",
+          "k-o"
+        ],
+        "pairs": [
+          {
+            "left": "あ",
+            "right": "a"
+          },
+          {
+            "left": "い",
+            "right": "i"
+          },
+          {
+            "left": "う",
+            "right": "u"
+          },
+          {
+            "left": "え",
+            "right": "e"
+          },
+          {
+            "left": "お",
+            "right": "o"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-vok"
+      }
+    },
+    {
+      "id": "ex-tip-o",
+      "type": "exercise",
+      "theory_ref": "step-vokale",
+      "title": "Romaji für お",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man お? (Romaji tippen)",
+        "card_ids": [
+          "k-o"
+        ],
+        "sentence": "お = ___",
+        "blanks": [
+          {
+            "accept": [
+              "o"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
+        "id": "ex-tip-o"
+      }
+    }
+  ]
+}

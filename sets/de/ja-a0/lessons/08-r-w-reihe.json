@@ -1,0 +1,377 @@
+{
+  "id": "08-r-w-reihe",
+  "title": "R- und W-Reihe: ra ri ru re ro, wa wo",
+  "description": "Die R-Reihe und die W-Reihe (わ, を). Wiederholung der großen Verwechsler ね/れ/わ und る/ろ.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "k-ra",
+      "front": "ら",
+      "back": "ra",
+      "notes": "Hepburn: ra.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ri",
+      "front": "り",
+      "back": "ri",
+      "notes": "Hepburn: ri.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ru",
+      "front": "る",
+      "back": "ru",
+      "notes": "Hepburn: ru.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-re",
+      "front": "れ",
+      "back": "re",
+      "notes": "Hepburn: re.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ro",
+      "front": "ろ",
+      "back": "ro",
+      "notes": "Hepburn: ro.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-wa",
+      "front": "わ",
+      "back": "wa",
+      "notes": "Hepburn: wa.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-wo",
+      "front": "を",
+      "back": "wo",
+      "notes": "Hepburn: wo.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ne",
+      "front": "ね",
+      "back": "ne",
+      "notes": "Hepburn: ne.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "R-Reihe und W-Reihe",
+      "body": "# R- und W-Reihe\n\n**R-Reihe:** **ら** (ra) · **り** (ri) · **る** (ru) · **れ** (re) · **ろ** (ro)\n\n**W-Reihe:** **わ** (wa) · **を** (wo)\n\n**を** (wo) kommt fast nur als **Objekt-Partikel** vor und klingt meist wie „o\". Damit sind die 46 Grundzeichen komplett."
+    },
+    {
+      "id": "step-verwechsel",
+      "type": "theory",
+      "title": "る/ろ und れ/ね/わ",
+      "body": "## Die letzten Fallen\n\n- **る** (ru) endet mit einer **Schlaufe**, **ろ** (ro) ohne.\n- **れ** (re), **ね** (ne), **わ** (wa) beginnen alle mit einem senkrechten Strich: **れ** Haken, **ね** Schlaufe, **わ** offen."
+    },
+    {
+      "id": "ex-r-ra",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von ら",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ら?",
+        "card_ids": [
+          "k-ra"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ra"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "u",
+          "ro",
+          "chi"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-ra"
+      }
+    },
+    {
+      "id": "ex-r-ru",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Lesung von る",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man る?",
+        "card_ids": [
+          "k-ru"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ru"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ro",
+          "so",
+          "nu"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-ru"
+      }
+    },
+    {
+      "id": "ex-r-wa",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Lesung von わ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man わ?",
+        "card_ids": [
+          "k-wa"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "wa"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ne",
+          "re",
+          "wo"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-wa"
+      }
+    },
+    {
+      "id": "ex-c-ro",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Zeichen für 'ro'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „ro\"?",
+        "card_ids": [
+          "k-ro"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ろ"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "る",
+          "そ",
+          "ら"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-ro"
+      }
+    },
+    {
+      "id": "ex-c-ri",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zeichen für 'ri'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „ri\"?",
+        "card_ids": [
+          "k-ri"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "り"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "い",
+          "し",
+          "あ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-ri"
+      }
+    },
+    {
+      "id": "ex-ms-r",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Alle R-Zeichen",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wähle alle Zeichen der R-Reihe.",
+        "card_ids": [
+          "k-ra",
+          "k-ri",
+          "k-ru",
+          "k-re",
+          "k-ro"
+        ],
+        "sentence": "Welche dieser Zeichen gehören zur R-Reihe?",
+        "accept": [
+          "ら",
+          "り",
+          "る",
+          "れ",
+          "ろ"
+        ],
+        "cloze_mode": "multiselect",
+        "distractors": [
+          "わ",
+          "を",
+          "ぬ"
+        ],
+        "hint": "r + a/i/u/e/o.",
+        "id": "ex-ms-r"
+      }
+    },
+    {
+      "id": "ex-match-r",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "R-Reihe zuordnen",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedem R-Zeichen seine Lesung zu.",
+        "card_ids": [
+          "k-ra",
+          "k-ri",
+          "k-ru",
+          "k-re",
+          "k-ro"
+        ],
+        "pairs": [
+          {
+            "left": "ら",
+            "right": "ra"
+          },
+          {
+            "left": "り",
+            "right": "ri"
+          },
+          {
+            "left": "る",
+            "right": "ru"
+          },
+          {
+            "left": "れ",
+            "right": "re"
+          },
+          {
+            "left": "ろ",
+            "right": "ro"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-r"
+      }
+    },
+    {
+      "id": "ex-rep-ne",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Zeichen für 'ne'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „ne\"?",
+        "card_ids": [
+          "k-ne"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ね"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "れ",
+          "わ",
+          "ぬ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-rep-ne"
+      }
+    },
+    {
+      "id": "ex-tip-ro",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Romaji für ろ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ろ? (Romaji tippen)",
+        "card_ids": [
+          "k-ro"
+        ],
+        "sentence": "ろ = ___",
+        "blanks": [
+          {
+            "accept": [
+              "ro"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
+        "id": "ex-tip-ro"
+      }
+    }
+  ]
+}

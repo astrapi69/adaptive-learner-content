@@ -1,0 +1,383 @@
+{
+  "id": "07-m-y-reihe",
+  "title": "M- und Y-Reihe: ma mi mu me mo, ya yu yo",
+  "description": "Die M-Reihe und die dreiteilige Y-Reihe. Wiederholung früherer Verwechsler (ぬ/め).",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "k-ma",
+      "front": "ま",
+      "back": "ma",
+      "notes": "Hepburn: ma.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-mi",
+      "front": "み",
+      "back": "mi",
+      "notes": "Hepburn: mi.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-mu",
+      "front": "む",
+      "back": "mu",
+      "notes": "Hepburn: mu.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-me",
+      "front": "め",
+      "back": "me",
+      "notes": "Hepburn: me.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-mo",
+      "front": "も",
+      "back": "mo",
+      "notes": "Hepburn: mo.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ya",
+      "front": "や",
+      "back": "ya",
+      "notes": "Hepburn: ya.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-yu",
+      "front": "ゆ",
+      "back": "yu",
+      "notes": "Hepburn: yu.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-yo",
+      "front": "よ",
+      "back": "yo",
+      "notes": "Hepburn: yo.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-nu",
+      "front": "ぬ",
+      "back": "nu",
+      "notes": "Hepburn: nu.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "M-Reihe und Y-Reihe",
+      "body": "# M- und Y-Reihe\n\n**M-Reihe:** **ま** (ma) · **み** (mi) · **む** (mu) · **め** (me) · **も** (mo)\n\n**Y-Reihe** (nur drei Zeichen): **や** (ya) · **ゆ** (yu) · **よ** (yo)\n\nDie Y-Reihe hat kein „yi\" und „ye\" — nur **ya, yu, yo**."
+    },
+    {
+      "id": "step-verwechsel",
+      "type": "theory",
+      "title": "め oder ぬ?",
+      "body": "## め (me) vs. ぬ (nu)\n\nBeide sehen ähnlich aus. Merke: **ぬ** hat am Ende eine kleine **Schlaufe**, **め** endet **ohne** Schlaufe. Diese beiden werden am häufigsten verwechselt."
+    },
+    {
+      "id": "ex-r-ma",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von ま",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ま?",
+        "card_ids": [
+          "k-ma"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ma"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ha",
+          "ho",
+          "mo"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-ma"
+      }
+    },
+    {
+      "id": "ex-r-me",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Lesung von め",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man め?",
+        "card_ids": [
+          "k-me"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "me"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "nu",
+          "a",
+          "no"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-me"
+      }
+    },
+    {
+      "id": "ex-r-yo",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von よ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man よ?",
+        "card_ids": [
+          "k-yo"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "yo"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ma",
+          "ha",
+          "a"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-yo"
+      }
+    },
+    {
+      "id": "ex-c-mu",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zeichen für 'mu'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „mu\"?",
+        "card_ids": [
+          "k-mu"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "む"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "す",
+          "お",
+          "あ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-mu"
+      }
+    },
+    {
+      "id": "ex-c-yu",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zeichen für 'yu'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „yu\"?",
+        "card_ids": [
+          "k-yu"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ゆ"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "や",
+          "わ",
+          "あ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-yu"
+      }
+    },
+    {
+      "id": "ex-ms-y",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Alle Y-Zeichen",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wähle alle drei Zeichen der Y-Reihe.",
+        "card_ids": [
+          "k-ya",
+          "k-yu",
+          "k-yo"
+        ],
+        "sentence": "Welche dieser Zeichen gehören zur Y-Reihe?",
+        "accept": [
+          "や",
+          "ゆ",
+          "よ"
+        ],
+        "cloze_mode": "multiselect",
+        "distractors": [
+          "ま",
+          "を",
+          "ち"
+        ],
+        "hint": "Nur ya, yu, yo.",
+        "id": "ex-ms-y"
+      }
+    },
+    {
+      "id": "ex-match-m",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "M-Reihe zuordnen",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedem M-Zeichen seine Lesung zu.",
+        "card_ids": [
+          "k-ma",
+          "k-mi",
+          "k-mu",
+          "k-me",
+          "k-mo"
+        ],
+        "pairs": [
+          {
+            "left": "ま",
+            "right": "ma"
+          },
+          {
+            "left": "み",
+            "right": "mi"
+          },
+          {
+            "left": "む",
+            "right": "mu"
+          },
+          {
+            "left": "め",
+            "right": "me"
+          },
+          {
+            "left": "も",
+            "right": "mo"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-m"
+      }
+    },
+    {
+      "id": "ex-rep-nu",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Zeichen für 'nu'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „nu\"?",
+        "card_ids": [
+          "k-nu"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ぬ"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "め",
+          "あ",
+          "ね"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-rep-nu"
+      }
+    },
+    {
+      "id": "ex-tip-me",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Romaji für め",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man め? (Romaji tippen)",
+        "card_ids": [
+          "k-me"
+        ],
+        "sentence": "め = ___",
+        "blanks": [
+          {
+            "accept": [
+              "me"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
+        "id": "ex-tip-me"
+      }
+    }
+  ]
+}

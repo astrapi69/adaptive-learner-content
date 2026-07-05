@@ -1,0 +1,61 @@
+# Japanisch Schrift: Hiragana (Vorstufe) — Set-Manifest
+#
+# Vorstufe (A0) zum Japanisch-A1-Set: das komplette Hiragana-
+# Silbenalphabet erkennen und lesen, bevor der eigentliche
+# A1-Sprachkurs beginnt. Fokus liegt ausschließlich auf dem
+# Erkennen und Lesen der Zeichen (Kana → Romaji und umgekehrt);
+# Schreiben und Hörverstehen sind nicht Teil dieses Sets.
+#
+# Umschrift: Hepburn (shi, chi, tsu, fu, ji); bei Tipp-Aufgaben
+# werden zusätzlich Kunrei-Varianten akzeptiert (si, ti, tu, hu,
+# zi). In Lese-Aufgaben steht bei der abgefragten Kana nie die
+# Romaji-Lesung daneben (kein Verraten der Antwort).
+#
+# Der Content-Loader liest ``metadata.lessons`` für die Dateiliste.
+schema_version: '1.3'
+name: 'Japanisch Schrift: Hiragana (Vorstufe)'
+description: >-
+  Vorstufe zum Japanisch-A1-Set: das komplette Hiragana-
+  Silbenalphabet in zehn Lektionen erkennen und lesen lernen — von
+  den fünf Vokalen über die Grundreihen (k, s, t, n, h, m, y, r, w)
+  und die stimmhaften Zeichen (Dakuten/Handakuten: g, z, d, b, p)
+  bis zu den Kombinationslauten (Yōon), dem kleinen tsu und langen
+  Vokalen. Überwiegend Multiple-Choice (cloze select und
+  multiselect) plus Zuordnungsübungen (matching) und Romaji-
+  Tipp-Items. Es geht ausschließlich um das Erkennen und Lesen der
+  Zeichen; Schreiben und Hörverstehen sind nicht Teil dieses Sets.
+sets:
+  - id: ja-a0-from-de
+    title: 'Japanisch Schrift: Hiragana (Vorstufe)'
+    title_native: ひらがな
+    target_language: ja
+    source_language: de
+    level: A0
+    path: sets/de/ja-a0
+    version: '1.0.0'
+    lesson_count: 10
+    domain: language
+    description: >-
+      Zehn Vorstufen-Lektionen zum Lesen des Hiragana-Alphabets, auf
+      Deutsch erklärt — als Vorbereitung auf das Set „Japanisch A1".
+      Nur Erkennen und Lesen der Zeichen, kein Schreiben oder Hören.
+    tags:
+      - beginner
+      - hiragana
+      - kana
+      - schrift
+      - vorstufe
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-vokale.json
+    - 02-k-reihe.json
+    - 03-s-reihe.json
+    - 04-t-reihe.json
+    - 05-n-reihe.json
+    - 06-h-reihe.json
+    - 07-m-y-reihe.json
+    - 08-r-w-reihe.json
+    - 09-dakuten-handakuten.json
+    - 10-kombinationen.json

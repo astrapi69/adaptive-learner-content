@@ -1,0 +1,357 @@
+{
+  "id": "05-n-reihe",
+  "title": "N-Reihe: na ni nu ne no + ん",
+  "description": "Die N-Reihe und das Silben-n (ん). Fokus auf die Verwechsler ぬ/め und ね/れ/わ.",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "k-na",
+      "front": "な",
+      "back": "na",
+      "notes": "Hepburn: na.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ni",
+      "front": "に",
+      "back": "ni",
+      "notes": "Hepburn: ni.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-nu",
+      "front": "ぬ",
+      "back": "nu",
+      "notes": "Hepburn: nu.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ne",
+      "front": "ね",
+      "back": "ne",
+      "notes": "Hepburn: ne.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-no",
+      "front": "の",
+      "back": "no",
+      "notes": "Hepburn: no.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-n",
+      "front": "ん",
+      "back": "n",
+      "notes": "Hepburn: n.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die N-Reihe und ん",
+      "body": "# Die N-Reihe\n\n**な** (na) · **に** (ni) · **ぬ** (nu) · **ね** (ne) · **の** (no)\n\nDazu kommt **ん** (n) — das einzige Zeichen für einen **einzelnen Konsonanten**. Es steht nie am Wortanfang und schließt Silben ab, z. B. in „konnichiwa\"."
+    },
+    {
+      "id": "step-verwechsel",
+      "type": "theory",
+      "title": "ぬ/め und ね/れ/わ",
+      "body": "## Zwei Fallen\n\n- **ぬ** (nu) vs. **め** (me): **ぬ** hat eine **Schlaufe** am Ende, **め** nicht.\n- **ね** (ne), **れ** (re), **わ** (wa): alle mit senkrechtem Strich links. **ね** hat eine **Schlaufe**, **れ** einen **Haken**, **わ** ist **offen**."
+    },
+    {
+      "id": "ex-r-na",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von な",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man な?",
+        "card_ids": [
+          "k-na"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "na"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ta",
+          "ni",
+          "ha"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-na"
+      }
+    },
+    {
+      "id": "ex-r-nu",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Lesung von ぬ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ぬ?",
+        "card_ids": [
+          "k-nu"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "nu"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "me",
+          "a",
+          "ne"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-nu"
+      }
+    },
+    {
+      "id": "ex-r-no",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von の",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man の?",
+        "card_ids": [
+          "k-no"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "no"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "me",
+          "nu",
+          "a"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-no"
+      }
+    },
+    {
+      "id": "ex-c-nu",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Zeichen für 'nu'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „nu\"?",
+        "card_ids": [
+          "k-nu"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ぬ"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "め",
+          "あ",
+          "ね"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-nu"
+      }
+    },
+    {
+      "id": "ex-c-ne",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Zeichen für 'ne'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „ne\"?",
+        "card_ids": [
+          "k-ne"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ね"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "れ",
+          "わ",
+          "ぬ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-ne"
+      }
+    },
+    {
+      "id": "ex-r-nn",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von ん",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ん?",
+        "card_ids": [
+          "k-n"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "n"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "so",
+          "re",
+          "e"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-nn"
+      }
+    },
+    {
+      "id": "ex-ms-n",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Alle N-Zeichen",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wähle alle Zeichen der N-Reihe (ohne das Silben-n).",
+        "card_ids": [
+          "k-na",
+          "k-ni",
+          "k-nu",
+          "k-ne",
+          "k-no"
+        ],
+        "sentence": "Welche dieser Zeichen gehören zur N-Reihe?",
+        "accept": [
+          "な",
+          "に",
+          "ぬ",
+          "ね",
+          "の"
+        ],
+        "cloze_mode": "multiselect",
+        "distractors": [
+          "め",
+          "れ",
+          "は"
+        ],
+        "hint": "n + a/i/u/e/o.",
+        "id": "ex-ms-n"
+      }
+    },
+    {
+      "id": "ex-match-n",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "N-Reihe zuordnen",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedem N-Zeichen seine Lesung zu.",
+        "card_ids": [
+          "k-na",
+          "k-ni",
+          "k-nu",
+          "k-ne",
+          "k-no"
+        ],
+        "pairs": [
+          {
+            "left": "な",
+            "right": "na"
+          },
+          {
+            "left": "に",
+            "right": "ni"
+          },
+          {
+            "left": "ぬ",
+            "right": "nu"
+          },
+          {
+            "left": "ね",
+            "right": "ne"
+          },
+          {
+            "left": "の",
+            "right": "no"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-n"
+      }
+    },
+    {
+      "id": "ex-tip-ne",
+      "type": "exercise",
+      "theory_ref": "step-verwechsel",
+      "title": "Romaji für ね",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man ね? (Romaji tippen)",
+        "card_ids": [
+          "k-ne"
+        ],
+        "sentence": "ね = ___",
+        "blanks": [
+          {
+            "accept": [
+              "ne"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
+        "id": "ex-tip-ne"
+      }
+    }
+  ]
+}

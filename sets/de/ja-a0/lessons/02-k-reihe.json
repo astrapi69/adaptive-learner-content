@@ -1,0 +1,318 @@
+{
+  "id": "02-k-reihe",
+  "title": "K-Reihe: ka ki ku ke ko",
+  "description": "Die K-Reihe erkennen und lesen. Aufbau nach dem Muster Konsonant + Vokal (k + a/i/u/e/o).",
+  "target_language": "ja",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "cards": [
+    {
+      "id": "k-ka",
+      "front": "か",
+      "back": "ka",
+      "notes": "Hepburn: ka.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ki",
+      "front": "き",
+      "back": "ki",
+      "notes": "Hepburn: ki.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ku",
+      "front": "く",
+      "back": "ku",
+      "notes": "Hepburn: ku.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ke",
+      "front": "け",
+      "back": "ke",
+      "notes": "Hepburn: ke.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    },
+    {
+      "id": "k-ko",
+      "front": "こ",
+      "back": "ko",
+      "notes": "Hepburn: ko.",
+      "difficulty": 1,
+      "tags": [
+        "hiragana"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die K-Reihe",
+      "body": "# Die K-Reihe\n\nDie meisten Reihen bilden **Konsonant + Vokal**. Die **K-Reihe**:\n\n**か** (ka) · **き** (ki) · **く** (ku) · **け** (ke) · **こ** (ko)\n\nDie Vokal-Reihenfolge **a-i-u-e-o** bleibt gleich — nur der Anfangskonsonant `k` kommt hinzu."
+    },
+    {
+      "id": "step-tipp",
+      "type": "theory",
+      "title": "Verwechslungs-Vorschau",
+      "body": "## Gut hinsehen\n\n**き** (ki) hat mehrere Striche und ähnelt später **さ** (sa) und **ち** (chi) — merke dir schon jetzt die Form von **き**. Und **く** (ku) sieht aus wie ein spitzes „<\"; verwechsle es nicht mit **へ** (he) aus einer späteren Reihe."
+    },
+    {
+      "id": "ex-r-ka",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von か",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man か?",
+        "card_ids": [
+          "k-ka"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ka"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ya",
+          "sa",
+          "ta"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-ka"
+      }
+    },
+    {
+      "id": "ex-r-ki",
+      "type": "exercise",
+      "theory_ref": "step-tipp",
+      "title": "Lesung von き",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man き?",
+        "card_ids": [
+          "k-ki"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ki"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "sa",
+          "chi",
+          "a"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-ki"
+      }
+    },
+    {
+      "id": "ex-r-ko",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Lesung von こ",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man こ?",
+        "card_ids": [
+          "k-ko"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "ko"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "ni",
+          "i",
+          "ta"
+        ],
+        "hint": "Achte auf ähnlich aussehende Zeichen.",
+        "id": "ex-r-ko"
+      }
+    },
+    {
+      "id": "ex-c-ku",
+      "type": "exercise",
+      "theory_ref": "step-tipp",
+      "title": "Zeichen für 'ku'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „ku\"?",
+        "card_ids": [
+          "k-ku"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "く"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "へ",
+          "し",
+          "あ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-ku"
+      }
+    },
+    {
+      "id": "ex-c-ke",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Zeichen für 'ke'",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Welches Zeichen liest man „ke\"?",
+        "card_ids": [
+          "k-ke"
+        ],
+        "sentence": "___",
+        "blanks": [
+          {
+            "accept": [
+              "け"
+            ]
+          }
+        ],
+        "cloze_mode": "select",
+        "distractors": [
+          "は",
+          "に",
+          "あ"
+        ],
+        "hint": "Ein Zeichen der passenden Reihe.",
+        "id": "ex-c-ke"
+      }
+    },
+    {
+      "id": "ex-ms-k",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Alle K-Zeichen",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wähle alle Zeichen der K-Reihe.",
+        "card_ids": [
+          "k-ka",
+          "k-ki",
+          "k-ku",
+          "k-ke",
+          "k-ko"
+        ],
+        "sentence": "Welche dieser Zeichen gehören zur K-Reihe?",
+        "accept": [
+          "か",
+          "き",
+          "く",
+          "け",
+          "こ"
+        ],
+        "cloze_mode": "multiselect",
+        "distractors": [
+          "あ",
+          "さ",
+          "た"
+        ],
+        "hint": "k + a/i/u/e/o.",
+        "id": "ex-ms-k"
+      }
+    },
+    {
+      "id": "ex-match-k",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "K-Reihe zuordnen",
+      "exercise": {
+        "type": "matching",
+        "prompt": "Ordne jedem K-Zeichen seine Lesung zu.",
+        "card_ids": [
+          "k-ka",
+          "k-ki",
+          "k-ku",
+          "k-ke",
+          "k-ko"
+        ],
+        "pairs": [
+          {
+            "left": "か",
+            "right": "ka"
+          },
+          {
+            "left": "き",
+            "right": "ki"
+          },
+          {
+            "left": "く",
+            "right": "ku"
+          },
+          {
+            "left": "け",
+            "right": "ke"
+          },
+          {
+            "left": "こ",
+            "right": "ko"
+          }
+        ],
+        "direction": "target_to_source",
+        "id": "ex-match-k"
+      }
+    },
+    {
+      "id": "ex-tip-ki",
+      "type": "exercise",
+      "theory_ref": "step-tipp",
+      "title": "Romaji für き",
+      "exercise": {
+        "type": "cloze",
+        "prompt": "Wie liest man き? (Romaji tippen)",
+        "card_ids": [
+          "k-ki"
+        ],
+        "sentence": "き = ___",
+        "blanks": [
+          {
+            "accept": [
+              "ki"
+            ]
+          }
+        ],
+        "cloze_mode": "type",
+        "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
+        "id": "ex-tip-ki"
+      }
+    }
+  ]
+}
