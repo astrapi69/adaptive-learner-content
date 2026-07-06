@@ -94,3 +94,9 @@ hs_err_pid*
 #################
 __pycache__/
 *.pyc
+
+#################
+# node          #
+#################
+# modules of the pinned engine (Engine validate gate; never committed)
+node_modules/
