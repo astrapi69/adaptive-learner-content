@@ -197,7 +197,7 @@
         "prompt": "Wie heißt der Python-Datentyp für ganze Zahlen wie 42 oder -7?",
         "card_ids": ["py-int"],
         "accept": ["int", "integer", "Int", "Integer"],
-        "hint": "Drei Buchstaben, Abkürzung des englischen Worts für ganze Zahl.",
+        "hint": "Abkürzung des englischen Worts für ganze Zahl.",
         "distractors": ["float", "str", "num", "number"],
         "direction": "target_to_source"
       }

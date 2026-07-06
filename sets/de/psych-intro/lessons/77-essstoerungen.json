@@ -255,7 +255,7 @@
         "prompt": "Welche spezialisierte deutsche Fachberatung für Essstörungen ist unter dem Kürzel ANAD bekannt?",
         "card_ids": ["hilfe-anlaufstellen"],
         "accept": ["ANAD", "ANAD e.V.", "ANAD eV"],
-        "hint": "Ein Kürzel aus vier Buchstaben, beginnt mit A.",
+        "hint": "Das Kürzel wird in der Frage genannt.",
         "distractors": ["BZgA", "Telefonseelsorge", "Caritas"],
         "direction": "target_to_source"
       }

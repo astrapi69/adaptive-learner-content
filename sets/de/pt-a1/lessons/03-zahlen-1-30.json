@@ -164,7 +164,7 @@
         "prompt": "Wie heißt 'sieben' auf Portugiesisch?",
         "card_ids": ["sete"],
         "accept": ["sete", "Sete"],
-        "hint": "Vier Buchstaben.",
+        "hint": "Beginnt mit s — wie 'sieben'.",
         "distractors": ["seis", "oito", "cinco"],
         "direction": "source_to_target"
       }
@@ -232,7 +232,7 @@
           {"src": "assets/img/seis.png", "label": "seis"},
           {"src": "assets/img/nove.png", "label": "nove"}
         ],
-        "hint": "Drei Buchstaben.",
+        "hint": "Denk an 'Dezimalsystem'.",
         "distractors": ["dois", "seis", "nove"],
         "direction": "target_to_source"
       }
