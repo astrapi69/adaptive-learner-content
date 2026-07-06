@@ -160,7 +160,7 @@
         "prompt": "Wie heißt das Bauteil, das rechnet und Anweisungen ausführt — oft das 'Gehirn' des Computers genannt?",
         "card_ids": ["it-cpu"],
         "accept": ["CPU", "Prozessor", "der Prozessor", "die CPU"],
-        "hint": "Englische Abkürzung mit drei Buchstaben.",
+        "hint": "Englische Abkürzung — das C steht für 'Central'.",
         "distractors": ["RAM", "GPU", "Festplatte"],
         "direction": "target_to_source"
       }
@@ -246,7 +246,7 @@
         "sentence": "Ein ___ kann nur den Wert 0 oder 1 haben.",
         "blanks": [{"accept": ["Bit"]}],
         "cloze_mode": "type",
-        "hint": "Drei Buchstaben; 8 davon ergeben 1 Byte."
+        "hint": "8 davon ergeben 1 Byte."
       }
     }
   ]

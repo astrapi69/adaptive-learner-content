@@ -170,7 +170,7 @@
         "prompt": "Welche Funktion gibt Text auf der Konsole aus?",
         "card_ids": ["py-print"],
         "accept": ["print", "print()", "die print-Funktion", "print-Funktion"],
-        "hint": "Sie hat fünf Buchstaben und runde Klammern.",
+        "hint": "Englisch für 'drucken', mit runden Klammern aufgerufen.",
         "distractors": ["input", "echo", "console.log"],
         "direction": "target_to_source"
       }
