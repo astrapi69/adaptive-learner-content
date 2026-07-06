@@ -2,14 +2,13 @@
 #
 # Runs the validator on every pull request (and on pushes to main)
 # so no broken or low-quality lesson set can land. The structural
-# fields are validated against the canonical JSON Schema vendored
-# under schema/ (a mirror of the pinned learn-content-engine
-# release; source-of-truth chain: adaptive-learner Pydantic ->
-# engine -> this mirror), the quality minimums are read from
-# schema/quality-rules.json, and the content-repo specifics
-# (language pair, directory structure, non-Latin scripts) stay in
-# the validator. Everything here reads only committed files — the
-# validation itself works fully offline.
+# fields are validated against the JSON Schema mirrored under schema/
+# from the pinned learn-content-engine release (jsonschema library),
+# the quality minimums are read from schema/quality-rules.json, and
+# the content-repo specifics (language pair, directory structure,
+# non-Latin scripts) stay in the validator. This is the second of
+# the two validation layers — the Adaptive Learner app runs the same
+# checks client-side before a community share.
 name: Validate content
 
 on:
