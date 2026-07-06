@@ -33,14 +33,19 @@ if str(SCRIPTS_DIR) not in sys.path:
 import check_schema_drift as drift  # noqa: E402
 
 SCHEMA_BYTES = json.dumps({"title": "Lesson", "x-schema-version": "9.9"}).encode()
+MANIFEST_BYTES = json.dumps({"title": "ContentManifest"}).encode()
 
 
 def make_tarball(path: Path, schema_bytes: bytes = SCHEMA_BYTES) -> Path:
-    """Write an npm-layout tarball (package/schema/lesson.schema.json)."""
+    """Write an npm-layout tarball with both mirrored schema members."""
     with tarfile.open(path, "w:gz") as tar:
-        info = tarfile.TarInfo("package/schema/lesson.schema.json")
-        info.size = len(schema_bytes)
-        tar.addfile(info, io.BytesIO(schema_bytes))
+        for member, data in (
+            ("package/schema/lesson.schema.json", schema_bytes),
+            ("package/schema/content-manifest.schema.json", MANIFEST_BYTES),
+        ):
+            info = tarfile.TarInfo(member)
+            info.size = len(data)
+            tar.addfile(info, io.BytesIO(data))
     return path
 
 
@@ -70,6 +75,9 @@ def test_identical_mirror_passes(tmp_path: Path) -> None:
     mirror_root = tmp_path / "repo"
     (mirror_root / "schema").mkdir(parents=True)
     (mirror_root / "schema" / "lesson.schema.json").write_bytes(SCHEMA_BYTES)
+    (mirror_root / "schema" / "content-manifest.schema.json").write_bytes(
+        MANIFEST_BYTES
+    )
     rc = drift.run_check(tarball_source=str(tarball), repo_root=mirror_root)
     assert rc == 0
 
@@ -80,6 +88,9 @@ def test_manipulated_mirror_is_drift(tmp_path: Path) -> None:
     (mirror_root / "schema").mkdir(parents=True)
     (mirror_root / "schema" / "lesson.schema.json").write_bytes(
         SCHEMA_BYTES + b"\n// tampered"
+    )
+    (mirror_root / "schema" / "content-manifest.schema.json").write_bytes(
+        MANIFEST_BYTES
     )
     rc = drift.run_check(tarball_source=str(tarball), repo_root=mirror_root)
     assert rc == 1
@@ -98,12 +109,17 @@ def test_update_rewrites_mirror_from_tarball(tmp_path: Path) -> None:
     mirror_root = tmp_path / "repo"
     (mirror_root / "schema").mkdir(parents=True)
     (mirror_root / "schema" / "lesson.schema.json").write_bytes(b"stale")
+    (mirror_root / "schema" / "content-manifest.schema.json").write_bytes(b"stale")
     rc = drift.run_check(
         tarball_source=str(tarball), repo_root=mirror_root, update=True
     )
     assert rc == 0
     got = (mirror_root / "schema" / "lesson.schema.json").read_bytes()
     assert got == SCHEMA_BYTES
+    got_manifest = (
+        mirror_root / "schema" / "content-manifest.schema.json"
+    ).read_bytes()
+    assert got_manifest == MANIFEST_BYTES
 
 
 def test_repo_mirror_matches_pinned_engine_tarball_when_cached() -> None:

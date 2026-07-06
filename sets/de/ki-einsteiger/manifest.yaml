@@ -53,15 +53,15 @@ sets:
       asin: "B0F43H6T2M"
       url: "https://www.amazon.de/dp/B0F43H6T2M"
       cover_image: null
-    ai_validation:
-      status: passed
-      checked_at: "2026-06-21"
-      cards_checked: 79
-      issues_found: 0
-      provider: anthropic
-      model: claude-opus-4-6
 metadata:
   author: Asterios Raptis
+  ai_validation:
+    status: passed
+    checked_at: "2026-06-21"
+    cards_checked: 79
+    issues_found: 0
+    provider: anthropic
+    model: claude-opus-4-6
   license: CC-BY-SA-4.0
   lessons:
     - 01-ki-im-alltag.json

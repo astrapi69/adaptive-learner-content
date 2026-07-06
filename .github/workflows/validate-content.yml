@@ -33,5 +33,5 @@ jobs:
         run: pip install "pyyaml>=6,<7" "jsonschema>=4,<5" "pytest>=8,<9"
       - name: Validate content tree
         run: python scripts/validate_content.py
-      - name: Shape-parity gate (App/Content identical verdicts, #1208)
-        run: python -m pytest tests/test_shape_parity.py -q
+      - name: Repo test suite (shape parity #1208, drift-gate units, index flags)
+        run: python -m pytest tests -q

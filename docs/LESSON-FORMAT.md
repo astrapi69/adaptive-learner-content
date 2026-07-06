@@ -1,26 +1,28 @@
 # Lesson format — schema reference (moved)
 
-> ℹ️ **The authoritative lesson-format reference now lives in the app
-> repository.** This repo no longer keeps a parallel copy that could drift.
+> ℹ️ **The authoritative lesson-format reference now lives in the
+> learn-content-engine repository.** This repo no longer keeps a parallel
+> copy that could drift.
 
-The lesson format is **App-authoritative** (EXP-039): it is generated from the
-Pydantic model in the [`astrapi69/adaptive-learner`](https://github.com/astrapi69/adaptive-learner)
-app and published as a single source of truth. This content repo only
-**mirrors** the machine-readable schema and follows it — it does not define or
-extend the format.
+The lesson format is canonical along the chain **adaptive-learner Pydantic →
+[`learn-content-engine`](https://github.com/astrapi69/learn-content-engine) →
+this mirror**: the schema is generated from the app's Pydantic model, vendored
+by the engine per its documented sync procedure, and mirrored here pinned to
+the engine version in [`schema/engine-version.txt`](../schema/engine-version.txt).
+This content repo only **mirrors** the machine-readable schema and follows
+it — it does not define or extend the format.
 
 ## Where the real reference is
 
-- **Field-by-field reference (generated docs):**
-  - English — <https://astrapi69.github.io/adaptive-learner/docs/en/developer/lesson-format-reference/>
-  - Deutsch — <https://astrapi69.github.io/adaptive-learner/docs/de/developer/lesson-format-reference/>
-  - Source (always current):
-    [`docs/help/en/developer/lesson-format-reference.md`](https://github.com/astrapi69/adaptive-learner/blob/master/docs/help/en/developer/lesson-format-reference.md)
-- **Machine-readable JSON Schema (mirrored into this repo):**
+- **Format reference with a tested example per exercise type:**
+  [`learn-content-engine/docs/lesson-format.md`](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md)
+- **Machine-readable JSON Schema (mirrored into this repo, pinned):**
   [`schema/lesson.schema.json`](../schema/lesson.schema.json) — Draft 2020-12,
-  `x-schema-version: 1.4`. Reference it from a lesson `.json` via `"$schema"` for
-  IDE autocomplete + validation. See [`schema/README.md`](../schema/README.md)
-  for how the mirror and its drift gate work.
+  `x-schema-version: 1.5`; also importable as
+  `learn-content-engine/schema/lesson.schema.json` from the npm package.
+  Reference it from a lesson `.json` via `"$schema"` for IDE autocomplete +
+  validation. See [`schema/README.md`](../schema/README.md) for how the
+  mirror and its drift gate work.
 - **Shared quality minimums:** [`schema/quality-rules.json`](../schema/quality-rules.json)
   (`minExercisesPerLesson`, `minExerciseTypes`, `minFreeTextAccepts`,
   `minMatchingPairs`, `minTheorySteps`).

@@ -4,7 +4,8 @@
  * (structural ajv layer AND the semantic cross-field rules — cloze
  * markers == blanks, referential card_ids integrity, multiselect
  * disjointness, picture-choice exactly-one-correct, ...) over EVERY
- * lesson in this repo. Gate: zero errors.
+ * lesson in this repo, plus validateManifest() over the root manifest
+ * and every per-set manifest. Gate: zero errors.
  *
  * Rationale: the structural CI (validate_content.py against the
  * mirrored JSON Schema) cannot see cross-field semantics; a real
@@ -27,7 +28,8 @@
 import { readFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { validateLesson } from "learn-content-engine";
+import { validateLesson, validateManifest } from "learn-content-engine";
+import { parse as parseYaml } from "yaml";
 
 const repoRoot = fileURLToPath(new URL("..", import.meta.url));
 const setsDir = join(repoRoot, "sets");
@@ -38,6 +40,25 @@ function collectLessonFiles(dir) {
     const full = join(dir, entry);
     if (statSync(full).isDirectory()) files.push(...collectLessonFiles(full));
     else if (entry.endsWith(".json")) files.push(full);
+  }
+  return files.sort();
+}
+
+function collectManifestFiles() {
+  // The root manifest plus every per-set manifest — all must conform to
+  // the engine's (strict) content-manifest schema.
+  const files = [join(repoRoot, "manifest.yaml")];
+  for (const entry of readdirSync(setsDir)) {
+    const langDir = join(setsDir, entry);
+    if (!statSync(langDir).isDirectory()) continue;
+    for (const setEntry of readdirSync(langDir)) {
+      const manifest = join(langDir, setEntry, "manifest.yaml");
+      try {
+        if (statSync(manifest).isFile()) files.push(manifest);
+      } catch {
+        /* set dir without manifest — validate_content.py reports that */
+      }
+    }
   }
   return files.sort();
 }
@@ -119,6 +140,33 @@ const SELF_TEST_CASES = [
   },
 ];
 
+// Manifest self-test: the strict set entry must reject unknown fields
+// (the ai_validation-in-set-entry class); free-form metadata must pass.
+const MANIFEST_SELF_TEST = () => {
+  const base = {
+    schema_version: "1.0",
+    name: "Self test",
+    sets: [
+      {
+        id: "self-test",
+        title: "Self test",
+        target_language: "de",
+        source_language: "en",
+        level: "A1",
+        path: "sets/en/de-a1",
+        version: "1.0.0",
+        lesson_count: 1,
+      },
+    ],
+    metadata: { free_form: true },
+  };
+  const good = validateManifest(base);
+  const bad = structuredClone(base);
+  bad.sets[0].totally_unknown_field = true;
+  const rejected = validateManifest(bad);
+  return { good, rejected };
+};
+
 function selfTest() {
   const sane = validateLesson(baseLesson());
   if (!sane.valid) {
@@ -138,8 +186,19 @@ function selfTest() {
       console.log(`self-test OK: ${testCase.name}`);
     }
   }
+  const { good, rejected } = MANIFEST_SELF_TEST();
+  if (!good.valid) {
+    failures++;
+    console.error("SELF-TEST BROKEN: the base manifest must be valid:");
+    for (const issue of good.errors) console.error(`   ${issue.path}: ${issue.message}`);
+  } else if (rejected.valid) {
+    failures++;
+    console.error("SELF-TEST FAIL: engine did not flag: unknown field in strict manifest set entry");
+  } else {
+    console.log("self-test OK: unknown field in strict manifest set entry");
+  }
   if (failures) return 1;
-  console.log(`\nSelf-test passed: the gate rejects all ${SELF_TEST_CASES.length} bad-lesson classes.`);
+  console.log(`\nSelf-test passed: the gate rejects all ${SELF_TEST_CASES.length + 1} bad-input classes.`);
   return 0;
 }
 
@@ -162,7 +221,27 @@ function validateAll() {
       for (const issue of result.errors) console.error(`   ${issue.path}: ${issue.message}`);
     }
   }
-  console.log(`\n${files.length} lesson(s) checked with the engine validator, ${invalid} invalid.`);
+  const manifests = collectManifestFiles();
+  for (const file of manifests) {
+    let doc;
+    try {
+      doc = parseYaml(readFileSync(file, "utf8"));
+    } catch (error) {
+      invalid++;
+      console.error(`PARSE ERROR ${file}: ${error.message}`);
+      continue;
+    }
+    const result = validateManifest(doc);
+    if (!result.valid) {
+      invalid++;
+      console.error(`INVALID ${file.slice(repoRoot.length)}`);
+      for (const issue of result.errors) console.error(`   ${issue.path}: ${issue.message}`);
+    }
+  }
+  console.log(
+    `\n${files.length} lesson(s) + ${manifests.length} manifest(s) checked ` +
+      `with the engine validator, ${invalid} invalid.`,
+  );
   return invalid ? 1 : 0;
 }
 

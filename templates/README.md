@@ -57,9 +57,8 @@ There is **no** `multiple_choice` exercise type (deliberate — see
 image selection with real, existing image assets; for text options it renders
 placeholder tiles, not a usable control — that was the bug in
 [`adaptive-learner-content-test#10`](https://github.com/astrapi69/adaptive-learner-content-test/issues/10).
-Full authoring reference: the app's
-[`authoring-content.md`](https://github.com/astrapi69/adaptive-learner/blob/develop/docs/help/en/developer/authoring-content.md)
-(§ Multiple Choice authoring).
+Full format reference with a tested example per exercise type:
+[`learn-content-engine/docs/lesson-format.md`](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md).
 
 ## Domain differences at a glance
 

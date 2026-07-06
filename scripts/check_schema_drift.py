@@ -56,6 +56,9 @@ REGISTRY_BASE = "https://registry.npmjs.org/learn-content-engine/-"
 # this repo (see schema/README.md) and are deliberately NOT listed here.
 MIRRORED = {
     "schema/lesson.schema.json": "package/schema/lesson.schema.json",
+    "schema/content-manifest.schema.json": (
+        "package/schema/content-manifest.schema.json"
+    ),
 }
 
 
