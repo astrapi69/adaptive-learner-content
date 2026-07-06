@@ -227,5 +227,5 @@ Unter folgenden Bedingungen:
 - [Adaptive Learner App](https://astrapi69.github.io/adaptive-learner/) - Die Lern-App
 - [Adaptive Learner Repo](https://github.com/astrapi69/adaptive-learner) - App Source Code
 - [docker-app-launcher](https://github.com/astrapi69/docker-app-launcher) - Desktop Launcher
-- [Content-Format Docs](https://github.com/astrapi69/adaptive-learner/blob/develop/docs/content-format.md) - Technische Dokumentation
+- [Lesson-Format-Referenz](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md) - Technische Format-Dokumentation (learn-content-engine; Schema-Spiegel siehe [schema/README.md](schema/README.md))
 - [CONTRIBUTING.md](CONTRIBUTING.md) - Mitmachen und Inhalte beitragen

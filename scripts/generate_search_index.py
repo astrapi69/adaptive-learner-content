@@ -19,7 +19,9 @@ Per set the index records:
   * lesson_count: lessons actually listed in the set manifest
   * card_count: exact sum of ``cards[]`` over every lesson
   * tags: from the manifest, else []
-  * ai_validated: true when the set carries an ``ai_validation`` block
+  * ai_validated: true when the set manifest carries an ``ai_validation``
+    block under its free-form ``metadata`` (set-entry fallback for older
+    manifests — the canonical manifest schema keeps set entries strict)
   * trust_level: this repo's level from recommended-repos.json, else 1
   * book: the set's ``book`` block, else null
   * updated_at: ``git log -1 --format=%cI`` for the set directory
@@ -164,7 +166,14 @@ def build_set_entry(
         "lesson_count": len(lessons),
         "card_count": card_count,
         "tags": list(set_entry.get("tags") or []),
-        "ai_validated": bool(set_entry.get("ai_validation")),
+        # ai_validation is repo-local provenance; the canonical (engine)
+        # manifest schema keeps set entries strict, so the block lives in
+        # the set manifest's free-form metadata (set-entry read kept as a
+        # fallback for older manifests).
+        "ai_validated": bool(
+            (set_manifest.get("metadata") or {}).get("ai_validation")
+            or set_entry.get("ai_validation")
+        ),
         "trust_level": trust_level,
         "book": set_entry.get("book"),
         "updated_at": updated_at,
