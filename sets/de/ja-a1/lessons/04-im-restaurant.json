@@ -210,13 +210,13 @@
         "prompt": "Welches Wort bedeutet '(grüner) Tee'?",
         "card_ids": ["ocha"],
         "images": [
-          {"src": "assets/img/ocha.png", "label": "お茶", "is_correct": "true"},
-          {"src": "assets/img/mizu.png", "label": "水"},
-          {"src": "assets/img/raamen.png", "label": "ラーメン"},
-          {"src": "assets/img/menyuu.png", "label": "メニュー"}
+          {"src": "assets/img/ocha.png", "label": "お茶 (ocha)", "is_correct": "true"},
+          {"src": "assets/img/mizu.png", "label": "水 (mizu)"},
+          {"src": "assets/img/raamen.png", "label": "ラーメン (raamen)"},
+          {"src": "assets/img/menyuu.png", "label": "メニュー (menyuu)"}
         ],
         "hint": "Romaji: ocha.",
-        "distractors": ["水", "ラーメン", "メニュー"],
+        "distractors": ["水 (mizu)", "ラーメン (raamen)", "メニュー (menyuu)"],
         "direction": "target_to_source"
       }
     }

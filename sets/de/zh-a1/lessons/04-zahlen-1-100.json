@@ -221,13 +221,13 @@
         "prompt": "Welches Zeichen bedeutet 'vier' (4)?",
         "card_ids": ["zahl-si"],
         "images": [
-          {"src": "assets/img/si4.png", "label": "四", "is_correct": "true"},
-          {"src": "assets/img/shi10.png", "label": "十"},
-          {"src": "assets/img/liu6.png", "label": "六"},
-          {"src": "assets/img/qi7.png", "label": "七"}
+          {"src": "assets/img/si4.png", "label": "四 (sì)", "is_correct": "true"},
+          {"src": "assets/img/shi10.png", "label": "十 (shí)"},
+          {"src": "assets/img/liu6.png", "label": "六 (liù)"},
+          {"src": "assets/img/qi7.png", "label": "七 (qī)"}
         ],
         "hint": "sì, 4. Ton (fallend).",
-        "distractors": ["十", "六", "七"],
+        "distractors": ["十 (shí)", "六 (liù)", "七 (qī)"],
         "direction": "target_to_source"
       }
     }

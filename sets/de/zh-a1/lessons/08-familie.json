@@ -146,7 +146,7 @@
         "type": "free_text",
         "prompt": "Wie sagt man 'Mama / Mutter' (Hanzi oder Pinyin)?",
         "card_ids": ["mama"],
-        "accept": ["妈妈", "māma", "mama", "mā ma"],
+        "accept": ["妈妈", "māma", "mama", "mā ma", "ma ma"],
         "hint": "Verdoppelte Silbe, zweites Zeichen neutral.",
         "distractors": ["爸爸", "姐姐", "奶奶"],
         "direction": "source_to_target"
@@ -193,7 +193,7 @@
         "type": "free_text",
         "prompt": "Wie sagt man 'älterer Bruder' (Hanzi oder Pinyin)?",
         "card_ids": ["gege"],
-        "accept": ["哥哥", "gēge", "gege", "gē ge"],
+        "accept": ["哥哥", "gēge", "gege", "gē ge", "ge ge"],
         "hint": "Nicht der kleine Bruder (弟弟).",
         "distractors": ["弟弟", "姐姐", "爸爸"],
         "direction": "source_to_target"
@@ -210,13 +210,13 @@
         "prompt": "Welches Wort bedeutet 'Papa / Vater'?",
         "card_ids": ["baba"],
         "images": [
-          {"src": "assets/img/baba.png", "label": "爸爸", "is_correct": "true"},
-          {"src": "assets/img/mama.png", "label": "妈妈"},
-          {"src": "assets/img/gege.png", "label": "哥哥"},
-          {"src": "assets/img/yeye.png", "label": "爷爷"}
+          {"src": "assets/img/baba.png", "label": "爸爸 (bàba)", "is_correct": "true"},
+          {"src": "assets/img/mama.png", "label": "妈妈 (māma)"},
+          {"src": "assets/img/gege.png", "label": "哥哥 (gēge)"},
+          {"src": "assets/img/yeye.png", "label": "爷爷 (yéye)"}
         ],
         "hint": "bàba.",
-        "distractors": ["妈妈", "哥哥", "爷爷"],
+        "distractors": ["妈妈 (māma)", "哥哥 (gēge)", "爷爷 (yéye)"],
         "direction": "target_to_source"
       }
     }

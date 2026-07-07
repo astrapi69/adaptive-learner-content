@@ -214,13 +214,13 @@
         "prompt": "Welches Wort bedeutet '(mein) Vater' (bescheidene Form)?",
         "card_ids": ["chichi"],
         "images": [
-          {"src": "assets/img/chichi.png", "label": "父", "is_correct": "true"},
-          {"src": "assets/img/haha.png", "label": "母"},
-          {"src": "assets/img/ani.png", "label": "兄"},
-          {"src": "assets/img/ane.png", "label": "姉"}
+          {"src": "assets/img/chichi.png", "label": "父 (chichi)", "is_correct": "true"},
+          {"src": "assets/img/haha.png", "label": "母 (haha)"},
+          {"src": "assets/img/ani.png", "label": "兄 (ani)"},
+          {"src": "assets/img/ane.png", "label": "姉 (ane)"}
         ],
         "hint": "Romaji: chichi.",
-        "distractors": ["母", "兄", "姉"],
+        "distractors": ["母 (haha)", "兄 (ani)", "姉 (ane)"],
         "direction": "target_to_source"
       }
     }

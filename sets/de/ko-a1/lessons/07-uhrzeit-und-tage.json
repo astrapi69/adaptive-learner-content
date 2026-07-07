@@ -210,13 +210,13 @@
         "prompt": "Welcher Tag ist 'Samstag'?",
         "card_ids": ["toyoil"],
         "images": [
-          {"src": "assets/img/toyoil.png", "label": "토요일", "is_correct": "true"},
-          {"src": "assets/img/woryoil.png", "label": "월요일"},
-          {"src": "assets/img/mogyoil.png", "label": "목요일"},
-          {"src": "assets/img/iryoil.png", "label": "일요일"}
+          {"src": "assets/img/toyoil.png", "label": "토요일 (toyoil)", "is_correct": "true"},
+          {"src": "assets/img/woryoil.png", "label": "월요일 (woryoil)"},
+          {"src": "assets/img/mogyoil.png", "label": "목요일 (mogyoil)"},
+          {"src": "assets/img/iryoil.png", "label": "일요일 (iryoil)"}
         ],
         "hint": "Beginnt mit 토.",
-        "distractors": ["월요일", "목요일", "일요일"],
+        "distractors": ["월요일 (woryoil)", "목요일 (mogyoil)", "일요일 (iryoil)"],
         "direction": "target_to_source"
       }
     }

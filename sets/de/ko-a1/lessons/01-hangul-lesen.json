@@ -214,7 +214,7 @@
         "prompt": "Ergänze die Silbe, die aus ㄱ + ㅏ entsteht.",
         "card_ids": ["konsonant-g", "vokal-a"],
         "sentence": "ㄱ + ㅏ = ___",
-        "blanks": [{"accept": ["가"]}],
+        "blanks": [{"accept": ["가", "ga"]}],
         "cloze_mode": "type",
         "hint": "Romanisiert 'ga'."
       }

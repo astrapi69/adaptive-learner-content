@@ -162,7 +162,7 @@
         "type": "free_text",
         "prompt": "Wie sagt man 'eine Person' (Hanzi oder Pinyin)?",
         "card_ids": ["yi-ge-ren"],
-        "accept": ["一个人", "yí gè rén", "yi ge ren", "yígèrén"],
+        "accept": ["一个人", "yí gè rén", "yi ge ren", "yígèrén", "yigeren"],
         "hint": "Zahl + 个 + 人. 一 wird hier zu yí.",
         "distractors": ["一本书", "两个人", "一杯茶"],
         "direction": "source_to_target"
@@ -210,13 +210,13 @@
         "prompt": "Welches Zählwort benutzt man für Bücher?",
         "card_ids": ["ben"],
         "images": [
-          {"src": "assets/img/ben.png", "label": "本", "is_correct": "true"},
-          {"src": "assets/img/zhang.png", "label": "张"},
-          {"src": "assets/img/bei.png", "label": "杯"},
-          {"src": "assets/img/ge.png", "label": "个"}
+          {"src": "assets/img/ben.png", "label": "本 (běn)", "is_correct": "true"},
+          {"src": "assets/img/zhang.png", "label": "张 (zhāng)"},
+          {"src": "assets/img/bei.png", "label": "杯 (bēi)"},
+          {"src": "assets/img/ge.png", "label": "个 (gè)"}
         ],
         "hint": "běn — für gebundene Druckwerke.",
-        "distractors": ["张", "杯", "个"],
+        "distractors": ["张 (zhāng)", "杯 (bēi)", "个 (gè)"],
         "direction": "target_to_source"
       }
     }

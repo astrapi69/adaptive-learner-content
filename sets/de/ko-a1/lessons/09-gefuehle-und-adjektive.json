@@ -206,13 +206,13 @@
         "prompt": "Welches Wort bedeutet 'glücklich sein'?",
         "card_ids": ["haengbokada"],
         "images": [
-          {"src": "assets/img/haengbokada.png", "label": "행복하다", "is_correct": "true"},
-          {"src": "assets/img/seulpeuda.png", "label": "슬프다"},
-          {"src": "assets/img/nappeuda.png", "label": "나쁘다"},
-          {"src": "assets/img/chupda.png", "label": "춥다"}
+          {"src": "assets/img/haengbokada.png", "label": "행복하다 (haengbokada)", "is_correct": "true"},
+          {"src": "assets/img/seulpeuda.png", "label": "슬프다 (seulpeuda)"},
+          {"src": "assets/img/nappeuda.png", "label": "나쁘다 (nappeuda)"},
+          {"src": "assets/img/chupda.png", "label": "춥다 (chupda)"}
         ],
         "hint": "Das positivste Gefühl.",
-        "distractors": ["슬프다", "나쁘다", "춥다"],
+        "distractors": ["슬프다 (seulpeuda)", "나쁘다 (nappeuda)", "춥다 (chupda)"],
         "direction": "target_to_source"
       }
     }

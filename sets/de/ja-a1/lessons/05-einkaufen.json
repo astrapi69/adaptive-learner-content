@@ -210,13 +210,13 @@
         "prompt": "Welches Wort bedeutet 'Tasche'?",
         "card_ids": ["kaban"],
         "images": [
-          {"src": "assets/img/kaban.png", "label": "かばん", "is_correct": "true"},
-          {"src": "assets/img/en.png", "label": "円"},
-          {"src": "assets/img/kore.png", "label": "これ"},
-          {"src": "assets/img/takai.png", "label": "高い"}
+          {"src": "assets/img/kaban.png", "label": "かばん (kaban)", "is_correct": "true"},
+          {"src": "assets/img/en.png", "label": "円 (en)"},
+          {"src": "assets/img/kore.png", "label": "これ (kore)"},
+          {"src": "assets/img/takai.png", "label": "高い (takai)"}
         ],
         "hint": "Romaji: kaban.",
-        "distractors": ["円", "これ", "高い"],
+        "distractors": ["円 (en)", "これ (kore)", "高い (takai)"],
         "direction": "target_to_source"
       }
     }

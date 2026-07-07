@@ -146,7 +146,7 @@
         "type": "free_text",
         "prompt": "Wie sagt man 'Guten Tag / Hallo' auf Japanisch?",
         "card_ids": ["konnichiwa"],
-        "accept": ["こんにちは", "konnichiwa"],
+        "accept": ["こんにちは", "konnichiwa", "konnitiwa"],
         "hint": "Endet auf は (wa).",
         "distractors": ["こんばんは", "さようなら", "おやすみなさい"],
         "direction": "source_to_target"
@@ -210,13 +210,13 @@
         "prompt": "Welches Wort bedeutet 'Auf Wiedersehen'?",
         "card_ids": ["sayounara"],
         "images": [
-          {"src": "assets/img/sayounara.png", "label": "さようなら", "is_correct": "true"},
-          {"src": "assets/img/konnichiwa.png", "label": "こんにちは"},
-          {"src": "assets/img/konbanwa.png", "label": "こんばんは"},
-          {"src": "assets/img/hai.png", "label": "はい"}
+          {"src": "assets/img/sayounara.png", "label": "さようなら (sayounara)", "is_correct": "true"},
+          {"src": "assets/img/konnichiwa.png", "label": "こんにちは (konnichiwa)"},
+          {"src": "assets/img/konbanwa.png", "label": "こんばんは (konbanwa)"},
+          {"src": "assets/img/hai.png", "label": "はい (hai)"}
         ],
         "hint": "Man sagt es zum Abschied.",
-        "distractors": ["こんにちは", "こんばんは", "はい"],
+        "distractors": ["こんにちは (konnichiwa)", "こんばんは (konbanwa)", "はい (hai)"],
         "direction": "target_to_source"
       }
     }

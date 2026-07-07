@@ -193,7 +193,7 @@
         "type": "free_text",
         "prompt": "Wie sagt man 'morgen' (der Tag danach; Hanzi oder Pinyin)?",
         "card_ids": ["mingtian"],
-        "accept": ["明天", "míngtiān", "mingtian", "míng tiān"],
+        "accept": ["明天", "míngtiān", "mingtian", "míng tiān", "ming tian"],
         "hint": "明 (hell) + 天 (Tag).",
         "distractors": ["今天", "昨天", "现在"],
         "direction": "source_to_target"
@@ -210,13 +210,13 @@
         "prompt": "Welches Wort bedeutet 'heute'?",
         "card_ids": ["jintian"],
         "images": [
-          {"src": "assets/img/jintian.png", "label": "今天", "is_correct": "true"},
-          {"src": "assets/img/mingtian.png", "label": "明天"},
-          {"src": "assets/img/zuotian.png", "label": "昨天"},
-          {"src": "assets/img/xianzai.png", "label": "现在"}
+          {"src": "assets/img/jintian.png", "label": "今天 (jīntiān)", "is_correct": "true"},
+          {"src": "assets/img/mingtian.png", "label": "明天 (míngtiān)"},
+          {"src": "assets/img/zuotian.png", "label": "昨天 (zuótiān)"},
+          {"src": "assets/img/xianzai.png", "label": "现在 (xiànzài)"}
         ],
         "hint": "jīntiān.",
-        "distractors": ["明天", "昨天", "现在"],
+        "distractors": ["明天 (míngtiān)", "昨天 (zuótiān)", "现在 (xiànzài)"],
         "direction": "target_to_source"
       }
     }

@@ -146,7 +146,7 @@
         "type": "free_text",
         "prompt": "Wie beginnt man 'Ich heiße ...' auf Chinesisch (Hanzi oder Pinyin)?",
         "card_ids": ["wo-jiao"],
-        "accept": ["我叫", "wǒ jiào", "wo jiao", "wǒjiào"],
+        "accept": ["我叫", "wǒ jiào", "wo jiao", "wǒjiào", "wojiao"],
         "hint": "我 (ich) + 叫 (heißen).",
         "distractors": ["我是", "你呢", "名字"],
         "direction": "source_to_target"
@@ -210,13 +210,13 @@
         "prompt": "Welches Wort bedeutet 'Chinese / Chinesin'?",
         "card_ids": ["zhongguoren"],
         "images": [
-          {"src": "assets/img/zhongguoren.png", "label": "中国人", "is_correct": "true"},
-          {"src": "assets/img/deguoren.png", "label": "德国人"},
-          {"src": "assets/img/mingzi.png", "label": "名字"},
-          {"src": "assets/img/laoshi.png", "label": "老师"}
+          {"src": "assets/img/zhongguoren.png", "label": "中国人 (Zhōngguórén)", "is_correct": "true"},
+          {"src": "assets/img/deguoren.png", "label": "德国人 (Déguórén)"},
+          {"src": "assets/img/mingzi.png", "label": "名字 (míngzi)"},
+          {"src": "assets/img/laoshi.png", "label": "老师 (lǎoshī)"}
         ],
         "hint": "中国 = China, 人 = Mensch.",
-        "distractors": ["德国人", "名字", "老师"],
+        "distractors": ["德国人 (Déguórén)", "名字 (míngzi)", "老师 (lǎoshī)"],
         "direction": "target_to_source"
       }
     }
