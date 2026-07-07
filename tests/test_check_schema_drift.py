@@ -34,19 +34,31 @@ import check_schema_drift as drift  # noqa: E402
 
 SCHEMA_BYTES = json.dumps({"title": "Lesson", "x-schema-version": "9.9"}).encode()
 MANIFEST_BYTES = json.dumps({"title": "ContentManifest"}).encode()
+QUALITY_BYTES = json.dumps({"rules": {"minExercisesPerLesson": 5}}).encode()
 
 
 def make_tarball(path: Path, schema_bytes: bytes = SCHEMA_BYTES) -> Path:
-    """Write an npm-layout tarball with both mirrored schema members."""
+    """Write an npm-layout tarball with all mirrored schema members."""
     with tarfile.open(path, "w:gz") as tar:
         for member, data in (
             ("package/schema/lesson.schema.json", schema_bytes),
             ("package/schema/content-manifest.schema.json", MANIFEST_BYTES),
+            ("package/schema/quality-rules.json", QUALITY_BYTES),
         ):
             info = tarfile.TarInfo(member)
             info.size = len(data)
             tar.addfile(info, io.BytesIO(data))
     return path
+
+
+def write_full_mirror(mirror_root: Path) -> None:
+    """Write a byte-identical mirror of every tarball member."""
+    (mirror_root / "schema").mkdir(parents=True)
+    (mirror_root / "schema" / "lesson.schema.json").write_bytes(SCHEMA_BYTES)
+    (mirror_root / "schema" / "content-manifest.schema.json").write_bytes(
+        MANIFEST_BYTES
+    )
+    (mirror_root / "schema" / "quality-rules.json").write_bytes(QUALITY_BYTES)
 
 
 def test_pin_is_read_from_version_file(tmp_path: Path) -> None:
@@ -73,11 +85,7 @@ def test_repo_pin_matches_declared_mirror_header() -> None:
 def test_identical_mirror_passes(tmp_path: Path) -> None:
     tarball = make_tarball(tmp_path / "engine.tgz")
     mirror_root = tmp_path / "repo"
-    (mirror_root / "schema").mkdir(parents=True)
-    (mirror_root / "schema" / "lesson.schema.json").write_bytes(SCHEMA_BYTES)
-    (mirror_root / "schema" / "content-manifest.schema.json").write_bytes(
-        MANIFEST_BYTES
-    )
+    write_full_mirror(mirror_root)
     rc = drift.run_check(tarball_source=str(tarball), repo_root=mirror_root)
     assert rc == 0
 
@@ -85,12 +93,21 @@ def test_identical_mirror_passes(tmp_path: Path) -> None:
 def test_manipulated_mirror_is_drift(tmp_path: Path) -> None:
     tarball = make_tarball(tmp_path / "engine.tgz")
     mirror_root = tmp_path / "repo"
-    (mirror_root / "schema").mkdir(parents=True)
+    write_full_mirror(mirror_root)
     (mirror_root / "schema" / "lesson.schema.json").write_bytes(
         SCHEMA_BYTES + b"\n// tampered"
     )
-    (mirror_root / "schema" / "content-manifest.schema.json").write_bytes(
-        MANIFEST_BYTES
+    rc = drift.run_check(tarball_source=str(tarball), repo_root=mirror_root)
+    assert rc == 1
+
+
+def test_tampered_quality_rules_is_drift(tmp_path: Path) -> None:
+    """quality-rules.json is engine-mirrored (0.4.0+): tampering trips the gate."""
+    tarball = make_tarball(tmp_path / "engine.tgz")
+    mirror_root = tmp_path / "repo"
+    write_full_mirror(mirror_root)
+    (mirror_root / "schema" / "quality-rules.json").write_bytes(
+        QUALITY_BYTES + b"\n// tampered"
     )
     rc = drift.run_check(tarball_source=str(tarball), repo_root=mirror_root)
     assert rc == 1
@@ -110,6 +127,7 @@ def test_update_rewrites_mirror_from_tarball(tmp_path: Path) -> None:
     (mirror_root / "schema").mkdir(parents=True)
     (mirror_root / "schema" / "lesson.schema.json").write_bytes(b"stale")
     (mirror_root / "schema" / "content-manifest.schema.json").write_bytes(b"stale")
+    (mirror_root / "schema" / "quality-rules.json").write_bytes(b"stale")
     rc = drift.run_check(
         tarball_source=str(tarball), repo_root=mirror_root, update=True
     )
@@ -120,6 +138,8 @@ def test_update_rewrites_mirror_from_tarball(tmp_path: Path) -> None:
         mirror_root / "schema" / "content-manifest.schema.json"
     ).read_bytes()
     assert got_manifest == MANIFEST_BYTES
+    got_quality = (mirror_root / "schema" / "quality-rules.json").read_bytes()
+    assert got_quality == QUALITY_BYTES
 
 
 def test_repo_mirror_matches_pinned_engine_tarball_when_cached() -> None:

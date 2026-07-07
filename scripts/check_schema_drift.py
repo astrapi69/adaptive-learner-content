@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Schema-mirror drift gate — pinned to the learn-content-engine release.
 
-The JSON Schema under ``schema/lesson.schema.json`` is a MIRROR of the
+The format artefacts under ``schema/`` (``lesson.schema.json``,
+``content-manifest.schema.json`` and — since engine 0.4.0 —
+``quality-rules.json``) are a MIRROR of the
 `learn-content-engine <https://github.com/astrapi69/learn-content-engine>`_
 package (source-of-truth chain: **adaptive-learner Pydantic -> engine ->
-this mirror**). The engine vendors the app-generated schema via its
-documented schema-sync procedure and ships it in every npm release; this
+this mirror**). The engine vendors the app-generated artefacts via its
+documented schema-sync procedure and ships them in every npm release; this
 repo keeps a byte-for-byte copy plus this gate so an engine schema bump
 has a visible consequence here (CI goes red until the mirror + pin are
 refreshed) instead of silently drifting apart.
@@ -52,13 +54,14 @@ REGISTRY_BASE = "https://registry.npmjs.org/learn-content-engine/-"
 
 # Local mirror path (relative to the repo root) -> member path inside the
 # engine npm tarball. Only the engine-shipped artifacts are drift-checked;
-# ``schema/quality-rules.json`` and the shape-parity fixture are owned by
-# this repo (see schema/README.md) and are deliberately NOT listed here.
+# the shape-parity fixture is owned by this repo (see schema/README.md)
+# and is deliberately NOT listed here.
 MIRRORED = {
     "schema/lesson.schema.json": "package/schema/lesson.schema.json",
     "schema/content-manifest.schema.json": (
         "package/schema/content-manifest.schema.json"
     ),
+    "schema/quality-rules.json": "package/schema/quality-rules.json",
 }
 
 
