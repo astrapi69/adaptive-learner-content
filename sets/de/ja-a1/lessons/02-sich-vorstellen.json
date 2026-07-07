@@ -162,7 +162,7 @@
         "type": "free_text",
         "prompt": "Wie sagt man beim ersten Treffen 'Angenehm'?",
         "card_ids": ["hajimemashite"],
-        "accept": ["はじめまして", "hajimemashite"],
+        "accept": ["はじめまして", "hajimemashite", "hazimemasite"],
         "hint": "Beginnt mit はじ.",
         "distractors": ["どうぞよろしく", "お名前は", "さようなら"],
         "direction": "source_to_target"
@@ -178,7 +178,7 @@
         "type": "free_text",
         "prompt": "Wie heißt 'Deutsche(r)' (Person aus Deutschland) auf Japanisch?",
         "card_ids": ["doitsujin"],
-        "accept": ["ドイツ人", "doitsujin"],
+        "accept": ["ドイツ人", "doitsujin", "doituzin"],
         "hint": "ドイツ + 人 (jin).",
         "distractors": ["ドイツ", "名前", "わたし"],
         "direction": "source_to_target"
@@ -210,13 +210,13 @@
         "prompt": "Welches Wort bedeutet 'Name'?",
         "card_ids": ["namae"],
         "images": [
-          {"src": "assets/img/namae.png", "label": "名前", "is_correct": "true"},
-          {"src": "assets/img/watashi.png", "label": "わたし"},
-          {"src": "assets/img/doitsu.png", "label": "ドイツ"},
-          {"src": "assets/img/desu.png", "label": "です"}
+          {"src": "assets/img/namae.png", "label": "名前 (namae)", "is_correct": "true"},
+          {"src": "assets/img/watashi.png", "label": "わたし (watashi)"},
+          {"src": "assets/img/doitsu.png", "label": "ドイツ (doitsu)"},
+          {"src": "assets/img/desu.png", "label": "です (desu)"}
         ],
         "hint": "Romaji: namae.",
-        "distractors": ["わたし", "ドイツ", "です"],
+        "distractors": ["わたし (watashi)", "ドイツ (doitsu)", "です (desu)"],
         "direction": "target_to_source"
       }
     }

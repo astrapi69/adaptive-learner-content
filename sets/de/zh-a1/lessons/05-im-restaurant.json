@@ -146,7 +146,7 @@
         "type": "free_text",
         "prompt": "Wie beginnt man 'Ich möchte ...' beim Bestellen (Hanzi oder Pinyin)?",
         "card_ids": ["wo-yao"],
-        "accept": ["我要", "wǒ yào", "wo yao", "wǒyào"],
+        "accept": ["我要", "wǒ yào", "wo yao", "wǒyào", "woyao"],
         "hint": "我 (ich) + 要 (wollen/möchten).",
         "distractors": ["买单", "好吃", "菜单"],
         "direction": "source_to_target"
@@ -210,13 +210,13 @@
         "prompt": "Welches Zeichen bedeutet 'Tee'?",
         "card_ids": ["cha"],
         "images": [
-          {"src": "assets/img/cha.png", "label": "茶", "is_correct": "true"},
-          {"src": "assets/img/shui.png", "label": "水"},
-          {"src": "assets/img/mifan.png", "label": "米饭"},
-          {"src": "assets/img/cai.png", "label": "菜"}
+          {"src": "assets/img/cha.png", "label": "茶 (chá)", "is_correct": "true"},
+          {"src": "assets/img/shui.png", "label": "水 (shuǐ)"},
+          {"src": "assets/img/mifan.png", "label": "米饭 (mǐfàn)"},
+          {"src": "assets/img/cai.png", "label": "菜 (cài)"}
         ],
         "hint": "chá, 2. Ton.",
-        "distractors": ["水", "米饭", "菜"],
+        "distractors": ["水 (shuǐ)", "米饭 (mǐfàn)", "菜 (cài)"],
         "direction": "target_to_source"
       }
     }

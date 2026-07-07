@@ -165,7 +165,7 @@
         "type": "free_text",
         "prompt": "Wie heißt 'klein' auf Japanisch?",
         "card_ids": ["chiisai"],
-        "accept": ["小さい", "chiisai", "ちいさい"],
+        "accept": ["小さい", "chiisai", "ちいさい", "tiisai"],
         "hint": "Gegenteil von 大きい (groß).",
         "distractors": ["大きい", "新しい", "古い"],
         "direction": "source_to_target"
@@ -181,7 +181,7 @@
         "type": "free_text",
         "prompt": "Wie heißt 'heiß' (Wetter) auf Japanisch?",
         "card_ids": ["atsui"],
-        "accept": ["暑い", "atsui", "あつい"],
+        "accept": ["暑い", "atsui", "あつい", "atui"],
         "hint": "Romaji: atsui.",
         "distractors": ["寒い", "高い", "いい"],
         "direction": "source_to_target"
@@ -214,13 +214,13 @@
         "prompt": "Welches Wort bedeutet 'kalt' (Wetter)?",
         "card_ids": ["samui"],
         "images": [
-          {"src": "assets/img/samui.png", "label": "寒い", "is_correct": "true"},
-          {"src": "assets/img/atsui.png", "label": "暑い"},
-          {"src": "assets/img/ookii.png", "label": "大きい"},
-          {"src": "assets/img/ii.png", "label": "いい"}
+          {"src": "assets/img/samui.png", "label": "寒い (samui)", "is_correct": "true"},
+          {"src": "assets/img/atsui.png", "label": "暑い (atsui)"},
+          {"src": "assets/img/ookii.png", "label": "大きい (ookii)"},
+          {"src": "assets/img/ii.png", "label": "いい (ii)"}
         ],
         "hint": "Gegenteil von 暑い (heiß).",
-        "distractors": ["暑い", "大きい", "いい"],
+        "distractors": ["暑い (atsui)", "大きい (ookii)", "いい (ii)"],
         "direction": "target_to_source"
       }
     }

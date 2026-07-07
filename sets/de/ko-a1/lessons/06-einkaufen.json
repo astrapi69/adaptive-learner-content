@@ -210,13 +210,13 @@
         "prompt": "Welches Wort bedeutet 'Es ist billig'?",
         "card_ids": ["ssayo"],
         "images": [
-          {"src": "assets/img/ssayo.png", "label": "싸요", "is_correct": "true"},
-          {"src": "assets/img/bissayo.png", "label": "비싸요"},
-          {"src": "assets/img/eopseoyo.png", "label": "없어요"},
-          {"src": "assets/img/won.png", "label": "원"}
+          {"src": "assets/img/ssayo.png", "label": "싸요 (ssayo)", "is_correct": "true"},
+          {"src": "assets/img/bissayo.png", "label": "비싸요 (bissayo)"},
+          {"src": "assets/img/eopseoyo.png", "label": "없어요 (eopseoyo)"},
+          {"src": "assets/img/won.png", "label": "원 (won)"}
         ],
         "hint": "Gegenteil von teuer.",
-        "distractors": ["비싸요", "없어요", "원"],
+        "distractors": ["비싸요 (bissayo)", "없어요 (eopseoyo)", "원 (won)"],
         "direction": "target_to_source"
       }
     }

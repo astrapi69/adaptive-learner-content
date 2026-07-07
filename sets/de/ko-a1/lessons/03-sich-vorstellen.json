@@ -210,13 +210,13 @@
         "prompt": "Welcher Satz bedeutet 'Ich komme aus Deutschland'?",
         "card_ids": ["dogireseo-wasseoyo"],
         "images": [
-          {"src": "assets/img/dogireseo.png", "label": "독일에서 왔어요", "is_correct": "true"},
-          {"src": "assets/img/ireum.png", "label": "이름이 뭐예요?"},
-          {"src": "assets/img/haksaeng.png", "label": "저는 학생이에요"},
-          {"src": "assets/img/bangapseumnida.png", "label": "만나서 반갑습니다"}
+          {"src": "assets/img/dogireseo.png", "label": "독일에서 왔어요 (dogireseo wasseoyo)", "is_correct": "true"},
+          {"src": "assets/img/ireum.png", "label": "이름이 뭐예요? (ireumi mwoyeyo?)"},
+          {"src": "assets/img/haksaeng.png", "label": "저는 학생이에요 (jeoneun haksaengieyo)"},
+          {"src": "assets/img/bangapseumnida.png", "label": "만나서 반갑습니다 (mannaseo bangapseumnida)"}
         ],
         "hint": "독일 = Deutschland.",
-        "distractors": ["이름이 뭐예요?", "저는 학생이에요", "만나서 반갑습니다"],
+        "distractors": ["이름이 뭐예요? (ireumi mwoyeyo?)", "저는 학생이에요 (jeoneun haksaengieyo)", "만나서 반갑습니다 (mannaseo bangapseumnida)"],
         "direction": "target_to_source"
       }
     }

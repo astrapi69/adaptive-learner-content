@@ -210,13 +210,13 @@
         "prompt": "Welcher Satz bedeutet 'Ich habe Hunger'?",
         "card_ids": ["baegopayo"],
         "images": [
-          {"src": "assets/img/baegopayo.png", "label": "배고파요", "is_correct": "true"},
-          {"src": "assets/img/masisseoyo.png", "label": "맛있어요"},
-          {"src": "assets/img/mul.png", "label": "물 주세요"},
-          {"src": "assets/img/gyesanseo.png", "label": "계산서 주세요"}
+          {"src": "assets/img/baegopayo.png", "label": "배고파요 (baegopayo)", "is_correct": "true"},
+          {"src": "assets/img/masisseoyo.png", "label": "맛있어요 (masisseoyo)"},
+          {"src": "assets/img/mul.png", "label": "물 주세요 (mul juseyo)"},
+          {"src": "assets/img/gyesanseo.png", "label": "계산서 주세요 (gyesanseo juseyo)"}
         ],
         "hint": "Ein Gefühl, kein Bestellsatz.",
-        "distractors": ["맛있어요", "물 주세요", "계산서 주세요"],
+        "distractors": ["맛있어요 (masisseoyo)", "물 주세요 (mul juseyo)", "계산서 주세요 (gyesanseo juseyo)"],
         "direction": "target_to_source"
       }
     }

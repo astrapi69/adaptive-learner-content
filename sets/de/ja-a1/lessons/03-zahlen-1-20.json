@@ -187,7 +187,7 @@
         "prompt": "Ergänze den Einer, sodass 11 entsteht (10 + ?).",
         "card_ids": ["juuichi", "ichi"],
         "sentence": "十___ = 11",
-        "blanks": [{"accept": ["一", "ichi"]}],
+        "blanks": [{"accept": ["一", "ichi", "iti"]}],
         "cloze_mode": "type",
         "hint": "10 + 1 = 11."
       }
@@ -218,13 +218,13 @@
         "prompt": "Welches Kanji bedeutet 'fünf' (5)?",
         "card_ids": ["go"],
         "images": [
-          {"src": "assets/img/go.png", "label": "五", "is_correct": "true"},
-          {"src": "assets/img/san.png", "label": "三"},
-          {"src": "assets/img/hachi.png", "label": "八"},
-          {"src": "assets/img/juu.png", "label": "十"}
+          {"src": "assets/img/go.png", "label": "五 (go)", "is_correct": "true"},
+          {"src": "assets/img/san.png", "label": "三 (san)"},
+          {"src": "assets/img/hachi.png", "label": "八 (hachi)"},
+          {"src": "assets/img/juu.png", "label": "十 (juu)"}
         ],
         "hint": "Romaji: go.",
-        "distractors": ["三", "八", "十"],
+        "distractors": ["三 (san)", "八 (hachi)", "十 (juu)"],
         "direction": "target_to_source"
       }
     }

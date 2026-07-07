@@ -146,7 +146,7 @@
         "type": "free_text",
         "prompt": "Wie sagt man 'Hallo' auf Chinesisch (Hanzi oder Pinyin)?",
         "card_ids": ["ni-hao"],
-        "accept": ["你好", "nǐ hǎo", "ni hao", "nǐhǎo"],
+        "accept": ["你好", "nǐ hǎo", "ni hao", "nǐhǎo", "nihao"],
         "hint": "Wörtlich 'du gut', beide Silben im 3. Ton.",
         "distractors": ["再见", "谢谢", "对不起"],
         "direction": "source_to_target"
@@ -162,7 +162,7 @@
         "type": "free_text",
         "prompt": "Wie sagt man 'Danke' auf Chinesisch (Hanzi oder Pinyin)?",
         "card_ids": ["xiexie"],
-        "accept": ["谢谢", "xièxie", "xiexie", "xiè xie"],
+        "accept": ["谢谢", "xièxie", "xiexie", "xiè xie", "xie xie"],
         "hint": "Das zweite Zeichen steht im neutralen Ton.",
         "distractors": ["你好", "再见", "不客气"],
         "direction": "source_to_target"
@@ -213,13 +213,13 @@
         "prompt": "Welcher Ausdruck bedeutet 'Auf Wiedersehen'?",
         "card_ids": ["zaijian"],
         "images": [
-          {"src": "assets/img/zaijian.png", "label": "再见", "is_correct": "true"},
-          {"src": "assets/img/nihao.png", "label": "你好"},
-          {"src": "assets/img/xiexie.png", "label": "谢谢"},
-          {"src": "assets/img/bukeqi.png", "label": "不客气"}
+          {"src": "assets/img/zaijian.png", "label": "再见 (zàijiàn)", "is_correct": "true"},
+          {"src": "assets/img/nihao.png", "label": "你好 (nǐ hǎo)"},
+          {"src": "assets/img/xiexie.png", "label": "谢谢 (xièxie)"},
+          {"src": "assets/img/bukeqi.png", "label": "不客气 (bù kèqi)"}
         ],
         "hint": "Wörtlich 'wieder sehen'.",
-        "distractors": ["你好", "谢谢", "不客气"],
+        "distractors": ["你好 (nǐ hǎo)", "谢谢 (xièxie)", "不客气 (bù kèqi)"],
         "direction": "target_to_source"
       }
     }

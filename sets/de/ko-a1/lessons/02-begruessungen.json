@@ -146,7 +146,7 @@
         "type": "free_text",
         "prompt": "Wie sagt man höflich 'Hallo' auf Koreanisch? (Hangul oder Romanisierung)",
         "card_ids": ["annyeonghaseyo"],
-        "accept": ["안녕하세요", "annyeonghaseyo", "Annyeonghaseyo"],
+        "accept": ["안녕하세요", "annyeonghaseyo", "Annyeonghaseyo", "annyeong haseyo"],
         "hint": "Beginnt mit 안녕...",
         "distractors": ["감사합니다", "아니요", "안녕히 가세요"],
         "direction": "source_to_target"
@@ -162,7 +162,7 @@
         "type": "free_text",
         "prompt": "Wie sagt man höflich 'Danke'? (Hangul oder Romanisierung)",
         "card_ids": ["gamsahamnida"],
-        "accept": ["감사합니다", "gamsahamnida", "Gamsahamnida"],
+        "accept": ["감사합니다", "gamsahamnida", "Gamsahamnida", "kamsahamnida"],
         "hint": "Endet auf ...합니다.",
         "distractors": ["네", "천만에요", "안녕"],
         "direction": "source_to_target"
@@ -210,13 +210,13 @@
         "prompt": "Welcher Ausdruck bedeutet 'Es tut mir leid'?",
         "card_ids": ["joesonghamnida"],
         "images": [
-          {"src": "assets/img/joesonghamnida.png", "label": "죄송합니다", "is_correct": "true"},
-          {"src": "assets/img/annyeong.png", "label": "안녕"},
-          {"src": "assets/img/ne.png", "label": "네"},
-          {"src": "assets/img/cheonmaneyo.png", "label": "천만에요"}
+          {"src": "assets/img/joesonghamnida.png", "label": "죄송합니다 (joesonghamnida)", "is_correct": "true"},
+          {"src": "assets/img/annyeong.png", "label": "안녕 (annyeong)"},
+          {"src": "assets/img/ne.png", "label": "네 (ne)"},
+          {"src": "assets/img/cheonmaneyo.png", "label": "천만에요 (cheonmaneyo)"}
         ],
         "hint": "Eine Entschuldigung.",
-        "distractors": ["안녕", "네", "천만에요"],
+        "distractors": ["안녕 (annyeong)", "네 (ne)", "천만에요 (cheonmaneyo)"],
         "direction": "target_to_source"
       }
     }

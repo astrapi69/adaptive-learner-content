@@ -155,7 +155,7 @@
         "prompt": "Ergänze das Fragewort für 'wie spät'.",
         "card_ids": ["nanji", "ima"],
         "sentence": "今、___ですか。",
-        "blanks": [{"accept": ["何時", "nanji", "なんじ"]}],
+        "blanks": [{"accept": ["何時", "nanji", "なんじ", "nanzi"]}],
         "cloze_mode": "type",
         "hint": "Romaji: nanji."
       }
@@ -186,7 +186,7 @@
         "type": "free_text",
         "prompt": "Wie heißt 'morgen' (der nächste Tag) auf Japanisch?",
         "card_ids": ["ashita"],
-        "accept": ["明日", "ashita", "あした"],
+        "accept": ["明日", "ashita", "あした", "asita"],
         "hint": "Romaji: ashita.",
         "distractors": ["今日", "今", "日曜日"],
         "direction": "source_to_target"
@@ -218,13 +218,13 @@
         "prompt": "Welches Wort bedeutet 'Sonntag'?",
         "card_ids": ["nichiyoubi"],
         "images": [
-          {"src": "assets/img/nichiyoubi.png", "label": "日曜日", "is_correct": "true"},
-          {"src": "assets/img/getsuyoubi.png", "label": "月曜日"},
-          {"src": "assets/img/kayoubi.png", "label": "火曜日"},
-          {"src": "assets/img/doyoubi.png", "label": "土曜日"}
+          {"src": "assets/img/nichiyoubi.png", "label": "日曜日 (nichiyoubi)", "is_correct": "true"},
+          {"src": "assets/img/getsuyoubi.png", "label": "月曜日 (getsuyoubi)"},
+          {"src": "assets/img/kayoubi.png", "label": "火曜日 (kayoubi)"},
+          {"src": "assets/img/doyoubi.png", "label": "土曜日 (doyoubi)"}
         ],
         "hint": "Beginnt mit 日 (Sonne/Tag).",
-        "distractors": ["月曜日", "火曜日", "土曜日"],
+        "distractors": ["月曜日 (getsuyoubi)", "火曜日 (kayoubi)", "土曜日 (doyoubi)"],
         "direction": "target_to_source"
       }
     }

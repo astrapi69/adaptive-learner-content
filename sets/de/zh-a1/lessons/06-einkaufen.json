@@ -193,7 +193,7 @@
         "type": "free_text",
         "prompt": "Wie sagt man 'billig / günstig' (Hanzi oder Pinyin)?",
         "card_ids": ["pianyi"],
-        "accept": ["便宜", "piányi", "pianyi", "pián yi"],
+        "accept": ["便宜", "piányi", "pianyi", "pián yi", "pian yi"],
         "hint": "Das zweite Zeichen steht im neutralen Ton.",
         "distractors": ["贵", "钱", "买"],
         "direction": "source_to_target"
@@ -210,13 +210,13 @@
         "prompt": "Welches Wort bedeutet 'teuer'?",
         "card_ids": ["gui"],
         "images": [
-          {"src": "assets/img/gui.png", "label": "贵", "is_correct": "true"},
-          {"src": "assets/img/pianyi.png", "label": "便宜"},
-          {"src": "assets/img/qian.png", "label": "钱"},
-          {"src": "assets/img/mai.png", "label": "买"}
+          {"src": "assets/img/gui.png", "label": "贵 (guì)", "is_correct": "true"},
+          {"src": "assets/img/pianyi.png", "label": "便宜 (piányi)"},
+          {"src": "assets/img/qian.png", "label": "钱 (qián)"},
+          {"src": "assets/img/mai.png", "label": "买 (mǎi)"}
         ],
         "hint": "guì, 4. Ton.",
-        "distractors": ["便宜", "钱", "买"],
+        "distractors": ["便宜 (piányi)", "钱 (qián)", "买 (mǎi)"],
         "direction": "target_to_source"
       }
     }

@@ -198,7 +198,7 @@
         "prompt": "Ergänze die höfliche Bitte 'bitte'.",
         "card_ids": ["onegaishimasu"],
         "sentence": "コーヒーを___。",
-        "blanks": [{"accept": ["お願いします", "onegaishimasu", "おねがいします"]}],
+        "blanks": [{"accept": ["お願いします", "onegaishimasu", "おねがいします", "onegaisimasu"]}],
         "cloze_mode": "type",
         "hint": "Höflicher als ください."
       }
@@ -214,13 +214,13 @@
         "prompt": "Welches Wort bedeutet 'Entschuldigung / Verzeihung'?",
         "card_ids": ["sumimasen"],
         "images": [
-          {"src": "assets/img/sumimasen.png", "label": "すみません", "is_correct": "true"},
-          {"src": "assets/img/douzo.png", "label": "どうぞ"},
-          {"src": "assets/img/itadakimasu.png", "label": "いただきます"},
-          {"src": "assets/img/arigatou.png", "label": "ありがとう"}
+          {"src": "assets/img/sumimasen.png", "label": "すみません (sumimasen)", "is_correct": "true"},
+          {"src": "assets/img/douzo.png", "label": "どうぞ (douzo)"},
+          {"src": "assets/img/itadakimasu.png", "label": "いただきます (itadakimasu)"},
+          {"src": "assets/img/arigatou.png", "label": "ありがとう (arigatou)"}
         ],
         "hint": "Romaji: sumimasen.",
-        "distractors": ["どうぞ", "いただきます", "ありがとう"],
+        "distractors": ["どうぞ (douzo)", "いただきます (itadakimasu)", "ありがとう (arigatou)"],
         "direction": "target_to_source"
       }
     }

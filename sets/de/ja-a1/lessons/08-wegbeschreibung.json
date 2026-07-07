@@ -213,13 +213,13 @@
         "prompt": "Welches Wort bedeutet 'Bahnhof'?",
         "card_ids": ["eki"],
         "images": [
-          {"src": "assets/img/eki.png", "label": "駅", "is_correct": "true"},
-          {"src": "assets/img/migi.png", "label": "右"},
-          {"src": "assets/img/hidari.png", "label": "左"},
-          {"src": "assets/img/koko.png", "label": "ここ"}
+          {"src": "assets/img/eki.png", "label": "駅 (eki)", "is_correct": "true"},
+          {"src": "assets/img/migi.png", "label": "右 (migi)"},
+          {"src": "assets/img/hidari.png", "label": "左 (hidari)"},
+          {"src": "assets/img/koko.png", "label": "ここ (koko)"}
         ],
         "hint": "Romaji: eki.",
-        "distractors": ["右", "左", "ここ"],
+        "distractors": ["右 (migi)", "左 (hidari)", "ここ (koko)"],
         "direction": "target_to_source"
       }
     }
