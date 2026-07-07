@@ -150,28 +150,24 @@ sets/
   manifest.yaml          # Root-Manifest
 ```
 
-### manifest.yaml
+### Manifest- und Lektions-Format
 
-```yaml
-title: "Französisch A1 - Grundlagen"
-description: "Einstieg in die französische Sprache"
-source_language: "de"
-target_language: "fr"
-level: "A1"
-domain: "language"
-version: "1.0.0"
-```
+Das Feld-Schema (Root- und Set-`manifest.yaml`, alle Lektions- und
+Aufgaben-Felder, die fünf Aufgabentypen und die drei cloze-Modi) wird hier
+**nicht dupliziert**. Es ist die kanonische Engine-Referenz:
 
-### Lektionen (JSON)
-Jede Lektion enthält:
+- [learn-content-engine, Lesson format reference](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md)
+  (die technische Format-Dokumentation, testvalidiert, ohne App-Checkout)
+- das gespiegelte, gepinnte JSON-Schema in [`schema/`](schema/) (Version in
+  [`schema/engine-version.txt`](schema/engine-version.txt))
 
-- Theorie-Schritte (Erklärungen, Beispiele)
-- Exercises (Matching, Picture Choice, Free Text, Word Tiles, Cloze)
-- Metadaten (Schwierigkeit, Tags, SRS-Parameter)
-
-Das Format ist 100% kompatibel mit dem
-[Adaptive Learner](https://github.com/astrapi69/adaptive-learner)
-Content-Loader und dem GitHub-Repo-Export.
+Das Schema in diesem Repo ist ein Spiegel des `learn-content-engine`-Release
+(Quell-Kette: adaptive-learner Pydantic, dann engine, dann dieser Spiegel).
+Jede Lektion und jedes Manifest werden im CI vom gepinnten Engine-Validator
+geprüft (Workflow `Engine validate`, plus die strukturelle Schema-Validierung),
+sodass "validiert gegen die Engine" und "lädt in
+[Adaptive Learner](https://github.com/astrapi69/adaptive-learner)" dieselbe
+Aussage sind.
 
 > Für Nicht-Sprach-Domains (z. B. `psychology`, `programming`) teilen sich
 > Erklärung und Material eine Sprache, d. h. `source_language == target_language`
