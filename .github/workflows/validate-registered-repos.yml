@@ -1,0 +1,54 @@
+# Registry gate for the federated cross-repo search.
+#
+# A content repo joins the app's cross-repo search by opening a PR that
+# adds its entry to recommended-repos.json (url + branch + pinned
+# commit + validation block). This workflow is the merge gate for that
+# "request to be listed":
+#
+#   * validate_registry.py  — offline: the registry file matches its
+#     JSON Schema and the cross-field rules (one self entry, no dup
+#     urls, only 'validated' entries ship).
+#   * validate_registered_repo.py — online: each external repo is cloned
+#     at its pinned commit, the commit is proven to be on its branch,
+#     and the snapshot's search-index.json is validated against the
+#     federation contract (schema/search-index.schema.json).
+#
+# Green here means the pinned snapshot is safe to federate. Pinning is
+# strict: updating a listed repo means a new PR with a new commit.
+name: Validate registered repos
+
+on:
+  pull_request:
+    paths:
+      - "recommended-repos.json"
+      - "schema/recommended-repos.schema.json"
+      - "schema/search-index.schema.json"
+      - "scripts/validate_registry.py"
+      - "scripts/validate_registered_repo.py"
+  push:
+    branches: [main]
+    paths:
+      - "recommended-repos.json"
+
+# Coerce Node-runtime actions onto Node 24 as a safety net for any
+# action still defaulting to the deprecated Node 20 runtime.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-registry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install "jsonschema>=4,<5"
+      - name: Validate registry file (offline)
+        run: python scripts/validate_registry.py
+      - name: Validate registered repos at pinned commits (online)
+        run: python scripts/validate_registered_repo.py

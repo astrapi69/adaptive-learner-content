@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/astrapi69/adaptive-learner-content/schema/recommended-repos.schema.json",
+  "title": "RecommendedRepos",
+  "description": "The registry of content repositories the app federates its cross-repo search over. Each entry is a GitHub content repo. The one 'self' entry is this repo (branch-tracked, validated by its own CI on every push); every OTHER entry is an external repo that must pin the exact validated commit and carry a validation block. A repo is admitted to the federated search by opening a PR that adds its entry; CI validates the pinned commit before the PR can merge.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["repos"],
+  "properties": {
+    "repos": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Repo" }
+    }
+  },
+  "$defs": {
+    "Repo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "branch", "title", "trust_level"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "Canonical https GitHub URL of the content repo, no trailing slash.",
+          "pattern": "^https://github\\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+        },
+        "branch": {
+          "type": "string",
+          "description": "Branch the pinned commit must be reachable from.",
+          "minLength": 1
+        },
+        "commit": {
+          "type": "string",
+          "description": "Full 40-char git SHA of the validated snapshot. The federated search fetches the repo's search-index.json AT THIS COMMIT. Required for every external entry; updating a repo means a new PR with a new commit and a fresh validation.",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "description": { "type": "string" },
+        "trust_level": {
+          "type": "integer",
+          "description": "1 = community/unverified, 2 = reviewed, 3 = official. External repos start at 1.",
+          "minimum": 1,
+          "maximum": 3
+        },
+        "languages": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "self": {
+          "type": "boolean",
+          "description": "True only on the single entry describing THIS repo. Self entries are branch-tracked and exempt from the pinned-commit / validation requirement because this repo's own CI validates every push.",
+          "const": true
+        },
+        "validation": { "$ref": "#/$defs/Validation" }
+      },
+      "allOf": [
+        {
+          "comment": "Every non-self entry must pin a commit and carry a validation block.",
+          "if": {
+            "not": { "required": ["self"] }
+          },
+          "then": {
+            "required": ["commit", "validation"]
+          }
+        }
+      ]
+    },
+    "Validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "validated_at"],
+      "properties": {
+        "status": {
+          "description": "pending = submitted, not yet green; validated = the pinned commit passed; rejected = failed and kept for the record.",
+          "enum": ["pending", "validated", "rejected"]
+        },
+        "validated_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the pinned commit was validated (ISO-8601)."
+        },
+        "engine_version": {
+          "type": "string",
+          "description": "learn-content-engine version the snapshot was validated against."
+        },
+        "index_schema_version": {
+          "type": "string",
+          "description": "schema_version of the repo's search-index.json at the pinned commit."
+        },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}
