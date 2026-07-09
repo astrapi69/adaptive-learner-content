@@ -192,6 +192,15 @@ Aussage sind.
 Als forkbarer Startpunkt dient
 [adaptive-learner-content-test](https://github.com/astrapi69/adaptive-learner-content-test).
 
+### In die Repo-übergreifende Suche aufnehmen
+
+Adaptive Learner sucht über **mehrere** Content-Repos hinweg. Dein eigenes
+Repo kommt hinein, indem du einen Pull Request gegen `recommended-repos.json`
+öffnest, der es an einem validierten Commit anmeldet. Wie das genau
+funktioniert (Datenfluss, Trust-Level, Pinning, Schritt für Schritt):
+[docs/CROSS-REPO-SEARCH.md](docs/CROSS-REPO-SEARCH.md) — die Kurzanleitung
+zum Eintragen steht in [docs/REGISTER-A-REPO.md](docs/REGISTER-A-REPO.md).
+
 ### Einladungscodes
 Adaptive Learner unterstützt Einladungscodes für
 private Content-Repos. Coaches können:
@@ -226,4 +235,5 @@ Unter folgenden Bedingungen:
 - [Adaptive Learner Repo](https://github.com/astrapi69/adaptive-learner) - App Source Code
 - [docker-app-launcher](https://github.com/astrapi69/docker-app-launcher) - Desktop Launcher
 - [Lesson-Format-Referenz](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md) - Technische Format-Dokumentation (learn-content-engine; Schema-Spiegel siehe [schema/README.md](schema/README.md))
+- [Cross-Repo-Suche & eigenes Repo eintragen](docs/CROSS-REPO-SEARCH.md) - Wie die Suche über mehrere Content-Repos funktioniert und wie du deins anmeldest
 - [CONTRIBUTING.md](CONTRIBUTING.md) - Mitmachen und Inhalte beitragen
