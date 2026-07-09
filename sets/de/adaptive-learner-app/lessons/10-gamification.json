@@ -1,0 +1,200 @@
+{
+  "id": "10-gamification",
+  "title": "Motivation: XP, Level, Abzeichen und Streaks",
+  "description": "Wie Adaptive Learner mit Erfahrungspunkten, Levels, Abzeichen, täglichen Missionen und der Streak-Übersicht am Ball hält — und was ein Streak-Freeze ist.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "software",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "xp",
+      "front": "Erfahrungspunkte (XP)",
+      "back": "Punkte, die du fürs Lernen sammelst. Je mehr du übst, desto mehr XP bekommst du — und desto höher steigt dein Level.",
+      "notes": "Englisch: experience points (XP). Sichtbar oben in der Navigation.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["motivation"]
+    },
+    {
+      "id": "level",
+      "front": "Level",
+      "back": "Deine Stufe, die mit gesammelten XP steigt. Die nötigen Punkte pro Level wachsen — höhere Level erfordern mehr Übung.",
+      "notes": "Exponentiell steigende Schwellen: der Aufstieg wird bewusst anspruchsvoller.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["motivation"]
+    },
+    {
+      "id": "streak",
+      "front": "Streak (Serie)",
+      "back": "Die Zahl der Tage in Folge, an denen du gelernt hast. Eine laufende Serie kann deine XP zusätzlich vervielfachen.",
+      "notes": "Englisch: streak. Tägliches Dranbleiben wird belohnt.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["motivation"]
+    },
+    {
+      "id": "streak-multiplikator",
+      "front": "Streak-Multiplikator",
+      "back": "Ein Faktor, der deine XP erhöht, je länger deine Lernserie ununterbrochen läuft.",
+      "notes": "Belohnt Beständigkeit: Wer dranbleibt, sammelt schneller.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["motivation"]
+    },
+    {
+      "id": "abzeichen",
+      "front": "Abzeichen (Badges)",
+      "back": "Auszeichnungen für erreichte Meilensteine. Es gibt 28 Abzeichen in fünf Kategorien, jeweils in den Stufen Bronze, Silber und Gold.",
+      "notes": "Englisch: badges. Sichtbarer Beleg für deine Erfolge.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["motivation"]
+    },
+    {
+      "id": "missionen",
+      "front": "Tägliche Missionen",
+      "back": "Bis zu drei kleine Tagesziele, die die App aus deinen Daten ableitet. Sie geben dir jeden Tag einen konkreten, erreichbaren Fokus.",
+      "notes": "Englisch: daily missions. Klein, machbar, motivierend.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["motivation"]
+    },
+    {
+      "id": "streak-heatmap",
+      "front": "Streak-Übersicht (Heatmap)",
+      "back": "Eine Jahresansicht deiner Lerntage im GitHub-Stil: 365 Felder, die zeigen, an welchen Tagen du aktiv warst. Ein Wochenend-Modus ist zuschaltbar.",
+      "notes": "Englisch: streak heatmap. Macht deine Beständigkeit auf einen Blick sichtbar.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["motivation"]
+    },
+    {
+      "id": "streak-freeze",
+      "front": "Streak-Freeze",
+      "back": "Ein Schutz, der deine Serie an einem lernfreien Tag bewahrt. Du sammelst einen Freeze pro sieben Tage an, höchstens drei auf Vorrat.",
+      "notes": "Englisch: streak freeze. Ein Puffer für Tage, an denen es nicht klappt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["motivation"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "XP, Level und Serien",
+      "body": "# Motivation eingebaut\n\nDamit Lernen zur Gewohnheit wird, belohnt dich Adaptive Learner sichtbar:\n\n- **Erfahrungspunkte (XP)** — sammelst du fürs Üben. Ein Zähler oben in der Navigation zeigt deinen Stand.\n- **Level** — steigen mit deinen XP. Die Schwellen wachsen **exponentiell**, der Aufstieg wird also mit der Zeit anspruchsvoller.\n- **Streak** — die Zahl der Lerntage in Folge. Ein **Streak-Multiplikator** erhöht deine XP, je länger die Serie läuft.\n\nSo wird aus vielen kleinen Einheiten ein sichtbarer, wachsender Fortschritt."
+    },
+    {
+      "id": "step-badges-missionen",
+      "type": "theory",
+      "title": "Abzeichen und tägliche Missionen",
+      "body": "## Ziele zum Abhaken\n\nZwei weitere Bausteine geben dir konkrete Ziele:\n\n- **Abzeichen (Badges)** — **28** Stück in **fünf Kategorien**, je in **Bronze, Silber und Gold**. Du schaltest sie durch Meilensteine frei.\n- **Tägliche Missionen** — **bis zu drei** kleine Tagesziele, die die App aus deinen Daten ableitet (z. B. „10 Karten wiederholen“).\n\nMissionen sind bewusst **klein und machbar**: Sie senken die Hürde, überhaupt anzufangen — und oft wird aus dem Anfang eine längere Einheit."
+    },
+    {
+      "id": "step-heatmap-freeze",
+      "type": "theory",
+      "title": "Streak-Übersicht und Freeze",
+      "body": "## Dranbleiben sichtbar gemacht\n\nDie **Streak-Übersicht** zeigt im GitHub-Stil ein Jahr deiner Lerntage: **365 Felder**, die aufleuchten, wenn du aktiv warst. Ein **Wochenend-Modus** lässt sich zuschalten, falls du am Wochenende bewusst pausierst.\n\nWeil kein Tag perfekt ist, gibt es den **Streak-Freeze**: Er bewahrt deine Serie an einem lernfreien Tag. Du sammelst **einen Freeze pro sieben Tage** an, **höchstens drei** auf Vorrat. So kostet dich ein einzelner Ausfalltag nicht gleich die ganze Serie."
+    },
+    {
+      "id": "ex-match-motivation",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Begriff und Bedeutung",
+      "exercise": {
+        "id": "ex-match-motivation",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine Bedeutung zu.",
+        "card_ids": ["xp", "level", "streak"],
+        "pairs": [
+          {"left": "Erfahrungspunkte (XP)", "right": "Punkte fürs Lernen"},
+          {"left": "Level", "right": "Stufe, die mit XP steigt"},
+          {"left": "Streak", "right": "Lerntage in Folge"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-xp",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Punkte fürs Lernen",
+      "exercise": {
+        "id": "ex-free-xp",
+        "type": "free_text",
+        "prompt": "Wie heißen die Punkte, die du fürs Üben sammelst (Abkürzung)?",
+        "card_ids": ["xp"],
+        "accept": ["XP", "Erfahrungspunkte", "Erfahrungspunkte (XP)"],
+        "hint": "Die englische Abkürzung für „Experience Points“.",
+        "distractors": ["PS", "GB", "PIN"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-badges",
+      "type": "exercise",
+      "theory_ref": "step-badges-missionen",
+      "title": "Wie viele Abzeichen?",
+      "exercise": {
+        "id": "ex-cloze-badges",
+        "type": "cloze",
+        "prompt": "Ergänze die Anzahl der Abzeichen.",
+        "card_ids": ["abzeichen"],
+        "sentence": "Es gibt ___ Abzeichen in fünf Kategorien, je in Bronze, Silber und Gold.",
+        "blanks": [{"accept": ["28", "achtundzwanzig"]}],
+        "cloze_mode": "type",
+        "hint": "Zwischen 27 und 29."
+      }
+    },
+    {
+      "id": "ex-cloze-missionen",
+      "type": "exercise",
+      "theory_ref": "step-badges-missionen",
+      "title": "Tagesziele",
+      "exercise": {
+        "id": "ex-cloze-missionen",
+        "type": "cloze",
+        "prompt": "Ergänze die Höchstzahl täglicher Missionen.",
+        "card_ids": ["missionen"],
+        "sentence": "Die App stellt dir bis zu ___ tägliche Missionen.",
+        "blanks": [{"accept": ["drei", "3"]}],
+        "cloze_mode": "type",
+        "hint": "Eine kleine, machbare Anzahl."
+      }
+    },
+    {
+      "id": "ex-free-freeze",
+      "type": "exercise",
+      "theory_ref": "step-heatmap-freeze",
+      "title": "Serie retten",
+      "exercise": {
+        "id": "ex-free-freeze",
+        "type": "free_text",
+        "prompt": "Wie heißt der Schutz, der deine Serie an einem lernfreien Tag bewahrt?",
+        "card_ids": ["streak-freeze"],
+        "accept": ["Streak-Freeze", "Streak Freeze", "Freeze", "Streak-Einfrieren"],
+        "hint": "Ein englisches Wort fürs „Einfrieren“ deiner Serie.",
+        "distractors": ["Streak-Multiplikator", "Level-up", "Badge"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-heatmap",
+      "type": "exercise",
+      "theory_ref": "step-heatmap-freeze",
+      "title": "Merksatz zur Streak-Übersicht",
+      "exercise": {
+        "id": "ex-tiles-heatmap",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": ["streak-heatmap"],
+        "tiles": ["Die", "Heatmap", "zeigt", "ein", "Jahr", "deiner", "Lerntage"],
+        "hint": "Beginnt mit: Die Heatmap zeigt …",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

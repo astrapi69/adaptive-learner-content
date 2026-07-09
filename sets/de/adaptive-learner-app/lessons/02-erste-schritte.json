@@ -1,0 +1,191 @@
+{
+  "id": "02-erste-schritte",
+  "title": "Erste Schritte und Onboarding",
+  "description": "Der Einstieg in Adaptive Learner: der Einstufungs-Fragebogen, deine persönlichen Methoden-Gewichte, Projekte und Lernsitzungen — Schritt für Schritt auf Deutsch.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "software",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "onboarding",
+      "front": "Onboarding",
+      "back": "Der geführte Einstieg beim ersten Start: Ein kurzer Fragebogen bestimmt, wie du am besten lernst, und richtet die App auf dich ein.",
+      "notes": "Englisch: onboarding. Nur einmal am Anfang; später jederzeit anpassbar.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["einstieg"]
+    },
+    {
+      "id": "einstufungs-quiz",
+      "front": "Einstufungs-Fragebogen",
+      "back": "Ein kurzes Quiz aus zwölf Fragen zu Beginn. Aus den Antworten berechnet die App, wie stark jede der sechs Lernmethoden zu dir passt.",
+      "notes": "Englisch: assessment quiz. Kein Wissenstest, sondern eine Vorlieben-Erhebung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["einstieg"]
+    },
+    {
+      "id": "methoden-gewichte",
+      "front": "Methoden-Gewichte",
+      "back": "Zahlen, die angeben, wie stark jede der sechs Lernmethoden bei dir eingesetzt wird. Sie entstehen aus dem Fragebogen und verschieben sich mit deinem Lernverhalten.",
+      "notes": "Sie sorgen dafür, dass die App bevorzugt so lehrt, wie es dir liegt.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["einstieg", "personalisierung"]
+    },
+    {
+      "id": "projekt",
+      "front": "Projekt",
+      "back": "Ein Lernvorhaben zu einem Thema, unter dem deine Sitzungen und Fortschritte gebündelt werden — zum Beispiel „Spanisch A1“ oder „KI-Grundlagen“.",
+      "notes": "Englisch: project. Klammert alles zu einem Thema zusammen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["struktur"]
+    },
+    {
+      "id": "sitzung",
+      "front": "Lernsitzung",
+      "back": "Eine einzelne Lerneinheit innerhalb eines Projekts. Du wählst Thema und Methode, arbeitest den Lernzyklus durch und schließt die Sitzung ab.",
+      "notes": "Englisch: session. Die konkrete Übungseinheit am Bildschirm.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["struktur"]
+    },
+    {
+      "id": "domain",
+      "front": "Domäne (Domain)",
+      "back": "Der thematische Bereich eines Projekts, etwa Sprache, KI, Programmierung, Psychologie oder Technik. Die Domäne bestimmt, welche Inhalte und Lehrarten passen.",
+      "notes": "Englisch: domain. Grenzt das Themengebiet ein.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["struktur"]
+    },
+    {
+      "id": "curriculum-knoten",
+      "front": "Curriculum-Knoten",
+      "back": "Ein einzelnes Teilthema innerhalb eines Projekts, das du gezielt lernst. Mehrere Knoten ergeben zusammen den Lernpfad (das Curriculum).",
+      "notes": "Englisch: curriculum node. Ein Baustein deines Lernpfads.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["struktur"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Der erste Start",
+      "body": "# Erste Schritte\n\nBeim ersten Öffnen führt dich das **Onboarding** durch den Einstieg. Kern ist ein kurzer **Einstufungs-Fragebogen** aus **zwölf Fragen**.\n\nWichtig: Das ist **kein Wissenstest**. Der Fragebogen erhebt, *wie* du gern lernst — ob du lieber Regeln zuerst hörst, aus Beispielen schließt, aus Fehlern lernst und so weiter.\n\nAus deinen Antworten berechnet die App deine persönlichen **Methoden-Gewichte**: sechs Zahlen, die festlegen, wie stark jede der sechs Lernmethoden bei dir zum Einsatz kommt. Diese Gewichte verschieben sich später automatisch, je nachdem, womit du gut vorankommst."
+    },
+    {
+      "id": "step-projekt",
+      "type": "theory",
+      "title": "Projekte und Sitzungen",
+      "body": "## Projekt, Sitzung, Zyklus\n\nDeine Arbeit ist in drei Ebenen gegliedert:\n\n- **Projekt** — dein Lernvorhaben zu einem Thema (z. B. „Spanisch A1“). Es bündelt Sitzungen und Fortschritte.\n- **Lernsitzung** — eine einzelne Übungseinheit innerhalb des Projekts.\n- **Lernzyklus** — der strukturierte Ablauf *innerhalb* einer Sitzung (mehr dazu in einer späteren Lektion).\n\nSo bleibt alles zu einem Thema an einem Ort, und du kannst jederzeit dort weitermachen, wo du aufgehört hast."
+    },
+    {
+      "id": "step-sitzung-erstellen",
+      "type": "theory",
+      "title": "Eine Sitzung starten",
+      "body": "## In vier Schritten zur Sitzung\n\nEine neue Lernsitzung legst du so an:\n\n1. **Domäne wählen** — den Themenbereich, etwa Sprache oder KI.\n2. **Curriculum-Knoten wählen** — das konkrete Teilthema, das du üben willst.\n3. **Lernmethode wählen** — die App schlägt anhand deiner Gewichte eine vor.\n4. **Sitzung starten** — los geht's.\n\nDie App merkt sich deine Wahl und schlägt beim nächsten Mal einen sinnvollen nächsten Schritt vor."
+    },
+    {
+      "id": "ex-free-quiz",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wie viele Fragen?",
+      "exercise": {
+        "id": "ex-free-quiz",
+        "type": "free_text",
+        "prompt": "Aus wie vielen Fragen besteht der Einstufungs-Fragebogen beim Onboarding?",
+        "card_ids": ["einstufungs-quiz"],
+        "accept": ["zwölf", "12", "zwoelf"],
+        "hint": "Ein Dutzend.",
+        "distractors": ["fünf", "zwanzig", "hundert"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-ebenen",
+      "type": "exercise",
+      "theory_ref": "step-projekt",
+      "title": "Ebenen zuordnen",
+      "exercise": {
+        "id": "ex-match-ebenen",
+        "type": "matching",
+        "prompt": "Ordne jeder Ebene ihre Rolle zu.",
+        "card_ids": ["projekt", "sitzung", "curriculum-knoten"],
+        "pairs": [
+          {"left": "Projekt", "right": "bündelt alles zu einem Thema"},
+          {"left": "Lernsitzung", "right": "eine einzelne Übungseinheit"},
+          {"left": "Curriculum-Knoten", "right": "ein konkretes Teilthema"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-gewichte",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Was der Fragebogen bestimmt",
+      "exercise": {
+        "id": "ex-cloze-gewichte",
+        "type": "cloze",
+        "prompt": "Ergänze, was die App aus deinen Antworten berechnet.",
+        "card_ids": ["methoden-gewichte"],
+        "sentence": "Aus dem Fragebogen berechnet die App deine persönlichen Methoden-___ .",
+        "blanks": [{"accept": ["Gewichte", "Gewichtung"]}],
+        "cloze_mode": "type",
+        "hint": "Sie legen fest, wie stark jede Methode eingesetzt wird."
+      }
+    },
+    {
+      "id": "ex-tiles-schritte",
+      "type": "exercise",
+      "theory_ref": "step-sitzung-erstellen",
+      "title": "Reihenfolge der Schritte",
+      "exercise": {
+        "id": "ex-tiles-schritte",
+        "type": "word_tiles",
+        "prompt": "Bringe die Schritte zum Start einer Sitzung in die richtige Reihenfolge.",
+        "card_ids": ["sitzung", "domain", "curriculum-knoten"],
+        "tiles": ["Domäne", "Curriculum-Knoten", "Methode", "Sitzung starten"],
+        "hint": "Vom großen Themenbereich zum konkreten Start.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-projekt",
+      "type": "exercise",
+      "theory_ref": "step-projekt",
+      "title": "Wie heißt das Lernvorhaben?",
+      "exercise": {
+        "id": "ex-free-projekt",
+        "type": "free_text",
+        "prompt": "Wie heißt die Ebene, die alle Sitzungen und Fortschritte zu einem Thema bündelt?",
+        "card_ids": ["projekt"],
+        "accept": ["Projekt", "Das Projekt", "project"],
+        "hint": "Ein Lernvorhaben zu einem Thema.",
+        "distractors": ["Karte", "Badge", "Zyklus"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-onboarding",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Kein Wissenstest",
+      "exercise": {
+        "id": "ex-cloze-onboarding",
+        "type": "cloze",
+        "prompt": "Ergänze, was der Fragebogen NICHT ist.",
+        "card_ids": ["einstufungs-quiz", "onboarding"],
+        "sentence": "Der Einstufungs-Fragebogen ist kein ___-Test, sondern erhebt, wie du gern lernst.",
+        "blanks": [{"accept": ["Wissens", "Wissenstest"]}],
+        "cloze_mode": "type",
+        "hint": "Es geht nicht darum, was du schon kannst."
+      }
+    }
+  ]
+}

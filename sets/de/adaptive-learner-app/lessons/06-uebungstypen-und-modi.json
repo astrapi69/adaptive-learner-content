@@ -1,0 +1,222 @@
+{
+  "id": "06-uebungstypen-und-modi",
+  "title": "Übungstypen und Lektionsmodi",
+  "description": "Die fünf Übungstypen (Zuordnen, Bild-Auswahl, Freitext, Lückentext, Wort-Kacheln) und die Modi, in denen du eine Lektion üben kannst: Üben, Prüfung, Zeit, Rückwärts, Mischen, Endlos und Fehlertraining.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "software",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "matching",
+      "front": "Zuordnen (Matching)",
+      "back": "Ein Übungstyp: Du verbindest zusammengehörige Paare, etwa Begriff und Definition. Funktioniert in beide Richtungen.",
+      "notes": "Englisch: matching. Mindestens drei Paare pro Übung.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["uebungstyp"]
+    },
+    {
+      "id": "picture-choice",
+      "front": "Bild-Auswahl (Picture-Choice)",
+      "back": "Ein Übungstyp: Aus mehreren Bildern wählst du das richtige. Gut zum Einprägen konkreter Begriffe.",
+      "notes": "Englisch: picture choice. Genau eine Option ist richtig.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["uebungstyp"]
+    },
+    {
+      "id": "free-text",
+      "front": "Freitext (Free-Text)",
+      "back": "Ein Übungstyp: Du tippst die Antwort selbst ein. Kleine Tippfehler werden verziehen, mehrere Schreibweisen akzeptiert.",
+      "notes": "Englisch: free text. Fordert aktives Abrufen statt Wiedererkennen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["uebungstyp"]
+    },
+    {
+      "id": "cloze",
+      "front": "Lückentext (Cloze)",
+      "back": "Ein Übungstyp: In einem Satz sind Lücken zu füllen — durch Tippen, Auswählen oder Ankreuzen mehrerer richtiger Optionen.",
+      "notes": "Englisch: cloze. Übt Wortschatz im Satzzusammenhang.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["uebungstyp"]
+    },
+    {
+      "id": "word-tiles",
+      "front": "Wort-Kacheln (Word-Tiles)",
+      "back": "Ein Übungstyp: Aus vorgegebenen Kacheln setzt du einen Satz in der richtigen Reihenfolge zusammen.",
+      "notes": "Englisch: word tiles. Übt Satzbau und Wortstellung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["uebungstyp"]
+    },
+    {
+      "id": "modus-ueben",
+      "front": "Modus „Üben“ (Practice)",
+      "back": "Der Standardmodus: Du bekommst nach jeder Aufgabe sofort Rückmeldung und kannst in Ruhe lernen.",
+      "notes": "Englisch: practice. Kein Zeitdruck, sofortiges Feedback.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["modus"]
+    },
+    {
+      "id": "modus-pruefung",
+      "front": "Modus „Prüfung“ (Exam)",
+      "back": "Ein Testmodus: Die Rückmeldung kommt erst am Ende, und du erhältst ein Bestanden/Nicht-bestanden-Ergebnis.",
+      "notes": "Englisch: exam. Richtige Antworten unter Prüfungsdruck stärken die Wiederholung zusätzlich.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["modus"]
+    },
+    {
+      "id": "modus-zeit",
+      "front": "Modus „Zeit“ (Timed)",
+      "back": "Ein Modus mit Zeitvorgabe in wählbarer Geschwindigkeit — für schnelles, druckvolles Wiederholen.",
+      "notes": "Englisch: timed. Trainiert Abruf-Geschwindigkeit.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["modus"]
+    },
+    {
+      "id": "modus-endlos",
+      "front": "Modus „Endlos“ (Endless)",
+      "back": "Ein Modus, der weiterläuft, solange du magst — ohne festes Ende.",
+      "notes": "Englisch: endless. Gut für lange Übungsstrecken.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["modus"]
+    },
+    {
+      "id": "fehlertraining",
+      "front": "Fehlertraining (Error-Replay)",
+      "back": "Ein Modus, der gezielt die Aufgaben wiederholt, bei denen du zuvor Fehler gemacht hast.",
+      "notes": "Englisch: error replay. Übt genau deine Schwachstellen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["modus"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Fünf Übungstypen",
+      "body": "# Übungstypen\n\nDamit Üben abwechslungsreich bleibt und verschiedene Fähigkeiten trainiert, kennt Adaptive Learner **fünf Übungstypen**:\n\n| Typ | Was du tust |\n|---|---|\n| **Zuordnen** (Matching) | Paare verbinden (Begriff ↔ Definition) |\n| **Bild-Auswahl** (Picture-Choice) | das richtige Bild wählen |\n| **Freitext** (Free-Text) | die Antwort selbst eintippen |\n| **Lückentext** (Cloze) | Lücken im Satz füllen |\n| **Wort-Kacheln** (Word-Tiles) | einen Satz aus Kacheln bauen |\n\nGenau diese Typen begegnen dir auch in diesem Kurs. **Freitext** und **Wort-Kacheln** fordern aktives Abrufen, **Zuordnen** und **Bild-Auswahl** eher das Wiedererkennen."
+    },
+    {
+      "id": "step-modi",
+      "type": "theory",
+      "title": "Wie du eine Lektion übst",
+      "body": "## Lektionsmodi\n\nDieselbe Lektion kannst du in verschiedenen **Modi** durcharbeiten:\n\n- **Üben** (Practice) — Standard: sofortige Rückmeldung, kein Druck.\n- **Prüfung** (Exam) — Rückmeldung erst am Ende, mit Bestanden/Nicht-bestanden.\n- **Zeit** (Timed) — mit Zeitvorgabe in wählbarer Geschwindigkeit.\n- **Rückwärts** (Reverse) — die Abfragerichtung wird umgedreht.\n- **Mischen** (Shuffle) — die Reihenfolge wird zufällig gemischt.\n- **Endlos** (Endless) — läuft weiter, solange du magst.\n- **Fehlertraining** (Error-Replay) — wiederholt gezielt deine früheren Fehler.\n\nSo passt du das Üben an dein Ziel an: entspannt lernen, unter Druck testen oder gezielt Schwachstellen schließen."
+    },
+    {
+      "id": "step-exam-bonus",
+      "type": "theory",
+      "title": "Warum der Prüfungsmodus zählt",
+      "body": "## Prüfung stärkt das Behalten\n\nDer **Prüfungsmodus** ist mehr als eine Selbstkontrolle. Wer eine Karte **unter Prüfungsbedingungen** richtig beantwortet, zeigt besonders sicheres Wissen.\n\nDeshalb **verlängert** die App bei solchen Karten die Abstände bis zur nächsten Wiederholung stärker — du siehst sicher Gekonntes seltener und gewinnst Zeit für Wackliges. Prüfen und Wiederholen greifen so ineinander."
+    },
+    {
+      "id": "ex-match-typen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Übungstyp und Tätigkeit",
+      "exercise": {
+        "id": "ex-match-typen",
+        "type": "matching",
+        "prompt": "Ordne jedem Übungstyp zu, was du dabei tust.",
+        "card_ids": ["matching", "free-text", "cloze", "word-tiles"],
+        "pairs": [
+          {"left": "Zuordnen", "right": "Paare verbinden"},
+          {"left": "Freitext", "right": "die Antwort selbst eintippen"},
+          {"left": "Lückentext", "right": "Lücken im Satz füllen"},
+          {"left": "Wort-Kacheln", "right": "einen Satz aus Kacheln bauen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-typen-zahl",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wie viele Übungstypen?",
+      "exercise": {
+        "id": "ex-free-typen-zahl",
+        "type": "free_text",
+        "prompt": "Wie viele Übungstypen kennt Adaptive Learner?",
+        "card_ids": ["matching", "cloze"],
+        "accept": ["fünf", "5"],
+        "hint": "So viele Finger hat eine Hand.",
+        "distractors": ["drei", "sieben", "zehn"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-ueben",
+      "type": "exercise",
+      "theory_ref": "step-modi",
+      "title": "Der Standardmodus",
+      "exercise": {
+        "id": "ex-cloze-ueben",
+        "type": "cloze",
+        "prompt": "Ergänze den Namen des Standardmodus mit sofortiger Rückmeldung.",
+        "card_ids": ["modus-ueben"],
+        "sentence": "Im ___-Modus bekommst du nach jeder Aufgabe sofort eine Rückmeldung.",
+        "blanks": [{"accept": ["Üben", "Übungs", "Practice"]}],
+        "cloze_mode": "type",
+        "hint": "Das Gegenteil vom Prüfungsmodus."
+      }
+    },
+    {
+      "id": "ex-match-modi",
+      "type": "exercise",
+      "theory_ref": "step-modi",
+      "title": "Modus und Merkmal",
+      "exercise": {
+        "id": "ex-match-modi",
+        "type": "matching",
+        "prompt": "Ordne jedem Modus sein Merkmal zu.",
+        "card_ids": ["modus-pruefung", "modus-zeit", "fehlertraining", "modus-endlos"],
+        "pairs": [
+          {"left": "Prüfung", "right": "Rückmeldung erst am Ende, mit Ergebnis"},
+          {"left": "Zeit", "right": "mit wählbarer Zeitvorgabe"},
+          {"left": "Fehlertraining", "right": "wiederholt gezielt frühere Fehler"},
+          {"left": "Endlos", "right": "läuft weiter ohne festes Ende"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-fehlertraining",
+      "type": "exercise",
+      "theory_ref": "step-modi",
+      "title": "Schwachstellen üben",
+      "exercise": {
+        "id": "ex-free-fehlertraining",
+        "type": "free_text",
+        "prompt": "Wie heißt der Modus, der gezielt deine früheren Fehler wiederholt?",
+        "card_ids": ["fehlertraining"],
+        "accept": ["Fehlertraining", "Error-Replay", "error replay", "Fehler-Training"],
+        "hint": "Der Name enthält das Wort „Fehler“.",
+        "distractors": ["Prüfung", "Endlos", "Mischen"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-exam",
+      "type": "exercise",
+      "theory_ref": "step-exam-bonus",
+      "title": "Prüfung und Wiederholung",
+      "exercise": {
+        "id": "ex-tiles-exam",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zum Prüfungsmodus zusammen.",
+        "card_ids": ["modus-pruefung"],
+        "tiles": ["Richtig", "unter", "Druck", "verlängert", "den", "Wiederholungsabstand"],
+        "hint": "Beginnt mit: Richtig unter Druck …",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
