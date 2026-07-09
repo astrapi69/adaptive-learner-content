@@ -1,8 +1,8 @@
 # Adaptive Learner Content
 
-[![Sets](https://img.shields.io/badge/sets-30-0d9488)](#content-sets)
-[![Lessons](https://img.shields.io/badge/lessons-452-0d9488)](#content-sets)
-[![Cards](https://img.shields.io/badge/cards-5566-0d9488)](#content-sets)
+[![Sets](https://img.shields.io/badge/sets-35-0d9488)](#content-sets)
+[![Lessons](https://img.shields.io/badge/lessons-499-0d9488)](#content-sets)
+[![Cards](https://img.shields.io/badge/cards-5919-0d9488)](#content-sets)
 [![Languages](https://img.shields.io/badge/languages-10-0d9488)](#content-sets)
 [![Hours](https://img.shields.io/badge/~88h-learning%20content-0d9488)](#content-sets)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/license-CC--BY--SA--4.0-blue)](LICENSE)
@@ -85,8 +85,10 @@ ls sets/
 | Python Grundlagen | DE | Einsteiger | 15 | 166 | Programmierung | Review |
 | IT-Grundlagen | DE | Einsteiger | 10 | 115 | Technik | Review |
 | Ansible QE | DE | B1 | 8 | 88 | DevOps | Review |
+| Data Science und KI | DE | A2 | 9 | 72 | KI | Review |
+| Adaptive Learner — App-Tutorial | DE | Einsteiger | 12 | 95 | App-Tutorial | Review |
 
-**Gesamt: 30 Sets, 452 Lektionen, 5566 Karten, ~88 Stunden Lerninhalt in 10 Sprachen.**
+**Gesamt: 35 Sets, 499 Lektionen, 5919 Karten in 10 Sprachen.**
 
 > Sprachen / Languages: Deutsch, Englisch, Französisch, Spanisch,
 > Italienisch, Portugiesisch, Japanisch, Koreanisch, Chinesisch, Hindi.

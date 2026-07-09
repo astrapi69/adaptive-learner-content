@@ -1,0 +1,200 @@
+{
+  "id": "09-speicher-und-sync",
+  "title": "Speicher, Synchronisierung und Backup",
+  "description": "Wo deine Lerndaten liegen: lokaler Speicher gegen Server-Modus, das Synchronisieren mehrerer Geräte per WLAN und QR-Code sowie Sichern und Wiederherstellen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "software",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "lokaler-speicher",
+      "front": "Lokaler Speicher (Local-first)",
+      "back": "Deine Daten liegen ausschließlich im Browser des Geräts (in der IndexedDB), ohne Server. KI-Anfragen gehen direkt an den Anbieter.",
+      "notes": "Englisch: local-first / DexieStorage. Maximale Privatsphäre, ein Gerät.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["speicher"]
+    },
+    {
+      "id": "server-modus",
+      "front": "Server-Modus",
+      "back": "Deine Daten liegen auf einem Server (mit Datenbank) und werden je Benutzer verschlüsselt gespeichert. So kannst du auf mehreren Geräten synchron lernen.",
+      "notes": "Englisch: server mode / ApiStorage. Ideal für Wechsel zwischen Geräten.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["speicher"]
+    },
+    {
+      "id": "verschluesselung",
+      "front": "Verschlüsselung je Benutzer",
+      "back": "Im Server-Modus werden die Daten jedes Benutzers einzeln verschlüsselt abgelegt, sodass niemand sonst sie lesen kann.",
+      "notes": "Schützt deine Lerndaten auch auf dem Server.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["speicher", "datenschutz"]
+    },
+    {
+      "id": "wlan-sync",
+      "front": "WLAN-Synchronisierung",
+      "back": "Zwei Geräte gleichen ihre Daten direkt über das lokale Netzwerk ab — in beide Richtungen, ohne Umweg über einen fremden Server.",
+      "notes": "Englisch: WiFi sync. Bidirektional (beide Richtungen).",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["sync"]
+    },
+    {
+      "id": "qr-kopplung",
+      "front": "QR-Code-Kopplung",
+      "back": "Zum Verbinden zweier Geräte scannt eines den QR-Code des anderen — so ist die Kopplung schnell und ohne Tippen eingerichtet.",
+      "notes": "Englisch: QR-code pairing. Bequemer Start der Synchronisierung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["sync"]
+    },
+    {
+      "id": "konflikt-loesung",
+      "front": "Konfliktlösung",
+      "back": "Wenn beide Geräte dieselbe Sache unterschiedlich geändert haben, hilft eine KI-gestützte Zusammenführung, die Versionen sinnvoll zu vereinen.",
+      "notes": "Englisch: AI-merge conflict resolution. Verhindert Datenverlust beim Sync.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["sync"]
+    },
+    {
+      "id": "backup",
+      "front": "Sicherung (Backup)",
+      "back": "Ein Export deiner Daten in eine Datei, den du jederzeit wieder einspielen kannst. Beim Wiederherstellen zeigt die App die Unterschiede feldweise an.",
+      "notes": "Englisch: backup/restore. Regelmäßig sichern schützt vor Verlust.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["backup"]
+    },
+    {
+      "id": "schluessel-export",
+      "front": "Schlüssel-Export",
+      "back": "Beim Sichern kannst du wählen: mit deinen verschlüsselten API-Schlüsseln oder ohne. So gibst du beim Teilen einer Sicherung keine geheimen Zugänge preis.",
+      "notes": "Zwei Varianten: verschlüsselter Schlüssel-Export oder schlüsselfreie Sicherung.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["backup", "datenschutz"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Zwei Wege, Daten zu speichern",
+      "body": "# Speicher: lokal oder auf dem Server\n\nDu entscheidest, wo deine Lerndaten liegen:\n\n| Modus | Wo die Daten liegen | Wofür geeignet |\n|---|---|---|\n| **Lokaler Speicher** (Local-first) | nur im Browser des Geräts | maximale Privatsphäre, ein Gerät |\n| **Server-Modus** | auf einem Server, je Benutzer verschlüsselt | mehrere Geräte synchron |\n\nIm **lokalen** Modus verlässt nichts dein Gerät (KI-Anfragen gehen direkt an den Anbieter). Im **Server-Modus** werden deine Daten **je Benutzer verschlüsselt** abgelegt, damit du auf mehreren Geräten weiterlernen kannst, ohne die Privatsphäre aufzugeben."
+    },
+    {
+      "id": "step-sync",
+      "type": "theory",
+      "title": "Geräte synchronisieren",
+      "body": "## WLAN-Sync und QR-Kopplung\n\nAuch ohne Server kannst du zwei Geräte abgleichen: Die **WLAN-Synchronisierung** überträgt die Daten **direkt über das lokale Netzwerk**, in **beide Richtungen**.\n\n- Zum Verbinden genügt die **QR-Code-Kopplung**: ein Gerät scannt den Code des anderen.\n- Haben beide Geräte dieselbe Sache unterschiedlich geändert, sorgt eine **KI-gestützte Konfliktlösung** dafür, dass nichts verloren geht.\n\nSo lernst du am Handy weiter, wo du am Laptop aufgehört hast — ohne Cloud dazwischen."
+    },
+    {
+      "id": "step-backup",
+      "type": "theory",
+      "title": "Sichern und wiederherstellen",
+      "body": "## Backup mit und ohne Schlüssel\n\nEin **Backup** exportiert deine Daten in eine Datei, die du jederzeit wieder einspielst. Beim Wiederherstellen zeigt die App die Unterschiede **feldweise** an, sodass du bewusst entscheidest, was übernommen wird.\n\nBeim **Schlüssel-Export** hast du die Wahl:\n\n- **mit** deinen verschlüsselten API-Schlüsseln — praktisch für den eigenen Umzug auf ein neues Gerät,\n- **ohne** Schlüssel — sicher zum Weitergeben, ohne geheime Zugänge preiszugeben.\n\nRegelmäßiges Sichern schützt dich vor Datenverlust."
+    },
+    {
+      "id": "ex-match-speicher",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Speichermodus zuordnen",
+      "exercise": {
+        "id": "ex-match-speicher",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine Beschreibung zu.",
+        "card_ids": ["lokaler-speicher", "server-modus", "verschluesselung"],
+        "pairs": [
+          {"left": "Lokaler Speicher", "right": "Daten nur im Browser des Geräts"},
+          {"left": "Server-Modus", "right": "Daten auf dem Server, mehrere Geräte"},
+          {"left": "Verschlüsselung je Benutzer", "right": "niemand sonst kann die Daten lesen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-server",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Für mehrere Geräte",
+      "exercise": {
+        "id": "ex-free-server",
+        "type": "free_text",
+        "prompt": "Welcher Speichermodus eignet sich, um auf mehreren Geräten synchron zu lernen?",
+        "card_ids": ["server-modus"],
+        "accept": ["Server-Modus", "Server", "der Server-Modus", "Servermodus"],
+        "hint": "Das Gegenstück zum rein lokalen Speicher.",
+        "distractors": ["Lokaler Speicher", "Offline-Modus", "Prüfungsmodus"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-qr",
+      "type": "exercise",
+      "theory_ref": "step-sync",
+      "title": "Geräte verbinden",
+      "exercise": {
+        "id": "ex-cloze-qr",
+        "type": "cloze",
+        "prompt": "Ergänze, womit zwei Geräte schnell gekoppelt werden.",
+        "card_ids": ["qr-kopplung"],
+        "sentence": "Zum Verbinden scannt ein Gerät den ___-Code des anderen.",
+        "blanks": [{"accept": ["QR"]}],
+        "cloze_mode": "type",
+        "hint": "Das quadratische Muster, das man mit der Kamera scannt."
+      }
+    },
+    {
+      "id": "ex-tiles-sync",
+      "type": "exercise",
+      "theory_ref": "step-sync",
+      "title": "Merksatz zum WLAN-Sync",
+      "exercise": {
+        "id": "ex-tiles-sync",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zur WLAN-Synchronisierung zusammen.",
+        "card_ids": ["wlan-sync"],
+        "tiles": ["Geräte", "gleichen", "sich", "direkt", "im", "lokalen", "Netzwerk", "ab"],
+        "hint": "Beginnt mit: Geräte gleichen sich …",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-konflikt",
+      "type": "exercise",
+      "theory_ref": "step-sync",
+      "title": "Wenn beide etwas ändern",
+      "exercise": {
+        "id": "ex-free-konflikt",
+        "type": "free_text",
+        "prompt": "Wie heißt der Vorgang, der zwei unterschiedlich geänderte Versionen sinnvoll vereint?",
+        "card_ids": ["konflikt-loesung"],
+        "accept": ["Konfliktlösung", "Konfliktloesung", "Zusammenführung", "Merge", "KI-Merge"],
+        "hint": "Ein „Konflikt“ zwischen zwei Versionen wird … gelöst.",
+        "distractors": ["Löschung", "Verschlüsselung", "Kopplung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-backup",
+      "type": "exercise",
+      "theory_ref": "step-backup",
+      "title": "Sicherung ohne Schlüssel",
+      "exercise": {
+        "id": "ex-cloze-backup",
+        "type": "cloze",
+        "prompt": "Ergänze, was du beim Teilen einer Sicherung weglassen kannst.",
+        "card_ids": ["schluessel-export", "backup"],
+        "sentence": "Zum sicheren Weitergeben exportierst du eine Sicherung ___ deine API-Schlüssel.",
+        "blanks": [{"accept": ["ohne"]}],
+        "cloze_mode": "type",
+        "hint": "Das Gegenteil von „mit“."
+      }
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "08-ki-anbieter",
+  "title": "KI-Anbieter und API-Schlüssel",
+  "description": "Wie Adaptive Learner die KI nutzt: die drei Anbieter Anthropic, OpenAI und Google, die Modellauswahl, wie API-Schlüssel gefunden werden und was Streaming bedeutet.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "software",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "ki-anbieter",
+      "front": "KI-Anbieter (Provider)",
+      "back": "Der Dienst, dessen Sprachmodell die App für Rückmeldungen und Erklärungen nutzt. Adaptive Learner unterstützt Anthropic (Claude), OpenAI (GPT) und Google (Gemini).",
+      "notes": "Englisch: AI provider. Du wählst, wessen KI dich begleitet.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["ki"]
+    },
+    {
+      "id": "anthropic",
+      "front": "Anthropic (Claude)",
+      "back": "Einer der drei unterstützten KI-Anbieter. Sein Modell heißt Claude.",
+      "notes": "Claude ist die Modellfamilie von Anthropic.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["ki", "anbieter"]
+    },
+    {
+      "id": "openai",
+      "front": "OpenAI (GPT)",
+      "back": "Einer der drei unterstützten KI-Anbieter. Seine Modelle heißen GPT.",
+      "notes": "GPT ist die Modellfamilie von OpenAI.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["ki", "anbieter"]
+    },
+    {
+      "id": "google-gemini",
+      "front": "Google (Gemini)",
+      "back": "Einer der drei unterstützten KI-Anbieter. Sein Modell heißt Gemini.",
+      "notes": "Gemini ist die Modellfamilie von Google.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["ki", "anbieter"]
+    },
+    {
+      "id": "api-schluessel",
+      "front": "API-Schlüssel",
+      "back": "Ein geheimes Zugangskennwort, mit dem sich die App bei einem KI-Anbieter anmeldet. Du hinterlegst deinen eigenen Schlüssel, damit die Anfragen über dein Konto laufen.",
+      "notes": "Englisch: API key. Wie ein Passwort behandeln — niemals weitergeben.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["ki", "schluessel"]
+    },
+    {
+      "id": "modellauswahl",
+      "front": "Modellauswahl (Model Discovery)",
+      "back": "Die App fragt beim Anbieter live ab, welche Modelle verfügbar sind, sodass du stets aus aktuellen Modellen wählen kannst.",
+      "notes": "Englisch: live model discovery. Keine veraltete, fest verdrahtete Liste.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["ki"]
+    },
+    {
+      "id": "schluessel-kette",
+      "front": "Schlüssel-Reihenfolge",
+      "back": "Die App sucht den API-Schlüssel in drei Ebenen, in fester Reihenfolge: zuerst in der Umgebung, dann in der Datei secrets.yaml, zuletzt in den verschlüsselten Einstellungen.",
+      "notes": "Englisch: key resolution chain (environment → secrets.yaml → Settings).",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["ki", "schluessel"]
+    },
+    {
+      "id": "streaming",
+      "front": "Streaming",
+      "back": "Die Antwort der KI erscheint Wort für Wort, während sie entsteht — statt erst nach Fertigstellung komplett zu erscheinen. Ein Cursor zeigt den Fortschritt.",
+      "notes": "Englisch: token-by-token streaming. Fühlt sich lebendiger und schneller an.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["ki"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Drei Anbieter zur Wahl",
+      "body": "# KI-Anbieter\n\nFür Rückmeldungen, Erklärungen und adaptive Aufgaben nutzt Adaptive Learner ein **Sprachmodell**. Du entscheidest, welcher **KI-Anbieter** das liefert:\n\n| Anbieter | Modellfamilie |\n|---|---|\n| **Anthropic** | Claude |\n| **OpenAI** | GPT |\n| **Google** | Gemini |\n\nWelche konkreten Modelle bereitstehen, fragt die App per **Modellauswahl** live beim Anbieter ab — die Liste ist also immer aktuell. Diese Offenheit ist Absicht: Du bist an keinen einzelnen Anbieter gebunden.\n\n> Hinweis: Rein lokal, ohne KI-Anbieter, funktionieren die vorbereiteten Lektionen und Übungen weiterhin. Die KI-Begleitung ist ein Zusatz, kein Muss."
+    },
+    {
+      "id": "step-schluessel",
+      "type": "theory",
+      "title": "API-Schlüssel und wo sie herkommen",
+      "body": "## Dein eigener Zugang\n\nDamit die App einen Anbieter nutzen darf, braucht sie einen **API-Schlüssel** — ein geheimes Zugangskennwort. Du hinterlegst **deinen eigenen** Schlüssel, sodass die Anfragen über dein Konto laufen und du die Kontrolle behältst.\n\nDie App sucht den Schlüssel in **drei Ebenen** in fester Reihenfolge:\n\n1. **Umgebung** (Umgebungsvariable)\n2. **Datei** `secrets.yaml`\n3. **Verschlüsselte Einstellungen** in der App\n\nDie erste gefundene Quelle gewinnt. Behandle einen API-Schlüssel wie ein Passwort: niemals weitergeben."
+    },
+    {
+      "id": "step-streaming",
+      "type": "theory",
+      "title": "Antworten in Echtzeit",
+      "body": "## Streaming\n\nWenn die KI antwortet, wartest du nicht auf den fertigen Block. Beim **Streaming** erscheint die Antwort **Wort für Wort**, während sie entsteht, und ein Cursor zeigt, dass gerade geschrieben wird.\n\nDas hat zwei Vorteile: Es fühlt sich **schneller** an, und du kannst schon **mitlesen**, bevor die Antwort vollständig ist."
+    },
+    {
+      "id": "ex-match-anbieter",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Anbieter und Modell",
+      "exercise": {
+        "id": "ex-match-anbieter",
+        "type": "matching",
+        "prompt": "Ordne jedem KI-Anbieter seine Modellfamilie zu.",
+        "card_ids": ["anthropic", "openai", "google-gemini"],
+        "pairs": [
+          {"left": "Anthropic", "right": "Claude"},
+          {"left": "OpenAI", "right": "GPT"},
+          {"left": "Google", "right": "Gemini"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-schluessel",
+      "type": "exercise",
+      "theory_ref": "step-schluessel",
+      "title": "Zugang zum Anbieter",
+      "exercise": {
+        "id": "ex-free-schluessel",
+        "type": "free_text",
+        "prompt": "Wie heißt das geheime Zugangskennwort, mit dem sich die App beim KI-Anbieter anmeldet?",
+        "card_ids": ["api-schluessel"],
+        "accept": ["API-Schlüssel", "API-Schluessel", "API Key", "API-Key", "Schlüssel"],
+        "hint": "Ein „…-Schlüssel“; die Abkürzung steht für eine Programmierschnittstelle.",
+        "distractors": ["Benutzername", "Lizenz", "Seriennummer"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-kette",
+      "type": "exercise",
+      "theory_ref": "step-schluessel",
+      "title": "Reihenfolge der Schlüsselsuche",
+      "exercise": {
+        "id": "ex-tiles-kette",
+        "type": "word_tiles",
+        "prompt": "Bringe die drei Ebenen der Schlüsselsuche in die richtige Reihenfolge.",
+        "card_ids": ["schluessel-kette"],
+        "tiles": ["Umgebung", "secrets.yaml", "Einstellungen"],
+        "hint": "Zuerst die Umgebung, zuletzt die App-Einstellungen.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-streaming",
+      "type": "exercise",
+      "theory_ref": "step-streaming",
+      "title": "Antwort in Echtzeit",
+      "exercise": {
+        "id": "ex-cloze-streaming",
+        "type": "cloze",
+        "prompt": "Ergänze den Fachbegriff für die Wort-für-Wort erscheinende Antwort.",
+        "card_ids": ["streaming"],
+        "sentence": "Beim ___ erscheint die Antwort der KI Wort für Wort, während sie entsteht.",
+        "blanks": [{"accept": ["Streaming", "Stream"]}],
+        "cloze_mode": "type",
+        "hint": "Wie beim Video-„Streamen“ — es fließt kontinuierlich."
+      }
+    },
+    {
+      "id": "ex-free-anzahl-anbieter",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wie viele Anbieter?",
+      "exercise": {
+        "id": "ex-free-anzahl-anbieter",
+        "type": "free_text",
+        "prompt": "Zwischen wie vielen KI-Anbietern kannst du in Adaptive Learner wählen?",
+        "card_ids": ["ki-anbieter"],
+        "accept": ["drei", "3"],
+        "hint": "Anthropic, OpenAI und Google.",
+        "distractors": ["einem", "zwei", "zehn"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-modelle",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Immer aktuelle Modelle",
+      "exercise": {
+        "id": "ex-cloze-modelle",
+        "type": "cloze",
+        "prompt": "Ergänze, wie die App die verfügbaren Modelle ermittelt.",
+        "card_ids": ["modellauswahl"],
+        "sentence": "Die App fragt die verfügbaren Modelle ___ beim Anbieter ab, statt eine feste Liste zu nutzen.",
+        "blanks": [{"accept": ["live", "in Echtzeit", "aktuell"]}],
+        "cloze_mode": "type",
+        "hint": "In Echtzeit, nicht fest verdrahtet."
+      }
+    }
+  ]
+}

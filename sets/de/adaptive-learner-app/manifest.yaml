@@ -1,0 +1,66 @@
+# Adaptive Learner — App-Tutorial (für Deutschsprachige) — Set-Manifest
+# (schema v1.3, domain: software).
+#
+# Ein Begleitkurs, der die Lern-App Adaptive Learner selbst zum
+# Thema macht: Was die App ist, wie man sie bedient und welche
+# Funktionen sie bietet. ``domain: software`` markiert den Inhalt
+# als Sachthema: Material und Erklärung sind beide auf Deutsch
+# (source_language == target_language), und der Set-Ordner trägt
+# einen Themennamen (``adaptive-learner-app``) statt eines
+# ``{target}-{level}``-Namens. Der Content-Loader liest
+# ``metadata.lessons`` für die Dateiliste.
+#
+# Die Inhalte fassen die öffentliche Dokumentation von Adaptive
+# Learner als Theorie und Übungen zusammen (kein wörtlich
+# kopierter Text); der Kurs funktioniert eigenständig.
+schema_version: '1.3'
+name: Adaptive Learner — App-Tutorial
+description: >-
+  Lerne, die Lern-App Adaptive Learner selbst zu bedienen: Grundidee
+  und Einsatzformen, Onboarding, die sechs Lernmethoden, der
+  Sieben-Schritte-Lernzyklus, Inhalte und Content Hub, Übungstypen und
+  Modi, Spaced Repetition, KI-Anbieter, Speicher und Synchronisierung,
+  Motivation (XP, Abzeichen, Streaks), Import/Export sowie das Erstellen
+  und Teilen eigener Inhalte — auf Deutsch, als Theorie und Übungen.
+sets:
+  - id: adaptive-learner-app-from-de
+    title: Adaptive Learner — App-Tutorial
+    title_native: Adaptive Learner — App-Tutorial
+    target_language: de
+    source_language: de
+    domain: software
+    level: Einsteiger
+    path: sets/de/adaptive-learner-app
+    version: '1.0.0'
+    lesson_count: 12
+    domain_label: App-Tutorial
+    description: >-
+      Zwölf Einführungslektionen zur Lern-App Adaptive Learner selbst,
+      auf Deutsch erklärt: Überblick und Einsatzformen, erste Schritte und
+      Onboarding, die sechs Lernmethoden, der Sieben-Schritte-Lernzyklus
+      mit Auto-Loop, Inhalte (Karten, Lektionen, Sets) und Content Hub,
+      die fünf Übungstypen und Lektionsmodi, Spaced Repetition, KI-Anbieter
+      und API-Schlüssel, Speicher/Synchronisierung/Backup, Motivation
+      (XP, Level, Abzeichen, Streaks), Import und Export sowie das
+      Erstellen und Teilen eigener Inhalte.
+    tags:
+      - beginner
+      - tutorial
+      - app
+      - onboarding
+metadata:
+  author: Asterios Raptis
+  license: CC-BY-SA-4.0
+  lessons:
+    - 01-was-ist-adaptive-learner.json
+    - 02-erste-schritte.json
+    - 03-lernmethoden.json
+    - 04-lernzyklus.json
+    - 05-inhalte-entdecken.json
+    - 06-uebungstypen-und-modi.json
+    - 07-spaced-repetition.json
+    - 08-ki-anbieter.json
+    - 09-speicher-und-sync.json
+    - 10-gamification.json
+    - 11-import-export.json
+    - 12-coaches-und-eigene-inhalte.json

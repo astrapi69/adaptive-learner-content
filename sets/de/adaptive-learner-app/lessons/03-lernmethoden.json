@@ -1,0 +1,194 @@
+{
+  "id": "03-lernmethoden",
+  "title": "Die sechs Lernmethoden",
+  "description": "Adaptive Learner lehrt auf sechs verschiedene Arten: deduktiv, induktiv, fehlerbasiert, dialogisch, kontextuell und KI-adaptiv. Was jede Methode ausmacht und wann sie hilft.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "software",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "deduktiv",
+      "front": "Deduktive Methode",
+      "back": "Zuerst die Regel, dann die Anwendung: Die App erklärt ein Prinzip und du wendest es anschließend auf Beispiele an.",
+      "notes": "Von der Regel zum Beispiel. Gut, wenn du klare Strukturen magst.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["methode"]
+    },
+    {
+      "id": "induktiv",
+      "front": "Induktive Methode",
+      "back": "Zuerst Beispiele, dann die Regel: Du erkennst das Muster selbst und die App hilft dir, daraus die Regel abzuleiten.",
+      "notes": "Vom Beispiel zur Regel — das Gegenstück zur deduktiven Methode.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["methode"]
+    },
+    {
+      "id": "fehlerbasiert",
+      "front": "Fehlerbasierte Methode",
+      "back": "Lernen aus den eigenen Fehlern: Die App greift gezielt auf, was schiefgelaufen ist, und übt genau diese Stellen erneut.",
+      "notes": "Englisch: error-based. Fehler werden zum Lernstoff.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["methode"]
+    },
+    {
+      "id": "dialogisch",
+      "front": "Dialogische Methode",
+      "back": "Lernen im Gespräch: Du übst im Frage-Antwort-Dialog mit der KI, die nachhakt und dich zum Erklären bringt.",
+      "notes": "Englisch: dialogic. Wissen entsteht im Austausch.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["methode"]
+    },
+    {
+      "id": "kontextuell",
+      "front": "Kontextuelle Methode",
+      "back": "Lernen im Zusammenhang: Neuer Stoff wird in realistische Situationen und Beispiele eingebettet, statt isoliert abgefragt zu werden.",
+      "notes": "Englisch: contextual. Wissen bekommt einen Anwendungsrahmen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["methode"]
+    },
+    {
+      "id": "ki-adaptiv",
+      "front": "KI-adaptive Methode",
+      "back": "Die KI wählt und mischt die Vorgehensweise laufend passend zu deinem Fortschritt, statt einer festen Methode zu folgen.",
+      "notes": "Englisch: AI-adaptive. Die flexibelste der sechs Methoden.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["methode"]
+    },
+    {
+      "id": "methoden-wechsel",
+      "front": "Methodenwechsel",
+      "back": "Wenn dein Fortschritt stockt, empfiehlt die App, die Lernmethode zu wechseln — eine andere Herangehensweise bringt oft neuen Schwung.",
+      "notes": "Englisch: method switching. Kein Zwang, sondern ein Vorschlag.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["methode", "adaptiv"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Sechs Wege zum Ziel",
+      "body": "# Die sechs Lernmethoden\n\nMenschen lernen unterschiedlich. Deshalb kennt Adaptive Learner **sechs Lernmethoden** und passt an, wie stark jede bei dir zum Einsatz kommt.\n\n| Methode | Kurzformel |\n|---|---|\n| **Deduktiv** | erst die Regel, dann das Beispiel |\n| **Induktiv** | erst das Beispiel, dann die Regel |\n| **Fehlerbasiert** | aus eigenen Fehlern lernen |\n| **Dialogisch** | im Gespräch mit der KI lernen |\n| **Kontextuell** | im realistischen Zusammenhang lernen |\n| **KI-adaptiv** | die KI mischt laufend passend zu dir |\n\nDeine **Methoden-Gewichte** aus dem Onboarding entscheiden, welche bevorzugt vorgeschlagen wird — du kannst aber jederzeit selbst eine andere wählen."
+    },
+    {
+      "id": "step-deduktiv-induktiv",
+      "type": "theory",
+      "title": "Deduktiv gegen induktiv",
+      "body": "## Zwei Richtungen: Regel und Beispiel\n\nDie deduktive und die induktive Methode sind Gegenstücke:\n\n- **Deduktiv** geht **von der Regel zum Beispiel**. Erst hörst du das Prinzip („Adjektive richten sich nach dem Nomen“), dann wendest du es an.\n- **Induktiv** geht **vom Beispiel zur Regel**. Du siehst mehrere Beispiele, erkennst das Muster selbst und die App hilft dir, die Regel zu formulieren.\n\nManche lernen lieber mit klarer Ansage vorweg, andere entdecken lieber selbst. Beides ist möglich."
+    },
+    {
+      "id": "step-weitere",
+      "type": "theory",
+      "title": "Fehler, Gespräch, Kontext und KI",
+      "body": "## Die vier weiteren Methoden\n\n- **Fehlerbasiert** — die App macht deine Fehler zum Lernstoff und übt genau die Schwachstellen erneut.\n- **Dialogisch** — du lernst im Frage-Antwort-Gespräch; die KI hakt nach und lässt dich erklären.\n- **Kontextuell** — neuer Stoff wird in realistische Situationen eingebettet, statt isoliert abgefragt.\n- **KI-adaptiv** — die KI folgt keiner festen Methode, sondern mischt laufend die passendste.\n\nStockt dein Fortschritt, schlägt die App einen **Methodenwechsel** vor — eine neue Herangehensweise löst oft eine Blockade."
+    },
+    {
+      "id": "ex-match-methoden",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Methode und Kurzformel",
+      "exercise": {
+        "id": "ex-match-methoden",
+        "type": "matching",
+        "prompt": "Ordne jeder Methode ihre Kurzformel zu.",
+        "card_ids": ["deduktiv", "induktiv", "fehlerbasiert", "dialogisch"],
+        "pairs": [
+          {"left": "Deduktiv", "right": "erst die Regel, dann das Beispiel"},
+          {"left": "Induktiv", "right": "erst das Beispiel, dann die Regel"},
+          {"left": "Fehlerbasiert", "right": "aus eigenen Fehlern lernen"},
+          {"left": "Dialogisch", "right": "im Gespräch mit der KI lernen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-induktiv",
+      "type": "exercise",
+      "theory_ref": "step-deduktiv-induktiv",
+      "title": "Vom Beispiel zur Regel",
+      "exercise": {
+        "id": "ex-free-induktiv",
+        "type": "free_text",
+        "prompt": "Wie heißt die Methode, die vom Beispiel zur Regel führt?",
+        "card_ids": ["induktiv"],
+        "accept": ["induktiv", "induktive Methode", "Induktion"],
+        "hint": "Das Gegenstück zur deduktiven Methode.",
+        "distractors": ["deduktiv", "dialogisch", "kontextuell"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-fehler",
+      "type": "exercise",
+      "theory_ref": "step-weitere",
+      "title": "Fehler als Lernstoff",
+      "exercise": {
+        "id": "ex-cloze-fehler",
+        "type": "cloze",
+        "prompt": "Ergänze den Namen der Methode.",
+        "card_ids": ["fehlerbasiert"],
+        "sentence": "Die ___ Methode macht deine eigenen Fehler zum Lernstoff.",
+        "blanks": [{"accept": ["fehlerbasierte", "fehlerbasiert"]}],
+        "cloze_mode": "type",
+        "hint": "Sie greift auf, was schiefgelaufen ist."
+      }
+    },
+    {
+      "id": "ex-tiles-ki-adaptiv",
+      "type": "exercise",
+      "theory_ref": "step-weitere",
+      "title": "Die KI-adaptive Methode",
+      "exercise": {
+        "id": "ex-tiles-ki-adaptiv",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zur KI-adaptiven Methode zusammen.",
+        "card_ids": ["ki-adaptiv"],
+        "tiles": ["Die", "KI", "mischt", "die", "Methoden", "passend", "zu", "dir"],
+        "hint": "Beginnt mit: Die KI mischt …",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-weitere",
+      "type": "exercise",
+      "theory_ref": "step-weitere",
+      "title": "Kontext, KI und Wechsel",
+      "exercise": {
+        "id": "ex-match-weitere",
+        "type": "matching",
+        "prompt": "Ordne jeden Begriff seiner Beschreibung zu.",
+        "card_ids": ["kontextuell", "ki-adaptiv", "methoden-wechsel"],
+        "pairs": [
+          {"left": "Kontextuell", "right": "Stoff im realistischen Zusammenhang"},
+          {"left": "KI-adaptiv", "right": "keine feste Methode, laufend gemischt"},
+          {"left": "Methodenwechsel", "right": "Vorschlag, wenn der Fortschritt stockt"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-wechsel",
+      "type": "exercise",
+      "theory_ref": "step-weitere",
+      "title": "Wenn es stockt",
+      "exercise": {
+        "id": "ex-cloze-wechsel",
+        "type": "cloze",
+        "prompt": "Ergänze, was die App bei stockendem Fortschritt empfiehlt.",
+        "card_ids": ["methoden-wechsel"],
+        "sentence": "Kommst du nicht voran, empfiehlt die App einen Methoden___ .",
+        "blanks": [{"accept": ["wechsel", "Wechsel"]}],
+        "cloze_mode": "type",
+        "hint": "Eine andere Methode ausprobieren."
+      }
+    }
+  ]
+}

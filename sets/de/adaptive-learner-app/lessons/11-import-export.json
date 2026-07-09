@@ -1,0 +1,191 @@
+{
+  "id": "11-import-export",
+  "title": "Import und Export",
+  "description": "Wie du eigene Chatverläufe in die App bringst und daraus einen Lernplan gewinnst — und wie du deine Inhalte nach Anki, NotebookLM oder als PDF-Bericht exportierst.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "software",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "chat-import",
+      "front": "Chat-Import",
+      "back": "Du kannst Gesprächsverläufe aus ChatGPT, Claude, Gemini oder beliebigem Markdown in die App laden, damit sie zum Ausgangspunkt fürs Lernen werden.",
+      "notes": "Englisch: chat history import. Macht bisherige KI-Gespräche zu Lernstoff.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["import"]
+    },
+    {
+      "id": "ki-analyse",
+      "front": "KI-Analyse des Imports",
+      "back": "Die App wertet einen importierten Verlauf aus und erkennt Thema, Schwächen, Fehlermuster, eine empfohlene Methode, Wortschatz (bei Sprachen) und Vorschläge für einen Lernpfad.",
+      "notes": "Aus einem Gespräch wird ein strukturierter Lernplan.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["import"]
+    },
+    {
+      "id": "curriculum-seed",
+      "front": "Lernpfad-Start aus Import",
+      "back": "Aus der Analyse legt die App auf einen Klick einen passenden Lernpfad an und startet direkt eine gezielte Sitzung.",
+      "notes": "Englisch: seed a curriculum. Vom Import direkt ins Üben.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["import"]
+    },
+    {
+      "id": "anki-export",
+      "front": "Anki-Export (.apkg)",
+      "back": "Die App kann Karteikarten als Anki-Paket exportieren — als einfache Karten und als Lückentext-Karten (Cloze) —, damit du sie in Anki weiternutzen kannst.",
+      "notes": "Englisch: Anki .apkg. Anki ist ein verbreitetes Karteikarten-Programm.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["export"]
+    },
+    {
+      "id": "notebooklm-export",
+      "front": "NotebookLM-Export",
+      "back": "Ein ZIP-Export mit Zusammenfassung, Wortschatz, Regeln, Fehlern, Karteikarten und Sitzungen — vorbereitet zum Hochladen in Google NotebookLM.",
+      "notes": "Englisch: NotebookLM ZIP. Bündelt deinen Lernstoff für ein anderes Werkzeug.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["export"]
+    },
+    {
+      "id": "fortschrittsbericht",
+      "front": "Fortschrittsbericht",
+      "back": "Ein Bericht deines Lernfortschritts als Markdown oder PDF — mit gleichem Aufbau, egal ob du lokal oder im Server-Modus arbeitest.",
+      "notes": "Englisch: progress report. Gut zum Ausdrucken oder Weitergeben.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["export"]
+    },
+    {
+      "id": "datenformate",
+      "front": "Unterstützte Importformate",
+      "back": "Verläufe lassen sich als JSON oder Markdown importieren — die üblichen Exportformate der großen Chat-Dienste.",
+      "notes": "JSON und Markdown decken ChatGPT, Claude und Gemini ab.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["import"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Vom Chatverlauf zum Lernplan",
+      "body": "# Import: eigene Gespräche als Lernstoff\n\nHast du schon mit einer KI über ein Thema gesprochen, musst du dieses Wissen nicht verlieren. Der **Chat-Import** lädt Verläufe aus **ChatGPT, Claude, Gemini** oder beliebigem **Markdown** in die App (als JSON oder Markdown).\n\nDann übernimmt die **KI-Analyse**: Sie erkennt aus dem Verlauf\n\n- das **Thema** und deine **Schwächen**,\n- **Fehlermuster** und eine **empfohlene Methode**,\n- bei Sprachen den **Wortschatz** und Vorschläge für einen **Lernpfad**.\n\nAuf einen Klick legt die App daraus einen **Lernpfad** an und startet eine gezielte Sitzung. So wird aus einem Gespräch ein strukturierter Kurs."
+    },
+    {
+      "id": "step-export",
+      "type": "theory",
+      "title": "Deine Inhalte exportieren",
+      "body": "## Export in andere Werkzeuge\n\nDeine Karten und Fortschritte gehören dir — und lassen sich mitnehmen:\n\n| Export | Ergebnis |\n|---|---|\n| **Anki (.apkg)** | Karteikarten (einfach + Lückentext) für das Programm Anki |\n| **NotebookLM (ZIP)** | Zusammenfassung, Wortschatz, Regeln, Fehler, Karten, Sitzungen |\n| **Markdown / PDF** | ein **Fortschrittsbericht** zum Lesen, Drucken oder Teilen |\n\nDer Fortschrittsbericht hat **denselben Aufbau**, egal ob du lokal oder im Server-Modus arbeitest. So bist du auch beim Export an kein einzelnes Werkzeug gebunden."
+    },
+    {
+      "id": "step-warum",
+      "type": "theory",
+      "title": "Warum Import und Export nützen",
+      "body": "## Ein offener Kreislauf\n\nImport und Export machen Adaptive Learner zu einem **offenen** Werkzeug:\n\n- **Import** bringt Wissen von außen herein — statt bei null anzufangen, knüpfst du an bestehende Gespräche an.\n- **Export** trägt deinen Lernstoff nach außen — nach Anki zum reinen Karteikarten-Üben, nach NotebookLM zum Weiterverarbeiten oder als PDF zur Dokumentation.\n\nSo fügt sich die App in deinen Werkzeugkasten ein, statt eine geschlossene Insel zu sein."
+    },
+    {
+      "id": "ex-match-export",
+      "type": "exercise",
+      "theory_ref": "step-export",
+      "title": "Export und Ergebnis",
+      "exercise": {
+        "id": "ex-match-export",
+        "type": "matching",
+        "prompt": "Ordne jedem Export sein Ergebnis zu.",
+        "card_ids": ["anki-export", "notebooklm-export", "fortschrittsbericht"],
+        "pairs": [
+          {"left": "Anki (.apkg)", "right": "Karteikarten für das Programm Anki"},
+          {"left": "NotebookLM (ZIP)", "right": "gebündelter Lernstoff zum Hochladen"},
+          {"left": "Markdown / PDF", "right": "ein Fortschrittsbericht zum Teilen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-import",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Gespräche einbringen",
+      "exercise": {
+        "id": "ex-free-import",
+        "type": "free_text",
+        "prompt": "Wie heißt die Funktion, die Gesprächsverläufe aus ChatGPT, Claude oder Gemini in die App lädt?",
+        "card_ids": ["chat-import"],
+        "accept": ["Chat-Import", "Chatimport", "Import", "Chat Import"],
+        "hint": "Das Gegenteil von „Export“, angewandt auf Chats.",
+        "distractors": ["Backup", "Streaming", "Kopplung"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-analyse",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Was die Analyse erkennt",
+      "exercise": {
+        "id": "ex-cloze-analyse",
+        "type": "cloze",
+        "prompt": "Ergänze, was die KI-Analyse aus einem Verlauf ableitet.",
+        "card_ids": ["ki-analyse"],
+        "sentence": "Die KI-Analyse erkennt Thema, Schwächen, Fehlermuster und eine empfohlene ___ .",
+        "blanks": [{"accept": ["Methode", "Lernmethode"]}],
+        "cloze_mode": "type",
+        "hint": "Eine der sechs Arten zu lernen aus Lektion 3."
+      }
+    },
+    {
+      "id": "ex-tiles-seed",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Vom Import ins Üben",
+      "exercise": {
+        "id": "ex-tiles-seed",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": ["curriculum-seed"],
+        "tiles": ["Aus", "dem", "Import", "entsteht", "ein", "Lernpfad"],
+        "hint": "Beginnt mit: Aus dem Import …",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-anki",
+      "type": "exercise",
+      "theory_ref": "step-export",
+      "title": "Karteikarten mitnehmen",
+      "exercise": {
+        "id": "ex-free-anki",
+        "type": "free_text",
+        "prompt": "In welches verbreitete Karteikarten-Programm kannst du deine Karten als .apkg exportieren?",
+        "card_ids": ["anki-export"],
+        "accept": ["Anki", "nach Anki", "Anki (.apkg)"],
+        "hint": "Ein bekanntes SRS-Programm, dessen Name mit A beginnt.",
+        "distractors": ["NotebookLM", "Excel", "Word"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-bericht",
+      "type": "exercise",
+      "theory_ref": "step-export",
+      "title": "Bericht als Datei",
+      "exercise": {
+        "id": "ex-cloze-bericht",
+        "type": "cloze",
+        "prompt": "Ergänze das druckbare Format des Fortschrittsberichts.",
+        "card_ids": ["fortschrittsbericht"],
+        "sentence": "Den Fortschrittsbericht kannst du als Markdown oder ___ exportieren.",
+        "blanks": [{"accept": ["PDF"]}],
+        "cloze_mode": "type",
+        "hint": "Ein gängiges Dokumentformat zum Drucken."
+      }
+    }
+  ]
+}

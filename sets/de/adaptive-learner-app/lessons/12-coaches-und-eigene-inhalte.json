@@ -1,0 +1,191 @@
+{
+  "id": "12-coaches-und-eigene-inhalte",
+  "title": "Eigene Inhalte erstellen und teilen",
+  "description": "Für Fortgeschrittene, Coaches und Lehrkräfte: eigene Lektionen mit dem Lesson Creator bauen, Inhalte per Content-Repository teilen, Einladungscodes nutzen und Varianten beitragen.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "software",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "lesson-creator",
+      "front": "Lesson Creator",
+      "back": "Ein Assistent, mit dem du eigene, teilbare Lektionen baust. Übungen werden teils automatisch erzeugt, und du kannst Karten per CSV-Datei importieren.",
+      "notes": "Englisch: Lesson Creator. Kein Programmieren nötig.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["erstellen"]
+    },
+    {
+      "id": "csv-import",
+      "front": "CSV-Import",
+      "back": "Eine Möglichkeit, viele Karten auf einmal aus einer Tabelle (CSV-Datei) einzulesen, statt sie einzeln zu tippen.",
+      "notes": "CSV = durch Kommas getrennte Werte; öffnet sich in jeder Tabellen-App.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["erstellen"]
+    },
+    {
+      "id": "auto-uebungen",
+      "front": "Automatische Übungen",
+      "back": "Aus deinen Karten erzeugt der Lesson Creator selbstständig Übungen, sodass du nicht jede Aufgabe von Hand anlegen musst.",
+      "notes": "Englisch: auto-generated exercises. Spart viel Arbeit beim Erstellen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["erstellen"]
+    },
+    {
+      "id": "eigenes-repo",
+      "front": "Eigenes Content-Repository",
+      "back": "Ein GitHub-Repository mit deinen eigenen Sets. Du kannst die offizielle Vorlage forken, eigene Inhalte im gleichen Format anlegen und das Repo in der App als Quelle hinzufügen.",
+      "notes": "So teilst du Inhalte mit Schülern oder der Community.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["teilen", "coach"]
+    },
+    {
+      "id": "einladungscode",
+      "front": "Einladungscode",
+      "back": "Ein Code, mit dem du Zugang zu einem privaten Content-Repository gibst. Codes lassen sich mit Grenzen versehen — etwa maximale Einlösungen und Ablaufdatum.",
+      "notes": "Englisch: invite code. Ideal für Kurse und geschlossene Gruppen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["teilen", "coach"]
+    },
+    {
+      "id": "code-teilen",
+      "front": "Codes teilen und verfolgen",
+      "back": "Einladungscodes lassen sich per Link, QR-Code oder von Hand weitergeben, und du kannst ihre Nutzung nachverfolgen.",
+      "notes": "Behalte den Überblick, wer deinem Kurs beigetreten ist.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["teilen", "coach"]
+    },
+    {
+      "id": "variante",
+      "front": "Variante einer Lektion",
+      "back": "Eine eigene Fassung einer bestehenden Lektion — gleiches Thema, aber andere Übungen oder ein anderer Blickwinkel. So kann die Community Inhalte gemeinsam verbessern.",
+      "notes": "Englisch: lesson variation. Beitragen, ohne das Original zu ersetzen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["teilen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Eigene Lektionen bauen",
+      "body": "# Selbst Inhalte erstellen\n\nAdaptive Learner ist nicht nur zum Konsumieren gedacht — du kannst auch **eigene Lektionen** bauen, ganz ohne Programmieren. Dafür gibt es den **Lesson Creator**:\n\n- Du legst **Karten** an — einzeln oder per **CSV-Import** gleich viele auf einmal aus einer Tabelle.\n- Der Creator erzeugt daraus **automatisch Übungen**, die du bei Bedarf anpasst.\n- Am Ende hast du eine **teilbare Lektion** im selben Format wie die mitgelieferten.\n\nSo wird aus einer Vokabelliste oder Stichwortsammlung in wenigen Schritten eine spielbare Lektion."
+    },
+    {
+      "id": "step-teilen",
+      "type": "theory",
+      "title": "Inhalte teilen: Repositorys und Codes",
+      "body": "## Für Coaches und Lehrkräfte\n\nWillst du Inhalte mit anderen teilen, legst du ein **eigenes Content-Repository** auf GitHub an: die offizielle Vorlage **forken**, eigene Sets im gleichen Format anlegen, fertig. In der App fügen deine Lernenden das Repo als Quelle hinzu.\n\nFür **private** Repos gibt es **Einladungscodes**:\n\n- Du kannst Codes mit **Grenzen** versehen (maximale Einlösungen, Ablaufdatum).\n- Du **teilst** sie per Link, QR-Code oder von Hand.\n- Du kannst ihre **Nutzung nachverfolgen**.\n\nSo richtest du für eine Klasse oder Lerngruppe einen kontrollierten Zugang ein."
+    },
+    {
+      "id": "step-varianten",
+      "type": "theory",
+      "title": "Gemeinsam verbessern",
+      "body": "## Varianten und Beiträge\n\nDu musst eine bestehende Lektion nicht ersetzen, um sie zu verbessern. Eine **Variante** ist eine eigene Fassung derselben Lektion — **gleiches Thema, andere Übungen** oder ein neuer Blickwinkel.\n\nSo kann eine Community Inhalte **gemeinsam** weiterentwickeln: Das Original bleibt erhalten, und daneben entstehen alternative Fassungen für unterschiedliche Bedürfnisse. Beiträge laufen — wie bei offenen Projekten üblich — über einen Pull Request auf GitHub."
+    },
+    {
+      "id": "ex-free-creator",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Womit man Lektionen baut",
+      "exercise": {
+        "id": "ex-free-creator",
+        "type": "free_text",
+        "prompt": "Wie heißt der Assistent, mit dem du eigene teilbare Lektionen baust?",
+        "card_ids": ["lesson-creator"],
+        "accept": ["Lesson Creator", "Lesson-Creator", "der Lesson Creator", "Lektions-Ersteller"],
+        "hint": "Ein englischer Name; „Lesson“ heißt Lektion.",
+        "distractors": ["Content Hub", "Dashboard", "Lesson Creator App Store"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-erstellen",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Begriffe beim Erstellen",
+      "exercise": {
+        "id": "ex-match-erstellen",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine Bedeutung zu.",
+        "card_ids": ["csv-import", "auto-uebungen", "lesson-creator"],
+        "pairs": [
+          {"left": "CSV-Import", "right": "viele Karten aus einer Tabelle einlesen"},
+          {"left": "Automatische Übungen", "right": "aus Karten selbst erzeugte Aufgaben"},
+          {"left": "Lesson Creator", "right": "Assistent zum Bauen von Lektionen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-repo",
+      "type": "exercise",
+      "theory_ref": "step-teilen",
+      "title": "Vorlage übernehmen",
+      "exercise": {
+        "id": "ex-cloze-repo",
+        "type": "cloze",
+        "prompt": "Ergänze, wie du die offizielle Vorlage für ein eigenes Repo übernimmst.",
+        "card_ids": ["eigenes-repo"],
+        "sentence": "Für ein eigenes Content-Repository kannst du die offizielle Vorlage ___ .",
+        "blanks": [{"accept": ["forken", "kopieren", "abzweigen"]}],
+        "cloze_mode": "type",
+        "hint": "Der GitHub-Begriff für „eine eigene Kopie abzweigen“."
+      }
+    },
+    {
+      "id": "ex-free-einladung",
+      "type": "exercise",
+      "theory_ref": "step-teilen",
+      "title": "Zugang zu privaten Inhalten",
+      "exercise": {
+        "id": "ex-free-einladung",
+        "type": "free_text",
+        "prompt": "Wie heißt der Code, mit dem du Zugang zu einem privaten Content-Repository gibst?",
+        "card_ids": ["einladungscode"],
+        "accept": ["Einladungscode", "Einladungs-Code", "Invite Code", "Invite-Code"],
+        "hint": "Man wird damit zu etwas „eingeladen“.",
+        "distractors": ["API-Schlüssel", "QR-Code", "Fehlercode"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-codes",
+      "type": "exercise",
+      "theory_ref": "step-teilen",
+      "title": "Wie man Codes weitergibt",
+      "exercise": {
+        "id": "ex-tiles-codes",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": ["code-teilen"],
+        "tiles": ["Codes", "teilst", "du", "per", "Link", "oder", "QR-Code"],
+        "hint": "Beginnt mit: Codes teilst du …",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-variante",
+      "type": "exercise",
+      "theory_ref": "step-varianten",
+      "title": "Ohne das Original zu ersetzen",
+      "exercise": {
+        "id": "ex-cloze-variante",
+        "type": "cloze",
+        "prompt": "Ergänze den Begriff für eine eigene Fassung einer bestehenden Lektion.",
+        "card_ids": ["variante"],
+        "sentence": "Eine ___ ist eine eigene Fassung derselben Lektion mit anderen Übungen.",
+        "blanks": [{"accept": ["Variante", "Version"]}],
+        "cloze_mode": "type",
+        "hint": "Gleiches Thema, andere Ausführung."
+      }
+    }
+  ]
+}
