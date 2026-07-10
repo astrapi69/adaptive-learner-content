@@ -1,0 +1,202 @@
+{
+  "id": "01-was-ist-adaptive-learner",
+  "title": "Was ist Adaptive Learner?",
+  "description": "Überblick über die Lern-App Adaptive Learner: Grundidee, Einsatzformen (Web, Desktop, Docker), Offline-Betrieb und Datenhoheit — auf Deutsch erklärt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "software",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "adaptive-learner",
+      "front": "Adaptive Learner",
+      "back": "Eine KI-gestützte Lern-App, die den Lernstoff und die Lernmethode an deinen Fortschritt anpasst. Sie kombiniert strukturierte Lektionen mit adaptiven, KI-begleiteten Lernsitzungen.",
+      "notes": "„Adaptive“ bedeutet: Die App passt sich an dich an, nicht umgekehrt.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["grundlagen"]
+    },
+    {
+      "id": "pwa",
+      "front": "PWA (Progressive Web App)",
+      "back": "Eine Web-App, die sich wie eine installierte App verhält: Du kannst Adaptive Learner im Browser öffnen oder per „Zum Startbildschirm hinzufügen“ installieren und danach teils offline nutzen.",
+      "notes": "Englisch: Progressive Web App. Läuft in Chrome, Edge und Safari.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grundlagen", "einsatz"]
+    },
+    {
+      "id": "einsatzformen",
+      "front": "Einsatzformen",
+      "back": "Adaptive Learner läuft als Web-App (PWA), als Desktop-App, selbst-gehostet per Docker oder im Entwickler-Setup. Derselbe Lernstoff funktioniert in allen Varianten.",
+      "notes": "Du wählst die Form, die zu dir passt — vom Browser bis zum eigenen Server.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["einsatz"]
+    },
+    {
+      "id": "offline",
+      "front": "Offline-Fähigkeit",
+      "back": "Vergangene Sitzungen, das Dashboard und die Fortschrittsansicht bleiben auch ohne Internet nutzbar (Zwischenspeicher für rund 24 Stunden). Erste Inhalte sind bereits mitgeliefert.",
+      "notes": "Praktisch für Bahn, Flugzeug oder unterwegs.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["einsatz"]
+    },
+    {
+      "id": "datenhoheit",
+      "front": "Datenhoheit",
+      "back": "Du behältst die Kontrolle über deine Daten: Du kannst rein lokal lernen, deine eigenen KI-Schlüssel verwenden und die App selbst hosten. Nichts zwingt dich in eine fremde Cloud.",
+      "notes": "Englisch: data ownership. Wichtig für Datenschutz und Unabhängigkeit.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["grundlagen", "datenschutz"]
+    },
+    {
+      "id": "srs",
+      "front": "Spaced Repetition (SRS)",
+      "back": "Ein Lernverfahren, das Karten in wachsenden Abständen wiederholt (z. B. nach 1, 3 und 7 Tagen), damit du dir Wissen langfristig merkst. Adaptive Learner plant diese Wiederholungen automatisch.",
+      "notes": "Englisch: Spaced Repetition System. Das Herzstück des langfristigen Behaltens.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grundlagen", "srs"]
+    },
+    {
+      "id": "offene-inhalte",
+      "front": "Offene Inhalte",
+      "back": "Die Lerninhalte sind frei und offen (CC-BY-SA): Du kannst mitgelieferte Sets nutzen, Inhalte aus GitHub-Repositorys hinzufügen oder eigene Sets erstellen und teilen.",
+      "notes": "Kein geschlossenes Ökosystem — Inhalte lassen sich forken und teilen.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["grundlagen", "inhalte"]
+    },
+    {
+      "id": "lektion",
+      "front": "Lektion",
+      "back": "Eine in sich abgeschlossene Lerneinheit von meist 5–15 Minuten. Sie besteht aus Theorie-Abschnitten und Übungen und arbeitet eine überschaubare Menge an Karten durch.",
+      "notes": "Die Lektion ist die Einheit, die du am Stück durcharbeitest.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["grundlagen", "struktur"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Was Adaptive Learner ist",
+      "body": "# Adaptive Learner\n\n**Adaptive Learner** ist eine KI-gestützte Lern-App. Ihr Kerngedanke: Nicht du passt dich starrem Lernmaterial an, sondern die App passt **Stoff und Methode an deinen Fortschritt an**.\n\nZwei Dinge greifen dabei ineinander:\n\n- **Strukturierte Lektionen** — fertige Einheiten aus Theorie und Übungen, die du am Stück durcharbeitest.\n- **Adaptive Lernsitzungen** — KI-begleitetes Üben, das sich an deine Stärken und Fehler anpasst.\n\nDu musst **nicht programmieren** können und brauchst keine Vorkenntnisse, um zu starten. Dieser Kurs zeigt dir Schritt für Schritt, wie die App funktioniert und wie du sie für dich nutzt."
+    },
+    {
+      "id": "step-einsatz",
+      "type": "theory",
+      "title": "Wo und wie du die App nutzt",
+      "body": "## Einsatzformen und Offline-Betrieb\n\nAdaptive Learner läuft in mehreren Formen — der Lernstoff bleibt überall gleich:\n\n| Form | Für wen |\n|---|---|\n| **Web-App (PWA)** | Einfach im Browser öffnen, optional installieren |\n| **Desktop-App** | Eigenes Fenster auf dem Rechner |\n| **Docker (self-hosted)** | Auf dem eigenen Server, volle Kontrolle |\n| **Entwickler-Setup** | Zum Mitentwickeln und Anpassen |\n\nEine **PWA** (Progressive Web App) verhält sich wie eine installierte App: „Zum Startbildschirm hinzufügen“ genügt.\n\n**Offline** bleiben vergangene Sitzungen, das Dashboard und die Fortschrittsansicht rund 24 Stunden verfügbar — praktisch für unterwegs."
+    },
+    {
+      "id": "step-datenhoheit",
+      "type": "theory",
+      "title": "Deine Daten, deine Kontrolle",
+      "body": "## Datenhoheit und offene Inhalte\n\nAdaptive Learner setzt auf **Datenhoheit**: Du entscheidest, wo deine Daten liegen.\n\n- **Rein lokal lernen** — alles bleibt im Browser, ohne Server.\n- **Eigene KI-Schlüssel** — du nutzt deinen eigenen Zugang zu Anthropic, OpenAI oder Google.\n- **Selbst hosten** — per Docker auf deinem eigenen Server.\n\nAuch die **Inhalte sind offen** (Lizenz CC-BY-SA): Du kannst mitgelieferte Sets nutzen, weitere aus GitHub-Repositorys hinzufügen oder eigene erstellen und teilen. So bist du weder an einen Anbieter noch an eine Cloud gebunden."
+    },
+    {
+      "id": "ex-match-einsatz",
+      "type": "exercise",
+      "theory_ref": "step-einsatz",
+      "title": "Einsatzformen zuordnen",
+      "exercise": {
+        "id": "ex-match-einsatz",
+        "type": "matching",
+        "prompt": "Ordne jede Einsatzform ihrer Beschreibung zu.",
+        "card_ids": ["pwa", "einsatzformen", "datenhoheit"],
+        "pairs": [
+          {"left": "Web-App (PWA)", "right": "im Browser öffnen und optional installieren"},
+          {"left": "Docker", "right": "selbst auf dem eigenen Server hosten"},
+          {"left": "Desktop-App", "right": "eigenes Fenster auf dem Rechner"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-was-ist",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Grundidee benennen",
+      "exercise": {
+        "id": "ex-free-was-ist",
+        "type": "free_text",
+        "prompt": "Wie heißt die App, die Lernstoff und Methode an deinen Fortschritt anpasst?",
+        "card_ids": ["adaptive-learner"],
+        "accept": ["Adaptive Learner", "adaptive learner", "Adaptive-Learner"],
+        "hint": "Der Name betont, dass sich die App an dich anpasst.",
+        "distractors": ["Anki", "Duolingo", "Moodle"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-offline",
+      "type": "exercise",
+      "theory_ref": "step-einsatz",
+      "title": "Offline nutzbar",
+      "exercise": {
+        "id": "ex-cloze-offline",
+        "type": "cloze",
+        "prompt": "Ergänze, wie die App auch ohne Internet funktioniert.",
+        "card_ids": ["offline"],
+        "sentence": "Vergangene Sitzungen, Dashboard und Fortschritt bleiben auch ___ nutzbar.",
+        "blanks": [{"accept": ["offline", "ohne Internet"]}],
+        "cloze_mode": "type",
+        "hint": "Das Gegenteil von „online“."
+      }
+    },
+    {
+      "id": "ex-tiles-datenhoheit",
+      "type": "exercise",
+      "theory_ref": "step-datenhoheit",
+      "title": "Merksatz zur Datenhoheit",
+      "exercise": {
+        "id": "ex-tiles-datenhoheit",
+        "type": "word_tiles",
+        "prompt": "Setze den Merksatz zusammen.",
+        "card_ids": ["datenhoheit"],
+        "tiles": ["Du", "behältst", "die", "Kontrolle", "über", "deine", "Daten"],
+        "hint": "Beginnt mit: Du behältst …",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-pwa",
+      "type": "exercise",
+      "theory_ref": "step-einsatz",
+      "title": "Was ist eine PWA?",
+      "exercise": {
+        "id": "ex-free-pwa",
+        "type": "free_text",
+        "prompt": "Wie nennt man eine Web-App, die sich installieren lässt und teils offline läuft (Abkürzung)?",
+        "card_ids": ["pwa"],
+        "accept": ["PWA", "Progressive Web App", "progressive web app"],
+        "hint": "Die Abkürzung beginnt mit P und steht für „Progressive …“.",
+        "distractors": ["URL", "HTML", "API"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-begriffe",
+      "type": "exercise",
+      "theory_ref": "step-datenhoheit",
+      "title": "Begriffe und Bedeutung",
+      "exercise": {
+        "id": "ex-match-begriffe",
+        "type": "matching",
+        "prompt": "Ordne jedem Begriff seine Bedeutung zu.",
+        "card_ids": ["srs", "offene-inhalte", "lektion"],
+        "pairs": [
+          {"left": "Spaced Repetition (SRS)", "right": "Wiederholung in wachsenden Abständen"},
+          {"left": "Offene Inhalte", "right": "freie Sets, die man teilen und forken kann"},
+          {"left": "Lektion", "right": "abgeschlossene Einheit aus Theorie und Übungen"}
+        ],
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}

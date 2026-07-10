@@ -1,0 +1,200 @@
+{
+  "id": "05-inhalte-entdecken",
+  "title": "Inhalte: Sets, Lektionen, Karten und Content Hub",
+  "description": "Wie Lerninhalte aufgebaut sind — Karte, Lektion, Set — und wie du im Content Hub Sets entdeckst, herunterlädst und eigene Quellen aus GitHub hinzufügst.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "software",
+  "estimated_minutes": 12,
+  "cards": [
+    {
+      "id": "karte",
+      "front": "Karte",
+      "back": "Die kleinste Lerneinheit: ein einzelner Begriff, ein Fakt oder eine Vokabel mit Vorder- und Rückseite. Die Wiederholungsplanung (SRS) verfolgt jede Karte einzeln.",
+      "notes": "Englisch: card. Vorderseite = Frage/Begriff, Rückseite = Antwort/Definition.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["struktur"]
+    },
+    {
+      "id": "lektion-struktur",
+      "front": "Lektion",
+      "back": "Eine abgeschlossene Einheit aus Theorie-Abschnitten und Übungen, die eine Gruppe von Karten durcharbeitet — meist 5–15 Minuten.",
+      "notes": "Mehrere Karten plus Theorie und Übungen ergeben eine Lektion.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["struktur"]
+    },
+    {
+      "id": "set",
+      "front": "Set",
+      "back": "Eine Sammlung zusammengehöriger Lektionen zu einem Thema, zum Beispiel „Spanisch A1“. Das Set ist die Einheit, die du herunterlädst.",
+      "notes": "Englisch: set. Karte → Lektion → Set: von klein nach groß.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["struktur"]
+    },
+    {
+      "id": "content-hub",
+      "front": "Content Hub",
+      "back": "Der Bereich der App, in dem du Lerninhalte findest, herunterlädst und verwaltest. Er ist in die Tabs „Entdecken“, „Meine Inhalte“ und „Import“ gegliedert.",
+      "notes": "Englisch: Content Hub. Deine zentrale Anlaufstelle für Inhalte.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["inhalte"]
+    },
+    {
+      "id": "tab-entdecken",
+      "front": "Tab „Entdecken“",
+      "back": "Zeigt verfügbare Sets aus öffentlichen Quellen zum Durchstöbern und Herunterladen.",
+      "notes": "Englisch: Discover. Hier findest du neue Inhalte.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["inhalte"]
+    },
+    {
+      "id": "tab-meine-inhalte",
+      "front": "Tab „Meine Inhalte“",
+      "back": "Zeigt die Sets, die du bereits heruntergeladen hast und lernen kannst.",
+      "notes": "Englisch: My content. Dein bereits geladener Vorrat.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["inhalte"]
+    },
+    {
+      "id": "content-repo",
+      "front": "Content-Repository",
+      "back": "Ein GitHub-Repository, das Lern-Sets bereitstellt. Du kannst es in den Einstellungen als Quelle hinzufügen; geprüfte Quellen erscheinen dann wie mitgelieferte Inhalte.",
+      "notes": "Englisch: content repository. So bringst du eigene oder fremde Inhalte in die App.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["inhalte", "quellen"]
+    },
+    {
+      "id": "vertrauensstufe",
+      "front": "Vertrauensstufe",
+      "back": "Eine Kennzeichnung, wie sehr einer Inhaltsquelle vertraut wird. Validierte Quellen werden als vollwertige Inhalte behandelt, unbekannte deutlicher markiert.",
+      "notes": "Englisch: trust level. Schützt vor ungeprüften Quellen.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["inhalte", "quellen"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Von der Karte zum Set",
+      "body": "# Wie Inhalte aufgebaut sind\n\nLerninhalte in Adaptive Learner sind in drei Ebenen gegliedert — von klein nach groß:\n\n- **Karte** — die kleinste Einheit: ein Begriff mit Vorder- und Rückseite. Die Wiederholungsplanung verfolgt jede Karte einzeln.\n- **Lektion** — Theorie und Übungen, die eine Gruppe von Karten durcharbeiten (5–15 Minuten).\n- **Set** — eine Sammlung zusammengehöriger Lektionen zu einem Thema (z. B. „Spanisch A1“).\n\nDas **Set** ist die Einheit, die du herunterlädst. Genau dieser Kurs, den du gerade liest, ist ebenfalls ein Set."
+    },
+    {
+      "id": "step-hub",
+      "type": "theory",
+      "title": "Der Content Hub",
+      "body": "## Inhalte finden und verwalten\n\nDer **Content Hub** ist deine zentrale Anlaufstelle für Inhalte. Er hat drei Tabs:\n\n| Tab | Zweck |\n|---|---|\n| **Entdecken** | verfügbare Sets durchstöbern und herunterladen |\n| **Meine Inhalte** | bereits geladene Sets zum Lernen |\n| **Import** | eigene Inhalte oder Chatverläufe einbringen |\n\nEin Set lädst du herunter, indem du es unter **Entdecken** auswählst und auf **Herunterladen** tippst. Danach findest du es unter **Meine Inhalte** — auch offline."
+    },
+    {
+      "id": "step-quellen",
+      "type": "theory",
+      "title": "Eigene Quellen hinzufügen",
+      "body": "## Content-Repositorys und Vertrauen\n\nDie App ist nicht auf die mitgelieferten Inhalte beschränkt. Über **Einstellungen → Integrationen → Repository hinzufügen** kannst du ein **Content-Repository** auf GitHub als Quelle eintragen.\n\nDamit du weißt, worauf du dich verlässt, tragen Quellen eine **Vertrauensstufe**:\n\n- **Validierte Quellen** werden wie mitgelieferte Inhalte behandelt.\n- **Unbekannte Quellen** werden deutlicher gekennzeichnet, damit du bewusst entscheidest.\n\nSo kannst du Inhalte von Lehrkräften, Communities oder dir selbst nutzen — ohne die Kontrolle zu verlieren."
+    },
+    {
+      "id": "ex-tiles-hierarchie",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Von klein nach groß",
+      "exercise": {
+        "id": "ex-tiles-hierarchie",
+        "type": "word_tiles",
+        "prompt": "Ordne die drei Inhaltsebenen von der kleinsten zur größten.",
+        "card_ids": ["karte", "lektion-struktur", "set"],
+        "tiles": ["Karte", "Lektion", "Set"],
+        "hint": "Die kleinste Einheit ist ein einzelner Begriff.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-tabs",
+      "type": "exercise",
+      "theory_ref": "step-hub",
+      "title": "Content-Hub-Tabs",
+      "exercise": {
+        "id": "ex-match-tabs",
+        "type": "matching",
+        "prompt": "Ordne jedem Tab des Content Hubs seinen Zweck zu.",
+        "card_ids": ["tab-entdecken", "tab-meine-inhalte", "content-hub"],
+        "pairs": [
+          {"left": "Entdecken", "right": "neue Sets durchstöbern und herunterladen"},
+          {"left": "Meine Inhalte", "right": "bereits geladene Sets lernen"},
+          {"left": "Import", "right": "eigene Inhalte oder Chatverläufe einbringen"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-set",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Was man herunterlädt",
+      "exercise": {
+        "id": "ex-free-set",
+        "type": "free_text",
+        "prompt": "Wie heißt die Sammlung zusammengehöriger Lektionen, die man als Ganzes herunterlädt?",
+        "card_ids": ["set"],
+        "accept": ["Set", "ein Set", "das Set"],
+        "hint": "Zum Beispiel „Spanisch A1“.",
+        "distractors": ["Karte", "Tab", "Badge"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-repo",
+      "type": "exercise",
+      "theory_ref": "step-quellen",
+      "title": "Eigene Quelle eintragen",
+      "exercise": {
+        "id": "ex-cloze-repo",
+        "type": "cloze",
+        "prompt": "Ergänze, welche Art von Quelle du in den Einstellungen hinzufügst.",
+        "card_ids": ["content-repo"],
+        "sentence": "Ein Content-___ auf GitHub stellt Sets bereit, die du als Quelle hinzufügen kannst.",
+        "blanks": [{"accept": ["Repository", "Repo"]}],
+        "cloze_mode": "type",
+        "hint": "Der englische Begriff für ein Code-Verzeichnis auf GitHub."
+      }
+    },
+    {
+      "id": "ex-free-hub",
+      "type": "exercise",
+      "theory_ref": "step-hub",
+      "title": "Wo man Inhalte findet",
+      "exercise": {
+        "id": "ex-free-hub",
+        "type": "free_text",
+        "prompt": "Wie heißt der Bereich der App, in dem du Inhalte findest, herunterlädst und verwaltest?",
+        "card_ids": ["content-hub"],
+        "accept": ["Content Hub", "Content-Hub", "content hub"],
+        "hint": "Ein englischer Name mit „Hub“ (Knotenpunkt).",
+        "distractors": ["Dashboard", "Einstellungen", "Profil"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-vertrauen",
+      "type": "exercise",
+      "theory_ref": "step-quellen",
+      "title": "Wie sicher ist eine Quelle?",
+      "exercise": {
+        "id": "ex-cloze-vertrauen",
+        "type": "cloze",
+        "prompt": "Ergänze, was angibt, wie sehr einer Quelle vertraut wird.",
+        "card_ids": ["vertrauensstufe"],
+        "sentence": "Jede Quelle trägt eine ___, die anzeigt, wie geprüft sie ist.",
+        "blanks": [{"accept": ["Vertrauensstufe", "Vertrauensstufe (trust level)"]}],
+        "cloze_mode": "type",
+        "hint": "Validiert oder unbekannt — es geht um Vertrauen."
+      }
+    }
+  ]
+}

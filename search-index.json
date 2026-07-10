@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/adaptive-learner-content",
-  "generated": "2026-07-07T09:21:12Z",
+  "generated": "2026-07-09T19:08:29Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -698,8 +698,29 @@
       "trust_level": 3,
       "book": null,
       "updated_at": "2026-07-06T14:39:22+02:00"
+    },
+    {
+      "id": "adaptive-learner-app-from-de",
+      "name": "Adaptive Learner — App-Tutorial",
+      "description": "Zwölf Einführungslektionen zur Lern-App Adaptive Learner selbst, auf Deutsch erklärt: Überblick und Einsatzformen, erste Schritte und Onboarding, die sechs Lernmethoden, der Sieben-Schritte-Lernzyklus mit Auto-Loop, Inhalte (Karten, Lektionen, Sets) und Content Hub, die fünf Übungstypen und Lektionsmodi, Spaced Repetition, KI-Anbieter und API-Schlüssel, Speicher/Synchronisierung/Backup, Motivation (XP, Level, Abzeichen, Streaks), Import und Export sowie das Erstellen und Teilen eigener Inhalte.",
+      "source_language": "de",
+      "target_language": "de",
+      "level": "einsteiger",
+      "domain": "software",
+      "lesson_count": 12,
+      "card_count": 95,
+      "tags": [
+        "beginner",
+        "tutorial",
+        "app",
+        "onboarding"
+      ],
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-07-09T21:06:52+02:00"
     }
   ],
-  "total_lessons": 487,
-  "total_cards": 5824
+  "total_lessons": 499,
+  "total_cards": 5919
 }

@@ -796,6 +796,31 @@ sets:
       - ai
       - data-science
       - machine-learning
+  - id: adaptive-learner-app-from-de
+    title: Adaptive Learner — App-Tutorial
+    title_native: Adaptive Learner — App-Tutorial
+    target_language: de
+    source_language: de
+    domain: software
+    level: Einsteiger
+    path: sets/de/adaptive-learner-app
+    version: '1.0.0'
+    lesson_count: 12
+    domain_label: App-Tutorial
+    description: >-
+      Begleitkurs zur Lern-App Adaptive Learner selbst, auf Deutsch
+      (12 Lektionen): Überblick und Einsatzformen, erste Schritte und
+      Onboarding, die sechs Lernmethoden, der Sieben-Schritte-Lernzyklus
+      mit Auto-Loop, Inhalte (Karten, Lektionen, Sets) und Content Hub,
+      die fünf Übungstypen und Lektionsmodi, Spaced Repetition, KI-Anbieter
+      und API-Schlüssel, Speicher/Synchronisierung/Backup, Motivation
+      (XP, Level, Abzeichen, Streaks), Import und Export sowie das
+      Erstellen und Teilen eigener Inhalte. Sachthemen-Set (domain: software).
+    tags:
+      - beginner
+      - tutorial
+      - app
+      - onboarding
 metadata:
   author: Asterios Raptis
   license: CC-BY-SA-4.0

@@ -1,0 +1,219 @@
+{
+  "id": "04-lernzyklus",
+  "title": "Der Lernzyklus: sieben Schritte und Auto-Loop",
+  "description": "Wie eine Sitzung innen abläuft: der Sieben-Schritte-Zyklus von der Eingabe bis zur Integration, die KI-Bewertung und der Auto-Loop, der neue Teilthemen anschließt.",
+  "target_language": "de",
+  "source_language": "de",
+  "domain": "software",
+  "estimated_minutes": 13,
+  "cards": [
+    {
+      "id": "lernzyklus",
+      "front": "Lernzyklus",
+      "back": "Der strukturierte Ablauf innerhalb einer Sitzung. Er führt in sieben Schritten von der ersten Eingabe bis zur Festigung des Gelernten.",
+      "notes": "Englisch: learning cycle. Das Gerüst jeder Sitzung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["zyklus"]
+    },
+    {
+      "id": "schritt-input",
+      "front": "Schritt 1: Eingabe (Input)",
+      "back": "Der neue Stoff wird dir präsentiert — der Ausgangspunkt des Zyklus.",
+      "notes": "Englisch: input. Hier bekommst du das Material.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["zyklus"]
+    },
+    {
+      "id": "schritt-fokus",
+      "front": "Schritt 2: Fokus (Focus)",
+      "back": "Der Blick wird auf den zentralen Punkt gelenkt, um den es in diesem Durchgang geht.",
+      "notes": "Englisch: focus. Aufmerksamkeit bündeln.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["zyklus"]
+    },
+    {
+      "id": "schritt-versuch",
+      "front": "Schritt 3: Versuch (Attempt)",
+      "back": "Du wendest den Stoff selbst an und gibst deine Antwort oder Lösung ein.",
+      "notes": "Englisch: attempt. Dein aktiver Beitrag.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["zyklus"]
+    },
+    {
+      "id": "schritt-feedback",
+      "front": "Schritt 4: Rückmeldung (Feedback)",
+      "back": "Die KI bewertet deinen Versuch und sagt dir, was gut war und was noch fehlt.",
+      "notes": "Englisch: feedback. Ohne Rückmeldung kein gezieltes Lernen.",
+      "media_type": "text",
+      "difficulty": 1,
+      "tags": ["zyklus"]
+    },
+    {
+      "id": "schritt-verfeinern",
+      "front": "Schritt 5: Verfeinern (Refine)",
+      "back": "Du besserst deine Antwort anhand der Rückmeldung nach und schärfst dein Verständnis.",
+      "notes": "Englisch: refine. Aus dem Feedback wird Verbesserung.",
+      "media_type": "text",
+      "difficulty": 2,
+      "tags": ["zyklus"]
+    },
+    {
+      "id": "schritt-transfer",
+      "front": "Schritt 6: Übertragung (Transfer)",
+      "back": "Du wendest das Gelernte auf eine neue Situation an, um zu zeigen, dass du es wirklich beherrschst.",
+      "notes": "Englisch: transfer. Wissen wird beweglich.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["zyklus"]
+    },
+    {
+      "id": "schritt-integration",
+      "front": "Schritt 7: Integration (Integrate)",
+      "back": "Das Gelernte wird mit deinem übrigen Wissen verknüpft und gefestigt — der Abschluss des Zyklus.",
+      "notes": "Englisch: integrate. Der Stoff wird Teil deines Wissens.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["zyklus"]
+    },
+    {
+      "id": "ki-bewertung",
+      "front": "KI-Bewertung",
+      "back": "Am Ende eines Durchgangs entscheidet die KI, ob du weitergehst, den Schritt wiederholst, ihn überspringst oder einen Schritt zurückgehst.",
+      "notes": "Vier mögliche Entscheidungen: weiter, wiederholen, überspringen, zurück.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["zyklus", "adaptiv"]
+    },
+    {
+      "id": "auto-loop",
+      "front": "Auto-Loop",
+      "back": "Ist ein Zyklus abgeschlossen, startet die App automatisch einen neuen zu einem weiteren Teilthema — bis zu fünf pro Sitzung.",
+      "notes": "Englisch: auto-loop. Hält den Lernfluss in Gang, ohne dass du neu starten musst.",
+      "media_type": "text",
+      "difficulty": 3,
+      "tags": ["zyklus", "adaptiv"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "intro",
+      "type": "theory",
+      "title": "Die sieben Schritte",
+      "body": "# Der Lernzyklus\n\nJede Sitzung läuft innen nach demselben **Lernzyklus** aus **sieben Schritten** ab:\n\n1. **Eingabe** (Input) — der neue Stoff wird gezeigt.\n2. **Fokus** (Focus) — der zentrale Punkt wird hervorgehoben.\n3. **Versuch** (Attempt) — du wendest den Stoff selbst an.\n4. **Rückmeldung** (Feedback) — die KI bewertet deinen Versuch.\n5. **Verfeinern** (Refine) — du besserst nach.\n6. **Übertragung** (Transfer) — du nutzt das Gelernte in einer neuen Situation.\n7. **Integration** (Integrate) — der Stoff wird mit deinem Wissen verknüpft.\n\nDieser Ablauf sorgt dafür, dass du nicht nur *hörst*, sondern *anwendest*, *korrigierst* und *überträgst* — die Voraussetzung für echtes Behalten."
+    },
+    {
+      "id": "step-bewertung",
+      "type": "theory",
+      "title": "Die KI entscheidet den nächsten Schritt",
+      "body": "## Weiter, wiederholen, überspringen, zurück\n\nAm Ende eines Durchgangs trifft die **KI-Bewertung** eine von vier Entscheidungen — je nachdem, wie gut du warst:\n\n| Entscheidung | Bedeutung |\n|---|---|\n| **Weiter** | Du hast es verstanden, es geht voran |\n| **Wiederholen** | Derselbe Punkt wird noch einmal geübt |\n| **Überspringen** | Zu leicht — dieser Punkt entfällt |\n| **Zurück** | Eine Grundlage fehlt, ein Schritt zurück |\n\nSo passt sich das Tempo automatisch an dich an: Sicheres wird übersprungen, Wackliges wiederholt."
+    },
+    {
+      "id": "step-autoloop",
+      "type": "theory",
+      "title": "Der Auto-Loop hält den Fluss",
+      "body": "## Automatisch zum nächsten Teilthema\n\nHast du einen Zyklus abgeschlossen, musst du nicht neu starten: Der **Auto-Loop** beginnt von selbst einen neuen Zyklus zu einem weiteren Teilthema.\n\n- Pro Sitzung sind **bis zu fünf** solcher Durchgänge vorgesehen.\n- Kommst du längere Zeit nicht voran, schlägt die App zusätzlich einen **Methodenwechsel** vor.\n\nSo bleibst du im Lernfluss, ohne ständig Entscheidungen treffen zu müssen."
+    },
+    {
+      "id": "ex-tiles-zyklus",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Die ersten vier Schritte",
+      "exercise": {
+        "id": "ex-tiles-zyklus",
+        "type": "word_tiles",
+        "prompt": "Bringe die ersten vier Schritte des Zyklus in die richtige Reihenfolge.",
+        "card_ids": ["schritt-input", "schritt-fokus", "schritt-versuch", "schritt-feedback"],
+        "tiles": ["Eingabe", "Fokus", "Versuch", "Rückmeldung"],
+        "hint": "Erst wird gezeigt, dann angewendet, dann bewertet.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-match-schritte",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Schritt und Bedeutung",
+      "exercise": {
+        "id": "ex-match-schritte",
+        "type": "matching",
+        "prompt": "Ordne jedem Schritt seine Bedeutung zu.",
+        "card_ids": ["schritt-versuch", "schritt-feedback", "schritt-transfer", "schritt-integration"],
+        "pairs": [
+          {"left": "Versuch", "right": "du wendest den Stoff selbst an"},
+          {"left": "Rückmeldung", "right": "die KI bewertet deinen Versuch"},
+          {"left": "Übertragung", "right": "Anwendung auf eine neue Situation"},
+          {"left": "Integration", "right": "Verknüpfen und Festigen des Wissens"}
+        ],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-free-schritte-zahl",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Wie viele Schritte?",
+      "exercise": {
+        "id": "ex-free-schritte-zahl",
+        "type": "free_text",
+        "prompt": "Aus wie vielen Schritten besteht der Lernzyklus?",
+        "card_ids": ["lernzyklus"],
+        "accept": ["sieben", "7"],
+        "hint": "Eine Zahl zwischen sechs und acht.",
+        "distractors": ["fünf", "sechs", "zehn"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-autoloop",
+      "type": "exercise",
+      "theory_ref": "step-autoloop",
+      "title": "Wie viele Durchgänge?",
+      "exercise": {
+        "id": "ex-cloze-autoloop",
+        "type": "cloze",
+        "prompt": "Ergänze die Höchstzahl der Auto-Loop-Durchgänge pro Sitzung.",
+        "card_ids": ["auto-loop"],
+        "sentence": "Der Auto-Loop startet pro Sitzung bis zu ___ neue Zyklen.",
+        "blanks": [{"accept": ["fünf", "5"]}],
+        "cloze_mode": "type",
+        "hint": "Eine Hand voll."
+      }
+    },
+    {
+      "id": "ex-free-bewertung",
+      "type": "exercise",
+      "theory_ref": "step-bewertung",
+      "title": "Eine Entscheidung der KI",
+      "exercise": {
+        "id": "ex-free-bewertung",
+        "type": "free_text",
+        "prompt": "Nenne eine der vier Entscheidungen, die die KI-Bewertung treffen kann.",
+        "card_ids": ["ki-bewertung"],
+        "accept": ["weiter", "wiederholen", "überspringen", "ueberspringen", "zurück", "zurueck", "zurückgehen"],
+        "hint": "Zum Beispiel: den Schritt noch einmal üben.",
+        "distractors": ["löschen", "kaufen", "teilen"],
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-cloze-integration",
+      "type": "exercise",
+      "theory_ref": "intro",
+      "title": "Der letzte Schritt",
+      "exercise": {
+        "id": "ex-cloze-integration",
+        "type": "cloze",
+        "prompt": "Ergänze den Namen des siebten und letzten Schritts.",
+        "card_ids": ["schritt-integration"],
+        "sentence": "Im letzten Schritt, der ___, wird das Gelernte mit deinem Wissen verknüpft.",
+        "blanks": [{"accept": ["Integration"]}],
+        "cloze_mode": "type",
+        "hint": "Etwas wird zu einem Ganzen zusammengefügt."
+      }
+    }
+  ]
+}
