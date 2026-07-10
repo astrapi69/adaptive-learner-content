@@ -2,7 +2,7 @@
 
 ``ai_validation`` is a content-repo-local provenance block (which AI
 reviewed the set, when, with what result). The canonical manifest format
-(app Pydantic → engine ``content-manifest.schema.json``, strict
+(engine ``content-manifest.schema.json``, strict
 ``additionalProperties: false``) does not know it, so it must live in the
 set manifest's free-form top-level ``metadata`` block — NOT in the strict
 set entry. This test pins the one consumer (``generate_search_index``):

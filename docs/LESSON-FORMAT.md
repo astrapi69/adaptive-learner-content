@@ -4,10 +4,11 @@
 > learn-content-engine repository.** This repo no longer keeps a parallel
 > copy that could drift.
 
-The lesson format is canonical along the chain **adaptive-learner Pydantic →
-[`learn-content-engine`](https://github.com/astrapi69/learn-content-engine) →
-this mirror**: the schema is generated from the app's Pydantic model, vendored
-by the engine per its documented sync procedure, and mirrored here pinned to
+The lesson format is canonical in
+[`learn-content-engine`](https://github.com/astrapi69/learn-content-engine)
+along the chain **engine (canonical) →
+this mirror**: the engine ships the schema in every npm release, and it is
+mirrored here pinned to
 the engine version in [`schema/engine-version.txt`](../schema/engine-version.txt).
 This content repo only **mirrors** the machine-readable schema and follows
 it — it does not define or extend the format.

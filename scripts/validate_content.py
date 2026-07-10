@@ -5,8 +5,8 @@ This is the SECOND of Adaptive Learner's two validation layers (the app
 runs the same checks client-side before a community share). The
 **structural** definition of a lesson comes from the vendored JSON Schema
 under ``schema/lesson.schema.json`` — a MIRROR of the pinned
-``learn-content-engine`` release (source of truth chain: adaptive-learner
-Pydantic -> engine -> this mirror; see ``schema/README.md``) — and this
+``learn-content-engine`` release (source of truth chain: engine
+(canonical) -> this mirror; see ``schema/README.md``) — and this
 validator FOLLOWS it instead of re-implementing the field rules. It is
 deliberately Python-only (``jsonschema``, no node/ajv, no app install)
 and validates fully OFFLINE against the vendored mirror.
