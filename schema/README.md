@@ -4,17 +4,14 @@
 are a **mirror of the
 [`learn-content-engine`](https://github.com/astrapi69/learn-content-engine)
 npm package, pinned to the version in [`engine-version.txt`](engine-version.txt)**
-(source of truth chain: **adaptive-learner Pydantic → engine → this mirror**).
+(source of truth chain: **engine (canonical) → this mirror**).
 
 > ⚠️ **Do not hand-edit `lesson.schema.json` in this repo.** It is a
 > byte-for-byte copy of the schema the pinned engine release ships. The single
-> source of truth is the Pydantic model in
-> `adaptive_learner_content_loader.schema` in the
-> [adaptive-learner](https://github.com/astrapi69/adaptive-learner) app; the
-> engine vendors the generated schema via its documented
-> [schema-sync procedure](https://github.com/astrapi69/learn-content-engine#schema-sync-from-adaptive-learner)
-> and publishes it with every release — this repo mirrors **the engine
-> release**, never the app directly.
+> source of truth is the
+> [`learn-content-engine`](https://github.com/astrapi69/learn-content-engine)
+> release; the engine publishes the schema with every release — this repo
+> mirrors **the engine release**.
 
 ## Files in this directory
 

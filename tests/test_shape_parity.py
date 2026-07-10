@@ -3,7 +3,7 @@
 
 The lesson SHAPE is defined by ``schema/lesson.schema.json`` — a vendored
 mirror of the pinned ``learn-content-engine`` release (source of truth chain:
-adaptive-learner Pydantic -> engine -> this mirror) — and validated here with
+engine (canonical) -> this mirror) — and validated here with
 ``jsonschema`` exactly as the engine/app validate it with ``ajv``. The
 remaining half of the #699 contract is *parity* — every consumer must
 accept/reject every input identically.
