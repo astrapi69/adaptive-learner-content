@@ -1,8 +1,8 @@
 # Schema-mirror drift gate — pinned to the learn-content-engine release.
 #
 # schema/lesson.schema.json is a MIRROR of the learn-content-engine npm
-# package (source-of-truth chain: adaptive-learner Pydantic -> engine ->
-# this mirror; see schema/README.md). This job downloads the npm tarball
+# package (source-of-truth chain: engine (canonical) -> this mirror; see
+# schema/README.md). This job downloads the npm tarball
 # of the PINNED engine version (schema/engine-version.txt) and compares
 # it byte-for-byte against the committed mirror. It goes red if the
 # mirror was hand-edited or a pin bump forgot the refresh — never

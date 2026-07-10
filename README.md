@@ -164,7 +164,7 @@ Aufgaben-Felder, die fünf Aufgabentypen und die drei cloze-Modi) wird hier
   [`schema/engine-version.txt`](schema/engine-version.txt))
 
 Das Schema in diesem Repo ist ein Spiegel des `learn-content-engine`-Release
-(Quell-Kette: adaptive-learner Pydantic, dann engine, dann dieser Spiegel).
+(Quell-Kette: engine (kanonisch), dann dieser Spiegel).
 Jede Lektion und jedes Manifest werden im CI vom gepinnten Engine-Validator
 geprüft (Workflow `Engine validate`, plus die strukturelle Schema-Validierung),
 sodass "validiert gegen die Engine" und "lädt in

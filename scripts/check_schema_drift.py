@@ -5,9 +5,9 @@ The format artefacts under ``schema/`` (``lesson.schema.json``,
 ``content-manifest.schema.json`` and — since engine 0.4.0 —
 ``quality-rules.json``) are a MIRROR of the
 `learn-content-engine <https://github.com/astrapi69/learn-content-engine>`_
-package (source-of-truth chain: **adaptive-learner Pydantic -> engine ->
-this mirror**). The engine vendors the app-generated artefacts via its
-documented schema-sync procedure and ships them in every npm release; this
+package (source-of-truth chain: **engine (canonical) -> this mirror**).
+The engine is the canonical schema source and ships these artefacts in
+every npm release; this
 repo keeps a byte-for-byte copy plus this gate so an engine schema bump
 has a visible consequence here (CI goes red until the mirror + pin are
 refreshed) instead of silently drifting apart.
