@@ -140,6 +140,10 @@ zurückgelesen. Änderungen fließen ausschließlich über die einzelnen
 schema-validierten Lektions-JSONs unter `sets/` ein. Der Ordner
 `exports/` ist gitignored.
 
+Ausführliche Anleitung und Best Practices (u. a. Quellkapitel-Workflow):
+[`docs/export-set-usage.de.md`](docs/export-set-usage.de.md) (Deutsch) /
+[`docs/export-set-usage.md`](docs/export-set-usage.md) (English).
+
 ### Status-Legende
 - **✓ Validiert**: KI-geprüft + manuell gesichtet (`ai_validated: true`)
 - **Review**: Kuratierter Inhalt, wartet auf KI-Validierung und Native-Speaker Review
