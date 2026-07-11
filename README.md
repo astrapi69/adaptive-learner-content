@@ -1,5 +1,7 @@
 # Adaptive Learner Content
 
+[![content validation](https://github.com/astrapi69/adaptive-learner-content/actions/workflows/validate-content.yml/badge.svg)](https://github.com/astrapi69/adaptive-learner-content/actions/workflows/validate-content.yml)
+[![engine on npm](https://img.shields.io/npm/v/learn-content-engine?label=engine%20on%20npm)](https://www.npmjs.com/package/learn-content-engine)
 [![Sets](https://img.shields.io/badge/sets-35-0d9488)](#content-sets)
 [![Lessons](https://img.shields.io/badge/lessons-499-0d9488)](#content-sets)
 [![Cards](https://img.shields.io/badge/cards-5919-0d9488)](#content-sets)
@@ -192,7 +194,7 @@ sets/
 ### Manifest- und Lektions-Format
 
 Das Feld-Schema (Root- und Set-`manifest.yaml`, alle Lektions- und
-Aufgaben-Felder, die fünf Aufgabentypen und die drei cloze-Modi) wird hier
+Aufgaben-Felder, die sechs Aufgabentypen und die drei cloze-Modi) wird hier
 **nicht dupliziert**. Es ist die kanonische Engine-Referenz:
 
 - [learn-content-engine, Lesson format reference](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md)
