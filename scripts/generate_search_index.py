@@ -24,7 +24,9 @@ Per set the index records:
     manifests — the canonical manifest schema keeps set entries strict)
   * trust_level: this repo's level from recommended-repos.json, else 1
   * book: the set's ``book`` block, else null
-  * updated_at: ``git log -1 --format=%cI`` for the set directory
+  * updated_at: ``git log -1 --format=%cI`` for the set directory,
+    serialized canonically as UTC with a ``Z`` suffix regardless of
+    the source (git emits the committer's local offset)
 
 Usage:
   python scripts/generate_search_index.py
@@ -87,6 +89,21 @@ def repo_trust_level() -> int:
             if isinstance(level, int):
                 return level
     return DEFAULT_TRUST_LEVEL
+
+
+def canonical_utc(stamp: str) -> str:
+    """Serialize an ISO-8601 timestamp canonically: UTC with a ``Z`` suffix.
+
+    Accepts offset forms (``+02:00``, git's ``%cI``), ``Z``-suffixed and
+    naive stamps (naive is taken as already-UTC), so the git source and
+    the ``generated`` fallback serialize identically in every
+    environment. Raises ``ValueError`` for non-ISO input (crash early:
+    a malformed stamp is a generator bug, not content).
+    """
+    parsed = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def git_updated_at(set_dir: Path) -> str | None:
@@ -153,7 +170,9 @@ def build_set_entry(
 
     card_count = count_cards(set_dir, lessons, errors, sid) if set_dir is not None else 0
 
-    updated_at = (git_updated_at(set_dir) if set_dir is not None else None) or generated
+    updated_at = canonical_utc(
+        (git_updated_at(set_dir) if set_dir is not None else None) or generated
+    )
 
     return {
         "id": sid,
