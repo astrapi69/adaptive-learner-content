@@ -19,7 +19,7 @@ it — it does not define or extend the format.
   [`learn-content-engine/docs/lesson-format.md`](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md)
 - **Machine-readable JSON Schema (mirrored into this repo, pinned):**
   [`schema/lesson.schema.json`](../schema/lesson.schema.json) — Draft 2020-12,
-  `x-schema-version: 1.6`; also importable as
+  `x-schema-version: 1.7`; also importable as
   `learn-content-engine/schema/lesson.schema.json` from the npm package.
   Reference it from a lesson `.json` via `"$schema"` for IDE autocomplete +
   validation. See [`schema/README.md`](../schema/README.md) for how the
@@ -35,7 +35,9 @@ it — it does not define or extend the format.
   `cloze` `select`/`multiselect` vehicle; since v1.5 `matching` with
   `from_cards: true` — the pairs are derived from the referenced `card_ids`
   (left = card `front`, right = card `back`) instead of an explicit `pairs`
-  list.
+  list; since v1.7 an opt-in `ext:` namespace for extension exercise types
+  (see `docs/extensions.md` in the engine repo) - this content repo uses
+  core types only.
 - **Which exercise type for which learning goal (didactic guideline, EXP-041):**
   the schema tells you the *shape* of each type, not *when* to use it. Choose the
   type by learning goal — facts/definitions as `cloze` (or multiple choice via
