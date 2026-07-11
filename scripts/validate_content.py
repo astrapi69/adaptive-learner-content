@@ -251,7 +251,25 @@ def validate_lesson_quality(lesson: dict, source: str, label: str, errors: list[
 
     if len(exercises) < MIN_EXERCISES:
         errors.append(f"{label}: {len(exercises)} exercises (need >= {MIN_EXERCISES})")
-    if len(types) < MIN_TYPES:
+    # MIN_TYPES enforces exercise variety for normal (language-learning) sets.
+    # A DELIBERATE multiple-choice-only lesson (e.g. an exam-style question
+    # set) is a valid, intended artifact, so it is exempt from the variety
+    # rule - same exemption as in the sibling content repos. Since schema
+    # v1.6 multiple choice has TWO authoring forms (coexistence): the native
+    # ``multiple_choice`` type (engine 0.8.x) and the legacy ``cloze``
+    # ``select`` (single-answer, EXP-036 §4.3 / #890) / ``multiselect``
+    # ("select all that apply", #1195) vehicle - the exemption treats them
+    # alike. This is a content-repo quality-layer relaxation only; the
+    # canonical schema shape + the schema mirror are untouched.
+    mc_only = bool(exercises) and all(
+        e.get("type") == "multiple_choice"
+        or (
+            e.get("type") == "cloze"
+            and e.get("cloze_mode") in ("select", "multiselect")
+        )
+        for e in exercises
+    )
+    if len(types) < MIN_TYPES and not mc_only:
         errors.append(f"{label}: {len(types)} exercise type(s) (need >= {MIN_TYPES})")
     if len(theory) < MIN_THEORY:
         errors.append(f"{label}: no theory step")
