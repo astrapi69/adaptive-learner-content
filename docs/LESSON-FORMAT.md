@@ -19,7 +19,7 @@ it — it does not define or extend the format.
   [`learn-content-engine/docs/lesson-format.md`](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md)
 - **Machine-readable JSON Schema (mirrored into this repo, pinned):**
   [`schema/lesson.schema.json`](../schema/lesson.schema.json) — Draft 2020-12,
-  `x-schema-version: 1.5`; also importable as
+  `x-schema-version: 1.6`; also importable as
   `learn-content-engine/schema/lesson.schema.json` from the npm package.
   Reference it from a lesson `.json` via `"$schema"` for IDE autocomplete +
   validation. See [`schema/README.md`](../schema/README.md) for how the
@@ -27,10 +27,20 @@ it — it does not define or extend the format.
 - **Shared quality minimums:** [`schema/quality-rules.json`](../schema/quality-rules.json)
   (`minExercisesPerLesson`, `minExerciseTypes`, `minFreeTextAccepts`,
   `minMatchingPairs`, `minTheorySteps`).
+- **Newer schema features** (tested examples in the engine reference above):
+  since v1.6 the native `multiple_choice` exercise type — `options` as a list
+  of `{text, correct?}` with unique texts, `multiple: false` (default) for
+  exactly one correct option (single choice) and `multiple: true` for
+  "select all that apply" with exact-set grading, coexisting with the legacy
+  `cloze` `select`/`multiselect` vehicle; since v1.5 `matching` with
+  `from_cards: true` — the pairs are derived from the referenced `card_ids`
+  (left = card `front`, right = card `back`) instead of an explicit `pairs`
+  list.
 - **Which exercise type for which learning goal (didactic guideline, EXP-041):**
   the schema tells you the *shape* of each type, not *when* to use it. Choose the
   type by learning goal — facts/definitions as `cloze` (or multiple choice via
-  `cloze` `select` mode), `word_tiles` only for sentences with one unambiguous
+  the native `multiple_choice` type or the legacy `cloze` `select` mode),
+  `word_tiles` only for sentences with one unambiguous
   word order, and never exact-match grading for free production (it red-marks a
   content-correct learner). Full guideline in the app authoring guide:
   English — <https://astrapi69.github.io/adaptive-learner/docs/en/developer/authoring-content/>
