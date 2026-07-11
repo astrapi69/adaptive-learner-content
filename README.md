@@ -109,6 +109,20 @@ Jedes Set durchläuft eine automatische Qualitätsprüfung:
 Alle Pull Requests werden zusätzlich in der CI automatisch validiert
 (`python3 scripts/validate_content.py`).
 
+**Vor dem Push** das Engine-Gate lokal laufen lassen - dieselben
+semantischen Regeln (`E-CARD-REF`, Cloze-Marker, Multiple-Choice-Regeln),
+die sonst erst die CI meldet:
+
+```bash
+make lint
+```
+
+Der erste Lauf installiert die in `schema/engine-version.txt` gepinnte
+Engine lokal nach `node_modules/` (gitignored; braucht Node.js und npm),
+danach laufen Selbsttest und der volle Engine-Lauf wie im CI-Workflow
+`Engine validate`. Optional gibt `make lint-warnings` die Warnungen
+(`W-*`) der Engine-CLI über alle Lektionen aus.
+
 ### Set-Export für KI-Review
 
 `scripts/export_set.py` schreibt alle Lektionen EINES Sets in eine
