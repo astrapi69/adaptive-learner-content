@@ -100,3 +100,9 @@ __pycache__/
 #################
 # modules of the pinned engine (Engine validate gate; never committed)
 node_modules/
+
+#################
+# set exports   #
+#################
+# export_set.py snapshots for AI review: read-only, never committed
+exports/

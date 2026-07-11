@@ -107,6 +107,39 @@ Jedes Set durchläuft eine automatische Qualitätsprüfung:
 Alle Pull Requests werden zusätzlich in der CI automatisch validiert
 (`python3 scripts/validate_content.py`).
 
+### Set-Export für KI-Review
+
+`scripts/export_set.py` schreibt alle Lektionen EINES Sets in eine
+einzige YAML- (oder JSON-) Datei, damit ein KI-Assistent oder ein Mensch
+das ganze Set in einem Durchgang prüfen kann (Syntax, Korrektheit,
+Konsistenz über die Lektionen hinweg):
+
+```bash
+python3 scripts/export_set.py ansible-qe
+# -> exports/ansible-qe-de-<timestamp>.yaml
+python3 scripts/export_set.py fr-a1 --lang en --format json --out /tmp/review.json
+```
+
+Der Slug ist die Set-Id aus dem Wurzel-`manifest.yaml`
+(`ansible-qe-from-de`) oder der Ordnername des Set-Pfads (`ansible-qe`);
+bei gleichnamigen Ordnern unter mehreren Quellsprachen (z. B. `fr-a1`
+unter `sets/en`, `sets/de`, `sets/el`) entscheidet `--lang` (Default
+`de`). Umlaute bleiben echtes UTF-8. Ein unbekannter Slug bricht mit
+einer Liste der verfügbaren Sets ab.
+
+Der Export ist selbsttragend: das erste Feld `review_instructions`
+enthält den kompletten Review-Prompt aus
+[`docs/ai-review-prompt-template.md`](docs/ai-review-prompt-template.md)
+(zur Laufzeit gelesen, nicht im Skript kopiert). Die Exportdatei kann
+also direkt und ohne manuell vorangestellten Prompt an eine Review-KI
+gegeben werden. Änderungen an der Review-Anweisung in der Template-Datei
+vornehmen und in den Geschwister-Content-Repos synchron halten.
+
+**Nur-Lese-Snapshot, KEIN Re-Import-Format:** Der Export wird nirgends
+zurückgelesen. Änderungen fließen ausschließlich über die einzelnen
+schema-validierten Lektions-JSONs unter `sets/` ein. Der Ordner
+`exports/` ist gitignored.
+
 ### Status-Legende
 - **✓ Validiert**: KI-geprüft + manuell gesichtet (`ai_validated: true`)
 - **Review**: Kuratierter Inhalt, wartet auf KI-Validierung und Native-Speaker Review
