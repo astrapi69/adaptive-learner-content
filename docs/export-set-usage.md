@@ -25,7 +25,7 @@ python3 scripts/export_set.py <set-slug> [--lang <lang>] [--format yaml|json] [-
 
 | Argument | Meaning | Default |
 | --- | --- | --- |
-| `<set-slug>` | Set id from the root `manifest.yaml` (e.g. `ansible-qe-from-de`) or the folder name of the set path (e.g. `ansible-qe` for `sets/de/ansible-qe`) | required |
+| `<set-slug>` | Set id from the root `manifest.yaml` (e.g. `ki-einsteiger-from-de`) or the folder name of the set path (e.g. `ki-einsteiger` for `sets/de/ki-einsteiger`) | required |
 | `--lang` | Source-language directory (`sets/<lang>/`) that disambiguates a folder-name slug existing under several source languages | `de` |
 | `--format` | Output format: `yaml` or `json` | `yaml` |
 | `--out` | Output file path | `exports/<set-slug>-<lang>-<timestamp>.<format>` |
@@ -34,8 +34,8 @@ Examples:
 
 ```bash
 # Standard case: YAML export into exports/
-python3 scripts/export_set.py ansible-qe
-# -> exports/ansible-qe-de-<timestamp>.yaml
+python3 scripts/export_set.py ki-einsteiger
+# -> exports/ki-einsteiger-de-<timestamp>.yaml
 
 # Special case: JSON to a custom path (only when a tool explicitly needs JSON);
 # --lang picks sets/en/fr-a1 because fr-a1 exists under several source languages
@@ -56,7 +56,7 @@ UTF-8.
 1. **Create the export:**
 
    ```bash
-   python3 scripts/export_set.py ansible-qe
+   python3 scripts/export_set.py ki-einsteiger
    ```
 
 2. **Open the export file** and find the section "Quellkapitel"

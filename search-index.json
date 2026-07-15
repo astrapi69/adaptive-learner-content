@@ -1,6 +1,6 @@
 {
   "repo": "astrapi69/adaptive-learner-content",
-  "generated": "2026-07-15T13:11:39Z",
+  "generated": "2026-07-15T13:19:56Z",
   "schema_version": "1.0",
   "sets": [
     {
@@ -565,47 +565,6 @@
       "updated_at": "2026-07-07T09:21:01Z"
     },
     {
-      "id": "it-grundlagen-from-de",
-      "name": "IT-Grundlagen",
-      "description": "Zehn Einführungslektionen in IT und Programmierung, auf Deutsch erklärt — von Hardware und Betriebssystemen bis zu Web-Grundlagen und IT-Sicherheit, mit den englischen Fachbegriffen in Klammern.",
-      "source_language": "de",
-      "target_language": "de",
-      "level": "a1",
-      "domain": "technology",
-      "lesson_count": 10,
-      "card_count": 115,
-      "tags": [
-        "beginner",
-        "technology",
-        "it"
-      ],
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-06T12:39:22Z"
-    },
-    {
-      "id": "ansible-qe-from-de",
-      "name": "Ansible-Grundlagen für Quality Engineering",
-      "description": "Ansible für Quality Engineering: acht Lektionen mit insgesamt 88 Karten, Theorieschritten und Übungen (matching, cloze, free_text, word_tiles) zu Playbooks, Testing-Modulen, Testumgebungen und Inventory-Targeting.",
-      "source_language": "de",
-      "target_language": "de",
-      "level": "b1",
-      "domain": "technology",
-      "lesson_count": 8,
-      "card_count": 88,
-      "tags": [
-        "ansible",
-        "devops",
-        "qa",
-        "automation"
-      ],
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-06T12:39:22Z"
-    },
-    {
       "id": "data-science-ki-from-de",
       "name": "Data Science und KI",
       "description": "Neun Aufbaulektionen rund um Data Science und KI, auf Deutsch erklärt: Was Data Science ist, Daten verstehen, Statistik für den Alltag, Grundkonzepte des maschinellen Lernens, Modelle bewerten, neuronale Netze und Deep Learning, Sprachmodelle und generative KI, KI im Einsatz sowie Verantwortung. Fortsetzung des Einsteiger-Kurses „KI für Einsteiger\".",
@@ -648,6 +607,6 @@
       "updated_at": "2026-07-09T19:06:52Z"
     }
   ],
-  "total_lessons": 364,
-  "total_cards": 4296
+  "total_lessons": 346,
+  "total_cards": 4093
 }
