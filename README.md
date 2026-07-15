@@ -13,13 +13,13 @@
 
 > **Kostenlose, offene Lerninhalte** für
 > [Adaptive Learner](https://astrapi69.github.io/adaptive-learner/) -
-> **32 Sets, 364 Lektionen, 4296 Karten** in 10 Sprachen.
+> **30 Sets, 346 Lektionen, 4093 Karten** in 10 Sprachen.
 > Sprachen lernen, KI verstehen, Ansible meistern.
 > Spaced-Repetition-optimiert, KI-validiert, CC-BY-SA-4.0.
 
 > Free, open **language- and knowledge-learning content** for
 > [Adaptive Learner](https://astrapi69.github.io/adaptive-learner/) -
-> **32 sets, 364 lessons, 4296 cards** across 10 languages.
+> **30 sets, 346 lessons, 4093 cards** across 10 languages.
 > Learn French, Spanish, English, Japanese, Korean, Chinese,
 > Italian, Portuguese - plus German, AI fundamentals and DevOps.
 > Spaced-repetition-ready, AI-validated, CC-BY-SA-4.0.
@@ -83,12 +83,10 @@ ls sets/
 | Englisch A1 | HI→EN | A1 | 10 | 120 | Sprache | Review |
 | Englisch A2 | HI→EN | A2 | 5 | 42 | Sprache | Review |
 | KI für Einsteiger | DE | Einsteiger | 12 | 144 | KI | ✓ Validiert |
-| IT-Grundlagen | DE | Einsteiger | 10 | 115 | Technik | Review |
-| Ansible QE | DE | B1 | 8 | 88 | DevOps | Review |
 | Data Science und KI | DE | A2 | 9 | 72 | KI | Review |
 | Adaptive Learner — App-Tutorial | DE | Einsteiger | 12 | 95 | App-Tutorial | Review |
 
-**Gesamt: 32 Sets, 364 Lektionen, 4296 Karten in 10 Sprachen.**
+**Gesamt: 30 Sets, 346 Lektionen, 4093 Karten in 10 Sprachen.**
 
 > Sprachen / Languages: Deutsch, Englisch, Französisch, Spanisch,
 > Italienisch, Portugiesisch, Japanisch, Koreanisch, Chinesisch, Hindi.
@@ -129,13 +127,13 @@ das ganze Set in einem Durchgang prüfen kann (Syntax, Korrektheit,
 Konsistenz über die Lektionen hinweg):
 
 ```bash
-python3 scripts/export_set.py ansible-qe
-# -> exports/ansible-qe-de-<timestamp>.yaml
+python3 scripts/export_set.py ki-einsteiger
+# -> exports/ki-einsteiger-de-<timestamp>.yaml
 python3 scripts/export_set.py fr-a1 --lang en --format json --out /tmp/review.json
 ```
 
 Der Slug ist die Set-Id aus dem Wurzel-`manifest.yaml`
-(`ansible-qe-from-de`) oder der Ordnername des Set-Pfads (`ansible-qe`);
+(`ki-einsteiger-from-de`) oder der Ordnername des Set-Pfads (`ki-einsteiger`);
 bei gleichnamigen Ordnern unter mehreren Quellsprachen (z. B. `fr-a1`
 unter `sets/en`, `sets/de`, `sets/el`) entscheidet `--lang` (Default
 `de`). Umlaute bleiben echtes UTF-8. Ein unbekannter Slug bricht mit
@@ -191,8 +189,6 @@ sets/
     it-a1/               # Ziel: Italienisch A1
     pt-a1/               # Ziel: Portugiesisch-BR A1
     ki-einsteiger/       # Domain: KI
-    it-grundlagen/       # Domain: Technik
-    ansible-qe/          # Domain: DevOps
     ...
   en/                    # Quellsprache: Englisch
     fr-a1/  es-a1/  de-a1/  ...
