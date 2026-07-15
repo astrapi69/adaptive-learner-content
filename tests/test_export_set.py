@@ -13,7 +13,7 @@ Covered behaviours (TDD, RED first):
 * an unknown slug fails with a non-zero exit and lists the available sets,
 * ``--format json`` produces valid JSON with the same lesson content,
 * the default output path lands under ``exports/`` (created on demand),
-* the manifest set id (``ki-einsteiger-from-de``) resolves the same set as
+* the manifest set id (``adaptive-learner-app-from-de``) resolves the same set as
   the path basename slug,
 * equal path basenames under several source-language directories
   (``fr-a1`` under ``sets/en``, ``sets/de``, ``sets/el``) are
@@ -34,8 +34,8 @@ if str(SCRIPTS_DIR) not in sys.path:
 
 import export_set  # noqa: E402
 
-KNOWN_SLUG = "ki-einsteiger"
-KNOWN_SET_DIR = REPO_ROOT / "sets" / "de" / "ki-einsteiger"
+KNOWN_SLUG = "adaptive-learner-app"
+KNOWN_SET_DIR = REPO_ROOT / "sets" / "de" / "adaptive-learner-app"
 
 
 def load_source_lessons() -> list[dict]:
@@ -107,8 +107,8 @@ def test_umlauts_survive_as_real_utf8(tmp_path: Path) -> None:
     # A known lesson word must keep its umlaut, never an ue-substitution.
     # (Lowercase "ausfuehrungsmodell" DOES occur as an ASCII lesson id, so
     # assert on the capitalized prose word, not the token.)
-    assert "Vorschläge" in raw_text
-    assert "Vorschlaege" not in raw_text
+    assert "Übungen" in raw_text
+    assert "Uebungen" not in raw_text
 
 
 def test_yaml_reparse_content_equals_source_lessons(tmp_path: Path) -> None:
@@ -124,7 +124,7 @@ def test_format_json_is_valid_and_content_equal(tmp_path: Path) -> None:
     export_payload = json.loads(raw_text)
     assert export_payload["lessons"] == load_source_lessons()
     # ensure_ascii must be off: real umlauts in the JSON bytes too.
-    assert "Vorschläge" in raw_text
+    assert "Übungen" in raw_text
     assert "\\u00fc" not in raw_text
 
 
@@ -141,10 +141,10 @@ def test_unknown_slug_fails_and_lists_available_sets(tmp_path: Path, capsys) -> 
 
 def test_manifest_id_resolves_like_path_basename(tmp_path: Path) -> None:
     out_path = tmp_path / "by-id.yaml"
-    exit_code = export_set.main(["ki-einsteiger-from-de", "--out", str(out_path)])
+    exit_code = export_set.main(["adaptive-learner-app-from-de", "--out", str(out_path)])
     assert exit_code == 0
     export_payload = yaml.safe_load(out_path.read_text(encoding="utf-8"))
-    assert export_payload["set"] == "ki-einsteiger-from-de"
+    assert export_payload["set"] == "adaptive-learner-app-from-de"
     assert export_payload["lessons"] == load_source_lessons()
 
 

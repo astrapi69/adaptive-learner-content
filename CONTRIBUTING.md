@@ -6,7 +6,7 @@ Danke für dein Interesse! So kannst du beitragen:
 
 1. Fork dieses Repo
 2. Erstelle einen Ordner unter `sets/{source_lang}/{target_lang}-{level}/`
-   (für Nicht-Sprach-Domains einen Themennamen, z. B. `sets/de/ki-einsteiger/`)
+   (für Nicht-Sprach-Domains einen Themennamen, z. B. `sets/de/adaptive-learner-app/`)
 3. Erstelle `manifest.yaml` (siehe bestehendes Set als Vorlage)
 4. Erstelle Lektionen als JSON unter `lessons/`
 5. Pull Request öffnen

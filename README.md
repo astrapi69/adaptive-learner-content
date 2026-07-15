@@ -13,15 +13,15 @@
 
 > **Kostenlose, offene Lerninhalte** für
 > [Adaptive Learner](https://astrapi69.github.io/adaptive-learner/) -
-> **30 Sets, 346 Lektionen, 4093 Karten** in 10 Sprachen.
-> Sprachen lernen, KI verstehen, Ansible meistern.
+> **28 Sets, 325 Lektionen, 3877 Karten** in 10 Sprachen.
+> Sprachen lernen, die App meistern.
 > Spaced-Repetition-optimiert, KI-validiert, CC-BY-SA-4.0.
 
 > Free, open **language- and knowledge-learning content** for
 > [Adaptive Learner](https://astrapi69.github.io/adaptive-learner/) -
-> **30 sets, 346 lessons, 4093 cards** across 10 languages.
+> **28 sets, 325 lessons, 3877 cards** across 10 languages.
 > Learn French, Spanish, English, Japanese, Korean, Chinese,
-> Italian, Portuguese - plus German, AI fundamentals and DevOps.
+> Italian, Portuguese - plus German and the app tutorial.
 > Spaced-repetition-ready, AI-validated, CC-BY-SA-4.0.
 
 ---
@@ -82,11 +82,9 @@ ls sets/
 | Deutsch A2 | EN→DE | A2 | 5 | 46 | Sprache | Review |
 | Englisch A1 | HI→EN | A1 | 10 | 120 | Sprache | Review |
 | Englisch A2 | HI→EN | A2 | 5 | 42 | Sprache | Review |
-| KI für Einsteiger | DE | Einsteiger | 12 | 144 | KI | ✓ Validiert |
-| Data Science und KI | DE | A2 | 9 | 72 | KI | Review |
 | Adaptive Learner — App-Tutorial | DE | Einsteiger | 12 | 95 | App-Tutorial | Review |
 
-**Gesamt: 30 Sets, 346 Lektionen, 4093 Karten in 10 Sprachen.**
+**Gesamt: 28 Sets, 325 Lektionen, 3877 Karten in 10 Sprachen.**
 
 > Sprachen / Languages: Deutsch, Englisch, Französisch, Spanisch,
 > Italienisch, Portugiesisch, Japanisch, Koreanisch, Chinesisch, Hindi.
@@ -127,13 +125,13 @@ das ganze Set in einem Durchgang prüfen kann (Syntax, Korrektheit,
 Konsistenz über die Lektionen hinweg):
 
 ```bash
-python3 scripts/export_set.py ki-einsteiger
-# -> exports/ki-einsteiger-de-<timestamp>.yaml
+python3 scripts/export_set.py adaptive-learner-app
+# -> exports/adaptive-learner-app-de-<timestamp>.yaml
 python3 scripts/export_set.py fr-a1 --lang en --format json --out /tmp/review.json
 ```
 
 Der Slug ist die Set-Id aus dem Wurzel-`manifest.yaml`
-(`ki-einsteiger-from-de`) oder der Ordnername des Set-Pfads (`ki-einsteiger`);
+(`adaptive-learner-app-from-de`) oder der Ordnername des Set-Pfads (`adaptive-learner-app`);
 bei gleichnamigen Ordnern unter mehreren Quellsprachen (z. B. `fr-a1`
 unter `sets/en`, `sets/de`, `sets/el`) entscheidet `--lang` (Default
 `de`). Umlaute bleiben echtes UTF-8. Ein unbekannter Slug bricht mit
@@ -188,7 +186,6 @@ sets/
     zh-a1/               # Ziel: Chinesisch A1
     it-a1/               # Ziel: Italienisch A1
     pt-a1/               # Ziel: Portugiesisch-BR A1
-    ki-einsteiger/       # Domain: KI
     ...
   en/                    # Quellsprache: Englisch
     fr-a1/  es-a1/  de-a1/  ...
@@ -216,10 +213,10 @@ sodass "validiert gegen die Engine" und "lädt in
 [Adaptive Learner](https://github.com/astrapi69/adaptive-learner)" dieselbe
 Aussage sind.
 
-> Für Nicht-Sprach-Domains (z. B. `ai`, `programming`) teilen sich
+> Für Nicht-Sprach-Domains (z. B. `software`) teilen sich
 > Erklärung und Material eine Sprache, d. h. `source_language == target_language`
 > ist erlaubt und der Ordner trägt einen Themennamen
-> (z. B. `sets/de/ki-einsteiger`).
+> (z. B. `sets/de/adaptive-learner-app`).
 
 ---
 

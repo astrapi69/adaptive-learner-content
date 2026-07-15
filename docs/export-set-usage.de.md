@@ -25,7 +25,7 @@ python3 scripts/export_set.py <set-slug> [--lang <lang>] [--format yaml|json] [-
 
 | Argument | Bedeutung | Default |
 | --- | --- | --- |
-| `<set-slug>` | Set-Id aus dem Wurzel-`manifest.yaml` (z. B. `ki-einsteiger-from-de`) oder der Ordnername des Set-Pfads (z. B. `ki-einsteiger` für `sets/de/ki-einsteiger`) | Pflicht |
+| `<set-slug>` | Set-Id aus dem Wurzel-`manifest.yaml` (z. B. `adaptive-learner-app-from-de`) oder der Ordnername des Set-Pfads (z. B. `adaptive-learner-app` für `sets/de/adaptive-learner-app`) | Pflicht |
 | `--lang` | Quellsprachen-Verzeichnis (`sets/<lang>/`), das einen Ordnernamen-Slug eindeutig macht, der unter mehreren Quellsprachen existiert | `de` |
 | `--format` | Ausgabeformat: `yaml` oder `json` | `yaml` |
 | `--out` | Pfad der Ausgabedatei | `exports/<set-slug>-<lang>-<timestamp>.<format>` |
@@ -34,8 +34,8 @@ Beispiele:
 
 ```bash
 # Standardfall: YAML-Export nach exports/
-python3 scripts/export_set.py ki-einsteiger
-# -> exports/ki-einsteiger-de-<timestamp>.yaml
+python3 scripts/export_set.py adaptive-learner-app
+# -> exports/adaptive-learner-app-de-<timestamp>.yaml
 
 # Sonderfall: JSON an einen eigenen Pfad (nur wenn ein Tooling explizit JSON braucht);
 # --lang wählt sets/en/fr-a1, weil fr-a1 unter mehreren Quellsprachen existiert
@@ -56,7 +56,7 @@ Nicht-ASCII-Zeichen bleiben echtes UTF-8.
 1. **Export erzeugen:**
 
    ```bash
-   python3 scripts/export_set.py ki-einsteiger
+   python3 scripts/export_set.py adaptive-learner-app
    ```
 
 2. **Exportdatei öffnen** und im `review_instructions`-Block am Anfang
