@@ -13,13 +13,13 @@
 
 > **Kostenlose, offene Lerninhalte** für
 > [Adaptive Learner](https://astrapi69.github.io/adaptive-learner/) -
-> **33 Sets, 379 Lektionen, 4462 Karten** in 10 Sprachen.
+> **32 Sets, 364 Lektionen, 4296 Karten** in 10 Sprachen.
 > Sprachen lernen, KI verstehen, Ansible meistern.
 > Spaced-Repetition-optimiert, KI-validiert, CC-BY-SA-4.0.
 
 > Free, open **language- and knowledge-learning content** for
 > [Adaptive Learner](https://astrapi69.github.io/adaptive-learner/) -
-> **33 sets, 379 lessons, 4462 cards** across 10 languages.
+> **32 sets, 364 lessons, 4296 cards** across 10 languages.
 > Learn French, Spanish, English, Japanese, Korean, Chinese,
 > Italian, Portuguese - plus German, AI fundamentals and DevOps.
 > Spaced-repetition-ready, AI-validated, CC-BY-SA-4.0.
@@ -83,13 +83,12 @@ ls sets/
 | Englisch A1 | HI→EN | A1 | 10 | 120 | Sprache | Review |
 | Englisch A2 | HI→EN | A2 | 5 | 42 | Sprache | Review |
 | KI für Einsteiger | DE | Einsteiger | 12 | 144 | KI | ✓ Validiert |
-| Python Grundlagen | DE | Einsteiger | 15 | 166 | Programmierung | Review |
 | IT-Grundlagen | DE | Einsteiger | 10 | 115 | Technik | Review |
 | Ansible QE | DE | B1 | 8 | 88 | DevOps | Review |
 | Data Science und KI | DE | A2 | 9 | 72 | KI | Review |
 | Adaptive Learner — App-Tutorial | DE | Einsteiger | 12 | 95 | App-Tutorial | Review |
 
-**Gesamt: 33 Sets, 379 Lektionen, 4462 Karten in 10 Sprachen.**
+**Gesamt: 32 Sets, 364 Lektionen, 4296 Karten in 10 Sprachen.**
 
 > Sprachen / Languages: Deutsch, Englisch, Französisch, Spanisch,
 > Italienisch, Portugiesisch, Japanisch, Koreanisch, Chinesisch, Hindi.
@@ -192,7 +191,6 @@ sets/
     it-a1/               # Ziel: Italienisch A1
     pt-a1/               # Ziel: Portugiesisch-BR A1
     ki-einsteiger/       # Domain: KI
-    python-basics/       # Domain: Programmierung
     it-grundlagen/       # Domain: Technik
     ansible-qe/          # Domain: DevOps
     ...

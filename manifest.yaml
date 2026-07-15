@@ -482,28 +482,6 @@ sets:
       - intermediate
       - grammar
       - everyday
-  - id: python-basics-from-de
-    title: Python — Grundlagen
-    title_native: Python — Basics
-    target_language: de
-    source_language: de
-    domain: programming
-    level: A1
-    path: sets/de/python-basics
-    version: '1.0.0'
-    lesson_count: 15
-    description: >-
-      Einführung in die Programmierung mit Python für
-      Deutschsprachige (15 Lektionen): von print() und Variablen
-      über Strings, Listen, Bedingungen und Schleifen bis zu
-      Funktionen, Dictionaries, Fehlerbehandlung, Modulen,
-      Dateien und Comprehensions. Erklärt auf Deutsch, mit
-      lauffähigen Code-Beispielen und erwarteter Ausgabe. Erstes
-      Programmier-Set (domain: programming, schema v1.3).
-    tags:
-      - beginner
-      - programming
-      - python
   - id: ki-einsteiger-from-de
     title: KI für Einsteiger
     title_native: KI für Einsteiger
