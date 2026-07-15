@@ -13,13 +13,13 @@
 
 > **Kostenlose, offene Lerninhalte** für
 > [Adaptive Learner](https://astrapi69.github.io/adaptive-learner/) -
-> **30 Sets, 452 Lektionen, 5566 Karten** in 10 Sprachen.
+> **33 Sets, 379 Lektionen, 4462 Karten** in 10 Sprachen.
 > Sprachen lernen, KI verstehen, Ansible meistern.
 > Spaced-Repetition-optimiert, KI-validiert, CC-BY-SA-4.0.
 
 > Free, open **language- and knowledge-learning content** for
 > [Adaptive Learner](https://astrapi69.github.io/adaptive-learner/) -
-> **30 sets, 452 lessons, 5566 cards** across 10 languages.
+> **33 sets, 379 lessons, 4462 cards** across 10 languages.
 > Learn French, Spanish, English, Japanese, Korean, Chinese,
 > Italian, Portuguese - plus German, AI fundamentals and DevOps.
 > Spaced-repetition-ready, AI-validated, CC-BY-SA-4.0.
@@ -83,14 +83,13 @@ ls sets/
 | Englisch A1 | HI→EN | A1 | 10 | 120 | Sprache | Review |
 | Englisch A2 | HI→EN | A2 | 5 | 42 | Sprache | Review |
 | KI für Einsteiger | DE | Einsteiger | 12 | 144 | KI | ✓ Validiert |
-| Psychologie Einführung | DE | Uni-Intro | 112 | 1408 | Psychologie | Review |
 | Python Grundlagen | DE | Einsteiger | 15 | 166 | Programmierung | Review |
 | IT-Grundlagen | DE | Einsteiger | 10 | 115 | Technik | Review |
 | Ansible QE | DE | B1 | 8 | 88 | DevOps | Review |
 | Data Science und KI | DE | A2 | 9 | 72 | KI | Review |
 | Adaptive Learner — App-Tutorial | DE | Einsteiger | 12 | 95 | App-Tutorial | Review |
 
-**Gesamt: 35 Sets, 499 Lektionen, 5919 Karten in 10 Sprachen.**
+**Gesamt: 33 Sets, 379 Lektionen, 4462 Karten in 10 Sprachen.**
 
 > Sprachen / Languages: Deutsch, Englisch, Französisch, Spanisch,
 > Italienisch, Portugiesisch, Japanisch, Koreanisch, Chinesisch, Hindi.
@@ -193,7 +192,6 @@ sets/
     it-a1/               # Ziel: Italienisch A1
     pt-a1/               # Ziel: Portugiesisch-BR A1
     ki-einsteiger/       # Domain: KI
-    psych-intro/         # Domain: Psychologie
     python-basics/       # Domain: Programmierung
     it-grundlagen/       # Domain: Technik
     ansible-qe/          # Domain: DevOps
@@ -224,10 +222,10 @@ sodass "validiert gegen die Engine" und "lädt in
 [Adaptive Learner](https://github.com/astrapi69/adaptive-learner)" dieselbe
 Aussage sind.
 
-> Für Nicht-Sprach-Domains (z. B. `psychology`, `programming`) teilen sich
+> Für Nicht-Sprach-Domains (z. B. `ai`, `programming`) teilen sich
 > Erklärung und Material eine Sprache, d. h. `source_language == target_language`
 > ist erlaubt und der Ordner trägt einen Themennamen
-> (z. B. `sets/de/psych-intro`).
+> (z. B. `sets/de/ki-einsteiger`).
 
 ---
 
