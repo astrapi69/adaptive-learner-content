@@ -50,6 +50,11 @@
           "description": "True only on the single entry describing THIS repo. Self entries are branch-tracked and exempt from the pinned-commit / validation requirement because this repo's own CI validates every push.",
           "const": true
         },
+        "books": {
+          "type": "boolean",
+          "description": "True when the repo ships a books.yaml (per-domain book recommendations) at its registry ref. The app fetches books.yaml ONLY from flagged entries, so repos without the file are never requested (no console-404 probing). See astrapi69/adaptive-learner#1712.",
+          "const": true
+        },
         "validation": { "$ref": "#/$defs/Validation" }
       },
       "allOf": [
