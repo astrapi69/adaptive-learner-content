@@ -19,6 +19,8 @@ Per set the index records:
   * lesson_count: lessons actually listed in the set manifest
   * card_count: exact sum of ``cards[]`` over every lesson
   * tags: from the manifest, else []
+  * visibility: consumer-display hint (engine schema 1.8); absent or
+    out-of-enum normalizes to "visible"
   * ai_validated: true when the set manifest carries an ``ai_validation``
     block under its free-form ``metadata`` (set-entry fallback for older
     manifests — the canonical manifest schema keeps set entries strict)
@@ -52,6 +54,8 @@ INDEX_PATH = REPO_ROOT / "search-index.json"
 RECOMMENDED_REPOS = REPO_ROOT / "recommended-repos.json"
 
 REPO_SLUG = "astrapi69/adaptive-learner-content"
+
+VISIBILITY_VALUES = ("visible", "hidden")
 SCHEMA_VERSION = "1.0"
 DEFAULT_TRUST_LEVEL = 1
 
@@ -63,11 +67,22 @@ REQUIRED_SET_FIELDS = (
     "target_language",
     "level",
     "domain",
+    "visibility",
 )
 
 
 def base_lang(code: str) -> str:
     return (code or "").split("-")[0].lower()
+
+
+def normalize_visibility(raw_visibility: object) -> str:
+    """Engine-parity projection of the manifest ``visibility`` flag.
+
+    Mirrors ``asContentSetEntry`` in learn-content-engine 0.14.0: absent
+    or out-of-enum values fold back to ``"visible"``, so consumers can
+    filter on the field without their own defaulting.
+    """
+    return raw_visibility if raw_visibility in VISIBILITY_VALUES else "visible"
 
 
 def collapse_ws(text: str | None) -> str:
@@ -185,6 +200,7 @@ def build_set_entry(
         "lesson_count": len(lessons),
         "card_count": card_count,
         "tags": list(set_entry.get("tags") or []),
+        "visibility": normalize_visibility(set_entry.get("visibility")),
         # ai_validation is repo-local provenance; the canonical (engine)
         # manifest schema keeps set entries strict, so the block lives in
         # the set manifest's free-form metadata (set-entry read kept as a
