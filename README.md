@@ -240,7 +240,7 @@ Adaptive Learner sucht über **mehrere** Content-Repos hinweg. Dein eigenes
 Repo kommt hinein, indem du einen Pull Request gegen `recommended-repos.json`
 öffnest, der es an einem validierten Commit anmeldet. Wie das genau
 funktioniert (Datenfluss, Trust-Level, Pinning, Schritt für Schritt):
-[docs/CROSS-REPO-SEARCH.md](docs/CROSS-REPO-SEARCH.md) — die Kurzanleitung
+[docs/CROSS-REPO-SEARCH.md](docs/CROSS-REPO-SEARCH.md). Die Kurzanleitung
 zum Eintragen steht in [docs/REGISTER-A-REPO.md](docs/REGISTER-A-REPO.md).
 
 ### Einladungscodes

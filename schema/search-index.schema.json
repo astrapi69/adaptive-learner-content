@@ -45,6 +45,11 @@
           "type": "array",
           "items": { "type": "string" }
         },
+        "visibility": {
+          "type": "string",
+          "enum": ["visible", "hidden"],
+          "description": "Consumer-display hint from the manifest set entry (engine schema 1.8). \"hidden\" asks a consumer app not to surface the set to learners; the generator emits a concrete value on every entry (absent or unknown manifest values normalize to \"visible\"). Optional here so older published indexes stay valid."
+        },
         "ai_validated": { "type": "boolean" },
         "trust_level": { "type": "integer" },
         "book": {},
