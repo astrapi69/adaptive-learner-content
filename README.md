@@ -21,7 +21,7 @@
 > [Adaptive Learner](https://astrapi69.github.io/adaptive-learner/) -
 > **28 sets, 325 lessons, 3877 cards** across 10 languages.
 > Learn French, Spanish, English, Japanese, Korean, Chinese,
-> Italian, Portuguese - plus German and the app tutorial.
+> Italian, Portuguese, plus German and the app tutorial.
 > Spaced-repetition-ready, AI-validated, CC-BY-SA-4.0.
 
 ---
@@ -103,7 +103,7 @@ Jedes Set durchläuft eine automatische Qualitätsprüfung:
 Alle Pull Requests werden zusätzlich in der CI automatisch validiert
 (`python3 scripts/validate_content.py`).
 
-**Vor dem Push** das Engine-Gate lokal laufen lassen - dieselben
+**Vor dem Push** das Engine-Gate lokal laufen lassen: dieselben
 semantischen Regeln (`E-CARD-REF`, Cloze-Marker, Multiple-Choice-Regeln),
 die sonst erst die CI meldet:
 
@@ -261,21 +261,21 @@ Alle Inhalte stehen unter
 (CC-BY-SA-4.0).
 
 Du darfst:
-- **Teilen** - das Material kopieren und weiterverbreiten
-- **Anpassen** - das Material verändern und darauf aufbauen
-- **Kommerziell nutzen** - auch für kommerzielle Zwecke
+- **Teilen**: das Material kopieren und weiterverbreiten
+- **Anpassen**: das Material verändern und darauf aufbauen
+- **Kommerziell nutzen**: auch für kommerzielle Zwecke
 
 Unter folgenden Bedingungen:
-- **Namensnennung** - angemessene Credits geben
-- **Weitergabe unter gleichen Bedingungen** - gleiche Lizenz verwenden
+- **Namensnennung**: angemessene Credits geben
+- **Weitergabe unter gleichen Bedingungen**: gleiche Lizenz verwenden
 
 ---
 
 ## Links
 
-- [Adaptive Learner App](https://astrapi69.github.io/adaptive-learner/) - Die Lern-App
-- [Adaptive Learner Repo](https://github.com/astrapi69/adaptive-learner) - App Source Code
-- [docker-app-launcher](https://github.com/astrapi69/docker-app-launcher) - Desktop Launcher
-- [Lesson-Format-Referenz](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md) - Technische Format-Dokumentation (learn-content-engine; Schema-Spiegel siehe [schema/README.md](schema/README.md))
-- [Cross-Repo-Suche & eigenes Repo eintragen](docs/CROSS-REPO-SEARCH.md) - Wie die Suche über mehrere Content-Repos funktioniert und wie du deins anmeldest
-- [CONTRIBUTING.md](CONTRIBUTING.md) - Mitmachen und Inhalte beitragen
+- [Adaptive Learner App](https://astrapi69.github.io/adaptive-learner/): Die Lern-App
+- [Adaptive Learner Repo](https://github.com/astrapi69/adaptive-learner): App Source Code
+- [docker-app-launcher](https://github.com/astrapi69/docker-app-launcher): Desktop Launcher
+- [Lesson-Format-Referenz](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md): Technische Format-Dokumentation (learn-content-engine; Schema-Spiegel siehe [schema/README.md](schema/README.md))
+- [Cross-Repo-Suche & eigenes Repo eintragen](docs/CROSS-REPO-SEARCH.md): Wie die Suche über mehrere Content-Repos funktioniert und wie du deins anmeldest
+- [CONTRIBUTING.md](CONTRIBUTING.md): Mitmachen und Inhalte beitragen

@@ -36,7 +36,7 @@ it — it does not define or extend the format.
   `from_cards: true` — the pairs are derived from the referenced `card_ids`
   (left = card `front`, right = card `back`) instead of an explicit `pairs`
   list; since v1.7 an opt-in `ext:` namespace for extension exercise types
-  (see `docs/extensions.md` in the engine repo) - this content repo uses
+  (see `docs/extensions.md` in the engine repo): this content repo uses
   core types only.
 - **Which exercise type for which learning goal (didactic guideline, EXP-041):**
   the schema tells you the *shape* of each type, not *when* to use it. Choose the
