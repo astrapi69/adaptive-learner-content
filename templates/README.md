@@ -2,7 +2,7 @@
 
 Copy-and-edit starting points for new lessons, one per content **domain**.
 
-A lesson is a **single JSON file** — that is the lesson format. Pick the
+A lesson is a **single JSON file**: that is the lesson format. Pick the
 template for your domain and copy it.
 
 | Template | Domain | Use it for |
@@ -19,7 +19,7 @@ template for your domain and copy it.
 3. **Replace** the placeholder cards, theory and exercises with your content.
 4. **Register** the file in your set's `manifest.yaml` (`metadata.lessons`) and
    make sure the set is listed in the root `manifest.yaml`.
-5. **Validate**: `python scripts/validate_content.py` — it must print
+5. **Validate**: `python scripts/validate_content.py`, it must print
    `All N set(s) passed validation.`
 
 > JSON has no comments, so the field-by-field explanations live in
@@ -34,7 +34,7 @@ with distractors. Keep those minimums when you edit.
 
 ## Multiple choice
 
-There is **no** `multiple_choice` exercise type (deliberate — see
+There is **no** `multiple_choice` exercise type (deliberate, see
 [`adaptive-learner#890`](https://github.com/astrapi69/adaptive-learner/issues/890)
 / EXP-036 §4.3). Author a single-answer multiple-choice question as a one-blank
 `cloze` in **`select` mode**: the question in `prompt`, a bare
@@ -55,7 +55,7 @@ There is **no** `multiple_choice` exercise type (deliberate — see
 
 **Do not use `picture_choice` for text multiple choice.** It is for genuine
 image selection with real, existing image assets; for text options it renders
-placeholder tiles, not a usable control — that was the bug in
+placeholder tiles, not a usable control: that was the bug in
 [`adaptive-learner-content-test#10`](https://github.com/astrapi69/adaptive-learner-content-test/issues/10).
 Full format reference with a tested example per exercise type:
 [`learn-content-engine/docs/lesson-format.md`](https://github.com/astrapi69/learn-content-engine/blob/main/docs/lesson-format.md).
@@ -63,7 +63,7 @@ Full format reference with a tested example per exercise type:
 ## Domain differences at a glance
 
 - **language**: `domain: language`, `target_language` **and** `source_language`
-  differ, `level` is a CEFR band (A1–C2). Matching/free-text use a
+  differ, `level` is a CEFR band (A1-C2). Matching/free-text use a
   translation context (target ↔ source).
 - **knowledge**: `domain: psychology` (or another non-language domain),
   `source_language == target_language`, no separate target. Matching/free-text

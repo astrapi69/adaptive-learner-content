@@ -2,7 +2,7 @@
 
 Adaptive Learner can search **across several content repositories**, not
 just the official one. To have your own repo included, you submit a
-request — and that request is simply a **pull request against
+request, and that request is simply a **pull request against
 [`recommended-repos.json`](../recommended-repos.json)** in this repo.
 
 CI validates your repo at the exact commit you pin. Once it is green,
@@ -59,7 +59,7 @@ Your repo must be a valid Adaptive Learner content repo: it publishes a
 
 ## Updating a listed repo
 
-Pinning is strict on purpose — the search only ever serves a **validated
+Pinning is strict on purpose: the search only ever serves a **validated
 snapshot**. When you publish new content, open a **new PR** that bumps
 your entry's `commit` (and `validated_at`) to the new SHA. It is
 re-validated before it goes live; old, unvalidated commits are never

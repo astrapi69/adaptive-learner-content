@@ -1,7 +1,7 @@
 # Cross-repo search & registering your own repository
 
 Adaptive Learner does not search only the official content. It can search
-**across many content repositories at once** — the official one plus
+**across many content repositories at once**: the official one plus
 community repos that coaches and teachers publish themselves. This page
 explains how that federated search works and exactly how to get **your**
 repository into it.
@@ -41,7 +41,7 @@ Two properties make this safe:
   line. Your content stays in your repo.
 - **Pinned to a validated commit.** The registry points at a *specific
   commit*, not a moving branch. The search only ever serves a snapshot
-  that passed validation — your repo can keep changing without affecting
+  that passed validation: your repo can keep changing without affecting
   what learners see until you publish a new snapshot on purpose.
 
 ---
@@ -50,7 +50,7 @@ Two properties make this safe:
 
 | File | Where | Role |
 |---|---|---|
-| `search-index.json` | **every** content repo (root) | The repo's own catalogue of sets — the discovery feed the search reads. Auto-generated, never hand-edited. |
+| `search-index.json` | **every** content repo (root) | The repo's own catalogue of sets, the discovery feed the search reads. Auto-generated, never hand-edited. |
 | `recommended-repos.json` | official repo (root) | The registry: which repos are in the search, each pinned to a validated commit. |
 | `schema/search-index.schema.json` | official repo | The contract every `search-index.json` must satisfy at its pinned commit. |
 | `schema/recommended-repos.schema.json` | official repo | The shape of the registry itself. |
@@ -60,9 +60,13 @@ Two properties make this safe:
 Generated from your manifests by `scripts/generate_search_index.py`. Per
 set it records `id`, `name`, `description`, `source_language`,
 `target_language`, `level`, `domain`, `lesson_count`, `card_count`,
-`tags`, `ai_validated`, `trust_level`, `book`, `updated_at`. Those are the
-fields the search can filter and rank on — you do not write this file by
-hand, you regenerate it.
+`tags`, `visibility`, `ai_validated`, `trust_level`, `book`,
+`updated_at`. Those are the fields the search can filter and rank on:
+you do not write this file by hand, you regenerate it. `visibility` is
+the consumer-display hint from the manifest set entry (engine schema
+1.8): `"hidden"` asks the app not to surface the set to learners (used
+for conformance/reference fixtures); absent or unknown values are
+normalized to `"visible"` by the generator.
 
 ### What's in a registry entry (`recommended-repos.json`)
 
@@ -148,7 +152,7 @@ python scripts/validate_registered_repo.py \
 ## Updating a listed repo
 
 Pinning is strict on purpose. When you publish new content, the search
-does **not** pick it up automatically — that's the point, so learners
+does **not** pick it up automatically: that's the point, so learners
 never get an unvalidated snapshot. To ship an update, open a **new PR**
 that bumps your entry's `commit` (and `validated_at`) to the new SHA. CI
 re-validates the new snapshot before it goes live.
@@ -166,7 +170,7 @@ A branch moves; a commit does not. Pinning guarantees the search serves
 exactly the snapshot that was validated, and that you control when an
 update goes live.
 
-**My repo is private — can it be listed?**
+**My repo is private. Can it be listed?**
 The federated search fetches your `search-index.json` over the public web
 (e.g. `raw.githubusercontent.com/<owner>/<repo>/<commit>/…`), so the
 listed snapshot needs to be publicly readable. For private, invite-only
@@ -186,7 +190,7 @@ the search experience that consumes it.
 
 ## See also
 
-- [REGISTER-A-REPO.md](REGISTER-A-REPO.md) — the focused registration how-to.
-- [GETTING-STARTED.md](GETTING-STARTED.md) — build a valid content repo from scratch.
-- [`recommended-repos.json`](../recommended-repos.json) — the live registry.
-- [`schema/`](../schema/) — the catalogue and registry schemas.
+- [REGISTER-A-REPO.md](REGISTER-A-REPO.md): the focused registration how-to.
+- [GETTING-STARTED.md](GETTING-STARTED.md): build a valid content repo from scratch.
+- [`recommended-repos.json`](../recommended-repos.json): the live registry.
+- [`schema/`](../schema/): the catalogue and registry schemas.
