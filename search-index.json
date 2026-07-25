@@ -1,59 +1,18 @@
 {
   "repo": "astrapi69/adaptive-learner-content",
-  "generated": "2026-07-24T08:39:43Z",
+  "generated": "2026-07-25T15:07:27Z",
   "schema_version": "1.0",
   "sets": [
     {
-      "id": "en-a1-from-hi",
-      "name": "अंग्रेज़ी A1 (हिंदी भाषियों के लिए)",
-      "description": "English set for Hindi speakers (10 lessons): basic vocabulary, everyday sentences, grammar basics, family and relationships, food and drink, directions and places, shopping and money, time and date, politeness, and travel and transport.",
-      "source_language": "hi",
+      "id": "en-a1-from-de",
+      "name": "Englisch A1 — Anfänger",
+      "description": "Englisch lernen für Deutschsprachige. Grundwortschatz, Grammatik und Alltagssituationen — von der Begrüßung bis zum Simple Past, mit Fokus auf typische Fehler und falsche Freunde. Erklärungen auf Deutsch.",
+      "source_language": "de",
       "target_language": "en",
-      "level": "a1",
-      "domain": "language",
-      "lesson_count": 10,
-      "card_count": 120,
-      "tags": [
-        "beginner",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-06-16T16:17:56Z"
-    },
-    {
-      "id": "en-a2-from-hi",
-      "name": "अंग्रेज़ी A2 (हिंदी भाषियों के लिए)",
-      "description": "Elementary English for Hindi speakers (5 lessons), building on A1: the past simple (regular and irregular verbs, did-questions), the future with will and going to, comparatives and superlatives, the present continuous contrasted with the present simple for routines, and asking for help politely with a review of the A2 grammar. Explanations in Hindi.",
-      "source_language": "hi",
-      "target_language": "en",
-      "level": "a2",
-      "domain": "language",
-      "lesson_count": 5,
-      "card_count": 42,
-      "tags": [
-        "elementary",
-        "grammar",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-06T18:37:10Z"
-    },
-    {
-      "id": "fr-a1-from-en",
-      "name": "French A1 (for English speakers)",
-      "description": "Fifteen lessons covering A1 essentials, explained in English.",
-      "source_language": "en",
-      "target_language": "fr",
       "level": "a1",
       "domain": "language",
       "lesson_count": 15,
-      "card_count": 190,
+      "card_count": 163,
       "tags": [
         "beginner",
         "travel",
@@ -63,7 +22,339 @@
       "ai_validated": false,
       "trust_level": 3,
       "book": null,
+      "updated_at": "2026-06-16T16:17:56Z"
+    },
+    {
+      "id": "en-a2-from-de",
+      "name": "Englisch A2 — Grundlagen",
+      "description": "Aufbaukurs Englisch A2 (15 Lektionen), auf Deutsch erklärt — von den Verlaufsformen und dem Present Perfect über die Zukunfts- und Modalverben bis zu Steigerung, Bedingungssätzen, Passiv und falschen Freunden. Mit Fokus auf die typischen Fehler von Deutschsprachigen. Setzt das A1-Wissen voraus und baut darauf auf.",
+      "source_language": "de",
+      "target_language": "en",
+      "level": "a2",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 182,
+      "tags": [
+        "elementary",
+        "grammar",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-16T16:17:56Z"
+    },
+    {
+      "id": "en-b1-from-de",
+      "name": "Englisch B1 — Mittelstufe",
+      "description": "Mittelstufenkurs Englisch B1 (15 Lektionen), auf Deutsch erklärt — von Present Perfect vs. Past Simple über Present Perfect Continuous, Past Perfect, Conditionals II/III, Passiv, Reported Speech und Relative Clauses bis zu Linking Words, abstrakteren Themen, falschen Freunden und der Textproduktion. Mit Fokus auf typische Fehler von Deutschsprachigen. Setzt das A1+A2-Wissen voraus, überwiegend produktiv.",
+      "source_language": "de",
+      "target_language": "en",
+      "level": "b1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 188,
+      "tags": [
+        "intermediate",
+        "grammar",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-07-22T11:01:43Z"
+    },
+    {
+      "id": "es-a1-from-de",
+      "name": "Spanisch A1 (für Deutschsprachige)",
+      "description": "Fünfzehn A1-Lektionen Spanisch, auf Deutsch erklärt — vom ersten Gruß bis zum Indefinido.",
+      "source_language": "de",
+      "target_language": "es",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 230,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-07-06T12:39:22Z"
+    },
+    {
+      "id": "es-a2-from-de",
+      "name": "Spanisch A2 — Grundlagen",
+      "description": "Aufbaukurs Spanisch A2 (15 Lektionen), auf Deutsch erklärt — von den Vergangenheitsformen und Zukunftszeiten über die Objekt- und Reflexivpronomen, por/para und die Vertiefung von ser/estar bis zur Einführung in den subjuntivo, Vergleichen, längeren Texten und Konnektoren. Setzt das A1-Wissen voraus und baut darauf auf.",
+      "source_language": "de",
+      "target_language": "es",
+      "level": "a2",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 182,
+      "tags": [
+        "elementary",
+        "grammar",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-07-06T12:39:22Z"
+    },
+    {
+      "id": "es-b1-from-de",
+      "name": "Spanisch B1 — Mittelstufe",
+      "description": "Mittelstufenkurs Spanisch B1 (15 Lektionen), auf Deutsch erklärt — vom subjuntivo über condicional, pluscuamperfecto, Passiv (ser/pasiva refleja) und estilo indirecto bis zu Pronomen, Konnektoren, abstrakteren Themen und der Textproduktion. Setzt das A1+A2-Wissen voraus und ist überwiegend produktiv ausgerichtet.",
+      "source_language": "de",
+      "target_language": "es",
+      "level": "b1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 197,
+      "tags": [
+        "intermediate",
+        "grammar",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-17T08:53:18Z"
+    },
+    {
+      "id": "fr-a1-from-de",
+      "name": "Französisch A1 (für Deutschsprachige)",
+      "description": "Vollständiger A1-Kurs Französisch (15 Lektionen), auf Deutsch erklärt.",
+      "source_language": "de",
+      "target_language": "fr",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 186,
+      "tags": [
+        "beginner",
+        "travel",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-07-06T12:39:22Z"
+    },
+    {
+      "id": "fr-a2-from-de",
+      "name": "Französisch A2 — Grundlagen",
+      "description": "Aufbaukurs Französisch A2 (15 Lektionen), auf Deutsch erklärt — von den Vergangenheitsformen und Zukunftszeiten über die Objektpronomen und die erweiterte Verneinung bis zu Vergleichen, längeren Texten und Bedingungssätzen. Setzt das A1-Wissen voraus und baut darauf auf.",
+      "source_language": "de",
+      "target_language": "fr",
+      "level": "a2",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 180,
+      "tags": [
+        "elementary",
+        "grammar",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-07-06T12:39:22Z"
+    },
+    {
+      "id": "fr-b1-from-de",
+      "name": "Französisch B1 — Mittelstufe",
+      "description": "Mittelstufenkurs Französisch B1 (15 Lektionen), auf Deutsch erklärt — vom Subjonctif über conditionnel passé, plus-que-parfait, Passiv und indirekte Rede bis zu Relativpronomen, Konnektoren, abstrakteren Themen und der Textproduktion. Setzt das A1+A2-Wissen voraus und ist überwiegend produktiv ausgerichtet.",
+      "source_language": "de",
+      "target_language": "fr",
+      "level": "b1",
+      "domain": "language",
+      "lesson_count": 15,
+      "card_count": 193,
+      "tags": [
+        "intermediate",
+        "grammar",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-17T08:53:18Z"
+    },
+    {
+      "id": "it-a1-from-de",
+      "name": "Italienisch A1 (für Deutschsprachige)",
+      "description": "Zehn A1-Lektionen Italienisch, auf Deutsch erklärt — vom ersten Gruß bis zur Wegbeschreibung.",
+      "source_language": "de",
+      "target_language": "it",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 10,
+      "card_count": 125,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-07-06T12:39:22Z"
+    },
+    {
+      "id": "ja-a0-from-de",
+      "name": "Japanisch Schrift: Hiragana (Vorstufe)",
+      "description": "Zehn Vorstufen-Lektionen zum Lesen des Hiragana-Alphabets, auf Deutsch erklärt — als Vorbereitung auf das Set „Japanisch A1\". Nur Erkennen und Lesen der Zeichen, kein Schreiben oder Hören.",
+      "source_language": "de",
+      "target_language": "ja",
+      "level": "a0",
+      "domain": "language",
+      "lesson_count": 10,
+      "card_count": 71,
+      "tags": [
+        "beginner",
+        "hiragana",
+        "kana",
+        "schrift",
+        "vorstufe"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-07-06T12:39:22Z"
+    },
+    {
+      "id": "ja-a1-from-de",
+      "name": "Japanisch A1 (für Deutschsprachige)",
+      "description": "Zehn A1-Lektionen Japanisch, auf Deutsch erklärt — vom ersten Gruß bis zu den Höflichkeitsformen.",
+      "source_language": "de",
+      "target_language": "ja",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 10,
+      "card_count": 122,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-07-07T09:21:01Z"
+    },
+    {
+      "id": "ko-a1-from-de",
+      "name": "Koreanisch A1 (für Deutschsprachige)",
+      "description": "Zehn A1-Lektionen Koreanisch, auf Deutsch erklärt — vom Hangul-Lesen bis zu den Höflichkeitsstufen.",
+      "source_language": "de",
+      "target_language": "ko",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 10,
+      "card_count": 119,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-07-07T09:21:01Z"
+    },
+    {
+      "id": "pt-br-a1-from-de",
+      "name": "Portugiesisch (Brasilianisch) A1 (für Deutschsprachige)",
+      "description": "Zehn A1-Lektionen brasilianisches Portugiesisch, auf Deutsch erklärt — vom ersten Gruß bis zur Reise. Brasilianische Vokabeln und Schreibweise, mit Hinweisen zum europäischen Portugiesisch.",
+      "source_language": "de",
+      "target_language": "pt",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 10,
+      "card_count": 130,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-07-06T12:39:22Z"
+    },
+    {
+      "id": "zh-a1-from-de",
+      "name": "Chinesisch A1 (für Deutschsprachige)",
+      "description": "Zehn A1-Lektionen Mandarin-Chinesisch, auf Deutsch erklärt — von den vier Tönen und Pinyin bis zu einfachen Sätzen.",
+      "source_language": "de",
+      "target_language": "zh",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 10,
+      "card_count": 122,
+      "tags": [
+        "beginner",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-07-07T09:21:01Z"
+    },
+    {
+      "id": "de-a1-from-en",
+      "name": "German A1 (for English speakers)",
+      "description": "Five starter German lessons explained in English: greetings and introducing yourself, numbers 1-10 and colours, the articles der/die/das with the verb \"sein\", family members, and food, drink and useful everyday phrases.",
+      "source_language": "en",
+      "target_language": "de",
+      "level": "a1",
+      "domain": "language",
+      "lesson_count": 5,
+      "card_count": 66,
+      "tags": [
+        "beginner",
+        "everyday",
+        "travel"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
       "updated_at": "2026-07-06T18:37:10Z"
+    },
+    {
+      "id": "de-a2-from-en",
+      "name": "German A2 (for English speakers)",
+      "description": "Five elementary German lessons explained in English, building on A1: the perfect tense (Perfekt) with haben and sein, the accusative and dative cases, modal verbs (können, müssen, dürfen, wollen, sollen, möchten), separable verbs with daily routine and clock time, and a shopping and directions lesson that reviews the A2 grammar.",
+      "source_language": "en",
+      "target_language": "de",
+      "level": "a2",
+      "domain": "language",
+      "lesson_count": 5,
+      "card_count": 46,
+      "tags": [
+        "elementary",
+        "grammar",
+        "everyday"
+      ],
+      "visibility": "visible",
+      "ai_validated": false,
+      "trust_level": 3,
+      "book": null,
+      "updated_at": "2026-06-25T13:46:02Z"
     },
     {
       "id": "es-a1-from-en",
@@ -150,46 +441,25 @@
       "updated_at": "2026-06-25T14:00:22Z"
     },
     {
-      "id": "de-a1-from-en",
-      "name": "German A1 (for English speakers)",
-      "description": "Five starter German lessons explained in English: greetings and introducing yourself, numbers 1-10 and colours, the articles der/die/das with the verb \"sein\", family members, and food, drink and useful everyday phrases.",
+      "id": "fr-a1-from-en",
+      "name": "French A1 (for English speakers)",
+      "description": "Fifteen lessons covering A1 essentials, explained in English.",
       "source_language": "en",
-      "target_language": "de",
+      "target_language": "fr",
       "level": "a1",
       "domain": "language",
-      "lesson_count": 5,
-      "card_count": 66,
+      "lesson_count": 15,
+      "card_count": 190,
       "tags": [
         "beginner",
-        "everyday",
-        "travel"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-06T18:37:10Z"
-    },
-    {
-      "id": "de-a2-from-en",
-      "name": "German A2 (for English speakers)",
-      "description": "Five elementary German lessons explained in English, building on A1: the perfect tense (Perfekt) with haben and sein, the accusative and dative cases, modal verbs (können, müssen, dürfen, wollen, sollen, möchten), separable verbs with daily routine and clock time, and a shopping and directions lesson that reviews the A2 grammar.",
-      "source_language": "en",
-      "target_language": "de",
-      "level": "a2",
-      "domain": "language",
-      "lesson_count": 5,
-      "card_count": 46,
-      "tags": [
-        "elementary",
-        "grammar",
+        "travel",
         "everyday"
       ],
       "visibility": "visible",
       "ai_validated": false,
       "trust_level": 3,
       "book": null,
-      "updated_at": "2026-06-25T13:46:02Z"
+      "updated_at": "2026-07-06T18:37:10Z"
     },
     {
       "id": "fr-a2-from-en",
@@ -234,27 +504,6 @@
       "updated_at": "2026-06-25T13:55:17Z"
     },
     {
-      "id": "fr-a1-from-de",
-      "name": "Französisch A1 (für Deutschsprachige)",
-      "description": "Vollständiger A1-Kurs Französisch (15 Lektionen), auf Deutsch erklärt.",
-      "source_language": "de",
-      "target_language": "fr",
-      "level": "a1",
-      "domain": "language",
-      "lesson_count": 15,
-      "card_count": 186,
-      "tags": [
-        "beginner",
-        "travel",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-06T12:39:22Z"
-    },
-    {
       "id": "fr-a1-from-el",
       "name": "Γαλλικά A1 (για ελληνόφωνους)",
       "description": "Πλήρες εισαγωγικό σετ γαλλικών A1 (8 μαθήματα) με εξηγήσεις στα ελληνικά. Το Multiple-Choice υλοποιείται ως cloze σε λειτουργία select (κανονική μηχανική MC).",
@@ -276,122 +525,17 @@
       "updated_at": "2026-07-03T08:33:16Z"
     },
     {
-      "id": "fr-a2-from-de",
-      "name": "Französisch A2 — Grundlagen",
-      "description": "Aufbaukurs Französisch A2 (15 Lektionen), auf Deutsch erklärt — von den Vergangenheitsformen und Zukunftszeiten über die Objektpronomen und die erweiterte Verneinung bis zu Vergleichen, längeren Texten und Bedingungssätzen. Setzt das A1-Wissen voraus und baut darauf auf.",
-      "source_language": "de",
-      "target_language": "fr",
-      "level": "a2",
-      "domain": "language",
-      "lesson_count": 15,
-      "card_count": 180,
-      "tags": [
-        "elementary",
-        "grammar",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-06T12:39:22Z"
-    },
-    {
-      "id": "fr-b1-from-de",
-      "name": "Französisch B1 — Mittelstufe",
-      "description": "Mittelstufenkurs Französisch B1 (15 Lektionen), auf Deutsch erklärt — vom Subjonctif über conditionnel passé, plus-que-parfait, Passiv und indirekte Rede bis zu Relativpronomen, Konnektoren, abstrakteren Themen und der Textproduktion. Setzt das A1+A2-Wissen voraus und ist überwiegend produktiv ausgerichtet.",
-      "source_language": "de",
-      "target_language": "fr",
-      "level": "b1",
-      "domain": "language",
-      "lesson_count": 15,
-      "card_count": 193,
-      "tags": [
-        "intermediate",
-        "grammar",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-06-17T08:53:18Z"
-    },
-    {
-      "id": "es-a1-from-de",
-      "name": "Spanisch A1 (für Deutschsprachige)",
-      "description": "Fünfzehn A1-Lektionen Spanisch, auf Deutsch erklärt — vom ersten Gruß bis zum Indefinido.",
-      "source_language": "de",
-      "target_language": "es",
-      "level": "a1",
-      "domain": "language",
-      "lesson_count": 15,
-      "card_count": 230,
-      "tags": [
-        "beginner",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-06T12:39:22Z"
-    },
-    {
-      "id": "es-a2-from-de",
-      "name": "Spanisch A2 — Grundlagen",
-      "description": "Aufbaukurs Spanisch A2 (15 Lektionen), auf Deutsch erklärt — von den Vergangenheitsformen und Zukunftszeiten über die Objekt- und Reflexivpronomen, por/para und die Vertiefung von ser/estar bis zur Einführung in den subjuntivo, Vergleichen, längeren Texten und Konnektoren. Setzt das A1-Wissen voraus und baut darauf auf.",
-      "source_language": "de",
-      "target_language": "es",
-      "level": "a2",
-      "domain": "language",
-      "lesson_count": 15,
-      "card_count": 182,
-      "tags": [
-        "elementary",
-        "grammar",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-06T12:39:22Z"
-    },
-    {
-      "id": "es-b1-from-de",
-      "name": "Spanisch B1 — Mittelstufe",
-      "description": "Mittelstufenkurs Spanisch B1 (15 Lektionen), auf Deutsch erklärt — vom subjuntivo über condicional, pluscuamperfecto, Passiv (ser/pasiva refleja) und estilo indirecto bis zu Pronomen, Konnektoren, abstrakteren Themen und der Textproduktion. Setzt das A1+A2-Wissen voraus und ist überwiegend produktiv ausgerichtet.",
-      "source_language": "de",
-      "target_language": "es",
-      "level": "b1",
-      "domain": "language",
-      "lesson_count": 15,
-      "card_count": 197,
-      "tags": [
-        "intermediate",
-        "grammar",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-06-17T08:53:18Z"
-    },
-    {
-      "id": "en-a1-from-de",
-      "name": "Englisch A1 — Anfänger",
-      "description": "Englisch lernen für Deutschsprachige. Grundwortschatz, Grammatik und Alltagssituationen — von der Begrüßung bis zum Simple Past, mit Fokus auf typische Fehler und falsche Freunde. Erklärungen auf Deutsch.",
-      "source_language": "de",
+      "id": "en-a1-from-hi",
+      "name": "अंग्रेज़ी A1 (हिंदी भाषियों के लिए)",
+      "description": "English set for Hindi speakers (10 lessons): basic vocabulary, everyday sentences, grammar basics, family and relationships, food and drink, directions and places, shopping and money, time and date, politeness, and travel and transport.",
+      "source_language": "hi",
       "target_language": "en",
       "level": "a1",
       "domain": "language",
-      "lesson_count": 15,
-      "card_count": 163,
+      "lesson_count": 10,
+      "card_count": 120,
       "tags": [
         "beginner",
-        "travel",
         "everyday"
       ],
       "visibility": "visible",
@@ -401,15 +545,15 @@
       "updated_at": "2026-06-16T16:17:56Z"
     },
     {
-      "id": "en-a2-from-de",
-      "name": "Englisch A2 — Grundlagen",
-      "description": "Aufbaukurs Englisch A2 (15 Lektionen), auf Deutsch erklärt — von den Verlaufsformen und dem Present Perfect über die Zukunfts- und Modalverben bis zu Steigerung, Bedingungssätzen, Passiv und falschen Freunden. Mit Fokus auf die typischen Fehler von Deutschsprachigen. Setzt das A1-Wissen voraus und baut darauf auf.",
-      "source_language": "de",
+      "id": "en-a2-from-hi",
+      "name": "अंग्रेज़ी A2 (हिंदी भाषियों के लिए)",
+      "description": "Elementary English for Hindi speakers (5 lessons), building on A1: the past simple (regular and irregular verbs, did-questions), the future with will and going to, comparatives and superlatives, the present continuous contrasted with the present simple for routines, and asking for help politely with a review of the A2 grammar. Explanations in Hindi.",
+      "source_language": "hi",
       "target_language": "en",
       "level": "a2",
       "domain": "language",
-      "lesson_count": 15,
-      "card_count": 182,
+      "lesson_count": 5,
+      "card_count": 42,
       "tags": [
         "elementary",
         "grammar",
@@ -419,151 +563,7 @@
       "ai_validated": false,
       "trust_level": 3,
       "book": null,
-      "updated_at": "2026-06-16T16:17:56Z"
-    },
-    {
-      "id": "en-b1-from-de",
-      "name": "Englisch B1 — Mittelstufe",
-      "description": "Mittelstufenkurs Englisch B1 (15 Lektionen), auf Deutsch erklärt — von Present Perfect vs. Past Simple über Present Perfect Continuous, Past Perfect, Conditionals II/III, Passiv, Reported Speech und Relative Clauses bis zu Linking Words, abstrakteren Themen, falschen Freunden und der Textproduktion. Mit Fokus auf typische Fehler von Deutschsprachigen. Setzt das A1+A2-Wissen voraus, überwiegend produktiv.",
-      "source_language": "de",
-      "target_language": "en",
-      "level": "b1",
-      "domain": "language",
-      "lesson_count": 15,
-      "card_count": 188,
-      "tags": [
-        "intermediate",
-        "grammar",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-22T11:01:43Z"
-    },
-    {
-      "id": "ja-a0-from-de",
-      "name": "Japanisch Schrift: Hiragana (Vorstufe)",
-      "description": "Zehn Vorstufen-Lektionen zum Lesen des Hiragana-Alphabets, auf Deutsch erklärt — als Vorbereitung auf das Set „Japanisch A1\". Nur Erkennen und Lesen der Zeichen, kein Schreiben oder Hören.",
-      "source_language": "de",
-      "target_language": "ja",
-      "level": "a0",
-      "domain": "language",
-      "lesson_count": 10,
-      "card_count": 71,
-      "tags": [
-        "beginner",
-        "hiragana",
-        "kana",
-        "schrift",
-        "vorstufe"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-06T12:39:22Z"
-    },
-    {
-      "id": "ja-a1-from-de",
-      "name": "Japanisch A1 (für Deutschsprachige)",
-      "description": "Zehn A1-Lektionen Japanisch, auf Deutsch erklärt — vom ersten Gruß bis zu den Höflichkeitsformen.",
-      "source_language": "de",
-      "target_language": "ja",
-      "level": "a1",
-      "domain": "language",
-      "lesson_count": 10,
-      "card_count": 122,
-      "tags": [
-        "beginner",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-07T09:21:01Z"
-    },
-    {
-      "id": "ko-a1-from-de",
-      "name": "Koreanisch A1 (für Deutschsprachige)",
-      "description": "Zehn A1-Lektionen Koreanisch, auf Deutsch erklärt — vom Hangul-Lesen bis zu den Höflichkeitsstufen.",
-      "source_language": "de",
-      "target_language": "ko",
-      "level": "a1",
-      "domain": "language",
-      "lesson_count": 10,
-      "card_count": 119,
-      "tags": [
-        "beginner",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-07T09:21:01Z"
-    },
-    {
-      "id": "it-a1-from-de",
-      "name": "Italienisch A1 (für Deutschsprachige)",
-      "description": "Zehn A1-Lektionen Italienisch, auf Deutsch erklärt — vom ersten Gruß bis zur Wegbeschreibung.",
-      "source_language": "de",
-      "target_language": "it",
-      "level": "a1",
-      "domain": "language",
-      "lesson_count": 10,
-      "card_count": 125,
-      "tags": [
-        "beginner",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-06T12:39:22Z"
-    },
-    {
-      "id": "pt-br-a1-from-de",
-      "name": "Portugiesisch (Brasilianisch) A1 (für Deutschsprachige)",
-      "description": "Zehn A1-Lektionen brasilianisches Portugiesisch, auf Deutsch erklärt — vom ersten Gruß bis zur Reise. Brasilianische Vokabeln und Schreibweise, mit Hinweisen zum europäischen Portugiesisch.",
-      "source_language": "de",
-      "target_language": "pt",
-      "level": "a1",
-      "domain": "language",
-      "lesson_count": 10,
-      "card_count": 130,
-      "tags": [
-        "beginner",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-06T12:39:22Z"
-    },
-    {
-      "id": "zh-a1-from-de",
-      "name": "Chinesisch A1 (für Deutschsprachige)",
-      "description": "Zehn A1-Lektionen Mandarin-Chinesisch, auf Deutsch erklärt — von den vier Tönen und Pinyin bis zu einfachen Sätzen.",
-      "source_language": "de",
-      "target_language": "zh",
-      "level": "a1",
-      "domain": "language",
-      "lesson_count": 10,
-      "card_count": 122,
-      "tags": [
-        "beginner",
-        "everyday"
-      ],
-      "visibility": "visible",
-      "ai_validated": false,
-      "trust_level": 3,
-      "book": null,
-      "updated_at": "2026-07-07T09:21:01Z"
+      "updated_at": "2026-07-06T18:37:10Z"
     },
     {
       "id": "adaptive-learner-app-from-de",
