@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "phr-je-voudrais",
+      "stable_id": "card-ms9433kh4o1xo",
       "front": "Je voudrais…",
       "back": "I would like… (polite)",
       "notes": "**Standard polite order**. Conditional of *vouloir*, but treat it as a fixed phrase at A1. Always more polite than *Je veux* (I want), which sounds blunt to French ears.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "phr-sil-vous-plait",
+      "stable_id": "card-ms9433kh4o2m6",
       "front": "s'il vous plaît",
       "back": "please (formal / plural)",
       "notes": "Literally *if it pleases you*. Always written with the apostrophe. Often abbreviated **SVP** in text messages or signs.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "phr-merci",
+      "stable_id": "card-ms9433kh4o38k",
       "front": "merci",
       "back": "thank you",
       "notes": "Adding **beaucoup** intensifies: *merci beaucoup* (thanks a lot). The reply is *de rien* (you're welcome — lit. *of nothing*) or *je vous en prie* (very formal).",
@@ -34,6 +37,7 @@
     },
     {
       "id": "phr-addition",
+      "stable_id": "card-ms9433kh4o4mv",
       "front": "L'addition, s'il vous plaît.",
       "back": "The bill, please.",
       "notes": "The standard way to ask for the check. **L'addition** means *the bill* in restaurants — never *la facture* (which is for invoices / utilities).",
@@ -44,6 +48,7 @@
     },
     {
       "id": "phr-bon-appetit",
+      "stable_id": "card-ms9433kh4o549",
       "front": "Bon appétit !",
       "back": "Enjoy your meal!",
       "notes": "Said by staff serving food, AND by table companions before eating. There's no real English equivalent — \"enjoy\" is closest. Always with the exclamation mark.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "food-pain",
+      "stable_id": "card-ms9433kh4o6l4",
       "front": "le pain",
       "back": "the bread",
       "notes": "On the table by default in most French restaurants — refills are free. *Du pain* (some bread) if you want more.",
@@ -64,6 +70,7 @@
     },
     {
       "id": "food-eau",
+      "stable_id": "card-ms9433kh4o7xd",
       "front": "l'eau",
       "back": "the water",
       "notes": "Already met in Lesson 03. *Une carafe d'eau* (a jug of tap water) is a free, polite request.",
@@ -75,6 +82,7 @@
     },
     {
       "id": "food-vin",
+      "stable_id": "card-ms9433kh4o8fr",
       "front": "le vin",
       "back": "the wine",
       "notes": "*Un verre de vin* (a glass of wine). Watch the **vin** / **vingt** (twenty) pair — same pronunciation, totally different meanings; context decides.",
@@ -85,6 +93,7 @@
     },
     {
       "id": "food-cafe",
+      "stable_id": "card-ms9433kh4o9bf",
       "front": "le café",
       "back": "the coffee",
       "notes": "A small espresso by default in France. Ask for *un café allongé* (Americano-style) or *un café au lait* (with milk) if you want something different.",
@@ -95,6 +104,7 @@
     },
     {
       "id": "food-poulet",
+      "stable_id": "card-ms9433kh4oad4",
       "front": "le poulet",
       "back": "the chicken",
       "tags": [
@@ -104,6 +114,7 @@
     },
     {
       "id": "food-poisson",
+      "stable_id": "card-ms9433kh4obse",
       "front": "le poisson",
       "back": "the fish",
       "notes": "Don't confuse with **le poison** (one s) — that's poison. One letter, big difference.",
@@ -114,6 +125,7 @@
     },
     {
       "id": "food-salade",
+      "stable_id": "card-ms9433kh4ocb7",
       "front": "la salade",
       "back": "the salad",
       "tags": [
@@ -123,6 +135,7 @@
     },
     {
       "id": "food-fromage",
+      "stable_id": "card-ms9433kh4odxv",
       "front": "le fromage",
       "back": "the cheese",
       "notes": "France produces ~1,000 varieties. *Un plateau de fromages* (a cheese platter) often comes between the main course and dessert.",
@@ -152,6 +165,7 @@
       "title": "Order a coffee",
       "exercise": {
         "id": "ex-free-je-voudrais",
+        "stable_id": "ex-ms9433kh4oe4d",
         "type": "free_text",
         "prompt": "Order a coffee politely. Translate: *I would like a coffee, please.*",
         "card_ids": [
@@ -186,6 +200,7 @@
       "title": "Match food vocabulary",
       "exercise": {
         "id": "ex-match-food",
+        "stable_id": "ex-ms9433kh4of8k",
         "type": "matching",
         "prompt": "Match each French menu word with its English meaning.",
         "card_ids": [
@@ -232,6 +247,7 @@
       "title": "Don't order poison",
       "exercise": {
         "id": "ex-pick-poisson",
+        "stable_id": "ex-ms9433kh4ogf5",
         "type": "picture_choice",
         "prompt": "Which spelling means *fish* (the food)?",
         "card_ids": [
@@ -272,6 +288,7 @@
       "title": "Ask for water",
       "exercise": {
         "id": "ex-tile-water",
+        "stable_id": "ex-ms9433kh4ohm0",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to ask for a jug of tap water politely.",
         "card_ids": [
@@ -299,6 +316,7 @@
       "title": "Ask for the bill",
       "exercise": {
         "id": "ex-free-addition",
+        "stable_id": "ex-ms9433kh4oi85",
         "type": "free_text",
         "prompt": "Politely ask for the bill.",
         "card_ids": [
@@ -325,6 +343,7 @@
       "title": "When food arrives",
       "exercise": {
         "id": "ex-pick-bon-appetit",
+        "stable_id": "ex-ms9433kh4oj2p",
         "type": "picture_choice",
         "prompt": "The waiter sets your plate down and says…",
         "card_ids": [
@@ -365,6 +384,7 @@
       "title": "Match phrase to situation",
       "exercise": {
         "id": "ex-match-phrases",
+        "stable_id": "ex-ms9433kh4okdx",
         "type": "matching",
         "prompt": "Match each French phrase with when you'd use it.",
         "card_ids": [
@@ -401,6 +421,7 @@
       "title": "Order a glass of wine",
       "exercise": {
         "id": "ex-tile-glass-wine",
+        "stable_id": "ex-ms9433kh4olo6",
         "type": "word_tiles",
         "prompt": "Arrange to mean: *I would like a glass of wine, please.*",
         "card_ids": [

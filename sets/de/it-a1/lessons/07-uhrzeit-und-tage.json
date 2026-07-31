@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "che-ore-sono",
+      "stable_id": "card-ms9433ii2nft9",
       "front": "Che ore sono?",
       "back": "Wie spät ist es?",
       "notes": "Kontext: Scusi, che ore sono? – Entschuldigung, wie spät ist es?",
@@ -17,6 +18,7 @@
     },
     {
       "id": "sono-le",
+      "stable_id": "card-ms9433ii2ngmw",
       "front": "Sono le...",
       "back": "Es ist ... Uhr",
       "notes": "Kontext: Sono le tre. – Es ist drei Uhr. Plural, weil 'le ore' (die Stunden).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "e-l-una",
+      "stable_id": "card-ms9433ii2nhlc",
       "front": "È l'una",
       "back": "Es ist ein Uhr",
       "notes": "Kontext: È l'una in punto. – Es ist genau ein Uhr. Singular: nur bei 1 Uhr.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "mezzogiorno",
+      "stable_id": "card-ms9433ii2nife",
       "front": "mezzogiorno",
       "back": "Mittag (12 Uhr)",
       "notes": "Kontext: È mezzogiorno. – Es ist Mittag.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "lunedi",
+      "stable_id": "card-ms9433ii2njxx",
       "front": "lunedì",
       "back": "Montag",
       "notes": "Kontext: Lunedì lavoro. – Am Montag arbeite ich. Tage werden klein geschrieben.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "martedi",
+      "stable_id": "card-ms9433ii2nkql",
       "front": "martedì",
       "back": "Dienstag",
       "notes": "Kontext: Martedì ho lezione. – Am Dienstag habe ich Unterricht.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "mercoledi",
+      "stable_id": "card-ms9433ii2nlqy",
       "front": "mercoledì",
       "back": "Mittwoch",
       "notes": "Kontext: Mercoledì sera. – Mittwochabend.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "giovedi",
+      "stable_id": "card-ms9433ii2nm2i",
       "front": "giovedì",
       "back": "Donnerstag",
       "notes": "Kontext: Ci vediamo giovedì. – Wir sehen uns am Donnerstag.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "venerdi",
+      "stable_id": "card-ms9433ii2nn02",
       "front": "venerdì",
       "back": "Freitag",
       "notes": "Kontext: Venerdì è festa. – Freitag ist Feiertag.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "sabato",
+      "stable_id": "card-ms9433ii2nosp",
       "front": "sabato",
       "back": "Samstag",
       "notes": "Kontext: Sabato vado al mare. – Am Samstag fahre ich ans Meer. Endet nicht auf -dì!",
@@ -89,6 +99,7 @@
     },
     {
       "id": "domenica",
+      "stable_id": "card-ms9433ii2npvy",
       "front": "domenica",
       "back": "Sonntag",
       "notes": "Kontext: Domenica è festa. – Sonntag ist Feiertag. Einziger weiblicher Wochentag.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "oggi",
+      "stable_id": "card-ms9433ii2nqpd",
       "front": "oggi",
       "back": "heute",
       "notes": "Kontext: Oggi è lunedì. – Heute ist Montag.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "domani",
+      "stable_id": "card-ms9433ii2nrpl",
       "front": "domani",
       "back": "morgen",
       "notes": "Kontext: Domani è sabato. – Morgen ist Samstag.",
@@ -132,6 +145,7 @@
       "title": "Wochentage zuordnen",
       "exercise": {
         "id": "ex-match-tage",
+        "stable_id": "ex-ms9433ii2ns92",
         "type": "matching",
         "prompt": "Ordne den italienischen Wochentagen die deutsche Bedeutung zu.",
         "card_ids": ["lunedi", "venerdi", "sabato", "domenica"],
@@ -151,6 +165,7 @@
       "title": "Nach der Uhrzeit fragen",
       "exercise": {
         "id": "ex-free-che-ore-sono",
+        "stable_id": "ex-ms9433ii2ntty",
         "type": "free_text",
         "prompt": "Wie fragt man 'Wie spät ist es?' auf Italienisch?",
         "card_ids": ["che-ore-sono"],
@@ -167,6 +182,7 @@
       "title": "Heute",
       "exercise": {
         "id": "ex-free-oggi",
+        "stable_id": "ex-ms9433ii2nu0e",
         "type": "free_text",
         "prompt": "Wie heißt 'heute' auf Italienisch?",
         "card_ids": ["oggi"],
@@ -183,6 +199,7 @@
       "title": "Lücke füllen: Es ist drei Uhr",
       "exercise": {
         "id": "ex-cloze-sono-le-tre",
+        "stable_id": "ex-ms9433ii2nvhh",
         "type": "cloze",
         "prompt": "Ergänze: 'Es ist drei Uhr.'",
         "card_ids": ["sono-le"],
@@ -201,6 +218,7 @@
       "title": "Satz zusammensetzen",
       "exercise": {
         "id": "ex-tile-domani-domenica",
+        "stable_id": "ex-ms9433ii2nw1x",
         "type": "word_tiles",
         "prompt": "Baue den Satz 'Morgen ist Sonntag.'",
         "card_ids": ["domani", "domenica"],
@@ -216,6 +234,7 @@
       "title": "Mittag erkennen",
       "exercise": {
         "id": "ex-pick-mezzogiorno",
+        "stable_id": "ex-ms9433ii2nxs1",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'Mittag'?",
         "card_ids": ["mezzogiorno"],

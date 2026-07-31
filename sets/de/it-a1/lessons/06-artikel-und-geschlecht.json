@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "il",
+      "stable_id": "card-ms9433ih2mwda",
       "front": "il",
       "back": "der (m. Sg.)",
       "notes": "Kontext: il libro – das Buch. Vor den meisten männlichen Wörtern: il treno, il gatto.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "lo",
+      "stable_id": "card-ms9433ih2mxiu",
       "front": "lo",
       "back": "der (m. Sg., Sonderfall)",
       "notes": "Kontext: lo studente – der Student. Vor s+Konsonant, z, gn, ps: lo zaino, lo gnomo.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "la",
+      "stable_id": "card-ms9433ih2myqi",
       "front": "la",
       "back": "die (f. Sg.)",
       "notes": "Kontext: la casa – das Haus. Vor weiblichen Wörtern: la donna, la pizza.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "l-apostrofo",
+      "stable_id": "card-ms9433ih2mzu0",
       "front": "l'",
       "back": "der/die (vor Vokal)",
       "notes": "Kontext: l'amico (m.), l'acqua (f.). il/lo/la werden vor Vokal zu l'.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "i",
+      "stable_id": "card-ms9433ih2n0ud",
       "front": "i",
       "back": "die (m. Pl.)",
       "notes": "Kontext: i libri – die Bücher. Plural von 'il'.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "gli",
+      "stable_id": "card-ms9433ih2n1o6",
       "front": "gli",
       "back": "die (m. Pl., Sonderfall)",
       "notes": "Kontext: gli studenti, gli amici. Plural von 'lo' und 'l'' (m.).",
@@ -57,6 +63,7 @@
     },
     {
       "id": "le",
+      "stable_id": "card-ms9433ih2n2kq",
       "front": "le",
       "back": "die (f. Pl.)",
       "notes": "Kontext: le case – die Häuser. Plural von 'la' und 'l'' (f.).",
@@ -65,6 +72,7 @@
     },
     {
       "id": "un",
+      "stable_id": "card-ms9433ih2n3gm",
       "front": "un",
       "back": "ein (m.)",
       "notes": "Kontext: un libro – ein Buch. Unbestimmter Artikel männlich (Normalfall).",
@@ -73,6 +81,7 @@
     },
     {
       "id": "uno-art",
+      "stable_id": "card-ms9433ih2n4pz",
       "front": "uno",
       "back": "ein (m., Sonderfall)",
       "notes": "Kontext: uno studente, uno zaino. Vor s+Konsonant, z, gn, ps.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "una",
+      "stable_id": "card-ms9433ih2n5ox",
       "front": "una",
       "back": "eine (f.)",
       "notes": "Kontext: una casa – ein Haus. Vor Vokal: un'amica.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "parola-o",
+      "stable_id": "card-ms9433ih2n656",
       "front": "il gatto",
       "back": "die Katze (m.)",
       "notes": "Kontext: Il gatto dorme. – Die Katze schläft. Wörter auf -o sind meist männlich.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "parola-a",
+      "stable_id": "card-ms9433ih2n73s",
       "front": "la casa",
       "back": "das Haus (f.)",
       "notes": "Kontext: La casa è grande. – Das Haus ist groß. Wörter auf -a sind meist weiblich.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "parola-e",
+      "stable_id": "card-ms9433ih2n8gs",
       "front": "il fiore",
       "back": "die Blume (m.)",
       "notes": "Kontext: Il fiore è rosso. – Die Blume ist rot. Wörter auf -e können m. oder f. sein; hier männlich.",
@@ -132,6 +145,7 @@
       "title": "Artikel zuordnen",
       "exercise": {
         "id": "ex-match-artikel",
+        "stable_id": "ex-ms9433ih2n91i",
         "type": "matching",
         "prompt": "Ordne den italienischen Artikeln ihre Bedeutung zu.",
         "card_ids": ["il", "la", "i", "le"],
@@ -151,6 +165,7 @@
       "title": "Unbestimmter Artikel weiblich",
       "exercise": {
         "id": "ex-free-una",
+        "stable_id": "ex-ms9433ih2nave",
         "type": "free_text",
         "prompt": "Wie heißt der unbestimmte Artikel 'eine' (weiblich)?",
         "card_ids": ["una"],
@@ -167,6 +182,7 @@
       "title": "Weiblicher Plural",
       "exercise": {
         "id": "ex-free-le",
+        "stable_id": "ex-ms9433ih2nbht",
         "type": "free_text",
         "prompt": "Wie heißt der bestimmte Artikel im weiblichen Plural (le case)?",
         "card_ids": ["le"],
@@ -183,6 +199,7 @@
       "title": "Lücke füllen: Artikel wählen",
       "exercise": {
         "id": "ex-cloze-il-la",
+        "stable_id": "ex-ms9433ih2ncaz",
         "type": "cloze",
         "prompt": "Ergänze den richtigen bestimmten Artikel (il oder la).",
         "card_ids": ["il", "la", "parola-o", "parola-a"],
@@ -202,6 +219,7 @@
       "title": "Sonderfall-Artikel",
       "exercise": {
         "id": "ex-tile-uno-studente",
+        "stable_id": "ex-ms9433ih2nd61",
         "type": "word_tiles",
         "prompt": "Baue 'ein Student' (Sonderfall vor st-).",
         "card_ids": ["uno-art"],
@@ -217,6 +235,7 @@
       "title": "Weibliches Wort erkennen",
       "exercise": {
         "id": "ex-pick-la-casa",
+        "stable_id": "ex-ms9433ih2nejm",
         "type": "picture_choice",
         "prompt": "Welches Wort ist weiblich (mit 'la')?",
         "card_ids": ["parola-a"],

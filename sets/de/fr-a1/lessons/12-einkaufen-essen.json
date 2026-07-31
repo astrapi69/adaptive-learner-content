@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "food-pain",
+      "stable_id": "card-ms9433hr1xz7a",
       "front": "le pain",
       "back": "das Brot",
       "notes": "Maskulin. Mit *etwas*: **du pain**. *Je voudrais du pain* — Ich hätte gern etwas Brot.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "food-lait",
+      "stable_id": "card-ms9433hr1y0tx",
       "front": "le lait",
       "back": "die Milch",
       "notes": "Maskulin. Mit *etwas*: **du lait**. Oft kauft man *une bouteille de lait* (eine Flasche Milch).",
@@ -26,6 +28,7 @@
     },
     {
       "id": "food-fruits",
+      "stable_id": "card-ms9433hr1y1y9",
       "front": "les fruits",
       "back": "das Obst",
       "notes": "Plural. Mit *etwas*: **des fruits**. Im Französischen ist Obst zählbar: *des fruits*.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "food-legumes",
+      "stable_id": "card-ms9433hr1y2i0",
       "front": "les légumes",
       "back": "das Gemüse",
       "notes": "Plural. Mit *etwas*: **des légumes**. *J'achète des légumes au marché.*",
@@ -46,6 +50,7 @@
     },
     {
       "id": "food-viande",
+      "stable_id": "card-ms9433hr1y3d6",
       "front": "la viande",
       "back": "das Fleisch",
       "notes": "Feminin. Mit *etwas*: **de la viande**. *Je mange de la viande* — Ich esse (etwas) Fleisch.",
@@ -56,6 +61,7 @@
     },
     {
       "id": "food-fromage",
+      "stable_id": "card-ms9433hr1y4dc",
       "front": "le fromage",
       "back": "der Käse",
       "notes": "Maskulin. Mit *etwas*: **du fromage**. *beaucoup de fromage* — viel Käse.",
@@ -66,6 +72,7 @@
     },
     {
       "id": "food-eau",
+      "stable_id": "card-ms9433hr1y5k6",
       "front": "l'eau",
       "back": "das Wasser",
       "notes": "Feminin, beginnt aber mit einem Vokal. Mit *etwas*: **de l'eau** (nicht *de la eau*). *Je voudrais de l'eau.*",
@@ -76,6 +83,7 @@
     },
     {
       "id": "food-cafe",
+      "stable_id": "card-ms9433hr1y66w",
       "front": "le café",
       "back": "der Kaffee",
       "notes": "Maskulin. Mit *etwas*: **du café**. *un café* kann auch eine Tasse Kaffee im Café bedeuten.",
@@ -86,6 +94,7 @@
     },
     {
       "id": "place-marche",
+      "stable_id": "card-ms9433hr1y7s0",
       "front": "le marché",
       "back": "der Markt",
       "notes": "*au marché* — auf dem Markt. Markt im Freien für frische Erzeugnisse. *J'achète des fruits au marché.*",
@@ -95,6 +104,7 @@
     },
     {
       "id": "place-supermarche",
+      "stable_id": "card-ms9433hr1y87j",
       "front": "le supermarché",
       "back": "der Supermarkt",
       "notes": "*au supermarché* — im Supermarkt. *Faire les courses* — (Lebensmittel-)Einkäufe erledigen.",
@@ -104,6 +114,7 @@
     },
     {
       "id": "phr-je-voudrais",
+      "stable_id": "card-ms9433hr1y9lj",
       "front": "Je voudrais",
       "back": "Ich hätte gern",
       "notes": "Höfliche Art, um etwas zu bitten — weicher als *Je veux* (Ich will). *Je voudrais du pain, s'il vous plaît.*",
@@ -114,6 +125,7 @@
     },
     {
       "id": "phr-cest-combien",
+      "stable_id": "card-ms9433hr1yat9",
       "front": "C'est combien ?",
       "back": "Wie viel kostet das?",
       "notes": "Unverzichtbare Einkaufsfrage. Beachte das Leerzeichen vor **?** — im Französischen Standard. Auch: *Ça coûte combien ?*",
@@ -124,6 +136,7 @@
     },
     {
       "id": "qty-kilo",
+      "stable_id": "card-ms9433hr1yb04",
       "front": "un kilo de",
       "back": "ein Kilo von",
       "notes": "Mengenangaben verlangen nur **de** (nie *du/de la/des*): *un kilo de pommes* — ein Kilo Äpfel.",
@@ -133,6 +146,7 @@
     },
     {
       "id": "qty-bouteille",
+      "stable_id": "card-ms9433hr1yc50",
       "front": "une bouteille de",
       "back": "eine Flasche von",
       "notes": "Eine weitere Menge: *une bouteille de lait* — eine Flasche Milch. Immer **de**, kein Artikel danach.",
@@ -155,6 +169,7 @@
       "title": "Ordne die Lebensmittelwörter zu",
       "exercise": {
         "id": "ex-match-food",
+        "stable_id": "ex-ms9433hr1yddz",
         "type": "matching",
         "prompt": "Ordne jedem französischen Lebensmittelwort seine deutsche Bedeutung zu.",
         "card_ids": [
@@ -201,6 +216,7 @@
       "title": "Ordne Teilungsartikel und Substantivtyp zu",
       "exercise": {
         "id": "ex-match-partitive",
+        "stable_id": "ex-ms9433hr1yek6",
         "type": "matching",
         "prompt": "Ordne jede Teilungsform zu, wann du sie verwendest.",
         "card_ids": [
@@ -237,6 +253,7 @@
       "title": "Etwas Wasser",
       "exercise": {
         "id": "ex-pick-some-water",
+        "stable_id": "ex-ms9433hr1yf00",
         "type": "picture_choice",
         "prompt": "Welches sagt korrekt *etwas Wasser*?",
         "card_ids": [
@@ -277,6 +294,7 @@
       "title": "Ich hätte gern etwas Brot",
       "exercise": {
         "id": "ex-free-some-bread",
+        "stable_id": "ex-ms9433hr1ygt6",
         "type": "free_text",
         "prompt": "Übersetze: *Ich hätte gern etwas Brot.* (Verwende die höfliche Form.)",
         "card_ids": [
@@ -310,6 +328,7 @@
       "title": "Bilde: eine Flasche Milch",
       "exercise": {
         "id": "ex-tile-bottle-milk",
+        "stable_id": "ex-ms9433hr1yhkn",
         "type": "word_tiles",
         "prompt": "Ordne so an, dass es bedeutet: *Ich hätte gern eine Flasche Milch.*",
         "card_ids": [
@@ -336,6 +355,7 @@
       "title": "Bilde: ein Kilo Äpfel",
       "exercise": {
         "id": "ex-tile-kilo-apples",
+        "stable_id": "ex-ms9433hr1yi7d",
         "type": "word_tiles",
         "prompt": "Ordne so an, dass es bedeutet: *ein Kilo Äpfel auf dem Markt.*",
         "card_ids": [
@@ -367,6 +387,7 @@
       "title": "Wie viel kostet das?",
       "exercise": {
         "id": "ex-free-how-much",
+        "stable_id": "ex-ms9433hr1yjb9",
         "type": "free_text",
         "prompt": "Wie fragst du *Wie viel kostet das?* auf Französisch?",
         "card_ids": [
@@ -393,6 +414,7 @@
       "title": "Etwas Gemüse",
       "exercise": {
         "id": "ex-free-some-vegetables",
+        "stable_id": "ex-ms9433hr1yknz",
         "type": "free_text",
         "prompt": "Übersetze: *etwas Gemüse* (nur die zwei Wörter).",
         "card_ids": [
@@ -419,6 +441,7 @@
       "title": "Ich kaufe etwas Fleisch",
       "exercise": {
         "id": "ex-free-buy-meat",
+        "stable_id": "ex-ms9433hr1ylvf",
         "type": "free_text",
         "prompt": "Übersetze: *Ich kaufe etwas Fleisch im Supermarkt.*",
         "card_ids": [

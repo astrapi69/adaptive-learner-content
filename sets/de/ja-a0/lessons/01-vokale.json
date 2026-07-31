@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "k-a",
+      "stable_id": "card-ms9433ij2pg0b",
       "front": "あ",
       "back": "a",
       "notes": "Hepburn: a.",
@@ -19,6 +20,7 @@
     },
     {
       "id": "k-i",
+      "stable_id": "card-ms9433ij2phnx",
       "front": "い",
       "back": "i",
       "notes": "Hepburn: i.",
@@ -29,6 +31,7 @@
     },
     {
       "id": "k-u",
+      "stable_id": "card-ms9433ij2pi0w",
       "front": "う",
       "back": "u",
       "notes": "Hepburn: u.",
@@ -39,6 +42,7 @@
     },
     {
       "id": "k-e",
+      "stable_id": "card-ms9433ij2pj2m",
       "front": "え",
       "back": "e",
       "notes": "Hepburn: e.",
@@ -49,6 +53,7 @@
     },
     {
       "id": "k-o",
+      "stable_id": "card-ms9433ij2pkx6",
       "front": "お",
       "back": "o",
       "notes": "Hepburn: o.",
@@ -97,7 +102,7 @@
           "nu"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-a"
+        "id": "ex-r-a", "stable_id": "ex-ms9433ij2plip"
       }
     },
     {
@@ -126,7 +131,7 @@
           "a"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-e"
+        "id": "ex-r-e", "stable_id": "ex-ms9433ij2pmb4"
       }
     },
     {
@@ -155,7 +160,7 @@
           "me"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-o"
+        "id": "ex-r-o", "stable_id": "ex-ms9433ij2png9"
       }
     },
     {
@@ -184,7 +189,7 @@
           "あ"
         ],
         "hint": "Der Vokal aus der Grundreihe a-i-u-e-o.",
-        "id": "ex-c-i"
+        "id": "ex-c-i", "stable_id": "ex-ms9433ij2po3h"
       }
     },
     {
@@ -213,7 +218,7 @@
           "し"
         ],
         "hint": "Der Vokal aus der Grundreihe a-i-u-e-o.",
-        "id": "ex-c-u"
+        "id": "ex-c-u", "stable_id": "ex-ms9433ij2pp83"
       }
     },
     {
@@ -246,7 +251,7 @@
           "な"
         ],
         "hint": "Die Grundreihe a-i-u-e-o.",
-        "id": "ex-ms-vok"
+        "id": "ex-ms-vok", "stable_id": "ex-ms9433ij2pq0e"
       }
     },
     {
@@ -287,7 +292,7 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-vok"
+        "id": "ex-match-vok", "stable_id": "ex-ms9433ij2prux"
       }
     },
     {
@@ -311,7 +316,7 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-o"
+        "id": "ex-tip-o", "stable_id": "ex-ms9433ij2ps68"
       }
     }
   ]

@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "art-el",
+      "stable_id": "card-ms9433gm0yb0y",
       "front": "el",
       "back": "der (maskulin Singular)",
       "notes": "Steht vor maskulinen Substantiven im Singular: *el libro*, *el chico*, *el perro*.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "art-la",
+      "stable_id": "card-ms9433gm0ycb7",
       "front": "la",
       "back": "die (feminin Singular)",
       "notes": "Steht vor femininen Substantiven im Singular: *la casa*, *la chica*, *la mesa*. Im Spanischen wird vor Vokalen nicht elidiert wie im Französischen — *la amiga*, nicht *l'amiga*.",
@@ -28,6 +30,7 @@
     },
     {
       "id": "art-los",
+      "stable_id": "card-ms9433gm0ydk4",
       "front": "los",
       "back": "die (maskulin Plural oder gemischt)",
       "notes": "Für maskuline oder gemischtgeschlechtliche Pluralformen: *los libros*, *los chicos* (Jungen oder Jungen+Mädchen). Ein Mann in einer Gruppe von Frauen macht die Gruppe zu *los*.",
@@ -39,6 +42,7 @@
     },
     {
       "id": "art-las",
+      "stable_id": "card-ms9433gm0yehi",
       "front": "las",
       "back": "die (feminin Plural)",
       "notes": "Nur für rein feminine Pluralformen: *las casas*, *las chicas*.",
@@ -50,6 +54,7 @@
     },
     {
       "id": "art-un",
+      "stable_id": "card-ms9433gm0yfza",
       "front": "un",
       "back": "ein (maskulin Singular)",
       "notes": "Unbestimmter Artikel m. Sg.: *un libro* (ein Buch). Nicht mit der Zahl *uno* (eins) verwechseln — *un* ist die verkürzte Artikelform vor einem Substantiv.",
@@ -60,6 +65,7 @@
     },
     {
       "id": "art-una",
+      "stable_id": "card-ms9433gm0yg0n",
       "front": "una",
       "back": "eine (feminin Singular)",
       "notes": "Unbestimmter Artikel f. Sg.: *una casa* (ein Haus).",
@@ -70,6 +76,7 @@
     },
     {
       "id": "art-unos",
+      "stable_id": "card-ms9433gm0yh5t",
       "front": "unos",
       "back": "einige (maskulin Plural oder gemischt)",
       "notes": "Ungefährer Plural — *unos libros* (einige Bücher, ungefähr mehrere). In den meisten Pluralformen optional; *libros* allein genügt oft.",
@@ -81,6 +88,7 @@
     },
     {
       "id": "art-unas",
+      "stable_id": "card-ms9433gm0yi8m",
       "front": "unas",
       "back": "einige (feminin Plural)",
       "tags": [
@@ -91,6 +99,7 @@
     },
     {
       "id": "noun-libro",
+      "stable_id": "card-ms9433gm0yjeg",
       "front": "libro",
       "back": "Buch (m.)",
       "notes": "Endet auf **-o** → maskulin. Verlässliches Muster.",
@@ -101,6 +110,7 @@
     },
     {
       "id": "noun-casa",
+      "stable_id": "card-ms9433gm0ykr4",
       "front": "casa",
       "back": "Haus (f.)",
       "notes": "Endet auf **-a** → feminin. Verlässliches Muster.",
@@ -111,6 +121,7 @@
     },
     {
       "id": "noun-mesa",
+      "stable_id": "card-ms9433gm0yl7z",
       "front": "mesa",
       "back": "Tisch (f.)",
       "tags": [
@@ -120,6 +131,7 @@
     },
     {
       "id": "noun-coche",
+      "stable_id": "card-ms9433gm0ymi0",
       "front": "coche",
       "back": "Auto (m.)",
       "notes": "Endet auf **-e** — das Genus ist an der Endung nicht erkennbar. Als maskulin merken. (Im lateinamerikanischen Spanisch oft *carro* — ebenfalls maskulin.)",
@@ -131,6 +143,7 @@
     },
     {
       "id": "noun-mano",
+      "stable_id": "card-ms9433gm0ynx6",
       "front": "mano",
       "back": "Hand (f.)",
       "notes": "**Häufige Ausnahme**: endet auf -o, ist aber feminin. *la mano*, *las manos*. Es gibt eine kleine Gruppe davon (auch *la foto*, *la radio*) — als Ausnahmen merken.",
@@ -142,6 +155,7 @@
     },
     {
       "id": "noun-dia",
+      "stable_id": "card-ms9433gm0yokm",
       "front": "día",
       "back": "Tag (m.)",
       "notes": "**Häufige Ausnahme**: endet auf -a, ist aber maskulin. *el día*, *los días*. Dazu passen *el mapa* (m.), *el problema* (m.) — Wörter griechischen Ursprungs auf -a sind typischerweise maskulin.",
@@ -172,6 +186,7 @@
       "title": "Den Artikel zuordnen",
       "exercise": {
         "id": "ex-match-definite",
+        "stable_id": "ex-ms9433gm0ypqb",
         "type": "matching",
         "prompt": "Ordne jedem Substantiv seinen bestimmten Artikel zu.",
         "card_ids": [
@@ -208,6 +223,7 @@
       "title": "Bestimmter Artikel — libro",
       "exercise": {
         "id": "ex-free-el-libro",
+        "stable_id": "ex-ms9433gm0yqcr",
         "type": "free_text",
         "prompt": "Tippe den richtigen bestimmten Artikel für **libro** (Buch).",
         "card_ids": [
@@ -241,6 +257,7 @@
       "title": "Unbestimmt — una casa",
       "exercise": {
         "id": "ex-pick-una",
+        "stable_id": "ex-ms9433gm0yriq",
         "type": "picture_choice",
         "prompt": "Wähle den richtigen unbestimmten Artikel für **casa** (Haus).",
         "card_ids": [
@@ -288,6 +305,7 @@
       "title": "Ausnahme — la mano",
       "exercise": {
         "id": "ex-free-la-mano",
+        "stable_id": "ex-ms9433gm0ystm",
         "type": "free_text",
         "prompt": "Tippe den bestimmten Artikel für **mano** (Hand). Achtung — das ist eine Ausnahme.",
         "card_ids": [
@@ -315,6 +333,7 @@
       "title": "Ausnahme — el día",
       "exercise": {
         "id": "ex-free-el-dia",
+        "stable_id": "ex-ms9433gm0yty4",
         "type": "free_text",
         "prompt": "Tippe den bestimmten Artikel für **día** (Tag). Noch eine Ausnahme.",
         "card_ids": [
@@ -342,6 +361,7 @@
       "title": "Plural-Artikel",
       "exercise": {
         "id": "ex-match-plurals",
+        "stable_id": "ex-ms9433gm0yux5",
         "type": "matching",
         "prompt": "Ordne jedem Substantiv seinen bestimmten Plural-Artikel zu (los oder las).",
         "card_ids": [
@@ -383,6 +403,7 @@
       "title": "Bauen: Das Buch und das Haus",
       "exercise": {
         "id": "ex-tile-mixed",
+        "stable_id": "ex-ms9433gm0yvng",
         "type": "word_tiles",
         "prompt": "Lege so, dass es *Das Buch und das Haus* bedeutet.",
         "card_ids": [
@@ -409,6 +430,7 @@
       "title": "Plural-Ausnahme",
       "exercise": {
         "id": "ex-pick-plural",
+        "stable_id": "ex-ms9433gm0ywjw",
         "type": "picture_choice",
         "prompt": "*Las manos limpias* bedeutet…",
         "card_ids": [

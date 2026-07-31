@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "how-much",
+      "stable_id": "card-ms9433fp0a2hb",
       "front": "How much is it?",
       "back": "Wie viel kostet das?",
       "notes": "'How much' fragt nach Preis oder nach UNZÄHLBAREN Mengen: How much water? How much money?",
@@ -15,6 +16,7 @@
     },
     {
       "id": "how-many",
+      "stable_id": "card-ms9433fp0a3yp",
       "front": "How many ...?",
       "back": "Wie viele ...?",
       "notes": "'How many' fragt nach ZÄHLBAREN Dingen: How many apples? How many people?",
@@ -22,6 +24,7 @@
     },
     {
       "id": "it-costs",
+      "stable_id": "card-ms9433fp0a4k0",
       "front": "It costs ...",
       "back": "Es kostet ...",
       "notes": "3. Person Singular → 'costs' mit -s. 'It costs five pounds.'",
@@ -29,6 +32,7 @@
     },
     {
       "id": "ill-take-it",
+      "stable_id": "card-ms9433fp0a5ln",
       "front": "I'll take it",
       "back": "Ich nehme es",
       "notes": "Kurzform von 'I will take it'. Standardsatz beim Kaufen. NICHT 'I take it' für die spontane Entscheidung.",
@@ -36,6 +40,7 @@
     },
     {
       "id": "do-you-have",
+      "stable_id": "card-ms9433fp0a61t",
       "front": "Do you have ...?",
       "back": "Haben Sie ...?",
       "notes": "Mit Hilfsverb 'do'. Auch britisch: 'Have you got ...?'.",
@@ -43,6 +48,7 @@
     },
     {
       "id": "too-expensive",
+      "stable_id": "card-ms9433fp0a7nd",
       "front": "too expensive",
       "back": "zu teuer",
       "notes": "'too' = zu (im Übermaß). Nicht mit 'very' (sehr) verwechseln.",
@@ -50,6 +56,7 @@
     },
     {
       "id": "on-sale",
+      "stable_id": "card-ms9433fp0a80r",
       "front": "on sale",
       "back": "im Angebot / reduziert",
       "notes": "'on sale' = reduziert. 'for sale' dagegen = zu verkaufen.",
@@ -57,6 +64,7 @@
     },
     {
       "id": "cheap",
+      "stable_id": "card-ms9433fp0a9hj",
       "front": "cheap",
       "back": "billig / günstig",
       "notes": "Gegenteil von 'expensive'. 'cheap' kann auch abwertend 'minderwertig' bedeuten.",
@@ -64,6 +72,7 @@
     },
     {
       "id": "just-browsing",
+      "stable_id": "card-ms9433fp0aak5",
       "front": "I'm just browsing",
       "back": "Ich schaue mich nur um",
       "notes": "Höfliche Antwort an Verkäufer, wenn man noch nichts kaufen will. Auch: 'I'm just looking.'",
@@ -71,6 +80,7 @@
     },
     {
       "id": "information",
+      "stable_id": "card-ms9433fp0abh3",
       "front": "information",
       "back": "die Information(en)",
       "notes": "Falscher Freund / Grammatik-Falle: IMMER unzählbar! Nie 'an information' oder 'informations'. Sage 'some information' oder 'a piece of information'.",
@@ -103,6 +113,7 @@
       "title": "Einkaufs-Sätze zuordnen",
       "exercise": {
         "id": "ex-match-shopping",
+        "stable_id": "ex-ms9433fp0aca5",
         "type": "matching",
         "prompt": "Ordne jeden Satz seiner deutschen Bedeutung zu.",
         "card_ids": ["how-much", "ill-take-it", "do-you-have", "too-expensive"],
@@ -122,6 +133,7 @@
       "title": "much oder many? (1)",
       "exercise": {
         "id": "ex-cloze-how-many",
+        "stable_id": "ex-ms9433fp0adps",
         "type": "cloze",
         "prompt": "Ergänze much oder many vor einem zählbaren Nomen.",
         "card_ids": ["how-many"],
@@ -140,6 +152,7 @@
       "title": "much oder many? (2)",
       "exercise": {
         "id": "ex-cloze-how-much",
+        "stable_id": "ex-ms9433fp0aemf",
         "type": "cloze",
         "prompt": "Ergänze much oder many vor einem unzählbaren Nomen.",
         "card_ids": ["how-much"],
@@ -158,6 +171,7 @@
       "title": "Welche Form ist richtig?",
       "exercise": {
         "id": "ex-pick-information",
+        "stable_id": "ex-ms9433fp0af20",
         "type": "picture_choice",
         "prompt": "Du brauchst Auskunft. Welche Form ist korrekt?",
         "card_ids": ["information"],
@@ -179,6 +193,7 @@
       "title": "much oder many zuordnen",
       "exercise": {
         "id": "ex-match-much-many",
+        "stable_id": "ex-ms9433fp0agkt",
         "type": "matching",
         "prompt": "Ordne jedes Nomen der richtigen Frageform zu (zählbar → many, unzählbar → much).",
         "card_ids": ["how-much", "how-many"],
@@ -198,6 +213,7 @@
       "title": "Nach dem Preis fragen",
       "exercise": {
         "id": "ex-free-how-much",
+        "stable_id": "ex-ms9433fp0ah7h",
         "type": "free_text",
         "prompt": "Frage nach dem Preis: 'Wie viel kostet das?'",
         "card_ids": ["how-much"],
@@ -214,6 +230,7 @@
       "title": "Sich entscheiden",
       "exercise": {
         "id": "ex-free-ill-take-it",
+        "stable_id": "ex-ms9433fp0ainn",
         "type": "free_text",
         "prompt": "Du entscheidest dich zu kaufen. Sage 'Ich nehme es.'",
         "card_ids": ["ill-take-it"],
@@ -230,6 +247,7 @@
       "title": "Nach der Größe fragen",
       "exercise": {
         "id": "ex-tile-do-you-have",
+        "stable_id": "ex-ms9433fp0ajrx",
         "type": "word_tiles",
         "prompt": "Bilde 'Haben Sie das in Größe 40?'",
         "card_ids": ["do-you-have"],
@@ -245,6 +263,7 @@
       "title": "Zu teuer",
       "exercise": {
         "id": "ex-free-too-expensive",
+        "stable_id": "ex-ms9433fp0akkh",
         "type": "free_text",
         "prompt": "Übersetze: 'Es ist zu teuer.'",
         "card_ids": ["too-expensive"],
@@ -261,6 +280,7 @@
       "title": "Nur umschauen",
       "exercise": {
         "id": "ex-cloze-just-browsing",
+        "stable_id": "ex-ms9433fp0al5e",
         "type": "cloze",
         "prompt": "Der Verkäufer fragt, ob er helfen kann. Ergänze: 'Ich schaue mich nur um.'",
         "card_ids": ["just-browsing"],

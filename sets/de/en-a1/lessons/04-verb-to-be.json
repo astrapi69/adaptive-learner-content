@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "be-am",
+      "stable_id": "card-ms9433fk06j5u",
       "front": "I am",
       "back": "ich bin",
       "notes": "Nur 'I' bekommt 'am'. Sage NIE 'I bin' — das ist Deutsch.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "be-are-you",
+      "stable_id": "card-ms9433fk06k8x",
       "front": "you are",
       "back": "du bist / Sie sind / ihr seid",
       "notes": "'are' gilt für you, we und they.",
@@ -22,6 +24,7 @@
     },
     {
       "id": "be-is",
+      "stable_id": "card-ms9433fk06l6a",
       "front": "he is / she is / it is",
       "back": "er ist / sie ist / es ist",
       "notes": "'is' nur in der 3. Person Singular: he, she, it.",
@@ -29,6 +32,7 @@
     },
     {
       "id": "be-are-we",
+      "stable_id": "card-ms9433fk06mwr",
       "front": "we are",
       "back": "wir sind",
       "notes": "1. Person Plural — ebenfalls 'are'.",
@@ -36,6 +40,7 @@
     },
     {
       "id": "be-are-they",
+      "stable_id": "card-ms9433fk06nl3",
       "front": "they are",
       "back": "sie sind",
       "notes": "3. Person Plural — ebenfalls 'are'.",
@@ -43,6 +48,7 @@
     },
     {
       "id": "contr-im",
+      "stable_id": "card-ms9433fk06oru",
       "front": "I'm",
       "back": "ich bin (Kurzform)",
       "notes": "Kurzform von 'I am'. In gesprochenem Englisch der Normalfall, kein 'schlampiges' Deutsch.",
@@ -50,6 +56,7 @@
     },
     {
       "id": "contr-youre",
+      "stable_id": "card-ms9433fk06plz",
       "front": "you're",
       "back": "du bist (Kurzform)",
       "notes": "Kurzform von 'you are'. Nicht mit 'your' (dein) verwechseln!",
@@ -57,6 +64,7 @@
     },
     {
       "id": "contr-hes",
+      "stable_id": "card-ms9433fk06q66",
       "front": "he's",
       "back": "er ist (Kurzform)",
       "notes": "Kurzform von 'he is'. Genauso: she's, it's.",
@@ -64,6 +72,7 @@
     },
     {
       "id": "contr-its",
+      "stable_id": "card-ms9433fk06rzz",
       "front": "it's",
       "back": "es ist (Kurzform)",
       "notes": "Kurzform von 'it is'. Nicht mit 'its' (sein/ihr) verwechseln — der Apostroph macht den Unterschied.",
@@ -71,6 +80,7 @@
     },
     {
       "id": "contr-were",
+      "stable_id": "card-ms9433fk06saj",
       "front": "we're",
       "back": "wir sind (Kurzform)",
       "notes": "Kurzform von 'we are'. Nicht mit 'were' (waren) verwechseln.",
@@ -78,6 +88,7 @@
     },
     {
       "id": "contr-theyre",
+      "stable_id": "card-ms9433fk06tg8",
       "front": "they're",
       "back": "sie sind (Kurzform)",
       "notes": "Kurzform von 'they are'. Klingt wie 'there' und 'their', wird aber anders geschrieben.",
@@ -110,6 +121,7 @@
       "title": "Formen von 'to be' zuordnen",
       "exercise": {
         "id": "ex-match-be",
+        "stable_id": "ex-ms9433fk06ura",
         "type": "matching",
         "prompt": "Ordne jede englische Form ihrer deutschen Bedeutung zu.",
         "card_ids": ["be-am", "be-is", "be-are-we", "be-are-they"],
@@ -129,6 +141,7 @@
       "title": "Die richtige Form",
       "exercise": {
         "id": "ex-cloze-i-am",
+        "stable_id": "ex-ms9433fk06vrh",
         "type": "cloze",
         "prompt": "Ergänze die richtige Form von 'to be'.",
         "card_ids": ["be-am"],
@@ -147,6 +160,7 @@
       "title": "3. Person Singular",
       "exercise": {
         "id": "ex-cloze-he-is",
+        "stable_id": "ex-ms9433fk06wjv",
         "type": "cloze",
         "prompt": "Ergänze die richtige Form von 'to be'.",
         "card_ids": ["be-is"],
@@ -165,6 +179,7 @@
       "title": "Kurzformen zuordnen",
       "exercise": {
         "id": "ex-match-contractions",
+        "stable_id": "ex-ms9433fk06xdh",
         "type": "matching",
         "prompt": "Ordne jede Kurzform ihrer Langform zu.",
         "card_ids": ["contr-im", "contr-hes", "contr-were", "contr-theyre"],
@@ -184,6 +199,7 @@
       "title": "Kurzform von 'I am'",
       "exercise": {
         "id": "ex-free-im",
+        "stable_id": "ex-ms9433fk06y3g",
         "type": "free_text",
         "prompt": "Schreibe die Kurzform von 'I am'.",
         "card_ids": ["contr-im"],
@@ -200,6 +216,7 @@
       "title": "Welcher Satz ist richtig?",
       "exercise": {
         "id": "ex-pick-correct-be",
+        "stable_id": "ex-ms9433fk06z66",
         "type": "picture_choice",
         "prompt": "Welcher Satz bedeutet korrekt 'Ich bin einverstanden'?",
         "card_ids": ["be-am"],
@@ -221,6 +238,7 @@
       "title": "Satz bauen",
       "exercise": {
         "id": "ex-tile-she-is-teacher",
+        "stable_id": "ex-ms9433fk070sj",
         "type": "word_tiles",
         "prompt": "Setze 'Sie ist eine Lehrerin' zusammen.",
         "card_ids": ["be-is"],
@@ -236,6 +254,7 @@
       "title": "it's oder its?",
       "exercise": {
         "id": "ex-cloze-its",
+        "stable_id": "ex-ms9433fk0711k",
         "type": "cloze",
         "prompt": "Ergänze die Kurzform von 'it is' (mit Apostroph).",
         "card_ids": ["contr-its"],
@@ -254,6 +273,7 @@
       "title": "Satz bauen mit 'are'",
       "exercise": {
         "id": "ex-tile-we-are-friends",
+        "stable_id": "ex-ms9433fk072kq",
         "type": "word_tiles",
         "prompt": "Setze 'Wir sind Freunde' zusammen.",
         "card_ids": ["be-are-we"],
@@ -269,6 +289,7 @@
       "title": "Die Pluralform",
       "exercise": {
         "id": "ex-free-they-are",
+        "stable_id": "ex-ms9433fk073cu",
         "type": "free_text",
         "prompt": "Wie heißt 'sie sind' (Mehrzahl) auf Englisch? (Langform)",
         "card_ids": ["be-are-they"],

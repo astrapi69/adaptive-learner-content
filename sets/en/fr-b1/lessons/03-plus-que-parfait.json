@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "fr-b1-pqp-form",
+      "stable_id": "card-ms9433kx53070",
       "front": "imparfait of avoir/être + participe passé",
       "back": "how to build the plus-que-parfait (had done)",
       "notes": "*j'avais mangé* (I had eaten), *elle était partie* (she had left).",
@@ -18,6 +19,7 @@
     },
     {
       "id": "fr-b1-javais-mange",
+      "stable_id": "card-ms9433kx5318n",
       "front": "j'avais mangé",
       "back": "I had eaten",
       "notes": "avoir-verb: *avais* (imparfait) + *mangé*.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "fr-b1-etait-partie",
+      "stable_id": "card-ms9433kx532xc",
       "front": "elle était partie",
       "back": "she had left",
       "notes": "être-verb: *était* + *partie* — the participle agrees (partie, feminine).",
@@ -36,6 +39,7 @@
     },
     {
       "id": "fr-b1-pqp-usage",
+      "stable_id": "card-ms9433kx5336y",
       "front": "Quand je suis arrivé, il était déjà parti.",
       "back": "When I arrived, he had already left.",
       "notes": "The plus-que-parfait marks the **earlier** of two past actions.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "fr-b1-pqp-etre-verbs",
+      "stable_id": "card-ms9433kx534i3",
       "front": "être verbs: aller, venir, partir, arriver, rester…",
       "back": "verbs of movement/state use être (and agree)",
       "notes": "Same être-verbs as the passé composé; the participle agrees with the subject.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "fr-b1-deja",
+      "stable_id": "card-ms9433kx535t3",
       "front": "déjà",
       "back": "already",
       "notes": "Often appears with the plus-que-parfait: *il était déjà parti*.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "fr-b1-pqp-reported",
+      "stable_id": "card-ms9433kx53692",
       "front": "Il a dit qu'il avait fini.",
       "back": "He said that he had finished.",
       "notes": "In reported speech, a past-of-a-past becomes the plus-que-parfait.",
@@ -91,6 +98,7 @@
       "title": "Match the forms",
       "exercise": {
         "id": "ex-match-pqp",
+        "stable_id": "ex-ms9433kx5378y",
         "type": "matching",
         "prompt": "Match each French plus-que-parfait form with its English meaning.",
         "card_ids": ["fr-b1-javais-mange", "fr-b1-etait-partie", "fr-b1-pqp-reported"],
@@ -109,6 +117,7 @@
       "title": "Choose the auxiliary (avoir)",
       "exercise": {
         "id": "ex-cloze-aux-avoir",
+        "stable_id": "ex-ms9433kx5381q",
         "type": "cloze",
         "prompt": "Fill in the imparfait of avoir: \"I had eaten before the film.\"",
         "card_ids": ["fr-b1-javais-mange"],
@@ -125,6 +134,7 @@
       "title": "Choose the auxiliary (être)",
       "exercise": {
         "id": "ex-cloze-aux-etre",
+        "stable_id": "ex-ms9433kx5396f",
         "type": "cloze",
         "prompt": "Fill in the imparfait of être: \"When I arrived, he had already left.\"",
         "card_ids": ["fr-b1-pqp-usage", "fr-b1-pqp-etre-verbs"],
@@ -141,6 +151,7 @@
       "title": "Mind the agreement",
       "exercise": {
         "id": "ex-free-she-had-left",
+        "stable_id": "ex-ms9433kx53ake",
         "type": "free_text",
         "prompt": "Translate: *She had already left.* (partir → être, feminine agreement)",
         "card_ids": ["fr-b1-etait-partie", "fr-b1-deja"],
@@ -157,6 +168,7 @@
       "title": "Build reported speech",
       "exercise": {
         "id": "ex-tiles-reported",
+        "stable_id": "ex-ms9433kx53bh8",
         "type": "word_tiles",
         "prompt": "Arrange: *He said that he had finished.*",
         "card_ids": ["fr-b1-pqp-reported"],

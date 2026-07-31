@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "trav-transport",
+      "stable_id": "card-ms9433jy4546j",
       "front": "el tren, el avión, el autobús, el metro",
       "back": "the train, the plane, the bus, the metro/subway",
       "notes": "Core transport vocabulary. Note *el avión* has an accent (plural *los aviones*, no accent). *El autobús* is often shortened to *el bus*. The verb for travelling by these is *ir en*: *ir en tren* = to go by train.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "trav-ticket-stops",
+      "stable_id": "card-ms9433jy4550y",
       "front": "el billete / el boleto, la parada",
       "back": "the ticket; the (bus) stop",
       "notes": "In Spain *el billete*; in much of Latin America *el boleto*. *La parada* is a bus/metro stop; *¿Dónde está la parada del autobús?* = Where is the bus stop? A round-trip ticket is *un billete de ida y vuelta*.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "trav-station-airport",
+      "stable_id": "card-ms9433jy456sq",
       "front": "la estación, el aeropuerto",
       "back": "the station, the airport",
       "notes": "Use **estar** for the location of a place: *La estación **está** cerca* = The station is nearby. English speakers often reach for *es*, but a physical location takes *estar*.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "trav-sale-llega",
+      "stable_id": "card-ms9433jy457d8",
       "front": "¿A qué hora sale / llega el tren?",
       "back": "What time does the train leave / arrive?",
       "notes": "*salir* = to leave/depart, *llegar* = to arrive. These are the two questions you need at any station: *¿A qué hora sale?* and *¿A qué hora llega?* The reply: *Sale a las ocho* = It leaves at eight.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "trav-platform-gate",
+      "stable_id": "card-ms9433jy458hh",
       "front": "el andén, la puerta de embarque, el retraso",
       "back": "the platform, the boarding gate, the delay",
       "notes": "*El andén* = train platform; *la puerta de embarque* = airport boarding gate; *el retraso* = delay. *El tren lleva retraso* = The train is delayed (literally 'carries a delay').",
@@ -54,6 +59,7 @@
     },
     {
       "id": "trav-transbordo",
+      "stable_id": "card-ms9433jy4595b",
       "front": "hacer transbordo",
       "back": "to change / transfer (trains or lines)",
       "notes": "*Hacer transbordo* = to switch trains or metro lines on a journey. *Tienes que hacer transbordo en la próxima estación* = You have to change at the next station. It uses the verb *hacer*.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "trav-ask-directions",
+      "stable_id": "card-ms9433jy45ayj",
       "front": "¿Cómo llego a...? / ¿Dónde está...?",
       "back": "How do I get to...? / Where is...?",
       "notes": "Two essential questions. *¿Cómo llego a la estación?* = How do I get to the station? *¿Dónde está el museo?* = Where is the museum? Location always uses **está** (from *estar*), not *es*.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "trav-commands",
+      "stable_id": "card-ms9433jy45bu8",
       "front": "sigue todo recto, gira a la derecha / izquierda, cruza la calle",
       "back": "go straight on, turn right / left, cross the street",
       "notes": "These are **informal (tú) commands**: *seguir* → **sigue**, *girar* → **gira**, *cruzar* → **cruza**. Spanish uses the command form directly for directions; there is no 'you should' wrapper needed.",
@@ -81,6 +89,7 @@
     },
     {
       "id": "trav-location-words",
+      "stable_id": "card-ms9433jy45c4j",
       "front": "a la vuelta de la esquina, enfrente de, al lado de",
       "back": "around the corner, opposite / across from, next to",
       "notes": "Position phrases: *a la vuelta de la esquina* = around the corner, *enfrente de* = opposite, *al lado de* = next to. *El banco está al lado del hotel* = The bank is next to the hotel (de + el → del).",
@@ -90,6 +99,7 @@
     },
     {
       "id": "trav-hotel",
+      "stable_id": "card-ms9433jy45dyz",
       "front": "reservar una habitación doble / individual",
       "back": "to book a double / single room",
       "notes": "*Reservar* = to book/reserve; *una habitación doble* = a double room, *individual* = single. *¿Tiene una habitación libre?* = Do you have a room available? (*libre* = free/available).",
@@ -99,6 +109,7 @@
     },
     {
       "id": "trav-realizar-falsefriend",
+      "stable_id": "card-ms9433jy45e0o",
       "front": "realizar  ≠  to realize",
       "back": "realizar = to carry out / accomplish; 'to realize (become aware)' = darse cuenta de",
       "notes": "**False friend!** *realizar* does NOT mean 'to realize'. It means to carry out or accomplish: *realizar un viaje* = to make/carry out a trip. To **realize** = become aware = **darse cuenta de**: *Me di cuenta de que perdí el tren* = I realized I missed the train. Never say *Realicé que...* for 'I realized that...'.",
@@ -108,6 +119,7 @@
     },
     {
       "id": "trav-libre-question",
+      "stable_id": "card-ms9433jy45f2k",
       "front": "¿Tiene una habitación libre?",
       "back": "Do you have a room available?",
       "notes": "Polite hotel question using *usted* (*tiene*). *libre* = free/available. The reply might be *Sí, ¿para cuántas noches?* = Yes, for how many nights? Compare *individual* (single) and *doble* (double).",
@@ -142,6 +154,7 @@
       "title": "Match the transport",
       "exercise": {
         "id": "ex-match-transport",
+        "stable_id": "ex-ms9433jy45gl7",
         "type": "matching",
         "prompt": "Match each Spanish word with its English meaning.",
         "card_ids": ["trav-transport", "trav-ticket-stops", "trav-station-airport"],
@@ -163,6 +176,7 @@
       "title": "Location with estar",
       "exercise": {
         "id": "ex-free-where-station",
+        "stable_id": "ex-ms9433jy45h0y",
         "type": "free_text",
         "prompt": "Translate: *Where is the station?*",
         "card_ids": ["trav-ask-directions", "trav-station-airport"],
@@ -179,6 +193,7 @@
       "title": "False friend: I realized",
       "exercise": {
         "id": "ex-free-realizar",
+        "stable_id": "ex-ms9433jy45iz0",
         "type": "free_text",
         "prompt": "Translate: *I realized that I missed the train.* (become aware — NOT realizar!)",
         "card_ids": ["trav-realizar-falsefriend"],
@@ -195,6 +210,7 @@
       "title": "What time does it leave?",
       "exercise": {
         "id": "ex-cloze-sale",
+        "stable_id": "ex-ms9433jy45jn6",
         "type": "cloze",
         "prompt": "Fill in the verb for 'leaves / departs'. Ask what time the train leaves.",
         "card_ids": ["trav-sale-llega"],
@@ -211,6 +227,7 @@
       "title": "Build a direction",
       "exercise": {
         "id": "ex-tiles-turn-right",
+        "stable_id": "ex-ms9433jy45kdf",
         "type": "word_tiles",
         "prompt": "Arrange the words: *Turn right and cross the street.*",
         "card_ids": ["trav-commands"],
@@ -226,6 +243,7 @@
       "title": "Read the map",
       "exercise": {
         "id": "ex-pic-directions",
+        "stable_id": "ex-ms9433jy45loe",
         "type": "picture_choice",
         "prompt": "On the map, the bank is straight ahead at the end of the street. Which direction tells you to 'go straight on'?",
         "card_ids": ["trav-commands"],
@@ -247,6 +265,7 @@
       "title": "At the hotel",
       "exercise": {
         "id": "ex-free-book-room",
+        "stable_id": "ex-ms9433jy45mkh",
         "type": "free_text",
         "prompt": "Translate: *I want to book a double room.*",
         "card_ids": ["trav-hotel"],
@@ -263,6 +282,7 @@
       "title": "Changing trains",
       "exercise": {
         "id": "ex-cloze-transbordo",
+        "stable_id": "ex-ms9433jy45njb",
         "type": "cloze",
         "prompt": "Fill in the noun: you have to 'transfer / change' at the next station.",
         "card_ids": ["trav-transbordo"],
@@ -279,6 +299,7 @@
       "title": "Position phrases",
       "exercise": {
         "id": "ex-match-location",
+        "stable_id": "ex-ms9433jy45o2q",
         "type": "matching",
         "prompt": "Match each Spanish position phrase with its English meaning.",
         "card_ids": ["trav-location-words"],
@@ -297,6 +318,7 @@
       "title": "Build: it's around the corner",
       "exercise": {
         "id": "ex-tiles-around-corner",
+        "stable_id": "ex-ms9433jy45pws",
         "type": "word_tiles",
         "prompt": "Arrange the words: *The hotel is around the corner.*",
         "card_ids": ["trav-location-words", "trav-station-airport"],
@@ -312,6 +334,7 @@
       "title": "Is there a room?",
       "exercise": {
         "id": "ex-free-room-available",
+        "stable_id": "ex-ms9433jy45qtt",
         "type": "free_text",
         "prompt": "Translate (formal/usted): *Do you have a room available?*",
         "card_ids": ["trav-libre-question"],
@@ -328,6 +351,7 @@
       "title": "Using realizar correctly",
       "exercise": {
         "id": "ex-free-realizar-trip",
+        "stable_id": "ex-ms9433jy45rio",
         "type": "free_text",
         "prompt": "Translate: *I want to make a trip to Peru.* (here 'make/carry out' = realizar)",
         "card_ids": ["trav-realizar-falsefriend"],

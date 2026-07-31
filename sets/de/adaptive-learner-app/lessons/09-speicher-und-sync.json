@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "lokaler-speicher",
+      "stable_id": "card-ms9433fe036nr",
       "front": "Lokaler Speicher (Local-first)",
       "back": "Deine Daten liegen ausschließlich im Browser des Geräts (in der IndexedDB), ohne Server. KI-Anfragen gehen direkt an den Anbieter.",
       "notes": "Englisch: local-first / DexieStorage. Maximale Privatsphäre, ein Gerät.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "server-modus",
+      "stable_id": "card-ms9433fe037na",
       "front": "Server-Modus",
       "back": "Deine Daten liegen auf einem Server (mit Datenbank) und werden je Benutzer verschlüsselt gespeichert. So kannst du auf mehreren Geräten synchron lernen.",
       "notes": "Englisch: server mode / ApiStorage. Ideal für Wechsel zwischen Geräten.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "verschluesselung",
+      "stable_id": "card-ms9433fe038lx",
       "front": "Verschlüsselung je Benutzer",
       "back": "Im Server-Modus werden die Daten jedes Benutzers einzeln verschlüsselt abgelegt, sodass niemand sonst sie lesen kann.",
       "notes": "Schützt deine Lerndaten auch auf dem Server.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "wlan-sync",
+      "stable_id": "card-ms9433fe0398b",
       "front": "WLAN-Synchronisierung",
       "back": "Zwei Geräte gleichen ihre Daten direkt über das lokale Netzwerk ab — in beide Richtungen, ohne Umweg über einen fremden Server.",
       "notes": "Englisch: WiFi sync. Bidirektional (beide Richtungen).",
@@ -45,6 +49,7 @@
     },
     {
       "id": "qr-kopplung",
+      "stable_id": "card-ms9433fe03anx",
       "front": "QR-Code-Kopplung",
       "back": "Zum Verbinden zweier Geräte scannt eines den QR-Code des anderen — so ist die Kopplung schnell und ohne Tippen eingerichtet.",
       "notes": "Englisch: QR-code pairing. Bequemer Start der Synchronisierung.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "konflikt-loesung",
+      "stable_id": "card-ms9433fe03bdh",
       "front": "Konfliktlösung",
       "back": "Wenn beide Geräte dieselbe Sache unterschiedlich geändert haben, hilft eine KI-gestützte Zusammenführung, die Versionen sinnvoll zu vereinen.",
       "notes": "Englisch: AI-merge conflict resolution. Verhindert Datenverlust beim Sync.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "backup",
+      "stable_id": "card-ms9433fe03ck4",
       "front": "Sicherung (Backup)",
       "back": "Ein Export deiner Daten in eine Datei, den du jederzeit wieder einspielen kannst. Beim Wiederherstellen zeigt die App die Unterschiede feldweise an.",
       "notes": "Englisch: backup/restore. Regelmäßig sichern schützt vor Verlust.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "schluessel-export",
+      "stable_id": "card-ms9433fe03dos",
       "front": "Schlüssel-Export",
       "back": "Beim Sichern kannst du wählen: mit deinen verschlüsselten API-Schlüsseln oder ohne. So gibst du beim Teilen einer Sicherung keine geheimen Zugänge preis.",
       "notes": "Zwei Varianten: verschlüsselter Schlüssel-Export oder schlüsselfreie Sicherung.",
@@ -106,6 +114,7 @@
       "title": "Speichermodus zuordnen",
       "exercise": {
         "id": "ex-match-speicher",
+        "stable_id": "ex-ms9433fe03ezp",
         "type": "matching",
         "prompt": "Ordne jedem Begriff seine Beschreibung zu.",
         "card_ids": ["lokaler-speicher", "server-modus", "verschluesselung"],
@@ -124,6 +133,7 @@
       "title": "Für mehrere Geräte",
       "exercise": {
         "id": "ex-free-server",
+        "stable_id": "ex-ms9433fe03f5o",
         "type": "free_text",
         "prompt": "Welcher Speichermodus eignet sich, um auf mehreren Geräten synchron zu lernen?",
         "card_ids": ["server-modus"],
@@ -140,6 +150,7 @@
       "title": "Geräte verbinden",
       "exercise": {
         "id": "ex-cloze-qr",
+        "stable_id": "ex-ms9433fe03gxm",
         "type": "cloze",
         "prompt": "Ergänze, womit zwei Geräte schnell gekoppelt werden.",
         "card_ids": ["qr-kopplung"],
@@ -156,6 +167,7 @@
       "title": "Merksatz zum WLAN-Sync",
       "exercise": {
         "id": "ex-tiles-sync",
+        "stable_id": "ex-ms9433fe03h48",
         "type": "word_tiles",
         "prompt": "Setze den Merksatz zur WLAN-Synchronisierung zusammen.",
         "card_ids": ["wlan-sync"],
@@ -171,6 +183,7 @@
       "title": "Wenn beide etwas ändern",
       "exercise": {
         "id": "ex-free-konflikt",
+        "stable_id": "ex-ms9433fe03il0",
         "type": "free_text",
         "prompt": "Wie heißt der Vorgang, der zwei unterschiedlich geänderte Versionen sinnvoll vereint?",
         "card_ids": ["konflikt-loesung"],
@@ -187,6 +200,7 @@
       "title": "Sicherung ohne Schlüssel",
       "exercise": {
         "id": "ex-cloze-backup",
+        "stable_id": "ex-ms9433fe03jhm",
         "type": "cloze",
         "prompt": "Ergänze, was du beim Teilen einer Sicherung weglassen kannst.",
         "card_ids": ["schluessel-export", "backup"],

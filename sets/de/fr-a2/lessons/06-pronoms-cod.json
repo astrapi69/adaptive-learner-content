@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "cod-me",
+      "stable_id": "card-ms9433hx23jmg",
       "front": "me / m'",
       "back": "mich (direkte Objekt-Ergänzung, 1. Person Singular)",
       "notes": "**me** wird vor Vokal und stummem *h* zu **m'** verkürzt: *Tu m'appelles.* — Du rufst mich an. Stellung: **vor** dem konjugierten Verb.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "cod-te",
+      "stable_id": "card-ms9433hx23kl1",
       "front": "te / t'",
       "back": "dich (direkte Objekt-Ergänzung, 2. Person Singular)",
       "notes": "**te** wird vor Vokal und stummem *h* zu **t'** verkürzt: *Je t'aime.* — Ich liebe dich. Stellung: **vor** dem konjugierten Verb.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "cod-le",
+      "stable_id": "card-ms9433hx23l41",
       "front": "le / l'",
       "back": "ihn / es (direkte Objekt-Ergänzung, mask. Singular)",
       "notes": "**le** ersetzt ein maskulines Nomen: *Je vois le film → Je **le** vois.* Vor Vokal: **l'**: *Je l'aime.* Stellung: **vor** dem konjugierten Verb.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "cod-la",
+      "stable_id": "card-ms9433hx23m8r",
       "front": "la / l'",
       "back": "sie / es (direkte Objekt-Ergänzung, fem. Singular)",
       "notes": "**la** ersetzt ein feminines Nomen: *Je vois Marie → Je **la** vois.* Vor Vokal: **l'**: *Je l'adore.* Stellung: **vor** dem konjugierten Verb.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "cod-nous",
+      "stable_id": "card-ms9433hx23ngg",
       "front": "nous",
       "back": "uns (direkte Objekt-Ergänzung, 1. Person Plural)",
       "notes": "**nous** als COD: *Il nous invite.* — Er lädt uns ein. Keine Elisionsform nötig, da *nous* auf einen Konsonanten endet.",
@@ -51,6 +56,7 @@
     },
     {
       "id": "cod-vous",
+      "stable_id": "card-ms9433hx23o36",
       "front": "vous",
       "back": "euch / Sie (direkte Objekt-Ergänzung, 2. Person Plural oder Höflichkeit)",
       "notes": "**vous** als COD: *Je vous comprends.* — Ich verstehe euch/Sie. Gilt für Plural und Höflichkeitsform.",
@@ -60,6 +66,7 @@
     },
     {
       "id": "cod-les",
+      "stable_id": "card-ms9433hx23plo",
       "front": "les",
       "back": "sie (direkte Objekt-Ergänzung, Plural, mask. und fem.)",
       "notes": "**les** ersetzt ein Nomen im Plural: *Je vois les enfants → Je **les** vois.* Für alle Geschlechter. Stellung: **vor** dem konjugierten Verb.",
@@ -69,6 +76,7 @@
     },
     {
       "id": "cod-position-infinitif",
+      "stable_id": "card-ms9433hx23qy7",
       "front": "Stellung vor dem Infinitiv",
       "back": "Bei Infinitivkonstruktion steht das COD vor dem Infinitiv, nicht vor dem konjugierten Verb: *Je vais le manger.*",
       "notes": "Wenn ein Hilfsverb + Infinitiv vorliegt (z. B. *vouloir, pouvoir, aller*), steht das COD **vor dem Infinitiv**: *Je veux **le** manger.* — Ich möchte es essen. **Nicht**: ~~Je le veux manger.~~",
@@ -79,6 +87,7 @@
     },
     {
       "id": "cod-negation",
+      "stable_id": "card-ms9433hx23r48",
       "front": "COD bei Verneinung",
       "back": "Das Pronomen bleibt zwischen ne und dem Verb: Je ne le mange pas.",
       "notes": "Bei Verneinung umschließt *ne … pas* das Pronomen **und** das Verb zusammen: ***Ne** + COD + Verb + **pas***: *Je **ne le** mange **pas**.* — Ich esse es nicht.",
@@ -88,6 +97,7 @@
     },
     {
       "id": "cod-accord-pc",
+      "stable_id": "card-ms9433hx23son",
       "front": "Partizipangleichung im passé composé",
       "back": "Steht ein COD VOR dem avoir-Verb, muss das Partizip an Geschlecht und Zahl des COD angeglichen werden: Les pommes? Je les ai mangées.",
       "notes": "Wenn das COD **vor** dem Hilfsverb *avoir* steht, wird das Partizip angeglichen:\n- *Les pommes → Je les ai mang**ées**.* (fem. pl.)\n- *Le gâteau → Je l'ai mangé.* (mask. sg.)\n\nOhne vorangestelltes COD gibt es **keine** Angleichung: *J'ai mangé une pomme.*",
@@ -98,6 +108,7 @@
     },
     {
       "id": "ex-je-la-vois",
+      "stable_id": "card-ms9433hx23ti0",
       "front": "Je vois Marie. → ?",
       "back": "Je la vois.",
       "notes": "*Marie* ist feminin → COD **la**. Stellung: direkt **vor** dem Verb *vois*.",
@@ -107,6 +118,7 @@
     },
     {
       "id": "ex-je-le-mange",
+      "stable_id": "card-ms9433hx23ugg",
       "front": "Je mange le gâteau. → ?",
       "back": "Je le mange.",
       "notes": "*le gâteau* ist maskulin → COD **le**. Stellung: direkt **vor** dem Verb *mange*.",
@@ -116,6 +128,7 @@
     },
     {
       "id": "ex-les-ai-mangees",
+      "stable_id": "card-ms9433hx23vxw",
       "front": "Les pommes? → Je … ai mangé…",
       "back": "Je les ai mangées.",
       "notes": "*les pommes* ist feminin plural → COD **les**, Partizip angeglichen: **mangées** (avec -e -s).",
@@ -150,6 +163,7 @@
       "title": "Pronomen zuordnen",
       "exercise": {
         "id": "ex-match-pronouns",
+        "stable_id": "ex-ms9433hx23wrz",
         "type": "matching",
         "prompt": "Ordne jedem COD-Pronomen seine deutsche Bedeutung zu.",
         "card_ids": ["cod-le", "cod-la", "cod-les", "cod-nous", "cod-me"],
@@ -170,6 +184,7 @@
       "title": "Satz und Pronomen-Version",
       "exercise": {
         "id": "ex-match-sentences",
+        "stable_id": "ex-ms9433hx23x3d",
         "type": "matching",
         "prompt": "Ordne den Ausgangssätzen die korrekte COD-Pronomen-Version zu.",
         "card_ids": ["ex-je-la-vois", "ex-je-le-mange", "cod-te"],
@@ -188,6 +203,7 @@
       "title": "Ergänze das COD-Pronomen",
       "exercise": {
         "id": "ex-cloze-le-vois",
+        "stable_id": "ex-ms9433hx23y7v",
         "type": "cloze",
         "prompt": "Der Film ist toll — ersetze *le film* durch das passende Pronomen.",
         "card_ids": ["cod-le"],
@@ -206,6 +222,7 @@
       "title": "Partizipangleichung: Les pommes",
       "exercise": {
         "id": "ex-cloze-les-ai-mangees",
+        "stable_id": "ex-ms9433hx23zww",
         "type": "cloze",
         "prompt": "Schreibe das angeglichene Partizip von *manger* (les pommes = fem. pl.).",
         "card_ids": ["cod-accord-pc", "ex-les-ai-mangees"],
@@ -224,6 +241,7 @@
       "title": "Übersetze: Ich sehe sie (Marie)",
       "exercise": {
         "id": "ex-free-je-la-vois",
+        "stable_id": "ex-ms9433hx240kf",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich sehe Marie.* (Ersetze Marie durch das COD-Pronomen!)",
         "card_ids": ["cod-la", "ex-je-la-vois"],
@@ -248,6 +266,7 @@
       "title": "COD vor dem Infinitiv",
       "exercise": {
         "id": "ex-free-infinitiv",
+        "stable_id": "ex-ms9433hx241wv",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich werde es essen.* (es = le gâteau, mask.)",
         "card_ids": ["cod-le", "cod-position-infinitif"],
@@ -272,6 +291,7 @@
       "title": "Verneinung mit COD",
       "exercise": {
         "id": "ex-free-negation",
+        "stable_id": "ex-ms9433hx242rl",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich kenne sie nicht.* (elle — sie, feminin)",
         "card_ids": ["cod-la", "cod-negation"],
@@ -296,6 +316,7 @@
       "title": "Bilde: Ich sehe sie (Pl.)",
       "exercise": {
         "id": "ex-tiles-je-les-vois",
+        "stable_id": "ex-ms9433hx2433f",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Ich sehe die Kinder.* (Ersetze *les enfants* durch das COD-Pronomen.)",
         "card_ids": ["cod-les"],
@@ -311,6 +332,7 @@
       "title": "Bilde: Ich esse es nicht",
       "exercise": {
         "id": "ex-tiles-negation",
+        "stable_id": "ex-ms9433hx244v8",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Ich esse es nicht.* (es = le gâteau, mask.)",
         "card_ids": ["cod-le", "cod-negation"],
@@ -326,6 +348,7 @@
       "title": "Welcher Satz ist richtig?",
       "exercise": {
         "id": "ex-picture-cod-position",
+        "stable_id": "ex-ms9433hx245t7",
         "type": "picture_choice",
         "prompt": "Welcher Satz übersetzt *Ich rufe dich an* korrekt ins Französische?",
         "card_ids": ["cod-te"],

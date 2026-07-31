@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "en-a2-am-working",
+      "stable_id": "card-ms9433l35ao64",
       "front": "I am working.",
       "back": "मैं काम कर रहा हूँ।",
       "notes": "Present continuous: **am/is/are** + verb + **-ing**. Happening now.",
@@ -13,6 +14,7 @@
     },
     {
       "id": "en-a2-is-playing",
+      "stable_id": "card-ms9433l35ap4a",
       "front": "She is playing.",
       "back": "वह खेल रही है।",
       "notes": "*is* + playing. English does not change the verb for gender.",
@@ -20,6 +22,7 @@
     },
     {
       "id": "en-a2-are-eating",
+      "stable_id": "card-ms9433l35aqz5",
       "front": "They are eating.",
       "back": "वे खा रहे हैं।",
       "notes": "*are* + eating (plural subject).",
@@ -27,6 +30,7 @@
     },
     {
       "id": "en-a2-ing",
+      "stable_id": "card-ms9433l35arat",
       "front": "-ing",
       "back": "रहा/रही/रहे (चल रही क्रिया)",
       "notes": "The ending added to the verb in the continuous: work → working.",
@@ -34,6 +38,7 @@
     },
     {
       "id": "en-a2-now",
+      "stable_id": "card-ms9433l35as97",
       "front": "now",
       "back": "अभी",
       "notes": "A signal word for the present continuous. Also *right now*, *at the moment*.",
@@ -41,6 +46,7 @@
     },
     {
       "id": "en-a2-every-day",
+      "stable_id": "card-ms9433l35atwv",
       "front": "every day",
       "back": "हर दिन / रोज़",
       "notes": "A signal word for the **present simple** (a routine), not the continuous.",
@@ -48,6 +54,7 @@
     },
     {
       "id": "en-a2-get-up",
+      "stable_id": "card-ms9433l35auzn",
       "front": "I get up at seven.",
       "back": "मैं सात बजे उठता हूँ।",
       "notes": "Routine → present simple (*get up*), not continuous.",
@@ -55,6 +62,7 @@
     },
     {
       "id": "en-a2-what-doing",
+      "stable_id": "card-ms9433l35avtv",
       "front": "What are you doing?",
       "back": "तुम क्या कर रहे हो?",
       "notes": "Continuous question: **are** + you + **doing**.",
@@ -81,6 +89,7 @@
       "title": "Match the sentences",
       "exercise": {
         "id": "l4-ex-match-continuous",
+        "stable_id": "ex-ms9433l35aw70",
         "type": "matching",
         "prompt": "Match each English sentence with its Hindi meaning.",
         "card_ids": ["en-a2-am-working", "en-a2-is-playing", "en-a2-are-eating", "en-a2-what-doing"],
@@ -100,6 +109,7 @@
       "title": "Choose the right form of be",
       "exercise": {
         "id": "l4-ex-cloze-be",
+        "stable_id": "ex-ms9433l35axdr",
         "type": "cloze",
         "prompt": "Complete: \"She ___ playing now.\"",
         "card_ids": ["en-a2-is-playing"],
@@ -116,6 +126,7 @@
       "title": "Add the -ing form",
       "exercise": {
         "id": "l4-ex-cloze-ing",
+        "stable_id": "ex-ms9433l35ayph",
         "type": "cloze",
         "prompt": "Complete: \"They are ___ now.\" (eat)",
         "card_ids": ["en-a2-are-eating", "en-a2-ing"],
@@ -132,6 +143,7 @@
       "title": "Build the question",
       "exercise": {
         "id": "l4-ex-tiles-question",
+        "stable_id": "ex-ms9433l35azz2",
         "type": "word_tiles",
         "prompt": "Arrange to mean: तुम क्या कर रहे हो? (What are you doing?)",
         "card_ids": ["en-a2-what-doing"],
@@ -147,6 +159,7 @@
       "title": "Which signal word means \"now\"?",
       "exercise": {
         "id": "l4-ex-free-now-vs-everyday",
+        "stable_id": "ex-ms9433l35b0ma",
         "type": "free_text",
         "prompt": "Which English word signals the present continuous (something happening at this moment)?",
         "card_ids": ["en-a2-now", "en-a2-every-day"],

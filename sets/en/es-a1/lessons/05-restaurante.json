@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "phr-quisiera",
+      "stable_id": "card-ms9433jh3phe7",
       "front": "Quisiera…",
       "back": "I would like… (polite)",
       "notes": "Conditional of *querer*. The polite version of *Quiero* (I want), which sounds blunt in service contexts. Treat as a fixed phrase at A1.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "phr-por-favor",
+      "stable_id": "card-ms9433jh3pii9",
       "front": "por favor",
       "back": "please",
       "notes": "Goes at the end of the request, like English: *Un café, por favor*. Don't overuse — Spanish is direct; one *por favor* per request is enough.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "phr-gracias",
+      "stable_id": "card-ms9433jh3pjvi",
       "front": "gracias",
       "back": "thank you",
       "notes": "Intensifier: *muchas gracias* (thanks very much). Reply: *de nada* (you're welcome — lit. *of nothing*).",
@@ -34,6 +37,7 @@
     },
     {
       "id": "phr-la-cuenta",
+      "stable_id": "card-ms9433jh3pkcs",
       "front": "La cuenta, por favor.",
       "back": "The bill, please.",
       "notes": "The standard way to ask for the check. *La cuenta* uses *la* — feminine noun. Don't confuse with *el cuento* (the story) — different word.",
@@ -44,6 +48,7 @@
     },
     {
       "id": "phr-buen-provecho",
+      "stable_id": "card-ms9433jh3pllm",
       "front": "¡Buen provecho!",
       "back": "Enjoy your meal!",
       "notes": "Same role as French *Bon appétit*. Said by staff serving food AND by companions before eating. Always with exclamation marks.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "food-pan",
+      "stable_id": "card-ms9433jh3pm5h",
       "front": "el pan",
       "back": "the bread",
       "tags": [
@@ -63,6 +69,7 @@
     },
     {
       "id": "food-agua",
+      "stable_id": "card-ms9433jh3pn2v",
       "front": "el agua",
       "back": "the water",
       "notes": "Tricky exception: *agua* is **feminine** (ends in -a), but takes ***el*** in the singular to avoid the harsh *la a-* sound. Becomes *las aguas* (regular) in the plural and *agua fría* (regular feminine agreement) for adjectives. Same trick: *el águila* (the eagle), *el hambre* (the hunger).",
@@ -74,6 +81,7 @@
     },
     {
       "id": "food-vino",
+      "stable_id": "card-ms9433jh3po2w",
       "front": "el vino",
       "back": "the wine",
       "notes": "Distinguish from *el vinto* (doesn't exist — common typo). *Un vaso de vino* (a glass of wine) or *una copa de vino* (a wine glass — for stemmed glasses).",
@@ -84,6 +92,7 @@
     },
     {
       "id": "food-cafe",
+      "stable_id": "card-ms9433jh3ppes",
       "front": "el café",
       "back": "the coffee",
       "notes": "Default order in Spain is a *café solo* (espresso). Other common types: *café con leche* (with milk), *café cortado* (espresso with a splash of milk).",
@@ -94,6 +103,7 @@
     },
     {
       "id": "food-pollo",
+      "stable_id": "card-ms9433jh3pqlb",
       "front": "el pollo",
       "back": "the chicken",
       "tags": [
@@ -103,6 +113,7 @@
     },
     {
       "id": "food-pescado",
+      "stable_id": "card-ms9433jh3prjh",
       "front": "el pescado",
       "back": "the fish (as food)",
       "notes": "Specifically fish-as-food (after being caught). Live fish is *el pez* (plural *los peces*). Menu always uses *pescado*.",
@@ -113,6 +124,7 @@
     },
     {
       "id": "food-ensalada",
+      "stable_id": "card-ms9433jh3pslo",
       "front": "la ensalada",
       "back": "the salad",
       "tags": [
@@ -122,6 +134,7 @@
     },
     {
       "id": "food-queso",
+      "stable_id": "card-ms9433jh3ptss",
       "front": "el queso",
       "back": "the cheese",
       "tags": [
@@ -131,6 +144,7 @@
     },
     {
       "id": "phr-esta-bueno",
+      "stable_id": "card-ms9433jh3pu3b",
       "front": "Está bueno.",
       "back": "It's good / tasty. (right now)",
       "notes": "Uses ***estar*** — describing the food's CURRENT state (it tastes good as you eat it). *Es bueno* (with ser) would mean *the food is good for you / nutritious* — totally different meaning. Classic ser/estar trap, perfect chance to revise Lesson 04.",
@@ -160,6 +174,7 @@
       "title": "Order a coffee politely",
       "exercise": {
         "id": "ex-free-quisiera",
+        "stable_id": "ex-ms9433jh3pvv3",
         "type": "free_text",
         "prompt": "Translate: *I would like a coffee, please.*",
         "card_ids": [
@@ -194,6 +209,7 @@
       "title": "Match food vocabulary",
       "exercise": {
         "id": "ex-match-food",
+        "stable_id": "ex-ms9433jh3pw1c",
         "type": "matching",
         "prompt": "Match each Spanish menu word with its English meaning.",
         "card_ids": [
@@ -240,6 +256,7 @@
       "title": "El agua — the exception",
       "exercise": {
         "id": "ex-pick-agua",
+        "stable_id": "ex-ms9433jh3pxhg",
         "type": "picture_choice",
         "prompt": "How do you write *the water* in Spanish?",
         "card_ids": [
@@ -286,6 +303,7 @@
       "title": "Compliment the food",
       "exercise": {
         "id": "ex-pick-esta-bueno",
+        "stable_id": "ex-ms9433jh3pyn5",
         "type": "picture_choice",
         "prompt": "You're at the table, you taste the soup, and it's great. You say…",
         "card_ids": [
@@ -327,6 +345,7 @@
       "title": "Ask for the bill",
       "exercise": {
         "id": "ex-free-la-cuenta",
+        "stable_id": "ex-ms9433jh3pzk0",
         "type": "free_text",
         "prompt": "Politely ask for the bill.",
         "card_ids": [
@@ -353,6 +372,7 @@
       "title": "Order a glass of water",
       "exercise": {
         "id": "ex-tile-glass-water",
+        "stable_id": "ex-ms9433jh3q0kh",
         "type": "word_tiles",
         "prompt": "Arrange to ask: *I would like a glass of water, please.*",
         "card_ids": [
@@ -380,6 +400,7 @@
       "title": "Match phrase to moment",
       "exercise": {
         "id": "ex-match-phrases",
+        "stable_id": "ex-ms9433jh3q1ln",
         "type": "matching",
         "prompt": "Match each Spanish phrase with when you'd use it.",
         "card_ids": [
@@ -416,6 +437,7 @@
       "title": "Order a salad and fish",
       "exercise": {
         "id": "ex-tile-order-fish",
+        "stable_id": "ex-ms9433jh3q2ca",
         "type": "word_tiles",
         "prompt": "Arrange to mean: *I would like a salad and the fish, please.*",
         "card_ids": [

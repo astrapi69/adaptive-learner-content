@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "de-a2-was-kostet",
+      "stable_id": "card-ms9433jd3mgtw",
       "front": "Was kostet das?",
       "back": "How much does that cost?",
       "notes": "Also: *Wie viel kostet das?*",
@@ -13,6 +14,7 @@
     },
     {
       "id": "de-a2-ich-haette-gern",
+      "stable_id": "card-ms9433jd3mhw5",
       "front": "Ich hätte gern …",
       "back": "I would like … (please)",
       "notes": "Very polite way to order or ask for something in a shop.",
@@ -20,6 +22,7 @@
     },
     {
       "id": "de-a2-die-baeckerei",
+      "stable_id": "card-ms9433jd3mil8",
       "front": "die Bäckerei",
       "back": "the bakery",
       "notes": "*-ei* nouns are feminine: *die Bäckerei*.",
@@ -27,6 +30,7 @@
     },
     {
       "id": "de-a2-wo-ist",
+      "stable_id": "card-ms9433jd3mjiz",
       "front": "Wo ist …?",
       "back": "Where is …?",
       "notes": "*Wo ist der Bahnhof?* — Where is the station?",
@@ -34,6 +38,7 @@
     },
     {
       "id": "de-a2-links",
+      "stable_id": "card-ms9433jd3mklz",
       "front": "links",
       "back": "(on the) left",
       "notes": "*nach links* — to the left.",
@@ -41,6 +46,7 @@
     },
     {
       "id": "de-a2-rechts",
+      "stable_id": "card-ms9433jd3mlw5",
       "front": "rechts",
       "back": "(on the) right",
       "notes": "*nach rechts* — to the right.",
@@ -48,6 +54,7 @@
     },
     {
       "id": "de-a2-geradeaus",
+      "stable_id": "card-ms9433jd3mm8d",
       "front": "geradeaus",
       "back": "straight ahead",
       "notes": "*Gehen Sie geradeaus.* — Go straight ahead.",
@@ -55,6 +62,7 @@
     },
     {
       "id": "de-a2-entschuldigung",
+      "stable_id": "card-ms9433jd3mn2f",
       "front": "Entschuldigung",
       "back": "excuse me / sorry",
       "notes": "Use it to get attention before asking for directions.",
@@ -75,6 +83,7 @@
       "title": "Match the directions",
       "exercise": {
         "id": "l5-ex-match-directions",
+        "stable_id": "ex-ms9433jd3moic",
         "type": "matching",
         "prompt": "Match each German word with its English meaning.",
         "card_ids": ["de-a2-links", "de-a2-rechts", "de-a2-geradeaus", "de-a2-entschuldigung"],
@@ -94,6 +103,7 @@
       "title": "Ask the price",
       "exercise": {
         "id": "l5-ex-free-price",
+        "stable_id": "ex-ms9433jd3mpka",
         "type": "free_text",
         "prompt": "How do you ask \"How much does that cost?\" in German?",
         "card_ids": ["de-a2-was-kostet"],
@@ -110,6 +120,7 @@
       "title": "Ask for the station",
       "exercise": {
         "id": "l5-ex-cloze-where",
+        "stable_id": "ex-ms9433jd3mqak",
         "type": "cloze",
         "prompt": "Complete: \"Where is the station?\" (der Bahnhof)",
         "card_ids": ["de-a2-wo-ist"],
@@ -126,6 +137,7 @@
       "title": "Review: build a Perfekt sentence",
       "exercise": {
         "id": "l5-ex-tiles-review",
+        "stable_id": "ex-ms9433jd3mrt8",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to say: \"I bought bread.\"",
         "card_ids": ["de-a2-die-baeckerei"],
@@ -141,6 +153,7 @@
       "title": "Order politely",
       "exercise": {
         "id": "l5-ex-free-polite-order",
+        "stable_id": "ex-ms9433jd3ms94",
         "type": "free_text",
         "prompt": "Give the polite phrase for \"I would like …\" used in a shop.",
         "card_ids": ["de-a2-ich-haette-gern"],

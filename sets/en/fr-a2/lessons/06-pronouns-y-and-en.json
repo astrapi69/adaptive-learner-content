@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "y-intro",
+      "stable_id": "card-ms9433kq4w4dm",
       "front": "J'y vais.",
       "back": "I'm going there. (y = to Paris / à Paris)",
       "notes": "**y** replaces **à + place** (or any location phrase): *Tu vas à Paris ? J'y vais.* (Are you going to Paris? I'm going there.) Place it **before the conjugated verb**.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "y-penser",
+      "stable_id": "card-ms9433kq4w5vk",
       "front": "J'y pense.",
       "back": "I'm thinking about it. (y = à ce problème / à cette idée)",
       "notes": "**y** also replaces **à + thing** (not a person) with verbs like *penser à, répondre à, jouer à*: *Tu penses à ce problème ? J'y pense.* English often drops the pronoun entirely ('I'm thinking') — French requires **y**.",
@@ -28,6 +30,7 @@
     },
     {
       "id": "il-y-a",
+      "stable_id": "card-ms9433kq4w60g",
       "front": "Il y a",
       "back": "There is / There are",
       "notes": "**il y a** is a frozen idiom you already know from A1 — literally 'it there has'. The **y** here is the same pronoun meaning 'there' (à cet endroit). *Il y a un chat dans le jardin.* (There is a cat in the garden.)",
@@ -37,6 +40,7 @@
     },
     {
       "id": "en-partitive",
+      "stable_id": "card-ms9433kq4w79f",
       "front": "J'en veux.",
       "back": "I want some. (en = du café / de la soupe)",
       "notes": "**en** replaces **de + thing**, including **partitive articles** (du, de la, des): *Tu veux du café ? J'en veux.* (Do you want some coffee? I want some.) English often says just 'I want some' — French always keeps **en**.",
@@ -46,6 +50,7 @@
     },
     {
       "id": "en-quantity",
+      "stable_id": "card-ms9433kq4w8qs",
       "front": "J'en ai trois.",
       "back": "I have three (of them). (en + number)",
       "notes": "When a **quantity or number** is mentioned, **en** is still required even though English drops it: *Tu as des frères ? J'en ai trois.* (Do you have brothers? I have three.) English says 'I have three' — French says **j'en ai trois** (literally 'I have three of them').",
@@ -56,6 +61,7 @@
     },
     {
       "id": "en-besoin",
+      "stable_id": "card-ms9433kq4w907",
       "front": "J'en ai besoin.",
       "back": "I need it / I need some. (en = de + thing, with avoir besoin de)",
       "notes": "**avoir besoin de** uses **en** to replace *de + thing*: *Tu as besoin de ce livre ? J'en ai besoin.* (Do you need this book? I need it.) Compare: *avoir besoin de quelqu'un* → **lui/leur** (à + person), NOT en.",
@@ -65,6 +71,7 @@
     },
     {
       "id": "y-vs-en-contrast",
+      "stable_id": "card-ms9433kq4waee",
       "front": "y (à) vs en (de)",
       "back": "y replaces à + place/thing; en replaces de + thing",
       "notes": "The key contrast: **y** = **à** + place/thing. **en** = **de** + thing (or partitive). Neither is used for **people**: *à + person* → **lui/leur** (indirect object pronoun). Example: *Je lui parle.* (I'm talking to him/her.)",
@@ -74,6 +81,7 @@
     },
     {
       "id": "position-before-verb",
+      "stable_id": "card-ms9433kq4wbv2",
       "front": "J'y vais. / Je n'y vais pas. / J'en ai deux.",
       "back": "y and en go before the conjugated verb (after ne in negation)",
       "notes": "Like all object pronouns, **y** and **en** go **directly before the verb**: *J'**y** vais, Il **en** prend.* In negation, they stay between *ne* and the verb: *Je **n'y** vais pas, Il **n'en** prend pas.*",
@@ -83,6 +91,7 @@
     },
     {
       "id": "y-place-example",
+      "stable_id": "card-ms9433kq4wcxr",
       "front": "Tu vas au marché ? Oui, j'y vais.",
       "back": "Are you going to the market? Yes, I'm going there.",
       "notes": "*y* stands for *au marché* (= à + le marché). The question uses the full noun phrase; the answer replaces it with **y** before the verb.",
@@ -92,6 +101,7 @@
     },
     {
       "id": "en-de-place",
+      "stable_id": "card-ms9433kq4wdoc",
       "front": "Tu viens de Paris ? Oui, j'en viens.",
       "back": "Are you coming from Paris? Yes, I'm coming from there.",
       "notes": "**en** can also replace **de + place** with movement verbs like *venir de, revenir de, sortir de*: *j'en viens* = I'm coming from there. This is the exact mirror of **y** (à + place): **en** handles **de + place**.",
@@ -101,6 +111,7 @@
     },
     {
       "id": "lui-leur-not-y",
+      "stable_id": "card-ms9433kq4webt",
       "front": "Je lui parle. (NOT: j'y parle)",
       "back": "à + person stays as lui/leur — never y",
       "notes": "**y** never replaces **à + person**. For people, use the indirect object pronouns **lui** (him/her) or **leur** (them): *Je parle à Marie → Je **lui** parle.* This is a common mistake for English speakers who might try to use **y** or drop the pronoun entirely.",
@@ -136,6 +147,7 @@
       "title": "Match the pronoun to what it replaces",
       "exercise": {
         "id": "ex-match-pronoun-rule",
+        "stable_id": "ex-ms9433kq4wfer",
         "type": "matching",
         "prompt": "Match each pronoun to the phrase it replaces.",
         "card_ids": ["y-intro", "en-partitive", "y-vs-en-contrast", "lui-leur-not-y"],
@@ -155,6 +167,7 @@
       "title": "Use y for a place",
       "exercise": {
         "id": "ex-free-y-paris",
+        "stable_id": "ex-ms9433kq4wgkd",
         "type": "free_text",
         "prompt": "Translate: *Are you going to Paris? Yes, I'm going there.* (use y)",
         "card_ids": ["y-intro", "y-place-example"],
@@ -183,6 +196,7 @@
       "title": "Use en for a partitive",
       "exercise": {
         "id": "ex-free-en-cafe",
+        "stable_id": "ex-ms9433kq4whpp",
         "type": "free_text",
         "prompt": "Translate: *Do you want some coffee? Yes, I want some.* (use en)",
         "card_ids": ["en-partitive"],
@@ -211,6 +225,7 @@
       "title": "en with a quantity — the English-speaker trap",
       "exercise": {
         "id": "ex-free-en-trois",
+        "stable_id": "ex-ms9433kq4wigb",
         "type": "free_text",
         "prompt": "Translate: *Do you have brothers? I have three.* (French must keep en — don't drop it!)",
         "card_ids": ["en-quantity"],
@@ -239,6 +254,7 @@
       "title": "Fill in y",
       "exercise": {
         "id": "ex-cloze-y-marche",
+        "stable_id": "ex-ms9433kq4wjj2",
         "type": "cloze",
         "prompt": "Replace the underlined place with the correct pronoun. (Il va au marché → ?)",
         "card_ids": ["y-intro", "y-place-example"],
@@ -257,6 +273,7 @@
       "title": "Fill in en (avoir besoin de)",
       "exercise": {
         "id": "ex-cloze-en-besoin",
+        "stable_id": "ex-ms9433kq4wkzc",
         "type": "cloze",
         "prompt": "Fill in the correct pronoun. (They need it — avoir besoin de ce document)",
         "card_ids": ["en-besoin", "y-vs-en-contrast"],
@@ -275,6 +292,7 @@
       "title": "Build: I'm thinking about it",
       "exercise": {
         "id": "ex-tiles-y-think",
+        "stable_id": "ex-ms9433kq4wliy",
         "type": "word_tiles",
         "prompt": "Arrange the words: *I'm thinking about it.* (penser à quelque chose → use y)",
         "card_ids": ["y-penser", "position-before-verb"],
@@ -290,6 +308,7 @@
       "title": "Build: She doesn't want any",
       "exercise": {
         "id": "ex-tiles-en-neg",
+        "stable_id": "ex-ms9433kq4wm00",
         "type": "word_tiles",
         "prompt": "Arrange the words: *She doesn't want any.* (en in a negative sentence)",
         "card_ids": ["en-partitive", "position-before-verb"],
@@ -305,6 +324,7 @@
       "title": "Which pronoun replaces the phrase?",
       "exercise": {
         "id": "ex-match-replace",
+        "stable_id": "ex-ms9433kq4wnmp",
         "type": "matching",
         "prompt": "Match each underlined phrase to the pronoun that replaces it.",
         "card_ids": ["y-intro", "en-partitive", "en-besoin", "y-penser", "lui-leur-not-y"],
@@ -324,6 +344,7 @@
       "title": "Which sentence uses y correctly?",
       "exercise": {
         "id": "ex-pic-place-pronoun",
+        "stable_id": "ex-ms9433kq4wobl",
         "type": "picture_choice",
         "prompt": "A woman says she is going to the library. Which sentence is correct?",
         "card_ids": ["y-intro", "position-before-verb", "y-place-example"],

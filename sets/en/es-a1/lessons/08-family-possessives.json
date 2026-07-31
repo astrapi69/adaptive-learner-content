@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "la-familia",
+      "stable_id": "card-ms9433jj3rspu",
       "front": "la familia",
       "back": "the family",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "el-padre",
+      "stable_id": "card-ms9433jj3rts4",
       "front": "el padre",
       "back": "the father",
       "tags": [
@@ -26,6 +28,7 @@
     },
     {
       "id": "la-madre",
+      "stable_id": "card-ms9433jj3rufq",
       "front": "la madre",
       "back": "the mother",
       "tags": [
@@ -35,6 +38,7 @@
     },
     {
       "id": "el-hermano",
+      "stable_id": "card-ms9433jj3rval",
       "front": "el hermano",
       "back": "the brother",
       "tags": [
@@ -44,6 +48,7 @@
     },
     {
       "id": "la-hermana",
+      "stable_id": "card-ms9433jj3rwuq",
       "front": "la hermana",
       "back": "the sister",
       "tags": [
@@ -53,6 +58,7 @@
     },
     {
       "id": "el-hijo",
+      "stable_id": "card-ms9433jj3rxtn",
       "front": "el hijo",
       "back": "the son",
       "tags": [
@@ -62,6 +68,7 @@
     },
     {
       "id": "la-hija",
+      "stable_id": "card-ms9433jj3ry0s",
       "front": "la hija",
       "back": "the daughter",
       "tags": [
@@ -71,6 +78,7 @@
     },
     {
       "id": "los-padres",
+      "stable_id": "card-ms9433jj3rz2f",
       "front": "los padres",
       "back": "the parents",
       "notes": "los padres means the parents (not just the fathers).",
@@ -81,6 +89,7 @@
     },
     {
       "id": "los-abuelos",
+      "stable_id": "card-ms9433jj3s0np",
       "front": "los abuelos",
       "back": "the grandparents",
       "notes": "los abuelos means the grandparents (not just the grandfathers).",
@@ -91,6 +100,7 @@
     },
     {
       "id": "el-abuelo",
+      "stable_id": "card-ms9433jj3s1j6",
       "front": "el abuelo",
       "back": "the grandfather",
       "tags": [
@@ -100,6 +110,7 @@
     },
     {
       "id": "la-abuela",
+      "stable_id": "card-ms9433jj3s2bk",
       "front": "la abuela",
       "back": "the grandmother",
       "tags": [
@@ -109,6 +120,7 @@
     },
     {
       "id": "pos-mi",
+      "stable_id": "card-ms9433jj3s3vx",
       "front": "mi",
       "back": "my (plural: mis)",
       "notes": "mi before a singular noun, mis before a plural: mi hermano / mis hermanos.",
@@ -118,6 +130,7 @@
     },
     {
       "id": "pos-tu",
+      "stable_id": "card-ms9433jj3s4u8",
       "front": "tu",
       "back": "your (informal; plural: tus)",
       "notes": "tu without accent = possessive; tú with accent = you.",
@@ -127,6 +140,7 @@
     },
     {
       "id": "pos-su",
+      "stable_id": "card-ms9433jj3s5ch",
       "front": "su",
       "back": "his / her / your (formal) / their (plural: sus)",
       "notes": "su is context-dependent: his, her, your (formal usted) or their.",
@@ -136,6 +150,7 @@
     },
     {
       "id": "pos-nuestro",
+      "stable_id": "card-ms9433jj3s61f",
       "front": "nuestro",
       "back": "our (masc.)",
       "notes": "Forms: nuestro, nuestra, nuestros, nuestras.",
@@ -145,6 +160,7 @@
     },
     {
       "id": "pos-nuestra",
+      "stable_id": "card-ms9433jj3s7n3",
       "front": "nuestra",
       "back": "our (fem.)",
       "tags": [
@@ -153,6 +169,7 @@
     },
     {
       "id": "phr-mi-madre",
+      "stable_id": "card-ms9433jj3s860",
       "front": "mi madre",
       "back": "my mother",
       "tags": [
@@ -162,6 +179,7 @@
     },
     {
       "id": "phr-nuestros-hijos",
+      "stable_id": "card-ms9433jj3s9bf",
       "front": "nuestros hijos",
       "back": "our children",
       "notes": "nuestros (masc. plural) because hijos is masculine plural.",
@@ -172,6 +190,7 @@
     },
     {
       "id": "phr-su-hermana",
+      "stable_id": "card-ms9433jj3sa9b",
       "front": "su hermana",
       "back": "his / her / their sister",
       "tags": [
@@ -206,6 +225,7 @@
       "title": "Match the family",
       "exercise": {
         "id": "ex-match-family",
+        "stable_id": "ex-ms9433jj3sbgh",
         "type": "matching",
         "prompt": "Match the Spanish family words with their meaning.",
         "card_ids": [
@@ -247,6 +267,7 @@
       "title": "Match the possessives",
       "exercise": {
         "id": "ex-match-possessive",
+        "stable_id": "ex-ms9433jj3scw4",
         "type": "matching",
         "prompt": "Match the possessive adjectives with their meaning.",
         "card_ids": [
@@ -283,6 +304,7 @@
       "title": "the parents",
       "exercise": {
         "id": "ex-pic-padres",
+        "stable_id": "ex-ms9433jj3sdlx",
         "type": "picture_choice",
         "prompt": "Pick the correct spelling for 'the parents'.",
         "card_ids": [
@@ -323,6 +345,7 @@
       "title": "the grandmother",
       "exercise": {
         "id": "ex-pic-abuela",
+        "stable_id": "ex-ms9433jj3se0t",
         "type": "picture_choice",
         "prompt": "Pick the correct spelling for 'the grandmother'.",
         "card_ids": [
@@ -363,6 +386,7 @@
       "title": "my mother",
       "exercise": {
         "id": "ex-free-mi-madre",
+        "stable_id": "ex-ms9433jj3sfwx",
         "type": "free_text",
         "prompt": "Write in Spanish: 'my mother'.",
         "card_ids": [
@@ -390,6 +414,7 @@
       "title": "our children",
       "exercise": {
         "id": "ex-free-nuestros-hijos",
+        "stable_id": "ex-ms9433jj3sgs1",
         "type": "free_text",
         "prompt": "Write in Spanish: 'our children' (our sons).",
         "card_ids": [
@@ -417,6 +442,7 @@
       "title": "Fill the gap: my",
       "exercise": {
         "id": "ex-cloze-mi",
+        "stable_id": "ex-ms9433jj3sh7q",
         "type": "cloze",
         "prompt": "Fill in the possessive for 'my'.",
         "card_ids": [
@@ -443,6 +469,7 @@
       "title": "Fill the gap: our",
       "exercise": {
         "id": "ex-cloze-nuestros",
+        "stable_id": "ex-ms9433jj3si6i",
         "type": "cloze",
         "prompt": "Fill in the possessive for 'our'.",
         "card_ids": [
@@ -469,6 +496,7 @@
       "title": "Fill the gap: her",
       "exercise": {
         "id": "ex-cloze-sus",
+        "stable_id": "ex-ms9433jj3sjni",
         "type": "cloze",
         "prompt": "Fill in the possessive for 'her'.",
         "card_ids": [
@@ -495,6 +523,7 @@
       "title": "Build: My sister is tall.",
       "exercise": {
         "id": "ex-tile-hermana",
+        "stable_id": "ex-ms9433jj3sk5n",
         "type": "word_tiles",
         "prompt": "Arrange the sentence 'My sister is tall.'",
         "card_ids": [
@@ -518,6 +547,7 @@
       "title": "Build: Our house is big.",
       "exercise": {
         "id": "ex-tile-casa",
+        "stable_id": "ex-ms9433jj3sl5n",
         "type": "word_tiles",
         "prompt": "Arrange the sentence 'Our house is big.'",
         "card_ids": [
@@ -540,6 +570,7 @@
       "title": "Match the agreement",
       "exercise": {
         "id": "ex-match-agreement",
+        "stable_id": "ex-ms9433jj3smza",
         "type": "matching",
         "prompt": "Match the Spanish phrases with their meaning (watch the agreement).",
         "card_ids": [

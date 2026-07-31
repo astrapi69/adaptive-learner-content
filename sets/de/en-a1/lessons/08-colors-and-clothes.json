@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "col-red",
+      "stable_id": "card-ms9433fn08ugo",
       "front": "red",
       "back": "rot",
       "notes": "Adjektiv bleibt IMMER gleich: 'a red car', 'two red cars'. Keine Endung wie im Deutschen.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "col-blue",
+      "stable_id": "card-ms9433fn08vwl",
       "front": "blue",
       "back": "blau",
       "notes": "Unveränderlich: 'a blue shirt', 'blue shirts'.",
@@ -22,6 +24,7 @@
     },
     {
       "id": "col-green",
+      "stable_id": "card-ms9433fn08wf9",
       "front": "green",
       "back": "grün",
       "notes": "Auch im Plural unverändert: 'green apples'.",
@@ -29,6 +32,7 @@
     },
     {
       "id": "col-black",
+      "stable_id": "card-ms9433fn08xnq",
       "front": "black",
       "back": "schwarz",
       "notes": "'a black jacket'.",
@@ -36,6 +40,7 @@
     },
     {
       "id": "col-white",
+      "stable_id": "card-ms9433fn08y3f",
       "front": "white",
       "back": "weiß",
       "notes": "Das 'wh' wird wie 'w' gesprochen.",
@@ -43,6 +48,7 @@
     },
     {
       "id": "clo-shirt",
+      "stable_id": "card-ms9433fn08zto",
       "front": "a shirt",
       "back": "ein Hemd",
       "notes": "Zählbar. Vorsicht: 'shirt' = Hemd, nicht 'Shirt/T-Shirt' im deutschen Sinn (das ist 'a T-shirt').",
@@ -50,6 +56,7 @@
     },
     {
       "id": "clo-shoes",
+      "stable_id": "card-ms9433fn09099",
       "front": "shoes",
       "back": "die Schuhe",
       "notes": "Meist im Plural: 'a pair of shoes' (ein Paar Schuhe).",
@@ -57,6 +64,7 @@
     },
     {
       "id": "clo-jacket",
+      "stable_id": "card-ms9433fn091yo",
       "front": "a jacket",
       "back": "eine Jacke",
       "notes": "'jacket' = Jacke. Achtung: ein Anzug-Sakko heißt ebenfalls 'jacket'.",
@@ -64,6 +72,7 @@
     },
     {
       "id": "clo-trousers",
+      "stable_id": "card-ms9433fn09253",
       "front": "trousers",
       "back": "die Hose",
       "notes": "Immer Plural (wie im Deutschen 'die Hosen' möglich): 'a pair of trousers'. US-Englisch: 'pants'.",
@@ -71,6 +80,7 @@
     },
     {
       "id": "size",
+      "stable_id": "card-ms9433fn093nf",
       "front": "size",
       "back": "die Größe",
       "notes": "'What size are you?' / 'I'm a size 40.' = Welche Größe haben Sie?",
@@ -78,6 +88,7 @@
     },
     {
       "id": "this-one",
+      "stable_id": "card-ms9433fn09491",
       "front": "this one",
       "back": "dieses hier",
       "notes": "Für etwas Nahes. Gegenstück: 'that one' (das da, weiter weg).",
@@ -85,6 +96,7 @@
     },
     {
       "id": "that-one",
+      "stable_id": "card-ms9433fn09566",
       "front": "that one",
       "back": "das da / jenes",
       "notes": "Für etwas Entferntes. 'one' steht für das wiederholte Nomen.",
@@ -117,6 +129,7 @@
       "title": "Farben zuordnen",
       "exercise": {
         "id": "ex-match-colors",
+        "stable_id": "ex-ms9433fn096jz",
         "type": "matching",
         "prompt": "Ordne jede englische Farbe ihrer deutschen Bedeutung zu.",
         "card_ids": ["col-red", "col-blue", "col-green", "col-white"],
@@ -136,6 +149,7 @@
       "title": "Kleidung zuordnen",
       "exercise": {
         "id": "ex-match-clothes",
+        "stable_id": "ex-ms9433fn097xe",
         "type": "matching",
         "prompt": "Ordne jedes Kleidungsstück seiner deutschen Bedeutung zu.",
         "card_ids": ["clo-shirt", "clo-shoes", "clo-jacket", "clo-trousers"],
@@ -155,6 +169,7 @@
       "title": "Welche Wortstellung ist richtig?",
       "exercise": {
         "id": "ex-pick-adjective-order",
+        "stable_id": "ex-ms9433fn098tx",
         "type": "picture_choice",
         "prompt": "Du meinst 'ein großes rotes Auto'. Welche Reihenfolge ist korrekt?",
         "card_ids": ["col-red"],
@@ -176,6 +191,7 @@
       "title": "Farbe im Plural",
       "exercise": {
         "id": "ex-cloze-no-agreement",
+        "stable_id": "ex-ms9433fn099ju",
         "type": "cloze",
         "prompt": "Ergänze die Farbe. Denk daran: Adjektive bekommen keine Endung!",
         "card_ids": ["col-red"],
@@ -194,6 +210,7 @@
       "title": "Farbe benennen",
       "exercise": {
         "id": "ex-free-black",
+        "stable_id": "ex-ms9433fn09a7v",
         "type": "free_text",
         "prompt": "Wie heißt die Farbe 'schwarz' auf Englisch?",
         "card_ids": ["col-black"],
@@ -210,6 +227,7 @@
       "title": "Farbe ohne Endung",
       "exercise": {
         "id": "ex-cloze-green-plural",
+        "stable_id": "ex-ms9433fn09bev",
         "type": "cloze",
         "prompt": "Ergänze die Farbe 'grün'. Auch im Plural ohne Endung!",
         "card_ids": ["col-green"],
@@ -228,6 +246,7 @@
       "title": "Ein blaues Hemd",
       "exercise": {
         "id": "ex-free-blue-shirt",
+        "stable_id": "ex-ms9433fn09ctn",
         "type": "free_text",
         "prompt": "Übersetze: 'ein blaues Hemd'.",
         "card_ids": ["col-blue", "clo-shirt"],
@@ -244,6 +263,7 @@
       "title": "Schwarze Schuhe",
       "exercise": {
         "id": "ex-tile-black-shoes",
+        "stable_id": "ex-ms9433fn09d5p",
         "type": "word_tiles",
         "prompt": "Bilde 'Ich mag die schwarzen Schuhe.'",
         "card_ids": ["col-black", "clo-shoes"],
@@ -259,6 +279,7 @@
       "title": "Im Geschäft zeigen",
       "exercise": {
         "id": "ex-free-this-one",
+        "stable_id": "ex-ms9433fn09emr",
         "type": "free_text",
         "prompt": "Im Geschäft: Wie sagst du 'Ich mag dieses hier'?",
         "card_ids": ["this-one"],
@@ -275,6 +296,7 @@
       "title": "this one oder that one?",
       "exercise": {
         "id": "ex-cloze-this-that",
+        "stable_id": "ex-ms9433fn09fdl",
         "type": "cloze",
         "prompt": "Ergänze 'one'. Du zeigst auf etwas weiter Entferntes ('das da').",
         "card_ids": ["that-one"],

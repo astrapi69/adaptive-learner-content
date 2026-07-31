@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "wake-up",
+      "stable_id": "card-ms9433fl074ed",
       "front": "wake up",
       "back": "aufwachen",
       "notes": "Die Augen öffnen, wach werden — noch im Bett. Danach kommt 'get up'.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "get-up",
+      "stable_id": "card-ms9433fl075yw",
       "front": "get up",
       "back": "aufstehen",
       "notes": "Falscher Freund! NICHT 'stand up'. 'stand up' heißt nur 'sich erheben' (z. B. vom Stuhl). Morgens aus dem Bett = 'get up'.",
@@ -22,6 +24,7 @@
     },
     {
       "id": "have-breakfast",
+      "stable_id": "card-ms9433fl0760j",
       "front": "have breakfast",
       "back": "frühstücken",
       "notes": "Englisch nutzt 'have' für Mahlzeiten: have breakfast / lunch / dinner.",
@@ -29,6 +32,7 @@
     },
     {
       "id": "go-to-work",
+      "stable_id": "card-ms9433fl077k6",
       "front": "go to work",
       "back": "zur Arbeit gehen",
       "notes": "Ohne Artikel: 'go to work', nicht 'go to the work'. Ebenso 'go to school', 'go to bed'.",
@@ -36,6 +40,7 @@
     },
     {
       "id": "come-home",
+      "stable_id": "card-ms9433fl078vv",
       "front": "come home",
       "back": "nach Hause kommen",
       "notes": "Ohne Präposition: 'come home', nicht 'come to home'. 'home' verhält sich wie ein Adverb.",
@@ -43,6 +48,7 @@
     },
     {
       "id": "go-to-bed",
+      "stable_id": "card-ms9433fl07997",
       "front": "go to bed",
       "back": "ins Bett gehen / schlafen gehen",
       "notes": "Feste Wendung ohne Artikel: 'go to bed'.",
@@ -50,6 +56,7 @@
     },
     {
       "id": "in-the-morning",
+      "stable_id": "card-ms9433fl07ail",
       "front": "in the morning",
       "back": "am Morgen / morgens",
       "notes": "Tageszeiten mit 'in': in the morning, in the afternoon, in the evening.",
@@ -57,6 +64,7 @@
     },
     {
       "id": "at-noon",
+      "stable_id": "card-ms9433fl07b2x",
       "front": "at noon",
       "back": "mittags / zu Mittag",
       "notes": "Feste Zeitpunkte mit 'at': at noon, at midnight. Auch bei Uhrzeiten: at 7 o'clock.",
@@ -64,6 +72,7 @@
     },
     {
       "id": "in-the-evening",
+      "stable_id": "card-ms9433fl07co8",
       "front": "in the evening",
       "back": "am Abend / abends",
       "notes": "Mit 'in' wie bei morning und afternoon. ABER: 'at night' (nachts) ist die Ausnahme!",
@@ -71,6 +80,7 @@
     },
     {
       "id": "at-night",
+      "stable_id": "card-ms9433fl07duh",
       "front": "at night",
       "back": "nachts / in der Nacht",
       "notes": "Die Ausnahme: hier 'at', nicht 'in'. Sage NICHT 'in the night' für eine allgemeine Zeitangabe.",
@@ -78,6 +88,7 @@
     },
     {
       "id": "on-monday",
+      "stable_id": "card-ms9433fl07ed1",
       "front": "on Monday",
       "back": "am Montag",
       "notes": "Wochentage und Daten mit 'on': on Monday, on Friday, on May 5th.",
@@ -110,6 +121,7 @@
       "title": "Tagesablauf zuordnen",
       "exercise": {
         "id": "ex-match-routine",
+        "stable_id": "ex-ms9433fl07fjq",
         "type": "matching",
         "prompt": "Ordne jedes englische Verb seiner deutschen Bedeutung zu.",
         "card_ids": ["wake-up", "get-up", "have-breakfast", "go-to-bed"],
@@ -129,6 +141,7 @@
       "title": "Aufstehen — aber richtig",
       "exercise": {
         "id": "ex-pick-get-up",
+        "stable_id": "ex-ms9433fl07ghd",
         "type": "picture_choice",
         "prompt": "Welcher Ausdruck bedeutet 'morgens aus dem Bett aufstehen'?",
         "card_ids": ["get-up", "wake-up"],
@@ -150,6 +163,7 @@
       "title": "Welche Präposition? (1)",
       "exercise": {
         "id": "ex-cloze-at-night",
+        "stable_id": "ex-ms9433fl07hnh",
         "type": "cloze",
         "prompt": "Ergänze die richtige Zeitpräposition.",
         "card_ids": ["at-night"],
@@ -168,6 +182,7 @@
       "title": "Welche Präposition? (2)",
       "exercise": {
         "id": "ex-cloze-in-the-morning",
+        "stable_id": "ex-ms9433fl07igv",
         "type": "cloze",
         "prompt": "Ergänze die richtige Zeitpräposition.",
         "card_ids": ["in-the-morning"],
@@ -186,6 +201,7 @@
       "title": "Welche Präposition? (3)",
       "exercise": {
         "id": "ex-cloze-on-monday",
+        "stable_id": "ex-ms9433fl07j77",
         "type": "cloze",
         "prompt": "Ergänze die richtige Zeitpräposition vor einem Wochentag.",
         "card_ids": ["on-monday"],
@@ -204,6 +220,7 @@
       "title": "'aufstehen' auf Englisch",
       "exercise": {
         "id": "ex-free-get-up",
+        "stable_id": "ex-ms9433fl07ktq",
         "type": "free_text",
         "prompt": "Wie sagt man 'aufstehen' (morgens aus dem Bett) auf Englisch?",
         "card_ids": ["get-up"],
@@ -220,6 +237,7 @@
       "title": "Zeitangaben zuordnen",
       "exercise": {
         "id": "ex-match-times",
+        "stable_id": "ex-ms9433fl07lh2",
         "type": "matching",
         "prompt": "Ordne jede englische Zeitangabe ihrer deutschen Bedeutung zu.",
         "card_ids": ["in-the-morning", "at-noon", "in-the-evening", "at-night"],
@@ -239,6 +257,7 @@
       "title": "Satz bauen",
       "exercise": {
         "id": "ex-tile-i-get-up",
+        "stable_id": "ex-ms9433fl07mij",
         "type": "word_tiles",
         "prompt": "Setze 'Ich stehe um sieben Uhr auf' zusammen.",
         "card_ids": ["get-up", "at-noon"],
@@ -254,6 +273,7 @@
       "title": "Ins Bett gehen",
       "exercise": {
         "id": "ex-cloze-go-to-bed",
+        "stable_id": "ex-ms9433fl07n7b",
         "type": "cloze",
         "prompt": "Ergänze die feste Wendung 'ins Bett gehen' (ohne Artikel!).",
         "card_ids": ["go-to-bed"],
@@ -272,6 +292,7 @@
       "title": "Frühstücken",
       "exercise": {
         "id": "ex-free-have-breakfast",
+        "stable_id": "ex-ms9433fl07oft",
         "type": "free_text",
         "prompt": "Wie sagt man 'frühstücken' auf Englisch?",
         "card_ids": ["have-breakfast"],

@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "de-der-mann",
+      "stable_id": "card-ms9433j93j6hq",
       "front": "der Mann",
       "back": "the man",
       "notes": "**der** is the masculine article (the).",
@@ -13,6 +14,7 @@
     },
     {
       "id": "de-die-frau",
+      "stable_id": "card-ms9433j93j7ym",
       "front": "die Frau",
       "back": "the woman",
       "notes": "**die** is the feminine article (the).",
@@ -20,6 +22,7 @@
     },
     {
       "id": "de-das-kind",
+      "stable_id": "card-ms9433j93j81s",
       "front": "das Kind",
       "back": "the child",
       "notes": "**das** is the neuter article (the).",
@@ -27,6 +30,7 @@
     },
     {
       "id": "de-der-hund",
+      "stable_id": "card-ms9433j93j9ik",
       "front": "der Hund",
       "back": "the dog",
       "notes": "*Hund* is masculine, so it takes **der**.",
@@ -34,6 +38,7 @@
     },
     {
       "id": "de-die-katze",
+      "stable_id": "card-ms9433j93ja0r",
       "front": "die Katze",
       "back": "the cat",
       "notes": "*Katze* is feminine, so it takes **die**.",
@@ -41,6 +46,7 @@
     },
     {
       "id": "de-das-haus",
+      "stable_id": "card-ms9433j93jbkf",
       "front": "das Haus",
       "back": "the house",
       "notes": "*Haus* is neuter, so it takes **das**.",
@@ -48,6 +54,7 @@
     },
     {
       "id": "de-ich-bin",
+      "stable_id": "card-ms9433j93jcwr",
       "front": "ich bin",
       "back": "I am",
       "notes": "First person singular of **sein** (to be).",
@@ -55,6 +62,7 @@
     },
     {
       "id": "de-du-bist",
+      "stable_id": "card-ms9433j93jdve",
       "front": "du bist",
       "back": "you are",
       "notes": "Second person singular, informal.",
@@ -62,6 +70,7 @@
     },
     {
       "id": "de-er-ist",
+      "stable_id": "card-ms9433j93jeta",
       "front": "er ist",
       "back": "he is",
       "notes": "Third person singular (masculine). *sie ist* = she is, *es ist* = it is.",
@@ -69,6 +78,7 @@
     },
     {
       "id": "de-wir-sind",
+      "stable_id": "card-ms9433j93jf90",
       "front": "wir sind",
       "back": "we are",
       "notes": "First person plural of **sein**.",
@@ -76,6 +86,7 @@
     },
     {
       "id": "de-ihr-seid",
+      "stable_id": "card-ms9433j93jg0k",
       "front": "ihr seid",
       "back": "you are (plural)",
       "notes": "Second person plural, informal.",
@@ -83,6 +94,7 @@
     },
     {
       "id": "de-sie-sind",
+      "stable_id": "card-ms9433j93jhq2",
       "front": "sie sind",
       "back": "they are",
       "notes": "Third person plural. Capitalised *Sie sind* is the formal \"you are\".",
@@ -103,6 +115,7 @@
       "title": "Match noun and meaning",
       "exercise": {
         "id": "l3-ex-match-articles",
+        "stable_id": "ex-ms9433j93jiui",
         "type": "matching",
         "prompt": "Match each German noun with its English meaning.",
         "card_ids": ["de-der-mann", "de-die-frau", "de-das-kind", "de-der-hund"],
@@ -122,6 +135,7 @@
       "title": "Choose the article",
       "exercise": {
         "id": "l3-ex-free-article-cat",
+        "stable_id": "ex-ms9433j93jj07",
         "type": "free_text",
         "prompt": "Write the correct article + noun for \"the cat\".",
         "card_ids": ["de-die-katze"],
@@ -138,6 +152,7 @@
       "title": "Choose the article",
       "exercise": {
         "id": "l3-ex-free-article-house",
+        "stable_id": "ex-ms9433j93jkya",
         "type": "free_text",
         "prompt": "Write the correct article + noun for \"the house\".",
         "card_ids": ["de-das-haus"],
@@ -160,6 +175,7 @@
       "title": "Match the forms of sein",
       "exercise": {
         "id": "l3-ex-match-sein",
+        "stable_id": "ex-ms9433j93jlgn",
         "type": "matching",
         "prompt": "Match each form of \"sein\" with its English meaning.",
         "card_ids": ["de-ich-bin", "de-du-bist", "de-er-ist", "de-wir-sind", "de-sie-sind"],
@@ -180,6 +196,7 @@
       "title": "Complete with sein",
       "exercise": {
         "id": "l3-ex-cloze-iam",
+        "stable_id": "ex-ms9433j93jm5i",
         "type": "cloze",
         "prompt": "Complete: \"I am Anna.\"",
         "card_ids": ["de-ich-bin"],
@@ -196,6 +213,7 @@
       "title": "Complete with sein",
       "exercise": {
         "id": "l3-ex-cloze-weare",
+        "stable_id": "ex-ms9433j93jn7f",
         "type": "cloze",
         "prompt": "Complete: \"We are here.\"",
         "card_ids": ["de-wir-sind"],
@@ -212,6 +230,7 @@
       "title": "Build the sentence",
       "exercise": {
         "id": "l3-ex-tiles-sentence",
+        "stable_id": "ex-ms9433j93jonf",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to mean \"The man is tired.\"",
         "card_ids": ["de-der-mann", "de-er-ist"],
@@ -227,6 +246,7 @@
       "title": "Complete with sein",
       "exercise": {
         "id": "l3-ex-cloze-youare",
+        "stable_id": "ex-ms9433j93jpdj",
         "type": "cloze",
         "prompt": "Complete: \"You are nice.\" (informal)",
         "card_ids": ["de-du-bist"],

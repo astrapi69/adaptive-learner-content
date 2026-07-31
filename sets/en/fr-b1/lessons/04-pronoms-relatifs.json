@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "fr-b1-qui",
+      "stable_id": "card-ms9433ky53cmx",
       "front": "qui",
       "back": "who / which / that (subject of the relative clause)",
       "notes": "*qui* is the **subject** and is followed by a verb: *l'homme **qui** parle*.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "fr-b1-que",
+      "stable_id": "card-ms9433ky53dcm",
       "front": "que",
       "back": "whom / which / that (object of the relative clause)",
       "notes": "*que* is the **object** and is followed by a subject + verb: *le livre **que** je lis*. Elides to *qu'* before a vowel.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "fr-b1-dont",
+      "stable_id": "card-ms9433ky53e90",
       "front": "dont",
       "back": "of which / of whom / whose",
       "notes": "Replaces **de + noun**: *le film **dont** je parle* (the film I'm talking about — *parler de*).",
@@ -36,6 +39,7 @@
     },
     {
       "id": "fr-b1-ou",
+      "stable_id": "card-ms9433ky53f1g",
       "front": "où",
       "back": "where / when (place or time)",
       "notes": "For place and time: *la ville **où** j'habite*; *le jour **où** il est venu*.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "fr-b1-qui-example",
+      "stable_id": "card-ms9433ky53gsn",
       "front": "l'homme qui parle est mon père",
       "back": "the man who is speaking is my father",
       "notes": "*qui* = subject → directly followed by the verb *parle*.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "fr-b1-que-example",
+      "stable_id": "card-ms9433ky53hm9",
       "front": "le livre que je lis",
       "back": "the book (that) I am reading",
       "notes": "*que* = object → followed by subject *je* + verb *lis*. English often drops 'that'; French never drops *que*.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "fr-b1-dont-example",
+      "stable_id": "card-ms9433ky53izv",
       "front": "le film dont je parle",
       "back": "the film (that) I'm talking about",
       "notes": "*parler **de** quelque chose* → *dont* carries the *de*.",
@@ -91,6 +98,7 @@
       "title": "Match the relative pronouns",
       "exercise": {
         "id": "ex-match-relatives",
+        "stable_id": "ex-ms9433ky53jzy",
         "type": "matching",
         "prompt": "Match each relative pronoun with its use.",
         "card_ids": ["fr-b1-qui", "fr-b1-que", "fr-b1-dont", "fr-b1-ou"],
@@ -110,6 +118,7 @@
       "title": "Subject pronoun",
       "exercise": {
         "id": "ex-cloze-qui",
+        "stable_id": "ex-ms9433ky53kug",
         "type": "cloze",
         "prompt": "Fill the gap: \"The man who is speaking is my father.\"",
         "card_ids": ["fr-b1-qui", "fr-b1-qui-example"],
@@ -126,6 +135,7 @@
       "title": "Object pronoun",
       "exercise": {
         "id": "ex-cloze-que",
+        "stable_id": "ex-ms9433ky53l3z",
         "type": "cloze",
         "prompt": "Fill the gap: \"The book that I am reading is interesting.\"",
         "card_ids": ["fr-b1-que", "fr-b1-que-example"],
@@ -142,6 +152,7 @@
       "title": "Use dont",
       "exercise": {
         "id": "ex-free-dont",
+        "stable_id": "ex-ms9433ky53mna",
         "type": "free_text",
         "prompt": "Translate: *the film I'm talking about* (parler de → dont)",
         "card_ids": ["fr-b1-dont", "fr-b1-dont-example"],
@@ -158,6 +169,7 @@
       "title": "Build with où",
       "exercise": {
         "id": "ex-tiles-ou",
+        "stable_id": "ex-ms9433ky53n4w",
         "type": "word_tiles",
         "prompt": "Arrange: *the city where I live*",
         "card_ids": ["fr-b1-ou"],
@@ -173,6 +185,7 @@
       "title": "où for time",
       "exercise": {
         "id": "ex-free-day-when",
+        "stable_id": "ex-ms9433ky53obt",
         "type": "free_text",
         "prompt": "Which relative pronoun fills the gap: \"le jour ___ il est arrivé\" (the day when he arrived)?",
         "card_ids": ["fr-b1-ou"],

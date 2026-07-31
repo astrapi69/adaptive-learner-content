@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "la-familia",
+      "stable_id": "card-ms9433gp1188j",
       "front": "la familia",
       "back": "die Familie",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "el-padre",
+      "stable_id": "card-ms9433gp119lb",
       "front": "el padre",
       "back": "der Vater",
       "tags": [
@@ -26,6 +28,7 @@
     },
     {
       "id": "la-madre",
+      "stable_id": "card-ms9433gp11ajn",
       "front": "la madre",
       "back": "die Mutter",
       "tags": [
@@ -35,6 +38,7 @@
     },
     {
       "id": "el-hermano",
+      "stable_id": "card-ms9433gp11bnx",
       "front": "el hermano",
       "back": "der Bruder",
       "tags": [
@@ -44,6 +48,7 @@
     },
     {
       "id": "la-hermana",
+      "stable_id": "card-ms9433gp11cxr",
       "front": "la hermana",
       "back": "die Schwester",
       "tags": [
@@ -53,6 +58,7 @@
     },
     {
       "id": "el-hijo",
+      "stable_id": "card-ms9433gp11dt9",
       "front": "el hijo",
       "back": "der Sohn",
       "tags": [
@@ -62,6 +68,7 @@
     },
     {
       "id": "la-hija",
+      "stable_id": "card-ms9433gp11e0v",
       "front": "la hija",
       "back": "die Tochter",
       "tags": [
@@ -71,6 +78,7 @@
     },
     {
       "id": "los-padres",
+      "stable_id": "card-ms9433gp11fpf",
       "front": "los padres",
       "back": "die Eltern",
       "notes": "los padres heißt die Eltern (nicht nur die Väter).",
@@ -81,6 +89,7 @@
     },
     {
       "id": "los-abuelos",
+      "stable_id": "card-ms9433gp11gu9",
       "front": "los abuelos",
       "back": "die Großeltern",
       "notes": "los abuelos heißt die Großeltern (nicht nur die Großväter).",
@@ -91,6 +100,7 @@
     },
     {
       "id": "el-abuelo",
+      "stable_id": "card-ms9433gp11hwm",
       "front": "el abuelo",
       "back": "der Großvater",
       "tags": [
@@ -100,6 +110,7 @@
     },
     {
       "id": "la-abuela",
+      "stable_id": "card-ms9433gp11idb",
       "front": "la abuela",
       "back": "die Großmutter",
       "tags": [
@@ -109,6 +120,7 @@
     },
     {
       "id": "pos-mi",
+      "stable_id": "card-ms9433gp11jyf",
       "front": "mi",
       "back": "mein/e (Plural: mis)",
       "notes": "mi vor Singular, mis vor Plural: mi hermano / mis hermanos.",
@@ -118,6 +130,7 @@
     },
     {
       "id": "pos-tu",
+      "stable_id": "card-ms9433gp11kuc",
       "front": "tu",
       "back": "dein/e (Plural: tus)",
       "notes": "tu ohne Akzent = Possessivbegleiter; tu mit Akzent (tú) = du.",
@@ -127,6 +140,7 @@
     },
     {
       "id": "pos-su",
+      "stable_id": "card-ms9433gp11l36",
       "front": "su",
       "back": "sein/ihr/Ihr (förmlich)/ihr (Plural: sus)",
       "notes": "su ist mehrdeutig: sein, ihr, Ihr (förmlich) oder ihr (von ihnen).",
@@ -136,6 +150,7 @@
     },
     {
       "id": "pos-nuestro",
+      "stable_id": "card-ms9433gp11m8c",
       "front": "nuestro",
       "back": "unser (männlich)",
       "notes": "Formen: nuestro, nuestra, nuestros, nuestras.",
@@ -145,6 +160,7 @@
     },
     {
       "id": "pos-nuestra",
+      "stable_id": "card-ms9433gp11njt",
       "front": "nuestra",
       "back": "unsere (weiblich)",
       "tags": [
@@ -153,6 +169,7 @@
     },
     {
       "id": "phr-mi-madre",
+      "stable_id": "card-ms9433gp11ogy",
       "front": "mi madre",
       "back": "meine Mutter",
       "tags": [
@@ -162,6 +179,7 @@
     },
     {
       "id": "phr-nuestros-hijos",
+      "stable_id": "card-ms9433gp11p8v",
       "front": "nuestros hijos",
       "back": "unsere Kinder",
       "notes": "nuestros (männlich Plural), weil hijos männlich Plural ist.",
@@ -172,6 +190,7 @@
     },
     {
       "id": "phr-su-hermana",
+      "stable_id": "card-ms9433gp11qu1",
       "front": "su hermana",
       "back": "seine/ihre Schwester",
       "tags": [
@@ -206,6 +225,7 @@
       "title": "Familie zuordnen",
       "exercise": {
         "id": "ex-match-family",
+        "stable_id": "ex-ms9433gp11rnb",
         "type": "matching",
         "prompt": "Ordne die spanischen Familienwörter ihrer Bedeutung zu.",
         "card_ids": [
@@ -247,6 +267,7 @@
       "title": "Possessivbegleiter zuordnen",
       "exercise": {
         "id": "ex-match-possessive",
+        "stable_id": "ex-ms9433gp11sye",
         "type": "matching",
         "prompt": "Ordne die Possessivbegleiter ihrer Bedeutung zu.",
         "card_ids": [
@@ -283,6 +304,7 @@
       "title": "die Eltern",
       "exercise": {
         "id": "ex-pic-padres",
+        "stable_id": "ex-ms9433gp11tzv",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Schreibweise für 'die Eltern'.",
         "card_ids": [
@@ -323,6 +345,7 @@
       "title": "die Großmutter",
       "exercise": {
         "id": "ex-pic-abuela",
+        "stable_id": "ex-ms9433gp11ut5",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Schreibweise für 'die Großmutter'.",
         "card_ids": [
@@ -363,6 +386,7 @@
       "title": "meine Mutter",
       "exercise": {
         "id": "ex-free-mi-madre",
+        "stable_id": "ex-ms9433gp11vsq",
         "type": "free_text",
         "prompt": "Schreibe auf Spanisch: 'meine Mutter'.",
         "card_ids": [
@@ -390,6 +414,7 @@
       "title": "unsere Kinder",
       "exercise": {
         "id": "ex-free-nuestros-hijos",
+        "stable_id": "ex-ms9433gp11w2u",
         "type": "free_text",
         "prompt": "Schreibe auf Spanisch: 'unsere Kinder' (unsere Söhne).",
         "card_ids": [
@@ -417,6 +442,7 @@
       "title": "Lücke füllen: mein",
       "exercise": {
         "id": "ex-cloze-mi",
+        "stable_id": "ex-ms9433gp11x8j",
         "type": "cloze",
         "prompt": "Ergänze den Possessivbegleiter für 'mein'.",
         "card_ids": [
@@ -443,6 +469,7 @@
       "title": "Lücke füllen: unsere",
       "exercise": {
         "id": "ex-cloze-nuestros",
+        "stable_id": "ex-ms9433gp11y1c",
         "type": "cloze",
         "prompt": "Ergänze den Possessivbegleiter für 'unsere'.",
         "card_ids": [
@@ -469,6 +496,7 @@
       "title": "Lücke füllen: ihre",
       "exercise": {
         "id": "ex-cloze-sus",
+        "stable_id": "ex-ms9433gp11zdt",
         "type": "cloze",
         "prompt": "Ergänze den Possessivbegleiter für 'ihre' (von ihr).",
         "card_ids": [
@@ -495,6 +523,7 @@
       "title": "Satz bauen: Meine Schwester ist groß.",
       "exercise": {
         "id": "ex-tile-hermana",
+        "stable_id": "ex-ms9433gp1209s",
         "type": "word_tiles",
         "prompt": "Setze den Satz 'Meine Schwester ist groß.' zusammen.",
         "card_ids": [
@@ -518,6 +547,7 @@
       "title": "Satz bauen: Unser Haus ist groß.",
       "exercise": {
         "id": "ex-tile-casa",
+        "stable_id": "ex-ms9433gp121i8",
         "type": "word_tiles",
         "prompt": "Setze den Satz 'Unser Haus ist groß.' zusammen.",
         "card_ids": [
@@ -540,6 +570,7 @@
       "title": "Angleichung zuordnen",
       "exercise": {
         "id": "ex-match-agreement",
+        "stable_id": "ex-ms9433gp1228i",
         "type": "matching",
         "prompt": "Ordne die spanischen Wendungen ihrer Bedeutung zu (achte auf die Angleichung).",
         "card_ids": [

@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "a-casa",
+      "stable_id": "card-ms9433iz385c5",
       "front": "a casa",
       "back": "das Haus / zu Hause",
       "notes": "Kontext: Estou em casa. – Ich bin zu Hause.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "o-trabalho",
+      "stable_id": "card-ms9433iz38668",
       "front": "o trabalho",
       "back": "die Arbeit",
       "notes": "Kontext: Vou para o trabalho. – Ich gehe zur Arbeit. Verb: trabalhar (arbeiten).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "a-escola",
+      "stable_id": "card-ms9433iz38777",
       "front": "a escola",
       "back": "die Schule",
       "notes": "Kontext: As crianças vão à escola. – Die Kinder gehen zur Schule.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "o-amigo",
+      "stable_id": "card-ms9433iz38818",
       "front": "o amigo",
       "back": "der Freund",
       "notes": "Kontext: Meu amigo mora aqui. – Mein Freund wohnt hier. Weiblich: a amiga.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "a-cidade2",
+      "stable_id": "card-ms9433iz389ux",
       "front": "a cidade",
       "back": "die Stadt",
       "notes": "Kontext: Rio é uma cidade grande. – Rio ist eine große Stadt.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "o-carro",
+      "stable_id": "card-ms9433iz38a1u",
       "front": "o carro",
       "back": "das Auto",
       "notes": "Kontext: Vou de carro. – Ich fahre mit dem Auto.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "o-celular",
+      "stable_id": "card-ms9433iz38b7u",
       "front": "o celular",
       "back": "das Handy",
       "notes": "Kontext: Cadê meu celular? – Wo ist mein Handy? BR: celular, PT: telemóvel.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "o-trabalho-verb",
+      "stable_id": "card-ms9433iz38chr",
       "front": "trabalhar",
       "back": "arbeiten",
       "notes": "Kontext: Eu trabalho de segunda a sexta. – Ich arbeite von Montag bis Freitag.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "morar",
+      "stable_id": "card-ms9433iz38dj2",
       "front": "morar",
       "back": "wohnen",
       "notes": "Kontext: Onde você mora? – Wo wohnst du?",
@@ -81,6 +90,7 @@
     },
     {
       "id": "comer",
+      "stable_id": "card-ms9433iz38eaw",
       "front": "comer",
       "back": "essen",
       "notes": "Kontext: Vou comer agora. – Ich werde jetzt essen.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "o-cafe-da-manha",
+      "stable_id": "card-ms9433iz38f5q",
       "front": "o café da manhã",
       "back": "das Frühstück",
       "notes": "Kontext: Tomo café da manhã às sete. – Ich frühstücke um sieben. BR: café da manhã, PT: pequeno-almoço.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "o-onibus2",
+      "stable_id": "card-ms9433iz38gu0",
       "front": "o ônibus",
       "back": "der Bus",
       "notes": "Kontext: Pego o ônibus para o trabalho. – Ich nehme den Bus zur Arbeit. BR: ônibus, PT: autocarro.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "cade",
+      "stable_id": "card-ms9433iz38hl6",
       "front": "Cadê...?",
       "back": "Wo ist...? (umgangssprachlich)",
       "notes": "Kontext: Cadê o cachorro? – Wo ist der Hund? Typisch brasilianische Umgangssprache.",
@@ -132,6 +145,7 @@
       "title": "Alltagswörter zuordnen",
       "exercise": {
         "id": "ex-match-alltag",
+        "stable_id": "ex-ms9433iz38i9o",
         "type": "matching",
         "prompt": "Ordne jedes portugiesische Wort der deutschen Bedeutung zu.",
         "card_ids": ["a-casa", "o-trabalho", "a-escola", "o-carro", "o-celular"],
@@ -152,6 +166,7 @@
       "title": "Handy (BR)",
       "exercise": {
         "id": "ex-free-celular",
+        "stable_id": "ex-ms9433iz38jp0",
         "type": "free_text",
         "prompt": "Wie heißt das 'Handy' in Brasilien?",
         "card_ids": ["o-celular"],
@@ -168,6 +183,7 @@
       "title": "Wohnen",
       "exercise": {
         "id": "ex-free-morar",
+        "stable_id": "ex-ms9433iz38ki0",
         "type": "free_text",
         "prompt": "Wie heißt das Verb 'wohnen' (Grundform) auf Portugiesisch?",
         "card_ids": ["morar"],
@@ -184,6 +200,7 @@
       "title": "Lücke füllen: Wo wohnst du?",
       "exercise": {
         "id": "ex-cloze-mora",
+        "stable_id": "ex-ms9433iz38l5x",
         "type": "cloze",
         "prompt": "Ergänze das Verb: 'Wo wohnst du?'",
         "card_ids": ["morar"],
@@ -200,6 +217,7 @@
       "title": "Satz zur Arbeit bauen",
       "exercise": {
         "id": "ex-tile-trabalho",
+        "stable_id": "ex-ms9433iz38myf",
         "type": "word_tiles",
         "prompt": "Baue: 'Ich gehe zur Arbeit.'",
         "card_ids": ["o-trabalho"],
@@ -215,6 +233,7 @@
       "title": "Verkehrsmittel erkennen",
       "exercise": {
         "id": "ex-pic-onibus",
+        "stable_id": "ex-ms9433iz38noq",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'der Bus' (in Brasilien)?",
         "card_ids": ["o-onibus2"],

@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "eolmayeyo",
+      "stable_id": "card-ms9433it31i94",
       "front": "얼마예요?",
       "back": "Wie viel kostet das?",
       "notes": "Romanisierung: eolmayeyo? Kontext: 이거 얼마예요? (igeo eolmayeyo?) – Wie viel kostet das hier?",
@@ -17,6 +18,7 @@
     },
     {
       "id": "bissayo",
+      "stable_id": "card-ms9433it31j49",
       "front": "비싸요",
       "back": "Es ist teuer",
       "notes": "Romanisierung: bissayo. Kontext: 너무 비싸요 (neomu bissayo) – Das ist zu teuer.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "ssayo",
+      "stable_id": "card-ms9433it31kgf",
       "front": "싸요",
       "back": "Es ist billig",
       "notes": "Romanisierung: ssayo. Kontext: 이거 정말 싸요 (igeo jeongmal ssayo) – Das ist wirklich billig.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "igeo",
+      "stable_id": "card-ms9433it31lwr",
       "front": "이거",
       "back": "dies / das hier",
       "notes": "Romanisierung: igeo. Kontext: 이거 주세요 (igeo juseyo) – Das hier, bitte. Für Dinge nah bei mir.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "geugeo",
+      "stable_id": "card-ms9433it31mrp",
       "front": "그거",
       "back": "das (bei dir)",
       "notes": "Romanisierung: geugeo. Kontext: 그거 얼마예요? (geugeo eolmayeyo?) – Wie viel kostet das (bei dir)? Für Dinge nah beim Gegenüber.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "jeogeo",
+      "stable_id": "card-ms9433it31ngh",
       "front": "저거",
       "back": "jenes (dort drüben)",
       "notes": "Romanisierung: jeogeo. Kontext: 저거 보여주세요 (jeogeo boyeojuseyo) – Zeigen Sie mir das dort. Für entfernte Dinge.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "won",
+      "stable_id": "card-ms9433it31oqe",
       "front": "원",
       "back": "Won (koreanische Währung)",
       "notes": "Romanisierung: won. Kontext: 만 원이에요 (man wonieyo) – Das kostet 10.000 Won.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "juseyo-einkaufen",
+      "stable_id": "card-ms9433it31pzx",
       "front": "주세요",
       "back": "Ich nehme / Bitte geben Sie mir",
       "notes": "Romanisierung: juseyo. Kontext: 이거 주세요 (igeo juseyo) – Das hier nehme ich.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "kkakka-juseyo",
+      "stable_id": "card-ms9433it31qtc",
       "front": "깎아 주세요",
       "back": "Geben Sie mir bitte einen Rabatt",
       "notes": "Romanisierung: kkakka juseyo. Kontext: 조금 깎아 주세요 (jogeum kkakka juseyo) – Geben Sie mir bitte etwas Rabatt.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "eopseoyo",
+      "stable_id": "card-ms9433it31rsu",
       "front": "없어요",
       "back": "gibt es nicht / ist nicht da",
       "notes": "Romanisierung: eopseoyo. Kontext: 지금 없어요 (jigeum eopseoyo) – Im Moment nicht vorhanden.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "isseoyo",
+      "stable_id": "card-ms9433it31san",
       "front": "있어요",
       "back": "gibt es / ist da",
       "notes": "Romanisierung: isseoyo. Kontext: 이거 있어요? (igeo isseoyo?) – Haben Sie das?",
@@ -97,6 +108,7 @@
     },
     {
       "id": "manwon",
+      "stable_id": "card-ms9433it31tq8",
       "front": "만 원",
       "back": "zehntausend Won",
       "notes": "Romanisierung: man won. Kontext: 이거 만 원이에요 (igeo man wonieyo) – Das kostet 10.000 Won.",
@@ -124,6 +136,7 @@
       "title": "Wörter zuordnen",
       "exercise": {
         "id": "ex-match-einkaufen",
+        "stable_id": "ex-ms9433it31ufv",
         "type": "matching",
         "prompt": "Ordne jedem koreanischen Wort die deutsche Bedeutung zu.",
         "card_ids": ["igeo", "geugeo", "jeogeo", "won"],
@@ -143,6 +156,7 @@
       "title": "Nach dem Preis fragen",
       "exercise": {
         "id": "ex-free-wieviel",
+        "stable_id": "ex-ms9433it31vyl",
         "type": "free_text",
         "prompt": "Wie fragt man 'Wie viel kostet das?' (Hangul oder Romanisierung)",
         "card_ids": ["eolmayeyo"],
@@ -159,6 +173,7 @@
       "title": "Es ist teuer",
       "exercise": {
         "id": "ex-free-teuer",
+        "stable_id": "ex-ms9433it31wnm",
         "type": "free_text",
         "prompt": "Wie sagt man 'Es ist teuer'? (Hangul oder Romanisierung)",
         "card_ids": ["bissayo"],
@@ -175,6 +190,7 @@
       "title": "Lücke füllen: das hier",
       "exercise": {
         "id": "ex-cloze-das-hier",
+        "stable_id": "ex-ms9433it31xqd",
         "type": "cloze",
         "prompt": "Du zeigst auf etwas nah bei dir und fragst nach dem Preis. Ergänze das Demonstrativwort.",
         "card_ids": ["igeo", "eolmayeyo"],
@@ -191,6 +207,7 @@
       "title": "Zu teuer!",
       "exercise": {
         "id": "ex-tiles-zu-teuer",
+        "stable_id": "ex-ms9433it31yrv",
         "type": "word_tiles",
         "prompt": "Baue den Satz 'Das ist zu teuer.'",
         "card_ids": ["bissayo"],
@@ -206,6 +223,7 @@
       "title": "Billig erkennen",
       "exercise": {
         "id": "ex-pick-billig",
+        "stable_id": "ex-ms9433it31ztf",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'Es ist billig'?",
         "card_ids": ["ssayo"],

@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "fr-b1-sub-rule",
+      "stable_id": "card-ms9433kx529wr",
       "front": "ils parlent → que je parle",
       "back": "build the subjunctive from the ils-form: drop -ent, add -e, -es, -e, -ions, -iez, -ent",
       "notes": "Take the **ils** present form (*parlent*, *finissent*, *vendent*), drop **-ent**, and add the subjunctive endings.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "fr-b1-sub-endings",
+      "stable_id": "card-ms9433kx52ax0",
       "front": "-e, -es, -e, -ions, -iez, -ent",
       "back": "the present-subjunctive endings (all regular verbs)",
       "notes": "Nous/vous look like the imparfait (*que nous parlions*, *que vous parliez*).",
@@ -27,6 +29,7 @@
     },
     {
       "id": "fr-b1-sub-faire",
+      "stable_id": "card-ms9433kx52b7l",
       "front": "que je fasse",
       "back": "(that) I do / make — subjunctive of faire",
       "notes": "Irregular stem **fass-**: que je fasse, que tu fasses, qu'il fasse…",
@@ -36,6 +39,7 @@
     },
     {
       "id": "fr-b1-sub-aller",
+      "stable_id": "card-ms9433kx52csu",
       "front": "que j'aille",
       "back": "(that) I go — subjunctive of aller",
       "notes": "Irregular: aille, ailles, aille, **allions, alliez**, aillent.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "fr-b1-sub-etre-avoir",
+      "stable_id": "card-ms9433kx52d1f",
       "front": "que je sois / que j'aie",
       "back": "subjunctive of être (sois) and avoir (aie)",
       "notes": "être: sois, sois, soit, soyons, soyez, soient. avoir: aie, aies, ait, ayons, ayez, aient.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "fr-b1-il-faut-que",
+      "stable_id": "card-ms9433kx52ey0",
       "front": "Il faut que",
       "back": "It is necessary that… (+ subjunctive)",
       "notes": "The classic trigger: *Il faut que je parte.* — I have to leave.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "fr-b1-vouloir-que",
+      "stable_id": "card-ms9433kx52f32",
       "front": "Je veux que tu viennes.",
       "back": "I want you to come.",
       "notes": "*vouloir que* + subjunctive when the subject changes. No infinitive as in English.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "fr-b1-bien-que",
+      "stable_id": "card-ms9433kx52gqu",
       "front": "bien que",
       "back": "although (+ subjunctive)",
       "notes": "*Bien qu'il soit fatigué, il travaille.* — Although he is tired, he works.",
@@ -81,6 +89,7 @@
     },
     {
       "id": "fr-b1-pour-que",
+      "stable_id": "card-ms9433kx52huf",
       "front": "pour que",
       "back": "so that (+ subjunctive)",
       "notes": "*Je t'explique pour que tu comprennes.* — I explain so that you understand.",
@@ -109,6 +118,7 @@
       "title": "Match the irregular subjunctives",
       "exercise": {
         "id": "ex-match-irregulars",
+        "stable_id": "ex-ms9433kx52io7",
         "type": "matching",
         "prompt": "Match each infinitive with its (irregular) je-subjunctive form.",
         "card_ids": ["fr-b1-sub-faire", "fr-b1-sub-aller", "fr-b1-sub-etre-avoir"],
@@ -128,6 +138,7 @@
       "title": "After il faut que",
       "exercise": {
         "id": "ex-cloze-il-faut",
+        "stable_id": "ex-ms9433kx52j2e",
         "type": "cloze",
         "prompt": "Fill in the subjunctive of partir (je): \"It is necessary that I leave.\"",
         "card_ids": ["fr-b1-il-faut-que"],
@@ -144,6 +155,7 @@
       "title": "The change-of-subject trap",
       "exercise": {
         "id": "ex-free-want-you-come",
+        "stable_id": "ex-ms9433kx52kj5",
         "type": "free_text",
         "prompt": "Translate: *I want you to come.* (change of subject → que + subjunctive)",
         "card_ids": ["fr-b1-vouloir-que"],
@@ -160,6 +172,7 @@
       "title": "Concession with bien que",
       "exercise": {
         "id": "ex-cloze-bien-que",
+        "stable_id": "ex-ms9433kx52lhu",
         "type": "cloze",
         "prompt": "Fill in the subjunctive of être (il): \"Although he is tired, he works.\"",
         "card_ids": ["fr-b1-bien-que", "fr-b1-sub-etre-avoir"],
@@ -176,6 +189,7 @@
       "title": "Build a purpose clause",
       "exercise": {
         "id": "ex-tiles-pour-que",
+        "stable_id": "ex-ms9433kx52m01",
         "type": "word_tiles",
         "prompt": "Arrange: *I explain so that you understand.* (pour que + subjunctive)",
         "card_ids": ["fr-b1-pour-que"],
@@ -191,6 +205,7 @@
       "title": "Necessity + faire",
       "exercise": {
         "id": "ex-free-must-do-it",
+        "stable_id": "ex-ms9433kx52n2t",
         "type": "free_text",
         "prompt": "Translate: *I have to do it.* (Il faut que… + faire, je)",
         "card_ids": ["fr-b1-il-faut-que", "fr-b1-sub-faire"],

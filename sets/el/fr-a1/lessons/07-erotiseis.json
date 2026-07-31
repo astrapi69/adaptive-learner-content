@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "ca-va",
+      "stable_id": "card-ms9433j73h09e",
       "front": "Comment ça va ?",
       "back": "Τι κάνεις; / Πώς πάει;",
       "notes": "Πολύ συχνή ανεπίσημη ερώτηση.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "ca-va-bien",
+      "stable_id": "card-ms9433j73h1u4",
       "front": "Ça va bien.",
       "back": "Καλά (είμαι καλά).",
       "notes": "Τυπική απάντηση στο «comment ça va ?».",
@@ -26,6 +28,7 @@
     },
     {
       "id": "ou",
+      "stable_id": "card-ms9433j73h23v",
       "front": "où",
       "back": "πού",
       "notes": "Με τόνο βαρεία: où (για να ξεχωρίζει από το «ou» = ή).",
@@ -35,6 +38,7 @@
     },
     {
       "id": "qui",
+      "stable_id": "card-ms9433j73h3df",
       "front": "qui",
       "back": "ποιος",
       "tags": [
@@ -43,6 +47,7 @@
     },
     {
       "id": "quest-ce",
+      "stable_id": "card-ms9433j73h4ie",
       "front": "Qu'est-ce que c'est ?",
       "back": "Τι είναι αυτό;",
       "notes": "Πολύ συχνή έκφραση· πρόσεξε τις εκθλίψεις.",
@@ -52,6 +57,7 @@
     },
     {
       "id": "oui",
+      "stable_id": "card-ms9433j73h5va",
       "front": "oui",
       "back": "ναι",
       "tags": [
@@ -60,6 +66,7 @@
     },
     {
       "id": "non",
+      "stable_id": "card-ms9433j73h620",
       "front": "non",
       "back": "όχι",
       "tags": [
@@ -68,6 +75,7 @@
     },
     {
       "id": "pourquoi",
+      "stable_id": "card-ms9433j73h707",
       "front": "pourquoi",
       "back": "γιατί",
       "tags": [
@@ -100,6 +108,7 @@
       "title": "Ερωτηματικές λέξεις",
       "exercise": {
         "id": "ex-match-erot",
+        "stable_id": "ex-ms9433j73h8mc",
         "type": "matching",
         "prompt": "Αντιστοίχισε κάθε γαλλική λέξη με τη σημασία της.",
         "card_ids": [
@@ -135,6 +144,7 @@
       "title": "Πώς ρωτάς ανεπίσημα «τι κάνεις;»",
       "exercise": {
         "id": "ex-mc-cava",
+        "stable_id": "ex-ms9433j73h9o9",
         "type": "cloze",
         "prompt": "Πώς ρωτάς ανεπίσημα «τι κάνεις;»",
         "card_ids": [
@@ -163,6 +173,7 @@
       "title": "Ποια είναι μια σωστή απάντηση στο «Comment ça va ?»",
       "exercise": {
         "id": "ex-mc-apantisi",
+        "stable_id": "ex-ms9433j73has2",
         "type": "cloze",
         "prompt": "Ποια είναι μια σωστή απάντηση στο «Comment ça va ?»",
         "card_ids": [
@@ -191,6 +202,7 @@
       "title": "Ποια λέξη σημαίνει «πού»;",
       "exercise": {
         "id": "ex-mc-pou",
+        "stable_id": "ex-ms9433j73hbmz",
         "type": "cloze",
         "prompt": "Ποια λέξη σημαίνει «πού»;",
         "card_ids": [
@@ -219,6 +231,7 @@
       "title": "Πώς ρωτάς «τι είναι αυτό;»",
       "exercise": {
         "id": "ex-mc-ti-einai",
+        "stable_id": "ex-ms9433j73hc3n",
         "type": "cloze",
         "prompt": "Πώς ρωτάς «τι είναι αυτό;»",
         "card_ids": [
@@ -247,6 +260,7 @@
       "title": "Ναι",
       "exercise": {
         "id": "ex-clz-oui",
+        "stable_id": "ex-ms9433j73hdlw",
         "type": "cloze",
         "prompt": "Γράψε «ναι» στα γαλλικά.",
         "card_ids": [
@@ -271,6 +285,7 @@
       "title": "Όχι",
       "exercise": {
         "id": "ex-clz-non",
+        "stable_id": "ex-ms9433j73hesl",
         "type": "cloze",
         "prompt": "Γράψε «όχι» στα γαλλικά.",
         "card_ids": [
@@ -295,6 +310,7 @@
       "title": "Ποια λέξη σημαίνει «γιατί»;",
       "exercise": {
         "id": "ex-mc-pourquoi",
+        "stable_id": "ex-ms9433j73hffl",
         "type": "cloze",
         "prompt": "Ποια λέξη σημαίνει «γιατί»;",
         "card_ids": [

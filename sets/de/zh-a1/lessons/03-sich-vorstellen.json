@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "wo-jiao",
+      "stable_id": "card-ms9433j13a7em",
       "front": "我叫",
       "back": "Ich heiße ...",
       "notes": "Pinyin: wǒ jiào. Kontext: 我 叫 安娜 (wǒ jiào Ānnà) – Ich heiße Anna.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "wo-shi",
+      "stable_id": "card-ms9433j13a8u8",
       "front": "我是",
       "back": "Ich bin ...",
       "notes": "Pinyin: wǒ shì. Kontext: 我 是 德国人 (wǒ shì Déguórén) – Ich bin Deutsche(r).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "ni-jiao-shenme",
+      "stable_id": "card-ms9433j13a9z2",
       "front": "你叫什么名字",
       "back": "Wie heißt du?",
       "notes": "Pinyin: nǐ jiào shénme míngzi. Kontext: 你 叫 什么 名字 ？ (nǐ jiào shénme míngzi?) – Wie heißt du?",
@@ -33,6 +36,7 @@
     },
     {
       "id": "mingzi",
+      "stable_id": "card-ms9433j13aaq3",
       "front": "名字",
       "back": "Name",
       "notes": "Pinyin: míngzi (zweites zi neutral). Kontext: 我 的 名字 (wǒ de míngzi) – mein Name.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "shenme",
+      "stable_id": "card-ms9433j13abr8",
       "front": "什么",
       "back": "was / welche(r)",
       "notes": "Pinyin: shénme. Kontext: 这 是 什么 ？ (zhè shì shénme?) – Was ist das?",
@@ -49,6 +54,7 @@
     },
     {
       "id": "renshi-ni",
+      "stable_id": "card-ms9433j13acqx",
       "front": "认识你很高兴",
       "back": "Schön, dich kennenzulernen.",
       "notes": "Pinyin: rènshi nǐ hěn gāoxìng. Kontext: 认识 你 很 高兴 ！ (rènshi nǐ hěn gāoxìng!) – Freut mich, dich kennenzulernen!",
@@ -57,6 +63,7 @@
     },
     {
       "id": "deguoren",
+      "stable_id": "card-ms9433j13adsy",
       "front": "德国人",
       "back": "Deutsche(r)",
       "notes": "Pinyin: Déguórén. 德国 (Deutschland) + 人 (Mensch). Kontext: 我 是 德国人 (wǒ shì Déguórén) – Ich bin Deutsche(r).",
@@ -65,6 +72,7 @@
     },
     {
       "id": "zhongguoren",
+      "stable_id": "card-ms9433j13aen7",
       "front": "中国人",
       "back": "Chinese / Chinesin",
       "notes": "Pinyin: Zhōngguórén. 中国 (China) + 人. Kontext: 他 是 中国人 (tā shì Zhōngguórén) – Er ist Chinese.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "ta-er",
+      "stable_id": "card-ms9433j13af2s",
       "front": "他",
       "back": "er",
       "notes": "Pinyin: tā (1. Ton). Kontext: 他 是 老师 (tā shì lǎoshī) – Er ist Lehrer.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "ta-sie",
+      "stable_id": "card-ms9433j13ag9w",
       "front": "她",
       "back": "sie",
       "notes": "Pinyin: tā (1. Ton, gleich ausgesprochen wie 他). Kontext: 她 是 学生 (tā shì xuésheng) – Sie ist Schülerin.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "ne-frage",
+      "stable_id": "card-ms9433j13ahx6",
       "front": "你呢",
       "back": "Und du?",
       "notes": "Pinyin: nǐ ne. Kontext: 我 是 学生 ， 你 呢 ？ (wǒ shì xuésheng, nǐ ne?) – Ich bin Schüler, und du?",
@@ -97,6 +108,7 @@
     },
     {
       "id": "de-possessiv",
+      "stable_id": "card-ms9433j13aipm",
       "front": "的",
       "back": "Besitzpartikel (von / -s)",
       "notes": "Pinyin: de (neutraler Ton). Kontext: 我 的 名字 (wǒ de míngzi) – mein Name.",
@@ -124,6 +136,7 @@
       "title": "Ausdrücke zuordnen",
       "exercise": {
         "id": "ex-match-vorstellen",
+        "stable_id": "ex-ms9433j13ajip",
         "type": "matching",
         "prompt": "Ordne jedem Ausdruck die deutsche Bedeutung zu.",
         "card_ids": ["wo-jiao", "wo-shi", "mingzi", "deguoren"],
@@ -143,6 +156,7 @@
       "title": "Ich heiße ...",
       "exercise": {
         "id": "ex-free-ichheisse",
+        "stable_id": "ex-ms9433j13akp7",
         "type": "free_text",
         "prompt": "Wie beginnt man 'Ich heiße ...' auf Chinesisch (Hanzi oder Pinyin)?",
         "card_ids": ["wo-jiao"],
@@ -159,6 +173,7 @@
       "title": "Nach dem Namen fragen",
       "exercise": {
         "id": "ex-cloze-frage-name",
+        "stable_id": "ex-ms9433j13albg",
         "type": "cloze",
         "prompt": "Ergänze das Fragewort.",
         "card_ids": ["ni-jiao-shenme", "shenme", "mingzi"],
@@ -175,6 +190,7 @@
       "title": "Ich bin Deutsche(r)",
       "exercise": {
         "id": "ex-tiles-deutsche",
+        "stable_id": "ex-ms9433j13am7g",
         "type": "word_tiles",
         "prompt": "Setze 'Ich bin Deutsche(r).' zusammen.",
         "card_ids": ["wo-shi", "deguoren"],
@@ -190,6 +206,7 @@
       "title": "Und du?",
       "exercise": {
         "id": "ex-free-undu",
+        "stable_id": "ex-ms9433j13anvf",
         "type": "free_text",
         "prompt": "Wie fragt man kurz zurück 'Und du?' (Hanzi oder Pinyin)?",
         "card_ids": ["ne-frage"],
@@ -206,6 +223,7 @@
       "title": "Wer ist Chinese?",
       "exercise": {
         "id": "ex-pic-chinese",
+        "stable_id": "ex-ms9433j13aot7",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'Chinese / Chinesin'?",
         "card_ids": ["zhongguoren"],

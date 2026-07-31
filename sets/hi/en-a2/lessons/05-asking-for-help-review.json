@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "en-a2-can-you-help",
+      "stable_id": "card-ms9433l35b1a1",
       "front": "Can you help me?",
       "back": "क्या आप मेरी मदद कर सकते हैं?",
       "notes": "*Can* + you + base verb. Everyday, friendly request.",
@@ -13,6 +14,7 @@
     },
     {
       "id": "en-a2-could-you",
+      "stable_id": "card-ms9433l35b2ph",
       "front": "Could you repeat that?",
       "back": "क्या आप उसे दोहरा सकते हैं?",
       "notes": "*Could* is more polite than *can* for a request.",
@@ -20,6 +22,7 @@
     },
     {
       "id": "en-a2-would-like",
+      "stable_id": "card-ms9433l35b3lr",
       "front": "I would like a ticket.",
       "back": "मुझे एक टिकट चाहिए।",
       "notes": "*I would like* (= I'd like) is more polite than *I want*.",
@@ -27,6 +30,7 @@
     },
     {
       "id": "en-a2-how-much",
+      "stable_id": "card-ms9433l35b456",
       "front": "How much is it?",
       "back": "यह कितने का है?",
       "notes": "Ask the price of one thing.",
@@ -34,6 +38,7 @@
     },
     {
       "id": "en-a2-excuse-me",
+      "stable_id": "card-ms9433l35b500",
       "front": "Excuse me",
       "back": "माफ़ कीजिए / सुनिए",
       "notes": "Use it to get attention before asking for help.",
@@ -41,6 +46,7 @@
     },
     {
       "id": "en-a2-where-is",
+      "stable_id": "card-ms9433l35b69x",
       "front": "Where is the station?",
       "back": "स्टेशन कहाँ है?",
       "notes": "Ask for a place. *Where is …?*",
@@ -48,6 +54,7 @@
     },
     {
       "id": "en-a2-i-dont-understand",
+      "stable_id": "card-ms9433l35b7ah",
       "front": "I don't understand.",
       "back": "मैं नहीं समझा।",
       "notes": "Useful when you need help. Present simple negative with *don't*.",
@@ -74,6 +81,7 @@
       "title": "Match the phrases",
       "exercise": {
         "id": "l5-ex-match-requests",
+        "stable_id": "ex-ms9433l35b8vv",
         "type": "matching",
         "prompt": "Match each English phrase with its Hindi meaning.",
         "card_ids": ["en-a2-can-you-help", "en-a2-how-much", "en-a2-where-is", "en-a2-excuse-me"],
@@ -93,6 +101,7 @@
       "title": "Be extra polite",
       "exercise": {
         "id": "l5-ex-cloze-could",
+        "stable_id": "ex-ms9433l35b9d6",
         "type": "cloze",
         "prompt": "Complete the polite request: \"___ you repeat that, please?\"",
         "card_ids": ["en-a2-could-you"],
@@ -109,6 +118,7 @@
       "title": "Ask politely for something",
       "exercise": {
         "id": "l5-ex-free-would-like",
+        "stable_id": "ex-ms9433l35bacr",
         "type": "free_text",
         "prompt": "Give the polite phrase for \"I want …\" used in a shop (\"I ___ a ticket\").",
         "card_ids": ["en-a2-would-like"],
@@ -125,6 +135,7 @@
       "title": "Build a request",
       "exercise": {
         "id": "l5-ex-tiles-help",
+        "stable_id": "ex-ms9433l35bbeo",
         "type": "word_tiles",
         "prompt": "Arrange to mean: क्या आप मेरी मदद कर सकते हैं? (Can you help me?)",
         "card_ids": ["en-a2-can-you-help"],
@@ -140,6 +151,7 @@
       "title": "Review: the past simple",
       "exercise": {
         "id": "l5-ex-cloze-review-past",
+        "stable_id": "ex-ms9433l35bcax",
         "type": "cloze",
         "prompt": "Complete: \"I ___ a ticket yesterday.\" (buy, past)",
         "card_ids": ["en-a2-how-much"],
@@ -156,6 +168,7 @@
       "title": "Say you need help",
       "exercise": {
         "id": "l5-ex-free-understand",
+        "stable_id": "ex-ms9433l35bdyy",
         "type": "free_text",
         "prompt": "How do you say \"मैं नहीं समझा।\" in English?",
         "card_ids": ["en-a2-i-dont-understand"],

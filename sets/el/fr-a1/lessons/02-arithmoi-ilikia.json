@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "un",
+      "stable_id": "card-ms9433j43epde",
       "front": "un",
       "back": "ένα (1)",
       "notes": "Είναι και το αρσενικό αόριστο άρθρο («ένας»).",
@@ -17,6 +18,7 @@
     },
     {
       "id": "deux",
+      "stable_id": "card-ms9433j43eq35",
       "front": "deux",
       "back": "δύο (2)",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "trois",
+      "stable_id": "card-ms9433j43ergs",
       "front": "trois",
       "back": "τρία (3)",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "quatre",
+      "stable_id": "card-ms9433j43esbh",
       "front": "quatre",
       "back": "τέσσερα (4)",
       "tags": [
@@ -41,6 +45,7 @@
     },
     {
       "id": "cinq",
+      "stable_id": "card-ms9433j43etov",
       "front": "cinq",
       "back": "πέντε (5)",
       "tags": [
@@ -49,6 +54,7 @@
     },
     {
       "id": "dix",
+      "stable_id": "card-ms9433j43eukd",
       "front": "dix",
       "back": "δέκα (10)",
       "tags": [
@@ -57,6 +63,7 @@
     },
     {
       "id": "vingt",
+      "stable_id": "card-ms9433j43evzs",
       "front": "vingt",
       "back": "είκοσι (20)",
       "notes": "Το τελικό «t» δεν προφέρεται.",
@@ -66,6 +73,7 @@
     },
     {
       "id": "jai-ans",
+      "stable_id": "card-ms9433j43ewno",
       "front": "J'ai … ans.",
       "back": "Είμαι … χρονών.",
       "notes": "Κυριολεκτικά «έχω … χρόνια»: οι Γάλλοι λένε την ηλικία με το ρήμα «έχω».",
@@ -75,6 +83,7 @@
     },
     {
       "id": "quel-age",
+      "stable_id": "card-ms9433j43exq1",
       "front": "Quel âge as-tu ?",
       "back": "Πόσων χρονών είσαι;",
       "notes": "Ανεπίσημη ερώτηση για την ηλικία (τύπος «tu»).",
@@ -108,6 +117,7 @@
       "title": "Αριθμοί 1-5",
       "exercise": {
         "id": "ex-match-1-5",
+        "stable_id": "ex-ms9433j43eyfk",
         "type": "matching",
         "prompt": "Αντιστοίχισε κάθε γαλλικό αριθμό με την τιμή του.",
         "card_ids": [
@@ -148,6 +158,7 @@
       "title": "Ποιος αριθμός σημαίνει «δέκα»;",
       "exercise": {
         "id": "ex-mc-dix",
+        "stable_id": "ex-ms9433j43ezv5",
         "type": "cloze",
         "prompt": "Ποιος αριθμός σημαίνει «δέκα»;",
         "card_ids": [
@@ -176,6 +187,7 @@
       "title": "Πώς λες «είκοσι» στα γαλλικά;",
       "exercise": {
         "id": "ex-mc-vingt",
+        "stable_id": "ex-ms9433j43f0h8",
         "type": "cloze",
         "prompt": "Πώς λες «είκοσι» στα γαλλικά;",
         "card_ids": [
@@ -204,6 +216,7 @@
       "title": "Πώς λες «είμαι είκοσι χρονών»;",
       "exercise": {
         "id": "ex-mc-ilikia",
+        "stable_id": "ex-ms9433j43f1g8",
         "type": "cloze",
         "prompt": "Πώς λες «είμαι είκοσι χρονών»;",
         "card_ids": [
@@ -232,6 +245,7 @@
       "title": "Πώς ρωτάς ανεπίσημα «πόσων χρονών είσαι;»",
       "exercise": {
         "id": "ex-mc-erotisi-ilikia",
+        "stable_id": "ex-ms9433j43f2dm",
         "type": "cloze",
         "prompt": "Πώς ρωτάς ανεπίσημα «πόσων χρονών είσαι;»",
         "card_ids": [
@@ -260,6 +274,7 @@
       "title": "Γράψε τον αριθμό",
       "exercise": {
         "id": "ex-clz-cinq",
+        "stable_id": "ex-ms9433j43f3un",
         "type": "cloze",
         "prompt": "Γράψε τον αριθμό «πέντε» στα γαλλικά.",
         "card_ids": [
@@ -284,6 +299,7 @@
       "title": "Η ηλικία",
       "exercise": {
         "id": "ex-clz-ans",
+        "stable_id": "ex-ms9433j43f4r2",
         "type": "cloze",
         "prompt": "Συμπλήρωσε τη λέξη που λείπει: «J'ai dix ___.» (είμαι δέκα χρονών)",
         "card_ids": [
@@ -307,6 +323,7 @@
       "title": "Ποιος αριθμός είναι «τρία»;",
       "exercise": {
         "id": "ex-mc-trois",
+        "stable_id": "ex-ms9433j43f5e3",
         "type": "cloze",
         "prompt": "Ποιος αριθμός είναι «τρία»;",
         "card_ids": [
@@ -335,6 +352,7 @@
       "title": "Ποιος αριθμός είναι «τέσσερα»;",
       "exercise": {
         "id": "ex-mc-quatre",
+        "stable_id": "ex-ms9433j43f6a0",
         "type": "cloze",
         "prompt": "Ποιος αριθμός είναι «τέσσερα»;",
         "card_ids": [

@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "card-vacances",
+      "stable_id": "card-ms9433i127ru1",
       "front": "les vacances",
       "back": "die Ferien / der Urlaub",
       "notes": "Immer im **Plural**: *les vacances*. *Pendant les vacances* — während der Ferien. Im Text: *Mes vacances en Bretagne*.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "card-arriver",
+      "stable_id": "card-ms9433i127ssa",
       "front": "arriver",
       "back": "ankommen / anreisen",
       "notes": "Bildet im passé composé mit **être**: *je suis arrivé(e)*. Im Text: *Nous sommes arrivés un lundi matin.* — Wir sind an einem Montagmorgen angekommen.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "card-il-faisait",
+      "stable_id": "card-ms9433i127tfh",
       "front": "il faisait beau",
       "back": "das Wetter war schön (imparfait)",
       "notes": "**Imparfait** von *faire* in der Wendung *il fait beau* (es ist schönes Wetter). Drückt den anhaltenden Hintergrund aus — typisch für Beschreibungen in der Vergangenheit.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "card-se-promener",
+      "stable_id": "card-ms9433i127uq3",
       "front": "se promener",
       "back": "spazieren gehen / einen Spaziergang machen",
       "notes": "Reflexives Verb. Passé composé: *nous nous sommes promenés* — wir haben einen Spaziergang gemacht. Bildet mit **être**.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "card-gouter",
+      "stable_id": "card-ms9433i127vlo",
       "front": "goûter",
       "back": "kosten / probieren / schmecken",
       "notes": "Passé composé mit **avoir**: *j'ai goûté*. Im Text probiert die Erzählerin lokale Spezialitäten. Verwandte Nomen: *le goût* (der Geschmack), *le goûter* (die Jause/der Nachmittagsimbiss).",
@@ -51,6 +56,7 @@
     },
     {
       "id": "card-meme-si",
+      "stable_id": "card-ms9433i127w8g",
       "front": "même si",
       "back": "auch wenn / selbst wenn",
       "notes": "Konzessive Konjunktion — leitet einen Nebensatz ein, der einem Widerspruch oder einer Einschränkung Ausdruck verleiht. *Même s'il pleuvait, nous sortions.* — Auch wenn es regnete, gingen wir hinaus.",
@@ -60,6 +66,7 @@
     },
     {
       "id": "card-pourtant",
+      "stable_id": "card-ms9433i127xn2",
       "front": "pourtant",
       "back": "trotzdem / dennoch",
       "notes": "Adversatives Adverb — steht meist am Satzbeginn oder nach dem Komma. *Il faisait froid, pourtant nous étions heureux.* — Es war kalt, trotzdem waren wir glücklich.",
@@ -69,6 +76,7 @@
     },
     {
       "id": "card-la-cote",
+      "stable_id": "card-ms9433i127yq7",
       "front": "la côte",
       "back": "die Küste",
       "notes": "Das Zirkumflex (accent circonflexe) auf dem **ô** ist Teil der Schreibung — nicht vergessen! *La côte bretonne* — die bretonische Küste.",
@@ -78,6 +86,7 @@
     },
     {
       "id": "card-en-plus",
+      "stable_id": "card-ms9433i127z09",
       "front": "en plus",
       "back": "außerdem / dazu noch / obendrein",
       "notes": "Additives Adverb, das eine weitere Information hinzufügt. Steht oft am Satzbeginn: *En plus, le restaurant était pas cher.* — Außerdem war das Restaurant preiswert.",
@@ -87,6 +96,7 @@
     },
     {
       "id": "card-ne-jamais",
+      "stable_id": "card-ms9433i128084",
       "front": "ne … jamais",
       "back": "nie / niemals (Verneinung)",
       "notes": "Verneinungsstruktur: *ne* vor dem Verb, *jamais* danach. Im passé composé steht *jamais* zwischen Hilfsverb und Partizip: *Je n'avais jamais vu la mer.* — Ich hatte das Meer noch nie gesehen.",
@@ -96,6 +106,7 @@
     },
     {
       "id": "card-projet",
+      "stable_id": "card-ms9433i1281bz",
       "front": "un projet",
       "back": "ein Plan / ein Vorhaben / ein Projekt",
       "notes": "Im Text kündigt die Erzählerin zukünftige Pläne an (futur simple). *Nous avons des projets.* — Wir haben Pläne. Verwandtes Verb: *projeter* — planen, beabsichtigen.",
@@ -105,6 +116,7 @@
     },
     {
       "id": "card-retourner",
+      "stable_id": "card-ms9433i12826h",
       "front": "retourner",
       "back": "zurückgehen / zurückkehren",
       "notes": "Bildet im passé composé mit **être**: *je suis retourné(e)*. Im Text (futur): *nous retournerons* — wir werden zurückkehren. Präfix *re-* = Wiederholung.",
@@ -139,6 +151,7 @@
       "title": "Vokabular aus dem Text zuordnen",
       "exercise": {
         "id": "ex-match-vocab",
+        "stable_id": "ex-ms9433i1283us",
         "type": "matching",
         "prompt": "Ordne jedem französischen Ausdruck aus dem Text seine deutsche Bedeutung zu.",
         "card_ids": ["card-vacances", "card-la-cote", "card-pourtant", "card-en-plus", "card-meme-si"],
@@ -159,6 +172,7 @@
       "title": "Zeitform erkennen",
       "exercise": {
         "id": "ex-match-zeitform",
+        "stable_id": "ex-ms9433i1284hv",
         "type": "matching",
         "prompt": "Welche Zeitform hat jede Verbform aus dem Text? Ordne zu.",
         "card_ids": ["card-il-faisait", "card-arriver", "card-retourner"],
@@ -179,6 +193,7 @@
       "title": "Lücke füllen: Ankunft",
       "exercise": {
         "id": "ex-cloze-arrivee",
+        "stable_id": "ex-ms9433i1285zy",
         "type": "cloze",
         "prompt": "Ergänze das fehlende Wort aus dem Text (passé composé von *arriver*).",
         "card_ids": ["card-arriver"],
@@ -198,6 +213,7 @@
       "title": "Lücke füllen: Verneinung",
       "exercise": {
         "id": "ex-cloze-jamais",
+        "stable_id": "ex-ms9433i1286s6",
         "type": "cloze",
         "prompt": "Ergänze die Verneinungspartikel: *Je n'avais ___ vu la mer avant ce voyage.*",
         "card_ids": ["card-ne-jamais"],
@@ -217,6 +233,7 @@
       "title": "Leseverstehen: Wo waren sie?",
       "exercise": {
         "id": "ex-free-compreh-1",
+        "stable_id": "ex-ms9433i12879a",
         "type": "free_text",
         "prompt": "Was bedeutet dieser Satz aus dem Text auf Deutsch? *Nous sommes arrivés un lundi matin, fatigués mais contents.*",
         "card_ids": ["card-arriver"],
@@ -244,6 +261,7 @@
       "title": "Leseverstehen: Warum war das Wetter kein Problem?",
       "exercise": {
         "id": "ex-free-compreh-2",
+        "stable_id": "ex-ms9433i12882y",
         "type": "free_text",
         "prompt": "Im Text steht: *Même s'il pleuvait parfois, nous sortions quand même.* — Was bedeutet das auf Deutsch?",
         "card_ids": ["card-meme-si"],
@@ -271,6 +289,7 @@
       "title": "Übersetzen: Zukunftspläne",
       "exercise": {
         "id": "ex-free-translate-plan",
+        "stable_id": "ex-ms9433i12893h",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Wir werden vielleicht nach Bretagne zurückkehren.*",
         "card_ids": ["card-retourner"],
@@ -297,6 +316,7 @@
       "title": "Satz rekonstruieren: Crêpes",
       "exercise": {
         "id": "ex-tiles-crepes",
+        "stable_id": "ex-ms9433i128a9v",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter zum richtigen Satz: *Wir haben davon fast jeden Tag gegessen.*",
         "card_ids": ["card-vacances"],
@@ -312,6 +332,7 @@
       "title": "Satz rekonstruieren: Küstenspaziergang",
       "exercise": {
         "id": "ex-tiles-promener",
+        "stable_id": "ex-ms9433i128bu4",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter zum Satz aus dem Text: *Wir sind an der Küste spazieren gegangen.*",
         "card_ids": ["card-se-promener", "card-la-cote"],
@@ -327,6 +348,7 @@
       "title": "Bild-Wahl: Imparfait oder passé composé?",
       "exercise": {
         "id": "ex-picture-beschreibung",
+        "stable_id": "ex-ms9433i128csu",
         "type": "picture_choice",
         "prompt": "Welcher Satz beschreibt eine **andauernde Hintergrundstimmung** (imparfait), nicht ein einzelnes Ereignis?",
         "card_ids": ["card-il-faisait", "card-pourtant"],

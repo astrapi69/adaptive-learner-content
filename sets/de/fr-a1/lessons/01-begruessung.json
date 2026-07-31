@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "bonjour",
+      "stable_id": "card-ms9433hl1ryw2",
       "front": "Bonjour",
       "back": "Guten Tag / Hallo",
       "notes": "Wird tagsüber in formellen und informellen Situationen verwendet.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "bonsoir",
+      "stable_id": "card-ms9433hl1rzd1",
       "front": "Bonsoir",
       "back": "Guten Abend",
       "notes": "Am Abend verwendet, sowohl zur Begrüßung als auch zur Verabschiedung.",
@@ -28,6 +30,7 @@
     },
     {
       "id": "salut",
+      "stable_id": "card-ms9433hl1s0go",
       "front": "Salut",
       "back": "Hallo / Tschüss (informell)",
       "notes": "Nur unter Freunden und Familie — nicht gegenüber Fremden oder in formellen Situationen.",
@@ -38,6 +41,7 @@
     },
     {
       "id": "merci",
+      "stable_id": "card-ms9433hl1s1uo",
       "front": "Merci",
       "back": "Danke",
       "notes": "Mit 'beaucoup' wird es stärker: 'Merci beaucoup' = Vielen Dank.",
@@ -47,6 +51,7 @@
     },
     {
       "id": "au-revoir",
+      "stable_id": "card-ms9433hl1s266",
       "front": "Au revoir",
       "back": "Auf Wiedersehen",
       "notes": "Standard-Verabschiedung, formell wie informell.",
@@ -75,6 +80,7 @@
       "title": "Begrüßungen zuordnen",
       "exercise": {
         "id": "ex-match-begruessung",
+        "stable_id": "ex-ms9433hl1s3rt",
         "type": "matching",
         "prompt": "Ordne jeder französischen Begrüßung die deutsche Übersetzung zu.",
         "card_ids": [
@@ -111,6 +117,7 @@
       "title": "Auf Französisch tippen",
       "exercise": {
         "id": "ex-free-merci",
+        "stable_id": "ex-ms9433hl1s4j2",
         "type": "free_text",
         "prompt": "Wie sagt man 'Danke' auf Französisch?",
         "card_ids": [
@@ -137,6 +144,7 @@
       "title": "Die Verabschiedung zusammensetzen",
       "exercise": {
         "id": "ex-tile-aurevoir",
+        "stable_id": "ex-ms9433hl1s5d3",
         "type": "word_tiles",
         "prompt": "Setze die Kacheln zur üblichen Verabschiedung zusammen.",
         "card_ids": [
@@ -157,6 +165,7 @@
       "title": "Tagsüber begrüßen",
       "exercise": {
         "id": "ex-free-bonjour",
+        "stable_id": "ex-ms9433hl1s65v",
         "type": "free_text",
         "prompt": "Wie begrüßt man jemanden tagsüber auf Französisch?",
         "card_ids": [
@@ -183,6 +192,7 @@
       "title": "Lücke füllen",
       "exercise": {
         "id": "ex-cloze-salut",
+        "stable_id": "ex-ms9433hl1s7mh",
         "type": "cloze",
         "prompt": "Ergänze die informelle Begrüßung unter Freunden.",
         "card_ids": [

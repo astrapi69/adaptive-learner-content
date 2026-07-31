@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "rojo",
+      "stable_id": "card-ms9433jj3sna8",
       "front": "rojo",
       "back": "red",
       "notes": "Adjective ending in -o: four forms (rojo/roja/rojos/rojas).",
@@ -18,6 +19,7 @@
     },
     {
       "id": "azul",
+      "stable_id": "card-ms9433jj3sog6",
       "front": "azul",
       "back": "blue",
       "notes": "Does not end in -o: same for masculine and feminine, only plural azules.",
@@ -28,6 +30,7 @@
     },
     {
       "id": "verde",
+      "stable_id": "card-ms9433jj3speo",
       "front": "verde",
       "back": "green",
       "notes": "Does not end in -o: same for masculine and feminine, only plural verdes.",
@@ -38,6 +41,7 @@
     },
     {
       "id": "blanco",
+      "stable_id": "card-ms9433jj3sq1e",
       "front": "blanco",
       "back": "white",
       "notes": "Adjective ending in -o: four forms (blanco/blanca/blancos/blancas).",
@@ -48,6 +52,7 @@
     },
     {
       "id": "negro",
+      "stable_id": "card-ms9433jj3srta",
       "front": "negro",
       "back": "black",
       "notes": "Adjective ending in -o: four forms (negro/negra/negros/negras).",
@@ -58,6 +63,7 @@
     },
     {
       "id": "amarillo",
+      "stable_id": "card-ms9433jj3ssev",
       "front": "amarillo",
       "back": "yellow",
       "notes": "Adjective ending in -o: four forms (amarillo/amarilla/amarillos/amarillas).",
@@ -68,6 +74,7 @@
     },
     {
       "id": "la-camisa",
+      "stable_id": "card-ms9433jj3st8z",
       "front": "la camisa",
       "back": "the shirt",
       "notes": "Feminine: la camisa.",
@@ -78,6 +85,7 @@
     },
     {
       "id": "el-pantalon",
+      "stable_id": "card-ms9433jj3su7k",
       "front": "el pantalón",
       "back": "the trousers",
       "notes": "Masculine: el pantalón. Accent on the ó.",
@@ -88,6 +96,7 @@
     },
     {
       "id": "el-vestido",
+      "stable_id": "card-ms9433jj3sven",
       "front": "el vestido",
       "back": "the dress",
       "notes": "Masculine: el vestido.",
@@ -98,6 +107,7 @@
     },
     {
       "id": "los-zapatos",
+      "stable_id": "card-ms9433jj3sw9y",
       "front": "los zapatos",
       "back": "the shoes",
       "notes": "Masculine plural: los zapatos.",
@@ -108,6 +118,7 @@
     },
     {
       "id": "la-chaqueta",
+      "stable_id": "card-ms9433jj3sxcq",
       "front": "la chaqueta",
       "back": "the jacket",
       "notes": "Feminine: la chaqueta.",
@@ -118,6 +129,7 @@
     },
     {
       "id": "el-sombrero",
+      "stable_id": "card-ms9433jj3sy9s",
       "front": "el sombrero",
       "back": "the hat",
       "notes": "Masculine: el sombrero.",
@@ -128,6 +140,7 @@
     },
     {
       "id": "la-camisa-roja",
+      "stable_id": "card-ms9433jj3szp3",
       "front": "la camisa roja",
       "back": "the red shirt",
       "notes": "camisa is feminine singular → rojo becomes roja.",
@@ -138,6 +151,7 @@
     },
     {
       "id": "los-zapatos-negros",
+      "stable_id": "card-ms9433jj3t0q3",
       "front": "los zapatos negros",
       "back": "the black shoes",
       "notes": "zapatos is masculine plural → negro becomes negros.",
@@ -148,6 +162,7 @@
     },
     {
       "id": "el-vestido-azul",
+      "stable_id": "card-ms9433jj3t1mj",
       "front": "el vestido azul",
       "back": "the blue dress",
       "notes": "azul does not end in -o → no gender change, only azules in the plural.",
@@ -183,6 +198,7 @@
       "title": "Match the colors",
       "exercise": {
         "id": "ex-match-colors",
+        "stable_id": "ex-ms9433jj3t2v0",
         "type": "matching",
         "prompt": "Match each color with its English meaning.",
         "card_ids": [
@@ -224,6 +240,7 @@
       "title": "Match the clothing",
       "exercise": {
         "id": "ex-match-clothing",
+        "stable_id": "ex-ms9433jj3t3ro",
         "type": "matching",
         "prompt": "Match each item of clothing with its English meaning.",
         "card_ids": [
@@ -265,6 +282,7 @@
       "title": "The red shirt",
       "exercise": {
         "id": "ex-pick-camisa-roja",
+        "stable_id": "ex-ms9433jj3t4ow",
         "type": "picture_choice",
         "prompt": "Pick the correct form: *the red shirt*.",
         "card_ids": [
@@ -306,6 +324,7 @@
       "title": "The blue dress",
       "exercise": {
         "id": "ex-pick-vestido-azul",
+        "stable_id": "ex-ms9433jj3t5od",
         "type": "picture_choice",
         "prompt": "Pick the correct form: *the blue dress*.",
         "card_ids": [
@@ -347,6 +366,7 @@
       "title": "Fill the blank: red, feminine",
       "exercise": {
         "id": "ex-cloze-camisa-roja",
+        "stable_id": "ex-ms9433jj3t68w",
         "type": "cloze",
         "prompt": "Fill in the color 'red', agreeing with camisa (feminine singular).",
         "card_ids": [
@@ -374,6 +394,7 @@
       "title": "Fill the blank: black, masculine plural",
       "exercise": {
         "id": "ex-cloze-zapatos-negros",
+        "stable_id": "ex-ms9433jj3t7kh",
         "type": "cloze",
         "prompt": "Fill in the color 'black', agreeing with zapatos (masculine plural).",
         "card_ids": [
@@ -401,6 +422,7 @@
       "title": "Fill the blank: green, feminine",
       "exercise": {
         "id": "ex-cloze-chaqueta-verde",
+        "stable_id": "ex-ms9433jj3t859",
         "type": "cloze",
         "prompt": "Fill in the color 'green', agreeing with chaqueta (feminine singular).",
         "card_ids": [
@@ -428,6 +450,7 @@
       "title": "The black shoes",
       "exercise": {
         "id": "ex-free-zapatos-negros",
+        "stable_id": "ex-ms9433jj3t9k3",
         "type": "free_text",
         "prompt": "Translate: *the black shoes*.",
         "card_ids": [
@@ -453,6 +476,7 @@
       "title": "The green jacket",
       "exercise": {
         "id": "ex-free-chaqueta-verde",
+        "stable_id": "ex-ms9433jj3tajo",
         "type": "free_text",
         "prompt": "Translate: *the green jacket*.",
         "card_ids": [
@@ -478,6 +502,7 @@
       "title": "Build: The dress is blue",
       "exercise": {
         "id": "ex-tile-vestido-azul",
+        "stable_id": "ex-ms9433jj3tb2a",
         "type": "word_tiles",
         "prompt": "Arrange the sentence: *The dress is blue.*",
         "card_ids": [
@@ -501,6 +526,7 @@
       "title": "Build: The trousers are black",
       "exercise": {
         "id": "ex-tile-pantalones-negros",
+        "stable_id": "ex-ms9433jj3tcec",
         "type": "word_tiles",
         "prompt": "Arrange the sentence: *The trousers are black.*",
         "card_ids": [
@@ -524,6 +550,7 @@
       "title": "Match the agreement",
       "exercise": {
         "id": "ex-match-agreement",
+        "stable_id": "ex-ms9433jj3tdg6",
         "type": "matching",
         "prompt": "Match each agreed phrase with its English meaning.",
         "card_ids": [

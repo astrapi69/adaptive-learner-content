@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "ser-identity",
+      "stable_id": "card-ms9433jw433kv",
       "front": "Soy profesora. Es mi hermano.",
       "back": "SER for identity and profession",
       "notes": "Use **ser** to say *who* or *what* something is: identity, profession, role. *Soy profesora* = I am a teacher; *Es mi hermano* = He is my brother. These are permanent, defining facts.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "ser-origin",
+      "stable_id": "card-ms9433jw4340v",
       "front": "Soy de México. Ella es española.",
       "back": "SER for origin and nationality",
       "notes": "Use **ser** for where someone/something is *from* and for nationality: *Soy de México* = I am from Mexico; *Ella es española* = She is Spanish. Don't confuse this with location (where you ARE now), which uses estar.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "ser-material-possession",
+      "stable_id": "card-ms9433jw435hw",
       "front": "La mesa es de madera. El libro es de Ana.",
       "back": "SER for material and possession",
       "notes": "Use **ser de** for what something is *made of* (*es de madera* = it's made of wood) and for who *owns* it (*es de Ana* = it's Ana's). Both are defining qualities.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "ser-time-date",
+      "stable_id": "card-ms9433jw436ij",
       "front": "Son las tres. Hoy es lunes.",
       "back": "SER for time and dates",
       "notes": "Telling the time and the date always uses **ser**: *Son las tres* = It's three o'clock; *Hoy es lunes* = Today is Monday; *Es el cinco de mayo*. Never estar here.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "ser-event-location",
+      "stable_id": "card-ms9433jw437nb",
       "front": "La fiesta es en mi casa.",
       "back": "SER for where an EVENT takes place",
       "notes": "Tricky! An *event* (party, meeting, concert) uses **ser** to say where it happens: *La fiesta es en mi casa* = The party is at my house; *El concierto es en el teatro*. Even though it's a 'location', it's an event, so use ser.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "estar-location",
+      "stable_id": "card-ms9433jw4387u",
       "front": "Madrid está en España. ¿Dónde estás?",
       "back": "ESTAR for the location of things and people",
       "notes": "The physical *location* of people, places and things uses **estar**: *Madrid está en España*; *¿Dónde estás?* = Where are you? Big pitfall for English speakers: even permanent locations like cities use estar, not ser.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "estar-feelings-states",
+      "stable_id": "card-ms9433jw4397t",
       "front": "Estoy cansado. Está triste hoy.",
       "back": "ESTAR for feelings and temporary states",
       "notes": "Use **estar** for how someone feels or a temporary condition: *Estoy cansado* = I'm tired; *Está triste hoy* = He's sad today; *Estamos contentos*. These can change from one moment to the next.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "estar-result-condition",
+      "stable_id": "card-ms9433jw43aeg",
       "front": "La puerta está abierta. La sopa está fría.",
       "back": "ESTAR for results and conditions",
       "notes": "Use **estar** for the result of an action or the current condition of something: *La puerta está abierta* = The door is open; *La sopa está fría* = The soup is cold (right now). Compare with ser, which would describe a defining trait.",
@@ -81,6 +89,7 @@
     },
     {
       "id": "estar-progressive",
+      "stable_id": "card-ms9433jw43bo5",
       "front": "Estoy comiendo. Están estudiando.",
       "back": "ESTAR + gerundio (the progressive)",
       "notes": "To say something is happening *right now*, use **estar + gerundio** (the -ando/-iendo form): *Estoy comiendo* = I am eating; *Están estudiando* = They are studying. The progressive always takes estar, never ser.",
@@ -90,6 +99,7 @@
     },
     {
       "id": "adj-aburrido",
+      "stable_id": "card-ms9433jw43cpr",
       "front": "ser aburrido vs estar aburrido",
       "back": "boring (ser) vs bored (estar)",
       "notes": "**ser aburrido** = to be boring (a defining trait): *La película es aburrida* = The film is boring. **estar aburrido** = to be bored (how you feel now): *Estoy aburrido* = I'm bored.",
@@ -99,6 +109,7 @@
     },
     {
       "id": "adj-listo-rico",
+      "stable_id": "card-ms9433jw43dck",
       "front": "ser listo / estar listo; ser rico / estar rico",
       "back": "clever vs ready; rich vs tasty",
       "notes": "**ser listo** = to be clever; **estar listo** = to be ready: *Es muy listo* (he's clever) vs *Estoy listo* (I'm ready). **ser rico** = to be rich; **estar rico** = to be tasty: *Es rico* (he's wealthy) vs *Está rico* (it tastes great).",
@@ -108,6 +119,7 @@
     },
     {
       "id": "adj-malo-verde-vivo",
+      "stable_id": "card-ms9433jw43e8f",
       "front": "ser malo / estar malo; ser verde / estar verde; ser vivo / estar vivo",
       "back": "bad vs sick; green vs unripe; sharp vs alive",
       "notes": "**ser malo** = to be bad (a bad person) vs **estar malo** = to be sick/ill. **ser verde** = to be green (colour) vs **estar verde** = to be unripe. **ser vivo** = to be sharp/clever vs **estar vivo** = to be alive.",
@@ -142,6 +154,7 @@
       "title": "Match the meaning",
       "exercise": {
         "id": "ex-match-meaning",
+        "stable_id": "ex-ms9433jw43f85",
         "type": "matching",
         "prompt": "Match each Spanish phrase with its English meaning. Mind ser vs estar!",
         "card_ids": ["adj-aburrido", "adj-listo-rico", "adj-malo-verde-vivo"],
@@ -162,6 +175,7 @@
       "title": "Origin",
       "exercise": {
         "id": "ex-free-from-mexico",
+        "stable_id": "ex-ms9433jw43grx",
         "type": "free_text",
         "prompt": "Translate: *I am from Mexico.*",
         "card_ids": ["ser-origin"],
@@ -178,6 +192,7 @@
       "title": "Location of a place",
       "exercise": {
         "id": "ex-free-madrid",
+        "stable_id": "ex-ms9433jw43hv0",
         "type": "free_text",
         "prompt": "Translate: *Madrid is in Spain.* (location of a place)",
         "card_ids": ["estar-location"],
@@ -194,6 +209,7 @@
       "title": "An event",
       "exercise": {
         "id": "ex-cloze-fiesta",
+        "stable_id": "ex-ms9433jw43imi",
         "type": "cloze",
         "prompt": "Fill in the correct form of ser or estar. (It's an event!)",
         "card_ids": ["ser-event-location"],
@@ -211,6 +227,7 @@
       "title": "Tasty soup",
       "exercise": {
         "id": "ex-cloze-sopa",
+        "stable_id": "ex-ms9433jw43j3d",
         "type": "cloze",
         "prompt": "Fill in the correct form. The soup tastes great right now.",
         "card_ids": ["adj-listo-rico"],
@@ -228,6 +245,7 @@
       "title": "Build: I am tired",
       "exercise": {
         "id": "ex-tiles-tired",
+        "stable_id": "ex-ms9433jw43krz",
         "type": "word_tiles",
         "prompt": "Arrange the words: *I am very tired today.*",
         "card_ids": ["estar-feelings-states"],
@@ -243,6 +261,7 @@
       "title": "Boring or bored?",
       "exercise": {
         "id": "ex-pic-boring-bored",
+        "stable_id": "ex-ms9433jw43ldw",
         "type": "picture_choice",
         "prompt": "Which sentence means 'The film is boring' (a defining trait of the film)?",
         "card_ids": ["adj-aburrido"],
@@ -264,6 +283,7 @@
       "title": "The progressive",
       "exercise": {
         "id": "ex-free-eating",
+        "stable_id": "ex-ms9433jw43mlg",
         "type": "free_text",
         "prompt": "Translate: *They are studying now.* (use the progressive)",
         "card_ids": ["estar-progressive"],
@@ -280,6 +300,7 @@
       "title": "Telling the time",
       "exercise": {
         "id": "ex-cloze-time",
+        "stable_id": "ex-ms9433jw43nvk",
         "type": "cloze",
         "prompt": "Fill in the correct form of ser/estar to tell the time.",
         "card_ids": ["ser-time-date"],
@@ -297,6 +318,7 @@
       "title": "Which verb for which use?",
       "exercise": {
         "id": "ex-match-uses",
+        "stable_id": "ex-ms9433jw43omv",
         "type": "matching",
         "prompt": "Match each example sentence with the use it illustrates.",
         "card_ids": ["ser-identity", "ser-time-date", "estar-location", "estar-progressive", "ser-event-location"],
@@ -317,6 +339,7 @@
       "title": "Bad person or sick?",
       "exercise": {
         "id": "ex-free-she-is-ill",
+        "stable_id": "ex-ms9433jw43p7g",
         "type": "free_text",
         "prompt": "Translate: *My sister is sick today.* (ill, not a bad person)",
         "card_ids": ["adj-malo-verde-vivo", "estar-feelings-states"],
@@ -333,6 +356,7 @@
       "title": "Clever and ready",
       "exercise": {
         "id": "ex-free-clever-ready",
+        "stable_id": "ex-ms9433jw43qt7",
         "type": "free_text",
         "prompt": "Translate: *My son is clever, and now he is ready.* (listo, both meanings)",
         "card_ids": ["adj-listo-rico"],

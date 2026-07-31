@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "bonjour",
+      "stable_id": "card-ms9433j43e9vk",
       "front": "Bonjour",
       "back": "καλημέρα / γεια σας",
       "notes": "Καθημερινός χαιρετισμός τη μέρα, τυπικός και ανεπίσημος.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "bonsoir",
+      "stable_id": "card-ms9433j43eau6",
       "front": "Bonsoir",
       "back": "καλησπέρα",
       "notes": "Το βράδυ, για χαιρετισμό και αποχαιρετισμό.",
@@ -26,6 +28,7 @@
     },
     {
       "id": "salut",
+      "stable_id": "card-ms9433j43ebg6",
       "front": "Salut",
       "back": "γεια (ανεπίσημο)",
       "notes": "Μόνο με φίλους και γνωστούς, όχι σε αγνώστους.",
@@ -35,6 +38,7 @@
     },
     {
       "id": "au-revoir",
+      "stable_id": "card-ms9433j43eclc",
       "front": "Au revoir",
       "back": "αντίο",
       "notes": "Τυπικός αποχαιρετισμός, σε κάθε περίσταση.",
@@ -44,6 +48,7 @@
     },
     {
       "id": "merci",
+      "stable_id": "card-ms9433j43ed9e",
       "front": "Merci",
       "back": "ευχαριστώ",
       "notes": "«Merci beaucoup» = ευχαριστώ πολύ.",
@@ -53,6 +58,7 @@
     },
     {
       "id": "je-mappelle",
+      "stable_id": "card-ms9433j43eewi",
       "front": "Je m'appelle…",
       "back": "Με λένε… / Ονομάζομαι…",
       "notes": "Κυριολεκτικά «ονομάζομαι». Πρόσεξε την έκθλιψη: je m'appelle.",
@@ -62,6 +68,7 @@
     },
     {
       "id": "comment-tu-tappelles",
+      "stable_id": "card-ms9433j43efqv",
       "front": "Comment tu t'appelles ?",
       "back": "Πώς σε λένε;",
       "notes": "Ανεπίσημη ερώτηση με τον τύπο «tu» (εσύ).",
@@ -71,6 +78,7 @@
     },
     {
       "id": "enchante",
+      "stable_id": "card-ms9433j43egmu",
       "front": "Enchanté(e)",
       "back": "Χαίρω πολύ",
       "notes": "Ο άντρας λέει «enchanté», η γυναίκα «enchantée».",
@@ -104,6 +112,7 @@
       "title": "Αντιστοίχισε τους χαιρετισμούς",
       "exercise": {
         "id": "ex-match-chair",
+        "stable_id": "ex-ms9433j43ehot",
         "type": "matching",
         "prompt": "Αντιστοίχισε κάθε γαλλικό χαιρετισμό με τη σημασία του.",
         "card_ids": [
@@ -139,6 +148,7 @@
       "title": "Ποιος χαιρετισμός ταιριάζει το βράδυ;",
       "exercise": {
         "id": "ex-mc-vradi",
+        "stable_id": "ex-ms9433j43ei6r",
         "type": "cloze",
         "prompt": "Ποιος χαιρετισμός ταιριάζει το βράδυ;",
         "card_ids": [
@@ -167,6 +177,7 @@
       "title": "Ποια λέξη είναι ανεπίσημη και τη λες μόνο σε φίλους;",
       "exercise": {
         "id": "ex-mc-anepisimo",
+        "stable_id": "ex-ms9433j43ej6i",
         "type": "cloze",
         "prompt": "Ποια λέξη είναι ανεπίσημη και τη λες μόνο σε φίλους;",
         "card_ids": [
@@ -195,6 +206,7 @@
       "title": "Πώς λες το όνομά σου (συστήνεσαι);",
       "exercise": {
         "id": "ex-mc-systino",
+        "stable_id": "ex-ms9433j43ekn6",
         "type": "cloze",
         "prompt": "Πώς λες το όνομά σου (συστήνεσαι);",
         "card_ids": [
@@ -223,6 +235,7 @@
       "title": "Πώς ρωτάς κάποιον ανεπίσημα πώς τον λένε;",
       "exercise": {
         "id": "ex-mc-erotisi-onoma",
+        "stable_id": "ex-ms9433j43elvz",
         "type": "cloze",
         "prompt": "Πώς ρωτάς κάποιον ανεπίσημα πώς τον λένε;",
         "card_ids": [
@@ -251,6 +264,7 @@
       "title": "Φράσεις γνωριμίας",
       "exercise": {
         "id": "ex-match-systaseis",
+        "stable_id": "ex-ms9433j43em8w",
         "type": "matching",
         "prompt": "Αντιστοίχισε κάθε γαλλική φράση με τη σημασία της.",
         "card_ids": [
@@ -286,6 +300,7 @@
       "title": "Γράψε «ευχαριστώ»",
       "exercise": {
         "id": "ex-clz-merci",
+        "stable_id": "ex-ms9433j43enmd",
         "type": "cloze",
         "prompt": "Πώς λες «ευχαριστώ» στα γαλλικά;",
         "card_ids": [
@@ -310,6 +325,7 @@
       "title": "Η έκθλιψη",
       "exercise": {
         "id": "ex-clz-elision",
+        "stable_id": "ex-ms9433j43eold",
         "type": "cloze",
         "prompt": "Συμπλήρωσε το «me» σε συντομευμένη μορφή πριν από φωνήεν.",
         "card_ids": [

@@ -42,3 +42,8 @@ lint: $(ENGINE_STAMP)
 
 lint-warnings: $(ENGINE_STAMP)
 	node scripts/validate_with_engine.mjs --warnings .
+
+stable-ids: $(ENGINE_STAMP) ## Stabilitaets-Gate (mitgeliefert) + Abdeckungs-Ratchet (repo-lokal)
+	npx --no-install learn-content-engine check-stable-ids --base origin/main
+	python3 scripts/check_stable_id_coverage.py --self-test
+	python3 scripts/check_stable_id_coverage.py

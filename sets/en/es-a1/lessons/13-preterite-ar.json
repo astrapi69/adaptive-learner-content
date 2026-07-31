@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "hable",
+      "stable_id": "card-ms9433jn3vxw7",
       "front": "hablé",
       "back": "I spoke",
       "notes": "First person singular of hablar in the preterite. The accent on the é is mandatory.",
@@ -19,6 +20,7 @@
     },
     {
       "id": "hablaste",
+      "stable_id": "card-ms9433jn3vyyg",
       "front": "hablaste",
       "back": "you spoke",
       "tags": [
@@ -29,6 +31,7 @@
     },
     {
       "id": "hablo-pasado",
+      "stable_id": "card-ms9433jn3vz6y",
       "front": "habló",
       "back": "he/she spoke",
       "notes": "Third person singular in the preterite. The accent on the ó is mandatory - without it, habla means 'he/she speaks' (present).",
@@ -40,6 +43,7 @@
     },
     {
       "id": "hablamos-pasado",
+      "stable_id": "card-ms9433jn3w0e5",
       "front": "hablamos",
       "back": "we spoke",
       "notes": "Careful: identical to the present 'we speak'. Only context tells you the tense.",
@@ -51,6 +55,7 @@
     },
     {
       "id": "hablaron",
+      "stable_id": "card-ms9433jn3w1bb",
       "front": "hablaron",
       "back": "they spoke",
       "tags": [
@@ -61,6 +66,7 @@
     },
     {
       "id": "compre",
+      "stable_id": "card-ms9433jn3w2dm",
       "front": "compré",
       "back": "I bought",
       "notes": "Accent on the é is mandatory. Without it: compro = 'I buy' (present).",
@@ -72,6 +78,7 @@
     },
     {
       "id": "compro-pasado",
+      "stable_id": "card-ms9433jn3w3r9",
       "front": "compró",
       "back": "he/she bought",
       "notes": "Accent on the ó is mandatory. Without it: compra = 'he/she buys' (present).",
@@ -83,6 +90,7 @@
     },
     {
       "id": "trabaje",
+      "stable_id": "card-ms9433jn3w46q",
       "front": "trabajé",
       "back": "I worked",
       "tags": [
@@ -93,6 +101,7 @@
     },
     {
       "id": "trabajo-pasado",
+      "stable_id": "card-ms9433jn3w5ig",
       "front": "trabajó",
       "back": "he/she worked",
       "tags": [
@@ -103,6 +112,7 @@
     },
     {
       "id": "estudie",
+      "stable_id": "card-ms9433jn3w63p",
       "front": "estudié",
       "back": "I studied",
       "tags": [
@@ -113,6 +123,7 @@
     },
     {
       "id": "estudio-pasado",
+      "stable_id": "card-ms9433jn3w7ny",
       "front": "estudió",
       "back": "he/she studied",
       "tags": [
@@ -123,6 +134,7 @@
     },
     {
       "id": "cocine",
+      "stable_id": "card-ms9433jn3w8ti",
       "front": "cociné",
       "back": "I cooked",
       "tags": [
@@ -133,6 +145,7 @@
     },
     {
       "id": "cocino-pasado",
+      "stable_id": "card-ms9433jn3w99j",
       "front": "cocinó",
       "back": "he/she cooked",
       "tags": [
@@ -143,6 +156,7 @@
     },
     {
       "id": "ayer",
+      "stable_id": "card-ms9433jn3wadm",
       "front": "ayer",
       "back": "yesterday",
       "tags": [
@@ -151,6 +165,7 @@
     },
     {
       "id": "anoche",
+      "stable_id": "card-ms9433jn3wbzk",
       "front": "anoche",
       "back": "last night",
       "tags": [
@@ -159,6 +174,7 @@
     },
     {
       "id": "ayer-hable-maria",
+      "stable_id": "card-ms9433jn3wcbx",
       "front": "Ayer hablé con María.",
       "back": "Yesterday I spoke with María.",
       "tags": [
@@ -167,6 +183,7 @@
     },
     {
       "id": "compro-pan-mercado",
+      "stable_id": "card-ms9433jn3wdwp",
       "front": "Compró pan en el mercado.",
       "back": "He bought bread at the market.",
       "tags": [
@@ -200,6 +217,7 @@
       "title": "Match hablar forms",
       "exercise": {
         "id": "ex-match-hablar",
+        "stable_id": "ex-ms9433jn3we2y",
         "type": "matching",
         "prompt": "Match the preterite forms of hablar with their English meaning.",
         "card_ids": [
@@ -241,6 +259,7 @@
       "title": "Present or past?",
       "exercise": {
         "id": "ex-match-contrast",
+        "stable_id": "ex-ms9433jn3wfph",
         "type": "matching",
         "prompt": "Match each form with its meaning - watch the accent.",
         "card_ids": [
@@ -275,6 +294,7 @@
       "title": "Cloze: I spoke",
       "exercise": {
         "id": "ex-cloze-hable",
+        "stable_id": "ex-ms9433jn3wgmu",
         "type": "cloze",
         "prompt": "Fill in the preterite form of hablar (yo).",
         "card_ids": [
@@ -301,6 +321,7 @@
       "title": "Cloze: he bought",
       "exercise": {
         "id": "ex-cloze-compro",
+        "stable_id": "ex-ms9433jn3whve",
         "type": "cloze",
         "prompt": "Fill in the preterite form of comprar (él).",
         "card_ids": [
@@ -326,6 +347,7 @@
       "title": "Cloze: we worked",
       "exercise": {
         "id": "ex-cloze-trabajamos",
+        "stable_id": "ex-ms9433jn3wiph",
         "type": "cloze",
         "prompt": "Fill in the preterite form of trabajar (nosotros). Careful: no accent, identical to the present.",
         "card_ids": [
@@ -351,6 +373,7 @@
       "title": "Translate: Yesterday I spoke with María",
       "exercise": {
         "id": "ex-free-hable-maria",
+        "stable_id": "ex-ms9433jn3wjeq",
         "type": "free_text",
         "prompt": "Translate: 'Yesterday I spoke with María.' (Past - don't forget the accent!)",
         "card_ids": [
@@ -378,6 +401,7 @@
       "title": "Translate: He bought bread",
       "exercise": {
         "id": "ex-free-compro-pan",
+        "stable_id": "ex-ms9433jn3wkf0",
         "type": "free_text",
         "prompt": "Translate: 'He bought bread.' (Past - don't forget the accent!)",
         "card_ids": [
@@ -404,6 +428,7 @@
       "title": "Pick the picture: I studied",
       "exercise": {
         "id": "ex-pick-estudie",
+        "stable_id": "ex-ms9433jn3wlbh",
         "type": "picture_choice",
         "prompt": "Pick the correct form: 'I studied (past).'",
         "card_ids": [
@@ -445,6 +470,7 @@
       "title": "Pick the picture: she cooked",
       "exercise": {
         "id": "ex-pick-cocino",
+        "stable_id": "ex-ms9433jn3wmb4",
         "type": "picture_choice",
         "prompt": "Pick the correct form: 'She cooked (past).'",
         "card_ids": [
@@ -486,6 +512,7 @@
       "title": "Build: Yesterday I bought bread",
       "exercise": {
         "id": "ex-tile-compre-pan",
+        "stable_id": "ex-ms9433jn3wnzx",
         "type": "word_tiles",
         "prompt": "Arrange the sentence: 'Yesterday I bought bread.'",
         "card_ids": [
@@ -508,6 +535,7 @@
       "title": "Build: She worked a lot",
       "exercise": {
         "id": "ex-tile-trabajo-mucho",
+        "stable_id": "ex-ms9433jn3wo7v",
         "type": "word_tiles",
         "prompt": "Arrange the sentence: 'She worked a lot.'",
         "card_ids": [
@@ -529,6 +557,7 @@
       "title": "Translate: We studied yesterday",
       "exercise": {
         "id": "ex-free-estudiamos",
+        "stable_id": "ex-ms9433jn3wpcw",
         "type": "free_text",
         "prompt": "Translate: 'We studied yesterday.' (nosotros form - no accent.)",
         "card_ids": [

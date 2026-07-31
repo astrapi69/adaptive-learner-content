@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "kazoku",
+      "stable_id": "card-ms9433iq2wxgh",
       "front": "家族",
       "back": "Familie",
       "notes": "Romaji: kazoku. Kontext: わたしの家族は四人です。(watashi no kazoku wa yonin desu.) – Meine Familie hat vier Personen.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "haha",
+      "stable_id": "card-ms9433iq2wy1p",
       "front": "母",
       "back": "(meine) Mutter",
       "notes": "Romaji: haha. Kontext: 母は先生です。(haha wa sensei desu.) – Meine Mutter ist Lehrerin. Bescheidene Form für die eigene Mutter.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "chichi",
+      "stable_id": "card-ms9433iq2wz11",
       "front": "父",
       "back": "(mein) Vater",
       "notes": "Romaji: chichi. Kontext: 父は会社員です。(chichi wa kaishain desu.) – Mein Vater ist Angestellter. Bescheidene Form für den eigenen Vater.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "ani",
+      "stable_id": "card-ms9433iq2x0j9",
       "front": "兄",
       "back": "(mein) älterer Bruder",
       "notes": "Romaji: ani. Kontext: 兄は学生です。(ani wa gakusei desu.) – Mein älterer Bruder ist Student.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "ane",
+      "stable_id": "card-ms9433iq2x1z6",
       "front": "姉",
       "back": "(meine) ältere Schwester",
       "notes": "Romaji: ane. Kontext: 姉は東京にいます。(ane wa toukyou ni imasu.) – Meine ältere Schwester ist in Tokio.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "otouto",
+      "stable_id": "card-ms9433iq2x2m7",
       "front": "弟",
       "back": "(mein) jüngerer Bruder",
       "notes": "Romaji: otouto. Kontext: 弟は十歳です。(otouto wa jussai desu.) – Mein jüngerer Bruder ist zehn Jahre alt.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "imouto",
+      "stable_id": "card-ms9433iq2x32z",
       "front": "妹",
       "back": "(meine) jüngere Schwester",
       "notes": "Romaji: imouto. Kontext: 妹はかわいいです。(imouto wa kawaii desu.) – Meine jüngere Schwester ist niedlich.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "okaasan",
+      "stable_id": "card-ms9433iq2x4a7",
       "front": "お母さん",
       "back": "(Ihre/seine) Mutter; Mama (Anrede)",
       "notes": "Romaji: okaasan. Kontext: お母さんはお元気ですか。(okaasan wa ogenki desu ka.) – Geht es Ihrer Mutter gut? Höfliche Form für die Mutter anderer.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "otousan",
+      "stable_id": "card-ms9433iq2x56v",
       "front": "お父さん",
       "back": "(Ihr/sein) Vater; Papa (Anrede)",
       "notes": "Romaji: otousan. Kontext: お父さんは何のお仕事ですか。(otousan wa nan no oshigoto desu ka.) – Was macht Ihr Vater beruflich? Höfliche Form für den Vater anderer.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "oniisan",
+      "stable_id": "card-ms9433iq2x657",
       "front": "お兄さん",
       "back": "(Ihr/sein) älterer Bruder",
       "notes": "Romaji: oniisan. Kontext: お兄さんは学生ですか。(oniisan wa gakusei desu ka.) – Ist Ihr älterer Bruder Student? Höfliche Form von 兄.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "oneesan",
+      "stable_id": "card-ms9433iq2x7yo",
       "front": "お姉さん",
       "back": "(Ihre/seine) ältere Schwester",
       "notes": "Romaji: oneesan. Kontext: お姉さんはきれいですね。(oneesan wa kirei desu ne.) – Ihre ältere Schwester ist hübsch, nicht? Höfliche Form von 姉.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "kodomo",
+      "stable_id": "card-ms9433iq2x84e",
       "front": "子供",
       "back": "Kind",
       "notes": "Romaji: kodomo. Kontext: 子供が二人います。(kodomo ga futari imasu.) – Ich habe zwei Kinder.",
@@ -124,6 +136,7 @@
       "title": "Familienmitglieder zuordnen",
       "exercise": {
         "id": "ex-match-familie",
+        "stable_id": "ex-ms9433iq2x9la",
         "type": "matching",
         "prompt": "Ordne jedem japanischen Wort die deutsche Bedeutung zu.",
         "card_ids": ["haha", "chichi", "ani", "imouto"],
@@ -143,6 +156,7 @@
       "title": "Bescheiden vs. höflich",
       "exercise": {
         "id": "ex-match-hoeflich",
+        "stable_id": "ex-ms9433iq2xadf",
         "type": "matching",
         "prompt": "Ordne die bescheidene Form der höflichen Form zu.",
         "card_ids": ["haha", "chichi", "okaasan", "otousan"],
@@ -162,6 +176,7 @@
       "title": "Meine Mutter",
       "exercise": {
         "id": "ex-free-haha",
+        "stable_id": "ex-ms9433iq2xb6w",
         "type": "free_text",
         "prompt": "Wie nennst du deine eigene Mutter (bescheidene Form)?",
         "card_ids": ["haha"],
@@ -178,6 +193,7 @@
       "title": "Die Mutter anderer",
       "exercise": {
         "id": "ex-free-okaasan",
+        "stable_id": "ex-ms9433iq2xcva",
         "type": "free_text",
         "prompt": "Wie sprichst du höflich über die Mutter einer anderen Person?",
         "card_ids": ["okaasan"],
@@ -194,6 +210,7 @@
       "title": "Lücke: meine Familie",
       "exercise": {
         "id": "ex-cloze-kazoku",
+        "stable_id": "ex-ms9433iq2xdzd",
         "type": "cloze",
         "prompt": "Ergänze das Wort für 'Familie'.",
         "card_ids": ["kazoku"],
@@ -210,6 +227,7 @@
       "title": "Welches Wort bedeutet '(mein) Vater'?",
       "exercise": {
         "id": "ex-pic-chichi",
+        "stable_id": "ex-ms9433iq2xeeu",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet '(mein) Vater' (bescheidene Form)?",
         "card_ids": ["chichi"],

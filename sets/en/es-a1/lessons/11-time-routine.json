@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "que-hora-es",
+      "stable_id": "card-ms9433jl3u8jx",
       "front": "¿Qué hora es?",
       "back": "What time is it?",
       "notes": "The standard question for asking the time. Note the inverted ¿ at the start.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "es-la-una",
+      "stable_id": "card-ms9433jl3u92k",
       "front": "Es la una.",
       "back": "It's one o'clock.",
       "notes": "Singular 'Es la una' only for one o'clock.",
@@ -26,6 +28,7 @@
     },
     {
       "id": "son-las-dos",
+      "stable_id": "card-ms9433jl3uagy",
       "front": "Son las dos.",
       "back": "It's two o'clock.",
       "notes": "Plural 'Son las...' for every hour except one o'clock.",
@@ -35,6 +38,7 @@
     },
     {
       "id": "y-media",
+      "stable_id": "card-ms9433jl3ub9z",
       "front": "y media",
       "back": "half past",
       "notes": "Literally 'and half', e.g. Son las dos y media = half past two.",
@@ -44,6 +48,7 @@
     },
     {
       "id": "y-cuarto",
+      "stable_id": "card-ms9433jl3uch9",
       "front": "y cuarto",
       "back": "quarter past",
       "tags": [
@@ -52,6 +57,7 @@
     },
     {
       "id": "menos-cuarto",
+      "stable_id": "card-ms9433jl3udff",
       "front": "menos cuarto",
       "back": "quarter to",
       "tags": [
@@ -60,6 +66,7 @@
     },
     {
       "id": "de-la-manana",
+      "stable_id": "card-ms9433jl3ue3c",
       "front": "de la mañana",
       "back": "in the morning",
       "notes": "mañana with ñ. Marks the part of the day.",
@@ -69,6 +76,7 @@
     },
     {
       "id": "de-la-tarde",
+      "stable_id": "card-ms9433jl3uf1x",
       "front": "de la tarde",
       "back": "in the afternoon",
       "tags": [
@@ -77,6 +85,7 @@
     },
     {
       "id": "de-la-noche",
+      "stable_id": "card-ms9433jl3uglp",
       "front": "de la noche",
       "back": "at night",
       "tags": [
@@ -85,6 +94,7 @@
     },
     {
       "id": "me-levanto",
+      "stable_id": "card-ms9433jl3uhsv",
       "front": "me levanto",
       "back": "I get up (levantarse)",
       "notes": "Reflexive verb: the pronoun 'me' goes before the verb.",
@@ -96,6 +106,7 @@
     },
     {
       "id": "me-ducho",
+      "stable_id": "card-ms9433jl3ui35",
       "front": "me ducho",
       "back": "I shower (ducharse)",
       "tags": [
@@ -106,6 +117,7 @@
     },
     {
       "id": "me-acuesto",
+      "stable_id": "card-ms9433jl3ujcq",
       "front": "me acuesto",
       "back": "I go to bed (acostarse)",
       "tags": [
@@ -116,6 +128,7 @@
     },
     {
       "id": "me-despierto",
+      "stable_id": "card-ms9433jl3ukgn",
       "front": "me despierto",
       "back": "I wake up (despertarse)",
       "tags": [
@@ -126,6 +139,7 @@
     },
     {
       "id": "desayuno",
+      "stable_id": "card-ms9433jl3ul84",
       "front": "desayuno",
       "back": "I have breakfast (desayunar)",
       "notes": "Not reflexive: no pronoun.",
@@ -136,6 +150,7 @@
     },
     {
       "id": "me-levanto-a-las-siete",
+      "stable_id": "card-ms9433jl3umrf",
       "front": "Me levanto a las siete.",
       "back": "I get up at seven.",
       "tags": [
@@ -144,6 +159,7 @@
     },
     {
       "id": "son-las-ocho-y-media",
+      "stable_id": "card-ms9433jl3un8o",
       "front": "Son las ocho y media.",
       "back": "It's half past eight.",
       "tags": [
@@ -183,6 +199,7 @@
       "title": "Match time expressions",
       "exercise": {
         "id": "ex-match-uhrzeit",
+        "stable_id": "ex-ms9433jl3uoy6",
         "type": "matching",
         "prompt": "Match each Spanish time expression with its meaning.",
         "card_ids": [
@@ -224,6 +241,7 @@
       "title": "Match routine verbs",
       "exercise": {
         "id": "ex-match-routine",
+        "stable_id": "ex-ms9433jl3uprm",
         "type": "matching",
         "prompt": "Match each Spanish routine verb with its meaning.",
         "card_ids": [
@@ -260,6 +278,7 @@
       "title": "Pick one o'clock",
       "exercise": {
         "id": "ex-pick-una",
+        "stable_id": "ex-ms9433jl3uq4u",
         "type": "picture_choice",
         "prompt": "Pick the correct form: 'It's one o'clock.'",
         "card_ids": [
@@ -300,6 +319,7 @@
       "title": "Pick half past three",
       "exercise": {
         "id": "ex-pick-tres-media",
+        "stable_id": "ex-ms9433jl3urmw",
         "type": "picture_choice",
         "prompt": "Pick the correct form: 'It's half past three.'",
         "card_ids": [
@@ -341,6 +361,7 @@
       "title": "Cloze: Son or Es?",
       "exercise": {
         "id": "ex-cloze-son",
+        "stable_id": "ex-ms9433jl3ussf",
         "type": "cloze",
         "prompt": "Fill in the correct form (plural — it's not one o'clock).",
         "card_ids": [
@@ -367,6 +388,7 @@
       "title": "Cloze: get up",
       "exercise": {
         "id": "ex-cloze-me-levanto",
+        "stable_id": "ex-ms9433jl3utp9",
         "type": "cloze",
         "prompt": "Fill in the reflexive yo form of levantarse.",
         "card_ids": [
@@ -394,6 +416,7 @@
       "title": "Cloze: go to bed (we)",
       "exercise": {
         "id": "ex-cloze-acostamos",
+        "stable_id": "ex-ms9433jl3uu2n",
         "type": "cloze",
         "prompt": "Fill in the nosotros form of acostarse (the pronoun nos is already there).",
         "card_ids": [
@@ -420,6 +443,7 @@
       "title": "Translate: get up at seven",
       "exercise": {
         "id": "ex-free-levanto-siete",
+        "stable_id": "ex-ms9433jl3uvpa",
         "type": "free_text",
         "prompt": "Translate: 'I get up at seven.'",
         "card_ids": [
@@ -447,6 +471,7 @@
       "title": "Translate: It's two o'clock",
       "exercise": {
         "id": "ex-free-son-las-dos",
+        "stable_id": "ex-ms9433jl3uww9",
         "type": "free_text",
         "prompt": "Translate: 'It's two o'clock.'",
         "card_ids": [
@@ -473,6 +498,7 @@
       "title": "Build: get up at seven",
       "exercise": {
         "id": "ex-tile-levanto",
+        "stable_id": "ex-ms9433jl3uxoi",
         "type": "word_tiles",
         "prompt": "Arrange to mean: 'I get up at seven.'",
         "card_ids": [
@@ -497,6 +523,7 @@
       "title": "Build: half past eight",
       "exercise": {
         "id": "ex-tile-ocho-media",
+        "stable_id": "ex-ms9433jl3uyrf",
         "type": "word_tiles",
         "prompt": "Arrange to mean: 'It's half past eight.'",
         "card_ids": [
@@ -521,6 +548,7 @@
       "title": "Translate: shower in the morning",
       "exercise": {
         "id": "ex-free-ducho-manana",
+        "stable_id": "ex-ms9433jl3uzf8",
         "type": "free_text",
         "prompt": "Translate: 'I shower in the morning.'",
         "card_ids": [

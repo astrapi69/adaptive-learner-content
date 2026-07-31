@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "ser-soy",
+      "stable_id": "card-ms9433jg3otcv",
       "front": "yo soy",
       "back": "I am (ser)",
       "notes": "First person singular of *ser*. Use for identity / characteristics / origin.",
@@ -23,6 +24,7 @@
     },
     {
       "id": "ser-eres",
+      "stable_id": "card-ms9433jg3ou93",
       "front": "tú eres",
       "back": "you are (informal sg., ser)",
       "tags": [
@@ -39,6 +41,7 @@
     },
     {
       "id": "ser-es",
+      "stable_id": "card-ms9433jg3ov4s",
       "front": "él / ella es",
       "back": "he / she / it is (ser)",
       "notes": "Same form for *usted es* (formal you). Spanish drops the subject pronoun whenever it's clear from context — *Es alto* is fine for *He is tall*.",
@@ -56,6 +59,7 @@
     },
     {
       "id": "ser-somos",
+      "stable_id": "card-ms9433jg3owv8",
       "front": "nosotros somos",
       "back": "we are (ser)",
       "tags": [
@@ -72,6 +76,7 @@
     },
     {
       "id": "ser-sois",
+      "stable_id": "card-ms9433jg3oxak",
       "front": "vosotros sois",
       "back": "you are (informal pl., Spain only)",
       "notes": "*Vosotros* + *sois* is the informal plural \"you\" — only used in Spain. Latin America uses *ustedes son* for all plural \"you\".",
@@ -90,6 +95,7 @@
     },
     {
       "id": "ser-son",
+      "stable_id": "card-ms9433jg3oy2t",
       "front": "ellos / ellas son",
       "back": "they are (ser)",
       "notes": "Same form for *ustedes son* (you, plural — formal in Spain, all-purpose in Latin America).",
@@ -107,6 +113,7 @@
     },
     {
       "id": "estar-estoy",
+      "stable_id": "card-ms9433jg3oz2l",
       "front": "yo estoy",
       "back": "I am (estar)",
       "notes": "First person of *estar*. Use for location / temporary state / feelings.",
@@ -124,6 +131,7 @@
     },
     {
       "id": "estar-estas",
+      "stable_id": "card-ms9433jg3p0ul",
       "front": "tú estás",
       "back": "you are (informal sg., estar)",
       "notes": "Mandatory accent on **á**. *Estas* without accent means *these* (feminine plural demonstrative) — totally different word.",
@@ -141,6 +149,7 @@
     },
     {
       "id": "estar-esta",
+      "stable_id": "card-ms9433jg3p1ks",
       "front": "él / ella está",
       "back": "he / she / it is (estar)",
       "notes": "Accent on **á**. *Esta* without accent means *this* (feminine).",
@@ -158,6 +167,7 @@
     },
     {
       "id": "estar-estamos",
+      "stable_id": "card-ms9433jg3p29q",
       "front": "nosotros estamos",
       "back": "we are (estar)",
       "tags": [
@@ -174,6 +184,7 @@
     },
     {
       "id": "estar-estais",
+      "stable_id": "card-ms9433jg3p37f",
       "front": "vosotros estáis",
       "back": "you are (informal pl., Spain only, estar)",
       "tags": [
@@ -191,6 +202,7 @@
     },
     {
       "id": "estar-estan",
+      "stable_id": "card-ms9433jg3p4yl",
       "front": "ellos / ellas están",
       "back": "they are (estar)",
       "notes": "Accent on **á**.",
@@ -208,6 +220,7 @@
     },
     {
       "id": "phr-soy-estudiante",
+      "stable_id": "card-ms9433jg3p5m3",
       "front": "Soy estudiante.",
       "back": "I am a student. (identity → ser)",
       "notes": "Spanish drops the article before a profession — same rule as French. *Soy estudiante*, never *Soy un estudiante*.",
@@ -218,6 +231,7 @@
     },
     {
       "id": "phr-estoy-cansado",
+      "stable_id": "card-ms9433jg3p6ii",
       "front": "Estoy cansado.",
       "back": "I am tired. (temporary state → estar)",
       "notes": "*Cansado* (m.) / *cansada* (f.) — adjective agrees with the speaker's gender. Tiredness is temporary, so *estar*.",
@@ -247,6 +261,7 @@
       "title": "Match ser forms",
       "exercise": {
         "id": "ex-match-ser",
+        "stable_id": "ex-ms9433jg3p7sw",
         "type": "matching",
         "prompt": "Match each pronoun with its form of *ser*.",
         "card_ids": [
@@ -294,6 +309,7 @@
       "title": "Match estar forms",
       "exercise": {
         "id": "ex-match-estar",
+        "stable_id": "ex-ms9433jg3p8wn",
         "type": "matching",
         "prompt": "Match each pronoun with its form of *estar*.",
         "card_ids": [
@@ -341,6 +357,7 @@
       "title": "Identity → ser",
       "exercise": {
         "id": "ex-pick-soy",
+        "stable_id": "ex-ms9433jg3p9u0",
         "type": "picture_choice",
         "prompt": "Pick the correct form: *I am a doctor.*",
         "card_ids": [
@@ -382,6 +399,7 @@
       "title": "Feeling → estar",
       "exercise": {
         "id": "ex-pick-estoy",
+        "stable_id": "ex-ms9433jg3pa9c",
         "type": "picture_choice",
         "prompt": "Pick the correct form: *I am tired.* (Speaker is male.)",
         "card_ids": [
@@ -423,6 +441,7 @@
       "title": "Location → estar",
       "exercise": {
         "id": "ex-free-location",
+        "stable_id": "ex-ms9433jg3pbcv",
         "type": "free_text",
         "prompt": "Translate: *The book is on the table.* (Use the location rule.)",
         "card_ids": [
@@ -449,6 +468,7 @@
       "title": "Nationality → ser",
       "exercise": {
         "id": "ex-free-nationality",
+        "stable_id": "ex-ms9433jg3pco8",
         "type": "free_text",
         "prompt": "Translate: *She is Spanish.* (Use the identity rule.)",
         "card_ids": [
@@ -476,6 +496,7 @@
       "title": "Ser or estar?",
       "exercise": {
         "id": "ex-match-decisions",
+        "stable_id": "ex-ms9433jg3pdgw",
         "type": "matching",
         "prompt": "Match each sentence with the correct verb.",
         "card_ids": [
@@ -514,6 +535,7 @@
       "title": "Build: I'm from Spain and I'm in Madrid",
       "exercise": {
         "id": "ex-tile-soy-de",
+        "stable_id": "ex-ms9433jg3perz",
         "type": "word_tiles",
         "prompt": "Arrange to mean: *I'm from Spain, and I'm in Madrid.* (Use ser for origin, estar for current location.)",
         "card_ids": [
@@ -541,6 +563,7 @@
       "title": "Build: She is tall and is happy",
       "exercise": {
         "id": "ex-tile-she-tall",
+        "stable_id": "ex-ms9433jg3pf8b",
         "type": "word_tiles",
         "prompt": "Arrange to mean: *She is tall and is happy.* (Characteristic → ser, feeling → estar.)",
         "card_ids": [
@@ -565,6 +588,7 @@
       "title": "Cloze: identity → ser (Phase 52H / v1.35.0)",
       "exercise": {
         "id": "ex-cloze-ser-soy",
+        "stable_id": "ex-ms9433jg3pghl",
         "type": "cloze",
         "prompt": "Fill in the right form of *ser* or *estar*.",
         "card_ids": [

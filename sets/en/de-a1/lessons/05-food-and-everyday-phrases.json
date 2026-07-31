@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "de-das-brot",
+      "stable_id": "card-ms9433jb3kad1",
       "front": "das Brot",
       "back": "the bread",
       "notes": "*Brot* is neuter.",
@@ -13,6 +14,7 @@
     },
     {
       "id": "de-das-wasser",
+      "stable_id": "card-ms9433jb3kb7i",
       "front": "das Wasser",
       "back": "the water",
       "notes": "*Wasser* is neuter.",
@@ -20,6 +22,7 @@
     },
     {
       "id": "de-der-kaffee",
+      "stable_id": "card-ms9433jb3kcio",
       "front": "der Kaffee",
       "back": "the coffee",
       "notes": "*Kaffee* is masculine.",
@@ -27,6 +30,7 @@
     },
     {
       "id": "de-der-apfel",
+      "stable_id": "card-ms9433jb3kdl8",
       "front": "der Apfel",
       "back": "the apple",
       "notes": "*Apfel* is masculine. Plural: *die Äpfel*.",
@@ -34,6 +38,7 @@
     },
     {
       "id": "de-die-milch",
+      "stable_id": "card-ms9433jb3kezq",
       "front": "die Milch",
       "back": "the milk",
       "notes": "*Milch* is feminine.",
@@ -41,6 +46,7 @@
     },
     {
       "id": "de-der-kaese",
+      "stable_id": "card-ms9433jb3kfzb",
       "front": "der Käse",
       "back": "the cheese",
       "notes": "*Käse* is masculine. Note the **ä**.",
@@ -48,6 +54,7 @@
     },
     {
       "id": "de-ich-moechte",
+      "stable_id": "card-ms9433jb3kgj0",
       "front": "Ich möchte",
       "back": "I would like",
       "notes": "Polite way to order or ask for something: *Ich möchte einen Kaffee.* Note the **ö**.",
@@ -55,6 +62,7 @@
     },
     {
       "id": "de-die-rechnung",
+      "stable_id": "card-ms9433jb3kh1i",
       "front": "die Rechnung, bitte",
       "back": "the bill, please",
       "notes": "Ask for the bill in a restaurant or café.",
@@ -62,6 +70,7 @@
     },
     {
       "id": "de-entschuldigung",
+      "stable_id": "card-ms9433jb3kit9",
       "front": "Entschuldigung",
       "back": "Excuse me / Sorry",
       "notes": "Use to get attention or to apologise.",
@@ -69,6 +78,7 @@
     },
     {
       "id": "de-wie-viel-kostet",
+      "stable_id": "card-ms9433jb3kjuo",
       "front": "Wie viel kostet das?",
       "back": "How much does it cost?",
       "notes": "Useful when shopping.",
@@ -76,6 +86,7 @@
     },
     {
       "id": "de-ich-verstehe-nicht",
+      "stable_id": "card-ms9433jb3kkaa",
       "front": "Ich verstehe nicht",
       "back": "I don't understand",
       "notes": "Handy when you are lost in a conversation.",
@@ -83,6 +94,7 @@
     },
     {
       "id": "de-sprechen-sie-englisch",
+      "stable_id": "card-ms9433jb3klwx",
       "front": "Sprechen Sie Englisch?",
       "back": "Do you speak English?",
       "notes": "Formal. Note the capitalised *Sie* (you, formal).",
@@ -109,6 +121,7 @@
       "title": "Match food and drink",
       "exercise": {
         "id": "l5-ex-match-food",
+        "stable_id": "ex-ms9433jb3kmjt",
         "type": "matching",
         "prompt": "Match each German word with its English meaning.",
         "card_ids": ["de-das-brot", "de-das-wasser", "de-der-kaffee", "de-der-apfel"],
@@ -128,6 +141,7 @@
       "title": "Match the phrases",
       "exercise": {
         "id": "l5-ex-match-phrases",
+        "stable_id": "ex-ms9433jb3knak",
         "type": "matching",
         "prompt": "Match each German phrase with its English meaning.",
         "card_ids": ["de-ich-moechte", "de-entschuldigung", "de-wie-viel-kostet", "de-ich-verstehe-nicht"],
@@ -147,6 +161,7 @@
       "title": "Write the word",
       "exercise": {
         "id": "l5-ex-free-water",
+        "stable_id": "ex-ms9433jb3ko5i",
         "type": "free_text",
         "prompt": "Write the German for \"the water\" (article + noun).",
         "card_ids": ["de-das-wasser"],
@@ -163,6 +178,7 @@
       "title": "Say excuse me",
       "exercise": {
         "id": "l5-ex-free-excuseme",
+        "stable_id": "ex-ms9433jb3kpnk",
         "type": "free_text",
         "prompt": "How do you say \"Excuse me / Sorry\" in German?",
         "card_ids": ["de-entschuldigung"],
@@ -179,6 +195,7 @@
       "title": "Order politely",
       "exercise": {
         "id": "l5-ex-cloze-order",
+        "stable_id": "ex-ms9433jb3kqh3",
         "type": "cloze",
         "prompt": "Complete: \"I would like a coffee.\"",
         "card_ids": ["de-ich-moechte"],
@@ -195,6 +212,7 @@
       "title": "Ask for the bill",
       "exercise": {
         "id": "l5-ex-cloze-bill",
+        "stable_id": "ex-ms9433jb3kr70",
         "type": "cloze",
         "prompt": "Complete: \"The bill, please.\"",
         "card_ids": ["de-die-rechnung"],
@@ -211,6 +229,7 @@
       "title": "Build the question",
       "exercise": {
         "id": "l5-ex-tiles-english",
+        "stable_id": "ex-ms9433jb3kska",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to ask: \"Do you speak English?\" (formal)",
         "card_ids": ["de-sprechen-sie-englisch"],
@@ -226,6 +245,7 @@
       "title": "Ask the price",
       "exercise": {
         "id": "l5-ex-cloze-cost",
+        "stable_id": "ex-ms9433jb3kta1",
         "type": "cloze",
         "prompt": "Complete: \"How much does it cost?\"",
         "card_ids": ["de-wie-viel-kostet"],

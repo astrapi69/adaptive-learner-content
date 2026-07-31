@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "rev-bonjour",
+      "stable_id": "card-ms9433km4satc",
       "front": "Bonjour",
       "back": "hello",
       "notes": "The all-purpose daytime greeting (Lesson 01). In the evening: **Bonsoir**.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "rev-merci",
+      "stable_id": "card-ms9433km4sb89",
       "front": "merci",
       "back": "thank you",
       "notes": "Politeness essential. *Merci beaucoup* — thank you very much.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "rev-trois",
+      "stable_id": "card-ms9433km4scuj",
       "front": "trois",
       "back": "three",
       "notes": "Numbers (Lesson 02): un, deux, **trois**, quatre, cinq. *Il est trois heures* — it's three o'clock.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "rev-pomme",
+      "stable_id": "card-ms9433km4sd81",
       "front": "une pomme",
       "back": "an apple",
       "notes": "Feminine noun, indefinite article **une** (Lesson 03). Food vocabulary too (Lesson 13).",
@@ -43,6 +47,7 @@
     },
     {
       "id": "rev-je-suis",
+      "stable_id": "card-ms9433km4se8u",
       "front": "Je suis",
       "back": "I am",
       "notes": "Present of **être** (Lesson 04). *Je suis fatigué* — I am tired.",
@@ -52,6 +57,7 @@
     },
     {
       "id": "rev-ma-mere",
+      "stable_id": "card-ms9433km4sf4z",
       "front": "ma mère",
       "back": "my mother",
       "notes": "Family + possessives (Lesson 05). *Ma* before a feminine noun: **ma** mère, **mon** père.",
@@ -61,6 +67,7 @@
     },
     {
       "id": "rev-rouge",
+      "stable_id": "card-ms9433km4sg39",
       "front": "rouge",
       "back": "red",
       "notes": "Colors (Lesson 06). *Une pomme rouge* — a red apple. The adjective comes after the noun.",
@@ -70,6 +77,7 @@
     },
     {
       "id": "rev-addition",
+      "stable_id": "card-ms9433km4sh0e",
       "front": "l'addition",
       "back": "the bill",
       "notes": "At the restaurant (Lesson 07). *L'addition, s'il vous plaît* — the bill, please.",
@@ -79,6 +87,7 @@
     },
     {
       "id": "rev-a-gauche",
+      "stable_id": "card-ms9433km4sioj",
       "front": "à gauche",
       "back": "on the left",
       "notes": "Directions (Lesson 08). Opposite: *à droite* — on the right. *Tout droit* — straight ahead.",
@@ -88,6 +97,7 @@
     },
     {
       "id": "rev-hier",
+      "stable_id": "card-ms9433km4sjrt",
       "front": "hier",
       "back": "yesterday",
       "notes": "Past-time marker (Lesson 10), pairs with the passé composé. *Hier, j'ai mangé* — yesterday I ate.",
@@ -98,6 +108,7 @@
     },
     {
       "id": "rev-le-matin",
+      "stable_id": "card-ms9433km4skld",
       "front": "le matin",
       "back": "(in) the morning",
       "notes": "Daily routine + telling time (Lesson 11). *Le matin, je bois un café* — in the morning, I drink a coffee.",
@@ -108,6 +119,7 @@
     },
     {
       "id": "rev-demain",
+      "stable_id": "card-ms9433km4sl74",
       "front": "demain",
       "back": "tomorrow",
       "notes": "Future-time marker, pairs with the futur proche. *Demain, je vais travailler* — tomorrow I'm going to work.",
@@ -118,6 +130,7 @@
     },
     {
       "id": "rev-je-voudrais",
+      "stable_id": "card-ms9433km4smi9",
       "front": "Je voudrais",
       "back": "I would like",
       "notes": "Polite request (Lesson 07/13). *Je voudrais un café* — I would like a coffee. Softer than *Je veux* (I want).",
@@ -141,6 +154,7 @@
       "title": "Quick recall: French to English",
       "exercise": {
         "id": "ex-match-mixed",
+        "stable_id": "ex-ms9433km4snco",
         "type": "matching",
         "prompt": "Warm up by matching these key words from across the course with their English meanings.",
         "card_ids": [
@@ -187,6 +201,7 @@
       "title": "Be polite",
       "exercise": {
         "id": "ex-free-hello-thanks",
+        "stable_id": "ex-ms9433km4so7u",
         "type": "free_text",
         "prompt": "Say *hello* and *thank you* in one short phrase (greeting first, then thanks).",
         "card_ids": [
@@ -214,6 +229,7 @@
       "title": "Introduce yourself",
       "exercise": {
         "id": "ex-tile-introduce",
+        "stable_id": "ex-ms9433km4sp82",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to mean: *My name is Marie and I am twenty years old.*",
         "card_ids": [
@@ -239,6 +255,7 @@
       "title": "At the restaurant",
       "exercise": {
         "id": "ex-pic-bill",
+        "stable_id": "ex-ms9433km4sqgy",
         "type": "picture_choice",
         "prompt": "Which one means *I would like the bill*?",
         "card_ids": [
@@ -280,6 +297,7 @@
       "title": "Family and directions",
       "exercise": {
         "id": "ex-free-mother-left",
+        "stable_id": "ex-ms9433km4sr20",
         "type": "free_text",
         "prompt": "Translate: *My mother is on the left.*",
         "card_ids": [
@@ -308,6 +326,7 @@
       "title": "Telling time",
       "exercise": {
         "id": "ex-free-three-oclock",
+        "stable_id": "ex-ms9433km4ssvy",
         "type": "free_text",
         "prompt": "Translate: *It is three o'clock.*",
         "card_ids": [
@@ -335,6 +354,7 @@
       "title": "The past (être verbs)",
       "exercise": {
         "id": "ex-free-market-yesterday",
+        "stable_id": "ex-ms9433km4stjx",
         "type": "free_text",
         "prompt": "Translate: *I went to the market yesterday.* (Use the passé composé. *Aller* takes **être**, not *avoir*.)",
         "card_ids": [
@@ -362,6 +382,7 @@
       "title": "The near future",
       "exercise": {
         "id": "ex-tile-visit-paris",
+        "stable_id": "ex-ms9433km4suv3",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to mean: *Tomorrow I am going to visit Paris.*",
         "card_ids": [
@@ -385,6 +406,7 @@
       "title": "Articles and colors",
       "exercise": {
         "id": "ex-free-apple-red",
+        "stable_id": "ex-ms9433km4sv9u",
         "type": "free_text",
         "prompt": "Translate: *a red apple.* (Remember: the color comes after the noun.)",
         "card_ids": [

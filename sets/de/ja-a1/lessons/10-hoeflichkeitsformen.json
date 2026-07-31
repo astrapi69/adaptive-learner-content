@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "onegaishimasu",
+      "stable_id": "card-ms9433ir2yfhm",
       "front": "お願いします",
       "back": "bitte (höfliche Bitte)",
       "notes": "Romaji: onegaishimasu. Kontext: コーヒーをお願いします。(koohii o onegaishimasu.) – Einen Kaffee, bitte.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "arigatou-gozaimasu",
+      "stable_id": "card-ms9433ir2yguz",
       "front": "ありがとうございます",
       "back": "Vielen Dank (höflich)",
       "notes": "Romaji: arigatou gozaimasu. Kontext: 手伝ってくれてありがとうございます。(tetsudatte kurete arigatou gozaimasu.) – Vielen Dank für Ihre Hilfe.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "arigatou",
+      "stable_id": "card-ms9433ir2yhgu",
       "front": "ありがとう",
       "back": "danke (locker)",
       "notes": "Romaji: arigatou. Kontext: 手伝ってくれてありがとう。(tetsudatte kurete arigatou.) – Danke fürs Helfen. Unter Freunden ohne ございます.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "sumimasen",
+      "stable_id": "card-ms9433ir2yiea",
       "front": "すみません",
       "back": "Entschuldigung / Verzeihung",
       "notes": "Romaji: sumimasen. Kontext: 遅れてすみません。(okurete sumimasen.) – Entschuldigung für die Verspätung.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "gomennasai",
+      "stable_id": "card-ms9433ir2yjz7",
       "front": "ごめんなさい",
       "back": "Entschuldigung / Es tut mir leid",
       "notes": "Romaji: gomennasai. Kontext: 約束を忘れてごめんなさい。(yakusoku o wasurete gomennasai.) – Es tut mir leid, dass ich den Termin vergessen habe.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "douzo",
+      "stable_id": "card-ms9433ir2yk6v",
       "front": "どうぞ",
       "back": "bitte (anbieten/auffordern)",
       "notes": "Romaji: douzo. Kontext: どうぞお入りください。(douzo ohairi kudasai.) – Bitte, treten Sie ein. 'Hier, bitte' beim Anbieten.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "itadakimasu",
+      "stable_id": "card-ms9433ir2ylu8",
       "front": "いただきます",
       "back": "Guten Appetit (vor dem Essen)",
       "notes": "Romaji: itadakimasu. Kontext: では、いただきます。(dewa, itadakimasu.) – Also dann, guten Appetit. Sagt man vor dem Essen.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "gochisousama",
+      "stable_id": "card-ms9433ir2ymji",
       "front": "ごちそうさまでした",
       "back": "Danke für das Essen (nach dem Essen)",
       "notes": "Romaji: gochisousama deshita. Kontext: ごちそうさまでした。おいしかったです。(gochisousama deshita. oishikatta desu.) – Danke für das Essen. Es war lecker.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "douitashimashite",
+      "stable_id": "card-ms9433ir2yng4",
       "front": "どういたしまして",
       "back": "Gern geschehen / Keine Ursache",
       "notes": "Romaji: douitashimashite. Kontext: ありがとう。— どういたしまして。(arigatou. — douitashimashite.) – Danke. — Gern geschehen.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "shitsureishimasu",
+      "stable_id": "card-ms9433ir2yo3f",
       "front": "失礼します",
       "back": "Entschuldigen Sie / Auf Wiedersehen (förmlich)",
       "notes": "Romaji: shitsurei shimasu. Kontext: 失礼します。(shitsurei shimasu.) – Entschuldigen Sie (z. B. beim Betreten/Verlassen eines Raumes).",
@@ -89,6 +99,7 @@
     },
     {
       "id": "doumo",
+      "stable_id": "card-ms9433ir2yp54",
       "front": "どうも",
       "back": "danke (kurz) / sehr",
       "notes": "Romaji: doumo. Kontext: どうもありがとう。(doumo arigatou.) – Vielen Dank. Allein steht どうも auch für ein lockeres 'danke'.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "ohayou-poli",
+      "stable_id": "card-ms9433ir2yq58",
       "front": "おはようございます",
       "back": "Guten Morgen (höflich)",
       "notes": "Romaji: ohayou gozaimasu. Kontext: 部長、おはようございます。(buchou, ohayou gozaimasu.) – Guten Morgen, Herr Abteilungsleiter. Auch eine alltägliche Höflichkeitsfloskel.",
@@ -124,6 +136,7 @@
       "title": "Floskeln zuordnen",
       "exercise": {
         "id": "ex-match-hoeflichkeit",
+        "stable_id": "ex-ms9433ir2yr42",
         "type": "matching",
         "prompt": "Ordne jeder Floskel die deutsche Bedeutung zu.",
         "card_ids": ["onegaishimasu", "arigatou-gozaimasu", "gomennasai", "douzo"],
@@ -143,6 +156,7 @@
       "title": "Tischsprüche zuordnen",
       "exercise": {
         "id": "ex-match-essen",
+        "stable_id": "ex-ms9433ir2ysrg",
         "type": "matching",
         "prompt": "Ordne jeden Spruch der richtigen Situation zu.",
         "card_ids": ["itadakimasu", "gochisousama", "arigatou", "douitashimashite"],
@@ -162,6 +176,7 @@
       "title": "Vielen Dank sagen",
       "exercise": {
         "id": "ex-free-arigatou",
+        "stable_id": "ex-ms9433ir2yt6d",
         "type": "free_text",
         "prompt": "Wie sagt man höflich 'Vielen Dank'?",
         "card_ids": ["arigatou-gozaimasu"],
@@ -178,6 +193,7 @@
       "title": "Vor dem Essen",
       "exercise": {
         "id": "ex-free-itadakimasu",
+        "stable_id": "ex-ms9433ir2yu85",
         "type": "free_text",
         "prompt": "Was sagt man auf Japanisch direkt vor dem Essen?",
         "card_ids": ["itadakimasu"],
@@ -194,6 +210,7 @@
       "title": "Lücke: Einen Kaffee bitte",
       "exercise": {
         "id": "ex-cloze-onegai",
+        "stable_id": "ex-ms9433ir2yvej",
         "type": "cloze",
         "prompt": "Ergänze die höfliche Bitte 'bitte'.",
         "card_ids": ["onegaishimasu"],
@@ -210,6 +227,7 @@
       "title": "Welches Wort heißt 'Entschuldigung'?",
       "exercise": {
         "id": "ex-pic-sumimasen",
+        "stable_id": "ex-ms9433ir2ywbb",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'Entschuldigung / Verzeihung'?",
         "card_ids": ["sumimasen"],

@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "el-libro",
+      "stable_id": "card-ms9433gv171j7",
       "front": "el libro",
       "back": "das Buch (maskulin → el)",
       "notes": "Endung -o → meistens maskulin → el.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "la-casa",
+      "stable_id": "card-ms9433gv172yp",
       "front": "la casa",
       "back": "das Haus (feminin → la)",
       "notes": "Endung -a → meistens feminin → la.",
@@ -26,6 +28,7 @@
     },
     {
       "id": "la-familia",
+      "stable_id": "card-ms9433gv173na",
       "front": "la familia",
       "back": "die Familie (feminin → la)",
       "tags": [
@@ -34,6 +37,7 @@
     },
     {
       "id": "el-mercado",
+      "stable_id": "card-ms9433gv17477",
       "front": "el mercado",
       "back": "der Markt (maskulin → el)",
       "tags": [
@@ -42,6 +46,7 @@
     },
     {
       "id": "rojo",
+      "stable_id": "card-ms9433gv175uq",
       "front": "rojo / roja",
       "back": "rot (passt sich dem Geschlecht an)",
       "notes": "rojo bei maskulin, roja bei feminin.",
@@ -51,6 +56,7 @@
     },
     {
       "id": "soy",
+      "stable_id": "card-ms9433gv176no",
       "front": "yo soy",
       "back": "ich bin (ser — Identität)",
       "tags": [
@@ -59,6 +65,7 @@
     },
     {
       "id": "estoy",
+      "stable_id": "card-ms9433gv177dl",
       "front": "yo estoy",
       "back": "ich bin (estar — Zustand/Ort)",
       "tags": [
@@ -67,6 +74,7 @@
     },
     {
       "id": "hablo",
+      "stable_id": "card-ms9433gv178t6",
       "front": "yo hablo",
       "back": "ich spreche (hablar, Präsens)",
       "notes": "-AR-Verb, 1. Person Singular.",
@@ -76,6 +84,7 @@
     },
     {
       "id": "como",
+      "stable_id": "card-ms9433gv179d9",
       "front": "yo como",
       "back": "ich esse (comer, Präsens)",
       "notes": "-ER-Verb, 1. Person Singular.",
@@ -85,6 +94,7 @@
     },
     {
       "id": "vivo",
+      "stable_id": "card-ms9433gv17alg",
       "front": "yo vivo",
       "back": "ich wohne/lebe (vivir, Präsens)",
       "notes": "-IR-Verb, 1. Person Singular.",
@@ -94,6 +104,7 @@
     },
     {
       "id": "hable",
+      "stable_id": "card-ms9433gv17b9k",
       "front": "yo hablé",
       "back": "ich sprach (hablar, Präteritum)",
       "notes": "Akzent auf dem é: hablé. Ohne Akzent (hablo) wäre es Präsens.",
@@ -103,6 +114,7 @@
     },
     {
       "id": "comi",
+      "stable_id": "card-ms9433gv17c4p",
       "front": "yo comí",
       "back": "ich aß (comer, Präteritum)",
       "notes": "Akzent auf dem í: comí.",
@@ -112,6 +124,7 @@
     },
     {
       "id": "fui",
+      "stable_id": "card-ms9433gv17drn",
       "front": "yo fui",
       "back": "ich ging / ich war (ir/ser, unregelmäßig)",
       "notes": "Unregelmäßiges Präteritum — KEIN Akzent: fui.",
@@ -121,6 +134,7 @@
     },
     {
       "id": "compre",
+      "stable_id": "card-ms9433gv17e27",
       "front": "yo compré",
       "back": "ich kaufte (comprar, Präteritum)",
       "notes": "Akzent auf dem é: compré.",
@@ -130,6 +144,7 @@
     },
     {
       "id": "soy-de-espana",
+      "stable_id": "card-ms9433gv17fh9",
       "front": "Soy de España.",
       "back": "Ich komme aus Spanien. (Herkunft → ser)",
       "tags": [
@@ -138,6 +153,7 @@
     },
     {
       "id": "camisa-roja",
+      "stable_id": "card-ms9433gv17gnd",
       "front": "la camisa roja",
       "back": "das rote Hemd (feminin → la camisa roja)",
       "notes": "camisa ist feminin → la + roja (nicht rojo).",
@@ -166,6 +182,7 @@
       "title": "Querbeet zuordnen",
       "exercise": {
         "id": "ex-match-mixed",
+        "stable_id": "ex-ms9433gv17hjf",
         "type": "matching",
         "prompt": "Ordne jede spanische Form ihrer deutschen Bedeutung zu (Artikel, ser, estar, Präteritum gemischt).",
         "card_ids": [
@@ -207,6 +224,7 @@
       "title": "Präsens oder Vergangenheit?",
       "exercise": {
         "id": "ex-match-present-past",
+        "stable_id": "ex-ms9433gv17iw4",
         "type": "matching",
         "prompt": "Ordne jede Form ihrer deutschen Bedeutung zu — achte auf den Akzent (Präsens vs. Präteritum).",
         "card_ids": [
@@ -248,6 +266,7 @@
       "title": "Identität → ser",
       "exercise": {
         "id": "ex-pick-ser-identitaet",
+        "stable_id": "ex-ms9433gv17j4k",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Form: 'Ich bin Studentin/Student.' (Identität)",
         "card_ids": [
@@ -289,6 +308,7 @@
       "title": "Artikel und Geschlecht",
       "exercise": {
         "id": "ex-pick-article-gender",
+        "stable_id": "ex-ms9433gv17kz7",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Form: 'das Haus' (mit korrektem Artikel).",
         "card_ids": [
@@ -329,6 +349,7 @@
       "title": "Lücke: ser oder estar?",
       "exercise": {
         "id": "ex-cloze-estar",
+        "stable_id": "ex-ms9433gv17lqd",
         "type": "cloze",
         "prompt": "Müde sein ist ein vorübergehender Zustand — ergänze die richtige Form.",
         "card_ids": [
@@ -354,6 +375,7 @@
       "title": "Lücke: Präsens -ER (comer)",
       "exercise": {
         "id": "ex-cloze-present-er",
+        "stable_id": "ex-ms9433gv17mek",
         "type": "cloze",
         "prompt": "Ergänze die wir-Form von comer (essen) im Präsens.",
         "card_ids": [
@@ -379,6 +401,7 @@
       "title": "Lücke: Präteritum (hablar)",
       "exercise": {
         "id": "ex-cloze-preterite-hablar",
+        "stable_id": "ex-ms9433gv17n2z",
         "type": "cloze",
         "prompt": "Gestern (ayer) → Vergangenheit. Ergänze die yo-Form von hablar im Präteritum.",
         "card_ids": [
@@ -404,6 +427,7 @@
       "title": "Lücke: unregelmäßiges Präteritum (ir)",
       "exercise": {
         "id": "ex-cloze-preterite-ir",
+        "stable_id": "ex-ms9433gv17oi6",
         "type": "cloze",
         "prompt": "Ergänze die yo-Form von ir (gehen) im Präteritum — unregelmäßig, kein Akzent.",
         "card_ids": [
@@ -429,6 +453,7 @@
       "title": "Kombinieren: Herkunft + Wohnort",
       "exercise": {
         "id": "ex-free-combine",
+        "stable_id": "ex-ms9433gv17pv7",
         "type": "free_text",
         "prompt": "Übersetze: 'Ich komme aus Spanien und ich wohne in Madrid.' (ser für Herkunft, vivir im Präsens)",
         "card_ids": [
@@ -457,6 +482,7 @@
       "title": "Kombinieren: Präteritum",
       "exercise": {
         "id": "ex-free-preterite",
+        "stable_id": "ex-ms9433gv17q9i",
         "type": "free_text",
         "prompt": "Übersetze: 'Gestern sprach ich mit María.' (hablar im Präteritum)",
         "card_ids": [
@@ -483,6 +509,7 @@
       "title": "Zusammensetzen: ser + estar",
       "exercise": {
         "id": "ex-tile-ser-estar",
+        "stable_id": "ex-ms9433gv17rl5",
         "type": "word_tiles",
         "prompt": "Setze zusammen: 'Ich bin groß und ich bin glücklich.' (Eigenschaft → ser, Gefühl → estar)",
         "card_ids": [
@@ -507,6 +534,7 @@
       "title": "Zusammensetzen: Präteritum",
       "exercise": {
         "id": "ex-tile-preterite",
+        "stable_id": "ex-ms9433gv17sz2",
         "type": "word_tiles",
         "prompt": "Setze zusammen: 'Gestern kaufte ich ein Buch.' (comprar im Präteritum)",
         "card_ids": [
@@ -530,6 +558,7 @@
       "title": "Geschlecht + Artikel + Adjektiv",
       "exercise": {
         "id": "ex-free-gender-article",
+        "stable_id": "ex-ms9433gv17twh",
         "type": "free_text",
         "prompt": "Übersetze: 'das rote Hemd'. (camisa ist feminin — Artikel und Adjektiv müssen passen)",
         "card_ids": [

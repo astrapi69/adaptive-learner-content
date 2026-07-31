@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "es-b2-pas-ser",
+      "stable_id": "card-ms9433kd4jicb",
       "front": "La casa fue construida por mi abuelo.",
       "back": "The house was built by my grandfather.",
       "notes": "True passive: **ser + participio**, and the participle **agrees** (*construida*). The agent follows **por**.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "es-b2-pas-agreement",
+      "stable_id": "card-ms9433kd4jjvx",
       "front": "escrito / escrita / escritos / escritas",
       "back": "after ser, the participle agrees in gender and number",
       "notes": "*Las cartas fueron **escritas**.* — Unlike after *haber*, the participle agrees with the subject in the *ser*-passive.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "es-b2-pas-refleja",
+      "stable_id": "card-ms9433kd4jkyn",
       "front": "Se venden casas.",
       "back": "Houses are sold / for sale.",
       "notes": "**Pasiva refleja**: *se* + verb, agreeing with the subject (*casas* → *venden*). Far more common than *ser* + participio when there is no named agent.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "es-b2-pas-se-habla",
+      "stable_id": "card-ms9433kd4jl8c",
       "front": "Se habla español.",
       "back": "Spanish is spoken (here).",
       "notes": "Singular subject → singular verb: *Se **habla** español*; *Se **hablan** varios idiomas*.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "es-b2-estar-part",
+      "stable_id": "card-ms9433kd4jmds",
       "front": "La puerta está cerrada.",
       "back": "The door is closed. (resulting state)",
       "notes": "**estar + participio** describes the **state** that results from an action, not the action itself.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "es-b2-accion-vs-estado",
+      "stable_id": "card-ms9433kd4jnox",
       "front": "fue cerrada vs. está cerrada",
       "back": "was closed (action) vs. is closed (state)",
       "notes": "*La puerta **fue cerrada** a las ocho* (the action happened) vs. *La puerta **está cerrada*** (it is now in a closed state).",
@@ -63,6 +69,7 @@
     },
     {
       "id": "es-b2-se-impersonal",
+      "stable_id": "card-ms9433kd4jo1y",
       "front": "Se dice que…",
       "back": "It is said that… / People say that…",
       "notes": "Impersonal *se* generalises with no subject: *Se dice que…*, *Se puede fumar aquí*.",
@@ -91,6 +98,7 @@
       "title": "Match the structures",
       "exercise": {
         "id": "ex-match-passive",
+        "stable_id": "ex-ms9433kd4jpl6",
         "type": "matching",
         "prompt": "Match each Spanish sentence with its English meaning.",
         "card_ids": ["es-b2-pas-ser", "es-b2-pas-refleja", "es-b2-estar-part", "es-b2-se-impersonal"],
@@ -110,6 +118,7 @@
       "title": "Pasiva refleja agreement",
       "exercise": {
         "id": "ex-cloze-refleja",
+        "stable_id": "ex-ms9433kd4jq82",
         "type": "cloze",
         "prompt": "Fill in the verb (vender) to agree with \"casas\": \"Houses are sold.\"",
         "card_ids": ["es-b2-pas-refleja"],
@@ -126,6 +135,7 @@
       "title": "Action or state?",
       "exercise": {
         "id": "ex-cloze-estar",
+        "stable_id": "ex-ms9433kd4jr37",
         "type": "cloze",
         "prompt": "Fill in ser or estar: \"The door is closed (state).\" → \"La puerta ___ cerrada.\"",
         "card_ids": ["es-b2-estar-part", "es-b2-accion-vs-estado"],
@@ -142,6 +152,7 @@
       "title": "True passive with agreement",
       "exercise": {
         "id": "ex-free-passive-agreement",
+        "stable_id": "ex-ms9433kd4js35",
         "type": "free_text",
         "prompt": "Translate: *The letters were written by Ana.* (ser-passive, mind the agreement)",
         "card_ids": ["es-b2-pas-ser", "es-b2-pas-agreement"],
@@ -158,6 +169,7 @@
       "title": "Build with se",
       "exercise": {
         "id": "ex-tiles-se-habla",
+        "stable_id": "ex-ms9433kd4jtbx",
         "type": "word_tiles",
         "prompt": "Arrange: *Spanish is spoken here.*",
         "card_ids": ["es-b2-pas-se-habla"],

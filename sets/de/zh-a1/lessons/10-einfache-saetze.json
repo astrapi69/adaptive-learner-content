@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "shi-satz",
+      "stable_id": "card-ms9433j43dq49",
       "front": "是",
       "back": "sein (bin/bist/ist)",
       "notes": "Pinyin: shì. Verbindet zwei Nomen. Kontext: 我 是 学生 (wǒ shì xuésheng) – Ich bin Schüler.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "bu-shi",
+      "stable_id": "card-ms9433j43drz5",
       "front": "不是",
       "back": "nicht sein (bin/bist/ist nicht)",
       "notes": "Pinyin: bú shì. 是 wird mit 不 verneint. Kontext: 我 不是 老师 (wǒ bú shì lǎoshī) – Ich bin kein Lehrer.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "you-satz",
+      "stable_id": "card-ms9433j43dsu3",
       "front": "有",
       "back": "haben / es gibt",
       "notes": "Pinyin: yǒu. Kontext: 我 有 时间 (wǒ yǒu shíjiān) – Ich habe Zeit.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "meiyou-satz",
+      "stable_id": "card-ms9433j43dt5b",
       "front": "没有",
       "back": "nicht haben / es gibt nicht",
       "notes": "Pinyin: méiyǒu. 有 wird mit 没 verneint, nie mit 不. Kontext: 我 没有 时间 (wǒ méiyǒu shíjiān) – Ich habe keine Zeit.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "hen",
+      "stable_id": "card-ms9433j43dud9",
       "front": "很",
       "back": "sehr (verbindet mit Adjektiv)",
       "notes": "Pinyin: hěn. Vor einem Adjektiv steht meist 很; ein Verb 'sein' entfällt. Kontext: 我 很 好 (wǒ hěn hǎo) – Mir geht es gut.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "hen-gao",
+      "stable_id": "card-ms9433j43dvd1",
       "front": "很高",
       "back": "(ist) groß / hoch",
       "notes": "Pinyin: hěn gāo. Kontext: 他 很 高 (tā hěn gāo) – Er ist groß.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "hen-da",
+      "stable_id": "card-ms9433j43dwck",
       "front": "很大",
       "back": "(ist) groß (an Größe)",
       "notes": "Pinyin: hěn dà. Kontext: 中国 很 大 (Zhōngguó hěn dà) – China ist groß.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "ma-frage-satz",
+      "stable_id": "card-ms9433j43dxze",
       "front": "吗",
       "back": "Fragepartikel (Ja/Nein-Frage)",
       "notes": "Pinyin: ma (neutral). Am Satzende macht es eine Ja/Nein-Frage. Kontext: 你 是 学生 吗 ？ (nǐ shì xuésheng ma?) – Bist du Schüler?",
@@ -73,6 +81,7 @@
     },
     {
       "id": "xuesheng",
+      "stable_id": "card-ms9433j43dy9i",
       "front": "学生",
       "back": "Schüler / Student",
       "notes": "Pinyin: xuésheng (zweites Zeichen neutral). Kontext: 我 是 学生 (wǒ shì xuésheng) – Ich bin Schüler.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "laoshi",
+      "stable_id": "card-ms9433j43dz8c",
       "front": "老师",
       "back": "Lehrer / Lehrerin",
       "notes": "Pinyin: lǎoshī. Kontext: 她 是 老师 (tā shì lǎoshī) – Sie ist Lehrerin.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "shijian",
+      "stable_id": "card-ms9433j43e0qv",
       "front": "时间",
       "back": "Zeit",
       "notes": "Pinyin: shíjiān. Kontext: 我 没有 时间 (wǒ méiyǒu shíjiān) – Ich habe keine Zeit.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "dou",
+      "stable_id": "card-ms9433j43e1rb",
       "front": "都",
       "back": "alle / beide / jeweils",
       "notes": "Pinyin: dōu. Steht vor dem Verb. Kontext: 我们 都 是 学生 (wǒmen dōu shì xuésheng) – Wir sind alle Schüler.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "women",
+      "stable_id": "card-ms9433j43e27r",
       "front": "我们",
       "back": "wir",
       "notes": "Pinyin: wǒmen. 我 + 们 (Plural). Kontext: 我们 是 朋友 (wǒmen shì péngyou) – Wir sind Freunde.",
@@ -132,6 +145,7 @@
       "title": "Bausteine zuordnen",
       "exercise": {
         "id": "ex-match-saetze",
+        "stable_id": "ex-ms9433j43e3wl",
         "type": "matching",
         "prompt": "Ordne jedem Baustein die deutsche Bedeutung zu.",
         "card_ids": ["shi-satz", "bu-shi", "meiyou-satz", "hen"],
@@ -151,6 +165,7 @@
       "title": "Ich habe keine Zeit",
       "exercise": {
         "id": "ex-cloze-keinezeit",
+        "stable_id": "ex-ms9433j43e484",
         "type": "cloze",
         "prompt": "Ergänze die richtige Verneinung von 有.",
         "card_ids": ["meiyou-satz", "shijian"],
@@ -167,6 +182,7 @@
       "title": "Bist du Schüler?",
       "exercise": {
         "id": "ex-cloze-frage",
+        "stable_id": "ex-ms9433j43e52f",
         "type": "cloze",
         "prompt": "Ergänze die Fragepartikel.",
         "card_ids": ["ma-frage-satz", "shi-satz", "xuesheng"],
@@ -183,6 +199,7 @@
       "title": "Er ist groß",
       "exercise": {
         "id": "ex-tiles-grossersatz",
+        "stable_id": "ex-ms9433j43e6d5",
         "type": "word_tiles",
         "prompt": "Setze 'Er ist groß.' zusammen.",
         "card_ids": ["hen", "hen-gao"],
@@ -198,6 +215,7 @@
       "title": "Ich bin Schüler",
       "exercise": {
         "id": "ex-free-binschueler",
+        "stable_id": "ex-ms9433j43e7m0",
         "type": "free_text",
         "prompt": "Wie sagt man 'Ich bin Schüler.' (Hanzi oder Pinyin)?",
         "card_ids": ["shi-satz", "xuesheng"],
@@ -214,6 +232,7 @@
       "title": "Welche ist die Verneinung von 有?",
       "exercise": {
         "id": "ex-pic-meiyou",
+        "stable_id": "ex-ms9433j43e8vy",
         "type": "picture_choice",
         "prompt": "Wie verneint man 有 ('haben')?",
         "card_ids": ["meiyou-satz"],

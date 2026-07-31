@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "soy",
+      "stable_id": "card-ms9433gl0xydc",
       "front": "yo soy",
       "back": "ich bin (ser)",
       "notes": "ser für dauerhafte Eigenschaften und Identität.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "eres",
+      "stable_id": "card-ms9433gl0xzrl",
       "front": "tú eres",
       "back": "du bist (ser)",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "es",
+      "stable_id": "card-ms9433gl0y0yh",
       "front": "él/ella es",
       "back": "er/sie ist (ser)",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "estoy",
+      "stable_id": "card-ms9433gl0y1ec",
       "front": "yo estoy",
       "back": "ich bin (estar)",
       "notes": "estar für Zustände und Orte.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "estas",
+      "stable_id": "card-ms9433gl0y229",
       "front": "tú estás",
       "back": "du bist (estar)",
       "tags": [
@@ -50,6 +55,7 @@
     },
     {
       "id": "esta",
+      "stable_id": "card-ms9433gl0y37q",
       "front": "él/ella está",
       "back": "er/sie ist (estar)",
       "tags": [
@@ -58,6 +64,7 @@
     },
     {
       "id": "soy-estudiante",
+      "stable_id": "card-ms9433gl0y4tl",
       "front": "Soy estudiante.",
       "back": "Ich bin Studentin/Student. (Identität → ser)",
       "tags": [
@@ -66,6 +73,7 @@
     },
     {
       "id": "estoy-cansado",
+      "stable_id": "card-ms9433gl0y5k3",
       "front": "Estoy cansado.",
       "back": "Ich bin müde. (vorübergehender Zustand → estar)",
       "tags": [
@@ -93,6 +101,7 @@
       "title": "ser-Formen zuordnen",
       "exercise": {
         "id": "ex-match-ser",
+        "stable_id": "ex-ms9433gl0y6ha",
         "type": "matching",
         "prompt": "Ordne die ser-Formen ihrer deutschen Bedeutung zu.",
         "card_ids": [
@@ -130,6 +139,7 @@
       "title": "estar-Formen zuordnen",
       "exercise": {
         "id": "ex-match-estar",
+        "stable_id": "ex-ms9433gl0y7bn",
         "type": "matching",
         "prompt": "Ordne die estar-Formen ihrer deutschen Bedeutung zu.",
         "card_ids": [
@@ -161,6 +171,7 @@
       "title": "ser oder estar?",
       "exercise": {
         "id": "ex-free-identitaet",
+        "stable_id": "ex-ms9433gl0y805",
         "type": "free_text",
         "prompt": "'Ich bin Studentin' (Identität): yo ___ estudiante. Tippe die fehlende Form.",
         "card_ids": [
@@ -187,6 +198,7 @@
       "title": "'Ich bin Studentin' zusammensetzen",
       "exercise": {
         "id": "ex-tile-soy-estudiante",
+        "stable_id": "ex-ms9433gl0y9h5",
         "type": "word_tiles",
         "prompt": "Setze den Satz 'Ich bin Studentin' (Identität → ser) zusammen.",
         "card_ids": [
@@ -208,6 +220,7 @@
       "title": "Lücke füllen: Zustand",
       "exercise": {
         "id": "ex-cloze-zustand",
+        "stable_id": "ex-ms9433gl0ya9d",
         "type": "cloze",
         "prompt": "'Ich bin müde' ist ein vorübergehender Zustand — ergänze die richtige Form.",
         "card_ids": [

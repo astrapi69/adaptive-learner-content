@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "le-pain2",
+      "stable_id": "card-ms9433j63gkiq",
       "front": "le pain",
       "back": "το ψωμί",
       "tags": [
@@ -16,6 +17,7 @@
     },
     {
       "id": "leau2",
+      "stable_id": "card-ms9433j63gl1t",
       "front": "l'eau",
       "back": "το νερό",
       "notes": "Θηλυκό (la eau → l'eau).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "le-cafe",
+      "stable_id": "card-ms9433j63gmre",
       "front": "le café",
       "back": "ο καφές",
       "notes": "Και «καφετέρια». Πρόσεξε τον τόνο: café.",
@@ -34,6 +37,7 @@
     },
     {
       "id": "le-lait",
+      "stable_id": "card-ms9433j63gnvk",
       "front": "le lait",
       "back": "το γάλα",
       "tags": [
@@ -42,6 +46,7 @@
     },
     {
       "id": "le-vin",
+      "stable_id": "card-ms9433j63go1y",
       "front": "le vin",
       "back": "το κρασί",
       "tags": [
@@ -50,6 +55,7 @@
     },
     {
       "id": "je-voudrais",
+      "stable_id": "card-ms9433j63gpzc",
       "front": "je voudrais",
       "back": "θα ήθελα",
       "notes": "Ευγενικός τρόπος να ζητήσεις κάτι.",
@@ -59,6 +65,7 @@
     },
     {
       "id": "un-croissant",
+      "stable_id": "card-ms9433j63gqgs",
       "front": "un croissant",
       "back": "ένα κρουασάν",
       "tags": [
@@ -67,6 +74,7 @@
     },
     {
       "id": "une-pomme",
+      "stable_id": "card-ms9433j63grqt",
       "front": "une pomme",
       "back": "ένα μήλο",
       "notes": "Θηλυκό: une pomme.",
@@ -100,6 +108,7 @@
       "title": "Τρόφιμα και ποτά",
       "exercise": {
         "id": "ex-match-fagito",
+        "stable_id": "ex-ms9433j63gs0b",
         "type": "matching",
         "prompt": "Αντιστοίχισε κάθε γαλλική λέξη με τη σημασία της.",
         "card_ids": [
@@ -135,6 +144,7 @@
       "title": "Πώς ζητάς ευγενικά «θα ήθελα έναν καφέ»;",
       "exercise": {
         "id": "ex-mc-voudrais",
+        "stable_id": "ex-ms9433j63gtqq",
         "type": "cloze",
         "prompt": "Πώς ζητάς ευγενικά «θα ήθελα έναν καφέ»;",
         "card_ids": [
@@ -164,6 +174,7 @@
       "title": "Ποιο άρθρο ταιριάζει: «___ eau» (το νερό);",
       "exercise": {
         "id": "ex-mc-eau",
+        "stable_id": "ex-ms9433j63gu5z",
         "type": "cloze",
         "prompt": "Ποιο άρθρο ταιριάζει: «___ eau» (το νερό);",
         "card_ids": [
@@ -192,6 +203,7 @@
       "title": "Πώς λες «ένα μήλο» (θηλυκό);",
       "exercise": {
         "id": "ex-mc-pomme",
+        "stable_id": "ex-ms9433j63gvin",
         "type": "cloze",
         "prompt": "Πώς λες «ένα μήλο» (θηλυκό);",
         "card_ids": [
@@ -220,6 +232,7 @@
       "title": "Πώς λες «το γάλα»;",
       "exercise": {
         "id": "ex-mc-lait",
+        "stable_id": "ex-ms9433j63gwff",
         "type": "cloze",
         "prompt": "Πώς λες «το γάλα»;",
         "card_ids": [
@@ -248,6 +261,7 @@
       "title": "Γράψε «ο καφές»",
       "exercise": {
         "id": "ex-clz-cafe",
+        "stable_id": "ex-ms9433j63gxaw",
         "type": "cloze",
         "prompt": "Γράψε «ο καφές» στα γαλλικά (άρθρο + λέξη, με τόνο).",
         "card_ids": [
@@ -272,6 +286,7 @@
       "title": "Θα ήθελα",
       "exercise": {
         "id": "ex-clz-voudrais",
+        "stable_id": "ex-ms9433j63gyhz",
         "type": "cloze",
         "prompt": "Συμπλήρωσε: «Je ___ un thé.» (θα ήθελα ένα τσάι)",
         "card_ids": [
@@ -295,6 +310,7 @@
       "title": "Πώς λες «το ψωμί»;",
       "exercise": {
         "id": "ex-mc-pain",
+        "stable_id": "ex-ms9433j63gz4w",
         "type": "cloze",
         "prompt": "Πώς λες «το ψωμί»;",
         "card_ids": [

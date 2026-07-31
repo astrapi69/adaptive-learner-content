@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "eomma",
+      "stable_id": "card-ms9433iu32icl",
       "front": "엄마",
       "back": "Mama",
       "notes": "Romanisierung: eomma. Kontext: 우리 엄마예요 (uri eommayeyo) – Das ist meine Mama. Förmlich: 어머니 (eomeoni).",
@@ -17,6 +18,7 @@
     },
     {
       "id": "appa",
+      "stable_id": "card-ms9433iu32jgq",
       "front": "아빠",
       "back": "Papa",
       "notes": "Romanisierung: appa. Kontext: 우리 아빠예요 (uri appayeyo) – Das ist mein Papa. Förmlich: 아버지 (abeoji).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "hyeong",
+      "stable_id": "card-ms9433iu32k3r",
       "front": "형",
       "back": "älterer Bruder (von einem Mann)",
       "notes": "Romanisierung: hyeong. Kontext: 우리 형 (uri hyeong) – mein großer Bruder. Nur ein Mann sagt 형.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "nuna",
+      "stable_id": "card-ms9433iu32lt7",
       "front": "누나",
       "back": "ältere Schwester (von einem Mann)",
       "notes": "Romanisierung: nuna. Kontext: 우리 누나 (uri nuna) – meine große Schwester. Nur ein Mann sagt 누나.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "oppa",
+      "stable_id": "card-ms9433iu32ms0",
       "front": "오빠",
       "back": "älterer Bruder (von einer Frau)",
       "notes": "Romanisierung: oppa. Kontext: 우리 오빠 (uri oppa) – mein großer Bruder. Nur eine Frau sagt 오빠.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "eonni",
+      "stable_id": "card-ms9433iu32nxw",
       "front": "언니",
       "back": "ältere Schwester (von einer Frau)",
       "notes": "Romanisierung: eonni. Kontext: 우리 언니 (uri eonni) – meine große Schwester. Nur eine Frau sagt 언니.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "dongsaeng",
+      "stable_id": "card-ms9433iu32odl",
       "front": "동생",
       "back": "jüngeres Geschwister",
       "notes": "Romanisierung: dongsaeng. Kontext: 남동생 (namdongsaeng) – jüngerer Bruder, 여동생 (yeodongsaeng) – jüngere Schwester.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "gajok",
+      "stable_id": "card-ms9433iu32pii",
       "front": "가족",
       "back": "Familie",
       "notes": "Romanisierung: gajok. Kontext: 우리 가족이에요 (uri gajogieyo) – Das ist meine Familie.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "harabeoji",
+      "stable_id": "card-ms9433iu32qvs",
       "front": "할아버지",
       "back": "Großvater",
       "notes": "Romanisierung: harabeoji. Kontext: 할아버지 댁 (harabeoji daek) – Opas Haus.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "halmeoni",
+      "stable_id": "card-ms9433iu32r54",
       "front": "할머니",
       "back": "Großmutter",
       "notes": "Romanisierung: halmeoni. Kontext: 할머니가 좋아요 (halmeoniga joayo) – Ich mag Oma.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "uri",
+      "stable_id": "card-ms9433iu32s67",
       "front": "우리",
       "back": "wir / unser (oft 'mein' bei Familie)",
       "notes": "Romanisierung: uri. Kontext: 우리 엄마 (uri eomma) – 'meine Mama' (wörtlich 'unsere Mama'). Koreaner sagen oft 'unser' statt 'mein'.",
@@ -116,6 +127,7 @@
       "title": "Familienwörter zuordnen",
       "exercise": {
         "id": "ex-match-familie",
+        "stable_id": "ex-ms9433iu32t6p",
         "type": "matching",
         "prompt": "Ordne jedem koreanischen Wort die deutsche Bedeutung zu.",
         "card_ids": ["eomma", "appa", "gajok", "halmeoni"],
@@ -135,6 +147,7 @@
       "title": "Geschwister zuordnen",
       "exercise": {
         "id": "ex-match-geschwister",
+        "stable_id": "ex-ms9433iu32ugw",
         "type": "matching",
         "prompt": "Ordne die Geschwister-Wörter zu.",
         "card_ids": ["hyeong", "nuna", "oppa", "eonni"],
@@ -154,6 +167,7 @@
       "title": "Mama",
       "exercise": {
         "id": "ex-free-mama",
+        "stable_id": "ex-ms9433iu32vrn",
         "type": "free_text",
         "prompt": "Wie sagt man 'Mama'? (Hangul oder Romanisierung)",
         "card_ids": ["eomma"],
@@ -170,6 +184,7 @@
       "title": "Großer Bruder (von einer Frau)",
       "exercise": {
         "id": "ex-free-oppa",
+        "stable_id": "ex-ms9433iu32wni",
         "type": "free_text",
         "prompt": "Eine Frau nennt ihren älteren Bruder ___ ? (Hangul oder Romanisierung)",
         "card_ids": ["oppa"],
@@ -186,6 +201,7 @@
       "title": "Lücke füllen: meine Mama",
       "exercise": {
         "id": "ex-cloze-meine-mama",
+        "stable_id": "ex-ms9433iu32x3l",
         "type": "cloze",
         "prompt": "Ergänze das Wort, das Koreaner statt 'mein' bei Familie benutzen.",
         "card_ids": ["uri", "eomma"],
@@ -202,6 +218,7 @@
       "title": "Das ist meine Familie",
       "exercise": {
         "id": "ex-tiles-meine-familie",
+        "stable_id": "ex-ms9433iu32ym5",
         "type": "word_tiles",
         "prompt": "Baue den Satz 'Das ist meine Familie.'",
         "card_ids": ["uri", "gajok"],

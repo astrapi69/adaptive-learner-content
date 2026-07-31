@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "past-worked",
+      "stable_id": "card-ms9433fr0b579",
       "front": "worked",
       "back": "arbeitete (work + ed)",
       "notes": "Aussprache der Endung: /t/ — 'workt'. Nach stimmlosen Lauten wie k, p, s.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "past-played",
+      "stable_id": "card-ms9433fr0b6oi",
       "front": "played",
       "back": "spielte (play + ed)",
       "notes": "Aussprache der Endung: /d/ — 'playd'. Nach stimmhaften Lauten und Vokalen.",
@@ -22,6 +24,7 @@
     },
     {
       "id": "past-wanted",
+      "stable_id": "card-ms9433fr0b7e6",
       "front": "wanted",
       "back": "wollte (want + ed)",
       "notes": "Aussprache der Endung: /ɪd/ — 'want-id'. Nach t und d wird die Endung als eigene Silbe gesprochen.",
@@ -29,6 +32,7 @@
     },
     {
       "id": "past-needed",
+      "stable_id": "card-ms9433fr0b83f",
       "front": "needed",
       "back": "brauchte (need + ed)",
       "notes": "Aussprache: /ɪd/ — 'need-id'. Auch hier eigene Silbe (Stamm endet auf d).",
@@ -36,6 +40,7 @@
     },
     {
       "id": "past-lived",
+      "stable_id": "card-ms9433fr0b94w",
       "front": "lived",
       "back": "wohnte / lebte (live + ed)",
       "notes": "Schreibweise: Stamm endet auf -e → nur -d anhängen. Aussprache: /d/.",
@@ -43,6 +48,7 @@
     },
     {
       "id": "past-did-you",
+      "stable_id": "card-ms9433fr0ba65",
       "front": "Did you ...?",
       "back": "...du ...? (Vergangenheit)",
       "notes": "Fragen in der Vergangenheit mit 'did' + Grundform: 'Did you see it?'. Das Hauptverb steht in der GRUNDFORM, nicht in der Vergangenheit!",
@@ -50,6 +56,7 @@
     },
     {
       "id": "past-didnt",
+      "stable_id": "card-ms9433fr0bbcs",
       "front": "I didn't ...",
       "back": "ich ... nicht (Vergangenheit)",
       "notes": "Verneinung mit 'did not / didn't' + Grundform: 'I didn't work.' (nicht 'didn't worked').",
@@ -82,6 +89,7 @@
       "title": "Vergangenheitsformen zuordnen",
       "exercise": {
         "id": "ex-match-past",
+        "stable_id": "ex-ms9433fr0bctx",
         "type": "matching",
         "prompt": "Ordne jede Vergangenheitsform ihrer deutschen Bedeutung zu.",
         "card_ids": ["past-worked", "past-played", "past-wanted", "past-needed"],
@@ -101,6 +109,7 @@
       "title": "Welches Wort hat eine Extra-Silbe?",
       "exercise": {
         "id": "ex-pick-pronunciation",
+        "stable_id": "ex-ms9433fr0bd4b",
         "type": "picture_choice",
         "prompt": "Bei welchem Wort wird die -ed-Endung als eigene Silbe /ɪd/ gesprochen?",
         "card_ids": ["past-wanted"],
@@ -122,6 +131,7 @@
       "title": "Regelmäßige Vergangenheit",
       "exercise": {
         "id": "ex-cloze-played",
+        "stable_id": "ex-ms9433fr0beqr",
         "type": "cloze",
         "prompt": "Setze 'play' ins Simple Past.",
         "card_ids": ["past-played"],
@@ -140,6 +150,7 @@
       "title": "Aussage in der Vergangenheit",
       "exercise": {
         "id": "ex-free-worked",
+        "stable_id": "ex-ms9433fr0bftp",
         "type": "free_text",
         "prompt": "Übersetze: 'Ich arbeitete gestern.'",
         "card_ids": ["past-worked"],
@@ -156,6 +167,7 @@
       "title": "Frage in der Vergangenheit",
       "exercise": {
         "id": "ex-free-did-you-see",
+        "stable_id": "ex-ms9433fr0bg1v",
         "type": "free_text",
         "prompt": "Übersetze: 'Hast du es gesehen?' (Frage in der Vergangenheit)",
         "card_ids": ["past-did-you"],
@@ -172,6 +184,7 @@
       "title": "Verneinung in der Vergangenheit",
       "exercise": {
         "id": "ex-free-didnt-want",
+        "stable_id": "ex-ms9433fr0bh5x",
         "type": "free_text",
         "prompt": "Übersetze: 'Ich wollte es nicht.'",
         "card_ids": ["past-didnt", "past-wanted"],
@@ -188,6 +201,7 @@
       "title": "Satz bauen",
       "exercise": {
         "id": "ex-tile-she-lived",
+        "stable_id": "ex-ms9433fr0bia9",
         "type": "word_tiles",
         "prompt": "Bilde 'Sie wohnte in Paris.'",
         "card_ids": ["past-lived"],
@@ -203,6 +217,7 @@
       "title": "Frage bauen",
       "exercise": {
         "id": "ex-tile-did-you-play",
+        "stable_id": "ex-ms9433fr0bjyg",
         "type": "word_tiles",
         "prompt": "Bilde 'Hast du gestern Fußball gespielt?'",
         "card_ids": ["past-did-you", "past-played"],
@@ -218,6 +233,7 @@
       "title": "Aussage mit -ed",
       "exercise": {
         "id": "ex-free-wanted",
+        "stable_id": "ex-ms9433fr0bkvs",
         "type": "free_text",
         "prompt": "Übersetze: 'Sie wollte ein Eis.'",
         "card_ids": ["past-wanted"],
@@ -234,6 +250,7 @@
       "title": "Noch eine Extra-Silbe",
       "exercise": {
         "id": "ex-cloze-needed",
+        "stable_id": "ex-ms9433fr0bl3f",
         "type": "cloze",
         "prompt": "Setze 'need' ins Simple Past.",
         "card_ids": ["past-needed"],

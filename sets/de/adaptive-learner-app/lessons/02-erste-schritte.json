@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "onboarding",
+      "stable_id": "card-ms9433fa00fqc",
       "front": "Onboarding",
       "back": "Der geführte Einstieg beim ersten Start: Ein kurzer Fragebogen bestimmt, wie du am besten lernst, und richtet die App auf dich ein.",
       "notes": "Englisch: onboarding. Nur einmal am Anfang; später jederzeit anpassbar.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "einstufungs-quiz",
+      "stable_id": "card-ms9433fa00gyr",
       "front": "Einstufungs-Fragebogen",
       "back": "Ein kurzes Quiz aus zwölf Fragen zu Beginn. Aus den Antworten berechnet die App, wie stark jede der sechs Lernmethoden zu dir passt.",
       "notes": "Englisch: assessment quiz. Kein Wissenstest, sondern eine Vorlieben-Erhebung.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "methoden-gewichte",
+      "stable_id": "card-ms9433fa00hbx",
       "front": "Methoden-Gewichte",
       "back": "Zahlen, die angeben, wie stark jede der sechs Lernmethoden bei dir eingesetzt wird. Sie entstehen aus dem Fragebogen und verschieben sich mit deinem Lernverhalten.",
       "notes": "Sie sorgen dafür, dass die App bevorzugt so lehrt, wie es dir liegt.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "projekt",
+      "stable_id": "card-ms9433fa00ipu",
       "front": "Projekt",
       "back": "Ein Lernvorhaben zu einem Thema, unter dem deine Sitzungen und Fortschritte gebündelt werden — zum Beispiel „Spanisch A1“ oder „KI-Grundlagen“.",
       "notes": "Englisch: project. Klammert alles zu einem Thema zusammen.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "sitzung",
+      "stable_id": "card-ms9433fa00jb8",
       "front": "Lernsitzung",
       "back": "Eine einzelne Lerneinheit innerhalb eines Projekts. Du wählst Thema und Methode, arbeitest den Lernzyklus durch und schließt die Sitzung ab.",
       "notes": "Englisch: session. Die konkrete Übungseinheit am Bildschirm.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "domain",
+      "stable_id": "card-ms9433fa00kin",
       "front": "Domäne (Domain)",
       "back": "Der thematische Bereich eines Projekts, etwa Sprache, KI, Programmierung, Psychologie oder Technik. Die Domäne bestimmt, welche Inhalte und Lehrarten passen.",
       "notes": "Englisch: domain. Grenzt das Themengebiet ein.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "curriculum-knoten",
+      "stable_id": "card-ms9433fa00lhi",
       "front": "Curriculum-Knoten",
       "back": "Ein einzelnes Teilthema innerhalb eines Projekts, das du gezielt lernst. Mehrere Knoten ergeben zusammen den Lernpfad (das Curriculum).",
       "notes": "Englisch: curriculum node. Ein Baustein deines Lernpfads.",
@@ -97,6 +104,7 @@
       "title": "Wie viele Fragen?",
       "exercise": {
         "id": "ex-free-quiz",
+        "stable_id": "ex-ms9433fa00msf",
         "type": "free_text",
         "prompt": "Aus wie vielen Fragen besteht der Einstufungs-Fragebogen beim Onboarding?",
         "card_ids": ["einstufungs-quiz"],
@@ -113,6 +121,7 @@
       "title": "Ebenen zuordnen",
       "exercise": {
         "id": "ex-match-ebenen",
+        "stable_id": "ex-ms9433fa00nfb",
         "type": "matching",
         "prompt": "Ordne jeder Ebene ihre Rolle zu.",
         "card_ids": ["projekt", "sitzung", "curriculum-knoten"],
@@ -131,6 +140,7 @@
       "title": "Was der Fragebogen bestimmt",
       "exercise": {
         "id": "ex-cloze-gewichte",
+        "stable_id": "ex-ms9433fa00ofj",
         "type": "cloze",
         "prompt": "Ergänze, was die App aus deinen Antworten berechnet.",
         "card_ids": ["methoden-gewichte"],
@@ -147,6 +157,7 @@
       "title": "Reihenfolge der Schritte",
       "exercise": {
         "id": "ex-tiles-schritte",
+        "stable_id": "ex-ms9433fa00p9h",
         "type": "word_tiles",
         "prompt": "Bringe die Schritte zum Start einer Sitzung in die richtige Reihenfolge.",
         "card_ids": ["sitzung", "domain", "curriculum-knoten"],
@@ -162,6 +173,7 @@
       "title": "Wie heißt das Lernvorhaben?",
       "exercise": {
         "id": "ex-free-projekt",
+        "stable_id": "ex-ms9433fa00qsh",
         "type": "free_text",
         "prompt": "Wie heißt die Ebene, die alle Sitzungen und Fortschritte zu einem Thema bündelt?",
         "card_ids": ["projekt"],
@@ -178,6 +190,7 @@
       "title": "Kein Wissenstest",
       "exercise": {
         "id": "ex-cloze-onboarding",
+        "stable_id": "ex-ms9433fa00rs3",
         "type": "cloze",
         "prompt": "Ergänze, was der Fragebogen NICHT ist.",
         "card_ids": ["einstufungs-quiz", "onboarding"],

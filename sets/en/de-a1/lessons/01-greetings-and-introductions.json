@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "de-hallo",
+      "stable_id": "card-ms9433j83hw5n",
       "front": "Hallo",
       "back": "Hello",
       "notes": "All-purpose greeting, fine at any time of day and in most situations.",
@@ -13,6 +14,7 @@
     },
     {
       "id": "de-guten-morgen",
+      "stable_id": "card-ms9433j83hxwf",
       "front": "Guten Morgen",
       "back": "Good morning",
       "notes": "Used in the morning until roughly 11 a.m.",
@@ -20,6 +22,7 @@
     },
     {
       "id": "de-guten-tag",
+      "stable_id": "card-ms9433j83hy2h",
       "front": "Guten Tag",
       "back": "Good day / Hello",
       "notes": "A polite, neutral greeting used during the day.",
@@ -27,6 +30,7 @@
     },
     {
       "id": "de-guten-abend",
+      "stable_id": "card-ms9433j83hza8",
       "front": "Guten Abend",
       "back": "Good evening",
       "notes": "Used in the evening.",
@@ -34,6 +38,7 @@
     },
     {
       "id": "de-tschuss",
+      "stable_id": "card-ms9433j83i094",
       "front": "Tschüss",
       "back": "Bye",
       "notes": "Informal goodbye. Note the **ü** and the **ß**.",
@@ -41,6 +46,7 @@
     },
     {
       "id": "de-auf-wiedersehen",
+      "stable_id": "card-ms9433j83i1ho",
       "front": "Auf Wiedersehen",
       "back": "Goodbye",
       "notes": "More formal farewell; literally \"until we see each other again\".",
@@ -48,6 +54,7 @@
     },
     {
       "id": "de-danke",
+      "stable_id": "card-ms9433j83i2vg",
       "front": "Danke",
       "back": "Thank you",
       "notes": "Add *schön* (**Danke schön**) to say \"thank you very much\".",
@@ -55,6 +62,7 @@
     },
     {
       "id": "de-bitte",
+      "stable_id": "card-ms9433j83i328",
       "front": "Bitte",
       "back": "Please / You're welcome",
       "notes": "Means both \"please\" and \"you're welcome\", depending on context.",
@@ -62,6 +70,7 @@
     },
     {
       "id": "de-ja",
+      "stable_id": "card-ms9433j83i4k5",
       "front": "Ja",
       "back": "Yes",
       "notes": "Affirmative.",
@@ -69,6 +78,7 @@
     },
     {
       "id": "de-nein",
+      "stable_id": "card-ms9433j83i532",
       "front": "Nein",
       "back": "No",
       "notes": "Negative.",
@@ -76,6 +86,7 @@
     },
     {
       "id": "de-ich-heisse",
+      "stable_id": "card-ms9433j83i6oa",
       "front": "Ich heiße",
       "back": "My name is",
       "notes": "Literally \"I am called\". Followed by your name: *Ich heiße Anna.*",
@@ -83,6 +94,7 @@
     },
     {
       "id": "de-wie-heisst-du",
+      "stable_id": "card-ms9433j83i7rp",
       "front": "Wie heißt du?",
       "back": "What is your name?",
       "notes": "Informal. The formal version is *Wie heißen Sie?*",
@@ -90,6 +102,7 @@
     },
     {
       "id": "de-freut-mich",
+      "stable_id": "card-ms9433j83i8tm",
       "front": "Freut mich",
       "back": "Nice to meet you",
       "notes": "Short for *Es freut mich* — \"it pleases me\".",
@@ -97,6 +110,7 @@
     },
     {
       "id": "de-wie-gehts",
+      "stable_id": "card-ms9433j83i9kp",
       "front": "Wie geht's?",
       "back": "How are you?",
       "notes": "Informal. *Wie geht's?* is short for *Wie geht es dir?*",
@@ -117,6 +131,7 @@
       "title": "Match the greetings",
       "exercise": {
         "id": "l1-ex-match-greetings",
+        "stable_id": "ex-ms9433j83ia4f",
         "type": "matching",
         "prompt": "Match each German greeting with its English meaning.",
         "card_ids": ["de-guten-morgen", "de-guten-tag", "de-guten-abend", "de-tschuss"],
@@ -136,6 +151,7 @@
       "title": "Say thank you",
       "exercise": {
         "id": "l1-ex-free-thanks",
+        "stable_id": "ex-ms9433j83ib0c",
         "type": "free_text",
         "prompt": "How do you say \"Thank you\" in German?",
         "card_ids": ["de-danke"],
@@ -152,6 +168,7 @@
       "title": "Say yes",
       "exercise": {
         "id": "l1-ex-free-yes",
+        "stable_id": "ex-ms9433j83ico5",
         "type": "free_text",
         "prompt": "How do you say \"Yes\" in German?",
         "card_ids": ["de-ja"],
@@ -174,6 +191,7 @@
       "title": "Match the introductions",
       "exercise": {
         "id": "l1-ex-match-intro",
+        "stable_id": "ex-ms9433j83id74",
         "type": "matching",
         "prompt": "Match each German phrase with its English meaning.",
         "card_ids": ["de-ich-heisse", "de-wie-heisst-du", "de-freut-mich", "de-wie-gehts"],
@@ -193,6 +211,7 @@
       "title": "Complete the introduction",
       "exercise": {
         "id": "l1-ex-cloze-name",
+        "stable_id": "ex-ms9433j83iesv",
         "type": "cloze",
         "prompt": "Complete: \"My name is Anna.\"",
         "card_ids": ["de-ich-heisse"],
@@ -209,6 +228,7 @@
       "title": "Complete the farewell",
       "exercise": {
         "id": "l1-ex-cloze-goodbye",
+        "stable_id": "ex-ms9433j83ifh9",
         "type": "cloze",
         "prompt": "Complete the formal goodbye: \"Goodbye.\"",
         "card_ids": ["de-auf-wiedersehen"],
@@ -225,6 +245,7 @@
       "title": "Build the question",
       "exercise": {
         "id": "l1-ex-tiles-intro",
+        "stable_id": "ex-ms9433j83igtb",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to ask: \"What is your name?\" (informal)",
         "card_ids": ["de-wie-heisst-du"],
@@ -240,6 +261,7 @@
       "title": "Greet someone",
       "exercise": {
         "id": "l1-ex-free-hello",
+        "stable_id": "ex-ms9433j83ihdh",
         "type": "free_text",
         "prompt": "Write an all-purpose German greeting for \"Hello\".",
         "card_ids": ["de-hallo"],

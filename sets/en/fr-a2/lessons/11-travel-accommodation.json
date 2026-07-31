@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "transport-vocab",
+      "stable_id": "card-ms9433kt4z9ox",
       "front": "le train, l'avion, le métro, le bus, la voiture",
       "back": "train, plane, metro/subway, bus, car",
       "notes": "Core transport nouns. Note the articles: **le** train, **l'**avion (l' before a vowel), **le** métro, **le** bus, **la** voiture.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "transport-prepositions",
+      "stable_id": "card-ms9433kt4zail",
       "front": "en train, en avion, en voiture / à pied, à vélo",
       "back": "by train, by plane, by car / on foot, by bike",
       "notes": "Use **en** + motorised transport and **à** + non-motorised travel. **en** train/avion/voiture/bus/métro; **à** pied/vélo. There is no article after *en* or *à* here.",
@@ -28,6 +30,7 @@
     },
     {
       "id": "city-country-prepositions",
+      "stable_id": "card-ms9433kt4zbwe",
       "front": "à Paris, en France, au Canada, aux États-Unis",
       "back": "in/to Paris, in/to France, in/to Canada, in/to the United States",
       "notes": "**à** + city; **en** + feminine country (most ending in -e); **au** + masculine country; **aux** + plural country. France is feminine → *en France*; Canada is masculine → *au Canada*.",
@@ -37,6 +40,7 @@
     },
     {
       "id": "travel-phrases",
+      "stable_id": "card-ms9433kt4zckl",
       "front": "prendre le train, un billet, un aller-retour, un aller simple",
       "back": "to take the train, a ticket, a return ticket, a one-way ticket",
       "notes": "*Prendre* is used for transport: *Je prends le train.* (I take/am taking the train.) *Un billet* = a ticket; *un aller-retour* = round-trip; *un aller simple* = one-way.",
@@ -46,6 +50,7 @@
     },
     {
       "id": "accommodation-vocab",
+      "stable_id": "card-ms9433kt4zdod",
       "front": "l'hôtel, une chambre, réserver, une réservation, la clé, l'auberge de jeunesse",
       "back": "the hotel, a room, to book/reserve, a reservation, the key, the youth hostel",
       "notes": "*Réserver* is a regular -er verb: *Je voudrais réserver une chambre* (I would like to book a room). *La clé* is sometimes spelled *la clef* — both are correct.",
@@ -55,6 +60,7 @@
     },
     {
       "id": "directions-vocab",
+      "stable_id": "card-ms9433kt4zejr",
       "front": "tournez à gauche, tournez à droite, tout droit, au coin, en face de, à côté de, jusqu'à",
       "back": "turn left, turn right, straight ahead, at the corner, opposite/across from, next to, as far as/until",
       "notes": "Use the imperative *tournez* (formal/plural) or *tourne* (informal) for directions. *Tout droit* = straight on (no turn). *Jusqu'à* combines with an article: *jusqu'au carrefour* (as far as the crossroads).",
@@ -64,6 +70,7 @@
     },
     {
       "id": "attendre-false-friend",
+      "stable_id": "card-ms9433kt4zfao",
       "front": "attendre",
       "back": "to wait for (NOT 'to attend')",
       "notes": "**False friend alert!** *Attendre* = **to wait for**, not 'to attend'. *J'attends le bus* = I am waiting for the bus. 'To attend' = **assister à**: *J'assiste au concert* (I am attending the concert).",
@@ -74,6 +81,7 @@
     },
     {
       "id": "booking-phrases",
+      "stable_id": "card-ms9433kt4zges",
       "front": "Je voudrais réserver une chambre pour deux nuits.",
       "back": "I would like to book a room for two nights.",
       "notes": "*Je voudrais* (conditional of *vouloir*) is polite. *Pour deux nuits* = for two nights. You can also say *une chambre simple* (single room) or *une chambre double* (double room).",
@@ -83,6 +91,7 @@
     },
     {
       "id": "direction-asking",
+      "stable_id": "card-ms9433kt4zhy5",
       "front": "Excusez-moi, pour aller à la gare, s'il vous plaît ?",
       "back": "Excuse me, how do I get to the station, please?",
       "notes": "Literally: 'Excuse me, to go to the station, please?' The *pour aller a...* structure is the standard way to ask for directions. *La gare* = the (train) station.",
@@ -92,6 +101,7 @@
     },
     {
       "id": "transport-action-phrases",
+      "stable_id": "card-ms9433kt4zie1",
       "front": "Je dois prendre le métro jusqu'à Nation, puis tourner à gauche.",
       "back": "I need to take the metro to Nation, then turn left.",
       "notes": "*Devoir* + infinitive = must/have to. *Jusqu'a* + place = as far as / up to. *Puis* = then (sequence). This type of sentence chains a transport instruction with a direction.",
@@ -101,6 +111,7 @@
     },
     {
       "id": "hotel-check-in",
+      "stable_id": "card-ms9433kt4zjv6",
       "front": "J'ai une réservation au nom de Dupont.",
       "back": "I have a reservation in the name of Dupont.",
       "notes": "*Au nom de* = in the name of. This is the standard phrase for checking in. You might also hear *Vous avez une réservation ?* (Do you have a reservation?) from the receptionist.",
@@ -135,6 +146,7 @@
       "title": "Match the transport to its preposition",
       "exercise": {
         "id": "ex-match-transport-prepositions",
+        "stable_id": "ex-ms9433kt4zksm",
         "type": "matching",
         "prompt": "Match each way of travelling to the correct French preposition (en or a).",
         "card_ids": ["transport-prepositions"],
@@ -155,6 +167,7 @@
       "title": "Translate: travelling by train",
       "exercise": {
         "id": "ex-free-i-take-train",
+        "stable_id": "ex-ms9433kt4zl2p",
         "type": "free_text",
         "prompt": "Translate: *I travel to Paris by train.* Use *voyager* (to travel) + correct prepositions.",
         "card_ids": ["transport-prepositions", "city-country-prepositions"],
@@ -180,6 +193,7 @@
       "title": "Fill in the correct preposition before the country",
       "exercise": {
         "id": "ex-cloze-country-preposition",
+        "stable_id": "ex-ms9433kt4zmd0",
         "type": "cloze",
         "prompt": "Fill in the blank: France is feminine, so use the correct preposition.",
         "card_ids": ["city-country-prepositions"],
@@ -198,6 +212,7 @@
       "title": "False friend: attendre",
       "exercise": {
         "id": "ex-free-attendre-false-friend",
+        "stable_id": "ex-ms9433kt4zn68",
         "type": "free_text",
         "prompt": "Translate: *I am waiting for the bus.* (Watch out for the false friend!)",
         "card_ids": ["attendre-false-friend"],
@@ -223,6 +238,7 @@
       "title": "Hotel scene: choose the correct phrase",
       "exercise": {
         "id": "ex-pic-hotel-vocabulary",
+        "stable_id": "ex-ms9433kt4zo1c",
         "type": "picture_choice",
         "prompt": "A guest arrives at the reception desk. Which sentence would they use to check in?",
         "card_ids": ["hotel-check-in", "accommodation-vocab"],
@@ -248,6 +264,7 @@
       "title": "Build: go straight ahead then turn left",
       "exercise": {
         "id": "ex-tiles-directions",
+        "stable_id": "ex-ms9433kt4zpn2",
         "type": "word_tiles",
         "prompt": "Arrange the words to say: *Go straight ahead, then turn left.*",
         "card_ids": ["directions-vocab"],
@@ -263,6 +280,7 @@
       "title": "Match the direction phrases",
       "exercise": {
         "id": "ex-match-directions",
+        "stable_id": "ex-ms9433kt4zq5s",
         "type": "matching",
         "prompt": "Match each French direction phrase to its English meaning.",
         "card_ids": ["directions-vocab"],
@@ -282,6 +300,7 @@
       "title": "Translate: booking a room",
       "exercise": {
         "id": "ex-free-book-room",
+        "stable_id": "ex-ms9433kt4zryt",
         "type": "free_text",
         "prompt": "Translate: *I would like to book a room for two nights.*",
         "card_ids": ["booking-phrases", "accommodation-vocab"],
@@ -307,6 +326,7 @@
       "title": "Fill in: false friend attendre in context",
       "exercise": {
         "id": "ex-cloze-attendre",
+        "stable_id": "ex-ms9433kt4zs9j",
         "type": "cloze",
         "prompt": "Fill in the blank with the correct verb. She is waiting for her friend at the station.",
         "card_ids": ["attendre-false-friend"],
@@ -325,6 +345,7 @@
       "title": "Build: I would like a return ticket to Lyon",
       "exercise": {
         "id": "ex-tiles-ticket-phrase",
+        "stable_id": "ex-ms9433kt4ztpc",
         "type": "word_tiles",
         "prompt": "Arrange the words: *I would like a return ticket to Lyon.*",
         "card_ids": ["travel-phrases"],

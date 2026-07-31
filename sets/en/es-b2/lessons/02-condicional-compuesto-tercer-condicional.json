@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "es-b2-cp-habria",
+      "stable_id": "card-ms9433kc4iu3n",
       "front": "habría hablado",
       "back": "I would have spoken (conditional perfect)",
       "notes": "**Condicional de haber** (*habría*) + **participio**: habría, habrías, habría, habríamos, habríais, habrían.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "es-b2-cp-hubiera",
+      "stable_id": "card-ms9433kc4ivfg",
       "front": "hubiera / hubiese hablado",
       "back": "I had spoken (pluperfect subjunctive)",
       "notes": "**Imperfecto de subjuntivo de haber** (*hubiera/hubiese*) + **participio**.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "es-b2-cp-pattern",
+      "stable_id": "card-ms9433kc4iw0n",
       "front": "Si hubiera sabido, habría venido.",
       "back": "If I had known, I would have come.",
       "notes": "Third conditional (unreal past): **Si + pluscuamperfecto de subjuntivo, condicional compuesto**.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "es-b2-cp-interchange",
+      "stable_id": "card-ms9433kc4ixlh",
       "front": "habría venido = hubiera venido",
       "back": "in the result clause, habría and hubiera are both accepted",
       "notes": "Colloquially the result clause often uses *hubiera* too: *Si hubiera sabido, **hubiera venido***. Both are correct.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "es-b2-cp-mixed",
+      "stable_id": "card-ms9433kc4iypc",
       "front": "Si hubiera estudiado, ahora tendría el título.",
       "back": "If I had studied, I would now have the degree.",
       "notes": "Mixed conditional: past condition (*hubiera estudiado*) → present result (*tendría*).",
@@ -54,6 +59,7 @@
     },
     {
       "id": "es-b2-cp-haber-part",
+      "stable_id": "card-ms9433kc4izeh",
       "front": "haber + participio",
       "back": "remember: the participle never changes after haber",
       "notes": "After *haber* the participle is invariable: *habría **dicho***, *hubiera **hecho***, *habría **escrito***. Mind the irregulars (dicho, hecho, escrito, visto, puesto, vuelto).",
@@ -63,6 +69,7 @@
     },
     {
       "id": "es-b2-cp-reproche",
+      "stable_id": "card-ms9433kc4j0wm",
       "front": "Deberías haberlo dicho.",
       "back": "You should have said so.",
       "notes": "*deber/poder + haber + participio* expresses past reproach or missed possibility.",
@@ -91,6 +98,7 @@
       "title": "Match form to meaning",
       "exercise": {
         "id": "ex-match-forms",
+        "stable_id": "ex-ms9433kc4j1fs",
         "type": "matching",
         "prompt": "Match each Spanish form with its English meaning.",
         "card_ids": ["es-b2-cp-habria", "es-b2-cp-hubiera"],
@@ -110,6 +118,7 @@
       "title": "The condition clause",
       "exercise": {
         "id": "ex-cloze-si-hubiera",
+        "stable_id": "ex-ms9433kc4j2at",
         "type": "cloze",
         "prompt": "Fill in the pluperfect subjunctive of saber (yo): \"If I had known…\"",
         "card_ids": ["es-b2-cp-pattern", "es-b2-cp-hubiera"],
@@ -126,6 +135,7 @@
       "title": "The result clause",
       "exercise": {
         "id": "ex-cloze-result",
+        "stable_id": "ex-ms9433kc4j3p1",
         "type": "cloze",
         "prompt": "Fill in the conditional of haber (yo): \"…I would have come.\"",
         "card_ids": ["es-b2-cp-habria"],
@@ -142,6 +152,7 @@
       "title": "Build a third conditional",
       "exercise": {
         "id": "ex-free-third",
+        "stable_id": "ex-ms9433kc4j49h",
         "type": "free_text",
         "prompt": "Translate: *If you had studied, you would have passed the exam.* (estudiar / aprobar)",
         "card_ids": ["es-b2-cp-pattern"],
@@ -158,6 +169,7 @@
       "title": "Past reproach",
       "exercise": {
         "id": "ex-tiles-reproche",
+        "stable_id": "ex-ms9433kc4j5rv",
         "type": "word_tiles",
         "prompt": "Arrange: *You should have said so.*",
         "card_ids": ["es-b2-cp-reproche"],

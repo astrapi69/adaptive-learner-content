@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "de-a2-aufstehen",
+      "stable_id": "card-ms9433jc3m2r6",
       "front": "aufstehen",
       "back": "to get up",
       "notes": "Separable: prefix **auf-** splits off. *Ich stehe … auf.*",
@@ -13,6 +14,7 @@
     },
     {
       "id": "de-a2-einkaufen",
+      "stable_id": "card-ms9433jc3m3k7",
       "front": "einkaufen",
       "back": "to go shopping",
       "notes": "Separable prefix **ein-**. *Ich kaufe … ein.*",
@@ -20,6 +22,7 @@
     },
     {
       "id": "de-a2-fernsehen",
+      "stable_id": "card-ms9433jc3m4wp",
       "front": "fernsehen",
       "back": "to watch TV",
       "notes": "Separable prefix **fern-**. *Ich sehe … fern.*",
@@ -27,6 +30,7 @@
     },
     {
       "id": "de-a2-anrufen",
+      "stable_id": "card-ms9433jc3m5k1",
       "front": "anrufen",
       "back": "to call (phone)",
       "notes": "Separable prefix **an-**. *Ich rufe … an.*",
@@ -34,6 +38,7 @@
     },
     {
       "id": "de-a2-aufraeumen",
+      "stable_id": "card-ms9433jc3m64u",
       "front": "aufräumen",
       "back": "to tidy up",
       "notes": "Separable prefix **auf-**. *Ich räume … auf.*",
@@ -41,6 +46,7 @@
     },
     {
       "id": "de-a2-um-uhr",
+      "stable_id": "card-ms9433jc3m7vy",
       "front": "um sieben Uhr",
       "back": "at seven o'clock",
       "notes": "Telling clock time: **um** + number + **Uhr**.",
@@ -48,6 +54,7 @@
     },
     {
       "id": "de-a2-am-morgen",
+      "stable_id": "card-ms9433jc3m8oo",
       "front": "am Morgen",
       "back": "in the morning",
       "notes": "Also *am Abend* (in the evening), *am Mittag* (at noon).",
@@ -55,6 +62,7 @@
     },
     {
       "id": "de-a2-stehe-auf",
+      "stable_id": "card-ms9433jc3m9s3",
       "front": "Ich stehe um sieben Uhr auf.",
       "back": "I get up at seven o'clock.",
       "notes": "Conjugated part second, separable prefix **auf** at the end.",
@@ -62,6 +70,7 @@
     },
     {
       "id": "de-a2-rufe-an",
+      "stable_id": "card-ms9433jc3mao8",
       "front": "Ich rufe meine Mutter an.",
       "back": "I call my mother.",
       "notes": "*an* jumps to the end of the sentence.",
@@ -82,6 +91,7 @@
       "title": "Match the daily-routine verbs",
       "exercise": {
         "id": "l4-ex-match-routine",
+        "stable_id": "ex-ms9433jc3mbky",
         "type": "matching",
         "prompt": "Match each separable verb with its meaning.",
         "card_ids": ["de-a2-aufstehen", "de-a2-einkaufen", "de-a2-fernsehen", "de-a2-aufraeumen"],
@@ -101,6 +111,7 @@
       "title": "Split the verb",
       "exercise": {
         "id": "l4-ex-tiles-aufstehen",
+        "stable_id": "ex-ms9433jc3mch6",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to say: \"I get up at seven o'clock.\"",
         "card_ids": ["de-a2-stehe-auf", "de-a2-aufstehen"],
@@ -116,6 +127,7 @@
       "title": "Complete the separable verb",
       "exercise": {
         "id": "l4-ex-cloze-anrufen",
+        "stable_id": "ex-ms9433jc3mdzp",
         "type": "cloze",
         "prompt": "Complete: \"I call my mother.\" (anrufen)",
         "card_ids": ["de-a2-anrufen", "de-a2-rufe-an"],
@@ -132,6 +144,7 @@
       "title": "Say \"at seven o'clock\"",
       "exercise": {
         "id": "l4-ex-free-time",
+        "stable_id": "ex-ms9433jc3met2",
         "type": "free_text",
         "prompt": "How do you say \"at seven o'clock\" in German?",
         "card_ids": ["de-a2-um-uhr"],
@@ -148,6 +161,7 @@
       "title": "Part of the day",
       "exercise": {
         "id": "l4-ex-cloze-morning",
+        "stable_id": "ex-ms9433jc3mfgy",
         "type": "cloze",
         "prompt": "Complete: \"in the morning\"",
         "card_ids": ["de-a2-am-morgen"],

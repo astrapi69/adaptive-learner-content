@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "nanji",
+      "stable_id": "card-ms9433ip2wesa",
       "front": "何時",
       "back": "Wie spät? / Welche Uhrzeit?",
       "notes": "Romaji: nanji. Kontext: 今、何時ですか。(ima, nanji desu ka.) – Wie spät ist es jetzt?",
@@ -17,6 +18,7 @@
     },
     {
       "id": "ji",
+      "stable_id": "card-ms9433ip2wfl3",
       "front": "時",
       "back": "Uhr (Stundenzähler)",
       "notes": "Romaji: ji. Kontext: 三時です。(san-ji desu.) – Es ist drei Uhr. 時 hängt man an die Zahl.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "ima",
+      "stable_id": "card-ms9433ip2wggm",
       "front": "今",
       "back": "jetzt",
       "notes": "Romaji: ima. Kontext: 今、勉強します。(ima, benkyou shimasu.) – Ich lerne jetzt.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "getsuyoubi",
+      "stable_id": "card-ms9433ip2whr3",
       "front": "月曜日",
       "back": "Montag",
       "notes": "Romaji: getsuyoubi. Kontext: 月曜日に会いましょう。(getsuyoubi ni aimashou.) – Treffen wir uns am Montag. 月 = Mond.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "kayoubi",
+      "stable_id": "card-ms9433ip2wie0",
       "front": "火曜日",
       "back": "Dienstag",
       "notes": "Romaji: kayoubi. Kontext: 火曜日は休みです。(kayoubi wa yasumi desu.) – Am Dienstag ist frei. 火 = Feuer.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "suiyoubi",
+      "stable_id": "card-ms9433ip2wj3d",
       "front": "水曜日",
       "back": "Mittwoch",
       "notes": "Romaji: suiyoubi. Kontext: 水曜日に映画を見ます。(suiyoubi ni eiga o mimasu.) – Am Mittwoch sehe ich einen Film. 水 = Wasser.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "doyoubi",
+      "stable_id": "card-ms9433ip2wk3c",
       "front": "土曜日",
       "back": "Samstag",
       "notes": "Romaji: doyoubi. Kontext: 土曜日は忙しいです。(doyoubi wa isogashii desu.) – Am Samstag bin ich beschäftigt. 土 = Erde.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "nichiyoubi",
+      "stable_id": "card-ms9433ip2wldl",
       "front": "日曜日",
       "back": "Sonntag",
       "notes": "Romaji: nichiyoubi. Kontext: 日曜日に休みます。(nichiyoubi ni yasumimasu.) – Am Sonntag ruhe ich mich aus. 日 = Sonne.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "kyou",
+      "stable_id": "card-ms9433ip2wmt6",
       "front": "今日",
       "back": "heute",
       "notes": "Romaji: kyou. Kontext: 今日は月曜日です。(kyou wa getsuyoubi desu.) – Heute ist Montag.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "ashita",
+      "stable_id": "card-ms9433ip2wn3h",
       "front": "明日",
       "back": "morgen",
       "notes": "Romaji: ashita. Kontext: 明日、東京へ行きます。(ashita, toukyou e ikimasu.) – Morgen fahre ich nach Tokio.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "mokuyoubi",
+      "stable_id": "card-ms9433ip2wobq",
       "front": "木曜日",
       "back": "Donnerstag",
       "notes": "Romaji: mokuyoubi. Kontext: 木曜日に会議があります。(mokuyoubi ni kaigi ga arimasu.) – Am Donnerstag ist eine Besprechung. 木 = Baum.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "kinyoubi",
+      "stable_id": "card-ms9433ip2wp34",
       "front": "金曜日",
       "back": "Freitag",
       "notes": "Romaji: kinyoubi. Kontext: 金曜日は楽しいです。(kinyoubi wa tanoshii desu.) – Der Freitag macht Spaß. 金 = Gold.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "fun",
+      "stable_id": "card-ms9433ip2wqqf",
       "front": "分",
       "back": "Minute(n) (Zähler)",
       "notes": "Romaji: fun/pun. Kontext: 十五分です。(juugo-fun desu.) – Es sind fünfzehn Minuten.",
@@ -132,6 +145,7 @@
       "title": "Wochentage zuordnen",
       "exercise": {
         "id": "ex-match-wochentage",
+        "stable_id": "ex-ms9433ip2wr6u",
         "type": "matching",
         "prompt": "Ordne jedem japanischen Wochentag die deutsche Bedeutung zu.",
         "card_ids": ["getsuyoubi", "suiyoubi", "doyoubi", "nichiyoubi"],
@@ -151,6 +165,7 @@
       "title": "Lücke: Wie spät ist es?",
       "exercise": {
         "id": "ex-cloze-nanji",
+        "stable_id": "ex-ms9433ip2wsfx",
         "type": "cloze",
         "prompt": "Ergänze das Fragewort für 'wie spät'.",
         "card_ids": ["nanji", "ima"],
@@ -167,6 +182,7 @@
       "title": "Heute sagen",
       "exercise": {
         "id": "ex-free-kyou",
+        "stable_id": "ex-ms9433ip2wtus",
         "type": "free_text",
         "prompt": "Wie heißt 'heute' auf Japanisch?",
         "card_ids": ["kyou"],
@@ -183,6 +199,7 @@
       "title": "Morgen sagen",
       "exercise": {
         "id": "ex-free-ashita",
+        "stable_id": "ex-ms9433ip2wu0e",
         "type": "free_text",
         "prompt": "Wie heißt 'morgen' (der nächste Tag) auf Japanisch?",
         "card_ids": ["ashita"],
@@ -199,6 +216,7 @@
       "title": "Satz bauen: Es ist drei Uhr",
       "exercise": {
         "id": "ex-tiles-sanji",
+        "stable_id": "ex-ms9433ip2wvqo",
         "type": "word_tiles",
         "prompt": "Baue den Satz 'Es ist drei Uhr.' in der richtigen Reihenfolge.",
         "card_ids": ["ji", "nanji"],
@@ -214,6 +232,7 @@
       "title": "Welches Wort bedeutet 'Sonntag'?",
       "exercise": {
         "id": "ex-pic-nichiyoubi",
+        "stable_id": "ex-ms9433ip2ww7r",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'Sonntag'?",
         "card_ids": ["nichiyoubi"],

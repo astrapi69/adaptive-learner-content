@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "fam-pere",
+      "stable_id": "card-ms9433kg4mw1x",
       "front": "le père",
       "back": "the father",
       "tags": [
@@ -15,6 +16,7 @@
     },
     {
       "id": "fam-mere",
+      "stable_id": "card-ms9433kg4mxtb",
       "front": "la mère",
       "back": "the mother",
       "tags": [
@@ -24,6 +26,7 @@
     },
     {
       "id": "fam-frere",
+      "stable_id": "card-ms9433kg4myg5",
       "front": "le frère",
       "back": "the brother",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "fam-soeur",
+      "stable_id": "card-ms9433kg4mz0h",
       "front": "la sœur",
       "back": "the sister",
       "notes": "Note the **œ** ligature — it's one letter, pronounced /œ/ (no English equivalent; like the eu in *peur*).",
@@ -43,6 +47,7 @@
     },
     {
       "id": "fam-fils",
+      "stable_id": "card-ms9433kg4n0pw",
       "front": "le fils",
       "back": "the son",
       "notes": "Pronounced **\"feece\"** — silent l, the s is voiced. Watch for the spelling, which doesn't reflect the sound.",
@@ -53,6 +58,7 @@
     },
     {
       "id": "fam-fille",
+      "stable_id": "card-ms9433kg4n1c8",
       "front": "la fille",
       "back": "the daughter / the girl",
       "notes": "Same word for *daughter* and *girl* — context decides.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "fam-oncle",
+      "stable_id": "card-ms9433kg4n2is",
       "front": "l'oncle",
       "back": "the uncle",
       "notes": "Starts with a vowel — elided. *l'oncle*, not *le oncle*.",
@@ -74,6 +81,7 @@
     },
     {
       "id": "fam-tante",
+      "stable_id": "card-ms9433kg4n3ej",
       "front": "la tante",
       "back": "the aunt",
       "tags": [
@@ -83,6 +91,7 @@
     },
     {
       "id": "fam-parents",
+      "stable_id": "card-ms9433kg4n41l",
       "front": "les parents",
       "back": "the parents",
       "notes": "Always plural in this sense. Also means *relatives* in some contexts (*mes parents éloignés* — my distant relatives).",
@@ -93,6 +102,7 @@
     },
     {
       "id": "poss-mon",
+      "stable_id": "card-ms9433kg4n5n7",
       "front": "mon",
       "back": "my (m. sg.)",
       "notes": "Used before masculine singular nouns: *mon père*, *mon frère*. ALSO used before any feminine noun that starts with a vowel: *mon amie* (not *ma amie*). The elision rule from Lesson 03 strikes again.",
@@ -102,6 +112,7 @@
     },
     {
       "id": "poss-ma",
+      "stable_id": "card-ms9433kg4n6hd",
       "front": "ma",
       "back": "my (f. sg.)",
       "notes": "Used before feminine singular nouns that start with a CONSONANT: *ma mère*, *ma sœur*, *ma tante*. Before a vowel, switches to *mon*.",
@@ -111,6 +122,7 @@
     },
     {
       "id": "poss-mes",
+      "stable_id": "card-ms9433kg4n7v9",
       "front": "mes",
       "back": "my (pl.)",
       "notes": "Same form for masculine and feminine plurals: *mes parents*, *mes sœurs*.",
@@ -134,6 +146,7 @@
       "title": "Match family members",
       "exercise": {
         "id": "ex-match-family",
+        "stable_id": "ex-ms9433kg4n8mk",
         "type": "matching",
         "prompt": "Match each French family word to its English meaning.",
         "card_ids": [
@@ -186,6 +199,7 @@
       "title": "My father",
       "exercise": {
         "id": "ex-free-mon-pere",
+        "stable_id": "ex-ms9433kg4n9u4",
         "type": "free_text",
         "prompt": "Translate: *my father*.",
         "card_ids": [
@@ -213,6 +227,7 @@
       "title": "My sister",
       "exercise": {
         "id": "ex-free-ma-soeur",
+        "stable_id": "ex-ms9433kg4nag8",
         "type": "free_text",
         "prompt": "Translate: *my sister*.",
         "card_ids": [
@@ -240,6 +255,7 @@
       "title": "The vowel trap",
       "exercise": {
         "id": "ex-pick-mon-amie",
+        "stable_id": "ex-ms9433kg4nbgw",
         "type": "picture_choice",
         "prompt": "*amie* (friend, f.) starts with a vowel. Which possessive is correct?",
         "card_ids": [
@@ -290,6 +306,7 @@
       "title": "Build: I have two brothers",
       "exercise": {
         "id": "ex-tile-family-sentence",
+        "stable_id": "ex-ms9433kg4ncaj",
         "type": "word_tiles",
         "prompt": "Arrange to mean *I have two brothers and one sister*.",
         "card_ids": [
@@ -316,6 +333,7 @@
       "title": "My parents",
       "exercise": {
         "id": "ex-free-mes-parents",
+        "stable_id": "ex-ms9433kg4ndm4",
         "type": "free_text",
         "prompt": "Translate: *my parents*.",
         "card_ids": [
@@ -343,6 +361,7 @@
       "title": "Match possessive to noun",
       "exercise": {
         "id": "ex-match-possessives",
+        "stable_id": "ex-ms9433kg4neyg",
         "type": "matching",
         "prompt": "Match each noun with the correct possessive form of *my*.",
         "card_ids": [
@@ -386,6 +405,7 @@
       "title": "Build: My brother is a teacher",
       "exercise": {
         "id": "ex-tile-mon-frere",
+        "stable_id": "ex-ms9433kg4nfya",
         "type": "word_tiles",
         "prompt": "Arrange to mean *My brother is a teacher*. (Remember: no article before a profession.)",
         "card_ids": [

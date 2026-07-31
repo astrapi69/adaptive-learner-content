@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "la-calle",
+      "stable_id": "card-ms9433jk3tevr",
       "front": "la calle",
       "back": "the street",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "el-banco",
+      "stable_id": "card-ms9433jk3tflz",
       "front": "el banco",
       "back": "the bank",
       "tags": [
@@ -26,6 +28,7 @@
     },
     {
       "id": "la-plaza",
+      "stable_id": "card-ms9433jk3tgt3",
       "front": "la plaza",
       "back": "the square",
       "tags": [
@@ -35,6 +38,7 @@
     },
     {
       "id": "el-museo",
+      "stable_id": "card-ms9433jk3thwu",
       "front": "el museo",
       "back": "the museum",
       "tags": [
@@ -44,6 +48,7 @@
     },
     {
       "id": "la-tienda",
+      "stable_id": "card-ms9433jk3ti2y",
       "front": "la tienda",
       "back": "the shop",
       "tags": [
@@ -53,6 +58,7 @@
     },
     {
       "id": "la-estacion",
+      "stable_id": "card-ms9433jk3tjr0",
       "front": "la estación",
       "back": "the station",
       "notes": "Accent on the ó. Plural: las estaciones (no accent).",
@@ -63,6 +69,7 @@
     },
     {
       "id": "el-hotel",
+      "stable_id": "card-ms9433jk3tkvw",
       "front": "el hotel",
       "back": "the hotel",
       "tags": [
@@ -72,6 +79,7 @@
     },
     {
       "id": "el-restaurante",
+      "stable_id": "card-ms9433jk3tlc5",
       "front": "el restaurante",
       "back": "the restaurant",
       "tags": [
@@ -81,6 +89,7 @@
     },
     {
       "id": "en",
+      "stable_id": "card-ms9433jk3tman",
       "front": "en",
       "back": "in / on",
       "tags": [
@@ -89,6 +98,7 @@
     },
     {
       "id": "al-lado-de",
+      "stable_id": "card-ms9433jk3tnnz",
       "front": "al lado de",
       "back": "next to",
       "tags": [
@@ -97,6 +107,7 @@
     },
     {
       "id": "entre",
+      "stable_id": "card-ms9433jk3to6c",
       "front": "entre",
       "back": "between",
       "tags": [
@@ -105,6 +116,7 @@
     },
     {
       "id": "enfrente-de",
+      "stable_id": "card-ms9433jk3tpm5",
       "front": "enfrente de",
       "back": "opposite",
       "tags": [
@@ -113,6 +125,7 @@
     },
     {
       "id": "a-la-derecha",
+      "stable_id": "card-ms9433jk3tqqv",
       "front": "a la derecha",
       "back": "to the right",
       "tags": [
@@ -121,6 +134,7 @@
     },
     {
       "id": "a-la-izquierda",
+      "stable_id": "card-ms9433jk3tr8k",
       "front": "a la izquierda",
       "back": "to the left",
       "tags": [
@@ -129,6 +143,7 @@
     },
     {
       "id": "todo-recto",
+      "stable_id": "card-ms9433jk3ts7h",
       "front": "todo recto",
       "back": "straight ahead",
       "tags": [
@@ -137,6 +152,7 @@
     },
     {
       "id": "voy-al-banco",
+      "stable_id": "card-ms9433jk3ttyo",
       "front": "Voy al banco.",
       "back": "I go to the bank. (a + el = al)",
       "notes": "a + el contracts to al. Never 'a el'.",
@@ -146,6 +162,7 @@
     },
     {
       "id": "museo-derecha",
+      "stable_id": "card-ms9433jk3tumq",
       "front": "El museo está a la derecha.",
       "back": "The museum is on the right.",
       "tags": [
@@ -154,6 +171,7 @@
     },
     {
       "id": "al-lado-del-restaurante",
+      "stable_id": "card-ms9433jk3tvlj",
       "front": "al lado del restaurante",
       "back": "next to the restaurant (de + el = del)",
       "notes": "de + el contracts to del. Never 'de el'.",
@@ -188,6 +206,7 @@
       "title": "Match the places",
       "exercise": {
         "id": "ex-match-orte",
+        "stable_id": "ex-ms9433jk3twoz",
         "type": "matching",
         "prompt": "Match each Spanish place with its English meaning.",
         "card_ids": [
@@ -229,6 +248,7 @@
       "title": "Match the directions",
       "exercise": {
         "id": "ex-match-richtungen",
+        "stable_id": "ex-ms9433jk3txz3",
         "type": "matching",
         "prompt": "Match each Spanish direction with its English meaning.",
         "card_ids": [
@@ -270,6 +290,7 @@
       "title": "Fill in: a + el",
       "exercise": {
         "id": "ex-cloze-al",
+        "stable_id": "ex-ms9433jk3tyzx",
         "type": "cloze",
         "prompt": "Contract a + el into the right form. 'I go to the bank.'",
         "card_ids": [
@@ -297,6 +318,7 @@
       "title": "Fill in: de + el",
       "exercise": {
         "id": "ex-cloze-del",
+        "stable_id": "ex-ms9433jk3tzis",
         "type": "cloze",
         "prompt": "Contract de + el into the right form. 'The hotel is next to the museum.'",
         "card_ids": [
@@ -325,6 +347,7 @@
       "title": "Fill in: no contraction",
       "exercise": {
         "id": "ex-cloze-a-la",
+        "stable_id": "ex-ms9433jk3u0k8",
         "type": "cloze",
         "prompt": "Here 'la' follows - nothing contracts. 'The shop is on the right.'",
         "card_ids": [
@@ -352,6 +375,7 @@
       "title": "Translate: go to the bank",
       "exercise": {
         "id": "ex-free-voy-al-banco",
+        "stable_id": "ex-ms9433jk3u15q",
         "type": "free_text",
         "prompt": "Translate: 'I go to the bank.' (Remember a + el = al.)",
         "card_ids": [
@@ -379,6 +403,7 @@
       "title": "Translate: on the right",
       "exercise": {
         "id": "ex-free-museo-derecha",
+        "stable_id": "ex-ms9433jk3u2up",
         "type": "free_text",
         "prompt": "Translate: 'The museum is on the right.' (Location → estar.)",
         "card_ids": [
@@ -407,6 +432,7 @@
       "title": "next to the museum",
       "exercise": {
         "id": "ex-pick-al-lado-del",
+        "stable_id": "ex-ms9433jk3u3m3",
         "type": "picture_choice",
         "prompt": "Pick the correct form: 'next to the museum' (de + el = del).",
         "card_ids": [
@@ -448,6 +474,7 @@
       "title": "to the bank",
       "exercise": {
         "id": "ex-pick-al-banco",
+        "stable_id": "ex-ms9433jk3u4vb",
         "type": "picture_choice",
         "prompt": "Pick the correct form: 'to the bank' (a + el = al).",
         "card_ids": [
@@ -489,6 +516,7 @@
       "title": "Build: opposite the square",
       "exercise": {
         "id": "ex-tile-enfrente",
+        "stable_id": "ex-ms9433jk3u5dd",
         "type": "word_tiles",
         "prompt": "Build the sentence: 'The bank is opposite the square.'",
         "card_ids": [
@@ -516,6 +544,7 @@
       "title": "Build: on the left",
       "exercise": {
         "id": "ex-tile-izquierda",
+        "stable_id": "ex-ms9433jk3u6f7",
         "type": "word_tiles",
         "prompt": "Build the sentence: 'The shop is on the left.'",
         "card_ids": [
@@ -541,6 +570,7 @@
       "title": "Translate: next to the restaurant",
       "exercise": {
         "id": "ex-free-al-lado-restaurante",
+        "stable_id": "ex-ms9433jk3u7bg",
         "type": "free_text",
         "prompt": "Translate: 'next to the restaurant' (de + el = del).",
         "card_ids": [

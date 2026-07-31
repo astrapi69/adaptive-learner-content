@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "chat-import",
+      "stable_id": "card-ms9433ff03yad",
       "front": "Chat-Import",
       "back": "Du kannst Gesprächsverläufe aus ChatGPT, Claude, Gemini oder beliebigem Markdown in die App laden, damit sie zum Ausgangspunkt fürs Lernen werden.",
       "notes": "Englisch: chat history import. Macht bisherige KI-Gespräche zu Lernstoff.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "ki-analyse",
+      "stable_id": "card-ms9433ff03zf7",
       "front": "KI-Analyse des Imports",
       "back": "Die App wertet einen importierten Verlauf aus und erkennt Thema, Schwächen, Fehlermuster, eine empfohlene Methode, Wortschatz (bei Sprachen) und Vorschläge für einen Lernpfad.",
       "notes": "Aus einem Gespräch wird ein strukturierter Lernplan.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "curriculum-seed",
+      "stable_id": "card-ms9433ff040rj",
       "front": "Lernpfad-Start aus Import",
       "back": "Aus der Analyse legt die App auf einen Klick einen passenden Lernpfad an und startet direkt eine gezielte Sitzung.",
       "notes": "Englisch: seed a curriculum. Vom Import direkt ins Üben.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "anki-export",
+      "stable_id": "card-ms9433ff0414v",
       "front": "Anki-Export (.apkg)",
       "back": "Die App kann Karteikarten als Anki-Paket exportieren — als einfache Karten und als Lückentext-Karten (Cloze) —, damit du sie in Anki weiternutzen kannst.",
       "notes": "Englisch: Anki .apkg. Anki ist ein verbreitetes Karteikarten-Programm.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "notebooklm-export",
+      "stable_id": "card-ms9433ff042jv",
       "front": "NotebookLM-Export",
       "back": "Ein ZIP-Export mit Zusammenfassung, Wortschatz, Regeln, Fehlern, Karteikarten und Sitzungen — vorbereitet zum Hochladen in Google NotebookLM.",
       "notes": "Englisch: NotebookLM ZIP. Bündelt deinen Lernstoff für ein anderes Werkzeug.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "fortschrittsbericht",
+      "stable_id": "card-ms9433ff043al",
       "front": "Fortschrittsbericht",
       "back": "Ein Bericht deines Lernfortschritts als Markdown oder PDF — mit gleichem Aufbau, egal ob du lokal oder im Server-Modus arbeitest.",
       "notes": "Englisch: progress report. Gut zum Ausdrucken oder Weitergeben.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "datenformate",
+      "stable_id": "card-ms9433ff044rc",
       "front": "Unterstützte Importformate",
       "back": "Verläufe lassen sich als JSON oder Markdown importieren — die üblichen Exportformate der großen Chat-Dienste.",
       "notes": "JSON und Markdown decken ChatGPT, Claude und Gemini ab.",
@@ -97,6 +104,7 @@
       "title": "Export und Ergebnis",
       "exercise": {
         "id": "ex-match-export",
+        "stable_id": "ex-ms9433ff045dl",
         "type": "matching",
         "prompt": "Ordne jedem Export sein Ergebnis zu.",
         "card_ids": ["anki-export", "notebooklm-export", "fortschrittsbericht"],
@@ -115,6 +123,7 @@
       "title": "Gespräche einbringen",
       "exercise": {
         "id": "ex-free-import",
+        "stable_id": "ex-ms9433ff046cp",
         "type": "free_text",
         "prompt": "Wie heißt die Funktion, die Gesprächsverläufe aus ChatGPT, Claude oder Gemini in die App lädt?",
         "card_ids": ["chat-import"],
@@ -131,6 +140,7 @@
       "title": "Was die Analyse erkennt",
       "exercise": {
         "id": "ex-cloze-analyse",
+        "stable_id": "ex-ms9433ff047cn",
         "type": "cloze",
         "prompt": "Ergänze, was die KI-Analyse aus einem Verlauf ableitet.",
         "card_ids": ["ki-analyse"],
@@ -147,6 +157,7 @@
       "title": "Vom Import ins Üben",
       "exercise": {
         "id": "ex-tiles-seed",
+        "stable_id": "ex-ms9433ff04851",
         "type": "word_tiles",
         "prompt": "Setze den Merksatz zusammen.",
         "card_ids": ["curriculum-seed"],
@@ -162,6 +173,7 @@
       "title": "Karteikarten mitnehmen",
       "exercise": {
         "id": "ex-free-anki",
+        "stable_id": "ex-ms9433ff049v5",
         "type": "free_text",
         "prompt": "In welches verbreitete Karteikarten-Programm kannst du deine Karten als .apkg exportieren?",
         "card_ids": ["anki-export"],
@@ -178,6 +190,7 @@
       "title": "Bericht als Datei",
       "exercise": {
         "id": "ex-cloze-bericht",
+        "stable_id": "ex-ms9433ff04a02",
         "type": "cloze",
         "prompt": "Ergänze das druckbare Format des Fortschrittsberichts.",
         "card_ids": ["fortschrittsbericht"],

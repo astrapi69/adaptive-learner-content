@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "verb-hablar-futuro",
+      "stable_id": "card-ms9433gz19pcp",
       "front": "hablar (hablaré)",
       "back": "sprechen → ich werde sprechen",
       "notes": "Regelmäßige -ar-Verben: vollständiger Infinitiv + Endung **-é**. *Mañana **hablaré** con él.* — Morgen werde ich mit ihm sprechen.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "verb-comer-futuro",
+      "stable_id": "card-ms9433gz19qtc",
       "front": "comer (comeré)",
       "back": "essen → ich werde essen",
       "notes": "Regelmäßige -er-Verben: vollständiger Infinitiv + Endung **-é**. *Esta noche **comeré** con mi familia.* — Heute Abend werde ich mit meiner Familie essen.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "verb-vivir-futuro",
+      "stable_id": "card-ms9433gz19rol",
       "front": "vivir (viviré)",
       "back": "wohnen / leben → ich werde wohnen",
       "notes": "Regelmäßige -ir-Verben: vollständiger Infinitiv + Endung **-é**. *El año que viene **viviré** en Barcelona.* — Nächstes Jahr werde ich in Barcelona wohnen.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "verb-tener-futuro",
+      "stable_id": "card-ms9433gz19sea",
       "front": "tener (tendré)",
       "back": "haben → ich werde haben",
       "notes": "Unregelmäßiger Stamm: **tendr-**. *El próximo año **tendré** más tiempo.* — Nächstes Jahr werde ich mehr Zeit haben. Nicht *teneré*!",
@@ -43,6 +47,7 @@
     },
     {
       "id": "verb-poner-futuro",
+      "stable_id": "card-ms9433gz19tsf",
       "front": "poner (pondré)",
       "back": "legen / stellen / setzen → ich werde legen",
       "notes": "Unregelmäßiger Stamm: **pondr-**. *¿Dónde **pondrás** las llaves?* — Wo wirst du die Schlüssel hinlegen?",
@@ -53,6 +58,7 @@
     },
     {
       "id": "verb-salir-futuro",
+      "stable_id": "card-ms9433gz19u2l",
       "front": "salir (saldré)",
       "back": "ausgehen / abfahren → ich werde ausgehen",
       "notes": "Unregelmäßiger Stamm: **saldr-**. *El tren **saldrá** a las ocho.* — Der Zug wird um acht Uhr abfahren.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "verb-venir-futuro",
+      "stable_id": "card-ms9433gz19v7l",
       "front": "venir (vendré)",
       "back": "kommen → ich werde kommen",
       "notes": "Unregelmäßiger Stamm: **vendr-**. *¿**Vendrás** a la fiesta el sábado?* — Wirst du am Samstag zur Party kommen?",
@@ -73,6 +80,7 @@
     },
     {
       "id": "verb-poder-futuro",
+      "stable_id": "card-ms9433gz19wq4",
       "front": "poder (podré)",
       "back": "können → ich werde können",
       "notes": "Unregelmäßiger Stamm: **podr-**. *Mañana no **podré** ayudarte.* — Morgen werde ich dir nicht helfen können.",
@@ -83,6 +91,7 @@
     },
     {
       "id": "verb-saber-futuro",
+      "stable_id": "card-ms9433gz19xs9",
       "front": "saber (sabré)",
       "back": "wissen → ich werde wissen",
       "notes": "Unregelmäßiger Stamm: **sabr-**. *Pronto **sabremos** los resultados.* — Bald werden wir die Ergebnisse wissen.",
@@ -93,6 +102,7 @@
     },
     {
       "id": "verb-hacer-futuro",
+      "stable_id": "card-ms9433gz19ypg",
       "front": "hacer (haré)",
       "back": "machen / tun → ich werde machen",
       "notes": "Unregelmäßiger Stamm: **har-**. *¿Qué **harás** este fin de semana?* — Was wirst du dieses Wochenende machen? Nicht *haceré*!",
@@ -103,6 +113,7 @@
     },
     {
       "id": "verb-decir-futuro",
+      "stable_id": "card-ms9433gz19zbp",
       "front": "decir (diré)",
       "back": "sagen → ich werde sagen",
       "notes": "Unregelmäßiger Stamm: **dir-**. *Te **diré** la verdad.* — Ich werde dir die Wahrheit sagen. Nicht *decirré*!",
@@ -113,6 +124,7 @@
     },
     {
       "id": "verb-querer-futuro",
+      "stable_id": "card-ms9433gz1a027",
       "front": "querer (querré)",
       "back": "wollen / mögen → ich werde wollen",
       "notes": "Unregelmäßiger Stamm: **querr-** (doppeltes r!). *¿**Querrás** venir con nosotros?* — Wirst du mit uns kommen wollen?",
@@ -123,6 +135,7 @@
     },
     {
       "id": "verb-haber-futuro",
+      "stable_id": "card-ms9433gz1a1cq",
       "front": "haber (habrá)",
       "back": "es gibt / es wird geben (Hilfszeitwort)",
       "notes": "Unregelmäßiger Stamm: **habr-**. Häufig als **habrá** (es gibt/wird geben): ***Habrá** mucha gente.* — Es wird viele Leute geben. Auch Hilfsverb für das futuro perfecto.",
@@ -158,6 +171,7 @@
       "title": "Endungen zuordnen",
       "exercise": {
         "id": "ex-match-endungen",
+        "stable_id": "ex-ms9433gz1a21z",
         "type": "matching",
         "prompt": "Ordne jeder Person die richtige Futuro-Endung zu.",
         "card_ids": ["verb-hablar-futuro", "verb-comer-futuro", "verb-vivir-futuro"],
@@ -178,6 +192,7 @@
       "title": "Unregelmäßige Stämme zuordnen",
       "exercise": {
         "id": "ex-match-unregelmaessig",
+        "stable_id": "ex-ms9433gz1a3lx",
         "type": "matching",
         "prompt": "Ordne jedem Infinitiv seinen unregelmäßigen Futurstamm zu.",
         "card_ids": ["verb-tener-futuro", "verb-hacer-futuro", "verb-decir-futuro", "verb-querer-futuro", "verb-saber-futuro"],
@@ -198,6 +213,7 @@
       "title": "Morgen werde ich mit ihm sprechen",
       "exercise": {
         "id": "ex-cloze-hablare",
+        "stable_id": "ex-ms9433gz1a42z",
         "type": "cloze",
         "prompt": "Ergänze die yo-Form von *hablar* im futuro simple.",
         "card_ids": ["verb-hablar-futuro"],
@@ -216,6 +232,7 @@
       "title": "Ich werde mehr Zeit haben",
       "exercise": {
         "id": "ex-cloze-tendre",
+        "stable_id": "ex-ms9433gz1a5j6",
         "type": "cloze",
         "prompt": "Ergänze die yo-Form von *tener* im futuro simple (unregelmäßiger Stamm!).",
         "card_ids": ["verb-tener-futuro"],
@@ -234,6 +251,7 @@
       "title": "Übersetzen: Was wirst du machen?",
       "exercise": {
         "id": "ex-free-hare",
+        "stable_id": "ex-ms9433gz1a69a",
         "type": "free_text",
         "prompt": "Übersetze ins Spanische: *Was wirst du dieses Wochenende machen?* (tú-Form von hacer)",
         "card_ids": ["verb-hacer-futuro"],
@@ -259,6 +277,7 @@
       "title": "Verstehen: Vermutung mit futuro",
       "exercise": {
         "id": "ex-free-estara",
+        "stable_id": "ex-ms9433gz1a7ot",
         "type": "free_text",
         "prompt": "Was bedeutet auf Deutsch: *¿Dónde estará Juan?*",
         "card_ids": ["verb-hablar-futuro", "verb-vivir-futuro"],
@@ -284,6 +303,7 @@
       "title": "Übersetzen: Wirst du zur Party kommen?",
       "exercise": {
         "id": "ex-free-vendre",
+        "stable_id": "ex-ms9433gz1a8og",
         "type": "free_text",
         "prompt": "Übersetze ins Spanische: *Wirst du am Samstag zur Party kommen?* (tú-Form von venir)",
         "card_ids": ["verb-venir-futuro"],
@@ -309,6 +329,7 @@
       "title": "Bilde: Heute Abend werde ich mit meiner Familie essen",
       "exercise": {
         "id": "ex-tiles-comere",
+        "stable_id": "ex-ms9433gz1a9kv",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Heute Abend werde ich mit meiner Familie essen.*",
         "card_ids": ["verb-comer-futuro"],
@@ -324,6 +345,7 @@
       "title": "Bilde: Der Zug wird um acht Uhr abfahren",
       "exercise": {
         "id": "ex-tiles-saldra",
+        "stable_id": "ex-ms9433gz1aaq4",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Der Zug wird um acht Uhr abfahren.*",
         "card_ids": ["verb-salir-futuro"],
@@ -339,6 +361,7 @@
       "title": "Die richtige Futurform wählen",
       "exercise": {
         "id": "ex-pic-futuro-form",
+        "stable_id": "ex-ms9433gz1abi4",
         "type": "picture_choice",
         "prompt": "Welcher Satz ist die korrekte Futurform für *Ich werde die Wahrheit sagen*? (yo-Form von decir)",
         "card_ids": ["verb-decir-futuro"],

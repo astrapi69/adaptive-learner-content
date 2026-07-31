@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "art-el",
+      "stable_id": "card-ms9433jf3o7lx",
       "front": "el",
       "back": "the (m. sg.)",
       "notes": "Used before masculine singular nouns: *el libro*, *el chico*, *el perro*.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "art-la",
+      "stable_id": "card-ms9433jf3o8l2",
       "front": "la",
       "back": "the (f. sg.)",
       "notes": "Used before feminine singular nouns: *la casa*, *la chica*, *la mesa*. Spanish doesn't elide before vowels the way French does — *la amiga*, not *l'amiga*.",
@@ -26,6 +28,7 @@
     },
     {
       "id": "art-los",
+      "stable_id": "card-ms9433jf3o98s",
       "front": "los",
       "back": "the (m. pl. or mixed)",
       "notes": "Used for masculine or mixed-gender plurals: *los libros*, *los chicos* (boys, or boys+girls). One man in a group of women makes the group *los*.",
@@ -37,6 +40,7 @@
     },
     {
       "id": "art-las",
+      "stable_id": "card-ms9433jf3oa0m",
       "front": "las",
       "back": "the (f. pl.)",
       "notes": "Only for all-feminine plurals: *las casas*, *las chicas*.",
@@ -48,6 +52,7 @@
     },
     {
       "id": "art-un",
+      "stable_id": "card-ms9433jf3ob14",
       "front": "un",
       "back": "a / an (m. sg.)",
       "notes": "Indefinite m. sg.: *un libro* (a book). Don't confuse with the number *uno* (one) — *un* is the shortened article form before a noun.",
@@ -58,6 +63,7 @@
     },
     {
       "id": "art-una",
+      "stable_id": "card-ms9433jf3ocl0",
       "front": "una",
       "back": "a / an (f. sg.)",
       "notes": "Indefinite f. sg.: *una casa* (a house).",
@@ -68,6 +74,7 @@
     },
     {
       "id": "art-unos",
+      "stable_id": "card-ms9433jf3ode0",
       "front": "unos",
       "back": "some (m. pl. or mixed)",
       "notes": "Approximate plural — *unos libros* (some books, around several). Optional in most plurals; *libros* alone often suffices.",
@@ -79,6 +86,7 @@
     },
     {
       "id": "art-unas",
+      "stable_id": "card-ms9433jf3oe90",
       "front": "unas",
       "back": "some (f. pl.)",
       "tags": [
@@ -89,6 +97,7 @@
     },
     {
       "id": "noun-libro",
+      "stable_id": "card-ms9433jf3of2w",
       "front": "libro",
       "back": "book (m.)",
       "notes": "Ends in **-o** → masculine. Reliable pattern.",
@@ -99,6 +108,7 @@
     },
     {
       "id": "noun-casa",
+      "stable_id": "card-ms9433jf3ogt3",
       "front": "casa",
       "back": "house (f.)",
       "notes": "Ends in **-a** → feminine. Reliable pattern.",
@@ -109,6 +119,7 @@
     },
     {
       "id": "noun-mesa",
+      "stable_id": "card-ms9433jf3ohkl",
       "front": "mesa",
       "back": "table (f.)",
       "tags": [
@@ -118,6 +129,7 @@
     },
     {
       "id": "noun-coche",
+      "stable_id": "card-ms9433jf3oip2",
       "front": "coche",
       "back": "car (m.)",
       "notes": "Ends in **-e** — gender unpredictable from the ending. Memorise as masculine. (Latin American Spanish often uses *carro* — also masculine.)",
@@ -129,6 +141,7 @@
     },
     {
       "id": "noun-mano",
+      "stable_id": "card-ms9433jf3ojj7",
       "front": "mano",
       "back": "hand (f.)",
       "notes": "**Common exception**: ends in -o but is feminine. *la mano*, *las manos*. There's a small set of these (also *la foto*, *la radio*) — memorise as exceptions.",
@@ -140,6 +153,7 @@
     },
     {
       "id": "noun-dia",
+      "stable_id": "card-ms9433jf3oked",
       "front": "día",
       "back": "day (m.)",
       "notes": "**Common exception**: ends in -a but is masculine. *el día*, *los días*. Pair with *el mapa* (m.), *el problema* (m.) — Greek-origin words ending in -a are typically masculine.",
@@ -170,6 +184,7 @@
       "title": "Match the article",
       "exercise": {
         "id": "ex-match-definite",
+        "stable_id": "ex-ms9433jf3olvv",
         "type": "matching",
         "prompt": "Match each noun with its definite article.",
         "card_ids": [
@@ -206,6 +221,7 @@
       "title": "Definite article — libro",
       "exercise": {
         "id": "ex-free-el-libro",
+        "stable_id": "ex-ms9433jf3omny",
         "type": "free_text",
         "prompt": "Type the correct definite article for **libro** (book).",
         "card_ids": [
@@ -239,6 +255,7 @@
       "title": "Indefinite — una casa",
       "exercise": {
         "id": "ex-pick-una",
+        "stable_id": "ex-ms9433jf3on44",
         "type": "picture_choice",
         "prompt": "Pick the correct indefinite article for **casa** (house).",
         "card_ids": [
@@ -286,6 +303,7 @@
       "title": "Exception — la mano",
       "exercise": {
         "id": "ex-free-la-mano",
+        "stable_id": "ex-ms9433jf3ooox",
         "type": "free_text",
         "prompt": "Type the definite article for **mano** (hand). Watch out — this is an exception.",
         "card_ids": [
@@ -313,6 +331,7 @@
       "title": "Exception — el día",
       "exercise": {
         "id": "ex-free-el-dia",
+        "stable_id": "ex-ms9433jf3op94",
         "type": "free_text",
         "prompt": "Type the definite article for **día** (day). Another exception.",
         "card_ids": [
@@ -340,6 +359,7 @@
       "title": "Plural articles",
       "exercise": {
         "id": "ex-match-plurals",
+        "stable_id": "ex-ms9433jf3oq7h",
         "type": "matching",
         "prompt": "Match each noun with its definite plural article (los or las).",
         "card_ids": [
@@ -381,6 +401,7 @@
       "title": "Build: The book and the house",
       "exercise": {
         "id": "ex-tile-mixed",
+        "stable_id": "ex-ms9433jf3orkg",
         "type": "word_tiles",
         "prompt": "Arrange to mean *The book and the house*.",
         "card_ids": [
@@ -407,6 +428,7 @@
       "title": "Plural exception",
       "exercise": {
         "id": "ex-pick-plural",
+        "stable_id": "ex-ms9433jf3ossx",
         "type": "picture_choice",
         "prompt": "*Las manos limpias* means…",
         "card_ids": [

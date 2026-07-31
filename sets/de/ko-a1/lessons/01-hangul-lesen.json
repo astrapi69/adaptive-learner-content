@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "konsonant-g",
+      "stable_id": "card-ms9433ir2yxaa",
       "front": "ㄱ",
       "back": "Konsonant g/k",
       "notes": "Romanisierung: g (am Wortanfang oft wie k). Kontext: 가 (ga) – Silbe aus ㄱ + ㅏ.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "konsonant-n",
+      "stable_id": "card-ms9433ir2yytg",
       "front": "ㄴ",
       "back": "Konsonant n",
       "notes": "Romanisierung: n. Kontext: 나 (na) – 'ich' (informell), Silbe aus ㄴ + ㅏ.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "konsonant-d",
+      "stable_id": "card-ms9433ir2yzfd",
       "front": "ㄷ",
       "back": "Konsonant d/t",
       "notes": "Romanisierung: d (am Wortanfang oft wie t). Kontext: 다 (da) – Silbe aus ㄷ + ㅏ.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "konsonant-r",
+      "stable_id": "card-ms9433ir2z01r",
       "front": "ㄹ",
       "back": "Konsonant r/l",
       "notes": "Romanisierung: r/l. Kontext: 라 (ra) – Silbe aus ㄹ + ㅏ.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "konsonant-m",
+      "stable_id": "card-ms9433ir2z1qi",
       "front": "ㅁ",
       "back": "Konsonant m",
       "notes": "Romanisierung: m. Kontext: 마 (ma) – Silbe aus ㅁ + ㅏ.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "konsonant-b",
+      "stable_id": "card-ms9433ir2z2rt",
       "front": "ㅂ",
       "back": "Konsonant b/p",
       "notes": "Romanisierung: b (am Wortanfang oft wie p). Kontext: 바 (ba) – Silbe aus ㅂ + ㅏ.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "konsonant-s",
+      "stable_id": "card-ms9433ir2z3da",
       "front": "ㅅ",
       "back": "Konsonant s",
       "notes": "Romanisierung: s. Kontext: 사 (sa) – auch 'vier', Silbe aus ㅅ + ㅏ.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "konsonant-ng",
+      "stable_id": "card-ms9433ir2z4s3",
       "front": "ㅇ",
       "back": "stumm / ng",
       "notes": "Romanisierung: am Silbenanfang stumm, am Silbenende 'ng'. Kontext: 아 (a) – ㅇ ist hier stumm, man hört nur den Vokal.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "vokal-a",
+      "stable_id": "card-ms9433ir2z55n",
       "front": "ㅏ",
       "back": "Vokal a",
       "notes": "Romanisierung: a. Kontext: 가 (ga) – ㄱ + ㅏ ergibt 'ga'.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "vokal-eo",
+      "stable_id": "card-ms9433ir2z6yb",
       "front": "ㅓ",
       "back": "Vokal eo (offenes o)",
       "notes": "Romanisierung: eo (wie offenes 'o' in 'Sonne'). Kontext: 너 (neo) – 'du', ㄴ + ㅓ.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "vokal-o",
+      "stable_id": "card-ms9433ir2z78k",
       "front": "ㅗ",
       "back": "Vokal o (geschlossen)",
       "notes": "Romanisierung: o. Kontext: 도 (do) – ㄷ + ㅗ.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "vokal-u",
+      "stable_id": "card-ms9433ir2z8l1",
       "front": "ㅜ",
       "back": "Vokal u",
       "notes": "Romanisierung: u. Kontext: 무 (mu) – ㅁ + ㅜ.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "vokal-eu",
+      "stable_id": "card-ms9433ir2z97s",
       "front": "ㅡ",
       "back": "Vokal eu",
       "notes": "Romanisierung: eu (gepresstes 'ü/u', wie unbetontes 'e'). Kontext: 그 (geu) – 'jener', ㄱ + ㅡ.",
@@ -113,6 +126,7 @@
     },
     {
       "id": "vokal-i",
+      "stable_id": "card-ms9433ir2zalq",
       "front": "ㅣ",
       "back": "Vokal i",
       "notes": "Romanisierung: i. Kontext: 미 (mi) – ㅁ + ㅣ.",
@@ -140,6 +154,7 @@
       "title": "Konsonanten zuordnen",
       "exercise": {
         "id": "ex-match-konsonanten",
+        "stable_id": "ex-ms9433ir2zbg2",
         "type": "matching",
         "prompt": "Ordne jedem Hangul-Konsonanten seinen Laut zu.",
         "card_ids": ["konsonant-g", "konsonant-n", "konsonant-m", "konsonant-s"],
@@ -159,6 +174,7 @@
       "title": "Vokale zuordnen",
       "exercise": {
         "id": "ex-match-vokale",
+        "stable_id": "ex-ms9433ir2zca5",
         "type": "matching",
         "prompt": "Ordne jedem Hangul-Vokal seinen Laut zu.",
         "card_ids": ["vokal-a", "vokal-o", "vokal-u", "vokal-i"],
@@ -178,6 +194,7 @@
       "title": "Silbe lesen: 나",
       "exercise": {
         "id": "ex-free-na",
+        "stable_id": "ex-ms9433ir2zdsn",
         "type": "free_text",
         "prompt": "Wie wird die Silbe 나 (ㄴ + ㅏ) romanisiert?",
         "card_ids": ["konsonant-n", "vokal-a"],
@@ -194,6 +211,7 @@
       "title": "Silbe lesen: 도",
       "exercise": {
         "id": "ex-free-do",
+        "stable_id": "ex-ms9433ir2zehq",
         "type": "free_text",
         "prompt": "Wie wird die Silbe 도 (ㄷ + ㅗ) romanisiert?",
         "card_ids": ["konsonant-d", "vokal-o"],
@@ -210,6 +228,7 @@
       "title": "Silbe bauen",
       "exercise": {
         "id": "ex-cloze-silbe-ga",
+        "stable_id": "ex-ms9433ir2zf17",
         "type": "cloze",
         "prompt": "Ergänze die Silbe, die aus ㄱ + ㅏ entsteht.",
         "card_ids": ["konsonant-g", "vokal-a"],
@@ -226,6 +245,7 @@
       "title": "Bausteine von 사",
       "exercise": {
         "id": "ex-tiles-sa",
+        "stable_id": "ex-ms9433ir2zghq",
         "type": "word_tiles",
         "prompt": "Setze die Bausteine der Silbe 사 (sa) in der richtigen Reihenfolge zusammen.",
         "card_ids": ["konsonant-s", "vokal-a"],
@@ -241,6 +261,7 @@
       "title": "Vokal erkennen: eu",
       "exercise": {
         "id": "ex-pick-vokal-eu",
+        "stable_id": "ex-ms9433ir2zhpd",
         "type": "picture_choice",
         "prompt": "Welches Zeichen ist der Vokal 'eu'?",
         "card_ids": ["vokal-eu"],

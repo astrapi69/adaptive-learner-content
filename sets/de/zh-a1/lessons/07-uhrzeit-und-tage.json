@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "ji-dian",
+      "stable_id": "card-ms9433j23c8t0",
       "front": "几点",
       "back": "Wie spät? / Um wie viel Uhr?",
       "notes": "Pinyin: jǐ diǎn. Kontext: 现在 几点 ？ (xiànzài jǐ diǎn?) – Wie spät ist es jetzt?",
@@ -17,6 +18,7 @@
     },
     {
       "id": "dian",
+      "stable_id": "card-ms9433j23c9bn",
       "front": "点",
       "back": "Uhr (volle Stunde)",
       "notes": "Pinyin: diǎn. Kontext: 三 点 (sān diǎn) – drei Uhr.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "fen",
+      "stable_id": "card-ms9433j23carp",
       "front": "分",
       "back": "Minute",
       "notes": "Pinyin: fēn. Kontext: 三 点 十 分 (sān diǎn shí fēn) – 3 Uhr 10.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "xianzai",
+      "stable_id": "card-ms9433j23cbz8",
       "front": "现在",
       "back": "jetzt",
       "notes": "Pinyin: xiànzài. Kontext: 现在 八 点 (xiànzài bā diǎn) – Es ist jetzt acht Uhr.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "xingqiyi",
+      "stable_id": "card-ms9433j23cc0f",
       "front": "星期一",
       "back": "Montag",
       "notes": "Pinyin: xīngqīyī. 星期 (Woche) + 一 (1). Kontext: 今天 星期一 (jīntiān xīngqīyī) – Heute ist Montag.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "xingqisan",
+      "stable_id": "card-ms9433j23cd82",
       "front": "星期三",
       "back": "Mittwoch",
       "notes": "Pinyin: xīngqīsān. 星期 + 三 (3). Kontext: 星期三 见 (xīngqīsān jiàn) – Bis Mittwoch.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "xingqiwu",
+      "stable_id": "card-ms9433j23cegp",
       "front": "星期五",
       "back": "Freitag",
       "notes": "Pinyin: xīngqīwǔ. 星期 + 五 (5). Kontext: 星期五 晚上 (xīngqīwǔ wǎnshang) – Freitagabend.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "xingqiri",
+      "stable_id": "card-ms9433j23cfch",
       "front": "星期日",
       "back": "Sonntag",
       "notes": "Pinyin: xīngqīrì. 星期 + 日 (Tag/Sonne) statt einer Zahl. Auch 星期天 (xīngqītiān). Kontext: 星期日 休息 (xīngqīrì xiūxi) – Am Sonntag ruht man.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "jintian",
+      "stable_id": "card-ms9433j23cgzn",
       "front": "今天",
       "back": "heute",
       "notes": "Pinyin: jīntiān. Kontext: 今天 星期几 ？ (jīntiān xīngqī jǐ?) – Welcher Wochentag ist heute?",
@@ -81,6 +90,7 @@
     },
     {
       "id": "mingtian",
+      "stable_id": "card-ms9433j23chxa",
       "front": "明天",
       "back": "morgen",
       "notes": "Pinyin: míngtiān. Kontext: 明天 见 ！ (míngtiān jiàn!) – Bis morgen!",
@@ -89,6 +99,7 @@
     },
     {
       "id": "zuotian",
+      "stable_id": "card-ms9433j23cif1",
       "front": "昨天",
       "back": "gestern",
       "notes": "Pinyin: zuótiān. Kontext: 昨天 星期日 (zuótiān xīngqīrì) – Gestern war Sonntag.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "xingqi-ji",
+      "stable_id": "card-ms9433j23cjag",
       "front": "星期几",
       "back": "welcher Wochentag?",
       "notes": "Pinyin: xīngqī jǐ. Kontext: 今天 星期几 ？ (jīntiān xīngqī jǐ?) – Welcher Wochentag ist heute?",
@@ -124,6 +136,7 @@
       "title": "Wochentage zuordnen",
       "exercise": {
         "id": "ex-match-tage",
+        "stable_id": "ex-ms9433j23ckgc",
         "type": "matching",
         "prompt": "Ordne jedem Tag die deutsche Bedeutung zu.",
         "card_ids": ["xingqiyi", "xingqisan", "xingqiwu", "xingqiri"],
@@ -143,6 +156,7 @@
       "title": "Wie spät?",
       "exercise": {
         "id": "ex-free-wiespaet",
+        "stable_id": "ex-ms9433j23clvs",
         "type": "free_text",
         "prompt": "Wie fragt man 'Wie spät?' / 'Um wie viel Uhr?' (Hanzi oder Pinyin)?",
         "card_ids": ["ji-dian"],
@@ -159,6 +173,7 @@
       "title": "Drei Uhr",
       "exercise": {
         "id": "ex-cloze-dreiuhr",
+        "stable_id": "ex-ms9433j23cm8j",
         "type": "cloze",
         "prompt": "Ergänze das Wort für die volle Stunde.",
         "card_ids": ["dian", "xianzai"],
@@ -175,6 +190,7 @@
       "title": "Heute ist Montag",
       "exercise": {
         "id": "ex-tiles-heutemontag",
+        "stable_id": "ex-ms9433j23cn7m",
         "type": "word_tiles",
         "prompt": "Setze 'Heute ist Montag.' zusammen.",
         "card_ids": ["jintian", "xingqiyi"],
@@ -190,6 +206,7 @@
       "title": "Morgen",
       "exercise": {
         "id": "ex-free-morgen",
+        "stable_id": "ex-ms9433j23coxo",
         "type": "free_text",
         "prompt": "Wie sagt man 'morgen' (der Tag danach; Hanzi oder Pinyin)?",
         "card_ids": ["mingtian"],
@@ -206,6 +223,7 @@
       "title": "Welches Wort bedeutet heute?",
       "exercise": {
         "id": "ex-pic-heute",
+        "stable_id": "ex-ms9433j23cp3z",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'heute'?",
         "card_ids": ["jintian"],

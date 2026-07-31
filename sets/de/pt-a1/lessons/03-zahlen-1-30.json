@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "um",
+      "stable_id": "card-ms9433iw34zut",
       "front": "um / uma",
       "back": "eins",
       "notes": "Kontext: um café e uma água – ein Kaffee und ein Wasser. 'um' (m.), 'uma' (w.).",
@@ -17,6 +18,7 @@
     },
     {
       "id": "dois",
+      "stable_id": "card-ms9433iw350z1",
       "front": "dois / duas",
       "back": "zwei",
       "notes": "Kontext: dois cafés, duas águas – zwei Kaffee, zwei Wasser. 'dois' (m.), 'duas' (w.).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "tres",
+      "stable_id": "card-ms9433iw3511b",
       "front": "três",
       "back": "drei",
       "notes": "Kontext: três amigos – drei Freunde.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "quatro",
+      "stable_id": "card-ms9433iw352p1",
       "front": "quatro",
       "back": "vier",
       "notes": "Kontext: quatro horas – vier Uhr.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "cinco",
+      "stable_id": "card-ms9433iw353rp",
       "front": "cinco",
       "back": "fünf",
       "notes": "Kontext: cinco dias – fünf Tage.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "seis",
+      "stable_id": "card-ms9433iw3540i",
       "front": "seis",
       "back": "sechs",
       "notes": "Kontext: seis euros – sechs Euro.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "sete",
+      "stable_id": "card-ms9433iw355l9",
       "front": "sete",
       "back": "sieben",
       "notes": "Kontext: sete horas – sieben Uhr.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "oito",
+      "stable_id": "card-ms9433iw356yf",
       "front": "oito",
       "back": "acht",
       "notes": "Kontext: oito anos – acht Jahre.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "nove",
+      "stable_id": "card-ms9433iw357dk",
       "front": "nove",
       "back": "neun",
       "notes": "Kontext: nove pessoas – neun Personen.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "dez",
+      "stable_id": "card-ms9433iw358k1",
       "front": "dez",
       "back": "zehn",
       "notes": "Kontext: dez reais – zehn Real.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "vinte",
+      "stable_id": "card-ms9433iw359nd",
       "front": "vinte",
       "back": "zwanzig",
       "notes": "Kontext: vinte e um – einundzwanzig (wörtlich 'zwanzig und eins').",
@@ -97,6 +108,7 @@
     },
     {
       "id": "trinta",
+      "stable_id": "card-ms9433iw35ane",
       "front": "trinta",
       "back": "dreißig",
       "notes": "Kontext: Tenho trinta anos. – Ich bin dreißig Jahre alt.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "vinte-e-cinco",
+      "stable_id": "card-ms9433iw35bm2",
       "front": "vinte e cinco",
       "back": "fünfundzwanzig",
       "notes": "Kontext: vinte e cinco minutos – fünfundzwanzig Minuten. Zusammengesetzt mit 'e' (und).",
@@ -113,6 +126,7 @@
     },
     {
       "id": "quanto",
+      "stable_id": "card-ms9433iw35ca7",
       "front": "Quantos?",
       "back": "Wie viele?",
       "notes": "Kontext: Quantos anos? – Wie viele Jahre? Weiblich: 'Quantas?'",
@@ -140,6 +154,7 @@
       "title": "Zahlen zuordnen",
       "exercise": {
         "id": "ex-match-zahlen",
+        "stable_id": "ex-ms9433iw35dkl",
         "type": "matching",
         "prompt": "Ordne jede portugiesische Zahl der deutschen zu.",
         "card_ids": ["tres", "cinco", "oito", "dez", "vinte"],
@@ -160,6 +175,7 @@
       "title": "Sieben auf Portugiesisch",
       "exercise": {
         "id": "ex-free-sete",
+        "stable_id": "ex-ms9433iw35erm",
         "type": "free_text",
         "prompt": "Wie heißt 'sieben' auf Portugiesisch?",
         "card_ids": ["sete"],
@@ -176,6 +192,7 @@
       "title": "Dreißig",
       "exercise": {
         "id": "ex-free-trinta",
+        "stable_id": "ex-ms9433iw35fbj",
         "type": "free_text",
         "prompt": "Wie heißt 'dreißig' auf Portugiesisch?",
         "card_ids": ["trinta"],
@@ -192,6 +209,7 @@
       "title": "Lücke füllen: 25",
       "exercise": {
         "id": "ex-cloze-vinte-cinco",
+        "stable_id": "ex-ms9433iw35g8c",
         "type": "cloze",
         "prompt": "Ergänze das Verbindungswort in 'fünfundzwanzig'.",
         "card_ids": ["vinte-e-cinco"],
@@ -208,6 +226,7 @@
       "title": "21 zusammensetzen",
       "exercise": {
         "id": "ex-tile-vinte-um",
+        "stable_id": "ex-ms9433iw35h0y",
         "type": "word_tiles",
         "prompt": "Baue die Zahl 'einundzwanzig'.",
         "card_ids": ["vinte", "um"],
@@ -223,6 +242,7 @@
       "title": "Zehn erkennen",
       "exercise": {
         "id": "ex-pic-dez",
+        "stable_id": "ex-ms9433iw35i0g",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'zehn'?",
         "card_ids": ["dez"],

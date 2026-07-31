@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "od-me",
+      "stable_id": "card-ms9433h01azgb",
       "front": "me",
       "back": "mich (direktes Objekt, 1. Person Singular)",
       "notes": "**me** ersetzt ein direktes Objekt der 1. Person Singular. *¿**Me** llamas?* — Rufst du mich an? Steht **vor** dem konjugierten Verb.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "od-te",
+      "stable_id": "card-ms9433h01b0fg",
       "front": "te",
       "back": "dich (direktes Objekt, 2. Person Singular)",
       "notes": "**te** ersetzt ein direktes Objekt der 2. Person Singular. ***Te** veo mañana* — ich sehe dich morgen. Steht **vor** dem konjugierten Verb.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "od-lo",
+      "stable_id": "card-ms9433h01b1f1",
       "front": "lo",
       "back": "ihn / es (direktes Objekt, mask. oder neutral)",
       "notes": "**lo** ersetzt ein maskulines oder neutrales direktes Objekt. *Compro el libro → **Lo** compro* — ich kaufe ihn/es. Auch neutral: ***Lo** sé* — ich weiß es (Sachverhalt).",
@@ -33,6 +36,7 @@
     },
     {
       "id": "od-la",
+      "stable_id": "card-ms9433h01b2vn",
       "front": "la",
       "back": "sie / es (direktes Objekt, fem.)",
       "notes": "**la** ersetzt ein feminines direktes Objekt. *Veo a María → **La** veo* — ich sehe sie. Genus des Objekts bestimmt lo vs. la.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "od-nos",
+      "stable_id": "card-ms9433h01b3x3",
       "front": "nos",
       "back": "uns (direktes Objekt, 1. Person Plural)",
       "notes": "**nos** ersetzt ein direktes Objekt der 1. Person Plural. ***Nos** invitan a la fiesta* — sie laden uns zur Party ein.",
@@ -51,6 +56,7 @@
     },
     {
       "id": "od-os",
+      "stable_id": "card-ms9433h01b4ho",
       "front": "os",
       "back": "euch (direktes Objekt, 2. Person Plural)",
       "notes": "**os** ersetzt ein direktes Objekt der 2. Person Plural (Spanien). ***Os** llamo esta tarde* — ich rufe euch heute Nachmittag an.",
@@ -60,6 +66,7 @@
     },
     {
       "id": "od-los",
+      "stable_id": "card-ms9433h01b5as",
       "front": "los",
       "back": "sie / diese (direktes Objekt, mask. Plural)",
       "notes": "**los** ersetzt ein maskulines direktes Objekt im Plural. *Tengo los billetes → **Los** tengo* — ich habe sie (die Tickets).",
@@ -69,6 +76,7 @@
     },
     {
       "id": "od-las",
+      "stable_id": "card-ms9433h01b6kz",
       "front": "las",
       "back": "sie / diese (direktes Objekt, fem. Plural)",
       "notes": "**las** ersetzt ein feminines direktes Objekt im Plural. *Compro las manzanas → **Las** compro* — ich kaufe sie (die Äpfel).",
@@ -78,6 +86,7 @@
     },
     {
       "id": "od-stellung-verb",
+      "stable_id": "card-ms9433h01b7uh",
       "front": "Lo quiero. / Quiero comprarlo.",
       "back": "Stellung: VOR dem konj. Verb — oder ANgehängt an Infinitiv/Gerundium",
       "notes": "**Regel:** Vor dem konjugierten Verb: ***Lo** quiero* — oder angehängt an den Infinitiv: *Quiero comprar**lo***. Beide Varianten sind korrekt. Beim Gerundium: *Estoy leyéndo**lo*** (Akzent!).",
@@ -88,6 +97,7 @@
     },
     {
       "id": "od-personal-a",
+      "stable_id": "card-ms9433h01b85r",
       "front": "Veo a María → La veo.",
       "back": "Persönliches a: bei Personen als direktem Objekt obligatorisch",
       "notes": "**Erinnerung aus A1:** Wenn eine Person das direkte Objekt ist, steht die **persönliche a** davor: *Veo **a** María*. Das Pronomen ersetzt dann die ganze Gruppe *a María* → ***La** veo*.",
@@ -97,6 +107,7 @@
     },
     {
       "id": "od-neutral-lo",
+      "stable_id": "card-ms9433h01b9w1",
       "front": "Lo sé. / Lo entiendo.",
       "back": "Neutrales lo: ersetzt einen ganzen Sachverhalt",
       "notes": "**lo** kann auch einen **ganzen Sachverhalt** ersetzen (nicht nur ein Nomen): *¿Sabes que hoy hay examen? — Sí, **lo** sé.* Das nennt man neutrales **lo** — es hat kein Genus.",
@@ -131,6 +142,7 @@
       "title": "Pronomen und Bedeutung zuordnen",
       "exercise": {
         "id": "ex-match-pronomen",
+        "stable_id": "ex-ms9433h01ba2f",
         "type": "matching",
         "prompt": "Ordne jedem spanischen OD-Pronomen seine deutsche Bedeutung zu.",
         "card_ids": ["od-me", "od-te", "od-lo", "od-la", "od-nos"],
@@ -151,6 +163,7 @@
       "title": "Welches Pronomen passt zum Objekt?",
       "exercise": {
         "id": "ex-match-genus",
+        "stable_id": "ex-ms9433h01bbh8",
         "type": "matching",
         "prompt": "Welches OD-Pronomen ersetzt das jeweilige spanische Nomen?",
         "card_ids": ["od-lo", "od-la", "od-los", "od-las"],
@@ -170,6 +183,7 @@
       "title": "Ersetze das Objekt — den Kaffee",
       "exercise": {
         "id": "ex-cloze-lo-compro",
+        "stable_id": "ex-ms9433h01bcga",
         "type": "cloze",
         "prompt": "Ersetze *el café* durch das passende OD-Pronomen. Denke an die Stellung!",
         "card_ids": ["od-lo", "od-stellung-verb"],
@@ -189,6 +203,7 @@
       "title": "Ersetze das Objekt — María",
       "exercise": {
         "id": "ex-cloze-la-veo",
+        "stable_id": "ex-ms9433h01bd0d",
         "type": "cloze",
         "prompt": "Bilde die Kurzform: *Veo a María.* → Ersetze *a María* durch das OD-Pronomen.",
         "card_ids": ["od-la", "od-personal-a"],
@@ -208,6 +223,7 @@
       "title": "Ich rufe dich morgen an",
       "exercise": {
         "id": "ex-free-te-llamo",
+        "stable_id": "ex-ms9433h01bety",
         "type": "free_text",
         "prompt": "Übersetze ins Spanische: *Ich rufe dich morgen an.* (Verwende das OD-Pronomen **te**.)",
         "card_ids": ["od-te"],
@@ -233,6 +249,7 @@
       "title": "Verstehen: Nos invitan",
       "exercise": {
         "id": "ex-free-receptive-nos-invitan",
+        "stable_id": "ex-ms9433h01bfiv",
         "type": "free_text",
         "prompt": "Was bedeutet auf Deutsch: *Nos invitan a la boda.*",
         "card_ids": ["od-nos"],
@@ -258,6 +275,7 @@
       "title": "Bilde: Ich möchte es kaufen",
       "exercise": {
         "id": "ex-tiles-lo-quiero-comprar",
+        "stable_id": "ex-ms9433h01bgju",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Ich möchte es (das Buch) kaufen.* — Nutze die Variante mit angehängtem Pronomen am Infinitiv.",
         "card_ids": ["od-lo", "od-stellung-verb"],
@@ -273,6 +291,7 @@
       "title": "Bilde: Ich brauche sie (die Schlüssel)",
       "exercise": {
         "id": "ex-tiles-las-necesito",
+        "stable_id": "ex-ms9433h01bhnt",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Ich brauche sie.* (*las llaves* — die Schlüssel, fem. Plural)",
         "card_ids": ["od-las", "od-stellung-verb"],
@@ -288,6 +307,7 @@
       "title": "Welcher Satz ist korrekt?",
       "exercise": {
         "id": "ex-pic-stellung",
+        "stable_id": "ex-ms9433h01bi3a",
         "type": "picture_choice",
         "prompt": "Welcher Satz bedeutet *Ich sehe sie* (und ist grammatisch korrekt, *ella* = María)?",
         "card_ids": ["od-la", "od-stellung-verb"],
@@ -313,6 +333,7 @@
       "title": "Ich weiß es — neutrales lo",
       "exercise": {
         "id": "ex-free-lo-se",
+        "stable_id": "ex-ms9433h01bj7d",
         "type": "free_text",
         "prompt": "Übersetze ins Spanische: *Ich weiß es.* (Verwende das neutrale **lo**.)",
         "card_ids": ["od-neutral-lo", "od-lo"],

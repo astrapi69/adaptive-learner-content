@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "buongiorno",
+      "stable_id": "card-ms9433if2kb3m",
       "front": "Buongiorno",
       "back": "Guten Morgen / Guten Tag",
       "notes": "Kontext: Buongiorno, signora! – Guten Tag, gnädige Frau! Wird vormittags bis nachmittags verwendet.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "buonasera",
+      "stable_id": "card-ms9433if2kcqf",
       "front": "Buonasera",
       "back": "Guten Abend",
       "notes": "Kontext: Buonasera a tutti! – Guten Abend zusammen! Wird ab dem späten Nachmittag verwendet.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "buonanotte",
+      "stable_id": "card-ms9433if2kdm8",
       "front": "Buonanotte",
       "back": "Gute Nacht",
       "notes": "Kontext: Buonanotte, a domani! – Gute Nacht, bis morgen! Nur beim Schlafengehen.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "ciao",
+      "stable_id": "card-ms9433if2keur",
       "front": "Ciao",
       "back": "Hallo / Tschüss",
       "notes": "Kontext: Ciao, come stai? – Hallo, wie geht's? Informell, bei Begrüßung und Abschied.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "salve",
+      "stable_id": "card-ms9433if2kf0v",
       "front": "Salve",
       "back": "Hallo (neutral)",
       "notes": "Kontext: Salve, posso aiutarla? – Hallo, kann ich Ihnen helfen? Neutral, weder zu formell noch zu locker.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "arrivederci",
+      "stable_id": "card-ms9433if2kgw4",
       "front": "Arrivederci",
       "back": "Auf Wiedersehen",
       "notes": "Kontext: Grazie e arrivederci! – Danke und auf Wiedersehen! Höflicher Abschied.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "a-presto",
+      "stable_id": "card-ms9433if2khj7",
       "front": "A presto",
       "back": "Bis bald",
       "notes": "Kontext: Ci vediamo, a presto! – Wir sehen uns, bis bald!",
@@ -65,6 +72,7 @@
     },
     {
       "id": "a-domani",
+      "stable_id": "card-ms9433if2kiza",
       "front": "A domani",
       "back": "Bis morgen",
       "notes": "Kontext: A domani in ufficio! – Bis morgen im Büro!",
@@ -73,6 +81,7 @@
     },
     {
       "id": "come-stai",
+      "stable_id": "card-ms9433if2kjwv",
       "front": "Come stai?",
       "back": "Wie geht es dir?",
       "notes": "Kontext: Ciao Marco, come stai? – Hallo Marco, wie geht es dir? Informell (du).",
@@ -81,6 +90,7 @@
     },
     {
       "id": "come-va",
+      "stable_id": "card-ms9433if2kkvr",
       "front": "Come va?",
       "back": "Wie läuft's?",
       "notes": "Kontext: Come va? Tutto bene? – Wie läuft's? Alles gut?",
@@ -89,6 +99,7 @@
     },
     {
       "id": "bene-grazie",
+      "stable_id": "card-ms9433if2klhs",
       "front": "Bene, grazie",
       "back": "Gut, danke",
       "notes": "Kontext: Bene, grazie, e tu? – Gut, danke, und du? Typische Antwort auf 'come stai?'.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "grazie",
+      "stable_id": "card-ms9433if2km3t",
       "front": "Grazie",
       "back": "Danke",
       "notes": "Kontext: Grazie mille! – Tausend Dank!",
@@ -105,6 +117,7 @@
     },
     {
       "id": "prego",
+      "stable_id": "card-ms9433if2knxh",
       "front": "Prego",
       "back": "Bitte (gern geschehen)",
       "notes": "Kontext: – Grazie! – Prego! – Danke! – Bitte! Antwort auf 'grazie'.",
@@ -132,6 +145,7 @@
       "title": "Begrüßungen zuordnen",
       "exercise": {
         "id": "ex-match-begruessung",
+        "stable_id": "ex-ms9433if2koin",
         "type": "matching",
         "prompt": "Ordne jeder italienischen Begrüßung die deutsche Übersetzung zu.",
         "card_ids": ["buongiorno", "buonasera", "buonanotte", "ciao"],
@@ -151,6 +165,7 @@
       "title": "Informell begrüßen",
       "exercise": {
         "id": "ex-free-ciao",
+        "stable_id": "ex-ms9433if2kpw2",
         "type": "free_text",
         "prompt": "Wie begrüßt man Freunde informell auf Italienisch (Hallo)?",
         "card_ids": ["ciao"],
@@ -167,6 +182,7 @@
       "title": "Danke sagen",
       "exercise": {
         "id": "ex-free-grazie",
+        "stable_id": "ex-ms9433if2kqal",
         "type": "free_text",
         "prompt": "Wie sagt man 'Danke' auf Italienisch?",
         "card_ids": ["grazie"],
@@ -183,6 +199,7 @@
       "title": "Abendgruß zusammensetzen",
       "exercise": {
         "id": "ex-tile-buonasera",
+        "stable_id": "ex-ms9433if2krtr",
         "type": "word_tiles",
         "prompt": "Setze die Kacheln zum Gruß 'Guten Abend' zusammen.",
         "card_ids": ["buonasera"],
@@ -198,6 +215,7 @@
       "title": "Lücke füllen: Befinden",
       "exercise": {
         "id": "ex-cloze-come-stai",
+        "stable_id": "ex-ms9433if2ksjt",
         "type": "cloze",
         "prompt": "Ergänze die Frage nach dem Befinden.",
         "card_ids": ["come-stai", "bene-grazie"],
@@ -217,6 +235,7 @@
       "title": "Den höflichen Abschied wählen",
       "exercise": {
         "id": "ex-pick-arrivederci",
+        "stable_id": "ex-ms9433if2ktjh",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'Auf Wiedersehen'?",
         "card_ids": ["arrivederci"],

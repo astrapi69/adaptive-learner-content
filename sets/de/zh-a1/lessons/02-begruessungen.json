@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "ni-hao",
+      "stable_id": "card-ms9433j039pv8",
       "front": "你好",
       "back": "Hallo",
       "notes": "Pinyin: nǐ hǎo. Kontext: 你 好 ， 王 老师 (nǐ hǎo, Wáng lǎoshī) – Hallo, Frau/Herr Lehrer Wang.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "nin-hao",
+      "stable_id": "card-ms9433j039qal",
       "front": "您好",
       "back": "Hallo (höflich/Sie)",
       "notes": "Pinyin: nín hǎo. Kontext: 您 好 ！ (nín hǎo!) – Guten Tag! (höfliche Anrede).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "ni-hao-ma",
+      "stable_id": "card-ms9433j039r7o",
       "front": "你好吗",
       "back": "Wie geht es dir?",
       "notes": "Pinyin: nǐ hǎo ma. Kontext: 你 好 吗 ？ (nǐ hǎo ma?) – Wie geht es dir?",
@@ -33,6 +36,7 @@
     },
     {
       "id": "wo-hen-hao",
+      "stable_id": "card-ms9433j039sxo",
       "front": "我很好",
       "back": "Mir geht es sehr gut.",
       "notes": "Pinyin: wǒ hěn hǎo. Kontext: 我 很 好 ， 谢谢 (wǒ hěn hǎo, xièxie) – Mir geht es gut, danke.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "zaijian",
+      "stable_id": "card-ms9433j039tfr",
       "front": "再见",
       "back": "Auf Wiedersehen",
       "notes": "Pinyin: zàijiàn. Wörtlich 'wieder sehen'. Kontext: 再见 ！ 明天 见 (zàijiàn! míngtiān jiàn) – Tschüss! Bis morgen.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "xiexie",
+      "stable_id": "card-ms9433j039ubv",
       "front": "谢谢",
       "back": "Danke",
       "notes": "Pinyin: xièxie (zweites xie im neutralen Ton). Kontext: 谢谢 你 (xièxie nǐ) – Danke dir.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "bu-keqi",
+      "stable_id": "card-ms9433j039vw1",
       "front": "不客气",
       "back": "Bitte / Gern geschehen",
       "notes": "Pinyin: bù kèqi. Antwort auf 谢谢. Kontext: 不客气 ！ (bù kèqi!) – Gern geschehen!",
@@ -65,6 +72,7 @@
     },
     {
       "id": "duibuqi",
+      "stable_id": "card-ms9433j039whd",
       "front": "对不起",
       "back": "Entschuldigung / Es tut mir leid",
       "notes": "Pinyin: duìbuqǐ. Kontext: 对不起 ！ (duìbuqǐ!) – Entschuldigung!",
@@ -73,6 +81,7 @@
     },
     {
       "id": "meiguanxi",
+      "stable_id": "card-ms9433j039xq1",
       "front": "没关系",
       "back": "Macht nichts / Kein Problem",
       "notes": "Pinyin: méi guānxi. Antwort auf 对不起. Kontext: 没关系 (méi guānxi) – Macht nichts.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "zaoshang-hao",
+      "stable_id": "card-ms9433j039yl9",
       "front": "早上好",
       "back": "Guten Morgen",
       "notes": "Pinyin: zǎoshang hǎo. Kontext: 早上 好 ！ (zǎoshang hǎo!) – Guten Morgen!",
@@ -89,6 +99,7 @@
     },
     {
       "id": "wanshang-hao",
+      "stable_id": "card-ms9433j039zxe",
       "front": "晚上好",
       "back": "Guten Abend",
       "notes": "Pinyin: wǎnshang hǎo. Kontext: 晚上 好 ！ (wǎnshang hǎo!) – Guten Abend!",
@@ -97,6 +108,7 @@
     },
     {
       "id": "ne",
+      "stable_id": "card-ms9433j03a0xd",
       "front": "呢",
       "back": "und ...? (Rückfragepartikel)",
       "notes": "Pinyin: ne (neutraler Ton). Kontext: 你 呢 ？ (nǐ ne?) – Und du?",
@@ -124,6 +136,7 @@
       "title": "Begrüßungen zuordnen",
       "exercise": {
         "id": "ex-match-begruessung",
+        "stable_id": "ex-ms9433j03a169",
         "type": "matching",
         "prompt": "Ordne jedem chinesischen Ausdruck die deutsche Bedeutung zu.",
         "card_ids": ["ni-hao", "zaijian", "xiexie", "duibuqi"],
@@ -143,6 +156,7 @@
       "title": "Hallo sagen",
       "exercise": {
         "id": "ex-free-hallo",
+        "stable_id": "ex-ms9433j03a229",
         "type": "free_text",
         "prompt": "Wie sagt man 'Hallo' auf Chinesisch (Hanzi oder Pinyin)?",
         "card_ids": ["ni-hao"],
@@ -159,6 +173,7 @@
       "title": "Danke sagen",
       "exercise": {
         "id": "ex-free-danke",
+        "stable_id": "ex-ms9433j03a31q",
         "type": "free_text",
         "prompt": "Wie sagt man 'Danke' auf Chinesisch (Hanzi oder Pinyin)?",
         "card_ids": ["xiexie"],
@@ -175,6 +190,7 @@
       "title": "Wie geht es dir?",
       "exercise": {
         "id": "ex-cloze-wiegehts",
+        "stable_id": "ex-ms9433j03a4vm",
         "type": "cloze",
         "prompt": "Ergänze die Fragepartikel.",
         "card_ids": ["ni-hao-ma", "ne"],
@@ -194,6 +210,7 @@
       "title": "Auf Wiedersehen bauen",
       "exercise": {
         "id": "ex-tiles-zaijian",
+        "stable_id": "ex-ms9433j03a519",
         "type": "word_tiles",
         "prompt": "Setze 'Mir geht es gut, danke.' zusammen.",
         "card_ids": ["wo-hen-hao", "xiexie"],
@@ -209,6 +226,7 @@
       "title": "Welcher Abschiedsgruß?",
       "exercise": {
         "id": "ex-pic-zaijian",
+        "stable_id": "ex-ms9433j03a6ds",
         "type": "picture_choice",
         "prompt": "Welcher Ausdruck bedeutet 'Auf Wiedersehen'?",
         "card_ids": ["zaijian"],

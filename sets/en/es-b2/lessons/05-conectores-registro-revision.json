@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "es-b2-con-sinembargo",
+      "stable_id": "card-ms9433kd4jufh",
       "front": "sin embargo",
       "back": "however / nevertheless",
       "notes": "Strong contrast, common in writing: *Es caro; **sin embargo**, vale la pena.*",
@@ -18,6 +19,7 @@
     },
     {
       "id": "es-b2-con-porlotanto",
+      "stable_id": "card-ms9433kd4jv5m",
       "front": "por lo tanto",
       "back": "therefore / consequently",
       "notes": "Introduces a logical consequence: *No estudió; **por lo tanto**, suspendió.*",
@@ -27,6 +29,7 @@
     },
     {
       "id": "es-b2-con-apesarde",
+      "stable_id": "card-ms9433kd4jw0f",
       "front": "a pesar de (que)",
       "back": "in spite of / despite (the fact that)",
       "notes": "*a pesar de* + noun/infinitive; *a pesar de que* + clause: *A pesar de que **llueva**…*",
@@ -36,6 +39,7 @@
     },
     {
       "id": "es-b2-con-dadoque",
+      "stable_id": "card-ms9433kd4jxdg",
       "front": "dado que",
       "back": "given that / since",
       "notes": "Formal cause: *Dado que no hay pruebas, se archiva el caso.*",
@@ -45,6 +49,7 @@
     },
     {
       "id": "es-b2-con-encuantoa",
+      "stable_id": "card-ms9433kd4jy98",
       "front": "en cuanto a",
       "back": "regarding / as for",
       "notes": "Introduces a topic: *En cuanto a los costes, hablaremos mañana.*",
@@ -54,6 +59,7 @@
     },
     {
       "id": "es-b2-con-porunlado",
+      "stable_id": "card-ms9433kd4jzg4",
       "front": "por un lado… por otro (lado)",
       "back": "on the one hand… on the other (hand)",
       "notes": "Balances two points in an argument.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "es-b2-reg-tu-usted",
+      "stable_id": "card-ms9433kd4k0aa",
       "front": "¿Podrías…? vs. ¿Podría usted…?",
       "back": "informal (tú) vs. formal (usted) register",
       "notes": "Register matters at B2: use *usted* and the conditional (*¿Podría…?*) for formal or polite requests.",
@@ -91,6 +98,7 @@
       "title": "Match the connectors",
       "exercise": {
         "id": "ex-match-connectors",
+        "stable_id": "ex-ms9433kd4k1q8",
         "type": "matching",
         "prompt": "Match each Spanish connector with its English meaning.",
         "card_ids": ["es-b2-con-sinembargo", "es-b2-con-porlotanto", "es-b2-con-dadoque", "es-b2-con-encuantoa"],
@@ -110,6 +118,7 @@
       "title": "Express a consequence",
       "exercise": {
         "id": "ex-cloze-consequence",
+        "stable_id": "ex-ms9433kd4k2f7",
         "type": "cloze",
         "prompt": "Fill in a 3-word connector meaning \"therefore\": \"No estudió; ___, suspendió.\"",
         "card_ids": ["es-b2-con-porlotanto"],
@@ -126,6 +135,7 @@
       "title": "Add a contrast",
       "exercise": {
         "id": "ex-free-however",
+        "stable_id": "ex-ms9433kd4k3e0",
         "type": "free_text",
         "prompt": "Give a formal two-word connector meaning \"however\".",
         "card_ids": ["es-b2-con-sinembargo"],
@@ -142,6 +152,7 @@
       "title": "Be formally polite",
       "exercise": {
         "id": "ex-tiles-register",
+        "stable_id": "ex-ms9433kd4k4uh",
         "type": "word_tiles",
         "prompt": "Arrange the formal request: *Could you (usted) help me, please?*",
         "card_ids": ["es-b2-reg-tu-usted"],
@@ -157,6 +168,7 @@
       "title": "Review: a second conditional",
       "exercise": {
         "id": "ex-free-review-conditional",
+        "stable_id": "ex-ms9433kd4k5jq",
         "type": "free_text",
         "prompt": "Translate (review of Lesson 1): *If they invested more, the results would improve.* (invertir / mejorar)",
         "card_ids": ["es-b2-con-porlotanto"],

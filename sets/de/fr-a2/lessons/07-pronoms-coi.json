@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "coi-me",
+      "stable_id": "card-ms9433hx246fo",
       "front": "me / m'",
       "back": "mir (indirektes Objekt, 1. Person Singular)",
       "notes": "**me** → **m'** vor Vokal oder stummem *h*. Steht **vor dem Verb**: *Il me parle* — er spricht mit mir. Mit *à*-Verben: *Il m'écrit* — er schreibt mir.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "coi-te",
+      "stable_id": "card-ms9433hx2477j",
       "front": "te / t'",
       "back": "dir (indirektes Objekt, 2. Person Singular)",
       "notes": "**te** → **t'** vor Vokal oder stummem *h*. Steht **vor dem Verb**: *Je te téléphone ce soir* — ich rufe dich heute Abend an. Achtung: *téléphoner à* → COI!",
@@ -24,6 +26,7 @@
     },
     {
       "id": "coi-lui",
+      "stable_id": "card-ms9433hx24877",
       "front": "lui",
       "back": "ihm / ihr (indirektes Objekt, 3. Person Singular)",
       "notes": "**Wichtig:** *lui* steht für **ihm** (männlich) UND **ihr** (weiblich) — kein Unterschied im Genus! *Je lui parle* = ich spreche mit ihm / mit ihr. Ersetze immer *à + männliche/weibliche Person*.",
@@ -34,6 +37,7 @@
     },
     {
       "id": "coi-nous",
+      "stable_id": "card-ms9433hx2496i",
       "front": "nous",
       "back": "uns (indirektes Objekt, 1. Person Plural)",
       "notes": "**nous** ist gleichzeitig Subjekt- und COI-Pronomen. *Il nous écrit* — er schreibt uns. *Elle nous répond* — sie antwortet uns.",
@@ -43,6 +47,7 @@
     },
     {
       "id": "coi-vous",
+      "stable_id": "card-ms9433hx24asz",
       "front": "vous",
       "back": "euch / Ihnen (indirektes Objekt, 2. Person Plural / Höflichkeitsform)",
       "notes": "**vous** als COI: *Je vous réponds demain* — ich antworte euch / Ihnen morgen. Gilt für Plural und Höflichkeitsform (Sie).",
@@ -52,6 +57,7 @@
     },
     {
       "id": "coi-leur",
+      "stable_id": "card-ms9433hx24b8h",
       "front": "leur",
       "back": "ihnen (indirektes Objekt, 3. Person Plural)",
       "notes": "**Achtung:** Als COI-Pronomen schreibt man *leur* **ohne -s** — kein *leurs*! *Je leur parle* — ich spreche mit ihnen. Verwechslungsgefahr mit dem Possessivpronomen *leurs*.",
@@ -62,6 +68,7 @@
     },
     {
       "id": "verb-parler-a",
+      "stable_id": "card-ms9433hx24caa",
       "front": "parler à qqn",
       "back": "mit jemandem sprechen (COI-Verb)",
       "notes": "**parler à** braucht ein indirektes Objekt (COI). *Je parle à Marie → Je lui parle.* Das Pronomen ersetzt *à + Person* und steht **vor** dem Verb.",
@@ -71,6 +78,7 @@
     },
     {
       "id": "verb-telephoner-a",
+      "stable_id": "card-ms9433hx24dp3",
       "front": "téléphoner à qqn",
       "back": "jemanden anrufen (COI-Verb)",
       "notes": "**téléphoner à** — im Deutschen sagt man 'anrufen' (direktes Objekt), im Französischen aber *téléphoner à*! → COI. *Je téléphone à Paul → Je lui téléphone.*",
@@ -81,6 +89,7 @@
     },
     {
       "id": "verb-ecrire-a",
+      "stable_id": "card-ms9433hx24efy",
       "front": "écrire à qqn",
       "back": "jemandem schreiben (COI-Verb)",
       "notes": "**écrire à** — jemandem schreiben. *J'écris à mes parents → Je leur écris.* Das Pronomen *leur* (ihnen) steht direkt vor *écris*.",
@@ -90,6 +99,7 @@
     },
     {
       "id": "verb-donner-a",
+      "stable_id": "card-ms9433hx24fql",
       "front": "donner qqch à qqn",
       "back": "jemandem etwas geben (COI-Verb)",
       "notes": "**donner qqch à qqn** hat zwei Objekte: *qqch* (direkt, COD) und *qqn* (indirekt, COI). *Je donne le livre à Sophie → Je lui donne le livre.* Nur die Person (*à qqn*) wird durch COI ersetzt.",
@@ -99,6 +109,7 @@
     },
     {
       "id": "verb-repondre-a",
+      "stable_id": "card-ms9433hx24g0t",
       "front": "répondre à qqn",
       "back": "jemandem antworten (COI-Verb)",
       "notes": "**répondre à** — jemandem antworten. *Je réponds à la professeure → Je lui réponds.* Auch: *répondre à un e-mail* (aber dann kein Personen-COI).",
@@ -108,6 +119,7 @@
     },
     {
       "id": "verb-demander-a",
+      "stable_id": "card-ms9433hx24hia",
       "front": "demander qqch à qqn",
       "back": "jemanden um etwas bitten / jemanden etwas fragen (COI-Verb)",
       "notes": "**demander à qqn** — jemanden fragen. *Je demande l'heure à Marc → Je lui demande l'heure.* Das Personobjekt (*à qqn*) wird durch COI ersetzt.",
@@ -142,6 +154,7 @@
       "title": "COI-Pronomen zuordnen",
       "exercise": {
         "id": "ex-match-coi-table",
+        "stable_id": "ex-ms9433hx24idf",
         "type": "matching",
         "prompt": "Ordne jedes COI-Pronomen seiner deutschen Bedeutung zu.",
         "card_ids": ["coi-me", "coi-te", "coi-lui", "coi-nous", "coi-leur"],
@@ -162,6 +175,7 @@
       "title": "à-Verben erkennen",
       "exercise": {
         "id": "ex-match-verbs-coi",
+        "stable_id": "ex-ms9433hx24j56",
         "type": "matching",
         "prompt": "Verbinde das französische Verb mit seiner deutschen Bedeutung.",
         "card_ids": ["verb-parler-a", "verb-telephoner-a", "verb-ecrire-a", "verb-repondre-a", "verb-demander-a"],
@@ -182,6 +196,7 @@
       "title": "Ich spreche mit ihr",
       "exercise": {
         "id": "ex-cloze-lui-parle",
+        "stable_id": "ex-ms9433hx24kfg",
         "type": "cloze",
         "prompt": "Ersetze *à Marie* durch das richtige COI-Pronomen.",
         "card_ids": ["coi-lui", "verb-parler-a"],
@@ -200,6 +215,7 @@
       "title": "Er schreibt ihnen",
       "exercise": {
         "id": "ex-cloze-leur-ecrit",
+        "stable_id": "ex-ms9433hx24lf5",
         "type": "cloze",
         "prompt": "Ersetze *à ses amis* durch das richtige COI-Pronomen.",
         "card_ids": ["coi-leur", "verb-ecrire-a"],
@@ -218,6 +234,7 @@
       "title": "Ich rufe ihn an",
       "exercise": {
         "id": "ex-free-je-lui-telephone",
+        "stable_id": "ex-ms9433hx24mu7",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich rufe ihn heute Abend an.* (téléphoner à — COI!)",
         "card_ids": ["coi-lui", "verb-telephoner-a"],
@@ -243,6 +260,7 @@
       "title": "Ich antworte ihnen",
       "exercise": {
         "id": "ex-free-je-leur-reponds",
+        "stable_id": "ex-ms9433hx24nea",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich antworte ihnen morgen.* (répondre à — COI!)",
         "card_ids": ["coi-leur", "verb-repondre-a"],
@@ -268,6 +286,7 @@
       "title": "Ich gebe ihr das Buch",
       "exercise": {
         "id": "ex-tiles-lui-donne",
+        "stable_id": "ex-ms9433hx24oty",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter zum Satz: *Ich gebe ihr das Buch.* (donner à — COI)",
         "card_ids": ["coi-lui", "verb-donner-a"],
@@ -283,6 +302,7 @@
       "title": "Wir schreiben ihnen",
       "exercise": {
         "id": "ex-tiles-leur-ecris",
+        "stable_id": "ex-ms9433hx24pbc",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Wir schreiben ihnen eine E-Mail.*",
         "card_ids": ["coi-leur", "verb-ecrire-a"],
@@ -298,6 +318,7 @@
       "title": "COD oder COI?",
       "exercise": {
         "id": "ex-picture-cod-vs-coi",
+        "stable_id": "ex-ms9433hx24qdk",
         "type": "picture_choice",
         "prompt": "Welcher Satz bedeutet *Ich spreche mit ihr* (COI — nicht COD)?",
         "card_ids": ["coi-lui", "verb-parler-a"],
@@ -323,6 +344,7 @@
       "title": "Verstehen: Je lui demande l'heure",
       "exercise": {
         "id": "ex-free-receptive-lui-demande",
+        "stable_id": "ex-ms9433hx24r0h",
         "type": "free_text",
         "prompt": "Was bedeutet auf Deutsch: *Je lui demande l'heure.*",
         "card_ids": ["coi-lui", "verb-demander-a"],

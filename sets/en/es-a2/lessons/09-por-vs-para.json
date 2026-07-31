@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "para-destination",
+      "stable_id": "card-ms9433jx43ry1",
       "front": "Salgo para Madrid.",
       "back": "I'm leaving for Madrid. (destination / goal)",
       "notes": "**PARA** points to a **destination** or end-goal — where something is headed. *Salgo para Madrid* = I'm leaving for (heading to) Madrid. Think of *para* as an arrow → pointing forward to a target.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "para-recipient",
+      "stable_id": "card-ms9433jx43suf",
       "front": "Es para ti.",
       "back": "It's for you. (recipient)",
       "notes": "**PARA** marks the **recipient** — who receives something. *Este regalo es para ti* = This gift is for you. Careful: *por ti* would mean 'because of you' or 'on your behalf', not the recipient!",
@@ -27,6 +29,7 @@
     },
     {
       "id": "para-deadline",
+      "stable_id": "card-ms9433jx43tdd",
       "front": "Para el lunes.",
       "back": "By/for Monday. (deadline)",
       "notes": "**PARA** + a time = a **deadline**, the point by which something must be done. *La tarea es para el lunes* = The homework is for/by Monday. Do not confuse with *por*, which expresses duration.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "para-purpose",
+      "stable_id": "card-ms9433jx43ut2",
       "front": "Estudio para aprender.",
       "back": "I study (in order) to learn. (purpose)",
       "notes": "**PARA + infinitive** = purpose, 'in order to'. *Estudio para aprender* = I study (in order) to learn. Whenever English means 'in order to', use *para*, never *por*.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "para-opinion-comparison",
+      "stable_id": "card-ms9433jx43vsh",
       "front": "Para mí, es difícil. / Para un niño, lee bien.",
       "back": "For me / In my opinion... ; For a child, he reads well. (opinion, comparison)",
       "notes": "**PARA** introduces an **opinion** (*Para mí...* = In my opinion / For me) and a **comparison/contrast** (*Para un niño, lee muy bien* = For a child, he reads very well — i.e. compared with what you'd expect).",
@@ -54,6 +59,7 @@
     },
     {
       "id": "por-cause",
+      "stable_id": "card-ms9433jx43wl8",
       "front": "Lo hice por amor. / Gracias por todo.",
       "back": "I did it for/out of love. ; Thanks for everything. (cause / reason)",
       "notes": "**POR** expresses **cause or reason** — the motive *behind* an action (looking backward). *Por amor* = out of love; *Gracias por todo* = thanks for everything. English 'for' here means 'because of'.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "por-movement",
+      "stable_id": "card-ms9433jx43xzp",
       "front": "Caminamos por el parque.",
       "back": "We walk through/along the park. (movement)",
       "notes": "**POR** = movement **through, along or around** a place. *Caminamos por el parque* = We walk through the park. Here English uses 'through/along', but learners often reach for the wrong word.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "por-duration",
+      "stable_id": "card-ms9433jx43y2y",
       "front": "Estudié por dos horas.",
       "back": "I studied for two hours. (duration)",
       "notes": "**POR** + a span of time = **duration**, how long something lasts. *Por dos horas* = for two hours. This is a classic trap: English 'for two hours' is **por**, NOT para.",
@@ -81,6 +89,7 @@
     },
     {
       "id": "por-exchange",
+      "stable_id": "card-ms9433jx43z3d",
       "front": "Lo compré por 10 euros.",
       "back": "I bought it for 10 euros. (exchange / price)",
       "notes": "**POR** marks **exchange or price** — one thing traded for another. *Lo compré por 10 euros* = I bought it for 10 euros. *Gracias por el regalo* and *Te cambio mi libro por el tuyo* also use this exchange sense.",
@@ -90,6 +99,7 @@
     },
     {
       "id": "por-means-per-agent",
+      "stable_id": "card-ms9433jx440dz",
       "front": "por teléfono / dos veces por semana / escrito por",
       "back": "by phone ; twice per week ; written by (means, 'per', agent)",
       "notes": "**POR** covers three more uses: **means** (*por teléfono, por avión* = by phone, by plane), **'per'** (*dos veces por semana* = twice per week), and the **agent** in passive sentences (*escrito por Cervantes* = written by Cervantes). Also substitution: *Trabajo por ti* = I work in your place.",
@@ -99,6 +109,7 @@
     },
     {
       "id": "fixed-por",
+      "stable_id": "card-ms9433jx441fk",
       "front": "por favor, por fin, por eso, por supuesto, por ejemplo",
       "back": "please ; finally/at last ; that's why ; of course ; for example",
       "notes": "High-frequency **fixed expressions with POR**: *por favor* (please), *por fin* (finally), *por eso* (that's why / for that reason), *por supuesto* (of course), *por ejemplo* (for example). Learn them as whole chunks.",
@@ -108,6 +119,7 @@
     },
     {
       "id": "fixed-para-siempre",
+      "stable_id": "card-ms9433jx442m3",
       "front": "para siempre",
       "back": "forever (lit. 'for always')",
       "notes": "A common **fixed expression with PARA**: *para siempre* = forever. *Te querré para siempre* = I'll love you forever. Note it is *para*, fitting the goal/endpoint logic of *para*.",
@@ -142,6 +154,7 @@
       "title": "Which word for which use?",
       "exercise": {
         "id": "ex-match-uses",
+        "stable_id": "ex-ms9433jx443ol",
         "type": "matching",
         "prompt": "Match each use with the correct word, *por* or *para*.",
         "card_ids": ["para-deadline", "por-duration", "para-purpose", "por-cause", "para-recipient"],
@@ -163,6 +176,7 @@
       "title": "Purpose",
       "exercise": {
         "id": "ex-cloze-purpose",
+        "stable_id": "ex-ms9433jx444qw",
         "type": "cloze",
         "prompt": "Fill the blank: 'I study Spanish for (in order to help) my work.' Goal or cause?",
         "card_ids": ["para-purpose"],
@@ -179,6 +193,7 @@
       "title": "How long?",
       "exercise": {
         "id": "ex-cloze-duration",
+        "stable_id": "ex-ms9433jx445nn",
         "type": "cloze",
         "prompt": "Fill the blank: 'We talked for two hours.' Watch out — English 'for' here is duration!",
         "card_ids": ["por-duration"],
@@ -195,6 +210,7 @@
       "title": "A gift for you",
       "exercise": {
         "id": "ex-free-for-you",
+        "stable_id": "ex-ms9433jx446el",
         "type": "free_text",
         "prompt": "Translate: *This gift is for you.* (you are the recipient)",
         "card_ids": ["para-recipient"],
@@ -211,6 +227,7 @@
       "title": "Saying thanks",
       "exercise": {
         "id": "ex-free-thanks",
+        "stable_id": "ex-ms9433jx447tv",
         "type": "free_text",
         "prompt": "Translate: *Thanks for everything.* (cause/reason)",
         "card_ids": ["por-cause", "fixed-por"],
@@ -227,6 +244,7 @@
       "title": "Heading somewhere",
       "exercise": {
         "id": "ex-free-leaving",
+        "stable_id": "ex-ms9433jx44898",
         "type": "free_text",
         "prompt": "Translate: *I'm leaving for Barcelona tomorrow.* (destination)",
         "card_ids": ["para-destination"],
@@ -243,6 +261,7 @@
       "title": "Build: I bought it for 10 euros",
       "exercise": {
         "id": "ex-tiles-bought",
+        "stable_id": "ex-ms9433jx449hk",
         "type": "word_tiles",
         "prompt": "Arrange the words: *I bought it for 10 euros.* (exchange/price)",
         "card_ids": ["por-exchange"],
@@ -258,6 +277,7 @@
       "title": "Through the park",
       "exercise": {
         "id": "ex-cloze-through",
+        "stable_id": "ex-ms9433jx44ajt",
         "type": "cloze",
         "prompt": "Fill the blank: 'The children run through the park.' (movement)",
         "card_ids": ["por-movement"],
@@ -274,6 +294,7 @@
       "title": "In my opinion",
       "exercise": {
         "id": "ex-pic-opinion",
+        "stable_id": "ex-ms9433jx44b0h",
         "type": "picture_choice",
         "prompt": "Which sentence means 'For me (in my opinion), Spanish is easy'?",
         "card_ids": ["para-opinion-comparison"],
@@ -295,6 +316,7 @@
       "title": "By phone",
       "exercise": {
         "id": "ex-free-by-phone",
+        "stable_id": "ex-ms9433jx44czk",
         "type": "free_text",
         "prompt": "Translate: *I talk with my mother by phone.* (means)",
         "card_ids": ["por-means-per-agent"],
@@ -311,6 +333,7 @@
       "title": "By Monday",
       "exercise": {
         "id": "ex-cloze-deadline",
+        "stable_id": "ex-ms9433jx44d6f",
         "type": "cloze",
         "prompt": "Fill the blank: 'The homework is for/by Monday.' (deadline)",
         "card_ids": ["para-deadline"],
@@ -327,6 +350,7 @@
       "title": "A fixed expression",
       "exercise": {
         "id": "ex-free-forever",
+        "stable_id": "ex-ms9433jx44ept",
         "type": "free_text",
         "prompt": "Translate: *Friends forever.* (fixed expression)",
         "card_ids": ["fixed-para-siempre"],
@@ -343,6 +367,7 @@
       "title": "Match the fixed expression",
       "exercise": {
         "id": "ex-match-fixed",
+        "stable_id": "ex-ms9433jx44fb6",
         "type": "matching",
         "prompt": "Match each Spanish fixed expression with its English meaning.",
         "card_ids": ["fixed-por", "fixed-para-siempre"],

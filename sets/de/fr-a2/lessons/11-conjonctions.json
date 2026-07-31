@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "conj-parce-que",
+      "stable_id": "card-ms9433i026lzl",
       "front": "parce que",
       "back": "weil",
       "notes": "**parce que** leitet einen Kausalsatz ein. Wichtig: Im Französischen folgt **Subjekt + Verb** — keine Inversion wie im Deutschen!\n\n*Je reste à la maison parce que je suis fatigué.* — Ich bleibe zu Hause, weil ich müde bin.\n\nDeutscher Fehler: ~~*parce que ich fatigué suis*~~ ✗",
@@ -15,6 +16,7 @@
     },
     {
       "id": "conj-donc",
+      "stable_id": "card-ms9433i026m49",
       "front": "donc",
       "back": "also / deshalb",
       "notes": "**donc** drückt eine Schlussfolgerung aus und steht meistens in der Satzmitte oder am Satzanfang (dann mit Komma).\n\n*Il pleut, donc je prends un parapluie.* — Es regnet, also nehme ich einen Regenschirm.\n\nAuch hier: Subjekt + Verb bleiben in der normalen Reihenfolge.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "conj-mais",
+      "stable_id": "card-ms9433i026nb7",
       "front": "mais",
       "back": "aber",
       "notes": "**mais** verbindet zwei gegensätzliche Aussagen.\n\n*Je veux sortir, mais il fait froid.* — Ich möchte ausgehen, aber es ist kalt.\n\nKurzform zum Merken: **m**ais = **m**ais (klingt fast wie Deutsch *mais* = Mais-Pflanze, aber Bedeutung ist „aber“).",
@@ -33,6 +36,7 @@
     },
     {
       "id": "conj-et",
+      "stable_id": "card-ms9433i026o00",
       "front": "et",
       "back": "und",
       "notes": "**et** verbindet gleichrangige Satzteile oder ganze Sätze.\n\n*Je parle français et j'apprends l'espagnol.* — Ich spreche Französisch und ich lerne Spanisch.\n\nDas -t am Ende wird in **et** nie liaison-gebunden! (Anders als bei *est*: *il est ici* → /t/ hörbar.)",
@@ -42,6 +46,7 @@
     },
     {
       "id": "conj-ou",
+      "stable_id": "card-ms9433i026pzp",
       "front": "ou",
       "back": "oder",
       "notes": "**ou** (ohne accent) = *oder*. Nicht verwechseln mit **où** (mit accent grave) = *wo/wohin*!\n\n*Tu veux du café ou du thé ?* — Möchtest du Kaffee oder Tee?\n\nEselsbrücke: **ou** ohne Hut = **o**der (kein accent nötig).",
@@ -51,6 +56,7 @@
     },
     {
       "id": "conj-quand",
+      "stable_id": "card-ms9433i026q0a",
       "front": "quand",
       "back": "wenn / als",
       "notes": "**quand** leitet einen Temporalsatz ein. Im Französischen steht danach **Subjekt + Verb** — im Deutschen käme das Verb ans Ende!\n\n*Quand j'étais petit, j'habitais à Lyon.* — Als ich klein war, wohnte ich in Lyon.\n\n*Quand il arrive, nous mangeons.* — Wenn er ankommt, essen wir.",
@@ -61,6 +67,7 @@
     },
     {
       "id": "conj-pendant-que",
+      "stable_id": "card-ms9433i026r7x",
       "front": "pendant que",
       "back": "während",
       "notes": "**pendant que** drückt Gleichzeitigkeit aus.\n\n*Je lis pendant que tu regardes la télé.* — Ich lese, während du fernsiehst.\n\nAchtung: **pendant** allein = *während (zeitlich)* als Präposition (*pendant une heure* = eine Stunde lang), **pendant que** mit Verb im Nebensatz.",
@@ -70,6 +77,7 @@
     },
     {
       "id": "conj-puis",
+      "stable_id": "card-ms9433i026s3p",
       "front": "puis / ensuite",
       "back": "dann / danach",
       "notes": "**puis** und **ensuite** sind Adverbien, die eine zeitliche Abfolge ausdrücken.\n\n*D'abord je fais mes devoirs, puis je regarde la télé.* — Zuerst mache ich meine Hausaufgaben, dann schaue ich fern.\n\n*ensuite* ist etwas formeller als *puis*; beide bedeuten dasselbe.",
@@ -79,6 +87,7 @@
     },
     {
       "id": "conj-comme",
+      "stable_id": "card-ms9433i026t6w",
       "front": "comme",
       "back": "da / weil (am Satzanfang)",
       "notes": "**comme** steht als Kausalkonjunktion **immer am Satzanfang** und drückt einen bekannten Grund aus.\n\n*Comme il pleut, je reste à la maison.* — Da es regnet, bleibe ich zu Hause.\n\nUnterschied zu *parce que*: *comme* kann **nur** am Satzanfang stehen; *parce que* kann in der Satzmitte stehen.",
@@ -89,6 +98,7 @@
     },
     {
       "id": "conj-alors",
+      "stable_id": "card-ms9433i026urp",
       "front": "alors",
       "back": "dann / also (Schlussfolgerung)",
       "notes": "**alors** kann sowohl *dann* (zeitlich) als auch *also* (folgend) bedeuten.\n\n*Il n'avait pas de voiture, alors il a pris le bus.* — Er hatte kein Auto, also nahm er den Bus.\n\n*alors* und *donc* sind oft austauschbar; *alors* klingt etwas umgangssprachlicher.",
@@ -123,6 +133,7 @@
       "title": "Konjunktionen zuordnen",
       "exercise": {
         "id": "ex-matching-bedeutung",
+        "stable_id": "ex-ms9433i026vmq",
         "type": "matching",
         "prompt": "Ordne jeder französischen Konjunktion ihre deutsche Bedeutung zu.",
         "card_ids": ["conj-parce-que", "conj-mais", "conj-quand", "conj-donc", "conj-pendant-que"],
@@ -143,6 +154,7 @@
       "title": "Konjunktionen nach Typ",
       "exercise": {
         "id": "ex-matching-typ",
+        "stable_id": "ex-ms9433i026wcr",
         "type": "matching",
         "prompt": "Welche Konjunktion passt zu welchem deutschen Signalwort?",
         "card_ids": ["conj-et", "conj-ou", "conj-comme", "conj-alors", "conj-puis"],
@@ -163,6 +175,7 @@
       "title": "Weil ich müde bin",
       "exercise": {
         "id": "ex-cloze-parce-que",
+        "stable_id": "ex-ms9433i026x23",
         "type": "cloze",
         "prompt": "Ergänze die richtige Konjunktion für *weil*.",
         "card_ids": ["conj-parce-que"],
@@ -181,6 +194,7 @@
       "title": "Es regnet, also...",
       "exercise": {
         "id": "ex-cloze-donc",
+        "stable_id": "ex-ms9433i026yki",
         "type": "cloze",
         "prompt": "Ergänze *also/deshalb* auf Französisch.",
         "card_ids": ["conj-donc"],
@@ -199,6 +213,7 @@
       "title": "Übersetze: Ich trage einen Mantel, weil es kalt ist.",
       "exercise": {
         "id": "ex-free-weil-kalt",
+        "stable_id": "ex-ms9433i026zff",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich trage einen Mantel, weil es kalt ist.*",
         "card_ids": ["conj-parce-que"],
@@ -226,6 +241,7 @@
       "title": "Da es regnet — mit comme",
       "exercise": {
         "id": "ex-free-comme-regen",
+        "stable_id": "ex-ms9433i0270ec",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Da es regnet, nehme ich einen Regenschirm.* (Verwende **comme** am Satzanfang!)",
         "card_ids": ["conj-comme"],
@@ -251,6 +267,7 @@
       "title": "Bilde: Als ich klein war, wohnte ich in Lyon.",
       "exercise": {
         "id": "ex-tiles-quand-petit",
+        "stable_id": "ex-ms9433i0271b6",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Als ich klein war, wohnte ich in Lyon.* (Verwende **quand** und **imparfait**.)",
         "card_ids": ["conj-quand"],
@@ -266,6 +283,7 @@
       "title": "Bilde: Zuerst esse ich, dann gehe ich raus.",
       "exercise": {
         "id": "ex-tiles-abfolge",
+        "stable_id": "ex-ms9433i0272t2",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Zuerst esse ich, dann gehe ich raus.*",
         "card_ids": ["conj-puis"],
@@ -281,6 +299,7 @@
       "title": "Welcher Satz ist grammatisch korrekt?",
       "exercise": {
         "id": "ex-picture-wortstellung",
+        "stable_id": "ex-ms9433i0273c4",
         "type": "picture_choice",
         "prompt": "Welcher Satz ist auf Französisch **grammatisch korrekt**? (Bedeutung: Ich bleibe zu Hause, weil ich krank bin.)",
         "card_ids": ["conj-parce-que"],
@@ -306,6 +325,7 @@
       "title": "Übersetze: Ich möchte ausgehen, aber es ist kalt.",
       "exercise": {
         "id": "ex-free-aber-kalt",
+        "stable_id": "ex-ms9433i0274fw",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich möchte ausgehen, aber es ist kalt.*",
         "card_ids": ["conj-mais"],

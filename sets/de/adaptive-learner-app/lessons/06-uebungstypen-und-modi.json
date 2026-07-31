@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "matching",
+      "stable_id": "card-ms9433fc01zwk",
       "front": "Zuordnen (Matching)",
       "back": "Ein Übungstyp: Du verbindest zusammengehörige Paare, etwa Begriff und Definition. Funktioniert in beide Richtungen.",
       "notes": "Englisch: matching. Mindestens drei Paare pro Übung.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "picture-choice",
+      "stable_id": "card-ms9433fc020gz",
       "front": "Bild-Auswahl (Picture-Choice)",
       "back": "Ein Übungstyp: Aus mehreren Bildern wählst du das richtige. Gut zum Einprägen konkreter Begriffe.",
       "notes": "Englisch: picture choice. Genau eine Option ist richtig.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "free-text",
+      "stable_id": "card-ms9433fc021nr",
       "front": "Freitext (Free-Text)",
       "back": "Ein Übungstyp: Du tippst die Antwort selbst ein. Kleine Tippfehler werden verziehen, mehrere Schreibweisen akzeptiert.",
       "notes": "Englisch: free text. Fordert aktives Abrufen statt Wiedererkennen.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "cloze",
+      "stable_id": "card-ms9433fc0220o",
       "front": "Lückentext (Cloze)",
       "back": "Ein Übungstyp: In einem Satz sind Lücken zu füllen — durch Tippen, Auswählen oder Ankreuzen mehrerer richtiger Optionen.",
       "notes": "Englisch: cloze. Übt Wortschatz im Satzzusammenhang.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "word-tiles",
+      "stable_id": "card-ms9433fc023y9",
       "front": "Wort-Kacheln (Word-Tiles)",
       "back": "Ein Übungstyp: Aus vorgegebenen Kacheln setzt du einen Satz in der richtigen Reihenfolge zusammen.",
       "notes": "Englisch: word tiles. Übt Satzbau und Wortstellung.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "modus-ueben",
+      "stable_id": "card-ms9433fc02481",
       "front": "Modus „Üben“ (Practice)",
       "back": "Der Standardmodus: Du bekommst nach jeder Aufgabe sofort Rückmeldung und kannst in Ruhe lernen.",
       "notes": "Englisch: practice. Kein Zeitdruck, sofortiges Feedback.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "modus-pruefung",
+      "stable_id": "card-ms9433fc0256x",
       "front": "Modus „Prüfung“ (Exam)",
       "back": "Ein Testmodus: Die Rückmeldung kommt erst am Ende, und du erhältst ein Bestanden/Nicht-bestanden-Ergebnis.",
       "notes": "Englisch: exam. Richtige Antworten unter Prüfungsdruck stärken die Wiederholung zusätzlich.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "modus-zeit",
+      "stable_id": "card-ms9433fc026l1",
       "front": "Modus „Zeit“ (Timed)",
       "back": "Ein Modus mit Zeitvorgabe in wählbarer Geschwindigkeit — für schnelles, druckvolles Wiederholen.",
       "notes": "Englisch: timed. Trainiert Abruf-Geschwindigkeit.",
@@ -81,6 +89,7 @@
     },
     {
       "id": "modus-endlos",
+      "stable_id": "card-ms9433fc027dk",
       "front": "Modus „Endlos“ (Endless)",
       "back": "Ein Modus, der weiterläuft, solange du magst — ohne festes Ende.",
       "notes": "Englisch: endless. Gut für lange Übungsstrecken.",
@@ -90,6 +99,7 @@
     },
     {
       "id": "fehlertraining",
+      "stable_id": "card-ms9433fc028nf",
       "front": "Fehlertraining (Error-Replay)",
       "back": "Ein Modus, der gezielt die Aufgaben wiederholt, bei denen du zuvor Fehler gemacht hast.",
       "notes": "Englisch: error replay. Übt genau deine Schwachstellen.",
@@ -124,6 +134,7 @@
       "title": "Übungstyp und Tätigkeit",
       "exercise": {
         "id": "ex-match-typen",
+        "stable_id": "ex-ms9433fc029f9",
         "type": "matching",
         "prompt": "Ordne jedem Übungstyp zu, was du dabei tust.",
         "card_ids": ["matching", "free-text", "cloze", "word-tiles"],
@@ -143,6 +154,7 @@
       "title": "Wie viele Übungstypen?",
       "exercise": {
         "id": "ex-free-typen-zahl",
+        "stable_id": "ex-ms9433fc02av6",
         "type": "free_text",
         "prompt": "Wie viele Übungstypen kennt Adaptive Learner?",
         "card_ids": ["matching", "cloze"],
@@ -159,6 +171,7 @@
       "title": "Der Standardmodus",
       "exercise": {
         "id": "ex-cloze-ueben",
+        "stable_id": "ex-ms9433fc02bbm",
         "type": "cloze",
         "prompt": "Ergänze den Namen des Standardmodus mit sofortiger Rückmeldung.",
         "card_ids": ["modus-ueben"],
@@ -175,6 +188,7 @@
       "title": "Modus und Merkmal",
       "exercise": {
         "id": "ex-match-modi",
+        "stable_id": "ex-ms9433fc02cnc",
         "type": "matching",
         "prompt": "Ordne jedem Modus sein Merkmal zu.",
         "card_ids": ["modus-pruefung", "modus-zeit", "fehlertraining", "modus-endlos"],
@@ -194,6 +208,7 @@
       "title": "Schwachstellen üben",
       "exercise": {
         "id": "ex-free-fehlertraining",
+        "stable_id": "ex-ms9433fc02d2p",
         "type": "free_text",
         "prompt": "Wie heißt der Modus, der gezielt deine früheren Fehler wiederholt?",
         "card_ids": ["fehlertraining"],
@@ -210,6 +225,7 @@
       "title": "Prüfung und Wiederholung",
       "exercise": {
         "id": "ex-tiles-exam",
+        "stable_id": "ex-ms9433fc02erb",
         "type": "word_tiles",
         "prompt": "Setze den Merksatz zum Prüfungsmodus zusammen.",
         "card_ids": ["modus-pruefung"],

@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "la-mere",
+      "stable_id": "card-ms9433j63g4qn",
       "front": "la mère",
       "back": "η μητέρα",
       "tags": [
@@ -16,6 +17,7 @@
     },
     {
       "id": "le-pere",
+      "stable_id": "card-ms9433j63g5u6",
       "front": "le père",
       "back": "ο πατέρας",
       "tags": [
@@ -24,6 +26,7 @@
     },
     {
       "id": "le-frere",
+      "stable_id": "card-ms9433j63g6jv",
       "front": "le frère",
       "back": "ο αδελφός",
       "tags": [
@@ -32,6 +35,7 @@
     },
     {
       "id": "la-soeur",
+      "stable_id": "card-ms9433j63g7ku",
       "front": "la sœur",
       "back": "η αδελφή",
       "notes": "Γράφεται με το σύμπλεγμα œ: sœur.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "les-parents",
+      "stable_id": "card-ms9433j63g8fp",
       "front": "les parents",
       "back": "οι γονείς",
       "notes": "Πληθυντικός, άρα les.",
@@ -50,6 +55,7 @@
     },
     {
       "id": "lenfant",
+      "stable_id": "card-ms9433j63g9wp",
       "front": "l'enfant",
       "back": "το παιδί",
       "notes": "Αρχίζει από φωνήεν → l'.",
@@ -59,6 +65,7 @@
     },
     {
       "id": "la-fille",
+      "stable_id": "card-ms9433j63gakk",
       "front": "la fille",
       "back": "η κόρη / το κορίτσι",
       "tags": [
@@ -67,6 +74,7 @@
     },
     {
       "id": "le-fils",
+      "stable_id": "card-ms9433j63gban",
       "front": "le fils",
       "back": "ο γιος",
       "notes": "Το «l» στο τέλος δεν προφέρεται.",
@@ -100,6 +108,7 @@
       "title": "Μέλη της οικογένειας",
       "exercise": {
         "id": "ex-match-oik",
+        "stable_id": "ex-ms9433j63gcwg",
         "type": "matching",
         "prompt": "Αντιστοίχισε κάθε γαλλική λέξη με τη σημασία της.",
         "card_ids": [
@@ -135,6 +144,7 @@
       "title": "Πώς λες «η μητέρα»;",
       "exercise": {
         "id": "ex-mc-mitera",
+        "stable_id": "ex-ms9433j63gdpp",
         "type": "cloze",
         "prompt": "Πώς λες «η μητέρα»;",
         "card_ids": [
@@ -163,6 +173,7 @@
       "title": "Πώς λες «οι γονείς»;",
       "exercise": {
         "id": "ex-mc-goneis",
+        "stable_id": "ex-ms9433j63gej9",
         "type": "cloze",
         "prompt": "Πώς λες «οι γονείς»;",
         "card_ids": [
@@ -191,6 +202,7 @@
       "title": "Ποιο άρθρο ταιριάζει: «___ enfant» (το παιδί);",
       "exercise": {
         "id": "ex-mc-paidi",
+        "stable_id": "ex-ms9433j63gfr2",
         "type": "cloze",
         "prompt": "Ποιο άρθρο ταιριάζει: «___ enfant» (το παιδί);",
         "card_ids": [
@@ -219,6 +231,7 @@
       "title": "Πώς λες «η αδελφή»;",
       "exercise": {
         "id": "ex-mc-adelfi",
+        "stable_id": "ex-ms9433j63gg7q",
         "type": "cloze",
         "prompt": "Πώς λες «η αδελφή»;",
         "card_ids": [
@@ -247,6 +260,7 @@
       "title": "Γονείς και παιδιά",
       "exercise": {
         "id": "ex-match-paidia",
+        "stable_id": "ex-ms9433j63gh4v",
         "type": "matching",
         "prompt": "Αντιστοίχισε κάθε λέξη με τη σημασία της.",
         "card_ids": [
@@ -282,6 +296,7 @@
       "title": "Έχω έναν αδελφό",
       "exercise": {
         "id": "ex-clz-frere",
+        "stable_id": "ex-ms9433j63gi9w",
         "type": "cloze",
         "prompt": "Συμπλήρωσε το αρσενικό αόριστο άρθρο: «J'ai ___ frère.» (έχω έναν αδελφό)",
         "card_ids": [
@@ -305,6 +320,7 @@
       "title": "Πώς λες «ο πατέρας»;",
       "exercise": {
         "id": "ex-mc-pere",
+        "stable_id": "ex-ms9433j63gj80",
         "type": "cloze",
         "prompt": "Πώς λες «ο πατέρας»;",
         "card_ids": [

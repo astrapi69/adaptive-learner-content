@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "med-periodico",
+      "stable_id": "card-ms9433k94ftm1",
       "front": "el periódico / el diario",
       "back": "the newspaper",
       "notes": "Both mean *newspaper*. *El diario* is the daily paper (from *día*); *el periódico* is the more general word. A journalist works for *la prensa* (the press).",
@@ -18,6 +19,7 @@
     },
     {
       "id": "med-noticia-titular",
+      "stable_id": "card-ms9433k94fuop",
       "front": "la noticia / el titular",
       "back": "the (piece of) news / the headline",
       "notes": "**Una noticia** is a single news item; the plural **las noticias** = *the news* in general. The big text at the top is **el titular** (headline). Spanish keeps *las noticias* plural even when English says \"the news is...\".",
@@ -27,6 +29,7 @@
     },
     {
       "id": "med-reportaje-periodista",
+      "stable_id": "card-ms9433k94fvn6",
       "front": "el reportaje / el/la periodista",
       "back": "the report (feature) / the journalist",
       "notes": "**El reportaje** is an in-depth report or feature story. **El/la periodista** (same form for both genders) is the journalist. Note: a *reportaje* is not a quick \"report\" you hand to your boss — that is *un informe*.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "med-cadena-canal",
+      "stable_id": "card-ms9433k94fwvm",
       "front": "la cadena / el canal",
       "back": "the (broadcast) network / the channel",
       "notes": "**La cadena** is a TV or radio network (a chain of stations); **el canal** is an individual channel. *Cambiar de canal* = to change the channel.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "med-redes-medios",
+      "stable_id": "card-ms9433k94fxfp",
       "front": "las redes sociales / los medios de comunicación",
       "back": "social media / the (mass) media",
       "notes": "**Las redes sociales** = social media (literally *social networks*). **Los medios de comunicación** (often just *los medios*) = the mass media. Both are normally plural.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "med-secciones",
+      "stable_id": "card-ms9433k94fyo5",
       "front": "la política, los sucesos, los deportes, la economía",
       "back": "politics, crime/incidents, sports, the economy (news sections)",
       "notes": "News sections: **la política** (politics), **los sucesos** (crime stories, accidents, incidents — false-friend warning: not \"success\"!), **los deportes** (sports), **la economía** (economy/business).",
@@ -63,6 +69,7 @@
     },
     {
       "id": "med-enterarse-aldia",
+      "stable_id": "card-ms9433k94fzod",
       "front": "enterarse de / estar al día / seguir las noticias",
       "back": "to find out about / to be up to date / to follow the news",
       "notes": "**Enterarse de algo** = to find out / hear about something (*Me enteré de la noticia por la radio*). **Estar al día** = to be up to date. **Seguir las noticias** = to follow the news.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "med-se-dice-segun",
+      "stable_id": "card-ms9433k94g0vu",
       "front": "Se dice que... / Según...",
       "back": "It is said that... / According to...",
       "notes": "Report what people say impersonally with **se**: *Se dice que...*, *Se rumorea que...*, *Se cree que...* (+ indicative). Cite a source with **según**: *según el periódico*, *según la fuente* (no *que* after *según* + noun).",
@@ -81,6 +89,7 @@
     },
     {
       "id": "med-reported-speech",
+      "stable_id": "card-ms9433k94g1tx",
       "front": "\"Habrá elecciones.\" → El periódico dijo que habría elecciones.",
       "back": "reported speech: present/future shifts back one tense",
       "notes": "Reporting in the past shifts the tense back: present → imperfect, future → conditional. *\"Llueve\"* → *Dijo que **llovía***. *\"Ganaremos\"* → *Dijo que **ganarían***. Connects to Lesson 6 (estilo indirecto).",
@@ -90,6 +99,7 @@
     },
     {
       "id": "med-fiable-fuente",
+      "stable_id": "card-ms9433k94g2yb",
       "front": "fiable / la fuente / verificar",
       "back": "reliable / the source / to verify",
       "notes": "Judging fake news: **fiable** = reliable/trustworthy; **una fuente** = a source; **verificar / comprobar** = to verify/check the facts. *Las noticias falsas* = fake news.",
@@ -99,6 +109,7 @@
     },
     {
       "id": "med-ff-actual",
+      "stable_id": "card-ms9433k94g3hl",
       "front": "actual / actualmente (false friends)",
       "back": "current(ly) — NOT 'actual/actually'",
       "notes": "FALSE FRIENDS. **actual** = *current, present-day* (*el presidente actual* = the current president), NOT \"actual\". For \"the actual reason\" say *la verdadera razón / la razón real*. **actualmente** = *currently, nowadays*, NOT \"actually\". For \"actually\" use *en realidad* or *de hecho*.",
@@ -108,6 +119,7 @@
     },
     {
       "id": "med-ff-realizar",
+      "stable_id": "card-ms9433k94g4ra",
       "front": "realizar (false friend)",
       "back": "to carry out / to do — NOT 'to realize'",
       "notes": "FALSE FRIEND (recap). **realizar** = *to carry out, to do, to make* (*realizar una entrevista* = to do an interview). It does NOT mean \"to realize\". For \"to realize\" (become aware) use **darse cuenta de**: *Me di cuenta de que la noticia era falsa*.",
@@ -142,6 +154,7 @@
       "title": "Match the media words",
       "exercise": {
         "id": "ex-match-media-vocab",
+        "stable_id": "ex-ms9433k94g50u",
         "type": "matching",
         "prompt": "Match each Spanish media word with its English meaning.",
         "card_ids": ["med-periodico", "med-noticia-titular", "med-reportaje-periodista", "med-redes-medios"],
@@ -162,6 +175,7 @@
       "title": "False friend: actual",
       "exercise": {
         "id": "ex-free-current-president",
+        "stable_id": "ex-ms9433k94g6hs",
         "type": "free_text",
         "prompt": "Translate: *The current president gave an interview.* (current → actual)",
         "card_ids": ["med-ff-actual", "med-reportaje-periodista"],
@@ -178,6 +192,7 @@
       "title": "False friend: actually",
       "exercise": {
         "id": "ex-free-actually-fake",
+        "stable_id": "ex-ms9433k94g724",
         "type": "free_text",
         "prompt": "Translate: *Actually, that piece of news is fake.* (actually → en realidad / de hecho)",
         "card_ids": ["med-ff-actual", "med-fiable-fuente"],
@@ -194,6 +209,7 @@
       "title": "False friend: realizar",
       "exercise": {
         "id": "ex-cloze-realizar",
+        "stable_id": "ex-ms9433k94g8lx",
         "type": "cloze",
         "prompt": "Fill the blank: the channel \"carried out\" an interview (realizar, preterite).",
         "card_ids": ["med-ff-realizar", "med-cadena-canal"],
@@ -210,6 +226,7 @@
       "title": "Reporting with impersonal se",
       "exercise": {
         "id": "ex-cloze-se-dice",
+        "stable_id": "ex-ms9433k94g9et",
         "type": "cloze",
         "prompt": "Complete the impersonal report: \"It is said that...\"",
         "card_ids": ["med-se-dice-segun"],
@@ -226,6 +243,7 @@
       "title": "Pick the newspaper",
       "exercise": {
         "id": "ex-pic-newspaper",
+        "stable_id": "ex-ms9433k94gacf",
         "type": "picture_choice",
         "prompt": "Which word means 'the newspaper'?",
         "card_ids": ["med-periodico", "med-cadena-canal"],
@@ -247,6 +265,7 @@
       "title": "Build: According to the press",
       "exercise": {
         "id": "ex-tiles-segun",
+        "stable_id": "ex-ms9433k94gbko",
         "type": "word_tiles",
         "prompt": "Arrange the words: *According to the press, the source is reliable.*",
         "card_ids": ["med-se-dice-segun", "med-fiable-fuente"],
@@ -262,6 +281,7 @@
       "title": "Find out / be up to date",
       "exercise": {
         "id": "ex-free-found-out",
+        "stable_id": "ex-ms9433k94gcky",
         "type": "free_text",
         "prompt": "Translate: *I found out about the news on social media.* (enterarse de)",
         "card_ids": ["med-enterarse-aldia", "med-redes-medios"],
@@ -278,6 +298,7 @@
       "title": "Reported speech: shift the tense",
       "exercise": {
         "id": "ex-cloze-reported",
+        "stable_id": "ex-ms9433k94gdbb",
         "type": "cloze",
         "prompt": "Report \"Habrá elecciones\" in the past: the future shifts to the conditional.",
         "card_ids": ["med-reported-speech"],
@@ -294,6 +315,7 @@
       "title": "Match the news sections",
       "exercise": {
         "id": "ex-match-news-types",
+        "stable_id": "ex-ms9433k94gejv",
         "type": "matching",
         "prompt": "Match each news section with its English meaning.",
         "card_ids": ["med-secciones"],
@@ -313,6 +335,7 @@
       "title": "Attend the press conference",
       "exercise": {
         "id": "ex-free-attend-press",
+        "stable_id": "ex-ms9433k94gfcb",
         "type": "free_text",
         "prompt": "Translate: *The journalists attended the press conference.* (attend → asistir a)",
         "card_ids": ["med-reportaje-periodista", "med-enterarse-aldia"],
@@ -329,6 +352,7 @@
       "title": "Stay up to date",
       "exercise": {
         "id": "ex-free-up-to-date",
+        "stable_id": "ex-ms9433k94ggsn",
         "type": "free_text",
         "prompt": "Translate: *I follow the news to be up to date.* (seguir las noticias / estar al día)",
         "card_ids": ["med-enterarse-aldia", "med-noticia-titular"],

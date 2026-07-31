@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "imp-etre-je",
+      "stable_id": "card-ms9433hu2123q",
       "front": "j'étais",
       "back": "ich war",
       "notes": "**être** im imparfait hat den Sonderstamm **ét-** (nicht *nous sommes* → *somm-*). *J'étais fatigué* — ich war müde.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "imp-avoir-il",
+      "stable_id": "card-ms9433hu213db",
       "front": "il avait",
       "back": "er hatte",
       "notes": "**avoir** im imparfait: *nous avons* → Stamm **av-** + Endungen. *Il avait faim* — er hatte Hunger.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "imp-faire-il",
+      "stable_id": "card-ms9433hu21420",
       "front": "il faisait beau",
       "back": "es war schönes Wetter",
       "notes": "**faire** im imparfait: *nous faisons* → Stamm **fais-**. *Il faisait beau* ist die klassische Wetterformel im imparfait.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "imp-aller-nous",
+      "stable_id": "card-ms9433hu215ho",
       "front": "nous allions",
       "back": "wir gingen / wir pflegten zu gehen",
       "notes": "**aller** im imparfait: *nous allons* → Stamm **all-** + Endung **-ions**. *Nous allions à l'école chaque jour* — wir gingen jeden Tag zur Schule.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "imp-parler-je",
+      "stable_id": "card-ms9433hu2164m",
       "front": "je parlais",
       "back": "ich sprach / ich sprach früher",
       "notes": "**parler** im imparfait: *nous parlons* → Stamm **parl-** + Endung **-ais**. *Quand j'étais petit, je parlais français* — als ich klein war, sprach ich Französisch.",
@@ -51,6 +56,7 @@
     },
     {
       "id": "imp-finir-ils",
+      "stable_id": "card-ms9433hu217ng",
       "front": "ils finissaient",
       "back": "sie beendeten / sie pflegten zu beenden",
       "notes": "**finir** im imparfait: *nous finissons* → Stamm **finiss-** + Endung **-aient**. Wichtig: Der Stamm der *nous*-Form behält das **-iss-**.",
@@ -60,6 +66,7 @@
     },
     {
       "id": "imp-manger-tu",
+      "stable_id": "card-ms9433hu21823",
       "front": "tu mangeais",
       "back": "du aßest / du aßest früher",
       "notes": "**manger** im imparfait: *nous mangeons* → Stamm **mange-** + Endung **-ais**. Das **-e-** im Stamm bleibt erhalten, damit **g** weich bleibt.",
@@ -69,6 +76,7 @@
     },
     {
       "id": "imp-habiter-vous",
+      "stable_id": "card-ms9433hu219jv",
       "front": "vous habitiez",
       "back": "ihr wohntet / Sie wohnten",
       "notes": "**habiter** im imparfait: *nous habitons* → Stamm **habit-** + Endung **-iez**. *Vous habitiez à Paris* — Sie wohnten in Paris.",
@@ -78,6 +86,7 @@
     },
     {
       "id": "imp-jouer-on",
+      "stable_id": "card-ms9433hu21anl",
       "front": "on jouait",
       "back": "man spielte / wir spielten früher",
       "notes": "**jouer** im imparfait: *nous jouons* → Stamm **jou-** + Endung **-ait**. *On jouait dehors tous les jours* — wir spielten früher jeden Tag draußen.",
@@ -87,6 +96,7 @@
     },
     {
       "id": "imp-etre-quand",
+      "stable_id": "card-ms9433hu21b2f",
       "front": "quand j'étais petit(e)",
       "back": "als ich klein war",
       "notes": "Typische Einleitungsformel für Beschreibungen in der Kindheit. **quand** (als/wenn) + imparfait beschreibt den Hintergrund oder einen Zustand.",
@@ -96,6 +106,7 @@
     },
     {
       "id": "imp-endung-ais",
+      "stable_id": "card-ms9433hu21cib",
       "front": "je … / tu … (Endung imparfait)",
       "back": "-ais (ich / du)",
       "notes": "Die Endungen **-ais** (je, tu) sind identisch. Aussprache: stummes -s. *Je parlais, tu parlais* — ich sprach, du sprachst.",
@@ -106,6 +117,7 @@
     },
     {
       "id": "imp-endung-aient",
+      "stable_id": "card-ms9433hu21dli",
       "front": "ils/elles … (Endung imparfait)",
       "back": "-aient (sie)",
       "notes": "Die 3. Person Plural endet auf **-aient**. Das **-ent** am Ende ist wie immer stumm. *Ils jouaient, elles finissaient.*",
@@ -128,6 +140,7 @@
       "title": "Imparfait-Formen verstehen",
       "exercise": {
         "id": "ex-match-bedeutung",
+        "stable_id": "ex-ms9433hu21e0m",
         "type": "matching",
         "prompt": "Ordne jede imparfait-Form ihrer deutschen Bedeutung zu.",
         "card_ids": ["imp-etre-je", "imp-avoir-il", "imp-faire-il", "imp-aller-nous", "imp-parler-je"],
@@ -148,6 +161,7 @@
       "title": "Als ich klein war …",
       "exercise": {
         "id": "ex-cloze-etais-petit",
+        "stable_id": "ex-ms9433hu21ffq",
         "type": "cloze",
         "prompt": "Ergänze die richtige Form von *être* im imparfait.",
         "card_ids": ["imp-etre-quand"],
@@ -166,6 +180,7 @@
       "title": "Das Wetter war schön",
       "exercise": {
         "id": "ex-free-wetter",
+        "stable_id": "ex-ms9433hu21gok",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Das Wetter war schön.*",
         "card_ids": ["imp-faire-il"],
@@ -197,6 +212,7 @@
       "title": "Endungen zuordnen",
       "exercise": {
         "id": "ex-match-endungen",
+        "stable_id": "ex-ms9433hu21h46",
         "type": "matching",
         "prompt": "Welche Endung gehört zu welcher Person? Ordne zu.",
         "card_ids": ["imp-endung-ais", "imp-endung-aient", "imp-parler-je", "imp-finir-ils"],
@@ -216,6 +232,7 @@
       "title": "Bilde: Wir gingen zur Schule",
       "exercise": {
         "id": "ex-tiles-allions-ecole",
+        "stable_id": "ex-ms9433hu21i17",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Wir gingen jeden Tag zur Schule.*",
         "card_ids": ["imp-aller-nous"],
@@ -231,6 +248,7 @@
       "title": "Man spielte draußen",
       "exercise": {
         "id": "ex-cloze-jouait",
+        "stable_id": "ex-ms9433hu21ja0",
         "type": "cloze",
         "prompt": "Ergänze die richtige imparfait-Form von *jouer* (on).",
         "card_ids": ["imp-jouer-on"],
@@ -249,6 +267,7 @@
       "title": "Ich war müde",
       "exercise": {
         "id": "ex-free-ich-war-muede",
+        "stable_id": "ex-ms9433hu21ktx",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich war sehr müde.*",
         "card_ids": ["imp-etre-je"],
@@ -275,6 +294,7 @@
       "title": "Imparfait oder passé composé?",
       "exercise": {
         "id": "ex-pic-beschreibung",
+        "stable_id": "ex-ms9433hu21lqf",
         "type": "picture_choice",
         "prompt": "Welcher Satz beschreibt den *Hintergrund/Zustand* (→ imparfait) und nicht ein einmaliges Ereignis?",
         "card_ids": ["imp-faire-il", "imp-etre-je"],
@@ -306,6 +326,7 @@
       "title": "Verstehen: Nous allions à l'école",
       "exercise": {
         "id": "ex-free-comprehension-allions",
+        "stable_id": "ex-ms9433hu21mh7",
         "type": "free_text",
         "prompt": "Was bedeutet auf Deutsch: *Quand nous étions enfants, nous allions à l'école à pied.*",
         "card_ids": ["imp-aller-nous", "imp-etre-je"],
@@ -331,6 +352,7 @@
       "title": "Bilde: Sie wohnten in Paris",
       "exercise": {
         "id": "ex-tiles-habitiez-paris",
+        "stable_id": "ex-ms9433hu21nvm",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Sie wohnten in Paris.* (förmlich: vous)",
         "card_ids": ["imp-habiter-vous"],
@@ -346,6 +368,7 @@
       "title": "Sie pflegten zu beenden",
       "exercise": {
         "id": "ex-cloze-finissaient",
+        "stable_id": "ex-ms9433hu21ou3",
         "type": "cloze",
         "prompt": "Ergänze die imparfait-Form von *finir* (ils).",
         "card_ids": ["imp-finir-ils"],

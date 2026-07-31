@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "quanto-costa",
+      "stable_id": "card-ms9433ih2mdv4",
       "front": "Quanto costa?",
       "back": "Wie viel kostet das?",
       "notes": "Kontext: Quanto costa questo? – Wie viel kostet das? Für eine Sache (Singular).",
@@ -17,6 +18,7 @@
     },
     {
       "id": "quanto-costano",
+      "stable_id": "card-ms9433ih2me8r",
       "front": "Quanto costano?",
       "back": "Wie viel kosten sie?",
       "notes": "Kontext: Quanto costano le mele? – Wie viel kosten die Äpfel? Für mehrere Dinge (Plural).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "il-negozio",
+      "stable_id": "card-ms9433ih2mflj",
       "front": "il negozio",
       "back": "das Geschäft",
       "notes": "Kontext: Il negozio è aperto. – Das Geschäft ist offen. (m.)",
@@ -33,6 +36,7 @@
     },
     {
       "id": "caro",
+      "stable_id": "card-ms9433ih2mg7d",
       "front": "caro",
       "back": "teuer",
       "notes": "Kontext: È troppo caro! – Das ist zu teuer! (m. caro / f. cara)",
@@ -41,6 +45,7 @@
     },
     {
       "id": "economico",
+      "stable_id": "card-ms9433ih2mhbi",
       "front": "economico",
       "back": "günstig / billig",
       "notes": "Kontext: Questo è più economico. – Das ist günstiger. (m. economico / f. economica)",
@@ -49,6 +54,7 @@
     },
     {
       "id": "grande",
+      "stable_id": "card-ms9433ih2misx",
       "front": "grande",
       "back": "groß",
       "notes": "Kontext: Una taglia più grande. – Eine größere Größe. Endung -e gilt für m. und f.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "piccolo",
+      "stable_id": "card-ms9433ih2mjbn",
       "front": "piccolo",
       "back": "klein",
       "notes": "Kontext: È troppo piccolo. – Das ist zu klein. (m. piccolo / f. piccola)",
@@ -65,6 +72,7 @@
     },
     {
       "id": "vorrei-questo",
+      "stable_id": "card-ms9433ih2mkz2",
       "front": "Vorrei questo",
       "back": "Ich möchte das",
       "notes": "Kontext: Vorrei questo, per favore. – Ich möchte das, bitte.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "il-prezzo",
+      "stable_id": "card-ms9433ih2ml8l",
       "front": "il prezzo",
       "back": "der Preis",
       "notes": "Kontext: Qual è il prezzo? – Wie ist der Preis? (m.)",
@@ -81,6 +90,7 @@
     },
     {
       "id": "i-soldi",
+      "stable_id": "card-ms9433ih2mmu2",
       "front": "i soldi",
       "back": "das Geld",
       "notes": "Kontext: Non ho soldi. – Ich habe kein Geld. (m. Plural, wird meist im Plural benutzt)",
@@ -89,6 +99,7 @@
     },
     {
       "id": "in-saldo",
+      "stable_id": "card-ms9433ih2mnzr",
       "front": "in saldo",
       "back": "im Angebot / reduziert",
       "notes": "Kontext: È in saldo? – Ist es reduziert?",
@@ -97,6 +108,7 @@
     },
     {
       "id": "lo-prendo",
+      "stable_id": "card-ms9433ih2moyv",
       "front": "Lo prendo",
       "back": "Ich nehme es",
       "notes": "Kontext: Va bene, lo prendo. – In Ordnung, ich nehme es.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "troppo",
+      "stable_id": "card-ms9433ih2mpcp",
       "front": "troppo",
       "back": "zu (viel)",
       "notes": "Kontext: È troppo caro. – Das ist zu teuer.",
@@ -132,6 +145,7 @@
       "title": "Adjektive zuordnen",
       "exercise": {
         "id": "ex-match-einkaufen",
+        "stable_id": "ex-ms9433ih2mqhh",
         "type": "matching",
         "prompt": "Ordne den italienischen Adjektiven die deutsche Bedeutung zu.",
         "card_ids": ["caro", "economico", "grande", "piccolo"],
@@ -151,6 +165,7 @@
       "title": "Nach dem Preis fragen",
       "exercise": {
         "id": "ex-free-quanto-costa",
+        "stable_id": "ex-ms9433ih2mrh1",
         "type": "free_text",
         "prompt": "Wie fragt man 'Wie viel kostet das?' (eine Sache)?",
         "card_ids": ["quanto-costa"],
@@ -167,6 +182,7 @@
       "title": "Teuer auf Italienisch",
       "exercise": {
         "id": "ex-free-caro",
+        "stable_id": "ex-ms9433ih2ms2o",
         "type": "free_text",
         "prompt": "Wie heißt 'teuer' (männlich) auf Italienisch?",
         "card_ids": ["caro"],
@@ -183,6 +199,7 @@
       "title": "Lücke füllen: zu teuer",
       "exercise": {
         "id": "ex-cloze-troppo-caro",
+        "stable_id": "ex-ms9433ih2mtfi",
         "type": "cloze",
         "prompt": "Ergänze: 'Das ist zu teuer!'",
         "card_ids": ["troppo", "caro"],
@@ -202,6 +219,7 @@
       "title": "Eine Kaufentscheidung",
       "exercise": {
         "id": "ex-tile-lo-prendo",
+        "stable_id": "ex-ms9433ih2muy2",
         "type": "word_tiles",
         "prompt": "Baue den Satz 'In Ordnung, ich nehme es.'",
         "card_ids": ["lo-prendo"],
@@ -217,6 +235,7 @@
       "title": "Klein erkennen",
       "exercise": {
         "id": "ex-pick-piccolo",
+        "stable_id": "ex-ms9433ih2mvk5",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'klein'?",
         "card_ids": ["piccolo"],

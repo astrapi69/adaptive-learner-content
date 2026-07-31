@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "mama",
+      "stable_id": "card-ms9433j33cq6u",
       "front": "妈妈",
       "back": "Mama / Mutter",
       "notes": "Pinyin: māma (zweites ma neutral). Kontext: 我 妈妈 (wǒ māma) – meine Mutter.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "baba",
+      "stable_id": "card-ms9433j33cr63",
       "front": "爸爸",
       "back": "Papa / Vater",
       "notes": "Pinyin: bàba (zweites ba neutral). Kontext: 我 爸爸 (wǒ bàba) – mein Vater.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "gege",
+      "stable_id": "card-ms9433j33cso1",
       "front": "哥哥",
       "back": "älterer Bruder",
       "notes": "Pinyin: gēge. Kontext: 我 哥哥 (wǒ gēge) – mein großer Bruder.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "jiejie",
+      "stable_id": "card-ms9433j33ct1s",
       "front": "姐姐",
       "back": "ältere Schwester",
       "notes": "Pinyin: jiějie. Kontext: 我 有 一 个 姐姐 (wǒ yǒu yí gè jiějie) – Ich habe eine ältere Schwester.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "didi",
+      "stable_id": "card-ms9433j33cut8",
       "front": "弟弟",
       "back": "jüngerer Bruder",
       "notes": "Pinyin: dìdi. Kontext: 我 弟弟 (wǒ dìdi) – mein kleiner Bruder.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "meimei",
+      "stable_id": "card-ms9433j33cv8h",
       "front": "妹妹",
       "back": "jüngere Schwester",
       "notes": "Pinyin: mèimei. Kontext: 我 妹妹 (wǒ mèimei) – meine kleine Schwester.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "jia",
+      "stable_id": "card-ms9433j33cwlk",
       "front": "家",
       "back": "Familie / Zuhause",
       "notes": "Pinyin: jiā. Kontext: 我 家 有 四 个 人 (wǒ jiā yǒu sì gè rén) – Meine Familie hat vier Personen.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "you",
+      "stable_id": "card-ms9433j33cxcz",
       "front": "有",
       "back": "haben / es gibt",
       "notes": "Pinyin: yǒu. Kontext: 我 有 一 个 哥哥 (wǒ yǒu yí gè gēge) – Ich habe einen älteren Bruder.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "meiyou",
+      "stable_id": "card-ms9433j33cyim",
       "front": "没有",
       "back": "nicht haben / es gibt nicht",
       "notes": "Pinyin: méiyǒu. Verneinung von 有. Kontext: 我 没有 弟弟 (wǒ méiyǒu dìdi) – Ich habe keinen jüngeren Bruder.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "nainai",
+      "stable_id": "card-ms9433j33czw3",
       "front": "奶奶",
       "back": "Oma (väterlicherseits)",
       "notes": "Pinyin: nǎinai. Kontext: 我 奶奶 (wǒ nǎinai) – meine Oma.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "yeye",
+      "stable_id": "card-ms9433j33d0pw",
       "front": "爷爷",
       "back": "Opa (väterlicherseits)",
       "notes": "Pinyin: yéye. Kontext: 我 爷爷 (wǒ yéye) – mein Opa.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "ji-kou-ren",
+      "stable_id": "card-ms9433j33d14k",
       "front": "几口人",
       "back": "wie viele Personen (in der Familie)",
       "notes": "Pinyin: jǐ kǒu rén. 口 ist das Zählwort für Familienmitglieder. Kontext: 你 家 有 几 口 人 ？ (nǐ jiā yǒu jǐ kǒu rén?) – Wie viele Personen sind in deiner Familie?",
@@ -124,6 +136,7 @@
       "title": "Familienmitglieder zuordnen",
       "exercise": {
         "id": "ex-match-familie",
+        "stable_id": "ex-ms9433j33d2mi",
         "type": "matching",
         "prompt": "Ordne jedem Wort die deutsche Bedeutung zu.",
         "card_ids": ["mama", "baba", "gege", "meimei"],
@@ -143,6 +156,7 @@
       "title": "Mutter",
       "exercise": {
         "id": "ex-free-mutter",
+        "stable_id": "ex-ms9433j33d3pz",
         "type": "free_text",
         "prompt": "Wie sagt man 'Mama / Mutter' (Hanzi oder Pinyin)?",
         "card_ids": ["mama"],
@@ -159,6 +173,7 @@
       "title": "Ich habe eine Schwester",
       "exercise": {
         "id": "ex-cloze-haben",
+        "stable_id": "ex-ms9433j33d43p",
         "type": "cloze",
         "prompt": "Ergänze das Verb 'haben'.",
         "card_ids": ["you", "jiejie"],
@@ -175,6 +190,7 @@
       "title": "Ich habe keinen kleinen Bruder",
       "exercise": {
         "id": "ex-tiles-keinbruder",
+        "stable_id": "ex-ms9433j33d5jx",
         "type": "word_tiles",
         "prompt": "Setze 'Ich habe keinen jüngeren Bruder.' zusammen.",
         "card_ids": ["meiyou", "didi"],
@@ -190,6 +206,7 @@
       "title": "Älterer Bruder",
       "exercise": {
         "id": "ex-free-aelterebruder",
+        "stable_id": "ex-ms9433j33d6k4",
         "type": "free_text",
         "prompt": "Wie sagt man 'älterer Bruder' (Hanzi oder Pinyin)?",
         "card_ids": ["gege"],
@@ -206,6 +223,7 @@
       "title": "Welches Wort bedeutet Vater?",
       "exercise": {
         "id": "ex-pic-vater",
+        "stable_id": "ex-ms9433j33d7g2",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'Papa / Vater'?",
         "card_ids": ["baba"],

@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "xp",
+      "stable_id": "card-ms9433fe03kdd",
       "front": "Erfahrungspunkte (XP)",
       "back": "Punkte, die du fürs Lernen sammelst. Je mehr du übst, desto mehr XP bekommst du — und desto höher steigt dein Level.",
       "notes": "Englisch: experience points (XP). Sichtbar oben in der Navigation.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "level",
+      "stable_id": "card-ms9433fe03l29",
       "front": "Level",
       "back": "Deine Stufe, die mit gesammelten XP steigt. Die nötigen Punkte pro Level wachsen — höhere Level erfordern mehr Übung.",
       "notes": "Exponentiell steigende Schwellen: der Aufstieg wird bewusst anspruchsvoller.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "streak",
+      "stable_id": "card-ms9433fe03m8z",
       "front": "Streak (Serie)",
       "back": "Die Zahl der Tage in Folge, an denen du gelernt hast. Eine laufende Serie kann deine XP zusätzlich vervielfachen.",
       "notes": "Englisch: streak. Tägliches Dranbleiben wird belohnt.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "streak-multiplikator",
+      "stable_id": "card-ms9433fe03ni7",
       "front": "Streak-Multiplikator",
       "back": "Ein Faktor, der deine XP erhöht, je länger deine Lernserie ununterbrochen läuft.",
       "notes": "Belohnt Beständigkeit: Wer dranbleibt, sammelt schneller.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "abzeichen",
+      "stable_id": "card-ms9433fe03oz8",
       "front": "Abzeichen (Badges)",
       "back": "Auszeichnungen für erreichte Meilensteine. Es gibt 28 Abzeichen in fünf Kategorien, jeweils in den Stufen Bronze, Silber und Gold.",
       "notes": "Englisch: badges. Sichtbarer Beleg für deine Erfolge.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "missionen",
+      "stable_id": "card-ms9433fe03p6h",
       "front": "Tägliche Missionen",
       "back": "Bis zu drei kleine Tagesziele, die die App aus deinen Daten ableitet. Sie geben dir jeden Tag einen konkreten, erreichbaren Fokus.",
       "notes": "Englisch: daily missions. Klein, machbar, motivierend.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "streak-heatmap",
+      "stable_id": "card-ms9433fe03qw9",
       "front": "Streak-Übersicht (Heatmap)",
       "back": "Eine Jahresansicht deiner Lerntage im GitHub-Stil: 365 Felder, die zeigen, an welchen Tagen du aktiv warst. Ein Wochenend-Modus ist zuschaltbar.",
       "notes": "Englisch: streak heatmap. Macht deine Beständigkeit auf einen Blick sichtbar.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "streak-freeze",
+      "stable_id": "card-ms9433fe03res",
       "front": "Streak-Freeze",
       "back": "Ein Schutz, der deine Serie an einem lernfreien Tag bewahrt. Du sammelst einen Freeze pro sieben Tage an, höchstens drei auf Vorrat.",
       "notes": "Englisch: streak freeze. Ein Puffer für Tage, an denen es nicht klappt.",
@@ -106,6 +114,7 @@
       "title": "Begriff und Bedeutung",
       "exercise": {
         "id": "ex-match-motivation",
+        "stable_id": "ex-ms9433fe03sx4",
         "type": "matching",
         "prompt": "Ordne jedem Begriff seine Bedeutung zu.",
         "card_ids": ["xp", "level", "streak"],
@@ -124,6 +133,7 @@
       "title": "Punkte fürs Lernen",
       "exercise": {
         "id": "ex-free-xp",
+        "stable_id": "ex-ms9433fe03tut",
         "type": "free_text",
         "prompt": "Wie heißen die Punkte, die du fürs Üben sammelst (Abkürzung)?",
         "card_ids": ["xp"],
@@ -140,6 +150,7 @@
       "title": "Wie viele Abzeichen?",
       "exercise": {
         "id": "ex-cloze-badges",
+        "stable_id": "ex-ms9433fe03ulo",
         "type": "cloze",
         "prompt": "Ergänze die Anzahl der Abzeichen.",
         "card_ids": ["abzeichen"],
@@ -156,6 +167,7 @@
       "title": "Tagesziele",
       "exercise": {
         "id": "ex-cloze-missionen",
+        "stable_id": "ex-ms9433fe03vr6",
         "type": "cloze",
         "prompt": "Ergänze die Höchstzahl täglicher Missionen.",
         "card_ids": ["missionen"],
@@ -172,6 +184,7 @@
       "title": "Serie retten",
       "exercise": {
         "id": "ex-free-freeze",
+        "stable_id": "ex-ms9433fe03wdd",
         "type": "free_text",
         "prompt": "Wie heißt der Schutz, der deine Serie an einem lernfreien Tag bewahrt?",
         "card_ids": ["streak-freeze"],
@@ -188,6 +201,7 @@
       "title": "Merksatz zur Streak-Übersicht",
       "exercise": {
         "id": "ex-tiles-heatmap",
+        "stable_id": "ex-ms9433fe03x9f",
         "type": "word_tiles",
         "prompt": "Setze den Merksatz zusammen.",
         "card_ids": ["streak-heatmap"],

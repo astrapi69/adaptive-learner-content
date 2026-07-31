@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "fr-b1-je-pense-que",
+      "stable_id": "card-ms9433ky53pqw",
       "front": "Je pense que…",
       "back": "I think that… (+ indicative)",
       "notes": "Affirmative opinion takes the **indicative**: *Je pense qu'il a raison.*",
@@ -18,6 +19,7 @@
     },
     {
       "id": "fr-b1-a-mon-avis",
+      "stable_id": "card-ms9433ky53q4i",
       "front": "À mon avis",
       "back": "In my opinion",
       "notes": "A natural way to open an opinion: *À mon avis, c'est une bonne idée.*",
@@ -27,6 +29,7 @@
     },
     {
       "id": "fr-b1-je-ne-pense-pas",
+      "stable_id": "card-ms9433ky53r0f",
       "front": "Je ne pense pas que… (+ subjonctif)",
       "back": "I don't think that… (+ subjunctive)",
       "notes": "**Negated** opinion triggers the subjunctive: *Je ne pense pas qu'il **ait** raison.*",
@@ -36,6 +39,7 @@
     },
     {
       "id": "fr-b1-parce-que",
+      "stable_id": "card-ms9433ky53s0f",
       "front": "parce que",
       "back": "because",
       "notes": "Gives a reason: *Je reste **parce que** j'ai du travail.*",
@@ -45,6 +49,7 @@
     },
     {
       "id": "fr-b1-cependant",
+      "stable_id": "card-ms9433ky53t4p",
       "front": "cependant",
       "back": "however / nevertheless",
       "notes": "Introduces a contrast: *C'est cher; **cependant**, c'est utile.*",
@@ -54,6 +59,7 @@
     },
     {
       "id": "fr-b1-donc",
+      "stable_id": "card-ms9433ky53uem",
       "front": "donc",
       "back": "so / therefore",
       "notes": "Introduces a consequence: *Il pleut, **donc** je reste.*",
@@ -63,6 +69,7 @@
     },
     {
       "id": "fr-b1-d-abord-ensuite",
+      "stable_id": "card-ms9433ky53vcl",
       "front": "d'abord… ensuite… enfin",
       "back": "first… then… finally",
       "notes": "Sequencing connectors for structuring a text.",
@@ -91,6 +98,7 @@
       "title": "Match the connectors",
       "exercise": {
         "id": "ex-match-connectors",
+        "stable_id": "ex-ms9433ky53w89",
         "type": "matching",
         "prompt": "Match each French connector with its English meaning.",
         "card_ids": ["fr-b1-parce-que", "fr-b1-cependant", "fr-b1-donc", "fr-b1-a-mon-avis"],
@@ -110,6 +118,7 @@
       "title": "Express a consequence",
       "exercise": {
         "id": "ex-cloze-donc",
+        "stable_id": "ex-ms9433ky53x9i",
         "type": "cloze",
         "prompt": "Fill the connector: \"It's raining, so I'm staying home.\"",
         "card_ids": ["fr-b1-donc"],
@@ -126,6 +135,7 @@
       "title": "Negative opinion → subjunctive",
       "exercise": {
         "id": "ex-cloze-ne-pense-pas",
+        "stable_id": "ex-ms9433ky53yqi",
         "type": "cloze",
         "prompt": "Fill in the subjunctive of avoir: \"I don't think he is right.\"",
         "card_ids": ["fr-b1-je-ne-pense-pas"],
@@ -142,6 +152,7 @@
       "title": "Open an opinion",
       "exercise": {
         "id": "ex-free-in-my-opinion",
+        "stable_id": "ex-ms9433ky53z7y",
         "type": "free_text",
         "prompt": "Translate the opener: *In my opinion, …*",
         "card_ids": ["fr-b1-a-mon-avis"],
@@ -158,6 +169,7 @@
       "title": "Justify with parce que",
       "exercise": {
         "id": "ex-tiles-because",
+        "stable_id": "ex-ms9433ky540k8",
         "type": "word_tiles",
         "prompt": "Arrange: *I think (that) the film is good because it is interesting.*",
         "card_ids": ["fr-b1-je-pense-que", "fr-b1-parce-que"],
@@ -173,6 +185,7 @@
       "title": "Review: a hypothesis",
       "exercise": {
         "id": "ex-free-review-si",
+        "stable_id": "ex-ms9433ky541pe",
         "type": "free_text",
         "prompt": "Translate (review of Lesson 2): *If I had time, I would read it.*",
         "card_ids": ["fr-b1-je-pense-que"],

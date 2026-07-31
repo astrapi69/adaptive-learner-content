@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "w-sunny",
+      "stable_id": "card-ms9433fs0c790",
       "front": "It's sunny",
       "back": "Es ist sonnig",
       "notes": "Wetter beschreibt man mit 'It's' + Adjektiv. 'It's' = it is.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "w-cloudy",
+      "stable_id": "card-ms9433fs0c8cy",
       "front": "It's cloudy",
       "back": "Es ist bewölkt",
       "notes": "Von 'cloud' (Wolke).",
@@ -22,6 +24,7 @@
     },
     {
       "id": "w-windy",
+      "stable_id": "card-ms9433fs0c9o0",
       "front": "It's windy",
       "back": "Es ist windig",
       "notes": "Von 'wind'. Das 'i' ist kurz.",
@@ -29,6 +32,7 @@
     },
     {
       "id": "w-cold",
+      "stable_id": "card-ms9433fs0ca7o",
       "front": "It's cold",
       "back": "Es ist kalt",
       "notes": "Sage 'I'm cold' für 'mir ist kalt' — NICHT 'It is cold to me'.",
@@ -36,6 +40,7 @@
     },
     {
       "id": "w-hot",
+      "stable_id": "card-ms9433fs0cbm2",
       "front": "It's hot",
       "back": "Es ist heiß",
       "notes": "'hot' = heiß. 'warm' ist weniger stark.",
@@ -43,6 +48,7 @@
     },
     {
       "id": "w-warm",
+      "stable_id": "card-ms9433fs0ccyn",
       "front": "It's warm",
       "back": "Es ist warm",
       "notes": "Das 'w' wie deutsches 'w'; das 'a' wird zu 'o' ('worm').",
@@ -50,6 +56,7 @@
     },
     {
       "id": "season-spring",
+      "stable_id": "card-ms9433fs0cdez",
       "front": "spring",
       "back": "der Frühling",
       "notes": "'in spring' = im Frühling. 'spring' heißt auch 'springen' und 'Feder'.",
@@ -57,6 +64,7 @@
     },
     {
       "id": "season-summer",
+      "stable_id": "card-ms9433fs0ceoe",
       "front": "summer",
       "back": "der Sommer",
       "notes": "'in summer' = im Sommer.",
@@ -64,6 +72,7 @@
     },
     {
       "id": "season-autumn",
+      "stable_id": "card-ms9433fs0cfdd",
       "front": "autumn / fall",
       "back": "der Herbst",
       "notes": "Britisch 'autumn', amerikanisch 'fall'.",
@@ -71,6 +80,7 @@
     },
     {
       "id": "season-winter",
+      "stable_id": "card-ms9433fs0cg7y",
       "front": "winter",
       "back": "der Winter",
       "notes": "'in winter' = im Winter. Fast wie im Deutschen.",
@@ -78,6 +88,7 @@
     },
     {
       "id": "prog-raining",
+      "stable_id": "card-ms9433fs0chyd",
       "front": "It's raining",
       "back": "Es regnet (gerade jetzt)",
       "notes": "Present Progressive: be + Verb-ing. Beschreibt, was GERADE jetzt passiert.",
@@ -110,6 +121,7 @@
       "title": "Wetter zuordnen",
       "exercise": {
         "id": "ex-match-weather",
+        "stable_id": "ex-ms9433fs0ciya",
         "type": "matching",
         "prompt": "Ordne jede Wetterangabe ihrer deutschen Bedeutung zu.",
         "card_ids": ["w-sunny", "w-cloudy", "w-windy", "w-cold"],
@@ -129,6 +141,7 @@
       "title": "Jahreszeiten zuordnen",
       "exercise": {
         "id": "ex-match-seasons",
+        "stable_id": "ex-ms9433fs0cjrl",
         "type": "matching",
         "prompt": "Ordne jede Jahreszeit ihrer deutschen Bedeutung zu.",
         "card_ids": ["season-spring", "season-summer", "season-autumn", "season-winter"],
@@ -148,6 +161,7 @@
       "title": "Es regnet — gerade jetzt",
       "exercise": {
         "id": "ex-pick-raining",
+        "stable_id": "ex-ms9433fs0ckwr",
         "type": "picture_choice",
         "prompt": "Du schaust aus dem Fenster: 'Schau, es regnet (gerade)!' Welcher Satz ist richtig?",
         "card_ids": ["prog-raining"],
@@ -169,6 +183,7 @@
       "title": "Sonniges Wetter",
       "exercise": {
         "id": "ex-free-its-sunny",
+        "stable_id": "ex-ms9433fs0clnn",
         "type": "free_text",
         "prompt": "Übersetze: 'Es ist sonnig.'",
         "card_ids": ["w-sunny"],
@@ -185,6 +200,7 @@
       "title": "Kaltes Wetter",
       "exercise": {
         "id": "ex-free-its-cold",
+        "stable_id": "ex-ms9433fs0cmns",
         "type": "free_text",
         "prompt": "Übersetze: 'Es ist kalt im Winter.'",
         "card_ids": ["w-cold", "season-winter"],
@@ -201,6 +217,7 @@
       "title": "Present Progressive bilden",
       "exercise": {
         "id": "ex-cloze-raining",
+        "stable_id": "ex-ms9433fs0cn9c",
         "type": "cloze",
         "prompt": "Ergänze die -ing-Form von 'rain' (es passiert gerade jetzt).",
         "card_ids": ["prog-raining"],
@@ -219,6 +236,7 @@
       "title": "Gerade jetzt",
       "exercise": {
         "id": "ex-tile-im-working",
+        "stable_id": "ex-ms9433fs0coch",
         "type": "word_tiles",
         "prompt": "Bilde 'Ich arbeite gerade.' (Present Progressive)",
         "card_ids": ["prog-raining"],
@@ -234,6 +252,7 @@
       "title": "Heißes Wetter",
       "exercise": {
         "id": "ex-free-its-hot",
+        "stable_id": "ex-ms9433fs0cp2g",
         "type": "free_text",
         "prompt": "Übersetze: 'Es ist heiß im Sommer.'",
         "card_ids": ["w-hot", "season-summer"],
@@ -250,6 +269,7 @@
       "title": "Windiges Wetter",
       "exercise": {
         "id": "ex-free-its-windy",
+        "stable_id": "ex-ms9433fs0cqe0",
         "type": "free_text",
         "prompt": "Übersetze: 'Es ist heute windig.'",
         "card_ids": ["w-windy"],
@@ -266,6 +286,7 @@
       "title": "Jahreszeit mit Präposition",
       "exercise": {
         "id": "ex-cloze-in-spring",
+        "stable_id": "ex-ms9433fs0crab",
         "type": "cloze",
         "prompt": "Ergänze die Präposition vor der Jahreszeit.",
         "card_ids": ["season-spring"],

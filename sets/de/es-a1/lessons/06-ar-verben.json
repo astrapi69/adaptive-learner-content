@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "hablar",
+      "stable_id": "card-ms9433go0zjw5",
       "front": "hablar",
       "back": "sprechen",
       "notes": "Regelmäßiges Verb auf -AR. Endung -ar wegnehmen, dann die Personalendung anhängen.",
@@ -19,6 +20,7 @@
     },
     {
       "id": "estudiar",
+      "stable_id": "card-ms9433go0zkmk",
       "front": "estudiar",
       "back": "lernen, studieren",
       "tags": [
@@ -29,6 +31,7 @@
     },
     {
       "id": "trabajar",
+      "stable_id": "card-ms9433go0zli8",
       "front": "trabajar",
       "back": "arbeiten",
       "tags": [
@@ -39,6 +42,7 @@
     },
     {
       "id": "comprar",
+      "stable_id": "card-ms9433go0zmy1",
       "front": "comprar",
       "back": "kaufen",
       "tags": [
@@ -49,6 +53,7 @@
     },
     {
       "id": "cocinar",
+      "stable_id": "card-ms9433go0znlj",
       "front": "cocinar",
       "back": "kochen",
       "tags": [
@@ -59,6 +64,7 @@
     },
     {
       "id": "hablo",
+      "stable_id": "card-ms9433go0zo4a",
       "front": "yo hablo",
       "back": "ich spreche",
       "notes": "1. Person Singular: Endung -o.",
@@ -70,6 +76,7 @@
     },
     {
       "id": "hablas",
+      "stable_id": "card-ms9433go0zpzj",
       "front": "tú hablas",
       "back": "du sprichst",
       "notes": "2. Person Singular: Endung -as.",
@@ -81,6 +88,7 @@
     },
     {
       "id": "habla",
+      "stable_id": "card-ms9433go0zq2t",
       "front": "él/ella habla",
       "back": "er/sie spricht",
       "notes": "3. Person Singular: Endung -a.",
@@ -92,6 +100,7 @@
     },
     {
       "id": "hablamos",
+      "stable_id": "card-ms9433go0zr8s",
       "front": "nosotros hablamos",
       "back": "wir sprechen",
       "notes": "1. Person Plural: Endung -amos.",
@@ -103,6 +112,7 @@
     },
     {
       "id": "hablais",
+      "stable_id": "card-ms9433go0zsln",
       "front": "vosotros habláis",
       "back": "ihr sprecht",
       "notes": "2. Person Plural: Endung -áis (mit Akzent). Wird hauptsächlich in Spanien benutzt.",
@@ -115,6 +125,7 @@
     },
     {
       "id": "hablan",
+      "stable_id": "card-ms9433go0zthk",
       "front": "ellos/ellas hablan",
       "back": "sie sprechen",
       "notes": "3. Person Plural: Endung -an.",
@@ -126,6 +137,7 @@
     },
     {
       "id": "estudio",
+      "stable_id": "card-ms9433go0zusx",
       "front": "yo estudio",
       "back": "ich lerne/studiere",
       "tags": [
@@ -136,6 +148,7 @@
     },
     {
       "id": "trabajamos",
+      "stable_id": "card-ms9433go0zvlv",
       "front": "nosotros trabajamos",
       "back": "wir arbeiten",
       "tags": [
@@ -146,6 +159,7 @@
     },
     {
       "id": "compran",
+      "stable_id": "card-ms9433go0zw8l",
       "front": "ellos/ellas compran",
       "back": "sie kaufen",
       "tags": [
@@ -156,6 +170,7 @@
     },
     {
       "id": "cocinan",
+      "stable_id": "card-ms9433go0zxi3",
       "front": "ellos/ellas cocinan",
       "back": "sie kochen",
       "tags": [
@@ -166,6 +181,7 @@
     },
     {
       "id": "hablo-espanol",
+      "stable_id": "card-ms9433go0zybq",
       "front": "Hablo español.",
       "back": "Ich spreche Spanisch.",
       "notes": "Das Pronomen *yo* fällt weg — die Endung -o zeigt schon, dass *ich* gemeint ist.",
@@ -202,6 +218,7 @@
       "title": "hablar-Formen zuordnen",
       "exercise": {
         "id": "ex-match-hablar",
+        "stable_id": "ex-ms9433go0zze7",
         "type": "matching",
         "prompt": "Ordne jedes Pronomen der richtigen Form von *hablar* zu.",
         "card_ids": [
@@ -243,6 +260,7 @@
       "title": "Infinitive zuordnen",
       "exercise": {
         "id": "ex-match-infinitive",
+        "stable_id": "ex-ms9433go100fs",
         "type": "matching",
         "prompt": "Ordne jedes -AR-Verb seiner deutschen Bedeutung zu.",
         "card_ids": [
@@ -284,6 +302,7 @@
       "title": "'Ich spreche Spanisch.'",
       "exercise": {
         "id": "ex-free-hablo",
+        "stable_id": "ex-ms9433go1010b",
         "type": "free_text",
         "prompt": "Übersetze: 'Ich spreche Spanisch.'",
         "card_ids": [
@@ -311,6 +330,7 @@
       "title": "'wir arbeiten'",
       "exercise": {
         "id": "ex-free-trabajamos",
+        "stable_id": "ex-ms9433go102vl",
         "type": "free_text",
         "prompt": "Übersetze: 'wir arbeiten' (trabajar, nosotros).",
         "card_ids": [
@@ -337,6 +357,7 @@
       "title": "Lücke füllen: yo + hablar",
       "exercise": {
         "id": "ex-cloze-hablo",
+        "stable_id": "ex-ms9433go103pa",
         "type": "cloze",
         "prompt": "Ergänze die richtige Form von *hablar*.",
         "card_ids": [
@@ -363,6 +384,7 @@
       "title": "Lücke füllen: nosotros + trabajar",
       "exercise": {
         "id": "ex-cloze-trabajamos",
+        "stable_id": "ex-ms9433go104lt",
         "type": "cloze",
         "prompt": "Ergänze die richtige Form von *trabajar*.",
         "card_ids": [
@@ -389,6 +411,7 @@
       "title": "Lücke füllen: tú + estudiar",
       "exercise": {
         "id": "ex-cloze-estudias",
+        "stable_id": "ex-ms9433go105t7",
         "type": "cloze",
         "prompt": "Ergänze die richtige Form von *estudiar*.",
         "card_ids": [
@@ -415,6 +438,7 @@
       "title": "'Ich spreche Spanisch.' zusammensetzen",
       "exercise": {
         "id": "ex-tile-hablo",
+        "stable_id": "ex-ms9433go106om",
         "type": "word_tiles",
         "prompt": "Setze den Satz 'Ich spreche Spanisch.' zusammen.",
         "card_ids": [
@@ -437,6 +461,7 @@
       "title": "'Sie kaufen Brot.' zusammensetzen",
       "exercise": {
         "id": "ex-tile-compran",
+        "stable_id": "ex-ms9433go1079l",
         "type": "word_tiles",
         "prompt": "Setze den Satz 'Sie kaufen Brot.' zusammen.",
         "card_ids": [
@@ -458,6 +483,7 @@
       "title": "'Wir lernen Spanisch.'",
       "exercise": {
         "id": "ex-pick-estudiamos",
+        "stable_id": "ex-ms9433go108n5",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Form: 'Wir lernen Spanisch.'",
         "card_ids": [
@@ -499,6 +525,7 @@
       "title": "'Sie kochen.'",
       "exercise": {
         "id": "ex-pick-cocinan",
+        "stable_id": "ex-ms9433go1092e",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Form: 'Sie kochen.'",
         "card_ids": [
@@ -539,6 +566,7 @@
       "title": "'du kaufst ein Buch'",
       "exercise": {
         "id": "ex-free-compras",
+        "stable_id": "ex-ms9433go10aja",
         "type": "free_text",
         "prompt": "Übersetze: 'du kaufst ein Buch' (comprar, tú).",
         "card_ids": [

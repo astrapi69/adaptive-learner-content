@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "dir-droite",
+      "stable_id": "card-ms9433hp1w5u7",
       "front": "à droite",
       "back": "nach rechts / rechts",
       "notes": "Immer mit **à**. *Tournez à droite* — biegen Sie rechts ab. Das Gegenteil ist *à gauche*.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "dir-gauche",
+      "stable_id": "card-ms9433hp1w6h2",
       "front": "à gauche",
       "back": "nach links / links",
       "tags": [
@@ -23,6 +25,7 @@
     },
     {
       "id": "dir-tout-droit",
+      "stable_id": "card-ms9433hp1w78m",
       "front": "tout droit",
       "back": "geradeaus",
       "notes": "Zwei Wörter. Achte auf die Schreibweise — *tout* (geradeaus) ohne **e**, *droit* ebenfalls ohne **e**. Beide unveränderlich in dieser festen Wendung.",
@@ -32,6 +35,7 @@
     },
     {
       "id": "dir-pres-de",
+      "stable_id": "card-ms9433hp1w83f",
       "front": "près de",
       "back": "nahe (bei)",
       "notes": "Gefolgt von **de** + Nomen: *près de la gare* (nahe dem Bahnhof). *De* verschmilzt mit *le* / *les*: **près du** marché, **près des** boutiques.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "dir-loin-de",
+      "stable_id": "card-ms9433hp1w91a",
       "front": "loin de",
       "back": "weit (von)",
       "notes": "Gleiche Konstruktion wie *près de*: **loin du** centre, **loin des** magasins.",
@@ -52,6 +57,7 @@
     },
     {
       "id": "dir-en-face-de",
+      "stable_id": "card-ms9433hp1wa57",
       "front": "en face de",
       "back": "gegenüber / gegenüber von",
       "notes": "*La poste est en face de la gare* — die Post ist gegenüber dem Bahnhof.",
@@ -62,6 +68,7 @@
     },
     {
       "id": "dir-a-cote-de",
+      "stable_id": "card-ms9433hp1wb7y",
       "front": "à côté de",
       "back": "neben / direkt neben",
       "tags": [
@@ -71,6 +78,7 @@
     },
     {
       "id": "verb-aller",
+      "stable_id": "card-ms9433hp1wc4q",
       "front": "aller",
       "back": "gehen / fahren",
       "notes": "Unregelmäßig: *je vais*, *tu vas*, *il/elle va*, *nous allons*, *vous allez*, *ils/elles vont*. Wird sowohl für Ortsbewegung als auch für die nahe Zukunft verwendet (*aller* + Infinitiv = etwas tun werden).",
@@ -81,6 +89,7 @@
     },
     {
       "id": "verb-tourner",
+      "stable_id": "card-ms9433hp1wdb4",
       "front": "tourner",
       "back": "abbiegen / sich drehen",
       "notes": "Regelmäßiges -er-Verb. Imperativform (Anweisungen geben): *tourne* (informell) / *tournez* (formell/Plural).",
@@ -90,6 +99,7 @@
     },
     {
       "id": "verb-prendre",
+      "stable_id": "card-ms9433hp1wer0",
       "front": "prendre",
       "back": "nehmen",
       "notes": "Unregelmäßig: *je prends*, *tu prends*, *il prend*, *nous prenons*, *vous prenez*, *ils prennent*. *Prenez la première rue à droite* — nehmen Sie die erste Straße rechts.",
@@ -100,6 +110,7 @@
     },
     {
       "id": "loc-rue",
+      "stable_id": "card-ms9433hp1wf67",
       "front": "la rue",
       "back": "die Straße",
       "tags": [
@@ -109,6 +120,7 @@
     },
     {
       "id": "loc-avenue",
+      "stable_id": "card-ms9433hp1wgf6",
       "front": "l'avenue",
       "back": "die Allee / der Boulevard",
       "notes": "Beginnt mit einem Vokal — Elision. Breiter als eine *rue*, im klassischen Stadtbau meist mit Bäumen in der Mitte.",
@@ -120,6 +132,7 @@
     },
     {
       "id": "loc-gare",
+      "stable_id": "card-ms9433hp1whs7",
       "front": "la gare",
       "back": "der Bahnhof",
       "notes": "Speziell für Züge. Für Busse sagt man *la gare routière* oder einfach *la station*.",
@@ -130,6 +143,7 @@
     },
     {
       "id": "loc-poste",
+      "stable_id": "card-ms9433hp1wi22",
       "front": "la poste",
       "back": "die Post / das Postamt",
       "notes": "**Le poste** (m.) ist etwas ganz anderes — ein Fernseh- / Radiogerät oder eine Stelle (Arbeitsplatz). Das Geschlecht macht den Unterschied deutlich.",
@@ -159,6 +173,7 @@
       "title": "Präpositionen zuordnen",
       "exercise": {
         "id": "ex-match-prepositions",
+        "stable_id": "ex-ms9433hp1wjlp",
         "type": "matching",
         "prompt": "Ordne jedes französische Ortswort seiner deutschen Bedeutung zu.",
         "card_ids": [
@@ -205,6 +220,7 @@
       "title": "Eine Wegbeschreibung lesen",
       "exercise": {
         "id": "ex-pick-direction",
+        "stable_id": "ex-ms9433hp1wkn8",
         "type": "picture_choice",
         "prompt": "*La poste est à droite de la gare.* Was bedeutet das?",
         "card_ids": [
@@ -253,6 +269,7 @@
       "title": "Rechts abbiegen",
       "exercise": {
         "id": "ex-free-tournez",
+        "stable_id": "ex-ms9433hp1wl69",
         "type": "free_text",
         "prompt": "Sag jemandem (förmlich), er solle *rechts abbiegen*.",
         "card_ids": [
@@ -280,6 +297,7 @@
       "title": "Bauen: geradeaus, dann links abbiegen",
       "exercise": {
         "id": "ex-tile-go-straight",
+        "stable_id": "ex-ms9433hp1wmig",
         "type": "word_tiles",
         "prompt": "Ordne so an, dass es bedeutet: *Geh geradeaus, dann bieg links ab.*",
         "card_ids": [
@@ -315,6 +333,7 @@
       "title": "Die Frage zuordnen",
       "exercise": {
         "id": "ex-match-asking",
+        "stable_id": "ex-ms9433hp1wnop",
         "type": "matching",
         "prompt": "Ordne jede französische Wendung ihrer deutschen Bedeutung zu.",
         "card_ids": [
@@ -350,6 +369,7 @@
       "title": "Nach dem Bahnhof fragen",
       "exercise": {
         "id": "ex-free-asking-station",
+        "stable_id": "ex-ms9433hp1wopm",
         "type": "free_text",
         "prompt": "Frag höflich, wo der Bahnhof ist. (Übersetze: *Entschuldigen Sie, wo ist der Bahnhof, bitte?*)",
         "card_ids": [
@@ -376,6 +396,7 @@
       "title": "Die erste Straße nehmen",
       "exercise": {
         "id": "ex-pick-take-street",
+        "stable_id": "ex-ms9433hp1wp3m",
         "type": "picture_choice",
         "prompt": "Welcher Satz bedeutet *Nehmen Sie die erste Straße rechts*?",
         "card_ids": [
@@ -418,6 +439,7 @@
       "title": "Bauen: nahe der Post",
       "exercise": {
         "id": "ex-tile-near-post",
+        "stable_id": "ex-ms9433hp1wq18",
         "type": "word_tiles",
         "prompt": "Ordne so an, dass es bedeutet: *Der Bahnhof ist nahe der Post.*",
         "card_ids": [

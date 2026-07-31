@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "o",
+      "stable_id": "card-ms9433ix36k4n",
       "front": "o",
       "back": "der/das (best. Artikel, m. Sg.)",
       "notes": "Kontext: o carro – das Auto. Bestimmter Artikel maskulin Singular.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "a",
+      "stable_id": "card-ms9433ix36l9g",
       "front": "a",
       "back": "die (best. Artikel, w. Sg.)",
       "notes": "Kontext: a casa – das Haus. Bestimmter Artikel feminin Singular.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "os",
+      "stable_id": "card-ms9433ix36mrc",
       "front": "os",
       "back": "die (best. Artikel, m. Pl.)",
       "notes": "Kontext: os carros – die Autos. Bestimmter Artikel maskulin Plural.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "as",
+      "stable_id": "card-ms9433ix36nkc",
       "front": "as",
       "back": "die (best. Artikel, w. Pl.)",
       "notes": "Kontext: as casas – die Häuser. Bestimmter Artikel feminin Plural.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "um-art",
+      "stable_id": "card-ms9433ix36o5y",
       "front": "um",
       "back": "ein/einer (unbest. Artikel, m.)",
       "notes": "Kontext: um livro – ein Buch. Unbestimmter Artikel maskulin.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "uma-art",
+      "stable_id": "card-ms9433ix36pl7",
       "front": "uma",
       "back": "eine (unbest. Artikel, w.)",
       "notes": "Kontext: uma mesa – ein Tisch. Unbestimmter Artikel feminin.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "o-livro",
+      "stable_id": "card-ms9433ix36qhs",
       "front": "o livro",
       "back": "das Buch",
       "notes": "Kontext: O livro é interessante. – Das Buch ist interessant. Maskulin (Endung -o).",
@@ -65,6 +72,7 @@
     },
     {
       "id": "a-mesa",
+      "stable_id": "card-ms9433ix36r9o",
       "front": "a mesa",
       "back": "der Tisch",
       "notes": "Kontext: A mesa é grande. – Der Tisch ist groß. Feminin (Endung -a).",
@@ -73,6 +81,7 @@
     },
     {
       "id": "o-homem",
+      "stable_id": "card-ms9433ix36siw",
       "front": "o homem",
       "back": "der Mann",
       "notes": "Kontext: O homem trabalha. – Der Mann arbeitet. Maskulin trotz Endung -m.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "a-mulher",
+      "stable_id": "card-ms9433ix36t2k",
       "front": "a mulher",
       "back": "die Frau",
       "notes": "Kontext: A mulher é médica. – Die Frau ist Ärztin. Feminin.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "a-cidade",
+      "stable_id": "card-ms9433ix36uso",
       "front": "a cidade",
       "back": "die Stadt",
       "notes": "Kontext: A cidade é linda. – Die Stadt ist schön. Feminin trotz Endung -e.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "o-dia",
+      "stable_id": "card-ms9433ix36vt9",
       "front": "o dia",
       "back": "der Tag",
       "notes": "Kontext: Bom dia! – Guten Tag! Ausnahme: maskulin, obwohl es auf -a endet.",
@@ -124,6 +136,7 @@
       "title": "Nomen mit Artikel zuordnen",
       "exercise": {
         "id": "ex-match-artikel",
+        "stable_id": "ex-ms9433ix36whb",
         "type": "matching",
         "prompt": "Ordne jedem portugiesischen Ausdruck die deutsche Bedeutung zu.",
         "card_ids": ["o-livro", "a-mesa", "o-homem", "a-mulher", "a-cidade"],
@@ -144,6 +157,7 @@
       "title": "Lücke füllen: Artikel für Buch",
       "exercise": {
         "id": "ex-cloze-o-livro",
+        "stable_id": "ex-ms9433ix36xrq",
         "type": "cloze",
         "prompt": "Ergänze den bestimmten Artikel: '___ livro' (das Buch).",
         "card_ids": ["o", "o-livro"],
@@ -160,6 +174,7 @@
       "title": "Lücke füllen: Artikel für Tisch",
       "exercise": {
         "id": "ex-cloze-a-mesa",
+        "stable_id": "ex-ms9433ix36ywm",
         "type": "cloze",
         "prompt": "Ergänze den bestimmten Artikel: '___ mesa' (der Tisch).",
         "card_ids": ["a", "a-mesa"],
@@ -176,6 +191,7 @@
       "title": "Unbestimmter Artikel feminin",
       "exercise": {
         "id": "ex-free-uma",
+        "stable_id": "ex-ms9433ix36zvh",
         "type": "free_text",
         "prompt": "Wie heißt der unbestimmte Artikel (eine) für feminine Wörter?",
         "card_ids": ["uma-art"],
@@ -192,6 +208,7 @@
       "title": "Plural bilden",
       "exercise": {
         "id": "ex-tile-os-carros",
+        "stable_id": "ex-ms9433ix370z7",
         "type": "word_tiles",
         "prompt": "Baue den Plural: 'die Autos'.",
         "card_ids": ["os"],
@@ -207,6 +224,7 @@
       "title": "Feminines Nomen erkennen",
       "exercise": {
         "id": "ex-pic-mulher",
+        "stable_id": "ex-ms9433ix371td",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'die Frau'?",
         "card_ids": ["a-mulher"],

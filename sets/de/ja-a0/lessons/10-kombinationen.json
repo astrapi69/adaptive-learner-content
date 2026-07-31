@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "k-kya",
+      "stable_id": "card-ms9433in2teu3",
       "front": "きゃ",
       "back": "kya",
       "notes": "Hepburn: kya.",
@@ -19,6 +20,7 @@
     },
     {
       "id": "k-kyu",
+      "stable_id": "card-ms9433in2tf1k",
       "front": "きゅ",
       "back": "kyu",
       "notes": "Hepburn: kyu.",
@@ -29,6 +31,7 @@
     },
     {
       "id": "k-kyo",
+      "stable_id": "card-ms9433in2tgd2",
       "front": "きょ",
       "back": "kyo",
       "notes": "Hepburn: kyo.",
@@ -39,6 +42,7 @@
     },
     {
       "id": "k-sha",
+      "stable_id": "card-ms9433in2tht8",
       "front": "しゃ",
       "back": "sha",
       "notes": "Hepburn: sha.",
@@ -49,6 +53,7 @@
     },
     {
       "id": "k-shu",
+      "stable_id": "card-ms9433in2tico",
       "front": "しゅ",
       "back": "shu",
       "notes": "Hepburn: shu.",
@@ -59,6 +64,7 @@
     },
     {
       "id": "k-sho",
+      "stable_id": "card-ms9433in2tjhh",
       "front": "しょ",
       "back": "sho",
       "notes": "Hepburn: sho.",
@@ -69,6 +75,7 @@
     },
     {
       "id": "k-chu",
+      "stable_id": "card-ms9433in2tko7",
       "front": "ちゅ",
       "back": "chu",
       "notes": "Hepburn: chu.",
@@ -79,6 +86,7 @@
     },
     {
       "id": "k-cho",
+      "stable_id": "card-ms9433in2tlwt",
       "front": "ちょ",
       "back": "cho",
       "notes": "Hepburn: cho.",
@@ -127,7 +135,7 @@
           "sha"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-kya"
+        "id": "ex-r-kya", "stable_id": "ex-ms9433in2tmhb"
       }
     },
     {
@@ -156,7 +164,7 @@
           "kyo"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-sho"
+        "id": "ex-r-sho", "stable_id": "ex-ms9433in2tnju"
       }
     },
     {
@@ -185,7 +193,7 @@
           "kyo"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-chu"
+        "id": "ex-r-chu", "stable_id": "ex-ms9433in2to5y"
       }
     },
     {
@@ -214,7 +222,7 @@
           "しゃ"
         ],
         "hint": "Aus der K-Reihe, kombiniert mit kleinem yo.",
-        "id": "ex-c-kyo"
+        "id": "ex-c-kyo", "stable_id": "ex-ms9433in2tpa4"
       }
     },
     {
@@ -243,7 +251,7 @@
           "Es verdoppelt den Vokal"
         ],
         "hint": "z. B. きって = kitte.",
-        "id": "ex-mc-tsu"
+        "id": "ex-mc-tsu", "stable_id": "ex-ms9433in2tqn4"
       }
     },
     {
@@ -272,7 +280,7 @@
           "Mit einem Kreis (Handakuten)"
         ],
         "hint": "Ein Extra-Vokalzeichen verlängert.",
-        "id": "ex-mc-lang"
+        "id": "ex-mc-lang", "stable_id": "ex-ms9433in2trn2"
       }
     },
     {
@@ -301,7 +309,7 @@
           "つ"
         ],
         "hint": "Kombinationen enden auf ein kleines ya, yu oder yo.",
-        "id": "ex-ms-yo"
+        "id": "ex-ms-yo", "stable_id": "ex-ms9433in2tswh"
       }
     },
     {
@@ -342,7 +350,7 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-yo"
+        "id": "ex-match-yo", "stable_id": "ex-ms9433in2tt5n"
       }
     },
     {
@@ -366,7 +374,7 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-kyo"
+        "id": "ex-tip-kyo", "stable_id": "ex-ms9433in2tu2r"
       }
     }
   ]

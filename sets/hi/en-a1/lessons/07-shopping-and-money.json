@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "hi-shop",
+      "stable_id": "card-ms9433l157929",
       "front": "Shop",
       "back": "दुकान",
       "notes": "A place where you buy things. *Store* is a common variant.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "hi-money",
+      "stable_id": "card-ms9433l157ava",
       "front": "Money",
       "back": "पैसा",
       "notes": "What you use to pay.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "hi-price",
+      "stable_id": "card-ms9433l157bz1",
       "front": "Price",
       "back": "कीमत",
       "notes": "How much a thing costs.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "hi-cheap",
+      "stable_id": "card-ms9433l157ctn",
       "front": "Cheap",
       "back": "सस्ता",
       "notes": "Low in price.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "hi-expensive",
+      "stable_id": "card-ms9433l157dvt",
       "front": "Expensive",
       "back": "महँगा",
       "notes": "High in price.",
@@ -51,6 +56,7 @@
     },
     {
       "id": "hi-buy",
+      "stable_id": "card-ms9433l157e4j",
       "front": "Buy",
       "back": "खरीदना",
       "notes": "To get something for money.",
@@ -60,6 +66,7 @@
     },
     {
       "id": "hi-sell",
+      "stable_id": "card-ms9433l157ffr",
       "front": "Sell",
       "back": "बेचना",
       "notes": "To give something for money.",
@@ -69,6 +76,7 @@
     },
     {
       "id": "hi-pay",
+      "stable_id": "card-ms9433l157ga9",
       "front": "Pay",
       "back": "भुगतान करना",
       "notes": "To give money for something.",
@@ -78,6 +86,7 @@
     },
     {
       "id": "hi-how-much-cost",
+      "stable_id": "card-ms9433l157h0e",
       "front": "How much does it cost?",
       "back": "इसकी कीमत कितनी है?",
       "notes": "Asking a price.",
@@ -87,6 +96,7 @@
     },
     {
       "id": "hi-too-expensive",
+      "stable_id": "card-ms9433l157ij5",
       "front": "It is too expensive.",
       "back": "यह बहुत महँगा है।",
       "notes": "Said when the price is high.",
@@ -96,6 +106,7 @@
     },
     {
       "id": "hi-i-want-buy",
+      "stable_id": "card-ms9433l157jum",
       "front": "I want to buy this.",
       "back": "मैं यह खरीदना चाहता हूँ।",
       "notes": "Telling a seller what you want.",
@@ -105,6 +116,7 @@
     },
     {
       "id": "hi-receipt",
+      "stable_id": "card-ms9433l157kte",
       "front": "Receipt",
       "back": "रसीद",
       "notes": "A paper that shows what you paid.",
@@ -127,6 +139,7 @@
       "title": "Match the words",
       "exercise": {
         "id": "l7-ex-match-words",
+        "stable_id": "ex-ms9433l157l9v",
         "type": "matching",
         "prompt": "Match each English word with its Hindi meaning.",
         "card_ids": [
@@ -163,6 +176,7 @@
       "title": "Translate the word",
       "exercise": {
         "id": "l7-ex-free-cheap",
+        "stable_id": "ex-ms9433l157m2u",
         "type": "free_text",
         "prompt": "Translate to English: सस्ता",
         "card_ids": [
@@ -188,6 +202,7 @@
       "title": "Match the verbs",
       "exercise": {
         "id": "l7-ex-match-verbs",
+        "stable_id": "ex-ms9433l157nqe",
         "type": "matching",
         "prompt": "Match each English word with its Hindi meaning.",
         "card_ids": [
@@ -230,6 +245,7 @@
       "title": "Complete the question",
       "exercise": {
         "id": "l7-ex-cloze-cost",
+        "stable_id": "ex-ms9433l157o3f",
         "type": "cloze",
         "prompt": "Fill the blank in English.",
         "card_ids": [
@@ -255,6 +271,7 @@
       "title": "Build a sentence",
       "exercise": {
         "id": "l7-ex-tiles-buythis",
+        "stable_id": "ex-ms9433l157p9c",
         "type": "word_tiles",
         "prompt": "Arrange to mean: मैं यह खरीदना चाहता हूँ। (I want to buy this.)",
         "card_ids": [
@@ -278,6 +295,7 @@
       "title": "Say it is too expensive",
       "exercise": {
         "id": "l7-ex-free-expensive",
+        "stable_id": "ex-ms9433l157qhn",
         "type": "free_text",
         "prompt": "Translate to English: यह बहुत महँगा है।",
         "card_ids": [
@@ -305,6 +323,7 @@
       "title": "Complete the sentence",
       "exercise": {
         "id": "l7-ex-cloze-money",
+        "stable_id": "ex-ms9433l157rf3",
         "type": "cloze",
         "prompt": "Fill the blank in English.",
         "card_ids": [
@@ -330,6 +349,7 @@
       "title": "Translate the word",
       "exercise": {
         "id": "l7-ex-free-buy",
+        "stable_id": "ex-ms9433l157syk",
         "type": "free_text",
         "prompt": "Translate to English: खरीदना",
         "card_ids": [

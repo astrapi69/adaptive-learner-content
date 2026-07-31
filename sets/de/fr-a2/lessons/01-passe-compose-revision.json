@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "verb-voir",
+      "stable_id": "card-ms9433ht20fee",
       "front": "voir",
       "back": "sehen",
       "notes": "Unregelmäßiges Partizip: **vu**. Bildet mit **avoir**. *J'ai vu un film* — ich habe einen Film gesehen.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "verb-faire",
+      "stable_id": "card-ms9433ht20g6c",
       "front": "faire",
       "back": "machen / tun",
       "notes": "Unregelmäßiges Partizip: **fait**. Bildet mit **avoir**. *J'ai fait mes devoirs* — ich habe meine Hausaufgaben gemacht.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "verb-prendre",
+      "stable_id": "card-ms9433ht20hi5",
       "front": "prendre",
       "back": "nehmen",
       "notes": "Unregelmäßiges Partizip: **pris**. Bildet mit **avoir**. *Nous avons pris le train* — wir haben den Zug genommen. Genauso: *apprendre → appris*, *comprendre → compris*.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "verb-mettre",
+      "stable_id": "card-ms9433ht20ikp",
       "front": "mettre",
       "back": "setzen / legen / anziehen",
       "notes": "Unregelmäßiges Partizip: **mis**. Bildet mit **avoir**. *J'ai mis la table* — ich habe den Tisch gedeckt.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "verb-dire",
+      "stable_id": "card-ms9433ht20jxv",
       "front": "dire",
       "back": "sagen",
       "notes": "Unregelmäßiges Partizip: **dit**. Bildet mit **avoir**. *Il a dit la vérité* — er hat die Wahrheit gesagt.",
@@ -51,6 +56,7 @@
     },
     {
       "id": "verb-ecrire",
+      "stable_id": "card-ms9433ht20ku1",
       "front": "écrire",
       "back": "schreiben",
       "notes": "Unregelmäßiges Partizip: **écrit**. Bildet mit **avoir**. *J'ai écrit une lettre* — ich habe einen Brief geschrieben.",
@@ -60,6 +66,7 @@
     },
     {
       "id": "verb-lire",
+      "stable_id": "card-ms9433ht20lir",
       "front": "lire",
       "back": "lesen",
       "notes": "Unregelmäßiges Partizip: **lu**. Bildet mit **avoir**. *Elle a lu le livre* — sie hat das Buch gelesen.",
@@ -69,6 +76,7 @@
     },
     {
       "id": "verb-boire",
+      "stable_id": "card-ms9433ht20ml0",
       "front": "boire",
       "back": "trinken",
       "notes": "Unregelmäßiges Partizip: **bu**. Bildet mit **avoir**. *Ils ont bu du café* — sie haben Kaffee getrunken.",
@@ -78,6 +86,7 @@
     },
     {
       "id": "verb-vouloir",
+      "stable_id": "card-ms9433ht20nis",
       "front": "vouloir",
       "back": "wollen",
       "notes": "Unregelmäßiges Partizip: **voulu**. Bildet mit **avoir**. *J'ai voulu partir* — ich wollte gehen.",
@@ -87,6 +96,7 @@
     },
     {
       "id": "verb-pouvoir",
+      "stable_id": "card-ms9433ht20obj",
       "front": "pouvoir",
       "back": "können",
       "notes": "Unregelmäßiges Partizip: **pu**. Bildet mit **avoir**. *Je n'ai pas pu venir* — ich konnte nicht kommen.",
@@ -97,6 +107,7 @@
     },
     {
       "id": "verb-devoir",
+      "stable_id": "card-ms9433ht20pl1",
       "front": "devoir",
       "back": "müssen",
       "notes": "Unregelmäßiges Partizip: **dû** (mit accent circonflexe). Bildet mit **avoir**. *J'ai dû travailler* — ich musste arbeiten.",
@@ -106,6 +117,7 @@
     },
     {
       "id": "verb-mourir",
+      "stable_id": "card-ms9433ht20qsy",
       "front": "mourir",
       "back": "sterben",
       "notes": "Unregelmäßiges Partizip: **mort**. Bildet als Bewegungs-/Zustandsverb mit **être** (wie in A1) — mit Angleichung: *Elle est morte* — sie ist gestorben.",
@@ -135,6 +147,7 @@
       "title": "Verben verstehen",
       "exercise": {
         "id": "ex-match-meaning",
+        "stable_id": "ex-ms9433ht20rnr",
         "type": "matching",
         "prompt": "Ordne jedem französischen Verb seine deutsche Bedeutung zu.",
         "card_ids": ["verb-voir", "verb-faire", "verb-prendre", "verb-dire", "verb-lire"],
@@ -155,6 +168,7 @@
       "title": "Partizip zum Infinitiv",
       "exercise": {
         "id": "ex-match-participle",
+        "stable_id": "ex-ms9433ht20s1t",
         "type": "matching",
         "prompt": "Ordne jedem Infinitiv sein unregelmäßiges Partizip Perfekt zu.",
         "card_ids": ["verb-prendre", "verb-mettre", "verb-ecrire", "verb-boire", "verb-pouvoir"],
@@ -175,6 +189,7 @@
       "title": "Ich habe einen Film gesehen",
       "exercise": {
         "id": "ex-cloze-vu",
+        "stable_id": "ex-ms9433ht20tna",
         "type": "cloze",
         "prompt": "Ergänze das Partizip von *voir*.",
         "card_ids": ["verb-voir"],
@@ -193,6 +208,7 @@
       "title": "Ich habe einen Brief geschrieben",
       "exercise": {
         "id": "ex-free-wrote-letter",
+        "stable_id": "ex-ms9433ht20uww",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich habe einen Brief geschrieben.*",
         "card_ids": ["verb-ecrire"],
@@ -218,6 +234,7 @@
       "title": "Wir haben den Zug genommen",
       "exercise": {
         "id": "ex-pic-took-train",
+        "stable_id": "ex-ms9433ht20vso",
         "type": "picture_choice",
         "prompt": "Welcher Satz bedeutet *Wir haben den Zug genommen*?",
         "card_ids": ["verb-prendre"],
@@ -243,6 +260,7 @@
       "title": "Bilde: Ich habe meine Hausaufgaben gemacht",
       "exercise": {
         "id": "ex-tiles-did-homework",
+        "stable_id": "ex-ms9433ht20wsm",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Ich habe meine Hausaufgaben gemacht.*",
         "card_ids": ["verb-faire"],
@@ -258,6 +276,7 @@
       "title": "Sie hat das Buch gelesen",
       "exercise": {
         "id": "ex-free-read-book",
+        "stable_id": "ex-ms9433ht20x21",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Sie hat das Buch gelesen.*",
         "card_ids": ["verb-lire"],
@@ -288,6 +307,7 @@
       "title": "Den Tisch gedeckt",
       "exercise": {
         "id": "ex-cloze-mettre",
+        "stable_id": "ex-ms9433ht20y05",
         "type": "cloze",
         "prompt": "Ergänze das Partizip von *mettre*.",
         "card_ids": ["verb-mettre"],
@@ -306,6 +326,7 @@
       "title": "Verstehen: Il a dit la vérité",
       "exercise": {
         "id": "ex-free-receptive-said",
+        "stable_id": "ex-ms9433ht20z4g",
         "type": "free_text",
         "prompt": "Was bedeutet auf Deutsch: *Il a dit la vérité.*",
         "card_ids": ["verb-dire"],
@@ -330,6 +351,7 @@
       "title": "Bilde: Sie haben Kaffee getrunken",
       "exercise": {
         "id": "ex-tiles-drank-coffee",
+        "stable_id": "ex-ms9433ht2105r",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Sie haben Kaffee getrunken.* (männlich/gemischt: ils)",
         "card_ids": ["verb-boire"],
@@ -345,6 +367,7 @@
       "title": "être mit unregelmäßigem Partizip",
       "exercise": {
         "id": "ex-free-she-died",
+        "stable_id": "ex-ms9433ht211rl",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Sie ist 1998 gestorben.* (mourir bildet mit être!)",
         "card_ids": ["verb-mourir"],

@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "ki-anbieter",
+      "stable_id": "card-ms9433fd02s0e",
       "front": "KI-Anbieter (Provider)",
       "back": "Der Dienst, dessen Sprachmodell die App für Rückmeldungen und Erklärungen nutzt. Adaptive Learner unterstützt Anthropic (Claude), OpenAI (GPT) und Google (Gemini).",
       "notes": "Englisch: AI provider. Du wählst, wessen KI dich begleitet.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "anthropic",
+      "stable_id": "card-ms9433fd02tuq",
       "front": "Anthropic (Claude)",
       "back": "Einer der drei unterstützten KI-Anbieter. Sein Modell heißt Claude.",
       "notes": "Claude ist die Modellfamilie von Anthropic.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "openai",
+      "stable_id": "card-ms9433fd02ugn",
       "front": "OpenAI (GPT)",
       "back": "Einer der drei unterstützten KI-Anbieter. Seine Modelle heißen GPT.",
       "notes": "GPT ist die Modellfamilie von OpenAI.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "google-gemini",
+      "stable_id": "card-ms9433fd02v7r",
       "front": "Google (Gemini)",
       "back": "Einer der drei unterstützten KI-Anbieter. Sein Modell heißt Gemini.",
       "notes": "Gemini ist die Modellfamilie von Google.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "api-schluessel",
+      "stable_id": "card-ms9433fd02wl2",
       "front": "API-Schlüssel",
       "back": "Ein geheimes Zugangskennwort, mit dem sich die App bei einem KI-Anbieter anmeldet. Du hinterlegst deinen eigenen Schlüssel, damit die Anfragen über dein Konto laufen.",
       "notes": "Englisch: API key. Wie ein Passwort behandeln — niemals weitergeben.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "modellauswahl",
+      "stable_id": "card-ms9433fd02xp4",
       "front": "Modellauswahl (Model Discovery)",
       "back": "Die App fragt beim Anbieter live ab, welche Modelle verfügbar sind, sodass du stets aus aktuellen Modellen wählen kannst.",
       "notes": "Englisch: live model discovery. Keine veraltete, fest verdrahtete Liste.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "schluessel-kette",
+      "stable_id": "card-ms9433fd02y6h",
       "front": "Schlüssel-Reihenfolge",
       "back": "Die App sucht den API-Schlüssel in drei Ebenen, in fester Reihenfolge: zuerst in der Umgebung, dann in der Datei secrets.yaml, zuletzt in den verschlüsselten Einstellungen.",
       "notes": "Englisch: key resolution chain (environment → secrets.yaml → Settings).",
@@ -72,6 +79,7 @@
     },
     {
       "id": "streaming",
+      "stable_id": "card-ms9433fd02zpt",
       "front": "Streaming",
       "back": "Die Antwort der KI erscheint Wort für Wort, während sie entsteht — statt erst nach Fertigstellung komplett zu erscheinen. Ein Cursor zeigt den Fortschritt.",
       "notes": "Englisch: token-by-token streaming. Fühlt sich lebendiger und schneller an.",
@@ -106,6 +114,7 @@
       "title": "Anbieter und Modell",
       "exercise": {
         "id": "ex-match-anbieter",
+        "stable_id": "ex-ms9433fd030y2",
         "type": "matching",
         "prompt": "Ordne jedem KI-Anbieter seine Modellfamilie zu.",
         "card_ids": ["anthropic", "openai", "google-gemini"],
@@ -124,6 +133,7 @@
       "title": "Zugang zum Anbieter",
       "exercise": {
         "id": "ex-free-schluessel",
+        "stable_id": "ex-ms9433fd0311x",
         "type": "free_text",
         "prompt": "Wie heißt das geheime Zugangskennwort, mit dem sich die App beim KI-Anbieter anmeldet?",
         "card_ids": ["api-schluessel"],
@@ -140,6 +150,7 @@
       "title": "Reihenfolge der Schlüsselsuche",
       "exercise": {
         "id": "ex-tiles-kette",
+        "stable_id": "ex-ms9433fd032lr",
         "type": "word_tiles",
         "prompt": "Bringe die drei Ebenen der Schlüsselsuche in die richtige Reihenfolge.",
         "card_ids": ["schluessel-kette"],
@@ -155,6 +166,7 @@
       "title": "Antwort in Echtzeit",
       "exercise": {
         "id": "ex-cloze-streaming",
+        "stable_id": "ex-ms9433fd03327",
         "type": "cloze",
         "prompt": "Ergänze den Fachbegriff für die Wort-für-Wort erscheinende Antwort.",
         "card_ids": ["streaming"],
@@ -171,6 +183,7 @@
       "title": "Wie viele Anbieter?",
       "exercise": {
         "id": "ex-free-anzahl-anbieter",
+        "stable_id": "ex-ms9433fd034h2",
         "type": "free_text",
         "prompt": "Zwischen wie vielen KI-Anbietern kannst du in Adaptive Learner wählen?",
         "card_ids": ["ki-anbieter"],
@@ -187,6 +200,7 @@
       "title": "Immer aktuelle Modelle",
       "exercise": {
         "id": "ex-cloze-modelle",
+        "stable_id": "ex-ms9433fd035h0",
         "type": "cloze",
         "prompt": "Ergänze, wie die App die verfügbaren Modelle ermittelt.",
         "card_ids": ["modellauswahl"],

@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "el-libro",
+      "stable_id": "card-ms9433jp3xlwm",
       "front": "el libro",
       "back": "the book (masculine → el)",
       "notes": "Ending -o → usually masculine → el.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "la-casa",
+      "stable_id": "card-ms9433jp3xmiz",
       "front": "la casa",
       "back": "the house (feminine → la)",
       "notes": "Ending -a → usually feminine → la.",
@@ -26,6 +28,7 @@
     },
     {
       "id": "la-familia",
+      "stable_id": "card-ms9433jp3xnxk",
       "front": "la familia",
       "back": "the family (feminine → la)",
       "tags": [
@@ -34,6 +37,7 @@
     },
     {
       "id": "el-mercado",
+      "stable_id": "card-ms9433jp3xou1",
       "front": "el mercado",
       "back": "the market (masculine → el)",
       "tags": [
@@ -42,6 +46,7 @@
     },
     {
       "id": "rojo",
+      "stable_id": "card-ms9433jp3xp38",
       "front": "rojo / roja",
       "back": "red (agrees with the gender)",
       "notes": "rojo with masculine, roja with feminine.",
@@ -51,6 +56,7 @@
     },
     {
       "id": "soy",
+      "stable_id": "card-ms9433jp3xqfv",
       "front": "yo soy",
       "back": "I am (ser — identity)",
       "tags": [
@@ -59,6 +65,7 @@
     },
     {
       "id": "estoy",
+      "stable_id": "card-ms9433jp3xrvx",
       "front": "yo estoy",
       "back": "I am (estar — state/location)",
       "tags": [
@@ -67,6 +74,7 @@
     },
     {
       "id": "hablo",
+      "stable_id": "card-ms9433jp3xsvd",
       "front": "yo hablo",
       "back": "I speak (hablar, present)",
       "notes": "-AR verb, 1st person singular.",
@@ -76,6 +84,7 @@
     },
     {
       "id": "como",
+      "stable_id": "card-ms9433jp3xt4v",
       "front": "yo como",
       "back": "I eat (comer, present)",
       "notes": "-ER verb, 1st person singular.",
@@ -85,6 +94,7 @@
     },
     {
       "id": "vivo",
+      "stable_id": "card-ms9433jp3xumy",
       "front": "yo vivo",
       "back": "I live (vivir, present)",
       "notes": "-IR verb, 1st person singular.",
@@ -94,6 +104,7 @@
     },
     {
       "id": "hable",
+      "stable_id": "card-ms9433jp3xv9d",
       "front": "yo hablé",
       "back": "I spoke (hablar, preterite)",
       "notes": "Accent on the é: hablé. Without the accent (hablo) it would be present tense.",
@@ -103,6 +114,7 @@
     },
     {
       "id": "comi",
+      "stable_id": "card-ms9433jp3xw9h",
       "front": "yo comí",
       "back": "I ate (comer, preterite)",
       "notes": "Accent on the í: comí.",
@@ -112,6 +124,7 @@
     },
     {
       "id": "fui",
+      "stable_id": "card-ms9433jp3xxbq",
       "front": "yo fui",
       "back": "I went / I was (ir/ser, irregular)",
       "notes": "Irregular preterite — NO accent: fui.",
@@ -121,6 +134,7 @@
     },
     {
       "id": "compre",
+      "stable_id": "card-ms9433jp3xyzr",
       "front": "yo compré",
       "back": "I bought (comprar, preterite)",
       "notes": "Accent on the é: compré.",
@@ -130,6 +144,7 @@
     },
     {
       "id": "soy-de-espana",
+      "stable_id": "card-ms9433jp3xztp",
       "front": "Soy de España.",
       "back": "I am from Spain. (origin → ser)",
       "tags": [
@@ -138,6 +153,7 @@
     },
     {
       "id": "camisa-roja",
+      "stable_id": "card-ms9433jp3y0wh",
       "front": "la camisa roja",
       "back": "the red shirt (feminine → la camisa roja)",
       "notes": "camisa is feminine → la + roja (not rojo).",
@@ -166,6 +182,7 @@
       "title": "Mixed matching",
       "exercise": {
         "id": "ex-match-mixed",
+        "stable_id": "ex-ms9433jp3y19s",
         "type": "matching",
         "prompt": "Match each Spanish form with its English meaning (articles, ser, estar, preterite mixed).",
         "card_ids": [
@@ -207,6 +224,7 @@
       "title": "Present or past?",
       "exercise": {
         "id": "ex-match-present-past",
+        "stable_id": "ex-ms9433jp3y2is",
         "type": "matching",
         "prompt": "Match each form with its English meaning — watch the accent (present vs. preterite).",
         "card_ids": [
@@ -248,6 +266,7 @@
       "title": "Identity → ser",
       "exercise": {
         "id": "ex-pick-ser-identitaet",
+        "stable_id": "ex-ms9433jp3y3rj",
         "type": "picture_choice",
         "prompt": "Pick the correct form: 'I am a student.' (identity)",
         "card_ids": [
@@ -289,6 +308,7 @@
       "title": "Article and gender",
       "exercise": {
         "id": "ex-pick-article-gender",
+        "stable_id": "ex-ms9433jp3y40z",
         "type": "picture_choice",
         "prompt": "Pick the correct form: 'the house' (with the correct article).",
         "card_ids": [
@@ -329,6 +349,7 @@
       "title": "Cloze: ser or estar?",
       "exercise": {
         "id": "ex-cloze-estar",
+        "stable_id": "ex-ms9433jp3y5xi",
         "type": "cloze",
         "prompt": "Being tired is a temporary state — fill in the right form.",
         "card_ids": [
@@ -354,6 +375,7 @@
       "title": "Cloze: present -ER (comer)",
       "exercise": {
         "id": "ex-cloze-present-er",
+        "stable_id": "ex-ms9433jp3y6ss",
         "type": "cloze",
         "prompt": "Fill in the we-form of comer (to eat) in the present.",
         "card_ids": [
@@ -379,6 +401,7 @@
       "title": "Cloze: preterite (hablar)",
       "exercise": {
         "id": "ex-cloze-preterite-hablar",
+        "stable_id": "ex-ms9433jp3y7ic",
         "type": "cloze",
         "prompt": "Yesterday (ayer) → past tense. Fill in the yo-form of hablar in the preterite.",
         "card_ids": [
@@ -404,6 +427,7 @@
       "title": "Cloze: irregular preterite (ir)",
       "exercise": {
         "id": "ex-cloze-preterite-ir",
+        "stable_id": "ex-ms9433jp3y8tf",
         "type": "cloze",
         "prompt": "Fill in the yo-form of ir (to go) in the preterite — irregular, no accent.",
         "card_ids": [
@@ -429,6 +453,7 @@
       "title": "Combine: origin + place of living",
       "exercise": {
         "id": "ex-free-combine",
+        "stable_id": "ex-ms9433jp3y980",
         "type": "free_text",
         "prompt": "Translate: 'I am from Spain and I live in Madrid.' (ser for origin, vivir in the present)",
         "card_ids": [
@@ -457,6 +482,7 @@
       "title": "Combine: preterite",
       "exercise": {
         "id": "ex-free-preterite",
+        "stable_id": "ex-ms9433jp3ya0s",
         "type": "free_text",
         "prompt": "Translate: 'Yesterday I spoke with María.' (hablar in the preterite)",
         "card_ids": [
@@ -483,6 +509,7 @@
       "title": "Build: ser + estar",
       "exercise": {
         "id": "ex-tile-ser-estar",
+        "stable_id": "ex-ms9433jp3yb9i",
         "type": "word_tiles",
         "prompt": "Arrange to mean: 'I am tall and I am happy.' (characteristic → ser, feeling → estar)",
         "card_ids": [
@@ -507,6 +534,7 @@
       "title": "Build: preterite",
       "exercise": {
         "id": "ex-tile-preterite",
+        "stable_id": "ex-ms9433jp3ycti",
         "type": "word_tiles",
         "prompt": "Arrange to mean: 'Yesterday I bought a book.' (comprar in the preterite)",
         "card_ids": [
@@ -530,6 +558,7 @@
       "title": "Gender + article + adjective",
       "exercise": {
         "id": "ex-free-gender-article",
+        "stable_id": "ex-ms9433jp3yd0n",
         "type": "free_text",
         "prompt": "Translate: 'the red shirt'. (camisa is feminine — article and adjective must agree)",
         "card_ids": [

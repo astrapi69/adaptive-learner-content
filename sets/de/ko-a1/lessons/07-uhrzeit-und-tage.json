@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "myeot-siyeyo",
+      "stable_id": "card-ms9433iu320wu",
       "front": "몇 시예요?",
       "back": "Wie spät ist es?",
       "notes": "Romanisierung: myeot siyeyo? Kontext: 지금 몇 시예요? (jigeum myeot siyeyo?) – Wie spät ist es jetzt?",
@@ -17,6 +18,7 @@
     },
     {
       "id": "si",
+      "stable_id": "card-ms9433iu321ny",
       "front": "시",
       "back": "Uhr (Stunde)",
       "notes": "Romanisierung: si. Kontext: 세 시예요 (se siyeyo) – Es ist drei Uhr. Stunden mit nativen Zahlen!",
@@ -25,6 +27,7 @@
     },
     {
       "id": "bun",
+      "stable_id": "card-ms9433iu32249",
       "front": "분",
       "back": "Minute",
       "notes": "Romanisierung: bun. Kontext: 삼십 분 (samsip bun) – 30 Minuten. Minuten mit sino-koreanischen Zahlen!",
@@ -33,6 +36,7 @@
     },
     {
       "id": "woryoil",
+      "stable_id": "card-ms9433iu3237c",
       "front": "월요일",
       "back": "Montag",
       "notes": "Romanisierung: woryoil. Kontext: 월요일에 만나요 (woryoire mannayo) – Wir treffen uns am Montag.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "hwayoil",
+      "stable_id": "card-ms9433iu324gm",
       "front": "화요일",
       "back": "Dienstag",
       "notes": "Romanisierung: hwayoil. Kontext: 화요일이에요 (hwayoirieyo) – Es ist Dienstag.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "suyoil",
+      "stable_id": "card-ms9433iu325gr",
       "front": "수요일",
       "back": "Mittwoch",
       "notes": "Romanisierung: suyoil. Kontext: 수요일에 수업이 있어요 (suyoire sueobi isseoyo) – Am Mittwoch habe ich Unterricht.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "mogyoil",
+      "stable_id": "card-ms9433iu326zb",
       "front": "목요일",
       "back": "Donnerstag",
       "notes": "Romanisierung: mogyoil. Kontext: 목요일이에요 (mogyoirieyo) – Es ist Donnerstag.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "geumyoil",
+      "stable_id": "card-ms9433iu327ea",
       "front": "금요일",
       "back": "Freitag",
       "notes": "Romanisierung: geumyoil. Kontext: 금요일 좋아요 (geumyoil joayo) – Ich mag Freitag.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "toyoil",
+      "stable_id": "card-ms9433iu328su",
       "front": "토요일",
       "back": "Samstag",
       "notes": "Romanisierung: toyoil. Kontext: 토요일에 쉬어요 (toyoire swieoyo) – Am Samstag ruhe ich mich aus.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "iryoil",
+      "stable_id": "card-ms9433iu329lw",
       "front": "일요일",
       "back": "Sonntag",
       "notes": "Romanisierung: iryoil. Kontext: 일요일에 교회에 가요 (iryoire gyohoee gayo) – Am Sonntag gehe ich in die Kirche.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "oneul",
+      "stable_id": "card-ms9433iu32av9",
       "front": "오늘",
       "back": "heute",
       "notes": "Romanisierung: oneul. Kontext: 오늘 뭐 해요? (oneul mwo haeyo?) – Was machst du heute?",
@@ -97,6 +108,7 @@
     },
     {
       "id": "naeil",
+      "stable_id": "card-ms9433iu32b0l",
       "front": "내일",
       "back": "morgen",
       "notes": "Romanisierung: naeil. Kontext: 내일 만나요 (naeil mannayo) – Wir sehen uns morgen.",
@@ -124,6 +136,7 @@
       "title": "Wochentage zuordnen",
       "exercise": {
         "id": "ex-match-tage",
+        "stable_id": "ex-ms9433iu32czk",
         "type": "matching",
         "prompt": "Ordne jedem koreanischen Wochentag den deutschen zu.",
         "card_ids": ["woryoil", "suyoil", "geumyoil", "iryoil"],
@@ -143,6 +156,7 @@
       "title": "Nach der Uhrzeit fragen",
       "exercise": {
         "id": "ex-free-wie-spaet",
+        "stable_id": "ex-ms9433iu32d3g",
         "type": "free_text",
         "prompt": "Wie fragt man 'Wie spät ist es?' (Hangul oder Romanisierung)",
         "card_ids": ["myeot-siyeyo"],
@@ -159,6 +173,7 @@
       "title": "Heute",
       "exercise": {
         "id": "ex-free-heute",
+        "stable_id": "ex-ms9433iu32ekz",
         "type": "free_text",
         "prompt": "Wie sagt man 'heute'? (Hangul oder Romanisierung)",
         "card_ids": ["oneul"],
@@ -175,6 +190,7 @@
       "title": "Lücke füllen: morgen",
       "exercise": {
         "id": "ex-cloze-morgen",
+        "stable_id": "ex-ms9433iu32fqv",
         "type": "cloze",
         "prompt": "Ergänze das Wort für 'morgen'.",
         "card_ids": ["naeil"],
@@ -191,6 +207,7 @@
       "title": "Uhrzeit zusammensetzen",
       "exercise": {
         "id": "ex-tiles-drei-uhr",
+        "stable_id": "ex-ms9433iu32g0m",
         "type": "word_tiles",
         "prompt": "Baue 'Es ist drei Uhr.' (nativ 'drei' + 시 + 예요)",
         "card_ids": ["si"],
@@ -206,6 +223,7 @@
       "title": "Samstag erkennen",
       "exercise": {
         "id": "ex-pick-samstag",
+        "stable_id": "ex-ms9433iu32h7v",
         "type": "picture_choice",
         "prompt": "Welcher Tag ist 'Samstag'?",
         "card_ids": ["toyoil"],
