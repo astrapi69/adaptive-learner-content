@@ -21,6 +21,9 @@ Per set the index records:
   * tags: from the manifest, else []
   * visibility: consumer-display hint (engine schema 1.8); absent or
     out-of-enum normalizes to "visible"
+  * review_status: three-state review standing (engine schema 1.9), derived
+    from ORIGIN; absent or out-of-enum normalizes to "authored". Consumers
+    derive "advertisable as reviewed" as review_status != "generated"
   * ai_validated: true when the set manifest carries an ``ai_validation``
     block under its free-form ``metadata`` (set-entry fallback for older
     manifests — the canonical manifest schema keeps set entries strict)
@@ -68,11 +71,25 @@ REQUIRED_SET_FIELDS = (
     "level",
     "domain",
     "visibility",
+    "review_status",
 )
 
 
 def base_lang(code: str) -> str:
     return (code or "").split("-")[0].lower()
+
+
+REVIEW_STATUS_VALUES = ("authored", "generated", "reviewed")
+
+
+def normalize_review_status(raw_status: object) -> str:
+    """Engine-parity projection of the manifest ``review_status`` flag.
+
+    Mirrors ``asContentSetEntry`` in learn-content-engine 0.16.x: absent or
+    out-of-enum values fold back to ``"authored"`` (legacy hand-written
+    content), so a consumer can filter without its own defaulting.
+    """
+    return raw_status if raw_status in REVIEW_STATUS_VALUES else "authored"
 
 
 def normalize_visibility(raw_visibility: object) -> str:
@@ -201,6 +218,7 @@ def build_set_entry(
         "card_count": card_count,
         "tags": list(set_entry.get("tags") or []),
         "visibility": normalize_visibility(set_entry.get("visibility")),
+        "review_status": normalize_review_status(set_entry.get("review_status")),
         # ai_validation is repo-local provenance; the canonical (engine)
         # manifest schema keeps set entries strict, so the block lives in
         # the set manifest's free-form metadata (set-entry read kept as a
