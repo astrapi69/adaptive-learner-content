@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "que-horas-sao",
+      "stable_id": "card-ms9433iy37227",
       "front": "Que horas são?",
       "back": "Wie spät ist es?",
       "notes": "Kontext: Que horas são? – São três. – Wie spät ist es? – Es ist drei.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "sao",
+      "stable_id": "card-ms9433iy3730v",
       "front": "São...",
       "back": "Es ist... (ab 2 Uhr)",
       "notes": "Kontext: São duas horas. – Es ist zwei Uhr. Plural, weil mehrere Stunden.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "e-uma-hora",
+      "stable_id": "card-ms9433iy37483",
       "front": "É uma hora",
       "back": "Es ist ein Uhr",
       "notes": "Kontext: É uma hora. – Es ist ein Uhr. Singular 'é' nur bei 1 Uhr.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "meio-dia",
+      "stable_id": "card-ms9433iy375pd",
       "front": "meio-dia",
       "back": "Mittag (12 Uhr)",
       "notes": "Kontext: É meio-dia. – Es ist zwölf Uhr mittags.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "segunda-feira",
+      "stable_id": "card-ms9433iy376x3",
       "front": "segunda-feira",
       "back": "Montag",
       "notes": "Kontext: Na segunda-feira tenho aula. – Am Montag habe ich Unterricht. Kurz auch nur 'segunda'.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "terca-feira",
+      "stable_id": "card-ms9433iy3777i",
       "front": "terça-feira",
       "back": "Dienstag",
       "notes": "Kontext: terça-feira é meu dia livre – Dienstag ist mein freier Tag.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "quarta-feira",
+      "stable_id": "card-ms9433iy3786s",
       "front": "quarta-feira",
       "back": "Mittwoch",
       "notes": "Kontext: na quarta-feira – am Mittwoch.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "quinta-feira",
+      "stable_id": "card-ms9433iy379mt",
       "front": "quinta-feira",
       "back": "Donnerstag",
       "notes": "Kontext: quinta-feira à noite – Donnerstagabend.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "sexta-feira",
+      "stable_id": "card-ms9433iy37acs",
       "front": "sexta-feira",
       "back": "Freitag",
       "notes": "Kontext: Sexta-feira, enfim! – Endlich Freitag!",
@@ -81,6 +90,7 @@
     },
     {
       "id": "sabado",
+      "stable_id": "card-ms9433iy37bmy",
       "front": "sábado",
       "back": "Samstag",
       "notes": "Kontext: No sábado vou à praia. – Am Samstag gehe ich an den Strand.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "domingo",
+      "stable_id": "card-ms9433iy37cx5",
       "front": "domingo",
       "back": "Sonntag",
       "notes": "Kontext: Domingo é dia de descanso. – Sonntag ist Ruhetag.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "hoje",
+      "stable_id": "card-ms9433iy37dsw",
       "front": "hoje",
       "back": "heute",
       "notes": "Kontext: Hoje é segunda. – Heute ist Montag.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "amanha",
+      "stable_id": "card-ms9433iy37eou",
       "front": "amanhã",
       "back": "morgen",
       "notes": "Kontext: Amanhã eu trabalho. – Morgen arbeite ich.",
@@ -113,6 +126,7 @@
     },
     {
       "id": "ontem",
+      "stable_id": "card-ms9433iy37f56",
       "front": "ontem",
       "back": "gestern",
       "notes": "Kontext: Ontem foi domingo. – Gestern war Sonntag.",
@@ -140,6 +154,7 @@
       "title": "Wochentage zuordnen",
       "exercise": {
         "id": "ex-match-tage",
+        "stable_id": "ex-ms9433iy37gq1",
         "type": "matching",
         "prompt": "Ordne jeden Wochentag der deutschen Bedeutung zu.",
         "card_ids": ["segunda-feira", "quarta-feira", "sexta-feira", "sabado", "domingo"],
@@ -160,6 +175,7 @@
       "title": "Nach der Uhrzeit fragen",
       "exercise": {
         "id": "ex-free-que-horas",
+        "stable_id": "ex-ms9433iy37hlm",
         "type": "free_text",
         "prompt": "Wie fragt man 'Wie spät ist es?' auf Portugiesisch?",
         "card_ids": ["que-horas-sao"],
@@ -176,6 +192,7 @@
       "title": "Lücke füllen: zwei Uhr",
       "exercise": {
         "id": "ex-cloze-sao-duas",
+        "stable_id": "ex-ms9433iy37ijv",
         "type": "cloze",
         "prompt": "Ergänze: 'Es ist zwei Uhr.' (Plural-Form von 'sein').",
         "card_ids": ["sao"],
@@ -192,6 +209,7 @@
       "title": "Lücke füllen: heute",
       "exercise": {
         "id": "ex-cloze-hoje",
+        "stable_id": "ex-ms9433iy37jne",
         "type": "cloze",
         "prompt": "Ergänze: '___ é segunda.' (Heute ist Montag.)",
         "card_ids": ["hoje"],
@@ -208,6 +226,7 @@
       "title": "Satz mit Samstag bauen",
       "exercise": {
         "id": "ex-tile-sabado-praia",
+        "stable_id": "ex-ms9433iy37kf2",
         "type": "word_tiles",
         "prompt": "Baue: 'Heute ist Samstag.'",
         "card_ids": ["hoje", "sabado"],
@@ -223,6 +242,7 @@
       "title": "Zeitwort erkennen",
       "exercise": {
         "id": "ex-pic-amanha",
+        "stable_id": "ex-ms9433iy37lec",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'morgen'?",
         "card_ids": ["amanha"],

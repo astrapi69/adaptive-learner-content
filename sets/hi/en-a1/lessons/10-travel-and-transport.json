@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "hi-train",
+      "stable_id": "card-ms9433l258vce",
       "front": "Train",
       "back": "रेलगाड़ी",
       "notes": "Runs on rails.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "hi-bus",
+      "stable_id": "card-ms9433l258w22",
       "front": "Bus",
       "back": "बस",
       "notes": "A large road vehicle for many people.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "hi-car",
+      "stable_id": "card-ms9433l258xyy",
       "front": "Car",
       "back": "गाड़ी",
       "notes": "A small road vehicle.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "hi-plane",
+      "stable_id": "card-ms9433l258ycm",
       "front": "Plane",
       "back": "हवाई जहाज़",
       "notes": "Flies in the sky.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "hi-ticket",
+      "stable_id": "card-ms9433l258zfi",
       "front": "Ticket",
       "back": "टिकट",
       "notes": "A paper that lets you travel.",
@@ -51,6 +56,7 @@
     },
     {
       "id": "hi-road",
+      "stable_id": "card-ms9433l2590am",
       "front": "Road",
       "back": "सड़क",
       "notes": "Where vehicles go.",
@@ -60,6 +66,7 @@
     },
     {
       "id": "hi-airport",
+      "stable_id": "card-ms9433l25912m",
       "front": "Airport",
       "back": "हवाई अड्डा",
       "notes": "Where planes land and take off.",
@@ -70,6 +77,7 @@
     },
     {
       "id": "hi-luggage",
+      "stable_id": "card-ms9433l2592e4",
       "front": "Luggage",
       "back": "सामान",
       "notes": "The bags you travel with.",
@@ -79,6 +87,7 @@
     },
     {
       "id": "hi-where-bus",
+      "stable_id": "card-ms9433l2593o9",
       "front": "Where is the bus?",
       "back": "बस कहाँ है?",
       "notes": "Asking where transport is.",
@@ -88,6 +97,7 @@
     },
     {
       "id": "hi-one-ticket",
+      "stable_id": "card-ms9433l2594zd",
       "front": "One ticket, please.",
       "back": "एक टिकट, कृपया।",
       "notes": "Buying a ticket.",
@@ -97,6 +107,7 @@
     },
     {
       "id": "hi-go-airport",
+      "stable_id": "card-ms9433l2595pg",
       "front": "I want to go to the airport.",
       "back": "मुझे हवाई अड्डे जाना है।",
       "notes": "Telling a driver where to go.",
@@ -106,6 +117,7 @@
     },
     {
       "id": "hi-stop-here",
+      "stable_id": "card-ms9433l25968e",
       "front": "Stop here, please.",
       "back": "यहाँ रोकिए, कृपया।",
       "notes": "Asking a driver to stop.",
@@ -128,6 +140,7 @@
       "title": "Match the transport words",
       "exercise": {
         "id": "l10-ex-match-vehicles",
+        "stable_id": "ex-ms9433l25973z",
         "type": "matching",
         "prompt": "Match each English transport word with its Hindi meaning.",
         "card_ids": [
@@ -164,6 +177,7 @@
       "title": "Translate the word",
       "exercise": {
         "id": "l10-ex-free-ticket",
+        "stable_id": "ex-ms9433l2598l4",
         "type": "free_text",
         "prompt": "Translate to English: टिकट",
         "card_ids": [
@@ -189,6 +203,7 @@
       "title": "Match more travel words",
       "exercise": {
         "id": "l10-ex-match-travel",
+        "stable_id": "ex-ms9433l2599ra",
         "type": "matching",
         "prompt": "Match each English word with its Hindi meaning.",
         "card_ids": [
@@ -231,6 +246,7 @@
       "title": "Complete the question",
       "exercise": {
         "id": "l10-ex-cloze-bus",
+        "stable_id": "ex-ms9433l259axx",
         "type": "cloze",
         "prompt": "Fill the blank in English.",
         "card_ids": [
@@ -256,6 +272,7 @@
       "title": "Build a sentence",
       "exercise": {
         "id": "l10-ex-tiles-airport",
+        "stable_id": "ex-ms9433l259bsv",
         "type": "word_tiles",
         "prompt": "Arrange to mean: मुझे हवाई अड्डे जाना है। (I want to go to the airport.)",
         "card_ids": [
@@ -281,6 +298,7 @@
       "title": "Ask the driver to stop",
       "exercise": {
         "id": "l10-ex-free-stop",
+        "stable_id": "ex-ms9433l259ct4",
         "type": "free_text",
         "prompt": "Translate to English: यहाँ रोकिए, कृपया।",
         "card_ids": [
@@ -308,6 +326,7 @@
       "title": "Complete the request",
       "exercise": {
         "id": "l10-ex-cloze-ticket",
+        "stable_id": "ex-ms9433l259ddi",
         "type": "cloze",
         "prompt": "Fill the blank in English.",
         "card_ids": [
@@ -333,6 +352,7 @@
       "title": "Translate the word",
       "exercise": {
         "id": "l10-ex-free-airport",
+        "stable_id": "ex-ms9433l259e5w",
         "type": "free_text",
         "prompt": "Translate to English: हवाई अड्डा",
         "card_ids": [

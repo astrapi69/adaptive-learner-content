@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "the",
+      "stable_id": "card-ms9433fk05zt9",
       "front": "the",
       "back": "der / die / das",
       "notes": "Der bestimmte Artikel — EIN Wort für alle Geschlechter und für Singular wie Plural. Kein Genus im Englischen!",
@@ -15,6 +16,7 @@
     },
     {
       "id": "a",
+      "stable_id": "card-ms9433fk060q7",
       "front": "a",
       "back": "ein / eine (vor Konsonanten-Laut)",
       "notes": "Unbestimmter Artikel vor einem Konsonanten-LAUT: a book, a car, a university (gesprochen 'juniversity').",
@@ -22,6 +24,7 @@
     },
     {
       "id": "an",
+      "stable_id": "card-ms9433fk061v4",
       "front": "an",
       "back": "ein / eine (vor Vokal-Laut)",
       "notes": "Unbestimmter Artikel vor einem Vokal-LAUT: an apple, an hour (das 'h' ist stumm).",
@@ -29,6 +32,7 @@
     },
     {
       "id": "pron-i",
+      "stable_id": "card-ms9433fk062l9",
       "front": "I",
       "back": "ich",
       "notes": "Wird IMMER großgeschrieben — auch mitten im Satz: 'Tomorrow I go ...'.",
@@ -36,6 +40,7 @@
     },
     {
       "id": "pron-you",
+      "stable_id": "card-ms9433fk063rx",
       "front": "you",
       "back": "du / Sie / ihr",
       "notes": "Ein Wort für alles: 'du', 'Sie' und 'ihr'. Englisch unterscheidet nicht zwischen formell und informell.",
@@ -43,6 +48,7 @@
     },
     {
       "id": "pron-he",
+      "stable_id": "card-ms9433fk064u2",
       "front": "he",
       "back": "er",
       "notes": "Für männliche Personen.",
@@ -50,6 +56,7 @@
     },
     {
       "id": "pron-she",
+      "stable_id": "card-ms9433fk065qc",
       "front": "she",
       "back": "sie (Einzahl)",
       "notes": "Für weibliche Personen.",
@@ -57,6 +64,7 @@
     },
     {
       "id": "pron-it",
+      "stable_id": "card-ms9433fk0666o",
       "front": "it",
       "back": "es (Dinge und Tiere)",
       "notes": "Für Sachen und Tiere — egal welches deutsche Genus: 'the table → it', auch wenn 'der Tisch' männlich ist.",
@@ -64,6 +72,7 @@
     },
     {
       "id": "pron-we",
+      "stable_id": "card-ms9433fk067st",
       "front": "we",
       "back": "wir",
       "notes": "1. Person Plural.",
@@ -71,6 +80,7 @@
     },
     {
       "id": "pron-they",
+      "stable_id": "card-ms9433fk068f1",
       "front": "they",
       "back": "sie (Mehrzahl)",
       "notes": "Für mehrere Personen ODER Dinge — egal welches Geschlecht.",
@@ -103,6 +113,7 @@
       "title": "Pronomen zuordnen",
       "exercise": {
         "id": "ex-match-pronouns",
+        "stable_id": "ex-ms9433fk069fc",
         "type": "matching",
         "prompt": "Ordne jedes englische Pronomen seiner deutschen Bedeutung zu.",
         "card_ids": ["pron-i", "pron-he", "pron-she", "pron-we"],
@@ -122,6 +133,7 @@
       "title": "a oder an?",
       "exercise": {
         "id": "ex-cloze-an-apple",
+        "stable_id": "ex-ms9433fk06ag1",
         "type": "cloze",
         "prompt": "Ergänze den richtigen unbestimmten Artikel vor 'apple'.",
         "card_ids": ["an", "a"],
@@ -140,6 +152,7 @@
       "title": "a oder an? (Teil 2)",
       "exercise": {
         "id": "ex-cloze-a-book",
+        "stable_id": "ex-ms9433fk06bpx",
         "type": "cloze",
         "prompt": "Ergänze den richtigen unbestimmten Artikel vor 'book'.",
         "card_ids": ["a", "an"],
@@ -158,6 +171,7 @@
       "title": "Welches Pronomen für einen Tisch?",
       "exercise": {
         "id": "ex-pick-it",
+        "stable_id": "ex-ms9433fk06c42",
         "type": "picture_choice",
         "prompt": "Du sprichst über 'the table' (der Tisch). Welches Pronomen verwendest du?",
         "card_ids": ["pron-it", "pron-he", "pron-she"],
@@ -179,6 +193,7 @@
       "title": "Der bestimmte Artikel",
       "exercise": {
         "id": "ex-free-the",
+        "stable_id": "ex-ms9433fk06d5m",
         "type": "free_text",
         "prompt": "Wie heißt der bestimmte Artikel (der/die/das) auf Englisch?",
         "card_ids": ["the"],
@@ -195,6 +210,7 @@
       "title": "Mehr Pronomen",
       "exercise": {
         "id": "ex-match-pronouns-2",
+        "stable_id": "ex-ms9433fk06eta",
         "type": "matching",
         "prompt": "Ordne die übrigen Pronomen zu.",
         "card_ids": ["pron-you", "pron-it", "pron-they"],
@@ -213,6 +229,7 @@
       "title": "'ich' auf Englisch",
       "exercise": {
         "id": "ex-free-i-capital",
+        "stable_id": "ex-ms9433fk06fp8",
         "type": "free_text",
         "prompt": "Übersetze 'Ich bin Anna.' (Achte auf das große 'I'!)",
         "card_ids": ["pron-i"],
@@ -229,6 +246,7 @@
       "title": "Bestimmter Artikel im Satz",
       "exercise": {
         "id": "ex-tile-the-car",
+        "stable_id": "ex-ms9433fk06g0g",
         "type": "word_tiles",
         "prompt": "Setze 'das Auto ist neu' zusammen.",
         "card_ids": ["the"],
@@ -244,6 +262,7 @@
       "title": "Die Laut-Regel auf die Probe",
       "exercise": {
         "id": "ex-cloze-an-hour",
+        "stable_id": "ex-ms9433fk06hsh",
         "type": "cloze",
         "prompt": "Ergänze a/an vor 'hour'. Achtung: Es zählt der Laut, nicht der Buchstabe!",
         "card_ids": ["an"],
@@ -262,6 +281,7 @@
       "title": "Pronomen in Reihe",
       "exercise": {
         "id": "ex-tile-pronoun-order",
+        "stable_id": "ex-ms9433fk06iti",
         "type": "word_tiles",
         "prompt": "Ordne die Pronomen so, dass sie 'er, sie, es' bedeuten (in dieser Reihenfolge).",
         "card_ids": ["pron-he", "pron-she", "pron-it"],

@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "art-le",
+      "stable_id": "card-ms9433j53f7qj",
       "front": "le",
       "back": "ο/η/το (αρσενικό ενικός)",
       "notes": "Οριστικό άρθρο πριν από αρσενικό ουσιαστικό.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "art-la",
+      "stable_id": "card-ms9433j53f89u",
       "front": "la",
       "back": "ο/η/το (θηλυκό ενικός)",
       "notes": "Οριστικό άρθρο πριν από θηλυκό ουσιαστικό.",
@@ -26,6 +28,7 @@
     },
     {
       "id": "art-l",
+      "stable_id": "card-ms9433j53f9l4",
       "front": "l'",
       "back": "ο/η/το (πριν από φωνήεν)",
       "notes": "Το le/la γίνεται l' πριν από φωνήεν ή άφωνο h: l'eau.",
@@ -35,6 +38,7 @@
     },
     {
       "id": "art-les",
+      "stable_id": "card-ms9433j53fa86",
       "front": "les",
       "back": "οι/τα (πληθυντικός)",
       "notes": "Οριστικό άρθρο για πληθυντικό, και για τα δύο γένη.",
@@ -44,6 +48,7 @@
     },
     {
       "id": "art-un",
+      "stable_id": "card-ms9433j53fbat",
       "front": "un",
       "back": "ένας (αρσενικό)",
       "notes": "Αόριστο άρθρο, αρσενικό.",
@@ -53,6 +58,7 @@
     },
     {
       "id": "art-une",
+      "stable_id": "card-ms9433j53fcnm",
       "front": "une",
       "back": "μία (θηλυκό)",
       "notes": "Αόριστο άρθρο, θηλυκό.",
@@ -62,6 +68,7 @@
     },
     {
       "id": "n-pain",
+      "stable_id": "card-ms9433j53fdfh",
       "front": "le pain",
       "back": "το ψωμί (αρσενικό)",
       "notes": "Στα γαλλικά το «ψωμί» είναι αρσενικό.",
@@ -71,6 +78,7 @@
     },
     {
       "id": "n-maison",
+      "stable_id": "card-ms9433j53fe2l",
       "front": "la maison",
       "back": "το σπίτι (θηλυκό)",
       "notes": "Στα γαλλικά το «σπίτι» είναι θηλυκό.",
@@ -80,6 +88,7 @@
     },
     {
       "id": "n-eau",
+      "stable_id": "card-ms9433j53ff18",
       "front": "l'eau",
       "back": "το νερό (θηλυκό, με έκθλιψη)",
       "notes": "eau αρχίζει από φωνήεν, άρα la → l'.",
@@ -113,6 +122,7 @@
       "title": "Τα οριστικά άρθρα",
       "exercise": {
         "id": "ex-match-oristika",
+        "stable_id": "ex-ms9433j53fg6f",
         "type": "matching",
         "prompt": "Αντιστοίχισε κάθε άρθρο με τη χρήση του.",
         "card_ids": [
@@ -148,6 +158,7 @@
       "title": "Ποιο άρθρο ταιριάζει: «___ pain» (το ψωμί, αρσενικό);",
       "exercise": {
         "id": "ex-mc-pain",
+        "stable_id": "ex-ms9433j53fhl0",
         "type": "cloze",
         "prompt": "Ποιο άρθρο ταιριάζει: «___ pain» (το ψωμί, αρσενικό);",
         "card_ids": [
@@ -177,6 +188,7 @@
       "title": "Ποιο άρθρο ταιριάζει: «___ maison» (το σπίτι, θηλυκό);",
       "exercise": {
         "id": "ex-mc-maison",
+        "stable_id": "ex-ms9433j53fi0a",
         "type": "cloze",
         "prompt": "Ποιο άρθρο ταιριάζει: «___ maison» (το σπίτι, θηλυκό);",
         "card_ids": [
@@ -206,6 +218,7 @@
       "title": "Ποιο άρθρο ταιριάζει: «___ eau» (το νερό, αρχίζει από φωνήεν",
       "exercise": {
         "id": "ex-mc-eau",
+        "stable_id": "ex-ms9433j53fjvr",
         "type": "cloze",
         "prompt": "Ποιο άρθρο ταιριάζει: «___ eau» (το νερό, αρχίζει από φωνήεν);",
         "card_ids": [
@@ -235,6 +248,7 @@
       "title": "Πόσα γένη έχουν τα γαλλικά ουσιαστικά;",
       "exercise": {
         "id": "ex-mc-genera",
+        "stable_id": "ex-ms9433j53fkh0",
         "type": "cloze",
         "prompt": "Πόσα γένη έχουν τα γαλλικά ουσιαστικά;",
         "card_ids": [
@@ -264,6 +278,7 @@
       "title": "Ποιο είναι το θηλυκό αόριστο άρθρο («μία»);",
       "exercise": {
         "id": "ex-mc-aoristo",
+        "stable_id": "ex-ms9433j53fl2n",
         "type": "cloze",
         "prompt": "Ποιο είναι το θηλυκό αόριστο άρθρο («μία»);",
         "card_ids": [
@@ -292,6 +307,7 @@
       "title": "Ο πληθυντικός",
       "exercise": {
         "id": "ex-clz-les",
+        "stable_id": "ex-ms9433j53fmlu",
         "type": "cloze",
         "prompt": "Συμπλήρωσε το άρθρο του πληθυντικού: «___ maisons» (τα σπίτια).",
         "card_ids": [
@@ -316,6 +332,7 @@
       "title": "Ποιο αόριστο άρθρο ταιριάζει: «___ chat» (μια γάτα, αρσενικό",
       "exercise": {
         "id": "ex-mc-un-chat",
+        "stable_id": "ex-ms9433j53fnhg",
         "type": "cloze",
         "prompt": "Ποιο αόριστο άρθρο ταιριάζει: «___ chat» (μια γάτα, αρσενικό);",
         "card_ids": [

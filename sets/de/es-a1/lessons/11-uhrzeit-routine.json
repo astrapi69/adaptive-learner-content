@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "que-hora-es",
+      "stable_id": "card-ms9433gs13omx",
       "front": "¿Qué hora es?",
       "back": "Wie spät ist es? / Wie viel Uhr ist es?",
       "notes": "Die Standardfrage nach der Uhrzeit. Beachte das umgekehrte ¿ am Anfang.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "es-la-una",
+      "stable_id": "card-ms9433gs13pl7",
       "front": "Es la una.",
       "back": "Es ist ein Uhr.",
       "notes": "Singular 'Es la una' nur für ein Uhr.",
@@ -26,6 +28,7 @@
     },
     {
       "id": "son-las-dos",
+      "stable_id": "card-ms9433gs13q0a",
       "front": "Son las dos.",
       "back": "Es ist zwei Uhr.",
       "notes": "Plural 'Son las...' für alle Stunden außer ein Uhr.",
@@ -35,6 +38,7 @@
     },
     {
       "id": "y-media",
+      "stable_id": "card-ms9433gs13rzk",
       "front": "y media",
       "back": "halb / dreißig (nach)",
       "notes": "Wörtlich 'und halb', z. B. Son las dos y media = halb drei.",
@@ -44,6 +48,7 @@
     },
     {
       "id": "y-cuarto",
+      "stable_id": "card-ms9433gs13s38",
       "front": "y cuarto",
       "back": "Viertel nach",
       "tags": [
@@ -52,6 +57,7 @@
     },
     {
       "id": "menos-cuarto",
+      "stable_id": "card-ms9433gs13tpl",
       "front": "menos cuarto",
       "back": "Viertel vor",
       "tags": [
@@ -60,6 +66,7 @@
     },
     {
       "id": "de-la-manana",
+      "stable_id": "card-ms9433gs13unf",
       "front": "de la mañana",
       "back": "morgens / am Vormittag",
       "notes": "mañana mit ñ. Bezeichnet die Tageszeit.",
@@ -69,6 +76,7 @@
     },
     {
       "id": "de-la-tarde",
+      "stable_id": "card-ms9433gs13vjw",
       "front": "de la tarde",
       "back": "nachmittags / am Nachmittag",
       "tags": [
@@ -77,6 +85,7 @@
     },
     {
       "id": "de-la-noche",
+      "stable_id": "card-ms9433gs13wry",
       "front": "de la noche",
       "back": "nachts / am Abend",
       "tags": [
@@ -85,6 +94,7 @@
     },
     {
       "id": "me-levanto",
+      "stable_id": "card-ms9433gs13x5o",
       "front": "me levanto",
       "back": "ich stehe auf (levantarse)",
       "notes": "Reflexives Verb: Pronomen 'me' vor dem Verb.",
@@ -96,6 +106,7 @@
     },
     {
       "id": "me-ducho",
+      "stable_id": "card-ms9433gs13yn5",
       "front": "me ducho",
       "back": "ich dusche (mich) (ducharse)",
       "tags": [
@@ -106,6 +117,7 @@
     },
     {
       "id": "me-acuesto",
+      "stable_id": "card-ms9433gs13zyr",
       "front": "me acuesto",
       "back": "ich gehe ins Bett (acostarse)",
       "tags": [
@@ -116,6 +128,7 @@
     },
     {
       "id": "me-despierto",
+      "stable_id": "card-ms9433gs140th",
       "front": "me despierto",
       "back": "ich wache auf (despertarse)",
       "tags": [
@@ -126,6 +139,7 @@
     },
     {
       "id": "desayuno",
+      "stable_id": "card-ms9433gs141h4",
       "front": "desayuno",
       "back": "ich frühstücke (desayunar)",
       "notes": "Nicht reflexiv: kein Pronomen.",
@@ -136,6 +150,7 @@
     },
     {
       "id": "me-levanto-a-las-siete",
+      "stable_id": "card-ms9433gs142wg",
       "front": "Me levanto a las siete.",
       "back": "Ich stehe um sieben Uhr auf.",
       "tags": [
@@ -144,6 +159,7 @@
     },
     {
       "id": "son-las-ocho-y-media",
+      "stable_id": "card-ms9433gs143wl",
       "front": "Son las ocho y media.",
       "back": "Es ist halb neun (acht Uhr dreißig).",
       "tags": [
@@ -183,6 +199,7 @@
       "title": "Uhrzeit-Ausdrücke zuordnen",
       "exercise": {
         "id": "ex-match-uhrzeit",
+        "stable_id": "ex-ms9433gs144lc",
         "type": "matching",
         "prompt": "Ordne die spanischen Zeitausdrücke ihrer deutschen Bedeutung zu.",
         "card_ids": [
@@ -224,6 +241,7 @@
       "title": "Routine-Verben zuordnen",
       "exercise": {
         "id": "ex-match-routine",
+        "stable_id": "ex-ms9433gs145ng",
         "type": "matching",
         "prompt": "Ordne die spanischen Verben des Tagesablaufs ihrer deutschen Bedeutung zu.",
         "card_ids": [
@@ -260,6 +278,7 @@
       "title": "Ein Uhr auswählen",
       "exercise": {
         "id": "ex-pick-una",
+        "stable_id": "ex-ms9433gs146oq",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Form: 'Es ist ein Uhr.'",
         "card_ids": [
@@ -300,6 +319,7 @@
       "title": "Halb vier auswählen",
       "exercise": {
         "id": "ex-pick-tres-media",
+        "stable_id": "ex-ms9433gs147uw",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Form: 'Es ist halb vier.' (drei Uhr dreißig)",
         "card_ids": [
@@ -341,6 +361,7 @@
       "title": "Lücke füllen: Son oder Es?",
       "exercise": {
         "id": "ex-cloze-son",
+        "stable_id": "ex-ms9433gs148tx",
         "type": "cloze",
         "prompt": "Ergänze die richtige Form (Plural — es ist nicht ein Uhr).",
         "card_ids": [
@@ -367,6 +388,7 @@
       "title": "Lücke füllen: aufstehen",
       "exercise": {
         "id": "ex-cloze-me-levanto",
+        "stable_id": "ex-ms9433gs149bp",
         "type": "cloze",
         "prompt": "Ergänze die reflexive yo-Form von levantarse.",
         "card_ids": [
@@ -394,6 +416,7 @@
       "title": "Lücke füllen: ins Bett gehen (wir)",
       "exercise": {
         "id": "ex-cloze-acostamos",
+        "stable_id": "ex-ms9433gs14a5g",
         "type": "cloze",
         "prompt": "Ergänze die nosotros-Form von acostarse (das Pronomen nos steht schon davor).",
         "card_ids": [
@@ -420,6 +443,7 @@
       "title": "Übersetzen: aufstehen um sieben",
       "exercise": {
         "id": "ex-free-levanto-siete",
+        "stable_id": "ex-ms9433gs14bya",
         "type": "free_text",
         "prompt": "Übersetze: 'Ich stehe um sieben Uhr auf.'",
         "card_ids": [
@@ -447,6 +471,7 @@
       "title": "Übersetzen: Es ist zwei Uhr",
       "exercise": {
         "id": "ex-free-son-las-dos",
+        "stable_id": "ex-ms9433gs14cjb",
         "type": "free_text",
         "prompt": "Übersetze: 'Es ist zwei Uhr.'",
         "card_ids": [
@@ -473,6 +498,7 @@
       "title": "Satz zusammensetzen: aufstehen",
       "exercise": {
         "id": "ex-tile-levanto",
+        "stable_id": "ex-ms9433gs14d0w",
         "type": "word_tiles",
         "prompt": "Setze den Satz zusammen: 'Ich stehe um sieben Uhr auf.'",
         "card_ids": [
@@ -497,6 +523,7 @@
       "title": "Satz zusammensetzen: halb neun",
       "exercise": {
         "id": "ex-tile-ocho-media",
+        "stable_id": "ex-ms9433gs14ewg",
         "type": "word_tiles",
         "prompt": "Setze den Satz zusammen: 'Es ist halb neun.' (acht Uhr dreißig)",
         "card_ids": [
@@ -521,6 +548,7 @@
       "title": "Übersetzen: morgens duschen",
       "exercise": {
         "id": "ex-free-ducho-manana",
+        "stable_id": "ex-ms9433gs14fkm",
         "type": "free_text",
         "prompt": "Übersetze: 'Ich dusche morgens.'",
         "card_ids": [

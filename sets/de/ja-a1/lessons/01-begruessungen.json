@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "konnichiwa",
+      "stable_id": "card-ms9433in2tvrp",
       "front": "こんにちは",
       "back": "Guten Tag / Hallo",
       "notes": "Romaji: konnichiwa. Kontext: こんにちは、田中さん。(konnichiwa, Tanaka-san.) – Guten Tag, Herr Tanaka.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "ohayou-gozaimasu",
+      "stable_id": "card-ms9433in2tw1a",
       "front": "おはようございます",
       "back": "Guten Morgen (höflich)",
       "notes": "Romaji: ohayou gozaimasu. Kontext: 先生、おはようございます。(sensei, ohayou gozaimasu.) – Guten Morgen, Frau Lehrerin.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "konbanwa",
+      "stable_id": "card-ms9433in2tx73",
       "front": "こんばんは",
       "back": "Guten Abend",
       "notes": "Romaji: konbanwa. Kontext: こんばんは、お元気ですか。(konbanwa, ogenki desu ka.) – Guten Abend, wie geht es Ihnen?",
@@ -33,6 +36,7 @@
     },
     {
       "id": "sayounara",
+      "stable_id": "card-ms9433in2typ2",
       "front": "さようなら",
       "back": "Auf Wiedersehen",
       "notes": "Romaji: sayounara. Kontext: それでは、さようなら。(sore dewa, sayounara.) – Also dann, auf Wiedersehen.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "oyasuminasai",
+      "stable_id": "card-ms9433in2tzzh",
       "front": "おやすみなさい",
       "back": "Gute Nacht",
       "notes": "Romaji: oyasuminasai. Kontext: もう寝ます。おやすみなさい。(mou nemasu. oyasuminasai.) – Ich gehe jetzt schlafen. Gute Nacht.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "hai",
+      "stable_id": "card-ms9433in2u0uf",
       "front": "はい",
       "back": "ja",
       "notes": "Romaji: hai. Kontext: はい、そうです。(hai, sou desu.) – Ja, das stimmt.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "iie",
+      "stable_id": "card-ms9433in2u1if",
       "front": "いいえ",
       "back": "nein",
       "notes": "Romaji: iie. Kontext: いいえ、違います。(iie, chigaimasu.) – Nein, das ist falsch.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "ogenki-desu-ka",
+      "stable_id": "card-ms9433in2u23b",
       "front": "お元気ですか",
       "back": "Wie geht es Ihnen?",
       "notes": "Romaji: ogenki desu ka. Kontext: お元気ですか。— はい、元気です。(ogenki desu ka. — hai, genki desu.) – Wie geht es Ihnen? — Ja, gut.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "ohayou",
+      "stable_id": "card-ms9433in2u37x",
       "front": "おはよう",
       "back": "Guten Morgen (locker)",
       "notes": "Romaji: ohayou. Kontext: おはよう、よく寝た？(ohayou, yoku neta?) – Morgen, gut geschlafen? Lockere Form unter Freunden.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "genki-desu",
+      "stable_id": "card-ms9433in2u4tx",
       "front": "元気です",
       "back": "Mir geht es gut.",
       "notes": "Romaji: genki desu. Kontext: おかげさまで、元気です。(okagesama de, genki desu.) – Danke der Nachfrage, mir geht es gut.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "mata-ne",
+      "stable_id": "card-ms9433in2u5rt",
       "front": "またね",
       "back": "Bis später / Tschüss (locker)",
       "notes": "Romaji: mata ne. Kontext: じゃあ、またね。(jaa, mata ne.) – Na dann, bis später.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "ittekimasu",
+      "stable_id": "card-ms9433in2u6ce",
       "front": "いってきます",
       "back": "Ich gehe dann (und komme wieder)",
       "notes": "Romaji: ittekimasu. Kontext: いってきます。— いってらっしゃい。(ittekimasu. — itterasshai.) – Ich gehe los. — Komm gut wieder. Sagt man beim Verlassen des Hauses.",
@@ -124,6 +136,7 @@
       "title": "Begrüßungen zuordnen",
       "exercise": {
         "id": "ex-match-begruessung",
+        "stable_id": "ex-ms9433in2u7fe",
         "type": "matching",
         "prompt": "Ordne jeder japanischen Begrüßung die deutsche Übersetzung zu.",
         "card_ids": ["konnichiwa", "ohayou-gozaimasu", "konbanwa", "sayounara"],
@@ -143,6 +156,7 @@
       "title": "Guten Tag sagen",
       "exercise": {
         "id": "ex-free-konnichiwa",
+        "stable_id": "ex-ms9433in2u889",
         "type": "free_text",
         "prompt": "Wie sagt man 'Guten Tag / Hallo' auf Japanisch?",
         "card_ids": ["konnichiwa"],
@@ -159,6 +173,7 @@
       "title": "Gute Nacht sagen",
       "exercise": {
         "id": "ex-free-oyasumi",
+        "stable_id": "ex-ms9433in2u9de",
         "type": "free_text",
         "prompt": "Wie sagt man 'Gute Nacht' auf Japanisch?",
         "card_ids": ["oyasuminasai"],
@@ -175,6 +190,7 @@
       "title": "Lücke füllen: Wie geht es?",
       "exercise": {
         "id": "ex-cloze-genki",
+        "stable_id": "ex-ms9433in2uan4",
         "type": "cloze",
         "prompt": "Ergänze die höfliche Frage 'Wie geht es Ihnen?'.",
         "card_ids": ["ogenki-desu-ka"],
@@ -191,6 +207,7 @@
       "title": "Morgengruß zusammensetzen",
       "exercise": {
         "id": "ex-tiles-ohayou",
+        "stable_id": "ex-ms9433in2ubf4",
         "type": "word_tiles",
         "prompt": "Setze die Kacheln zum höflichen Morgengruß zusammen.",
         "card_ids": ["ohayou-gozaimasu"],
@@ -206,6 +223,7 @@
       "title": "Welches Wort bedeutet 'Auf Wiedersehen'?",
       "exercise": {
         "id": "ex-pic-sayounara",
+        "stable_id": "ex-ms9433in2uckn",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'Auf Wiedersehen'?",
         "card_ids": ["sayounara"],

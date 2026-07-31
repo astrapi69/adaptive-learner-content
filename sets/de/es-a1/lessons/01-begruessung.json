@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "hola",
+      "stable_id": "card-ms9433gl0x8nh",
       "front": "Hola",
       "back": "Hallo",
       "notes": "Universelle Begrüßung, jederzeit passend.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "buenos-dias",
+      "stable_id": "card-ms9433gl0x9tf",
       "front": "Buenos días",
       "back": "Guten Morgen / Guten Tag",
       "notes": "Vormittags bis zum Mittagessen.",
@@ -26,6 +28,7 @@
     },
     {
       "id": "buenas-tardes",
+      "stable_id": "card-ms9433gl0xao4",
       "front": "Buenas tardes",
       "back": "Guten Nachmittag",
       "notes": "Vom Nachmittag bis zum Einbruch der Dunkelheit.",
@@ -35,6 +38,7 @@
     },
     {
       "id": "buenas-noches",
+      "stable_id": "card-ms9433gl0xb8x",
       "front": "Buenas noches",
       "back": "Guten Abend / Gute Nacht",
       "tags": [
@@ -43,6 +47,7 @@
     },
     {
       "id": "adios",
+      "stable_id": "card-ms9433gl0xcw4",
       "front": "Adiós",
       "back": "Auf Wiedersehen",
       "tags": [
@@ -51,6 +56,7 @@
     },
     {
       "id": "gracias",
+      "stable_id": "card-ms9433gl0xdj2",
       "front": "Gracias",
       "back": "Danke",
       "tags": [
@@ -78,6 +84,7 @@
       "title": "Begrüßungen zuordnen",
       "exercise": {
         "id": "ex-match-begruessung",
+        "stable_id": "ex-ms9433gl0xe22",
         "type": "matching",
         "prompt": "Ordne jeder spanischen Begrüßung die deutsche Übersetzung zu.",
         "card_ids": [
@@ -114,6 +121,7 @@
       "title": "Auf Spanisch begrüßen",
       "exercise": {
         "id": "ex-free-hola",
+        "stable_id": "ex-ms9433gl0xfw5",
         "type": "free_text",
         "prompt": "Wie sagt man 'Hallo' auf Spanisch?",
         "card_ids": [
@@ -139,6 +147,7 @@
       "title": "Danke sagen",
       "exercise": {
         "id": "ex-free-gracias",
+        "stable_id": "ex-ms9433gl0xgle",
         "type": "free_text",
         "prompt": "Wie sagt man 'Danke' auf Spanisch?",
         "card_ids": [
@@ -164,6 +173,7 @@
       "title": "Den Abendgruß zusammensetzen",
       "exercise": {
         "id": "ex-tile-buenas-noches",
+        "stable_id": "ex-ms9433gl0xh3x",
         "type": "word_tiles",
         "prompt": "Setze die Kacheln zum Abend-/Nachtgruß zusammen.",
         "card_ids": [
@@ -184,6 +194,7 @@
       "title": "Lücke füllen: Morgengruß",
       "exercise": {
         "id": "ex-cloze-buenos-dias",
+        "stable_id": "ex-ms9433gl0xilq",
         "type": "cloze",
         "prompt": "Ergänze den Morgengruß (zwei Wörter, Plural).",
         "card_ids": [

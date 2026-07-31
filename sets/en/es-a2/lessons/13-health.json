@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "body-parts-core",
+      "stable_id": "card-ms9433jz46gu1",
       "front": "la cabeza, el estómago, la garganta, la espalda",
       "back": "the head, the stomach, the throat, the back",
       "notes": "Core body parts. Note the genders: **la** cabeza, **el** estómago, **la** garganta, **la** espalda. *Estómago* carries an accent on the first **ó**.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "body-parts-limbs",
+      "stable_id": "card-ms9433jz46hao",
       "front": "el brazo, la pierna, el pie, la mano",
       "back": "the arm, the leg, the foot, the hand",
       "notes": "*La mano* is feminine even though it ends in **-o** — a classic exception: *la mano derecha* (the right hand). Plurals: *los pies*, *las manos*.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "body-parts-dientes",
+      "stable_id": "card-ms9433jz46iy5",
       "front": "los dientes",
       "back": "the teeth (sg. el diente = the tooth)",
       "notes": "Singular **el diente**, plural **los dientes**. *Me duelen los dientes* = my teeth hurt (plural, so *duelen*).",
@@ -36,6 +39,7 @@
     },
     {
       "id": "doler-structure",
+      "stable_id": "card-ms9433jz46jbv",
       "front": "Me duele la cabeza. / Me duelen las piernas.",
       "back": "My head hurts. / My legs hurt. (doler = to hurt)",
       "notes": "**Doler works like gustar.** The body part is the *subject*: *duele* with one part, *duelen* with several. Literally 'the head hurts to me'. Use the **definite article** (la cabeza), never *mi cabeza*. Never say *Yo duelo*.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "doler-pronouns",
+      "stable_id": "card-ms9433jz46kdl",
       "front": "me / te / le duele",
       "back": "it hurts me / you / him-her",
       "notes": "Change the pronoun to change *whose* part hurts: *Me duele* (it hurts me), *Te duele* (it hurts you), *Le duele* (it hurts him/her). The verb still agrees with the body part, not the person.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "tener-symptoms",
+      "stable_id": "card-ms9433jz46lch",
       "front": "tener fiebre, tener tos, tener gripe",
       "back": "to have a fever, to have a cough, to have the flu",
       "notes": "Many symptoms use **tener** (no article): *Tengo fiebre / tos / gripe*. Also *tener dolor de...*: *Tengo dolor de cabeza* = I have a headache.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "encontrarse-mal",
+      "stable_id": "card-ms9433jz46mei",
       "front": "Me encuentro mal.",
       "back": "I feel ill / I don't feel well.",
       "notes": "**Encontrarse** is reflexive here ('to feel'): *me encuentro, te encuentras, se encuentra*. *Me encuentro mal* = I feel unwell; *Me encuentro mejor* = I feel better.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "doctor-pharmacy",
+      "stable_id": "card-ms9433jz46nf7",
       "front": "el médico, la farmacia, la receta",
       "back": "the doctor, the pharmacy, the prescription",
       "notes": "*El médico / la médica* = the doctor. *La farmacia* = pharmacy. *La receta* means both 'prescription' and 'recipe' — context decides.",
@@ -81,6 +89,7 @@
     },
     {
       "id": "medicine",
+      "stable_id": "card-ms9433jz46olj",
       "front": "las pastillas, el jarabe",
       "back": "the pills / tablets, the (cough) syrup",
       "notes": "*Las pastillas* = pills/tablets; *el jarabe* = syrup. *Tómate las pastillas* = take the pills.",
@@ -90,6 +99,7 @@
     },
     {
       "id": "doctor-questions",
+      "stable_id": "card-ms9433jz46p1v",
       "front": "¿Qué le pasa? / ¿Qué te pasa?",
       "back": "What's wrong (with you)? / What's the matter?",
       "notes": "The doctor uses the formal *¿Qué **le** pasa?* (with *usted*); friends use *¿Qué **te** pasa?* Answer with *Me duele...* or *Me encuentro mal*.",
@@ -99,6 +109,7 @@
     },
     {
       "id": "advice-deber",
+      "stable_id": "card-ms9433jz46q7s",
       "front": "Debes descansar. / Tienes que beber agua.",
       "back": "You should rest. / You have to drink water.",
       "notes": "Give advice with **deber** + infinitive (*debes descansar* = you should rest) or **tener que** + infinitive (*tienes que beber agua* = you have to drink water). The second verb stays in the infinitive.",
@@ -108,6 +119,7 @@
     },
     {
       "id": "advice-imperative",
+      "stable_id": "card-ms9433jz46rtf",
       "front": "Tómate esto. / Ve al médico. / Descansa.",
       "back": "Take this. / Go to the doctor. / Rest.",
       "notes": "Gentle commands (tú imperative): *descansa* (rest), *ve al médico* (go to the doctor), *tómate esto* (take this — *toma* + reflexive *te*). These are everyday, friendly suggestions.",
@@ -142,6 +154,7 @@
       "title": "Match the body parts",
       "exercise": {
         "id": "ex-match-body",
+        "stable_id": "ex-ms9433jz46shs",
         "type": "matching",
         "prompt": "Match each Spanish body part with its English meaning.",
         "card_ids": ["body-parts-core", "body-parts-limbs", "body-parts-dientes"],
@@ -162,6 +175,7 @@
       "title": "My head hurts",
       "exercise": {
         "id": "ex-free-head-hurts",
+        "stable_id": "ex-ms9433jz46t4t",
         "type": "free_text",
         "prompt": "Translate: *My head hurts.* (use doler)",
         "card_ids": ["doler-structure"],
@@ -178,6 +192,7 @@
       "title": "One part or several?",
       "exercise": {
         "id": "ex-cloze-legs",
+        "stable_id": "ex-ms9433jz46uiw",
         "type": "cloze",
         "prompt": "Fill in the correct form of *doler*. The body part is plural!",
         "card_ids": ["doler-structure"],
@@ -194,6 +209,7 @@
       "title": "Build: I have a sore throat",
       "exercise": {
         "id": "ex-tiles-throat",
+        "stable_id": "ex-ms9433jz46vcd",
         "type": "word_tiles",
         "prompt": "Arrange the words to say: *My throat hurts.*",
         "card_ids": ["doler-structure", "body-parts-core"],
@@ -209,6 +225,7 @@
       "title": "A symptom with tener",
       "exercise": {
         "id": "ex-cloze-fever",
+        "stable_id": "ex-ms9433jz46wpd",
         "type": "cloze",
         "prompt": "Fill in the verb to say 'I have a fever'.",
         "card_ids": ["tener-symptoms"],
@@ -225,6 +242,7 @@
       "title": "Which is correct?",
       "exercise": {
         "id": "ex-pic-feel-ill",
+        "stable_id": "ex-ms9433jz46x7i",
         "type": "picture_choice",
         "prompt": "You want to tell the doctor 'I feel ill'. Which sentence is correct?",
         "card_ids": ["encontrarse-mal"],
@@ -246,6 +264,7 @@
       "title": "Giving advice",
       "exercise": {
         "id": "ex-free-go-doctor",
+        "stable_id": "ex-ms9433jz46y8t",
         "type": "free_text",
         "prompt": "Translate: *You should rest.* (use deber)",
         "card_ids": ["advice-deber"],
@@ -262,6 +281,7 @@
       "title": "At the pharmacy",
       "exercise": {
         "id": "ex-match-doctor",
+        "stable_id": "ex-ms9433jz46za5",
         "type": "matching",
         "prompt": "Match each Spanish word with its English meaning.",
         "card_ids": ["doctor-pharmacy", "medicine"],
@@ -282,6 +302,7 @@
       "title": "Someone else's pain",
       "exercise": {
         "id": "ex-free-his-back",
+        "stable_id": "ex-ms9433jz470ln",
         "type": "free_text",
         "prompt": "Translate: *His back hurts.* (use doler)",
         "card_ids": ["doler-pronouns", "doler-structure"],
@@ -298,6 +319,7 @@
       "title": "Build: Take this",
       "exercise": {
         "id": "ex-tiles-take-this",
+        "stable_id": "ex-ms9433jz4710k",
         "type": "word_tiles",
         "prompt": "Arrange the words for a gentle command: *Take this and rest.*",
         "card_ids": ["advice-imperative"],
@@ -313,6 +335,7 @@
       "title": "What's wrong?",
       "exercise": {
         "id": "ex-cloze-whats-wrong",
+        "stable_id": "ex-ms9433jz472xo",
         "type": "cloze",
         "prompt": "The doctor (using usted) asks what is wrong. Fill in the pronoun.",
         "card_ids": ["doctor-questions"],
@@ -329,6 +352,7 @@
       "title": "Putting it together",
       "exercise": {
         "id": "ex-free-fever-doctor",
+        "stable_id": "ex-ms9433jz4739j",
         "type": "free_text",
         "prompt": "Translate: *I have a fever. You have to go to the doctor.* (tener fiebre; tener que)",
         "card_ids": ["tener-symptoms", "advice-deber"],

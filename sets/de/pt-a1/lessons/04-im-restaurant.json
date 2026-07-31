@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "eu-quero",
+      "stable_id": "card-ms9433iw35jtp",
       "front": "Eu quero...",
       "back": "Ich möchte...",
       "notes": "Kontext: Eu quero um café. – Ich möchte einen Kaffee. Von 'querer' (wollen).",
@@ -17,6 +18,7 @@
     },
     {
       "id": "eu-gostaria",
+      "stable_id": "card-ms9433iw35kbb",
       "front": "Eu gostaria de...",
       "back": "Ich hätte gern...",
       "notes": "Kontext: Eu gostaria de uma água. – Ich hätte gern ein Wasser. Höflicher als 'quero'.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "o-cardapio",
+      "stable_id": "card-ms9433iw35ll5",
       "front": "o cardápio",
       "back": "die Speisekarte",
       "notes": "Kontext: O cardápio, por favor. – Die Speisekarte, bitte. BR: cardápio, PT: ementa.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "a-conta",
+      "stable_id": "card-ms9433iw35m9c",
       "front": "a conta",
       "back": "die Rechnung",
       "notes": "Kontext: A conta, por favor. – Die Rechnung, bitte.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "um-cafe",
+      "stable_id": "card-ms9433iw35nay",
       "front": "um café",
       "back": "ein Kaffee",
       "notes": "Kontext: Um café, por favor. – Einen Kaffee, bitte. In Brasilien meist ein kleiner, gesüßter 'cafezinho'.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "agua",
+      "stable_id": "card-ms9433iw35om2",
       "front": "água",
       "back": "Wasser",
       "notes": "Kontext: Uma água sem gás. – Ein stilles Wasser. 'com gás' = mit Kohlensäure.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "cerveja",
+      "stable_id": "card-ms9433iw35ppi",
       "front": "cerveja",
       "back": "Bier",
       "notes": "Kontext: Uma cerveja gelada, por favor. – Ein kaltes Bier, bitte.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "suco",
+      "stable_id": "card-ms9433iw35qiz",
       "front": "suco",
       "back": "Saft",
       "notes": "Kontext: um suco de laranja – ein Orangensaft. BR: suco, PT: sumo.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "o-garcom",
+      "stable_id": "card-ms9433iw35rk1",
       "front": "o garçom",
       "back": "der Kellner",
       "notes": "Kontext: Garçom, por favor! – Herr Ober, bitte! BR: garçom, PT: empregado de mesa.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "a-comida",
+      "stable_id": "card-ms9433iw35sl3",
       "front": "a comida",
       "back": "das Essen",
       "notes": "Kontext: A comida está deliciosa. – Das Essen ist köstlich.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "esta-delicioso",
+      "stable_id": "card-ms9433iw35t3j",
       "front": "Está delicioso",
       "back": "Es schmeckt köstlich",
       "notes": "Kontext: Nossa, está delicioso! – Wow, das ist köstlich!",
@@ -97,6 +108,7 @@
     },
     {
       "id": "sem-gas",
+      "stable_id": "card-ms9433iw35uo5",
       "front": "sem gás",
       "back": "ohne Kohlensäure / still",
       "notes": "Kontext: água sem gás – stilles Wasser. Gegenteil: 'com gás'.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "a-gente-quer",
+      "stable_id": "card-ms9433iw35v2g",
       "front": "A gente quer...",
       "back": "Wir möchten...",
       "notes": "Kontext: A gente quer a conta. – Wir möchten die Rechnung. In Brasilien sehr verbreitet statt 'nós'.",
@@ -132,6 +145,7 @@
       "title": "Restaurant-Wörter zuordnen",
       "exercise": {
         "id": "ex-match-restaurant",
+        "stable_id": "ex-ms9433iw35whj",
         "type": "matching",
         "prompt": "Ordne jedes portugiesische Wort der deutschen Bedeutung zu.",
         "card_ids": ["o-cardapio", "a-conta", "agua", "o-garcom", "suco"],
@@ -152,6 +166,7 @@
       "title": "Die Rechnung verlangen",
       "exercise": {
         "id": "ex-free-conta",
+        "stable_id": "ex-ms9433iw35xj7",
         "type": "free_text",
         "prompt": "Wie heißt 'die Rechnung' auf Portugiesisch?",
         "card_ids": ["a-conta"],
@@ -168,6 +183,7 @@
       "title": "Speisekarte (BR)",
       "exercise": {
         "id": "ex-free-cardapio",
+        "stable_id": "ex-ms9433iw35yn9",
         "type": "free_text",
         "prompt": "Wie heißt die 'Speisekarte' in Brasilien?",
         "card_ids": ["o-cardapio"],
@@ -184,6 +200,7 @@
       "title": "Lücke füllen: Bestellen",
       "exercise": {
         "id": "ex-cloze-quero",
+        "stable_id": "ex-ms9433iw35zco",
         "type": "cloze",
         "prompt": "Ergänze: 'Ich möchte einen Kaffee, bitte.'",
         "card_ids": ["eu-quero", "um-cafe"],
@@ -200,6 +217,7 @@
       "title": "Stilles Wasser bestellen",
       "exercise": {
         "id": "ex-tile-agua",
+        "stable_id": "ex-ms9433iw3607s",
         "type": "word_tiles",
         "prompt": "Baue: 'ein stilles Wasser' (ein Wasser ohne Kohlensäure).",
         "card_ids": ["agua", "sem-gas"],
@@ -215,6 +233,7 @@
       "title": "Getränk erkennen",
       "exercise": {
         "id": "ex-pic-cerveja",
+        "stable_id": "ex-ms9433iw3612u",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'Bier'?",
         "card_ids": ["cerveja"],

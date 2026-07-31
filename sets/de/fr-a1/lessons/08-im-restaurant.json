@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "phr-je-voudrais",
+      "stable_id": "card-ms9433hp1vkfw",
       "front": "Je voudrais…",
       "back": "Ich hätte gern… (höflich)",
       "notes": "**Standardform der höflichen Bestellung**. Es ist der Conditional von *vouloir*, aber auf A1-Niveau behandelt man es als feste Wendung. Immer höflicher als *Je veux* (ich will), das für französische Ohren schroff klingt.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "phr-sil-vous-plait",
+      "stable_id": "card-ms9433hp1vlsm",
       "front": "s'il vous plaît",
       "back": "bitte (förmlich / Plural)",
       "notes": "Wörtlich *wenn es Ihnen gefällt*. Wird immer mit dem Apostroph geschrieben. In Textnachrichten oder auf Schildern oft mit **SVP** abgekürzt.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "phr-merci",
+      "stable_id": "card-ms9433hp1vm25",
       "front": "merci",
       "back": "danke",
       "notes": "Mit **beaucoup** wird es verstärkt: *merci beaucoup* (vielen Dank). Die Antwort lautet *de rien* (gern geschehen - wörtlich *für nichts*) oder *je vous en prie* (sehr förmlich).",
@@ -34,6 +37,7 @@
     },
     {
       "id": "phr-addition",
+      "stable_id": "card-ms9433hp1vn83",
       "front": "L'addition, s'il vous plaît.",
       "back": "Die Rechnung, bitte.",
       "notes": "Die übliche Art, nach der Rechnung zu fragen. **L'addition** bedeutet im Restaurant *die Rechnung* - niemals *la facture* (das ist für Rechnungen / Versorgungsleistungen).",
@@ -44,6 +48,7 @@
     },
     {
       "id": "phr-bon-appetit",
+      "stable_id": "card-ms9433hp1voom",
       "front": "Bon appétit !",
       "back": "Guten Appetit!",
       "notes": "Wird vom Servicepersonal beim Auftragen gesagt, UND von den Tischnachbarn vor dem Essen. Es gibt keine echte deutsche Entsprechung jenseits von \"Guten Appetit\". Immer mit dem Ausrufezeichen.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "food-pain",
+      "stable_id": "card-ms9433hp1vpcf",
       "front": "le pain",
       "back": "das Brot",
       "notes": "In den meisten französischen Restaurants steht es standardmäßig auf dem Tisch - Nachschub ist kostenlos. *Du pain* (etwas Brot), wenn man mehr möchte.",
@@ -64,6 +70,7 @@
     },
     {
       "id": "food-eau",
+      "stable_id": "card-ms9433hp1vqxf",
       "front": "l'eau",
       "back": "das Wasser",
       "notes": "Schon in Lektion 03 begegnet. *Une carafe d'eau* (ein Krug Leitungswasser) ist eine kostenlose, höfliche Bitte.",
@@ -75,6 +82,7 @@
     },
     {
       "id": "food-vin",
+      "stable_id": "card-ms9433hp1vr1o",
       "front": "le vin",
       "back": "der Wein",
       "notes": "*Un verre de vin* (ein Glas Wein). Achte auf das Paar **vin** / **vingt** (zwanzig) - gleiche Aussprache, völlig unterschiedliche Bedeutungen; der Kontext entscheidet.",
@@ -85,6 +93,7 @@
     },
     {
       "id": "food-cafe",
+      "stable_id": "card-ms9433hp1vskc",
       "front": "le café",
       "back": "der Kaffee",
       "notes": "In Frankreich standardmäßig ein kleiner Espresso. Bitte um *un café allongé* (Americano-Art) oder *un café au lait* (mit Milch), wenn du etwas anderes möchtest.",
@@ -95,6 +104,7 @@
     },
     {
       "id": "food-poulet",
+      "stable_id": "card-ms9433hp1vt2y",
       "front": "le poulet",
       "back": "das Hähnchen",
       "tags": [
@@ -104,6 +114,7 @@
     },
     {
       "id": "food-poisson",
+      "stable_id": "card-ms9433hp1vuyz",
       "front": "le poisson",
       "back": "der Fisch",
       "notes": "Nicht mit **le poison** (ein s) verwechseln - das ist Gift. Ein Buchstabe, großer Unterschied.",
@@ -114,6 +125,7 @@
     },
     {
       "id": "food-salade",
+      "stable_id": "card-ms9433hp1vvwj",
       "front": "la salade",
       "back": "der Salat",
       "tags": [
@@ -123,6 +135,7 @@
     },
     {
       "id": "food-fromage",
+      "stable_id": "card-ms9433hp1vw97",
       "front": "le fromage",
       "back": "der Käse",
       "notes": "Frankreich produziert rund 1.000 Sorten. *Un plateau de fromages* (eine Käseplatte) kommt oft zwischen Hauptgang und Dessert.",
@@ -152,6 +165,7 @@
       "title": "Einen Kaffee bestellen",
       "exercise": {
         "id": "ex-free-je-voudrais",
+        "stable_id": "ex-ms9433hp1vxnv",
         "type": "free_text",
         "prompt": "Bestelle höflich einen Kaffee. Übersetze: *Ich hätte gern einen Kaffee, bitte.*",
         "card_ids": [
@@ -186,6 +200,7 @@
       "title": "Lebensmittelwortschatz zuordnen",
       "exercise": {
         "id": "ex-match-food",
+        "stable_id": "ex-ms9433hp1vy8t",
         "type": "matching",
         "prompt": "Ordne jedes französische Speisekartenwort seiner deutschen Bedeutung zu.",
         "card_ids": [
@@ -232,6 +247,7 @@
       "title": "Bestelle kein Gift",
       "exercise": {
         "id": "ex-pick-poisson",
+        "stable_id": "ex-ms9433hp1vzcu",
         "type": "picture_choice",
         "prompt": "Welche Schreibweise bedeutet *Fisch* (das Lebensmittel)?",
         "card_ids": [
@@ -272,6 +288,7 @@
       "title": "Nach Wasser fragen",
       "exercise": {
         "id": "ex-tile-water",
+        "stable_id": "ex-ms9433hp1w0hb",
         "type": "word_tiles",
         "prompt": "Ordne die Kacheln so an, dass du höflich nach einem Krug Leitungswasser fragst.",
         "card_ids": [
@@ -299,6 +316,7 @@
       "title": "Nach der Rechnung fragen",
       "exercise": {
         "id": "ex-free-addition",
+        "stable_id": "ex-ms9433hp1w1fg",
         "type": "free_text",
         "prompt": "Bitte höflich um die Rechnung.",
         "card_ids": [
@@ -325,6 +343,7 @@
       "title": "Wenn das Essen kommt",
       "exercise": {
         "id": "ex-pick-bon-appetit",
+        "stable_id": "ex-ms9433hp1w2vc",
         "type": "picture_choice",
         "prompt": "Der Kellner stellt deinen Teller ab und sagt…",
         "card_ids": [
@@ -365,6 +384,7 @@
       "title": "Wendung der Situation zuordnen",
       "exercise": {
         "id": "ex-match-phrases",
+        "stable_id": "ex-ms9433hp1w3wz",
         "type": "matching",
         "prompt": "Ordne jede französische Wendung dem passenden Anlass zu.",
         "card_ids": [
@@ -401,6 +421,7 @@
       "title": "Ein Glas Wein bestellen",
       "exercise": {
         "id": "ex-tile-glass-wine",
+        "stable_id": "ex-ms9433hp1w42c",
         "type": "word_tiles",
         "prompt": "Ordne so an, dass es bedeutet: *Ich hätte gern ein Glas Wein, bitte.*",
         "card_ids": [

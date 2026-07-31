@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "ookii",
+      "stable_id": "card-ms9433iq2xxjc",
       "front": "大きい",
       "back": "groß",
       "notes": "Romaji: ookii. Kontext: 大きい犬です。(ookii inu desu.) – Es ist ein großer Hund.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "chiisai",
+      "stable_id": "card-ms9433ir2xya4",
       "front": "小さい",
       "back": "klein",
       "notes": "Romaji: chiisai. Kontext: 小さい部屋です。(chiisai heya desu.) – Es ist ein kleines Zimmer.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "atarashii",
+      "stable_id": "card-ms9433ir2xzx8",
       "front": "新しい",
       "back": "neu",
       "notes": "Romaji: atarashii. Kontext: 新しい車を買いました。(atarashii kuruma o kaimashita.) – Ich habe ein neues Auto gekauft.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "furui",
+      "stable_id": "card-ms9433ir2y0pr",
       "front": "古い",
       "back": "alt (von Dingen)",
       "notes": "Romaji: furui. Kontext: この本は古いです。(kono hon wa furui desu.) – Dieses Buch ist alt.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "takai-adj",
+      "stable_id": "card-ms9433ir2y18e",
       "front": "高い",
       "back": "teuer / hoch",
       "notes": "Romaji: takai. Kontext: この時計は高いです。(kono tokei wa takai desu.) – Diese Uhr ist teuer.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "yasui-adj",
+      "stable_id": "card-ms9433ir2y27h",
       "front": "安い",
       "back": "billig / günstig",
       "notes": "Romaji: yasui. Kontext: この店は安いです。(kono mise wa yasui desu.) – Dieser Laden ist günstig.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "atsui",
+      "stable_id": "card-ms9433ir2y34k",
       "front": "暑い",
       "back": "heiß (Wetter)",
       "notes": "Romaji: atsui. Kontext: 今日は暑いです。(kyou wa atsui desu.) – Heute ist es heiß.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "samui",
+      "stable_id": "card-ms9433ir2y4p5",
       "front": "寒い",
       "back": "kalt (Wetter)",
       "notes": "Romaji: samui. Kontext: 冬は寒いです。(fuyu wa samui desu.) – Im Winter ist es kalt.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "ii",
+      "stable_id": "card-ms9433ir2y569",
       "front": "いい",
       "back": "gut",
       "notes": "Romaji: ii. Kontext: いい天気ですね。(ii tenki desu ne.) – Schönes Wetter, nicht wahr?",
@@ -81,6 +90,7 @@
     },
     {
       "id": "warui",
+      "stable_id": "card-ms9433ir2y66r",
       "front": "悪い",
       "back": "schlecht",
       "notes": "Romaji: warui. Kontext: 天気が悪いです。(tenki ga warui desu.) – Das Wetter ist schlecht.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "muzukashii",
+      "stable_id": "card-ms9433ir2y7bm",
       "front": "難しい",
       "back": "schwierig",
       "notes": "Romaji: muzukashii. Kontext: 日本語は難しいです。(nihongo wa muzukashii desu.) – Japanisch ist schwierig.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "yasashii",
+      "stable_id": "card-ms9433ir2y81u",
       "front": "やさしい",
       "back": "einfach / freundlich",
       "notes": "Romaji: yasashii. Kontext: このテストはやさしいです。(kono tesuto wa yasashii desu.) – Dieser Test ist einfach.",
@@ -124,6 +136,7 @@
       "title": "Adjektive zuordnen",
       "exercise": {
         "id": "ex-match-adjektive",
+        "stable_id": "ex-ms9433ir2y9ek",
         "type": "matching",
         "prompt": "Ordne jedem Adjektiv die deutsche Bedeutung zu.",
         "card_ids": ["ookii", "chiisai", "atarashii", "furui"],
@@ -143,6 +156,7 @@
       "title": "Gegensätze zuordnen",
       "exercise": {
         "id": "ex-match-gegensatz",
+        "stable_id": "ex-ms9433ir2yanz",
         "type": "matching",
         "prompt": "Ordne jedem Adjektiv sein Gegenteil zu.",
         "card_ids": ["atsui", "samui", "takai-adj", "yasui-adj"],
@@ -162,6 +176,7 @@
       "title": "Klein sagen",
       "exercise": {
         "id": "ex-free-chiisai",
+        "stable_id": "ex-ms9433ir2yblm",
         "type": "free_text",
         "prompt": "Wie heißt 'klein' auf Japanisch?",
         "card_ids": ["chiisai"],
@@ -178,6 +193,7 @@
       "title": "Heiß sagen",
       "exercise": {
         "id": "ex-free-atsui",
+        "stable_id": "ex-ms9433ir2yccu",
         "type": "free_text",
         "prompt": "Wie heißt 'heiß' (Wetter) auf Japanisch?",
         "card_ids": ["atsui"],
@@ -194,6 +210,7 @@
       "title": "Lücke: ein großer Hund",
       "exercise": {
         "id": "ex-cloze-ookii",
+        "stable_id": "ex-ms9433ir2ydim",
         "type": "cloze",
         "prompt": "Ergänze das Adjektiv 'groß' vor dem Nomen.",
         "card_ids": ["ookii"],
@@ -210,6 +227,7 @@
       "title": "Welches Wort bedeutet 'kalt'?",
       "exercise": {
         "id": "ex-pic-samui",
+        "stable_id": "ex-ms9433ir2yete",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'kalt' (Wetter)?",
         "card_ids": ["samui"],

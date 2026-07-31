@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "deduktiv",
+      "stable_id": "card-ms9433fb00sha",
       "front": "Deduktive Methode",
       "back": "Zuerst die Regel, dann die Anwendung: Die App erklärt ein Prinzip und du wendest es anschließend auf Beispiele an.",
       "notes": "Von der Regel zum Beispiel. Gut, wenn du klare Strukturen magst.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "induktiv",
+      "stable_id": "card-ms9433fb00tj1",
       "front": "Induktive Methode",
       "back": "Zuerst Beispiele, dann die Regel: Du erkennst das Muster selbst und die App hilft dir, daraus die Regel abzuleiten.",
       "notes": "Vom Beispiel zur Regel — das Gegenstück zur deduktiven Methode.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "fehlerbasiert",
+      "stable_id": "card-ms9433fb00uuy",
       "front": "Fehlerbasierte Methode",
       "back": "Lernen aus den eigenen Fehlern: Die App greift gezielt auf, was schiefgelaufen ist, und übt genau diese Stellen erneut.",
       "notes": "Englisch: error-based. Fehler werden zum Lernstoff.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "dialogisch",
+      "stable_id": "card-ms9433fb00vwn",
       "front": "Dialogische Methode",
       "back": "Lernen im Gespräch: Du übst im Frage-Antwort-Dialog mit der KI, die nachhakt und dich zum Erklären bringt.",
       "notes": "Englisch: dialogic. Wissen entsteht im Austausch.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "kontextuell",
+      "stable_id": "card-ms9433fb00w5q",
       "front": "Kontextuelle Methode",
       "back": "Lernen im Zusammenhang: Neuer Stoff wird in realistische Situationen und Beispiele eingebettet, statt isoliert abgefragt zu werden.",
       "notes": "Englisch: contextual. Wissen bekommt einen Anwendungsrahmen.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "ki-adaptiv",
+      "stable_id": "card-ms9433fb00x7h",
       "front": "KI-adaptive Methode",
       "back": "Die KI wählt und mischt die Vorgehensweise laufend passend zu deinem Fortschritt, statt einer festen Methode zu folgen.",
       "notes": "Englisch: AI-adaptive. Die flexibelste der sechs Methoden.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "methoden-wechsel",
+      "stable_id": "card-ms9433fb00y5m",
       "front": "Methodenwechsel",
       "back": "Wenn dein Fortschritt stockt, empfiehlt die App, die Lernmethode zu wechseln — eine andere Herangehensweise bringt oft neuen Schwung.",
       "notes": "Englisch: method switching. Kein Zwang, sondern ein Vorschlag.",
@@ -97,6 +104,7 @@
       "title": "Methode und Kurzformel",
       "exercise": {
         "id": "ex-match-methoden",
+        "stable_id": "ex-ms9433fb00z2v",
         "type": "matching",
         "prompt": "Ordne jeder Methode ihre Kurzformel zu.",
         "card_ids": ["deduktiv", "induktiv", "fehlerbasiert", "dialogisch"],
@@ -116,6 +124,7 @@
       "title": "Vom Beispiel zur Regel",
       "exercise": {
         "id": "ex-free-induktiv",
+        "stable_id": "ex-ms9433fb010hf",
         "type": "free_text",
         "prompt": "Wie heißt die Methode, die vom Beispiel zur Regel führt?",
         "card_ids": ["induktiv"],
@@ -132,6 +141,7 @@
       "title": "Fehler als Lernstoff",
       "exercise": {
         "id": "ex-cloze-fehler",
+        "stable_id": "ex-ms9433fb011q3",
         "type": "cloze",
         "prompt": "Ergänze den Namen der Methode.",
         "card_ids": ["fehlerbasiert"],
@@ -148,6 +158,7 @@
       "title": "Die KI-adaptive Methode",
       "exercise": {
         "id": "ex-tiles-ki-adaptiv",
+        "stable_id": "ex-ms9433fb012vu",
         "type": "word_tiles",
         "prompt": "Setze den Merksatz zur KI-adaptiven Methode zusammen.",
         "card_ids": ["ki-adaptiv"],
@@ -163,6 +174,7 @@
       "title": "Kontext, KI und Wechsel",
       "exercise": {
         "id": "ex-match-weitere",
+        "stable_id": "ex-ms9433fb013uw",
         "type": "matching",
         "prompt": "Ordne jeden Begriff seiner Beschreibung zu.",
         "card_ids": ["kontextuell", "ki-adaptiv", "methoden-wechsel"],
@@ -181,6 +193,7 @@
       "title": "Wenn es stockt",
       "exercise": {
         "id": "ex-cloze-wechsel",
+        "stable_id": "ex-ms9433fb014vk",
         "type": "cloze",
         "prompt": "Ergänze, was die App bei stockendem Fortschritt empfiehlt.",
         "card_ids": ["methoden-wechsel"],

@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "hello",
+      "stable_id": "card-ms9433fg04ob2",
       "front": "Hello",
       "back": "Hallo",
       "notes": "Neutrale Begrüßung, passt in fast jeder Situation — formell wie informell.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "hi",
+      "stable_id": "card-ms9433fg04pcs",
       "front": "Hi",
       "back": "Hi (informell)",
       "notes": "Lockerer als 'Hello'. Unter Freunden, Kollegen und Gleichaltrigen üblich.",
@@ -22,6 +24,7 @@
     },
     {
       "id": "good-morning",
+      "stable_id": "card-ms9433fg04qhx",
       "front": "Good morning",
       "back": "Guten Morgen",
       "notes": "Bis etwa 12 Uhr mittags. Das 'oo' in 'good' ist kurz, etwa wie in deutsch 'Butter'.",
@@ -29,6 +32,7 @@
     },
     {
       "id": "good-afternoon",
+      "stable_id": "card-ms9433fg04rv6",
       "front": "Good afternoon",
       "back": "Guten Tag (am Nachmittag)",
       "notes": "Von Mittag bis etwa 18 Uhr. Es gibt kein allgemeines 'Guten Tag' wie im Deutschen — die Tageszeit entscheidet.",
@@ -36,6 +40,7 @@
     },
     {
       "id": "good-evening",
+      "stable_id": "card-ms9433fg04s4o",
       "front": "Good evening",
       "back": "Guten Abend",
       "notes": "Ab etwa 18 Uhr. Nur zur Begrüßung — zum Abschied sagt man 'Good night'.",
@@ -43,6 +48,7 @@
     },
     {
       "id": "goodbye",
+      "stable_id": "card-ms9433fg04tcd",
       "front": "Goodbye",
       "back": "Auf Wiedersehen",
       "notes": "Standard-Verabschiedung. Kürzer und lockerer: 'Bye' oder 'Bye-bye'.",
@@ -50,6 +56,7 @@
     },
     {
       "id": "see-you",
+      "stable_id": "card-ms9433fg04urf",
       "front": "See you",
       "back": "Bis später / Bis dann",
       "notes": "Wörtlich 'sehe dich'. Oft erweitert: 'See you later', 'See you tomorrow'.",
@@ -57,6 +64,7 @@
     },
     {
       "id": "whats-your-name",
+      "stable_id": "card-ms9433fg04v37",
       "front": "What's your name?",
       "back": "Wie heißt du? / Wie ist Ihr Name?",
       "notes": "Wörtlich 'Was ist dein Name?'. Englisch hat KEIN eigenes Verb wie 'heißen' — man fragt immer mit 'name'.",
@@ -64,6 +72,7 @@
     },
     {
       "id": "my-name-is",
+      "stable_id": "card-ms9433fg04wy3",
       "front": "My name is ...",
       "back": "Ich heiße ... / Mein Name ist ...",
       "notes": "Alternativ und sehr verbreitet: 'I'm ...' (Ich bin ...).",
@@ -71,6 +80,7 @@
     },
     {
       "id": "nice-to-meet-you",
+      "stable_id": "card-ms9433fg04x36",
       "front": "Nice to meet you",
       "back": "Freut mich / Schön, dich kennenzulernen",
       "notes": "Standardfloskel beim ersten Kennenlernen. Nicht wörtlich übersetzen.",
@@ -78,6 +88,7 @@
     },
     {
       "id": "how-are-you",
+      "stable_id": "card-ms9433fg04ym2",
       "front": "How are you?",
       "back": "Wie geht es dir?",
       "notes": "Vorsicht, falscher Freund: NICHT 'How goes it?' (wörtlich aus 'Wie geht's'). Englisch verwendet 'be': 'How ARE you?'.",
@@ -85,6 +96,7 @@
     },
     {
       "id": "thank-you",
+      "stable_id": "card-ms9433fg04zp9",
       "front": "Thank you",
       "back": "Danke",
       "notes": "Kürzer: 'Thanks'. Stärker: 'Thank you very much' (Vielen Dank).",
@@ -117,6 +129,7 @@
       "title": "Begrüßungen zuordnen",
       "exercise": {
         "id": "ex-match-greetings",
+        "stable_id": "ex-ms9433fg050xt",
         "type": "matching",
         "prompt": "Ordne jeder englischen Begrüßung die deutsche Bedeutung zu.",
         "card_ids": ["good-morning", "good-evening", "goodbye", "thank-you"],
@@ -136,6 +149,7 @@
       "title": "Auf Englisch tippen",
       "exercise": {
         "id": "ex-free-hello",
+        "stable_id": "ex-ms9433fg05122",
         "type": "free_text",
         "prompt": "Wie begrüßt man jemanden neutral auf Englisch (eine Möglichkeit)?",
         "card_ids": ["hello", "hi"],
@@ -152,6 +166,7 @@
       "title": "Welche Begrüßung am Morgen?",
       "exercise": {
         "id": "ex-pick-morning",
+        "stable_id": "ex-ms9433fg052i6",
         "type": "picture_choice",
         "prompt": "Es ist 8 Uhr früh. Mit welcher Begrüßung liegst du richtig?",
         "card_ids": ["good-morning", "good-evening", "good-afternoon"],
@@ -173,6 +188,7 @@
       "title": "Die Frage zusammensetzen",
       "exercise": {
         "id": "ex-tile-whats-your-name",
+        "stable_id": "ex-ms9433fg053rx",
         "type": "word_tiles",
         "prompt": "Setze die Kacheln zur Frage 'Wie heißt du?' zusammen.",
         "card_ids": ["whats-your-name"],
@@ -188,6 +204,7 @@
       "title": "Sich bedanken",
       "exercise": {
         "id": "ex-free-thank-you",
+        "stable_id": "ex-ms9433fg054mc",
         "type": "free_text",
         "prompt": "Wie sagt man 'Danke' auf Englisch?",
         "card_ids": ["thank-you"],
@@ -204,6 +221,7 @@
       "title": "Vorstellungs-Sätze zuordnen",
       "exercise": {
         "id": "ex-match-phrases",
+        "stable_id": "ex-ms9433fg055bo",
         "type": "matching",
         "prompt": "Ordne jeden englischen Satz seiner deutschen Bedeutung zu.",
         "card_ids": ["whats-your-name", "my-name-is", "nice-to-meet-you", "how-are-you"],
@@ -223,6 +241,7 @@
       "title": "Lücke füllen — Tageszeit",
       "exercise": {
         "id": "ex-cloze-good-evening",
+        "stable_id": "ex-ms9433fg056c1",
         "type": "cloze",
         "prompt": "Ergänze die Begrüßung am Abend (ab 18 Uhr).",
         "card_ids": ["good-evening"],
@@ -241,6 +260,7 @@
       "title": "Beim Kennenlernen",
       "exercise": {
         "id": "ex-free-nice-to-meet",
+        "stable_id": "ex-ms9433fg057ce",
         "type": "free_text",
         "prompt": "Du lernst jemanden zum ersten Mal kennen. Was sagst du? ('Freut mich')",
         "card_ids": ["nice-to-meet-you"],
@@ -257,6 +277,7 @@
       "title": "Sich vorstellen",
       "exercise": {
         "id": "ex-cloze-my-name",
+        "stable_id": "ex-ms9433fg058hy",
         "type": "cloze",
         "prompt": "Ergänze: 'Ich heiße Anna.'",
         "card_ids": ["my-name-is"],
@@ -275,6 +296,7 @@
       "title": "Floskel zusammensetzen",
       "exercise": {
         "id": "ex-tile-nice-to-meet",
+        "stable_id": "ex-ms9433fg0598v",
         "type": "word_tiles",
         "prompt": "Ordne die Kacheln zu 'Freut mich'.",
         "card_ids": ["nice-to-meet-you"],
@@ -290,6 +312,7 @@
       "title": "Nach dem Befinden fragen",
       "exercise": {
         "id": "ex-free-how-are-you",
+        "stable_id": "ex-ms9433fg05ay0",
         "type": "free_text",
         "prompt": "Wie fragt man 'Wie geht es dir?' auf Englisch?",
         "card_ids": ["how-are-you"],

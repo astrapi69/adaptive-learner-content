@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "hablar",
+      "stable_id": "card-ms9433jh3q310",
       "front": "hablar",
       "back": "to speak",
       "notes": "Regular -AR verb. Drop the -ar ending, then add the personal ending.",
@@ -19,6 +20,7 @@
     },
     {
       "id": "estudiar",
+      "stable_id": "card-ms9433jh3q420",
       "front": "estudiar",
       "back": "to study",
       "tags": [
@@ -29,6 +31,7 @@
     },
     {
       "id": "trabajar",
+      "stable_id": "card-ms9433jh3q5nt",
       "front": "trabajar",
       "back": "to work",
       "tags": [
@@ -39,6 +42,7 @@
     },
     {
       "id": "comprar",
+      "stable_id": "card-ms9433jh3q6e7",
       "front": "comprar",
       "back": "to buy",
       "tags": [
@@ -49,6 +53,7 @@
     },
     {
       "id": "cocinar",
+      "stable_id": "card-ms9433jh3q7gh",
       "front": "cocinar",
       "back": "to cook",
       "tags": [
@@ -59,6 +64,7 @@
     },
     {
       "id": "hablo",
+      "stable_id": "card-ms9433jh3q8iz",
       "front": "yo hablo",
       "back": "I speak",
       "notes": "1st person singular: ending -o.",
@@ -70,6 +76,7 @@
     },
     {
       "id": "hablas",
+      "stable_id": "card-ms9433jh3q91v",
       "front": "tú hablas",
       "back": "you speak (informal sg.)",
       "notes": "2nd person singular: ending -as.",
@@ -81,6 +88,7 @@
     },
     {
       "id": "habla",
+      "stable_id": "card-ms9433jh3qavd",
       "front": "él/ella habla",
       "back": "he/she speaks",
       "notes": "3rd person singular: ending -a.",
@@ -92,6 +100,7 @@
     },
     {
       "id": "hablamos",
+      "stable_id": "card-ms9433jh3qbqs",
       "front": "nosotros hablamos",
       "back": "we speak",
       "notes": "1st person plural: ending -amos.",
@@ -103,6 +112,7 @@
     },
     {
       "id": "hablais",
+      "stable_id": "card-ms9433jh3qckq",
       "front": "vosotros habláis",
       "back": "you speak (informal pl.)",
       "notes": "2nd person plural: ending -áis (with an accent). Used mainly in Spain.",
@@ -115,6 +125,7 @@
     },
     {
       "id": "hablan",
+      "stable_id": "card-ms9433jh3qdse",
       "front": "ellos/ellas hablan",
       "back": "they speak",
       "notes": "3rd person plural: ending -an.",
@@ -126,6 +137,7 @@
     },
     {
       "id": "estudio",
+      "stable_id": "card-ms9433jh3qeqm",
       "front": "yo estudio",
       "back": "I study",
       "tags": [
@@ -136,6 +148,7 @@
     },
     {
       "id": "trabajamos",
+      "stable_id": "card-ms9433jh3qfqg",
       "front": "nosotros trabajamos",
       "back": "we work",
       "tags": [
@@ -146,6 +159,7 @@
     },
     {
       "id": "compran",
+      "stable_id": "card-ms9433jh3qgse",
       "front": "ellos/ellas compran",
       "back": "they buy",
       "tags": [
@@ -156,6 +170,7 @@
     },
     {
       "id": "cocinan",
+      "stable_id": "card-ms9433jh3qh7d",
       "front": "ellos/ellas cocinan",
       "back": "they cook",
       "tags": [
@@ -166,6 +181,7 @@
     },
     {
       "id": "hablo-espanol",
+      "stable_id": "card-ms9433jh3qiic",
       "front": "Hablo español.",
       "back": "I speak Spanish.",
       "notes": "The pronoun *yo* is dropped — the ending -o already shows that *I* is meant.",
@@ -202,6 +218,7 @@
       "title": "Match hablar forms",
       "exercise": {
         "id": "ex-match-hablar",
+        "stable_id": "ex-ms9433jh3qj2w",
         "type": "matching",
         "prompt": "Match each pronoun with the correct form of *hablar*.",
         "card_ids": [
@@ -243,6 +260,7 @@
       "title": "Match infinitives",
       "exercise": {
         "id": "ex-match-infinitive",
+        "stable_id": "ex-ms9433jh3qkjs",
         "type": "matching",
         "prompt": "Match each -AR verb with its English meaning.",
         "card_ids": [
@@ -284,6 +302,7 @@
       "title": "\"I speak Spanish.\"",
       "exercise": {
         "id": "ex-free-hablo",
+        "stable_id": "ex-ms9433jh3qly0",
         "type": "free_text",
         "prompt": "Translate: \"I speak Spanish.\"",
         "card_ids": [
@@ -311,6 +330,7 @@
       "title": "\"we work\"",
       "exercise": {
         "id": "ex-free-trabajamos",
+        "stable_id": "ex-ms9433jh3qm2o",
         "type": "free_text",
         "prompt": "Translate: \"we work\" (trabajar, nosotros).",
         "card_ids": [
@@ -337,6 +357,7 @@
       "title": "Cloze: yo + hablar",
       "exercise": {
         "id": "ex-cloze-hablo",
+        "stable_id": "ex-ms9433jh3qnh3",
         "type": "cloze",
         "prompt": "Fill in the correct form of *hablar*.",
         "card_ids": [
@@ -363,6 +384,7 @@
       "title": "Cloze: nosotros + trabajar",
       "exercise": {
         "id": "ex-cloze-trabajamos",
+        "stable_id": "ex-ms9433jh3qo2v",
         "type": "cloze",
         "prompt": "Fill in the correct form of *trabajar*.",
         "card_ids": [
@@ -389,6 +411,7 @@
       "title": "Cloze: tú + estudiar",
       "exercise": {
         "id": "ex-cloze-estudias",
+        "stable_id": "ex-ms9433jh3qpp7",
         "type": "cloze",
         "prompt": "Fill in the correct form of *estudiar*.",
         "card_ids": [
@@ -415,6 +438,7 @@
       "title": "Build: \"I speak Spanish.\"",
       "exercise": {
         "id": "ex-tile-hablo",
+        "stable_id": "ex-ms9433jh3qq20",
         "type": "word_tiles",
         "prompt": "Arrange the sentence \"I speak Spanish.\"",
         "card_ids": [
@@ -437,6 +461,7 @@
       "title": "Build: \"They buy bread.\"",
       "exercise": {
         "id": "ex-tile-compran",
+        "stable_id": "ex-ms9433jh3qrfc",
         "type": "word_tiles",
         "prompt": "Arrange the sentence \"They buy bread.\"",
         "card_ids": [
@@ -458,6 +483,7 @@
       "title": "\"We study Spanish.\"",
       "exercise": {
         "id": "ex-pick-estudiamos",
+        "stable_id": "ex-ms9433jh3qsiv",
         "type": "picture_choice",
         "prompt": "Pick the correct form: \"We study Spanish.\"",
         "card_ids": [
@@ -499,6 +525,7 @@
       "title": "\"They cook.\"",
       "exercise": {
         "id": "ex-pick-cocinan",
+        "stable_id": "ex-ms9433jh3qtl0",
         "type": "picture_choice",
         "prompt": "Pick the correct form: \"They cook.\"",
         "card_ids": [
@@ -539,6 +566,7 @@
       "title": "\"you buy a book\"",
       "exercise": {
         "id": "ex-free-compras",
+        "stable_id": "ex-ms9433jh3qu9s",
         "type": "free_text",
         "prompt": "Translate: \"you (informal) buy a book\" (comprar, tú).",
         "card_ids": [

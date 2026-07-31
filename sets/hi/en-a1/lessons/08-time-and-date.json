@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "hi-today",
+      "stable_id": "card-ms9433l157tod",
       "front": "Today",
       "back": "आज",
       "notes": "This day.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "hi-tomorrow",
+      "stable_id": "card-ms9433l157ui0",
       "front": "Tomorrow",
       "back": "कल (आने वाला)",
       "notes": "The day after today.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "hi-yesterday",
+      "stable_id": "card-ms9433l157vxn",
       "front": "Yesterday",
       "back": "कल (बीता हुआ)",
       "notes": "The day before today.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "hi-day",
+      "stable_id": "card-ms9433l157wdv",
       "front": "Day",
       "back": "दिन",
       "notes": "A 24-hour period.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "hi-week",
+      "stable_id": "card-ms9433l157xu2",
       "front": "Week",
       "back": "सप्ताह",
       "notes": "Seven days.",
@@ -51,6 +56,7 @@
     },
     {
       "id": "hi-month",
+      "stable_id": "card-ms9433l157ycn",
       "front": "Month",
       "back": "महीना",
       "notes": "About thirty days.",
@@ -60,6 +66,7 @@
     },
     {
       "id": "hi-year",
+      "stable_id": "card-ms9433l157z4y",
       "front": "Year",
       "back": "साल",
       "notes": "Twelve months.",
@@ -69,6 +76,7 @@
     },
     {
       "id": "hi-hour",
+      "stable_id": "card-ms9433l1580vz",
       "front": "Hour",
       "back": "घंटा",
       "notes": "Sixty minutes.",
@@ -78,6 +86,7 @@
     },
     {
       "id": "hi-minute",
+      "stable_id": "card-ms9433l15817c",
       "front": "Minute",
       "back": "मिनट",
       "notes": "Sixty seconds.",
@@ -87,6 +96,7 @@
     },
     {
       "id": "hi-morning",
+      "stable_id": "card-ms9433l1582sa",
       "front": "Morning",
       "back": "सुबह",
       "notes": "The early part of the day.",
@@ -96,6 +106,7 @@
     },
     {
       "id": "hi-night",
+      "stable_id": "card-ms9433l1583mx",
       "front": "Night",
       "back": "रात",
       "notes": "The dark part of the day.",
@@ -105,6 +116,7 @@
     },
     {
       "id": "hi-what-time",
+      "stable_id": "card-ms9433l15842e",
       "front": "What time is it?",
       "back": "क्या समय हुआ है?",
       "notes": "Asking the time.",
@@ -127,6 +139,7 @@
       "title": "Match the time words",
       "exercise": {
         "id": "l8-ex-match-days",
+        "stable_id": "ex-ms9433l1585dc",
         "type": "matching",
         "prompt": "Match each English time word with its Hindi meaning.",
         "card_ids": [
@@ -163,6 +176,7 @@
       "title": "Translate the word",
       "exercise": {
         "id": "l8-ex-free-month",
+        "stable_id": "ex-ms9433l1586ah",
         "type": "free_text",
         "prompt": "Translate to English: महीना",
         "card_ids": [
@@ -188,6 +202,7 @@
       "title": "Complete the sentence",
       "exercise": {
         "id": "l8-ex-cloze-today",
+        "stable_id": "ex-ms9433l1587i7",
         "type": "cloze",
         "prompt": "Fill the blank in English.",
         "card_ids": [
@@ -219,6 +234,7 @@
       "title": "Match the clock words",
       "exercise": {
         "id": "l8-ex-match-clock",
+        "stable_id": "ex-ms9433l1588wo",
         "type": "matching",
         "prompt": "Match each English word with its Hindi meaning.",
         "card_ids": [
@@ -255,6 +271,7 @@
       "title": "Build a question",
       "exercise": {
         "id": "l8-ex-tiles-whattime",
+        "stable_id": "ex-ms9433l1589md",
         "type": "word_tiles",
         "prompt": "Arrange to mean: क्या समय हुआ है? (What time is it?)",
         "card_ids": [
@@ -277,6 +294,7 @@
       "title": "Ask the time",
       "exercise": {
         "id": "l8-ex-free-whattime",
+        "stable_id": "ex-ms9433l158ahp",
         "type": "free_text",
         "prompt": "Translate to English: क्या समय हुआ है?",
         "card_ids": [
@@ -303,6 +321,7 @@
       "title": "Complete the sentence",
       "exercise": {
         "id": "l8-ex-cloze-night",
+        "stable_id": "ex-ms9433l158by8",
         "type": "cloze",
         "prompt": "Fill the blank in English.",
         "card_ids": [
@@ -328,6 +347,7 @@
       "title": "Match the periods",
       "exercise": {
         "id": "l8-ex-match-periods",
+        "stable_id": "ex-ms9433l158cb5",
         "type": "matching",
         "prompt": "Match each English word with its Hindi meaning.",
         "card_ids": [

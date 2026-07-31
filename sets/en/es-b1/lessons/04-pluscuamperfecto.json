@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "plu-formation",
+      "stable_id": "card-ms9433k34aizc",
       "front": "había + participio: había hablado",
       "back": "the pluperfect = imperfect of haber + past participle ('had done')",
       "notes": "Build it with the **imperfect of haber** (*había, habías, había, habíamos, habíais, habían*) plus the **past participle**: *había hablado* = 'I had spoken'. It maps cleanly onto English **had + participle**.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "plu-haber-imperfect",
+      "stable_id": "card-ms9433k34ajpf",
       "front": "había, habías, había, habíamos, habíais, habían",
       "back": "imperfect of haber (the auxiliary for the pluperfect)",
       "notes": "All six forms carry a written accent on the **í**: *había, habías, había, habíamos, habíais, habían*. This is the *imperfect* of haber — don't mix it with the present *he, has, ha...* (that gives the present perfect instead).",
@@ -27,6 +29,7 @@
     },
     {
       "id": "plu-use-before-past",
+      "stable_id": "card-ms9433k34akij",
       "front": "Cuando llegué, la película ya había empezado.",
       "back": "a past action completed BEFORE another past action",
       "notes": "Use the pluperfect for the **earlier** of two past events: *When I arrived (past), the film had already started (even earlier)*. The plain preterite/imperfect anchors the moment; the pluscuamperfecto steps back from it.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "plu-signals",
+      "stable_id": "card-ms9433k34algp",
       "front": "ya, todavía no, nunca, antes",
       "back": "words that often signal the pluperfect",
       "notes": "Common companions: *ya* (already), *todavía no* (not yet), *nunca* (never), *antes* (before). *Nunca había visto algo así* = 'I had never seen anything like it'. They sit **before** the haber+participle block, not inside it.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "plu-no-split",
+      "stable_id": "card-ms9433k34amlg",
       "front": "ya había comido (NOT había ya comido)",
       "back": "never split haber from its participle",
       "notes": "Unlike English ('I had **already** eaten'), Spanish does **not** insert words between *haber* and the participle. Put *ya, nunca, todavía no* **before** *había*, or after the whole verb: *ya había comido* / *no había comido todavía*.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "plu-participle-invariable",
+      "stable_id": "card-ms9433k34anta",
       "front": "Ella había comido (not comida)",
       "back": "the participle never agrees with the subject in compound tenses",
       "notes": "After *haber*, the participle is **frozen** as -o, whatever the subject: *Ella había comido*, *ellas habían llegado*. It agrees for gender/number only when used as an **adjective** (*la puerta está cerrada*), never with *haber*.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "plu-compound-family",
+      "stable_id": "card-ms9433k34ao4m",
       "front": "he / había / habré / habría + hablado",
       "back": "the four compound tenses all use haber + the same participle",
       "notes": "Change only the **tense of haber**: present → *he hablado* (present perfect), imperfect → *había hablado* (pluperfect), future → *habré hablado* (future perfect), conditional → *habría hablado* (conditional perfect). The participle stays identical.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "plu-regular-participles",
+      "stable_id": "card-ms9433k34apns",
       "front": "-ar → -ado; -er/-ir → -ido",
       "back": "regular past participles",
       "notes": "Regular participles: **-ar** verbs → *-ado* (*hablar → hablado*), **-er/-ir** verbs → *-ido* (*comer → comido*, *vivir → vivido*). These are the building blocks for every compound tense.",
@@ -81,6 +89,7 @@
     },
     {
       "id": "plu-irregular-participles",
+      "stable_id": "card-ms9433k34aq7y",
       "front": "hecho, dicho, visto, escrito, puesto, vuelto, abierto, roto, muerto, cubierto",
       "back": "the common irregular past participles",
       "notes": "Memorise these: *hacer → hecho*, *decir → dicho*, *ver → visto*, *escribir → escrito*, *poner → puesto*, *volver → vuelto*, *abrir → abierto*, *romper → roto*, *morir → muerto*, *cubrir → cubierto*. Compounds inherit them: *describir → descrito*, *devolver → devuelto*.",
@@ -90,6 +99,7 @@
     },
     {
       "id": "plu-vs-present-perfect",
+      "stable_id": "card-ms9433k34arr9",
       "front": "he hablado (have spoken) vs. había hablado (had spoken)",
       "back": "present perfect vs. pluperfect — present vs. imperfect of haber",
       "notes": "Only the auxiliary tense differs: *he hablado* connects a past action to **now** ('I have spoken'); *había hablado* connects it to **another past moment** ('I had spoken'). English makes the same have/had distinction.",
@@ -99,6 +109,7 @@
     },
     {
       "id": "plu-irregular-in-sentence",
+      "stable_id": "card-ms9433k34aso3",
       "front": "No había roto nada. / Ya habían vuelto.",
       "back": "irregular participles inside the pluperfect",
       "notes": "The pluperfect happily takes irregular participles: *No había **roto** nada* ('I hadn't broken anything'), *Ya habían **vuelto*** ('They had already returned'), *Nunca había **dicho** eso*. Participle invariable as always.",
@@ -133,6 +144,7 @@
       "title": "Match the haber forms",
       "exercise": {
         "id": "ex-match-haber",
+        "stable_id": "ex-ms9433k34atxu",
         "type": "matching",
         "prompt": "Match each subject with the correct imperfect form of haber (for the pluperfect).",
         "card_ids": ["plu-haber-imperfect", "plu-formation"],
@@ -153,6 +165,7 @@
       "title": "Already started",
       "exercise": {
         "id": "ex-cloze-empezado",
+        "stable_id": "ex-ms9433k34auvu",
         "type": "cloze",
         "prompt": "Fill in the pluperfect of *empezar* (the film, ya) to complete the sentence.",
         "card_ids": ["plu-use-before-past", "plu-formation"],
@@ -169,6 +182,7 @@
       "title": "Had already eaten",
       "exercise": {
         "id": "ex-free-had-eaten",
+        "stable_id": "ex-ms9433k34avb3",
         "type": "free_text",
         "prompt": "Translate: *I had already eaten.* (don't split haber and the participle)",
         "card_ids": ["plu-formation", "plu-no-split"],
@@ -185,6 +199,7 @@
       "title": "Never seen before",
       "exercise": {
         "id": "ex-free-never-seen",
+        "stable_id": "ex-ms9433k34awu6",
         "type": "free_text",
         "prompt": "Translate: *I had never seen anything like that.* (use the irregular participle of ver)",
         "card_ids": ["plu-irregular-participles", "plu-signals"],
@@ -201,6 +216,7 @@
       "title": "Build: they had already returned",
       "exercise": {
         "id": "ex-tiles-vuelto",
+        "stable_id": "ex-ms9433k34axq6",
         "type": "word_tiles",
         "prompt": "Arrange the words: *They had already returned home.* (volver → vuelto)",
         "card_ids": ["plu-irregular-in-sentence", "plu-irregular-participles"],
@@ -216,6 +232,7 @@
       "title": "An irregular participle",
       "exercise": {
         "id": "ex-cloze-roto",
+        "stable_id": "ex-ms9433k34ayjg",
         "type": "cloze",
         "prompt": "Fill in the past participle of *romper* in this pluperfect sentence.",
         "card_ids": ["plu-irregular-participles", "plu-irregular-in-sentence"],
@@ -232,6 +249,7 @@
       "title": "Does the participle change?",
       "exercise": {
         "id": "ex-pic-participle-agree",
+        "stable_id": "ex-ms9433k34azdz",
         "type": "picture_choice",
         "prompt": "Which sentence correctly says 'She had eaten'? (participle invariable after haber)",
         "card_ids": ["plu-participle-invariable", "plu-formation"],
@@ -253,6 +271,7 @@
       "title": "Which compound tense?",
       "exercise": {
         "id": "ex-match-compound-tenses",
+        "stable_id": "ex-ms9433k34b0iy",
         "type": "matching",
         "prompt": "Match each haber+hablado form with its English compound tense.",
         "card_ids": ["plu-compound-family", "plu-vs-present-perfect"],
@@ -272,6 +291,7 @@
       "title": "Not yet gotten up",
       "exercise": {
         "id": "ex-cloze-todavia-no",
+        "stable_id": "ex-ms9433k34b1ci",
         "type": "cloze",
         "prompt": "Fill in the imperfect of *haber* (yo) to complete the pluperfect.",
         "card_ids": ["plu-haber-imperfect", "plu-signals"],
@@ -288,6 +308,7 @@
       "title": "Had said the truth",
       "exercise": {
         "id": "ex-free-had-said",
+        "stable_id": "ex-ms9433k34b2y0",
         "type": "free_text",
         "prompt": "Translate: *We had already said the truth.* (decir → dicho)",
         "card_ids": ["plu-irregular-participles", "plu-formation"],
@@ -304,6 +325,7 @@
       "title": "Had written before",
       "exercise": {
         "id": "ex-free-had-written",
+        "stable_id": "ex-ms9433k34b3xe",
         "type": "free_text",
         "prompt": "Translate: *They had written the letter before leaving.* (escribir → escrito)",
         "card_ids": ["plu-irregular-participles", "plu-use-before-past"],

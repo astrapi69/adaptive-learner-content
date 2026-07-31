@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "ikura",
+      "stable_id": "card-ms9433ip2vwnz",
       "front": "いくら",
       "back": "wie viel (Preis)",
       "notes": "Romaji: ikura. Kontext: これはいくらですか。(kore wa ikura desu ka.) – Wie viel kostet das?",
@@ -17,6 +18,7 @@
     },
     {
       "id": "ikura-desu-ka",
+      "stable_id": "card-ms9433ip2vxo4",
       "front": "いくらですか",
       "back": "Wie viel kostet das?",
       "notes": "Romaji: ikura desu ka. Kontext: このかばんはいくらですか。(kono kaban wa ikura desu ka.) – Wie viel kostet diese Tasche?",
@@ -25,6 +27,7 @@
     },
     {
       "id": "kore",
+      "stable_id": "card-ms9433ip2vyhz",
       "front": "これ",
       "back": "dies / das hier (nah beim Sprecher)",
       "notes": "Romaji: kore. Kontext: これをください。(kore o kudasai.) – Das hier bitte.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "sore",
+      "stable_id": "card-ms9433ip2vz4x",
       "front": "それ",
       "back": "das da (nah beim Hörer)",
       "notes": "Romaji: sore. Kontext: それは何ですか。(sore wa nan desu ka.) – Was ist das da?",
@@ -41,6 +45,7 @@
     },
     {
       "id": "are",
+      "stable_id": "card-ms9433ip2w0do",
       "front": "あれ",
       "back": "jenes / das dort (entfernt)",
       "notes": "Romaji: are. Kontext: あれは富士山です。(are wa fujisan desu.) – Das dort ist der Berg Fuji.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "takai",
+      "stable_id": "card-ms9433ip2w1an",
       "front": "高い",
       "back": "teuer (auch: hoch)",
       "notes": "Romaji: takai. Kontext: これは高いです。(kore wa takai desu.) – Das ist teuer.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "yasui",
+      "stable_id": "card-ms9433ip2w208",
       "front": "安い",
       "back": "billig / günstig",
       "notes": "Romaji: yasui. Kontext: この店は安いです。(kono mise wa yasui desu.) – Dieser Laden ist günstig.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "en",
+      "stable_id": "card-ms9433ip2w3o9",
       "front": "円",
       "back": "Yen (Währung)",
       "notes": "Romaji: en. Kontext: 五百円です。(gohyaku-en desu.) – Es kostet 500 Yen.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "kaban",
+      "stable_id": "card-ms9433ip2w48m",
       "front": "かばん",
       "back": "Tasche",
       "notes": "Romaji: kaban. Kontext: そのかばんはいくらですか。(sono kaban wa ikura desu ka.) – Wie viel kostet diese Tasche?",
@@ -81,6 +90,7 @@
     },
     {
       "id": "mise",
+      "stable_id": "card-ms9433ip2w5bs",
       "front": "店",
       "back": "Laden / Geschäft",
       "notes": "Romaji: mise. Kontext: あの店は安いです。(ano mise wa yasui desu.) – Jener Laden ist günstig.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "kono",
+      "stable_id": "card-ms9433ip2w60w",
       "front": "この",
       "back": "diese(r/s) … (vor Nomen)",
       "notes": "Romaji: kono. Kontext: このかばんはいくらですか。(kono kaban wa ikura desu ka.) – Wie viel kostet diese Tasche? この steht vor einem Nomen.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "okane",
+      "stable_id": "card-ms9433ip2w73f",
       "front": "お金",
       "back": "Geld",
       "notes": "Romaji: okane. Kontext: お金がありません。(okane ga arimasen.) – Ich habe kein Geld.",
@@ -124,6 +136,7 @@
       "title": "Demonstrativa zuordnen",
       "exercise": {
         "id": "ex-match-kosoado",
+        "stable_id": "ex-ms9433ip2w81u",
         "type": "matching",
         "prompt": "Ordne jedem Wort die deutsche Bedeutung zu.",
         "card_ids": ["kore", "sore", "are", "takai"],
@@ -143,6 +156,7 @@
       "title": "Lücke: nach dem Preis fragen",
       "exercise": {
         "id": "ex-cloze-ikura",
+        "stable_id": "ex-ms9433ip2w9kd",
         "type": "cloze",
         "prompt": "Ergänze das Fragewort für 'wie viel (Preis)'.",
         "card_ids": ["ikura", "kore"],
@@ -159,6 +173,7 @@
       "title": "Günstig sagen",
       "exercise": {
         "id": "ex-free-yasui",
+        "stable_id": "ex-ms9433ip2wazk",
         "type": "free_text",
         "prompt": "Wie heißt 'billig / günstig' auf Japanisch?",
         "card_ids": ["yasui"],
@@ -175,6 +190,7 @@
       "title": "Teuer sagen",
       "exercise": {
         "id": "ex-free-takai",
+        "stable_id": "ex-ms9433ip2wbup",
         "type": "free_text",
         "prompt": "Wie heißt 'teuer' auf Japanisch?",
         "card_ids": ["takai"],
@@ -191,6 +207,7 @@
       "title": "Satz bauen: Wie viel kostet das?",
       "exercise": {
         "id": "ex-tiles-ikura-desu-ka",
+        "stable_id": "ex-ms9433ip2wcpe",
         "type": "word_tiles",
         "prompt": "Baue die Frage 'Wie viel kostet das (hier)?' in der richtigen Reihenfolge.",
         "card_ids": ["kore", "ikura", "ikura-desu-ka"],
@@ -206,6 +223,7 @@
       "title": "Welches Wort bedeutet 'Tasche'?",
       "exercise": {
         "id": "ex-pic-kaban",
+        "stable_id": "ex-ms9433ip2wd9f",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'Tasche'?",
         "card_ids": ["kaban"],

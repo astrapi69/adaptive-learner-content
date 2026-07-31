@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "neg-plus",
+      "stable_id": "card-ms9433hz260y5",
       "front": "ne...plus",
       "back": "nicht mehr",
       "notes": "**ne...plus** drückt aus, dass etwas aufgehört hat. *Je ne fume plus.* — Ich rauche nicht mehr. Im passé composé: *Je n'ai plus fumé.* — Ich habe nicht mehr geraucht.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "neg-jamais",
+      "stable_id": "card-ms9433hz26100",
       "front": "ne...jamais",
       "back": "nie / niemals",
       "notes": "**ne...jamais** verneint für immer und alle Zeit. *Il ne mange jamais de viande.* — Er isst nie Fleisch. Im passé composé: *Je n'ai jamais mangé de sushi.* — Ich habe noch nie Sushi gegessen.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "neg-rien",
+      "stable_id": "card-ms9433hz262ny",
       "front": "ne...rien",
       "back": "nichts",
       "notes": "**ne...rien** verneint das Objekt. *Elle ne comprend rien.* — Sie versteht nichts. Im passé composé bleibt **rien** *vor* dem Partizip: *Elle n'a rien compris.* — Als Subjekt: **Rien ne marche.** — Nichts funktioniert.",
@@ -34,6 +37,7 @@
     },
     {
       "id": "neg-personne",
+      "stable_id": "card-ms9433hz26360",
       "front": "ne...personne",
       "back": "niemand / keinen",
       "notes": "**ne...personne** verneint eine Person. *Je ne vois personne.* — Ich sehe niemanden. Im passé composé *umklammert* **personne** das Partizip: *Je n'ai vu personne.* — Als Subjekt: **Personne ne vient.** — Niemand kommt.",
@@ -44,6 +48,7 @@
     },
     {
       "id": "neg-que",
+      "stable_id": "card-ms9433hz264yy",
       "front": "ne...que",
       "back": "nur (Restriktion)",
       "notes": "**ne...que** bedeutet nicht wirklich eine Verneinung, sondern eine Einschränkung (Restriktion). *Je n'ai que dix euros.* — Ich habe nur zehn Euro. **que** steht direkt vor dem eingeschränkten Element.",
@@ -53,6 +58,7 @@
     },
     {
       "id": "neg-subj-rien",
+      "stable_id": "card-ms9433hz265ac",
       "front": "Rien ne marche.",
       "back": "Nichts funktioniert.",
       "notes": "Wenn **rien** das *Subjekt* ist, steht es am Satzanfang, gefolgt von **ne** + Verb. Kein zweites Verneinungselement nötig. *Rien ne se passe.* — Nichts passiert.",
@@ -62,6 +68,7 @@
     },
     {
       "id": "neg-subj-personne",
+      "stable_id": "card-ms9433hz26630",
       "front": "Personne ne vient.",
       "back": "Niemand kommt.",
       "notes": "Wenn **personne** das *Subjekt* ist, steht es am Satzanfang, gefolgt von **ne** + Verb. *Personne n'a appelé.* — Niemand hat angerufen.",
@@ -71,6 +78,7 @@
     },
     {
       "id": "neg-pc-rien",
+      "stable_id": "card-ms9433hz267gs",
       "front": "Je n'ai rien compris.",
       "back": "Ich habe nichts verstanden.",
       "notes": "Im **passé composé** steht **rien** zwischen Hilfsverb und Partizip: *n'ai* + **rien** + *compris*. Merkhilfe: rien bleibt nah am Hilfsverb — es ist sozusagen ein kurzes Wort und bleibt vorne.",
@@ -80,6 +88,7 @@
     },
     {
       "id": "neg-pc-personne",
+      "stable_id": "card-ms9433hz2683t",
       "front": "Je n'ai vu personne.",
       "back": "Ich habe niemanden gesehen.",
       "notes": "Im **passé composé** steht **personne** *nach* dem Partizip: *n'ai vu* + **personne**. Merk dir den Gegensatz: **rien** → vor dem Partizip; **personne** → nach dem Partizip.",
@@ -89,6 +98,7 @@
     },
     {
       "id": "neg-pc-jamais",
+      "stable_id": "card-ms9433hz2692d",
       "front": "Je n'ai jamais voyagé en Asie.",
       "back": "Ich bin noch nie nach Asien gereist.",
       "notes": "Im **passé composé** steht **jamais** vor dem Partizip: *n'ai* + **jamais** + *voyagé*. Das gilt genauso für **plus** und **rien** — nur **personne** kommt nach dem Partizip.",
@@ -98,6 +108,7 @@
     },
     {
       "id": "neg-pc-plus",
+      "stable_id": "card-ms9433hz26ae8",
       "front": "Elle n'a plus travaillé.",
       "back": "Sie hat nicht mehr gearbeitet.",
       "notes": "Im **passé composé** steht **plus** vor dem Partizip: *n'a* + **plus** + *travaillé*. Gleiche Stellung wie jamais und rien.",
@@ -132,6 +143,7 @@
       "title": "Verneinungen zuordnen",
       "exercise": {
         "id": "ex-match-negations",
+        "stable_id": "ex-ms9433hz26biw",
         "type": "matching",
         "prompt": "Ordne jedem französischen Verneinungspaar seine deutsche Bedeutung zu.",
         "card_ids": ["neg-plus", "neg-jamais", "neg-rien", "neg-personne", "neg-que"],
@@ -152,6 +164,7 @@
       "title": "Stellung im passé composé",
       "exercise": {
         "id": "ex-match-pc-position",
+        "stable_id": "ex-ms9433hz26c0j",
         "type": "matching",
         "prompt": "Ordne jedem Verneinungselement den richtigen vollständigen Satz im passé composé zu.",
         "card_ids": ["neg-pc-jamais", "neg-pc-plus", "neg-pc-personne", "neg-pc-rien"],
@@ -171,6 +184,7 @@
       "title": "Nicht mehr rauchen",
       "exercise": {
         "id": "ex-cloze-plus",
+        "stable_id": "ex-ms9433hz26di4",
         "type": "cloze",
         "prompt": "Ergänze die richtige Verneinung: *nicht mehr*.",
         "card_ids": ["neg-plus"],
@@ -190,6 +204,7 @@
       "title": "Nichts im passé composé",
       "exercise": {
         "id": "ex-cloze-pc-rien",
+        "stable_id": "ex-ms9433hz26ea2",
         "type": "cloze",
         "prompt": "Ergänze: *Ich habe nichts gesagt.* — **rien** steht vor dem Partizip!",
         "card_ids": ["neg-rien", "neg-pc-rien"],
@@ -209,6 +224,7 @@
       "title": "Ich habe noch nie Sushi gegessen",
       "exercise": {
         "id": "ex-free-jamais",
+        "stable_id": "ex-ms9433hz26f2v",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich habe noch nie Sushi gegessen.*",
         "card_ids": ["neg-jamais", "neg-pc-jamais"],
@@ -235,6 +251,7 @@
       "title": "Niemand kommt",
       "exercise": {
         "id": "ex-free-personne-sujet",
+        "stable_id": "ex-ms9433hz26gmb",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Niemand kommt.*",
         "card_ids": ["neg-subj-personne"],
@@ -259,6 +276,7 @@
       "title": "Ich habe niemanden gesehen",
       "exercise": {
         "id": "ex-free-pc-personne",
+        "stable_id": "ex-ms9433hz26hme",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich habe niemanden gesehen.* (Achtung: personne steht nach dem Partizip!)",
         "card_ids": ["neg-personne", "neg-pc-personne"],
@@ -283,6 +301,7 @@
       "title": "Bilde: Nichts funktioniert",
       "exercise": {
         "id": "ex-tiles-rien-marche",
+        "stable_id": "ex-ms9433hz26io1",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Nichts funktioniert.* (rien als Subjekt)",
         "card_ids": ["neg-subj-rien"],
@@ -298,6 +317,7 @@
       "title": "Bilde: Sie hat nicht mehr gearbeitet",
       "exercise": {
         "id": "ex-tiles-ne-plus",
+        "stable_id": "ex-ms9433hz26jt1",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Sie hat nicht mehr gearbeitet.* (passé composé mit ne...plus)",
         "card_ids": ["neg-plus", "neg-pc-plus"],
@@ -313,6 +333,7 @@
       "title": "Welcher Satz ist korrekt?",
       "exercise": {
         "id": "ex-pic-negation",
+        "stable_id": "ex-ms9433hz26kfh",
         "type": "picture_choice",
         "prompt": "Welcher Satz bedeutet *Ich habe nichts verstanden*? (passé composé, ne...rien)",
         "card_ids": ["neg-rien", "neg-pc-rien"],

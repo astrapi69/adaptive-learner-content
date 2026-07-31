@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "juseyo",
+      "stable_id": "card-ms9433it31099",
       "front": "주세요",
       "back": "Bitte geben Sie mir / Ich hätte gern",
       "notes": "Romanisierung: juseyo. Kontext: 물 주세요 (mul juseyo) – Wasser, bitte.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "mul",
+      "stable_id": "card-ms9433it3113e",
       "front": "물",
       "back": "Wasser",
       "notes": "Romanisierung: mul. Kontext: 물 한 잔 주세요 (mul han jan juseyo) – Ein Glas Wasser, bitte.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "bap",
+      "stable_id": "card-ms9433it312cd",
       "front": "밥",
       "back": "Reis / Essen / Mahlzeit",
       "notes": "Romanisierung: bap. Kontext: 밥 먹었어요? (bap meogeosseoyo?) – Hast du gegessen? (wörtlich 'Reis gegessen?').",
@@ -33,6 +36,7 @@
     },
     {
       "id": "meokda",
+      "stable_id": "card-ms9433it313rp",
       "front": "먹다",
       "back": "essen (Grundform)",
       "notes": "Romanisierung: meokda. Kontext: 밥을 먹어요 (babeul meogeoyo) – Ich esse (Reis). Höfliche Form: 먹어요 (meogeoyo).",
@@ -41,6 +45,7 @@
     },
     {
       "id": "mashida",
+      "stable_id": "card-ms9433it314bm",
       "front": "마시다",
       "back": "trinken (Grundform)",
       "notes": "Romanisierung: mashida. Kontext: 물을 마셔요 (mureul masyeoyo) – Ich trinke Wasser. Höfliche Form: 마셔요 (masyeoyo).",
@@ -49,6 +54,7 @@
     },
     {
       "id": "masisseoyo",
+      "stable_id": "card-ms9433it3155y",
       "front": "맛있어요",
       "back": "Es ist lecker",
       "notes": "Romanisierung: masisseoyo. Kontext: 이거 정말 맛있어요 (igeo jeongmal masisseoyo) – Das ist wirklich lecker.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "gyesanseo",
+      "stable_id": "card-ms9433it31672",
       "front": "계산서",
       "back": "die Rechnung",
       "notes": "Romanisierung: gyesanseo. Kontext: 계산서 주세요 (gyesanseo juseyo) – Die Rechnung, bitte.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "menyu",
+      "stable_id": "card-ms9433it3178z",
       "front": "메뉴",
       "back": "die Speisekarte",
       "notes": "Romanisierung: menyu. Kontext: 메뉴 주세요 (menyu juseyo) – Die Speisekarte, bitte.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "kkeopi",
+      "stable_id": "card-ms9433it318nl",
       "front": "커피",
       "back": "Kaffee",
       "notes": "Romanisierung: keopi. Kontext: 커피 한 잔 주세요 (keopi han jan juseyo) – Eine Tasse Kaffee, bitte.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "han-jan",
+      "stable_id": "card-ms9433it319ta",
       "front": "한 잔",
       "back": "ein Glas / eine Tasse",
       "notes": "Romanisierung: han jan. Kontext: 물 한 잔 주세요 (mul han jan juseyo) – Ein Glas Wasser, bitte. 한 = nativ 'eins' vor Zähleinheit.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "yeogiyo",
+      "stable_id": "card-ms9433it31axi",
       "front": "여기요",
       "back": "Hallo! / Hier bitte! (Kellner rufen)",
       "notes": "Romanisierung: yeogiyo. Kontext: 여기요, 메뉴 주세요 (yeogiyo, menyu juseyo) – Entschuldigung, die Karte bitte.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "baegopayo",
+      "stable_id": "card-ms9433it31b2p",
       "front": "배고파요",
       "back": "Ich habe Hunger",
       "notes": "Romanisierung: baegopayo. Kontext: 너무 배고파요 (neomu baegopayo) – Ich habe großen Hunger.",
@@ -124,6 +136,7 @@
       "title": "Wörter zuordnen",
       "exercise": {
         "id": "ex-match-restaurant",
+        "stable_id": "ex-ms9433it31c26",
         "type": "matching",
         "prompt": "Ordne jedem koreanischen Wort die deutsche Bedeutung zu.",
         "card_ids": ["mul", "bap", "menyu", "gyesanseo"],
@@ -143,6 +156,7 @@
       "title": "Wasser bestellen",
       "exercise": {
         "id": "ex-free-wasser-bitte",
+        "stable_id": "ex-ms9433it31d1f",
         "type": "free_text",
         "prompt": "Wie sagt man 'Wasser, bitte'? (Hangul oder Romanisierung)",
         "card_ids": ["mul", "juseyo"],
@@ -159,6 +173,7 @@
       "title": "Es ist lecker",
       "exercise": {
         "id": "ex-free-lecker",
+        "stable_id": "ex-ms9433it31ekp",
         "type": "free_text",
         "prompt": "Wie sagt man 'Es ist lecker'? (Hangul oder Romanisierung)",
         "card_ids": ["masisseoyo"],
@@ -175,6 +190,7 @@
       "title": "Lücke füllen: Rechnung",
       "exercise": {
         "id": "ex-cloze-rechnung",
+        "stable_id": "ex-ms9433it31f8q",
         "type": "cloze",
         "prompt": "Bitte um die Rechnung. Ergänze das passende Wort.",
         "card_ids": ["gyesanseo", "juseyo"],
@@ -191,6 +207,7 @@
       "title": "Kaffee bestellen",
       "exercise": {
         "id": "ex-tiles-kaffee",
+        "stable_id": "ex-ms9433it31g6n",
         "type": "word_tiles",
         "prompt": "Baue den Satz 'Eine Tasse Kaffee, bitte.'",
         "card_ids": ["kkeopi", "han-jan", "juseyo"],
@@ -206,6 +223,7 @@
       "title": "Hunger erkennen",
       "exercise": {
         "id": "ex-pick-hunger",
+        "stable_id": "ex-ms9433it31h24",
         "type": "picture_choice",
         "prompt": "Welcher Satz bedeutet 'Ich habe Hunger'?",
         "card_ids": ["baegopayo"],

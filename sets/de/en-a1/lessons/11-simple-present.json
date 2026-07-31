@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "sp-work",
+      "stable_id": "card-ms9433fq0am0e",
       "front": "I work / you work",
       "back": "ich arbeite / du arbeitest",
       "notes": "Grundform ohne Endung bei I, you, we, they.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "sp-works",
+      "stable_id": "card-ms9433fq0anmw",
       "front": "he works / she works",
       "back": "er arbeitet / sie arbeitet",
       "notes": "Die -s-Regel: in der 3. Person Singular (he/she/it) bekommt das Verb ein -s! Das vergessen Deutschsprachige am häufigsten.",
@@ -22,6 +24,7 @@
     },
     {
       "id": "sp-do-you",
+      "stable_id": "card-ms9433fq0aosx",
       "front": "Do you ...?",
       "back": "...du / Sie ...?",
       "notes": "Fragen brauchen das Hilfsverb 'do' am Anfang: 'Do you speak English?'. Im Deutschen gibt es dieses Hilfsverb nicht.",
@@ -29,6 +32,7 @@
     },
     {
       "id": "sp-does-she",
+      "stable_id": "card-ms9433fq0ap7s",
       "front": "Does he/she/it ...?",
       "back": "...er/sie/es ...?",
       "notes": "In der 3. Person heißt das Hilfsverb 'does' — und das Hauptverb bleibt OHNE -s: 'Does she live here?' (nicht 'lives').",
@@ -36,6 +40,7 @@
     },
     {
       "id": "sp-dont",
+      "stable_id": "card-ms9433fq0aqzk",
       "front": "I don't ...",
       "back": "ich ... nicht",
       "notes": "Verneinung mit 'do not / don't' + Grundform: 'I don't like it.'",
@@ -43,6 +48,7 @@
     },
     {
       "id": "sp-doesnt",
+      "stable_id": "card-ms9433fq0arjn",
       "front": "he doesn't ...",
       "back": "er ... nicht",
       "notes": "3. Person: 'does not / doesn't' + Grundform OHNE -s: 'He doesn't know.' (nicht 'doesn't knows').",
@@ -50,6 +56,7 @@
     },
     {
       "id": "sp-live",
+      "stable_id": "card-ms9433fq0as1y",
       "front": "live",
       "back": "wohnen / leben",
       "notes": "3. Person: 'he lives'.",
@@ -57,6 +64,7 @@
     },
     {
       "id": "sp-speak",
+      "stable_id": "card-ms9433fq0at3u",
       "front": "speak",
       "back": "sprechen",
       "notes": "3. Person: 'she speaks'.",
@@ -64,6 +72,7 @@
     },
     {
       "id": "sp-like",
+      "stable_id": "card-ms9433fq0auid",
       "front": "like",
       "back": "mögen / gern haben",
       "notes": "3. Person: 'he likes'. 'I like coffee' = Ich mag Kaffee.",
@@ -96,6 +105,7 @@
       "title": "Formen zuordnen",
       "exercise": {
         "id": "ex-match-forms",
+        "stable_id": "ex-ms9433fq0avv1",
         "type": "matching",
         "prompt": "Ordne jede englische Form ihrer deutschen Bedeutung zu.",
         "card_ids": ["sp-work", "sp-works", "sp-dont", "sp-doesnt"],
@@ -115,6 +125,7 @@
       "title": "Das -s nicht vergessen",
       "exercise": {
         "id": "ex-cloze-works",
+        "stable_id": "ex-ms9433fq0awyr",
         "type": "cloze",
         "prompt": "Ergänze das Verb 'work' in der richtigen Form.",
         "card_ids": ["sp-works"],
@@ -133,6 +144,7 @@
       "title": "Welcher Satz ist richtig?",
       "exercise": {
         "id": "ex-pick-he-works",
+        "stable_id": "ex-ms9433fq0ax5f",
         "type": "picture_choice",
         "prompt": "Welcher Satz bedeutet korrekt 'Er arbeitet in London'?",
         "card_ids": ["sp-works"],
@@ -154,6 +166,7 @@
       "title": "Eine Frage bilden",
       "exercise": {
         "id": "ex-free-do-you-speak",
+        "stable_id": "ex-ms9433fq0aydg",
         "type": "free_text",
         "prompt": "Übersetze: 'Sprichst du Englisch?'",
         "card_ids": ["sp-do-you", "sp-speak"],
@@ -170,6 +183,7 @@
       "title": "Frage in der 3. Person",
       "exercise": {
         "id": "ex-free-does-she-live",
+        "stable_id": "ex-ms9433fq0az7a",
         "type": "free_text",
         "prompt": "Übersetze: 'Wohnt sie hier?'",
         "card_ids": ["sp-does-she", "sp-live"],
@@ -186,6 +200,7 @@
       "title": "Verneinen",
       "exercise": {
         "id": "ex-free-doesnt-know",
+        "stable_id": "ex-ms9433fq0b0d4",
         "type": "free_text",
         "prompt": "Übersetze: 'Er weiß es nicht.'",
         "card_ids": ["sp-doesnt"],
@@ -202,6 +217,7 @@
       "title": "Verneinung bauen",
       "exercise": {
         "id": "ex-tile-i-dont-like",
+        "stable_id": "ex-ms9433fq0b16h",
         "type": "word_tiles",
         "prompt": "Bilde 'Ich mag keinen Tee.' (wörtlich: Ich mag Tee nicht.)",
         "card_ids": ["sp-dont", "sp-like"],
@@ -217,6 +233,7 @@
       "title": "Aussage in der 3. Person",
       "exercise": {
         "id": "ex-tile-she-speaks",
+        "stable_id": "ex-ms9433fq0b2of",
         "type": "word_tiles",
         "prompt": "Bilde 'Sie spricht drei Sprachen.'",
         "card_ids": ["sp-speak"],
@@ -232,6 +249,7 @@
       "title": "Frage mit do",
       "exercise": {
         "id": "ex-free-do-you-like",
+        "stable_id": "ex-ms9433fq0b37v",
         "type": "free_text",
         "prompt": "Übersetze: 'Magst du Kaffee?'",
         "card_ids": ["sp-do-you", "sp-like"],
@@ -248,6 +266,7 @@
       "title": "Aussage mit -s",
       "exercise": {
         "id": "ex-free-he-lives",
+        "stable_id": "ex-ms9433fq0b4yz",
         "type": "free_text",
         "prompt": "Übersetze: 'Er wohnt in Berlin.'",
         "card_ids": ["sp-live", "sp-works"],

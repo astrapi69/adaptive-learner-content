@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "dov-e",
+      "stable_id": "card-ms9433ij2oya4",
       "front": "Dov'è...?",
       "back": "Wo ist...?",
       "notes": "Kontext: Dov'è la stazione? – Wo ist der Bahnhof? Aus 'dove è' wird 'dov'è'.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "a-destra",
+      "stable_id": "card-ms9433ij2ozjp",
       "front": "a destra",
       "back": "rechts / nach rechts",
       "notes": "Kontext: Giri a destra. – Biegen Sie nach rechts ab.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "a-sinistra",
+      "stable_id": "card-ms9433ij2p0j1",
       "front": "a sinistra",
       "back": "links / nach links",
       "notes": "Kontext: La banca è a sinistra. – Die Bank ist links.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "dritto",
+      "stable_id": "card-ms9433ij2p15d",
       "front": "sempre dritto",
       "back": "immer geradeaus",
       "notes": "Kontext: Vada sempre dritto. – Gehen Sie immer geradeaus.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "vicino",
+      "stable_id": "card-ms9433ij2p2pn",
       "front": "vicino",
       "back": "nah / in der Nähe",
       "notes": "Kontext: È qui vicino. – Es ist hier in der Nähe. vicino a = in der Nähe von.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "lontano",
+      "stable_id": "card-ms9433ij2p30m",
       "front": "lontano",
       "back": "weit / weit weg",
       "notes": "Kontext: È lontano da qui? – Ist es weit von hier?",
@@ -57,6 +63,7 @@
     },
     {
       "id": "la-stazione",
+      "stable_id": "card-ms9433ij2p4zx",
       "front": "la stazione",
       "back": "der Bahnhof",
       "notes": "Kontext: La stazione è vicina. – Der Bahnhof ist in der Nähe. (f.)",
@@ -65,6 +72,7 @@
     },
     {
       "id": "la-piazza",
+      "stable_id": "card-ms9433ij2p582",
       "front": "la piazza",
       "back": "der Platz",
       "notes": "Kontext: La piazza è grande. – Der Platz ist groß. (f.)",
@@ -73,6 +81,7 @@
     },
     {
       "id": "la-strada",
+      "stable_id": "card-ms9433ij2p6fv",
       "front": "la strada",
       "back": "die Straße",
       "notes": "Kontext: Attraversa la strada. – Überquere die Straße. (f.)",
@@ -81,6 +90,7 @@
     },
     {
       "id": "il-semaforo",
+      "stable_id": "card-ms9433ij2p7jz",
       "front": "il semaforo",
       "back": "die Ampel",
       "notes": "Kontext: Gira al semaforo. – Bieg an der Ampel ab. (m.)",
@@ -89,6 +99,7 @@
     },
     {
       "id": "qui",
+      "stable_id": "card-ms9433ij2p8gq",
       "front": "qui",
       "back": "hier",
       "notes": "Kontext: Sono qui. – Ich bin hier.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "scusi-dov-e",
+      "stable_id": "card-ms9433ij2p941",
       "front": "Scusi, dov'è...?",
       "back": "Entschuldigung, wo ist...?",
       "notes": "Kontext: Scusi, dov'è il bagno? – Entschuldigung, wo ist die Toilette? Höflich (Sie).",
@@ -124,6 +136,7 @@
       "title": "Richtungen zuordnen",
       "exercise": {
         "id": "ex-match-wegbeschreibung",
+        "stable_id": "ex-ms9433ij2patm",
         "type": "matching",
         "prompt": "Ordne den italienischen Ausdrücken die deutsche Bedeutung zu.",
         "card_ids": ["a-destra", "a-sinistra", "dritto", "vicino"],
@@ -143,6 +156,7 @@
       "title": "Nach rechts",
       "exercise": {
         "id": "ex-free-a-destra",
+        "stable_id": "ex-ms9433ij2pb5s",
         "type": "free_text",
         "prompt": "Wie sagt man 'rechts / nach rechts' auf Italienisch?",
         "card_ids": ["a-destra"],
@@ -159,6 +173,7 @@
       "title": "Weit weg",
       "exercise": {
         "id": "ex-free-lontano",
+        "stable_id": "ex-ms9433ij2pcka",
         "type": "free_text",
         "prompt": "Wie heißt 'weit / weit weg' auf Italienisch?",
         "card_ids": ["lontano"],
@@ -175,6 +190,7 @@
       "title": "Lücke füllen: Wo ist der Bahnhof?",
       "exercise": {
         "id": "ex-cloze-dov-e-stazione",
+        "stable_id": "ex-ms9433ij2pd1a",
         "type": "cloze",
         "prompt": "Ergänze: 'Entschuldigung, wo ist der Bahnhof?'",
         "card_ids": ["dov-e", "la-stazione"],
@@ -193,6 +209,7 @@
       "title": "Wegbeschreibung zusammensetzen",
       "exercise": {
         "id": "ex-tile-sempre-dritto",
+        "stable_id": "ex-ms9433ij2pehi",
         "type": "word_tiles",
         "prompt": "Baue 'Gehen Sie geradeaus, dann nach rechts.'",
         "card_ids": ["dritto", "a-destra"],
@@ -208,6 +225,7 @@
       "title": "Den Ort erkennen",
       "exercise": {
         "id": "ex-pick-stazione",
+        "stable_id": "ex-ms9433ij2pf01",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'der Bahnhof'?",
         "card_ids": ["la-stazione"],

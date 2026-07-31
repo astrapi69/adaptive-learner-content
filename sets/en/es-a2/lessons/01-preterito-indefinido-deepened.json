@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "pret-ar-endings",
+      "stable_id": "card-ms9433jq3yeej",
       "front": "hablé, hablaste, habló, hablamos, hablasteis, hablaron",
       "back": "preterite of -AR verbs (hablar = to speak)",
       "notes": "Regular **-AR** endings: **-é, -aste, -ó, -amos, -asteis, -aron**. Note the accents on *hablé* and *habló* — they change the meaning (*hablo* = I speak; *habló* = he/she spoke).",
@@ -18,6 +19,7 @@
     },
     {
       "id": "pret-er-ir-endings",
+      "stable_id": "card-ms9433jq3yfas",
       "front": "comí, comiste, comió, comimos, comisteis, comieron",
       "back": "preterite of -ER and -IR verbs (comer = to eat)",
       "notes": "**-ER** and **-IR** verbs share one set of endings: **-í, -iste, -ió, -imos, -isteis, -ieron**. So *comer* and *vivir* are conjugated the same way in the preterite: *comí / viví*.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "pret-ser-ir",
+      "stable_id": "card-ms9433jq3ygyy",
       "front": "fui, fuiste, fue, fuimos, fuisteis, fueron",
       "back": "preterite of SER and IR (identical!)",
       "notes": "*ser* (to be) and *ir* (to go) have the **same** preterite. *Fui médico* = I was a doctor; *Fui a casa* = I went home. Context tells them apart.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "pret-tener",
+      "stable_id": "card-ms9433jq3yhl1",
       "front": "tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron",
       "back": "preterite of tener (to have)",
       "notes": "*tener* uses the irregular stem **tuv-** plus the special endings **-e, -iste, -o, -imos, -isteis, -ieron** (no accents, and *tuvo* not *tuvió*). These same endings are shared by many irregulars.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "pret-hacer",
+      "stable_id": "card-ms9433jq3yicr",
       "front": "hice, hiciste, hizo, hicimos, hicisteis, hicieron",
       "back": "preterite of hacer (to do / to make)",
       "notes": "Irregular stem **hic-**, but watch the spelling: *él/ella* form is **hizo** (with z) to keep the soft sound. *¿Qué hiciste ayer?* = What did you do yesterday?",
@@ -54,6 +59,7 @@
     },
     {
       "id": "pret-estar-poder",
+      "stable_id": "card-ms9433jq3yjx7",
       "front": "estuve / pude / puse / vine / quise",
       "back": "more irregular stems: estar, poder, poner, venir, querer",
       "notes": "Same special endings, different stems: *estar* → **estuv-**, *poder* → **pud-**, *poner* → **pus-**, *venir* → **vin-**, *querer* → **quis-**. E.g. *Estuve en Madrid* = I was in Madrid.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "pret-decir",
+      "stable_id": "card-ms9433jq3yk6z",
       "front": "dije, dijiste, dijo, dijimos, dijisteis, dijeron",
       "back": "preterite of decir (to say / to tell)",
       "notes": "Stem **dij-**. After a **j**, the *ellos* ending drops the *i*: **dijeron** (not *dijieron*). The same happens with *traer* → *trajeron* and *conducir* → *condujeron*.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "pret-spelling-yo",
+      "stable_id": "card-ms9433jq3ylgb",
       "front": "llegué, busqué, empecé",
       "back": "spelling changes in the yo form (-gar, -car, -zar)",
       "notes": "To keep the sound, the **yo** form changes spelling: *llegar* → **llegué**, *buscar* → **busqué**, *empezar* → **empecé**. Only the *yo* form changes; the rest are regular (*llegaste, llegó*...).",
@@ -81,6 +89,7 @@
     },
     {
       "id": "pret-ir-stemchange",
+      "stable_id": "card-ms9433jq3ym9j",
       "front": "pidió, durmió, prefirió, sirvió",
       "back": "-IR stem-changers (3rd person only): e→i, o→u",
       "notes": "Stem-changing **-IR** verbs change the vowel only in the *él/ella* and *ellos* forms: *pedir* → **pidió/pidieron**, *dormir* → **durmió/durmieron**. The other forms are regular (*pedí, pediste*).",
@@ -90,6 +99,7 @@
     },
     {
       "id": "pret-ayer-marker",
+      "stable_id": "card-ms9433jq3ynu6",
       "front": "ayer, anoche, la semana pasada, en 2019",
       "back": "time markers that trigger the preterite",
       "notes": "The preterite reports **completed** actions at a definite past time. Words like *ayer* (yesterday), *anoche* (last night), *el año pasado* (last year) and specific dates signal it.",
@@ -99,6 +109,7 @@
     },
     {
       "id": "pret-no-did-error",
+      "stable_id": "card-ms9433jq3yowp",
       "front": "Comí pizza.  ✗ Hice comer pizza.",
       "back": "no 'did' helper — the verb itself carries the past",
       "notes": "English uses *did* for the past (*I did eat / I ate*). Spanish has **no** *did* helper — the ending alone marks the past: *comí* = I ate. Never translate *did* as *hice*.",
@@ -108,6 +119,7 @@
     },
     {
       "id": "pret-ver",
+      "stable_id": "card-ms9433jq3ypqd",
       "front": "vi, viste, vio, vimos, visteis, vieron",
       "back": "preterite of ver (to see) — no accents",
       "notes": "*ver* is regular but its short forms take **no** written accent: **vi**, **vio** (not *ví, vió*). *Lo vi ayer* = I saw it/him yesterday.",
@@ -142,6 +154,7 @@
       "title": "Match the regular forms",
       "exercise": {
         "id": "ex-match-endings",
+        "stable_id": "ex-ms9433jq3yq18",
         "type": "matching",
         "prompt": "Match each subject with the correct preterite form of *comer* (to eat).",
         "card_ids": ["pret-er-ir-endings"],
@@ -162,6 +175,7 @@
       "title": "An -ER verb",
       "exercise": {
         "id": "ex-free-i-ate",
+        "stable_id": "ex-ms9433jq3yr7n",
         "type": "free_text",
         "prompt": "Translate: *I ate paella yesterday.*",
         "card_ids": ["pret-er-ir-endings", "pret-ayer-marker"],
@@ -178,6 +192,7 @@
       "title": "ser or ir?",
       "exercise": {
         "id": "ex-free-she-went",
+        "stable_id": "ex-ms9433jq3ysp0",
         "type": "free_text",
         "prompt": "Translate: *She went to Mexico last year.*",
         "card_ids": ["pret-ser-ir"],
@@ -194,6 +209,7 @@
       "title": "Which is correct?",
       "exercise": {
         "id": "ex-pic-did",
+        "stable_id": "ex-ms9433jq3ytnn",
         "type": "picture_choice",
         "prompt": "A friend asks what you did. Which sentence means 'I did not eat anything'? (Remember: no 'did' helper.)",
         "card_ids": ["pret-no-did-error"],
@@ -215,6 +231,7 @@
       "title": "The él form of hacer",
       "exercise": {
         "id": "ex-cloze-hacer",
+        "stable_id": "ex-ms9433jq3yuxq",
         "type": "cloze",
         "prompt": "Fill in the él/ella preterite of *hacer*. Mind the spelling!",
         "card_ids": ["pret-hacer"],
@@ -231,6 +248,7 @@
       "title": "Build: I had a problem",
       "exercise": {
         "id": "ex-tiles-i-had",
+        "stable_id": "ex-ms9433jq3yvjq",
         "type": "word_tiles",
         "prompt": "Arrange the words: *I had a problem yesterday.*",
         "card_ids": ["pret-tener"],
@@ -246,6 +264,7 @@
       "title": "Spelling change in yo",
       "exercise": {
         "id": "ex-free-i-arrived",
+        "stable_id": "ex-ms9433jq3ywxs",
         "type": "free_text",
         "prompt": "Translate: *I arrived late.* (llegar — careful with the yo form)",
         "card_ids": ["pret-spelling-yo"],
@@ -262,6 +281,7 @@
       "title": "An -IR stem-changer",
       "exercise": {
         "id": "ex-cloze-pedir",
+        "stable_id": "ex-ms9433jq3yxv7",
         "type": "cloze",
         "prompt": "Fill in the él/ella preterite of *pedir* (to ask for / order).",
         "card_ids": ["pret-ir-stemchange"],
@@ -278,6 +298,7 @@
       "title": "A j-stem irregular",
       "exercise": {
         "id": "ex-free-they-said",
+        "stable_id": "ex-ms9433jq3yyd7",
         "type": "free_text",
         "prompt": "Translate: *They said the truth.* (decir)",
         "card_ids": ["pret-decir"],
@@ -294,6 +315,7 @@
       "title": "Match verb and stem",
       "exercise": {
         "id": "ex-match-irregstems",
+        "stable_id": "ex-ms9433jq3yz56",
         "type": "matching",
         "prompt": "Match each verb with its irregular preterite stem.",
         "card_ids": ["pret-tener", "pret-estar-poder", "pret-hacer"],
@@ -314,6 +336,7 @@
       "title": "estar in the past",
       "exercise": {
         "id": "ex-free-i-was",
+        "stable_id": "ex-ms9433jq3z08z",
         "type": "free_text",
         "prompt": "Translate: *I was in Madrid last week.* (use estar)",
         "card_ids": ["pret-estar-poder", "pret-ayer-marker"],
@@ -330,6 +353,7 @@
       "title": "Putting it together",
       "exercise": {
         "id": "ex-free-we-slept",
+        "stable_id": "ex-ms9433jq3z1kt",
         "type": "free_text",
         "prompt": "Translate: *We slept well and they slept badly.* (dormir)",
         "card_ids": ["pret-ir-stemchange", "pret-er-ir-endings"],

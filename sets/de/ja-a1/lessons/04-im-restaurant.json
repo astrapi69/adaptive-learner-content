@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "sumimasen",
+      "stable_id": "card-ms9433ip2vex5",
       "front": "すみません",
       "back": "Entschuldigung / Bitte (um Aufmerksamkeit)",
       "notes": "Romaji: sumimasen. Kontext: すみません、メニューをください。(sumimasen, menyuu o kudasai.) – Entschuldigung, die Speisekarte bitte.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "kudasai",
+      "stable_id": "card-ms9433ip2vf5q",
       "front": "ください",
       "back": "bitte (geben Sie mir …)",
       "notes": "Romaji: kudasai. Kontext: 水をください。(mizu o kudasai.) – Wasser bitte. Steht hinter dem Wunsch: … を ください.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "menyuu",
+      "stable_id": "card-ms9433ip2vgoj",
       "front": "メニュー",
       "back": "Speisekarte / Menü",
       "notes": "Romaji: menyuu. Kontext: メニューを見せてください。(menyuu o misete kudasai.) – Zeigen Sie mir bitte die Speisekarte. Lehnwort in Katakana.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "mizu",
+      "stable_id": "card-ms9433ip2vhiq",
       "front": "水",
       "back": "Wasser",
       "notes": "Romaji: mizu. Kontext: お水をください。(omizu o kudasai.) – Wasser bitte.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "ocha",
+      "stable_id": "card-ms9433ip2vi8a",
       "front": "お茶",
       "back": "(grüner) Tee",
       "notes": "Romaji: ocha. Kontext: お茶はいかがですか。(ocha wa ikaga desu ka.) – Wie wäre es mit Tee?",
@@ -49,6 +54,7 @@
     },
     {
       "id": "oishii",
+      "stable_id": "card-ms9433ip2vj3n",
       "front": "おいしい",
       "back": "lecker / köstlich",
       "notes": "Romaji: oishii. Kontext: このラーメンはおいしいです。(kono raamen wa oishii desu.) – Diese Ramen sind lecker.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "okaikei",
+      "stable_id": "card-ms9433ip2vkst",
       "front": "お会計",
       "back": "die Rechnung",
       "notes": "Romaji: okaikei. Kontext: お会計をお願いします。(okaikei o onegaishimasu.) – Die Rechnung bitte.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "onegaishimasu",
+      "stable_id": "card-ms9433ip2vley",
       "front": "お願いします",
       "back": "bitte (höfliche Bitte)",
       "notes": "Romaji: onegaishimasu. Kontext: コーヒーをお願いします。(koohii o onegaishimasu.) – Einen Kaffee bitte.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "raamen",
+      "stable_id": "card-ms9433ip2vmwk",
       "front": "ラーメン",
       "back": "Ramen (Nudelsuppe)",
       "notes": "Romaji: raamen. Kontext: ラーメンを一つください。(raamen o hitotsu kudasai.) – Eine Ramen bitte. Katakana mit Längsstrich ー.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "koohii",
+      "stable_id": "card-ms9433ip2vnf6",
       "front": "コーヒー",
       "back": "Kaffee",
       "notes": "Romaji: koohii. Kontext: コーヒーをお願いします。(koohii o onegaishimasu.) – Einen Kaffee bitte. Lehnwort in Katakana.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "gohan",
+      "stable_id": "card-ms9433ip2vofi",
       "front": "ご飯",
       "back": "Reis / Mahlzeit",
       "notes": "Romaji: gohan. Kontext: ご飯を食べます。(gohan o tabemasu.) – Ich esse (Reis).",
@@ -97,6 +108,7 @@
     },
     {
       "id": "hitotsu",
+      "stable_id": "card-ms9433ip2vpjp",
       "front": "一つ",
       "back": "ein Stück / eins (Zählwort)",
       "notes": "Romaji: hitotsu. Kontext: これを一つください。(kore o hitotsu kudasai.) – Davon eins bitte.",
@@ -124,6 +136,7 @@
       "title": "Wörter zuordnen",
       "exercise": {
         "id": "ex-match-restaurant",
+        "stable_id": "ex-ms9433ip2vq3s",
         "type": "matching",
         "prompt": "Ordne jedem japanischen Wort die deutsche Bedeutung zu.",
         "card_ids": ["menyuu", "mizu", "okaikei", "oishii"],
@@ -143,6 +156,7 @@
       "title": "Lücke: Wasser bestellen",
       "exercise": {
         "id": "ex-cloze-mizu",
+        "stable_id": "ex-ms9433ip2vreu",
         "type": "cloze",
         "prompt": "Ergänze das Höflichkeitswort 'bitte (geben Sie mir)'.",
         "card_ids": ["mizu", "kudasai"],
@@ -159,6 +173,7 @@
       "title": "Aufmerksamkeit erbitten",
       "exercise": {
         "id": "ex-free-sumimasen",
+        "stable_id": "ex-ms9433ip2vs5k",
         "type": "free_text",
         "prompt": "Wie ruft man höflich die Bedienung ('Entschuldigung')?",
         "card_ids": ["sumimasen"],
@@ -175,6 +190,7 @@
       "title": "Nach der Rechnung fragen",
       "exercise": {
         "id": "ex-free-okaikei",
+        "stable_id": "ex-ms9433ip2vtct",
         "type": "free_text",
         "prompt": "Wie heißt 'die Rechnung' auf Japanisch?",
         "card_ids": ["okaikei"],
@@ -191,6 +207,7 @@
       "title": "Satz bauen: Ramen bitte",
       "exercise": {
         "id": "ex-tiles-raamen",
+        "stable_id": "ex-ms9433ip2vuhm",
         "type": "word_tiles",
         "prompt": "Baue den Satz 'Ramen bitte.' in der richtigen Reihenfolge.",
         "card_ids": ["raamen", "kudasai"],
@@ -206,6 +223,7 @@
       "title": "Welches Wort bedeutet 'Tee'?",
       "exercise": {
         "id": "ex-pic-ocha",
+        "stable_id": "ex-ms9433ip2vvex",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet '(grüner) Tee'?",
         "card_ids": ["ocha"],

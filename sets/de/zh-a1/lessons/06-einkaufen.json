@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "duoshao-qian",
+      "stable_id": "card-ms9433j23bqtp",
       "front": "多少钱",
       "back": "Wie viel kostet das?",
       "notes": "Pinyin: duōshao qián. Wörtlich 'wie viel Geld'. Kontext: 这 个 多少 钱 ？ (zhè ge duōshao qián?) – Wie viel kostet das?",
@@ -17,6 +18,7 @@
     },
     {
       "id": "qian",
+      "stable_id": "card-ms9433j23br58",
       "front": "钱",
       "back": "Geld",
       "notes": "Pinyin: qián. Kontext: 我 没有 钱 (wǒ méiyǒu qián) – Ich habe kein Geld.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "gui",
+      "stable_id": "card-ms9433j23bsus",
       "front": "贵",
       "back": "teuer",
       "notes": "Pinyin: guì. Kontext: 太 贵 了 ！ (tài guì le!) – Zu teuer!",
@@ -33,6 +36,7 @@
     },
     {
       "id": "pianyi",
+      "stable_id": "card-ms9433j23btgo",
       "front": "便宜",
       "back": "billig / günstig",
       "notes": "Pinyin: piányi (zweites yi neutral). Kontext: 这 个 很 便宜 (zhè ge hěn piányi) – Das ist sehr günstig.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "zhege",
+      "stable_id": "card-ms9433j23buv4",
       "front": "这个",
       "back": "dieses (hier)",
       "notes": "Pinyin: zhège. Kontext: 我 要 这个 (wǒ yào zhège) – Ich möchte dieses.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "nage",
+      "stable_id": "card-ms9433j23bv3t",
       "front": "那个",
       "back": "jenes (dort)",
       "notes": "Pinyin: nàge. Kontext: 那个 多少 钱 ？ (nàge duōshao qián?) – Wie viel kostet jenes?",
@@ -57,6 +63,7 @@
     },
     {
       "id": "kuai",
+      "stable_id": "card-ms9433j23bw27",
       "front": "块",
       "back": "Yuan (Geldeinheit, umgangssprachlich)",
       "notes": "Pinyin: kuài. Umgangssprachlich für 元 (yuán). Kontext: 十 块 钱 (shí kuài qián) – zehn Yuan.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "tai-le",
+      "stable_id": "card-ms9433j23bxvc",
       "front": "太……了",
       "back": "zu / allzu ...",
       "notes": "Pinyin: tài … le. Verstärkt ein Adjektiv. Kontext: 太 贵 了 (tài guì le) – zu teuer.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "mai",
+      "stable_id": "card-ms9433j23bym3",
       "front": "买",
       "back": "kaufen",
       "notes": "Pinyin: mǎi (3. Ton). Kontext: 我 想 买 这个 (wǒ xiǎng mǎi zhège) – Ich möchte das kaufen.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "yao-bu-yao",
+      "stable_id": "card-ms9433j23bzxa",
       "front": "要不要",
       "back": "möchtest du (es) oder nicht?",
       "notes": "Pinyin: yào bu yào. Entscheidungsfrage. Kontext: 你 要 不要 ？ (nǐ yào bu yào?) – Möchtest du es?",
@@ -89,6 +99,7 @@
     },
     {
       "id": "xiang",
+      "stable_id": "card-ms9433j23c098",
       "front": "想",
       "back": "möchten / wollen",
       "notes": "Pinyin: xiǎng. Kontext: 我 想 买 茶 (wǒ xiǎng mǎi chá) – Ich möchte Tee kaufen.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "you-dianr-gui",
+      "stable_id": "card-ms9433j23c1fk",
       "front": "有点儿贵",
       "back": "ein bisschen teuer",
       "notes": "Pinyin: yǒudiǎnr guì. Kontext: 这个 有点儿 贵 (zhège yǒudiǎnr guì) – Das ist etwas teuer.",
@@ -124,6 +136,7 @@
       "title": "Einkaufs-Wörter zuordnen",
       "exercise": {
         "id": "ex-match-einkaufen",
+        "stable_id": "ex-ms9433j23c26p",
         "type": "matching",
         "prompt": "Ordne jedem Wort die deutsche Bedeutung zu.",
         "card_ids": ["gui", "pianyi", "zhege", "qian"],
@@ -143,6 +156,7 @@
       "title": "Nach dem Preis fragen",
       "exercise": {
         "id": "ex-free-wieviel",
+        "stable_id": "ex-ms9433j23c39f",
         "type": "free_text",
         "prompt": "Wie fragt man 'Wie viel kostet das?' (Hanzi oder Pinyin)?",
         "card_ids": ["duoshao-qian"],
@@ -159,6 +173,7 @@
       "title": "Zu teuer!",
       "exercise": {
         "id": "ex-cloze-zuteuer",
+        "stable_id": "ex-ms9433j23c4pg",
         "type": "cloze",
         "prompt": "Ergänze das Adjektiv.",
         "card_ids": ["gui", "tai-le"],
@@ -175,6 +190,7 @@
       "title": "Ich möchte das kaufen",
       "exercise": {
         "id": "ex-tiles-kaufen",
+        "stable_id": "ex-ms9433j23c5xm",
         "type": "word_tiles",
         "prompt": "Setze 'Ich möchte dieses kaufen.' zusammen.",
         "card_ids": ["xiang", "mai", "zhege"],
@@ -190,6 +206,7 @@
       "title": "Billig",
       "exercise": {
         "id": "ex-free-billig",
+        "stable_id": "ex-ms9433j23c6hg",
         "type": "free_text",
         "prompt": "Wie sagt man 'billig / günstig' (Hanzi oder Pinyin)?",
         "card_ids": ["pianyi"],
@@ -206,6 +223,7 @@
       "title": "Welches Wort bedeutet teuer?",
       "exercise": {
         "id": "ex-pic-billig",
+        "stable_id": "ex-ms9433j23c7vu",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'teuer'?",
         "card_ids": ["gui"],

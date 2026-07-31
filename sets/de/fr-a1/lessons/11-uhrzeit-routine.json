@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "phr-quelle-heure",
+      "stable_id": "card-ms9433hr1xc4h",
       "front": "Quelle heure est-il ?",
       "back": "Wie spät ist es?",
       "notes": "Die übliche Art, nach der Uhrzeit zu fragen. Wörtlich *welche Stunde ist es?* Das **h** in *heure* ist stumm.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "phr-il-est-une-heure",
+      "stable_id": "card-ms9433hr1xdqm",
       "front": "Il est une heure",
       "back": "Es ist ein Uhr",
       "notes": "Verwende **il est** + Zahl + *heure(s)*, um die Uhrzeit anzugeben. *Une heure* (Singular), aber *deux heures*, *trois heures*, ... (Plural).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "phr-et-demie",
+      "stable_id": "card-ms9433hr1xecj",
       "front": "et demie",
       "back": "halb (nach)",
       "notes": "*Il est trois heures **et demie*** — es ist halb vier (wörtlich: drei Uhr und halb). *Demie* richtet sich nach dem femininen *heure*.",
@@ -34,6 +37,7 @@
     },
     {
       "id": "phr-et-quart",
+      "stable_id": "card-ms9433hr1xfo7",
       "front": "et quart",
       "back": "Viertel nach",
       "notes": "*Il est trois heures **et quart*** — es ist Viertel nach drei.",
@@ -43,6 +47,7 @@
     },
     {
       "id": "phr-moins-le-quart",
+      "stable_id": "card-ms9433hr1xgyn",
       "front": "moins le quart",
       "back": "Viertel vor",
       "notes": "*Il est trois heures **moins le quart*** — es ist Viertel vor drei. *Moins* bedeutet *minus*.",
@@ -52,6 +57,7 @@
     },
     {
       "id": "phr-midi",
+      "stable_id": "card-ms9433hr1xh1t",
       "front": "midi",
       "back": "Mittag",
       "notes": "*Il est midi* — es ist Mittag (12:00 Uhr). Kein *heures* nötig: einfach *midi*.",
@@ -61,6 +67,7 @@
     },
     {
       "id": "phr-minuit",
+      "stable_id": "card-ms9433hr1xico",
       "front": "minuit",
       "back": "Mitternacht",
       "notes": "*Il est minuit* — es ist Mitternacht (00:00 Uhr). Wie *midi* steht es allein.",
@@ -70,6 +77,7 @@
     },
     {
       "id": "phr-le-matin",
+      "stable_id": "card-ms9433hr1xjhw",
       "front": "le matin",
       "back": "(am) Morgen",
       "notes": "*Le matin, je me lève tôt* — am Morgen stehe ich früh auf.",
@@ -79,6 +87,7 @@
     },
     {
       "id": "phr-le-soir",
+      "stable_id": "card-ms9433hr1xk8t",
       "front": "le soir",
       "back": "(am) Abend",
       "notes": "*Le soir, je me couche tard* — am Abend gehe ich spät ins Bett.",
@@ -88,6 +97,7 @@
     },
     {
       "id": "verb-se-reveiller",
+      "stable_id": "card-ms9433hr1xlt6",
       "front": "se réveiller",
       "back": "aufwachen",
       "notes": "Ein **reflexives** Verb. *Je **me** réveille* — ich wache auf. Das *se* ist das Reflexivpronomen im Infinitiv.",
@@ -98,6 +108,7 @@
     },
     {
       "id": "verb-se-lever",
+      "stable_id": "card-ms9433hr1xmqe",
       "front": "se lever",
       "back": "aufstehen",
       "notes": "Reflexiv. Beachte die Akzentverschiebung: *je me **lève*** (Accent grave), aber *nous nous **levons*** (ohne Akzent).",
@@ -108,6 +119,7 @@
     },
     {
       "id": "verb-s-habiller",
+      "stable_id": "card-ms9433hr1xnit",
       "front": "s'habiller",
       "back": "sich anziehen",
       "notes": "Reflexiv. Das **h** ist stumm, daher wird *se* zu *s'*: *je **m'**habille*.",
@@ -118,6 +130,7 @@
     },
     {
       "id": "verb-se-coucher",
+      "stable_id": "card-ms9433hr1xotm",
       "front": "se coucher",
       "back": "ins Bett gehen",
       "notes": "Reflexiv. *Elle **se** couche à dix heures* — sie geht um zehn Uhr ins Bett.",
@@ -128,6 +141,7 @@
     },
     {
       "id": "verb-prendre-petit-dejeuner",
+      "stable_id": "card-ms9433hr1xpw3",
       "front": "prendre le petit-déjeuner",
       "back": "frühstücken",
       "notes": "Wörtlich *das kleine Mittagessen nehmen*. *Je prends le petit-déjeuner le matin.*",
@@ -151,6 +165,7 @@
       "title": "Zeitausdrücke zuordnen",
       "exercise": {
         "id": "ex-match-time-expr",
+        "stable_id": "ex-ms9433hr1xqyi",
         "type": "matching",
         "prompt": "Ordne jeden französischen Zeitausdruck seiner deutschen Bedeutung zu.",
         "card_ids": [
@@ -192,6 +207,7 @@
       "title": "Die reflexiven Verben zuordnen",
       "exercise": {
         "id": "ex-match-reflexive",
+        "stable_id": "ex-ms9433hr1xrga",
         "type": "matching",
         "prompt": "Ordne jedes reflexive Verb seiner Bedeutung zu.",
         "card_ids": [
@@ -234,6 +250,7 @@
       "title": "Ich stehe um sieben auf",
       "exercise": {
         "id": "ex-free-i-get-up",
+        "stable_id": "ex-ms9433hr1xsi6",
         "type": "free_text",
         "prompt": "Übersetze: *Ich stehe um sieben Uhr auf.*",
         "card_ids": [
@@ -261,6 +278,7 @@
       "title": "Bilden: Am Morgen stehe ich um sechs auf",
       "exercise": {
         "id": "ex-tile-morning-routine",
+        "stable_id": "ex-ms9433hr1xt2d",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter so, dass es bedeutet: *Am Morgen stehe ich um sechs Uhr auf.*",
         "card_ids": [
@@ -288,6 +306,7 @@
       "title": "Welche Uhr?",
       "exercise": {
         "id": "ex-pick-clock",
+        "stable_id": "ex-ms9433hr1xunr",
         "type": "picture_choice",
         "prompt": "Welche Uhr zeigt *il est trois heures et demie* (halb vier)?",
         "card_ids": [
@@ -334,6 +353,7 @@
       "title": "Es ist Mittag",
       "exercise": {
         "id": "ex-free-it-is-noon",
+        "stable_id": "ex-ms9433hr1xvre",
         "type": "free_text",
         "prompt": "Wie sagt man *Es ist Mittag*?",
         "card_ids": [
@@ -360,6 +380,7 @@
       "title": "Bilden: Sie geht um zehn ins Bett",
       "exercise": {
         "id": "ex-tile-she-goes-to-bed",
+        "stable_id": "ex-ms9433hr1xwsn",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter so, dass es bedeutet: *Sie geht um zehn Uhr ins Bett.*",
         "card_ids": [
@@ -385,6 +406,7 @@
       "title": "Ich wache früh auf",
       "exercise": {
         "id": "ex-free-i-wake-up-early",
+        "stable_id": "ex-ms9433hr1xxpe",
         "type": "free_text",
         "prompt": "Übersetze: *Ich wache früh auf.* (*früh* = tôt)",
         "card_ids": [
@@ -411,6 +433,7 @@
       "title": "Ich frühstücke am Morgen",
       "exercise": {
         "id": "ex-free-i-have-breakfast",
+        "stable_id": "ex-ms9433hr1xyvv",
         "type": "free_text",
         "prompt": "Übersetze: *Ich frühstücke am Morgen.*",
         "card_ids": [

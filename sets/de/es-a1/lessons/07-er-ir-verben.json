@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "comer",
+      "stable_id": "card-ms9433go10bze",
       "front": "comer",
       "back": "essen",
       "notes": "Regelmäßiges Verb auf -ER.",
@@ -19,6 +20,7 @@
     },
     {
       "id": "beber",
+      "stable_id": "card-ms9433go10ck7",
       "front": "beber",
       "back": "trinken",
       "tags": [
@@ -29,6 +31,7 @@
     },
     {
       "id": "vivir",
+      "stable_id": "card-ms9433go10d5m",
       "front": "vivir",
       "back": "wohnen, leben",
       "notes": "Regelmäßiges Verb auf -IR.",
@@ -40,6 +43,7 @@
     },
     {
       "id": "escribir",
+      "stable_id": "card-ms9433go10ei4",
       "front": "escribir",
       "back": "schreiben",
       "tags": [
@@ -50,6 +54,7 @@
     },
     {
       "id": "abrir",
+      "stable_id": "card-ms9433go10fi1",
       "front": "abrir",
       "back": "öffnen",
       "tags": [
@@ -60,6 +65,7 @@
     },
     {
       "id": "como",
+      "stable_id": "card-ms9433go10gt9",
       "front": "yo como",
       "back": "ich esse",
       "tags": [
@@ -70,6 +76,7 @@
     },
     {
       "id": "comes",
+      "stable_id": "card-ms9433go10hlj",
       "front": "tú comes",
       "back": "du isst",
       "tags": [
@@ -80,6 +87,7 @@
     },
     {
       "id": "come",
+      "stable_id": "card-ms9433go10iwq",
       "front": "él/ella come",
       "back": "er/sie isst",
       "tags": [
@@ -90,6 +98,7 @@
     },
     {
       "id": "comemos",
+      "stable_id": "card-ms9433go10j82",
       "front": "nosotros comemos",
       "back": "wir essen",
       "notes": "Die -ER-Endung in der wir-Form ist -emos.",
@@ -101,6 +110,7 @@
     },
     {
       "id": "comeis",
+      "stable_id": "card-ms9433go10k02",
       "front": "vosotros coméis",
       "back": "ihr esst (vor allem in Spanien)",
       "notes": "Pflicht-Akzent auf dem é. Die ihr-Form auf -éis wird vor allem in Spanien benutzt; in Lateinamerika sagt man ustedes comen.",
@@ -113,6 +123,7 @@
     },
     {
       "id": "comen",
+      "stable_id": "card-ms9433go10l7r",
       "front": "ellos/ellas comen",
       "back": "sie essen",
       "tags": [
@@ -123,6 +134,7 @@
     },
     {
       "id": "vivo",
+      "stable_id": "card-ms9433go10m0m",
       "front": "yo vivo",
       "back": "ich wohne",
       "tags": [
@@ -133,6 +145,7 @@
     },
     {
       "id": "vives",
+      "stable_id": "card-ms9433go10n20",
       "front": "tú vives",
       "back": "du wohnst",
       "tags": [
@@ -143,6 +156,7 @@
     },
     {
       "id": "vive",
+      "stable_id": "card-ms9433go10o8v",
       "front": "él/ella vive",
       "back": "er/sie wohnt",
       "tags": [
@@ -153,6 +167,7 @@
     },
     {
       "id": "vivimos",
+      "stable_id": "card-ms9433go10pgj",
       "front": "nosotros vivimos",
       "back": "wir wohnen",
       "notes": "Die -IR-Endung in der wir-Form ist -imos (nicht -emos wie bei -ER).",
@@ -164,6 +179,7 @@
     },
     {
       "id": "vivis",
+      "stable_id": "card-ms9433go10qop",
       "front": "vosotros vivís",
       "back": "ihr wohnt (vor allem in Spanien)",
       "notes": "Pflicht-Akzent auf dem í. Die -IR-Endung in der ihr-Form ist -ís (nicht -éis wie bei -ER).",
@@ -176,6 +192,7 @@
     },
     {
       "id": "viven",
+      "stable_id": "card-ms9433go10r23",
       "front": "ellos/ellas viven",
       "back": "sie wohnen",
       "tags": [
@@ -186,6 +203,7 @@
     },
     {
       "id": "bebo",
+      "stable_id": "card-ms9433go10so8",
       "front": "yo bebo",
       "back": "ich trinke",
       "tags": [
@@ -196,6 +214,7 @@
     },
     {
       "id": "escribimos",
+      "stable_id": "card-ms9433go10t8g",
       "front": "nosotros escribimos",
       "back": "wir schreiben",
       "notes": "escribir ist ein -IR-Verb → wir-Form auf -imos.",
@@ -207,6 +226,7 @@
     },
     {
       "id": "abren",
+      "stable_id": "card-ms9433go10uil",
       "front": "ellos/ellas abren",
       "back": "sie öffnen",
       "tags": [
@@ -217,6 +237,7 @@
     },
     {
       "id": "vivo-en-madrid",
+      "stable_id": "card-ms9433go10vc6",
       "front": "Vivo en Madrid.",
       "back": "Ich wohne in Madrid.",
       "notes": "Das Subjektpronomen yo entfällt, weil die Verbform schon klar ist.",
@@ -252,6 +273,7 @@
       "title": "Infinitive zuordnen",
       "exercise": {
         "id": "ex-match-infinitive",
+        "stable_id": "ex-ms9433go10wom",
         "type": "matching",
         "prompt": "Ordne jeden Infinitiv seiner deutschen Bedeutung zu.",
         "card_ids": [
@@ -293,6 +315,7 @@
       "title": "comer-Formen zuordnen",
       "exercise": {
         "id": "ex-match-comer",
+        "stable_id": "ex-ms9433go10xz7",
         "type": "matching",
         "prompt": "Ordne jedes Pronomen seiner Form von comer (essen) zu.",
         "card_ids": [
@@ -334,6 +357,7 @@
       "title": "vivir-Formen zuordnen",
       "exercise": {
         "id": "ex-match-vivir",
+        "stable_id": "ex-ms9433go10yxr",
         "type": "matching",
         "prompt": "Ordne jedes Pronomen seiner Form von vivir (wohnen) zu. Achte auf nosotros und vosotros!",
         "card_ids": [
@@ -375,6 +399,7 @@
       "title": "Ich wohne in Madrid",
       "exercise": {
         "id": "ex-free-vivo-madrid",
+        "stable_id": "ex-ms9433go10z4h",
         "type": "free_text",
         "prompt": "Übersetze: 'Ich wohne in Madrid.'",
         "card_ids": [
@@ -402,6 +427,7 @@
       "title": "wir essen",
       "exercise": {
         "id": "ex-free-comemos",
+        "stable_id": "ex-ms9433go1108m",
         "type": "free_text",
         "prompt": "Übersetze: 'Wir essen.' (comer, nosotros)",
         "card_ids": [
@@ -428,6 +454,7 @@
       "title": "wir wohnen",
       "exercise": {
         "id": "ex-free-vivimos",
+        "stable_id": "ex-ms9433go111b5",
         "type": "free_text",
         "prompt": "Übersetze: 'Wir wohnen.' (vivir, nosotros)",
         "card_ids": [
@@ -454,6 +481,7 @@
       "title": "Lücke füllen: beber",
       "exercise": {
         "id": "ex-cloze-bebo",
+        "stable_id": "ex-ms9433go112ng",
         "type": "cloze",
         "prompt": "Ergänze die richtige Form von beber (trinken).",
         "card_ids": [
@@ -479,6 +507,7 @@
       "title": "Lücke füllen: escribir",
       "exercise": {
         "id": "ex-cloze-escribimos",
+        "stable_id": "ex-ms9433go113j2",
         "type": "cloze",
         "prompt": "Ergänze die richtige Form von escribir (schreiben).",
         "card_ids": [
@@ -504,6 +533,7 @@
       "title": "Lücke füllen: abrir",
       "exercise": {
         "id": "ex-cloze-abren",
+        "stable_id": "ex-ms9433go1147g",
         "type": "cloze",
         "prompt": "Ergänze die richtige Form von abrir (öffnen).",
         "card_ids": [
@@ -529,6 +559,7 @@
       "title": "'Ich wohne in Madrid' zusammensetzen",
       "exercise": {
         "id": "ex-tile-vivo-madrid",
+        "stable_id": "ex-ms9433go115on",
         "type": "word_tiles",
         "prompt": "Setze den Satz 'Ich wohne in Madrid.' zusammen.",
         "card_ids": [
@@ -551,6 +582,7 @@
       "title": "'Wir essen Brot und Käse' zusammensetzen",
       "exercise": {
         "id": "ex-tile-comemos-pan",
+        "stable_id": "ex-ms9433go11691",
         "type": "word_tiles",
         "prompt": "Setze den Satz 'Wir essen Brot und Käse.' zusammen.",
         "card_ids": [
@@ -573,6 +605,7 @@
       "title": "Wir schreiben",
       "exercise": {
         "id": "ex-pick-escribimos",
+        "stable_id": "ex-ms9433go117xu",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Form: 'Wir schreiben.' (escribir, nosotros)",
         "card_ids": [

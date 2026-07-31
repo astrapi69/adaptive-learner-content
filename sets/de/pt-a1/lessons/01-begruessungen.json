@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "oi",
+      "stable_id": "card-ms9433iv33xbe",
       "front": "Oi",
       "back": "Hi / Hallo",
       "notes": "Kontext: Oi, tudo bem? – Hi, alles gut? In Brasilien sehr verbreitet; in Portugal sagt man eher 'Olá'.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "ola",
+      "stable_id": "card-ms9433iv33yf8",
       "front": "Olá",
       "back": "Hallo",
       "notes": "Kontext: Olá, como vai? – Hallo, wie geht es? Etwas neutraler als 'Oi'.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "bom-dia",
+      "stable_id": "card-ms9433iv33zwl",
       "front": "Bom dia",
       "back": "Guten Morgen / Guten Tag",
       "notes": "Kontext: Bom dia, professor! – Guten Morgen, Herr Lehrer! Bis zum Mittag.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "boa-tarde",
+      "stable_id": "card-ms9433iv340hh",
       "front": "Boa tarde",
       "back": "Guten Nachmittag",
       "notes": "Kontext: Boa tarde a todos. – Guten Nachmittag allerseits. Vom Mittag bis zum Abend.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "boa-noite",
+      "stable_id": "card-ms9433iv341xc",
       "front": "Boa noite",
       "back": "Guten Abend / Gute Nacht",
       "notes": "Kontext: Boa noite, durma bem. – Gute Nacht, schlaf gut. Zur Begrüßung am Abend und zum Abschied.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "tchau",
+      "stable_id": "card-ms9433iv342pi",
       "front": "Tchau",
       "back": "Tschüss",
       "notes": "Kontext: Tchau, até logo! – Tschüss, bis bald! BR: tchau; in Portugal hört man auch 'adeus'.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "ate-logo",
+      "stable_id": "card-ms9433iv343ct",
       "front": "Até logo",
       "back": "Bis bald",
       "notes": "Kontext: Tchau, até logo! – Tschüss, bis bald!",
@@ -65,6 +72,7 @@
     },
     {
       "id": "obrigado",
+      "stable_id": "card-ms9433iv344x8",
       "front": "Obrigado",
       "back": "Danke (von einem Mann gesagt)",
       "notes": "Kontext: Obrigado pela ajuda. – Danke für die Hilfe. Ein Mann sagt 'obrigado'.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "obrigada",
+      "stable_id": "card-ms9433iv345p8",
       "front": "Obrigada",
       "back": "Danke (von einer Frau gesagt)",
       "notes": "Kontext: Obrigada pela ajuda. – Danke für die Hilfe. Eine Frau sagt 'obrigada'. Die Form richtet sich nach dem Sprecher, nicht nach dem Angesprochenen.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "de-nada",
+      "stable_id": "card-ms9433iv346se",
       "front": "De nada",
       "back": "Gern geschehen / Bitte",
       "notes": "Kontext: Obrigado! – De nada. – Danke! – Gern geschehen.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "por-favor",
+      "stable_id": "card-ms9433iv347ey",
       "front": "Por favor",
       "back": "Bitte (bei einer Bitte)",
       "notes": "Kontext: Um café, por favor. – Einen Kaffee, bitte.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "tudo-bem",
+      "stable_id": "card-ms9433iv348jq",
       "front": "Tudo bem?",
       "back": "Alles gut? / Wie geht's?",
       "notes": "Kontext: Oi! Tudo bem? – Tudo bem! – Hi! Alles gut? – Alles gut!",
@@ -105,6 +117,7 @@
     },
     {
       "id": "com-licenca",
+      "stable_id": "card-ms9433iv349bh",
       "front": "Com licença",
       "back": "Entschuldigung (um vorbeizugehen)",
       "notes": "Kontext: Com licença, posso passar? – Entschuldigung, darf ich durch?",
@@ -132,6 +145,7 @@
       "title": "Begrüßungen zuordnen",
       "exercise": {
         "id": "ex-match-begruessung",
+        "stable_id": "ex-ms9433iv34asq",
         "type": "matching",
         "prompt": "Ordne jeder portugiesischen Begrüßung die deutsche Übersetzung zu.",
         "card_ids": ["oi", "bom-dia", "boa-tarde", "boa-noite", "tchau"],
@@ -152,6 +166,7 @@
       "title": "Locker begrüßen",
       "exercise": {
         "id": "ex-free-oi",
+        "stable_id": "ex-ms9433iv34bpq",
         "type": "free_text",
         "prompt": "Wie begrüßt man in Brasilien jemanden locker mit 'Hi'?",
         "card_ids": ["oi"],
@@ -168,6 +183,7 @@
       "title": "Danke als Frau",
       "exercise": {
         "id": "ex-free-obrigada",
+        "stable_id": "ex-ms9433iv34ciw",
         "type": "free_text",
         "prompt": "Wie sagt eine Frau 'Danke' auf Portugiesisch?",
         "card_ids": ["obrigada"],
@@ -184,6 +200,7 @@
       "title": "Lücke füllen: Wie geht's?",
       "exercise": {
         "id": "ex-cloze-tudo-bem",
+        "stable_id": "ex-ms9433iv34d5q",
         "type": "cloze",
         "prompt": "Ergänze die typische Nachfrage nach dem Befinden.",
         "card_ids": ["tudo-bem"],
@@ -200,6 +217,7 @@
       "title": "Abendgruß zusammensetzen",
       "exercise": {
         "id": "ex-tile-boa-noite",
+        "stable_id": "ex-ms9433iv34erj",
         "type": "word_tiles",
         "prompt": "Setze die Kacheln zu 'Guten Abend / Gute Nacht' zusammen.",
         "card_ids": ["boa-noite"],
@@ -215,6 +233,7 @@
       "title": "Verabschiedung erkennen",
       "exercise": {
         "id": "ex-pic-tchau",
+        "stable_id": "ex-ms9433iv34fpl",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'Tschüss'?",
         "card_ids": ["tchau"],

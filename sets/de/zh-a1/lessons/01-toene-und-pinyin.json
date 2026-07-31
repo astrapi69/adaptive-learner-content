@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "ma-erster-ton",
+      "stable_id": "card-ms9433j0397yl",
       "front": "妈",
       "back": "Mama / Mutter",
       "notes": "Pinyin: mā (1. Ton, hoch und gleichbleibend). Kontext: 我 妈 (wǒ mā) – meine Mama.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "ma-zweiter-ton",
+      "stable_id": "card-ms9433j0398hf",
       "front": "麻",
       "back": "Hanf / taub (kribbelnd)",
       "notes": "Pinyin: má (2. Ton, steigend wie bei einer Frage). Kontext: 麻 了 (má le) – es ist taub geworden.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "ma-dritter-ton",
+      "stable_id": "card-ms9433j0399vp",
       "front": "马",
       "back": "Pferd",
       "notes": "Pinyin: mǎ (3. Ton, fallend-steigend). Kontext: 一 匹 马 (yì pǐ mǎ) – ein Pferd.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "ma-vierter-ton",
+      "stable_id": "card-ms9433j039ayp",
       "front": "骂",
       "back": "schimpfen / beschimpfen",
       "notes": "Pinyin: mà (4. Ton, scharf fallend). Kontext: 别 骂 我 (bié mà wǒ) – schimpf nicht mit mir.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "ma-frage",
+      "stable_id": "card-ms9433j039b5z",
       "front": "吗",
       "back": "Fragepartikel (neutraler Ton)",
       "notes": "Pinyin: ma (neutraler Ton, kurz und leicht). Kontext: 你 好 吗 (nǐ hǎo ma) – Wie geht es dir?",
@@ -49,6 +54,7 @@
     },
     {
       "id": "ni",
+      "stable_id": "card-ms9433j039cji",
       "front": "你",
       "back": "du",
       "notes": "Pinyin: nǐ (3. Ton). Kontext: 你 好 (nǐ hǎo) – Hallo.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "hao",
+      "stable_id": "card-ms9433j039diz",
       "front": "好",
       "back": "gut",
       "notes": "Pinyin: hǎo (3. Ton). Kontext: 很 好 (hěn hǎo) – sehr gut.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "yi",
+      "stable_id": "card-ms9433j039eru",
       "front": "一",
       "back": "eins",
       "notes": "Pinyin: yī (1. Ton). Kontext: 一 个 (yí gè) – ein Stück (der Ton ändert sich vor 4. Ton).",
@@ -73,6 +81,7 @@
     },
     {
       "id": "wo",
+      "stable_id": "card-ms9433j039f3b",
       "front": "我",
       "back": "ich",
       "notes": "Pinyin: wǒ (3. Ton). Kontext: 我 好 (wǒ hǎo) – mir geht es gut.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "shi",
+      "stable_id": "card-ms9433j039gfn",
       "front": "是",
       "back": "sein (bin/bist/ist)",
       "notes": "Pinyin: shì (4. Ton). Kontext: 我 是 (wǒ shì) – ich bin.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "bu",
+      "stable_id": "card-ms9433j039h0j",
       "front": "不",
       "back": "nicht / nein",
       "notes": "Pinyin: bù (4. Ton). Kontext: 不 好 (bù hǎo) – nicht gut.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "li",
+      "stable_id": "card-ms9433j039ihe",
       "front": "里",
       "back": "in / innen (Beispielsilbe)",
       "notes": "Pinyin: lǐ (3. Ton). Beispiel für die Anlaute b, p, m, l. Kontext: 这 里 (zhè lǐ) – hier.",
@@ -124,6 +136,7 @@
       "title": "Töne zuordnen",
       "exercise": {
         "id": "ex-match-toene",
+        "stable_id": "ex-ms9433j039jtf",
         "type": "matching",
         "prompt": "Ordne jeder ma-Silbe die richtige Bedeutung zu.",
         "card_ids": ["ma-erster-ton", "ma-zweiter-ton", "ma-dritter-ton", "ma-vierter-ton"],
@@ -143,6 +156,7 @@
       "title": "Mama schreiben",
       "exercise": {
         "id": "ex-free-mama",
+        "stable_id": "ex-ms9433j039ktl",
         "type": "free_text",
         "prompt": "Wie schreibt man 'Mama' (Pinyin mit 1. Ton oder Hanzi)?",
         "card_ids": ["ma-erster-ton"],
@@ -159,6 +173,7 @@
       "title": "Fragepartikel ergänzen",
       "exercise": {
         "id": "ex-cloze-frage",
+        "stable_id": "ex-ms9433j039lon",
         "type": "cloze",
         "prompt": "Ergänze die Fragepartikel im neutralen Ton.",
         "card_ids": ["ma-frage", "ni", "hao"],
@@ -175,6 +190,7 @@
       "title": "Eine Silbe bauen",
       "exercise": {
         "id": "ex-tiles-nihao",
+        "stable_id": "ex-ms9433j039mq3",
         "type": "word_tiles",
         "prompt": "Setze die Pinyin-Silbe für 你 (du) zusammen.",
         "card_ids": ["ni"],
@@ -190,6 +206,7 @@
       "title": "Welcher Ton ist 'Pferd'?",
       "exercise": {
         "id": "ex-pic-pferd",
+        "stable_id": "ex-ms9433j039nyn",
         "type": "picture_choice",
         "prompt": "Welches Zeichen wird mǎ (3. Ton) ausgesprochen und bedeutet 'Pferd'?",
         "card_ids": ["ma-dritter-ton"],
@@ -211,6 +228,7 @@
       "title": "Nicht / nein",
       "exercise": {
         "id": "ex-free-bu",
+        "stable_id": "ex-ms9433j039o7n",
         "type": "free_text",
         "prompt": "Wie sagt man 'nicht' bzw. 'nein' (Pinyin oder Hanzi)?",
         "card_ids": ["bu"],

@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "k-ra",
+      "stable_id": "card-ms9433im2scuh",
       "front": "ら",
       "back": "ra",
       "notes": "Hepburn: ra.",
@@ -19,6 +20,7 @@
     },
     {
       "id": "k-ri",
+      "stable_id": "card-ms9433im2sdo2",
       "front": "り",
       "back": "ri",
       "notes": "Hepburn: ri.",
@@ -29,6 +31,7 @@
     },
     {
       "id": "k-ru",
+      "stable_id": "card-ms9433im2se47",
       "front": "る",
       "back": "ru",
       "notes": "Hepburn: ru.",
@@ -39,6 +42,7 @@
     },
     {
       "id": "k-re",
+      "stable_id": "card-ms9433im2sfj0",
       "front": "れ",
       "back": "re",
       "notes": "Hepburn: re.",
@@ -49,6 +53,7 @@
     },
     {
       "id": "k-ro",
+      "stable_id": "card-ms9433im2sgf9",
       "front": "ろ",
       "back": "ro",
       "notes": "Hepburn: ro.",
@@ -59,6 +64,7 @@
     },
     {
       "id": "k-wa",
+      "stable_id": "card-ms9433im2shex",
       "front": "わ",
       "back": "wa",
       "notes": "Hepburn: wa.",
@@ -69,6 +75,7 @@
     },
     {
       "id": "k-wo",
+      "stable_id": "card-ms9433im2sig4",
       "front": "を",
       "back": "wo",
       "notes": "Hepburn: wo.",
@@ -79,6 +86,7 @@
     },
     {
       "id": "k-ne",
+      "stable_id": "card-ms9433im2sjb0",
       "front": "ね",
       "back": "ne",
       "notes": "Hepburn: ne.",
@@ -127,7 +135,7 @@
           "chi"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ra"
+        "id": "ex-r-ra", "stable_id": "ex-ms9433im2skc0"
       }
     },
     {
@@ -156,7 +164,7 @@
           "nu"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ru"
+        "id": "ex-r-ru", "stable_id": "ex-ms9433im2sles"
       }
     },
     {
@@ -185,7 +193,7 @@
           "wo"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-wa"
+        "id": "ex-r-wa", "stable_id": "ex-ms9433im2sm2j"
       }
     },
     {
@@ -214,7 +222,7 @@
           "ら"
         ],
         "hint": "Aus der R-Reihe: r + o.",
-        "id": "ex-c-ro"
+        "id": "ex-c-ro", "stable_id": "ex-ms9433im2snn8"
       }
     },
     {
@@ -243,7 +251,7 @@
           "あ"
         ],
         "hint": "Aus der R-Reihe: r + i.",
-        "id": "ex-c-ri"
+        "id": "ex-c-ri", "stable_id": "ex-ms9433im2sowu"
       }
     },
     {
@@ -276,7 +284,7 @@
           "ぬ"
         ],
         "hint": "r + a/i/u/e/o.",
-        "id": "ex-ms-r"
+        "id": "ex-ms-r", "stable_id": "ex-ms9433im2spco"
       }
     },
     {
@@ -317,7 +325,7 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-r"
+        "id": "ex-match-r", "stable_id": "ex-ms9433im2sq6t"
       }
     },
     {
@@ -346,7 +354,7 @@
           "ぬ"
         ],
         "hint": "Aus der N-Reihe: n + e.",
-        "id": "ex-rep-ne"
+        "id": "ex-rep-ne", "stable_id": "ex-ms9433im2srdp"
       }
     },
     {
@@ -370,7 +378,7 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-ro"
+        "id": "ex-tip-ro", "stable_id": "ex-ms9433im2ss7n"
       }
     }
   ]

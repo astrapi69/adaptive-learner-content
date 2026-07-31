@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "work-empleo",
+      "stable_id": "card-ms9433k84eisj",
       "front": "el empleo / el trabajo",
       "back": "the job / employment / work",
       "notes": "*El empleo* (employment, a job) and *el trabajo* (work, a job) overlap. *Buscar empleo* / *buscar trabajo* = to look for a job. *Estar en paro* / *estar desempleado* = to be unemployed.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "work-empresa",
+      "stable_id": "card-ms9433k84ejwh",
       "front": "la empresa / la compañía",
       "back": "the company / firm / business",
       "notes": "*La empresa* is the everyday word for a company or firm. *El departamento* = the department; *la oficina* = the office. Note *empresa* is feminine: *una empresa grande*.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "work-sueldo",
+      "stable_id": "card-ms9433k84ekod",
       "front": "el sueldo / el salario",
       "back": "the salary / pay / wage",
       "notes": "*El sueldo* and *el salario* both mean pay. *Cobrar* = to get paid / to earn (*cobro 2000 euros al mes*). *Un aumento de sueldo* = a pay rise.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "work-horario-jornada",
+      "stable_id": "card-ms9433k84elng",
       "front": "el horario / la jornada / el contrato",
       "back": "the schedule / the working day / the contract",
       "notes": "*El horario* = the (working) hours or schedule. *La jornada* = the working day: *jornada completa* (full-time), *media jornada* (part-time). *El contrato* = the contract (*un contrato fijo* = a permanent contract).",
@@ -45,6 +49,7 @@
     },
     {
       "id": "work-jefe-companero",
+      "stable_id": "card-ms9433k84emr8",
       "front": "el/la jefe/a · el/la compañero/a de trabajo",
       "back": "the boss · the co-worker / colleague",
       "notes": "*El jefe / la jefa* = the boss. *El compañero / la compañera de trabajo* = a colleague. False-friend alert: a *colega* is more of a buddy in Spain; for a work colleague say *compañero/a*.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "work-job-search",
+      "stable_id": "card-ms9433k84enc5",
       "front": "el currículum · la entrevista de trabajo · la oferta de empleo",
       "back": "the CV/résumé · the job interview · the job offer/posting",
       "notes": "*El currículum* (CV) — full form *currículum vítae*. *La entrevista de trabajo* = job interview. *La oferta de empleo* = a job posting/vacancy. *Solicitar un puesto* = to apply for a position.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "work-contratar-despedir",
+      "stable_id": "card-ms9433k84eoon",
       "front": "contratar ↔ despedir",
       "back": "to hire ↔ to fire / lay off",
       "notes": "*Contratar a alguien* = to hire someone. *Despedir a alguien* = to fire/lay someone off (*despedir* is an -IR stem-changer: *despido, despides*...). *Solicitar* = to apply for / request.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "work-duties",
+      "stable_id": "card-ms9433k84ep65",
       "front": "encargarse de · ser responsable de · tener experiencia en",
       "back": "to be in charge of · to be responsible for · to have experience in",
       "notes": "Describe your role: *Me encargo de las ventas* (I'm in charge of sales). *Soy responsable del equipo* (I'm responsible for the team). *Tengo experiencia en marketing* (I have experience in marketing).",
@@ -81,6 +89,7 @@
     },
     {
       "id": "work-requests",
+      "stable_id": "card-ms9433k84eq7u",
       "front": "pedir un día libre · pedir un ascenso · convocar una reunión",
       "back": "to ask for a day off · to ask for a promotion · to call a meeting",
       "notes": "*Pedir un día libre* = ask for a day off. *Pedir un ascenso* = ask for a promotion. *Una reunión* = a meeting — and you **asistir a** a meeting (see the asistir card).",
@@ -90,6 +99,7 @@
     },
     {
       "id": "work-asistir",
+      "stable_id": "card-ms9433k84ergh",
       "front": "asistir a una reunión",
       "back": "to attend a meeting (asistir = to ATTEND, not to assist)",
       "notes": "False-friend trap: *asistir a* means **to attend / be present at**, NOT to assist. *Asisto a la reunión* = I attend the meeting. To *assist/help* someone is *ayudar a alguien*. *Atender* (yet another) = to serve/see to a customer.",
@@ -99,6 +109,7 @@
     },
     {
       "id": "work-exito",
+      "stable_id": "card-ms9433k84es2q",
       "front": "el éxito",
       "back": "success (NOT exit — that is 'la salida')",
       "notes": "False friend: *el éxito* = **success**, never 'exit'. *Tener éxito* = to be successful; *una empresa de éxito* = a successful company. The way out / EXIT sign is **la salida**.",
@@ -108,6 +119,7 @@
     },
     {
       "id": "work-carrera",
+      "stable_id": "card-ms9433k84etgw",
       "front": "la carrera",
       "back": "university degree / career / race",
       "notes": "False friend: *la carrera* most often means a **university degree/major** (*estudié la carrera de Derecho* = I did a law degree), and also a **career** (*una carrera profesional*) or a **race** (*una carrera de coches*). Don't assume it only means 'career'.",
@@ -142,6 +154,7 @@
       "title": "The workplace, matched",
       "exercise": {
         "id": "ex-match-workplace",
+        "stable_id": "ex-ms9433k84euba",
         "type": "matching",
         "prompt": "Match each Spanish word with its English meaning.",
         "card_ids": ["work-empleo", "work-empresa", "work-sueldo", "work-jefe-companero"],
@@ -162,6 +175,7 @@
       "title": "A job you haven't found yet",
       "exercise": {
         "id": "ex-free-looking-job",
+        "stable_id": "ex-ms9433k84ev5p",
         "type": "free_text",
         "prompt": "Translate: *I'm looking for a job that is interesting.* (not-yet-found job → subjunctive: ser → sea)",
         "card_ids": ["work-empleo", "work-duties"],
@@ -178,6 +192,7 @@
       "title": "Saying what you'd like",
       "exercise": {
         "id": "ex-free-would-like",
+        "stable_id": "ex-ms9433k84ewuv",
         "type": "free_text",
         "prompt": "Translate: *I would like to work in a big company.* (conditional: gustar)",
         "card_ids": ["work-empresa"],
@@ -194,6 +209,7 @@
       "title": "Success, not exit",
       "exercise": {
         "id": "ex-pic-exito",
+        "stable_id": "ex-ms9433k84ex9z",
         "type": "picture_choice",
         "prompt": "Which sentence correctly says 'The company had a lot of success'? (mind éxito vs salida)",
         "card_ids": ["work-exito", "work-empresa"],
@@ -215,6 +231,7 @@
       "title": "What you're in charge of",
       "exercise": {
         "id": "ex-cloze-encargo",
+        "stable_id": "ex-ms9433k84eyr4",
         "type": "cloze",
         "prompt": "Fill in the verb: *encargarse de* (yo) — 'I'm in charge of the sales department.'",
         "card_ids": ["work-duties"],
@@ -231,6 +248,7 @@
       "title": "Build: ask for a day off",
       "exercise": {
         "id": "ex-tiles-day-off",
+        "stable_id": "ex-ms9433k84ezqp",
         "type": "word_tiles",
         "prompt": "Arrange the words: *I want to ask the boss for a day off.*",
         "card_ids": ["work-requests", "work-jefe-companero"],
@@ -246,6 +264,7 @@
       "title": "Attend, don't assist",
       "exercise": {
         "id": "ex-cloze-asistir",
+        "stable_id": "ex-ms9433k84f04y",
         "type": "cloze",
         "prompt": "Fill in the preposition that goes with *asistir* (to attend): 'Tomorrow I attend an important meeting.'",
         "card_ids": ["work-asistir", "work-requests"],
@@ -262,6 +281,7 @@
       "title": "Carrera: a degree, not just a career",
       "exercise": {
         "id": "ex-free-carrera",
+        "stable_id": "ex-ms9433k84f16h",
         "type": "free_text",
         "prompt": "Translate: *I studied a law degree.* (use carrera for the university degree)",
         "card_ids": ["work-carrera"],
@@ -278,6 +298,7 @@
       "title": "The job hunt, matched",
       "exercise": {
         "id": "ex-match-job-search",
+        "stable_id": "ex-ms9433k84f270",
         "type": "matching",
         "prompt": "Match each Spanish term with its English meaning.",
         "card_ids": ["work-job-search", "work-contratar-despedir"],
@@ -298,6 +319,7 @@
       "title": "A company that pays well",
       "exercise": {
         "id": "ex-cloze-pague",
+        "stable_id": "ex-ms9433k84f3vj",
         "type": "cloze",
         "prompt": "Fill in the subjunctive of *pagar* (it/the company): 'I want a company that pays well.' (desired → subjunctive)",
         "card_ids": ["work-sueldo", "work-empresa"],
@@ -314,6 +336,7 @@
       "title": "Applying for a position",
       "exercise": {
         "id": "ex-free-apply",
+        "stable_id": "ex-ms9433k84f421",
         "type": "free_text",
         "prompt": "Translate: *I want to apply for this position.* (use solicitar)",
         "card_ids": ["work-job-search", "work-contratar-despedir"],
@@ -330,6 +353,7 @@
       "title": "Talking about your experience",
       "exercise": {
         "id": "ex-free-experience",
+        "stable_id": "ex-ms9433k84f5bh",
         "type": "free_text",
         "prompt": "Translate: *I have experience in marketing and I'm responsible for the team.*",
         "card_ids": ["work-duties"],

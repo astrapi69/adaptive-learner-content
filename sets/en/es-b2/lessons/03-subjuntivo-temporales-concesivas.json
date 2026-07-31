@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "es-b2-temp-cuando",
+      "stable_id": "card-ms9433kc4j63a",
       "front": "Cuando llegues, llámame.",
       "back": "When you arrive, call me. (future → subjunctive)",
       "notes": "A time clause about the **future/unknown** takes the subjunctive: *cuando **llegues***. Habitual or past → indicative: *Cuando **llego**, siempre…*",
@@ -18,6 +19,7 @@
     },
     {
       "id": "es-b2-temp-encuanto",
+      "stable_id": "card-ms9433kc4j7fe",
       "front": "en cuanto",
       "back": "as soon as",
       "notes": "*En cuanto **termine**, te aviso.* — As soon as I finish, I'll let you know (future → subjunctive).",
@@ -27,6 +29,7 @@
     },
     {
       "id": "es-b2-temp-hastaque",
+      "stable_id": "card-ms9433kc4j87r",
       "front": "hasta que",
       "back": "until",
       "notes": "*Espera hasta que **vuelva**.* — Wait until I come back (future → subjunctive).",
@@ -36,6 +39,7 @@
     },
     {
       "id": "es-b2-conc-aunque",
+      "stable_id": "card-ms9433kc4j98v",
       "front": "aunque venga / aunque viene",
       "back": "even if he comes (subj.) vs. although he is coming (ind.)",
       "notes": "**aunque + subjunctive** = even if (hypothetical); **aunque + indicative** = although (a known fact).",
@@ -45,6 +49,7 @@
     },
     {
       "id": "es-b2-antesdeque",
+      "stable_id": "card-ms9433kc4jawk",
       "front": "antes de que",
       "back": "before (always + subjunctive)",
       "notes": "*Antes de que **salgas**, cierra la puerta.* — *antes de que* **always** takes the subjunctive.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "es-b2-amenosque",
+      "stable_id": "card-ms9433kc4jb8t",
       "front": "a menos que",
       "back": "unless (always + subjunctive)",
       "notes": "*No iré a menos que me **invites**.* — I won't go unless you invite me.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "es-b2-paraque",
+      "stable_id": "card-ms9433kc4jcax",
       "front": "para que",
       "back": "so that (always + subjunctive)",
       "notes": "Purpose with a change of subject → subjunctive: *Te lo explico **para que** lo **entiendas**.*",
@@ -91,6 +98,7 @@
       "title": "Match the conjunctions",
       "exercise": {
         "id": "ex-match-conj",
+        "stable_id": "ex-ms9433kc4jdng",
         "type": "matching",
         "prompt": "Match each Spanish conjunction with its English meaning.",
         "card_ids": ["es-b2-temp-encuanto", "es-b2-temp-hastaque", "es-b2-antesdeque", "es-b2-amenosque"],
@@ -110,6 +118,7 @@
       "title": "Cuando + future",
       "exercise": {
         "id": "ex-cloze-cuando",
+        "stable_id": "ex-ms9433kc4jef9",
         "type": "cloze",
         "prompt": "Fill in the subjunctive of llegar (tú): \"When you arrive, call me.\"",
         "card_ids": ["es-b2-temp-cuando"],
@@ -126,6 +135,7 @@
       "title": "Always subjunctive",
       "exercise": {
         "id": "ex-cloze-antesdeque",
+        "stable_id": "ex-ms9433kc4jfch",
         "type": "cloze",
         "prompt": "Fill in the subjunctive of salir (tú): \"Before you leave, close the door.\"",
         "card_ids": ["es-b2-antesdeque"],
@@ -142,6 +152,7 @@
       "title": "even if (hypothetical)",
       "exercise": {
         "id": "ex-free-aunque",
+        "stable_id": "ex-ms9433kc4jgte",
         "type": "free_text",
         "prompt": "Translate: *Even if it rains, I will go out.* (aunque + subjunctive of llover; salir → future)",
         "card_ids": ["es-b2-conc-aunque"],
@@ -158,6 +169,7 @@
       "title": "Purpose clause",
       "exercise": {
         "id": "ex-tiles-paraque",
+        "stable_id": "ex-ms9433kc4jhm2",
         "type": "word_tiles",
         "prompt": "Arrange: *I'll explain it to you so that you understand it.*",
         "card_ids": ["es-b2-paraque"],

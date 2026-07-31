@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "de-a2-den",
+      "stable_id": "card-ms9433jb3lais",
       "front": "den",
       "back": "the (masculine, accusative)",
       "notes": "*der* → **den** when the masculine noun is the direct object.",
@@ -13,6 +14,7 @@
     },
     {
       "id": "de-a2-einen",
+      "stable_id": "card-ms9433jb3lboi",
       "front": "einen",
       "back": "a / an (masculine, accusative)",
       "notes": "*ein* → **einen** in the accusative (masculine only).",
@@ -20,6 +22,7 @@
     },
     {
       "id": "de-a2-dem",
+      "stable_id": "card-ms9433jb3lceh",
       "front": "dem",
       "back": "the (masculine/neuter, dative)",
       "notes": "Dative marks the indirect object (the receiver).",
@@ -27,6 +30,7 @@
     },
     {
       "id": "de-a2-der-dat",
+      "stable_id": "card-ms9433jb3ldk0",
       "front": "der",
       "back": "the (feminine, dative)",
       "notes": "In the dative the feminine article is **der** (not die).",
@@ -34,6 +38,7 @@
     },
     {
       "id": "de-a2-fuer",
+      "stable_id": "card-ms9433jb3le15",
       "front": "für",
       "back": "for",
       "notes": "Always takes the **accusative**: *für den Mann*.",
@@ -41,6 +46,7 @@
     },
     {
       "id": "de-a2-mit",
+      "stable_id": "card-ms9433jb3lf25",
       "front": "mit",
       "back": "with",
       "notes": "Always takes the **dative**: *mit dem Bus*.",
@@ -48,6 +54,7 @@
     },
     {
       "id": "de-a2-ich-sehe-den-mann",
+      "stable_id": "card-ms9433jb3lgz8",
       "front": "Ich sehe den Mann.",
       "back": "I see the man.",
       "notes": "*den Mann* is the direct object → accusative.",
@@ -55,6 +62,7 @@
     },
     {
       "id": "de-a2-ich-gebe-dem-kind",
+      "stable_id": "card-ms9433jb3lh0y",
       "front": "Ich gebe dem Kind den Ball.",
       "back": "I give the child the ball.",
       "notes": "*dem Kind* (receiver) = dative; *den Ball* (thing given) = accusative.",
@@ -62,6 +70,7 @@
     },
     {
       "id": "de-a2-mit-dem-bus",
+      "stable_id": "card-ms9433jb3lish",
       "front": "mit dem Bus",
       "back": "by bus",
       "notes": "*mit* + dative. Literally \"with the bus\".",
@@ -82,6 +91,7 @@
       "title": "Match articles to their case",
       "exercise": {
         "id": "l2-ex-match-cases",
+        "stable_id": "ex-ms9433jb3lj3v",
         "type": "matching",
         "prompt": "Match each article form with its description.",
         "card_ids": ["de-a2-den", "de-a2-dem", "de-a2-der-dat"],
@@ -100,6 +110,7 @@
       "title": "Accusative article",
       "exercise": {
         "id": "l2-ex-cloze-accusative",
+        "stable_id": "ex-ms9433jb3lkjj",
         "type": "cloze",
         "prompt": "Complete: \"I see the man.\" (der Mann → direct object)",
         "card_ids": ["de-a2-den", "de-a2-ich-sehe-den-mann"],
@@ -116,6 +127,7 @@
       "title": "Dative after \"mit\"",
       "exercise": {
         "id": "l2-ex-cloze-dative-prep",
+        "stable_id": "ex-ms9433jb3ll2w",
         "type": "cloze",
         "prompt": "Complete: \"by bus\" (der Bus, after mit)",
         "card_ids": ["de-a2-mit", "de-a2-dem", "de-a2-mit-dem-bus"],
@@ -132,6 +144,7 @@
       "title": "Build a sentence with two objects",
       "exercise": {
         "id": "l2-ex-tiles-dative",
+        "stable_id": "ex-ms9433jb3lm67",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to say: \"I give the child the ball.\"",
         "card_ids": ["de-a2-ich-gebe-dem-kind"],
@@ -147,6 +160,7 @@
       "title": "Say \"for\"",
       "exercise": {
         "id": "l2-ex-free-for",
+        "stable_id": "ex-ms9433jb3ln2l",
         "type": "free_text",
         "prompt": "Which German preposition means \"for\" and takes the accusative?",
         "card_ids": ["de-a2-fuer"],

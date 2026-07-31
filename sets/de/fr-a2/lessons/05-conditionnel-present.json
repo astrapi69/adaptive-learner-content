@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "cond-voudrais",
+      "stable_id": "card-ms9433hw22xs0",
       "front": "je voudrais",
       "back": "ich hätte gern / ich möchte",
       "notes": "Conditionnel von **vouloir**. Unregelmäßiger Stamm: **voudr-** + Endung *-ais*. Höflicher als *je veux* (ich will). *Je voudrais un café, s'il vous plaît.*",
@@ -15,6 +16,7 @@
     },
     {
       "id": "cond-serais",
+      "stable_id": "card-ms9433hw22yl6",
       "front": "je serais",
       "back": "ich wäre",
       "notes": "Conditionnel von **être**. Unregelmäßiger Stamm: **ser-** + Endung *-ais*. *Je serais content(e) de t'aider* — ich wäre froh, dir zu helfen.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "cond-aurais",
+      "stable_id": "card-ms9433hw22z87",
       "front": "j'aurais",
       "back": "ich hätte",
       "notes": "Conditionnel von **avoir**. Unregelmäßiger Stamm: **aur-** + Endung *-ais*. *J'aurais le temps demain* — ich hätte morgen Zeit.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "cond-irais",
+      "stable_id": "card-ms9433hw2301a",
       "front": "j'irais",
       "back": "ich würde gehen",
       "notes": "Conditionnel von **aller**. Unregelmäßiger Stamm: **ir-** + Endung *-ais*. *J'irais en France cet été* — ich würde diesen Sommer nach Frankreich fahren.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "cond-ferais",
+      "stable_id": "card-ms9433hw231ya",
       "front": "je ferais",
       "back": "ich würde machen / ich täte",
       "notes": "Conditionnel von **faire**. Unregelmäßiger Stamm: **fer-** + Endung *-ais*. *Je ferais la cuisine* — ich würde kochen.",
@@ -51,6 +56,7 @@
     },
     {
       "id": "cond-pourrais",
+      "stable_id": "card-ms9433hw232iv",
       "front": "je pourrais",
       "back": "ich könnte",
       "notes": "Conditionnel von **pouvoir**. Unregelmäßiger Stamm: **pourr-** + Endung *-ais*. *Je pourrais t'aider* — ich könnte dir helfen.",
@@ -60,6 +66,7 @@
     },
     {
       "id": "cond-devrais",
+      "stable_id": "card-ms9433hw233ij",
       "front": "tu devrais",
       "back": "du solltest / du müsstest",
       "notes": "Conditionnel von **devoir**. Unregelmäßiger Stamm: **devr-** + Endung *-ais*. Typischer Ratschlag: *Tu devrais te reposer* — du solltest dich ausruhen.",
@@ -69,6 +76,7 @@
     },
     {
       "id": "cond-parlerais",
+      "stable_id": "card-ms9433hw234v1",
       "front": "je parlerais",
       "back": "ich würde sprechen",
       "notes": "Conditionnel eines regelmäßigen **-er**-Verbs. Stamm = Infinitiv **parler-** + Endung *-ais*. *Je parlerais français si je vivais à Paris* — ich würde Französisch sprechen, wenn ich in Paris lebte.",
@@ -78,6 +86,7 @@
     },
     {
       "id": "phrase-pourriez-vous",
+      "stable_id": "card-ms9433hw235z3",
       "front": "Pourriez-vous m'aider ?",
       "back": "Könnten Sie mir helfen?",
       "notes": "Höfliche Bitte mit **pourriez-vous** (conditionnel von *pouvoir*, 2. Person Plural). Deutlich höflicher als *Pouvez-vous …?* (présent). Typisch im formellen Kontext.",
@@ -88,6 +97,7 @@
     },
     {
       "id": "phrase-aimerais",
+      "stable_id": "card-ms9433hw236en",
       "front": "j'aimerais",
       "back": "ich würde gern / ich möchte gern",
       "notes": "Conditionnel von **aimer** (regelmäßig). Stamm: **aimer-** + Endung *-ais*. Etwas förmlicher als *je veux*. *J'aimerais visiter le Louvre* — ich würde gerne den Louvre besuchen.",
@@ -97,6 +107,7 @@
     },
     {
       "id": "phrase-on-pourrait",
+      "stable_id": "card-ms9433hw237ni",
       "front": "on pourrait",
       "back": "man könnte / wir könnten",
       "notes": "Conditionnel von **pouvoir** mit dem Pronomen **on** (= man / wir im Umgangsfranzösischen). *On pourrait aller au cinéma* — wir könnten ins Kino gehen. Sehr gebräuchlicher Vorschlag.",
@@ -106,6 +117,7 @@
     },
     {
       "id": "phrase-auriez-vous",
+      "stable_id": "card-ms9433hw238ut",
       "front": "Est-ce que vous auriez …?",
       "back": "Hätten Sie …? / Würden Sie … haben?",
       "notes": "Höfliche Frage mit conditionnel von **avoir** (2. Person Plural: **auriez**). *Est-ce que vous auriez une chambre libre ?* — Hätten Sie ein freies Zimmer? Sehr formell und höflich.",
@@ -140,6 +152,7 @@
       "title": "Stamm zum Verb",
       "exercise": {
         "id": "ex-match-stamm",
+        "stable_id": "ex-ms9433hw23934",
         "type": "matching",
         "prompt": "Ordne jedem Infinitiv seinen unregelmäßigen conditionnel/futur-Stamm zu.",
         "card_ids": ["cond-serais", "cond-aurais", "cond-ferais", "cond-pourrais", "cond-irais"],
@@ -160,6 +173,7 @@
       "title": "Conditionnel-Formen verstehen",
       "exercise": {
         "id": "ex-match-bedeutung",
+        "stable_id": "ex-ms9433hw23al9",
         "type": "matching",
         "prompt": "Ordne jede conditionnel-Form ihrer deutschen Bedeutung zu.",
         "card_ids": ["cond-voudrais", "cond-devrais", "cond-pourrais", "phrase-aimerais", "phrase-on-pourrait"],
@@ -180,6 +194,7 @@
       "title": "Höflich bestellen",
       "exercise": {
         "id": "ex-cloze-voudrais",
+        "stable_id": "ex-ms9433hw23bh8",
         "type": "cloze",
         "prompt": "Ergänze die höfliche Form von *vouloir* (je, conditionnel).",
         "card_ids": ["cond-voudrais"],
@@ -199,6 +214,7 @@
       "title": "Ratschlag geben",
       "exercise": {
         "id": "ex-cloze-devrais",
+        "stable_id": "ex-ms9433hw23cx6",
         "type": "cloze",
         "prompt": "Ergänze den Ratschlag: *du solltest* früher schlafen gehen.",
         "card_ids": ["cond-devrais"],
@@ -218,6 +234,7 @@
       "title": "Übersetze: Ich wäre froh",
       "exercise": {
         "id": "ex-free-ich-waere",
+        "stable_id": "ex-ms9433hw23d1y",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich wäre froh, dir zu helfen.*",
         "card_ids": ["cond-serais"],
@@ -245,6 +262,7 @@
       "title": "Verstehen: Pourriez-vous …?",
       "exercise": {
         "id": "ex-free-koennten-sie",
+        "stable_id": "ex-ms9433hw23eti",
         "type": "free_text",
         "prompt": "Was bedeutet auf Deutsch: *Pourriez-vous répéter, s'il vous plaît ?*",
         "card_ids": ["phrase-pourriez-vous"],
@@ -270,6 +288,7 @@
       "title": "Bilde: Wir könnten ins Kino gehen",
       "exercise": {
         "id": "ex-tiles-on-pourrait",
+        "stable_id": "ex-ms9433hw23fi2",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Wir könnten ins Kino gehen.*",
         "card_ids": ["phrase-on-pourrait"],
@@ -285,6 +304,7 @@
       "title": "Bilde: Ich würde die Küche machen",
       "exercise": {
         "id": "ex-tiles-je-ferais",
+        "stable_id": "ex-ms9433hw23gk6",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Ich würde kochen.* (faire la cuisine)",
         "card_ids": ["cond-ferais"],
@@ -300,6 +320,7 @@
       "title": "Die höflichste Form wählen",
       "exercise": {
         "id": "ex-picture-hoeflichkeit",
+        "stable_id": "ex-ms9433hw23h2s",
         "type": "picture_choice",
         "prompt": "Welcher Satz ist im Restaurant am höflichsten — *Ich möchte ein Glas Wasser.*?",
         "card_ids": ["cond-voudrais"],
@@ -325,6 +346,7 @@
       "title": "Hypothetische Aussage bilden",
       "exercise": {
         "id": "ex-free-j-irais",
+        "stable_id": "ex-ms9433hw23irf",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich würde diesen Sommer nach Frankreich fahren.*",
         "card_ids": ["cond-irais"],

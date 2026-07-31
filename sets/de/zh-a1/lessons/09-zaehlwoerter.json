@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "ge",
+      "stable_id": "card-ms9433j33d8hz",
       "front": "个",
       "back": "Stück (universelles Zählwort)",
       "notes": "Pinyin: gè (oft neutral ge). Allzweck-Zählwort für Personen und Dinge. Kontext: 一 个 人 (yí gè rén) – eine Person.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "zhang",
+      "stable_id": "card-ms9433j33d9kz",
       "front": "张",
       "back": "Zählwort für Flaches (Blatt, Tisch, Ticket)",
       "notes": "Pinyin: zhāng. Für flache Dinge. Kontext: 一 张 票 (yì zhāng piào) – eine Eintrittskarte.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "ben",
+      "stable_id": "card-ms9433j33dany",
       "front": "本",
       "back": "Zählwort für Bücher/Hefte",
       "notes": "Pinyin: běn. Für gebundene Druckwerke. Kontext: 一 本 书 (yì běn shū) – ein Buch.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "bei-zw",
+      "stable_id": "card-ms9433j33dbdb",
       "front": "杯",
       "back": "Zählwort für Getränke (Glas/Tasse)",
       "notes": "Pinyin: bēi. Kontext: 一 杯 茶 (yì bēi chá) – eine Tasse Tee.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "kou",
+      "stable_id": "card-ms9433j33dc07",
       "front": "口",
       "back": "Zählwort für Familienmitglieder",
       "notes": "Pinyin: kǒu. Kontext: 五 口 人 (wǔ kǒu rén) – fünf (Familien-)Personen.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "yi-ge-ren",
+      "stable_id": "card-ms9433j33ddbq",
       "front": "一个人",
       "back": "eine Person",
       "notes": "Pinyin: yí gè rén. 一 wird vor 个 (4. Ton) zu yí. Kontext: 那 是 一 个 人 (nà shì yí gè rén) – Das ist eine Person.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "yi-ben-shu",
+      "stable_id": "card-ms9433j33de0b",
       "front": "一本书",
       "back": "ein Buch",
       "notes": "Pinyin: yì běn shū. 一 wird vor 本 (3. Ton) zu yì. Kontext: 我 有 一 本 书 (wǒ yǒu yì běn shū) – Ich habe ein Buch.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "shu",
+      "stable_id": "card-ms9433j33dfw0",
       "front": "书",
       "back": "Buch",
       "notes": "Pinyin: shū. Kontext: 一 本 书 (yì běn shū) – ein Buch.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "ren",
+      "stable_id": "card-ms9433j33dgzg",
       "front": "人",
       "back": "Mensch / Person",
       "notes": "Pinyin: rén. Kontext: 三 个 人 (sān gè rén) – drei Personen.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "piao",
+      "stable_id": "card-ms9433j33dhzv",
       "front": "票",
       "back": "Ticket / Eintrittskarte",
       "notes": "Pinyin: piào. Kontext: 两 张 票 (liǎng zhāng piào) – zwei Tickets.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "liang",
+      "stable_id": "card-ms9433j33dirx",
       "front": "两",
       "back": "zwei (vor Zählwörtern)",
       "notes": "Pinyin: liǎng. Statt 二 verwendet man vor einem Zählwort 两. Kontext: 两 个 人 (liǎng gè rén) – zwei Personen.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "ji-ge",
+      "stable_id": "card-ms9433j33djou",
       "front": "几个",
       "back": "wie viele (Stück)?",
       "notes": "Pinyin: jǐ gè. Frage nach kleiner Menge + Zählwort. Kontext: 你 要 几 个 ？ (nǐ yào jǐ gè?) – Wie viele möchtest du?",
@@ -124,6 +136,7 @@
       "title": "Zählwörter zuordnen",
       "exercise": {
         "id": "ex-match-zaehlwoerter",
+        "stable_id": "ex-ms9433j33dkgy",
         "type": "matching",
         "prompt": "Ordne jedem Zählwort seine Verwendung zu.",
         "card_ids": ["ge", "zhang", "ben", "bei-zw"],
@@ -143,6 +156,7 @@
       "title": "Ein Buch",
       "exercise": {
         "id": "ex-cloze-buch",
+        "stable_id": "ex-ms9433j33dlcc",
         "type": "cloze",
         "prompt": "Ergänze das richtige Zählwort für 'Buch'.",
         "card_ids": ["ben", "shu", "yi-ben-shu"],
@@ -159,6 +173,7 @@
       "title": "Eine Person",
       "exercise": {
         "id": "ex-free-person",
+        "stable_id": "ex-ms9433j33dmpu",
         "type": "free_text",
         "prompt": "Wie sagt man 'eine Person' (Hanzi oder Pinyin)?",
         "card_ids": ["yi-ge-ren"],
@@ -175,6 +190,7 @@
       "title": "Zwei Personen",
       "exercise": {
         "id": "ex-tiles-zweipersonen",
+        "stable_id": "ex-ms9433j33dn8y",
         "type": "word_tiles",
         "prompt": "Setze 'zwei Personen' zusammen.",
         "card_ids": ["liang", "ge", "ren"],
@@ -190,6 +206,7 @@
       "title": "Zwei vor Zählwort",
       "exercise": {
         "id": "ex-free-zwei",
+        "stable_id": "ex-ms9433j33do4l",
         "type": "free_text",
         "prompt": "Welches Wort für 'zwei' steht vor einem Zählwort (Hanzi oder Pinyin)?",
         "card_ids": ["liang"],
@@ -206,6 +223,7 @@
       "title": "Zählwort für Bücher",
       "exercise": {
         "id": "ex-pic-buch-zw",
+        "stable_id": "ex-ms9433j33dp38",
         "type": "picture_choice",
         "prompt": "Welches Zählwort benutzt man für Bücher?",
         "card_ids": ["ben"],

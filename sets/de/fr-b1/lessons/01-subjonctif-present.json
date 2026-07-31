@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "subjonctif-konzept",
+      "stable_id": "card-ms9433i329ov7",
       "front": "le subjonctif",
       "back": "der Subjonctif (Konjunktiv)",
       "notes": "Kein Tempus, sondern ein **Modus**: Er drückt Subjektivität aus — Wunsch, Gefühl, Zweifel, Notwendigkeit. Steht fast immer nach **que** in einem Nebensatz.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "subjonctif-bildung",
+      "stable_id": "card-ms9433i329pdh",
       "front": "que je parle, que nous parlions",
       "back": "Bildung des Subjonctif",
       "notes": "Stamm = 3. Person Plural Präsens ohne **-ent** (*ils parlent* → *parl-*) + Endungen **-e, -es, -e, -ions, -iez, -ent**. *que je parle, que tu parles, qu'il parle …*",
@@ -28,6 +30,7 @@
     },
     {
       "id": "subj-etre",
+      "stable_id": "card-ms9433i329q4w",
       "front": "que je sois, qu'il soit",
       "back": "être im Subjonctif",
       "notes": "Unregelmäßig: *que je **sois**, que tu sois, qu'il **soit**, que nous **soyons**, que vous soyez, qu'ils **soient***.",
@@ -37,6 +40,7 @@
     },
     {
       "id": "subj-avoir",
+      "stable_id": "card-ms9433i329r9n",
       "front": "que j'aie, qu'il ait",
       "back": "avoir im Subjonctif",
       "notes": "Unregelmäßig: *que j'**aie**, que tu aies, qu'il **ait**, que nous **ayons**, que vous ayez, qu'ils **aient***.",
@@ -46,6 +50,7 @@
     },
     {
       "id": "subj-faire",
+      "stable_id": "card-ms9433i329six",
       "front": "que je fasse",
       "back": "faire im Subjonctif",
       "notes": "Stamm **fass-**: *que je fasse, qu'il fasse, que nous fassions, qu'ils fassent*.",
@@ -55,6 +60,7 @@
     },
     {
       "id": "subj-aller",
+      "stable_id": "card-ms9433i329tvr",
       "front": "que j'aille, que nous allions",
       "back": "aller im Subjonctif",
       "notes": "Zwei Stämme: *que j'**aille**, qu'il aille, qu'ils aillent*, aber *que nous **allions**, que vous alliez*.",
@@ -64,6 +70,7 @@
     },
     {
       "id": "subj-pouvoir-savoir",
+      "stable_id": "card-ms9433i329ueu",
       "front": "que je puisse, que je sache",
       "back": "pouvoir / savoir im Subjonctif",
       "notes": "*pouvoir* → Stamm **puiss-** (*que je puisse*); *savoir* → Stamm **sach-** (*que je sache*).",
@@ -73,6 +80,7 @@
     },
     {
       "id": "il-faut-que",
+      "stable_id": "card-ms9433i329v6m",
       "front": "il faut que",
       "back": "es ist nötig, dass / man muss",
       "notes": "Notwendigkeit → Subjonctif: *Il faut que tu **fasses** tes devoirs.* — Du musst deine Hausaufgaben machen.",
@@ -82,6 +90,7 @@
     },
     {
       "id": "vouloir-que",
+      "stable_id": "card-ms9433i329wqq",
       "front": "vouloir que",
       "back": "wollen, dass",
       "notes": "Wunsch/Wille → Subjonctif: *Je veux que tu **viennes**.* Achtung: bei gleichem Subjekt steht der Infinitiv (*Je veux venir*).",
@@ -91,6 +100,7 @@
     },
     {
       "id": "etre-content-que",
+      "stable_id": "card-ms9433i329xfy",
       "front": "être content(e) que",
       "back": "froh sein, dass",
       "notes": "Gefühl → Subjonctif: *Je suis content que tu **sois** là.* Ebenso: *avoir peur que, être triste que, c'est dommage que*.",
@@ -100,6 +110,7 @@
     },
     {
       "id": "douter-que",
+      "stable_id": "card-ms9433i329ywg",
       "front": "douter que / ne pas penser que",
       "back": "bezweifeln, dass / nicht glauben, dass",
       "notes": "Zweifel und Verneinung der Meinung → Subjonctif: *Je doute qu'il **ait** raison.* *Je ne pense pas qu'elle **vienne**.*",
@@ -109,6 +120,7 @@
     },
     {
       "id": "esperer-penser-indicatif",
+      "stable_id": "card-ms9433i329zjm",
       "front": "espérer que / penser que (+ Indikativ!)",
       "back": "hoffen / denken, dass (+ Indikativ)",
       "notes": "**Kein** Subjonctif! Sicherheit/Hoffnung → Indikativ: *J'espère qu'il **vient**.* *Je pense qu'elle **a** raison.* Erst die **Verneinung** (*je ne pense pas que*) löst den Subjonctif aus.",
@@ -144,6 +156,7 @@
       "title": "Notwendigkeit ausdrücken",
       "exercise": {
         "id": "ex-cloze-faut-faire",
+        "stable_id": "ex-ms9433i32a0bu",
         "type": "cloze",
         "prompt": "Ergänze die Subjonctif-Form von *faire* (que tu).",
         "card_ids": ["il-faut-que", "subj-faire"],
@@ -162,6 +175,7 @@
       "title": "Unregelmäßige Formen zuordnen",
       "exercise": {
         "id": "ex-match-irregular",
+        "stable_id": "ex-ms9433i32a1r6",
         "type": "matching",
         "prompt": "Ordne jedem Verb seine Subjonctif-Form (qu'il/elle) zu.",
         "card_ids": ["subj-etre", "subj-avoir", "subj-faire", "subj-aller", "subj-pouvoir-savoir"],
@@ -182,6 +196,7 @@
       "title": "Einen Wunsch ausdrücken",
       "exercise": {
         "id": "ex-free-veux-viennes",
+        "stable_id": "ex-ms9433i32a2sd",
         "type": "free_text",
         "prompt": "Übersetze: *Ich möchte, dass du heute Abend kommst.*",
         "card_ids": ["vouloir-que", "subjonctif-bildung"],
@@ -208,6 +223,7 @@
       "title": "Welcher Satz ist korrekt?",
       "exercise": {
         "id": "ex-pic-faut-partir",
+        "stable_id": "ex-ms9433i32a32o",
         "type": "picture_choice",
         "prompt": "Welcher Satz bedeutet korrekt *Wir müssen jetzt gehen* (mit Subjonctif)?",
         "card_ids": ["il-faut-que"],
@@ -233,6 +249,7 @@
       "title": "Ein Gefühl ausdrücken",
       "exercise": {
         "id": "ex-tiles-content-sois",
+        "stable_id": "ex-ms9433i32a458",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Ich bin froh, dass du hier bist.*",
         "card_ids": ["etre-content-que", "subj-etre"],
@@ -248,6 +265,7 @@
       "title": "Zweifel ausdrücken",
       "exercise": {
         "id": "ex-free-doute-ait",
+        "stable_id": "ex-ms9433i32a5ju",
         "type": "free_text",
         "prompt": "Übersetze: *Ich bezweifle, dass er recht hat.*",
         "card_ids": ["douter-que", "subj-avoir"],
@@ -274,6 +292,7 @@
       "title": "Der Kontrast: espérer + Indikativ",
       "exercise": {
         "id": "ex-cloze-espere-indicatif",
+        "stable_id": "ex-ms9433i32a6i8",
         "type": "cloze",
         "prompt": "Ergänze *venir* in der RICHTIGEN Form. Achtung: *espérer que* verlangt den Indikativ!",
         "card_ids": ["esperer-penser-indicatif"],
@@ -292,6 +311,7 @@
       "title": "Bedauern ausdrücken",
       "exercise": {
         "id": "ex-free-dommage-soit",
+        "stable_id": "ex-ms9433i32a7os",
         "type": "free_text",
         "prompt": "Übersetze: *Es ist schade, dass sie nicht da ist.*",
         "card_ids": ["etre-content-que", "subj-etre"],
@@ -317,6 +337,7 @@
       "title": "Subjonctif oder Indikativ?",
       "exercise": {
         "id": "ex-match-ausloeser",
+        "stable_id": "ex-ms9433i32a8bg",
         "type": "matching",
         "prompt": "Ordne jedem Auslöser den verlangten Modus zu.",
         "card_ids": ["vouloir-que", "douter-que", "esperer-penser-indicatif", "il-faut-que"],
@@ -336,6 +357,7 @@
       "title": "Subjonctif von être (nous)",
       "exercise": {
         "id": "ex-free-faut-soyons",
+        "stable_id": "ex-ms9433i32a9ew",
         "type": "free_text",
         "prompt": "Übersetze: *Wir müssen pünktlich sein.* (mit *il faut que nous*)",
         "card_ids": ["il-faut-que", "subj-etre"],
@@ -361,6 +383,7 @@
       "title": "Verneinte Meinung kippt in den Subjonctif",
       "exercise": {
         "id": "ex-cloze-ne-pense-pas",
+        "stable_id": "ex-ms9433i32aa99",
         "type": "cloze",
         "prompt": "Ergänze *être* (qu'elle). Achtung: die verneinte Meinung verlangt den Subjonctif.",
         "card_ids": ["douter-que", "subj-etre"],
@@ -379,6 +402,7 @@
       "title": "Bilde mit aller",
       "exercise": {
         "id": "ex-tiles-faut-aille",
+        "stable_id": "ex-ms9433i32abpk",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Es ist nötig, dass er zum Arzt geht.*",
         "card_ids": ["il-faut-que", "subj-aller"],
@@ -394,6 +418,7 @@
       "title": "savoir im Subjonctif",
       "exercise": {
         "id": "ex-free-veux-saches",
+        "stable_id": "ex-ms9433i32ac1i",
         "type": "free_text",
         "prompt": "Übersetze: *Ich möchte, dass du die Wahrheit weißt.*",
         "card_ids": ["vouloir-que", "subj-pouvoir-savoir"],

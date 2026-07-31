@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "verb-aller",
+      "stable_id": "card-ms9433hs1ymod",
       "front": "aller",
       "back": "gehen",
       "notes": "Bildet das passé composé mit **être**. Unregelmäßiges Partizip Perfekt: **allé**. *Je suis allé(e)* — ich bin gegangen.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "verb-venir",
+      "stable_id": "card-ms9433hs1yntj",
       "front": "venir",
       "back": "kommen",
       "notes": "Bildet mit **être**. Partizip Perfekt: **venu**. *Elle est venue* — sie ist gekommen.",
@@ -26,6 +28,7 @@
     },
     {
       "id": "verb-arriver",
+      "stable_id": "card-ms9433hs1yopv",
       "front": "arriver",
       "back": "ankommen",
       "notes": "Bildet mit **être**. Partizip Perfekt: **arrivé**. *Nous sommes arrivés* — wir sind angekommen.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "verb-partir",
+      "stable_id": "card-ms9433hs1ypmm",
       "front": "partir",
       "back": "weggehen / abreisen",
       "notes": "Bildet mit **être**. Partizip Perfekt: **parti**. *Ils sont partis* — sie sind weggegangen.",
@@ -46,6 +50,7 @@
     },
     {
       "id": "verb-rester",
+      "stable_id": "card-ms9433hs1yq4w",
       "front": "rester",
       "back": "bleiben",
       "notes": "Ein **Zustandsverb** — bildet trotzdem mit **être**. Partizip Perfekt: **resté**. *Il est resté* — er ist geblieben.",
@@ -56,6 +61,7 @@
     },
     {
       "id": "verb-tomber",
+      "stable_id": "card-ms9433hs1yrlb",
       "front": "tomber",
       "back": "fallen",
       "notes": "Bildet mit **être**. Partizip Perfekt: **tombé**. *Elle est tombée* — sie ist gefallen.",
@@ -66,6 +72,7 @@
     },
     {
       "id": "verb-entrer",
+      "stable_id": "card-ms9433hs1ys2g",
       "front": "entrer",
       "back": "eintreten / hineingehen",
       "notes": "Bildet mit **être**. Partizip Perfekt: **entré**. *Je suis entré(e)* — ich bin hineingegangen.",
@@ -76,6 +83,7 @@
     },
     {
       "id": "verb-sortir",
+      "stable_id": "card-ms9433hs1ytue",
       "front": "sortir",
       "back": "hinausgehen",
       "notes": "Bildet mit **être**. Partizip Perfekt: **sorti**. *Nous sommes sortis* — wir sind hinausgegangen.",
@@ -86,6 +94,7 @@
     },
     {
       "id": "verb-rentrer",
+      "stable_id": "card-ms9433hs1yu1g",
       "front": "rentrer",
       "back": "nach Hause kommen / zurückkehren",
       "notes": "Bildet mit **être**. Partizip Perfekt: **rentré**. *Elle est rentrée* — sie ist nach Hause gekommen.",
@@ -96,6 +105,7 @@
     },
     {
       "id": "verb-monter",
+      "stable_id": "card-ms9433hs1yv61",
       "front": "monter",
       "back": "hinaufgehen",
       "notes": "Bildet mit **être**. Partizip Perfekt: **monté**. *Ils sont montés* — sie sind hinaufgegangen.",
@@ -106,6 +116,7 @@
     },
     {
       "id": "verb-descendre",
+      "stable_id": "card-ms9433hs1yw48",
       "front": "descendre",
       "back": "hinuntergehen",
       "notes": "Bildet mit **être**. Unregelmäßiges Partizip Perfekt: **descendu**. *Elle est descendue* — sie ist hinuntergegangen.",
@@ -116,6 +127,7 @@
     },
     {
       "id": "verb-naitre",
+      "stable_id": "card-ms9433hs1yx06",
       "front": "naître",
       "back": "geboren werden",
       "notes": "Bildet mit **être**. Unregelmäßiges Partizip Perfekt: **né**. *Je suis né(e) en 2000* — ich bin im Jahr 2000 geboren.",
@@ -139,6 +151,7 @@
       "title": "être-Verben dem Deutschen zuordnen",
       "exercise": {
         "id": "ex-match-etre-verbs",
+        "stable_id": "ex-ms9433hs1yy9b",
         "type": "matching",
         "prompt": "Ordne jedem être-Verb seine deutsche Bedeutung zu.",
         "card_ids": [
@@ -180,6 +193,7 @@
       "title": "Partizip dem Infinitiv zuordnen",
       "exercise": {
         "id": "ex-match-participles",
+        "stable_id": "ex-ms9433hs1yzax",
         "type": "matching",
         "prompt": "Ordne jedem Partizip Perfekt seinen Infinitiv zu.",
         "card_ids": [
@@ -227,6 +241,7 @@
       "title": "Sie ist nach Paris gegangen",
       "exercise": {
         "id": "ex-free-she-went",
+        "stable_id": "ex-ms9433hs1z0u6",
         "type": "free_text",
         "prompt": "Übersetze: *Sie ist nach Paris gegangen.* (Verwende être. Achte auf die weibliche Angleichung am Partizip.)",
         "card_ids": [
@@ -253,6 +268,7 @@
       "title": "Bilde: Ich bin gestern angekommen",
       "exercise": {
         "id": "ex-tile-i-arrived",
+        "stable_id": "ex-ms9433hs1z1xg",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter so, dass es bedeutet: *Ich bin gestern angekommen.* (männlicher Sprecher)",
         "card_ids": [
@@ -275,6 +291,7 @@
       "title": "Sie (fem.) sind weggegangen",
       "exercise": {
         "id": "ex-pick-they-left",
+        "stable_id": "ex-ms9433hs1z237",
         "type": "picture_choice",
         "prompt": "Was ist richtig für *sie (weiblich) sind weggegangen*?",
         "card_ids": [
@@ -321,6 +338,7 @@
       "title": "Wir sind heute Morgen gekommen",
       "exercise": {
         "id": "ex-free-we-came",
+        "stable_id": "ex-ms9433hs1z3ni",
         "type": "free_text",
         "prompt": "Übersetze: *Wir sind heute Morgen gekommen.* (männliche/gemischte Gruppe)",
         "card_ids": [
@@ -347,6 +365,7 @@
       "title": "Bilde: Sie ist nach Hause gekommen",
       "exercise": {
         "id": "ex-tile-she-came-home",
+        "stable_id": "ex-ms9433hs1z4ga",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter so, dass es bedeutet: *Sie ist nach Hause gekommen.*",
         "card_ids": [
@@ -371,6 +390,7 @@
       "title": "Er ist zu Hause geblieben",
       "exercise": {
         "id": "ex-free-he-stayed",
+        "stable_id": "ex-ms9433hs1z5dy",
         "type": "free_text",
         "prompt": "Übersetze: *Er ist zu Hause geblieben.* (Denk daran: *rester* bildet mit être.)",
         "card_ids": [
@@ -397,6 +417,7 @@
       "title": "Sie sind gefallen",
       "exercise": {
         "id": "ex-free-they-fell",
+        "stable_id": "ex-ms9433hs1z64y",
         "type": "free_text",
         "prompt": "Übersetze: *Sie sind gefallen.* (Verwende weibliches *sie*: elles.)",
         "card_ids": [

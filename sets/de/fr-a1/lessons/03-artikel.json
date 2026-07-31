@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "art-le",
+      "stable_id": "card-ms9433hm1snm7",
       "front": "le",
       "back": "der/die/das (männlich Singular)",
       "notes": "Bestimmter Artikel vor männlichen Substantiven.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "art-la",
+      "stable_id": "card-ms9433hm1so8l",
       "front": "la",
       "back": "der/die/das (weiblich Singular)",
       "notes": "Bestimmter Artikel vor weiblichen Substantiven.",
@@ -26,6 +28,7 @@
     },
     {
       "id": "art-l",
+      "stable_id": "card-ms9433hm1sp6b",
       "front": "l'",
       "back": "der/die/das (vor Vokal oder stummem h)",
       "notes": "le/la werden vor einem Vokal zu l' verkürzt.",
@@ -35,6 +38,7 @@
     },
     {
       "id": "art-les",
+      "stable_id": "card-ms9433hm1sqnz",
       "front": "les",
       "back": "die (Plural, beide Geschlechter)",
       "tags": [
@@ -43,6 +47,7 @@
     },
     {
       "id": "art-un",
+      "stable_id": "card-ms9433hm1sreg",
       "front": "un",
       "back": "ein (männlich)",
       "tags": [
@@ -51,6 +56,7 @@
     },
     {
       "id": "art-une",
+      "stable_id": "card-ms9433hm1sslp",
       "front": "une",
       "back": "eine (weiblich)",
       "tags": [
@@ -59,6 +65,7 @@
     },
     {
       "id": "noun-chat",
+      "stable_id": "card-ms9433hm1st9b",
       "front": "chat",
       "back": "Katze (männlich)",
       "notes": "le chat = die Katze (im Französischen männlich).",
@@ -68,6 +75,7 @@
     },
     {
       "id": "noun-maison",
+      "stable_id": "card-ms9433hm1su7y",
       "front": "maison",
       "back": "Haus (weiblich)",
       "notes": "la maison = das Haus (im Französischen weiblich).",
@@ -77,6 +85,7 @@
     },
     {
       "id": "noun-enfant",
+      "stable_id": "card-ms9433hm1svhp",
       "front": "enfant",
       "back": "Kind (beide Geschlechter)",
       "tags": [
@@ -104,6 +113,7 @@
       "title": "Bestimmte Artikel zuordnen",
       "exercise": {
         "id": "ex-match-bestimmt",
+        "stable_id": "ex-ms9433hm1swyx",
         "type": "matching",
         "prompt": "Ordne jeden bestimmten Artikel seiner Verwendung zu.",
         "card_ids": [
@@ -140,6 +150,7 @@
       "title": "Den richtigen Artikel wählen",
       "exercise": {
         "id": "ex-free-chat",
+        "stable_id": "ex-ms9433hm1sxz4",
         "type": "free_text",
         "prompt": "Schreibe 'die Katze' auf Französisch (Artikel + chat).",
         "card_ids": [
@@ -172,6 +183,7 @@
       "title": "Unbestimmter Artikel",
       "exercise": {
         "id": "ex-free-maison",
+        "stable_id": "ex-ms9433hm1sysh",
         "type": "free_text",
         "prompt": "Schreibe 'ein Haus' auf Französisch (Artikel + maison).",
         "card_ids": [
@@ -198,6 +210,7 @@
       "title": "'die Katze' zusammensetzen",
       "exercise": {
         "id": "ex-tile-le-chat",
+        "stable_id": "ex-ms9433hm1sz37",
         "type": "word_tiles",
         "prompt": "Setze die Kacheln zu 'die Katze' (Artikel + Substantiv) zusammen.",
         "card_ids": [
@@ -219,6 +232,7 @@
       "title": "Lücke füllen: Elision",
       "exercise": {
         "id": "ex-cloze-enfant",
+        "stable_id": "ex-ms9433hm1t06t",
         "type": "cloze",
         "prompt": "Ergänze den bestimmten Artikel vor 'enfant' (beginnt mit Vokal).",
         "card_ids": [

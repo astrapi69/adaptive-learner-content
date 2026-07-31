@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "hi-how-are-you",
+      "stable_id": "card-ms9433kz54quf",
       "front": "How are you?",
       "back": "आप कैसे हैं?",
       "notes": "Common greeting follow-up.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "hi-i-am-fine",
+      "stable_id": "card-ms9433kz54r0x",
       "front": "I am fine.",
       "back": "मैं ठीक हूँ।",
       "notes": "Standard reply to *How are you?*",
@@ -24,6 +26,7 @@
     },
     {
       "id": "hi-your-name",
+      "stable_id": "card-ms9433kz54sax",
       "front": "What is your name?",
       "back": "आपका नाम क्या है?",
       "notes": "Asking someone's name.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "hi-my-name-is",
+      "stable_id": "card-ms9433kz54tpj",
       "front": "My name is...",
       "back": "मेरा नाम ... है।",
       "notes": "Giving your name. Put your name in the blank.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "hi-where-from",
+      "stable_id": "card-ms9433kz54u8l",
       "front": "Where are you from?",
       "back": "आप कहाँ से हैं?",
       "notes": "Asking origin.",
@@ -51,6 +56,7 @@
     },
     {
       "id": "hi-i-am-from-india",
+      "stable_id": "card-ms9433kz54vfd",
       "front": "I am from India.",
       "back": "मैं भारत से हूँ।",
       "notes": "Giving your origin.",
@@ -60,6 +66,7 @@
     },
     {
       "id": "hi-nice-to-meet",
+      "stable_id": "card-ms9433kz54w9m",
       "front": "Nice to meet you.",
       "back": "आपसे मिलकर अच्छा लगा।",
       "notes": "Said after an introduction.",
@@ -69,6 +76,7 @@
     },
     {
       "id": "hi-excuse-me",
+      "stable_id": "card-ms9433kz54x5v",
       "front": "Excuse me.",
       "back": "माफ़ कीजिए।",
       "notes": "To get attention or apologise politely.",
@@ -78,6 +86,7 @@
     },
     {
       "id": "hi-how-much",
+      "stable_id": "card-ms9433kz54y54",
       "front": "How much is this?",
       "back": "यह कितने का है?",
       "notes": "Asking a price while shopping.",
@@ -88,6 +97,7 @@
     },
     {
       "id": "hi-dont-understand",
+      "stable_id": "card-ms9433kz54zr8",
       "front": "I do not understand.",
       "back": "मुझे समझ नहीं आया।",
       "notes": "Useful when you are lost in a conversation.",
@@ -110,6 +120,7 @@
       "title": "Match question and answer",
       "exercise": {
         "id": "l2-ex-match-qa",
+        "stable_id": "ex-ms9433kz550u8",
         "type": "matching",
         "prompt": "Match each English question or phrase with its Hindi meaning.",
         "card_ids": [
@@ -146,6 +157,7 @@
       "title": "Reply that you are fine",
       "exercise": {
         "id": "l2-ex-free-fine",
+        "stable_id": "ex-ms9433kz551y7",
         "type": "free_text",
         "prompt": "Translate to English: मैं ठीक हूँ।",
         "card_ids": [
@@ -173,6 +185,7 @@
       "title": "Build a sentence",
       "exercise": {
         "id": "l2-ex-tiles-name",
+        "stable_id": "ex-ms9433kz552jk",
         "type": "word_tiles",
         "prompt": "Arrange to mean: मेरा नाम राज है। (My name is Raj.)",
         "card_ids": [
@@ -201,6 +214,7 @@
       "title": "Match the phrases",
       "exercise": {
         "id": "l2-ex-match-phrases",
+        "stable_id": "ex-ms9433kz553ma",
         "type": "matching",
         "prompt": "Match each English phrase with its Hindi meaning.",
         "card_ids": [
@@ -232,6 +246,7 @@
       "title": "Say where you are from",
       "exercise": {
         "id": "l2-ex-free-origin",
+        "stable_id": "ex-ms9433kz55446",
         "type": "free_text",
         "prompt": "Translate to English: मैं भारत से हूँ।",
         "card_ids": [

@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "turn-left",
+      "stable_id": "card-ms9433fo09gzr",
       "front": "turn left",
       "back": "links abbiegen",
       "notes": "'Turn left at the corner.' = Biegen Sie an der Ecke links ab.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "turn-right",
+      "stable_id": "card-ms9433fo09hy0",
       "front": "turn right",
       "back": "rechts abbiegen",
       "notes": "'right' heißt sowohl 'rechts' als auch 'richtig' — der Kontext entscheidet.",
@@ -22,6 +24,7 @@
     },
     {
       "id": "go-straight",
+      "stable_id": "card-ms9433fo09ive",
       "front": "go straight",
       "back": "geradeaus gehen",
       "notes": "Oft erweitert: 'go straight on' / 'go straight ahead'.",
@@ -29,6 +32,7 @@
     },
     {
       "id": "next-to",
+      "stable_id": "card-ms9433fo09jev",
       "front": "next to",
       "back": "neben",
       "notes": "'The bank is next to the church.' = Die Bank ist neben der Kirche.",
@@ -36,6 +40,7 @@
     },
     {
       "id": "between",
+      "stable_id": "card-ms9433fo09kdn",
       "front": "between",
       "back": "zwischen",
       "notes": "'between the bank and the shop' = zwischen der Bank und dem Geschäft.",
@@ -43,6 +48,7 @@
     },
     {
       "id": "opposite",
+      "stable_id": "card-ms9433fo09lys",
       "front": "opposite",
       "back": "gegenüber",
       "notes": "Auch 'across from'. Falscher Freund: 'opposite' ≠ 'Opposition' — es heißt 'gegenüber'.",
@@ -50,6 +56,7 @@
     },
     {
       "id": "excuse-me",
+      "stable_id": "card-ms9433fo09mpn",
       "front": "Excuse me",
       "back": "Entschuldigung (um Aufmerksamkeit)",
       "notes": "Um jemanden anzusprechen. NICHT 'Sorry' — das ist eine Entschuldigung für einen Fehler.",
@@ -57,6 +64,7 @@
     },
     {
       "id": "where-is",
+      "stable_id": "card-ms9433fo09nxa",
       "front": "Where is ...?",
       "back": "Wo ist ...?",
       "notes": "'Where is the station?' = Wo ist der Bahnhof?",
@@ -64,6 +72,7 @@
     },
     {
       "id": "how-do-i-get",
+      "stable_id": "card-ms9433fo09ouq",
       "front": "How do I get to ...?",
       "back": "Wie komme ich zu/nach ...?",
       "notes": "Feste Wendung. Beachte 'get to' für 'kommen nach/zu'.",
@@ -71,6 +80,7 @@
     },
     {
       "id": "at-the-station",
+      "stable_id": "card-ms9433fo09p9f",
       "front": "at the station",
       "back": "am Bahnhof",
       "notes": "'at' für einen Punkt/Treffpunkt: at the station, at the bus stop, at the door.",
@@ -78,6 +88,7 @@
     },
     {
       "id": "on-the-street",
+      "stable_id": "card-ms9433fo09qwa",
       "front": "on the street",
       "back": "auf der Straße",
       "notes": "'on' für Straßen und Flächen: on the street, on the corner. NICHT 'in the street' im US-Englisch.",
@@ -85,6 +96,7 @@
     },
     {
       "id": "in-the-city",
+      "stable_id": "card-ms9433fo09rbr",
       "front": "in the city",
       "back": "in der Stadt",
       "notes": "'in' für umschlossene Räume und größere Gebiete: in the city, in the shop, in London.",
@@ -117,6 +129,7 @@
       "title": "Richtungen zuordnen",
       "exercise": {
         "id": "ex-match-directions",
+        "stable_id": "ex-ms9433fo09s21",
         "type": "matching",
         "prompt": "Ordne jede Richtungsangabe ihrer deutschen Bedeutung zu.",
         "card_ids": ["turn-left", "turn-right", "go-straight", "opposite"],
@@ -136,6 +149,7 @@
       "title": "Ortsangaben zuordnen",
       "exercise": {
         "id": "ex-match-place-preps",
+        "stable_id": "ex-ms9433fo09tiy",
         "type": "matching",
         "prompt": "Ordne jede Ortsangabe ihrer deutschen Bedeutung zu.",
         "card_ids": ["next-to", "between", "at-the-station", "in-the-city"],
@@ -155,6 +169,7 @@
       "title": "Wie sprichst du eine fremde Person an?",
       "exercise": {
         "id": "ex-pick-excuse-me",
+        "stable_id": "ex-ms9433fo09ux9",
         "type": "picture_choice",
         "prompt": "Du willst eine fremde Person nach dem Weg fragen. Womit beginnst du?",
         "card_ids": ["excuse-me"],
@@ -176,6 +191,7 @@
       "title": "Welche Präposition? (Bahnhof)",
       "exercise": {
         "id": "ex-cloze-at-station",
+        "stable_id": "ex-ms9433fo09vvm",
         "type": "cloze",
         "prompt": "Ergänze die richtige Ortspräposition.",
         "card_ids": ["at-the-station"],
@@ -194,6 +210,7 @@
       "title": "Welche Präposition? (Straße)",
       "exercise": {
         "id": "ex-cloze-on-street",
+        "stable_id": "ex-ms9433fo09w53",
         "type": "cloze",
         "prompt": "Ergänze die richtige Ortspräposition.",
         "card_ids": ["on-the-street"],
@@ -212,6 +229,7 @@
       "title": "Gegenüber",
       "exercise": {
         "id": "ex-free-opposite",
+        "stable_id": "ex-ms9433fo09x1a",
         "type": "free_text",
         "prompt": "Wie sagt man 'gegenüber' auf Englisch?",
         "card_ids": ["opposite"],
@@ -228,6 +246,7 @@
       "title": "Nach dem Bahnhof fragen",
       "exercise": {
         "id": "ex-free-where-is-station",
+        "stable_id": "ex-ms9433fo09yo2",
         "type": "free_text",
         "prompt": "Frage höflich: 'Entschuldigung, wo ist der Bahnhof?'",
         "card_ids": ["excuse-me", "where-is"],
@@ -244,6 +263,7 @@
       "title": "Wie komme ich ...?",
       "exercise": {
         "id": "ex-tile-how-do-i-get",
+        "stable_id": "ex-ms9433fo09ztf",
         "type": "word_tiles",
         "prompt": "Bilde 'Wie komme ich zum Museum?'",
         "card_ids": ["how-do-i-get"],
@@ -259,6 +279,7 @@
       "title": "Links abbiegen",
       "exercise": {
         "id": "ex-free-turn-left",
+        "stable_id": "ex-ms9433fo0a06v",
         "type": "free_text",
         "prompt": "Übersetze: 'Biegen Sie links ab.'",
         "card_ids": ["turn-left"],
@@ -275,6 +296,7 @@
       "title": "Lage beschreiben",
       "exercise": {
         "id": "ex-cloze-next-to",
+        "stable_id": "ex-ms9433fo0a16a",
         "type": "cloze",
         "prompt": "Ergänze 'neben': 'Die Bank ist neben der Kirche.'",
         "card_ids": ["next-to"],

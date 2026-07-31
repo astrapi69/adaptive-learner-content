@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "uno",
+      "stable_id": "card-ms9433ig2lc7b",
       "front": "uno",
       "back": "eins",
       "notes": "Kontext: Ho un fratello. – Ich habe einen Bruder. Vor Nomen wird 'uno' zu un/una.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "due",
+      "stable_id": "card-ms9433ig2ld7j",
       "front": "due",
       "back": "zwei",
       "notes": "Kontext: Due caffè, per favore. – Zwei Kaffee, bitte.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "tre",
+      "stable_id": "card-ms9433ig2lepr",
       "front": "tre",
       "back": "drei",
       "notes": "Kontext: Sono le tre. – Es ist drei Uhr.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "quattro",
+      "stable_id": "card-ms9433ig2lf0u",
       "front": "quattro",
       "back": "vier",
       "notes": "Kontext: Un tavolo per quattro. – Ein Tisch für vier.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "cinque",
+      "stable_id": "card-ms9433ig2lgyr",
       "front": "cinque",
       "back": "fünf",
       "notes": "Kontext: Cinque euro. – Fünf Euro.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "sei",
+      "stable_id": "card-ms9433ig2lhry",
       "front": "sei",
       "back": "sechs",
       "notes": "Kontext: Sono le sei. – Es ist sechs Uhr. Achtung: 'sei' heißt auch 'du bist'.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "sette",
+      "stable_id": "card-ms9433ig2liyl",
       "front": "sette",
       "back": "sieben",
       "notes": "Kontext: Alle sette di sera. – Um sieben Uhr abends.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "otto",
+      "stable_id": "card-ms9433ig2lj21",
       "front": "otto",
       "back": "acht",
       "notes": "Kontext: Ho otto anni. – Ich bin acht Jahre alt.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "nove",
+      "stable_id": "card-ms9433ig2lk3w",
       "front": "nove",
       "back": "neun",
       "notes": "Kontext: Apriamo alle nove. – Wir öffnen um neun.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "dieci",
+      "stable_id": "card-ms9433ig2ll97",
       "front": "dieci",
       "back": "zehn",
       "notes": "Kontext: Dieci minuti. – Zehn Minuten.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "venti",
+      "stable_id": "card-ms9433ig2lm9v",
       "front": "venti",
       "back": "zwanzig",
       "notes": "Kontext: Ho venti euro. – Ich habe zwanzig Euro. 21 = ventuno, 28 = ventotto.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "trenta",
+      "stable_id": "card-ms9433ig2ln7m",
       "front": "trenta",
       "back": "dreißig",
       "notes": "Kontext: Trenta gradi! – Dreißig Grad! 31 = trentuno.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "ventuno",
+      "stable_id": "card-ms9433ig2lo1m",
       "front": "ventuno",
       "back": "einundzwanzig",
       "notes": "Kontext: Ho ventuno anni. – Ich bin einundzwanzig. venti + uno: das End-i fällt weg.",
@@ -132,6 +145,7 @@
       "title": "Zahlen zuordnen",
       "exercise": {
         "id": "ex-match-zahlen",
+        "stable_id": "ex-ms9433ig2lpn7",
         "type": "matching",
         "prompt": "Ordne die italienischen Zahlwörter den Ziffern zu.",
         "card_ids": ["due", "cinque", "otto", "dieci"],
@@ -151,6 +165,7 @@
       "title": "Drei auf Italienisch",
       "exercise": {
         "id": "ex-free-tre",
+        "stable_id": "ex-ms9433ig2lqtn",
         "type": "free_text",
         "prompt": "Wie heißt 'drei' auf Italienisch?",
         "card_ids": ["tre"],
@@ -167,6 +182,7 @@
       "title": "Zwanzig auf Italienisch",
       "exercise": {
         "id": "ex-free-venti",
+        "stable_id": "ex-ms9433ig2lrkg",
         "type": "free_text",
         "prompt": "Wie heißt 'zwanzig' auf Italienisch?",
         "card_ids": ["venti"],
@@ -183,6 +199,7 @@
       "title": "Lücke füllen: 21",
       "exercise": {
         "id": "ex-cloze-ventuno",
+        "stable_id": "ex-ms9433ig2lskc",
         "type": "cloze",
         "prompt": "Ergänze die Zahl 21 (ein Wort).",
         "card_ids": ["ventuno"],
@@ -201,6 +218,7 @@
       "title": "Bis dreißig zählen",
       "exercise": {
         "id": "ex-tile-trenta",
+        "stable_id": "ex-ms9433ig2lt02",
         "type": "word_tiles",
         "prompt": "Ordne die Zahlen aufsteigend: dieci, venti, trenta.",
         "card_ids": ["dieci", "venti", "trenta"],
@@ -216,6 +234,7 @@
       "title": "Fünf erkennen",
       "exercise": {
         "id": "ex-pick-cinque",
+        "stable_id": "ex-ms9433ig2luhm",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'fünf'?",
         "card_ids": ["cinque"],

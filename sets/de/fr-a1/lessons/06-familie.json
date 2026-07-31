@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "fam-pere",
+      "stable_id": "card-ms9433ho1ufks",
       "front": "le père",
       "back": "der Vater",
       "tags": [
@@ -15,6 +16,7 @@
     },
     {
       "id": "fam-mere",
+      "stable_id": "card-ms9433ho1uglj",
       "front": "la mère",
       "back": "die Mutter",
       "tags": [
@@ -24,6 +26,7 @@
     },
     {
       "id": "fam-frere",
+      "stable_id": "card-ms9433ho1uhpw",
       "front": "le frère",
       "back": "der Bruder",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "fam-soeur",
+      "stable_id": "card-ms9433ho1uisj",
       "front": "la sœur",
       "back": "die Schwester",
       "notes": "Beachte die **œ**-Ligatur — es ist ein einziger Buchstabe, ausgesprochen /œ/ (kein deutsches Äquivalent; ähnlich wie das eu in *peur*).",
@@ -43,6 +47,7 @@
     },
     {
       "id": "fam-fils",
+      "stable_id": "card-ms9433ho1uj16",
       "front": "le fils",
       "back": "der Sohn",
       "notes": "Ausgesprochen **\"fiss\"** — das l ist stumm, das s wird gesprochen. Achte auf die Schreibweise, die den Klang nicht wiedergibt.",
@@ -53,6 +58,7 @@
     },
     {
       "id": "fam-fille",
+      "stable_id": "card-ms9433ho1uky1",
       "front": "la fille",
       "back": "die Tochter / das Mädchen",
       "notes": "Dasselbe Wort für *Tochter* und *Mädchen* — der Kontext entscheidet.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "fam-oncle",
+      "stable_id": "card-ms9433ho1ulbw",
       "front": "l'oncle",
       "back": "der Onkel",
       "notes": "Beginnt mit einem Vokal — elidiert. *l'oncle*, nicht *le oncle*.",
@@ -74,6 +81,7 @@
     },
     {
       "id": "fam-tante",
+      "stable_id": "card-ms9433ho1um1a",
       "front": "la tante",
       "back": "die Tante",
       "tags": [
@@ -83,6 +91,7 @@
     },
     {
       "id": "fam-parents",
+      "stable_id": "card-ms9433ho1un9v",
       "front": "les parents",
       "back": "die Eltern",
       "notes": "In dieser Bedeutung immer im Plural. Bedeutet in manchen Kontexten auch *Verwandte* (*mes parents éloignés* — meine entfernten Verwandten).",
@@ -93,6 +102,7 @@
     },
     {
       "id": "poss-mon",
+      "stable_id": "card-ms9433ho1uovz",
       "front": "mon",
       "back": "mein (m. Sg.)",
       "notes": "Wird vor maskulinen Substantiven im Singular verwendet: *mon père*, *mon frère*. AUSSERDEM vor jedem femininen Substantiv, das mit einem Vokal beginnt: *mon amie* (nicht *ma amie*). Die Elisionsregel aus Lektion 03 schlägt wieder zu.",
@@ -102,6 +112,7 @@
     },
     {
       "id": "poss-ma",
+      "stable_id": "card-ms9433ho1uphc",
       "front": "ma",
       "back": "meine (f. Sg.)",
       "notes": "Wird vor femininen Substantiven im Singular verwendet, die mit einem KONSONANTEN beginnen: *ma mère*, *ma sœur*, *ma tante*. Vor einem Vokal wechselt es zu *mon*.",
@@ -111,6 +122,7 @@
     },
     {
       "id": "poss-mes",
+      "stable_id": "card-ms9433ho1uqwz",
       "front": "mes",
       "back": "meine (Pl.)",
       "notes": "Dieselbe Form für maskuline und feminine Pluralformen: *mes parents*, *mes sœurs*.",
@@ -134,6 +146,7 @@
       "title": "Familienmitglieder zuordnen",
       "exercise": {
         "id": "ex-match-family",
+        "stable_id": "ex-ms9433ho1ur9y",
         "type": "matching",
         "prompt": "Ordne jedes französische Familienwort seiner deutschen Bedeutung zu.",
         "card_ids": [
@@ -186,6 +199,7 @@
       "title": "Mein Vater",
       "exercise": {
         "id": "ex-free-mon-pere",
+        "stable_id": "ex-ms9433ho1uso3",
         "type": "free_text",
         "prompt": "Übersetze: *mein Vater*.",
         "card_ids": [
@@ -213,6 +227,7 @@
       "title": "Meine Schwester",
       "exercise": {
         "id": "ex-free-ma-soeur",
+        "stable_id": "ex-ms9433ho1utql",
         "type": "free_text",
         "prompt": "Übersetze: *meine Schwester*.",
         "card_ids": [
@@ -240,6 +255,7 @@
       "title": "Die Vokalfalle",
       "exercise": {
         "id": "ex-pick-mon-amie",
+        "stable_id": "ex-ms9433ho1uuvy",
         "type": "picture_choice",
         "prompt": "*amie* (Freundin, f.) beginnt mit einem Vokal. Welcher Possessivbegleiter ist korrekt?",
         "card_ids": [
@@ -290,6 +306,7 @@
       "title": "Bauen: Ich habe zwei Brüder",
       "exercise": {
         "id": "ex-tile-family-sentence",
+        "stable_id": "ex-ms9433ho1uvq9",
         "type": "word_tiles",
         "prompt": "Ordne die Bausteine zur Bedeutung *Ich habe zwei Brüder und eine Schwester*.",
         "card_ids": [
@@ -316,6 +333,7 @@
       "title": "Meine Eltern",
       "exercise": {
         "id": "ex-free-mes-parents",
+        "stable_id": "ex-ms9433ho1uwav",
         "type": "free_text",
         "prompt": "Übersetze: *meine Eltern*.",
         "card_ids": [
@@ -343,6 +361,7 @@
       "title": "Possessivbegleiter dem Substantiv zuordnen",
       "exercise": {
         "id": "ex-match-possessives",
+        "stable_id": "ex-ms9433ho1uxxw",
         "type": "matching",
         "prompt": "Ordne jedem Substantiv die korrekte Possessivform von *mein* zu.",
         "card_ids": [
@@ -386,6 +405,7 @@
       "title": "Bauen: Mein Bruder ist Lehrer",
       "exercise": {
         "id": "ex-tile-mon-frere",
+        "stable_id": "ex-ms9433ho1uytd",
         "type": "word_tiles",
         "prompt": "Ordne die Bausteine zur Bedeutung *Mein Bruder ist Lehrer*. (Denk daran: kein Artikel vor einem Beruf.)",
         "card_ids": [

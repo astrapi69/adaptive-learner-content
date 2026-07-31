@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "quanto-custa",
+      "stable_id": "card-ms9433ix362b3",
       "front": "Quanto custa?",
       "back": "Wie viel kostet das?",
       "notes": "Kontext: Quanto custa esta camiseta? – Wie viel kostet dieses T-Shirt?",
@@ -17,6 +18,7 @@
     },
     {
       "id": "quanto-e",
+      "stable_id": "card-ms9433ix363al",
       "front": "Quanto é?",
       "back": "Was macht das? / Wie viel ist das?",
       "notes": "Kontext: Quanto é tudo? – Was macht alles zusammen?",
@@ -25,6 +27,7 @@
     },
     {
       "id": "barato",
+      "stable_id": "card-ms9433ix364g9",
       "front": "barato",
       "back": "billig / günstig",
       "notes": "Kontext: Está muito barato! – Das ist sehr günstig! Weiblich: barata.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "caro",
+      "stable_id": "card-ms9433ix365hw",
       "front": "caro",
       "back": "teuer",
       "notes": "Kontext: Nossa, que caro! – Mensch, wie teuer! Weiblich: cara.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "este",
+      "stable_id": "card-ms9433ix366ag",
       "front": "este / esta",
       "back": "dieser/diese (hier bei mir)",
       "notes": "Kontext: Quero este aqui. – Ich will diesen hier. Für Dinge nahe beim Sprecher.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "esse",
+      "stable_id": "card-ms9433ix367d6",
       "front": "esse / essa",
       "back": "dieser/diese (da bei dir)",
       "notes": "Kontext: Esse aí é bonito. – Der da (bei dir) ist schön. In Brasilien sehr verbreitet, oft auch für 'este'.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "aquele",
+      "stable_id": "card-ms9433ix3682q",
       "front": "aquele / aquela",
       "back": "jener/jene (dort drüben)",
       "notes": "Kontext: Aquele ali, por favor. – Jenen dort, bitte. Für Entferntes.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "a-loja",
+      "stable_id": "card-ms9433ix36953",
       "front": "a loja",
       "back": "das Geschäft / der Laden",
       "notes": "Kontext: A loja abre às nove. – Der Laden öffnet um neun.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "o-dinheiro",
+      "stable_id": "card-ms9433ix36a5y",
       "front": "o dinheiro",
       "back": "das Geld",
       "notes": "Kontext: Pago em dinheiro. – Ich zahle bar. A moeda do Brasil é o real.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "o-cartao",
+      "stable_id": "card-ms9433ix36b5z",
       "front": "o cartão",
       "back": "die Karte (Kreditkarte)",
       "notes": "Kontext: Posso pagar com cartão? – Kann ich mit Karte zahlen?",
@@ -89,6 +99,7 @@
     },
     {
       "id": "a-camiseta",
+      "stable_id": "card-ms9433ix36cxv",
       "front": "a camiseta",
       "back": "das T-Shirt",
       "notes": "Kontext: uma camiseta azul – ein blaues T-Shirt. BR: camiseta, PT: t-shirt/camisola.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "tem-desconto",
+      "stable_id": "card-ms9433ix36dbn",
       "front": "Tem desconto?",
       "back": "Gibt es einen Rabatt?",
       "notes": "Kontext: Tem desconto à vista? – Gibt es Rabatt bei Barzahlung?",
@@ -124,6 +136,7 @@
       "title": "Einkaufs-Wörter zuordnen",
       "exercise": {
         "id": "ex-match-einkaufen",
+        "stable_id": "ex-ms9433ix36emq",
         "type": "matching",
         "prompt": "Ordne jedes portugiesische Wort der deutschen Bedeutung zu.",
         "card_ids": ["barato", "caro", "a-loja", "o-dinheiro", "o-cartao"],
@@ -144,6 +157,7 @@
       "title": "Nach dem Preis fragen",
       "exercise": {
         "id": "ex-free-quanto-custa",
+        "stable_id": "ex-ms9433ix36fkc",
         "type": "free_text",
         "prompt": "Wie fragt man 'Wie viel kostet das?' auf Portugiesisch?",
         "card_ids": ["quanto-custa"],
@@ -160,6 +174,7 @@
       "title": "Teuer",
       "exercise": {
         "id": "ex-free-caro",
+        "stable_id": "ex-ms9433ix36g1w",
         "type": "free_text",
         "prompt": "Wie heißt 'teuer' auf Portugiesisch?",
         "card_ids": ["caro"],
@@ -176,6 +191,7 @@
       "title": "Lücke füllen: dieser hier",
       "exercise": {
         "id": "ex-cloze-este",
+        "stable_id": "ex-ms9433ix36h5l",
         "type": "cloze",
         "prompt": "Ergänze das Wort für 'diesen hier' (nah beim Sprecher, maskulin).",
         "card_ids": ["este"],
@@ -192,6 +208,7 @@
       "title": "Preisfrage bauen",
       "exercise": {
         "id": "ex-tile-quanto-custa",
+        "stable_id": "ex-ms9433ix36i6a",
         "type": "word_tiles",
         "prompt": "Baue die Frage: 'Wie viel kostet dieses T-Shirt?'",
         "card_ids": ["quanto-custa", "a-camiseta"],
@@ -207,6 +224,7 @@
       "title": "Geld erkennen",
       "exercise": {
         "id": "ex-pic-dinheiro",
+        "stable_id": "ex-ms9433ix36j10",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'Geld'?",
         "card_ids": ["o-dinheiro"],

@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "de-die-familie",
+      "stable_id": "card-ms9433ja3jq0y",
       "front": "die Familie",
       "back": "the family",
       "notes": "*Familie* is feminine.",
@@ -13,6 +14,7 @@
     },
     {
       "id": "de-die-mutter",
+      "stable_id": "card-ms9433ja3jr7b",
       "front": "die Mutter",
       "back": "the mother",
       "notes": "Informal: *die Mama* (mum).",
@@ -20,6 +22,7 @@
     },
     {
       "id": "de-der-vater",
+      "stable_id": "card-ms9433ja3jssc",
       "front": "der Vater",
       "back": "the father",
       "notes": "Informal: *der Papa* (dad).",
@@ -27,6 +30,7 @@
     },
     {
       "id": "de-die-schwester",
+      "stable_id": "card-ms9433ja3jtft",
       "front": "die Schwester",
       "back": "the sister",
       "notes": "*Schwester* is feminine.",
@@ -34,6 +38,7 @@
     },
     {
       "id": "de-der-bruder",
+      "stable_id": "card-ms9433ja3judv",
       "front": "der Bruder",
       "back": "the brother",
       "notes": "*Bruder* is masculine.",
@@ -41,6 +46,7 @@
     },
     {
       "id": "de-die-oma",
+      "stable_id": "card-ms9433ja3jv75",
       "front": "die Oma",
       "back": "the grandma",
       "notes": "Affectionate word for grandmother. Formal: *die Großmutter*.",
@@ -48,6 +54,7 @@
     },
     {
       "id": "de-der-opa",
+      "stable_id": "card-ms9433ja3jwy7",
       "front": "der Opa",
       "back": "the grandpa",
       "notes": "Affectionate word for grandfather. Formal: *der Großvater*.",
@@ -55,6 +62,7 @@
     },
     {
       "id": "de-die-tochter",
+      "stable_id": "card-ms9433ja3jx4l",
       "front": "die Tochter",
       "back": "the daughter",
       "notes": "*Tochter* is feminine.",
@@ -62,6 +70,7 @@
     },
     {
       "id": "de-der-sohn",
+      "stable_id": "card-ms9433ja3jy16",
       "front": "der Sohn",
       "back": "the son",
       "notes": "*Sohn* is masculine.",
@@ -69,6 +78,7 @@
     },
     {
       "id": "de-die-eltern",
+      "stable_id": "card-ms9433ja3jzva",
       "front": "die Eltern",
       "back": "the parents",
       "notes": "Plural noun; always used in the plural.",
@@ -76,6 +86,7 @@
     },
     {
       "id": "de-mein-bruder",
+      "stable_id": "card-ms9433ja3k0kr",
       "front": "mein Bruder",
       "back": "my brother",
       "notes": "**mein** (my) is used with masculine and neuter nouns.",
@@ -83,6 +94,7 @@
     },
     {
       "id": "de-meine-schwester",
+      "stable_id": "card-ms9433ja3k10u",
       "front": "meine Schwester",
       "back": "my sister",
       "notes": "**meine** (my) is used with feminine and plural nouns.",
@@ -109,6 +121,7 @@
       "title": "Match family members",
       "exercise": {
         "id": "l4-ex-match-family",
+        "stable_id": "ex-ms9433ja3k283",
         "type": "matching",
         "prompt": "Match each German word with its English meaning.",
         "card_ids": ["de-die-mutter", "de-der-vater", "de-die-schwester", "de-der-bruder"],
@@ -128,6 +141,7 @@
       "title": "Match more family",
       "exercise": {
         "id": "l4-ex-match-grandparents",
+        "stable_id": "ex-ms9433ja3k39f",
         "type": "matching",
         "prompt": "Match each German word with its English meaning.",
         "card_ids": ["de-die-oma", "de-der-opa", "de-die-tochter", "de-der-sohn"],
@@ -147,6 +161,7 @@
       "title": "Write the word",
       "exercise": {
         "id": "l4-ex-free-mother",
+        "stable_id": "ex-ms9433ja3k40x",
         "type": "free_text",
         "prompt": "Write the German for \"the mother\" (article + noun).",
         "card_ids": ["de-die-mutter"],
@@ -163,6 +178,7 @@
       "title": "Write the word",
       "exercise": {
         "id": "l4-ex-free-brother",
+        "stable_id": "ex-ms9433ja3k5ht",
         "type": "free_text",
         "prompt": "Write the German for \"the brother\" (article + noun).",
         "card_ids": ["de-der-bruder"],
@@ -179,6 +195,7 @@
       "title": "Complete with \"my\"",
       "exercise": {
         "id": "l4-ex-cloze-my-sister",
+        "stable_id": "ex-ms9433ja3k6jm",
         "type": "cloze",
         "prompt": "Complete: \"my sister\". (Schwester is feminine.)",
         "card_ids": ["de-meine-schwester"],
@@ -195,6 +212,7 @@
       "title": "Complete with \"my\"",
       "exercise": {
         "id": "l4-ex-cloze-my-brother",
+        "stable_id": "ex-ms9433ja3k71n",
         "type": "cloze",
         "prompt": "Complete: \"my brother\". (Bruder is masculine.)",
         "card_ids": ["de-mein-bruder"],
@@ -211,6 +229,7 @@
       "title": "Build the sentence",
       "exercise": {
         "id": "l4-ex-tiles-my-family",
+        "stable_id": "ex-ms9433ja3k8cm",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to mean \"My father is here.\"",
         "card_ids": ["de-der-vater"],
@@ -226,6 +245,7 @@
       "title": "Write the word",
       "exercise": {
         "id": "l4-ex-free-parents",
+        "stable_id": "ex-ms9433ja3k9gn",
         "type": "free_text",
         "prompt": "Write the German for \"the parents\" (article + noun).",
         "card_ids": ["de-die-eltern"],

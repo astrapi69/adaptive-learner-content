@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "verb-tener",
+      "stable_id": "card-ms9433gw17uvm",
       "front": "tener (tuve)",
       "back": "haben",
       "notes": "Unregelmäßiger u-Stamm: **tuv-**. *Ayer **tuve** una reunión* — gestern hatte ich ein Meeting. Endungen ohne Akzent: tuve, tuviste, tuvo …",
@@ -15,6 +16,7 @@
     },
     {
       "id": "verb-estar",
+      "stable_id": "card-ms9433gw17vya",
       "front": "estar (estuve)",
       "back": "sein (Zustand/Ort)",
       "notes": "u-Stamm: **estuv-**. ***Estuve** en Madrid* — ich war in Madrid. Nicht zu verwechseln mit *fui* (ser).",
@@ -24,6 +26,7 @@
     },
     {
       "id": "verb-poder",
+      "stable_id": "card-ms9433gw17wxt",
       "front": "poder (pude)",
       "back": "können",
       "notes": "u-Stamm: **pud-**. *No **pude** venir* — ich konnte nicht kommen.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "verb-poner",
+      "stable_id": "card-ms9433gw17x0n",
       "front": "poner (puse)",
       "back": "setzen / stellen / legen",
       "notes": "u-Stamm: **pus-**. ***Puse** la mesa* — ich deckte den Tisch.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "verb-saber",
+      "stable_id": "card-ms9433gw17yae",
       "front": "saber (supe)",
       "back": "wissen",
       "notes": "u-Stamm: **sup-**. *Lo **supe** ayer* — ich erfuhr es gestern. Im indefinido oft 'erfahren'.",
@@ -52,6 +57,7 @@
     },
     {
       "id": "verb-hacer",
+      "stable_id": "card-ms9433gw17zzx",
       "front": "hacer (hice)",
       "back": "machen / tun",
       "notes": "i-Stamm: **hic-** (vor o → **hizo**, mit z!). *¿Qué **hiciste**?* — Was hast du gemacht? *Él **hizo** la tarea*.",
@@ -62,6 +68,7 @@
     },
     {
       "id": "verb-querer",
+      "stable_id": "card-ms9433gw180tl",
       "front": "querer (quise)",
       "back": "wollen / mögen",
       "notes": "i-Stamm: **quis-**. ***Quise** ayudar* — ich wollte helfen.",
@@ -71,6 +78,7 @@
     },
     {
       "id": "verb-venir",
+      "stable_id": "card-ms9433gw1812h",
       "front": "venir (vine)",
       "back": "kommen",
       "notes": "i-Stamm: **vin-**. ***Vine** en tren* — ich kam mit dem Zug.",
@@ -80,6 +88,7 @@
     },
     {
       "id": "verb-decir",
+      "stable_id": "card-ms9433gw182nn",
       "front": "decir (dije)",
       "back": "sagen",
       "notes": "j-Stamm: **dij-**. 3. Person Plural ohne i: *dij**eron*** (nicht dijieron). *Me lo **dijo*** — er/sie sagte es mir.",
@@ -90,6 +99,7 @@
     },
     {
       "id": "verb-traer",
+      "stable_id": "card-ms9433gw18349",
       "front": "traer (traje)",
       "back": "bringen",
       "notes": "j-Stamm: **traj-**. Plural: *traj**eron***. ***Traje** el postre* — ich brachte den Nachtisch mit.",
@@ -99,6 +109,7 @@
     },
     {
       "id": "verb-ir-ser",
+      "stable_id": "card-ms9433gw184kb",
       "front": "ir / ser (fui)",
       "back": "gehen / sein",
       "notes": "**ir** und **ser** haben im indefinido die **gleiche** Form: *fui, fuiste, fue …*. Der Kontext entscheidet: ***Fui** al cine* (gehen) vs. *La fiesta **fue** genial* (sein).",
@@ -109,6 +120,7 @@
     },
     {
       "id": "verb-dar",
+      "stable_id": "card-ms9433gw185s1",
       "front": "dar (di)",
       "back": "geben",
       "notes": "Unregelmäßig: *di, diste, dio, dimos, disteis, dieron* — wie ein -er/-ir-Verb, ohne Akzente. *Le **di** un regalo* — ich gab ihm/ihr ein Geschenk.",
@@ -137,6 +149,7 @@
       "title": "Verben verstehen",
       "exercise": {
         "id": "ex-match-meaning",
+        "stable_id": "ex-ms9433gw186b4",
         "type": "matching",
         "prompt": "Ordne jedem spanischen Verb seine deutsche Bedeutung zu.",
         "card_ids": ["verb-tener", "verb-hacer", "verb-decir", "verb-venir", "verb-poder"],
@@ -157,6 +170,7 @@
       "title": "Stamm zum Infinitiv",
       "exercise": {
         "id": "ex-match-stems",
+        "stable_id": "ex-ms9433gw1879j",
         "type": "matching",
         "prompt": "Ordne jedem Infinitiv seinen unregelmäßigen indefinido-Stamm zu.",
         "card_ids": ["verb-tener", "verb-poner", "verb-hacer", "verb-querer", "verb-decir"],
@@ -177,6 +191,7 @@
       "title": "Gestern hatte ich keine Zeit",
       "exercise": {
         "id": "ex-cloze-tuve",
+        "stable_id": "ex-ms9433gw1886h",
         "type": "cloze",
         "prompt": "Ergänze die yo-Form von *tener* im indefinido.",
         "card_ids": ["verb-tener"],
@@ -195,6 +210,7 @@
       "title": "Was hast du gestern gemacht?",
       "exercise": {
         "id": "ex-free-i-did",
+        "stable_id": "ex-ms9433gw189pl",
         "type": "free_text",
         "prompt": "Übersetze ins Spanische: *Ich machte nichts.* (yo-Form von hacer)",
         "card_ids": ["verb-hacer"],
@@ -220,6 +236,7 @@
       "title": "Sie ging ins Kino",
       "exercise": {
         "id": "ex-pic-she-went",
+        "stable_id": "ex-ms9433gw18aq7",
         "type": "picture_choice",
         "prompt": "Welcher Satz bedeutet *Sie ging gestern ins Kino*?",
         "card_ids": ["verb-ir-ser"],
@@ -245,6 +262,7 @@
       "title": "Bilde: Ich kam mit dem Zug",
       "exercise": {
         "id": "ex-tiles-i-came",
+        "stable_id": "ex-ms9433gw18buw",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Ich kam mit dem Zug.*",
         "card_ids": ["verb-venir"],
@@ -260,6 +278,7 @@
       "title": "Er sagte es mir",
       "exercise": {
         "id": "ex-free-he-said",
+        "stable_id": "ex-ms9433gw18c14",
         "type": "free_text",
         "prompt": "Übersetze ins Spanische: *Er sagte mir die Wahrheit.* (él-Form von decir)",
         "card_ids": ["verb-decir"],
@@ -285,6 +304,7 @@
       "title": "Sie sagten nichts",
       "exercise": {
         "id": "ex-cloze-dijeron",
+        "stable_id": "ex-ms9433gw18drw",
         "type": "cloze",
         "prompt": "Ergänze die ellos-Form von *decir* (j-Stamm!).",
         "card_ids": ["verb-decir"],
@@ -309,6 +329,7 @@
       "title": "Verstehen: Estuve en Madrid",
       "exercise": {
         "id": "ex-free-receptive-estuve",
+        "stable_id": "ex-ms9433gw18evt",
         "type": "free_text",
         "prompt": "Was bedeutet auf Deutsch: *Estuve en Madrid dos días.*",
         "card_ids": ["verb-estar"],
@@ -334,6 +355,7 @@
       "title": "Bilde: Ich konnte nicht kommen",
       "exercise": {
         "id": "ex-tiles-i-couldnt",
+        "stable_id": "ex-ms9433gw18f5g",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Ich konnte gestern nicht kommen.*",
         "card_ids": ["verb-poder", "verb-venir"],

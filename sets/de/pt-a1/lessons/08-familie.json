@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "a-mae",
+      "stable_id": "card-ms9433iy37mmd",
       "front": "a mãe",
       "back": "die Mutter",
       "notes": "Kontext: Minha mãe é professora. – Meine Mutter ist Lehrerin.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "o-pai",
+      "stable_id": "card-ms9433iy37nwm",
       "front": "o pai",
       "back": "der Vater",
       "notes": "Kontext: Meu pai trabalha muito. – Mein Vater arbeitet viel.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "os-pais",
+      "stable_id": "card-ms9433iy37or4",
       "front": "os pais",
       "back": "die Eltern",
       "notes": "Kontext: Moro com meus pais. – Ich wohne bei meinen Eltern.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "o-irmao",
+      "stable_id": "card-ms9433iy37p81",
       "front": "o irmão",
       "back": "der Bruder",
       "notes": "Kontext: Tenho um irmão mais velho. – Ich habe einen älteren Bruder.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "a-irma",
+      "stable_id": "card-ms9433iy37q6j",
       "front": "a irmã",
       "back": "die Schwester",
       "notes": "Kontext: Minha irmã estuda medicina. – Meine Schwester studiert Medizin.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "o-filho",
+      "stable_id": "card-ms9433iy37ryz",
       "front": "o filho",
       "back": "der Sohn",
       "notes": "Kontext: Meu filho tem cinco anos. – Mein Sohn ist fünf Jahre alt.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "a-filha",
+      "stable_id": "card-ms9433iy37s2q",
       "front": "a filha",
       "back": "die Tochter",
       "notes": "Kontext: Minha filha gosta de música. – Meine Tochter mag Musik.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "o-avo",
+      "stable_id": "card-ms9433iy37tn7",
       "front": "o avô",
       "back": "der Großvater",
       "notes": "Kontext: Meu avô tem oitenta anos. – Mein Opa ist achtzig. Beachte den Zirkumflex: avô (Opa) vs avó (Oma).",
@@ -73,6 +81,7 @@
     },
     {
       "id": "a-avo",
+      "stable_id": "card-ms9433iy37uwk",
       "front": "a avó",
       "back": "die Großmutter",
       "notes": "Kontext: Minha avó cozinha bem. – Meine Oma kocht gut. avó (Oma) mit Akut, avô (Opa) mit Zirkumflex.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "o-marido",
+      "stable_id": "card-ms9433iy37vof",
       "front": "o marido",
       "back": "der Ehemann",
       "notes": "Kontext: Meu marido é brasileiro. – Mein Mann ist Brasilianer.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "a-esposa",
+      "stable_id": "card-ms9433iy37wfz",
       "front": "a esposa",
       "back": "die Ehefrau",
       "notes": "Kontext: A esposa dele é alemã. – Seine Frau ist Deutsche.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "meu-minha",
+      "stable_id": "card-ms9433iy37xv9",
       "front": "meu / minha",
       "back": "mein/meine",
       "notes": "Kontext: meu pai, minha mãe – mein Vater, meine Mutter. 'meu' (m.), 'minha' (w.).",
@@ -105,6 +117,7 @@
     },
     {
       "id": "a-crianca",
+      "stable_id": "card-ms9433iy37ys7",
       "front": "a criança",
       "back": "das Kind",
       "notes": "Kontext: A criança brinca no parque. – Das Kind spielt im Park. Immer feminin, egal ob Junge oder Mädchen.",
@@ -132,6 +145,7 @@
       "title": "Familienmitglieder zuordnen",
       "exercise": {
         "id": "ex-match-familie",
+        "stable_id": "ex-ms9433iy37z0v",
         "type": "matching",
         "prompt": "Ordne jedes portugiesische Wort der deutschen Bedeutung zu.",
         "card_ids": ["a-mae", "o-pai", "o-irmao", "a-irma", "o-filho"],
@@ -152,6 +166,7 @@
       "title": "Die Mutter",
       "exercise": {
         "id": "ex-free-mae",
+        "stable_id": "ex-ms9433iy380lg",
         "type": "free_text",
         "prompt": "Wie heißt 'die Mutter' auf Portugiesisch (mit Artikel)?",
         "card_ids": ["a-mae"],
@@ -168,6 +183,7 @@
       "title": "Die Großmutter",
       "exercise": {
         "id": "ex-free-avo",
+        "stable_id": "ex-ms9433iy3814h",
         "type": "free_text",
         "prompt": "Wie heißt 'die Großmutter' auf Portugiesisch (mit Artikel)?",
         "card_ids": ["a-avo"],
@@ -184,6 +200,7 @@
       "title": "Lücke füllen: mein Vater",
       "exercise": {
         "id": "ex-cloze-meu-pai",
+        "stable_id": "ex-ms9433iy382rc",
         "type": "cloze",
         "prompt": "Ergänze das Possessivpronomen: '___ pai' (mein Vater).",
         "card_ids": ["meu-minha", "o-pai"],
@@ -200,6 +217,7 @@
       "title": "Satz über die Mutter",
       "exercise": {
         "id": "ex-tile-minha-mae",
+        "stable_id": "ex-ms9433iy383oq",
         "type": "word_tiles",
         "prompt": "Baue: 'Meine Mutter ist Lehrerin.'",
         "card_ids": ["meu-minha", "a-mae"],
@@ -215,6 +233,7 @@
       "title": "Familienmitglied erkennen",
       "exercise": {
         "id": "ex-pic-irma",
+        "stable_id": "ex-ms9433iy384ul",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'die Schwester'?",
         "card_ids": ["a-irma"],

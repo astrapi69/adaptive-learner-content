@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "fr-b1-cond-form",
+      "stable_id": "card-ms9433kx52ou5",
       "front": "parler → je parlerais",
       "back": "conditional = future stem + imparfait endings (-ais, -ais, -ait, -ions, -iez, -aient)",
       "notes": "Same stem as the futur simple, but the imparfait endings: *je parlerais, tu parlerais, il parlerait…*",
@@ -18,6 +19,7 @@
     },
     {
       "id": "fr-b1-si-pattern",
+      "stable_id": "card-ms9433kx52phn",
       "front": "Si + imparfait, … conditionnel",
       "back": "the hypothesis pattern: si-clause in the imparfait, result in the conditional",
       "notes": "*Si j'avais le temps, je voyagerais.* — If I had time, I would travel. Never put the conditional in the *si*-clause.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "fr-b1-si-javais",
+      "stable_id": "card-ms9433kx52q9f",
       "front": "Si j'avais le temps",
       "back": "If I had time (imparfait of avoir)",
       "notes": "The *si*-clause uses the **imparfait** (*avais*), not the conditional.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "fr-b1-je-voyagerais",
+      "stable_id": "card-ms9433kx52r9i",
       "front": "je voyagerais",
       "back": "I would travel",
       "notes": "Conditional of *voyager*: future stem *voyager-* + *-ais*.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "fr-b1-cond-irregular",
+      "stable_id": "card-ms9433kx52su1",
       "front": "être → serais; avoir → aurais; faire → ferais; aller → irais",
       "back": "irregular conditional stems (same as the future)",
       "notes": "The conditional borrows the **future stem**, so the same irregulars apply: *serais, aurais, ferais, irais, viendrais, pourrais, voudrais*.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "fr-b1-cond-politeness",
+      "stable_id": "card-ms9433kx52tz2",
       "front": "Je voudrais un café.",
       "back": "I would like a coffee. (polite conditional)",
       "notes": "The conditional also softens requests: *je voudrais*, *pourriez-vous…?*",
@@ -63,6 +69,7 @@
     },
     {
       "id": "fr-b1-si-tu-venais",
+      "stable_id": "card-ms9433kx52ua3",
       "front": "Si tu venais, je serais content.",
       "back": "If you came, I would be happy.",
       "notes": "imparfait (venais) in the si-clause, conditional (serais) in the result.",
@@ -91,6 +98,7 @@
       "title": "Match the conditional forms",
       "exercise": {
         "id": "ex-match-cond",
+        "stable_id": "ex-ms9433kx52v4g",
         "type": "matching",
         "prompt": "Match each verb with its je-conditional form.",
         "card_ids": ["fr-b1-cond-form", "fr-b1-cond-irregular", "fr-b1-je-voyagerais"],
@@ -110,6 +118,7 @@
       "title": "What goes in the si-clause?",
       "exercise": {
         "id": "ex-cloze-si-imparfait",
+        "stable_id": "ex-ms9433kx52w40",
         "type": "cloze",
         "prompt": "Fill in the imparfait of avoir: \"If I had time, I would travel.\"",
         "card_ids": ["fr-b1-si-javais", "fr-b1-si-pattern"],
@@ -126,6 +135,7 @@
       "title": "What goes in the result?",
       "exercise": {
         "id": "ex-cloze-result-conditionnel",
+        "stable_id": "ex-ms9433kx52xk7",
         "type": "cloze",
         "prompt": "Fill in the conditional of être: \"If you came, I would be happy.\"",
         "card_ids": ["fr-b1-si-tu-venais"],
@@ -142,6 +152,7 @@
       "title": "Build a full hypothesis",
       "exercise": {
         "id": "ex-free-if-rich",
+        "stable_id": "ex-ms9433kx52yg3",
         "type": "free_text",
         "prompt": "Translate: *If I were rich, I would travel.* (être → imparfait; voyager → conditional)",
         "card_ids": ["fr-b1-si-pattern", "fr-b1-je-voyagerais"],
@@ -158,6 +169,7 @@
       "title": "A polite request",
       "exercise": {
         "id": "ex-tiles-polite",
+        "stable_id": "ex-ms9433kx52zs5",
         "type": "word_tiles",
         "prompt": "Arrange the polite request: *I would like a coffee, please.*",
         "card_ids": ["fr-b1-cond-politeness"],

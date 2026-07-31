@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "de-a2-gemacht",
+      "stable_id": "card-ms9433jb3ku75",
       "front": "gemacht",
       "back": "done / made",
       "notes": "Past participle of *machen*. Regular pattern: **ge-** + stem + **-t**.",
@@ -13,6 +14,7 @@
     },
     {
       "id": "de-a2-gekauft",
+      "stable_id": "card-ms9433jb3kvtf",
       "front": "gekauft",
       "back": "bought",
       "notes": "Past participle of *kaufen* (regular).",
@@ -20,6 +22,7 @@
     },
     {
       "id": "de-a2-gespielt",
+      "stable_id": "card-ms9433jb3kw8j",
       "front": "gespielt",
       "back": "played",
       "notes": "Past participle of *spielen* (regular).",
@@ -27,6 +30,7 @@
     },
     {
       "id": "de-a2-gegessen",
+      "stable_id": "card-ms9433jb3kxfo",
       "front": "gegessen",
       "back": "eaten",
       "notes": "Past participle of *essen* (irregular: **ge-** + …**-en**).",
@@ -34,6 +38,7 @@
     },
     {
       "id": "de-a2-getrunken",
+      "stable_id": "card-ms9433jb3kyds",
       "front": "getrunken",
       "back": "drunk",
       "notes": "Past participle of *trinken* (irregular, vowel change).",
@@ -41,6 +46,7 @@
     },
     {
       "id": "de-a2-gefahren",
+      "stable_id": "card-ms9433jb3kzl3",
       "front": "gefahren",
       "back": "driven / gone (by vehicle)",
       "notes": "Past participle of *fahren*. Uses **sein** (movement).",
@@ -48,6 +54,7 @@
     },
     {
       "id": "de-a2-gegangen",
+      "stable_id": "card-ms9433jb3l0in",
       "front": "gegangen",
       "back": "gone (on foot)",
       "notes": "Past participle of *gehen*. Uses **sein** (movement).",
@@ -55,6 +62,7 @@
     },
     {
       "id": "de-a2-habe-gemacht",
+      "stable_id": "card-ms9433jb3l1ex",
       "front": "Ich habe … gemacht",
       "back": "I did / I have done",
       "notes": "Perfekt = **haben** (position 2) + participle at the end.",
@@ -62,6 +70,7 @@
     },
     {
       "id": "de-a2-bin-gegangen",
+      "stable_id": "card-ms9433jb3l2x9",
       "front": "Ich bin … gegangen",
       "back": "I went / I have gone",
       "notes": "Verbs of movement/change take **sein**, not haben.",
@@ -69,6 +78,7 @@
     },
     {
       "id": "de-a2-gestern",
+      "stable_id": "card-ms9433jb3l3mt",
       "front": "gestern",
       "back": "yesterday",
       "notes": "A common time word with the Perfekt.",
@@ -76,6 +86,7 @@
     },
     {
       "id": "de-a2-am-wochenende",
+      "stable_id": "card-ms9433jb3l4s8",
       "front": "am Wochenende",
       "back": "at the weekend",
       "notes": "*das Wochenende* = the weekend.",
@@ -96,6 +107,7 @@
       "title": "Match the participles",
       "exercise": {
         "id": "l1-ex-match-participles",
+        "stable_id": "ex-ms9433jb3l561",
         "type": "matching",
         "prompt": "Match each German past participle with its English meaning.",
         "card_ids": ["de-a2-gemacht", "de-a2-gekauft", "de-a2-gegessen", "de-a2-getrunken"],
@@ -115,6 +127,7 @@
       "title": "Choose the right helper (haben)",
       "exercise": {
         "id": "l1-ex-cloze-haben",
+        "stable_id": "ex-ms9433jb3l6j9",
         "type": "cloze",
         "prompt": "Complete: \"I ate pizza.\"",
         "card_ids": ["de-a2-habe-gemacht", "de-a2-gegessen"],
@@ -131,6 +144,7 @@
       "title": "Choose the right helper (sein)",
       "exercise": {
         "id": "l1-ex-cloze-sein",
+        "stable_id": "ex-ms9433jb3l7k3",
         "type": "cloze",
         "prompt": "Complete: \"We went to Berlin.\"",
         "card_ids": ["de-a2-bin-gegangen", "de-a2-gefahren"],
@@ -147,6 +161,7 @@
       "title": "Build a past-tense sentence",
       "exercise": {
         "id": "l1-ex-tiles-perfekt",
+        "stable_id": "ex-ms9433jb3l8fr",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to say: \"I played football.\"",
         "card_ids": ["de-a2-gespielt"],
@@ -162,6 +177,7 @@
       "title": "Say \"yesterday\"",
       "exercise": {
         "id": "l1-ex-free-yesterday",
+        "stable_id": "ex-ms9433jb3l9nb",
         "type": "free_text",
         "prompt": "How do you say \"yesterday\" in German?",
         "card_ids": ["de-a2-gestern"],

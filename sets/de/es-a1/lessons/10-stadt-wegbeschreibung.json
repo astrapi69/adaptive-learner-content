@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "la-calle",
+      "stable_id": "card-ms9433gr12ujs",
       "front": "la calle",
       "back": "die Straße",
       "tags": [
@@ -17,6 +18,7 @@
     },
     {
       "id": "el-banco",
+      "stable_id": "card-ms9433gr12v8j",
       "front": "el banco",
       "back": "die Bank (Geldinstitut)",
       "tags": [
@@ -26,6 +28,7 @@
     },
     {
       "id": "la-plaza",
+      "stable_id": "card-ms9433gr12w8j",
       "front": "la plaza",
       "back": "der Platz",
       "tags": [
@@ -35,6 +38,7 @@
     },
     {
       "id": "el-museo",
+      "stable_id": "card-ms9433gr12x9d",
       "front": "el museo",
       "back": "das Museum",
       "tags": [
@@ -44,6 +48,7 @@
     },
     {
       "id": "la-tienda",
+      "stable_id": "card-ms9433gr12yah",
       "front": "la tienda",
       "back": "das Geschäft / der Laden",
       "tags": [
@@ -53,6 +58,7 @@
     },
     {
       "id": "la-estacion",
+      "stable_id": "card-ms9433gr12zzb",
       "front": "la estación",
       "back": "der Bahnhof / die Station",
       "notes": "Akzent auf dem ó. Plural: las estaciones (ohne Akzent).",
@@ -63,6 +69,7 @@
     },
     {
       "id": "el-hotel",
+      "stable_id": "card-ms9433gr1306w",
       "front": "el hotel",
       "back": "das Hotel",
       "tags": [
@@ -72,6 +79,7 @@
     },
     {
       "id": "el-restaurante",
+      "stable_id": "card-ms9433gr1314i",
       "front": "el restaurante",
       "back": "das Restaurant",
       "tags": [
@@ -81,6 +89,7 @@
     },
     {
       "id": "en",
+      "stable_id": "card-ms9433gr1326z",
       "front": "en",
       "back": "in / an / auf",
       "tags": [
@@ -89,6 +98,7 @@
     },
     {
       "id": "al-lado-de",
+      "stable_id": "card-ms9433gr133ka",
       "front": "al lado de",
       "back": "neben",
       "tags": [
@@ -97,6 +107,7 @@
     },
     {
       "id": "entre",
+      "stable_id": "card-ms9433gr134rp",
       "front": "entre",
       "back": "zwischen",
       "tags": [
@@ -105,6 +116,7 @@
     },
     {
       "id": "enfrente-de",
+      "stable_id": "card-ms9433gr135hm",
       "front": "enfrente de",
       "back": "gegenüber",
       "tags": [
@@ -113,6 +125,7 @@
     },
     {
       "id": "a-la-derecha",
+      "stable_id": "card-ms9433gr136fh",
       "front": "a la derecha",
       "back": "nach rechts / rechts",
       "tags": [
@@ -121,6 +134,7 @@
     },
     {
       "id": "a-la-izquierda",
+      "stable_id": "card-ms9433gr137bp",
       "front": "a la izquierda",
       "back": "nach links / links",
       "tags": [
@@ -129,6 +143,7 @@
     },
     {
       "id": "todo-recto",
+      "stable_id": "card-ms9433gr1384b",
       "front": "todo recto",
       "back": "geradeaus",
       "tags": [
@@ -137,6 +152,7 @@
     },
     {
       "id": "voy-al-banco",
+      "stable_id": "card-ms9433gr139q9",
       "front": "Voy al banco.",
       "back": "Ich gehe zur Bank. (a + el = al)",
       "notes": "a + el verschmilzt zu al. Niemals 'a el'.",
@@ -146,6 +162,7 @@
     },
     {
       "id": "museo-derecha",
+      "stable_id": "card-ms9433gr13awz",
       "front": "El museo está a la derecha.",
       "back": "Das Museum ist rechts.",
       "tags": [
@@ -154,6 +171,7 @@
     },
     {
       "id": "al-lado-del-restaurante",
+      "stable_id": "card-ms9433gr13bfu",
       "front": "al lado del restaurante",
       "back": "neben dem Restaurant (de + el = del)",
       "notes": "de + el verschmilzt zu del. Niemals 'de el'.",
@@ -188,6 +206,7 @@
       "title": "Orte zuordnen",
       "exercise": {
         "id": "ex-match-orte",
+        "stable_id": "ex-ms9433gr13c9z",
         "type": "matching",
         "prompt": "Ordne die spanischen Orte ihrer deutschen Bedeutung zu.",
         "card_ids": [
@@ -229,6 +248,7 @@
       "title": "Richtungen zuordnen",
       "exercise": {
         "id": "ex-match-richtungen",
+        "stable_id": "ex-ms9433gr13d4f",
         "type": "matching",
         "prompt": "Ordne die spanischen Richtungsangaben ihrer deutschen Bedeutung zu.",
         "card_ids": [
@@ -270,6 +290,7 @@
       "title": "Lücke füllen: a + el",
       "exercise": {
         "id": "ex-cloze-al",
+        "stable_id": "ex-ms9433gr13em9",
         "type": "cloze",
         "prompt": "Verschmilz a + el zur richtigen Form. 'Ich gehe zur Bank.'",
         "card_ids": [
@@ -297,6 +318,7 @@
       "title": "Lücke füllen: de + el",
       "exercise": {
         "id": "ex-cloze-del",
+        "stable_id": "ex-ms9433gr13fg7",
         "type": "cloze",
         "prompt": "Verschmilz de + el zur richtigen Form. 'Das Hotel ist neben dem Museum.'",
         "card_ids": [
@@ -325,6 +347,7 @@
       "title": "Lücke füllen: keine Verschmelzung",
       "exercise": {
         "id": "ex-cloze-a-la",
+        "stable_id": "ex-ms9433gr13gr4",
         "type": "cloze",
         "prompt": "Hier folgt 'la' - es verschmilzt nichts. 'Das Geschäft ist rechts.'",
         "card_ids": [
@@ -352,6 +375,7 @@
       "title": "Übersetzen: zur Bank gehen",
       "exercise": {
         "id": "ex-free-voy-al-banco",
+        "stable_id": "ex-ms9433gr13huz",
         "type": "free_text",
         "prompt": "Übersetze: 'Ich gehe zur Bank.' (Denk an a + el = al.)",
         "card_ids": [
@@ -379,6 +403,7 @@
       "title": "Übersetzen: rechts",
       "exercise": {
         "id": "ex-free-museo-derecha",
+        "stable_id": "ex-ms9433gr13in9",
         "type": "free_text",
         "prompt": "Übersetze: 'Das Museum ist rechts.' (Ort → estar.)",
         "card_ids": [
@@ -407,6 +432,7 @@
       "title": "neben dem Museum",
       "exercise": {
         "id": "ex-pick-al-lado-del",
+        "stable_id": "ex-ms9433gr13jne",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Form: 'neben dem Museum' (de + el = del).",
         "card_ids": [
@@ -448,6 +474,7 @@
       "title": "zur Bank",
       "exercise": {
         "id": "ex-pick-al-banco",
+        "stable_id": "ex-ms9433gr13k1f",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Form: 'zur Bank' (a + el = al).",
         "card_ids": [
@@ -489,6 +516,7 @@
       "title": "Satz bauen: gegenüber dem Platz",
       "exercise": {
         "id": "ex-tile-enfrente",
+        "stable_id": "ex-ms9433gr13lir",
         "type": "word_tiles",
         "prompt": "Setze den Satz zusammen: 'Die Bank ist gegenüber dem Platz.'",
         "card_ids": [
@@ -516,6 +544,7 @@
       "title": "Satz bauen: links",
       "exercise": {
         "id": "ex-tile-izquierda",
+        "stable_id": "ex-ms9433gr13mli",
         "type": "word_tiles",
         "prompt": "Setze den Satz zusammen: 'Das Geschäft ist links.'",
         "card_ids": [
@@ -541,6 +570,7 @@
       "title": "Übersetzen: neben dem Restaurant",
       "exercise": {
         "id": "ex-free-al-lado-restaurante",
+        "stable_id": "ex-ms9433gr13n23",
         "type": "free_text",
         "prompt": "Übersetze: 'neben dem Restaurant' (de + el = del).",
         "card_ids": [

@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "env-medio-ambiente",
+      "stable_id": "card-ms9433ka4ghgd",
       "front": "el medio ambiente",
       "back": "the environment",
       "notes": "*El medio ambiente* is the natural world around us. Note it is **two words** and masculine: *proteger el medio ambiente* (to protect the environment). *Cuidar el medio ambiente* = to look after the environment.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "env-cambio-climatico",
+      "stable_id": "card-ms9433ka4gij9",
       "front": "el cambio climático / el calentamiento global",
       "back": "climate change / global warming",
       "notes": "*El cambio climático* (climate change) and *el calentamiento global* (global warming) are the two most common terms. *Climático* is an adjective here; the noun is *el clima* (the climate, masculine despite the -a).",
@@ -27,6 +29,7 @@
     },
     {
       "id": "env-contaminacion",
+      "stable_id": "card-ms9433ka4gjwa",
       "front": "la contaminación",
       "back": "pollution",
       "notes": "*La contaminación* = pollution (air, water, etc.). The verb is *contaminar* (to pollute). Careful: *contaminación* is **pollution**, not 'contamination' in the food/medical sense, though context can overlap.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "env-reciclaje-residuos",
+      "stable_id": "card-ms9433ka4gkd9",
       "front": "el reciclaje / los residuos",
       "back": "recycling / waste",
       "notes": "*El reciclaje* (recycling), verb *reciclar* (to recycle). *Los residuos* = waste, refuse; *la basura* is everyday rubbish/trash. *Reducir los residuos* = to reduce waste.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "env-energias-renovables",
+      "stable_id": "card-ms9433ka4glkr",
       "front": "las energías renovables / la sostenibilidad",
       "back": "renewable energy / sustainability",
       "notes": "*Las energías renovables* (renewable energy, often plural in Spanish): *solar, eólica* (wind). *La sostenibilidad* = sustainability; the adjective *sostenible* = sustainable.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "soc-igualdad-pobreza",
+      "stable_id": "card-ms9433ka4gmvs",
       "front": "la igualdad / la pobreza",
       "back": "equality / poverty",
       "notes": "*La igualdad* (equality), opposite *la desigualdad* (inequality). *La pobreza* (poverty), adjective *pobre*. *Luchar contra la pobreza* = to fight against poverty.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "soc-inmigracion-derechos",
+      "stable_id": "card-ms9433ka4gn9s",
       "front": "la inmigración / los derechos",
       "back": "immigration / rights",
       "notes": "*La inmigración* (immigration) — note **inm-**, not 'imm-' as in English. *Los derechos* = rights: *los derechos humanos* (human rights). *Un derecho* is also a noun meaning a right/entitlement.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "soc-voluntariado-solidaridad",
+      "stable_id": "card-ms9433ka4gob8",
       "front": "el voluntariado / la solidaridad",
       "back": "volunteering / solidarity",
       "notes": "*El voluntariado* = volunteering / voluntary work; *un voluntario / una voluntaria* = a volunteer. *La solidaridad* = solidarity; *ser solidario* = to be supportive/caring of others.",
@@ -81,6 +89,7 @@
     },
     {
       "id": "soc-sensible-false-friend",
+      "stable_id": "card-ms9433ka4gp9z",
       "front": "sensible (≠ sensible) = sensitive",
       "back": "sensitive — NOT 'sensible'; 'sensible' = sensato/razonable",
       "notes": "**False friend!** Spanish *sensible* means **sensitive** (emotionally or physically), e.g. *Es muy sensible a las críticas* (He's very sensitive to criticism). To say English 'sensible' (reasonable, level-headed), use **sensato** or **razonable**: *una decisión sensata* (a sensible decision). Don't say *una decisión sensible* for a wise choice.",
@@ -90,6 +99,7 @@
     },
     {
       "id": "soc-hay-que-deberiamos",
+      "stable_id": "card-ms9433ka4gqto",
       "front": "hay que reciclar / deberíamos reciclar",
       "back": "one must recycle / we should recycle",
       "notes": "**Hay que + infinitive** = impersonal 'one must / it is necessary to' (no specific subject): *Hay que reciclar más*. Contrast with **tener que + infinitive**, which is personal: *Tengo que reciclar* (I have to). **Deberíamos + infinitive** (conditional of *deber*) = a softer 'we should / we ought to'.",
@@ -99,6 +109,7 @@
     },
     {
       "id": "soc-es-necesario-que",
+      "stable_id": "card-ms9433ka4grrn",
       "front": "Es necesario que todos reciclemos.",
       "back": "It is necessary that we all recycle. (subjunctive!)",
       "notes": "Impersonal value judgements — *es necesario que, es importante que, es fundamental que* — trigger the **subjunctive**: *Es necesario que todos **reciclemos***. English speakers often wrongly use the indicative (*reciclamos*). If there is no *que* and no named subject, use the infinitive instead: *Es necesario reciclar*.",
@@ -108,6 +119,7 @@
     },
     {
       "id": "soc-si-reciclaramos",
+      "stable_id": "card-ms9433ka4gsmw",
       "front": "Si todos recicláramos, habría menos residuos.",
       "back": "If we all recycled, there would be less waste. (hypothetical)",
       "notes": "For a hypothetical / unlikely situation, use **si + imperfect subjunctive, ... + conditional**: *Si todos **recicláramos**, **habría** menos residuos*. Connectors of cause/consequence: **debido a** (due to) + noun, and **por lo tanto** (therefore): *Hay mucha contaminación; **por lo tanto**, debemos actuar*.",
@@ -142,6 +154,7 @@
       "title": "Environment vocabulary",
       "exercise": {
         "id": "ex-match-env-vocab",
+        "stable_id": "ex-ms9433ka4gt7p",
         "type": "matching",
         "prompt": "Match each Spanish term with its English meaning.",
         "card_ids": ["env-medio-ambiente", "env-contaminacion", "env-reciclaje-residuos", "env-energias-renovables"],
@@ -162,6 +175,7 @@
       "title": "The sensible / sensata false friend",
       "exercise": {
         "id": "ex-free-sensible-sensata",
+        "stable_id": "ex-ms9433ka4gunw",
         "type": "free_text",
         "prompt": "Translate: *It is a sensible decision.* (sensible = reasonable, so use sensata!)",
         "card_ids": ["soc-sensible-false-friend"],
@@ -178,6 +192,7 @@
       "title": "Es necesario que + subjunctive",
       "exercise": {
         "id": "ex-cloze-es-necesario",
+        "stable_id": "ex-ms9433ka4gvlq",
         "type": "cloze",
         "prompt": "Fill in the present subjunctive of *reciclar* for nosotros.",
         "card_ids": ["soc-es-necesario-que"],
@@ -194,6 +209,7 @@
       "title": "Build: one must protect the environment",
       "exercise": {
         "id": "ex-tiles-hay-que",
+        "stable_id": "ex-ms9433ka4gww3",
         "type": "word_tiles",
         "prompt": "Arrange the words: *One must protect the environment.* (impersonal hay que)",
         "card_ids": ["soc-hay-que-deberiamos", "env-medio-ambiente"],
@@ -209,6 +225,7 @@
       "title": "We should use renewable energy",
       "exercise": {
         "id": "ex-pic-renovables",
+        "stable_id": "ex-ms9433ka4gxto",
         "type": "picture_choice",
         "prompt": "Which sentence correctly says 'We should use more renewable energy'?",
         "card_ids": ["soc-hay-que-deberiamos", "env-energias-renovables"],
@@ -230,6 +247,7 @@
       "title": "If we all recycled...",
       "exercise": {
         "id": "ex-free-si-reciclaramos",
+        "stable_id": "ex-ms9433ka4gyp7",
         "type": "free_text",
         "prompt": "Translate: *If we all recycled, there would be less waste.* (si + imperfect subjunctive, conditional)",
         "card_ids": ["soc-si-reciclaramos", "env-reciclaje-residuos"],
@@ -246,6 +264,7 @@
       "title": "Society vocabulary",
       "exercise": {
         "id": "ex-match-society-vocab",
+        "stable_id": "ex-ms9433ka4gzin",
         "type": "matching",
         "prompt": "Match each Spanish term with its English meaning.",
         "card_ids": ["soc-igualdad-pobreza", "soc-inmigracion-derechos", "soc-voluntariado-solidaridad"],
@@ -266,6 +285,7 @@
       "title": "Cause connector: debido a",
       "exercise": {
         "id": "ex-cloze-debido-a",
+        "stable_id": "ex-ms9433ka4h03r",
         "type": "cloze",
         "prompt": "Fill in the cause connector meaning 'due to'.",
         "card_ids": ["soc-si-reciclaramos"],
@@ -282,6 +302,7 @@
       "title": "Impersonal 'one must'",
       "exercise": {
         "id": "ex-free-hay-que-vs-tener",
+        "stable_id": "ex-ms9433ka4h1af",
         "type": "free_text",
         "prompt": "Translate: *One must fight against poverty.* (impersonal, no named subject → hay que)",
         "card_ids": ["soc-hay-que-deberiamos", "soc-igualdad-pobreza"],
@@ -298,6 +319,7 @@
       "title": "Es importante que + subjunctive",
       "exercise": {
         "id": "ex-free-es-importante-participe",
+        "stable_id": "ex-ms9433ka4h2aj",
         "type": "free_text",
         "prompt": "Translate: *It's important that society participate.* (es importante que + subjunctive)",
         "card_ids": ["soc-es-necesario-que", "soc-voluntariado-solidaridad"],
@@ -314,6 +336,7 @@
       "title": "Consequence connector",
       "exercise": {
         "id": "ex-cloze-por-lo-tanto",
+        "stable_id": "ex-ms9433ka4h32d",
         "type": "cloze",
         "prompt": "Fill in the connector meaning 'therefore / so'.",
         "card_ids": ["soc-si-reciclaramos"],

@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "hi-sorry",
+      "stable_id": "card-ms9433l158dkt",
       "front": "Sorry",
       "back": "माफ़ कीजिए",
       "notes": "To apologise.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "hi-welcome",
+      "stable_id": "card-ms9433l158ess",
       "front": "You are welcome.",
       "back": "आपका स्वागत है।",
       "notes": "A reply to *thank you*.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "hi-may-i",
+      "stable_id": "card-ms9433l158f7v",
       "front": "May I?",
       "back": "क्या मैं कर सकता हूँ?",
       "notes": "A polite way to ask permission.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "hi-of-course",
+      "stable_id": "card-ms9433l158gcs",
       "front": "Of course.",
       "back": "ज़रूर।",
       "notes": "A polite yes.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "hi-no-problem",
+      "stable_id": "card-ms9433l158hn5",
       "front": "No problem.",
       "back": "कोई बात नहीं।",
       "notes": "A relaxed, friendly reply.",
@@ -51,6 +56,7 @@
     },
     {
       "id": "hi-can-you-help",
+      "stable_id": "card-ms9433l158i1q",
       "front": "Can you help me?",
       "back": "क्या आप मेरी मदद कर सकते हैं?",
       "notes": "Asking for help politely.",
@@ -60,6 +66,7 @@
     },
     {
       "id": "hi-after-you",
+      "stable_id": "card-ms9433l158jqa",
       "front": "After you.",
       "back": "आप पहले।",
       "notes": "Letting someone go first.",
@@ -69,6 +76,7 @@
     },
     {
       "id": "hi-take-care",
+      "stable_id": "card-ms9433l158kr0",
       "front": "Take care.",
       "back": "अपना ख़्याल रखना।",
       "notes": "A warm farewell.",
@@ -78,6 +86,7 @@
     },
     {
       "id": "hi-good-night",
+      "stable_id": "card-ms9433l158l8a",
       "front": "Good night.",
       "back": "शुभ रात्रि।",
       "notes": "Said when parting at night.",
@@ -87,6 +96,7 @@
     },
     {
       "id": "hi-pleased",
+      "stable_id": "card-ms9433l158mvt",
       "front": "Pleased to meet you.",
       "back": "आपसे मिलकर ख़ुशी हुई।",
       "notes": "Polite after an introduction.",
@@ -109,6 +119,7 @@
       "title": "Match the polite words",
       "exercise": {
         "id": "l9-ex-match-words",
+        "stable_id": "ex-ms9433l158nbf",
         "type": "matching",
         "prompt": "Match each English phrase with its Hindi meaning.",
         "card_ids": [
@@ -145,6 +156,7 @@
       "title": "Apologise",
       "exercise": {
         "id": "l9-ex-free-sorry",
+        "stable_id": "ex-ms9433l158oue",
         "type": "free_text",
         "prompt": "Translate to English: माफ़ कीजिए",
         "card_ids": [
@@ -172,6 +184,7 @@
       "title": "Complete the reply",
       "exercise": {
         "id": "l9-ex-cloze-welcome",
+        "stable_id": "ex-ms9433l158prc",
         "type": "cloze",
         "prompt": "Fill the blank in English.",
         "card_ids": [
@@ -203,6 +216,7 @@
       "title": "Match the phrases",
       "exercise": {
         "id": "l9-ex-match-phrases",
+        "stable_id": "ex-ms9433l158q8c",
         "type": "matching",
         "prompt": "Match each English phrase with its Hindi meaning.",
         "card_ids": [
@@ -239,6 +253,7 @@
       "title": "Build a question",
       "exercise": {
         "id": "l9-ex-tiles-help",
+        "stable_id": "ex-ms9433l158run",
         "type": "word_tiles",
         "prompt": "Arrange to mean: क्या आप मेरी मदद कर सकते हैं? (Can you help me?)",
         "card_ids": [
@@ -261,6 +276,7 @@
       "title": "Say a warm farewell",
       "exercise": {
         "id": "l9-ex-free-takecare",
+        "stable_id": "ex-ms9433l158s7i",
         "type": "free_text",
         "prompt": "Translate to English: अपना ख़्याल रखना।",
         "card_ids": [
@@ -287,6 +303,7 @@
       "title": "Complete the farewell",
       "exercise": {
         "id": "l9-ex-cloze-goodnight",
+        "stable_id": "ex-ms9433l158t24",
         "type": "cloze",
         "prompt": "Fill the blank in English.",
         "card_ids": [
@@ -312,6 +329,7 @@
       "title": "Give a polite yes",
       "exercise": {
         "id": "l9-ex-free-ofcourse",
+        "stable_id": "ex-ms9433l158urr",
         "type": "free_text",
         "prompt": "Translate to English: ज़रूर।",
         "card_ids": [

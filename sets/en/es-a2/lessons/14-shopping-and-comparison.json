@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "shop-places",
+      "stable_id": "card-ms9433k0474np",
       "front": "la tienda, el centro comercial, el mercado",
       "back": "the shop, the shopping mall, the market",
       "notes": "*la tienda* is a single shop; *el centro comercial* is a mall; *el mercado* is a (usually food/open-air) market. Note: *centro comercial* literally 'commercial centre' — not a 'commercial' on TV.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "shop-fitting",
+      "stable_id": "card-ms9433k04758n",
       "front": "el probador, el escaparate, probarse",
       "back": "the fitting room, the shop window, to try on",
       "notes": "*el probador* = fitting/changing room; *el escaparate* = the display window. *probarse* (reflexive) = to try on: *¿Puedo probármelo?* = Can I try it on?",
@@ -27,6 +29,7 @@
     },
     {
       "id": "shop-size",
+      "stable_id": "card-ms9433k04769t",
       "front": "la talla / el número",
       "back": "size (clothes) / size (shoes)",
       "notes": "Use **la talla** for clothing sizes (*¿Qué talla usas?*) and **el número** for shoe size (*¿Qué número calzas?*). Don't use *el tamaño* for clothes — that means physical size of an object.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "shop-cuanto",
+      "stable_id": "card-ms9433k0477m8",
       "front": "¿Cuánto cuesta? / ¿Puedo probármelo? / Me lo llevo.",
       "back": "How much is it? / Can I try it on? / I'll take it.",
       "notes": "Core shopping phrases. *¿Cuánto cuesta?* (singular) / *¿Cuánto cuestan?* (plural). *Me lo llevo* literally 'I take it with me' = I'll take it / I'll buy it.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "shop-sales",
+      "stable_id": "card-ms9433k0478i8",
       "front": "las rebajas, está rebajado, en oferta",
       "back": "the sales, it's reduced/discounted, on offer/special",
       "notes": "*las rebajas* = the (seasonal) sales; *estar rebajado/a* = to be marked down; *en oferta* = on special offer. *Estos zapatos están en oferta* = These shoes are on offer.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "shop-pay",
+      "stable_id": "card-ms9433k0479fm",
       "front": "pagar en efectivo / con tarjeta",
       "back": "to pay in cash / by card",
       "notes": "*en efectivo* = in cash (also *en metálico*); *con tarjeta* = by (credit/debit) card. False friend pitfall: *el efectivo* is 'cash', not 'effective'. *¿Paga en efectivo o con tarjeta?*",
@@ -63,6 +69,7 @@
     },
     {
       "id": "comp-mas-menos",
+      "stable_id": "card-ms9433k047ara",
       "front": "más ... que / menos ... que",
       "back": "more ... than / less (fewer) ... than",
       "notes": "Comparisons of inequality: *Esta tienda es **más** cara **que** aquella* = This shop is more expensive than that one. *menos ... que* = less ... than. The connector is **que** when comparing two things.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "comp-tan-como",
+      "stable_id": "card-ms9433k047b1o",
       "front": "tan ... como",
       "back": "as ... as (equality)",
       "notes": "For equality use **tan + adjective + como**: *Este abrigo es **tan** caro **como** el otro* = This coat is as expensive as the other. With nouns use *tanto/a/os/as ... como*.",
@@ -81,6 +89,7 @@
     },
     {
       "id": "comp-que-de",
+      "stable_id": "card-ms9433k047cmv",
       "front": "más alto QUE ... / más DE 20 euros",
       "back": "than (comparing things) vs. than (before numbers)",
       "notes": "Use **que** to compare two things (*más alto **que** tú*). Use **de** before a number/quantity (*Cuesta más **de** 20 euros* = It costs more than 20 euros). English uses 'than' for both — a common error.",
@@ -90,6 +99,7 @@
     },
     {
       "id": "comp-superlative",
+      "stable_id": "card-ms9433k047dm6",
       "front": "el/la más ... de",
       "back": "the most ... in/of (superlative)",
       "notes": "Superlative: **el/la/los/las + (noun) + más + adjective + de**. *Es la tienda **más** barata **de** la ciudad* = It's the cheapest shop in the city. Note **de** translates English 'in': *the cheapest **in** the city*.",
@@ -99,6 +109,7 @@
     },
     {
       "id": "comp-irregulars",
+      "stable_id": "card-ms9433k047e6z",
       "front": "mejor, peor, mayor, menor",
       "back": "better, worse, older/bigger, younger/smaller",
       "notes": "Irregular comparatives — never say *más bueno* or *más malo*: use **mejor** (better) and **peor** (worse). **mayor** = older / greater; **menor** = younger / lesser. *Esta calidad es **mejor que** la otra.*",
@@ -108,6 +119,7 @@
     },
     {
       "id": "demonstratives",
+      "stable_id": "card-ms9433k047f08",
       "front": "este/esta, ese/esa, aquel/aquella",
       "back": "this, that (near you), that (over there)",
       "notes": "Three degrees of distance: **este** (this, near me), **ese** (that, near you), **aquel** (that, far from both). They agree in gender/number: *este coche, esta falda, estos zapatos, aquellas tiendas*.",
@@ -142,6 +154,7 @@
       "title": "Match the shopping words",
       "exercise": {
         "id": "ex-match-shopvocab",
+        "stable_id": "ex-ms9433k047g38",
         "type": "matching",
         "prompt": "Match each Spanish word with its English meaning.",
         "card_ids": ["shop-places", "shop-fitting", "shop-size"],
@@ -162,6 +175,7 @@
       "title": "Asking the price",
       "exercise": {
         "id": "ex-free-howmuch",
+        "stable_id": "ex-ms9433k047hg2",
         "type": "free_text",
         "prompt": "Translate: *How much does this shirt cost?*",
         "card_ids": ["shop-cuanto", "demonstratives"],
@@ -178,6 +192,7 @@
       "title": "More expensive than",
       "exercise": {
         "id": "ex-cloze-mascaro",
+        "stable_id": "ex-ms9433k047izs",
         "type": "cloze",
         "prompt": "Fill in the comparative. Comparing two cars:",
         "card_ids": ["comp-mas-menos"],
@@ -194,6 +209,7 @@
       "title": "que or de?",
       "exercise": {
         "id": "ex-cloze-quede",
+        "stable_id": "ex-ms9433k047j2r",
         "type": "cloze",
         "prompt": "Before a number, which word means 'than'? Fill the blank:",
         "card_ids": ["comp-que-de"],
@@ -210,6 +226,7 @@
       "title": "Better, not 'more good'",
       "exercise": {
         "id": "ex-free-better",
+        "stable_id": "ex-ms9433k047kkm",
         "type": "free_text",
         "prompt": "Translate: *This quality is better than the other.*",
         "card_ids": ["comp-irregulars", "comp-mas-menos"],
@@ -226,6 +243,7 @@
       "title": "Build: Can I try it on?",
       "exercise": {
         "id": "ex-tiles-tryon",
+        "stable_id": "ex-ms9433k047lba",
         "type": "word_tiles",
         "prompt": "Arrange the words to ask: *Can I try it on?*",
         "card_ids": ["shop-fitting", "shop-cuanto"],
@@ -241,6 +259,7 @@
       "title": "Where do you try clothes on?",
       "exercise": {
         "id": "ex-pic-fittingroom",
+        "stable_id": "ex-ms9433k047m73",
         "type": "picture_choice",
         "prompt": "Which word means 'the fitting room'?",
         "card_ids": ["shop-fitting"],
@@ -262,6 +281,7 @@
       "title": "As expensive as",
       "exercise": {
         "id": "ex-cloze-tancomo",
+        "stable_id": "ex-ms9433k047nsz",
         "type": "cloze",
         "prompt": "Fill in the equality comparison ('as ... as'):",
         "card_ids": ["comp-tan-como"],
@@ -278,6 +298,7 @@
       "title": "The cheapest in the city",
       "exercise": {
         "id": "ex-free-cheapest",
+        "stable_id": "ex-ms9433k047o23",
         "type": "free_text",
         "prompt": "Translate: *It's the cheapest shop in the city.*",
         "card_ids": ["comp-superlative"],
@@ -294,6 +315,7 @@
       "title": "Paying",
       "exercise": {
         "id": "ex-free-paycard",
+        "stable_id": "ex-ms9433k047pb2",
         "type": "free_text",
         "prompt": "Translate: *I'll take it. I'm paying by card.*",
         "card_ids": ["shop-cuanto", "shop-pay"],
@@ -310,6 +332,7 @@
       "title": "Match the demonstratives",
       "exercise": {
         "id": "ex-match-demonstratives",
+        "stable_id": "ex-ms9433k047qvb",
         "type": "matching",
         "prompt": "Match each demonstrative with its meaning.",
         "card_ids": ["demonstratives"],
@@ -329,6 +352,7 @@
       "title": "Demonstrative agreement",
       "exercise": {
         "id": "ex-cloze-demo-agree",
+        "stable_id": "ex-ms9433k047r45",
         "type": "cloze",
         "prompt": "Fill in 'this' to agree with *tienda* (feminine):",
         "card_ids": ["demonstratives"],
@@ -345,6 +369,7 @@
       "title": "On sale",
       "exercise": {
         "id": "ex-free-onsale",
+        "stable_id": "ex-ms9433k047st6",
         "type": "free_text",
         "prompt": "Translate: *These shoes are on offer.*",
         "card_ids": ["shop-sales", "demonstratives"],

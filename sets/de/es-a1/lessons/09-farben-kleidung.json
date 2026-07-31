@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "rojo",
+      "stable_id": "card-ms9433gq123vh",
       "front": "rojo",
       "back": "rot",
       "notes": "Adjektiv auf -o: vier Formen (rojo/roja/rojos/rojas).",
@@ -18,6 +19,7 @@
     },
     {
       "id": "azul",
+      "stable_id": "card-ms9433gq1249p",
       "front": "azul",
       "back": "blau",
       "notes": "Endet nicht auf -o: gleich für maskulin und feminin, nur Plural azules.",
@@ -28,6 +30,7 @@
     },
     {
       "id": "verde",
+      "stable_id": "card-ms9433gq125jz",
       "front": "verde",
       "back": "grün",
       "notes": "Endet nicht auf -o: gleich für maskulin und feminin, nur Plural verdes.",
@@ -38,6 +41,7 @@
     },
     {
       "id": "blanco",
+      "stable_id": "card-ms9433gq126ki",
       "front": "blanco",
       "back": "weiß",
       "notes": "Adjektiv auf -o: vier Formen (blanco/blanca/blancos/blancas).",
@@ -48,6 +52,7 @@
     },
     {
       "id": "negro",
+      "stable_id": "card-ms9433gq127qr",
       "front": "negro",
       "back": "schwarz",
       "notes": "Adjektiv auf -o: vier Formen (negro/negra/negros/negras).",
@@ -58,6 +63,7 @@
     },
     {
       "id": "amarillo",
+      "stable_id": "card-ms9433gq128gu",
       "front": "amarillo",
       "back": "gelb",
       "notes": "Adjektiv auf -o: vier Formen (amarillo/amarilla/amarillos/amarillas).",
@@ -68,6 +74,7 @@
     },
     {
       "id": "la-camisa",
+      "stable_id": "card-ms9433gq129yw",
       "front": "la camisa",
       "back": "das Hemd",
       "notes": "Feminin: la camisa.",
@@ -78,6 +85,7 @@
     },
     {
       "id": "el-pantalon",
+      "stable_id": "card-ms9433gq12a7j",
       "front": "el pantalón",
       "back": "die Hose",
       "notes": "Maskulin: el pantalón. Akzent auf dem ó.",
@@ -88,6 +96,7 @@
     },
     {
       "id": "el-vestido",
+      "stable_id": "card-ms9433gq12b07",
       "front": "el vestido",
       "back": "das Kleid",
       "notes": "Maskulin: el vestido.",
@@ -98,6 +107,7 @@
     },
     {
       "id": "los-zapatos",
+      "stable_id": "card-ms9433gq12cau",
       "front": "los zapatos",
       "back": "die Schuhe",
       "notes": "Maskulin Plural: los zapatos.",
@@ -108,6 +118,7 @@
     },
     {
       "id": "la-chaqueta",
+      "stable_id": "card-ms9433gq12d1x",
       "front": "la chaqueta",
       "back": "die Jacke",
       "notes": "Feminin: la chaqueta.",
@@ -118,6 +129,7 @@
     },
     {
       "id": "el-sombrero",
+      "stable_id": "card-ms9433gq12egm",
       "front": "el sombrero",
       "back": "der Hut",
       "notes": "Maskulin: el sombrero.",
@@ -128,6 +140,7 @@
     },
     {
       "id": "la-camisa-roja",
+      "stable_id": "card-ms9433gq12f3b",
       "front": "la camisa roja",
       "back": "das rote Hemd",
       "notes": "camisa ist feminin Singular → rojo wird zu roja.",
@@ -138,6 +151,7 @@
     },
     {
       "id": "los-zapatos-negros",
+      "stable_id": "card-ms9433gq12ghh",
       "front": "los zapatos negros",
       "back": "die schwarzen Schuhe",
       "notes": "zapatos ist maskulin Plural → negro wird zu negros.",
@@ -148,6 +162,7 @@
     },
     {
       "id": "el-vestido-azul",
+      "stable_id": "card-ms9433gq12h0w",
       "front": "el vestido azul",
       "back": "das blaue Kleid",
       "notes": "azul endet nicht auf -o → keine Genusänderung, nur azules im Plural.",
@@ -183,6 +198,7 @@
       "title": "Farben zuordnen",
       "exercise": {
         "id": "ex-match-colors",
+        "stable_id": "ex-ms9433gq12ibj",
         "type": "matching",
         "prompt": "Ordne jede Farbe ihrer deutschen Bedeutung zu.",
         "card_ids": [
@@ -224,6 +240,7 @@
       "title": "Kleidung zuordnen",
       "exercise": {
         "id": "ex-match-clothing",
+        "stable_id": "ex-ms9433gq12jfa",
         "type": "matching",
         "prompt": "Ordne jedes Kleidungsstück seiner deutschen Bedeutung zu.",
         "card_ids": [
@@ -265,6 +282,7 @@
       "title": "Das rote Hemd",
       "exercise": {
         "id": "ex-pick-camisa-roja",
+        "stable_id": "ex-ms9433gq12khf",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Form: *das rote Hemd*.",
         "card_ids": [
@@ -306,6 +324,7 @@
       "title": "Das blaue Kleid",
       "exercise": {
         "id": "ex-pick-vestido-azul",
+        "stable_id": "ex-ms9433gq12li3",
         "type": "picture_choice",
         "prompt": "Wähle die richtige Form: *das blaue Kleid*.",
         "card_ids": [
@@ -347,6 +366,7 @@
       "title": "Lücke füllen: rot, feminin",
       "exercise": {
         "id": "ex-cloze-camisa-roja",
+        "stable_id": "ex-ms9433gq12mz3",
         "type": "cloze",
         "prompt": "Ergänze die Farbe 'rot', die zu camisa (feminin Singular) passt.",
         "card_ids": [
@@ -374,6 +394,7 @@
       "title": "Lücke füllen: schwarz, maskulin Plural",
       "exercise": {
         "id": "ex-cloze-zapatos-negros",
+        "stable_id": "ex-ms9433gq12n3c",
         "type": "cloze",
         "prompt": "Ergänze die Farbe 'schwarz', die zu zapatos (maskulin Plural) passt.",
         "card_ids": [
@@ -401,6 +422,7 @@
       "title": "Lücke füllen: grün, feminin",
       "exercise": {
         "id": "ex-cloze-chaqueta-verde",
+        "stable_id": "ex-ms9433gq12op7",
         "type": "cloze",
         "prompt": "Ergänze die Farbe 'grün', die zu chaqueta (feminin Singular) passt.",
         "card_ids": [
@@ -428,6 +450,7 @@
       "title": "Die schwarzen Schuhe",
       "exercise": {
         "id": "ex-free-zapatos-negros",
+        "stable_id": "ex-ms9433gq12pxy",
         "type": "free_text",
         "prompt": "Übersetze: *die schwarzen Schuhe*.",
         "card_ids": [
@@ -453,6 +476,7 @@
       "title": "Die grüne Jacke",
       "exercise": {
         "id": "ex-free-chaqueta-verde",
+        "stable_id": "ex-ms9433gq12qnf",
         "type": "free_text",
         "prompt": "Übersetze: *die grüne Jacke*.",
         "card_ids": [
@@ -478,6 +502,7 @@
       "title": "Satz bauen: Das Kleid ist blau",
       "exercise": {
         "id": "ex-tile-vestido-azul",
+        "stable_id": "ex-ms9433gq12rtr",
         "type": "word_tiles",
         "prompt": "Setze den Satz zusammen: *Das Kleid ist blau.*",
         "card_ids": [
@@ -501,6 +526,7 @@
       "title": "Satz bauen: Die Hosen sind schwarz",
       "exercise": {
         "id": "ex-tile-pantalones-negros",
+        "stable_id": "ex-ms9433gq12syl",
         "type": "word_tiles",
         "prompt": "Setze den Satz zusammen: *Die Hosen sind schwarz.*",
         "card_ids": [
@@ -524,6 +550,7 @@
       "title": "Anpassung zuordnen",
       "exercise": {
         "id": "ex-match-agreement",
+        "stable_id": "ex-ms9433gq12txw",
         "type": "matching",
         "prompt": "Ordne jede angepasste Phrase ihrer deutschen Bedeutung zu.",
         "card_ids": [

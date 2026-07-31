@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "karte",
+      "stable_id": "card-ms9433fc01lvq",
       "front": "Karte",
       "back": "Die kleinste Lerneinheit: ein einzelner Begriff, ein Fakt oder eine Vokabel mit Vorder- und Rückseite. Die Wiederholungsplanung (SRS) verfolgt jede Karte einzeln.",
       "notes": "Englisch: card. Vorderseite = Frage/Begriff, Rückseite = Antwort/Definition.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "lektion-struktur",
+      "stable_id": "card-ms9433fc01m8s",
       "front": "Lektion",
       "back": "Eine abgeschlossene Einheit aus Theorie-Abschnitten und Übungen, die eine Gruppe von Karten durcharbeitet — meist 5–15 Minuten.",
       "notes": "Mehrere Karten plus Theorie und Übungen ergeben eine Lektion.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "set",
+      "stable_id": "card-ms9433fc01n0p",
       "front": "Set",
       "back": "Eine Sammlung zusammengehöriger Lektionen zu einem Thema, zum Beispiel „Spanisch A1“. Das Set ist die Einheit, die du herunterlädst.",
       "notes": "Englisch: set. Karte → Lektion → Set: von klein nach groß.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "content-hub",
+      "stable_id": "card-ms9433fc01ob9",
       "front": "Content Hub",
       "back": "Der Bereich der App, in dem du Lerninhalte findest, herunterlädst und verwaltest. Er ist in die Tabs „Entdecken“, „Meine Inhalte“ und „Import“ gegliedert.",
       "notes": "Englisch: Content Hub. Deine zentrale Anlaufstelle für Inhalte.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "tab-entdecken",
+      "stable_id": "card-ms9433fc01p0v",
       "front": "Tab „Entdecken“",
       "back": "Zeigt verfügbare Sets aus öffentlichen Quellen zum Durchstöbern und Herunterladen.",
       "notes": "Englisch: Discover. Hier findest du neue Inhalte.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "tab-meine-inhalte",
+      "stable_id": "card-ms9433fc01qkn",
       "front": "Tab „Meine Inhalte“",
       "back": "Zeigt die Sets, die du bereits heruntergeladen hast und lernen kannst.",
       "notes": "Englisch: My content. Dein bereits geladener Vorrat.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "content-repo",
+      "stable_id": "card-ms9433fc01rvw",
       "front": "Content-Repository",
       "back": "Ein GitHub-Repository, das Lern-Sets bereitstellt. Du kannst es in den Einstellungen als Quelle hinzufügen; geprüfte Quellen erscheinen dann wie mitgelieferte Inhalte.",
       "notes": "Englisch: content repository. So bringst du eigene oder fremde Inhalte in die App.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "vertrauensstufe",
+      "stable_id": "card-ms9433fc01sn3",
       "front": "Vertrauensstufe",
       "back": "Eine Kennzeichnung, wie sehr einer Inhaltsquelle vertraut wird. Validierte Quellen werden als vollwertige Inhalte behandelt, unbekannte deutlicher markiert.",
       "notes": "Englisch: trust level. Schützt vor ungeprüften Quellen.",
@@ -106,6 +114,7 @@
       "title": "Von klein nach groß",
       "exercise": {
         "id": "ex-tiles-hierarchie",
+        "stable_id": "ex-ms9433fc01t7d",
         "type": "word_tiles",
         "prompt": "Ordne die drei Inhaltsebenen von der kleinsten zur größten.",
         "card_ids": ["karte", "lektion-struktur", "set"],
@@ -121,6 +130,7 @@
       "title": "Content-Hub-Tabs",
       "exercise": {
         "id": "ex-match-tabs",
+        "stable_id": "ex-ms9433fc01ub7",
         "type": "matching",
         "prompt": "Ordne jedem Tab des Content Hubs seinen Zweck zu.",
         "card_ids": ["tab-entdecken", "tab-meine-inhalte", "content-hub"],
@@ -139,6 +149,7 @@
       "title": "Was man herunterlädt",
       "exercise": {
         "id": "ex-free-set",
+        "stable_id": "ex-ms9433fc01vkn",
         "type": "free_text",
         "prompt": "Wie heißt die Sammlung zusammengehöriger Lektionen, die man als Ganzes herunterlädt?",
         "card_ids": ["set"],
@@ -155,6 +166,7 @@
       "title": "Eigene Quelle eintragen",
       "exercise": {
         "id": "ex-cloze-repo",
+        "stable_id": "ex-ms9433fc01w6g",
         "type": "cloze",
         "prompt": "Ergänze, welche Art von Quelle du in den Einstellungen hinzufügst.",
         "card_ids": ["content-repo"],
@@ -171,6 +183,7 @@
       "title": "Wo man Inhalte findet",
       "exercise": {
         "id": "ex-free-hub",
+        "stable_id": "ex-ms9433fc01xmk",
         "type": "free_text",
         "prompt": "Wie heißt der Bereich der App, in dem du Inhalte findest, herunterlädst und verwaltest?",
         "card_ids": ["content-hub"],
@@ -187,6 +200,7 @@
       "title": "Wie sicher ist eine Quelle?",
       "exercise": {
         "id": "ex-cloze-vertrauen",
+        "stable_id": "ex-ms9433fc01yz2",
         "type": "cloze",
         "prompt": "Ergänze, was angibt, wie sehr einer Quelle vertraut wird.",
         "card_ids": ["vertrauensstufe"],

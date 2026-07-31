@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "lernzyklus",
+      "stable_id": "card-ms9433fb015wg",
       "front": "Lernzyklus",
       "back": "Der strukturierte Ablauf innerhalb einer Sitzung. Er führt in sieben Schritten von der ersten Eingabe bis zur Festigung des Gelernten.",
       "notes": "Englisch: learning cycle. Das Gerüst jeder Sitzung.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "schritt-input",
+      "stable_id": "card-ms9433fb016ws",
       "front": "Schritt 1: Eingabe (Input)",
       "back": "Der neue Stoff wird dir präsentiert — der Ausgangspunkt des Zyklus.",
       "notes": "Englisch: input. Hier bekommst du das Material.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "schritt-fokus",
+      "stable_id": "card-ms9433fb017ad",
       "front": "Schritt 2: Fokus (Focus)",
       "back": "Der Blick wird auf den zentralen Punkt gelenkt, um den es in diesem Durchgang geht.",
       "notes": "Englisch: focus. Aufmerksamkeit bündeln.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "schritt-versuch",
+      "stable_id": "card-ms9433fb01830",
       "front": "Schritt 3: Versuch (Attempt)",
       "back": "Du wendest den Stoff selbst an und gibst deine Antwort oder Lösung ein.",
       "notes": "Englisch: attempt. Dein aktiver Beitrag.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "schritt-feedback",
+      "stable_id": "card-ms9433fb01970",
       "front": "Schritt 4: Rückmeldung (Feedback)",
       "back": "Die KI bewertet deinen Versuch und sagt dir, was gut war und was noch fehlt.",
       "notes": "Englisch: feedback. Ohne Rückmeldung kein gezieltes Lernen.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "schritt-verfeinern",
+      "stable_id": "card-ms9433fb01aql",
       "front": "Schritt 5: Verfeinern (Refine)",
       "back": "Du besserst deine Antwort anhand der Rückmeldung nach und schärfst dein Verständnis.",
       "notes": "Englisch: refine. Aus dem Feedback wird Verbesserung.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "schritt-transfer",
+      "stable_id": "card-ms9433fb01bm9",
       "front": "Schritt 6: Übertragung (Transfer)",
       "back": "Du wendest das Gelernte auf eine neue Situation an, um zu zeigen, dass du es wirklich beherrschst.",
       "notes": "Englisch: transfer. Wissen wird beweglich.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "schritt-integration",
+      "stable_id": "card-ms9433fb01cwk",
       "front": "Schritt 7: Integration (Integrate)",
       "back": "Das Gelernte wird mit deinem übrigen Wissen verknüpft und gefestigt — der Abschluss des Zyklus.",
       "notes": "Englisch: integrate. Der Stoff wird Teil deines Wissens.",
@@ -81,6 +89,7 @@
     },
     {
       "id": "ki-bewertung",
+      "stable_id": "card-ms9433fb01dhb",
       "front": "KI-Bewertung",
       "back": "Am Ende eines Durchgangs entscheidet die KI, ob du weitergehst, den Schritt wiederholst, ihn überspringst oder einen Schritt zurückgehst.",
       "notes": "Vier mögliche Entscheidungen: weiter, wiederholen, überspringen, zurück.",
@@ -90,6 +99,7 @@
     },
     {
       "id": "auto-loop",
+      "stable_id": "card-ms9433fb01evh",
       "front": "Auto-Loop",
       "back": "Ist ein Zyklus abgeschlossen, startet die App automatisch einen neuen zu einem weiteren Teilthema — bis zu fünf pro Sitzung.",
       "notes": "Englisch: auto-loop. Hält den Lernfluss in Gang, ohne dass du neu starten musst.",
@@ -124,6 +134,7 @@
       "title": "Die ersten vier Schritte",
       "exercise": {
         "id": "ex-tiles-zyklus",
+        "stable_id": "ex-ms9433fb01ffl",
         "type": "word_tiles",
         "prompt": "Bringe die ersten vier Schritte des Zyklus in die richtige Reihenfolge.",
         "card_ids": ["schritt-input", "schritt-fokus", "schritt-versuch", "schritt-feedback"],
@@ -139,6 +150,7 @@
       "title": "Schritt und Bedeutung",
       "exercise": {
         "id": "ex-match-schritte",
+        "stable_id": "ex-ms9433fb01g3k",
         "type": "matching",
         "prompt": "Ordne jedem Schritt seine Bedeutung zu.",
         "card_ids": ["schritt-versuch", "schritt-feedback", "schritt-transfer", "schritt-integration"],
@@ -158,6 +170,7 @@
       "title": "Wie viele Schritte?",
       "exercise": {
         "id": "ex-free-schritte-zahl",
+        "stable_id": "ex-ms9433fb01hs6",
         "type": "free_text",
         "prompt": "Aus wie vielen Schritten besteht der Lernzyklus?",
         "card_ids": ["lernzyklus"],
@@ -174,6 +187,7 @@
       "title": "Wie viele Durchgänge?",
       "exercise": {
         "id": "ex-cloze-autoloop",
+        "stable_id": "ex-ms9433fb01i0y",
         "type": "cloze",
         "prompt": "Ergänze die Höchstzahl der Auto-Loop-Durchgänge pro Sitzung.",
         "card_ids": ["auto-loop"],
@@ -190,6 +204,7 @@
       "title": "Eine Entscheidung der KI",
       "exercise": {
         "id": "ex-free-bewertung",
+        "stable_id": "ex-ms9433fb01jij",
         "type": "free_text",
         "prompt": "Nenne eine der vier Entscheidungen, die die KI-Bewertung treffen kann.",
         "card_ids": ["ki-bewertung"],
@@ -206,6 +221,7 @@
       "title": "Der letzte Schritt",
       "exercise": {
         "id": "ex-cloze-integration",
+        "stable_id": "ex-ms9433fb01kz7",
         "type": "cloze",
         "prompt": "Ergänze den Namen des siebten und letzten Schritts.",
         "card_ids": ["schritt-integration"],

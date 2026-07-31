@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "k-ga",
+      "stable_id": "card-ms9433in2stwu",
       "front": "が",
       "back": "ga",
       "notes": "Hepburn: ga.",
@@ -19,6 +20,7 @@
     },
     {
       "id": "k-gi",
+      "stable_id": "card-ms9433in2sueb",
       "front": "ぎ",
       "back": "gi",
       "notes": "Hepburn: gi.",
@@ -29,6 +31,7 @@
     },
     {
       "id": "k-gu",
+      "stable_id": "card-ms9433in2svw9",
       "front": "ぐ",
       "back": "gu",
       "notes": "Hepburn: gu.",
@@ -39,6 +42,7 @@
     },
     {
       "id": "k-ge",
+      "stable_id": "card-ms9433in2swu8",
       "front": "げ",
       "back": "ge",
       "notes": "Hepburn: ge.",
@@ -49,6 +53,7 @@
     },
     {
       "id": "k-go",
+      "stable_id": "card-ms9433in2sxbc",
       "front": "ご",
       "back": "go",
       "notes": "Hepburn: go.",
@@ -59,6 +64,7 @@
     },
     {
       "id": "k-za",
+      "stable_id": "card-ms9433in2sydb",
       "front": "ざ",
       "back": "za",
       "notes": "Hepburn: za.",
@@ -69,6 +75,7 @@
     },
     {
       "id": "k-da",
+      "stable_id": "card-ms9433in2szpq",
       "front": "だ",
       "back": "da",
       "notes": "Hepburn: da.",
@@ -79,6 +86,7 @@
     },
     {
       "id": "k-ba",
+      "stable_id": "card-ms9433in2t0pi",
       "front": "ば",
       "back": "ba",
       "notes": "Hepburn: ba.",
@@ -89,6 +97,7 @@
     },
     {
       "id": "k-pa",
+      "stable_id": "card-ms9433in2t1n5",
       "front": "ぱ",
       "back": "pa",
       "notes": "Hepburn: pa.",
@@ -99,6 +108,7 @@
     },
     {
       "id": "k-ji",
+      "stable_id": "card-ms9433in2t2xp",
       "front": "じ",
       "back": "ji",
       "notes": "Hepburn: ji.",
@@ -109,6 +119,7 @@
     },
     {
       "id": "k-zu",
+      "stable_id": "card-ms9433in2t3ik",
       "front": "ず",
       "back": "zu",
       "notes": "Hepburn: zu.",
@@ -119,6 +130,7 @@
     },
     {
       "id": "k-ka",
+      "stable_id": "card-ms9433in2t4hr",
       "front": "か",
       "back": "ka",
       "notes": "Hepburn: ka.",
@@ -167,7 +179,7 @@
           "Die Silbe wird zum kleinen Zeichen"
         ],
         "hint": "か → が.",
-        "id": "ex-mc-dakuten"
+        "id": "ex-mc-dakuten", "stable_id": "ex-ms9433in2t5iv"
       }
     },
     {
@@ -196,7 +208,7 @@
           "a"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ga"
+        "id": "ex-r-ga", "stable_id": "ex-ms9433in2t6xk"
       }
     },
     {
@@ -225,7 +237,7 @@
           "a"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-za"
+        "id": "ex-r-za", "stable_id": "ex-ms9433in2t77l"
       }
     },
     {
@@ -254,7 +266,7 @@
           "a"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-pa"
+        "id": "ex-r-pa", "stable_id": "ex-ms9433in2t8wj"
       }
     },
     {
@@ -283,7 +295,7 @@
           "a"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ji"
+        "id": "ex-r-ji", "stable_id": "ex-ms9433in2t9by"
       }
     },
     {
@@ -312,7 +324,7 @@
           "あ"
         ],
         "hint": "Aus der T-Reihe, mit Dakuten stimmhaft gemacht.",
-        "id": "ex-c-da"
+        "id": "ex-c-da", "stable_id": "ex-ms9433in2tao3"
       }
     },
     {
@@ -345,7 +357,7 @@
           "ば"
         ],
         "hint": "k-Reihe mit Dakuten.",
-        "id": "ex-ms-dak"
+        "id": "ex-ms-dak", "stable_id": "ex-ms9433in2tbrs"
       }
     },
     {
@@ -386,7 +398,7 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-g"
+        "id": "ex-match-g", "stable_id": "ex-ms9433in2tcq5"
       }
     },
     {
@@ -411,7 +423,7 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-ji"
+        "id": "ex-tip-ji", "stable_id": "ex-ms9433in2tds6"
       }
     }
   ]

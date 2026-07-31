@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "o-aeroporto",
+      "stable_id": "card-ms9433j038onh",
       "front": "o aeroporto",
       "back": "der Flughafen",
       "notes": "Kontext: Vou para o aeroporto. – Ich fahre zum Flughafen.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "o-aviao",
+      "stable_id": "card-ms9433j038p6e",
       "front": "o avião",
       "back": "das Flugzeug",
       "notes": "Kontext: O avião atrasou. – Das Flugzeug hatte Verspätung. Mit nasalem -ão.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "o-hotel",
+      "stable_id": "card-ms9433j038qhu",
       "front": "o hotel",
       "back": "das Hotel",
       "notes": "Kontext: O hotel fica perto da praia. – Das Hotel liegt nah am Strand.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "a-praia",
+      "stable_id": "card-ms9433j038rz5",
       "front": "a praia",
       "back": "der Strand",
       "notes": "Kontext: Vamos à praia! – Lass uns an den Strand gehen!",
@@ -41,6 +45,7 @@
     },
     {
       "id": "o-passaporte",
+      "stable_id": "card-ms9433j038s9v",
       "front": "o passaporte",
       "back": "der Reisepass",
       "notes": "Kontext: Onde está meu passaporte? – Wo ist mein Reisepass?",
@@ -49,6 +54,7 @@
     },
     {
       "id": "a-mala",
+      "stable_id": "card-ms9433j038tm0",
       "front": "a mala",
       "back": "der Koffer",
       "notes": "Kontext: Minha mala é pesada. – Mein Koffer ist schwer.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "o-onibus",
+      "stable_id": "card-ms9433j038utf",
       "front": "o ônibus",
       "back": "der Bus",
       "notes": "Kontext: Pego o ônibus para o centro. – Ich nehme den Bus ins Zentrum. BR: ônibus, PT: autocarro.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "o-trem",
+      "stable_id": "card-ms9433j038vnc",
       "front": "o trem",
       "back": "der Zug",
       "notes": "Kontext: O trem chega às oito. – Der Zug kommt um acht. BR: trem, PT: comboio.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "a-passagem",
+      "stable_id": "card-ms9433j038wyp",
       "front": "a passagem",
       "back": "das Ticket / die Fahrkarte",
       "notes": "Kontext: Comprei a passagem. – Ich habe das Ticket gekauft. BR: passagem (Flug/Bus), PT eher: bilhete.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "onde-fica",
+      "stable_id": "card-ms9433j038xy5",
       "front": "Onde fica...?",
       "back": "Wo liegt/ist...?",
       "notes": "Kontext: Onde fica o hotel? – Wo liegt das Hotel?",
@@ -89,6 +99,7 @@
     },
     {
       "id": "a-viagem",
+      "stable_id": "card-ms9433j038yxu",
       "front": "a viagem",
       "back": "die Reise",
       "notes": "Kontext: Boa viagem! – Gute Reise!",
@@ -97,6 +108,7 @@
     },
     {
       "id": "o-taxi",
+      "stable_id": "card-ms9433j038zbq",
       "front": "o táxi",
       "back": "das Taxi",
       "notes": "Kontext: Vou de táxi. – Ich fahre mit dem Taxi.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "esquerda-direita",
+      "stable_id": "card-ms9433j0390jz",
       "front": "à esquerda / à direita",
       "back": "links / rechts",
       "notes": "Kontext: Vire à direita. – Biegen Sie rechts ab.",
@@ -132,6 +145,7 @@
       "title": "Reisewörter zuordnen",
       "exercise": {
         "id": "ex-match-reisen",
+        "stable_id": "ex-ms9433j0391gn",
         "type": "matching",
         "prompt": "Ordne jedes portugiesische Wort der deutschen Bedeutung zu.",
         "card_ids": ["o-aeroporto", "o-hotel", "a-praia", "o-passaporte", "a-mala"],
@@ -152,6 +166,7 @@
       "title": "Zug (BR)",
       "exercise": {
         "id": "ex-free-trem",
+        "stable_id": "ex-ms9433j0392iv",
         "type": "free_text",
         "prompt": "Wie heißt 'der Zug' in Brasilien?",
         "card_ids": ["o-trem"],
@@ -168,6 +183,7 @@
       "title": "Bus (BR)",
       "exercise": {
         "id": "ex-free-onibus",
+        "stable_id": "ex-ms9433j0393se",
         "type": "free_text",
         "prompt": "Wie heißt 'der Bus' in Brasilien?",
         "card_ids": ["o-onibus"],
@@ -184,6 +200,7 @@
       "title": "Lücke füllen: nach dem Weg fragen",
       "exercise": {
         "id": "ex-cloze-onde-fica",
+        "stable_id": "ex-ms9433j03949c",
         "type": "cloze",
         "prompt": "Ergänze: 'Wo liegt das Hotel?'",
         "card_ids": ["onde-fica", "o-hotel"],
@@ -200,6 +217,7 @@
       "title": "Gute Reise wünschen",
       "exercise": {
         "id": "ex-tile-boa-viagem",
+        "stable_id": "ex-ms9433j0395xa",
         "type": "word_tiles",
         "prompt": "Baue den Wunsch: 'Gute Reise!'",
         "card_ids": ["a-viagem"],
@@ -215,6 +233,7 @@
       "title": "Reiseort erkennen",
       "exercise": {
         "id": "ex-pic-praia",
+        "stable_id": "ex-ms9433j0396sl",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'der Strand'?",
         "card_ids": ["a-praia"],

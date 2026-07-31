@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "jota",
+      "stable_id": "card-ms9433iv32zro",
       "front": "좋다",
       "back": "gut sein / mögen (Grundform)",
       "notes": "Romanisierung: jota. Kontext: 날씨가 좋아요 (nalssiga joayo) – Das Wetter ist gut. Höflich: 좋아요 (joayo).",
@@ -17,6 +18,7 @@
     },
     {
       "id": "nappeuda",
+      "stable_id": "card-ms9433iv330q4",
       "front": "나쁘다",
       "back": "schlecht sein (Grundform)",
       "notes": "Romanisierung: nappeuda. Kontext: 기분이 나빠요 (gibuni nappayo) – Ich bin schlecht gelaunt. Höflich: 나빠요 (nappayo).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "keuda",
+      "stable_id": "card-ms9433iv331d2",
       "front": "크다",
       "back": "groß sein (Grundform)",
       "notes": "Romanisierung: keuda. Kontext: 집이 커요 (jibi keoyo) – Das Haus ist groß. Höflich: 커요 (keoyo).",
@@ -33,6 +36,7 @@
     },
     {
       "id": "jakda",
+      "stable_id": "card-ms9433iv332ss",
       "front": "작다",
       "back": "klein sein (Grundform)",
       "notes": "Romanisierung: jakda. Kontext: 방이 작아요 (bangi jagayo) – Das Zimmer ist klein. Höflich: 작아요 (jagayo).",
@@ -41,6 +45,7 @@
     },
     {
       "id": "yeppeuda",
+      "stable_id": "card-ms9433iv333ph",
       "front": "예쁘다",
       "back": "schön / hübsch sein (Grundform)",
       "notes": "Romanisierung: yeppeuda. Kontext: 꽃이 예뻐요 (kkochi yeppeoyo) – Die Blume ist hübsch. Höflich: 예뻐요 (yeppeoyo).",
@@ -49,6 +54,7 @@
     },
     {
       "id": "pigonhada",
+      "stable_id": "card-ms9433iv334pi",
       "front": "피곤하다",
       "back": "müde sein (Grundform)",
       "notes": "Romanisierung: pigonhada. Kontext: 오늘 너무 피곤해요 (oneul neomu pigonhaeyo) – Heute bin ich sehr müde. Höflich: 피곤해요 (pigonhaeyo).",
@@ -57,6 +63,7 @@
     },
     {
       "id": "haengbokada",
+      "stable_id": "card-ms9433iv335yj",
       "front": "행복하다",
       "back": "glücklich sein (Grundform)",
       "notes": "Romanisierung: haengbokada. Kontext: 정말 행복해요 (jeongmal haengbokaeyo) – Ich bin wirklich glücklich. Höflich: 행복해요 (haengbokaeyo).",
@@ -65,6 +72,7 @@
     },
     {
       "id": "seulpeuda",
+      "stable_id": "card-ms9433iv336oz",
       "front": "슬프다",
       "back": "traurig sein (Grundform)",
       "notes": "Romanisierung: seulpeuda. Kontext: 조금 슬퍼요 (jogeum seulpeoyo) – Ich bin ein bisschen traurig. Höflich: 슬퍼요 (seulpeoyo).",
@@ -73,6 +81,7 @@
     },
     {
       "id": "deopda",
+      "stable_id": "card-ms9433iv3372h",
       "front": "덥다",
       "back": "heiß sein (Wetter)",
       "notes": "Romanisierung: deopda. Kontext: 오늘 더워요 (oneul deowoyo) – Heute ist es heiß. Höflich: 더워요 (deowoyo).",
@@ -81,6 +90,7 @@
     },
     {
       "id": "chupda",
+      "stable_id": "card-ms9433iv338sb",
       "front": "춥다",
       "back": "kalt sein (Wetter)",
       "notes": "Romanisierung: chupda. Kontext: 밖이 추워요 (bakki chuwoyo) – Draußen ist es kalt. Höflich: 추워요 (chuwoyo).",
@@ -89,6 +99,7 @@
     },
     {
       "id": "jaemiitda",
+      "stable_id": "card-ms9433iv339pl",
       "front": "재미있다",
       "back": "interessant / lustig sein",
       "notes": "Romanisierung: jaemiitda. Kontext: 한국어 재미있어요 (hangugeo jaemiisseoyo) – Koreanisch macht Spaß. Höflich: 재미있어요 (jaemiisseoyo).",
@@ -116,6 +127,7 @@
       "title": "Adjektive zuordnen",
       "exercise": {
         "id": "ex-match-adjektive",
+        "stable_id": "ex-ms9433iv33aa3",
         "type": "matching",
         "prompt": "Ordne jeder Grundform die deutsche Bedeutung zu.",
         "card_ids": ["jota", "nappeuda", "keuda", "jakda"],
@@ -135,6 +147,7 @@
       "title": "Gefühle zuordnen",
       "exercise": {
         "id": "ex-match-gefuehle",
+        "stable_id": "ex-ms9433iv33b7l",
         "type": "matching",
         "prompt": "Ordne die Gefühlswörter zu.",
         "card_ids": ["yeppeuda", "pigonhada", "haengbokada", "seulpeuda"],
@@ -154,6 +167,7 @@
       "title": "Gut (höflich)",
       "exercise": {
         "id": "ex-free-gut",
+        "stable_id": "ex-ms9433iv33chn",
         "type": "free_text",
         "prompt": "Wie lautet die höfliche Form von 좋다 ('gut')? (Hangul oder Romanisierung)",
         "card_ids": ["jota"],
@@ -170,6 +184,7 @@
       "title": "Müde (höflich)",
       "exercise": {
         "id": "ex-free-muede",
+        "stable_id": "ex-ms9433iv33d4h",
         "type": "free_text",
         "prompt": "Wie lautet die höfliche Form von 피곤하다 ('müde')? (Hangul oder Romanisierung)",
         "card_ids": ["pigonhada"],
@@ -186,6 +201,7 @@
       "title": "Lücke füllen: sehr müde",
       "exercise": {
         "id": "ex-cloze-sehr-muede",
+        "stable_id": "ex-ms9433iv33el2",
         "type": "cloze",
         "prompt": "Ergänze die höfliche Form von 'müde'.",
         "card_ids": ["pigonhada"],
@@ -202,6 +218,7 @@
       "title": "Glücklich erkennen",
       "exercise": {
         "id": "ex-pick-glueck",
+        "stable_id": "ex-ms9433iv33fu4",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'glücklich sein'?",
         "card_ids": ["haengbokada"],

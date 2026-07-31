@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "food-water",
+      "stable_id": "card-ms9433fm07pyc",
       "front": "water",
       "back": "das Wasser",
       "notes": "Unzählbar: 'some water', NICHT 'a water' (außer beim Bestellen: 'a water' = ein Glas Wasser).",
@@ -15,6 +16,7 @@
     },
     {
       "id": "food-coffee",
+      "stable_id": "card-ms9433fm07qy9",
       "front": "coffee",
       "back": "der Kaffee",
       "notes": "Unzählbar als Stoff ('some coffee'), aber 'a coffee' = eine Tasse Kaffee beim Bestellen.",
@@ -22,6 +24,7 @@
     },
     {
       "id": "food-bread",
+      "stable_id": "card-ms9433fm07r1w",
       "front": "bread",
       "back": "das Brot",
       "notes": "Unzählbar! Nicht 'a bread'. Mengen: 'some bread', 'a loaf of bread' (ein Laib Brot).",
@@ -29,6 +32,7 @@
     },
     {
       "id": "food-apple",
+      "stable_id": "card-ms9433fm07swe",
       "front": "an apple",
       "back": "ein Apfel",
       "notes": "Zählbar: 'an apple', 'two apples'. Vor Vokal-Laut steht 'an'.",
@@ -36,6 +40,7 @@
     },
     {
       "id": "food-rice",
+      "stable_id": "card-ms9433fm07tms",
       "front": "rice",
       "back": "der Reis",
       "notes": "Unzählbar! Niemals 'a rice' oder 'rices'. Menge: 'some rice'.",
@@ -43,6 +48,7 @@
     },
     {
       "id": "id-like",
+      "stable_id": "card-ms9433fm07uh6",
       "front": "I'd like ...",
       "back": "Ich hätte gern ...",
       "notes": "Kurzform von 'I would like'. Die höfliche Standardformel zum Bestellen.",
@@ -50,6 +56,7 @@
     },
     {
       "id": "can-i-have",
+      "stable_id": "card-ms9433fm07vvv",
       "front": "Can I have ...?",
       "back": "Kann ich ... haben?",
       "notes": "Höfliche Bitte. Noch höflicher: 'Could I have ...?'.",
@@ -57,6 +64,7 @@
     },
     {
       "id": "could-i-have",
+      "stable_id": "card-ms9433fm07wxn",
       "front": "Could I have ...?",
       "back": "Könnte ich ... haben? (sehr höflich)",
       "notes": "Die höflichste Variante. Im Englischen klingt eine direkte Bitte ('Give me') schnell unhöflich.",
@@ -64,6 +72,7 @@
     },
     {
       "id": "qty-some",
+      "stable_id": "card-ms9433fm07x9d",
       "front": "some",
       "back": "etwas / einige (in Aussagen)",
       "notes": "In bejahten Aussagesätzen und in höflichen Angeboten/Bitten: 'I'd like some water.', 'Would you like some tea?'.",
@@ -71,6 +80,7 @@
     },
     {
       "id": "qty-any",
+      "stable_id": "card-ms9433fm07ya7",
       "front": "any",
       "back": "etwas / irgendwelche (in Fragen und Verneinungen)",
       "notes": "In Fragen und verneinten Sätzen: 'Is there any milk?', 'We don't have any bread.'.",
@@ -78,6 +88,7 @@
     },
     {
       "id": "the-bill",
+      "stable_id": "card-ms9433fm07z8w",
       "front": "the bill",
       "back": "die Rechnung",
       "notes": "In den USA oft 'the check'. 'Could I have the bill, please?' = Die Rechnung, bitte.",
@@ -110,6 +121,7 @@
       "title": "Lebensmittel zuordnen",
       "exercise": {
         "id": "ex-match-food",
+        "stable_id": "ex-ms9433fm080tf",
         "type": "matching",
         "prompt": "Ordne jedes englische Wort seiner deutschen Bedeutung zu.",
         "card_ids": ["food-water", "food-bread", "food-apple", "food-rice"],
@@ -129,6 +141,7 @@
       "title": "some oder any? (1)",
       "exercise": {
         "id": "ex-cloze-some",
+        "stable_id": "ex-ms9433fm08122",
         "type": "cloze",
         "prompt": "Ergänze some oder any im bejahten Aussagesatz.",
         "card_ids": ["qty-some"],
@@ -147,6 +160,7 @@
       "title": "some oder any? (2)",
       "exercise": {
         "id": "ex-cloze-any",
+        "stable_id": "ex-ms9433fm082v2",
         "type": "cloze",
         "prompt": "Ergänze some oder any in der Verneinung.",
         "card_ids": ["qty-any"],
@@ -165,6 +179,7 @@
       "title": "Welche Form ist richtig?",
       "exercise": {
         "id": "ex-pick-uncountable",
+        "stable_id": "ex-ms9433fm083vv",
         "type": "picture_choice",
         "prompt": "Du möchtest Reis. Welche Form ist korrekt?",
         "card_ids": ["food-rice", "qty-some"],
@@ -186,6 +201,7 @@
       "title": "Getränk benennen",
       "exercise": {
         "id": "ex-free-coffee",
+        "stable_id": "ex-ms9433fm08402",
         "type": "free_text",
         "prompt": "Wie heißt 'der Kaffee' auf Englisch?",
         "card_ids": ["food-coffee"],
@@ -202,6 +218,7 @@
       "title": "Bestell-Phrasen zuordnen",
       "exercise": {
         "id": "ex-match-ordering",
+        "stable_id": "ex-ms9433fm0852d",
         "type": "matching",
         "prompt": "Ordne jede Höflichkeitsformel ihrer deutschen Bedeutung zu.",
         "card_ids": ["id-like", "can-i-have", "could-i-have", "the-bill"],
@@ -221,6 +238,7 @@
       "title": "Höflich bestellen",
       "exercise": {
         "id": "ex-free-id-like-coffee",
+        "stable_id": "ex-ms9433fm086lv",
         "type": "free_text",
         "prompt": "Bestelle höflich einen Kaffee: 'Ich hätte gern einen Kaffee, bitte.'",
         "card_ids": ["id-like", "food-coffee"],
@@ -237,6 +255,7 @@
       "title": "Die Rechnung erbitten",
       "exercise": {
         "id": "ex-tile-could-i-have",
+        "stable_id": "ex-ms9433fm087mc",
         "type": "word_tiles",
         "prompt": "Bilde die höfliche Bitte 'Könnte ich die Rechnung haben, bitte?'.",
         "card_ids": ["could-i-have", "the-bill"],
@@ -252,6 +271,7 @@
       "title": "Wasser erbitten",
       "exercise": {
         "id": "ex-free-some-water",
+        "stable_id": "ex-ms9433fm08879",
         "type": "free_text",
         "prompt": "Übersetze: 'Könnte ich etwas Wasser haben?'",
         "card_ids": ["could-i-have", "qty-some", "food-water"],
@@ -268,6 +288,7 @@
       "title": "Verneinen mit any",
       "exercise": {
         "id": "ex-tile-i-dont-want",
+        "stable_id": "ex-ms9433fm089jj",
         "type": "word_tiles",
         "prompt": "Bilde 'Ich möchte keinen Reis.' (wörtlich: Ich will nicht etwas Reis.)",
         "card_ids": ["qty-any", "food-rice"],

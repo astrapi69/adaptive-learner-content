@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "srs-queue",
+      "stable_id": "card-ms9433fd02f6a",
       "front": "Wiederholungs-Warteschlange",
       "back": "Die Liste der Karten, die heute zur Wiederholung anstehen. Die App füllt sie automatisch, sobald der geplante Abstand einer Karte erreicht ist.",
       "notes": "Englisch: review queue. Dein tägliches Wiederholungspensum.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "wachsende-abstaende",
+      "stable_id": "card-ms9433fd02ghy",
       "front": "Wachsende Abstände",
       "back": "Eine gut gekonnte Karte kommt in immer größeren Abständen wieder — zum Beispiel nach 1, dann 3, dann 7 Tagen. Genau vor dem Vergessen wird wiederholt.",
       "notes": "Das Kernprinzip von Spaced Repetition: seltener, aber rechtzeitig.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "vergessenskurve",
+      "stable_id": "card-ms9433fd02hb8",
       "front": "Vergessenskurve",
       "back": "Die Beobachtung, dass frisch Gelerntes rasch verblasst. Eine Wiederholung kurz vor dem Vergessen hebt das Wissen wieder an und macht die nächste Pause länger.",
       "notes": "Englisch: forgetting curve. Erklärt, warum Timing beim Wiederholen zählt.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "sternbewertung",
+      "stable_id": "card-ms9433fd02i69",
       "front": "Sternbewertung",
       "back": "Nach einer Karte gibst du (oder die App) eine Bewertung von null bis drei Sternen. Sie steuert, wie bald die Karte wiederkommt.",
       "notes": "Wenige Sterne = bald wieder, viele Sterne = längere Pause.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "pruefungs-bonus",
+      "stable_id": "card-ms9433fd02j5o",
       "front": "Prüfungs-Bonus",
       "back": "Karten, die du im Prüfungsmodus richtig beantwortest, bekommen einen größeren Wiederholungsabstand — sicheres Wissen unter Druck wird belohnt.",
       "notes": "Englisch: exam-mode interval boost. Verknüpft Prüfen und Wiederholen.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "fehler-lektion",
+      "stable_id": "card-ms9433fd02krt",
       "front": "Aus Fehlern erzeugte Lektion",
       "back": "Die App wertet deine bisherigen Fehler pro Element aus und stellt daraus eine maßgeschneiderte Übungslektion zusammen, die genau deine Schwachstellen trifft.",
       "notes": "Englisch: error-history synthesis. Deine Fehler werden zum persönlichen Lernplan.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "wiederholungsrunde",
+      "stable_id": "card-ms9433fd02l8t",
       "front": "Wiederholungsrunde",
       "back": "Ein zusätzlicher Durchgang durch die Karten, die noch nicht sitzen — so lange, bis auch sie sicher sind.",
       "notes": "Englisch: replay round. Schließt eine Lektion sauber ab.",
@@ -97,6 +104,7 @@
       "title": "Typische Abstände",
       "exercise": {
         "id": "ex-tiles-abstaende",
+        "stable_id": "ex-ms9433fd02mzq",
         "type": "word_tiles",
         "prompt": "Ordne die typischen Wiederholungsabstände von kurz nach lang.",
         "card_ids": ["wachsende-abstaende"],
@@ -112,6 +120,7 @@
       "title": "Warum Timing zählt",
       "exercise": {
         "id": "ex-free-vergessen",
+        "stable_id": "ex-ms9433fd02ny9",
         "type": "free_text",
         "prompt": "Wie heißt die Beobachtung, dass frisch Gelerntes rasch verblasst?",
         "card_ids": ["vergessenskurve"],
@@ -128,6 +137,7 @@
       "title": "Fällige Karten",
       "exercise": {
         "id": "ex-cloze-queue",
+        "stable_id": "ex-ms9433fd02omf",
         "type": "cloze",
         "prompt": "Ergänze, wohin die App fällige Karten legt.",
         "card_ids": ["srs-queue"],
@@ -144,6 +154,7 @@
       "title": "Was steuert die Abstände?",
       "exercise": {
         "id": "ex-match-steuerung",
+        "stable_id": "ex-ms9433fd02png",
         "type": "matching",
         "prompt": "Ordne jedem Begriff seine Wirkung zu.",
         "card_ids": ["sternbewertung", "pruefungs-bonus", "wiederholungsrunde"],
@@ -162,6 +173,7 @@
       "title": "Spanne der Sterne",
       "exercise": {
         "id": "ex-cloze-sterne",
+        "stable_id": "ex-ms9433fd02qqi",
         "type": "cloze",
         "prompt": "Ergänze die Höchstzahl der Sterne einer Bewertung.",
         "card_ids": ["sternbewertung"],
@@ -178,6 +190,7 @@
       "title": "Lektion aus Fehlern",
       "exercise": {
         "id": "ex-free-fehler-lektion",
+        "stable_id": "ex-ms9433fd02rn6",
         "type": "free_text",
         "prompt": "Woraus stellt die App eine maßgeschneiderte Übungslektion zusammen?",
         "card_ids": ["fehler-lektion"],

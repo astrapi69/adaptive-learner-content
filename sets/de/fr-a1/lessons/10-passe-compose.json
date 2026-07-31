@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "verb-parler",
+      "stable_id": "card-ms9433hq1wrh5",
       "front": "parler",
       "back": "sprechen",
       "notes": "Regelmäßiges **-er**-Verb. Partizip Perfekt: **parlé** (einfach -er durch -é ersetzen). Klingt genauso wie der Infinitiv — der Kontext macht den Unterschied klar.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "verb-manger",
+      "stable_id": "card-ms9433hq1ws2i",
       "front": "manger",
       "back": "essen",
       "notes": "Partizip Perfekt: **mangé**. (Gleiches Muster: -er → -é.)",
@@ -26,6 +28,7 @@
     },
     {
       "id": "verb-regarder",
+      "stable_id": "card-ms9433hq1wtbv",
       "front": "regarder",
       "back": "ansehen / anschauen",
       "notes": "Partizip Perfekt: **regardé**. *J'ai regardé un film* — Ich habe einen Film angesehen.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "verb-ecouter",
+      "stable_id": "card-ms9433hq1wue4",
       "front": "écouter",
       "back": "(zu)hören",
       "notes": "Partizip Perfekt: **écouté**. Beginnt mit einem Vokal — Elision: *j'ai écouté*.",
@@ -46,6 +50,7 @@
     },
     {
       "id": "verb-habiter",
+      "stable_id": "card-ms9433hq1wvgc",
       "front": "habiter",
       "back": "wohnen (in)",
       "notes": "Partizip Perfekt: **habité**. Das **h** ist stumm — die Elision gilt: *j'ai habité*.",
@@ -56,6 +61,7 @@
     },
     {
       "id": "verb-acheter",
+      "stable_id": "card-ms9433hq1wwjw",
       "front": "acheter",
       "back": "kaufen",
       "notes": "Partizip Perfekt: **acheté**. *J'ai acheté du pain* — Ich habe Brot gekauft.",
@@ -66,6 +72,7 @@
     },
     {
       "id": "verb-travailler",
+      "stable_id": "card-ms9433hq1wx1p",
       "front": "travailler",
       "back": "arbeiten",
       "notes": "Partizip Perfekt: **travaillé**. *Hier j'ai travaillé* — Gestern habe ich gearbeitet.",
@@ -76,6 +83,7 @@
     },
     {
       "id": "verb-aimer",
+      "stable_id": "card-ms9433hq1wya3",
       "front": "aimer",
       "back": "mögen / lieben",
       "notes": "Partizip Perfekt: **aimé**. *J'ai aimé ce film* — Ich habe diesen Film gemocht.",
@@ -86,6 +94,7 @@
     },
     {
       "id": "pp-parle",
+      "stable_id": "card-ms9433hq1wzbj",
       "front": "parlé",
       "back": "gesprochen (Partizip Perfekt von parler)",
       "tags": [
@@ -94,6 +103,7 @@
     },
     {
       "id": "pp-mange",
+      "stable_id": "card-ms9433hq1x0b3",
       "front": "mangé",
       "back": "gegessen (Partizip Perfekt von manger)",
       "tags": [
@@ -102,6 +112,7 @@
     },
     {
       "id": "phr-hier",
+      "stable_id": "card-ms9433hq1x1yb",
       "front": "hier",
       "back": "gestern",
       "notes": "Häufiger Zeitmarker, der zum passé composé passt: *Hier j'ai mangé une pizza* — Gestern habe ich eine Pizza gegessen.",
@@ -111,6 +122,7 @@
     },
     {
       "id": "phr-ce-matin",
+      "stable_id": "card-ms9433hq1x2cn",
       "front": "ce matin",
       "back": "heute Morgen",
       "notes": "Ein weiterer Zeitmarker für die Vergangenheit. Auch: *ce soir* (heute Abend), *la semaine dernière* (letzte Woche).",
@@ -139,6 +151,7 @@
       "title": "Infinitiv und Partizip zuordnen",
       "exercise": {
         "id": "ex-match-participles",
+        "stable_id": "ex-ms9433hq1x3gj",
         "type": "matching",
         "prompt": "Ordne jedem Infinitiv sein Partizip Perfekt zu.",
         "card_ids": [
@@ -185,6 +198,7 @@
       "title": "Das Partizip bilden",
       "exercise": {
         "id": "ex-free-pp-travaille",
+        "stable_id": "ex-ms9433hq1x4xq",
         "type": "free_text",
         "prompt": "Wie lautet das Partizip Perfekt von **travailler** (arbeiten)?",
         "card_ids": [
@@ -217,6 +231,7 @@
       "title": "Ich habe gestern gegessen",
       "exercise": {
         "id": "ex-free-jai-mange",
+        "stable_id": "ex-ms9433hq1x52i",
         "type": "free_text",
         "prompt": "Übersetze: *Ich habe gestern gegessen.* (Verwende das passé composé. Wortstellung: Subjekt + avoir + Partizip + Zeit.)",
         "card_ids": [
@@ -245,6 +260,7 @@
       "title": "Bilden: Sie hat einen Film angesehen",
       "exercise": {
         "id": "ex-tile-she-watched",
+        "stable_id": "ex-ms9433hq1x6el",
         "type": "word_tiles",
         "prompt": "Ordne so an, dass es bedeutet: *Sie hat gestern einen Film angesehen.*",
         "card_ids": [
@@ -276,6 +292,7 @@
       "title": "Verneintes passé composé",
       "exercise": {
         "id": "ex-pick-negation",
+        "stable_id": "ex-ms9433hq1x7kx",
         "type": "picture_choice",
         "prompt": "Wie sagt man *Ich habe nicht gegessen*?",
         "card_ids": [
@@ -316,6 +333,7 @@
       "title": "Wir haben Musik gehört",
       "exercise": {
         "id": "ex-free-we-listened",
+        "stable_id": "ex-ms9433hq1x80z",
         "type": "free_text",
         "prompt": "Übersetze: *Wir haben heute Morgen Musik gehört.*",
         "card_ids": [
@@ -343,6 +361,7 @@
       "title": "Zeitmarker zuordnen",
       "exercise": {
         "id": "ex-match-time-markers",
+        "stable_id": "ex-ms9433hq1x941",
         "type": "matching",
         "prompt": "Ordne jedem französischen Zeitausdruck seine deutsche Bedeutung zu.",
         "card_ids": [
@@ -377,6 +396,7 @@
       "title": "Bilden: Ich habe ein Buch gekauft",
       "exercise": {
         "id": "ex-tile-i-bought",
+        "stable_id": "ex-ms9433hq1xajc",
         "type": "word_tiles",
         "prompt": "Ordne so an, dass es bedeutet: *Ich habe gestern ein Buch gekauft.*",
         "card_ids": [
@@ -402,6 +422,7 @@
       "title": "Sie haben gemocht",
       "exercise": {
         "id": "ex-free-they-liked",
+        "stable_id": "ex-ms9433hq1xbwn",
         "type": "free_text",
         "prompt": "Übersetze: *Sie haben den Film gemocht.* (Verwende die maskuline Form *ils*. Vergangenheit, passé composé.)",
         "card_ids": [

@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "irr-went",
+      "stable_id": "card-ms9433fr0bmsu",
       "front": "went",
       "back": "ging (go → went)",
       "notes": "Von 'go'. Völlig andere Form — wie deutsche starke Verben (gehen → ging).",
@@ -15,6 +16,7 @@
     },
     {
       "id": "irr-saw",
+      "stable_id": "card-ms9433fr0bn50",
       "front": "saw",
       "back": "sah (see → saw)",
       "notes": "Von 'see'. Gesprochen 'soo'. Nicht mit 'saw' = Säge verwechseln (gleiches Wort, anderer Sinn).",
@@ -22,6 +24,7 @@
     },
     {
       "id": "irr-had",
+      "stable_id": "card-ms9433fr0bor0",
       "front": "had",
       "back": "hatte (have → had)",
       "notes": "Von 'have'. Für alle Personen: I had, he had, they had.",
@@ -29,6 +32,7 @@
     },
     {
       "id": "irr-did",
+      "stable_id": "card-ms9433fr0bpns",
       "front": "did",
       "back": "tat / machte (do → did)",
       "notes": "Von 'do'. Auch das Hilfsverb für Fragen/Verneinungen in der Vergangenheit.",
@@ -36,6 +40,7 @@
     },
     {
       "id": "irr-said",
+      "stable_id": "card-ms9433fr0bq30",
       "front": "said",
       "back": "sagte (say → said)",
       "notes": "Von 'say'. Gesprochen 'sed', nicht 'sejd'.",
@@ -43,6 +48,7 @@
     },
     {
       "id": "irr-made",
+      "stable_id": "card-ms9433fr0br9f",
       "front": "made",
       "back": "machte / stellte her (make → made)",
       "notes": "Von 'make'. 'make' = herstellen/machen, 'do' = tun/erledigen.",
@@ -50,6 +56,7 @@
     },
     {
       "id": "irr-took",
+      "stable_id": "card-ms9433fr0bs33",
       "front": "took",
       "back": "nahm (take → took)",
       "notes": "Von 'take'. 'I took the bus' = Ich nahm den Bus.",
@@ -57,6 +64,7 @@
     },
     {
       "id": "irr-came",
+      "stable_id": "card-ms9433fr0btk0",
       "front": "came",
       "back": "kam (come → came)",
       "notes": "Von 'come'. Gesprochen 'kejm'.",
@@ -64,6 +72,7 @@
     },
     {
       "id": "irr-got",
+      "stable_id": "card-ms9433fr0buul",
       "front": "got",
       "back": "bekam / wurde (get → got)",
       "notes": "Von 'get'. 'get' = bekommen/erhalten! Genau das, was 'become' NICHT heißt.",
@@ -71,6 +80,7 @@
     },
     {
       "id": "irr-knew",
+      "stable_id": "card-ms9433fr0bvko",
       "front": "knew",
       "back": "wusste / kannte (know → knew)",
       "notes": "Von 'know'. Das 'k' ist stumm — gesprochen 'njuu'.",
@@ -78,6 +88,7 @@
     },
     {
       "id": "ff-become",
+      "stable_id": "card-ms9433fr0bwuf",
       "front": "become",
       "back": "werden (NICHT bekommen!)",
       "notes": "Falscher Freund! 'become' = werden. 'bekommen' = get / receive. 'I became a teacher' = Ich wurde Lehrer.",
@@ -110,6 +121,7 @@
       "title": "Unregelmäßige Formen zuordnen",
       "exercise": {
         "id": "ex-match-irregular",
+        "stable_id": "ex-ms9433fr0bxqk",
         "type": "matching",
         "prompt": "Ordne jede Vergangenheitsform ihrer Grundform und Bedeutung zu.",
         "card_ids": ["irr-went", "irr-saw", "irr-had", "irr-took"],
@@ -129,6 +141,7 @@
       "title": "Mehr unregelmäßige Formen",
       "exercise": {
         "id": "ex-match-irregular-2",
+        "stable_id": "ex-ms9433fr0by0d",
         "type": "matching",
         "prompt": "Ordne weitere Formen zu.",
         "card_ids": ["irr-said", "irr-made", "irr-came", "irr-knew"],
@@ -148,6 +161,7 @@
       "title": "become oder get?",
       "exercise": {
         "id": "ex-pick-become",
+        "stable_id": "ex-ms9433fr0bz8v",
         "type": "picture_choice",
         "prompt": "Du meinst 'Ich bekam ein Geschenk.' Welcher Satz ist korrekt?",
         "card_ids": ["ff-become", "irr-got"],
@@ -169,6 +183,7 @@
       "title": "go im Simple Past",
       "exercise": {
         "id": "ex-cloze-went",
+        "stable_id": "ex-ms9433fr0c0uk",
         "type": "cloze",
         "prompt": "Setze 'go' ins Simple Past.",
         "card_ids": ["irr-went"],
@@ -187,6 +202,7 @@
       "title": "see im Simple Past",
       "exercise": {
         "id": "ex-free-saw",
+        "stable_id": "ex-ms9433fr0c1wp",
         "type": "free_text",
         "prompt": "Übersetze: 'Ich sah einen Film.'",
         "card_ids": ["irr-saw"],
@@ -203,6 +219,7 @@
       "title": "'werden' richtig übersetzen",
       "exercise": {
         "id": "ex-free-became-teacher",
+        "stable_id": "ex-ms9433fr0c288",
         "type": "free_text",
         "prompt": "Übersetze: 'Ich wurde Lehrer.' (werden = become)",
         "card_ids": ["ff-become"],
@@ -219,6 +236,7 @@
       "title": "Frage mit did",
       "exercise": {
         "id": "ex-free-did-you-go",
+        "stable_id": "ex-ms9433fr0c38s",
         "type": "free_text",
         "prompt": "Übersetze: 'Bist du nach Hause gegangen?' (wörtlich: Gingst du nach Hause?)",
         "card_ids": ["irr-did", "irr-went"],
@@ -235,6 +253,7 @@
       "title": "Satz bauen",
       "exercise": {
         "id": "ex-tile-had-breakfast",
+        "stable_id": "ex-ms9433fr0c4ex",
         "type": "word_tiles",
         "prompt": "Bilde 'Ich nahm den Bus.'",
         "card_ids": ["irr-took"],
@@ -250,6 +269,7 @@
       "title": "have im Simple Past",
       "exercise": {
         "id": "ex-free-had",
+        "stable_id": "ex-ms9433fr0c54e",
         "type": "free_text",
         "prompt": "Übersetze: 'Wir hatten eine gute Zeit.'",
         "card_ids": ["irr-had"],
@@ -266,6 +286,7 @@
       "title": "make im Simple Past",
       "exercise": {
         "id": "ex-tile-she-made",
+        "stable_id": "ex-ms9433fr0c6ef",
         "type": "word_tiles",
         "prompt": "Bilde 'Sie machte einen Kuchen.'",
         "card_ids": ["irr-made"],

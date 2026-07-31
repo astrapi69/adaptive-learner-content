@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "rev-bonjour",
+      "stable_id": "card-ms9433ht1zt9l",
       "front": "Bonjour",
       "back": "hallo",
       "notes": "Die universelle Begrüßung für den Tag (Lektion 01). Am Abend: **Bonsoir**.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "rev-merci",
+      "stable_id": "card-ms9433ht1zupg",
       "front": "merci",
       "back": "danke",
       "notes": "Höflichkeitsformel, die nicht fehlen darf. *Merci beaucoup* — vielen Dank.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "rev-trois",
+      "stable_id": "card-ms9433ht1zvdf",
       "front": "trois",
       "back": "drei",
       "notes": "Zahlen (Lektion 02): un, deux, **trois**, quatre, cinq. *Il est trois heures* — es ist drei Uhr.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "rev-pomme",
+      "stable_id": "card-ms9433ht1zwwe",
       "front": "une pomme",
       "back": "ein Apfel",
       "notes": "Weibliches Substantiv, unbestimmter Artikel **une** (Lektion 03). Auch Lebensmittelvokabular (Lektion 12).",
@@ -43,6 +47,7 @@
     },
     {
       "id": "rev-je-suis",
+      "stable_id": "card-ms9433ht1zxiq",
       "front": "Je suis",
       "back": "ich bin",
       "notes": "Präsens von **être** (Lektion 04). *Je suis fatigué* — ich bin müde.",
@@ -52,6 +57,7 @@
     },
     {
       "id": "rev-ma-mere",
+      "stable_id": "card-ms9433ht1zyj8",
       "front": "ma mère",
       "back": "meine Mutter",
       "notes": "Familie + Possessivbegleiter (Lektion 06). *Ma* vor einem weiblichen Substantiv: **ma** mère, **mon** père.",
@@ -61,6 +67,7 @@
     },
     {
       "id": "rev-rouge",
+      "stable_id": "card-ms9433ht1zz3u",
       "front": "rouge",
       "back": "rot",
       "notes": "Farben (Lektion 07). *Une pomme rouge* — ein roter Apfel. Das Adjektiv steht nach dem Substantiv.",
@@ -70,6 +77,7 @@
     },
     {
       "id": "rev-addition",
+      "stable_id": "card-ms9433ht200tl",
       "front": "l'addition",
       "back": "die Rechnung",
       "notes": "Im Restaurant (Lektion 08). *L'addition, s'il vous plaît* — die Rechnung, bitte.",
@@ -79,6 +87,7 @@
     },
     {
       "id": "rev-a-gauche",
+      "stable_id": "card-ms9433ht201hu",
       "front": "à gauche",
       "back": "links",
       "notes": "Wegbeschreibungen (Lektion 09). Gegenteil: *à droite* — rechts. *Tout droit* — geradeaus.",
@@ -88,6 +97,7 @@
     },
     {
       "id": "rev-hier",
+      "stable_id": "card-ms9433ht202i4",
       "front": "hier",
       "back": "gestern",
       "notes": "Vergangenheitsmarker (Lektion 10), passt zum passé composé. *Hier, j'ai mangé* — gestern habe ich gegessen.",
@@ -98,6 +108,7 @@
     },
     {
       "id": "rev-le-matin",
+      "stable_id": "card-ms9433ht203cs",
       "front": "le matin",
       "back": "(am) Morgen",
       "notes": "Tagesablauf + Uhrzeit (Lektion 11). *Le matin, je bois un café* — am Morgen trinke ich einen Kaffee.",
@@ -108,6 +119,7 @@
     },
     {
       "id": "rev-demain",
+      "stable_id": "card-ms9433ht204p4",
       "front": "demain",
       "back": "morgen",
       "notes": "Zukunftsmarker, passt zum futur proche. *Demain, je vais travailler* — morgen werde ich arbeiten.",
@@ -118,6 +130,7 @@
     },
     {
       "id": "rev-je-voudrais",
+      "stable_id": "card-ms9433ht205vt",
       "front": "Je voudrais",
       "back": "ich hätte gern",
       "notes": "Höfliche Bitte (Lektion 08/12). *Je voudrais un café* — ich hätte gern einen Kaffee. Sanfter als *Je veux* (ich will).",
@@ -141,6 +154,7 @@
       "title": "Schnelles Abrufen: Französisch zu Deutsch",
       "exercise": {
         "id": "ex-match-mixed",
+        "stable_id": "ex-ms9433ht2068l",
         "type": "matching",
         "prompt": "Wärm dich auf, indem du diese Schlüsselwörter aus dem ganzen Kurs ihren deutschen Bedeutungen zuordnest.",
         "card_ids": [
@@ -187,6 +201,7 @@
       "title": "Sei höflich",
       "exercise": {
         "id": "ex-free-hello-thanks",
+        "stable_id": "ex-ms9433ht207iy",
         "type": "free_text",
         "prompt": "Sage *hallo* und *danke* in einem kurzen Satz (zuerst die Begrüßung, dann der Dank).",
         "card_ids": [
@@ -214,6 +229,7 @@
       "title": "Stell dich vor",
       "exercise": {
         "id": "ex-tile-introduce",
+        "stable_id": "ex-ms9433ht208n2",
         "type": "word_tiles",
         "prompt": "Ordne die Kacheln so an, dass sie bedeuten: *Ich heiße Marie und ich bin zwanzig Jahre alt.*",
         "card_ids": [
@@ -239,6 +255,7 @@
       "title": "Im Restaurant",
       "exercise": {
         "id": "ex-pic-bill",
+        "stable_id": "ex-ms9433ht20979",
         "type": "picture_choice",
         "prompt": "Welches bedeutet *Ich hätte gern die Rechnung*?",
         "card_ids": [
@@ -280,6 +297,7 @@
       "title": "Familie und Wegbeschreibungen",
       "exercise": {
         "id": "ex-free-mother-left",
+        "stable_id": "ex-ms9433ht20a25",
         "type": "free_text",
         "prompt": "Übersetze: *Meine Mutter ist links.*",
         "card_ids": [
@@ -308,6 +326,7 @@
       "title": "Uhrzeit",
       "exercise": {
         "id": "ex-free-three-oclock",
+        "stable_id": "ex-ms9433ht20bl7",
         "type": "free_text",
         "prompt": "Übersetze: *Es ist drei Uhr.*",
         "card_ids": [
@@ -335,6 +354,7 @@
       "title": "Die Vergangenheit (être-Verben)",
       "exercise": {
         "id": "ex-free-market-yesterday",
+        "stable_id": "ex-ms9433ht20cie",
         "type": "free_text",
         "prompt": "Übersetze: *Ich bin gestern zum Markt gegangen.* (Verwende das passé composé. *Aller* nimmt **être**, nicht *avoir*.)",
         "card_ids": [
@@ -362,6 +382,7 @@
       "title": "Die nahe Zukunft",
       "exercise": {
         "id": "ex-tile-visit-paris",
+        "stable_id": "ex-ms9433ht20d44",
         "type": "word_tiles",
         "prompt": "Ordne die Kacheln so an, dass sie bedeuten: *Morgen werde ich Paris besuchen.*",
         "card_ids": [
@@ -385,6 +406,7 @@
       "title": "Artikel und Farben",
       "exercise": {
         "id": "ex-free-apple-red",
+        "stable_id": "ex-ms9433ht20evp",
         "type": "free_text",
         "prompt": "Übersetze: *ein roter Apfel.* (Denk daran: die Farbe steht nach dem Substantiv.)",
         "card_ids": [

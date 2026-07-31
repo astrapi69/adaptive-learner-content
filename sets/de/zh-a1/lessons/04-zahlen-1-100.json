@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "zahl-yi",
+      "stable_id": "card-ms9433j13apxc",
       "front": "一",
       "back": "eins (1)",
       "notes": "Pinyin: yī. Kontext: 一 个 人 (yí gè rén) – eine Person.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "zahl-er",
+      "stable_id": "card-ms9433j13aq8z",
       "front": "二",
       "back": "zwei (2)",
       "notes": "Pinyin: èr. Kontext: 二 月 (èr yuè) – Februar (wörtlich zweiter Monat).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "zahl-san",
+      "stable_id": "card-ms9433j13ar53",
       "front": "三",
       "back": "drei (3)",
       "notes": "Pinyin: sān. Kontext: 三 个 苹果 (sān gè píngguǒ) – drei Äpfel.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "zahl-si",
+      "stable_id": "card-ms9433j13asr3",
       "front": "四",
       "back": "vier (4)",
       "notes": "Pinyin: sì. Kontext: 四 点 (sì diǎn) – vier Uhr.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "zahl-wu",
+      "stable_id": "card-ms9433j13atyd",
       "front": "五",
       "back": "fünf (5)",
       "notes": "Pinyin: wǔ. Kontext: 五 块 钱 (wǔ kuài qián) – fünf Yuan.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "zahl-liu",
+      "stable_id": "card-ms9433j13aupf",
       "front": "六",
       "back": "sechs (6)",
       "notes": "Pinyin: liù. Kontext: 六 个 月 (liù gè yuè) – sechs Monate.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "zahl-qi",
+      "stable_id": "card-ms9433j13avs3",
       "front": "七",
       "back": "sieben (7)",
       "notes": "Pinyin: qī. Kontext: 七 天 (qī tiān) – sieben Tage.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "zahl-ba",
+      "stable_id": "card-ms9433j13awzd",
       "front": "八",
       "back": "acht (8)",
       "notes": "Pinyin: bā. Kontext: 八 点 (bā diǎn) – acht Uhr.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "zahl-jiu",
+      "stable_id": "card-ms9433j13ax46",
       "front": "九",
       "back": "neun (9)",
       "notes": "Pinyin: jiǔ. Kontext: 九 个 (jiǔ gè) – neun Stück.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "zahl-shi",
+      "stable_id": "card-ms9433j13ayi7",
       "front": "十",
       "back": "zehn (10)",
       "notes": "Pinyin: shí. Kontext: 十 个 (shí gè) – zehn Stück.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "zahl-ershi",
+      "stable_id": "card-ms9433j13az2r",
       "front": "二十",
       "back": "zwanzig (20)",
       "notes": "Pinyin: èrshí. Wörtlich 'zwei-zehn' = 2×10. Kontext: 二十 岁 (èrshí suì) – zwanzig Jahre alt.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "zahl-sanshiwu",
+      "stable_id": "card-ms9433j13b0xd",
       "front": "三十五",
       "back": "fünfunddreißig (35)",
       "notes": "Pinyin: sānshíwǔ. Wörtlich 'drei-zehn-fünf' = 3×10+5. Kontext: 三十五 块 (sānshíwǔ kuài) – 35 Yuan.",
@@ -105,6 +117,7 @@
     },
     {
       "id": "zahl-yibai",
+      "stable_id": "card-ms9433j13b198",
       "front": "一百",
       "back": "hundert (100)",
       "notes": "Pinyin: yìbǎi. 百 = hundert. Kontext: 一百 块 (yìbǎi kuài) – hundert Yuan.",
@@ -132,6 +145,7 @@
       "title": "Zahlen zuordnen",
       "exercise": {
         "id": "ex-match-zahlen",
+        "stable_id": "ex-ms9433j13b2e6",
         "type": "matching",
         "prompt": "Ordne jedem Zeichen die Zahl zu.",
         "card_ids": ["zahl-yi", "zahl-san", "zahl-wu", "zahl-shi"],
@@ -151,6 +165,7 @@
       "title": "Acht schreiben",
       "exercise": {
         "id": "ex-free-acht",
+        "stable_id": "ex-ms9433j13b3sg",
         "type": "free_text",
         "prompt": "Wie schreibt man 'acht' (8) auf Chinesisch (Hanzi oder Pinyin)?",
         "card_ids": ["zahl-ba"],
@@ -167,6 +182,7 @@
       "title": "Zwanzig bilden",
       "exercise": {
         "id": "ex-cloze-zwanzig",
+        "stable_id": "ex-ms9433j13b461",
         "type": "cloze",
         "prompt": "Ergänze die Zahl 20 (zwei mal zehn).",
         "card_ids": ["zahl-ershi", "zahl-er", "zahl-shi"],
@@ -186,6 +202,7 @@
       "title": "35 zusammensetzen",
       "exercise": {
         "id": "ex-tiles-fuenfunddreissig",
+        "stable_id": "ex-ms9433j13b5zh",
         "type": "word_tiles",
         "prompt": "Setze die Zahl 35 (drei-zehn-fünf) zusammen.",
         "card_ids": ["zahl-sanshiwu"],
@@ -201,6 +218,7 @@
       "title": "Hundert",
       "exercise": {
         "id": "ex-free-hundert",
+        "stable_id": "ex-ms9433j13b6u1",
         "type": "free_text",
         "prompt": "Wie sagt man '100' auf Chinesisch (Hanzi oder Pinyin)?",
         "card_ids": ["zahl-yibai"],
@@ -217,6 +235,7 @@
       "title": "Welches Zeichen ist die Vier?",
       "exercise": {
         "id": "ex-pic-vier",
+        "stable_id": "ex-ms9433j13b7sp",
         "type": "picture_choice",
         "prompt": "Welches Zeichen bedeutet 'vier' (4)?",
         "card_ids": ["zahl-si"],

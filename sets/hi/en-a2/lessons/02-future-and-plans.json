@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "en-a2-will",
+      "stable_id": "card-ms9433l359vyw",
       "front": "will",
       "back": "गा / गी / गे (भविष्य)",
       "notes": "*will* + base verb for predictions and decisions: *I will help you.*",
@@ -13,6 +14,7 @@
     },
     {
       "id": "en-a2-going-to",
+      "stable_id": "card-ms9433l359wzi",
       "front": "going to",
       "back": "वाला/वाली है (योजना)",
       "notes": "*be going to* + base verb for plans: *I am going to study.*",
@@ -20,6 +22,7 @@
     },
     {
       "id": "en-a2-wont",
+      "stable_id": "card-ms9433l359x8j",
       "front": "won't",
       "back": "नहीं करेगा (will not)",
       "notes": "*will not* → won't. *I won't be late.*",
@@ -27,6 +30,7 @@
     },
     {
       "id": "en-a2-tomorrow",
+      "stable_id": "card-ms9433l359ynw",
       "front": "tomorrow",
       "back": "कल (आने वाला)",
       "notes": "A common future time word.",
@@ -34,6 +38,7 @@
     },
     {
       "id": "en-a2-next-week",
+      "stable_id": "card-ms9433l359zrk",
       "front": "next week",
       "back": "अगले हफ़्ते",
       "notes": "Also: *next month*, *next year*.",
@@ -41,6 +46,7 @@
     },
     {
       "id": "en-a2-i-will-help",
+      "stable_id": "card-ms9433l35a0cl",
       "front": "I will help you.",
       "back": "मैं तुम्हारी मदद करूँगा।",
       "notes": "*will* + base verb (*help*).",
@@ -48,6 +54,7 @@
     },
     {
       "id": "en-a2-going-to-study",
+      "stable_id": "card-ms9433l35a1rb",
       "front": "I am going to study tonight.",
       "back": "मैं आज रात पढ़ने वाला हूँ।",
       "notes": "A planned action → *going to*.",
@@ -55,6 +62,7 @@
     },
     {
       "id": "en-a2-will-it-rain",
+      "stable_id": "card-ms9433l35a2js",
       "front": "Will it rain tomorrow?",
       "back": "क्या कल बारिश होगी?",
       "notes": "Question: **Will** + subject + base verb.",
@@ -75,6 +83,7 @@
       "title": "Match the future words",
       "exercise": {
         "id": "l2-ex-match-future",
+        "stable_id": "ex-ms9433l35a3hv",
         "type": "matching",
         "prompt": "Match each English word with its Hindi meaning.",
         "card_ids": ["en-a2-will", "en-a2-going-to", "en-a2-tomorrow", "en-a2-next-week"],
@@ -94,6 +103,7 @@
       "title": "Make a promise with will",
       "exercise": {
         "id": "l2-ex-cloze-will",
+        "stable_id": "ex-ms9433l35a4ug",
         "type": "cloze",
         "prompt": "Complete: \"I ___ help you.\" (a decision now)",
         "card_ids": ["en-a2-will", "en-a2-i-will-help"],
@@ -110,6 +120,7 @@
       "title": "Build a plan",
       "exercise": {
         "id": "l2-ex-tiles-going-to",
+        "stable_id": "ex-ms9433l35a5h8",
         "type": "word_tiles",
         "prompt": "Arrange to mean: मैं आज रात पढ़ने वाला हूँ। (I am going to study tonight.)",
         "card_ids": ["en-a2-going-to-study"],
@@ -125,6 +136,7 @@
       "title": "Say \"tomorrow\"",
       "exercise": {
         "id": "l2-ex-free-tomorrow",
+        "stable_id": "ex-ms9433l35a6pe",
         "type": "free_text",
         "prompt": "How do you say \"कल (आने वाला)\" in English?",
         "card_ids": ["en-a2-tomorrow"],
@@ -141,6 +153,7 @@
       "title": "Ask about the future",
       "exercise": {
         "id": "l2-ex-cloze-question",
+        "stable_id": "ex-ms9433l35a7v8",
         "type": "cloze",
         "prompt": "Complete the question: \"___ it rain tomorrow?\"",
         "card_ids": ["en-a2-will-it-rain"],
@@ -157,6 +170,7 @@
       "title": "The negative of will",
       "exercise": {
         "id": "l2-ex-free-wont",
+        "stable_id": "ex-ms9433l35a8xo",
         "type": "free_text",
         "prompt": "Write the short form of \"will not\".",
         "card_ids": ["en-a2-wont"],

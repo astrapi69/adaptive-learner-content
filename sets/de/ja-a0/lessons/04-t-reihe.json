@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "k-ta",
+      "stable_id": "card-ms9433ik2qlc4",
       "front": "た",
       "back": "ta",
       "notes": "Hepburn: ta.",
@@ -19,6 +20,7 @@
     },
     {
       "id": "k-chi",
+      "stable_id": "card-ms9433ik2qm0a",
       "front": "ち",
       "back": "chi",
       "notes": "Hepburn: chi.",
@@ -29,6 +31,7 @@
     },
     {
       "id": "k-tsu",
+      "stable_id": "card-ms9433ik2qnb3",
       "front": "つ",
       "back": "tsu",
       "notes": "Hepburn: tsu.",
@@ -39,6 +42,7 @@
     },
     {
       "id": "k-te",
+      "stable_id": "card-ms9433ik2qoa5",
       "front": "て",
       "back": "te",
       "notes": "Hepburn: te.",
@@ -49,6 +53,7 @@
     },
     {
       "id": "k-to",
+      "stable_id": "card-ms9433ik2qp50",
       "front": "と",
       "back": "to",
       "notes": "Hepburn: to.",
@@ -59,6 +64,7 @@
     },
     {
       "id": "k-shi",
+      "stable_id": "card-ms9433ik2qqqo",
       "front": "し",
       "back": "shi",
       "notes": "Hepburn: shi.",
@@ -107,7 +113,7 @@
           "ka"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ta"
+        "id": "ex-r-ta", "stable_id": "ex-ms9433ik2qr0k"
       }
     },
     {
@@ -136,7 +142,7 @@
           "ra"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-chi"
+        "id": "ex-r-chi", "stable_id": "ex-ms9433ik2qsmu"
       }
     },
     {
@@ -165,7 +171,7 @@
           "ra"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-tsu"
+        "id": "ex-r-tsu", "stable_id": "ex-ms9433ik2qtxs"
       }
     },
     {
@@ -194,7 +200,7 @@
           "あ"
         ],
         "hint": "Aus der T-Reihe: t + o.",
-        "id": "ex-c-to"
+        "id": "ex-c-to", "stable_id": "ex-ms9433ik2qups"
       }
     },
     {
@@ -223,7 +229,7 @@
           "あ"
         ],
         "hint": "Aus der T-Reihe: t + e.",
-        "id": "ex-c-te"
+        "id": "ex-c-te", "stable_id": "ex-ms9433ik2qvcc"
       }
     },
     {
@@ -256,7 +262,7 @@
           "な"
         ],
         "hint": "t + a/(ch)i/(ts)u/e/o.",
-        "id": "ex-ms-t"
+        "id": "ex-ms-t", "stable_id": "ex-ms9433ik2qwnt"
       }
     },
     {
@@ -297,7 +303,7 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-t"
+        "id": "ex-match-t", "stable_id": "ex-ms9433ik2qxli"
       }
     },
     {
@@ -326,7 +332,7 @@
           "ri"
         ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-rep-shi"
+        "id": "ex-rep-shi", "stable_id": "ex-ms9433ik2qyjy"
       }
     },
     {
@@ -351,7 +357,7 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-tsu"
+        "id": "ex-tip-tsu", "stable_id": "ex-ms9433ik2qzhz"
       }
     }
   ]

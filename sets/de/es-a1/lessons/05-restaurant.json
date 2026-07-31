@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "phr-quisiera",
+      "stable_id": "card-ms9433gn0yxoy",
       "front": "Quisiera…",
       "back": "Ich hätte gern… (höflich)",
       "notes": "Konditional von *querer*. Die höfliche Variante von *Quiero* (ich will), das im Service-Kontext schroff klingt. Auf A1-Niveau als feste Wendung behandeln.",
@@ -18,6 +19,7 @@
     },
     {
       "id": "phr-por-favor",
+      "stable_id": "card-ms9433gn0yyh5",
       "front": "por favor",
       "back": "bitte",
       "notes": "Steht am Ende der Bitte, wie im Englischen: *Un café, por favor*. Nicht übertreiben — Spanisch ist direkt; ein *por favor* pro Bitte genügt.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "phr-gracias",
+      "stable_id": "card-ms9433gn0yzf6",
       "front": "gracias",
       "back": "danke",
       "notes": "Verstärkung: *muchas gracias* (vielen Dank). Antwort: *de nada* (gern geschehen — wörtlich *für nichts*).",
@@ -36,6 +39,7 @@
     },
     {
       "id": "phr-la-cuenta",
+      "stable_id": "card-ms9433gn0z0v2",
       "front": "La cuenta, por favor.",
       "back": "Die Rechnung, bitte.",
       "notes": "Die übliche Art, nach der Rechnung zu fragen. *La cuenta* nimmt *la* — feminines Substantiv. Nicht mit *el cuento* (die Geschichte) verwechseln — anderes Wort.",
@@ -46,6 +50,7 @@
     },
     {
       "id": "phr-buen-provecho",
+      "stable_id": "card-ms9433gn0z1br",
       "front": "¡Buen provecho!",
       "back": "Guten Appetit!",
       "notes": "Gleiche Rolle wie das französische *Bon appétit*. Wird vom Personal beim Servieren gesagt UND von Tischgenossen vor dem Essen. Immer mit Ausrufezeichen.",
@@ -56,6 +61,7 @@
     },
     {
       "id": "food-pan",
+      "stable_id": "card-ms9433gn0z2e1",
       "front": "el pan",
       "back": "das Brot",
       "tags": [
@@ -65,6 +71,7 @@
     },
     {
       "id": "food-agua",
+      "stable_id": "card-ms9433gn0z3b6",
       "front": "el agua",
       "back": "das Wasser",
       "notes": "Knifflige Ausnahme: *agua* ist **feminin** (endet auf -a), nimmt aber im Singular ***el***, um den harten Klang *la a-* zu vermeiden. Im Plural wird es *las aguas* (regelmäßig) und *agua fría* (regelmäßige feminine Anpassung) bei Adjektiven. Gleicher Trick: *el águila* (der Adler), *el hambre* (der Hunger).",
@@ -76,6 +83,7 @@
     },
     {
       "id": "food-vino",
+      "stable_id": "card-ms9433gn0z4dd",
       "front": "el vino",
       "back": "der Wein",
       "notes": "Abgrenzen von *el vinto* (existiert nicht — häufiger Tippfehler). *Un vaso de vino* (ein Glas Wein) oder *una copa de vino* (ein Weinglas — für Stielgläser).",
@@ -86,6 +94,7 @@
     },
     {
       "id": "food-cafe",
+      "stable_id": "card-ms9433gn0z5f0",
       "front": "el café",
       "back": "der Kaffee",
       "notes": "Standardbestellung in Spanien ist ein *café solo* (Espresso). Andere gängige Sorten: *café con leche* (mit Milch), *café cortado* (Espresso mit einem Schuss Milch).",
@@ -96,6 +105,7 @@
     },
     {
       "id": "food-pollo",
+      "stable_id": "card-ms9433gn0z63n",
       "front": "el pollo",
       "back": "das Hähnchen",
       "tags": [
@@ -105,6 +115,7 @@
     },
     {
       "id": "food-pescado",
+      "stable_id": "card-ms9433gn0z7iq",
       "front": "el pescado",
       "back": "der Fisch (als Speise)",
       "notes": "Konkret Fisch-als-Speise (nach dem Fang). Lebendiger Fisch ist *el pez* (Plural *los peces*). Die Speisekarte nutzt immer *pescado*.",
@@ -115,6 +126,7 @@
     },
     {
       "id": "food-ensalada",
+      "stable_id": "card-ms9433gn0z827",
       "front": "la ensalada",
       "back": "der Salat",
       "tags": [
@@ -124,6 +136,7 @@
     },
     {
       "id": "food-queso",
+      "stable_id": "card-ms9433gn0z9ro",
       "front": "el queso",
       "back": "der Käse",
       "tags": [
@@ -133,6 +146,7 @@
     },
     {
       "id": "phr-esta-bueno",
+      "stable_id": "card-ms9433gn0zavo",
       "front": "Está bueno.",
       "back": "Es ist gut / lecker. (gerade jetzt)",
       "notes": "Nutzt ***estar*** — beschreibt den AKTUELLEN Zustand des Essens (es schmeckt gut, während du isst). *Es bueno* (mit ser) würde bedeuten *das Essen ist gut für dich / nahrhaft* — völlig andere Bedeutung. Klassische ser/estar-Falle, perfekte Gelegenheit, Lektion 04 zu wiederholen.",
@@ -162,6 +176,7 @@
       "title": "Höflich einen Kaffee bestellen",
       "exercise": {
         "id": "ex-free-quisiera",
+        "stable_id": "ex-ms9433gn0zbbd",
         "type": "free_text",
         "prompt": "Übersetze: *Ich hätte gern einen Kaffee, bitte.*",
         "card_ids": [
@@ -196,6 +211,7 @@
       "title": "Essensvokabular zuordnen",
       "exercise": {
         "id": "ex-match-food",
+        "stable_id": "ex-ms9433gn0zcby",
         "type": "matching",
         "prompt": "Ordne jedem spanischen Speisekarten-Wort seine deutsche Bedeutung zu.",
         "card_ids": [
@@ -242,6 +258,7 @@
       "title": "El agua — die Ausnahme",
       "exercise": {
         "id": "ex-pick-agua",
+        "stable_id": "ex-ms9433gn0zdx6",
         "type": "picture_choice",
         "prompt": "Wie schreibt man *das Wasser* auf Spanisch?",
         "card_ids": [
@@ -288,6 +305,7 @@
       "title": "Das Essen loben",
       "exercise": {
         "id": "ex-pick-esta-bueno",
+        "stable_id": "ex-ms9433gn0ze8d",
         "type": "picture_choice",
         "prompt": "Du sitzt am Tisch, probierst die Suppe, und sie ist großartig. Du sagst…",
         "card_ids": [
@@ -329,6 +347,7 @@
       "title": "Nach der Rechnung fragen",
       "exercise": {
         "id": "ex-free-la-cuenta",
+        "stable_id": "ex-ms9433gn0zf49",
         "type": "free_text",
         "prompt": "Frage höflich nach der Rechnung.",
         "card_ids": [
@@ -355,6 +374,7 @@
       "title": "Ein Glas Wasser bestellen",
       "exercise": {
         "id": "ex-tile-glass-water",
+        "stable_id": "ex-ms9433gn0zgnm",
         "type": "word_tiles",
         "prompt": "Ordne an, um zu fragen: *Ich hätte gern ein Glas Wasser, bitte.*",
         "card_ids": [
@@ -382,6 +402,7 @@
       "title": "Phrase dem Moment zuordnen",
       "exercise": {
         "id": "ex-match-phrases",
+        "stable_id": "ex-ms9433gn0zhxg",
         "type": "matching",
         "prompt": "Ordne jede spanische Phrase dem Moment zu, in dem du sie benutzen würdest.",
         "card_ids": [
@@ -418,6 +439,7 @@
       "title": "Einen Salat und Fisch bestellen",
       "exercise": {
         "id": "ex-tile-order-fish",
+        "stable_id": "ex-ms9433gn0zicv",
         "type": "word_tiles",
         "prompt": "Ordne an, um zu sagen: *Ich hätte gern einen Salat und den Fisch, bitte.*",
         "card_ids": [

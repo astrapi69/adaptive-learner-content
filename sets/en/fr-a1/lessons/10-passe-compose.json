@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "verb-parler",
+      "stable_id": "card-ms9433kj4p8id",
       "front": "parler",
       "back": "to speak",
       "notes": "Regular **-er** verb. Past participle: **parlé** (just swap -er for -é). Sounds the same as the infinitive — context disambiguates.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "verb-manger",
+      "stable_id": "card-ms9433kj4p941",
       "front": "manger",
       "back": "to eat",
       "notes": "Past participle: **mangé**. (Same pattern: -er → -é.)",
@@ -26,6 +28,7 @@
     },
     {
       "id": "verb-regarder",
+      "stable_id": "card-ms9433kj4palk",
       "front": "regarder",
       "back": "to watch / look at",
       "notes": "Past participle: **regardé**. *J'ai regardé un film* — I watched a movie.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "verb-ecouter",
+      "stable_id": "card-ms9433kj4pbvy",
       "front": "écouter",
       "back": "to listen (to)",
       "notes": "Past participle: **écouté**. Starts with a vowel — elision: *j'ai écouté*.",
@@ -46,6 +50,7 @@
     },
     {
       "id": "verb-habiter",
+      "stable_id": "card-ms9433kj4pccg",
       "front": "habiter",
       "back": "to live (in)",
       "notes": "Past participle: **habité**. The **h** is silent — elision applies: *j'ai habité*.",
@@ -56,6 +61,7 @@
     },
     {
       "id": "verb-acheter",
+      "stable_id": "card-ms9433kj4pdis",
       "front": "acheter",
       "back": "to buy",
       "notes": "Past participle: **acheté**. *J'ai acheté du pain* — I bought some bread.",
@@ -66,6 +72,7 @@
     },
     {
       "id": "verb-travailler",
+      "stable_id": "card-ms9433kj4pewm",
       "front": "travailler",
       "back": "to work",
       "notes": "Past participle: **travaillé**. *Hier j'ai travaillé* — yesterday I worked.",
@@ -76,6 +83,7 @@
     },
     {
       "id": "verb-aimer",
+      "stable_id": "card-ms9433kj4pfc4",
       "front": "aimer",
       "back": "to like / love",
       "notes": "Past participle: **aimé**. *J'ai aimé ce film* — I liked this movie.",
@@ -86,6 +94,7 @@
     },
     {
       "id": "pp-parle",
+      "stable_id": "card-ms9433kj4pgez",
       "front": "parlé",
       "back": "spoken (past participle of parler)",
       "tags": [
@@ -94,6 +103,7 @@
     },
     {
       "id": "pp-mange",
+      "stable_id": "card-ms9433kj4phd5",
       "front": "mangé",
       "back": "eaten (past participle of manger)",
       "tags": [
@@ -102,6 +112,7 @@
     },
     {
       "id": "phr-hier",
+      "stable_id": "card-ms9433kj4pixn",
       "front": "hier",
       "back": "yesterday",
       "notes": "Common time marker that pairs with the passé composé: *Hier j'ai mangé une pizza* — yesterday I ate a pizza.",
@@ -111,6 +122,7 @@
     },
     {
       "id": "phr-ce-matin",
+      "stable_id": "card-ms9433kj4pjdg",
       "front": "ce matin",
       "back": "this morning",
       "notes": "Another past-time marker. Also: *ce soir* (this evening), *la semaine dernière* (last week).",
@@ -139,6 +151,7 @@
       "title": "Match infinitive to participle",
       "exercise": {
         "id": "ex-match-participles",
+        "stable_id": "ex-ms9433kj4pkmm",
         "type": "matching",
         "prompt": "Match each infinitive with its past participle.",
         "card_ids": [
@@ -185,6 +198,7 @@
       "title": "Form the participle",
       "exercise": {
         "id": "ex-free-pp-travaille",
+        "stable_id": "ex-ms9433kj4plvd",
         "type": "free_text",
         "prompt": "What is the past participle of **travailler** (to work)?",
         "card_ids": [
@@ -217,6 +231,7 @@
       "title": "I ate yesterday",
       "exercise": {
         "id": "ex-free-jai-mange",
+        "stable_id": "ex-ms9433kj4pmau",
         "type": "free_text",
         "prompt": "Translate: *I ate yesterday.* (Use the passé composé. Word order: subject + avoir + participle + time.)",
         "card_ids": [
@@ -245,6 +260,7 @@
       "title": "Build: She watched a film",
       "exercise": {
         "id": "ex-tile-she-watched",
+        "stable_id": "ex-ms9433kj4pnss",
         "type": "word_tiles",
         "prompt": "Arrange to mean: *She watched a film yesterday.*",
         "card_ids": [
@@ -276,6 +292,7 @@
       "title": "Negative passé composé",
       "exercise": {
         "id": "ex-pick-negation",
+        "stable_id": "ex-ms9433kj4porz",
         "type": "picture_choice",
         "prompt": "How do you say *I did not eat*?",
         "card_ids": [
@@ -316,6 +333,7 @@
       "title": "We listened to music",
       "exercise": {
         "id": "ex-free-we-listened",
+        "stable_id": "ex-ms9433kj4ppjs",
         "type": "free_text",
         "prompt": "Translate: *We listened to music this morning.*",
         "card_ids": [
@@ -343,6 +361,7 @@
       "title": "Match time markers",
       "exercise": {
         "id": "ex-match-time-markers",
+        "stable_id": "ex-ms9433kj4pq9j",
         "type": "matching",
         "prompt": "Match each French time expression with its English meaning.",
         "card_ids": [
@@ -377,6 +396,7 @@
       "title": "Build: I bought a book",
       "exercise": {
         "id": "ex-tile-i-bought",
+        "stable_id": "ex-ms9433kj4prpl",
         "type": "word_tiles",
         "prompt": "Arrange to mean: *I bought a book yesterday.*",
         "card_ids": [
@@ -402,6 +422,7 @@
       "title": "They liked",
       "exercise": {
         "id": "ex-free-they-liked",
+        "stable_id": "ex-ms9433kj4psnl",
         "type": "free_text",
         "prompt": "Translate: *They liked the film.* (Use masculine *they*. Past tense, passé composé.)",
         "card_ids": [

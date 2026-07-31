@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "rev-the",
+      "stable_id": "card-ms9433ft0csoh",
       "front": "the",
       "back": "der / die / das (ein Wort, kein Genus)",
       "notes": "Wiederholung Lektion 03: Englisch hat kein grammatisches Geschlecht.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "rev-an",
+      "stable_id": "card-ms9433ft0ctng",
       "front": "an apple",
       "back": "ein Apfel ('an' vor Vokal-Laut)",
       "notes": "Wiederholung Lektion 03: a vor Konsonanten-Laut, an vor Vokal-Laut.",
@@ -22,6 +24,7 @@
     },
     {
       "id": "rev-works",
+      "stable_id": "card-ms9433ft0cuvw",
       "front": "he works",
       "back": "er arbeitet (3. Person + -s)",
       "notes": "Wiederholung Lektion 11: das -s in der 3. Person Singular nicht vergessen.",
@@ -29,6 +32,7 @@
     },
     {
       "id": "rev-doesnt",
+      "stable_id": "card-ms9433ft0cv2z",
       "front": "he doesn't work",
       "back": "er arbeitet nicht",
       "notes": "Wiederholung Lektion 11: doesn't + Grundform (ohne -s).",
@@ -36,6 +40,7 @@
     },
     {
       "id": "rev-went",
+      "stable_id": "card-ms9433ft0cwn5",
       "front": "went",
       "back": "ging (go → went, unregelmäßig)",
       "notes": "Wiederholung Lektion 13: unregelmäßige Vergangenheit auswendig lernen.",
@@ -43,6 +48,7 @@
     },
     {
       "id": "rev-at-night",
+      "stable_id": "card-ms9433ft0cxjx",
       "front": "at night",
       "back": "nachts (Ausnahme: 'at', nicht 'in')",
       "notes": "Wiederholung Lektion 05: in the morning, aber at night.",
@@ -50,6 +56,7 @@
     },
     {
       "id": "rev-information",
+      "stable_id": "card-ms9433ft0cyb8",
       "front": "information",
       "back": "die Information(en) — unzählbar!",
       "notes": "Wiederholung Lektion 10: kein 'an information', kein 'informations'.",
@@ -57,6 +64,7 @@
     },
     {
       "id": "ff-gift",
+      "stable_id": "card-ms9433ft0cztl",
       "front": "gift",
       "back": "das Geschenk (NICHT Gift = poison!)",
       "notes": "Falscher Freund: 'gift' = Geschenk. Das deutsche 'Gift' heißt auf Englisch 'poison'.",
@@ -64,6 +72,7 @@
     },
     {
       "id": "ff-handy",
+      "stable_id": "card-ms9433ft0d0mc",
       "front": "handy",
       "back": "praktisch (NICHT Handy = mobile phone!)",
       "notes": "Falscher Freund: 'handy' = praktisch/handlich. Das deutsche 'Handy' heißt 'mobile phone' / 'cell phone'.",
@@ -71,6 +80,7 @@
     },
     {
       "id": "ff-chef",
+      "stable_id": "card-ms9433ft0d17v",
       "front": "chef",
       "back": "der Koch (NICHT Chef = boss!)",
       "notes": "Falscher Freund: 'chef' = Koch. Der deutsche 'Chef' heißt 'boss'.",
@@ -78,6 +88,7 @@
     },
     {
       "id": "ff-actual",
+      "stable_id": "card-ms9433ft0d2jw",
       "front": "actual",
       "back": "tatsächlich (NICHT aktuell = current!)",
       "notes": "Falscher Freund: 'actual' = tatsächlich, 'actually' = eigentlich. Das deutsche 'aktuell' heißt 'current' / 'up-to-date'.",
@@ -85,6 +96,7 @@
     },
     {
       "id": "ff-become",
+      "stable_id": "card-ms9433ft0d3bz",
       "front": "become",
       "back": "werden (NICHT bekommen = get!)",
       "notes": "Falscher Freund: 'become' = werden. 'bekommen' = get / receive.",
@@ -117,6 +129,7 @@
       "title": "Falsche Freunde zuordnen",
       "exercise": {
         "id": "ex-match-false-friends",
+        "stable_id": "ex-ms9433ft0d418",
         "type": "matching",
         "prompt": "Ordne jedes englische Wort seiner WIRKLICHEN deutschen Bedeutung zu.",
         "card_ids": ["ff-gift", "ff-handy", "ff-chef", "ff-actual"],
@@ -136,6 +149,7 @@
       "title": "Geschenk oder Gift?",
       "exercise": {
         "id": "ex-pick-gift",
+        "stable_id": "ex-ms9433ft0d5p2",
         "type": "picture_choice",
         "prompt": "Du möchtest 'ein Geschenk' sagen. Welches Wort ist richtig?",
         "card_ids": ["ff-gift"],
@@ -157,6 +171,7 @@
       "title": "Das -s wiederholen",
       "exercise": {
         "id": "ex-cloze-works-review",
+        "stable_id": "ex-ms9433ft0d6kl",
         "type": "cloze",
         "prompt": "Ergänze 'work' in der richtigen Form (Simple Present).",
         "card_ids": ["rev-works"],
@@ -175,6 +190,7 @@
       "title": "a oder an wiederholen",
       "exercise": {
         "id": "ex-cloze-an-review",
+        "stable_id": "ex-ms9433ft0d73a",
         "type": "cloze",
         "prompt": "Ergänze a oder an.",
         "card_ids": ["rev-an"],
@@ -193,6 +209,7 @@
       "title": "Verneinung kombinieren",
       "exercise": {
         "id": "ex-free-doesnt-work",
+        "stable_id": "ex-ms9433ft0d8hn",
         "type": "free_text",
         "prompt": "Übersetze: 'Er arbeitet sonntags nicht.' (on Sundays)",
         "card_ids": ["rev-doesnt"],
@@ -209,6 +226,7 @@
       "title": "Vergangenheit kombinieren",
       "exercise": {
         "id": "ex-free-did-you-see-review",
+        "stable_id": "ex-ms9433ft0d9jd",
         "type": "free_text",
         "prompt": "Übersetze: 'Hast du den Film gesehen?'",
         "card_ids": ["rev-went"],
@@ -225,6 +243,7 @@
       "title": "Falscher Freund im Satz",
       "exercise": {
         "id": "ex-free-become-review",
+        "stable_id": "ex-ms9433ft0da7l",
         "type": "free_text",
         "prompt": "Im Restaurant: Übersetze 'Ich hätte gern ein Steak.' (NICHT 'become'!)",
         "card_ids": ["ff-become"],
@@ -241,6 +260,7 @@
       "title": "Präposition wiederholen",
       "exercise": {
         "id": "ex-cloze-at-night-review",
+        "stable_id": "ex-ms9433ft0dbxk",
         "type": "cloze",
         "prompt": "Ergänze die richtige Zeitpräposition.",
         "card_ids": ["rev-at-night"],
@@ -259,6 +279,7 @@
       "title": "Satz aus mehreren Regeln",
       "exercise": {
         "id": "ex-tile-she-didnt-know",
+        "stable_id": "ex-ms9433ft0dcqf",
         "type": "word_tiles",
         "prompt": "Bilde 'Sie wusste die Antwort nicht.' (Vergangenheit, Verneinung)",
         "card_ids": ["rev-went"],
@@ -274,6 +295,7 @@
       "title": "Unzählbar wiederholen",
       "exercise": {
         "id": "ex-tile-information",
+        "stable_id": "ex-ms9433ft0ddz2",
         "type": "word_tiles",
         "prompt": "Bilde 'Ich brauche etwas Auskunft.' (information = unzählbar!)",
         "card_ids": ["rev-information"],
@@ -289,6 +311,7 @@
       "title": "Falscher Freund: handy",
       "exercise": {
         "id": "ex-free-handy",
+        "stable_id": "ex-ms9433ft0de8b",
         "type": "free_text",
         "prompt": "Übersetze: 'Es ist sehr praktisch.' (praktisch = handy)",
         "card_ids": ["ff-handy"],

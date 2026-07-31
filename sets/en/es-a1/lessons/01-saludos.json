@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "saludo-hola",
+      "stable_id": "card-ms9433jd3mtsf",
       "front": "Hola",
       "back": "Hello / Hi",
       "notes": "All-purpose greeting, any time of day, any formality. The silent **h** is the most common pronunciation trap for English speakers: *Hola* sounds like \"OH-la\", never \"HOH-la\".",
@@ -15,6 +16,7 @@
     },
     {
       "id": "saludo-buenos-dias",
+      "stable_id": "card-ms9433jd3mu4q",
       "front": "Buenos días",
       "back": "Good morning",
       "notes": "Used until lunchtime (roughly 1-2pm in Spain). *Buenos* (m. pl.) because *días* is masculine plural.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "saludo-buenas-tardes",
+      "stable_id": "card-ms9433jd3mvzs",
       "front": "Buenas tardes",
       "back": "Good afternoon",
       "notes": "Used from early afternoon until sundown. *Buenas* (f. pl.) because *tardes* is feminine.",
@@ -35,6 +38,7 @@
     },
     {
       "id": "saludo-buenas-noches",
+      "stable_id": "card-ms9433jd3mwen",
       "front": "Buenas noches",
       "back": "Good evening / Good night",
       "notes": "Covers both \"good evening\" (greeting after dark) AND \"good night\" (when leaving for bed). Context disambiguates.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "saludo-adios",
+      "stable_id": "card-ms9433jd3mxhy",
       "front": "Adiós",
       "back": "Goodbye",
       "notes": "Standard farewell. The accent on **ó** is mandatory — *adios* without it is a spelling error.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "saludo-hasta-luego",
+      "stable_id": "card-ms9433jd3myg7",
       "front": "Hasta luego",
       "back": "See you later",
       "notes": "Literally *until later*. Very common — more casual than *adiós*. Variants: *hasta mañana* (until tomorrow), *hasta pronto* (see you soon).",
@@ -63,6 +69,7 @@
     },
     {
       "id": "phr-como-estas",
+      "stable_id": "card-ms9433jd3mzpf",
       "front": "¿Cómo estás?",
       "back": "How are you? (informal)",
       "notes": "Always bookended with ¿ ... ?. The accent on **Cómo** marks the question word (vs *como* without the accent, which means *as* / *like*).",
@@ -72,6 +79,7 @@
     },
     {
       "id": "phr-bien-gracias",
+      "stable_id": "card-ms9433jd3n0g2",
       "front": "Bien, gracias.",
       "back": "Fine, thanks.",
       "notes": "Standard reply. Add *¿y tú?* (and you?) to bounce the question back.",
@@ -81,6 +89,7 @@
     },
     {
       "id": "phr-me-llamo",
+      "stable_id": "card-ms9433jd3n1sd",
       "front": "Me llamo…",
       "back": "My name is… (lit. *I call myself*)",
       "notes": "Reflexive: *me* is the reflexive pronoun, *llamo* is the conjugated verb. *Me llamo Ana* — I call myself Ana.",
@@ -90,6 +99,7 @@
     },
     {
       "id": "phr-mucho-gusto",
+      "stable_id": "card-ms9433jd3n2dp",
       "front": "Mucho gusto.",
       "back": "Nice to meet you.",
       "notes": "Literally *much pleasure*. Said after an introduction. The reply is *Igualmente* (likewise) or *el gusto es mío* (the pleasure is mine).",
@@ -100,6 +110,7 @@
     },
     {
       "id": "phr-de-donde-eres",
+      "stable_id": "card-ms9433jd3n3fu",
       "front": "¿De dónde eres?",
       "back": "Where are you from? (informal)",
       "notes": "Uses *ser* — origin is permanent. Answer: *Soy de + [place]* (I am from + place).",
@@ -110,6 +121,7 @@
     },
     {
       "id": "phr-soy-de",
+      "stable_id": "card-ms9433jd3n4cu",
       "front": "Soy de…",
       "back": "I am from… (place / country)",
       "notes": "Uses *soy* (1st person of *ser*). *Soy de España* — I'm from Spain. Note Spain uses *de* directly, no article.",
@@ -139,6 +151,7 @@
       "title": "Match greetings to time of day",
       "exercise": {
         "id": "ex-match-greetings",
+        "stable_id": "ex-ms9433jd3n5z1",
         "type": "matching",
         "prompt": "Match each Spanish greeting with when you'd use it.",
         "card_ids": [
@@ -175,6 +188,7 @@
       "title": "Pick the evening greeting",
       "exercise": {
         "id": "ex-pick-evening",
+        "stable_id": "ex-ms9433jd3n6yz",
         "type": "picture_choice",
         "prompt": "You arrive at a dinner at 8 PM. Which greeting do you use?",
         "card_ids": [
@@ -221,6 +235,7 @@
       "title": "Say your name",
       "exercise": {
         "id": "ex-free-me-llamo",
+        "stable_id": "ex-ms9433jd3n7eu",
         "type": "free_text",
         "prompt": "Translate: *My name is Carlos.*",
         "card_ids": [
@@ -247,6 +262,7 @@
       "title": "Build an introduction",
       "exercise": {
         "id": "ex-tile-introduction",
+        "stable_id": "ex-ms9433jd3n8gj",
         "type": "word_tiles",
         "prompt": "Arrange to mean: *Hello, my name is Ana, and I'm from Madrid.*",
         "card_ids": [
@@ -282,6 +298,7 @@
       "title": "How are you?",
       "exercise": {
         "id": "ex-free-como-estas",
+        "stable_id": "ex-ms9433jd3n9eg",
         "type": "free_text",
         "prompt": "Ask informally: *How are you?* (Include the inverted question mark.)",
         "card_ids": [
@@ -308,6 +325,7 @@
       "title": "Match replies",
       "exercise": {
         "id": "ex-match-replies",
+        "stable_id": "ex-ms9433jd3nas7",
         "type": "matching",
         "prompt": "Match each Spanish reply to its English meaning.",
         "card_ids": [
@@ -347,6 +365,7 @@
       "title": "Pick the right farewell",
       "exercise": {
         "id": "ex-pick-farewell",
+        "stable_id": "ex-ms9433jd3nbw7",
         "type": "picture_choice",
         "prompt": "You're leaving a meeting and you'll see this person tomorrow. Which is most natural?",
         "card_ids": [
@@ -387,6 +406,7 @@
       "title": "Build a mini-conversation",
       "exercise": {
         "id": "ex-tile-full-conversation",
+        "stable_id": "ex-ms9433jd3nc2a",
         "type": "word_tiles",
         "prompt": "Arrange to ask informally: *Hi! How are you?*",
         "card_ids": [

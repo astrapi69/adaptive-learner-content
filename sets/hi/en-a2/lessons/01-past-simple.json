@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "en-a2-played",
+      "stable_id": "card-ms9433l259f2l",
       "front": "played",
       "back": "खेला",
       "notes": "Regular past of *play*: add **-ed**.",
@@ -13,6 +14,7 @@
     },
     {
       "id": "en-a2-worked",
+      "stable_id": "card-ms9433l259g0p",
       "front": "worked",
       "back": "काम किया",
       "notes": "Regular past of *work*: work + **-ed**.",
@@ -20,6 +22,7 @@
     },
     {
       "id": "en-a2-watched",
+      "stable_id": "card-ms9433l259hst",
       "front": "watched",
       "back": "देखा",
       "notes": "Regular past of *watch*.",
@@ -27,6 +30,7 @@
     },
     {
       "id": "en-a2-went",
+      "stable_id": "card-ms9433l259idy",
       "front": "went",
       "back": "गया / गई",
       "notes": "Irregular past of *go* — the form changes completely.",
@@ -34,6 +38,7 @@
     },
     {
       "id": "en-a2-ate",
+      "stable_id": "card-ms9433l259jnv",
       "front": "ate",
       "back": "खाया",
       "notes": "Irregular past of *eat*.",
@@ -41,6 +46,7 @@
     },
     {
       "id": "en-a2-bought",
+      "stable_id": "card-ms9433l259kyg",
       "front": "bought",
       "back": "खरीदा",
       "notes": "Irregular past of *buy*.",
@@ -48,6 +54,7 @@
     },
     {
       "id": "en-a2-yesterday",
+      "stable_id": "card-ms9433l259l9j",
       "front": "yesterday",
       "back": "कल (बीता हुआ)",
       "notes": "A common time word for the past simple.",
@@ -55,6 +62,7 @@
     },
     {
       "id": "en-a2-didnt",
+      "stable_id": "card-ms9433l259mp4",
       "front": "didn't",
       "back": "नहीं (भूतकाल में)",
       "notes": "*did not* → didn't. After it, use the **base** verb: *didn't go*.",
@@ -62,6 +70,7 @@
     },
     {
       "id": "en-a2-i-played",
+      "stable_id": "card-ms9433l259nn8",
       "front": "I played football yesterday.",
       "back": "मैंने कल फ़ुटबॉल खेला।",
       "notes": "Subject + past verb + rest. Time word can go at the end.",
@@ -69,6 +78,7 @@
     },
     {
       "id": "en-a2-did-you-go",
+      "stable_id": "card-ms9433l259oec",
       "front": "Did you go to school?",
       "back": "क्या तुम स्कूल गए?",
       "notes": "Questions use **Did** + subject + base verb (*go*, not *went*).",
@@ -95,6 +105,7 @@
       "title": "Match the past forms",
       "exercise": {
         "id": "l1-ex-match-past",
+        "stable_id": "ex-ms9433l259p7q",
         "type": "matching",
         "prompt": "Match each English past-tense verb with its Hindi meaning.",
         "card_ids": ["en-a2-played", "en-a2-went", "en-a2-ate", "en-a2-bought"],
@@ -114,6 +125,7 @@
       "title": "Complete the sentence",
       "exercise": {
         "id": "l1-ex-cloze-played",
+        "stable_id": "ex-ms9433l259qjr",
         "type": "cloze",
         "prompt": "Complete: \"Yesterday I ___ football.\" (play, past)",
         "card_ids": ["en-a2-played", "en-a2-i-played"],
@@ -130,6 +142,7 @@
       "title": "Translate the past form",
       "exercise": {
         "id": "l1-ex-free-went",
+        "stable_id": "ex-ms9433l259rft",
         "type": "free_text",
         "prompt": "Translate to English: गया (past tense of \"go\")",
         "card_ids": ["en-a2-went"],
@@ -146,6 +159,7 @@
       "title": "Make a past question",
       "exercise": {
         "id": "l1-ex-cloze-question",
+        "stable_id": "ex-ms9433l259s51",
         "type": "cloze",
         "prompt": "Complete the question: \"___ you go to school?\"",
         "card_ids": ["en-a2-did-you-go"],
@@ -162,6 +176,7 @@
       "title": "Build a past sentence",
       "exercise": {
         "id": "l1-ex-tiles-past",
+        "stable_id": "ex-ms9433l259tho",
         "type": "word_tiles",
         "prompt": "Arrange to mean: मैंने कल फ़ुटबॉल खेला। (I played football yesterday.)",
         "card_ids": ["en-a2-i-played"],
@@ -177,6 +192,7 @@
       "title": "Say \"yesterday\"",
       "exercise": {
         "id": "l1-ex-free-yesterday",
+        "stable_id": "ex-ms9433l259u4w",
         "type": "free_text",
         "prompt": "How do you say \"कल (बीता हुआ)\" in English?",
         "card_ids": ["en-a2-yesterday"],

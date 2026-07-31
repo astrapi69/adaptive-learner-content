@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "col-rouge",
+      "stable_id": "card-ms9433kh4ngqa",
       "front": "rouge",
       "back": "red",
       "notes": "**Invariable** — same form for masculine and feminine: *un livre rouge*, *une chaise rouge*. The plural just adds **-s**: *des livres rouges*.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "col-bleu",
+      "stable_id": "card-ms9433kh4nhah",
       "front": "bleu / bleue",
       "back": "blue",
       "notes": "Agrees normally: *bleu* (m.), *bleue* (f.), *bleus* / *bleues* (pl.).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "col-vert",
+      "stable_id": "card-ms9433kh4nikg",
       "front": "vert / verte",
       "back": "green",
       "notes": "Add a **-e** AND pronounce the **t** in the feminine: *vert* sounds like \"vehr\", *verte* like \"vehrt\".",
@@ -34,6 +37,7 @@
     },
     {
       "id": "col-noir",
+      "stable_id": "card-ms9433kh4nj9z",
       "front": "noir / noire",
       "back": "black",
       "tags": [
@@ -42,6 +46,7 @@
     },
     {
       "id": "col-blanc",
+      "stable_id": "card-ms9433kh4nk30",
       "front": "blanc / blanche",
       "back": "white",
       "notes": "Irregular feminine — **blanche** (not *blance*). Same pattern: *franc / franche*, *sec / sèche*.",
@@ -52,6 +57,7 @@
     },
     {
       "id": "col-jaune",
+      "stable_id": "card-ms9433kh4nl7j",
       "front": "jaune",
       "back": "yellow",
       "notes": "Already ends in **-e** — invariable for gender. Only plural adds **-s**.",
@@ -62,6 +68,7 @@
     },
     {
       "id": "col-orange",
+      "stable_id": "card-ms9433kh4nmq4",
       "front": "orange",
       "back": "orange",
       "notes": "Comes from the fruit, treated as **invariable in both number AND gender**: *des chaises orange*, never *oranges*. Same for *marron* (brown).",
@@ -72,6 +79,7 @@
     },
     {
       "id": "vet-chemise",
+      "stable_id": "card-ms9433kh4nn3i",
       "front": "la chemise",
       "back": "the shirt",
       "tags": [
@@ -81,6 +89,7 @@
     },
     {
       "id": "vet-pantalon",
+      "stable_id": "card-ms9433kh4nokq",
       "front": "le pantalon",
       "back": "the trousers / pants",
       "notes": "**Singular** in French even though English says \"pants\" (plural). One pair = one *pantalon*.",
@@ -91,6 +100,7 @@
     },
     {
       "id": "vet-robe",
+      "stable_id": "card-ms9433kh4npcl",
       "front": "la robe",
       "back": "the dress",
       "tags": [
@@ -100,6 +110,7 @@
     },
     {
       "id": "vet-veste",
+      "stable_id": "card-ms9433kh4nq00",
       "front": "la veste",
       "back": "the jacket",
       "tags": [
@@ -109,6 +120,7 @@
     },
     {
       "id": "vet-chaussures",
+      "stable_id": "card-ms9433kh4nr8k",
       "front": "les chaussures",
       "back": "the shoes",
       "notes": "Usually **plural** — like *les lunettes* (glasses). One shoe = *une chaussure* (rare in practice).",
@@ -120,6 +132,7 @@
     },
     {
       "id": "vet-chapeau",
+      "stable_id": "card-ms9433kh4ns02",
       "front": "le chapeau",
       "back": "the hat",
       "notes": "Plural: *les chapeaux*. Words ending in **-eau** add **-x** in the plural (not -s).",
@@ -149,6 +162,7 @@
       "title": "Match the agreement",
       "exercise": {
         "id": "ex-match-agreement",
+        "stable_id": "ex-ms9433kh4ntzn",
         "type": "matching",
         "prompt": "Match each French phrase with the correct form.",
         "card_ids": [
@@ -189,6 +203,7 @@
       "title": "Irregular: white",
       "exercise": {
         "id": "ex-free-blanche",
+        "stable_id": "ex-ms9433kh4nu4p",
         "type": "free_text",
         "prompt": "Translate *a white shirt*. (*chemise* is feminine.)",
         "card_ids": [
@@ -216,6 +231,7 @@
       "title": "Invariable color",
       "exercise": {
         "id": "ex-pick-orange",
+        "stable_id": "ex-ms9433kh4nvna",
         "type": "picture_choice",
         "prompt": "How would you write *orange shoes*? (*chaussures* is feminine plural.)",
         "card_ids": [
@@ -263,6 +279,7 @@
       "title": "A red dress",
       "exercise": {
         "id": "ex-free-robe-rouge",
+        "stable_id": "ex-ms9433kh4nwcz",
         "type": "free_text",
         "prompt": "Translate *a red dress*.",
         "card_ids": [
@@ -290,6 +307,7 @@
       "title": "Build: black trousers",
       "exercise": {
         "id": "ex-tile-pantalon",
+        "stable_id": "ex-ms9433kh4nxfv",
         "type": "word_tiles",
         "prompt": "Arrange to mean *I have black trousers*. (Remember: *pantalon* is singular!)",
         "card_ids": [
@@ -314,6 +332,7 @@
       "title": "Plural agreement",
       "exercise": {
         "id": "ex-match-plurals",
+        "stable_id": "ex-ms9433kh4nyfr",
         "type": "matching",
         "prompt": "Match each phrase with its correct plural form.",
         "card_ids": [
@@ -350,6 +369,7 @@
       "title": "Plural of chapeau",
       "exercise": {
         "id": "ex-pick-chapeaux",
+        "stable_id": "ex-ms9433kh4nzm9",
         "type": "picture_choice",
         "prompt": "How do you write the plural of *un chapeau bleu* (a blue hat)?",
         "card_ids": [
@@ -391,6 +411,7 @@
       "title": "Build: a white jacket",
       "exercise": {
         "id": "ex-tile-veste-blanche",
+        "stable_id": "ex-ms9433kh4o0v6",
         "type": "word_tiles",
         "prompt": "Arrange to mean *I have a white jacket*.",
         "card_ids": [

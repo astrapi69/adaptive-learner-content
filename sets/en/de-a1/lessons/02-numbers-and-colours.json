@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "de-eins",
+      "stable_id": "card-ms9433j93ii1e",
       "front": "eins",
       "back": "one",
       "notes": "The number 1. As a counting word it is *eins*; before a noun it changes (e.g. *ein Buch*).",
@@ -13,6 +14,7 @@
     },
     {
       "id": "de-zwei",
+      "stable_id": "card-ms9433j93ij6b",
       "front": "zwei",
       "back": "two",
       "notes": "The number 2.",
@@ -20,6 +22,7 @@
     },
     {
       "id": "de-drei",
+      "stable_id": "card-ms9433j93iku8",
       "front": "drei",
       "back": "three",
       "notes": "The number 3.",
@@ -27,6 +30,7 @@
     },
     {
       "id": "de-vier",
+      "stable_id": "card-ms9433j93ilzr",
       "front": "vier",
       "back": "four",
       "notes": "The number 4.",
@@ -34,6 +38,7 @@
     },
     {
       "id": "de-fuenf",
+      "stable_id": "card-ms9433j93imxh",
       "front": "fünf",
       "back": "five",
       "notes": "The number 5. Note the **ü**.",
@@ -41,6 +46,7 @@
     },
     {
       "id": "de-sechs",
+      "stable_id": "card-ms9433j93inp0",
       "front": "sechs",
       "back": "six",
       "notes": "The number 6.",
@@ -48,6 +54,7 @@
     },
     {
       "id": "de-sieben",
+      "stable_id": "card-ms9433j93iowg",
       "front": "sieben",
       "back": "seven",
       "notes": "The number 7.",
@@ -55,6 +62,7 @@
     },
     {
       "id": "de-acht",
+      "stable_id": "card-ms9433j93ipdx",
       "front": "acht",
       "back": "eight",
       "notes": "The number 8.",
@@ -62,6 +70,7 @@
     },
     {
       "id": "de-neun",
+      "stable_id": "card-ms9433j93iq7d",
       "front": "neun",
       "back": "nine",
       "notes": "The number 9.",
@@ -69,6 +78,7 @@
     },
     {
       "id": "de-zehn",
+      "stable_id": "card-ms9433j93irun",
       "front": "zehn",
       "back": "ten",
       "notes": "The number 10.",
@@ -76,6 +86,7 @@
     },
     {
       "id": "de-rot",
+      "stable_id": "card-ms9433j93iso4",
       "front": "rot",
       "back": "red",
       "notes": "The colour red.",
@@ -83,6 +94,7 @@
     },
     {
       "id": "de-blau",
+      "stable_id": "card-ms9433j93ityh",
       "front": "blau",
       "back": "blue",
       "notes": "The colour blue.",
@@ -90,6 +102,7 @@
     },
     {
       "id": "de-gruen",
+      "stable_id": "card-ms9433j93ium2",
       "front": "grün",
       "back": "green",
       "notes": "The colour green. Note the **ü**.",
@@ -97,6 +110,7 @@
     },
     {
       "id": "de-gelb",
+      "stable_id": "card-ms9433j93ivrd",
       "front": "gelb",
       "back": "yellow",
       "notes": "The colour yellow.",
@@ -104,6 +118,7 @@
     },
     {
       "id": "de-schwarz",
+      "stable_id": "card-ms9433j93iw88",
       "front": "schwarz",
       "back": "black",
       "notes": "The colour black.",
@@ -111,6 +126,7 @@
     },
     {
       "id": "de-weiss",
+      "stable_id": "card-ms9433j93ixy5",
       "front": "weiß",
       "back": "white",
       "notes": "The colour white. Note the **ß**.",
@@ -131,6 +147,7 @@
       "title": "Match numbers 1–5",
       "exercise": {
         "id": "l2-ex-match-numbers-low",
+        "stable_id": "ex-ms9433j93iyw8",
         "type": "matching",
         "prompt": "Match each German number with its English meaning.",
         "card_ids": ["de-eins", "de-zwei", "de-drei", "de-vier", "de-fuenf"],
@@ -151,6 +168,7 @@
       "title": "Match numbers 6–10",
       "exercise": {
         "id": "l2-ex-match-numbers-high",
+        "stable_id": "ex-ms9433j93izkp",
         "type": "matching",
         "prompt": "Match each German number with its English meaning.",
         "card_ids": ["de-sechs", "de-sieben", "de-acht", "de-neun", "de-zehn"],
@@ -171,6 +189,7 @@
       "title": "Write the number",
       "exercise": {
         "id": "l2-ex-free-three",
+        "stable_id": "ex-ms9433j93j0tv",
         "type": "free_text",
         "prompt": "Write the German word for \"three\".",
         "card_ids": ["de-drei"],
@@ -187,6 +206,7 @@
       "title": "Write the number",
       "exercise": {
         "id": "l2-ex-free-seven",
+        "stable_id": "ex-ms9433j93j17z",
         "type": "free_text",
         "prompt": "Write the German word for \"seven\".",
         "card_ids": ["de-sieben"],
@@ -209,6 +229,7 @@
       "title": "Match the colours",
       "exercise": {
         "id": "l2-ex-match-colours",
+        "stable_id": "ex-ms9433j93j2th",
         "type": "matching",
         "prompt": "Match each German colour with its English meaning.",
         "card_ids": ["de-rot", "de-blau", "de-gruen", "de-gelb"],
@@ -228,6 +249,7 @@
       "title": "Complete the colour",
       "exercise": {
         "id": "l2-ex-cloze-white",
+        "stable_id": "ex-ms9433j93j3cm",
         "type": "cloze",
         "prompt": "Fill in the German colour for \"white\".",
         "card_ids": ["de-weiss"],
@@ -244,6 +266,7 @@
       "title": "Complete the colour",
       "exercise": {
         "id": "l2-ex-cloze-black",
+        "stable_id": "ex-ms9433j93j4ux",
         "type": "cloze",
         "prompt": "Fill in the German colour for \"black\".",
         "card_ids": ["de-schwarz"],
@@ -260,6 +283,7 @@
       "title": "Build a phrase",
       "exercise": {
         "id": "l2-ex-tiles-redcar",
+        "stable_id": "ex-ms9433j93j56g",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to mean \"a red car\".",
         "card_ids": ["de-rot"],

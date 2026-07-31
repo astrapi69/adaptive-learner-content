@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "mi-chiamo",
+      "stable_id": "card-ms9433ig2kunp",
       "front": "Mi chiamo...",
       "back": "Ich heiße...",
       "notes": "Kontext: Mi chiamo Anna. – Ich heiße Anna. Wörtlich: 'Ich rufe mich'.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "come-ti-chiami",
+      "stable_id": "card-ms9433ig2kvcf",
       "front": "Come ti chiami?",
       "back": "Wie heißt du?",
       "notes": "Kontext: Ciao, come ti chiami? – Hallo, wie heißt du? Informell (du).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "come-si-chiama",
+      "stable_id": "card-ms9433ig2kwld",
       "front": "Come si chiama?",
       "back": "Wie heißen Sie?",
       "notes": "Kontext: Buongiorno, come si chiama? – Guten Tag, wie heißen Sie? Höflich (Sie).",
@@ -33,6 +36,7 @@
     },
     {
       "id": "sono",
+      "stable_id": "card-ms9433ig2kxo5",
       "front": "Sono...",
       "back": "Ich bin...",
       "notes": "Kontext: Sono Marco. – Ich bin Marco. Form von 'essere' (sein), 1. Person.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "sono-di",
+      "stable_id": "card-ms9433ig2kyds",
       "front": "Sono di...",
       "back": "Ich komme aus...",
       "notes": "Kontext: Sono di Berlino. – Ich komme aus Berlin. Wörtlich 'ich bin von'.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "di-dove-sei",
+      "stable_id": "card-ms9433ig2kzm9",
       "front": "Di dove sei?",
       "back": "Woher kommst du?",
       "notes": "Kontext: Di dove sei? – Sono di Roma. – Woher kommst du? – Aus Rom.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "piacere",
+      "stable_id": "card-ms9433ig2l040",
       "front": "Piacere",
       "back": "Freut mich (Sehr erfreut)",
       "notes": "Kontext: – Sono Luca. – Piacere! – Ich bin Luca. – Freut mich! Beim Kennenlernen.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "tedesco",
+      "stable_id": "card-ms9433ig2l1p9",
       "front": "tedesco / tedesca",
       "back": "deutsch (m./f.)",
       "notes": "Kontext: Sono tedesco. – Ich bin Deutscher. Mann: tedesco (m.), Frau: tedesca (f.).",
@@ -73,6 +81,7 @@
     },
     {
       "id": "italiano",
+      "stable_id": "card-ms9433ig2l2m0",
       "front": "italiano / italiana",
       "back": "italienisch (m./f.)",
       "notes": "Kontext: Lei è italiana. – Sie ist Italienerin. Mann: italiano (m.), Frau: italiana (f.).",
@@ -81,6 +90,7 @@
     },
     {
       "id": "parlo",
+      "stable_id": "card-ms9433ig2l3nu",
       "front": "Parlo...",
       "back": "Ich spreche...",
       "notes": "Kontext: Parlo tedesco e un po' di italiano. – Ich spreche Deutsch und ein bisschen Italienisch.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "abito-a",
+      "stable_id": "card-ms9433ig2l4uc",
       "front": "Abito a...",
       "back": "Ich wohne in...",
       "notes": "Kontext: Abito a Milano. – Ich wohne in Mailand. Bei Städten steht 'a'.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "molto-lieto",
+      "stable_id": "card-ms9433ig2l5s6",
       "front": "Molto lieto",
       "back": "Sehr erfreut",
       "notes": "Kontext: Molto lieto di conoscerla. – Sehr erfreut, Sie kennenzulernen. Formell; Frau sagt 'molto lieta'.",
@@ -124,6 +136,7 @@
       "title": "Ausdrücke zuordnen",
       "exercise": {
         "id": "ex-match-vorstellen",
+        "stable_id": "ex-ms9433ig2l6p0",
         "type": "matching",
         "prompt": "Ordne jedem italienischen Ausdruck die deutsche Bedeutung zu.",
         "card_ids": ["mi-chiamo", "come-ti-chiami", "piacere", "sono-di"],
@@ -143,6 +156,7 @@
       "title": "Den Namen nennen",
       "exercise": {
         "id": "ex-free-mi-chiamo",
+        "stable_id": "ex-ms9433ig2l7ft",
         "type": "free_text",
         "prompt": "Übersetze: 'Ich heiße...' (mit dem üblichen Ausdruck)",
         "card_ids": ["mi-chiamo"],
@@ -159,6 +173,7 @@
       "title": "Freut mich",
       "exercise": {
         "id": "ex-free-piacere",
+        "stable_id": "ex-ms9433ig2l8jp",
         "type": "free_text",
         "prompt": "Was sagt man beim Kennenlernen ('Freut mich')?",
         "card_ids": ["piacere"],
@@ -175,6 +190,7 @@
       "title": "Lücke füllen: Herkunft",
       "exercise": {
         "id": "ex-cloze-sono-di",
+        "stable_id": "ex-ms9433ig2l97x",
         "type": "cloze",
         "prompt": "Ergänze: 'Ich komme aus Berlin.'",
         "card_ids": ["sono-di"],
@@ -193,6 +209,7 @@
       "title": "Frage zusammensetzen",
       "exercise": {
         "id": "ex-tile-come-ti-chiami",
+        "stable_id": "ex-ms9433ig2laj1",
         "type": "word_tiles",
         "prompt": "Baue die Frage 'Wie heißt du?'.",
         "card_ids": ["come-ti-chiami"],
@@ -208,6 +225,7 @@
       "title": "Nationalität wählen",
       "exercise": {
         "id": "ex-pick-tedesco",
+        "stable_id": "ex-ms9433ig2lb9e",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'deutsch'?",
         "card_ids": ["tedesco"],

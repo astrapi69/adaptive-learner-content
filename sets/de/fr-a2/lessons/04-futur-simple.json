@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "verb-parler-futur",
+      "stable_id": "card-ms9433hv22b5x",
       "front": "parler → je parlerai",
       "back": "sprechen → ich werde sprechen",
       "notes": "Regelmäßige -er-Verben: Infinitiv + Endung **-ai**. *Demain je parlerai avec le professeur.* — Morgen werde ich mit dem Lehrer sprechen.",
@@ -15,6 +16,7 @@
     },
     {
       "id": "verb-finir-futur",
+      "stable_id": "card-ms9433hv22cly",
       "front": "finir → je finirai",
       "back": "beenden → ich werde beenden",
       "notes": "Regelmäßige -ir-Verben: Infinitiv + Endung **-ai**. *Je finirai mes devoirs ce soir.* — Ich werde heute Abend meine Hausaufgaben beenden.",
@@ -24,6 +26,7 @@
     },
     {
       "id": "verb-prendre-futur",
+      "stable_id": "card-ms9433hv22djx",
       "front": "prendre → je prendrai",
       "back": "nehmen → ich werde nehmen",
       "notes": "-re-Verben verlieren das End-**e** vor den Futur-Endungen: *prendr-* + **-ai** → **prendrai**. *Je prendrai le train demain.* — Ich werde morgen den Zug nehmen.",
@@ -34,6 +37,7 @@
     },
     {
       "id": "verb-etre-futur",
+      "stable_id": "card-ms9433hv22e6i",
       "front": "être → je serai",
       "back": "sein → ich werde sein",
       "notes": "Unregelmäßiger Stamm: **ser-**. *L'année prochaine, je serai à Paris.* — Nächstes Jahr werde ich in Paris sein.",
@@ -44,6 +48,7 @@
     },
     {
       "id": "verb-avoir-futur",
+      "stable_id": "card-ms9433hv22f98",
       "front": "avoir → j'aurai",
       "back": "haben → ich werde haben",
       "notes": "Unregelmäßiger Stamm: **aur-**. *J'aurai bientôt mon diplôme.* — Ich werde bald mein Diplom haben.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "verb-aller-futur",
+      "stable_id": "card-ms9433hv22gp1",
       "front": "aller → j'irai",
       "back": "gehen / fahren → ich werde gehen",
       "notes": "Unregelmäßiger Stamm: **ir-**. *L'été prochain, j'irai en Espagne.* — Nächsten Sommer werde ich nach Spanien fahren.",
@@ -64,6 +70,7 @@
     },
     {
       "id": "verb-faire-futur",
+      "stable_id": "card-ms9433hv22hxt",
       "front": "faire → je ferai",
       "back": "machen / tun → ich werde machen",
       "notes": "Unregelmäßiger Stamm: **fer-**. *Demain, je ferai du sport.* — Morgen werde ich Sport treiben.",
@@ -74,6 +81,7 @@
     },
     {
       "id": "verb-venir-futur",
+      "stable_id": "card-ms9433hv22i74",
       "front": "venir → je viendrai",
       "back": "kommen → ich werde kommen",
       "notes": "Unregelmäßiger Stamm: **viendr-**. *Je viendrai à ta fête samedi.* — Ich werde am Samstag zu deiner Party kommen.",
@@ -84,6 +92,7 @@
     },
     {
       "id": "verb-pouvoir-futur",
+      "stable_id": "card-ms9433hv22jdr",
       "front": "pouvoir → je pourrai",
       "back": "können → ich werde können",
       "notes": "Unregelmäßiger Stamm: **pourr-** (doppeltes r!). *Demain je pourrai t'aider.* — Morgen werde ich dir helfen können.",
@@ -94,6 +103,7 @@
     },
     {
       "id": "verb-voir-futur",
+      "stable_id": "card-ms9433hv22kes",
       "front": "voir → je verrai",
       "back": "sehen → ich werde sehen",
       "notes": "Unregelmäßiger Stamm: **verr-** (doppeltes r!). *Je te verrai vendredi.* — Ich werde dich Freitag sehen.",
@@ -104,6 +114,7 @@
     },
     {
       "id": "verb-devoir-futur",
+      "stable_id": "card-ms9433hv22lg6",
       "front": "devoir → je devrai",
       "back": "müssen → ich werde müssen",
       "notes": "Unregelmäßiger Stamm: **devr-**. *Tu devras travailler dur.* — Du wirst hart arbeiten müssen.",
@@ -114,6 +125,7 @@
     },
     {
       "id": "verb-vouloir-futur",
+      "stable_id": "card-ms9433hv22mb5",
       "front": "vouloir → je voudrai",
       "back": "wollen → ich werde wollen",
       "notes": "Unregelmäßiger Stamm: **voudr-**. *Elle voudra sûrement venir.* — Sie wird sicher kommen wollen.",
@@ -149,6 +161,7 @@
       "title": "Futurstamm zuordnen",
       "exercise": {
         "id": "ex-match-stems",
+        "stable_id": "ex-ms9433hv22n4u",
         "type": "matching",
         "prompt": "Ordne jedem Infinitiv seinen unregelmäßigen Futurstamm zu.",
         "card_ids": ["verb-etre-futur", "verb-avoir-futur", "verb-aller-futur", "verb-faire-futur", "verb-venir-futur"],
@@ -169,6 +182,7 @@
       "title": "Futurformen verstehen",
       "exercise": {
         "id": "ex-match-meanings",
+        "stable_id": "ex-ms9433hv22os2",
         "type": "matching",
         "prompt": "Ordne die Futurform der deutschen Bedeutung zu.",
         "card_ids": ["verb-etre-futur", "verb-aller-futur", "verb-pouvoir-futur", "verb-voir-futur", "verb-vouloir-futur"],
@@ -189,6 +203,7 @@
       "title": "être im futur simple",
       "exercise": {
         "id": "ex-cloze-serai",
+        "stable_id": "ex-ms9433hv22phz",
         "type": "cloze",
         "prompt": "Ergänze die richtige Futurform von *être* (je).",
         "card_ids": ["verb-etre-futur"],
@@ -207,6 +222,7 @@
       "title": "-re-Verb im futur simple",
       "exercise": {
         "id": "ex-cloze-prendrai",
+        "stable_id": "ex-ms9433hv22qz0",
         "type": "cloze",
         "prompt": "Ergänze die richtige Futurform von *prendre* (je). Achtung: -re-Verben verlieren das End-e!",
         "card_ids": ["verb-prendre-futur"],
@@ -225,6 +241,7 @@
       "title": "Übersetzen: Ich werde nach Spanien fahren",
       "exercise": {
         "id": "ex-free-irai",
+        "stable_id": "ex-ms9433hv22rsl",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Nächsten Sommer werde ich nach Spanien fahren.*",
         "card_ids": ["verb-aller-futur"],
@@ -250,6 +267,7 @@
       "title": "Verstehen: Demain je ferai du sport",
       "exercise": {
         "id": "ex-free-ferai",
+        "stable_id": "ex-ms9433hv22srp",
         "type": "free_text",
         "prompt": "Was bedeutet auf Deutsch: *Demain je ferai du sport.*",
         "card_ids": ["verb-faire-futur"],
@@ -275,6 +293,7 @@
       "title": "Übersetzen: Ich werde zur Party kommen",
       "exercise": {
         "id": "ex-free-viendrai",
+        "stable_id": "ex-ms9433hv22tf2",
         "type": "free_text",
         "prompt": "Übersetze ins Französische: *Ich werde am Samstag zu deiner Party kommen.*",
         "card_ids": ["verb-venir-futur"],
@@ -300,6 +319,7 @@
       "title": "Bilde: Morgen werde ich mit dem Lehrer sprechen",
       "exercise": {
         "id": "ex-tiles-parlerai",
+        "stable_id": "ex-ms9433hv22u2i",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Morgen werde ich mit dem Lehrer sprechen.*",
         "card_ids": ["verb-parler-futur"],
@@ -315,6 +335,7 @@
       "title": "Bilde: Sie wird ihm helfen können",
       "exercise": {
         "id": "ex-tiles-pourra",
+        "stable_id": "ex-ms9433hv22vt5",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Sie wird ihm helfen können.* (elle, Futur von pouvoir)",
         "card_ids": ["verb-pouvoir-futur"],
@@ -330,6 +351,7 @@
       "title": "Wettervorhersage: Il fera beau",
       "exercise": {
         "id": "ex-pic-weather",
+        "stable_id": "ex-ms9433hv22wgz",
         "type": "picture_choice",
         "prompt": "Welcher Satz ist die korrekte Futurform für *Morgen wird es schön sein*?",
         "card_ids": ["verb-faire-futur"],

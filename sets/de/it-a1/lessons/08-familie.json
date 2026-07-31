@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "la-madre",
+      "stable_id": "card-ms9433ii2nyv0",
       "front": "la madre",
       "back": "die Mutter",
       "notes": "Kontext: Mia madre è gentile. – Meine Mutter ist nett. (f.) Umgangssprachlich: la mamma.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "il-padre",
+      "stable_id": "card-ms9433ii2nzbj",
       "front": "il padre",
       "back": "der Vater",
       "notes": "Kontext: Mio padre lavora. – Mein Vater arbeitet. (m.) Umgangssprachlich: il papà.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "il-fratello",
+      "stable_id": "card-ms9433ii2o066",
       "front": "il fratello",
       "back": "der Bruder",
       "notes": "Kontext: Ho un fratello. – Ich habe einen Bruder. (m.)",
@@ -33,6 +36,7 @@
     },
     {
       "id": "la-sorella",
+      "stable_id": "card-ms9433ii2o19s",
       "front": "la sorella",
       "back": "die Schwester",
       "notes": "Kontext: Ho due sorelle. – Ich habe zwei Schwestern. (f.)",
@@ -41,6 +45,7 @@
     },
     {
       "id": "il-figlio",
+      "stable_id": "card-ms9433ii2o2mp",
       "front": "il figlio",
       "back": "der Sohn",
       "notes": "Kontext: Mio figlio ha cinque anni. – Mein Sohn ist fünf Jahre alt. (m.)",
@@ -49,6 +54,7 @@
     },
     {
       "id": "la-figlia",
+      "stable_id": "card-ms9433ii2o3e9",
       "front": "la figlia",
       "back": "die Tochter",
       "notes": "Kontext: La mia figlia studia. – Meine Tochter studiert. (f.)",
@@ -57,6 +63,7 @@
     },
     {
       "id": "il-nonno",
+      "stable_id": "card-ms9433ii2o42n",
       "front": "il nonno",
       "back": "der Großvater",
       "notes": "Kontext: Il nonno racconta storie. – Der Opa erzählt Geschichten. (m.)",
@@ -65,6 +72,7 @@
     },
     {
       "id": "la-nonna",
+      "stable_id": "card-ms9433ii2o59i",
       "front": "la nonna",
       "back": "die Großmutter",
       "notes": "Kontext: La nonna cucina bene. – Die Oma kocht gut. (f.)",
@@ -73,6 +81,7 @@
     },
     {
       "id": "i-genitori",
+      "stable_id": "card-ms9433ii2o6y6",
       "front": "i genitori",
       "back": "die Eltern",
       "notes": "Kontext: I miei genitori. – Meine Eltern. (m. Plural)",
@@ -81,6 +90,7 @@
     },
     {
       "id": "il-marito",
+      "stable_id": "card-ms9433ii2o728",
       "front": "il marito",
       "back": "der Ehemann",
       "notes": "Kontext: Mio marito si chiama Luca. – Mein Mann heißt Luca. (m.)",
@@ -89,6 +99,7 @@
     },
     {
       "id": "la-moglie",
+      "stable_id": "card-ms9433ii2o8dq",
       "front": "la moglie",
       "back": "die Ehefrau",
       "notes": "Kontext: Mia moglie è italiana. – Meine Frau ist Italienerin. (f.)",
@@ -97,6 +108,7 @@
     },
     {
       "id": "la-famiglia",
+      "stable_id": "card-ms9433ii2o988",
       "front": "la famiglia",
       "back": "die Familie",
       "notes": "Kontext: Ho una famiglia numerosa. – Ich habe eine große Familie. (f.)",
@@ -124,6 +136,7 @@
       "title": "Familienmitglieder zuordnen",
       "exercise": {
         "id": "ex-match-familie",
+        "stable_id": "ex-ms9433ii2oajp",
         "type": "matching",
         "prompt": "Ordne den italienischen Wörtern die deutsche Bedeutung zu.",
         "card_ids": ["la-madre", "il-padre", "il-fratello", "la-sorella"],
@@ -143,6 +156,7 @@
       "title": "Schwester auf Italienisch",
       "exercise": {
         "id": "ex-free-sorella",
+        "stable_id": "ex-ms9433ii2obbc",
         "type": "free_text",
         "prompt": "Wie heißt 'die Schwester' auf Italienisch (mit Artikel)?",
         "card_ids": ["la-sorella"],
@@ -159,6 +173,7 @@
       "title": "Großmutter auf Italienisch",
       "exercise": {
         "id": "ex-free-nonna",
+        "stable_id": "ex-ms9433ii2oc2i",
         "type": "free_text",
         "prompt": "Wie heißt 'die Großmutter' auf Italienisch (mit Artikel)?",
         "card_ids": ["la-nonna"],
@@ -175,6 +190,7 @@
       "title": "Lücke füllen: mein Vater",
       "exercise": {
         "id": "ex-cloze-mio-padre",
+        "stable_id": "ex-ms9433ii2odra",
         "type": "cloze",
         "prompt": "Ergänze: 'Mein Vater arbeitet.' (ohne Artikel)",
         "card_ids": ["il-padre"],
@@ -193,6 +209,7 @@
       "title": "Satz zusammensetzen",
       "exercise": {
         "id": "ex-tile-figlio-figlia",
+        "stable_id": "ex-ms9433ii2oeu2",
         "type": "word_tiles",
         "prompt": "Baue den Satz 'Ich habe einen Sohn und eine Tochter.'",
         "card_ids": ["il-figlio", "la-figlia"],
@@ -208,6 +225,7 @@
       "title": "Großvater erkennen",
       "exercise": {
         "id": "ex-pick-nonno",
+        "stable_id": "ex-ms9433ii2oftu",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'der Großvater'?",
         "card_ids": ["il-nonno"],

@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "rep-decir-que",
+      "stable_id": "card-ms9433k54bsv5",
       "front": "Dijo que estaba cansado.",
       "back": "He said (that) he was tired — reporting a statement with decir que",
       "notes": "To report a statement, use a reporting verb + **que** + a clause: *Dijo que...*, *Comentó que...*, *Explicó que...*. Unlike English, the **que** is never dropped: *Dice que viene* (He says (that) he is coming).",
@@ -18,6 +19,7 @@
     },
     {
       "id": "rep-no-backshift",
+      "stable_id": "card-ms9433k54btvc",
       "front": "Dice que está cansado.",
       "back": "Present reporting verb → no tense shift",
       "notes": "When the reporting verb is in the **present** (or future), there is **no backshift**: *Dice que está cansado* (He says he is tired). The shift only happens when the reporting verb is in the **past**.",
@@ -27,6 +29,7 @@
     },
     {
       "id": "rep-presente-imperfecto",
+      "stable_id": "card-ms9433k54bu2r",
       "front": "\"Estoy cansado\" → Dijo que estaba cansado.",
       "back": "present → imperfect (backshift after a past reporting verb)",
       "notes": "After a **past** reporting verb, the **present** becomes the **imperfect**: *estoy → estaba*, *vivo → vivía*. This mirrors English (\"I am tired\" → he said he **was** tired), so it feels natural.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "rep-pasado-pluscuamperfecto",
+      "stable_id": "card-ms9433k54bves",
       "front": "\"Fui / He ido\" → Dijo que había ido.",
       "back": "preterite / present perfect → pluperfect (había + participle)",
       "notes": "Both the **pretérito indefinido** (*fui*) and the **pretérito perfecto** (*he ido*) shift to the **pluscuamperfecto**: *había ido*. English does the same: \"I went / I have gone\" → he said he **had gone**.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "rep-futuro-condicional",
+      "stable_id": "card-ms9433k54bwwm",
       "front": "\"Iré\" → Dijo que iría.",
       "back": "future → conditional (iré → iría)",
       "notes": "The **future** becomes the **conditional**: *iré → iría*, *vendré → vendría*. Again, like English: \"I will go\" → he said he **would** go. The conditional endings (-ía, -ías, -ía, -íamos, -íais, -ían) are the same for all verbs.",
@@ -54,6 +59,7 @@
     },
     {
       "id": "rep-pronoun-shift",
+      "stable_id": "card-ms9433k54bxfb",
       "front": "\"Yo tengo mi libro\" → Dijo que él tenía su libro.",
       "back": "shift pronouns and possessives: yo → él, mi → su",
       "notes": "When you report someone else's words, the **pronouns and possessives** move to the third person: *yo → él/ella*, *me → le*, *mi → su*, *nosotros → ellos*. Verbs follow: *tengo → tenía*.",
@@ -63,6 +69,7 @@
     },
     {
       "id": "rep-time-place-shift",
+      "stable_id": "card-ms9433k54byjy",
       "front": "hoy → aquel día; aquí → allí; mañana → al día siguiente",
       "back": "shift time and place words when reporting later/elsewhere",
       "notes": "Words tied to the original moment shift: *hoy → aquel día*, *ayer → el día anterior*, *mañana → al día siguiente*, *ahora → entonces*, *aquí → allí*, *este → aquel*. Use them only when the time or place has actually changed.",
@@ -72,6 +79,7 @@
     },
     {
       "id": "rep-preguntar-si",
+      "stable_id": "card-ms9433k54bzce",
       "front": "\"¿Tienes tiempo?\" → Me preguntó si tenía tiempo.",
       "back": "report a yes/no question with preguntar si",
       "notes": "Yes/no questions become **preguntar + si** (whether): *¿Tienes tiempo?* → *Me preguntó **si** tenía tiempo*. Note: no question marks, no inversion, and the verb still backshifts (*tienes → tenía*).",
@@ -81,6 +89,7 @@
     },
     {
       "id": "rep-preguntar-qword",
+      "stable_id": "card-ms9433k54c0ib",
       "front": "\"¿Dónde vives?\" → Me preguntó dónde vivía.",
       "back": "report a wh-question: keep the question word (with accent), no inversion",
       "notes": "Questions with a question word **keep** it (*qué, dónde, cuándo, quién, cómo, por qué*), still written **with its accent**: *Me preguntó **dónde** vivía*. Spanish has no auxiliary \"do\" and no subject-verb inversion: just *dónde vivía*, not *dónde vives tú*.",
@@ -90,6 +99,7 @@
     },
     {
       "id": "rep-command-subjunctive",
+      "stable_id": "card-ms9433k54c1mk",
       "front": "\"¡Ven!\" → Me dijo que viniera.",
       "back": "report a command with que + imperfect subjunctive",
       "notes": "An **imperative** becomes **que + imperfect subjunctive**: *¡Ven!* → *Me dijo que **viniera***. There is no English parallel (\"He told me to come\" uses an infinitive), so this is a classic trap. The imperfect subjunctive ends in -ara/-iera.",
@@ -99,6 +109,7 @@
     },
     {
       "id": "rep-pedir-decir-que",
+      "stable_id": "card-ms9433k54c2a2",
       "front": "Me pidió que llegara temprano.",
       "back": "pedir/decir que + subjunctive to report a request or order",
       "notes": "Reporting requests and orders uses **pedir / decir + que + subjunctive**: *Me pidió que llegara temprano* (He asked me to arrive early). Note *decir que* takes the **indicative** for statements but the **subjunctive** for commands.",
@@ -108,6 +119,7 @@
     },
     {
       "id": "rep-no-aux-do",
+      "stable_id": "card-ms9433k54c30s",
       "front": "Me preguntó qué quería, NOT qué hacía querer.",
       "back": "no auxiliary 'do' and no inversion in reported questions",
       "notes": "English adds *do/does/did* and inverts (\"what **did** you want\"); Spanish does neither. Keep simple statement word order after the question word: *Me preguntó **qué quería***, *Me preguntó **cuándo llegaba el tren***.",
@@ -142,6 +154,7 @@
       "title": "Match the backshift",
       "exercise": {
         "id": "ex-match-backshift",
+        "stable_id": "ex-ms9433k54c4ue",
         "type": "matching",
         "prompt": "Match each direct-speech verb with the tense it shifts to in reported speech (after a past reporting verb).",
         "card_ids": ["rep-presente-imperfecto", "rep-pasado-pluscuamperfecto", "rep-futuro-condicional"],
@@ -162,6 +175,7 @@
       "title": "He said he was tired",
       "exercise": {
         "id": "ex-free-said-tired",
+        "stable_id": "ex-ms9433k54c55x",
         "type": "free_text",
         "prompt": "Report it: *He said (that) he was tired.* (direct: \"Estoy cansado\")",
         "card_ids": ["rep-decir-que", "rep-presente-imperfecto"],
@@ -178,6 +192,7 @@
       "title": "Past → pluperfect",
       "exercise": {
         "id": "ex-cloze-pluscuamperfecto",
+        "stable_id": "ex-ms9433k54c6s2",
         "type": "cloze",
         "prompt": "Direct: \"He ido al banco\". Fill in the pluperfect to report it.",
         "card_ids": ["rep-pasado-pluscuamperfecto"],
@@ -194,6 +209,7 @@
       "title": "Build: she said she would come",
       "exercise": {
         "id": "ex-tiles-future-conditional",
+        "stable_id": "ex-ms9433k54c7a8",
         "type": "word_tiles",
         "prompt": "Arrange the words to report \"Vendré\": *She said (that) she would come.*",
         "card_ids": ["rep-futuro-condicional", "rep-decir-que"],
@@ -209,6 +225,7 @@
       "title": "Reporting a command",
       "exercise": {
         "id": "ex-pic-reported-command",
+        "stable_id": "ex-ms9433k54c8g3",
         "type": "picture_choice",
         "prompt": "Direct: \"¡Ven!\". Which correctly reports *He told me to come*? (command → subjunctive)",
         "card_ids": ["rep-command-subjunctive", "rep-pedir-decir-que"],
@@ -230,6 +247,7 @@
       "title": "Report a yes/no question",
       "exercise": {
         "id": "ex-free-asked-if-time",
+        "stable_id": "ex-ms9433k54c97g",
         "type": "free_text",
         "prompt": "Report it: *She asked me if I had time.* (direct: \"¿Tienes tiempo?\")",
         "card_ids": ["rep-preguntar-si", "rep-presente-imperfecto"],
@@ -246,6 +264,7 @@
       "title": "Report a wh-question",
       "exercise": {
         "id": "ex-cloze-donde-vivia",
+        "stable_id": "ex-ms9433k54case",
         "type": "cloze",
         "prompt": "Direct: \"¿Dónde vives?\". Fill in the question word (with its accent) to report it.",
         "card_ids": ["rep-preguntar-qword", "rep-no-aux-do"],
@@ -262,6 +281,7 @@
       "title": "Time, place and person shifts",
       "exercise": {
         "id": "ex-match-shifts",
+        "stable_id": "ex-ms9433k54cbfi",
         "type": "matching",
         "prompt": "Match each direct-speech word with its reported-speech equivalent.",
         "card_ids": ["rep-time-place-shift", "rep-pronoun-shift"],
@@ -281,6 +301,7 @@
       "title": "He asked where I lived",
       "exercise": {
         "id": "ex-free-asked-where-i-lived",
+        "stable_id": "ex-ms9433k54cc7x",
         "type": "free_text",
         "prompt": "Report it: *He asked me where I lived.* (direct: \"¿Dónde vives?\") — no inversion, no \"do\".",
         "card_ids": ["rep-preguntar-qword", "rep-no-aux-do"],
@@ -297,6 +318,7 @@
       "title": "A reported request (subjunctive)",
       "exercise": {
         "id": "ex-cloze-pidio-llegara",
+        "stable_id": "ex-ms9433k54cdll",
         "type": "cloze",
         "prompt": "Direct: \"Llega temprano\". Fill in the imperfect subjunctive of *llegar* to report the request.",
         "card_ids": ["rep-pedir-decir-que", "rep-command-subjunctive"],
@@ -313,6 +335,7 @@
       "title": "Report a command — watch the subjunctive",
       "exercise": {
         "id": "ex-free-told-me-to-call",
+        "stable_id": "ex-ms9433k54ceex",
         "type": "free_text",
         "prompt": "Report it: *She told me to call her.* (direct: \"Llámame\") — command → que + subjunctive.",
         "card_ids": ["rep-command-subjunctive", "rep-pedir-decir-que"],
@@ -329,6 +352,7 @@
       "title": "Build: he asked me if I was coming",
       "exercise": {
         "id": "ex-tiles-asked-if",
+        "stable_id": "ex-ms9433k54cfiu",
         "type": "word_tiles",
         "prompt": "Arrange the words to report \"¿Vienes?\": *He asked me if I was coming.*",
         "card_ids": ["rep-preguntar-si", "rep-presente-imperfecto"],

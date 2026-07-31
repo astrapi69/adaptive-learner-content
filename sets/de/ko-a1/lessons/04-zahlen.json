@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "il",
+      "stable_id": "card-ms9433it30ij7",
       "front": "일",
       "back": "eins (sino-koreanisch)",
       "notes": "Romanisierung: il. Kontext: 일 번 (il beon) – Nummer eins. Sino-koreanisch für Daten, Geld, Telefonnummern.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "i",
+      "stable_id": "card-ms9433it30jqe",
       "front": "이",
       "back": "zwei (sino-koreanisch)",
       "notes": "Romanisierung: i. Kontext: 이 층 (i cheung) – zweite Etage.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "sam",
+      "stable_id": "card-ms9433it30k49",
       "front": "삼",
       "back": "drei (sino-koreanisch)",
       "notes": "Romanisierung: sam. Kontext: 삼 월 (sam wol) – März (wörtlich 'dritter Monat').",
@@ -33,6 +36,7 @@
     },
     {
       "id": "sa",
+      "stable_id": "card-ms9433it30l74",
       "front": "사",
       "back": "vier (sino-koreanisch)",
       "notes": "Romanisierung: sa. Kontext: 사 명 (sa myeong) – vier Personen.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "o",
+      "stable_id": "card-ms9433it30mf4",
       "front": "오",
       "back": "fünf (sino-koreanisch)",
       "notes": "Romanisierung: o. Kontext: 오 분 (o bun) – fünf Minuten.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "yuk",
+      "stable_id": "card-ms9433it30nrn",
       "front": "육",
       "back": "sechs (sino-koreanisch)",
       "notes": "Romanisierung: yuk. Kontext: 육 월 → 유월 (yuwol) – Juni.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "hana",
+      "stable_id": "card-ms9433it30o85",
       "front": "하나",
       "back": "eins (nativ-koreanisch)",
       "notes": "Romanisierung: hana. Kontext: 사과 하나 (sagwa hana) – ein Apfel. Nativ für Anzahl von Dingen.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "dul",
+      "stable_id": "card-ms9433it30pih",
       "front": "둘",
       "back": "zwei (nativ-koreanisch)",
       "notes": "Romanisierung: dul. Kontext: 둘이서 (durieoseo) – zu zweit.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "set",
+      "stable_id": "card-ms9433it30qj4",
       "front": "셋",
       "back": "drei (nativ-koreanisch)",
       "notes": "Romanisierung: set. Kontext: 셋 다 (set da) – alle drei.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "net",
+      "stable_id": "card-ms9433it30rtr",
       "front": "넷",
       "back": "vier (nativ-koreanisch)",
       "notes": "Romanisierung: net. Kontext: 넷 중에 (net junge) – von den vieren.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "daseot",
+      "stable_id": "card-ms9433it30svj",
       "front": "다섯",
       "back": "fünf (nativ-koreanisch)",
       "notes": "Romanisierung: daseot. Kontext: 다섯 시 (daseot si) – fünf Uhr.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "yeoseot",
+      "stable_id": "card-ms9433it30t11",
       "front": "여섯",
       "back": "sechs (nativ-koreanisch)",
       "notes": "Romanisierung: yeoseot. Kontext: 여섯 개 (yeoseot gae) – sechs Stück.",
@@ -124,6 +136,7 @@
       "title": "Sino-koreanisch zuordnen",
       "exercise": {
         "id": "ex-match-sino",
+        "stable_id": "ex-ms9433it30ufw",
         "type": "matching",
         "prompt": "Ordne die sino-koreanischen Zahlen zu.",
         "card_ids": ["il", "i", "sam", "o"],
@@ -143,6 +156,7 @@
       "title": "Nativ-koreanisch zuordnen",
       "exercise": {
         "id": "ex-match-nativ",
+        "stable_id": "ex-ms9433it30vwt",
         "type": "matching",
         "prompt": "Ordne die nativ-koreanischen Zahlen zu.",
         "card_ids": ["hana", "dul", "set", "daseot"],
@@ -162,6 +176,7 @@
       "title": "Drei (sino)",
       "exercise": {
         "id": "ex-free-drei-sino",
+        "stable_id": "ex-ms9433it30w1p",
         "type": "free_text",
         "prompt": "Wie heißt 'drei' im sino-koreanischen System? (Hangul oder Romanisierung)",
         "card_ids": ["sam"],
@@ -178,6 +193,7 @@
       "title": "Zwei (nativ)",
       "exercise": {
         "id": "ex-free-zwei-nativ",
+        "stable_id": "ex-ms9433it30xch",
         "type": "free_text",
         "prompt": "Wie heißt 'zwei' im nativ-koreanischen System? (Hangul oder Romanisierung)",
         "card_ids": ["dul"],
@@ -194,6 +210,7 @@
       "title": "Lücke füllen: ein Apfel",
       "exercise": {
         "id": "ex-cloze-apfel",
+        "stable_id": "ex-ms9433it30yc7",
         "type": "cloze",
         "prompt": "Beim Zählen von Dingen nimmt man nativ. Ergänze 'eins'.",
         "card_ids": ["hana"],
@@ -210,6 +227,7 @@
       "title": "Sino-Zahlen ordnen",
       "exercise": {
         "id": "ex-tiles-1-2-3-sino",
+        "stable_id": "ex-ms9433it30zaj",
         "type": "word_tiles",
         "prompt": "Ordne die sino-koreanischen Zahlen 1, 2, 3 in der richtigen Reihenfolge.",
         "card_ids": ["il", "i", "sam"],

@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "verb-aller",
+      "stable_id": "card-ms9433km4ro3p",
       "front": "aller",
       "back": "to go",
       "notes": "The engine of the futur proche. Conjugate **aller** in the present, then add an infinitive: *Je **vais** manger* — I'm going to eat.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "verb-voyager",
+      "stable_id": "card-ms9433km4rpk9",
       "front": "voyager",
       "back": "to travel",
       "notes": "*Je vais **voyager** en France* — I'm going to travel to France.",
@@ -26,6 +28,7 @@
     },
     {
       "id": "verb-visiter",
+      "stable_id": "card-ms9433km4rqae",
       "front": "visiter",
       "back": "to visit",
       "notes": "Used for places: *visiter Paris*. For people you use *rendre visite à*. *Nous allons **visiter** le musée.*",
@@ -36,6 +39,7 @@
     },
     {
       "id": "verb-regarder",
+      "stable_id": "card-ms9433km4rrnf",
       "front": "regarder",
       "back": "to watch",
       "notes": "*Tu vas **regarder** un film ?* — Are you going to watch a movie?",
@@ -46,6 +50,7 @@
     },
     {
       "id": "verb-etudier",
+      "stable_id": "card-ms9433km4rsn6",
       "front": "étudier",
       "back": "to study",
       "notes": "Starts with a vowel. *Elle va **étudier** ce soir* — She's going to study tonight.",
@@ -56,6 +61,7 @@
     },
     {
       "id": "verb-rencontrer",
+      "stable_id": "card-ms9433km4rtf5",
       "front": "rencontrer",
       "back": "to meet",
       "notes": "*Je vais **rencontrer** mes amis* — I'm going to meet my friends.",
@@ -66,6 +72,7 @@
     },
     {
       "id": "verb-manger",
+      "stable_id": "card-ms9433km4rur5",
       "front": "manger",
       "back": "to eat",
       "notes": "*Ils vont **manger** une pizza* — They're going to eat a pizza.",
@@ -76,6 +83,7 @@
     },
     {
       "id": "phr-demain",
+      "stable_id": "card-ms9433km4rv17",
       "front": "demain",
       "back": "tomorrow",
       "notes": "Time marker that pairs naturally with the futur proche: *Je vais voyager **demain**.*",
@@ -85,6 +93,7 @@
     },
     {
       "id": "phr-ce-soir",
+      "stable_id": "card-ms9433km4rwel",
       "front": "ce soir",
       "back": "tonight",
       "notes": "*Nous allons étudier **ce soir*** — We're going to study tonight.",
@@ -94,6 +103,7 @@
     },
     {
       "id": "phr-ce-week-end",
+      "stable_id": "card-ms9433km4rxzl",
       "front": "ce week-end",
       "back": "this weekend",
       "notes": "French borrows *week-end* from English (with a hyphen). *On va visiter Paris **ce week-end**.*",
@@ -103,6 +113,7 @@
     },
     {
       "id": "phr-semaine-prochaine",
+      "stable_id": "card-ms9433km4ryvw",
       "front": "la semaine prochaine",
       "back": "next week",
       "notes": "*prochaine* = next. *Je vais rencontrer Marie **la semaine prochaine**.*",
@@ -112,6 +123,7 @@
     },
     {
       "id": "phr-bientot",
+      "stable_id": "card-ms9433km4rzdy",
       "front": "bientôt",
       "back": "soon",
       "notes": "Note the circumflex on the **ô**. *On va se rencontrer **bientôt*** — We're going to meet soon.",
@@ -140,6 +152,7 @@
       "title": "Match infinitive to English",
       "exercise": {
         "id": "ex-match-infinitives",
+        "stable_id": "ex-ms9433km4s0no",
         "type": "matching",
         "prompt": "Match each French infinitive with its English meaning.",
         "card_ids": [
@@ -181,6 +194,7 @@
       "title": "Match aller-form to subject",
       "exercise": {
         "id": "ex-match-aller-forms",
+        "stable_id": "ex-ms9433km4s1ia",
         "type": "matching",
         "prompt": "Match each form of *aller* with the subject it goes with.",
         "card_ids": [
@@ -222,6 +236,7 @@
       "title": "Build: We're going to visit Paris",
       "exercise": {
         "id": "ex-tile-visit-paris",
+        "stable_id": "ex-ms9433km4s2os",
         "type": "word_tiles",
         "prompt": "Arrange to mean: *We're going to visit Paris this weekend.*",
         "card_ids": [
@@ -247,6 +262,7 @@
       "title": "I am going to travel tomorrow",
       "exercise": {
         "id": "ex-free-travel-tomorrow",
+        "stable_id": "ex-ms9433km4s3tb",
         "type": "free_text",
         "prompt": "Translate: *I am going to travel tomorrow.* (Use the futur proche.)",
         "card_ids": [
@@ -281,6 +297,7 @@
       "title": "Which means 'she is going to study'?",
       "exercise": {
         "id": "ex-pick-she-study",
+        "stable_id": "ex-ms9433km4s4lh",
         "type": "picture_choice",
         "prompt": "Which sentence correctly means *She is going to study*?",
         "card_ids": [
@@ -321,6 +338,7 @@
       "title": "They are going to eat tonight",
       "exercise": {
         "id": "ex-free-eat-tonight",
+        "stable_id": "ex-ms9433km4s5kf",
         "type": "free_text",
         "prompt": "Translate: *They are going to eat tonight.* (Use masculine *they*.)",
         "card_ids": [
@@ -349,6 +367,7 @@
       "title": "Build: I'm not going to work tomorrow",
       "exercise": {
         "id": "ex-tile-not-work",
+        "stable_id": "ex-ms9433km4s66h",
         "type": "word_tiles",
         "prompt": "Arrange to mean: *I'm not going to work tomorrow.*",
         "card_ids": [
@@ -374,6 +393,7 @@
       "title": "We are going to meet soon",
       "exercise": {
         "id": "ex-free-meet-soon",
+        "stable_id": "ex-ms9433km4s7gk",
         "type": "free_text",
         "prompt": "Translate: *We are going to meet soon.* (A natural way uses *se rencontrer*.)",
         "card_ids": [
@@ -403,6 +423,7 @@
       "title": "Match future time markers",
       "exercise": {
         "id": "ex-match-time-markers",
+        "stable_id": "ex-ms9433km4s89p",
         "type": "matching",
         "prompt": "Match each French time expression with its English meaning.",
         "card_ids": [
@@ -439,6 +460,7 @@
       "title": "Build: You're going to watch a film",
       "exercise": {
         "id": "ex-tile-watch-tonight",
+        "stable_id": "ex-ms9433km4s99l",
         "type": "word_tiles",
         "prompt": "Arrange to mean: *You're going to watch a film tonight.* (informal *tu*)",
         "card_ids": [

@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "yo-endung",
+      "stable_id": "card-ms9433iv33g6i",
       "front": "-요",
       "back": "höfliche Alltagsendung (Haeyo-che)",
       "notes": "Romanisierung: -yo. Kontext: 가요 (gayo) – ich gehe (höflich, alltäglich). Die -요-Endung macht fast jeden Satz höflich.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "mnida-endung",
+      "stable_id": "card-ms9433iv33h9v",
       "front": "-ㅂ니다/-습니다",
       "back": "formelle Endung (Hapsyo-che)",
       "notes": "Romanisierung: -mnida / -seumnida. Kontext: 갑니다 (gamnida) – ich gehe (formell). Für Nachrichten, Vorträge, sehr förmliche Situationen.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "gayo",
+      "stable_id": "card-ms9433iv33iz2",
       "front": "가요",
       "back": "ich gehe (höflich)",
       "notes": "Romanisierung: gayo. Kontext: 학교에 가요 (hakgyoe gayo) – Ich gehe zur Schule. Grundform: 가다 (gada).",
@@ -33,6 +36,7 @@
     },
     {
       "id": "gamnida",
+      "stable_id": "card-ms9433iv33jce",
       "front": "갑니다",
       "back": "ich gehe (formell)",
       "notes": "Romanisierung: gamnida. Kontext: 지금 갑니다 (jigeum gamnida) – Ich gehe jetzt. Formelle Form von 가다.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "meogeoyo",
+      "stable_id": "card-ms9433iv33k1j",
       "front": "먹어요",
       "back": "ich esse (höflich)",
       "notes": "Romanisierung: meogeoyo. Kontext: 밥을 먹어요 (babeul meogeoyo) – Ich esse. Grundform: 먹다 (meokda).",
@@ -49,6 +54,7 @@
     },
     {
       "id": "meokseumnida",
+      "stable_id": "card-ms9433iv33lmp",
       "front": "먹습니다",
       "back": "ich esse (formell)",
       "notes": "Romanisierung: meokseumnida. Kontext: 점심을 먹습니다 (jeomsimeul meokseumnida) – Ich esse zu Mittag. Formell, Stamm endet auf Konsonant → -습니다.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "imnida-kopula",
+      "stable_id": "card-ms9433iv33mbm",
       "front": "입니다",
       "back": "ist / bin (formell)",
       "notes": "Romanisierung: imnida. Kontext: 학생입니다 (haksaeng-imnida) – Ich bin Studentin (formell).",
@@ -65,6 +72,7 @@
     },
     {
       "id": "ieyo-kopula",
+      "stable_id": "card-ms9433iv33nwl",
       "front": "이에요",
       "back": "ist / bin (höflich)",
       "notes": "Romanisierung: ieyo. Kontext: 학생이에요 (haksaeng-ieyo) – Ich bin Studentin (höflich, alltäglich).",
@@ -73,6 +81,7 @@
     },
     {
       "id": "banmal",
+      "stable_id": "card-ms9433iv33okr",
       "front": "반말",
       "back": "informelle Sprache (ohne -요)",
       "notes": "Romanisierung: banmal. Kontext: 친구한테 반말해요 (chinguhante banmalhaeyo) – Mit Freunden spricht man informell. 가 (ga) statt 가요.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "jondaenmal",
+      "stable_id": "card-ms9433iv33prk",
       "front": "존댓말",
       "back": "höfliche Sprache (mit -요/-ㅂ니다)",
       "notes": "Romanisierung: jondaenmal. Kontext: 어른한테 존댓말을 써요 (eorunhante jondaenmareul sseoyo) – Mit Erwachsenen verwendet man die Höflichkeitssprache.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "hapnida-gamsa",
+      "stable_id": "card-ms9433iv33qnq",
       "front": "감사합니다",
       "back": "Danke (formell)",
       "notes": "Romanisierung: gamsahamnida. Kontext: 감사합니다 endet auf -ㅂ니다 und ist die formelle Stufe; alltäglich sagt man auch 고마워요 (gomawoyo).",
@@ -116,6 +127,7 @@
       "title": "Formen zuordnen",
       "exercise": {
         "id": "ex-match-stufen",
+        "stable_id": "ex-ms9433iv33rkv",
         "type": "matching",
         "prompt": "Ordne jeder koreanischen Form die deutsche Beschreibung zu.",
         "card_ids": ["gayo", "gamnida", "meogeoyo", "meokseumnida"],
@@ -135,6 +147,7 @@
       "title": "Begriffe zuordnen",
       "exercise": {
         "id": "ex-match-begriffe",
+        "stable_id": "ex-ms9433iv33skd",
         "type": "matching",
         "prompt": "Ordne die Höflichkeitsbegriffe zu.",
         "card_ids": ["yo-endung", "mnida-endung", "banmal", "jondaenmal"],
@@ -154,6 +167,7 @@
       "title": "Gehen (formell)",
       "exercise": {
         "id": "ex-free-formell-gehen",
+        "stable_id": "ex-ms9433iv33tkv",
         "type": "free_text",
         "prompt": "Wie lautet 'ich gehe' in der formellen Stufe (von 가다)? (Hangul oder Romanisierung)",
         "card_ids": ["gamnida"],
@@ -170,6 +184,7 @@
       "title": "Essen (höflich-alltäglich)",
       "exercise": {
         "id": "ex-free-hoeflich-essen",
+        "stable_id": "ex-ms9433iv33uqu",
         "type": "free_text",
         "prompt": "Wie lautet 'ich esse' in der höflich-alltäglichen Stufe (Haeyo-che)? (Hangul oder Romanisierung)",
         "card_ids": ["meogeoyo"],
@@ -186,6 +201,7 @@
       "title": "Lücke füllen: formell essen",
       "exercise": {
         "id": "ex-cloze-formell-essen",
+        "stable_id": "ex-ms9433iv33vqa",
         "type": "cloze",
         "prompt": "Ergänze die formelle Form von 먹다 ('essen'). Der Stamm endet auf einen Konsonanten.",
         "card_ids": ["meokseumnida"],
@@ -202,6 +218,7 @@
       "title": "Formelle Vorstellung",
       "exercise": {
         "id": "ex-tiles-bin-student-formell",
+        "stable_id": "ex-ms9433iv33wqo",
         "type": "word_tiles",
         "prompt": "Baue 'Ich bin Studentin.' in der formellen Stufe.",
         "card_ids": ["imnida-kopula"],

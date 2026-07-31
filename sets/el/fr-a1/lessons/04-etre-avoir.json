@@ -8,6 +8,7 @@
   "cards": [
     {
       "id": "je-suis",
+      "stable_id": "card-ms9433j53foz2",
       "front": "je suis",
       "back": "(εγώ) είμαι",
       "notes": "être = είμαι. je suis = είμαι.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "tu-es",
+      "stable_id": "card-ms9433j53fpys",
       "front": "tu es",
       "back": "(εσύ) είσαι",
       "tags": [
@@ -25,6 +27,7 @@
     },
     {
       "id": "il-est",
+      "stable_id": "card-ms9433j53fq16",
       "front": "il/elle est",
       "back": "(αυτός/αυτή) είναι",
       "tags": [
@@ -33,6 +36,7 @@
     },
     {
       "id": "jai",
+      "stable_id": "card-ms9433j53frq5",
       "front": "j'ai",
       "back": "(εγώ) έχω",
       "notes": "avoir = έχω. j'ai (με έκθλιψη) = έχω.",
@@ -42,6 +46,7 @@
     },
     {
       "id": "tu-as",
+      "stable_id": "card-ms9433j53fsgl",
       "front": "tu as",
       "back": "(εσύ) έχεις",
       "tags": [
@@ -50,6 +55,7 @@
     },
     {
       "id": "il-a",
+      "stable_id": "card-ms9433j53ft6v",
       "front": "il/elle a",
       "back": "(αυτός/αυτή) έχει",
       "tags": [
@@ -58,6 +64,7 @@
     },
     {
       "id": "etre",
+      "stable_id": "card-ms9433j53fukv",
       "front": "être",
       "back": "είμαι (απαρέμφατο)",
       "notes": "Ένα από τα δύο βασικά ρήματα. Αντιστοιχεί στο ελληνικό «είμαι».",
@@ -67,6 +74,7 @@
     },
     {
       "id": "avoir",
+      "stable_id": "card-ms9433j53fv2b",
       "front": "avoir",
       "back": "έχω (απαρέμφατο)",
       "notes": "Το δεύτερο βασικό ρήμα. Αντιστοιχεί στο ελληνικό «έχω».",
@@ -100,6 +108,7 @@
       "title": "Το ρήμα être",
       "exercise": {
         "id": "ex-match-etre",
+        "stable_id": "ex-ms9433j53fw1a",
         "type": "matching",
         "prompt": "Αντιστοίχισε κάθε τύπο του être με τη σημασία του.",
         "card_ids": [
@@ -135,6 +144,7 @@
       "title": "Το ρήμα avoir",
       "exercise": {
         "id": "ex-match-avoir",
+        "stable_id": "ex-ms9433j53fxbs",
         "type": "matching",
         "prompt": "Αντιστοίχισε κάθε τύπο του avoir με τη σημασία του.",
         "card_ids": [
@@ -170,6 +180,7 @@
       "title": "Πώς λες «(εγώ) είμαι»;",
       "exercise": {
         "id": "ex-mc-suis",
+        "stable_id": "ex-ms9433j53fy6w",
         "type": "cloze",
         "prompt": "Πώς λες «(εγώ) είμαι»;",
         "card_ids": [
@@ -198,6 +209,7 @@
       "title": "Πώς λες «(εγώ) έχω»;",
       "exercise": {
         "id": "ex-mc-jai",
+        "stable_id": "ex-ms9433j53fzg7",
         "type": "cloze",
         "prompt": "Πώς λες «(εγώ) έχω»;",
         "card_ids": [
@@ -226,6 +238,7 @@
       "title": "Συμπλήρωσε: «Tu ___ français.» (είσαι Γάλλος)",
       "exercise": {
         "id": "ex-mc-tu-es",
+        "stable_id": "ex-ms9433j53g01p",
         "type": "cloze",
         "prompt": "Συμπλήρωσε: «Tu ___ français.» (είσαι Γάλλος)",
         "card_ids": [
@@ -254,6 +267,7 @@
       "title": "Συμπλήρωσε: «Il ___ un chat.» (έχει μια γάτα)",
       "exercise": {
         "id": "ex-mc-il-a",
+        "stable_id": "ex-ms9433j53g16h",
         "type": "cloze",
         "prompt": "Συμπλήρωσε: «Il ___ un chat.» (έχει μια γάτα)",
         "card_ids": [
@@ -282,6 +296,7 @@
       "title": "Η έκθλιψη με avoir",
       "exercise": {
         "id": "ex-clz-jai",
+        "stable_id": "ex-ms9433j53g27u",
         "type": "cloze",
         "prompt": "Συμπλήρωσε το «(εγώ) έχω» με έκθλιψη.",
         "card_ids": [
@@ -306,6 +321,7 @@
       "title": "Πώς λες «(εμείς) είμαστε»;",
       "exercise": {
         "id": "ex-mc-nous-sommes",
+        "stable_id": "ex-ms9433j53g3qs",
         "type": "cloze",
         "prompt": "Πώς λες «(εμείς) είμαστε»;",
         "card_ids": [

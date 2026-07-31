@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "il-menu",
+      "stable_id": "card-ms9433ih2lvj9",
       "front": "il menù",
       "back": "die Speisekarte",
       "notes": "Kontext: Il menù, per favore. – Die Speisekarte, bitte. (m.) Mit Akzent auf dem ù.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "vorrei",
+      "stable_id": "card-ms9433ih2lwf7",
       "front": "Vorrei...",
       "back": "Ich hätte gern...",
       "notes": "Kontext: Vorrei un caffè. – Ich hätte gern einen Kaffee. Höfliche Bestellform.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "un-caffe",
+      "stable_id": "card-ms9433ih2lx61",
       "front": "un caffè",
       "back": "ein Kaffee (Espresso)",
       "notes": "Kontext: Un caffè, per favore. – Einen Kaffee, bitte. (m.) In Italien meist ein Espresso.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "l-acqua",
+      "stable_id": "card-ms9433ih2lycl",
       "front": "l'acqua",
       "back": "das Wasser",
       "notes": "Kontext: Un'acqua naturale. – Ein stilles Wasser. (f.) acqua naturale = still, frizzante = mit Kohlensäure.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "il-vino",
+      "stable_id": "card-ms9433ih2lzvg",
       "front": "il vino",
       "back": "der Wein",
       "notes": "Kontext: Un bicchiere di vino rosso. – Ein Glas Rotwein. (m.)",
@@ -49,6 +54,7 @@
     },
     {
       "id": "la-pizza",
+      "stable_id": "card-ms9433ih2m0js",
       "front": "la pizza",
       "back": "die Pizza",
       "notes": "Kontext: Vorrei una pizza margherita. – Ich hätte gern eine Pizza Margherita. (f.)",
@@ -57,6 +63,7 @@
     },
     {
       "id": "il-conto",
+      "stable_id": "card-ms9433ih2m1i5",
       "front": "il conto",
       "back": "die Rechnung",
       "notes": "Kontext: Il conto, per favore! – Die Rechnung, bitte! (m.)",
@@ -65,6 +72,7 @@
     },
     {
       "id": "per-favore",
+      "stable_id": "card-ms9433ih2m2y6",
       "front": "per favore",
       "back": "bitte (Bitte um etwas)",
       "notes": "Kontext: Un tavolo per due, per favore. – Einen Tisch für zwei, bitte.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "il-cameriere",
+      "stable_id": "card-ms9433ih2m3ri",
       "front": "il cameriere",
       "back": "der Kellner",
       "notes": "Kontext: Cameriere, scusi! – Herr Ober, Entschuldigung! (m.) Kellnerin: la cameriera (f.).",
@@ -81,6 +90,7 @@
     },
     {
       "id": "il-tavolo",
+      "stable_id": "card-ms9433ih2m4nk",
       "front": "il tavolo",
       "back": "der Tisch",
       "notes": "Kontext: Un tavolo per quattro. – Ein Tisch für vier. (m.)",
@@ -89,6 +99,7 @@
     },
     {
       "id": "buono",
+      "stable_id": "card-ms9433ih2m51m",
       "front": "buono",
       "back": "lecker / gut",
       "notes": "Kontext: La pasta è molto buona! – Die Pasta ist sehr lecker! (m. buono / f. buona)",
@@ -97,6 +108,7 @@
     },
     {
       "id": "scusi",
+      "stable_id": "card-ms9433ih2m6de",
       "front": "Scusi",
       "back": "Entschuldigung (höflich)",
       "notes": "Kontext: Scusi, dov'è il bagno? – Entschuldigung, wo ist die Toilette? Höflich (Sie).",
@@ -124,6 +136,7 @@
       "title": "Restaurantwörter zuordnen",
       "exercise": {
         "id": "ex-match-restaurant",
+        "stable_id": "ex-ms9433ih2m77s",
         "type": "matching",
         "prompt": "Ordne den italienischen Wörtern die deutsche Bedeutung zu.",
         "card_ids": ["il-menu", "il-conto", "l-acqua", "la-pizza"],
@@ -143,6 +156,7 @@
       "title": "Höflich bestellen",
       "exercise": {
         "id": "ex-free-vorrei",
+        "stable_id": "ex-ms9433ih2m8ue",
         "type": "free_text",
         "prompt": "Wie sagt man höflich 'Ich hätte gern...'?",
         "card_ids": ["vorrei"],
@@ -159,6 +173,7 @@
       "title": "Nach der Rechnung fragen",
       "exercise": {
         "id": "ex-free-conto",
+        "stable_id": "ex-ms9433ih2m9l1",
         "type": "free_text",
         "prompt": "Wie heißt 'die Rechnung' auf Italienisch (mit Artikel)?",
         "card_ids": ["il-conto"],
@@ -175,6 +190,7 @@
       "title": "Lücke füllen: Bestellung",
       "exercise": {
         "id": "ex-cloze-vorrei-caffe",
+        "stable_id": "ex-ms9433ih2maq1",
         "type": "cloze",
         "prompt": "Ergänze die höfliche Bestellung eines Kaffees.",
         "card_ids": ["vorrei", "un-caffe", "per-favore"],
@@ -194,6 +210,7 @@
       "title": "Rechnung verlangen",
       "exercise": {
         "id": "ex-tile-conto-favore",
+        "stable_id": "ex-ms9433ih2mbsv",
         "type": "word_tiles",
         "prompt": "Baue den Satz 'Die Rechnung, bitte!'.",
         "card_ids": ["il-conto", "per-favore"],
@@ -209,6 +226,7 @@
       "title": "Getränk erkennen",
       "exercise": {
         "id": "ex-pick-vino",
+        "stable_id": "ex-ms9433ih2mcg1",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'der Wein'?",
         "card_ids": ["il-vino"],

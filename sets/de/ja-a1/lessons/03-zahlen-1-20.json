@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "ichi",
+      "stable_id": "card-ms9433io2uvb6",
       "front": "一",
       "back": "eins (1)",
       "notes": "Romaji: ichi. Kontext: りんごを一つください。(ringo o hitotsu kudasai.) – Einen Apfel bitte. Zahl: 一 = 1.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "ni",
+      "stable_id": "card-ms9433io2uwau",
       "front": "二",
       "back": "zwei (2)",
       "notes": "Romaji: ni. Kontext: 二時です。(ni-ji desu.) – Es ist zwei Uhr.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "san",
+      "stable_id": "card-ms9433io2uxp9",
       "front": "三",
       "back": "drei (3)",
       "notes": "Romaji: san. Kontext: 三人います。(san-nin imasu.) – Es sind drei Personen.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "yon",
+      "stable_id": "card-ms9433io2uybh",
       "front": "四",
       "back": "vier (4)",
       "notes": "Romaji: yon (auch shi). Kontext: 四月です。(shi-gatsu desu.) – Es ist April (vierter Monat).",
@@ -41,6 +45,7 @@
     },
     {
       "id": "go",
+      "stable_id": "card-ms9433io2uzc1",
       "front": "五",
       "back": "fünf (5)",
       "notes": "Romaji: go. Kontext: 五円です。(go-en desu.) – Es sind fünf Yen.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "roku",
+      "stable_id": "card-ms9433io2v08l",
       "front": "六",
       "back": "sechs (6)",
       "notes": "Romaji: roku. Kontext: 六時に起きます。(roku-ji ni okimasu.) – Ich stehe um sechs Uhr auf.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "nana",
+      "stable_id": "card-ms9433io2v10z",
       "front": "七",
       "back": "sieben (7)",
       "notes": "Romaji: nana (auch shichi). Kontext: 七日です。(nanoka desu.) – Es ist der siebte Tag.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "hachi",
+      "stable_id": "card-ms9433io2v2ao",
       "front": "八",
       "back": "acht (8)",
       "notes": "Romaji: hachi. Kontext: 八月は暑いです。(hachi-gatsu wa atsui desu.) – Der August ist heiß.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "kyuu",
+      "stable_id": "card-ms9433io2v320",
       "front": "九",
       "back": "neun (9)",
       "notes": "Romaji: kyuu (auch ku). Kontext: 九時です。(ku-ji desu.) – Es ist neun Uhr.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "juu",
+      "stable_id": "card-ms9433io2v49t",
       "front": "十",
       "back": "zehn (10)",
       "notes": "Romaji: juu. Kontext: 十人います。(juu-nin imasu.) – Es sind zehn Personen.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "juuichi",
+      "stable_id": "card-ms9433io2v5j0",
       "front": "十一",
       "back": "elf (11)",
       "notes": "Romaji: juuichi. Kontext: 十一時です。(juuichi-ji desu.) – Es ist elf Uhr. 十 (10) + 一 (1).",
@@ -97,6 +108,7 @@
     },
     {
       "id": "juugo",
+      "stable_id": "card-ms9433io2v6bl",
       "front": "十五",
       "back": "fünfzehn (15)",
       "notes": "Romaji: juugo. Kontext: 十五分です。(juugo-fun desu.) – Es sind fünfzehn Minuten. 十 (10) + 五 (5).",
@@ -105,6 +117,7 @@
     },
     {
       "id": "nijuu",
+      "stable_id": "card-ms9433io2v7yk",
       "front": "二十",
       "back": "zwanzig (20)",
       "notes": "Romaji: nijuu. Kontext: 二十歳です。(hatachi desu.) – Ich bin zwanzig (Jahre). Zahl: 二 (2) × 十 (10) = 二十.",
@@ -132,6 +145,7 @@
       "title": "Zahlen zuordnen",
       "exercise": {
         "id": "ex-match-zahlen",
+        "stable_id": "ex-ms9433io2v8xo",
         "type": "matching",
         "prompt": "Ordne jedem Kanji die Zahl zu.",
         "card_ids": ["ichi", "san", "go", "juu"],
@@ -151,6 +165,7 @@
       "title": "Sieben schreiben",
       "exercise": {
         "id": "ex-free-nana",
+        "stable_id": "ex-ms9433io2v95r",
         "type": "free_text",
         "prompt": "Schreibe die Zahl 'sieben' (Kanji oder Romaji).",
         "card_ids": ["nana"],
@@ -167,6 +182,7 @@
       "title": "Zehn schreiben",
       "exercise": {
         "id": "ex-free-juu",
+        "stable_id": "ex-ms9433io2varp",
         "type": "free_text",
         "prompt": "Schreibe die Zahl 'zehn' (Kanji oder Romaji).",
         "card_ids": ["juu"],
@@ -183,6 +199,7 @@
       "title": "Lücke: 11 zusammensetzen",
       "exercise": {
         "id": "ex-cloze-juuichi",
+        "stable_id": "ex-ms9433io2vb60",
         "type": "cloze",
         "prompt": "Ergänze den Einer, sodass 11 entsteht (10 + ?).",
         "card_ids": ["juuichi", "ichi"],
@@ -199,6 +216,7 @@
       "title": "20 zusammensetzen",
       "exercise": {
         "id": "ex-tiles-nijuu",
+        "stable_id": "ex-ms9433io2vcht",
         "type": "word_tiles",
         "prompt": "Setze die Kanji so zusammen, dass 20 entsteht.",
         "card_ids": ["nijuu", "ni", "juu"],
@@ -214,6 +232,7 @@
       "title": "Welches Kanji ist 'fünf'?",
       "exercise": {
         "id": "ex-pic-go",
+        "stable_id": "ex-ms9433io2vdwi",
         "type": "picture_choice",
         "prompt": "Welches Kanji bedeutet 'fünf' (5)?",
         "card_ids": ["go"],

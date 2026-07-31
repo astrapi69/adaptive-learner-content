@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "col-rouge",
+      "stable_id": "card-ms9433ho1uz33",
       "front": "rouge",
       "back": "rot",
       "notes": "**Unveränderlich** — gleiche Form für Maskulinum und Femininum: *un livre rouge*, *une chaise rouge*. Der Plural fügt nur ein **-s** hinzu: *des livres rouges*.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "col-bleu",
+      "stable_id": "card-ms9433ho1v0b0",
       "front": "bleu / bleue",
       "back": "blau",
       "notes": "Gleicht sich normal an: *bleu* (m.), *bleue* (f.), *bleus* / *bleues* (Pl.).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "col-vert",
+      "stable_id": "card-ms9433ho1v1o7",
       "front": "vert / verte",
       "back": "grün",
       "notes": "Im Femininum ein **-e** hinzufügen UND das **t** aussprechen: *vert* klingt wie \"wehr\", *verte* wie \"wehrt\".",
@@ -34,6 +37,7 @@
     },
     {
       "id": "col-noir",
+      "stable_id": "card-ms9433ho1v2z2",
       "front": "noir / noire",
       "back": "schwarz",
       "tags": [
@@ -42,6 +46,7 @@
     },
     {
       "id": "col-blanc",
+      "stable_id": "card-ms9433ho1v3vd",
       "front": "blanc / blanche",
       "back": "weiß",
       "notes": "Unregelmäßiges Femininum — **blanche** (nicht *blance*). Gleiches Muster: *franc / franche*, *sec / sèche*.",
@@ -52,6 +57,7 @@
     },
     {
       "id": "col-jaune",
+      "stable_id": "card-ms9433ho1v4ch",
       "front": "jaune",
       "back": "gelb",
       "notes": "Endet bereits auf **-e** — unveränderlich beim Geschlecht. Nur der Plural fügt ein **-s** hinzu.",
@@ -62,6 +68,7 @@
     },
     {
       "id": "col-orange",
+      "stable_id": "card-ms9433ho1v54e",
       "front": "orange",
       "back": "orange",
       "notes": "Stammt von der Frucht, wird als **unveränderlich in Zahl UND Geschlecht** behandelt: *des chaises orange*, niemals *oranges*. Genauso bei *marron* (braun).",
@@ -72,6 +79,7 @@
     },
     {
       "id": "vet-chemise",
+      "stable_id": "card-ms9433ho1v6j7",
       "front": "la chemise",
       "back": "das Hemd",
       "tags": [
@@ -81,6 +89,7 @@
     },
     {
       "id": "vet-pantalon",
+      "stable_id": "card-ms9433ho1v7p4",
       "front": "le pantalon",
       "back": "die Hose",
       "notes": "Im Französischen **Singular**, obwohl es im Deutschen ebenfalls Singular ist (im Englischen \"pants\", Plural). Eine Hose = ein *pantalon*.",
@@ -91,6 +100,7 @@
     },
     {
       "id": "vet-robe",
+      "stable_id": "card-ms9433ho1v823",
       "front": "la robe",
       "back": "das Kleid",
       "tags": [
@@ -100,6 +110,7 @@
     },
     {
       "id": "vet-veste",
+      "stable_id": "card-ms9433ho1v9es",
       "front": "la veste",
       "back": "die Jacke",
       "tags": [
@@ -109,6 +120,7 @@
     },
     {
       "id": "vet-chaussures",
+      "stable_id": "card-ms9433ho1vag9",
       "front": "les chaussures",
       "back": "die Schuhe",
       "notes": "Meistens **Plural** — wie *les lunettes* (Brille). Ein Schuh = *une chaussure* (in der Praxis selten).",
@@ -120,6 +132,7 @@
     },
     {
       "id": "vet-chapeau",
+      "stable_id": "card-ms9433ho1vbll",
       "front": "le chapeau",
       "back": "der Hut",
       "notes": "Plural: *les chapeaux*. Wörter, die auf **-eau** enden, fügen im Plural ein **-x** hinzu (nicht -s).",
@@ -149,6 +162,7 @@
       "title": "Ordne die Angleichung zu",
       "exercise": {
         "id": "ex-match-agreement",
+        "stable_id": "ex-ms9433ho1vclj",
         "type": "matching",
         "prompt": "Ordne jeden französischen Ausdruck der richtigen Form zu.",
         "card_ids": [
@@ -189,6 +203,7 @@
       "title": "Unregelmäßig: weiß",
       "exercise": {
         "id": "ex-free-blanche",
+        "stable_id": "ex-ms9433ho1vd99",
         "type": "free_text",
         "prompt": "Übersetze *ein weißes Hemd*. (*chemise* ist feminin.)",
         "card_ids": [
@@ -216,6 +231,7 @@
       "title": "Unveränderliche Farbe",
       "exercise": {
         "id": "ex-pick-orange",
+        "stable_id": "ex-ms9433ho1vegn",
         "type": "picture_choice",
         "prompt": "Wie würdest du *orange Schuhe* schreiben? (*chaussures* ist feminin Plural.)",
         "card_ids": [
@@ -263,6 +279,7 @@
       "title": "Ein rotes Kleid",
       "exercise": {
         "id": "ex-free-robe-rouge",
+        "stable_id": "ex-ms9433ho1vff1",
         "type": "free_text",
         "prompt": "Übersetze *ein rotes Kleid*.",
         "card_ids": [
@@ -290,6 +307,7 @@
       "title": "Bauen: eine schwarze Hose",
       "exercise": {
         "id": "ex-tile-pantalon",
+        "stable_id": "ex-ms9433ho1vg9j",
         "type": "word_tiles",
         "prompt": "Ordne so, dass es *Ich habe eine schwarze Hose* bedeutet. (Denk daran: *pantalon* ist Singular!)",
         "card_ids": [
@@ -314,6 +332,7 @@
       "title": "Pluralangleichung",
       "exercise": {
         "id": "ex-match-plurals",
+        "stable_id": "ex-ms9433ho1vhz3",
         "type": "matching",
         "prompt": "Ordne jeden Ausdruck seiner richtigen Pluralform zu.",
         "card_ids": [
@@ -350,6 +369,7 @@
       "title": "Plural von chapeau",
       "exercise": {
         "id": "ex-pick-chapeaux",
+        "stable_id": "ex-ms9433ho1viom",
         "type": "picture_choice",
         "prompt": "Wie schreibst du den Plural von *un chapeau bleu* (ein blauer Hut)?",
         "card_ids": [
@@ -391,6 +411,7 @@
       "title": "Bauen: eine weiße Jacke",
       "exercise": {
         "id": "ex-tile-veste-blanche",
+        "stable_id": "ex-ms9433ho1vjud",
         "type": "word_tiles",
         "prompt": "Ordne so, dass es *Ich habe eine weiße Jacke* bedeutet.",
         "card_ids": [

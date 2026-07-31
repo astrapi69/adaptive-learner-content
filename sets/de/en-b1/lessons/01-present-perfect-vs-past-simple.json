@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "deutscher-perfekt-fehler",
+      "stable_id": "card-ms9433g60mp7t",
       "front": "I saw him yesterday. (NOT: I have seen him yesterday.)",
       "back": "Der häufigste deutsche Fehler",
       "notes": "Im Deutschen sagt man „Ich **habe** ihn gestern **gesehen**“ (Perfekt). Im Englischen verlangt eine **abgeschlossene Zeit** (*yesterday*) das **Past Simple**: *I **saw** him yesterday.* Englisch unterscheidet hier scharf — Deutsch nicht.",
@@ -19,6 +20,7 @@
     },
     {
       "id": "past-simple-use",
+      "stable_id": "card-ms9433g60mq8z",
       "front": "Past Simple",
       "back": "abgeschlossene Handlung in abgeschlossener Zeit",
       "notes": "Wann ETWAS passierte (Zeitpunkt vorbei): *I **visited** Rome in 2019.* Signalwörter: *yesterday, ago, last week, in 2010, when I was young*.",
@@ -28,6 +30,7 @@
     },
     {
       "id": "present-perfect-form",
+      "stable_id": "card-ms9433g60mrlu",
       "front": "Present Perfect",
       "back": "have/has + 3. Verbform (past participle)",
       "notes": "*I **have visited** Rome.* *She **has gone** home.* Verbindet die Vergangenheit mit dem **Jetzt** — der Zeitpunkt ist NICHT abgeschlossen oder unwichtig.",
@@ -37,6 +40,7 @@
     },
     {
       "id": "pp-experience",
+      "stable_id": "card-ms9433g60msb1",
       "front": "Have you ever …? / I have never …",
       "back": "Erfahrung (irgendwann im Leben)",
       "notes": "Lebenserfahrung ohne konkreten Zeitpunkt → Present Perfect: *Have you **ever been** to Japan? — No, I've **never been** there.*",
@@ -46,6 +50,7 @@
     },
     {
       "id": "pp-result-now",
+      "stable_id": "card-ms9433g60mtxt",
       "front": "I have lost my keys. (result now)",
       "back": "Ergebnis, das jetzt zählt",
       "notes": "Present Perfect, wenn das **Ergebnis** in der Gegenwart wichtig ist: *I **have lost** my keys* (= ich habe sie jetzt nicht). Mit Zeitpunkt → Past Simple: *I **lost** them yesterday.*",
@@ -55,6 +60,7 @@
     },
     {
       "id": "since-for",
+      "stable_id": "card-ms9433g60mu43",
       "front": "since / for",
       "back": "seit (Zeitpunkt) / seit (Dauer)",
       "notes": "Mit Present Perfect für etwas, das bis **jetzt** andauert: ***since*** + Zeitpunkt (*since 2020, since Monday*), ***for*** + Dauer (*for three years, for a week*).",
@@ -64,6 +70,7 @@
     },
     {
       "id": "for-years-contrast",
+      "stable_id": "card-ms9433g60mvkl",
       "front": "I have lived here for 3 years. / I lived there for 3 years.",
       "back": "noch hier vs. nicht mehr dort",
       "notes": "**Present Perfect** = die Situation dauert **bis jetzt** an: *I **have lived** here for 3 years* (ich wohne noch hier). **Past Simple** = abgeschlossen: *I **lived** there for 3 years* (dann bin ich weggezogen).",
@@ -74,6 +81,7 @@
     },
     {
       "id": "just-already-yet",
+      "stable_id": "card-ms9433g60mwj0",
       "front": "just / already / yet",
       "back": "gerade / schon / noch (nicht)",
       "notes": "Typische Present-Perfect-Signale: *I've **just** finished.* *She's **already** left.* *Have you finished **yet**? — Not **yet**.* (*yet* in Fragen/Verneinungen, am Satzende.)",
@@ -83,6 +91,7 @@
     },
     {
       "id": "been-vs-gone",
+      "stable_id": "card-ms9433g60mxji",
       "front": "has been to / has gone to",
       "back": "war (und ist zurück) / ist hingegangen (noch dort)",
       "notes": "*She **has been** to Paris* = sie war dort und ist wieder zurück. *She **has gone** to Paris* = sie ist hingefahren und ist **noch** dort.",
@@ -92,6 +101,7 @@
     },
     {
       "id": "past-signal-words",
+      "stable_id": "card-ms9433g60mybj",
       "front": "yesterday, ago, last …, in 2010",
       "back": "Signalwörter fürs Past Simple",
       "notes": "Eine **konkrete, abgeschlossene** Zeitangabe zwingt zum Past Simple — auch wenn das Deutsche dort Perfekt benutzt: *I **finished** it two hours ago.*",
@@ -101,6 +111,7 @@
     },
     {
       "id": "pp-unfinished-time",
+      "stable_id": "card-ms9433g60mzpb",
       "front": "today, this week, this year (noch nicht vorbei)",
       "back": "unabgeschlossener Zeitraum → Present Perfect",
       "notes": "Solange der Zeitraum **noch läuft**, nutzt man Present Perfect: *I **have drunk** three coffees today* (der Tag ist noch nicht vorbei). Gestern (vorbei) → *I **drank** three coffees yesterday.*",
@@ -110,6 +121,7 @@
     },
     {
       "id": "irregular-participles",
+      "stable_id": "card-ms9433g60n0f7",
       "front": "be–was–been, go–went–gone, see–saw–seen",
       "back": "drei Formen (3. Form = participle)",
       "notes": "Das Present Perfect braucht die **3. Form**: *do–did–**done**, have–had–**had**, write–wrote–**written**, take–took–**taken***. Sie sicher zu beherrschen ist Voraussetzung.",
@@ -144,6 +156,7 @@
       "title": "Der Klassiker-Fehler",
       "exercise": {
         "id": "ex-free-saw-yesterday",
+        "stable_id": "ex-ms9433g60n169",
         "type": "free_text",
         "prompt": "Übersetze: *Ich habe ihn gestern gesehen.* (Achtung: abgeschlossene Zeit!)",
         "card_ids": ["deutscher-perfekt-fehler", "past-simple-use"],
@@ -169,6 +182,7 @@
       "title": "Noch andauernd",
       "exercise": {
         "id": "ex-cloze-lived-since",
+        "stable_id": "ex-ms9433g60n2p1",
         "type": "cloze",
         "prompt": "Ergänze das Verb *live* in der richtigen Form (die Situation dauert bis jetzt an).",
         "card_ids": ["since-for", "for-years-contrast"],
@@ -187,6 +201,7 @@
       "title": "Signalwort → Zeitform",
       "exercise": {
         "id": "ex-match-signals",
+        "stable_id": "ex-ms9433g60n3gk",
         "type": "matching",
         "prompt": "Ordne jedem Signalwort die verlangte Zeitform zu.",
         "card_ids": ["past-signal-words", "since-for", "just-already-yet", "pp-experience"],
@@ -206,6 +221,7 @@
       "title": "Gerade passiert",
       "exercise": {
         "id": "ex-free-just-finished",
+        "stable_id": "ex-ms9433g60n44s",
         "type": "free_text",
         "prompt": "Übersetze: *Ich habe gerade meine Arbeit beendet.*",
         "card_ids": ["just-already-yet", "present-perfect-form"],
@@ -232,6 +248,7 @@
       "title": "been oder gone?",
       "exercise": {
         "id": "ex-pic-been-gone",
+        "stable_id": "ex-ms9433g60n5hu",
         "type": "picture_choice",
         "prompt": "Anna ist gerade aus Paris zurückgekommen. Welcher Satz ist richtig?",
         "card_ids": ["been-vs-gone"],
@@ -257,6 +274,7 @@
       "title": "Erfahrung erfragen",
       "exercise": {
         "id": "ex-cloze-ever-been",
+        "stable_id": "ex-ms9433g60n6q7",
         "type": "cloze",
         "prompt": "Ergänze die Lücke (Erfahrung, irgendwann im Leben).",
         "card_ids": ["pp-experience"],
@@ -275,6 +293,7 @@
       "title": "Ergebnis jetzt",
       "exercise": {
         "id": "ex-free-lost-keys",
+        "stable_id": "ex-ms9433g60n7c9",
         "type": "free_text",
         "prompt": "Übersetze: *Ich habe meine Schlüssel verloren.* (Ich habe sie jetzt nicht — kein Zeitpunkt genannt.)",
         "card_ids": ["pp-result-now"],
@@ -301,6 +320,7 @@
       "title": "Abgeschlossen: dann weggezogen",
       "exercise": {
         "id": "ex-free-lived-then-moved",
+        "stable_id": "ex-ms9433g60n87g",
         "type": "free_text",
         "prompt": "Übersetze: *Ich habe drei Jahre lang in London gewohnt (dann bin ich weggezogen).*",
         "card_ids": ["for-years-contrast", "past-simple-use"],
@@ -327,6 +347,7 @@
       "title": "schon weg",
       "exercise": {
         "id": "ex-tiles-already-left",
+        "stable_id": "ex-ms9433g60n9fv",
         "type": "word_tiles",
         "prompt": "Ordne die Wörter: *Der Zug ist schon abgefahren.*",
         "card_ids": ["just-already-yet"],
@@ -341,6 +362,7 @@
       "title": "Der Tag ist noch nicht vorbei",
       "exercise": {
         "id": "ex-cloze-today-unfinished",
+        "stable_id": "ex-ms9433g60na6t",
         "type": "cloze",
         "prompt": "Ergänze *drink* richtig: Der Tag läuft noch.",
         "card_ids": ["pp-unfinished-time"],
@@ -359,6 +381,7 @@
       "title": "Welche Bedeutung?",
       "exercise": {
         "id": "ex-match-tense-meaning",
+        "stable_id": "ex-ms9433g60nbgm",
         "type": "matching",
         "prompt": "Ordne jedem Satz seine Bedeutung zu.",
         "card_ids": ["for-years-contrast", "been-vs-gone"],
@@ -377,6 +400,7 @@
       "title": "noch nicht",
       "exercise": {
         "id": "ex-free-not-finished-yet",
+        "stable_id": "ex-ms9433g60ncw0",
         "type": "free_text",
         "prompt": "Übersetze: *Ich habe den Bericht noch nicht beendet.*",
         "card_ids": ["just-already-yet", "present-perfect-form"],
@@ -403,6 +427,7 @@
       "title": "vor zwei Stunden",
       "exercise": {
         "id": "ex-free-called-ago",
+        "stable_id": "ex-ms9433g60ndrt",
         "type": "free_text",
         "prompt": "Übersetze: *Sie hat mich vor zwei Stunden angerufen.*",
         "card_ids": ["past-signal-words", "past-simple-use"],

@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "phr-quelle-heure",
+      "stable_id": "card-ms9433kk4pta2",
       "front": "Quelle heure est-il ?",
       "back": "What time is it?",
       "notes": "The standard way to ask the time. Literally *what hour is it?* The **h** in *heure* is silent.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "phr-il-est-une-heure",
+      "stable_id": "card-ms9433kk4pu6p",
       "front": "Il est une heure",
       "back": "It is one o'clock",
       "notes": "Use **il est** + number + *heure(s)* to tell the time. *Une heure* (singular), but *deux heures*, *trois heures*, ... (plural).",
@@ -25,6 +27,7 @@
     },
     {
       "id": "phr-et-demie",
+      "stable_id": "card-ms9433kk4pvv5",
       "front": "et demie",
       "back": "half past",
       "notes": "*Il est trois heures **et demie*** — it is half past three. *Demie* agrees with the feminine *heure*.",
@@ -34,6 +37,7 @@
     },
     {
       "id": "phr-et-quart",
+      "stable_id": "card-ms9433kk4pwec",
       "front": "et quart",
       "back": "quarter past",
       "notes": "*Il est trois heures **et quart*** — it is quarter past three.",
@@ -43,6 +47,7 @@
     },
     {
       "id": "phr-moins-le-quart",
+      "stable_id": "card-ms9433kk4px9d",
       "front": "moins le quart",
       "back": "quarter to",
       "notes": "*Il est trois heures **moins le quart*** — it is quarter to three. *Moins* means *minus*.",
@@ -52,6 +57,7 @@
     },
     {
       "id": "phr-midi",
+      "stable_id": "card-ms9433kk4pyvv",
       "front": "midi",
       "back": "noon",
       "notes": "*Il est midi* — it is noon (12:00). No need for *heures*: just *midi*.",
@@ -61,6 +67,7 @@
     },
     {
       "id": "phr-minuit",
+      "stable_id": "card-ms9433kk4pzoh",
       "front": "minuit",
       "back": "midnight",
       "notes": "*Il est minuit* — it is midnight (00:00). Like *midi*, it stands alone.",
@@ -70,6 +77,7 @@
     },
     {
       "id": "phr-le-matin",
+      "stable_id": "card-ms9433kk4q0uq",
       "front": "le matin",
       "back": "(in) the morning",
       "notes": "*Le matin, je me lève tôt* — in the morning, I get up early.",
@@ -79,6 +87,7 @@
     },
     {
       "id": "phr-le-soir",
+      "stable_id": "card-ms9433kk4q1ym",
       "front": "le soir",
       "back": "(in) the evening",
       "notes": "*Le soir, je me couche tard* — in the evening, I go to bed late.",
@@ -88,6 +97,7 @@
     },
     {
       "id": "verb-se-reveiller",
+      "stable_id": "card-ms9433kk4q248",
       "front": "se réveiller",
       "back": "to wake up",
       "notes": "A **reflexive** verb. *Je **me** réveille* — I wake up. The *se* is the reflexive pronoun in the infinitive.",
@@ -98,6 +108,7 @@
     },
     {
       "id": "verb-se-lever",
+      "stable_id": "card-ms9433kk4q3sa",
       "front": "se lever",
       "back": "to get up",
       "notes": "Reflexive. Note the accent shift: *je me **lève*** (grave accent), but *nous nous **levons*** (no accent).",
@@ -108,6 +119,7 @@
     },
     {
       "id": "verb-s-habiller",
+      "stable_id": "card-ms9433kk4q4bq",
       "front": "s'habiller",
       "back": "to get dressed",
       "notes": "Reflexive. The **h** is silent, so *se* elides to *s'*: *je **m'**habille*.",
@@ -118,6 +130,7 @@
     },
     {
       "id": "verb-se-coucher",
+      "stable_id": "card-ms9433kk4q5rd",
       "front": "se coucher",
       "back": "to go to bed",
       "notes": "Reflexive. *Elle **se** couche à dix heures* — she goes to bed at ten o'clock.",
@@ -128,6 +141,7 @@
     },
     {
       "id": "verb-prendre-petit-dejeuner",
+      "stable_id": "card-ms9433kk4q6qg",
       "front": "prendre le petit-déjeuner",
       "back": "to have breakfast",
       "notes": "Literally *to take the little lunch*. *Je prends le petit-déjeuner le matin.*",
@@ -151,6 +165,7 @@
       "title": "Match time expressions",
       "exercise": {
         "id": "ex-match-time-expr",
+        "stable_id": "ex-ms9433kk4q7iv",
         "type": "matching",
         "prompt": "Match each French time expression with its English meaning.",
         "card_ids": [
@@ -192,6 +207,7 @@
       "title": "Match the reflexive verbs",
       "exercise": {
         "id": "ex-match-reflexive",
+        "stable_id": "ex-ms9433kk4q8qp",
         "type": "matching",
         "prompt": "Match each reflexive verb with its meaning.",
         "card_ids": [
@@ -234,6 +250,7 @@
       "title": "I get up at seven",
       "exercise": {
         "id": "ex-free-i-get-up",
+        "stable_id": "ex-ms9433kk4q950",
         "type": "free_text",
         "prompt": "Translate: *I get up at seven o'clock.*",
         "card_ids": [
@@ -261,6 +278,7 @@
       "title": "Build: In the morning I get up at six",
       "exercise": {
         "id": "ex-tile-morning-routine",
+        "stable_id": "ex-ms9433kk4qabp",
         "type": "word_tiles",
         "prompt": "Arrange to mean: *In the morning I get up at six o'clock.*",
         "card_ids": [
@@ -288,6 +306,7 @@
       "title": "Which clock?",
       "exercise": {
         "id": "ex-pick-clock",
+        "stable_id": "ex-ms9433kk4qb3f",
         "type": "picture_choice",
         "prompt": "Which clock shows *il est trois heures et demie* (half past three)?",
         "card_ids": [
@@ -334,6 +353,7 @@
       "title": "It is noon",
       "exercise": {
         "id": "ex-free-it-is-noon",
+        "stable_id": "ex-ms9433kk4qcet",
         "type": "free_text",
         "prompt": "How do you say *It is noon*?",
         "card_ids": [
@@ -360,6 +380,7 @@
       "title": "Build: She goes to bed at ten",
       "exercise": {
         "id": "ex-tile-she-goes-to-bed",
+        "stable_id": "ex-ms9433kk4qdxe",
         "type": "word_tiles",
         "prompt": "Arrange to mean: *She goes to bed at ten o'clock.*",
         "card_ids": [
@@ -385,6 +406,7 @@
       "title": "I wake up early",
       "exercise": {
         "id": "ex-free-i-wake-up-early",
+        "stable_id": "ex-ms9433kk4qewf",
         "type": "free_text",
         "prompt": "Translate: *I wake up early.* (*early* = tôt)",
         "card_ids": [
@@ -411,6 +433,7 @@
       "title": "I have breakfast in the morning",
       "exercise": {
         "id": "ex-free-i-have-breakfast",
+        "stable_id": "ex-ms9433kk4qfrs",
         "type": "free_text",
         "prompt": "Translate: *I have breakfast in the morning.*",
         "card_ids": [

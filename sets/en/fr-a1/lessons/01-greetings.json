@@ -6,6 +6,7 @@
   "cards": [
     {
       "id": "bonjour",
+      "stable_id": "card-ms9433kd4k65x",
       "front": "Bonjour",
       "back": "Hello / Good morning",
       "notes": "Used in formal and informal contexts during the daytime.",
@@ -16,6 +17,7 @@
     },
     {
       "id": "bonsoir",
+      "stable_id": "card-ms9433kd4k72j",
       "front": "Bonsoir",
       "back": "Good evening",
       "notes": "Used in the evening, both as a greeting and a farewell.",
@@ -26,6 +28,7 @@
     },
     {
       "id": "salut",
+      "stable_id": "card-ms9433kd4k869",
       "front": "Salut",
       "back": "Hi / Bye (informal)",
       "notes": "Informal — use with friends and family, not with strangers or in formal settings.",
@@ -36,6 +39,7 @@
     },
     {
       "id": "merci",
+      "stable_id": "card-ms9433kd4k9qd",
       "front": "Merci",
       "back": "Thank you",
       "notes": "Polite acknowledgement. Add 'beaucoup' (a lot) for emphasis: 'Merci beaucoup'.",
@@ -45,6 +49,7 @@
     },
     {
       "id": "au-revoir",
+      "stable_id": "card-ms9433kd4kac6",
       "front": "Au revoir",
       "back": "Goodbye",
       "notes": "Standard farewell, formal and informal both work.",
@@ -73,6 +78,7 @@
       "title": "Match greetings to translations",
       "exercise": {
         "id": "ex-match-greetings",
+        "stable_id": "ex-ms9433kd4kb4c",
         "type": "matching",
         "prompt": "Match each French greeting with its English translation.",
         "card_ids": [
@@ -115,6 +121,7 @@
       "title": "Translate to French",
       "exercise": {
         "id": "ex-free-thanks",
+        "stable_id": "ex-ms9433kd4kcgc",
         "type": "free_text",
         "prompt": "How do you say 'Thank you' in French?",
         "card_ids": [
@@ -141,6 +148,7 @@
       "title": "Arrange the farewell",
       "exercise": {
         "id": "ex-tile-aurevoir",
+        "stable_id": "ex-ms9433kd4kdwi",
         "type": "word_tiles",
         "prompt": "Arrange the tiles to spell the standard farewell.",
         "card_ids": [
@@ -161,6 +169,7 @@
       "title": "Fill in the daytime greeting",
       "exercise": {
         "id": "ex-cloze-bonjour",
+        "stable_id": "ex-ms9433kd4kelf",
         "type": "cloze",
         "prompt": "Complete the daytime greeting.",
         "card_ids": [
@@ -186,6 +195,7 @@
       "title": "Pick the evening greeting",
       "exercise": {
         "id": "ex-pick-evening",
+        "stable_id": "ex-ms9433kd4kfbw",
         "type": "picture_choice",
         "prompt": "You arrive at a friend's house at 8 PM. Which greeting do you use?",
         "card_ids": [

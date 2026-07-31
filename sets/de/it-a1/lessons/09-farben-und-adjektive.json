@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "rosso",
+      "stable_id": "card-ms9433ii2ogej",
       "front": "rosso",
       "back": "rot",
       "notes": "Kontext: Il vino rosso. – Der Rotwein. (m. rosso / f. rossa)",
@@ -17,6 +18,7 @@
     },
     {
       "id": "verde",
+      "stable_id": "card-ms9433ii2ohhk",
       "front": "verde",
       "back": "grün",
       "notes": "Kontext: La mela verde. – Der grüne Apfel. Endung -e: m. und f. gleich.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "blu",
+      "stable_id": "card-ms9433ii2oi0x",
       "front": "blu",
       "back": "blau",
       "notes": "Kontext: Il cielo blu. – Der blaue Himmel. Unveränderlich: immer 'blu'.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "giallo",
+      "stable_id": "card-ms9433ii2ojt8",
       "front": "giallo",
       "back": "gelb",
       "notes": "Kontext: Il limone giallo. – Die gelbe Zitrone. (m. giallo / f. gialla)",
@@ -41,6 +45,7 @@
     },
     {
       "id": "bianco",
+      "stable_id": "card-ms9433ii2okrm",
       "front": "bianco",
       "back": "weiß",
       "notes": "Kontext: Il vino bianco. – Der Weißwein. (m. bianco / f. bianca)",
@@ -49,6 +54,7 @@
     },
     {
       "id": "nero",
+      "stable_id": "card-ms9433ii2ol2c",
       "front": "nero",
       "back": "schwarz",
       "notes": "Kontext: Il gatto nero. – Die schwarze Katze. (m. nero / f. nera)",
@@ -57,6 +63,7 @@
     },
     {
       "id": "bello",
+      "stable_id": "card-ms9433ii2omsu",
       "front": "bello",
       "back": "schön",
       "notes": "Kontext: Che bella giornata! – Was für ein schöner Tag! (m. bello / f. bella)",
@@ -65,6 +72,7 @@
     },
     {
       "id": "brutto",
+      "stable_id": "card-ms9433ii2onph",
       "front": "brutto",
       "back": "hässlich",
       "notes": "Kontext: Che tempo brutto! – Was für schlechtes Wetter! (m. brutto / f. brutta)",
@@ -73,6 +81,7 @@
     },
     {
       "id": "nuovo",
+      "stable_id": "card-ms9433ii2oofb",
       "front": "nuovo",
       "back": "neu",
       "notes": "Kontext: Una macchina nuova. – Ein neues Auto. (m. nuovo / f. nuova)",
@@ -81,6 +90,7 @@
     },
     {
       "id": "vecchio",
+      "stable_id": "card-ms9433ii2opto",
       "front": "vecchio",
       "back": "alt",
       "notes": "Kontext: Un libro vecchio. – Ein altes Buch. (m. vecchio / f. vecchia)",
@@ -89,6 +99,7 @@
     },
     {
       "id": "grande-adj",
+      "stable_id": "card-ms9433ii2oq2b",
       "front": "grande",
       "back": "groß",
       "notes": "Kontext: Una casa grande. – Ein großes Haus. Endung -e: m. und f. gleich.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "piccolo-adj",
+      "stable_id": "card-ms9433ii2oreg",
       "front": "piccolo",
       "back": "klein",
       "notes": "Kontext: Un cane piccolo. – Ein kleiner Hund. (m. piccolo / f. piccola)",
@@ -124,6 +136,7 @@
       "title": "Farben zuordnen",
       "exercise": {
         "id": "ex-match-farben",
+        "stable_id": "ex-ms9433ii2osug",
         "type": "matching",
         "prompt": "Ordne den italienischen Farben die deutsche Bedeutung zu.",
         "card_ids": ["rosso", "verde", "blu", "nero"],
@@ -143,6 +156,7 @@
       "title": "Schön auf Italienisch",
       "exercise": {
         "id": "ex-free-bello",
+        "stable_id": "ex-ms9433ii2otf7",
         "type": "free_text",
         "prompt": "Wie heißt 'schön' (männlich) auf Italienisch?",
         "card_ids": ["bello"],
@@ -159,6 +173,7 @@
       "title": "Gelb auf Italienisch",
       "exercise": {
         "id": "ex-free-giallo",
+        "stable_id": "ex-ms9433ii2ou0o",
         "type": "free_text",
         "prompt": "Wie heißt 'gelb' (männlich) auf Italienisch?",
         "card_ids": ["giallo"],
@@ -175,6 +190,7 @@
       "title": "Lücke füllen: Angleichung",
       "exercise": {
         "id": "ex-cloze-macchina-rossa",
+        "stable_id": "ex-ms9433ii2ov12",
         "type": "cloze",
         "prompt": "Ergänze die richtige Form von 'rosso' (la macchina ist weiblich).",
         "card_ids": ["rosso"],
@@ -193,6 +209,7 @@
       "title": "Adjektiv hinten",
       "exercise": {
         "id": "ex-tile-vino-bianco",
+        "stable_id": "ex-ms9433ii2ow9f",
         "type": "word_tiles",
         "prompt": "Baue 'der Weißwein' (Adjektiv steht hinten).",
         "card_ids": ["bianco"],
@@ -208,6 +225,7 @@
       "title": "Grün erkennen",
       "exercise": {
         "id": "ex-pick-verde",
+        "stable_id": "ex-ms9433ii2oxx6",
         "type": "picture_choice",
         "prompt": "Welches Wort bedeutet 'grün'?",
         "card_ids": ["verde"],

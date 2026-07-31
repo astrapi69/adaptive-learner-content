@@ -9,6 +9,7 @@
   "cards": [
     {
       "id": "jeoneun",
+      "stable_id": "card-ms9433is3005e",
       "front": "저는",
       "back": "Ich (höflich, Themenpartikel)",
       "notes": "Romanisierung: jeoneun. Kontext: 저는 학생이에요 (jeoneun haksaengieyo) – Ich bin Studentin.",
@@ -17,6 +18,7 @@
     },
     {
       "id": "imnida",
+      "stable_id": "card-ms9433is3012c",
       "front": "입니다",
       "back": "bin / ist (sehr höflich)",
       "notes": "Romanisierung: imnida. Kontext: 저는 민수입니다 (jeoneun minsu-imnida) – Ich bin Minsu.",
@@ -25,6 +27,7 @@
     },
     {
       "id": "ieyo",
+      "stable_id": "card-ms9433is302pa",
       "front": "이에요",
       "back": "bin / ist (höflich, alltäglich)",
       "notes": "Romanisierung: ieyo (nach Konsonant) / yeyo (nach Vokal). Kontext: 저는 학생이에요 (jeoneun haksaeng-ieyo) – Ich bin Studentin.",
@@ -33,6 +36,7 @@
     },
     {
       "id": "ireum",
+      "stable_id": "card-ms9433is303fo",
       "front": "이름",
       "back": "Name",
       "notes": "Romanisierung: ireum. Kontext: 제 이름은 지수예요 (je ireumeun jisu-yeyo) – Mein Name ist Jisu.",
@@ -41,6 +45,7 @@
     },
     {
       "id": "ireumi-mwoyeyo",
+      "stable_id": "card-ms9433is304ds",
       "front": "이름이 뭐예요?",
       "back": "Wie heißt du? / Wie ist Ihr Name?",
       "notes": "Romanisierung: ireumi mwoyeyo? Kontext: 이름이 뭐예요? — 지수예요 (ireumi mwoyeyo? — jisu-yeyo) – Wie heißt du? — Ich bin Jisu.",
@@ -49,6 +54,7 @@
     },
     {
       "id": "mannaseo-bangapseumnida",
+      "stable_id": "card-ms9433is305z0",
       "front": "만나서 반갑습니다",
       "back": "Schön, Sie kennenzulernen",
       "notes": "Romanisierung: mannaseo bangapseumnida. Kontext: 안녕하세요, 만나서 반갑습니다 (annyeonghaseyo, mannaseo bangapseumnida) – Hallo, schön Sie kennenzulernen.",
@@ -57,6 +63,7 @@
     },
     {
       "id": "eodieseo-wasseoyo",
+      "stable_id": "card-ms9433is306c5",
       "front": "어디에서 왔어요?",
       "back": "Woher kommst du?",
       "notes": "Romanisierung: eodieseo wasseoyo? Kontext: 어디에서 왔어요? — 독일에서 왔어요 (eodieseo wasseoyo? — dogireseo wasseoyo) – Woher kommst du? — Aus Deutschland.",
@@ -65,6 +72,7 @@
     },
     {
       "id": "dogireseo-wasseoyo",
+      "stable_id": "card-ms9433is307rx",
       "front": "독일에서 왔어요",
       "back": "Ich komme aus Deutschland",
       "notes": "Romanisierung: dogireseo wasseoyo. Kontext: 저는 독일에서 왔어요 (jeoneun dogireseo wasseoyo) – Ich komme aus Deutschland.",
@@ -73,6 +81,7 @@
     },
     {
       "id": "dogil",
+      "stable_id": "card-ms9433is3080x",
       "front": "독일",
       "back": "Deutschland",
       "notes": "Romanisierung: dogil. Kontext: 저는 독일 사람이에요 (jeoneun dogil saramieyo) – Ich bin Deutsche/Deutscher.",
@@ -81,6 +90,7 @@
     },
     {
       "id": "saram",
+      "stable_id": "card-ms9433is309q1",
       "front": "사람",
       "back": "Mensch / Person",
       "notes": "Romanisierung: saram. Kontext: 독일 사람 (dogil saram) – ein Deutscher / eine Deutsche.",
@@ -89,6 +99,7 @@
     },
     {
       "id": "haksaeng",
+      "stable_id": "card-ms9433is30agx",
       "front": "학생",
       "back": "Schüler / Student",
       "notes": "Romanisierung: haksaeng. Kontext: 저는 학생이에요 (jeoneun haksaeng-ieyo) – Ich bin Studentin.",
@@ -97,6 +108,7 @@
     },
     {
       "id": "seonsaengnim",
+      "stable_id": "card-ms9433is30bob",
       "front": "선생님",
       "back": "Lehrer/in (auch Anrede)",
       "notes": "Romanisierung: seonsaengnim. Kontext: 김 선생님이에요 (gim seonsaengnim-ieyo) – Das ist Frau/Herr Kim (Lehrer/in).",
@@ -124,6 +136,7 @@
       "title": "Wörter zuordnen",
       "exercise": {
         "id": "ex-match-vorstellen",
+        "stable_id": "ex-ms9433is30coq",
         "type": "matching",
         "prompt": "Ordne jedem koreanischen Wort die deutsche Bedeutung zu.",
         "card_ids": ["ireum", "saram", "haksaeng", "dogil"],
@@ -143,6 +156,7 @@
       "title": "Nach dem Namen fragen",
       "exercise": {
         "id": "ex-free-name-frage",
+        "stable_id": "ex-ms9433is30dps",
         "type": "free_text",
         "prompt": "Wie fragt man 'Wie heißt du?' auf Koreanisch? (Hangul oder Romanisierung)",
         "card_ids": ["ireumi-mwoyeyo"],
@@ -159,6 +173,7 @@
       "title": "Schön, Sie kennenzulernen",
       "exercise": {
         "id": "ex-free-freut-mich",
+        "stable_id": "ex-ms9433is30e0q",
         "type": "free_text",
         "prompt": "Wie sagt man 'Schön, Sie kennenzulernen'? (Hangul oder Romanisierung)",
         "card_ids": ["mannaseo-bangapseumnida"],
@@ -175,6 +190,7 @@
       "title": "Lücke füllen: Ich bin Studentin",
       "exercise": {
         "id": "ex-cloze-bin-student",
+        "stable_id": "ex-ms9433is30fqa",
         "type": "cloze",
         "prompt": "Ergänze das höfliche 'Ich' mit Themenpartikel.",
         "card_ids": ["jeoneun", "haksaeng"],
@@ -191,6 +207,7 @@
       "title": "Vorstellung zusammensetzen",
       "exercise": {
         "id": "ex-tiles-bin-minsu",
+        "stable_id": "ex-ms9433is30gdu",
         "type": "word_tiles",
         "prompt": "Baue den Satz 'Ich bin Minsu.' (sehr höflich)",
         "card_ids": ["jeoneun", "imnida"],
@@ -206,6 +223,7 @@
       "title": "Herkunft erkennen",
       "exercise": {
         "id": "ex-pick-herkunft",
+        "stable_id": "ex-ms9433is30hau",
         "type": "picture_choice",
         "prompt": "Welcher Satz bedeutet 'Ich komme aus Deutschland'?",
         "card_ids": ["dogireseo-wasseoyo"],
