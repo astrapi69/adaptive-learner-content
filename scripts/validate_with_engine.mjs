@@ -366,6 +366,13 @@ function validateAll({ showWarnings = false } = {}) {
       console.error(`INVALID ${file.slice(repoRoot.length)}`);
       for (const issue of result.errors) console.error(`   ${issue.path}: ${issue.message}`);
     }
+    // Manifest warnings were collected for lessons but DROPPED here, so the
+    // set-level ordering gate (learn-content-engine#110, W-SET-ORDER-*)
+    // reached this runner and reported nothing. A connected gate that stays
+    // silent is indistinguishable from one that was never connected.
+    if (showWarnings && result.warnings.length) {
+      warned.push({ file: file.slice(repoRoot.length), warnings: result.warnings });
+    }
   }
   const totalWarnings = warned.reduce((sum, w) => sum + w.warnings.length, 0);
   console.log(

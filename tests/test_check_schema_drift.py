@@ -37,13 +37,19 @@ MANIFEST_BYTES = json.dumps({"title": "ContentManifest"}).encode()
 QUALITY_BYTES = json.dumps({"rules": {"minExercisesPerLesson": 5}}).encode()
 
 
+# The engine also ships the Python validator helper (engine#115); the mirror
+# carries it, so the synthetic tarball must contain it too.
+HELPER_BYTES = b"# stand-in for python/lce_schema.py\n"
+
+
 def make_tarball(path: Path, schema_bytes: bytes = SCHEMA_BYTES) -> Path:
-    """Write an npm-layout tarball with all mirrored schema members."""
+    """Write an npm-layout tarball with all mirrored members."""
     with tarfile.open(path, "w:gz") as tar:
         for member, data in (
             ("package/schema/lesson.schema.json", schema_bytes),
             ("package/schema/content-manifest.schema.json", MANIFEST_BYTES),
             ("package/schema/quality-rules.json", QUALITY_BYTES),
+            ("package/python/lce_schema.py", HELPER_BYTES),
         ):
             info = tarfile.TarInfo(member)
             info.size = len(data)
@@ -59,6 +65,8 @@ def write_full_mirror(mirror_root: Path) -> None:
         MANIFEST_BYTES
     )
     (mirror_root / "schema" / "quality-rules.json").write_bytes(QUALITY_BYTES)
+    (mirror_root / "scripts").mkdir(parents=True, exist_ok=True)
+    (mirror_root / "scripts" / "lce_schema.py").write_bytes(HELPER_BYTES)
 
 
 def test_pin_is_read_from_version_file(tmp_path: Path) -> None:
