@@ -121,6 +121,22 @@
         "validated_at": "2026-07-31T19:15:00.000Z",
         "index_schema_version": "1.0"
       }
+    },
+    {
+      "url": "https://github.com/astrapi69/alc-books",
+      "branch": "main",
+      "commit": "995f4c9eacf91b807c2296dfa2d50be333a1c330",
+      "title": "Buch-Lernsets",
+      "description": "Lernsets zu Büchern: je Buch ein Set, dessen Lektionen der Gliederung des Buches folgen. Erstes Set: \"Biologische Souveränität\" (23 Lektionen) über CRISPR, Keimbahneingriffe und die Frage, wem der eigene genetische Code gehört. Maschinell aus dem Buch erzeugt, fachliche Durchsicht steht aus (review_status: generated).",
+      "trust_level": 1,
+      "languages": [
+        "de-de"
+      ],
+      "validation": {
+        "status": "validated",
+        "validated_at": "2026-08-05T10:30:00.000Z",
+        "index_schema_version": "1.0"
+      }
     }
   ]
 }
