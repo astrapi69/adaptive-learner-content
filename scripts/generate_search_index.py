@@ -264,6 +264,9 @@ def build_index(generated: str | None = None) -> tuple[dict, list[str]]:
     return index, errors
 
 
+SEARCH_INDEX_SCHEMA = Path(__file__).resolve().parents[1] / "schema" / "search-index.schema.json"
+
+
 def validate_index(index: dict, root_sets: list[dict], errors: list[str]) -> None:
     """Schema-level checks: all sets present, no empty required fields."""
     root_ids = [s.get("id") for s in root_sets]
@@ -275,6 +278,27 @@ def validate_index(index: dict, root_sets: list[dict], errors: list[str]) -> Non
         for field in REQUIRED_SET_FIELDS:
             if not entry.get(field):
                 errors.append(f"set {entry.get('id', '?')}: empty required field '{field}'")
+    errors.extend(_schema_errors(index))
+
+
+def _schema_errors(index: dict) -> list[str]:
+    """Validate against the owned federation contract
+    (adaptive-learner-content#175, ``schema/search-index.schema.json``).
+
+    This repo owns the schema the nine other writing repos mirror; the
+    hand checks above stay as the repo-specific floor, the schema is the
+    contract all writers share, so the two can no longer disagree
+    silently. Requires ``jsonschema`` (installed by validate-content.yml,
+    validate-registered-repos.yml and generate-index.yml)."""
+    import jsonschema
+
+    contract = json.loads(SEARCH_INDEX_SCHEMA.read_text(encoding="utf-8"))
+    validator = jsonschema.Draft202012Validator(contract)
+    violations: list[str] = []
+    for violation in sorted(validator.iter_errors(index), key=lambda v: list(v.absolute_path)):
+        location = "/" + "/".join(str(step) for step in violation.absolute_path)
+        violations.append(f"schema: {location}: {violation.message}")
+    return violations
 
 
 def serialize(index: dict) -> str:
