@@ -40,7 +40,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install test dependencies
-        run: pip install "pytest>=8,<9"
+        run: pip install "pytest>=8,<9" regex
       - name: Drift-gate unit tests (pin mechanics, offline)
         run: python -m pytest tests/test_check_schema_drift.py -q
       - name: Check schema mirror against the pinned engine release
