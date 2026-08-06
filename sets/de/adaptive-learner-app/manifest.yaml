@@ -29,7 +29,9 @@ sets:
     target_language: de
     source_language: de
     domain: software
-    level: Einsteiger
+    # Sachthemen-Set: bewusst ohne Sprachniveau (engine#127,
+    # level-Vertrag); die Schwierigkeit traegt das Tag `beginner`.
+    level: none
     path: sets/de/adaptive-learner-app
     version: '1.0.0'
     lesson_count: 12

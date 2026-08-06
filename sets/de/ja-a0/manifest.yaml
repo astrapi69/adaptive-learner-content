@@ -30,6 +30,11 @@ sets:
     title_native: ひらがな
     target_language: ja
     source_language: de
+    # Vorstufe unterhalb von A1 (pre-A1): bewusst AUSSERHALB des CEFR-
+    # Vokabulars aus engine#127; die Warnung W-LEVEL-UNKNOWN ist hier
+    # AKZEPTIERT. Nicht auf A1 "reparieren" - das waere eine
+    # Inhaltsaenderung, keine Warnungsbereinigung. A0 ins Vokabular
+    # aufzunehmen waere eine Engine-Entscheidung (engine#127).
     level: A0
     path: sets/de/ja-a0
     version: '1.0.0'
