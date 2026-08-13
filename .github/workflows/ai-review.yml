@@ -1,0 +1,54 @@
+# AI content review (EXP-033 / AIV-06).
+#
+# Advisory-only: sends the cards from lesson files CHANGED in the PR to
+# an LLM grader and posts the findings as a PR comment. Complements
+# validate_content.py (schema, blocking) and audit_content.py
+# (deterministic duplicate/structure checks, EXP-032, advisory) with the
+# semantic errors only a language model catches - see scripts/ai_review.py
+# for the full pipeline description.
+#
+# Runs only when OPENAI_KEY is configured as a repo secret; skips
+# silently (exit 0, no comment) otherwise, so a fork stays green. Never
+# a gate - `continue-on-error` is deliberately NOT needed because the
+# script itself always exits 0.
+name: AI content review
+
+on:
+  pull_request:
+    paths:
+      - "sets/**/lessons/*.json"
+      - "scripts/ai_review.py"
+      - "tests/test_ai_review.py"
+      - ".github/workflows/ai-review.yml"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+# Coerce Node-runtime actions onto Node 24 as a safety net for any
+# action still defaulting to the deprecated Node 20 runtime.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+jobs:
+  ai-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install "pyyaml>=6,<7" "requests>=2,<3" "pytest>=8,<9"
+      - name: Parser + batching unit tests (offline)
+        run: python -m pytest tests/test_ai_review.py -q
+      - name: Review changed lesson cards
+        env:
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/ai_review.py \
+            --base "origin/${{ github.base_ref }}" \
+            --head "${{ github.sha }}"
