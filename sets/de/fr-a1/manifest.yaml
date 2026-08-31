@@ -3,14 +3,26 @@
 #
 # Vollständiger A1-Kurs Französisch, auf Deutsch erklärt. Der
 # Content-Loader liest ``metadata.lessons`` für die Dateiliste.
+#
+# v1.2.0: erste Aussprache-Lektion (ext:al-speak-and-record, engine#68
+# Idee 3). Baut auf 1-9 auf, ohne diese Lektionen zu ändern: dieselben
+# Sätze, aber zum Nachsprechen statt zum Wiedererkennen - kein neues
+# Vokabular. Kein NN-Präfix (siehe Begründung bei alc-psychology#26/#27
+# fürs selbe Muster); die Anzeige-Reihenfolge (lexikografisch nach
+# lesson.id) stellt sie ans Ende, hinter Lektion 15. Engine-Pin von
+# 0.20.0 auf 0.23.0 angehoben (die drei neuen Referenz-Extensions
+# landeten dort); ext:al-speak-and-record und das zuvor schon
+# fehlende ext:al-image-description in scripts/validate_with_engine.mjs
+# nachgetragen.
 schema_version: '1.2'
 name: Französisch A1 (für Deutschsprachige)
 description: >-
-  Französisch A1 für Deutschsprachige (15 Lektionen): von
+  Französisch A1 für Deutschsprachige (16 Lektionen): von
   Begrüßung, Zahlen und Artikeln über être/avoir, Familie,
   Farben, Restaurant und Wegbeschreibung bis zum passé composé,
-  zur Uhrzeit, zum Einkaufen und zum futur proche.
-  Karten-Rückseiten, Notizen und Theorie auf Deutsch.
+  zur Uhrzeit, zum Einkaufen und zum futur proche, abgeschlossen
+  durch eine Aussprache-Lektion zum Nachsprechen bereits gelernter
+  Sätze. Karten-Rückseiten, Notizen und Theorie auf Deutsch.
 sets:
   - id: fr-a1-from-de
     title: Französisch A1 (für Deutschsprachige)
@@ -19,11 +31,11 @@ sets:
     source_language: de
     level: A1
     path: sets/de/fr-a1
-    version: '1.1.0'
-    lesson_count: 15
+    version: '1.2.0'
+    lesson_count: 16
     domain: language
     description: >-
-      Vollständiger A1-Kurs Französisch (15 Lektionen), auf
+      Vollständiger A1-Kurs Französisch (16 Lektionen), auf
       Deutsch erklärt.
     tags:
       - beginner
@@ -48,3 +60,4 @@ metadata:
     - 13-passe-compose-etre.json
     - 14-futur-proche.json
     - 15-wiederholung.json
+    - aussprache-alltagssaetze.json
