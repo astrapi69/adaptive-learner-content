@@ -7,6 +7,7 @@
   "domain": "language",
   "estimated_minutes": 10,
   "requires_extensions": ["ext:al-speak-and-record@1"],
+  "cards": [],
   "steps": [
     {
       "id": "intro-aussprache",
@@ -21,6 +22,7 @@
       "title": "Sich vorstellen",
       "exercise": {
         "id": "ex-speak-bonjour",
+        "stable_id": "ex-mthhdvp6001ko",
         "type": "ext:al-speak-and-record",
         "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
         "ext_payload": {
@@ -35,6 +37,7 @@
       "title": "Das Alter sagen",
       "exercise": {
         "id": "ex-speak-age",
+        "stable_id": "ex-mthhdvp6002tg",
         "type": "ext:al-speak-and-record",
         "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
         "ext_payload": {
@@ -49,6 +52,7 @@
       "title": "Im Restaurant bestellen",
       "exercise": {
         "id": "ex-speak-eau",
+        "stable_id": "ex-mthhdvp6003na",
         "type": "ext:al-speak-and-record",
         "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
         "ext_payload": {
@@ -63,6 +67,7 @@
       "title": "Um die Rechnung bitten",
       "exercise": {
         "id": "ex-speak-addition",
+        "stable_id": "ex-mthhdvp6004j8",
         "type": "ext:al-speak-and-record",
         "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
         "ext_payload": {
@@ -77,6 +82,7 @@
       "title": "Eine Richtung angeben",
       "exercise": {
         "id": "ex-speak-direction",
+        "stable_id": "ex-mthhdvp6005f1",
         "type": "ext:al-speak-and-record",
         "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
         "ext_payload": {
@@ -91,6 +97,7 @@
       "title": "Den Bestellsatz zusammensetzen",
       "exercise": {
         "id": "ex-tiles-eau",
+        "stable_id": "ex-mthhdvp600655",
         "type": "word_tiles",
         "prompt": "Ordne so an, dass es bedeutet: *Ich hätte gern Wasser.*",
         "card_ids": [],
@@ -106,6 +113,7 @@
       "title": "Den Richtungssatz zusammensetzen",
       "exercise": {
         "id": "ex-tiles-gauche",
+        "stable_id": "ex-mthhdvp6007m1",
         "type": "word_tiles",
         "prompt": "Ordne so an, dass es bedeutet: *Biegen Sie links ab.*",
         "card_ids": [],
