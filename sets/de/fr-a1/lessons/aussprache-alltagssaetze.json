@@ -1,0 +1,118 @@
+{
+  "id": "aussprache-alltagssaetze",
+  "title": "Aussprache üben: Alltagssätze",
+  "description": "Übe die Aussprache von Sätzen aus den Lektionen 1-9 (Begrüßung, sich vorstellen, im Restaurant, Wegbeschreibung). Höre den Satz, sieh ihn dir an, dann sprich ihn selbst - kein neues Vokabular, nur eine neue Fertigkeit: sprechen statt nur erkennen.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "requires_extensions": ["ext:al-speak-and-record@1"],
+  "steps": [
+    {
+      "id": "intro-aussprache",
+      "type": "theory",
+      "title": "Hören, ansehen, sprechen",
+      "body": "# Hören, ansehen, sprechen\n\nDu kennst diese Sätze schon aus den Lektionen 1-9 - hier geht es nicht ums Wiedererkennen, sondern ums Sprechen. Höre dir jeden Satz an, sieh ihn dir bei Bedarf an, und nimm dich selbst auf, wie du ihn sagst.\n\nDiese Übung wird nicht bewertet - es gibt kein richtig oder falsch. Vergleiche einfach deine Aufnahme mit dem Original und höre, wie nah du schon dran bist."
+    },
+    {
+      "id": "ex-speak-bonjour",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Sich vorstellen",
+      "exercise": {
+        "id": "ex-speak-bonjour",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Bonjour, je m'appelle Sophie."
+        }
+      }
+    },
+    {
+      "id": "ex-speak-age",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Das Alter sagen",
+      "exercise": {
+        "id": "ex-speak-age",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "J'ai dix ans."
+        }
+      }
+    },
+    {
+      "id": "ex-speak-eau",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Im Restaurant bestellen",
+      "exercise": {
+        "id": "ex-speak-eau",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Je voudrais de l'eau, s'il vous plaît."
+        }
+      }
+    },
+    {
+      "id": "ex-speak-addition",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Um die Rechnung bitten",
+      "exercise": {
+        "id": "ex-speak-addition",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "L'addition, s'il vous plaît."
+        }
+      }
+    },
+    {
+      "id": "ex-speak-direction",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Eine Richtung angeben",
+      "exercise": {
+        "id": "ex-speak-direction",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Tournez à droite, s'il vous plaît."
+        }
+      }
+    },
+    {
+      "id": "ex-tiles-eau",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Den Bestellsatz zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-eau",
+        "type": "word_tiles",
+        "prompt": "Ordne so an, dass es bedeutet: *Ich hätte gern Wasser.*",
+        "card_ids": [],
+        "tiles": ["Je", "voudrais", "de", "l'eau"],
+        "hint": "Beginnt mit der höflichen Bitte aus Lektion 8.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-gauche",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Den Richtungssatz zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-gauche",
+        "type": "word_tiles",
+        "prompt": "Ordne so an, dass es bedeutet: *Biegen Sie links ab.*",
+        "card_ids": [],
+        "tiles": ["Tournez", "à", "gauche"],
+        "hint": "Das Gegenteil von *à droite*.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
