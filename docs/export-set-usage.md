@@ -20,7 +20,9 @@ JSON files under `sets/`.
 ## Usage
 
 ```bash
-python3 scripts/export_set.py <set-slug> [--lang <lang>] [--format yaml|json] [--out PATH]
+make export ARGS="<set-slug> [--lang <lang>] [--format yaml|json] [--out PATH] [--split-size N]"
+# or, direct (fallback; calls the script itself):
+python3 scripts/export_set.py <set-slug> [--lang <lang>] [--format yaml|json] [--out PATH] [--split-size N]
 ```
 
 | Argument | Meaning | Default |
@@ -28,24 +30,37 @@ python3 scripts/export_set.py <set-slug> [--lang <lang>] [--format yaml|json] [-
 | `<set-slug>` | Set id from the root `manifest.yaml` (e.g. `adaptive-learner-app-from-de`) or the folder name of the set path (e.g. `adaptive-learner-app` for `sets/de/adaptive-learner-app`) | required |
 | `--lang` | Source-language directory (`sets/<lang>/`) that disambiguates a folder-name slug existing under several source languages | `de` |
 | `--format` | Output format: `yaml` or `json` | `yaml` |
-| `--out` | Output file path | `exports/<set-slug>-<lang>-<timestamp>.<format>` |
+| `--out` | Output file path (cannot be combined with `--split-size`) | `exports/<set-slug>-<lang>-<timestamp>.<format>` |
+| `--split-size` | Split the export into multiple files of at most N lessons each, instead of one file | off (one file) |
 
 Examples:
 
 ```bash
 # Standard case: YAML export into exports/
-python3 scripts/export_set.py adaptive-learner-app
+make export ARGS="adaptive-learner-app"
 # -> exports/adaptive-learner-app-de-<timestamp>.yaml
 
 # Special case: JSON to a custom path (only when a tool explicitly needs JSON);
 # --lang picks sets/en/fr-a1 because fr-a1 exists under several source languages
-python3 scripts/export_set.py fr-a1 --lang en --format json --out /tmp/review.json
+make export ARGS="fr-a1 --lang en --format json --out /tmp/review.json"
+
+# Large set: split into parts of at most 8 lessons each for an AI with a
+# limited context window (fr-a1 --lang en has 16 lessons)
+make export ARGS="fr-a1 --lang en --split-size 8"
+# -> exports/fr-a1-en-<timestamp>-part01-of-2.yaml, part02-of-2.yaml
 ```
 
 Without `--out`, the file is written to `exports/` following the
-pattern `<set-slug>-<lang>-<timestamp>.<format>`. The `exports/`
+pattern `<set-slug>-<lang>-<timestamp>.<format>` (or, with
+`--split-size`, one file per part following
+`<set-slug>-<lang>-<timestamp>-partNN-of-M.<format>`). The `exports/`
 directory is created on demand and is **gitignored**: export files are
 throwaway review artifacts and are never committed.
+
+Each part written by `--split-size` is self-contained: it carries its
+own `review_instructions` copy plus `part`/`of`/`lesson_count`/
+`total_lesson_count` fields, so any single part can be handed to an AI
+reviewer on its own, in any order, without the others.
 
 An unknown or ambiguous slug aborts with exit code 2 and a list of the
 available sets. Umlauts and all other non-ASCII characters stay real
@@ -56,7 +71,7 @@ UTF-8.
 1. **Create the export:**
 
    ```bash
-   python3 scripts/export_set.py adaptive-learner-app
+   make export ARGS="adaptive-learner-app"
    ```
 
 2. **Open the export file** and find the section "Quellkapitel"
@@ -100,7 +115,8 @@ UTF-8.
 - **Re-insert the source chapter for every review** when it has
   changed; do not copy it out of an old export.
 - **Review large sets in slices** (e.g. 8-10 lessons per pass) when
-  the AI you use has a limited context window.
+  the AI you use has a limited context window - use `--split-size`
+  instead of manually cutting the export down.
 - **Keep YAML as the default**; use JSON only when a tool explicitly
   requires it.
 - **No copy-paste of AI suggestions without cross-reading.** The AI

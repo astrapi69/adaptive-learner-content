@@ -122,11 +122,19 @@ danach laufen Selbsttest und der volle Engine-Lauf wie im CI-Workflow
 `scripts/export_set.py` schreibt alle Lektionen EINES Sets in eine
 einzige YAML- (oder JSON-) Datei, damit ein KI-Assistent oder ein Mensch
 das ganze Set in einem Durchgang prüfen kann (Syntax, Korrektheit,
-Konsistenz über die Lektionen hinweg):
+Konsistenz über die Lektionen hinweg).
+
+**Empfohlen (per make):**
+
+```bash
+make export ARGS="adaptive-learner-app"
+# -> exports/adaptive-learner-app-de-<timestamp>.yaml
+```
+
+**Direkt (Fallback; ruft das Skript unmittelbar auf):**
 
 ```bash
 python3 scripts/export_set.py adaptive-learner-app
-# -> exports/adaptive-learner-app-de-<timestamp>.yaml
 python3 scripts/export_set.py fr-a1 --lang en --format json --out /tmp/review.json
 ```
 
@@ -136,6 +144,12 @@ bei gleichnamigen Ordnern unter mehreren Quellsprachen (z. B. `fr-a1`
 unter `sets/en`, `sets/de`, `sets/el`) entscheidet `--lang` (Default
 `de`). Umlaute bleiben echtes UTF-8. Ein unbekannter Slug bricht mit
 einer Liste der verfügbaren Sets ab.
+
+Für ein großes Set schreibt `--split-size N` mehrere selbsttragende
+Dateien von je höchstens N Lektionen statt einer einzigen großen Datei,
+z. B. `make export ARGS="fr-a1 --lang en --split-size 8"` (jeder Teil
+trägt seine eigene `review_instructions`-Kopie, kann also für sich
+allein an eine KI gegeben werden). Nicht kombinierbar mit `--out`.
 
 Der Export ist selbsttragend: das erste Feld `review_instructions`
 enthält den kompletten Review-Prompt aus
