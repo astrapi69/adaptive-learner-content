@@ -1,7 +1,7 @@
 {
   "id": "15-repaso-y-produccion-de-textos",
   "title": "Wiederholung und Textproduktion",
-  "description": "Abschlusslektion des B1-Kurses: Gemischte Wiederholung aller Grammatikstrukturen (Subjuntivo, Konditional, Plusquamperfekto, Passiv, estilo indirecto, Pronomen, Konnektoren) und Einführung in die Textproduktion — formelle carta/E-Mail, resumen und argumentativer Absatz. Auf Deutsch erklärt.",
+  "description": "Abschlusslektion des B1-Kurses: Gemischte Wiederholung aller Grammatikstrukturen (Subjuntivo, Konditional, Plusquamperfekto, Passiv, estilo indirecto, Pronomen, Konnektoren) und Einführung in die Textproduktion, formelle carta/E-Mail, resumen und argumentativer Absatz. Auf Deutsch erklärt.",
   "target_language": "es",
   "source_language": "de",
   "domain": "language",
@@ -52,7 +52,7 @@
       "stable_id": "card-ms9433hl1rats",
       "front": "El texto trata de … / El autor sostiene que … / En conclusión,",
       "back": "Textbausteine für ein resumen (Zusammenfassung)",
-      "notes": "Aufbau eines **resumen** auf B1-Niveau:\n1. **Einleitung**: *El texto trata de …* / *El artículo habla de …*\n2. **Hauptthese**: *El autor sostiene/afirma que …* / *Según el autor, …*\n3. **Hauptpunkte**: mit Konnektoren wie *además*, *por otro lado*, *sin embargo*\n4. **Schluss**: *En conclusión, el autor concluye que …*\n\nEigene Meinung im resumen **nicht** einfließen lassen — nur referieren.",
+      "notes": "Aufbau eines **resumen** auf B1-Niveau:\n1. **Einleitung**: *El texto trata de …* / *El artículo habla de …*\n2. **Hauptthese**: *El autor sostiene/afirma que …* / *Según el autor, …*\n3. **Hauptpunkte**: mit Konnektoren wie *además*, *por otro lado*, *sin embargo*\n4. **Schluss**: *En conclusión, el autor concluye que …*\n\nEigene Meinung im resumen **nicht** einfließen lassen, nur referieren.",
       "media_type": "text",
       "difficulty": 4,
       "tags": ["textproduktion", "resumen"]
@@ -175,7 +175,7 @@
       "id": "theory-resumen-argumento",
       "type": "theory",
       "title": "Resumen und argumentativer Absatz",
-      "body": "## Einen resumen schreiben\n\nEin **resumen** (Zusammenfassung) gibt den Inhalt eines Textes in eigenen Worten wieder — **ohne** eigene Meinung.\n\n**Aufbau:**\n1. *El texto/artículo trata de …* (Thema einleiten)\n2. *El autor afirma/sostiene que …* (Hauptthese referieren)\n3. *Además, menciona que …* / *Por otro lado, señala que …* (Punkte aufzählen)\n4. *En conclusión, el autor concluye que …* (Schluss)\n\n**Verben zum Referieren:** *afirmar, sostener, señalar, destacar, mencionar, concluir, argumentar*\n\n---\n\n## Einen argumentativen Absatz aufbauen\n\nStruktur **These → Argumente → Schluss**:\n\n| Schritt | Konnektor/Formel | Beispiel |\n|---|---|---|\n| **These** | *En mi opinión, …* / *Creo que …* | *En mi opinión, el transporte público es esencial.* |\n| **Argument 1** | *En primer lugar, … ya que …* | *En primer lugar, reduce la contaminación, ya que …* |\n| **Argument 2 / Einräumung** | *Sin embargo, … Por otro lado, …* | *Sin embargo, no siempre es puntual.* |\n| **Schluss** | *En conclusión, por lo tanto …* | *En conclusión, creo que merece la pena invertir en él.* |\n\n> **B1-Prüfungstipp:** Mindestens **3 verschiedene Konnektoren** und **1 Einräumung** (*sin embargo*, *a pesar de que*) einsetzen — das erhöht die Bewertungspunkte deutlich."
+      "body": "## Einen resumen schreiben\n\nEin **resumen** (Zusammenfassung) gibt den Inhalt eines Textes in eigenen Worten wieder, **ohne** eigene Meinung.\n\n**Aufbau:**\n1. *El texto/artículo trata de …* (Thema einleiten)\n2. *El autor afirma/sostiene que …* (Hauptthese referieren)\n3. *Además, menciona que …* / *Por otro lado, señala que …* (Punkte aufzählen)\n4. *En conclusión, el autor concluye que …* (Schluss)\n\n**Verben zum Referieren:** *afirmar, sostener, señalar, destacar, mencionar, concluir, argumentar*\n\n---\n\n## Einen argumentativen Absatz aufbauen\n\nStruktur **These → Argumente → Schluss**:\n\n| Schritt | Konnektor/Formel | Beispiel |\n|---|---|---|\n| **These** | *En mi opinión, …* / *Creo que …* | *En mi opinión, el transporte público es esencial.* |\n| **Argument 1** | *En primer lugar, … ya que …* | *En primer lugar, reduce la contaminación, ya que …* |\n| **Argument 2 / Einräumung** | *Sin embargo, … Por otro lado, …* | *Sin embargo, no siempre es puntual.* |\n| **Schluss** | *En conclusión, por lo tanto …* | *En conclusión, creo que merece la pena invertir en él.* |\n\n> **B1-Prüfungstipp:** Mindestens **3 verschiedene Konnektoren** und **1 Einräumung** (*sin embargo*, *a pesar de que*) einsetzen, das erhöht die Bewertungspunkte deutlich."
     },
     {
       "id": "ex-free-carta-einstieg",
@@ -459,7 +459,7 @@
         "id": "ex-cloze-aunque-subj-repaso",
         "stable_id": "ex-ms9433hl1rx5l",
         "type": "cloze",
-        "prompt": "Der Sprecher weiß nicht, ob es morgen regnen wird — wähle die richtige Form von *llover* (Hypothese!).",
+        "prompt": "Der Sprecher weiß nicht, ob es morgen regnen wird, wähle die richtige Form von *llover* (Hypothese!).",
         "card_ids": ["conectores-argumentativos", "subj-repaso"],
         "sentence": "Aunque ___ mañana, iremos a la playa de todas formas.",
         "blanks": [

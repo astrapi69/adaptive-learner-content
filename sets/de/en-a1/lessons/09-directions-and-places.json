@@ -19,7 +19,7 @@
       "stable_id": "card-ms9433fo09hy0",
       "front": "turn right",
       "back": "rechts abbiegen",
-      "notes": "'right' heißt sowohl 'rechts' als auch 'richtig' — der Kontext entscheidet.",
+      "notes": "'right' heißt sowohl 'rechts' als auch 'richtig', der Kontext entscheidet.",
       "tags": ["wegbeschreibung"]
     },
     {
@@ -51,7 +51,7 @@
       "stable_id": "card-ms9433fo09lys",
       "front": "opposite",
       "back": "gegenüber",
-      "notes": "Auch 'across from'. Falscher Freund: 'opposite' ≠ 'Opposition' — es heißt 'gegenüber'.",
+      "notes": "Auch 'across from'. Falscher Freund: 'opposite' ≠ 'Opposition', es heißt 'gegenüber'.",
       "tags": ["ort", "praeposition"]
     },
     {
@@ -59,7 +59,7 @@
       "stable_id": "card-ms9433fo09mpn",
       "front": "Excuse me",
       "back": "Entschuldigung (um Aufmerksamkeit)",
-      "notes": "Um jemanden anzusprechen. NICHT 'Sorry' — das ist eine Entschuldigung für einen Fehler.",
+      "notes": "Um jemanden anzusprechen. NICHT 'Sorry', das ist eine Entschuldigung für einen Fehler.",
       "tags": ["hoeflichkeit"]
     },
     {
@@ -108,19 +108,19 @@
       "id": "intro",
       "type": "theory",
       "title": "Den Weg beschreiben",
-      "body": "# Wegbeschreibung\n\nDie wichtigsten Richtungsangaben:\n\n- **turn left** — links abbiegen\n- **turn right** — rechts abbiegen\n- **go straight (on / ahead)** — geradeaus gehen\n- **next to** — neben\n- **between** — zwischen\n- **opposite / across from** — gegenüber\n\nMit diesen paar Ausdrücken kannst du schon einen ganzen Weg beschreiben: *Go straight, then turn left. The bank is next to the church.*\n\nKleine Falle: **right** bedeutet 'rechts' UND 'richtig'. Und **opposite** heißt 'gegenüber' — nicht 'Opposition'."
+      "body": "# Wegbeschreibung\n\nDie wichtigsten Richtungsangaben:\n\n- **turn left**, links abbiegen\n- **turn right**, rechts abbiegen\n- **go straight (on / ahead)**, geradeaus gehen\n- **next to**, neben\n- **between**, zwischen\n- **opposite / across from**, gegenüber\n\nMit diesen paar Ausdrücken kannst du schon einen ganzen Weg beschreiben: *Go straight, then turn left. The bank is next to the church.*\n\nKleine Falle: **right** bedeutet 'rechts' UND 'richtig'. Und **opposite** heißt 'gegenüber', nicht 'Opposition'."
     },
     {
       "id": "step-asking",
       "type": "theory",
       "title": "Höflich nach dem Weg fragen",
-      "body": "## Nach dem Weg fragen\n\nSprich Fremde immer mit **Excuse me** an (nicht mit *Sorry* — das benutzt man, um sich für einen Fehler zu entschuldigen):\n\n- **Excuse me, where is the station?** — Entschuldigung, wo ist der Bahnhof?\n- **Excuse me, how do I get to the museum?** — Wie komme ich zum Museum?\n- **Is it far?** — Ist es weit?\n\nAchte auf **get to** für 'kommen nach/zu'. *How do I get to ...?* ist die natürlichste Frage nach dem Weg — wörtlicher als das deutsche 'Wie komme ich ...', aber genau richtig im Englischen."
+      "body": "## Nach dem Weg fragen\n\nSprich Fremde immer mit **Excuse me** an (nicht mit *Sorry*, das benutzt man, um sich für einen Fehler zu entschuldigen):\n\n- **Excuse me, where is the station?** - Entschuldigung, wo ist der Bahnhof?\n- **Excuse me, how do I get to the museum?** - Wie komme ich zum Museum?\n- **Is it far?** - Ist es weit?\n\nAchte auf **get to** für 'kommen nach/zu'. *How do I get to ...?* ist die natürlichste Frage nach dem Weg, wörtlicher als das deutsche 'Wie komme ich ...', aber genau richtig im Englischen."
     },
     {
       "id": "step-prepositions",
       "type": "theory",
       "title": "Ortspräpositionen: at, on, in",
-      "body": "## at / on / in für Orte\n\nDie Ortspräpositionen folgen einer eigenen Logik, nicht der deutschen. Lerne typische Kombinationen:\n\n| Präposition | Idee | Beispiel |\n|---|---|---|\n| **at** | Punkt, Treffpunkt | *at the station, at the bus stop* |\n| **on** | Fläche, Straße, Linie | *on the street, on the corner* |\n| **in** | umschlossener Raum, Gebiet | *in the city, in the shop, in London* |\n\nTypische Fehler durch wörtliche Übersetzung aus dem Deutschen:\n\n- 'am Bahnhof' → **at the station** (nicht *on the station*).\n- 'auf der Straße' → **on the street** (nicht *by the street*).\n- 'in der Stadt' → **in the city** — hier passt 'in' zufällig wie im Deutschen."
+      "body": "## at / on / in für Orte\n\nDie Ortspräpositionen folgen einer eigenen Logik, nicht der deutschen. Lerne typische Kombinationen:\n\n| Präposition | Idee | Beispiel |\n|---|---|---|\n| **at** | Punkt, Treffpunkt | *at the station, at the bus stop* |\n| **on** | Fläche, Straße, Linie | *on the street, on the corner* |\n| **in** | umschlossener Raum, Gebiet | *in the city, in the shop, in London* |\n\nTypische Fehler durch wörtliche Übersetzung aus dem Deutschen:\n\n- 'am Bahnhof' → **at the station** (nicht *on the station*).\n- 'auf der Straße' → **on the street** (nicht *by the street*).\n- 'in der Stadt' → **in the city**, hier passt 'in' zufällig wie im Deutschen."
     },
     {
       "id": "ex-match-directions",
@@ -234,7 +234,7 @@
         "prompt": "Wie sagt man 'gegenüber' auf Englisch?",
         "card_ids": ["opposite"],
         "accept": ["opposite", "Opposite", "across from", "opposite."],
-        "hint": "Beginnt mit 'opp...' — oder 'across from'.",
+        "hint": "Beginnt mit 'opp...', oder 'across from'.",
         "distractors": ["opposition", "in front", "against"],
         "direction": "target_to_source"
       }

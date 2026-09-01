@@ -1,4 +1,4 @@
-# Adaptive Learner content repository — root manifest
+# Adaptive Learner content repository - root manifest
 # (Phase 60 / v1.44.0).
 #
 # Canonical mirror of the public ``astrapi69/adaptive-learner-content``
@@ -25,7 +25,7 @@ description: >-
 sets:
   - id: en-a1-from-de
     title: Englisch A1 (für Deutschsprachige)
-    title_native: English A1 — Beginner
+    title_native: English A1 - Beginner
     target_language: en
     source_language: de
     level: A1
@@ -44,8 +44,8 @@ sets:
       - travel
       - everyday
   - id: en-a2-from-de
-    title: Englisch A2 — Grundlagen
-    title_native: English A2 — Elementary
+    title: Englisch A2 - Grundlagen
+    title_native: English A2 - Elementary
     target_language: en
     source_language: de
     level: A2
@@ -69,8 +69,8 @@ sets:
       - grammar
       - everyday
   - id: en-b1-from-de
-    title: Englisch B1 — Mittelstufe
-    title_native: English B1 — Intermediate
+    title: Englisch B1 - Mittelstufe
+    title_native: English B1 - Intermediate
     target_language: en
     source_language: de
     level: B1
@@ -112,8 +112,8 @@ sets:
       - beginner
       - everyday
   - id: es-a2-from-de
-    title: Spanisch A2 — Grundlagen
-    title_native: Español A2 — Elemental
+    title: Spanisch A2 - Grundlagen
+    title_native: Español A2 - Elemental
     target_language: es
     source_language: de
     level: A2
@@ -135,8 +135,8 @@ sets:
       - grammar
       - everyday
   - id: es-b1-from-de
-    title: Spanisch B1 — Mittelstufe
-    title_native: Español B1 — Intermedio
+    title: Spanisch B1 - Mittelstufe
+    title_native: Español B1 - Intermedio
     target_language: es
     source_language: de
     level: B1
@@ -179,8 +179,8 @@ sets:
       - beginner
       - everyday
   - id: fr-a2-from-de
-    title: Französisch A2 — Grundlagen
-    title_native: Français A2 — Élémentaire
+    title: Französisch A2 - Grundlagen
+    title_native: Français A2 - Élémentaire
     target_language: fr
     source_language: de
     level: A2
@@ -202,8 +202,8 @@ sets:
       - grammar
       - everyday
   - id: fr-b1-from-de
-    title: Französisch B1 — Mittelstufe
-    title_native: Français B1 — Intermédiaire
+    title: Französisch B1 - Mittelstufe
+    title_native: Français B1 - Intermédiaire
     target_language: fr
     source_language: de
     level: B1
@@ -262,7 +262,7 @@ sets:
     domain: language
     description: >-
       Vorstufe zum A1-Set: das komplette Hiragana-Silbenalphabet in
-      zehn Lektionen erkennen und lesen — Vokale, Grundreihen,
+      zehn Lektionen erkennen und lesen, Vokale, Grundreihen,
       Dakuten/Handakuten und Kombinationslaute. Überwiegend
       Multiple-Choice (cloze select und multiselect) plus matching
       und Romaji-Tipp. Nur Erkennen und Lesen, kein Schreiben oder
@@ -425,8 +425,8 @@ sets:
       - travel
       - everyday
   - id: es-a2-from-en
-    title: Spanish A2 — Elementary
-    title_native: Español A2 — Elemental
+    title: Spanish A2 - Elementary
+    title_native: Español A2 - Elemental
     target_language: es
     source_language: en
     level: A2
@@ -448,8 +448,8 @@ sets:
       - grammar
       - everyday
   - id: es-b1-from-en
-    title: Spanish B1 — Intermediate
-    title_native: Español B1 — Intermedio
+    title: Spanish B1 - Intermediate
+    title_native: Español B1 - Intermedio
     target_language: es
     source_language: en
     level: B1
@@ -519,8 +519,8 @@ sets:
       - travel
       - everyday
   - id: fr-a2-from-en
-    title: French A2 — Elementary
-    title_native: Français A2 — Élémentaire
+    title: French A2 - Elementary
+    title_native: Français A2 - Élémentaire
     target_language: fr
     source_language: en
     level: A2
@@ -625,8 +625,8 @@ sets:
       - grammar
       - everyday
   - id: adaptive-learner-app-from-de
-    title: Adaptive Learner — App-Tutorial
-    title_native: Adaptive Learner — App-Tutorial
+    title: Adaptive Learner - App-Tutorial
+    title_native: Adaptive Learner - App-Tutorial
     target_language: de
     source_language: de
     domain: software

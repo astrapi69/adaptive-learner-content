@@ -40,7 +40,7 @@
       "stable_id": "card-ms9433jm3v3dz",
       "front": "quiero",
       "back": "I want",
-      "notes": "Direct — the least polite option.",
+      "notes": "Direct, the least polite option.",
       "tags": [
         "shopping"
       ]
@@ -208,13 +208,13 @@
       "id": "intro",
       "type": "theory",
       "title": "At the market: asking the price",
-      "body": "# Shopping at the market\n\nAt the **mercado** (market) you need a few words and, above all, one key question: **¿Cuánto cuesta?** — How much does it cost?\n\nKey words:\n\n- *el precio* — the price\n- *el euro* — the euro\n- *la fruta* — the fruit\n- *las manzanas* — the apples\n- *el kilo* — the kilo\n- *barato* — cheap, *caro* — expensive\n\n**Singular or plural?** The verb agrees:\n\n- *¿Cuánto **cuesta**?* — How much does **it** cost? (one thing)\n- *¿Cuánto **cuestan**?* — How much do **they** cost? (several things)\n\nExample: *¿Cuánto **cuesta** el kilo?* (one kilo) versus *¿Cuánto **cuestan** las manzanas?* (the apples, several)."
+      "body": "# Shopping at the market\n\nAt the **mercado** (market) you need a few words and, above all, one key question: **¿Cuánto cuesta?** - How much does it cost?\n\nKey words:\n\n- *el precio*, the price\n- *el euro*, the euro\n- *la fruta*, the fruit\n- *las manzanas*, the apples\n- *el kilo*, the kilo\n- *barato*, cheap, *caro*, expensive\n\n**Singular or plural?** The verb agrees:\n\n- *¿Cuánto **cuesta**?* - How much does **it** cost? (one thing)\n- *¿Cuánto **cuestan**?* - How much do **they** cost? (several things)\n\nExample: *¿Cuánto **cuesta** el kilo?* (one kilo) versus *¿Cuánto **cuestan** las manzanas?* (the apples, several)."
     },
     {
       "id": "step-cortesia",
       "type": "theory",
       "title": "Ordering politely: quiero / me da / me gustaría",
-      "body": "## The politeness ladder\n\nThree ways to order something — from direct to very polite:\n\n1. **quiero** — I want. Direct, the least polite.\n   - *Quiero dos kilos de manzanas.* — I want two kilos of apples.\n2. **me da** — can you give me (literally: you give me). Neutral-polite, very common.\n   - *Me da un kilo de fruta.* — Can you give me a kilo of fruit.\n3. **me gustaría** — I would like. The most polite.\n   - *Me gustaría un kilo de fruta.* — I'd like a kilo of fruit.\n\nAt the market you'll usually hear **me da**. **me gustaría** is especially courteous."
+      "body": "## The politeness ladder\n\nThree ways to order something, from direct to very polite:\n\n1. **quiero**, I want. Direct, the least polite.\n   - *Quiero dos kilos de manzanas.* - I want two kilos of apples.\n2. **me da**, can you give me (literally: you give me). Neutral-polite, very common.\n   - *Me da un kilo de fruta.* - Can you give me a kilo of fruit.\n3. **me gustaría**, I would like. The most polite.\n   - *Me gustaría un kilo de fruta.* - I'd like a kilo of fruit.\n\nAt the market you'll usually hear **me da**. **me gustaría** is especially courteous."
     },
     {
       "id": "step-numeros",
@@ -310,7 +310,7 @@
         "id": "ex-cloze-cuestan",
         "stable_id": "ex-ms9433jm3vnlg",
         "type": "cloze",
-        "prompt": "The apples are several things (plural) — fill in the right verb form.",
+        "prompt": "The apples are several things (plural), fill in the right verb form.",
         "card_ids": [
           "cuanto-cuestan",
           "las-manzanas"
@@ -338,7 +338,7 @@
         "id": "ex-cloze-cuesta",
         "stable_id": "ex-ms9433jm3voif",
         "type": "cloze",
-        "prompt": "The kilo is a single item (singular) — fill in the right verb form.",
+        "prompt": "The kilo is a single item (singular), fill in the right verb form.",
         "card_ids": [
           "cuanto-cuesta",
           "el-kilo"

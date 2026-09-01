@@ -51,7 +51,7 @@
       "id": "einladungscode",
       "stable_id": "card-ms9433ff04frd",
       "front": "Einladungscode",
-      "back": "Ein Code, mit dem du Zugang zu einem privaten Content-Repository gibst. Codes lassen sich mit Grenzen versehen — etwa maximale Einlösungen und Ablaufdatum.",
+      "back": "Ein Code, mit dem du Zugang zu einem privaten Content-Repository gibst. Codes lassen sich mit Grenzen versehen, etwa maximale Einlösungen und Ablaufdatum.",
       "notes": "Englisch: invite code. Ideal für Kurse und geschlossene Gruppen.",
       "media_type": "text",
       "difficulty": 3,
@@ -71,7 +71,7 @@
       "id": "variante",
       "stable_id": "card-ms9433ff04hln",
       "front": "Variante einer Lektion",
-      "back": "Eine eigene Fassung einer bestehenden Lektion — gleiches Thema, aber andere Übungen oder ein anderer Blickwinkel. So kann die Community Inhalte gemeinsam verbessern.",
+      "back": "Eine eigene Fassung einer bestehenden Lektion, gleiches Thema, aber andere Übungen oder ein anderer Blickwinkel. So kann die Community Inhalte gemeinsam verbessern.",
       "notes": "Englisch: lesson variation. Beitragen, ohne das Original zu ersetzen.",
       "media_type": "text",
       "difficulty": 3,
@@ -83,7 +83,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Eigene Lektionen bauen",
-      "body": "# Selbst Inhalte erstellen\n\nAdaptive Learner ist nicht nur zum Konsumieren gedacht — du kannst auch **eigene Lektionen** bauen, ganz ohne Programmieren. Dafür gibt es den **Lesson Creator**:\n\n- Du legst **Karten** an — einzeln oder per **CSV-Import** gleich viele auf einmal aus einer Tabelle.\n- Der Creator erzeugt daraus **automatisch Übungen**, die du bei Bedarf anpasst.\n- Am Ende hast du eine **teilbare Lektion** im selben Format wie die mitgelieferten.\n\nSo wird aus einer Vokabelliste oder Stichwortsammlung in wenigen Schritten eine spielbare Lektion."
+      "body": "# Selbst Inhalte erstellen\n\nAdaptive Learner ist nicht nur zum Konsumieren gedacht, du kannst auch **eigene Lektionen** bauen, ganz ohne Programmieren. Dafür gibt es den **Lesson Creator**:\n\n- Du legst **Karten** an, einzeln oder per **CSV-Import** gleich viele auf einmal aus einer Tabelle.\n- Der Creator erzeugt daraus **automatisch Übungen**, die du bei Bedarf anpasst.\n- Am Ende hast du eine **teilbare Lektion** im selben Format wie die mitgelieferten.\n\nSo wird aus einer Vokabelliste oder Stichwortsammlung in wenigen Schritten eine spielbare Lektion."
     },
     {
       "id": "step-teilen",
@@ -95,7 +95,7 @@
       "id": "step-varianten",
       "type": "theory",
       "title": "Gemeinsam verbessern",
-      "body": "## Varianten und Beiträge\n\nDu musst eine bestehende Lektion nicht ersetzen, um sie zu verbessern. Eine **Variante** ist eine eigene Fassung derselben Lektion — **gleiches Thema, andere Übungen** oder ein neuer Blickwinkel.\n\nSo kann eine Community Inhalte **gemeinsam** weiterentwickeln: Das Original bleibt erhalten, und daneben entstehen alternative Fassungen für unterschiedliche Bedürfnisse. Beiträge laufen — wie bei offenen Projekten üblich — über einen Pull Request auf GitHub."
+      "body": "## Varianten und Beiträge\n\nDu musst eine bestehende Lektion nicht ersetzen, um sie zu verbessern. Eine **Variante** ist eine eigene Fassung derselben Lektion, **gleiches Thema, andere Übungen** oder ein neuer Blickwinkel.\n\nSo kann eine Community Inhalte **gemeinsam** weiterentwickeln: Das Original bleibt erhalten, und daneben entstehen alternative Fassungen für unterschiedliche Bedürfnisse. Beiträge laufen, wie bei offenen Projekten üblich, über einen Pull Request auf GitHub."
     },
     {
       "id": "ex-free-creator",

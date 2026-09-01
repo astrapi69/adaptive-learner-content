@@ -1,7 +1,7 @@
 {
   "id": "03-ser-estar",
   "title": "ser und estar",
-  "description": "Die zwei spanischen Verben für 'sein' — ser und estar — auf Deutsch erklärt.",
+  "description": "Die zwei spanischen Verben für 'sein', ser und estar, auf Deutsch erklärt.",
   "target_language": "es",
   "source_language": "de",
   "estimated_minutes": 14,
@@ -86,13 +86,13 @@
       "id": "intro",
       "type": "theory",
       "title": "Zwei Verben für 'sein'",
-      "body": "# ser und estar\n\nDas Spanische hat zwei Verben für das deutsche 'sein': **ser** und **estar**. Die Wahl verändert die Bedeutung — das ist die zentrale A1-Hürde.\n\nKurzregel:\n- **ser** = dauerhaft: Identität, Beruf, Herkunft, Eigenschaften\n- **estar** = vorübergehend: Zustand, Gefühl, Ort"
+      "body": "# ser und estar\n\nDas Spanische hat zwei Verben für das deutsche 'sein': **ser** und **estar**. Die Wahl verändert die Bedeutung, das ist die zentrale A1-Hürde.\n\nKurzregel:\n- **ser** = dauerhaft: Identität, Beruf, Herkunft, Eigenschaften\n- **estar** = vorübergehend: Zustand, Gefühl, Ort"
     },
     {
       "id": "step-ser",
       "type": "theory",
-      "title": "ser — dauerhaft",
-      "body": "## ser (dauerhaft)\n\n- *Soy estudiante.* — Ich bin Studentin. (Identität)\n- *Es alta.* — Sie ist groß. (Eigenschaft)\n- *Soy de Alemania.* — Ich komme aus Deutschland. (Herkunft)\n\nFormen: **soy, eres, es** (ich, du, er/sie)."
+      "title": "ser - dauerhaft",
+      "body": "## ser (dauerhaft)\n\n- *Soy estudiante.* - Ich bin Studentin. (Identität)\n- *Es alta.* - Sie ist groß. (Eigenschaft)\n- *Soy de Alemania.* - Ich komme aus Deutschland. (Herkunft)\n\nFormen: **soy, eres, es** (ich, du, er/sie)."
     },
     {
       "id": "ex-match-ser",
@@ -129,8 +129,8 @@
     {
       "id": "step-estar",
       "type": "theory",
-      "title": "estar — vorübergehend",
-      "body": "## estar (vorübergehend)\n\n- *Estoy cansado.* — Ich bin müde. (Zustand)\n- *Está en casa.* — Er ist zu Hause. (Ort)\n- *¿Cómo estás?* — Wie geht es dir? (Befinden)\n\nFormen: **estoy, estás, está** (ich, du, er/sie)."
+      "title": "estar - vorübergehend",
+      "body": "## estar (vorübergehend)\n\n- *Estoy cansado.* - Ich bin müde. (Zustand)\n- *Está en casa.* - Er ist zu Hause. (Ort)\n- *¿Cómo estás?* - Wie geht es dir? (Befinden)\n\nFormen: **estoy, estás, está** (ich, du, er/sie)."
     },
     {
       "id": "ex-match-estar",
@@ -222,7 +222,7 @@
         "id": "ex-cloze-zustand",
         "stable_id": "ex-ms9433gl0ya9d",
         "type": "cloze",
-        "prompt": "'Ich bin müde' ist ein vorübergehender Zustand — ergänze die richtige Form.",
+        "prompt": "'Ich bin müde' ist ein vorübergehender Zustand, ergänze die richtige Form.",
         "card_ids": [
           "estoy",
           "estoy-cansado"

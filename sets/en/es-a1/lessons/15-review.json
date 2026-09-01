@@ -1,7 +1,7 @@
 {
   "id": "15-review",
   "title": "Review and consolidation A1",
-  "description": "The big A1 review: articles and gender, ser and estar, the present tense (-AR/-ER/-IR) and the simple past (preterite) — all together.",
+  "description": "The big A1 review: articles and gender, ser and estar, the present tense (-AR/-ER/-IR) and the simple past (preterite), all together.",
   "target_language": "es",
   "source_language": "en",
   "estimated_minutes": 15,
@@ -58,7 +58,7 @@
       "id": "soy",
       "stable_id": "card-ms9433jp3xqfv",
       "front": "yo soy",
-      "back": "I am (ser — identity)",
+      "back": "I am (ser, identity)",
       "tags": [
         "ser"
       ]
@@ -67,7 +67,7 @@
       "id": "estoy",
       "stable_id": "card-ms9433jp3xrvx",
       "front": "yo estoy",
-      "back": "I am (estar — state/location)",
+      "back": "I am (estar, state/location)",
       "tags": [
         "estar"
       ]
@@ -127,7 +127,7 @@
       "stable_id": "card-ms9433jp3xxbq",
       "front": "yo fui",
       "back": "I went / I was (ir/ser, irregular)",
-      "notes": "Irregular preterite — NO accent: fui.",
+      "notes": "Irregular preterite, NO accent: fui.",
       "tags": [
         "preterite"
       ]
@@ -167,13 +167,13 @@
       "id": "intro",
       "type": "theory",
       "title": "Your four big A1 wins",
-      "body": "# Review A1\n\nYou have learned the four most important A1 building blocks. Here they come together one more time, compactly — and this time combined inside a single sentence.\n\n| Topic | Core rule | Example |\n|---|---|---|\n| **Gender** | -o → masculine (el), -a → feminine (la) | el libro, la casa |\n| **ser / estar** | Could it change? No → ser, Yes → estar | Soy alta / Estoy feliz |\n| **Present** | -AR/-ER/-IR: hablo, como, vivo | Hablo español. |\n| **Preterite** | regular takes the accent (hablé, habló), irregular drops it (fui, hice) | Ayer hablé. |\n\nNo new vocabulary — just consolidation and combination."
+      "body": "# Review A1\n\nYou have learned the four most important A1 building blocks. Here they come together one more time, compactly, and this time combined inside a single sentence.\n\n| Topic | Core rule | Example |\n|---|---|---|\n| **Gender** | -o → masculine (el), -a → feminine (la) | el libro, la casa |\n| **ser / estar** | Could it change? No → ser, Yes → estar | Soy alta / Estoy feliz |\n| **Present** | -AR/-ER/-IR: hablo, como, vivo | Hablo español. |\n| **Preterite** | regular takes the accent (hablé, habló), irregular drops it (fui, hice) | Ayer hablé. |\n\nNo new vocabulary, just consolidation and combination."
     },
     {
       "id": "step-watchouts",
       "type": "theory",
       "title": "The classic traps",
-      "body": "## What to watch out for\n\n- **ser vs. estar**: *Soy estudiante* (identity → ser), but *Estoy cansado* (state → estar). The question is always: \"Could this change?\"\n- **The accent decides the tense**: *hablo* = I speak (present), *hablé* = I spoke (preterite). A single accent flips the meaning completely.\n- **Regular vs. irregular in the preterite**: regular forms carry the accent (hablé, habló, comí); the common irregular forms carry NONE (fui, hice, tuve).\n- **The contractions al and del**: *a + el = al*, *de + el = del*. So *Voy al mercado*, *Vengo del mercado* — never *a el* or *de el*."
+      "body": "## What to watch out for\n\n- **ser vs. estar**: *Soy estudiante* (identity → ser), but *Estoy cansado* (state → estar). The question is always: \"Could this change?\"\n- **The accent decides the tense**: *hablo* = I speak (present), *hablé* = I spoke (preterite). A single accent flips the meaning completely.\n- **Regular vs. irregular in the preterite**: regular forms carry the accent (hablé, habló, comí); the common irregular forms carry NONE (fui, hice, tuve).\n- **The contractions al and del**: *a + el = al*, *de + el = del*. So *Voy al mercado*, *Vengo del mercado*, never *a el* or *de el*."
     },
     {
       "id": "ex-match-mixed",
@@ -226,7 +226,7 @@
         "id": "ex-match-present-past",
         "stable_id": "ex-ms9433jp3y2is",
         "type": "matching",
-        "prompt": "Match each form with its English meaning — watch the accent (present vs. preterite).",
+        "prompt": "Match each form with its English meaning, watch the accent (present vs. preterite).",
         "card_ids": [
           "hablo",
           "hable",
@@ -351,7 +351,7 @@
         "id": "ex-cloze-estar",
         "stable_id": "ex-ms9433jp3y5xi",
         "type": "cloze",
-        "prompt": "Being tired is a temporary state — fill in the right form.",
+        "prompt": "Being tired is a temporary state, fill in the right form.",
         "card_ids": [
           "estoy"
         ],
@@ -429,7 +429,7 @@
         "id": "ex-cloze-preterite-ir",
         "stable_id": "ex-ms9433jp3y8tf",
         "type": "cloze",
-        "prompt": "Fill in the yo-form of ir (to go) in the preterite — irregular, no accent.",
+        "prompt": "Fill in the yo-form of ir (to go) in the preterite, irregular, no accent.",
         "card_ids": [
           "fui"
         ],
@@ -560,7 +560,7 @@
         "id": "ex-free-gender-article",
         "stable_id": "ex-ms9433jp3yd0n",
         "type": "free_text",
-        "prompt": "Translate: 'the red shirt'. (camisa is feminine — article and adjective must agree)",
+        "prompt": "Translate: 'the red shirt'. (camisa is feminine, article and adjective must agree)",
         "card_ids": [
           "camisa-roja",
           "rojo"

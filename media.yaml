@@ -1,4 +1,4 @@
-# media.yaml — curated free supplementary media per domain (EXP-029).
+# media.yaml - curated free supplementary media per domain (EXP-029).
 #
 # Optional companion to the lesson catalogue and to books.yaml: maps a
 # content domain to a list of free, openly accessible media (videos,
@@ -25,7 +25,7 @@
 #         every other entry defaults to ``priority: 10``.
 
 language:
-  - title: "Easy Spanish — real street conversations"
+  - title: "Easy Spanish - real street conversations"
     type: youtube
     url: "https://www.youtube.com/@EasySpanish"
     language: en
@@ -33,7 +33,7 @@ language:
     description: >-
       Subtitled street interviews from Spain and Mexico. Great
       listening practice with both Spanish and English captions.
-  - title: "Easy French — learn French from the streets"
+  - title: "Easy French - learn French from the streets"
     type: youtube
     url: "https://www.youtube.com/@EasyFrench"
     language: en
@@ -47,14 +47,14 @@ language:
     language: en
     level: intermediate
     description: >-
-      Real-life stories told in simple Spanish with English narration —
+      Real-life stories told in simple Spanish with English narration,
       ideal for the A2/B1 transition. Hosted by Martina Castro.
   - title: "Spanish language (Wikipedia)"
     type: article
     url: "https://en.wikipedia.org/wiki/Spanish_language"
     language: en
     description: >-
-      Background on the history, geography and grammar of Spanish —
+      Background on the history, geography and grammar of Spanish,
       useful context for learners.
   - title: "Französische Sprache (Wikipedia)"
     type: article
@@ -63,7 +63,7 @@ language:
     description: >-
       Deutschsprachiger Überblick über die französische Sprache:
       Verbreitung, Aussprache und Grammatik.
-  - title: "Japanese Ammo with Misa — Japanese for absolute beginners"
+  - title: "Japanese Ammo with Misa - Japanese for absolute beginners"
     type: youtube
     set: ja-a1-from-de
     url: "https://www.youtube.com/@JapaneseAmmowithMisa"
@@ -72,8 +72,8 @@ language:
     description: >-
       Clear, free beginner Japanese lessons (Hiragana, basic
       grammar and everyday phrases) explained step by step in
-      English — a great companion to the Japanese A1 set.
-  - title: "Talk To Me In Korean — Korean for beginners"
+      English, a great companion to the Japanese A1 set.
+  - title: "Talk To Me In Korean - Korean for beginners"
     type: youtube
     set: ko-a1-from-de
     url: "https://www.youtube.com/@talktomeinkorean"
@@ -81,9 +81,9 @@ language:
     level: beginner
     description: >-
       The free TTMIK lessons: Hangul, greetings and everyday
-      Korean explained clearly in English — a great companion to
+      Korean explained clearly in English, a great companion to
       the Korean A1 set.
-  - title: "Easy Italian — learn Italian from the streets"
+  - title: "Easy Italian - learn Italian from the streets"
     type: youtube
     set: it-a1-from-de
     url: "https://www.youtube.com/@EasyItalian"
@@ -91,9 +91,9 @@ language:
     level: beginner
     description: >-
       The Italian channel of the Easy Languages network: authentic
-      everyday Italian with dual subtitles — a great companion to
+      everyday Italian with dual subtitles, a great companion to
       the Italian A1 set.
-  - title: "Speaking Brazilian Language School — Brazilian Portuguese for beginners"
+  - title: "Speaking Brazilian Language School - Brazilian Portuguese for beginners"
     type: youtube
     set: pt-br-a1-from-de
     url: "https://www.youtube.com/@SpeakingBrazilian"
@@ -102,9 +102,9 @@ language:
     description: >-
       Free Brazilian Portuguese lessons (pronunciation, grammar
       and everyday vocabulary) taught by a native Brazilian
-      teacher — a great companion to the Brazilian Portuguese A1
+      teacher, a great companion to the Brazilian Portuguese A1
       set.
-  - title: "ChineseClass101 — Mandarin Chinese for beginners"
+  - title: "ChineseClass101 - Mandarin Chinese for beginners"
     type: youtube
     set: zh-a1-from-de
     url: "https://www.youtube.com/@ChineseClass101"
@@ -112,5 +112,5 @@ language:
     level: beginner
     description: >-
       Free Mandarin lessons covering Pinyin, the four tones,
-      greetings and everyday vocabulary, explained in English —
+      greetings and everyday vocabulary, explained in English,
       a great companion to the Mandarin Chinese A1 set.

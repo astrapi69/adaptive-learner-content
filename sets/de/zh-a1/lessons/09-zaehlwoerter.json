@@ -1,7 +1,7 @@
 {
   "id": "09-zaehlwoerter",
   "title": "Zählwörter",
-  "description": "Die wichtigsten chinesischen Zählwörter (Maßeinheiten) und wie man sie zwischen Zahl und Nomen einsetzt — auf Deutsch erklärt.",
+  "description": "Die wichtigsten chinesischen Zählwörter (Maßeinheiten) und wie man sie zwischen Zahl und Nomen einsetzt, auf Deutsch erklärt.",
   "target_language": "zh",
   "source_language": "de",
   "domain": "language",
@@ -121,13 +121,13 @@
       "id": "intro-zaehlwoerter",
       "type": "theory",
       "title": "Was sind Zählwörter?",
-      "body": "# Zählwörter (Maßeinheiten)\n\nIm Chinesischen steht zwischen einer Zahl und einem Nomen fast immer ein **Zählwort** (量词, liàngcí). Das Muster ist:\n\n> **Zahl + Zählwort + Nomen**\n>\n> 一 **个** 人 (yí gè rén) — eine Person\n\nDas universelle Zählwort ist **个 (gè)**. Wenn du unsicher bist, passt 个 fast immer. Spezielle Nomen verlangen aber eigene Zählwörter:\n\n| Zählwort | Pinyin | für | Beispiel |\n|---|---|---|---|\n| 个 | gè | alles (Allzweck) | 一个人 |\n| 张 | zhāng | Flaches | 一张票 (ein Ticket) |\n| 本 | běn | Bücher | 一本书 (ein Buch) |\n| 杯 | bēi | Getränke | 一杯茶 (eine Tasse Tee) |\n| 口 | kǒu | Familienmitglieder | 五口人 |"
+      "body": "# Zählwörter (Maßeinheiten)\n\nIm Chinesischen steht zwischen einer Zahl und einem Nomen fast immer ein **Zählwort** (量词, liàngcí). Das Muster ist:\n\n> **Zahl + Zählwort + Nomen**\n>\n> 一 **个** 人 (yí gè rén), eine Person\n\nDas universelle Zählwort ist **个 (gè)**. Wenn du unsicher bist, passt 个 fast immer. Spezielle Nomen verlangen aber eigene Zählwörter:\n\n| Zählwort | Pinyin | für | Beispiel |\n|---|---|---|---|\n| 个 | gè | alles (Allzweck) | 一个人 |\n| 张 | zhāng | Flaches | 一张票 (ein Ticket) |\n| 本 | běn | Bücher | 一本书 (ein Buch) |\n| 杯 | bēi | Getränke | 一杯茶 (eine Tasse Tee) |\n| 口 | kǒu | Familienmitglieder | 五口人 |"
     },
     {
       "id": "intro-zwei",
       "type": "theory",
       "title": "Tonänderung von 一 und das Wort 两",
-      "body": "## Zwei Stolpersteine\n\n**1. 一 (yī) ändert den Ton** je nach folgendem Zählwort:\n\n- vor 1./2./3. Ton → **yì**: 一本书 (yì běn shū)\n- vor 4. Ton → **yí**: 一个人 (yí gè rén)\n\n**2. 'Zwei' vor einem Zählwort ist 两 (liǎng), nicht 二 (èr).**\n\n- richtig: **两个人 (liǎng gè rén)** — zwei Personen\n- falsch: ~~二个人~~\n\n二 benutzt man nur beim Zählen (1, 2, 3 …) und in Zahlen wie 十二, 二十.\n\nFragen nach der Menge: **几个？ (jǐ gè?)** — wie viele (Stück)?"
+      "body": "## Zwei Stolpersteine\n\n**1. 一 (yī) ändert den Ton** je nach folgendem Zählwort:\n\n- vor 1./2./3. Ton → **yì**: 一本书 (yì běn shū)\n- vor 4. Ton → **yí**: 一个人 (yí gè rén)\n\n**2. 'Zwei' vor einem Zählwort ist 两 (liǎng), nicht 二 (èr).**\n\n- richtig: **两个人 (liǎng gè rén)**, zwei Personen\n- falsch: ~~二个人~~\n\n二 benutzt man nur beim Zählen (1, 2, 3 …) und in Zahlen wie 十二, 二十.\n\nFragen nach der Menge: **几个？ (jǐ gè?)**, wie viele (Stück)?"
     },
     {
       "id": "ex-match-zaehlwoerter",
@@ -233,7 +233,7 @@
           {"src": "assets/img/bei.png", "label": "杯 (bēi)"},
           {"src": "assets/img/ge.png", "label": "个 (gè)"}
         ],
-        "hint": "běn — für gebundene Druckwerke.",
+        "hint": "běn, für gebundene Druckwerke.",
         "distractors": ["张 (zhāng)", "杯 (bēi)", "个 (gè)"],
         "direction": "target_to_source"
       }

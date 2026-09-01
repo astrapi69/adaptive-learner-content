@@ -1,7 +1,7 @@
 {
   "id": "01-was-ist-adaptive-learner",
   "title": "Was ist Adaptive Learner?",
-  "description": "Überblick über die Lern-App Adaptive Learner: Grundidee, Einsatzformen (Web, Desktop, Docker), Offline-Betrieb und Datenhoheit — auf Deutsch erklärt.",
+  "description": "Überblick über die Lern-App Adaptive Learner: Grundidee, Einsatzformen (Web, Desktop, Docker), Offline-Betrieb und Datenhoheit, auf Deutsch erklärt.",
   "target_language": "de",
   "source_language": "de",
   "domain": "software",
@@ -32,7 +32,7 @@
       "stable_id": "card-ms9433f900310",
       "front": "Einsatzformen",
       "back": "Adaptive Learner läuft als Web-App (PWA), als Desktop-App, selbst-gehostet per Docker oder im Entwickler-Setup. Derselbe Lernstoff funktioniert in allen Varianten.",
-      "notes": "Du wählst die Form, die zu dir passt — vom Browser bis zum eigenen Server.",
+      "notes": "Du wählst die Form, die zu dir passt, vom Browser bis zum eigenen Server.",
       "media_type": "text",
       "difficulty": 2,
       "tags": ["einsatz"]
@@ -72,7 +72,7 @@
       "stable_id": "card-ms9433f9007ub",
       "front": "Offene Inhalte",
       "back": "Die Lerninhalte sind frei und offen (CC-BY-SA): Du kannst mitgelieferte Sets nutzen, Inhalte aus GitHub-Repositorys hinzufügen oder eigene Sets erstellen und teilen.",
-      "notes": "Kein geschlossenes Ökosystem — Inhalte lassen sich forken und teilen.",
+      "notes": "Kein geschlossenes Ökosystem, Inhalte lassen sich forken und teilen.",
       "media_type": "text",
       "difficulty": 2,
       "tags": ["grundlagen", "inhalte"]
@@ -93,19 +93,19 @@
       "id": "intro",
       "type": "theory",
       "title": "Was Adaptive Learner ist",
-      "body": "# Adaptive Learner\n\n**Adaptive Learner** ist eine KI-gestützte Lern-App. Ihr Kerngedanke: Nicht du passt dich starrem Lernmaterial an, sondern die App passt **Stoff und Methode an deinen Fortschritt an**.\n\nZwei Dinge greifen dabei ineinander:\n\n- **Strukturierte Lektionen** — fertige Einheiten aus Theorie und Übungen, die du am Stück durcharbeitest.\n- **Adaptive Lernsitzungen** — KI-begleitetes Üben, das sich an deine Stärken und Fehler anpasst.\n\nDu musst **nicht programmieren** können und brauchst keine Vorkenntnisse, um zu starten. Dieser Kurs zeigt dir Schritt für Schritt, wie die App funktioniert und wie du sie für dich nutzt."
+      "body": "# Adaptive Learner\n\n**Adaptive Learner** ist eine KI-gestützte Lern-App. Ihr Kerngedanke: Nicht du passt dich starrem Lernmaterial an, sondern die App passt **Stoff und Methode an deinen Fortschritt an**.\n\nZwei Dinge greifen dabei ineinander:\n\n- **Strukturierte Lektionen**, fertige Einheiten aus Theorie und Übungen, die du am Stück durcharbeitest.\n- **Adaptive Lernsitzungen**, KI-begleitetes Üben, das sich an deine Stärken und Fehler anpasst.\n\nDu musst **nicht programmieren** können und brauchst keine Vorkenntnisse, um zu starten. Dieser Kurs zeigt dir Schritt für Schritt, wie die App funktioniert und wie du sie für dich nutzt."
     },
     {
       "id": "step-einsatz",
       "type": "theory",
       "title": "Wo und wie du die App nutzt",
-      "body": "## Einsatzformen und Offline-Betrieb\n\nAdaptive Learner läuft in mehreren Formen — der Lernstoff bleibt überall gleich:\n\n| Form | Für wen |\n|---|---|\n| **Web-App (PWA)** | Einfach im Browser öffnen, optional installieren |\n| **Desktop-App** | Eigenes Fenster auf dem Rechner |\n| **Docker (self-hosted)** | Auf dem eigenen Server, volle Kontrolle |\n| **Entwickler-Setup** | Zum Mitentwickeln und Anpassen |\n\nEine **PWA** (Progressive Web App) verhält sich wie eine installierte App: „Zum Startbildschirm hinzufügen“ genügt.\n\n**Offline** bleiben vergangene Sitzungen, das Dashboard und die Fortschrittsansicht rund 24 Stunden verfügbar — praktisch für unterwegs."
+      "body": "## Einsatzformen und Offline-Betrieb\n\nAdaptive Learner läuft in mehreren Formen, der Lernstoff bleibt überall gleich:\n\n| Form | Für wen |\n|---|---|\n| **Web-App (PWA)** | Einfach im Browser öffnen, optional installieren |\n| **Desktop-App** | Eigenes Fenster auf dem Rechner |\n| **Docker (self-hosted)** | Auf dem eigenen Server, volle Kontrolle |\n| **Entwickler-Setup** | Zum Mitentwickeln und Anpassen |\n\nEine **PWA** (Progressive Web App) verhält sich wie eine installierte App: „Zum Startbildschirm hinzufügen“ genügt.\n\n**Offline** bleiben vergangene Sitzungen, das Dashboard und die Fortschrittsansicht rund 24 Stunden verfügbar, praktisch für unterwegs."
     },
     {
       "id": "step-datenhoheit",
       "type": "theory",
       "title": "Deine Daten, deine Kontrolle",
-      "body": "## Datenhoheit und offene Inhalte\n\nAdaptive Learner setzt auf **Datenhoheit**: Du entscheidest, wo deine Daten liegen.\n\n- **Rein lokal lernen** — alles bleibt im Browser, ohne Server.\n- **Eigene KI-Schlüssel** — du nutzt deinen eigenen Zugang zu Anthropic, OpenAI oder Google.\n- **Selbst hosten** — per Docker auf deinem eigenen Server.\n\nAuch die **Inhalte sind offen** (Lizenz CC-BY-SA): Du kannst mitgelieferte Sets nutzen, weitere aus GitHub-Repositorys hinzufügen oder eigene erstellen und teilen. So bist du weder an einen Anbieter noch an eine Cloud gebunden."
+      "body": "## Datenhoheit und offene Inhalte\n\nAdaptive Learner setzt auf **Datenhoheit**: Du entscheidest, wo deine Daten liegen.\n\n- **Rein lokal lernen**, alles bleibt im Browser, ohne Server.\n- **Eigene KI-Schlüssel**, du nutzt deinen eigenen Zugang zu Anthropic, OpenAI oder Google.\n- **Selbst hosten**, per Docker auf deinem eigenen Server.\n\nAuch die **Inhalte sind offen** (Lizenz CC-BY-SA): Du kannst mitgelieferte Sets nutzen, weitere aus GitHub-Repositorys hinzufügen oder eigene erstellen und teilen. So bist du weder an einen Anbieter noch an eine Cloud gebunden."
     },
     {
       "id": "ex-match-einsatz",

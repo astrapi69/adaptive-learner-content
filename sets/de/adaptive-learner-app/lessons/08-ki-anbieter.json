@@ -52,7 +52,7 @@
       "stable_id": "card-ms9433fd02wl2",
       "front": "API-Schlüssel",
       "back": "Ein geheimes Zugangskennwort, mit dem sich die App bei einem KI-Anbieter anmeldet. Du hinterlegst deinen eigenen Schlüssel, damit die Anfragen über dein Konto laufen.",
-      "notes": "Englisch: API key. Wie ein Passwort behandeln — niemals weitergeben.",
+      "notes": "Englisch: API key. Wie ein Passwort behandeln, niemals weitergeben.",
       "media_type": "text",
       "difficulty": 2,
       "tags": ["ki", "schluessel"]
@@ -81,7 +81,7 @@
       "id": "streaming",
       "stable_id": "card-ms9433fd02zpt",
       "front": "Streaming",
-      "back": "Die Antwort der KI erscheint Wort für Wort, während sie entsteht — statt erst nach Fertigstellung komplett zu erscheinen. Ein Cursor zeigt den Fortschritt.",
+      "back": "Die Antwort der KI erscheint Wort für Wort, während sie entsteht, statt erst nach Fertigstellung komplett zu erscheinen. Ein Cursor zeigt den Fortschritt.",
       "notes": "Englisch: token-by-token streaming. Fühlt sich lebendiger und schneller an.",
       "media_type": "text",
       "difficulty": 3,
@@ -93,13 +93,13 @@
       "id": "intro",
       "type": "theory",
       "title": "Drei Anbieter zur Wahl",
-      "body": "# KI-Anbieter\n\nFür Rückmeldungen, Erklärungen und adaptive Aufgaben nutzt Adaptive Learner ein **Sprachmodell**. Du entscheidest, welcher **KI-Anbieter** das liefert:\n\n| Anbieter | Modellfamilie |\n|---|---|\n| **Anthropic** | Claude |\n| **OpenAI** | GPT |\n| **Google** | Gemini |\n\nWelche konkreten Modelle bereitstehen, fragt die App per **Modellauswahl** live beim Anbieter ab — die Liste ist also immer aktuell. Diese Offenheit ist Absicht: Du bist an keinen einzelnen Anbieter gebunden.\n\n> Hinweis: Rein lokal, ohne KI-Anbieter, funktionieren die vorbereiteten Lektionen und Übungen weiterhin. Die KI-Begleitung ist ein Zusatz, kein Muss."
+      "body": "# KI-Anbieter\n\nFür Rückmeldungen, Erklärungen und adaptive Aufgaben nutzt Adaptive Learner ein **Sprachmodell**. Du entscheidest, welcher **KI-Anbieter** das liefert:\n\n| Anbieter | Modellfamilie |\n|---|---|\n| **Anthropic** | Claude |\n| **OpenAI** | GPT |\n| **Google** | Gemini |\n\nWelche konkreten Modelle bereitstehen, fragt die App per **Modellauswahl** live beim Anbieter ab, die Liste ist also immer aktuell. Diese Offenheit ist Absicht: Du bist an keinen einzelnen Anbieter gebunden.\n\n> Hinweis: Rein lokal, ohne KI-Anbieter, funktionieren die vorbereiteten Lektionen und Übungen weiterhin. Die KI-Begleitung ist ein Zusatz, kein Muss."
     },
     {
       "id": "step-schluessel",
       "type": "theory",
       "title": "API-Schlüssel und wo sie herkommen",
-      "body": "## Dein eigener Zugang\n\nDamit die App einen Anbieter nutzen darf, braucht sie einen **API-Schlüssel** — ein geheimes Zugangskennwort. Du hinterlegst **deinen eigenen** Schlüssel, sodass die Anfragen über dein Konto laufen und du die Kontrolle behältst.\n\nDie App sucht den Schlüssel in **drei Ebenen** in fester Reihenfolge:\n\n1. **Umgebung** (Umgebungsvariable)\n2. **Datei** `secrets.yaml`\n3. **Verschlüsselte Einstellungen** in der App\n\nDie erste gefundene Quelle gewinnt. Behandle einen API-Schlüssel wie ein Passwort: niemals weitergeben."
+      "body": "## Dein eigener Zugang\n\nDamit die App einen Anbieter nutzen darf, braucht sie einen **API-Schlüssel**, ein geheimes Zugangskennwort. Du hinterlegst **deinen eigenen** Schlüssel, sodass die Anfragen über dein Konto laufen und du die Kontrolle behältst.\n\nDie App sucht den Schlüssel in **drei Ebenen** in fester Reihenfolge:\n\n1. **Umgebung** (Umgebungsvariable)\n2. **Datei** `secrets.yaml`\n3. **Verschlüsselte Einstellungen** in der App\n\nDie erste gefundene Quelle gewinnt. Behandle einen API-Schlüssel wie ein Passwort: niemals weitergeben."
     },
     {
       "id": "step-streaming",
@@ -173,7 +173,7 @@
         "sentence": "Beim ___ erscheint die Antwort der KI Wort für Wort, während sie entsteht.",
         "blanks": [{"accept": ["Streaming", "Stream"]}],
         "cloze_mode": "type",
-        "hint": "Wie beim Video-„Streamen“ — es fließt kontinuierlich."
+        "hint": "Wie beim Video-„Streamen“, es fließt kontinuierlich."
       }
     },
     {

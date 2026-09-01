@@ -107,20 +107,20 @@
     {
       "id": "intro",
       "type": "theory",
-      "title": "Farben — und das Beste daran",
-      "body": "# Farben und Kleidung\n\nDie Grundfarben: **red** (rot), **blue** (blau), **green** (grün), **yellow** (gelb), **black** (schwarz), **white** (weiß), **brown** (braun).\n\n**Die große Erleichterung:** Englische Adjektive — also auch Farben — **verändern sich nie**. Anders als im Deutschen ('ein rot**es** Auto', 'rot**e** Autos') bleibt das Wort immer gleich:\n\n- *a **red** car* — ein rotes Auto\n- *two **red** cars* — zwei rote Autos\n- *the **red** house* — das rote Haus\n\nKeine Endungen, keine Anpassung an Genus, Fall oder Zahl. Sage also nie *reds cars* — immer nur **red**."
+      "title": "Farben - und das Beste daran",
+      "body": "# Farben und Kleidung\n\nDie Grundfarben: **red** (rot), **blue** (blau), **green** (grün), **yellow** (gelb), **black** (schwarz), **white** (weiß), **brown** (braun).\n\n**Die große Erleichterung:** Englische Adjektive, also auch Farben, **verändern sich nie**. Anders als im Deutschen ('ein rot**es** Auto', 'rot**e** Autos') bleibt das Wort immer gleich:\n\n- *a **red** car*, ein rotes Auto\n- *two **red** cars*, zwei rote Autos\n- *the **red** house*, das rote Haus\n\nKeine Endungen, keine Anpassung an Genus, Fall oder Zahl. Sage also nie *reds cars*, immer nur **red**."
     },
     {
       "id": "step-adjective-position",
       "type": "theory",
       "title": "Adjektiv steht VOR dem Nomen",
-      "body": "## Stellung: Adjektiv + Nomen\n\nIm Englischen steht das Adjektiv **immer vor** dem Nomen, das es beschreibt — genau wie im Deutschen:\n\n- *a **big** house* — ein großes Haus\n- *a **red** jacket* — eine rote Jacke\n- *expensive **shoes*** — teure Schuhe\n\nStelle das Adjektiv NIE hinter das Nomen: nicht *a house big*, nicht *a jacket red*. Das ist ein typischer Fehler beim zu wörtlichen Übersetzen aus Sprachen wie dem Französischen.\n\nUnd noch einmal, weil es so wichtig ist: Das Adjektiv bekommt **keine Endung**, egal ob Singular oder Plural: *a big car*, *big cars*."
+      "body": "## Stellung: Adjektiv + Nomen\n\nIm Englischen steht das Adjektiv **immer vor** dem Nomen, das es beschreibt, genau wie im Deutschen:\n\n- *a **big** house*, ein großes Haus\n- *a **red** jacket*, eine rote Jacke\n- *expensive **shoes***, teure Schuhe\n\nStelle das Adjektiv NIE hinter das Nomen: nicht *a house big*, nicht *a jacket red*. Das ist ein typischer Fehler beim zu wörtlichen Übersetzen aus Sprachen wie dem Französischen.\n\nUnd noch einmal, weil es so wichtig ist: Das Adjektiv bekommt **keine Endung**, egal ob Singular oder Plural: *a big car*, *big cars*."
     },
     {
       "id": "step-adjective-order",
       "type": "theory",
       "title": "Mehrere Adjektive: die Reihenfolge",
-      "body": "## Wenn mehrere Adjektive zusammenkommen\n\nStehen mehrere Adjektive vor einem Nomen, gibt es eine feste Reihenfolge. Eine vereinfachte Merkkette für A1:\n\n> **Meinung – Größe – Alter – Farbe – Nomen**\n\n- *a **nice big red** car* — ein schönes großes rotes Auto\n- *a **small black** jacket* — eine kleine schwarze Jacke\n\nDie Farbe steht also recht spät, kurz vor dem Nomen. *a red big car* klingt für englische Ohren falsch — richtig ist *a big red car* (Größe vor Farbe).\n\nIm Geschäft hilfreich: **this one** (dieses hier) und **that one** (das da), um auf Kleidungsstücke zu zeigen, ohne das Nomen zu wiederholen: *I like this one.*"
+      "body": "## Wenn mehrere Adjektive zusammenkommen\n\nStehen mehrere Adjektive vor einem Nomen, gibt es eine feste Reihenfolge. Eine vereinfachte Merkkette für A1:\n\n> **Meinung – Größe – Alter – Farbe – Nomen**\n\n- *a **nice big red** car*, ein schönes großes rotes Auto\n- *a **small black** jacket*, eine kleine schwarze Jacke\n\nDie Farbe steht also recht spät, kurz vor dem Nomen. *a red big car* klingt für englische Ohren falsch, richtig ist *a big red car* (Größe vor Farbe).\n\nIm Geschäft hilfreich: **this one** (dieses hier) und **that one** (das da), um auf Kleidungsstücke zu zeigen, ohne das Nomen zu wiederholen: *I like this one.*"
     },
     {
       "id": "ex-match-colors",
@@ -200,7 +200,7 @@
           { "accept": ["red"] }
         ],
         "cloze_mode": "type",
-        "hint": "'rot' — unverändert, auch im Plural (nicht 'reds')."
+        "hint": "'rot', unverändert, auch im Plural (nicht 'reds')."
       }
     },
     {
@@ -236,7 +236,7 @@
           { "accept": ["green"] }
         ],
         "cloze_mode": "type",
-        "hint": "'grün' — unverändert, nicht 'greens'."
+        "hint": "'grün', unverändert, nicht 'greens'."
       }
     },
     {
@@ -300,7 +300,7 @@
         "type": "cloze",
         "prompt": "Ergänze 'one'. Du zeigst auf etwas weiter Entferntes ('das da').",
         "card_ids": ["that-one"],
-        "sentence": "Not this one — I want that ___ .",
+        "sentence": "Not this one, I want that ___ .",
         "blanks": [
           { "accept": ["one"] }
         ],

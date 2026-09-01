@@ -1,7 +1,7 @@
 {
   "id": "04-zahlen",
   "title": "Zahlen",
-  "description": "Die beiden koreanischen Zahlensysteme: sino-koreanisch (il, i, sam ...) und nativ-koreanisch (hana, dul, set ...) — auf Deutsch erklärt.",
+  "description": "Die beiden koreanischen Zahlensysteme: sino-koreanisch (il, i, sam ...) und nativ-koreanisch (hana, dul, set ...), auf Deutsch erklärt.",
   "target_language": "ko",
   "source_language": "de",
   "domain": "language",
@@ -127,7 +127,7 @@
       "id": "step-anwendung",
       "type": "theory",
       "title": "Wann welches System?",
-      "body": "## Faustregel\n\n- **Sino-koreanisch**: 'wie viel?' im Sinne von Maßeinheiten — Geld (원 won), Minuten (분 bun), Monate, Datum.\n- **Nativ-koreanisch**: 'wie viele?' beim Zählen von Gegenständen (개 gae 'Stück'), Personen (명 myeong) und bei der vollen Stunde (시 si).\n\nBeispiel: **다섯 시 삼십 분 (daseot si samsip bun)** — 5 Uhr 30 (Stunde nativ, Minuten sino)."
+      "body": "## Faustregel\n\n- **Sino-koreanisch**: 'wie viel?' im Sinne von Maßeinheiten, Geld (원 won), Minuten (분 bun), Monate, Datum.\n- **Nativ-koreanisch**: 'wie viele?' beim Zählen von Gegenständen (개 gae 'Stück'), Personen (명 myeong) und bei der vollen Stunde (시 si).\n\nBeispiel: **다섯 시 삼십 분 (daseot si samsip bun)**, 5 Uhr 30 (Stunde nativ, Minuten sino)."
     },
     {
       "id": "ex-match-sino",
@@ -217,7 +217,7 @@
         "sentence": "사과 ___ 주세요.",
         "blanks": [{"accept": ["하나", "hana"]}],
         "cloze_mode": "type",
-        "hint": "'einen Apfel, bitte' — nativ 'eins'."
+        "hint": "'einen Apfel, bitte', nativ 'eins'."
       }
     },
     {

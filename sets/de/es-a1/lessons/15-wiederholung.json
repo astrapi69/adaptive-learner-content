@@ -1,7 +1,7 @@
 {
   "id": "15-wiederholung",
   "title": "Wiederholung und Festigung A1",
-  "description": "Die große A1-Wiederholung: Artikel und Geschlecht, ser und estar, Präsens (-AR/-ER/-IR) und das einfache Vergangenheitstempus (Präteritum) — alles in einem.",
+  "description": "Die große A1-Wiederholung: Artikel und Geschlecht, ser und estar, Präsens (-AR/-ER/-IR) und das einfache Vergangenheitstempus (Präteritum), alles in einem.",
   "target_language": "es",
   "source_language": "de",
   "estimated_minutes": 15,
@@ -58,7 +58,7 @@
       "id": "soy",
       "stable_id": "card-ms9433gv176no",
       "front": "yo soy",
-      "back": "ich bin (ser — Identität)",
+      "back": "ich bin (ser, Identität)",
       "tags": [
         "ser"
       ]
@@ -67,7 +67,7 @@
       "id": "estoy",
       "stable_id": "card-ms9433gv177dl",
       "front": "yo estoy",
-      "back": "ich bin (estar — Zustand/Ort)",
+      "back": "ich bin (estar, Zustand/Ort)",
       "tags": [
         "estar"
       ]
@@ -127,7 +127,7 @@
       "stable_id": "card-ms9433gv17drn",
       "front": "yo fui",
       "back": "ich ging / ich war (ir/ser, unregelmäßig)",
-      "notes": "Unregelmäßiges Präteritum — KEIN Akzent: fui.",
+      "notes": "Unregelmäßiges Präteritum, KEIN Akzent: fui.",
       "tags": [
         "praeteritum"
       ]
@@ -167,13 +167,13 @@
       "id": "intro",
       "type": "theory",
       "title": "Deine vier großen A1-Erfolge",
-      "body": "# Wiederholung A1\n\nDu hast die vier wichtigsten A1-Bausteine gelernt. Hier kommt alles noch einmal kompakt zusammen — und diesmal kombiniert in einem Satz.\n\n| Thema | Kernregel | Beispiel |\n|---|---|---|\n| **Geschlecht** | -o → maskulin (el), -a → feminin (la) | el libro, la casa |\n| **ser / estar** | Kann es sich ändern? Nein → ser, Ja → estar | Soy alta / Estoy feliz |\n| **Präsens** | -AR/-ER/-IR: hablo, como, vivo | Hablo español. |\n| **Präteritum** | regelmäßig mit Akzent (hablé, habló), unregelmäßig ohne (fui, hice) | Ayer hablé. |\n\nKeine neuen Wörter — nur Festigung und Kombination."
+      "body": "# Wiederholung A1\n\nDu hast die vier wichtigsten A1-Bausteine gelernt. Hier kommt alles noch einmal kompakt zusammen, und diesmal kombiniert in einem Satz.\n\n| Thema | Kernregel | Beispiel |\n|---|---|---|\n| **Geschlecht** | -o → maskulin (el), -a → feminin (la) | el libro, la casa |\n| **ser / estar** | Kann es sich ändern? Nein → ser, Ja → estar | Soy alta / Estoy feliz |\n| **Präsens** | -AR/-ER/-IR: hablo, como, vivo | Hablo español. |\n| **Präteritum** | regelmäßig mit Akzent (hablé, habló), unregelmäßig ohne (fui, hice) | Ayer hablé. |\n\nKeine neuen Wörter, nur Festigung und Kombination."
     },
     {
       "id": "step-watchouts",
       "type": "theory",
       "title": "Die typischen Stolperfallen",
-      "body": "## Worauf du besonders achten musst\n\n- **ser vs. estar**: *Soy estudiante* (Identität → ser), aber *Estoy cansado* (Zustand → estar). Die Frage lautet immer: \"Kann sich das ändern?\"\n- **Der Akzent entscheidet die Zeit**: *hablo* = ich spreche (Präsens), *hablé* = ich sprach (Präteritum). Ein einziger Akzent verändert die Bedeutung komplett.\n- **Regelmäßig vs. unregelmäßig im Präteritum**: regelmäßig trägt den Akzent (hablé, habló, comí), die häufigen unregelmäßigen Formen tragen KEINEN (fui, hice, tuve).\n- **Die Verschmelzungen al und del**: *a + el = al*, *de + el = del*. Also *Voy al mercado*, *Vengo del mercado* — nie *a el* oder *de el*."
+      "body": "## Worauf du besonders achten musst\n\n- **ser vs. estar**: *Soy estudiante* (Identität → ser), aber *Estoy cansado* (Zustand → estar). Die Frage lautet immer: \"Kann sich das ändern?\"\n- **Der Akzent entscheidet die Zeit**: *hablo* = ich spreche (Präsens), *hablé* = ich sprach (Präteritum). Ein einziger Akzent verändert die Bedeutung komplett.\n- **Regelmäßig vs. unregelmäßig im Präteritum**: regelmäßig trägt den Akzent (hablé, habló, comí), die häufigen unregelmäßigen Formen tragen KEINEN (fui, hice, tuve).\n- **Die Verschmelzungen al und del**: *a + el = al*, *de + el = del*. Also *Voy al mercado*, *Vengo del mercado*, nie *a el* oder *de el*."
     },
     {
       "id": "ex-match-mixed",
@@ -226,7 +226,7 @@
         "id": "ex-match-present-past",
         "stable_id": "ex-ms9433gv17iw4",
         "type": "matching",
-        "prompt": "Ordne jede Form ihrer deutschen Bedeutung zu — achte auf den Akzent (Präsens vs. Präteritum).",
+        "prompt": "Ordne jede Form ihrer deutschen Bedeutung zu, achte auf den Akzent (Präsens vs. Präteritum).",
         "card_ids": [
           "hablo",
           "hable",
@@ -351,7 +351,7 @@
         "id": "ex-cloze-estar",
         "stable_id": "ex-ms9433gv17lqd",
         "type": "cloze",
-        "prompt": "Müde sein ist ein vorübergehender Zustand — ergänze die richtige Form.",
+        "prompt": "Müde sein ist ein vorübergehender Zustand, ergänze die richtige Form.",
         "card_ids": [
           "estoy"
         ],
@@ -429,7 +429,7 @@
         "id": "ex-cloze-preterite-ir",
         "stable_id": "ex-ms9433gv17oi6",
         "type": "cloze",
-        "prompt": "Ergänze die yo-Form von ir (gehen) im Präteritum — unregelmäßig, kein Akzent.",
+        "prompt": "Ergänze die yo-Form von ir (gehen) im Präteritum, unregelmäßig, kein Akzent.",
         "card_ids": [
           "fui"
         ],
@@ -560,7 +560,7 @@
         "id": "ex-free-gender-article",
         "stable_id": "ex-ms9433gv17twh",
         "type": "free_text",
-        "prompt": "Übersetze: 'das rote Hemd'. (camisa ist feminin — Artikel und Adjektiv müssen passen)",
+        "prompt": "Übersetze: 'das rote Hemd'. (camisa ist feminin, Artikel und Adjektiv müssen passen)",
         "card_ids": [
           "camisa-roja",
           "rojo"

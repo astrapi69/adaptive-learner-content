@@ -1,7 +1,7 @@
 {
   "id": "03-zahlen-1-30",
   "title": "Zahlen 1-30",
-  "description": "Die brasilianischen Zahlen von 1 bis 30 — auf Deutsch erklärt.",
+  "description": "Die brasilianischen Zahlen von 1 bis 30, auf Deutsch erklärt.",
   "target_language": "pt",
   "source_language": "de",
   "domain": "language",
@@ -145,7 +145,7 @@
       "id": "step-zwanzig",
       "type": "theory",
       "title": "Zwanzig und dreißig",
-      "body": "## 11 bis 30\n\nWichtige Zehner:\n\n- **vinte** — zwanzig\n- **trinta** — dreißig\n\nZusammengesetzte Zahlen verbindet man mit **e** (und):\n\n- **vinte e um** — einundzwanzig\n- **vinte e cinco** — fünfundzwanzig\n- **trinta** — dreißig\n\nNach der Anzahl fragt man mit **Quantos?** (m.) / **Quantas?** (w.) — *wie viele?*"
+      "body": "## 11 bis 30\n\nWichtige Zehner:\n\n- **vinte**, zwanzig\n- **trinta**, dreißig\n\nZusammengesetzte Zahlen verbindet man mit **e** (und):\n\n- **vinte e um**, einundzwanzig\n- **vinte e cinco**, fünfundzwanzig\n- **trinta**, dreißig\n\nNach der Anzahl fragt man mit **Quantos?** (m.) / **Quantas?** (w.), *wie viele?*"
     },
     {
       "id": "ex-match-zahlen",
@@ -180,7 +180,7 @@
         "prompt": "Wie heißt 'sieben' auf Portugiesisch?",
         "card_ids": ["sete"],
         "accept": ["sete", "Sete"],
-        "hint": "Beginnt mit s — wie 'sieben'.",
+        "hint": "Beginnt mit s, wie 'sieben'.",
         "distractors": ["seis", "oito", "cinco"],
         "direction": "source_to_target"
       }

@@ -41,7 +41,7 @@
       "id": "wlan-sync",
       "stable_id": "card-ms9433fe0398b",
       "front": "WLAN-Synchronisierung",
-      "back": "Zwei Geräte gleichen ihre Daten direkt über das lokale Netzwerk ab — in beide Richtungen, ohne Umweg über einen fremden Server.",
+      "back": "Zwei Geräte gleichen ihre Daten direkt über das lokale Netzwerk ab, in beide Richtungen, ohne Umweg über einen fremden Server.",
       "notes": "Englisch: WiFi sync. Bidirektional (beide Richtungen).",
       "media_type": "text",
       "difficulty": 2,
@@ -51,7 +51,7 @@
       "id": "qr-kopplung",
       "stable_id": "card-ms9433fe03anx",
       "front": "QR-Code-Kopplung",
-      "back": "Zum Verbinden zweier Geräte scannt eines den QR-Code des anderen — so ist die Kopplung schnell und ohne Tippen eingerichtet.",
+      "back": "Zum Verbinden zweier Geräte scannt eines den QR-Code des anderen, so ist die Kopplung schnell und ohne Tippen eingerichtet.",
       "notes": "Englisch: QR-code pairing. Bequemer Start der Synchronisierung.",
       "media_type": "text",
       "difficulty": 2,
@@ -99,13 +99,13 @@
       "id": "step-sync",
       "type": "theory",
       "title": "Geräte synchronisieren",
-      "body": "## WLAN-Sync und QR-Kopplung\n\nAuch ohne Server kannst du zwei Geräte abgleichen: Die **WLAN-Synchronisierung** überträgt die Daten **direkt über das lokale Netzwerk**, in **beide Richtungen**.\n\n- Zum Verbinden genügt die **QR-Code-Kopplung**: ein Gerät scannt den Code des anderen.\n- Haben beide Geräte dieselbe Sache unterschiedlich geändert, sorgt eine **KI-gestützte Konfliktlösung** dafür, dass nichts verloren geht.\n\nSo lernst du am Handy weiter, wo du am Laptop aufgehört hast — ohne Cloud dazwischen."
+      "body": "## WLAN-Sync und QR-Kopplung\n\nAuch ohne Server kannst du zwei Geräte abgleichen: Die **WLAN-Synchronisierung** überträgt die Daten **direkt über das lokale Netzwerk**, in **beide Richtungen**.\n\n- Zum Verbinden genügt die **QR-Code-Kopplung**: ein Gerät scannt den Code des anderen.\n- Haben beide Geräte dieselbe Sache unterschiedlich geändert, sorgt eine **KI-gestützte Konfliktlösung** dafür, dass nichts verloren geht.\n\nSo lernst du am Handy weiter, wo du am Laptop aufgehört hast, ohne Cloud dazwischen."
     },
     {
       "id": "step-backup",
       "type": "theory",
       "title": "Sichern und wiederherstellen",
-      "body": "## Backup mit und ohne Schlüssel\n\nEin **Backup** exportiert deine Daten in eine Datei, die du jederzeit wieder einspielst. Beim Wiederherstellen zeigt die App die Unterschiede **feldweise** an, sodass du bewusst entscheidest, was übernommen wird.\n\nBeim **Schlüssel-Export** hast du die Wahl:\n\n- **mit** deinen verschlüsselten API-Schlüsseln — praktisch für den eigenen Umzug auf ein neues Gerät,\n- **ohne** Schlüssel — sicher zum Weitergeben, ohne geheime Zugänge preiszugeben.\n\nRegelmäßiges Sichern schützt dich vor Datenverlust."
+      "body": "## Backup mit und ohne Schlüssel\n\nEin **Backup** exportiert deine Daten in eine Datei, die du jederzeit wieder einspielst. Beim Wiederherstellen zeigt die App die Unterschiede **feldweise** an, sodass du bewusst entscheidest, was übernommen wird.\n\nBeim **Schlüssel-Export** hast du die Wahl:\n\n- **mit** deinen verschlüsselten API-Schlüsseln, praktisch für den eigenen Umzug auf ein neues Gerät,\n- **ohne** Schlüssel, sicher zum Weitergeben, ohne geheime Zugänge preiszugeben.\n\nRegelmäßiges Sichern schützt dich vor Datenverlust."
     },
     {
       "id": "ex-match-speicher",

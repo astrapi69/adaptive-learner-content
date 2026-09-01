@@ -1,7 +1,7 @@
 {
   "id": "05-inhalte-entdecken",
   "title": "Inhalte: Sets, Lektionen, Karten und Content Hub",
-  "description": "Wie Lerninhalte aufgebaut sind — Karte, Lektion, Set — und wie du im Content Hub Sets entdeckst, herunterlädst und eigene Quellen aus GitHub hinzufügst.",
+  "description": "Wie Lerninhalte aufgebaut sind, Karte, Lektion, Set, und wie du im Content Hub Sets entdeckst, herunterlädst und eigene Quellen aus GitHub hinzufügst.",
   "target_language": "de",
   "source_language": "de",
   "domain": "software",
@@ -21,7 +21,7 @@
       "id": "lektion-struktur",
       "stable_id": "card-ms9433fc01m8s",
       "front": "Lektion",
-      "back": "Eine abgeschlossene Einheit aus Theorie-Abschnitten und Übungen, die eine Gruppe von Karten durcharbeitet — meist 5–15 Minuten.",
+      "back": "Eine abgeschlossene Einheit aus Theorie-Abschnitten und Übungen, die eine Gruppe von Karten durcharbeitet, meist 5–15 Minuten.",
       "notes": "Mehrere Karten plus Theorie und Übungen ergeben eine Lektion.",
       "media_type": "text",
       "difficulty": 1,
@@ -93,19 +93,19 @@
       "id": "intro",
       "type": "theory",
       "title": "Von der Karte zum Set",
-      "body": "# Wie Inhalte aufgebaut sind\n\nLerninhalte in Adaptive Learner sind in drei Ebenen gegliedert — von klein nach groß:\n\n- **Karte** — die kleinste Einheit: ein Begriff mit Vorder- und Rückseite. Die Wiederholungsplanung verfolgt jede Karte einzeln.\n- **Lektion** — Theorie und Übungen, die eine Gruppe von Karten durcharbeiten (5–15 Minuten).\n- **Set** — eine Sammlung zusammengehöriger Lektionen zu einem Thema (z. B. „Spanisch A1“).\n\nDas **Set** ist die Einheit, die du herunterlädst. Genau dieser Kurs, den du gerade liest, ist ebenfalls ein Set."
+      "body": "# Wie Inhalte aufgebaut sind\n\nLerninhalte in Adaptive Learner sind in drei Ebenen gegliedert, von klein nach groß:\n\n- **Karte**, die kleinste Einheit: ein Begriff mit Vorder- und Rückseite. Die Wiederholungsplanung verfolgt jede Karte einzeln.\n- **Lektion**, Theorie und Übungen, die eine Gruppe von Karten durcharbeiten (5–15 Minuten).\n- **Set**, eine Sammlung zusammengehöriger Lektionen zu einem Thema (z. B. „Spanisch A1“).\n\nDas **Set** ist die Einheit, die du herunterlädst. Genau dieser Kurs, den du gerade liest, ist ebenfalls ein Set."
     },
     {
       "id": "step-hub",
       "type": "theory",
       "title": "Der Content Hub",
-      "body": "## Inhalte finden und verwalten\n\nDer **Content Hub** ist deine zentrale Anlaufstelle für Inhalte. Er hat drei Tabs:\n\n| Tab | Zweck |\n|---|---|\n| **Entdecken** | verfügbare Sets durchstöbern und herunterladen |\n| **Meine Inhalte** | bereits geladene Sets zum Lernen |\n| **Import** | eigene Inhalte oder Chatverläufe einbringen |\n\nEin Set lädst du herunter, indem du es unter **Entdecken** auswählst und auf **Herunterladen** tippst. Danach findest du es unter **Meine Inhalte** — auch offline."
+      "body": "## Inhalte finden und verwalten\n\nDer **Content Hub** ist deine zentrale Anlaufstelle für Inhalte. Er hat drei Tabs:\n\n| Tab | Zweck |\n|---|---|\n| **Entdecken** | verfügbare Sets durchstöbern und herunterladen |\n| **Meine Inhalte** | bereits geladene Sets zum Lernen |\n| **Import** | eigene Inhalte oder Chatverläufe einbringen |\n\nEin Set lädst du herunter, indem du es unter **Entdecken** auswählst und auf **Herunterladen** tippst. Danach findest du es unter **Meine Inhalte**, auch offline."
     },
     {
       "id": "step-quellen",
       "type": "theory",
       "title": "Eigene Quellen hinzufügen",
-      "body": "## Content-Repositorys und Vertrauen\n\nDie App ist nicht auf die mitgelieferten Inhalte beschränkt. Über **Einstellungen → Integrationen → Repository hinzufügen** kannst du ein **Content-Repository** auf GitHub als Quelle eintragen.\n\nDamit du weißt, worauf du dich verlässt, tragen Quellen eine **Vertrauensstufe**:\n\n- **Validierte Quellen** werden wie mitgelieferte Inhalte behandelt.\n- **Unbekannte Quellen** werden deutlicher gekennzeichnet, damit du bewusst entscheidest.\n\nSo kannst du Inhalte von Lehrkräften, Communities oder dir selbst nutzen — ohne die Kontrolle zu verlieren."
+      "body": "## Content-Repositorys und Vertrauen\n\nDie App ist nicht auf die mitgelieferten Inhalte beschränkt. Über **Einstellungen → Integrationen → Repository hinzufügen** kannst du ein **Content-Repository** auf GitHub als Quelle eintragen.\n\nDamit du weißt, worauf du dich verlässt, tragen Quellen eine **Vertrauensstufe**:\n\n- **Validierte Quellen** werden wie mitgelieferte Inhalte behandelt.\n- **Unbekannte Quellen** werden deutlicher gekennzeichnet, damit du bewusst entscheidest.\n\nSo kannst du Inhalte von Lehrkräften, Communities oder dir selbst nutzen, ohne die Kontrolle zu verlieren."
     },
     {
       "id": "ex-tiles-hierarchie",
@@ -207,7 +207,7 @@
         "sentence": "Jede Quelle trägt eine ___, die anzeigt, wie geprüft sie ist.",
         "blanks": [{"accept": ["Vertrauensstufe", "Vertrauensstufe (trust level)"]}],
         "cloze_mode": "type",
-        "hint": "Validiert oder unbekannt — es geht um Vertrauen."
+        "hint": "Validiert oder unbekannt, es geht um Vertrauen."
       }
     }
   ]

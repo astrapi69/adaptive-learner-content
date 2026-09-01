@@ -9,7 +9,7 @@
       "stable_id": "card-ms9433jc3louh",
       "front": "können",
       "back": "can / to be able to",
-      "notes": "*Ich kann* — I can. Note: no **-t** in *er kann*.",
+      "notes": "*Ich kann*, I can. Note: no **-t** in *er kann*.",
       "tags": ["modal"]
     },
     {
@@ -17,7 +17,7 @@
       "stable_id": "card-ms9433jc3lpe5",
       "front": "müssen",
       "back": "must / to have to",
-      "notes": "*Ich muss* — I must.",
+      "notes": "*Ich muss*, I must.",
       "tags": ["modal"]
     },
     {
@@ -25,7 +25,7 @@
       "stable_id": "card-ms9433jc3lq4r",
       "front": "dürfen",
       "back": "may / to be allowed to",
-      "notes": "*Ich darf* — I'm allowed to.",
+      "notes": "*Ich darf*, I'm allowed to.",
       "tags": ["modal"]
     },
     {
@@ -33,7 +33,7 @@
       "stable_id": "card-ms9433jc3lrr6",
       "front": "wollen",
       "back": "to want to",
-      "notes": "*Ich will* — I want to. (Careful: *will* is German, not English \"will\".)",
+      "notes": "*Ich will*, I want to. (Careful: *will* is German, not English \"will\".)",
       "tags": ["modal"]
     },
     {
@@ -41,7 +41,7 @@
       "stable_id": "card-ms9433jc3lsmv",
       "front": "sollen",
       "back": "should / to be supposed to",
-      "notes": "*Ich soll* — I should / I'm supposed to.",
+      "notes": "*Ich soll*, I should / I'm supposed to.",
       "tags": ["modal"]
     },
     {
@@ -49,7 +49,7 @@
       "stable_id": "card-ms9433jc3ltfh",
       "front": "möchten",
       "back": "would like to",
-      "notes": "Polite form of *mögen*. *Ich möchte* — I'd like.",
+      "notes": "Polite form of *mögen*. *Ich möchte*, I'd like.",
       "tags": ["modal", "politeness"]
     },
     {
@@ -82,7 +82,7 @@
       "id": "l3-modal-theory",
       "type": "theory",
       "title": "Using modal verbs",
-      "body": "# Modal verbs\n\nModal verbs add meaning to another verb: ability, necessity, permission, wishes.\n\n**Sentence pattern:** modal verb in **position 2**, the main verb as an **infinitive at the end**.\n\n> **Ich kann schwimmen.** — I can swim.\n> **Ich muss heute arbeiten.** — I have to work today.\n\n## The six modals\n\n| Verb | Meaning | *ich* form |\n|---|---|---|\n| können | can | ich **kann** |\n| müssen | must | ich **muss** |\n| dürfen | may | ich **darf** |\n| wollen | want to | ich **will** |\n| sollen | should | ich **soll** |\n| möchten | would like to | ich **möchte** |\n\nNote: in the singular there is **no -t** ending: *er kann*, *er muss* (not *kannt/musst*).\n\nUse **möchten** to order politely: *Ich möchte einen Kaffee.*"
+      "body": "# Modal verbs\n\nModal verbs add meaning to another verb: ability, necessity, permission, wishes.\n\n**Sentence pattern:** modal verb in **position 2**, the main verb as an **infinitive at the end**.\n\n> **Ich kann schwimmen.** - I can swim.\n> **Ich muss heute arbeiten.** - I have to work today.\n\n## The six modals\n\n| Verb | Meaning | *ich* form |\n|---|---|---|\n| können | can | ich **kann** |\n| müssen | must | ich **muss** |\n| dürfen | may | ich **darf** |\n| wollen | want to | ich **will** |\n| sollen | should | ich **soll** |\n| möchten | would like to | ich **möchte** |\n\nNote: in the singular there is **no -t** ending: *er kann*, *er muss* (not *kannt/musst*).\n\nUse **möchten** to order politely: *Ich möchte einen Kaffee.*"
     },
     {
       "id": "l3-ex-match-modals",
@@ -118,7 +118,7 @@
         "sentence": "Ich ___ Deutsch sprechen.",
         "blanks": [{"accept": ["kann"]}],
         "cloze_mode": "type",
-        "hint": "*ich*-form of können — remember: no -t."
+        "hint": "*ich*-form of können, remember: no -t."
       }
     },
     {
@@ -146,7 +146,7 @@
         "id": "l3-ex-free-moechte",
         "stable_id": "ex-ms9433jc3m0cz",
         "type": "free_text",
-        "prompt": "Fill the gap politely — \"Ich ___ einen Kaffee.\" (I would like a coffee)",
+        "prompt": "Fill the gap politely, \"Ich ___ einen Kaffee.\" (I would like a coffee)",
         "card_ids": ["de-a2-moechten", "de-a2-moechte-kaffee"],
         "accept": ["möchte", "mochte", "möchte "],
         "distractors": ["will", "kann", "muss"],

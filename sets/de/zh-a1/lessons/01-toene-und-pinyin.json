@@ -1,7 +1,7 @@
 {
   "id": "01-toene-und-pinyin",
   "title": "Töne und Pinyin",
-  "description": "Die vier Töne plus neutraler Ton, die Beispielsilben mā má mǎ mà und Grundlagen der Pinyin-Umschrift — auf Deutsch erklärt.",
+  "description": "Die vier Töne plus neutraler Ton, die Beispielsilben mā má mǎ mà und Grundlagen der Pinyin-Umschrift, auf Deutsch erklärt.",
   "target_language": "zh",
   "source_language": "de",
   "domain": "language",
@@ -121,13 +121,13 @@
       "id": "intro-toene",
       "type": "theory",
       "title": "Die vier Töne",
-      "body": "# Die Töne im Chinesischen\n\nMandarin ist eine **Tonsprache**: Die Tonhöhe verändert die Bedeutung eines Wortes. Dieselbe Silbe **ma** bedeutet je nach Ton etwas völlig anderes.\n\n| Ton | Zeichen | Pinyin | Verlauf | Bedeutung |\n|---|---|---|---|---|\n| 1. Ton | 妈 | **mā** | hoch und gleichbleibend (¯) | Mama |\n| 2. Ton | 麻 | **má** | steigend (´), wie eine Frage | Hanf |\n| 3. Ton | 马 | **mǎ** | erst fallend, dann steigend (ˇ) | Pferd |\n| 4. Ton | 骂 | **mà** | scharf fallend (`) | schimpfen |\n| neutral | 吗 | **ma** | kurz und leicht, ohne Zeichen | Fragepartikel |\n\n> Merksatz: **mā má mǎ mà** — vom gleichbleibend hohen bis zum scharf fallenden Ton.\n\nDie **Tonzeichen** stehen immer über dem Vokal: ā á ǎ à. Bei mehreren Vokalen trägt in der Regel a, o oder e das Zeichen (z. B. *hǎo*, *xièxie*)."
+      "body": "# Die Töne im Chinesischen\n\nMandarin ist eine **Tonsprache**: Die Tonhöhe verändert die Bedeutung eines Wortes. Dieselbe Silbe **ma** bedeutet je nach Ton etwas völlig anderes.\n\n| Ton | Zeichen | Pinyin | Verlauf | Bedeutung |\n|---|---|---|---|---|\n| 1. Ton | 妈 | **mā** | hoch und gleichbleibend (¯) | Mama |\n| 2. Ton | 麻 | **má** | steigend (´), wie eine Frage | Hanf |\n| 3. Ton | 马 | **mǎ** | erst fallend, dann steigend (ˇ) | Pferd |\n| 4. Ton | 骂 | **mà** | scharf fallend (`) | schimpfen |\n| neutral | 吗 | **ma** | kurz und leicht, ohne Zeichen | Fragepartikel |\n\n> Merksatz: **mā má mǎ mà**, vom gleichbleibend hohen bis zum scharf fallenden Ton.\n\nDie **Tonzeichen** stehen immer über dem Vokal: ā á ǎ à. Bei mehreren Vokalen trägt in der Regel a, o oder e das Zeichen (z. B. *hǎo*, *xièxie*)."
     },
     {
       "id": "intro-pinyin",
       "type": "theory",
       "title": "Pinyin-Grundlagen",
-      "body": "## Was ist Pinyin?\n\n**Pinyin** ist die offizielle Umschrift, die chinesische Laute mit lateinischen Buchstaben darstellt. Sie hilft dir, die Aussprache zu lernen, bevor du nur noch Schriftzeichen siehst.\n\n- Eine Silbe besteht aus **Anlaut** (Konsonant) + **Auslaut** (Vokalteil) + **Ton**.\n- Beispiel: **n** + **ǐ** = **nǐ** (你, du).\n- Der **neutrale Ton** bekommt kein Tonzeichen: *ma* (吗), *xie* in *xièxie*.\n\nAchtung: Einige Buchstaben klingen anders als im Deutschen. *q* spricht man etwa wie *tsch*, *x* wie ein weiches *sch*, *zh* wie *dsch*. Konzentriere dich zuerst auf die **Töne** — sie sind der Schlüssel."
+      "body": "## Was ist Pinyin?\n\n**Pinyin** ist die offizielle Umschrift, die chinesische Laute mit lateinischen Buchstaben darstellt. Sie hilft dir, die Aussprache zu lernen, bevor du nur noch Schriftzeichen siehst.\n\n- Eine Silbe besteht aus **Anlaut** (Konsonant) + **Auslaut** (Vokalteil) + **Ton**.\n- Beispiel: **n** + **ǐ** = **nǐ** (你, du).\n- Der **neutrale Ton** bekommt kein Tonzeichen: *ma* (吗), *xie* in *xièxie*.\n\nAchtung: Einige Buchstaben klingen anders als im Deutschen. *q* spricht man etwa wie *tsch*, *x* wie ein weiches *sch*, *zh* wie *dsch*. Konzentriere dich zuerst auf die **Töne**, sie sind der Schlüssel."
     },
     {
       "id": "ex-match-toene",

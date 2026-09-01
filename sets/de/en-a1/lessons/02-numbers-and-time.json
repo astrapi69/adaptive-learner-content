@@ -1,7 +1,7 @@
 {
   "id": "02-numbers-and-time",
   "title": "Zahlen und Uhrzeit",
-  "description": "Zahlen von 1 bis 100, die Uhrzeit, Wochentage und Monate — auf Deutsch erklärt.",
+  "description": "Zahlen von 1 bis 100, die Uhrzeit, Wochentage und Monate, auf Deutsch erklärt.",
   "target_language": "en",
   "source_language": "de",
   "estimated_minutes": 14,
@@ -107,7 +107,7 @@
       "stable_id": "card-ms9433fj05npi",
       "front": "Monday",
       "back": "Montag",
-      "notes": "Wichtig: Wochentage werden im Englischen IMMER großgeschrieben — auch mitten im Satz.",
+      "notes": "Wichtig: Wochentage werden im Englischen IMMER großgeschrieben, auch mitten im Satz.",
       "tags": ["wochentage"]
     },
     {
@@ -124,7 +124,7 @@
       "id": "intro",
       "type": "theory",
       "title": "Zahlen von 1 bis 100",
-      "body": "# Zahlen auf Englisch\n\nDie Grundzahlen ähneln dem Deutschen, sind aber leichter zu bauen.\n\n- **1–12**: eigene Wörter — one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve.\n- **13–19**: Endung **-teen** — thir**teen**, four**teen**, fif**teen** ...\n- **20–90**: Endung **-ty** — twen**ty**, thir**ty**, for**ty** ...\n- **Zusammengesetzt**: einfach hintereinander, mit Bindestrich: **twenty-one**, **forty-five**.\n\n**Großer Unterschied zum Deutschen:** Die Zahlen werden NICHT umgedreht. 21 = *twenty-one* (zwanzig-eins), nicht 'einundzwanzig'. 100 = *a hundred* / *one hundred*."
+      "body": "# Zahlen auf Englisch\n\nDie Grundzahlen ähneln dem Deutschen, sind aber leichter zu bauen.\n\n- **1–12**: eigene Wörter, one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve.\n- **13–19**: Endung **-teen**, thir**teen**, four**teen**, fif**teen** ...\n- **20–90**: Endung **-ty**, twen**ty**, thir**ty**, for**ty** ...\n- **Zusammengesetzt**: einfach hintereinander, mit Bindestrich: **twenty-one**, **forty-five**.\n\n**Großer Unterschied zum Deutschen:** Die Zahlen werden NICHT umgedreht. 21 = *twenty-one* (zwanzig-eins), nicht 'einundzwanzig'. 100 = *a hundred* / *one hundred*."
     },
     {
       "id": "step-teens-tens",
@@ -136,7 +136,7 @@
       "id": "step-time",
       "type": "theory",
       "title": "Die Uhrzeit und die 12-Stunden-Uhr",
-      "body": "## Wie spät ist es?\n\nFrage: **What time is it?** — Antwort: **It's ...**\n\n- Volle Stunde: **It's three o'clock.** (3:00)\n- Viertel nach: **It's quarter past three.** (3:15)\n- Halb: **It's half past three.** (3:30)\n- Viertel vor: **It's quarter to four.** (3:45)\n\n**Achtung, falscher Freund:** *half past three* heißt **3:30** — also das deutsche 'halb VIER'! Englisch zählt von der vergangenen Stunde aus ('halb NACH drei'), Deutsch von der kommenden.\n\nEnglischsprachige nutzen meist die **12-Stunden-Uhr** mit **a.m.** (vormittags) und **p.m.** (nachmittags/abends) statt der 24-Stunden-Zählung. '15:00' wird zu '3 p.m.'.\n\nWochentage (**Monday, Tuesday ...**) und Monate (**January, February ...**) schreibt man IMMER groß."
+      "body": "## Wie spät ist es?\n\nFrage: **What time is it?** - Antwort: **It's ...**\n\n- Volle Stunde: **It's three o'clock.** (3:00)\n- Viertel nach: **It's quarter past three.** (3:15)\n- Halb: **It's half past three.** (3:30)\n- Viertel vor: **It's quarter to four.** (3:45)\n\n**Achtung, falscher Freund:** *half past three* heißt **3:30**, also das deutsche 'halb VIER'! Englisch zählt von der vergangenen Stunde aus ('halb NACH drei'), Deutsch von der kommenden.\n\nEnglischsprachige nutzen meist die **12-Stunden-Uhr** mit **a.m.** (vormittags) und **p.m.** (nachmittags/abends) statt der 24-Stunden-Zählung. '15:00' wird zu '3 p.m.'.\n\nWochentage (**Monday, Tuesday ...**) und Monate (**January, February ...**) schreibt man IMMER groß."
     },
     {
       "id": "ex-match-numbers",
@@ -184,7 +184,7 @@
         "id": "ex-pick-clock-half",
         "stable_id": "ex-ms9433fj05rvo",
         "type": "picture_choice",
-        "prompt": "Welche Uhr zeigt 'half past three'? (Vorsicht — das ist nicht halb drei!)",
+        "prompt": "Welche Uhr zeigt 'half past three'? (Vorsicht, das ist nicht halb drei!)",
         "card_ids": ["half-past"],
         "images": [
           { "src": "assets/img/clock-330.png", "label": "3:30", "is_correct": "true" },
@@ -284,7 +284,7 @@
           { "accept": ["Monday"] }
         ],
         "cloze_mode": "type",
-        "hint": "Montag — im Englischen IMMER mit großem Anfangsbuchstaben."
+        "hint": "Montag, im Englischen IMMER mit großem Anfangsbuchstaben."
       }
     },
     {

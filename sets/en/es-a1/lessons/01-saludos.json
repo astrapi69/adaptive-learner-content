@@ -52,7 +52,7 @@
       "stable_id": "card-ms9433jd3mxhy",
       "front": "Adiós",
       "back": "Goodbye",
-      "notes": "Standard farewell. The accent on **ó** is mandatory — *adios* without it is a spelling error.",
+      "notes": "Standard farewell. The accent on **ó** is mandatory, *adios* without it is a spelling error.",
       "tags": [
         "farewell"
       ]
@@ -62,7 +62,7 @@
       "stable_id": "card-ms9433jd3myg7",
       "front": "Hasta luego",
       "back": "See you later",
-      "notes": "Literally *until later*. Very common — more casual than *adiós*. Variants: *hasta mañana* (until tomorrow), *hasta pronto* (see you soon).",
+      "notes": "Literally *until later*. Very common, more casual than *adiós*. Variants: *hasta mañana* (until tomorrow), *hasta pronto* (see you soon).",
       "tags": [
         "farewell"
       ]
@@ -92,7 +92,7 @@
       "stable_id": "card-ms9433jd3n1sd",
       "front": "Me llamo…",
       "back": "My name is… (lit. *I call myself*)",
-      "notes": "Reflexive: *me* is the reflexive pronoun, *llamo* is the conjugated verb. *Me llamo Ana* — I call myself Ana.",
+      "notes": "Reflexive: *me* is the reflexive pronoun, *llamo* is the conjugated verb. *Me llamo Ana*, I call myself Ana.",
       "tags": [
         "introduction"
       ]
@@ -113,7 +113,7 @@
       "stable_id": "card-ms9433jd3n3fu",
       "front": "¿De dónde eres?",
       "back": "Where are you from? (informal)",
-      "notes": "Uses *ser* — origin is permanent. Answer: *Soy de + [place]* (I am from + place).",
+      "notes": "Uses *ser*, origin is permanent. Answer: *Soy de + [place]* (I am from + place).",
       "tags": [
         "question",
         "origin"
@@ -124,7 +124,7 @@
       "stable_id": "card-ms9433jd3n4cu",
       "front": "Soy de…",
       "back": "I am from… (place / country)",
-      "notes": "Uses *soy* (1st person of *ser*). *Soy de España* — I'm from Spain. Note Spain uses *de* directly, no article.",
+      "notes": "Uses *soy* (1st person of *ser*). *Soy de España*, I'm from Spain. Note Spain uses *de* directly, no article.",
       "tags": [
         "introduction",
         "origin"
@@ -136,13 +136,13 @@
       "id": "intro",
       "type": "theory",
       "title": "Greetings in Spanish",
-      "body": "# Saludos\n\nSpanish has time-of-day-specific greetings, like French, but the choice is less strict than in some other languages. **Hola** works any time. Add a time-specific greeting and you sound more polite or more formal.\n\n- **Hola** — Hi (all-purpose, any time)\n- **Buenos días** — Good morning (until lunch)\n- **Buenas tardes** — Good afternoon\n- **Buenas noches** — Good evening / Good night\n\nA few cultural notes:\n- Spain switches to *buenas tardes* after lunch (around 2pm), not after noon. Greeting someone with *buenos días* at 1pm is still correct.\n- Latin America has regional variations: *¿Qué tal?* (informal hi/how) is very common in some countries, less in others.\n- *Buenas noches* covers both arrival (good evening) and departure (good night). One word, two situations."
+      "body": "# Saludos\n\nSpanish has time-of-day-specific greetings, like French, but the choice is less strict than in some other languages. **Hola** works any time. Add a time-specific greeting and you sound more polite or more formal.\n\n- **Hola**, Hi (all-purpose, any time)\n- **Buenos días**, Good morning (until lunch)\n- **Buenas tardes**, Good afternoon\n- **Buenas noches**, Good evening / Good night\n\nA few cultural notes:\n- Spain switches to *buenas tardes* after lunch (around 2pm), not after noon. Greeting someone with *buenos días* at 1pm is still correct.\n- Latin America has regional variations: *¿Qué tal?* (informal hi/how) is very common in some countries, less in others.\n- *Buenas noches* covers both arrival (good evening) and departure (good night). One word, two situations."
     },
     {
       "id": "step-punctuation",
       "type": "theory",
-      "title": "¡ and ¿ — inverted punctuation",
-      "body": "## Spanish punctuation\n\nSpanish puts an **inverted** exclamation or question mark at the START of an exclamation or question, in addition to the normal one at the end:\n\n- ¡Hola! — Hi!\n- ¿Cómo estás? — How are you?\n- ¡Buenos días! — Good morning!\n- ¿De dónde eres? — Where are you from?\n\nThe inverted marks let the reader know how to intone the sentence from the very first word. They're mandatory in formal writing; in casual chat (WhatsApp, text messages) many native speakers drop them.\n\nOn most keyboards: ¡ is **Alt + 1** (or AltGr + 1 on Windows international), ¿ is **Alt + ?**. Spanish-layout keyboards have dedicated keys."
+      "title": "¡ and ¿ - inverted punctuation",
+      "body": "## Spanish punctuation\n\nSpanish puts an **inverted** exclamation or question mark at the START of an exclamation or question, in addition to the normal one at the end:\n\n- ¡Hola! - Hi!\n- ¿Cómo estás? - How are you?\n- ¡Buenos días! - Good morning!\n- ¿De dónde eres? - Where are you from?\n\nThe inverted marks let the reader know how to intone the sentence from the very first word. They're mandatory in formal writing; in casual chat (WhatsApp, text messages) many native speakers drop them.\n\nOn most keyboards: ¡ is **Alt + 1** (or AltGr + 1 on Windows international), ¿ is **Alt + ?**. Spanish-layout keyboards have dedicated keys."
     },
     {
       "id": "ex-match-greetings",
@@ -226,7 +226,7 @@
       "id": "step-introducing",
       "type": "theory",
       "title": "Introducing yourself",
-      "body": "## A basic introduction\n\nThree pieces cover most first meetings:\n\n1. **Name**: *Me llamo + [name]* — My name is + [name] (lit. *I call myself*)\n2. **Origin**: *Soy de + [place]* — I'm from + [place]\n3. **Closing politeness**: *Mucho gusto* — Nice to meet you\n\nFull example:\n\n- *Hola, me llamo Ana. Soy de Madrid. Mucho gusto.*\n- *Hi, my name is Ana. I'm from Madrid. Nice to meet you.*\n\nThe other person typically replies with *Igualmente* (likewise) or *el gusto es mío* (the pleasure is mine).\n\n*Me llamo* is a reflexive verb — the *me* is *yourself*, the *llamo* is the conjugated *call*. At A1, treat it as a fixed phrase; the grammar shows up in detail later."
+      "body": "## A basic introduction\n\nThree pieces cover most first meetings:\n\n1. **Name**: *Me llamo + [name]*, My name is + [name] (lit. *I call myself*)\n2. **Origin**: *Soy de + [place]*, I'm from + [place]\n3. **Closing politeness**: *Mucho gusto*, Nice to meet you\n\nFull example:\n\n- *Hola, me llamo Ana. Soy de Madrid. Mucho gusto.*\n- *Hi, my name is Ana. I'm from Madrid. Nice to meet you.*\n\nThe other person typically replies with *Igualmente* (likewise) or *el gusto es mío* (the pleasure is mine).\n\n*Me llamo* is a reflexive verb, the *me* is *yourself*, the *llamo* is the conjugated *call*. At A1, treat it as a fixed phrase; the grammar shows up in detail later."
     },
     {
       "id": "ex-free-me-llamo",
@@ -289,7 +289,7 @@
       "id": "step-how-are-you",
       "type": "theory",
       "title": "Asking how someone is",
-      "body": "## ¿Cómo estás?\n\nThe most common follow-up to a greeting:\n\n- ***¿Cómo estás?*** — How are you? (informal, one person)\n- ***¿Cómo está usted?*** — How are you? (formal, one person)\n- ***¿Cómo estáis?*** — How are you? (informal plural, Spain only)\n- ***¿Cómo están?*** — How are you? (plural; also formal singular in Latin America)\n\nUses **estar** (to be), not **ser** — because how you're doing is temporary, not part of your identity. You'll learn the *ser* vs *estar* distinction in detail in Lesson 04.\n\nStandard replies:\n\n- *Bien, gracias.* — Fine, thanks.\n- *Muy bien.* — Very well.\n- *Más o menos.* — So-so.\n- *Mal.* — Bad (be ready for a follow-up if you say this!)\n\nThen bounce it back: *¿Y tú?* (informal) or *¿Y usted?* (formal)."
+      "body": "## ¿Cómo estás?\n\nThe most common follow-up to a greeting:\n\n- ***¿Cómo estás?*** - How are you? (informal, one person)\n- ***¿Cómo está usted?*** - How are you? (formal, one person)\n- ***¿Cómo estáis?*** - How are you? (informal plural, Spain only)\n- ***¿Cómo están?*** - How are you? (plural; also formal singular in Latin America)\n\nUses **estar** (to be), not **ser**, because how you're doing is temporary, not part of your identity. You'll learn the *ser* vs *estar* distinction in detail in Lesson 04.\n\nStandard replies:\n\n- *Bien, gracias.* - Fine, thanks.\n- *Muy bien.* - Very well.\n- *Más o menos.* - So-so.\n- *Mal.* - Bad (be ready for a follow-up if you say this!)\n\nThen bounce it back: *¿Y tú?* (informal) or *¿Y usted?* (formal)."
     },
     {
       "id": "ex-free-como-estas",
@@ -356,7 +356,7 @@
       "id": "step-farewells",
       "type": "theory",
       "title": "Saying goodbye",
-      "body": "## Farewells\n\n- **Adiós** — Goodbye (standard)\n- **Hasta luego** — See you later (very common, casual)\n- **Hasta mañana** — See you tomorrow\n- **Hasta pronto** — See you soon\n- **Chao** / **Chau** — Bye (informal, more common in Latin America; borrowed from Italian *ciao*)\n- **Nos vemos** — See you (literally *we see ourselves*)\n\nSpanish speakers often combine these: *Adiós, hasta luego.* is perfectly natural — it's not redundant the way \"goodbye, see you later\" feels in English."
+      "body": "## Farewells\n\n- **Adiós**, Goodbye (standard)\n- **Hasta luego**, See you later (very common, casual)\n- **Hasta mañana**, See you tomorrow\n- **Hasta pronto**, See you soon\n- **Chao** / **Chau**, Bye (informal, more common in Latin America; borrowed from Italian *ciao*)\n- **Nos vemos**, See you (literally *we see ourselves*)\n\nSpanish speakers often combine these: *Adiós, hasta luego.* is perfectly natural, it's not redundant the way \"goodbye, see you later\" feels in English."
     },
     {
       "id": "ex-pick-farewell",
@@ -390,7 +390,7 @@
             "label": "Mucho gusto"
           }
         ],
-        "hint": "*Until tomorrow* — when you know you'll see them tomorrow.",
+        "hint": "*Until tomorrow*, when you know you'll see them tomorrow.",
         "distractors": [
           "Adiós",
           "Hola",

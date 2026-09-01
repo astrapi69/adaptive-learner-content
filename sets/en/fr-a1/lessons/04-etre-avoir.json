@@ -20,7 +20,7 @@
       "stable_id": "card-ms9433kf4ljg2",
       "front": "tu",
       "back": "you (informal singular)",
-      "notes": "Used with friends, family, kids, peers. NEVER for a stranger or a customer — that's *vous*.",
+      "notes": "Used with friends, family, kids, peers. NEVER for a stranger or a customer, that's *vous*.",
       "tags": [
         "pronoun",
         "subject",
@@ -32,7 +32,7 @@
       "stable_id": "card-ms9433kf4lkvq",
       "front": "il",
       "back": "he / it (m.)",
-      "notes": "Also used for masculine objects: *le livre — il est rouge* (the book — it is red).",
+      "notes": "Also used for masculine objects: *le livre, il est rouge* (the book, it is red).",
       "tags": [
         "pronoun",
         "subject"
@@ -43,7 +43,7 @@
       "stable_id": "card-ms9433kf4llwb",
       "front": "elle",
       "back": "she / it (f.)",
-      "notes": "Also used for feminine objects: *la chaise — elle est verte*.",
+      "notes": "Also used for feminine objects: *la chaise, elle est verte*.",
       "tags": [
         "pronoun",
         "subject"
@@ -88,7 +88,7 @@
       "id": "pron-elles",
       "stable_id": "card-ms9433kf4lpo8",
       "front": "elles",
-      "back": "they (f. — all women / all feminine)",
+      "back": "they (f. - all women / all feminine)",
       "notes": "Only when every member of the group is feminine.",
       "tags": [
         "pronoun",
@@ -145,7 +145,7 @@
       "stable_id": "card-ms9433kf4ludu",
       "front": "vous êtes",
       "back": "you are (formal / pl.)",
-      "notes": "Note the circumflex on the ê — it's a hint that an old s used to be there (compare English *est*).",
+      "notes": "Note the circumflex on the ê, it's a hint that an old s used to be there (compare English *est*).",
       "tags": [
         "verb",
         "etre",
@@ -191,7 +191,7 @@
       "stable_id": "card-ms9433kf4lygy",
       "front": "il/elle a",
       "back": "he/she/it has",
-      "notes": "No accent. *il a* (he has) vs *il à* (which doesn't exist as a sentence — *à* is a preposition).",
+      "notes": "No accent. *il a* (he has) vs *il à* (which doesn't exist as a sentence, *à* is a preposition).",
       "tags": [
         "verb",
         "avoir",
@@ -238,13 +238,13 @@
       "id": "intro",
       "type": "theory",
       "title": "The two most important verbs",
-      "body": "# *Être* and *avoir*\n\nIf you only learn two French verbs at A1, learn **être** (to be) and **avoir** (to have). Together they cover:\n\n- Identity: *Je **suis** étudiant.* — I am a student.\n- Description: *Elle **est** grande.* — She is tall.\n- Possession: *J'**ai** un chat.* — I have a cat.\n- Age: *Tu **as** vingt ans.* — You are twenty (lit.: you have twenty years).\n- Plus the **passé composé** — French's main past tense — is built from *avoir* + past participle (Lesson 10).\n\nBoth verbs are **irregular** — the forms don't follow a pattern, you have to memorise them. Same in English (am / are / is / was / were), same in Spanish (soy / eres / es), same in German (bin / bist / ist). It's worth the upfront effort."
+      "body": "# *Être* and *avoir*\n\nIf you only learn two French verbs at A1, learn **être** (to be) and **avoir** (to have). Together they cover:\n\n- Identity: *Je **suis** étudiant.* - I am a student.\n- Description: *Elle **est** grande.* - She is tall.\n- Possession: *J'**ai** un chat.* - I have a cat.\n- Age: *Tu **as** vingt ans.* - You are twenty (lit.: you have twenty years).\n- Plus the **passé composé**, French's main past tense, is built from *avoir* + past participle (Lesson 10).\n\nBoth verbs are **irregular**, the forms don't follow a pattern, you have to memorise them. Same in English (am / are / is / was / were), same in Spanish (soy / eres / es), same in German (bin / bist / ist). It's worth the upfront effort."
     },
     {
       "id": "step-etre",
       "type": "theory",
-      "title": "Être — to be",
-      "body": "## Present tense of *être*\n\n| Subject | Form |\n|---|---|\n| je | **suis** |\n| tu | **es** |\n| il / elle | **est** |\n| nous | **sommes** |\n| vous | **êtes** |\n| ils / elles | **sont** |\n\nPronunciation traps:\n- *suis* — silent **s** at the end, sounds like \"swee\"\n- *est* — the **s** and **t** are silent: just \"eh\"\n- *êtes* — the circumflex marks an old **s**: pronounced \"ett\"\n- *sont* — nasal vowel + silent **t**: \"sohn\"\n\nUse *être* for: identity, profession, nationality, description, location.\n\n*Je **suis** français. Tu **es** ici. Nous **sommes** prêts.*"
+      "title": "Être - to be",
+      "body": "## Present tense of *être*\n\n| Subject | Form |\n|---|---|\n| je | **suis** |\n| tu | **es** |\n| il / elle | **est** |\n| nous | **sommes** |\n| vous | **êtes** |\n| ils / elles | **sont** |\n\nPronunciation traps:\n- *suis*, silent **s** at the end, sounds like \"swee\"\n- *est*, the **s** and **t** are silent: just \"eh\"\n- *êtes*, the circumflex marks an old **s**: pronounced \"ett\"\n- *sont*, nasal vowel + silent **t**: \"sohn\"\n\nUse *être* for: identity, profession, nationality, description, location.\n\n*Je **suis** français. Tu **es** ici. Nous **sommes** prêts.*"
     },
     {
       "id": "ex-match-etre",
@@ -297,7 +297,7 @@
       "id": "ex-free-etre-vous",
       "type": "exercise",
       "theory_ref": "step-etre",
-      "title": "Conjugate être — vous",
+      "title": "Conjugate être - vous",
       "exercise": {
         "id": "ex-free-etre-vous",
         "stable_id": "ex-ms9433kf4m3aj",
@@ -323,8 +323,8 @@
     {
       "id": "step-avoir",
       "type": "theory",
-      "title": "Avoir — to have",
-      "body": "## Present tense of *avoir*\n\n| Subject | Form |\n|---|---|\n| je (j') | **ai** |\n| tu | **as** |\n| il / elle | **a** |\n| nous | **avons** |\n| vous | **avez** |\n| ils / elles | **ont** |\n\nMandatory elision: *je* + *ai* always becomes **j'ai**. You'll never see *je ai*.\n\nUse *avoir* for: possession, age, certain idioms.\n\n- *J'**ai** trois enfants.* — I have three children.\n- *Vous **avez** vingt ans.* — You are twenty years old. (Literally: you HAVE twenty years.)\n- *Ils **ont** faim.* — They are hungry. (Literally: they HAVE hunger.)\n\nFrench uses *avoir* where English uses *be* for age, hunger, thirst, fear, and being right or wrong. Translate by meaning, not word-for-word."
+      "title": "Avoir - to have",
+      "body": "## Present tense of *avoir*\n\n| Subject | Form |\n|---|---|\n| je (j') | **ai** |\n| tu | **as** |\n| il / elle | **a** |\n| nous | **avons** |\n| vous | **avez** |\n| ils / elles | **ont** |\n\nMandatory elision: *je* + *ai* always becomes **j'ai**. You'll never see *je ai*.\n\nUse *avoir* for: possession, age, certain idioms.\n\n- *J'**ai** trois enfants.* - I have three children.\n- *Vous **avez** vingt ans.* - You are twenty years old. (Literally: you HAVE twenty years.)\n- *Ils **ont** faim.* - They are hungry. (Literally: they HAVE hunger.)\n\nFrench uses *avoir* where English uses *be* for age, hunger, thirst, fear, and being right or wrong. Translate by meaning, not word-for-word."
     },
     {
       "id": "ex-match-avoir",
@@ -377,7 +377,7 @@
       "id": "ex-free-avoir-nous",
       "type": "exercise",
       "theory_ref": "step-avoir",
-      "title": "Conjugate avoir — nous",
+      "title": "Conjugate avoir - nous",
       "exercise": {
         "id": "ex-free-avoir-nous",
         "stable_id": "ex-ms9433kf4m5sd",
@@ -404,7 +404,7 @@
       "id": "step-vous-formal",
       "type": "theory",
       "title": "Tu or vous?",
-      "body": "## The *tu* / *vous* choice\n\nFrench requires you to pick one of two forms for \"you\":\n\n| Situation | Use |\n|---|---|\n| Talking to one friend, family member, child | **tu** |\n| Talking to a stranger, customer, professor (one person) | **vous** |\n| Talking to more than one person, any formality | **vous** |\n\nNote that **vous** does double duty (formal singular AND any plural). The verb conjugation is the same — context tells you which one is meant.\n\nWhen in doubt with someone new, use **vous**. They'll let you know if it's OK to switch to **tu** (\"*on se tutoie*\" — let's use tu).\n\nAt A1, when you don't know which to pick, **vous** is the safer choice."
+      "body": "## The *tu* / *vous* choice\n\nFrench requires you to pick one of two forms for \"you\":\n\n| Situation | Use |\n|---|---|\n| Talking to one friend, family member, child | **tu** |\n| Talking to a stranger, customer, professor (one person) | **vous** |\n| Talking to more than one person, any formality | **vous** |\n\nNote that **vous** does double duty (formal singular AND any plural). The verb conjugation is the same, context tells you which one is meant.\n\nWhen in doubt with someone new, use **vous**. They'll let you know if it's OK to switch to **tu** (\"*on se tutoie*\", let's use tu).\n\nAt A1, when you don't know which to pick, **vous** is the safer choice."
     },
     {
       "id": "ex-pick-vous",
@@ -488,7 +488,7 @@
           "ai",
           "faim"
         ],
-        "hint": "Literally *I have hunger* — French uses avoir for hunger / thirst / age.",
+        "hint": "Literally *I have hunger*, French uses avoir for hunger / thirst / age.",
         "direction": "target_to_source"
       }
     },
@@ -583,7 +583,7 @@
           "as",
           "ont"
         ],
-        "hint": "*Elle a une amie* = *She has a friend* — possession uses *avoir*. *Elle est une amie* would mean *She IS a friend* (identity, using *être*), which is grammatically valid but a different sentence."
+        "hint": "*Elle a une amie* = *She has a friend*, possession uses *avoir*. *Elle est une amie* would mean *She IS a friend* (identity, using *être*), which is grammatically valid but a different sentence."
       }
     }
   ]
