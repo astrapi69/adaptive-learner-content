@@ -12,6 +12,9 @@
 #                          Warnungen (W-*). Nutzt dieselbe Extension-Registry
 #                          wie das Gate, ext: Lektionen werden also validiert
 #                          statt abgewiesen. Warnungen brechen den Lauf nicht ab.
+#     make export          Ein Set fuer KI-Review exportieren (ARGS="<slug>
+#                          [--split-size N] ..."). Reines Python-Skript, kein
+#                          Node/Engine noetig.
 #
 # Du brauchst Node.js (>= 20) und npm. Kein package.json nötig: die Engine
 # wird mit --no-save an der in schema/engine-version.txt gepinnten Version
@@ -22,11 +25,12 @@
 ENGINE_PIN := $(shell cat schema/engine-version.txt)
 ENGINE_STAMP := node_modules/.engine-$(ENGINE_PIN)
 
-.PHONY: lint lint-warnings help
+.PHONY: lint lint-warnings export help
 
 help:
 	@echo "make lint            - Engine-Gate lokal (Selbsttest + alle Lektionen/Manifeste)"
 	@echo "make lint-warnings   - derselbe Lauf, zusätzlich mit Warnungen (W-*)"
+	@echo "make export          - Set fuer KI-Review exportieren (ARGS=\"<slug> [--split-size N] ...\")"
 
 # Die gepinnte Engine. Wird nur installiert, wenn der Versions-Stempel fehlt
 # (idempotent; ein neuer Pin in schema/engine-version.txt erzwingt eine
@@ -46,3 +50,10 @@ lint-warnings: $(ENGINE_STAMP)
 stable-ids: $(ENGINE_STAMP) ## Stabilitaets- und Abdeckungs-Gate (beide mitgeliefert)
 	npx --no-install learn-content-engine check-stable-ids --base origin/main
 	npx --no-install learn-content-engine check-stable-id-coverage
+
+# Ein Set fuer KI-Review exportieren, z. B.:
+#     make export ARGS="<set-slug>"
+#     make export ARGS="<set-slug> --split-size 5"
+# Braucht nur Python 3 + PyYAML (kein Node, keine gepinnte Engine).
+export:
+	@python3 scripts/export_set.py $(ARGS)
