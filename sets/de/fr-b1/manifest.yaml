@@ -11,16 +11,25 @@
 # Schema v1.3 nutzt die optionalen Kartenfelder difficulty, tags
 # und media_type ("text"). Der Content-Loader liest
 # ``metadata.lessons`` für die Dateiliste.
+#
+# v1.1.0: Aussprache-Lektion (ext:al-speak-and-record, engine#68 Idee
+# 3), analog zu fr-a1/fr-a2 (adaptive-learner-content#192/#194). Baut
+# auf 9 (Meinungen), 10 (Arbeit) und 13 (Umwelt/Gesellschaft) auf,
+# ohne diese zu ändern: dieselben Sätze zum Nachsprechen statt zum
+# Wiedererkennen. Kein NN-Präfix - die Anzeige-Reihenfolge
+# (lexikografisch nach lesson.id) stellt sie ans Ende, hinter Lektion
+# 15.
 schema_version: '1.3'
 name: Französisch B1 (für Deutschsprachige)
 description: >-
-  Französisch B1 für Deutschsprachige (15 Lektionen): Aufbau auf
+  Französisch B1 für Deutschsprachige (16 Lektionen): Aufbau auf
   A1+A2 mit dem Subjonctif (présent und Auslöser), conditionnel
   passé, plus-que-parfait, Passiv, indirekter Rede, vertieften
   Relativpronomen und Konnektoren sowie abstrakteren Themen
   (Arbeit, Gesundheit, Medien, Umwelt/Gesellschaft, interkulturelle
-  Kommunikation) und einer Lektion zur Textproduktion. Erklärungen,
-  Notizen und Theorie auf Deutsch.
+  Kommunikation) und einer Lektion zur Textproduktion, abgeschlossen
+  durch eine Aussprache-Lektion. Erklärungen, Notizen und Theorie auf
+  Deutsch.
 sets:
   - id: fr-b1-from-de
     title: Französisch B1 — Mittelstufe
@@ -29,16 +38,17 @@ sets:
     source_language: de
     level: B1
     path: sets/de/fr-b1
-    version: '1.0.0'
-    lesson_count: 15
+    version: '1.1.0'
+    lesson_count: 16
     domain: language
     description: >-
-      Mittelstufenkurs Französisch B1 (15 Lektionen), auf Deutsch
+      Mittelstufenkurs Französisch B1 (16 Lektionen), auf Deutsch
       erklärt — vom Subjonctif über conditionnel passé,
       plus-que-parfait, Passiv und indirekte Rede bis zu
       Relativpronomen, Konnektoren, abstrakteren Themen und der
-      Textproduktion. Setzt das A1+A2-Wissen voraus und ist
-      überwiegend produktiv ausgerichtet.
+      Textproduktion, abgeschlossen durch eine Aussprache-Lektion.
+      Setzt das A1+A2-Wissen voraus und ist überwiegend produktiv
+      ausgerichtet.
     tags:
       - intermediate
       - grammar
@@ -62,3 +72,4 @@ metadata:
     - 13-environnement-et-societe.json
     - 14-voyages-et-communication-interculturelle.json
     - 15-revision-et-production-ecrite.json
+    - aussprache-meinung-arbeit-umwelt.json

@@ -1,0 +1,126 @@
+{
+  "id": "aussprache-meinung-arbeit-umwelt",
+  "title": "Aussprache üben: Meinung, Beruf und Umwelt",
+  "description": "Übe die Aussprache von Sätzen aus den Lektionen 9, 10 und 13 (Meinungen ausdrücken, Arbeit und Karriere, Umwelt und Gesellschaft). Höre den Satz, sieh ihn dir an, dann sprich ihn selbst - kein neues Vokabular, nur eine neue Fertigkeit: sprechen statt nur erkennen.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "requires_extensions": ["ext:al-speak-and-record@1"],
+  "cards": [],
+  "steps": [
+    {
+      "id": "intro-aussprache",
+      "type": "theory",
+      "title": "Hören, ansehen, sprechen",
+      "body": "# Hören, ansehen, sprechen\n\nDu kennst diese Sätze schon aus den Lektionen 9, 10 und 13 - hier geht es nicht ums Wiedererkennen, sondern ums Sprechen. Höre dir jeden Satz an, sieh ihn dir bei Bedarf an, und nimm dich selbst auf, wie du ihn sagst.\n\nDiese Übung wird nicht bewertet - es gibt kein richtig oder falsch. Vergleiche einfach deine Aufnahme mit dem Original und höre, wie nah du schon dran bist. Besonders bei den subjonctif-Formen (soit, fasse) lohnt sich das laute Üben - die Aussprache unterscheidet sich oft hörbar vom Indikativ."
+    },
+    {
+      "id": "ex-speak-retard",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Eine Vermutung äußern",
+      "exercise": {
+        "id": "ex-speak-retard",
+        "stable_id": "ex-mtie7fh2001ys",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Il est possible qu'elle soit en retard."
+        }
+      }
+    },
+    {
+      "id": "ex-speak-accord",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Zustimmen",
+      "exercise": {
+        "id": "ex-speak-accord",
+        "stable_id": "ex-mtie7fh2002qy",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Je suis tout à fait d'accord avec toi."
+        }
+      }
+    },
+    {
+      "id": "ex-speak-effort",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Einen Appell formulieren",
+      "exercise": {
+        "id": "ex-speak-effort",
+        "stable_id": "ex-mtie7fh2003gf",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Il faudrait que chacun fasse un effort."
+        }
+      }
+    },
+    {
+      "id": "ex-speak-pollution",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Dringlichkeit ausdrücken",
+      "exercise": {
+        "id": "ex-speak-pollution",
+        "stable_id": "ex-mtie7fh2004tt",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Il est urgent d'agir contre la pollution."
+        }
+      }
+    },
+    {
+      "id": "ex-speak-salutations",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Einen Brief formell abschließen",
+      "exercise": {
+        "id": "ex-speak-salutations",
+        "stable_id": "ex-mtie7fh2005jg",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Veuillez agréer mes salutations distinguées."
+        }
+      }
+    },
+    {
+      "id": "ex-tiles-motive",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Den Satz zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-motive",
+        "stable_id": "ex-mtie7fh2006c6",
+        "type": "word_tiles",
+        "prompt": "Ordne so an, dass es bedeutet: *Ich bin motiviert und gewissenhaft.*",
+        "card_ids": [],
+        "tiles": ["Je", "suis", "motivé", "et", "rigoureux"],
+        "hint": "Passt gut in ein Motivationsschreiben.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-raison",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Den Satz zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-raison",
+        "stable_id": "ex-mtie7fh2007i8",
+        "type": "word_tiles",
+        "prompt": "Ordne so an, dass es bedeutet: *Ich denke, dass er in diesem Punkt recht hat.*",
+        "card_ids": [],
+        "tiles": ["Je", "pense", "qu'il", "a", "raison", "sur", "ce", "point"],
+        "hint": "Indikativ nach *je pense que* (Zustimmung, keine Verneinung).",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
