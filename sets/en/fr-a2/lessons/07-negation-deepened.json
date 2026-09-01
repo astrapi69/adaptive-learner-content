@@ -22,7 +22,7 @@
       "stable_id": "card-ms9433kr4wq9d",
       "front": "ne ... jamais",
       "back": "never",
-      "notes": "**ne ... jamais** = never. *Je ne mens **jamais**.* (I never lie.) In the passé composé: *Je **n'ai jamais** vu la mer.* (I have never seen the sea.) Note: *jamais* can also mean 'ever' in questions — *As-tu **jamais** voyagé?* — but in a negation frame it always means 'never'.",
+      "notes": "**ne ... jamais** = never. *Je ne mens **jamais**.* (I never lie.) In the passé composé: *Je **n'ai jamais** vu la mer.* (I have never seen the sea.) Note: *jamais* can also mean 'ever' in questions, *As-tu **jamais** voyagé?* - but in a negation frame it always means 'never'.",
       "media_type": "text",
       "difficulty": 2,
       "tags": ["grammar", "negation"]
@@ -32,7 +32,7 @@
       "stable_id": "card-ms9433kr4wrcj",
       "front": "ne ... rien",
       "back": "nothing / not anything",
-      "notes": "**ne ... rien** = nothing. *Je ne dis **rien**.* (I say nothing.) In the passé composé, **rien** sits between the auxiliary and the participle, just like pas: *Je **n'ai rien** dit.* (I said nothing.) **rien** can also act as the **subject**: *Rien ne marche.* (Nothing works.) — here **ne** comes right after *rien*.",
+      "notes": "**ne ... rien** = nothing. *Je ne dis **rien**.* (I say nothing.) In the passé composé, **rien** sits between the auxiliary and the participle, just like pas: *Je **n'ai rien** dit.* (I said nothing.) **rien** can also act as the **subject**: *Rien ne marche.* (Nothing works.), here **ne** comes right after *rien*.",
       "media_type": "text",
       "difficulty": 3,
       "tags": ["grammar", "negation"]
@@ -53,7 +53,7 @@
       "stable_id": "card-ms9433kr4wtrb",
       "front": "ne ... que",
       "back": "only (restriction, not a true negative)",
-      "notes": "**ne ... que** does not negate — it **restricts**: *Je ne bois **qu'**eau.* (I drink only water.) The **que** goes directly before the restricted element (not necessarily at the end). In the passé composé: *Il **n'a** mangé **que** du pain.* (He only ate bread.) This is sometimes called *restriction* rather than negation.",
+      "notes": "**ne ... que** does not negate, it **restricts**: *Je ne bois **qu'**eau.* (I drink only water.) The **que** goes directly before the restricted element (not necessarily at the end). In the passé composé: *Il **n'a** mangé **que** du pain.* (He only ate bread.) This is sometimes called *restriction* rather than negation.",
       "media_type": "text",
       "difficulty": 3,
       "tags": ["grammar", "negation", "restriction"]
@@ -63,7 +63,7 @@
       "stable_id": "card-ms9433kr4wudg",
       "front": "Je n'ai jamais mangé... / Je n'ai rien dit. / Je n'ai vu personne.",
       "back": "negation placement in the passe compose",
-      "notes": "In the passé composé, most negatives sit **between the auxiliary and the participle** (like *pas*): *ne + auxiliary + **plus/jamais/rien** + participle*. **personne** is the exception — it goes **after** the participle: *Je n'ai vu **personne**.*\n\n| Negative | Position in passe compose | Example |\n|---|---|---|\n| **ne...pas** | aux | *n'ai **pas** mangé* |\n| **ne...plus** | aux | *n'ai **plus** mangé* |\n| **ne...jamais** | aux | *n'ai **jamais** mangé* |\n| **ne...rien** | aux | *n'ai **rien** dit* |\n| **ne...personne** | after participle | *n'ai vu **personne*** |",
+      "notes": "In the passé composé, most negatives sit **between the auxiliary and the participle** (like *pas*): *ne + auxiliary + **plus/jamais/rien** + participle*. **personne** is the exception, it goes **after** the participle: *Je n'ai vu **personne**.*\n\n| Negative | Position in passe compose | Example |\n|---|---|---|\n| **ne...pas** | aux | *n'ai **pas** mangé* |\n| **ne...plus** | aux | *n'ai **plus** mangé* |\n| **ne...jamais** | aux | *n'ai **jamais** mangé* |\n| **ne...rien** | aux | *n'ai **rien** dit* |\n| **ne...personne** | after participle | *n'ai vu **personne*** |",
       "media_type": "text",
       "difficulty": 4,
       "tags": ["grammar", "negation", "passe-compose"]
@@ -93,8 +93,8 @@
       "id": "neg-double-negative",
       "stable_id": "card-ms9433kr4wxcn",
       "front": "Je n'ai vu personne. (NOT: Je n'ai pas vu personne.)",
-      "back": "French uses ONE negative word with ne — not two",
-      "notes": "English speakers sometimes write *Je n'ai **pas** vu personne* — a double negative that calques 'I didn't see nobody.' In French, **ne** + **one** negative word is the correct pattern. Adding **pas** alongside another negative (jamais, rien, personne) is an error: *ne **pas** jamais, ne **pas** rien* are wrong.",
+      "back": "French uses ONE negative word with ne, not two",
+      "notes": "English speakers sometimes write *Je n'ai **pas** vu personne*, a double negative that calques 'I didn't see nobody.' In French, **ne** + **one** negative word is the correct pattern. Adding **pas** alongside another negative (jamais, rien, personne) is an error: *ne **pas** jamais, ne **pas** rien* are wrong.",
       "media_type": "text",
       "difficulty": 3,
       "tags": ["grammar", "negation", "common-error"]
@@ -104,7 +104,7 @@
       "stable_id": "card-ms9433kr4wyit",
       "front": "Il ne travaille plus.",
       "back": "He no longer works.",
-      "notes": "*ne ... plus* in a simple tense: *ne* before the verb, *plus* after it. Compare: *Il ne travaille **pas*** (he does not work) vs. *Il ne travaille **plus*** (he no longer works — he used to).",
+      "notes": "*ne ... plus* in a simple tense: *ne* before the verb, *plus* after it. Compare: *Il ne travaille **pas*** (he does not work) vs. *Il ne travaille **plus*** (he no longer works, he used to).",
       "media_type": "text",
       "difficulty": 2,
       "tags": ["negation", "ne-plus"]
@@ -154,20 +154,20 @@
     {
       "id": "intro-negation",
       "type": "theory",
-      "title": "Beyond ne...pas — the five negative constructions",
-      "body": "# Negation, deepened\n\nIn A1 you learned **ne ... pas**. French has four more core negative constructions — each slots into the same position around the verb:\n\n| French | English meaning | Example |\n|---|---|---|\n| **ne ... pas** | not | *Je ne mange **pas** de viande.* |\n| **ne ... plus** | not anymore / no longer | *Je ne travaille **plus** ici.* |\n| **ne ... jamais** | never | *Il ne ment **jamais**.* |\n| **ne ... rien** | nothing / not anything | *Elle ne dit **rien**.* |\n| **ne ... personne** | nobody / not anybody | *Je ne vois **personne**.* |\n| **ne ... que** | only (restriction) | *Je bois **que** de l'eau.* |\n\n## The pattern\n\nIn a simple tense (present, imparfait), the structure is:\n\n> **ne** + VERB + **negative word**\n\nSo: *Je ne mange **rien**.* / *Tu ne lis **jamais**.* / *Elle ne vient **plus**.*\n\n## Important note about spoken French\n\nIn **casual speech** the *ne* is very often dropped: *Je sais pas, J'ai jamais vu ca.* In **writing** and **formal French** the *ne* is always required. This course always uses the full written form."
+      "title": "Beyond ne...pas - the five negative constructions",
+      "body": "# Negation, deepened\n\nIn A1 you learned **ne ... pas**. French has four more core negative constructions, each slots into the same position around the verb:\n\n| French | English meaning | Example |\n|---|---|---|\n| **ne ... pas** | not | *Je ne mange **pas** de viande.* |\n| **ne ... plus** | not anymore / no longer | *Je ne travaille **plus** ici.* |\n| **ne ... jamais** | never | *Il ne ment **jamais**.* |\n| **ne ... rien** | nothing / not anything | *Elle ne dit **rien**.* |\n| **ne ... personne** | nobody / not anybody | *Je ne vois **personne**.* |\n| **ne ... que** | only (restriction) | *Je bois **que** de l'eau.* |\n\n## The pattern\n\nIn a simple tense (present, imparfait), the structure is:\n\n> **ne** + VERB + **negative word**\n\nSo: *Je ne mange **rien**.* / *Tu ne lis **jamais**.* / *Elle ne vient **plus**.*\n\n## Important note about spoken French\n\nIn **casual speech** the *ne* is very often dropped: *Je sais pas, J'ai jamais vu ca.* In **writing** and **formal French** the *ne* is always required. This course always uses the full written form."
     },
     {
       "id": "step-passe-compose-placement",
       "type": "theory",
       "title": "Placement in the passe compose",
-      "body": "## Where does the negative word go in the passe compose?\n\nIn the passé composé you have two verb parts: **auxiliary** (avoir/etre) + **past participle**. Most negative words sit **between** them — exactly where *pas* goes:\n\n> **ne** + AUXILIARY + **negative word** + PARTICIPLE\n\n| Construction | Example | English |\n|---|---|---|\n| ne ... pas | *Je **n'ai pas** mangé.* | I did not eat. |\n| ne ... plus | *Je **n'ai plus** mangé de viande.* | I no longer ate meat. |\n| ne ... jamais | *Il **n'a jamais** vu la mer.* | He has never seen the sea. |\n| ne ... rien | *Elle **n'a rien** dit.* | She said nothing. |\n\n## The one exception — personne\n\n**ne...personne** is different: **personne** comes **after** the past participle:\n\n> **ne** + AUXILIARY + PARTICIPLE + **personne**\n\n*Je **n'ai vu personne**.* (I saw nobody.) NOT: *Je n'ai personne vu.*\n\nMemory tip: *personne* is a full noun-like word and takes the same slot as a noun object — which follows the participle."
+      "body": "## Where does the negative word go in the passe compose?\n\nIn the passé composé you have two verb parts: **auxiliary** (avoir/etre) + **past participle**. Most negative words sit **between** them, exactly where *pas* goes:\n\n> **ne** + AUXILIARY + **negative word** + PARTICIPLE\n\n| Construction | Example | English |\n|---|---|---|\n| ne ... pas | *Je **n'ai pas** mangé.* | I did not eat. |\n| ne ... plus | *Je **n'ai plus** mangé de viande.* | I no longer ate meat. |\n| ne ... jamais | *Il **n'a jamais** vu la mer.* | He has never seen the sea. |\n| ne ... rien | *Elle **n'a rien** dit.* | She said nothing. |\n\n## The one exception - personne\n\n**ne...personne** is different: **personne** comes **after** the past participle:\n\n> **ne** + AUXILIARY + PARTICIPLE + **personne**\n\n*Je **n'ai vu personne**.* (I saw nobody.) NOT: *Je n'ai personne vu.*\n\nMemory tip: *personne* is a full noun-like word and takes the same slot as a noun object, which follows the participle."
     },
     {
       "id": "step-rien-personne-subject",
       "type": "theory",
       "title": "Rien and personne as subjects; ne...que",
-      "body": "## Rien and personne as subjects\n\n**rien** and **personne** can start a sentence as the **subject**. In that case, they come first and **ne** follows immediately:\n\n> **Rien / Personne** + **ne** + VERB\n\n| French | English |\n|---|---|\n| *Rien ne marche.* | Nothing works. |\n| *Personne ne vient.* | Nobody is coming. |\n| *Rien n'a change.* | Nothing changed. |\n| *Personne n'a repondu.* | Nobody replied. |\n\nThe verb is always **3rd-person singular**.\n\n## ne...que — restriction, not negation\n\n**ne...que** does not truly negate — it **restricts** to one element (like English 'only'):\n\n*Il **n'a** mange **que** du pain.* — He only ate bread. (not: he ate nothing)\n\n**que** goes directly before the restricted word or phrase. In the passé composé the structure is: *ne + auxiliary + participle + que + restricted element*.\n\n## The double-negative trap\n\nEnglish sometimes uses double negatives ('I didn't see nobody'). French **never** does. Use **ne + one negative word** only:\n\n- Correct: *Je **n'ai vu personne**.* (I saw nobody.)\n- Wrong: *Je **n'ai pas vu personne**.* (mixing pas + personne)"
+      "body": "## Rien and personne as subjects\n\n**rien** and **personne** can start a sentence as the **subject**. In that case, they come first and **ne** follows immediately:\n\n> **Rien / Personne** + **ne** + VERB\n\n| French | English |\n|---|---|\n| *Rien ne marche.* | Nothing works. |\n| *Personne ne vient.* | Nobody is coming. |\n| *Rien n'a change.* | Nothing changed. |\n| *Personne n'a repondu.* | Nobody replied. |\n\nThe verb is always **3rd-person singular**.\n\n## ne...que - restriction, not negation\n\n**ne...que** does not truly negate, it **restricts** to one element (like English 'only'):\n\n*Il **n'a** mange **que** du pain.* - He only ate bread. (not: he ate nothing)\n\n**que** goes directly before the restricted word or phrase. In the passé composé the structure is: *ne + auxiliary + participle + que + restricted element*.\n\n## The double-negative trap\n\nEnglish sometimes uses double negatives ('I didn't see nobody'). French **never** does. Use **ne + one negative word** only:\n\n- Correct: *Je **n'ai vu personne**.* (I saw nobody.)\n- Wrong: *Je **n'ai pas vu personne**.* (mixing pas + personne)"
     },
     {
       "id": "ex-match-negations",
@@ -199,7 +199,7 @@
         "id": "ex-free-never-eaten",
         "stable_id": "ex-ms9433kr4x4ur",
         "type": "free_text",
-        "prompt": "Translate: **I have never eaten sushi.** (passe compose — jamais goes between auxiliary and participle)",
+        "prompt": "Translate: **I have never eaten sushi.** (passe compose, jamais goes between auxiliary and participle)",
         "card_ids": ["neg-jamais", "neg-passe-compose-placement"],
         "accept": [
           "Je n'ai jamais mange de sushi.",
@@ -246,7 +246,7 @@
         "id": "ex-free-said-nothing",
         "stable_id": "ex-ms9433kr4x6pw",
         "type": "free_text",
-        "prompt": "Translate: **She said nothing.** (passe compose — rien sits between auxiliary and participle)",
+        "prompt": "Translate: **She said nothing.** (passe compose, rien sits between auxiliary and participle)",
         "card_ids": ["neg-rien", "neg-passe-compose-placement"],
         "accept": [
           "Elle n'a rien dit.",
@@ -273,7 +273,7 @@
         "id": "ex-tiles-saw-nobody",
         "stable_id": "ex-ms9433kr4x7qh",
         "type": "word_tiles",
-        "prompt": "Arrange the words to say **I saw nobody.** (passe compose — personne goes AFTER the participle)",
+        "prompt": "Arrange the words to say **I saw nobody.** (passe compose, personne goes AFTER the participle)",
         "card_ids": ["neg-personne", "neg-personne-card", "neg-passe-compose-placement"],
         "tiles": ["Je", "n'ai", "vu", "personne"],
         "hint": "personne is the exception: ne + auxiliary + participle + personne.",
@@ -315,7 +315,7 @@
         "id": "ex-free-nobody-coming",
         "stable_id": "ex-ms9433kr4x9wx",
         "type": "free_text",
-        "prompt": "Translate: **Nobody is coming.** (personne as subject — use present tense)",
+        "prompt": "Translate: **Nobody is coming.** (personne as subject, use present tense)",
         "card_ids": ["neg-subject-use", "neg-personne"],
         "accept": [
           "Personne ne vient.",

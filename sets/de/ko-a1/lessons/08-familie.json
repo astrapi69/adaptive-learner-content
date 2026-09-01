@@ -1,7 +1,7 @@
 {
   "id": "08-familie",
   "title": "Familie",
-  "description": "Familienmitglieder benennen — und das koreanische Besondere: Geschwister-Wörter hängen davon ab, wer spricht — auf Deutsch erklärt.",
+  "description": "Familienmitglieder benennen, und das koreanische Besondere: Geschwister-Wörter hängen davon ab, wer spricht, auf Deutsch erklärt.",
   "target_language": "ko",
   "source_language": "de",
   "domain": "language",
@@ -112,13 +112,13 @@
       "id": "intro",
       "type": "theory",
       "title": "Familie",
-      "body": "# Familie\n\n**가족 (gajok)** heißt 'Familie'. Die engsten Mitglieder:\n\n- **엄마 (eomma)** — Mama, **아빠 (appa)** — Papa\n- **할아버지 (harabeoji)** — Großvater, **할머니 (halmeoni)** — Großmutter\n\nBesonderheit: Bei Familie sagen Koreaner oft **우리 (uri)** 'unser' statt 'mein' — **우리 엄마** = 'meine Mama'."
+      "body": "# Familie\n\n**가족 (gajok)** heißt 'Familie'. Die engsten Mitglieder:\n\n- **엄마 (eomma)**, Mama, **아빠 (appa)**, Papa\n- **할아버지 (harabeoji)**, Großvater, **할머니 (halmeoni)**, Großmutter\n\nBesonderheit: Bei Familie sagen Koreaner oft **우리 (uri)** 'unser' statt 'mein', **우리 엄마** = 'meine Mama'."
     },
     {
       "id": "step-geschwister",
       "type": "theory",
-      "title": "Geschwister — wer spricht?",
-      "body": "## Geschwister hängen vom Sprecher ab\n\nKoreanisch hat für ältere Geschwister verschiedene Wörter — je nachdem, **ob ein Mann oder eine Frau** spricht:\n\n| ältere/r ... | Mann sagt | Frau sagt |\n|---|---|---|\n| Bruder | 형 (hyeong) | 오빠 (oppa) |\n| Schwester | 누나 (nuna) | 언니 (eonni) |\n\nFür **jüngere** Geschwister gilt für beide: **동생 (dongsaeng)** — genauer 남동생 (jüngerer Bruder), 여동생 (jüngere Schwester)."
+      "title": "Geschwister - wer spricht?",
+      "body": "## Geschwister hängen vom Sprecher ab\n\nKoreanisch hat für ältere Geschwister verschiedene Wörter, je nachdem, **ob ein Mann oder eine Frau** spricht:\n\n| ältere/r ... | Mann sagt | Frau sagt |\n|---|---|---|\n| Bruder | 형 (hyeong) | 오빠 (oppa) |\n| Schwester | 누나 (nuna) | 언니 (eonni) |\n\nFür **jüngere** Geschwister gilt für beide: **동생 (dongsaeng)**, genauer 남동생 (jüngerer Bruder), 여동생 (jüngere Schwester)."
     },
     {
       "id": "ex-match-familie",
@@ -189,7 +189,7 @@
         "prompt": "Eine Frau nennt ihren älteren Bruder ___ ? (Hangul oder Romanisierung)",
         "card_ids": ["oppa"],
         "accept": ["오빠", "oppa", "Oppa"],
-        "hint": "Nicht 형 — das sagt ein Mann.",
+        "hint": "Nicht 형, das sagt ein Mann.",
         "distractors": ["형", "hyeong", "언니"],
         "direction": "source_to_target"
       }

@@ -82,7 +82,7 @@ ls sets/
 | Deutsch A2 | EN→DE | A2 | 5 | 46 | Sprache | Review |
 | Englisch A1 | HI→EN | A1 | 10 | 120 | Sprache | Review |
 | Englisch A2 | HI→EN | A2 | 5 | 42 | Sprache | Review |
-| Adaptive Learner — App-Tutorial | DE | Einsteiger | 12 | 95 | App-Tutorial | Review |
+| Adaptive Learner, App-Tutorial | DE | Einsteiger | 12 | 95 | App-Tutorial | Review |
 
 **Gesamt: 28 Sets, 325 Lektionen, 3877 Karten in 10 Sprachen.**
 

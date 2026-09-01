@@ -1,7 +1,7 @@
 {
   "id": "10-gamification",
   "title": "Motivation: XP, Level, Abzeichen und Streaks",
-  "description": "Wie Adaptive Learner mit Erfahrungspunkten, Levels, Abzeichen, täglichen Missionen und der Streak-Übersicht am Ball hält — und was ein Streak-Freeze ist.",
+  "description": "Wie Adaptive Learner mit Erfahrungspunkten, Levels, Abzeichen, täglichen Missionen und der Streak-Übersicht am Ball hält, und was ein Streak-Freeze ist.",
   "target_language": "de",
   "source_language": "de",
   "domain": "software",
@@ -11,7 +11,7 @@
       "id": "xp",
       "stable_id": "card-ms9433fe03kdd",
       "front": "Erfahrungspunkte (XP)",
-      "back": "Punkte, die du fürs Lernen sammelst. Je mehr du übst, desto mehr XP bekommst du — und desto höher steigt dein Level.",
+      "back": "Punkte, die du fürs Lernen sammelst. Je mehr du übst, desto mehr XP bekommst du, und desto höher steigt dein Level.",
       "notes": "Englisch: experience points (XP). Sichtbar oben in der Navigation.",
       "media_type": "text",
       "difficulty": 1,
@@ -21,7 +21,7 @@
       "id": "level",
       "stable_id": "card-ms9433fe03l29",
       "front": "Level",
-      "back": "Deine Stufe, die mit gesammelten XP steigt. Die nötigen Punkte pro Level wachsen — höhere Level erfordern mehr Übung.",
+      "back": "Deine Stufe, die mit gesammelten XP steigt. Die nötigen Punkte pro Level wachsen, höhere Level erfordern mehr Übung.",
       "notes": "Exponentiell steigende Schwellen: der Aufstieg wird bewusst anspruchsvoller.",
       "media_type": "text",
       "difficulty": 2,
@@ -93,13 +93,13 @@
       "id": "intro",
       "type": "theory",
       "title": "XP, Level und Serien",
-      "body": "# Motivation eingebaut\n\nDamit Lernen zur Gewohnheit wird, belohnt dich Adaptive Learner sichtbar:\n\n- **Erfahrungspunkte (XP)** — sammelst du fürs Üben. Ein Zähler oben in der Navigation zeigt deinen Stand.\n- **Level** — steigen mit deinen XP. Die Schwellen wachsen **exponentiell**, der Aufstieg wird also mit der Zeit anspruchsvoller.\n- **Streak** — die Zahl der Lerntage in Folge. Ein **Streak-Multiplikator** erhöht deine XP, je länger die Serie läuft.\n\nSo wird aus vielen kleinen Einheiten ein sichtbarer, wachsender Fortschritt."
+      "body": "# Motivation eingebaut\n\nDamit Lernen zur Gewohnheit wird, belohnt dich Adaptive Learner sichtbar:\n\n- **Erfahrungspunkte (XP)**, sammelst du fürs Üben. Ein Zähler oben in der Navigation zeigt deinen Stand.\n- **Level**, steigen mit deinen XP. Die Schwellen wachsen **exponentiell**, der Aufstieg wird also mit der Zeit anspruchsvoller.\n- **Streak**, die Zahl der Lerntage in Folge. Ein **Streak-Multiplikator** erhöht deine XP, je länger die Serie läuft.\n\nSo wird aus vielen kleinen Einheiten ein sichtbarer, wachsender Fortschritt."
     },
     {
       "id": "step-badges-missionen",
       "type": "theory",
       "title": "Abzeichen und tägliche Missionen",
-      "body": "## Ziele zum Abhaken\n\nZwei weitere Bausteine geben dir konkrete Ziele:\n\n- **Abzeichen (Badges)** — **28** Stück in **fünf Kategorien**, je in **Bronze, Silber und Gold**. Du schaltest sie durch Meilensteine frei.\n- **Tägliche Missionen** — **bis zu drei** kleine Tagesziele, die die App aus deinen Daten ableitet (z. B. „10 Karten wiederholen“).\n\nMissionen sind bewusst **klein und machbar**: Sie senken die Hürde, überhaupt anzufangen — und oft wird aus dem Anfang eine längere Einheit."
+      "body": "## Ziele zum Abhaken\n\nZwei weitere Bausteine geben dir konkrete Ziele:\n\n- **Abzeichen (Badges)**, **28** Stück in **fünf Kategorien**, je in **Bronze, Silber und Gold**. Du schaltest sie durch Meilensteine frei.\n- **Tägliche Missionen**, **bis zu drei** kleine Tagesziele, die die App aus deinen Daten ableitet (z. B. „10 Karten wiederholen“).\n\nMissionen sind bewusst **klein und machbar**: Sie senken die Hürde, überhaupt anzufangen, und oft wird aus dem Anfang eine längere Einheit."
     },
     {
       "id": "step-heatmap-freeze",

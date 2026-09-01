@@ -35,7 +35,7 @@
       "stable_id": "card-ms9433fs0ca7o",
       "front": "It's cold",
       "back": "Es ist kalt",
-      "notes": "Sage 'I'm cold' für 'mir ist kalt' — NICHT 'It is cold to me'.",
+      "notes": "Sage 'I'm cold' für 'mir ist kalt', NICHT 'It is cold to me'.",
       "tags": ["wetter", "adjektiv"]
     },
     {
@@ -100,19 +100,19 @@
       "id": "intro",
       "type": "theory",
       "title": "Über das Wetter sprechen",
-      "body": "# Wetter und Jahreszeiten\n\nÜber das Wetter spricht man im Englischen mit **It's** (= it is) + Adjektiv:\n\n- **It's sunny.** — Es ist sonnig.\n- **It's cloudy.** — Es ist bewölkt.\n- **It's windy.** — Es ist windig.\n- **It's cold / hot / warm.** — Es ist kalt / heiß / warm.\n\nWichtiger Unterschied zum Deutschen: Für 'mir ist kalt' sagt man **I'm cold** (ich bin kalt), nicht *It is cold to me*. Und 'Es gibt Regen' ist KEIN Englisch — sage **It's raining** oder **It's rainy**.\n\nDie vier Jahreszeiten: **spring** (Frühling), **summer** (Sommer), **autumn/fall** (Herbst), **winter** (Winter) — alle mit 'in': *in summer*."
+      "body": "# Wetter und Jahreszeiten\n\nÜber das Wetter spricht man im Englischen mit **It's** (= it is) + Adjektiv:\n\n- **It's sunny.** - Es ist sonnig.\n- **It's cloudy.** - Es ist bewölkt.\n- **It's windy.** - Es ist windig.\n- **It's cold / hot / warm.** - Es ist kalt / heiß / warm.\n\nWichtiger Unterschied zum Deutschen: Für 'mir ist kalt' sagt man **I'm cold** (ich bin kalt), nicht *It is cold to me*. Und 'Es gibt Regen' ist KEIN Englisch, sage **It's raining** oder **It's rainy**.\n\nDie vier Jahreszeiten: **spring** (Frühling), **summer** (Sommer), **autumn/fall** (Herbst), **winter** (Winter), alle mit 'in': *in summer*."
     },
     {
       "id": "step-progressive",
       "type": "theory",
       "title": "Present Progressive: gerade jetzt",
-      "body": "## 'It's raining' — das Present Progressive\n\nNeben dem Simple Present (Lektion 11) gibt es eine zweite Gegenwartsform für das, was **gerade in diesem Moment** passiert: das **Present Progressive**.\n\n> **be** (am/is/are) + Verb + **-ing**\n\n- **It's raining.** — Es regnet (jetzt gerade).\n- **I'm working.** — Ich arbeite (gerade).\n- **They're playing.** — Sie spielen (gerade).\n\nDiese Form gibt es im Deutschen nicht als eigene Zeitform — Deutsch sagt einfach 'es regnet'. Genau deshalb vergessen Deutschsprachige oft das **-ing**. Merke: **be + -ing** für das Hier und Jetzt."
+      "body": "## 'It's raining' - das Present Progressive\n\nNeben dem Simple Present (Lektion 11) gibt es eine zweite Gegenwartsform für das, was **gerade in diesem Moment** passiert: das **Present Progressive**.\n\n> **be** (am/is/are) + Verb + **-ing**\n\n- **It's raining.** - Es regnet (jetzt gerade).\n- **I'm working.** - Ich arbeite (gerade).\n- **They're playing.** - Sie spielen (gerade).\n\nDiese Form gibt es im Deutschen nicht als eigene Zeitform, Deutsch sagt einfach 'es regnet'. Genau deshalb vergessen Deutschsprachige oft das **-ing**. Merke: **be + -ing** für das Hier und Jetzt."
     },
     {
       "id": "step-simple-vs-progressive",
       "type": "theory",
       "title": "It rains oder It's raining?",
-      "body": "## Allgemein oder gerade jetzt?\n\nDer Unterschied entscheidet über die Form:\n\n| Form | Bedeutung | Beispiel |\n|---|---|---|\n| **Simple Present** | allgemein, gewohnheitsmäßig | *It often **rains** in autumn.* (Im Herbst regnet es oft.) |\n| **Present Progressive** | gerade in diesem Moment | *Look — it's **raining**!* (Schau, es regnet!) |\n\nFaustregel:\n- 'normalerweise / oft / jeden Tag' → **Simple Present** (*it rains*).\n- 'jetzt / im Moment / schau mal' → **Present Progressive** (*it's raining*).\n\nTypischer Fehler: *It rains now.* für 'Es regnet gerade'. Besser: **It's raining now.**"
+      "body": "## Allgemein oder gerade jetzt?\n\nDer Unterschied entscheidet über die Form:\n\n| Form | Bedeutung | Beispiel |\n|---|---|---|\n| **Simple Present** | allgemein, gewohnheitsmäßig | *It often **rains** in autumn.* (Im Herbst regnet es oft.) |\n| **Present Progressive** | gerade in diesem Moment | *Look, it's **raining**!* (Schau, es regnet!) |\n\nFaustregel:\n- 'normalerweise / oft / jeden Tag' → **Simple Present** (*it rains*).\n- 'jetzt / im Moment / schau mal' → **Present Progressive** (*it's raining*).\n\nTypischer Fehler: *It rains now.* für 'Es regnet gerade'. Besser: **It's raining now.**"
     },
     {
       "id": "ex-match-weather",
@@ -158,7 +158,7 @@
       "id": "ex-pick-raining",
       "type": "exercise",
       "theory_ref": "intro",
-      "title": "Es regnet — gerade jetzt",
+      "title": "Es regnet - gerade jetzt",
       "exercise": {
         "id": "ex-pick-raining",
         "stable_id": "ex-ms9433fs0ckwr",
@@ -221,7 +221,7 @@
         "type": "cloze",
         "prompt": "Ergänze die -ing-Form von 'rain' (es passiert gerade jetzt).",
         "card_ids": ["prog-raining"],
-        "sentence": "Take an umbrella — it's ___ .",
+        "sentence": "Take an umbrella, it's ___ .",
         "blanks": [
           { "accept": ["raining"] }
         ],

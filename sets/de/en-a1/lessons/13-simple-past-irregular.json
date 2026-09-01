@@ -1,6 +1,6 @@
 {
   "id": "13-simple-past-irregular",
-  "title": "Simple Past — unregelmäßige Verben",
+  "title": "Simple Past - unregelmäßige Verben",
   "description": "Die wichtigsten unregelmäßigen Verben in der Vergangenheit und der berüchtigte falsche Freund become ≠ bekommen. Auf Deutsch erklärt.",
   "target_language": "en",
   "source_language": "de",
@@ -11,7 +11,7 @@
       "stable_id": "card-ms9433fr0bmsu",
       "front": "went",
       "back": "ging (go → went)",
-      "notes": "Von 'go'. Völlig andere Form — wie deutsche starke Verben (gehen → ging).",
+      "notes": "Von 'go'. Völlig andere Form, wie deutsche starke Verben (gehen → ging).",
       "tags": ["simple-past", "unregelmaessig"]
     },
     {
@@ -83,7 +83,7 @@
       "stable_id": "card-ms9433fr0bvko",
       "front": "knew",
       "back": "wusste / kannte (know → knew)",
-      "notes": "Von 'know'. Das 'k' ist stumm — gesprochen 'njuu'.",
+      "notes": "Von 'know'. Das 'k' ist stumm, gesprochen 'njuu'.",
       "tags": ["simple-past", "unregelmaessig"]
     },
     {
@@ -99,8 +99,8 @@
     {
       "id": "intro",
       "type": "theory",
-      "title": "Unregelmäßige Verben — auswendig lernen",
-      "body": "# Simple Past — unregelmäßige Verben\n\nViele häufige Verben folgen NICHT der -ed-Regel, sondern ändern ihre Form völlig — genau wie die deutschen starken Verben (gehen → ging, sehen → sah). Es gibt **kein Muster**: Du musst sie auswendig lernen.\n\n| Grundform | Simple Past | Deutsch |\n|---|---|---|\n| go | **went** | ging |\n| see | **saw** | sah |\n| have | **had** | hatte |\n| do | **did** | tat |\n| say | **said** | sagte |\n| make | **made** | machte |\n| take | **took** | nahm |\n| come | **came** | kam |\n| get | **got** | bekam |\n| know | **knew** | wusste |\n\nVorsicht: Sage NIE *goed*, *seed* oder *taked* — das sind die typischen Übergeneralisierungen."
+      "title": "Unregelmäßige Verben - auswendig lernen",
+      "body": "# Simple Past - unregelmäßige Verben\n\nViele häufige Verben folgen NICHT der -ed-Regel, sondern ändern ihre Form völlig, genau wie die deutschen starken Verben (gehen → ging, sehen → sah). Es gibt **kein Muster**: Du musst sie auswendig lernen.\n\n| Grundform | Simple Past | Deutsch |\n|---|---|---|\n| go | **went** | ging |\n| see | **saw** | sah |\n| have | **had** | hatte |\n| do | **did** | tat |\n| say | **said** | sagte |\n| make | **made** | machte |\n| take | **took** | nahm |\n| come | **came** | kam |\n| get | **got** | bekam |\n| know | **knew** | wusste |\n\nVorsicht: Sage NIE *goed*, *seed* oder *taked*, das sind die typischen Übergeneralisierungen."
     },
     {
       "id": "step-80-20",
@@ -112,7 +112,7 @@
       "id": "step-false-friend",
       "type": "theory",
       "title": "Falscher Freund: become ≠ bekommen",
-      "body": "## Achtung: become ≠ bekommen!\n\nDer wohl peinlichste falsche Freund für Deutschsprachige:\n\n- **become** = **werden** (became = wurde)\n- **bekommen** = **get / receive** (got = bekam)\n\nDer klassische Fehler im Restaurant: *I become a steak.* — das heißt wörtlich 'Ich WERDE ein Steak'! Richtig: **I get / I'll have a steak.**\n\n| Du meinst ... | Englisch | NICHT |\n|---|---|---|\n| Ich bekam ein Geschenk | I **got** a present | ~~I became a present~~ |\n| Ich wurde Lehrer | I **became** a teacher | ~~I got a teacher~~ |\n\nMerke: **become → werden**, **get → bekommen**. Verwechsle die beiden nie."
+      "body": "## Achtung: become ≠ bekommen!\n\nDer wohl peinlichste falsche Freund für Deutschsprachige:\n\n- **become** = **werden** (became = wurde)\n- **bekommen** = **get / receive** (got = bekam)\n\nDer klassische Fehler im Restaurant: *I become a steak.* - das heißt wörtlich 'Ich WERDE ein Steak'! Richtig: **I get / I'll have a steak.**\n\n| Du meinst ... | Englisch | NICHT |\n|---|---|---|\n| Ich bekam ein Geschenk | I **got** a present | ~~I became a present~~ |\n| Ich wurde Lehrer | I **became** a teacher | ~~I got a teacher~~ |\n\nMerke: **become → werden**, **get → bekommen**. Verwechsle die beiden nie."
     },
     {
       "id": "ex-match-irregular",
@@ -171,7 +171,7 @@
           { "src": "assets/img/become-present.png", "label": "I become a present." },
           { "src": "assets/img/get-present.png", "label": "I get a present yesterday." }
         ],
-        "hint": "'bekommen' = get/got. 'become' hieße 'werden' — du würdest sonst selbst zum Geschenk!",
+        "hint": "'bekommen' = get/got. 'become' hieße 'werden', du würdest sonst selbst zum Geschenk!",
         "distractors": ["I became a present.", "I become a present.", "I get a present yesterday."],
         "direction": "target_to_source"
       }

@@ -21,7 +21,7 @@
       "id": "schritt-input",
       "stable_id": "card-ms9433fb016ws",
       "front": "Schritt 1: Eingabe (Input)",
-      "back": "Der neue Stoff wird dir präsentiert — der Ausgangspunkt des Zyklus.",
+      "back": "Der neue Stoff wird dir präsentiert, der Ausgangspunkt des Zyklus.",
       "notes": "Englisch: input. Hier bekommst du das Material.",
       "media_type": "text",
       "difficulty": 1,
@@ -81,7 +81,7 @@
       "id": "schritt-integration",
       "stable_id": "card-ms9433fb01cwk",
       "front": "Schritt 7: Integration (Integrate)",
-      "back": "Das Gelernte wird mit deinem übrigen Wissen verknüpft und gefestigt — der Abschluss des Zyklus.",
+      "back": "Das Gelernte wird mit deinem übrigen Wissen verknüpft und gefestigt, der Abschluss des Zyklus.",
       "notes": "Englisch: integrate. Der Stoff wird Teil deines Wissens.",
       "media_type": "text",
       "difficulty": 3,
@@ -101,7 +101,7 @@
       "id": "auto-loop",
       "stable_id": "card-ms9433fb01evh",
       "front": "Auto-Loop",
-      "back": "Ist ein Zyklus abgeschlossen, startet die App automatisch einen neuen zu einem weiteren Teilthema — bis zu fünf pro Sitzung.",
+      "back": "Ist ein Zyklus abgeschlossen, startet die App automatisch einen neuen zu einem weiteren Teilthema, bis zu fünf pro Sitzung.",
       "notes": "Englisch: auto-loop. Hält den Lernfluss in Gang, ohne dass du neu starten musst.",
       "media_type": "text",
       "difficulty": 3,
@@ -113,13 +113,13 @@
       "id": "intro",
       "type": "theory",
       "title": "Die sieben Schritte",
-      "body": "# Der Lernzyklus\n\nJede Sitzung läuft innen nach demselben **Lernzyklus** aus **sieben Schritten** ab:\n\n1. **Eingabe** (Input) — der neue Stoff wird gezeigt.\n2. **Fokus** (Focus) — der zentrale Punkt wird hervorgehoben.\n3. **Versuch** (Attempt) — du wendest den Stoff selbst an.\n4. **Rückmeldung** (Feedback) — die KI bewertet deinen Versuch.\n5. **Verfeinern** (Refine) — du besserst nach.\n6. **Übertragung** (Transfer) — du nutzt das Gelernte in einer neuen Situation.\n7. **Integration** (Integrate) — der Stoff wird mit deinem Wissen verknüpft.\n\nDieser Ablauf sorgt dafür, dass du nicht nur *hörst*, sondern *anwendest*, *korrigierst* und *überträgst* — die Voraussetzung für echtes Behalten."
+      "body": "# Der Lernzyklus\n\nJede Sitzung läuft innen nach demselben **Lernzyklus** aus **sieben Schritten** ab:\n\n1. **Eingabe** (Input), der neue Stoff wird gezeigt.\n2. **Fokus** (Focus), der zentrale Punkt wird hervorgehoben.\n3. **Versuch** (Attempt), du wendest den Stoff selbst an.\n4. **Rückmeldung** (Feedback), die KI bewertet deinen Versuch.\n5. **Verfeinern** (Refine), du besserst nach.\n6. **Übertragung** (Transfer), du nutzt das Gelernte in einer neuen Situation.\n7. **Integration** (Integrate), der Stoff wird mit deinem Wissen verknüpft.\n\nDieser Ablauf sorgt dafür, dass du nicht nur *hörst*, sondern *anwendest*, *korrigierst* und *überträgst*, die Voraussetzung für echtes Behalten."
     },
     {
       "id": "step-bewertung",
       "type": "theory",
       "title": "Die KI entscheidet den nächsten Schritt",
-      "body": "## Weiter, wiederholen, überspringen, zurück\n\nAm Ende eines Durchgangs trifft die **KI-Bewertung** eine von vier Entscheidungen — je nachdem, wie gut du warst:\n\n| Entscheidung | Bedeutung |\n|---|---|\n| **Weiter** | Du hast es verstanden, es geht voran |\n| **Wiederholen** | Derselbe Punkt wird noch einmal geübt |\n| **Überspringen** | Zu leicht — dieser Punkt entfällt |\n| **Zurück** | Eine Grundlage fehlt, ein Schritt zurück |\n\nSo passt sich das Tempo automatisch an dich an: Sicheres wird übersprungen, Wackliges wiederholt."
+      "body": "## Weiter, wiederholen, überspringen, zurück\n\nAm Ende eines Durchgangs trifft die **KI-Bewertung** eine von vier Entscheidungen, je nachdem, wie gut du warst:\n\n| Entscheidung | Bedeutung |\n|---|---|\n| **Weiter** | Du hast es verstanden, es geht voran |\n| **Wiederholen** | Derselbe Punkt wird noch einmal geübt |\n| **Überspringen** | Zu leicht, dieser Punkt entfällt |\n| **Zurück** | Eine Grundlage fehlt, ein Schritt zurück |\n\nSo passt sich das Tempo automatisch an dich an: Sicheres wird übersprungen, Wackliges wiederholt."
     },
     {
       "id": "step-autoloop",

@@ -21,7 +21,7 @@
       "id": "wachsende-abstaende",
       "stable_id": "card-ms9433fd02ghy",
       "front": "Wachsende Abstände",
-      "back": "Eine gut gekonnte Karte kommt in immer größeren Abständen wieder — zum Beispiel nach 1, dann 3, dann 7 Tagen. Genau vor dem Vergessen wird wiederholt.",
+      "back": "Eine gut gekonnte Karte kommt in immer größeren Abständen wieder, zum Beispiel nach 1, dann 3, dann 7 Tagen. Genau vor dem Vergessen wird wiederholt.",
       "notes": "Das Kernprinzip von Spaced Repetition: seltener, aber rechtzeitig.",
       "media_type": "text",
       "difficulty": 2,
@@ -51,7 +51,7 @@
       "id": "pruefungs-bonus",
       "stable_id": "card-ms9433fd02j5o",
       "front": "Prüfungs-Bonus",
-      "back": "Karten, die du im Prüfungsmodus richtig beantwortest, bekommen einen größeren Wiederholungsabstand — sicheres Wissen unter Druck wird belohnt.",
+      "back": "Karten, die du im Prüfungsmodus richtig beantwortest, bekommen einen größeren Wiederholungsabstand, sicheres Wissen unter Druck wird belohnt.",
       "notes": "Englisch: exam-mode interval boost. Verknüpft Prüfen und Wiederholen.",
       "media_type": "text",
       "difficulty": 3,
@@ -71,7 +71,7 @@
       "id": "wiederholungsrunde",
       "stable_id": "card-ms9433fd02l8t",
       "front": "Wiederholungsrunde",
-      "back": "Ein zusätzlicher Durchgang durch die Karten, die noch nicht sitzen — so lange, bis auch sie sicher sind.",
+      "back": "Ein zusätzlicher Durchgang durch die Karten, die noch nicht sitzen, so lange, bis auch sie sicher sind.",
       "notes": "Englisch: replay round. Schließt eine Lektion sauber ab.",
       "media_type": "text",
       "difficulty": 2,
@@ -83,19 +83,19 @@
       "id": "intro",
       "type": "theory",
       "title": "Warum wachsende Abstände wirken",
-      "body": "# Spaced Repetition\n\nFrisch Gelerntes verblasst schnell — das beschreibt die **Vergessenskurve**. **Spaced Repetition** (Wiederholung in Abständen) nutzt das aus: Wiederholt man eine Karte **kurz bevor** man sie vergisst, festigt sich das Wissen, und die nächste Pause darf länger sein.\n\nDeshalb kommen gut gekonnte Karten in **wachsenden Abständen** wieder — etwa nach **1, 3 und 7 Tagen**. Adaptive Learner plant diese Termine automatisch und legt fällige Karten in die **Wiederholungs-Warteschlange**.\n\nSo lernst du **seltener, aber rechtzeitig** — und behältst mehr bei geringerem Aufwand."
+      "body": "# Spaced Repetition\n\nFrisch Gelerntes verblasst schnell, das beschreibt die **Vergessenskurve**. **Spaced Repetition** (Wiederholung in Abständen) nutzt das aus: Wiederholt man eine Karte **kurz bevor** man sie vergisst, festigt sich das Wissen, und die nächste Pause darf länger sein.\n\nDeshalb kommen gut gekonnte Karten in **wachsenden Abständen** wieder, etwa nach **1, 3 und 7 Tagen**. Adaptive Learner plant diese Termine automatisch und legt fällige Karten in die **Wiederholungs-Warteschlange**.\n\nSo lernst du **seltener, aber rechtzeitig**, und behältst mehr bei geringerem Aufwand."
     },
     {
       "id": "step-steuerung",
       "type": "theory",
       "title": "Sterne und der Prüfungs-Bonus",
-      "body": "## Was die Abstände steuert\n\nWie bald eine Karte wiederkommt, hängt davon ab, wie sicher du sie beherrschst:\n\n- **Sternbewertung** — null bis drei Sterne nach jeder Karte. Wenige Sterne holen die Karte bald zurück, viele Sterne schieben sie nach hinten.\n- **Prüfungs-Bonus** — beantwortest du eine Karte im **Prüfungsmodus** richtig, wächst ihr Abstand zusätzlich. Sicheres Wissen unter Druck wird belohnt.\n- **Wiederholungsrunde** — was am Ende einer Lektion noch nicht sitzt, wird in einer Extrarunde erneut geübt.\n\nSo wandert deine Zeit automatisch dorthin, wo sie am meisten bringt."
+      "body": "## Was die Abstände steuert\n\nWie bald eine Karte wiederkommt, hängt davon ab, wie sicher du sie beherrschst:\n\n- **Sternbewertung**, null bis drei Sterne nach jeder Karte. Wenige Sterne holen die Karte bald zurück, viele Sterne schieben sie nach hinten.\n- **Prüfungs-Bonus**, beantwortest du eine Karte im **Prüfungsmodus** richtig, wächst ihr Abstand zusätzlich. Sicheres Wissen unter Druck wird belohnt.\n- **Wiederholungsrunde**, was am Ende einer Lektion noch nicht sitzt, wird in einer Extrarunde erneut geübt.\n\nSo wandert deine Zeit automatisch dorthin, wo sie am meisten bringt."
     },
     {
       "id": "step-fehler",
       "type": "theory",
       "title": "Aus deinen Fehlern lernen",
-      "body": "## Adaptive Lektionen aus der Fehlerhistorie\n\nAdaptive Learner merkt sich **pro Element**, wo du Fehler machst. Aus dieser Historie kann die App eine **maßgeschneiderte Lektion** zusammenstellen, die genau deine Schwachstellen aufgreift.\n\nStatt stur alles zu wiederholen, übst du gezielt das, was noch wackelt. Das ist die fehlerbasierte Idee aus Lektion 3 — hier angewandt auf die Wiederholungsplanung."
+      "body": "## Adaptive Lektionen aus der Fehlerhistorie\n\nAdaptive Learner merkt sich **pro Element**, wo du Fehler machst. Aus dieser Historie kann die App eine **maßgeschneiderte Lektion** zusammenstellen, die genau deine Schwachstellen aufgreift.\n\nStatt stur alles zu wiederholen, übst du gezielt das, was noch wackelt. Das ist die fehlerbasierte Idee aus Lektion 3, hier angewandt auf die Wiederholungsplanung."
     },
     {
       "id": "ex-tiles-abstaende",

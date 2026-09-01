@@ -1,7 +1,7 @@
 {
   "id": "12-einkaufen-markt",
   "title": "Einkaufen auf dem Markt",
-  "description": "Auf dem Markt einkaufen: nach dem Preis fragen, höflich bestellen und Zahlen von 100 bis 1000 — auf Deutsch erklärt.",
+  "description": "Auf dem Markt einkaufen: nach dem Preis fragen, höflich bestellen und Zahlen von 100 bis 1000, auf Deutsch erklärt.",
   "target_language": "es",
   "source_language": "de",
   "estimated_minutes": 13,
@@ -40,7 +40,7 @@
       "stable_id": "card-ms9433gs14jgb",
       "front": "quiero",
       "back": "ich möchte / ich will",
-      "notes": "Direkt — am wenigsten höflich.",
+      "notes": "Direkt, am wenigsten höflich.",
       "tags": [
         "shopping"
       ]
@@ -208,13 +208,13 @@
       "id": "intro",
       "type": "theory",
       "title": "Auf dem Markt: nach dem Preis fragen",
-      "body": "# Einkaufen auf dem Markt\n\nAuf dem **mercado** (Markt) brauchst du ein paar Wörter und vor allem eine wichtige Frage: **¿Cuánto cuesta?** — Wie viel kostet es?\n\nWichtige Wörter:\n\n- *el precio* — der Preis\n- *el euro* — der Euro\n- *la fruta* — das Obst\n- *las manzanas* — die Äpfel\n- *el kilo* — das Kilo\n- *barato* — billig, *caro* — teuer\n\n**Singular oder Plural?** Das Verb passt sich an:\n\n- *¿Cuánto **cuesta**?* — Wie viel kostet **es**? (ein Ding)\n- *¿Cuánto **cuestan**?* — Wie viel kosten **sie**? (mehrere Dinge)\n\nBeispiel: *¿Cuánto **cuesta** el kilo?* (ein Kilo) gegen *¿Cuánto **cuestan** las manzanas?* (die Äpfel, mehrere)."
+      "body": "# Einkaufen auf dem Markt\n\nAuf dem **mercado** (Markt) brauchst du ein paar Wörter und vor allem eine wichtige Frage: **¿Cuánto cuesta?** - Wie viel kostet es?\n\nWichtige Wörter:\n\n- *el precio*, der Preis\n- *el euro*, der Euro\n- *la fruta*, das Obst\n- *las manzanas*, die Äpfel\n- *el kilo*, das Kilo\n- *barato*, billig, *caro*, teuer\n\n**Singular oder Plural?** Das Verb passt sich an:\n\n- *¿Cuánto **cuesta**?* - Wie viel kostet **es**? (ein Ding)\n- *¿Cuánto **cuestan**?* - Wie viel kosten **sie**? (mehrere Dinge)\n\nBeispiel: *¿Cuánto **cuesta** el kilo?* (ein Kilo) gegen *¿Cuánto **cuestan** las manzanas?* (die Äpfel, mehrere)."
     },
     {
       "id": "step-cortesia",
       "type": "theory",
       "title": "Höflich bestellen: quiero / me da / me gustaría",
-      "body": "## Die Höflichkeitsleiter\n\nDrei Möglichkeiten, etwas zu bestellen — von direkt bis sehr höflich:\n\n1. **quiero** — ich will / ich möchte. Direkt, am wenigsten höflich.\n   - *Quiero dos kilos de manzanas.* — Ich möchte zwei Kilo Äpfel.\n2. **me da** — geben Sie mir (wörtlich: Sie geben mir). Neutral-höflich, sehr üblich.\n   - *Me da un kilo de fruta.* — Geben Sie mir ein Kilo Obst.\n3. **me gustaría** — ich hätte gern. Am höflichsten.\n   - *Me gustaría un kilo de fruta.* — Ich hätte gern ein Kilo Obst.\n\nIm Alltag auf dem Markt hörst du meistens **me da**. **me gustaría** ist besonders freundlich."
+      "body": "## Die Höflichkeitsleiter\n\nDrei Möglichkeiten, etwas zu bestellen, von direkt bis sehr höflich:\n\n1. **quiero**, ich will / ich möchte. Direkt, am wenigsten höflich.\n   - *Quiero dos kilos de manzanas.* - Ich möchte zwei Kilo Äpfel.\n2. **me da**, geben Sie mir (wörtlich: Sie geben mir). Neutral-höflich, sehr üblich.\n   - *Me da un kilo de fruta.* - Geben Sie mir ein Kilo Obst.\n3. **me gustaría**, ich hätte gern. Am höflichsten.\n   - *Me gustaría un kilo de fruta.* - Ich hätte gern ein Kilo Obst.\n\nIm Alltag auf dem Markt hörst du meistens **me da**. **me gustaría** ist besonders freundlich."
     },
     {
       "id": "step-numeros",
@@ -310,7 +310,7 @@
         "id": "ex-cloze-cuestan",
         "stable_id": "ex-ms9433gs153bk",
         "type": "cloze",
-        "prompt": "Die Äpfel sind mehrere Dinge (Plural) — ergänze die richtige Verbform.",
+        "prompt": "Die Äpfel sind mehrere Dinge (Plural), ergänze die richtige Verbform.",
         "card_ids": [
           "cuanto-cuestan",
           "las-manzanas"
@@ -338,7 +338,7 @@
         "id": "ex-cloze-cuesta",
         "stable_id": "ex-ms9433gs154li",
         "type": "cloze",
-        "prompt": "Das Kilo ist ein einzelnes Ding (Singular) — ergänze die richtige Verbform.",
+        "prompt": "Das Kilo ist ein einzelnes Ding (Singular), ergänze die richtige Verbform.",
         "card_ids": [
           "cuanto-cuesta",
           "el-kilo"
