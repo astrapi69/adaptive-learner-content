@@ -1,0 +1,119 @@
+{
+  "id": "aussprache-imparfait-negation",
+  "title": "Aussprache üben: imparfait und Verneinung",
+  "description": "Übe die Aussprache von Sätzen aus den Lektionen 2 und 10 (imparfait, erweiterte Verneinung). Höre den Satz, sieh ihn dir an, dann sprich ihn selbst - kein neues Vokabular, nur eine neue Fertigkeit: sprechen statt nur erkennen.",
+  "target_language": "fr",
+  "source_language": "de",
+  "domain": "language",
+  "estimated_minutes": 10,
+  "requires_extensions": ["ext:al-speak-and-record@1"],
+  "cards": [],
+  "steps": [
+    {
+      "id": "intro-aussprache",
+      "type": "theory",
+      "title": "Hören, ansehen, sprechen",
+      "body": "# Hören, ansehen, sprechen\n\nDu kennst diese Sätze schon aus den Lektionen 2 und 10 - hier geht es nicht ums Wiedererkennen, sondern ums Sprechen. Höre dir jeden Satz an, sieh ihn dir bei Bedarf an, und nimm dich selbst auf, wie du ihn sagst.\n\nDiese Übung wird nicht bewertet - es gibt kein richtig oder falsch. Vergleiche einfach deine Aufnahme mit dem Original und höre, wie nah du schon dran bist."
+    },
+    {
+      "id": "ex-speak-beau",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Über das Wetter sprechen",
+      "exercise": {
+        "id": "ex-speak-beau",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Il faisait beau."
+        }
+      }
+    },
+    {
+      "id": "ex-speak-marche",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Sich beschweren",
+      "exercise": {
+        "id": "ex-speak-marche",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Rien ne marche."
+        }
+      }
+    },
+    {
+      "id": "ex-speak-personne",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Niemand kommt",
+      "exercise": {
+        "id": "ex-speak-personne",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Personne ne vient."
+        }
+      }
+    },
+    {
+      "id": "ex-speak-voyage",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Von Reisen erzählen",
+      "exercise": {
+        "id": "ex-speak-voyage",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Je n'ai jamais voyagé en Asie."
+        }
+      }
+    },
+    {
+      "id": "ex-speak-compris",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Nicht verstanden haben",
+      "exercise": {
+        "id": "ex-speak-compris",
+        "type": "ext:al-speak-and-record",
+        "prompt": "Höre den Satz, zeige ihn dir an, dann sprich ihn nach.",
+        "ext_payload": {
+          "sentence": "Je n'ai rien compris."
+        }
+      }
+    },
+    {
+      "id": "ex-tiles-personne-vue",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Den Satz zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-personne-vue",
+        "type": "word_tiles",
+        "prompt": "Ordne so an, dass es bedeutet: *Ich habe niemanden gesehen.*",
+        "card_ids": [],
+        "tiles": ["Je", "n'ai", "vu", "personne"],
+        "hint": "ne...personne umschließt das Verb im passé composé.",
+        "direction": "target_to_source"
+      }
+    },
+    {
+      "id": "ex-tiles-travaille",
+      "type": "exercise",
+      "theory_ref": "intro-aussprache",
+      "title": "Den Satz zusammensetzen",
+      "exercise": {
+        "id": "ex-tiles-travaille",
+        "type": "word_tiles",
+        "prompt": "Ordne so an, dass es bedeutet: *Sie hat nicht mehr gearbeitet.*",
+        "card_ids": [],
+        "tiles": ["Elle", "n'a", "plus", "travaillé"],
+        "hint": "ne...plus umschließt auch hier das Verb.",
+        "direction": "target_to_source"
+      }
+    }
+  ]
+}
