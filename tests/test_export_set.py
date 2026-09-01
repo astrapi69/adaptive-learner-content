@@ -18,6 +18,11 @@ Covered behaviours (TDD, RED first):
 * equal path basenames under several source-language directories
   (``fr-a1`` under ``sets/en``, ``sets/de``, ``sets/el``) are
   disambiguated by ``--lang``; no match for the given lang errors.
+* ``--split-size`` splits a large set's export into several
+  self-contained files (each carrying its own ``review_instructions``
+  copy plus ``part``/``of``/``lesson_count``/``total_lesson_count``),
+  in consecutive, order-preserving chunks; it rejects being combined
+  with ``--out``.
 """
 from __future__ import annotations
 
@@ -25,6 +30,7 @@ import json
 import sys
 from pathlib import Path
 
+import pytest
 import yaml
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -248,3 +254,107 @@ def test_missing_review_template_fails_with_clear_error(
     captured_stderr = capsys.readouterr().err
     assert "ai-review-prompt-template" in captured_stderr or "not-there.md" in captured_stderr
     assert not out_path.exists()
+
+
+def test_chunk_lessons_splits_into_consecutive_groups_preserving_order() -> None:
+    lessons = [{"id": f"l{i}"} for i in range(8)]
+    chunks = export_set.chunk_lessons(lessons, 5)
+    assert chunks == [lessons[0:5], lessons[5:8]]
+
+
+def test_chunk_lessons_split_size_at_or_above_count_yields_one_chunk() -> None:
+    lessons = [{"id": f"l{i}"} for i in range(3)]
+    assert export_set.chunk_lessons(lessons, 5) == [lessons]
+    assert export_set.chunk_lessons(lessons, 3) == [lessons]
+
+
+def test_chunk_lessons_rejects_non_positive_split_size() -> None:
+    with pytest.raises(ValueError):
+        export_set.chunk_lessons([{"id": "l0"}], 0)
+
+
+EXPORTS_DIR = REPO_ROOT / "exports"
+
+
+def run_split_export(tmp_path: Path, split_size: int, *extra_argv: str) -> list[Path]:
+    """Run a split export for the known set and return the written files,
+    sorted by name (which sorts by part number thanks to zero-padding)."""
+    before = set(EXPORTS_DIR.glob("*")) if EXPORTS_DIR.is_dir() else set()
+    exit_code = export_set.main(
+        [KNOWN_SLUG, "--split-size", str(split_size), *extra_argv]
+    )
+    assert exit_code == 0
+    created = sorted((set(EXPORTS_DIR.glob("*")) - before))
+    for created_path in created:
+        tmp_path_copy = tmp_path / created_path.name
+        tmp_path_copy.write_bytes(created_path.read_bytes())
+        created_path.unlink()
+    return sorted(tmp_path.glob("*"))
+
+
+def test_split_size_writes_one_file_per_chunk_with_correct_lesson_counts(
+    tmp_path: Path,
+) -> None:
+    source_lessons = load_source_lessons()
+    assert len(source_lessons) == 12  # KNOWN_SLUG fixture assumption
+
+    created_files = run_split_export(tmp_path, 8)
+    assert len(created_files) == 2
+
+    part_1 = yaml.safe_load(created_files[0].read_text(encoding="utf-8"))
+    part_2 = yaml.safe_load(created_files[1].read_text(encoding="utf-8"))
+    assert part_1["lesson_count"] == 8
+    assert part_2["lesson_count"] == 4
+    assert part_1["total_lesson_count"] == 12
+    assert part_2["total_lesson_count"] == 12
+    assert part_1["part"] == 1
+    assert part_1["of"] == 2
+    assert part_2["part"] == 2
+    assert part_2["of"] == 2
+
+
+def test_split_size_parts_concatenate_to_the_full_lesson_order(tmp_path: Path) -> None:
+    source_lessons = load_source_lessons()
+    created_files = run_split_export(tmp_path, 5)
+
+    reassembled: list[dict] = []
+    for created_path in created_files:
+        payload = yaml.safe_load(created_path.read_text(encoding="utf-8"))
+        reassembled.extend(payload["lessons"])
+    assert reassembled == source_lessons
+
+
+def test_split_size_each_part_is_self_contained_with_review_instructions(
+    tmp_path: Path,
+) -> None:
+    created_files = run_split_export(tmp_path, 8)
+    template_text = REVIEW_TEMPLATE_PATH.read_text(encoding="utf-8")
+    for created_path in created_files:
+        payload = yaml.safe_load(created_path.read_text(encoding="utf-8"))
+        assert payload["review_instructions"] == template_text
+
+
+def test_split_size_at_or_above_lesson_count_yields_single_file(tmp_path: Path) -> None:
+    created_files = run_split_export(tmp_path, 100)
+    assert len(created_files) == 1
+    payload = yaml.safe_load(created_files[0].read_text(encoding="utf-8"))
+    assert payload["part"] == 1
+    assert payload["of"] == 1
+    assert payload["lesson_count"] == payload["total_lesson_count"]
+
+
+def test_split_size_combined_with_out_is_a_usage_error(tmp_path: Path, capsys) -> None:
+    exit_code = export_set.main(
+        [
+            KNOWN_SLUG,
+            "--split-size",
+            "5",
+            "--out",
+            str(tmp_path / "never-written.yaml"),
+        ]
+    )
+    assert exit_code != 0
+    captured_stderr = capsys.readouterr().err
+    assert "--split-size" in captured_stderr
+    assert "--out" in captured_stderr
+    assert not (tmp_path / "never-written.yaml").exists()
