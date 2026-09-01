@@ -5,15 +5,22 @@
 # lesson filename list (``metadata.lessons``). Adding a lesson is
 # a two-line PR: add the JSON under ``lessons/`` and append its
 # filename here, then bump ``lesson_count`` in the root manifest.
+#
+# v1.4.0: pronunciation lesson (ext:al-speak-and-record, engine#68
+# idea 3), mirroring the de-source trilogy
+# (adaptive-learner-content#192/#194/#198). Builds on lessons 1, 5, 8,
+# 9 without changing them: the same sentences, said aloud instead of
+# recognized. No NN-prefix - display order (lexicographic by
+# lesson.id) puts it at the end, after lesson 15.
 schema_version: '1.2'
 name: French A1 (for English speakers)
 description: >-
-  Fifteen-lesson A1-level French course explained in English:
+  Sixteen-lesson A1-level French course explained in English:
   greetings, numbers, articles, être + avoir, self-
   introduction, family, colors + clothing, restaurant,
   directions, the passé composé (with avoir and être), telling
   time + daily routine, food shopping, and the futur proche,
-  closing with an A1 review.
+  closing with an A1 review and a pronunciation lesson.
 sets:
   - id: fr-a1-from-en
     title: French A1 (for English speakers)
@@ -22,12 +29,12 @@ sets:
     source_language: en
     level: A1
     path: sets/en/fr-a1
-    version: '1.3.0'
-    lesson_count: 15
+    version: '1.4.0'
+    lesson_count: 16
     domain: language
     description: >-
-      Fifteen lessons covering A1 essentials, explained in
-      English.
+      Sixteen lessons covering A1 essentials, explained in
+      English, closing with a pronunciation lesson.
     tags:
       - beginner
       - travel
@@ -51,3 +58,4 @@ metadata:
     - 13-passe-compose-etre.json
     - 14-futur-proche.json
     - 15-revision.json
+    - pronunciation-everyday-sentences.json
