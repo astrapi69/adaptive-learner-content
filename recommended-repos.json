@@ -127,14 +127,15 @@
       "branch": "main",
       "commit": "388ab16c0c7fe2c5ee35f06874391ac41c3c9c37",
       "title": "Buch-Lernsets",
-      "description": "Lernsets zu Büchern: je Buch ein Set, dessen Lektionen der Gliederung des Buches folgen. Erstes Set: \"Biologische Souveränität\" (23 Lektionen) über CRISPR, Keimbahneingriffe und die Frage, wem der eigene genetische Code gehört. Maschinell aus dem Buch erzeugt, fachliche Durchsicht steht aus (review_status: generated).",
+      "description": "Lernsets zu Büchern: je Buch ein Set, dessen Lektionen der Gliederung des Buches folgen. Drei Sets: \"Biologische Souveränität\" (23 Lektionen, deutsch) über CRISPR, Keimbahneingriffe und die Frage, wem der eigene genetische Code gehört; \"Das lebende Stimmrecht\" (15 Lektionen, deutsch) zur Frage, wie demokratische Mitbestimmung lebendig bleibt; \"IA para principiantes\" (10 Lektionen, spanisch) zum praktischen Einsatz von KI im Alltag. Maschinell aus den Büchern erzeugt, fachliche Durchsicht steht aus (review_status: generated).",
       "trust_level": 1,
       "languages": [
-        "de-de"
+        "de-de",
+        "es-es"
       ],
       "validation": {
         "status": "validated",
-        "validated_at": "2026-09-01T14:05:54.000Z",
+        "validated_at": "2026-09-03T08:50:59.000Z",
         "index_schema_version": "1.0"
       }
     }
