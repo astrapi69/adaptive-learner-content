@@ -168,6 +168,36 @@ Ausführliche Anleitung und Best Practices (u. a. Quellkapitel-Workflow):
 [`docs/export-set-usage.de.md`](docs/export-set-usage.de.md) (Deutsch) /
 [`docs/export-set-usage.md`](docs/export-set-usage.md) (English).
 
+### Set-Export nach Anki (.apkg)
+
+`scripts/export_anki.py` macht aus einem Set ein Anki-Deck, damit die
+Inhalte in das größte Spaced-Repetition-Ökosystem wandern können, ohne
+dieses Format zu verlassen:
+
+```bash
+make export-anki ARGS="en-a1-from-de"
+# -> exports/en-a1-from-de-de-<timestamp>.apkg   (in Anki: Datei > Importieren)
+
+python3 scripts/export_anki.py en-a1-from-de --out /tmp/deck.apkg
+```
+
+Was zu einer Notiz wird: jede Karte (Vorder-/Rückseite), `free_text`
+(Aufgabe / kanonische Antwort, Alternativen aufgelistet), `cloze` (ein
+`{{cN::...}}` je Lücke, die `explanation` als Zusatz), `multiple_choice`
+(Optionen mit Buchstaben / die richtigen Buchstaben), `matching` (eine
+Notiz je Paar), `word_tiles` (Kacheln alphabetisch / der Satz). Ausgelassen
+und im Bericht benannt, nie still: Theorie-Schritte, `picture_choice`
+(Bilder werden nicht exportiert), `matching` mit `from_cards` (die Paare
+sind die Karten, einmal exportiert) und alle `ext:`-Typen.
+
+Die Identität der Notizen bleibt erhalten: die GUID leitet sich aus der
+`stable_id` ab (sonst Lektions-Id plus Element-Id). Ein erneuter Import
+eines neueren Exports aktualisiert die Notizen in Anki und behält den
+Lernstand, statt Duplikate anzulegen. Wie der KI-Review-Export ist das ein
+Konsumenten-Werkzeug: es rendert eine Darstellung der kanonischen
+Lektionen und ruft die Engine nicht auf. Braucht `genanki` (MIT):
+`pip install genanki`.
+
 ### Status-Legende
 - **✓ Validiert**: KI-geprüft + manuell gesichtet (`ai_validated: true`)
 - **Review**: Kuratierter Inhalt, wartet auf KI-Validierung und Native-Speaker Review

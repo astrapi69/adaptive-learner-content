@@ -25,12 +25,13 @@
 ENGINE_PIN := $(shell cat schema/engine-version.txt)
 ENGINE_STAMP := node_modules/.engine-$(ENGINE_PIN)
 
-.PHONY: lint lint-warnings export help
+.PHONY: lint lint-warnings export export-anki help
 
 help:
 	@echo "make lint            - Engine-Gate lokal (Selbsttest + alle Lektionen/Manifeste)"
 	@echo "make lint-warnings   - derselbe Lauf, zusätzlich mit Warnungen (W-*)"
 	@echo "make export          - Set fuer KI-Review exportieren (ARGS=\"<slug> [--split-size N] ...\")"
+	@echo "make export-anki     - Set als Anki-Deck (.apkg) exportieren (ARGS=\"<slug> [--lang xx] [--out PATH]\")"
 
 # Die gepinnte Engine. Wird nur installiert, wenn der Versions-Stempel fehlt
 # (idempotent; ein neuer Pin in schema/engine-version.txt erzwingt eine
@@ -57,3 +58,9 @@ stable-ids: $(ENGINE_STAMP) ## Stabilitaets- und Abdeckungs-Gate (beide mitgelie
 # Braucht nur Python 3 + PyYAML (kein Node, keine gepinnte Engine).
 export:
 	@python3 scripts/export_set.py $(ARGS)
+
+# Ein Set als Anki-Deck (.apkg) exportieren, z. B.:
+#     make export-anki ARGS="<set-slug>"
+#     make export-anki ARGS="<set-slug> --lang en --out /tmp/deck.apkg"
+export-anki:
+	@python3 scripts/export_anki.py $(ARGS)
