@@ -30,6 +30,7 @@ ENGINE_STAMP := node_modules/.engine-$(ENGINE_PIN)
 help:
 	@echo "make lint            - Engine-Gate lokal (Selbsttest + alle Lektionen/Manifeste)"
 	@echo "make lint-warnings   - derselbe Lauf, zusätzlich mit Warnungen (W-*)"
+	@echo "make prose-check      - Em-Dash, unsichtbare Zeichen, fehlende Umlaute in allen Dateien"
 	@echo "make export          - Set fuer KI-Review exportieren (ARGS=\"<slug> [--split-size N] ...\")"
 	@echo "make export-anki     - Set als Anki-Deck (.apkg) exportieren (ARGS=\"<slug> [--lang xx] [--out PATH]\")"
 
