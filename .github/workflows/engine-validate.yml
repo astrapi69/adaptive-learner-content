@@ -40,3 +40,30 @@ jobs:
         run: node scripts/validate_with_engine.mjs --self-test
       - name: Engine-validate all lessons and manifests
         run: node scripts/validate_with_engine.mjs
+      - name: Author lints (warnings, non-blocking)
+        # The warning tier never blocks - it reports authoring smells the
+        # error gate deliberately lets pass. It runs here so that a lint
+        # shipped in a newly pinned engine release becomes visible on its own:
+        # until now warnings reached nobody unless someone ran
+        # `make lint-warnings` by hand, so a pin bump changed a version number
+        # and nothing on screen. The findings go into the job summary, so the
+        # list is readable without opening the log.
+        continue-on-error: true
+        run: |
+          node scripts/validate_with_engine.mjs --warnings | tee /tmp/lint-warnings.txt
+          {
+            echo "### Author lints (warnings, non-blocking)"
+            echo
+            echo "| rule | count |"
+            echo "|---|---|"
+            grep -oE '\[W-[A-Z0-9-]+\]' /tmp/lint-warnings.txt \
+              | sort | uniq -c | sort -rn \
+              | awk '{gsub(/[][]/, "", $2); print "| `" $2 "` | " $1 " |"}' || true
+            echo
+            echo "<details><summary>full list</summary>"
+            echo
+            echo '```'
+            head -c 60000 /tmp/lint-warnings.txt
+            echo '```'
+            echo "</details>"
+          } >> "$GITHUB_STEP_SUMMARY"
