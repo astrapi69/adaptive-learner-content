@@ -31,7 +31,7 @@ help:
 	@echo "make lint            - Engine-Gate lokal (Selbsttest + alle Lektionen/Manifeste)"
 	@echo "make lint-warnings   - derselbe Lauf, zusätzlich mit Warnungen (W-*)"
 	@echo "make prose-check      - Em-Dash, unsichtbare Zeichen, fehlende Umlaute in allen Dateien"
-	@echo "make export          - Set fuer KI-Review exportieren (ARGS=\"<slug> [--split-size N] ...\")"
+	@echo "make export          - Set für KI-Review exportieren (ARGS=\"<slug> [--split-size N] ...\")"
 	@echo "make export-anki     - Set als Anki-Deck (.apkg) exportieren (ARGS=\"<slug> [--lang xx] [--out PATH]\")"
 
 # Die gepinnte Engine. Wird nur installiert, wenn der Versions-Stempel fehlt
@@ -58,11 +58,11 @@ prose-check:
 lint-warnings: $(ENGINE_STAMP)
 	node scripts/validate_with_engine.mjs --warnings .
 
-stable-ids: $(ENGINE_STAMP) ## Stabilitaets- und Abdeckungs-Gate (beide mitgeliefert)
+stable-ids: $(ENGINE_STAMP) ## Stabilitäts- und Abdeckungs-Gate (beide mitgeliefert)
 	npx --no-install learn-content-engine check-stable-ids --base origin/main
 	npx --no-install learn-content-engine check-stable-id-coverage
 
-# Ein Set fuer KI-Review exportieren, z. B.:
+# Ein Set für KI-Review exportieren, z. B.:
 #     make export ARGS="<set-slug>"
 #     make export ARGS="<set-slug> --split-size 5"
 # Braucht nur Python 3 + PyYAML (kein Node, keine gepinnte Engine).

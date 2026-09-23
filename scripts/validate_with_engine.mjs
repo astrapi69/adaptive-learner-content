@@ -23,7 +23,7 @@
  *   node scripts/validate_with_engine.mjs --warnings     # also list W-* lints
  *
  * --self-test feeds known-bad lessons (one per semantic rule class) to
- * validateLesson and exits non-zero unless EVERY one is rejected — so a
+ * validateLesson and exits non-zero unless EVERY one is rejected - so a
  * silently toothless validator cannot masquerade as a green gate.
  *
  * --warnings also lists the author lints (W-*) that never block. It runs

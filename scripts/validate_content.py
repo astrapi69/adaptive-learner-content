@@ -26,7 +26,7 @@ What stays here (content-repo specifics the schema does NOT cover):
     folder-name rule is relaxed for non-language domains).
   * Non-Latin source scripts: card backs use that script.
   * Distractor minimums for ``free_text`` / ``picture_choice`` and the
-    ``word_tiles`` ``accept_orderings`` permutation check — content-repo
+    ``word_tiles`` ``accept_orderings`` permutation check - content-repo
     quality rules that are not expressible in the JSON Schema.
 
 A set's ``domain`` (optional, default ``language``) selects which rules
@@ -134,7 +134,7 @@ def _load_quality_rules() -> dict:
 LESSON_VALIDATOR = _load_lesson_schema()
 QUALITY = _load_quality_rules()
 
-# Quality minimums — read from the mirrored quality-rules.json (App-shared).
+# Quality minimums - read from the mirrored quality-rules.json (App-shared).
 MIN_EXERCISES = QUALITY["minExercisesPerLesson"]
 MIN_TYPES = QUALITY["minExerciseTypes"]
 MIN_THEORY = QUALITY["minTheorySteps"]
@@ -238,7 +238,7 @@ def lesson_shape_ok(lesson) -> bool:
 
     Parity twin of the app's ``validateLessonShape(lesson).ok``. Only the
     structural schema (fields, types, closed enums, length/range bounds,
-    ``additionalProperties: false``) is checked here — the content-repo's
+    ``additionalProperties: false``) is checked here - the content-repo's
     quality minimums and language-pair rules are a separate, disjoint layer.
     """
     return not lesson_shape_errors(lesson)
