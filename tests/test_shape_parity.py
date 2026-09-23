@@ -89,7 +89,7 @@ def _run_standalone() -> int:
     if failures:
         print(f"\nDIVERGENCE: {len(failures)} case(s) disagree: {failures}")
         return 1
-    print(f"\nParity OK — all {len(CASES)} shared-fixture verdicts match.")
+    print(f"\nParity OK - all {len(CASES)} shared-fixture verdicts match.")
     return 0
 
 
