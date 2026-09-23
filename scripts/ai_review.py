@@ -5,7 +5,7 @@ Advisory-only PR check: sends the cards from every lesson file CHANGED
 in the PR to an LLM grader and posts the findings as a PR comment. This
 catches semantic errors ``validate_content.py`` (schema) and
 ``audit_content.py`` (deterministic duplicate/structure checks, EXP-032)
-cannot — a wrong article, a mismatched conjugation, a plausible-looking
+cannot: a wrong article, a mismatched conjugation, a plausible-looking
 but wrong distractor. Never blocks: the exit code is always 0.
 
 Skipped entirely (no API call, no comment, no cost) when the ``OPENAI_KEY``
@@ -16,7 +16,7 @@ green. Runs on ``pull_request`` only (see the workflow), not on every push
 
 The prompt and the defensive JSON-response parser are a deliberate port
 of ``adaptive-learner/frontend/src/lib/ai/validation/content-validator.ts``
-(AIV-01, the app-side "Mit KI pruefen" button) - same grading criteria,
+(AIV-01, the app-side "Mit KI prüfen" button) - same grading criteria,
 same batch size, same JSON contract, so a CI-side and an app-side review
 of the same cards agree.
 
@@ -75,18 +75,18 @@ def build_validation_prompt(
     )
     return "\n".join(
         [
-            "Du bist ein Sprachlehrer und Qualitaetspruefer.",
-            f"Pruefe diese Lernkarten (Quellsprache: {source_language}, "
+            "Du bist ein Sprachlehrer und Qualitätsprüfer.",
+            f"Prüfe diese Lernkarten (Quellsprache: {source_language}, "
             f"Zielsprache: {target_language}, Level: {level}).",
             "Das Feld 'front' ist in der Zielsprache, 'back' und 'notes' in der Quellsprache.",
             "",
-            "Pro Karte pruefen:",
-            "1. Uebersetzung korrekt?",
+            "Pro Karte prüfen:",
+            "1. Übersetzung korrekt?",
             "2. Artikel korrekt?",
             "3. Konjugation korrekt?",
-            "4. Akzente vollstaendig?",
+            "4. Akzente vollständig?",
             "5. Distraktoren plausibel aber eindeutig falsch?",
-            "6. Cloze-Luecke hat genau eine korrekte Antwort?",
+            "6. Cloze-Lücke hat genau eine korrekte Antwort?",
             "",
             "Antworte NUR als JSON Array, exakt in dieser Form:",
             '[{"card_id": "...", "ok": true, "issues": []},',
@@ -94,7 +94,7 @@ def build_validation_prompt(
             '[{"field": "back", "problem": "...", "suggestion": "..."}]}]',
             "Eine Karte ohne Probleme hat ok=true und issues=[].",
             "Schreibe 'problem' und 'suggestion' in der Quellsprache.",
-            "Keine Erklaerungen ausserhalb des JSON.",
+            "Keine Erklärungen außerhalb des JSON.",
             "",
             "Karten:",
             card_json,

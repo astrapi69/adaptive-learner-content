@@ -4,7 +4,7 @@
 reviewed the set, when, with what result). The canonical manifest format
 (engine ``content-manifest.schema.json``, strict
 ``additionalProperties: false``) does not know it, so it must live in the
-set manifest's free-form top-level ``metadata`` block — NOT in the strict
+set manifest's free-form top-level ``metadata`` block, NOT in the strict
 set entry. The positive index pin (metadata block -> ``ai_validated``
 flag) moved to alc-ai together with the ki-einsteiger set
 (see #144); this repo keeps the generic schema guard.
@@ -17,7 +17,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 def test_ai_validation_not_in_strict_set_entries() -> None:
-    """No set manifest may carry ``ai_validation`` inside a set ENTRY —
+    """No set manifest may carry ``ai_validation`` inside a set ENTRY:
     the canonical (engine) manifest schema rejects unknown fields there."""
     import yaml
 

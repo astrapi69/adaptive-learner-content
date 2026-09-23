@@ -5,10 +5,10 @@
 # commit + validation block). This workflow is the merge gate for that
 # "request to be listed":
 #
-#   * validate_registry.py  — offline: the registry file matches its
+#   * validate_registry.py (offline): the registry file matches its
 #     JSON Schema and the cross-field rules (one self entry, no dup
 #     urls, only 'validated' entries ship).
-#   * validate_registered_repo.py — online: each external repo is cloned
+#   * validate_registered_repo.py (online): each external repo is cloned
 #     at its pinned commit, the commit is proven to be on its branch,
 #     and the snapshot's search-index.json is validated against the
 #     federation contract (schema/search-index.schema.json).
