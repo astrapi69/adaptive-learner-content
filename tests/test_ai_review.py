@@ -55,7 +55,7 @@ def test_build_validation_prompt_contains_language_and_cards():
     assert "Level: A1" in prompt
     assert "el gato" in prompt
     assert "c1" in prompt
-    assert "Keine Erklaerungen ausserhalb des JSON." in prompt
+    assert "Keine Erklärungen außerhalb des JSON." in prompt
 
 
 # --- pure: response parsing ------------------------------------------------

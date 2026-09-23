@@ -6,7 +6,7 @@ to the repo root as ``search-index.json``. It is the discovery feed an
 app (or a federated index across repos) reads to list, filter and rank
 sets without cloning the whole tree or parsing every lesson.
 
-The index is ALWAYS generated — never hand-edited. The root
+The index is ALWAYS generated, never hand-edited. The root
 ``manifest.yaml`` is the authoritative set list (it carries each set's
 ``path``); for every set we open its own ``<path>/manifest.yaml`` for
 the lesson file list and book metadata, then open each lesson JSON to
@@ -26,7 +26,7 @@ Per set the index records:
     derive "advertisable as reviewed" as review_status != "generated"
   * ai_validated: true when the set manifest carries an ``ai_validation``
     block under its free-form ``metadata`` (set-entry fallback for older
-    manifests — the canonical manifest schema keeps set entries strict)
+    manifests: the canonical manifest schema keeps set entries strict)
   * trust_level: this repo's level from recommended-repos.json, else 1
   * book: the set's ``book`` block, else null
   * updated_at: ``git log -1 --format=%cI`` for the set directory,

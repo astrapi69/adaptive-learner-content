@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Validate ``recommended-repos.json`` — the federated-search registry.
+"""Validate ``recommended-repos.json``, the federated-search registry.
 
 This is the fast, offline gate: it checks the registry FILE against
 ``schema/recommended-repos.schema.json`` and applies the cross-field
 rules the JSON Schema cannot express on its own. It does NOT touch the
-network — cloning and validating each external repo at its pinned
+network: cloning and validating each external repo at its pinned
 commit is the job of ``validate_registered_repo.py``.
 
 Rules enforced here:
