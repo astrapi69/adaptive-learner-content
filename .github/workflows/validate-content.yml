@@ -2,13 +2,14 @@
 #
 # Runs the validator on every pull request (and on pushes to main)
 # so no broken or low-quality lesson set can land. The structural
-# fields are validated against the JSON Schema mirrored under schema/
-# from the pinned learn-content-engine release (jsonschema library),
-# the quality minimums are read from schema/quality-rules.json, and
-# the content-repo specifics (language pair, directory structure,
-# non-Latin scripts) stay in the validator. This is the second of
-# the two validation layers — the Adaptive Learner app runs the same
-# checks client-side before a community share.
+# fields are validated against the canonical JSON Schema vendored
+# under schema/ (a mirror of the pinned learn-content-engine
+# release; source-of-truth chain: engine (canonical) -> this
+# mirror), the quality minimums are read from
+# schema/quality-rules.json, and the content-repo specifics
+# (language pair, directory structure, non-Latin scripts) stay in
+# the validator. Everything here reads only committed files - the
+# validation itself works fully offline.
 name: Validate content
 
 on:
@@ -30,39 +31,31 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install validator dependencies
+        # requests: the hub's AI review script (scripts/ai_review.py, hub-only)
+        # imports it, and its tests run in the same suite. The workflow is the
+        # same file in every repository, so the hub's need is installed
+        # everywhere; it is one small package.
         run: pip install "pyyaml>=6,<7" "jsonschema>=4,<5" "pytest>=8,<9" "requests>=2,<3" regex "genanki>=0.13,<0.14"
       - name: Prose gate self-test
-        # Blocking even while the backlog below is open: a gate that does not
-        # fire on known-bad input is broken, backlog or not.
+        # Blocking always: a gate that does not fire on known-bad input is
+        # broken, whatever the repository's backlog.
         run: python scripts/check_prose.py --self-test
-      - name: Prose findings (non-blocking until the cleanup PR)
-        # This repository still carries a backlog the gate reports: em dashes,
-        # invisible characters, German written with letter pairs instead of
-        # its umlauts. The per-repo cleanup PR works it off and removes
-        # continue-on-error in the same commit; from then on a regression
-        # fails the PR. Until then the step shows red and the job stays green.
-        continue-on-error: true
+      - name: Prose gate (em dash, invisible characters, substituted umlauts)
+        # Blocking unless the repository records a backlog in its own
+        # .github/quality-state.json (prose_gate.blocking: false, with a date
+        # and a reason). The decision lives there and not in this file, so
+        # this workflow stays identical in every repository. A broken gate
+        # (any exit code other than 0 or 1) and a malformed state file always
+        # fail. The summary lists the findings per file and ends with the
+        # gate's totals.
         run: |
           set +e
           python -u scripts/check_prose.py > /tmp/prose.txt 2>&1
           status=$?
           set -e
           cat /tmp/prose.txt
-          {
-            echo "### Prose gate (non-blocking until the cleanup PR)"
-            echo
-            echo "| file | findings |"
-            echo "|---|---|"
-            grep -E '^[^ ].*:[0-9]+: ' /tmp/prose.txt | cut -d: -f1 | sort | uniq -c | sort -rn > /tmp/prose-files.txt || true
-            head -50 /tmp/prose-files.txt | awk '{print "| `" $2 "` | " $1 " |"}'
-            # No silent cap: say how many files the table leaves out.
-            more=$(( $(wc -l < /tmp/prose-files.txt) - 50 ))
-            if [ "$more" -gt 0 ]; then echo "| ... and $more more file(s) | |"; fi
-            echo
-            grep -E '^(PROSE GATE|prose gate):' /tmp/prose.txt || true
-          } >> "$GITHUB_STEP_SUMMARY"
-          exit $status
+          python scripts/quality_state.py prose --status "$status" --report /tmp/prose.txt >> "$GITHUB_STEP_SUMMARY"
       - name: Validate content tree
         run: python scripts/validate_content.py
-      - name: Repo test suite (shape parity #1208, drift-gate units, index flags)
+      - name: Repo test suite (shape parity #1208, drift-gate units)
         run: python -m pytest tests -q

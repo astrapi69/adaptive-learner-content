@@ -1,25 +1,23 @@
-# Engine conformance gate.
+# Engine conformance gate - structural AND semantic validation.
 #
-# Runs learn-content-engine's validateLesson() — the ajv structural
-# layer AND the semantic cross-field rules (cloze markers == blanks,
-# card_ids referential integrity, multiselect disjointness,
-# picture-choice exactly-one-correct, ...) — over EVERY lesson in this
-# repo, plus validateManifest() over the root and per-set manifests.
+# Runs learn-content-engine's validateLesson()/validateManifest() (at the
+# version pinned in schema/engine-version.txt) over the WHOLE repo
+# content: every lesson plus the root and per-set manifests. This is the
+# semantic layer the structural CI (validate_content.py against the
+# vendored JSON Schema) cannot see: cloze blanks == '___' markers,
+# referential integrity of card_ids, multiselect disjointness, picture
+# "exactly one correct". Rationale: a real engine conformance run found
+# two semantic bugs in the official content repo
+# (astrapi69/adaptive-learner-content#92) that the structural CI let
+# through.
 # Gate: zero errors.
-#
-# Why in addition to validate-content.yml: the structural gate
-# (jsonschema against the mirrored schema) cannot see cross-field
-# semantics; a real conformance run found two semantic bugs in the
-# official content repo that the structural CI had passed. This job is
-# the same validator third-party consumers run, at the same pinned
-# version the schema mirror is checked against
-# (schema/engine-version.txt).
-name: Engine validate
+name: Engine conformance
 
 on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
@@ -29,25 +27,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v5
         with:
-          node-version: "22"
-      - name: Install the pinned engine
+          node-version: "24"
+      - name: Install the pinned engine release
         # yaml is installed explicitly (the runner parses the manifests
-        # itself); the range matches the engine's own dependency.
-        run: npm install --no-save --no-package-lock "learn-content-engine@$(cat schema/engine-version.txt)" "yaml@^2.9.0"
+        # itself); the version range matches the engine's own dependency.
+        run: npm install --no-save "learn-content-engine@$(cat schema/engine-version.txt)" "yaml@^2.9.0"
       - name: Self-test (the gate must bite before it may pass)
         run: node scripts/validate_with_engine.mjs --self-test
-      - name: Engine-validate all lessons and manifests
-        run: node scripts/validate_with_engine.mjs
+      - name: Validate all lessons and manifests with the engine
+        run: node scripts/validate_with_engine.mjs .
       - name: Author lints (warnings, non-blocking)
         # The warning tier never blocks - it reports authoring smells the
-        # error gate deliberately lets pass. It runs here so that a lint
-        # shipped in a newly pinned engine release becomes visible on its own:
-        # until now warnings reached nobody unless someone ran
-        # `make lint-warnings` by hand, so a pin bump changed a version number
-        # and nothing on screen. The findings go into the job summary, so the
-        # list is readable without opening the log.
+        # error gate deliberately lets pass. It runs here so a lint shipped in
+        # a newly pinned engine release becomes visible on its own: warnings
+        # otherwise reach nobody unless someone runs `make lint-warnings` by
+        # hand, so a pin bump changes a version number and nothing on screen.
+        # The findings go into the job summary, readable without opening the
+        # log.
         continue-on-error: true
         run: |
           # Keep the runner's exit code: it is 0 when it only finds warnings, so
@@ -58,14 +56,11 @@ jobs:
           status=$?
           set -e
           cat /tmp/lint-warnings.txt
+          # Per rule, and for every warning the repository decided to keep
+          # (.github/quality-state.json) the decision next to the number and a
+          # comparison of the recorded elements with the current ones.
+          python3 scripts/quality_state.py warnings /tmp/lint-warnings.txt >> "$GITHUB_STEP_SUMMARY"
           {
-            echo "### Author lints (warnings, non-blocking)"
-            echo
-            echo "| rule | count |"
-            echo "|---|---|"
-            grep -oE '\[W-[A-Z0-9-]+\]' /tmp/lint-warnings.txt \
-              | sort | uniq -c | sort -rn \
-              | awk '{gsub(/[][]/, "", $2); print "| `" $2 "` | " $1 " |"}' || true
             echo
             echo "<details><summary>full list</summary>"
             echo
