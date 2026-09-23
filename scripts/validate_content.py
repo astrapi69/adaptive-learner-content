@@ -3,13 +3,12 @@
 
 This is the SECOND of Adaptive Learner's two validation layers (the app
 runs the same checks client-side before a community share). The
-**structural** definition of a lesson comes from the vendored JSON Schema
-under ``schema/lesson.schema.json`` — a MIRROR of the pinned
-``learn-content-engine`` release (source of truth chain: engine
-(canonical) -> this mirror; see ``schema/README.md``) — and this
-validator FOLLOWS it instead of re-implementing the field rules. It is
-deliberately Python-only (``jsonschema``, no node/ajv, no app install)
-and validates fully OFFLINE against the vendored mirror.
+**structural** definition of a lesson is canonical: the JSON Schema under
+``schema/lesson.schema.json`` is MIRRORED from the pinned
+learn-content-engine release (source-of-truth chain: engine
+(canonical) → this mirror - see ``schema/README.md``) and this
+validator FOLLOWS it instead of re-implementing the field rules. It reads
+only the vendored mirror, so validation works fully offline.
 
 What comes from the mirror (do not duplicate here):
   * **Structure / fields:** validated with the ``jsonschema`` library
@@ -18,7 +17,7 @@ What comes from the mirror (do not duplicate here):
   * **Quality minimums:** read from ``schema/quality-rules.json`` so a
     change to that file changes the behaviour (no hardcoded numbers).
 
-What stays here (content-repo specifics the schema does NOT cover):
+What stays here (content-repo specifics the canonical schema does NOT cover):
   * Language-pair rules (language domain): valid ISO 639-1 ``target`` +
     ``source``, and ``target != source`` for ``domain: language``.
   * Source-language directory structure: a set's ``path`` is
@@ -57,21 +56,22 @@ QUALITY_RULES_PATH = SCHEMA_DIR / "quality-rules.json"
 
 ISO_639_1 = re.compile(r"^[a-z]{2}$")
 
-# Answer-length statements in exercise/blank hints (#100). The app shows the
-# answer's length automatically (the system hint), so an authored hint stating
-# a letter/character count ("Vier Buchstaben.") is redundant at best and
-# contradicts the system hint when it is wrong (the DSGVO cloze said "Vier
-# Buchstaben." for a five-letter answer). Card hints are NOT covered: a
-# character count there can be legitimate teaching content (e.g. explaining
-# that ``s[0:3]`` yields 3 characters). Compounds like "Leerzeichen" do not
-# match (no word boundary inside the compound), so indentation advice passes.
+# Answer-length statements in exercise/blank hints (adaptive-learner-content#100).
+# The app shows the answer's length automatically (the system hint), so an
+# authored hint stating a letter/character count ("Vier Buchstaben.") is
+# redundant at best and contradicts the system hint when it is wrong. Card
+# hints are NOT covered: a character count there can be legitimate teaching
+# content (e.g. explaining that ``s[0:3]`` yields 3 characters). Compounds
+# like "Leerzeichen" do not match (no word boundary inside the compound),
+# so indentation advice passes.
 #
-# #102 — the count words also cover the English number words (one…twelve;
+# The count words also cover the English number words (one to twelve;
 # hyphenated adjectives like "five-letter" match via the ``[-\s]+`` joiner)
-# and the single-character adjectives ("ein einzelnes Zeichen" /
-# "a single character" state answer length 1). Compounds still pass:
-# "Ein einzelner Kleinbuchstabe" conveys CASE, which the system hint does
-# not show, and "the letter she wrote" has no count word before the noun.
+# and the single-character adjectives ("ein einzelnes Zeichen", "a single
+# character" state answer length 1), adaptive-learner-content#102. Compounds
+# still pass: "Ein einzelner Kleinbuchstabe" conveys CASE, which the system
+# hint does not show, and "the letter she wrote" has no count word before the
+# noun.
 _HINT_COUNT_WORDS = (
     r"\d+|ein(?:e[nmrs]?)?|zwei|drei|vier|f(?:ü|ue)nf|sechs|sieben|acht|neun"
     r"|zehn|elf|zw(?:ö|oe)lf"
@@ -88,11 +88,11 @@ HINT_LENGTH_PATTERN = re.compile(
 def hint_states_answer_length(hint: object) -> bool:
     """True when an authored hint states the answer's letter/character count.
 
-    Matches a digit, a German or English number word, or a
-    single-character adjective ("einzeln…"/"single") followed by
-    "Buchstabe(n)"/"Zeichen"/"letter(s)"/"character(s)" (plus the
-    "-buchstabig" adjectives). Applied to exercise-level and blank-level
-    hints only — see the note on ``HINT_LENGTH_PATTERN``.
+    Matches a digit, a German or English number word, or a single-character
+    adjective ("einzeln..."/"single") followed by "Buchstabe(n)"/"Zeichen"/
+    "letter(s)"/"character(s)" (plus the "-buchstabig" adjectives). Applied to
+    exercise-level and blank-level hints only - see the note on
+    ``HINT_LENGTH_PATTERN``.
     """
     return isinstance(hint, str) and bool(HINT_LENGTH_PATTERN.search(hint))
 
@@ -213,7 +213,7 @@ def validate_structure(content_set: dict, errors: list[str]) -> None:
 
 
 def validate_lesson_schema(lesson: dict, label: str, errors: list[str]) -> None:
-    """Structural validation against the mirrored engine JSON Schema."""
+    """Structural validation against the canonical (engine-mirrored) JSON Schema."""
     for err in sorted(LESSON_VALIDATOR.iter_errors(lesson), key=str):
         loc = "/".join(str(p) for p in err.absolute_path) or "<root>"
         errors.append(f"{label}: schema: {loc}: {err.message}")
@@ -255,15 +255,13 @@ def validate_lesson_quality(lesson: dict, source: str, label: str, errors: list[
     if len(exercises) < MIN_EXERCISES:
         errors.append(f"{label}: {len(exercises)} exercises (need >= {MIN_EXERCISES})")
     # MIN_TYPES enforces exercise variety for normal (language-learning) sets.
-    # A DELIBERATE multiple-choice-only lesson (e.g. an exam-style question
-    # set) is a valid, intended artifact, so it is exempt from the variety
-    # rule - same exemption as in the sibling content repos. Since schema
-    # v1.6 multiple choice has TWO authoring forms (coexistence): the native
-    # ``multiple_choice`` type (engine 0.8.x) and the legacy ``cloze``
-    # ``select`` (single-answer, EXP-036 §4.3 / #890) / ``multiselect``
-    # ("select all that apply", #1195) vehicle - the exemption treats them
-    # alike. This is a content-repo quality-layer relaxation only; the
-    # canonical schema shape + the schema mirror are untouched.
+    # A DELIBERATE multiple-choice-only set - every exercise a cloze in
+    # ``select`` (single-answer, EXP-036 §4.3 / #890) or ``multiselect``
+    # ("select all that apply", #1195) mode - is a valid, intended artifact in
+    # this MC-focused test repo, so it is exempt from the variety rule (it
+    # would otherwise be blocked for having only the one "cloze" type). This is
+    # a content-repo quality-layer relaxation only; the canonical
+    # schema shape + the schema mirror are untouched.
     mc_only = bool(exercises) and all(
         e.get("type") == "multiple_choice"
         or (

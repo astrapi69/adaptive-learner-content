@@ -1,100 +1,56 @@
 #!/usr/bin/env node
 /**
- * Engine conformance gate: run learn-content-engine's validateLesson()
- * (structural ajv layer AND the semantic cross-field rules — cloze
- * markers == blanks, referential card_ids integrity, multiselect
- * disjointness, picture-choice exactly-one-correct, ...) over EVERY
- * lesson in this repo, plus validateManifest() over the root manifest
- * and every per-set manifest. Gate: zero errors.
+ * Engine conformance gate: run learn-content-engine's validateLesson() /
+ * validateManifest() over the WHOLE repo content - every lesson, the root
+ * manifest and every per-set manifest.
  *
- * Rationale: the structural CI (validate_content.py against the
- * mirrored JSON Schema) cannot see cross-field semantics; a real
- * conformance run found two semantic bugs in the official content repo
- * that the structural gate had passed. This job closes that hole with
- * the engine's own validator — the same one third-party consumers run.
+ * This is the semantic layer the structural CI (validate_content.py against
+ * the vendored JSON Schema) cannot see: cloze blanks == '___' markers,
+ * referential integrity of card_ids, multiselect disjointness, picture
+ * "exactly one correct". The engine mirrors the app's model_validator rules,
+ * so a green run here means the content is valid for EVERY consumer of the
+ * pinned engine release - without any reference to the app.
  *
- * The engine version comes from schema/engine-version.txt (the same pin
- * the schema-mirror drift gate uses); CI installs it with
- * `npm install --no-save learn-content-engine@$(cat schema/engine-version.txt)`.
+ * Run via CI (.github/workflows/engine-validate.yml) after
+ * `npm install learn-content-engine@$(cat schema/engine-version.txt)`.
+ * Gate: zero errors.
  *
- * Usage:
- *   node scripts/validate_with_engine.mjs               # validate sets/
- *   node scripts/validate_with_engine.mjs --self-test   # prove the gate bites
- *   node scripts/validate_with_engine.mjs --warnings     # also list W-* lints
- *
- * --self-test feeds known-bad lessons (one per semantic rule class) to
+ * `--self-test` feeds known-bad lessons (one per semantic rule class) to
  * validateLesson and exits non-zero unless EVERY one is rejected - so a
- * silently toothless validator cannot masquerade as a green gate.
+ * silently toothless validator cannot masquerade as a green gate. CI runs
+ * it before the real pass.
  *
- * --warnings also lists the author lints (W-*) that never block. It runs
+ * `--warnings` also lists the author lints (W-*) that never block. It runs
  * through the SAME extension registry as the error gate, so ext: lessons are
- * validated instead of refused — make lint-warnings used to shell out to the
+ * validated instead of refused - `make lint-warnings` used to shell out to the
  * bare CLI (no registry) and died on ext content (content-test#71).
  */
-import { readFileSync, readdirSync, statSync } from "node:fs";
-import { join } from "node:path";
-import { fileURLToPath } from "node:url";
 import { validateLesson, validateManifest } from "learn-content-engine";
+import { readFileSync, readdirSync, statSync } from "node:fs";
+import { join, relative } from "node:path";
 import { parse as parseYaml } from "yaml";
 
-const repoRoot = fileURLToPath(new URL("..", import.meta.url));
-const setsDir = join(repoRoot, "sets");
+import { ADOPTED_EXTENSIONS } from "./adopted-extensions.mjs";
 
 // --- adopted extension tier (content-test#66) ------------------------------
-// The app has ADOPTED these ext: types - a mirror of its SUPPORTED_EXTENSIONS
-// (frontend/src/lib/content/validation/lesson-schema-validator.ts). Registering
-// them lets a lesson that DECLARES one load through this gate instead of being
-// refused (E-EXT-UNSUPPORTED), while any UNADOPTED ext type is still refused -
-// exactly the app's load-guard contract, applied at content-CI time.
-//
-// The validators are permissive on purpose: ext_payload CORRECTNESS is the
-// consumer's job (the app's validateGeneratedLesson owns the payload rules).
-// Publishing those rules so this gate can reuse them - instead of vendoring a
-// drift-prone copy - is the follow-up. Keep this list in sync with the app
-// when a new extension is adopted.
-const ADOPTED_EXTENSIONS = [
-  "ext:al-categorization",
-  "ext:al-error-correction",
-  "ext:al-reading-comprehension",
-  "ext:al-graded-quiz",
-  "ext:al-dictation",
-  "ext:al-image-description",
-  "ext:al-speak-and-record",
-].map((type) => ({ type, major: 1, validate: () => [] }));
-
+// The list lives in its own module so the nightly registry-drift check reads
+// exactly what this gate registers. Registering an adopted type lets a lesson
+// that DECLARES it load through this gate instead of being refused
+// (E-EXT-UNSUPPORTED), while any UNADOPTED ext type is still refused - the
+// app's load-guard contract, applied at content-CI time.
 const withExtensions = { extensions: ADOPTED_EXTENSIONS };
 
-function collectLessonFiles(dir) {
-  const files = [];
-  for (const entry of readdirSync(dir)) {
-    const full = join(dir, entry);
-    if (statSync(full).isDirectory()) files.push(...collectLessonFiles(full));
-    else if (entry.endsWith(".json")) files.push(full);
+function* walk(dir) {
+  for (const name of readdirSync(dir)) {
+    const p = join(dir, name);
+    if (statSync(p).isDirectory()) yield* walk(p);
+    else yield p;
   }
-  return files.sort();
 }
 
-function collectManifestFiles() {
-  // The root manifest plus every per-set manifest — all must conform to
-  // the engine's (strict) content-manifest schema.
-  const files = [join(repoRoot, "manifest.yaml")];
-  for (const entry of readdirSync(setsDir)) {
-    const langDir = join(setsDir, entry);
-    if (!statSync(langDir).isDirectory()) continue;
-    for (const setEntry of readdirSync(langDir)) {
-      const manifest = join(langDir, setEntry, "manifest.yaml");
-      try {
-        if (statSync(manifest).isFile()) files.push(manifest);
-      } catch {
-        /* set dir without manifest — validate_content.py reports that */
-      }
-    }
-  }
-  return files.sort();
-}
-
+// --- self-test -------------------------------------------------------------
 // One minimal valid lesson the bad cases are derived from; each bad case
-// violates exactly one semantic rule the engine must flag.
+// violates exactly one rule class the engine must flag.
 const baseLesson = () => ({
   id: "self-test",
   title: "Self test",
@@ -170,33 +126,6 @@ const SELF_TEST_CASES = [
   },
 ];
 
-// Manifest self-test: the strict set entry must reject unknown fields
-// (the ai_validation-in-set-entry class); free-form metadata must pass.
-const MANIFEST_SELF_TEST = () => {
-  const base = {
-    schema_version: "1.0",
-    name: "Self test",
-    sets: [
-      {
-        id: "self-test",
-        title: "Self test",
-        target_language: "de",
-        source_language: "en",
-        level: "A1",
-        path: "sets/en/de-a1",
-        version: "1.0.0",
-        lesson_count: 1,
-      },
-    ],
-    metadata: { free_form: true },
-  };
-  const good = validateManifest(base);
-  const bad = structuredClone(base);
-  bad.sets[0].totally_unknown_field = true;
-  const rejected = validateManifest(bad);
-  return { good, rejected };
-};
-
 /** A base lesson whose exercise is replaced by an ``ext:`` one. */
 function extLesson(type, extPayload) {
   const lesson = baseLesson();
@@ -229,17 +158,6 @@ function selfTest() {
     } else {
       console.log(`self-test OK: ${testCase.name}`);
     }
-  }
-  const { good, rejected } = MANIFEST_SELF_TEST();
-  if (!good.valid) {
-    failures++;
-    console.error("SELF-TEST BROKEN: the base manifest must be valid:");
-    for (const issue of good.errors) console.error(`   ${issue.path}: ${issue.message}`);
-  } else if (rejected.valid) {
-    failures++;
-    console.error("SELF-TEST FAIL: engine did not flag: unknown field in strict manifest set entry");
-  } else {
-    console.log("self-test OK: unknown field in strict manifest set entry");
   }
 
   // Extension tier (content-test#66): an ADOPTED ext type loads, an UNADOPTED
@@ -320,68 +238,60 @@ function selfTest() {
   }
 
   if (failures) return 1;
-  console.log(`\nSelf-test passed: the gate rejects all ${SELF_TEST_CASES.length + 1} bad-input classes, gates the extension tier, and surfaces author warnings.`);
+  console.log(`\nSelf-test passed: the gate rejects all bad-lesson classes, gates the extension tier, and surfaces author warnings.`);
   return 0;
 }
 
+// --- full repo run ---------------------------------------------------------
 // With `showWarnings`, the author lints (W-*) are ALSO listed. Warnings never
 // change the exit code (errors-only), so `make lint-warnings` is a reporter,
-// not a gate. It runs through the SAME extension registry as the error gate,
-// so an ext: lesson is validated (not refused with E-EXT-UNSUPPORTED) - the bug
-// this replaces used the bare CLI without a registry (content-test#71).
-function validateAll({ showWarnings = false } = {}) {
-  const files = collectLessonFiles(setsDir);
-  let invalid = 0;
+// not a gate. Crucially this runs through the SAME extension registry as the
+// error gate, so an ext: lesson is validated (not refused with
+// E-EXT-UNSUPPORTED) - the bug this replaces used the bare CLI without a
+// registry (content-test#71).
+function validateAll(repoRoot, { showWarnings = false } = {}) {
+  let lessons = 0;
+  let manifests = 0;
+  const problems = [];
   const warned = [];
-  for (const file of files) {
-    let lesson;
-    try {
-      lesson = JSON.parse(readFileSync(file, "utf8"));
-    } catch (error) {
-      invalid++;
-      console.error(`PARSE ERROR ${file}: ${error.message}`);
-      continue;
-    }
-    const result = validateLesson(lesson, withExtensions);
-    if (!result.valid) {
-      invalid++;
-      console.error(`INVALID ${file.slice(repoRoot.length)}`);
-      for (const issue of result.errors) console.error(`   ${issue.path}: ${issue.message}`);
-    }
-    if (showWarnings && result.warnings.length) {
-      warned.push({ file: file.slice(repoRoot.length), warnings: result.warnings });
-    }
-  }
-  const manifests = collectManifestFiles();
-  for (const file of manifests) {
-    let doc;
-    try {
-      doc = parseYaml(readFileSync(file, "utf8"));
-    } catch (error) {
-      invalid++;
-      console.error(`PARSE ERROR ${file}: ${error.message}`);
-      continue;
-    }
-    const result = validateManifest(doc);
-    if (!result.valid) {
-      invalid++;
-      console.error(`INVALID ${file.slice(repoRoot.length)}`);
-      for (const issue of result.errors) console.error(`   ${issue.path}: ${issue.message}`);
-    }
-    // Manifest warnings were collected for lessons but DROPPED here, so the
-    // set-level ordering gate (learn-content-engine#110, W-SET-ORDER-*)
-    // reached this runner and reported nothing. A connected gate that stays
-    // silent is indistinguishable from one that was never connected.
-    if (showWarnings && result.warnings.length) {
-      warned.push({ file: file.slice(repoRoot.length), warnings: result.warnings });
+
+  const report = (file, errors) => problems.push({ file, errors });
+
+  // 1. Every lesson JSON under sets/ (+ every per-set manifest).
+  for (const file of walk(join(repoRoot, "sets"))) {
+    const rel = relative(repoRoot, file);
+    if (rel.includes("/lessons/") && rel.endsWith(".json")) {
+      lessons += 1;
+      const res = validateLesson(JSON.parse(readFileSync(file, "utf8")), withExtensions);
+      if (!res.valid) report(rel, res.errors);
+      if (showWarnings && res.warnings.length) warned.push({ file: rel, warnings: res.warnings });
+    } else if (rel.endsWith("manifest.yaml")) {
+      manifests += 1;
+      const res = validateManifest(parseYaml(readFileSync(file, "utf8")));
+      if (!res.valid) report(rel, res.errors);
+      // Manifest warnings were collected for lessons but DROPPED here, so the
+      // set-level ordering gate (learn-content-engine#110, W-SET-ORDER-*)
+      // reached this runner and reported nothing. A connected gate that
+      // stays silent is indistinguishable from one that was never connected.
+      if (showWarnings && res.warnings.length) warned.push({ file: rel, warnings: res.warnings });
     }
   }
+
+  // 2. The root manifest.
+  manifests += 1;
+  const rootRes = validateManifest(
+    parseYaml(readFileSync(join(repoRoot, "manifest.yaml"), "utf8")),
+  );
+  if (!rootRes.valid) report("manifest.yaml", rootRes.errors);
+  if (showWarnings && rootRes.warnings.length) {
+    warned.push({ file: "manifest.yaml", warnings: rootRes.warnings });
+  }
+
   const totalWarnings = warned.reduce((sum, w) => sum + w.warnings.length, 0);
   console.log(
-    `\n${files.length} lesson(s) + ${manifests.length} manifest(s) checked ` +
-      `with the engine validator, ${invalid} invalid` +
-      (showWarnings ? `, ${totalWarnings} warning(s)` : "") +
-      ".",
+    `engine-validate: ${lessons} lesson(s), ${manifests} manifest(s) checked - ` +
+      `${problems.length} file(s) with errors` +
+      (showWarnings ? `, ${totalWarnings} warning(s)` : ""),
   );
   if (showWarnings) {
     for (const w of warned) {
@@ -389,11 +299,17 @@ function validateAll({ showWarnings = false } = {}) {
       for (const issue of w.warnings) console.log(`   [${issue.id}] ${issue.path} ${issue.message}`);
     }
   }
-  return invalid ? 1 : 0;
+  for (const p of problems) {
+    console.error(`\n✗ ${p.file}`);
+    for (const e of p.errors) console.error(`   ${e.path}: ${e.message}`);
+  }
+  return problems.length === 0 ? 0 : 1;
 }
 
 const args = process.argv.slice(2);
 if (args.includes("--self-test")) {
   process.exit(selfTest());
 }
-process.exit(validateAll({ showWarnings: args.includes("--warnings") }));
+const showWarnings = args.includes("--warnings");
+const repoRoot = args.find((arg) => !arg.startsWith("--")) ?? ".";
+process.exit(validateAll(repoRoot, { showWarnings }));

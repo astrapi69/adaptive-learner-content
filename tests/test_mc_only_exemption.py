@@ -1,15 +1,13 @@
 #!/usr/bin/env python3
 """Variety exemption covers ALL multiple-choice forms (native + cloze).
 
-A pure multiple-choice lesson (e.g. an exam-style question set) is a
-valid, intended artifact and is exempt from the ``minExerciseTypes``
-variety rule. The sibling content repos (content-test, template,
-alc-die-waehrung-des-geistes) already carry this exemption; this repo
-was missed in the original rollout, so BOTH forms were blocked here.
-Since schema v1.6 there are two MC authoring forms (coexistence): the
-legacy ``cloze`` ``select``/``multiselect`` vehicle and the native
-``multiple_choice`` type (engine 0.8.x). The exemption must treat them
-alike.
+A pure multiple-choice lesson - a valid, intended artifact in this
+MC-focused test repo - is exempt from the ``minExerciseTypes`` variety
+rule. Since schema v1.6 there are two MC authoring forms: the legacy
+``cloze`` ``select``/``multiselect`` vehicle and the native
+``multiple_choice`` type (engine 0.8.x, coexistence). The exemption must
+treat them alike; before this fix a native-MC-only lesson was blocked
+while the equivalent cloze-select-only lesson passed.
 """
 from __future__ import annotations
 
@@ -89,7 +87,7 @@ def test_native_mc_only_lesson_is_exempt() -> None:
     assert variety_errors(lesson(steps)) == []
 
 
-def test_cloze_select_only_lesson_is_exempt() -> None:
+def test_cloze_select_only_lesson_stays_exempt() -> None:
     steps = [mc_cloze_select(f"c{i}") for i in range(5)]
     assert variety_errors(lesson(steps)) == []
 

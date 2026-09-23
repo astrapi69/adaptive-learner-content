@@ -122,12 +122,30 @@ def audit_lesson(lesson: dict, label: str, findings: list[tuple]):
                 add(f"free_text '{eid}' accept & distractors overlap: {sorted(overlap)}",
                     "remove the overlap")
         elif etype == "cloze":
-            blanks = ex.get("blanks") or []
-            sentence = ex.get("sentence") or ""
-            if "___" not in sentence:
-                add(f"cloze '{eid}' sentence has no ___ gap", "add a ___ gap")
-            if not blanks or any(not (b.get("accept") or []) for b in blanks):
-                add(f"cloze '{eid}' has a blank with no accepted answers", "add accepts")
+            # cloze has three modes. "multiselect" ("select all that apply")
+            # deliberately carries NO ___ markers and NO blanks: the sentence
+            # is the question stem, and accept/distractors hold the options.
+            # Auditing it against the type/select marker+blanks shape produces
+            # only false positives, so branch on cloze_mode (mirrors the
+            # engine's per-mode semantics; validate_content.py already does).
+            if (ex.get("cloze_mode") or "type") == "multiselect":
+                accept = {a.strip() for a in (ex.get("accept") or []) if not is_blank(a)}
+                distractors = {d.strip() for d in (ex.get("distractors") or []) if not is_blank(d)}
+                if not accept:
+                    add(f"cloze '{eid}' (multiselect) has no accepted options", "add accept options")
+                if not distractors:
+                    add(f"cloze '{eid}' (multiselect) has no distractors", "add distractors")
+                overlap = accept & distractors
+                if overlap:
+                    add(f"cloze '{eid}' (multiselect) accept & distractors overlap: {sorted(overlap)}",
+                        "remove the overlap")
+            else:
+                blanks = ex.get("blanks") or []
+                sentence = ex.get("sentence") or ""
+                if "___" not in sentence:
+                    add(f"cloze '{eid}' sentence has no ___ gap", "add a ___ gap")
+                if not blanks or any(not (b.get("accept") or []) for b in blanks):
+                    add(f"cloze '{eid}' has a blank with no accepted answers", "add accepts")
         elif etype == "word_tiles":
             if len(ex.get("tiles") or []) < 2:
                 add(f"word_tiles '{eid}' has < 2 tiles", "add tiles")

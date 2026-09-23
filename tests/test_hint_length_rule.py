@@ -6,7 +6,7 @@ authored hint stating a letter/character count ("Vier Buchstaben.") is
 redundant at best - and drifts into visible contradiction when the content
 changes (the DSGVO cloze said "Vier Buchstaben." for a five-letter answer).
 
-Scope: the rule covers ``exercise.hint`` and ``exercise.blanks[].hint`` —
+Scope: the rule covers ``exercise.hint`` and ``exercise.blanks[].hint`` -
 the surfaces the app pairs with its automatic length hint. Card hints are
 deliberately NOT covered: a character count there can be legitimate teaching
 content (e.g. the python-basics slicing card explains that ``s[0:3]``
@@ -153,7 +153,7 @@ def test_compound_leerzeichen_is_not_flagged() -> None:
     assert errors == []
 
 
-# --- 5. #102 — English count words + single-character adjectives ------------
+# --- 5. English count words + single-character adjectives (adaptive-learner-content#102)
 #
 # The #100 rule listed only German number words (+ digits), so English
 # length hints ("Two letters.") and the German "ein einzelnes Zeichen"
@@ -195,7 +195,7 @@ def test_single_character_form_is_flagged() -> None:
 
 def test_einzelnes_zeichen_form_is_flagged() -> None:
     errors = quality_errors(
-        lesson_with_exercise(cloze(hint="Ein einzelnes Zeichen — kein Doppelzeichen."))
+        lesson_with_exercise(cloze(hint="Ein einzelnes Zeichen, kein Doppelzeichen."))
     )
     assert errors
 
@@ -209,10 +209,10 @@ def test_english_letter_as_mail_is_not_flagged() -> None:
 
 
 def test_compound_kleinbuchstabe_is_not_flagged() -> None:
-    """Compounds convey CASE, not length — the system hint shows no case."""
+    """Compounds convey CASE, not length: the system hint shows no case."""
     errors = quality_errors(
         lesson_with_exercise(
-            cloze(hint="Ein einzelner Kleinbuchstabe — für 'general'.")
+            cloze(hint="Ein einzelner Kleinbuchstabe, für 'general'.")
         )
     )
     assert errors == []
@@ -229,7 +229,7 @@ def test_first_letter_content_hint_is_not_flagged() -> None:
 def test_capitalisation_advice_is_not_flagged() -> None:
     errors = quality_errors(
         lesson_with_exercise(
-            cloze(hint="Montag — im Englischen IMMER mit großem Anfangsbuchstaben.")
+            cloze(hint="Montag: im Englischen IMMER mit großem Anfangsbuchstaben.")
         )
     )
     assert errors == []
