@@ -4,7 +4,7 @@
 ``+02:00``) while the generator's own fallback emits ``Z`` - consumers
 that compare against Z-suffixed timestamps then see identical instants
 as different strings and report spurious "stale" diffs across
-environments (issue #129). These tests pin the fix: ONE canonical
+environments (adaptive-learner-content#129). These tests pin the fix: ONE canonical
 serialization at the generation point, regardless of the source.
 """
 from __future__ import annotations

@@ -17,7 +17,8 @@ Per set the index records:
   * source_language, target_language (ISO 639-1 base codes), level
   * domain (default "language")
   * lesson_count: lessons actually listed in the set manifest
-  * card_count: exact sum of ``cards[]`` over every lesson
+  * card_count: exact sum of ``cards[]`` over every lesson (a lesson
+    without cards counts zero)
   * tags: from the manifest, else []
   * visibility: consumer-display hint (engine schema 1.8); absent or
     out-of-enum normalizes to "visible"
@@ -33,8 +34,17 @@ Per set the index records:
     serialized canonically as UTC with a ``Z`` suffix regardless of
     the source (git emits the committer's local offset)
 
+The index names the repository it was built in: ``repo`` is the
+``owner/repo`` slug of the git remote (the directory name without one), and
+``trust_level`` is looked up in ``recommended-repos.json`` by that slug.
+This file is owned by adaptive-learner-content and copied byte for byte into
+every content repository (``.github/ownership.json``), so it must not name
+any one of them.
+
 Usage:
   python scripts/generate_search_index.py
+      Write the index. When nothing of substance changed, the committed
+      ``generated`` stamp is kept, so a run leaves no diff.
   python scripts/generate_search_index.py --check
       Regenerate in memory and compare to the committed file
       (ignoring the volatile ``generated`` timestamp). Exit 1 if the
@@ -55,8 +65,6 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 ROOT_MANIFEST = REPO_ROOT / "manifest.yaml"
 INDEX_PATH = REPO_ROOT / "search-index.json"
 RECOMMENDED_REPOS = REPO_ROOT / "recommended-repos.json"
-
-REPO_SLUG = "astrapi69/adaptive-learner-content"
 
 VISIBILITY_VALUES = ("visible", "hidden")
 SCHEMA_VERSION = "1.0"
@@ -106,18 +114,59 @@ def collapse_ws(text: str | None) -> str:
     return " ".join((text or "").split())
 
 
-def repo_trust_level() -> int:
-    """This repo's trust level from recommended-repos.json (else default)."""
+def slug_from_url(url: str) -> str | None:
+    """``owner/repo`` from a git remote URL, or None.
+
+    Handles the https form, the scp-like SSH form (``git@host:owner/repo``:
+    the colon separates host and owner and must not survive into the slug,
+    content-test#87) and the ``ssh://`` form, each with or without a
+    ``.git`` suffix or trailing slash.
+    """
+    slug = url.strip().rstrip("/")
+    if slug.endswith(".git"):
+        slug = slug[: -len(".git")]
+    if "://" not in slug and ":" in slug:
+        slug = slug.replace(":", "/", 1)
+    parts = [part for part in slug.split("/") if part]
+    if len(parts) >= 2:
+        return f"{parts[-2]}/{parts[-1]}"
+    return None
+
+
+def origin_url() -> str:
+    """The URL of the ``origin`` remote, or "" without one."""
+    try:
+        out = subprocess.run(
+            ["git", "config", "--get", "remote.origin.url"],
+            cwd=REPO_ROOT,
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return ""
+    return out.stdout.strip()
+
+
+def repo_slug() -> str:
+    """``owner/repo`` of this repository from its git remote; the directory
+    name when there is no usable remote."""
+    return slug_from_url(origin_url()) or REPO_ROOT.name
+
+
+def repo_trust_level(slug: str) -> int:
+    """The trust level ``recommended-repos.json`` gives ``slug``, else the
+    default. Only the hub carries the registry, so every other repository
+    gets the default. A URL matches on whole path segments."""
     if not RECOMMENDED_REPOS.is_file():
         return DEFAULT_TRUST_LEVEL
     try:
-        data = json.loads(RECOMMENDED_REPOS.read_text(encoding="utf-8"))
+        registry = json.loads(RECOMMENDED_REPOS.read_text(encoding="utf-8"))
     except json.JSONDecodeError:
         return DEFAULT_TRUST_LEVEL
-    for repo in data.get("repos") or []:
-        url = (repo.get("url") or "").rstrip("/")
-        if url.endswith(REPO_SLUG):
-            level = repo.get("trust_level")
+    for listed in registry.get("repos") or []:
+        if slug_from_url(listed.get("url") or "") == slug:
+            level = listed.get("trust_level")
             if isinstance(level, int):
                 return level
     return DEFAULT_TRUST_LEVEL
@@ -166,9 +215,11 @@ def count_cards(set_dir: Path, lessons: list[str], errors: list[str], sid: str) 
         except json.JSONDecodeError as exc:
             errors.append(f"set {sid}: {filename} is invalid JSON: {exc}")
             continue
-        cards = lesson.get("cards")
+        # ``cards`` is optional in the lesson schema: a lesson of exercises
+        # only (a case lesson, a graded quiz) has none and counts zero.
+        cards = lesson.get("cards", [])
         if not isinstance(cards, list):
-            errors.append(f"set {sid}: {filename} has no cards[] array")
+            errors.append(f"set {sid}: {filename} has a cards field that is not a list")
             continue
         total += len(cards)
     return total
@@ -179,6 +230,8 @@ def build_set_entry(
 ) -> dict:
     sid = content_set.get("id", "?")
     path = content_set.get("path")
+    if not path:
+        errors.append(f"set {sid}: missing path")
     set_dir = REPO_ROOT / path if path else None
 
     set_manifest: dict = {}
@@ -248,12 +301,13 @@ def build_index(generated: str | None = None) -> tuple[dict, list[str]]:
     if not root_sets:
         errors.append("root manifest lists no sets")
 
-    trust_level = repo_trust_level()
+    slug = repo_slug()
+    trust_level = repo_trust_level(slug)
 
     sets = [build_set_entry(s, trust_level, generated, errors) for s in root_sets]
 
     index = {
-        "repo": REPO_SLUG,
+        "repo": slug,
         "generated": generated,
         "schema_version": SCHEMA_VERSION,
         "sets": sets,
@@ -310,6 +364,16 @@ def _comparable(index: dict) -> dict:
     return {k: v for k, v in index.items() if k != "generated"}
 
 
+def _committed_index() -> dict | None:
+    """The committed index, or None when it is absent or not JSON."""
+    if not INDEX_PATH.is_file():
+        return None
+    try:
+        return json.loads(INDEX_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return None
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -345,6 +409,11 @@ def main(argv: list[str] | None = None) -> int:
         print("search-index.json is up to date.")
         return 0
 
+    committed = _committed_index()
+    if committed is not None and _comparable(committed) == _comparable(index):
+        # Nothing of substance changed: keep the committed stamp, so a
+        # local run or the index workflow leaves no diff.
+        index = {**index, "generated": committed.get("generated", index["generated"])}
     INDEX_PATH.write_text(serialize(index), encoding="utf-8")
     print(
         f"Wrote {INDEX_PATH.name}: {len(index['sets'])} set(s), "
