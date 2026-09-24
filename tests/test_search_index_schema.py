@@ -2,11 +2,11 @@
 """Schema validation of the search index against the owned federation
 contract (adaptive-learner-content#175).
 
-This repo OWNS ``schema/search-index.schema.json`` - the nine other
-writing repos mirror it - yet its own ``validate_index`` only ran the
-hand-maintained field list. ``validate_index`` must validate against the
-schema IN ADDITION to the hand checks, so owner and mirrors enforce the
-same contract. Before this test the two could disagree silently - an
+adaptive-learner-content owns ``schema/search-index.schema.json`` and the
+generator, and every content repository carries byte-identical copies of
+both; yet ``validate_index`` once ran only the hand-maintained field list.
+It must validate against the schema IN ADDITION to the hand checks, so
+owner and copies enforce the same contract. Before this test the two could disagree silently - an
 integer ``level`` passed the hand check (truthy) while violating the
 contract's ``"type": "string"``.
 

@@ -5,9 +5,11 @@ reviewed the set, when, with what result). The canonical manifest format
 (engine ``content-manifest.schema.json``, strict
 ``additionalProperties: false``) does not know it, so it must live in the
 set manifest's free-form top-level ``metadata`` block, NOT in the strict
-set entry. The positive index pin (metadata block -> ``ai_validated``
-flag) moved to alc-ai together with the ki-einsteiger set
-(see #144); this repo keeps the generic schema guard.
+set entry. This guard runs in every content repository (the file is owned
+by adaptive-learner-content and copied everywhere); the positive index pin
+(metadata block -> ``ai_validated`` flag) belongs to alc-ai and its
+ki-einsteiger set (``tests/test_ki_einsteiger_ai_validated.py`` there,
+adaptive-learner-content#144).
 """
 from __future__ import annotations
 
