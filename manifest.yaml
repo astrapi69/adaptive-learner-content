@@ -250,9 +250,9 @@ sets:
     source_language: de
     # Vorstufe unterhalb von A1 (pre-A1): bewusst AUSSERHALB des CEFR-
     # Vokabulars aus engine#127; die Warnung W-LEVEL-UNKNOWN ist hier
-    # AKZEPTIERT. Nicht auf A1 "reparieren" - das waere eine
-    # Inhaltsaenderung, keine Warnungsbereinigung. A0 ins Vokabular
-    # aufzunehmen waere eine Engine-Entscheidung (engine#127).
+    # AKZEPTIERT. Nicht auf A1 "reparieren" - das wäre eine
+    # Inhaltsänderung, keine Warnungsbereinigung. A0 ins Vokabular
+    # aufzunehmen wäre eine Engine-Entscheidung (engine#127).
     level: A0
     path: sets/de/ja-a0
     version: '1.0.0'
@@ -629,7 +629,7 @@ sets:
     source_language: de
     domain: software
     # Sachthemen-Set: bewusst ohne Sprachniveau (engine#127,
-    # level-Vertrag); die Schwierigkeit traegt das Tag `beginner`.
+    # level-Vertrag); die Schwierigkeit trägt das Tag `beginner`.
     level: none
     path: sets/de/adaptive-learner-app
     version: '1.0.0'

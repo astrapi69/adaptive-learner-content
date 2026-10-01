@@ -111,10 +111,10 @@ def test_umlauts_survive_as_real_utf8(tmp_path: Path) -> None:
     assert "\\u00fc" not in raw_text
     assert "\\u00e4" not in raw_text
     # A known lesson word must keep its umlaut, never an ue-substitution.
-    # (Lowercase "ausfuehrungsmodell" DOES occur as an ASCII lesson id, so
+    # (Lowercase `ausfuehrungsmodell` DOES occur as an ASCII lesson id, so
     # assert on the capitalized prose word, not the token.)
     assert "Übungen" in raw_text
-    assert "Uebungen" not in raw_text
+    assert "Übungen".replace("Ü", "Ue") not in raw_text
 
 
 def test_yaml_reparse_content_equals_source_lessons(tmp_path: Path) -> None:
