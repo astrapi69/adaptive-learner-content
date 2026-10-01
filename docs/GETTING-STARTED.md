@@ -10,7 +10,11 @@ For the full field reference, see [LESSON-FORMAT.md](LESSON-FORMAT.md).
 You need:
 
 - **Git** and a **GitHub account**.
-- **Python 3** with PyYAML (`pip install pyyaml`) to run the validator.
+- **Python 3** with the packages in `requirements.txt`
+  (`pip install -r requirements.txt`) to run the validator, or `make`,
+  whose first `make validate` sets that up for you.
+- **Node.js and npm** for the engine gate (`make lint`). Its first run
+  installs the engine release this repository pins.
 - A text editor.
 
 ### Start your own content repository (recommended)
@@ -51,11 +55,16 @@ Open `sets/en/my-set/lessons/01-greetings.json` and change:
   least two of the six types (matching, free_text, cloze, word_tiles,
   picture_choice, multiple_choice).
 
-Keep these or the validator will complain:
+Keep these or the engine gate will complain:
 
-- `free_text` needs **≥ 2 accepts** and at least one **distractor**.
-- `matching` needs **≥ 3 pairs**.
-- `picture_choice` needs **distractors** and exactly one `is_correct: "true"`.
+- `free_text` needs **≥ 2 accepts**.
+- `matching` needs **≥ 3 pairs** (with `from_cards`, the cards it names count).
+- `picture_choice` needs exactly one `is_correct: "true"`.
+
+An introduction or a part divider that only leads over declares
+`"purpose": "bridge"` (no exercise minimum), a check in one exercise type
+declares `"purpose": "quiz"` (no exercise-type minimum); see
+[LESSON-FORMAT.md](LESSON-FORMAT.md#validation-rules-the-quality-gate).
 
 ## 3. Register the lesson (2 min)
 
@@ -97,12 +106,13 @@ You want:
 All N set(s) passed validation.
 ```
 
-If it fails, the message names the lesson and the rule (e.g.
-`free_text '…' needs distractors`). Fix and re-run.
+If it fails, the message names the lesson and the problem (e.g. a set path
+that does not match its language and level). Fix and re-run.
 
 **Before you push**, also run the engine gate locally: the same semantic
 rules (stable rule ids such as `E-CARD-REF`, cloze markers, multiple-choice
-rules) that CI enforces in the `Engine validate` workflow:
+rules) and quality minimums that CI enforces in the `Engine conformance`
+workflow:
 
 ```bash
 make lint
