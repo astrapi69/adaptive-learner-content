@@ -231,6 +231,7 @@
         "id": "ex-free-i-capital",
         "stable_id": "ex-ms9433fk06fp8",
         "type": "free_text",
+        "case_sensitive": true,
         "prompt": "Übersetze 'Ich bin Anna.' (Achte auf das große 'I'!)",
         "card_ids": ["pron-i"],
         "accept": ["I am Anna", "I am Anna.", "I'm Anna", "I'm Anna.", "I’m Anna"],

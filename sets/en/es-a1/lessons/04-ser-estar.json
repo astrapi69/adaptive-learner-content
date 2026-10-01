@@ -470,7 +470,8 @@
         "id": "ex-free-nationality",
         "stable_id": "ex-ms9433jg3pco8",
         "type": "free_text",
-        "prompt": "Translate: *She is Spanish.* (Use the identity rule.)",
+        "case_sensitive": true,
+        "prompt": "Translate: *She is Spanish.* (Use the identity rule, and mind the capitals.)",
         "card_ids": [
           "ser-es"
         ],
