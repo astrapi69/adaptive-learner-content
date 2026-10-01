@@ -104,8 +104,8 @@ Alle Pull Requests werden zusätzlich in der CI automatisch validiert
 (`python3 scripts/validate_content.py`).
 
 **Vor dem Push** das Engine-Gate lokal laufen lassen: dieselben
-semantischen Regeln (`E-CARD-REF`, Cloze-Marker, Multiple-Choice-Regeln),
-die sonst erst die CI meldet:
+semantischen Regeln (`E-CARD-REF`, Cloze-Marker, Multiple-Choice-Regeln)
+und Qualitäts-Mindestanforderungen, die sonst erst die CI meldet:
 
 ```bash
 make lint
