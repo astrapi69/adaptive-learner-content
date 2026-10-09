@@ -8,6 +8,10 @@ Danke für dein Interesse! So kannst du beitragen:
 2. Erstelle einen Ordner unter `sets/{source_lang}/{target_lang}-{level}/`
    (für Nicht-Sprach-Domains einen Themennamen, z. B. `sets/de/adaptive-learner-app/`)
 3. Erstelle `manifest.yaml` (siehe bestehendes Set als Vorlage)
+   und trage denselben Set-Block im Wurzel-`manifest.yaml` ein. Verbindlich ist
+   der Eintrag im Wurzel-Manifest: Steht ein Feld in beiden, trägt das
+   Set-Manifest denselben Wert, die Lektionsliste (`metadata.lessons`) steht nur
+   im Set-Manifest.
 4. Erstelle Lektionen als JSON unter `lessons/`
 5. Pull Request öffnen
 

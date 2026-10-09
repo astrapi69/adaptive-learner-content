@@ -296,5 +296,11 @@ metadata:
 Then add the same set block to the **root** `manifest.yaml` under `sets:`, and
 add a row to the README table (keeping the totals line in sync).
 
+The root entry is binding. A field that appears in both entries carries the
+root's value, and the set manifest's copy is checked against it, never edited
+on its own. The lesson list (`metadata.lessons`) lives only in the set manifest.
+The app reads the root entry while the repository is reachable and the cached
+set manifest offline, so a difference shows the same set under two names.
+
 Run `python scripts/validate_content.py` until it prints
 `All N set(s) passed validation.`
