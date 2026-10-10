@@ -93,6 +93,8 @@ metadata:
 ```
 
 Then add the **same set block** to the root `manifest.yaml` under `sets:`.
+The root entry is binding: where a field appears in both, the set manifest
+carries the root's value (see [LESSON-FORMAT](LESSON-FORMAT.md#registering-a-set)).
 
 ## 4. Validate (1 min)
 
