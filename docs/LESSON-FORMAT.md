@@ -172,6 +172,13 @@ right = card `back`). Requires non-empty `card_ids` and forbids an explicit
   "direction": "source_to_target" }
 ```
 
+Case is not an error. An exercise that teaches case (capitalisation)
+declares `"case_sensitive": true` (schema 1.19), and the app then grades
+it in case. No distractor may also be an accepted answer
+(`E-FREETEXT-DISJOINT`); they are compared without case unless the
+exercise declares `case_sensitive`, so `i am Anna` can be a distractor
+for `I am Anna` only there.
+
 ### cloze
 ```jsonc
 { "type": "cloze", "prompt": "…", "card_ids": [ … ],
@@ -284,8 +291,6 @@ sets:
     version: '1.0.0'
     lesson_count: 1
     domain: language
-    description: >-
-      …
 metadata:
   author: your-handle
   license: CC-BY-SA-4.0
@@ -293,14 +298,22 @@ metadata:
     - 01-greetings.json
 ```
 
-Then add the same set block to the **root** `manifest.yaml` under `sets:`, and
-add a row to the README table (keeping the totals line in sync).
+Then add the same set block to the **root** `manifest.yaml` under `sets:`, plus
+the set's `description`, and add a row to the README table (keeping the totals
+line in sync).
 
-The root entry is binding. A field that appears in both entries carries the
-root's value, and the set manifest's copy is checked against it, never edited
-on its own. The lesson list (`metadata.lessons`) lives only in the set manifest.
-The app reads the root entry while the repository is reachable and the cached
-set manifest offline, so a difference shows the same set under two names.
+A set is described twice, so each field has one home:
+
+- The **root** entry carries the `description`. Write it there only; a reader
+  of the set manifest inherits it, so a second copy can only drift.
+- The **set manifest** carries the lesson list (`metadata.lessons`).
+- Every other field appears in both and must be **identical**: `title`,
+  `title_native`, `tags`, `visibility`, `version`, `lesson_count` and the
+  rest. `make lint` compares the two entries of every set
+  (`validateManifestPair`, `MANIFEST-ENTRY-MISMATCH`).
+- Leave the lesson count out of the `title` and `description` prose, or keep
+  it equal to `lesson_count`: a digit count that differs is flagged
+  (`W-LESSON-COUNT-CLAIM`).
 
 Run `python scripts/validate_content.py` until it prints
 `All N set(s) passed validation.`
