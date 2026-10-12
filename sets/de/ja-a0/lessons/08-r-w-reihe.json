@@ -115,27 +115,29 @@
       "theory_ref": "intro",
       "title": "Lesung von ら",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man ら?",
         "card_ids": [
           "k-ra"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ra"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "u",
-          "ro",
-          "chi"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ra", "stable_id": "ex-ms9433im2skc0"
+        "id": "ex-r-ra",
+        "stable_id": "ex-ms9433im2skc0",
+        "options": [
+          {
+            "text": "ra",
+            "correct": true
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "ro"
+          },
+          {
+            "text": "chi"
+          }
+        ]
       }
     },
     {
@@ -144,27 +146,29 @@
       "theory_ref": "step-verwechsel",
       "title": "Lesung von る",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man る?",
         "card_ids": [
           "k-ru"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ru"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "ro",
-          "so",
-          "nu"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ru", "stable_id": "ex-ms9433im2sles"
+        "id": "ex-r-ru",
+        "stable_id": "ex-ms9433im2sles",
+        "options": [
+          {
+            "text": "ru",
+            "correct": true
+          },
+          {
+            "text": "ro"
+          },
+          {
+            "text": "so"
+          },
+          {
+            "text": "nu"
+          }
+        ]
       }
     },
     {
@@ -173,27 +177,29 @@
       "theory_ref": "step-verwechsel",
       "title": "Lesung von わ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man わ?",
         "card_ids": [
           "k-wa"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "wa"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "ne",
-          "re",
-          "wo"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-wa", "stable_id": "ex-ms9433im2sm2j"
+        "id": "ex-r-wa",
+        "stable_id": "ex-ms9433im2sm2j",
+        "options": [
+          {
+            "text": "wa",
+            "correct": true
+          },
+          {
+            "text": "ne"
+          },
+          {
+            "text": "re"
+          },
+          {
+            "text": "wo"
+          }
+        ]
       }
     },
     {
@@ -202,27 +208,29 @@
       "theory_ref": "step-verwechsel",
       "title": "Zeichen für 'ro'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „ro\"?",
         "card_ids": [
           "k-ro"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ろ"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "る",
-          "そ",
-          "ら"
-        ],
         "hint": "Aus der R-Reihe: r + o.",
-        "id": "ex-c-ro", "stable_id": "ex-ms9433im2snn8"
+        "id": "ex-c-ro",
+        "stable_id": "ex-ms9433im2snn8",
+        "options": [
+          {
+            "text": "ろ",
+            "correct": true
+          },
+          {
+            "text": "る"
+          },
+          {
+            "text": "そ"
+          },
+          {
+            "text": "ら"
+          }
+        ]
       }
     },
     {
@@ -231,27 +239,29 @@
       "theory_ref": "intro",
       "title": "Zeichen für 'ri'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „ri\"?",
         "card_ids": [
           "k-ri"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "り"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "い",
-          "し",
-          "あ"
-        ],
         "hint": "Aus der R-Reihe: r + i.",
-        "id": "ex-c-ri", "stable_id": "ex-ms9433im2sowu"
+        "id": "ex-c-ri",
+        "stable_id": "ex-ms9433im2sowu",
+        "options": [
+          {
+            "text": "り",
+            "correct": true
+          },
+          {
+            "text": "い"
+          },
+          {
+            "text": "し"
+          },
+          {
+            "text": "あ"
+          }
+        ]
       }
     },
     {
@@ -284,7 +294,8 @@
           "ぬ"
         ],
         "hint": "r + a/i/u/e/o.",
-        "id": "ex-ms-r", "stable_id": "ex-ms9433im2spco"
+        "id": "ex-ms-r",
+        "stable_id": "ex-ms9433im2spco"
       }
     },
     {
@@ -325,7 +336,8 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-r", "stable_id": "ex-ms9433im2sq6t"
+        "id": "ex-match-r",
+        "stable_id": "ex-ms9433im2sq6t"
       }
     },
     {
@@ -334,27 +346,29 @@
       "theory_ref": "step-verwechsel",
       "title": "Zeichen für 'ne'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „ne\"?",
         "card_ids": [
           "k-ne"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ね"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "れ",
-          "わ",
-          "ぬ"
-        ],
         "hint": "Aus der N-Reihe: n + e.",
-        "id": "ex-rep-ne", "stable_id": "ex-ms9433im2srdp"
+        "id": "ex-rep-ne",
+        "stable_id": "ex-ms9433im2srdp",
+        "options": [
+          {
+            "text": "ね",
+            "correct": true
+          },
+          {
+            "text": "れ"
+          },
+          {
+            "text": "わ"
+          },
+          {
+            "text": "ぬ"
+          }
+        ]
       }
     },
     {
@@ -378,7 +392,8 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-ro", "stable_id": "ex-ms9433im2ss7n"
+        "id": "ex-tip-ro",
+        "stable_id": "ex-ms9433im2ss7n"
       }
     }
   ]

@@ -93,27 +93,29 @@
       "theory_ref": "step-partikel",
       "title": "Lesung von は",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man は?",
         "card_ids": [
           "k-ha"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ha"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "ho",
-          "ma",
-          "ni"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ha", "stable_id": "ex-ms9433il2rll2"
+        "id": "ex-r-ha",
+        "stable_id": "ex-ms9433il2rll2",
+        "options": [
+          {
+            "text": "ha",
+            "correct": true
+          },
+          {
+            "text": "ho"
+          },
+          {
+            "text": "ma"
+          },
+          {
+            "text": "ni"
+          }
+        ]
       }
     },
     {
@@ -122,27 +124,29 @@
       "theory_ref": "intro",
       "title": "Lesung von ふ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man ふ?",
         "card_ids": [
           "k-fu"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "fu"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "ra",
-          "u",
-          "a"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-fu", "stable_id": "ex-ms9433il2rms5"
+        "id": "ex-r-fu",
+        "stable_id": "ex-ms9433il2rms5",
+        "options": [
+          {
+            "text": "fu",
+            "correct": true
+          },
+          {
+            "text": "ra"
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "a"
+          }
+        ]
       }
     },
     {
@@ -151,27 +155,29 @@
       "theory_ref": "step-partikel",
       "title": "Lesung von ほ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man ほ?",
         "card_ids": [
           "k-ho"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ho"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "ha",
-          "ma",
-          "ni"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ho", "stable_id": "ex-ms9433il2rnku"
+        "id": "ex-r-ho",
+        "stable_id": "ex-ms9433il2rnku",
+        "options": [
+          {
+            "text": "ho",
+            "correct": true
+          },
+          {
+            "text": "ha"
+          },
+          {
+            "text": "ma"
+          },
+          {
+            "text": "ni"
+          }
+        ]
       }
     },
     {
@@ -180,27 +186,29 @@
       "theory_ref": "intro",
       "title": "Zeichen für 'hi'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „hi\"?",
         "card_ids": [
           "k-hi"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ひ"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "こ",
-          "し",
-          "あ"
-        ],
         "hint": "Aus der H-Reihe: h + i.",
-        "id": "ex-c-hi", "stable_id": "ex-ms9433il2rosv"
+        "id": "ex-c-hi",
+        "stable_id": "ex-ms9433il2rosv",
+        "options": [
+          {
+            "text": "ひ",
+            "correct": true
+          },
+          {
+            "text": "こ"
+          },
+          {
+            "text": "し"
+          },
+          {
+            "text": "あ"
+          }
+        ]
       }
     },
     {
@@ -209,27 +217,29 @@
       "theory_ref": "intro",
       "title": "Zeichen für 'he'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „he\"?",
         "card_ids": [
           "k-he"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "へ"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "く",
-          "し",
-          "あ"
-        ],
         "hint": "Aus der H-Reihe: h + e.",
-        "id": "ex-c-he", "stable_id": "ex-ms9433il2rppd"
+        "id": "ex-c-he",
+        "stable_id": "ex-ms9433il2rppd",
+        "options": [
+          {
+            "text": "へ",
+            "correct": true
+          },
+          {
+            "text": "く"
+          },
+          {
+            "text": "し"
+          },
+          {
+            "text": "あ"
+          }
+        ]
       }
     },
     {
@@ -262,7 +272,8 @@
           "た"
         ],
         "hint": "h + a/i/(f)u/e/o.",
-        "id": "ex-ms-h", "stable_id": "ex-ms9433il2rq3f"
+        "id": "ex-ms-h",
+        "stable_id": "ex-ms9433il2rq3f"
       }
     },
     {
@@ -303,7 +314,8 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-h", "stable_id": "ex-ms9433il2rric"
+        "id": "ex-match-h",
+        "stable_id": "ex-ms9433il2rric"
       }
     },
     {
@@ -312,27 +324,29 @@
       "theory_ref": "step-partikel",
       "title": "Lesung von ぬ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man ぬ?",
         "card_ids": [
           "k-nu"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "nu"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "me",
-          "a",
-          "ne"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-rep-nu", "stable_id": "ex-ms9433il2rsy9"
+        "id": "ex-rep-nu",
+        "stable_id": "ex-ms9433il2rsy9",
+        "options": [
+          {
+            "text": "nu",
+            "correct": true
+          },
+          {
+            "text": "me"
+          },
+          {
+            "text": "a"
+          },
+          {
+            "text": "ne"
+          }
+        ]
       }
     },
     {
@@ -357,7 +371,8 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-fu", "stable_id": "ex-ms9433il2rtyq"
+        "id": "ex-tip-fu",
+        "stable_id": "ex-ms9433il2rtyq"
       }
     }
   ]

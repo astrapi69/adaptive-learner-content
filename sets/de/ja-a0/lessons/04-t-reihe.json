@@ -93,27 +93,29 @@
       "theory_ref": "intro",
       "title": "Lesung von た",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man た?",
         "card_ids": [
           "k-ta"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ta"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "na",
-          "ko",
-          "ka"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ta", "stable_id": "ex-ms9433ik2qr0k"
+        "id": "ex-r-ta",
+        "stable_id": "ex-ms9433ik2qr0k",
+        "options": [
+          {
+            "text": "ta",
+            "correct": true
+          },
+          {
+            "text": "na"
+          },
+          {
+            "text": "ko"
+          },
+          {
+            "text": "ka"
+          }
+        ]
       }
     },
     {
@@ -122,27 +124,29 @@
       "theory_ref": "intro",
       "title": "Lesung von ち",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man ち?",
         "card_ids": [
           "k-chi"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "chi"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "sa",
-          "ki",
-          "ra"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-chi", "stable_id": "ex-ms9433ik2qsmu"
+        "id": "ex-r-chi",
+        "stable_id": "ex-ms9433ik2qsmu",
+        "options": [
+          {
+            "text": "chi",
+            "correct": true
+          },
+          {
+            "text": "sa"
+          },
+          {
+            "text": "ki"
+          },
+          {
+            "text": "ra"
+          }
+        ]
       }
     },
     {
@@ -151,27 +155,29 @@
       "theory_ref": "step-verwechsel",
       "title": "Lesung von つ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man つ?",
         "card_ids": [
           "k-tsu"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "tsu"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "u",
-          "shi",
-          "ra"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-tsu", "stable_id": "ex-ms9433ik2qtxs"
+        "id": "ex-r-tsu",
+        "stable_id": "ex-ms9433ik2qtxs",
+        "options": [
+          {
+            "text": "tsu",
+            "correct": true
+          },
+          {
+            "text": "u"
+          },
+          {
+            "text": "shi"
+          },
+          {
+            "text": "ra"
+          }
+        ]
       }
     },
     {
@@ -180,27 +186,29 @@
       "theory_ref": "intro",
       "title": "Zeichen für 'to'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „to\"?",
         "card_ids": [
           "k-to"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "と"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "て",
-          "た",
-          "あ"
-        ],
         "hint": "Aus der T-Reihe: t + o.",
-        "id": "ex-c-to", "stable_id": "ex-ms9433ik2qups"
+        "id": "ex-c-to",
+        "stable_id": "ex-ms9433ik2qups",
+        "options": [
+          {
+            "text": "と",
+            "correct": true
+          },
+          {
+            "text": "て"
+          },
+          {
+            "text": "た"
+          },
+          {
+            "text": "あ"
+          }
+        ]
       }
     },
     {
@@ -209,27 +217,29 @@
       "theory_ref": "intro",
       "title": "Zeichen für 'te'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „te\"?",
         "card_ids": [
           "k-te"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "て"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "と",
-          "そ",
-          "あ"
-        ],
         "hint": "Aus der T-Reihe: t + e.",
-        "id": "ex-c-te", "stable_id": "ex-ms9433ik2qvcc"
+        "id": "ex-c-te",
+        "stable_id": "ex-ms9433ik2qvcc",
+        "options": [
+          {
+            "text": "て",
+            "correct": true
+          },
+          {
+            "text": "と"
+          },
+          {
+            "text": "そ"
+          },
+          {
+            "text": "あ"
+          }
+        ]
       }
     },
     {
@@ -262,7 +272,8 @@
           "な"
         ],
         "hint": "t + a/(ch)i/(ts)u/e/o.",
-        "id": "ex-ms-t", "stable_id": "ex-ms9433ik2qwnt"
+        "id": "ex-ms-t",
+        "stable_id": "ex-ms9433ik2qwnt"
       }
     },
     {
@@ -303,7 +314,8 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-t", "stable_id": "ex-ms9433ik2qxli"
+        "id": "ex-match-t",
+        "stable_id": "ex-ms9433ik2qxli"
       }
     },
     {
@@ -312,27 +324,29 @@
       "theory_ref": "step-verwechsel",
       "title": "Lesung von し",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man し?",
         "card_ids": [
           "k-shi"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "shi"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "tsu",
-          "ku",
-          "ri"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-rep-shi", "stable_id": "ex-ms9433ik2qyjy"
+        "id": "ex-rep-shi",
+        "stable_id": "ex-ms9433ik2qyjy",
+        "options": [
+          {
+            "text": "shi",
+            "correct": true
+          },
+          {
+            "text": "tsu"
+          },
+          {
+            "text": "ku"
+          },
+          {
+            "text": "ri"
+          }
+        ]
       }
     },
     {
@@ -357,7 +371,8 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-tsu", "stable_id": "ex-ms9433ik2qzhz"
+        "id": "ex-tip-tsu",
+        "stable_id": "ex-ms9433ik2qzhz"
       }
     }
   ]

@@ -149,26 +149,27 @@
       "exercise": {
         "id": "ex-mc-vradi",
         "stable_id": "ex-ms9433j43ei6r",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποιος χαιρετισμός ταιριάζει το βράδυ;",
         "card_ids": [
           "bonsoir"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Σκέψου την ώρα: το βράδυ.",
+        "options": [
           {
-            "accept": [
-              "Bonsoir"
-            ]
+            "text": "Bonsoir",
+            "correct": true
+          },
+          {
+            "text": "Bonjour"
+          },
+          {
+            "text": "Salut"
+          },
+          {
+            "text": "Au revoir"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "Bonjour",
-          "Salut",
-          "Au revoir"
-        ],
-        "hint": "Σκέψου την ώρα: το βράδυ."
+        ]
       }
     },
     {
@@ -178,26 +179,27 @@
       "exercise": {
         "id": "ex-mc-anepisimo",
         "stable_id": "ex-ms9433j43ej6i",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποια λέξη είναι ανεπίσημη και τη λες μόνο σε φίλους;",
         "card_ids": [
           "salut"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Δεν τη λες ποτέ σε άγνωστο.",
+        "options": [
           {
-            "accept": [
-              "Salut"
-            ]
+            "text": "Salut",
+            "correct": true
+          },
+          {
+            "text": "Bonjour"
+          },
+          {
+            "text": "Bonsoir"
+          },
+          {
+            "text": "Au revoir"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "Bonjour",
-          "Bonsoir",
-          "Au revoir"
-        ],
-        "hint": "Δεν τη λες ποτέ σε άγνωστο."
+        ]
       }
     },
     {
@@ -207,26 +209,27 @@
       "exercise": {
         "id": "ex-mc-systino",
         "stable_id": "ex-ms9433j43ekn6",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες το όνομά σου (συστήνεσαι);",
         "card_ids": [
           "je-mappelle"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Κυριολεκτικά «ονομάζομαι».",
+        "options": [
           {
-            "accept": [
-              "Je m'appelle…"
-            ]
+            "text": "Je m'appelle…",
+            "correct": true
+          },
+          {
+            "text": "Comment tu t'appelles ?"
+          },
+          {
+            "text": "Enchanté"
+          },
+          {
+            "text": "Au revoir"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "Comment tu t'appelles ?",
-          "Enchanté",
-          "Au revoir"
-        ],
-        "hint": "Κυριολεκτικά «ονομάζομαι»."
+        ]
       }
     },
     {
@@ -236,26 +239,27 @@
       "exercise": {
         "id": "ex-mc-erotisi-onoma",
         "stable_id": "ex-ms9433j43elvz",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς ρωτάς κάποιον ανεπίσημα πώς τον λένε;",
         "card_ids": [
           "comment-tu-tappelles"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Ερώτηση με «tu».",
+        "options": [
           {
-            "accept": [
-              "Comment tu t'appelles ?"
-            ]
+            "text": "Comment tu t'appelles ?",
+            "correct": true
+          },
+          {
+            "text": "Je m'appelle Marie"
+          },
+          {
+            "text": "S'il te plaît"
+          },
+          {
+            "text": "Merci beaucoup"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "Je m'appelle Marie",
-          "S'il te plaît",
-          "Merci beaucoup"
-        ],
-        "hint": "Ερώτηση με «tu»."
+        ]
       }
     },
     {
@@ -301,22 +305,16 @@
       "exercise": {
         "id": "ex-clz-merci",
         "stable_id": "ex-ms9433j43enmd",
-        "type": "cloze",
+        "type": "free_text",
         "prompt": "Πώς λες «ευχαριστώ» στα γαλλικά;",
         "card_ids": [
           "merci"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "Merci",
-              "merci"
-            ]
-          }
-        ],
-        "cloze_mode": "type",
-        "hint": "Αρχίζει από M."
+        "hint": "Αρχίζει από M.",
+        "accept": [
+          "Merci",
+          "merci"
+        ]
       }
     },
     {

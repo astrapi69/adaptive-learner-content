@@ -82,27 +82,29 @@
       "theory_ref": "intro",
       "title": "Lesung von か",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man か?",
         "card_ids": [
           "k-ka"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ka"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "ya",
-          "sa",
-          "ta"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ka", "stable_id": "ex-ms9433ik2pya6"
+        "id": "ex-r-ka",
+        "stable_id": "ex-ms9433ik2pya6",
+        "options": [
+          {
+            "text": "ka",
+            "correct": true
+          },
+          {
+            "text": "ya"
+          },
+          {
+            "text": "sa"
+          },
+          {
+            "text": "ta"
+          }
+        ]
       }
     },
     {
@@ -111,27 +113,29 @@
       "theory_ref": "step-tipp",
       "title": "Lesung von き",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man き?",
         "card_ids": [
           "k-ki"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ki"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "sa",
-          "chi",
-          "a"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ki", "stable_id": "ex-ms9433ik2pzz5"
+        "id": "ex-r-ki",
+        "stable_id": "ex-ms9433ik2pzz5",
+        "options": [
+          {
+            "text": "ki",
+            "correct": true
+          },
+          {
+            "text": "sa"
+          },
+          {
+            "text": "chi"
+          },
+          {
+            "text": "a"
+          }
+        ]
       }
     },
     {
@@ -140,27 +144,29 @@
       "theory_ref": "intro",
       "title": "Lesung von こ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man こ?",
         "card_ids": [
           "k-ko"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ko"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "ni",
-          "i",
-          "ta"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ko", "stable_id": "ex-ms9433ik2q0xb"
+        "id": "ex-r-ko",
+        "stable_id": "ex-ms9433ik2q0xb",
+        "options": [
+          {
+            "text": "ko",
+            "correct": true
+          },
+          {
+            "text": "ni"
+          },
+          {
+            "text": "i"
+          },
+          {
+            "text": "ta"
+          }
+        ]
       }
     },
     {
@@ -169,27 +175,29 @@
       "theory_ref": "step-tipp",
       "title": "Zeichen für 'ku'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „ku\"?",
         "card_ids": [
           "k-ku"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "く"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "へ",
-          "し",
-          "あ"
-        ],
         "hint": "Aus der K-Reihe: k + u.",
-        "id": "ex-c-ku", "stable_id": "ex-ms9433ik2q1vi"
+        "id": "ex-c-ku",
+        "stable_id": "ex-ms9433ik2q1vi",
+        "options": [
+          {
+            "text": "く",
+            "correct": true
+          },
+          {
+            "text": "へ"
+          },
+          {
+            "text": "し"
+          },
+          {
+            "text": "あ"
+          }
+        ]
       }
     },
     {
@@ -198,27 +206,29 @@
       "theory_ref": "intro",
       "title": "Zeichen für 'ke'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „ke\"?",
         "card_ids": [
           "k-ke"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "け"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "は",
-          "に",
-          "あ"
-        ],
         "hint": "Aus der K-Reihe: k + e.",
-        "id": "ex-c-ke", "stable_id": "ex-ms9433ik2q2hg"
+        "id": "ex-c-ke",
+        "stable_id": "ex-ms9433ik2q2hg",
+        "options": [
+          {
+            "text": "け",
+            "correct": true
+          },
+          {
+            "text": "は"
+          },
+          {
+            "text": "に"
+          },
+          {
+            "text": "あ"
+          }
+        ]
       }
     },
     {
@@ -251,7 +261,8 @@
           "た"
         ],
         "hint": "k + a/i/u/e/o.",
-        "id": "ex-ms-k", "stable_id": "ex-ms9433ik2q3g3"
+        "id": "ex-ms-k",
+        "stable_id": "ex-ms9433ik2q3g3"
       }
     },
     {
@@ -292,7 +303,8 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-k", "stable_id": "ex-ms9433ik2q4kq"
+        "id": "ex-match-k",
+        "stable_id": "ex-ms9433ik2q4kq"
       }
     },
     {
@@ -316,7 +328,8 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-ki", "stable_id": "ex-ms9433ik2q5pn"
+        "id": "ex-tip-ki",
+        "stable_id": "ex-ms9433ik2q5pn"
       }
     }
   ]

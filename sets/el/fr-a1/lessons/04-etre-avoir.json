@@ -181,26 +181,27 @@
       "exercise": {
         "id": "ex-mc-suis",
         "stable_id": "ex-ms9433j53fy6w",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες «(εγώ) είμαι»;",
         "card_ids": [
           "je-suis"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Ρήμα être.",
+        "options": [
           {
-            "accept": [
-              "je suis"
-            ]
+            "text": "je suis",
+            "correct": true
+          },
+          {
+            "text": "j'ai"
+          },
+          {
+            "text": "tu es"
+          },
+          {
+            "text": "je suis pas"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "j'ai",
-          "tu es",
-          "je suis pas"
-        ],
-        "hint": "Ρήμα être."
+        ]
       }
     },
     {
@@ -210,26 +211,27 @@
       "exercise": {
         "id": "ex-mc-jai",
         "stable_id": "ex-ms9433j53fzg7",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες «(εγώ) έχω»;",
         "card_ids": [
           "jai"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Ρήμα avoir, με έκθλιψη.",
+        "options": [
           {
-            "accept": [
-              "j'ai"
-            ]
+            "text": "j'ai",
+            "correct": true
+          },
+          {
+            "text": "je suis"
+          },
+          {
+            "text": "tu as"
+          },
+          {
+            "text": "j'a"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "je suis",
-          "tu as",
-          "j'a"
-        ],
-        "hint": "Ρήμα avoir, με έκθλιψη."
+        ]
       }
     },
     {
@@ -239,26 +241,27 @@
       "exercise": {
         "id": "ex-mc-tu-es",
         "stable_id": "ex-ms9433j53g01p",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Συμπλήρωσε: «Tu ___ français.» (είσαι Γάλλος)",
         "card_ids": [
           "tu-es"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "être στο δεύτερο πρόσωπο.",
+        "options": [
           {
-            "accept": [
-              "es"
-            ]
+            "text": "es",
+            "correct": true
+          },
+          {
+            "text": "as"
+          },
+          {
+            "text": "est"
+          },
+          {
+            "text": "ai"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "as",
-          "est",
-          "ai"
-        ],
-        "hint": "être στο δεύτερο πρόσωπο."
+        ]
       }
     },
     {
@@ -268,26 +271,27 @@
       "exercise": {
         "id": "ex-mc-il-a",
         "stable_id": "ex-ms9433j53g16h",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Συμπλήρωσε: «Il ___ un chat.» (έχει μια γάτα)",
         "card_ids": [
           "il-a"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "avoir στο τρίτο πρόσωπο.",
+        "options": [
           {
-            "accept": [
-              "a"
-            ]
+            "text": "a",
+            "correct": true
+          },
+          {
+            "text": "est"
+          },
+          {
+            "text": "as"
+          },
+          {
+            "text": "ai"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "est",
-          "as",
-          "ai"
-        ],
-        "hint": "avoir στο τρίτο πρόσωπο."
+        ]
       }
     },
     {
@@ -322,26 +326,27 @@
       "exercise": {
         "id": "ex-mc-nous-sommes",
         "stable_id": "ex-ms9433j53g3qs",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες «(εμείς) είμαστε»;",
         "card_ids": [
           "etre"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "être, πρώτο πληθυντικό.",
+        "options": [
           {
-            "accept": [
-              "nous sommes"
-            ]
+            "text": "nous sommes",
+            "correct": true
+          },
+          {
+            "text": "nous avons"
+          },
+          {
+            "text": "vous êtes"
+          },
+          {
+            "text": "je suis"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "nous avons",
-          "vous êtes",
-          "je suis"
-        ],
-        "hint": "être, πρώτο πληθυντικό."
+        ]
       }
     }
   ]

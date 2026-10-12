@@ -159,27 +159,28 @@
       "exercise": {
         "id": "ex-mc-pain",
         "stable_id": "ex-ms9433j53fhl0",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποιο άρθρο ταιριάζει: «___ pain» (το ψωμί, αρσενικό);",
         "card_ids": [
           "art-le",
           "n-pain"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Το pain είναι αρσενικό.",
+        "options": [
           {
-            "accept": [
-              "le"
-            ]
+            "text": "le",
+            "correct": true
+          },
+          {
+            "text": "la"
+          },
+          {
+            "text": "l'"
+          },
+          {
+            "text": "les"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "la",
-          "l'",
-          "les"
-        ],
-        "hint": "Το pain είναι αρσενικό."
+        ]
       }
     },
     {
@@ -189,27 +190,28 @@
       "exercise": {
         "id": "ex-mc-maison",
         "stable_id": "ex-ms9433j53fi0a",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποιο άρθρο ταιριάζει: «___ maison» (το σπίτι, θηλυκό);",
         "card_ids": [
           "art-la",
           "n-maison"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Το maison είναι θηλυκό.",
+        "options": [
           {
-            "accept": [
-              "la"
-            ]
+            "text": "la",
+            "correct": true
+          },
+          {
+            "text": "le"
+          },
+          {
+            "text": "l'"
+          },
+          {
+            "text": "un"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "le",
-          "l'",
-          "un"
-        ],
-        "hint": "Το maison είναι θηλυκό."
+        ]
       }
     },
     {
@@ -219,27 +221,28 @@
       "exercise": {
         "id": "ex-mc-eau",
         "stable_id": "ex-ms9433j53fjvr",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποιο άρθρο ταιριάζει: «___ eau» (το νερό, αρχίζει από φωνήεν);",
         "card_ids": [
           "art-l",
           "n-eau"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Πριν από φωνήεν το le/la γίνεται l'.",
+        "options": [
           {
-            "accept": [
-              "l'"
-            ]
+            "text": "l'",
+            "correct": true
+          },
+          {
+            "text": "le"
+          },
+          {
+            "text": "la"
+          },
+          {
+            "text": "les"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "le",
-          "la",
-          "les"
-        ],
-        "hint": "Πριν από φωνήεν το le/la γίνεται l'."
+        ]
       }
     },
     {
@@ -249,27 +252,28 @@
       "exercise": {
         "id": "ex-mc-genera",
         "stable_id": "ex-ms9433j53fkh0",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πόσα γένη έχουν τα γαλλικά ουσιαστικά;",
         "card_ids": [
           "art-le",
           "art-la"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Σε αντίθεση με τα ελληνικά, δεν υπάρχει ουδέτερο.",
+        "options": [
           {
-            "accept": [
-              "δύο: αρσενικό και θηλυκό"
-            ]
+            "text": "δύο: αρσενικό και θηλυκό",
+            "correct": true
+          },
+          {
+            "text": "τρία: αρσενικό, θηλυκό, ουδέτερο"
+          },
+          {
+            "text": "ένα, κοινό για όλα"
+          },
+          {
+            "text": "κανένα γένος"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "τρία: αρσενικό, θηλυκό, ουδέτερο",
-          "ένα, κοινό για όλα",
-          "κανένα γένος"
-        ],
-        "hint": "Σε αντίθεση με τα ελληνικά, δεν υπάρχει ουδέτερο."
+        ]
       }
     },
     {
@@ -279,26 +283,27 @@
       "exercise": {
         "id": "ex-mc-aoristo",
         "stable_id": "ex-ms9433j53fl2n",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποιο είναι το θηλυκό αόριστο άρθρο («μία»);",
         "card_ids": [
           "art-une"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Αρσενικό: un, θηλυκό: une.",
+        "options": [
           {
-            "accept": [
-              "une"
-            ]
+            "text": "une",
+            "correct": true
+          },
+          {
+            "text": "un"
+          },
+          {
+            "text": "le"
+          },
+          {
+            "text": "des"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "un",
-          "le",
-          "des"
-        ],
-        "hint": "Αρσενικό: un, θηλυκό: une."
+        ]
       }
     },
     {
@@ -333,26 +338,27 @@
       "exercise": {
         "id": "ex-mc-un-chat",
         "stable_id": "ex-ms9433j53fnhg",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποιο αόριστο άρθρο ταιριάζει: «___ chat» (μια γάτα, αρσενικό);",
         "card_ids": [
           "art-un"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Αρσενικό αόριστο άρθρο.",
+        "options": [
           {
-            "accept": [
-              "un"
-            ]
+            "text": "un",
+            "correct": true
+          },
+          {
+            "text": "une"
+          },
+          {
+            "text": "le"
+          },
+          {
+            "text": "des"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "une",
-          "le",
-          "des"
-        ],
-        "hint": "Αρσενικό αόριστο άρθρο."
+        ]
       }
     }
   ]

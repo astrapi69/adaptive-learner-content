@@ -115,27 +115,29 @@
       "theory_ref": "intro",
       "title": "Lesung von きゃ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man きゃ?",
         "card_ids": [
           "k-kya"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "kya"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "kyu",
-          "kyo",
-          "sha"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-kya", "stable_id": "ex-ms9433in2tmhb"
+        "id": "ex-r-kya",
+        "stable_id": "ex-ms9433in2tmhb",
+        "options": [
+          {
+            "text": "kya",
+            "correct": true
+          },
+          {
+            "text": "kyu"
+          },
+          {
+            "text": "kyo"
+          },
+          {
+            "text": "sha"
+          }
+        ]
       }
     },
     {
@@ -144,27 +146,29 @@
       "theory_ref": "intro",
       "title": "Lesung von しょ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man しょ?",
         "card_ids": [
           "k-sho"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "sho"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "kya",
-          "kyu",
-          "kyo"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-sho", "stable_id": "ex-ms9433in2tnju"
+        "id": "ex-r-sho",
+        "stable_id": "ex-ms9433in2tnju",
+        "options": [
+          {
+            "text": "sho",
+            "correct": true
+          },
+          {
+            "text": "kya"
+          },
+          {
+            "text": "kyu"
+          },
+          {
+            "text": "kyo"
+          }
+        ]
       }
     },
     {
@@ -173,27 +177,29 @@
       "theory_ref": "intro",
       "title": "Lesung von ちゅ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man ちゅ?",
         "card_ids": [
           "k-chu"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "chu"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "kya",
-          "kyu",
-          "kyo"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-chu", "stable_id": "ex-ms9433in2to5y"
+        "id": "ex-r-chu",
+        "stable_id": "ex-ms9433in2to5y",
+        "options": [
+          {
+            "text": "chu",
+            "correct": true
+          },
+          {
+            "text": "kya"
+          },
+          {
+            "text": "kyu"
+          },
+          {
+            "text": "kyo"
+          }
+        ]
       }
     },
     {
@@ -202,27 +208,29 @@
       "theory_ref": "intro",
       "title": "Zeichen für 'kyo'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „kyo\"?",
         "card_ids": [
           "k-kyo"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "きょ"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "きゃ",
-          "きゅ",
-          "しゃ"
-        ],
         "hint": "Aus der K-Reihe, kombiniert mit kleinem yo.",
-        "id": "ex-c-kyo", "stable_id": "ex-ms9433in2tpa4"
+        "id": "ex-c-kyo",
+        "stable_id": "ex-ms9433in2tpa4",
+        "options": [
+          {
+            "text": "きょ",
+            "correct": true
+          },
+          {
+            "text": "きゃ"
+          },
+          {
+            "text": "きゅ"
+          },
+          {
+            "text": "しゃ"
+          }
+        ]
       }
     },
     {
@@ -231,27 +239,29 @@
       "theory_ref": "step-tsu-lang",
       "title": "Das kleine っ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Was bewirkt ein kleines っ (small tsu) vor einem Zeichen?",
         "card_ids": [
           "k-kya"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "Es verdoppelt den folgenden Konsonanten"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "Es verlängert den Vokal",
-          "Es macht das Zeichen stumm gesprochen wie „tsu\"",
-          "Es verdoppelt den Vokal"
-        ],
         "hint": "z. B. きって = kitte.",
-        "id": "ex-mc-tsu", "stable_id": "ex-ms9433in2tqn4"
+        "id": "ex-mc-tsu",
+        "stable_id": "ex-ms9433in2tqn4",
+        "options": [
+          {
+            "text": "Es verdoppelt den folgenden Konsonanten",
+            "correct": true
+          },
+          {
+            "text": "Es verlängert den Vokal"
+          },
+          {
+            "text": "Es macht das Zeichen stumm gesprochen wie „tsu\""
+          },
+          {
+            "text": "Es verdoppelt den Vokal"
+          }
+        ]
       }
     },
     {
@@ -260,27 +270,29 @@
       "theory_ref": "step-tsu-lang",
       "title": "Langer o-Laut",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie schreibt man häufig einen langen „o\"-Laut?",
         "card_ids": [
           "k-sho"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "Mit einem zusätzlichen う (z. B. おう)"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "Mit einem kleinen っ",
-          "Mit einem kleinen や",
-          "Mit einem Kreis (Handakuten)"
-        ],
         "hint": "Ein Extra-Vokalzeichen verlängert.",
-        "id": "ex-mc-lang", "stable_id": "ex-ms9433in2trn2"
+        "id": "ex-mc-lang",
+        "stable_id": "ex-ms9433in2trn2",
+        "options": [
+          {
+            "text": "Mit einem zusätzlichen う (z. B. おう)",
+            "correct": true
+          },
+          {
+            "text": "Mit einem kleinen っ"
+          },
+          {
+            "text": "Mit einem kleinen や"
+          },
+          {
+            "text": "Mit einem Kreis (Handakuten)"
+          }
+        ]
       }
     },
     {
@@ -309,7 +321,8 @@
           "つ"
         ],
         "hint": "Kombinationen enden auf ein kleines ya, yu oder yo.",
-        "id": "ex-ms-yo", "stable_id": "ex-ms9433in2tswh"
+        "id": "ex-ms-yo",
+        "stable_id": "ex-ms9433in2tswh"
       }
     },
     {
@@ -350,7 +363,8 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-yo", "stable_id": "ex-ms9433in2tt5n"
+        "id": "ex-match-yo",
+        "stable_id": "ex-ms9433in2tt5n"
       }
     },
     {
@@ -374,7 +388,8 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-kyo", "stable_id": "ex-ms9433in2tu2r"
+        "id": "ex-tip-kyo",
+        "stable_id": "ex-ms9433in2tu2r"
       }
     }
   ]
