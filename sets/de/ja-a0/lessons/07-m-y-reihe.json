@@ -126,27 +126,29 @@
       "theory_ref": "intro",
       "title": "Lesung von ま",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man ま?",
         "card_ids": [
           "k-ma"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ma"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "ha",
-          "ho",
-          "mo"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ma", "stable_id": "ex-ms9433im2s3hd"
+        "id": "ex-r-ma",
+        "stable_id": "ex-ms9433im2s3hd",
+        "options": [
+          {
+            "text": "ma",
+            "correct": true
+          },
+          {
+            "text": "ha"
+          },
+          {
+            "text": "ho"
+          },
+          {
+            "text": "mo"
+          }
+        ]
       }
     },
     {
@@ -155,27 +157,29 @@
       "theory_ref": "step-verwechsel",
       "title": "Lesung von め",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man め?",
         "card_ids": [
           "k-me"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "me"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "nu",
-          "a",
-          "no"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-me", "stable_id": "ex-ms9433im2s43d"
+        "id": "ex-r-me",
+        "stable_id": "ex-ms9433im2s43d",
+        "options": [
+          {
+            "text": "me",
+            "correct": true
+          },
+          {
+            "text": "nu"
+          },
+          {
+            "text": "a"
+          },
+          {
+            "text": "no"
+          }
+        ]
       }
     },
     {
@@ -184,27 +188,29 @@
       "theory_ref": "intro",
       "title": "Lesung von よ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man よ?",
         "card_ids": [
           "k-yo"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "yo"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "ma",
-          "ha",
-          "a"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-yo", "stable_id": "ex-ms9433im2s5dh"
+        "id": "ex-r-yo",
+        "stable_id": "ex-ms9433im2s5dh",
+        "options": [
+          {
+            "text": "yo",
+            "correct": true
+          },
+          {
+            "text": "ma"
+          },
+          {
+            "text": "ha"
+          },
+          {
+            "text": "a"
+          }
+        ]
       }
     },
     {
@@ -213,27 +219,29 @@
       "theory_ref": "intro",
       "title": "Zeichen für 'mu'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „mu\"?",
         "card_ids": [
           "k-mu"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "む"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "す",
-          "お",
-          "あ"
-        ],
         "hint": "Aus der M-Reihe: m + u.",
-        "id": "ex-c-mu", "stable_id": "ex-ms9433im2s6kn"
+        "id": "ex-c-mu",
+        "stable_id": "ex-ms9433im2s6kn",
+        "options": [
+          {
+            "text": "む",
+            "correct": true
+          },
+          {
+            "text": "す"
+          },
+          {
+            "text": "お"
+          },
+          {
+            "text": "あ"
+          }
+        ]
       }
     },
     {
@@ -242,27 +250,29 @@
       "theory_ref": "intro",
       "title": "Zeichen für 'yu'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „yu\"?",
         "card_ids": [
           "k-yu"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ゆ"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "や",
-          "わ",
-          "あ"
-        ],
         "hint": "Aus der Y-Reihe: y + u.",
-        "id": "ex-c-yu", "stable_id": "ex-ms9433im2s7xn"
+        "id": "ex-c-yu",
+        "stable_id": "ex-ms9433im2s7xn",
+        "options": [
+          {
+            "text": "ゆ",
+            "correct": true
+          },
+          {
+            "text": "や"
+          },
+          {
+            "text": "わ"
+          },
+          {
+            "text": "あ"
+          }
+        ]
       }
     },
     {
@@ -291,7 +301,8 @@
           "ち"
         ],
         "hint": "Nur ya, yu, yo.",
-        "id": "ex-ms-y", "stable_id": "ex-ms9433im2s85f"
+        "id": "ex-ms-y",
+        "stable_id": "ex-ms9433im2s85f"
       }
     },
     {
@@ -332,7 +343,8 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-m", "stable_id": "ex-ms9433im2s9m6"
+        "id": "ex-match-m",
+        "stable_id": "ex-ms9433im2s9m6"
       }
     },
     {
@@ -341,27 +353,29 @@
       "theory_ref": "step-verwechsel",
       "title": "Zeichen für 'nu'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „nu\"?",
         "card_ids": [
           "k-nu"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ぬ"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "め",
-          "あ",
-          "ね"
-        ],
         "hint": "Aus der N-Reihe: n + u.",
-        "id": "ex-rep-nu", "stable_id": "ex-ms9433im2sa55"
+        "id": "ex-rep-nu",
+        "stable_id": "ex-ms9433im2sa55",
+        "options": [
+          {
+            "text": "ぬ",
+            "correct": true
+          },
+          {
+            "text": "め"
+          },
+          {
+            "text": "あ"
+          },
+          {
+            "text": "ね"
+          }
+        ]
       }
     },
     {
@@ -385,7 +399,8 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-me", "stable_id": "ex-ms9433im2sbid"
+        "id": "ex-tip-me",
+        "stable_id": "ex-ms9433im2sbid"
       }
     }
   ]

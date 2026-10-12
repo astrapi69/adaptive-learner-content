@@ -20,7 +20,7 @@ sets:
     source_language: el
     level: A1
     path: sets/el/fr-a1
-    version: '1.0.1'
+    version: '1.0.2'
     lesson_count: 8
     domain: language
     tags:
@@ -28,6 +28,56 @@ sets:
       - travel
       - everyday
 metadata:
+  # A cloze whose sentence was only its blank became the native type; the
+  # exercise keeps its stable_id (learn-content-engine#254, adaptive-learner-content#222).
+  type_migrations:
+    - { stable_id: ex-ms9433j43ei6r, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j43ej6i, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j43ekn6, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j43elvz, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j43enmd, from: cloze, to: free_text }
+    - { stable_id: ex-ms9433j43ezv5, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j43f0h8, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j43f1g8, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j43f2dm, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j43f3un, from: cloze, to: free_text }
+    - { stable_id: ex-ms9433j43f5e3, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j43f6a0, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j53fhl0, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j53fi0a, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j53fjvr, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j53fkh0, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j53fl2n, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j53fnhg, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j53fy6w, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j53fzg7, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j53g01p, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j53g16h, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j53g3qs, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j63gdpp, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j63gej9, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j63gfr2, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j63gg7q, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j63gj80, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j63gtqq, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j63gu5z, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j63gvin, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j63gwff, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j63gxaw, from: cloze, to: free_text }
+    - { stable_id: ex-ms9433j63gz4w, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j73h9o9, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j73has2, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j73hbmz, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j73hc3n, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j73hdlw, from: cloze, to: free_text }
+    - { stable_id: ex-ms9433j73hesl, from: cloze, to: free_text }
+    - { stable_id: ex-ms9433j73hffl, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j83hp7w, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j83hq35, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j83hr8k, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j83hs33, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j83ht5z, from: cloze, to: multiple_choice }
+    - { stable_id: ex-ms9433j83hvra, from: cloze, to: multiple_choice }
   author: Asterios Raptis
   license: CC-BY-SA-4.0
   lessons:

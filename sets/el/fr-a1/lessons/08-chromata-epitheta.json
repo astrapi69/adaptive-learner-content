@@ -149,26 +149,27 @@
       "exercise": {
         "id": "ex-mc-kokkino",
         "stable_id": "ex-ms9433j83hp7w",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες «κόκκινο»;",
         "card_ids": [
           "rouge"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Ίδιο και στα δύο γένη.",
+        "options": [
           {
-            "accept": [
-              "rouge"
-            ]
+            "text": "rouge",
+            "correct": true
+          },
+          {
+            "text": "vert"
+          },
+          {
+            "text": "jaune"
+          },
+          {
+            "text": "noir"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "vert",
-          "jaune",
-          "noir"
-        ],
-        "hint": "Ίδιο και στα δύο γένη."
+        ]
       }
     },
     {
@@ -178,26 +179,27 @@
       "exercise": {
         "id": "ex-mc-thiliko-verte",
         "stable_id": "ex-ms9433j83hq35",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποιος είναι ο θηλυκός τύπος του «vert» (πράσινο);",
         "card_ids": [
           "vert"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Προσθέτουμε -e στο θηλυκό ενικό.",
+        "options": [
           {
-            "accept": [
-              "verte"
-            ]
+            "text": "verte",
+            "correct": true
+          },
+          {
+            "text": "vert"
+          },
+          {
+            "text": "verts"
+          },
+          {
+            "text": "vertes"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "vert",
-          "verts",
-          "vertes"
-        ],
-        "hint": "Προσθέτουμε -e στο θηλυκό ενικό."
+        ]
       }
     },
     {
@@ -207,26 +209,27 @@
       "exercise": {
         "id": "ex-mc-grande",
         "stable_id": "ex-ms9433j83hr8k",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Συμπλήρωσε: «une ___ maison» (ένα μεγάλο σπίτι, θηλυκό)",
         "card_ids": [
           "grand"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "maison θηλυκό → grande.",
+        "options": [
           {
-            "accept": [
-              "grande"
-            ]
+            "text": "grande",
+            "correct": true
+          },
+          {
+            "text": "grand"
+          },
+          {
+            "text": "grands"
+          },
+          {
+            "text": "petit"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "grand",
-          "grands",
-          "petit"
-        ],
-        "hint": "maison θηλυκό → grande."
+        ]
       }
     },
     {
@@ -236,26 +239,27 @@
       "exercise": {
         "id": "ex-mc-thesi",
         "stable_id": "ex-ms9433j83hs33",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πού μπαίνει συνήθως το χρώμα σε σχέση με το ουσιαστικό;",
         "card_ids": [
           "rouge"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "π.χ. une voiture verte.",
+        "options": [
           {
-            "accept": [
-              "μετά το ουσιαστικό: une pomme rouge"
-            ]
+            "text": "μετά το ουσιαστικό: une pomme rouge",
+            "correct": true
+          },
+          {
+            "text": "πριν το ουσιαστικό: une rouge pomme"
+          },
+          {
+            "text": "πάντα στην αρχή της πρότασης"
+          },
+          {
+            "text": "δεν μπαίνει ποτέ μαζί με ουσιαστικό"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "πριν το ουσιαστικό: une rouge pomme",
-          "πάντα στην αρχή της πρότασης",
-          "δεν μπαίνει ποτέ μαζί με ουσιαστικό"
-        ],
-        "hint": "π.χ. une voiture verte."
+        ]
       }
     },
     {
@@ -265,26 +269,27 @@
       "exercise": {
         "id": "ex-mc-blanche",
         "stable_id": "ex-ms9433j83ht5z",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποιος είναι ο θηλυκός τύπος του «blanc» (άσπρο);",
         "card_ids": [
           "blanc"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Ανώμαλο θηλυκό: blanche.",
+        "options": [
           {
-            "accept": [
-              "blanche"
-            ]
+            "text": "blanche",
+            "correct": true
+          },
+          {
+            "text": "blanc"
+          },
+          {
+            "text": "blance"
+          },
+          {
+            "text": "blancs"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "blanc",
-          "blance",
-          "blancs"
-        ],
-        "hint": "Ανώμαλο θηλυκό: blanche."
+        ]
       }
     },
     {
@@ -318,26 +323,27 @@
       "exercise": {
         "id": "ex-mc-bleu",
         "stable_id": "ex-ms9433j83hvra",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες «μπλε»;",
         "card_ids": [
           "bleu"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Αρσενικό bleu, θηλυκό bleue.",
+        "options": [
           {
-            "accept": [
-              "bleu"
-            ]
+            "text": "bleu",
+            "correct": true
+          },
+          {
+            "text": "vert"
+          },
+          {
+            "text": "noir"
+          },
+          {
+            "text": "blanc"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "vert",
-          "noir",
-          "blanc"
-        ],
-        "hint": "Αρσενικό bleu, θηλυκό bleue."
+        ]
       }
     }
   ]

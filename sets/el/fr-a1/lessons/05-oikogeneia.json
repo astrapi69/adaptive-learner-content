@@ -145,26 +145,27 @@
       "exercise": {
         "id": "ex-mc-mitera",
         "stable_id": "ex-ms9433j63gdpp",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες «η μητέρα»;",
         "card_ids": [
           "la-mere"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Θηλυκό → la.",
+        "options": [
           {
-            "accept": [
-              "la mère"
-            ]
+            "text": "la mère",
+            "correct": true
+          },
+          {
+            "text": "le mère"
+          },
+          {
+            "text": "la mer"
+          },
+          {
+            "text": "le père"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "le mère",
-          "la mer",
-          "le père"
-        ],
-        "hint": "Θηλυκό → la."
+        ]
       }
     },
     {
@@ -174,26 +175,27 @@
       "exercise": {
         "id": "ex-mc-goneis",
         "stable_id": "ex-ms9433j63gej9",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες «οι γονείς»;",
         "card_ids": [
           "les-parents"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Πληθυντικός → les.",
+        "options": [
           {
-            "accept": [
-              "les parents"
-            ]
+            "text": "les parents",
+            "correct": true
+          },
+          {
+            "text": "le parent"
+          },
+          {
+            "text": "la parents"
+          },
+          {
+            "text": "des parent"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "le parent",
-          "la parents",
-          "des parent"
-        ],
-        "hint": "Πληθυντικός → les."
+        ]
       }
     },
     {
@@ -203,26 +205,27 @@
       "exercise": {
         "id": "ex-mc-paidi",
         "stable_id": "ex-ms9433j63gfr2",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποιο άρθρο ταιριάζει: «___ enfant» (το παιδί);",
         "card_ids": [
           "lenfant"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Αρχίζει από φωνήεν.",
+        "options": [
           {
-            "accept": [
-              "l'"
-            ]
+            "text": "l'",
+            "correct": true
+          },
+          {
+            "text": "le"
+          },
+          {
+            "text": "la"
+          },
+          {
+            "text": "les"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "le",
-          "la",
-          "les"
-        ],
-        "hint": "Αρχίζει από φωνήεν."
+        ]
       }
     },
     {
@@ -232,26 +235,27 @@
       "exercise": {
         "id": "ex-mc-adelfi",
         "stable_id": "ex-ms9433j63gg7q",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες «η αδελφή»;",
         "card_ids": [
           "la-soeur"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Θηλυκό, με œ.",
+        "options": [
           {
-            "accept": [
-              "la sœur"
-            ]
+            "text": "la sœur",
+            "correct": true
+          },
+          {
+            "text": "le sœur"
+          },
+          {
+            "text": "la soeur du frère"
+          },
+          {
+            "text": "la fille"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "le sœur",
-          "la soeur du frère",
-          "la fille"
-        ],
-        "hint": "Θηλυκό, με œ."
+        ]
       }
     },
     {
@@ -321,26 +325,27 @@
       "exercise": {
         "id": "ex-mc-pere",
         "stable_id": "ex-ms9433j63gj80",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες «ο πατέρας»;",
         "card_ids": [
           "le-pere"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Αρσενικό → le.",
+        "options": [
           {
-            "accept": [
-              "le père"
-            ]
+            "text": "le père",
+            "correct": true
+          },
+          {
+            "text": "la père"
+          },
+          {
+            "text": "le mère"
+          },
+          {
+            "text": "les père"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "la père",
-          "le mère",
-          "les père"
-        ],
-        "hint": "Αρσενικό → le."
+        ]
       }
     }
   ]

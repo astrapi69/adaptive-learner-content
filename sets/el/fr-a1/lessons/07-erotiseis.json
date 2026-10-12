@@ -145,26 +145,27 @@
       "exercise": {
         "id": "ex-mc-cava",
         "stable_id": "ex-ms9433j73h9o9",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς ρωτάς ανεπίσημα «τι κάνεις;»",
         "card_ids": [
           "ca-va"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Κυριολεκτικά «πώς πάει;».",
+        "options": [
           {
-            "accept": [
-              "Comment ça va ?"
-            ]
+            "text": "Comment ça va ?",
+            "correct": true
+          },
+          {
+            "text": "Comment tu t'appelles ?"
+          },
+          {
+            "text": "Quel âge as-tu ?"
+          },
+          {
+            "text": "Qu'est-ce que c'est ?"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "Comment tu t'appelles ?",
-          "Quel âge as-tu ?",
-          "Qu'est-ce que c'est ?"
-        ],
-        "hint": "Κυριολεκτικά «πώς πάει;»."
+        ]
       }
     },
     {
@@ -174,26 +175,27 @@
       "exercise": {
         "id": "ex-mc-apantisi",
         "stable_id": "ex-ms9433j73has2",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποια είναι μια σωστή απάντηση στο «Comment ça va ?»",
         "card_ids": [
           "ca-va-bien"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "«Είμαι καλά.»",
+        "options": [
           {
-            "accept": [
-              "Ça va bien."
-            ]
+            "text": "Ça va bien.",
+            "correct": true
+          },
+          {
+            "text": "Je m'appelle bien."
+          },
+          {
+            "text": "J'ai bien."
+          },
+          {
+            "text": "Oui, un café."
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "Je m'appelle bien.",
-          "J'ai bien.",
-          "Oui, un café."
-        ],
-        "hint": "«Είμαι καλά.»"
+        ]
       }
     },
     {
@@ -203,26 +205,27 @@
       "exercise": {
         "id": "ex-mc-pou",
         "stable_id": "ex-ms9433j73hbmz",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποια λέξη σημαίνει «πού»;",
         "card_ids": [
           "ou"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Με βαρεία, για να ξεχωρίζει από το «ή».",
+        "options": [
           {
-            "accept": [
-              "où"
-            ]
+            "text": "où",
+            "correct": true
+          },
+          {
+            "text": "qui"
+          },
+          {
+            "text": "oui"
+          },
+          {
+            "text": "ou"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "qui",
-          "oui",
-          "ou"
-        ],
-        "hint": "Με βαρεία, για να ξεχωρίζει από το «ή»."
+        ]
       }
     },
     {
@@ -232,26 +235,27 @@
       "exercise": {
         "id": "ex-mc-ti-einai",
         "stable_id": "ex-ms9433j73hc3n",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς ρωτάς «τι είναι αυτό;»",
         "card_ids": [
           "quest-ce"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Πολλές εκθλίψεις: qu'est-ce.",
+        "options": [
           {
-            "accept": [
-              "Qu'est-ce que c'est ?"
-            ]
+            "text": "Qu'est-ce que c'est ?",
+            "correct": true
+          },
+          {
+            "text": "Qui est-ce ?"
+          },
+          {
+            "text": "Comment ça va ?"
+          },
+          {
+            "text": "Où est-ce ?"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "Qui est-ce ?",
-          "Comment ça va ?",
-          "Où est-ce ?"
-        ],
-        "hint": "Πολλές εκθλίψεις: qu'est-ce."
+        ]
       }
     },
     {
@@ -261,22 +265,16 @@
       "exercise": {
         "id": "ex-clz-oui",
         "stable_id": "ex-ms9433j73hdlw",
-        "type": "cloze",
+        "type": "free_text",
         "prompt": "Γράψε «ναι» στα γαλλικά.",
         "card_ids": [
           "oui"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "oui",
-              "Oui"
-            ]
-          }
-        ],
-        "cloze_mode": "type",
-        "hint": "Τρία γράμματα."
+        "hint": "Τρία γράμματα.",
+        "accept": [
+          "oui",
+          "Oui"
+        ]
       }
     },
     {
@@ -286,22 +284,16 @@
       "exercise": {
         "id": "ex-clz-non",
         "stable_id": "ex-ms9433j73hesl",
-        "type": "cloze",
+        "type": "free_text",
         "prompt": "Γράψε «όχι» στα γαλλικά.",
         "card_ids": [
           "non"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "non",
-              "Non"
-            ]
-          }
-        ],
-        "cloze_mode": "type",
-        "hint": "Τρία γράμματα, αρχίζει από n."
+        "hint": "Τρία γράμματα, αρχίζει από n.",
+        "accept": [
+          "non",
+          "Non"
+        ]
       }
     },
     {
@@ -311,26 +303,27 @@
       "exercise": {
         "id": "ex-mc-pourquoi",
         "stable_id": "ex-ms9433j73hffl",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποια λέξη σημαίνει «γιατί»;",
         "card_ids": [
           "pourquoi"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Ρωτάς την αιτία.",
+        "options": [
           {
-            "accept": [
-              "pourquoi"
-            ]
+            "text": "pourquoi",
+            "correct": true
+          },
+          {
+            "text": "qui"
+          },
+          {
+            "text": "où"
+          },
+          {
+            "text": "comment"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "qui",
-          "où",
-          "comment"
-        ],
-        "hint": "Ρωτάς την αιτία."
+        ]
       }
     }
   ]

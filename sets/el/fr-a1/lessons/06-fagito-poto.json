@@ -145,27 +145,28 @@
       "exercise": {
         "id": "ex-mc-voudrais",
         "stable_id": "ex-ms9433j63gtqq",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς ζητάς ευγενικά «θα ήθελα έναν καφέ»;",
         "card_ids": [
           "je-voudrais",
           "le-cafe"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "«Θα ήθελα» = je voudrais.",
+        "options": [
           {
-            "accept": [
-              "Je voudrais un café."
-            ]
+            "text": "Je voudrais un café.",
+            "correct": true
+          },
+          {
+            "text": "Je veux café."
+          },
+          {
+            "text": "J'ai un café."
+          },
+          {
+            "text": "Je suis un café."
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "Je veux café.",
-          "J'ai un café.",
-          "Je suis un café."
-        ],
-        "hint": "«Θα ήθελα» = je voudrais."
+        ]
       }
     },
     {
@@ -175,26 +176,27 @@
       "exercise": {
         "id": "ex-mc-eau",
         "stable_id": "ex-ms9433j63gu5z",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Ποιο άρθρο ταιριάζει: «___ eau» (το νερό);",
         "card_ids": [
           "leau2"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Αρχίζει από φωνήεν.",
+        "options": [
           {
-            "accept": [
-              "l'"
-            ]
+            "text": "l'",
+            "correct": true
+          },
+          {
+            "text": "le"
+          },
+          {
+            "text": "la"
+          },
+          {
+            "text": "les"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "le",
-          "la",
-          "les"
-        ],
-        "hint": "Αρχίζει από φωνήεν."
+        ]
       }
     },
     {
@@ -204,26 +206,27 @@
       "exercise": {
         "id": "ex-mc-pomme",
         "stable_id": "ex-ms9433j63gvin",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες «ένα μήλο» (θηλυκό);",
         "card_ids": [
           "une-pomme"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "pomme θηλυκό → une.",
+        "options": [
           {
-            "accept": [
-              "une pomme"
-            ]
+            "text": "une pomme",
+            "correct": true
+          },
+          {
+            "text": "un pomme"
+          },
+          {
+            "text": "le pomme"
+          },
+          {
+            "text": "des pomme"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "un pomme",
-          "le pomme",
-          "des pomme"
-        ],
-        "hint": "pomme θηλυκό → une."
+        ]
       }
     },
     {
@@ -233,26 +236,27 @@
       "exercise": {
         "id": "ex-mc-lait",
         "stable_id": "ex-ms9433j63gwff",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες «το γάλα»;",
         "card_ids": [
           "le-lait"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Αρσενικό → le.",
+        "options": [
           {
-            "accept": [
-              "le lait"
-            ]
+            "text": "le lait",
+            "correct": true
+          },
+          {
+            "text": "la lait"
+          },
+          {
+            "text": "l'lait"
+          },
+          {
+            "text": "les lait"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "la lait",
-          "l'lait",
-          "les lait"
-        ],
-        "hint": "Αρσενικό → le."
+        ]
       }
     },
     {
@@ -262,22 +266,16 @@
       "exercise": {
         "id": "ex-clz-cafe",
         "stable_id": "ex-ms9433j63gxaw",
-        "type": "cloze",
+        "type": "free_text",
         "prompt": "Γράψε «ο καφές» στα γαλλικά (άρθρο + λέξη, με τόνο).",
         "card_ids": [
           "le-cafe"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "le café",
-              "Le café"
-            ]
-          }
-        ],
-        "cloze_mode": "type",
-        "hint": "Μην ξεχάσεις τον τόνο: café."
+        "hint": "Μην ξεχάσεις τον τόνο: café.",
+        "accept": [
+          "le café",
+          "Le café"
+        ]
       }
     },
     {
@@ -311,26 +309,27 @@
       "exercise": {
         "id": "ex-mc-pain",
         "stable_id": "ex-ms9433j63gz4w",
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Πώς λες «το ψωμί»;",
         "card_ids": [
           "le-pain2"
         ],
-        "sentence": "___",
-        "blanks": [
+        "hint": "Αρσενικό → le.",
+        "options": [
           {
-            "accept": [
-              "le pain"
-            ]
+            "text": "le pain",
+            "correct": true
+          },
+          {
+            "text": "la pain"
+          },
+          {
+            "text": "l'pain"
+          },
+          {
+            "text": "les pain"
           }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "la pain",
-          "l'pain",
-          "les pain"
-        ],
-        "hint": "Αρσενικό → le."
+        ]
       }
     }
   ]

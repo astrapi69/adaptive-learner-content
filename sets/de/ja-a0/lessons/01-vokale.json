@@ -82,27 +82,29 @@
       "theory_ref": "step-vokale",
       "title": "Lesung von あ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man あ?",
         "card_ids": [
           "k-a"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "a"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "o",
-          "me",
-          "nu"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-a", "stable_id": "ex-ms9433ij2plip"
+        "id": "ex-r-a",
+        "stable_id": "ex-ms9433ij2plip",
+        "options": [
+          {
+            "text": "a",
+            "correct": true
+          },
+          {
+            "text": "o"
+          },
+          {
+            "text": "me"
+          },
+          {
+            "text": "nu"
+          }
+        ]
       }
     },
     {
@@ -111,27 +113,29 @@
       "theory_ref": "step-vokale",
       "title": "Lesung von え",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man え?",
         "card_ids": [
           "k-e"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "e"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "ne",
-          "n",
-          "a"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-e", "stable_id": "ex-ms9433ij2pmb4"
+        "id": "ex-r-e",
+        "stable_id": "ex-ms9433ij2pmb4",
+        "options": [
+          {
+            "text": "e",
+            "correct": true
+          },
+          {
+            "text": "ne"
+          },
+          {
+            "text": "n"
+          },
+          {
+            "text": "a"
+          }
+        ]
       }
     },
     {
@@ -140,27 +144,29 @@
       "theory_ref": "step-vokale",
       "title": "Lesung von お",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man お?",
         "card_ids": [
           "k-o"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "o"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "a",
-          "mu",
-          "me"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-o", "stable_id": "ex-ms9433ij2png9"
+        "id": "ex-r-o",
+        "stable_id": "ex-ms9433ij2png9",
+        "options": [
+          {
+            "text": "o",
+            "correct": true
+          },
+          {
+            "text": "a"
+          },
+          {
+            "text": "mu"
+          },
+          {
+            "text": "me"
+          }
+        ]
       }
     },
     {
@@ -169,27 +175,29 @@
       "theory_ref": "step-vokale",
       "title": "Zeichen für 'i'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „i\"?",
         "card_ids": [
           "k-i"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "い"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "り",
-          "こ",
-          "あ"
-        ],
         "hint": "Der Vokal aus der Grundreihe a-i-u-e-o.",
-        "id": "ex-c-i", "stable_id": "ex-ms9433ij2po3h"
+        "id": "ex-c-i",
+        "stable_id": "ex-ms9433ij2po3h",
+        "options": [
+          {
+            "text": "い",
+            "correct": true
+          },
+          {
+            "text": "り"
+          },
+          {
+            "text": "こ"
+          },
+          {
+            "text": "あ"
+          }
+        ]
       }
     },
     {
@@ -198,27 +206,29 @@
       "theory_ref": "step-vokale",
       "title": "Zeichen für 'u'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „u\"?",
         "card_ids": [
           "k-u"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "う"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "つ",
-          "ら",
-          "し"
-        ],
         "hint": "Der Vokal aus der Grundreihe a-i-u-e-o.",
-        "id": "ex-c-u", "stable_id": "ex-ms9433ij2pp83"
+        "id": "ex-c-u",
+        "stable_id": "ex-ms9433ij2pp83",
+        "options": [
+          {
+            "text": "う",
+            "correct": true
+          },
+          {
+            "text": "つ"
+          },
+          {
+            "text": "ら"
+          },
+          {
+            "text": "し"
+          }
+        ]
       }
     },
     {
@@ -251,7 +261,8 @@
           "な"
         ],
         "hint": "Die Grundreihe a-i-u-e-o.",
-        "id": "ex-ms-vok", "stable_id": "ex-ms9433ij2pq0e"
+        "id": "ex-ms-vok",
+        "stable_id": "ex-ms9433ij2pq0e"
       }
     },
     {
@@ -292,7 +303,8 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-vok", "stable_id": "ex-ms9433ij2prux"
+        "id": "ex-match-vok",
+        "stable_id": "ex-ms9433ij2prux"
       }
     },
     {
@@ -316,7 +328,8 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-o", "stable_id": "ex-ms9433ij2ps68"
+        "id": "ex-tip-o",
+        "stable_id": "ex-ms9433ij2ps68"
       }
     }
   ]

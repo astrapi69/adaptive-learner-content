@@ -159,27 +159,29 @@
       "theory_ref": "intro",
       "title": "Wirkung der Dakuten",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Was bewirken die zwei kleinen Striche (Dakuten) an einem Zeichen?",
         "card_ids": [
           "k-ga"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "Aus stimmlos wird stimmhaft (z. B. ka → ga)"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "Der Vokal wird verdoppelt",
-          "Das Zeichen wird stumm",
-          "Die Silbe wird zum kleinen Zeichen"
-        ],
         "hint": "か → が.",
-        "id": "ex-mc-dakuten", "stable_id": "ex-ms9433in2t5iv"
+        "id": "ex-mc-dakuten",
+        "stable_id": "ex-ms9433in2t5iv",
+        "options": [
+          {
+            "text": "Aus stimmlos wird stimmhaft (z. B. ka → ga)",
+            "correct": true
+          },
+          {
+            "text": "Der Vokal wird verdoppelt"
+          },
+          {
+            "text": "Das Zeichen wird stumm"
+          },
+          {
+            "text": "Die Silbe wird zum kleinen Zeichen"
+          }
+        ]
       }
     },
     {
@@ -188,27 +190,29 @@
       "theory_ref": "intro",
       "title": "Lesung von が",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man が?",
         "card_ids": [
           "k-ga"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ga"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "ka",
-          "na",
-          "a"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ga", "stable_id": "ex-ms9433in2t6xk"
+        "id": "ex-r-ga",
+        "stable_id": "ex-ms9433in2t6xk",
+        "options": [
+          {
+            "text": "ga",
+            "correct": true
+          },
+          {
+            "text": "ka"
+          },
+          {
+            "text": "na"
+          },
+          {
+            "text": "a"
+          }
+        ]
       }
     },
     {
@@ -217,27 +221,29 @@
       "theory_ref": "intro",
       "title": "Lesung von ざ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man ざ?",
         "card_ids": [
           "k-za"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "za"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "sa",
-          "ki",
-          "a"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-za", "stable_id": "ex-ms9433in2t77l"
+        "id": "ex-r-za",
+        "stable_id": "ex-ms9433in2t77l",
+        "options": [
+          {
+            "text": "za",
+            "correct": true
+          },
+          {
+            "text": "sa"
+          },
+          {
+            "text": "ki"
+          },
+          {
+            "text": "a"
+          }
+        ]
       }
     },
     {
@@ -246,27 +252,29 @@
       "theory_ref": "intro",
       "title": "Lesung von ぱ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man ぱ?",
         "card_ids": [
           "k-pa"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "pa"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "ha",
-          "ho",
-          "a"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-pa", "stable_id": "ex-ms9433in2t8wj"
+        "id": "ex-r-pa",
+        "stable_id": "ex-ms9433in2t8wj",
+        "options": [
+          {
+            "text": "pa",
+            "correct": true
+          },
+          {
+            "text": "ha"
+          },
+          {
+            "text": "ho"
+          },
+          {
+            "text": "a"
+          }
+        ]
       }
     },
     {
@@ -275,27 +283,29 @@
       "theory_ref": "step-jizu",
       "title": "Lesung von じ",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Wie liest man じ?",
         "card_ids": [
           "k-ji"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "ji"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "shi",
-          "tsu",
-          "a"
-        ],
         "hint": "Achte auf ähnlich aussehende Zeichen.",
-        "id": "ex-r-ji", "stable_id": "ex-ms9433in2t9by"
+        "id": "ex-r-ji",
+        "stable_id": "ex-ms9433in2t9by",
+        "options": [
+          {
+            "text": "ji",
+            "correct": true
+          },
+          {
+            "text": "shi"
+          },
+          {
+            "text": "tsu"
+          },
+          {
+            "text": "a"
+          }
+        ]
       }
     },
     {
@@ -304,27 +314,29 @@
       "theory_ref": "intro",
       "title": "Zeichen für 'da'",
       "exercise": {
-        "type": "cloze",
+        "type": "multiple_choice",
         "prompt": "Welches Zeichen liest man „da\"?",
         "card_ids": [
           "k-da"
         ],
-        "sentence": "___",
-        "blanks": [
-          {
-            "accept": [
-              "だ"
-            ]
-          }
-        ],
-        "cloze_mode": "select",
-        "distractors": [
-          "た",
-          "な",
-          "あ"
-        ],
         "hint": "Aus der T-Reihe, mit Dakuten stimmhaft gemacht.",
-        "id": "ex-c-da", "stable_id": "ex-ms9433in2tao3"
+        "id": "ex-c-da",
+        "stable_id": "ex-ms9433in2tao3",
+        "options": [
+          {
+            "text": "だ",
+            "correct": true
+          },
+          {
+            "text": "た"
+          },
+          {
+            "text": "な"
+          },
+          {
+            "text": "あ"
+          }
+        ]
       }
     },
     {
@@ -357,7 +369,8 @@
           "ば"
         ],
         "hint": "k-Reihe mit Dakuten.",
-        "id": "ex-ms-dak", "stable_id": "ex-ms9433in2tbrs"
+        "id": "ex-ms-dak",
+        "stable_id": "ex-ms9433in2tbrs"
       }
     },
     {
@@ -398,7 +411,8 @@
           }
         ],
         "direction": "target_to_source",
-        "id": "ex-match-g", "stable_id": "ex-ms9433in2tcq5"
+        "id": "ex-match-g",
+        "stable_id": "ex-ms9433in2tcq5"
       }
     },
     {
@@ -423,7 +437,8 @@
         ],
         "cloze_mode": "type",
         "hint": "Kleinbuchstaben, Hepburn (z. B. shi, chi, tsu, fu).",
-        "id": "ex-tip-ji", "stable_id": "ex-ms9433in2tds6"
+        "id": "ex-tip-ji",
+        "stable_id": "ex-ms9433in2tds6"
       }
     }
   ]
